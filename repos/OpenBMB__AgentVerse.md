@@ -80,10 +80,6 @@
 
 [See all commits ↗](https://github.com/OpenBMB/AgentVerse/commits)
 
-## 👥 Top contributors
-
-[chenweize1998](https://github.com/chenweize1998) (154) · [yushengsu-thu](https://github.com/yushengsu-thu) (100) · [chanchimin](https://github.com/chanchimin) (35) · [Xial-kotori](https://github.com/Xial-kotori) (11) · [libowen2121](https://github.com/libowen2121) (10)
-
 ## ⬇️ Get it
 
 ```bash

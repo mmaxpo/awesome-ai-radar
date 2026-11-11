@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/volcengine/OpenViking/issues) |
 | 💻 **Languages** | Python 67% · TypeScript 16% · Rust 11% · JavaScript 1% · C++ 1% |
 | 📜 **License** | AGPL-3.0 |
-| 🏷 **Topics** | `agent-context` `agent-memory` `agent-plugins` `agentic-rag` `context-database` `dsh-plugin` `knowledge-base` `memory` `memory-management` `self-evolving` `vector-database` |
+| 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) — 2026-11-11 |
@@ -34,17 +34,6 @@
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
-
-### [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1)
-<sub>2026-11-11 · today</sub>
-
-> **中文**
-> **修复与改进**
-> - **资源 write**：修正文件处理与父目录刷新的衔接，保留每个文件自身的摘要和索引工作；父目录独立刷新，不替代尚未完成的文件索引。`wait=true` 等待文件自身的处理完成，不等待父目录 L0/L1 和目录索引刷新，请求参数不变。[#7383](https://github.com/volcengine/OpenViking/pull/7383)
-> - **目录摘要**：待刷新期间复用已有文件摘要；恢复 `semantic.overview_sample_limit` 默认 32 项的稳定采样，文件自身仍完整建立索引。[#7380](https://github.com/volcengine/OpenViking/pull/7380)、[#7387](https://github.com/volcengine/OpenViking/pull/7387)
-> - **存储稳定性**：修复 `stat` 按记录 ID 查询的兼容性、向量 Collection 生命周期，以及多写元数据不完整时的启动问题。[#7377](https://github.com/volcengine/OpenViking/pull/7377)、[#7355](https://github.com/volcengine/OpenViking/pull/7355)、[#7381](https://github.com/volcengine/OpenViking/pull/7381)
-> - **Connector 与流式响应**：支持带作用域的 OAuth 引用，原生导入保留 Connector Watch；修复 Gateway 流式错误的结束标记。[#7259](https://github.com/volcengine/OpenViking/pull/7259)、[#7364](https://github.com/volcengine/OpenViking/pull/7364)、[#7010](https://github.com/volcengine/OpenViking/pull/7010)
-> …
 
 ### [openviking-superagent@0.5.2-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.2-preview) — OpenViking SuperAgent 0.5.2-preview _(pre-release)_
 <sub>2026-11-11 · today</sub>
@@ -55,6 +44,17 @@
 > curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/superagent/releases/0.5.2-preview/install.sh | sh -s -- --version 0.5.2-preview
 > ```
 > Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separately; this command and these release assets are for macOS / Linux.
+> …
+
+### [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1)
+<sub>2026-11-11 · today</sub>
+
+> **中文**
+> **修复与改进**
+> - **资源 write**：修正文件处理与父目录刷新的衔接，保留每个文件自身的摘要和索引工作；父目录独立刷新，不替代尚未完成的文件索引。`wait=true` 等待文件自身的处理完成，不等待父目录 L0/L1 和目录索引刷新，请求参数不变。[#7383](https://github.com/volcengine/OpenViking/pull/7383)
+> - **目录摘要**：待刷新期间复用已有文件摘要；恢复 `semantic.overview_sample_limit` 默认 32 项的稳定采样，文件自身仍完整建立索引。[#7380](https://github.com/volcengine/OpenViking/pull/7380)、[#7387](https://github.com/volcengine/OpenViking/pull/7387)
+> - **存储稳定性**：修复 `stat` 按记录 ID 查询的兼容性、向量 Collection 生命周期，以及多写元数据不完整时的启动问题。[#7377](https://github.com/volcengine/OpenViking/pull/7377)、[#7355](https://github.com/volcengine/OpenViking/pull/7355)、[#7381](https://github.com/volcengine/OpenViking/pull/7381)
+> - **Connector 与流式响应**：支持带作用域的 OAuth 引用，原生导入保留 Connector Watch；修复 Gateway 流式错误的结束标记。[#7259](https://github.com/volcengine/OpenViking/pull/7259)、[#7364](https://github.com/volcengine/OpenViking/pull/7364)、[#7010](https://github.com/volcengine/OpenViking/pull/7010)
 > …
 
 ### [openviking-superagent@0.5.1-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.1-preview) — OpenViking SuperAgent 0.5.1-preview _(pre-release)_
@@ -68,6 +68,11 @@
 > Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separately; this command and these release assets are for macOS / Linux.
 > …
 
+### [openviking-vika@0.5.0-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-vika%400.5.0-preview) — Vika 0.5.0-preview _(pre-release)_
+<sub>2026-11-09 · 2d ago</sub>
+
+> Install this version: `curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/vika/releases/0.5.0-preview/install.sh | sh -s -- --version 0.5.0-preview`
+
 ### [v0.5.4](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4)
 <sub>2026-11-09 · 2d ago</sub>
 
@@ -79,11 +84,6 @@
 > - **会话恢复与记忆整理**：失败或失去执行任务的归档支持带内容哈希的显式重试；可用 `ov compile memory` 整理当前用户的已有记忆。[#5802](https://github.com/volcengine/OpenViking/pull/5802)、[#6829](https://github.com/volcengine/OpenViking/pull/6829)
 > …
 
-### [python-sdk@0.1.19](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.19)
-<sub>2026-11-09 · 2d ago</sub>
-
-> _No notes._
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
@@ -94,16 +94,12 @@
 | 2026-11-11 | [fix(react): restore VikingBot message layout and references (#7460)](https://github.com/volcengine/OpenViking/commit/c6def608a25e6aa59fc24fa463f3e983c296318e) | LaamGinghong |
 | 2026-11-11 | [fix(feishu): support Wiki-backed files and native Slides imports (#7153)](https://github.com/volcengine/OpenViking/commit/8e5299efeb0a1e980ebcfc9b2df72851ac0595c9) | ShaoZegangByte |
 | 2026-11-11 | [fix(models): classify exhausted credit balances as quota errors (#7308)](https://github.com/volcengine/OpenViking/commit/c313b9e27082091c985b4181e376434eb0797f3d) | r266-tech |
-| 2026-11-11 | [ci(react): automate beta releases and keep stable releases manual (#7445)](https://github.com/volcengine/OpenViking/commit/9dc4922a92f9013f66703aa9846219da43f6e75f) | leowld |
+| 2026-11-11 | [ci(react): automate beta releases and keep stable releases manual (#7…](https://github.com/volcengine/OpenViking/commit/9dc4922a92f9013f66703aa9846219da43f6e75f) | leowld |
 | 2026-11-11 | [refactor(ragfs): modularize git service (#7442)](https://github.com/volcengine/OpenViking/commit/ed624589cd36b6322f648c45ac4cc954bde072d0) | baojun-zhang |
 | 2026-11-11 | [fix(cli): honor OPENVIKING_LANG during language initialization (#7439)](https://github.com/volcengine/OpenViking/commit/602c2ec1d532a8a61ec43376206a430bac0641a2) | nocvalight |
 | 2026-11-11 | [feat(gateway): let X-OpenViking-Context only narrow tool access (#7446)](https://github.com/volcengine/OpenViking/commit/5c8be88523753dee3b2dfa2ec068fdc95253a7a9) | t0saki |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
-
-## 👥 Top contributors
-
-[qin-ctx](https://github.com/qin-ctx) (334) · [ZaynJarvis](https://github.com/ZaynJarvis) (272) · [t0saki](https://github.com/t0saki) (208) · [zhoujh01](https://github.com/zhoujh01) (175) · [r266-tech](https://github.com/r266-tech) (157)
 
 ## ⬇️ Get it
 

@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/Mikubill/sd-webui-controlnet/commits)
 
-## 👥 Top contributors
-
-[lllyasviel](https://github.com/lllyasviel) (668) · [huchenlei](https://github.com/huchenlei) (395) · [Mikubill](https://github.com/Mikubill) (354) · [ljleb](https://github.com/ljleb) (176) · [missionfloyd](https://github.com/missionfloyd) (31)
-
 ## ⬇️ Get it
 
 ```bash

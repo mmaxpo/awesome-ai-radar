@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/cython/cython/issues) |
 | 💻 **Languages** | Cython 52% · Python 42% · C 7% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `big-data` `c` `cpp` `cpython` `cpython-extensions` `cython` `performance` `python` |
+| 🏷 **Topics** | `python` `cython` `cpython` `cpython-extensions` `c` `cpp` `performance` `big-data` |
 | 🕒 **Last activity** | 2026-11-10 (yesterday) |
 | 📅 **Created** | 2010-11-21 |
 | 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
@@ -65,21 +65,17 @@
 | Date | Change | By |
 |---|---|---|
 | 2026-11-10 | [Use IncRef/DecRef functions on old Limited API (#8125)](https://github.com/cython/cython/commit/c755f5c584a8dde1a5454fab2abcfef06a3c5bca) | da-woods |
-| 2026-11-08 | [Fix type inference for iteration over literal sequences with mixed item types (GH-8114)](https://github.com/cython/cython/commit/8fffbf87cca92edfba2c35e9c495c24bee2cd10a) | akasakariko |
+| 2026-11-08 | [Fix type inference for iteration over literal sequences with mixed it…](https://github.com/cython/cython/commit/8fffbf87cca92edfba2c35e9c495c24bee2cd10a) | akasakariko |
 | 2026-11-08 | [Update the default GCC version to GCC 11 (GH-8119)](https://github.com/cython/cython/commit/63f2de1574e5d4dc141d5a3ddf2601dbfbed7735) | da-woods |
 | 2026-11-05 | [Fix a few issues with the TSAN workflow run (#8111)](https://github.com/cython/cython/commit/211d68e592b5723de601620b02fc5bd914a2dd01) | da-woods |
-| 2026-11-05 | [CI: make success gates fail on cancelled jobs and detector failures (#8112)](https://github.com/cython/cython/commit/ca81bb1a22a677c287371fdd39efc385a850155d) | sotomayorlucas |
+| 2026-11-05 | [CI: make success gates fail on cancelled jobs and detector failures (…](https://github.com/cython/cython/commit/ca81bb1a22a677c287371fdd39efc385a850155d) | sotomayorlucas |
 | 2026-11-05 | [Move not none check into critical section (#8109)](https://github.com/cython/cython/commit/ccd894845c111e86c2c610b783e37b0a8eb70946) | da-woods |
-| 2026-11-03 | [Refactor if-cases in "flatten_parallel_assignments" to reduce redundancy and improve distinction.](https://github.com/cython/cython/commit/7b3aab3633c00a8e05f2e2ff13c044bd91ccb1ed) | scoder |
+| 2026-11-03 | [Refactor if-cases in "flatten_parallel_assignments" to reduce redunda…](https://github.com/cython/cython/commit/7b3aab3633c00a8e05f2e2ff13c044bd91ccb1ed) | scoder |
 | 2026-11-03 | [Update changelog.](https://github.com/cython/cython/commit/93c3481bdd3d31d167944ebd6bd92444f9f9ab18) | scoder |
 | 2026-11-03 | [Allow starred items on the right side of a parallel assignment (GH-8105)](https://github.com/cython/cython/commit/3878b242849eb4247337217be04ae2cb559b26ce) | Enricoftw |
 | 2026-11-02 | [Fix handling of None literals in string methods (#8100)](https://github.com/cython/cython/commit/4afa2e99edee42048d6d027763d1d009e5992b47) | da-woods |
 
 [See all commits ↗](https://github.com/cython/cython/commits)
-
-## 👥 Top contributors
-
-[scoder](https://github.com/scoder) (12123) · [robertwb](https://github.com/robertwb) (2732) · [da-woods](https://github.com/da-woods) (1243) · [markflorisson](https://github.com/markflorisson) (543) · [dalcinl](https://github.com/dalcinl) (367)
 
 ## ⬇️ Get it
 

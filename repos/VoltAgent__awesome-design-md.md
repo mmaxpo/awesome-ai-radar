@@ -1,6 +1,6 @@
-# voltagent/awesome-design-md
+# VoltAgent/awesome-design-md
 
-[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/voltagent/awesome-design-md)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/VoltAgent/awesome-design-md)
 
 > A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
 
@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 126.8k |
 | 🍴 **Forks** | 14.0k |
-| 🐞 **Open issues + PRs** | [304](https://github.com/voltagent/awesome-design-md/issues) |
+| 🐞 **Open issues + PRs** | [304](https://github.com/VoltAgent/awesome-design-md/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `awesome-list` `design-md` `design-system` `design-tokens` `figma` `landing-page` `vibe-coding` `vibe-design` `vibecoding` |
-| 🕒 **Last activity** | 2026-10-28 (13d ago) |
+| 🏷 **Topics** | `awesome-list` `design-md` `design-system` `landing-page` `design-tokens` `figma` `vibe-coding` `vibe-design` `vibecoding` |
+| 🕒 **Last activity** | 2026-10-28 (14d ago) |
 | 📅 **Created** | 2026-03-31 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -39,7 +39,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-10-28 | [docs: point starter kit banner to getdesign.md/website-starter-kit (#478)](https://github.com/VoltAgent/awesome-design-md/commit/fcc70284932276d085f01ef9f83edde90b1258cb) | necatiozmen |
+| 2026-10-28 | [docs: point starter kit banner to getdesign.md/website-starter-kit (#…](https://github.com/VoltAgent/awesome-design-md/commit/fcc70284932276d085f01ef9f83edde90b1258cb) | necatiozmen |
 | 2026-10-28 | [Merge pull request #477 from VoltAgent/docs/readd-launchkit-banner](https://github.com/VoltAgent/awesome-design-md/commit/19d13cbf4b20dc054a49eac39ed6bf4969f262ea) | necatiozmen |
 | 2026-10-28 | [docs: re-add LaunchKit banner under Request a DESIGN.md](https://github.com/VoltAgent/awesome-design-md/commit/4755ab861923348d20e335a5cfd5e7e12fff0015) | necatiozmen |
 | 2026-10-14 | [Remove AI Design + Build Ecosystem Tools section](https://github.com/VoltAgent/awesome-design-md/commit/3b605329240ce735b510037cca322f1831fdd7f8) | necatiozmen |
@@ -50,14 +50,10 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-07-31 | [update README](https://github.com/VoltAgent/awesome-design-md/commit/8147538b4226ae41e2487a9179e3bcc1f68e8554) | necatiozmen |
 | 2026-06-16 | [Update launchkit banner image in README](https://github.com/VoltAgent/awesome-design-md/commit/664b3e78fd1a298ba11973822da988483256d4b4) | necatiozmen |
 
-[See all commits ↗](https://github.com/voltagent/awesome-design-md/commits)
-
-## 👥 Top contributors
-
-[necatiozmen](https://github.com/necatiozmen) (66) · [doanbactam](https://github.com/doanbactam) (1) · [LeeDoYup](https://github.com/LeeDoYup) (1) · [omeraplak](https://github.com/omeraplak) (1)
+[See all commits ↗](https://github.com/VoltAgent/awesome-design-md/commits)
 
 ## ⬇️ Get it
 
 ```bash
-git clone https://github.com/voltagent/awesome-design-md.git
+git clone https://github.com/VoltAgent/awesome-design-md.git
 ```

@@ -44,7 +44,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2024-10-22 | [Merge pull request #25 from aksj98/main](https://github.com/hkproj/pytorch-stable-diffusion/commit/6e6900078372af15eb1b13e73068cd563784f377) | hkproj |
 | 2024-10-22 | [Update README.md](https://github.com/hkproj/pytorch-stable-diffusion/commit/d31e386db49cf9f127d3dad61b8ac4ace2a2c9d9) | aksj98 |
 | 2024-03-03 | [Merge pull request #12 from LemonFace0309/main](https://github.com/hkproj/pytorch-stable-diffusion/commit/e0cb06de011787cdf13eed7b4287ad8410491149) | hkproj |
-| 2024-03-03 | [fix: comment of shape of q and v in intermediate calculation in attention.py](https://github.com/hkproj/pytorch-stable-diffusion/commit/a9130aefcffe2cfa55530b65077065a502bf866e) | LemonFace0309 |
+| 2024-03-03 | [fix: comment of shape of q and v in intermediate calculation in atten…](https://github.com/hkproj/pytorch-stable-diffusion/commit/a9130aefcffe2cfa55530b65077065a502bf866e) | LemonFace0309 |
 | 2024-02-25 | [updated fine-tuned models link](https://github.com/hkproj/pytorch-stable-diffusion/commit/fb91cf658bc20ae719051f02083eaab7c9821451) | hkproj |
 | 2024-02-25 | [Merge pull request #9 from nick8592/main](https://github.com/hkproj/pytorch-stable-diffusion/commit/e23f318f0af66d02bee232a5618dc15419efd5f6) | hkproj |
 | 2024-02-22 | [Update pipeline.py](https://github.com/hkproj/pytorch-stable-diffusion/commit/e2f7e666c5322d27cdc871c2f92b3c0f83b51b69) | nick8592 |
@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2023-09-25 | [added slides](https://github.com/hkproj/pytorch-stable-diffusion/commit/499ca40846b93b9f41b812117da43851df7982ca) | hkproj |
 
 [See all commits ↗](https://github.com/hkproj/pytorch-stable-diffusion/commits)
-
-## 👥 Top contributors
-
-[hkproj](https://github.com/hkproj) (18) · [aksj98](https://github.com/aksj98) (1) · [LemonFace0309](https://github.com/LemonFace0309) (1) · [nick8592](https://github.com/nick8592) (1)
 
 ## ⬇️ Get it
 

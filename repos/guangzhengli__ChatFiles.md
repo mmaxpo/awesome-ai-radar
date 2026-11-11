@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [18](https://github.com/guangzhengli/ChatFiles/issues) |
 | 💻 **Languages** | TypeScript 96% · JavaScript 2% · CSS 1% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `chatbot` `chatfile` `chatgpt` `chatgpt-api` `chatpdf` |
+| 🏷 **Topics** | `chatbot` `chatgpt` `chatgpt-api` `chatpdf` `chatfile` |
 | 🕒 **Last activity** | 2024-12-17 (1y ago) |
 | 📅 **Created** | 2023-03-28 |
 | 📦 **Latest release** | [v0.3.3](https://github.com/guangzhengli/ChatFiles/releases/tag/v0.3.3) — 2023-06-28 |
@@ -92,10 +92,6 @@
 | 2023-06-28 | [refactor: delete unused import.](https://github.com/guangzhengli/ChatFiles/commit/df9e21dfdfbcf1e5af743eb3847379b75012b22c) | guangzhengli |
 
 [See all commits ↗](https://github.com/guangzhengli/ChatFiles/commits)
-
-## 👥 Top contributors
-
-[guangzhengli](https://github.com/guangzhengli) (157) · [qazxcdswe123](https://github.com/qazxcdswe123) (2) · [gunjan5](https://github.com/gunjan5) (1) · [WyattJia](https://github.com/WyattJia) (1) · [mrcashcash](https://github.com/mrcashcash) (1)
 
 ## ⬇️ Get it
 

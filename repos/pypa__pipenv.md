@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [3](https://github.com/pypa/pipenv/issues) |
 | 💻 **Languages** | Python 82% · HTML 18% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `packaging` `pip` `pipfile` `python` `virtualenv` |
+| 🏷 **Topics** | `pip` `python` `packaging` `virtualenv` `pipfile` |
 | 🕒 **Last activity** | 2026-11-09 (yesterday) |
 | 📅 **Created** | 2017-01-20 |
 | 📦 **Latest release** | [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — 2026-11-09 |
@@ -58,7 +58,7 @@
 > …
 
 ### [v2026.10.5](https://github.com/pypa/pipenv/releases/tag/v2026.10.5) — Release v2026.10.5
-<sub>2026-11-01 · 9d ago</sub>
+<sub>2026-11-01 · 10d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -106,10 +106,6 @@
 | 2026-11-06 | [Add news fragment for PR 6781](https://github.com/pypa/pipenv/commit/824e517cc08886af58eaef1be7ac124a6ab4c6b6) | matteius |
 
 [See all commits ↗](https://github.com/pypa/pipenv/commits)
-
-## 👥 Top contributors
-
-[kennethreitz](https://github.com/kennethreitz) (2699) · [techalchemy](https://github.com/techalchemy) (1971) · [matteius](https://github.com/matteius) (1725) · [oz123](https://github.com/oz123) (631) · [frostming](https://github.com/frostming) (479)
 
 ## ⬇️ Get it
 

@@ -77,10 +77,6 @@
 
 [See all commits ↗](https://github.com/modelscope/DiffSynth-Studio/commits)
 
-## 👥 Top contributors
-
-[Artiprocher](https://github.com/Artiprocher) (917) · [mi804](https://github.com/mi804) (217) · [Feng0w0](https://github.com/Feng0w0) (40) · [lzws](https://github.com/lzws) (28) · [yjy415](https://github.com/yjy415) (10)
-
 ## ⬇️ Get it
 
 ```bash

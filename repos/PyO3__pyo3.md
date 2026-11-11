@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [414](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `binding` `ffi` `python` `python-c-api` `rust` |
+| 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
 | 🕒 **Last activity** | 2026-11-08 (2d ago) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
@@ -101,10 +101,6 @@
 | 2026-10-23 | [Use `PyType_FastSubclass` on `RustPython` (#6541)](https://github.com/PyO3/pyo3/commit/424149e8a1c42128b05a090941673008fc46c478) | bschoenmaeckers |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
-
-## 👥 Top contributors
-
-[davidhewitt](https://github.com/davidhewitt) (2458) · [kngwyu](https://github.com/kngwyu) (802) · [konstin](https://github.com/konstin) (422) · [fafhrd91](https://github.com/fafhrd91) (379) · [messense](https://github.com/messense) (284)
 
 ## ⬇️ Get it
 

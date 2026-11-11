@@ -54,10 +54,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/JoshuaC215/agent-service-toolkit/commits)
 
-## 👥 Top contributors
-
-[JoshuaC215](https://github.com/JoshuaC215) (181) · [dependabot[bot]](https://github.com/dependabot[bot]) (17) · [gbaian10](https://github.com/gbaian10) (10) · [xytian315](https://github.com/xytian315) (6) · [aperkins1310](https://github.com/aperkins1310) (5)
-
 ## ⬇️ Get it
 
 ```bash

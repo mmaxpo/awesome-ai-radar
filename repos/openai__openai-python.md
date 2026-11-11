@@ -93,16 +93,12 @@
 | 2026-11-10 | [feat(api): add typed async function tools (#4264)](https://github.com/openai/openai-python/commit/ea07983f796144835ab3f2cad38fdca04c997a0e) | markstuart-oai |
 | 2026-11-10 | [fix: encode microphone recordings as valid PCM WAV (#3900)](https://github.com/openai/openai-python/commit/13c000d1f32c1e3e3c4b3e16bc6b956dfd4f5216) | HaokaiDing |
 | 2026-11-09 | [release: 3.48.0 (#4252)](https://github.com/openai/openai-python/commit/7e1582ceb3966e2b8a8362e5e7478fcfdcf82f92) | openai-sdks[bot] |
-| 2026-11-09 | [chore(deps-dev): bump types-requests from 2.33.0.20261006 to 2.33.0.20261030 (#4260)](https://github.com/openai/openai-python/commit/de498d730cafa51f5fb0640f0335719957ea1733) | dependabot[bot] |
+| 2026-11-09 | [chore(deps-dev): bump types-requests from 2.33.0.20261006 to 2.33.0.2…](https://github.com/openai/openai-python/commit/de498d730cafa51f5fb0640f0335719957ea1733) | dependabot[bot] |
 | 2026-11-09 | [chore(deps): bump multidict from 6.9.1 to 7.1.0 (#4259)](https://github.com/openai/openai-python/commit/28cdb1beef191368a61a25bbf56371065387deb4) | dependabot[bot] |
-| 2026-11-09 | [chore(deps-dev): bump the python-maintenance group with 5 updates (#4258)](https://github.com/openai/openai-python/commit/4b10e223452ae7450a5423ee30c13115ae9652ef) | dependabot[bot] |
+| 2026-11-09 | [chore(deps-dev): bump the python-maintenance group with 5 updates (#4…](https://github.com/openai/openai-python/commit/4b10e223452ae7450a5423ee30c13115ae9652ef) | dependabot[bot] |
 | 2026-11-08 | [feat(api): recognize gpt-6-rosalind in beta Responses (#4257)](https://github.com/openai/openai-python/commit/3774b7ed775b4bff99b45ef961c5d1f6c82b8e99) | dpiet-oai |
 
 [See all commits ↗](https://github.com/openai/openai-python/commits)
-
-## 👥 Top contributors
-
-[stainless-app[bot]](https://github.com/stainless-app[bot]) (704) · [stainless-bot](https://github.com/stainless-bot) (276) · [apcha-oai](https://github.com/apcha-oai) (114) · [jbeckwith-oai](https://github.com/jbeckwith-oai) (102) · [RobertCraigie](https://github.com/RobertCraigie) (96)
 
 ## ⬇️ Get it
 

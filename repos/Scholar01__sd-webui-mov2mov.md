@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/Scholar01/sd-webui-mov2mov/commits)
 
-## 👥 Top contributors
-
-[Scholar01](https://github.com/Scholar01) (49) · [Koyori0](https://github.com/Koyori0) (16) · [DavG25](https://github.com/DavG25) (3) · [ShineYull](https://github.com/ShineYull) (1)
-
 ## ⬇️ Get it
 
 ```bash

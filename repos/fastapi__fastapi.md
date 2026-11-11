@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [54](https://github.com/fastapi/fastapi/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `api` `async` `asyncio` `fastapi` `framework` `json` `json-schema` `openapi` `openapi3` `pydantic` `python` `python-types` `python3` `redoc` `rest` `starlette` `swagger` `swagger-ui` `uvicorn` `web` |
+| 🏷 **Topics** | `python` `json` `swagger-ui` `redoc` `starlette` `openapi` `api` `openapi3` `framework` `async` `asyncio` `uvicorn` `python3` `python-types` `pydantic` `json-schema` `fastapi` `swagger` `rest` `web` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2018-12-08 |
 | 📦 **Latest release** | [0.162.4](https://github.com/fastapi/fastapi/releases/tag/0.162.4) — 2026-11-10 |
@@ -54,7 +54,7 @@
 > …
 
 ### [0.162.2](https://github.com/fastapi/fastapi/releases/tag/0.162.2)
-<sub>2026-11-07 · 3d ago</sub>
+<sub>2026-11-07 · 4d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Docs**
@@ -88,7 +88,7 @@
 | Date | Change | By |
 |---|---|---|
 | 2026-11-10 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/e1144f6954eb8dd8c306f8dd2f5f0a14bbeb2cfd) | latest-changes[bot] |
-| 2026-11-10 | [➖ Drop `pydantic-ai` dependency, use `pydantic-ai-slim[openai]` instead (#16526)](https://github.com/fastapi/fastapi/commit/1c78a216472a56a9346b78a795ce9024d8f2e0e4) | YuriiMotov |
+| 2026-11-10 | [➖ Drop `pydantic-ai` dependency, use `pydantic-ai-slim[openai]` inste…](https://github.com/fastapi/fastapi/commit/1c78a216472a56a9346b78a795ce9024d8f2e0e4) | YuriiMotov |
 | 2026-11-10 | [🔖 Release version 0.162.4 (#16731)](https://github.com/fastapi/fastapi/commit/e10178c18d8dc2dcc21a70e14152253abc4a4e2f) | pr-submit[bot] |
 | 2026-11-10 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/af628068e772b05bb56bf050cc99f2817b9020f9) | latest-changes[bot] |
 | 2026-11-10 | [🐛 Require AnyIO 4.1.0 or newer at runtime (#16730)](https://github.com/fastapi/fastapi/commit/0902e8b5599031cca795e43964922a07d7c6c9b2) | tiangolo |
@@ -99,10 +99,6 @@
 | 2026-11-10 | [⬆️ Update locked Pydantic to 2.14.3 (#16728)](https://github.com/fastapi/fastapi/commit/60acfa1b73dab918aeec21ca49815c42dbf53bc7) | tiangolo |
 
 [See all commits ↗](https://github.com/fastapi/fastapi/commits)
-
-## 👥 Top contributors
-
-[tiangolo](https://github.com/tiangolo) (2341) · [github-actions[bot]](https://github.com/github-actions[bot]) (813) · [dependabot[bot]](https://github.com/dependabot[bot]) (257) · [latest-changes[bot]](https://github.com/latest-changes[bot]) (195) · [YuriiMotov](https://github.com/YuriiMotov) (126)
 
 ## ⬇️ Get it
 

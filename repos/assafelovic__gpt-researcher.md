@@ -22,10 +22,10 @@
 |---|---|
 | ⭐ **Stars** | 30.6k |
 | 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [18](https://github.com/assafelovic/gpt-researcher/issues) |
+| 🐞 **Open issues + PRs** | [19](https://github.com/assafelovic/gpt-researcher/issues) |
 | 💻 **Languages** | Python 66% · TypeScript 24% · JavaScript 4% · CSS 4% · HCL 1% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `agent` `ai` `automation` `deepresearch` `llms` `mcp` `mcp-server` `python` `research` `search` `webscraping` |
+| 🏷 **Topics** | `ai` `python` `agent` `automation` `research` `search` `webscraping` `llms` `deepresearch` `mcp` `mcp-server` |
 | 🕒 **Last activity** | 2026-11-09 (2d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — 2026-11-09 |
@@ -99,17 +99,13 @@
 | 2026-11-09 | [ci(docker): use the Node 24 majors of the Docker actions](https://github.com/assafelovic/gpt-researcher/commit/5016a09e4ffb238f176f8ff5ed4e2584c68e4d6b) | assafelovic |
 | 2026-11-09 | [chore(release): 0.17.0, single [project] metadata table](https://github.com/assafelovic/gpt-researcher/commit/273a073938ae62c86cfd5083c9900220ebacf735) | assafelovic |
 | 2026-11-09 | [chore(frontend): stop tracking the next-pwa service worker build output](https://github.com/assafelovic/gpt-researcher/commit/dc1c4c42af6340493b7d9a5b748fa99b4eecf714) | assafelovic |
-| 2026-11-09 | [Merge PR #2222: docs: sync Chinese README (README-zh_CN.md) with the English README](https://github.com/assafelovic/gpt-researcher/commit/937dac255ec9dc6908ed0355d22b37170344027d) | assafelovic |
-| 2026-11-09 | [Merge PR #1924: feat: update MiniMax regional providers and Flash defaults](https://github.com/assafelovic/gpt-researcher/commit/08013dffbd33db5010738a9f5ca368260c1b4786) | assafelovic |
+| 2026-11-09 | [Merge PR #2222: docs: sync Chinese README (README-zh_CN.md) with the …](https://github.com/assafelovic/gpt-researcher/commit/937dac255ec9dc6908ed0355d22b37170344027d) | assafelovic |
+| 2026-11-09 | [Merge PR #1924: feat: update MiniMax regional providers and Flash def…](https://github.com/assafelovic/gpt-researcher/commit/08013dffbd33db5010738a9f5ca368260c1b4786) | assafelovic |
 | 2026-11-09 | [Merge PR #2184: feat: add Deploy on Render page and render.yaml](https://github.com/assafelovic/gpt-researcher/commit/f98e0054d74db9a6710394ae23678d12c82d2584) | assafelovic |
-| 2026-11-09 | [Merge PR #2231: fix(scraper): retry HTTP 403 with a transparent user agent](https://github.com/assafelovic/gpt-researcher/commit/07b262feff37e3f559fb1a687a0e895f94a00ad0) | assafelovic |
+| 2026-11-09 | [Merge PR #2231: fix(scraper): retry HTTP 403 with a transparent user …](https://github.com/assafelovic/gpt-researcher/commit/07b262feff37e3f559fb1a687a0e895f94a00ad0) | assafelovic |
 | 2026-11-09 | [Merge PR #2232: feat: add an optional research lifecycle observer](https://github.com/assafelovic/gpt-researcher/commit/3537a245e76e449100be1bb1930ea9931aa3fe8b) | assafelovic |
 
 [See all commits ↗](https://github.com/assafelovic/gpt-researcher/commits)
-
-## 👥 Top contributors
-
-[assafelovic](https://github.com/assafelovic) (1679) · [ElishaKay](https://github.com/ElishaKay) (566) · [rotemweiss57](https://github.com/rotemweiss57) (72) · [xian0x5a](https://github.com/xian0x5a) (67) · [Bartok9](https://github.com/Bartok9) (46)
 
 ## ⬇️ Get it
 

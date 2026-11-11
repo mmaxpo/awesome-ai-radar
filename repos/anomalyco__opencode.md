@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 226.1k |
 | 🍴 **Forks** | 30.6k |
-| 🐞 **Open issues + PRs** | [4.2k](https://github.com/anomalyco/opencode/issues) |
+| 🐞 **Open issues + PRs** | [4.3k](https://github.com/anomalyco/opencode/issues) |
 | 💻 **Languages** | TypeScript 84% · MDX 12% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
@@ -88,22 +88,18 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [chore(protocol): refresh generated openapi for the first-token event …](https://github.com/anomalyco/opencode/commit/aa08bb2e347e694c12293e232f0f07cb7f99c1cf) | thdxr |
 | 2026-11-11 | [fix(session): measure tps from the first streamed token (#63321)](https://github.com/anomalyco/opencode/commit/99f2bea6dfd77bda4bdc8150cca71cb93ee32194) | thdxr |
 | 2026-11-11 | [fix(app): accept a pasted redirect URL for provider sign-in (#63315)](https://github.com/anomalyco/opencode/commit/2ef38b2172d646c2813aee56192e7f17dd97922a) | neriousy |
 | 2026-11-11 | [fix(tui): give plugins a live theme view (#63306)](https://github.com/anomalyco/opencode/commit/7b65261fcd8f75336f64e4d4f3f30127925a4893) | sidevesh |
-| 2026-11-11 | [feat(app): limit Recent sidebar to 7 days and 30 rows, align its hover preview (#63313)](https://github.com/anomalyco/opencode/commit/e376ba0e0d0d237a70eeeecc8ac150b6837169c8) | jlongster |
+| 2026-11-11 | [feat(app): limit Recent sidebar to 7 days and 30 rows, align its hove…](https://github.com/anomalyco/opencode/commit/e376ba0e0d0d237a70eeeecc8ac150b6837169c8) | jlongster |
 | 2026-11-11 | [fix(app): snap vertical tab preview to its tab (#63074)](https://github.com/anomalyco/opencode/commit/96579e88acb79c8a9a04729dbe4138098bb97f6e) | arvsrn |
 | 2026-11-11 | [feat(app): add the New timeline experiment (#63295)](https://github.com/anomalyco/opencode/commit/9e3290ab6ce24f1abfcb957a81748be48d2d5dc1) | arvsrn |
-| 2026-11-11 | [fix(site): show download and install menus again after closing them (#63311)](https://github.com/anomalyco/opencode/commit/d093e7a73cbe490c422b955f92afec9cd630279d) | thdxr |
+| 2026-11-11 | [fix(site): show download and install menus again after closing them (…](https://github.com/anomalyco/opencode/commit/d093e7a73cbe490c422b955f92afec9cd630279d) | thdxr |
 | 2026-11-11 | [fix(ci): treat require-digests=false as off in verify-artifacts](https://github.com/anomalyco/opencode/commit/611cee9d4b667b459f19ca0cbf6e76d8647535fb) | thdxr |
-| 2026-11-11 | [fix(core): fetch Console instructions and skills only when the config says the workspace has them (#…](https://github.com/anomalyco/opencode/commit/d4ea024c4cfe4cf5ba972e48f28f41a017c7532f) | adamdotdevin |
-| 2026-11-11 | [fix(deploy): run Cloudflare deploys from verified artifacts behind pinned targets](https://github.com/anomalyco/opencode/commit/7bac5bad02f68b95fc5c2c022252c0635ea61abe) | thdxr |
+| 2026-11-11 | [fix(core): fetch Console instructions and skills only when the config…](https://github.com/anomalyco/opencode/commit/d4ea024c4cfe4cf5ba972e48f28f41a017c7532f) | adamdotdevin |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
-
-## 👥 Top contributors
-
-[thdxr](https://github.com/thdxr) (3055) · [opencode-agent[bot]](https://github.com/opencode-agent[bot]) (2712) · [rekram1-node](https://github.com/rekram1-node) (2696) · [kitlangton](https://github.com/kitlangton) (2441) · [adamdotdevin](https://github.com/adamdotdevin) (2184)
 
 ## ⬇️ Get it
 

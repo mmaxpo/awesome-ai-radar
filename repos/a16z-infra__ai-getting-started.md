@@ -47,16 +47,12 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2024-05-30 | [Added Arcjet security (Shield, rate limit, bot detection)](https://github.com/a16z-infra/ai-getting-started/commit/d202c38cb84df2344d8c63322d2b883604b6a079) | davidmytton |
 | 2023-09-11 | [Merge pull request #61 from fmhall/mason/support-larger-corpus](https://github.com/a16z-infra/ai-getting-started/commit/0f659c1f674b760aeeecee98b93fa31b0803fb8c) | ykhli |
 | 2023-09-11 | [added doc chunking](https://github.com/a16z-infra/ai-getting-started/commit/e2312ca9138dd83ced3876a1bb8c7ff2efd556f9) | fmhall |
-| 2023-07-21 | [Merge pull request #58 from a16z-infra/dependabot/npm_and_yarn/word-wrap-1.2.4](https://github.com/a16z-infra/ai-getting-started/commit/d9f48d8d3191e56b681627b79e3f4516a7d5f4cf) | timqian |
+| 2023-07-21 | [Merge pull request #58 from a16z-infra/dependabot/npm_and_yarn/word-w…](https://github.com/a16z-infra/ai-getting-started/commit/d9f48d8d3191e56b681627b79e3f4516a7d5f4cf) | timqian |
 | 2023-07-20 | [Bump word-wrap from 1.2.3 to 1.2.4](https://github.com/a16z-infra/ai-getting-started/commit/1ae050f8a0ff750ed2bffcaa4f19238cd18dabc3) | dependabot[bot] |
-| 2023-07-14 | [Merge pull request #54 from a16z-infra/dependabot/npm_and_yarn/semver-6.3.1](https://github.com/a16z-infra/ai-getting-started/commit/697ef1c4acc2f56e3346b2dd43c50998176e8fd3) | timqian |
+| 2023-07-14 | [Merge pull request #54 from a16z-infra/dependabot/npm_and_yarn/semver…](https://github.com/a16z-infra/ai-getting-started/commit/697ef1c4acc2f56e3346b2dd43c50998176e8fd3) | timqian |
 | 2023-07-13 | [Bump semver from 6.3.0 to 6.3.1](https://github.com/a16z-infra/ai-getting-started/commit/f141472557185e32340b3ce97369acf3d061fd38) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/a16z-infra/ai-getting-started/commits)
-
-## 👥 Top contributors
-
-[ykhli](https://github.com/ykhli) (71) · [timqian](https://github.com/timqian) (19) · [jenniferli23](https://github.com/jenniferli23) (3) · [davidmytton](https://github.com/davidmytton) (3) · [rajko-rad](https://github.com/rajko-rad) (3)
 
 ## ⬇️ Get it
 

@@ -94,22 +94,18 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [fix(scheduler): start requests that arrive mid-prefill after the running chunk (#5175)](https://github.com/jundot/omlx/commit/95a33f88c622f3f72f84cb9bd2a5b59e40edafe1) | jundot |
-| 2026-11-11 | [fix(prefill-helper): retry an offline helper when a long prompt arrives (#5166)](https://github.com/jundot/omlx/commit/6a98f70715ff77b2328592258fdd7f6b24db7655) | jundot |
+| 2026-11-11 | [fix(scheduler): start requests that arrive mid-prefill after the runn…](https://github.com/jundot/omlx/commit/95a33f88c622f3f72f84cb9bd2a5b59e40edafe1) | jundot |
+| 2026-11-11 | [fix(prefill-helper): retry an offline helper when a long prompt arriv…](https://github.com/jundot/omlx/commit/6a98f70715ff77b2328592258fdd7f6b24db7655) | jundot |
 | 2026-11-11 | [fix: remove three intermittent CI failures on main (#5171)](https://github.com/jundot/omlx/commit/14fab9c049effe6d3556c95753c4608d1f846a3c) | jundot |
-| 2026-11-11 | [fix(prefill-helper): retry a helper that does not answer over SSH (#5169)](https://github.com/jundot/omlx/commit/6eec8d51fab1664a255aaaaa6f3f998cbf9011e3) | yanzhaohui1999 |
+| 2026-11-11 | [fix(prefill-helper): retry a helper that does not answer over SSH (#5…](https://github.com/jundot/omlx/commit/6eec8d51fab1664a255aaaaa6f3f998cbf9011e3) | yanzhaohui1999 |
 | 2026-11-11 | [feat(macos): simplify the model library list](https://github.com/jundot/omlx/commit/267de8e8d7dd9c84626e457571e8b7e90237b397) | jundot |
 | 2026-11-11 | [fix(macos): show model aliases and prefer aliases when copying (#5091)](https://github.com/jundot/omlx/commit/a88306eb92b834c682e30cf2bd02b5155c274cb8) | ngutech21 |
 | 2026-11-11 | [fix(qwen4-exp): keep g13/g14 GPUs on the MLX path (#5089)](https://github.com/jundot/omlx/commit/e03190e31af53b3fc9fa4b562f064367b9ec89aa) | begcdn |
-| 2026-11-11 | [fix(tool-calling): count a declared tool name as call evidence only in call position (#4433)](https://github.com/jundot/omlx/commit/b3214c0da92f69b633ad141d56e5885be338429b) | Flo5k5 |
-| 2026-11-11 | [fix(scheduler): keep the Metal wired limit when a batch generator closes (#5165)](https://github.com/jundot/omlx/commit/98fd1b71b5b303e00d46e0f4028a2b8414db8b40) | jundot |
+| 2026-11-11 | [fix(tool-calling): count a declared tool name as call evidence only i…](https://github.com/jundot/omlx/commit/b3214c0da92f69b633ad141d56e5885be338429b) | Flo5k5 |
+| 2026-11-11 | [fix(scheduler): keep the Metal wired limit when a batch generator clo…](https://github.com/jundot/omlx/commit/98fd1b71b5b303e00d46e0f4028a2b8414db8b40) | jundot |
 | 2026-11-11 | [fix(stt): reserve realtime sessions before backend startup (#5092)](https://github.com/jundot/omlx/commit/db4b4176985277359f739655a01eae5e3a6fa412) | Aminark |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
-
-## 👥 Top contributors
-
-[jundot](https://github.com/jundot) (2273) · [cfbraun](https://github.com/cfbraun) (85) · [LXD-8](https://github.com/LXD-8) (62) · [jonathan308](https://github.com/jonathan308) (51) · [github-actions[bot]](https://github.com/github-actions[bot]) (37)
 
 ## ⬇️ Get it
 

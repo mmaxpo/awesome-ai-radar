@@ -94,22 +94,18 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [Merge pull request #5518 from modelcontextprotocol/v2/chore/5509-release-v2.4.0](https://github.com/modelcontextprotocol/servers/commit/e1dc4b18dbb948921da37f3d4224a628730b43b0) | cliffhall |
-| 2026-11-11 | [Merge pull request #5470 from modelcontextprotocol/changeset-release/v2/main](https://github.com/modelcontextprotocol/servers/commit/6cfff622fb8eb41e2504340d5a6105d34094143c) | cliffhall |
+| 2026-11-11 | [Merge pull request #5518 from modelcontextprotocol/v2/chore/5509-rele…](https://github.com/modelcontextprotocol/servers/commit/e1dc4b18dbb948921da37f3d4224a628730b43b0) | cliffhall |
+| 2026-11-11 | [Merge pull request #5470 from modelcontextprotocol/changeset-release/…](https://github.com/modelcontextprotocol/servers/commit/6cfff622fb8eb41e2504340d5a6105d34094143c) | cliffhall |
 | 2026-11-11 | [chore: version packages](https://github.com/modelcontextprotocol/servers/commit/5c6686a8c35864aa0675f63ee956aae87ea69ea3) | github-actions[bot] |
-| 2026-11-11 | [Merge pull request #5510 from modelcontextprotocol/v2/chore/5509-python-calver-2026.11.11](https://github.com/modelcontextprotocol/servers/commit/4ac5add6c09426c3b14c831a1c14a7c3f27416d5) | cliffhall |
-| 2026-11-11 | [Merge pull request #5516 from modelcontextprotocol/v2/fix/ghsa-p9cv-8g75-4xcg](https://github.com/modelcontextprotocol/servers/commit/0d53550e078021e0f82b07f4cab47d77d362df78) | cliffhall |
-| 2026-11-11 | [Merge pull request #5515 from modelcontextprotocol/v2/fix/ghsa-3rxj-6jhw-qfv7](https://github.com/modelcontextprotocol/servers/commit/faef80baca51f9c9277341422729ed162927e72f) | cliffhall |
-| 2026-11-11 | [Merge pull request #5514 from modelcontextprotocol/v2/fix/ghsa-6hqx-gqrx-c5r2](https://github.com/modelcontextprotocol/servers/commit/1629bb33208a9d98b77abce4b52b2808d3090bb0) | cliffhall |
+| 2026-11-11 | [Merge pull request #5510 from modelcontextprotocol/v2/chore/5509-pyth…](https://github.com/modelcontextprotocol/servers/commit/4ac5add6c09426c3b14c831a1c14a7c3f27416d5) | cliffhall |
+| 2026-11-11 | [Merge pull request #5516 from modelcontextprotocol/v2/fix/ghsa-p9cv-8…](https://github.com/modelcontextprotocol/servers/commit/0d53550e078021e0f82b07f4cab47d77d362df78) | cliffhall |
+| 2026-11-11 | [Merge pull request #5515 from modelcontextprotocol/v2/fix/ghsa-3rxj-6…](https://github.com/modelcontextprotocol/servers/commit/faef80baca51f9c9277341422729ed162927e72f) | cliffhall |
+| 2026-11-11 | [Merge pull request #5514 from modelcontextprotocol/v2/fix/ghsa-6hqx-g…](https://github.com/modelcontextprotocol/servers/commit/1629bb33208a9d98b77abce4b52b2808d3090bb0) | cliffhall |
 | 2026-11-11 | [fix(filesystem): address review round 4 for GHSA-p9cv-8g75-4xcg](https://github.com/modelcontextprotocol/servers/commit/505476dbdca218fd6a7b8f0c0ab95fbc5351313e) | cliffhall |
 | 2026-11-11 | [fix(filesystem): address review round 3 for GHSA-p9cv-8g75-4xcg](https://github.com/modelcontextprotocol/servers/commit/3d22dc17b5d1b434267c9d42f22e7d5b336875fe) | cliffhall |
 | 2026-11-11 | [fix(filesystem): address review round 2 for GHSA-p9cv-8g75-4xcg](https://github.com/modelcontextprotocol/servers/commit/db4cdfddfd447fee6a86ddd5e93f23203160cc2b) | cliffhall |
 
 [See all commits ↗](https://github.com/modelcontextprotocol/servers/commits)
-
-## 👥 Top contributors
-
-[cliffhall](https://github.com/cliffhall) (1208) · [olaservo](https://github.com/olaservo) (541) · [tadasant](https://github.com/tadasant) (239) · [jspahrsummers](https://github.com/jspahrsummers) (217) · [dsp-ant](https://github.com/dsp-ant) (160)
 
 ## ⬇️ Get it
 

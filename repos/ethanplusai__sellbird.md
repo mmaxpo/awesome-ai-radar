@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [34](https://github.com/ethanplusai/sellbird/issues) |
 | 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
-| 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `claude-code` `codex` `cold-email` `email-verification` `harvey` `lead-generation` `outreach` `prospecting` `python` `sales-automation` `sellbird` |
+| 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 2026-11-06 |
@@ -84,10 +84,6 @@
 | 2026-11-11 | [Merge main (CHANGELOG: keep both entries)](https://github.com/ethanplusai/sellbird/commit/0ad9f5b6686f3115d671249f19404b02e8aea39c) | ethanplusai |
 
 [See all commits ↗](https://github.com/ethanplusai/sellbird/commits)
-
-## 👥 Top contributors
-
-[ethanplusai](https://github.com/ethanplusai) (404) · [gabrielaoimevbore-beep](https://github.com/gabrielaoimevbore-beep) (61) · [thekasyap](https://github.com/thekasyap) (12) · [xiaoheiai4719-collab](https://github.com/xiaoheiai4719-collab) (6) · [MBScoin](https://github.com/MBScoin) (5)
 
 ## ⬇️ Get it
 

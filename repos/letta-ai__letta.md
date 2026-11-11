@@ -23,7 +23,7 @@
 | 🐞 **Open issues + PRs** | [0](https://github.com/letta-ai/letta/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `ai` `ai-agents` `llm` `llm-agent` |
+| 🏷 **Topics** | `llm` `llm-agent` `ai` `ai-agents` |
 | 🕒 **Last activity** | 2026-10-18 (23d ago) |
 | 📅 **Created** | 2023-10-11 |
 | 📦 **Latest release** | [0.16.8](https://github.com/letta-ai/letta/releases/tag/0.16.8) — 2026-05-14 |
@@ -92,13 +92,9 @@
 | 2026-08-14 | [chore: deter self-promotional issue spam (#3429)](https://github.com/letta-ai/letta/commit/56ba9c25552605eec89de8ed3dc6394b625c1993) | letta-integration[bot] |
 | 2026-08-01 | [fix: require explicit AI tool disclosure in issues (#3421)](https://github.com/letta-ai/letta/commit/ff19ffeafeb54bd2a7dc5d4a552f10191732a235) | cpacker |
 | 2026-07-30 | [Update AI_POLICY.md (#3418)](https://github.com/letta-ai/letta/commit/5beb66e9981da4802de05c90bf43fba18053d5d6) | cpacker |
-| 2026-07-03 | [docs: update README to Letta Agent SDK, add AGENTS.md deprecation notice (#3393)](https://github.com/letta-ai/letta/commit/b76da9092518cbaa2d09042e52fdcbde69243e18) | cpacker |
+| 2026-07-03 | [docs: update README to Letta Agent SDK, add AGENTS.md deprecation not…](https://github.com/letta-ai/letta/commit/b76da9092518cbaa2d09042e52fdcbde69243e18) | cpacker |
 
 [See all commits ↗](https://github.com/letta-ai/letta/commits)
-
-## 👥 Top contributors
-
-[carenthomas](https://github.com/carenthomas) (2012) · [sarahwooders](https://github.com/sarahwooders) (1215) · [mattzh72](https://github.com/mattzh72) (1209) · [cpacker](https://github.com/cpacker) (957) · [kianjones9](https://github.com/kianjones9) (375)
 
 ## ⬇️ Get it
 

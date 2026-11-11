@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/Doriandarko/claude-engineer/commits)
 
-## 👥 Top contributors
-
-[Doriandarko](https://github.com/Doriandarko) (169)
-
 ## ⬇️ Get it
 
 ```bash

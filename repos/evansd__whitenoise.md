@@ -54,10 +54,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/evansd/whitenoise/commits)
 
-## 👥 Top contributors
-
-[evansd](https://github.com/evansd) (436) · [adamchainz](https://github.com/adamchainz) (294) · [pre-commit-ci[bot]](https://github.com/pre-commit-ci[bot]) (94) · [edmorley](https://github.com/edmorley) (29) · [dependabot[bot]](https://github.com/dependabot[bot]) (13)
-
 ## ⬇️ Get it
 
 ```bash

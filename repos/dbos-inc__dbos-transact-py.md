@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [12](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `agentic-workflow` `cronjob-scheduler` `dbos` `durable-execution` `microservice-orchestration` `microservices-orchestration` `orchestration` `postgresql` `python` `sqlite` `workflow-engine` `workflows` |
+| 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2024-07-19 |
 | 📦 **Latest release** | [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) — 2026-11-10 |
@@ -97,7 +97,7 @@
 | 2026-11-10 | [Timestamp Workflows from Statement Time (#950)](https://github.com/dbos-inc/dbos-transact-py/commit/9c807ec7bf2d00e33a862ed3c18c4e0811ff7ae8) | kraftp |
 | 2026-11-09 | [Fix Suspend Indexes (#948)](https://github.com/dbos-inc/dbos-transact-py/commit/0e59afe872e5974a2b79b396152accc3cd33e6c7) | kraftp |
 | 2026-11-09 | [fix(serialization): restore dates in variadic workflow inputs (#944)](https://github.com/dbos-inc/dbos-transact-py/commit/b5d2f3f3e31101c03f690de4e946ecb04bdfbe91) | mkzung |
-| 2026-11-09 | [Fix #940 and #939: SQLite system database/datasource reads run outside the write lock (#943)](https://github.com/dbos-inc/dbos-transact-py/commit/f86363bbff894ba9c2b8f6f9358835ae94aae968) | ApparentlyTejas |
+| 2026-11-09 | [Fix #940 and #939: SQLite system database/datasource reads run outsid…](https://github.com/dbos-inc/dbos-transact-py/commit/f86363bbff894ba9c2b8f6f9358835ae94aae968) | ApparentlyTejas |
 | 2026-11-04 | [More Scalable Scheduler (#936)](https://github.com/dbos-inc/dbos-transact-py/commit/236142bd7a99ff77d04becf5f405a60d6f330591) | kraftp |
 | 2026-11-02 | [patch: handle gaps in checkpoints order (#935)](https://github.com/dbos-inc/dbos-transact-py/commit/232dd751576b7d350a3614ad4ef7fc786eb282ff) | maxdml |
 | 2026-11-02 | [Fast Path for Binary Serialization (#934)](https://github.com/dbos-inc/dbos-transact-py/commit/bfb57412d9b9c8ac3bfac3f1dda735c44efd6314) | kraftp |
@@ -106,10 +106,6 @@
 | 2026-10-29 | [Suspend (#927)](https://github.com/dbos-inc/dbos-transact-py/commit/6b8e790f42287b120bd5c264169d3f693ee641b9) | maxdml |
 
 [See all commits ↗](https://github.com/dbos-inc/dbos-transact-py/commits)
-
-## 👥 Top contributors
-
-[kraftp](https://github.com/kraftp) (406) · [qianl15](https://github.com/qianl15) (77) · [maxdml](https://github.com/maxdml) (50) · [chuck-dbos](https://github.com/chuck-dbos) (33) · [devhawk](https://github.com/devhawk) (29)
 
 ## ⬇️ Get it
 

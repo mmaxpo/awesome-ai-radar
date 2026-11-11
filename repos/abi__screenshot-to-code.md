@@ -43,7 +43,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 |---|---|---|
 | 2026-10-09 | [Use GPT-6.1 Sol low for the edit variant](https://github.com/abi/screenshot-to-code/commit/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc) | abi |
 | 2026-10-09 | [Switch image-create defaults to Opus 5.5 and GPT-6.1 Sol](https://github.com/abi/screenshot-to-code/commit/ba12de71f00311daab319ef64d9de6418819f4ff) | abi |
-| 2026-07-22 | [Batch image editing and background removal tools in parallel](https://github.com/abi/screenshot-to-code/commit/d026163f586dfa8c5c10d28c36edd59a9d3b0e88) | Flightdeck Agent |
+| 2026-07-30 | [Batch image editing and background removal tools in parallel](https://github.com/abi/screenshot-to-code/commit/d026163f586dfa8c5c10d28c36edd59a9d3b0e88) | Flightdeck Agent |
 | 2026-07-27 | [Refresh text-create model mix from judged text evals](https://github.com/abi/screenshot-to-code/commit/b0d6ab882e61c7eed359178a39f909d4f41a8e89) | abi |
 | 2026-07-27 | [Support text-brief eval sets alongside image sets](https://github.com/abi/screenshot-to-code/commit/00db2b41284e1a8aca1a09525ff2631cf9463b04) | abi |
 | 2026-07-27 | [Refresh image-create model mix from judged evals](https://github.com/abi/screenshot-to-code/commit/ee4401afa8259f907764853c62619b795c388c29) | abi |
@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-07-24 | [Merge remote-tracking branch 'origin/main'](https://github.com/abi/screenshot-to-code/commit/de10a1d2809fa4bc80931ee97bb07f75110b132a) | Flightdeck Agent |
 
 [See all commits ↗](https://github.com/abi/screenshot-to-code/commits)
-
-## 👥 Top contributors
-
-[abi](https://github.com/abi) (1276) · [claude](https://github.com/claude) (41) · [clean99](https://github.com/clean99) (23) · [sweep-ai-deprecated[bot]](https://github.com/sweep-ai-deprecated[bot]) (23) · [kachbit](https://github.com/kachbit) (15)
 
 ## ⬇️ Get it
 

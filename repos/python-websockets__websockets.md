@@ -23,7 +23,7 @@
 | 🐞 **Open issues + PRs** | [1](https://github.com/python-websockets/websockets/issues) |
 | 💻 **Languages** | Python 98% |
 | 📜 **License** | BSD-3-Clause |
-| 🏷 **Topics** | `python` `python3` `websocket` `websocket-client` `websocket-library` `websocket-server` `websockets` |
+| 🏷 **Topics** | `python` `python3` `websocket` `websockets` `websocket-client` `websocket-server` `websocket-library` |
 | 🕒 **Last activity** | 2026-10-31 (11d ago) |
 | 📅 **Created** | 2013-03-30 |
 | 📦 **Latest release** | [17.4](https://github.com/python-websockets/websockets/releases/tag/17.4) — 2026-10-30 |
@@ -69,15 +69,11 @@
 | 2026-10-30 | [Chain causes to ConnectionClosed consistently.](https://github.com/python-websockets/websockets/commit/98ed2713bc2f0c12895fe355ef23e4b5cc8e9806) | aaugustin |
 | 2026-10-30 | [Prevent memory exhaustion through unlimited empty fragments.](https://github.com/python-websockets/websockets/commit/d3c1ce15a6d2312f3bb42ae29fa6449426cd7268) | aaugustin |
 | 2026-10-27 | [Ignore all expected exceptions in HTTP fuzzers.](https://github.com/python-websockets/websockets/commit/170c815d02629cd3913483ddb1b3ad93df6f8ef7) | aaugustin |
-| 2026-10-23 | [Remove PYTHONPATH declaration.](https://github.com/python-websockets/websockets/commit/0a9044ff45d8dbdcfa7a2a157a31ccaafae6b24b) | aaugustin |
-| 2026-10-24 | [Bump pypa/cibuildwheel from 4.3.1 to 4.3.3](https://github.com/python-websockets/websockets/commit/2b8bc2fc9beaae307f665ca682597b95ec40858b) | dependabot[bot] |
+| 2026-10-27 | [Remove PYTHONPATH declaration.](https://github.com/python-websockets/websockets/commit/0a9044ff45d8dbdcfa7a2a157a31ccaafae6b24b) | aaugustin |
+| 2026-10-25 | [Bump pypa/cibuildwheel from 4.3.1 to 4.3.3](https://github.com/python-websockets/websockets/commit/2b8bc2fc9beaae307f665ca682597b95ec40858b) | dependabot[bot] |
 | 2026-10-22 | [Switch back to the sysmon tracer for coverage.](https://github.com/python-websockets/websockets/commit/60bc20095093a5f7e6083640db5ffd56f1378da6) | aaugustin |
 
 [See all commits ↗](https://github.com/python-websockets/websockets/commits)
-
-## 👥 Top contributors
-
-[aaugustin](https://github.com/aaugustin) (1741) · [dependabot[bot]](https://github.com/dependabot[bot]) (43) · [cjerdonek](https://github.com/cjerdonek) (16) · [mayeut](https://github.com/mayeut) (10) · [johnsca](https://github.com/johnsca) (4)
 
 ## ⬇️ Get it
 

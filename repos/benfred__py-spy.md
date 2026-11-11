@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [240](https://github.com/benfred/py-spy/issues) |
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `performance-analysis` `profiler` `profiling` `python` |
+| 🏷 **Topics** | `profiler` `python` `performance-analysis` `profiling` |
 | 🕒 **Last activity** | 2026-11-10 (today) |
 | 📅 **Created** | 2018-08-01 |
 | 📦 **Latest release** | [v0.4.3](https://github.com/benfred/py-spy/releases/tag/v0.4.3) — 2026-11-02 |
@@ -101,10 +101,6 @@
 | 2026-10-15 | [Reduce GHA ci matrix size (#889)](https://github.com/benfred/py-spy/commit/aca7c5050f0c30ae82f4d88d16469aa3c3a5de06) | benfred |
 
 [See all commits ↗](https://github.com/benfred/py-spy/commits)
-
-## 👥 Top contributors
-
-[benfred](https://github.com/benfred) (418) · [dependabot[bot]](https://github.com/dependabot[bot]) (32) · [github-actions[bot]](https://github.com/github-actions[bot]) (27) · [zanieb](https://github.com/zanieb) (12) · [Jongy](https://github.com/Jongy) (9)
 
 ## ⬇️ Get it
 

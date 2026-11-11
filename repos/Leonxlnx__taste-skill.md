@@ -1,6 +1,6 @@
-# leonxlnx/taste-skill
+# Leonxlnx/taste-skill
 
-[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/leonxlnx/taste-skill)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Leonxlnx/taste-skill)
 
 > Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
 
@@ -20,12 +20,12 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 113.3k |
+| ⭐ **Stars** | 113.4k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [5](https://github.com/leonxlnx/taste-skill/issues) |
+| 🐞 **Open issues + PRs** | [5](https://github.com/Leonxlnx/taste-skill/issues) |
 | 💻 **Languages** | JavaScript 61% · HTML 28% · CSS 11% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `agent-skills` `ai-agents` `anti-slop` `claude-code` `codex` `cursor` `design-system` `frontend` `landing-page` `ui-design` `web-design` |
+| 🏷 **Topics** | `claude-code` `codex` `frontend` `agent-skills` `ai-agents` `anti-slop` `cursor` `design-system` `landing-page` `ui-design` `web-design` |
 | 🕒 **Last activity** | 2026-11-08 (2d ago) |
 | 📅 **Created** | 2026-02-19 |
 | 📦 **Latest release** | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — 2026-11-07 |
@@ -95,7 +95,7 @@
 | Date | Change | By |
 |---|---|---|
 | 2026-11-07 | [Merge pull request #196 from Leonxlnx/v2.5.1](https://github.com/Leonxlnx/taste-skill/commit/f6b76575f949707b4e3c37cd86cb44b0b98643e8) | Leonxlnx |
-| 2026-11-07 | [tasteskill 2.5.1: finish gate, motion on every page, copy layer, photos over renders, trade palettes…](https://github.com/Leonxlnx/taste-skill/commit/b900a8075fd7a2449bd6f414a2ae79657e95363c) | Leonxlnx |
+| 2026-11-07 | [tasteskill 2.5.1: finish gate, motion on every page, copy layer, phot…](https://github.com/Leonxlnx/taste-skill/commit/b900a8075fd7a2449bd6f414a2ae79657e95363c) | Leonxlnx |
 | 2026-11-05 | [font-load: warn for each web font that never loads (#186)](https://github.com/Leonxlnx/taste-skill/commit/9b4bf937a1f69348126959c15d2f99a73e65699b) | Leonxlnx |
 | 2026-11-05 | [Merge main (#181, #182) into portfolio/alan/e596f504b4a2](https://github.com/Leonxlnx/taste-skill/commit/f578e23218be09ffd5b70debbfdec9fe8286d310) | Leonxlnx |
 | 2026-11-05 | [--root for the scripts that serve a page file (#182)](https://github.com/Leonxlnx/taste-skill/commit/151afddbe3be2bd5cadd4884d381dfa13fc920ff) | Leonxlnx |
@@ -105,14 +105,10 @@
 | 2026-11-05 | [Port to 2.5: --root for the scripts that serve a page file](https://github.com/Leonxlnx/taste-skill/commit/4c492ecf6d59a19fd31b4516f98e502129da50d5) | Leonxlnx |
 | 2026-11-05 | [Port to 2.5: each checked page gets its own report folder](https://github.com/Leonxlnx/taste-skill/commit/3324132353b0ef22388f60262a42bc06677111f9) | Leonxlnx |
 
-[See all commits ↗](https://github.com/leonxlnx/taste-skill/commits)
-
-## 👥 Top contributors
-
-[Leonxlnx](https://github.com/Leonxlnx) (277) · [cursoragent](https://github.com/cursoragent) (9) · [HugoSpy](https://github.com/HugoSpy) (5) · [bougieL](https://github.com/bougieL) (3) · [flexi767](https://github.com/flexi767) (2)
+[See all commits ↗](https://github.com/Leonxlnx/taste-skill/commits)
 
 ## ⬇️ Get it
 
 ```bash
-git clone https://github.com/leonxlnx/taste-skill.git
+git clone https://github.com/Leonxlnx/taste-skill.git
 ```

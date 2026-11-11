@@ -84,22 +84,18 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-02 | [fix: stop uploading traces to OpenAI when OPENAI_BASE_URL points elsewhere (#857)](https://github.com/VRSEN/agency-swarm/commit/1bec92f0fc6e8485e53847c6f4a943a847058bff) | nicko-ai |
+| 2026-11-02 | [fix: stop uploading traces to OpenAI when OPENAI_BASE_URL points else…](https://github.com/VRSEN/agency-swarm/commit/1bec92f0fc6e8485e53847c6f4a943a847058bff) | nicko-ai |
 | 2026-10-30 | [release: v2.0.0-beta.1 (#855)](https://github.com/VRSEN/agency-swarm/commit/b28ac98321b21c9e052f915a76f74fc449f8e74a) | VRSEN |
 | 2026-10-21 | [chore(deps-dev): bump fastapi from 0.141.1 to 0.143.3 (#845)](https://github.com/VRSEN/agency-swarm/commit/5b02d5f5bb1e47fd50c404398b36a07050f98001) | dependabot[bot] |
 | 2026-10-21 | [chore(deps-dev): bump langchain-core from 1.6.9 to 1.6.12 (#844)](https://github.com/VRSEN/agency-swarm/commit/a17d18b177c687cdaa850ed26615175d0d60e679) | dependabot[bot] |
 | 2026-10-21 | [chore(deps-dev): bump ruff from 0.17.0 to 0.17.1 (#842)](https://github.com/VRSEN/agency-swarm/commit/f79f6d69e18779069ee69405e73b3f64487af724) | dependabot[bot] |
-| 2026-10-21 | [test: make concurrent multi-agency test send the bare value to SharedStateTool (#846)](https://github.com/VRSEN/agency-swarm/commit/1ac9e7f87fc5b04738a9622a87400a2c181b60e3) | nicko-ai |
-| 2026-10-21 | [fix: servers bind all interfaces again; browser demos stay on localhost (#835)](https://github.com/VRSEN/agency-swarm/commit/1d841edb10f5e64b335e1c6fd2bc5c46b5b52a1b) | nicko-ai |
+| 2026-10-21 | [test: make concurrent multi-agency test send the bare value to Shared…](https://github.com/VRSEN/agency-swarm/commit/1ac9e7f87fc5b04738a9622a87400a2c181b60e3) | nicko-ai |
+| 2026-10-21 | [fix: servers bind all interfaces again; browser demos stay on localho…](https://github.com/VRSEN/agency-swarm/commit/1d841edb10f5e64b335e1c6fd2bc5c46b5b52a1b) | nicko-ai |
 | 2026-10-15 | [chore(deps): bump pydantic from 2.13.5 to 2.14.1 (#837)](https://github.com/VRSEN/agency-swarm/commit/a86d657e12b693be64a8dcb8ead560a7b9a4ef01) | dependabot[bot] |
 | 2026-10-15 | [chore(deps-dev): bump langchain-core from 1.6.3 to 1.6.9 (#838)](https://github.com/VRSEN/agency-swarm/commit/feb36786ee4534d9b40697f38878e8d726aa17b0) | dependabot[bot] |
 | 2026-10-15 | [chore(deps-dev): bump mypy from 2.3.1 to 2.4.0 (#839)](https://github.com/VRSEN/agency-swarm/commit/438e2ff36fe3d653b0b0b01281333ab9d8562448) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/VRSEN/agency-swarm/commits)
-
-## 👥 Top contributors
-
-[nicko-ai](https://github.com/nicko-ai) (1662) · [VRSEN](https://github.com/VRSEN) (478) · [ArtemShatokhin](https://github.com/ArtemShatokhin) (441) · [dependabot[bot]](https://github.com/dependabot[bot]) (57) · [dumitruPuggle](https://github.com/dumitruPuggle) (28)
 
 ## ⬇️ Get it
 

@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [15](https://github.com/AI-Citizen/SolidGPT/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 14% · CSS 2% |
 | 📜 **License** | CC-BY-4.0 |
-| 🏷 **Topics** | `codechat` `copilot` `developer-tools` `glean` `gpt-4` `llm` `notion` `solidgpt` |
+| 🏷 **Topics** | `gpt-4` `llm` `solidgpt` `developer-tools` `codechat` `copilot` `glean` `notion` |
 | 🕒 **Last activity** | 2025-01-12 (1y ago) |
 | 📅 **Created** | 2023-08-08 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/AI-Citizen/SolidGPT/releases/tag/v0.3.0) — 2024-03-27 |
@@ -80,17 +80,13 @@
 | 2024-03-27 | [Merge pull request #104 from AI-Citizen/release/0325](https://github.com/AI-Citizen/SolidGPT/commit/66029f7d564868e5f8413c9a96ebe6c5a1941af7) | daviddai1998 |
 | 2024-03-27 | [Update readme](https://github.com/AI-Citizen/SolidGPT/commit/1ee37867439d0333d8d5c395fcf67230e13c2642) | wwwwww1020 |
 | 2024-03-27 | [Update readme info and clean up unused files](https://github.com/AI-Citizen/SolidGPT/commit/c62919e7fb3811a59147aa39d14403ee244f1972) | wwwwww1020 |
-| 2024-03-26 | [Edge release](https://github.com/AI-Citizen/SolidGPT/commit/639e45188ac3c3d121b565f0e730680a2c44e696) | wwwwww1020 |
+| 2024-03-27 | [Edge release](https://github.com/AI-Citizen/SolidGPT/commit/639e45188ac3c3d121b565f0e730680a2c44e696) | wwwwww1020 |
 | 2024-02-22 | [add aws cloud solution ui implementation. (#102)](https://github.com/AI-Citizen/SolidGPT/commit/758751b57584e7394d6edb7af3240dc062e23789) | colinlaoaa |
 | 2024-02-22 | [add serverless apis (#103)](https://github.com/AI-Citizen/SolidGPT/commit/cca53d223840105a913a194bab8e8b0897c8aa56) | alexgong14 |
 | 2024-02-22 | [add http solution (#101)](https://github.com/AI-Citizen/SolidGPT/commit/5896e737ad492e2df2126c99d8350e75e6b523f0) | daviddai1998 |
 | 2024-02-08 | [Add SolidGPT saas edition info into README.md (#99)](https://github.com/AI-Citizen/SolidGPT/commit/3251c901005753b591154b103243fce810f3e08e) | wwwwww1020 |
 
 [See all commits ↗](https://github.com/AI-Citizen/SolidGPT/commits)
-
-## 👥 Top contributors
-
-[wwwwww1020](https://github.com/wwwwww1020) (50) · [alexgong14](https://github.com/alexgong14) (31) · [Xinchunran](https://github.com/Xinchunran) (21) · [colinlaoaa](https://github.com/colinlaoaa) (19) · [daviddai1998](https://github.com/daviddai1998) (19)
 
 ## ⬇️ Get it
 

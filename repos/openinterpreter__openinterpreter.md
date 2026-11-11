@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [39](https://github.com/openinterpreter/openinterpreter/issues) |
 | 💻 **Languages** | Rust 97% · Python 2% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `acp` `coding-agent` `deepseek` `kimi` `python` `qwen` `rust` |
+| 🏷 **Topics** | `coding-agent` `deepseek` `kimi` `qwen` `rust` `acp` `python` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2023-07-14 |
 | 📦 **Latest release** | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — 2026-11-11 |
@@ -99,14 +99,10 @@
 | 2026-11-04 | [chore: prepare Open Interpreter 0.0.59 release (#1970)](https://github.com/openinterpreter/openinterpreter/commit/f12ce327eeee679d2f2f22ce23018b0db9ae092f) | interpreterwork-automation[bot] |
 | 2026-11-03 | [app-server: add owner-bound native terminal status (#1969)](https://github.com/openinterpreter/openinterpreter/commit/3076d4bac85707027f4505112dda9b7f501d7782) | interpreterwork-automation[bot] |
 | 2026-11-01 | [chore: prepare Open Interpreter 0.0.58 release](https://github.com/openinterpreter/openinterpreter/commit/79c297a088b1d8dec415747f330f21023b7da8fc) | interpreterwork-automation[bot] |
-| 2026-11-01 | [Preserve feedback delivery and add optional signed attachment uploads (#1960)](https://github.com/openinterpreter/openinterpreter/commit/7482ce18a13ae23a4783b7ad18b781cc3e7dd95b) | interpreterwork-automation[bot] |
-| 2026-10-31 | [Merge pull request #1959 from openinterpreter/interpreterwork/oix-release-0.0.57-20261031](https://github.com/openinterpreter/openinterpreter/commit/a8385667cb23444f38f19c7e8d7522ebe22321c6) | interpreterwork-automation[bot] |
+| 2026-11-01 | [Preserve feedback delivery and add optional signed attachment uploads…](https://github.com/openinterpreter/openinterpreter/commit/7482ce18a13ae23a4783b7ad18b781cc3e7dd95b) | interpreterwork-automation[bot] |
+| 2026-10-31 | [Merge pull request #1959 from openinterpreter/interpreterwork/oix-rel…](https://github.com/openinterpreter/openinterpreter/commit/a8385667cb23444f38f19c7e8d7522ebe22321c6) | interpreterwork-automation[bot] |
 
 [See all commits ↗](https://github.com/openinterpreter/openinterpreter/commits)
-
-## 👥 Top contributors
-
-[jif-oai](https://github.com/jif-oai) (1593) · [bolinfest](https://github.com/bolinfest) (1046) · [etraut-openai](https://github.com/etraut-openai) (630) · [pakrym-oai](https://github.com/pakrym-oai) (595) · [aibrahim-oai](https://github.com/aibrahim-oai) (590)
 
 ## ⬇️ Get it
 

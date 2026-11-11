@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [77](https://github.com/tensorchord/pgvecto.rs/issues) |
 | 💻 **Languages** | Rust 82% · PLpgSQL 13% · Shell 3% · Dockerfile 1% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `chatgpt` `faiss` `gpt` `hacktoberfest` `llm` `nearest-neighbor-search` `postgres` `rust` `vector` `vector-database` |
+| 🏷 **Topics** | `llm` `vector` `vector-database` `faiss` `nearest-neighbor-search` `gpt` `chatgpt` `hacktoberfest` `rust` `postgres` |
 | 🕒 **Last activity** | 2025-02-26 (1y ago) |
 | 📅 **Created** | 2023-04-15 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/tensorchord/pgvecto.rs/releases/tag/v0.4.0) — 2024-11-21 |
@@ -94,10 +94,6 @@
 | 2024-11-20 | [Release enterprise ci (#613)](https://github.com/tensorchord/pgvecto.rs/commit/93e5cf4eb13d317111744a45969ac393a797447f) | xieydd |
 
 [See all commits ↗](https://github.com/tensorchord/pgvecto.rs/commits)
-
-## 👥 Top contributors
-
-[usamoi](https://github.com/usamoi) (156) · [kemingy](https://github.com/kemingy) (36) · [VoVAllen](https://github.com/VoVAllen) (23) · [cutecutecat](https://github.com/cutecutecat) (23) · [silver-ymz](https://github.com/silver-ymz) (21)
 
 ## ⬇️ Get it
 

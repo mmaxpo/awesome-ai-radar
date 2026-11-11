@@ -23,7 +23,7 @@
 | 🐞 **Open issues + PRs** | [1.2k](https://github.com/microsoft/autogen/issues) |
 | 💻 **Languages** | Python 62% · C# 25% · TypeScript 12% |
 | 📜 **License** | CC-BY-4.0 |
-| 🏷 **Topics** | `agentic` `agentic-agi` `agents` `ai` `autogen` `autogen-ecosystem` `chatgpt` `framework` `llm-agent` `llm-framework` |
+| 🏷 **Topics** | `chatgpt` `llm-agent` `llm-framework` `agentic` `agentic-agi` `agents` `ai` `autogen` `framework` `autogen-ecosystem` |
 | 🕒 **Last activity** | 2026-10-28 (14d ago) |
 | 📅 **Created** | 2023-08-18 |
 | 📦 **Latest release** | [python-v0.7.5](https://github.com/microsoft/autogen/releases/tag/python-v0.7.5) — 2025-09-30 |
@@ -96,18 +96,14 @@
 | 2026-10-16 | [docs: clarify AutoGen is archived and no longer maintained- #1 (#8366)](https://github.com/microsoft/autogen/commit/004749e6b7102c8fd317b9b1499ce5807223c278) | westey-m |
 | 2026-04-06 | [Update maintenance mode banner in readme (#7521)](https://github.com/microsoft/autogen/commit/027ecf0a379bcc1d09956d46d12d44a3ad9cee14) | chetantoshniwal |
 | 2026-03-26 | [fix: restrict importlib provider loading to trusted namespaces (#7463)](https://github.com/microsoft/autogen/commit/8544314fa6cc9f906c3ec2395927f5404ffbb5eb) | victordibia |
-| 2026-03-11 | [fix: Improve AutoGen Studio: deprecate FunctionTool, harden MCP WebSocket endpoint (#7362)](https://github.com/microsoft/autogen/commit/b0477309d2a0baf489aa256646e41e513ab3bfe8) | victordibia |
+| 2026-03-11 | [fix: Improve AutoGen Studio: deprecate FunctionTool, harden MCP WebSo…](https://github.com/microsoft/autogen/commit/b0477309d2a0baf489aa256646e41e513ab3bfe8) | victordibia |
 | 2025-10-04 | [fix: order by clause (#7051)](https://github.com/microsoft/autogen/commit/13e144e5476a76ca0d76bf4f07a6401d133a03ed) | zrquan |
 | 2025-10-04 | [update instructions for Quickstart (#7068)](https://github.com/microsoft/autogen/commit/6dc0a2340d65ba28f0528b5b1173ac9deec84755) | Borda |
 | 2025-10-02 | [Update README with maintenance and resource information (#7067)](https://github.com/microsoft/autogen/commit/84f21a08992053334afaab7f7136e79011cd9837) | ekzhu |
-| 2025-10-02 | [Support MCP Elicitation, Sampling, and Roots via new McpSessionHost (#6833)](https://github.com/microsoft/autogen/commit/c02791282b405d83632274274f31236b496ea3c6) | tylerpayne |
+| 2025-10-02 | [Support MCP Elicitation, Sampling, and Roots via new McpSessionHost (…](https://github.com/microsoft/autogen/commit/c02791282b405d83632274274f31236b496ea3c6) | tylerpayne |
 | 2025-09-30 | [Update website for 0.7.5 (#7060)](https://github.com/microsoft/autogen/commit/a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8) | ekzhu |
 
 [See all commits ↗](https://github.com/microsoft/autogen/commits)
-
-## 👥 Top contributors
-
-[ekzhu](https://github.com/ekzhu) (473) · [jackgerrits](https://github.com/jackgerrits) (459) · [sonichi](https://github.com/sonichi) (383) · [skzhang1](https://github.com/skzhang1) (126) · [afourney](https://github.com/afourney) (121)
 
 ## ⬇️ Get it
 

@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [347](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `agent-computer` `agent-harness` `agent-orchestration` `agentic-ai` `agentic-workflow` `ai-agents` `computer-use` `hermes-agent` `llm` `local-ai` `localai` `multimodal` `rag` `self-hosted-ai` `vector-database` |
+| 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
 | 🕒 **Last activity** | 2026-11-10 (today) |
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — 2026-10-26 |
@@ -94,22 +94,18 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-10 | [fix: keep the Content-Type header set in an agent flow API Call block (#7108)](https://github.com/Mintplex-Labs/anything-llm/commit/728586d76c843ed25cb7a27c7403f4b79bd960c8) | Israel-Kli |
+| 2026-11-10 | [fix: keep the Content-Type header set in an agent flow API Call block…](https://github.com/Mintplex-Labs/anything-llm/commit/728586d76c843ed25cb7a27c7403f4b79bd960c8) | Israel-Kli |
 | 2026-11-10 | [fix: keep non-Latin text in raw-text document titles (#7106)](https://github.com/Mintplex-Labs/anything-llm/commit/ba22b48dd34b7c54db9ac7c43930960f83da499f) | Israel-Kli |
 | 2026-11-10 | [Email approval card for Gmail and Outlook agent tools (#6970)](https://github.com/Mintplex-Labs/anything-llm/commit/6e3e6cfc901c37032b9e939fb14c50cfb0485f5a) | shatfield4 |
 | 2026-11-10 | [fix: invalidate model router decisions after config edits (#7099)](https://github.com/Mintplex-Labs/anything-llm/commit/e82a80da0e5e81252cb19287ba32088233b81df4) | Max-Reisinger |
-| 2026-11-10 | [perf: share a TTL context window cache across runtime-discovery providers (#7100)](https://github.com/Mintplex-Labs/anything-llm/commit/75479cd75ff407058e30e2b668b5c57b245acb68) | Max-Reisinger |
+| 2026-11-10 | [perf: share a TTL context window cache across runtime-discovery provi…](https://github.com/Mintplex-Labs/anything-llm/commit/75479cd75ff407058e30e2b668b5c57b245acb68) | Max-Reisinger |
 | 2026-11-09 | [fix: cap concurrent Paperless-ngx document downloads (#7096)](https://github.com/Mintplex-Labs/anything-llm/commit/ace9dad3348b4d8a237b09978517ced2bd18e198) | timothycarambat |
-| 2026-11-09 | [fix: bump lancedb to 0.30.0 and reject empty vectors before insert (#7093)](https://github.com/Mintplex-Labs/anything-llm/commit/194b8f03c5cf21ab4620a6c991ff3f6688c00a80) | timothycarambat |
+| 2026-11-09 | [fix: bump lancedb to 0.30.0 and reject empty vectors before insert (#…](https://github.com/Mintplex-Labs/anything-llm/commit/194b8f03c5cf21ab4620a6c991ff3f6688c00a80) | timothycarambat |
 | 2026-11-09 | [fix: escape double quotes in Telegram link hrefs (#7095)](https://github.com/Mintplex-Labs/anything-llm/commit/db06c9e537f0a0b5606e801b47729a7391fc81d4) | timothycarambat |
-| 2026-11-09 | [fix: let Weaviate embed into workspaces whose slug starts with a digit (#7085)](https://github.com/Mintplex-Labs/anything-llm/commit/174281032f114a9db8a5d34152d761a8639c2709) | jaeminbird |
+| 2026-11-09 | [fix: let Weaviate embed into workspaces whose slug starts with a digi…](https://github.com/Mintplex-Labs/anything-llm/commit/174281032f114a9db8a5d34152d761a8639c2709) | jaeminbird |
 | 2026-11-09 | [feat: live elapsed timer while the model is thinking (#7091)](https://github.com/Mintplex-Labs/anything-llm/commit/d5257f8b8c9229a7dae267342899720cea7f0b98) | timothycarambat |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
-
-## 👥 Top contributors
-
-[timothycarambat](https://github.com/timothycarambat) (1554) · [shatfield4](https://github.com/shatfield4) (449) · [angelplusultra](https://github.com/angelplusultra) (104) · [MarMarLabs](https://github.com/MarMarLabs) (88) · [Fahmid-Arman](https://github.com/Fahmid-Arman) (16)
 
 ## ⬇️ Get it
 

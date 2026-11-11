@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/langflow-ai/langflow/issues) |
 | 💻 **Languages** | Python 72% · TypeScript 21% · JavaScript 7% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `agents` `chatgpt` `generative-ai` `large-language-models` `multiagent` `react-flow` |
+| 🏷 **Topics** | `react-flow` `chatgpt` `large-language-models` `generative-ai` `agents` `multiagent` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2023-02-08 |
 | 📦 **Latest release** | [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 2026-11-10 |
@@ -91,7 +91,7 @@
 | Date | Change | By |
 |---|---|---|
 | 2026-11-11 | [ci: fetch source release tags before LFX tests (#16348)](https://github.com/langflow-ai/langflow/commit/2cf9ce808afa6ad3f41aa5f6b47bdcb1927cde84) | erichare |
-| 2026-11-11 | [ci: stop pinning lfx to the langflow version in the migration test (#16340)](https://github.com/langflow-ai/langflow/commit/71b28b924050c95a244227d5a1424f2495014e14) | erichare |
+| 2026-11-11 | [ci: stop pinning lfx to the langflow version in the migration test (#…](https://github.com/langflow-ai/langflow/commit/71b28b924050c95a244227d5a1424f2495014e14) | erichare |
 | 2026-11-10 | [chore: merge release-1.13.2 Gunicorn fix into main](https://github.com/langflow-ai/langflow/commit/eaf9dec98978674ff03e4f7a92f2d11441ffded8) | erichare |
 | 2026-11-10 | [fix: preserve Gunicorn compatibility cap in release installs](https://github.com/langflow-ai/langflow/commit/8b42952d734de18e34c2838ff6c634efb1815878) | erichare |
 | 2026-11-10 | [chore: merge release-1.13.2 bundle repair into main](https://github.com/langflow-ai/langflow/commit/a07daa267e82522ff3d8fd26de6c3c286b1c062c) | erichare |
@@ -102,10 +102,6 @@
 | 2026-11-09 | [fix: reset model provider scroll on selection (#16314)](https://github.com/langflow-ai/langflow/commit/61ceb093a2c3e9449dcf6bf5e4b6e2accc2f5525) | erichare |
 
 [See all commits ↗](https://github.com/langflow-ai/langflow/commits)
-
-## 👥 Top contributors
-
-[anovazzi1](https://github.com/anovazzi1) (2134) · [Cristhianzl](https://github.com/Cristhianzl) (1911) · [lucaseduoli](https://github.com/lucaseduoli) (1769) · [erichare](https://github.com/erichare) (1307) · [mendonk](https://github.com/mendonk) (615)
 
 ## ⬇️ Get it
 

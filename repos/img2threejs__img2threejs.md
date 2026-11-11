@@ -95,21 +95,17 @@
 | Date | Change | By |
 |---|---|---|
 | 2026-11-05 | [Merge pull request #187 from img2threejs/release/skill-2.0.1](https://github.com/img2threejs/img2threejs/commit/0c0c49bc168e648dbaf9c8c080474de0b3a941b6) | kokorolx |
-| 2026-11-04 | [docs(readme): version badge 2.0.1](https://github.com/img2threejs/img2threejs/commit/668aef21872229dd93e3dd6b080b9963bd2315c5) | kokorolx |
-| 2026-11-04 | [release: skill 2.0.1 ships the post-2.0.0 SKILL.md routing guidance](https://github.com/img2threejs/img2threejs/commit/eb97dac5d8786445639d70fddd7361d3a1e5b4a6) | kokorolx |
+| 2026-11-05 | [docs(readme): version badge 2.0.1](https://github.com/img2threejs/img2threejs/commit/668aef21872229dd93e3dd6b080b9963bd2315c5) | kokorolx |
+| 2026-11-05 | [release: skill 2.0.1 ships the post-2.0.0 SKILL.md routing guidance](https://github.com/img2threejs/img2threejs/commit/eb97dac5d8786445639d70fddd7361d3a1e5b4a6) | kokorolx |
 | 2026-11-05 | [Merge pull request #189 from img2threejs/docs/update-existing-installs](https://github.com/img2threejs/img2threejs/commit/9e09f4b9d9a03051d6accbe5b8e8578a174fa80c) | kokorolx |
 | 2026-11-05 | [Merge pull request #186 from img2threejs/feat/cli-update-latest-release](https://github.com/img2threejs/img2threejs/commit/adae75f64ff6540ac7e2e2d3a94ea2b7e45cfa07) | kokorolx |
-| 2026-11-04 | [docs(install): tighten the agent update procedure after a scenario dry run](https://github.com/img2threejs/img2threejs/commit/299cbdd6919470c32fba437529c6293ee4c2a3d6) | kokorolx |
+| 2026-11-04 | [docs(install): tighten the agent update procedure after a scenario dr…](https://github.com/img2threejs/img2threejs/commit/299cbdd6919470c32fba437529c6293ee4c2a3d6) | kokorolx |
 | 2026-11-04 | [docs(install): write the update section as an agent procedure](https://github.com/img2threejs/img2threejs/commit/4de3e7fa266d15463a4f2c46aa4463b40da2a0d0) | kokorolx |
 | 2026-11-04 | [docs(install): update guide for existing installs](https://github.com/img2threejs/img2threejs/commit/fc7153ecab33fb5edc8ca36c4114c7ea2a15766b) | kokorolx |
 | 2026-11-04 | [feat(cli): install and update follow the latest GitHub release](https://github.com/img2threejs/img2threejs/commit/a83fab99d04c08fe57c3f27914831ce21a7f9859) | kokorolx |
 | 2026-10-27 | [Merge pull request #177 from img2threejs/docs/minimax-sponsor](https://github.com/img2threejs/img2threejs/commit/3e7099e1b7fe93e187e06db4bdbe1e1906c21a28) | kokorolx |
 
 [See all commits ↗](https://github.com/img2threejs/img2threejs/commits)
-
-## 👥 Top contributors
-
-[kokorolx](https://github.com/kokorolx) (81) · [hoainho](https://github.com/hoainho) (38) · [github-actions[bot]](https://github.com/github-actions[bot]) (1)
 
 ## ⬇️ Get it
 

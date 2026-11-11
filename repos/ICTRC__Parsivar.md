@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/ICTRC/Parsivar/commits)
 
-## 👥 Top contributors
-
-[ACECR](https://github.com/ACECR) (61) · [broshanfekr](https://github.com/broshanfekr) (6) · [dependabot[bot]](https://github.com/dependabot[bot]) (1) · [mahdiabdollahpour](https://github.com/mahdiabdollahpour) (1) · [sargdsra](https://github.com/sargdsra) (1)
-
 ## ⬇️ Get it
 
 ```bash

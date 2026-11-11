@@ -86,10 +86,6 @@
 
 [See all commits ↗](https://github.com/FoundationAgents/MetaGPT/commits)
 
-## 👥 Top contributors
-
-[geekan](https://github.com/geekan) (888) · [garylin2099](https://github.com/garylin2099) (767) · [better629](https://github.com/better629) (541) · [stellaHSR](https://github.com/stellaHSR) (296) · [seehi](https://github.com/seehi) (291)
-
 ## ⬇️ Get it
 
 ```bash

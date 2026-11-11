@@ -101,14 +101,10 @@
 | 2026-10-16 | [fix: skip symlinks when downloading session archives](https://github.com/OpenBMB/ChatDev/commit/1970de9875f2b80abb4202aecd12326e96d7d116) | NA-Wen |
 | 2026-10-16 | [fix: validate attachment sources and isolate session storage](https://github.com/OpenBMB/ChatDev/commit/5df5af792684e19a0bdbe146a66cbf7e9f3b25b2) | NA-Wen |
 | 2026-10-16 | [fix: confine workflow writes and gate unsafe code execution](https://github.com/OpenBMB/ChatDev/commit/5f8142d4391377c4592fd7626a16f6f83d47bef4) | NA-Wen |
-| 2026-07-24 | [Merge pull request #639 from LaansDole/feat/launch-collapsible-right-panel](https://github.com/OpenBMB/ChatDev/commit/4fb2db0ea90375ce1059f44fe03ffbd191a7a169) | zxrys |
+| 2026-07-24 | [Merge pull request #639 from LaansDole/feat/launch-collapsible-right-…](https://github.com/OpenBMB/ChatDev/commit/4fb2db0ea90375ce1059f44fe03ffbd191a7a169) | zxrys |
 | 2026-07-23 | [Merge branch 'OpenBMB:main' into feat/launch-collapsible-right-panel](https://github.com/OpenBMB/ChatDev/commit/7a06911bf49736f51cf54c350d2f93a9769650d5) | LaansDole |
 
 [See all commits ↗](https://github.com/OpenBMB/ChatDev/commits)
-
-## 👥 Top contributors
-
-[NA-Wen](https://github.com/NA-Wen) (60) · [LaansDole](https://github.com/LaansDole) (52) · [zxrys](https://github.com/zxrys) (50) · [ACE-Prism](https://github.com/ACE-Prism) (5) · [Yanghuabei-design](https://github.com/Yanghuabei-design) (5)
 
 ## ⬇️ Get it
 

@@ -51,10 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/Dicklesworthstone/swiss_army_llama/commits)
 
-## 👥 Top contributors
-
-[Dicklesworthstone](https://github.com/Dicklesworthstone) (287) · [bxxd](https://github.com/bxxd) (1)
-
 ## ⬇️ Get it
 
 ```bash

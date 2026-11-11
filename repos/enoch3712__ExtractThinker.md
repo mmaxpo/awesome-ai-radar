@@ -23,7 +23,7 @@
 | 🐞 **Open issues + PRs** | [5](https://github.com/enoch3712/ExtractThinker/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `ai` `document-image-analysis` `document-intelligence` `document-parsing` `document-processing` `langchain` `llm` `machine-learning` `nlp` `ocr` `openai` `pdf` `pdf-to-text` `python` |
+| 🏷 **Topics** | `ai` `llm` `nlp` `ocr` `openai` `python` `document-image-analysis` `document-intelligence` `document-parsing` `document-processing` `langchain` `machine-learning` `pdf` `pdf-to-text` |
 | 🕒 **Last activity** | 2026-09-16 (1mo ago) |
 | 📅 **Created** | 2024-02-01 |
 | 📦 **Latest release** | [v0.1.14](https://github.com/enoch3712/ExtractThinker/releases/tag/v0.1.14) — 2025-06-09 |
@@ -93,10 +93,6 @@
 | 2026-09-16 | [Add document detection events and custom callback rules (#374)](https://github.com/enoch3712/ExtractThinker/commit/e17965ec2adc77c77d535ac21a13e5fd09958e42) | enoch3712 |
 
 [See all commits ↗](https://github.com/enoch3712/ExtractThinker/commits)
-
-## 👥 Top contributors
-
-[enoch3712](https://github.com/enoch3712) (463) · [meghana1090](https://github.com/meghana1090) (18) · [zurich123](https://github.com/zurich123) (2) · [tiagompvieira](https://github.com/tiagompvieira) (2) · [glucard](https://github.com/glucard) (1)
 
 ## ⬇️ Get it
 

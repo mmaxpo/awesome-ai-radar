@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/openai/openai-realtime-console/commits)
 
-## 👥 Top contributors
-
-[khorwood-openai](https://github.com/khorwood-openai) (32) · [kwhinnery-openai](https://github.com/kwhinnery-openai) (19) · [biraj21](https://github.com/biraj21) (1) · [abupeiyong](https://github.com/abupeiyong) (1) · [rohankharwadkar-openai](https://github.com/rohankharwadkar-openai) (1)
-
 ## ⬇️ Get it
 
 ```bash

@@ -23,9 +23,9 @@
 | ⭐ **Stars** | 200.8k |
 | 🍴 **Forks** | 10.6k |
 | 🐞 **Open issues + PRs** | [790](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 73% · Python 12% · Rust 3% · Java 3% · PHP 2% |
+| 💻 **Languages** | TypeScript 74% · Python 12% · Rust 3% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
-| 🏷 **Topics** | `ai` `ai-agents` `ai-crawler` `ai-scraping` `ai-search` `crawler` `data-extraction` `html-to-markdown` `llm` `markdown` `scraper` `scraping` `web-crawler` `web-data` `web-data-extraction` `web-scraper` `web-scraping` `web-search` `webscraping` |
+| 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
@@ -95,21 +95,17 @@
 | Date | Change | By |
 |---|---|---|
 | 2026-11-11 | [fix(api): accept World ID's advertised Orb acr values (#5678)](https://github.com/firecrawl/firecrawl/commit/32fa6f6273daecc9675d41dc2dab44c61e8cc500) | erikengervall |
-| 2026-11-10 | [feat(api): serve government web searches through the Government Index (#5672)](https://github.com/firecrawl/firecrawl/commit/346045851ba7ce96771a313f1f591a201065476f) | netankit |
+| 2026-11-10 | [feat(api): serve government web searches through the Government Index…](https://github.com/firecrawl/firecrawl/commit/346045851ba7ce96771a313f1f591a201065476f) | netankit |
 | 2026-11-10 | [test(api): stop v1 snips at the v1 sunset and check the 410 (#5675)](https://github.com/firecrawl/firecrawl/commit/5c57e8765e6c5af6fe71a9f88265e8137ad94b47) | mogery |
-| 2026-11-10 | [feat(api): sunset /extract on 2026-12-10 and point it at its migration guide (#5607)](https://github.com/firecrawl/firecrawl/commit/394aba10e8b09b97d3f84d279b391b3b77549658) | mogery |
-| 2026-11-10 | [feat(api): sunset deep-research and llmstxt, with surface keys and migration links (#5606)](https://github.com/firecrawl/firecrawl/commit/603d3ec4a7f7ef7e0b1c3e5c8ec5a514bca8e1b7) | mogery |
+| 2026-11-10 | [feat(api): sunset /extract on 2026-12-10 and point it at its migratio…](https://github.com/firecrawl/firecrawl/commit/394aba10e8b09b97d3f84d279b391b3b77549658) | mogery |
+| 2026-11-10 | [feat(api): sunset deep-research and llmstxt, with surface keys and mi…](https://github.com/firecrawl/firecrawl/commit/603d3ec4a7f7ef7e0b1c3e5c8ec5a514bca8e1b7) | mogery |
 | 2026-11-10 | [feat(api): deprecation notices on every v1 route (#5604)](https://github.com/firecrawl/firecrawl/commit/52ecbfc0766bd5cce928aef1ce278b1b27f7d504) | mogery |
-| 2026-11-10 | [feat(api): point v0 deprecation notices at the v0 migration guide (#5623)](https://github.com/firecrawl/firecrawl/commit/a9ca1a386b8ae1858646fc453b3c3bb897ff9ab1) | mogery |
+| 2026-11-10 | [feat(api): point v0 deprecation notices at the v0 migration guide (#5…](https://github.com/firecrawl/firecrawl/commit/a9ca1a386b8ae1858646fc453b3c3bb897ff9ab1) | mogery |
 | 2026-11-10 | [feat(api): pass team_id to fire-engine chrome-cdp scrapes (#5670)](https://github.com/firecrawl/firecrawl/commit/3cfb9b54d069302aaf58f61bbdb0345b2224db8a) | rowinsg |
 | 2026-11-10 | [perf(alexandria): fewer round trips around a provider call (#5662)](https://github.com/firecrawl/firecrawl/commit/df271b3d76e9bb08f61b1ff6552585578f029176) | KrisOei |
-| 2026-11-09 | [fix(alexandria): retry provider pre-checks once when the connection drops (#5658)](https://github.com/firecrawl/firecrawl/commit/c8a5b7a1d53748975b524f5392c5e0b93e5410e5) | KrisOei |
+| 2026-11-09 | [fix(alexandria): retry provider pre-checks once when the connection d…](https://github.com/firecrawl/firecrawl/commit/c8a5b7a1d53748975b524f5392c5e0b93e5410e5) | KrisOei |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
-
-## 👥 Top contributors
-
-[nickscamara](https://github.com/nickscamara) (1906) · [mogery](https://github.com/mogery) (1797) · [rafaelsideguide](https://github.com/rafaelsideguide) (597) · [abimaelmartell](https://github.com/abimaelmartell) (365) · [developersdigest](https://github.com/developersdigest) (257)
 
 ## ⬇️ Get it
 

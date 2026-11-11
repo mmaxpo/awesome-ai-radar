@@ -100,10 +100,6 @@
 
 [See all commits ↗](https://github.com/lllyasviel/Fooocus/commits)
 
-## 👥 Top contributors
-
-[lllyasviel](https://github.com/lllyasviel) (841) · [mashb1t](https://github.com/mashb1t) (188) · [MoonRide303](https://github.com/MoonRide303) (45) · [xhoxye](https://github.com/xhoxye) (4) · [MindOfMatter](https://github.com/MindOfMatter) (3)
-
 ## ⬇️ Get it
 
 ```bash

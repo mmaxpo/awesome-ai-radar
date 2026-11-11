@@ -23,7 +23,7 @@
 | 🐞 **Open issues + PRs** | [37](https://github.com/vercel/chatbot/issues) |
 | 💻 **Languages** | TypeScript 96% · JavaScript 2% · CSS 2% |
 | 📜 **License** | Other |
-| 🏷 **Topics** | `ai` `chatgpt` `nextjs` `react` `redis` `shadcn-ui` `vercel` |
+| 🏷 **Topics** | `ai` `nextjs` `shadcn-ui` `vercel` `chatgpt` `react` `redis` |
 | 🕒 **Last activity** | 2026-11-03 (7d ago) |
 | 📅 **Created** | 2023-05-19 |
 | 📦 **Latest release** | — |
@@ -51,10 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-07-07 | [Fix formatting for real this time (#1524)](https://github.com/vercel/chatbot/commit/cd6e5772edc7238c63776108565d49dd6cd10960) | n1ckoates |
 
 [See all commits ↗](https://github.com/vercel/chatbot/commits)
-
-## 👥 Top contributors
-
-[jaredpalmer](https://github.com/jaredpalmer) (176) · [jeremyphilemon](https://github.com/jeremyphilemon) (145) · [dancer](https://github.com/dancer) (76) · [shadcn](https://github.com/shadcn) (57) · [leerob](https://github.com/leerob) (31)
 
 ## ⬇️ Get it
 

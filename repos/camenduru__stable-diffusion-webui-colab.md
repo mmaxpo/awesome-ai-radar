@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [37](https://github.com/camenduru/stable-diffusion-webui-colab/issues) |
 | 💻 **Languages** | Jupyter Notebook 100% |
 | 📜 **License** | Unlicense |
-| 🏷 **Topics** | `ai` `ai-art` `colab` `colab-notebook` `colaboratory` `deep-learning` `dreambooth` `gradio` `image-generation` `img2img` `lora` `pytorch` `stable-diffusion` `stable-diffusion-web-ui` `stable-diffusion-webui` `t2v` `text2video` `texttovideo` `txt2img` |
+| 🏷 **Topics** | `stable-diffusion` `stable-diffusion-web-ui` `stable-diffusion-webui` `colab` `colab-notebook` `colaboratory` `dreambooth` `lora` `ai` `gradio` `deep-learning` `image-generation` `img2img` `pytorch` `txt2img` `ai-art` `t2v` `text2video` `texttovideo` |
 | 🕒 **Last activity** | 2025-12-16 (11mo ago) |
 | 📅 **Created** | 2022-10-05 |
 | 📦 **Latest release** | [0.0.17](https://github.com/camenduru/stable-diffusion-webui-colab/releases/tag/0.0.17) — 2023-03-15 |
@@ -92,10 +92,6 @@
 | 2023-09-10 | [sad 😭](https://github.com/camenduru/stable-diffusion-webui-colab/commit/a0072177de6fb7a42a451098de3bf4b536019809) | camenduru |
 
 [See all commits ↗](https://github.com/camenduru/stable-diffusion-webui-colab/commits)
-
-## 👥 Top contributors
-
-[camenduru](https://github.com/camenduru) (854) · [anuragrajput40904](https://github.com/anuragrajput40904) (8) · [etherealxx](https://github.com/etherealxx) (5) · [HuiShingHon](https://github.com/HuiShingHon) (3) · [tahaaydn](https://github.com/tahaaydn) (3)
 
 ## ⬇️ Get it
 

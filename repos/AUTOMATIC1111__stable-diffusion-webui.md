@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [2.5k](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues) |
 | 💻 **Languages** | Python 87% · JavaScript 8% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
-| 🏷 **Topics** | `ai` `ai-art` `deep-learning` `diffusion` `gradio` `image-generation` `image2image` `img2img` `pytorch` `stable-diffusion` `text2image` `torch` `txt2img` `unstable` `upscaling` `web` |
+| 🏷 **Topics** | `deep-learning` `diffusion` `image-generation` `image2image` `img2img` `text2image` `txt2img` `ai` `ai-art` `gradio` `pytorch` `stable-diffusion` `torch` `upscaling` `web` `unstable` |
 | 🕒 **Last activity** | 2026-03-02 (8mo ago) |
 | 📅 **Created** | 2022-08-22 |
 | 📦 **Latest release** | [v1.10.1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1) — 2025-02-09 |
@@ -91,16 +91,12 @@
 | 2024-07-20 | [update CHANGELOG](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/8b3d98c5a580c3c72e82d03fdab2b643bf9a8edd) | AUTOMATIC1111 |
 | 2024-07-20 | [Merge branch 'dev' into release_candidate](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/5bbbda473fc87c161ec7f5351d78b8c43799d436) | AUTOMATIC1111 |
 | 2024-07-20 | [Merge pull request #16166 from richardtallent/dev](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/9f5a98d5766b4ac233d916fe8b02ea16b8b2c259) | AUTOMATIC1111 |
-| 2024-07-20 | [Merge pull request #16180 from light-and-ray/do_not_send_image_size_on_paste_inpaint](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/986c31dcfe701cfc84b372c7453511a320d1feb9) | AUTOMATIC1111 |
+| 2024-07-20 | [Merge pull request #16180 from light-and-ray/do_not_send_image_size_o…](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/986c31dcfe701cfc84b372c7453511a320d1feb9) | AUTOMATIC1111 |
 | 2024-07-20 | [Merge pull request #16173 from AUTOMATIC1111/robust-sysinfo](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/5096c163c16b9e6c0c491bc2debc182ca048ebc5) | AUTOMATIC1111 |
-| 2024-07-20 | [Merge pull request #16194 from light-and-ray/fix_cannot_write_mode_P_as_jpeg](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/7b99e14ab1324f93dfa78073d662a28aad949fcf) | AUTOMATIC1111 |
-| 2024-07-20 | [Merge pull request #16202 from light-and-ray/do_not_break_progressbar_on_non-job_actions](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/7c8a4ccecb59f85a015567f8ab3383145a315417) | AUTOMATIC1111 |
+| 2024-07-20 | [Merge pull request #16194 from light-and-ray/fix_cannot_write_mode_P_…](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/7b99e14ab1324f93dfa78073d662a28aad949fcf) | AUTOMATIC1111 |
+| 2024-07-20 | [Merge pull request #16202 from light-and-ray/do_not_break_progressbar…](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/7c8a4ccecb59f85a015567f8ab3383145a315417) | AUTOMATIC1111 |
 
 [See all commits ↗](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commits)
-
-## 👥 Top contributors
-
-[AUTOMATIC1111](https://github.com/AUTOMATIC1111) (3630) · [w-e-w](https://github.com/w-e-w) (314) · [dfaker](https://github.com/dfaker) (168) · [akx](https://github.com/akx) (155) · [catboxanon](https://github.com/catboxanon) (132)
 
 ## ⬇️ Get it
 

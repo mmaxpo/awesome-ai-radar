@@ -23,7 +23,7 @@
 | 🐞 **Open issues + PRs** | [578](https://github.com/Swordfish90/cool-retro-term/issues) |
 | 💻 **Languages** | QML 68% · C++ 16% · GLSL 9% · QMake 3% · Shell 2% |
 | 📜 **License** | — |
-| 🏷 **Topics** | `linux` `macos` `qml` `qt` `retro` `terminal` |
+| 🏷 **Topics** | `retro` `qml` `qt` `macos` `linux` `terminal` |
 | 🕒 **Last activity** | 2026-05-31 (5mo ago) |
 | 📅 **Created** | 2013-11-22 |
 | 📦 **Latest release** | [2.0.0-beta2](https://github.com/Swordfish90/cool-retro-term/releases/tag/2.0.0-beta2) — 2026-05-31 |
@@ -88,10 +88,6 @@
 | 2026-01-22 | [Fix fullscreen menu not added on linux.](https://github.com/Swordfish90/cool-retro-term/commit/9f05d729a75450de87a49d62bee40ef653cdf8e4) | Swordfish90 |
 
 [See all commits ↗](https://github.com/Swordfish90/cool-retro-term/commits)
-
-## 👥 Top contributors
-
-[Swordfish90](https://github.com/Swordfish90) (656) · [probonopd](https://github.com/probonopd) (27) · [KAMiKAZOW](https://github.com/KAMiKAZOW) (18) · [kz6fittycent](https://github.com/kz6fittycent) (16) · [barak](https://github.com/barak) (15)
 
 ## ⬇️ Get it
 

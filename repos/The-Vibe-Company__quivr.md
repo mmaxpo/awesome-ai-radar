@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [16](https://github.com/The-Vibe-Company/quivr/issues) |
 | 💻 **Languages** | Go 55% · Python 26% · TypeScript 7% · MDX 6% · JavaScript 3% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `ai` `api` `chatbot` `chatgpt` `database` `docker` `framework` `frontend` `groq` `html` `javascript` `llm` `openai` `postgresql` `privacy` `rag` `react` `security` `typescript` `vector` |
+| 🏷 **Topics** | `ai` `llm` `api` `chatbot` `chatgpt` `database` `docker` `frontend` `openai` `postgresql` `privacy` `security` `typescript` `html` `javascript` `react` `rag` `vector` `groq` `framework` |
 | 🕒 **Last activity** | 2026-11-09 (yesterday) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2) — 2026-10-30 |
@@ -94,22 +94,18 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-02 | [test(demo): walk every main journey of the demo with TesterArmy e2e (#3982)](https://github.com/The-Vibe-Company/quivr/commit/bb1b19ecf4094dbd1e309e521ce8b5fed4fb539f) | StanGirard |
+| 2026-11-02 | [test(demo): walk every main journey of the demo with TesterArmy e2e (…](https://github.com/The-Vibe-Company/quivr/commit/bb1b19ecf4094dbd1e309e521ce8b5fed4fb539f) | StanGirard |
 | 2026-11-02 | [fix(demo): pin alerts to the plugin version the core serves (#3980)](https://github.com/The-Vibe-Company/quivr/commit/25e4edf083c0fcd115ee952a048444de646604fd) | StanGirard |
 | 2026-10-30 | [chore(main): release 2.0.2 (#3977)](https://github.com/The-Vibe-Company/quivr/commit/0f9ce97492ebc2f577629bcc958f377e4f8673c0) | StanGirard |
-| 2026-10-30 | [fix(deploy): pin Weaviate 1.39.14 for filtered-search panics and RQ memory (#3976)](https://github.com/The-Vibe-Company/quivr/commit/90d7d88e3f4287a0fa648834dbc1546ae2569cd4) | StanGirard |
+| 2026-10-30 | [fix(deploy): pin Weaviate 1.39.14 for filtered-search panics and RQ m…](https://github.com/The-Vibe-Company/quivr/commit/90d7d88e3f4287a0fa648834dbc1546ae2569cd4) | StanGirard |
 | 2026-10-30 | [chore(main): release 2.0.1 (#3975)](https://github.com/The-Vibe-Company/quivr/commit/5e2bdae4c6fc5f8d029501c0303c170590f1a639) | StanGirard |
 | 2026-10-30 | [fix(deploy): pin Weaviate 1.39.13 for CVE-2026-111943 (#3973)](https://github.com/The-Vibe-Company/quivr/commit/191d35f195c087852b5387e0887def9b95435bb8) | StanGirard |
 | 2026-10-30 | [fix(images): rebase on Python 3.12.16 and patch brotli in TEI (#3974)](https://github.com/The-Vibe-Company/quivr/commit/84e5c4ec5a45077952326d6387bf434d6dd175f9) | StanGirard |
 | 2026-10-29 | [chore(main): release 2.0.0 (#3955)](https://github.com/The-Vibe-Company/quivr/commit/e91e3d6c30e554d015974bfa69926cee5001bca4) | StanGirard |
-| 2026-10-29 | [fix(release): check out before downloading signed images in publish (#3971)](https://github.com/The-Vibe-Company/quivr/commit/313f51e361b737f7986522493e26f0f1fa411ef7) | StanGirard |
+| 2026-10-29 | [fix(release): check out before downloading signed images in publish (…](https://github.com/The-Vibe-Company/quivr/commit/313f51e361b737f7986522493e26f0f1fa411ef7) | StanGirard |
 | 2026-10-29 | [docs(readme): add the Ask DeepWiki badge (#3972)](https://github.com/The-Vibe-Company/quivr/commit/bfed77dbf70f34996391d74908e4d21bbc2689ea) | StanGirard |
 
 [See all commits ↗](https://github.com/The-Vibe-Company/quivr/commits)
-
-## 👥 Top contributors
-
-[StanGirard](https://github.com/StanGirard) (1858) · [mamadoudicko](https://github.com/mamadoudicko) (259) · [Zewed](https://github.com/Zewed) (246) · [gozineb](https://github.com/gozineb) (79) · [AmineDiro](https://github.com/AmineDiro) (52)
 
 ## ⬇️ Get it
 

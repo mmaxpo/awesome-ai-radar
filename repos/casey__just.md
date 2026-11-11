@@ -106,10 +106,6 @@
 
 [See all commits ↗](https://github.com/casey/just/commits)
 
-## 👥 Top contributors
-
-[casey](https://github.com/casey) (1620) · [neunenak](https://github.com/neunenak) (41) · [laniakea64](https://github.com/laniakea64) (21) · [dependabot[bot]](https://github.com/dependabot[bot]) (20) · [hustcer](https://github.com/hustcer) (13)
-
 ## ⬇️ Get it
 
 ```bash

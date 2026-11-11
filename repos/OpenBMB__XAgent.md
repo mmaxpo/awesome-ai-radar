@@ -61,10 +61,6 @@
 
 [See all commits ↗](https://github.com/OpenBMB/XAgent/commits)
 
-## 👥 Top contributors
-
-[luyaxi](https://github.com/luyaxi) (69) · [Umpire2018](https://github.com/Umpire2018) (25) · [sailaoda](https://github.com/sailaoda) (22) · [congxin95](https://github.com/congxin95) (12) · [Kunlun-Zhu](https://github.com/Kunlun-Zhu) (11)
-
 ## ⬇️ Get it
 
 ```bash

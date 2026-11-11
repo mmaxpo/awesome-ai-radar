@@ -51,10 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/Shaveen12/HumanInTheLoop/commits)
 
-## 👥 Top contributors
-
-[Shaveen12](https://github.com/Shaveen12) (10)
-
 ## ⬇️ Get it
 
 ```bash

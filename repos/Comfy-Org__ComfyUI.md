@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [5.5k](https://github.com/Comfy-Org/ComfyUI/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
-| 🏷 **Topics** | `ai` `comfy` `comfyui` `python` `pytorch` `stable-diffusion` |
+| 🏷 **Topics** | `stable-diffusion` `pytorch` `ai` `python` `comfy` `comfyui` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2023-01-17 |
 | 📦 **Latest release** | [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) — 2026-11-10 |
@@ -89,21 +89,17 @@
 | Date | Change | By |
 |---|---|---|
 | 2026-11-11 | [[Partner Nodes] feat(Wan): move Wan nodes to Comfy Router (#17639)](https://github.com/Comfy-Org/ComfyUI/commit/74eb0c4b8a1a894e7210326882a8d9a016e37ccb) | bigcat88 |
-| 2026-11-11 | [Conform Concatenate Video clips to the first clip's frame rate and audio (FRONT-3775) (#17621)](https://github.com/Comfy-Org/ComfyUI/commit/4d64a8bc072b81c9b47321789b4d83fb7348ae2a) | jtydhr88 |
+| 2026-11-11 | [Conform Concatenate Video clips to the first clip's frame rate and au…](https://github.com/Comfy-Org/ComfyUI/commit/4d64a8bc072b81c9b47321789b4d83fb7348ae2a) | jtydhr88 |
 | 2026-11-10 | [Fix for some workflows not working properly. (#17675)](https://github.com/Comfy-Org/ComfyUI/commit/0228a9d73cd7c2daf8f61fe13d56b12efe307171) | comfyanonymous |
 | 2026-11-10 | [Update workflow templates to v0.11.106 (#17668)](https://github.com/Comfy-Org/ComfyUI/commit/dba377b97b17c7944ce0cf3d2429ee2caa5c4569) | comfyui-wiki |
 | 2026-11-10 | [[Partner Nodes] feat(MiniMax): add MiniMax H3 Image node (#17661)](https://github.com/Comfy-Org/ComfyUI/commit/d9238b25d23e0354b0169c8197b63eca7b46443f) | bigcat88 |
-| 2026-11-10 | [[Partner Nodes] feat(LTX): add AlphaGen, SDR to HDR, Reframe and Upscale nodes (#17664)](https://github.com/Comfy-Org/ComfyUI/commit/95413e4d5f550fda5d85dd2dde773ce57ba145ba) | bigcat88 |
+| 2026-11-10 | [[Partner Nodes] feat(LTX): add AlphaGen, SDR to HDR, Reframe and Upsc…](https://github.com/Comfy-Org/ComfyUI/commit/95413e4d5f550fda5d85dd2dde773ce57ba145ba) | bigcat88 |
 | 2026-11-10 | [ComfyUI v0.45.0](https://github.com/Comfy-Org/ComfyUI/commit/989d93d0d968e704c589ce0146bb18c77f6b50cc) | comfyanonymous |
 | 2026-11-10 | [Update workflow templates to v0.11.105 (#17658)](https://github.com/Comfy-Org/ComfyUI/commit/0439dd79e6c06a17f146eafe41542614420f38b8) | comfyui-wiki |
 | 2026-11-10 | [feat: Support MiniMax-H3-image (CORE-708) (#17655)](https://github.com/Comfy-Org/ComfyUI/commit/ede4e5fe8d15445c6fcd6828d70b202c22f9502c) | kijai |
 | 2026-11-10 | [[Partner Nodes] feat(ByteDance): add Seedream 5.5 model (#17631)](https://github.com/Comfy-Org/ComfyUI/commit/b40cca229d23cc1d0b16f4d5946cb14a35ba88f6) | bigcat88 |
 
 [See all commits ↗](https://github.com/Comfy-Org/ComfyUI/commits)
-
-## 👥 Top contributors
-
-[comfyanonymous](https://github.com/comfyanonymous) (3436) · [bigcat88](https://github.com/bigcat88) (477) · [pythongosssss](https://github.com/pythongosssss) (232) · [comfyui-wiki](https://github.com/comfyui-wiki) (218) · [rattus128](https://github.com/rattus128) (182)
 
 ## ⬇️ Get it
 

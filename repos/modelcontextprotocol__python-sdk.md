@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [404](https://github.com/modelcontextprotocol/python-sdk/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `mcp` `mcp-client` `mcp-server` `python` |
+| 🏷 **Topics** | `python` `mcp` `mcp-server` `mcp-client` |
 | 🕒 **Last activity** | 2026-11-05 (6d ago) |
 | 📅 **Created** | 2024-09-24 |
 | 📦 **Latest release** | [v2.3.0](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0) — 2026-10-02 |
@@ -90,19 +90,15 @@
 | 2026-11-05 | [Generate single-line `model_config` in surface types (#3820)](https://github.com/modelcontextprotocol/python-sdk/commit/77001c96f9507be0f4d009b83210a384a5e08bda) | Kludex |
 | 2026-11-05 | [Keep unknown keys on client and server capabilities (#3812)](https://github.com/modelcontextprotocol/python-sdk/commit/82adc272e85c12f620df21db34b6086ed7619548) | Kludex |
 | 2026-11-03 | [Bump the github-actions group with 7 updates (#3797)](https://github.com/modelcontextprotocol/python-sdk/commit/af4c6f4db2cd207f44374cd324a12cfbee8d2da6) | dependabot[bot] |
-| 2026-10-27 | [Carry `capabilities.extensions` on legacy `initialize` handshakes (#3776)](https://github.com/modelcontextprotocol/python-sdk/commit/d7845c073a2b9ba5ab2817ecf93d3e45ef24cd14) | Kludex |
-| 2026-10-24 | [Give bare `dict`, `set` and `frozenset` return annotations structured output (#3758)](https://github.com/modelcontextprotocol/python-sdk/commit/a525a3d9bece967d91534b746a6c842931b7b4ec) | Kludex |
-| 2026-10-24 | [Treat `typing.Dict[str, X]` return annotations like `dict[str, X]` (#3756)](https://github.com/modelcontextprotocol/python-sdk/commit/5a3a23af65def4d636864d55701ff9395cad92d0) | Kludex |
+| 2026-10-27 | [Carry `capabilities.extensions` on legacy `initialize` handshakes (#3…](https://github.com/modelcontextprotocol/python-sdk/commit/d7845c073a2b9ba5ab2817ecf93d3e45ef24cd14) | Kludex |
+| 2026-10-24 | [Give bare `dict`, `set` and `frozenset` return annotations structured…](https://github.com/modelcontextprotocol/python-sdk/commit/a525a3d9bece967d91534b746a6c842931b7b4ec) | Kludex |
+| 2026-10-24 | [Treat `typing.Dict[str, X]` return annotations like `dict[str, X]` (#…](https://github.com/modelcontextprotocol/python-sdk/commit/5a3a23af65def4d636864d55701ff9395cad92d0) | Kludex |
 | 2026-10-24 | [Drop generated titles from tool input and output schemas (#3757)](https://github.com/modelcontextprotocol/python-sdk/commit/72ff38cb5cb7c0f6d5024d1b185e5bf0c05f0cb0) | Kludex |
 | 2026-10-24 | [Resolve open code scanning alerts (#3755)](https://github.com/modelcontextprotocol/python-sdk/commit/86ca12b4e977fe4739b478430e2b86018126ed6e) | Kludex |
 | 2026-10-24 | [Bump the python-security group across 1 directory with 4 updates (#3752)](https://github.com/modelcontextprotocol/python-sdk/commit/910efd9497057f0c636afaebf52a2b9f8bf0c3b8) | dependabot[bot] |
 | 2026-10-17 | [Give each SSE response its own header list (#3726)](https://github.com/modelcontextprotocol/python-sdk/commit/2af9e3089ac66b35c1550c500aae86a82efb1e17) | Kludex |
 
 [See all commits ↗](https://github.com/modelcontextprotocol/python-sdk/commits)
-
-## 👥 Top contributors
-
-[maxisbey](https://github.com/maxisbey) (261) · [dsp-ant](https://github.com/dsp-ant) (244) · [Kludex](https://github.com/Kludex) (133) · [ihrpr](https://github.com/ihrpr) (59) · [jspahrsummers](https://github.com/jspahrsummers) (39)
 
 ## ⬇️ Get it
 

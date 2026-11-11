@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [1.9k](https://github.com/pandas-dev/pandas/issues) |
 | 💻 **Languages** | Python 91% · Cython 6% · C 1% |
 | 📜 **License** | BSD-3-Clause |
-| 🏷 **Topics** | `alignment` `data-analysis` `data-science` `flexible` `pandas` `python` |
+| 🏷 **Topics** | `data-analysis` `pandas` `flexible` `alignment` `python` `data-science` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 6d ago</sub>
+<sub>2026-11-04 · 7d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -95,21 +95,17 @@
 | Date | Change | By |
 |---|---|---|
 | 2026-11-11 | [CI: Upgrade to mypy 2.4 (#71956)](https://github.com/pandas-dev/pandas/commit/f1cc1a1bc979b83e641facf72ec6526593d61420) | rhshadrach |
-| 2026-11-11 | [TST: groupby rolling with sort=False keeps group order (GH 50296) (#71327)](https://github.com/pandas-dev/pandas/commit/b8f5d0c43c2b8fb9b7c897692c7191de8c71f9e5) | VividhDesign |
-| 2026-11-11 | [REGR: pyarrow read_csv parse_dates stringifies a non-date index_col (#71873)](https://github.com/pandas-dev/pandas/commit/5fa9a0224b32b35f47381ad9be0990c1fda17a70) | jbrockmendel |
+| 2026-11-11 | [TST: groupby rolling with sort=False keeps group order (GH 50296) (#7…](https://github.com/pandas-dev/pandas/commit/b8f5d0c43c2b8fb9b7c897692c7191de8c71f9e5) | VividhDesign |
+| 2026-11-11 | [REGR: pyarrow read_csv parse_dates stringifies a non-date index_col (…](https://github.com/pandas-dev/pandas/commit/5fa9a0224b32b35f47381ad9be0990c1fda17a70) | jbrockmendel |
 | 2026-11-10 | [DOC/CHORE: Make links to documentation consistent (#71720)](https://github.com/pandas-dev/pandas/commit/862b799071c6fa18814da256dfa27ea61813ac8a) | afeld |
-| 2026-11-10 | [BUG: exact Series/DataFrame.quantile for datetimelike with linear/midpoint interpolation (#71823)](https://github.com/pandas-dev/pandas/commit/0b07bb9af63c6bb2bee34d28cebcb15eb879b3be) | aniyow07 |
-| 2026-11-10 | [BUG: read_csv dropping leading whitespace at a read boundary (GH#34085) (#71402)](https://github.com/pandas-dev/pandas/commit/3c83c0502a09af1b318a91cb085055e8cee17351) | jbrockmendel |
-| 2026-11-10 | [BUG: read_csv(engine="pyarrow") failed on a single line without a trailing newline (GH#62635) (#7059…](https://github.com/pandas-dev/pandas/commit/0d39e6e3afa2e45fb395e0b05ce3aed9fcd46e92) | jbrockmendel |
+| 2026-11-10 | [BUG: exact Series/DataFrame.quantile for datetimelike with linear/mid…](https://github.com/pandas-dev/pandas/commit/0b07bb9af63c6bb2bee34d28cebcb15eb879b3be) | aniyow07 |
+| 2026-11-10 | [BUG: read_csv dropping leading whitespace at a read boundary (GH#3408…](https://github.com/pandas-dev/pandas/commit/3c83c0502a09af1b318a91cb085055e8cee17351) | jbrockmendel |
+| 2026-11-10 | [BUG: read_csv(engine="pyarrow") failed on a single line without a tra…](https://github.com/pandas-dev/pandas/commit/0d39e6e3afa2e45fb395e0b05ce3aed9fcd46e92) | jbrockmendel |
 | 2026-11-10 | [DOC: move Merge intro above Concat in 10 minutes guide (#71999)](https://github.com/pandas-dev/pandas/commit/4d70fad9dc1f4403b91961c35ddcfdaff803e8e8) | laraib-b |
 | 2026-11-10 | [DOC: move GH#71875 whatsnew entry from 3.1.2 to 3.2.0 (#72001)](https://github.com/pandas-dev/pandas/commit/436864644d964d907459daedb2b5f0ba8065f7da) | jbrockmendel |
-| 2026-11-10 | [BUG: value_counts on nullable dtypes places NA at first appearance (#70103)](https://github.com/pandas-dev/pandas/commit/65b0cec89317e66f71017092891c1a81eec8ae31) | jbrockmendel |
+| 2026-11-10 | [BUG: value_counts on nullable dtypes places NA at first appearance (#…](https://github.com/pandas-dev/pandas/commit/65b0cec89317e66f71017092891c1a81eec8ae31) | jbrockmendel |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
-
-## 👥 Top contributors
-
-[jbrockmendel](https://github.com/jbrockmendel) (6590) · [jreback](https://github.com/jreback) (4731) · [wesm](https://github.com/wesm) (3127) · [jorisvandenbossche](https://github.com/jorisvandenbossche) (1702) · [mroeschke](https://github.com/mroeschke) (1557)
 
 ## ⬇️ Get it
 

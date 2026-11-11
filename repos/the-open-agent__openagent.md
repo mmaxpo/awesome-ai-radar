@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [49](https://github.com/the-open-agent/openagent/issues) |
 | 💻 **Languages** | Go 75% · TypeScript 25% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `agent` `agentic` `agentic-ai` `agi` `chatbot` `chatgpt` `gpt` `harness` `hermes-agent` `knowledge-base` `langchain` `llm` `mcp` `model-context-protocol` `multi-agent` `openagent` `openai` `openclaw` `rag` |
+| 🏷 **Topics** | `chatgpt` `gpt` `knowledge-base` `langchain` `openai` `chatbot` `llm` `rag` `multi-agent` `agi` `agent` `mcp` `model-context-protocol` `openclaw` `agentic` `agentic-ai` `harness` `openagent` `hermes-agent` |
 | 🕒 **Last activity** | 2026-11-06 (5d ago) |
 | 📅 **Created** | 2020-05-29 |
 | 📦 **Latest release** | [v2.95.1](https://github.com/the-open-agent/openagent/releases/tag/v2.95.1) — 2026-10-05 |
@@ -72,22 +72,18 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-06 | [fix: review chat messages with the agent's last reply to stop blocking classroom answers](https://github.com/the-open-agent/openagent/commit/f2338321f65ad7dd65d0749ad0bd95efa7c2c881) | hsluoyz |
+| 2026-11-06 | [fix: review chat messages with the agent's last reply to stop blockin…](https://github.com/the-open-agent/openagent/commit/f2338321f65ad7dd65d0749ad0bd95efa7c2c881) | hsluoyz |
 | 2026-11-02 | [feat: pass the user name to the live chat](https://github.com/the-open-agent/openagent/commit/ea553047aa49c567d99da0e2e69c7b456577ed7f) | hsluoyz |
 | 2026-11-01 | [feat: add a live chat button set by the site](https://github.com/the-open-agent/openagent/commit/48c9588267765ec77e8d61283be4602f1c0b71be) | hsluoyz |
 | 2026-10-31 | [fix: use agent embeddings and handle signed document URLs on Windows](https://github.com/the-open-agent/openagent/commit/b3b0ab5391f0292d319cbc8cab227104ac5ca352) | hsluoyz |
-| 2026-10-27 | [fix: keep the chat input usable after a failed answer and retry overloaded models](https://github.com/the-open-agent/openagent/commit/5ea6b23de1834864a40941ef0beafeca98cdb35b) | hsluoyz |
+| 2026-10-27 | [fix: keep the chat input usable after a failed answer and retry overl…](https://github.com/the-open-agent/openagent/commit/5ea6b23de1834864a40941ef0beafeca98cdb35b) | hsluoyz |
 | 2026-10-25 | [feat: add noIndex config to keep search engines from indexing the site](https://github.com/the-open-agent/openagent/commit/b706a4725587971de857d90ecfbdf5ef16e5d12e) | hsluoyz |
 | 2026-10-24 | [fix: record the size instead of the content of files in messages](https://github.com/the-open-agent/openagent/commit/c15e6cb2b4394af06c3738478d21c676864256c8) | hsluoyz |
-| 2026-10-22 | [fix: hide tool calls from store owners and admins too when the option is on](https://github.com/the-open-agent/openagent/commit/9ae3562869e2083f77035107b413455810d561a8) | hsluoyz |
+| 2026-10-22 | [fix: hide tool calls from store owners and admins too when the option…](https://github.com/the-open-agent/openagent/commit/9ae3562869e2083f77035107b413455810d561a8) | hsluoyz |
 | 2026-10-21 | [feat: add an option to hide tool calls in chat](https://github.com/the-open-agent/openagent/commit/7c605ed155e725b13c64d70a20fab0bd56eadb23) | hsluoyz |
-| 2026-10-19 | [feat: block prompt attacks, review answers and mask personal data in the AI guardrail](https://github.com/the-open-agent/openagent/commit/95f46249b9952957cb49f27a5af2a0197683639a) | hsluoyz |
+| 2026-10-19 | [feat: block prompt attacks, review answers and mask personal data in …](https://github.com/the-open-agent/openagent/commit/95f46249b9952957cb49f27a5af2a0197683639a) | hsluoyz |
 
 [See all commits ↗](https://github.com/the-open-agent/openagent/commits)
-
-## 👥 Top contributors
-
-[hsluoyz](https://github.com/hsluoyz) (1628) · [IsAurora6](https://github.com/IsAurora6) (149) · [Copilot](https://github.com/Copilot) (103) · [dark-Qy](https://github.com/dark-Qy) (95) · [MartinRepo](https://github.com/MartinRepo) (58)
 
 ## ⬇️ Get it
 

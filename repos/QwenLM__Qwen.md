@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [41](https://github.com/QwenLM/Qwen/issues) |
 | 💻 **Languages** | Python 63% · Jupyter Notebook 31% · Shell 5% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `chinese` `flash-attention` `large-language-models` `llm` `natural-language-processing` `pretrained-models` |
+| 🏷 **Topics** | `chinese` `large-language-models` `natural-language-processing` `flash-attention` `llm` `pretrained-models` |
 | 🕒 **Last activity** | 2026-03-05 (8mo ago) |
 | 📅 **Created** | 2023-08-03 |
 | 📦 **Latest release** | — |
@@ -52,10 +52,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2025-06-16 | [Delete assets/wechat.png](https://github.com/QwenLM/Qwen/commit/1c282d421ce2e5aa8b2888425a41d0669a10a110) | yangapku |
 
 [See all commits ↗](https://github.com/QwenLM/Qwen/commits)
-
-## 👥 Top contributors
-
-[JustinLin610](https://github.com/JustinLin610) (179) · [yangapku](https://github.com/yangapku) (158) · [jklj077](https://github.com/jklj077) (35) · [JianxinMa](https://github.com/JianxinMa) (35) · [jxst539246](https://github.com/jxst539246) (21)
 
 ## ⬇️ Get it
 

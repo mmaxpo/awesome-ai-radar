@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [695](https://github.com/codecrafters-io/build-your-own-x/issues) |
 | 💻 **Languages** | Markdown 100% |
 | 📜 **License** | — |
-| 🏷 **Topics** | `awesome-list` `free` `programming` `tutorial-code` `tutorial-exercises` `tutorials` |
+| 🏷 **Topics** | `programming` `tutorials` `tutorial-code` `tutorial-exercises` `free` `awesome-list` |
 | 🕒 **Last activity** | 2026-11-08 (2d ago) |
 | 📅 **Created** | 2018-05-09 |
 | 📦 **Latest release** | — |
@@ -45,7 +45,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-08 | [Add Vector Database from Scratch (Rust) to Database](https://github.com/codecrafters-io/build-your-own-x/commit/03553aa42ff42176ec607ddc448daf2cd2942108) | thejesh23 |
 | 2026-07-14 | [Merge pull request #1844 from ARJ544/fix-ai-model-anchor](https://github.com/codecrafters-io/build-your-own-x/commit/aa17439b62f384511a5561ce308e9598b94d8989) | rohitpaulk |
 | 2026-07-14 | [Fix incorrect anchor link for AI model section](https://github.com/codecrafters-io/build-your-own-x/commit/b916354a7a6d76ae4b313fd077a13666c2c24727) | ARJ544 |
-| 2026-06-25 | [Merge pull request #1812 from roiamiel1/add-build-deep-learning-from-scratch](https://github.com/codecrafters-io/build-your-own-x/commit/264b4547b30e8e700afd260751b5e13f8bc61275) | rohitpaulk |
+| 2026-06-25 | [Merge pull request #1812 from roiamiel1/add-build-deep-learning-from-…](https://github.com/codecrafters-io/build-your-own-x/commit/264b4547b30e8e700afd260751b5e13f8bc61275) | rohitpaulk |
 | 2026-06-23 | [Update link for 'Build Deep Learning From Scratch'](https://github.com/codecrafters-io/build-your-own-x/commit/750f70669bc53cd8d4b6c3bbd0ffa50776e820fe) | roiamiel1 |
 | 2026-06-21 | [add build add-build-deep-learning-from-scratch](https://github.com/codecrafters-io/build-your-own-x/commit/1b3cb7479d782d0e52ee23a3f07645815b22d680) | Roi Amiel |
 | 2026-02-21 | [Merge pull request #1398 from NikoPit/patch-1](https://github.com/codecrafters-io/build-your-own-x/commit/294aef8fde538d169089b1c7dc70b0ddc3b0ef6f) | sarupbanskota |
@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-02-21 | [Merge pull request #1538 from Velnbur/master](https://github.com/codecrafters-io/build-your-own-x/commit/08fe81bce6d6baf7a09a8d5564e19d04134fdeb0) | sarupbanskota |
 
 [See all commits ↗](https://github.com/codecrafters-io/build-your-own-x/commits)
-
-## 👥 Top contributors
-
-[danistefanovic](https://github.com/danistefanovic) (320) · [rohitpaulk](https://github.com/rohitpaulk) (70) · [sarupbanskota](https://github.com/sarupbanskota) (27) · [fake-rookie](https://github.com/fake-rookie) (15) · [bauripalash](https://github.com/bauripalash) (5)
 
 ## ⬇️ Get it
 

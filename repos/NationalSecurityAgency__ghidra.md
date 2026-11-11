@@ -1,6 +1,6 @@
-# nationalsecurityagency/ghidra
+# NationalSecurityAgency/ghidra
 
-[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/nationalsecurityagency/ghidra)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/NationalSecurityAgency/ghidra)
 
 > Ghidra is a software reverse engineering (SRE) framework
 
@@ -22,10 +22,10 @@
 |---|---|
 | ⭐ **Stars** | 99.5k |
 | 🍴 **Forks** | 11.3k |
-| 🐞 **Open issues + PRs** | [2.2k](https://github.com/nationalsecurityagency/ghidra/issues) |
+| 🐞 **Open issues + PRs** | [2.2k](https://github.com/NationalSecurityAgency/ghidra/issues) |
 | 💻 **Languages** | Java 86% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `disassembler` `reverse-engineering` `software-analysis` |
+| 🏷 **Topics** | `software-analysis` `disassembler` `reverse-engineering` |
 | 🕒 **Last activity** | 2026-11-10 (yesterday) |
 | 📅 **Created** | 2019-03-01 |
 | 📦 **Latest release** | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — 2026-10-22 |
@@ -82,21 +82,17 @@
 | 2026-11-10 | [GP-7499: Certify and clean up](https://github.com/NationalSecurityAgency/ghidra/commit/16c62124a41221f048b5afddc2d492d37c968b31) | ryanmkurtz |
 | 2026-11-09 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/6e8d8a8132cf72e6775704ea222a9319cb41ceab) | ryanmkurtz |
 | 2026-11-09 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/945e28d0da3d2d63a421a8b440f176906c39a565) | ryanmkurtz |
-| 2026-11-09 | [Merge remote-tracking branch 'origin/GP-0-dragonmacher-test-fixes-11--26'](https://github.com/NationalSecurityAgency/ghidra/commit/7bc8f2626fd2feaedcee20e1a81b50d72e57cab1) | ryanmkurtz |
+| 2026-11-09 | [Merge remote-tracking branch 'origin/GP-0-dragonmacher-test-fixes-11-…](https://github.com/NationalSecurityAgency/ghidra/commit/7bc8f2626fd2feaedcee20e1a81b50d72e57cab1) | ryanmkurtz |
 | 2026-11-09 | [Test fixes](https://github.com/NationalSecurityAgency/ghidra/commit/bb6fb7ffe4158e12273a195dafa4403f2201ad18) | dragonmacher |
 | 2026-11-09 | [GP-7386 Improved project file and folder path name restrictions.  Allow](https://github.com/NationalSecurityAgency/ghidra/commit/cb55a237589d86c5427aee5f47d538ffa859d0b3) | ghidra1 |
 | 2026-11-09 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/fd61314589146ac904ee9bf1a8a110a085f4da68) | ryanmkurtz |
 | 2026-11-09 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/3df1523c3020b7f822661e365d05ca7d8083dce2) | ryanmkurtz |
 | 2026-11-09 | [Merge branch](https://github.com/NationalSecurityAgency/ghidra/commit/3d9ff915cb5fca04d456c786d60a2a2da87e884f) | ryanmkurtz |
 
-[See all commits ↗](https://github.com/nationalsecurityagency/ghidra/commits)
-
-## 👥 Top contributors
-
-[ryanmkurtz](https://github.com/ryanmkurtz) (7672) · [ghidra1](https://github.com/ghidra1) (2978) · [dragonmacher](https://github.com/dragonmacher) (1768) · [nsadeveloper789](https://github.com/nsadeveloper789) (1088) · [caheckman](https://github.com/caheckman) (806)
+[See all commits ↗](https://github.com/NationalSecurityAgency/ghidra/commits)
 
 ## ⬇️ Get it
 
 ```bash
-git clone https://github.com/nationalsecurityagency/ghidra.git
+git clone https://github.com/NationalSecurityAgency/ghidra.git
 ```

@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [5](https://github.com/mhbashari/awesome-persian-nlp-ir/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | — |
-| 🏷 **Topics** | `corpus` `dependency-parser` `embeddings` `information-retrieval` `language-detection` `morphological-analysis` `named-entity-recognition` `natural-language-processing` `normalizer` `part-of-speech-tagger` `persian-language` `persian-nlp` `persian-stemmer` `shallow-parser` `spell-check` `stemmer` |
+| 🏷 **Topics** | `persian-language` `natural-language-processing` `information-retrieval` `language-detection` `persian-nlp` `corpus` `part-of-speech-tagger` `normalizer` `named-entity-recognition` `embeddings` `morphological-analysis` `stemmer` `dependency-parser` `spell-check` `persian-stemmer` `shallow-parser` |
 | 🕒 **Last activity** | 2023-11-07 (3y ago) |
 | 📅 **Created** | 2016-07-15 |
 | 📦 **Latest release** | — |
@@ -52,10 +52,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2023-06-01 | [[add] MeDiaPQA to datasets](https://github.com/mhbashari/awesome-persian-nlp-ir/commit/811b96e9d4cb9e57649d8269a6e5693ded5c250b) | mohsenMahmoodzadeh |
 
 [See all commits ↗](https://github.com/mhbashari/awesome-persian-nlp-ir/commits)
-
-## 👥 Top contributors
-
-[mhbashari](https://github.com/mhbashari) (130) · [mohsenMahmoodzadeh](https://github.com/mohsenMahmoodzadeh) (12) · [m3hrdadfi](https://github.com/m3hrdadfi) (11) · [htaghizadeh](https://github.com/htaghizadeh) (5) · [mohamad-dehghani](https://github.com/mohamad-dehghani) (5)
 
 ## ⬇️ Get it
 

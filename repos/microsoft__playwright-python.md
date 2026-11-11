@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [2](https://github.com/microsoft/playwright-python/issues) |
 | 💻 **Languages** | Python 92% · HTML 4% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `chromium` `firefox` `playwright` `webkit` |
+| 🏷 **Topics** | `playwright` `chromium` `firefox` `webkit` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2020-07-01 |
 | 📦 **Latest release** | [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0) — 2026-11-09 |
@@ -94,10 +94,10 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-10 | [devops(docker): publish stable images from the tip of a release branch (#3333)](https://github.com/microsoft/playwright-python/commit/89436fb88df74b0f1c5ef4b9df3a113d409bf3cd) | yury-s |
-| 2026-11-10 | [chore(bots): name the agent workflows agent-*, and start tasks by hand only (#3332)](https://github.com/microsoft/playwright-python/commit/63cdffb905cbd09c1b73ae2cde51f8dd353bccd8) | pavelfeldman |
-| 2026-11-10 | [devops(docker): install libatomic1 for the Node.js binary of the driver (#3331)](https://github.com/microsoft/playwright-python/commit/02e247e3fe492566110e94cbb972f09b69b0952e) | dgozman |
-| 2026-11-10 | [chore(bots): hand triage, review, tasks and rolls to the Playwright bot (#3330)](https://github.com/microsoft/playwright-python/commit/6b42560a3b5849dc98a47e77ff0536b81c45b53d) | pavelfeldman |
+| 2026-11-10 | [devops(docker): publish stable images from the tip of a release branc…](https://github.com/microsoft/playwright-python/commit/89436fb88df74b0f1c5ef4b9df3a113d409bf3cd) | yury-s |
+| 2026-11-10 | [chore(bots): name the agent workflows agent-*, and start tasks by han…](https://github.com/microsoft/playwright-python/commit/63cdffb905cbd09c1b73ae2cde51f8dd353bccd8) | pavelfeldman |
+| 2026-11-10 | [devops(docker): install libatomic1 for the Node.js binary of the driv…](https://github.com/microsoft/playwright-python/commit/02e247e3fe492566110e94cbb972f09b69b0952e) | dgozman |
+| 2026-11-10 | [chore(bots): hand triage, review, tasks and rolls to the Playwright b…](https://github.com/microsoft/playwright-python/commit/6b42560a3b5849dc98a47e77ff0536b81c45b53d) | pavelfeldman |
 | 2026-11-09 | [chore: roll Playwright to 1.65.0 (a1f35e1955) (#3327)](https://github.com/microsoft/playwright-python/commit/18175f80c7ede1073f91e2df37587500a5f902c7) | microsoft-playwright-automation[bot] |
 | 2026-11-05 | [devops: wait 7 days before Dependabot proposes pip updates (#3325)](https://github.com/microsoft/playwright-python/commit/6bd6aaa2073695da7320277862ceede0b9756621) | pavelfeldman |
 | 2026-11-05 | [devops(bots): pin the shared actions to a commit SHA (#3319)](https://github.com/microsoft/playwright-python/commit/1e2746c96817d63c3136f21ac02be44d558c5c63) | pavelfeldman |
@@ -106,10 +106,6 @@
 | 2026-11-03 | [devops(roll): open the pull request with publish-calls (#3317)](https://github.com/microsoft/playwright-python/commit/989329c642af4336c5958dee92a061e546392084) | pavelfeldman |
 
 [See all commits ↗](https://github.com/microsoft/playwright-python/commits)
-
-## 👥 Top contributors
-
-[mxschmitt](https://github.com/mxschmitt) (462) · [pavelfeldman](https://github.com/pavelfeldman) (225) · [dependabot[bot]](https://github.com/dependabot[bot]) (217) · [kumaraditya303](https://github.com/kumaraditya303) (65) · [rwoll](https://github.com/rwoll) (41)
 
 ## ⬇️ Get it
 

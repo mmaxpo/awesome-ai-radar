@@ -52,10 +52,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/MengTo/kage/commits)
 
-## 👥 Top contributors
-
-[MengTo](https://github.com/MengTo) (11)
-
 ## ⬇️ Get it
 
 ```bash

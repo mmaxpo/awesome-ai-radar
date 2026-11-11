@@ -107,10 +107,6 @@
 
 [See all commits ↗](https://github.com/mistralai/mistral-inference/commits)
 
-## 👥 Top contributors
-
-[patrickvonplaten](https://github.com/patrickvonplaten) (62) · [timlacroix](https://github.com/timlacroix) (26) · [pandora-s-git](https://github.com/pandora-s-git) (12) · [juliendenize](https://github.com/juliendenize) (12) · [arthurmensch](https://github.com/arthurmensch) (9)
-
 ## ⬇️ Get it
 
 ```bash

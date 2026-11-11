@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [24](https://github.com/asgeirtj/system_prompts_leaks/issues) |
 | 💻 **Languages** | Python 64% · JavaScript 33% · HTML 2% |
 | 📜 **License** | CC0-1.0 |
-| 🏷 **Topics** | `ai` `ai-agents` `ai-prompts` `anthropic` `chatbot` `chatgpt` `claude` `claude-code` `codex` `cursor` `gemini` `generative-ai` `google` `grok` `llm` `openai` `prompt` `prompt-engineering` `system-prompt` `system-prompts` |
+| 🏷 **Topics** | `ai` `anthropic` `chatbot` `chatgpt` `claude` `claude-code` `codex` `gemini` `generative-ai` `google` `llm` `openai` `prompt-engineering` `ai-agents` `system-prompts` `cursor` `grok` `ai-prompts` `prompt` `system-prompt` |
 | 🕒 **Last activity** | 2026-11-10 (yesterday) |
 | 📅 **Created** | 2025-05-03 |
 | 📦 **Latest release** | — |
@@ -42,7 +42,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 |---|---|---|
 | 2026-11-10 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/fc0108f594b63bca905f2c4815aaef430d13bd68) | asgeirtj |
 | 2026-11-10 | [Add claude-fable-5.2-raw.md](https://github.com/asgeirtj/system_prompts_leaks/commit/bd34cf29c81230d86c521a305c3379a1ef6f087b) | asgeirtj |
-| 2026-11-10 | [Add official statement about what <claude_behavior> chapter on claude.ai includes for Fable 5.2](https://github.com/asgeirtj/system_prompts_leaks/commit/a99ca6dc26a3fd144d1a5d9a184ee455d05fa2bf) | asgeirtj |
+| 2026-11-10 | [Add official statement about what <claude_behavior> chapter on claude…](https://github.com/asgeirtj/system_prompts_leaks/commit/a99ca6dc26a3fd144d1a5d9a184ee455d05fa2bf) | asgeirtj |
 | 2026-11-09 | [Update claude-code agents](https://github.com/asgeirtj/system_prompts_leaks/commit/a2d33761e49b98f6ec1b48f12143264eb9b4ff4f) | asgeirtj |
 | 2026-11-09 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/8fc6c7d295dcc2364e72a36bdda7f8a1bce975ed) | asgeirtj |
 | 2026-11-09 | [Move btw and compact to prompts](https://github.com/asgeirtj/system_prompts_leaks/commit/8eea1be0ca7cff3b67a3811111350dcf084dfcaa) | asgeirtj |
@@ -52,10 +52,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-09 | [Add Claude Fable 5.2 system prompt (Claude Code)](https://github.com/asgeirtj/system_prompts_leaks/commit/d1ca301e33cf8d176a8463cf932ce7e3c80da07e) | asgeirtj |
 
 [See all commits ↗](https://github.com/asgeirtj/system_prompts_leaks/commits)
-
-## 👥 Top contributors
-
-[asgeirtj](https://github.com/asgeirtj) (880) · [anonymous619259](https://github.com/anonymous619259) (5) · [awrreny](https://github.com/awrreny) (5) · [dbyale](https://github.com/dbyale) (4) · [lcebot](https://github.com/lcebot) (3)
 
 ## ⬇️ Get it
 

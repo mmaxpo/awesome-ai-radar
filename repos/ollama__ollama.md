@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [4.6k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 74% · C 18% · TypeScript 5% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `deepseek` `gemma` `glm` `go` `golang` `gpt-oss` `llama` `llm` `llms` `minimax` `mistral` `muse` `ollama` `qwen` |
+| 🏷 **Topics** | `llama` `llm` `llms` `go` `golang` `ollama` `mistral` `gemma` `deepseek` `qwen` `gpt-oss` `glm` `minimax` `muse` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2023-06-26 |
 | 📦 **Latest release** | [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) — 2026-11-09 |
@@ -102,10 +102,6 @@
 | 2026-11-06 | [MLX: make Qwen3.8 Flash Next memory efficient (#18078)](https://github.com/ollama/ollama/commit/c053d1e98537f208b24165446369bd376a015999) | dhiltgen |
 
 [See all commits ↗](https://github.com/ollama/ollama/commits)
-
-## 👥 Top contributors
-
-[mxyng](https://github.com/mxyng) (1294) · [dhiltgen](https://github.com/dhiltgen) (1069) · [jmorganca](https://github.com/jmorganca) (931) · [BruceMacD](https://github.com/BruceMacD) (364) · [jessegross](https://github.com/jessegross) (315)
 
 ## ⬇️ Get it
 

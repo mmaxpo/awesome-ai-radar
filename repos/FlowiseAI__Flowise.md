@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/FlowiseAI/Flowise/issues) |
 | 💻 **Languages** | TypeScript 62% · JavaScript 27% · HTML 6% · Handlebars 5% |
 | 📜 **License** | Other |
-| 🏷 **Topics** | `agentic-ai` `agentic-workflow` `agents` `artificial-intelligence` `chatbot` `chatgpt` `javascript` `langchain` `large-language-models` `low-code` `multiagent-systems` `no-code` `openai` `rag` `react` `typescript` `workflow-automation` |
+| 🏷 **Topics** | `artificial-intelligence` `chatgpt` `large-language-models` `low-code` `no-code` `javascript` `react` `typescript` `langchain` `openai` `rag` `chatbot` `workflow-automation` `agentic-ai` `agentic-workflow` `agents` `multiagent-systems` |
 | 🕒 **Last activity** | 2026-08-13 (3mo ago) |
 | 📅 **Created** | 2023-03-31 |
 | 📦 **Latest release** | [flowise@3.1.4](https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4) — 2026-07-29 |
@@ -106,10 +106,6 @@
 | 2026-07-31 | [fix: flowise-708 (#6679)](https://github.com/FlowiseAI/Flowise/commit/754f3d4747337ec27458a7848e0aa372581d7641) | 0xi4o |
 
 [See all commits ↗](https://github.com/FlowiseAI/Flowise/commits)
-
-## 👥 Top contributors
-
-[HenryHengZJ](https://github.com/HenryHengZJ) (1766) · [chungyau97](https://github.com/chungyau97) (232) · [0xi4o](https://github.com/0xi4o) (196) · [vinodkiran](https://github.com/vinodkiran) (189) · [Yongtae723](https://github.com/Yongtae723) (62)
 
 ## ⬇️ Get it
 

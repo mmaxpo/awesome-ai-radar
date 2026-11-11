@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [3](https://github.com/pnkvalavala/repochat/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `chat-application` `code-llama` `deeplake` `github` `huggingface` `langchain` `openai` `retrieval-augmented-generation` `streamlit` |
+| 🏷 **Topics** | `chat-application` `deeplake` `github` `langchain` `openai` `streamlit` `code-llama` `huggingface` `retrieval-augmented-generation` |
 | 🕒 **Last activity** | 2024-08-28 (2y ago) |
 | 📅 **Created** | 2023-07-03 |
 | 📦 **Latest release** | — |
@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2023-10-13 | [Refactored code to work locally](https://github.com/pnkvalavala/repochat/commit/4e707f26e753b6ec46e9dc4f6824ffcc87896673) | pnkvalavala |
 
 [See all commits ↗](https://github.com/pnkvalavala/repochat/commits)
-
-## 👥 Top contributors
-
-[pnkvalavala](https://github.com/pnkvalavala) (20) · [saisarathv](https://github.com/saisarathv) (1)
 
 ## ⬇️ Get it
 

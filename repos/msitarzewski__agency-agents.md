@@ -53,10 +53,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/msitarzewski/agency-agents/commits)
 
-## 👥 Top contributors
-
-[msitarzewski](https://github.com/msitarzewski) (402) · [rudycelekli](https://github.com/rudycelekli) (190) · [epowelljr](https://github.com/epowelljr) (36) · [jnMetaCode](https://github.com/jnMetaCode) (21) · [Hotragn](https://github.com/Hotragn) (12)
-
 ## ⬇️ Get it
 
 ```bash

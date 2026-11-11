@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [492](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `hacktoberfest` `lstm` `machine-learning` `ocr` `ocr-engine` `tesseract` `tesseract-ocr` |
+| 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
 | 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
@@ -94,22 +94,18 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-10 | [wordrec: stop the diacritics reassignment when the budget is used up](https://github.com/tesseract-ocr/tesseract/commit/4e3ec57f3039fd09e183f6884b8e1b70a57e9b0f) | stweil |
-| 2026-11-10 | [wordrec: let a real result win against a fake result of an exhausted budget](https://github.com/tesseract-ocr/tesseract/commit/780f5d1a387143a1fd46de8bb2447c2cada8289b) | stweil |
-| 2026-11-10 | [wordrec: do not output fake results of ambigs training](https://github.com/tesseract-ocr/tesseract/commit/5cb5ac9033e798256a6fb638520425632d4f1946) | stweil |
-| 2026-11-09 | [wordrec: handle words skipped by the classification budget in more places](https://github.com/tesseract-ocr/tesseract/commit/ceb526eab6998cd292139be90f0c696df8df50f4) | stweil |
-| 2026-11-06 | [wordrec: add a per-page blob classification budget to bound classifier timeouts](https://github.com/tesseract-ocr/tesseract/commit/6e5ad3d47e9a694ea6250205747ee30b6804b350) | stweil |
-| 2026-11-02 | [Validate the LSTM softmax child runtime type during deserialization (#4670)](https://github.com/tesseract-ocr/tesseract/commit/c21194d06998e244754d65329d6c9f1e14fe392e) | professor-moody |
+| 2026-11-11 | [wordrec: stop the diacritics reassignment when the budget is used up](https://github.com/tesseract-ocr/tesseract/commit/4e3ec57f3039fd09e183f6884b8e1b70a57e9b0f) | stweil |
+| 2026-11-11 | [wordrec: let a real result win against a fake result of an exhausted …](https://github.com/tesseract-ocr/tesseract/commit/780f5d1a387143a1fd46de8bb2447c2cada8289b) | stweil |
+| 2026-11-11 | [wordrec: do not output fake results of ambigs training](https://github.com/tesseract-ocr/tesseract/commit/5cb5ac9033e798256a6fb638520425632d4f1946) | stweil |
+| 2026-11-11 | [wordrec: handle words skipped by the classification budget in more pl…](https://github.com/tesseract-ocr/tesseract/commit/ceb526eab6998cd292139be90f0c696df8df50f4) | stweil |
+| 2026-11-11 | [wordrec: add a per-page blob classification budget to bound classifie…](https://github.com/tesseract-ocr/tesseract/commit/6e5ad3d47e9a694ea6250205747ee30b6804b350) | stweil |
+| 2026-11-02 | [Validate the LSTM softmax child runtime type during deserialization (…](https://github.com/tesseract-ocr/tesseract/commit/c21194d06998e244754d65329d6c9f1e14fe392e) | professor-moody |
 | 2026-11-02 | [Add error checking for elf_aux_info() (#4637)](https://github.com/tesseract-ocr/tesseract/commit/0860367e4ddb92df0c0d27c5c3d4100e1e385808) | brad0 |
 | 2026-11-02 | [Fix exit code when no renderers could be created (#4669)](https://github.com/tesseract-ocr/tesseract/commit/4d8565029174d6d70385795eebefd876533e9b97) | VishnuSrivatsava |
 | 2026-11-02 | [lstm: don't cap legitimate inference buffers in ResizeNoInit](https://github.com/tesseract-ocr/tesseract/commit/8a2cc748331b18579e763ecb9517f93a1fab803f) | stweil |
 | 2026-11-02 | [Register plumbing_dimensions_test with Autotools and tidy tests](https://github.com/tesseract-ocr/tesseract/commit/70723acce95f715327189bbbfdd6172c6863f4c6) | stweil |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
-
-## 👥 Top contributors
-
-[stweil](https://github.com/stweil) (2545) · [zdenop](https://github.com/zdenop) (1463) · [egorpugin](https://github.com/egorpugin) (982) · [theraysmith](https://github.com/theraysmith) (565) · [amitdo](https://github.com/amitdo) (227)
 
 ## ⬇️ Get it
 

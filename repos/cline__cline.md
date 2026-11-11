@@ -46,17 +46,6 @@
 > - With no model chosen, the Cline provider uses Claude Sonnet 5.5 again, which is back at the top of Cline's recommended list.
 > …
 
-### [sdk/sdk/v0.2.0](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.0) — SDK v0.2.0
-<sub>2026-10-26 · 16d ago</sub>
-
-> - Starting a session that already has a run in progress now reattaches to the live session instead of replacing its runtime. Before, the original run kept going but couldn't be reached, and its transcript writes landed on a stale snapshot. A start that includes a prompt while a run is in progress is rejected
-> - The hub records every client that registered a capability for a session, including clients that join a task that's already running, and sends each request to the first one still connected. If none is left, the request fails quickly with a message the user can act on, instead of waiting forever
-> - A turn whose connection drops after the model has streamed only reasoning is now retried, and the partial reasoning is discarded. Turns with text, media or tool calls are still never retried
-> - Model requests retry at most 3 times after the first attempt (down from 5). Failed attempts are recorded in Langfuse traces, and cancelled requests are no longer reported as Langfuse errors
-> - AI SDK updated to `ai` 7.0.136 / `@ai-sdk/provider-utils` 5.0.58. `max` reasoning now reaches the provider: the gateway no longer turns it into `xhigh`, and Kimi K3 gets `max` for Extra High and Max. Empty Anthropic turns are still retried despite the new `anthropic.*` custom stream parts
-> - The `gemini` provider no longer sends native Google Search. On Gemini 3+, free-tier keys failed every turn with a 429 quota error, and on Gemini 2.x it dropped every Cline tool. Vertex keeps native search
-> …
-
 ### [desktop-v0.0.49](https://github.com/cline/cline/releases/tag/desktop-v0.0.49) — Desktop v0.0.49
 <sub>2026-10-26 · 16d ago</sub>
 
@@ -79,35 +68,41 @@
 > - Gemini API keys (the `gemini` provider) no longer send native Google Search. Free-tier keys failed every turn with a 429 quota error on Gemini 3+, and on Gemini 2.x every Cline tool was dropped
 > …
 
-### [sdk/sdk/v0.0.95](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.95) — SDK v0.0.95
+### [sdk/sdk/v0.2.0](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.0) — SDK v0.2.0
+<sub>2026-10-26 · 16d ago</sub>
+
+> - Starting a session that already has a run in progress now reattaches to the live session instead of replacing its runtime. Before, the original run kept going but couldn't be reached, and its transcript writes landed on a stale snapshot. A start that includes a prompt while a run is in progress is rejected
+> - The hub records every client that registered a capability for a session, including clients that join a task that's already running, and sends each request to the first one still connected. If none is left, the request fails quickly with a message the user can act on, instead of waiting forever
+> - A turn whose connection drops after the model has streamed only reasoning is now retried, and the partial reasoning is discarded. Turns with text, media or tool calls are still never retried
+> - Model requests retry at most 3 times after the first attempt (down from 5). Failed attempts are recorded in Langfuse traces, and cancelled requests are no longer reported as Langfuse errors
+> - AI SDK updated to `ai` 7.0.136 / `@ai-sdk/provider-utils` 5.0.58. `max` reasoning now reaches the provider: the gateway no longer turns it into `xhigh`, and Kimi K3 gets `max` for Extra High and Max. Empty Anthropic turns are still retried despite the new `anthropic.*` custom stream parts
+> - The `gemini` provider no longer sends native Google Search. On Gemini 3+, free-tier keys failed every turn with a 429 quota error, and on Gemini 2.x it dropped every Cline tool. Vertex keeps native search
+> …
+
+### [desktop-v0.0.48](https://github.com/cline/cline/releases/tag/desktop-v0.0.48) — Desktop v0.0.48
 <sub>2026-10-17 · 25d ago</sub>
 
-> - OpenAI-compatible requests for GPT-6 models (`gpt-6-sol`, `gpt-6.1-sol`, `gpt-6-1-sol`, and later gpt-5 through gpt-9 ids) send `max_completion_tokens` instead of `max_tokens`, so OpenAI and Azure no longer reject them. Azure's `gpt-35-turbo` keeps `max_tokens`
-> - The hub daemon records which client started it (`CLINE_HUB_LAUNCHER_CLIENT`, `CLINE_HUB_LAUNCHER_VERSION`, `CLINE_HUB_LAUNCHER_TRANSPORT`) and publishes that as OTel resource attributes. SSH remote hubs report the local client with transport `ssh`. `@cline/shared` adds `withHubLauncherIdentity`, `claimHubLauncherIdentity` and `readHubLauncherIdentity`
-> - The telemetry self-check report includes `traces_exporter`
-> - Refreshed the model catalog (6,952 → 7,041 models). Adds the CommandCode and Reflection providers. The Cline recommended list leads with Claude Sonnet 5.5 again, so the `cline` provider's bundled default goes back to Claude Sonnet 5.5 from Gemini 4 Argon. Default models change for 302.AI (Gemini 4 Argon), Eden AI and Prime Inference (Muse Spark Open), CoreWeave (Reflection Beam 1.0), NanoGPT, Pioneer (Nemotron 3.5 Super VL), and Scaleway (DeepSeek V4.1 Flash). OpenCode Go keeps its `https://opencode.ai/inference/go/v1` base URL, now pinned, because models.dev moved its provider-level URL to an OpenAI-only path
-> **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.94...sdk/sdk/v0.0.95
+> - GPT-6 models (such as `gpt-6-sol` and `gpt-6.1-sol`) work on OpenAI and Azure OpenAI-compatible endpoints. Before, every request was rejected because Cline sent `max_tokens` instead of `max_completion_tokens`
+> - The Cline provider's default model is Claude Sonnet 5.5 again, which is back at the top of Cline's recommended list
+> - Refreshed the model catalog. Adds the CommandCode and Reflection providers. Default models change for 302.AI (Gemini 4 Argon), Eden AI and Prime Inference (Muse Spark Open), CoreWeave (Reflection Beam 1.0), NanoGPT, Pioneer (Nemotron 3.5 Super VL), and Scaleway (DeepSeek V4.1 Flash)
+> **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.47...desktop-v0.0.48
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [refactor(vscode): remove dead onboarding models state and proto messages (#15638)](https://github.com/cline/cline/commit/c5df41f937c496ce8c8e689ba58776593c703dfa) | dominiccooney |
-| 2026-11-10 | [revert(llms): back out AI/ML API ranking/attribution and Wally provider (#15647)](https://github.com/cline/cline/commit/7796dc9ce12a6377796d1c265036c4038ff3fcb6) | saoudrizwan |
+| 2026-11-11 | [refactor(vscode): remove dead onboarding models state and proto messa…](https://github.com/cline/cline/commit/c5df41f937c496ce8c8e689ba58776593c703dfa) | dominiccooney |
+| 2026-11-10 | [revert(llms): back out AI/ML API ranking/attribution and Wally provid…](https://github.com/cline/cline/commit/7796dc9ce12a6377796d1c265036c4038ff3fcb6) | saoudrizwan |
 | 2026-11-10 | [feat(cli): default non-interactive runs to yolo mode (#15644)](https://github.com/cline/cline/commit/d9b24c20317af6412b7a2c32f6f6453420500961) | abeatrix |
 | 2026-11-10 | [Remove PostHog events (#15642)](https://github.com/cline/cline/commit/7c5bb54fcb6b66d2717016be33ce2dad692b4501) | BarreiroT |
 | 2026-11-10 | [fix(desktop): preserve cloud recency across reconnects (#15637)](https://github.com/cline/cline/commit/dcccbd7712c0ee09f557f6572c9866e6bd36bc08) | johnwschoi |
 | 2026-11-10 | [refactor(desktop): move MCP management to hub (#15498)](https://github.com/cline/cline/commit/500a40e7b76692153906b44dd68732520a966663) | abeatrix |
-| 2026-11-10 | [fix(core): send the reasoning disable to custom models with saved overrides (#15216)](https://github.com/cline/cline/commit/92b9f722a16d2a03c1153e12f9a0e759455f509d) | mkondratek |
+| 2026-11-10 | [fix(core): send the reasoning disable to custom models with saved ove…](https://github.com/cline/cline/commit/92b9f722a16d2a03c1153e12f9a0e759455f509d) | mkondratek |
 | 2026-11-10 | [feat(ui): update existing buttons, badges, and switches (#15457)](https://github.com/cline/cline/commit/e1f499a47aea70003221af8c89298f6559c7fd4d) | haleyparkdesign |
 | 2026-11-09 | [ci(vscode): format-check the whole apps/vscode tree (#15566)](https://github.com/cline/cline/commit/1e8ae47d60051c5e9a9bd0eed311ef209fdeb347) | mkondratek |
-| 2026-11-09 | [fix(llms): resolve the summarizer's reasoning-off preference against model metadata (#15615)](https://github.com/cline/cline/commit/4a4c26ffa10dd4ee93a19df0e0a63b2dc7ad5413) | mkondratek |
+| 2026-11-09 | [fix(llms): resolve the summarizer's reasoning-off preference against …](https://github.com/cline/cline/commit/4a4c26ffa10dd4ee93a19df0e0a63b2dc7ad5413) | mkondratek |
 
 [See all commits ↗](https://github.com/cline/cline/commits)
-
-## 👥 Top contributors
-
-[saoudrizwan](https://github.com/saoudrizwan) (2872) · [abeatrix](https://github.com/abeatrix) (1019) · [celestial-vault](https://github.com/celestial-vault) (374) · [arafatkatze](https://github.com/arafatkatze) (328) · [BarreiroT](https://github.com/BarreiroT) (289)
 
 ## ⬇️ Get it
 

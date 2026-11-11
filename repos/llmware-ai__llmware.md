@@ -23,7 +23,7 @@
 | 🐞 **Open issues + PRs** | [102](https://github.com/llmware-ai/llmware/issues) |
 | 💻 **Languages** | Python 53% · Jupyter Notebook 47% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `agents` `generative-ai-tools` `llamacpp` `llm` `onnx` `openvino` `parsing` `retrieval-augmented-generation` `small-specialized-models` |
+| 🏷 **Topics** | `parsing` `retrieval-augmented-generation` `agents` `generative-ai-tools` `llamacpp` `llm` `small-specialized-models` `onnx` `openvino` |
 | 🕒 **Last activity** | 2026-10-01 (1mo ago) |
 | 📅 **Created** | 2023-09-29 |
 | 📦 **Latest release** | [v0.4.7](https://github.com/llmware-ai/llmware/releases/tag/v0.4.7) — 2026-10-01 |
@@ -69,10 +69,6 @@
 | 2026-09-30 | [update gguf backend b10625 pin](https://github.com/llmware-ai/llmware/commit/901eace181efd3ff5c59a7e4969bc6efc8f5ba6b) | doberst |
 
 [See all commits ↗](https://github.com/llmware-ai/llmware/commits)
-
-## 👥 Top contributors
-
-[doberst](https://github.com/doberst) (1361) · [MacOS](https://github.com/MacOS) (223) · [turnham](https://github.com/turnham) (84) · [JessBerl](https://github.com/JessBerl) (76) · [willtaner](https://github.com/willtaner) (41)
 
 ## ⬇️ Get it
 

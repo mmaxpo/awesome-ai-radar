@@ -102,14 +102,10 @@
 | 2026-10-31 | [README: Qwen3.6's MTP head drafts with Q36_MTP=1, not by default](https://github.com/JustVugg/colibri/commit/042491d52aedc761c19a430f1d8d9a017b9bdcb9) | JustVugg |
 | 2026-10-31 | [Merge pull request #2526 from JustVugg/dev](https://github.com/JustVugg/colibri/commit/704a3f68184b78367a04cb5526e428dc2f90f05b) | JustVugg |
 | 2026-10-31 | [Merge pull request #2527 from JustVugg/fix/vk-pool-import-windows](https://github.com/JustVugg/colibri/commit/7dd91ae363d2e1d3f030d804cebe12dd207cde4f) | JustVugg |
-| 2026-10-31 | [README: every model, the GGUF table, the GPU sections and our benchmark tables](https://github.com/JustVugg/colibri/commit/563647ccf78d9569bacce849bbc5d728a1486ba7) | JustVugg |
+| 2026-10-31 | [README: every model, the GGUF table, the GPU sections and our benchma…](https://github.com/JustVugg/colibri/commit/563647ccf78d9569bacce849bbc5d728a1486ba7) | JustVugg |
 | 2026-10-31 | [vulkan: the exit report's resident set without glibc's freed blocks](https://github.com/JustVugg/colibri/commit/2c2947bc5848d5d772a50d559f1ee436bd50e881) | JustVugg |
 
 [See all commits ↗](https://github.com/JustVugg/colibri/commits)
-
-## 👥 Top contributors
-
-[JustVugg](https://github.com/JustVugg) (3085) · [ZacharyZcR](https://github.com/ZacharyZcR) (218) · [monotophic](https://github.com/monotophic) (156) · [rudycelekli](https://github.com/rudycelekli) (139) · [kreuzzelg](https://github.com/kreuzzelg) (102)
 
 ## ⬇️ Get it
 

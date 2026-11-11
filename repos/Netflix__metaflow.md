@@ -25,7 +25,7 @@
 | 🐞 **Open issues + PRs** | [522](https://github.com/Netflix/metaflow/issues) |
 | 💻 **Languages** | Python 94% · R 2% · Svelte 2% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `agents` `ai` `aws` `azure` `cost-optimization` `datascience` `distributed-training` `gcp` `generative-ai` `high-performance-computing` `kubernetes` `llm` `llmops` `machine-learning` `ml` `ml-infrastructure` `ml-platform` `mlops` `model-management` `python` |
+| 🏷 **Topics** | `machine-learning` `model-management` `ai` `ml` `ml-platform` `ml-infrastructure` `python` `mlops` `datascience` `high-performance-computing` `kubernetes` `aws` `azure` `gcp` `llm` `llmops` `agents` `generative-ai` `cost-optimization` `distributed-training` |
 | 🕒 **Last activity** | 2026-11-09 (2d ago) |
 | 📅 **Created** | 2019-09-17 |
 | 📦 **Latest release** | [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41) — 2026-11-06 |
@@ -94,22 +94,18 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-09 | [fix(cards): prevent Table.from_dataframe from mutating input DataFrame (#3417)](https://github.com/Netflix/metaflow/commit/bda5e774de68e65ae6f829f6d9643e7c592412d7) | sivaharish31 |
+| 2026-11-09 | [fix(cards): prevent Table.from_dataframe from mutating input DataFram…](https://github.com/Netflix/metaflow/commit/bda5e774de68e65ae6f829f6d9643e7c592412d7) | sivaharish31 |
 | 2026-11-06 | [release: 2.19.41 (#3433)](https://github.com/Netflix/metaflow/commit/76ad41d72a28b2caa4ed2fed80f5a8f9c1503bb7) | saikonen |
 | 2026-11-06 | [fix(cards): stop get_cards from resetting the global namespace (#3396)](https://github.com/Netflix/metaflow/commit/425414acbddfe70ffe7cc2ba6130f4136b8140e8) | devteamaegis |
-| 2026-11-06 | [build(deps-dev): bump rollup from 2.79.2 to 2.80.0 in /metaflow/plugins/cards/ui (#2939)](https://github.com/Netflix/metaflow/commit/16bc0a20b61f696af6398093f499c8ffb4372f5e) | dependabot[bot] |
-| 2026-11-06 | [build(deps-dev): bump flatted from 3.3.3 to 3.4.4 in /metaflow/plugins/cards/ui (#3038)](https://github.com/Netflix/metaflow/commit/696271ead0ff8dc669ffb70cd16f8c299785f54e) | dependabot[bot] |
-| 2026-11-06 | [build(deps): bump picomatch from 2.3.1 to 2.3.2 in /metaflow/plugins/cards/ui (#3042)](https://github.com/Netflix/metaflow/commit/b19b00f56da52fb01e0ade751e13cc111d2c0360) | dependabot[bot] |
-| 2026-11-06 | [build(deps-dev): bump lodash from 4.17.23 to 4.18.1 in /metaflow/plugins/cards/ui (#3083)](https://github.com/Netflix/metaflow/commit/5951330d2104ada909a2be580b5bf7b1743dc733) | dependabot[bot] |
+| 2026-11-06 | [build(deps-dev): bump rollup from 2.79.2 to 2.80.0 in /metaflow/plugi…](https://github.com/Netflix/metaflow/commit/16bc0a20b61f696af6398093f499c8ffb4372f5e) | dependabot[bot] |
+| 2026-11-06 | [build(deps-dev): bump flatted from 3.3.3 to 3.4.4 in /metaflow/plugin…](https://github.com/Netflix/metaflow/commit/696271ead0ff8dc669ffb70cd16f8c299785f54e) | dependabot[bot] |
+| 2026-11-06 | [build(deps): bump picomatch from 2.3.1 to 2.3.2 in /metaflow/plugins/…](https://github.com/Netflix/metaflow/commit/b19b00f56da52fb01e0ade751e13cc111d2c0360) | dependabot[bot] |
+| 2026-11-06 | [build(deps-dev): bump lodash from 4.17.23 to 4.18.1 in /metaflow/plug…](https://github.com/Netflix/metaflow/commit/5951330d2104ada909a2be580b5bf7b1743dc733) | dependabot[bot] |
 | 2026-11-05 | [Reject non-mapping config values passed via --config-value (#3391)](https://github.com/Netflix/metaflow/commit/d3299458133bbd67ea8b5e2ac84c84870e7e431c) | eyosi1239 |
 | 2026-11-04 | [fix: pass a timeout to the metadata heartbeat request (#3361)](https://github.com/Netflix/metaflow/commit/b4853f1ee250e282998de91efa6bf72d433a50ca) | RudraDudhat2509 |
 | 2026-11-04 | [Split every pip index URL, not just the first nine (#3382)](https://github.com/Netflix/metaflow/commit/9b9df2acce1a8af35c33e038c5c40bc9b605635f) | David-Wu1119 |
 
 [See all commits ↗](https://github.com/Netflix/metaflow/commits)
-
-## 👥 Top contributors
-
-[savingoyal](https://github.com/savingoyal) (358) · [saikonen](https://github.com/saikonen) (283) · [romain-intel](https://github.com/romain-intel) (233) · [valayDave](https://github.com/valayDave) (88) · [mt-ob](https://github.com/mt-ob) (84)
 
 ## ⬇️ Get it
 

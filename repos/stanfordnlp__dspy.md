@@ -101,15 +101,11 @@
 | 2026-11-10 | [docs(dspy): add concise DSPy 3.5 upgrade guide (#10862)](https://github.com/stanfordnlp/dspy/commit/743b0ce16dae7be1e64858724bde95746dacc15b) | isaacbmiller |
 | 2026-11-10 | [docs: make the RLM sandbox package example executable (#10860)](https://github.com/stanfordnlp/dspy/commit/471b3fb0e4efad45dbac980e42b1258f55a245cf) | isaacbmiller |
 | 2026-11-10 | [Fix tool call IDs in serialized ReAct history (#10844)](https://github.com/stanfordnlp/dspy/commit/c472201fc7bd06fbcd712bf083d69908f6777080) | isaacbmiller |
-| 2026-11-10 | [fix(tool): keep nested schema references scoped in native declarations (#10845)](https://github.com/stanfordnlp/dspy/commit/340deccd528805f01078113b9476e37072f75d0d) | isaacbmiller |
+| 2026-11-10 | [fix(tool): keep nested schema references scoped in native declaration…](https://github.com/stanfordnlp/dspy/commit/340deccd528805f01078113b9476e37072f75d0d) | isaacbmiller |
 | 2026-11-10 | [fix(xml): honor positional tuple schemas (#10850)](https://github.com/stanfordnlp/dspy/commit/ede7a62d066c9eef68a82898f62d1dc3b314cd41) | isaacbmiller |
 | 2026-11-10 | [fix(adapters): preserve nested XML enum and null guidance (#10859)](https://github.com/stanfordnlp/dspy/commit/07fa634dc06104b03787c728de49c668d75559e7) | isaacbmiller |
 
 [See all commits ↗](https://github.com/stanfordnlp/dspy/commits)
-
-## 👥 Top contributors
-
-[okhat](https://github.com/okhat) (1129) · [arnavsinghvi11](https://github.com/arnavsinghvi11) (402) · [isaacbmiller](https://github.com/isaacbmiller) (401) · [chenmoneygithub](https://github.com/chenmoneygithub) (265) · [krypticmouse](https://github.com/krypticmouse) (201)
 
 ## ⬇️ Get it
 

@@ -49,10 +49,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 [See all commits ↗](https://github.com/miladicode823-coder/VEYRA/commits)
 
-## 👥 Top contributors
-
-[miladicode823-coder](https://github.com/miladicode823-coder) (11)
-
 ## ⬇️ Get it
 
 ```bash
