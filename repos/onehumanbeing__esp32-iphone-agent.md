@@ -10,7 +10,7 @@
 |---|---|
 | **Status** | study |
 | **Project** | — |
-| **Why I saved it** | — |
+| **Why I saved it** | AI controls a real iPhone via a $7 ESP32 |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

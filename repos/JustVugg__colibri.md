@@ -10,7 +10,7 @@
 |---|---|
 | **Status** | study |
 | **Project** | — |
-| **Why I saved it** | — |
+| **Why I saved it** | Run huge MoE models with GPU/RAM/NVMe expert offloading |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

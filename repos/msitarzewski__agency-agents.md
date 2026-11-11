@@ -10,7 +10,7 @@
 |---|---|
 | **Status** | study |
 | **Project** | — |
-| **Why I saved it** | — |
+| **Why I saved it** | Library of ready-made specialist agent personas |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
