@@ -25,6 +25,7 @@ body:
         - rag — RAG, memory & chat with your data
         - documents — Documents, OCR & web data
         - models — Models, local inference & gateways
+        - ml — Classic ML, data science & vision
         - science — AI for science
         - sdk — MCP & SDKs
         - builders — Low-code builders & chat UIs

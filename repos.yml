@@ -3,7 +3,7 @@
 #   repo:    owner/name (required) — copy it from the GitHub URL
 #   why:     one line on why it's worth following
 #   status:  study | using | later | done
-#   category: agents | coding | workflows | rag | documents | models | science | sdk |
+#   category: agents | coding | workflows | rag | documents | models | ml | science | sdk |
 #             builders | prompting | imagegen | design | python | persian | learning | apps  (or any new word)
 #   project: optional — a project it's useful for
 #   added:   optional — date you added it
@@ -13,7 +13,7 @@
 # For a link that isn't a GitHub repo (paper, course, article, model, person, tool):
 #   - link: https://...
 #     title: "Name"
-#     type: paper | course | article | model | person | tool
+#     type: paper | course | article | model | dataset | person | tool
 #     why: "one line"
 #
 # After you save this file, the README updates within a minute or two.
@@ -361,6 +361,73 @@
   status: study
   added: 2026-11-11
 
+- repo: keras-team/keras
+  why: "High-level deep-learning API (runs on JAX, TensorFlow or PyTorch)"
+  category: models
+  status: study
+  added: 2026-11-11
+
+# ───────── 📈 Classic ML, data science & vision ─────────
+
+- repo: scikit-learn/scikit-learn
+  why: "The classic ML library: SVM, random forests, gradient boosting, KNN, TF-IDF and more"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: dmlc/xgboost
+  why: "Gradient boosting that wins tabular-data competitions"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: catboost/catboost
+  why: "Gradient boosting that handles categorical features well"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: scikit-learn-contrib/imbalanced-learn
+  why: "Tools for imbalanced datasets (over/under-sampling)"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: lmcinnes/umap
+  why: "UMAP: fast dimensionality reduction and visualization"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: facebook/prophet
+  why: "Time-series forecasting (formerly the fbprophet package)"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: opencv/opencv
+  why: "The standard computer-vision library (pip install opencv-python)"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: luispedro/mahotas
+  why: "Fast image-processing and computer-vision functions for Python"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: matplotlib/mplfinance
+  why: "Candlestick and financial charts with matplotlib"
+  category: ml
+  status: study
+  added: 2026-11-11
+
+- repo: sorki/python-mnist
+  why: "Simple loader for the MNIST handwritten-digit dataset"
+  category: ml
+  status: study
+  added: 2026-11-11
 
 # ───────── 🧬 AI for science ─────────
 
@@ -612,6 +679,12 @@
   status: study
   added: 2026-11-11
 
+- repo: jupyterlab/jupyterlab
+  why: "Jupyter notebooks IDE for data science"
+  category: python
+  status: study
+  added: 2026-11-11
+
 # ───────── 🇮🇷 Persian NLP ─────────
 
 - repo: ICTRC/Parsivar
@@ -672,6 +745,12 @@
 
 - repo: ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
   why: "500 AI/ML/CV/NLP project ideas with code"
+  category: learning
+  status: study
+  added: 2026-11-11
+
+- repo: tensorflow/playground
+  why: "TensorFlow Playground: play with a neural network in your browser"
   category: learning
   status: study
   added: 2026-11-11
@@ -823,3 +902,113 @@
   title: "BscScan"
   type: tool
   why: "Block explorer for BNB Smart Chain"
+
+- link: https://course.fast.ai/Lessons/lesson1.html
+  title: "Practical Deep Learning for Coders (fast.ai)"
+  type: course
+  why: "Free, hands-on deep-learning course"
+
+- link: https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data
+  title: "Khan Academy: Statistics & probability"
+  type: course
+  why: "Free statistics basics"
+
+- link: https://brilliant.org
+  title: "Brilliant"
+  type: course
+  why: "Interactive math, data and CS lessons"
+
+- link: https://leetcode.com
+  title: "LeetCode"
+  type: course
+  why: "Coding-interview practice problems"
+
+- link: https://setosa.io/
+  title: "Setosa: Explained Visually"
+  type: article
+  why: "Interactive visual explanations of math and stats concepts"
+
+- link: https://www.kdnuggets.com
+  title: "KDnuggets"
+  type: article
+  why: "Data-science and ML news and tutorials"
+
+- link: https://equatorial-sternum-35b.notion.site/ML-Topics-b1ae86eda5c54b02bb22ad751dfda8e5
+  title: "ML Topics (Notion notes)"
+  type: article
+  why: "Organized notes on machine-learning topics"
+
+- link: https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide
+  title: "Midjourney Getting Started Guide"
+  type: article
+  why: "Official guide to prompting Midjourney"
+
+- link: https://medium.com/coinmonks/best-crypto-apis-for-developers-5efe3a597a9f
+  title: "Best crypto APIs for developers"
+  type: article
+  why: "Overview of crypto data APIs"
+
+- link: https://medium.com/coinmonks/creating-generative-art-nfts-with-python-solidity-a95eaeea515e
+  title: "Creating generative-art NFTs with Python and Solidity"
+  type: article
+  why: "Tutorial: generative art + smart contracts"
+
+- link: https://www.image-net.org
+  title: "ImageNet"
+  type: dataset
+  why: "The landmark image-classification dataset"
+
+- link: https://www.cs.cornell.edu/people/pabo/movie-review-data/
+  title: "Cornell movie-review data"
+  type: dataset
+  why: "Classic sentiment-analysis datasets"
+
+- link: https://huggingface.co/enterprise
+  title: "Hugging Face Enterprise Hub"
+  type: tool
+  why: "Private model hosting and team features on Hugging Face"
+
+- link: https://numer.ai
+  title: "Numerai"
+  type: tool
+  why: "Data-science tournament that powers a hedge fund"
+
+- link: https://www.coingecko.com
+  title: "CoinGecko"
+  type: api
+  why: "Crypto prices and market-data API"
+
+- link: https://www.cryptocompare.com
+  title: "CryptoCompare"
+  type: api
+  why: "Crypto market-data API"
+
+- link: https://www.tiingo.com
+  title: "Tiingo"
+  type: api
+  why: "Stock and crypto market-data API"
+
+- link: https://developer.amazonservices.com
+  title: "Amazon Selling Partner API"
+  type: api
+  why: "Developer portal for Amazon seller automation"
+
+- link: https://www.uipath.com
+  title: "UiPath"
+  type: tool
+  why: "Robotic process automation (RPA) platform"
+
+- link: https://writesonic.com
+  title: "Writesonic"
+  type: tool
+  why: "AI writing tool"
+
+- link: https://originality.ai
+  title: "Originality.ai"
+  type: tool
+  why: "AI-content and plagiarism detector"
+
+- link: https://dlabs.ai
+  title: "DLabs.AI"
+  type: tool
+  why: "AI development company"

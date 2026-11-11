@@ -31,6 +31,7 @@ CATEGORIES = {  # key used in repos.yml -> heading shown on the page (order = pa
     "rag": "🧠 RAG, memory & chat with your data",
     "documents": "📄 Documents, OCR & web data",
     "models": "🖥 Models, local inference & gateways",
+    "ml": "📈 Classic ML, data science & vision",
     "science": "🧬 AI for science",
     "sdk": "🔌 MCP & SDKs",
     "builders": "🧩 Low-code builders & chat UIs",
@@ -577,6 +578,9 @@ def render_readme(items, orgs, links, now):
         types = [("paper", "📄 Papers"), ("course", "🎓 Courses"), ("article", "📝 Articles & explainers"),
                  ("model", "🤗 Models & datasets"), ("person", "👤 People worth following"),
                  ("tool", "🌐 Tools & sites")]
+        alias_t = {"dataset": "model", "api": "tool", "site": "tool", "docs": "article", "video": "course"}
+        for x in links:
+            x["type"] = alias_t.get(str(x.get("type") or "").lower(), x.get("type"))
         known_t = {k for k, _ in types}
         L += ["## 📎 More resources", "",
               "Papers, courses, models and sites that aren't GitHub repos (so they're not tracked for updates).", ""]
