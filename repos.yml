@@ -15,41 +15,41 @@
   added: 2026-11-11
 
 - repo: onehumanbeing/esp32-iphone-agent
-  why: ""
+  why: "AI controls a real iPhone via a $7 ESP32"
   status: study
   added: 2026-11-11
 
 - repo: ethanplusai/sellbird
-  why: ""
+  why: "Open-source AI sales outreach (finds leads, sends emails)"
   status: study
   added: 2026-11-11
 
 - repo: pizza-bot-app/pizza-bot
-  why: ""
+  why: "Local-first inbox for long-running AI agents (LangGraph)"
   status: study
   added: 2026-11-11
 
 - repo: volcengine/OpenViking
-  why: ""
+  why: "Context database for agents: memory + RAG + skills"
   status: study
   added: 2026-11-11
 
 - repo: msitarzewski/agency-agents
-  why: ""
+  why: "Library of ready-made specialist agent personas"
   status: study
   added: 2026-11-11
 
 - repo: JustVugg/colibri
-  why: ""
+  why: "Run huge MoE models with GPU/RAM/NVMe expert offloading"
   status: study
   added: 2026-11-11
 
 - repo: nationalsecurityagency/ghidra
-  why: ""
+  why: "Reverse-engineering framework (NSA)"
   status: study
   added: 2026-11-11
 
 - repo: asgeirtj/system_prompts_leaks
-  why: ""
+  why: "Collection of chatbot system prompts, for prompt study"
   status: study
   added: 2026-11-11
