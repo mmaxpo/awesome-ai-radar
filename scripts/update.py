@@ -498,6 +498,8 @@ def render_readme(items, orgs, links, now):
     L = [
         "# 📡 Awesome AI Radar",
         "",
+        "![Awesome AI Radar](.github/banner.png)",
+        "",
         "> A curated list of the best open-source AI repos — **that updates itself every day.**",
         "",
         " ".join([badge("repos", len(items), "blue"), badge("active this week", n_active, "brightgreen"),
