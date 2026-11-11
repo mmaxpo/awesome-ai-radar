@@ -464,7 +464,8 @@ def first_note(body):
     import re
     for line in (body or "").replace("\r", "").splitlines():
         t = line.strip()
-        if not t or t.startswith(("#", "<!--", "|", "**Full Changelog", "Full Changelog")):
+        t = re.sub(r"<[^>]*>?", "", t).strip()                  # HTML tags (and broken ones)
+        if not t or t.startswith(("#", "<", "|", "!", "**Full Changelog", "Full Changelog")):
             continue
         if re.match(r"^\W*(what'?s changed|changes|changelog|highlights|new contributors)\W*$", t, re.I):
             continue
