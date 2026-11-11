@@ -494,10 +494,10 @@
 # ───────── 🏢 Organizations ─────────
 
 - org: openai
-  why: "OpenAI — SDKs, agents, examples"
+  why: "SDKs, agents, examples"
 
 - org: jina-ai
-  why: "Jina AI — embeddings, reader, search"
+  why: "Embeddings, reader, search"
 
 - org: OpenBMB
-  why: "OpenBMB — ChatDev, XAgent, AgentVerse, MiniCPM"
+  why: "ChatDev, XAgent, AgentVerse, MiniCPM"
