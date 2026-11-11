@@ -31,6 +31,7 @@ CATEGORIES = {  # key used in repos.yml -> heading shown on the page (order = pa
     "rag": "🧠 RAG, memory & chat with your data",
     "documents": "📄 Documents, OCR & web data",
     "models": "🖥 Models, local inference & gateways",
+    "science": "🧬 AI for science",
     "sdk": "🔌 MCP & SDKs",
     "builders": "🧩 Low-code builders & chat UIs",
     "prompting": "✍️ Prompting & LLM programming",
@@ -153,6 +154,158 @@ def fetch_org(entry):
         "top": [(r["full_name"], r.get("stargazers_count", 0), parse_time(r.get("pushed_at")),
                  clean(r.get("description"), 90)) for r in top],
     }
+
+
+# ---------- GitHub GraphQL (fast path: one request per batch of repos) ----------
+
+GQL_BATCH = 15
+API_STATS = {"graphql": 0, "rest_fallback": 0, "cost": 0}
+REPO_FIELDS = """
+  nameWithOwner description homepageUrl stargazerCount forkCount isArchived createdAt pushedAt diskUsage
+  parent { nameWithOwner }
+  licenseInfo { spdxId name }
+  primaryLanguage { name }
+  repositoryTopics(first: 20) { nodes { topic { name } } }
+  languages(first: 10, orderBy: {field: SIZE, direction: DESC}) { edges { size node { name } } }
+  issues(states: OPEN) { totalCount }
+  pullRequests(states: OPEN) { totalCount }
+  releases(first: 5, orderBy: {field: CREATED_AT, direction: DESC}) {
+    nodes { tagName name url publishedAt isPrerelease isDraft description }
+  }
+  defaultBranchRef { name target { ... on Commit {
+    history(first: 10) { nodes { messageHeadline committedDate url author { name user { login } } } }
+  } } }
+"""
+
+
+def gql(query):
+    req = urllib.request.Request("https://api.github.com/graphql",
+                                 data=json.dumps({"query": query}).encode(), method="POST")
+    req.add_header("Authorization", f"Bearer {TOKEN}")
+    req.add_header("Content-Type", "application/json")
+    with urllib.request.urlopen(req, timeout=60) as r:
+        out = json.load(r)
+    API_STATS["graphql"] += 1
+    API_STATS["cost"] += ((out.get("data") or {}).get("rateLimit") or {}).get("cost", 0)
+    return out
+
+
+def entry_name(entry, key="repo"):
+    name = str(entry[key]).strip().strip("/")
+    if "github.com/" in name:
+        name = name.split("github.com/")[1].strip("/")
+    return name
+
+
+def node_to_item(entry, requested, n):
+    full = n.get("nameWithOwner") or requested
+    rels = [r for r in ((n.get("releases") or {}).get("nodes") or []) if r and not r.get("isDraft")]
+    stable = [r for r in rels if not r.get("isPrerelease")]
+    latest = (stable or rels or [None])[0]
+    lic = n.get("licenseInfo") or {}
+    branch = n.get("defaultBranchRef") or {}
+    hist = (((branch.get("target") or {}).get("history")) or {}).get("nodes") or []
+    return {
+        **entry,
+        "repo": full,
+        "moved_from": requested if full.lower() != requested.lower() else "",
+        "missing": False,
+        "description": clean(n.get("description")),
+        "homepage": n.get("homepageUrl") or "",
+        "topics": [t["topic"]["name"] for t in ((n.get("repositoryTopics") or {}).get("nodes") or [])],
+        "stars": n.get("stargazerCount", 0),
+        "forks": n.get("forkCount", 0),
+        "open_issues": ((n.get("issues") or {}).get("totalCount", 0)
+                        + (n.get("pullRequests") or {}).get("totalCount", 0)),
+        "language": (n.get("primaryLanguage") or {}).get("name", ""),
+        "languages": {e["node"]["name"]: e["size"] for e in ((n.get("languages") or {}).get("edges") or [])},
+        "license": (lic.get("spdxId") if lic.get("spdxId") not in (None, "NOASSERTION") else (lic.get("name") or "")),
+        "archived": n.get("isArchived", False),
+        "fork_of": (n.get("parent") or {}).get("nameWithOwner", ""),
+        "default_branch": branch.get("name", ""),
+        "size_mb": round((n.get("diskUsage") or 0) / 1024, 1),
+        "created": parse_time(n.get("createdAt")),
+        "pushed": parse_time(n.get("pushedAt")),
+        "release_tag": latest.get("tagName") if latest else None,
+        "release_url": latest.get("url") if latest else None,
+        "release_date": parse_time(latest.get("publishedAt")) if latest else None,
+        "releases": [{"tag": r.get("tagName"), "name": r.get("name") or "", "url": r.get("url"),
+                      "date": parse_time(r.get("publishedAt")), "pre": r.get("isPrerelease", False),
+                      "body": r.get("description") or ""} for r in rels],
+        "commits": [{"msg": clean(c.get("messageHeadline"), 100), "date": parse_time(c.get("committedDate")),
+                     "author": ((c.get("author") or {}).get("user") or {}).get("login")
+                               or (c.get("author") or {}).get("name", ""),
+                     "url": c.get("url")} for c in hist if c],
+        "contributors": [],
+    }
+
+
+def fetch_repos(entries):
+    """Fetch many repos; GraphQL in batches when a token is available, REST otherwise or on failure."""
+    if not TOKEN:
+        return [fetch(e) for e in entries]
+    out = []
+    for i in range(0, len(entries), GQL_BATCH):
+        batch = entries[i:i + GQL_BATCH]
+        names = [entry_name(e) for e in batch]
+        parts = []
+        for k, name in enumerate(names):
+            owner, _, repo = name.partition("/")
+            parts.append(f"r{k}: repository(owner: {json.dumps(owner)}, name: {json.dumps(repo)}) {{{REPO_FIELDS}}}")
+        query = "query {\n" + "\n".join(parts) + "\nrateLimit { cost remaining }\n}"
+        try:
+            res = gql(query)
+            data = res.get("data") or {}
+            not_found = {str(e.get("path", [""])[0]) for e in (res.get("errors") or [])
+                         if e.get("type") == "NOT_FOUND"}
+        except Exception as ex:  # whole batch failed -> REST for this batch
+            print(f"GraphQL batch failed ({ex}); using REST for {len(batch)} repos", file=sys.stderr)
+            data, not_found = None, set()
+        for k, (e, name) in enumerate(zip(batch, names)):
+            node = data.get(f"r{k}") if data is not None else None
+            if node:
+                out.append(node_to_item(e, name, node))
+            elif data is not None and f"r{k}" in not_found:
+                out.append({**e, "repo": name, "missing": True})
+            else:
+                API_STATS["rest_fallback"] += 1
+                out.append(fetch(e))
+        print(f"Checked {min(i + GQL_BATCH, len(entries))}/{len(entries)} repos", file=sys.stderr)
+    return out
+
+
+def fetch_orgs(entries):
+    if not TOKEN or not entries:
+        return [fetch_org(e) for e in entries]
+    names = [entry_name(e, "org") for e in entries]
+    parts = [f"""o{k}: repositoryOwner(login: {json.dumps(n)}) {{
+      login __typename
+      ... on Organization {{ name description }}
+      ... on User {{ name bio }}
+      repositories(first: 30, privacy: PUBLIC, isFork: false, orderBy: {{field: PUSHED_AT, direction: DESC}}) {{
+        totalCount nodes {{ nameWithOwner stargazerCount pushedAt description isArchived }}
+      }}
+    }}""" for k, n in enumerate(names)]
+    try:
+        data = gql("query {\n" + "\n".join(parts) + "\nrateLimit { cost remaining }\n}").get("data") or {}
+    except Exception as ex:
+        print(f"GraphQL orgs failed ({ex}); using REST", file=sys.stderr)
+        return [fetch_org(e) for e in entries]
+    out = []
+    for k, (e, n) in enumerate(zip(entries, names)):
+        o = data.get(f"o{k}")
+        if not o:
+            out.append({**e, "org": n, "missing": True})
+            continue
+        repos = [r for r in o["repositories"]["nodes"] if r and not r.get("isArchived")]
+        top = sorted(repos, key=lambda r: -r.get("stargazerCount", 0))[:6]
+        out.append({**e, "org": o["login"], "missing": False,
+                    "display": o.get("name") or o["login"],
+                    "description": clean(o.get("description") or o.get("bio") or ""),
+                    "public_repos": o["repositories"]["totalCount"],
+                    "top": [(r["nameWithOwner"], r.get("stargazerCount", 0), parse_time(r.get("pushedAt")),
+                             clean(r.get("description"), 90)) for r in top]})
+    return out
 
 
 # ---------- formatting helpers ----------
@@ -315,7 +468,7 @@ def render_sheet(it, now):
 
 # ---------- README overview ----------
 
-def render_readme(items, orgs, now):
+def render_readme(items, orgs, links, now):
     slug = os.environ.get("GITHUB_REPOSITORY", "mmaxpo/awesome-ai-radar")
     n_active = sum(1 for it in items if not it["missing"]
                    and (is_new(it, "release_date", now) or is_new(it, "pushed", now)))
@@ -390,6 +543,8 @@ def render_readme(items, orgs, now):
 
     L += ["## 🗂 Categories", ""]
     L += [" · ".join(f"[{t}](#{cat_anchor(t)}) ({len(groups[t])})" for t in order)]
+    if links:
+        L[-1] += f" · [📎 More resources](#{cat_anchor('📎 More resources')}) ({len(links)})"
     if orgs:
         L[-1] += f" · [🏢 Organizations](#{cat_anchor('🏢 Organizations')}) ({len(orgs)})"
     L.append("")
@@ -417,6 +572,24 @@ def render_readme(items, orgs, now):
             L.append(f"| [**{r}**]({sheet_path(r)}){flag}{desc} | {why} "
                      f"| {fmt_num(it['stars'])} | {ago(it['pushed'], now)} | {rel} |")
         L.append("")
+
+    if links:
+        types = [("paper", "📄 Papers"), ("course", "🎓 Courses"), ("article", "📝 Articles & explainers"),
+                 ("model", "🤗 Models & datasets"), ("person", "👤 People worth following"),
+                 ("tool", "🌐 Tools & sites")]
+        known_t = {k for k, _ in types}
+        L += ["## 📎 More resources", "",
+              "Papers, courses, models and sites that aren't GitHub repos (so they're not tracked for updates).", ""]
+        for key, title in types + [("other", "🔗 Other")]:
+            group = [x for x in links if (str(x.get("type") or "other").lower() if str(x.get("type") or "other").lower() in known_t else "other") == key]
+            if not group:
+                continue
+            L += [f"**{title}**", ""]
+            for x in group:
+                t = clean(str(x.get("title") or x["link"]))
+                why = f" — {clean(str(x['why']))}" if x.get("why") else ""
+                L.append(f"- [{t}]({x['link']}){why}")
+            L.append("")
 
     if orgs:
         L += ["## 🏢 Organizations", ""]
@@ -587,22 +760,20 @@ def write_csv(items, path, now):
 
 def main():
     entries = yaml.safe_load((ROOT / "repos.yml").read_text()) or []
-    items, orgs, seen = [], [], set()
-    for e in entries:
-        if not isinstance(e, dict):
-            continue
-        if e.get("org"):
-            print(f"Checking org {e['org']}…", file=sys.stderr)
-            orgs.append(fetch_org(e))
-            continue
-        if not e.get("repo"):
-            continue
-        print(f"Checking {e['repo']}…", file=sys.stderr)
-        it = fetch(e)
+    entries = [e for e in entries if isinstance(e, dict)]
+    repo_entries = [e for e in entries if e.get("repo")]
+    org_entries = [e for e in entries if e.get("org")]
+    links = [e for e in entries if e.get("link")]
+
+    orgs = fetch_orgs(org_entries)
+    items, seen = [], set()
+    for it in fetch_repos(repo_entries):
         if it["repo"].lower() in seen:  # duplicate (or two names for a moved repo)
             continue
         seen.add(it["repo"].lower())
         items.append(it)
+    print(f"API use: {API_STATS['graphql']} GraphQL requests (cost {API_STATS['cost']}), "
+          f"{API_STATS['rest_fallback']} repos via REST fallback", file=sys.stderr)
     now = datetime.now(timezone.utc)
 
     SHEETS.mkdir(exist_ok=True)
@@ -611,7 +782,7 @@ def main():
     for it in items:
         (ROOT / sheet_path(it["repo"])).write_text(render_sheet(it, now), encoding="utf-8")
 
-    (ROOT / "README.md").write_text(render_readme(items, orgs, now), encoding="utf-8")
+    (ROOT / "README.md").write_text(render_readme(items, orgs, links, now), encoding="utf-8")
     write_csv(items, ROOT / "repos.csv", now)
     write_weekly(items, now)
     print(f"Updated README, repos.csv and {len(items)} repo sheets.", file=sys.stderr)

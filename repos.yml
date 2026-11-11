@@ -3,13 +3,18 @@
 #   repo:    owner/name (required) — copy it from the GitHub URL
 #   why:     one line on why it's worth following
 #   status:  study | using | later | done
-#   category: agents | coding | workflows | rag | documents | models | sdk |
+#   category: agents | coding | workflows | rag | documents | models | science | sdk |
 #             builders | prompting | imagegen | design | python | persian | learning | apps  (or any new word)
 #   project: optional — a project it's useful for
 #   added:   optional — date you added it
 #   notes:   optional — longer notes, shown on the repo's own sheet (use  notes: |  for several lines)
 #
 # To follow a whole organization instead of one repo:   - org: openai
+# For a link that isn't a GitHub repo (paper, course, article, model, person, tool):
+#   - link: https://...
+#     title: "Name"
+#     type: paper | course | article | model | person | tool
+#     why: "one line"
 #
 # After you save this file, the README updates within a minute or two.
 
@@ -120,6 +125,18 @@
 
 - repo: Shaveen12/HumanInTheLoop
   why: "Human-in-the-loop LangGraph chatbot with FastAPI backend"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: Significant-Gravitas/AutoGPT
+  why: "The original autonomous-agent project, now an agent-building platform"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: reworkd/AgentGPT
+  why: "Run autonomous agents in the browser (an early classic)"
   category: agents
   status: study
   added: 2026-11-11
@@ -329,6 +346,33 @@
 - repo: Dicklesworthstone/swiss_army_llama
   why: "Local FastAPI service for embeddings, search and completions"
   category: models
+  status: study
+  added: 2026-11-11
+
+- repo: pytorch/pytorch
+  why: "The leading deep-learning framework"
+  category: models
+  status: study
+  added: 2026-11-11
+
+- repo: tensorflow/tensorflow
+  why: "Google's end-to-end machine-learning framework"
+  category: models
+  status: study
+  added: 2026-11-11
+
+
+# ───────── 🧬 AI for science ─────────
+
+- repo: google-deepmind/alphafold
+  why: "AlphaFold 2: predicts 3D protein structures (Nobel-winning work)"
+  category: science
+  status: study
+  added: 2026-11-11
+
+- repo: facebookresearch/esm
+  why: "Meta's protein language models (ESM)"
+  category: science
   status: study
   added: 2026-11-11
 
@@ -626,6 +670,12 @@
   status: study
   added: 2026-11-11
 
+- repo: ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
+  why: "500 AI/ML/CV/NLP project ideas with code"
+  category: learning
+  status: study
+  added: 2026-11-11
+
 # ───────── 🛠 Apps & other ─────────
 
 - repo: ethanplusai/sellbird
@@ -664,11 +714,6 @@
   status: study
   added: 2026-11-11
 
-- repo: InstaPy/InstaPy
-  why: "Instagram automation bot"
-  category: apps
-  status: study
-  added: 2026-11-11
 
 # ───────── 🏢 Organizations ─────────
 
@@ -698,3 +743,83 @@
 
 - org: rabbitmq
   why: "RabbitMQ message broker, clients and docs"
+
+- org: whitphx
+  why: "streamlit-webrtc, stlite and other Python web tools"
+
+# ───────── 📎 More resources (not GitHub repos) ─────────
+
+- link: https://huggingface.co/papers/2306.03504
+  title: "Ada-TTA: Text-to-Talking-Avatar Synthesis (2023)"
+  type: paper
+  why: "Turns text into a lip-synced talking-avatar video from a few minutes of footage"
+
+- link: https://www.nature.com/articles/s41586-021-03819-2
+  title: "Highly accurate protein structure prediction with AlphaFold (Nature, 2021)"
+  type: paper
+  why: "The AlphaFold 2 paper"
+
+- link: https://www.deeplearning.ai/courses/chatgpt-prompt-eng
+  title: "ChatGPT Prompt Engineering for Developers"
+  type: course
+  why: "Short free course by DeepLearning.AI and OpenAI"
+
+- link: https://brandonrohrer.com/transformers.html
+  title: "Transformers from Scratch (Brandon Rohrer)"
+  type: article
+  why: "Clear, step-by-step explanation of how transformers work"
+
+- link: https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/
+  title: "AlphaFold: a solution to a 50-year-old grand challenge in biology"
+  type: article
+  why: "DeepMind's announcement of AlphaFold"
+
+- link: https://kuegi.medium.com/the-anatomy-of-a-trading-bot-7c1ee783d6f1
+  title: "The anatomy of a trading bot"
+  type: article
+  why: "How an automated trading bot is structured"
+
+- link: https://huggingface.co/stabilityai
+  title: "Stability AI on Hugging Face"
+  type: model
+  why: "Stable Diffusion and other model weights"
+
+- link: https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english
+  title: "wav2vec2-large-xlsr-53-english"
+  type: model
+  why: "English speech-recognition model"
+
+- link: https://www.cs.umd.edu/~hajiagha/
+  title: "MohammadTaghi Hajiaghayi"
+  type: person
+  why: "Computer science professor at the University of Maryland"
+
+- link: https://erikdemaine.org
+  title: "Erik Demaine"
+  type: person
+  why: "MIT professor: algorithms and computational geometry"
+
+- link: https://www.databricks.com
+  title: "Databricks"
+  type: tool
+  why: "Data and AI platform (Spark, MLflow)"
+
+- link: https://www.matroid.com
+  title: "Matroid"
+  type: tool
+  why: "No-code computer-vision platform"
+
+- link: https://www.vectorizer.io
+  title: "Vectorizer.io"
+  type: tool
+  why: "Convert images to vector (SVG)"
+
+- link: https://brightdata.com/pricing/scraping-browser
+  title: "Bright Data Scraping Browser"
+  type: tool
+  why: "Paid hosted browser for web scraping at scale"
+
+- link: https://bscscan.com
+  title: "BscScan"
+  type: tool
+  why: "Block explorer for BNB Smart Chain"
