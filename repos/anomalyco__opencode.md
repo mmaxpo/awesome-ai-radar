@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
 | **Why I saved it** | Open-source AI coding agent |
 | **Added** | 2026-11-11 |
@@ -87,6 +88,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(deploy): run Cloudflare deploys from verified artifacts behind pinned targets](https://github.com/anomalyco/opencode/commit/7bac5bad02f68b95fc5c2c022252c0635ea61abe) | thdxr |
 | 2026-11-11 | [feat(core): tell agents when they are in a fork (#63235)](https://github.com/anomalyco/opencode/commit/e56eff2bc01649b3aa21224876b8874e77dea4b0) | kommander |
 | 2026-11-11 | [refactor(data): strict dev/production stages and data naming](https://github.com/anomalyco/opencode/commit/070b980c0b17487dcb94f381cc2eb03953dadb86) | thdxr |
 | 2026-11-11 | [fix(core): send saved keys during local model discovery (#63266)](https://github.com/anomalyco/opencode/commit/f753100ad59bac0932060df6f8b2f132e9338d6e) | rekram1-node |
@@ -96,7 +98,6 @@
 | 2026-11-11 | [fix(codemode): return compact JSON results (#63258)](https://github.com/anomalyco/opencode/commit/1af61ee45c41713c47fd42e80ff775e5d060c06b) | rekram1-node |
 | 2026-11-11 | [fix(ai): keep exhausted request rate limits retryable (#59816)](https://github.com/anomalyco/opencode/commit/1002a979f9eacea665e44a6a178e6593f375e888) | Kyle-j-bush |
 | 2026-11-11 | [fix(site): keep the bare host as a custom domain](https://github.com/anomalyco/opencode/commit/791a2c489efd88c566df710a7e074ba7327236af) | thdxr |
-| 2026-11-11 | [fix(core): refresh MCP OAuth tokens before they expire (#63028)](https://github.com/anomalyco/opencode/commit/4d49c73e026309d20d45e154cebd80cdbadfad6a) | rekram1-node |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

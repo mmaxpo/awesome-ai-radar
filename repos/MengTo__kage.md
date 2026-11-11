@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🎨 Design & creative |
 | **Project** | — |
 | **Why I saved it** | Test entry |
 | **Added** | 2026-11-11 |

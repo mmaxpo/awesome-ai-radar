@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🛠 Apps & other |
 | **Project** | — |
 | **Why I saved it** | Reverse-engineering framework (NSA) |
 | **Added** | 2026-11-11 |

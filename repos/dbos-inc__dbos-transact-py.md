@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🔁 Durable workflows & orchestration |
 | **Project** | — |
 | **Why I saved it** | Durable Python workflows backed by Postgres |
 | **Added** | 2026-11-11 |

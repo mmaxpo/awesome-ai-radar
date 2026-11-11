@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🛠 Apps & other |
 | **Project** | — |
 | **Why I saved it** | Open-source AI sales outreach (finds leads, sends emails) |
 | **Added** | 2026-11-11 |

@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🛠 Apps & other |
 | **Project** | — |
 | **Why I saved it** | Local-first inbox for long-running AI agents (LangGraph) |
 | **Added** | 2026-11-11 |

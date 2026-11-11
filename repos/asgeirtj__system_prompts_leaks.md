@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | ✍️ Prompting & LLM programming |
 | **Project** | — |
 | **Why I saved it** | Collection of chatbot system prompts, for prompt study |
 | **Added** | 2026-11-11 |

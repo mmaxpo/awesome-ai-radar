@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🛠 Apps & other |
 | **Project** | — |
 | **Why I saved it** | AI controls a real iPhone via a $7 ESP32 |
 | **Added** | 2026-11-11 |

@@ -7,6 +7,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🛠 Apps & other |
 | **Project** | — |
 | **Why I saved it** | No description on GitHub yet — add my own note |
 | **Added** | 2026-11-11 |

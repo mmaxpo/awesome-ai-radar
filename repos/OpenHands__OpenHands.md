@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
 | **Why I saved it** | Open-source AI software-development agent |
 | **Added** | 2026-11-11 |

@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
 | **Why I saved it** | Library of ready-made specialist agent personas |
 | **Added** | 2026-11-11 |

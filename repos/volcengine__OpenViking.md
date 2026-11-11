@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🧠 RAG, memory & chat with your data |
 | **Project** | — |
 | **Why I saved it** | Context database for agents: memory + RAG + skills |
 | **Added** | 2026-11-11 |
@@ -29,7 +30,7 @@
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 410.5 MB |
+| 💾 **Size** | 411.1 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
@@ -68,7 +69,7 @@
 > …
 
 ### [v0.5.4](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4)
-<sub>2026-11-09 · yesterday</sub>
+<sub>2026-11-09 · 2d ago</sub>
 
 > **中文**
 > **主要更新**
@@ -79,7 +80,7 @@
 > …
 
 ### [python-sdk@0.1.19](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.19)
-<sub>2026-11-09 · yesterday</sub>
+<sub>2026-11-09 · 2d ago</sub>
 
 > _No notes._
 

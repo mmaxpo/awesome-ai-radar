@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
 | **Why I saved it** | Run huge MoE models with GPU/RAM/NVMe expert offloading |
 | **Added** | 2026-11-11 |

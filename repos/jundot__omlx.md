@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
+| **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
 | **Why I saved it** | Local LLM server for Apple Silicon (batching + SSD cache) |
 | **Added** | 2026-11-11 |
@@ -93,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(scheduler): keep the Metal wired limit when a batch generator closes (#5165)](https://github.com/jundot/omlx/commit/98fd1b71b5b303e00d46e0f4028a2b8414db8b40) | jundot |
 | 2026-11-11 | [fix(stt): reserve realtime sessions before backend startup (#5092)](https://github.com/jundot/omlx/commit/db4b4176985277359f739655a01eae5e3a6fa412) | Aminark |
 | 2026-11-11 | [feat(macos): add sidebar search for global settings (#5111)](https://github.com/jundot/omlx/commit/edbcc89b8a615818fa2ad729f4db26b8e0a6a686) | ngutech21 |
 | 2026-11-11 | [fix(bench): grow a short saved Splash context for the run (#4938)](https://github.com/jundot/omlx/commit/066bcaaf9da454d07b020e196dde2489c1fe4bcb) | jundot |
@@ -102,13 +104,12 @@
 | 2026-11-11 | [ci(macos): build and test the app (#5120)](https://github.com/jundot/omlx/commit/4cac9dae65cd17fb16fbdb45a79133cae3df2ede) | ngutech21 |
 | 2026-11-11 | [fix(vlm): skip Florence-2 at discovery and accept plain-string prompts (#5142)](https://github.com/jundot/omlx/commit/41f8c839dce9f71238a53ec1312cf1fbf252a0b2) | Woody-Hu |
 | 2026-11-11 | [fix(dflash): restore drafter context on exact prefix hits](https://github.com/jundot/omlx/commit/22f2c43409b078b56d6a9903414f4d8a759ad3d3) | jundot |
-| 2026-11-11 | [fix(web): pair serving stats and speed cards on phones (#5123)](https://github.com/jundot/omlx/commit/79b936ee5ba6259d3b48f11fe873b18ed8cfec7c) | LXD-8 |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 
 ## 👥 Top contributors
 
-[jundot](https://github.com/jundot) (2268) · [cfbraun](https://github.com/cfbraun) (85) · [LXD-8](https://github.com/LXD-8) (62) · [jonathan308](https://github.com/jonathan308) (51) · [github-actions[bot]](https://github.com/github-actions[bot]) (37)
+[jundot](https://github.com/jundot) (2269) · [cfbraun](https://github.com/cfbraun) (85) · [LXD-8](https://github.com/LXD-8) (62) · [jonathan308](https://github.com/jonathan308) (51) · [github-actions[bot]](https://github.com/github-actions[bot]) (37)
 
 ## ⬇️ Get it
 
