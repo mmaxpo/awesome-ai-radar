@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 93.2k |
-| 🍴 **Forks** | 12.4k |
+| 🍴 **Forks** | 12.5k |
 | 🐞 **Open issues + PRs** | [1.2k](https://github.com/OpenHands/OpenHands/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 7% |
 | 📜 **License** | MIT |

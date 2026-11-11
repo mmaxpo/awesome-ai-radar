@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 30.6k |
 | 🍴 **Forks** | 5.0k |
-| 🐞 **Open issues + PRs** | [41](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [43](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `harness` `llm` `openai` `python` |
