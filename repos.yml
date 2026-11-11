@@ -4,7 +4,7 @@
 #   why:     one line on why it's worth following
 #   status:  study | using | later | done
 #   category: agents | coding | workflows | rag | documents | models | sdk |
-#             builders | prompting | imagegen | design | persian | learning | apps  (or any new word)
+#             builders | prompting | imagegen | design | python | persian | learning | apps  (or any new word)
 #   project: optional — a project it's useful for
 #   added:   optional — date you added it
 #   notes:   optional — longer notes, shown on the repo's own sheet (use  notes: |  for several lines)
@@ -499,6 +499,75 @@
   status: study
   added: 2026-11-11
 
+
+# ───────── 🐍 Python & backend tooling ─────────
+
+- repo: fastapi/fastapi
+  why: "Fast, typed Python web framework for APIs"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: pandas-dev/pandas
+  why: "The standard Python data-analysis library (cheat sheet in doc/cheatsheet)"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: PyO3/pyo3
+  why: "Write fast Python extensions in Rust"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: numba/numba
+  why: "JIT compiler that makes numeric Python run at C speed"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: cython/cython
+  why: "Compile Python to C for big speedups"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: plasma-umass/scalene
+  why: "CPU/GPU/memory profiler for Python with AI optimization tips"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: benfred/py-spy
+  why: "Sampling profiler: see where a running Python program spends time"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: python-websockets/websockets
+  why: "WebSocket servers and clients for Python (asyncio)"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: evansd/whitenoise
+  why: "Serve static files straight from a Python web app"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: pypa/pipenv
+  why: "Python dependency and virtualenv manager"
+  category: python
+  status: study
+  added: 2026-11-11
+
+- repo: casey/just
+  why: "Handy command runner: a simpler Makefile for project tasks"
+  category: python
+  status: study
+  added: 2026-11-11
+
 # ───────── 🇮🇷 Persian NLP ─────────
 
 - repo: ICTRC/Parsivar
@@ -589,6 +658,17 @@
   status: study
   added: 2026-11-11
 
+- repo: Swordfish90/cool-retro-term
+  why: "Terminal emulator that looks like an old CRT screen"
+  category: apps
+  status: study
+  added: 2026-11-11
+
+- repo: InstaPy/InstaPy
+  why: "Instagram automation bot"
+  category: apps
+  status: study
+  added: 2026-11-11
 
 # ───────── 🏢 Organizations ─────────
 
@@ -609,3 +689,12 @@
 
 - org: FurkanGozukara
   why: "AI image/video tutorials and scripts"
+
+- org: astral-sh
+  why: "uv, ruff, ty: very fast Python tooling written in Rust"
+
+- org: pytries
+  why: "Fast trie data structures for Python"
+
+- org: rabbitmq
+  why: "RabbitMQ message broker, clients and docs"

@@ -36,6 +36,7 @@ CATEGORIES = {  # key used in repos.yml -> heading shown on the page (order = pa
     "prompting": "✍️ Prompting & LLM programming",
     "imagegen": "🖼 Image & video generation",
     "design": "🎨 Design & creative",
+    "python": "🐍 Python & backend tooling",
     "persian": "🇮🇷 Persian NLP",
     "learning": "📚 Awesome lists & learning",
     "apps": "🛠 Apps & other",
