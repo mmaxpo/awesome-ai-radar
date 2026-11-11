@@ -12,7 +12,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**91 repos · 14 categories · 26 new releases this week** · _last checked 2026-11-11 15:11 UTC_
+**91 repos · 14 categories · 26 new releases this week** · _last checked 2026-11-11 15:15 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -38,7 +38,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[OpenHands/OpenHands](repos/OpenHands__OpenHands.md)** — [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0) (yesterday) · 💻 Coding agents & dev tools
 - **[microsoft/playwright-python](repos/microsoft__playwright-python.md)** — [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0) (yesterday) · 📄 Documents, OCR & web data
 - **[ollama/ollama](repos/ollama__ollama.md)** — [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) (yesterday) · 🖥 Models, local inference & gateways
-- **[assafelovic/gpt-researcher](repos/assafelovic__gpt-researcher.md)** — [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) (yesterday) · 🤖 Agent frameworks & multi-agent
+- **[assafelovic/gpt-researcher](repos/assafelovic__gpt-researcher.md)** — [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) (2d ago) · 🤖 Agent frameworks & multi-agent
 - **[crewAIInc/crewAI](repos/crewAIInc__crewAI.md)** — [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39) (2d ago) · 🤖 Agent frameworks & multi-agent
 - **[onehumanbeing/esp32-iphone-agent](repos/onehumanbeing__esp32-iphone-agent.md)** — [cli-v0.1.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.4) (2d ago) · 🛠 Apps & other
 - **[leonxlnx/taste-skill](repos/leonxlnx__taste-skill.md)** — [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) (4d ago) · 🎨 Design & creative
@@ -94,7 +94,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**crewAIInc/crewAI**](repos/crewAIInc__crewAI.md) 🆕<br><sub>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewA…</sub> | Role-based agent teams (crews) working on tasks | 60.8k | today | [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39) · 2d ago |
 | [**agno-agi/agno**](repos/agno-agi__agno.md) 🆕<br><sub>The self-driving agent platform</sub> | Fast framework for agents with memory, tools and teams | 43.1k | today | [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12) · 13d ago |
 | [**OpenBMB/ChatDev**](repos/OpenBMB__ChatDev.md) 🆕<br><sub>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</sub> | Virtual software company of chatting agents | 34.7k | 5d ago | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) · 7mo ago |
-| [**assafelovic/gpt-researcher**](repos/assafelovic__gpt-researcher.md) 🆕<br><sub>An autonomous agent that conducts deep research on any data using any LLM providers</sub> | Autonomous agent that researches and writes reports | 30.6k | yesterday | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) · yesterday |
+| [**assafelovic/gpt-researcher**](repos/assafelovic__gpt-researcher.md) 🆕<br><sub>An autonomous agent that conducts deep research on any data using any LLM providers</sub> | Autonomous agent that researches and writes reports | 30.6k | yesterday | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) · 2d ago |
 | [**openai/openai-agents-python**](repos/openai__openai-agents-python.md) 🆕<br><sub>A lightweight, powerful framework for multi-agent workflows</sub> | OpenAI's official lightweight multi-agent SDK | 30.6k | today | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) · 27d ago |
 | [**letta-ai/letta**](repos/letta-ai__letta.md)<br><sub>Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.</sub> | Stateful agents with long-term memory (ex-MemGPT) | 25.4k | 23d ago | [0.16.8](https://github.com/letta-ai/letta/releases/tag/0.16.8) · 6mo ago |
 | [**MervinPraison/PraisonAI**](repos/MervinPraison__PraisonAI.md) 🆕<br><sub>Private AI agents for highly regulated teams, and for anyone who wants AI on their own computer. Open-source P…</sub> | Low-code multi-agent framework | 9.3k | yesterday | [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) · 5d ago |

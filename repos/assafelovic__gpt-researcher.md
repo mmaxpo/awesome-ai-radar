@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — New paper UI, detailed reports in 3:27, and 53 community fixes
-<sub>2026-11-09 · yesterday</sub>
+<sub>2026-11-09 · 2d ago</sub>
 
 > **A new UI, and detailed reports in under 4 minutes**
 > <a href="https://github.com/user-attachments/assets/4d3f26cf-8ccc-413a-b17c-80aa9e1b52d1">

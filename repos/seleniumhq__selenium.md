@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 34.6k |
 | 🍴 **Forks** | 8.7k |
-| 🐞 **Open issues + PRs** | [185](https://github.com/seleniumhq/selenium/issues) |
+| 🐞 **Open issues + PRs** | [186](https://github.com/seleniumhq/selenium/issues) |
 | 💻 **Languages** | Java 33% · C# 14% · JavaScript 10% · Python 10% · C++ 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `dotnet` `java` `javascript` `python` `ruby` `rust` `selenium` `webdriver` |
