@@ -19,6 +19,9 @@ on:
         type: choice
         options: [study, using, later, done]
         default: study
+      category:
+        description: "Category: agents, coding, workflows, rag, documents, models, sdk, builders, prompting, design, persian, learning, apps"
+        required: false
       project:
         description: "Project (optional)"
         required: false
@@ -43,6 +46,7 @@ jobs:
           WHY: ${{ inputs.why }}
           STATUS: ${{ inputs.status }}
           PROJECT: ${{ inputs.project }}
+          CATEGORY: ${{ inputs.category }}
         run: python scripts/add_repo.py
 
       - name: Refresh README

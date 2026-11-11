@@ -24,6 +24,8 @@ def q(s):
 
 
 entry = f"\n- repo: {name}\n  why: {q(os.environ.get('WHY', ''))}\n  status: {os.environ.get('STATUS', 'study')}\n  added: {date.today()}\n"
+if os.environ.get("CATEGORY"):
+    entry += f"  category: {os.environ['CATEGORY'].strip().lower()}\n"
 if os.environ.get("PROJECT"):
     entry += f"  project: {q(os.environ['PROJECT'])}\n"
 path.write_text(text.rstrip("\n") + "\n" + entry)

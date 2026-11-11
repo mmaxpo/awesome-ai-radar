@@ -3,93 +3,501 @@
 #   repo:    owner/name (required) — copy it from the GitHub URL
 #   why:     why you saved it (future-you will thank you)
 #   status:  study | using | later | done
+#   category: agents | coding | workflows | rag | documents | models | sdk |
+#             builders | prompting | design | persian | learning | apps  (or any new word)
 #   project: optional — which of your projects it's for
 #   added:   optional — date you added it
 #   notes:   optional — longer notes, shown on the repo's own sheet (use  notes: |  for several lines)
 #
+# To follow a whole organization instead of one repo:   - org: openai
+#
 # After you save this file, the README updates within a minute or two.
 
-- repo: MengTo/kage
-  why: Test entry
-  status: study
-  added: 2026-11-11
 
-- repo: onehumanbeing/esp32-iphone-agent
-  why: "AI controls a real iPhone via a $7 ESP32"
-  status: study
-  added: 2026-11-11
-
-- repo: ethanplusai/sellbird
-  why: "Open-source AI sales outreach (finds leads, sends emails)"
-  status: study
-  added: 2026-11-11
-
-- repo: pizza-bot-app/pizza-bot
-  why: "Local-first inbox for long-running AI agents (LangGraph)"
-  status: study
-  added: 2026-11-11
-
-- repo: volcengine/OpenViking
-  why: "Context database for agents: memory + RAG + skills"
-  status: study
-  added: 2026-11-11
+# ───────── 🤖 Agent frameworks & multi-agent ─────────
 
 - repo: msitarzewski/agency-agents
   why: "Library of ready-made specialist agent personas"
+  category: agents
   status: study
   added: 2026-11-11
 
-- repo: JustVugg/colibri
-  why: "Run huge MoE models with GPU/RAM/NVMe expert offloading"
+- repo: openai/openai-agents-python
+  why: "OpenAI's official lightweight multi-agent SDK"
+  category: agents
   status: study
   added: 2026-11-11
 
-- repo: nationalsecurityagency/ghidra
-  why: "Reverse-engineering framework (NSA)"
+- repo: microsoft/autogen
+  why: "Microsoft's multi-agent conversation framework"
+  category: agents
   status: study
   added: 2026-11-11
 
-- repo: asgeirtj/system_prompts_leaks
-  why: "Collection of chatbot system prompts, for prompt study"
+- repo: crewAIInc/crewAI
+  why: "Role-based agent teams (crews) working on tasks"
+  category: agents
   status: study
   added: 2026-11-11
 
-- repo: jasonlee-breadcrumb/motion-os
-  why: "Make motion graphics with Claude, review scene by scene"
+- repo: agno-agi/agno
+  why: "Fast framework for agents with memory, tools and teams"
+  category: agents
   status: study
   added: 2026-11-11
 
-- repo: miladicode823-coder/VEYRA
-  why: "No description on GitHub yet — add my own note"
+- repo: letta-ai/letta
+  why: "Stateful agents with long-term memory (ex-MemGPT)"
+  category: agents
   status: study
   added: 2026-11-11
 
-- repo: temporalio/temporal
-  why: "Durable workflow execution engine (Temporal server)"
+- repo: VRSEN/agency-swarm
+  why: "Build an 'agency' of agents with roles, on OpenAI"
+  category: agents
   status: study
   added: 2026-11-11
+
+- repo: FoundationAgents/MetaGPT
+  why: "Multi-agent 'software company' (PM, architect, engineer)"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: OpenBMB/ChatDev
+  why: "Virtual software company of chatting agents"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: OpenBMB/XAgent
+  why: "Autonomous agent for complex task solving"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: OpenBMB/AgentVerse
+  why: "Framework for multi-agent collaboration and simulation"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: MervinPraison/PraisonAI
+  why: "Low-code multi-agent framework"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: assafelovic/gpt-researcher
+  why: "Autonomous agent that researches and writes reports"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: BCG-X-Official/agentkit
+  why: "Starter kit to build agent apps (Next.js + FastAPI + LangChain)"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: the-open-agent/openagent
+  why: "Open agent platform"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+# ───────── 💻 Coding agents & dev tools ─────────
 
 - repo: anomalyco/opencode
   why: "Open-source AI coding agent"
+  category: coding
   status: study
   added: 2026-11-11
 
 - repo: OpenHands/OpenHands
   why: "Open-source AI software-development agent"
+  category: coding
+  status: study
+  added: 2026-11-11
+
+- repo: cline/cline
+  why: "Autonomous coding agent inside VS Code"
+  category: coding
+  status: study
+  added: 2026-11-11
+
+- repo: openinterpreter/openinterpreter
+  why: "LLM that runs code on your computer to do tasks"
+  category: coding
+  status: study
+  added: 2026-11-11
+
+- repo: abi/screenshot-to-code
+  why: "Turn screenshots/designs into HTML/React code"
+  category: coding
+  status: study
+  added: 2026-11-11
+
+- repo: Doriandarko/claude-engineer
+  why: "CLI where Claude writes code and creates its own tools"
+  category: coding
+  status: study
+  added: 2026-11-11
+
+- repo: AI-Citizen/SolidGPT
+  why: "Chat with your codebase / dev assistant"
+  category: coding
+  status: study
+  added: 2026-11-11
+
+- repo: pnkvalavala/repochat
+  why: "Chat with a GitHub repo using RAG"
+  category: coding
+  status: study
+  added: 2026-11-11
+
+# ───────── 🔁 Durable workflows & orchestration ─────────
+
+- repo: temporalio/temporal
+  why: "Durable workflow execution engine (Temporal server)"
+  category: workflows
   status: study
   added: 2026-11-11
 
 - repo: restatedev/restate
   why: "Durable execution platform for resilient apps/workflows"
+  category: workflows
   status: study
   added: 2026-11-11
 
 - repo: dbos-inc/dbos-transact-py
   why: "Durable Python workflows backed by Postgres"
+  category: workflows
+  status: study
+  added: 2026-11-11
+
+- repo: PrefectHQ/prefect
+  why: "Python workflow orchestration with scheduling and retries"
+  category: workflows
+  status: study
+  added: 2026-11-11
+
+- repo: Netflix/metaflow
+  why: "Netflix's framework for ML/AI pipelines from laptop to prod"
+  category: workflows
+  status: study
+  added: 2026-11-11
+
+# ───────── 🧠 RAG, memory & chat with your data ─────────
+
+- repo: volcengine/OpenViking
+  why: "Context database for agents: memory + RAG + skills"
+  category: rag
+  status: study
+  added: 2026-11-11
+
+- repo: Mintplex-Labs/anything-llm
+  why: "All-in-one desktop/Docker app to chat with docs, agents included"
+  category: rag
+  status: study
+  added: 2026-11-11
+
+- repo: zylon-ai/private-gpt
+  why: "Private, local Q&A over your documents"
+  category: rag
+  status: study
+  added: 2026-11-11
+
+- repo: The-Vibe-Company/quivr
+  why: "Opinionated RAG 'second brain' building block"
+  category: rag
+  status: study
+  added: 2026-11-11
+
+- repo: llmware-ai/llmware
+  why: "Enterprise RAG pipelines with small specialized models"
+  category: rag
+  status: study
+  added: 2026-11-11
+
+- repo: guangzhengli/ChatFiles
+  why: "Upload files and chat with them"
+  category: rag
+  status: study
+  added: 2026-11-11
+
+- repo: tensorchord/pgvecto.rs
+  why: "Vector search extension for Postgres"
+  category: rag
+  status: study
+  added: 2026-11-11
+
+# ───────── 📄 Documents, OCR & web data ─────────
+
+- repo: firecrawl/firecrawl
+  why: "Turn websites into clean LLM-ready markdown/data"
+  category: documents
+  status: study
+  added: 2026-11-11
+
+- repo: Unstructured-IO/unstructured
+  why: "Parse PDFs, Word, HTML etc. into clean chunks for LLMs"
+  category: documents
+  status: study
+  added: 2026-11-11
+
+- repo: enoch3712/ExtractThinker
+  why: "Extract structured data from documents with LLMs (ORM-style)"
+  category: documents
+  status: study
+  added: 2026-11-11
+
+- repo: tesseract-ocr/tesseract
+  why: "Classic open-source OCR engine"
+  category: documents
+  status: study
+  added: 2026-11-11
+
+# ───────── 🖥 Models, local inference & gateways ─────────
+
+- repo: ollama/ollama
+  why: "Run open models locally with one command"
+  category: models
+  status: study
+  added: 2026-11-11
+
+- repo: BerriAI/litellm
+  why: "One API / proxy for 100+ LLM providers"
+  category: models
+  status: study
+  added: 2026-11-11
+
+- repo: QwenLM/Qwen
+  why: "Alibaba's Qwen open models"
+  category: models
+  status: study
+  added: 2026-11-11
+
+- repo: mistralai/mistral-inference
+  why: "Official code to run Mistral models"
+  category: models
   status: study
   added: 2026-11-11
 
 - repo: jundot/omlx
   why: "Local LLM server for Apple Silicon (batching + SSD cache)"
+  category: models
   status: study
   added: 2026-11-11
+
+- repo: JustVugg/colibri
+  why: "Run huge MoE models with GPU/RAM/NVMe expert offloading"
+  category: models
+  status: study
+  added: 2026-11-11
+
+- repo: Dicklesworthstone/swiss_army_llama
+  why: "Local FastAPI service for embeddings, search and completions"
+  category: models
+  status: study
+  added: 2026-11-11
+
+# ───────── 🔌 MCP & SDKs ─────────
+
+- repo: modelcontextprotocol/python-sdk
+  why: "Official Python SDK to build MCP servers/clients"
+  category: sdk
+  status: study
+  added: 2026-11-11
+
+- repo: modelcontextprotocol/servers
+  why: "Reference MCP servers (filesystem, GitHub, etc.)"
+  category: sdk
+  status: study
+  added: 2026-11-11
+
+- repo: openai/openai-python
+  why: "Official OpenAI Python library"
+  category: sdk
+  status: study
+  added: 2026-11-11
+
+- repo: openai/openai-realtime-console
+  why: "Demo app for OpenAI's realtime voice API"
+  category: sdk
+  status: study
+  added: 2026-11-11
+
+# ───────── 🧩 Low-code builders & chat UIs ─────────
+
+- repo: langflow-ai/langflow
+  why: "Visual drag-and-drop builder for agents and RAG"
+  category: builders
+  status: study
+  added: 2026-11-11
+
+- repo: FlowiseAI/Flowise
+  why: "Visual builder for LLM flows and agents"
+  category: builders
+  status: study
+  added: 2026-11-11
+
+- repo: botpress/botpress
+  why: "Platform to build and deploy chatbots/agents"
+  category: builders
+  status: study
+  added: 2026-11-11
+
+- repo: lobehub/lobehub
+  why: "Polished open-source chat UI for many models"
+  category: builders
+  status: study
+  added: 2026-11-11
+
+- repo: vercel/chatbot
+  why: "Vercel's Next.js AI chatbot template"
+  category: builders
+  status: study
+  added: 2026-11-11
+
+- repo: CopilotKit/CopilotKit
+  why: "Add in-app AI copilots/agents to React apps"
+  category: builders
+  status: study
+  added: 2026-11-11
+
+# ───────── ✍️ Prompting & LLM programming ─────────
+
+- repo: stanfordnlp/dspy
+  why: "Program and auto-optimize prompts instead of hand-writing them"
+  category: prompting
+  status: study
+  added: 2026-11-11
+
+- repo: asgeirtj/system_prompts_leaks
+  why: "Collection of chatbot system prompts, for prompt study"
+  category: prompting
+  status: study
+  added: 2026-11-11
+
+# ───────── 🎨 Design & creative ─────────
+
+- repo: leonxlnx/taste-skill
+  why: "Skill that gives AI better design taste"
+  category: design
+  status: study
+  added: 2026-11-11
+
+- repo: voltagent/awesome-design-md
+  why: "Collection of DESIGN.md files for AI design guidance"
+  category: design
+  status: study
+  added: 2026-11-11
+
+- repo: img2threejs/img2threejs
+  why: "Turn images into Three.js scenes"
+  category: design
+  status: study
+  added: 2026-11-11
+
+- repo: jasonlee-breadcrumb/motion-os
+  why: "Make motion graphics with Claude, review scene by scene"
+  category: design
+  status: study
+  added: 2026-11-11
+
+- repo: MengTo/kage
+  why: "Test entry"
+  category: design
+  status: study
+  added: 2026-11-11
+
+# ───────── 🇮🇷 Persian NLP ─────────
+
+- repo: ICTRC/Parsivar
+  why: "Persian text processing toolkit (normalize, tokenize, stem)"
+  category: persian
+  status: study
+  added: 2026-11-11
+
+- repo: mhbashari/awesome-persian-nlp-ir
+  why: "Curated list of Persian NLP resources"
+  category: persian
+  status: study
+  added: 2026-11-11
+
+# ───────── 📚 Awesome lists & learning ─────────
+
+- repo: Shubhamsaboo/awesome-llm-apps
+  why: "Many runnable example LLM/agent apps to learn from"
+  category: learning
+  status: study
+  added: 2026-11-11
+
+- repo: Hannibal046/Awesome-LLM
+  why: "Curated list of LLM papers, models and tools"
+  category: learning
+  status: study
+  added: 2026-11-11
+
+- repo: kyrolabs/awesome-langchain
+  why: "Curated list of LangChain tools and projects"
+  category: learning
+  status: study
+  added: 2026-11-11
+
+- repo: a16z-infra/ai-getting-started
+  why: "Starter stack for AI apps (a16z)"
+  category: learning
+  status: study
+  added: 2026-11-11
+
+- repo: docker/genai-stack
+  why: "Docker stack for GenAI apps (LLM + Neo4j + LangChain)"
+  category: learning
+  status: study
+  added: 2026-11-11
+
+# ───────── 🛠 Apps & other ─────────
+
+- repo: ethanplusai/sellbird
+  why: "Open-source AI sales outreach (finds leads, sends emails)"
+  category: apps
+  status: study
+  added: 2026-11-11
+
+- repo: onehumanbeing/esp32-iphone-agent
+  why: "AI controls a real iPhone via a $7 ESP32"
+  category: apps
+  status: study
+  added: 2026-11-11
+
+- repo: pizza-bot-app/pizza-bot
+  why: "Local-first inbox for long-running AI agents (LangGraph)"
+  category: apps
+  status: study
+  added: 2026-11-11
+
+- repo: nationalsecurityagency/ghidra
+  why: "Reverse-engineering framework (NSA)"
+  category: apps
+  status: study
+  added: 2026-11-11
+
+- repo: miladicode823-coder/VEYRA
+  why: "No description on GitHub yet — add my own note"
+  category: apps
+  status: study
+  added: 2026-11-11
+
+
+# ───────── 🏢 Organizations ─────────
+
+- org: openai
+  why: "OpenAI — SDKs, agents, examples"
+
+- org: jina-ai
+  why: "Jina AI — embeddings, reader, search"
+
+- org: OpenBMB
+  why: "OpenBMB — ChatDev, XAgent, AgentVerse, MiniCPM"

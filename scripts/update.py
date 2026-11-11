@@ -23,6 +23,23 @@ STATUS_ORDER = [
     ("later", "⏳ Maybe later"),
     ("done", "✅ Done"),
 ]
+STALE_DAYS = 180  # no activity for this long -> marked 💤
+CATEGORIES = {  # key used in repos.yml -> heading shown on the page (order = page order)
+    "agents": "🤖 Agent frameworks & multi-agent",
+    "coding": "💻 Coding agents & dev tools",
+    "workflows": "🔁 Durable workflows & orchestration",
+    "rag": "🧠 RAG, memory & chat with your data",
+    "documents": "📄 Documents, OCR & web data",
+    "models": "🖥 Models, local inference & gateways",
+    "sdk": "🔌 MCP & SDKs",
+    "builders": "🧩 Low-code builders & chat UIs",
+    "prompting": "✍️ Prompting & LLM programming",
+    "design": "🎨 Design & creative",
+    "persian": "🇮🇷 Persian NLP",
+    "learning": "📚 Awesome lists & learning",
+    "apps": "🛠 Apps & other",
+}
+STATUS_ICON = {"using": "🛠 using", "study": "📚 study", "later": "⏳ later", "done": "✅ done"}
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 
@@ -61,6 +78,9 @@ def fetch(entry):
     info = api(f"/repos/{name}")
     if info is None:
         return {**entry, "repo": name, "missing": True}
+    moved_from = ""
+    if info.get("full_name") and info["full_name"].lower() != name.lower():
+        moved_from, name = name, info["full_name"]
 
     releases = [r for r in (api(f"/repos/{name}/releases?per_page=5") or []) if not r.get("draft")]
     stable = [r for r in releases if not r.get("prerelease")]
@@ -73,6 +93,7 @@ def fetch(entry):
     return {
         **entry,
         "repo": name,
+        "moved_from": moved_from,
         "missing": False,
         "description": clean(info.get("description")),
         "homepage": info.get("homepage") or "",
@@ -111,6 +132,27 @@ def fetch(entry):
     }
 
 
+def fetch_org(entry):
+    name = str(entry["org"]).strip().strip("/")
+    if "github.com/" in name:
+        name = name.split("github.com/")[1].strip("/")
+    info = api(f"/users/{name}")
+    if info is None:
+        return {**entry, "org": name, "missing": True}
+    kind = "orgs" if info.get("type") == "Organization" else "users"
+    repos = api(f"/{kind}/{name}/repos?sort=pushed&per_page=30") or []
+    repos = [r for r in repos if not r.get("fork") and not r.get("archived")]
+    top = sorted(repos, key=lambda r: -r.get("stargazers_count", 0))[:6]
+    return {
+        **entry, "org": info.get("login", name), "missing": False,
+        "display": info.get("name") or info.get("login", name),
+        "description": clean(info.get("bio") or info.get("description") or ""),
+        "public_repos": info.get("public_repos", 0),
+        "top": [(r["full_name"], r.get("stargazers_count", 0), parse_time(r.get("pushed_at")),
+                 clean(r.get("description"), 90)) for r in top],
+    }
+
+
 # ---------- formatting helpers ----------
 
 def ago(dt, now):
@@ -138,6 +180,23 @@ def day(dt):
 
 def sheet_path(repo):
     return f"repos/{repo.replace('/', '__')}.md"
+
+
+def cat_title(key):
+    key = (key or "").strip()
+    if not key:
+        return "📁 Uncategorized"
+    return CATEGORIES.get(key.lower(), key[:1].upper() + key[1:])
+
+
+def cat_anchor(title):
+    import re
+    return re.sub(r"[^a-z0-9 _-]", "", title.lower()).replace(" ", "-")  # same rule GitHub uses
+
+
+def is_stale(it, now):
+    d = it.get("pushed")
+    return d is not None and (now - d).days > STALE_DAYS
 
 
 def is_new(it, key, now):
@@ -179,6 +238,7 @@ def render_sheet(it, now):
     L += ["## 📝 My notes", "",
           "| | |", "|---|---|",
           f"| **Status** | {it.get('status') or '—'} |",
+          f"| **Category** | {cat_title(it.get('category'))} |",
           f"| **Project** | {it.get('project') or '—'} |",
           f"| **Why I saved it** | {clean(str(it.get('why') or '—'))} |"]
     if it.get("added"):
@@ -190,10 +250,14 @@ def render_sheet(it, now):
         return "\n".join(L)
 
     badges = []
+    if it.get("moved_from"):
+        badges.append(f"↪️ **Moved** — was `{it['moved_from']}`")
+    if is_stale(it, now) and not it["archived"]:
+        badges.append(f"💤 **Quiet** — no activity for {ago(it['pushed'], now).replace(' ago', '')}")
     if it["archived"]:
         badges.append("🗄 **Archived** — no longer maintained")
     if is_new(it, "pushed", now) or is_new(it, "release_date", now):
-        badges.append(f"🆕 **Active this week**")
+        badges.append("🆕 **Active this week**")
     if badges:
         L += [" · ".join(badges), ""]
 
@@ -249,97 +313,157 @@ def render_sheet(it, now):
 
 # ---------- README overview ----------
 
-def render_readme(items, now):
+def render_readme(items, orgs, now):
     L = [
         "# 📡 My Repo Radar",
         "",
-        "Repos I'm following. Edit [`repos.yml`](repos.yml) to add or remove one;",
+        "Repos I'm following, grouped by topic. Edit [`repos.yml`](repos.yml) to add or remove one;",
         "this page refreshes automatically every day. Click a repo name for its full sheet,",
         "or open [`repos.csv`](repos.csv) to see everything in one sortable table.",
         "",
-        f"_Last updated: {now:%Y-%m-%d %H:%M} UTC · {len(items)} repo{'s' if len(items) != 1 else ''}_",
+        f"_Last updated: {now:%Y-%m-%d %H:%M} UTC · {len(items)} repo{'s' if len(items) != 1 else ''}"
+        + (f" · {len(orgs)} organization{'s' if len(orgs) != 1 else ''}" if orgs else "") + "_",
         "",
     ]
 
+    # what's new
     fresh = [it for it in items if not it["missing"]
              and (is_new(it, "release_date", now) or is_new(it, "pushed", now))]
-    fresh.sort(key=lambda it: max(d for d in (it.get("release_date"), it.get("pushed")) if d), reverse=True)
+    releases = [it for it in fresh if is_new(it, "release_date", now)]
+    commits_only = [it for it in fresh if not is_new(it, "release_date", now)]
+    releases.sort(key=lambda it: it["release_date"], reverse=True)
+    commits_only.sort(key=lambda it: it["pushed"], reverse=True)
 
     L += [f"## 🔥 What's new (last {NEW_DAYS} days)", ""]
-    for it in fresh:
-        r = it["repo"]
-        link = f"**[{r}]({sheet_path(r)})**"
-        if is_new(it, "release_date", now):
-            L.append(f"- {link} — new release [{it['release_tag']}]({it['release_url']}) "
-                     f"({ago(it['release_date'], now)})")
-        else:
+    if releases:
+        L += ["**📦 New releases**", ""]
+        for it in releases:
+            r = it["repo"]
+            L.append(f"- **[{r}]({sheet_path(r)})** — [{it['release_tag']}]({it['release_url']}) "
+                     f"({ago(it['release_date'], now)}) · {cat_title(it.get('category'))}")
+        L.append("")
+    if commits_only:
+        L += [f"<details><summary><b>🔨 New commits only</b> ({len(commits_only)} repos)</summary>", ""]
+        for it in commits_only:
+            r = it["repo"]
             msg = it["commits"][0]["msg"] if it["commits"] else ""
-            L.append(f"- {link} — new commits ({ago(it['pushed'], now)})" + (f": _{msg}_" if msg else ""))
+            L.append(f"- **[{r}]({sheet_path(r)})** ({ago(it['pushed'], now)})" + (f": _{msg}_" if msg else ""))
+        L += ["", "</details>", ""]
     if not fresh:
-        L.append("_Nothing new this week._")
+        L += ["_Nothing new this week._", ""]
+
+    # group by category
+    groups = {}
+    for it in items:
+        groups.setdefault(cat_title(it.get("category")), []).append(it)
+    order = [t for t in CATEGORIES.values() if t in groups]
+    order += sorted(t for t in groups if t not in order and t != "📁 Uncategorized")
+    if "📁 Uncategorized" in groups:
+        order.append("📁 Uncategorized")
+
+    L += ["## 🗂 Categories", ""]
+    L += [" · ".join(f"[{t}](#{cat_anchor(t)}) ({len(groups[t])})" for t in order)]
+    if orgs:
+        L[-1] += f" · [🏢 Organizations](#{cat_anchor('🏢 Organizations')}) ({len(orgs)})"
     L.append("")
 
-    known = {s for s, _ in STATUS_ORDER}
-    for status, title in list(STATUS_ORDER) + [("other", "📁 Other")]:
-        group = [it for it in items
-                 if (it.get("status") or "other") == status
-                 or (status == "other" and (it.get("status") or "other") not in known)]
-        if not group:
-            continue
-        group.sort(key=lambda it: it.get("pushed") or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
-        L += [f"## {title} ({len(group)})", "",
-              "| Repo | Why I saved it | Project | ⭐ | Last activity | Latest release |",
+    for title in order:
+        group = sorted(groups[title], key=lambda it: (it["missing"], -(it.get("stars") or 0)))
+        L += [f"## {title}", "",
+              "| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |",
               "|---|---|---|---|---|---|"]
         for it in group:
             r = it["repo"]
             why = clean(str(it.get("why") or ""))
-            project = it.get("project") or ""
+            status = STATUS_ICON.get((it.get("status") or "").lower(), it.get("status") or "")
+            if it.get("project"):
+                why += f" <sub>· {clean(str(it['project']))}</sub>"
             if it["missing"]:
-                L.append(f"| [`{r}`]({sheet_path(r)}) ⚠️ not found | {why} | {project} | | | |")
+                L.append(f"| [`{r}`]({sheet_path(r)}) ⚠️ not found | {why} | {status} | | | |")
                 continue
             flag = " 🆕" if is_new(it, "pushed", now) or is_new(it, "release_date", now) else ""
-            flag += " 🗄" if it["archived"] else ""
-            desc = f"<br><sub>{clean(it['description'], 120)}</sub>" if it["description"] else ""
+            flag += " 🗄" if it["archived"] else (" 💤" if is_stale(it, now) else "")
+            flag += " ↪️" if it.get("moved_from") else ""
+            desc = f"<br><sub>{clean(it['description'], 110)}</sub>" if it["description"] else ""
             rel = (f"[{it['release_tag']}]({it['release_url']}) · {ago(it['release_date'], now)}"
                    if it["release_tag"] else "—")
-            L.append(f"| [**{r}**]({sheet_path(r)}){flag}{desc} | {why} | {project} "
+            L.append(f"| [**{r}**]({sheet_path(r)}){flag}{desc} | {why} | {status} "
                      f"| {fmt_num(it['stars'])} | {ago(it['pushed'], now)} | {rel} |")
         L.append("")
-    L += ["---", "🆕 active in the last 7 days · 🗄 archived · ⚠️ repo not found", ""]
+
+    if orgs:
+        L += ["## 🏢 Organizations", ""]
+        for o in orgs:
+            if o["missing"]:
+                L += [f"### `{o['org']}` ⚠️ not found", ""]
+                continue
+            why = f" — {clean(str(o['why']))}" if o.get("why") else ""
+            L += [f"### [{o['display']}](https://github.com/{o['org']}){why}",
+                  f"<sub>{o['description'] or ''} · {o['public_repos']} public repos</sub>", "",
+                  "| Top repo | ⭐ | Last activity |", "|---|---|---|"]
+            for full, stars, pushed, desc in o["top"]:
+                d = f"<br><sub>{desc}</sub>" if desc else ""
+                L.append(f"| [{full}](https://github.com/{full}){d} | {fmt_num(stars)} | {ago(pushed, now)} |")
+            L.append("")
+
+    L += ["---",
+          f"🆕 active in the last {NEW_DAYS} days · 💤 quiet for over {STALE_DAYS // 30} months · "
+          "🗄 archived · ↪️ moved/renamed · ⚠️ not found", ""]
     return "\n".join(L)
 
 
 # ---------- CSV ----------
 
-def write_csv(items, path):
-    cols = ["repo", "url", "status", "project", "why", "description", "language", "stars", "forks",
-            "open_issues", "license", "topics", "last_activity", "latest_release", "release_date",
-            "created", "archived"]
+def write_csv(items, path, now):
+    cols = ["repo", "url", "category", "status", "project", "why", "description", "language", "stars",
+            "forks", "open_issues", "license", "topics", "last_activity", "latest_release",
+            "release_date", "created", "health"]
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(cols)
-        for it in items:
+        order = list(CATEGORIES.values())
+        rank = lambda t: order.index(t) if t in order else len(order)
+        for it in sorted(items, key=lambda it: (rank(cat_title(it.get("category"))),
+                                                cat_title(it.get("category")), -(it.get("stars") or 0))):
             m = it["missing"]
+            if m:
+                health = "not found"
+            elif it["archived"]:
+                health = "archived"
+            elif is_stale(it, now):
+                health = "quiet"
+            else:
+                health = "active"
             w.writerow([
-                it["repo"], f"https://github.com/{it['repo']}", it.get("status") or "",
+                it["repo"], f"https://github.com/{it['repo']}",
+                cat_title(it.get("category")).split(" ", 1)[-1], it.get("status") or "",
                 it.get("project") or "", it.get("why") or "",
                 "" if m else it["description"], "" if m else it["language"],
                 "" if m else it["stars"], "" if m else it["forks"], "" if m else it["open_issues"],
                 "" if m else it["license"], "" if m else " ".join(it["topics"]),
                 "" if m else day(it["pushed"]), "" if m else (it["release_tag"] or ""),
-                "" if m else day(it["release_date"]), "" if m else day(it["created"]),
-                "NOT FOUND" if m else ("yes" if it["archived"] else "no"),
+                "" if m else day(it["release_date"]), "" if m else day(it["created"]), health,
             ])
 
 
 def main():
     entries = yaml.safe_load((ROOT / "repos.yml").read_text()) or []
-    items = []
+    items, orgs, seen = [], [], set()
     for e in entries:
-        if not isinstance(e, dict) or not e.get("repo"):
+        if not isinstance(e, dict):
+            continue
+        if e.get("org"):
+            print(f"Checking org {e['org']}…", file=sys.stderr)
+            orgs.append(fetch_org(e))
+            continue
+        if not e.get("repo"):
             continue
         print(f"Checking {e['repo']}…", file=sys.stderr)
-        items.append(fetch(e))
+        it = fetch(e)
+        if it["repo"].lower() in seen:  # duplicate (or two names for a moved repo)
+            continue
+        seen.add(it["repo"].lower())
+        items.append(it)
     now = datetime.now(timezone.utc)
 
     SHEETS.mkdir(exist_ok=True)
@@ -348,8 +472,8 @@ def main():
     for it in items:
         (ROOT / sheet_path(it["repo"])).write_text(render_sheet(it, now), encoding="utf-8")
 
-    (ROOT / "README.md").write_text(render_readme(items, now), encoding="utf-8")
-    write_csv(items, ROOT / "repos.csv")
+    (ROOT / "README.md").write_text(render_readme(items, orgs, now), encoding="utf-8")
+    write_csv(items, ROOT / "repos.csv", now)
     print(f"Updated README, repos.csv and {len(items)} repo sheets.", file=sys.stderr)
 
 
