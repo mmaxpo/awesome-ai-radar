@@ -1,17 +1,17 @@
 # firecrawl/firecrawl
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/firecrawl/firecrawl)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/firecrawl/firecrawl)
 
 > Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📄 Documents, OCR & web data |
 | **Project** | — |
-| **Why I saved it** | Turn websites into clean LLM-ready markdown/data |
+| **Why it's worth a look** | Turn websites into clean LLM-ready markdown/data |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 200.7k |
+| ⭐ **Stars** | 200.8k |
 | 🍴 **Forks** | 10.6k |
-| 🐞 **Open issues + PRs** | [786](https://github.com/firecrawl/firecrawl/issues) |
+| 🐞 **Open issues + PRs** | [790](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 73% · Python 12% · Rust 3% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-crawler` `ai-scraping` `ai-search` `crawler` `data-extraction` `html-to-markdown` `llm` `markdown` `scraper` `scraping` `web-crawler` `web-data` `web-data-extraction` `web-scraper` `web-scraping` `web-search` `webscraping` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 186.4 MB |
+| 💾 **Size** | 186.5 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases

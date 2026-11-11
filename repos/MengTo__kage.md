@@ -1,17 +1,17 @@
 # MengTo/kage
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/MengTo/kage)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/MengTo/kage)
 
 > An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🎨 Design & creative |
 | **Project** | — |
-| **Why I saved it** | Test entry |
+| **Why it's worth a look** | Interactive night walk through a Kyoto temple, built in Three.js |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance
@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.8k |
-| 🍴 **Forks** | 311 |
+| 🍴 **Forks** | 312 |
 | 🐞 **Open issues + PRs** | [1](https://github.com/MengTo/kage/issues) |
 | 💻 **Languages** | HTML 100% |
 | 📜 **License** | — |

@@ -1,27 +1,39 @@
-# 📡 My Repo Radar
+# 📡 Awesome AI Radar
 
-Repos I'm following, grouped by topic. Edit [`repos.yml`](repos.yml) to add or remove one;
-this page refreshes automatically every day. Click a repo name for its full sheet,
-or open [`repos.csv`](repos.csv) to see everything in one sortable table.
+> A curated list of the best open-source AI repos — **that updates itself every day.**
 
-_Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
+![repos](https://img.shields.io/badge/repos-91-blue) ![active this week](https://img.shields.io/badge/active_this_week-52-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/my-repo-radar/issues/new?template=suggest-repo.yml)
+
+Most awesome lists go stale: dead projects sit next to great ones and you can't tell them apart.
+This list is checked by a GitHub Action **every day**, so you always see:
+
+- 🔥 **What shipped this week** — new releases and active projects
+- 💤 🗄 **What went quiet** — repos with no activity for months, or archived
+- 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
+- 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
+
+**91 repos · 14 categories · 26 new releases this week** · _last checked 2026-11-11 15:11 UTC_
+
+**Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
 ## 🔥 What's new (last 7 days)
 
+_📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](weekly/)_
+
 **📦 New releases**
 
+- **[lobehub/lobehub](repos/lobehub__lobehub.md)** — [v0.0.0-nightly.pr22826.39064](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22826.39064) (today) · 🧩 Low-code builders & chat UIs
 - **[modelcontextprotocol/servers](repos/modelcontextprotocol__servers.md)** — [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0) (today) · 🔌 MCP & SDKs
 - **[CopilotKit/CopilotKit](repos/CopilotKit__CopilotKit.md)** — [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0) (today) · 🧩 Low-code builders & chat UIs
 - **[openinterpreter/openinterpreter](repos/openinterpreter__openinterpreter.md)** — [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) (today) · 💻 Coding agents & dev tools
 - **[BerriAI/litellm](repos/BerriAI__litellm.md)** — [v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8) (today) · 🖥 Models, local inference & gateways
-- **[lobehub/lobehub](repos/lobehub__lobehub.md)** — [v0.0.0-nightly.pr22794.38995](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22794.38995) (today) · 🧩 Low-code builders & chat UIs
 - **[volcengine/OpenViking](repos/volcengine__OpenViking.md)** — [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) (today) · 🧠 RAG, memory & chat with your data
 - **[pizza-bot-app/pizza-bot](repos/pizza-bot-app__pizza-bot.md)** — [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) (today) · 🛠 Apps & other
 - **[langflow-ai/langflow](repos/langflow-ai__langflow.md)** — [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) (today) · 🧩 Low-code builders & chat UIs
 - **[Comfy-Org/ComfyUI](repos/Comfy-Org__ComfyUI.md)** — [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) (today) · 🖼 Image & video generation
 - **[dbos-inc/dbos-transact-py](repos/dbos-inc__dbos-transact-py.md)** — [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) (today) · 🔁 Durable workflows & orchestration
 - **[stanfordnlp/dspy](repos/stanfordnlp__dspy.md)** — [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) (today) · ✍️ Prompting & LLM programming
-- **[anomalyco/opencode](repos/anomalyco__opencode.md)** — [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) (today) · 💻 Coding agents & dev tools
+- **[anomalyco/opencode](repos/anomalyco__opencode.md)** — [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) (yesterday) · 💻 Coding agents & dev tools
 - **[openai/openai-python](repos/openai__openai-python.md)** — [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0) (yesterday) · 🔌 MCP & SDKs
 - **[OpenHands/OpenHands](repos/OpenHands__OpenHands.md)** — [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0) (yesterday) · 💻 Coding agents & dev tools
 - **[microsoft/playwright-python](repos/microsoft__playwright-python.md)** — [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0) (yesterday) · 📄 Documents, OCR & web data
@@ -29,7 +41,7 @@ _Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
 - **[assafelovic/gpt-researcher](repos/assafelovic__gpt-researcher.md)** — [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) (yesterday) · 🤖 Agent frameworks & multi-agent
 - **[crewAIInc/crewAI](repos/crewAIInc__crewAI.md)** — [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39) (2d ago) · 🤖 Agent frameworks & multi-agent
 - **[onehumanbeing/esp32-iphone-agent](repos/onehumanbeing__esp32-iphone-agent.md)** — [cli-v0.1.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.4) (2d ago) · 🛠 Apps & other
-- **[leonxlnx/taste-skill](repos/leonxlnx__taste-skill.md)** — [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) (3d ago) · 🎨 Design & creative
+- **[leonxlnx/taste-skill](repos/leonxlnx__taste-skill.md)** — [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) (4d ago) · 🎨 Design & creative
 - **[ethanplusai/sellbird](repos/ethanplusai__sellbird.md)** — [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) (4d ago) · 🛠 Apps & other
 - **[Unstructured-IO/unstructured](repos/Unstructured-IO__unstructured.md)** — [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37) (4d ago) · 📄 Documents, OCR & web data
 - **[PrefectHQ/prefect](repos/PrefectHQ__prefect.md)** — [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) (4d ago) · 🔁 Durable workflows & orchestration
@@ -39,32 +51,32 @@ _Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
 
 <details><summary><b>🔨 New commits only</b> (26 repos)</summary>
 
-- **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(qwen4-exp): keep g13/g14 GPUs on the MLX path (#5089)_
-- **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _docs: update translated pages (#5388)_
-- **[seleniumhq/selenium](repos/seleniumhq__selenium.md)** (today): _[java] stop reading and writing Response.status internally (#18171)_
-- **[restatedev/restate](repos/restatedev__restate.md)** (today): _[restatectl] Show how much log lies between a snapshot and the tail_
-- **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
+- **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0.33 in /examples/realtime/twili…_
+- **[restatedev/restate](repos/restatedev__restate.md)** (today): _[VQueues] Delete entries that finish without retention in one storage change_
+- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
+- **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(prefill-helper): retry an offline helper when a long prompt arrives (#5166)_
 - **[cline/cline](repos/cline__cline.md)** (today): _refactor(vscode): remove dead onboarding models state and proto messages (#15638)_
-- **[modelscope/DiffSynth-Studio](repos/modelscope__DiffSynth-Studio.md)** (today): _Update lora layers of minimax-h3-image (#1817)_
+- **[modelscope/DiffSynth-Studio](repos/modelscope__DiffSynth-Studio.md)** (today): _update minimax-h3-image docs (#1822)_
+- **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
+- **[temporalio/temporal](repos/temporalio__temporal.md)** (today): _Fix V2 schedules closing before their final action starts (#13016)_
 - **[JustVugg/colibri](repos/JustVugg__colibri.md)** (today): _Merge pull request #2530 from JustVugg/dev_
-- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _fix: metrics refresh follow-ups for MongoDB, Valkey and DynamoDB legacy runs (#11574)_
+- **[tesseract-ocr/tesseract](repos/tesseract-ocr__tesseract.md)** (today): _wordrec: stop the diacritics reassignment when the budget is used up_
+- **[seleniumhq/selenium](repos/seleniumhq__selenium.md)** (today): _[java] stop reading and writing Response.status internally (#18171)_
 - **[zylon-ai/private-gpt](repos/zylon-ai__private-gpt.md)** (today): _fix(ingest): keep code and snake_case words intact when sanitizing markdown (#2425)_
 - **[Shubhamsaboo/awesome-llm-apps](repos/Shubhamsaboo__awesome-llm-apps.md)** (today): _Merge pull request #1277 from elizabethfuentes12/add-dependency-upgrade-advisor_
-- **[temporalio/temporal](repos/temporalio__temporal.md)** (today): _Fix V2 schedules closing before their final action starts (#13016)_
 - **[kyrolabs/awesome-langchain](repos/kyrolabs__awesome-langchain.md)** (today): _Mark Flowise as archived (end of life August 31, 2026) (#605)_
 - **[Mintplex-Labs/anything-llm](repos/Mintplex-Labs__anything-llm.md)** (today): _fix: keep the Content-Type header set in an agent flow API Call block (#7108)_
 - **[botpress/botpress](repos/botpress__botpress.md)** (today): _chore(chat): stop deploying chat to ECS (#15528)_
-- **[tesseract-ocr/tesseract](repos/tesseract-ocr__tesseract.md)** (today): _Validate the LSTM softmax child runtime type during deserialization (#4670)_
-- **[nationalsecurityagency/ghidra](repos/nationalsecurityagency__ghidra.md)** (today): _Merge branch_
+- **[nationalsecurityagency/ghidra](repos/nationalsecurityagency__ghidra.md)** (yesterday): _Merge branch_
 - **[asgeirtj/system_prompts_leaks](repos/asgeirtj__system_prompts_leaks.md)** (yesterday): _Update claude-code skills_
 - **[The-Vibe-Company/quivr](repos/The-Vibe-Company__quivr.md)** (yesterday): _test(demo): walk every main journey of the demo with TesterArmy e2e (#3982)_
 - **[msitarzewski/agency-agents](repos/msitarzewski__agency-agents.md)** (2d ago): _Merge pull request #1253 from msitarzewski/integ/content-batch8_
 - **[codecrafters-io/build-your-own-x](repos/codecrafters-io__build-your-own-x.md)** (2d ago): _Merge pull request #2089 from thejesh23/add-vector-db-from-scratch_
 - **[JoshuaC215/agent-service-toolkit](repos/JoshuaC215__agent-service-toolkit.md)** (3d ago): _chore(deps): bump setuptools from 84.0.0 to 84.1.0 (#407)_
-- **[the-open-agent/openagent](repos/the-open-agent__openagent.md)** (4d ago): _fix: review chat messages with the agent's last reply to stop blocking classroom answers_
+- **[the-open-agent/openagent](repos/the-open-agent__openagent.md)** (5d ago): _fix: review chat messages with the agent's last reply to stop blocking classroom answers_
 - **[OpenBMB/ChatDev](repos/OpenBMB__ChatDev.md)** (5d ago): _Merge pull request #701 from NA-Wen/codex/fix-websocket-owner-loop_
 - **[abi/screenshot-to-code](repos/abi__screenshot-to-code.md)** (5d ago): _Use GPT-6.1 Sol low for the edit variant_
-- **[modelcontextprotocol/python-sdk](repos/modelcontextprotocol__python-sdk.md)** (5d ago): _Generate single-line `model_config` in surface types (#3820)_
+- **[modelcontextprotocol/python-sdk](repos/modelcontextprotocol__python-sdk.md)** (6d ago): _Generate single-line `model_config` in surface types (#3820)_
 
 </details>
 
@@ -74,164 +86,164 @@ _Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
 
 ## 🤖 Agent frameworks & multi-agent
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**msitarzewski/agency-agents**](repos/msitarzewski__agency-agents.md) 🆕<br><sub>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy inject…</sub> | Library of ready-made specialist agent personas | 📚 study | 167.7k | 2d ago | — |
-| [**FoundationAgents/MetaGPT**](repos/FoundationAgents__MetaGPT.md) 💤<br><sub>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</sub> | Multi-agent 'software company' (PM, architect, engineer) | 📚 study | 71.2k | 9mo ago | [v0.8.2](https://github.com/FoundationAgents/MetaGPT/releases/tag/v0.8.2) · 1y ago |
-| [**microsoft/autogen**](repos/microsoft__autogen.md)<br><sub>A programming framework for agentic AI</sub> | Microsoft's multi-agent conversation framework | 📚 study | 61.8k | 13d ago | [python-v0.7.5](https://github.com/microsoft/autogen/releases/tag/python-v0.7.5) · 1y ago |
-| [**crewAIInc/crewAI**](repos/crewAIInc__crewAI.md) 🆕<br><sub>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewA…</sub> | Role-based agent teams (crews) working on tasks | 📚 study | 60.8k | today | [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39) · 2d ago |
-| [**agno-agi/agno**](repos/agno-agi__agno.md) 🆕<br><sub>The self-driving agent platform</sub> | Fast framework for agents with memory, tools and teams | 📚 study | 43.1k | today | [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12) · 12d ago |
-| [**OpenBMB/ChatDev**](repos/OpenBMB__ChatDev.md) 🆕<br><sub>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</sub> | Virtual software company of chatting agents | 📚 study | 34.7k | 5d ago | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) · 7mo ago |
-| [**assafelovic/gpt-researcher**](repos/assafelovic__gpt-researcher.md) 🆕<br><sub>An autonomous agent that conducts deep research on any data using any LLM providers</sub> | Autonomous agent that researches and writes reports | 📚 study | 30.6k | yesterday | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) · yesterday |
-| [**openai/openai-agents-python**](repos/openai__openai-agents-python.md) 🆕<br><sub>A lightweight, powerful framework for multi-agent workflows</sub> | OpenAI's official lightweight multi-agent SDK | 📚 study | 30.6k | today | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) · 27d ago |
-| [**letta-ai/letta**](repos/letta-ai__letta.md)<br><sub>Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.</sub> | Stateful agents with long-term memory (ex-MemGPT) | 📚 study | 25.4k | 23d ago | [0.16.8](https://github.com/letta-ai/letta/releases/tag/0.16.8) · 6mo ago |
-| [**MervinPraison/PraisonAI**](repos/MervinPraison__PraisonAI.md) 🆕<br><sub>Private AI agents for highly regulated teams, and for anyone who wants AI on their own computer. Open-source P…</sub> | Low-code multi-agent framework | 📚 study | 9.3k | yesterday | [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) · 5d ago |
-| [**OpenBMB/XAgent**](repos/OpenBMB__XAgent.md)<br><sub>An Autonomous LLM Agent for Complex Task Solving</sub> | Autonomous agent for complex task solving | 📚 study | 8.5k | 3mo ago | [v1.0.0](https://github.com/OpenBMB/XAgent/releases/tag/v1.0.0) · 2y ago |
-| [**the-open-agent/openagent**](repos/the-open-agent__openagent.md) 🆕<br><sub>⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-…</sub> | Open agent platform | 📚 study | 5.7k | 4d ago | [v2.95.1](https://github.com/the-open-agent/openagent/releases/tag/v2.95.1) · 1mo ago |
-| [**OpenBMB/AgentVerse**](repos/OpenBMB__AgentVerse.md) 💤<br><sub>🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, …</sub> | Framework for multi-agent collaboration and simulation | 📚 study | 5.2k | 2y ago | [v0.1.8.1](https://github.com/OpenBMB/AgentVerse/releases/tag/v0.1.8.1) · 3y ago |
-| [**VRSEN/agency-swarm**](repos/VRSEN__agency-swarm.md)<br><sub>Reliable Multi-Agent Orchestration Framework</sub> | Build an 'agency' of agents with roles, on OpenAI | 📚 study | 4.6k | 9d ago | [v1.11.0](https://github.com/VRSEN/agency-swarm/releases/tag/v1.11.0) · 3mo ago |
-| [**JoshuaC215/agent-service-toolkit**](repos/JoshuaC215__agent-service-toolkit.md) 🆕<br><sub>Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit</sub> | Full toolkit: LangGraph agent + FastAPI service + Streamlit UI | 📚 study | 4.6k | 3d ago | — |
-| [**wassim249/fastapi-langgraph-agent-production-ready-template**](repos/wassim249__fastapi-langgraph-agent-production-ready-template.md)<br><sub>A production-ready FastAPI template for building AI agent applications with LangGraph integration. This templa…</sub> | Production-ready FastAPI + LangGraph agent template | 📚 study | 2.7k | 25d ago | — |
-| [**BCG-X-Official/agentkit**](repos/BCG-X-Official__agentkit.md) 🗄<br><sub>Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain</sub> | Starter kit to build agent apps (Next.js + FastAPI + LangChain) | 📚 study | 1.9k | 7mo ago | — |
-| [**Shaveen12/HumanInTheLoop**](repos/Shaveen12__HumanInTheLoop.md)<br><sub>A human in the loop langGraph Chatbot with a fastAPI backend</sub> | Human-in-the-loop LangGraph chatbot with FastAPI backend | 📚 study | 9 | 2mo ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**msitarzewski/agency-agents**](repos/msitarzewski__agency-agents.md) 🆕<br><sub>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy inject…</sub> | Library of ready-made specialist agent personas | 167.7k | 2d ago | — |
+| [**FoundationAgents/MetaGPT**](repos/FoundationAgents__MetaGPT.md) 💤<br><sub>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</sub> | Multi-agent 'software company' (PM, architect, engineer) | 71.2k | 9mo ago | [v0.8.2](https://github.com/FoundationAgents/MetaGPT/releases/tag/v0.8.2) · 1y ago |
+| [**microsoft/autogen**](repos/microsoft__autogen.md)<br><sub>A programming framework for agentic AI</sub> | Microsoft's multi-agent conversation framework | 61.8k | 14d ago | [python-v0.7.5](https://github.com/microsoft/autogen/releases/tag/python-v0.7.5) · 1y ago |
+| [**crewAIInc/crewAI**](repos/crewAIInc__crewAI.md) 🆕<br><sub>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewA…</sub> | Role-based agent teams (crews) working on tasks | 60.8k | today | [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39) · 2d ago |
+| [**agno-agi/agno**](repos/agno-agi__agno.md) 🆕<br><sub>The self-driving agent platform</sub> | Fast framework for agents with memory, tools and teams | 43.1k | today | [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12) · 13d ago |
+| [**OpenBMB/ChatDev**](repos/OpenBMB__ChatDev.md) 🆕<br><sub>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</sub> | Virtual software company of chatting agents | 34.7k | 5d ago | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) · 7mo ago |
+| [**assafelovic/gpt-researcher**](repos/assafelovic__gpt-researcher.md) 🆕<br><sub>An autonomous agent that conducts deep research on any data using any LLM providers</sub> | Autonomous agent that researches and writes reports | 30.6k | yesterday | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) · yesterday |
+| [**openai/openai-agents-python**](repos/openai__openai-agents-python.md) 🆕<br><sub>A lightweight, powerful framework for multi-agent workflows</sub> | OpenAI's official lightweight multi-agent SDK | 30.6k | today | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) · 27d ago |
+| [**letta-ai/letta**](repos/letta-ai__letta.md)<br><sub>Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.</sub> | Stateful agents with long-term memory (ex-MemGPT) | 25.4k | 23d ago | [0.16.8](https://github.com/letta-ai/letta/releases/tag/0.16.8) · 6mo ago |
+| [**MervinPraison/PraisonAI**](repos/MervinPraison__PraisonAI.md) 🆕<br><sub>Private AI agents for highly regulated teams, and for anyone who wants AI on their own computer. Open-source P…</sub> | Low-code multi-agent framework | 9.3k | yesterday | [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) · 5d ago |
+| [**OpenBMB/XAgent**](repos/OpenBMB__XAgent.md)<br><sub>An Autonomous LLM Agent for Complex Task Solving</sub> | Autonomous agent for complex task solving | 8.5k | 3mo ago | [v1.0.0](https://github.com/OpenBMB/XAgent/releases/tag/v1.0.0) · 2y ago |
+| [**the-open-agent/openagent**](repos/the-open-agent__openagent.md) 🆕<br><sub>⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-…</sub> | Open agent platform | 5.7k | 5d ago | [v2.95.1](https://github.com/the-open-agent/openagent/releases/tag/v2.95.1) · 1mo ago |
+| [**OpenBMB/AgentVerse**](repos/OpenBMB__AgentVerse.md) 💤<br><sub>🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, …</sub> | Framework for multi-agent collaboration and simulation | 5.2k | 2y ago | [v0.1.8.1](https://github.com/OpenBMB/AgentVerse/releases/tag/v0.1.8.1) · 3y ago |
+| [**VRSEN/agency-swarm**](repos/VRSEN__agency-swarm.md)<br><sub>Reliable Multi-Agent Orchestration Framework</sub> | Build an 'agency' of agents with roles, on OpenAI | 4.6k | 9d ago | [v1.11.0](https://github.com/VRSEN/agency-swarm/releases/tag/v1.11.0) · 3mo ago |
+| [**JoshuaC215/agent-service-toolkit**](repos/JoshuaC215__agent-service-toolkit.md) 🆕<br><sub>Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit</sub> | Full toolkit: LangGraph agent + FastAPI service + Streamlit UI | 4.6k | 3d ago | — |
+| [**wassim249/fastapi-langgraph-agent-production-ready-template**](repos/wassim249__fastapi-langgraph-agent-production-ready-template.md)<br><sub>A production-ready FastAPI template for building AI agent applications with LangGraph integration. This templa…</sub> | Production-ready FastAPI + LangGraph agent template | 2.7k | 25d ago | — |
+| [**BCG-X-Official/agentkit**](repos/BCG-X-Official__agentkit.md) 🗄<br><sub>Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain</sub> | Starter kit to build agent apps (Next.js + FastAPI + LangChain) | 1.9k | 7mo ago | — |
+| [**Shaveen12/HumanInTheLoop**](repos/Shaveen12__HumanInTheLoop.md)<br><sub>A human in the loop langGraph Chatbot with a fastAPI backend</sub> | Human-in-the-loop LangGraph chatbot with FastAPI backend | 9 | 2mo ago | — |
 
 ## 💻 Coding agents & dev tools
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**anomalyco/opencode**](repos/anomalyco__opencode.md) 🆕<br><sub>The open source coding agent.</sub> | Open-source AI coding agent | 📚 study | 226.0k | today | [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) · today |
-| [**OpenHands/OpenHands**](repos/OpenHands__OpenHands.md) 🆕<br><sub>🙌 OpenHands: AI-Driven Development</sub> | Open-source AI software-development agent | 📚 study | 93.2k | today | [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0) · yesterday |
-| [**abi/screenshot-to-code**](repos/abi__screenshot-to-code.md) 🆕<br><sub>Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</sub> | Turn screenshots/designs into HTML/React code | 📚 study | 81.2k | 5d ago | — |
-| [**cline/cline**](repos/cline__cline.md) 🆕<br><sub>Autonomous coding agent as an SDK, IDE extension, or CLI assistant.</sub> | Autonomous coding agent inside VS Code | 📚 study | 71.5k | today | [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26) · 16d ago |
-| [**openinterpreter/openinterpreter**](repos/openinterpreter__openinterpreter.md) 🆕<br><sub>A coding agent for open models like Kimi K3 and GLM 5.3</sub> | LLM that runs code on your computer to do tasks | 📚 study | 68.9k | today | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) · today |
-| [**Doriandarko/claude-engineer**](repos/Doriandarko__claude-engineer.md) 💤<br><sub>Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-…</sub> | CLI where Claude writes code and creates its own tools | 📚 study | 11.2k | 1y ago | — |
-| [**AI-Citizen/SolidGPT**](repos/AI-Citizen__SolidGPT.md) 💤<br><sub>Developer AI Persona Search Agent</sub> | Chat with your codebase / dev assistant | 📚 study | 1.8k | 1y ago | [v0.3.0](https://github.com/AI-Citizen/SolidGPT/releases/tag/v0.3.0) · 2y ago |
-| [**pnkvalavala/repochat**](repos/pnkvalavala__repochat.md) 💤<br><sub>Chatbot assistant enabling GitHub repository interaction using LLMs with Retrieval Augmented Generation</sub> | Chat with a GitHub repo using RAG | 📚 study | 318 | 2y ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**anomalyco/opencode**](repos/anomalyco__opencode.md) 🆕<br><sub>The open source coding agent.</sub> | Open-source AI coding agent | 226.1k | today | [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) · yesterday |
+| [**OpenHands/OpenHands**](repos/OpenHands__OpenHands.md) 🆕<br><sub>🙌 OpenHands: AI-Driven Development</sub> | Open-source AI software-development agent | 93.2k | today | [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0) · yesterday |
+| [**abi/screenshot-to-code**](repos/abi__screenshot-to-code.md) 🆕<br><sub>Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</sub> | Turn screenshots/designs into HTML/React code | 81.2k | 5d ago | — |
+| [**cline/cline**](repos/cline__cline.md) 🆕<br><sub>Autonomous coding agent as an SDK, IDE extension, or CLI assistant.</sub> | Autonomous coding agent inside VS Code | 71.5k | today | [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26) · 16d ago |
+| [**openinterpreter/openinterpreter**](repos/openinterpreter__openinterpreter.md) 🆕<br><sub>A coding agent for open models like Kimi K3 and GLM 5.3</sub> | LLM that runs code on your computer to do tasks | 68.9k | today | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) · today |
+| [**Doriandarko/claude-engineer**](repos/Doriandarko__claude-engineer.md) 💤<br><sub>Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-…</sub> | CLI where Claude writes code and creates its own tools | 11.2k | 1y ago | — |
+| [**AI-Citizen/SolidGPT**](repos/AI-Citizen__SolidGPT.md) 💤<br><sub>Developer AI Persona Search Agent</sub> | Chat with your codebase / dev assistant | 1.8k | 1y ago | [v0.3.0](https://github.com/AI-Citizen/SolidGPT/releases/tag/v0.3.0) · 2y ago |
+| [**pnkvalavala/repochat**](repos/pnkvalavala__repochat.md) 💤<br><sub>Chatbot assistant enabling GitHub repository interaction using LLMs with Retrieval Augmented Generation</sub> | Chat with a GitHub repo using RAG | 318 | 2y ago | — |
 
 ## 🔁 Durable workflows & orchestration
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**temporalio/temporal**](repos/temporalio__temporal.md) 🆕<br><sub>Temporal service</sub> | Durable workflow execution engine (Temporal server) | 📚 study | 24.3k | today | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) · 8d ago |
-| [**PrefectHQ/prefect**](repos/PrefectHQ__prefect.md) 🆕<br><sub>Prefect is a workflow orchestration framework for building resilient data pipelines in Python.</sub> | Python workflow orchestration with scheduling and retries | 📚 study | 24.1k | today | [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) · 4d ago |
-| [**Netflix/metaflow**](repos/Netflix__metaflow.md) 🆕<br><sub>Build, Manage and Deploy AI/ML Systems</sub> | Netflix's framework for ML/AI pipelines from laptop to prod | 📚 study | 10.3k | 2d ago | [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41) · 4d ago |
-| [**restatedev/restate**](repos/restatedev__restate.md) 🆕<br><sub>Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the ne…</sub> | Durable execution platform for resilient apps/workflows | 📚 study | 4.7k | today | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) · 8d ago |
-| [**dbos-inc/dbos-transact-py**](repos/dbos-inc__dbos-transact-py.md) 🆕<br><sub>Database-Backed Durable Python Workflows</sub> | Durable Python workflows backed by Postgres | 📚 study | 1.7k | today | [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) · today |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**temporalio/temporal**](repos/temporalio__temporal.md) 🆕<br><sub>Temporal service</sub> | Durable workflow execution engine (Temporal server) | 24.3k | today | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) · 8d ago |
+| [**PrefectHQ/prefect**](repos/PrefectHQ__prefect.md) 🆕<br><sub>Prefect is a workflow orchestration framework for building resilient data pipelines in Python.</sub> | Python workflow orchestration with scheduling and retries | 24.1k | today | [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) · 4d ago |
+| [**Netflix/metaflow**](repos/Netflix__metaflow.md) 🆕<br><sub>Build, Manage and Deploy AI/ML Systems</sub> | Netflix's framework for ML/AI pipelines from laptop to prod | 10.3k | 2d ago | [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41) · 4d ago |
+| [**restatedev/restate**](repos/restatedev__restate.md) 🆕<br><sub>Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the ne…</sub> | Durable execution platform for resilient apps/workflows | 4.7k | today | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) · 9d ago |
+| [**dbos-inc/dbos-transact-py**](repos/dbos-inc__dbos-transact-py.md) 🆕<br><sub>Database-Backed Durable Python Workflows</sub> | Durable Python workflows backed by Postgres | 1.7k | today | [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) · today |
 
 ## 🧠 RAG, memory & chat with your data
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**Mintplex-Labs/anything-llm**](repos/Mintplex-Labs__anything-llm.md) 🆕<br><sub>Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent …</sub> | All-in-one desktop/Docker app to chat with docs, agents included | 📚 study | 68.2k | today | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) · 15d ago |
-| [**zylon-ai/private-gpt**](repos/zylon-ai__private-gpt.md) 🆕<br><sub>Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more…</sub> | Private, local Q&A over your documents | 📚 study | 57.6k | today | [v1.0.1](https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1) · 4mo ago |
-| [**volcengine/OpenViking**](repos/volcengine__OpenViking.md) 🆕<br><sub>Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</sub> | Context database for agents: memory + RAG + skills | 📚 study | 42.0k | today | [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) · today |
-| [**The-Vibe-Company/quivr**](repos/The-Vibe-Company__quivr.md) 🆕<br><sub>An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hyb…</sub> | Opinionated RAG 'second brain' building block | 📚 study | 39.6k | yesterday | [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2) · 11d ago |
-| [**llmware-ai/llmware**](repos/llmware-ai__llmware.md)<br><sub>Unified framework for building enterprise RAG pipelines with small, specialized models</sub> | Enterprise RAG pipelines with small specialized models | 📚 study | 14.8k | 1mo ago | [v0.4.7](https://github.com/llmware-ai/llmware/releases/tag/v0.4.7) · 1mo ago |
-| [**guangzhengli/ChatFiles**](repos/guangzhengli__ChatFiles.md) 💤<br><sub>Document Chatbot — multiple files. Powered by GPT / Embedding.</sub> | Upload files and chat with them | 📚 study | 3.3k | 1y ago | [v0.3.3](https://github.com/guangzhengli/ChatFiles/releases/tag/v0.3.3) · 3y ago |
-| [**tensorchord/pgvecto.rs**](repos/tensorchord__pgvecto.rs.md) 💤<br><sub>Scalable, Low-latency and Hybrid-enabled Vector Search in Postgres. Revolutionize Vector Search, not Database.</sub> | Vector search extension for Postgres | 📚 study | 2.2k | 1y ago | [v0.4.0](https://github.com/tensorchord/pgvecto.rs/releases/tag/v0.4.0) · 1y ago |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**Mintplex-Labs/anything-llm**](repos/Mintplex-Labs__anything-llm.md) 🆕<br><sub>Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent …</sub> | All-in-one desktop/Docker app to chat with docs, agents included | 68.2k | today | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) · 15d ago |
+| [**zylon-ai/private-gpt**](repos/zylon-ai__private-gpt.md) 🆕<br><sub>Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more…</sub> | Private, local Q&A over your documents | 57.6k | today | [v1.0.1](https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1) · 4mo ago |
+| [**volcengine/OpenViking**](repos/volcengine__OpenViking.md) 🆕<br><sub>Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</sub> | Context database for agents: memory + RAG + skills | 42.0k | today | [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) · today |
+| [**The-Vibe-Company/quivr**](repos/The-Vibe-Company__quivr.md) 🆕<br><sub>An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hyb…</sub> | Opinionated RAG 'second brain' building block | 39.6k | yesterday | [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2) · 12d ago |
+| [**llmware-ai/llmware**](repos/llmware-ai__llmware.md)<br><sub>Unified framework for building enterprise RAG pipelines with small, specialized models</sub> | Enterprise RAG pipelines with small specialized models | 14.8k | 1mo ago | [v0.4.7](https://github.com/llmware-ai/llmware/releases/tag/v0.4.7) · 1mo ago |
+| [**guangzhengli/ChatFiles**](repos/guangzhengli__ChatFiles.md) 💤<br><sub>Document Chatbot — multiple files. Powered by GPT / Embedding.</sub> | Upload files and chat with them | 3.3k | 1y ago | [v0.3.3](https://github.com/guangzhengli/ChatFiles/releases/tag/v0.3.3) · 3y ago |
+| [**tensorchord/pgvecto.rs**](repos/tensorchord__pgvecto.rs.md) 💤<br><sub>Scalable, Low-latency and Hybrid-enabled Vector Search in Postgres. Revolutionize Vector Search, not Database.</sub> | Vector search extension for Postgres | 2.2k | 1y ago | [v0.4.0](https://github.com/tensorchord/pgvecto.rs/releases/tag/v0.4.0) · 1y ago |
 
 ## 📄 Documents, OCR & web data
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**firecrawl/firecrawl**](repos/firecrawl__firecrawl.md) 🆕<br><sub>Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥</sub> | Turn websites into clean LLM-ready markdown/data | 📚 study | 200.7k | today | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) · 4mo ago |
-| [**tesseract-ocr/tesseract**](repos/tesseract-ocr__tesseract.md) 🆕<br><sub>Tesseract Open Source OCR Engine (main repository)</sub> | Classic open-source OCR engine | 📚 study | 77.5k | today | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) · 13d ago |
-| [**seleniumhq/selenium**](repos/seleniumhq__selenium.md) 🆕<br><sub>A browser automation framework and ecosystem.</sub> | Classic browser automation framework | 📚 study | 34.6k | today | [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) · 12d ago |
-| [**Unstructured-IO/unstructured**](repos/Unstructured-IO__unstructured.md) 🆕<br><sub>Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming c…</sub> | Parse PDFs, Word, HTML etc. into clean chunks for LLMs | 📚 study | 15.7k | 4d ago | [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37) · 4d ago |
-| [**microsoft/playwright-python**](repos/microsoft__playwright-python.md) 🆕<br><sub>Python version of the Playwright testing and automation library.</sub> | Browser automation for Python (scraping, testing, agents) | 📚 study | 15.1k | today | [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0) · yesterday |
-| [**enoch3712/ExtractThinker**](repos/enoch3712__ExtractThinker.md)<br><sub>ExtractThinker is a Document Intelligence library for LLMs, offering ORM-style interaction for flexible and po…</sub> | Extract structured data from documents with LLMs (ORM-style) | 📚 study | 1.6k | 1mo ago | [v0.1.14](https://github.com/enoch3712/ExtractThinker/releases/tag/v0.1.14) · 1y ago |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**firecrawl/firecrawl**](repos/firecrawl__firecrawl.md) 🆕<br><sub>Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥</sub> | Turn websites into clean LLM-ready markdown/data | 200.8k | today | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) · 4mo ago |
+| [**tesseract-ocr/tesseract**](repos/tesseract-ocr__tesseract.md) 🆕<br><sub>Tesseract Open Source OCR Engine (main repository)</sub> | Classic open-source OCR engine | 77.5k | today | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) · 14d ago |
+| [**seleniumhq/selenium**](repos/seleniumhq__selenium.md) 🆕<br><sub>A browser automation framework and ecosystem.</sub> | Classic browser automation framework | 34.6k | today | [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) · 13d ago |
+| [**Unstructured-IO/unstructured**](repos/Unstructured-IO__unstructured.md) 🆕<br><sub>Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming c…</sub> | Parse PDFs, Word, HTML etc. into clean chunks for LLMs | 15.7k | 4d ago | [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37) · 4d ago |
+| [**microsoft/playwright-python**](repos/microsoft__playwright-python.md) 🆕<br><sub>Python version of the Playwright testing and automation library.</sub> | Browser automation for Python (scraping, testing, agents) | 15.1k | today | [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0) · yesterday |
+| [**enoch3712/ExtractThinker**](repos/enoch3712__ExtractThinker.md)<br><sub>ExtractThinker is a Document Intelligence library for LLMs, offering ORM-style interaction for flexible and po…</sub> | Extract structured data from documents with LLMs (ORM-style) | 1.6k | 1mo ago | [v0.1.14](https://github.com/enoch3712/ExtractThinker/releases/tag/v0.1.14) · 1y ago |
 
 ## 🖥 Models, local inference & gateways
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**ollama/ollama**](repos/ollama__ollama.md) 🆕<br><sub>Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</sub> | Run open models locally with one command | 📚 study | 186.6k | today | [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) · yesterday |
-| [**BerriAI/litellm**](repos/BerriAI__litellm.md) 🆕<br><sub>The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format wit…</sub> | One API / proxy for 100+ LLM providers | 📚 study | 63.1k | today | [v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8) · today |
-| [**JustVugg/colibri**](repos/JustVugg__colibri.md) 🆕<br><sub>A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in R…</sub> | Run huge MoE models with GPU/RAM/NVMe expert offloading | 📚 study | 49.9k | today | [v2.1.0](https://github.com/JustVugg/colibri/releases/tag/v2.1.0) · 10d ago |
-| [**jundot/omlx**](repos/jundot__omlx.md) 🆕<br><sub>LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu ba…</sub> | Local LLM server for Apple Silicon (batching + SSD cache) | 📚 study | 23.5k | today | [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) · 7d ago |
-| [**QwenLM/Qwen**](repos/QwenLM__Qwen.md) 💤<br><sub>The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.</sub> | Alibaba's Qwen open models | 📚 study | 22.0k | 8mo ago | — |
-| [**mistralai/mistral-inference**](repos/mistralai__mistral-inference.md) 🗄<br><sub>Official inference library for Mistral models</sub> | Official code to run Mistral models | 📚 study | 10.8k | 4mo ago | [v1.6.0](https://github.com/mistralai/mistral-inference/releases/tag/v1.6.0) · 1y ago |
-| [**Dicklesworthstone/swiss_army_llama**](repos/Dicklesworthstone__swiss_army_llama.md)<br><sub>A FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with…</sub> | Local FastAPI service for embeddings, search and completions | 📚 study | 1.1k | 9d ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**ollama/ollama**](repos/ollama__ollama.md) 🆕<br><sub>Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</sub> | Run open models locally with one command | 186.7k | today | [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) · yesterday |
+| [**BerriAI/litellm**](repos/BerriAI__litellm.md) 🆕<br><sub>The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format wit…</sub> | One API / proxy for 100+ LLM providers | 63.1k | today | [v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8) · today |
+| [**JustVugg/colibri**](repos/JustVugg__colibri.md) 🆕<br><sub>A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in R…</sub> | Run huge MoE models with GPU/RAM/NVMe expert offloading | 49.9k | today | [v2.1.0](https://github.com/JustVugg/colibri/releases/tag/v2.1.0) · 11d ago |
+| [**jundot/omlx**](repos/jundot__omlx.md) 🆕<br><sub>LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu ba…</sub> | Local LLM server for Apple Silicon (batching + SSD cache) | 23.5k | today | [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) · 7d ago |
+| [**QwenLM/Qwen**](repos/QwenLM__Qwen.md) 💤<br><sub>The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.</sub> | Alibaba's Qwen open models | 22.0k | 8mo ago | — |
+| [**mistralai/mistral-inference**](repos/mistralai__mistral-inference.md) 🗄<br><sub>Official inference library for Mistral models</sub> | Official code to run Mistral models | 10.8k | 4mo ago | [v1.6.0](https://github.com/mistralai/mistral-inference/releases/tag/v1.6.0) · 1y ago |
+| [**Dicklesworthstone/swiss_army_llama**](repos/Dicklesworthstone__swiss_army_llama.md)<br><sub>A FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with…</sub> | Local FastAPI service for embeddings, search and completions | 1.1k | 9d ago | — |
 
 ## 🔌 MCP & SDKs
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**modelcontextprotocol/servers**](repos/modelcontextprotocol__servers.md) 🆕<br><sub>Model Context Protocol Reference Servers</sub> | Reference MCP servers (filesystem, GitHub, etc.) | 📚 study | 91.9k | today | [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0) · today |
-| [**openai/openai-python**](repos/openai__openai-python.md) 🆕<br><sub>The official Python library for the OpenAI API</sub> | Official OpenAI Python library | 📚 study | 32.1k | today | [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0) · yesterday |
-| [**modelcontextprotocol/python-sdk**](repos/modelcontextprotocol__python-sdk.md) 🆕<br><sub>The official Python SDK for Model Context Protocol servers and clients</sub> | Official Python SDK to build MCP servers/clients | 📚 study | 24.8k | 5d ago | [v2.3.0](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0) · 1mo ago |
-| [**openai/openai-realtime-console**](repos/openai__openai-realtime-console.md) 💤<br><sub>React app for inspecting, building and debugging with the Realtime API</sub> | Demo app for OpenAI's realtime voice API | 📚 study | 3.6k | 1y ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**modelcontextprotocol/servers**](repos/modelcontextprotocol__servers.md) 🆕<br><sub>Model Context Protocol Reference Servers</sub> | Reference MCP servers (filesystem, GitHub, etc.) | 91.9k | today | [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0) · today |
+| [**openai/openai-python**](repos/openai__openai-python.md) 🆕<br><sub>The official Python library for the OpenAI API</sub> | Official OpenAI Python library | 32.1k | today | [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0) · yesterday |
+| [**modelcontextprotocol/python-sdk**](repos/modelcontextprotocol__python-sdk.md) 🆕<br><sub>The official Python SDK for Model Context Protocol servers and clients</sub> | Official Python SDK to build MCP servers/clients | 24.8k | 6d ago | [v2.3.0](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0) · 1mo ago |
+| [**openai/openai-realtime-console**](repos/openai__openai-realtime-console.md) 💤<br><sub>React app for inspecting, building and debugging with the Realtime API</sub> | Demo app for OpenAI's realtime voice API | 3.6k | 1y ago | — |
 
 ## 🧩 Low-code builders & chat UIs
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**langflow-ai/langflow**](repos/langflow-ai__langflow.md) 🆕<br><sub>Langflow is a powerful tool for building and deploying AI-powered agents and workflows.</sub> | Visual drag-and-drop builder for agents and RAG | 📚 study | 156.5k | today | [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) · today |
-| [**lobehub/lobehub**](repos/lobehub__lobehub.md) 🆕<br><sub>🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work …</sub> | Polished open-source chat UI for many models | 📚 study | 85.0k | today | [v0.0.0-nightly.pr22794.38995](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22794.38995) · today |
-| [**FlowiseAI/Flowise**](repos/FlowiseAI__Flowise.md) 🗄<br><sub>Build AI Agents, Visually</sub> | Visual builder for LLM flows and agents | 📚 study | 55.6k | 2mo ago | [flowise@3.1.4](https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4) · 3mo ago |
-| [**CopilotKit/CopilotKit**](repos/CopilotKit__CopilotKit.md) 🆕<br><sub>The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI P…</sub> | Add in-app AI copilots/agents to React apps | 📚 study | 38.6k | today | [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0) · today |
-| [**vercel/chatbot**](repos/vercel__chatbot.md)<br><sub>A full-featured, hackable Next.js AI chatbot built by Vercel</sub> | Vercel's Next.js AI chatbot template | 📚 study | 21.0k | 7d ago | — |
-| [**botpress/botpress**](repos/botpress__botpress.md) 🆕<br><sub>The open-source hub to build & deploy GPT/LLM Agents ⚡️</sub> | Platform to build and deploy chatbots/agents | 📚 study | 15.0k | today | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) · 3y ago |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**langflow-ai/langflow**](repos/langflow-ai__langflow.md) 🆕<br><sub>Langflow is a powerful tool for building and deploying AI-powered agents and workflows.</sub> | Visual drag-and-drop builder for agents and RAG | 156.5k | today | [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) · today |
+| [**lobehub/lobehub**](repos/lobehub__lobehub.md) 🆕<br><sub>🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work …</sub> | Polished open-source chat UI for many models | 85.0k | today | [v0.0.0-nightly.pr22826.39064](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22826.39064) · today |
+| [**FlowiseAI/Flowise**](repos/FlowiseAI__Flowise.md) 🗄<br><sub>Build AI Agents, Visually</sub> | Visual builder for LLM flows and agents | 55.6k | 3mo ago | [flowise@3.1.4](https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4) · 3mo ago |
+| [**CopilotKit/CopilotKit**](repos/CopilotKit__CopilotKit.md) 🆕<br><sub>The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI P…</sub> | Add in-app AI copilots/agents to React apps | 38.6k | today | [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0) · today |
+| [**vercel/chatbot**](repos/vercel__chatbot.md)<br><sub>A full-featured, hackable Next.js AI chatbot built by Vercel</sub> | Vercel's Next.js AI chatbot template | 21.0k | 7d ago | — |
+| [**botpress/botpress**](repos/botpress__botpress.md) 🆕<br><sub>The open-source hub to build & deploy GPT/LLM Agents ⚡️</sub> | Platform to build and deploy chatbots/agents | 15.0k | today | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) · 3y ago |
 
 ## ✍️ Prompting & LLM programming
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**asgeirtj/system_prompts_leaks**](repos/asgeirtj__system_prompts_leaks.md) 🆕<br><sub>Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, …</sub> | Collection of chatbot system prompts, for prompt study | 📚 study | 71.2k | yesterday | — |
-| [**stanfordnlp/dspy**](repos/stanfordnlp__dspy.md) 🆕<br><sub>DSPy: The framework for programming—not prompting—language models</sub> | Program and auto-optimize prompts instead of hand-writing them | 📚 study | 39.0k | today | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) · today |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**asgeirtj/system_prompts_leaks**](repos/asgeirtj__system_prompts_leaks.md) 🆕<br><sub>Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, …</sub> | Collection of chatbot system prompts, for prompt study | 71.2k | yesterday | — |
+| [**stanfordnlp/dspy**](repos/stanfordnlp__dspy.md) 🆕<br><sub>DSPy: The framework for programming—not prompting—language models</sub> | Program and auto-optimize prompts instead of hand-writing them | 39.0k | today | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) · today |
 
 ## 🖼 Image & video generation
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**AUTOMATIC1111/stable-diffusion-webui**](repos/AUTOMATIC1111__stable-diffusion-webui.md) 💤<br><sub>Stable Diffusion web UI</sub> | The classic Stable Diffusion web UI (I have a fork) | 📚 study | 165.3k | 8mo ago | [v1.10.1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1) · 1y ago |
-| [**Comfy-Org/ComfyUI**](repos/Comfy-Org__ComfyUI.md) 🆕<br><sub>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest l…</sub> | Node-based diffusion GUI/API — image & video pipelines | 📚 study | 146.3k | today | [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) · today |
-| [**lllyasviel/Fooocus**](repos/lllyasviel__Fooocus.md) 💤<br><sub>Focus on prompting and generating</sub> | Simple, Midjourney-style SD image generator | 📚 study | 53.9k | 11mo ago | [v2.5.5](https://github.com/lllyasviel/Fooocus/releases/tag/v2.5.5) · 2y ago |
-| [**Mikubill/sd-webui-controlnet**](repos/Mikubill__sd-webui-controlnet.md) 💤<br><sub>WebUI extension for ControlNet</sub> | ControlNet extension for A1111 — control pose, edges, depth | 📚 study | 17.8k | 2y ago | — |
-| [**camenduru/stable-diffusion-webui-colab**](repos/camenduru__stable-diffusion-webui-colab.md) 💤<br><sub>stable diffusion webui colab</sub> | Run SD WebUI in Google Colab notebooks | 📚 study | 15.9k | 11mo ago | [0.0.17](https://github.com/camenduru/stable-diffusion-webui-colab/releases/tag/0.0.17) · 3y ago |
-| [**modelscope/DiffSynth-Studio**](repos/modelscope__DiffSynth-Studio.md) 🆕<br><sub>Enjoy the magic of Diffusion models!</sub> | Diffusion engine for image/video generation and editing | 📚 study | 13.4k | today | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) · 11mo ago |
-| [**PixArt-alpha/PixArt-alpha**](repos/PixArt-alpha__PixArt-alpha.md) 💤<br><sub>PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis</sub> | Fast, efficient transformer text-to-image model | 📚 study | 3.3k | 2y ago | — |
-| [**Scholar01/sd-webui-mov2mov**](repos/Scholar01__sd-webui-mov2mov.md) 💤<br><sub>This is the Mov2mov plugin for Automatic1111/stable-diffusion-webui.</sub> | A1111 extension: video-to-video with Stable Diffusion | 📚 study | 2.2k | 1y ago | — |
-| [**hkproj/pytorch-stable-diffusion**](repos/hkproj__pytorch-stable-diffusion.md) 💤<br><sub>Stable Diffusion implemented from scratch in PyTorch</sub> | Stable Diffusion built from scratch in PyTorch — learn how it works | 📚 study | 1.1k | 2y ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**AUTOMATIC1111/stable-diffusion-webui**](repos/AUTOMATIC1111__stable-diffusion-webui.md) 💤<br><sub>Stable Diffusion web UI</sub> | The classic Stable Diffusion web UI with a huge extension ecosystem | 165.3k | 8mo ago | [v1.10.1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1) · 1y ago |
+| [**Comfy-Org/ComfyUI**](repos/Comfy-Org__ComfyUI.md) 🆕<br><sub>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest l…</sub> | Node-based diffusion GUI/API — image & video pipelines | 146.3k | today | [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) · today |
+| [**lllyasviel/Fooocus**](repos/lllyasviel__Fooocus.md) 💤<br><sub>Focus on prompting and generating</sub> | Simple, Midjourney-style SD image generator | 53.9k | 11mo ago | [v2.5.5](https://github.com/lllyasviel/Fooocus/releases/tag/v2.5.5) · 2y ago |
+| [**Mikubill/sd-webui-controlnet**](repos/Mikubill__sd-webui-controlnet.md) 💤<br><sub>WebUI extension for ControlNet</sub> | ControlNet extension for A1111 — control pose, edges, depth | 17.8k | 2y ago | — |
+| [**camenduru/stable-diffusion-webui-colab**](repos/camenduru__stable-diffusion-webui-colab.md) 💤<br><sub>stable diffusion webui colab</sub> | Run SD WebUI in Google Colab notebooks | 15.9k | 11mo ago | [0.0.17](https://github.com/camenduru/stable-diffusion-webui-colab/releases/tag/0.0.17) · 3y ago |
+| [**modelscope/DiffSynth-Studio**](repos/modelscope__DiffSynth-Studio.md) 🆕<br><sub>Enjoy the magic of Diffusion models!</sub> | Diffusion engine for image/video generation and editing | 13.4k | today | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) · 11mo ago |
+| [**PixArt-alpha/PixArt-alpha**](repos/PixArt-alpha__PixArt-alpha.md) 💤<br><sub>PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis</sub> | Fast, efficient transformer text-to-image model | 3.3k | 2y ago | — |
+| [**Scholar01/sd-webui-mov2mov**](repos/Scholar01__sd-webui-mov2mov.md) 💤<br><sub>This is the Mov2mov plugin for Automatic1111/stable-diffusion-webui.</sub> | A1111 extension: video-to-video with Stable Diffusion | 2.2k | 1y ago | — |
+| [**hkproj/pytorch-stable-diffusion**](repos/hkproj__pytorch-stable-diffusion.md) 💤<br><sub>Stable Diffusion implemented from scratch in PyTorch</sub> | Stable Diffusion built from scratch in PyTorch — learn how it works | 1.1k | 2y ago | — |
 
 ## 🎨 Design & creative
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**voltagent/awesome-design-md**](repos/voltagent__awesome-design-md.md)<br><sub>A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let c…</sub> | Collection of DESIGN.md files for AI design guidance | 📚 study | 126.7k | 13d ago | — |
-| [**leonxlnx/taste-skill**](repos/leonxlnx__taste-skill.md) 🆕<br><sub>Agent skills that give coding agents taste: art direction, reference images and a browser check instead of gen…</sub> | Skill that gives AI better design taste | 📚 study | 113.2k | 2d ago | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) · 3d ago |
-| [**img2threejs/img2threejs**](repos/img2threejs__img2threejs.md) 🆕<br><sub>Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js mo…</sub> | Turn images into Three.js scenes | 📚 study | 21.2k | 6d ago | [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1) · 6d ago |
-| [**MengTo/kage**](repos/MengTo__kage.md)<br><sub>An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.</sub> | Test entry | 📚 study | 1.8k | 3mo ago | — |
-| [**jasonlee-breadcrumb/motion-os**](repos/jasonlee-breadcrumb__motion-os.md)<br><sub>Ask Claude for a motion graphic, review it scene by scene in a local player, send changes back in one prompt.</sub> | Make motion graphics with Claude, review scene by scene | 📚 study | 87 | 1mo ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**voltagent/awesome-design-md**](repos/voltagent__awesome-design-md.md)<br><sub>A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let c…</sub> | Collection of DESIGN.md files for AI design guidance | 126.8k | 13d ago | — |
+| [**leonxlnx/taste-skill**](repos/leonxlnx__taste-skill.md) 🆕<br><sub>Agent skills that give coding agents taste: art direction, reference images and a browser check instead of gen…</sub> | Skill that gives AI better design taste | 113.3k | 2d ago | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) · 4d ago |
+| [**img2threejs/img2threejs**](repos/img2threejs__img2threejs.md) 🆕<br><sub>Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js mo…</sub> | Turn images into Three.js scenes | 21.2k | 6d ago | [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1) · 6d ago |
+| [**MengTo/kage**](repos/MengTo__kage.md)<br><sub>An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.</sub> | Interactive night walk through a Kyoto temple, built in Three.js | 1.8k | 3mo ago | — |
+| [**jasonlee-breadcrumb/motion-os**](repos/jasonlee-breadcrumb__motion-os.md)<br><sub>Ask Claude for a motion graphic, review it scene by scene in a local player, send changes back in one prompt.</sub> | Make motion graphics with Claude, review scene by scene | 87 | 1mo ago | — |
 
 ## 🇮🇷 Persian NLP
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**mhbashari/awesome-persian-nlp-ir**](repos/mhbashari__awesome-persian-nlp-ir.md) 💤<br><sub>Curated List of Persian Natural Language Processing and Information Retrieval Tools and Resources</sub> | Curated list of Persian NLP resources | 📚 study | 773 | 3y ago | — |
-| [**ICTRC/Parsivar**](repos/ICTRC__Parsivar.md) 💤<br><sub>A Language Processing Toolkit for Persian</sub> | Persian text processing toolkit (normalize, tokenize, stem) | 📚 study | 249 | 2y ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**mhbashari/awesome-persian-nlp-ir**](repos/mhbashari__awesome-persian-nlp-ir.md) 💤<br><sub>Curated List of Persian Natural Language Processing and Information Retrieval Tools and Resources</sub> | Curated list of Persian NLP resources | 773 | 3y ago | — |
+| [**ICTRC/Parsivar**](repos/ICTRC__Parsivar.md) 💤<br><sub>A Language Processing Toolkit for Persian</sub> | Persian text processing toolkit (normalize, tokenize, stem) | 249 | 2y ago | — |
 
 ## 📚 Awesome lists & learning
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**codecrafters-io/build-your-own-x**](repos/codecrafters-io__build-your-own-x.md) 🆕<br><sub>Master programming by recreating your favorite technologies from scratch.</sub> | Guides to build your own Git, Docker, DB, etc. from scratch | 📚 study | 561.7k | 2d ago | — |
-| [**Shubhamsaboo/awesome-llm-apps**](repos/Shubhamsaboo__awesome-llm-apps.md) 🆕<br><sub>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</sub> | Many runnable example LLM/agent apps to learn from | 📚 study | 144.4k | today | — |
-| [**karpathy/nanoGPT**](repos/karpathy__nanoGPT.md) 💤<br><sub>The simplest, fastest repository for training/finetuning medium-sized GPTs.</sub> | Minimal code to train a GPT — learn how LLMs work inside | 📚 study | 64.6k | 12mo ago | — |
-| [**Hannibal046/Awesome-LLM**](repos/Hannibal046__Awesome-LLM.md) 💤<br><sub>Awesome-LLM: a curated list of Large Language Model</sub> | Curated list of LLM papers, models and tools | 📚 study | 27.5k | 1y ago | — |
-| [**kyrolabs/awesome-langchain**](repos/kyrolabs__awesome-langchain.md) 🆕<br><sub>😎 Awesome list of tools and projects with the awesome LangChain framework</sub> | Curated list of LangChain tools and projects | 📚 study | 9.6k | today | — |
-| [**docker/genai-stack**](repos/docker__genai-stack.md)<br><sub>Langchain + Docker + Neo4j + Ollama</sub> | Docker stack for GenAI apps (LLM + Neo4j + LangChain) | 📚 study | 5.4k | 15d ago | — |
-| [**a16z-infra/ai-getting-started**](repos/a16z-infra__ai-getting-started.md) 💤<br><sub>A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, …</sub> | Starter stack for AI apps (a16z) | 📚 study | 4.1k | 2y ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**codecrafters-io/build-your-own-x**](repos/codecrafters-io__build-your-own-x.md) 🆕<br><sub>Master programming by recreating your favorite technologies from scratch.</sub> | Guides to build your own Git, Docker, DB, etc. from scratch | 561.8k | 2d ago | — |
+| [**Shubhamsaboo/awesome-llm-apps**](repos/Shubhamsaboo__awesome-llm-apps.md) 🆕<br><sub>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</sub> | Many runnable example LLM/agent apps to learn from | 144.4k | today | — |
+| [**karpathy/nanoGPT**](repos/karpathy__nanoGPT.md) 💤<br><sub>The simplest, fastest repository for training/finetuning medium-sized GPTs.</sub> | Minimal code to train a GPT — learn how LLMs work inside | 64.6k | 12mo ago | — |
+| [**Hannibal046/Awesome-LLM**](repos/Hannibal046__Awesome-LLM.md) 💤<br><sub>Awesome-LLM: a curated list of Large Language Model</sub> | Curated list of LLM papers, models and tools | 27.5k | 1y ago | — |
+| [**kyrolabs/awesome-langchain**](repos/kyrolabs__awesome-langchain.md) 🆕<br><sub>😎 Awesome list of tools and projects with the awesome LangChain framework</sub> | Curated list of LangChain tools and projects | 9.6k | today | — |
+| [**docker/genai-stack**](repos/docker__genai-stack.md)<br><sub>Langchain + Docker + Neo4j + Ollama</sub> | Docker stack for GenAI apps (LLM + Neo4j + LangChain) | 5.4k | 16d ago | — |
+| [**a16z-infra/ai-getting-started**](repos/a16z-infra__ai-getting-started.md) 💤<br><sub>A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, …</sub> | Starter stack for AI apps (a16z) | 4.1k | 2y ago | — |
 
 ## 🛠 Apps & other
 
-| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|---|
-| [**nationalsecurityagency/ghidra**](repos/nationalsecurityagency__ghidra.md) 🆕<br><sub>Ghidra is a software reverse engineering (SRE) framework</sub> | Reverse-engineering framework (NSA) | 📚 study | 99.5k | today | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) · 20d ago |
-| [**ethanplusai/sellbird**](repos/ethanplusai__sellbird.md) 🆕<br><sub>Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds …</sub> | Open-source AI sales outreach (finds leads, sends emails) | 📚 study | 5.1k | today | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) · 4d ago |
-| [**onehumanbeing/esp32-iphone-agent**](repos/onehumanbeing__esp32-iphone-agent.md) 🆕<br><sub>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision m…</sub> | AI controls a real iPhone via a $7 ESP32 | 📚 study | 4.8k | today | [cli-v0.1.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.4) · 2d ago |
-| [**pizza-bot-app/pizza-bot**](repos/pizza-bot-app__pizza-bot.md) 🆕<br><sub>A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph.</sub> | Local-first inbox for long-running AI agents (LangGraph) | 📚 study | 548 | today | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) · today |
-| [**miladicode823-coder/VEYRA**](repos/miladicode823-coder__VEYRA.md) | No description on GitHub yet — add my own note | 📚 study | 10 | 11d ago | — |
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**nationalsecurityagency/ghidra**](repos/nationalsecurityagency__ghidra.md) 🆕<br><sub>Ghidra is a software reverse engineering (SRE) framework</sub> | Reverse-engineering framework (NSA) | 99.5k | yesterday | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) · 20d ago |
+| [**ethanplusai/sellbird**](repos/ethanplusai__sellbird.md) 🆕<br><sub>Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds …</sub> | Open-source AI sales outreach (finds leads, sends emails) | 5.1k | today | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) · 4d ago |
+| [**onehumanbeing/esp32-iphone-agent**](repos/onehumanbeing__esp32-iphone-agent.md) 🆕<br><sub>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision m…</sub> | AI controls a real iPhone via a $7 ESP32 | 4.8k | today | [cli-v0.1.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.4) · 2d ago |
+| [**pizza-bot-app/pizza-bot**](repos/pizza-bot-app__pizza-bot.md) 🆕<br><sub>A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph.</sub> | Local-first inbox for long-running AI agents (LangGraph) | 548 | today | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) · today |
+| [**miladicode823-coder/VEYRA**](repos/miladicode823-coder__VEYRA.md) | Small new project — no description yet | 10 | 11d ago | — |
 
 ## 🏢 Organizations
 
@@ -240,12 +252,12 @@ _Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
 
 | Top repo | ⭐ | Last activity |
 |---|---|---|
-| [openai/codex](https://github.com/openai/codex)<br><sub>Lightweight coding agent that runs in your terminal</sub> | 134.8k | today |
+| [openai/codex](https://github.com/openai/codex)<br><sub>Lightweight coding agent that runs in your terminal</sub> | 134.9k | today |
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook)<br><sub>Examples and guides for using the OpenAI API</sub> | 77.0k | today |
 | [openai/openai-python](https://github.com/openai/openai-python)<br><sub>The official Python library for the OpenAI API</sub> | 32.1k | today |
 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python)<br><sub>A lightweight, powerful framework for multi-agent workflows</sub> | 30.6k | today |
 | [openai/tiktoken](https://github.com/openai/tiktoken)<br><sub>tiktoken is a fast BPE tokeniser for use with OpenAI's models.</sub> | 19.6k | 3d ago |
-| [openai/codex-security](https://github.com/openai/codex-security)<br><sub>OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing securit…</sub> | 11.4k | today |
+| [openai/codex-security](https://github.com/openai/codex-security)<br><sub>OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing securit…</sub> | 11.5k | today |
 
 ### [Jina AI](https://github.com/jina-ai) — Embeddings, reader, search
 <sub>Your Search Foundation, Supercharged! (acquired by @elastic 2025/10) · 267 public repos</sub>
@@ -264,11 +276,11 @@ _Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
 
 | Top repo | ⭐ | Last activity |
 |---|---|---|
-| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)<br><sub>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and…</sub> | 42.2k | 2d ago |
+| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)<br><sub>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and…</sub> | 42.3k | 2d ago |
 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)<br><sub>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</sub> | 34.7k | 5d ago |
 | [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)<br><sub>See, hear, and interact on your local devices.</sub> | 27.1k | 2d ago |
 | [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM)<br><sub>MiniCPM5: SOTA on-device LLMs, small yet powerful.</sub> | 11.9k | 2d ago |
-| [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG)<br><sub>A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines</sub> | 5.7k | 2d ago |
+| [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG)<br><sub>A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines</sub> | 5.7k | today |
 | [OpenBMB/PilotDeck](https://github.com/OpenBMB/PilotDeck)<br><sub>Task-oriented AI Agent productivity platform</sub> | 5.0k | today |
 
 ### [Zenrows](https://github.com/ZenRows) — Web scraping APIs and tools
@@ -276,12 +288,12 @@ _Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
 
 | Top repo | ⭐ | Last activity |
 |---|---|---|
-| [ZenRows/zenrows-mcp](https://github.com/ZenRows/zenrows-mcp)<br><sub>Official Zenrows MCP integration</sub> | 21 | 4d ago |
-| [ZenRows/zenrows-python-sdk](https://github.com/ZenRows/zenrows-python-sdk)<br><sub>SDK to access Zenrows API directly from Python. We handle proxies rotation, headless brows…</sub> | 21 | 4d ago |
-| [ZenRows/zenrows-node-sdk](https://github.com/ZenRows/zenrows-node-sdk)<br><sub>SDK to access Zenrows API directly from Node.js. We handle proxies rotation, headless brow…</sub> | 19 | 4d ago |
+| [ZenRows/zenrows-mcp](https://github.com/ZenRows/zenrows-mcp)<br><sub>Official Zenrows MCP integration</sub> | 21 | 5d ago |
+| [ZenRows/zenrows-python-sdk](https://github.com/ZenRows/zenrows-python-sdk)<br><sub>SDK to access Zenrows API directly from Python. We handle proxies rotation, headless brows…</sub> | 21 | 5d ago |
+| [ZenRows/zenrows-node-sdk](https://github.com/ZenRows/zenrows-node-sdk)<br><sub>SDK to access Zenrows API directly from Node.js. We handle proxies rotation, headless brow…</sub> | 19 | 5d ago |
 | [ZenRows/cli](https://github.com/ZenRows/cli)<br><sub>Zero-config CLI that gives AI agents reliable access to protected web data through Zenrows…</sub> | 16 | 4d ago |
-| [ZenRows/zenrows-go-sdk](https://github.com/ZenRows/zenrows-go-sdk)<br><sub>Zenrows® SDK for effective scraping in the Go programming language</sub> | 4 | 4d ago |
-| [ZenRows/browser-js-sdk](https://github.com/ZenRows/browser-js-sdk) | 2 | 6d ago |
+| [ZenRows/zenrows-go-sdk](https://github.com/ZenRows/zenrows-go-sdk)<br><sub>Zenrows® SDK for effective scraping in the Go programming language</sub> | 4 | 5d ago |
+| [ZenRows/browser-js-sdk](https://github.com/ZenRows/browser-js-sdk) | 2 | 7d ago |
 
 ### [Stability AI](https://github.com/Stability-AI) — Makers of Stable Diffusion
 <sub> · 109 public repos</sub>
@@ -307,5 +319,34 @@ _Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
 | [FurkanGozukara/SECoursesAudioTools](https://github.com/FurkanGozukara/SECoursesAudioTools) | 2 | today |
 | [FurkanGozukara/SECourses_Premium_Upscaler_Pro](https://github.com/FurkanGozukara/SECourses_Premium_Upscaler_Pro) | 2 | 2d ago |
 
+## ➕ Suggest a repo
+
+Know a great open-source AI repo that's missing? [**Suggest it here**](https://github.com/mmaxpo/my-repo-radar/issues/new?template=suggest-repo.yml) — it takes 30 seconds. Approved suggestions are added automatically.
+
+## 🛠 Make your own radar in 1 minute
+
+Want to track *your own* list of repos the same way?
+
+1. Click **[Use this template](https://github.com/mmaxpo/my-repo-radar/generate)** to copy this repo to your account.
+2. Edit [`repos.yml`](repos.yml) — keep the repos you care about, add your own.
+3. Go to **Actions → Update Repo Radar → Run workflow**. Done — it refreshes itself daily.
+
+Each entry is just a few lines:
+
+```yaml
+- repo: owner/name
+  why: why it's worth following
+  category: agents
+  status: study        # study | using | later | done
+```
+
+<details><summary><b>How it works</b></summary>
+
+A small Python script ([`scripts/update.py`](scripts/update.py)) reads `repos.yml`, asks the GitHub API about each repo, and rewrites this README, the per-repo sheets in [`repos/`](repos/), [`repos.csv`](repos.csv) and the [weekly digest](weekly/). A GitHub Action runs it every day and whenever the list changes. No servers, no cost.
+
+</details>
+
 ---
+If this list saves you time, a ⭐ helps others find it.
+
 🆕 active in the last 7 days · 💤 quiet for over 6 months · 🗄 archived · ↪️ moved/renamed · ⚠️ not found

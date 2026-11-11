@@ -1,17 +1,17 @@
 # llmware-ai/llmware
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/llmware-ai/llmware)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/llmware-ai/llmware)
 
 > Unified framework for building enterprise RAG pipelines with small, specialized models
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧠 RAG, memory & chat with your data |
 | **Project** | — |
-| **Why I saved it** | Enterprise RAG pipelines with small specialized models |
+| **Why it's worth a look** | Enterprise RAG pipelines with small specialized models |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

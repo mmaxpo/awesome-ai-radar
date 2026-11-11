@@ -1,17 +1,17 @@
 # ollama/ollama
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/ollama/ollama)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/ollama/ollama)
 
 > Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
-| **Why I saved it** | Run open models locally with one command |
+| **Why it's worth a look** | Run open models locally with one command |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 186.6k |
+| ⭐ **Stars** | 186.7k |
 | 🍴 **Forks** | 19.0k |
 | 🐞 **Open issues + PRs** | [4.6k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 74% · C 18% · TypeScript 5% |

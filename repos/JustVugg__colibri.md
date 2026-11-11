@@ -1,17 +1,17 @@
 # JustVugg/colibri
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/JustVugg/colibri)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/JustVugg/colibri)
 
 > A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
-| **Why I saved it** | Run huge MoE models with GPU/RAM/NVMe expert offloading |
+| **Why it's worth a look** | Run huge MoE models with GPU/RAM/NVMe expert offloading |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.1.0](https://github.com/JustVugg/colibri/releases/tag/v2.1.0) — colibri v2.1.0
-<sub>2026-10-31 · 10d ago</sub>
+<sub>2026-10-31 · 11d ago</sub>
 
 > **Huge open models on the machine you already have**: on the CPU, on any GPU through Vulkan, on NVIDIA cards through CUDA. Pure C, one file per model family.
 > 387 pull requests since v2.0.0, 208 of them from 35 contributors. GGUF files now run natively on every engine, read exactly as published. Four new models arrive, Mistral-Large-4 (1T) among them. CUDA gets device chains of its own and a routed-expert tier for every engine. Qwen3.8-Flash-Next runs a 256k context at the speed of 64k, an agent's turns read only what is new, and there is a new chat UI.

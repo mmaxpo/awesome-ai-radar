@@ -1,17 +1,17 @@
 # guangzhengli/ChatFiles
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/guangzhengli/ChatFiles)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/guangzhengli/ChatFiles)
 
 > Document Chatbot — multiple files. Powered by GPT / Embedding.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧠 RAG, memory & chat with your data |
 | **Project** | — |
-| **Why I saved it** | Upload files and chat with them |
+| **Why it's worth a look** | Upload files and chat with them |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 1y

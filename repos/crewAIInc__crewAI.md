@@ -1,17 +1,17 @@
 # crewAIInc/crewAI
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/crewAIInc/crewAI)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/crewAIInc/crewAI)
 
 > Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Role-based agent teams (crews) working on tasks |
+| **Why it's worth a look** | Role-based agent teams (crews) working on tasks |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 60.8k |
 | 🍴 **Forks** | 9.1k |
-| 🐞 **Open issues + PRs** | [1.3k](https://github.com/crewAIInc/crewAI/issues) |
+| 🐞 **Open issues + PRs** | [1.2k](https://github.com/crewAIInc/crewAI/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `aiagentframework` `llms` |

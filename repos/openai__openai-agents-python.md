@@ -1,17 +1,17 @@
 # openai/openai-agents-python
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/openai/openai-agents-python)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/openai/openai-agents-python)
 
 > A lightweight, powerful framework for multi-agent workflows
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | OpenAI's official lightweight multi-agent SDK |
+| **Why it's worth a look** | OpenAI's official lightweight multi-agent SDK |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 30.6k |
 | 🍴 **Forks** | 5.0k |
-| 🐞 **Open issues + PRs** | [43](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [51](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `harness` `llm` `openai` `python` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2025-03-11 |
 | 📦 **Latest release** | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) — 2026-10-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 111.6 MB |
+| 💾 **Size** | 113.5 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0.33 in /examples/realtime/twili…](https://github.com/openai/openai-agents-python/commit/64fbde5d02b42ae5f9db668eb0184cdb3fc9d775) | dependabot[bot] |
 | 2026-11-10 | [docs: update translated pages (#5388)](https://github.com/openai/openai-agents-python/commit/d68961657843c7d81dfc25834484f8aac2957eb3) | seratch |
 | 2026-11-10 | [fix(deps-dev): bump pytest from 9.0.3 to 9.2.0 (#5710)](https://github.com/openai/openai-agents-python/commit/b0051a736fec104ee8b4d254de3e0c13758ecaec) | dependabot[bot] |
 | 2026-11-09 | [fix: use gpt-6-luna for session compaction by default (#5646)](https://github.com/openai/openai-agents-python/commit/1fc77bbc8ac1446690f6ba62dd0d52779bdcf43f) | seratch |
@@ -103,13 +104,12 @@
 | 2026-11-09 | [fix: allow concurrent Streamable HTTP requests on MCP v2 (#5641)](https://github.com/openai/openai-agents-python/commit/2b90566eb2adc7d94e8fd8f234b007a937a98989) | seratch |
 | 2026-11-09 | [docs: clarify forced tool choice for read-only requests (#5640)](https://github.com/openai/openai-agents-python/commit/21ec412130103e7ffcc3fdf4c1368caba7fe9fe1) | seratch |
 | 2026-11-09 | [fix: Responses tool choice for functions named after hosted tools (#5639)](https://github.com/openai/openai-agents-python/commit/3ac005f29919210f9c3f78668008477497c0d0ea) | seratch |
-| 2026-11-09 | [fix: preserve wire aliases when replaying Responses items (#5638)](https://github.com/openai/openai-agents-python/commit/71bab8cd67411aa3e840f941937137b9fa29ca57) | seratch |
 
 [See all commits ↗](https://github.com/openai/openai-agents-python/commits)
 
 ## 👥 Top contributors
 
-[seratch](https://github.com/seratch) (827) · [rm-openai](https://github.com/rm-openai) (291) · [github-actions[bot]](https://github.com/github-actions[bot]) (204) · [dependabot[bot]](https://github.com/dependabot[bot]) (119) · [jbeckwith-oai](https://github.com/jbeckwith-oai) (111)
+[seratch](https://github.com/seratch) (827) · [rm-openai](https://github.com/rm-openai) (291) · [github-actions[bot]](https://github.com/github-actions[bot]) (204) · [dependabot[bot]](https://github.com/dependabot[bot]) (120) · [jbeckwith-oai](https://github.com/jbeckwith-oai) (111)
 
 ## ⬇️ Get it
 

@@ -1,17 +1,17 @@
 # agno-agi/agno
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/agno-agi/agno)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/agno-agi/agno)
 
 > The self-driving agent platform
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Fast framework for agents with memory, tools and teams |
+| **Why it's worth a look** | Fast framework for agents with memory, tools and teams |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 328.6 MB |
+| 💾 **Size** | 328.0 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 12d ago</sub>
+<sub>2026-10-29 · 13d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.10](https://github.com/agno-agi/agno/releases/tag/v3.1.10)
-<sub>2026-10-23 · 18d ago</sub>
+<sub>2026-10-23 · 19d ago</sub>
 
 > **Changelog**
 > **Bug Fixes:**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.1.8](https://github.com/agno-agi/agno/releases/tag/v3.1.8)
-<sub>2026-10-21 · 20d ago</sub>
+<sub>2026-10-21 · 21d ago</sub>
 
 > **Changelog**
 > **New Features**
@@ -94,22 +94,22 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [feat: Super Agent does the work itself with direct tools (#11572)](https://github.com/agno-agi/agno/commit/bc6fcc99e2487959e7ae4bc671be6230991df277) | ashpreetbedi |
+| 2026-11-11 | [fix: stop creating the deprecated agno_metrics table on new installs (#11579)](https://github.com/agno-agi/agno/commit/937ef9b599597a6a432cd147eb52c515e1d922de) | harshsinha03 |
+| 2026-11-11 | [fix: stop publishing Company tools over MCP (#11578)](https://github.com/agno-agi/agno/commit/1f7bdda920d127f667ff9aec090c90b28ee924d7) | ashpreetbedi |
+| 2026-11-11 | [feat: let Super Agent start accepted Company Tasks without blocking the conversation (#11562)](https://github.com/agno-agi/agno/commit/20861be4a588a7e8d0cdf969bda78fafd79f62cf) | kausmeows |
+| 2026-11-11 | [feat: require Project approval before accepting or running Tasks (#11377)](https://github.com/agno-agi/agno/commit/50a961e2cc00e8357e5dede4e06ec43b6b375d25) | Himanshu040604 |
 | 2026-11-11 | [fix: metrics refresh follow-ups for MongoDB, Valkey and DynamoDB legacy runs (#11574)](https://github.com/agno-agi/agno/commit/0b88f303e1ebd58a92677652fdeaddd7e7618362) | harshsinha03 |
 | 2026-11-10 | [fix: log metrics refresh no-op messages at debug level (#11570)](https://github.com/agno-agi/agno/commit/23eaf7db5c13d031d3148bbae088acad224431aa) | ysolanky |
 | 2026-11-10 | [feat: update company details from human chats (#11569)](https://github.com/agno-agi/agno/commit/f19bdfa3f6fe245e7739945bf5d5f1c96726622a) | ashpreetbedi |
 | 2026-11-10 | [feat: metrics tables, background refresh and /os/metrics homepage routes on every database (#10874)](https://github.com/agno-agi/agno/commit/d3e18144c2268dc80ae9d7a205d9929cc4751966) | harshsinha03 |
 | 2026-11-10 | [fix: use beta Gemini Developer API for supported model features (#11564)](https://github.com/agno-agi/agno/commit/1d0d852a881a4fba60f7416601220f0a1347ca52) | Himanshu040604 |
-| 2026-11-10 | [feat: add short Company coordination instructions to Super Agent (#11563)](https://github.com/agno-agi/agno/commit/1c3ef6c401f0134e8ca911f69a933f9b581349e5) | ashpreetbedi |
-| 2026-11-10 | [feat: add public manager IDs and company details (#11502)](https://github.com/agno-agi/agno/commit/abedb7b046561fb38b5a400420c84f905a364320) | ashpreetbedi |
-| 2026-11-09 | [[cookbook] Add Membase memory integration example (#11552)](https://github.com/agno-agi/agno/commit/f9272ec2dfd76b664ddf727b3abf564d62cbbea5) | parasyte-x |
-| 2026-11-09 | [[fix] copy the reasoning block before writing derived params into it (#10310)](https://github.com/agno-agi/agno/commit/37d8f061a086403fbce017f360717dab05b0b34c) | feiiiiii5 |
-| 2026-11-09 | [[fix] Preserve HTML and nested bodies in Gmail list tools (#10359)](https://github.com/agno-agi/agno/commit/ad31f9db5745485bfdd61636d54859f7bff01797) | tdog54646 |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 
 ## 👥 Top contributors
 
-[ashpreetbedi](https://github.com/ashpreetbedi) (2569) · [ysolanky](https://github.com/ysolanky) (645) · [dirkbrnd](https://github.com/dirkbrnd) (453) · [kausmeows](https://github.com/kausmeows) (359) · [Mustafa-Esoofally](https://github.com/Mustafa-Esoofally) (224)
+[ashpreetbedi](https://github.com/ashpreetbedi) (2571) · [ysolanky](https://github.com/ysolanky) (645) · [dirkbrnd](https://github.com/dirkbrnd) (453) · [kausmeows](https://github.com/kausmeows) (360) · [Mustafa-Esoofally](https://github.com/Mustafa-Esoofally) (224)
 
 ## ⬇️ Get it
 

@@ -1,17 +1,17 @@
 # dbos-inc/dbos-transact-py
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/dbos-inc/dbos-transact-py)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/dbos-inc/dbos-transact-py)
 
 > Database-Backed Durable Python Workflows
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🔁 Durable workflows & orchestration |
 | **Project** | — |
-| **Why I saved it** | Durable Python workflows backed by Postgres |
+| **Why it's worth a look** | Durable Python workflows backed by Postgres |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

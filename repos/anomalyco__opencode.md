@@ -1,17 +1,17 @@
 # anomalyco/opencode
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/anomalyco/opencode)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/anomalyco/opencode)
 
 > The open source coding agent.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why I saved it** | Open-source AI coding agent |
+| **Why it's worth a look** | Open-source AI coding agent |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -20,8 +20,8 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 226.0k |
-| 🍴 **Forks** | 30.5k |
+| ⭐ **Stars** | 226.1k |
+| 🍴 **Forks** | 30.6k |
 | 🐞 **Open issues + PRs** | [4.2k](https://github.com/anomalyco/opencode/issues) |
 | 💻 **Languages** | TypeScript 84% · MDX 12% · CSS 3% |
 | 📜 **License** | MIT |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2025-04-30 |
 | 📦 **Latest release** | [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) — 2026-11-10 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 675.3 MB |
+| 💾 **Size** | 675.4 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
 
 ### [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7)
-<sub>2026-11-10 · today</sub>
+<sub>2026-11-10 · yesterday</sub>
 
 > **Highlights**
 > - **GitHub Copilot Auto**: Pick **Auto** in the model picker when your Copilot account has an Auto pool, and Copilot's router chooses the model for each session at the Auto discount. If routing fails, OpenCode falls back to the account's default chat model. ([#62997](https://github.com/anomalyco/opencode/pull/62997))
@@ -88,22 +88,22 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(app): accept a pasted redirect URL for provider sign-in (#63315)](https://github.com/anomalyco/opencode/commit/2ef38b2172d646c2813aee56192e7f17dd97922a) | neriousy |
+| 2026-11-11 | [fix(tui): give plugins a live theme view (#63306)](https://github.com/anomalyco/opencode/commit/7b65261fcd8f75336f64e4d4f3f30127925a4893) | sidevesh |
+| 2026-11-11 | [feat(app): limit Recent sidebar to 7 days and 30 rows, align its hover preview (#63313)](https://github.com/anomalyco/opencode/commit/e376ba0e0d0d237a70eeeecc8ac150b6837169c8) | jlongster |
+| 2026-11-11 | [fix(app): snap vertical tab preview to its tab (#63074)](https://github.com/anomalyco/opencode/commit/96579e88acb79c8a9a04729dbe4138098bb97f6e) | arvsrn |
+| 2026-11-11 | [feat(app): add the New timeline experiment (#63295)](https://github.com/anomalyco/opencode/commit/9e3290ab6ce24f1abfcb957a81748be48d2d5dc1) | arvsrn |
+| 2026-11-11 | [fix(site): show download and install menus again after closing them (#63311)](https://github.com/anomalyco/opencode/commit/d093e7a73cbe490c422b955f92afec9cd630279d) | thdxr |
+| 2026-11-11 | [fix(ci): treat require-digests=false as off in verify-artifacts](https://github.com/anomalyco/opencode/commit/611cee9d4b667b459f19ca0cbf6e76d8647535fb) | thdxr |
+| 2026-11-11 | [fix(core): fetch Console instructions and skills only when the config says the workspace has them (#…](https://github.com/anomalyco/opencode/commit/d4ea024c4cfe4cf5ba972e48f28f41a017c7532f) | adamdotdevin |
 | 2026-11-11 | [fix(deploy): run Cloudflare deploys from verified artifacts behind pinned targets](https://github.com/anomalyco/opencode/commit/7bac5bad02f68b95fc5c2c022252c0635ea61abe) | thdxr |
 | 2026-11-11 | [feat(core): tell agents when they are in a fork (#63235)](https://github.com/anomalyco/opencode/commit/e56eff2bc01649b3aa21224876b8874e77dea4b0) | kommander |
-| 2026-11-11 | [refactor(data): strict dev/production stages and data naming](https://github.com/anomalyco/opencode/commit/070b980c0b17487dcb94f381cc2eb03953dadb86) | thdxr |
-| 2026-11-11 | [fix(core): send saved keys during local model discovery (#63266)](https://github.com/anomalyco/opencode/commit/f753100ad59bac0932060df6f8b2f132e9338d6e) | rekram1-node |
-| 2026-11-11 | [feat(core): wake a session on MCP events with a watch tool (#63269)](https://github.com/anomalyco/opencode/commit/eb670f1e98aa11b9e4ec0b331232c5a420235e86) | rekram1-node |
-| 2026-11-11 | [ci(deploy): mint short-lived cloudflare tokens from the token issuer](https://github.com/anomalyco/opencode/commit/39502786382a965ee98497c9557a0b7afe2e6f4c) | thdxr |
-| 2026-11-11 | [feat(core): support MCP events in the MCP client (#63254)](https://github.com/anomalyco/opencode/commit/6b1db2759a1afac862c9c751ef82d7d7159f36cd) | rekram1-node |
-| 2026-11-11 | [fix(codemode): return compact JSON results (#63258)](https://github.com/anomalyco/opencode/commit/1af61ee45c41713c47fd42e80ff775e5d060c06b) | rekram1-node |
-| 2026-11-11 | [fix(ai): keep exhausted request rate limits retryable (#59816)](https://github.com/anomalyco/opencode/commit/1002a979f9eacea665e44a6a178e6593f375e888) | Kyle-j-bush |
-| 2026-11-11 | [fix(site): keep the bare host as a custom domain](https://github.com/anomalyco/opencode/commit/791a2c489efd88c566df710a7e074ba7327236af) | thdxr |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 
 ## 👥 Top contributors
 
-[thdxr](https://github.com/thdxr) (3051) · [opencode-agent[bot]](https://github.com/opencode-agent[bot]) (2712) · [rekram1-node](https://github.com/rekram1-node) (2696) · [kitlangton](https://github.com/kitlangton) (2441) · [adamdotdevin](https://github.com/adamdotdevin) (2183)
+[thdxr](https://github.com/thdxr) (3054) · [opencode-agent[bot]](https://github.com/opencode-agent[bot]) (2712) · [rekram1-node](https://github.com/rekram1-node) (2696) · [kitlangton](https://github.com/kitlangton) (2441) · [adamdotdevin](https://github.com/adamdotdevin) (2184)
 
 ## ⬇️ Get it
 

@@ -1,17 +1,17 @@
 # tesseract-ocr/tesseract
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/tesseract-ocr/tesseract)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/tesseract-ocr/tesseract)
 
 > Tesseract Open Source OCR Engine (main repository)
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📄 Documents, OCR & web data |
 | **Project** | — |
-| **Why I saved it** | Classic open-source OCR engine |
+| **Why it's worth a look** | Classic open-source OCR engine |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 77.5k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [493](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [492](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `hacktoberfest` `lstm` `machine-learning` `ocr` `ocr-engine` `tesseract` `tesseract-ocr` |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 53.5 MB |
+| 💾 **Size** | 53.6 MB |
 | 🌐 **Website** | https://tesseract-ocr.github.io/ |
 
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 13d ago</sub>
+<sub>2026-10-28 · 14d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -94,22 +94,22 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-10 | [wordrec: stop the diacritics reassignment when the budget is used up](https://github.com/tesseract-ocr/tesseract/commit/4e3ec57f3039fd09e183f6884b8e1b70a57e9b0f) | stweil |
+| 2026-11-10 | [wordrec: let a real result win against a fake result of an exhausted budget](https://github.com/tesseract-ocr/tesseract/commit/780f5d1a387143a1fd46de8bb2447c2cada8289b) | stweil |
+| 2026-11-10 | [wordrec: do not output fake results of ambigs training](https://github.com/tesseract-ocr/tesseract/commit/5cb5ac9033e798256a6fb638520425632d4f1946) | stweil |
+| 2026-11-09 | [wordrec: handle words skipped by the classification budget in more places](https://github.com/tesseract-ocr/tesseract/commit/ceb526eab6998cd292139be90f0c696df8df50f4) | stweil |
+| 2026-11-06 | [wordrec: add a per-page blob classification budget to bound classifier timeouts](https://github.com/tesseract-ocr/tesseract/commit/6e5ad3d47e9a694ea6250205747ee30b6804b350) | stweil |
 | 2026-11-02 | [Validate the LSTM softmax child runtime type during deserialization (#4670)](https://github.com/tesseract-ocr/tesseract/commit/c21194d06998e244754d65329d6c9f1e14fe392e) | professor-moody |
 | 2026-11-02 | [Add error checking for elf_aux_info() (#4637)](https://github.com/tesseract-ocr/tesseract/commit/0860367e4ddb92df0c0d27c5c3d4100e1e385808) | brad0 |
 | 2026-11-02 | [Fix exit code when no renderers could be created (#4669)](https://github.com/tesseract-ocr/tesseract/commit/4d8565029174d6d70385795eebefd876533e9b97) | VishnuSrivatsava |
 | 2026-11-02 | [lstm: don't cap legitimate inference buffers in ResizeNoInit](https://github.com/tesseract-ocr/tesseract/commit/8a2cc748331b18579e763ecb9517f93a1fab803f) | stweil |
 | 2026-11-02 | [Register plumbing_dimensions_test with Autotools and tidy tests](https://github.com/tesseract-ocr/tesseract/commit/70723acce95f715327189bbbfdd6172c6863f4c6) | stweil |
-| 2026-10-28 | [Validate Plumbing child dimensions during deserialization](https://github.com/tesseract-ocr/tesseract/commit/1f7adfad28ee06afdd9d4e1b1a807c87c07c796b) | professor-moody |
-| 2026-11-02 | [serialis: require declared sizes to be backed by remaining bytes (#4675)](https://github.com/tesseract-ocr/tesseract/commit/d1ebd2a789f8220209d675c1d4bc18d7a25c8e26) | stweil |
-| 2026-10-28 | [Create new release 5.5.4](https://github.com/tesseract-ocr/tesseract/commit/7e548e6eff172f38f97664afe7f7ce40db36c8d6) | stweil |
-| 2026-10-27 | [Fix use-after-free in ReplaceCurrentWord with several languages (#4667)](https://github.com/tesseract-ocr/tesseract/commit/a95faa0078bcbb59357468f81e079814f8f28e74) | mardgez |
-| 2026-10-27 | [Revise OS options in issue-bug.yml template](https://github.com/tesseract-ocr/tesseract/commit/a7a403c96225ee1ac2dcf43efcddf79002f14b48) | amitdo |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 
 ## 👥 Top contributors
 
-[stweil](https://github.com/stweil) (2540) · [zdenop](https://github.com/zdenop) (1463) · [egorpugin](https://github.com/egorpugin) (982) · [theraysmith](https://github.com/theraysmith) (565) · [amitdo](https://github.com/amitdo) (227)
+[stweil](https://github.com/stweil) (2545) · [zdenop](https://github.com/zdenop) (1463) · [egorpugin](https://github.com/egorpugin) (982) · [theraysmith](https://github.com/theraysmith) (565) · [amitdo](https://github.com/amitdo) (227)
 
 ## ⬇️ Get it
 

@@ -1,17 +1,17 @@
 # langflow-ai/langflow
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/langflow-ai/langflow)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/langflow-ai/langflow)
 
 > Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧩 Low-code builders & chat UIs |
 | **Project** | — |
-| **Why I saved it** | Visual drag-and-drop builder for agents and RAG |
+| **Why it's worth a look** | Visual drag-and-drop builder for agents and RAG |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-02-08 |
 | 📦 **Latest release** | [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1683.5 MB |
+| 💾 **Size** | 1682.1 MB |
 | 🌐 **Website** | http://www.langflow.org |
 
 ## 📦 Recent releases

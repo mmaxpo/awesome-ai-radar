@@ -1,17 +1,17 @@
 # wassim249/fastapi-langgraph-agent-production-ready-template
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)
 
 > A production-ready FastAPI template for building AI agent applications with LangGraph integration. This template provides a robust foundation for building scalable, secure, and maintainable AI agent services.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Production-ready FastAPI + LangGraph agent template |
+| **Why it's worth a look** | Production-ready FastAPI + LangGraph agent template |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

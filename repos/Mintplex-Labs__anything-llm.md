@@ -1,17 +1,17 @@
 # Mintplex-Labs/anything-llm
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Mintplex-Labs/anything-llm)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Mintplex-Labs/anything-llm)
 
 > Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧠 RAG, memory & chat with your data |
 | **Project** | — |
-| **Why I saved it** | All-in-one desktop/Docker app to chat with docs, agents included |
+| **Why it's worth a look** | All-in-one desktop/Docker app to chat with docs, agents included |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 68.2k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [346](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [347](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-computer` `agent-harness` `agent-orchestration` `agentic-ai` `agentic-workflow` `ai-agents` `computer-use` `hermes-agent` `llm` `local-ai` `localai` `multimodal` `rag` `self-hosted-ai` `vector-database` |

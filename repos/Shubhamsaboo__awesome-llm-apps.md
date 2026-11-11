@@ -1,17 +1,17 @@
 # Shubhamsaboo/awesome-llm-apps
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Shubhamsaboo/awesome-llm-apps)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 > 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📚 Awesome lists & learning |
 | **Project** | — |
-| **Why I saved it** | Many runnable example LLM/agent apps to learn from |
+| **Why it's worth a look** | Many runnable example LLM/agent apps to learn from |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

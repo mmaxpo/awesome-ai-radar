@@ -1,17 +1,17 @@
 # asgeirtj/system_prompts_leaks
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/asgeirtj/system_prompts_leaks)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/asgeirtj/system_prompts_leaks)
 
 > Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | ✍️ Prompting & LLM programming |
 | **Project** | — |
-| **Why I saved it** | Collection of chatbot system prompts, for prompt study |
+| **Why it's worth a look** | Collection of chatbot system prompts, for prompt study |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

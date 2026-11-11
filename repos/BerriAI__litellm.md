@@ -1,17 +1,17 @@
 # BerriAI/litellm
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/BerriAI/litellm)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/BerriAI/litellm)
 
 > The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
-| **Why I saved it** | One API / proxy for 100+ LLM providers |
+| **Why it's worth a look** | One API / proxy for 100+ LLM providers |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-07-27 |
 | 📦 **Latest release** | [v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 2858.4 MB |
+| 💾 **Size** | 2860.6 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases

@@ -1,17 +1,17 @@
 # QwenLM/Qwen
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/QwenLM/Qwen)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/QwenLM/Qwen)
 
 > The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
-| **Why I saved it** | Alibaba's Qwen open models |
+| **Why it's worth a look** | Alibaba's Qwen open models |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 8mo

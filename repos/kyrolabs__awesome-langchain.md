@@ -1,17 +1,17 @@
 # kyrolabs/awesome-langchain
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/kyrolabs/awesome-langchain)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/kyrolabs/awesome-langchain)
 
 > 😎 Awesome list of tools and projects with the awesome LangChain framework
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📚 Awesome lists & learning |
 | **Project** | — |
-| **Why I saved it** | Curated list of LangChain tools and projects |
+| **Why it's worth a look** | Curated list of LangChain tools and projects |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 9.6k |
-| 🍴 **Forks** | 991 |
+| 🍴 **Forks** | 990 |
 | 🐞 **Open issues + PRs** | [1](https://github.com/kyrolabs/awesome-langchain/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | CC0-1.0 |

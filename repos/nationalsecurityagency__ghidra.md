@@ -1,17 +1,17 @@
 # nationalsecurityagency/ghidra
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/nationalsecurityagency/ghidra)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/nationalsecurityagency/ghidra)
 
 > Ghidra is a software reverse engineering (SRE) framework
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🛠 Apps & other |
 | **Project** | — |
-| **Why I saved it** | Reverse-engineering framework (NSA) |
+| **Why it's worth a look** | Reverse-engineering framework (NSA) |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -26,7 +26,7 @@
 | 💻 **Languages** | Java 86% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `disassembler` `reverse-engineering` `software-analysis` |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-10 (yesterday) |
 | 📅 **Created** | 2019-03-01 |
 | 📦 **Latest release** | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — 2026-10-22 |
 | 🌿 **Default branch** | `master` |

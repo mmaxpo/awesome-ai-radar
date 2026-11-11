@@ -1,17 +1,17 @@
 # hkproj/pytorch-stable-diffusion
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/hkproj/pytorch-stable-diffusion)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/hkproj/pytorch-stable-diffusion)
 
 > Stable Diffusion implemented from scratch in PyTorch
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖼 Image & video generation |
 | **Project** | — |
-| **Why I saved it** | Stable Diffusion built from scratch in PyTorch — learn how it works |
+| **Why it's worth a look** | Stable Diffusion built from scratch in PyTorch — learn how it works |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 2y

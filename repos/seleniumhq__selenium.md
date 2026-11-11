@@ -1,17 +1,17 @@
 # seleniumhq/selenium
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/seleniumhq/selenium)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/seleniumhq/selenium)
 
 > A browser automation framework and ecosystem.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📄 Documents, OCR & web data |
 | **Project** | — |
-| **Why I saved it** | Classic browser automation framework |
+| **Why it's worth a look** | Classic browser automation framework |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 34.6k |
 | 🍴 **Forks** | 8.7k |
-| 🐞 **Open issues + PRs** | [186](https://github.com/seleniumhq/selenium/issues) |
+| 🐞 **Open issues + PRs** | [185](https://github.com/seleniumhq/selenium/issues) |
 | 💻 **Languages** | Java 33% · C# 14% · JavaScript 10% · Python 10% · C++ 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `dotnet` `java` `javascript` `python` `ruby` `rust` `selenium` `webdriver` |
@@ -47,7 +47,7 @@
 > …
 
 ### [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) — Selenium 4.52.0
-<sub>2026-10-29 · 12d ago</sub>
+<sub>2026-10-29 · 13d ago</sub>
 
 > **Detailed Changelogs by Component**
 > <img src="https://www.selenium.dev/images/programming/java.svg" width="20" height="20"> **[Java](https://github.com/SeleniumHQ/selenium/blob/trunk/java/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/python.svg" width="20" height="20"> **[Python](https://github.com/SeleniumHQ/selenium/blob/trunk/py/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/dotnet.svg" width="20" height="20"> **[DotNet](https://github.com/SeleniumHQ/selenium/blob/trunk/dotnet/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/ruby.svg" width="20" height="20"> **[Ruby](https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/javascript.svg" width="20" height="20"> **[JavaScript](https://github.com/SeleniumHQ/selenium/blob/trunk/javascript/selenium-webdriver/CHANGES.md)**

@@ -1,17 +1,17 @@
 # modelcontextprotocol/servers
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/modelcontextprotocol/servers)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/modelcontextprotocol/servers)
 
 > Model Context Protocol Reference Servers
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🔌 MCP & SDKs |
 | **Project** | — |
-| **Why I saved it** | Reference MCP servers (filesystem, GitHub, etc.) |
+| **Why it's worth a look** | Reference MCP servers (filesystem, GitHub, etc.) |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 91.9k |
 | 🍴 **Forks** | 11.9k |
-| 🐞 **Open issues + PRs** | [13](https://github.com/modelcontextprotocol/servers/issues) |
+| 🐞 **Open issues + PRs** | [14](https://github.com/modelcontextprotocol/servers/issues) |
 | 💻 **Languages** | TypeScript 47% · JavaScript 33% · Python 19% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |

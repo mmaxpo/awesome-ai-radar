@@ -1,17 +1,17 @@
 # img2threejs/img2threejs
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/img2threejs/img2threejs)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/img2threejs/img2threejs)
 
 > Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🎨 Design & creative |
 | **Project** | — |
-| **Why I saved it** | Turn images into Three.js scenes |
+| **Why it's worth a look** | Turn images into Three.js scenes |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

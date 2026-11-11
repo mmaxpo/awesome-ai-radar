@@ -1,17 +1,17 @@
 # OpenHands/OpenHands
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/OpenHands/OpenHands)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/OpenHands/OpenHands)
 
 > 🙌 OpenHands: AI-Driven Development
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why I saved it** | Open-source AI software-development agent |
+| **Why it's worth a look** | Open-source AI software-development agent |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2024-03-13 |
 | 📦 **Latest release** | [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 637.1 MB |
+| 💾 **Size** | 643.0 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.37.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.37.0)
-<sub>2026-11-06 · 4d ago</sub>
+<sub>2026-11-06 · 5d ago</sub>
 
 > **1.37.0 (2026-11-06)**
 > **What's Changed**
@@ -94,22 +94,22 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [chore(deps): bump ws from 8.22.0 to 8.22.1 (#19637)](https://github.com/OpenHands/OpenHands/commit/471e36ee483b0c8c65c692d07c019b8aa6913753) | dependabot[bot] |
+| 2026-11-11 | [feat(verify-openhands): Server: lines link Canvas families to Agent Server features (#18568)](https://github.com/OpenHands/OpenHands/commit/7939a5c5205ddf3160370a81f1851dd1b812654c) | enyst |
+| 2026-11-11 | [fix(events): catch missing event file error to prevent UI crash (#16806)](https://github.com/OpenHands/OpenHands/commit/4a683937fb936378352bfa0014221ae4335039ac) | mohitdebian |
+| 2026-11-11 | [fix(setup-guide): drop an unanswered close question when the guide hides (#19642)](https://github.com/OpenHands/OpenHands/commit/54eaef7a3d8258e03a1697461c0abeea50591038) | hieptl |
+| 2026-11-11 | [fix(setup-guide): start the tour in an open dialog and end it when that dialog closes (#19640)](https://github.com/OpenHands/OpenHands/commit/6ed535e9ac6d92f1c70401cf1873a94b6b898b64) | hieptl |
+| 2026-11-11 | [chore(deps-dev): bump electron from 45.2.1 to 45.2.2 (#19639)](https://github.com/OpenHands/OpenHands/commit/f6662751a3888ce0a0b9a1210227205180ad2364) | dependabot[bot] |
+| 2026-11-11 | [chore(deps): bump react-hot-toast from 2.6.0 to 2.6.1 (#19638)](https://github.com/OpenHands/OpenHands/commit/f913ad43ac5fb225a313791510e2d5c3dfe04790) | dependabot[bot] |
+| 2026-11-11 | [chore(deps): bump the tanstack group across 1 directory with 2 updates (#19585)](https://github.com/OpenHands/OpenHands/commit/6f0ecea22eaf082454a47ae83ea621c3e3853cfb) | dependabot[bot] |
 | 2026-11-11 | [fix(automations): respect backend profile selection availability (#19633)](https://github.com/OpenHands/OpenHands/commit/7b5aa9eb60bdef7d832743c12cabd537b44b8a41) | neubig |
 | 2026-11-11 | [chore(deps): bump @heroui/react from 3.2.4 to 3.2.7 (#19587)](https://github.com/OpenHands/OpenHands/commit/c79599d6c0f6f3747ec172ffc2c56e2a5bad7657) | dependabot[bot] |
-| 2026-11-11 | [chore(deps-dev): bump the testing group across 1 directory with 2 updates (#19586)](https://github.com/OpenHands/OpenHands/commit/8fd24d2afe4d69608bc47966b6ad405bd7857672) | dependabot[bot] |
-| 2026-11-11 | [chore(deps-dev): bump @eslint/js from 9.39.4 to 10.0.1 (#19588)](https://github.com/OpenHands/OpenHands/commit/84ac2784138fc2029e0cf19f7267e600cbc0bc7d) | dependabot[bot] |
-| 2026-11-10 | [fix(automations): make the populated Event Key dropdown open (#19630)](https://github.com/OpenHands/OpenHands/commit/47241dc090a84b1eee561cbfc3b846bc120a25eb) | neubig |
-| 2026-11-10 | [feat(themes): print Paper as aged newsprint, with readable warnings (#19595)](https://github.com/OpenHands/OpenHands/commit/d7293dfd671e23dab182fe71c247ff05f48e780b) | enyst |
-| 2026-11-10 | [feat(conversation): keep Stop hook feedback out of the chat (#19619)](https://github.com/OpenHands/OpenHands/commit/061477938c525843c49ebebeb36adb2c1a76a400) | ak684 |
-| 2026-11-10 | [feat(chat): move the message hover timestamp closer to its message (#19623)](https://github.com/OpenHands/OpenHands/commit/6dd73268547a963b6ada04f22c05e21f468700e6) | ak684 |
-| 2026-11-10 | [fix(chat): deliver over HTTP until the session socket is served (#19574)](https://github.com/OpenHands/OpenHands/commit/0c3a1fa58ae00e37dc839039b10faec4f061e75a) | enyst |
-| 2026-11-10 | [test(automations): complete dashboard cloud config fixture (#19607)](https://github.com/OpenHands/OpenHands/commit/0e4d74f341065218648730c0f9d4675b29d39daf) | smolpaws |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 
 ## 👥 Top contributors
 
-[dependabot[bot]](https://github.com/dependabot[bot]) (1107) · [hieptl](https://github.com/hieptl) (722) · [tofarr](https://github.com/tofarr) (664) · [xingyaoww](https://github.com/xingyaoww) (642) · [enyst](https://github.com/enyst) (626)
+[dependabot[bot]](https://github.com/dependabot[bot]) (1111) · [hieptl](https://github.com/hieptl) (724) · [tofarr](https://github.com/tofarr) (664) · [xingyaoww](https://github.com/xingyaoww) (642) · [enyst](https://github.com/enyst) (627)
 
 ## ⬇️ Get it
 

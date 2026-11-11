@@ -1,17 +1,17 @@
 # abi/screenshot-to-code
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/abi/screenshot-to-code)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/abi/screenshot-to-code)
 
 > Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why I saved it** | Turn screenshots/designs into HTML/React code |
+| **Why it's worth a look** | Turn screenshots/designs into HTML/React code |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

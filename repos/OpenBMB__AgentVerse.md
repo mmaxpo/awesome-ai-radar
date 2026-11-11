@@ -1,17 +1,17 @@
 # OpenBMB/AgentVerse
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/OpenBMB/AgentVerse)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/OpenBMB/AgentVerse)
 
 > 🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Framework for multi-agent collaboration and simulation |
+| **Why it's worth a look** | Framework for multi-agent collaboration and simulation |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 2y

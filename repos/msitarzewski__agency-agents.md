@@ -1,17 +1,17 @@
 # msitarzewski/agency-agents
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/msitarzewski/agency-agents)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/msitarzewski/agency-agents)
 
 > A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Library of ready-made specialist agent personas |
+| **Why it's worth a look** | Library of ready-made specialist agent personas |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

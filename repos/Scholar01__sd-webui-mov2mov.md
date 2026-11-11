@@ -1,17 +1,17 @@
 # Scholar01/sd-webui-mov2mov
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Scholar01/sd-webui-mov2mov)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Scholar01/sd-webui-mov2mov)
 
 > This is the Mov2mov plugin for Automatic1111/stable-diffusion-webui.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖼 Image & video generation |
 | **Project** | — |
-| **Why I saved it** | A1111 extension: video-to-video with Stable Diffusion |
+| **Why it's worth a look** | A1111 extension: video-to-video with Stable Diffusion |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 1y

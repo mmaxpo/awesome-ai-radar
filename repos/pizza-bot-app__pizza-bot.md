@@ -1,17 +1,17 @@
 # pizza-bot-app/pizza-bot
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/pizza-bot-app/pizza-bot)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/pizza-bot-app/pizza-bot)
 
 > A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🛠 Apps & other |
 | **Project** | — |
-| **Why I saved it** | Local-first inbox for long-running AI agents (LangGraph) |
+| **Why it's worth a look** | Local-first inbox for long-running AI agents (LangGraph) |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

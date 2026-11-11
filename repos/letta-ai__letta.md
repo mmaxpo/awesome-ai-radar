@@ -1,17 +1,17 @@
 # letta-ai/letta
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/letta-ai/letta)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/letta-ai/letta)
 
 > Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Stateful agents with long-term memory (ex-MemGPT) |
+| **Why it's worth a look** | Stateful agents with long-term memory (ex-MemGPT) |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

@@ -1,17 +1,17 @@
 # OpenBMB/XAgent
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/OpenBMB/XAgent)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/OpenBMB/XAgent)
 
 > An Autonomous LLM Agent for Complex Task Solving
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Autonomous agent for complex task solving |
+| **Why it's worth a look** | Autonomous agent for complex task solving |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

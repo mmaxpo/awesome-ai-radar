@@ -1,17 +1,17 @@
 # zylon-ai/private-gpt
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/zylon-ai/private-gpt)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/zylon-ai/private-gpt)
 
 > Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧠 RAG, memory & chat with your data |
 | **Project** | — |
-| **Why I saved it** | Private, local Q&A over your documents |
+| **Why it's worth a look** | Private, local Q&A over your documents |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

@@ -1,17 +1,17 @@
 # Hannibal046/Awesome-LLM
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Hannibal046/Awesome-LLM)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Hannibal046/Awesome-LLM)
 
 > Awesome-LLM: a curated list of Large Language Model
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📚 Awesome lists & learning |
 | **Project** | — |
-| **Why I saved it** | Curated list of LLM papers, models and tools |
+| **Why it's worth a look** | Curated list of LLM papers, models and tools |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 1y
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 27.5k |
 | 🍴 **Forks** | 2.8k |
-| 🐞 **Open issues + PRs** | [502](https://github.com/Hannibal046/Awesome-LLM/issues) |
+| 🐞 **Open issues + PRs** | [501](https://github.com/Hannibal046/Awesome-LLM/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |

@@ -1,15 +1,15 @@
 # miladicode823-coder/VEYRA
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/miladicode823-coder/VEYRA)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/miladicode823-coder/VEYRA)
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🛠 Apps & other |
 | **Project** | — |
-| **Why I saved it** | No description on GitHub yet — add my own note |
+| **Why it's worth a look** | Small new project — no description yet |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

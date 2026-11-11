@@ -1,17 +1,17 @@
 # Netflix/metaflow
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Netflix/metaflow)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Netflix/metaflow)
 
 > Build, Manage and Deploy AI/ML Systems
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🔁 Durable workflows & orchestration |
 | **Project** | — |
-| **Why I saved it** | Netflix's framework for ML/AI pipelines from laptop to prod |
+| **Why it's worth a look** | Netflix's framework for ML/AI pipelines from laptop to prod |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

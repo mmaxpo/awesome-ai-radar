@@ -1,17 +1,17 @@
 # modelcontextprotocol/python-sdk
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/modelcontextprotocol/python-sdk)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/modelcontextprotocol/python-sdk)
 
 > The official Python SDK for Model Context Protocol servers and clients
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🔌 MCP & SDKs |
 | **Project** | — |
-| **Why I saved it** | Official Python SDK to build MCP servers/clients |
+| **Why it's worth a look** | Official Python SDK to build MCP servers/clients |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 24.8k |
 | 🍴 **Forks** | 4.1k |
-| 🐞 **Open issues + PRs** | [403](https://github.com/modelcontextprotocol/python-sdk/issues) |
+| 🐞 **Open issues + PRs** | [404](https://github.com/modelcontextprotocol/python-sdk/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `mcp` `mcp-client` `mcp-server` `python` |
-| 🕒 **Last activity** | 2026-11-05 (5d ago) |
+| 🕒 **Last activity** | 2026-11-05 (6d ago) |
 | 📅 **Created** | 2024-09-24 |
 | 📦 **Latest release** | [v2.3.0](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0) — 2026-10-02 |
 | 🌿 **Default branch** | `main` |

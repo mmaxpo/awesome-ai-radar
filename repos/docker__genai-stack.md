@@ -1,17 +1,17 @@
 # docker/genai-stack
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/docker/genai-stack)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/docker/genai-stack)
 
 > Langchain + Docker + Neo4j + Ollama
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📚 Awesome lists & learning |
 | **Project** | — |
-| **Why I saved it** | Docker stack for GenAI apps (LLM + Neo4j + LangChain) |
+| **Why it's worth a look** | Docker stack for GenAI apps (LLM + Neo4j + LangChain) |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance
@@ -24,7 +24,7 @@
 | 💻 **Languages** | Python 54% · Svelte 16% · Shell 14% · JavaScript 8% · Dockerfile 7% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-10-26 (15d ago) |
+| 🕒 **Last activity** | 2026-10-26 (16d ago) |
 | 📅 **Created** | 2023-09-13 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

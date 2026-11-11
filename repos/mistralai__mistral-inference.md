@@ -1,17 +1,17 @@
 # mistralai/mistral-inference
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/mistralai/mistral-inference)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/mistralai/mistral-inference)
 
 > Official inference library for Mistral models
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
-| **Why I saved it** | Official code to run Mistral models |
+| **Why it's worth a look** | Official code to run Mistral models |
 | **Added** | 2026-11-11 |
 
 🗄 **Archived** — no longer maintained

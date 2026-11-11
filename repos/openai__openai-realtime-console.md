@@ -1,17 +1,17 @@
 # openai/openai-realtime-console
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/openai/openai-realtime-console)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/openai/openai-realtime-console)
 
 > React app for inspecting, building and debugging with the Realtime API
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🔌 MCP & SDKs |
 | **Project** | — |
-| **Why I saved it** | Demo app for OpenAI's realtime voice API |
+| **Why it's worth a look** | Demo app for OpenAI's realtime voice API |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 1y

@@ -1,17 +1,17 @@
 # ethanplusai/sellbird
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/ethanplusai/sellbird)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/ethanplusai/sellbird)
 
 > Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds companies and decision makers, verifies emails, writes personal cold email, sends it and handles the replies.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🛠 Apps & other |
 | **Project** | — |
-| **Why I saved it** | Open-source AI sales outreach (finds leads, sends emails) |
+| **Why it's worth a look** | Open-source AI sales outreach (finds leads, sends emails) |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 5.1k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [32](https://github.com/ethanplusai/sellbird/issues) |
+| 🐞 **Open issues + PRs** | [34](https://github.com/ethanplusai/sellbird/issues) |
 | 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `claude-code` `codex` `cold-email` `email-verification` `harvey` `lead-generation` `outreach` `prospecting` `python` `sales-automation` `sellbird` |
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.2.1](https://github.com/ethanplusai/sellbird/releases/tag/v0.2.1) — 0.2.1 — security release
-<sub>2026-10-13 · 28d ago</sub>
+<sub>2026-10-13 · 29d ago</sub>
 
 > A security release. Update if you run Harvey.
 > **Security**

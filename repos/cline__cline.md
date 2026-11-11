@@ -1,17 +1,17 @@
 # cline/cline
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/cline/cline)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/cline/cline)
 
 > Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why I saved it** | Autonomous coding agent inside VS Code |
+| **Why it's worth a look** | Autonomous coding agent inside VS Code |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 71.5k |
 | 🍴 **Forks** | 7.9k |
-| 🐞 **Open issues + PRs** | [1.7k](https://github.com/cline/cline/issues) |
+| 🐞 **Open issues + PRs** | [1.8k](https://github.com/cline/cline/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |

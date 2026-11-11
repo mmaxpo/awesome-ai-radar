@@ -1,17 +1,17 @@
 # The-Vibe-Company/quivr
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/The-Vibe-Company/quivr)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/The-Vibe-Company/quivr)
 
 > An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧠 RAG, memory & chat with your data |
 | **Project** | — |
-| **Why I saved it** | Opinionated RAG 'second brain' building block |
+| **Why it's worth a look** | Opinionated RAG 'second brain' building block |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2)
-<sub>2026-10-30 · 11d ago</sub>
+<sub>2026-10-30 · 12d ago</sub>
 
 > **Quivr 2.0.2**
 > 2.0.2 moves the search database to Weaviate 1.39.14. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.0.1](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.1)
-<sub>2026-10-30 · 11d ago</sub>
+<sub>2026-10-30 · 12d ago</sub>
 
 > **Quivr 2.0.1**
 > 2.0.1 is a security release. It changes no API, no configuration and no stored data. Upgrade any 2.0.0 installation to it.

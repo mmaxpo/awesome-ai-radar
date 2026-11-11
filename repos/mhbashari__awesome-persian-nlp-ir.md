@@ -1,17 +1,17 @@
 # mhbashari/awesome-persian-nlp-ir
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/mhbashari/awesome-persian-nlp-ir)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/mhbashari/awesome-persian-nlp-ir)
 
 > Curated List of Persian Natural Language Processing and Information Retrieval Tools and Resources
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🇮🇷 Persian NLP |
 | **Project** | — |
-| **Why I saved it** | Curated list of Persian NLP resources |
+| **Why it's worth a look** | Curated list of Persian NLP resources |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 3y

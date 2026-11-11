@@ -1,17 +1,17 @@
 # codecrafters-io/build-your-own-x
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/codecrafters-io/build-your-own-x)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/codecrafters-io/build-your-own-x)
 
 > Master programming by recreating your favorite technologies from scratch.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📚 Awesome lists & learning |
 | **Project** | — |
-| **Why I saved it** | Guides to build your own Git, Docker, DB, etc. from scratch |
+| **Why it's worth a look** | Guides to build your own Git, Docker, DB, etc. from scratch |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 561.7k |
+| ⭐ **Stars** | 561.8k |
 | 🍴 **Forks** | 52.6k |
-| 🐞 **Open issues + PRs** | [693](https://github.com/codecrafters-io/build-your-own-x/issues) |
+| 🐞 **Open issues + PRs** | [695](https://github.com/codecrafters-io/build-your-own-x/issues) |
 | 💻 **Languages** | Markdown 100% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `awesome-list` `free` `programming` `tutorial-code` `tutorial-exercises` `tutorials` |

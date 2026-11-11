@@ -1,17 +1,17 @@
 # ICTRC/Parsivar
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/ICTRC/Parsivar)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/ICTRC/Parsivar)
 
 > A Language Processing Toolkit for Persian
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🇮🇷 Persian NLP |
 | **Project** | — |
-| **Why I saved it** | Persian text processing toolkit (normalize, tokenize, stem) |
+| **Why it's worth a look** | Persian text processing toolkit (normalize, tokenize, stem) |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 2y

@@ -1,17 +1,17 @@
 # vercel/chatbot
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/vercel/chatbot)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/vercel/chatbot)
 
 > A full-featured, hackable Next.js AI chatbot built by Vercel
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧩 Low-code builders & chat UIs |
 | **Project** | — |
-| **Why I saved it** | Vercel's Next.js AI chatbot template |
+| **Why it's worth a look** | Vercel's Next.js AI chatbot template |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

@@ -1,17 +1,17 @@
 # OpenBMB/ChatDev
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/OpenBMB/ChatDev)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/OpenBMB/ChatDev)
 
 > ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Virtual software company of chatting agents |
+| **Why it's worth a look** | Virtual software company of chatting agents |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

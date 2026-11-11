@@ -1,17 +1,17 @@
 # MervinPraison/PraisonAI
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/MervinPraison/PraisonAI)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/MervinPraison/PraisonAI)
 
 > Private AI agents for highly regulated teams, and for anyone who wants AI on their own computer. Open-source Python agent framework that runs fully offline.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Low-code multi-agent framework |
+| **Why it's worth a look** | Low-code multi-agent framework |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -51,12 +51,12 @@
 > Release v4.7.22
 
 ### [v4.7.21](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.21) — PraisonAI v4.7.21
-<sub>2026-10-27 · 14d ago</sub>
+<sub>2026-10-27 · 15d ago</sub>
 
 > Release v4.7.21
 
 ### [v4.7.20](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.20) — PraisonAI v4.7.20
-<sub>2026-10-27 · 14d ago</sub>
+<sub>2026-10-27 · 15d ago</sub>
 
 > Release v4.7.20
 

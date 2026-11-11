@@ -1,17 +1,17 @@
 # JoshuaC215/agent-service-toolkit
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/JoshuaC215/agent-service-toolkit)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/JoshuaC215/agent-service-toolkit)
 
 > Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Full toolkit: LangGraph agent + FastAPI service + Streamlit UI |
+| **Why it's worth a look** | Full toolkit: LangGraph agent + FastAPI service + Streamlit UI |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

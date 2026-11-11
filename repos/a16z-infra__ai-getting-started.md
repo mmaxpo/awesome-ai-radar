@@ -1,17 +1,17 @@
 # a16z-infra/ai-getting-started
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/a16z-infra/ai-getting-started)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/a16z-infra/ai-getting-started)
 
 > A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📚 Awesome lists & learning |
 | **Project** | — |
-| **Why I saved it** | Starter stack for AI apps (a16z) |
+| **Why it's worth a look** | Starter stack for AI apps (a16z) |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 2y

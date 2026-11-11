@@ -1,17 +1,17 @@
 # CopilotKit/CopilotKit
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/CopilotKit/CopilotKit)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/CopilotKit/CopilotKit)
 
 > The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧩 Low-code builders & chat UIs |
 | **Project** | — |
-| **Why I saved it** | Add in-app AI copilots/agents to React apps |
+| **Why it's worth a look** | Add in-app AI copilots/agents to React apps |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 38.6k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [426](https://github.com/CopilotKit/CopilotKit/issues) |
+| 🐞 **Open issues + PRs** | [434](https://github.com/CopilotKit/CopilotKit/issues) |
 | 💻 **Languages** | TypeScript 78% · MDX 6% · Python 6% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `agent-native` `agentic-ai` `agents` `ai` `ai-agent` `ai-assistant` `assistant` `assistant-chat-bots` `copilot` `copilot-chat` `generative-ui` `js` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-06-19 |
 | 📦 **Latest release** | [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 896.2 MB |
+| 💾 **Size** | 898.1 MB |
 | 🌐 **Website** | https://docs.copilotkit.ai |
 
 ## 📦 Recent releases
@@ -62,7 +62,7 @@
 > …
 
 ### [v1.83.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.83.0)
-<sub>2026-10-28 · 13d ago</sub>
+<sub>2026-10-28 · 14d ago</sub>
 
 > **Other Changes**
 > - Merge commit from fork (4693af4)

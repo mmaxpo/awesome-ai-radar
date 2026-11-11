@@ -1,17 +1,17 @@
 # FlowiseAI/Flowise
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/FlowiseAI/Flowise)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/FlowiseAI/Flowise)
 
 > Build AI Agents, Visually
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧩 Low-code builders & chat UIs |
 | **Project** | — |
-| **Why I saved it** | Visual builder for LLM flows and agents |
+| **Why it's worth a look** | Visual builder for LLM flows and agents |
 | **Added** | 2026-11-11 |
 
 🗄 **Archived** — no longer maintained
@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 62% · JavaScript 27% · HTML 6% · Handlebars 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agentic-ai` `agentic-workflow` `agents` `artificial-intelligence` `chatbot` `chatgpt` `javascript` `langchain` `large-language-models` `low-code` `multiagent-systems` `no-code` `openai` `rag` `react` `typescript` `workflow-automation` |
-| 🕒 **Last activity** | 2026-08-13 (2mo ago) |
+| 🕒 **Last activity** | 2026-08-13 (3mo ago) |
 | 📅 **Created** | 2023-03-31 |
 | 📦 **Latest release** | [flowise@3.1.4](https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4) — 2026-07-29 |
 | 🌿 **Default branch** | `main` |
@@ -80,7 +80,7 @@
 > …
 
 ### [flowise@3.1.0](https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.0)
-<sub>2026-03-16 · 7mo ago</sub>
+<sub>2026-03-16 · 8mo ago</sub>
 
 > **⚠️ Breaking Changes**
 > **HTTP security checks enabled by default**

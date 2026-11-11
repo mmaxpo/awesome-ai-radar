@@ -1,17 +1,17 @@
 # lllyasviel/Fooocus
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/lllyasviel/Fooocus)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/lllyasviel/Fooocus)
 
 > Focus on prompting and generating
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖼 Image & video generation |
 | **Project** | — |
-| **Why I saved it** | Simple, Midjourney-style SD image generator |
+| **Why it's worth a look** | Simple, Midjourney-style SD image generator |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 11mo

@@ -1,17 +1,17 @@
 # camenduru/stable-diffusion-webui-colab
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/camenduru/stable-diffusion-webui-colab)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/camenduru/stable-diffusion-webui-colab)
 
 > stable diffusion webui colab
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖼 Image & video generation |
 | **Project** | — |
-| **Why I saved it** | Run SD WebUI in Google Colab notebooks |
+| **Why it's worth a look** | Run SD WebUI in Google Colab notebooks |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 11mo

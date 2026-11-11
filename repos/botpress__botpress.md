@@ -1,17 +1,17 @@
 # botpress/botpress
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/botpress/botpress)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/botpress/botpress)
 
 > The open-source hub to build & deploy GPT/LLM Agents ⚡️
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧩 Low-code builders & chat UIs |
 | **Project** | — |
-| **Why I saved it** | Platform to build and deploy chatbots/agents |
+| **Why it's worth a look** | Platform to build and deploy chatbots/agents |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

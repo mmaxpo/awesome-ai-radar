@@ -1,17 +1,17 @@
 # openinterpreter/openinterpreter
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/openinterpreter/openinterpreter)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/openinterpreter/openinterpreter)
 
 > A coding agent for open models like Kimi K3 and GLM 5.3
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why I saved it** | LLM that runs code on your computer to do tasks |
+| **Why it's worth a look** | LLM that runs code on your computer to do tasks |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -69,7 +69,7 @@
 > …
 
 ### [rust-v0.0.58](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.58) — Open Interpreter 0.0.58
-<sub>2026-11-01 · 9d ago</sub>
+<sub>2026-11-01 · 10d ago</sub>
 
 > **Open Interpreter 0.0.58**
 > **Models**
@@ -80,7 +80,7 @@
 > …
 
 ### [rust-v0.0.57](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.57) — Open Interpreter 0.0.57
-<sub>2026-10-31 · 10d ago</sub>
+<sub>2026-10-31 · 11d ago</sub>
 
 > **Open Interpreter 0.0.57**
 > **Models**

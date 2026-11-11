@@ -1,17 +1,17 @@
 # BCG-X-Official/agentkit
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/BCG-X-Official/agentkit)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/BCG-X-Official/agentkit)
 
 > Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Starter kit to build agent apps (Next.js + FastAPI + LangChain) |
+| **Why it's worth a look** | Starter kit to build agent apps (Next.js + FastAPI + LangChain) |
 | **Added** | 2026-11-11 |
 
 🗄 **Archived** — no longer maintained

@@ -1,17 +1,17 @@
 # volcengine/OpenViking
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/volcengine/OpenViking)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/volcengine/OpenViking)
 
 > Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧠 RAG, memory & chat with your data |
 | **Project** | — |
-| **Why I saved it** | Context database for agents: memory + RAG + skills |
+| **Why it's worth a look** | Context database for agents: memory + RAG + skills |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 411.1 MB |
+| 💾 **Size** | 411.7 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
@@ -58,7 +58,7 @@
 > …
 
 ### [openviking-superagent@0.5.1-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.1-preview) — OpenViking SuperAgent 0.5.1-preview _(pre-release)_
-<sub>2026-11-10 · today</sub>
+<sub>2026-11-10 · yesterday</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -88,22 +88,22 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(security): 修复 Git 导入链路的 SSRF 绕过 (#7441)](https://github.com/volcengine/OpenViking/commit/12b188a787c724d92b5645d489b8340f344035ac) | qin-ctx |
+| 2026-11-11 | [feat(react)!: support complete TUI quick command presets (#7462)](https://github.com/volcengine/OpenViking/commit/83d24ca4fc6f8587ed1a1ebee9bfea4d412d6b69) | LaamGinghong |
+| 2026-11-11 | [feat(storage): configure remote PathGlob with enable_path_glob (#7461)](https://github.com/volcengine/OpenViking/commit/9b673971104c0b40404decc2e82821339921090d) | zhoujh01 |
+| 2026-11-11 | [fix(react): restore VikingBot message layout and references (#7460)](https://github.com/volcengine/OpenViking/commit/c6def608a25e6aa59fc24fa463f3e983c296318e) | LaamGinghong |
+| 2026-11-11 | [fix(feishu): support Wiki-backed files and native Slides imports (#7153)](https://github.com/volcengine/OpenViking/commit/8e5299efeb0a1e980ebcfc9b2df72851ac0595c9) | ShaoZegangByte |
+| 2026-11-11 | [fix(models): classify exhausted credit balances as quota errors (#7308)](https://github.com/volcengine/OpenViking/commit/c313b9e27082091c985b4181e376434eb0797f3d) | r266-tech |
 | 2026-11-11 | [ci(react): automate beta releases and keep stable releases manual (#7445)](https://github.com/volcengine/OpenViking/commit/9dc4922a92f9013f66703aa9846219da43f6e75f) | leowld |
 | 2026-11-11 | [refactor(ragfs): modularize git service (#7442)](https://github.com/volcengine/OpenViking/commit/ed624589cd36b6322f648c45ac4cc954bde072d0) | baojun-zhang |
 | 2026-11-11 | [fix(cli): honor OPENVIKING_LANG during language initialization (#7439)](https://github.com/volcengine/OpenViking/commit/602c2ec1d532a8a61ec43376206a430bac0641a2) | nocvalight |
 | 2026-11-11 | [feat(gateway): let X-OpenViking-Context only narrow tool access (#7446)](https://github.com/volcengine/OpenViking/commit/5c8be88523753dee3b2dfa2ec068fdc95253a7a9) | t0saki |
-| 2026-11-11 | [feat(gateway): enable every OpenViking tool by default in context profiles (#7436)](https://github.com/volcengine/OpenViking/commit/d9872afcbb3623ee98685d28d2d3e415d754830a) | t0saki |
-| 2026-11-11 | [feat(react): align file previews with console and expose auth forms (#7438)](https://github.com/volcengine/OpenViking/commit/0d3791055b3b83e4ffc4b1fdc965231310f88749) | leowld |
-| 2026-11-11 | [fix(react): harden directory tour hydration and positioning (#7344)](https://github.com/volcengine/OpenViking/commit/aeaaa0580ebb9681169468498d302d05c86aa52e) | leowld |
-| 2026-11-11 | [feat(ui)!: make WikiDashboard actions host-defined (#7435)](https://github.com/volcengine/OpenViking/commit/e5d8373c1007c5bdcfc287ea7adb92a30964480d) | LaamGinghong |
-| 2026-11-11 | [fix(session): preserve delete source links for memory locking (#7384)](https://github.com/volcengine/OpenViking/commit/bfb15baec1a3688333036d9722dc9a2469f5fac6) | yeshion23333 |
-| 2026-11-11 | [fix(memory): resolve home URI aliases in read and ls tools (#7417)](https://github.com/volcengine/OpenViking/commit/9879a78d01e71c0f3269466c84d0c1fa2edcc278) | qin-ctx |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 
 ## 👥 Top contributors
 
-[qin-ctx](https://github.com/qin-ctx) (333) · [ZaynJarvis](https://github.com/ZaynJarvis) (272) · [t0saki](https://github.com/t0saki) (208) · [zhoujh01](https://github.com/zhoujh01) (174) · [r266-tech](https://github.com/r266-tech) (156)
+[qin-ctx](https://github.com/qin-ctx) (334) · [ZaynJarvis](https://github.com/ZaynJarvis) (272) · [t0saki](https://github.com/t0saki) (208) · [zhoujh01](https://github.com/zhoujh01) (175) · [r266-tech](https://github.com/r266-tech) (157)
 
 ## ⬇️ Get it
 

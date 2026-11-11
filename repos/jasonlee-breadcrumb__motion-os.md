@@ -1,17 +1,17 @@
 # jasonlee-breadcrumb/motion-os
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/jasonlee-breadcrumb/motion-os)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/jasonlee-breadcrumb/motion-os)
 
 > Ask Claude for a motion graphic, review it scene by scene in a local player, send changes back in one prompt.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🎨 Design & creative |
 | **Project** | — |
-| **Why I saved it** | Make motion graphics with Claude, review scene by scene |
+| **Why it's worth a look** | Make motion graphics with Claude, review scene by scene |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

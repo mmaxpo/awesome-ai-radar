@@ -1,17 +1,17 @@
 # assafelovic/gpt-researcher
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/assafelovic/gpt-researcher)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/assafelovic/gpt-researcher)
 
 > An autonomous agent that conducts deep research on any data using any LLM providers
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Autonomous agent that researches and writes reports |
+| **Why it's worth a look** | Autonomous agent that researches and writes reports |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

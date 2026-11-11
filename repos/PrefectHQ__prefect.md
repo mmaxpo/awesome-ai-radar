@@ -1,17 +1,17 @@
 # PrefectHQ/prefect
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/PrefectHQ/prefect)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/PrefectHQ/prefect)
 
 > Prefect is a workflow orchestration framework for building resilient data pipelines in Python.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🔁 Durable workflows & orchestration |
 | **Project** | — |
-| **Why I saved it** | Python workflow orchestration with scheduling and retries |
+| **Why it's worth a look** | Python workflow orchestration with scheduling and retries |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 24.1k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [902](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [905](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `automation` `data` `data-engineering` `data-ops` `data-science` `infrastructure` `ml-ops` `observability` `orchestration` `pipeline` `prefect` `python` `workflow` `workflow-engine` |

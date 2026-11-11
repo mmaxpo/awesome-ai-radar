@@ -1,17 +1,17 @@
 # AI-Citizen/SolidGPT
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/AI-Citizen/SolidGPT)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/AI-Citizen/SolidGPT)
 
 > Developer AI Persona Search Agent
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why I saved it** | Chat with your codebase / dev assistant |
+| **Why it's worth a look** | Chat with your codebase / dev assistant |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 1y

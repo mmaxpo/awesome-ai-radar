@@ -1,17 +1,17 @@
 # Mikubill/sd-webui-controlnet
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Mikubill/sd-webui-controlnet)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Mikubill/sd-webui-controlnet)
 
 > WebUI extension for ControlNet
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖼 Image & video generation |
 | **Project** | — |
-| **Why I saved it** | ControlNet extension for A1111 — control pose, edges, depth |
+| **Why it's worth a look** | ControlNet extension for A1111 — control pose, edges, depth |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 2y

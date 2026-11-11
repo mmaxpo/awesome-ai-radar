@@ -1,17 +1,17 @@
 # stanfordnlp/dspy
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/stanfordnlp/dspy)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/stanfordnlp/dspy)
 
 > DSPy: The framework for programming—not prompting—language models
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | ✍️ Prompting & LLM programming |
 | **Project** | — |
-| **Why I saved it** | Program and auto-optimize prompts instead of hand-writing them |
+| **Why it's worth a look** | Program and auto-optimize prompts instead of hand-writing them |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 39.0k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [776](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [777](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2023-01-09 |
 | 📦 **Latest release** | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.9 MB |
+| 💾 **Size** | 183.3 MB |
 | 🌐 **Website** | https://dspy.ai |
 
 ## 📦 Recent releases
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [chore: refresh model metadata from LiteLLM 1.109.0 (#10871)](https://github.com/stanfordnlp/dspy/commit/398396012371a95471c8e7be24a70e6660e87aa4) | isaacbmiller |
 | 2026-11-10 | [Update versions for 3.5.0 (#10865)](https://github.com/stanfordnlp/dspy/commit/5708342f3c88b78fc3566d8294af4b1a50154c19) | github-actions[bot] |
 | 2026-11-10 | [fix(dspy): find dspy's distribution by the package it installs (#10864)](https://github.com/stanfordnlp/dspy/commit/4e9db7a83e71e4c36315a2402ae7ffd0c6493404) | isaacbmiller |
 | 2026-11-10 | [fix(clients): exclude LiteLLM releases with eager MCP imports (#10863)](https://github.com/stanfordnlp/dspy/commit/4f2ecefc50a31d9e67b621f88c072cee17736753) | isaacbmiller |
@@ -103,13 +104,12 @@
 | 2026-11-10 | [fix(tool): keep nested schema references scoped in native declarations (#10845)](https://github.com/stanfordnlp/dspy/commit/340deccd528805f01078113b9476e37072f75d0d) | isaacbmiller |
 | 2026-11-10 | [fix(xml): honor positional tuple schemas (#10850)](https://github.com/stanfordnlp/dspy/commit/ede7a62d066c9eef68a82898f62d1dc3b314cd41) | isaacbmiller |
 | 2026-11-10 | [fix(adapters): preserve nested XML enum and null guidance (#10859)](https://github.com/stanfordnlp/dspy/commit/07fa634dc06104b03787c728de49c668d75559e7) | isaacbmiller |
-| 2026-11-10 | [fix(tool): validate RootModel leaves in schema-compatible JSON form (#10846)](https://github.com/stanfordnlp/dspy/commit/fdeed24a620cb6b2ecf5b47fe8fea3188760bb7b) | isaacbmiller |
 
 [See all commits ↗](https://github.com/stanfordnlp/dspy/commits)
 
 ## 👥 Top contributors
 
-[okhat](https://github.com/okhat) (1129) · [arnavsinghvi11](https://github.com/arnavsinghvi11) (402) · [isaacbmiller](https://github.com/isaacbmiller) (400) · [chenmoneygithub](https://github.com/chenmoneygithub) (265) · [krypticmouse](https://github.com/krypticmouse) (201)
+[okhat](https://github.com/okhat) (1129) · [arnavsinghvi11](https://github.com/arnavsinghvi11) (402) · [isaacbmiller](https://github.com/isaacbmiller) (401) · [chenmoneygithub](https://github.com/chenmoneygithub) (265) · [krypticmouse](https://github.com/krypticmouse) (201)
 
 ## ⬇️ Get it
 

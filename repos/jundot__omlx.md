@@ -1,17 +1,17 @@
 # jundot/omlx
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/jundot/omlx)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/jundot/omlx)
 
 > LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
-| **Why I saved it** | Local LLM server for Apple Silicon (batching + SSD cache) |
+| **Why it's worth a look** | Local LLM server for Apple Silicon (batching + SSD cache) |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 23.5k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [492](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [495](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 3% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 93.3 MB |
+| 💾 **Size** | 91.3 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
@@ -94,22 +94,22 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(prefill-helper): retry an offline helper when a long prompt arrives (#5166)](https://github.com/jundot/omlx/commit/6a98f70715ff77b2328592258fdd7f6b24db7655) | jundot |
+| 2026-11-11 | [fix: remove three intermittent CI failures on main (#5171)](https://github.com/jundot/omlx/commit/14fab9c049effe6d3556c95753c4608d1f846a3c) | jundot |
+| 2026-11-11 | [fix(prefill-helper): retry a helper that does not answer over SSH (#5169)](https://github.com/jundot/omlx/commit/6eec8d51fab1664a255aaaaa6f3f998cbf9011e3) | yanzhaohui1999 |
+| 2026-11-11 | [feat(macos): simplify the model library list](https://github.com/jundot/omlx/commit/267de8e8d7dd9c84626e457571e8b7e90237b397) | jundot |
+| 2026-11-11 | [fix(macos): show model aliases and prefer aliases when copying (#5091)](https://github.com/jundot/omlx/commit/a88306eb92b834c682e30cf2bd02b5155c274cb8) | ngutech21 |
 | 2026-11-11 | [fix(qwen4-exp): keep g13/g14 GPUs on the MLX path (#5089)](https://github.com/jundot/omlx/commit/e03190e31af53b3fc9fa4b562f064367b9ec89aa) | begcdn |
 | 2026-11-11 | [fix(tool-calling): count a declared tool name as call evidence only in call position (#4433)](https://github.com/jundot/omlx/commit/b3214c0da92f69b633ad141d56e5885be338429b) | Flo5k5 |
 | 2026-11-11 | [fix(scheduler): keep the Metal wired limit when a batch generator closes (#5165)](https://github.com/jundot/omlx/commit/98fd1b71b5b303e00d46e0f4028a2b8414db8b40) | jundot |
 | 2026-11-11 | [fix(stt): reserve realtime sessions before backend startup (#5092)](https://github.com/jundot/omlx/commit/db4b4176985277359f739655a01eae5e3a6fa412) | Aminark |
 | 2026-11-11 | [feat(macos): add sidebar search for global settings (#5111)](https://github.com/jundot/omlx/commit/edbcc89b8a615818fa2ad729f4db26b8e0a6a686) | ngutech21 |
-| 2026-11-11 | [fix(bench): grow a short saved Splash context for the run (#4938)](https://github.com/jundot/omlx/commit/066bcaaf9da454d07b020e196dde2489c1fe4bcb) | jundot |
-| 2026-11-11 | [perf(affine4): run multi-row attention chunks in one launch (#5101)](https://github.com/jundot/omlx/commit/82bb526cc8af30c7a0acd5835bd17289da37c2d6) | avifenesh |
-| 2026-11-11 | [feat(macos): add MarkItDown integration settings (#5107)](https://github.com/jundot/omlx/commit/b1b173b2fe4e0966a6fec257685679e7f2ba4a6e) | ngutech21 |
-| 2026-11-11 | [ci: automatically discover standalone web UI tests (#5119)](https://github.com/jundot/omlx/commit/d6e14871551a6165106de31f1fdfb3bddf90342e) | ngutech21 |
-| 2026-11-11 | [ci(macos): build and test the app (#5120)](https://github.com/jundot/omlx/commit/4cac9dae65cd17fb16fbdb45a79133cae3df2ede) | ngutech21 |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 
 ## 👥 Top contributors
 
-[jundot](https://github.com/jundot) (2269) · [cfbraun](https://github.com/cfbraun) (85) · [LXD-8](https://github.com/LXD-8) (62) · [jonathan308](https://github.com/jonathan308) (51) · [github-actions[bot]](https://github.com/github-actions[bot]) (37)
+[jundot](https://github.com/jundot) (2271) · [cfbraun](https://github.com/cfbraun) (85) · [LXD-8](https://github.com/LXD-8) (62) · [jonathan308](https://github.com/jonathan308) (51) · [github-actions[bot]](https://github.com/github-actions[bot]) (37)
 
 ## ⬇️ Get it
 

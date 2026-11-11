@@ -1,17 +1,17 @@
 # tensorchord/pgvecto.rs
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/tensorchord/pgvecto.rs)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/tensorchord/pgvecto.rs)
 
 > Scalable, Low-latency and Hybrid-enabled Vector Search in Postgres. Revolutionize Vector Search, not Database.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🧠 RAG, memory & chat with your data |
 | **Project** | — |
-| **Why I saved it** | Vector search extension for Postgres |
+| **Why it's worth a look** | Vector search extension for Postgres |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 1y

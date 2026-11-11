@@ -1,17 +1,17 @@
 # onehumanbeing/esp32-iphone-agent
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/onehumanbeing/esp32-iphone-agent)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/onehumanbeing/esp32-iphone-agent)
 
 > Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🛠 Apps & other |
 | **Project** | — |
-| **Why I saved it** | AI controls a real iPhone via a $7 ESP32 |
+| **Why it's worth a look** | AI controls a real iPhone via a $7 ESP32 |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**

@@ -1,17 +1,17 @@
 # Unstructured-IO/unstructured
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Unstructured-IO/unstructured)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Unstructured-IO/unstructured)
 
 > Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📄 Documents, OCR & web data |
 | **Project** | — |
-| **Why I saved it** | Parse PDFs, Word, HTML etc. into clean chunks for LLMs |
+| **Why it's worth a look** | Parse PDFs, Word, HTML etc. into clean chunks for LLMs |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 15.7k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [361](https://github.com/Unstructured-IO/unstructured/issues) |
+| 🐞 **Open issues + PRs** | [362](https://github.com/Unstructured-IO/unstructured/issues) |
 | 💻 **Languages** | HTML 87% · Python 12% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `data-pipelines` `deep-learning` `document-image-analysis` `document-image-processing` `document-parser` `document-parsing` `docx` `donut` `information-retrieval` `langchain` `llm` `machine-learning` `ml` `natural-language-processing` `nlp` `ocr` `pdf` `pdf-to-json` `pdf-to-text` `preprocessing` |

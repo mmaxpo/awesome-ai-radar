@@ -1,17 +1,17 @@
 # Doriandarko/claude-engineer
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Doriandarko/claude-engineer)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Doriandarko/claude-engineer)
 
 > Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-3.5-Sonnet model to assist with software development tasks.This framework enables Claude to generate and manage its own tools, continuously expanding its capabilities through conversation. Available both as a CLI and a modern web interface
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why I saved it** | CLI where Claude writes code and creates its own tools |
+| **Why it's worth a look** | CLI where Claude writes code and creates its own tools |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 1y

@@ -1,17 +1,17 @@
 # microsoft/playwright-python
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/microsoft/playwright-python)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/microsoft/playwright-python)
 
 > Python version of the Playwright testing and automation library.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📄 Documents, OCR & web data |
 | **Project** | — |
-| **Why I saved it** | Browser automation for Python (scraping, testing, agents) |
+| **Why it's worth a look** | Browser automation for Python (scraping, testing, agents) |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 15.1k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [1](https://github.com/microsoft/playwright-python/issues) |
+| 🐞 **Open issues + PRs** | [2](https://github.com/microsoft/playwright-python/issues) |
 | 💻 **Languages** | Python 92% · HTML 4% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `chromium` `firefox` `playwright` `webkit` |

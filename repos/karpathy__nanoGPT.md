@@ -1,17 +1,17 @@
 # karpathy/nanoGPT
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/karpathy/nanoGPT)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/karpathy/nanoGPT)
 
 > The simplest, fastest repository for training/finetuning medium-sized GPTs.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📚 Awesome lists & learning |
 | **Project** | — |
-| **Why I saved it** | Minimal code to train a GPT — learn how LLMs work inside |
+| **Why it's worth a look** | Minimal code to train a GPT — learn how LLMs work inside |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 12mo

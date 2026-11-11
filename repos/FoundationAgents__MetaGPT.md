@@ -1,17 +1,17 @@
 # FoundationAgents/MetaGPT
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/FoundationAgents/MetaGPT)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/FoundationAgents/MetaGPT)
 
 > 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Multi-agent 'software company' (PM, architect, engineer) |
+| **Why it's worth a look** | Multi-agent 'software company' (PM, architect, engineer) |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 9mo

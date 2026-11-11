@@ -1,17 +1,17 @@
 # enoch3712/ExtractThinker
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/enoch3712/ExtractThinker)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/enoch3712/ExtractThinker)
 
 > ExtractThinker is a Document Intelligence library for LLMs, offering ORM-style interaction for flexible and powerful document workflows.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 📄 Documents, OCR & web data |
 | **Project** | — |
-| **Why I saved it** | Extract structured data from documents with LLMs (ORM-style) |
+| **Why it's worth a look** | Extract structured data from documents with LLMs (ORM-style) |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

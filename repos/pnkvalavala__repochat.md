@@ -1,17 +1,17 @@
 # pnkvalavala/repochat
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/pnkvalavala/repochat)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/pnkvalavala/repochat)
 
 > Chatbot assistant enabling GitHub repository interaction using LLMs with Retrieval Augmented Generation
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why I saved it** | Chat with a GitHub repo using RAG |
+| **Why it's worth a look** | Chat with a GitHub repo using RAG |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 2y

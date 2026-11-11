@@ -1,17 +1,17 @@
 # AUTOMATIC1111/stable-diffusion-webui
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 > Stable Diffusion web UI
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖼 Image & video generation |
 | **Project** | — |
-| **Why I saved it** | The classic Stable Diffusion web UI (I have a fork) |
+| **Why it's worth a look** | The classic Stable Diffusion web UI with a huge extension ecosystem |
 | **Added** | 2026-11-11 |
 
 💤 **Quiet** — no activity for 8mo

@@ -1,17 +1,17 @@
 # VRSEN/agency-swarm
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/VRSEN/agency-swarm)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/VRSEN/agency-swarm)
 
 > Reliable Multi-Agent Orchestration Framework
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Build an 'agency' of agents with roles, on OpenAI |
+| **Why it's worth a look** | Build an 'agency' of agents with roles, on OpenAI |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

@@ -1,17 +1,17 @@
 # Dicklesworthstone/swiss_army_llama
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/Dicklesworthstone/swiss_army_llama)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/Dicklesworthstone/swiss_army_llama)
 
 > A FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with built-in support for various file types through textract.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
-| **Why I saved it** | Local FastAPI service for embeddings, search and completions |
+| **Why it's worth a look** | Local FastAPI service for embeddings, search and completions |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

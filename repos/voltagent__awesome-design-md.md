@@ -1,24 +1,24 @@
 # voltagent/awesome-design-md
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/voltagent/awesome-design-md)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/voltagent/awesome-design-md)
 
 > A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🎨 Design & creative |
 | **Project** | — |
-| **Why I saved it** | Collection of DESIGN.md files for AI design guidance |
+| **Why it's worth a look** | Collection of DESIGN.md files for AI design guidance |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 126.7k |
+| ⭐ **Stars** | 126.8k |
 | 🍴 **Forks** | 14.0k |
 | 🐞 **Open issues + PRs** | [304](https://github.com/voltagent/awesome-design-md/issues) |
 | 💻 **Languages** | — |

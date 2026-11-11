@@ -1,17 +1,17 @@
 # the-open-agent/openagent
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/the-open-agent/openagent)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/the-open-agent/openagent)
 
 > ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Open agent platform |
+| **Why it's worth a look** | Open agent platform |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -26,7 +26,7 @@
 | 💻 **Languages** | Go 75% · TypeScript 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `agentic` `agentic-ai` `agi` `chatbot` `chatgpt` `gpt` `harness` `hermes-agent` `knowledge-base` `langchain` `llm` `mcp` `model-context-protocol` `multi-agent` `openagent` `openai` `openclaw` `rag` |
-| 🕒 **Last activity** | 2026-11-06 (4d ago) |
+| 🕒 **Last activity** | 2026-11-06 (5d ago) |
 | 📅 **Created** | 2020-05-29 |
 | 📦 **Latest release** | [v2.95.1](https://github.com/the-open-agent/openagent/releases/tag/v2.95.1) — 2026-10-05 |
 | 🌿 **Default branch** | `master` |

@@ -1,17 +1,17 @@
 # openai/openai-python
 
-[← Back to radar](../README.md) · [Open on GitHub ↗](https://github.com/openai/openai-python)
+[← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/openai/openai-python)
 
 > The official Python library for the OpenAI API
 
-## 📝 My notes
+## 📝 Notes
 
 | | |
 |---|---|
 | **Status** | study |
 | **Category** | 🔌 MCP & SDKs |
 | **Project** | — |
-| **Why I saved it** | Official OpenAI Python library |
+| **Why it's worth a look** | Official OpenAI Python library |
 | **Added** | 2026-11-11 |
 
 🆕 **Active this week**
@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 32.1k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [91](https://github.com/openai/openai-python/issues) |
+| 🐞 **Open issues + PRs** | [92](https://github.com/openai/openai-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `openai` `python` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 28.8 MB |
+| 💾 **Size** | 29.0 MB |
 | 🌐 **Website** | https://pypi.org/project/openai/ |
 
 ## 📦 Recent releases
