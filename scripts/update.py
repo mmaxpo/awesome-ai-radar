@@ -257,7 +257,7 @@ def render_readme(items, now):
         "this page refreshes automatically every day. Click a repo name for its full sheet,",
         "or open [`repos.csv`](repos.csv) to see everything in one sortable table.",
         "",
-        f"_Last updated: {now:%Y-%m-%d %H:%M} UTC · {len(items)} repos_",
+        f"_Last updated: {now:%Y-%m-%d %H:%M} UTC · {len(items)} repo{'s' if len(items) != 1 else ''}_",
         "",
     ]
 
