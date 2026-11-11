@@ -605,6 +605,11 @@
   status: study
   added: 2026-11-11
 
+- repo: heygen-com/hyperframes
+  why: "HeyGen's framework: write HTML, render video — built for AI agents"
+  category: imagegen
+  status: study
+  added: 2026-11-11
 
 # ───────── 🐍 Python & backend tooling ─────────
 
@@ -1002,3 +1007,4 @@
   title: "DLabs.AI"
   type: tool
   why: "AI development company"
+
