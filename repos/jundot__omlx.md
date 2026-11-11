@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 91.3 MB |
+| 💾 **Size** | 91.6 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases

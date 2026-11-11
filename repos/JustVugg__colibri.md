@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 49.9k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [188](https://github.com/JustVugg/colibri/issues) |
+| 🐞 **Open issues + PRs** | [192](https://github.com/JustVugg/colibri/issues) |
 | 💻 **Languages** | C 54% · Python 31% · Cuda 5% · HTML 4% · Shell 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |

@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-02-08 |
 | 📦 **Latest release** | [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1682.1 MB |
+| 💾 **Size** | 1682.2 MB |
 | 🌐 **Website** | http://www.langflow.org |
 
 ## 📦 Recent releases

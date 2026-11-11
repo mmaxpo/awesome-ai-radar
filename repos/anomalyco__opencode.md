@@ -88,6 +88,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(app): show only the branch in the new session row (#63182)](https://github.com/anomalyco/opencode/commit/134136db152c1b5073efb8f2f005438ef336c6d7) | thdxr |
 | 2026-11-11 | [chore(protocol): refresh generated openapi for the first-token event …](https://github.com/anomalyco/opencode/commit/aa08bb2e347e694c12293e232f0f07cb7f99c1cf) | thdxr |
 | 2026-11-11 | [fix(session): measure tps from the first streamed token (#63321)](https://github.com/anomalyco/opencode/commit/99f2bea6dfd77bda4bdc8150cca71cb93ee32194) | thdxr |
 | 2026-11-11 | [fix(app): accept a pasted redirect URL for provider sign-in (#63315)](https://github.com/anomalyco/opencode/commit/2ef38b2172d646c2813aee56192e7f17dd97922a) | neriousy |
@@ -97,7 +98,6 @@
 | 2026-11-11 | [feat(app): add the New timeline experiment (#63295)](https://github.com/anomalyco/opencode/commit/9e3290ab6ce24f1abfcb957a81748be48d2d5dc1) | arvsrn |
 | 2026-11-11 | [fix(site): show download and install menus again after closing them (…](https://github.com/anomalyco/opencode/commit/d093e7a73cbe490c422b955f92afec9cd630279d) | thdxr |
 | 2026-11-11 | [fix(ci): treat require-digests=false as off in verify-artifacts](https://github.com/anomalyco/opencode/commit/611cee9d4b667b459f19ca0cbf6e76d8647535fb) | thdxr |
-| 2026-11-11 | [fix(core): fetch Console instructions and skills only when the config…](https://github.com/anomalyco/opencode/commit/d4ea024c4cfe4cf5ba972e48f28f41a017c7532f) | adamdotdevin |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 
