@@ -13,3 +13,43 @@
   why: Test entry
   status: study
   added: 2026-11-11
+
+- repo: onehumanbeing/esp32-iphone-agent
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: ethanplusai/sellbird
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: pizza-bot-app/pizza-bot
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: volcengine/OpenViking
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: msitarzewski/agency-agents
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: JustVugg/colibri
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: nationalsecurityagency/ghidra
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: asgeirtj/system_prompts_leaks
+  why: ""
+  status: study
+  added: 2026-11-11
