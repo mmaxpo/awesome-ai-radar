@@ -2,7 +2,7 @@
 
 > A curated list of the best open-source AI repos — **that updates itself every day.**
 
-![repos](https://img.shields.io/badge/repos-123-blue) ![active this week](https://img.shields.io/badge/active_this_week-73-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/my-repo-radar/issues/new?template=suggest-repo.yml)
+![repos](https://img.shields.io/badge/repos-121-blue) ![active this week](https://img.shields.io/badge/active_this_week-73-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
 
 Most awesome lists go stale: dead projects sit next to great ones and you can't tell them apart.
 This list is checked by a GitHub Action **every day**, so you always see:
@@ -12,7 +12,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**123 repos · 17 categories · 32 new releases this week** · _last checked 2026-11-11 16:02 UTC_
+**121 repos · 17 categories · 32 new releases this week** · _last checked 2026-11-11 16:06 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -57,13 +57,13 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 <details><summary><b>🔨 New commits only</b> (41 repos)</summary>
 
-- **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
 - **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[ROCm] Update rocm preview wheel to 10.3.0a20261110 (#202821)_
+- **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
+- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
 - **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
 - **[tensorflow/tensorflow](repos/tensorflow__tensorflow.md)** (today): _Integrate LLVM at llvm/llvm-project@bb04dac04a0f_
 - **[restatedev/restate](repos/restatedev__restate.md)** (today): _[VQueues] Test immediate and retained completion_
 - **[SeleniumHQ/selenium](repos/SeleniumHQ__selenium.md)** (today): _[java] stop reading and writing Response.status internally (#18171)_
-- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
 - **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(scheduler): start requests that arrive mid-prefill after the runn…_
 - **[cline/cline](repos/cline__cline.md)** (today): _refactor(vscode): remove dead onboarding models state and proto messa…_
 - **[modelscope/DiffSynth-Studio](repos/modelscope__DiffSynth-Studio.md)** (today): _update minimax-h3-image docs (#1822)_
@@ -103,7 +103,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 ## 🗂 Categories
 
-[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (1) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (6) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (6) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (15) · [🏢 Organizations](#-organizations) (10)
+[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (16) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (1) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (6) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (15) · [🏢 Organizations](#-organizations) (10)
 
 ## 🤖 Agent frameworks & multi-agent
 
@@ -125,7 +125,6 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**VRSEN/agency-swarm**](repos/VRSEN__agency-swarm.md)<br><sub>Reliable Multi-Agent Orchestration Framework</sub> | Build an 'agency' of agents with roles, on OpenAI | 4.6k | 9d ago | [v1.11.0](https://github.com/VRSEN/agency-swarm/releases/tag/v1.11.0) · 3mo ago |
 | [**JoshuaC215/agent-service-toolkit**](repos/JoshuaC215__agent-service-toolkit.md) 🆕<br><sub>Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit</sub> | Full toolkit: LangGraph agent + FastAPI service + Streamlit UI | 4.6k | 3d ago | — |
 | [**wassim249/fastapi-langgraph-agent-production-ready-template**](repos/wassim249__fastapi-langgraph-agent-production-ready-template.md)<br><sub>A production-ready FastAPI template for building AI agent applications with LangGraph integration. This templa…</sub> | Production-ready FastAPI + LangGraph agent template | 2.7k | 25d ago | — |
-| [**Shaveen12/HumanInTheLoop**](repos/Shaveen12__HumanInTheLoop.md)<br><sub>A human in the loop langGraph Chatbot with a fastAPI backend</sub> | Human-in-the-loop LangGraph chatbot with FastAPI backend | 9 | 2mo ago | — |
 
 ## 💻 Coding agents & dev tools
 
@@ -291,7 +290,6 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**ethanplusai/sellbird**](repos/ethanplusai__sellbird.md) 🆕<br><sub>Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds …</sub> | Open-source AI sales outreach (finds leads, sends emails) | 5.1k | today | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) · 4d ago |
 | [**onehumanbeing/esp32-iphone-agent**](repos/onehumanbeing__esp32-iphone-agent.md) 🆕<br><sub>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision m…</sub> | AI controls a real iPhone via a $7 ESP32 | 4.8k | today | [cli-v0.1.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.4) · 2d ago |
 | [**pizza-bot-app/pizza-bot**](repos/pizza-bot-app__pizza-bot.md) 🆕<br><sub>A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph.</sub> | Local-first inbox for long-running AI agents (LangGraph) | 548 | today | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) · today |
-| [**miladicode823-coder/VEYRA**](repos/miladicode823-coder__VEYRA.md) | Small new project — no description yet | 10 | 11d ago | — |
 
 ## 🪦 Discontinued & archived
 
@@ -497,13 +495,13 @@ Papers, courses, models and sites that aren't GitHub repos (so they're not track
 
 ## ➕ Suggest a repo
 
-Know a great open-source AI repo that's missing? [**Suggest it here**](https://github.com/mmaxpo/my-repo-radar/issues/new?template=suggest-repo.yml) — it takes 30 seconds. Approved suggestions are added automatically.
+Know a great open-source AI repo that's missing? [**Suggest it here**](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml) — it takes 30 seconds. Approved suggestions are added automatically.
 
 ## 🛠 Make your own radar in 1 minute
 
 Want to track *your own* list of repos the same way?
 
-1. Click **[Use this template](https://github.com/mmaxpo/my-repo-radar/generate)** to copy this repo to your account.
+1. Click **[Use this template](https://github.com/mmaxpo/awesome-ai-radar/generate)** to copy this repo to your account.
 2. Edit [`repos.yml`](repos.yml) — keep the repos you care about, add your own.
 3. Go to **Actions → Update Repo Radar → Run workflow**. Done — it refreshes itself daily.
 

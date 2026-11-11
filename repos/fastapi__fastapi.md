@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 104.6k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [54](https://github.com/fastapi/fastapi/issues) |
+| 🐞 **Open issues + PRs** | [53](https://github.com/fastapi/fastapi/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `json` `swagger-ui` `redoc` `starlette` `openapi` `api` `openapi3` `framework` `async` `asyncio` `uvicorn` `python3` `python-types` `pydantic` `json-schema` `fastapi` `swagger` `rest` `web` |
