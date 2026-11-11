@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 66% · TypeScript 24% · JavaScript 4% · CSS 4% · HCL 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `ai` `automation` `deepresearch` `llms` `mcp` `mcp-server` `python` `research` `search` `webscraping` |
-| 🕒 **Last activity** | 2026-11-09 (yesterday) |
+| 🕒 **Last activity** | 2026-11-09 (2d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |

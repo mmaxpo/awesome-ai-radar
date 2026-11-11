@@ -12,7 +12,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**91 repos · 14 categories · 26 new releases this week** · _last checked 2026-11-11 15:15 UTC_
+**91 repos · 14 categories · 26 new releases this week** · _last checked 2026-11-11 15:19 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -51,10 +51,10 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 <details><summary><b>🔨 New commits only</b> (26 repos)</summary>
 
+- **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(scheduler): start requests that arrive mid-prefill after the running chunk (#5175)_
 - **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0.33 in /examples/realtime/twili…_
 - **[restatedev/restate](repos/restatedev__restate.md)** (today): _[VQueues] Delete entries that finish without retention in one storage change_
 - **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
-- **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(prefill-helper): retry an offline helper when a long prompt arrives (#5166)_
 - **[cline/cline](repos/cline__cline.md)** (today): _refactor(vscode): remove dead onboarding models state and proto messages (#15638)_
 - **[modelscope/DiffSynth-Studio](repos/modelscope__DiffSynth-Studio.md)** (today): _update minimax-h3-image docs (#1822)_
 - **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
@@ -94,7 +94,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**crewAIInc/crewAI**](repos/crewAIInc__crewAI.md) 🆕<br><sub>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewA…</sub> | Role-based agent teams (crews) working on tasks | 60.8k | today | [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39) · 2d ago |
 | [**agno-agi/agno**](repos/agno-agi__agno.md) 🆕<br><sub>The self-driving agent platform</sub> | Fast framework for agents with memory, tools and teams | 43.1k | today | [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12) · 13d ago |
 | [**OpenBMB/ChatDev**](repos/OpenBMB__ChatDev.md) 🆕<br><sub>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</sub> | Virtual software company of chatting agents | 34.7k | 5d ago | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) · 7mo ago |
-| [**assafelovic/gpt-researcher**](repos/assafelovic__gpt-researcher.md) 🆕<br><sub>An autonomous agent that conducts deep research on any data using any LLM providers</sub> | Autonomous agent that researches and writes reports | 30.6k | yesterday | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) · 2d ago |
+| [**assafelovic/gpt-researcher**](repos/assafelovic__gpt-researcher.md) 🆕<br><sub>An autonomous agent that conducts deep research on any data using any LLM providers</sub> | Autonomous agent that researches and writes reports | 30.6k | 2d ago | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) · 2d ago |
 | [**openai/openai-agents-python**](repos/openai__openai-agents-python.md) 🆕<br><sub>A lightweight, powerful framework for multi-agent workflows</sub> | OpenAI's official lightweight multi-agent SDK | 30.6k | today | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) · 27d ago |
 | [**letta-ai/letta**](repos/letta-ai__letta.md)<br><sub>Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.</sub> | Stateful agents with long-term memory (ex-MemGPT) | 25.4k | 23d ago | [0.16.8](https://github.com/letta-ai/letta/releases/tag/0.16.8) · 6mo ago |
 | [**MervinPraison/PraisonAI**](repos/MervinPraison__PraisonAI.md) 🆕<br><sub>Private AI agents for highly regulated teams, and for anyone who wants AI on their own computer. Open-source P…</sub> | Low-code multi-agent framework | 9.3k | yesterday | [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) · 5d ago |
@@ -288,7 +288,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 | Top repo | ⭐ | Last activity |
 |---|---|---|
-| [ZenRows/zenrows-mcp](https://github.com/ZenRows/zenrows-mcp)<br><sub>Official Zenrows MCP integration</sub> | 21 | 5d ago |
+| [ZenRows/zenrows-mcp](https://github.com/ZenRows/zenrows-mcp)<br><sub>Official Zenrows MCP integration</sub> | 21 | today |
 | [ZenRows/zenrows-python-sdk](https://github.com/ZenRows/zenrows-python-sdk)<br><sub>SDK to access Zenrows API directly from Python. We handle proxies rotation, headless brows…</sub> | 21 | 5d ago |
 | [ZenRows/zenrows-node-sdk](https://github.com/ZenRows/zenrows-node-sdk)<br><sub>SDK to access Zenrows API directly from Node.js. We handle proxies rotation, headless brow…</sub> | 19 | 5d ago |
 | [ZenRows/cli](https://github.com/ZenRows/cli)<br><sub>Zero-config CLI that gives AI agents reliable access to protected web data through Zenrows…</sub> | 16 | 4d ago |
