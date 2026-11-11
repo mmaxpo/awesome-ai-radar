@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-05-21 |
 | 📦 **Latest release** | [v0.0.0-nightly.pr22826.39064](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22826.39064) — 2026-11-11 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 599.0 MB |
+| 💾 **Size** | 599.4 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [✨ feat(agent-quota): keep reported subscription accounts private and let their creator share them (#…](https://github.com/lobehub/lobehub/commit/a4f67106abc51786103f18008b357f4d176b67b5) | arvinxx |
 | 2026-11-11 | [🐛 fix(sandbox-drive): say a usage refresh could not measure instead of a generic failure (#22309)](https://github.com/lobehub/lobehub/commit/b7c15746b94b38327168ebba46637d6320e79101) | rdmclin2 |
 | 2026-11-11 | [♻️ refactor(model-runtime): extract shared Router routing helpers (#22818)](https://github.com/lobehub/lobehub/commit/25e3c3152d04a0b4cb4ff7e8e09448f513b31390) | arvinxx |
 | 2026-11-11 | [🐛 fix(hetero): return undelivered steer messages when a run is stopped (#22824)](https://github.com/lobehub/lobehub/commit/94e02510995843f25e23116b3280c43d5a75f659) | rdmclin2 |
@@ -103,13 +104,12 @@
 | 2026-11-11 | [✨ feat(chat-input): link the Cloud drive menu to Sandbox Storage (#22816)](https://github.com/lobehub/lobehub/commit/b7887894881b4bd55b5fb127e686fb44fb11102c) | rdmclin2 |
 | 2026-11-11 | [🔨 chore(cli): publish patches on production code changes (#22812)](https://github.com/lobehub/lobehub/commit/15b0269f20c3d6be9dd837798234bd125c4996c6) | rdmclin2 |
 | 2026-11-11 | [✨ feat(linear): option to sync issue labels onto tasks (#22392)](https://github.com/lobehub/lobehub/commit/5c357c14a458d3cbffdef2f0dad7e5b13204c91b) | rdmclin2 |
-| 2026-11-11 | [✨ feat(task): pick an exact minute for scheduled tasks (#22406)](https://github.com/lobehub/lobehub/commit/2b4319e705e9f76ddef5a6fac94692376af3ceb8) | rdmclin2 |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 
 ## 👥 Top contributors
 
-[arvinxx](https://github.com/arvinxx) (4907) · [semantic-release-bot](https://github.com/semantic-release-bot) (2372) · [Innei](https://github.com/Innei) (1139) · [tjx666](https://github.com/tjx666) (1128) · [canisminor1990](https://github.com/canisminor1990) (560)
+[arvinxx](https://github.com/arvinxx) (4909) · [semantic-release-bot](https://github.com/semantic-release-bot) (2372) · [Innei](https://github.com/Innei) (1139) · [tjx666](https://github.com/tjx666) (1128) · [canisminor1990](https://github.com/canisminor1990) (560)
 
 ## ⬇️ Get it
 

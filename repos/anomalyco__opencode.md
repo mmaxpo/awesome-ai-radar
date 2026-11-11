@@ -88,6 +88,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(session): measure tps from the first streamed token (#63321)](https://github.com/anomalyco/opencode/commit/99f2bea6dfd77bda4bdc8150cca71cb93ee32194) | thdxr |
 | 2026-11-11 | [fix(app): accept a pasted redirect URL for provider sign-in (#63315)](https://github.com/anomalyco/opencode/commit/2ef38b2172d646c2813aee56192e7f17dd97922a) | neriousy |
 | 2026-11-11 | [fix(tui): give plugins a live theme view (#63306)](https://github.com/anomalyco/opencode/commit/7b65261fcd8f75336f64e4d4f3f30127925a4893) | sidevesh |
 | 2026-11-11 | [feat(app): limit Recent sidebar to 7 days and 30 rows, align its hover preview (#63313)](https://github.com/anomalyco/opencode/commit/e376ba0e0d0d237a70eeeecc8ac150b6837169c8) | jlongster |
@@ -97,13 +98,12 @@
 | 2026-11-11 | [fix(ci): treat require-digests=false as off in verify-artifacts](https://github.com/anomalyco/opencode/commit/611cee9d4b667b459f19ca0cbf6e76d8647535fb) | thdxr |
 | 2026-11-11 | [fix(core): fetch Console instructions and skills only when the config says the workspace has them (#…](https://github.com/anomalyco/opencode/commit/d4ea024c4cfe4cf5ba972e48f28f41a017c7532f) | adamdotdevin |
 | 2026-11-11 | [fix(deploy): run Cloudflare deploys from verified artifacts behind pinned targets](https://github.com/anomalyco/opencode/commit/7bac5bad02f68b95fc5c2c022252c0635ea61abe) | thdxr |
-| 2026-11-11 | [feat(core): tell agents when they are in a fork (#63235)](https://github.com/anomalyco/opencode/commit/e56eff2bc01649b3aa21224876b8874e77dea4b0) | kommander |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 
 ## 👥 Top contributors
 
-[thdxr](https://github.com/thdxr) (3054) · [opencode-agent[bot]](https://github.com/opencode-agent[bot]) (2712) · [rekram1-node](https://github.com/rekram1-node) (2696) · [kitlangton](https://github.com/kitlangton) (2441) · [adamdotdevin](https://github.com/adamdotdevin) (2184)
+[thdxr](https://github.com/thdxr) (3055) · [opencode-agent[bot]](https://github.com/opencode-agent[bot]) (2712) · [rekram1-node](https://github.com/rekram1-node) (2696) · [kitlangton](https://github.com/kitlangton) (2441) · [adamdotdevin](https://github.com/adamdotdevin) (2184)
 
 ## ⬇️ Get it
 
