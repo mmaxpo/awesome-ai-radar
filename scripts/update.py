@@ -41,7 +41,6 @@ CATEGORIES = {  # key used in repos.yml -> heading shown on the page (order = pa
     "imagegen": "🖼 Image & video generation",
     "design": "🎨 Design & creative",
     "python": "🐍 Python & backend tooling",
-    "persian": "🇮🇷 Persian NLP",
     "learning": "📚 Awesome lists & learning",
     "apps": "🛠 Apps & other",
 }
@@ -611,7 +610,7 @@ def render_readme(items, orgs, links, now):
     if links:
         types = [("paper", "📄 Papers"), ("course", "🎓 Courses"), ("article", "📝 Articles & explainers"),
                  ("model", "🤗 Models & datasets"), ("person", "👤 People worth following"),
-                 ("tool", "🌐 Tools & sites")]
+                 ("tool", "🌐 Tools & sites"), ("crypto", "🪙 Crypto & trading")]
         alias_t = {"dataset": "model", "api": "tool", "site": "tool", "docs": "article", "video": "course"}
         for x in links:
             x["type"] = alias_t.get(str(x.get("type") or "").lower(), x.get("type"))

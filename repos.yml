@@ -4,7 +4,7 @@
 #   why:     one line on why it's worth following
 #   status:  study | using | later | done | deprecated  (deprecated = move to "Discontinued")
 #   category: agents | coding | workflows | rag | documents | models | ml | science | sdk |
-#             builders | prompting | imagegen | design | python | persian | learning | apps  (or any new word)
+#             builders | prompting | imagegen | design | python | learning | apps  (or any new word)
 #   project: optional — a project it's useful for
 #   added:   optional — date you added it
 #   notes:   optional — longer notes, shown on the repo's own sheet (use  notes: |  for several lines)
@@ -13,7 +13,7 @@
 # For a link that isn't a GitHub repo (paper, course, article, model, person, tool):
 #   - link: https://...
 #     title: "Name"
-#     type: paper | course | article | model | dataset | person | tool
+#     type: paper | course | article | model | dataset | person | tool | crypto
 #     why: "one line"
 #
 # After you save this file, the README updates within a minute or two.
@@ -432,8 +432,8 @@
   status: study
   added: 2026-11-11
 
-- repo: facebookresearch/esm
-  why: "Meta's protein language models (ESM)"
+- repo: evolutionaryscale/esm
+  why: "ESM3 and ESM C protein language models (successor to Meta's ESM)"
   category: science
   status: study
   added: 2026-11-11
@@ -685,20 +685,6 @@
   status: study
   added: 2026-11-11
 
-# ───────── 🇮🇷 Persian NLP ─────────
-
-- repo: ICTRC/Parsivar
-  why: "Persian text processing toolkit (normalize, tokenize, stem)"
-  category: persian
-  status: study
-  added: 2026-11-11
-
-- repo: mhbashari/awesome-persian-nlp-ir
-  why: "Curated list of Persian NLP resources"
-  category: persian
-  status: study
-  added: 2026-11-11
-
 # ───────── 📚 Awesome lists & learning ─────────
 
 - repo: Shubhamsaboo/awesome-llm-apps
@@ -850,7 +836,7 @@
 
 - link: https://kuegi.medium.com/the-anatomy-of-a-trading-bot-7c1ee783d6f1
   title: "The anatomy of a trading bot"
-  type: article
+  type: crypto
   why: "How an automated trading bot is structured"
 
 - link: https://huggingface.co/stabilityai
@@ -895,7 +881,7 @@
 
 - link: https://bscscan.com
   title: "BscScan"
-  type: tool
+  type: crypto
   why: "Block explorer for BNB Smart Chain"
 
 - link: https://course.fast.ai/Lessons/lesson1.html
@@ -940,12 +926,12 @@
 
 - link: https://medium.com/coinmonks/best-crypto-apis-for-developers-5efe3a597a9f
   title: "Best crypto APIs for developers"
-  type: article
+  type: crypto
   why: "Overview of crypto data APIs"
 
 - link: https://medium.com/coinmonks/creating-generative-art-nfts-with-python-solidity-a95eaeea515e
   title: "Creating generative-art NFTs with Python and Solidity"
-  type: article
+  type: crypto
   why: "Tutorial: generative art + smart contracts"
 
 - link: https://www.image-net.org
@@ -970,17 +956,17 @@
 
 - link: https://www.coingecko.com
   title: "CoinGecko"
-  type: api
+  type: crypto
   why: "Crypto prices and market-data API"
 
 - link: https://www.cryptocompare.com
   title: "CryptoCompare"
-  type: api
+  type: crypto
   why: "Crypto market-data API"
 
 - link: https://www.tiingo.com
   title: "Tiingo"
-  type: api
+  type: crypto
   why: "Stock and crypto market-data API"
 
 - link: https://developer.amazonservices.com
