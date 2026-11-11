@@ -462,8 +462,14 @@ def render_readme(items, orgs, now):
 def first_note(body):
     """One readable line from release notes: skip headings, boilerplate and links."""
     import re
+    in_code = False
     for line in (body or "").replace("\r", "").splitlines():
         t = line.strip()
+        if t.startswith("```"):
+            in_code = not in_code
+            continue
+        if in_code or t.endswith("\\") or t.startswith(("$ ", ">")):
+            continue
         t = re.sub(r"<[^>]*>?", "", t).strip()                  # HTML tags (and broken ones)
         if not t or t.startswith(("#", "<", "|", "!", "**Full Changelog", "Full Changelog")):
             continue
@@ -472,7 +478,7 @@ def first_note(body):
         t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", t)        # [text](link) -> text
         t = re.sub(r"https?://\S+", "", t)
         t = re.sub(r"^[-*+]\s*|\s*by @\S+.*$|\s*in #\d+.*$", "", t)  # bullets, "by @x in #12"
-        t = t.replace("**", "").replace("`", "").strip(" :-")
+        t = t.replace("**", "").replace("`", "").strip(" :-*_")
         if len(t) > 8:
             return clean(t, 120)
     return ""
