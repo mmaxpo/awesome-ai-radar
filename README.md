@@ -1,5 +1,7 @@
 # 📡 Awesome AI Radar
 
+![Awesome AI Radar](.github/banner.png)
+
 > A curated list of the best open-source AI repos — **that updates itself every day.**
 
 ![repos](https://img.shields.io/badge/repos-121-blue) ![active this week](https://img.shields.io/badge/active_this_week-73-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
@@ -12,7 +14,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**121 repos · 17 categories · 32 new releases this week** · _last checked 2026-11-11 16:06 UTC_
+**121 repos · 17 categories · 32 new releases this week** · _last checked 2026-11-11 16:08 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -57,9 +59,9 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 <details><summary><b>🔨 New commits only</b> (41 repos)</summary>
 
+- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
 - **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[ROCm] Update rocm preview wheel to 10.3.0a20261110 (#202821)_
 - **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
-- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
 - **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
 - **[tensorflow/tensorflow](repos/tensorflow__tensorflow.md)** (today): _Integrate LLVM at llvm/llvm-project@bb04dac04a0f_
 - **[restatedev/restate](repos/restatedev__restate.md)** (today): _[VQueues] Test immediate and retained completion_
