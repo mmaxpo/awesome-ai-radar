@@ -2,7 +2,7 @@
 #
 #   repo:    owner/name (required) — copy it from the GitHub URL
 #   why:     one line on why it's worth following
-#   status:  study | using | later | done
+#   status:  study | using | later | done | deprecated  (deprecated = move to "Discontinued")
 #   category: agents | coding | workflows | rag | documents | models | ml | science | sdk |
 #             builders | prompting | imagegen | design | python | persian | learning | apps  (or any new word)
 #   project: optional — a project it's useful for

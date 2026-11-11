@@ -24,6 +24,8 @@ STATUS_ORDER = [
     ("done", "✅ Done"),
 ]
 STALE_DAYS = 180  # no activity for this long -> marked 💤
+GONE_DAYS = 730   # archived, or no activity for this long -> moved to "Discontinued & archived"
+GONE_TITLE = "🪦 Discontinued & archived"
 CATEGORIES = {  # key used in repos.yml -> heading shown on the page (order = page order)
     "agents": "🤖 Agent frameworks & multi-agent",
     "coding": "💻 Coding agents & dev tools",
@@ -355,6 +357,20 @@ def is_stale(it, now):
     return d is not None and (now - d).days > STALE_DAYS
 
 
+def gone_reason(it, now):
+    """Why a repo counts as discontinued, or "" if it's alive."""
+    if str(it.get("status") or "").lower() in ("deprecated", "discontinued"):
+        return "marked deprecated"
+    if it.get("missing"):
+        return ""
+    if it.get("archived"):
+        return "archived by its owner"
+    d = it.get("pushed")
+    if d is not None and (now - d).days > GONE_DAYS:
+        return f"no activity since {d:%b %Y}"
+    return ""
+
+
 def is_new(it, key, now):
     d = it.get(key)
     return d is not None and (now - d).days < NEW_DAYS
@@ -408,10 +424,11 @@ def render_sheet(it, now):
     badges = []
     if it.get("moved_from"):
         badges.append(f"↪️ **Moved** — was `{it['moved_from']}`")
-    if is_stale(it, now) and not it["archived"]:
+    if is_stale(it, now) and not gone_reason(it, now):
         badges.append(f"💤 **Quiet** — no activity for {ago(it['pushed'], now).replace(' ago', '')}")
-    if it["archived"]:
-        badges.append("🗄 **Archived** — no longer maintained")
+    reason = gone_reason(it, now)
+    if reason:
+        badges.append(f"🪦 **Discontinued** — {reason}")
     if is_new(it, "pushed", now) or is_new(it, "release_date", now):
         badges.append("🆕 **Active this week**")
     if badges:
@@ -535,8 +552,10 @@ def render_readme(items, orgs, links, now):
 
     # group by category
     groups = {}
+    gone = [it for it in items if gone_reason(it, now)]
     for it in items:
-        groups.setdefault(cat_title(it.get("category")), []).append(it)
+        if not gone_reason(it, now):
+            groups.setdefault(cat_title(it.get("category")), []).append(it)
     order = [t for t in CATEGORIES.values() if t in groups]
     order += sorted(t for t in groups if t not in order and t != "📁 Uncategorized")
     if "📁 Uncategorized" in groups:
@@ -546,6 +565,8 @@ def render_readme(items, orgs, links, now):
     L += [" · ".join(f"[{t}](#{cat_anchor(t)}) ({len(groups[t])})" for t in order)]
     if links:
         L[-1] += f" · [📎 More resources](#{cat_anchor('📎 More resources')}) ({len(links)})"
+    if gone:
+        L[-1] += f" · [{GONE_TITLE}](#{cat_anchor(GONE_TITLE)}) ({len(gone)})"
     if orgs:
         L[-1] += f" · [🏢 Organizations](#{cat_anchor('🏢 Organizations')}) ({len(orgs)})"
     L.append("")
@@ -572,6 +593,17 @@ def render_readme(items, orgs, links, now):
                    if it["release_tag"] else "—")
             L.append(f"| [**{r}**]({sheet_path(r)}){flag}{desc} | {why} "
                      f"| {fmt_num(it['stars'])} | {ago(it['pushed'], now)} | {rel} |")
+        L.append("")
+
+    if gone:
+        L += [f"## {GONE_TITLE}", "",
+              "Archived, or no activity for over two years. Still useful to read and learn from — "
+              "but think twice before building on them.", "",
+              "| Repo | Why it was on the list | Category | ⭐ | Status |", "|---|---|---|---|---|"]
+        for it in sorted(gone, key=lambda it: -(it.get("stars") or 0)):
+            r = it["repo"]
+            L.append(f"| [**{r}**]({sheet_path(r)}) | {clean(str(it.get('why') or ''))} "
+                     f"| {cat_title(it.get('category'))} | {fmt_num(it.get('stars') or 0)} | {gone_reason(it, now)} |")
         L.append("")
 
     if links:
@@ -744,8 +776,8 @@ def write_csv(items, path, now):
             m = it["missing"]
             if m:
                 health = "not found"
-            elif it["archived"]:
-                health = "archived"
+            elif gone_reason(it, now):
+                health = "discontinued"
             elif is_stale(it, now):
                 health = "quiet"
             else:

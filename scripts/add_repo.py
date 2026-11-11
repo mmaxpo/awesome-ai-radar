@@ -35,7 +35,7 @@ def add(raw, why="", status="study", category="", project=""):
     if re.search(rf"^- repo:\s*{re.escape(name)}\s*$", text, re.M | re.I):
         return name, False
     category = re.sub(r"[^a-z0-9_-]", "", (category or "").strip().lower())
-    status = status if status in ("study", "using", "later", "done") else "study"
+    status = status if status in ("study", "using", "later", "done", "deprecated") else "study"
     entry = f"\n- repo: {name}\n  why: {q(why)}\n"
     if category:
         entry += f"  category: {category}\n"
