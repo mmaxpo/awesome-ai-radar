@@ -64,7 +64,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.30.8...v1.30.9
 
 ### [v1.30.8](https://github.com/temporalio/temporal/releases/tag/v1.30.8)
-<sub>2026-10-12 · 29d ago</sub>
+<sub>2026-10-12 · 1mo ago</sub>
 
 > **What's Changed**
 > * Bump default CLI to 1.9.1 on release/v1.30.x by @chaptersix in https://github.com/temporalio/temporal/pull/12274
@@ -75,7 +75,7 @@
 > …
 
 ### [v1.31.4](https://github.com/temporalio/temporal/releases/tag/v1.31.4)
-<sub>2026-10-12 · 29d ago</sub>
+<sub>2026-10-12 · 1mo ago</sub>
 
 > **What's Changed**
 > * Bump default CLI to 1.9.1 on release/v1.31.x by @chaptersix in https://github.com/temporalio/temporal/pull/12275

@@ -12,7 +12,7 @@
 | **Why it's worth a look** | ESM3 and ESM C protein language models (successor to Meta's ESM) |
 | **Added** | 2026-11-11 |
 
-↪️ **Moved** — was `evolutionaryscale/esm` · 🆕 **Active this week**
+🆕 **Active this week**
 
 ## 📊 At a glance
 

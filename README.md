@@ -14,7 +14,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**121 repos · 16 categories · 34 new releases this week** · _last checked 2026-11-11 16:37 UTC_
+**121 repos · 16 categories · 34 new releases this week** · _last checked 2026-11-11 16:38 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -61,12 +61,12 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 <details><summary><b>🔨 New commits only</b> (42 repos)</summary>
 
-- **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
-- **[botpress/botpress](repos/botpress__botpress.md)** (today): _feat(cognitive): add classify to the client (1.4.0) (#15543)_
 - **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[dynamo] Fix some reconstruction failures in computed lazy constants …_
-- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
-- **[scikit-learn/scikit-learn](repos/scikit-learn__scikit-learn.md)** (today): _DOC Fix the Mosley2013 reference in the balanced accuracy section (#3…_
 - **[tensorflow/tensorflow](repos/tensorflow__tensorflow.md)** (today): _PR #52725: [XLA:GPU] Expose ROCm's libhipcxx from include/hipccl as i…_
+- **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
+- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
+- **[botpress/botpress](repos/botpress__botpress.md)** (today): _feat(cognitive): add classify to the client (1.4.0) (#15543)_
+- **[scikit-learn/scikit-learn](repos/scikit-learn__scikit-learn.md)** (today): _DOC Fix the Mosley2013 reference in the balanced accuracy section (#3…_
 - **[SeleniumHQ/selenium](repos/SeleniumHQ__selenium.md)** (today): _[java] stop reading and writing Response.status internally (#18171)_
 - **[JustVugg/colibri](repos/JustVugg__colibri.md)** (today): _Merge pull request #2530 from JustVugg/dev_
 - **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
@@ -97,7 +97,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[The-Vibe-Company/quivr](repos/The-Vibe-Company__quivr.md)** (yesterday): _test(demo): walk every main journey of the demo with TesterArmy e2e (…_
 - **[msitarzewski/agency-agents](repos/msitarzewski__agency-agents.md)** (2d ago): _Merge pull request #1253 from msitarzewski/integ/content-batch8_
 - **[PyO3/pyo3](repos/PyO3__pyo3.md)** (2d ago): _feat: introduce stack-allocated `PyBuffer` (#5894)_
-- **[codecrafters-io/build-your-own-x](repos/codecrafters-io__build-your-own-x.md)** (2d ago): _Merge pull request #2089 from thejesh23/add-vector-db-from-scratch_
+- **[codecrafters-io/build-your-own-x](repos/codecrafters-io__build-your-own-x.md)** (3d ago): _Merge pull request #2089 from thejesh23/add-vector-db-from-scratch_
 - **[JoshuaC215/agent-service-toolkit](repos/JoshuaC215__agent-service-toolkit.md)** (3d ago): _chore(deps): bump setuptools from 84.0.0 to 84.1.0 (#407)_
 - **[the-open-agent/openagent](repos/the-open-agent__openagent.md)** (5d ago): _fix: review chat messages with the agent's last reply to stop blockin…_
 - **[OpenBMB/ChatDev](repos/OpenBMB__ChatDev.md)** (5d ago): _Merge pull request #701 from NA-Wen/codex/fix-websocket-owner-loop_
@@ -209,7 +209,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
 | [**google-deepmind/alphafold**](repos/google-deepmind__alphafold.md) 💤<br><sub>Open source code for AlphaFold 2.</sub> | AlphaFold 2: predicts 3D protein structures (Nobel-winning work) | 14.9k | 6mo ago | [v2.3.2](https://github.com/google-deepmind/alphafold/releases/tag/v2.3.2) · 3y ago |
-| [**Biohub/esm**](repos/Biohub__esm.md) 🆕 ↪️ | ESM3 and ESM C protein language models (successor to Meta's ESM) | 3.0k | yesterday | [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) · yesterday |
+| [**Biohub/esm**](repos/Biohub__esm.md) 🆕 | ESM3 and ESM C protein language models (successor to Meta's ESM) | 3.0k | yesterday | [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) · yesterday |
 
 ## 🔌 MCP & SDKs
 
@@ -280,7 +280,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
-| [**codecrafters-io/build-your-own-x**](repos/codecrafters-io__build-your-own-x.md) 🆕<br><sub>Master programming by recreating your favorite technologies from scratch.</sub> | Guides to build your own Git, Docker, DB, etc. from scratch | 561.8k | 2d ago | — |
+| [**codecrafters-io/build-your-own-x**](repos/codecrafters-io__build-your-own-x.md) 🆕<br><sub>Master programming by recreating your favorite technologies from scratch.</sub> | Guides to build your own Git, Docker, DB, etc. from scratch | 561.8k | 3d ago | — |
 | [**Shubhamsaboo/awesome-llm-apps**](repos/Shubhamsaboo__awesome-llm-apps.md) 🆕<br><sub>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</sub> | Many runnable example LLM/agent apps to learn from | 144.4k | today | — |
 | [**karpathy/nanoGPT**](repos/karpathy__nanoGPT.md) 💤<br><sub>The simplest, fastest repository for training/finetuning medium-sized GPTs.</sub> | Minimal code to train a GPT — learn how LLMs work inside | 64.6k | 12mo ago | — |
 | [**ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code**](repos/ashishpatel26__500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code.md)<br><sub>500 AI Machine learning Deep learning Computer vision NLP Projects with code</sub> | 500 AI/ML/CV/NLP project ideas with code | 37.7k | 1mo ago | — |

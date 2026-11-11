@@ -26,7 +26,7 @@
 | 💻 **Languages** | Markdown 100% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `programming` `tutorials` `tutorial-code` `tutorial-exercises` `free` `awesome-list` |
-| 🕒 **Last activity** | 2026-11-08 (2d ago) |
+| 🕒 **Last activity** | 2026-11-08 (3d ago) |
 | 📅 **Created** | 2018-05-09 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `master` |
