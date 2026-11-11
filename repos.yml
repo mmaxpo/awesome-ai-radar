@@ -123,11 +123,6 @@
   status: study
   added: 2026-11-11
 
-- repo: Shaveen12/HumanInTheLoop
-  why: "Human-in-the-loop LangGraph chatbot with FastAPI backend"
-  category: agents
-  status: study
-  added: 2026-11-11
 
 - repo: Significant-Gravitas/AutoGPT
   why: "The original autonomous-agent project, now an agent-building platform"
@@ -781,11 +776,6 @@
   status: study
   added: 2026-11-11
 
-- repo: miladicode823-coder/VEYRA
-  why: "Small new project — no description yet"
-  category: apps
-  status: study
-  added: 2026-11-11
 
 - repo: Swordfish90/cool-retro-term
   why: "Terminal emulator that looks like an old CRT screen"
