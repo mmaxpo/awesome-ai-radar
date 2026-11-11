@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [DOC Fix the Mosley2013 reference in the balanced accuracy section (#3…](https://github.com/scikit-learn/scikit-learn/commit/90f597d3f172eddfb62cd31bac1ba8915c07646d) | erichare |
 | 2026-11-11 | [ENH add newton-cg Array API to PoissonRegressor (#35050)](https://github.com/scikit-learn/scikit-learn/commit/98408191f7e021819b5b39c82db92c116ed03619) | lorentzenchr |
 | 2026-11-10 | [DOC Fix min_cluster_size name and default coupling in the HDBSCAN gui…](https://github.com/scikit-learn/scikit-learn/commit/19b988a4cb03c833c24c36ee0f98343e94da112a) | cakedev0 |
 | 2026-11-10 | [fix: return self from FrozenEstimator.set_params (#35346)](https://github.com/scikit-learn/scikit-learn/commit/bf434819bd98a894a772d68c3d69fffd88fbc6cb) | Yi-111-a |
@@ -103,7 +104,6 @@
 | 2026-11-09 | [:lock: :robot: CI Update lock files for lint CI build(s) :lock: :robo…](https://github.com/scikit-learn/scikit-learn/commit/6cc985a5d4f87c787fcd14c362beeba84d4c69d2) | scikit-learn-bot |
 | 2026-11-09 | [CI Use latest Miniforge on Windows again (#35361)](https://github.com/scikit-learn/scikit-learn/commit/a792a94a768356f3dc392b91d6563b470bc150ef) | cakedev0 |
 | 2026-11-09 | [CI Fix lock-file update workflow on ubuntu-26.04 runners (#35353)](https://github.com/scikit-learn/scikit-learn/commit/79b01f685c868251bfbb5846e672a051ecd01e68) | cakedev0 |
-| 2026-11-09 | [CI Bump conda-lock to 4.0.5 to fix the lock-file update (#35354)](https://github.com/scikit-learn/scikit-learn/commit/c7dda850ed678a99138b3d637b8070070d7a6e8a) | cakedev0 |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

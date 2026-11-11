@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 15.0k |
 | 🍴 **Forks** | 2.3k |
-| 🐞 **Open issues + PRs** | [56](https://github.com/botpress/botpress/issues) |
+| 🐞 **Open issues + PRs** | [55](https://github.com/botpress/botpress/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `ai` `botpress` `chatbot` `chatgpt` `gpt` `gpt-4` `llm` `openai` `langchain` `nlp` `prompt` |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) — 2023-06-22 |
 | 🌿 **Default branch** | `master` |
@@ -89,6 +89,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [feat(cognitive): add classify to the client (1.4.0) (#15543)](https://github.com/botpress/botpress/commit/0658a908567d7fae7384885378b00f33adcc2c58) | AugustDG |
 | 2026-11-10 | [chore(chat): stop deploying chat to ECS (#15528)](https://github.com/botpress/botpress/commit/0cdf37321b43e2340eb17a792e0782a99f8d60f9) | mikaelmoreau-botpress |
 | 2026-11-10 | [fix(integrations/trello)!: reject webhooks that fail signature verifi…](https://github.com/botpress/botpress/commit/4f3d0ea62cc4b6ad0ac0e6409977d8056bc93b25) | allardy |
 | 2026-11-09 | [fix(llmz): send the execution state as its own message between the fi…](https://github.com/botpress/botpress/commit/96c8a755a96f87c81b24ddd844f61e5544d8812d) | SohaibDM |
@@ -98,7 +99,6 @@
 | 2026-11-06 | [chore(client): bump client to version 2.12.0 (#15546)](https://github.com/botpress/botpress/commit/efa5024abb0cb14185ce02e75ac69b8f9fea2819) | zeckrust |
 | 2026-11-06 | [chore: disable deployment of shopify admin (#15545)](https://github.com/botpress/botpress/commit/b4249ec916c9bb4abc6bbcec18908d3ce65ccd83) | franklevasseur |
 | 2026-11-06 | [chore: fix zai build warnings + silent failure (#15544)](https://github.com/botpress/botpress/commit/1df03c23a2ff07880938bc4873065d35ef3fa40f) | franklevasseur |
-| 2026-11-05 | [fix(llmz): stop reading runaway streams past the response envelope (0…](https://github.com/botpress/botpress/commit/4384818689bfae063389ebf9efd03994dd19a98b) | AugustDG |
 
 [See all commits ↗](https://github.com/botpress/botpress/commits)
 

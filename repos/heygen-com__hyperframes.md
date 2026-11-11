@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 82.7k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [239](https://github.com/heygen-com/hyperframes/issues) |
+| 🐞 **Open issues + PRs** | [237](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `framework` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` |
@@ -82,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [chore(producer): keep the probe-needs-a-browser doc on its own functi…](https://github.com/heygen-com/hyperframes/commit/3e04a59500cbbba8471976e76adee7d14bbe413b) | miguel-heygen |
 | 2026-11-11 | [fix(studio-server): load fonts and modules only in the Studio's own p…](https://github.com/heygen-com/hyperframes/commit/ffb13c3b62a1b8ed98fdcd835f15412d0a7ca7e6) | jrusso1020 |
 | 2026-11-11 | [fix(skills): plugin launcher and media helpers run the pinned CLI, no…](https://github.com/heygen-com/hyperframes/commit/a8fe3a5b6844c9f1ae1a4473793eeb11dfcec627) | jrusso1020 |
 | 2026-11-11 | [fix(cli): preview uses the bundled Studio unless local Studio mode is…](https://github.com/heygen-com/hyperframes/commit/668983e1a63efb7618049c73cf9dcad2a5977a4e) | jrusso1020 |
@@ -91,7 +92,6 @@
 | 2026-11-11 | [fix(core): fall back to a direct write when link() is denied with EAC…](https://github.com/heygen-com/hyperframes/commit/f36463e292f4487daef522ec9b19c2dacceb6adb) | miguel-heygen |
 | 2026-11-11 | [fix(cli,studio-server): limit registry installs and Studio file write…](https://github.com/heygen-com/hyperframes/commit/b96c82b785ab8fbd9c030c093de9c39e5dc39342) | jrusso1020 |
 | 2026-11-11 | [fix(studio-server): run thumbnail captures in an opaque origin (#7528)](https://github.com/heygen-com/hyperframes/commit/80cda85d761128e121a1cef0f1378ad342472411) | jrusso1020 |
-| 2026-11-11 | [test(engine): the URL-read concurrency test passes on machines with 3…](https://github.com/heygen-com/hyperframes/commit/3ad7611f9fd36c1cef589c59b116ad7043c3b041) | miguel-heygen |
 
 [See all commits ↗](https://github.com/heygen-com/hyperframes/commits)
 

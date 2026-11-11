@@ -4,7 +4,7 @@
 
 > A curated list of the best open-source AI repos — **that updates itself every day.**
 
-![repos](https://img.shields.io/badge/repos-123-blue) ![active this week](https://img.shields.io/badge/active_this_week-75-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
+![repos](https://img.shields.io/badge/repos-121-blue) ![active this week](https://img.shields.io/badge/active_this_week-76-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
 
 Most awesome lists go stale: dead projects sit next to great ones and you can't tell them apart.
 This list is checked by a GitHub Action **every day**, so you always see:
@@ -14,7 +14,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**123 repos · 17 categories · 33 new releases this week** · _last checked 2026-11-11 16:32 UTC_
+**121 repos · 16 categories · 34 new releases this week** · _last checked 2026-11-11 16:37 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -41,6 +41,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[anomalyco/opencode](repos/anomalyco__opencode.md)** — [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) (yesterday) · 💻 Coding agents & dev tools
 - **[openai/openai-python](repos/openai__openai-python.md)** — [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0) (yesterday) · 🔌 MCP & SDKs
 - **[OpenHands/OpenHands](repos/OpenHands__OpenHands.md)** — [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0) (yesterday) · 💻 Coding agents & dev tools
+- **[Biohub/esm](repos/Biohub__esm.md)** — [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) (yesterday) · 🧬 AI for science
 - **[microsoft/playwright-python](repos/microsoft__playwright-python.md)** — [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0) (yesterday) · 📄 Documents, OCR & web data
 - **[ollama/ollama](repos/ollama__ollama.md)** — [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) (yesterday) · 🖥 Models, local inference & gateways
 - **[assafelovic/gpt-researcher](repos/assafelovic__gpt-researcher.md)** — [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) (2d ago) · 🤖 Agent frameworks & multi-agent
@@ -60,12 +61,14 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 <details><summary><b>🔨 New commits only</b> (42 repos)</summary>
 
-- **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[dynamo] Fix some reconstruction failures in computed lazy constants …_
 - **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
+- **[botpress/botpress](repos/botpress__botpress.md)** (today): _feat(cognitive): add classify to the client (1.4.0) (#15543)_
+- **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[dynamo] Fix some reconstruction failures in computed lazy constants …_
+- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
+- **[scikit-learn/scikit-learn](repos/scikit-learn__scikit-learn.md)** (today): _DOC Fix the Mosley2013 reference in the balanced accuracy section (#3…_
 - **[tensorflow/tensorflow](repos/tensorflow__tensorflow.md)** (today): _PR #52725: [XLA:GPU] Expose ROCm's libhipcxx from include/hipccl as i…_
 - **[SeleniumHQ/selenium](repos/SeleniumHQ__selenium.md)** (today): _[java] stop reading and writing Response.status internally (#18171)_
 - **[JustVugg/colibri](repos/JustVugg__colibri.md)** (today): _Merge pull request #2530 from JustVugg/dev_
-- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
 - **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
 - **[restatedev/restate](repos/restatedev__restate.md)** (today): _[VQueues] Test immediate and retained completion_
 - **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(scheduler): start requests that arrive mid-prefill after the runn…_
@@ -83,11 +86,9 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[keras-team/keras](repos/keras-team__keras.md)** (today): _Normalize imports of `SymbolicScope`/`in_symbolic_scope`. (#24199)_
 - **[casey/just](repos/casey__just.md)** (today): _Preserve trailing comments on attributes (#3776)_
 - **[plasma-umass/scalene](repos/plasma-umass__scalene.md)** (today): _Stop unrecognized `scalene run` options leaking into the program's ar…_
-- **[scikit-learn/scikit-learn](repos/scikit-learn__scikit-learn.md)** (today): _ENH add newton-cg Array API to PoissonRegressor (#35050)_
 - **[evansd/whitenoise](repos/evansd__whitenoise.md)** (today): _Support If-Range on range requests (#727)_
 - **[Mintplex-Labs/anything-llm](repos/Mintplex-Labs__anything-llm.md)** (today): _fix: keep the Content-Type header set in an agent flow API Call block…_
 - **[catboost/catboost](repos/catboost__catboost.md)** (today): _Fix grammar_
-- **[botpress/botpress](repos/botpress__botpress.md)** (today): _chore(chat): stop deploying chat to ECS (#15528)_
 - **[huggingface/smolagents](repos/huggingface__smolagents.md)** (today): _Bump doc-builder workflow pin (#2906)_
 - **[benfred/py-spy](repos/benfred__py-spy.md)** (today): _Refactor interpreter macros (#904)_
 - **[cython/cython](repos/cython__cython.md)** (yesterday): _Use IncRef/DecRef functions on old Limited API (#8125)_
@@ -107,7 +108,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 ## 🗂 Categories
 
-[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (1) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (15) · [🏢 Organizations](#-organizations) (10)
+[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (2) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (12) · [🏢 Organizations](#-organizations) (10)
 
 ## 🤖 Agent frameworks & multi-agent
 
@@ -208,6 +209,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
 | [**google-deepmind/alphafold**](repos/google-deepmind__alphafold.md) 💤<br><sub>Open source code for AlphaFold 2.</sub> | AlphaFold 2: predicts 3D protein structures (Nobel-winning work) | 14.9k | 6mo ago | [v2.3.2](https://github.com/google-deepmind/alphafold/releases/tag/v2.3.2) · 3y ago |
+| [**Biohub/esm**](repos/Biohub__esm.md) 🆕 ↪️ | ESM3 and ESM C protein language models (successor to Meta's ESM) | 3.0k | yesterday | [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) · yesterday |
 
 ## 🔌 MCP & SDKs
 
@@ -309,14 +311,11 @@ Archived, or no activity for over two years. Still useful to read and learn from
 | [**mistralai/mistral-inference**](repos/mistralai__mistral-inference.md) | Official code to run Mistral models | 🖥 Models, local inference & gateways | 10.8k | archived by its owner |
 | [**OpenBMB/AgentVerse**](repos/OpenBMB__AgentVerse.md) | Framework for multi-agent collaboration and simulation | 🤖 Agent frameworks & multi-agent | 5.2k | no activity since Sep 2024 |
 | [**matplotlib/mplfinance**](repos/matplotlib__mplfinance.md) | Candlestick and financial charts with matplotlib | 📈 Classic ML, data science & vision | 4.5k | no activity since Aug 2024 |
-| [**facebookresearch/esm**](repos/facebookresearch__esm.md) | Meta's protein language models (ESM) | 🧬 AI for science | 4.2k | archived by its owner |
 | [**a16z-infra/ai-getting-started**](repos/a16z-infra__ai-getting-started.md) | Starter stack for AI apps (a16z) | 📚 Awesome lists & learning | 4.1k | no activity since Aug 2024 |
 | [**PixArt-alpha/PixArt-alpha**](repos/PixArt-alpha__PixArt-alpha.md) | Fast, efficient transformer text-to-image model | 🖼 Image & video generation | 3.3k | no activity since Oct 2024 |
 | [**BCG-X-Official/agentkit**](repos/BCG-X-Official__agentkit.md) | Starter kit to build agent apps (Next.js + FastAPI + LangChain) | 🤖 Agent frameworks & multi-agent | 1.9k | archived by its owner |
 | [**hkproj/pytorch-stable-diffusion**](repos/hkproj__pytorch-stable-diffusion.md) | Stable Diffusion built from scratch in PyTorch — learn how it works | 🖼 Image & video generation | 1.1k | no activity since Oct 2024 |
-| [**mhbashari/awesome-persian-nlp-ir**](repos/mhbashari__awesome-persian-nlp-ir.md) | Curated list of Persian NLP resources | 🇮🇷 Persian NLP | 773 | no activity since Nov 2023 |
 | [**pnkvalavala/repochat**](repos/pnkvalavala__repochat.md) | Chat with a GitHub repo using RAG | 💻 Coding agents & dev tools | 318 | no activity since Aug 2024 |
-| [**ICTRC/Parsivar**](repos/ICTRC__Parsivar.md) | Persian text processing toolkit (normalize, tokenize, stem) | 🇮🇷 Persian NLP | 249 | no activity since Jan 2024 |
 | [**sorki/python-mnist**](repos/sorki__python-mnist.md) | Simple loader for the MNIST handwritten-digit dataset | 📈 Classic ML, data science & vision | 187 | no activity since Oct 2021 |
 
 ## 📎 More resources
@@ -340,13 +339,10 @@ Papers, courses, models and sites that aren't GitHub repos (so they're not track
 
 - [Transformers from Scratch (Brandon Rohrer)](https://brandonrohrer.com/transformers.html) — Clear, step-by-step explanation of how transformers work
 - [AlphaFold: a solution to a 50-year-old grand challenge in biology](https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/) — DeepMind's announcement of AlphaFold
-- [The anatomy of a trading bot](https://kuegi.medium.com/the-anatomy-of-a-trading-bot-7c1ee783d6f1) — How an automated trading bot is structured
 - [Setosa: Explained Visually](https://setosa.io/) — Interactive visual explanations of math and stats concepts
 - [KDnuggets](https://www.kdnuggets.com) — Data-science and ML news and tutorials
 - [ML Topics (Notion notes)](https://equatorial-sternum-35b.notion.site/ML-Topics-b1ae86eda5c54b02bb22ad751dfda8e5) — Organized notes on machine-learning topics
 - [Midjourney Getting Started Guide](https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide) — Official guide to prompting Midjourney
-- [Best crypto APIs for developers](https://medium.com/coinmonks/best-crypto-apis-for-developers-5efe3a597a9f) — Overview of crypto data APIs
-- [Creating generative-art NFTs with Python and Solidity](https://medium.com/coinmonks/creating-generative-art-nfts-with-python-solidity-a95eaeea515e) — Tutorial: generative art + smart contracts
 
 **🤗 Models & datasets**
 
@@ -366,17 +362,23 @@ Papers, courses, models and sites that aren't GitHub repos (so they're not track
 - [Matroid](https://www.matroid.com) — No-code computer-vision platform
 - [Vectorizer.io](https://www.vectorizer.io) — Convert images to vector (SVG)
 - [Bright Data Scraping Browser](https://brightdata.com/pricing/scraping-browser) — Paid hosted browser for web scraping at scale
-- [BscScan](https://bscscan.com) — Block explorer for BNB Smart Chain
 - [Hugging Face Enterprise Hub](https://huggingface.co/enterprise) — Private model hosting and team features on Hugging Face
 - [Numerai](https://numer.ai) — Data-science tournament that powers a hedge fund
-- [CoinGecko](https://www.coingecko.com) — Crypto prices and market-data API
-- [CryptoCompare](https://www.cryptocompare.com) — Crypto market-data API
-- [Tiingo](https://www.tiingo.com) — Stock and crypto market-data API
 - [Amazon Selling Partner API](https://developer.amazonservices.com) — Developer portal for Amazon seller automation
 - [UiPath](https://www.uipath.com) — Robotic process automation (RPA) platform
 - [Writesonic](https://writesonic.com) — AI writing tool
 - [Originality.ai](https://originality.ai) — AI-content and plagiarism detector
 - [DLabs.AI](https://dlabs.ai) — AI development company
+
+**🪙 Crypto & trading**
+
+- [The anatomy of a trading bot](https://kuegi.medium.com/the-anatomy-of-a-trading-bot-7c1ee783d6f1) — How an automated trading bot is structured
+- [BscScan](https://bscscan.com) — Block explorer for BNB Smart Chain
+- [Best crypto APIs for developers](https://medium.com/coinmonks/best-crypto-apis-for-developers-5efe3a597a9f) — Overview of crypto data APIs
+- [Creating generative-art NFTs with Python and Solidity](https://medium.com/coinmonks/creating-generative-art-nfts-with-python-solidity-a95eaeea515e) — Tutorial: generative art + smart contracts
+- [CoinGecko](https://www.coingecko.com) — Crypto prices and market-data API
+- [CryptoCompare](https://www.cryptocompare.com) — Crypto market-data API
+- [Tiingo](https://www.tiingo.com) — Stock and crypto market-data API
 
 ## 🏢 Organizations
 
