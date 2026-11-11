@@ -53,3 +53,43 @@
   why: "Collection of chatbot system prompts, for prompt study"
   status: study
   added: 2026-11-11
+
+- repo: jasonlee-breadcrumb/motion-os
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: miladicode823-coder/VEYRA
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: temporalio/temporal
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: anomalyco/opencode
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: OpenHands/OpenHands
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: restatedev/restate
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: dbos-inc/dbos-transact-py
+  why: ""
+  status: study
+  added: 2026-11-11
+
+- repo: jundot/omlx
+  why: ""
+  status: study
+  added: 2026-11-11
