@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Simple loader for the MNIST handwritten-digit dataset |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 5y
+🪦 **Discontinued** — no activity since Oct 2021
 
 ## 📊 At a glance
 

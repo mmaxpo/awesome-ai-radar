@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Official code to run Mistral models |
 | **Added** | 2026-11-11 |
 
-🗄 **Archived** — no longer maintained
+🪦 **Discontinued** — archived by its owner
 
 ## 📊 At a glance
 

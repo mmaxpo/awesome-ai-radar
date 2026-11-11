@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Starter stack for AI apps (a16z) |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 2y
+🪦 **Discontinued** — no activity since Aug 2024
 
 ## 📊 At a glance
 

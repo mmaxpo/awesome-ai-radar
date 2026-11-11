@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 24.1k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [905](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [904](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |

@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Curated list of Persian NLP resources |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 3y
+🪦 **Discontinued** — no activity since Nov 2023
 
 ## 📊 At a glance
 

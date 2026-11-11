@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Persian text processing toolkit (normalize, tokenize, stem) |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 2y
+🪦 **Discontinued** — no activity since Jan 2024
 
 ## 📊 At a glance
 

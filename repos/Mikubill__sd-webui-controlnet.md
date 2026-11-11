@@ -14,7 +14,7 @@
 | **Why it's worth a look** | ControlNet extension for A1111 — control pose, edges, depth |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 2y
+🪦 **Discontinued** — no activity since Aug 2024
 
 ## 📊 At a glance
 

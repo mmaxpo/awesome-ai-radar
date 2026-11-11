@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Run autonomous agents in the browser (an early classic) |
 | **Added** | 2026-11-11 |
 
-🗄 **Archived** — no longer maintained
+🪦 **Discontinued** — archived by its owner
 
 ## 📊 At a glance
 

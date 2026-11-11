@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Framework for multi-agent collaboration and simulation |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 2y
+🪦 **Discontinued** — no activity since Sep 2024
 
 ## 📊 At a glance
 
