@@ -4,7 +4,7 @@
 
 > A curated list of the best open-source AI repos — **that updates itself every day.**
 
-![repos](https://img.shields.io/badge/repos-121-blue) ![active this week](https://img.shields.io/badge/active_this_week-73-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
+![repos](https://img.shields.io/badge/repos-122-blue) ![active this week](https://img.shields.io/badge/active_this_week-74-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
 
 Most awesome lists go stale: dead projects sit next to great ones and you can't tell them apart.
 This list is checked by a GitHub Action **every day**, so you always see:
@@ -14,7 +14,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**121 repos · 17 categories · 32 new releases this week** · _last checked 2026-11-11 16:08 UTC_
+**122 repos · 17 categories · 33 new releases this week** · _last checked 2026-11-11 16:14 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -26,6 +26,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 - **[lobehub/lobehub](repos/lobehub__lobehub.md)** — [v0.0.0-nightly.pr22826.39064](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22826.39064) (today) · 🧩 Low-code builders & chat UIs
 - **[modelcontextprotocol/servers](repos/modelcontextprotocol__servers.md)** — [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0) (today) · 🔌 MCP & SDKs
+- **[heygen-com/hyperframes](repos/heygen-com__hyperframes.md)** — [v0.9.33](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.33) (today) · 🖼 Image & video generation
 - **[CopilotKit/CopilotKit](repos/CopilotKit__CopilotKit.md)** — [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0) (today) · 🧩 Low-code builders & chat UIs
 - **[openinterpreter/openinterpreter](repos/openinterpreter__openinterpreter.md)** — [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) (today) · 💻 Coding agents & dev tools
 - **[BerriAI/litellm](repos/BerriAI__litellm.md)** — [v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8) (today) · 🖥 Models, local inference & gateways
@@ -59,8 +60,8 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 <details><summary><b>🔨 New commits only</b> (41 repos)</summary>
 
+- **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[dynamo] Fix some reconstruction failures in computed lazy constants …_
 - **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
-- **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[ROCm] Update rocm preview wheel to 10.3.0a20261110 (#202821)_
 - **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
 - **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
 - **[tensorflow/tensorflow](repos/tensorflow__tensorflow.md)** (today): _Integrate LLVM at llvm/llvm-project@bb04dac04a0f_
@@ -105,7 +106,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 ## 🗂 Categories
 
-[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (16) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (1) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (6) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (15) · [🏢 Organizations](#-organizations) (10)
+[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (16) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (1) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (15) · [🏢 Organizations](#-organizations) (10)
 
 ## 🤖 Agent frameworks & multi-agent
 
@@ -154,7 +155,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
-| [**Mintplex-Labs/anything-llm**](repos/Mintplex-Labs__anything-llm.md) 🆕<br><sub>Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent …</sub> | All-in-one desktop/Docker app to chat with docs, agents included | 68.2k | today | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) · 15d ago |
+| [**Mintplex-Labs/anything-llm**](repos/Mintplex-Labs__anything-llm.md) 🆕<br><sub>Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent …</sub> | All-in-one desktop/Docker app to chat with docs, agents included | 68.2k | today | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) · 16d ago |
 | [**zylon-ai/private-gpt**](repos/zylon-ai__private-gpt.md) 🆕<br><sub>Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more…</sub> | Private, local Q&A over your documents | 57.6k | today | [v1.0.1](https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1) · 4mo ago |
 | [**volcengine/OpenViking**](repos/volcengine__OpenViking.md) 🆕<br><sub>Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</sub> | Context database for agents: memory + RAG + skills | 42.0k | today | [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) · today |
 | [**The-Vibe-Company/quivr**](repos/The-Vibe-Company__quivr.md) 🆕<br><sub>An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hyb…</sub> | Opinionated RAG 'second brain' building block | 39.6k | yesterday | [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2) · 12d ago |
@@ -238,6 +239,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 |---|---|---|---|---|
 | [**AUTOMATIC1111/stable-diffusion-webui**](repos/AUTOMATIC1111__stable-diffusion-webui.md) 💤<br><sub>Stable Diffusion web UI</sub> | The classic Stable Diffusion web UI with a huge extension ecosystem | 165.3k | 8mo ago | [v1.10.1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1) · 1y ago |
 | [**Comfy-Org/ComfyUI**](repos/Comfy-Org__ComfyUI.md) 🆕<br><sub>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest l…</sub> | Node-based diffusion GUI/API — image & video pipelines | 146.3k | today | [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) · today |
+| [**heygen-com/hyperframes**](repos/heygen-com__hyperframes.md) 🆕<br><sub>Write HTML. Render video. Built for agents.</sub> | HeyGen's framework: write HTML, render video — built for AI agents | 82.7k | today | [v0.9.33](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.33) · today |
 | [**lllyasviel/Fooocus**](repos/lllyasviel__Fooocus.md) 💤<br><sub>Focus on prompting and generating</sub> | Simple, Midjourney-style SD image generator | 53.9k | 11mo ago | [v2.5.5](https://github.com/lllyasviel/Fooocus/releases/tag/v2.5.5) · 2y ago |
 | [**camenduru/stable-diffusion-webui-colab**](repos/camenduru__stable-diffusion-webui-colab.md) 💤<br><sub>stable diffusion webui colab</sub> | Run SD WebUI in Google Colab notebooks | 15.9k | 11mo ago | [0.0.17](https://github.com/camenduru/stable-diffusion-webui-colab/releases/tag/0.0.17) · 3y ago |
 | [**modelscope/DiffSynth-Studio**](repos/modelscope__DiffSynth-Studio.md) 🆕<br><sub>Enjoy the magic of Diffusion models!</sub> | Diffusion engine for image/video generation and editing | 13.4k | today | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) · 11mo ago |

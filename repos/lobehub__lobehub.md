@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [🐛 fix(desktop): take the task topic drawer header out of the drag reg…](https://github.com/lobehub/lobehub/commit/2895043dd040d0cb792e8f9c3fb5f376ff9b5f61) | arvinxx |
 | 2026-11-11 | [✨ feat(agent-quota): keep reported subscription accounts private and …](https://github.com/lobehub/lobehub/commit/a4f67106abc51786103f18008b357f4d176b67b5) | arvinxx |
 | 2026-11-11 | [🐛 fix(sandbox-drive): say a usage refresh could not measure instead o…](https://github.com/lobehub/lobehub/commit/b7c15746b94b38327168ebba46637d6320e79101) | rdmclin2 |
 | 2026-11-11 | [♻️ refactor(model-runtime): extract shared Router routing helpers (#2…](https://github.com/lobehub/lobehub/commit/25e3c3152d04a0b4cb4ff7e8e09448f513b31390) | arvinxx |
@@ -103,7 +104,6 @@
 | 2026-11-11 | [💄 style(goal): move archive beside the favorite star on the goal deta…](https://github.com/lobehub/lobehub/commit/7dde5fe4728a5ccb7848734629c76cad640a89a4) | rdmclin2 |
 | 2026-11-11 | [✨ feat(chat-input): link the Cloud drive menu to Sandbox Storage (#22…](https://github.com/lobehub/lobehub/commit/b7887894881b4bd55b5fb127e686fb44fb11102c) | rdmclin2 |
 | 2026-11-11 | [🔨 chore(cli): publish patches on production code changes (#22812)](https://github.com/lobehub/lobehub/commit/15b0269f20c3d6be9dd837798234bd125c4996c6) | rdmclin2 |
-| 2026-11-11 | [✨ feat(linear): option to sync issue labels onto tasks (#22392)](https://github.com/lobehub/lobehub/commit/5c357c14a458d3cbffdef2f0dad7e5b13204c91b) | rdmclin2 |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

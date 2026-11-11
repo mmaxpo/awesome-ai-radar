@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [[dynamo] Fix some reconstruction failures in computed lazy constants …](https://github.com/pytorch/pytorch/commit/e38f7e5c7e40be1424f70554357ba502f88eb338) | rtimpe |
+| 2026-11-11 | [[dynamo] Allow tracing float subclasses in python 3.11 (#203642)](https://github.com/pytorch/pytorch/commit/a75dd5d3d8bad1e384fa57bcdd4917bf620bd4c1) | rtimpe |
+| 2026-11-11 | [[dynamo] Pass print HOP format strings as graph inputs (#201483)](https://github.com/pytorch/pytorch/commit/6219df20c2f0b89f3cacee83fbd4157b18ffaf3f) | rtimpe |
 | 2026-11-11 | [[ROCm] Update rocm preview wheel to 10.3.0a20261110 (#202821)](https://github.com/pytorch/pytorch/commit/b6751f13523657eaebfc769fcb3dacd9fbaff119) | chinmaydk99 |
 | 2026-11-11 | [[ROCm]: Add Operator Benchmarks for Group GEMM (#202666)](https://github.com/pytorch/pytorch/commit/d4e6027656a2a53ebfde047a31f89cd9159f67ae) | TheRealMichaelWang |
 | 2026-11-11 | [Run a test shard against an editable install (#203390)](https://github.com/pytorch/pytorch/commit/b95ed4b8bd19a06890083ac6d45e7dfc5d6f3050) | zklaus |
@@ -101,9 +104,6 @@
 | 2026-11-11 | [Promote Inductor and AOTInductor test skips (#203629)](https://github.com/pytorch/pytorch/commit/ca93cf6be6a4e342b3a0cf5b28c9f1dc1fcab311) | jathu |
 | 2026-11-11 | [Promote compiler frontend and compatibility test skips (#203628)](https://github.com/pytorch/pytorch/commit/e0a644d262b9139ca2ff5247eaf80d0fbc2e6540) | jathu |
 | 2026-11-11 | [Promote eager and backend test skips to collection (#203627)](https://github.com/pytorch/pytorch/commit/ddcc85b9e860c1de9e5fca03ac8712edcac896aa) | jathu |
-| 2026-11-11 | [Expose existing shared test skips at collection (#203626)](https://github.com/pytorch/pytorch/commit/1fb9bca7ac5e273f0ec39dd53ccbed37a590e588) | jathu |
-| 2026-11-11 | [Prune existing skips before sharding (#203625)](https://github.com/pytorch/pytorch/commit/5f18a31f4379e3fbf2e779c4106b841f6a74fe11) | jathu |
-| 2026-11-11 | [[headeronly] Moved TransposeType to torch/headeronly (#204244)](https://github.com/pytorch/pytorch/commit/3519cba5cb6923b734b9a59eaf4c3a2fb64f4532) | cleonard530 |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 
