@@ -106,6 +106,24 @@
   status: study
   added: 2026-11-11
 
+- repo: wassim249/fastapi-langgraph-agent-production-ready-template
+  why: "Production-ready FastAPI + LangGraph agent template"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: JoshuaC215/agent-service-toolkit
+  why: "Full toolkit: LangGraph agent + FastAPI service + Streamlit UI"
+  category: agents
+  status: study
+  added: 2026-11-11
+
+- repo: Shaveen12/HumanInTheLoop
+  why: "Human-in-the-loop agent example"
+  category: agents
+  status: study
+  added: 2026-11-11
+
 # ───────── 💻 Coding agents & dev tools ─────────
 
 - repo: anomalyco/opencode
@@ -254,6 +272,18 @@
 
 - repo: tesseract-ocr/tesseract
   why: "Classic open-source OCR engine"
+  category: documents
+  status: study
+  added: 2026-11-11
+
+- repo: microsoft/playwright-python
+  why: "Browser automation for Python (scraping, testing, agents)"
+  category: documents
+  status: study
+  added: 2026-11-11
+
+- repo: seleniumhq/selenium
+  why: "Classic browser automation framework"
   category: documents
   status: study
   added: 2026-11-11
@@ -412,6 +442,12 @@
   status: study
   added: 2026-11-11
 
+- repo: modelscope/DiffSynth-Studio
+  why: "Diffusion engine for image/video generation and editing"
+  category: design
+  status: study
+  added: 2026-11-11
+
 # ───────── 🇮🇷 Persian NLP ─────────
 
 - repo: ICTRC/Parsivar
@@ -454,6 +490,18 @@
 
 - repo: docker/genai-stack
   why: "Docker stack for GenAI apps (LLM + Neo4j + LangChain)"
+  category: learning
+  status: study
+  added: 2026-11-11
+
+- repo: karpathy/nanoGPT
+  why: "Minimal code to train a GPT — learn how LLMs work inside"
+  category: learning
+  status: study
+  added: 2026-11-11
+
+- repo: codecrafters-io/build-your-own-x
+  why: "Guides to build your own Git, Docker, DB, etc. from scratch"
   category: learning
   status: study
   added: 2026-11-11
@@ -501,3 +549,6 @@
 
 - org: OpenBMB
   why: "ChatDev, XAgent, AgentVerse, MiniCPM"
+
+- org: ZenRows
+  why: "Web scraping APIs and tools"
