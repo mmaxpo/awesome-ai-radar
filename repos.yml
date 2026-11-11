@@ -432,7 +432,7 @@
   status: study
   added: 2026-11-11
 
-- repo: evolutionaryscale/esm
+- repo: Biohub/esm
   why: "ESM3 and ESM C protein language models (successor to Meta's ESM)"
   category: science
   status: study
