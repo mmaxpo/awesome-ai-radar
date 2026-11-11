@@ -11,7 +11,7 @@
 | **Status** | study |
 | **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why I saved it** | Human-in-the-loop agent example |
+| **Why I saved it** | Human-in-the-loop LangGraph chatbot with FastAPI backend |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

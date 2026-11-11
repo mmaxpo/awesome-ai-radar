@@ -4,7 +4,7 @@ Repos I'm following, grouped by topic. Edit [`repos.yml`](repos.yml) to add or r
 this page refreshes automatically every day. Click a repo name for its full sheet,
 or open [`repos.csv`](repos.csv) to see everything in one sortable table.
 
-_Last updated: 2026-11-11 10:17 UTC · 83 repos · 4 organizations_
+_Last updated: 2026-11-11 10:22 UTC · 91 repos · 6 organizations_
 
 ## 🔥 What's new (last 7 days)
 
@@ -18,6 +18,7 @@ _Last updated: 2026-11-11 10:17 UTC · 83 repos · 4 organizations_
 - **[volcengine/OpenViking](repos/volcengine__OpenViking.md)** — [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) (today) · 🧠 RAG, memory & chat with your data
 - **[pizza-bot-app/pizza-bot](repos/pizza-bot-app__pizza-bot.md)** — [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) (today) · 🛠 Apps & other
 - **[langflow-ai/langflow](repos/langflow-ai__langflow.md)** — [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) (today) · 🧩 Low-code builders & chat UIs
+- **[Comfy-Org/ComfyUI](repos/Comfy-Org__ComfyUI.md)** — [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) (today) · 🖼 Image & video generation
 - **[dbos-inc/dbos-transact-py](repos/dbos-inc__dbos-transact-py.md)** — [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) (today) · 🔁 Durable workflows & orchestration
 - **[stanfordnlp/dspy](repos/stanfordnlp__dspy.md)** — [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) (today) · ✍️ Prompting & LLM programming
 - **[anomalyco/opencode](repos/anomalyco__opencode.md)** — [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) (today) · 💻 Coding agents & dev tools
@@ -38,9 +39,9 @@ _Last updated: 2026-11-11 10:17 UTC · 83 repos · 4 organizations_
 
 <details><summary><b>🔨 New commits only</b> (26 repos)</summary>
 
+- **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(qwen4-exp): keep g13/g14 GPUs on the MLX path (#5089)_
 - **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _docs: update translated pages (#5388)_
 - **[seleniumhq/selenium](repos/seleniumhq__selenium.md)** (today): _[java] stop reading and writing Response.status internally (#18171)_
-- **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(scheduler): keep the Metal wired limit when a batch generator closes (#5165)_
 - **[restatedev/restate](repos/restatedev__restate.md)** (today): _[restatectl] Show how much log lies between a snapshot and the tail_
 - **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
 - **[cline/cline](repos/cline__cline.md)** (today): _refactor(vscode): remove dead onboarding models state and proto messages (#15638)_
@@ -69,7 +70,7 @@ _Last updated: 2026-11-11 10:17 UTC · 83 repos · 4 organizations_
 
 ## 🗂 Categories
 
-[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (18) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (8) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (7) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (6) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🎨 Design & creative](#-design--creative) (6) · [🇮🇷 Persian NLP](#-persian-nlp) (2) · [📚 Awesome lists & learning](#-awesome-lists--learning) (7) · [🛠 Apps & other](#-apps--other) (5) · [🏢 Organizations](#-organizations) (4)
+[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (18) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (8) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (7) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (6) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (9) · [🎨 Design & creative](#-design--creative) (5) · [🇮🇷 Persian NLP](#-persian-nlp) (2) · [📚 Awesome lists & learning](#-awesome-lists--learning) (7) · [🛠 Apps & other](#-apps--other) (5) · [🏢 Organizations](#-organizations) (6)
 
 ## 🤖 Agent frameworks & multi-agent
 
@@ -92,7 +93,7 @@ _Last updated: 2026-11-11 10:17 UTC · 83 repos · 4 organizations_
 | [**JoshuaC215/agent-service-toolkit**](repos/JoshuaC215__agent-service-toolkit.md) 🆕<br><sub>Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit</sub> | Full toolkit: LangGraph agent + FastAPI service + Streamlit UI | 📚 study | 4.6k | 3d ago | — |
 | [**wassim249/fastapi-langgraph-agent-production-ready-template**](repos/wassim249__fastapi-langgraph-agent-production-ready-template.md)<br><sub>A production-ready FastAPI template for building AI agent applications with LangGraph integration. This templa…</sub> | Production-ready FastAPI + LangGraph agent template | 📚 study | 2.7k | 25d ago | — |
 | [**BCG-X-Official/agentkit**](repos/BCG-X-Official__agentkit.md) 🗄<br><sub>Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain</sub> | Starter kit to build agent apps (Next.js + FastAPI + LangChain) | 📚 study | 1.9k | 7mo ago | — |
-| [**Shaveen12/HumanInTheLoop**](repos/Shaveen12__HumanInTheLoop.md)<br><sub>A human in the loop langGraph Chatbot with a fastAPI backend</sub> | Human-in-the-loop agent example | 📚 study | 9 | 2mo ago | — |
+| [**Shaveen12/HumanInTheLoop**](repos/Shaveen12__HumanInTheLoop.md)<br><sub>A human in the loop langGraph Chatbot with a fastAPI backend</sub> | Human-in-the-loop LangGraph chatbot with FastAPI backend | 📚 study | 9 | 2mo ago | — |
 
 ## 💻 Coding agents & dev tools
 
@@ -179,6 +180,20 @@ _Last updated: 2026-11-11 10:17 UTC · 83 repos · 4 organizations_
 | [**asgeirtj/system_prompts_leaks**](repos/asgeirtj__system_prompts_leaks.md) 🆕<br><sub>Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, …</sub> | Collection of chatbot system prompts, for prompt study | 📚 study | 71.2k | yesterday | — |
 | [**stanfordnlp/dspy**](repos/stanfordnlp__dspy.md) 🆕<br><sub>DSPy: The framework for programming—not prompting—language models</sub> | Program and auto-optimize prompts instead of hand-writing them | 📚 study | 39.0k | today | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) · today |
 
+## 🖼 Image & video generation
+
+| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|---|
+| [**AUTOMATIC1111/stable-diffusion-webui**](repos/AUTOMATIC1111__stable-diffusion-webui.md) 💤<br><sub>Stable Diffusion web UI</sub> | The classic Stable Diffusion web UI (I have a fork) | 📚 study | 165.3k | 8mo ago | [v1.10.1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1) · 1y ago |
+| [**Comfy-Org/ComfyUI**](repos/Comfy-Org__ComfyUI.md) 🆕<br><sub>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest l…</sub> | Node-based diffusion GUI/API — image & video pipelines | 📚 study | 146.3k | today | [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) · today |
+| [**lllyasviel/Fooocus**](repos/lllyasviel__Fooocus.md) 💤<br><sub>Focus on prompting and generating</sub> | Simple, Midjourney-style SD image generator | 📚 study | 53.9k | 11mo ago | [v2.5.5](https://github.com/lllyasviel/Fooocus/releases/tag/v2.5.5) · 2y ago |
+| [**Mikubill/sd-webui-controlnet**](repos/Mikubill__sd-webui-controlnet.md) 💤<br><sub>WebUI extension for ControlNet</sub> | ControlNet extension for A1111 — control pose, edges, depth | 📚 study | 17.8k | 2y ago | — |
+| [**camenduru/stable-diffusion-webui-colab**](repos/camenduru__stable-diffusion-webui-colab.md) 💤<br><sub>stable diffusion webui colab</sub> | Run SD WebUI in Google Colab notebooks | 📚 study | 15.9k | 11mo ago | [0.0.17](https://github.com/camenduru/stable-diffusion-webui-colab/releases/tag/0.0.17) · 3y ago |
+| [**modelscope/DiffSynth-Studio**](repos/modelscope__DiffSynth-Studio.md) 🆕<br><sub>Enjoy the magic of Diffusion models!</sub> | Diffusion engine for image/video generation and editing | 📚 study | 13.4k | today | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) · 11mo ago |
+| [**PixArt-alpha/PixArt-alpha**](repos/PixArt-alpha__PixArt-alpha.md) 💤<br><sub>PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis</sub> | Fast, efficient transformer text-to-image model | 📚 study | 3.3k | 2y ago | — |
+| [**Scholar01/sd-webui-mov2mov**](repos/Scholar01__sd-webui-mov2mov.md) 💤<br><sub>This is the Mov2mov plugin for Automatic1111/stable-diffusion-webui.</sub> | A1111 extension: video-to-video with Stable Diffusion | 📚 study | 2.2k | 1y ago | — |
+| [**hkproj/pytorch-stable-diffusion**](repos/hkproj__pytorch-stable-diffusion.md) 💤<br><sub>Stable Diffusion implemented from scratch in PyTorch</sub> | Stable Diffusion built from scratch in PyTorch — learn how it works | 📚 study | 1.1k | 2y ago | — |
+
 ## 🎨 Design & creative
 
 | Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |
@@ -186,7 +201,6 @@ _Last updated: 2026-11-11 10:17 UTC · 83 repos · 4 organizations_
 | [**voltagent/awesome-design-md**](repos/voltagent__awesome-design-md.md)<br><sub>A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let c…</sub> | Collection of DESIGN.md files for AI design guidance | 📚 study | 126.7k | 13d ago | — |
 | [**leonxlnx/taste-skill**](repos/leonxlnx__taste-skill.md) 🆕<br><sub>Agent skills that give coding agents taste: art direction, reference images and a browser check instead of gen…</sub> | Skill that gives AI better design taste | 📚 study | 113.2k | 2d ago | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) · 3d ago |
 | [**img2threejs/img2threejs**](repos/img2threejs__img2threejs.md) 🆕<br><sub>Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js mo…</sub> | Turn images into Three.js scenes | 📚 study | 21.2k | 6d ago | [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1) · 6d ago |
-| [**modelscope/DiffSynth-Studio**](repos/modelscope__DiffSynth-Studio.md) 🆕<br><sub>Enjoy the magic of Diffusion models!</sub> | Diffusion engine for image/video generation and editing | 📚 study | 13.4k | today | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) · 11mo ago |
 | [**MengTo/kage**](repos/MengTo__kage.md)<br><sub>An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.</sub> | Test entry | 📚 study | 1.8k | 3mo ago | — |
 | [**jasonlee-breadcrumb/motion-os**](repos/jasonlee-breadcrumb__motion-os.md)<br><sub>Ask Claude for a motion graphic, review it scene by scene in a local player, send changes back in one prompt.</sub> | Make motion graphics with Claude, review scene by scene | 📚 study | 87 | 1mo ago | — |
 
@@ -268,6 +282,30 @@ _Last updated: 2026-11-11 10:17 UTC · 83 repos · 4 organizations_
 | [ZenRows/cli](https://github.com/ZenRows/cli)<br><sub>Zero-config CLI that gives AI agents reliable access to protected web data through Zenrows…</sub> | 16 | 4d ago |
 | [ZenRows/zenrows-go-sdk](https://github.com/ZenRows/zenrows-go-sdk)<br><sub>Zenrows® SDK for effective scraping in the Go programming language</sub> | 4 | 4d ago |
 | [ZenRows/browser-js-sdk](https://github.com/ZenRows/browser-js-sdk) | 2 | 6d ago |
+
+### [Stability AI](https://github.com/Stability-AI) — Makers of Stable Diffusion
+<sub> · 109 public repos</sub>
+
+| Top repo | ⭐ | Last activity |
+|---|---|---|
+| [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models)<br><sub>Generative Models by Stability AI</sub> | 27.3k | 11mo ago |
+| [Stability-AI/StableSwarmUI](https://github.com/Stability-AI/StableSwarmUI)<br><sub>StableSwarmUI, A Modular Stable Diffusion Web-User-Interface, with an emphasis on making p…</sub> | 4.9k | 27d ago |
+| [Stability-AI/stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools)<br><sub>Generative models for conditional audio generation</sub> | 3.9k | 10d ago |
+| [Stability-AI/stability-sdk](https://github.com/Stability-AI/stability-sdk)<br><sub>SDK for interacting with stability.ai APIs (e.g. stable diffusion inference)</sub> | 2.4k | 6mo ago |
+| [Stability-AI/stable-virtual-camera](https://github.com/Stability-AI/stable-virtual-camera)<br><sub>Stable Virtual Camera: Generative View Synthesis with Diffusion Models</sub> | 1.7k | 8mo ago |
+| [Stability-AI/stable-audio-3](https://github.com/Stability-AI/stable-audio-3) | 864 | 8d ago |
+
+### [Furkan Gözükara](https://github.com/FurkanGozukara) — AI image/video tutorials and scripts
+<sub>Assistant Professor of Computer Engineering at Mersin University / Generative AI researcher, developer & educator / Founder of SECourses · 270 public repos</sub>
+
+| Top repo | ⭐ | Last activity |
+|---|---|---|
+| [FurkanGozukara/Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion)<br><sub>FLUX, Stable Diffusion, SDXL, SD3, LoRA, Fine Tuning, DreamBooth, Training, Automatic1111,…</sub> | 2.8k | today |
+| [FurkanGozukara/FurkanGozukara](https://github.com/FurkanGozukara/FurkanGozukara)<br><sub>Who is Dr. Furkan Gözükara</sub> | 16 | today |
+| [FurkanGozukara/Generative-AI-Tools-And-Tecniques-2026-2027-Fall](https://github.com/FurkanGozukara/Generative-AI-Tools-And-Tecniques-2026-2027-Fall) | 15 | 6d ago |
+| [FurkanGozukara/Hi3DGen](https://github.com/FurkanGozukara/Hi3DGen)<br><sub>Stable3DGen by SECourses forked from -stableprojectorz</sub> | 5 | 22d ago |
+| [FurkanGozukara/SECoursesAudioTools](https://github.com/FurkanGozukara/SECoursesAudioTools) | 2 | today |
+| [FurkanGozukara/SECourses_Premium_Upscaler_Pro](https://github.com/FurkanGozukara/SECourses_Premium_Upscaler_Pro) | 2 | 2d ago |
 
 ---
 🆕 active in the last 7 days · 💤 quiet for over 6 months · 🗄 archived · ↪️ moved/renamed · ⚠️ not found

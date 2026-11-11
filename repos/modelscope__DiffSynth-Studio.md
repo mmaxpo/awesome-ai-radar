@@ -9,7 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 🎨 Design & creative |
+| **Category** | 🖼 Image & video generation |
 | **Project** | — |
 | **Why I saved it** | Diffusion engine for image/video generation and editing |
 | **Added** | 2026-11-11 |

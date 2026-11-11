@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 23.5k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [495](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [492](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 3% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [fix(qwen4-exp): keep g13/g14 GPUs on the MLX path (#5089)](https://github.com/jundot/omlx/commit/e03190e31af53b3fc9fa4b562f064367b9ec89aa) | begcdn |
+| 2026-11-11 | [fix(tool-calling): count a declared tool name as call evidence only in call position (#4433)](https://github.com/jundot/omlx/commit/b3214c0da92f69b633ad141d56e5885be338429b) | Flo5k5 |
 | 2026-11-11 | [fix(scheduler): keep the Metal wired limit when a batch generator closes (#5165)](https://github.com/jundot/omlx/commit/98fd1b71b5b303e00d46e0f4028a2b8414db8b40) | jundot |
 | 2026-11-11 | [fix(stt): reserve realtime sessions before backend startup (#5092)](https://github.com/jundot/omlx/commit/db4b4176985277359f739655a01eae5e3a6fa412) | Aminark |
 | 2026-11-11 | [feat(macos): add sidebar search for global settings (#5111)](https://github.com/jundot/omlx/commit/edbcc89b8a615818fa2ad729f4db26b8e0a6a686) | ngutech21 |
@@ -102,8 +104,6 @@
 | 2026-11-11 | [feat(macos): add MarkItDown integration settings (#5107)](https://github.com/jundot/omlx/commit/b1b173b2fe4e0966a6fec257685679e7f2ba4a6e) | ngutech21 |
 | 2026-11-11 | [ci: automatically discover standalone web UI tests (#5119)](https://github.com/jundot/omlx/commit/d6e14871551a6165106de31f1fdfb3bddf90342e) | ngutech21 |
 | 2026-11-11 | [ci(macos): build and test the app (#5120)](https://github.com/jundot/omlx/commit/4cac9dae65cd17fb16fbdb45a79133cae3df2ede) | ngutech21 |
-| 2026-11-11 | [fix(vlm): skip Florence-2 at discovery and accept plain-string prompts (#5142)](https://github.com/jundot/omlx/commit/41f8c839dce9f71238a53ec1312cf1fbf252a0b2) | Woody-Hu |
-| 2026-11-11 | [fix(dflash): restore drafter context on exact prefix hits](https://github.com/jundot/omlx/commit/22f2c43409b078b56d6a9903414f4d8a759ad3d3) | jundot |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 
