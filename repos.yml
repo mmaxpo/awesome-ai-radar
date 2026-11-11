@@ -119,7 +119,7 @@
   added: 2026-11-11
 
 - repo: Shaveen12/HumanInTheLoop
-  why: "Human-in-the-loop agent example"
+  why: "Human-in-the-loop LangGraph chatbot with FastAPI backend"
   category: agents
   status: study
   added: 2026-11-11
