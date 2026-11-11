@@ -4,7 +4,7 @@
 #   why:     why you saved it (future-you will thank you)
 #   status:  study | using | later | done
 #   category: agents | coding | workflows | rag | documents | models | sdk |
-#             builders | prompting | design | persian | learning | apps  (or any new word)
+#             builders | prompting | imagegen | design | persian | learning | apps  (or any new word)
 #   project: optional — which of your projects it's for
 #   added:   optional — date you added it
 #   notes:   optional — longer notes, shown on the repo's own sheet (use  notes: |  for several lines)
@@ -410,6 +410,57 @@
   status: study
   added: 2026-11-11
 
+
+# ───────── 🖼 Image & video generation ─────────
+
+- repo: Comfy-Org/ComfyUI
+  why: "Node-based diffusion GUI/API — image & video pipelines"
+  category: imagegen
+  status: study
+  added: 2026-11-11
+
+- repo: AUTOMATIC1111/stable-diffusion-webui
+  why: "The classic Stable Diffusion web UI (I have a fork)"
+  category: imagegen
+  status: study
+  added: 2026-11-11
+
+- repo: lllyasviel/Fooocus
+  why: "Simple, Midjourney-style SD image generator"
+  category: imagegen
+  status: study
+  added: 2026-11-11
+
+- repo: Mikubill/sd-webui-controlnet
+  why: "ControlNet extension for A1111 — control pose, edges, depth"
+  category: imagegen
+  status: study
+  added: 2026-11-11
+
+- repo: Scholar01/sd-webui-mov2mov
+  why: "A1111 extension: video-to-video with Stable Diffusion"
+  category: imagegen
+  status: study
+  added: 2026-11-11
+
+- repo: PixArt-alpha/PixArt-alpha
+  why: "Fast, efficient transformer text-to-image model"
+  category: imagegen
+  status: study
+  added: 2026-11-11
+
+- repo: hkproj/pytorch-stable-diffusion
+  why: "Stable Diffusion built from scratch in PyTorch — learn how it works"
+  category: imagegen
+  status: study
+  added: 2026-11-11
+
+- repo: camenduru/stable-diffusion-webui-colab
+  why: "Run SD WebUI in Google Colab notebooks"
+  category: imagegen
+  status: study
+  added: 2026-11-11
+
 # ───────── 🎨 Design & creative ─────────
 
 - repo: leonxlnx/taste-skill
@@ -444,7 +495,7 @@
 
 - repo: modelscope/DiffSynth-Studio
   why: "Diffusion engine for image/video generation and editing"
-  category: design
+  category: imagegen
   status: study
   added: 2026-11-11
 
@@ -552,3 +603,9 @@
 
 - org: ZenRows
   why: "Web scraping APIs and tools"
+
+- org: Stability-AI
+  why: "Makers of Stable Diffusion"
+
+- org: FurkanGozukara
+  why: "AI image/video tutorials and scripts"
