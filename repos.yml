@@ -55,41 +55,41 @@
   added: 2026-11-11
 
 - repo: jasonlee-breadcrumb/motion-os
-  why: ""
+  why: "Make motion graphics with Claude, review scene by scene"
   status: study
   added: 2026-11-11
 
 - repo: miladicode823-coder/VEYRA
-  why: ""
+  why: "No description on GitHub yet — add my own note"
   status: study
   added: 2026-11-11
 
 - repo: temporalio/temporal
-  why: ""
+  why: "Durable workflow execution engine (Temporal server)"
   status: study
   added: 2026-11-11
 
 - repo: anomalyco/opencode
-  why: ""
+  why: "Open-source AI coding agent"
   status: study
   added: 2026-11-11
 
 - repo: OpenHands/OpenHands
-  why: ""
+  why: "Open-source AI software-development agent"
   status: study
   added: 2026-11-11
 
 - repo: restatedev/restate
-  why: ""
+  why: "Durable execution platform for resilient apps/workflows"
   status: study
   added: 2026-11-11
 
 - repo: dbos-inc/dbos-transact-py
-  why: ""
+  why: "Durable Python workflows backed by Postgres"
   status: study
   added: 2026-11-11
 
 - repo: jundot/omlx
-  why: ""
+  why: "Local LLM server for Apple Silicon (batching + SSD cache)"
   status: study
   added: 2026-11-11
