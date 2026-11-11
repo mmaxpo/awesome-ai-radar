@@ -1,0 +1,15 @@
+# My Repo Radar — add the repos you care about here.
+#
+#   repo:    owner/name (required) — copy it from the GitHub URL
+#   why:     why you saved it (future-you will thank you)
+#   status:  study | using | later | done
+#   project: optional — which of your projects it's for
+#   added:   optional — date you added it
+#   notes:   optional — longer notes, shown on the repo's own sheet (use  notes: |  for several lines)
+#
+# After you save this file, the README updates within a minute or two.
+
+- repo: MengTo/kage
+  why: Test entry
+  status: study
+  added: 2026-11-11

@@ -1,0 +1,59 @@
+name: Update Repo Radar
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # every day at 05:17 UTC (09:17 Oman time)
+  push:
+    paths:
+      - repos.yml           # refresh right after you add a repo
+  workflow_dispatch:        # "Run workflow" button — lets you add a repo from your phone
+    inputs:
+      repo:
+        description: "Repo to add (owner/name or full GitHub URL) — leave empty to just refresh"
+        required: false
+      why:
+        description: "Why are you saving it?"
+        required: false
+      status:
+        description: "Status"
+        type: choice
+        options: [study, using, later, done]
+        default: study
+      project:
+        description: "Project (optional)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: Add repo from form
+        if: github.event_name == 'workflow_dispatch' && inputs.repo != ''
+        env:
+          REPO: ${{ inputs.repo }}
+          WHY: ${{ inputs.why }}
+          STATUS: ${{ inputs.status }}
+          PROJECT: ${{ inputs.project }}
+        run: python scripts/add_repo.py
+
+      - name: Refresh README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "repo-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md repos.yml repos.csv repos/
+          git diff --cached --quiet || git commit -m "Update repo radar"
+          git push
