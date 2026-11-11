@@ -1,0 +1,45 @@
+name: ➕ Suggest a repo
+description: Suggest an open-source AI repo for the radar
+title: "Suggest: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the list grow! Good picks are **open-source**, **useful to builders**, and **still maintained**.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository link
+      placeholder: https://github.com/owner/name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - agents — Agent frameworks & multi-agent
+        - coding — Coding agents & dev tools
+        - workflows — Durable workflows & orchestration
+        - rag — RAG, memory & chat with your data
+        - documents — Documents, OCR & web data
+        - models — Models, local inference & gateways
+        - sdk — MCP & SDKs
+        - builders — Low-code builders & chat UIs
+        - prompting — Prompting & LLM programming
+        - imagegen — Image & video generation
+        - design — Design & creative
+        - persian — Persian NLP
+        - learning — Awesome lists & learning
+        - apps — Apps & other
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it worth following?
+      description: One or two sentences — what does it do, and why is it useful?
+    validations:
+      required: true

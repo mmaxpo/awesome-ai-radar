@@ -229,19 +229,19 @@ def release_notes(body, max_lines=6):
 def render_sheet(it, now):
     r = it["repo"]
     gh = f"https://github.com/{r}"
-    L = [f"# {r}", "", "[← Back to radar](../README.md) · [Open on GitHub ↗]({})".format(gh), ""]
+    L = [f"# {r}", "", "[← Back to the radar](../README.md) · [Open on GitHub ↗]({})".format(gh), ""]
     if it["missing"]:
         L += ["⚠️ **This repo wasn't found** — it may have been renamed, made private or deleted.", ""]
     elif it["description"]:
         L += [f"> {it['description']}", ""]
 
     # my notes
-    L += ["## 📝 My notes", "",
+    L += ["## 📝 Notes", "",
           "| | |", "|---|---|",
           f"| **Status** | {it.get('status') or '—'} |",
           f"| **Category** | {cat_title(it.get('category'))} |",
           f"| **Project** | {it.get('project') or '—'} |",
-          f"| **Why I saved it** | {clean(str(it.get('why') or '—'))} |"]
+          f"| **Why it's worth a look** | {clean(str(it.get('why') or '—'))} |"]
     if it.get("added"):
         L.append(f"| **Added** | {it['added']} |")
     L.append("")
@@ -315,15 +315,38 @@ def render_sheet(it, now):
 # ---------- README overview ----------
 
 def render_readme(items, orgs, now):
+    slug = os.environ.get("GITHUB_REPOSITORY", "mmaxpo/awesome-ai-radar")
+    n_active = sum(1 for it in items if not it["missing"]
+                   and (is_new(it, "release_date", now) or is_new(it, "pushed", now)))
+    n_rel = sum(1 for it in items if not it["missing"] and is_new(it, "release_date", now))
+    n_cats = len({cat_title(it.get("category")) for it in items})
+    badge = lambda label, msg, color: (f"![{label}](https://img.shields.io/badge/"
+                                       f"{label.replace('-', '--').replace(' ', '_')}-"
+                                       f"{str(msg).replace('-', '--').replace(' ', '_')}-{color})")
     L = [
-        "# 📡 My Repo Radar",
+        "# 📡 Awesome AI Radar",
         "",
-        "Repos I'm following, grouped by topic. Edit [`repos.yml`](repos.yml) to add or remove one;",
-        "this page refreshes automatically every day. Click a repo name for its full sheet,",
-        "or open [`repos.csv`](repos.csv) to see everything in one sortable table.",
+        "> A curated list of the best open-source AI repos — **that updates itself every day.**",
         "",
-        f"_Last updated: {now:%Y-%m-%d %H:%M} UTC · {len(items)} repo{'s' if len(items) != 1 else ''}"
-        + (f" · {len(orgs)} organization{'s' if len(orgs) != 1 else ''}" if orgs else "") + "_",
+        " ".join([badge("repos", len(items), "blue"), badge("active this week", n_active, "brightgreen"),
+                  badge("updated", f"{now:%Y-%m-%d}", "orange"), badge("license", "MIT", "lightgrey"),
+                  f"[![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)]"
+                  f"(https://github.com/{slug}/issues/new?template=suggest-repo.yml)"]),
+        "",
+        "Most awesome lists go stale: dead projects sit next to great ones and you can't tell them apart.",
+        "This list is checked by a GitHub Action **every day**, so you always see:",
+        "",
+        "- 🔥 **What shipped this week** — new releases and active projects",
+        "- 💤 🗄 **What went quiet** — repos with no activity for months, or archived",
+        "- 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits",
+        "- 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable",
+        "",
+        f"**{len(items)} repos · {n_cats} categories · {n_rel} new releases this week** · "
+        f"_last checked {now:%Y-%m-%d %H:%M} UTC_",
+        "",
+        "**Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · "
+        "[📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · "
+        "[🛠 Make your own radar](#-make-your-own-radar-in-1-minute)",
         "",
     ]
 
@@ -335,7 +358,9 @@ def render_readme(items, orgs, now):
     releases.sort(key=lambda it: it["release_date"], reverse=True)
     commits_only.sort(key=lambda it: it["pushed"], reverse=True)
 
-    L += [f"## 🔥 What's new (last {NEW_DAYS} days)", ""]
+    year, week, _ = now.isocalendar()
+    L += [f"## 🔥 What's new (last {NEW_DAYS} days)", "",
+          f"_📰 Readable summary: [this week's digest](weekly/{year}-W{week:02d}.md) · [all weeks](weekly/)_", ""]
     if releases:
         L += ["**📦 New releases**", ""]
         for it in releases:
@@ -371,8 +396,8 @@ def render_readme(items, orgs, now):
     for title in order:
         group = sorted(groups[title], key=lambda it: (it["missing"], -(it.get("stars") or 0)))
         L += [f"## {title}", "",
-              "| Repo | Why I saved it | Status | ⭐ | Last activity | Latest release |",
-              "|---|---|---|---|---|---|"]
+              "| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |",
+              "|---|---|---|---|---|"]
         for it in group:
             r = it["repo"]
             why = clean(str(it.get("why") or ""))
@@ -380,7 +405,7 @@ def render_readme(items, orgs, now):
             if it.get("project"):
                 why += f" <sub>· {clean(str(it['project']))}</sub>"
             if it["missing"]:
-                L.append(f"| [`{r}`]({sheet_path(r)}) ⚠️ not found | {why} | {status} | | | |")
+                L.append(f"| [`{r}`]({sheet_path(r)}) ⚠️ not found | {why} | | | |")
                 continue
             flag = " 🆕" if is_new(it, "pushed", now) or is_new(it, "release_date", now) else ""
             flag += " 🗄" if it["archived"] else (" 💤" if is_stale(it, now) else "")
@@ -388,7 +413,7 @@ def render_readme(items, orgs, now):
             desc = f"<br><sub>{clean(it['description'], 110)}</sub>" if it["description"] else ""
             rel = (f"[{it['release_tag']}]({it['release_url']}) · {ago(it['release_date'], now)}"
                    if it["release_tag"] else "—")
-            L.append(f"| [**{r}**]({sheet_path(r)}){flag}{desc} | {why} | {status} "
+            L.append(f"| [**{r}**]({sheet_path(r)}){flag}{desc} | {why} "
                      f"| {fmt_num(it['stars'])} | {ago(it['pushed'], now)} | {rel} |")
         L.append("")
 
@@ -407,10 +432,115 @@ def render_readme(items, orgs, now):
                 L.append(f"| [{full}](https://github.com/{full}){d} | {fmt_num(stars)} | {ago(pushed, now)} |")
             L.append("")
 
-    L += ["---",
+    L += ["## ➕ Suggest a repo", "",
+          "Know a great open-source AI repo that's missing? "
+          f"[**Suggest it here**](https://github.com/{slug}/issues/new?template=suggest-repo.yml) — "
+          "it takes 30 seconds. Approved suggestions are added automatically.", "",
+          "## 🛠 Make your own radar in 1 minute", "",
+          "Want to track *your own* list of repos the same way?", "",
+          f"1. Click **[Use this template](https://github.com/{slug}/generate)** to copy this repo to your account.",
+          "2. Edit [`repos.yml`](repos.yml) — keep the repos you care about, add your own.",
+          "3. Go to **Actions → Update Repo Radar → Run workflow**. Done — it refreshes itself daily.", "",
+          "Each entry is just a few lines:", "",
+          "```yaml", "- repo: owner/name", "  why: why it's worth following", "  category: agents",
+          "  status: study        # study | using | later | done", "```", "",
+          "<details><summary><b>How it works</b></summary>", "",
+          "A small Python script ([`scripts/update.py`](scripts/update.py)) reads `repos.yml`, asks the "
+          "GitHub API about each repo, and rewrites this README, the per-repo sheets in [`repos/`](repos/), "
+          "[`repos.csv`](repos.csv) and the [weekly digest](weekly/). A GitHub Action runs it every day "
+          "and whenever the list changes. No servers, no cost.", "",
+          "</details>", "",
+          "---",
+          "If this list saves you time, a ⭐ helps others find it.", "",
           f"🆕 active in the last {NEW_DAYS} days · 💤 quiet for over {STALE_DAYS // 30} months · "
           "🗄 archived · ↪️ moved/renamed · ⚠️ not found", ""]
     return "\n".join(L)
+
+
+# ---------- weekly digest ----------
+
+def first_note(body):
+    """One readable line from release notes: skip headings, boilerplate and links."""
+    import re
+    for line in (body or "").replace("\r", "").splitlines():
+        t = line.strip()
+        if not t or t.startswith(("#", "<!--", "|", "**Full Changelog", "Full Changelog")):
+            continue
+        if re.match(r"^\W*(what'?s changed|changes|changelog|highlights|new contributors)\W*$", t, re.I):
+            continue
+        t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", t)        # [text](link) -> text
+        t = re.sub(r"https?://\S+", "", t)
+        t = re.sub(r"^[-*+]\s*|\s*by @\S+.*$|\s*in #\d+.*$", "", t)  # bullets, "by @x in #12"
+        t = t.replace("**", "").replace("`", "").strip(" :-")
+        if len(t) > 8:
+            return clean(t, 120)
+    return ""
+
+
+def write_weekly(items, now):
+    from datetime import date, timedelta
+    year, week, _ = now.isocalendar()
+    monday = (now - timedelta(days=now.weekday())).replace(hour=0, minute=0, second=0, microsecond=0)
+    sunday = monday + timedelta(days=6)
+    since = lambda d: d is not None and d >= monday
+    folder = ROOT / "weekly"
+    folder.mkdir(exist_ok=True)
+
+    live = [it for it in items if not it["missing"]]
+    rel = [it for it in live if since(it.get("release_date"))]
+    added = [it for it in items if isinstance(it.get("added"), date) and it["added"] >= monday.date()]
+    busy = sorted([it for it in live if since(it.get("pushed")) and it not in rel],
+                  key=lambda it: -(it.get("stars") or 0))[:12]
+
+    title = f"This week in AI repos — {monday:%b %-d} – {sunday:%b %-d, %Y}"
+    L = [f"# 📰 {title}", "",
+         f"_Week {week} of {year} · from [Awesome AI Radar](../README.md) · "
+         f"updated daily, final on Sunday · last update {now:%Y-%m-%d %H:%M} UTC_", "",
+         f"**{len(rel)} new releases · {len(busy)} other busy repos"
+         + (f" · {len(added)} added to the radar" if added else "") + "**", ""]
+
+    L += [f"## 📦 New releases", ""]
+    if rel:
+        by_cat = {}
+        for it in sorted(rel, key=lambda it: -(it.get("stars") or 0)):
+            by_cat.setdefault(cat_title(it.get("category")), []).append(it)
+        order = [t for t in CATEGORIES.values() if t in by_cat] + sorted(t for t in by_cat if t not in CATEGORIES.values())
+        for t in order:
+            L += [f"**{t}**", ""]
+            for it in by_cat[t]:
+                r = it["repo"]
+                note = first_note(it["releases"][0]["body"]) if it["releases"] else ""
+                L.append(f"- **[{r}](https://github.com/{r})** [{it['release_tag']}]({it['release_url']})"
+                         f" · ⭐ {fmt_num(it['stars'])}" + (f" — {note}" if note else ""))
+            L.append("")
+    else:
+        L += ["_No releases yet this week._", ""]
+
+    if busy:
+        L += ["## 🔨 Busy without a release", ""]
+        for it in busy:
+            r = it["repo"]
+            msg = it["commits"][0]["msg"] if it["commits"] else ""
+            L.append(f"- **[{r}](https://github.com/{r})** · ⭐ {fmt_num(it['stars'])}" + (f" — _{msg}_" if msg else ""))
+        L.append("")
+
+    if added:
+        L += ["## ➕ New on the radar", ""]
+        for it in added[:20]:
+            r = it["repo"]
+            L.append(f"- **[{r}](https://github.com/{r})** — {clean(str(it.get('why') or ''))}")
+        if len(added) > 20:
+            L.append(f"- …and {len(added) - 20} more — see the [full list](../README.md#-categories)")
+        L.append("")
+
+    (folder / f"{year}-W{week:02d}.md").write_text("\n".join(L), encoding="utf-8")
+
+    # index of all weeks
+    weeks = sorted((p.stem for p in folder.glob("*-W*.md")), reverse=True)
+    idx = ["# 📰 Weekly digests", "",
+           "What shipped each week across the repos on [Awesome AI Radar](../README.md).", ""]
+    idx += [f"- [{w}]({w}.md)" + (" — this week" if w == f"{year}-W{week:02d}" else "") for w in weeks]
+    (folder / "README.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
 
 
 # ---------- CSV ----------
@@ -475,6 +605,7 @@ def main():
 
     (ROOT / "README.md").write_text(render_readme(items, orgs, now), encoding="utf-8")
     write_csv(items, ROOT / "repos.csv", now)
+    write_weekly(items, now)
     print(f"Updated README, repos.csv and {len(items)} repo sheets.", file=sys.stderr)
 
 
