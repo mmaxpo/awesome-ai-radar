@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 24.1k |
+| ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
 | 🐞 **Open issues + PRs** | [904](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |

@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 60.8k |
-| 🍴 **Forks** | 9.1k |
+| 🍴 **Forks** | 9.2k |
 | 🐞 **Open issues + PRs** | [1.2k](https://github.com/crewAIInc/crewAI/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |

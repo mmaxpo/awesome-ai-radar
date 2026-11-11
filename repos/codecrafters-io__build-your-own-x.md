@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 561.8k |
 | 🍴 **Forks** | 52.6k |
-| 🐞 **Open issues + PRs** | [695](https://github.com/codecrafters-io/build-your-own-x/issues) |
+| 🐞 **Open issues + PRs** | [696](https://github.com/codecrafters-io/build-your-own-x/issues) |
 | 💻 **Languages** | Markdown 100% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `programming` `tutorials` `tutorial-code` `tutorial-exercises` `free` `awesome-list` |

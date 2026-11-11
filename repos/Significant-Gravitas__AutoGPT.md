@@ -63,7 +63,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.10.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.10.0) — 🚀 AutoGPT Platform v0.10.0
-<sub>2026-10-27 · 14d ago</sub>
+<sub>2026-10-27 · 15d ago</sub>
 
 > **🔥 What's New?**
 > **⚠️ Breaking Changes**

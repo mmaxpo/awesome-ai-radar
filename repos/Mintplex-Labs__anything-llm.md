@@ -47,7 +47,7 @@
 > …
 
 ### [v1.18.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.18.0) — AnythingLLM v1.18.0
-<sub>2026-10-13 · 28d ago</sub>
+<sub>2026-10-13 · 29d ago</sub>
 
 > **What's Changed**
 > * fix: point k8s probes at the server's /api/ping by @u00dxk2 in https://github.com/Mintplex-Labs/anything-llm/pull/6592

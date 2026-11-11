@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 114.3 MB |
+| 💾 **Size** | 115.0 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 113.4k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [5](https://github.com/Leonxlnx/taste-skill/issues) |
+| 🐞 **Open issues + PRs** | [6](https://github.com/Leonxlnx/taste-skill/issues) |
 | 💻 **Languages** | JavaScript 61% · HTML 28% · CSS 11% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `frontend` `agent-skills` `ai-agents` `anti-slop` `cursor` `design-system` `landing-page` `ui-design` `web-design` |

@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-05-21 |
 | 📦 **Latest release** | [v0.0.0-nightly.pr22826.39064](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22826.39064) — 2026-11-11 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 599.4 MB |
+| 💾 **Size** | 599.7 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases

@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [chore: bump automation to 1.32.1 and @openhands/extensions to 0.42.0 …](https://github.com/OpenHands/OpenHands/commit/a54d4b67d57f1ed82e5e7d0265ad03540eea3cd8) | hieptl |
 | 2026-11-11 | [chore: bump agent-server to 1.62.0 (#19658)](https://github.com/OpenHands/OpenHands/commit/44d91955fbc32b0c694e533f68956f62040a9c15) | openhands-release-bot[bot] |
 | 2026-11-11 | [chore(deps): bump ws from 8.22.0 to 8.22.1 (#19637)](https://github.com/OpenHands/OpenHands/commit/471e36ee483b0c8c65c692d07c019b8aa6913753) | dependabot[bot] |
 | 2026-11-11 | [feat(verify-openhands): Server: lines link Canvas families to Agent S…](https://github.com/OpenHands/OpenHands/commit/7939a5c5205ddf3160370a81f1851dd1b812654c) | enyst |
@@ -103,7 +104,6 @@
 | 2026-11-11 | [chore(deps-dev): bump electron from 45.2.1 to 45.2.2 (#19639)](https://github.com/OpenHands/OpenHands/commit/f6662751a3888ce0a0b9a1210227205180ad2364) | dependabot[bot] |
 | 2026-11-11 | [chore(deps): bump react-hot-toast from 2.6.0 to 2.6.1 (#19638)](https://github.com/OpenHands/OpenHands/commit/f913ad43ac5fb225a313791510e2d5c3dfe04790) | dependabot[bot] |
 | 2026-11-11 | [chore(deps): bump the tanstack group across 1 directory with 2 update…](https://github.com/OpenHands/OpenHands/commit/6f0ecea22eaf082454a47ae83ea621c3e3853cfb) | dependabot[bot] |
-| 2026-11-11 | [fix(automations): respect backend profile selection availability (#19…](https://github.com/OpenHands/OpenHands/commit/7b5aa9eb60bdef7d832743c12cabd537b44b8a41) | neubig |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 

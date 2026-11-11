@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-06-19 |
 | 📦 **Latest release** | [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 898.1 MB |
+| 💾 **Size** | 898.2 MB |
 | 🌐 **Website** | https://docs.copilotkit.ai |
 
 ## 📦 Recent releases

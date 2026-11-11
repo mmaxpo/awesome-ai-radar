@@ -30,7 +30,7 @@
 | 📅 **Created** | 2025-04-30 |
 | 📦 **Latest release** | [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) — 2026-11-10 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 675.4 MB |
+| 💾 **Size** | 675.5 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
@@ -88,6 +88,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [refactor(codemode): remove the legacy interpreter; the VM is the only…](https://github.com/anomalyco/opencode/commit/72616be4dbe772dc645640b5623cb3d6f4453bd3) | jlongster |
 | 2026-11-11 | [fix(app): show only the branch in the new session row (#63182)](https://github.com/anomalyco/opencode/commit/134136db152c1b5073efb8f2f005438ef336c6d7) | thdxr |
 | 2026-11-11 | [chore(protocol): refresh generated openapi for the first-token event …](https://github.com/anomalyco/opencode/commit/aa08bb2e347e694c12293e232f0f07cb7f99c1cf) | thdxr |
 | 2026-11-11 | [fix(session): measure tps from the first streamed token (#63321)](https://github.com/anomalyco/opencode/commit/99f2bea6dfd77bda4bdc8150cca71cb93ee32194) | thdxr |
@@ -97,7 +98,6 @@
 | 2026-11-11 | [fix(app): snap vertical tab preview to its tab (#63074)](https://github.com/anomalyco/opencode/commit/96579e88acb79c8a9a04729dbe4138098bb97f6e) | arvsrn |
 | 2026-11-11 | [feat(app): add the New timeline experiment (#63295)](https://github.com/anomalyco/opencode/commit/9e3290ab6ce24f1abfcb957a81748be48d2d5dc1) | arvsrn |
 | 2026-11-11 | [fix(site): show download and install menus again after closing them (…](https://github.com/anomalyco/opencode/commit/d093e7a73cbe490c422b955f92afec9cd630279d) | thdxr |
-| 2026-11-11 | [fix(ci): treat require-digests=false as off in verify-artifacts](https://github.com/anomalyco/opencode/commit/611cee9d4b667b459f19ca0cbf6e76d8647535fb) | thdxr |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

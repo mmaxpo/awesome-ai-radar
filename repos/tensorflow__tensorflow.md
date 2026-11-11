@@ -90,6 +90,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [PR #52725: [XLA:GPU] Expose ROCm's libhipcxx from include/hipccl as i…](https://github.com/tensorflow/tensorflow/commit/4c8d1a57d2e89c60c266bfe4e9966c0f5e1d176c) | amd-mcieslak |
 | 2026-11-11 | [Integrate LLVM at llvm/llvm-project@bb04dac04a0f](https://github.com/tensorflow/tensorflow/commit/f66ab17a11a8fb76eb8fa7df55fd74effdbf630f) | tensorflower-gardener |
 | 2026-11-11 | [PR #52764: Bump lit from 23.1.4 to 23.1.5](https://github.com/tensorflow/tensorflow/commit/4991dc2c8a331c0be026fe6af9acd6e785608ca3) | dependabot[bot] |
 | 2026-11-11 | [PR #52763: Bump github/codeql-action/upload-sarif from 4.39.1 to 4.39.3](https://github.com/tensorflow/tensorflow/commit/2284229d9e65d0ebc249c228bec7f9049846d7c2) | dependabot[bot] |
@@ -99,7 +100,6 @@
 | 2026-11-11 | [[XLA:GPU] Update RaggedAllToAll AOT compatibility goldens for fabric_…](https://github.com/tensorflow/tensorflow/commit/c354de8fe58f5424ad8ae736065f5a1013701ffc) | sohaibiftikhar |
 | 2026-11-11 | [Delete the internal-only XProf forwarding targets from `tensorflow/co…](https://github.com/tensorflow/tensorflow/commit/03ff4b8100583f5ad0864cb5fda84db20029bf5e) | chsigg |
 | 2026-11-11 | [Automated Code Change](https://github.com/tensorflow/tensorflow/commit/16098ca6524b13d267c5a2fa329d22a13e26b6ca) | tensorflower-gardener |
-| 2026-11-11 | [PR #52746: [XLA:GPU][oneAPI] Align XPU Triton hook with upstream LLVM](https://github.com/tensorflow/tensorflow/commit/694de9638506b3d3e719592a9d4a85651c597093) | akhilgoe |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

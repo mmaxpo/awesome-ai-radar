@@ -4,7 +4,7 @@
 
 > A curated list of the best open-source AI repos — **that updates itself every day.**
 
-![repos](https://img.shields.io/badge/repos-122-blue) ![active this week](https://img.shields.io/badge/active_this_week-74-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
+![repos](https://img.shields.io/badge/repos-123-blue) ![active this week](https://img.shields.io/badge/active_this_week-75-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--11-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
 
 Most awesome lists go stale: dead projects sit next to great ones and you can't tell them apart.
 This list is checked by a GitHub Action **every day**, so you always see:
@@ -14,7 +14,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**122 repos · 17 categories · 33 new releases this week** · _last checked 2026-11-11 16:14 UTC_
+**123 repos · 17 categories · 33 new releases this week** · _last checked 2026-11-11 16:32 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -36,7 +36,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[Comfy-Org/ComfyUI](repos/Comfy-Org__ComfyUI.md)** — [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) (today) · 🖼 Image & video generation
 - **[fastapi/fastapi](repos/fastapi__fastapi.md)** — [0.162.4](https://github.com/fastapi/fastapi/releases/tag/0.162.4) (today) · 🐍 Python & backend tooling
 - **[dbos-inc/dbos-transact-py](repos/dbos-inc__dbos-transact-py.md)** — [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) (today) · 🔁 Durable workflows & orchestration
-- **[stanfordnlp/dspy](repos/stanfordnlp__dspy.md)** — [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) (today) · ✍️ Prompting & LLM programming
+- **[stanfordnlp/dspy](repos/stanfordnlp__dspy.md)** — [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) (yesterday) · ✍️ Prompting & LLM programming
 - **[lmcinnes/umap](repos/lmcinnes__umap.md)** — [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0) (yesterday) · 📈 Classic ML, data science & vision
 - **[anomalyco/opencode](repos/anomalyco__opencode.md)** — [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7) (yesterday) · 💻 Coding agents & dev tools
 - **[openai/openai-python](repos/openai__openai-python.md)** — [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0) (yesterday) · 🔌 MCP & SDKs
@@ -58,20 +58,20 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[MervinPraison/PraisonAI](repos/MervinPraison__PraisonAI.md)** — [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) (5d ago) · 🤖 Agent frameworks & multi-agent
 - **[img2threejs/img2threejs](repos/img2threejs__img2threejs.md)** — [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1) (6d ago) · 🎨 Design & creative
 
-<details><summary><b>🔨 New commits only</b> (41 repos)</summary>
+<details><summary><b>🔨 New commits only</b> (42 repos)</summary>
 
 - **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[dynamo] Fix some reconstruction failures in computed lazy constants …_
-- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
 - **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
-- **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
-- **[tensorflow/tensorflow](repos/tensorflow__tensorflow.md)** (today): _Integrate LLVM at llvm/llvm-project@bb04dac04a0f_
-- **[restatedev/restate](repos/restatedev__restate.md)** (today): _[VQueues] Test immediate and retained completion_
+- **[tensorflow/tensorflow](repos/tensorflow__tensorflow.md)** (today): _PR #52725: [XLA:GPU] Expose ROCm's libhipcxx from include/hipccl as i…_
 - **[SeleniumHQ/selenium](repos/SeleniumHQ__selenium.md)** (today): _[java] stop reading and writing Response.status internally (#18171)_
+- **[JustVugg/colibri](repos/JustVugg__colibri.md)** (today): _Merge pull request #2530 from JustVugg/dev_
+- **[agno-agi/agno](repos/agno-agi__agno.md)** (today): _feat: Super Agent does the work itself with direct tools (#11572)_
+- **[firecrawl/firecrawl](repos/firecrawl__firecrawl.md)** (today): _fix(api): accept World ID's advertised Orb acr values (#5678)_
+- **[restatedev/restate](repos/restatedev__restate.md)** (today): _[VQueues] Test immediate and retained completion_
 - **[jundot/omlx](repos/jundot__omlx.md)** (today): _fix(scheduler): start requests that arrive mid-prefill after the runn…_
 - **[cline/cline](repos/cline__cline.md)** (today): _refactor(vscode): remove dead onboarding models state and proto messa…_
 - **[modelscope/DiffSynth-Studio](repos/modelscope__DiffSynth-Studio.md)** (today): _update minimax-h3-image docs (#1822)_
 - **[temporalio/temporal](repos/temporalio__temporal.md)** (today): _Fix V2 schedules closing before their final action starts (#13016)_
-- **[JustVugg/colibri](repos/JustVugg__colibri.md)** (today): _Merge pull request #2530 from JustVugg/dev_
 - **[tesseract-ocr/tesseract](repos/tesseract-ocr__tesseract.md)** (today): _wordrec: stop the diacritics reassignment when the budget is used up_
 - **[meta/prophet](repos/meta__prophet.md)** (today): _fix: reject NaN holiday windows instead of silently dropping the rang…_
 - **[dmlc/xgboost](repos/dmlc__xgboost.md)** (today): _Skip unused features in GPU SHAP interaction finalization (#12825)_
@@ -88,6 +88,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[Mintplex-Labs/anything-llm](repos/Mintplex-Labs__anything-llm.md)** (today): _fix: keep the Content-Type header set in an agent flow API Call block…_
 - **[catboost/catboost](repos/catboost__catboost.md)** (today): _Fix grammar_
 - **[botpress/botpress](repos/botpress__botpress.md)** (today): _chore(chat): stop deploying chat to ECS (#15528)_
+- **[huggingface/smolagents](repos/huggingface__smolagents.md)** (today): _Bump doc-builder workflow pin (#2906)_
 - **[benfred/py-spy](repos/benfred__py-spy.md)** (today): _Refactor interpreter macros (#904)_
 - **[cython/cython](repos/cython__cython.md)** (yesterday): _Use IncRef/DecRef functions on old Limited API (#8125)_
 - **[NationalSecurityAgency/ghidra](repos/NationalSecurityAgency__ghidra.md)** (yesterday): _Merge branch_
@@ -106,7 +107,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 ## 🗂 Categories
 
-[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (16) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (1) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (15) · [🏢 Organizations](#-organizations) (10)
+[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (1) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (15) · [🏢 Organizations](#-organizations) (10)
 
 ## 🤖 Agent frameworks & multi-agent
 
@@ -121,6 +122,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**OpenBMB/ChatDev**](repos/OpenBMB__ChatDev.md) 🆕<br><sub>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</sub> | Virtual software company of chatting agents | 34.7k | 5d ago | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) · 7mo ago |
 | [**assafelovic/gpt-researcher**](repos/assafelovic__gpt-researcher.md) 🆕<br><sub>An autonomous agent that conducts deep research on any data using any LLM providers</sub> | Autonomous agent that researches and writes reports | 30.6k | 2d ago | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) · 2d ago |
 | [**openai/openai-agents-python**](repos/openai__openai-agents-python.md) 🆕<br><sub>A lightweight, powerful framework for multi-agent workflows</sub> | OpenAI's official lightweight multi-agent SDK | 30.6k | today | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) · 27d ago |
+| [**huggingface/smolagents**](repos/huggingface__smolagents.md) 🆕<br><sub>🤗 smolagents: a barebones library for agents that think in code.</sub> | Hugging Face's small, code-first agent library: agents write and run Python instead of JSON tool calls. --- _Generated by [Claude Code](https://claude.ai/code)_ | 30.3k | today | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) · 5mo ago |
 | [**letta-ai/letta**](repos/letta-ai__letta.md)<br><sub>Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.</sub> | Stateful agents with long-term memory (ex-MemGPT) | 25.4k | 23d ago | [0.16.8](https://github.com/letta-ai/letta/releases/tag/0.16.8) · 6mo ago |
 | [**MervinPraison/PraisonAI**](repos/MervinPraison__PraisonAI.md) 🆕<br><sub>Private AI agents for highly regulated teams, and for anyone who wants AI on their own computer. Open-source P…</sub> | Low-code multi-agent framework | 9.3k | yesterday | [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) · 5d ago |
 | [**OpenBMB/XAgent**](repos/OpenBMB__XAgent.md)<br><sub>An Autonomous LLM Agent for Complex Task Solving</sub> | Autonomous agent for complex task solving | 8.5k | 3mo ago | [v1.0.0](https://github.com/OpenBMB/XAgent/releases/tag/v1.0.0) · 2y ago |
@@ -146,7 +148,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
 | [**temporalio/temporal**](repos/temporalio__temporal.md) 🆕<br><sub>Temporal service</sub> | Durable workflow execution engine (Temporal server) | 24.3k | today | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) · 8d ago |
-| [**PrefectHQ/prefect**](repos/PrefectHQ__prefect.md) 🆕<br><sub>Prefect is a workflow orchestration framework for building resilient data pipelines in Python.</sub> | Python workflow orchestration with scheduling and retries | 24.1k | today | [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) · 4d ago |
+| [**PrefectHQ/prefect**](repos/PrefectHQ__prefect.md) 🆕<br><sub>Prefect is a workflow orchestration framework for building resilient data pipelines in Python.</sub> | Python workflow orchestration with scheduling and retries | 24.2k | today | [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) · 4d ago |
 | [**Netflix/metaflow**](repos/Netflix__metaflow.md) 🆕<br><sub>Build, Manage and Deploy AI/ML Systems</sub> | Netflix's framework for ML/AI pipelines from laptop to prod | 10.3k | 2d ago | [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41) · 4d ago |
 | [**restatedev/restate**](repos/restatedev__restate.md) 🆕<br><sub>Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the ne…</sub> | Durable execution platform for resilient apps/workflows | 4.7k | today | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) · 9d ago |
 | [**dbos-inc/dbos-transact-py**](repos/dbos-inc__dbos-transact-py.md) 🆕<br><sub>Database-Backed Durable Python Workflows</sub> | Durable Python workflows backed by Postgres | 1.7k | today | [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) · today |
@@ -231,7 +233,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
 | [**asgeirtj/system_prompts_leaks**](repos/asgeirtj__system_prompts_leaks.md) 🆕<br><sub>Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, …</sub> | Collection of chatbot system prompts, for prompt study | 71.2k | yesterday | — |
-| [**stanfordnlp/dspy**](repos/stanfordnlp__dspy.md) 🆕<br><sub>DSPy: The framework for programming—not prompting—language models</sub> | Program and auto-optimize prompts instead of hand-writing them | 39.0k | today | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) · today |
+| [**stanfordnlp/dspy**](repos/stanfordnlp__dspy.md) 🆕<br><sub>DSPy: The framework for programming—not prompting—language models</sub> | Program and auto-optimize prompts instead of hand-writing them | 39.0k | today | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) · yesterday |
 
 ## 🖼 Image & video generation
 

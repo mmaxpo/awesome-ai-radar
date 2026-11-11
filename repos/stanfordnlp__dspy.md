@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0)
-<sub>2026-11-10 · today</sub>
+<sub>2026-11-10 · yesterday</sub>
 
 > **DSPy 3.5: A Lighter, Faster Foundation**
 > DSPy 3.5 brings a lighter LM layer, graduated core modules, and new History and image capabilities for RLM.

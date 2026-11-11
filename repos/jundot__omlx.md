@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.3.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev1) — 0.7.3.dev1
-<sub>2026-10-24 · 17d ago</sub>
+<sub>2026-10-24 · 18d ago</sub>
 
 > **oMLX 0.7.3.dev1**
 > > Please use [oMLX 0.7.3.dev2](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev2) instead. It is a hotfix release that fixes an error when turning on Lightning MTP for MiniMax M3.1 (#4827). The download links below now point to 0.7.3.dev2.
