@@ -10,7 +10,7 @@
 |---|---|
 | **Status** | study |
 | **Project** | — |
-| **Why I saved it** | — |
+| **Why I saved it** | Make motion graphics with Claude, review scene by scene |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance

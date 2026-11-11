@@ -8,7 +8,7 @@
 |---|---|
 | **Status** | study |
 | **Project** | — |
-| **Why I saved it** | — |
+| **Why I saved it** | No description on GitHub yet — add my own note |
 | **Added** | 2026-11-11 |
 
 ## 📊 At a glance
