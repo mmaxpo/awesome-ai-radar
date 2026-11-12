@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 156.5k |
+| ⭐ **Stars** | 156.6k |
 | 🍴 **Forks** | 10.4k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/langflow-ai/langflow/issues) |
 | 💻 **Languages** | Python 72% · TypeScript 21% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `react-flow` `chatgpt` `large-language-models` `generative-ai` `agents` `multiagent` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2023-02-08 |
 | 📦 **Latest release** | [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1682.2 MB |
+| 💾 **Size** | 1682.3 MB |
 | 🌐 **Website** | http://www.langflow.org |
 
 ## 📦 Recent releases
 
 ### [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 1.13.2
-<sub>2026-11-10 · today</sub>
+<sub>2026-11-10 · yesterday</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.12.10](https://github.com/langflow-ai/langflow/releases/tag/v1.12.10) — 1.12.10
-<sub>2026-11-05 · 5d ago</sub>
+<sub>2026-11-05 · 6d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -56,7 +56,7 @@
 > **Full Changelog**: https://github.com/langflow-ai/langflow/compare/v1.12.9...v1.12.10
 
 ### [v1.13.1](https://github.com/langflow-ai/langflow/releases/tag/v1.13.1) — 1.13.1
-<sub>2026-11-04 · 7d ago</sub>
+<sub>2026-11-04 · 8d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -67,7 +67,7 @@
 > …
 
 ### [v1.12.9](https://github.com/langflow-ai/langflow/releases/tag/v1.12.9) — 1.12.9
-<sub>2026-11-04 · 7d ago</sub>
+<sub>2026-11-04 · 8d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -76,7 +76,7 @@
 > **Full Changelog**: https://github.com/langflow-ai/langflow/compare/v1.12.8...v1.12.9
 
 ### [v1.13.0](https://github.com/langflow-ai/langflow/releases/tag/v1.13.0) — 1.13.0
-<sub>2026-10-22 · 19d ago</sub>
+<sub>2026-10-22 · 20d ago</sub>
 
 > **What's Changed**
 > **✨ New Features**

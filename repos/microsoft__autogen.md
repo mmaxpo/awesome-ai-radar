@@ -14,6 +14,8 @@
 | **Why it's worth a look** | Microsoft's multi-agent conversation framework |
 | **Added** | 2026-11-11 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
@@ -24,7 +26,7 @@
 | 💻 **Languages** | Python 62% · C# 25% · TypeScript 12% |
 | 📜 **License** | CC-BY-4.0 |
 | 🏷 **Topics** | `chatgpt` `llm-agent` `llm-framework` `agentic` `agentic-agi` `agents` `ai` `autogen` `framework` `autogen-ecosystem` |
-| 🕒 **Last activity** | 2026-10-28 (14d ago) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2023-08-18 |
 | 📦 **Latest release** | [python-v0.7.5](https://github.com/microsoft/autogen/releases/tag/python-v0.7.5) — 2025-09-30 |
 | 🌿 **Default branch** | `main` |
@@ -92,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [docs: build stable and 0.7.5 from caution docs branch (#8476)](https://github.com/microsoft/autogen/commit/8390985108cb1e3881f5f7297765758d8ad2540c) | westey-m |
 | 2026-10-28 | [docs: add archive caution to landing page (#8393)](https://github.com/microsoft/autogen/commit/d07c667a3239ea4ab7af62a53b0f4ff205a1f23d) | westey-m |
 | 2026-10-16 | [docs: clarify AutoGen is archived and no longer maintained- #1 (#8366)](https://github.com/microsoft/autogen/commit/004749e6b7102c8fd317b9b1499ce5807223c278) | westey-m |
 | 2026-04-06 | [Update maintenance mode banner in readme (#7521)](https://github.com/microsoft/autogen/commit/027ecf0a379bcc1d09956d46d12d44a3ad9cee14) | chetantoshniwal |
@@ -101,7 +104,6 @@
 | 2025-10-04 | [update instructions for Quickstart (#7068)](https://github.com/microsoft/autogen/commit/6dc0a2340d65ba28f0528b5b1173ac9deec84755) | Borda |
 | 2025-10-02 | [Update README with maintenance and resource information (#7067)](https://github.com/microsoft/autogen/commit/84f21a08992053334afaab7f7136e79011cd9837) | ekzhu |
 | 2025-10-02 | [Support MCP Elicitation, Sampling, and Roots via new McpSessionHost (…](https://github.com/microsoft/autogen/commit/c02791282b405d83632274274f31236b496ea3c6) | tylerpayne |
-| 2025-09-30 | [Update website for 0.7.5 (#7060)](https://github.com/microsoft/autogen/commit/a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8) | ekzhu |
 
 [See all commits ↗](https://github.com/microsoft/autogen/commits)
 

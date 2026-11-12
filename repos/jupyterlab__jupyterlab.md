@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 15.4k |
 | 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [2.6k](https://github.com/jupyterlab/jupyterlab/issues) |
+| 🐞 **Open issues + PRs** | [2.5k](https://github.com/jupyterlab/jupyterlab/issues) |
 | 💻 **Languages** | TypeScript 88% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 310.9 MB |
+| 💾 **Size** | 311.3 MB |
 | 🌐 **Website** | https://jupyterlab.readthedocs.io/ |
 
 ## 📦 Recent releases
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 13d ago</sub>
+<sub>2026-10-28 · 14d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [Short-circuit command button re-render if it has not changed (#19075)](https://github.com/jupyterlab/jupyterlab/commit/7123bf27af8468b8a76a9ab094d99ab18c9ba8a3) | krassowski |
-| 2026-11-11 | [Keep console scroll position and focus when a console setting changes…](https://github.com/jupyterlab/jupyterlab/commit/bd6f2521ff09705f5f465acdcc3aa68147ca3a76) | KUMAR-AKASH-M |
-| 2026-11-11 | [Respect height set in output metadata and height attribute for images…](https://github.com/jupyterlab/jupyterlab/commit/78a08e74db18b9dc4a56be14f9bf1eee4170cfdf) | AliMahmoudDev |
-| 2026-11-11 | [ Upgrade MathJax to 4.1 (#19815)](https://github.com/jupyterlab/jupyterlab/commit/6c54ac1a0a33990c1ce3f94687a279f2812fcc14) | MUFFANUJ |
-| 2026-11-11 | [Bump postcss-selector-parser from 7.1.0 to 7.1.5 (#19663)](https://github.com/jupyterlab/jupyterlab/commit/63690a5df48c872ec8e9c7c34acb7e4a141be965) | dependabot[bot] |
-| 2026-11-10 | [Paste into the selected (or current) folder in the file browser (#19282)](https://github.com/jupyterlab/jupyterlab/commit/2139472fb1536dd9226d3f27ca9d9fc90bd0049f) | codewithdaniel1 |
-| 2026-11-10 | [Fix HTML viewer reload when switching tabs (#19974)](https://github.com/jupyterlab/jupyterlab/commit/22a044e0dde10237f8c74988c03c2d42e0771394) | 1998LJ |
-| 2026-11-09 | [Fix Alt+W not closing the current tab when focus is outside the main …](https://github.com/jupyterlab/jupyterlab/commit/10b5cf7b4ee5caa2ba18c2b2d32bed1577771b82) | nina-mir |
-| 2026-11-09 | [Use the terminal manager to reopen a terminal (#20439)](https://github.com/jupyterlab/jupyterlab/commit/dd6a4ce599c3b27e318dbdd625c39268e85bf82f) | jtpio |
-| 2026-11-09 | [Replace typed completion prefix correctly when cell text contains sur…](https://github.com/jupyterlab/jupyterlab/commit/5470adc4758b9b1042461c51a9a6b15d8f7999a4) | DebankurPaul |
+| 2026-11-12 | [Fix scrolling for submenus (#20473)](https://github.com/jupyterlab/jupyterlab/commit/ab367104bf8e662c2e908df775f90e2abb8b86ef) | jasongrout |
+| 2026-11-12 | [Bump engine.io from 6.6.4 to 6.6.11 (#19662)](https://github.com/jupyterlab/jupyterlab/commit/ceacfda779b91e262b58dbc97d2d995630b80b8f) | dependabot[bot] |
+| 2026-11-12 | [Bump @rsdoctor/rspack-plugin from 1.3.12 to 1.5.16 (#19806)](https://github.com/jupyterlab/jupyterlab/commit/ecda29017b5e3b3d37605adfdac4831ba47692de) | dependabot[bot] |
+| 2026-11-12 | [Fix terminal tab switching regression on Firefox (#20448)](https://github.com/jupyterlab/jupyterlab/commit/fce23294878203ab2646edf12ee51b02bf8aa396) | krassowski |
+| 2026-11-12 | [Stop JupyterLite deleting files dropped onto their folder's breadcrum…](https://github.com/jupyterlab/jupyterlab/commit/bc5856c2d46b0909f63d2fb235ad0a4c39b8d925) | Yash990-bit |
+| 2026-11-12 | [Bump lodash from 4.17.23 to 4.18.1 (#20378)](https://github.com/jupyterlab/jupyterlab/commit/c987b97b5585f762107bea99f788400a971457d1) | dependabot[bot] |
+| 2026-11-12 | [Apply 'Show Filter Bar by Default' without reloading the page (#18894)](https://github.com/jupyterlab/jupyterlab/commit/63ff1af9e048084a522a15df2e1109c3f06e90f6) | RRosio |
+| 2026-11-12 | [Stop the current tab from changing a second after a reload (#20379)](https://github.com/jupyterlab/jupyterlab/commit/5e57de551df99819ab2def11bb86254ec8e1e101) | MUFFANUJ |
+| 2026-11-12 | [Split the changelog by major version (#20456)](https://github.com/jupyterlab/jupyterlab/commit/3a846010c6a0944282107eca3009bd2779a80c33) | krassowski |
+| 2026-11-12 | [Keep the prompt position picked for a console when a console setting …](https://github.com/jupyterlab/jupyterlab/commit/79ac5024d8132bd0740ad17d50e14369a69dc30e) | yummyPancake2607 |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

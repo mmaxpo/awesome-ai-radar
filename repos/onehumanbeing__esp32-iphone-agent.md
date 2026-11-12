@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 4.8k |
-| 🍴 **Forks** | 660 |
-| 🐞 **Open issues + PRs** | [23](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
+| ⭐ **Stars** | 4.9k |
+| 🍴 **Forks** | 668 |
+| 🐞 **Open issues + PRs** | [21](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 51% · C 26% · Go 11% · C++ 5% · Python 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `airplay` `automation` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `dsh-plugin` |
@@ -36,17 +36,17 @@
 ## 📦 Recent releases
 
 ### [cli-v0.1.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.4) — esp32agent 0.1.4
-<sub>2026-11-08 · 2d ago</sub>
+<sub>2026-11-08 · 3d ago</sub>
 
 > esp32agent CLI 0.1.4. Install: see cli/README.md.
 
 ### [cli-v0.1.3](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.3) — esp32agent 0.1.3
-<sub>2026-11-07 · 4d ago</sub>
+<sub>2026-11-07 · 5d ago</sub>
 
 > esp32agent CLI 0.1.3. Install: see cli/README.md.
 
 ### [v0.2.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v0.2.4) — ESP32 Agent 1.0.2 · firmware v0.2.4 (TestFlight)
-<sub>2026-11-07 · 3d ago</sub>
+<sub>2026-11-07 · 4d ago</sub>
 
 > App 1.0.2 (TestFlight build 10) and board firmware v0.2.4 (TestFlight channel). Tested end to end on Duolingo lessons on a real iPhone.
 > - Get the app: [TestFlight](https://testflight.apple.com/join/1xQHgJcA)
@@ -57,12 +57,12 @@
 > …
 
 ### [cli-v0.1.2](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.2) — esp32agent 0.1.2
-<sub>2026-11-05 · 5d ago</sub>
+<sub>2026-11-05 · 6d ago</sub>
 
 > esp32agent CLI 0.1.2. Install: see cli/README.md.
 
 ### [cli-v0.1.1](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/cli-v0.1.1) — esp32agent 0.1.1
-<sub>2026-11-05 · 5d ago</sub>
+<sub>2026-11-05 · 6d ago</sub>
 
 > esp32agent CLI 0.1.1. Install: see cli/README.md.
 

@@ -24,7 +24,7 @@
 | 💻 **Languages** | — |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `llm` `llm-agent` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-10-18 (23d ago) |
+| 🕒 **Last activity** | 2026-10-18 (24d ago) |
 | 📅 **Created** | 2023-10-11 |
 | 📦 **Latest release** | [0.16.8](https://github.com/letta-ai/letta/releases/tag/0.16.8) — 2026-05-14 |
 | 🌿 **Default branch** | `main` |

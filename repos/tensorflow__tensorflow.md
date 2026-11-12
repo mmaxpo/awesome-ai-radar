@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.5k |
+| ⭐ **Stars** | 201.6k |
 | 🍴 **Forks** | 77.9k |
 | 🐞 **Open issues + PRs** | [3.4k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 26% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1396.0 MB |
+| 💾 **Size** | 1397.2 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [PR #52725: [XLA:GPU] Expose ROCm's libhipcxx from include/hipccl as i…](https://github.com/tensorflow/tensorflow/commit/4c8d1a57d2e89c60c266bfe4e9966c0f5e1d176c) | amd-mcieslak |
-| 2026-11-11 | [Integrate LLVM at llvm/llvm-project@bb04dac04a0f](https://github.com/tensorflow/tensorflow/commit/f66ab17a11a8fb76eb8fa7df55fd74effdbf630f) | tensorflower-gardener |
-| 2026-11-11 | [PR #52764: Bump lit from 23.1.4 to 23.1.5](https://github.com/tensorflow/tensorflow/commit/4991dc2c8a331c0be026fe6af9acd6e785608ca3) | dependabot[bot] |
-| 2026-11-11 | [PR #52763: Bump github/codeql-action/upload-sarif from 4.39.1 to 4.39.3](https://github.com/tensorflow/tensorflow/commit/2284229d9e65d0ebc249c228bec7f9049846d7c2) | dependabot[bot] |
-| 2026-11-11 | [PR #52782: [ROCm] Fix flaky MarkerCapturing tests due to a mixture of…](https://github.com/tensorflow/tensorflow/commit/5cf66ab106a9f9d3ea62aef1c83d3cbe9edf7430) | alekstheod |
-| 2026-11-11 | [Automated Code Change](https://github.com/tensorflow/tensorflow/commit/0f629522cc7cea8465d92424a26063b9e18ec820) | tensorflower-gardener |
-| 2026-11-11 | [[XLA] Enable libunwind per-FDE EH frame registration on Linux libc++ …](https://github.com/tensorflow/tensorflow/commit/c4a67b1d07fddd34a357d48dd21fa9ab34d1ba26) | tensorflower-gardener |
-| 2026-11-11 | [[XLA:GPU] Update RaggedAllToAll AOT compatibility goldens for fabric_…](https://github.com/tensorflow/tensorflow/commit/c354de8fe58f5424ad8ae736065f5a1013701ffc) | sohaibiftikhar |
-| 2026-11-11 | [Delete the internal-only XProf forwarding targets from `tensorflow/co…](https://github.com/tensorflow/tensorflow/commit/03ff4b8100583f5ad0864cb5fda84db20029bf5e) | chsigg |
-| 2026-11-11 | [Automated Code Change](https://github.com/tensorflow/tensorflow/commit/16098ca6524b13d267c5a2fa329d22a13e26b6ca) | tensorflower-gardener |
+| 2026-11-12 | [[XLA] Reject shardings with more last_tile_dims than tile assignment …](https://github.com/tensorflow/tensorflow/commit/05b250351b59b6cfc41724f9de1ea3d8b5161b31) | dimitar-asenov |
+| 2026-11-12 | [[XLA:GPU] Migrate Triton collectives to explicit xtile.entry_func arg…](https://github.com/tensorflow/tensorflow/commit/2972cd0b2c77136e4cc95ad5f523877e651a4d67) | sohaibiftikhar |
+| 2026-11-12 | [Merge pull request #128930 from teerthsharma:tf-nms-total-order](https://github.com/tensorflow/tensorflow/commit/d409fa6849055593a16410187b6344d2dfe24ed6) | tensorflower-gardener |
+| 2026-11-12 | [Remove deprecated PjRtDevice::id() from PjRtDevice.](https://github.com/tensorflow/tensorflow/commit/f403da29162d16ab17e9d6d3a02855325420c66a) | ilya-biryukov |
+| 2026-11-12 | [PR #52698: [XLA:TSL] Reject negative byte counts in SnappyInputStream](https://github.com/tensorflow/tensorflow/commit/d9a9a36f22f4f2f89f22b9b572d5c43ab7697004) | professor-moody |
+| 2026-11-12 | [[XLA:GPU] Handle root GemmFusion outputs like any other output.](https://github.com/tensorflow/tensorflow/commit/7ea63e4d5a4588e033e51beb2f8e1b6da319fe10) | vwbaker |
+| 2026-11-12 | [[XLA] Bounds-check table lookup indices in collective_opt_utils](https://github.com/tensorflow/tensorflow/commit/1235e274983c9d1781d4abb88b6c66bb93b2fd58) | dimitar-asenov |
+| 2026-11-12 | [PR #52787: [XLA:TSL] Reject negative byte counts in SnappyInputBuffer](https://github.com/tensorflow/tensorflow/commit/a169e8d63cdef6714f92da5f24245b158ac60be2) | professor-moody |
+| 2026-11-12 | [PR #52704: Fix nan checker assert on modules that return tuple](https://github.com/tensorflow/tensorflow/commit/0bef8595d6fce35424031cb6cf20700eec49f9fb) | draganmladjenovic |
+| 2026-11-12 | [Add unit tests to show non-flat support on HostOffloadingPrepare with…](https://github.com/tensorflow/tensorflow/commit/c2e3e2749aadaac45f7299ffb3648d21fde877ec) | ekayaaslan |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

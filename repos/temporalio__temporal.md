@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 24.3k |
+| ⭐ **Stars** | 24.4k |
 | 🍴 **Forks** | 2.1k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/temporalio/temporal/issues) |
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 170.0 MB |
+| 💾 **Size** | 169.2 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 8d ago</sub>
+<sub>2026-11-02 · 9d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 8d ago</sub>
+<sub>2026-11-02 · 9d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 8d ago</sub>
+<sub>2026-11-02 · 9d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828

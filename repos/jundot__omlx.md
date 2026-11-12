@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 23.5k |
+| ⭐ **Stars** | 23.6k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [494](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [484](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 3% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 91.6 MB |
+| 💾 **Size** | 91.7 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
 ### [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 0.7.4.dev1
-<sub>2026-11-04 · 7d ago</sub>
+<sub>2026-11-04 · 8d ago</sub>
 
 > **oMLX 0.7.4.dev1**
 > > This is a development release. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3) — 0.7.3
-<sub>2026-10-31 · 10d ago</sub>
+<sub>2026-10-31 · 11d ago</sub>
 
 > **oMLX 0.7.3**
 > oMLX 0.7.3 makes DeepSeek V4.1 prefill and batched decode faster, lets Ask AI hold voice conversations, search the web, read links and look at your screen, and cuts memory use when many requests run at long context. The notes below cover changes since 0.7.3rc1, and earlier 0.7.3 highlights are summarized at the end.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.3rc1](https://github.com/jundot/omlx/releases/tag/v0.7.3rc1) — 0.7.3rc1
-<sub>2026-10-27 · 15d ago</sub>
+<sub>2026-10-27 · 16d ago</sub>
 
 > **oMLX 0.7.3rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.2](https://github.com/jundot/omlx/releases/tag/v0.7.2).
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.3.dev2](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev2) — 0.7.3.dev2
-<sub>2026-10-25 · 17d ago</sub>
+<sub>2026-10-25 · 18d ago</sub>
 
 > **oMLX 0.7.3.dev2**
 > > This is a hotfix release that fixes an error when turning on Lightning MTP for MiniMax M3.1 (#4827). It also removes the stray `</think>` at the start of MiniMax M3.1 non-streaming replies and fixes prefill for DeepSeek V4 Flash oQ3.5e.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [fix(scheduler): start requests that arrive mid-prefill after the runn…](https://github.com/jundot/omlx/commit/95a33f88c622f3f72f84cb9bd2a5b59e40edafe1) | jundot |
-| 2026-11-11 | [fix(prefill-helper): retry an offline helper when a long prompt arriv…](https://github.com/jundot/omlx/commit/6a98f70715ff77b2328592258fdd7f6b24db7655) | jundot |
-| 2026-11-11 | [fix: remove three intermittent CI failures on main (#5171)](https://github.com/jundot/omlx/commit/14fab9c049effe6d3556c95753c4608d1f846a3c) | jundot |
-| 2026-11-11 | [fix(prefill-helper): retry a helper that does not answer over SSH (#5…](https://github.com/jundot/omlx/commit/6eec8d51fab1664a255aaaaa6f3f998cbf9011e3) | yanzhaohui1999 |
-| 2026-11-11 | [feat(macos): simplify the model library list](https://github.com/jundot/omlx/commit/267de8e8d7dd9c84626e457571e8b7e90237b397) | jundot |
-| 2026-11-11 | [fix(macos): show model aliases and prefer aliases when copying (#5091)](https://github.com/jundot/omlx/commit/a88306eb92b834c682e30cf2bd02b5155c274cb8) | ngutech21 |
-| 2026-11-11 | [fix(qwen4-exp): keep g13/g14 GPUs on the MLX path (#5089)](https://github.com/jundot/omlx/commit/e03190e31af53b3fc9fa4b562f064367b9ec89aa) | begcdn |
-| 2026-11-11 | [fix(tool-calling): count a declared tool name as call evidence only i…](https://github.com/jundot/omlx/commit/b3214c0da92f69b633ad141d56e5885be338429b) | Flo5k5 |
-| 2026-11-11 | [fix(scheduler): keep the Metal wired limit when a batch generator clo…](https://github.com/jundot/omlx/commit/98fd1b71b5b303e00d46e0f4028a2b8414db8b40) | jundot |
-| 2026-11-11 | [fix(stt): reserve realtime sessions before backend startup (#5092)](https://github.com/jundot/omlx/commit/db4b4176985277359f739655a01eae5e3a6fa412) | Aminark |
+| 2026-11-12 | [perf(cuda-helper): DeepSeek V4.1 expert, attention and window cache k…](https://github.com/jundot/omlx/commit/7ab44f30db6ad9a6067928cbec889e3171499a39) | jundot |
+| 2026-11-12 | [test(scheduler): isolate sdpa256 globals in prefill memory guard (#5176)](https://github.com/jundot/omlx/commit/1c94c39d5fac6b4eb0eb1f2c924a62bf858d69ca) | yanzhaohui1999 |
+| 2026-11-12 | [test: stop mock cache dirs polluting the repo root (#5183)](https://github.com/jundot/omlx/commit/7e8d877065228e4aa9d600bc9bc7192a93a67b68) | shaanchander |
+| 2026-11-12 | [feat(eval): let local accuracy runs raise the per-question token limi…](https://github.com/jundot/omlx/commit/fa7b45424ba675eb0c0bdf8204861bbcbd133be1) | jundot |
+| 2026-11-12 | [fix(codex): skip the reverse DNS lookup in the instructions probe server](https://github.com/jundot/omlx/commit/9715639e7fceac67d53dedfac4f6a654d7297eb6) | jundot |
+| 2026-11-12 | [build: use PEP 735 group for dev dependencies (#5188)](https://github.com/jundot/omlx/commit/e11bffccf78218cb28a497d69c89f7eab5be3604) | ngutech21 |
+| 2026-11-12 | [fix(oq): find Spark-X (spark2_5) token embedding for oQe imatrix (#5184)](https://github.com/jundot/omlx/commit/e980721018dc4d77d68051f9bec2eefd5f9a062d) | Woody-Hu |
+| 2026-11-12 | [fix(turboquant): keep the verify seam order independent of model load…](https://github.com/jundot/omlx/commit/54f67977207ad4021eb25dd87cced9f111594f29) | jundot |
+| 2026-11-12 | [perf(qwen3_5): serve long left-padded batches per row with batch-1 at…](https://github.com/jundot/omlx/commit/4df1ca122f375719a0a228dde29684c11cd201c8) | StefVanG |
+| 2026-11-12 | [test: trim the GPU-heavy cases that slowed CI again (#5185)](https://github.com/jundot/omlx/commit/0b7eccb4f28dee8ed3155a585fda065b9d219341) | jundot |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 

@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 68.2k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [347](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [346](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — 2026-10-26 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 94.8 MB |
+| 💾 **Size** | 95.1 MB |
 | 🌐 **Website** | https://anythingllm.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [fix: keep generic types like Promise<Response> in chat exports (#7124)](https://github.com/Mintplex-Labs/anything-llm/commit/c4e4e677ec5611fb488f8d46782813ae994df59e) | Israel-Kli |
+| 2026-11-12 | [Rework PowerPoint tool: themes, layouts, single-call sections (#6409)](https://github.com/Mintplex-Labs/anything-llm/commit/15602bd49074144cef0b116881cb54f7a38fe9cc) | shatfield4 |
+| 2026-11-11 | [fix: log collected error details in Gemini #logAPIError (#7111)](https://github.com/Mintplex-Labs/anything-llm/commit/e8434c07c3d385411aec28e8f9758dfd073565ec) | Bensonbenyi |
+| 2026-11-11 | [fix: surface the real error when a PGVector similarity search fails (…](https://github.com/Mintplex-Labs/anything-llm/commit/bc003cbbb905e1acc622038b8f8711ee7c4a7297) | Israel-Kli |
+| 2026-11-11 | [fix: retain in-flight document uploads when adding files (#7117)](https://github.com/Mintplex-Labs/anything-llm/commit/18a92ee613453d13a6ab4a0c1c7799e8450ca329) | Max-Reisinger |
+| 2026-11-11 | [fix: cap pending agent invocation caches (#7122)](https://github.com/Mintplex-Labs/anything-llm/commit/758a77fa8c435773c72354f2a3b6285e00f18cc9) | timothycarambat |
 | 2026-11-10 | [fix: keep the Content-Type header set in an agent flow API Call block…](https://github.com/Mintplex-Labs/anything-llm/commit/728586d76c843ed25cb7a27c7403f4b79bd960c8) | Israel-Kli |
 | 2026-11-10 | [fix: keep non-Latin text in raw-text document titles (#7106)](https://github.com/Mintplex-Labs/anything-llm/commit/ba22b48dd34b7c54db9ac7c43930960f83da499f) | Israel-Kli |
 | 2026-11-10 | [Email approval card for Gmail and Outlook agent tools (#6970)](https://github.com/Mintplex-Labs/anything-llm/commit/6e3e6cfc901c37032b9e939fb14c50cfb0485f5a) | shatfield4 |
 | 2026-11-10 | [fix: invalidate model router decisions after config edits (#7099)](https://github.com/Mintplex-Labs/anything-llm/commit/e82a80da0e5e81252cb19287ba32088233b81df4) | Max-Reisinger |
-| 2026-11-10 | [perf: share a TTL context window cache across runtime-discovery provi…](https://github.com/Mintplex-Labs/anything-llm/commit/75479cd75ff407058e30e2b668b5c57b245acb68) | Max-Reisinger |
-| 2026-11-09 | [fix: cap concurrent Paperless-ngx document downloads (#7096)](https://github.com/Mintplex-Labs/anything-llm/commit/ace9dad3348b4d8a237b09978517ced2bd18e198) | timothycarambat |
-| 2026-11-09 | [fix: bump lancedb to 0.30.0 and reject empty vectors before insert (#…](https://github.com/Mintplex-Labs/anything-llm/commit/194b8f03c5cf21ab4620a6c991ff3f6688c00a80) | timothycarambat |
-| 2026-11-09 | [fix: escape double quotes in Telegram link hrefs (#7095)](https://github.com/Mintplex-Labs/anything-llm/commit/db06c9e537f0a0b5606e801b47729a7391fc81d4) | timothycarambat |
-| 2026-11-09 | [fix: let Weaviate embed into workspaces whose slug starts with a digi…](https://github.com/Mintplex-Labs/anything-llm/commit/174281032f114a9db8a5d34152d761a8639c2709) | jaeminbird |
-| 2026-11-09 | [feat: live elapsed timer while the model is thinking (#7091)](https://github.com/Mintplex-Labs/anything-llm/commit/d5257f8b8c9229a7dae267342899720cea7f0b98) | timothycarambat |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
 

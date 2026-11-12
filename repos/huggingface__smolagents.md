@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-10 (yesterday) |
 | 📅 **Created** | 2024-12-05 |
 | 📦 **Latest release** | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) — 2026-05-29 |
 | 🌿 **Default branch** | `main` |
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.24.0](https://github.com/huggingface/smolagents/releases/tag/v1.24.0)
-<sub>2026-01-16 · 9mo ago</sub>
+<sub>2026-01-16 · 10mo ago</sub>
 
 > **What's Changed**
 > * Bump version to 1.24 by @aymeric-roucher in https://github.com/huggingface/smolagents/pull/1871

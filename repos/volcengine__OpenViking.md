@@ -20,23 +20,31 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 42.0k |
-| 🍴 **Forks** | 3.4k |
+| ⭐ **Stars** | 42.1k |
+| 🍴 **Forks** | 3.5k |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/volcengine/OpenViking/issues) |
-| 💻 **Languages** | Python 67% · TypeScript 16% · Rust 11% · JavaScript 1% · C++ 1% |
+| 💻 **Languages** | Python 66% · TypeScript 16% · Rust 11% · MDX 2% · JavaScript 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2026-01-05 |
-| 📦 **Latest release** | [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1) — 2026-11-11 |
+| 📦 **Latest release** | [python-sdk@0.1.20](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.20) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 411.7 MB |
+| 💾 **Size** | 414.6 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
+### [python-sdk@0.1.20](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.20) — openviking-sdk 0.1.20
+<sub>2026-11-12 · today</sub>
+
+> **更新**
+> - 支持上下文使用次数与最近使用时间标签更新
+> - 支持批量设置上下文标签
+> - 支持 Python 同步与异步客户端调用 `batch_set_tags`
+
 ### [openviking-superagent@0.5.2-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.2-preview) — OpenViking SuperAgent 0.5.2-preview _(pre-release)_
-<sub>2026-11-11 · today</sub>
+<sub>2026-11-11 · yesterday</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -47,7 +55,7 @@
 > …
 
 ### [v0.5.4.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4.1)
-<sub>2026-11-11 · today</sub>
+<sub>2026-11-11 · yesterday</sub>
 
 > **中文**
 > **修复与改进**
@@ -58,7 +66,7 @@
 > …
 
 ### [openviking-superagent@0.5.1-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.1-preview) — OpenViking SuperAgent 0.5.1-preview _(pre-release)_
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -69,35 +77,24 @@
 > …
 
 ### [openviking-vika@0.5.0-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-vika%400.5.0-preview) — Vika 0.5.0-preview _(pre-release)_
-<sub>2026-11-09 · 2d ago</sub>
+<sub>2026-11-09 · 3d ago</sub>
 
 > Install this version: `curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/vika/releases/0.5.0-preview/install.sh | sh -s -- --version 0.5.0-preview`
-
-### [v0.5.4](https://github.com/volcengine/OpenViking/releases/tag/v0.5.4)
-<sub>2026-11-09 · 2d ago</sub>
-
-> **中文**
-> **主要更新**
-> - **MCP 与实时上下文**：注册 Streamable HTTP MCP Server，检索、调用工具，并把工具挂载为可读取的 Markdown 节点。提供 REST、CLI 和 SDK 入口；同步上游工具后可查看受影响的挂载。[#6263](https://github.com/volcengine/OpenViking/pull/6263)
-> - **Agent 规则查询**：多种 Agent 集成增加 Rule Search 入口，在执行操作前按需查找适用规则。升级插件或重连 MCP 客户端后生效；这不会自动增加每轮拦截。[#7005](https://github.com/volcengine/OpenViking/pull/7005)
-> - **Watch 多节点运行**：增加 MySQL Watch 存储和列表分页；Connector 授权撤销后自动暂停，重新授权时只恢复此前自动暂停的任务。[#6756](https://github.com/volcengine/OpenViking/pull/6756)、[#6944](https://github.com/volcengine/OpenViking/pull/6944)
-> - **会话恢复与记忆整理**：失败或失去执行任务的归档支持带内容哈希的显式重试；可用 `ov compile memory` 整理当前用户的已有记忆。[#5802](https://github.com/volcengine/OpenViking/pull/5802)、[#6829](https://github.com/volcengine/OpenViking/pull/6829)
-> …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [fix(security): 修复 Git 导入链路的 SSRF 绕过 (#7441)](https://github.com/volcengine/OpenViking/commit/12b188a787c724d92b5645d489b8340f344035ac) | qin-ctx |
-| 2026-11-11 | [feat(react)!: support complete TUI quick command presets (#7462)](https://github.com/volcengine/OpenViking/commit/83d24ca4fc6f8587ed1a1ebee9bfea4d412d6b69) | LaamGinghong |
-| 2026-11-11 | [feat(storage): configure remote PathGlob with enable_path_glob (#7461)](https://github.com/volcengine/OpenViking/commit/9b673971104c0b40404decc2e82821339921090d) | zhoujh01 |
-| 2026-11-11 | [fix(react): restore VikingBot message layout and references (#7460)](https://github.com/volcengine/OpenViking/commit/c6def608a25e6aa59fc24fa463f3e983c296318e) | LaamGinghong |
-| 2026-11-11 | [fix(feishu): support Wiki-backed files and native Slides imports (#7153)](https://github.com/volcengine/OpenViking/commit/8e5299efeb0a1e980ebcfc9b2df72851ac0595c9) | ShaoZegangByte |
-| 2026-11-11 | [fix(models): classify exhausted credit balances as quota errors (#7308)](https://github.com/volcengine/OpenViking/commit/c313b9e27082091c985b4181e376434eb0797f3d) | r266-tech |
-| 2026-11-11 | [ci(react): automate beta releases and keep stable releases manual (#7…](https://github.com/volcengine/OpenViking/commit/9dc4922a92f9013f66703aa9846219da43f6e75f) | leowld |
-| 2026-11-11 | [refactor(ragfs): modularize git service (#7442)](https://github.com/volcengine/OpenViking/commit/ed624589cd36b6322f648c45ac4cc954bde072d0) | baojun-zhang |
-| 2026-11-11 | [fix(cli): honor OPENVIKING_LANG during language initialization (#7439)](https://github.com/volcengine/OpenViking/commit/602c2ec1d532a8a61ec43376206a430bac0641a2) | nocvalight |
-| 2026-11-11 | [feat(gateway): let X-OpenViking-Context only narrow tool access (#7446)](https://github.com/volcengine/OpenViking/commit/5c8be88523753dee3b2dfa2ec068fdc95253a7a9) | t0saki |
+| 2026-11-12 | [fix(react): use icon-only VikingBot message copy buttons (#7523)](https://github.com/volcengine/OpenViking/commit/51f0e8e262060e95a897e8480fa9fa47652f75ed) | LaamGinghong |
+| 2026-11-12 | [fix(observability): 从 ov.conf 读取 Kafka 上报配置 (#7491)](https://github.com/volcengine/OpenViking/commit/5a212c28b53377ba51c4e78615781d480d5d19ca) | dingerchen |
+| 2026-11-12 | [feat(user): 支持按配置预置 GLOBAL_POLICY.md (#7512)](https://github.com/volcengine/OpenViking/commit/522f4df0e4fd264fe19dabda72c218b900d91b5a) | qin-ctx |
+| 2026-11-12 | [feat(skills): remove update backups and rollback (#7509)](https://github.com/volcengine/OpenViking/commit/9b16802008a9fe8edf7fc40877dca4bdf02af0b9) | yeshion23333 |
+| 2026-11-12 | [feat(react): add headless VikingBot module and Console chat (#7510)](https://github.com/volcengine/OpenViking/commit/b2d7169caccf92ff06cfe21d46d47806282b89ef) | LaamGinghong |
+| 2026-11-12 | [feat(react): implement the file browser search with four retrieval mo…](https://github.com/volcengine/OpenViking/commit/bcdaac0cedba25db3b63763dcfc8d3b80b692cbd) | LaamGinghong |
+| 2026-11-12 | [feat(react)!: rename public components and rewrite frontend docs (#7506)](https://github.com/volcengine/OpenViking/commit/1f1fa7e273053fef386c94a964b0a3fac943f93b) | yufeng201 |
+| 2026-11-12 | [fix(react): filter internal metadata in FileBrowser text reads (#7490)](https://github.com/volcengine/OpenViking/commit/ea5baaaa376763fe217e4e0f4f7ef18c0bd40fcb) | LaamGinghong |
+| 2026-11-12 | [fix(parse): resolve bookmark links found inside notes in AnyDoc outpu…](https://github.com/volcengine/OpenViking/commit/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb) | umeGe |
+| 2026-11-12 | [docs(config): explain Responses authentication with API keys (#7314)](https://github.com/volcengine/OpenViking/commit/4792249144cf82183e483c974cb85938793d4130) | r266-tech |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-11 (yesterday) |
 | 📅 **Created** | 2016-06-17 |
 | 📦 **Latest release** | [1.59.0](https://github.com/casey/just/releases/tag/1.59.0) — 2026-10-15 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [1.59.0](https://github.com/casey/just/releases/tag/1.59.0)
-<sub>2026-10-15 · 27d ago</sub>
+<sub>2026-10-15 · 28d ago</sub>
 
 > **Breaking**
 > - Require unicode paths ([#3708](https://github.com/casey/just/pull/3708) by [casey](https://github.com/casey))

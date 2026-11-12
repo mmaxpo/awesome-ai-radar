@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [904](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [905](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.9.3.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3.dev1) — 3.9.3.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > **What's Changed**
 > **Development & Tidiness 🧹**
@@ -47,7 +47,7 @@
 > …
 
 ### [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) — 3.9.2 - It’s okay to let go of a lock that already let go of you
-<sub>2026-11-06 · 4d ago</sub>
+<sub>2026-11-06 · 5d ago</sub>
 
 > **3.9.2 - It’s okay to let go of a lock that already let go of you**
 > *Released on November 06, 2026*
@@ -58,7 +58,7 @@
 > …
 
 ### [3.9.2.dev6](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2.dev6) — 3.9.2.dev6: Nightly Development Release _(pre-release)_
-<sub>2026-11-06 · 5d ago</sub>
+<sub>2026-11-06 · 6d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -66,7 +66,7 @@
 > **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.2.dev5...3.9.2.dev6
 
 ### [3.9.2.dev5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2.dev5) — 3.9.2.dev5: Nightly Development Release _(pre-release)_
-<sub>2026-11-05 · 6d ago</sub>
+<sub>2026-11-05 · 7d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -77,7 +77,7 @@
 > …
 
 ### [3.9.2.dev4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2.dev4) — 3.9.2.dev4: Nightly Development Release _(pre-release)_
-<sub>2026-11-04 · 7d ago</sub>
+<sub>2026-11-04 · 8d ago</sub>
 
 > **What's Changed**
 > **Documentation 📓**
@@ -91,6 +91,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [docs: set PREFECT_API_URL in the open source quickstart (#23842)](https://github.com/PrefectHQ/prefect/commit/5cf5adc41e7d21f6c32f49a1443ac0441c6fd44c) | masonmenges |
+| 2026-11-12 | [Fix broken examples in the store-flow-code guide (#23801)](https://github.com/PrefectHQ/prefect/commit/fd88963913e3f595b9fce6363ef91324891504f9) | ZainnQureshii |
 | 2026-11-10 | [docs: rename managed automation to workspace policy (#23800)](https://github.com/PrefectHQ/prefect/commit/bc0ff4b8c9e44cc474482ae69005945541fdcfe2) | nathandpeterson |
 | 2026-11-10 | [docs: document flow archival and restoration policies (#23546)](https://github.com/PrefectHQ/prefect/commit/0f0f28690f188ddfe2051b997b462abc612bb105) | nathandpeterson |
 | 2026-11-09 | [Document ClassVar annotations for custom block metadata (#23827)](https://github.com/PrefectHQ/prefect/commit/941c57c524e683e7c1f8bb673da4e7d37d421753) | ashutosh8021 |
@@ -99,8 +101,6 @@
 | 2026-11-09 | [chore(deps): Update dependency pixi-viewport to v7 (#23825)](https://github.com/PrefectHQ/prefect/commit/14221a629d1782a9ae51f451441bf1076ae0f75d) | prefect-renovate[bot] |
 | 2026-11-09 | [chore(deps): Update dependency @hookform/resolvers to v7 (#23824)](https://github.com/PrefectHQ/prefect/commit/24fc5f48d131e054a52c4452371fac3a95a9d3a5) | prefect-renovate[bot] |
 | 2026-11-06 | [docs: Add release notes for 3.9.2 (#23798)](https://github.com/PrefectHQ/prefect/commit/b0479c0c26045b06321191bbad0cdfbb334d7380) | devin-ai-integration[bot] |
-| 2026-11-06 | [Skip locked rows when sweeping held events (#23757)](https://github.com/PrefectHQ/prefect/commit/550749030020610893c60032690b27e8f100c638) | chuqCTC |
-| 2026-11-06 | [Let `*` match an empty string in `prefect deploy --name` patterns (#2…](https://github.com/PrefectHQ/prefect/commit/b5d3bbf0d1a1e2dfe541456ff4f7ceb861355684) | devin-ai-integration[bot] |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

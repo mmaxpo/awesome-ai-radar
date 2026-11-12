@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 9.2k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [758](https://github.com/catboost/catboost/issues) |
+| 🐞 **Open issues + PRs** | [759](https://github.com/catboost/catboost/issues) |
 | 💻 **Languages** | C++ 78% · Python 11% · Cuda 4% · CMake 3% · Scala 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `decision-trees` `gradient-boosting` `gbm` `gbdt` `python` `r` `kaggle` `gpu-computing` `catboost` `tutorial` `categorical-features` `gpu` `coreml` `data-science` `big-data` `cuda` `data-mining` |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2017-07-18 |
 | 📦 **Latest release** | [node-package-v1.27.0](https://github.com/catboost/catboost/releases/tag/node-package-v1.27.0) — 2026-02-21 |
 | 🌿 **Default branch** | `master` |
@@ -90,6 +90,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [Remove remaining eMudhra roots from certs](https://github.com/catboost/catboost/commit/f19604bb4a118c1cdd24c9f08c3a0da23ee3bd4a) | nik-lucky |
+| 2026-11-12 | [переписывать assert тестовых модулей PY3TEST при сборке](https://github.com/catboost/catboost/commit/91e1b726cf715bc675358f7f2404f35b5021c36b) | sovetkin |
+| 2026-11-11 | [fix copying instead of moving in some insert methods; better heteroge…](https://github.com/catboost/catboost/commit/8d797fad544091e60e830e0987e00ddf5bc3b411) | ilnurkh |
 | 2026-11-10 | [Fix grammar](https://github.com/catboost/catboost/commit/71b27d240154132626088cf3d55aad90b3835296) | andrey-khropov |
 | 2026-11-09 | [tokenizers caching](https://github.com/catboost/catboost/commit/b3ec02473f080abcd181b417de36ebcc8f0be8c8) | quezee |
 | 2026-11-09 | [передавать исходник и config в rewrite_asserts для pytest 8](https://github.com/catboost/catboost/commit/47c4f4ce445cb58655170d0e6a0c9239b19bab4a) | sovetkin |
@@ -97,9 +100,6 @@
 | 2026-11-07 | [Revert commit rXXXXXX, YT-30299: Shared[Mutable]Ref from blob shrinks](https://github.com/catboost/catboost/commit/e2a715beaa2f13c1c798be9a9e8349fb434b1c44) | babenko |
 | 2026-11-06 | [статическая таблица python-ресурсов вместо py3cc и конструкторов](https://github.com/catboost/catboost/commit/b1a76758ed68590d895f288dabf3f72751dd3d60) | pg |
 | 2026-11-06 | [YT-30299: Shared[Mutable]Ref from blob shrinks](https://github.com/catboost/catboost/commit/e73afeb0dcebf1ec3a5e34d46e01ad07f68f19a6) | sabdenovch |
-| 2026-11-06 | [Update contrib/restricted/google/benchmark to 1.10.0](https://github.com/catboost/catboost/commit/08b97dbb24b28fa1b261577e5006a6fd00d3bef3) | georgthegreat |
-| 2026-11-06 | [Remove obsolete rseq CPU-id helpers](https://github.com/catboost/catboost/commit/fdc0557846126bd41978c9550f07f2b376486602) | yuri-pechatnov |
-| 2026-11-05 | [neh: IHttpRequest::DisableCompression() for http2 lets a handler send…](https://github.com/catboost/catboost/commit/5686f8c6cc9def4b0df343488d2f887ec5609d1f) | trofimenkov |
 
 [See all commits ↗](https://github.com/catboost/catboost/commits)
 

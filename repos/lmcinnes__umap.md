@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.3k |
-| 🍴 **Forks** | 884 |
-| 🐞 **Open issues + PRs** | [540](https://github.com/lmcinnes/umap/issues) |
+| 🍴 **Forks** | 886 |
+| 🐞 **Open issues + PRs** | [543](https://github.com/lmcinnes/umap/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `umap` `dimensionality-reduction` `visualization` `machine-learning` `topological-data-analysis` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0)
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > **What's Changed**
 > * Embed combined models without densMAP instead of failing with KeyError by @raashish1601 in https://github.com/lmcinnes/umap/pull/1304
@@ -47,7 +47,7 @@
 > …
 
 ### [release-0.6.0rc1](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0rc1) _(pre-release)_
-<sub>2026-11-03 · 7d ago</sub>
+<sub>2026-11-03 · 8d ago</sub>
 
 > **What's Changed**
 > * Preserve input dtype in transform and fit_transform output by @sebastianbreguel in https://github.com/lmcinnes/umap/pull/1253

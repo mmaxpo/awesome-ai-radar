@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 71.2k |
+| ⭐ **Stars** | 71.3k |
 | 🍴 **Forks** | 11.5k |
-| 🐞 **Open issues + PRs** | [24](https://github.com/asgeirtj/system_prompts_leaks/issues) |
+| 🐞 **Open issues + PRs** | [25](https://github.com/asgeirtj/system_prompts_leaks/issues) |
 | 💻 **Languages** | Python 64% · JavaScript 33% · HTML 2% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | `ai` `anthropic` `chatbot` `chatgpt` `claude` `claude-code` `codex` `gemini` `generative-ai` `google` `llm` `openai` `prompt-engineering` `ai-agents` `system-prompts` `cursor` `grok` `ai-prompts` `prompt` `system-prompt` |
-| 🕒 **Last activity** | 2026-11-10 (yesterday) |
+| 🕒 **Last activity** | 2026-11-10 (2d ago) |
 | 📅 **Created** | 2025-05-03 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 77.5k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [492](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [493](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-11 (yesterday) |
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 14d ago</sub>
+<sub>2026-10-28 · 15d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.

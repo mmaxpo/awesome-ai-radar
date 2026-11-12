@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 548 |
-| 🍴 **Forks** | 60 |
-| 🐞 **Open issues + PRs** | [25](https://github.com/pizza-bot-app/pizza-bot/issues) |
+| 🍴 **Forks** | 61 |
+| 🐞 **Open issues + PRs** | [26](https://github.com/pizza-bot-app/pizza-bot/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 5% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` |
-| 🕒 **Last activity** | 2026-11-10 (today) |
+| 🕒 **Last activity** | 2026-11-10 (yesterday) |
 | 📅 **Created** | 2026-06-26 |
 | 📦 **Latest release** | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — Pizza Bot OSS 1.3.0
-<sub>2026-11-10 · today</sub>
+<sub>2026-11-10 · yesterday</sub>
 
 > **Highlights**
 > - **Opper provider.** You can use [Opper](https://opper.ai/) as a model provider. Thanks to @Felixkw12 for their first contribution! (#155)

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Go 55% · Python 26% · TypeScript 7% · MDX 6% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `api` `chatbot` `chatgpt` `database` `docker` `frontend` `openai` `postgresql` `privacy` `security` `typescript` `html` `javascript` `react` `rag` `vector` `groq` `framework` |
-| 🕒 **Last activity** | 2026-11-09 (yesterday) |
+| 🕒 **Last activity** | 2026-11-09 (2d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2) — 2026-10-30 |
 | 🌿 **Default branch** | `main` |
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.0.1](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.1)
-<sub>2026-10-30 · 12d ago</sub>
+<sub>2026-10-30 · 13d ago</sub>
 
 > **Quivr 2.0.1**
 > 2.0.1 is a security release. It changes no API, no configuration and no stored data. Upgrade any 2.0.0 installation to it.
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.0.0-alpha.7](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.0-alpha.7) _(pre-release)_
-<sub>2026-10-14 · 28d ago</sub>
+<sub>2026-10-14 · 29d ago</sub>
 
 > **[2.0.0-alpha.7](https://github.com/The-Vibe-Company/quivr/compare/v2.0.0-alpha.6...v2.0.0-alpha.7) (2026-10-13)**
 > **⚠ BREAKING CHANGES**

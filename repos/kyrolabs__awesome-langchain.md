@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 9.6k |
 | 🍴 **Forks** | 990 |
-| 🐞 **Open issues + PRs** | [1](https://github.com/kyrolabs/awesome-langchain/issues) |
+| 🐞 **Open issues + PRs** | [0](https://github.com/kyrolabs/awesome-langchain/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | `ai` `awesome` `awesome-list` `langchain` `llm` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-11 (yesterday) |
 | 📅 **Created** | 2023-02-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 71.5k |
+| ⭐ **Stars** | 71.6k |
 | 🍴 **Forks** | 7.9k |
 | 🐞 **Open issues + PRs** | [1.8k](https://github.com/cline/cline/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2024-07-06 |
 | 📦 **Latest release** | [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26) — 2026-10-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 619.3 MB |
+| 💾 **Size** | 620.4 MB |
 | 🌐 **Website** | https://cline.bot |
 
 ## 📦 Recent releases
 
 ### [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26)
-<sub>2026-10-26 · 16d ago</sub>
+<sub>2026-10-26 · 17d ago</sub>
 
 > **Added**
 > - Cloud tasks: Settings > API Configuration has a Local | Cloud toggle when cloud sessions are on. Cloud picks the Cline model new cloud tasks run on, saved separately from your local models. Clicking the model label in a cloud session's composer opens it there.
@@ -47,7 +47,7 @@
 > …
 
 ### [desktop-v0.0.49](https://github.com/cline/cline/releases/tag/desktop-v0.0.49) — Desktop v0.0.49
-<sub>2026-10-26 · 16d ago</sub>
+<sub>2026-10-26 · 17d ago</sub>
 
 > - A new **Changes** button in the session header shows the session's line counts and opens a pane listing the files changed in the last turn or across the whole session, with a diff of each. When a turn finishes, a summary under it lists the files it changed; click it to open the pane on that turn
 > - A **project files panel** (folder button in the session header) shows a file tree beside the conversation, with a read-only tabbed viewer, git status letters, and a marker on files the session changed. Files the agent edited get a File/Diff toggle. Works on local and SSH environments
@@ -58,7 +58,7 @@
 > …
 
 ### [cli-v3.0.74](https://github.com/cline/cline/releases/tag/cli-v3.0.74) — CLI v3.0.74
-<sub>2026-10-26 · 16d ago</sub>
+<sub>2026-10-26 · 17d ago</sub>
 
 > - Opening a task that's already running in another Cline app now attaches to that run instead of starting a second one that couldn't be stopped. If an app closes mid-task, requests waiting on it now fail with a clear message instead of hanging
 > - `cline hub status` and `cline doctor` no longer hang on a Hub that has frozen. Its health check now times out after 3s and the Hub is reported as not running
@@ -69,7 +69,7 @@
 > …
 
 ### [sdk/sdk/v0.2.0](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.0) — SDK v0.2.0
-<sub>2026-10-26 · 16d ago</sub>
+<sub>2026-10-26 · 17d ago</sub>
 
 > - Starting a session that already has a run in progress now reattaches to the live session instead of replacing its runtime. Before, the original run kept going but couldn't be reached, and its transcript writes landed on a stale snapshot. A start that includes a prompt while a run is in progress is rejected
 > - The hub records every client that registered a capability for a session, including clients that join a task that's already running, and sends each request to the first one still connected. If none is left, the request fails quickly with a message the user can act on, instead of waiting forever
@@ -80,7 +80,7 @@
 > …
 
 ### [desktop-v0.0.48](https://github.com/cline/cline/releases/tag/desktop-v0.0.48) — Desktop v0.0.48
-<sub>2026-10-17 · 25d ago</sub>
+<sub>2026-10-17 · 26d ago</sub>
 
 > - GPT-6 models (such as `gpt-6-sol` and `gpt-6.1-sol`) work on OpenAI and Azure OpenAI-compatible endpoints. Before, every request was rejected because Cline sent `max_tokens` instead of `max_completion_tokens`
 > - The Cline provider's default model is Claude Sonnet 5.5 again, which is back at the top of Cline's recommended list
@@ -91,6 +91,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [refactor(vscode): unify generic provider fallback names with presenta…](https://github.com/cline/cline/commit/50e77bc1e8f7ab023b7986821e4b5f82ff51b8c4) | dominiccooney |
+| 2026-11-12 | [fix(vscode): refresh generic provider models after saving credentials…](https://github.com/cline/cline/commit/d9a5258ba8afa9d55ccf2c43ec81f435f53132c8) | dominiccooney |
+| 2026-11-11 | [refactor(vscode): remove dead LiteLLM/OpenAI model state and unused m…](https://github.com/cline/cline/commit/32075f1110841fe5c7a17e096007e26da8e958f9) | dominiccooney |
 | 2026-11-11 | [refactor(vscode): remove dead onboarding models state and proto messa…](https://github.com/cline/cline/commit/c5df41f937c496ce8c8e689ba58776593c703dfa) | dominiccooney |
 | 2026-11-10 | [revert(llms): back out AI/ML API ranking/attribution and Wally provid…](https://github.com/cline/cline/commit/7796dc9ce12a6377796d1c265036c4038ff3fcb6) | saoudrizwan |
 | 2026-11-10 | [feat(cli): default non-interactive runs to yolo mode (#15644)](https://github.com/cline/cline/commit/d9b24c20317af6412b7a2c32f6f6453420500961) | abeatrix |
@@ -98,9 +101,6 @@
 | 2026-11-10 | [fix(desktop): preserve cloud recency across reconnects (#15637)](https://github.com/cline/cline/commit/dcccbd7712c0ee09f557f6572c9866e6bd36bc08) | johnwschoi |
 | 2026-11-10 | [refactor(desktop): move MCP management to hub (#15498)](https://github.com/cline/cline/commit/500a40e7b76692153906b44dd68732520a966663) | abeatrix |
 | 2026-11-10 | [fix(core): send the reasoning disable to custom models with saved ove…](https://github.com/cline/cline/commit/92b9f722a16d2a03c1153e12f9a0e759455f509d) | mkondratek |
-| 2026-11-10 | [feat(ui): update existing buttons, badges, and switches (#15457)](https://github.com/cline/cline/commit/e1f499a47aea70003221af8c89298f6559c7fd4d) | haleyparkdesign |
-| 2026-11-09 | [ci(vscode): format-check the whole apps/vscode tree (#15566)](https://github.com/cline/cline/commit/1e8ae47d60051c5e9a9bd0eed311ef209fdeb347) | mkondratek |
-| 2026-11-09 | [fix(llms): resolve the summarizer's reasoning-off preference against …](https://github.com/cline/cline/commit/4a4c26ffa10dd4ee93a19df0e0a63b2dc7ad5413) | mkondratek |
 
 [See all commits ↗](https://github.com/cline/cline/commits)
 

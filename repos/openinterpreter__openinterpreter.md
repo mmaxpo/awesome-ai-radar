@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 68.9k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [39](https://github.com/openinterpreter/openinterpreter/issues) |
+| 🐞 **Open issues + PRs** | [40](https://github.com/openinterpreter/openinterpreter/issues) |
 | 💻 **Languages** | Rust 97% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `coding-agent` `deepseek` `kimi` `qwen` `rust` `acp` `python` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2023-07-14 |
 | 📦 **Latest release** | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 278.5 MB |
+| 💾 **Size** | 294.4 MB |
 | 🌐 **Website** | http://openinterpreter.com/ |
 
 ## 📦 Recent releases
 
 ### [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — Open Interpreter 0.0.61
-<sub>2026-11-11 · today</sub>
+<sub>2026-11-11 · yesterday</sub>
 
 > **Open Interpreter 0.0.61**
 > **Models**
@@ -47,7 +47,7 @@
 > …
 
 ### [rust-v0.0.60](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.60) — Open Interpreter 0.0.60
-<sub>2026-11-09 · 2d ago</sub>
+<sub>2026-11-09 · 3d ago</sub>
 
 > **Open Interpreter 0.0.60**
 > **Models**
@@ -58,7 +58,7 @@
 > …
 
 ### [rust-v0.0.59](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.59) — Open Interpreter 0.0.59
-<sub>2026-11-04 · 7d ago</sub>
+<sub>2026-11-04 · 8d ago</sub>
 
 > **Open Interpreter 0.0.59**
 > **Models**
@@ -69,7 +69,7 @@
 > …
 
 ### [rust-v0.0.58](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.58) — Open Interpreter 0.0.58
-<sub>2026-11-01 · 10d ago</sub>
+<sub>2026-11-01 · 11d ago</sub>
 
 > **Open Interpreter 0.0.58**
 > **Models**

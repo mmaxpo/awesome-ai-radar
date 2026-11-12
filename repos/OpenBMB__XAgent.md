@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.5k |
+| ⭐ **Stars** | 8.6k |
 | 🍴 **Forks** | 901 |
 | 🐞 **Open issues + PRs** | [76](https://github.com/OpenBMB/XAgent/issues) |
 | 💻 **Languages** | Python 73% · Vue 19% · TypeScript 6% |

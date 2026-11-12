@@ -26,7 +26,7 @@
 | 💻 **Languages** | HTML 87% · Python 12% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `document-parsing` `machine-learning` `nlp` `ocr` `information-retrieval` `data-pipelines` `ml` `preprocessing` `pdf-to-text` `natural-language-processing` `pdf` `pdf-to-json` `document-image-analysis` `donut` `document-image-processing` `document-parser` `docx` `langchain` `llm` |
-| 🕒 **Last activity** | 2026-11-06 (4d ago) |
+| 🕒 **Last activity** | 2026-11-06 (5d ago) |
 | 📅 **Created** | 2022-09-26 |
 | 📦 **Latest release** | [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37)
-<sub>2026-11-06 · 4d ago</sub>
+<sub>2026-11-06 · 5d ago</sub>
 
 > **What's Changed**
 > **Fixes**
@@ -47,7 +47,7 @@
 > …
 
 ### [0.27.36](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.36)
-<sub>2026-10-30 · 12d ago</sub>
+<sub>2026-10-30 · 13d ago</sub>
 
 > **What's Changed**
 > **Other changes**
@@ -58,7 +58,7 @@
 > …
 
 ### [0.27.35](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.35)
-<sub>2026-10-27 · 15d ago</sub>
+<sub>2026-10-27 · 16d ago</sub>
 
 > **What's Changed**
 > **Other changes**
@@ -69,7 +69,7 @@
 > …
 
 ### [0.27.34](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.34)
-<sub>2026-10-22 · 19d ago</sub>
+<sub>2026-10-22 · 20d ago</sub>
 
 > **What's Changed**
 > * perf: Free decode buffers sooner when restoring original elements by @CyMule in https://github.com/Unstructured-IO/unstructured/pull/4524
@@ -80,7 +80,7 @@
 > …
 
 ### [0.27.33](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.33)
-<sub>2026-10-22 · 20d ago</sub>
+<sub>2026-10-22 · 21d ago</sub>
 
 > **What's Changed**
 > * fix(chunking): don't repeat a very large split element in every chunk by @kholdrex in https://github.com/Unstructured-IO/unstructured/pull/4565

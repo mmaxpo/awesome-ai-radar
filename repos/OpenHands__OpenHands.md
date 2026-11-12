@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 93.2k |
+| ⭐ **Stars** | 93.3k |
 | 🍴 **Forks** | 12.5k |
 | 🐞 **Open issues + PRs** | [1.2k](https://github.com/OpenHands/OpenHands/issues) |
-| 💻 **Languages** | TypeScript 92% · JavaScript 7% |
+| 💻 **Languages** | TypeScript 91% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `artificial-intelligence` `llm` `chatgpt` `claude-ai` `cli` `developer-tools` `gpt` `openai` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2024-03-13 |
-| 📦 **Latest release** | [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0) — 2026-11-10 |
+| 📦 **Latest release** | [v1.39.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.39.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 643.2 MB |
+| 💾 **Size** | 644.2 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
 
+### [v1.39.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.39.0)
+<sub>2026-11-11 · today</sub>
+
+> **1.39.0 (2026-11-11)**
+> **What's Changed**
+> **Features**
+> * feat(automations): filter the dashboard by owner with a Service accounts option by @hieptl in https://github.com/OpenHands/OpenHands/pull/19472
+> * feat(chat): move the message hover timestamp closer to its message by @ak684 in https://github.com/OpenHands/OpenHands/pull/19623
+> * feat(conversation): keep Stop hook feedback out of the chat by @ak684 in https://github.com/OpenHands/OpenHands/pull/19619
+> …
+
 ### [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0)
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > **1.38.0 (2026-11-10)**
 > **What's Changed**
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.37.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.37.0)
-<sub>2026-11-06 · 5d ago</sub>
+<sub>2026-11-06 · 6d ago</sub>
 
 > **1.37.0 (2026-11-06)**
 > **What's Changed**
@@ -58,7 +69,7 @@
 > …
 
 ### [pr19394-evidence](https://github.com/OpenHands/OpenHands/releases/tag/pr19394-evidence) — PR #19394 evidence (temporary)
-<sub>2026-11-05 · 5d ago</sub>
+<sub>2026-11-05 · 6d ago</sub>
 
 > Temporary evidence assets for OpenHands/OpenHands#19394. Browser click-through of automation setup dead ends and decoded PostHog automation_setup_blocked payloads. This release is evidence storage only and can be deleted after PR review.
 > **macOS install note**
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.36.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.36.0)
-<sub>2026-11-05 · 5d ago</sub>
+<sub>2026-11-05 · 6d ago</sub>
 
 > **1.36.0 (2026-11-05)**
 > **What's Changed**
@@ -79,31 +90,20 @@
 > * feat(automations): suggest default templates and promote ones using what users set up by @ak684 in https://github.com/OpenHands/OpenHands/pull/19300
 > …
 
-### [v1.35.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.35.0)
-<sub>2026-11-03 · 7d ago</sub>
-
-> **1.35.0 (2026-11-03)**
-> **What's Changed**
-> **Features**
-> * feat(home): remember and clear the cloud repository selection by @tofarr in https://github.com/OpenHands/OpenHands/pull/19053
-> * feat(automations): store picked Bitbucket Data Center repositories as clone URLs by @ak684 in https://github.com/OpenHands/OpenHands/pull/19023
-> * feat(automations): list each event source's own event types by @ak684 in https://github.com/OpenHands/OpenHands/pull/19025
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [chore: bump automation to 1.32.1 and @openhands/extensions to 0.42.0 …](https://github.com/OpenHands/OpenHands/commit/a54d4b67d57f1ed82e5e7d0265ad03540eea3cd8) | hieptl |
-| 2026-11-11 | [chore: bump agent-server to 1.62.0 (#19658)](https://github.com/OpenHands/OpenHands/commit/44d91955fbc32b0c694e533f68956f62040a9c15) | openhands-release-bot[bot] |
-| 2026-11-11 | [chore(deps): bump ws from 8.22.0 to 8.22.1 (#19637)](https://github.com/OpenHands/OpenHands/commit/471e36ee483b0c8c65c692d07c019b8aa6913753) | dependabot[bot] |
-| 2026-11-11 | [feat(verify-openhands): Server: lines link Canvas families to Agent S…](https://github.com/OpenHands/OpenHands/commit/7939a5c5205ddf3160370a81f1851dd1b812654c) | enyst |
-| 2026-11-11 | [fix(events): catch missing event file error to prevent UI crash (#16806)](https://github.com/OpenHands/OpenHands/commit/4a683937fb936378352bfa0014221ae4335039ac) | mohitdebian |
-| 2026-11-11 | [fix(setup-guide): drop an unanswered close question when the guide hi…](https://github.com/OpenHands/OpenHands/commit/54eaef7a3d8258e03a1697461c0abeea50591038) | hieptl |
-| 2026-11-11 | [fix(setup-guide): start the tour in an open dialog and end it when th…](https://github.com/OpenHands/OpenHands/commit/6ed535e9ac6d92f1c70401cf1873a94b6b898b64) | hieptl |
-| 2026-11-11 | [chore(deps-dev): bump electron from 45.2.1 to 45.2.2 (#19639)](https://github.com/OpenHands/OpenHands/commit/f6662751a3888ce0a0b9a1210227205180ad2364) | dependabot[bot] |
-| 2026-11-11 | [chore(deps): bump react-hot-toast from 2.6.0 to 2.6.1 (#19638)](https://github.com/OpenHands/OpenHands/commit/f913ad43ac5fb225a313791510e2d5c3dfe04790) | dependabot[bot] |
-| 2026-11-11 | [chore(deps): bump the tanstack group across 1 directory with 2 update…](https://github.com/OpenHands/OpenHands/commit/6f0ecea22eaf082454a47ae83ea621c3e3853cfb) | dependabot[bot] |
+| 2026-11-12 | [fix(git): use a repository's real default branch instead of assuming …](https://github.com/OpenHands/OpenHands/commit/d58ca3dcdf95c5847f1888de6d5e0600b53b718c) | hieptl |
+| 2026-11-12 | [fix(chat): activate the home model pick when a self-hosted instance t…](https://github.com/OpenHands/OpenHands/commit/c4ec3bdb2ca1b25d86c1e6bf6d0fa82dd4182bbe) | hieptl |
+| 2026-11-12 | [fix(chat): prevent delayed echoes from deleting newer drafts (#19382)](https://github.com/OpenHands/OpenHands/commit/4ee81713924bc9fc35402c0344a8f47138558f14) | marcello-pichini |
+| 2026-11-12 | [ci: absorb review artifact cleanup into release PRs (#19109)](https://github.com/OpenHands/OpenHands/commit/160fa032460f7d7ac5b7eb42fdd8f9bff49797f7) | smolpaws |
+| 2026-11-12 | [feat: improve Codex subscription authentication guidance (#17194)](https://github.com/OpenHands/OpenHands/commit/c26bda84cdc998eeeb99f5052c6aff666fe4aada) | xunjizhe |
+| 2026-11-12 | [chore(deps): bump lucide-react from 1.66.0 to 1.68.0 (#19674)](https://github.com/OpenHands/OpenHands/commit/a8aaf6813753803cae5182d050909705b0eb02d0) | dependabot[bot] |
+| 2026-11-12 | [chore(deps): bump @heroui/styles from 3.2.4 to 3.2.7 (#19676)](https://github.com/OpenHands/OpenHands/commit/8584a3a7aaf7ff8009e40832bff8bbba87c55c5f) | dependabot[bot] |
+| 2026-11-12 | [chore(deps): bump posthog-js from 1.445.1 to 1.446.0 (#19677)](https://github.com/OpenHands/OpenHands/commit/d24c1a70e81549433d36922f1f274e95ba6baa21) | dependabot[bot] |
+| 2026-11-12 | [chore(deps): bump @microlink/react-json-view from 1.31.25 to 1.31.46 …](https://github.com/OpenHands/OpenHands/commit/1a50beac273f289430ec8836db0c51a60f4fcbd5) | dependabot[bot] |
+| 2026-11-12 | [chore(deps): bump mermaid from 12.2.0 to 12.3.0 (#19673)](https://github.com/OpenHands/OpenHands/commit/da92bbbe3033e7f7f703910c601cd397a8a9e8d5) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 

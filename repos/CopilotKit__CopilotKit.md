@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 38.6k |
+| ⭐ **Stars** | 38.7k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [435](https://github.com/CopilotKit/CopilotKit/issues) |
-| 💻 **Languages** | TypeScript 79% · MDX 6% · Python 6% · JavaScript 2% · C# 2% |
+| 🐞 **Open issues + PRs** | [436](https://github.com/CopilotKit/CopilotKit/issues) |
+| 💻 **Languages** | TypeScript 80% · Python 6% · MDX 5% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` `agent` `agents` `ai-agent` `ai-assistant` `assistant` `copilot` `copilot-chat` `agent-native` `agentic-ai` `assistant-chat-bots` `generative-ui` `js` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2023-06-19 |
-| 📦 **Latest release** | [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0) — 2026-11-11 |
+| 📦 **Latest release** | [python-sdk/v0.1.97](https://github.com/CopilotKit/CopilotKit/releases/tag/python-sdk/v0.1.97) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 898.2 MB |
+| 💾 **Size** | 898.8 MB |
 | 🌐 **Website** | https://docs.copilotkit.ai |
 
 ## 📦 Recent releases
 
-### [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0)
+### [python-sdk/v0.1.97](https://github.com/CopilotKit/CopilotKit/releases/tag/python-sdk/v0.1.97)
+<sub>2026-11-12 · today</sub>
+
+> Python SDK release: copilotkit 0.1.97
+> https://pypi.org/project/copilotkit/0.1.97/
+
+### [v1.87.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.87.0)
 <sub>2026-11-11 · today</sub>
+
+> This release adds support for rendering A2UI 1.0 operations alongside the existing v0.9 protocol, so agents emitting native 1.0 surfaces (such as those from ADK) now render correctly without breaking existing integrations.
+
+### [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0)
+<sub>2026-11-11 · yesterday</sub>
 
 > This release extends native generative UI to Vue and React Native, bumps the A2UI middleware, and hardens the runtime's MCP Apps and A2UI integration.
 
@@ -46,46 +57,24 @@
 > This release introduces native Generative UI for Angular, adds analytics context forwarding for Intelligence runs, and fixes several reliability issues around Intelligence run stops and A2UI rendering.
 
 ### [v1.84.1](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.84.1)
-<sub>2026-11-03 · 7d ago</sub>
-
-> This patch release improves A2UI catalog serialization so that composed custom component trees are correctly recognized by agent SDKs.
-
-### [v1.84.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.84.0)
 <sub>2026-11-03 · 8d ago</sub>
 
-> **Features**
-> - feat(genui-eval): measure the generative UI prompt across models, and ship the improved prompt (#8102) (d168487)
-> **Fixes**
-> - fix(react-core): show scroll-to-bottom only when messages are below (#8159) (3a956ad)
-> - fix(react-core,vue): deprecate the inputMode prop CopilotChat ignores (#8152) (a7c4dde)
-> - fix(react-native): pass CopilotChat's agent and thread to its hooks (#8136) (035c0db)
-> …
-
-### [channels/v0.12.0](https://github.com/CopilotKit/CopilotKit/releases/tag/channels/v0.12.0)
-<sub>2026-10-28 · 14d ago</sub>
-
-> **Security**
-> - Includes security fixes for Teams and other Channels integrations.
-> We recommend upgrading the supported `@copilotkit/channels*` packages used by
-> your application to `0.12.0`, including `@copilotkit/channels` and
-> `@copilotkit/channels-teams` where installed. If you use Telegram, review the
-> migration guidance below before upgrading.
-> …
+> This patch release improves A2UI catalog serialization so that composed custom component trees are correctly recognized by agent SDKs.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [fix(showcase): register openai-agents-python production instance (#8329)](https://github.com/CopilotKit/CopilotKit/commit/5f6d9ba912b67415799be8cc1e18019eb337e636) | contextablemark |
-| 2026-11-11 | [feat(showcase): add A2UI Express to Google ADK Python demos (#8122)](https://github.com/CopilotKit/CopilotKit/commit/ba8f900b5339c99c3ec5f2a0ccd58a6124f622e1) | contextablemark |
-| 2026-11-11 | [fix(showcase): stop langgraph-ts store serialisation and release prob…](https://github.com/CopilotKit/CopilotKit/commit/273b6d7d4c8fade6831f18c221bc667b7c53cf46) | contextablemark |
-| 2026-11-11 | [chore(showcase): add openai-agents-python to keep-alive](https://github.com/CopilotKit/CopilotKit/commit/89ed0e47e5ba5ea7334f38693bbb029e55b7ae87) | contextablemark |
-| 2026-11-11 | [chore(showcase): move google-adk to CopilotKit 1.86.0](https://github.com/CopilotKit/CopilotKit/commit/47543fc562055a4d07d66d64b2bf4add7498c12b) | contextablemark |
-| 2026-11-11 | [Merge remote-tracking branch 'origin/main' into contextablemark/clari…](https://github.com/CopilotKit/CopilotKit/commit/2f48b3cb86011043e4cb63c627d17c625e08b127) | contextablemark |
-| 2026-11-11 | [fix(showcase): register openai-agents-python production instance](https://github.com/CopilotKit/CopilotKit/commit/30639d3535d3fcbea074510f37719858214bc733) | contextablemark |
-| 2026-11-11 | [chore: release monorepo v1.86.0 (#8328)](https://github.com/CopilotKit/CopilotKit/commit/99648a872233469b428ae57a3376616215ae152b) | contextablemark |
-| 2026-11-11 | [chore: release monorepo v1.86.0](https://github.com/CopilotKit/CopilotKit/commit/bcdcb63be1a97bff04658ecf38803324e1dda889) | contextablemark |
-| 2026-11-11 | [fix(showcase): pin aimock 1.48.0 so AG2 multimodal fixtures match (#8…](https://github.com/CopilotKit/CopilotKit/commit/4d647b76e8cd345a25dcddca44280a723f3468bf) | contextablemark |
+| 2026-11-12 | [chore(sdk-python): release 0.1.97 (#8366)](https://github.com/CopilotKit/CopilotKit/commit/d0f7fa783a85364063bf077a210dbc3593616e12) | AlemTuzlak |
+| 2026-11-12 | [chore(sdk-python): release 0.1.97](https://github.com/CopilotKit/CopilotKit/commit/5a7fb690684c3ad0c47fb41cf1db60e69d2ee7b6) | AlemTuzlak |
+| 2026-11-12 | [chore(deps): update reviewdog/action-actionlint action to v1.84.1 (#8…](https://github.com/CopilotKit/CopilotKit/commit/51f76577b0208ac773731650552406c6179c70aa) | renovate[bot] |
+| 2026-11-12 | [feat(shell-docs)!: replace shell-docs with the Fumadocs rebuild (#8327)](https://github.com/CopilotKit/CopilotKit/commit/69c99a1d7ca978eaab037c6a9a54f3c5b44637a6) | tylerslaton |
+| 2026-11-11 | [test(showcase-harness): drop the check on the removed LangGraph trave…](https://github.com/CopilotKit/CopilotKit/commit/6d2e167e710642955806eabc9144469c97573963) | tylerslaton |
+| 2026-11-11 | [chore: release monorepo v1.87.0 (#8355)](https://github.com/CopilotKit/CopilotKit/commit/7fdfe25e23fa5cf038b552e0d40db83ad91b5484) | contextablemark |
+| 2026-11-11 | [docs(shell-docs): carry main's OpenAI Agents SDK, OpenBot and Antigra…](https://github.com/CopilotKit/CopilotKit/commit/6040be767e50ecd6201af0b0a6b98e690a23cf30) | tylerslaton |
+| 2026-11-11 | [fix(shell-docs): send a framework's unsupported pages to their parent…](https://github.com/CopilotKit/CopilotKit/commit/d65645c85440c66decdb6d755e8c6be629782c26) | tylerslaton |
+| 2026-11-11 | [fix(shell-docs): redirect folded framework pages under a frontend pre…](https://github.com/CopilotKit/CopilotKit/commit/fb8266d9b0ee6041a68019b31f9e57d02b02e65a) | tylerslaton |
+| 2026-11-11 | [docs(shell-docs): keep the shadcn note with the Fumadocs paragraph](https://github.com/CopilotKit/CopilotKit/commit/baddde92afe13655c17bbb31eddbb87122f8738f) | tylerslaton |
 
 [See all commits ↗](https://github.com/CopilotKit/CopilotKit/commits)
 

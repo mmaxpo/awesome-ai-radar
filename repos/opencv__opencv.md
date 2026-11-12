@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — OpenCV 5.1.0
-<sub>2026-11-06 · 5d ago</sub>
+<sub>2026-11-06 · 6d ago</sub>
 
 > OpenCV 5.1.0 has been released.
 > :hammer_and_wrench: Change log is [here](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version510).

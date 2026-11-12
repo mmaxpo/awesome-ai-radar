@@ -26,7 +26,7 @@
 | 💻 **Languages** | Cython 52% · Python 42% · C 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `cython` `cpython` `cpython-extensions` `c` `cpp` `performance` `big-data` |
-| 🕒 **Last activity** | 2026-11-10 (yesterday) |
+| 🕒 **Last activity** | 2026-11-10 (2d ago) |
 | 📅 **Created** | 2010-11-21 |
 | 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1)
-<sub>2026-11-01 · 9d ago</sub>
+<sub>2026-11-01 · 10d ago</sub>
 
 > _No notes._
 

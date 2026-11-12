@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 13.4k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [576](https://github.com/modelscope/DiffSynth-Studio/issues) |
+| 🐞 **Open issues + PRs** | [577](https://github.com/modelscope/DiffSynth-Studio/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2023-12-07 |
 | 📦 **Latest release** | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) — 2025-11-18 |
 | 🌿 **Default branch** | `main` |
@@ -64,6 +64,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [support comfy-h3image-prune (#1825)](https://github.com/modelscope/DiffSynth-Studio/commit/28638042df62d206486a8bcff3ef22973c84e414) | mi804 |
 | 2026-11-11 | [update minimax-h3-image docs (#1822)](https://github.com/modelscope/DiffSynth-Studio/commit/55fdfb23987672528d2cf71f4a9d44aba44c1863) | Artiprocher |
 | 2026-11-11 | [update to version 2.2.2 (#1821)](https://github.com/modelscope/DiffSynth-Studio/commit/da8e83b588977a98a8cd7bac082219a312942e82) | Artiprocher |
 | 2026-11-11 | [update entropack example (#1820)](https://github.com/modelscope/DiffSynth-Studio/commit/19dd71afb9b45c27c32ebdb27b9a2dd266d33454) | mi804 |
@@ -73,7 +74,6 @@
 | 2026-11-11 | [update version to 2.2.1 (#1816)](https://github.com/modelscope/DiffSynth-Studio/commit/563963d16ac67be86db7eaec65405632ca0f4a4c) | Artiprocher |
 | 2026-11-11 | [support MiniMax-H3-Image (#1815)](https://github.com/modelscope/DiffSynth-Studio/commit/6ccfd64d90421ef600326644697d80ae5eb74aff) | Artiprocher |
 | 2026-11-10 | [Add agent skills (#1813)](https://github.com/modelscope/DiffSynth-Studio/commit/7f6187275d45eb715bbc3e49e7ae5399f7fcdb1c) | yjy415 |
-| 2026-11-09 | [change default lowvram from disk offload to entropack_int8raw (#1810)](https://github.com/modelscope/DiffSynth-Studio/commit/fdad57bd94d3fbac8a72c44920dd0a23b719ebb9) | mi804 |
 
 [See all commits ↗](https://github.com/modelscope/DiffSynth-Studio/commits)
 

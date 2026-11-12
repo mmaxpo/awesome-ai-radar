@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 39.0k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [777](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [780](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
@@ -47,7 +47,7 @@
 > …
 
 ### [3.4.1](https://github.com/stanfordnlp/dspy/releases/tag/3.4.1)
-<sub>2026-10-12 · 29d ago</sub>
+<sub>2026-10-12 · 1mo ago</sub>
 
 > **DSPy 3.4.1**
 > DSPy 3.4.1 makes GEPA's structured `InstructionProposer` the default instruction proposer and lets `dspy.RLM` build DSPy sub-agents from inside its REPL. It also adds Python 3.15 support, fixes a 3.4.0 import crash, and includes streaming, adapter, and interpreter fixes.

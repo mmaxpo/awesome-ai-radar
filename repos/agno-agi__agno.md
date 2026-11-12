@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/agno-agi/agno)
 
-> The self-driving agent platform
+> The self-managing agent platform
 
 ## 📝 Notes
 
@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 43.1k |
+| ⭐ **Stars** | 43.2k |
 | 🍴 **Forks** | 6.3k |
 | 🐞 **Open issues + PRs** | [1.9k](https://github.com/agno-agi/agno/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 327.9 MB |
+| 💾 **Size** | 329.3 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 14d ago</sub>
+<sub>2026-10-27 · 15d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.10](https://github.com/agno-agi/agno/releases/tag/v3.1.10)
-<sub>2026-10-23 · 19d ago</sub>
+<sub>2026-10-23 · 20d ago</sub>
 
 > **Changelog**
 > **Bug Fixes:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.9](https://github.com/agno-agi/agno/releases/tag/v3.1.9)
-<sub>2026-10-22 · 19d ago</sub>
+<sub>2026-10-22 · 20d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.1.8](https://github.com/agno-agi/agno/releases/tag/v3.1.8)
-<sub>2026-10-21 · 21d ago</sub>
+<sub>2026-10-21 · 22d ago</sub>
 
 > **Changelog**
 > **New Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [fix: Company fixes before 3.2 (#11592)](https://github.com/agno-agi/agno/commit/70be8704e1776f9369106030f976112754cc06ac) | ashpreetbedi |
+| 2026-11-12 | [feat: deliver Company Task results with evidence and continue Tasks f…](https://github.com/agno-agi/agno/commit/616daeb3f872aac47cc26cd6e955c571cec1481c) | kausmeows |
+| 2026-11-11 | [fix: stop the durable queue sweeping or reclaiming runs still executi…](https://github.com/agno-agi/agno/commit/257cd57e9637964f44fc3d7e3ad142ca066b2e43) | ysolanky |
+| 2026-11-11 | [feat: one file tree for Super Agent, Mini Agent and Company (#11588)](https://github.com/agno-agi/agno/commit/8f7512c6790902578068743ae2328d3134e3938b) | ashpreetbedi |
+| 2026-11-11 | [fix: send remote run fields in a shape AgentOS parses (#11587)](https://github.com/agno-agi/agno/commit/df3a5a4ea123336a9634d2b6e0640b5234e29b0e) | ysolanky |
+| 2026-11-11 | [fix: run post-hook guardrails and keep workflow metadata on a continu…](https://github.com/agno-agi/agno/commit/484bdcd15251d66127f7ff8992ca326ee3fd42ba) | ashpreetbedi |
+| 2026-11-11 | [feat: auto_accept is one switch on a Routine, in code or from chat (#…](https://github.com/agno-agi/agno/commit/94cb6698d3c631b44c0858f4990fd3cc76ef60ac) | ashpreetbedi |
+| 2026-11-11 | [feat: decide Company work from chat and run accepted Tasks on Mini Ag…](https://github.com/agno-agi/agno/commit/20ce8b95da9f4d76290362d822a32e4b48970efc) | ashpreetbedi |
+| 2026-11-11 | [feat: add a GitHub interface for webhook events and GitHub App creden…](https://github.com/agno-agi/agno/commit/e88fb12b5b3632cb1f2276cd123f471a545fb402) | kausmeows |
 | 2026-11-11 | [feat: Super Agent does the work itself with direct tools (#11572)](https://github.com/agno-agi/agno/commit/bc6fcc99e2487959e7ae4bc671be6230991df277) | ashpreetbedi |
-| 2026-11-11 | [fix: stop creating the deprecated agno_metrics table on new installs …](https://github.com/agno-agi/agno/commit/937ef9b599597a6a432cd147eb52c515e1d922de) | harshsinha03 |
-| 2026-11-11 | [fix: stop publishing Company tools over MCP (#11578)](https://github.com/agno-agi/agno/commit/1f7bdda920d127f667ff9aec090c90b28ee924d7) | ashpreetbedi |
-| 2026-11-11 | [feat: let Super Agent start accepted Company Tasks without blocking t…](https://github.com/agno-agi/agno/commit/20861be4a588a7e8d0cdf969bda78fafd79f62cf) | kausmeows |
-| 2026-11-11 | [feat: require Project approval before accepting or running Tasks (#11…](https://github.com/agno-agi/agno/commit/50a961e2cc00e8357e5dede4e06ec43b6b375d25) | Himanshu040604 |
-| 2026-11-11 | [fix: metrics refresh follow-ups for MongoDB, Valkey and DynamoDB lega…](https://github.com/agno-agi/agno/commit/0b88f303e1ebd58a92677652fdeaddd7e7618362) | harshsinha03 |
-| 2026-11-10 | [fix: log metrics refresh no-op messages at debug level (#11570)](https://github.com/agno-agi/agno/commit/23eaf7db5c13d031d3148bbae088acad224431aa) | ysolanky |
-| 2026-11-10 | [feat: update company details from human chats (#11569)](https://github.com/agno-agi/agno/commit/f19bdfa3f6fe245e7739945bf5d5f1c96726622a) | ashpreetbedi |
-| 2026-11-10 | [feat: metrics tables, background refresh and /os/metrics homepage rou…](https://github.com/agno-agi/agno/commit/d3e18144c2268dc80ae9d7a205d9929cc4751966) | harshsinha03 |
-| 2026-11-10 | [fix: use beta Gemini Developer API for supported model features (#11564)](https://github.com/agno-agi/agno/commit/1d0d852a881a4fba60f7416601220f0a1347ca52) | Himanshu040604 |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

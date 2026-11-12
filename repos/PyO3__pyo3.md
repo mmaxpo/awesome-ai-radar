@@ -22,27 +22,27 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [415](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [417](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-08 (2d ago) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 62.5 MB |
+| 💾 **Size** | 62.4 MB |
 | 🌐 **Website** | https://pyo3.rs |
 
 ## 📦 Recent releases
 
 ### [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — PyO3 0.30.1
-<sub>2026-10-14 · 27d ago</sub>
+<sub>2026-10-14 · 28d ago</sub>
 
 > PyO3 0.30.1 is a re-release of PyO3 0.30.0 after investments in CI security unfortunately led to a failed crates.io publish. Rather than delete the failed tag, this new tag comes after the CI issues have (hopefully) been corrected.
 > Thanks to @davidhewitt @Tpt and @viicos for the investigation and fixes.
 
 ### [v0.30.0](https://github.com/PyO3/pyo3/releases/tag/v0.30.0) — PyO3 0.30.0
-<sub>2026-10-13 · 28d ago</sub>
+<sub>2026-10-13 · 29d ago</sub>
 
 > This release brings confirmed testing against Python 3.15.0 final. Support for Python 3.8 has been dropped. The minimum supported Rust version has also been increased to 1.85.
 > The largest sets of improvements come to PyO3 0.29.0's `experimental-inspect` feature, which has received substantial feedback since 0.29.0 and subsequently has seen many refinements to improve the quality and coverage to the generated stubs. Thank you to everyone who has helped to continue to drive this feature towards completion.

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 25.0k |
 | 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [3](https://github.com/pypa/pipenv/issues) |
+| 🐞 **Open issues + PRs** | [4](https://github.com/pypa/pipenv/issues) |
 | 💻 **Languages** | Python 82% · HTML 18% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `pip` `python` `packaging` `virtualenv` `pipfile` |
-| 🕒 **Last activity** | 2026-11-09 (yesterday) |
+| 🕒 **Last activity** | 2026-11-11 (today) |
 | 📅 **Created** | 2017-01-20 |
 | 📦 **Latest release** | [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — Release v2026.11.0
-<sub>2026-11-09 · 2d ago</sub>
+<sub>2026-11-09 · 3d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Added**
@@ -69,7 +69,7 @@
 > …
 
 ### [v2026.10.4](https://github.com/pypa/pipenv/releases/tag/v2026.10.4) — Release v2026.10.4
-<sub>2026-10-28 · 13d ago</sub>
+<sub>2026-10-28 · 14d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Added**
@@ -80,7 +80,7 @@
 > …
 
 ### [v2026.10.3](https://github.com/pypa/pipenv/releases/tag/v2026.10.3) — Release v2026.10.3
-<sub>2026-10-25 · 17d ago</sub>
+<sub>2026-10-25 · 18d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-11 | [Merge pull request #6785 from Hisernberg/fix/vendoring-license-path-f…](https://github.com/pypa/pipenv/commit/a7783051ede5ba7fc4d4ab50d4ceb63947937b2c) | matteius |
+| 2026-11-11 | [Fix missing f-string in the flattened-subdep license path](https://github.com/pypa/pipenv/commit/d9a0db06d38778f98c602af7364197afa1fcb756) | Hisernberg |
 | 2026-11-09 | [Release v2026.11.0](https://github.com/pypa/pipenv/commit/3c34948686a487b2728fe1d007822a37cd656d8b) | matteius |
 | 2026-11-09 | [Bumped version to 2026.11.0.](https://github.com/pypa/pipenv/commit/8686678ebf2a107aeda3e8a592630492032a9f95) | matteius |
 | 2026-11-09 | [Merge pull request #6773 from matteius/feat/uv-resolver-backend-6109](https://github.com/pypa/pipenv/commit/ec9b914b3bd93a2141af5bfc2bfbb9ed6565b428) | matteius |
@@ -102,8 +104,6 @@
 | 2026-11-09 | [fix(scan): preserve Safety stderr in quiet mode](https://github.com/pypa/pipenv/commit/831d0a5ae7bf337ea1fe70bc00ea44dee98fc433) | pcbeingused333 |
 | 2026-11-07 | [Merge pull request #6782 from pcbeingused333/fix-c1828](https://github.com/pypa/pipenv/commit/ce84086dcf7695202e269a89875d9681ca233136) | matteius |
 | 2026-11-07 | [fix(requirements): keep markers on VCS entries with --no-lock](https://github.com/pypa/pipenv/commit/12c2d5f4099407421d60fa353106c2742d0a76c3) | pcbeingused333 |
-| 2026-11-07 | [Merge pull request #6781 from matteius/codeql-quality-fixes](https://github.com/pypa/pipenv/commit/d2eefa570a6ff6b61cc2800d1eba4a75f9460573) | matteius |
-| 2026-11-06 | [Add news fragment for PR 6781](https://github.com/pypa/pipenv/commit/824e517cc08886af58eaef1be7ac124a6ab4c6b6) | matteius |
 
 [See all commits ↗](https://github.com/pypa/pipenv/commits)
 

@@ -26,17 +26,17 @@
 | 💻 **Languages** | Java 33% · C# 14% · JavaScript 11% · Python 10% · C++ 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `selenium` `webdriver` `java` `ruby` `python` `javascript` `dotnet` `rust` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2013-01-14 |
 | 📦 **Latest release** | [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) — 2026-10-29 |
 | 🌿 **Default branch** | `trunk` |
-| 💾 **Size** | 2356.5 MB |
+| 💾 **Size** | 2356.7 MB |
 | 🌐 **Website** | https://selenium.dev |
 
 ## 📦 Recent releases
 
 ### [nightly](https://github.com/SeleniumHQ/selenium/releases/tag/nightly) — Nightly _(pre-release)_
-<sub>2026-11-11 · today</sub>
+<sub>2026-11-12 · today</sub>
 
 > **What's Changed**
 > * [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in https://github.com/SeleniumHQ/selenium/pull/18245
@@ -47,7 +47,7 @@
 > …
 
 ### [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) — Selenium 4.52.0
-<sub>2026-10-29 · 13d ago</sub>
+<sub>2026-10-29 · 14d ago</sub>
 
 > **Detailed Changelogs by Component**
 > <img src="https://www.selenium.dev/images/programming/java.svg" width="20" height="20"> **[Java](https://github.com/SeleniumHQ/selenium/blob/trunk/java/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/python.svg" width="20" height="20"> **[Python](https://github.com/SeleniumHQ/selenium/blob/trunk/py/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/dotnet.svg" width="20" height="20"> **[DotNet](https://github.com/SeleniumHQ/selenium/blob/trunk/dotnet/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/ruby.svg" width="20" height="20"> **[Ruby](https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/javascript.svg" width="20" height="20"> **[JavaScript](https://github.com/SeleniumHQ/selenium/blob/trunk/javascript/selenium-webdriver/CHANGES.md)**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [[java] remove Response.status (#18172)](https://github.com/SeleniumHQ/selenium/commit/134be9a591c932c8974f209c216033b8cd14470e) | yashp676 |
+| 2026-11-12 | [[py] Fix Select escaping of trailing double quotes (#18292)](https://github.com/SeleniumHQ/selenium/commit/f3ed8fb99473a010e1f239d612c870315d047ee3) | Mohsintl |
+| 2026-11-12 | [[build] Automated Browser Version Update (#18302)](https://github.com/SeleniumHQ/selenium/commit/5d83fe9448e750e9dc17016c8a256cb94396e77e) | selenium-ci |
+| 2026-11-12 | [[build] label PRs that change docs/ with B-docs](https://github.com/SeleniumHQ/selenium/commit/807039781e6668a95085b82b78a9a56ed713ab01) | titusfortner |
+| 2026-11-11 | [[java] Speed up JSON serialisation and parsing (#17750)](https://github.com/SeleniumHQ/selenium/commit/de539a05074bdf64954d6aa7b317c1dda39912db) | shs96c |
+| 2026-11-11 | [[build] Automated Selenium Manager Update](https://github.com/SeleniumHQ/selenium/commit/8b55240ab95e2d794d9c2a8d5e970ca32ef35a49) | selenium-ci |
+| 2026-11-11 | [[rust] Restrict Selenium Manager stats to vetted values before sendin…](https://github.com/SeleniumHQ/selenium/commit/653797ab7bbc3847540caef68d63127796395651) | titusfortner |
 | 2026-11-11 | [[java] stop reading and writing Response.status internally (#18171)](https://github.com/SeleniumHQ/selenium/commit/8814b2ba39794b1b135f8c66aafe75940cdc1f72) | yashp676 |
 | 2026-11-11 | [[build] Automated Browser Version Update (major) (#18298)](https://github.com/SeleniumHQ/selenium/commit/0960d72292938213dc7f5f05395e7ecc790d1154) | selenium-ci |
 | 2026-11-11 | [[build] Automated CDDL Spec Update (#18248)](https://github.com/SeleniumHQ/selenium/commit/64d22d4a3d84baabf98cba3a6cf2d2ebb3420661) | selenium-ci |
-| 2026-11-10 | [[py] narrow pytest.raises(Exception) in bidi tests (#18286)](https://github.com/SeleniumHQ/selenium/commit/a6e7c3eb7fbe16b2c23abaf30832f7ef485a82e5) | saiyam-jain-dev |
-| 2026-11-10 | [[build] Automated Selenium Manager Update](https://github.com/SeleniumHQ/selenium/commit/fe089ba74f5828838cad9c00e215688158c7d9e3) | selenium-ci |
-| 2026-11-10 | [[rust] Update Rust dependencies (#18297)](https://github.com/SeleniumHQ/selenium/commit/49e95b505938313c37c09959a210c8059d523a80) | bonigarcia |
-| 2026-11-10 | [[js] Publish @selenium/manager in releases (#18296)](https://github.com/SeleniumHQ/selenium/commit/3cebec83f823f18bb874c2ee3fa676f60caca7d7) | AutomatedTester |
-| 2026-11-10 | [[py][rb] Fix tests failing after the browser version update (#18294)](https://github.com/SeleniumHQ/selenium/commit/7b987231e1d39e0696a07eab2d02d4362b00791f) | diemol |
-| 2026-11-10 | [[rb] Allow to set environment variables when staring a browser (#17395)](https://github.com/SeleniumHQ/selenium/commit/cb60e35e5ef9f1b8dd4d059ca394dd056f12f650) | y-yagi |
-| 2026-11-10 | [[build] Automated Browser Version Update (major) with CDP (#18278)](https://github.com/SeleniumHQ/selenium/commit/bdb4fc7a3515831a8e85820db468e75d5f4f108f) | selenium-ci |
 
 [See all commits ↗](https://github.com/SeleniumHQ/selenium/commits)
 

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 34.7k |
 | 🍴 **Forks** | 4.3k |
-| 🐞 **Open issues + PRs** | [110](https://github.com/OpenBMB/ChatDev/issues) |
+| 🐞 **Open issues + PRs** | [114](https://github.com/OpenBMB/ChatDev/issues) |
 | 💻 **Languages** | Python 70% · Vue 28% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-06 (5d ago) |
+| 🕒 **Last activity** | 2026-11-06 (6d ago) |
 | 📅 **Created** | 2023-08-28 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) — 2026-03-23 |
 | 🌿 **Default branch** | `main` |
@@ -68,7 +68,7 @@
 > Existing users of ChatDev 1.0 can continue to access the legacy implementation via its branch `chatdev1.0`.
 
 ### [v1.1.6](https://github.com/OpenBMB/ChatDev/releases/tag/v1.1.6)
-<sub>2024-11-12 · 1y ago</sub>
+<sub>2024-11-12 · 2y ago</sub>
 
 > **Important Change**
 > * The [MacNet](https://arxiv.org/abs/2406.07155) is now available! Check it out on https://github.com/OpenBMB/ChatDev/tree/macnet

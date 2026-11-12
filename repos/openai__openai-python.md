@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `openai` `python` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-11 (yesterday) |
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0)
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > **[3.49.0](https://github.com/openai/openai-python/compare/v3.48.0...v3.49.0) (2026-11-10)**
 > **Features**
@@ -56,14 +56,14 @@
 > …
 
 ### [v3.47.0](https://github.com/openai/openai-python/releases/tag/v3.47.0)
-<sub>2026-11-05 · 5d ago</sub>
+<sub>2026-11-05 · 6d ago</sub>
 
 > **[3.47.0](https://github.com/openai/openai-python/compare/v3.46.0...v3.47.0) (2026-11-05)**
 > **Features**
 > * **api:** add a model option for Responses ([#4249](https://github.com/openai/openai-python/issues/4249)) ([090098f](https://github.com/openai/openai-python/commit/090098fd3f00fd46c529c4fd19edc2c762ce7a34))
 
 ### [v3.46.0](https://github.com/openai/openai-python/releases/tag/v3.46.0)
-<sub>2026-11-05 · 6d ago</sub>
+<sub>2026-11-05 · 7d ago</sub>
 
 > **[3.46.0](https://github.com/openai/openai-python/compare/v3.45.0...v3.46.0) (2026-11-05)**
 > **Features**
@@ -74,7 +74,7 @@
 > …
 
 ### [v3.45.0](https://github.com/openai/openai-python/releases/tag/v3.45.0)
-<sub>2026-11-04 · 7d ago</sub>
+<sub>2026-11-04 · 8d ago</sub>
 
 > **[3.45.0](https://github.com/openai/openai-python/compare/v3.44.0...v3.45.0) (2026-11-03)**
 > **Features**

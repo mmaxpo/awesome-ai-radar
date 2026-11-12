@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 200.8k |
+| ⭐ **Stars** | 201.1k |
 | 🍴 **Forks** | 10.6k |
-| 🐞 **Open issues + PRs** | [790](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 74% · Python 12% · Rust 3% · Java 3% · PHP 2% |
+| 🐞 **Open issues + PRs** | [796](https://github.com/firecrawl/firecrawl/issues) |
+| 💻 **Languages** | TypeScript 72% · Python 12% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 186.5 MB |
+| 💾 **Size** | 186.9 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.10](https://github.com/firecrawl/firecrawl/releases/tag/v2.10) — Firecrawl v2.10
-<sub>2026-05-15 · 5mo ago</sub>
+<sub>2026-05-15 · 6mo ago</sub>
 
 > **Firecrawl v2.10**
 > **Improvements**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [fix(api): accept World ID's advertised Orb acr values (#5678)](https://github.com/firecrawl/firecrawl/commit/32fa6f6273daecc9675d41dc2dab44c61e8cc500) | erikengervall |
-| 2026-11-10 | [feat(api): serve government web searches through the Government Index…](https://github.com/firecrawl/firecrawl/commit/346045851ba7ce96771a313f1f591a201065476f) | netankit |
-| 2026-11-10 | [test(api): stop v1 snips at the v1 sunset and check the 410 (#5675)](https://github.com/firecrawl/firecrawl/commit/5c57e8765e6c5af6fe71a9f88265e8137ad94b47) | mogery |
-| 2026-11-10 | [feat(api): sunset /extract on 2026-12-10 and point it at its migratio…](https://github.com/firecrawl/firecrawl/commit/394aba10e8b09b97d3f84d279b391b3b77549658) | mogery |
-| 2026-11-10 | [feat(api): sunset deep-research and llmstxt, with surface keys and mi…](https://github.com/firecrawl/firecrawl/commit/603d3ec4a7f7ef7e0b1c3e5c8ec5a514bca8e1b7) | mogery |
-| 2026-11-10 | [feat(api): deprecation notices on every v1 route (#5604)](https://github.com/firecrawl/firecrawl/commit/52ecbfc0766bd5cce928aef1ce278b1b27f7d504) | mogery |
-| 2026-11-10 | [feat(api): point v0 deprecation notices at the v0 migration guide (#5…](https://github.com/firecrawl/firecrawl/commit/a9ca1a386b8ae1858646fc453b3c3bb897ff9ab1) | mogery |
-| 2026-11-10 | [feat(api): pass team_id to fire-engine chrome-cdp scrapes (#5670)](https://github.com/firecrawl/firecrawl/commit/3cfb9b54d069302aaf58f61bbdb0345b2224db8a) | rowinsg |
-| 2026-11-10 | [perf(alexandria): fewer round trips around a provider call (#5662)](https://github.com/firecrawl/firecrawl/commit/df271b3d76e9bb08f61b1ff6552585578f029176) | KrisOei |
-| 2026-11-09 | [fix(alexandria): retry provider pre-checks once when the connection d…](https://github.com/firecrawl/firecrawl/commit/c8a5b7a1d53748975b524f5392c5e0b93e5410e5) | KrisOei |
+| 2026-11-12 | [Route X posts and profiles through the Exchange like LinkedIn (#5656)](https://github.com/firecrawl/firecrawl/commit/404a57968a67edf14ce21fe911474f9e31a3fc01) | claude[bot] |
+| 2026-11-12 | [ci: build docker images on PRs that touch them (#5711)](https://github.com/firecrawl/firecrawl/commit/efa04721780bad9bd6ce5010cb594ecd021bc186) | abimaelmartell |
+| 2026-11-12 | [fix(docker): pin node 22.23.5-slim to its multi-arch index digest (#5…](https://github.com/firecrawl/firecrawl/commit/8b950c45c8ca0d7037179efb0349ce23d9705b2a) | abimaelmartell |
+| 2026-11-12 | [feat(api): reservedCapacity team flag for PDF parsing (#5707)](https://github.com/firecrawl/firecrawl/commit/1183fc786775b87d05c69da9d2b46d02c3770fdd) | abimaelmartell |
+| 2026-11-11 | [firecrawl-local: make the path to search and Alexandria work for a ne…](https://github.com/firecrawl/firecrawl/commit/5aed6b9307f3c9bcd3a8e0d7d5f8747c20ef208a) | ericciarla |
+| 2026-11-11 | [Add firecrawl-local, a single binary for scrape, crawl and map on you…](https://github.com/firecrawl/firecrawl/commit/9f66dd4c677cfc52cd59e107e212f4d3b40f2a32) | ericciarla |
+| 2026-11-11 | [chore: bump Node to 22.23.5 (#5708)](https://github.com/firecrawl/firecrawl/commit/348dca0db1f3a2a7bcf55c8e5f3bc466571a63b6) | capy-ai[bot] |
+| 2026-11-11 | [chore(test-site): remove two unused icon files (#5705)](https://github.com/firecrawl/firecrawl/commit/6216a5c9557bbaf3de9584ecb6599a27b1173c52) | ericciarla |
+| 2026-11-11 | [chore(examples): move the blog tutorial notebooks out of the reposito…](https://github.com/firecrawl/firecrawl/commit/70cee17624e354fe5fbdb9b7c128739b6ff771bf) | ericciarla |
+| 2026-11-11 | [refactor(api): remove the empty batch billing wrapper (#5701)](https://github.com/firecrawl/firecrawl/commit/d43f75a05daaf6121ad248636acfb091e5ca8662) | micahstairs |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [247](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [250](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 57.3 MB |
+| 💾 **Size** | 57.5 MB |
 | 🌐 **Website** | http://keras.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [Normalize imports of `SymbolicScope`/`in_symbolic_scope`. (#24199)](https://github.com/keras-team/keras/commit/a4a9199bc0d2beabf77882f615d2e64dd20bf9f6) | hertschuh |
-| 2026-11-11 | [Fix `ops.repeat` on Torch when `repeats` is a list. (#24200)](https://github.com/keras-team/keras/commit/e835acc22cd247be423071feb06ba7a4ae9bfeb3) | hertschuh |
-| 2026-11-11 | [Promote integer and bool inputs to float in softsign, squareplus and …](https://github.com/keras-team/keras/commit/eaaa08e0fba67df7c00cdda42d28c4e7e202c4e8) | GargiGupta-io |
-| 2026-11-11 | [Update argument_validation.py (#24156)](https://github.com/keras-team/keras/commit/d805adc85d533b486c17a6ef80af8ac170bdd62a) | MaddipatlaChetan24 |
-| 2026-11-11 | [Fix RandomShear config round trip for float factors (#24073)](https://github.com/keras-team/keras/commit/18d80f670a6b696fde4822169dacdf36af7aae85) | DisturbedCrow |
-| 2026-11-10 | [Accept list and tuple repeats in the JAX repeat op (#24105)](https://github.com/keras-team/keras/commit/a27f27a8deccf55890ed99110f924520d8d34162) | anishmehta24 |
-| 2026-11-10 | [Migrate ops.* calls to backend.ops.* in keras/src/metrics (#24065)](https://github.com/keras-team/keras/commit/0a37fa130ac8b29a57d3766c9ad584d187d0cd00) | nurulgofran |
-| 2026-11-10 | [Stop using `backend.StatelessScope` / `backend.(get/in)_stateless_sco…](https://github.com/keras-team/keras/commit/7dfc9fe8a2bf1b4051d515316a8c53f03d41dc6f) | hertschuh |
-| 2026-11-10 | [Compute a stable variance in torch and NumPy `moments` (#24113)](https://github.com/keras-team/keras/commit/b32459899058d2390ee53f72d9bb870a6873911a) | Viranshul-P |
-| 2026-11-10 | [Document that `Operation.input` and `output` return the first call's …](https://github.com/keras-team/keras/commit/ea14ab21f1cf3f53a45dbd5ae690ee0a899586d5) | Phoebus-Liu |
+| 2026-11-12 | [Stop using `backend.is_keras_tensor` and instead import it from... (#…](https://github.com/keras-team/keras/commit/bc01d50f1dc3a336feafe1e67917b8708bde67bc) | hertschuh |
+| 2026-11-12 | [Don't mark loaded model as compiled when compile_from_config skips co…](https://github.com/keras-team/keras/commit/dd93321d5d31db1fffdac50a87a7912de56bbf00) | vnayakde |
+| 2026-11-11 | [Remove Jules integration. (#24217)](https://github.com/keras-team/keras/commit/14e831361470f79a6735d938905d405f9214ef42) | hertschuh |
+| 2026-11-11 | [Add backend-agnostic implementation for flipud (#24210)](https://github.com/keras-team/keras/commit/ddfa3809868a56009909440bf1c05f2e018e5f9d) | SamanehSaadat |
+| 2026-11-11 | [Stop hiding gfile in remote path tests now that TF-free CI exists (#2…](https://github.com/keras-team/keras/commit/80bd23f974144ed590e13e0e93e63feaa5d98495) | SamanehSaadat |
+| 2026-11-11 | [Stop using `backend.any_symbolic_tensors` and instead import it from.…](https://github.com/keras-team/keras/commit/1c8d49cdd0272ebd5f581a5dff8b077d666338b6) | hertschuh |
+| 2026-11-11 | [Check values across input dtypes in OpTest (#24187)](https://github.com/keras-team/keras/commit/1e56aa071704015bbad5f2eb7ac3be445369c97d) | gaga1313 |
+| 2026-11-11 | [Pin SHA-256 integrity hashes for Fashion-MNIST dataset files (#24036)](https://github.com/keras-team/keras/commit/98bb95799aa5f8877580d36ca1e78c0ce9bc1473) | priyankn |
+| 2026-11-11 | [Introduce `ElementwiseUnaryOperation` base class and refactor ops. (#…](https://github.com/keras-team/keras/commit/74e6d53d6e7f669ee11d0f2bb85d3cb527641396) | james77777778 |
+| 2026-11-11 | [Add backend-agnostic implementation for fliplr (#24209)](https://github.com/keras-team/keras/commit/512ddabed151e611f69c57ee05a534da4160fd50) | SamanehSaadat |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

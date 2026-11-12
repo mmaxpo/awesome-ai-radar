@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 4.7k |
 | 🍴 **Forks** | 234 |
-| 🐞 **Open issues + PRs** | [474](https://github.com/restatedev/restate/issues) |
+| 🐞 **Open issues + PRs** | [473](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 115.0 MB |
+| 💾 **Size** | 115.4 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 9d ago</sub>
+<sub>2026-11-02 · 10d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.8.1](https://github.com/restatedev/restate/releases/tag/v1.8.1)
-<sub>2026-10-21 · 21d ago</sub>
+<sub>2026-10-21 · 22d ago</sub>
 
 > **Restate v1.8.1**
 > v1.8.1 is a drop-in upgrade from v1.8.0, and you can roll back to v1.8.0 unless you enable signal recording. If you are still on v1.7.x, follow the [v1.8.0 upgrade requirements](https://github.com/restatedev/restate/blob/main/release-notes/v1.8.0.md#upgrade--rollback-guidance).
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.8.0](https://github.com/restatedev/restate/releases/tag/v1.8.0)
-<sub>2026-10-14 · 28d ago</sub>
+<sub>2026-10-14 · 29d ago</sub>
 
 > **Restate v1.8.0 🎉**
 > **✨ Release Highlights**
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.8.0-rc.3](https://github.com/restatedev/restate/releases/tag/v1.8.0-rc.3) _(pre-release)_
-<sub>2026-10-13 · 29d ago</sub>
+<sub>2026-10-13 · 1mo ago</sub>
 
 > **Restate v1.8.0-rc.3**
 > **Install**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [Add a dedicated blob table to the partition store (#5800)](https://github.com/restatedev/restate/commit/327a9c186f15dcf0c1365279c5c0959528815468) | muhamadazmy |
+| 2026-11-12 | [Add snapshot restore fallback to older retained snapshots (#4917)](https://github.com/restatedev/restate/commit/1a2bf81c72f053f486040ce13aa48821c5e0de57) | pcholakov |
+| 2026-11-12 | [[snapshots] Configurable upload chunk size and raised default to 32 M…](https://github.com/restatedev/restate/commit/04b148b842e8054c6e82a96b91cc1eab2553fb8f) | pcholakov |
+| 2026-11-11 | [[DataFusion] Add query diagnostics, redacted SQL and HLC timestamps](https://github.com/restatedev/restate/commit/166295d4583adb270b6d355c69646e02d0e8aff6) | AhmedSoliman |
+| 2026-11-11 | [[DataFusion] Separate V1 query sessions, catalogs and data access](https://github.com/restatedev/restate/commit/53df4648d94cca15b7b90bb9f4a8d7f47a1a806a) | AhmedSoliman |
 | 2026-11-11 | [[VQueues] Test immediate and retained completion](https://github.com/restatedev/restate/commit/2347460189bbea4b68f2b856f42f27e8a8119d55) | AhmedSoliman |
 | 2026-11-11 | [[VQueues] Delete entries that finish without retention in one storage…](https://github.com/restatedev/restate/commit/00a458cf3703933aa859df4a2625dc8427d07451) | AhmedSoliman |
 | 2026-11-11 | [[Core] Require network protocol V3 or newer](https://github.com/restatedev/restate/commit/e8c09e07418d6adc809275f003c51db85f425452) | AhmedSoliman |
 | 2026-11-11 | [[Scheduler] Pick first replica with the highest score as leader](https://github.com/restatedev/restate/commit/25a9154d967d662b4f9a03f153fc1ecabad2e553) | tillrohrmann |
 | 2026-11-11 | [[Invoker] Remove unused InvocationReader methods (#5811)](https://github.com/restatedev/restate/commit/bca481cbb6db337b4f3499a6b453cbaaed6f95d1) | MohamedBassem |
-| 2026-11-11 | [Bump gardal to 0.1.0](https://github.com/restatedev/restate/commit/b47b542d5726112b55ee42d013fffd554a8cbff9) | AhmedSoliman |
-| 2026-11-11 | [[chore] Bump rustix to 1.1.6 for RUSTSEC-2026-0486](https://github.com/restatedev/restate/commit/8838b42caa86862988ff36b552c733ef61e56192) | AhmedSoliman |
-| 2026-11-10 | [[restatectl] Show how much log lies between a snapshot and the tail](https://github.com/restatedev/restate/commit/dab17e70f0b6957416a2cde9203762d5df3a50c6) | AhmedSoliman |
-| 2026-11-10 | [[partition-store] Record snapshots' log byte offsets in latest.json](https://github.com/restatedev/restate/commit/f7ac5501b08e6d6edb256b7c8733495ee54682fd) | AhmedSoliman |
-| 2026-11-10 | [[worker] Auto-enable byte offsets once every worker runs v1.9.0](https://github.com/restatedev/restate/commit/67380144b20354e9166891939cc92e43585f0c3b) | AhmedSoliman |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 
