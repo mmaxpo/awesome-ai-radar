@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 91.5k |
+| ⭐ **Stars** | 91.6k |
 | 🍴 **Forks** | 57.1k |
 | 🐞 **Open issues + PRs** | [2.9k](https://github.com/opencv/opencv/issues) |
 | 💻 **Languages** | C++ 86% · Python 4% · C 3% · CMake 2% · Java 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `opencv` `c-plus-plus` `computer-vision` `deep-learning` `image-processing` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2012-07-19 |
 | 📦 **Latest release** | [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — 2026-11-06 |
 | 🌿 **Default branch** | `5.x` |
-| 💾 **Size** | 558.3 MB |
+| 💾 **Size** | 558.5 MB |
 | 🌐 **Website** | https://opencv.org |
 
 ## 📦 Recent releases
 
 ### [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — OpenCV 5.1.0
-<sub>2026-11-06 · 6d ago</sub>
+<sub>2026-11-06 · 7d ago</sub>
 
 > OpenCV 5.1.0 has been released.
 > :hammer_and_wrench: Change log is [here](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version510).
@@ -73,16 +73,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [doc: add 5.2.0-dev and 4.14.0 to version list, derive sphinx release …](https://github.com/opencv/opencv/commit/247ea5144d5ecaf676a6f952b2eb985f77140053) | abhishek-gola |
-| 2026-11-11 | [core: add insertChannel and extractChannel test for all depths (#30625)](https://github.com/opencv/opencv/commit/2404ce75c1b6c2c34b3ced640547fde910d1f70f) | sshivensolanki |
-| 2026-11-11 | [Merge pull request #30738 from cstamatopoulos/xfeat-reference-samplin…](https://github.com/opencv/opencv/commit/8d9f0cb4477b6908759f7ad46a1f5946d9cbc8d2) | cstamatopoulos |
-| 2026-11-11 | [Merge pull request #30755 from vansh917917:docs/ksize-clarifications](https://github.com/opencv/opencv/commit/b40403497a2beb72e42e433e012839fc8b72ffab) | asmorkalov |
-| 2026-11-11 | [Merge pull request #30748 from Hisernberg/docs/fix-openexr-download-link](https://github.com/opencv/opencv/commit/d41753188a4f610dcea39f27ac79b88015ce8a0f) | abhishek-gola |
-| 2026-11-11 | [Merge pull request #30749 from Hisernberg/docs/fix-text-spotting-pape…](https://github.com/opencv/opencv/commit/b4aed07736e638b059a07fad5ac606f5faa38a6c) | abhishek-gola |
-| 2026-11-11 | [Merge pull request #30750 from Hisernberg/docs/fix-earthexplorer-link](https://github.com/opencv/opencv/commit/754fad5072a231b188e7b993af955984e6fce2cf) | abhishek-gola |
-| 2026-11-11 | [Merge pull request #30746 from Prasadayus/optimize/ppl-arm64-rebalance](https://github.com/opencv/opencv/commit/f6211c548e737e0e891d6380a4efd7e1a9c9304c) | abhishek-gola |
-| 2026-11-10 | [docs(imgproc): clarify ksize range and FILTER_SCHARR in corner and La…](https://github.com/opencv/opencv/commit/e7c0a614f9c64afbed9a8a55d3996ccd79a03a5c) | vansh917917 |
-| 2026-11-10 | [Fix duplicated URL scheme in EarthExplorer link](https://github.com/opencv/opencv/commit/51a9d4c51803a1691d192a9072a8fff13047bc8f) | Hisernberg |
+| 2026-11-13 | [Fix dead links in Python tutorials (#30775)](https://github.com/opencv/opencv/commit/205613a29728c2217049bdddbbe98322b485b34e) | mgeethikasaisri09-eng |
+| 2026-11-13 | [Merge pull request #30706 from sshivensolanki/core-locateroi-1d (#30706)](https://github.com/opencv/opencv/commit/efe44093c383b7996b27da98f595dddc18f05a89) | sshivensolanki |
+| 2026-11-13 | [Merge pull request #30655 from sshivensolanki/core-add-sub-64-saturat…](https://github.com/opencv/opencv/commit/f62ce23b91a846e60103f222cab406e34638570e) | abhishek-gola |
+| 2026-11-13 | [dnn: keep INT4/UINT4 QuantizeLinear off the AVX2 per-tensor fast path…](https://github.com/opencv/opencv/commit/998f72949d6bcfc5b1bf87ef57c464c5708803ed) | Kaustubh1235 |
+| 2026-11-13 | [video: dis: vectorize Densification_ParBody with scalable intrinsics …](https://github.com/opencv/opencv/commit/07b31f1e2e8928d280fa59c99418e3b4ad24cfca) | velonica0 |
+| 2026-11-13 | [core: support CV_16F and CV_16BF in finiteMask (#30620)](https://github.com/opencv/opencv/commit/76bae0c54248dadf5fd564cbaf93b4173728eedb) | sshivensolanki |
+| 2026-11-13 | [Merge pull request #30778 from sshivensolanki/fix-flip-1d (#30778)](https://github.com/opencv/opencv/commit/6519feb19489f587770cbcf2750f59a225ffa217) | sshivensolanki |
+| 2026-11-13 | [Merge pull request #29904 from rsnk96/farneback-reuse-polyexp](https://github.com/opencv/opencv/commit/1ea6b2b6620a6269a82c3ff92e75b913cbe16f2e) | abhishek-gola |
+| 2026-11-13 | [Document BORDER_TRANSPARENT for warpPerspective 🤖🤖🤖 (#29765)](https://github.com/opencv/opencv/commit/f7375101ab87ca8704c914f50513c0ca9f7b8864) | 33modeling |
+| 2026-11-13 | [core: support 1D Mat inputs in gemm (#30704)](https://github.com/opencv/opencv/commit/fcfa24dfb7cf7db39a26de3fb5a06ff514a4494a) | sshivensolanki |
 
 [See all commits ↗](https://github.com/opencv/opencv/commits)
 

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-12 (yesterday) |
 | 📅 **Created** | 2023-12-07 |
 | 📦 **Latest release** | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) — 2025-11-18 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9)
-<sub>2025-11-18 · 11mo ago</sub>
+<sub>2025-11-18 · 12mo ago</sub>
 
 > This is the last version of v1.x.x.
 > The next version will be v2.x.x. A new framework will come.

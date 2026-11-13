@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 104.7k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [53](https://github.com/fastapi/fastapi/issues) |
+| 🐞 **Open issues + PRs** | [55](https://github.com/fastapi/fastapi/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `json` `swagger-ui` `redoc` `starlette` `openapi` `api` `openapi3` `framework` `async` `asyncio` `uvicorn` `python3` `python-types` `pydantic` `json-schema` `fastapi` `swagger` `rest` `web` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2018-12-08 |
 | 📦 **Latest release** | [0.162.5](https://github.com/fastapi/fastapi/releases/tag/0.162.5) — 2026-11-11 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [0.162.5](https://github.com/fastapi/fastapi/releases/tag/0.162.5)
-<sub>2026-11-11 · today</sub>
+<sub>2026-11-11 · yesterday</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Fixes**
@@ -45,14 +45,14 @@
 > * ➖ Drop `pydantic-ai` dependency, use `pydantic-ai-slim[openai]` instead. PR [#16526](https://github.com/fastapi/fastapi/pull/16526) by [@YuriiMotov](https://github.com/YuriiMotov).
 
 ### [0.162.4](https://github.com/fastapi/fastapi/releases/tag/0.162.4)
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Fixes**
 > * 🐛 Require AnyIO 4.1.0 or newer at runtime. PR [#16730](https://github.com/fastapi/fastapi/pull/16730) by [@tiangolo](https://github.com/tiangolo).
 
 ### [0.162.3](https://github.com/fastapi/fastapi/releases/tag/0.162.3)
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Upgrades**
@@ -63,7 +63,7 @@
 > …
 
 ### [0.162.2](https://github.com/fastapi/fastapi/releases/tag/0.162.2)
-<sub>2026-11-07 · 4d ago</sub>
+<sub>2026-11-07 · 5d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Docs**
@@ -73,7 +73,7 @@
 > * 🔧 Add an agent skills note to GitHub releases. PR [#16696](https://github.com/fastapi/fastapi/pull/16696) by [@tiangolo](https://github.com/tiangolo).
 
 ### [0.162.1](https://github.com/fastapi/fastapi/releases/tag/0.162.1)
-<sub>2026-11-07 · 5d ago</sub>
+<sub>2026-11-07 · 6d ago</sub>
 
 > **Docs**
 > * 📝 Add parameter model guidance to the FastAPI skill. PR [#16693](https://github.com/fastapi/fastapi/pull/16693) by [@tiangolo](https://github.com/tiangolo).

@@ -21,16 +21,16 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 201.6k |
-| 🍴 **Forks** | 77.9k |
+| 🍴 **Forks** | 78.0k |
 | 🐞 **Open issues + PRs** | [3.4k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 26% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1397.2 MB |
+| 💾 **Size** | 1396.5 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [[XLA] Reject shardings with more last_tile_dims than tile assignment …](https://github.com/tensorflow/tensorflow/commit/05b250351b59b6cfc41724f9de1ea3d8b5161b31) | dimitar-asenov |
-| 2026-11-12 | [[XLA:GPU] Migrate Triton collectives to explicit xtile.entry_func arg…](https://github.com/tensorflow/tensorflow/commit/2972cd0b2c77136e4cc95ad5f523877e651a4d67) | sohaibiftikhar |
-| 2026-11-12 | [Merge pull request #128930 from teerthsharma:tf-nms-total-order](https://github.com/tensorflow/tensorflow/commit/d409fa6849055593a16410187b6344d2dfe24ed6) | tensorflower-gardener |
-| 2026-11-12 | [Remove deprecated PjRtDevice::id() from PjRtDevice.](https://github.com/tensorflow/tensorflow/commit/f403da29162d16ab17e9d6d3a02855325420c66a) | ilya-biryukov |
-| 2026-11-12 | [PR #52698: [XLA:TSL] Reject negative byte counts in SnappyInputStream](https://github.com/tensorflow/tensorflow/commit/d9a9a36f22f4f2f89f22b9b572d5c43ab7697004) | professor-moody |
-| 2026-11-12 | [[XLA:GPU] Handle root GemmFusion outputs like any other output.](https://github.com/tensorflow/tensorflow/commit/7ea63e4d5a4588e033e51beb2f8e1b6da319fe10) | vwbaker |
-| 2026-11-12 | [[XLA] Bounds-check table lookup indices in collective_opt_utils](https://github.com/tensorflow/tensorflow/commit/1235e274983c9d1781d4abb88b6c66bb93b2fd58) | dimitar-asenov |
-| 2026-11-12 | [PR #52787: [XLA:TSL] Reject negative byte counts in SnappyInputBuffer](https://github.com/tensorflow/tensorflow/commit/a169e8d63cdef6714f92da5f24245b158ac60be2) | professor-moody |
-| 2026-11-12 | [PR #52704: Fix nan checker assert on modules that return tuple](https://github.com/tensorflow/tensorflow/commit/0bef8595d6fce35424031cb6cf20700eec49f9fb) | draganmladjenovic |
-| 2026-11-12 | [Add unit tests to show non-flat support on HostOffloadingPrepare with…](https://github.com/tensorflow/tensorflow/commit/c2e3e2749aadaac45f7299ffb3648d21fde877ec) | ekayaaslan |
+| 2026-11-13 | [[XLA:GPU] Use named barrier 1 for single-block phase transitions.](https://github.com/tensorflow/tensorflow/commit/86b3f740733bf0f23e041b7bc1084e20903c4a2f) | thomasjoerg |
+| 2026-11-13 | [[XLA:GPU] Make the scatter emitter independent of the updates operand…](https://github.com/tensorflow/tensorflow/commit/37a2faaf1ff33cee66e65de3863c8cae9e04b19f) | pifon2a |
+| 2026-11-13 | [PR #46248: Fix collective-permute cycle decomposer for multiple cycles](https://github.com/tensorflow/tensorflow/commit/777e3bf41666e86dd815ee8450a666b3dfbdd7a9) | Ashutosh0x |
+| 2026-11-13 | [[XLA:GPU] Rename general, debugging, and Triton autotuner flags.](https://github.com/tensorflow/tensorflow/commit/db6dad0625e38ad2a184336ec65dfa196d8e4f84) | shyamliagrawal |
+| 2026-11-13 | [PR #52970: [ROCm] Add noasan notsan filters](https://github.com/tensorflow/tensorflow/commit/5f2620bc8f7f408a7fcff8636e7f7c26e35d153b) | alekstheod |
+| 2026-11-13 | [PR #52926: [oneAPI] Build the SYCL backend as C++20 with the glibc 2.…](https://github.com/tensorflow/tensorflow/commit/2915f87885f94c1d90534b2a63d797b5d7797449) | mraunak |
+| 2026-11-13 | [PR #50417: [XLA:GPU][oneAPI] Implement complex matmul using oneMKL.](https://github.com/tensorflow/tensorflow/commit/148bc0501cb2520b7b0cf0336af1ce46ec46f65a) | agramesh1 |
+| 2026-11-13 | [PR #52201: [XLA:GPU][Triton] Fix collective while-loop command buffer…](https://github.com/tensorflow/tensorflow/commit/026aecd1da3c45f5688c22e5220abbe3619ce639) | mfrancepillois |
+| 2026-11-13 | [PR #52604: [XLA:GPU] Refresh the B300 target spec from a live B300](https://github.com/tensorflow/tensorflow/commit/a4228299ab49a8cbcd83200ff1ba1ea5512f43f2) | 0z5a |
+| 2026-11-13 | [PR #52104: [ROCm] [CUDA] Keep recorded collectives out of output allo…](https://github.com/tensorflow/tensorflow/commit/98834e2a7a0b46b99873c5e282c0806ddbfe972f) | magaonka-amd |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 15.1k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [2](https://github.com/microsoft/playwright-python/issues) |
+| 🐞 **Open issues + PRs** | [4](https://github.com/microsoft/playwright-python/issues) |
 | 💻 **Languages** | Python 92% · HTML 4% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `playwright` `chromium` `firefox` `webkit` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2020-07-01 |
 | 📦 **Latest release** | [v1.65.1](https://github.com/microsoft/playwright-python/releases/tag/v1.65.1) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 15.8 MB |
+| 💾 **Size** | 15.9 MB |
 | 🌐 **Website** | https://playwright.dev/python/ |
 
 ## 📦 Recent releases
 
 ### [v1.65.1](https://github.com/microsoft/playwright-python/releases/tag/v1.65.1)
-<sub>2026-11-11 · today</sub>
+<sub>2026-11-11 · yesterday</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3337 - chore: roll Node.js to 26.13.1
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0)
-<sub>2026-11-09 · 2d ago</sub>
+<sub>2026-11-09 · 3d ago</sub>
 
 > **🧾 Locator code in Python**
 > A locator from [locator.normalize()](https://playwright.dev/python/docs/api/class-locator#locator-normalize) now converts to a string as Python code. Use it with [page.get_by_ref()](https://playwright.dev/python/docs/api/class-page#page-get-by-ref) to turn an element that an agent picks from a [page.aria_snapshot()](https://playwright.dev/python/docs/api/class-page#page-aria-snapshot) in the `"ai"` mode into code for your test:
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.64.1](https://github.com/microsoft/playwright-python/releases/tag/v1.64.1)
-<sub>2026-10-22 · 20d ago</sub>
+<sub>2026-10-22 · 21d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3283 - chore: roll Node.js to 24.22.1
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.64.0](https://github.com/microsoft/playwright-python/releases/tag/v1.64.0)
-<sub>2026-10-13 · 29d ago</sub>
+<sub>2026-10-13 · 1mo ago</sub>
 
 > **🧰 WebMCP**
 > New [page.webmcp](https://playwright.dev/python/docs/api/class-page#page-webmcp) and [frame.webmcp](https://playwright.dev/python/docs/api/class-frame#frame-webmcp) give access to the tools that a page registers through
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [build(deps): bump types-pyyaml from 6.0.12.20260906 to 6.0.12.2026110…](https://github.com/microsoft/playwright-python/commit/b36f716b50808af0ef031fda06546f97b407ddcc) | dependabot[bot] |
+| 2026-11-12 | [chore: roll Playwright to 1.66.0-next (3b438229c6) (#3334)](https://github.com/microsoft/playwright-python/commit/273ab97d953e0f24f9e52d574f481a35aca313e9) | microsoft-playwright-automation[bot] |
 | 2026-11-11 | [chore: roll Node.js to 26.13.1 (#3337)](https://github.com/microsoft/playwright-python/commit/6f724516c648edda6bf55ba9a9fa2e8143faec52) | pavelfeldman |
 | 2026-11-11 | [fix(docker): upgrade base image packages during the build (#3336)](https://github.com/microsoft/playwright-python/commit/3b1f408208b970a3c108ee47f57c9b57f9b2bbe5) | yury-s |
 | 2026-11-10 | [devops(docker): publish stable images from the tip of a release branc…](https://github.com/microsoft/playwright-python/commit/89436fb88df74b0f1c5ef4b9df3a113d409bf3cd) | yury-s |
@@ -102,8 +104,6 @@
 | 2026-11-10 | [chore(bots): hand triage, review, tasks and rolls to the Playwright b…](https://github.com/microsoft/playwright-python/commit/6b42560a3b5849dc98a47e77ff0536b81c45b53d) | pavelfeldman |
 | 2026-11-09 | [chore: roll Playwright to 1.65.0 (a1f35e1955) (#3327)](https://github.com/microsoft/playwright-python/commit/18175f80c7ede1073f91e2df37587500a5f902c7) | microsoft-playwright-automation[bot] |
 | 2026-11-05 | [devops: wait 7 days before Dependabot proposes pip updates (#3325)](https://github.com/microsoft/playwright-python/commit/6bd6aaa2073695da7320277862ceede0b9756621) | pavelfeldman |
-| 2026-11-05 | [devops(bots): pin the shared actions to a commit SHA (#3319)](https://github.com/microsoft/playwright-python/commit/1e2746c96817d63c3136f21ac02be44d558c5c63) | pavelfeldman |
-| 2026-11-04 | [fix(deps): remove unused pyee runtime dependency (#3316)](https://github.com/microsoft/playwright-python/commit/015115d530c5ce36edfbea3b2e1a156379509d45) | microsoft-playwright-automation[bot] |
 
 [See all commits ↗](https://github.com/microsoft/playwright-python/commits)
 

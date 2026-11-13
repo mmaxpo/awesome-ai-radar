@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.1k |
+| ⭐ **Stars** | 201.4k |
 | 🍴 **Forks** | 10.6k |
-| 🐞 **Open issues + PRs** | [796](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 72% · Python 12% · Rust 5% · Java 3% · PHP 2% |
+| 🐞 **Open issues + PRs** | [797](https://github.com/firecrawl/firecrawl/issues) |
+| 💻 **Languages** | TypeScript 72% · Python 11% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 186.9 MB |
+| 💾 **Size** | 186.6 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [Route X posts and profiles through the Exchange like LinkedIn (#5656)](https://github.com/firecrawl/firecrawl/commit/404a57968a67edf14ce21fe911474f9e31a3fc01) | claude[bot] |
-| 2026-11-12 | [ci: build docker images on PRs that touch them (#5711)](https://github.com/firecrawl/firecrawl/commit/efa04721780bad9bd6ce5010cb594ecd021bc186) | abimaelmartell |
-| 2026-11-12 | [fix(docker): pin node 22.23.5-slim to its multi-arch index digest (#5…](https://github.com/firecrawl/firecrawl/commit/8b950c45c8ca0d7037179efb0349ce23d9705b2a) | abimaelmartell |
-| 2026-11-12 | [feat(api): reservedCapacity team flag for PDF parsing (#5707)](https://github.com/firecrawl/firecrawl/commit/1183fc786775b87d05c69da9d2b46d02c3770fdd) | abimaelmartell |
-| 2026-11-11 | [firecrawl-local: make the path to search and Alexandria work for a ne…](https://github.com/firecrawl/firecrawl/commit/5aed6b9307f3c9bcd3a8e0d7d5f8747c20ef208a) | ericciarla |
-| 2026-11-11 | [Add firecrawl-local, a single binary for scrape, crawl and map on you…](https://github.com/firecrawl/firecrawl/commit/9f66dd4c677cfc52cd59e107e212f4d3b40f2a32) | ericciarla |
-| 2026-11-11 | [chore: bump Node to 22.23.5 (#5708)](https://github.com/firecrawl/firecrawl/commit/348dca0db1f3a2a7bcf55c8e5f3bc466571a63b6) | capy-ai[bot] |
-| 2026-11-11 | [chore(test-site): remove two unused icon files (#5705)](https://github.com/firecrawl/firecrawl/commit/6216a5c9557bbaf3de9584ecb6599a27b1173c52) | ericciarla |
-| 2026-11-11 | [chore(examples): move the blog tutorial notebooks out of the reposito…](https://github.com/firecrawl/firecrawl/commit/70cee17624e354fe5fbdb9b7c128739b6ff771bf) | ericciarla |
-| 2026-11-11 | [refactor(api): remove the empty batch billing wrapper (#5701)](https://github.com/firecrawl/firecrawl/commit/d43f75a05daaf6121ad248636acfb091e5ca8662) | micahstairs |
+| 2026-11-13 | [Forward zero data retention to Exchange from the exchange proxy (#5736)](https://github.com/firecrawl/firecrawl/commit/eaa56e8803b8d15336503d2c26fccb0ca6b99d18) | developersdigest |
+| 2026-11-12 | [feat(api): give the keyless provider-tools 403 a signup link (#5734)](https://github.com/firecrawl/firecrawl/commit/ab3acea889c724e8d7ebc48839e74cb16d8ca7a1) | nickscamara |
+| 2026-11-12 | [feat(api): hosted bash for agents at /v2/bash (experiment, off by def…](https://github.com/firecrawl/firecrawl/commit/793fd57f133b71426bb6ce65641428c28b883e36) | Ben2W |
+| 2026-11-12 | [chore(api): remove extraction provider (#5730)](https://github.com/firecrawl/firecrawl/commit/ace3c58bc88f0fccdabc8ec6483f8c935eaa6a9c) | abimaelmartell |
+| 2026-11-12 | [perf(api): compress exchange route responses (#5729)](https://github.com/firecrawl/firecrawl/commit/755ff8cb00f691b9a7ccf4673e4aa15ee8f1e19f) | KrisOei |
+| 2026-11-12 | [test(api): stop extract snips at the extract sunset and check the 410…](https://github.com/firecrawl/firecrawl/commit/902a083b95329d2f892e1dc2f76877363504e07b) | mogery |
+| 2026-11-12 | [fix(api): keep page engines when stealth proxy is unavailable (#5713)](https://github.com/firecrawl/firecrawl/commit/b3868a988173f2eacf1ba9286e566757038ca71b) | abimaelmartell |
+| 2026-11-12 | [docs(readme): mention Alexandria and note it runs on Firecrawl Cloud …](https://github.com/firecrawl/firecrawl/commit/0b64de1d651bd8e15e01a0a2f085e7b5edc9bce3) | claude[bot] |
+| 2026-11-12 | [test(api): stop deep research and llms.txt snips at their sunset and …](https://github.com/firecrawl/firecrawl/commit/4c4275fa8a2cac3307ac6279b3fe8aa59e4345b8) | mogery |
+| 2026-11-12 | [feat(sdks): pass gov search sources and type the gov result group (#5…](https://github.com/firecrawl/firecrawl/commit/1fcb57c3e324345d5fd342388d653951deb89220) | erikengervall |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 62% · C# 25% · TypeScript 12% |
 | 📜 **License** | CC-BY-4.0 |
 | 🏷 **Topics** | `chatgpt` `llm-agent` `llm-framework` `agentic` `agentic-agi` `agents` `ai` `autogen` `framework` `autogen-ecosystem` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-12 (yesterday) |
 | 📅 **Created** | 2023-08-18 |
 | 📦 **Latest release** | [python-v0.7.5](https://github.com/microsoft/autogen/releases/tag/python-v0.7.5) — 2025-09-30 |
 | 🌿 **Default branch** | `main` |

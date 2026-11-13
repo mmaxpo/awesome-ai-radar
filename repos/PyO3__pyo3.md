@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [417](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [416](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
@@ -36,13 +36,13 @@
 ## 📦 Recent releases
 
 ### [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — PyO3 0.30.1
-<sub>2026-10-14 · 28d ago</sub>
+<sub>2026-10-14 · 29d ago</sub>
 
 > PyO3 0.30.1 is a re-release of PyO3 0.30.0 after investments in CI security unfortunately led to a failed crates.io publish. Rather than delete the failed tag, this new tag comes after the CI issues have (hopefully) been corrected.
 > Thanks to @davidhewitt @Tpt and @viicos for the investigation and fixes.
 
 ### [v0.30.0](https://github.com/PyO3/pyo3/releases/tag/v0.30.0) — PyO3 0.30.0
-<sub>2026-10-13 · 29d ago</sub>
+<sub>2026-10-13 · 1mo ago</sub>
 
 > This release brings confirmed testing against Python 3.15.0 final. Support for Python 3.8 has been dropped. The minimum supported Rust version has also been increased to 1.85.
 > The largest sets of improvements come to PyO3 0.29.0's `experimental-inspect` feature, which has received substantial feedback since 0.29.0 and subsequently has seen many refinements to improve the quality and coverage to the generated stubs. Thank you to everyone who has helped to continue to drive this feature towards completion.
@@ -89,6 +89,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [avoid leaking integers when creating slice objects (#6575)](https://github.com/PyO3/pyo3/commit/bafdacd76db5612488bcf941a89bb312fc30851f) | davidhewitt |
+| 2026-11-13 | [ci: fix lint failures nov 26 (#6576)](https://github.com/PyO3/pyo3/commit/c99586455deae0394c5a53e43db9333dd6937d4c) | davidhewitt |
 | 2026-11-02 | [feat: introduce stack-allocated `PyBuffer` (#5894)](https://github.com/PyO3/pyo3/commit/f41d7e8799cad7f1c393d00276a4fa7b83acf885) | winstxnhdw |
 | 2026-11-02 | [build(deps): bump the github-actions group with 2 updates (#6567)](https://github.com/PyO3/pyo3/commit/3057df68bc6e3539cba9e34dc78be7473a307cbd) | dependabot[bot] |
 | 2026-11-01 | [fix cases of incorrect allocator or deallocator inheritance (#6559)](https://github.com/PyO3/pyo3/commit/aa0a05f792cdac4290021ec01c9adb6fc23e4a14) | davidhewitt |
@@ -97,8 +99,6 @@
 | 2026-10-25 | [build(deps): bump filelock from 3.19.1 to 3.20.3 (#6549)](https://github.com/PyO3/pyo3/commit/79627d8f830ce65a941725983fc55742160832aa) | dependabot[bot] |
 | 2026-10-25 | [build(deps): bump virtualenv from 16.7.12 to 21.14.13 (#6546)](https://github.com/PyO3/pyo3/commit/cb2b7eecb5c707598bba085de8d286d6392f0bc3) | dependabot[bot] |
 | 2026-10-25 | [build(deps): bump filelock from 3.19.1 to 3.20.3 (#6547)](https://github.com/PyO3/pyo3/commit/fe8531fcd58e1961ed2fc665cde363a6ba7386a6) | dependabot[bot] |
-| 2026-10-24 | [build(deps): bump the github-actions group with 2 updates (#6533)](https://github.com/PyO3/pyo3/commit/fda3c5846d30042c9352885f415435c06f2e4985) | dependabot[bot] |
-| 2026-10-23 | [Use `PyType_FastSubclass` on `RustPython` (#6541)](https://github.com/PyO3/pyo3/commit/424149e8a1c42128b05a090941673008fc46c478) | bschoenmaeckers |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

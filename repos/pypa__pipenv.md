@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 82% · HTML 18% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `pip` `python` `packaging` `virtualenv` `pipfile` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-11 (yesterday) |
 | 📅 **Created** | 2017-01-20 |
 | 📦 **Latest release** | [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — Release v2026.11.0
-<sub>2026-11-09 · 3d ago</sub>
+<sub>2026-11-09 · 4d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Added**
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.10.6](https://github.com/pypa/pipenv/releases/tag/v2026.10.6) — Release v2026.10.6
-<sub>2026-11-05 · 6d ago</sub>
+<sub>2026-11-05 · 7d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -58,7 +58,7 @@
 > …
 
 ### [v2026.10.5](https://github.com/pypa/pipenv/releases/tag/v2026.10.5) — Release v2026.10.5
-<sub>2026-11-01 · 10d ago</sub>
+<sub>2026-11-01 · 11d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -69,7 +69,7 @@
 > …
 
 ### [v2026.10.4](https://github.com/pypa/pipenv/releases/tag/v2026.10.4) — Release v2026.10.4
-<sub>2026-10-28 · 14d ago</sub>
+<sub>2026-10-28 · 15d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Added**
@@ -80,7 +80,7 @@
 > …
 
 ### [v2026.10.3](https://github.com/pypa/pipenv/releases/tag/v2026.10.3) — Release v2026.10.3
-<sub>2026-10-25 · 18d ago</sub>
+<sub>2026-10-25 · 19d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**

@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 23.6k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [484](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [482](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 3% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2026-02-13 |
-| 📦 **Latest release** | [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 2026-11-04 |
+| 📦 **Latest release** | [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 91.7 MB |
+| 💾 **Size** | 93.9 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
+### [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 0.8.0rc1
+<sub>2026-11-12 · today</sub>
+
+> **oMLX 0.8.0rc1**
+> > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
+> The release candidate for oMLX 0.8.0 adds the Prefill Accelerator, which lets a PC with NVIDIA GPUs or a second Mac speed up prefill for a big model on your Mac, and makes DeepSeek V4.1 faster with many requests and on clusters.
+> **Download:** [macOS 26 / 27](https://github.com/jundot/omlx/releases/download/v0.8.0rc1/oMLX-0.8.0rc1-macos26-27.dmg) | [macOS 15 Sequoia](https://github.com/jundot/omlx/releases/download/v0.8.0rc1/oMLX-0.8.0rc1-macos15-sequoia.dmg)
+> <sub><i>* If you downloaded build 3727 right after release, the Cluster tab may not find a DGX Spark or NVIDIA PC, so please download it again.</i></sub>
+> <img width="2400" height="1350" alt="image-1794476752259" src="https://github.com/user-attachments/assets/dfa46522-dd0d-425d-8a16-ca2b3eac042c" />
+> …
+
 ### [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 0.7.4.dev1
-<sub>2026-11-04 · 8d ago</sub>
+<sub>2026-11-04 · 9d ago</sub>
 
 > **oMLX 0.7.4.dev1**
 > > This is a development release. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3) — 0.7.3
-<sub>2026-10-31 · 11d ago</sub>
+<sub>2026-10-31 · 12d ago</sub>
 
 > **oMLX 0.7.3**
 > oMLX 0.7.3 makes DeepSeek V4.1 prefill and batched decode faster, lets Ask AI hold voice conversations, search the web, read links and look at your screen, and cuts memory use when many requests run at long context. The notes below cover changes since 0.7.3rc1, and earlier 0.7.3 highlights are summarized at the end.
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.7.3rc1](https://github.com/jundot/omlx/releases/tag/v0.7.3rc1) — 0.7.3rc1
-<sub>2026-10-27 · 16d ago</sub>
+<sub>2026-10-27 · 17d ago</sub>
 
 > **oMLX 0.7.3rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.2](https://github.com/jundot/omlx/releases/tag/v0.7.2).
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.7.3.dev2](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev2) — 0.7.3.dev2
-<sub>2026-10-25 · 18d ago</sub>
+<sub>2026-10-25 · 19d ago</sub>
 
 > **oMLX 0.7.3.dev2**
 > > This is a hotfix release that fixes an error when turning on Lightning MTP for MiniMax M3.1 (#4827). It also removes the stray `</think>` at the start of MiniMax M3.1 non-streaming replies and fixes prefill for DeepSeek V4 Flash oQ3.5e.
@@ -79,31 +90,20 @@
 > **MiniMax M3.1 Flash**
 > …
 
-### [v0.7.3.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev1) — 0.7.3.dev1
-<sub>2026-10-24 · 18d ago</sub>
-
-> **oMLX 0.7.3.dev1**
-> > Please use [oMLX 0.7.3.dev2](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev2) instead. It is a hotfix release that fixes an error when turning on Lightning MTP for MiniMax M3.1 (#4827). The download links below now point to 0.7.3.dev2.
-> > This is a development release. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.2](https://github.com/jundot/omlx/releases/tag/v0.7.2).
-> oMLX 0.7.3.dev1 adds MiniMax M3.1 Flash with Lightning MTP, makes M1 and M5 Macs, DFlash on fp16 models and GLM-5.3 faster, and gives low-bit oQ quants a better split of their bits.
-> **Download:** [macOS 26 / 27](https://github.com/jundot/omlx/releases/download/v0.7.3.dev2/oMLX-0.7.3.dev2-macos26-27.dmg) | [macOS 15 Sequoia](https://github.com/jundot/omlx/releases/download/v0.7.3.dev2/oMLX-0.7.3.dev2-macos15-sequoia.dmg)
-> **MiniMax M3.1 Flash**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [perf(cuda-helper): DeepSeek V4.1 expert, attention and window cache k…](https://github.com/jundot/omlx/commit/7ab44f30db6ad9a6067928cbec889e3171499a39) | jundot |
-| 2026-11-12 | [test(scheduler): isolate sdpa256 globals in prefill memory guard (#5176)](https://github.com/jundot/omlx/commit/1c94c39d5fac6b4eb0eb1f2c924a62bf858d69ca) | yanzhaohui1999 |
-| 2026-11-12 | [test: stop mock cache dirs polluting the repo root (#5183)](https://github.com/jundot/omlx/commit/7e8d877065228e4aa9d600bc9bc7192a93a67b68) | shaanchander |
-| 2026-11-12 | [feat(eval): let local accuracy runs raise the per-question token limi…](https://github.com/jundot/omlx/commit/fa7b45424ba675eb0c0bdf8204861bbcbd133be1) | jundot |
-| 2026-11-12 | [fix(codex): skip the reverse DNS lookup in the instructions probe server](https://github.com/jundot/omlx/commit/9715639e7fceac67d53dedfac4f6a654d7297eb6) | jundot |
-| 2026-11-12 | [build: use PEP 735 group for dev dependencies (#5188)](https://github.com/jundot/omlx/commit/e11bffccf78218cb28a497d69c89f7eab5be3604) | ngutech21 |
-| 2026-11-12 | [fix(oq): find Spark-X (spark2_5) token embedding for oQe imatrix (#5184)](https://github.com/jundot/omlx/commit/e980721018dc4d77d68051f9bec2eefd5f9a062d) | Woody-Hu |
-| 2026-11-12 | [fix(turboquant): keep the verify seam order independent of model load…](https://github.com/jundot/omlx/commit/54f67977207ad4021eb25dd87cced9f111594f29) | jundot |
-| 2026-11-12 | [perf(qwen3_5): serve long left-padded batches per row with batch-1 at…](https://github.com/jundot/omlx/commit/4df1ca122f375719a0a228dde29684c11cd201c8) | StefVanG |
-| 2026-11-12 | [test: trim the GPU-heavy cases that slowed CI again (#5185)](https://github.com/jundot/omlx/commit/0b7eccb4f28dee8ed3155a585fda065b9d219341) | jundot |
+| 2026-11-13 | [fix: keep completed Harmony messages when the last one is malformed (…](https://github.com/jundot/omlx/commit/8b24a5b946deacb6bfec8c207c773d8c2a2750fb) | jundot |
+| 2026-11-13 | [perf(qwen4_exp): advise a decode token's SSD table pages before copyi…](https://github.com/jundot/omlx/commit/605e864f278e16db04d5909a361741da809f91f7) | yohann-bearzi |
+| 2026-11-13 | [fix: run profile reference repair on older settings files (#5216)](https://github.com/jundot/omlx/commit/90ba3b9d9fe6767bfec1853afb0a0c096aca700b) | jundot |
+| 2026-11-13 | [fix(admin): show recent decode speed per request, not the lifetime av…](https://github.com/jundot/omlx/commit/b0758fba02cea57e82e87525b7d8fdcaadd2bdfd) | jundot |
+| 2026-11-12 | [test(brew): expect the cluster extra in the Homebrew install spec](https://github.com/jundot/omlx/commit/c74f1b18558842e6b10fcfa6e2e901bb382129d4) | jundot |
+| 2026-11-12 | [fix(brew): install the cluster extra so the Cluster tab finds NVIDIA …](https://github.com/jundot/omlx/commit/f265b65e59ed701f70b9c14f79b3c8dc54976082) | jundot |
+| 2026-11-12 | [fix(mac): bundle zeroconf so the app finds NVIDIA prefill helpers](https://github.com/jundot/omlx/commit/bedde0ca70bbbfde1c4ca50475cf1fdcd92191e3) | jundot |
+| 2026-11-12 | [formula: bump to 0.8.0rc1](https://github.com/jundot/omlx/commit/58cea92366791b5621924f6884e271ba9c1ba2f1) | github-actions[bot] |
+| 2026-11-12 | [chore: bump version to 0.8.0rc1](https://github.com/jundot/omlx/commit/454c90d35fe41d6a4054074ad7f99323857b97e7) | jundot |
+| 2026-11-12 | [feat(mac): the Italian catalog covers the web search and number scale…](https://github.com/jundot/omlx/commit/bab025f52e220fa5d35b24c87992dc9821a4507c) | fabriziosalmi |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 

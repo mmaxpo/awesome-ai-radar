@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1679.9 MB |
+| 💾 **Size** | 1683.2 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 14d ago</sub>
+<sub>2026-10-28 · 15d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [[xpu] Fix LOW priority XPU streams failing with "Unrecognized stream"…](https://github.com/pytorch/pytorch/commit/afab3f0f6c5e2d897b4843b6900f779911a82c8f) | chaojun-zhang |
-| 2026-11-12 | [[dynamo] Update custom `hash(o)` normalization (#201180)](https://github.com/pytorch/pytorch/commit/0a115260d2300d9b5b3d29dee98373a725c338ff) | riccardofelluga |
-| 2026-11-12 | [[CUDA] Keep Python headers first in storage sharing (#201935) (#201935)](https://github.com/pytorch/pytorch/commit/185e8d4bf23f414aca6a2842fd415446e47e4ef8) | q10 |
-| 2026-11-12 | [[inductor] Skip SDPA fusion when the matched scale is zero (#203330)](https://github.com/pytorch/pytorch/commit/5291044bad04f9f0606e330377be25ae8e83aaaf) | KarhouTam |
-| 2026-11-12 | [Add RBLN-SW/torch-rbln to CRCR allowlist as L1 (#193925)](https://github.com/pytorch/pytorch/commit/dd002fbd68c6d39bd55af91dc39b27c91f09eb0d) | rebel-tskim |
-| 2026-11-12 | [[dynamo] Check a compile package against the GPU arch, not the GPU na…](https://github.com/pytorch/pytorch/commit/f0129b28468940c9ac202e685910e080fd6d2fdb) | bobrenjc93 |
-| 2026-11-12 | [[Testcase Refactoring][cpp_extensions] Add GENERIC hw_classification …](https://github.com/pytorch/pytorch/commit/39ac148da6c5e4d3746a68990096ca34afba5b2c) | njjtan |
-| 2026-11-12 | [[Testcase Refactoring] Make test_subgraph_choice device-agnostic via …](https://github.com/pytorch/pytorch/commit/38a27739de967ffe838bc312ca36b817172d0a46) | gavinwang269 |
-| 2026-11-12 | [Fix `sample_kwargs` in `polygamma` op info (#174771)](https://github.com/pytorch/pytorch/commit/42d1654dbdd571d6fedbbedada099edbe30b9e7d) | pbielak |
-| 2026-11-12 | [[Testcase Refactoring] Add hardware classification to glob group test…](https://github.com/pytorch/pytorch/commit/d358ead46e23445ad9586f600ca817a84d818f55) | anning-2026 |
+| 2026-11-13 | [Optimize CSR SpMM CPU grain size and inner accumulation (#188237)](https://github.com/pytorch/pytorch/commit/9192590aacc83d4f2d7d2c987fa7f59f6532ed88) | zhengjun-xing |
+| 2026-11-13 | [[Testcase Refactoring] Gate flop counter device tests by capability (…](https://github.com/pytorch/pytorch/commit/e4d1b4754f7561c81e49ed5294a993c0358e6d7c) | danieldale2026 |
+| 2026-11-13 | [[XPU] Support release branch refs for torch-xpu-ops (#202608)](https://github.com/pytorch/pytorch/commit/559518f34d65241ac1fd61ce02f9ae23946b1355) | chuanqi129 |
+| 2026-11-13 | [[fsdp] Fix double gradient division for singleton groups (#203693)](https://github.com/pytorch/pytorch/commit/f34bbf7b50a40b714683eaf898da94086d5fbd6b) | shuhuayu |
+| 2026-11-13 | [[dynamo] Guard LazyComputedConstant operands at reconstruction time (…](https://github.com/pytorch/pytorch/commit/a1b3d1af97e987060803654d38ddfbfdc0bec8f5) | rtimpe |
+| 2026-11-13 | [[6/N] Refactor `TestPartitioningDevice` and enable for XPU (#196447)](https://github.com/pytorch/pytorch/commit/0522dc9f0a3faeedbb0c470985e737d98d1bbc59) | pbielak |
+| 2026-11-13 | [[MKLDNN][CPU] Fix zero_ buffer overflow for low-precision tensors (#2…](https://github.com/pytorch/pytorch/commit/e3ac352d3a99cf5333c3c2be0ae3e586c436157a) | tangyuan499-commits |
+| 2026-11-13 | [[CPP FakeTensor] Add a temporary check for ops that still need Python…](https://github.com/pytorch/pytorch/commit/3e401a7960544973cdc1c7d5dbcc4d1340e6c160) | liangel-02 |
+| 2026-11-13 | [[CPP FakeTensor] Record the ops Python decomposes under static shapes…](https://github.com/pytorch/pytorch/commit/95b7ec73ce50567a4f9086cd3f0421f5606b1de5) | liangel-02 |
+| 2026-11-13 | [[ROCm] Support CUDAExtension(dlink=True) via -fgpu-rdc and hipcc link…](https://github.com/pytorch/pytorch/commit/f255efb835b43871d164c9752f27c179bf49d921) | umechand-amd |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

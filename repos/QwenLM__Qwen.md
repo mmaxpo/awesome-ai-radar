@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 22.0k |
 | 🍴 **Forks** | 2.0k |
-| 🐞 **Open issues + PRs** | [41](https://github.com/QwenLM/Qwen/issues) |
+| 🐞 **Open issues + PRs** | [42](https://github.com/QwenLM/Qwen/issues) |
 | 💻 **Languages** | Python 63% · Jupyter Notebook 31% · Shell 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `chinese` `large-language-models` `natural-language-processing` `flash-attention` `llm` `pretrained-models` |

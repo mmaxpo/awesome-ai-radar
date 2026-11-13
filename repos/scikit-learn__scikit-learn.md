@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.7 MB |
+| 💾 **Size** | 183.8 MB |
 | 🌐 **Website** | https://scikit-learn.org |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [TST Fix PCA array API checks on rank-deficient data and update array-…](https://github.com/scikit-learn/scikit-learn/commit/ee56c8b5d809dc7b970a140ed501269b63c69cf8) | cakedev0 |
+| 2026-11-13 | [DOC improve User Guide on Linear Models - MultiTaskLasso (#35329)](https://github.com/scikit-learn/scikit-learn/commit/cf52283846d3085337ef214cdb2a6d7e23aa1157) | lorentzenchr |
+| 2026-11-13 | [DOC improve User Guide on Linear Models - Lasso (#35321)](https://github.com/scikit-learn/scikit-learn/commit/f7613034353b82c77a79d8a2719c8b9f5ae03e67) | lorentzenchr |
+| 2026-11-13 | [DOC Add ref for `dcg` and `ndcg` (#34085)](https://github.com/scikit-learn/scikit-learn/commit/42244dab1d3480d0a1684979ed53a571f20b6e06) | lucyleeow |
 | 2026-11-12 | [FEA Add array API support to `roc_auc_score` (#33200)](https://github.com/scikit-learn/scikit-learn/commit/7b2b14e0a89eedfa514dc9885e35a0ecade20cd0) | virchan |
 | 2026-11-11 | [FIX Keep the top bin of KBinsDiscretizer when quantiles tie at the ma…](https://github.com/scikit-learn/scikit-learn/commit/19ca9c861a7adb948a19484337159a748feede54) | cakedev0 |
 | 2026-11-11 | [DOC Fix the Mosley2013 reference in the balanced accuracy section (#3…](https://github.com/scikit-learn/scikit-learn/commit/90f597d3f172eddfb62cd31bac1ba8915c07646d) | erichare |
 | 2026-11-11 | [ENH add newton-cg Array API to PoissonRegressor (#35050)](https://github.com/scikit-learn/scikit-learn/commit/98408191f7e021819b5b39c82db92c116ed03619) | lorentzenchr |
 | 2026-11-10 | [DOC Fix min_cluster_size name and default coupling in the HDBSCAN gui…](https://github.com/scikit-learn/scikit-learn/commit/19b988a4cb03c833c24c36ee0f98343e94da112a) | cakedev0 |
 | 2026-11-10 | [fix: return self from FrozenEstimator.set_params (#35346)](https://github.com/scikit-learn/scikit-learn/commit/bf434819bd98a894a772d68c3d69fffd88fbc6cb) | Yi-111-a |
-| 2026-11-10 | [MNT Deprecate `estimator_name` in favor of `name` in CalibrationDispl…](https://github.com/scikit-learn/scikit-learn/commit/902f240eca61d6af83238131dab433222c557bd7) | AnneBeyer |
-| 2026-11-09 | [:lock: :robot: CI Update lock files for scipy-dev CI build(s) :lock: …](https://github.com/scikit-learn/scikit-learn/commit/13ae2043119dc139698f32cca3a116c429748fd0) | scikit-learn-bot |
-| 2026-11-09 | [:lock: :robot: CI Update lock files for free-threaded CI build(s) :lo…](https://github.com/scikit-learn/scikit-learn/commit/fa760408d2ec6e251fbb954075fa9e1d27daa9f5) | scikit-learn-bot |
-| 2026-11-09 | [:lock: :robot: CI Update lock files for lint CI build(s) :lock: :robo…](https://github.com/scikit-learn/scikit-learn/commit/6cc985a5d4f87c787fcd14c362beeba84d4c69d2) | scikit-learn-bot |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

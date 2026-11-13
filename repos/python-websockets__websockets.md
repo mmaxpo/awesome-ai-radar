@@ -14,32 +14,34 @@
 | **Why it's worth a look** | WebSocket servers and clients for Python (asyncio) |
 | **Added** | 2026-11-11 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 5.7k |
 | 🍴 **Forks** | 619 |
-| 🐞 **Open issues + PRs** | [2](https://github.com/python-websockets/websockets/issues) |
+| 🐞 **Open issues + PRs** | [1](https://github.com/python-websockets/websockets/issues) |
 | 💻 **Languages** | Python 98% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `python` `python3` `websocket` `websockets` `websocket-client` `websocket-server` `websocket-library` |
-| 🕒 **Last activity** | 2026-10-31 (12d ago) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2013-03-30 |
 | 📦 **Latest release** | [17.4](https://github.com/python-websockets/websockets/releases/tag/17.4) — 2026-10-30 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 4.5 MB |
+| 💾 **Size** | 4.3 MB |
 | 🌐 **Website** | https://websockets.readthedocs.io/ |
 
 ## 📦 Recent releases
 
 ### [17.4](https://github.com/python-websockets/websockets/releases/tag/17.4)
-<sub>2026-10-30 · 12d ago</sub>
+<sub>2026-10-30 · 13d ago</sub>
 
 > See https://websockets.readthedocs.io/en/stable/project/changelog.html for details.
 
 ### [17.3](https://github.com/python-websockets/websockets/releases/tag/17.3)
-<sub>2026-10-19 · 23d ago</sub>
+<sub>2026-10-19 · 24d ago</sub>
 
 > See https://websockets.readthedocs.io/en/stable/project/changelog.html for details.
 
@@ -62,6 +64,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [Interrupt blocking reads on Linux.](https://github.com/python-websockets/websockets/commit/bc9d77b54e86e9fd634fb35bd95674896860acf3) | aaugustin |
 | 2026-10-30 | [Start version 17.5.](https://github.com/python-websockets/websockets/commit/769000771a9bf30e785ca0ef07c73e3ea235e70d) | aaugustin |
 | 2026-10-30 | [Release version 17.4.](https://github.com/python-websockets/websockets/commit/625a59ed613ac60e60d577dd64b8641d59ecb2b1) | aaugustin |
 | 2026-10-30 | [Add instructions for AI coding agents.](https://github.com/python-websockets/websockets/commit/368a4c1e5c4e06a847bbaf75e985f0a6e81e7075) | aaugustin |
@@ -71,7 +74,6 @@
 | 2026-10-27 | [Ignore all expected exceptions in HTTP fuzzers.](https://github.com/python-websockets/websockets/commit/170c815d02629cd3913483ddb1b3ad93df6f8ef7) | aaugustin |
 | 2026-10-27 | [Remove PYTHONPATH declaration.](https://github.com/python-websockets/websockets/commit/0a9044ff45d8dbdcfa7a2a157a31ccaafae6b24b) | aaugustin |
 | 2026-10-25 | [Bump pypa/cibuildwheel from 4.3.1 to 4.3.3](https://github.com/python-websockets/websockets/commit/2b8bc2fc9beaae307f665ca682597b95ec40858b) | dependabot[bot] |
-| 2026-10-22 | [Switch back to the sysmon tracer for coverage.](https://github.com/python-websockets/websockets/commit/60bc20095093a5f7e6083640db5ffd56f1378da6) | aaugustin |
 
 [See all commits ↗](https://github.com/python-websockets/websockets/commits)
 

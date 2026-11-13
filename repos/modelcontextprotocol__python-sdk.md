@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 24.8k |
 | 🍴 **Forks** | 4.1k |
-| 🐞 **Open issues + PRs** | [405](https://github.com/modelcontextprotocol/python-sdk/issues) |
+| 🐞 **Open issues + PRs** | [409](https://github.com/modelcontextprotocol/python-sdk/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `mcp` `mcp-server` `mcp-client` |

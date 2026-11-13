@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 1.7k |
 | 🍴 **Forks** | 124 |
-| 🐞 **Open issues + PRs** | [12](https://github.com/dbos-inc/dbos-transact-py/issues) |
+| 🐞 **Open issues + PRs** | [9](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2024-07-19 |
 | 📦 **Latest release** | [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3.9 MB |
+| 💾 **Size** | 4.3 MB |
 | 🌐 **Website** | https://docs.dbos.dev |
 
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0)
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > **What's Changed**
 > * Better Queue Locking by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/932
@@ -47,7 +47,7 @@
 > …
 
 ### [3.4.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.4.0)
-<sub>2026-10-28 · 14d ago</sub>
+<sub>2026-10-28 · 15d ago</sub>
 
 > **What's Changed**
 > * Poll only the status column for preemptible step cancellation by @buftio in https://github.com/dbos-inc/dbos-transact-py/pull/898
@@ -58,7 +58,7 @@
 > …
 
 ### [3.3.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.3.0)
-<sub>2026-10-15 · 27d ago</sub>
+<sub>2026-10-15 · 28d ago</sub>
 
 > **Package Change**
 > This release moves the DBOS Conductor client to a separate Enterprise package. If you are using DBOS Conductor or Cloud, please install the Enterprise optional dependency when upgrading:
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [Preserve Queues in Workflow Management Operations (#956)](https://github.com/dbos-inc/dbos-transact-py/commit/0004801ae7f968643367628145be4a3db221c2fd) | kraftp |
+| 2026-11-12 | [parallel tests (#957)](https://github.com/dbos-inc/dbos-transact-py/commit/f9892f4db8144a2b333e3583dcc9a2f0895f22d5) | maxdml |
+| 2026-11-12 | [fix(serialization): restore Optional dates and Decimal in portable wo…](https://github.com/dbos-inc/dbos-transact-py/commit/a3da1f2f8deef97a3ea752df231520cbcaf48a5d) | ravismash |
 | 2026-11-12 | [Consistently Make DBOS Methods Durable Steps (#955)](https://github.com/dbos-inc/dbos-transact-py/commit/160dc86d84646c33d9457c34f3d0866961748eac) | kraftp |
 | 2026-11-11 | [DBOS.recover_workflows (#951)](https://github.com/dbos-inc/dbos-transact-py/commit/7a3c5209922c493b822c1c130b507a2af7d31ba6) | kraftp |
 | 2026-11-10 | [Timestamp Workflows from Statement Time (#950)](https://github.com/dbos-inc/dbos-transact-py/commit/9c807ec7bf2d00e33a862ed3c18c4e0811ff7ae8) | kraftp |
@@ -101,9 +104,6 @@
 | 2026-11-09 | [fix(serialization): restore dates in variadic workflow inputs (#944)](https://github.com/dbos-inc/dbos-transact-py/commit/b5d2f3f3e31101c03f690de4e946ecb04bdfbe91) | mkzung |
 | 2026-11-09 | [Fix #940 and #939: SQLite system database/datasource reads run outsid…](https://github.com/dbos-inc/dbos-transact-py/commit/f86363bbff894ba9c2b8f6f9358835ae94aae968) | ApparentlyTejas |
 | 2026-11-04 | [More Scalable Scheduler (#936)](https://github.com/dbos-inc/dbos-transact-py/commit/236142bd7a99ff77d04becf5f405a60d6f330591) | kraftp |
-| 2026-11-02 | [patch: handle gaps in checkpoints order (#935)](https://github.com/dbos-inc/dbos-transact-py/commit/232dd751576b7d350a3614ad4ef7fc786eb282ff) | maxdml |
-| 2026-11-02 | [Fast Path for Binary Serialization (#934)](https://github.com/dbos-inc/dbos-transact-py/commit/bfb57412d9b9c8ac3bfac3f1dda735c44efd6314) | kraftp |
-| 2026-10-30 | [Async Suspend (#933)](https://github.com/dbos-inc/dbos-transact-py/commit/bca092dab48455effd10ef3a32f32167c24399ab) | kraftp |
 
 [See all commits ↗](https://github.com/dbos-inc/dbos-transact-py/commits)
 

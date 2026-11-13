@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 39.0k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [780](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [781](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2023-01-09 |
 | 📦 **Latest release** | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0)
-<sub>2026-11-10 · yesterday</sub>
+<sub>2026-11-10 · 2d ago</sub>
 
 > **DSPy 3.5: A Lighter, Faster Foundation**
 > DSPy 3.5 brings a lighter LM layer, graduated core modules, and new History and image capabilities for RLM.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [chore: refresh model metadata provenance to LiteLLM 1.109.1 (#10878)](https://github.com/stanfordnlp/dspy/commit/2c07ebbee3a66f6e04b71e141c6c198f1b31a129) | isaacbmiller |
 | 2026-11-11 | [chore: refresh model metadata from LiteLLM 1.109.0 (#10871)](https://github.com/stanfordnlp/dspy/commit/398396012371a95471c8e7be24a70e6660e87aa4) | isaacbmiller |
 | 2026-11-10 | [Update versions for 3.5.0 (#10865)](https://github.com/stanfordnlp/dspy/commit/5708342f3c88b78fc3566d8294af4b1a50154c19) | github-actions[bot] |
 | 2026-11-10 | [fix(dspy): find dspy's distribution by the package it installs (#10864)](https://github.com/stanfordnlp/dspy/commit/4e9db7a83e71e4c36315a2402ae7ffd0c6493404) | isaacbmiller |
@@ -103,7 +104,6 @@
 | 2026-11-10 | [Fix tool call IDs in serialized ReAct history (#10844)](https://github.com/stanfordnlp/dspy/commit/c472201fc7bd06fbcd712bf083d69908f6777080) | isaacbmiller |
 | 2026-11-10 | [fix(tool): keep nested schema references scoped in native declaration…](https://github.com/stanfordnlp/dspy/commit/340deccd528805f01078113b9476e37072f75d0d) | isaacbmiller |
 | 2026-11-10 | [fix(xml): honor positional tuple schemas (#10850)](https://github.com/stanfordnlp/dspy/commit/ede7a62d066c9eef68a82898f62d1dc3b314cd41) | isaacbmiller |
-| 2026-11-10 | [fix(adapters): preserve nested XML enum and null guidance (#10859)](https://github.com/stanfordnlp/dspy/commit/07fa634dc06104b03787c728de49c668d75559e7) | isaacbmiller |
 
 [See all commits ↗](https://github.com/stanfordnlp/dspy/commits)
 

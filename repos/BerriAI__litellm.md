@@ -21,22 +21,44 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 63.2k |
-| 🍴 **Forks** | 13.2k |
+| 🍴 **Forks** | 13.3k |
 | 🐞 **Open issues + PRs** | [5.2k](https://github.com/BerriAI/litellm/issues) |
 | 💻 **Languages** | Python 84% · TypeScript 10% · Rust 4% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `anthropic` `langchain` `llm` `llmops` `openai` `ai-gateway` `azure-openai` `bedrock` `gateway` `openai-proxy` `vertex-ai` `llm-gateway` `litellm` `mcp-gateway` `rust` `rust-ai` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2023-07-27 |
-| 📦 **Latest release** | [v1.109.1](https://github.com/BerriAI/litellm/releases/tag/v1.109.1) — 2026-11-12 |
+| 📦 **Latest release** | [v1.108.7](https://github.com/BerriAI/litellm/releases/tag/v1.108.7) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 2873.2 MB |
+| 💾 **Size** | 2892.8 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases
 
-### [v1.109.1](https://github.com/BerriAI/litellm/releases/tag/v1.109.1)
+### [v1.111.0-dev.1](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.1) _(pre-release)_
+<sub>2026-11-13 · today</sub>
+
+> **Verify Docker Image Signature**
+> All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
+> **Verify using the pinned commit hash (recommended):**
+> A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:
+> ```bash
+> cosign verify \
+> …
+
+### [v1.108.7](https://github.com/BerriAI/litellm/releases/tag/v1.108.7) — 1.108.7 (LTS)
 <sub>2026-11-12 · today</sub>
+
+> > [!TIP]
+> > The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch
+> **Verify this release**
+> ```bash
+> cosign verify \
+>   --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \
+> …
+
+### [v1.109.1](https://github.com/BerriAI/litellm/releases/tag/v1.109.1)
+<sub>2026-11-12 · yesterday</sub>
 
 > **Verify Docker Image Signature**
 > All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
@@ -47,7 +69,7 @@
 > …
 
 ### [v1.110.0-rc.2](https://github.com/BerriAI/litellm/releases/tag/v1.110.0-rc.2) _(pre-release)_
-<sub>2026-11-12 · today</sub>
+<sub>2026-11-12 · yesterday</sub>
 
 > **Verify Docker Image Signature**
 > All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
@@ -58,7 +80,7 @@
 > …
 
 ### [v1.106.9](https://github.com/BerriAI/litellm/releases/tag/v1.106.9)
-<sub>2026-11-12 · today</sub>
+<sub>2026-11-12 · yesterday</sub>
 
 > **Verify Docker Image Signature**
 > All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
@@ -66,44 +88,22 @@
 > A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:
 > ```bash
 > cosign verify \
-> …
-
-### [v1.108.6](https://github.com/BerriAI/litellm/releases/tag/v1.108.6)
-<sub>2026-11-12 · today</sub>
-
-> **Verify Docker Image Signature**
-> All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
-> **Verify using the pinned commit hash (recommended):**
-> A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:
-> ```bash
-> cosign verify \
-> …
-
-### [v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8)
-<sub>2026-11-11 · yesterday</sub>
-
-> **Verify this release**
-> ```bash
-> cosign verify \
->   --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \
->   ghcr.io/berriai/litellm:v1.106.8
-> ```
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [feat(dynamic_rate_limiter_v3): steer flexible teams to a permitted al…](https://github.com/BerriAI/litellm/commit/52d1c4cd80162fbf03d7f92def0cb1631f1edfd4) | kerry-berri |
-| 2026-11-12 | [ci: stop PR runs from thrashing the Actions cache and stop smoke comp…](https://github.com/BerriAI/litellm/commit/1677c2250e24697a904dd1750815f574af8040f4) | yuneng-berri |
-| 2026-11-12 | [fix(gemini): add batch and priority image output token prices to gemi…](https://github.com/BerriAI/litellm/commit/db8ad3b13e7320bf835205cae58be5a58e0ff366) | devin-ai-integration[bot] |
-| 2026-11-12 | [feat(rate-limit): team_model_limit_max_borrow_multiple caps how far a…](https://github.com/BerriAI/litellm/commit/ece1484bc7428da8f66683d4897c9c1d7d504e19) | kerry-berri |
-| 2026-11-12 | [test(providers): expect Rust routing for idle Messages streams (#51364)](https://github.com/BerriAI/litellm/commit/3d389262a4fc5c07e487c50a8bacdf73e077b83b) | devin-ai-integration[bot] |
-| 2026-11-12 | [fix(anthropic): close strict JSON schemas on the Messages to Response…](https://github.com/BerriAI/litellm/commit/4cd8f9174dda26c9af10832b8c9663dac4062ebf) | kenneth-berri |
-| 2026-11-12 | [fix(fal_ai): give MiniMax H3 Max video endpoints their own resolution…](https://github.com/BerriAI/litellm/commit/7c7e02b06fa9fbf74d1e3c5064e5921e62aeb51a) | kerry-berri |
-| 2026-11-12 | [feat(rate-limit): team_model_limit_borrows_idle_capacity_from_other_t…](https://github.com/BerriAI/litellm/commit/19ffe3a5f24594bb5c71a512e14ee8fad50d6c58) | kerry-berri |
-| 2026-11-12 | [fix(alerts): stop detecting traffic drops (#51338)](https://github.com/BerriAI/litellm/commit/6a98d0926117478a4ab937f1bad46a120cd4832a) | moe-berri |
-| 2026-11-12 | [ci: fail when the repo root grows past 15 entries (#51007)](https://github.com/BerriAI/litellm/commit/61944def17ec3a188d4ab2f730077a7949b812fc) | yassin-berriai |
+| 2026-11-13 | [fix(cost-map): mark together_ai/elorian-labs/glimpse-1.0 as supportin…](https://github.com/BerriAI/litellm/commit/6a1f81b9f8bd365718e781c50141fd3164721dbb) | devin-ai-integration[bot] |
+| 2026-11-13 | [fix(proxy): preserve team aliases in Responses WebSockets (#51380)](https://github.com/BerriAI/litellm/commit/6abacd329b70dc668f69c705eb7118fbd639cd96) | brianhong-dev |
+| 2026-11-13 | [fix(deps): bump soupsieve past GHSA-4j63-6c4x-wfg4 and GHSA-mmhr-3c5m…](https://github.com/BerriAI/litellm/commit/76794359cc2d8e4bf0b90cd550b4a94b16f72a59) | devin-ai-integration[bot] |
+| 2026-11-13 | [fix(databricks): record the November 19 retirement and successor for …](https://github.com/BerriAI/litellm/commit/dc65705eb3d79478d03b5c1fadd6d11be3052b9d) | devin-ai-integration[bot] |
+| 2026-11-13 | [fix(interactions): bind Deep Research agents and record their costs (…](https://github.com/BerriAI/litellm/commit/563dfd50757bb5332fe42c69d8518a6511c67ad7) | joshua-berri |
+| 2026-11-13 | [fix(interactions): route Vertex lifecycle calls through the selected …](https://github.com/BerriAI/litellm/commit/ac5fd9e0d048e2f86a20d5a7b4ad422f379eff5b) | joshua-berri |
+| 2026-11-13 | [fix(router): keep pinned deployment ids to the caller's access groups…](https://github.com/BerriAI/litellm/commit/c5843a812490a6de6834c2a39a429d77846175b1) | joshua-berri |
+| 2026-11-13 | [fix(proxy): import soundfile lazily in the transcribe logging handler…](https://github.com/BerriAI/litellm/commit/257418cbd8cb45ad63f8e39a167a8fb42f5ced60) | joshua-berri |
+| 2026-11-13 | [fix(utils): register ollama deployment prices from the built-in catal…](https://github.com/BerriAI/litellm/commit/4dad0bc513b75029e2a274143536bf50a7e56a4d) | devin-ai-integration[bot] |
+| 2026-11-13 | [fix(openai): record the successor for the gpt-4o-mini audio and realt…](https://github.com/BerriAI/litellm/commit/32cb45a3d8875321efd8adab9ddccb5ff41d8d9a) | devin-ai-integration[bot] |
 
 [See all commits ↗](https://github.com/BerriAI/litellm/commits)
 

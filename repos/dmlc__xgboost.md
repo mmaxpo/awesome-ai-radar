@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [453](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [452](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-11 (yesterday) |
+| 🕒 **Last activity** | 2026-11-11 (2d ago) |
 | 📅 **Created** | 2014-02-06 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 2026-09-15 |
 | 🌿 **Default branch** | `master` |
@@ -46,7 +46,7 @@
 > This release is identical to 3.4.1 release, except that it now supports Python 3.11.
 
 ### [v3.4.1](https://github.com/dmlc/xgboost/releases/tag/v3.4.1) — 3.4.1 Patch Release
-<sub>2026-08-15 · 2mo ago</sub>
+<sub>2026-08-15 · 3mo ago</sub>
 
 > **What's Changed**
 > * [jvm] Fix batch predict for SparseVector features (#12347)

@@ -21,21 +21,21 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 13.6k |
-| 🍴 **Forks** | 447 |
-| 🐞 **Open issues + PRs** | [157](https://github.com/plasma-umass/scalene/issues) |
-| 💻 **Languages** | Python 60% · JavaScript 16% · C++ 8% · TypeScript 7% · Lean 7% |
+| 🍴 **Forks** | 448 |
+| 🐞 **Open issues + PRs** | [156](https://github.com/plasma-umass/scalene/issues) |
+| 💻 **Languages** | Python 59% · JavaScript 16% · C++ 8% · TypeScript 8% · Lean 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 19.6 MB |
+| 💾 **Size** | 20.4 MB |
 
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — Free-threaded wheels, M4 fix, safer API keys, and formal verification
-<sub>2026-10-23 · 19d ago</sub>
+<sub>2026-10-23 · 20d ago</sub>
 
 > **What's Changed**
 > **Headlines**
@@ -68,7 +68,7 @@
 > …
 
 ### [v2.1.4](https://github.com/plasma-umass/scalene/releases/tag/v2.1.4) — Maintenance release with bugfixes and performance improvements
-<sub>2026-02-15 · 8mo ago</sub>
+<sub>2026-02-15 · 9mo ago</sub>
 
 > **What's Changed**
 > * Refined attribution approach for C vs. Python by @emeryberger in https://github.com/plasma-umass/scalene/pull/1001
@@ -89,6 +89,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [Keep AI model IDs in one registry and recover from retired models (fi…](https://github.com/plasma-umass/scalene/commit/e470861a8bb8e0a699ee4aa55c707b159c027976) | emeryberger |
 | 2026-11-11 | [Stop unrecognized `scalene run` options leaking into the program's ar…](https://github.com/plasma-umass/scalene/commit/da91e587fa5a0f5a4416250a628c88ff02638f30) | emeryberger |
 | 2026-11-10 | [Reuse the memory sample log and stop @profile churn (fixes #1122) (#1…](https://github.com/plasma-umass/scalene/commit/9ed244c78241ef364446288add351912e7bcf206) | emeryberger |
 | 2026-11-10 | [Fix badge formatting in README.md](https://github.com/plasma-umass/scalene/commit/b8a58ca6f932ca2ab683d7795790ebf489a37d82) | emeryberger |
@@ -98,7 +99,6 @@
 | 2026-11-09 | [Stop TraceConfig leaking references to its Python arguments (fixes #1…](https://github.com/plasma-umass/scalene/commit/65f5c604432cd934275831e3a56a41c3a64bb639) | emeryberger |
 | 2026-11-09 | [Bound get_line_atomic's newline search by the signal buffer (fixes #1…](https://github.com/plasma-umass/scalene/commit/75f784f5b72be60ae634dd72f9cc7ae42bab003d) | emeryberger |
 | 2026-11-01 | [CI: check black formatting instead of auto-committing it (#1112)](https://github.com/plasma-umass/scalene/commit/0ca44cd4345b07104ed05f37c8849b51db35f2e5) | emeryberger |
-| 2026-11-01 | [ci: move workflows to current action versions and read-only tokens (#…](https://github.com/plasma-umass/scalene/commit/52f8c4c24b892c883e7f9f2c7e8291063498ce67) | jakob1379 |
 
 [See all commits ↗](https://github.com/plasma-umass/scalene/commits)
 

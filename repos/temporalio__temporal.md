@@ -26,17 +26,17 @@
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 169.2 MB |
+| 💾 **Size** | 170.8 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 9d ago</sub>
+<sub>2026-11-02 · 10d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 9d ago</sub>
+<sub>2026-11-02 · 10d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 9d ago</sub>
+<sub>2026-11-02 · 10d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [Fix V2 schedules closing before their final action starts (#13016)](https://github.com/temporalio/temporal/commit/03ecd1d228d2b8d9d433da55785afc9aeeead918) | davidporter-id-au |
-| 2026-11-11 | [CHASM UpdateWithStart now takes a start hint and handle conflict poli…](https://github.com/temporalio/temporal/commit/85b80a1836dbc73741cb52586297dc35e6c937ca) | chanric |
-| 2026-11-10 | [Emit the SDK-reported poller target in worker metrics (#13021)](https://github.com/temporalio/temporal/commit/7d614b5e3611856b7c9c8a92bbe78686745181b2) | veeral-patel |
-| 2026-11-10 | [Handle duplicate shard reports during namespace handover (#12980)](https://github.com/temporalio/temporal/commit/c37c3dbc80c959e8ea07c4cc7738a04b4286324c) | yux0 |
-| 2026-11-10 | [Update go.temporal.io/api to v1.64.3 (#13022)](https://github.com/temporalio/temporal/commit/935d22f1981147b57fcf5ff58335e8a114514237) | veeral-patel |
-| 2026-11-10 | [Fix history_size/history_count CompletionStats double emitting (#12931)](https://github.com/temporalio/temporal/commit/915dbdc6ee6419c0cb0be25c80b45d3fe44226c3) | buildwithmalik |
-| 2026-11-10 | [Add temporal_with_cassandra build tag to compile out Cassandra persis…](https://github.com/temporalio/temporal/commit/64246670a6ad35f4e2e1a5fa4d961d75af1ba8ea) | stephanos |
-| 2026-11-10 | [rename and add more time-skipping util functions (#13008)](https://github.com/temporalio/temporal/commit/de692e219b98757ef0e74ab5baa99877361e9250) | feiyang3cat |
-| 2026-11-10 | [Fix await accepting cancelled attempts as successful (#12868)](https://github.com/temporalio/temporal/commit/862b2db4c869a27607710238c52182658220041e) | stephanos |
-| 2026-11-10 | [Support passwordCommand in temporal-sql-tool (#12719)](https://github.com/temporalio/temporal/commit/1934fd8b1965904d17af3fe5a3221f3d0a0b943b) | riggggo |
+| 2026-11-12 | [WHN metrics 1: add metrics of events that may generate workflow heart…](https://github.com/temporalio/temporal/commit/d2d307a0e06eb83f15d1301d39249b1c7554530c) | feiyang3cat |
+| 2026-11-12 | [Use SQLite by default for mixed brain tests (#13048)](https://github.com/temporalio/temporal/commit/f16ceaa388296c2e412d79395a99444174319596) | stephanos |
+| 2026-11-12 | [Don't start replication streaming when global ns is disabled (#13018)](https://github.com/temporalio/temporal/commit/a2e1ac0635f487b9def6996d094739cb20be8aa8) | stuart-wells |
+| 2026-11-12 | [Fix flakes: `TestWorkerRegistry_CountWorkers` (#13068)](https://github.com/temporalio/temporal/commit/610f69f87c5b036feea7112143c06ccf062ad737) | carlydf |
+| 2026-11-12 | [Bump go.temporal.io/testx to c4cea589f](https://github.com/temporalio/temporal/commit/bfabec74d7a021e4bb3abd696b0e8157a8fb696a) | temporal-data |
+| 2026-11-12 | [Move parallelsuite into testx (#12855)](https://github.com/temporalio/temporal/commit/c4cea589f218d8defe164da3428e2791e9cbc656) | stephanos |
+| 2026-11-12 | [Bump go.temporal.io/testx to 80ad2c2c7](https://github.com/temporalio/temporal/commit/1d79d93e3e2f3d559f588227ccabf157717ed463) | temporal-data |
+| 2026-11-12 | [Move await into testx (#12861)](https://github.com/temporalio/temporal/commit/80ad2c2c7f3657b1207f5d3a38c87caea82f805d) | stephanos |
+| 2026-11-12 | [Bump go.temporal.io/testx to ad746cee1](https://github.com/temporalio/temporal/commit/9cac3dde6a043076da4caacc982dc3372285178c) | temporal-data |
+| 2026-11-12 | [Move testcontext into testx (#12860)](https://github.com/temporalio/temporal/commit/ad746cee1f9573c0ed264a8a6f45f4aece6b978f) | stephanos |
 
 [See all commits ↗](https://github.com/temporalio/temporal/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 5.2k |
-| 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [37](https://github.com/ethanplusai/sellbird/issues) |
+| ⭐ **Stars** | 5.3k |
+| 🍴 **Forks** | 1.2k |
+| 🐞 **Open issues + PRs** | [42](https://github.com/ethanplusai/sellbird/issues) |
 | 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` |
-| 🕒 **Last activity** | 2026-11-11 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.4 MB |
+| 💾 **Size** | 18.2 MB |
 | 🌐 **Website** | https://sellbird.ai |
 
 ## 📦 Recent releases
 
 ### [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 0.4.0: Harvey is now Sellbird
-<sub>2026-11-06 · 5d ago</sub>
+<sub>2026-11-06 · 6d ago</sub>
 
 > Harvey has a new name: **Sellbird**. Same project, same history, same maintainers. Your stars, forks and issues are all here, and every old `github.com/ethanplusai/harvey` link redirects.
 > **Why the new name?** The name Harvey belongs to another AI company, so this open-source project needed a name of its own. Nothing about how it works has changed. More at [sellbird.ai/harvey](https://sellbird.ai/harvey/).
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.3.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.3.0) — 0.3.0 — Claude or Codex subscriptions
-<sub>2026-10-13 · 29d ago</sub>
+<sub>2026-10-13 · 1mo ago</sub>
 
 > Harvey now runs on your **Claude Code or Codex subscription**. Claude remains the default; Codex is opt-in, with no automatic provider or API-key fallback.
 > - **Codex support:** macOS/Linux, Codex CLI **0.159.3 exactly**, explicit **gpt-5.5**, and a file-based ChatGPT login. Choose Codex in `harvey setup` or use `harvey train <url> --provider codex --model gpt-5.5`.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.2.1](https://github.com/ethanplusai/sellbird/releases/tag/v0.2.1) — 0.2.1 — security release
-<sub>2026-10-13 · 29d ago</sub>
+<sub>2026-10-13 · 1mo ago</sub>
 
 > A security release. Update if you run Harvey.
 > **Security**

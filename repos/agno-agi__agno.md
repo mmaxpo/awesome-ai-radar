@@ -26,17 +26,28 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2022-05-04 |
-| 📦 **Latest release** | [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12) — 2026-10-29 |
+| 📦 **Latest release** | [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 329.3 MB |
+| 💾 **Size** | 327.9 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
+### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
+<sub>2026-11-12 · today</sub>
+
+> **Summary**
+> Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
+> **Changelog**
+> **Breaking changes**
+> - **OS Manager defaults and validation:** `OSManager.tool_call_limit` now defaults to 24 (was 8), and `num_history_runs` defaults to 5 (was 7). AgentOS refuses startup when `OSManager(root=...)` is combined with custom tools named `read_file`, `list_files`, or `search_content`.
+> - **A2A v1.0:** AgentOS and `A2AClient` now run on the official `a2a-sdk` 1.x, so upgrade the Agno server and client together. ([#10956](https://github.com/agno-agi/agno/pull/10956))
+> …
+
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 13d ago</sub>
+<sub>2026-10-29 · 14d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -47,7 +58,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 15d ago</sub>
+<sub>2026-10-27 · 16d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +80,7 @@
 > …
 
 ### [v3.1.9](https://github.com/agno-agi/agno/releases/tag/v3.1.9)
-<sub>2026-10-22 · 20d ago</sub>
+<sub>2026-10-22 · 21d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -79,31 +90,20 @@
 > - **Postgres Metrics**: Metrics refresh on a migrated database no longer loads the legacy `sessions.runs` column into memory.
 > …
 
-### [v3.1.8](https://github.com/agno-agi/agno/releases/tag/v3.1.8)
-<sub>2026-10-21 · 22d ago</sub>
-
-> **Changelog**
-> **New Features**
-> - Postgres Sandbox Checkpoint Store: Added `PostgresCheckpointStore` for storing sandbox checkpoints directly in PostgreSQL, allowing multi-replica deployments to restore sessions without S3 or shared filesystems. Checkpoints are chunked, written transactionally, deduplicated by SHA-256 and verified on read. It is opt-in; existing checkpoint defaults are unchanged. (#11186)
-> - Framework Managers as Routine Executors: Company Routines can now use the internal Product Manager or OS Manager as executors through declarations, the Routine API and human-chat configuration. Reserved manager IDs resolve only from the owning AgentOS and cannot be replaced by saved or user-defined components. Includes an optional weekly Product Manager review. (#11193)
-> - Sandbox Checkpoint Retention: Sandboxes now retain the three newest checkpoints per session by default. Configure `retain_checkpoints=None` to preserve every checkpoint. Unpublished or superseded checkpoints are retired and deleted after the run outcome is safely stored. (#11187)
-> **Improvements**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [fix: add cost metric support to OpenRouterResponses (#9568)](https://github.com/agno-agi/agno/commit/878151ba85c7bec6f0df7edfa1bbc0e025fdd5c1) | aayush598 |
+| 2026-11-13 | [[fix] Make ExaTools pass the Exa options it accepts, and add the miss…](https://github.com/agno-agi/agno/commit/0ade84db16da8d63740192e1019c264fa9caa168) | ormeilu |
+| 2026-11-12 | [[fix] Remove silent token caps from routed providers (#10723)](https://github.com/agno-agi/agno/commit/c9bf62ff3addfdc48bbdd97e651623e5ced3d8ec) | FanouZeng-TT |
+| 2026-11-12 | [fix(tools): respect zero max_results, apply modifier in search_news, …](https://github.com/agno-agi/agno/commit/5b6778e8e9cfc02d723129bcaf556c0ce75e208f) | neoand |
+| 2026-11-12 | [[cookbook] Add Mnemoverse memory integration example (#11598)](https://github.com/agno-agi/agno/commit/31a5d2f710dc6d78458d5888cf95fc6380bb3414) | OlyaTi |
+| 2026-11-12 | [feat: Release v3.2.0 (#11399)](https://github.com/agno-agi/agno/commit/3bfc84113fdd80c1522ef7bafa80721ce79fdf62) | kausmeows |
+| 2026-11-12 | [fix: list one metrics table per database in /config (#11610)](https://github.com/agno-agi/agno/commit/93ee793e6b251b3d89df7ad4061be5dc6682b060) | ysolanky |
+| 2026-11-12 | [feat: Slack agent view, Bolt, Stop, external agents and Super Agent r…](https://github.com/agno-agi/agno/commit/8701fc3d7a6eff2b90a52948418e9428f2df21e2) | harshsinha03 |
+| 2026-11-12 | [fix: quiet metrics refresh debug logs (#11606)](https://github.com/agno-agi/agno/commit/dc03a2c6f1dd760f2ead89140ea946321fb211e4) | ysolanky |
 | 2026-11-12 | [fix: Company fixes before 3.2 (#11592)](https://github.com/agno-agi/agno/commit/70be8704e1776f9369106030f976112754cc06ac) | ashpreetbedi |
-| 2026-11-12 | [feat: deliver Company Task results with evidence and continue Tasks f…](https://github.com/agno-agi/agno/commit/616daeb3f872aac47cc26cd6e955c571cec1481c) | kausmeows |
-| 2026-11-11 | [fix: stop the durable queue sweeping or reclaiming runs still executi…](https://github.com/agno-agi/agno/commit/257cd57e9637964f44fc3d7e3ad142ca066b2e43) | ysolanky |
-| 2026-11-11 | [feat: one file tree for Super Agent, Mini Agent and Company (#11588)](https://github.com/agno-agi/agno/commit/8f7512c6790902578068743ae2328d3134e3938b) | ashpreetbedi |
-| 2026-11-11 | [fix: send remote run fields in a shape AgentOS parses (#11587)](https://github.com/agno-agi/agno/commit/df3a5a4ea123336a9634d2b6e0640b5234e29b0e) | ysolanky |
-| 2026-11-11 | [fix: run post-hook guardrails and keep workflow metadata on a continu…](https://github.com/agno-agi/agno/commit/484bdcd15251d66127f7ff8992ca326ee3fd42ba) | ashpreetbedi |
-| 2026-11-11 | [feat: auto_accept is one switch on a Routine, in code or from chat (#…](https://github.com/agno-agi/agno/commit/94cb6698d3c631b44c0858f4990fd3cc76ef60ac) | ashpreetbedi |
-| 2026-11-11 | [feat: decide Company work from chat and run accepted Tasks on Mini Ag…](https://github.com/agno-agi/agno/commit/20ce8b95da9f4d76290362d822a32e4b48970efc) | ashpreetbedi |
-| 2026-11-11 | [feat: add a GitHub interface for webhook events and GitHub App creden…](https://github.com/agno-agi/agno/commit/e88fb12b5b3632cb1f2276cd123f471a545fb402) | kausmeows |
-| 2026-11-11 | [feat: Super Agent does the work itself with direct tools (#11572)](https://github.com/agno-agi/agno/commit/bc6fcc99e2487959e7ae4bc671be6230991df277) | ashpreetbedi |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

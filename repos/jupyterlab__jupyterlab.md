@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 88% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 311.3 MB |
+| 💾 **Size** | 310.7 MB |
 | 🌐 **Website** | https://jupyterlab.readthedocs.io/ |
 
 ## 📦 Recent releases
 
 ### [v4.7.0b1](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b1) _(pre-release)_
-<sub>2026-11-06 · 5d ago</sub>
+<sub>2026-11-06 · 6d ago</sub>
 
 > **4.7.0b1**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b0...ca6210d371e287beb3735824a931824cc0048125))
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6)
-<sub>2026-11-06 · 5d ago</sub>
+<sub>2026-11-06 · 6d ago</sub>
 
 > **4.6.6**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.5...a5eab3ae655dd8cea81618efc936e110d3b22037))
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.6.5](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.5)
-<sub>2026-10-29 · 13d ago</sub>
+<sub>2026-10-29 · 14d ago</sub>
 
 > **4.6.5**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.4...9f5590d07b9a63402a628fe758654f30ee59c2e4))
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 14d ago</sub>
+<sub>2026-10-28 · 15d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [Use resolvable absolute links in the `services` package README (#19762)](https://github.com/jupyterlab/jupyterlab/commit/10c16318cd5cd047290578b772c16f00329f19ef) | fbossiere |
+| 2026-11-13 | [Bump sanitize-html from 2.12.1 to 2.18.1 (#20172)](https://github.com/jupyterlab/jupyterlab/commit/112b8a632bfd6a3e6ea4075b5f4fc7887c865abe) | dependabot[bot] |
+| 2026-11-13 | [Improve documentation of `--extensions-in-dev-mode` (#19634)](https://github.com/jupyterlab/jupyterlab/commit/f5b6e71d23a5011dfba5762b3eda1d62420d54c6) | fbossiere |
+| 2026-11-13 | [Raise a deprecation warning when using the file content while not exp…](https://github.com/jupyterlab/jupyterlab/commit/7cce0441beebeaae9d13ab64a7bf85104cc50e25) | brichet |
+| 2026-11-13 | [Update to Playwright 1.65 (#20482)](https://github.com/jupyterlab/jupyterlab/commit/579a0e9bd3d3bcdb7fd66149d71e99bae31ea711) | jtpio |
+| 2026-11-12 | [Fix breakpoint lookup across multiple console cells (#20470)](https://github.com/jupyterlab/jupyterlab/commit/258f7fd44b7ebbaf799362b8044b00220e0b3457) | 14-himanshu |
+| 2026-11-12 | [Add `WidgetTracker` restore tests (#19246)](https://github.com/jupyterlab/jupyterlab/commit/5e02f01166cf25dc54272d5d1d68170a5122f25e) | Bortlesboat |
+| 2026-11-12 | [Use pre-installed enchant from the runner (#20461)](https://github.com/jupyterlab/jupyterlab/commit/8e96f618bd33a5f0fb85f253088df1b32ef61fe9) | krassowski |
+| 2026-11-12 | [Wait for kernel in the cell example test (#20477)](https://github.com/jupyterlab/jupyterlab/commit/457c052cc23444f0fd6d2593e6c34d17cc40301f) | krassowski |
 | 2026-11-12 | [Fix scrolling for submenus (#20473)](https://github.com/jupyterlab/jupyterlab/commit/ab367104bf8e662c2e908df775f90e2abb8b86ef) | jasongrout |
-| 2026-11-12 | [Bump engine.io from 6.6.4 to 6.6.11 (#19662)](https://github.com/jupyterlab/jupyterlab/commit/ceacfda779b91e262b58dbc97d2d995630b80b8f) | dependabot[bot] |
-| 2026-11-12 | [Bump @rsdoctor/rspack-plugin from 1.3.12 to 1.5.16 (#19806)](https://github.com/jupyterlab/jupyterlab/commit/ecda29017b5e3b3d37605adfdac4831ba47692de) | dependabot[bot] |
-| 2026-11-12 | [Fix terminal tab switching regression on Firefox (#20448)](https://github.com/jupyterlab/jupyterlab/commit/fce23294878203ab2646edf12ee51b02bf8aa396) | krassowski |
-| 2026-11-12 | [Stop JupyterLite deleting files dropped onto their folder's breadcrum…](https://github.com/jupyterlab/jupyterlab/commit/bc5856c2d46b0909f63d2fb235ad0a4c39b8d925) | Yash990-bit |
-| 2026-11-12 | [Bump lodash from 4.17.23 to 4.18.1 (#20378)](https://github.com/jupyterlab/jupyterlab/commit/c987b97b5585f762107bea99f788400a971457d1) | dependabot[bot] |
-| 2026-11-12 | [Apply 'Show Filter Bar by Default' without reloading the page (#18894)](https://github.com/jupyterlab/jupyterlab/commit/63ff1af9e048084a522a15df2e1109c3f06e90f6) | RRosio |
-| 2026-11-12 | [Stop the current tab from changing a second after a reload (#20379)](https://github.com/jupyterlab/jupyterlab/commit/5e57de551df99819ab2def11bb86254ec8e1e101) | MUFFANUJ |
-| 2026-11-12 | [Split the changelog by major version (#20456)](https://github.com/jupyterlab/jupyterlab/commit/3a846010c6a0944282107eca3009bd2779a80c33) | krassowski |
-| 2026-11-12 | [Keep the prompt position picked for a console when a console setting …](https://github.com/jupyterlab/jupyterlab/commit/79ac5024d8132bd0740ad17d50e14369a69dc30e) | yummyPancake2607 |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

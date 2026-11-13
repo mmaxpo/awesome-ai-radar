@@ -20,72 +20,72 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 85.1k |
-| 🍴 **Forks** | 16.2k |
+| ⭐ **Stars** | 85.3k |
+| 🍴 **Forks** | 16.3k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/lobehub/lobehub/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2023-05-21 |
-| 📦 **Latest release** | [v2.3.3](https://github.com/lobehub/lobehub/releases/tag/v2.3.3) — 2026-11-12 |
+| 📦 **Latest release** | [v0.0.0-nightly.pr22966.39356](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22966.39356) — 2026-11-13 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 602.4 MB |
+| 💾 **Size** | 605.2 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
-### [v2.3.4-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.4-canary.1) — Desktop Canary v2.3.4-canary.1 _(pre-release)_
-<sub>2026-11-12 · today</sub>
-
-> **🐤 Canary Build — v2.3.4-canary.1**
-> > Automated canary build from `canary` branch.
-> **Commit Information**
-> - Based on changes since `v2.3.3-canary.1`
-> - Commit count: 276
-> - `028b058be9` ✨ feat(sandbox-drive): analyze drive space and clean it up, from the drive and from the agent (#22883) (Rdmclin2)
-> …
-
-### [v2.3.3](https://github.com/lobehub/lobehub/releases/tag/v2.3.3) — 🚀 Release v2.3.3
-<sub>2026-11-12 · today</sub>
-
-> **Release v2.3.3**
-> From PR #22891: https://github.com/lobehub/lobehub/pull/22891
-> **🚀 LobeHub Release (20261112)**
-> **Release Date:** November 12, 2026
-> **Since v2.3.2:** 253 merged PRs · 252 commits · 12 contributors
-> > A week spent turning chat into a real workspace: direct Channels with their own reply rules, an inbox identity for every agent, and projects that can be created straight from a repository.
-> …
-
-### [v0.0.0-nightly.pr22902.39193](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22902.39193) — PR Build v0.0.0-nightly.pr22902.39193 _(pre-release)_
-<sub>2026-11-12 · today</sub>
+### [v0.0.0-nightly.pr22966.39356](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22966.39356) — PR Build v0.0.0-nightly.pr22966.39356 _(pre-release)_
+<sub>2026-11-13 · today</sub>
 
 > **PR Build Information**
-> **Version**: `0.0.0-nightly.pr22902.39193`
-> **Release Time**: `2026-11-12T09:14:25.430Z`
-> **PR**: [#22902](https://github.com/lobehub/lobehub/pull/22902)
+> **Version**: `0.0.0-nightly.pr22966.39356`
+> **Release Time**: `2026-11-13T11:25:13.987Z`
+> **PR**: [#22966](https://github.com/lobehub/lobehub/pull/22966)
 > **⚠️ Important Notice**
 > This is a **development build** specifically created for testing purposes. Please note:
 > …
 
-### [v0.0.0-nightly.pr22869.39192](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22869.39192) — PR Build v0.0.0-nightly.pr22869.39192 _(pre-release)_
-<sub>2026-11-12 · today</sub>
+### [v0.0.0-nightly.pr22966.39350](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22966.39350) — PR Build v0.0.0-nightly.pr22966.39350 _(pre-release)_
+<sub>2026-11-13 · today</sub>
 
 > **PR Build Information**
-> **Version**: `0.0.0-nightly.pr22869.39192`
-> **Release Time**: `2026-11-12T08:53:34.962Z`
-> **PR**: [#22869](https://github.com/lobehub/lobehub/pull/22869)
+> **Version**: `0.0.0-nightly.pr22966.39350`
+> **Release Time**: `2026-11-13T10:48:16.326Z`
+> **PR**: [#22966](https://github.com/lobehub/lobehub/pull/22966)
 > **⚠️ Important Notice**
 > This is a **development build** specifically created for testing purposes. Please note:
 > …
 
-### [v0.0.0-nightly.pr22869.39180](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22869.39180) — PR Build v0.0.0-nightly.pr22869.39180 _(pre-release)_
-<sub>2026-11-12 · today</sub>
+### [v0.0.0-nightly.pr22961.39346](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22961.39346) — PR Build v0.0.0-nightly.pr22961.39346 _(pre-release)_
+<sub>2026-11-13 · today</sub>
 
 > **PR Build Information**
-> **Version**: `0.0.0-nightly.pr22869.39180`
-> **Release Time**: `2026-11-12T07:32:10.222Z`
-> **PR**: [#22869](https://github.com/lobehub/lobehub/pull/22869)
+> **Version**: `0.0.0-nightly.pr22961.39346`
+> **Release Time**: `2026-11-13T09:46:11.998Z`
+> **PR**: [#22961](https://github.com/lobehub/lobehub/pull/22961)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
+> …
+
+### [v0.0.0-nightly.pr22948.39324](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22948.39324) — PR Build v0.0.0-nightly.pr22948.39324 _(pre-release)_
+<sub>2026-11-13 · today</sub>
+
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr22948.39324`
+> **Release Time**: `2026-11-13T05:46:23.465Z`
+> **PR**: [#22948](https://github.com/lobehub/lobehub/pull/22948)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
+> …
+
+### [v0.0.0-nightly.pr22948.39312](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22948.39312) — PR Build v0.0.0-nightly.pr22948.39312 _(pre-release)_
+<sub>2026-11-13 · today</sub>
+
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr22948.39312`
+> **Release Time**: `2026-11-13T04:39:06.143Z`
+> **PR**: [#22948](https://github.com/lobehub/lobehub/pull/22948)
 > **⚠️ Important Notice**
 > This is a **development build** specifically created for testing purposes. Please note:
 > …
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [✨ feat(channel): show a thread preview card under its root message (#…](https://github.com/lobehub/lobehub/commit/c1744e4b71b21c3790c54878c8181b63b3d2801c) | arvinxx |
-| 2026-11-12 | [♻️ refactor(page-editor): persist document comments, likes and histor…](https://github.com/lobehub/lobehub/commit/40f68583c83c70766d21845cfcde60503469110f) | arvinxx |
-| 2026-11-12 | [🐛 fix(goal): sync island dismissals across clients (#22882)](https://github.com/lobehub/lobehub/commit/a8d7733ecdc5d3a67a19c992a41bb2f1ed7676bc) | rdmclin2 |
-| 2026-11-12 | [🐛 fix(chat-input): keep composer text verbatim so pasted tokens survi…](https://github.com/lobehub/lobehub/commit/966b3237aaf33a1392ba7529779697969f04d5de) | arvinxx |
-| 2026-11-12 | [✨ feat(sandbox-drive): analyze drive space and clean it up, from the …](https://github.com/lobehub/lobehub/commit/028b058be99e2edf35dad150ebc130d3c6cd0f1e) | rdmclin2 |
-| 2026-11-12 | [Merge remote-tracking branch 'origin/main' into canary](https://github.com/lobehub/lobehub/commit/c9e268ae8fe3f651b1708301ac563284166d7faa) | lobehubbot |
-| 2026-11-12 | [🚀 release: 20261112 (#22891)](https://github.com/lobehub/lobehub/commit/69f8dcdfae1c59a5ffb703b3a0187223987bcd56) | ImSingee |
-| 2026-11-12 | [🐛 fix(goal): don't kill a live Claude Code run on goal-page follow-up…](https://github.com/lobehub/lobehub/commit/bac133c3a6d72430840d554610b190d38fd19ced) | rdmclin2 |
-| 2026-11-12 | [✨ feat(projects): folder card view for the projects page (#22860)](https://github.com/lobehub/lobehub/commit/922b9e2c9c2bc2610a54973e70c6dbd2a9a18345) | arvinxx |
-| 2026-11-12 | [✨ feat(channel): let an Agent open its reply — acknowledge first, ans…](https://github.com/lobehub/lobehub/commit/fd171d504f6807350db4962cec61b2a353b3654a) | arvinxx |
+| 2026-11-13 | [🔨 chore: ignore generated completion sounds in every Vite app (#22967)](https://github.com/lobehub/lobehub/commit/5cb2271ae8077cb7351838618fb848a2cbb18f88) | tjx666 |
+| 2026-11-13 | [⚡️ perf(page-editor): keep document switches responsive on long pages…](https://github.com/lobehub/lobehub/commit/0d14e49619135a886c9f4218dc1f12c03ad46b39) | Innei |
+| 2026-11-13 | [🐛 fix(hetero): discover DeepSeek Harness models over ACP (#22542)](https://github.com/lobehub/lobehub/commit/ffa37176602ca08e842468a2ea6744caefa74c85) | AleFlyX |
+| 2026-11-13 | [🐛 fix(desktop): open notification links the tab routers cannot serve …](https://github.com/lobehub/lobehub/commit/0f25cc53e99627443ecc7d0c3542e3ee8d3359fb) | Innei |
+| 2026-11-13 | [🐛 fix(knowledge-base): let agents read No-access KBs a browser mounte…](https://github.com/lobehub/lobehub/commit/1f2060db5e84e075cbb82a176cb0cebdc147cb04) | rdmclin2 |
+| 2026-11-13 | [✨ feat(perf): add render profiling build and chat render budgets (#22…](https://github.com/lobehub/lobehub/commit/8c43f9f07275cb17eae4bd86dde3254c5ba8716f) | tjx666 |
+| 2026-11-13 | [✨ feat(sub-agent): steer a running sub-agent instead of refusing the …](https://github.com/lobehub/lobehub/commit/6444fde0e8644dd79140f353844d2bd394e42a44) | lobehub-coder |
+| 2026-11-13 | [✨ feat: add thinkingLevel5 with xhigh for Gemini 4 Hydrogen (#22933)](https://github.com/lobehub/lobehub/commit/f5a0e90d1e164ba3e7b2c0528b60c357a1f160ed) | tjx666 |
+| 2026-11-13 | [💄 style(resource): align library toolbar sort icon and center Works A…](https://github.com/lobehub/lobehub/commit/bf294132981eede694788f22bc0765b07d58ae05) | Innei |
+| 2026-11-13 | [✨ feat(channel): let Channel Agents message Agents in other Channels …](https://github.com/lobehub/lobehub/commit/27c9c7da525417a31f980b7c907fbb2fa059e8c9) | arvinxx |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [250](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [242](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 57.5 MB |
+| 💾 **Size** | 57.6 MB |
 | 🌐 **Website** | http://keras.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [Split GPU and TPU tests into four shards (#24144)](https://github.com/keras-team/keras/commit/88ee22e42908a06a7bd313bf80aaeae115819677) | laxmareddyp |
+| 2026-11-13 | [Write scalars and the Keras model summary with tensorboardX (#24198)](https://github.com/keras-team/keras/commit/f82c0b666352013a55540453071600b0d90e585a) | SamanehSaadat |
+| 2026-11-13 | [Quantize a GPTQ or AWQ layer in one step, without a pending state (#2…](https://github.com/keras-team/keras/commit/97cadee1530845116047b3a303945e726d2b2a85) | JyotinderSingh |
+| 2026-11-13 | [Implement XLASavedModelArchive with xla_saved_model (XLA Serving Engi…](https://github.com/keras-team/keras/commit/d9070b49e4737ef2b7143af59d57e5c4306751fb) | jerryxyj |
+| 2026-11-13 | [Fix out-of-range offsets in `diagonal`, `diag`, `trace` and eye on Te…](https://github.com/keras-team/keras/commit/a7bbd6bf8ef50ebbea43260ee6b8bb73ae8af3f2) | MaddipatlaChetan24 |
+| 2026-11-12 | [Remove obsolete tf2onnx NumPy 2 compatibility patch (#24214)](https://github.com/keras-team/keras/commit/340606f1703d383e6e0036bab7885c272ec907d6) | andife |
+| 2026-11-12 | [Test the functional-subclass path for loaded custom-compile models (#…](https://github.com/keras-team/keras/commit/2818e6c8ec5552498dfde1275e5ac1a6c62762d1) | JyotinderSingh |
+| 2026-11-12 | [Fix crossentropy and KL string losses in `LogitsDistillation` (#24063)](https://github.com/keras-team/keras/commit/870469370d3e6806086d5d0d7665859a36fb7cc8) | JyotinderSingh |
 | 2026-11-12 | [Stop using `backend.is_keras_tensor` and instead import it from... (#…](https://github.com/keras-team/keras/commit/bc01d50f1dc3a336feafe1e67917b8708bde67bc) | hertschuh |
 | 2026-11-12 | [Don't mark loaded model as compiled when compile_from_config skips co…](https://github.com/keras-team/keras/commit/dd93321d5d31db1fffdac50a87a7912de56bbf00) | vnayakde |
-| 2026-11-11 | [Remove Jules integration. (#24217)](https://github.com/keras-team/keras/commit/14e831361470f79a6735d938905d405f9214ef42) | hertschuh |
-| 2026-11-11 | [Add backend-agnostic implementation for flipud (#24210)](https://github.com/keras-team/keras/commit/ddfa3809868a56009909440bf1c05f2e018e5f9d) | SamanehSaadat |
-| 2026-11-11 | [Stop hiding gfile in remote path tests now that TF-free CI exists (#2…](https://github.com/keras-team/keras/commit/80bd23f974144ed590e13e0e93e63feaa5d98495) | SamanehSaadat |
-| 2026-11-11 | [Stop using `backend.any_symbolic_tensors` and instead import it from.…](https://github.com/keras-team/keras/commit/1c8d49cdd0272ebd5f581a5dff8b077d666338b6) | hertschuh |
-| 2026-11-11 | [Check values across input dtypes in OpTest (#24187)](https://github.com/keras-team/keras/commit/1e56aa071704015bbad5f2eb7ac3be445369c97d) | gaga1313 |
-| 2026-11-11 | [Pin SHA-256 integrity hashes for Fashion-MNIST dataset files (#24036)](https://github.com/keras-team/keras/commit/98bb95799aa5f8877580d36ca1e78c0ce9bc1473) | priyankn |
-| 2026-11-11 | [Introduce `ElementwiseUnaryOperation` base class and refactor ops. (#…](https://github.com/keras-team/keras/commit/74e6d53d6e7f669ee11d0f2bb85d3cb527641396) | james77777778 |
-| 2026-11-11 | [Add backend-agnostic implementation for fliplr (#24209)](https://github.com/keras-team/keras/commit/512ddabed151e611f69c57ee05a534da4160fd50) | SamanehSaadat |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 30.3k |
+| ⭐ **Stars** | 30.4k |
 | 🍴 **Forks** | 3.2k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/huggingface/smolagents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-10 (yesterday) |
+| 🕒 **Last activity** | 2026-11-10 (2d ago) |
 | 📅 **Created** | 2024-12-05 |
 | 📦 **Latest release** | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) — 2026-05-29 |
 | 🌿 **Default branch** | `main` |
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.23.0](https://github.com/huggingface/smolagents/releases/tag/v1.23.0)
-<sub>2025-11-17 · 11mo ago</sub>
+<sub>2025-11-17 · 12mo ago</sub>
 
 > **Improvements ✨**
 > * Update final answer checks to accept the agent instance by @Zoe14 in https://github.com/huggingface/smolagents/pull/1648

@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 71.3k |
 | 🍴 **Forks** | 11.5k |
-| 🐞 **Open issues + PRs** | [25](https://github.com/asgeirtj/system_prompts_leaks/issues) |
+| 🐞 **Open issues + PRs** | [26](https://github.com/asgeirtj/system_prompts_leaks/issues) |
 | 💻 **Languages** | Python 64% · JavaScript 33% · HTML 2% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | `ai` `anthropic` `chatbot` `chatgpt` `claude` `claude-code` `codex` `gemini` `generative-ai` `google` `llm` `openai` `prompt-engineering` `ai-agents` `system-prompts` `cursor` `grok` `ai-prompts` `prompt` `system-prompt` |
-| 🕒 **Last activity** | 2026-11-10 (2d ago) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2025-05-03 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.5 MB |
+| 💾 **Size** | 22.6 MB |
 
 ## 📦 Recent releases
 
@@ -40,6 +40,8 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [Update claude-code system prompts (2.1.323)](https://github.com/asgeirtj/system_prompts_leaks/commit/11600e7a6b8902a4df8685023a31891ff919930f) | asgeirtj |
+| 2026-11-13 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/63a6b15b0b4419bd3bc45dda37b869fd44bfb472) | asgeirtj |
 | 2026-11-10 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/fc0108f594b63bca905f2c4815aaef430d13bd68) | asgeirtj |
 | 2026-11-10 | [Add claude-fable-5.2-raw.md](https://github.com/asgeirtj/system_prompts_leaks/commit/bd34cf29c81230d86c521a305c3379a1ef6f087b) | asgeirtj |
 | 2026-11-10 | [Add official statement about what <claude_behavior> chapter on claude…](https://github.com/asgeirtj/system_prompts_leaks/commit/a99ca6dc26a3fd144d1a5d9a184ee455d05fa2bf) | asgeirtj |
@@ -48,8 +50,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-09 | [Move btw and compact to prompts](https://github.com/asgeirtj/system_prompts_leaks/commit/8eea1be0ca7cff3b67a3811111350dcf084dfcaa) | asgeirtj |
 | 2026-11-09 | [Update claude-code agents](https://github.com/asgeirtj/system_prompts_leaks/commit/9ec2a3c7e110d9d3bf07bcda10a51460579a8514) | asgeirtj |
 | 2026-11-09 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/7f5e7866b5a52ac237c303b9a767019d6d7be97c) | asgeirtj |
-| 2026-11-09 | [Add Claude Fable 5.2 system prompt (claude.ai)](https://github.com/asgeirtj/system_prompts_leaks/commit/09e74691727a3909ef30ed1e25af22283fea6ce6) | asgeirtj |
-| 2026-11-09 | [Add Claude Fable 5.2 system prompt (Claude Code)](https://github.com/asgeirtj/system_prompts_leaks/commit/d1ca301e33cf8d176a8463cf932ce7e3c80da07e) | asgeirtj |
 
 [See all commits ↗](https://github.com/asgeirtj/system_prompts_leaks/commits)
 

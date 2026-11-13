@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 15.7k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [362](https://github.com/Unstructured-IO/unstructured/issues) |
+| 🐞 **Open issues + PRs** | [373](https://github.com/Unstructured-IO/unstructured/issues) |
 | 💻 **Languages** | HTML 87% · Python 12% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `document-parsing` `machine-learning` `nlp` `ocr` `information-retrieval` `data-pipelines` `ml` `preprocessing` `pdf-to-text` `natural-language-processing` `pdf` `pdf-to-json` `document-image-analysis` `donut` `document-image-processing` `document-parser` `docx` `langchain` `llm` |
-| 🕒 **Last activity** | 2026-11-06 (5d ago) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2022-09-26 |
 | 📦 **Latest release** | [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37)
-<sub>2026-11-06 · 5d ago</sub>
+<sub>2026-11-06 · 6d ago</sub>
 
 > **What's Changed**
 > **Fixes**
@@ -47,7 +47,7 @@
 > …
 
 ### [0.27.36](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.36)
-<sub>2026-10-30 · 13d ago</sub>
+<sub>2026-10-30 · 14d ago</sub>
 
 > **What's Changed**
 > **Other changes**
@@ -58,7 +58,7 @@
 > …
 
 ### [0.27.35](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.35)
-<sub>2026-10-27 · 16d ago</sub>
+<sub>2026-10-27 · 17d ago</sub>
 
 > **What's Changed**
 > **Other changes**
@@ -69,7 +69,7 @@
 > …
 
 ### [0.27.34](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.34)
-<sub>2026-10-22 · 20d ago</sub>
+<sub>2026-10-22 · 21d ago</sub>
 
 > **What's Changed**
 > * perf: Free decode buffers sooner when restoring original elements by @CyMule in https://github.com/Unstructured-IO/unstructured/pull/4524
@@ -80,7 +80,7 @@
 > …
 
 ### [0.27.33](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.33)
-<sub>2026-10-22 · 21d ago</sub>
+<sub>2026-10-22 · 22d ago</sub>
 
 > **What's Changed**
 > * fix(chunking): don't repeat a very large split element in every chunk by @kholdrex in https://github.com/Unstructured-IO/unstructured/pull/4565
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [fix(metrics): preserve caller-owned detection predictions (#4702)](https://github.com/Unstructured-IO/unstructured/commit/ad56303cfae517612afcd5db85d3b4e303aa0d03) | Afloat16 |
+| 2026-11-13 | [fix(metrics): separate threshold precision from the AP envelope (#4703)](https://github.com/Unstructured-IO/unstructured/commit/c47ef65e827f2b3d80a4bf246909d029dc8b4fe8) | Afloat16 |
+| 2026-11-12 | [fix: produce no elements for an empty CSV or TSV file (#4707)](https://github.com/Unstructured-IO/unstructured/commit/0bf5f7875b8152eabd81f727625de3fa69d483e5) | Bensonluo |
+| 2026-11-12 | [fix(lang): treat an empty language selection as automatic (#4704)](https://github.com/Unstructured-IO/unstructured/commit/5df7ea22dda26b8efa3ef6ea24153f7351bf3f00) | Afloat16 |
+| 2026-11-12 | [chore: start 0.27.38-dev after 0.27.37 release (#4669)](https://github.com/Unstructured-IO/unstructured/commit/2da7d277a9e279da29672695811524415fc235dc) | ryannikolaidis |
 | 2026-11-06 | [chore: release 0.27.37 (#4668)](https://github.com/Unstructured-IO/unstructured/commit/293d235cfcd5f5e89c3cc5ff85562005e182ae33) | qued |
 | 2026-11-06 | [fix(cleaners): stop swapping en and em dashes in replace_unicode_quot…](https://github.com/Unstructured-IO/unstructured/commit/29bafea9467377812510ed83c24a0520655dbf57) | chrikrah |
 | 2026-11-06 | [fix(coordinates): default CoordinateSystem.orientation to CARTESIAN (…](https://github.com/Unstructured-IO/unstructured/commit/3cfcf4f5ab5b90f08ef0251851b41cdc81450c0b) | Eapp1e |
 | 2026-11-06 | [fix(documents): count the hash-id sequence number per page, not per c…](https://github.com/Unstructured-IO/unstructured/commit/9b626895ba4d41c2796044f38878854673fea0de) | Eapp1e |
 | 2026-11-04 | [fix(docx): keep text that python-docx skips inside wrapper elements (…](https://github.com/Unstructured-IO/unstructured/commit/582baf66ac056e48ed1d348b967bf2228f747bdb) | qued |
-| 2026-11-03 | [fix(pdf): extract vector-heavy PDFs with the fast strategy instead of…](https://github.com/Unstructured-IO/unstructured/commit/d505b6010964de066a33fcce716a644e5887e7d3) | CyMule |
-| 2026-11-02 | [fix(json): accept non-seekable streams while preserving legacy adapte…](https://github.com/Unstructured-IO/unstructured/commit/acc984515fca358831bc67dc5ea4ca61071a203e) | Zhi-Xiang-Guo |
-| 2026-10-30 | [fix(html): render each Title at its own heading level in elements_to_…](https://github.com/Unstructured-IO/unstructured/commit/910d9f41e70a17e561797106ef4b9096a8554254) | tanishqbaweja |
-| 2026-10-30 | [fix(deps): require filelock>=4.2.1 for GHSA-v4x8-3wr5-3wq8 (#4628)](https://github.com/Unstructured-IO/unstructured/commit/6c304a9605c867223359a9db82d3ca382f7af1b5) | tanishqbaweja |
-| 2026-10-30 | [fix(lang): keep the languages a caller passes on short ASCII text (#4…](https://github.com/Unstructured-IO/unstructured/commit/e43c6da62960d30da4665827b264c60371d6a5dc) | chrikrah |
 
 [See all commits ↗](https://github.com/Unstructured-IO/unstructured/commits)
 

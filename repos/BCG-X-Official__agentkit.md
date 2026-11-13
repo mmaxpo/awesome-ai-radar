@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 49% · Python 46% · JavaScript 2% · Makefile 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `fastapi` `full-stack` `genai` `genai-chatbot` `genai-poc` `langchain` `langchain-python` `nextjs` `openai` `react` `starter` `starter-kit` `vercel` `template` |
-| 🕒 **Last activity** | 2026-03-18 (7mo ago) |
+| 🕒 **Last activity** | 2026-03-18 (8mo ago) |
 | 📅 **Created** | 2024-01-25 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

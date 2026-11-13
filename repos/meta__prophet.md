@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 20.5k |
 | 🍴 **Forks** | 4.6k |
-| 🐞 **Open issues + PRs** | [469](https://github.com/meta/prophet/issues) |
+| 🐞 **Open issues + PRs** | [470](https://github.com/meta/prophet/issues) |
 | 💻 **Languages** | Python 66% · R 32% · Stan 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `forecasting` `r` `python` |
-| 🕒 **Last activity** | 2026-11-11 (yesterday) |
+| 🕒 **Last activity** | 2026-11-11 (2d ago) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v1.5.0](https://github.com/meta/prophet/releases/tag/v1.5.0) — 2026-10-05 |
 | 🌿 **Default branch** | `main` |
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.4.0-patched](https://github.com/meta/prophet/releases/tag/v1.4.0-patched) — v1.4.0 patched
-<sub>2026-08-15 · 2mo ago</sub>
+<sub>2026-08-15 · 3mo ago</sub>
 
 > Patched wheel build.
 

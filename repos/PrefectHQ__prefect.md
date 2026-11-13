@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [905](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [880](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 247.7 MB |
+| 💾 **Size** | 247.8 MB |
 | 🌐 **Website** | https://prefect.io |
 
 ## 📦 Recent releases
 
+### [3.9.3.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3.dev2) — 3.9.3.dev2: Nightly Development Release _(pre-release)_
+<sub>2026-11-13 · today</sub>
+
+> **What's Changed**
+> **Enhancements ➕➕**
+> * Run duration-balanced Postgres groups on every Python version by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23863
+> * Run duration-balanced SQLite test groups by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23865
+> **Bug Fixes 🐞**
+> * Fix SQLAlchemy cursor reuse for parameterized fetches by @shion233 in https://github.com/PrefectHQ/prefect/pull/23847
+> …
+
 ### [3.9.3.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3.dev1) — 3.9.3.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-10 · 2d ago</sub>
+<sub>2026-11-10 · 3d ago</sub>
 
 > **What's Changed**
 > **Development & Tidiness 🧹**
@@ -47,7 +58,7 @@
 > …
 
 ### [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) — 3.9.2 - It’s okay to let go of a lock that already let go of you
-<sub>2026-11-06 · 5d ago</sub>
+<sub>2026-11-06 · 6d ago</sub>
 
 > **3.9.2 - It’s okay to let go of a lock that already let go of you**
 > *Released on November 06, 2026*
@@ -58,7 +69,7 @@
 > …
 
 ### [3.9.2.dev6](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2.dev6) — 3.9.2.dev6: Nightly Development Release _(pre-release)_
-<sub>2026-11-06 · 6d ago</sub>
+<sub>2026-11-06 · 7d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -66,7 +77,7 @@
 > **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.2.dev5...3.9.2.dev6
 
 ### [3.9.2.dev5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2.dev5) — 3.9.2.dev5: Nightly Development Release _(pre-release)_
-<sub>2026-11-05 · 7d ago</sub>
+<sub>2026-11-05 · 8d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -76,31 +87,20 @@
 > * Keep deployment schedule parameter overrides on partial schedule updates by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23719
 > …
 
-### [3.9.2.dev4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2.dev4) — 3.9.2.dev4: Nightly Development Release _(pre-release)_
-<sub>2026-11-04 · 8d ago</sub>
-
-> **What's Changed**
-> **Documentation 📓**
-> * docs: send referrers on outbound links and add missing page descriptions by @madureira-gabriel in https://github.com/PrefectHQ/prefect/pull/23728
-> **Uncategorized**
-> * chore(deps): Update github actions by @prefect-renovate[bot] in https://github.com/PrefectHQ/prefect/pull/23699
-> **New Contributors**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [docs: set PREFECT_API_URL in the open source quickstart (#23842)](https://github.com/PrefectHQ/prefect/commit/5cf5adc41e7d21f6c32f49a1443ac0441c6fd44c) | masonmenges |
-| 2026-11-12 | [Fix broken examples in the store-flow-code guide (#23801)](https://github.com/PrefectHQ/prefect/commit/fd88963913e3f595b9fce6363ef91324891504f9) | ZainnQureshii |
-| 2026-11-10 | [docs: rename managed automation to workspace policy (#23800)](https://github.com/PrefectHQ/prefect/commit/bc0ff4b8c9e44cc474482ae69005945541fdcfe2) | nathandpeterson |
-| 2026-11-10 | [docs: document flow archival and restoration policies (#23546)](https://github.com/PrefectHQ/prefect/commit/0f0f28690f188ddfe2051b997b462abc612bb105) | nathandpeterson |
-| 2026-11-09 | [Document ClassVar annotations for custom block metadata (#23827)](https://github.com/PrefectHQ/prefect/commit/941c57c524e683e7c1f8bb673da4e7d37d421753) | ashutosh8021 |
-| 2026-11-09 | [Direct agents to re-request review after addressing requested changes…](https://github.com/PrefectHQ/prefect/commit/0b51d8daee603c157646e4be1673f5298c1fb28f) | devin-ai-integration[bot] |
-| 2026-11-09 | [Fix flaky UI E2E tests reading stale default task run names (#23829)](https://github.com/PrefectHQ/prefect/commit/d3f7a1fce8002d1d6f393c7afa09e8a33f3bba54) | devin-ai-integration[bot] |
-| 2026-11-09 | [chore(deps): Update dependency pixi-viewport to v7 (#23825)](https://github.com/PrefectHQ/prefect/commit/14221a629d1782a9ae51f451441bf1076ae0f75d) | prefect-renovate[bot] |
-| 2026-11-09 | [chore(deps): Update dependency @hookform/resolvers to v7 (#23824)](https://github.com/PrefectHQ/prefect/commit/24fc5f48d131e054a52c4452371fac3a95a9d3a5) | prefect-renovate[bot] |
-| 2026-11-06 | [docs: Add release notes for 3.9.2 (#23798)](https://github.com/PrefectHQ/prefect/commit/b0479c0c26045b06321191bbad0cdfbb334d7380) | devin-ai-integration[bot] |
+| 2026-11-12 | [Fix retry restart of async generator tasks closed during finalizer fa…](https://github.com/PrefectHQ/prefect/commit/53ad34955fbcccdff163c41ad0447d52d49be9c8) | dfbustosus |
+| 2026-11-12 | [Generate automatic Dockerfile in `DockerImage` build context (#23747)](https://github.com/PrefectHQ/prefect/commit/e77b19eff992f20fe394e629130fb51ef3a8b3cf) | devin-ai-integration[bot] |
+| 2026-11-12 | [Detect ACI container start from the container group instead of only t…](https://github.com/PrefectHQ/prefect/commit/52c80af8dd609407c18da0add692e1451c5db8cf) | devin-ai-integration[bot] |
+| 2026-11-12 | [Make the delete-block message assertions actually run (#23767)](https://github.com/PrefectHQ/prefect/commit/978605212e386ad1a09418ce706398fe65333740) | dylanpulver |
+| 2026-11-12 | [docs: document form button type pitfall in ui-v2 components AGENTS.md…](https://github.com/PrefectHQ/prefect/commit/b7ca990129e74fd386b09367e0916389ad2d4c3e) | devin-ai-integration[bot] |
+| 2026-11-12 | [fix(prefect-redis): keep messages published while a publisher flush i…](https://github.com/PrefectHQ/prefect/commit/1996bd00e767124ea9e65ce3b94252f15b25337c) | devin-ai-integration[bot] |
+| 2026-11-12 | [Show the script error from `prefect deploy` and `prefect flow serve` …](https://github.com/PrefectHQ/prefect/commit/b73c4ee602c12a2d8a8a05e885215463e117d409) | CassianoE |
+| 2026-11-12 | [Keep `Annotated[T, Field(description=...)]` descriptions in flow para…](https://github.com/PrefectHQ/prefect/commit/ff5ba09cfc6d33261c3b395a7a9d8b125b686453) | CassianoE |
+| 2026-11-12 | [Reserve hosted test API server port before starting uvicorn (#23799)](https://github.com/PrefectHQ/prefect/commit/2433f8690e4c5864e51e9a2aa5e37e048f2998fe) | devin-ai-integration[bot] |
+| 2026-11-12 | [Skip fetching a pinned commit that the clone already contains (#23814)](https://github.com/PrefectHQ/prefect/commit/7707eb3cd4050c841644aa8a60a3e9cb1c0a4158) | devin-ai-integration[bot] |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 4.7k |
 | 🍴 **Forks** | 234 |
-| 🐞 **Open issues + PRs** | [473](https://github.com/restatedev/restate/issues) |
+| 🐞 **Open issues + PRs** | [470](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 115.4 MB |
+| 💾 **Size** | 116.1 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 10d ago</sub>
+<sub>2026-11-02 · 11d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.7.14](https://github.com/restatedev/restate/releases/tag/v1.7.14)
-<sub>2026-10-22 · 20d ago</sub>
+<sub>2026-10-22 · 21d ago</sub>
 
 > **Restate v1.7.14**
 > Restate v1.7.14 is a security release. Restate now rejects TLS certificates issued through compromised emSign intermediate CAs. The release also updates the bundled TLS library to fix several recently disclosed vulnerabilities, and refreshes the OS trust store shipped in the Docker image.
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.8.1](https://github.com/restatedev/restate/releases/tag/v1.8.1)
-<sub>2026-10-21 · 22d ago</sub>
+<sub>2026-10-21 · 23d ago</sub>
 
 > **Restate v1.8.1**
 > v1.8.1 is a drop-in upgrade from v1.8.0, and you can roll back to v1.8.0 unless you enable signal recording. If you are still on v1.7.x, follow the [v1.8.0 upgrade requirements](https://github.com/restatedev/restate/blob/main/release-notes/v1.8.0.md#upgrade--rollback-guidance).
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.8.0](https://github.com/restatedev/restate/releases/tag/v1.8.0)
-<sub>2026-10-14 · 29d ago</sub>
+<sub>2026-10-14 · 1mo ago</sub>
 
 > **Restate v1.8.0 🎉**
 > **✨ Release Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [Add a dedicated blob table to the partition store (#5800)](https://github.com/restatedev/restate/commit/327a9c186f15dcf0c1365279c5c0959528815468) | muhamadazmy |
-| 2026-11-12 | [Add snapshot restore fallback to older retained snapshots (#4917)](https://github.com/restatedev/restate/commit/1a2bf81c72f053f486040ce13aa48821c5e0de57) | pcholakov |
-| 2026-11-12 | [[snapshots] Configurable upload chunk size and raised default to 32 M…](https://github.com/restatedev/restate/commit/04b148b842e8054c6e82a96b91cc1eab2553fb8f) | pcholakov |
-| 2026-11-11 | [[DataFusion] Add query diagnostics, redacted SQL and HLC timestamps](https://github.com/restatedev/restate/commit/166295d4583adb270b6d355c69646e02d0e8aff6) | AhmedSoliman |
-| 2026-11-11 | [[DataFusion] Separate V1 query sessions, catalogs and data access](https://github.com/restatedev/restate/commit/53df4648d94cca15b7b90bb9f4a8d7f47a1a806a) | AhmedSoliman |
-| 2026-11-11 | [[VQueues] Test immediate and retained completion](https://github.com/restatedev/restate/commit/2347460189bbea4b68f2b856f42f27e8a8119d55) | AhmedSoliman |
-| 2026-11-11 | [[VQueues] Delete entries that finish without retention in one storage…](https://github.com/restatedev/restate/commit/00a458cf3703933aa859df4a2625dc8427d07451) | AhmedSoliman |
-| 2026-11-11 | [[Core] Require network protocol V3 or newer](https://github.com/restatedev/restate/commit/e8c09e07418d6adc809275f003c51db85f425452) | AhmedSoliman |
-| 2026-11-11 | [[Scheduler] Pick first replica with the highest score as leader](https://github.com/restatedev/restate/commit/25a9154d967d662b4f9a03f153fc1ecabad2e553) | tillrohrmann |
-| 2026-11-11 | [[Invoker] Remove unused InvocationReader methods (#5811)](https://github.com/restatedev/restate/commit/bca481cbb6db337b4f3499a6b453cbaaed6f95d1) | MohamedBassem |
+| 2026-11-13 | [[PartitionStore] Arm fault points per partition](https://github.com/restatedev/restate/commit/a5b5a6a29c9c2e2cd251aab2328132e3b701ea80) | AhmedSoliman |
+| 2026-11-13 | [[PartitionStore] Declare the statistics and maintain registered index…](https://github.com/restatedev/restate/commit/a302ef3c9d1e77d2f862458f9c257a66be3eee53) | AhmedSoliman |
+| 2026-11-13 | [[PartitionStore] Execute prepared reads on a partition snapshot](https://github.com/restatedev/restate/commit/59ef8c785d6193a8cf1243f376222cdb32c8743b) | AhmedSoliman |
+| 2026-11-13 | [[query] Add the in-process read contracts and schema bindings](https://github.com/restatedev/restate/commit/aef31d2988d5e1de22639942a4c9d5499f4db73b) | AhmedSoliman |
+| 2026-11-13 | [[InvokerReader] Read invocation data for the invoker through a partit…](https://github.com/restatedev/restate/commit/3ae395f4e718d85fda57d6ee88754ec669f71a23) | MohamedBassem |
+| 2026-11-13 | [[PartitionStore] Record the index registry and walks](https://github.com/restatedev/restate/commit/ec6c1a82e55c6385e07205566b3ac9a387629096) | AhmedSoliman |
+| 2026-11-13 | [[PartitionStore] Prepare key selections over ordered keys](https://github.com/restatedev/restate/commit/8ba9b2acbe841cf270cf41d47f07289c1bebfab6) | AhmedSoliman |
+| 2026-11-13 | [[query] Declare the logical tables](https://github.com/restatedev/restate/commit/19e2a428ffbe7656660150aca555c8e5fe3cd475) | AhmedSoliman |
+| 2026-11-12 | [[PartitionStore] Look up partition store values by KeyKind instead of…](https://github.com/restatedev/restate/commit/d802434dcb0d50e1aaab1d9f60754e392e1828e5) | MohamedBassem |
+| 2026-11-12 | [[RocksDB] Choose the column family per lookup in Reader (#5836)](https://github.com/restatedev/restate/commit/adcdf1c7ad314e6c32b11efdbe77a6fd459f8d12) | MohamedBassem |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Minimal code to train a GPT — learn how LLMs work inside |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 12mo
+💤 **Quiet** — no activity for 1y
 
 ## 📊 At a glance
 
@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2025-11-12 (12mo ago) |
+| 🕒 **Last activity** | 2025-11-12 (1y ago) |
 | 📅 **Created** | 2022-12-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `master` |

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 91.9k |
+| ⭐ **Stars** | 92.0k |
 | 🍴 **Forks** | 12.0k |
-| 🐞 **Open issues + PRs** | [10](https://github.com/modelcontextprotocol/servers/issues) |
+| 🐞 **Open issues + PRs** | [18](https://github.com/modelcontextprotocol/servers/issues) |
 | 💻 **Languages** | TypeScript 47% · JavaScript 33% · Python 19% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-12 (yesterday) |
 | 📅 **Created** | 2024-11-19 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0)
-<sub>2026-11-11 · yesterday</sub>
+<sub>2026-11-11 · 2d ago</sub>
 
 > **Security fixes**
 > v2.4.0 fixes six vulnerabilities in three servers. Upgrade `@modelcontextprotocol/server-filesystem` to 2.3.0,
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.3.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0)
-<sub>2026-11-04 · 7d ago</sub>
+<sub>2026-11-04 · 8d ago</sub>
 
 > **Packages**
 > | Package | Version | Registry | In this release |
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.2.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0)
-<sub>2026-10-28 · 14d ago</sub>
+<sub>2026-10-28 · 15d ago</sub>
 
 > **Security: Node.js runtime and CA certificate updates (October 2026)**
 > On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates could be recovered from the public certificates. On October 21, Node.js shipped [security releases](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases) that update its bundled CA certificates for the compromise and fix several unrelated high-severity runtime CVEs. On October 23, Python's `certifi` 2026.10.23 removed the eMudhra roots `emSign Root CA - C1` and `emSign ECC Root CA - C3`.
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.1.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0)
-<sub>2026-10-25 · 18d ago</sub>
+<sub>2026-10-25 · 19d ago</sub>
 
 > **Security fixes**
 > v2.1.0 fixes eight vulnerabilities in three servers. Upgrade
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.0.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0)
-<sub>2026-10-19 · 24d ago</sub>
+<sub>2026-10-19 · 25d ago</sub>
 
 > **Servers refactored to modern era**
 > This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected.

@@ -14,8 +14,6 @@
 | **Why it's worth a look** | Turn screenshots/designs into HTML/React code |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
@@ -26,7 +24,7 @@
 | 💻 **Languages** | Python 54% · TypeScript 45% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-05 (6d ago) |
+| 🕒 **Last activity** | 2026-11-05 (7d ago) |
 | 📅 **Created** | 2023-11-14 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

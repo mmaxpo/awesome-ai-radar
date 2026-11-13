@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 2.8k |
 | 🍴 **Forks** | 157 |
-| 🐞 **Open issues + PRs** | [41](https://github.com/evansd/whitenoise/issues) |
+| 🐞 **Open issues + PRs** | [39](https://github.com/evansd/whitenoise/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `django` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-12 (today) |
 | 📅 **Created** | 2013-08-08 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1.5 MB |
+| 💾 **Size** | 1.6 MB |
 | 🌐 **Website** | https://whitenoise.readthedocs.io |
 
 ## 📦 Recent releases
@@ -41,6 +41,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-12 | [Parse Accept-Encoding header properly (#732)](https://github.com/evansd/whitenoise/commit/41b88e66b3123615dd26e94b558c918216ec7705) | adamchainz |
 | 2026-11-11 | [Generate CLI usage documentation with Cog (#731)](https://github.com/evansd/whitenoise/commit/0e3d430f81a8827e9e08eda3521adb2a126120c3) | adamchainz |
 | 2026-11-11 | [Fix a bunch of minor typos in the documentation (#730)](https://github.com/evansd/whitenoise/commit/ff6e2e12555a991d8f840237cfc26c0c7bab1358) | adamchainz |
 | 2026-11-11 | [Improve ETag changelog note (#729)](https://github.com/evansd/whitenoise/commit/f632a158f3d7437d22ad4e6d21b514c2924c7bbc) | adamchainz |
@@ -50,7 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-10 | [Fix single-byte range requests returning 416 (#725)](https://github.com/evansd/whitenoise/commit/ed7978454bb81139feed5a7d35a51c852b451474) | adamchainz |
 | 2026-11-10 | [Make runserver_nostatic test independent of terminal width (#724)](https://github.com/evansd/whitenoise/commit/cbff58aa5299dea7d6374ef7b4064c6072c3479a) | adamchainz |
 | 2026-11-09 | [Fix apple-app-site-association media type to application/json (#723)](https://github.com/evansd/whitenoise/commit/f819c827774e225172f9194743263c422a0dd34d) | adamchainz |
-| 2026-11-09 | [Serve .woff files as font/woff (#722)](https://github.com/evansd/whitenoise/commit/973d07df55c52ca55b89ef93cc45beb212512c9b) | adamchainz |
 
 [See all commits ↗](https://github.com/evansd/whitenoise/commits)
 

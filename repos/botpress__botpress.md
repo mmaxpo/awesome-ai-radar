@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 15.0k |
 | 🍴 **Forks** | 2.3k |
-| 🐞 **Open issues + PRs** | [55](https://github.com/botpress/botpress/issues) |
+| 🐞 **Open issues + PRs** | [56](https://github.com/botpress/botpress/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `ai` `botpress` `chatbot` `chatgpt` `gpt` `gpt-4` `llm` `openai` `langchain` `nlp` `prompt` |
-| 🕒 **Last activity** | 2026-11-11 (today) |
+| 🕒 **Last activity** | 2026-11-11 (yesterday) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) — 2023-06-22 |
 | 🌿 **Default branch** | `master` |

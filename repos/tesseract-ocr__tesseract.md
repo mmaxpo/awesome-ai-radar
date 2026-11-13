@@ -26,7 +26,7 @@
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
-| 🕒 **Last activity** | 2026-11-11 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 15d ago</sub>
+<sub>2026-10-28 · 16d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [Merge pull request #4686 from NotAFlightRisk/man-alto-xml](https://github.com/tesseract-ocr/tesseract/commit/34f4e3ffc25847740a4b1d52d39d40e8013ace83) | zdenop |
+| 2026-11-13 | [SECURITY: steer vulnerability reports to GitHub's private reporting](https://github.com/tesseract-ocr/tesseract/commit/9dbff4dd7afe596690342bdaeac3d75d8d354519) | stweil |
+| 2026-11-11 | [Fix ALTO output file name in tesseract man page example](https://github.com/tesseract-ocr/tesseract/commit/f0a676bfea5dc52501b63638cfab41e806fad7a4) | NotAFlightRisk |
 | 2026-11-11 | [wordrec: stop the diacritics reassignment when the budget is used up](https://github.com/tesseract-ocr/tesseract/commit/4e3ec57f3039fd09e183f6884b8e1b70a57e9b0f) | stweil |
 | 2026-11-11 | [wordrec: let a real result win against a fake result of an exhausted …](https://github.com/tesseract-ocr/tesseract/commit/780f5d1a387143a1fd46de8bb2447c2cada8289b) | stweil |
 | 2026-11-11 | [wordrec: do not output fake results of ambigs training](https://github.com/tesseract-ocr/tesseract/commit/5cb5ac9033e798256a6fb638520425632d4f1946) | stweil |
@@ -101,9 +104,6 @@
 | 2026-11-11 | [wordrec: add a per-page blob classification budget to bound classifie…](https://github.com/tesseract-ocr/tesseract/commit/6e5ad3d47e9a694ea6250205747ee30b6804b350) | stweil |
 | 2026-11-02 | [Validate the LSTM softmax child runtime type during deserialization (…](https://github.com/tesseract-ocr/tesseract/commit/c21194d06998e244754d65329d6c9f1e14fe392e) | professor-moody |
 | 2026-11-02 | [Add error checking for elf_aux_info() (#4637)](https://github.com/tesseract-ocr/tesseract/commit/0860367e4ddb92df0c0d27c5c3d4100e1e385808) | brad0 |
-| 2026-11-02 | [Fix exit code when no renderers could be created (#4669)](https://github.com/tesseract-ocr/tesseract/commit/4d8565029174d6d70385795eebefd876533e9b97) | VishnuSrivatsava |
-| 2026-11-02 | [lstm: don't cap legitimate inference buffers in ResizeNoInit](https://github.com/tesseract-ocr/tesseract/commit/8a2cc748331b18579e763ecb9517f93a1fab803f) | stweil |
-| 2026-11-02 | [Register plumbing_dimensions_test with Autotools and tidy tests](https://github.com/tesseract-ocr/tesseract/commit/70723acce95f715327189bbbfdd6172c6863f4c6) | stweil |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 

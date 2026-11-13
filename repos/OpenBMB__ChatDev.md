@@ -14,8 +14,6 @@
 | **Why it's worth a look** | Virtual software company of chatting agents |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
@@ -26,7 +24,7 @@
 | 💻 **Languages** | Python 70% · Vue 28% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-06 (6d ago) |
+| 🕒 **Last activity** | 2026-11-06 (7d ago) |
 | 📅 **Created** | 2023-08-28 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) — 2026-03-23 |
 | 🌿 **Default branch** | `main` |

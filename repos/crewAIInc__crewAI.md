@@ -26,17 +26,28 @@
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2023-10-27 |
-| 📦 **Latest release** | [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40) — 2026-11-11 |
+| 📦 **Latest release** | [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 300.3 MB |
+| 💾 **Size** | 301.3 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
+### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
+<sub>2026-11-12 · today</sub>
+
+> **What's Changed**
+> **Features**
+> - Allow approved private URL hosts.
+> **Bug Fixes**
+> - Fix projects to depend on PyMuPDF 2.x.
+> - Drop a real storage URL from the URL read tests.
+> …
+
 ### [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40)
-<sub>2026-11-11 · today</sub>
+<sub>2026-11-11 · yesterday</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +58,7 @@
 > …
 
 ### [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39)
-<sub>2026-11-09 · 3d ago</sub>
+<sub>2026-11-09 · 4d ago</sub>
 
 > **What's Changed**
 > **Documentation**
@@ -56,7 +67,7 @@
 > @joaomdmoura
 
 ### [1.15.38](https://github.com/crewAIInc/crewAI/releases/tag/1.15.38)
-<sub>2026-11-08 · 3d ago</sub>
+<sub>2026-11-08 · 4d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -67,7 +78,7 @@
 > …
 
 ### [1.15.37](https://github.com/crewAIInc/crewAI/releases/tag/1.15.37)
-<sub>2026-11-07 · 5d ago</sub>
+<sub>2026-11-07 · 6d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -77,31 +88,20 @@
 > - Update RagTool description for better parsing by Mintlify.
 > …
 
-### [1.15.36](https://github.com/crewAIInc/crewAI/releases/tag/1.15.36)
-<sub>2026-11-06 · 6d ago</sub>
-
-> **What's Changed**
-> **Features**
-> - Add experimental conversational Agent sessions.
-> - Ask for a missing API key when crewai run starts.
-> - Record the error class when crewai run cannot load a project.
-> - Name the apps CrewAI AMP cannot resolve for an agent.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [fix(llm): strip cache_breakpoint marker on the LiteLLM path (OSS-272)…](https://github.com/crewAIInc/crewAI/commit/34c64226526715def00afe8486d394efee0fbb48) | Vidit-Ostwal |
-| 2026-11-11 | [[docs-freeze] docs: snapshot and changelog for v1.15.40 (#9377)](https://github.com/crewAIInc/crewAI/commit/7e4efa91c57a02646c9e7b7b7355d149f0783126) | lorenzejay |
-| 2026-11-11 | [feat: bump versions to 1.15.40 (#9376)](https://github.com/crewAIInc/crewAI/commit/1b28f5b6ca2a7471ee6887f5b4e46e9b0d7ec85b) | lorenzejay |
-| 2026-11-11 | [chore: update litellm model catalog for v1.15.40 (#9375)](https://github.com/crewAIInc/crewAI/commit/5a9aa4c81618e57771784dfa646412817fd98594) | lorenzejay |
-| 2026-11-11 | [feat(rag): remove chromadb from the embedding function layer (#8934)](https://github.com/crewAIInc/crewAI/commit/71d68117e38f620dff02ec1dc358f37a1f74a740) | Vidit-Ostwal |
-| 2026-11-11 | [fix(llm): run after_llm_call hooks on async calls (#9360)](https://github.com/crewAIInc/crewAI/commit/4254a835b1e5433d123e201928612bc692edbc3e) | Kiko0301 |
-| 2026-11-10 | [feat(flow): add exact historical state lookup by row id (#8272)](https://github.com/crewAIInc/crewAI/commit/0b8b216db35eec36610b5e08c31eb31a29f5c9c1) | sallyw02 |
-| 2026-11-10 | [feat(tools): wire jsonl into rag data type discovery (#8754)](https://github.com/crewAIInc/crewAI/commit/c358daab14fc5e6b6192365848c6e0d208d7524d) | AadeshSalecha |
-| 2026-11-10 | [test(memory): add async parity and restart-persistence contract tests…](https://github.com/crewAIInc/crewAI/commit/1357d23aafb5d3a612a19562fe9b8e2b0c899307) | AadeshSalecha |
-| 2026-11-10 | [test(llms): add bedrock content and usage contract tests (#9096)](https://github.com/crewAIInc/crewAI/commit/ed558c55475cbf4613b80dbf1ef7f15256774b87) | bballhaus |
+| 2026-11-13 | [fix(README): update FAQ links to AMP headings (#9303)](https://github.com/crewAIInc/crewAI/commit/bc36a4df62936d57addae345a942e503d2b4bd1d) | TejasLamba2006 |
+| 2026-11-13 | [fix(tools): honor caller-provided Weaviate headers (#9348)](https://github.com/crewAIInc/crewAI/commit/bb0ecba1c1028f81d001f7ad699f37498fb14dc6) | Kiko0301 |
+| 2026-11-13 | [fix(cli): exit with the uv status when crewai install fails (#9346)](https://github.com/crewAIInc/crewAI/commit/dd3feccac1f4b93d748aa196c53aa61ee787a17a) | Kiko0301 |
+| 2026-11-13 | [fix(core): read pyproject.toml as utf-8 in project helpers (#9414)](https://github.com/crewAIInc/crewAI/commit/e72ac1747c8ef19a1d1fb8ecc7a19d780ee93eb0) | adityajai119 |
+| 2026-11-13 | [fix(project): accept an llm mapping in agents.yaml (#9421)](https://github.com/crewAIInc/crewAI/commit/b5ea88bfa18c73784d94dee77c7f261abb454a16) | adityajai119 |
+| 2026-11-13 | [fix(deps): raise soupsieve floor to 4.0 for CVE-2026-126190 (#9423)](https://github.com/crewAIInc/crewAI/commit/c6809a33e67a96c4fd800ca5871622158c46cc4e) | iris-clawd |
+| 2026-11-12 | [feat(cli): pick tools for standalone agents and add them later (#9339)](https://github.com/crewAIInc/crewAI/commit/9b38b5453c41feea94c3f88793fcf484d297bb0a) | lorenzejay |
+| 2026-11-12 | [[docs-freeze] docs: snapshot and changelog for v1.15.41 (#9412)](https://github.com/crewAIInc/crewAI/commit/878d6c5c801ae4053bd80d77ef303f48f95aa493) | Vidit-Ostwal |
+| 2026-11-12 | [feat: bump versions to 1.15.41 (#9411)](https://github.com/crewAIInc/crewAI/commit/82e7209b4bad5dc7e6c99372ff00fc727e18c4e7) | Vidit-Ostwal |
+| 2026-11-12 | [chore: update litellm model catalog for v1.15.41 (#9410)](https://github.com/crewAIInc/crewAI/commit/4432e5e985c17cbe123501a483807b4e64956548) | Vidit-Ostwal |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 
