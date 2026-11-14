@@ -3,7 +3,7 @@
 #   repo:    owner/name (required) — copy it from the GitHub URL
 #   why:     one line on why it's worth following
 #   status:  study | using | later | done | deprecated  (deprecated = move to "Discontinued")
-#   category: agents | coding | workflows | rag | documents | models | ml | science | sdk |
+#   category: agents | coding | workflows | skills | rag | documents | models | ml | science | sdk | security |
 #             builders | prompting | imagegen | design | python | learning | apps  (or any new word)
 #   project: optional — a project it's useful for
 #   added:   optional — date you added it
@@ -192,6 +192,12 @@
   status: study
   added: 2026-11-14
 
+- repo: shadcn/improve
+  why: "Audit your codebase with your best model and write plans for cheaper models to execute"
+  category: coding
+  status: study
+  added: 2026-11-14
+
 # ───────── 🔁 Durable workflows & orchestration ─────────
 
 - repo: temporalio/temporal
@@ -223,6 +229,32 @@
   category: workflows
   status: study
   added: 2026-11-11
+
+# ───────── 🪄 Agent skills & guidance ─────────
+
+- repo: nextlevelbuilder/ui-ux-pro-max-skill
+  why: "Design-intelligence skill so coding agents build professional UI/UX"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: addyosmani/agent-skills
+  why: "Production-grade engineering skills for AI coding agents"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: leonxlnx/taste-skill
+  why: "Skill that gives AI better design taste"
+  category: skills
+  status: study
+  added: 2026-11-11
+
+- repo: GoogleChrome/modern-web-guidance-src
+  why: "Keeps your coding agent up to date with modern web best practices (Chrome team)"
+  category: skills
+  status: study
+  added: 2026-11-14
 
 # ───────── 🧠 RAG, memory & chat with your data ─────────
 
@@ -470,6 +502,26 @@
   status: study
   added: 2026-11-11
 
+# ───────── 🛡 Security & OSINT ─────────
+
+- repo: sherlock-project/sherlock
+  why: "Find someone's social-media accounts by username (OSINT)"
+  category: security
+  status: study
+  added: 2026-11-14
+
+- repo: nationalsecurityagency/ghidra
+  why: "Reverse-engineering framework (NSA)"
+  category: security
+  status: study
+  added: 2026-11-11
+
+- repo: openai/codex-security
+  why: "OpenAI's CLI/SDK to find, validate and fix security vulnerabilities"
+  category: security
+  status: study
+  added: 2026-11-14
+
 # ───────── 🧩 Low-code builders & chat UIs ─────────
 
 - repo: langflow-ai/langflow
@@ -575,11 +627,6 @@
 
 # ───────── 🎨 Design & creative ─────────
 
-- repo: leonxlnx/taste-skill
-  why: "Skill that gives AI better design taste"
-  category: design
-  status: study
-  added: 2026-11-11
 
 - repo: voltagent/awesome-design-md
   why: "Collection of DESIGN.md files for AI design guidance"
@@ -773,11 +820,6 @@
   status: study
   added: 2026-11-11
 
-- repo: nationalsecurityagency/ghidra
-  why: "Reverse-engineering framework (NSA)"
-  category: apps
-  status: study
-  added: 2026-11-11
 
 
 - repo: Swordfish90/cool-retro-term
@@ -1012,32 +1054,8 @@
   status: study
   added: 2026-11-11
 
-- repo: openai/codex-security
-  why: ""
-  status: study
-  added: 2026-11-14
 
-- repo: addyosmani/agent-skills
-  why: ""
-  status: study
-  added: 2026-11-14
 
-- repo: shadcn/improve
-  why: ""
-  status: study
-  added: 2026-11-14
 
-- repo: GoogleChrome/modern-web-guidance-src
-  why: ""
-  status: study
-  added: 2026-11-14
 
-- repo: nextlevelbuilder/ui-ux-pro-max-skill
-  why: ""
-  status: study
-  added: 2026-11-14
 
-- repo: sherlock-project/sherlock
-  why: ""
-  status: study
-  added: 2026-11-14

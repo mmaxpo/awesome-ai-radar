@@ -22,7 +22,7 @@ on:
         options: [study, using, later, done, deprecated]
         default: study
       category:
-        description: "Category: agents, coding, workflows, rag, documents, models, ml, science, sdk, builders, prompting, imagegen, design, python, learning, apps"
+        description: "Category: agents, coding, workflows, skills, rag, documents, models, ml, science, sdk, security, builders, prompting, imagegen, design, python, learning, apps"
         required: false
       project:
         description: "Project (optional)"
