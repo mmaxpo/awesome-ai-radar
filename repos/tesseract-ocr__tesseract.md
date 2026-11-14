@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 77.5k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [493](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [503](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 53.6 MB |
+| 💾 **Size** | 53.7 MB |
 | 🌐 **Website** | https://tesseract-ocr.github.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [Fix download of ae_Arab.ttf for the unit tests (#4687)](https://github.com/tesseract-ocr/tesseract/commit/2b9712d094d1f4398341f2cd4a165faee5cb5084) | stweil |
+| 2026-11-13 | [unittest: use separate temporary directories for the LSTM trainer tes…](https://github.com/tesseract-ocr/tesseract/commit/aeccc43fb7577ecd99e7364a83c377f5c6c47905) | stweil |
+| 2026-11-13 | [Clip the SetRectangle rectangle to the image (#4683)](https://github.com/tesseract-ocr/tesseract/commit/5a575454f881f8328a6bff875c225ca6e69000c2) | sohailshk |
+| 2026-11-13 | [Make DetectOS fail without a legacy model instead of throwing (#4682)](https://github.com/tesseract-ocr/tesseract/commit/c1ea70b9bd5c136c53213532dd902474e269561c) | sohailshk |
+| 2026-11-13 | [fuzzer: delete the API on exit and include cstdint](https://github.com/tesseract-ocr/tesseract/commit/83010e9f7780896e1bc8c17e6800ad8d1b013fa8) | stweil |
 | 2026-11-13 | [Merge pull request #4686 from NotAFlightRisk/man-alto-xml](https://github.com/tesseract-ocr/tesseract/commit/34f4e3ffc25847740a4b1d52d39d40e8013ace83) | zdenop |
 | 2026-11-13 | [SECURITY: steer vulnerability reports to GitHub's private reporting](https://github.com/tesseract-ocr/tesseract/commit/9dbff4dd7afe596690342bdaeac3d75d8d354519) | stweil |
 | 2026-11-11 | [Fix ALTO output file name in tesseract man page example](https://github.com/tesseract-ocr/tesseract/commit/f0a676bfea5dc52501b63638cfab41e806fad7a4) | NotAFlightRisk |
 | 2026-11-11 | [wordrec: stop the diacritics reassignment when the budget is used up](https://github.com/tesseract-ocr/tesseract/commit/4e3ec57f3039fd09e183f6884b8e1b70a57e9b0f) | stweil |
 | 2026-11-11 | [wordrec: let a real result win against a fake result of an exhausted …](https://github.com/tesseract-ocr/tesseract/commit/780f5d1a387143a1fd46de8bb2447c2cada8289b) | stweil |
-| 2026-11-11 | [wordrec: do not output fake results of ambigs training](https://github.com/tesseract-ocr/tesseract/commit/5cb5ac9033e798256a6fb638520425632d4f1946) | stweil |
-| 2026-11-11 | [wordrec: handle words skipped by the classification budget in more pl…](https://github.com/tesseract-ocr/tesseract/commit/ceb526eab6998cd292139be90f0c696df8df50f4) | stweil |
-| 2026-11-11 | [wordrec: add a per-page blob classification budget to bound classifie…](https://github.com/tesseract-ocr/tesseract/commit/6e5ad3d47e9a694ea6250205747ee30b6804b350) | stweil |
-| 2026-11-02 | [Validate the LSTM softmax child runtime type during deserialization (…](https://github.com/tesseract-ocr/tesseract/commit/c21194d06998e244754d65329d6c9f1e14fe392e) | professor-moody |
-| 2026-11-02 | [Add error checking for elf_aux_info() (#4637)](https://github.com/tesseract-ocr/tesseract/commit/0860367e4ddb92df0c0d27c5c3d4100e1e385808) | brad0 |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 

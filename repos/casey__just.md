@@ -26,7 +26,7 @@
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2016-06-17 |
 | 📦 **Latest release** | [1.59.0](https://github.com/casey/just/releases/tag/1.59.0) — 2026-10-15 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [1.59.0](https://github.com/casey/just/releases/tag/1.59.0)
-<sub>2026-10-15 · 29d ago</sub>
+<sub>2026-10-15 · 1mo ago</sub>
 
 > **Breaking**
 > - Require unicode paths ([#3708](https://github.com/casey/just/pull/3708) by [casey](https://github.com/casey))
@@ -93,6 +93,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Ignore comments inside delimiters (#3778)](https://github.com/casey/just/commit/c716a272efbfb9796e86fd33a088a70fb2bab951) | casey |
 | 2026-11-13 | [Use `just.systems` as homepage in Cargo.toml (#3777)](https://github.com/casey/just/commit/168c8e288dc8a591ca851b4ef070cada64f43c35) | casey |
 | 2026-11-11 | [Preserve trailing comments on attributes (#3776)](https://github.com/casey/just/commit/2f9dfaec10fb6125931e830a748a544f158dc206) | casey |
 | 2026-11-11 | [Preserve trailing comments on recipes (#3775)](https://github.com/casey/just/commit/dc13f8b277f9e18bc75df0a20397c3c2c3e6e7e7) | casey |
@@ -102,7 +103,6 @@
 | 2026-11-02 | [Serialize BLAKE3 hashes as hexadecimal (#3765)](https://github.com/casey/just/commit/a4d9c9afe797406dab271ff1f6041183d2d8dc14) | casey |
 | 2026-11-02 | [Add more `filesystem` functions (#3764)](https://github.com/casey/just/commit/da59fed7d5db8c01055f32817ace383b6daf5379) | casey |
 | 2026-11-02 | [Invalidate cache when outputs are modified (#3763)](https://github.com/casey/just/commit/25cfed9c145653f7cda2e177ce6717d7298c50b7) | casey |
-| 2026-11-01 | [Add `set dry-run` (#3754)](https://github.com/casey/just/commit/a7f66ae51877287addb383690a5c58e90d82ddf9) | casey |
 
 [See all commits ↗](https://github.com/casey/just/commits)
 

@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.4k |
+| ⭐ **Stars** | 201.7k |
 | 🍴 **Forks** | 10.6k |
-| 🐞 **Open issues + PRs** | [797](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 72% · Python 11% · Rust 5% · Java 3% · PHP 2% |
+| 🐞 **Open issues + PRs** | [799](https://github.com/firecrawl/firecrawl/issues) |
+| 💻 **Languages** | TypeScript 73% · Python 11% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
 | 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 186.6 MB |
+| 💾 **Size** | 186.7 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [perf(api): relay the fresh feed's encoded response (#5748)](https://github.com/firecrawl/firecrawl/commit/71f430a2dabffaf718cef7091c340b7384b91178) | PhantomInTheWire |
+| 2026-11-13 | [feat(api): proxy the fresh feed at /v2/fresh-vertical-feed/local/late…](https://github.com/firecrawl/firecrawl/commit/065cc5fdf2ca5cf6fc86fde53541ed2b3c4291b2) | PhantomInTheWire |
+| 2026-11-13 | [feat(api): support ambient Google credentials for Vertex and Pub/Sub …](https://github.com/firecrawl/firecrawl/commit/62c0bcacda0ad52824c5963d5c811cdceef71ce7) | tomsideguide |
+| 2026-11-13 | [fix(api): bound concurrent GCS deletes in ZDR request cleanup (#5742)](https://github.com/firecrawl/firecrawl/commit/2b15ea232f5c9533cb1a807b54657ad0297fbe6f) | mogery |
+| 2026-11-13 | [fix(security): bump rustls in the Rust SDK lockfile and zod, follow-r…](https://github.com/firecrawl/firecrawl/commit/acc44c86146a9ec633dd3f35f6337241a82c39ef) | mogery |
+| 2026-11-13 | [fix(api): refuse data source discovery and pause monitors for teams t…](https://github.com/firecrawl/firecrawl/commit/7f1785ea8e2d3c6c92af5ca7e276195a5737a183) | mogery |
+| 2026-11-13 | [feat(api): schedule a 24h delete for each ZDR blob and bound cleanup …](https://github.com/firecrawl/firecrawl/commit/d00d4483ea8ae6d9bdeca8a7c10e826eacc5df22) | mogery |
 | 2026-11-13 | [Forward zero data retention to Exchange from the exchange proxy (#5736)](https://github.com/firecrawl/firecrawl/commit/eaa56e8803b8d15336503d2c26fccb0ca6b99d18) | developersdigest |
 | 2026-11-12 | [feat(api): give the keyless provider-tools 403 a signup link (#5734)](https://github.com/firecrawl/firecrawl/commit/ab3acea889c724e8d7ebc48839e74cb16d8ca7a1) | nickscamara |
 | 2026-11-12 | [feat(api): hosted bash for agents at /v2/bash (experiment, off by def…](https://github.com/firecrawl/firecrawl/commit/793fd57f133b71426bb6ce65641428c28b883e36) | Ben2W |
-| 2026-11-12 | [chore(api): remove extraction provider (#5730)](https://github.com/firecrawl/firecrawl/commit/ace3c58bc88f0fccdabc8ec6483f8c935eaa6a9c) | abimaelmartell |
-| 2026-11-12 | [perf(api): compress exchange route responses (#5729)](https://github.com/firecrawl/firecrawl/commit/755ff8cb00f691b9a7ccf4673e4aa15ee8f1e19f) | KrisOei |
-| 2026-11-12 | [test(api): stop extract snips at the extract sunset and check the 410…](https://github.com/firecrawl/firecrawl/commit/902a083b95329d2f892e1dc2f76877363504e07b) | mogery |
-| 2026-11-12 | [fix(api): keep page engines when stealth proxy is unavailable (#5713)](https://github.com/firecrawl/firecrawl/commit/b3868a988173f2eacf1ba9286e566757038ca71b) | abimaelmartell |
-| 2026-11-12 | [docs(readme): mention Alexandria and note it runs on Firecrawl Cloud …](https://github.com/firecrawl/firecrawl/commit/0b64de1d651bd8e15e01a0a2f085e7b5edc9bce3) | claude[bot] |
-| 2026-11-12 | [test(api): stop deep research and llms.txt snips at their sunset and …](https://github.com/firecrawl/firecrawl/commit/4c4275fa8a2cac3307ac6279b3fe8aa59e4345b8) | mogery |
-| 2026-11-12 | [feat(sdks): pass gov search sources and type the gov result group (#5…](https://github.com/firecrawl/firecrawl/commit/1fcb57c3e324345d5fd342388d653951deb89220) | erikengervall |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

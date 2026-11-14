@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 57.6k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [14](https://github.com/zylon-ai/private-gpt/issues) |
-| 💻 **Languages** | Python 87% · HTML 9% · MDX 2% · Jinja 1% |
+| 🐞 **Open issues + PRs** | [13](https://github.com/zylon-ai/private-gpt/issues) |
+| 💻 **Languages** | Python 87% · HTML 9% · MDX 3% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-tools` `on-premise` |
-| 🕒 **Last activity** | 2026-11-12 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2023-05-02 |
 | 📦 **Latest release** | [v1.0.1](https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1) — 2026-06-18 |
 | 🌿 **Default branch** | `main` |
@@ -82,16 +82,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [fix(settings): wire HTTPS_PROXY to the proxy.https_proxy field (#2432)](https://github.com/zylon-ai/private-gpt/commit/9d37a133f1d50e9b10ed527ce198ffd7ded1af70) | simpleqt |
+| 2026-11-13 | [docs: add HopBase OpenAI-compatible provider guide (#2459)](https://github.com/zylon-ai/private-gpt/commit/03f7df6324c8122cfe23155086a302d65e10e9cb) | victor-zzh |
+| 2026-11-13 | [fix(readers): keep numeric-looking table cells as text when nodes are…](https://github.com/zylon-ai/private-gpt/commit/ef32cb847c88a75ad636e0956c156478671e1485) | MohammadHijjawi97 |
+| 2026-11-13 | [docs: add UberLLM OpenAI-compatible provider guide (#2446)](https://github.com/zylon-ai/private-gpt/commit/673046beaf3ee67fdd9f9eb9a811a604955492bf) | PSA-Team-source |
+| 2026-11-13 | [fix(ui): let users delete files they upload to a code execution sessi…](https://github.com/zylon-ai/private-gpt/commit/a8bb61cdbe0d9a8d5cf83a3a49b0aaec44927a49) | jaluma |
 | 2026-11-11 | [fix(ingest): keep code and snake_case words intact when sanitizing ma…](https://github.com/zylon-ai/private-gpt/commit/44fa6598a10f2c29cd5d8745bf29cc04b75cb3ad) | MohammadHijjawi97 |
 | 2026-11-11 | [perf(citations): skip plain text between citation markers while strea…](https://github.com/zylon-ai/private-gpt/commit/6bb62ed7f2a85c427b4405860553e2240ae30160) | b84330808 |
 | 2026-11-11 | [chore(deps): bump docker/login-action from 4.6.0 to 4.8.0 (#2454)](https://github.com/zylon-ai/private-gpt/commit/a0e65a68f0a9ced1265ba98d31f3a4c58673ccbe) | dependabot[bot] |
 | 2026-11-11 | [chore(deps): bump astral-sh/setup-uv from 10.3.0 to 10.3.3 (#2443)](https://github.com/zylon-ai/private-gpt/commit/924958f7b54d2b88ec5b36536f6f54c0caaa6a3c) | dependabot[bot] |
 | 2026-11-11 | [fix(llm): honor temperature 0 for openailike models (#2442)](https://github.com/zylon-ai/private-gpt/commit/3f26feb2b366bb2bbfded21a31e52814653b7424) | pcbeingused333 |
-| 2026-11-11 | [docs: add PopNow OpenAI-compatible gateway configuration example (#2447)](https://github.com/zylon-ai/private-gpt/commit/b6044e5a8beee154ddafcedcd38ed3e2b018ce3d) | kyuminjo |
-| 2026-11-11 | [fix(ingest): keep the content of blockquotes when parsing markdown (#…](https://github.com/zylon-ai/private-gpt/commit/69556ede12f24e3285da0b6f54862c13b425243b) | MohammadHijjawi97 |
-| 2026-11-11 | [docs: add Standard Compute OpenAI-compatible provider guide (#2453)](https://github.com/zylon-ai/private-gpt/commit/90e58a6f7d9d556c281f5f03a971e001e7bb0904) | henrikdukefoss |
-| 2026-11-11 | [fix(chat): keep structured blocks of server tool results in history (…](https://github.com/zylon-ai/private-gpt/commit/fab986f54d41ac155661176a6b1b69907811fef9) | jaluma |
-| 2026-11-10 | [fix(files): download files whose names are not ASCII (#2426)](https://github.com/zylon-ai/private-gpt/commit/5f8aca68a11d6eb27cdef19cda03a64773e9d3ad) | MaxFreedomPollard |
 
 [See all commits ↗](https://github.com/zylon-ai/private-gpt/commits)
 

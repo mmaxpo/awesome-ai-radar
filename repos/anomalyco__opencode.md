@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 226.6k |
+| ⭐ **Stars** | 226.8k |
 | 🍴 **Forks** | 30.7k |
 | 🐞 **Open issues + PRs** | [4.0k](https://github.com/anomalyco/opencode/issues) |
 | 💻 **Languages** | TypeScript 84% · MDX 12% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2025-04-30 |
 | 📦 **Latest release** | [v2.3.0](https://github.com/anomalyco/opencode/releases/tag/v2.3.0) — 2026-11-13 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 706.9 MB |
+| 💾 **Size** | 710.3 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
 
 ### [v2.3.0](https://github.com/anomalyco/opencode/releases/tag/v2.3.0)
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > **Highlights**
 > - **Background Subagents by Default**: Subagents now return immediately, continue in the background, and report back whenever they become idle. You can keep working in the parent session while multiple subagents run concurrently. ([#63382](https://github.com/anomalyco/opencode/pull/63382))
@@ -47,12 +47,12 @@
 > …
 
 ### [process-daemon-v0.5.2](https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.2) — process-daemon v0.5.2
-<sub>2026-11-11 · yesterday</sub>
+<sub>2026-11-11 · 2d ago</sub>
 
 > opencode-pty 0.5.2 (protocol 8) from packages/process-daemon, published to npm as @opencode/pty@0.5.2.
 
 ### [v2.2.7](https://github.com/anomalyco/opencode/releases/tag/v2.2.7)
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > **Highlights**
 > - **GitHub Copilot Auto**: Pick **Auto** in the model picker when your Copilot account has an Auto pool, and Copilot's router chooses the model for each session at the Auto discount. If routing fails, OpenCode falls back to the account's default chat model. ([#62997](https://github.com/anomalyco/opencode/pull/62997))
@@ -63,7 +63,7 @@
 > …
 
 ### [v2.2.6](https://github.com/anomalyco/opencode/releases/tag/v2.2.6)
-<sub>2026-11-06 · 6d ago</sub>
+<sub>2026-11-06 · 7d ago</sub>
 
 > **Highlights**
 > - **Shared MCP Connections**: Turn on pooling for an MCP server to share one connection across projects with the same setup, so you run fewer processes and start faster. ([#61185](https://github.com/anomalyco/opencode/pull/61185))
@@ -74,7 +74,7 @@
 > …
 
 ### [process-daemon-v0.5.0](https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.0) — process-daemon v0.5.0
-<sub>2026-11-05 · 7d ago</sub>
+<sub>2026-11-05 · 8d ago</sub>
 
 > opencode-pty 0.5.0 (protocol 8) from packages/process-daemon, published to npm as @opencode/pty@0.5.0.
 
@@ -82,16 +82,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-13 | [feat(app): wait an hour after first launch before the first tip (#63760)](https://github.com/anomalyco/opencode/commit/152115dea57bcdccfd31d50500a148ca4e0faf8b) | thdxr |
-| 2026-11-13 | [fix(tui): drop ttft from the assistant footer (#63759)](https://github.com/anomalyco/opencode/commit/507c939f4115d4225122d6b82ba9899c000ecd11) | thdxr |
-| 2026-11-13 | [fix(app): tidy New timeline questions, moves, compaction and shells (…](https://github.com/anomalyco/opencode/commit/191a69ad45ef0ca4925d8b7683eacdca0e8224e0) | arvsrn |
-| 2026-11-13 | [fix(ui): switch submenus without blinking and keep them open on the w…](https://github.com/anomalyco/opencode/commit/f352f5e87594051784c03963130cdb1a09e50234) | neriousy |
-| 2026-11-13 | [fix(session-ui): keep message meta lines visible in the New timeline …](https://github.com/anomalyco/opencode/commit/5b131f5995a9f7fad458c59a7a5e39686237beb8) | arvsrn |
-| 2026-11-13 | [fix(app): hide zero session cost for OpenCode Go (#63744)](https://github.com/anomalyco/opencode/commit/46aefe3da30553099a8b8434d65aff1029a03235) | usrnk1 |
-| 2026-11-13 | [feat(session-ui): make session stories configurable and preview file …](https://github.com/anomalyco/opencode/commit/a660c18c08ed1907e4ef3b197d82e3d354c50d10) | usrnk1 |
-| 2026-11-13 | [feat(ui): expand interactive stories and compare icon artwork (#63735)](https://github.com/anomalyco/opencode/commit/71d63d46171b8b0d24ab3b5ebc22cb9c762b23c5) | usrnk1 |
-| 2026-11-13 | [test(gui-plugins): add interactive workspace, browser, and pairing st…](https://github.com/anomalyco/opencode/commit/b3f806c2f6b35a7712f4d7b6b508d585787bcb40) | usrnk1 |
-| 2026-11-13 | [feat(stories): browse app states in the standalone components lab (#6…](https://github.com/anomalyco/opencode/commit/a5170d6e019341864d948189d1420096005de8e0) | usrnk1 |
+| 2026-11-14 | [chore(perf): bench with strobe 0.41.0 (#63918)](https://github.com/anomalyco/opencode/commit/c9957fd50858aafd43fb8167b117b3a8e5210529) | Hona |
+| 2026-11-14 | [chore(perf): bench with strobe 0.40.0 (#63914)](https://github.com/anomalyco/opencode/commit/024a1462f55aa64243b859729b2d0816b42b17e3) | Hona |
+| 2026-11-14 | [chore(perf): bench with strobe 0.39.0 (#63893)](https://github.com/anomalyco/opencode/commit/cbe71595e1f370ff91b3081872b96bbe56519c41) | Hona |
+| 2026-11-14 | [fix(ui): keep the redirect paste field named after its label only (#6…](https://github.com/anomalyco/opencode/commit/6205e99cb3213528085d2f1675dfc483ce5f7032) | opencodejr[bot] |
+| 2026-11-14 | [chore(perf): bench with strobe 0.38.0 (#63883)](https://github.com/anomalyco/opencode/commit/f0089856c07eded13396a0a0d05f19f1718be7b9) | Hona |
+| 2026-11-13 | [fix(ui): dismiss tooltips when their trigger is pressed (#63834)](https://github.com/anomalyco/opencode/commit/83960f8a56b2f2b8ad0b751f23baaf9d0eb65ad9) | usrnk1 |
+| 2026-11-13 | [fix(app): polish the connect dialog sign-in steps (#63829)](https://github.com/anomalyco/opencode/commit/f91b88efac039856f284979984ac43cd93bce8f5) | arvsrn |
+| 2026-11-13 | [fix(core): keep text starting with BM readable (#63822)](https://github.com/anomalyco/opencode/commit/e6fc58886ae4838099125d2cc19dd0418ef0e4fc) | rekram1-node |
+| 2026-11-13 | [feat(app): find in side panel previews (#63663)](https://github.com/anomalyco/opencode/commit/083e3114a563c09a7521d6f183ff54a0f985c0c8) | rekram1-node |
+| 2026-11-13 | [refactor(core): skip the text MIME scan when checking for media (#63823)](https://github.com/anomalyco/opencode/commit/0b7a1a04e6ea82dcac8777dacb881bab7ac52436) | rekram1-node |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

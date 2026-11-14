@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Open agent platform |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 5.7k |
 | 🍴 **Forks** | 673 |
-| 🐞 **Open issues + PRs** | [52](https://github.com/the-open-agent/openagent/issues) |
+| 🐞 **Open issues + PRs** | [50](https://github.com/the-open-agent/openagent/issues) |
 | 💻 **Languages** | Go 75% · TypeScript 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `chatgpt` `gpt` `knowledge-base` `langchain` `openai` `chatbot` `llm` `rag` `multi-agent` `agi` `agent` `mcp` `model-context-protocol` `openclaw` `agentic` `agentic-ai` `harness` `openagent` `hermes-agent` |
-| 🕒 **Last activity** | 2026-11-06 (6d ago) |
+| 🕒 **Last activity** | 2026-11-06 (7d ago) |
 | 📅 **Created** | 2020-05-29 |
 | 📦 **Latest release** | [v2.95.1](https://github.com/the-open-agent/openagent/releases/tag/v2.95.1) — 2026-10-05 |
 | 🌿 **Default branch** | `master` |

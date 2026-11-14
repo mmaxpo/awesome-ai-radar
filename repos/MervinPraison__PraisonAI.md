@@ -22,31 +22,31 @@
 |---|---|
 | ⭐ **Stars** | 9.3k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [184](https://github.com/MervinPraison/PraisonAI/issues) |
+| 🐞 **Open issues + PRs** | [153](https://github.com/MervinPraison/PraisonAI/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 13% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `aiagents` `framework` `ai-agent-framework` `ai-agents` `multi-agent` `multi-agent-system` `multi-agents` `ai-agent-sdk` `ai-agents-sdk` `openclaw` `air-gapped` `llm` `on-premise` `private-ai` `python` `regulated-industries` `self-hosted` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2024-03-19 |
 | 📦 **Latest release** | [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) — 2026-11-05 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 118.2 MB |
+| 💾 **Size** | 117.7 MB |
 | 🌐 **Website** | https://praison.ai |
 
 ## 📦 Recent releases
 
 ### [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) — PraisonAI v4.7.24
-<sub>2026-11-05 · 7d ago</sub>
+<sub>2026-11-05 · 8d ago</sub>
 
 > Release v4.7.24
 
 ### [v4.7.23](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.23) — PraisonAI v4.7.23
-<sub>2026-11-03 · 10d ago</sub>
+<sub>2026-11-03 · 11d ago</sub>
 
 > Release v4.7.23
 
 ### [v4.7.22](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.22) — PraisonAI v4.7.22
-<sub>2026-10-30 · 13d ago</sub>
+<sub>2026-10-30 · 14d ago</sub>
 
 > Release v4.7.22
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [fix: reject cross-agent legacy session joins (#6263)](https://github.com/MervinPraison/PraisonAI/commit/b4bd2e3cf297e95d4c9dfbaa778e44403cdaed19) | dajiaohuang |
-| 2026-11-12 | [fix: replace bare except with except Exception to prevent catching sy…](https://github.com/MervinPraison/PraisonAI/commit/ca2cf1eb26494ee820b793b1ae12c14ec8a7fbf9) | Cmz9111 |
-| 2026-11-12 | [Merge pull request #6330 from MervinPraison/claude/issue-6329-20261112](https://github.com/MervinPraison/PraisonAI/commit/c0d232aa762a112e0cdfc6fb5086649a8708de4a) | praisonai-triage-agent[bot] |
-| 2026-11-12 | [Merge pull request #6332 from MervinPraison/claude/issue-6331-20261112](https://github.com/MervinPraison/PraisonAI/commit/bd761bb649aeade3f57d2afe5716a98f1a344a78) | praisonai-triage-agent[bot] |
-| 2026-11-12 | [fix: document pytest/pytest-asyncio for terminal-bench integration tests](https://github.com/MervinPraison/PraisonAI/commit/606d1dcf750e0c07758fb3237d0fc7b33e2b37b4) | MervinPraison |
-| 2026-11-12 | [fix: use Harbor 0.22 dataset id and TB 2.1 task slugs in example job …](https://github.com/MervinPraison/PraisonAI/commit/62d1db4751b954355c1dd75c98bd1eef32d61d1a) | MervinPraison |
-| 2026-11-12 | [fix: use Harbor 0.22 registry id in Terminal-Bench smoke job (fixes #…](https://github.com/MervinPraison/PraisonAI/commit/b47e511e84b15184e7f3e6500c60e55393f1a875) | MervinPraison |
-| 2026-11-10 | [fix(permissions): reject malformed rules and allow explicit recovery …](https://github.com/MervinPraison/PraisonAI/commit/089c921a80fe6739b75b1c3d79ea610b92267e79) | EddieMurphy89 |
-| 2026-11-10 | [fix(terminal-bench): Harbor praisonai-code install and headless CLI (…](https://github.com/MervinPraison/PraisonAI/commit/8207e1801b094c15a54b717398a1e4a39f5dbf57) | Dhivya-Bharathy |
-| 2026-11-05 | [Release v4.7.24](https://github.com/MervinPraison/PraisonAI/commit/97aaee119b5c5d71145d3d64dd0c8324301297d9) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [docs: auto-update feature parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/8fa36fa1553aeb06928e588668a5cebe8cd65b6b) | MervinPraison |
+| 2026-11-14 | [Merge pull request #6325 from MervinPraison/claude/issue-6324-20261110](https://github.com/MervinPraison/PraisonAI/commit/ad1e8e92a803669f5da8deb8499389bf0c40a4be) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [Merge pull request #6351 from MervinPraison/claude/issue-6281-scheduler](https://github.com/MervinPraison/PraisonAI/commit/aa2f230425247bec127870f1d8a6151a32c3e463) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [Merge pull request #6348 from MervinPraison/claude/issue-6294-depends-on](https://github.com/MervinPraison/PraisonAI/commit/05de412a2a7e75c44b21c1a8648ab3e42c26b15c) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [Merge pull request #6377 from MervinPraison/claude/issue-6371-20261114](https://github.com/MervinPraison/PraisonAI/commit/43fc9fdb713279ae6400b03393369cf8d07c22fd) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [Merge pull request #6321 from MervinPraison/claude/issue-6319-20261110](https://github.com/MervinPraison/PraisonAI/commit/6e2b50675ddf22f12a79bb725fb2b67db17dabf7) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [Merge pull request #6273 from MervinPraison/claude/issue-6270-20261106](https://github.com/MervinPraison/PraisonAI/commit/8643ddc540b34d40283d02d554395f36cd29ea9a) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [Merge pull request #6316 from MervinPraison/claude/issue-6313-20261110](https://github.com/MervinPraison/PraisonAI/commit/c450721d2d2494b3438adc1eb69777cae108600a) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [Merge pull request #6359 from MervinPraison/claude/issue-6358-20261113](https://github.com/MervinPraison/PraisonAI/commit/435768d33b2dc1f1790710e8adc8de141cb2def8) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [Merge pull request #6350 from MervinPraison/claude/issue-6294-coercion](https://github.com/MervinPraison/PraisonAI/commit/1712c2468e3881e87e7f3098b7ba32bd913cdab2) | praisonai-triage-agent[bot] |
 
 [See all commits ↗](https://github.com/MervinPraison/PraisonAI/commits)
 

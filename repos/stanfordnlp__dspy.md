@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2023-01-09 |
 | 📦 **Latest release** | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.3 MB |
+| 💾 **Size** | 183.4 MB |
 | 🌐 **Website** | https://dspy.ai |
 
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0)
-<sub>2026-11-10 · 2d ago</sub>
+<sub>2026-11-10 · 3d ago</sub>
 
 > **DSPy 3.5: A Lighter, Faster Foundation**
 > DSPy 3.5 brings a lighter LM layer, graduated core modules, and new History and image capabilities for RLM.

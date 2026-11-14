@@ -22,21 +22,43 @@
 |---|---|
 | ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [880](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [873](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2018-06-29 |
-| 📦 **Latest release** | [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) — 2026-11-06 |
+| 📦 **Latest release** | [3.9.3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 247.8 MB |
+| 💾 **Size** | 248.8 MB |
 | 🌐 **Website** | https://prefect.io |
 
 ## 📦 Recent releases
 
-### [3.9.3.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3.dev2) — 3.9.3.dev2: Nightly Development Release _(pre-release)_
+### [3.9.4.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev1) — 3.9.4.dev1: Nightly Development Release _(pre-release)_
+<sub>2026-11-14 · today</sub>
+
+> **What's Changed**
+> **Bug Fixes 🐞**
+> * Fix CodSpeed import benchmark timeout and fail the job on benchmark failures by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23897
+> **Development & Tidiness 🧹**
+> * Fix flaky test_concurrency_context_releases_slots_async by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23891
+> **Documentation 📓**
+> …
+
+### [3.9.3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3) — 3.9.3 - `aclose()`ing time
 <sub>2026-11-13 · today</sub>
+
+> **Enhancements ➕➕**
+> * Add search and ordering to the automations page by [@uinstinct](https://github.com/uinstinct) in [#23048](https://github.com/PrefectHQ/prefect/pull/23048)
+> * Align flow runs timeline ticks to local time boundaries by [@theluckystrike](https://github.com/theluckystrike) in [#23272](https://github.com/PrefectHQ/prefect/pull/23272)
+> **Bug Fixes 🐞**
+> * Fix early closure of async generator flows by [@desertaxle](https://github.com/desertaxle) in [#23886](https://github.com/PrefectHQ/prefect/pull/23886)
+> * Fix retry restart of async generator tasks closed during finalizer failure by [@dfbustosus](https://github.com/dfbustosus) in [#23739](https://github.com/PrefectHQ/prefect/pull/23739)
+> …
+
+### [3.9.3.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3.dev2) — 3.9.3.dev2: Nightly Development Release _(pre-release)_
+<sub>2026-11-13 · yesterday</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -47,7 +69,7 @@
 > …
 
 ### [3.9.3.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3.dev1) — 3.9.3.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > **What's Changed**
 > **Development & Tidiness 🧹**
@@ -58,7 +80,7 @@
 > …
 
 ### [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) — 3.9.2 - It’s okay to let go of a lock that already let go of you
-<sub>2026-11-06 · 6d ago</sub>
+<sub>2026-11-06 · 7d ago</sub>
 
 > **3.9.2 - It’s okay to let go of a lock that already let go of you**
 > *Released on November 06, 2026*
@@ -68,39 +90,20 @@
 > * Render list-of-lists table artifacts in `ArtifactDataView` by [@devin-ai-integration](https://github.com/devin-ai-integration)[bot] in [#23359](https://github.com/PrefectHQ/prefect/pull/23359)
 > …
 
-### [3.9.2.dev6](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2.dev6) — 3.9.2.dev6: Nightly Development Release _(pre-release)_
-<sub>2026-11-06 · 7d ago</sub>
-
-> **What's Changed**
-> **Bug Fixes 🐞**
-> * Stop flow run heartbeats before proposing a terminal state by @chrisguidry in https://github.com/PrefectHQ/prefect/pull/23784
-> **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.2.dev5...3.9.2.dev6
-
-### [3.9.2.dev5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2.dev5) — 3.9.2.dev5: Nightly Development Release _(pre-release)_
-<sub>2026-11-05 · 8d ago</sub>
-
-> **What's Changed**
-> **Enhancements ➕➕**
-> * Only write deployments that a poll actually changes by @chuqCTC in https://github.com/PrefectHQ/prefect/pull/23130
-> **Bug Fixes 🐞**
-> * Accept the same flow state hook signatures in the engine and the runner by @CassianoE in https://github.com/PrefectHQ/prefect/pull/23715
-> * Keep deployment schedule parameter overrides on partial schedule updates by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23719
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [Fix retry restart of async generator tasks closed during finalizer fa…](https://github.com/PrefectHQ/prefect/commit/53ad34955fbcccdff163c41ad0447d52d49be9c8) | dfbustosus |
-| 2026-11-12 | [Generate automatic Dockerfile in `DockerImage` build context (#23747)](https://github.com/PrefectHQ/prefect/commit/e77b19eff992f20fe394e629130fb51ef3a8b3cf) | devin-ai-integration[bot] |
-| 2026-11-12 | [Detect ACI container start from the container group instead of only t…](https://github.com/PrefectHQ/prefect/commit/52c80af8dd609407c18da0add692e1451c5db8cf) | devin-ai-integration[bot] |
-| 2026-11-12 | [Make the delete-block message assertions actually run (#23767)](https://github.com/PrefectHQ/prefect/commit/978605212e386ad1a09418ce706398fe65333740) | dylanpulver |
-| 2026-11-12 | [docs: document form button type pitfall in ui-v2 components AGENTS.md…](https://github.com/PrefectHQ/prefect/commit/b7ca990129e74fd386b09367e0916389ad2d4c3e) | devin-ai-integration[bot] |
-| 2026-11-12 | [fix(prefect-redis): keep messages published while a publisher flush i…](https://github.com/PrefectHQ/prefect/commit/1996bd00e767124ea9e65ce3b94252f15b25337c) | devin-ai-integration[bot] |
-| 2026-11-12 | [Show the script error from `prefect deploy` and `prefect flow serve` …](https://github.com/PrefectHQ/prefect/commit/b73c4ee602c12a2d8a8a05e885215463e117d409) | CassianoE |
-| 2026-11-12 | [Keep `Annotated[T, Field(description=...)]` descriptions in flow para…](https://github.com/PrefectHQ/prefect/commit/ff5ba09cfc6d33261c3b395a7a9d8b125b686453) | CassianoE |
-| 2026-11-12 | [Reserve hosted test API server port before starting uvicorn (#23799)](https://github.com/PrefectHQ/prefect/commit/2433f8690e4c5864e51e9a2aa5e37e048f2998fe) | devin-ai-integration[bot] |
-| 2026-11-12 | [Skip fetching a pinned commit that the clone already contains (#23814)](https://github.com/PrefectHQ/prefect/commit/7707eb3cd4050c841644aa8a60a3e9cb1c0a4158) | devin-ai-integration[bot] |
+| 2026-11-13 | [Update prefect-aws integration pin (#23902)](https://github.com/PrefectHQ/prefect/commit/29241a3aff4ad41bf79ed5782ea4059cb74d0b4d) | prefect-ci-bot-public[bot] |
+| 2026-11-13 | [Fix flaky test_concurrency_context_releases_slots_async (#23891)](https://github.com/PrefectHQ/prefect/commit/f7f89c5a884192406dd33fd1c7ece09072bfb79e) | devin-ai-integration[bot] |
+| 2026-11-13 | [docs: document worker submission bookkeeping contract in workers AGEN…](https://github.com/PrefectHQ/prefect/commit/22747733faa9827a4e53e0e9bb9b9881f6073581) | devin-ai-integration[bot] |
+| 2026-11-13 | [Fix CodSpeed import benchmark timeout and fail the job on benchmark f…](https://github.com/PrefectHQ/prefect/commit/b39bb40ea7ba52e7ce2ee3de7880aecf44081cd2) | devin-ai-integration[bot] |
+| 2026-11-13 | [Bump tornado from 6.6 to 6.6.1 (#23901)](https://github.com/PrefectHQ/prefect/commit/34505b4fd82521ee0525f21804585d25574a5d62) | dependabot[bot] |
+| 2026-11-13 | [docs: document rrule wall-clock timezone contract in server AGENTS.md…](https://github.com/PrefectHQ/prefect/commit/c1bd94996f1835272aa0f937257a2e5d2a9ff030) | devin-ai-integration[bot] |
+| 2026-11-13 | [docs: document ScriptError traceback convention in CLI AGENTS.md (#23…](https://github.com/PrefectHQ/prefect/commit/911a64f7556c1964ce593aa392f694e1163a7ad1) | devin-ai-integration[bot] |
+| 2026-11-13 | [docs: note integrations' reliance on private core engine APIs in AGEN…](https://github.com/PrefectHQ/prefect/commit/73f06799ed9822497a472a9be5c22701afb6237d) | devin-ai-integration[bot] |
+| 2026-11-13 | [docs: note floating aws-cdk-lib release risk in prefect-aws AGENTS.md…](https://github.com/PrefectHQ/prefect/commit/91be1bb01e8d395c3f81cd691520b07a32e6625c) | devin-ai-integration[bot] |
+| 2026-11-13 | [docs: update NormalizedSchedule guidance in server AGENTS.md (#23889)](https://github.com/PrefectHQ/prefect/commit/04eb540298554b13d12c3aa65ff9abfc936907ec) | devin-ai-integration[bot] |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

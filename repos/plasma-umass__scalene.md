@@ -26,16 +26,16 @@
 | 💻 **Languages** | Python 59% · JavaScript 16% · C++ 8% · TypeScript 8% · Lean 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 20.4 MB |
+| 💾 **Size** | 20.8 MB |
 
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — Free-threaded wheels, M4 fix, safer API keys, and formal verification
-<sub>2026-10-23 · 20d ago</sub>
+<sub>2026-10-23 · 21d ago</sub>
 
 > **What's Changed**
 > **Headlines**
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [CI: run Python 3.9 jobs on ubuntu-24.04 (#1108)](https://github.com/plasma-umass/scalene/commit/85e943eca7146779ddb96dbd5ca5959778247414) | emeryberger |
+| 2026-11-13 | [fix(deps): update vega-selections to 5.6.3 (CVE-2025-65110) (#1126)](https://github.com/plasma-umass/scalene/commit/fe10cda7c6d0e25c0610b84706b8c71687130589) | superbot-helper |
+| 2026-11-13 | [Add GPT-5.5/5.4 models; use the Responses API for OpenAI (#1127)](https://github.com/plasma-umass/scalene/commit/3731666b54109f68f1f93e20e8f56ee54cc34ae3) | emeryberger |
+| 2026-11-13 | [Speed up memory profiling: faster sample reader and cheaper malloc re…](https://github.com/plasma-umass/scalene/commit/003211d45da90bfcf917f40713e4eb3b91c39ecf) | emeryberger |
 | 2026-11-13 | [Keep AI model IDs in one registry and recover from retired models (fi…](https://github.com/plasma-umass/scalene/commit/e470861a8bb8e0a699ee4aa55c707b159c027976) | emeryberger |
 | 2026-11-11 | [Stop unrecognized `scalene run` options leaking into the program's ar…](https://github.com/plasma-umass/scalene/commit/da91e587fa5a0f5a4416250a628c88ff02638f30) | emeryberger |
 | 2026-11-10 | [Reuse the memory sample log and stop @profile churn (fixes #1122) (#1…](https://github.com/plasma-umass/scalene/commit/9ed244c78241ef364446288add351912e7bcf206) | emeryberger |
 | 2026-11-10 | [Fix badge formatting in README.md](https://github.com/plasma-umass/scalene/commit/b8a58ca6f932ca2ab683d7795790ebf489a37d82) | emeryberger |
 | 2026-11-10 | [Don't import inside the CPU signal handler (fixes intermittent KeyErr…](https://github.com/plasma-umass/scalene/commit/4ed3e601f87bffdc1e868c8aedf4f919344c4710) | emeryberger |
 | 2026-11-09 | [Reference-count the TraceConfig instance instead of deleting it in pl…](https://github.com/plasma-umass/scalene/commit/d5b59aff9ceeb0b3335a1253d83568f3348778bb) | emeryberger |
-| 2026-11-09 | [Stop SampleFile writing past the end of the sample log (#1120)](https://github.com/plasma-umass/scalene/commit/ba0896d85ede0c799545e3bc5589729c73738571) | emeryberger |
-| 2026-11-09 | [Stop TraceConfig leaking references to its Python arguments (fixes #1…](https://github.com/plasma-umass/scalene/commit/65f5c604432cd934275831e3a56a41c3a64bb639) | emeryberger |
-| 2026-11-09 | [Bound get_line_atomic's newline search by the signal buffer (fixes #1…](https://github.com/plasma-umass/scalene/commit/75f784f5b72be60ae634dd72f9cc7ae42bab003d) | emeryberger |
-| 2026-11-01 | [CI: check black formatting instead of auto-committing it (#1112)](https://github.com/plasma-umass/scalene/commit/0ca44cd4345b07104ed05f37c8849b51db35f2e5) | emeryberger |
 
 [See all commits ↗](https://github.com/plasma-umass/scalene/commits)
 

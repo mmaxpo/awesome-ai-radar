@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 127.3k |
+| ⭐ **Stars** | 127.5k |
 | 🍴 **Forks** | 14.1k |
 | 🐞 **Open issues + PRs** | [303](https://github.com/VoltAgent/awesome-design-md/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `awesome-list` `design-md` `design-system` `landing-page` `design-tokens` `figma` `vibe-coding` `vibe-design` `vibecoding` |
-| 🕒 **Last activity** | 2026-10-28 (15d ago) |
+| 🕒 **Last activity** | 2026-10-28 (16d ago) |
 | 📅 **Created** | 2026-03-31 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

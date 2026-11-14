@@ -26,17 +26,17 @@
 | 💻 **Languages** | C++ 86% · Python 4% · C 3% · CMake 2% · Java 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `opencv` `c-plus-plus` `computer-vision` `deep-learning` `image-processing` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2012-07-19 |
 | 📦 **Latest release** | [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — 2026-11-06 |
 | 🌿 **Default branch** | `5.x` |
-| 💾 **Size** | 558.5 MB |
+| 💾 **Size** | 558.6 MB |
 | 🌐 **Website** | https://opencv.org |
 
 ## 📦 Recent releases
 
 ### [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — OpenCV 5.1.0
-<sub>2026-11-06 · 7d ago</sub>
+<sub>2026-11-06 · 8d ago</sub>
 
 > OpenCV 5.1.0 has been released.
 > :hammer_and_wrench: Change log is [here](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version510).

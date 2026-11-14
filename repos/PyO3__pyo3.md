@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [416](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [417](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — PyO3 0.30.1
-<sub>2026-10-14 · 29d ago</sub>
+<sub>2026-10-14 · 1mo ago</sub>
 
 > PyO3 0.30.1 is a re-release of PyO3 0.30.0 after investments in CI security unfortunately led to a failed crates.io publish. Rather than delete the failed tag, this new tag comes after the CI issues have (hopefully) been corrected.
 > Thanks to @davidhewitt @Tpt and @viicos for the investigation and fixes.

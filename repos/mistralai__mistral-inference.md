@@ -26,7 +26,7 @@
 | 💻 **Languages** | Jupyter Notebook 63% · Python 37% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `llm` `llm-inference` `mistralai` |
-| 🕒 **Last activity** | 2026-06-16 (4mo ago) |
+| 🕒 **Last activity** | 2026-06-16 (5mo ago) |
 | 📅 **Created** | 2023-09-27 |
 | 📦 **Latest release** | [v1.6.0](https://github.com/mistralai/mistral-inference/releases/tag/v1.6.0) — 2025-03-20 |
 | 🌿 **Default branch** | `main` |

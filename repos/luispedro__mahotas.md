@@ -24,7 +24,7 @@
 | 💻 **Languages** | Python 63% · C++ 35% · Meson 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `computer-vision` `numpy` `python` `c-plus-plus` `python-2` `python-3` |
-| 🕒 **Last activity** | 2026-10-16 (28d ago) |
+| 🕒 **Last activity** | 2026-10-16 (29d ago) |
 | 📅 **Created** | 2010-01-31 |
 | 📦 **Latest release** | [v1.4.19](https://github.com/luispedro/mahotas/releases/tag/v1.4.19) — 2026-09-22 |
 | 🌿 **Default branch** | `main` |

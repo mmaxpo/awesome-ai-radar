@@ -21,16 +21,16 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.6k |
-| 🍴 **Forks** | 804 |
-| 🐞 **Open issues + PRs** | [5](https://github.com/JoshuaC215/agent-service-toolkit/issues) |
+| 🍴 **Forks** | 803 |
+| 🐞 **Open issues + PRs** | [6](https://github.com/JoshuaC215/agent-service-toolkit/issues) |
 | 💻 **Languages** | Python 97% · Shell 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `langgraph` `streamlit` |
-| 🕒 **Last activity** | 2026-11-07 (5d ago) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2024-08-04 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 4.3 MB |
+| 💾 **Size** | 3.5 MB |
 | 🌐 **Website** | https://agent-service-toolkit.streamlit.app |
 
 ## 📦 Recent releases

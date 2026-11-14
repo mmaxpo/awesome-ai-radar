@@ -24,7 +24,7 @@
 | 💻 **Languages** | Python 97% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-02 (11d ago) |
+| 🕒 **Last activity** | 2026-11-02 (12d ago) |
 | 📅 **Created** | 2023-11-16 |
 | 📦 **Latest release** | [v1.11.0](https://github.com/VRSEN/agency-swarm/releases/tag/v1.11.0) — 2026-08-03 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.0-beta.1](https://github.com/VRSEN/agency-swarm/releases/tag/v2.0.0-beta.1) _(pre-release)_
-<sub>2026-10-30 · 14d ago</sub>
+<sub>2026-10-30 · 15d ago</sub>
 
 > This release moves Agency Swarm onto the newest versions of its core libraries: the OpenAI Python SDK 3, MCP 2 and FastMCP 4. Long conversations now cost less, because OpenAI compacts them and later turns send only what comes after the compaction. The default model is now GPT-6 Luna.
 > 2.0.0b1 is a pre-release, so `pip install --upgrade agency-swarm` still installs 1.11. To try it:
@@ -63,7 +63,7 @@
 > **Full Changelog**: https://github.com/VRSEN/agency-swarm/compare/v1.10.4...v1.10.5
 
 ### [v1.10.4](https://github.com/VRSEN/agency-swarm/releases/tag/v1.10.4)
-<sub>2026-07-17 · 3mo ago</sub>
+<sub>2026-07-17 · 4mo ago</sub>
 
 > **What's Changed**
 > * fix(deps): constrain LiteLLM below 1.92 by @nicko-ai in https://github.com/VRSEN/agency-swarm/pull/726

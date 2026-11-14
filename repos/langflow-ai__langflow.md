@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 72% · TypeScript 21% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `react-flow` `chatgpt` `large-language-models` `generative-ai` `agents` `multiagent` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2023-02-08 |
 | 📦 **Latest release** | [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1682.8 MB |
+| 💾 **Size** | 1688.6 MB |
 | 🌐 **Website** | http://www.langflow.org |
 
 ## 📦 Recent releases
 
 ### [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 1.13.2
-<sub>2026-11-10 · 2d ago</sub>
+<sub>2026-11-10 · 3d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.12.10](https://github.com/langflow-ai/langflow/releases/tag/v1.12.10) — 1.12.10
-<sub>2026-11-05 · 7d ago</sub>
+<sub>2026-11-05 · 8d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -56,7 +56,7 @@
 > **Full Changelog**: https://github.com/langflow-ai/langflow/compare/v1.12.9...v1.12.10
 
 ### [v1.13.1](https://github.com/langflow-ai/langflow/releases/tag/v1.13.1) — 1.13.1
-<sub>2026-11-04 · 9d ago</sub>
+<sub>2026-11-04 · 10d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -67,7 +67,7 @@
 > …
 
 ### [v1.12.9](https://github.com/langflow-ai/langflow/releases/tag/v1.12.9) — 1.12.9
-<sub>2026-11-04 · 9d ago</sub>
+<sub>2026-11-04 · 10d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -76,7 +76,7 @@
 > **Full Changelog**: https://github.com/langflow-ai/langflow/compare/v1.12.8...v1.12.9
 
 ### [v1.13.0](https://github.com/langflow-ai/langflow/releases/tag/v1.13.0) — 1.13.0
-<sub>2026-10-22 · 21d ago</sub>
+<sub>2026-10-22 · 22d ago</sub>
 
 > **What's Changed**
 > **✨ New Features**
@@ -90,6 +90,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [test: fix snapshot deployment telemetry fixtures (#16395)](https://github.com/langflow-ai/langflow/commit/260cbf347cc5563cc48c79094c175ca31532ea2b) | erichare |
 | 2026-11-11 | [ci: fetch source release tags before LFX tests (#16348)](https://github.com/langflow-ai/langflow/commit/2cf9ce808afa6ad3f41aa5f6b47bdcb1927cde84) | erichare |
 | 2026-11-11 | [ci: stop pinning lfx to the langflow version in the migration test (#…](https://github.com/langflow-ai/langflow/commit/71b28b924050c95a244227d5a1424f2495014e14) | erichare |
 | 2026-11-10 | [chore: merge release-1.13.2 Gunicorn fix into main](https://github.com/langflow-ai/langflow/commit/eaf9dec98978674ff03e4f7a92f2d11441ffded8) | erichare |
@@ -99,7 +100,6 @@
 | 2026-11-10 | [chore: merge release-1.13.2 into main](https://github.com/langflow-ai/langflow/commit/5abad254f9cd8589e1f95b57e207dfb7840b5d61) | erichare |
 | 2026-11-10 | [fix(amazon): address Bedrock Converse QA failures (#16326)](https://github.com/langflow-ai/langflow/commit/608c261cc26b95812eb5215135130cf8f2caf483) | erichare |
 | 2026-11-10 | [docs: clarify 1.13.2 upgrades and project authentication (#16318)](https://github.com/langflow-ai/langflow/commit/a57a6283664436f685360322e69825475484c530) | erichare |
-| 2026-11-09 | [fix: reset model provider scroll on selection (#16314)](https://github.com/langflow-ai/langflow/commit/61ceb093a2c3e9449dcf6bf5e4b6e2accc2f5525) | erichare |
 
 [See all commits ↗](https://github.com/langflow-ai/langflow/commits)
 

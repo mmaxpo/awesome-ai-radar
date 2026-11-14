@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 91% · Cython 6% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `data-analysis` `pandas` `flexible` `alignment` `python` `data-science` |
-| 🕒 **Last activity** | 2026-11-12 (today) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 413.6 MB |
+| 💾 **Size** | 414.2 MB |
 | 🌐 **Website** | https://pandas.pydata.org |
 
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 8d ago</sub>
+<sub>2026-11-04 · 9d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.0](https://github.com/pandas-dev/pandas/releases/tag/v3.1.0) — pandas 3.1.0
-<sub>2026-10-22 · 21d ago</sub>
+<sub>2026-10-22 · 22d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.0.
 > This release includes some new features, bug fixes, and performance improvements. We recommend that all users upgrade to this version.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [ENH: add numeric_only to GroupBy.ohlc and Resampler.ohlc (GH#56946) (…](https://github.com/pandas-dev/pandas/commit/e37bffd68f510abf69533d410a38de055ef9fbd2) | jbrockmendel |
-| 2026-11-12 | [BUG: treat str.get_dummies separators literally (#70812)](https://github.com/pandas-dev/pandas/commit/0b99851b0d29ec23b70c9b6b04abfed08a2cd882) | AntsiferovBogdan |
-| 2026-11-12 | [BUG: skip NA in object-dtype sum/prod/cumulative ops instead of filli…](https://github.com/pandas-dev/pandas/commit/b67a0ee6193a1b2eed8916871a7a30bcd48ca4fb) | jbrockmendel |
-| 2026-11-12 | [BUG: ts plot redraws series removed by ax.clear()/line.remove() (GH#5…](https://github.com/pandas-dev/pandas/commit/58f3ff2b94ddf9c1e6c23eee1a6afba84fde73df) | jbrockmendel |
-| 2026-11-12 | [BUG: read_fwf silently ignored unknown keyword arguments (GH#34953) (…](https://github.com/pandas-dev/pandas/commit/75a4d0e311f63777afef3f5a80c7625b7d7919ab) | jbrockmendel |
-| 2026-11-12 | [BUG: to_html datetimelike column headers match row labels (GH#10640) …](https://github.com/pandas-dev/pandas/commit/626fd8b4531c341891d6a96814c37d6eb7f2f60e) | jbrockmendel |
-| 2026-11-12 | [TST: to_clipboard uses Windows line terminators (GH#11720) (#72026)](https://github.com/pandas-dev/pandas/commit/2a57460ae305973b9386436e8a04d758612b66fa) | jbrockmendel |
-| 2026-11-12 | [BUG: read_html reads to_html's index-names row as a column level (GH#…](https://github.com/pandas-dev/pandas/commit/9cbc26357f2908746190a8fad40123fb205b90ca) | jbrockmendel |
-| 2026-11-12 | [TST: read_excel with MultiIndex header and index_col after an empty c…](https://github.com/pandas-dev/pandas/commit/4a48cb6e6cb4b3ab8315a880555f1a49ce391db0) | jbrockmendel |
-| 2026-11-12 | [TST: loc setitem with scalar column key aligns DataFrame value column…](https://github.com/pandas-dev/pandas/commit/00442c1971b9f53e2657e73d36f5c92c39a2968a) | jbrockmendel |
+| 2026-11-13 | [API: make bool[pyarrow] arithmetic match numpy/masked bools (GH#63064…](https://github.com/pandas-dev/pandas/commit/039a4f7a5207fcd41ab4699b49b4abf701e3bc26) | jbrockmendel |
+| 2026-11-13 | [BUG: read_csv true_values ignored for boolean EAs other than BooleanD…](https://github.com/pandas-dev/pandas/commit/0d4d199e5be5927c3369c6fbda5e1f6c2eb5fa8d) | jbrockmendel |
+| 2026-11-13 | [BUG: treat NaN as missing in a str list passed to ArrowDtype (GH#6457…](https://github.com/pandas-dev/pandas/commit/c1cc047cfede6271a49491e813a60bb2b05cc3ab) | jbrockmendel |
+| 2026-11-13 | [DEPR: DataFrame.agg with a callable producing a DataFrame (GH#49673) …](https://github.com/pandas-dev/pandas/commit/28f4539a08e1bbfe5ed61203f2c7897eff558dd1) | jbrockmendel |
+| 2026-11-13 | [DOC: explain that a multiplied Period freq does not bin timestamps (G…](https://github.com/pandas-dev/pandas/commit/ff36f3782158e049f6ab1d1889666b9d53cbee6a) | jbrockmendel |
+| 2026-11-13 | [BUG: drop with a bytes or __getitem__-only label (GH#11740) (#72039)](https://github.com/pandas-dev/pandas/commit/f3ac88afebf835ad00f96ec1196045c794234f43) | jbrockmendel |
+| 2026-11-13 | [ENH: Python fallback for groupby cumulative ops (GH#49758) (#72073)](https://github.com/pandas-dev/pandas/commit/f1aaba400a372459303f4e9a8233a247520b3498) | jbrockmendel |
+| 2026-11-13 | [BUG: unary -, +, abs on object dtype with None (GH#42862) (#72045)](https://github.com/pandas-dev/pandas/commit/6435169b60254bd7695ac9c476b83b69e41d13ff) | jbrockmendel |
+| 2026-11-13 | [Bump prefix-dev/setup-pixi from 0.11.2 to 0.11.3 (#72018)](https://github.com/pandas-dev/pandas/commit/48c41c727e3f286f53d622381a0c82eefdde74fd) | dependabot[bot] |
+| 2026-11-13 | [BUG: failed .loc/.at setitem with a new row leaves the row behind (GH…](https://github.com/pandas-dev/pandas/commit/327a750b75093d944f69902925e3e3ba711e39d1) | jbrockmendel |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

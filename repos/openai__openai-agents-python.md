@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 30.6k |
-| 🍴 **Forks** | 5.0k |
-| 🐞 **Open issues + PRs** | [46](https://github.com/openai/openai-agents-python/issues) |
+| ⭐ **Stars** | 30.7k |
+| 🍴 **Forks** | 5.1k |
+| 🐞 **Open issues + PRs** | [39](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `llm` `python` `openai` `harness` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2025-03-11 |
 | 📦 **Latest release** | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) — 2026-10-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 116.1 MB |
+| 💾 **Size** | 117.3 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
 
 ### [v0.24.0-alpha.7](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.7) — Agents SDK v0.24.0-alpha.7 _(pre-release)_
-<sub>2026-11-08 · 5d ago</sub>
+<sub>2026-11-08 · 6d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.7**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.24.0-alpha.6](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6) — Agents SDK v0.24.0-alpha.6 _(pre-release)_
-<sub>2026-11-03 · 9d ago</sub>
+<sub>2026-11-03 · 10d ago</sub>
 
 > **Install the preview**
 > Use standard CPython 3.10–3.14 in a virtual environment. These wheels include the native runtime; no Rust toolchain or source build is needed. This preview is distributed through GitHub Releases, not PyPI.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0)
-<sub>2026-10-15 · 29d ago</sub>
+<sub>2026-10-15 · 1mo ago</sub>
 
 > **[0.24.0](https://github.com/openai/openai-agents-python/compare/v0.23.1...v0.24.0) (2026-10-15)**
 > **Features**

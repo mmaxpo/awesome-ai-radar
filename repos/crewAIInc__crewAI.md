@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 60.8k |
+| ⭐ **Stars** | 60.9k |
 | 🍴 **Forks** | 9.2k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/crewAIInc/crewAI/issues) |
 | 💻 **Languages** | Python 99% |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 301.3 MB |
+| 💾 **Size** | 300.1 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · today</sub>
+<sub>2026-11-12 · yesterday</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40)
-<sub>2026-11-11 · yesterday</sub>
+<sub>2026-11-11 · 2d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39)
-<sub>2026-11-09 · 4d ago</sub>
+<sub>2026-11-09 · 5d ago</sub>
 
 > **What's Changed**
 > **Documentation**
@@ -67,7 +67,7 @@
 > @joaomdmoura
 
 ### [1.15.38](https://github.com/crewAIInc/crewAI/releases/tag/1.15.38)
-<sub>2026-11-08 · 4d ago</sub>
+<sub>2026-11-08 · 5d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -78,7 +78,7 @@
 > …
 
 ### [1.15.37](https://github.com/crewAIInc/crewAI/releases/tag/1.15.37)
-<sub>2026-11-07 · 6d ago</sub>
+<sub>2026-11-07 · 7d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -92,6 +92,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [fix(llms): keep a streamed delta when its chunk also carries usage (#…](https://github.com/crewAIInc/crewAI/commit/d7dfa0ef5ade793bd48ff7357c6eb45a45294371) | ats3v |
 | 2026-11-13 | [fix(README): update FAQ links to AMP headings (#9303)](https://github.com/crewAIInc/crewAI/commit/bc36a4df62936d57addae345a942e503d2b4bd1d) | TejasLamba2006 |
 | 2026-11-13 | [fix(tools): honor caller-provided Weaviate headers (#9348)](https://github.com/crewAIInc/crewAI/commit/bb0ecba1c1028f81d001f7ad699f37498fb14dc6) | Kiko0301 |
 | 2026-11-13 | [fix(cli): exit with the uv status when crewai install fails (#9346)](https://github.com/crewAIInc/crewAI/commit/dd3feccac1f4b93d748aa196c53aa61ee787a17a) | Kiko0301 |
@@ -101,7 +102,6 @@
 | 2026-11-12 | [feat(cli): pick tools for standalone agents and add them later (#9339)](https://github.com/crewAIInc/crewAI/commit/9b38b5453c41feea94c3f88793fcf484d297bb0a) | lorenzejay |
 | 2026-11-12 | [[docs-freeze] docs: snapshot and changelog for v1.15.41 (#9412)](https://github.com/crewAIInc/crewAI/commit/878d6c5c801ae4053bd80d77ef303f48f95aa493) | Vidit-Ostwal |
 | 2026-11-12 | [feat: bump versions to 1.15.41 (#9411)](https://github.com/crewAIInc/crewAI/commit/82e7209b4bad5dc7e6c99372ff00fc727e18c4e7) | Vidit-Ostwal |
-| 2026-11-12 | [chore: update litellm model catalog for v1.15.41 (#9410)](https://github.com/crewAIInc/crewAI/commit/4432e5e985c17cbe123501a483807b4e64956548) | Vidit-Ostwal |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

@@ -26,11 +26,11 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `ai` `botpress` `chatbot` `chatgpt` `gpt` `gpt-4` `llm` `openai` `langchain` `nlp` `prompt` |
-| 🕒 **Last activity** | 2026-11-11 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) — 2023-06-22 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 337.7 MB |
+| 💾 **Size** | 337.1 MB |
 | 🌐 **Website** | https://botpress.com |
 
 ## 📦 Recent releases
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [fix(llmz): cap code results and error dumps sent to the model (0.9.23…](https://github.com/botpress/botpress/commit/24b0ca1bb49e9f9acdc459b0b844f9edb2913405) | SohaibDM |
+| 2026-11-13 | [fix(gsheets): canonicalize service account private keys (#15556)](https://github.com/botpress/botpress/commit/ee7756d29d788def2813a1a19999df0149d117cf) | pascal-botpress |
+| 2026-11-13 | [chore(client): bump client to version 2.13.0 (#15555)](https://github.com/botpress/botpress/commit/3e82f54db2ead8784e6c955871adbc1a6cb89948) | mikaelmoreau-botpress |
+| 2026-11-13 | [fix(llmz): list only the last 5 iterations in the execution status (0…](https://github.com/botpress/botpress/commit/b1a80d49fa63029c49777ccfa850bc06fdaf3ce4) | SohaibDM |
+| 2026-11-13 | [fix(llmz): stop a runaway regex at the code timeout by updating quick…](https://github.com/botpress/botpress/commit/b94df1f8d9f3e4588fe8e79c658c95d470a9e479) | SohaibDM |
 | 2026-11-11 | [feat(cognitive): add classify to the client (1.4.0) (#15543)](https://github.com/botpress/botpress/commit/0658a908567d7fae7384885378b00f33adcc2c58) | AugustDG |
 | 2026-11-10 | [chore(chat): stop deploying chat to ECS (#15528)](https://github.com/botpress/botpress/commit/0cdf37321b43e2340eb17a792e0782a99f8d60f9) | mikaelmoreau-botpress |
 | 2026-11-10 | [fix(integrations/trello)!: reject webhooks that fail signature verifi…](https://github.com/botpress/botpress/commit/4f3d0ea62cc4b6ad0ac0e6409977d8056bc93b25) | allardy |
 | 2026-11-09 | [fix(llmz): send the execution state as its own message between the fi…](https://github.com/botpress/botpress/commit/96c8a755a96f87c81b24ddd844f61e5544d8812d) | SohaibDM |
 | 2026-11-09 | [fix(llmz): size the prompt budget by how the provider counts tokens (…](https://github.com/botpress/botpress/commit/24dfb0f994de01d50379bc3c234c729e67d62be1) | SohaibDM |
-| 2026-11-09 | [fix(llmz): ask the worker to try another way before giving up (0.9.16…](https://github.com/botpress/botpress/commit/963b57144319bbd261c593d2088eb3d3f886aa8f) | SohaibDM |
-| 2026-11-06 | [fix(llmz): let older messages be truncated again (0.9.15) (#15547)](https://github.com/botpress/botpress/commit/956bcdef7a8f6499519e28ec5dda6e3ed3c96ad8) | SohaibDM |
-| 2026-11-06 | [chore(client): bump client to version 2.12.0 (#15546)](https://github.com/botpress/botpress/commit/efa5024abb0cb14185ce02e75ac69b8f9fea2819) | zeckrust |
-| 2026-11-06 | [chore: disable deployment of shopify admin (#15545)](https://github.com/botpress/botpress/commit/b4249ec916c9bb4abc6bbcec18908d3ce65ccd83) | franklevasseur |
-| 2026-11-06 | [chore: fix zai build warnings + silent failure (#15544)](https://github.com/botpress/botpress/commit/1df03c23a2ff07880938bc4873065d35ef3fa40f) | franklevasseur |
 
 [See all commits ↗](https://github.com/botpress/botpress/commits)
 

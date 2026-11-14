@@ -22,21 +22,37 @@
 |---|---|
 | ⭐ **Stars** | 104.7k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [55](https://github.com/fastapi/fastapi/issues) |
+| 🐞 **Open issues + PRs** | [54](https://github.com/fastapi/fastapi/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `python` `json` `swagger-ui` `redoc` `starlette` `openapi` `api` `openapi3` `framework` `async` `asyncio` `uvicorn` `python3` `python-types` `pydantic` `json-schema` `fastapi` `swagger` `rest` `web` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🏷 **Topics** | `python` `json` `openapi` `api` `framework` `async` `pydantic` `json-schema` `fastapi` `rest` `web` `sse` `streaming` `websockets` |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2018-12-08 |
-| 📦 **Latest release** | [0.162.5](https://github.com/fastapi/fastapi/releases/tag/0.162.5) — 2026-11-11 |
+| 📦 **Latest release** | [0.162.7](https://github.com/fastapi/fastapi/releases/tag/0.162.7) — 2026-11-13 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 59.4 MB |
+| 💾 **Size** | 57.2 MB |
 | 🌐 **Website** | https://fastapi.tiangolo.com/ |
 
 ## 📦 Recent releases
 
+### [0.162.7](https://github.com/fastapi/fastapi/releases/tag/0.162.7)
+<sub>2026-11-13 · today</sub>
+
+> > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
+> **Fixes**
+> * 🐛 Fix async yield dependency cleanup on cancellation. PR [#16739](https://github.com/fastapi/fastapi/pull/16739) by [@tiangolo](https://github.com/tiangolo).
+> **Internal**
+> * 🔒️ Generate GH actions workflow lockfile and bump Zizmor. PR [#16736](https://github.com/fastapi/fastapi/pull/16736) by [@YuriiMotov](https://github.com/YuriiMotov).
+
+### [0.162.6](https://github.com/fastapi/fastapi/releases/tag/0.162.6)
+<sub>2026-11-13 · today</sub>
+
+> > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
+> **Breaking Changes**
+> * 💥 Drop support for Python 3.10. PR [#16737](https://github.com/fastapi/fastapi/pull/16737) by [@tiangolo](https://github.com/tiangolo).
+
 ### [0.162.5](https://github.com/fastapi/fastapi/releases/tag/0.162.5)
-<sub>2026-11-11 · yesterday</sub>
+<sub>2026-11-11 · 2d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Fixes**
@@ -45,14 +61,14 @@
 > * ➖ Drop `pydantic-ai` dependency, use `pydantic-ai-slim[openai]` instead. PR [#16526](https://github.com/fastapi/fastapi/pull/16526) by [@YuriiMotov](https://github.com/YuriiMotov).
 
 ### [0.162.4](https://github.com/fastapi/fastapi/releases/tag/0.162.4)
-<sub>2026-11-10 · 2d ago</sub>
+<sub>2026-11-10 · 3d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Fixes**
 > * 🐛 Require AnyIO 4.1.0 or newer at runtime. PR [#16730](https://github.com/fastapi/fastapi/pull/16730) by [@tiangolo](https://github.com/tiangolo).
 
 ### [0.162.3](https://github.com/fastapi/fastapi/releases/tag/0.162.3)
-<sub>2026-11-10 · 2d ago</sub>
+<sub>2026-11-10 · 3d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Upgrades**
@@ -62,41 +78,20 @@
 > **Docs**
 > …
 
-### [0.162.2](https://github.com/fastapi/fastapi/releases/tag/0.162.2)
-<sub>2026-11-07 · 5d ago</sub>
-
-> > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
-> **Docs**
-> * 📝 Add FastAPI Cloud guidance to the FastAPI skill. PR [#16697](https://github.com/fastapi/fastapi/pull/16697) by [@tiangolo](https://github.com/tiangolo).
-> * 📝 Add guidance for developing FastAPI apps with AI. PR [#16695](https://github.com/fastapi/fastapi/pull/16695) by [@tiangolo](https://github.com/tiangolo).
-> **Internal**
-> * 🔧 Add an agent skills note to GitHub releases. PR [#16696](https://github.com/fastapi/fastapi/pull/16696) by [@tiangolo](https://github.com/tiangolo).
-
-### [0.162.1](https://github.com/fastapi/fastapi/releases/tag/0.162.1)
-<sub>2026-11-07 · 6d ago</sub>
-
-> **Docs**
-> * 📝 Add parameter model guidance to the FastAPI skill. PR [#16693](https://github.com/fastapi/fastapi/pull/16693) by [@tiangolo](https://github.com/tiangolo).
-> **Translations**
-> * 🌐 Update translations for zh-hant (update-outdated). PR [#16654](https://github.com/fastapi/fastapi/pull/16654) by [@pr-submit[bot]](https://github.com/apps/pr-submit).
-> * 🌐 Update translations for uk (update-outdated). PR [#16655](https://github.com/fastapi/fastapi/pull/16655) by [@pr-submit[bot]](https://github.com/apps/pr-submit).
-> * 🌐 Update translations for de (update-outdated). PR [#16652](https://github.com/fastapi/fastapi/pull/16652) by [@pr-submit[bot]](https://github.com/apps/pr-submit).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [🔖 Release version 0.162.7 (#16740)](https://github.com/fastapi/fastapi/commit/5758a9c8347d911444dca97a55b708cc4a8de4f8) | pr-submit[bot] |
+| 2026-11-13 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/315f093f74bcb0e92da04e866c73a56bce217ee5) | latest-changes[bot] |
+| 2026-11-13 | [🐛 Fix async yield dependency cleanup on cancellation (#16739)](https://github.com/fastapi/fastapi/commit/5f4f9c197654e22c39456bd9c3928069d54c0c41) | tiangolo |
+| 2026-11-13 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/7030191986461b9e5192d29489a05f15f7f79707) | latest-changes[bot] |
+| 2026-11-13 | [🔒️ Generate GH actions worklow lockfile and bump Zizmor (#16736)](https://github.com/fastapi/fastapi/commit/e51ee3bf1cbeefc1e53d24630ff3bb35ca8b4685) | YuriiMotov |
+| 2026-11-13 | [🔖 Release version 0.162.6 (#16738)](https://github.com/fastapi/fastapi/commit/12e66580a897db716fc8c902e51e1582f34a5745) | pr-submit[bot] |
+| 2026-11-13 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/445c570ba8fc0938724df60a3a6d37366322918d) | latest-changes[bot] |
+| 2026-11-13 | [💥 Drop support for Python 3.10 (#16737)](https://github.com/fastapi/fastapi/commit/28eaf6a22c4e70f415868132d5ca948d21821360) | tiangolo |
 | 2026-11-11 | [🔖 Release version 0.162.5 (#16735)](https://github.com/fastapi/fastapi/commit/5add7a458d629b07311d48261f696b5ac2bb9a5f) | pr-submit[bot] |
 | 2026-11-11 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/067f9d47779db42e84bb613062bcb7d984a6a9a1) | latest-changes[bot] |
-| 2026-11-11 | [🐛 Fix synchronous dependency cleanup on cancellation (#16734)](https://github.com/fastapi/fastapi/commit/eb2f4926de7c9f79f5d2f8a7823742737ca2a978) | tiangolo |
-| 2026-11-10 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/e1144f6954eb8dd8c306f8dd2f5f0a14bbeb2cfd) | latest-changes[bot] |
-| 2026-11-10 | [➖ Drop `pydantic-ai` dependency, use `pydantic-ai-slim[openai]` inste…](https://github.com/fastapi/fastapi/commit/1c78a216472a56a9346b78a795ce9024d8f2e0e4) | YuriiMotov |
-| 2026-11-10 | [🔖 Release version 0.162.4 (#16731)](https://github.com/fastapi/fastapi/commit/e10178c18d8dc2dcc21a70e14152253abc4a4e2f) | pr-submit[bot] |
-| 2026-11-10 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/af628068e772b05bb56bf050cc99f2817b9020f9) | latest-changes[bot] |
-| 2026-11-10 | [🐛 Require AnyIO 4.1.0 or newer at runtime (#16730)](https://github.com/fastapi/fastapi/commit/0902e8b5599031cca795e43964922a07d7c6c9b2) | tiangolo |
-| 2026-11-10 | [🔖 Release version 0.162.3 (#16729)](https://github.com/fastapi/fastapi/commit/84d5f8ea759355e26d5a36f9c5c5652df924328e) | tiangolo |
-| 2026-11-10 | [📝 Update release notes](https://github.com/fastapi/fastapi/commit/6b131a6bba9c7ee54c6324a896d0e9b8ed31c01c) | latest-changes[bot] |
 
 [See all commits ↗](https://github.com/fastapi/fastapi/commits)
 

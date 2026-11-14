@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [242](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [237](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 57.6 MB |
+| 💾 **Size** | 57.9 MB |
 | 🌐 **Website** | http://keras.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-13 | [Split GPU and TPU tests into four shards (#24144)](https://github.com/keras-team/keras/commit/88ee22e42908a06a7bd313bf80aaeae115819677) | laxmareddyp |
-| 2026-11-13 | [Write scalars and the Keras model summary with tensorboardX (#24198)](https://github.com/keras-team/keras/commit/f82c0b666352013a55540453071600b0d90e585a) | SamanehSaadat |
-| 2026-11-13 | [Quantize a GPTQ or AWQ layer in one step, without a pending state (#2…](https://github.com/keras-team/keras/commit/97cadee1530845116047b3a303945e726d2b2a85) | JyotinderSingh |
-| 2026-11-13 | [Implement XLASavedModelArchive with xla_saved_model (XLA Serving Engi…](https://github.com/keras-team/keras/commit/d9070b49e4737ef2b7143af59d57e5c4306751fb) | jerryxyj |
-| 2026-11-13 | [Fix out-of-range offsets in `diagonal`, `diag`, `trace` and eye on Te…](https://github.com/keras-team/keras/commit/a7bbd6bf8ef50ebbea43260ee6b8bb73ae8af3f2) | MaddipatlaChetan24 |
-| 2026-11-12 | [Remove obsolete tf2onnx NumPy 2 compatibility patch (#24214)](https://github.com/keras-team/keras/commit/340606f1703d383e6e0036bab7885c272ec907d6) | andife |
-| 2026-11-12 | [Test the functional-subclass path for loaded custom-compile models (#…](https://github.com/keras-team/keras/commit/2818e6c8ec5552498dfde1275e5ac1a6c62762d1) | JyotinderSingh |
-| 2026-11-12 | [Fix crossentropy and KL string losses in `LogitsDistillation` (#24063)](https://github.com/keras-team/keras/commit/870469370d3e6806086d5d0d7665859a36fb7cc8) | JyotinderSingh |
-| 2026-11-12 | [Stop using `backend.is_keras_tensor` and instead import it from... (#…](https://github.com/keras-team/keras/commit/bc01d50f1dc3a336feafe1e67917b8708bde67bc) | hertschuh |
-| 2026-11-12 | [Don't mark loaded model as compiled when compile_from_config skips co…](https://github.com/keras-team/keras/commit/dd93321d5d31db1fffdac50a87a7912de56bbf00) | vnayakde |
+| 2026-11-13 | [Check each op inside a functional Model in OpTest (#24240)](https://github.com/keras-team/keras/commit/abbab4c030e31476a069844fa64e53ba9368423b) | gaga1313 |
+| 2026-11-13 | [Fix torch linspace, logspace and geomspace returning nan for num=1 (#…](https://github.com/keras-team/keras/commit/426e315e67005f97d4cca0f4e68335e7fbf28fc8) | SamanehSaadat |
+| 2026-11-13 | [Write histograms and images with tensorboardX (#24238)](https://github.com/keras-team/keras/commit/de276338f5a158ea407fe07ad6667c80946be66d) | SamanehSaadat |
+| 2026-11-13 | [Add compile check to evaluate() in torch and numpy trainers (#24153)](https://github.com/keras-team/keras/commit/c93a34654c4d158dc3be4caea1d0bbc279373871) | vnayakde |
+| 2026-11-13 | [Calibrate third-party layers that declare GPTQ or AWQ support (#24237)](https://github.com/keras-team/keras/commit/397de7e1e7bf7e3c32c89f22d51251417b4e64c2) | JyotinderSingh |
+| 2026-11-13 | [Eliminate host-to-device tensor copies in quantized layers for CUDA g…](https://github.com/keras-team/keras/commit/e1089a6f4da475dd33331785890ec44b32f35b07) | JyotinderSingh |
+| 2026-11-13 | [Support loading unlisted backends via KERAS_ALLOW_UNOFFICIAL_BACKEND …](https://github.com/keras-team/keras/commit/bff018622b0066b90e19cb7614dd117ea0f220fc) | laxmareddyp |
+| 2026-11-13 | [Stop using `backend.result_type` and instead import it from... (#24234)](https://github.com/keras-team/keras/commit/c1f0afefd48ac8db4f2a90453f1926e0dedf1801) | hertschuh |
+| 2026-11-13 | [Accept NumPy integers as layer arguments (#24226)](https://github.com/keras-team/keras/commit/1b327e722f7fc76394aa327c48973c4a27283bb9) | JyotinderSingh |
+| 2026-11-13 | [Keep no config on a calibrated GPTQ or AWQ layer (#24233)](https://github.com/keras-team/keras/commit/9b4de37de7dea2d63246c78b7ddc437a161a3a08) | JyotinderSingh |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

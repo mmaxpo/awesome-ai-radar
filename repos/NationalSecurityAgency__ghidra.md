@@ -20,8 +20,8 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 99.9k |
-| 🍴 **Forks** | 11.3k |
+| ⭐ **Stars** | 100.0k |
+| 🍴 **Forks** | 11.4k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/NationalSecurityAgency/ghidra/issues) |
 | 💻 **Languages** | Java 86% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — Ghidra 12.2
-<sub>2026-10-22 · 22d ago</sub>
+<sub>2026-10-22 · 23d ago</sub>
 
 > * [What's New](https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.2_build/Ghidra/Configurations/Public_Release/src/global/docs/WhatsNew.md)
 > * [Change History](https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.2_build/Ghidra/Configurations/Public_Release/src/global/docs/ChangeHistory.md)

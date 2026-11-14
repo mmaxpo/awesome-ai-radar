@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 68.2k |
+| ⭐ **Stars** | 68.3k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [350](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [339](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — 2026-10-26 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 94.3 MB |
+| 💾 **Size** | 94.5 MB |
 | 🌐 **Website** | https://anythingllm.com |
 
 ## 📦 Recent releases
 
 ### [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — AnythingLLM v1.19.0
-<sub>2026-10-26 · 17d ago</sub>
+<sub>2026-10-26 · 18d ago</sub>
 
 > **Built-in LLM for Docker**
 > <img width="3680" height="2212" alt="AnythingLLM Docker built-in LLM powered by Lemonade and llama.cpp" src="https://github.com/user-attachments/assets/410b5784-ca15-4027-a1c4-056d9d5c748e" />
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [Mobile document picker UI (#7125)](https://github.com/Mintplex-Labs/anything-llm/commit/4d09fa5f730698d39f1d783e47316744b260a700) | shatfield4 |
+| 2026-11-13 | [fix: title DrupalWiki attachments with their file name, not the hotdi…](https://github.com/Mintplex-Labs/anything-llm/commit/27dd2b8d7ac4fb788b2b4f4a1ef645f8a555ac4c) | Fahmid-Arman |
+| 2026-11-13 | [fix: send Voyage AI input_type for queries and documents (#7160)](https://github.com/Mintplex-Labs/anything-llm/commit/efbec940f2c5f9a1ddd5541093d86ac5c36dec16) | timothycarambat |
+| 2026-11-13 | [fix: separate replies in imported GitLab issue threads with a blank l…](https://github.com/Mintplex-Labs/anything-llm/commit/8a5aae109e05f4ff66ab9f62d1d15bc556d424bb) | Fahmid-Arman |
+| 2026-11-13 | [fix: bound Outlook thread reads and fit them to the context window (#…](https://github.com/Mintplex-Labs/anything-llm/commit/83dedd8abe3ae63c33cb011189db50591fbae176) | timothycarambat |
+| 2026-11-13 | [fix: use Cerebras time_info for streamed chat duration and tokens/sec…](https://github.com/Mintplex-Labs/anything-llm/commit/166287de1c94d40a1cb74e1c0f644a5adb1269f0) | Fahmid-Arman |
+| 2026-11-13 | [Add MiniMax as an image generation provider (#7144)](https://github.com/Mintplex-Labs/anything-llm/commit/54e6a7735a7d577de8c8d00d4d7aa2c01e55288f) | shatfield4 |
+| 2026-11-13 | [fix: use the resolved user id when updating a user from the admin end…](https://github.com/Mintplex-Labs/anything-llm/commit/56d4d831947d4432d02613567dc0f4ab8f390d94) | timothycarambat |
 | 2026-11-12 | [fix: guard image downloads in the PDF, DOCX and PPTX file tools (#7143)](https://github.com/Mintplex-Labs/anything-llm/commit/1626d971c73d70a68602a662e3baf52e160c62ff) | timothycarambat |
 | 2026-11-12 | [Browser extension side panel chat endpoint (#6802)](https://github.com/Mintplex-Labs/anything-llm/commit/b9a45fca4ff1dd68dfeade8a19f07799e7363290) | shatfield4 |
-| 2026-11-12 | [Swap Trendshift badge for #1 JavaScript Repository of the Year](https://github.com/Mintplex-Labs/anything-llm/commit/a00ec8f5e9388cdb93c1e05f3ee413e2fb3f387d) | timothycarambat |
-| 2026-11-12 | [fix: batch Qdrant upserts under the 32MB request limit (#7140)](https://github.com/Mintplex-Labs/anything-llm/commit/a145523c0bc138811468e31f7815bc3120b34625) | timothycarambat |
-| 2026-11-12 | [fix: keep tool parameters named definitions or $defs in dereferenceSc…](https://github.com/Mintplex-Labs/anything-llm/commit/c3ba00cda83321ef00271feb9882ec8fbc276c47) | Israel-Kli |
-| 2026-11-12 | [Remove stale line reference from validatedRequest comment](https://github.com/Mintplex-Labs/anything-llm/commit/8ffd47d5c958e0b3fc3ae4212e8a8654aab3e1c2) | timothycarambat |
-| 2026-11-12 | [Remove unreachable AUTH_TOKEN check in validatedRequest](https://github.com/Mintplex-Labs/anything-llm/commit/d502da5c87eba14778f7ed3f8b62866adf8f08c9) | timothycarambat |
-| 2026-11-12 | [Limit owner fields returned with browser extension API keys (#7137)](https://github.com/Mintplex-Labs/anything-llm/commit/fac28d0423fe541dbb71c01918a4ff17aaa62f9e) | timothycarambat |
-| 2026-11-12 | [Block password recovery for suspended users (#7136)](https://github.com/Mintplex-Labs/anything-llm/commit/d71370afff69a12c3cfe1615857426959f5c7724) | timothycarambat |
-| 2026-11-12 | [Fix typo in SQL Connector skill description (#7135)](https://github.com/Mintplex-Labs/anything-llm/commit/9522789dc4407a6e41e262c88df55ede112e9e9c) | lakshya-dhariwal |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
 

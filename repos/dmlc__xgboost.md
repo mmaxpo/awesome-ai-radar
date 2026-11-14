@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [452](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [457](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-11 (2d ago) |
+| 🕒 **Last activity** | 2026-11-11 (3d ago) |
 | 📅 **Created** | 2014-02-06 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 2026-09-15 |
 | 🌿 **Default branch** | `master` |
@@ -36,12 +36,12 @@
 ## 📦 Recent releases
 
 ### [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 3.3.1 Patch Release
-<sub>2026-09-15 · 1mo ago</sub>
+<sub>2026-09-15 · 2mo ago</sub>
 
 > This release is identical to 3.3.0 release, except that it now support Python 3.11.
 
 ### [v3.4.2](https://github.com/dmlc/xgboost/releases/tag/v3.4.2) — 3.4.2 Patch Release
-<sub>2026-09-15 · 1mo ago</sub>
+<sub>2026-09-15 · 2mo ago</sub>
 
 > This release is identical to 3.4.1 release, except that it now supports Python 3.11.
 

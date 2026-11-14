@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 9.2k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [759](https://github.com/catboost/catboost/issues) |
+| 🐞 **Open issues + PRs** | [754](https://github.com/catboost/catboost/issues) |
 | 💻 **Languages** | C++ 78% · Python 11% · Cuda 4% · CMake 3% · Scala 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `decision-trees` `gradient-boosting` `gbm` `gbdt` `python` `r` `kaggle` `gpu-computing` `catboost` `tutorial` `categorical-features` `gpu` `coreml` `data-science` `big-data` `cuda` `data-mining` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2017-07-18 |
 | 📦 **Latest release** | [node-package-v1.27.0](https://github.com/catboost/catboost/releases/tag/node-package-v1.27.0) — 2026-02-21 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1699.4 MB |
+| 💾 **Size** | 1699.5 MB |
 | 🌐 **Website** | https://catboost.ai |
 
 ## 📦 Recent releases
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Skip redundant chmod on cached executables](https://github.com/catboost/catboost/commit/bd7076faf5ec41c3bcf31982b770ab508f4d3063) | bgaifullin |
+| 2026-11-14 | [Direct learn features indexing for an unshuffled fold](https://github.com/catboost/catboost/commit/8aa4f90084a99ac50a8d0dbb7f44a47b05b5d287) | ArseniyVarlamov |
+| 2026-11-14 | [Do not mutate the caller's feature_tags in Pool](https://github.com/catboost/catboost/commit/ce149380154d7ad39dc715f06ae79ba1e0c8cccb) | davrens101 |
+| 2026-11-14 | [Fix classifier score for single-column labels](https://github.com/catboost/catboost/commit/0a8d91fee6d4209a215f5319b400d8516b91a5fe) | parlorsky |
+| 2026-11-14 | [Fix PEP8 issues in GPU vs CPU benchmark scripts (#3239)](https://github.com/catboost/catboost/commit/de00cae234a97bc1aad8ac81817accb072432de0) | nysib |
+| 2026-11-13 | [Fix grammar](https://github.com/catboost/catboost/commit/f8a251bb1f61d80dc515affcf5534a36b512c49b) | andrey-khropov |
+| 2026-11-13 | [Bump scikit-learn from 0.23.1 to 1.5.0 in /catboost/benchmarks/traini…](https://github.com/catboost/catboost/commit/57ac3928271a0c611464c5f21a9a2ce07e2c7681) | dependabot[bot] [49699333+dependabot |
+| 2026-11-13 | [Import pyroscope-io 1.4.0 from source](https://github.com/catboost/catboost/commit/dedc903d5ac3012834258ff18bb58f9010a19f21) | serjflint |
+| 2026-11-13 | [heterogeneous lookups fixes for TMap](https://github.com/catboost/catboost/commit/bdd1a257932981e597546bf5789d4e400294a4f1) | ilnurkh |
 | 2026-11-13 | [Take the arm64 Linux tick rate from CNTFRQ_EL0](https://github.com/catboost/catboost/commit/6f7c79340c87e627c66e3f8dc3923a8628359f10) | mironenkovb |
-| 2026-11-13 | [Backport IWYU exports in google benchmark header](https://github.com/catboost/catboost/commit/e6bc3a5c2a27c0ec3c8384f386a8edc4f5fc38cf) | vadim-xd |
-| 2026-11-13 | [rapidjson, бэкпорт фиксов strtod для kParseFullPrecisionFlag](https://github.com/catboost/catboost/commit/c2deefbaf682be0d129258dcb470666813260e23) | semasazhin |
-| 2026-11-12 | [Intermediate changes](https://github.com/catboost/catboost/commit/31148e85b1563179b1b0484bee4095097cddeb03) | robot-piglet |
-| 2026-11-12 | [Remove remaining eMudhra roots from certs](https://github.com/catboost/catboost/commit/f19604bb4a118c1cdd24c9f08c3a0da23ee3bd4a) | nik-lucky |
-| 2026-11-12 | [переписывать assert тестовых модулей PY3TEST при сборке](https://github.com/catboost/catboost/commit/91e1b726cf715bc675358f7f2404f35b5021c36b) | sovetkin |
-| 2026-11-11 | [fix copying instead of moving in some insert methods; better heteroge…](https://github.com/catboost/catboost/commit/8d797fad544091e60e830e0987e00ddf5bc3b411) | ilnurkh |
-| 2026-11-10 | [Fix grammar](https://github.com/catboost/catboost/commit/71b27d240154132626088cf3d55aad90b3835296) | andrey-khropov |
-| 2026-11-09 | [tokenizers caching](https://github.com/catboost/catboost/commit/b3ec02473f080abcd181b417de36ebcc8f0be8c8) | quezee |
-| 2026-11-09 | [передавать исходник и config в rewrite_asserts для pytest 8](https://github.com/catboost/catboost/commit/47c4f4ce445cb58655170d0e6a0c9239b19bab4a) | sovetkin |
 
 [See all commits ↗](https://github.com/catboost/catboost/commits)
 

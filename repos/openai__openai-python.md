@@ -20,23 +20,30 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 32.1k |
+| ⭐ **Stars** | 32.2k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [92](https://github.com/openai/openai-python/issues) |
+| 🐞 **Open issues + PRs** | [91](https://github.com/openai/openai-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `openai` `python` |
 | 🕒 **Last activity** | 2026-11-13 (today) |
 | 📅 **Created** | 2020-10-25 |
-| 📦 **Latest release** | [v3.50.0](https://github.com/openai/openai-python/releases/tag/v3.50.0) — 2026-11-12 |
+| 📦 **Latest release** | [v3.51.0](https://github.com/openai/openai-python/releases/tag/v3.51.0) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 29.6 MB |
+| 💾 **Size** | 28.1 MB |
 | 🌐 **Website** | https://pypi.org/project/openai/ |
 
 ## 📦 Recent releases
 
+### [v3.51.0](https://github.com/openai/openai-python/releases/tag/v3.51.0)
+<sub>2026-11-13 · today</sub>
+
+> **[3.51.0](https://github.com/openai/openai-python/compare/v3.50.0...v3.51.0) (2026-11-12)**
+> **Features**
+> * **api:** expand agent, image, Live, and external key support ([#4269](https://github.com/openai/openai-python/issues/4269)) ([59738a2](https://github.com/openai/openai-python/commit/59738a289ee82c7b86bf1e10230cceb6daa9716d))
+
 ### [v3.50.0](https://github.com/openai/openai-python/releases/tag/v3.50.0)
-<sub>2026-11-12 · today</sub>
+<sub>2026-11-12 · yesterday</sub>
 
 > **[3.50.0](https://github.com/openai/openai-python/compare/v3.49.0...v3.50.0) (2026-11-12)**
 > **Features**
@@ -47,7 +54,7 @@
 > …
 
 ### [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0)
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > **[3.49.0](https://github.com/openai/openai-python/compare/v3.48.0...v3.49.0) (2026-11-10)**
 > **Features**
@@ -56,7 +63,7 @@
 > * encode microphone recordings as valid PCM WAV ([#3900](https://github.com/openai/openai-python/issues/3900)) ([13c000d](https://github.com/openai/openai-python/commit/13c000d1f32c1e3e3c4b3e16bc6b956dfd4f5216))
 
 ### [v3.48.0](https://github.com/openai/openai-python/releases/tag/v3.48.0)
-<sub>2026-11-09 · 3d ago</sub>
+<sub>2026-11-09 · 4d ago</sub>
 
 > **[3.48.0](https://github.com/openai/openai-python/compare/v3.47.0...v3.48.0) (2026-11-09)**
 > **Features**
@@ -67,27 +74,17 @@
 > …
 
 ### [v3.47.0](https://github.com/openai/openai-python/releases/tag/v3.47.0)
-<sub>2026-11-05 · 7d ago</sub>
+<sub>2026-11-05 · 8d ago</sub>
 
 > **[3.47.0](https://github.com/openai/openai-python/compare/v3.46.0...v3.47.0) (2026-11-05)**
 > **Features**
 > * **api:** add a model option for Responses ([#4249](https://github.com/openai/openai-python/issues/4249)) ([090098f](https://github.com/openai/openai-python/commit/090098fd3f00fd46c529c4fd19edc2c762ce7a34))
 
-### [v3.46.0](https://github.com/openai/openai-python/releases/tag/v3.46.0)
-<sub>2026-11-05 · 8d ago</sub>
-
-> **[3.46.0](https://github.com/openai/openai-python/compare/v3.45.0...v3.46.0) (2026-11-05)**
-> **Features**
-> * **api:** add Australia, India, and Japan residency options ([#4246](https://github.com/openai/openai-python/issues/4246)) ([2634b87](https://github.com/openai/openai-python/commit/2634b87c2f3d31960936cb0653e662356cd138a2))
-> * **api:** add GPT-6 Rosalind to the model catalog ([#4243](https://github.com/openai/openai-python/issues/4243)) ([0f8e5f3](https://github.com/openai/openai-python/commit/0f8e5f382861120809b1d149a18c744f725746a0))
-> * **api:** add image complexity and GIF and SVG output controls ([#4247](https://github.com/openai/openai-python/issues/4247)) ([0152e3a](https://github.com/openai/openai-python/commit/0152e3ada40e7580921aec71de2770ff02e69b05))
-> * **api:** expand agent turn errors and image and audio options ([#4245](https://github.com/openai/openai-python/issues/4245)) ([1b2fb74](https://github.com/openai/openai-python/commit/1b2fb74d1ac88eca798a00d3e5c0789ab9e42833))
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-13 | [release: 3.51.0 (#4270)](https://github.com/openai/openai-python/commit/3dae6090cc31cc64a437fe0bcee740b6d81ed2cc) | openai-sdks[bot] |
 | 2026-11-12 | [feat(api): expand agent, image, Live, and external key support (#4269)](https://github.com/openai/openai-python/commit/59738a289ee82c7b86bf1e10230cceb6daa9716d) | dpiet-oai |
 | 2026-11-12 | [release: 3.50.0 (#4265)](https://github.com/openai/openai-python/commit/f44c1ecd97368bbb842910401e5aaf202d910904) | openai-sdks[bot] |
 | 2026-11-12 | [feat(api): expose reasoning input transformations on responses (#4268)](https://github.com/openai/openai-python/commit/734f75b5219da0fd74b24afefae81c71af81fcf6) | marcuswood-oai |
@@ -97,7 +94,6 @@
 | 2026-11-10 | [feat(api): add typed async function tools (#4264)](https://github.com/openai/openai-python/commit/ea07983f796144835ab3f2cad38fdca04c997a0e) | markstuart-oai |
 | 2026-11-10 | [fix: encode microphone recordings as valid PCM WAV (#3900)](https://github.com/openai/openai-python/commit/13c000d1f32c1e3e3c4b3e16bc6b956dfd4f5216) | HaokaiDing |
 | 2026-11-09 | [release: 3.48.0 (#4252)](https://github.com/openai/openai-python/commit/7e1582ceb3966e2b8a8362e5e7478fcfdcf82f92) | openai-sdks[bot] |
-| 2026-11-09 | [chore(deps-dev): bump types-requests from 2.33.0.20261006 to 2.33.0.2…](https://github.com/openai/openai-python/commit/de498d730cafa51f5fb0640f0335719957ea1733) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/openai/openai-python/commits)
 

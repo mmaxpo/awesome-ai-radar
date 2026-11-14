@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 327.9 MB |
+| 💾 **Size** | 328.4 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · today</sub>
+<sub>2026-11-12 · yesterday</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 14d ago</sub>
+<sub>2026-10-29 · 15d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 16d ago</sub>
+<sub>2026-10-27 · 17d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.10](https://github.com/agno-agi/agno/releases/tag/v3.1.10)
-<sub>2026-10-23 · 20d ago</sub>
+<sub>2026-10-23 · 21d ago</sub>
 
 > **Changelog**
 > **Bug Fixes:**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.1.9](https://github.com/agno-agi/agno/releases/tag/v3.1.9)
-<sub>2026-10-22 · 21d ago</sub>
+<sub>2026-10-22 · 22d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [chore: auto-close issues past 5 per user in 24 hours (#11676)](https://github.com/agno-agi/agno/commit/439da90695d16d469b3b1963913ab1ad6e6a9648) | ysolanky |
+| 2026-11-13 | [test: retry the metrics refresh until it runs in the Claude and Codex…](https://github.com/agno-agi/agno/commit/453497088ba3b77db8c48770de31df7d899b8018) | harshsinha03 |
+| 2026-11-13 | [fix: Correct the v1 to v2 migration paths and add the v2 to v3 migrat…](https://github.com/agno-agi/agno/commit/2432bf2a7081d1e521cae1ab8332c8dde3ec4a28) | stra1g |
+| 2026-11-13 | [feat: list a session's compactions from AgentOS (#11617)](https://github.com/agno-agi/agno/commit/60bb49b62503cdaa12d7c1008b12aa7a31806f1f) | anuragts |
 | 2026-11-13 | [fix: add cost metric support to OpenRouterResponses (#9568)](https://github.com/agno-agi/agno/commit/878151ba85c7bec6f0df7edfa1bbc0e025fdd5c1) | aayush598 |
 | 2026-11-13 | [[fix] Make ExaTools pass the Exa options it accepts, and add the miss…](https://github.com/agno-agi/agno/commit/0ade84db16da8d63740192e1019c264fa9caa168) | ormeilu |
 | 2026-11-12 | [[fix] Remove silent token caps from routed providers (#10723)](https://github.com/agno-agi/agno/commit/c9bf62ff3addfdc48bbdd97e651623e5ced3d8ec) | FanouZeng-TT |
 | 2026-11-12 | [fix(tools): respect zero max_results, apply modifier in search_news, …](https://github.com/agno-agi/agno/commit/5b6778e8e9cfc02d723129bcaf556c0ce75e208f) | neoand |
 | 2026-11-12 | [[cookbook] Add Mnemoverse memory integration example (#11598)](https://github.com/agno-agi/agno/commit/31a5d2f710dc6d78458d5888cf95fc6380bb3414) | OlyaTi |
 | 2026-11-12 | [feat: Release v3.2.0 (#11399)](https://github.com/agno-agi/agno/commit/3bfc84113fdd80c1522ef7bafa80721ce79fdf62) | kausmeows |
-| 2026-11-12 | [fix: list one metrics table per database in /config (#11610)](https://github.com/agno-agi/agno/commit/93ee793e6b251b3d89df7ad4061be5dc6682b060) | ysolanky |
-| 2026-11-12 | [feat: Slack agent view, Bolt, Stop, external agents and Super Agent r…](https://github.com/agno-agi/agno/commit/8701fc3d7a6eff2b90a52948418e9428f2df21e2) | harshsinha03 |
-| 2026-11-12 | [fix: quiet metrics refresh debug logs (#11606)](https://github.com/agno-agi/agno/commit/dc03a2c6f1dd760f2ead89140ea946321fb211e4) | ysolanky |
-| 2026-11-12 | [fix: Company fixes before 3.2 (#11592)](https://github.com/agno-agi/agno/commit/70be8704e1776f9369106030f976112754cc06ac) | ashpreetbedi |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

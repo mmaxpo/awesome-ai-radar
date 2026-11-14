@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 188.0k |
 | 🍴 **Forks** | 45.9k |
-| 🐞 **Open issues + PRs** | [701](https://github.com/Significant-Gravitas/AutoGPT/issues) |
+| 🐞 **Open issues + PRs** | [681](https://github.com/Significant-Gravitas/AutoGPT/issues) |
 | 💻 **Languages** | Python 68% · TypeScript 31% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `openai` `python` `artificial-intelligence` `autonomous-agents` `llama-api` `agentic-ai` `agents` `llm` `claude` `gpt` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2023-03-16 |
 | 📦 **Latest release** | [autogpt-platform-beta-v0.11.2](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2) — 2026-11-11 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 644.3 MB |
+| 💾 **Size** | 647.7 MB |
 | 🌐 **Website** | https://agpt.co |
 
 ## 📦 Recent releases
@@ -38,10 +38,10 @@
 ### [preview-seed-fixture](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture) — Preview seed fixture (rolling) _(pre-release)_
 <sub>2026-08-06 · 3mo ago</sub>
 
-> Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@6006036d8b92 (migration head: 20261112120000_account_deletion_confirmation_skipped). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so schema changes run against populated tables. RESTORE: apply restore-preamble.sql to the target database first (it creates the platform schema and installs the vector + pg_trgm extensions into it, which pg_dump --schema=platform omits), then run 'gunzip -c fixture.dump.gz | pg_restore -d <db> --no-owner' WITHOUT --exit-on-error (the dump's own CREATE SCHEMA collides benignly with the preamble's). SECURITY INVARIANT: this bake holds no cloud credentials and has no read path to any real database — it runs entirely against a throwaway Postgres container and contains only synthetic rows (Faker-generated, plus the hand-written preview marketplace) and the already-public marketplace agent exports checked into autogpt_platform/backend/agents/. This asset is regenerated on every eligible dev push and weekly; treat it as disposable.
+> Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@6ba94560676d (migration head: 20261112120000_account_deletion_confirmation_skipped). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so schema changes run against populated tables. RESTORE: apply restore-preamble.sql to the target database first (it creates the platform schema and installs the vector + pg_trgm extensions into it, which pg_dump --schema=platform omits), then run 'gunzip -c fixture.dump.gz | pg_restore -d <db> --no-owner' WITHOUT --exit-on-error (the dump's own CREATE SCHEMA collides benignly with the preamble's). SECURITY INVARIANT: this bake holds no cloud credentials and has no read path to any real database — it runs entirely against a throwaway Postgres container and contains only synthetic rows (Faker-generated, plus the hand-written preview marketplace) and the already-public marketplace agent exports checked into autogpt_platform/backend/agents/. This asset is regenerated on every eligible dev push and weekly; treat it as disposable.
 
 ### [autogpt-platform-beta-v0.11.2](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2)
-<sub>2026-11-11 · yesterday</sub>
+<sub>2026-11-11 · 2d ago</sub>
 
 > **🚀 Release `autogpt-platform-beta-v0.11.2`**
 > **Date:** January 2025
@@ -52,7 +52,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.1](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.1) — 🚀 AutoGPT Platform v0.11.1
-<sub>2026-11-06 · 7d ago</sub>
+<sub>2026-11-06 · 8d ago</sub>
 
 > **🔥 What's New?**
 > **⚠️ Breaking Changes**
@@ -63,7 +63,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.0) — 🚀 AutoGPT Platform v0.11.0
-<sub>2026-11-04 · 9d ago</sub>
+<sub>2026-11-04 · 10d ago</sub>
 
 > **🔥 What's New?**
 > **⚠️ Breaking Changes**
@@ -74,7 +74,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.10.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.10.0) — 🚀 AutoGPT Platform v0.10.0
-<sub>2026-10-27 · 16d ago</sub>
+<sub>2026-10-27 · 17d ago</sub>
 
 > **🔥 What's New?**
 > **⚠️ Breaking Changes**

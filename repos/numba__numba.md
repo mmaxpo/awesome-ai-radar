@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1)
-<sub>2026-10-27 · 16d ago</sub>
+<sub>2026-10-27 · 17d ago</sub>
 
 > Numba patch release, please refer to the detailed release notes here -
 > https://numba.readthedocs.io/en/stable/release/0.68.1-notes.html

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 114.7k |
+| ⭐ **Stars** | 115.3k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [6](https://github.com/Leonxlnx/taste-skill/issues) |
+| 🐞 **Open issues + PRs** | [9](https://github.com/Leonxlnx/taste-skill/issues) |
 | 💻 **Languages** | JavaScript 61% · HTML 28% · CSS 11% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `frontend` `agent-skills` `ai-agents` `anti-slop` `cursor` `design-system` `landing-page` `ui-design` `web-design` |
-| 🕒 **Last activity** | 2026-11-08 (4d ago) |
+| 🕒 **Last activity** | 2026-11-08 (5d ago) |
 | 📅 **Created** | 2026-02-19 |
 | 📦 **Latest release** | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — 2026-11-07 |
 | 🌿 **Default branch** | `main` |
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.5.0](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.0) — tasteskill v2.5
-<sub>2026-11-04 · 8d ago</sub>
+<sub>2026-11-04 · 9d ago</sub>
 
 > A complete rebuild of `design-taste-frontend` around professional company websites at the figma.com and x.ai bar. The install name did not change.
 > - **One page system:** every build starts from the same starter. The hero fills the first screen, one section per screen, equal left and right edges.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.1.5](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.1.5) — tasteskill v2.1.5
-<sub>2026-10-24 · 19d ago</sub>
+<sub>2026-10-24 · 20d ago</sub>
 
 > Fixes from the community. Thanks to everyone who reported and sent them.
 > - **Safe text in charts and split headings** (#160, #169, thanks @jcastilla89 and @Pablolakotek): `charts.js` and the `Stage.split` fallback escape the text they insert, so a label or heading from user data can no longer inject markup.
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.1.4](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.1.4) — tasteskill v2.1.4
-<sub>2026-10-20 · 23d ago</sub>
+<sub>2026-10-20 · 24d ago</sub>
 
 > This release makes the inspector's browser profiles safe when several runs go at once ([#157](https://github.com/Leonxlnx/taste-skill/issues/157), [#158](https://github.com/Leonxlnx/taste-skill/pull/158), [#159](https://github.com/Leonxlnx/taste-skill/pull/159)). The rules of `design-taste-frontend` are unchanged; only `scripts/lib/cdp.mjs` changed.
 > - **Fix: one inspector run could delete the browser profile of another run that was still going.** Chrome keeps no `lockfile` on macOS and Linux, so the sweep added in 2.1.0 judged a profile unused by its age alone. A second run started during a long one could then pull that run's profile away. Thanks to @t4sh for the report and the fix.
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.1.3](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.1.3) — tasteskill v2.1.3
-<sub>2026-10-19 · 24d ago</sub>
+<sub>2026-10-19 · 25d ago</sub>
 
 > One repo, one skill. `design-taste-frontend` itself is unchanged; this release cleans up the repo around it ([#153](https://github.com/Leonxlnx/taste-skill/issues/153), [#155](https://github.com/Leonxlnx/taste-skill/pull/155)).
 > **The other skills moved to repos of their own and kept their install names:**

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 146.6k |
+| ⭐ **Stars** | 146.8k |
 | 🍴 **Forks** | 17.5k |
 | 🐞 **Open issues + PRs** | [5.5k](https://github.com/Comfy-Org/ComfyUI/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `stable-diffusion` `pytorch` `ai` `python` `comfy` `comfyui` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2023-01-17 |
 | 📦 **Latest release** | [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) — 2026-11-10 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 106.1 MB |
+| 💾 **Size** | 105.6 MB |
 | 🌐 **Website** | https://www.comfy.org/ |
 
 ## 📦 Recent releases
 
 ### [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0)
-<sub>2026-11-10 · 2d ago</sub>
+<sub>2026-11-10 · 3d ago</sub>
 
 > **What's Changed**
 > * Bump comfyui-frontend-package to 1.58.5 by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/17442
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.44.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0)
-<sub>2026-11-04 · 9d ago</sub>
+<sub>2026-11-04 · 10d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(Patina): add Patina texture nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17384
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.43.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.0)
-<sub>2026-10-27 · 17d ago</sub>
+<sub>2026-10-27 · 18d ago</sub>
 
 > **What's Changed**
 > * model_prefetch: syncrhonize all graph cleanups by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/17178
@@ -69,12 +69,12 @@
 > …
 
 ### [v0.42.1](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1)
-<sub>2026-10-19 · 25d ago</sub>
+<sub>2026-10-19 · 26d ago</sub>
 
 > Fix some crashing issues a few users experienced when running the MOSS image template workflow.
 
 ### [v0.42.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0)
-<sub>2026-10-18 · 25d ago</sub>
+<sub>2026-10-18 · 26d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(Krea): add Krea 3 Image node by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17067
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Add a mesh input to Create Camera Info to frame any mesh (#17730)](https://github.com/Comfy-Org/ComfyUI/commit/eee59185ff4f43ae2d9ad122b245619d27d9daad) | kijai |
+| 2026-11-13 | [Show Topaz request IDs on polling timeout (#17742)](https://github.com/Comfy-Org/ComfyUI/commit/102350eb949bca599e450a904f0562ad3f551279) | wei-hai |
+| 2026-11-13 | [Show Kling Avatar task IDs on polling timeout (#17740)](https://github.com/Comfy-Org/ComfyUI/commit/46659e65e95920e5d29cae011b43b02699c0bfd3) | wei-hai |
+| 2026-11-13 | [Fix some cases where apg affected output with cfg 1.0 (#17741)](https://github.com/Comfy-Org/ComfyUI/commit/615c5a1951f2e7ea2b87711dd30176174c11fdab) | comfyanonymous |
+| 2026-11-13 | [[Partner Nodes] feat(Anthropic): add Claude Fable 5.2 to the Claude n…](https://github.com/Comfy-Org/ComfyUI/commit/3a8b90edb215b5db92a1e7ea6ac0120a5ad3048c) | bigcat88 |
+| 2026-11-13 | [[Partner Nodes] feat(Luma): move Luma nodes to Comfy Router (#17714)](https://github.com/Comfy-Org/ComfyUI/commit/f11d16096a3799c5dbcb09392d878f2be1303531) | bigcat88 |
+| 2026-11-13 | [[Partner Nodes] chore(OpenRouter): remove retired Qwen3.6 Max Preview…](https://github.com/Comfy-Org/ComfyUI/commit/48a160ec665ff16d14469ae0f777d50eb323ca58) | bigcat88 |
 | 2026-11-13 | [[Partner Nodes] fix(FishAudio): show Drama 3 full price in the badge …](https://github.com/Comfy-Org/ComfyUI/commit/dc9ffe6adde25671bf535e99556ca9f8085c7d0f) | bigcat88 |
 | 2026-11-13 | [[Partner Nodes] feat(HeyGen): add 1080p/30s clips to HeyGen nodes (#1…](https://github.com/Comfy-Org/ComfyUI/commit/dae545d4ab29f0ba864fb6362a6fbebd989d08cd) | bigcat88 |
 | 2026-11-13 | [Add new node to split image channels (#13548)](https://github.com/Comfy-Org/ComfyUI/commit/b894a864de9c0c73cc0ca848acd660fca890cebc) | alexisrolland |
-| 2026-11-13 | [Support saving single channel PNG in the save image advanced node. (#…](https://github.com/Comfy-Org/ComfyUI/commit/a3d6717c6cf7f6b297c69b18ddf0b74c8b44e3b2) | comfyanonymous |
-| 2026-11-12 | [Update workflow templates to v0.11.107 (#17725)](https://github.com/Comfy-Org/ComfyUI/commit/c1eece62cbf1805d4f64286d7f5592e6a215e6ba) | comfyui-wiki |
-| 2026-11-12 | [[Partner Nodes] feat(Gemini-LLM): add Hydrogen/Argon and Carbon model…](https://github.com/Comfy-Org/ComfyUI/commit/0f05af6c1d24dd1a4047bb09baa2b67a13c37ee2) | bigcat88 |
-| 2026-11-12 | [Remove directml support. (#17711)](https://github.com/Comfy-Org/ComfyUI/commit/c5751c81abe131202eea9e4c66d000589013dd0b) | comfyanonymous |
-| 2026-11-12 | [Bump comfyui-frontend-package to 1.59.1 (#17553)](https://github.com/Comfy-Org/ComfyUI/commit/a592c0a654af22f75d97f214d6e3e34eb13cd9db) | comfy-pr-bot |
-| 2026-11-11 | [[Partner Nodes] chore(ByteDance): drop the Seedance 2.5 4k enterprise…](https://github.com/Comfy-Org/ComfyUI/commit/b2f670744386d36d39c41cc37cd1e30151046222) | bigcat88 |
-| 2026-11-11 | [[Partner Nodes] feat(Krea): move Krea nodes to Comfy Router (#17691)](https://github.com/Comfy-Org/ComfyUI/commit/ebf27e937d7368432d73dadfe8a399ec47949249) | bigcat88 |
 
 [See all commits ↗](https://github.com/Comfy-Org/ComfyUI/commits)
 

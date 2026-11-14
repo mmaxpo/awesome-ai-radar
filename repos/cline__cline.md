@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26)
-<sub>2026-10-26 · 18d ago</sub>
+<sub>2026-10-26 · 19d ago</sub>
 
 > **Added**
 > - Cloud tasks: Settings > API Configuration has a Local | Cloud toggle when cloud sessions are on. Cloud picks the Cline model new cloud tasks run on, saved separately from your local models. Clicking the model label in a cloud session's composer opens it there.
@@ -47,7 +47,7 @@
 > …
 
 ### [desktop-v0.0.49](https://github.com/cline/cline/releases/tag/desktop-v0.0.49) — Desktop v0.0.49
-<sub>2026-10-26 · 18d ago</sub>
+<sub>2026-10-26 · 19d ago</sub>
 
 > - A new **Changes** button in the session header shows the session's line counts and opens a pane listing the files changed in the last turn or across the whole session, with a diff of each. When a turn finishes, a summary under it lists the files it changed; click it to open the pane on that turn
 > - A **project files panel** (folder button in the session header) shows a file tree beside the conversation, with a read-only tabbed viewer, git status letters, and a marker on files the session changed. Files the agent edited get a File/Diff toggle. Works on local and SSH environments
@@ -58,7 +58,7 @@
 > …
 
 ### [cli-v3.0.74](https://github.com/cline/cline/releases/tag/cli-v3.0.74) — CLI v3.0.74
-<sub>2026-10-26 · 18d ago</sub>
+<sub>2026-10-26 · 19d ago</sub>
 
 > - Opening a task that's already running in another Cline app now attaches to that run instead of starting a second one that couldn't be stopped. If an app closes mid-task, requests waiting on it now fail with a clear message instead of hanging
 > - `cline hub status` and `cline doctor` no longer hang on a Hub that has frozen. Its health check now times out after 3s and the Hub is reported as not running
@@ -69,7 +69,7 @@
 > …
 
 ### [sdk/sdk/v0.2.0](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.0) — SDK v0.2.0
-<sub>2026-10-26 · 18d ago</sub>
+<sub>2026-10-26 · 19d ago</sub>
 
 > - Starting a session that already has a run in progress now reattaches to the live session instead of replacing its runtime. Before, the original run kept going but couldn't be reached, and its transcript writes landed on a stale snapshot. A start that includes a prompt while a run is in progress is rejected
 > - The hub records every client that registered a capability for a session, including clients that join a task that's already running, and sends each request to the first one still connected. If none is left, the request fails quickly with a message the user can act on, instead of waiting forever
@@ -80,7 +80,7 @@
 > …
 
 ### [desktop-v0.0.48](https://github.com/cline/cline/releases/tag/desktop-v0.0.48) — Desktop v0.0.48
-<sub>2026-10-17 · 27d ago</sub>
+<sub>2026-10-17 · 28d ago</sub>
 
 > - GPT-6 models (such as `gpt-6-sol` and `gpt-6.1-sol`) work on OpenAI and Azure OpenAI-compatible endpoints. Before, every request was rejected because Cline sent `max_tokens` instead of `max_completion_tokens`
 > - The Cline provider's default model is Claude Sonnet 5.5 again, which is back at the top of Cline's recommended list

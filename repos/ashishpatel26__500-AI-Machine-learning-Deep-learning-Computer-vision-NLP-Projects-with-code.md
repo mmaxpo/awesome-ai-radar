@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 37.7k |
+| ⭐ **Stars** | 37.8k |
 | 🍴 **Forks** | 7.5k |
 | 🐞 **Open issues + PRs** | [71](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code/issues) |
 | 💻 **Languages** | — |
