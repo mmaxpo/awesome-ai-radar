@@ -256,6 +256,12 @@
   status: study
   added: 2026-11-14
 
+- repo: anthropics/skills
+  why: "Anthropic's official Agent Skills: ready-made skills for Claude (docs, design, data and more)"
+  category: skills
+  status: study
+  added: 2026-11-14
+
 # ───────── 🧠 RAG, memory & chat with your data ─────────
 
 - repo: volcengine/OpenViking
@@ -800,6 +806,12 @@
   status: study
   added: 2026-11-11
 
+- repo: donnemartin/system-design-primer
+  why: "Learn to design large-scale systems; system-design interview prep with flashcards"
+  category: learning
+  status: study
+  added: 2026-11-14
+
 # ───────── 🛠 Apps & other ─────────
 
 - repo: ethanplusai/sellbird
@@ -828,6 +840,11 @@
   status: study
   added: 2026-11-11
 
+- repo: ai-job-search-dev/ai-job-search
+  why: "Local AI job-search framework on Claude Code: evaluate postings, tailor CVs, cover letters, interview prep"
+  category: apps
+  status: study
+  added: 2026-11-14
 
 # ───────── 🏢 Organizations ─────────
 
@@ -1054,22 +1071,13 @@
   status: study
   added: 2026-11-11
 
-- repo: anthropics/skills
-  why: ""
-  status: study
-  added: 2026-11-14
 
-- repo: ai-job-search-dev/ai-job-search
-  why: ""
-  status: study
-  added: 2026-11-14
+
+
 
 - repo: HKUDS/CLI-Anything
-  why: ""
+  why: "Wraps any software in a CLI so AI agents can operate it"
+  category: agents
   status: study
   added: 2026-11-14
 
-- repo: donnemartin/system-design-primer
-  why: ""
-  status: study
-  added: 2026-11-14
