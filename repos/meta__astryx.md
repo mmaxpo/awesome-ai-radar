@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 27.7k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [681](https://github.com/meta/astryx/issues) |
+| 🐞 **Open issues + PRs** | [682](https://github.com/meta/astryx/issues) |
 | 💻 **Languages** | TypeScript 66% · JavaScript 32% · Swift 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |

@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [💄 style(spend): label music generation spend (#23013)](https://github.com/lobehub/lobehub/commit/a8424d204a7ed1eb36985ebdfa6eac8041615392) | rdmclin2 |
 | 2026-11-14 | [🐛 fix(goal): keep the supervision panel on its bound record (#23011)](https://github.com/lobehub/lobehub/commit/408c7d60438dacc5ebdf908ffc4ae083ff11804e) | rdmclin2 |
 | 2026-11-14 | [✨ feat(tts): add Fish Audio and Doubao Speech TTS providers (#22951)](https://github.com/lobehub/lobehub/commit/1afea3e47079c87e4a34cbf210efe82cfa0c0c2c) | rdmclin2 |
 | 2026-11-14 | [✨ feat(cli): add --tag to lh agent create (#23012)](https://github.com/lobehub/lobehub/commit/ab883dde06632431429c1ee9b49ad56393dba2d0) | rdmclin2 |
@@ -103,7 +104,6 @@
 | 2026-11-14 | [✨ feat(tts): Gemini text-to-speech on the Google provider, with a def…](https://github.com/lobehub/lobehub/commit/11a57dc4c0f04a99441cdd1c883c86c5fc0cd74e) | rdmclin2 |
 | 2026-11-14 | [⚡️ perf(agent-documents): keep the document index cached across turns…](https://github.com/lobehub/lobehub/commit/553d091d297c66c22137725611e3399e9f4617e2) | tjx666 |
 | 2026-11-14 | [🔨 chore(check): route symlinked file args by their real path (#22983)](https://github.com/lobehub/lobehub/commit/af268c520a9b418c461da6b4982f37cf15185c77) | tjx666 |
-| 2026-11-14 | [🐛 fix(resource): toggle the active folder when its tree row is clicke…](https://github.com/lobehub/lobehub/commit/d996d105d82ed661f9a9261339680b6a171fc727) | MarioJames |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 
