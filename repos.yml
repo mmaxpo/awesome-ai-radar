@@ -4,7 +4,7 @@
 #   why:     one line on why it's worth following
 #   status:  study | using | later | done | deprecated  (deprecated = move to "Discontinued")
 #   category: agents | coding | workflows | skills | rag | documents | models | ml | science | sdk | security |
-#             builders | prompting | imagegen | design | python | learning | apps  (or any new word)
+#             builders | prompting | imagegen | design | python | learning | utils | apps  (or any new word)
 #   project: optional — a project it's useful for
 #   added:   optional — date you added it
 #   notes:   optional — longer notes, shown on the repo's own sheet (use  notes: |  for several lines)
@@ -13,7 +13,8 @@
 # For a link that isn't a GitHub repo (paper, course, article, model, person, tool):
 #   - link: https://...
 #     title: "Name"
-#     type: paper | course | article | model | dataset | person | tool | crypto
+#     type: paper | course | article | model | dataset | person | tool | crypto |
+#           aidesign | components | assets | fonts | inspiration | mac
 #     why: "one line"
 #
 # After you save this file, the README updates within a minute or two.
@@ -814,6 +815,206 @@
   status: study
   added: 2026-11-14
 
+# ───────── 🧰 Open-source utilities ─────────
+
+- repo: localsend/localsend
+  why: "Open-source AirDrop alternative for every platform"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: DevToys-app/DevToys
+  why: "Offline Swiss-army knife of developer utilities"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: fosrl/pangolin
+  why: "Self-hosted zero-trust VPN and reverse proxy (WireGuard)"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: ancsemi/Haven
+  why: "Self-hosted private chat server (Discord alternative)"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: crmne/zapfast
+  why: "Native WhatsApp desktop client written in Rust"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: leiweibau/Pi.Alert
+  why: "Scans your Wi-Fi/LAN and alerts on new devices"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: dmunozv04/iSponsorBlockTV
+  why: "SponsorBlock (skip sponsor segments) on TV YouTube apps"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: christian-fei/my-yt
+  why: "Self-hosted, chronological, distraction-free YouTube"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: brisklydev/brisk
+  why: "Fast desktop download manager"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: pablostanley/yoinks
+  why: "Terminal video downloader for 1,800+ sites"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: gathin23/cleanyourtv
+  why: "Debloat Android/Google TV without root"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: noovolari/leapp
+  why: "Manage short-lived cloud credentials (AWS, Azure, GCP)"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: openremote/core
+  why: "Open-source IoT platform"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: mbillow/localthings
+  why: "Local Samsung SmartThings control for Home Assistant"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: RandomNinjaAtk/arr-scripts
+  why: "Automation scripts for *arr media containers"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: cherry-embedded/cherryusb
+  why: "USB host/device stack for microcontrollers"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: getopenscreen/openscreen
+  why: "Screen recorder that turns recordings into demo videos"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: snownico0722/papertodo
+  why: "Edge-collapsing sticky notes for Windows"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: BraveOPotato/FckSignups
+  why: "Privacy-first web tools that need no sign-up"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: bilawalsidhu/gods-eye-view
+  why: "Live 3D globe of public data feeds"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: android/nowinandroid
+  why: "Reference Android app: Kotlin + Jetpack Compose best practices"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: mmistakes/minimal-mistakes
+  why: "Popular Jekyll theme for personal sites and docs"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: horizon-rust/horizon
+  why: "Minecraft Java Edition server rewritten in Rust"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: TodePond/GulfOfMexico
+  why: "A joke programming language that's surprisingly fun to read"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: rxhanson/Rectangle
+  why: "Mac window snapping with keyboard shortcuts"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: MrKai77/Loop
+  why: "Mac window management with a radial menu"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: keycastr/keycastr
+  why: "Shows your keystrokes on screen for demos and recordings"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: swiftbar/SwiftBar
+  why: "Put any script's output in the Mac menu bar"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: jacklandrin/OnlySwitch
+  why: "All-in-one toggles for Mac settings in the menu bar"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: aonez/Keka
+  why: "Mac file archiver (7z, zip, rar and more)"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: tailscale/tailscale
+  why: "Zero-config private network (WireGuard mesh VPN)"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: tinacms/tinacms
+  why: "Open-source headless CMS on top of Git"
+  category: utils
+  status: study
+  added: 2026-11-14
+
+- repo: neondatabase/neon
+  why: "Serverless Postgres that branches instantly"
+  category: utils
+  status: study
+  added: 2026-11-14
+
 # ───────── 🛠 Apps & other ─────────
 
 - repo: ethanplusai/sellbird
@@ -1503,3 +1704,311 @@
   status: study
   added: 2026-11-14
 
+- repo: hydra-synth/hydra
+  why: "Live-coding visuals in the browser"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: cables-gl/cables
+  why: "Visual programming for real-time WebGL graphics"
+  category: design
+  status: study
+  added: 2026-11-14
+
+# ───────── 🎨 Design toolkit (curated from Craftwork's list) ─────────
+
+- link: https://stitch.withgoogle.com
+  title: "Google Stitch"
+  type: aidesign
+  why: "Free. Prompt to UI designs and front-end code, by Google"
+
+- link: https://craftwork.design/mcp
+  title: "Craftwork MCP"
+  type: aidesign
+  why: "Paid. 40,000+ human-made assets your coding agent can pull in"
+
+- link: https://www.figma.com
+  title: "Figma"
+  type: aidesign
+  why: "Freemium. The standard design tool; its MCP lets agents read and write frames"
+
+- link: https://www.framer.com
+  title: "Framer"
+  type: aidesign
+  why: "Freemium. Design and publish websites; MCP for agent edits"
+
+- link: https://spline.design
+  title: "Spline"
+  type: aidesign
+  why: "Freemium. 3D design in the browser, with an MCP"
+
+- link: https://www.unicorn.studio
+  title: "Unicorn Studio"
+  type: aidesign
+  why: "Freemium. Interactive WebGL motion scenes for the web"
+
+- link: https://paper.design
+  title: "Paper"
+  type: aidesign
+  why: "Freemium. AI design canvas that agents can read and write"
+
+- link: https://kombai.com
+  title: "Kombai"
+  type: aidesign
+  why: "Paid. AI front-end engineer that turns designs into code"
+
+- link: https://www.subframe.com
+  title: "Subframe"
+  type: aidesign
+  why: "Freemium. AI UI editor that outputs React + Tailwind"
+
+- link: https://uxpilot.ai
+  title: "UX Pilot"
+  type: aidesign
+  why: "Freemium. AI wireframes and UI screens"
+
+- link: https://www.visily.ai
+  title: "Visily"
+  type: aidesign
+  why: "Freemium. AI wireframing for non-designers"
+
+- link: https://www.krea.ai
+  title: "Krea AI"
+  type: aidesign
+  why: "Freemium. Real-time AI image and video generation"
+
+- link: https://www.lovart.ai
+  title: "Lovart"
+  type: aidesign
+  why: "Freemium. AI design agent for brand and marketing visuals"
+
+- link: https://higgsfield.ai
+  title: "Higgsfield AI"
+  type: aidesign
+  why: "Freemium. AI video generation with camera controls"
+
+- link: https://www.shadergradient.co
+  title: "ShaderGradient"
+  type: aidesign
+  why: "Free. Animated 3D shader gradients, export or embed"
+
+- link: https://gsap.com
+  title: "GSAP"
+  type: aidesign
+  why: "Free. The pro animation library (ScrollTrigger and more)"
+
+- link: https://21st.dev
+  title: "21st.dev"
+  type: components
+  why: "Free. 12,000+ React components, templates and shadcn themes"
+
+- link: https://ui.aceternity.com
+  title: "Aceternity UI"
+  type: components
+  why: "Freemium. Copy-paste animated components and templates"
+
+- link: https://www.cult-ui.com
+  title: "Cult UI"
+  type: components
+  why: "Free. Polished shadcn-compatible components"
+
+- link: https://craftwork.design
+  title: "Craftwork"
+  type: assets
+  why: "Freemium. UI kits, mockups, 3D, illustrations and fonts"
+
+- link: https://rotato.app
+  title: "Rotato"
+  type: assets
+  why: "Paid. 3D animated device mockups and videos, 8K export"
+
+- link: https://ls.graphics
+  title: "LS Graphics"
+  type: assets
+  why: "Freemium. Device and branding mockups"
+
+- link: https://mockuuups.studio
+  title: "Mockuuups Studio"
+  type: assets
+  why: "Freemium. 5,200+ drag-and-drop mockups"
+
+- link: https://creatoom.com
+  title: "Creatoom"
+  type: assets
+  why: "Freemium. 6,600+ PSD item and scene mockups"
+
+- link: https://unblast.com
+  title: "Unblast"
+  type: assets
+  why: "Free. Free mockups, templates and design resources"
+
+- link: https://svgl.app
+  title: "SVGL"
+  type: assets
+  why: "Free. Brand logos as clean SVGs"
+
+- link: https://tabler.io/icons
+  title: "Tabler Icons"
+  type: assets
+  why: "Free. 5,000+ open-source stroke icons"
+
+- link: https://lineicons.com
+  title: "Lineicons"
+  type: assets
+  why: "Freemium. Icon library for web and apps"
+
+- link: https://css.gg
+  title: "css.gg"
+  type: assets
+  why: "Free. Open-source icons made in pure CSS"
+
+- link: https://3dicons.co
+  title: "3dicons"
+  type: assets
+  why: "Free. Open-source 3D icon set"
+
+- link: https://icons8.com
+  title: "Icons8"
+  type: assets
+  why: "Freemium. Icons, illustrations and photos in one place"
+
+- link: https://velvetyne.fr
+  title: "Velvetyne"
+  type: fonts
+  why: "Free. Libre fonts with real character"
+
+- link: https://www.freefaces.gallery
+  title: "Free Faces"
+  type: fonts
+  why: "Free. Curated free-licensed typefaces"
+
+- link: https://open-foundry.com
+  title: "Open Foundry"
+  type: fonts
+  why: "Free. Curated open-source typefaces"
+
+- link: https://www.collletttivo.it
+  title: "Collletttivo"
+  type: fonts
+  why: "Free. Open-source type foundry"
+
+- link: https://www.typewolf.com
+  title: "Typewolf"
+  type: fonts
+  why: "Free. Font pairings and type in real websites"
+
+- link: https://fontsinuse.com
+  title: "Fonts In Use"
+  type: fonts
+  why: "Free. Archive of typography in the real world"
+
+- link: https://mobbin.com
+  title: "Mobbin"
+  type: inspiration
+  why: "Freemium. 600,000+ real app screens and flows, with an MCP"
+
+- link: https://refero.design
+  title: "Refero"
+  type: inspiration
+  why: "Freemium. UI/UX references from real products"
+
+- link: https://pageflows.com
+  title: "Page Flows"
+  type: inspiration
+  why: "Paid. Recorded user flows from top apps"
+
+- link: https://www.landingfolio.com
+  title: "Landingfolio"
+  type: inspiration
+  why: "Freemium. Landing-page inspiration and templates"
+
+- link: https://saaspo.com
+  title: "SaaSpo"
+  type: inspiration
+  why: "Free. SaaS landing pages and UI examples"
+
+- link: https://www.darkmodedesign.com
+  title: "Dark Mode Design"
+  type: inspiration
+  why: "Free. Showcase of dark-mode websites"
+
+- link: https://muz.li
+  title: "Muzli"
+  type: inspiration
+  why: "Free. Daily design inspiration"
+
+- link: https://www.are.na
+  title: "Are.na"
+  type: inspiration
+  why: "Freemium. Boards for visual research"
+
+- link: https://www.cosmos.so
+  title: "Cosmos"
+  type: inspiration
+  why: "Free. Visual bookmarking for moodboards"
+
+- link: https://bpando.org
+  title: "BP&O"
+  type: inspiration
+  why: "Free. Brand identity write-ups"
+
+- link: https://abduzeedo.com
+  title: "Abduzeedo"
+  type: inspiration
+  why: "Free. Branding, 3D and digital design projects"
+
+- link: https://www.granola.ai
+  title: "Granola"
+  type: mac
+  why: "Freemium. AI meeting notes without a bot in the call"
+
+- link: https://krisp.ai
+  title: "Krisp"
+  type: mac
+  why: "Freemium. AI noise cancellation for calls"
+
+- link: https://eagle.cool
+  title: "Eagle"
+  type: mac
+  why: "Paid. Organize images, references and design assets"
+
+- link: https://rightfontapp.com
+  title: "RightFont"
+  type: mac
+  why: "Paid. Font manager for designers"
+
+- link: https://timingapp.com
+  title: "Timing"
+  type: mac
+  why: "Paid. Automatic time tracking"
+
+- link: https://www.beeper.com
+  title: "Beeper"
+  type: mac
+  why: "Free. All your chat apps in one inbox"
+
+- link: https://sindresorhus.com/dato
+  title: "Dato"
+  type: mac
+  why: "Paid. Better menu-bar calendar and time zones"
+
+- link: https://bezier.method.ac
+  title: "The Bezier Game"
+  type: course
+  why: "Free. Learn the pen tool by playing"
+
+- link: https://boolean.method.ac
+  title: "The Boolean Game"
+  type: course
+  why: "Free. Learn boolean shape operations"
+
+- link: https://type.method.ac
+  title: "Kern Type"
+  type: course
+  why: "Free. Practice kerning letters"
+
+- link: https://cantunsee.space
+  title: "Can't Unsee"
+  type: course
+  why: "Free. Train your eye for UI details"
