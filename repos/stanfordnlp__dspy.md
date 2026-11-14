@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 39.0k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [781](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [782](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |

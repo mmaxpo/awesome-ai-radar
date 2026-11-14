@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 51.0k |
 | 🍴 **Forks** | 3.8k |
-| 🐞 **Open issues + PRs** | [341](https://github.com/alibaba/open-code-review/issues) |
+| 🐞 **Open issues + PRs** | [339](https://github.com/alibaba/open-code-review/issues) |
 | 💻 **Languages** | Go 70% · JavaScript 12% · TypeScript 10% · Kotlin 6% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.13.6](https://github.com/alibaba/open-code-review/releases/tag/v1.13.6)
-<sub>2026-11-05 · 8d ago</sub>
+<sub>2026-11-05 · 9d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): showcase supported model providers (#1862)
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [feat(review): support --resume for workspace mode (#1922)](https://github.com/alibaba/open-code-review/commit/94893d927aca429fa94b89a9f849c1fdd6a18afd) | Walternater |
 | 2026-11-14 | [feat(workspace): support comparison-side code access (#1915)](https://github.com/alibaba/open-code-review/commit/abd6416e6faec64e00af170a74633e34d56ab467) | lizhengfeng101 |
 | 2026-11-13 | [fix(action): show warnings in zero-finding PR summaries (#1766)](https://github.com/alibaba/open-code-review/commit/0e9060da66af36a96a15516e76a001953095318b) | Frank-zhu2000 |
 | 2026-11-13 | [feat(manifest): record excluded files in run coverage (#1901)](https://github.com/alibaba/open-code-review/commit/65b12d71c80dd2dd25834bb3063baf1c224be86a) | NicolasRocchia |
@@ -103,7 +104,6 @@
 | 2026-11-12 | [docs(rules): put the rule table back in matching order, and hold it t…](https://github.com/alibaba/open-code-review/commit/1d7cc448200eebe3fb710834c0e7b8d04b63f77b) | abhisheksharma2411 |
 | 2026-11-12 | [feat(tools): support reading both comparison sides (#1903)](https://github.com/alibaba/open-code-review/commit/4236c871fe8130aa840a2a1c0922f469e87e0416) | lizhengfeng101 |
 | 2026-11-11 | [fix(acp): register stub signals before readiness (#1905)](https://github.com/alibaba/open-code-review/commit/db5db6bec62ee45c02171a12e043b8239223aa07) | lizhengfeng101 |
-| 2026-11-11 | [fix(ci): upgrade Go toolchains to 1.26.11 (#1904)](https://github.com/alibaba/open-code-review/commit/a6b57ecaa002c01f1f0b361866de89b318dc4a7a) | lizhengfeng101 |
 
 [See all commits ↗](https://github.com/alibaba/open-code-review/commits)
 

@@ -80,7 +80,7 @@
 > …
 
 ### [v2026.10.3](https://github.com/pypa/pipenv/releases/tag/v2026.10.3) — Release v2026.10.3
-<sub>2026-10-25 · 19d ago</sub>
+<sub>2026-10-25 · 20d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**

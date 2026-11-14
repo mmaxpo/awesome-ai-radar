@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-07-27 |
 | 📦 **Latest release** | [v1.106.10](https://github.com/BerriAI/litellm/releases/tag/v1.106.10) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 2903.5 MB |
+| 💾 **Size** | 2916.2 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases

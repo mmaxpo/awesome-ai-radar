@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-07-01 |
 | 📦 **Latest release** | [v2.1.0](https://github.com/JustVugg/colibri/releases/tag/v2.1.0) — 2026-10-31 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 50.8 MB |
+| 💾 **Size** | 51.6 MB |
 | 🌐 **Website** | https://justvugg.github.io/colibri |
 
 ## 📦 Recent releases

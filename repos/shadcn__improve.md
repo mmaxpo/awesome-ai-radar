@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 11.8k |
-| 🍴 **Forks** | 479 |
+| 🍴 **Forks** | 480 |
 | 🐞 **Open issues + PRs** | [18](https://github.com/shadcn/improve/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |

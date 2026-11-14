@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 21.3k |
+| ⭐ **Stars** | 21.4k |
 | 🍴 **Forks** | 1.8k |
 | 🐞 **Open issues + PRs** | [121](https://github.com/img2threejs/img2threejs/issues) |
 | 💻 **Languages** | Python 97% · JavaScript 2% |

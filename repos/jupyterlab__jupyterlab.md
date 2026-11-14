@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Bump the pip group across 1 directory with 10 updates (#20316)](https://github.com/jupyterlab/jupyterlab/commit/a54eb172248db98dc7105cf944a1ac99bd400f43) | dependabot[bot] |
 | 2026-11-14 | [[pre-commit.ci] pre-commit autoupdate (#20371)](https://github.com/jupyterlab/jupyterlab/commit/579d5efab65dd2f6a4dba4df0e204c6652a56f98) | pre-commit-ci[bot] |
 | 2026-11-14 | [Bump dompurify from 3.4.16 to 3.4.17 (#20500)](https://github.com/jupyterlab/jupyterlab/commit/50c4c92ad19d0e1bba24f598250a38d9fd317d1d) | dependabot[bot] |
 | 2026-11-14 | [User-facing changelog for 4.7 release (#20457)](https://github.com/jupyterlab/jupyterlab/commit/9e14d8c3b303a46c0e9436a15971141181046461) | krassowski |
@@ -103,7 +104,6 @@
 | 2026-11-13 | [Stop breaking extensions' `jest` when adding dependencies with ES mod…](https://github.com/jupyterlab/jupyterlab/commit/c66ba9537580caed0e87c6048fcad1c7fb240f2d) | krassowski |
 | 2026-11-13 | [Add an `all-green` check that passes when all other checks pass (#20492)](https://github.com/jupyterlab/jupyterlab/commit/c89204926c82e014488d603827af67e091d5efbe) | krassowski |
 | 2026-11-13 | [Add a toolbar visibility toggle for the notebook toolbar to the View …](https://github.com/jupyterlab/jupyterlab/commit/517cd3fb6dcc57def50d04e8e7458474112bd913) | MUFFANUJ |
-| 2026-11-13 | [Speed up the ESLint pre-commit hook and cut its memory use (#20488)](https://github.com/jupyterlab/jupyterlab/commit/4b98a065bb83cfdd591088c4b0907f19178b9017) | krassowski |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

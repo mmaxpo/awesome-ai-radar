@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 16d ago</sub>
+<sub>2026-10-28 · 17d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.

@@ -30,7 +30,7 @@
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1688.5 MB |
+| 💾 **Size** | 1682.8 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases

@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 21.0k |
+| ⭐ **Stars** | 21.1k |
 | 🍴 **Forks** | 6.8k |
 | 🐞 **Open issues + PRs** | [38](https://github.com/vercel/chatbot/issues) |
 | 💻 **Languages** | TypeScript 96% · JavaScript 2% · CSS 2% |

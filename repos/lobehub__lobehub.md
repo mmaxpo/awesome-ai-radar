@@ -28,12 +28,23 @@
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
 | 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2023-05-21 |
-| 📦 **Latest release** | [v0.0.0-nightly.pr22966.39383](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22966.39383) — 2026-11-13 |
+| 📦 **Latest release** | [v0.0.0-nightly.pr23017.39486](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23017.39486) — 2026-11-14 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 609.8 MB |
+| 💾 **Size** | 609.0 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
+
+### [v0.0.0-nightly.pr23017.39486](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23017.39486) — PR Build v0.0.0-nightly.pr23017.39486 _(pre-release)_
+<sub>2026-11-14 · today</sub>
+
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr23017.39486`
+> **Release Time**: `2026-11-14T11:49:52.042Z`
+> **PR**: [#23017](https://github.com/lobehub/lobehub/pull/23017)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
+> …
 
 ### [v0.0.0-nightly.pr22966.39383](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22966.39383) — PR Build v0.0.0-nightly.pr22966.39383 _(pre-release)_
 <sub>2026-11-13 · today</sub>
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.0.0-nightly.pr22966.39356](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22966.39356) — PR Build v0.0.0-nightly.pr22966.39356 _(pre-release)_
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr22966.39356`
@@ -75,17 +86,6 @@
 > **Version**: `0.0.0-nightly.pr22966.39350`
 > **Release Time**: `2026-11-13T10:48:16.326Z`
 > **PR**: [#22966](https://github.com/lobehub/lobehub/pull/22966)
-> **⚠️ Important Notice**
-> This is a **development build** specifically created for testing purposes. Please note:
-> …
-
-### [v0.0.0-nightly.pr22961.39346](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22961.39346) — PR Build v0.0.0-nightly.pr22961.39346 _(pre-release)_
-<sub>2026-11-13 · yesterday</sub>
-
-> **PR Build Information**
-> **Version**: `0.0.0-nightly.pr22961.39346`
-> **Release Time**: `2026-11-13T09:46:11.998Z`
-> **PR**: [#22961](https://github.com/lobehub/lobehub/pull/22961)
 > **⚠️ Important Notice**
 > This is a **development build** specifically created for testing purposes. Please note:
 > …

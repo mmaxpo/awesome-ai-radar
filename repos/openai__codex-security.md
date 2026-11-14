@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 13.4k |
 | 🍴 **Forks** | 1.0k |
-| 🐞 **Open issues + PRs** | [172](https://github.com/openai/codex-security/issues) |
+| 🐞 **Open issues + PRs** | [173](https://github.com/openai/codex-security/issues) |
 | 💻 **Languages** | TypeScript 76% · Python 21% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |

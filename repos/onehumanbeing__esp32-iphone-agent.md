@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.9k |
-| 🍴 **Forks** | 676 |
-| 🐞 **Open issues + PRs** | [16](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
+| 🍴 **Forks** | 678 |
+| 🐞 **Open issues + PRs** | [15](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 61% · C 21% · Go 9% · C++ 4% · Python 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `airplay` `automation` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `dsh-plugin` `claude-code` `ios` `ios-automation` `mcp` `mcp-server` `mobile-agent` `phone-agent` `screen-mirroring` `seeed-xiao` `xiao-esp32s3` |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [README: lead the first screen with the result and a star ask (#154)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/cc566b9d946bac7980177d83fc92e398553d919d) | onehumanbeing |
 | 2026-11-13 | [App 1.0.6: record learning, steer, standby island, long tasks, absolu…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/39aa23e17de957bc01529fbd8f22f4deef0e08ca) | onehumanbeing |
 | 2026-11-12 | [fastlane: export with App Store Connect API key cloud signing (no Xco…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/87ddf6cf082c58a078c47f2b805c240205d0d516) | onehumanbeing |
 | 2026-11-12 | [Changelog 1.0.5: intents improve themselves (#151)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/788d9f16afd3b9b71772ec8bdd3e01fb834bb5d2) | onehumanbeing |
@@ -103,7 +104,6 @@
 | 2026-11-09 | [fix(ios): remove the saved key when the user clears the API key (#137)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/92b472fe0d46e0e8802c67915d20b236d145ab0e) | djs-91 |
 | 2026-11-09 | [Docs: wait_idr after boot means an IDR too big for the buffer (follow…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/0cb40beff4b92b0ccdec5266ee4e12a61658f116) | onehumanbeing |
 | 2026-11-09 | [fix(video): snap returns err waiting for keyframe while wait_idr (#132)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/4b175ea45121802de30360fef0b373826b853dcd) | shinjiyu |
-| 2026-11-08 | [test(daemon): fail instead of hang when onStatus holds c.mu (#126)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/8574ef7e03db708f9c7c0ffc9407936850ff3eeb) | onehumanbeing |
 
 [See all commits ↗](https://github.com/onehumanbeing/esp32-iphone-agent/commits)
 

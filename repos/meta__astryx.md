@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 27.7k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [682](https://github.com/meta/astryx/issues) |
+| 🐞 **Open issues + PRs** | [680](https://github.com/meta/astryx/issues) |
 | 💻 **Languages** | TypeScript 66% · JavaScript 32% · Swift 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-01-09 |
 | 📦 **Latest release** | [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1339.0 MB |
+| 💾 **Size** | 1338.5 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [test(cli): take every page template round trip, and every hostile cop…](https://github.com/meta/astryx/commit/91ffe9fdebc514cfda6c06a3c9306787b4b6d05a) | josephfarina |
+| 2026-11-14 | [fix(cli): a frame counts as start evidence only when it holds the pag…](https://github.com/meta/astryx/commit/26c29f05c8be4fdd0923bb10733d0c17c08c8334) | josephfarina |
+| 2026-11-14 | [fix(cli): remove page-template keywords that the template doesn't ren…](https://github.com/meta/astryx/commit/847c3f112775dd1cac2e89d32b435f2f40b1b338) | josephfarina |
+| 2026-11-14 | [fix(cli): experimental render reads path aliases from the tsconfig Ty…](https://github.com/meta/astryx/commit/52ec26137bf99912a90b5d81251423c4beb5503f) | josephfarina |
+| 2026-11-14 | [experimental theme: how measures every variant and mode, input reader…](https://github.com/meta/astryx/commit/78f7c7a7002ab2471b7c8756c04a9eab2bcf0368) | josephfarina |
+| 2026-11-14 | [perf(cli): a hosted run keeps its catalog, keyed on what the host pas…](https://github.com/meta/astryx/commit/fd36ff22a8b2b74ffd280f3cce35870f090c33e8) | josephfarina |
+| 2026-11-14 | [fix(cli): experimental render says a file it cannot read cannot be re…](https://github.com/meta/astryx/commit/03a3c8f9f140710536b941c264c2e8a06478d2f8) | josephfarina |
+| 2026-11-14 | [ci: the swizzle proof and the Node browser contracts run in their own…](https://github.com/meta/astryx/commit/ec072c7d9cbe2d427e59a9b40a6c8627b269bf40) | josephfarina |
 | 2026-11-14 | [feat(cli): build picks which page to start from with its own word mod…](https://github.com/meta/astryx/commit/9a957aa3df3dad723bb9a3831925933ea914ac7a) | josephfarina |
 | 2026-11-14 | [docs(templates): describe Content pages in their users' words (#11656)](https://github.com/meta/astryx/commit/44043bccefd6cad136cdec7a2007aece889e2f67) | josephfarina |
-| 2026-11-14 | [fix(cli): experimental render outside a project carries the modules a…](https://github.com/meta/astryx/commit/b569b9d06d322f84196760ba683ff9ebe46d0026) | josephfarina |
-| 2026-11-14 | [feat(Pagination): page links through getPageHref (#11578)](https://github.com/meta/astryx/commit/54f211658ccf70c25146aa573c1dd820fbb976f3) | nynexman4464 |
-| 2026-11-14 | [chore(release): plan v0.7.17 (#11706)](https://github.com/meta/astryx/commit/a22158ef4ac350393e5e2d8288cc849fd785999a) | cixzhang |
-| 2026-11-14 | [fix(cli): experimental render --reverse reads a copy whose line ends …](https://github.com/meta/astryx/commit/f95af0146d1cfaec5c9e103fa26e98d9e93d4515) | josephfarina |
-| 2026-11-14 | [perf(cli): doctor --built reads source files faster (#11722)](https://github.com/meta/astryx/commit/78296ca924994d13d4b7ac7c4c3ca1e0f06d0e44) | josephfarina |
-| 2026-11-14 | [feat(cli): theming override examples fit on one line (#11637)](https://github.com/meta/astryx/commit/6519401cd397aac0016d3d0134743e6e6f78eadb) | josephfarina |
-| 2026-11-14 | [fix(cli): experimental render compiles Core's StyleX theme variables …](https://github.com/meta/astryx/commit/1022a8d8566bb6c060799e342e844763036e8f21) | josephfarina |
-| 2026-11-14 | [fix(cli): build matches blocks by single docs words outside its vocab…](https://github.com/meta/astryx/commit/a1d6abc4b5e0c581cd9e3a73c6fd53b7f4d6ef7c) | josephfarina |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

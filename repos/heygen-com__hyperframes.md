@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 84.1k |
 | 🍴 **Forks** | 7.8k |
-| 🐞 **Open issues + PRs** | [274](https://github.com/heygen-com/hyperframes/issues) |
+| 🐞 **Open issues + PRs** | [275](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `framework` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-03-10 |
 | 📦 **Latest release** | [v0.9.45](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.45) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 527.4 MB |
+| 💾 **Size** | 527.0 MB |
 | 🌐 **Website** | https://hyperframes.heygen.com |
 
 ## 📦 Recent releases

@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [[DataFusion] Keep remote-scan responses within the message size limit](https://github.com/restatedev/restate/commit/0e9b0469d2b613fc6fcf40970d888195030f41be) | AhmedSoliman |
 | 2026-11-14 | [[PartitionStore] Test SQL over statistics on the query scan path](https://github.com/restatedev/restate/commit/871104dff13130837f6d6f09f413f4adfabb52c3) | AhmedSoliman |
 | 2026-11-14 | [[Node] Serve the indexes and migration_jobs tables from worker nodes](https://github.com/restatedev/restate/commit/933e8cf2429aa3669091c5ee352f6b514cbb6df6) | AhmedSoliman |
 | 2026-11-14 | [[DataFusion] Run V1 table scans on the query IO pool](https://github.com/restatedev/restate/commit/9fe79a07556a78e5edaf07bdbd9adcb933f0aa31) | AhmedSoliman |
@@ -103,7 +104,6 @@
 | 2026-11-14 | [[PartitionStore] Let queries scan invocation and entry statuses](https://github.com/restatedev/restate/commit/085c1975b01dd86c8ddd774ee3cde2d2fa6b44a7) | AhmedSoliman |
 | 2026-11-14 | [[CLI] Let restatectl accept responses of any size](https://github.com/restatedev/restate/commit/3bfaacb1f5a69865fecc64918fa21d0d8c759de6) | AhmedSoliman |
 | 2026-11-14 | [[Admin] Remove the orphaned query_utils.rs](https://github.com/restatedev/restate/commit/f3786247fd0f2b271a95dedf2c1bae29d24c3f63) | AhmedSoliman |
-| 2026-11-13 | [[Query] Add the indexes and migration_jobs cluster tables](https://github.com/restatedev/restate/commit/7dd495f75245e1951e748e34359eec1a69fe700b) | AhmedSoliman |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

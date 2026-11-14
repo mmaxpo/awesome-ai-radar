@@ -82,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [perf(app): measure main-thread work to scroll history (#63923)](https://github.com/anomalyco/opencode/commit/d759c548aab33a7a6f5171cbeab40a59e91d90aa) | Hona |
 | 2026-11-14 | [chore(perf): bench with strobe 0.41.0 (#63918)](https://github.com/anomalyco/opencode/commit/c9957fd50858aafd43fb8167b117b3a8e5210529) | Hona |
 | 2026-11-14 | [chore(perf): bench with strobe 0.40.0 (#63914)](https://github.com/anomalyco/opencode/commit/024a1462f55aa64243b859729b2d0816b42b17e3) | Hona |
 | 2026-11-14 | [chore(perf): bench with strobe 0.39.0 (#63893)](https://github.com/anomalyco/opencode/commit/cbe71595e1f370ff91b3081872b96bbe56519c41) | Hona |
@@ -91,7 +92,6 @@
 | 2026-11-13 | [fix(app): polish the connect dialog sign-in steps (#63829)](https://github.com/anomalyco/opencode/commit/f91b88efac039856f284979984ac43cd93bce8f5) | arvsrn |
 | 2026-11-13 | [fix(core): keep text starting with BM readable (#63822)](https://github.com/anomalyco/opencode/commit/e6fc58886ae4838099125d2cc19dd0418ef0e4fc) | rekram1-node |
 | 2026-11-13 | [feat(app): find in side panel previews (#63663)](https://github.com/anomalyco/opencode/commit/083e3114a563c09a7521d6f183ff54a0f985c0c8) | rekram1-node |
-| 2026-11-13 | [refactor(core): skip the text MIME scan when checking for media (#63823)](https://github.com/anomalyco/opencode/commit/0b7a1a04e6ea82dcac8777dacb881bab7ac52436) | rekram1-node |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

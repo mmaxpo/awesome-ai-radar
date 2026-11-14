@@ -46,7 +46,7 @@
 > This patch release fixes A2UI rendering for catalogs that declare protocol version 1.0 when streaming Direct JSON.
 
 ### [python-sdk/v0.1.97](https://github.com/CopilotKit/CopilotKit/releases/tag/python-sdk/v0.1.97)
-<sub>2026-11-12 · yesterday</sub>
+<sub>2026-11-12 · 2d ago</sub>
 
 > Python SDK release: copilotkit 0.1.97
 > https://pypi.org/project/copilotkit/0.1.97/

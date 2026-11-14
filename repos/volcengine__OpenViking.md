@@ -23,14 +23,14 @@
 | ⭐ **Stars** | 42.2k |
 | 🍴 **Forks** | 3.5k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/volcengine/OpenViking/issues) |
-| 💻 **Languages** | Python 64% · TypeScript 17% · Rust 11% · JavaScript 3% · MDX 2% |
+| 💻 **Languages** | Python 64% · TypeScript 17% · Rust 11% · JavaScript 3% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
 | 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [react@0.1.11](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.11) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 419.3 MB |
+| 💾 **Size** | 419.4 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
@@ -63,7 +63,7 @@
 > …
 
 ### [python-sdk@0.1.20](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.20) — openviking-sdk 0.1.20
-<sub>2026-11-12 · yesterday</sub>
+<sub>2026-11-12 · 2d ago</sub>
 
 > **更新**
 > - 支持上下文使用次数与最近使用时间标签更新

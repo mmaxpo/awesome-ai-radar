@@ -69,7 +69,7 @@
 > …
 
 ### [rust-v0.0.58](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.58) — Open Interpreter 0.0.58
-<sub>2026-11-01 · 12d ago</sub>
+<sub>2026-11-01 · 13d ago</sub>
 
 > **Open Interpreter 0.0.58**
 > **Models**

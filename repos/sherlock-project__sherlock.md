@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 111.4k |
+| ⭐ **Stars** | 111.5k |
 | 🍴 **Forks** | 12.9k |
 | 🐞 **Open issues + PRs** | [414](https://github.com/sherlock-project/sherlock/issues) |
 | 💻 **Languages** | Python 97% · Dockerfile 2% |
