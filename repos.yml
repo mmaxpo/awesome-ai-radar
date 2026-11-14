@@ -230,6 +230,12 @@
   status: study
   added: 2026-11-11
 
+- repo: google/ax
+  why: "Kubernetes-style infrastructure for AI agents"
+  category: workflows
+  status: study
+  added: 2026-11-14
+
 # ───────── 🪄 Agent skills & guidance ─────────
 
 - repo: nextlevelbuilder/ui-ux-pro-max-skill
@@ -878,6 +884,12 @@
 - org: whitphx
   why: "streamlit-webrtc, stlite and other Python web tools"
 
+- org: openclaw
+  why: "OpenClaw: open-source personal AI agent"
+
+- org: lmstudio-ai
+  why: "LM Studio: run local models"
+
 # ───────── 📎 More resources (not GitHub repos) ─────────
 
 - link: https://huggingface.co/papers/2306.03504
@@ -1078,6 +1090,489 @@
 - repo: HKUDS/CLI-Anything
   why: "Wraps any software in a CLI so AI agents can operate it"
   category: agents
+  status: study
+  added: 2026-11-14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- repo: NandhaKishorM/laya
+  why: ""
+  status: study
+  added: 2026-11-14
+
+
+
+
+
+
+
+
+
+
+
+
+- repo: AgriciDaniel/claude-ads
+  why: ""
+  status: study
+  added: 2026-11-14
+
+
+
+
+
+
+
+- repo: superdesigndev/treg
+  why: ""
+  status: study
+  added: 2026-11-14
+
+- repo: earendil-works/pi
+  why: ""
+  status: study
+  added: 2026-11-14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- repo: cosmicstack-labs/mercury-agent
+  why: "Always-on AI agent you message via WhatsApp, Telegram or Slack"
+  category: agents
+  status: study
+  added: 2026-11-14
+
+- repo: ranxianglei/billion-context
+  why: "Context-compression plugin for long coding-agent sessions"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: homeassistant-ai/ha-mcp
+  why: "MCP server: run Home Assistant from Claude or ChatGPT"
+  category: sdk
+  status: study
+  added: 2026-11-14
+
+- repo: chriswritescode-dev/opencode-manager
+  why: "OpenCode sessions, git and terminal in one web app"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: walkinglabs/learn-harness-engineering
+  why: "Hands-on course on harness engineering for AI agents"
+  category: learning
+  status: study
+  added: 2026-11-14
+
+- repo: experientiallabs/experiential
+  why: "Gateway and router for agent workflows"
+  category: agents
+  status: study
+  added: 2026-11-14
+
+- repo: trycompai/crm
+  why: "Self-hosted CRM with an AI research agent"
+  category: apps
+  status: study
+  added: 2026-11-14
+
+- repo: elementalsouls/Claude-BugHunter
+  why: "Claude Code skill bundle for bug hunting and red teaming"
+  category: security
+  status: study
+  added: 2026-11-14
+
+- repo: sandbox-quantum/switch
+  why: "Self-hosted coding agents inside Slack, Teams or Discord"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: roryclear/clearcam
+  why: "Object detection and tracking for any security camera"
+  category: ml
+  status: study
+  added: 2026-11-14
+
+- repo: jordan-gibbs/hyperresearch
+  why: "Turns Claude Code or Codex into a deep-research agent"
+  category: agents
+  status: study
+  added: 2026-11-14
+
+- repo: FareedKhan-dev/kimi-k3-in-c
+  why: "Kimi K3 inference on a single CPU, written in C"
+  category: models
+  status: study
+  added: 2026-11-14
+
+- repo: nofxaios/nofx
+  why: "Compare AI trade-entry plans and approve orders locally"
+  category: apps
+  status: study
+  added: 2026-11-14
+
+- repo: juneyaooo/rea-video
+  why: "Reverse-engineer any video shot by shot"
+  category: imagegen
+  status: study
+  added: 2026-11-14
+
+- repo: wkentaro/labelme
+  why: "Image annotation tool for training data"
+  category: ml
+  status: study
+  added: 2026-11-14
+
+- repo: oomol-lab/pdf-craft
+  why: "Scanned PDFs to Markdown or EPUB"
+  category: documents
+  status: study
+  added: 2026-11-14
+
+- repo: Justinmendezai/The-Adam-Repo
+  why: "Agentic engineering harness"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: cathrynlavery/diagram-design
+  why: "Diagram templates and editorial diagram types for agents"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: morluto/rea
+  why: "Reverse Engineer Anything: MCP server"
+  category: sdk
+  status: study
+  added: 2026-11-14
+
+- repo: thedotmack/claude-mem
+  why: "Long-term memory for Claude Code"
+  category: rag
+  status: study
+  added: 2026-11-14
+
+- repo: tester-army/e2e
+  why: "End-to-end testing for agent-written code"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: google/skills
+  why: "Google's open-source agent skills"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: cursor/plugins
+  why: "Cursor team's official plugins"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: vectorize-io/hindsight
+  why: "Memory system for AI agents"
+  category: rag
+  status: study
+  added: 2026-11-14
+
+- repo: pbakaus/impeccable
+  why: "Front-end design quality skill: shape, critique, polish, animate"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: paperclipai/paperclip
+  why: "Framework for running an organization of agents"
+  category: agents
+  status: study
+  added: 2026-11-14
+
+- repo: NVIDIA/Model-Optimizer
+  why: "Quantize and optimize models for local hardware"
+  category: models
+  status: study
+  added: 2026-11-14
+
+- repo: rohitg00/ai-engineering-from-scratch
+  why: "AI engineering course from scratch"
+  category: learning
+  status: study
+  added: 2026-11-14
+
+- repo: davila7/claude-code-templates
+  why: "Ready-made Claude Code templates: agents, commands, settings"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: trycua/cua
+  why: "Computer-use agents with local VMs"
+  category: agents
+  status: study
+  added: 2026-11-14
+
+- repo: BuilderIO/agent-native
+  why: "Apps that mix agent chat with traditional UI"
+  category: builders
+  status: study
+  added: 2026-11-14
+
+- repo: virgiliojr94/book-to-skill
+  why: "Turn books into agent skills"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: yctimlin/mcp_excalidraw
+  why: "Excalidraw MCP server: agents draw diagrams"
+  category: sdk
+  status: study
+  added: 2026-11-14
+
+- repo: Panniantong/Agent-Reach
+  why: "Gives agents access to information across the internet"
+  category: agents
+  status: study
+  added: 2026-11-14
+
+- repo: vastsa/PI-Desktop
+  why: "Chat-first desktop coding agent"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: ayghri/i-have-adhd
+  why: "Makes coding agents give focused, no-fluff answers"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: 0x4m4/hexstrike-ai
+  why: "AI red-teaming MCP server"
+  category: security
+  status: study
+  added: 2026-11-14
+
+- repo: microsoft/markitdown
+  why: "Convert files and web pages to Markdown for LLMs"
+  category: documents
+  status: study
+  added: 2026-11-14
+
+- repo: harry0703/MoneyPrinterTurbo
+  why: "Generates short-form videos with AI from a topic"
+  category: imagegen
+  status: study
+  added: 2026-11-14
+
+- repo: mattpocock/skills
+  why: "Matt Pocock's agent skills"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: DietrichGebert/ponytail
+  why: "Rules for coding agents"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: Imbad0202/academic-research-skills
+  why: "Multi-agent skills for academic research"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: Gitlawb/openclaude
+  why: "Run Claude Code with any model, including local ones"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: punkpeye/awesome-mcp-servers
+  why: "Curated list of MCP servers"
+  category: sdk
+  status: study
+  added: 2026-11-14
+
+- repo: lmstudio-ai/lms
+  why: "LM Studio's CLI: run and manage local models from the terminal"
+  category: models
+  status: study
+  added: 2026-11-14
+
+- repo: assistant-ui/assistant-ui
+  why: "React chat UI for AI agents"
+  category: builders
+  status: study
+  added: 2026-11-14
+
+- repo: vercel/ai-elements
+  why: "shadcn/ui components for agent reasoning, tools and plans"
+  category: builders
+  status: study
+  added: 2026-11-14
+
+- repo: vercel-labs/json-render
+  why: "Vercel's generative-UI framework"
+  category: builders
+  status: study
+  added: 2026-11-14
+
+- repo: ibelick/prompt-kit
+  why: "shadcn components for agent chat"
+  category: builders
+  status: study
+  added: 2026-11-14
+
+- repo: magicuidesign/magicui
+  why: "150+ animated React components, with an MCP server"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: ahujasid/blender-mcp
+  why: "MCP server: your agent builds and edits 3D scenes in Blender"
+  category: sdk
+  status: study
+  added: 2026-11-14
+
+- repo: shadcn-ui/ui
+  why: "shadcn/ui components, CLI, registry and MCP"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: penpot/penpot
+  why: "Open-source design tool (Figma alternative) with MCP support"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: vercel-labs/web-interface-guidelines
+  why: "Vercel's UI review guidelines for agents"
+  category: skills
+  status: study
+  added: 2026-11-14
+
+- repo: 21st-dev/magic-mcp
+  why: "Generates React + Tailwind components from plain language"
+  category: sdk
+  status: study
+  added: 2026-11-14
+
+- repo: emilkowalski/sonner
+  why: "Opinionated toast component for React"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: barvian/number-flow
+  why: "Animated number component for React"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: motiondivision/motion
+  why: "Animation library for React, JavaScript and Vue"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: DavidHDev/react-bits
+  why: "Animated, interactive React components"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: onlook-dev/onlook
+  why: "Edit React apps visually, with AI"
+  category: builders
+  status: study
+  added: 2026-11-14
+
+- repo: tldraw/make-real
+  why: "Draw a UI and turn it into working code"
+  category: builders
+  status: study
+  added: 2026-11-14
+
+- repo: continuedev/continue
+  why: "Open-source AI coding assistant for VS Code and JetBrains"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: zed-industries/zed
+  why: "Fast code editor with AI agents built in"
+  category: coding
+  status: study
+  added: 2026-11-14
+
+- repo: superdesigndev/superdesign
+  why: "Open-source AI design agent inside your IDE"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: paper-design/shaders
+  why: "Zero-dependency shaders as React components"
+  category: design
+  status: study
+  added: 2026-11-14
+
+- repo: rohitg00/awesome-claude-design
+  why: "Living list of design skills for coding agents"
+  category: skills
   status: study
   added: 2026-11-14
 
