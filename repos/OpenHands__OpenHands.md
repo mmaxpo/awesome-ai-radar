@@ -30,13 +30,13 @@
 | 📅 **Created** | 2024-03-13 |
 | 📦 **Latest release** | [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 646.8 MB |
+| 💾 **Size** | 647.0 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
 
 ### [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0)
-<sub>2026-11-12 · yesterday</sub>
+<sub>2026-11-12 · 2d ago</sub>
 
 > **1.40.0 (2026-11-12)**
 > **What's Changed**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.39.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.39.0)
-<sub>2026-11-11 · 2d ago</sub>
+<sub>2026-11-11 · 3d ago</sub>
 
 > **1.39.0 (2026-11-11)**
 > **What's Changed**
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.37.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.37.0)
-<sub>2026-11-06 · 7d ago</sub>
+<sub>2026-11-06 · 8d ago</sub>
 
 > **1.37.0 (2026-11-06)**
 > **What's Changed**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [fix: generate UUIDs without crypto.randomUUID on plain-HTTP non-loopb…](https://github.com/OpenHands/OpenHands/commit/bca403840de709eea0584da19a288be3d705cdc9) | neubig |
+| 2026-11-14 | [feat(analytics): instrument automation setup funnel dead ends (#19394)](https://github.com/OpenHands/OpenHands/commit/e20691d0ef4329a8c0fca7794272cfaf255d3709) | neubig |
 | 2026-11-14 | [refactor(ui): name the catalog remove icon stroke (#19728)](https://github.com/OpenHands/OpenHands/commit/830c0459e2f6056ab81e020c22970e782ae1be75) | enyst |
 | 2026-11-14 | [feat(hooks): name the workspace and user hooks files in the Available…](https://github.com/OpenHands/OpenHands/commit/685eb42ded117ba0321aa8c3019e6677e5474317) | enyst |
 | 2026-11-14 | [chore(deps-dev): bump eslint-plugin-import-x from 4.17.1 to 4.18.0 in…](https://github.com/OpenHands/OpenHands/commit/006373d1aa27b2d8aaaddee028018658be46d55f) | dependabot[bot] |
@@ -102,8 +104,6 @@
 | 2026-11-14 | [chore(deps): bump zustand from 5.0.16 to 5.1.0 (#19737)](https://github.com/OpenHands/OpenHands/commit/d04acba47f927d2bc00603f0501a6385ec8443a5) | dependabot[bot] |
 | 2026-11-14 | [chore(deps): bump vite from 8.3.5 to 8.3.6 (#19736)](https://github.com/OpenHands/OpenHands/commit/33476cf4cd769245e97767bd6287bd8b8dec8ebb) | dependabot[bot] |
 | 2026-11-14 | [chore(deps): bump posthog-js from 1.447.1 to 1.447.3 (#19738)](https://github.com/OpenHands/OpenHands/commit/ac012a19a8f6f64b4e164602ffc7ccdb42c40cfa) | dependabot[bot] |
-| 2026-11-14 | [chore(deps): bump framer-motion from 14.9.1 to 14.10.1 (#19740)](https://github.com/OpenHands/OpenHands/commit/2f2427112265f00d82572d411e35b62d7de6a97b) | dependabot[bot] |
-| 2026-11-14 | [chore(deps): bump @microlink/react-json-view from 1.31.46 to 1.31.48 …](https://github.com/OpenHands/OpenHands/commit/67515e050b4f7624a7f2aec1dfa22a80ed3731cb) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 

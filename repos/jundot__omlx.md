@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 23.6k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [497](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [505](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-13 (yesterday) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 0.8.0rc1
-<sub>2026-11-12 · yesterday</sub>
+<sub>2026-11-12 · 2d ago</sub>
 
 > **oMLX 0.8.0rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3) — 0.7.3
-<sub>2026-10-31 · 13d ago</sub>
+<sub>2026-10-31 · 14d ago</sub>
 
 > **oMLX 0.7.3**
 > oMLX 0.7.3 makes DeepSeek V4.1 prefill and batched decode faster, lets Ask AI hold voice conversations, search the web, read links and look at your screen, and cuts memory use when many requests run at long context. The notes below cover changes since 0.7.3rc1, and earlier 0.7.3 highlights are summarized at the end.

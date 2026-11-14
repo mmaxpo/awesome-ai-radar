@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 91% · JavaScript 5% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-13 (yesterday) |
 | 📅 **Created** | 2026-06-26 |
 | 📦 **Latest release** | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |

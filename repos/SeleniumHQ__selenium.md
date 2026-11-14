@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 34.6k |
 | 🍴 **Forks** | 8.7k |
-| 🐞 **Open issues + PRs** | [181](https://github.com/SeleniumHQ/selenium/issues) |
+| 🐞 **Open issues + PRs** | [182](https://github.com/SeleniumHQ/selenium/issues) |
 | 💻 **Languages** | Java 33% · C# 14% · JavaScript 11% · Python 10% · C++ 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `selenium` `webdriver` `java` `ruby` `python` `javascript` `dotnet` `rust` |
@@ -47,7 +47,7 @@
 > …
 
 ### [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) — Selenium 4.52.0
-<sub>2026-10-29 · 15d ago</sub>
+<sub>2026-10-29 · 16d ago</sub>
 
 > **Detailed Changelogs by Component**
 > <img src="https://www.selenium.dev/images/programming/java.svg" width="20" height="20"> **[Java](https://github.com/SeleniumHQ/selenium/blob/trunk/java/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/python.svg" width="20" height="20"> **[Python](https://github.com/SeleniumHQ/selenium/blob/trunk/py/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/dotnet.svg" width="20" height="20"> **[DotNet](https://github.com/SeleniumHQ/selenium/blob/trunk/dotnet/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/ruby.svg" width="20" height="20"> **[Ruby](https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/javascript.svg" width="20" height="20"> **[JavaScript](https://github.com/SeleniumHQ/selenium/blob/trunk/javascript/selenium-webdriver/CHANGES.md)**

@@ -26,11 +26,11 @@
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 62.4 MB |
+| 💾 **Size** | 61.5 MB |
 | 🌐 **Website** | https://pyo3.rs |
 
 ## 📦 Recent releases
@@ -89,6 +89,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Fix Python logging example in documentation (#6581)](https://github.com/PyO3/pyo3/commit/b3fd214929cb17bfdc330c1388bcf24bfd3b2778) | innerpeacenan |
 | 2026-11-13 | [avoid leaking integers when creating slice objects (#6575)](https://github.com/PyO3/pyo3/commit/bafdacd76db5612488bcf941a89bb312fc30851f) | davidhewitt |
 | 2026-11-13 | [ci: fix lint failures nov 26 (#6576)](https://github.com/PyO3/pyo3/commit/c99586455deae0394c5a53e43db9333dd6937d4c) | davidhewitt |
 | 2026-11-02 | [feat: introduce stack-allocated `PyBuffer` (#5894)](https://github.com/PyO3/pyo3/commit/f41d7e8799cad7f1c393d00276a4fa7b83acf885) | winstxnhdw |
@@ -98,7 +99,6 @@
 | 2026-10-26 | [build(deps): update scraper requirement in /pyo3-ffi-check (#6554)](https://github.com/PyO3/pyo3/commit/48ab34bf607ea71b0db83214b93db46840b455d1) | dependabot[bot] |
 | 2026-10-25 | [build(deps): bump filelock from 3.19.1 to 3.20.3 (#6549)](https://github.com/PyO3/pyo3/commit/79627d8f830ce65a941725983fc55742160832aa) | dependabot[bot] |
 | 2026-10-25 | [build(deps): bump virtualenv from 16.7.12 to 21.14.13 (#6546)](https://github.com/PyO3/pyo3/commit/cb2b7eecb5c707598bba085de8d286d6392f0bc3) | dependabot[bot] |
-| 2026-10-25 | [build(deps): bump filelock from 3.19.1 to 3.20.3 (#6547)](https://github.com/PyO3/pyo3/commit/fe8531fcd58e1961ed2fc665cde363a6ba7386a6) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

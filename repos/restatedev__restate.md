@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 4.7k |
 | 🍴 **Forks** | 235 |
-| 🐞 **Open issues + PRs** | [460](https://github.com/restatedev/restate/issues) |
+| 🐞 **Open issues + PRs** | [461](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 116.3 MB |
+| 💾 **Size** | 116.4 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 11d ago</sub>
+<sub>2026-11-02 · 12d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.7.14](https://github.com/restatedev/restate/releases/tag/v1.7.14)
-<sub>2026-10-22 · 22d ago</sub>
+<sub>2026-10-22 · 23d ago</sub>
 
 > **Restate v1.7.14**
 > Restate v1.7.14 is a security release. Restate now rejects TLS certificates issued through compromised emSign intermediate CAs. The release also updates the bundled TLS library to fix several recently disclosed vulnerabilities, and refreshes the OS trust store shipped in the Docker image.
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.8.1](https://github.com/restatedev/restate/releases/tag/v1.8.1)
-<sub>2026-10-21 · 23d ago</sub>
+<sub>2026-10-21 · 24d ago</sub>
 
 > **Restate v1.8.1**
 > v1.8.1 is a drop-in upgrade from v1.8.0, and you can roll back to v1.8.0 unless you enable signal recording. If you are still on v1.7.x, follow the [v1.8.0 upgrade requirements](https://github.com/restatedev/restate/blob/main/release-notes/v1.8.0.md#upgrade--rollback-guidance).
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [[Storage] Configurable backfill slice size, without filling the block…](https://github.com/restatedev/restate/commit/009e3135a67580f4c8403a1127bc70fa5ff923fc) | AhmedSoliman |
+| 2026-11-14 | [[Query] Show when each migration pass should end in migration_jobs](https://github.com/restatedev/restate/commit/841a89c77f393ce262a12020aa0bf761c6839c65) | AhmedSoliman |
+| 2026-11-14 | [[DataFusion] Serve the statistics tables from the V1 engine](https://github.com/restatedev/restate/commit/9ac0bf202f81af57ef6098b84a905ce878b39b2a) | AhmedSoliman |
+| 2026-11-14 | [[DataFusion] Separate initial and live scan expressions](https://github.com/restatedev/restate/commit/da58978a67c4db387f6bca3cdeaeb82852d1d2c6) | AhmedSoliman |
 | 2026-11-14 | [[DataFusion] Keep remote-scan responses within the message size limit](https://github.com/restatedev/restate/commit/0e9b0469d2b613fc6fcf40970d888195030f41be) | AhmedSoliman |
 | 2026-11-14 | [[PartitionStore] Test SQL over statistics on the query scan path](https://github.com/restatedev/restate/commit/871104dff13130837f6d6f09f413f4adfabb52c3) | AhmedSoliman |
 | 2026-11-14 | [[Node] Serve the indexes and migration_jobs tables from worker nodes](https://github.com/restatedev/restate/commit/933e8cf2429aa3669091c5ee352f6b514cbb6df6) | AhmedSoliman |
 | 2026-11-14 | [[DataFusion] Run V1 table scans on the query IO pool](https://github.com/restatedev/restate/commit/9fe79a07556a78e5edaf07bdbd9adcb933f0aa31) | AhmedSoliman |
 | 2026-11-14 | [[PartitionStore] Let queries scan queue metadata](https://github.com/restatedev/restate/commit/0d2da0a146e675010d73370f98a0063140db9c78) | AhmedSoliman |
 | 2026-11-14 | [[PartitionStore] Let queries scan the inbox](https://github.com/restatedev/restate/commit/5f333dff9a22ca1e4cbd5e6f4d6cc550e3993f03) | AhmedSoliman |
-| 2026-11-14 | [[PartitionStore] Test that query reads stay inside their partition an…](https://github.com/restatedev/restate/commit/9b60459acf7c6bb0b869c1ba7854338b24119937) | AhmedSoliman |
-| 2026-11-14 | [[PartitionStore] Let queries scan invocation and entry statuses](https://github.com/restatedev/restate/commit/085c1975b01dd86c8ddd774ee3cde2d2fa6b44a7) | AhmedSoliman |
-| 2026-11-14 | [[CLI] Let restatectl accept responses of any size](https://github.com/restatedev/restate/commit/3bfaacb1f5a69865fecc64918fa21d0d8c759de6) | AhmedSoliman |
-| 2026-11-14 | [[Admin] Remove the orphaned query_utils.rs](https://github.com/restatedev/restate/commit/f3786247fd0f2b271a95dedf2c1bae29d24c3f63) | AhmedSoliman |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

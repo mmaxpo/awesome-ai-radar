@@ -23,20 +23,20 @@
 | ⭐ **Stars** | 42.2k |
 | 🍴 **Forks** | 3.5k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/volcengine/OpenViking/issues) |
-| 💻 **Languages** | Python 64% · TypeScript 17% · Rust 11% · JavaScript 3% · MDX 3% |
+| 💻 **Languages** | Python 63% · TypeScript 17% · Rust 11% · JavaScript 3% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
 | 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [react@0.1.11](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.11) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 419.4 MB |
+| 💾 **Size** | 419.7 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
 ### [react@0.1.11](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.11) — @openviking/react 0.1.11
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > **en-US**
 > **Patch Changes**
@@ -47,12 +47,12 @@
 > …
 
 ### [cli@0.5.3](https://github.com/volcengine/OpenViking/releases/tag/cli%400.5.3)
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > _No notes._
 
 ### [v0.5.5](https://github.com/volcengine/OpenViking/releases/tag/v0.5.5)
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > **中文**
 > **主要更新**
@@ -85,16 +85,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [feat(react): unify error feedback with Toast and copyable notificatio…](https://github.com/volcengine/OpenViking/commit/34c01616eb96a5077042c76ea4502587a332d8ee) | LaamGinghong |
+| 2026-11-14 | [feat(react): add opt-in frontend monitoring and target CSR (#7696)](https://github.com/volcengine/OpenViking/commit/c189fccf4941222365b404d2add51a104f375df8) | LaamGinghong |
+| 2026-11-14 | [fix(react): isolate file tree dashboard tooltips (#7698)](https://github.com/volcengine/OpenViking/commit/ad4516ec9fd92405afb316248a6e1c88190f1322) | LaamGinghong |
+| 2026-11-14 | [feat(react): add built-in HITL validation and step navigation (#7694)](https://github.com/volcengine/OpenViking/commit/c79d9fdb1b98330530c814ef56389aac17d49013) | LaamGinghong |
+| 2026-11-14 | [fix(react): unify focus halos and adopt Arco time picker (#7683)](https://github.com/volcengine/OpenViking/commit/99418e357764753a770d97e9e50be9845de2d5d7) | LaamGinghong |
 | 2026-11-14 | [refactor(compile): use isolated Markdown file workers (#7682)](https://github.com/volcengine/OpenViking/commit/d462af04e651335261d4972cb546788a788b2a47) | FuJiaJie123 |
 | 2026-11-14 | [fix(frontend): bound DOM assertion failures and test execution (#7673)](https://github.com/volcengine/OpenViking/commit/22fd83fec46d8fd50e4400dd471b8060cc619f05) | LaamGinghong |
 | 2026-11-14 | [fix(react): remove permission badges from file tree rows (#7671)](https://github.com/volcengine/OpenViking/commit/8315e350c2f06778152862a24df8a251c5720d96) | LaamGinghong |
 | 2026-11-14 | [fix(react): show directory level indicator after loading (#7672)](https://github.com/volcengine/OpenViking/commit/4e4555309cbeb685041bce36573e1cb2be9dc3a2) | LaamGinghong |
 | 2026-11-14 | [fix(react): pin file tree trailing content to the viewport (#7668)](https://github.com/volcengine/OpenViking/commit/2bacd32b47713d2feeb09dadc15870c9cabc9f41) | LaamGinghong |
-| 2026-11-14 | [feat(react): share scoped queries and configure request concurrency (…](https://github.com/volcengine/OpenViking/commit/8d8acfa7ac6ada62cad5f5b8dc02505684ddb0ea) | LaamGinghong |
-| 2026-11-14 | [feat(react): add controlled context picker and internal VikingBot HIT…](https://github.com/volcengine/OpenViking/commit/cc2b17f975394d47ca031c8814a034f28158a43b) | LaamGinghong |
-| 2026-11-14 | [feat(react): support custom experience dashboard requests (#7669)](https://github.com/volcengine/OpenViking/commit/cfb96b03f1dfeee38dd98fc54c12738c92fc753c) | leowld |
-| 2026-11-14 | [fix(react): keep docs examples usable in narrow themed layouts (#7662)](https://github.com/volcengine/OpenViking/commit/9b9f8d1692f9489e1965aa84affb92417bf33a2e) | LaamGinghong |
-| 2026-11-14 | [fix(react): align FileBrowser and VikingBot interactions (#7651)](https://github.com/volcengine/OpenViking/commit/9f9195e5da058b0860325e3425a581fc53518833) | leowld |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

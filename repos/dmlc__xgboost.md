@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [457](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [458](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |

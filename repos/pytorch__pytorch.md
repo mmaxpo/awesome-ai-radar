@@ -30,13 +30,13 @@
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1682.8 MB |
+| 💾 **Size** | 1679.7 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 16d ago</sub>
+<sub>2026-10-28 · 17d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [[decomp] add `aten._trilinear` decomposition (#202958)](https://github.com/pytorch/pytorch/commit/e63b330cbcbcc136d3aab1895a183579dbb80dde) | khushi-411 |
+| 2026-11-14 | [Revert "[inductor] Decompose small-k topk into fused argmax-and-remov…](https://github.com/pytorch/pytorch/commit/290c13bd58a2d0a81e7e644e2eb57107bb6dccce) | pytorchmergebot |
+| 2026-11-14 | [Build Windows MAGMA for CUDA 13.5 (#204828)](https://github.com/pytorch/pytorch/commit/242a9cf0e013551eaada7827cfff1aa8d293dfb1) | atalman |
+| 2026-11-14 | [Revert "[aotautograd] Don't recompute reads of forward-mutated inputs…](https://github.com/pytorch/pytorch/commit/4390b847545f99e9f95d36346482c42d856cea99) | pytorchmergebot |
 | 2026-11-14 | [[compile] fix complex foreach inputs (#201839)](https://github.com/pytorch/pytorch/commit/7bfdc24bc8deebbe7cc64c42488c6af92a6d674a) | khushi-411 |
 | 2026-11-14 | [[ROCm][TunableOp] Include activation epilogue in GemmAndBiasParams si…](https://github.com/pytorch/pytorch/commit/a2cf87e07e05677d63975102843f82656633786a) | menglcai |
 | 2026-11-14 | [[inductor] Decompose small-k topk into fused argmax-and-remove rounds…](https://github.com/pytorch/pytorch/commit/f627724fb5e7c6987da31701b1b5552d3673439f) | anijain2305 |
 | 2026-11-14 | [[inductor] Don't let reads broadcast along the reduction vote OUTER i…](https://github.com/pytorch/pytorch/commit/e4369d6d1a1ac759108f8bde0c55d906bb81ea9e) | anijain2305 |
 | 2026-11-14 | [[Testcase Refactoring] Refactor test_minifier.py and test_dynamic_sha…](https://github.com/pytorch/pytorch/commit/f7ba74e4c9e19455c8e530d7df581e5506914e3c) | littlexiaozhang |
 | 2026-11-14 | [[CPP FakeTensor] Convert or reject non-fake inputs in the native fall…](https://github.com/pytorch/pytorch/commit/77533284cb528b0f9e4a12f1515f99b33ef958be) | liangel-02 |
-| 2026-11-14 | [[CPP FakeTensor] Apply Python's common-device rules in the C++ fallba…](https://github.com/pytorch/pytorch/commit/e59695ef091874f82de0c61495713f93958c82d2) | liangel-02 |
-| 2026-11-14 | [[CPP FakeTensor] Run registered custom fake kernels on C++ fakes (#20…](https://github.com/pytorch/pytorch/commit/0d9fa45ec9e05cf853d9a2c6dbcffead3838d4f7) | liangel-02 |
-| 2026-11-14 | [[CPP FakeTensor] Run prim meta implementations on C++ fakes (#204658)](https://github.com/pytorch/pytorch/commit/662536725f43d95ebeccafc8b58c5bac2ab10ab0) | liangel-02 |
-| 2026-11-14 | [[CPP FakeTensor] Run ops on C++ fakes through FakeTensorMode's op_imp…](https://github.com/pytorch/pytorch/commit/ec942e6e653e5f60ae13dbcaa4f56124aed9dc88) | liangel-02 |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

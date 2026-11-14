@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 201.7k |
 | 🍴 **Forks** | 10.6k |
-| 🐞 **Open issues + PRs** | [799](https://github.com/firecrawl/firecrawl/issues) |
+| 🐞 **Open issues + PRs** | [800](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 73% · Python 11% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |

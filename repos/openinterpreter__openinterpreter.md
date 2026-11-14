@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-07-14 |
 | 📦 **Latest release** | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 305.5 MB |
+| 💾 **Size** | 308.6 MB |
 | 🌐 **Website** | http://openinterpreter.com/ |
 
 ## 📦 Recent releases
@@ -80,7 +80,7 @@
 > …
 
 ### [rust-v0.0.57](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.57) — Open Interpreter 0.0.57
-<sub>2026-10-31 · 13d ago</sub>
+<sub>2026-10-31 · 14d ago</sub>
 
 > **Open Interpreter 0.0.57**
 > **Models**

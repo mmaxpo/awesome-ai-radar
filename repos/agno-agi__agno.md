@@ -30,7 +30,7 @@
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 328.4 MB |
+| 💾 **Size** | 328.6 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 15d ago</sub>
+<sub>2026-10-29 · 16d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.10](https://github.com/agno-agi/agno/releases/tag/v3.1.10)
-<sub>2026-10-23 · 21d ago</sub>
+<sub>2026-10-23 · 22d ago</sub>
 
 > **Changelog**
 > **Bug Fixes:**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.1.9](https://github.com/agno-agi/agno/releases/tag/v3.1.9)
-<sub>2026-10-22 · 22d ago</sub>
+<sub>2026-10-22 · 23d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [fix: add timeout parameter to Linear, Discord and ModelsLab tools (#1…](https://github.com/agno-agi/agno/commit/7c3b729667e66282f0d845adbd507ee07242c5eb) | ansh-rohilla |
+| 2026-11-14 | [fix: reject page 0 on /traces and apply limit without page in JSON tr…](https://github.com/agno-agi/agno/commit/005abcd4a8de617795256ac7458099ee691991f6) | nightcityblade |
 | 2026-11-14 | [[fix] Keep an explicit db_engine in SQLTools when connection fields a…](https://github.com/agno-agi/agno/commit/1849efb8072feb55ddab075de7cf7471ce1a2d1b) | desty |
 | 2026-11-14 | [chore: auto-close issues past 5 per user in 24 hours (#11676)](https://github.com/agno-agi/agno/commit/439da90695d16d469b3b1963913ab1ad6e6a9648) | ysolanky |
 | 2026-11-13 | [test: retry the metrics refresh until it runs in the Claude and Codex…](https://github.com/agno-agi/agno/commit/453497088ba3b77db8c48770de31df7d899b8018) | harshsinha03 |
@@ -102,8 +104,6 @@
 | 2026-11-13 | [fix: add cost metric support to OpenRouterResponses (#9568)](https://github.com/agno-agi/agno/commit/878151ba85c7bec6f0df7edfa1bbc0e025fdd5c1) | aayush598 |
 | 2026-11-13 | [[fix] Make ExaTools pass the Exa options it accepts, and add the miss…](https://github.com/agno-agi/agno/commit/0ade84db16da8d63740192e1019c264fa9caa168) | ormeilu |
 | 2026-11-12 | [[fix] Remove silent token caps from routed providers (#10723)](https://github.com/agno-agi/agno/commit/c9bf62ff3addfdc48bbdd97e651623e5ced3d8ec) | FanouZeng-TT |
-| 2026-11-12 | [fix(tools): respect zero max_results, apply modifier in search_news, …](https://github.com/agno-agi/agno/commit/5b6778e8e9cfc02d723129bcaf556c0ce75e208f) | neoand |
-| 2026-11-12 | [[cookbook] Add Mnemoverse memory integration example (#11598)](https://github.com/agno-agi/agno/commit/31a5d2f710dc6d78458d5888cf95fc6380bb3414) | OlyaTi |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

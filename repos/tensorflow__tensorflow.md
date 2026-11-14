@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 201.6k |
 | 🍴 **Forks** | 78.0k |
-| 🐞 **Open issues + PRs** | [3.4k](https://github.com/tensorflow/tensorflow/issues) |
+| 🐞 **Open issues + PRs** | [3.5k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 26% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1400.1 MB |
+| 💾 **Size** | 1399.8 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases

@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.7k |
-| 🍴 **Forks** | 124 |
-| 🐞 **Open issues + PRs** | [7](https://github.com/dbos-inc/dbos-transact-py/issues) |
+| 🍴 **Forks** | 125 |
+| 🐞 **Open issues + PRs** | [8](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0)
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > **What's Changed**
 > * Better Queue Locking by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/932
@@ -47,7 +47,7 @@
 > …
 
 ### [3.4.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.4.0)
-<sub>2026-10-28 · 16d ago</sub>
+<sub>2026-10-28 · 17d ago</sub>
 
 > **What's Changed**
 > * Poll only the status column for preemptible step cancellation by @buftio in https://github.com/dbos-inc/dbos-transact-py/pull/898
@@ -58,7 +58,7 @@
 > …
 
 ### [3.3.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.3.0)
-<sub>2026-10-15 · 29d ago</sub>
+<sub>2026-10-15 · 1mo ago</sub>
 
 > **Package Change**
 > This release moves the DBOS Conductor client to a separate Enterprise package. If you are using DBOS Conductor or Cloud, please install the Enterprise optional dependency when upgrading:

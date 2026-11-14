@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-13 (yesterday) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |

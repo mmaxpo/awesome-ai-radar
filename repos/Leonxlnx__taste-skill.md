@@ -20,8 +20,8 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.3k |
-| 🍴 **Forks** | 7.7k |
+| ⭐ **Stars** | 115.5k |
+| 🍴 **Forks** | 7.8k |
 | 🐞 **Open issues + PRs** | [9](https://github.com/Leonxlnx/taste-skill/issues) |
 | 💻 **Languages** | JavaScript 61% · HTML 28% · CSS 11% |
 | 📜 **License** | MIT |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — tasteskill v2.5.1
-<sub>2026-11-07 · 6d ago</sub>
+<sub>2026-11-07 · 7d ago</sub>
 
 > What a 44-site test of 2.5.0 showed, fixed: builds now iterate until the checker is clean, every page moves, products without photographs are shown in photographs, palettes fit the trade, the copy gets a voice of its own, and nothing lies on anything else on a phone. The install name did not change.
 > - **A finish gate:** `scripts/gate.mjs` runs the checker, the layout check and a copy lint, and a build is not done until its last line reads `GATE: PASS` (three rounds, five waivers with reasons at most). In Claude Code it runs as a Stop hook from the skill itself. It never traps an agent: a question to the user costs no round, and `gate.mjs --done` ends a build at the user's word.

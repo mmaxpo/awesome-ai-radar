@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 27.5k |
 | 🍴 **Forks** | 2.8k |
-| 🐞 **Open issues + PRs** | [502](https://github.com/Hannibal046/Awesome-LLM/issues) |
+| 🐞 **Open issues + PRs** | [503](https://github.com/Hannibal046/Awesome-LLM/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |

@@ -56,7 +56,7 @@
 > …
 
 ### [v1.10.5](https://github.com/VRSEN/agency-swarm/releases/tag/v1.10.5)
-<sub>2026-07-17 · 3mo ago</sub>
+<sub>2026-07-17 · 4mo ago</sub>
 
 > **What's Changed**
 > * fix: keep runtime handoffs available across mid-run agent switches by @nicko-ai in https://github.com/VRSEN/agency-swarm/pull/727

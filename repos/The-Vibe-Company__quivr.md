@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 39.6k |
+| ⭐ **Stars** | 39.7k |
 | 🍴 **Forks** | 3.7k |
 | 🐞 **Open issues + PRs** | [16](https://github.com/The-Vibe-Company/quivr/issues) |
 | 💻 **Languages** | Go 55% · Python 26% · TypeScript 7% · MDX 6% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `api` `chatbot` `chatgpt` `database` `docker` `frontend` `openai` `postgresql` `privacy` `security` `typescript` `html` `javascript` `react` `rag` `vector` `groq` `framework` |
-| 🕒 **Last activity** | 2026-11-09 (4d ago) |
+| 🕒 **Last activity** | 2026-11-09 (5d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2) — 2026-10-30 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2)
-<sub>2026-10-30 · 14d ago</sub>
+<sub>2026-10-30 · 15d ago</sub>
 
 > **Quivr 2.0.2**
 > 2.0.2 moves the search database to Weaviate 1.39.14. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.0.0](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.0) — Quivr 2.0.0
-<sub>2026-10-29 · 15d ago</sub>
+<sub>2026-10-29 · 16d ago</sub>
 
 > **Quivr 2.0.0**
 > Quivr is an open-source engine for content that keeps arriving. Your application, or Quivr's sources (RSS, Microsoft 365 mailboxes, X lists), send it documents. Quivr keeps every version of each document and makes it searchable within seconds, by keywords, by meaning, or both. It also checks every new document against your saved alerts. Quivr has no user interface: your application talks to it over an HTTP API, and AI agents use it through `quivr mcp`.

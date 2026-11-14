@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-13 (yesterday) |
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |

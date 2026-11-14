@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 186.9k |
+| ⭐ **Stars** | 187.0k |
 | 🍴 **Forks** | 19.1k |
 | 🐞 **Open issues + PRs** | [4.7k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 74% · C 18% · TypeScript 5% |

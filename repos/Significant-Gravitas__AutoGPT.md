@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-03-16 |
 | 📦 **Latest release** | [autogpt-platform-beta-v0.11.2](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2) — 2026-11-11 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 647.7 MB |
+| 💾 **Size** | 643.3 MB |
 | 🌐 **Website** | https://agpt.co |
 
 ## 📦 Recent releases
@@ -41,7 +41,7 @@
 > Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@6ba94560676d (migration head: 20261112120000_account_deletion_confirmation_skipped). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so schema changes run against populated tables. RESTORE: apply restore-preamble.sql to the target database first (it creates the platform schema and installs the vector + pg_trgm extensions into it, which pg_dump --schema=platform omits), then run 'gunzip -c fixture.dump.gz | pg_restore -d <db> --no-owner' WITHOUT --exit-on-error (the dump's own CREATE SCHEMA collides benignly with the preamble's). SECURITY INVARIANT: this bake holds no cloud credentials and has no read path to any real database — it runs entirely against a throwaway Postgres container and contains only synthetic rows (Faker-generated, plus the hand-written preview marketplace) and the already-public marketplace agent exports checked into autogpt_platform/backend/agents/. This asset is regenerated on every eligible dev push and weekly; treat it as disposable.
 
 ### [autogpt-platform-beta-v0.11.2](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2)
-<sub>2026-11-11 · 2d ago</sub>
+<sub>2026-11-11 · 3d ago</sub>
 
 > **🚀 Release `autogpt-platform-beta-v0.11.2`**
 > **Date:** January 2025
@@ -74,7 +74,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.10.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.10.0) — 🚀 AutoGPT Platform v0.10.0
-<sub>2026-10-27 · 17d ago</sub>
+<sub>2026-10-27 · 18d ago</sub>
 
 > **🔥 What's New?**
 > **⚠️ Breaking Changes**

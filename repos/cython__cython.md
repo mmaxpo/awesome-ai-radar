@@ -30,7 +30,7 @@
 | 📅 **Created** | 2010-11-21 |
 | 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 80.5 MB |
+| 💾 **Size** | 80.4 MB |
 | 🌐 **Website** | https://cython.org |
 
 ## 📦 Recent releases
@@ -64,6 +64,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [CI: Compare changed file counts numerically in file-changes job (#8139)](https://github.com/cython/cython/commit/90f982f22fdebbc84443025835db467c8d6c3a95) | matusvalo |
 | 2026-11-14 | [Reduce graalpy parallelism furter on gp25.0 (#8131)](https://github.com/cython/cython/commit/35887c1bad80897661c968ac9c8f172764e4383a) | da-woods |
 | 2026-11-14 | [Silence some warnings from __Pyx_VisitFreelist (GH-8138)](https://github.com/cython/cython/commit/c05ee472f511e00b6c1bc9a46b30b50f89f67728) | da-woods |
 | 2026-11-12 | [Don't require C++17 for libcpp.string (#8127)](https://github.com/cython/cython/commit/42aba371ce7a7057dbda6b7b84c4b8d24cffdb70) | da-woods |
@@ -73,7 +74,6 @@
 | 2026-11-08 | [Update the default GCC version to GCC 11 (GH-8119)](https://github.com/cython/cython/commit/63f2de1574e5d4dc141d5a3ddf2601dbfbed7735) | da-woods |
 | 2026-11-05 | [Fix a few issues with the TSAN workflow run (#8111)](https://github.com/cython/cython/commit/211d68e592b5723de601620b02fc5bd914a2dd01) | da-woods |
 | 2026-11-05 | [CI: make success gates fail on cancelled jobs and detector failures (…](https://github.com/cython/cython/commit/ca81bb1a22a677c287371fdd39efc385a850155d) | sotomayorlucas |
-| 2026-11-05 | [Move not none check into critical section (#8109)](https://github.com/cython/cython/commit/ccd894845c111e86c2c610b783e37b0a8eb70946) | da-woods |
 
 [See all commits ↗](https://github.com/cython/cython/commits)
 

@@ -74,7 +74,7 @@
 > …
 
 ### [process-daemon-v0.5.0](https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.0) — process-daemon v0.5.0
-<sub>2026-11-05 · 8d ago</sub>
+<sub>2026-11-05 · 9d ago</sub>
 
 > opencode-pty 0.5.0 (protocol 8) from packages/process-daemon, published to npm as @opencode/pty@0.5.0.
 
@@ -82,6 +82,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [fix(core): identify invalid filename globs in search tools (#63960)](https://github.com/anomalyco/opencode/commit/b659188ac8238bc1ef4f39cc41437aea0e250637) | rekram1-node |
+| 2026-11-14 | [chore(perf): bench with strobe 0.42.0 (#63957)](https://github.com/anomalyco/opencode/commit/f61411af466a6566455a45f5a036c169e82d7c88) | Hona |
 | 2026-11-14 | [perf(app): measure main-thread work to scroll history (#63923)](https://github.com/anomalyco/opencode/commit/d759c548aab33a7a6f5171cbeab40a59e91d90aa) | Hona |
 | 2026-11-14 | [chore(perf): bench with strobe 0.41.0 (#63918)](https://github.com/anomalyco/opencode/commit/c9957fd50858aafd43fb8167b117b3a8e5210529) | Hona |
 | 2026-11-14 | [chore(perf): bench with strobe 0.40.0 (#63914)](https://github.com/anomalyco/opencode/commit/024a1462f55aa64243b859729b2d0816b42b17e3) | Hona |
@@ -90,8 +92,6 @@
 | 2026-11-14 | [chore(perf): bench with strobe 0.38.0 (#63883)](https://github.com/anomalyco/opencode/commit/f0089856c07eded13396a0a0d05f19f1718be7b9) | Hona |
 | 2026-11-13 | [fix(ui): dismiss tooltips when their trigger is pressed (#63834)](https://github.com/anomalyco/opencode/commit/83960f8a56b2f2b8ad0b751f23baaf9d0eb65ad9) | usrnk1 |
 | 2026-11-13 | [fix(app): polish the connect dialog sign-in steps (#63829)](https://github.com/anomalyco/opencode/commit/f91b88efac039856f284979984ac43cd93bce8f5) | arvsrn |
-| 2026-11-13 | [fix(core): keep text starting with BM readable (#63822)](https://github.com/anomalyco/opencode/commit/e6fc58886ae4838099125d2cc19dd0418ef0e4fc) | rekram1-node |
-| 2026-11-13 | [feat(app): find in side panel previews (#63663)](https://github.com/anomalyco/opencode/commit/083e3114a563c09a7521d6f183ff54a0f985c0c8) | rekram1-node |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

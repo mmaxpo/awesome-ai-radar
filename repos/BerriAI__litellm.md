@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 63.2k |
+| ⭐ **Stars** | 63.3k |
 | 🍴 **Forks** | 13.3k |
 | 🐞 **Open issues + PRs** | [5.2k](https://github.com/BerriAI/litellm/issues) |
 | 💻 **Languages** | Python 84% · TypeScript 10% · Rust 4% |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-07-27 |
 | 📦 **Latest release** | [v1.106.10](https://github.com/BerriAI/litellm/releases/tag/v1.106.10) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 2916.2 MB |
+| 💾 **Size** | 2921.2 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [feat(custom_llm): let custom providers serve native generateContent (…](https://github.com/BerriAI/litellm/commit/d81c55f4cc86d0303dd89ebb7dba0a745ce425b4) | mika-lt |
-| 2026-11-14 | [fix(azure): send no api-version on Foundry project /openai/v1 Respons…](https://github.com/BerriAI/litellm/commit/6fc368a15c7a54f63d9265f6f4d3d91333b641c3) | tavren27 |
-| 2026-11-14 | [fix(responses): send cache_control as a prompt_cache_breakpoint on th…](https://github.com/BerriAI/litellm/commit/3ad164382b1c4bf72c37fda0b2468a62168b365b) | paveln83 |
-| 2026-11-14 | [fix(proxy): retrieve and delete a managed file when the request also …](https://github.com/BerriAI/litellm/commit/7d4c0ab91a8437d84b9f33383f094462a4b69f09) | paveln83 |
-| 2026-11-14 | [fix(responses): accept a string or tuple allowed_openai_params on Res…](https://github.com/BerriAI/litellm/commit/4e29aea11c8eb5fadd96c78de2bd9d10b0381727) | tavren27 |
-| 2026-11-14 | [fix(cohere): honor COHERE_API_BASE for embeddings (#50249)](https://github.com/BerriAI/litellm/commit/ad24ca9f3150eafda6da55b62e814aec02775063) | zhengqiuyang |
-| 2026-11-14 | [refactor: clear fresh debt in customer hierarchy and v2 callback modu…](https://github.com/BerriAI/litellm/commit/1a8ed2723753db46d1adb64690ce337ad89508ca) | mateo-berri |
-| 2026-11-14 | [fix(proxy): honor cancel_on_disconnect on the rerank endpoints (#51252)](https://github.com/BerriAI/litellm/commit/3988ce286501b8d584218e4f5fe8d329a0f5d9b1) | jesus-berri |
-| 2026-11-14 | [feat(mistral): add native upstream token counting support (#50652) (#…](https://github.com/BerriAI/litellm/commit/35b9df1f4040ba17af06b936cb65026fb1f90ff6) | yogeshwaran10 |
-| 2026-11-14 | [fix(vertex_ai): reuse one Google token across RAG Engine searches and…](https://github.com/BerriAI/litellm/commit/9ba216d521cb992fab16209315f2e1eb69cf6077) | quietjules |
+| 2026-11-14 | [fix(aiohttp): reset the upstream connection when a stream closes earl…](https://github.com/BerriAI/litellm/commit/ec48e2491c5132951cd2710671506019ce93f0a0) | princejain756 |
+| 2026-11-14 | [fix(scim): skip groups with no team so a PATCH or PUT still deactivat…](https://github.com/BerriAI/litellm/commit/cad4570bbe49d0f3be013d07abd403dd21621b3b) | mika-lt |
+| 2026-11-14 | [fix(gateway)!: apply a deployment's Messages params and fill model ca…](https://github.com/BerriAI/litellm/commit/8140fdf54f31a417d8cb186f2074df62a3cf490c) | norkelbyte |
+| 2026-11-14 | [fix(together_ai): stop listing retired Together ids (#51827)](https://github.com/BerriAI/litellm/commit/1f6e401a681163bf7039948a4713921dc18955ec) | mika-lt |
+| 2026-11-14 | [feat(github_copilot): support GitHub App authentication with PEM uplo…](https://github.com/BerriAI/litellm/commit/9d827093c5cd220be65c8f2e3bd3979e5ede9062) | giladk1221 |
+| 2026-11-14 | [test(e2e): move audio, realtime, and Langfuse tests off model ids wit…](https://github.com/BerriAI/litellm/commit/05518975a559f1b3d40a12a254a9aba3f4e49a61) | paveln83 |
+| 2026-11-14 | [feat(decisions): support Vercel AI Gateway decision models (#50642)](https://github.com/BerriAI/litellm/commit/fd6c00200c52e079ea010c3752ad241eb5ac45e5) | mishdotdev |
+| 2026-11-14 | [fix(proxy): run baggage tag mappings and budget checks on /queue/chat…](https://github.com/BerriAI/litellm/commit/ac1cc5111cb26700710a4aafaef18df897634e16) | norkelbyte |
+| 2026-11-14 | [fix(proxy): count the request's tool_choice on the token count routes…](https://github.com/BerriAI/litellm/commit/27c796c412eed2f7336dccb46a58247463b7c498) | tavren27 |
+| 2026-11-14 | [fix(openrouter): suppress empty post-finish choice before usage trail…](https://github.com/BerriAI/litellm/commit/8b28818fa22a4a915f974ba6096f3cb9474061f4) | VISHNU0906 |
 
 [See all commits ↗](https://github.com/BerriAI/litellm/commits)
 

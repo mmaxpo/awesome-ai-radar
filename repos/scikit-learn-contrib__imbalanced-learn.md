@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 7.1k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [118](https://github.com/scikit-learn-contrib/imbalanced-learn/issues) |
+| 🐞 **Open issues + PRs** | [117](https://github.com/scikit-learn-contrib/imbalanced-learn/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |

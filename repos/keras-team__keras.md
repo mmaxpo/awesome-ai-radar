@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [237](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [238](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |

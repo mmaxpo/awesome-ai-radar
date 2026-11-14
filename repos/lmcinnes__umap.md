@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 8.3k |
 | 🍴 **Forks** | 892 |
-| 🐞 **Open issues + PRs** | [544](https://github.com/lmcinnes/umap/issues) |
+| 🐞 **Open issues + PRs** | [545](https://github.com/lmcinnes/umap/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `umap` `dimensionality-reduction` `visualization` `machine-learning` `topological-data-analysis` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0)
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > **What's Changed**
 > * Embed combined models without densMAP instead of failing with KeyError by @raashish1601 in https://github.com/lmcinnes/umap/pull/1304
@@ -86,6 +86,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Merge pull request #1345 from sebastianbreguel/scout/parallel-project…](https://github.com/lmcinnes/umap/commit/aee7eefc9d022abf64b8d87fc32188b71f0f526d) | lmcinnes |
+| 2026-11-14 | [Sort the hard-negative projection in parallel when its order is unique](https://github.com/lmcinnes/umap/commit/74e0b12d2dcb5dbcacf65ce7936a86ba1e238d1e) | sebastianbreguel |
 | 2026-11-14 | [Merge pull request #1343 from sebastianbreguel/scout/blas-limit-proje…](https://github.com/lmcinnes/umap/commit/1b4d1dd26871a67fe7f531984d7d2aba64584f9c) | lmcinnes |
 | 2026-11-14 | [Merge pull request #1344 from gclendenning/master](https://github.com/lmcinnes/umap/commit/99e7e507f773d7b8d1e4e9105c9aa89c87d7360f) | lmcinnes |
 | 2026-11-14 | [Try running tests on 3.14/3.15 without parametric](https://github.com/lmcinnes/umap/commit/6384e6689739c40d55d1440d2b402c3f985fe5ea) | gclendenning |
@@ -94,8 +96,6 @@
 | 2026-11-12 | [Remove deprecated "standard" optimizer name and update documentation …](https://github.com/lmcinnes/umap/commit/69863fe456bce79ae87d2e396c16819d06007fb4) | lmcinnes |
 | 2026-11-11 | [Merge pull request #1338 from AnaseDouramane/fix-recursive-init-n-com…](https://github.com/lmcinnes/umap/commit/8c925ee2b2a0b8425d4a240dfbfb91eadec43c93) | lmcinnes |
 | 2026-11-11 | [Merge pull request #1337 from jan-glx/fix-contiguous-knn-dists](https://github.com/lmcinnes/umap/commit/e1c346b2b7a20c4f674b12e2d041f1055dcfee77) | lmcinnes |
-| 2026-11-11 | [Pad recursive-init anchor to n_components when PCA yields fewer axes](https://github.com/lmcinnes/umap/commit/f64a423996333e8e9b7707a1b3461d4c603f69b0) | AnaseDouramane |
-| 2026-11-11 | [Make knn_dists contiguous in fuzzy_simplicial_set](https://github.com/lmcinnes/umap/commit/aa856d586df2cbcb6dffe52775943fb8a51856f8) | jan-glx |
 
 [See all commits ↗](https://github.com/lmcinnes/umap/commits)
 

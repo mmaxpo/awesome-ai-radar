@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 168.2k |
+| ⭐ **Stars** | 168.3k |
 | 🍴 **Forks** | 27.3k |
 | 🐞 **Open issues + PRs** | [252](https://github.com/msitarzewski/agency-agents/issues) |
 | 💻 **Languages** | Shell 84% · Python 15% |

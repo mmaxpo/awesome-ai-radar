@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 149.3k |
+| ⭐ **Stars** | 149.4k |
 | 🍴 **Forks** | 15.8k |
 | 🐞 **Open issues + PRs** | [83](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
 | 💻 **Languages** | Python 80% · TypeScript 8% · JavaScript 7% · HTML 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-skills` `antigravity` `claude` `claude-code` `command-line` `copilot` `cursor-ai` `html5` `kiro` `landing-page` `mobile-ui` `react` `tailwindcss` `ui-design` `uikit` `windsurf-ai` `codex` `qoder` `trae` |
-| 🕒 **Last activity** | 2026-11-10 (3d ago) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2025-11-30 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases/tag/v2.15.0) — 2026-08-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 8.5 MB |
+| 💾 **Size** | 8.4 MB |
 | 🌐 **Website** | https://www.uupm.cc/ |
 
 ## 📦 Recent releases
@@ -70,6 +70,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [fix(cli): match dry-run sub-skill copies to installs (#571)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/d643997c82e94742dd3bee43210b0198e8bbba3d) | ChoYugyeong |
 | 2026-11-10 | [docs: add French README translation (#565)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/6ae86f61f520d6ca229d2f40e070410638c908c5) | BneLevo |
 | 2026-11-10 | [fix: align dry-run output with skipped installs (#564)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/9b675f0b13c9c28dec445e8ce4633c18c39b6467) | ChoYugyeong |
 | 2026-11-07 | [feat: add IME-safe Enter shortcut guidance (#562)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/4f2dbb67e64969a9a30ab00742f2d55d66ddec2b) | ChoYugyeong |
@@ -79,7 +80,6 @@
 | 2026-11-04 | [docs: add Japanese README (#555)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/dd9a1b4cf9f67ca2e326f646d93e101b2778db30) | eltociear |
 | 2026-11-02 | [feat(search): add RTL compatibility levels and --rtl filter (#553)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/713eef51b04efc98d6fa565323b495f7c9c89fd4) | soufiane77-eng |
 | 2026-11-01 | [feat(nuxt-ui): add guidance for v4.12 (#551)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/3a13158ff1f32156cbe144108de48eda2ecaed9a) | Ray0907 |
-| 2026-10-31 | [fix: align AutoClaw validation baselines (#550)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/bf41cbc3ce63e30c922e58ef48741ba6133f9aa9) | wangyuehua0429 |
 
 [See all commits ↗](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commits)
 

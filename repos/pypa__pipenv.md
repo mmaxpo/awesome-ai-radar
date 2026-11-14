@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 25.0k |
 | 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [6](https://github.com/pypa/pipenv/issues) |
+| 🐞 **Open issues + PRs** | [5](https://github.com/pypa/pipenv/issues) |
 | 💻 **Languages** | Python 82% · HTML 18% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `pip` `python` `packaging` `virtualenv` `pipfile` |
-| 🕒 **Last activity** | 2026-11-11 (2d ago) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2017-01-20 |
 | 📦 **Latest release** | [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.10.6](https://github.com/pypa/pipenv/releases/tag/v2026.10.6) — Release v2026.10.6
-<sub>2026-11-05 · 8d ago</sub>
+<sub>2026-11-05 · 9d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -58,7 +58,7 @@
 > …
 
 ### [v2026.10.5](https://github.com/pypa/pipenv/releases/tag/v2026.10.5) — Release v2026.10.5
-<sub>2026-11-01 · 12d ago</sub>
+<sub>2026-11-01 · 13d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Merge pull request #6787 from pcbeingused333/fix/uninstall-failure-co…](https://github.com/pypa/pipenv/commit/7729c825b8abf538a023c1a68ba3d4ed40fa9153) | matteius |
+| 2026-11-13 | [fix(uninstall): keep going and exit non-zero when pip uninstall fails…](https://github.com/pypa/pipenv/commit/781acf6cb875c8238ba154e088cffff3eb396ed0) | pcbeingused333 |
 | 2026-11-11 | [Merge pull request #6785 from Hisernberg/fix/vendoring-license-path-f…](https://github.com/pypa/pipenv/commit/a7783051ede5ba7fc4d4ab50d4ceb63947937b2c) | matteius |
 | 2026-11-11 | [Fix missing f-string in the flattened-subdep license path](https://github.com/pypa/pipenv/commit/d9a0db06d38778f98c602af7364197afa1fcb756) | Hisernberg |
 | 2026-11-09 | [Release v2026.11.0](https://github.com/pypa/pipenv/commit/3c34948686a487b2728fe1d007822a37cd656d8b) | matteius |
@@ -102,8 +104,6 @@
 | 2026-11-09 | [Merge pull request #6783 from pcbeingused333/fix/scan-quiet-stderr](https://github.com/pypa/pipenv/commit/afe9aaf5487e526a0bc8033993fbff9f908f821e) | matteius |
 | 2026-11-09 | [fix(scan): suppress Safety warnings on quiet success](https://github.com/pypa/pipenv/commit/8564457f173a5cd5efd09893b2ad9de8531f39cc) | pcbeingused333 |
 | 2026-11-09 | [fix(scan): preserve Safety stderr in quiet mode](https://github.com/pypa/pipenv/commit/831d0a5ae7bf337ea1fe70bc00ea44dee98fc433) | pcbeingused333 |
-| 2026-11-07 | [Merge pull request #6782 from pcbeingused333/fix-c1828](https://github.com/pypa/pipenv/commit/ce84086dcf7695202e269a89875d9681ca233136) | matteius |
-| 2026-11-07 | [fix(requirements): keep markers on VCS entries with --no-lock](https://github.com/pypa/pipenv/commit/12c2d5f4099407421d60fa353106c2742d0a76c3) | pcbeingused333 |
 
 [See all commits ↗](https://github.com/pypa/pipenv/commits)
 

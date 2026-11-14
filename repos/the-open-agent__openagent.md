@@ -24,7 +24,7 @@
 | 💻 **Languages** | Go 75% · TypeScript 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `chatgpt` `gpt` `knowledge-base` `langchain` `openai` `chatbot` `llm` `rag` `multi-agent` `agi` `agent` `mcp` `model-context-protocol` `openclaw` `agentic` `agentic-ai` `harness` `openagent` `hermes-agent` |
-| 🕒 **Last activity** | 2026-11-06 (7d ago) |
+| 🕒 **Last activity** | 2026-11-06 (8d ago) |
 | 📅 **Created** | 2020-05-29 |
 | 📦 **Latest release** | [v2.95.1](https://github.com/the-open-agent/openagent/releases/tag/v2.95.1) — 2026-10-05 |
 | 🌿 **Default branch** | `master` |

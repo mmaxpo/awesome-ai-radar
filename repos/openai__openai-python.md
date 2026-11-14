@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `openai` `python` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v3.51.0](https://github.com/openai/openai-python/releases/tag/v3.51.0) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
@@ -63,7 +63,7 @@
 > * encode microphone recordings as valid PCM WAV ([#3900](https://github.com/openai/openai-python/issues/3900)) ([13c000d](https://github.com/openai/openai-python/commit/13c000d1f32c1e3e3c4b3e16bc6b956dfd4f5216))
 
 ### [v3.48.0](https://github.com/openai/openai-python/releases/tag/v3.48.0)
-<sub>2026-11-09 · 4d ago</sub>
+<sub>2026-11-09 · 5d ago</sub>
 
 > **[3.48.0](https://github.com/openai/openai-python/compare/v3.47.0...v3.48.0) (2026-11-09)**
 > **Features**

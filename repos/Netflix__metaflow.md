@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 10.3k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [522](https://github.com/Netflix/metaflow/issues) |
+| 🐞 **Open issues + PRs** | [523](https://github.com/Netflix/metaflow/issues) |
 | 💻 **Languages** | Python 94% · R 2% · Svelte 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `model-management` `ai` `ml` `ml-platform` `ml-infrastructure` `python` `mlops` `datascience` `high-performance-computing` `kubernetes` `aws` `azure` `gcp` `llm` `llmops` `agents` `generative-ai` `cost-optimization` `distributed-training` |

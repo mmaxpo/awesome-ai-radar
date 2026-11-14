@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 38.7k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [433](https://github.com/CopilotKit/CopilotKit/issues) |
+| 🐞 **Open issues + PRs** | [436](https://github.com/CopilotKit/CopilotKit/issues) |
 | 💻 **Languages** | TypeScript 80% · Python 6% · MDX 5% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` `agent` `agents` `ai-agent` `ai-assistant` `assistant` `copilot` `copilot-chat` `agent-native` `agentic-ai` `assistant-chat-bots` `generative-ui` `js` |

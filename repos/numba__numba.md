@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 91% · C 6% · C++ 3% |
 | 📜 **License** | BSD-2-Clause |
 | 🏷 **Topics** | `python` `numpy` `llvm` `compiler` `cuda` `parallel` `numba` |
-| 🕒 **Last activity** | 2026-11-12 (yesterday) |
+| 🕒 **Last activity** | 2026-11-12 (2d ago) |
 | 📅 **Created** | 2012-03-08 |
 | 📦 **Latest release** | [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1) — 2026-10-27 |
 | 🌿 **Default branch** | `main` |

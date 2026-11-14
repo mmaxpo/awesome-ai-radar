@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 98% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `python` `python3` `websocket` `websockets` `websocket-client` `websocket-server` `websocket-library` |
-| 🕒 **Last activity** | 2026-11-12 (yesterday) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2013-03-30 |
 | 📦 **Latest release** | [17.4](https://github.com/python-websockets/websockets/releases/tag/17.4) — 2026-10-30 |
 | 🌿 **Default branch** | `main` |
@@ -36,12 +36,12 @@
 ## 📦 Recent releases
 
 ### [17.4](https://github.com/python-websockets/websockets/releases/tag/17.4)
-<sub>2026-10-30 · 14d ago</sub>
+<sub>2026-10-30 · 15d ago</sub>
 
 > See https://websockets.readthedocs.io/en/stable/project/changelog.html for details.
 
 ### [17.3](https://github.com/python-websockets/websockets/releases/tag/17.3)
-<sub>2026-10-19 · 25d ago</sub>
+<sub>2026-10-19 · 26d ago</sub>
 
 > See https://websockets.readthedocs.io/en/stable/project/changelog.html for details.
 
@@ -64,6 +64,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Don't test uvloop under PyPy.](https://github.com/python-websockets/websockets/commit/dfd37f0717e03b854e5bd584f96b2954ffd6f733) | aaugustin |
+| 2026-11-14 | [Ignore flaky coverage in error handling paths.](https://github.com/python-websockets/websockets/commit/a448bc23309f8d4406d23d7931ce374bb9184cfc) | aaugustin |
 | 2026-11-12 | [Interrupt blocking reads on Linux.](https://github.com/python-websockets/websockets/commit/bc9d77b54e86e9fd634fb35bd95674896860acf3) | aaugustin |
 | 2026-10-30 | [Start version 17.5.](https://github.com/python-websockets/websockets/commit/769000771a9bf30e785ca0ef07c73e3ea235e70d) | aaugustin |
 | 2026-10-30 | [Release version 17.4.](https://github.com/python-websockets/websockets/commit/625a59ed613ac60e60d577dd64b8641d59ecb2b1) | aaugustin |
@@ -72,8 +74,6 @@
 | 2026-10-30 | [Chain causes to ConnectionClosed consistently.](https://github.com/python-websockets/websockets/commit/98ed2713bc2f0c12895fe355ef23e4b5cc8e9806) | aaugustin |
 | 2026-10-30 | [Prevent memory exhaustion through unlimited empty fragments.](https://github.com/python-websockets/websockets/commit/d3c1ce15a6d2312f3bb42ae29fa6449426cd7268) | aaugustin |
 | 2026-10-27 | [Ignore all expected exceptions in HTTP fuzzers.](https://github.com/python-websockets/websockets/commit/170c815d02629cd3913483ddb1b3ad93df6f8ef7) | aaugustin |
-| 2026-10-27 | [Remove PYTHONPATH declaration.](https://github.com/python-websockets/websockets/commit/0a9044ff45d8dbdcfa7a2a157a31ccaafae6b24b) | aaugustin |
-| 2026-10-25 | [Bump pypa/cibuildwheel from 4.3.1 to 4.3.3](https://github.com/python-websockets/websockets/commit/2b8bc2fc9beaae307f665ca682597b95ec40858b) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/python-websockets/websockets/commits)
 

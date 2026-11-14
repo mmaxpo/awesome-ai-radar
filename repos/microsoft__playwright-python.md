@@ -66,7 +66,7 @@
 > …
 
 ### [v1.64.1](https://github.com/microsoft/playwright-python/releases/tag/v1.64.1)
-<sub>2026-10-22 · 22d ago</sub>
+<sub>2026-10-22 · 23d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3283 - chore: roll Node.js to 24.22.1

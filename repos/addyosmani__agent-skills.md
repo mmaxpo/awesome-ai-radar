@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 117.3k |
+| ⭐ **Stars** | 117.5k |
 | 🍴 **Forks** | 12.3k |
 | 🐞 **Open issues + PRs** | [121](https://github.com/addyosmani/agent-skills/issues) |
 | 💻 **Languages** | JavaScript 76% · Shell 22% · Python 1% |

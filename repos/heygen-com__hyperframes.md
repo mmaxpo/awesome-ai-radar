@@ -20,20 +20,31 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 84.1k |
+| ⭐ **Stars** | 84.2k |
 | 🍴 **Forks** | 7.8k |
-| 🐞 **Open issues + PRs** | [275](https://github.com/heygen-com/hyperframes/issues) |
+| 🐞 **Open issues + PRs** | [284](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `framework` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` |
 | 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2026-03-10 |
-| 📦 **Latest release** | [v0.9.45](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.45) — 2026-11-14 |
+| 📦 **Latest release** | [v0.9.46](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.46) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 527.0 MB |
+| 💾 **Size** | 527.3 MB |
 | 🌐 **Website** | https://hyperframes.heygen.com |
 
 ## 📦 Recent releases
+
+### [v0.9.46](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.46)
+<sub>2026-11-14 · today</sub>
+
+> **HyperFrames v0.9.46**
+> Released on 2026-11-14.
+> Editing a project file that is read-only is now refused, and the file stays as it was. A capture failure the engine does not recognise is now reported as unknown, not blamed on the project.
+> **Fixes**
+> - **Studio Server:** An edit to a read-only project file is refused and leaves it unchanged ([b5e9bc689](https://github.com/heygen-com/hyperframes/commit/b5e9bc6893a7a5b4ab306151c362f46b1b24e4e1), [#7731](https://github.com/heygen-com/hyperframes/pull/7731)).
+> - **Engine:** An unrecognised capture failure is unknown, not the author's fault ([ff9c3b761](https://github.com/heygen-com/hyperframes/commit/ff9c3b7619c6c46c3145b287914cd09b377174f9), [#7730](https://github.com/heygen-com/hyperframes/pull/7730)).
+> …
 
 ### [v0.9.45](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.45)
 <sub>2026-11-14 · today</sub>
@@ -79,31 +90,20 @@
 > - **Studio:** Layers panel and marquee read an opaque preview over its channel ([be67089a80b59](https://github.com/heygen-com/hyperframes/commit/be67089a80b59be945d84e09d400a4ece254daef), [#7639](https://github.com/heygen-com/hyperframes/pull/7639)).
 > …
 
-### [v0.9.41](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.41)
-<sub>2026-11-13 · yesterday</sub>
-
-> **HyperFrames v0.9.41**
-> Released on 2026-11-13.
-> Fast capture works again on Chrome 157 and newer, which fixes Windows exports that failed at drawElementImage. Local renders keep Chrome's sandbox on where the host supports it and launch Chrome with only the environment it needs and explain a failed launch with the environment it had, cloud render --json lists the files an upload leaves out, publish copies only media, font, CSS and JS files from outside the project and leaves out the rest that came in with an import, a video variable given as a link now plays its sound once, media ids that differ only by case get separate folders so a render no longer fails with a missing file, and the Studio timeline and overlays read an opaque preview over its channel.
-> **Features**
-> - **CLI:** Cloud render --json lists the files an upload leaves out ([2591abfbf](https://github.com/heygen-com/hyperframes/commit/2591abfbf014c2f70fdc48ac315fd8acbd704e3d), [#7631](https://github.com/heygen-com/hyperframes/pull/7631)).
-> - **Studio:** Read overlay geometry from an opaque preview over its channel ([faff4e16a](https://github.com/heygen-com/hyperframes/commit/faff4e16a8719c63234ac7a02fc3006ddf3cc375), [#7628](https://github.com/heygen-com/hyperframes/pull/7628)).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [fix(engine): an unrecognised capture failure is unknown, not the auth…](https://github.com/heygen-com/hyperframes/commit/ff9c3b7619c6c46c3145b287914cd09b377174f9) | miguel-heygen |
-| 2026-11-14 | [chore: release v0.9.45 (#7729)](https://github.com/heygen-com/hyperframes/commit/fe8d93056cbec121367fc6cfd2dbcab0bc7f17ee) | miguel-heygen |
-| 2026-11-14 | [fix(core): at full quality a 4K clip plays a copy at the size the pre…](https://github.com/heygen-com/hyperframes/commit/2f0ade181585323ebb2b53a2e15d68098655c90e) | miguel-heygen |
-| 2026-11-14 | [chore: release v0.9.44 (#7708)](https://github.com/heygen-com/hyperframes/commit/58ef24c6d88634ff42f60b0435f3685ccfa2d459) | miguel-heygen |
-| 2026-11-14 | [fix(cli): parse capture and grade-compare --timeout as a duration (#7…](https://github.com/heygen-com/hyperframes/commit/50c21c355aa2e2b5b5e8f203d4c38ce0bde6e6a3) | shurtado24 |
-| 2026-11-14 | [docs(cli): list --format and the 24-worker cap in docs rendering (#7716)](https://github.com/heygen-com/hyperframes/commit/3e69d0dff038e4b72bef0fa9395649a68c26eeed) | shurtado24 |
-| 2026-11-14 | [feat(studio): toasts show as a centred pill that rises in (#7714)](https://github.com/heygen-com/hyperframes/commit/690b07e4552fceacfc1d75af61d9ae1e1e6677d8) | miguel-heygen |
-| 2026-11-14 | [fix(lint): say the audio overlap warning is about a shared Studio lan…](https://github.com/heygen-com/hyperframes/commit/3ce9ebeaf168a6d142fc259298214f9d35195a70) | wonjangcloud9 |
-| 2026-11-14 | [fix(cli): quote the project name in init's printed `cd` commands (#7608)](https://github.com/heygen-com/hyperframes/commit/213f7c538305dc5773576eb92f45bc31f86a4ae6) | wonjangcloud9 |
-| 2026-11-14 | [fix(cli): the render header names the quality preset and CRF it encod…](https://github.com/heygen-com/hyperframes/commit/2f31cc14b16b497641979e597637343e55302067) | wonjangcloud9 |
+| 2026-11-14 | [fix(scripts): the comment check names a git too old for check-attr --…](https://github.com/heygen-com/hyperframes/commit/8e0f196a8b151f02adbf2f2a96e13f9d6b9f2908) | miguel-heygen |
+| 2026-11-14 | [fix(engine): hold the render page to the asset download address rules…](https://github.com/heygen-com/hyperframes/commit/29533f631fdfd3b5bd733319de49d2a97c1fbf3f) | miguel-heygen |
+| 2026-11-14 | [fix(producer): a clip whose file name has a space or accent is mixed …](https://github.com/heygen-com/hyperframes/commit/a3fa250b25c7c42dedaf4b19b5df65d80260cc65) | miguel-heygen |
+| 2026-11-14 | [fix(studio-server): save an edit Windows briefly holds without freezi…](https://github.com/heygen-com/hyperframes/commit/a92498b9033a069418940fe54360e172968381e4) | miguel-heygen |
+| 2026-11-14 | [fix(cli): an unknown flag's error leaves out hidden rename shims (#7746)](https://github.com/heygen-com/hyperframes/commit/cb52dcf646b8c0a413ce80c99fb6719ad452a2c1) | miguel-heygen |
+| 2026-11-14 | [fix: check, render and downloads work on a drive without hard links (…](https://github.com/heygen-com/hyperframes/commit/b746a0ee1389895b861b7177e226df3622d09bd4) | miguel-heygen |
+| 2026-11-14 | [fix(studio): HEVC with long-term reference pictures keeps its pixel a…](https://github.com/heygen-com/hyperframes/commit/b7238744624b49fc2a54cb7cd5c9c73b6004f92e) | miguel-heygen |
+| 2026-11-14 | [fix(cli): check still reports a film's other GL driver notes (#7745)](https://github.com/heygen-com/hyperframes/commit/d26ec25385630f2427079c65bb300f0e12f26661) | miguel-heygen |
+| 2026-11-14 | [fix(cli): an unknown flag lists the command's real flags (#7740)](https://github.com/heygen-com/hyperframes/commit/88beb282f26cd9c8eaa6381e477336e1a3971d65) | miguel-heygen |
+| 2026-11-14 | [fix(registry): caption-highlight clears a short word's highlight when…](https://github.com/heygen-com/hyperframes/commit/e21e64f6ab51f9024f9c0fe0d1acb39553887c99) | miguel-heygen |
 
 [See all commits ↗](https://github.com/heygen-com/hyperframes/commits)
 
