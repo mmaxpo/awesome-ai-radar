@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.12](https://github.com/meta/astryx/releases/tag/v0.7.12)
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > Astryx 0.7.12 — all `@astryxdesign/*` packages ship at this version.
 > ```bash

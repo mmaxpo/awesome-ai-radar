@@ -4,7 +4,7 @@
 
 > A curated list of the best open-source AI repos — **that updates itself every day.**
 
-![repos](https://img.shields.io/badge/repos-129-blue) ![active this week](https://img.shields.io/badge/active_this_week-80-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--14-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
+![repos](https://img.shields.io/badge/repos-133-blue) ![active this week](https://img.shields.io/badge/active_this_week-82-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--14-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
 
 Most awesome lists go stale: dead projects sit next to great ones and you can't tell them apart.
 This list is checked by a GitHub Action **every day**, so you always see:
@@ -14,7 +14,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**129 repos · 18 categories · 33 new releases this week** · _last checked 2026-11-14 11:14 UTC_
+**133 repos · 19 categories · 34 new releases this week** · _last checked 2026-11-14 11:18 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -55,21 +55,23 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[Biohub/esm](repos/Biohub__esm.md)** — [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) (4d ago) · 🧬 AI for science
 - **[ollama/ollama](repos/ollama__ollama.md)** — [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) (4d ago) · 🖥 Models, local inference & gateways
 - **[assafelovic/gpt-researcher](repos/assafelovic__gpt-researcher.md)** — [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) (4d ago) · 🤖 Agent frameworks & multi-agent
+- **[ai-job-search-dev/ai-job-search](repos/ai-job-search-dev__ai-job-search.md)** — [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5) (5d ago) · 📁 Uncategorized
 - **[pypa/pipenv](repos/pypa__pipenv.md)** — [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) (5d ago) · 🐍 Python & backend tooling
 - **[Leonxlnx/taste-skill](repos/Leonxlnx__taste-skill.md)** — [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) (6d ago) · 🪄 Agent skills & guidance
 
-<details><summary><b>🔨 New commits only</b> (47 repos)</summary>
+<details><summary><b>🔨 New commits only</b> (48 repos)</summary>
 
+- **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[compile] fix complex foreach inputs (#201839)_
 - **[MervinPraison/PraisonAI](repos/MervinPraison__PraisonAI.md)** (today): _docs: auto-update feature parity trackers [skip ci]_
 - **[tensorflow/tensorflow](repos/tensorflow__tensorflow.md)** (today): _Automated Code Change_
 - **[openai/openai-agents-python](repos/openai__openai-agents-python.md)** (today): _fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…_
-- **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _[compile] fix complex foreach inputs (#201839)_
 - **[JustVugg/colibri](repos/JustVugg__colibri.md)** (today): _Merge pull request #2530 from JustVugg/dev_
 - **[asgeirtj/system_prompts_leaks](repos/asgeirtj__system_prompts_leaks.md)** (today): _Add legacy SesameAI Miles prompt_
 - **[restatedev/restate](repos/restatedev__restate.md)** (today): _[PartitionStore] Test SQL over statistics on the query scan path_
 - **[cython/cython](repos/cython__cython.md)** (today): _Reduce graalpy parallelism furter on gp25.0 (#8131)_
 - **[jupyterlab/jupyterlab](repos/jupyterlab__jupyterlab.md)** (today): _[pre-commit.ci] pre-commit autoupdate (#20371)_
 - **[catboost/catboost](repos/catboost__catboost.md)** (today): _Skip redundant chmod on cached executables_
+- **[anthropics/skills](repos/anthropics__skills.md)** (today): _Move Office skills to the Apache 2.0 license (#2146)_
 - **[casey/just](repos/casey__just.md)** (today): _Ignore comments inside delimiters (#3778)_
 - **[temporalio/temporal](repos/temporalio__temporal.md)** (today): _WHN metrics 2: add Update-aware WHN metrics with read-only registry c…_
 - **[JoshuaC215/agent-service-toolkit](repos/JoshuaC215__agent-service-toolkit.md)** (today): _chore(deps): bump setuptools from 84.0.0 to 84.1.0 (#407)_
@@ -90,7 +92,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[zylon-ai/private-gpt](repos/zylon-ai__private-gpt.md)** (today): _fix(settings): wire HTTPS_PROXY to the proxy.https_proxy field (#2432)_
 - **[ethanplusai/sellbird](repos/ethanplusai__sellbird.md)** (today): _Merge pull request #238 from ethanplusai/fix/no-tip-status_
 - **[scikit-learn/scikit-learn](repos/scikit-learn__scikit-learn.md)** (today): _TST Fix PCA array API checks on rank-deficient data and update array-…_
-- **[PyO3/pyo3](repos/PyO3__pyo3.md)** (today): _avoid leaking integers when creating slice objects (#6575)_
+- **[PyO3/pyo3](repos/PyO3__pyo3.md)** (yesterday): _avoid leaking integers when creating slice objects (#6575)_
 - **[python-websockets/websockets](repos/python-websockets__websockets.md)** (yesterday): _Interrupt blocking reads on Linux._
 - **[numba/numba](repos/numba__numba.md)** (yesterday): _Merge pull request #10973 from sebastianbreguel/fix/partition-negativ…_
 - **[modelscope/DiffSynth-Studio](repos/modelscope__DiffSynth-Studio.md)** (yesterday): _support comfy-h3image-prune (#1825)_
@@ -112,7 +114,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 ## 🗂 Categories
 
-[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (9) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🪄 Agent skills & guidance](#-agent-skills--guidance) (4) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (2) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🛡 Security & OSINT](#-security--osint) (3) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (4) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (12) · [🏢 Organizations](#-organizations) (10)
+[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (9) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🪄 Agent skills & guidance](#-agent-skills--guidance) (4) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (2) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🛡 Security & OSINT](#-security--osint) (3) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (4) · [📁 Uncategorized](#-uncategorized) (4) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (12) · [🏢 Organizations](#-organizations) (10)
 
 ## 🤖 Agent frameworks & multi-agent
 
@@ -290,7 +292,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**pandas-dev/pandas**](repos/pandas-dev__pandas.md) 🆕<br><sub>Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures simil…</sub> | The standard Python data-analysis library (cheat sheet in doc/cheatsheet) | 50.5k | today | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) · 9d ago |
 | [**casey/just**](repos/casey__just.md) 🆕<br><sub>🤖 Just a command runner</sub> | Handy command runner: a simpler Makefile for project tasks | 36.7k | today | [1.59.0](https://github.com/casey/just/releases/tag/1.59.0) · 1mo ago |
 | [**pypa/pipenv**](repos/pypa__pipenv.md) 🆕<br><sub> Python Development Workflow for Humans.</sub> | Python dependency and virtualenv manager | 25.0k | 2d ago | [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) · 5d ago |
-| [**PyO3/pyo3**](repos/PyO3__pyo3.md) 🆕<br><sub>Rust bindings for the Python interpreter</sub> | Write fast Python extensions in Rust | 16.3k | today | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) · 1mo ago |
+| [**PyO3/pyo3**](repos/PyO3__pyo3.md) 🆕<br><sub>Rust bindings for the Python interpreter</sub> | Write fast Python extensions in Rust | 16.3k | yesterday | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) · 1mo ago |
 | [**benfred/py-spy**](repos/benfred__py-spy.md) 🆕<br><sub>Sampling profiler for Python programs</sub> | Sampling profiler: see where a running Python program spends time | 15.6k | 3d ago | [v0.4.3](https://github.com/benfred/py-spy/releases/tag/v0.4.3) · 11d ago |
 | [**jupyterlab/jupyterlab**](repos/jupyterlab__jupyterlab.md) 🆕<br><sub>JupyterLab computational environment.</sub> | Jupyter notebooks IDE for data science | 15.4k | today | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) · 7d ago |
 | [**plasma-umass/scalene**](repos/plasma-umass__scalene.md) 🆕<br><sub>Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimizat…</sub> | CPU/GPU/memory profiler for Python with AI optimization tips | 13.6k | today | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) · 21d ago |
@@ -320,6 +322,15 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**ethanplusai/sellbird**](repos/ethanplusai__sellbird.md) 🆕<br><sub>Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds …</sub> | Open-source AI sales outreach (finds leads, sends emails) | 5.5k | today | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) · 7d ago |
 | [**onehumanbeing/esp32-iphone-agent**](repos/onehumanbeing__esp32-iphone-agent.md) 🆕<br><sub>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision m…</sub> | AI controls a real iPhone via a $7 ESP32 | 4.9k | today | [v1.0.5](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.5) · today |
 | [**pizza-bot-app/pizza-bot**](repos/pizza-bot-app__pizza-bot.md) 🆕<br><sub>A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph.</sub> | Local-first inbox for long-running AI agents (LangGraph) | 559 | today | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) · 3d ago |
+
+## 📁 Uncategorized
+
+| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
+|---|---|---|---|---|
+| [**donnemartin/system-design-primer**](repos/donnemartin__system-design-primer.md)<br><sub>Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.</sub> |  | 377.8k | 2mo ago | — |
+| [**anthropics/skills**](repos/anthropics__skills.md) 🆕<br><sub>Public repository for Agent Skills</sub> |  | 194.3k | today | — |
+| [**ai-job-search-dev/ai-job-search**](repos/ai-job-search-dev__ai-job-search.md) 🆕<br><sub>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings…</sub> |  | 71.7k | yesterday | [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5) · 5d ago |
+| [**HKUDS/CLI-Anything**](repos/HKUDS__CLI-Anything.md)<br><sub>"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/</sub> |  | 58.7k | 1mo ago | [v0.4.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0) · 4mo ago |
 
 ## 🪦 Discontinued & archived
 
