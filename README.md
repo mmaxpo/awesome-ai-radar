@@ -14,7 +14,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**133 repos · 19 categories · 34 new releases this week** · _last checked 2026-11-14 11:18 UTC_
+**133 repos · 18 categories · 34 new releases this week** · _last checked 2026-11-14 11:19 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -55,7 +55,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[Biohub/esm](repos/Biohub__esm.md)** — [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) (4d ago) · 🧬 AI for science
 - **[ollama/ollama](repos/ollama__ollama.md)** — [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) (4d ago) · 🖥 Models, local inference & gateways
 - **[assafelovic/gpt-researcher](repos/assafelovic__gpt-researcher.md)** — [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) (4d ago) · 🤖 Agent frameworks & multi-agent
-- **[ai-job-search-dev/ai-job-search](repos/ai-job-search-dev__ai-job-search.md)** — [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5) (5d ago) · 📁 Uncategorized
+- **[ai-job-search-dev/ai-job-search](repos/ai-job-search-dev__ai-job-search.md)** — [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5) (5d ago) · 🛠 Apps & other
 - **[pypa/pipenv](repos/pypa__pipenv.md)** — [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) (5d ago) · 🐍 Python & backend tooling
 - **[Leonxlnx/taste-skill](repos/Leonxlnx__taste-skill.md)** — [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) (6d ago) · 🪄 Agent skills & guidance
 
@@ -114,7 +114,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 ## 🗂 Categories
 
-[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (9) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🪄 Agent skills & guidance](#-agent-skills--guidance) (4) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (2) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🛡 Security & OSINT](#-security--osint) (3) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (4) · [📁 Uncategorized](#-uncategorized) (4) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (12) · [🏢 Organizations](#-organizations) (10)
+[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (18) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (9) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🪄 Agent skills & guidance](#-agent-skills--guidance) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (2) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🛡 Security & OSINT](#-security--osint) (3) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (5) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (9) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (12) · [🏢 Organizations](#-organizations) (10)
 
 ## 🤖 Agent frameworks & multi-agent
 
@@ -125,6 +125,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**FoundationAgents/MetaGPT**](repos/FoundationAgents__MetaGPT.md) 💤<br><sub>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</sub> | Multi-agent 'software company' (PM, architect, engineer) | 71.3k | 9mo ago | [v0.8.2](https://github.com/FoundationAgents/MetaGPT/releases/tag/v0.8.2) · 1y ago |
 | [**microsoft/autogen**](repos/microsoft__autogen.md) 🆕<br><sub>A programming framework for agentic AI</sub> | Microsoft's multi-agent conversation framework | 61.8k | 2d ago | [python-v0.7.5](https://github.com/microsoft/autogen/releases/tag/python-v0.7.5) · 1y ago |
 | [**crewAIInc/crewAI**](repos/crewAIInc__crewAI.md) 🆕<br><sub>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewA…</sub> | Role-based agent teams (crews) working on tasks | 60.9k | today | [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41) · yesterday |
+| [**HKUDS/CLI-Anything**](repos/HKUDS__CLI-Anything.md)<br><sub>"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/</sub> | Wraps any software in a CLI so AI agents can operate it | 58.7k | 1mo ago | [v0.4.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0) · 4mo ago |
 | [**agno-agi/agno**](repos/agno-agi__agno.md) 🆕<br><sub>The self-managing agent platform</sub> | Fast framework for agents with memory, tools and teams | 43.2k | today | [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) · yesterday |
 | [**OpenBMB/ChatDev**](repos/OpenBMB__ChatDev.md)<br><sub>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</sub> | Virtual software company of chatting agents | 34.7k | 8d ago | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) · 7mo ago |
 | [**assafelovic/gpt-researcher**](repos/assafelovic__gpt-researcher.md) 🆕<br><sub>An autonomous agent that conducts deep research on any data using any LLM providers</sub> | Autonomous agent that researches and writes reports | 30.7k | yesterday | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) · 4d ago |
@@ -166,6 +167,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
+| [**anthropics/skills**](repos/anthropics__skills.md) 🆕<br><sub>Public repository for Agent Skills</sub> | Anthropic's official Agent Skills: ready-made skills for Claude (docs, design, data and more) | 194.3k | today | — |
 | [**nextlevelbuilder/ui-ux-pro-max-skill**](repos/nextlevelbuilder__ui-ux-pro-max-skill.md) 🆕<br><sub>An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.</sub> | Design-intelligence skill so coding agents build professional UI/UX | 149.3k | 3d ago | [v2.15.0](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases/tag/v2.15.0) · 3mo ago |
 | [**addyosmani/agent-skills**](repos/addyosmani__agent-skills.md) 🆕<br><sub>Production-grade engineering skills for AI coding agents.</sub> | Production-grade engineering skills for AI coding agents | 117.3k | today | [0.6.16](https://github.com/addyosmani/agent-skills/releases/tag/0.6.16) · today |
 | [**Leonxlnx/taste-skill**](repos/Leonxlnx__taste-skill.md) 🆕<br><sub>Agent skills that give coding agents taste: art direction, reference images and a browser check instead of gen…</sub> | Skill that gives AI better design taste | 115.3k | 5d ago | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) · 6d ago |
@@ -306,6 +308,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
 | [**codecrafters-io/build-your-own-x**](repos/codecrafters-io__build-your-own-x.md) 🆕<br><sub>Master programming by recreating your favorite technologies from scratch.</sub> | Guides to build your own Git, Docker, DB, etc. from scratch | 562.4k | 5d ago | — |
+| [**donnemartin/system-design-primer**](repos/donnemartin__system-design-primer.md)<br><sub>Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.</sub> | Learn to design large-scale systems; system-design interview prep with flashcards | 377.8k | 2mo ago | — |
 | [**Shubhamsaboo/awesome-llm-apps**](repos/Shubhamsaboo__awesome-llm-apps.md) 🆕<br><sub>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</sub> | Many runnable example LLM/agent apps to learn from | 144.6k | 3d ago | — |
 | [**karpathy/nanoGPT**](repos/karpathy__nanoGPT.md) 💤<br><sub>The simplest, fastest repository for training/finetuning medium-sized GPTs.</sub> | Minimal code to train a GPT — learn how LLMs work inside | 64.7k | 1y ago | — |
 | [**ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code**](repos/ashishpatel26__500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code.md)<br><sub>500 AI Machine learning Deep learning Computer vision NLP Projects with code</sub> | 500 AI/ML/CV/NLP project ideas with code | 37.8k | 1mo ago | — |
@@ -318,19 +321,11 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
+| [**ai-job-search-dev/ai-job-search**](repos/ai-job-search-dev__ai-job-search.md) 🆕<br><sub>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings…</sub> | Local AI job-search framework on Claude Code: evaluate postings, tailor CVs, cover letters, interview prep | 71.7k | yesterday | [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5) · 5d ago |
 | [**Swordfish90/cool-retro-term**](repos/Swordfish90__cool-retro-term.md)<br><sub>A good looking terminal emulator which mimics the old cathode display...</sub> | Terminal emulator that looks like an old CRT screen | 26.6k | 5mo ago | [2.0.0-beta2](https://github.com/Swordfish90/cool-retro-term/releases/tag/2.0.0-beta2) · 5mo ago |
 | [**ethanplusai/sellbird**](repos/ethanplusai__sellbird.md) 🆕<br><sub>Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds …</sub> | Open-source AI sales outreach (finds leads, sends emails) | 5.5k | today | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) · 7d ago |
 | [**onehumanbeing/esp32-iphone-agent**](repos/onehumanbeing__esp32-iphone-agent.md) 🆕<br><sub>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision m…</sub> | AI controls a real iPhone via a $7 ESP32 | 4.9k | today | [v1.0.5](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.5) · today |
 | [**pizza-bot-app/pizza-bot**](repos/pizza-bot-app__pizza-bot.md) 🆕<br><sub>A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph.</sub> | Local-first inbox for long-running AI agents (LangGraph) | 559 | today | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) · 3d ago |
-
-## 📁 Uncategorized
-
-| Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
-|---|---|---|---|---|
-| [**donnemartin/system-design-primer**](repos/donnemartin__system-design-primer.md)<br><sub>Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.</sub> |  | 377.8k | 2mo ago | — |
-| [**anthropics/skills**](repos/anthropics__skills.md) 🆕<br><sub>Public repository for Agent Skills</sub> |  | 194.3k | today | — |
-| [**ai-job-search-dev/ai-job-search**](repos/ai-job-search-dev__ai-job-search.md) 🆕<br><sub>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings…</sub> |  | 71.7k | yesterday | [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5) · 5d ago |
-| [**HKUDS/CLI-Anything**](repos/HKUDS__CLI-Anything.md)<br><sub>"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/</sub> |  | 58.7k | 1mo ago | [v0.4.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0) · 4mo ago |
 
 ## 🪦 Discontinued & archived
 

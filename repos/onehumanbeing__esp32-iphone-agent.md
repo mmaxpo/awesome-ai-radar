@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 4.9k |
 | 🍴 **Forks** | 676 |
-| 🐞 **Open issues + PRs** | [15](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
+| 🐞 **Open issues + PRs** | [16](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 61% · C 21% · Go 9% · C++ 4% · Python 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `airplay` `automation` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `dsh-plugin` `claude-code` `ios` `ios-automation` `mcp` `mcp-server` `mobile-agent` `phone-agent` `screen-mirroring` `seeed-xiao` `xiao-esp32s3` |

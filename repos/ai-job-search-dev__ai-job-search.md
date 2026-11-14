@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🛠 Apps & other |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Local AI job-search framework on Claude Code: evaluate postings, tailor CVs, cover letters, interview prep |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**

@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🪄 Agent skills & guidance |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Anthropic's official Agent Skills: ready-made skills for Claude (docs, design, data and more) |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**

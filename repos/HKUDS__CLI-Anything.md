@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🤖 Agent frameworks & multi-agent |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Wraps any software in a CLI so AI agents can operate it |
 | **Added** | 2026-11-14 |
 
 ## 📊 At a glance

@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 📚 Awesome lists & learning |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Learn to design large-scale systems; system-design interview prep with flashcards |
 | **Added** | 2026-11-14 |
 
 ## 📊 At a glance
