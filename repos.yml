@@ -611,6 +611,12 @@
   status: study
   added: 2026-11-11
 
+- repo: meta/astryx
+  why: "Meta's agent-ready React design system: 150+ components, themes, CLI"
+  category: design
+  status: study
+  added: 2026-11-14
+
 # ───────── 🐍 Python & backend tooling ─────────
 
 - repo: fastapi/fastapi
@@ -999,3 +1005,4 @@
   category: agents
   status: study
   added: 2026-11-11
+
