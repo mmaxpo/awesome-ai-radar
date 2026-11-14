@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🛡 Security & OSINT |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Find someone's social-media accounts by username (OSINT) |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**

@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Audit your codebase with your best model and write plans for cheaper models to execute |
 | **Added** | 2026-11-14 |
 
 ## 📊 At a glance

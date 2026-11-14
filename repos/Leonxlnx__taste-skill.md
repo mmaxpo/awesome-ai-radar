@@ -9,7 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 🎨 Design & creative |
+| **Category** | 🪄 Agent skills & guidance |
 | **Project** | — |
 | **Why it's worth a look** | Skill that gives AI better design taste |
 | **Added** | 2026-11-11 |

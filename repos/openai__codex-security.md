@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🛡 Security & OSINT |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | OpenAI's CLI/SDK to find, validate and fix security vulnerabilities |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**

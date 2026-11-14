@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🪄 Agent skills & guidance |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Production-grade engineering skills for AI coding agents |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**

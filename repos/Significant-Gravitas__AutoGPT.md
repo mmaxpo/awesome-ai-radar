@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 188.0k |
 | 🍴 **Forks** | 45.9k |
-| 🐞 **Open issues + PRs** | [680](https://github.com/Significant-Gravitas/AutoGPT/issues) |
+| 🐞 **Open issues + PRs** | [679](https://github.com/Significant-Gravitas/AutoGPT/issues) |
 | 💻 **Languages** | Python 68% · TypeScript 31% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `openai` `python` `artificial-intelligence` `autonomous-agents` `llama-api` `agentic-ai` `agents` `llm` `claude` `gpt` |

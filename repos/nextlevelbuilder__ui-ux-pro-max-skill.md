@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🪄 Agent skills & guidance |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Design-intelligence skill so coding agents build professional UI/UX |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**

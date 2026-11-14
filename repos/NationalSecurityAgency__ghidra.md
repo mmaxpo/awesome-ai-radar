@@ -9,7 +9,7 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 🛠 Apps & other |
+| **Category** | 🛡 Security & OSINT |
 | **Project** | — |
 | **Why it's worth a look** | Reverse-engineering framework (NSA) |
 | **Added** | 2026-11-11 |

@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🪄 Agent skills & guidance |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Keeps your coding agent up to date with modern web best practices (Chrome team) |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**
