@@ -4,7 +4,7 @@
 
 > A curated list of the best open-source AI repos — **that updates itself every day.**
 
-![repos](https://img.shields.io/badge/repos-122-blue) ![active this week](https://img.shields.io/badge/active_this_week-74-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--14-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
+![repos](https://img.shields.io/badge/repos-123-blue) ![active this week](https://img.shields.io/badge/active_this_week-75-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--11--14-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey) [![suggest a repo](https://img.shields.io/badge/suggest-a_repo-purple)](https://github.com/mmaxpo/awesome-ai-radar/issues/new?template=suggest-repo.yml)
 
 Most awesome lists go stale: dead projects sit next to great ones and you can't tell them apart.
 This list is checked by a GitHub Action **every day**, so you always see:
@@ -14,7 +14,7 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**122 repos · 16 categories · 30 new releases this week** · _last checked 2026-11-14 11:06 UTC_
+**123 repos · 16 categories · 31 new releases this week** · _last checked 2026-11-14 11:07 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -35,6 +35,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 - **[onehumanbeing/esp32-iphone-agent](repos/onehumanbeing__esp32-iphone-agent.md)** — [v1.0.5](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.5) (today) · 🛠 Apps & other
 - **[lobehub/lobehub](repos/lobehub__lobehub.md)** — [v0.0.0-nightly.pr22966.39383](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22966.39383) (today) · 🧩 Low-code builders & chat UIs
 - **[volcengine/OpenViking](repos/volcengine__OpenViking.md)** — [react@0.1.11](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.11) (today) · 🧠 RAG, memory & chat with your data
+- **[alibaba/open-code-review](repos/alibaba__open-code-review.md)** — [v1.13.9](https://github.com/alibaba/open-code-review/releases/tag/v1.13.9) (yesterday) · 💻 Coding agents & dev tools
 - **[anomalyco/opencode](repos/anomalyco__opencode.md)** — [v2.3.0](https://github.com/anomalyco/opencode/releases/tag/v2.3.0) (yesterday) · 💻 Coding agents & dev tools
 - **[crewAIInc/crewAI](repos/crewAIInc__crewAI.md)** — [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41) (yesterday) · 🤖 Agent frameworks & multi-agent
 - **[agno-agi/agno](repos/agno-agi__agno.md)** — [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) (yesterday) · 🤖 Agent frameworks & multi-agent
@@ -106,7 +107,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 
 ## 🗂 Categories
 
-[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (7) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (2) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (6) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (12) · [🏢 Organizations](#-organizations) (10)
+[🤖 Agent frameworks & multi-agent](#-agent-frameworks--multi-agent) (17) · [💻 Coding agents & dev tools](#-coding-agents--dev-tools) (8) · [🔁 Durable workflows & orchestration](#-durable-workflows--orchestration) (5) · [🧠 RAG, memory & chat with your data](#-rag-memory--chat-with-your-data) (7) · [📄 Documents, OCR & web data](#-documents-ocr--web-data) (6) · [🖥 Models, local inference & gateways](#-models-local-inference--gateways) (9) · [📈 Classic ML, data science & vision](#-classic-ml-data-science--vision) (8) · [🧬 AI for science](#-ai-for-science) (2) · [🔌 MCP & SDKs](#-mcp--sdks) (4) · [🧩 Low-code builders & chat UIs](#-low-code-builders--chat-uis) (5) · [✍️ Prompting & LLM programming](#-prompting--llm-programming) (2) · [🖼 Image & video generation](#-image--video-generation) (7) · [🎨 Design & creative](#-design--creative) (6) · [🐍 Python & backend tooling](#-python--backend-tooling) (12) · [📚 Awesome lists & learning](#-awesome-lists--learning) (8) · [🛠 Apps & other](#-apps--other) (5) · [📎 More resources](#-more-resources) (37) · [🪦 Discontinued & archived](#-discontinued--archived) (12) · [🏢 Organizations](#-organizations) (10)
 
 ## 🤖 Agent frameworks & multi-agent
 
@@ -139,6 +140,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W46.md) · [all weeks](
 | [**abi/screenshot-to-code**](repos/abi__screenshot-to-code.md)<br><sub>Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</sub> | Turn screenshots/designs into HTML/React code | 81.2k | 8d ago | — |
 | [**cline/cline**](repos/cline__cline.md) 🆕<br><sub>Autonomous coding agent as an SDK, IDE extension, or CLI assistant.</sub> | Autonomous coding agent inside VS Code | 71.6k | today | [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26) · 19d ago |
 | [**openinterpreter/openinterpreter**](repos/openinterpreter__openinterpreter.md) 🆕<br><sub>A coding agent for open models like Kimi K3 and GLM 5.3</sub> | LLM that runs code on your computer to do tasks | 68.9k | today | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) · 3d ago |
+| [**alibaba/open-code-review**](repos/alibaba__open-code-review.md) 🆕<br><sub>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic…</sub> | Alibaba's AI code-review CLI: LLM agent + deterministic checks, line-level comments, CI-ready | 51.0k | today | [v1.13.9](https://github.com/alibaba/open-code-review/releases/tag/v1.13.9) · yesterday |
 | [**Doriandarko/claude-engineer**](repos/Doriandarko__claude-engineer.md) 💤<br><sub>Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-…</sub> | CLI where Claude writes code and creates its own tools | 11.2k | 1y ago | — |
 | [**AI-Citizen/SolidGPT**](repos/AI-Citizen__SolidGPT.md) 💤<br><sub>Developer AI Persona Search Agent</sub> | Chat with your codebase / dev assistant | 1.8k | 1y ago | [v0.3.0](https://github.com/AI-Citizen/SolidGPT/releases/tag/v0.3.0) · 2y ago |
 

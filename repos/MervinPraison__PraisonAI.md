@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 9.3k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [153](https://github.com/MervinPraison/PraisonAI/issues) |
+| 🐞 **Open issues + PRs** | [154](https://github.com/MervinPraison/PraisonAI/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 13% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `aiagents` `framework` `ai-agent-framework` `ai-agents` `multi-agent` `multi-agent-system` `multi-agents` `ai-agent-sdk` `ai-agents-sdk` `openclaw` `air-gapped` `llm` `on-premise` `private-ai` `python` `regulated-industries` `self-hosted` |
