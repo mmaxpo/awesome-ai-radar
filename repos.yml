@@ -186,6 +186,12 @@
   status: study
   added: 2026-11-11
 
+- repo: alibaba/open-code-review
+  why: "Alibaba's AI code-review CLI: LLM agent + deterministic checks, line-level comments, CI-ready"
+  category: coding
+  status: study
+  added: 2026-11-14
+
 # ───────── 🔁 Durable workflows & orchestration ─────────
 
 - repo: temporalio/temporal
