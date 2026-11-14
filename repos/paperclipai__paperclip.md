@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0) — 2026-11-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 537.1 MB |
+| 💾 **Size** | 536.1 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases

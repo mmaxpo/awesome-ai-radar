@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-05-18 |
 | 📦 **Latest release** | [v1.13.9](https://github.com/alibaba/open-code-review/releases/tag/v1.13.9) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 53.5 MB |
+| 💾 **Size** | 53.6 MB |
 | 🌐 **Website** | https://open-codereview.ai |
 
 ## 📦 Recent releases

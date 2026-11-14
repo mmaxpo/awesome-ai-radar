@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 84.2k |
+| ⭐ **Stars** | 84.3k |
 | 🍴 **Forks** | 7.8k |
-| 🐞 **Open issues + PRs** | [284](https://github.com/heygen-com/hyperframes/issues) |
+| 🐞 **Open issues + PRs** | [283](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `framework` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [fix(engine): look a host up again after a failed lookup instead of re…](https://github.com/heygen-com/hyperframes/commit/b100cf461509d1773662fd9bcd90347675401bb5) | miguel-heygen |
 | 2026-11-14 | [fix(scripts): the comment check names a git too old for check-attr --…](https://github.com/heygen-com/hyperframes/commit/8e0f196a8b151f02adbf2f2a96e13f9d6b9f2908) | miguel-heygen |
 | 2026-11-14 | [fix(engine): hold the render page to the asset download address rules…](https://github.com/heygen-com/hyperframes/commit/29533f631fdfd3b5bd733319de49d2a97c1fbf3f) | miguel-heygen |
 | 2026-11-14 | [fix(producer): a clip whose file name has a space or accent is mixed …](https://github.com/heygen-com/hyperframes/commit/a3fa250b25c7c42dedaf4b19b5df65d80260cc65) | miguel-heygen |
@@ -103,7 +104,6 @@
 | 2026-11-14 | [fix(studio): HEVC with long-term reference pictures keeps its pixel a…](https://github.com/heygen-com/hyperframes/commit/b7238744624b49fc2a54cb7cd5c9c73b6004f92e) | miguel-heygen |
 | 2026-11-14 | [fix(cli): check still reports a film's other GL driver notes (#7745)](https://github.com/heygen-com/hyperframes/commit/d26ec25385630f2427079c65bb300f0e12f26661) | miguel-heygen |
 | 2026-11-14 | [fix(cli): an unknown flag lists the command's real flags (#7740)](https://github.com/heygen-com/hyperframes/commit/88beb282f26cd9c8eaa6381e477336e1a3971d65) | miguel-heygen |
-| 2026-11-14 | [fix(registry): caption-highlight clears a short word's highlight when…](https://github.com/heygen-com/hyperframes/commit/e21e64f6ab51f9024f9c0fe0d1acb39553887c99) | miguel-heygen |
 
 [See all commits ↗](https://github.com/heygen-com/hyperframes/commits)
 

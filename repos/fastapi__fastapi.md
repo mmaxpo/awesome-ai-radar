@@ -43,7 +43,7 @@
 > * ✨ Add dependency concurrency limits with `Depends(max_concurrency=...)`. PR [#16746](https://github.com/fastapi/fastapi/pull/16746) by [@tiangolo](https://github.com/tiangolo).
 
 ### [0.162.7](https://github.com/fastapi/fastapi/releases/tag/0.162.7)
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Fixes**
@@ -68,7 +68,7 @@
 > * ➖ Drop `pydantic-ai` dependency, use `pydantic-ai-slim[openai]` instead. PR [#16526](https://github.com/fastapi/fastapi/pull/16526) by [@YuriiMotov](https://github.com/YuriiMotov).
 
 ### [0.162.4](https://github.com/fastapi/fastapi/releases/tag/0.162.4)
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Fixes**

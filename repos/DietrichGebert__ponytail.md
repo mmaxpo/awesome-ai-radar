@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 190.7k |
+| ⭐ **Stars** | 190.8k |
 | 🍴 **Forks** | 10.7k |
 | 🐞 **Open issues + PRs** | [235](https://github.com/DietrichGebert/ponytail/issues) |
 | 💻 **Languages** | JavaScript 49% · Python 25% · TypeScript 25% |

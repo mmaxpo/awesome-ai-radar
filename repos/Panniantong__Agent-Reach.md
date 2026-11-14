@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 111.7k |
+| ⭐ **Stars** | 111.8k |
 | 🍴 **Forks** | 10.0k |
 | 🐞 **Open issues + PRs** | [106](https://github.com/Panniantong/Agent-Reach/issues) |
 | 💻 **Languages** | Python 98% · Shell 2% |

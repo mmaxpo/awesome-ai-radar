@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [feat(AlertDialog): touch motion on the theme's timing (#8373)](https://github.com/meta/astryx/commit/4800d992eb454cff18b7338a235bec1994a120a9) | vjeux |
 | 2026-11-14 | [fix(release): the changelog formatter keeps a Changeset's list of det…](https://github.com/meta/astryx/commit/2ec5cb7091e0d51f4d91f0df827fd295e680ccdc) | cixzhang |
 | 2026-11-14 | [ci: run the Node and swizzle-proof legs at full width when admission …](https://github.com/meta/astryx/commit/31871dfcd2cad12c999e5f03b723c097d39f89a7) | josephfarina |
 | 2026-11-14 | [test: split door-conformance, global-local and packed-gather-cache.re…](https://github.com/meta/astryx/commit/49a475fbdf2b3a242cfee86dfd8464774b81e739) | cixzhang |
@@ -103,7 +104,6 @@
 | 2026-11-14 | [fix(core): Toast picks its text side from the theme's surface before …](https://github.com/meta/astryx/commit/335a1729836ce5c0afa3613915c5d7c2ca01f7cf) | josephfarina |
 | 2026-11-14 | [ci: cancel pull-request runs for a superseded head (#11753)](https://github.com/meta/astryx/commit/bbfead3fc51df991472e9c7aa5dc9ccf4aee0a25) | josephfarina |
 | 2026-11-14 | [perf(cli): theme build loads jiti on first use (#11751)](https://github.com/meta/astryx/commit/e8200bb02bd2a03ea0b84cda1e1d4d85c55d145e) | josephfarina |
-| 2026-11-14 | [docs(cli): the useContainerReveal usage block says a coarse primary p…](https://github.com/meta/astryx/commit/eeb3d7c53e0b74cb510477a70730309f0a9b75b3) | cixzhang |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

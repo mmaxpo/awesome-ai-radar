@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.7k |
+| ⭐ **Stars** | 201.8k |
 | 🍴 **Forks** | 10.6k |
 | 🐞 **Open issues + PRs** | [800](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 73% · Python 11% · Rust 5% · Java 3% · PHP 2% |

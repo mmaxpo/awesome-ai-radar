@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 14.7k |
 | 🍴 **Forks** | 793 |
-| 🐞 **Open issues + PRs** | [97](https://github.com/google/ax/issues) |
+| 🐞 **Open issues + PRs** | [96](https://github.com/google/ax/issues) |
 | 💻 **Languages** | Go 94% · Shell 5% · Makefile 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
@@ -64,6 +64,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [task: update v1alpha1 Task and ObjectMeta schema and update codebase …](https://github.com/google/ax/commit/68877621f9e2dc8fe5b82d397b1e46a49f571b9b) | siyuanfoundation |
 | 2026-11-14 | [hack: add the v0.1 hero demo harness (#590)](https://github.com/google/ax/commit/eac8313392111328560793cc7fe664cf3e7b4e4c) | mayawang |
 | 2026-11-14 | [Expose live Substrate actor UIDs in task status (#556)](https://github.com/google/ax/commit/0031f4ca1c27f16798f2109743ad4a4355df7eec) | erain |
 | 2026-11-14 | [gateway: add Kind E2E for egress rules and credential injection (#588)](https://github.com/google/ax/commit/485b90eef731997079e6ec908557aa6acbb5c879) | yongruilin |
@@ -73,7 +74,6 @@
 | 2026-11-13 | [runner: trust the egress CA bundle and give git placeholder credentia…](https://github.com/google/ax/commit/edf52363d524cf1757d53d36289d0032b7faedb0) | yongruilin |
 | 2026-11-13 | [deploy: add NetworkPolicies for ax-server and Postgres (#582)](https://github.com/google/ax/commit/8f8c101c1e6ac0e4872a960adc20ccf75b8d4ea2) | yongruilin |
 | 2026-11-12 | [workspace: align v1alpha1 schema, enforce immutability, and materiali…](https://github.com/google/ax/commit/dd66b7f513ff6d5581372c8c5d9732dab161d429) | YoyinZyc |
-| 2026-11-12 | [ci: skip E2E when only docs or repo settings change (#578)](https://github.com/google/ax/commit/f3e6ecc6182bf1a3011cf304f803833c7af7980e) | MushuEE |
 
 [See all commits ↗](https://github.com/google/ax/commits)
 
