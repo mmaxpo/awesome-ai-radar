@@ -47,7 +47,7 @@
 > …
 
 ### [v15.18.2](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.2)
-<sub>2026-11-12 · yesterday</sub>
+<sub>2026-11-12 · 2d ago</sub>
 
 > **Critical fixes**
 > - **Gemini CLI on Windows records again** (#6079, thanks @tanishqbaweja). On Windows, Gemini CLI runs hook commands through PowerShell. The hook commands claude-mem wrote started with a quoted path, which PowerShell rejects as a parser error. Every claude-mem Gemini hook (SessionStart, BeforeAgent, AfterTool, AfterAgent, SessionEnd) failed on every event since 15.18.0, so Gemini sessions on Windows saved nothing and got no saved context. Hook commands on Windows now start with PowerShell's `&` call operator, as the Cursor and Windsurf hooks already do. macOS and Linux are unchanged.

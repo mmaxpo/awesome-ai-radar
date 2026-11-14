@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🪄 Agent skills & guidance |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Claude Code skill for paid-ads work across 12 ad platforms |
 | **Added** | 2026-11-14 |
 
 ## 📊 At a glance

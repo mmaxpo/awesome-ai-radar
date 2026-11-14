@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🔌 MCP & SDKs |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | OpenRouter for agent tools: one gateway to many tools |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**
@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.0k |
-| 🍴 **Forks** | 729 |
+| 🍴 **Forks** | 730 |
 | 🐞 **Open issues + PRs** | [315](https://github.com/superdesigndev/treg/issues) |
 | 💻 **Languages** | Python 74% · HTML 13% · JavaScript 4% · Vue 3% · Go 3% |
 | 📜 **License** | Other |

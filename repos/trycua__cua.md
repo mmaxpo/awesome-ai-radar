@@ -30,7 +30,7 @@
 | 📅 **Created** | 2025-01-31 |
 | 📦 **Latest release** | [cua-spaces-v0.36.14](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.36.14) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 766.1 MB |
+| 💾 **Size** | 766.6 MB |
 | 🌐 **Website** | https://cua.ai |
 
 ## 📦 Recent releases

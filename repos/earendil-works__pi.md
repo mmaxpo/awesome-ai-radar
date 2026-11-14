@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 💻 Coding agents & dev tools |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Agent toolkit: unified LLM API, agent loop, TUI and the pi coding-agent CLI |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**

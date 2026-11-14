@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | **Status** | study |
-| **Category** | 📁 Uncategorized |
+| **Category** | 🖥 Models, local inference & gateways |
 | **Project** | — |
-| **Why it's worth a look** | — |
+| **Why it's worth a look** | Fast one-pass decision engine: yes/no, choice and score over any text, 100+ languages |
 | **Added** | 2026-11-14 |
 
 🆕 **Active this week**
