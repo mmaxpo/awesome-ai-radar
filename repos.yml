@@ -1054,8 +1054,22 @@
   status: study
   added: 2026-11-11
 
+- repo: anthropics/skills
+  why: ""
+  status: study
+  added: 2026-11-14
 
+- repo: ai-job-search-dev/ai-job-search
+  why: ""
+  status: study
+  added: 2026-11-14
 
+- repo: HKUDS/CLI-Anything
+  why: ""
+  status: study
+  added: 2026-11-14
 
-
-
+- repo: donnemartin/system-design-primer
+  why: ""
+  status: study
+  added: 2026-11-14
