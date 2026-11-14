@@ -1012,3 +1012,32 @@
   status: study
   added: 2026-11-11
 
+- repo: openai/codex-security
+  why: ""
+  status: study
+  added: 2026-11-14
+
+- repo: addyosmani/agent-skills
+  why: ""
+  status: study
+  added: 2026-11-14
+
+- repo: shadcn/improve
+  why: ""
+  status: study
+  added: 2026-11-14
+
+- repo: GoogleChrome/modern-web-guidance-src
+  why: ""
+  status: study
+  added: 2026-11-14
+
+- repo: nextlevelbuilder/ui-ux-pro-max-skill
+  why: ""
+  status: study
+  added: 2026-11-14
+
+- repo: sherlock-project/sherlock
+  why: ""
+  status: study
+  added: 2026-11-14
