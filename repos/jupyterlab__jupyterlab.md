@@ -26,11 +26,11 @@
 | 💻 **Languages** | TypeScript 89% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 311.7 MB |
+| 💾 **Size** | 311.5 MB |
 | 🌐 **Website** | https://jupyterlab.readthedocs.io/ |
 
 ## 📦 Recent releases
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 16d ago</sub>
+<sub>2026-10-28 · 17d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Restore language pack search in the Extension Manager (#20409)](https://github.com/jupyterlab/jupyterlab/commit/ee893522826f436c4c8763324c672ffb6c2e6727) | MUFFANUJ |
+| 2026-11-14 | [Fix flaky completer, audio/video and output limit UI tests (#20438)](https://github.com/jupyterlab/jupyterlab/commit/7e6057cff1ae5ac6e48c829b6d06d0e7aa3f11cb) | krassowski |
+| 2026-11-14 | [Move sidebar sections up and down without dragging (#20498)](https://github.com/jupyterlab/jupyterlab/commit/53693c7e2ec61d363e0ed6ed187118477fa3aebc) | r0c0y |
 | 2026-11-14 | [Bump the pip group across 1 directory with 10 updates (#20316)](https://github.com/jupyterlab/jupyterlab/commit/a54eb172248db98dc7105cf944a1ac99bd400f43) | dependabot[bot] |
 | 2026-11-14 | [[pre-commit.ci] pre-commit autoupdate (#20371)](https://github.com/jupyterlab/jupyterlab/commit/579d5efab65dd2f6a4dba4df0e204c6652a56f98) | pre-commit-ci[bot] |
 | 2026-11-14 | [Bump dompurify from 3.4.16 to 3.4.17 (#20500)](https://github.com/jupyterlab/jupyterlab/commit/50c4c92ad19d0e1bba24f598250a38d9fd317d1d) | dependabot[bot] |
@@ -101,9 +104,6 @@
 | 2026-11-13 | [Replace "Fix License" with "Check License" job (#20421)](https://github.com/jupyterlab/jupyterlab/commit/927b0828f881f34935aca060584e6a155dce2137) | krassowski |
 | 2026-11-13 | [Add runtime model validation for terminal REST API in `@jupyterlab/se…](https://github.com/jupyterlab/jupyterlab/commit/0b39ed25ff0ab37bdd6a14cdf362b04bced743a6) | Yash990-bit |
 | 2026-11-13 | [Validate user API models in @jupyterlab/services (#19981)](https://github.com/jupyterlab/jupyterlab/commit/fd320fe79e409939a28bef811cf8afcb6ef4940f) | Yash990-bit |
-| 2026-11-13 | [Stop breaking extensions' `jest` when adding dependencies with ES mod…](https://github.com/jupyterlab/jupyterlab/commit/c66ba9537580caed0e87c6048fcad1c7fb240f2d) | krassowski |
-| 2026-11-13 | [Add an `all-green` check that passes when all other checks pass (#20492)](https://github.com/jupyterlab/jupyterlab/commit/c89204926c82e014488d603827af67e091d5efbe) | krassowski |
-| 2026-11-13 | [Add a toolbar visibility toggle for the notebook toolbar to the View …](https://github.com/jupyterlab/jupyterlab/commit/517cd3fb6dcc57def50d04e8e7458474112bd913) | MUFFANUJ |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

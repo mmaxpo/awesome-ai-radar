@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 6.7k |
-| 🍴 **Forks** | 485 |
+| 🍴 **Forks** | 488 |
 | 🐞 **Open issues + PRs** | [12](https://github.com/oomol-lab/pdf-craft/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `document` `ocr` `pdf` `deepseek-ocr` `book-digitization` `deepseek-ocr-2` `document-processing` `ebook` `epub` `epub-translation` `markdown` `pdf-converter` `pdf-parser` `pdf-to-epub` `pdf-to-markdown` `pdf-translation` `python` `scanned-pdf` `text-extraction` `translation` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-14 (yesterday) |
 | 📅 **Created** | 2025-02-12 |
 | 📦 **Latest release** | [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.6.6](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.6)
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > **PDF Craft v2.6.6**
 > PDF Craft 2.6.6 fixes concurrent PDF extraction, footnote OCR masks, XML fill
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.6.4](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.4)
-<sub>2026-10-26 · 19d ago</sub>
+<sub>2026-10-26 · 20d ago</sub>
 
 > **PDF Craft v2.6.4**
 > PDF Craft 2.6.4 unifies extraction and translation progress, counts source words
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.6.3](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.3)
-<sub>2026-10-25 · 20d ago</sub>
+<sub>2026-10-25 · 21d ago</sub>
 
 > **PDF Craft v2.6.3**
 > PDF Craft 2.6.3 preserves the original cause of concurrent service failures,

@@ -21,21 +21,21 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.3k |
-| 🍴 **Forks** | 134 |
-| 🐞 **Open issues + PRs** | [98](https://github.com/mbillow/localthings/issues) |
+| 🍴 **Forks** | 135 |
+| 🐞 **Open issues + PRs** | [86](https://github.com/mbillow/localthings/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `custom-component` `hacs` `hacs-integration` `home-assistant` `home-automation` `samsung` `smartthings` `coap-protocol` `coap-server` `dtls` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-06-30 |
 | 📦 **Latest release** | [v0.38.0](https://github.com/mbillow/localthings/releases/tag/v0.38.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 5.7 MB |
+| 💾 **Size** | 6.6 MB |
 
 ## 📦 Recent releases
 
 ### [v0.38.0](https://github.com/mbillow/localthings/releases/tag/v0.38.0)
-<sub>2026-11-11 · 3d ago</sub>
+<sub>2026-11-11 · 4d ago</sub>
 
 > **⭐️🌟⭐️ One Thousand Stars ⭐️🌟⭐️**
 > **LocalThings now has over 1,000 stars on GitHub!**
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.37.0](https://github.com/mbillow/localthings/releases/tag/v0.37.0)
-<sub>2026-11-08 · 6d ago</sub>
+<sub>2026-11-08 · 7d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbar media player.** Power, volume, mute, source, sound mode, playback, seek, shuffle and track info. Confirmed on the HW-Q950T. Thanks to @vmonkey and @benjaml4! (#775, part of #388)
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.36.0](https://github.com/mbillow/localthings/releases/tag/v0.36.0)
-<sub>2026-11-02 · 12d ago</sub>
+<sub>2026-11-02 · 13d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbars.** Boards without `/device/0` now set up, starting with the HW-S61B (sensors, selects, switches, numbers, buttons). Media player and TV come later. Thanks to @vmonkey! (#606, part of #388)
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-13 | [Attach an integration zip to each release for HACS download counts (#…](https://github.com/mbillow/localthings/commit/cda240997d9996f9610ca0e542a97d1c52295bc4) | mbillow |
-| 2026-11-13 | [Add a manual workflow to backfill release zips (#848)](https://github.com/mbillow/localthings/commit/fac361000a6b4ee5b556127b635051beda81a90b) | mbillow |
-| 2026-11-12 | [docs: record AF18DX936WFN owner PSK recovery (#791)](https://github.com/mbillow/localthings/commit/663e4b39732bffb29cea4ed13d71b60a4d52d08d) | blupine |
-| 2026-11-12 | [Quick fixes from issue triage: dishwasher buzzer (#821), Family Hub s…](https://github.com/mbillow/localthings/commit/2043f2a555fe43b4039527851828c57b9e0eeea7) | mbillow |
-| 2026-11-12 | [Keep a Collection board's missed hrefs through first discovery (#833)…](https://github.com/mbillow/localthings/commit/c42bf975309d2b8385ef9939c1c62d4999e537ac) | mbillow |
-| 2026-11-12 | [Skip Family Hub alarm placeholders with state 'none' (#826) (#831)](https://github.com/mbillow/localthings/commit/195fcfc7aa94a1d1273540ace8fa607c6ac01f5b) | mbillow |
-| 2026-11-12 | [Samsung TV: picture-mode support and full QN90A fixture (#755)](https://github.com/mbillow/localthings/commit/723fcaa671a332bb6e95f65901e62c835fe99568) | benjaml4 |
-| 2026-11-11 | [Let the microwave lamp and vent fan write with Remote Control off (#818)](https://github.com/mbillow/localthings/commit/2f39151e2cb71463e01393e33d5859c7470ad4b8) | Camwise1 |
-| 2026-11-11 | [Add laundry drum-light controls and On/Off buzzer switches (#793) (#830)](https://github.com/mbillow/localthings/commit/1ec499896797b1b12405cd1db056630b127fa9fb) | mbillow |
-| 2026-11-11 | [Register the alarm sensor on metadata-only clear responses (#792) (#829)](https://github.com/mbillow/localthings/commit/e3dfacc86527b4b932378f4b7979708fd492feb8) | mbillow |
+| 2026-11-15 | [Label the WW9000HE washer's cycles from Table_00 (#635) (#860)](https://github.com/mbillow/localthings/commit/cc82809811af591a3fabb9c2fb14e05540a228b6) | mbillow |
+| 2026-11-15 | [Give a handshake timeout its own credential menu, with a retry (#822)…](https://github.com/mbillow/localthings/commit/2a413a61f41e6a9a26635eed2cc9d0dddec9587f) | mbillow |
+| 2026-11-15 | [Offer the credential step after a handshake timeout (#822) (#824)](https://github.com/mbillow/localthings/commit/3f44ea6cbb8c8df046dbb251ea310bce13d785c8) | jameskoziol |
+| 2026-11-15 | [Bixby floor AC speaker, always-on display and Bluetooth (#839); fix Q…](https://github.com/mbillow/localthings/commit/a49c4d0917ebfb3e48c636dfcb26c13622f905f1) | mbillow |
+| 2026-11-15 | [Quick fixes from issue triage: HW-Q935GF soundbar (#853), AC CoolClea…](https://github.com/mbillow/localthings/commit/18482f93e3d1440471e9cf1c7bd8d63de27d5e55) | mbillow |
+| 2026-11-15 | [Samsung TV and soundbar: Q990H settings, TV media player and TV extra…](https://github.com/mbillow/localthings/commit/4360e4127f444ef711bb708e470fa8467976a784) | mbillow |
+| 2026-11-14 | [Keep capability attributes for sub-units kept past the first poll (#855)](https://github.com/mbillow/localthings/commit/4a55ee12cbebd9f28e96c3158cd973aee9562ba4) | mbillow |
+| 2026-11-14 | [Expose the combo dry surface on AWM-US-M64 washer-dryers (#786) (#790)](https://github.com/mbillow/localthings/commit/8d0bfe0d962d4665ce3e436f3a8f2120ef94f758) | mbillow |
+| 2026-11-14 | [Keep capability attributes intact across an offline load (#854)](https://github.com/mbillow/localthings/commit/3e48b82c4aaf194b2fc47604bb387464e729e584) | diegocjorge |
+| 2026-11-14 | [Grow the entity set in place instead of reloading on a short read (#8…](https://github.com/mbillow/localthings/commit/f4074e321bcb89626bad63beba3d4aa57d7d924d) | mbillow |
 
 [See all commits ↗](https://github.com/mbillow/localthings/commits)
 

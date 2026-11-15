@@ -26,7 +26,7 @@
 | 💻 **Languages** | Java 33% · C# 14% · JavaScript 11% · Python 10% · C++ 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `selenium` `webdriver` `java` `ruby` `python` `javascript` `dotnet` `rust` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2013-01-14 |
 | 📦 **Latest release** | [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) — 2026-10-29 |
 | 🌿 **Default branch** | `trunk` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [nightly](https://github.com/SeleniumHQ/selenium/releases/tag/nightly) — Nightly _(pre-release)_
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-15 · today</sub>
 
 > **What's Changed**
 > * [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in https://github.com/SeleniumHQ/selenium/pull/18245
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [[py] Find Select options by value with XPath (#18305)](https://github.com/SeleniumHQ/selenium/commit/fa946675f25301326b16f883535c572e75b5c663) | Mohsintl |
 | 2026-11-13 | [[java] publish auto-service-annotations again so -Xlint builds pass (…](https://github.com/SeleniumHQ/selenium/commit/662911c12e483204a1809f19a508f6ac83a9d958) | diemol |
 | 2026-11-13 | [[build] Automated Browser Version Update (#18311)](https://github.com/SeleniumHQ/selenium/commit/72e603c2c557d239b7698fa05d20e60cf793f8bf) | selenium-ci |
 | 2026-11-12 | [[py] Snapshot accessibility in Classic sessions too (#18307)](https://github.com/SeleniumHQ/selenium/commit/a393610d6d42bbbf28c30b6bc4212682a58bbb6c) | AutomatedTester |
@@ -103,7 +104,6 @@
 | 2026-11-12 | [[build] Automated Browser Version Update (#18302)](https://github.com/SeleniumHQ/selenium/commit/5d83fe9448e750e9dc17016c8a256cb94396e77e) | selenium-ci |
 | 2026-11-12 | [[build] label PRs that change docs/ with B-docs](https://github.com/SeleniumHQ/selenium/commit/807039781e6668a95085b82b78a9a56ed713ab01) | titusfortner |
 | 2026-11-11 | [[java] Speed up JSON serialisation and parsing (#17750)](https://github.com/SeleniumHQ/selenium/commit/de539a05074bdf64954d6aa7b317c1dda39912db) | shs96c |
-| 2026-11-11 | [[build] Automated Selenium Manager Update](https://github.com/SeleniumHQ/selenium/commit/8b55240ab95e2d794d9c2a8d5e970ca32ef35a49) | selenium-ci |
 
 [See all commits ↗](https://github.com/SeleniumHQ/selenium/commits)
 

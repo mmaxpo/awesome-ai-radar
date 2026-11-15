@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 13.9k |
-| 🍴 **Forks** | 741 |
-| 🐞 **Open issues + PRs** | [108](https://github.com/e2e-inc/e2e/issues) |
+| 🍴 **Forks** | 745 |
+| 🐞 **Open issues + PRs** | [112](https://github.com/e2e-inc/e2e/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `e2e` `e2e-testing` `end-to-end-testing` `mobile` `mobile-testing` `playwright` `web` `ai-testing` `automation-testing` `qa` `test-automation` `testing` `testing-framework` `testing-tools` `ui-testing` `agentic-testing` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-07-22 |
 | 📦 **Latest release** | [@e2e-dev/testmu@0.0.5](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/testmu%400.0.5) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
@@ -74,6 +74,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [fix(core): cap the worker kill delay at the timer limit (#1799)](https://github.com/e2e-inc/e2e/commit/cfa2aa0ecc77751fe56e4fbb8c938677cfa7ec01) | samanyudas |
+| 2026-11-14 | [test(mobile-benchmark): cover device.openLink with a real deep link (…](https://github.com/e2e-inc/e2e/commit/2030b175b02fca09dbb68a236ddd0e27ca01364e) | karolkulesza |
 | 2026-11-14 | [refactor(scripts): share the docs page walker across the checks (#1796)](https://github.com/e2e-inc/e2e/commit/f41edce99dbfe47a143b3fe4f799d3c3994d8a67) | DeryFerd |
 | 2026-11-14 | [test(explore): pin the finding fields the schema test left unbounded …](https://github.com/e2e-inc/e2e/commit/020c57d6cb4525742e2dadbeeae8a9bd84bc1c28) | DeryFerd |
 | 2026-11-14 | [test(run): run two serial groups through the scheduler at once (#1790)](https://github.com/e2e-inc/e2e/commit/d9c581fefcd9dceeac795ff7c178280da80e8fe6) | DeryFerd |
@@ -82,8 +84,6 @@
 | 2026-11-14 | [docs(web): clarify media emulation tab scope (#1772)](https://github.com/e2e-inc/e2e/commit/b56e8ed52539eab09a08af7b76ef34d0328936ea) | nguyenvanhieu1710 |
 | 2026-11-14 | [chore(deps): bump workspace deps to latest, playwright-core to 1.65.1…](https://github.com/e2e-inc/e2e/commit/ceaea64ceead09d0a0f8cb5b384ef0d9ffac23a1) | okwasniewski |
 | 2026-11-14 | [fix(acp): cancel the wait for the previous agent turn when the step e…](https://github.com/e2e-inc/e2e/commit/f64e7dba8d617a8804cba96cd8c885658db8aca5) | jxnxts |
-| 2026-11-13 | [docs(mobile): say which device runs when no device is named (#1728)](https://github.com/e2e-inc/e2e/commit/e167149af1d390492af09e5fe28bb64072e9df64) | karolkulesza |
-| 2026-11-13 | [docs(screen): say what doubleTapAt does on a device (#1733)](https://github.com/e2e-inc/e2e/commit/800a93e62a331c11f47dccdc8eac99124ebd36d2) | karolkulesza |
 
 [See all commits ↗](https://github.com/e2e-inc/e2e/commits)
 

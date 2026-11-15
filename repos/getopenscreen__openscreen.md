@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.3k |
-| 🍴 **Forks** | 481 |
-| 🐞 **Open issues + PRs** | [59](https://github.com/getopenscreen/openscreen/issues) |
+| 🍴 **Forks** | 485 |
+| 🐞 **Open issues + PRs** | [60](https://github.com/getopenscreen/openscreen/issues) |
 | 💻 **Languages** | TypeScript 48% · Rust 20% · HTML 14% · MDX 6% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `electron` `open-source` `screen-capture` `screen-recorder` `cross-platform` `ffmpeg` `product-demo` `rust` `screen-recording` `screen-studio` `screencast` `speech-to-text` `typescript` `video-editing` `video-editor` `wayland` `wgpu` `whisper` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-03-14 |
 | 📦 **Latest release** | [v2.2.2](https://github.com/getopenscreen/openscreen/releases/tag/v2.2.2) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
@@ -35,21 +35,32 @@
 
 ## 📦 Recent releases
 
+### [v2.3.0-rc.1](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.1) _(pre-release)_
+<sub>2026-11-14 · today</sub>
+
+> **Changes since v2.2.2**
+> - chore(release): release v2.2.1 into main
+> - docs(website): add a terms of use page, linked from the footer
+> - feat(usage): send the install week with the daily count, for cohort retention
+> - fix(usage): no mtime fallback for the install week, validate the stored week
+> - fix(usage): treat an unrepresentable birthtime as an unknown install week
+> …
+
 ### [v2.2.2](https://github.com/getopenscreen/openscreen/releases/tag/v2.2.2)
-<sub>2026-11-04 · 9d ago</sub>
+<sub>2026-11-04 · 10d ago</sub>
 
 > If OpenScreen saves you time, a star on the repo helps others find it.
 > **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.2.1...v2.2.2
 
 ### [v2.2.2-rc.1](https://github.com/getopenscreen/openscreen/releases/tag/v2.2.2-rc.1) _(pre-release)_
-<sub>2026-11-04 · 9d ago</sub>
+<sub>2026-11-04 · 10d ago</sub>
 
 > **Changes since v2.2.1**
 > - fix(export): recover nearby frames before sparse clip starts
 > **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.2.1...v2.2.2-rc.1
 
 ### [v2.2.1](https://github.com/getopenscreen/openscreen/releases/tag/v2.2.1)
-<sub>2026-11-03 · 11d ago</sub>
+<sub>2026-11-03 · 12d ago</sub>
 
 > If OpenScreen saves you time, a star on the repo helps others find it.
 > **What's Changed**
@@ -60,7 +71,7 @@
 > …
 
 ### [v2.2.1-rc.1](https://github.com/getopenscreen/openscreen/releases/tag/v2.2.1-rc.1) _(pre-release)_
-<sub>2026-11-02 · 11d ago</sub>
+<sub>2026-11-02 · 12d ago</sub>
 
 > **Changes since v2.2.0**
 > - ci: retry validating the stapled macOS DMG when Apple drops the connection
@@ -70,31 +81,20 @@
 > - docs(testing): add the x64 DMG signature check
 > …
 
-### [v2.2.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.2.0)
-<sub>2026-11-02 · 11d ago</sub>
-
-> **OpenScreen 2.2 brings layout changes to the timeline, separate tracks for overlapping annotations, and an update button that puts you in control of installation.** This release also improves recording, playback, audio timing and export across Windows, macOS and Linux.
-> **✨ Highlights**
-> **Change the layout throughout your video**
-> The new **Layouts** track lets you switch between **picture-in-picture, side-by-side, top/bottom, camera-only and screen-only** arrangements as your video plays. Place a change at the playhead, move its boundary to adjust the timing, and let the screen and camera transition smoothly into their next positions.
-> Layout edits support undo/redo and the AI/MCP tools. Existing Full Camera sections migrate to camera-only layouts while preserving their original easing. [#1404](https://github.com/getopenscreen/openscreen/pull/1404)
-> **Keep overlapping annotations easy to edit**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [fix(linux): take the v1 path on an empty cursor-mode mask](https://github.com/getopenscreen/openscreen/commit/5fa2a5570978679870afdfa1038f069dd7bc46af) | EtienneLescot |
-| 2026-11-14 | [fix(linux): record through a version 1 ScreenCast portal](https://github.com/getopenscreen/openscreen/commit/1b593155d1c4b9986d6cb5928ebd7d5a62fad675) | EtienneLescot |
-| 2026-11-14 | [fix(linux): reopen a paused capture's audio rings before the shared-m…](https://github.com/getopenscreen/openscreen/commit/aa52ab335e6e49574035693ffa72dec7ca215c80) | EtienneLescot |
-| 2026-11-14 | [fix(linux): start the shared-memory retry from a clean slate](https://github.com/getopenscreen/openscreen/commit/0d7f3e86190feec168ce2307904c8d9bda87b1ec) | EtienneLescot |
-| 2026-11-14 | [fix(linux): keep the shared-memory retry reachable until a frame stages](https://github.com/getopenscreen/openscreen/commit/8967a9a0744aa7addaf59aa868a194efedf03b9e) | EtienneLescot |
-| 2026-11-14 | [fix(linux): retry on shared memory when every DMA-BUF frame arrives c…](https://github.com/getopenscreen/openscreen/commit/95357c44d381b6096931115fb4cbc3f89339b9a3) | EtienneLescot |
-| 2026-11-14 | [docs: drop camera-preview rows the PR had already removed](https://github.com/getopenscreen/openscreen/commit/7efe10edf305b19150b82f60948cd36a6b8a9ca0) | EtienneLescot |
-| 2026-11-14 | [fix(i18n): add the Dutch and Polish camera preview strings](https://github.com/getopenscreen/openscreen/commit/cac16fed2ae8a387a7e4cbb92e10042d8aa650a2) | EtienneLescot |
-| 2026-11-14 | [fix(camera-preview): answer review on stale helpers and failed starts](https://github.com/getopenscreen/openscreen/commit/0e1d8e0294ea4aee2bd0a8ba80d0b2fab36541f8) | EtienneLescot |
-| 2026-11-14 | [fix(hud): hide the camera preview control while a take cannot exclude it](https://github.com/getopenscreen/openscreen/commit/728f6c05e485a0d8ddf2f19ed88396999bfa87e1) | EtienneLescot |
+| 2026-11-15 | [docs(testing): expect Check for Updates in the tray, Help and wordmar…](https://github.com/getopenscreen/openscreen/commit/16f317ffb07d785467f175b556f3d932a095c3d6) | EtienneLescot |
+| 2026-11-15 | [docs(testing): fix the update feed recipe and the Windows Help menu c…](https://github.com/getopenscreen/openscreen/commit/0b6f8deffd446e080e4272687bb5b2cf4e12452e) | EtienneLescot |
+| 2026-11-15 | [fix(update): keep a per-user Windows install per user when an all-use…](https://github.com/getopenscreen/openscreen/commit/dff7d5b6cabc3239ca87bdbb5f078573b105bd05) | EtienneLescot |
+| 2026-11-15 | [docs(testing): name the bump commit and run attempt behind the macOS …](https://github.com/getopenscreen/openscreen/commit/a050b6493bb0b42ac08cdd3c0b329097c62f6f9e) | EtienneLescot |
+| 2026-11-15 | [docs(testing): log the v2.3.0-rc.1 e2e passes on Windows, macOS and L…](https://github.com/getopenscreen/openscreen/commit/400d28acb7549a985153f5ed4ee4715bcbd9d5c9) | EtienneLescot |
+| 2026-11-14 | [fix(i18n): add the Polish strings for the crop pixel fields](https://github.com/getopenscreen/openscreen/commit/07a2d01eecd8667627925f89f05e802444cce893) | EtienneLescot |
+| 2026-11-14 | [fix(editor): derive the crop size minimum from the locked ratio](https://github.com/getopenscreen/openscreen/commit/264380359a2664ae59e1e618cc6f7788f4f871b6) | EtienneLescot |
+| 2026-11-14 | [fix(editor): keep the crop ratio and commit pixel fields on blur](https://github.com/getopenscreen/openscreen/commit/563001018f3b872c385a652acac563e7047cd002) | EtienneLescot |
+| 2026-11-14 | [fix(editor): put crop pixel labels inline so the fields fit above the…](https://github.com/getopenscreen/openscreen/commit/90962bc4491644ba0bbe1bc8e4d70702100fdb85) | 0xmyst3ry |
+| 2026-11-14 | [feat(editor): add pixel X / Y / Width / Height fields to the crop](https://github.com/getopenscreen/openscreen/commit/5cbc691ebbabd7629ac6768330a527e08d93d0b8) | 0xmyst3ry |
 
 [See all commits ↗](https://github.com/getopenscreen/openscreen/commits)
 

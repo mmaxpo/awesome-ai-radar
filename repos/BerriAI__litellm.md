@@ -26,39 +26,61 @@
 | 💻 **Languages** | Python 84% · TypeScript 10% · Rust 4% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `anthropic` `langchain` `llm` `llmops` `openai` `ai-gateway` `azure-openai` `bedrock` `gateway` `openai-proxy` `vertex-ai` `llm-gateway` `litellm` `mcp-gateway` `rust` `rust-ai` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2023-07-27 |
-| 📦 **Latest release** | [v1.106.10](https://github.com/BerriAI/litellm/releases/tag/v1.106.10) — 2026-11-14 |
+| 📦 **Latest release** | [v1.108.9](https://github.com/BerriAI/litellm/releases/tag/v1.108.9) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 2922.2 MB |
+| 💾 **Size** | 2927.9 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases
 
-### [v1.106.10](https://github.com/BerriAI/litellm/releases/tag/v1.106.10)
+### [v1.111.0-dev.3](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.3) _(pre-release)_
+<sub>2026-11-15 · today</sub>
+
+> > [!WARNING]
+> > **This release was only partly published. Use [v1.111.0-dev.4](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.4) instead.**
+> > It is built from the same commit and fixes the publishing problems below.
+> > [!IMPORTANT]
+> > **Signing has moved to keyless cosign.** This is the first release signed with Sigstore keyless signing (GitHub OIDC) instead of the `cosign.pub` key.
+> > `cosign verify --key ...` does not work for this release or later ones. Use the command below. Earlier releases still verify with the key.
+> …
+
+### [v1.111.0-dev.4](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.4) _(pre-release)_
+<sub>2026-11-15 · today</sub>
+
+> > [!IMPORTANT]
+> > **Signing has moved to keyless cosign.** Since v1.111.0-dev.3, releases are signed with Sigstore keyless signing (GitHub OIDC) instead of the `cosign.pub` key.
+> > `cosign verify --key ...` does not work for this release. Use the command below. Earlier releases still verify with the key.
+> **Verify this release**
+> ```bash
+> cosign verify \
+> …
+
+### [v1.110.0-rc.3](https://github.com/BerriAI/litellm/releases/tag/v1.110.0-rc.3) _(pre-release)_
+<sub>2026-11-15 · today</sub>
+
+> **Verify Docker Image Signature**
+> All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
+> **Verify using the pinned commit hash (recommended):**
+> A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:
+> ```bash
+> cosign verify \
+> …
+
+### [v1.107.0-rc.4](https://github.com/BerriAI/litellm/releases/tag/v1.107.0-rc.4) _(pre-release)_
 <sub>2026-11-14 · today</sub>
 
 > **Verify this release**
-> ```bash
-> cosign verify \
->   --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \
->   ghcr.io/berriai/litellm:v1.106.10
-> ```
-> …
-
-### [v1.108.8](https://github.com/BerriAI/litellm/releases/tag/v1.108.8) — 1.108.8 (LTS)
-<sub>2026-11-13 · today</sub>
-
-> > [!TIP]
-> > The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch
-> **Verify this release**
+> This release candidate is built from [`a1a541b`](https://github.com/BerriAI/litellm/commit/a1a541bfb1295d44bcb3b9ab882ba8f8b1c2dfa5), the reviewed merge of #51771 into `rc/1.107.0`. It is published as `1.107.0rc4` on PyPI and `v1.107.0-rc.4` on Docker
+> After the Oct 21 incident (#47826) we replaced the cosign key that signs our Docker images. These images are signed with the new key from [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065)
 > ```bash
 > cosign verify \
 >   --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \
 > …
 
-### [v1.111.0-dev.2](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.2) _(pre-release)_
-<sub>2026-11-13 · today</sub>
+### [v1.108.9](https://github.com/BerriAI/litellm/releases/tag/v1.108.9)
+<sub>2026-11-14 · today</sub>
 
 > **Verify Docker Image Signature**
 > All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
@@ -66,44 +88,22 @@
 > A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:
 > ```bash
 > cosign verify \
-> …
-
-### [v1.111.0-dev.1](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.1) _(pre-release)_
-<sub>2026-11-13 · yesterday</sub>
-
-> **Verify Docker Image Signature**
-> All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
-> **Verify using the pinned commit hash (recommended):**
-> A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:
-> ```bash
-> cosign verify \
-> …
-
-### [v1.108.7](https://github.com/BerriAI/litellm/releases/tag/v1.108.7) — 1.108.7 (LTS)
-<sub>2026-11-12 · yesterday</sub>
-
-> > [!TIP]
-> > The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch
-> **Verify this release**
-> ```bash
-> cosign verify \
->   --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [fix(aiohttp): reset the upstream connection when a stream closes earl…](https://github.com/BerriAI/litellm/commit/ec48e2491c5132951cd2710671506019ce93f0a0) | princejain756 |
-| 2026-11-14 | [fix(scim): skip groups with no team so a PATCH or PUT still deactivat…](https://github.com/BerriAI/litellm/commit/cad4570bbe49d0f3be013d07abd403dd21621b3b) | mika-lt |
-| 2026-11-14 | [fix(gateway)!: apply a deployment's Messages params and fill model ca…](https://github.com/BerriAI/litellm/commit/8140fdf54f31a417d8cb186f2074df62a3cf490c) | norkelbyte |
-| 2026-11-14 | [fix(together_ai): stop listing retired Together ids (#51827)](https://github.com/BerriAI/litellm/commit/1f6e401a681163bf7039948a4713921dc18955ec) | mika-lt |
-| 2026-11-14 | [feat(github_copilot): support GitHub App authentication with PEM uplo…](https://github.com/BerriAI/litellm/commit/9d827093c5cd220be65c8f2e3bd3979e5ede9062) | giladk1221 |
-| 2026-11-14 | [test(e2e): move audio, realtime, and Langfuse tests off model ids wit…](https://github.com/BerriAI/litellm/commit/05518975a559f1b3d40a12a254a9aba3f4e49a61) | paveln83 |
-| 2026-11-14 | [feat(decisions): support Vercel AI Gateway decision models (#50642)](https://github.com/BerriAI/litellm/commit/fd6c00200c52e079ea010c3752ad241eb5ac45e5) | mishdotdev |
-| 2026-11-14 | [fix(proxy): run baggage tag mappings and budget checks on /queue/chat…](https://github.com/BerriAI/litellm/commit/ac1cc5111cb26700710a4aafaef18df897634e16) | norkelbyte |
-| 2026-11-14 | [fix(proxy): count the request's tool_choice on the token count routes…](https://github.com/BerriAI/litellm/commit/27c796c412eed2f7336dccb46a58247463b7c498) | tavren27 |
-| 2026-11-14 | [fix(openrouter): suppress empty post-finish choice before usage trail…](https://github.com/BerriAI/litellm/commit/8b28818fa22a4a915f974ba6096f3cb9474061f4) | VISHNU0906 |
+| 2026-11-15 | [perf(auth): read token model fields from the class instead of depreca…](https://github.com/BerriAI/litellm/commit/09ce4f50ed1298882747c6e279ea6760f1527384) | narmstrong-berri |
+| 2026-11-15 | [perf(caching): format dual cache debug logs lazily (#51902)](https://github.com/BerriAI/litellm/commit/9e3a82ff03702e36e2d9e88a3b93648e6f20b787) | narmstrong-berri |
+| 2026-11-15 | [perf(streaming): extract usage once per chunk when assembling stream …](https://github.com/BerriAI/litellm/commit/98c86f6e7c8e31ee66b6b68b1522941975e4cc2b) | narmstrong-berri |
+| 2026-11-15 | [perf(host-python): settle ready async values inline instead of spawni…](https://github.com/BerriAI/litellm/commit/d76a7d76c4ce99bdc13c3ca68eefa53438000f22) | narmstrong-berri |
+| 2026-11-15 | [refactor(s3-log): move the rust-backed s3 logger from s3_v3 to s3_v2 …](https://github.com/BerriAI/litellm/commit/3bcd77954e37ace5dd7999aaa342b41c844dac72) | narmstrong-berri |
+| 2026-11-15 | [test(integration): record a stack when an owned proxy crashes (#51922)](https://github.com/BerriAI/litellm/commit/b90ac69841ed0d5afac6f0cbf790f0dcc02bbbd3) | devin-ai-integration[bot] |
+| 2026-11-15 | [test(e2e): drop two batch waits that never finish in time (#51882)](https://github.com/BerriAI/litellm/commit/91fc6c20714af4a0773f8eeefaab3c57c57dfb10) | yuneng-berri |
+| 2026-11-15 | [feat(customers): search customer members by ID or alias in the Member…](https://github.com/BerriAI/litellm/commit/26807a99254580b06fd91231428412460f9ecfb6) | kenneth-berri |
+| 2026-11-15 | [feat(customers): move existing members between teams (#51913)](https://github.com/BerriAI/litellm/commit/00313c9e5b33715e97fbaeaa2a32571be0876536) | moe-berri |
+| 2026-11-15 | [feat(ui): reuse usage spend design for customer teams and members (#5…](https://github.com/BerriAI/litellm/commit/c3b929d2031a642f4cc17f9888f4aeeea2a6df90) | tin-berri |
 
 [See all commits ↗](https://github.com/BerriAI/litellm/commits)
 

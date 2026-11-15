@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 143.5k |
+| ⭐ **Stars** | 143.7k |
 | 🍴 **Forks** | 23.0k |
-| 🐞 **Open issues + PRs** | [86](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
+| 🐞 **Open issues + PRs** | [87](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `tiktok` `ai-video-generator` `content-creation` `ffmpeg` `instagram-reels` `llm` `short-video` `subtitles` `text-to-speech` `video-automation` `video-workflow` `workflow-automation` `youtube-shorts` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10)
-<sub>2026-11-07 · 7d ago</sub>
+<sub>2026-11-07 · 8d ago</sub>
 
 > [English](#en-v1.3.10) | [中文](#cn-v1.3.10)
 > <h2 id="en-v1.3.10">Highlights</h2>
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.3.9](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.9)
-<sub>2026-10-21 · 24d ago</sub>
+<sub>2026-10-21 · 25d ago</sub>
 
 > [English](#en-v1.3.9) | [中文](#cn-v1.3.9)
 > <h2 id="en-v1.3.9">Highlights</h2>

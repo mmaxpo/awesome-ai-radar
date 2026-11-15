@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 23.6k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [506](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [504](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 93.7 MB |
+| 💾 **Size** | 94.0 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 0.7.4.dev1
-<sub>2026-11-04 · 10d ago</sub>
+<sub>2026-11-04 · 11d ago</sub>
 
 > **oMLX 0.7.4.dev1**
 > > This is a development release. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.3rc1](https://github.com/jundot/omlx/releases/tag/v0.7.3rc1) — 0.7.3rc1
-<sub>2026-10-27 · 18d ago</sub>
+<sub>2026-10-27 · 19d ago</sub>
 
 > **oMLX 0.7.3rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.2](https://github.com/jundot/omlx/releases/tag/v0.7.2).
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.3.dev2](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev2) — 0.7.3.dev2
-<sub>2026-10-25 · 20d ago</sub>
+<sub>2026-10-25 · 21d ago</sub>
 
 > **oMLX 0.7.3.dev2**
 > > This is a hotfix release that fixes an error when turning on Lightning MTP for MiniMax M3.1 (#4827). It also removes the stray `</think>` at the start of MiniMax M3.1 non-streaming replies and fixes prefill for DeepSeek V4 Flash oQ3.5e.

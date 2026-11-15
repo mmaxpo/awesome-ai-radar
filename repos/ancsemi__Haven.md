@@ -21,22 +21,44 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.1k |
-| 🍴 **Forks** | 114 |
-| 🐞 **Open issues + PRs** | [17](https://github.com/ancsemi/Haven/issues) |
+| 🍴 **Forks** | 115 |
+| 🐞 **Open issues + PRs** | [14](https://github.com/ancsemi/Haven/issues) |
 | 💻 **Languages** | JavaScript 80% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-02-11 |
-| 📦 **Latest release** | [v4.28.0](https://github.com/ancsemi/Haven/releases/tag/v4.28.0) — 2026-11-07 |
+| 📦 **Latest release** | [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.1 MB |
+| 💾 **Size** | 21.3 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
+### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
+<sub>2026-11-15 · today</sub>
+
+> Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
+> It has everything in 4.29.0, plus these, which are not in a stable yet:
+> **Added**
+> - Mass-select in forums: a Select button on the forum toolbar and a Select entry in a topic's right-click menu pick topics for moving or deleting several at once, with Select all. Phone-width screens had no way into selection mode in a forum. Moving offers forums only and takes the topics' replies along. Thanks Amnibro (#5892).
+> - A bell in the reply bar chooses whether your reply sends a push notification to the person you reply to (on by default, remembered on this device). With it on, a reply reaches them like an @mention would, including through a server muted with "except @mentions", and replies inside a thread now notify their author too. Thanks Bo0sted (#5891).
+> - Merge a channel into another (admin, a channel's menu > Merge into…), for the duplicates a Ferry history import leaves next to channels copied by hand. The channel merged into keeps its name, settings, permissions and members; every message of the other moves into it in time order, threads and all, and the other is deleted. A Discord message that is in both (imported in one, relayed by Ferry in the other) is kept once, with its replies, reactions and pin. Messages that look re-posted by hand from Discord (the same text, posted later in Haven) are listed with both copies, and only the ticked ones go, leaving the Discord copy with its real author and time. Ferry links, webhooks, scheduled messages and role menus come along, a later history import lands in the merged channel, and people who were caught up stay caught up. Protected messages always stay.
+> …
+
+### [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — Haven 4.29.0
+<sub>2026-11-15 · today</sub>
+
+> **Added**
+> - Call controls in fullscreen (thanks Roolk, #5849): mute, deafen, camera, screen share, call settings and leave stay on screen over a fullscreen camera or screen share, and a picker switches which stream is shown without leaving fullscreen.
+> - Video players in chat have Theater (as wide as the chat) and Fullscreen buttons: YouTube cards, uploaded videos and videos in link previews.
+> - Platform emoji built into Haven: Windows, Mac, iPhone, Android and Linux, under Platforms in the emoji picker. They work in messages, reactions and role menus.
+> - Role menus: each role's emoji is picked from a searchable list of every emoji, the server's custom ones and Haven's own included. A role named after a platform starts with its icon.
+> - Add members to a channel that already exists: right-click it and pick people one by one, a whole role at a time, or All users. People already in it are shown, and banned people are left out. It works for the admin and anyone who can invite people, and on a private channel for whoever may invite to it (its creator or a moderator there).
+> …
+
 ### [v4.29.0-beta.5](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.5) — Haven 4.29.0-beta.5 _(pre-release)_
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.28.0 until the next stable.
 > Changes since 4.29.0-beta.4:
@@ -47,7 +69,7 @@
 > …
 
 ### [v4.29.0-beta.4](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.4) — Haven 4.29.0-beta.4 _(pre-release)_
-<sub>2026-11-11 · 2d ago</sub>
+<sub>2026-11-11 · 3d ago</sub>
 
 > Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
 > **New**
@@ -58,7 +80,7 @@
 > …
 
 ### [v4.29.0-beta.3](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.3) — Haven 4.29.0-beta.3 _(pre-release)_
-<sub>2026-11-08 · 5d ago</sub>
+<sub>2026-11-08 · 6d ago</sub>
 
 > Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
 > **New**
@@ -68,42 +90,20 @@
 > - Emoji search knows far more words: Unicode's keywords plus everyday chat words, so "this" finds 👆, "dead" finds 💀 and "sus" finds 🤨. Best matches come first.
 > …
 
-### [v4.28.0](https://github.com/ancsemi/Haven/releases/tag/v4.28.0) — Haven 4.28.0
-<sub>2026-11-07 · 7d ago</sub>
-
-> **Added**
-> - Settings are split into a few pages, so each one is short: Appearance, Chat & media, Notifications and so on for you, and Server, People & roles, Safety, Content, Network & scale and Bots & data for admins. Longer explanations fold behind an ⓘ button (thanks Amnibro, #5838).
-> - AutoMod Quarantine, an experimental plugin (thanks Amnibro, #5836): holds links in chat until they are checked, by an AI model on your own server or a cloud AI a moderator picks. Off unless a member turns the plugin on and, for the server parts, an admin turns on Settings > Safety > Auto-Mod > AI link checks. Only the link is ever sent to an AI, never the message. See docs/automod.md.
-> - Send later takes files: attach them in the Send later window, and files already waiting in the message box come along.
-> - Blocked file types under Settings > Admin > Content > Uploads & Limits (#5833): list types such as exe, bat or dll, and nobody can upload files of those types. Empty by default.
-> - Listen Together plays Spotify playlists and albums: sharing one queues its songs in order, found on YouTube like single Spotify songs. It used to play one song named after the playlist.
-> …
-
-### [v4.29.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.2) — Haven 4.29.0-beta.2 _(pre-release)_
-<sub>2026-11-06 · 8d ago</sub>
-
-> Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
-> **New**
-> - Your profile picture shows in the account bar at the top of the sidebar, in your chosen shape. Clicking it opens Edit Profile, and the server connection light sits on its top-left corner.
-> - Your custom status shows under your name in the account bar, or Set status when you have none, and clicking it opens the status picker (thanks reverb256, #5859).
-> - Reading a channel on one device clears its unread badge and closes its notification on your other devices too (thanks Roolk).
-> - The donors list calls the people who give every month Monthly Supporters.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Release 4.30.0-beta.1](https://github.com/ancsemi/Haven/commit/875d8176e8a93c114d6cf30e7fd176a63e545315) | ancsemi |
+| 2026-11-15 | [Website and changelog: Haven 4.29.0 and Desktop 1.8.4 are out](https://github.com/ancsemi/Haven/commit/494eef9fa98ce57582144c0c69cc24f047a57dd0) | ancsemi |
+| 2026-11-15 | [Bump cache tags on client files changed since 4.28.0](https://github.com/ancsemi/Haven/commit/21555e48536f2ca360c47e3180877ef5e02ddc9f) | ancsemi |
+| 2026-11-15 | [Open the link preview size menu above threads and pop-out DMs](https://github.com/ancsemi/Haven/commit/1bdaef7d43e463d9a98f7090cd1225db321d932d) | ancsemi |
+| 2026-11-15 | [Refuse Add all members on hidden-code channels and under private pare…](https://github.com/ancsemi/Haven/commit/a1dfabfb9207883d0bcb3ddf74f8530bfcd92d8b) | ancsemi |
+| 2026-11-14 | [Use the accent text colour on forum selection marks, bump cache tags,…](https://github.com/ancsemi/Haven/commit/6c176a764ccfc2dd15619cb26dcff59c5d604486) | ancsemi |
+| 2026-11-14 | [Mass-select forum topics to move or delete several at once (#5892)](https://github.com/ancsemi/Haven/commit/1e06adfa5036eed2f94ab7f3385757ac27156e4c) | Amnibro |
+| 2026-11-14 | [Let the sender choose whether a reply pushes its author (#5891)](https://github.com/ancsemi/Haven/commit/9c2f038f3544359994048b8b0db352091bf776e3) | Bo0sted |
 | 2026-11-13 | [Release 4.29.0-beta.5](https://github.com/ancsemi/Haven/commit/875ad21c31b0e7ec05bbb2e311c35c26821793b5) | ancsemi |
 | 2026-11-13 | [Let the admin merge a channel into another, for Ferry import duplicat…](https://github.com/ancsemi/Haven/commit/7d07fd3ce5cfd8dc8c1af4773259feaac5028486) | Dawnforger |
-| 2026-11-13 | [Serve .aac, .flac and .opus uploads under their standard types](https://github.com/ancsemi/Haven/commit/ebb9ee7710d8a09c672992c5c8587c783173aa41) | ancsemi |
-| 2026-11-12 | [Add a switch to turn off back and forward on the mouse side buttons (…](https://github.com/ancsemi/Haven/commit/2193bc9f979d4ffff59afb2a42061c7c71009180) | ancsemi |
-| 2026-11-12 | [Fold link previews after the second in a message, add a Start link pr…](https://github.com/ancsemi/Haven/commit/e52c5401cb937923562224433d10e4ce60673304) | Amnibro |
-| 2026-11-12 | [Show how long a timeout lasts, and keep a forum post written during o…](https://github.com/ancsemi/Haven/commit/40696c9feff9a917cec01a9c4916b93df513aa7b) | Amnibro |
-| 2026-11-11 | [Let bots edit their own messages through the webhook API](https://github.com/ancsemi/Haven/commit/cba1285a6b0c3972b5bcffc9a3f98829f366bbd3) | ancsemi |
-| 2026-11-11 | [Keep muted sub-channels inside their own category](https://github.com/ancsemi/Haven/commit/8064279a40ad3dc7b5cbaba5b700d7ac4ec328cb) | ancsemi |
-| 2026-11-11 | [Clear a forum's unread topics from the sidebar mark-read actions](https://github.com/ancsemi/Haven/commit/49d4231611a473f3c0ffecf60aea89f2a5dcebc2) | ancsemi |
-| 2026-11-11 | [Release 4.29.0-beta.4](https://github.com/ancsemi/Haven/commit/9ecef9c052f8389be8c078267c51fb30770f1a60) | ancsemi |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

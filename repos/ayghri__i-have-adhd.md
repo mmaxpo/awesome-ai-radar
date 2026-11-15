@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.2k |
+| ⭐ **Stars** | 61.3k |
 | 🍴 **Forks** | 3.6k |
 | 🐞 **Open issues + PRs** | [102](https://github.com/ayghri/i-have-adhd/issues) |
 | 💻 **Languages** | Python 85% · TypeScript 7% · JavaScript 6% · Shell 1% · PowerShell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `adhd` `claude-` `claude-code-plugin` `claude-skills` `developer-tools` `productivity` |
-| 🕒 **Last activity** | 2026-10-19 (25d ago) |
+| 🕒 **Last activity** | 2026-10-19 (26d ago) |
 | 📅 **Created** | 2026-05-13 |
 | 📦 **Latest release** | [v0.4.1](https://github.com/ayghri/i-have-adhd/releases/tag/v0.4.1) — 2026-10-19 |
 | 🌿 **Default branch** | `main` |
@@ -33,7 +33,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.1](https://github.com/ayghri/i-have-adhd/releases/tag/v0.4.1)
-<sub>2026-10-19 · 25d ago</sub>
+<sub>2026-10-19 · 26d ago</sub>
 
 > **Changes**
 > - Replaced the illustrative npm installation command with a direct file-edit example in the skill and README.

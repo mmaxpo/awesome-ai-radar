@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.7k |
 | 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [36](https://github.com/assafelovic/gpt-researcher/issues) |
+| 🐞 **Open issues + PRs** | [40](https://github.com/assafelovic/gpt-researcher/issues) |
 | 💻 **Languages** | Python 66% · TypeScript 24% · JavaScript 4% · CSS 4% · HCL 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `python` `agent` `automation` `research` `search` `webscraping` `llms` `deepresearch` `mcp` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-12 (yesterday) |
+| 🕒 **Last activity** | 2026-11-12 (2d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.6.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.6.0)
-<sub>2026-07-18 · 3mo ago</sub>
+<sub>2026-07-18 · 4mo ago</sub>
 
 > Introducing a super stable version with enhanced improvements across security, stability and performance. We're also introducing a collaboration with Langchain with the latest deep agents framework here - https://github.com/assafelovic/gpt-researcher/tree/main/deep_agents
 > Thank you and welcome to all the new contributors!

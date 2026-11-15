@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 5.8k |
-| 🍴 **Forks** | 892 |
+| ⭐ **Stars** | 5.9k |
+| 🍴 **Forks** | 904 |
 | 🐞 **Open issues + PRs** | [5](https://github.com/elementalsouls/Claude-BugHunter/issues) |
 | 💻 **Languages** | Python 84% · PowerShell 9% · Shell 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-security` `anthropic` `application-security` `bug-bounty` `bugbounty` `bugcrowd` `claude` `claude-code` `claude-skills` `ethical-hacking` `hackerone` `offensive-security` `pentesting` `red-team` `security-tools` `web-security` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-05-05 |
 | 📦 **Latest release** | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) — 2026-06-05 |
 | 🌿 **Default branch** | `main` |
@@ -61,6 +61,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/2cfe533df8efa2ced87c91299e1f62b88cb26108) | github-actions[bot] |
 | 2026-11-14 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/8ac4242ee0a108e65ac1343b56cce6c50ba456ef) | github-actions[bot] |
 | 2026-11-13 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/5b9820231003654d05ea353e8781660a72a7a478) | github-actions[bot] |
 | 2026-11-12 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/ce84ad24cbe8a97a4193ffdd46443789037ec9ca) | github-actions[bot] |
@@ -70,7 +71,6 @@
 | 2026-11-08 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/7d10e74176a20cf64d566a56226c6484de4ff220) | github-actions[bot] |
 | 2026-11-07 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/42a3ab1bb96426beb98f964d178695c1144c61ea) | github-actions[bot] |
 | 2026-11-06 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/3e71af03d48b7bca94a815cfff97431f932748d0) | github-actions[bot] |
-| 2026-11-05 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/5993bb5a91fc799f608848d9c096eb491f4f547d) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/elementalsouls/Claude-BugHunter/commits)
 

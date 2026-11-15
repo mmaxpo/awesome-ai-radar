@@ -20,73 +20,73 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 32.3k |
+| ⭐ **Stars** | 32.4k |
 | 🍴 **Forks** | 2.4k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/trycua/cua/issues) |
 | 💻 **Languages** | Rust 52% · TypeScript 18% · Python 15% · Swift 9% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `apple` `cua` `lume` `macos` `virtualization` `virtualization-framework` `swift` `ai-agent` `computer-use` `manus` `operator` `agent` `containerization` `windows` `windows-sandbox` `hacktoberfest` `computer-use-agent` `desktop-automation` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2025-01-31 |
-| 📦 **Latest release** | [cua-spaces-v0.36.14](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.36.14) — 2026-11-14 |
+| 📦 **Latest release** | [cua-spaces-v0.36.18](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.36.18) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 766.6 MB |
+| 💾 **Size** | 770.3 MB |
 | 🌐 **Website** | https://cua.ai |
 
 ## 📦 Recent releases
 
-### [cua-driver-rs-v0.49.11](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.49.11) — cua-driver-rs: v0.49.11 _(pre-release)_
-<sub>2026-11-14 · today</sub>
+### [cua-driver-rs-v0.51.5](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.51.5) — cua-driver-rs: v0.51.5 _(pre-release)_
+<sub>2026-11-15 · today</sub>
 
-> **Cua Driver 0.49.11**
+> **Cua Driver 0.51.5**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - resolve Brave's default profile root on Linux and macOS. ([#7717](https://github.com/trycua/cua/pull/7717))
+> - refuse a live label held by another transport with session_owned_by_other_transport. ([#7811](https://github.com/trycua/cua/pull/7811)) reported by @ymehili.
 > **Contributors**
 > …
 
-### [cua-spaces-v0.36.14](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.36.14) — Cua Spaces v0.36.14
-<sub>2026-11-14 · today</sub>
+### [cua-driver-rs-v0.51.4](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.51.4) — cua-driver-rs: v0.51.4 _(pre-release)_
+<sub>2026-11-15 · today</sub>
 
-> **Cua Spaces 0.36.14**
+> **Cua Driver 0.51.4**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - bundle Cua Driver 0.49.10 in Cua Spaces. ([#7720](https://github.com/trycua/cua/pull/7720))
+> - drop the success glyph from unconfirmed action text. ([#7806](https://github.com/trycua/cua/pull/7806)) reported by @ymehili.
 > **Contributors**
 > …
 
-### [cua-driver-rs-v0.49.10](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.49.10) — cua-driver-rs: v0.49.10 _(pre-release)_
-<sub>2026-11-14 · today</sub>
+### [cua-driver-rs-v0.51.3](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.51.3) — cua-driver-rs: v0.51.3 _(pre-release)_
+<sub>2026-11-15 · today</sub>
 
-> **Cua Driver 0.49.10**
+> **Cua Driver 0.51.3**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - report a background web press the page ignored. ([#7694](https://github.com/trycua/cua/pull/7694))
+> - advise only the retry that lifts each PARTIAL TREE cut. ([#7800](https://github.com/trycua/cua/pull/7800)) reported by @ymehili.
 > **Contributors**
 > …
 
-### [cua-spaces-v0.36.13](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.36.13) — Cua Spaces v0.36.13
-<sub>2026-11-14 · today</sub>
+### [nightly-cua-driver-rs-v0.51.3-nightly.20261115.43676355200](https://github.com/trycua/cua/releases/tag/nightly-cua-driver-rs-v0.51.3-nightly.20261115.43676355200) _(pre-release)_
+<sub>2026-11-15 · today</sub>
 
-> **Cua Spaces 0.36.13**
-> **Summary**
-> This release includes 1 fix.
-> **Fixes**
-> - bundle Cua Driver 0.49.9 in Cua Spaces. ([#7658](https://github.com/trycua/cua/pull/7658))
-> **Contributors**
+> **Cua Driver 0.51.3-nightly.20261115.43676355200 (nightly)**
+> Automated immutable nightly built from an exact `main` commit. Nightlies are
+> opt-in, may be less stable than regular releases, and never replace stable
+> update discovery.
+> **Source**
+> - Commit: [`fa5ebdfd86586e5b3a6f95a4afd55eabb3b50f1c`](https://github.com/trycua/cua/commit/fa5ebdfd86586e5b3a6f95a4afd55eabb3b50f1c)
 > …
 
-### [bench-v0.4.5](https://github.com/trycua/cua/releases/tag/bench-v0.4.5) — cua-bench v0.4.5
-<sub>2026-11-14 · today</sub>
+### [cua-spaces-v0.36.18](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.36.18) — Cua Spaces v0.36.18
+<sub>2026-11-15 · today</sub>
 
-> **Cua Bench 0.4.5**
+> **Cua Spaces 0.36.18**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - upgrade dnspython and the OpenTelemetry stack (CVE-2026-128089, CVE-2026-126360). ([#7699](https://github.com/trycua/cua/pull/7699))
+> - bundle Cua Driver 0.51.0 in Cua Spaces. ([#7794](https://github.com/trycua/cua/pull/7794))
 > **Contributors**
 > …
 
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [fix(spaces-macos): bundle Cua Driver 0.49.11 in Cua Spaces (#7729)](https://github.com/trycua/cua/commit/ad25016e49faa3f4bb7da45cd6906b6b030851ab) | cua-release-bot[bot] |
-| 2026-11-14 | [fix(cua-driver): report macOS 27 browser profile denials (#7745)](https://github.com/trycua/cua/commit/78935496488ffe3eef11999d50405481d79f1b0f) | injaneity |
-| 2026-11-14 | [test(agents): a persistent agent whose Volume home is not there yet s…](https://github.com/trycua/cua/commit/124271b19351b15641ee0ec9fa8b478a8094ad25) | injaneity |
-| 2026-11-14 | [fix(cua-driver): say when a refused Catalyst menu item leaves its men…](https://github.com/trycua/cua/commit/e97749d219d771b0106ce6eaa892912f5f44202c) | injaneity |
-| 2026-11-14 | [chore(main): release cua-driver-rs 0.49.12 (#7733)](https://github.com/trycua/cua/commit/31185b10a5166880c450f2139c102b1726837f5a) | cua-release-bot[bot] |
-| 2026-11-14 | [chore(cua-driver): advance published installer version to 0.49.11 (#7…](https://github.com/trycua/cua/commit/362e57ae539ca93a9b4019732ccba04cd335dcae) | cua-release-bot[bot] |
-| 2026-11-14 | [test(cua-driver): drive an NSSavePanel sheet through its macOS window…](https://github.com/trycua/cua/commit/204fc903af369f6cd752dc4dddd69d996926a336) | injaneity |
-| 2026-11-14 | [fix(cua-driver): count focus in a window's inline rename field as foc…](https://github.com/trycua/cua/commit/302607951843a2bab88efd5dd21799170e147357) | injaneity |
-| 2026-11-14 | [chore(main): release cua-driver-rs 0.49.11 (#7723)](https://github.com/trycua/cua/commit/b3dafe7f47ab40a5d00c5023855317a2e901c062) | cua-release-bot[bot] |
-| 2026-11-14 | [chore(main): release cua-spaces 0.36.14 (#7722)](https://github.com/trycua/cua/commit/eee5c628a6227c9c2a166f233c6aba51ecd7bdc8) | cua-release-bot[bot] |
+| 2026-11-15 | [fix(cua-driver): revive an idle-reaped named session on its owner's n…](https://github.com/trycua/cua/commit/e3a1e1158183cbf2c87332f1910d7e84b74be532) | injaneity |
+| 2026-11-15 | [ci: close fork pull requests that change CI workflow files (#7833)](https://github.com/trycua/cua/commit/20000a69f32b8c25dfaf6108748e03155fa08d16) | f-trycua |
+| 2026-11-15 | [feat(cua-driver): add deepseek-harness to mcp-config and skills insta…](https://github.com/trycua/cua/commit/b99b2bf2c078ff794e2dd31381c4b16b6a839c40) | injaneity |
+| 2026-11-15 | [chore(main): release cua-driver-rs 0.51.6 (#7820)](https://github.com/trycua/cua/commit/974d5f149dec52f5119dd76ffd2f9e267ace5eda) | cua-release-bot[bot] |
+| 2026-11-15 | [chore(cua-driver): advance published installer version to 0.51.5 (#7817)](https://github.com/trycua/cua/commit/5b3101347386b7efc21bbd6c6e7269acc8cd5d86) | cua-release-bot[bot] |
+| 2026-11-15 | [fix(cua-driver-core): keep each session's own snapshot of a shared wi…](https://github.com/trycua/cua/commit/8f94138cde273d07f8a645f6424dd4f8f0d605b1) | injaneity |
+| 2026-11-15 | [chore(cua-driver): advance published installer version to 0.51.4 (#7816)](https://github.com/trycua/cua/commit/ed9026fd4cbd7ebcf3a44e23c3881752165bc6cb) | cua-release-bot[bot] |
+| 2026-11-15 | [chore(main): release cua-driver-rs 0.51.5 (#7815)](https://github.com/trycua/cua/commit/22784304d73be28e3bfaf0268886b08cafaa66d7) | cua-release-bot[bot] |
+| 2026-11-15 | [fix(cua-driver): refuse a live label held by another transport with s…](https://github.com/trycua/cua/commit/ac9c092abfc29517ec6e63513ad675a73f019b77) | injaneity |
+| 2026-11-15 | [chore(main): release cua-driver-rs 0.51.4 (#7812)](https://github.com/trycua/cua/commit/436cc8f80863ea8258781007778b7ba2adb0876b) | cua-release-bot[bot] |
 
 [See all commits ↗](https://github.com/trycua/cua/commits)
 

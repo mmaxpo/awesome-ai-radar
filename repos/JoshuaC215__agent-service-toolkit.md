@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 97% · Shell 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `langgraph` `streamlit` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-14 (yesterday) |
 | 📅 **Created** | 2024-08-04 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

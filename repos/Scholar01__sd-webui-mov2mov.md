@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.2k |
-| 🍴 **Forks** | 331 |
-| 🐞 **Open issues + PRs** | [38](https://github.com/Scholar01/sd-webui-mov2mov/issues) |
+| 🍴 **Forks** | 330 |
+| 🐞 **Open issues + PRs** | [37](https://github.com/Scholar01/sd-webui-mov2mov/issues) |
 | 💻 **Languages** | Python 94% · CSS 3% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |

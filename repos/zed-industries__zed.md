@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 95.0k |
+| ⭐ **Stars** | 95.1k |
 | 🍴 **Forks** | 11.7k |
 | 🐞 **Open issues + PRs** | [3.1k](https://github.com/zed-industries/zed/issues) |
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `text-editor` `zed` `gpui` `rust-lang` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2021-02-20 |
 | 📦 **Latest release** | [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 541.1 MB |
+| 💾 **Size** | 541.5 MB |
 | 🌐 **Website** | https://zed.dev |
 
 ## 📦 Recent releases
 
 ### [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1)
-<sub>2026-11-11 · 2d ago</sub>
+<sub>2026-11-11 · 3d ago</sub>
 
 > This week's release includes optional automatic Git fetching, a resizable Refs column in the Git Graph, dragging Git Panel files into terminals and editors, and mouse-wheel font zoom in diff views and terminals.
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.29.1-pre](https://github.com/zed-industries/zed/releases/tag/v1.29.1-pre) _(pre-release)_
-<sub>2026-11-11 · 2d ago</sub>
+<sub>2026-11-11 · 3d ago</sub>
 
 > This week's release includes a Git Panel branch mode that lists every file changed since a base branch, a bookmark picker, configurable Git date formats, support for Claude Fable 5.2 for Anthropic BYOK users (plus Claude Mythos 5.2 if your organization has access), and a setting to turn off automatic agent thread titles.
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [language: Reset max start depth on pooled query cursors (#66983)](https://github.com/zed-industries/zed/commit/596dfdcf32d85d4d8d17a8887b4d0979ec7c5e14) | ptweezy |
+| 2026-11-15 | [fuzzy: Move segment results instead of cloning them (#66982)](https://github.com/zed-industries/zed/commit/5f27a0a02ab0f66755a15871b55f2cd8069325e0) | ptweezy |
+| 2026-11-15 | [agent: Read buffer length without copying the text (#66981)](https://github.com/zed-industries/zed/commit/fb62376caa2fdaeb383e1b89ffa5810fb41c4dbd) | ptweezy |
+| 2026-11-15 | [Fix antialiased outline compositing on Windows (#66972)](https://github.com/zed-industries/zed/commit/e2f00a41ac6789f0ae52b229567ad5715266e400) | wangdiandao |
+| 2026-11-14 | [Update ACP SDK to 5.3.0 and follow schema 1.18 rule changes (#66979)](https://github.com/zed-industries/zed/commit/703b5ac3f4ffe1e87a073123ae56e22f72f095c4) | benbrandt |
+| 2026-11-14 | [Fix R extension recommendations for unsupported file types (#66928)](https://github.com/zed-industries/zed/commit/15d136bf8e72ae43b284183ec46940c009460f5c) | bennetbo |
 | 2026-11-14 | [language: Reset unused-code state when seeking buffer chunks (#66977)](https://github.com/zed-industries/zed/commit/56a157e5b01b62afd5c50a014ed15b379de8dfd6) | ptweezy |
 | 2026-11-14 | [editor: Avoid cloning line text before shaping (#66978)](https://github.com/zed-industries/zed/commit/62cb1ac7b123ed6ec7be06f17b51f516583d2f8a) | ptweezy |
 | 2026-11-14 | [editor: Build completion sort keys once per match (#66959)](https://github.com/zed-industries/zed/commit/4cc3e27d9d348736cc6e0cd1c32ed94416902e95) | ptweezy |
 | 2026-11-14 | [fs: Optimize filesystem watcher path matching (#66973)](https://github.com/zed-industries/zed/commit/99c890d39d336052d9dae34c7914b55ee82abc5f) | RemcoSmitsDev |
-| 2026-11-14 | [settings_content: Fix outdated defaults in setting doc comments (#66974)](https://github.com/zed-industries/zed/commit/2568d560f1b0ea21a6f3fc119ef8df36a0b75acb) | Toraastrta |
-| 2026-11-14 | [Switch async-task back to upstream (#66968)](https://github.com/zed-industries/zed/commit/0cfc4a483dfab6ca171df0ceedaaa2a9f7954d0e) | benbrandt |
-| 2026-11-14 | [worktree: Sort removed entry ids once (#66962)](https://github.com/zed-industries/zed/commit/0d3c40e1b9a6190696a25a580d755398e58cffa4) | ptweezy |
-| 2026-11-14 | [proto: Split worktree updates in linear time (#66961)](https://github.com/zed-industries/zed/commit/f53c9ae3d6c7b4ab1577d296e6f03bd264f47458) | ptweezy |
-| 2026-11-14 | [gpui: Match keystrokes before context predicates (#66634)](https://github.com/zed-industries/zed/commit/d0400aaf033a703a037f8fe5400bbc896db985da) | ptweezy |
-| 2026-11-14 | [gpui: Fix unused import warning with bench-support (#66905)](https://github.com/zed-industries/zed/commit/f0fa51bb510fc91f6da7ec55f3e0f317f1f975ec) | jaw-sh |
 
 [See all commits ↗](https://github.com/zed-industries/zed/commits)
 

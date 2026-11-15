@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 27.9k |
+| ⭐ **Stars** | 28.5k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [667](https://github.com/meta/astryx/issues) |
-| 💻 **Languages** | TypeScript 66% · JavaScript 33% · Swift 1% |
+| 🐞 **Open issues + PRs** | [679](https://github.com/meta/astryx/issues) |
+| 💻 **Languages** | TypeScript 64% · JavaScript 34% · Swift 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-01-09 |
 | 📦 **Latest release** | [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1339.8 MB |
+| 💾 **Size** | 1344.3 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
 
 ### [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — Astryx v0.7.16
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > Astryx 0.7.16 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.15](https://github.com/meta/astryx/releases/tag/v0.7.15)
-<sub>2026-11-12 · yesterday</sub>
+<sub>2026-11-12 · 2d ago</sub>
 
 > Astryx 0.7.15 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.14](https://github.com/meta/astryx/releases/tag/v0.7.14)
-<sub>2026-11-11 · 2d ago</sub>
+<sub>2026-11-11 · 3d ago</sub>
 
 > Astryx 0.7.14 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.13](https://github.com/meta/astryx/releases/tag/v0.7.13)
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > Astryx 0.7.13 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.12](https://github.com/meta/astryx/releases/tag/v0.7.12)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > Astryx 0.7.12 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [feat(AlertDialog): touch motion on the theme's timing (#8373)](https://github.com/meta/astryx/commit/4800d992eb454cff18b7338a235bec1994a120a9) | vjeux |
-| 2026-11-14 | [fix(release): the changelog formatter keeps a Changeset's list of det…](https://github.com/meta/astryx/commit/2ec5cb7091e0d51f4d91f0df827fd295e680ccdc) | cixzhang |
-| 2026-11-14 | [ci: run the Node and swizzle-proof legs at full width when admission …](https://github.com/meta/astryx/commit/31871dfcd2cad12c999e5f03b723c097d39f89a7) | josephfarina |
-| 2026-11-14 | [test: split door-conformance, global-local and packed-gather-cache.re…](https://github.com/meta/astryx/commit/49a475fbdf2b3a242cfee86dfd8464774b81e739) | cixzhang |
-| 2026-11-14 | [experimental theme: fixes from the next edge-case round and blind the…](https://github.com/meta/astryx/commit/ab43756c958fc1e49529de35d2bea1cff38db585) | josephfarina |
-| 2026-11-14 | [perf(cli): store search's catalog at publish, used where the project …](https://github.com/meta/astryx/commit/3108201db7f1c2665f495a1581804cd39109a577) | josephfarina |
-| 2026-11-14 | [fix(cli): build settles exact ranker ties by the family base, then by…](https://github.com/meta/astryx/commit/70327bfcb5098e583fd88738d1aa14a06d1aa7f3) | josephfarina |
-| 2026-11-14 | [fix(core): Toast picks its text side from the theme's surface before …](https://github.com/meta/astryx/commit/335a1729836ce5c0afa3613915c5d7c2ca01f7cf) | josephfarina |
-| 2026-11-14 | [ci: cancel pull-request runs for a superseded head (#11753)](https://github.com/meta/astryx/commit/bbfead3fc51df991472e9c7aa5dc9ccf4aee0a25) | josephfarina |
-| 2026-11-14 | [perf(cli): theme build loads jiti on first use (#11751)](https://github.com/meta/astryx/commit/e8200bb02bd2a03ea0b84cda1e1d4d85c55d145e) | josephfarina |
+| 2026-11-15 | [fix(cli): upgrade reads each TypeScript file in its own grammar (#11863)](https://github.com/meta/astryx/commit/ca9fee58036e521d1e17597e9f2ec3b67d28f834) | josephfarina |
+| 2026-11-15 | [feat(cli): a lookup miss points to the hook it nearly names (#11857)](https://github.com/meta/astryx/commit/2cafda977cf8e65f0541c4aefcc5a307ba6a6378) | josephfarina |
+| 2026-11-15 | [fix(Stepper): a disabled step in the compact layout says it is unavai…](https://github.com/meta/astryx/commit/da710f6ed0c7dc538fc34c0e9c37958bd726f418) | cixzhang |
+| 2026-11-15 | [perf(cli): a kept entry checks what each probe returned, not the prob…](https://github.com/meta/astryx/commit/17f7ffcc6674aa22b883d5a62d60c41e32b42249) | josephfarina |
+| 2026-11-15 | [spec(OverflowList): useOverflow's module record states when it measur…](https://github.com/meta/astryx/commit/f7b77db68efb09055789200b34de35f87f4f666f) | cixzhang |
+| 2026-11-15 | [fix(cli): decode UTF-8 paths in .gitattributes (#11773)](https://github.com/meta/astryx/commit/f5b7bacc68c83849eb9305b7b84247360ae1ee0e) | bezabyte |
+| 2026-11-15 | [fix(templates): page templates fit a 390 px phone screen, with a chec…](https://github.com/meta/astryx/commit/db3f616fff2a2e85c43cf12d5637639dcecac243) | josephfarina |
+| 2026-11-15 | [test(Item): the swipe's busy proof judges a held release by its curve…](https://github.com/meta/astryx/commit/64806d0bd2de47e47b455ee1a7074875fccaab1b) | vjeux |
+| 2026-11-15 | [fix(cli): theme list names the package each theme comes from and whet…](https://github.com/meta/astryx/commit/3387ab8f1cd44b4aa75462ac70d8bf8857cda2fb) | josephfarina |
+| 2026-11-15 | [feat(cli): doctor's newest-release and kept-cache messages say the sa…](https://github.com/meta/astryx/commit/a6716bc869f8a19206808a4c400ac7c39f3e5730) | josephfarina |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

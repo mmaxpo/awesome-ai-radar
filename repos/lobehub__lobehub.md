@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2023-05-21 |
 | 📦 **Latest release** | [v0.0.0-nightly.pr23017.39490](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23017.39490) — 2026-11-14 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 611.0 MB |
+| 💾 **Size** | 610.6 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
 ### [v0.0.0-nightly.pr23017.39490](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23017.39490) — PR Build v0.0.0-nightly.pr23017.39490 _(pre-release)_
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23017.39490`
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23017.39486](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23017.39486) — PR Build v0.0.0-nightly.pr23017.39486 _(pre-release)_
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23017.39486`
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.0.0-nightly.pr22966.39356](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22966.39356) — PR Build v0.0.0-nightly.pr22966.39356 _(pre-release)_
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr22966.39356`
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [✨ feat(oidc): sign the acceptance extension in from the web session w…](https://github.com/lobehub/lobehub/commit/c10ff5d81d5cb65e54ce4800ce3b42ab4ee00a38) | Innei |
-| 2026-11-14 | [✨ feat(agent): filter the agent list by tag (lh agent list --tag) (#2…](https://github.com/lobehub/lobehub/commit/e5d6033293caa6861a8150311092c8c7c5d9edd8) | rdmclin2 |
-| 2026-11-14 | [♻️ refactor(settings): move search channels, changelog, library file …](https://github.com/lobehub/lobehub/commit/f2bf7560c0f9c353c8eb045c49c9453d5df16722) | arvinxx |
-| 2026-11-14 | [✨ feat(workspace): show member and agent cards on avatar hover (#22970)](https://github.com/lobehub/lobehub/commit/41c5ac7f2ee63edf2f0fce562d4c65bfb661e2be) | rdmclin2 |
-| 2026-11-14 | [💄 style(execution-target): pin This computer to the top on desktop (#…](https://github.com/lobehub/lobehub/commit/7f100a733e96f0fff51dc94c024aa41836826eba) | rdmclin2 |
-| 2026-11-14 | [🐛 fix(music): explain why a song cannot be generated (#23025)](https://github.com/lobehub/lobehub/commit/d7c04e8db206f78b04d76fe27d6ea4e0b5b54e31) | rdmclin2 |
-| 2026-11-14 | [♻️ refactor(plugin): install MCPs as connectors, keep the legacy crea…](https://github.com/lobehub/lobehub/commit/4ac339bcf17a12e4c4b097506708aacb8bb952c5) | lobehub-coder |
-| 2026-11-14 | [🐛 fix(desktop): surface staged core OTA update instead of reporting u…](https://github.com/lobehub/lobehub/commit/40a34cc3bb252dc87e33750fe3a79eaa1b7e5d0e) | MarioJames |
-| 2026-11-14 | [fix(devdock): stop restoring the Local Database panel on boot (#23022)](https://github.com/lobehub/lobehub/commit/78446cfd0b86ac3fbce18e01cb7e726a92694ab9) | arvinxx |
-| 2026-11-14 | [♻️ refactor(environment): move the environments page onto the sandbox…](https://github.com/lobehub/lobehub/commit/3f9db6a5817bc845ebd34144be41975211481721) | arvinxx |
+| 2026-11-15 | [✨ feat: support Antigravity local agents (#22008)](https://github.com/lobehub/lobehub/commit/e00695bd1f4e04d7bec6998a572f4c657af7cd55) | Coooolfan |
+| 2026-11-15 | [✨ feat(acceptance): redesign the Acceptance viewer (#23042)](https://github.com/lobehub/lobehub/commit/baa55ddfeb5866f3da3618130cfaf68d8a155d59) | Innei |
+| 2026-11-15 | [🐛 fix(hetero): show a live steer as soon as Claude Code reads it (#23…](https://github.com/lobehub/lobehub/commit/55a4ff8494a1d10f3788ed5f7eb29ab0c5a924c6) | rdmclin2 |
+| 2026-11-15 | [💄 style(sidebar): soften the team-pinned show-more toggle (#23036)](https://github.com/lobehub/lobehub/commit/c8b1cda6f64dae3fbbf4a56db81e3386996ef15f) | rdmclin2 |
+| 2026-11-15 | [💄 style(task): keep assignee search divider at the border color when …](https://github.com/lobehub/lobehub/commit/e98b508199ce92a4bcaee05f4d3497e9b01b1b07) | arvinxx |
+| 2026-11-15 | [✨ feat(channel): picture up to nine members in a group Channel's list…](https://github.com/lobehub/lobehub/commit/f686071653a79e04252db09e2168f3659c0a3b45) | arvinxx |
+| 2026-11-15 | [🐛 fix(channel): bind no device to a Channel by default (#23037)](https://github.com/lobehub/lobehub/commit/538ae5820ade7b54d6cd3677bf386fa3d2215c82) | arvinxx |
+| 2026-11-15 | [✨ feat(mcp): open MCP Apps in a conversation side panel (#22561)](https://github.com/lobehub/lobehub/commit/30c616e01f8096bcac39945b8616c30a69a5cc81) | ImSingee |
+| 2026-11-15 | [♻️ refactor(styles): migrate Acceptance viewer to StyleX (#21450)](https://github.com/lobehub/lobehub/commit/613cfeb91e0a989e906c8e4e0b8c1e92d8c32d15) | Innei |
+| 2026-11-15 | [♻️ refactor(swr): remove the SWR persistence layer (#22906)](https://github.com/lobehub/lobehub/commit/3e56ad100136dec25b04a9cca9aa8ef79e16a8b8) | arvinxx |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

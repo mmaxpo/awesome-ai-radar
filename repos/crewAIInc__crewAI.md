@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 300.1 MB |
+| 💾 **Size** | 300.6 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · yesterday</sub>
+<sub>2026-11-12 · 2d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40)
-<sub>2026-11-11 · 2d ago</sub>
+<sub>2026-11-11 · 3d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39)
-<sub>2026-11-09 · 5d ago</sub>
+<sub>2026-11-09 · 6d ago</sub>
 
 > **What's Changed**
 > **Documentation**
@@ -67,7 +67,7 @@
 > @joaomdmoura
 
 ### [1.15.38](https://github.com/crewAIInc/crewAI/releases/tag/1.15.38)
-<sub>2026-11-08 · 5d ago</sub>
+<sub>2026-11-08 · 6d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -78,7 +78,7 @@
 > …
 
 ### [1.15.37](https://github.com/crewAIInc/crewAI/releases/tag/1.15.37)
-<sub>2026-11-07 · 7d ago</sub>
+<sub>2026-11-07 · 8d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -92,6 +92,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [fix(deps): bump dnspython and opentelemetry to patched versions (#9464)](https://github.com/crewAIInc/crewAI/commit/f4da03af1be0f61db71c8599a40c06dce98b9b48) | iris-clawd |
+| 2026-11-15 | [fix(cli): read and write .env as UTF-8 (#9445)](https://github.com/crewAIInc/crewAI/commit/127a4cb68c996326fb36c8f05431657a72b89d8a) | Pranav-Singh-Devloper |
 | 2026-11-13 | [fix(llms): keep a streamed delta when its chunk also carries usage (#…](https://github.com/crewAIInc/crewAI/commit/d7dfa0ef5ade793bd48ff7357c6eb45a45294371) | ats3v |
 | 2026-11-13 | [fix(README): update FAQ links to AMP headings (#9303)](https://github.com/crewAIInc/crewAI/commit/bc36a4df62936d57addae345a942e503d2b4bd1d) | TejasLamba2006 |
 | 2026-11-13 | [fix(tools): honor caller-provided Weaviate headers (#9348)](https://github.com/crewAIInc/crewAI/commit/bb0ecba1c1028f81d001f7ad699f37498fb14dc6) | Kiko0301 |
@@ -100,8 +102,6 @@
 | 2026-11-13 | [fix(project): accept an llm mapping in agents.yaml (#9421)](https://github.com/crewAIInc/crewAI/commit/b5ea88bfa18c73784d94dee77c7f261abb454a16) | adityajai119 |
 | 2026-11-13 | [fix(deps): raise soupsieve floor to 4.0 for CVE-2026-126190 (#9423)](https://github.com/crewAIInc/crewAI/commit/c6809a33e67a96c4fd800ca5871622158c46cc4e) | iris-clawd |
 | 2026-11-12 | [feat(cli): pick tools for standalone agents and add them later (#9339)](https://github.com/crewAIInc/crewAI/commit/9b38b5453c41feea94c3f88793fcf484d297bb0a) | lorenzejay |
-| 2026-11-12 | [[docs-freeze] docs: snapshot and changelog for v1.15.41 (#9412)](https://github.com/crewAIInc/crewAI/commit/878d6c5c801ae4053bd80d77ef303f48f95aa493) | Vidit-Ostwal |
-| 2026-11-12 | [feat: bump versions to 1.15.41 (#9411)](https://github.com/crewAIInc/crewAI/commit/82e7209b4bad5dc7e6c99372ff00fc727e18c4e7) | Vidit-Ostwal |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

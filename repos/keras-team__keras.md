@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [238](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [234](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 57.9 MB |
+| 💾 **Size** | 58.3 MB |
 | 🌐 **Website** | http://keras.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [Add backend-agnostic implementation for geomspace (#24235)](https://github.com/keras-team/keras/commit/50be564d7d833537b789b0359ec709f5a7267c33) | SamanehSaadat |
+| 2026-11-14 | [Add backend-agnostic implementation for hamming (#24241)](https://github.com/keras-team/keras/commit/5521f19d5863a8744ef27ab6c83f4c4e57a5c4bf) | SamanehSaadat |
+| 2026-11-14 | [Remove unused train graph code (#24243)](https://github.com/keras-team/keras/commit/5c43c7c9d3b30a3725f0b4e716f7a5f6548af540) | SamanehSaadat |
+| 2026-11-14 | [Add backend-agnostic implementation for hanning (#24244)](https://github.com/keras-team/keras/commit/d2e98e462192422eba99c351507cec8113fd7114) | SamanehSaadat |
 | 2026-11-13 | [Check each op inside a functional Model in OpTest (#24240)](https://github.com/keras-team/keras/commit/abbab4c030e31476a069844fa64e53ba9368423b) | gaga1313 |
 | 2026-11-13 | [Fix torch linspace, logspace and geomspace returning nan for num=1 (#…](https://github.com/keras-team/keras/commit/426e315e67005f97d4cca0f4e68335e7fbf28fc8) | SamanehSaadat |
 | 2026-11-13 | [Write histograms and images with tensorboardX (#24238)](https://github.com/keras-team/keras/commit/de276338f5a158ea407fe07ad6667c80946be66d) | SamanehSaadat |
 | 2026-11-13 | [Add compile check to evaluate() in torch and numpy trainers (#24153)](https://github.com/keras-team/keras/commit/c93a34654c4d158dc3be4caea1d0bbc279373871) | vnayakde |
 | 2026-11-13 | [Calibrate third-party layers that declare GPTQ or AWQ support (#24237)](https://github.com/keras-team/keras/commit/397de7e1e7bf7e3c32c89f22d51251417b4e64c2) | JyotinderSingh |
 | 2026-11-13 | [Eliminate host-to-device tensor copies in quantized layers for CUDA g…](https://github.com/keras-team/keras/commit/e1089a6f4da475dd33331785890ec44b32f35b07) | JyotinderSingh |
-| 2026-11-13 | [Support loading unlisted backends via KERAS_ALLOW_UNOFFICIAL_BACKEND …](https://github.com/keras-team/keras/commit/bff018622b0066b90e19cb7614dd117ea0f220fc) | laxmareddyp |
-| 2026-11-13 | [Stop using `backend.result_type` and instead import it from... (#24234)](https://github.com/keras-team/keras/commit/c1f0afefd48ac8db4f2a90453f1926e0dedf1801) | hertschuh |
-| 2026-11-13 | [Accept NumPy integers as layer arguments (#24226)](https://github.com/keras-team/keras/commit/1b327e722f7fc76394aa327c48973c4a27283bb9) | JyotinderSingh |
-| 2026-11-13 | [Keep no config on a calibrated GPTQ or AWQ layer (#24233)](https://github.com/keras-team/keras/commit/9b4de37de7dea2d63246c78b7ddc437a161a3a08) | JyotinderSingh |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

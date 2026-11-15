@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 14.7k |
 | 🍴 **Forks** | 793 |
-| 🐞 **Open issues + PRs** | [96](https://github.com/google/ax/issues) |
-| 💻 **Languages** | Go 94% · Shell 5% · Makefile 1% |
+| 🐞 **Open issues + PRs** | [105](https://github.com/google/ax/issues) |
+| 💻 **Languages** | Go 94% · Shell 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-03-30 |
 | 📦 **Latest release** | [v0.3.1](https://github.com/google/ax/releases/tag/v0.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 44.6 MB |
+| 💾 **Size** | 44.7 MB |
 | 🌐 **Website** | https://agentexecutor.io |
 
 ## 📦 Recent releases

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 459.3k |
-| 🍴 **Forks** | 112.6k |
-| 🐞 **Open issues + PRs** | [1.5k](https://github.com/morluto/rea/issues) |
+| ⭐ **Stars** | 461.0k |
+| 🍴 **Forks** | 112.9k |
+| 🐞 **Open issues + PRs** | [1.6k](https://github.com/morluto/rea/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 5% · HTML 1% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `cli` `mcp` `agent-skills` `dsh-plugin` `claude-code` `rea` `touhou` `android` `javascript` `python` `typescript` `nodejs` `linux` `ai` `security` `java` `cpp` `rust` `react` `html` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-04-14 |
 | 📦 **Latest release** | [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 159.7 MB |
+| 💾 **Size** | 169.4 MB |
 | 🌐 **Website** | https://rea.tools |
 
 ## 📦 Recent releases
 
 ### [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — rea-agents: v6.9.0
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **[6.9.0](https://github.com/morluto/rea/compare/rea-agents-6.8.0...rea-agents-6.9.0) (2026-11-11)**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [rea-agents-6.8.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0) — rea-agents: v6.8.0
-<sub>2026-10-25 · 20d ago</sub>
+<sub>2026-10-25 · 21d ago</sub>
 
 > **[6.8.0](https://github.com/morluto/rea/compare/rea-agents-6.7.0...rea-agents-6.8.0) (2026-10-25)**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [rea-agents-6.7.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0) — rea-agents: v6.7.0
-<sub>2026-10-18 · 27d ago</sub>
+<sub>2026-10-18 · 28d ago</sub>
 
 > **[6.7.0](https://github.com/morluto/rea/compare/rea-agents-6.6.0...rea-agents-6.7.0) (2026-10-18)**
 > **Highlights**
@@ -69,7 +69,7 @@
 > …
 
 ### [rea-agents-6.6.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.6.0) — rea-agents: v6.6.0
-<sub>2026-10-18 · 27d ago</sub>
+<sub>2026-10-18 · 28d ago</sub>
 
 > **[6.6.0](https://github.com/morluto/rea/compare/rea-agents-6.5.0...rea-agents-6.6.0) (2026-10-18)**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [test(desktop): fail promptly when synthetic children never get ready](https://github.com/morluto/rea/commit/1ba93b46022002f6cdf3f682cea2e3009897cf46) | gensokyo-dev |
-| 2026-11-14 | [docs(client-configuration): state how doctor reads a Command Code tra…](https://github.com/morluto/rea/commit/5732aad07725e386a202b7aaf1fb3c9f588314ed) | gensokyo-dev |
-| 2026-11-14 | [docs(readme): retain packet-summary verification scope](https://github.com/morluto/rea/commit/eb0cdabfa1c3bfb76508048f5c0e56936e0818aa) | wunianze666-netizen |
-| 2026-11-14 | [test(inspector): keep the sibling Node discovery fixtures out of unde…](https://github.com/morluto/rea/commit/583bb477c16eefefbefb0c7ee2144096aca61b29) | gensokyo-dev |
-| 2026-11-14 | [test(desktop): fail the synthetic app when its children never get ready](https://github.com/morluto/rea/commit/a4223536d90b87a70ca5c39f6b1f554e45d5a5f6) | gensokyo-dev |
-| 2026-11-14 | [test(desktop): wait for synthetic application children readiness befo…](https://github.com/morluto/rea/commit/97c758266464755931f1b6cf1167a8549b6a9f24) | LexLuthorPrimero |
-| 2026-11-14 | [test(inspector): keep the cancellation fixture out of underscored tem…](https://github.com/morluto/rea/commit/f35b6a75b31fa36acde9ee6b86db4961a2b52211) | MuhammadFaizan-prog |
-| 2026-11-14 | [test(ines): make same-size prefix changes visible on coarse timestamps](https://github.com/morluto/rea/commit/fc4c319cb4fb8017228892b27a93a33b4b2dd617) | hafeez97 |
-| 2026-11-14 | [docs(client-configuration): document Cursor, Windsurf, and Command Co…](https://github.com/morluto/rea/commit/cc854f1ca11e4fb758b7870e4dfa9e75075fdd1e) | ayobamiseun |
-| 2026-11-14 | [fix(native): scale the NativeAOT work budget with the admitted image](https://github.com/morluto/rea/commit/c8d5413d0fe54c5f8236e1cb8f61ad462d08fd1d) | Nitin13-git |
+| 2026-11-15 | [refactor(process): read Ghidra and Hopper replies through one bounded…](https://github.com/morluto/rea/commit/a8e472967b63ee2163c2d63e9fdd0d887adbc428) | morluto |
+| 2026-11-15 | [refactor(cli): project observe-native-calls onto a session target and…](https://github.com/morluto/rea/commit/781f89e6f4167a8084d80cd9415a74d1a9137809) | morluto |
+| 2026-11-15 | [refactor(ci): plan change scopes through an injectable Git owner (#10…](https://github.com/morluto/rea/commit/e97b6c5282a5f809db31c1ccf6891c974f3deff4) | morluto |
+| 2026-11-15 | [fix(electron): refuse captures handed off to an already-running app (…](https://github.com/morluto/rea/commit/483f53fdefac2769d17d2cc27eae7d73ee44cda9) | morluto |
+| 2026-11-15 | [feat(artifacts): name integrity checks for DMG, directory and release…](https://github.com/morluto/rea/commit/7134053d27268f7e1070c867047ec59bb7fe7497) | morluto |
+| 2026-11-15 | [feat(providers): let runOwned's deadline timeout carry the provider's…](https://github.com/morluto/rea/commit/598a0c403478d110d48210e0a26e0dabcbc57f53) | morluto |
+| 2026-11-15 | [refactor(verify): give the failure-retaining Ghidra lanes' workspaces…](https://github.com/morluto/rea/commit/0b95e556550d76d46b23ca606e39471a3d8f694f) | morluto |
+| 2026-11-15 | [refactor(verify): release the agent-experience run root through Verif…](https://github.com/morluto/rea/commit/5b5ca68bb3a0f39c24721d3b7f471e55a2bf2c9d) | morluto |
+| 2026-11-15 | [fix(agentenv): record a verified teardown through the long-run releas…](https://github.com/morluto/rea/commit/144d6f959fdd9cc7e7a64feb51e34671bd844942) | morluto |
+| 2026-11-15 | [refactor(setup): require the platform in client-layer readers and pri…](https://github.com/morluto/rea/commit/97ffa67f841341c36113ec7783105daf7d4d389a) | morluto |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

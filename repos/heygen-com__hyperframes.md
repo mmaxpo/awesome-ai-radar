@@ -20,90 +20,90 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 84.3k |
+| ⭐ **Stars** | 84.5k |
 | 🍴 **Forks** | 7.8k |
-| 🐞 **Open issues + PRs** | [283](https://github.com/heygen-com/hyperframes/issues) |
+| 🐞 **Open issues + PRs** | [298](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `framework` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-03-10 |
-| 📦 **Latest release** | [v0.9.46](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.46) — 2026-11-14 |
+| 📦 **Latest release** | [v0.9.52](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.52) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 527.3 MB |
+| 💾 **Size** | 528.0 MB |
 | 🌐 **Website** | https://hyperframes.heygen.com |
 
 ## 📦 Recent releases
 
-### [v0.9.46](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.46)
-<sub>2026-11-14 · today</sub>
+### [v0.9.52](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.52)
+<sub>2026-11-15 · today</sub>
 
-> **HyperFrames v0.9.46**
-> Released on 2026-11-14.
-> Editing a project file that is read-only is now refused, and the file stays as it was. A capture failure the engine does not recognise is now reported as unknown, not blamed on the project.
+> **HyperFrames v0.9.52**
+> Released on 2026-11-15.
+> In Studio menus, the highlighted row now follows the menu's rounded corner. The shared menu row style is exported so other apps can match it.
 > **Fixes**
-> - **Studio Server:** An edit to a read-only project file is refused and leaves it unchanged ([b5e9bc689](https://github.com/heygen-com/hyperframes/commit/b5e9bc6893a7a5b4ab306151c362f46b1b24e4e1), [#7731](https://github.com/heygen-com/hyperframes/pull/7731)).
-> - **Engine:** An unrecognised capture failure is unknown, not the author's fault ([ff9c3b761](https://github.com/heygen-com/hyperframes/commit/ff9c3b7619c6c46c3145b287914cd09b377174f9), [#7730](https://github.com/heygen-com/hyperframes/pull/7730)).
-> …
-
-### [v0.9.45](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.45)
-<sub>2026-11-14 · today</sub>
-
-> **HyperFrames v0.9.45**
-> Released on 2026-11-14.
-> A preview of 4K takes uses far less memory at full quality. Each 4K clip now plays a copy at the size the preview shows it, so long edits of 4K footage no longer run out of memory. Exports still use the original files.
-> **Fixes**
-> - **Core:** At full quality a 4K clip plays a copy at the size the preview shows it ([2f0ade181](https://github.com/heygen-com/hyperframes/commit/2f0ade181585323ebb2b53a2e15d68098655c90e), [#7723](https://github.com/heygen-com/hyperframes/pull/7723)).
+> - **Studio:** Menu row highlight follows the menu's corner ([b5f5ab36a](https://github.com/heygen-com/hyperframes/commit/b5f5ab36a1f4b626da9de40adf7e40257967997c), [#7791](https://github.com/heygen-com/hyperframes/pull/7791)).
 > **Full changelog**
 > …
 
-### [v0.9.44](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.44)
-<sub>2026-11-14 · today</sub>
+### [v0.9.51](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.51)
+<sub>2026-11-15 · today</sub>
 
-> **HyperFrames v0.9.44**
-> Released on 2026-11-14.
-> Check now warns when text leaves the safe areas of a 9:16 social video. Previews free a clip's decoder once the playhead leaves it, and a cancelled audio fade no longer crashes the page. Set HYPERFRAMES_OWNER to tell which run started a leftover browser.
+> **HyperFrames v0.9.51**
+> Released on 2026-11-15.
+> Render services can name extra networks their renders must treat as non-public, and mapped or NAT64 addresses are judged by the IPv4 address they carry. Website capture keeps Chrome's sandbox where the host supports it, and helper programs start only from trusted folders.
 > **Features**
-> - **CLI:** Name a caller's owner id on the browsers and warm check it starts ([798c241e4d0cf](https://github.com/heygen-com/hyperframes/commit/798c241e4d0cf18fc328d90c41823a766a9d8d8e), [#7687](https://github.com/heygen-com/hyperframes/pull/7687)).
-> - **CLI:** Check warns when text leaves the 9:16 social safe areas ([45882027bd284](https://github.com/heygen-com/hyperframes/commit/45882027bd284a8fbd96ffe854184104304c224f), [#7680](https://github.com/heygen-com/hyperframes/pull/7680)).
-> …
-
-### [v0.9.43](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.43)
-<sub>2026-11-13 · today</sub>
-
-> **HyperFrames v0.9.43**
-> Released on 2026-11-13.
-> Renders on Windows no longer show coloured fringes around text, and previews open no audio device until a clip with sound plays. That second change ends long freezes on Windows. Drag and resize on an opaque preview now start from one read.
-> **Features**
-> - **Studio:** Drag and resize on an opaque preview start from one gesture-start read ([6bdf9291647f3](https://github.com/heygen-com/hyperframes/commit/6bdf9291647f3739e7d74fc34d304e46ba7141b7), [#7657](https://github.com/heygen-com/hyperframes/pull/7657)).
+> - **Engine:** Operators can add networks the render must treat as non-public ([b54f2079e](https://github.com/heygen-com/hyperframes/commit/b54f2079ed715e69b10c6be54909030f64827a7a), [#7790](https://github.com/heygen-com/hyperframes/pull/7790)).
 > **Fixes**
 > …
 
-### [v0.9.42](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.42)
-<sub>2026-11-13 · today</sub>
+### [v0.9.50](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.50)
+<sub>2026-11-15 · today</sub>
 
-> **HyperFrames v0.9.42**
-> Released on 2026-11-13.
-> Studio now says why a file cannot be saved when another program holds it open or it is read-only. Dragging and resizing a layer draw live over an opaque preview, local renders bring in only media, font, CSS and JS files from outside the project, and preparing fonts for large pages is faster.
+> **HyperFrames v0.9.50**
+> Released on 2026-11-15.
+> Renders now read only the media and files that belong to them, including every playlist a playlist names. Lambda renders reach only public addresses by default, like the other cloud render paths, and lint rules check large files faster.
+> **Fixes**
+> - **AWS Lambda:** Lambda renders reach only public addresses unless the function opts out ([e8a59bf17](https://github.com/heygen-com/hyperframes/commit/e8a59bf1774f9880109bb7a426c55825725feb74), [#7780](https://github.com/heygen-com/hyperframes/pull/7780)).
+> - **Engine:** Media playlists are checked through every list they name ([f4b6aad33](https://github.com/heygen-com/hyperframes/commit/f4b6aad33251715e803e3bb84c24a0b446a5e956), [#7778](https://github.com/heygen-com/hyperframes/pull/7778)).
+> …
+
+### [v0.9.49](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.49)
+<sub>2026-11-14 · today</sub>
+
+> **HyperFrames v0.9.49**
+> Released on 2026-11-14.
+> Compiling a render now downloads composition scripts through the same downloader as other assets. Renders also log what kind of address the network limit refused.
 > **Features**
-> - **Studio:** Drag and resize draw live on an opaque preview over its channel ([87c4a07dc99a9](https://github.com/heygen-com/hyperframes/commit/87c4a07dc99a91e185c02a53090bdf941ff32db2), [#7646](https://github.com/heygen-com/hyperframes/pull/7646)).
-> - **Studio:** Layers panel and marquee read an opaque preview over its channel ([be67089a80b59](https://github.com/heygen-com/hyperframes/commit/be67089a80b59be945d84e09d400a4ece254daef), [#7639](https://github.com/heygen-com/hyperframes/pull/7639)).
+> - **Engine:** Renders log the class of every address the proxy refuses ([89bca002e](https://github.com/heygen-com/hyperframes/commit/89bca002ef7720e94a71ef57e2a8d1624b3cb424), [#7762](https://github.com/heygen-com/hyperframes/pull/7762)).
+> **Fixes**
+> …
+
+### [v0.9.48](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.48)
+<sub>2026-11-14 · today</sub>
+
+> **HyperFrames v0.9.48**
+> Released on 2026-11-14.
+> Press ? in Studio to see every keyboard shortcut. A render service that limits the render page's network now applies the same limit to the whole render browser.
+> **Features**
+> - **Studio:** Press ? to open the keyboard shortcuts panel ([a03e85f43](https://github.com/heygen-com/hyperframes/commit/a03e85f43a7d2febaf801c5b96277671bd48f70d), [#7478](https://github.com/heygen-com/hyperframes/pull/7478)).
+> **Fixes**
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [fix(engine): look a host up again after a failed lookup instead of re…](https://github.com/heygen-com/hyperframes/commit/b100cf461509d1773662fd9bcd90347675401bb5) | miguel-heygen |
-| 2026-11-14 | [fix(scripts): the comment check names a git too old for check-attr --…](https://github.com/heygen-com/hyperframes/commit/8e0f196a8b151f02adbf2f2a96e13f9d6b9f2908) | miguel-heygen |
-| 2026-11-14 | [fix(engine): hold the render page to the asset download address rules…](https://github.com/heygen-com/hyperframes/commit/29533f631fdfd3b5bd733319de49d2a97c1fbf3f) | miguel-heygen |
-| 2026-11-14 | [fix(producer): a clip whose file name has a space or accent is mixed …](https://github.com/heygen-com/hyperframes/commit/a3fa250b25c7c42dedaf4b19b5df65d80260cc65) | miguel-heygen |
-| 2026-11-14 | [fix(studio-server): save an edit Windows briefly holds without freezi…](https://github.com/heygen-com/hyperframes/commit/a92498b9033a069418940fe54360e172968381e4) | miguel-heygen |
-| 2026-11-14 | [fix(cli): an unknown flag's error leaves out hidden rename shims (#7746)](https://github.com/heygen-com/hyperframes/commit/cb52dcf646b8c0a413ce80c99fb6719ad452a2c1) | miguel-heygen |
-| 2026-11-14 | [fix: check, render and downloads work on a drive without hard links (…](https://github.com/heygen-com/hyperframes/commit/b746a0ee1389895b861b7177e226df3622d09bd4) | miguel-heygen |
-| 2026-11-14 | [fix(studio): HEVC with long-term reference pictures keeps its pixel a…](https://github.com/heygen-com/hyperframes/commit/b7238744624b49fc2a54cb7cd5c9c73b6004f92e) | miguel-heygen |
-| 2026-11-14 | [fix(cli): check still reports a film's other GL driver notes (#7745)](https://github.com/heygen-com/hyperframes/commit/d26ec25385630f2427079c65bb300f0e12f26661) | miguel-heygen |
-| 2026-11-14 | [fix(cli): an unknown flag lists the command's real flags (#7740)](https://github.com/heygen-com/hyperframes/commit/88beb282f26cd9c8eaa6381e477336e1a3971d65) | miguel-heygen |
+| 2026-11-15 | [fix(cli): cloud render no longer refuses a file only an unused page n…](https://github.com/heygen-com/hyperframes/commit/45cc331e54b28040694a47e540ddc2d100cacdf3) | miguel-heygen |
+| 2026-11-15 | [fix(core): pages with many CJK characters fetch fonts in several requ…](https://github.com/heygen-com/hyperframes/commit/6a8f4b5b46762e6b1631e02d6d77b29b950c88ee) | miguel-heygen |
+| 2026-11-15 | [feat(cli): uploads list every file they carry from outside the projec…](https://github.com/heygen-com/hyperframes/commit/e426ce4eb44517db3f65105f1e05cb7b762cd950) | michaelwang11394 |
+| 2026-11-15 | [perf(lint): scan CSS url references in linear time (#7829)](https://github.com/heygen-com/hyperframes/commit/bcf3d177d3476a1696b034544f5cfcf68404663b) | michaelwang11394 |
+| 2026-11-15 | [fix(cli): hyperframes audio never looks up media on another computer'…](https://github.com/heygen-com/hyperframes/commit/eaf33bc658fbd2612753a48574fed6f9e376a511) | michaelwang11394 |
+| 2026-11-15 | [fix(cli): uploads leave out outside scripts; .ts counts as video only…](https://github.com/heygen-com/hyperframes/commit/04202e8a4c2e7f334636bf1e3b07dd38c77e5b43) | michaelwang11394 |
+| 2026-11-15 | [fix(cli): play and present check the Host like preview; local render …](https://github.com/heygen-com/hyperframes/commit/ac02474105bc6d2893a0ef1a79526f2952645aca) | michaelwang11394 |
+| 2026-11-15 | [fix(cli): add lists files from a received config's registry as receiv…](https://github.com/heygen-com/hyperframes/commit/6a7b4df7c8bb04944b14820570b2dd7a32e76dc7) | michaelwang11394 |
+| 2026-11-15 | [fix: Studio media routes refuse cross-site load, CLI escapes terminal…](https://github.com/heygen-com/hyperframes/commit/c4d60c347f324eb58dacfccee866a0b9bba7fe61) | michaelwang11394 |
+| 2026-11-15 | [fix(cli): discover mounted scenes inside templates (#7822)](https://github.com/heygen-com/hyperframes/commit/a75e61f31c76d79016894e849799bdc456ac0b54) | weiweiwu007 |
 
 [See all commits ↗](https://github.com/heygen-com/hyperframes/commits)
 

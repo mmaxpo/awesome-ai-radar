@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 64.7k |
+| ⭐ **Stars** | 64.8k |
 | 🍴 **Forks** | 11.1k |
 | 🐞 **Open issues + PRs** | [368](https://github.com/karpathy/nanoGPT/issues) |
 | 💻 **Languages** | Python 100% |

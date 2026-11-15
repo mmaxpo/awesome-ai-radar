@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 62.3k |
+| ⭐ **Stars** | 62.4k |
 | 🍴 **Forks** | 4.4k |
-| 🐞 **Open issues + PRs** | [934](https://github.com/penpot/penpot/issues) |
+| 🐞 **Open issues + PRs** | [936](https://github.com/penpot/penpot/issues) |
 | 💻 **Languages** | Clojure 75% · JavaScript 6% · Rust 6% · TypeScript 5% · SCSS 3% |
 | 📜 **License** | MPL-2.0 |
 | 🏷 **Topics** | `ux-design` `ux-experience` `prototyping` `clojure` `clojurescript` `ui` `design` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2015-12-29 |
 | 📦 **Latest release** | [2.19.1](https://github.com/penpot/penpot/releases/tag/2.19.1) — 2026-11-11 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 429.8 MB |
+| 💾 **Size** | 430.3 MB |
 | 🌐 **Website** | https://penpot.app |
 
 ## 📦 Recent releases
 
 ### [2.19.1](https://github.com/penpot/penpot/releases/tag/2.19.1)
-<sub>2026-11-11 · 3d ago</sub>
+<sub>2026-11-11 · 4d ago</sub>
 
 > **:lock: Security fixes**
 > - Fix editor-role team members retrieving the signed invitation token of any pending invitation (https://github.com/penpot/penpot/security/advisories/GHSA-4mmc-j8rh-74pf) (PR: [#12892](https://github.com/penpot/penpot/pull/12892))
@@ -58,7 +58,7 @@
 > …
 
 ### [2.18.7](https://github.com/penpot/penpot/releases/tag/2.18.7)
-<sub>2026-11-09 · 5d ago</sub>
+<sub>2026-11-09 · 6d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix binfile import accepting library relations outside the package and self-relations [#12895](https://github.com/penpot/penpot/issues/12895) (PR: [#12862](https://github.com/penpot/penpot/pull/12862))
@@ -70,7 +70,7 @@
 > - Fix upload endpoints storing server files when the path points outside the temp dir [#12771](https://github.com/penpot/penpot/issues/12771) (PR: [#12772](https://github.com/penpot/penpot/pull/12772))
 
 ### [2.18.5](https://github.com/penpot/penpot/releases/tag/2.18.5)
-<sub>2026-10-26 · 19d ago</sub>
+<sub>2026-10-26 · 20d ago</sub>
 
 > No changes for 2.18.5 according to CHANGES.md
 

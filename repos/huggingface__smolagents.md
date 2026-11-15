@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.4k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [1.1k](https://github.com/huggingface/smolagents/issues) |
+| 🐞 **Open issues + PRs** | [557](https://github.com/huggingface/smolagents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-10 (3d ago) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2024-12-05 |
 | 📦 **Latest release** | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) — 2026-05-29 |
 | 🌿 **Default branch** | `main` |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Require issues to be validated and assigned before opening a pull req…](https://github.com/huggingface/smolagents/commit/1faabfa499a40bcb62f86c507552632a7a4f9edc) | albertvillanova |
+| 2026-11-15 | [Docs: build English only, other languages are machine-translated (#3091)](https://github.com/huggingface/smolagents/commit/a826da9e98c1c59443f2bb119a37fde2f569b292) | mishig25 |
+| 2026-11-15 | [Fix flaky test_transformers_toolcalling_agent (#3180)](https://github.com/huggingface/smolagents/commit/57b9e408d77cebc99c7d9f3af375ea8bf10033e6) | albertvillanova |
+| 2026-11-15 | [Bump the actions group across 1 directory with 2 updates (#3147)](https://github.com/huggingface/smolagents/commit/58823fb71535793bc02de5dbb6a77e8caabe8099) | dependabot[bot] |
+| 2026-11-15 | [Require an assigned issue before opening a pull request (#3178)](https://github.com/huggingface/smolagents/commit/47ecad0549b41d14a8f8659bfae86475643fd258) | albertvillanova |
+| 2026-11-15 | [Fix pandas exception test for pandas 3 error message (#3176)](https://github.com/huggingface/smolagents/commit/deb17d9927fa8d11e35ab174ef8a69e77842998f) | albertvillanova |
+| 2026-11-15 | [Fix MCP extra installation with incompatible SDK 2.x (#2585)](https://github.com/huggingface/smolagents/commit/cd1a6b6e8badbe0d37721ed8d5b87209bb715916) | d3f4w2 |
 | 2026-10-06 | [Bump doc-builder workflow pin (#2906)](https://github.com/huggingface/smolagents/commit/96f33faaf028479119ec8d34507b47694cf14e34) | paulinebm |
 | 2026-09-30 | [fix(ci): harden GitHub Actions workflows (#2558) (#2868)](https://github.com/huggingface/smolagents/commit/c30b115286e000e98711fae5e85993547b73d826) | hf-security-analysis[bot] |
 | 2026-09-30 | [Bump the actions group across 1 directory with 6 updates (#2558)](https://github.com/huggingface/smolagents/commit/fcc81e9999dbfadfab04e00e2d9201c4bb7eefc8) | dependabot[bot] |
-| 2026-09-23 | [Pin GitHub Actions to commit SHAs (#2830)](https://github.com/huggingface/smolagents/commit/227ef5e49ddd82339295939072f0223249aa8d38) | hf-security-analysis[bot] |
-| 2026-09-23 | [Scope GITHUB_TOKEN permissions per job (#2829)](https://github.com/huggingface/smolagents/commit/1628d0a279d9e7b058850bb4b3a7b02722f7740b) | hf-security-analysis[bot] |
-| 2026-08-22 | [Update contribution guidelines (#2679)](https://github.com/huggingface/smolagents/commit/30bb1161095dbae2271e6bc3cc4c219cc3897a57) | albertvillanova |
-| 2026-08-22 | [Fix code formatting in plan customization README (#2680)](https://github.com/huggingface/smolagents/commit/34a3d09f051e10a665d0303f3909760cca866a55) | albertvillanova |
-| 2026-07-11 | [Update security policy (#2495)](https://github.com/huggingface/smolagents/commit/e3a5b8994b301983b91c0325546e9dc82eab8cf0) | albertvillanova |
-| 2026-07-10 | [Update CI huggingface/doc-builder (#2486)](https://github.com/huggingface/smolagents/commit/6cfdf12ee5e77443049177b274b13cf935b0367e) | albertvillanova |
-| 2026-07-10 | [Bump the actions group across 1 directory with 5 updates (#2410)](https://github.com/huggingface/smolagents/commit/418ba00927ed59916bb500705b27f5c0f55b15d4) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/huggingface/smolagents/commits)
 

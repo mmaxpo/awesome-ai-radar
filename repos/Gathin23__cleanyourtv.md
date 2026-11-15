@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 57.8k |
-| 🍴 **Forks** | 7.5k |
-| 🐞 **Open issues + PRs** | [267](https://github.com/Gathin23/cleanyourtv/issues) |
+| ⭐ **Stars** | 58.1k |
+| 🍴 **Forks** | 7.6k |
+| 🐞 **Open issues + PRs** | [239](https://github.com/Gathin23/cleanyourtv/issues) |
 | 💻 **Languages** | Python 54% · Java 40% · Kotlin 2% · Shell 2% · PowerShell 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `adb` `android-tv` `claude-code` `debloat` `launcher` `xiaomi` `android-tv-launcher` `bloatware-removal` `google-tv` `smart-tv` `sony-bravia` `tcl` `adblock` `apple-tv` `fire-tv` `privacy` `vibe-coding` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-10-17 |
 | 📦 **Latest release** | [v3.5.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.5.0) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 85.9 MB |
+| 💾 **Size** | 88.0 MB |
 | 🌐 **Website** | https://cleanyour.tv |
 
 ## 📦 Recent releases
 
 ### [v3.5.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.5.0) — CleanYourTV 3.5: eight new themes, 472 TV models and a lighter Home
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > Nine days, **355 pull requests from 152 people**. CleanYourTV 3.5 brings **eight new themes**, from Diwali lamps to Istanbul at night, three new add-ons, 30 more TVs from 12 new brands, and a Home screen that no longer holds on to memory it doesn't need. The README now reads in Spanish, French, Hebrew and Uzbek too.
 > Since v3.4.0: **472 TV models** (from 442), **129 brands** (from 117), **29 themes** (from 21), **36 add-ons** (from 33), **243 projects in the showcase** (from 212), **355 pull requests from 152 people**. No binaries, as always: build the launcher with `launcher/build-and-install.sh`.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [README: the trending line closes the card's alt text, after the totals](https://github.com/Gathin23/cleanyourtv/commit/50d5efabf843acf811d3aef2ecf4e2a7f50b82e7) | Gathin23 |
-| 2026-11-14 | [README: the #1 trending heading moves into the card; Tamil Tech's vid…](https://github.com/Gathin23/cleanyourtv/commit/776566a1a1279dd9c99155fe536fea2528de533c) | Gathin23 |
-| 2026-11-14 | [Launcher 3.5 (versionCode 14); the story gives stars and forks as of …](https://github.com/Gathin23/cleanyourtv/commit/d11bd68c9ac45b2fb38480941586d17930137e9d) | Gathin23 |
-| 2026-11-14 | [Press: 12 articles and 10 videos from the 14 Nov sweep (546 articles …](https://github.com/Gathin23/cleanyourtv/commit/2a27befe119ec418cd39f90305dec102d02fdc4e) | Gathin23 |
-| 2026-11-13 | [Round BA: fixes folded in on merge, tables and cards regenerated](https://github.com/Gathin23/cleanyourtv/commit/b121838a666832fda3e7bddb702df9a6610d67aa) | Gathin23 |
-| 2026-11-13 | [Merge PR #3804: Launcher: Home no longer keeps every earlier activity…](https://github.com/Gathin23/cleanyourtv/commit/0b3437d9bdb852241943c69435d9d1aecb1fc110) | Gathin23 |
-| 2026-11-13 | [Merge PR #3822: SHOWCASE: add cleantv-dashy screensaver](https://github.com/Gathin23/cleanyourtv/commit/bfe5f8ace92fe25f49c3f57bf0cf08461ddae5b1) | Gathin23 |
-| 2026-11-13 | [Merge PR #3817: Showcase tvOS for Google TV](https://github.com/Gathin23/cleanyourtv/commit/42007b124e1a09f60dce64f46e3fc7c1d9d544dc) | Gathin23 |
-| 2026-11-13 | [Merge PR #3801: SHOWCASE: add Noite Geek, a home screen with Crunchyr…](https://github.com/Gathin23/cleanyourtv/commit/8aa79077e129793ac8b39310fc7cf7cccb95bfcb) | Gathin23 |
-| 2026-11-13 | [Merge PR #3788: Showcase: add the weather headline fork](https://github.com/Gathin23/cleanyourtv/commit/23aa060bc1d5495dc9fc47e942d76c78c595fe34) | Gathin23 |
+| 2026-11-15 | [Round BB: fixes folded in on merge, tables and cards regenerated](https://github.com/Gathin23/cleanyourtv/commit/ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e) | Gathin23 |
+| 2026-11-15 | [Merge PR #3934: examples: a second TCL 55Q6CS (India, LF1V500) where …](https://github.com/Gathin23/cleanyourtv/commit/45679009d09f0995cfb61a98bf54634546b8f5bb) | Gathin23 |
+| 2026-11-15 | [Merge PR #3933: examples/sony-bravia-4k-vh1: add Sony XBR-65X900H (BR…](https://github.com/Gathin23/cleanyourtv/commit/3942376ba9dee7720bf4c554e36c4f416801af8d) | Gathin23 |
+| 2026-11-15 | [Merge PR #3932: examples: add Philips 65PUS8602/12 to the 65PUS8102 f…](https://github.com/Gathin23/cleanyourtv/commit/fc85d1600732fabe2d990520799d09b3cb240a19) | Gathin23 |
+| 2026-11-15 | [Merge PR #3930: launcher: keep key filtering when stock_home_redirect…](https://github.com/Gathin23/cleanyourtv/commit/a25ae8d9d2ef3df41a3b235a59a07574a62a547e) | Gathin23 |
+| 2026-11-15 | [Merge PR #3929: tests: the docker stand-in runs from a checkout whose…](https://github.com/Gathin23/cleanyourtv/commit/9f102e414c8cb1d1ced425e559a1ae72602a1b9a) | Gathin23 |
+| 2026-11-15 | [Merge PR #3928: docs: document Qilive FHD Android TV 11 and CVTE Home…](https://github.com/Gathin23/cleanyourtv/commit/248f538185d92c374251934083807c527c905732) | Gathin23 |
+| 2026-11-15 | [Merge PR #3927: tools: trace_report.py reads a trace folder whose nam…](https://github.com/Gathin23/cleanyourtv/commit/eaf99cdc7007c144b1acc4029dc3d9e0751f21fd) | Gathin23 |
+| 2026-11-15 | [Merge PR #3926: tools: flamechart.py saves its chart through a part f…](https://github.com/Gathin23/cleanyourtv/commit/7e69cd92415b9591d660d1a9be97e87035da67be) | Gathin23 |
+| 2026-11-15 | [Merge PR #3925: tools: screendiff.py prints an --out name the console…](https://github.com/Gathin23/cleanyourtv/commit/79a32f229ce484baefa2368bdd36034e7f2ad5f7) | Gathin23 |
 
 [See all commits ↗](https://github.com/Gathin23/cleanyourtv/commits)
 

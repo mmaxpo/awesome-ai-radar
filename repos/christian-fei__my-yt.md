@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.1k |
-| 🍴 **Forks** | 90 |
-| 🐞 **Open issues + PRs** | [8](https://github.com/christian-fei/my-yt/issues) |
+| 🍴 **Forks** | 91 |
+| 🐞 **Open issues + PRs** | [9](https://github.com/christian-fei/my-yt/issues) |
 | 💻 **Languages** | JavaScript 84% · CSS 13% · HTML 3% |
 | 📜 **License** | Unlicense |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-10-18 (27d ago) |
+| 🕒 **Last activity** | 2026-10-18 (28d ago) |
 | 📅 **Created** | 2025-02-08 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

@@ -22,20 +22,20 @@
 |---|---|
 | ⭐ **Stars** | 13.6k |
 | 🍴 **Forks** | 448 |
-| 🐞 **Open issues + PRs** | [163](https://github.com/plasma-umass/scalene/issues) |
-| 💻 **Languages** | Python 60% · JavaScript 16% · C++ 9% · TypeScript 8% · Lean 7% |
+| 🐞 **Open issues + PRs** | [153](https://github.com/plasma-umass/scalene/issues) |
+| 💻 **Languages** | Python 59% · JavaScript 16% · C++ 9% · TypeScript 8% · Lean 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 20.1 MB |
+| 💾 **Size** | 20.3 MB |
 
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — Free-threaded wheels, M4 fix, safer API keys, and formal verification
-<sub>2026-10-23 · 21d ago</sub>
+<sub>2026-10-23 · 22d ago</sub>
 
 > **What's Changed**
 > **Headlines**
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Give every timer arrival the same weight (#466 follow-up) (#1142)](https://github.com/plasma-umass/scalene/commit/0b9870bfa09aecc7e2eb8826dbd483214d4a763f) | emeryberger |
+| 2026-11-15 | [Charge CPU samples to the line running when the timer fired (fixes #4…](https://github.com/plasma-umass/scalene/commit/9893aa606aadf138f0bad0adf79f0265b3724a52) | emeryberger |
+| 2026-11-15 | [Windows: remove the Python sampler-thread fallback (#1141)](https://github.com/plasma-umass/scalene/commit/9daac986a3b9d9799f230f1af4198115090fa99e) | emeryberger |
+| 2026-11-14 | [Don't sample allocations inside native stack unwinding (fixes #1133) …](https://github.com/plasma-umass/scalene/commit/377176057b41172579937f4e71dc5bdf83a5c875) | emeryberger |
+| 2026-11-14 | [Count loop body lines in function CPU totals (fixes #1131) (#1137)](https://github.com/plasma-umass/scalene/commit/37951a9611f772b8b400e4b6f4964d0baf69a35e) | emeryberger |
+| 2026-11-14 | [Track line ends from the profiled frame's depth (fixes #1132) (#1138)](https://github.com/plasma-umass/scalene/commit/c1a955bddaa5428e577c81a1a6ce73829d0ddb2f) | emeryberger |
+| 2026-11-14 | [Don't block SIGALRM in os functions that start programs (fixes #1134)…](https://github.com/plasma-umass/scalene/commit/07d428a1195480a49ef94aa9b883866845bcc0a2) | emeryberger |
+| 2026-11-14 | [Sample Windows CPU from a native timer thread that trips the CPU sign…](https://github.com/plasma-umass/scalene/commit/e820eb1ce0dd93ef9179ae907271fe0aab685a85) | emeryberger |
 | 2026-11-14 | [Classify signal-path CPU samples by when the timer signal arrived (#1…](https://github.com/plasma-umass/scalene/commit/122cdfc80d99f50b14ad3141f93f28379bd7ddc2) | emeryberger |
 | 2026-11-14 | [Build and smoke-test wheels on every PR; fix CPU attribution on Windo…](https://github.com/plasma-umass/scalene/commit/057c01074f56b65c5ec941b1ef32c4346e13c3a3) | emeryberger |
-| 2026-11-13 | [CI: run Python 3.9 jobs on ubuntu-24.04 (#1108)](https://github.com/plasma-umass/scalene/commit/85e943eca7146779ddb96dbd5ca5959778247414) | emeryberger |
-| 2026-11-13 | [fix(deps): update vega-selections to 5.6.3 (CVE-2025-65110) (#1126)](https://github.com/plasma-umass/scalene/commit/fe10cda7c6d0e25c0610b84706b8c71687130589) | superbot-helper |
-| 2026-11-13 | [Add GPT-5.5/5.4 models; use the Responses API for OpenAI (#1127)](https://github.com/plasma-umass/scalene/commit/3731666b54109f68f1f93e20e8f56ee54cc34ae3) | emeryberger |
-| 2026-11-13 | [Speed up memory profiling: faster sample reader and cheaper malloc re…](https://github.com/plasma-umass/scalene/commit/003211d45da90bfcf917f40713e4eb3b91c39ecf) | emeryberger |
-| 2026-11-13 | [Keep AI model IDs in one registry and recover from retired models (fi…](https://github.com/plasma-umass/scalene/commit/e470861a8bb8e0a699ee4aa55c707b159c027976) | emeryberger |
-| 2026-11-11 | [Stop unrecognized `scalene run` options leaking into the program's ar…](https://github.com/plasma-umass/scalene/commit/da91e587fa5a0f5a4416250a628c88ff02638f30) | emeryberger |
-| 2026-11-10 | [Reuse the memory sample log and stop @profile churn (fixes #1122) (#1…](https://github.com/plasma-umass/scalene/commit/9ed244c78241ef364446288add351912e7bcf206) | emeryberger |
-| 2026-11-10 | [Fix badge formatting in README.md](https://github.com/plasma-umass/scalene/commit/b8a58ca6f932ca2ab683d7795790ebf489a37d82) | emeryberger |
 
 [See all commits ↗](https://github.com/plasma-umass/scalene/commits)
 

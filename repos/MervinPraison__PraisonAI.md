@@ -30,33 +30,33 @@
 | 📅 **Created** | 2024-03-19 |
 | 📦 **Latest release** | [v4.7.25](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.25) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 117.7 MB |
+| 💾 **Size** | 118.7 MB |
 | 🌐 **Website** | https://praison.ai |
 
 ## 📦 Recent releases
 
 ### [v4.7.25](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.25) — PraisonAI v4.7.25
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > Release v4.7.25
 
 ### [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) — PraisonAI v4.7.24
-<sub>2026-11-05 · 8d ago</sub>
+<sub>2026-11-05 · 9d ago</sub>
 
 > Release v4.7.24
 
 ### [v4.7.23](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.23) — PraisonAI v4.7.23
-<sub>2026-11-03 · 11d ago</sub>
+<sub>2026-11-03 · 12d ago</sub>
 
 > Release v4.7.23
 
 ### [v4.7.22](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.22) — PraisonAI v4.7.22
-<sub>2026-10-30 · 14d ago</sub>
+<sub>2026-10-30 · 15d ago</sub>
 
 > Release v4.7.22
 
 ### [v4.7.21](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.21) — PraisonAI v4.7.21
-<sub>2026-10-27 · 18d ago</sub>
+<sub>2026-10-27 · 19d ago</sub>
 
 > Release v4.7.21
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [docs: auto-update feature parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/851c386430b5e32cec7081442ee30080aedb7e45) | MervinPraison |
+| 2026-11-14 | [Merge pull request #6339 from MervinPraison/claude/issue-6338-20261112](https://github.com/MervinPraison/PraisonAI/commit/5452a21c22575dfc9fa97debd8c15895d706eb92) | praisonai-triage-agent[bot] |
+| 2026-11-14 | [fix: honour parallel_tool_calls on the native OpenAI async tool loop …](https://github.com/MervinPraison/PraisonAI/commit/8b549fd887d58fe0af8fa717ecbec2183a12e750) | MervinPraison |
+| 2026-11-14 | [fix: PraisonAI UI — OpenAI stream events, tool-call args, reasoning; …](https://github.com/MervinPraison/PraisonAI/commit/f4960d46ad1fe50cc1a144199e36ea95fd520713) | MervinPraison |
 | 2026-11-14 | [Release v4.7.25](https://github.com/MervinPraison/PraisonAI/commit/ff942619fd61376d84ff0f33f343016ce2fc813e) | praisonai-triage-agent[bot] |
 | 2026-11-14 | [Merge pull request #6363 from MervinPraison/claude/issue-6362-20261113](https://github.com/MervinPraison/PraisonAI/commit/38984481d3ba14d5900294a7fd2e035de4249f5c) | praisonai-triage-agent[bot] |
 | 2026-11-14 | [fix: make owner identity unification opt-in via identity.unify_owner …](https://github.com/MervinPraison/PraisonAI/commit/1ddd3ee36a4daf8303b17f0c0ab7d3c873bf7cfd) | MervinPraison |
 | 2026-11-14 | [docs: auto-update feature parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/8fa36fa1553aeb06928e588668a5cebe8cd65b6b) | MervinPraison |
 | 2026-11-14 | [Merge pull request #6325 from MervinPraison/claude/issue-6324-20261110](https://github.com/MervinPraison/PraisonAI/commit/ad1e8e92a803669f5da8deb8499389bf0c40a4be) | praisonai-triage-agent[bot] |
 | 2026-11-14 | [Merge pull request #6351 from MervinPraison/claude/issue-6281-scheduler](https://github.com/MervinPraison/PraisonAI/commit/aa2f230425247bec127870f1d8a6151a32c3e463) | praisonai-triage-agent[bot] |
-| 2026-11-14 | [Merge pull request #6348 from MervinPraison/claude/issue-6294-depends-on](https://github.com/MervinPraison/PraisonAI/commit/05de412a2a7e75c44b21c1a8648ab3e42c26b15c) | praisonai-triage-agent[bot] |
-| 2026-11-14 | [Merge pull request #6377 from MervinPraison/claude/issue-6371-20261114](https://github.com/MervinPraison/PraisonAI/commit/43fc9fdb713279ae6400b03393369cf8d07c22fd) | praisonai-triage-agent[bot] |
-| 2026-11-14 | [Merge pull request #6321 from MervinPraison/claude/issue-6319-20261110](https://github.com/MervinPraison/PraisonAI/commit/6e2b50675ddf22f12a79bb725fb2b67db17dabf7) | praisonai-triage-agent[bot] |
-| 2026-11-14 | [Merge pull request #6273 from MervinPraison/claude/issue-6270-20261106](https://github.com/MervinPraison/PraisonAI/commit/8643ddc540b34d40283d02d554395f36cd29ea9a) | praisonai-triage-agent[bot] |
 
 [See all commits ↗](https://github.com/MervinPraison/PraisonAI/commits)
 

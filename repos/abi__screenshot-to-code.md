@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 81.2k |
-| 🍴 **Forks** | 9.9k |
-| 🐞 **Open issues + PRs** | [149](https://github.com/abi/screenshot-to-code/issues) |
+| 🍴 **Forks** | 10.0k |
+| 🐞 **Open issues + PRs** | [150](https://github.com/abi/screenshot-to-code/issues) |
 | 💻 **Languages** | Python 54% · TypeScript 45% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [458](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [462](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-11 (3d ago) |
+| 🕒 **Last activity** | 2026-11-11 (4d ago) |
 | 📅 **Created** | 2014-02-06 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 2026-09-15 |
 | 🌿 **Default branch** | `master` |
@@ -68,7 +68,7 @@
 > …
 
 ### [v3.3.0](https://github.com/dmlc/xgboost/releases/tag/v3.3.0) — Release 3.3.0 stable
-<sub>2026-06-17 · 4mo ago</sub>
+<sub>2026-06-17 · 5mo ago</sub>
 
 > **Release notes**
 > https://xgboost.readthedocs.io/en/latest/changes/v3.3.0.html

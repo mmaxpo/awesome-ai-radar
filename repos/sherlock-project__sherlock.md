@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 111.7k |
-| 🍴 **Forks** | 12.9k |
+| ⭐ **Stars** | 112.1k |
+| 🍴 **Forks** | 13.0k |
 | 🐞 **Open issues + PRs** | [415](https://github.com/sherlock-project/sherlock/issues) |
 | 💻 **Languages** | Python 97% · Dockerfile 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `osint` `reconnaissance` `linux` `cli` `sherlock` `python3` `redteam` `tools` `information-gathering` `hacktoberfest` `python` `cybersecurity` `cti` `forensics` `infosec` `pentesting` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2018-12-24 |
 | 📦 **Latest release** | [v0.16.2](https://github.com/sherlock-project/sherlock/releases/tag/v0.16.2) — 2026-09-08 |
 | 🌿 **Default branch** | `master` |

@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 51.0k |
-| 🍴 **Forks** | 6.1k |
-| 🐞 **Open issues + PRs** | [195](https://github.com/JustVugg/colibri/issues) |
+| ⭐ **Stars** | 51.2k |
+| 🍴 **Forks** | 6.2k |
+| 🐞 **Open issues + PRs** | [199](https://github.com/JustVugg/colibri/issues) |
 | 💻 **Languages** | C 54% · Python 31% · Cuda 5% · HTML 4% · Shell 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-07-01 |
 | 📦 **Latest release** | [v2.1.0](https://github.com/JustVugg/colibri/releases/tag/v2.1.0) — 2026-10-31 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 52.9 MB |
+| 💾 **Size** | 51.4 MB |
 | 🌐 **Website** | https://justvugg.github.io/colibri |
 
 ## 📦 Recent releases

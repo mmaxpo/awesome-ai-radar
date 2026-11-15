@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 71.7k |
-| 🍴 **Forks** | 23.1k |
-| 🐞 **Open issues + PRs** | [49](https://github.com/ai-job-search-dev/ai-job-search/issues) |
+| ⭐ **Stars** | 71.8k |
+| 🍴 **Forks** | 23.2k |
+| 🐞 **Open issues + PRs** | [50](https://github.com/ai-job-search-dev/ai-job-search/issues) |
 | 💻 **Languages** | Python 66% · TypeScript 33% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agents` `career` `claude-code` `cover-letter` `cv` `interview-preparation` `job-application` `job-hunting` `job-search` `latex` `resume` |
-| 🕒 **Last activity** | 2026-11-12 (yesterday) |
+| 🕒 **Last activity** | 2026-11-12 (2d ago) |
 | 📅 **Created** | 2026-03-18 |
 | 📦 **Latest release** | [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5) — 2026-11-09 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5)
-<sub>2026-11-09 · 5d ago</sub>
+<sub>2026-11-09 · 6d ago</sub>
 
 > **What's Changed**
 > * fix(job-key): fold Latin letters without an NFKD decomposition and add --audit --migrate by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/637
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.7.4](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.4)
-<sub>2026-11-02 · 12d ago</sub>
+<sub>2026-11-02 · 13d ago</sub>
 
 > **What's Changed**
 > * fix(freehire-search): reject detail URLs on other hosts instead of asking the API for their last segment (#622) by @ayobamiseun in https://github.com/ai-job-search-dev/ai-job-search/pull/623

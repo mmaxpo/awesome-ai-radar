@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 73% · JavaScript 26% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-10 (4d ago) |
+| 🕒 **Last activity** | 2026-11-10 (5d ago) |
 | 📅 **Created** | 2025-03-16 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/yctimlin/mcp_excalidraw/releases/tag/v2.2.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.2.0](https://github.com/yctimlin/mcp_excalidraw/releases/tag/v2.2.0)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > **Features**
 > - **Act on the selection:** `get_selection` (MCP) and `selection` (CLI) return the IDs selected in the most recently active canvas tab. (#149, thanks @Totopo27; requested in #147 by @fgeierst)

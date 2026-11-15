@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 64.8k |
+| ⭐ **Stars** | 65.0k |
 | 🍴 **Forks** | 12.8k |
-| 🐞 **Open issues + PRs** | [436](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| 🐞 **Open issues + PRs** | [432](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 96% · CSS 2% · Vue 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 204.5 MB |
+| 💾 **Size** | 206.9 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [Merge pull request #1732 from bilawalsidhu/fix/adsblol-true-heading](https://github.com/bilawalsidhu/gods-eye-view/commit/f24abfc88f61d2ac78f3de42a64dacd465478a75) | samehkhamis |
-| 2026-11-14 | [Merge branch 'main' into fix/adsblol-true-heading](https://github.com/bilawalsidhu/gods-eye-view/commit/58776a6976c66ff7457e57a859070baf0159f0ec) | samehkhamis |
-| 2026-11-14 | [Merge pull request #1731 from bilawalsidhu/fleet/aircraft-mesh-colours](https://github.com/bilawalsidhu/gods-eye-view/commit/391e33b0d54db46efefaca244cd4c11b2afd4f84) | samehkhamis |
-| 2026-11-14 | [Add the changelog fragment](https://github.com/bilawalsidhu/gods-eye-view/commit/deb42b38f757a96c645d81678e0c857a8b399527) | samehkhamis |
-| 2026-11-14 | [fix(flights): an aircraft with no ground track faces its true heading…](https://github.com/bilawalsidhu/gods-eye-view/commit/fd06272e37c1fb9c4271f938cadf1c74b76e13be) | samehkhamis |
-| 2026-11-14 | [Fix the Local ADS-B model test name](https://github.com/bilawalsidhu/gods-eye-view/commit/a3611caddb3a2eca4d47f4c86e9698dd056fd851) | samehkhamis |
-| 2026-11-14 | [Describe aircraft models in their mesh colours in the docs](https://github.com/bilawalsidhu/gods-eye-view/commit/4d81d3be3a23611c7070813eaa507096de837782) | samehkhamis |
-| 2026-11-14 | [Add the changelog fragment](https://github.com/bilawalsidhu/gods-eye-view/commit/c2c196ab1e5eef7bb0ab8fc32927b3a40115a767) | samehkhamis |
-| 2026-11-14 | [Draw aircraft models in their own mesh colours](https://github.com/bilawalsidhu/gods-eye-view/commit/8cb096fc211db12fcf6f114d49be9aea1c6bbc94) | samehkhamis |
-| 2026-11-14 | [Merge pull request #1730 from bilawalsidhu/fleet/airport-vehicle-models](https://github.com/bilawalsidhu/gods-eye-view/commit/3934be9ff981f464127ef669c81fc2c7d0d45f6e) | samehkhamis |
+| 2026-11-15 | [Merge pull request #1747 from bilawalsidhu/motion/vessels-frame-cadence](https://github.com/bilawalsidhu/gods-eye-view/commit/3d25a284f9186dcc936c26e0c4f745337b402e37) | samehkhamis |
+| 2026-11-15 | [Merge branch 'main' into motion/vessels-frame-cadence](https://github.com/bilawalsidhu/gods-eye-view/commit/c2fa15b205107a011e57650f3b150e3ec52f4831) | samehkhamis |
+| 2026-11-15 | [Merge pull request #1746 from bilawalsidhu/motion/satellites-dead-reckon](https://github.com/bilawalsidhu/gods-eye-view/commit/ec63345b3b2e4dbd2ec4b6f8eccfb93ff0d04adc) | samehkhamis |
+| 2026-11-15 | [fix(vessels): world-clock motion moves only drawn vessels, once per w…](https://github.com/bilawalsidhu/gods-eye-view/commit/52695daf5c8dd97162eb58c0ddc0d2bfecc23a68) | samehkhamis |
+| 2026-11-15 | [Add the changelog fragment for #1747](https://github.com/bilawalsidhu/gods-eye-view/commit/7bea88b395b1a606c761b25bb0c9586cf748cdbc) | samehkhamis |
+| 2026-11-15 | [Add the changelog fragment for #1746](https://github.com/bilawalsidhu/gods-eye-view/commit/e4afde3317a9a8d58e76787ca9ffee267b24a027) | samehkhamis |
+| 2026-11-15 | [Move vessels every frame and ask for frames as they move](https://github.com/bilawalsidhu/gods-eye-view/commit/57bacd98a803ca756b13af0c6aab729889746152) | samehkhamis |
+| 2026-11-15 | [Move satellites every frame between SGP4 samples](https://github.com/bilawalsidhu/gods-eye-view/commit/e31de29cccb5a4fe89fa79089ccbafc3d0fa17fc) | samehkhamis |
+| 2026-11-15 | [Merge pull request #1745 from bilawalsidhu/timeline/one-control-and-m…](https://github.com/bilawalsidhu/gods-eye-view/commit/e4708a815d012505a60e2f9c7fa57672820dfdd0) | samehkhamis |
+| 2026-11-15 | [A row plays only with a timeline to play; the speed shown follows the…](https://github.com/bilawalsidhu/gods-eye-view/commit/ac04812db200f58278eb86bd5f2d6dd6e82863a0) | samehkhamis |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

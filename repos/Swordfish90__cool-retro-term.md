@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 26.6k |
-| 🍴 **Forks** | 1.0k |
+| 🍴 **Forks** | 1.1k |
 | 🐞 **Open issues + PRs** | [579](https://github.com/Swordfish90/cool-retro-term/issues) |
 | 💻 **Languages** | QML 68% · C++ 16% · GLSL 9% · QMake 3% · Shell 2% |
 | 📜 **License** | — |

@@ -26,7 +26,7 @@
 | 💻 **Languages** | C# 92% · C 6% · JavaScript 1% · HTML 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `avalonedit` `csharp` `markdown` `minimalist` `notes` `todo` `windows` `wpf` `desktop` `note-taking` `productivity` `sticky-notes` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-13 (yesterday) |
 | 📅 **Created** | 2026-05-27 |
 | 📦 **Latest release** | [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
@@ -46,7 +46,7 @@
 > …
 
 ### [v4.0.0-beta1](https://github.com/snownico0722/PaperTodo/releases/tag/v4.0.0-beta1) — PaperTodo v4.0.0-beta1 _(pre-release)_
-<sub>2026-09-15 · 1mo ago</sub>
+<sub>2026-09-15 · 2mo ago</sub>
 
 > 这是一个测试版，可能存在很多问题、bug。
 > This is a beta version; it may contain many issues and bugs.

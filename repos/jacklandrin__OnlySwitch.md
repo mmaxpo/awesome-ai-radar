@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 6.1k |
 | 🍴 **Forks** | 249 |
-| 🐞 **Open issues + PRs** | [27](https://github.com/jacklandrin/OnlySwitch/issues) |
-| 💻 **Languages** | Swift 84% · HTML 15% |
+| 🐞 **Open issues + PRs** | [26](https://github.com/jacklandrin/OnlySwitch/issues) |
+| 💻 **Languages** | Swift 80% · HTML 14% · JavaScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `macos` `swiftui` `statusbar` `menubar-app` `notch` `audioplayer` `dark-mode` `pomodoro-timer` `shortcuts` `composable-architecture` `stagemanager` `widgetkit` `widgets` `ai` `ai-agents` `remote-control` `systemmonitor` `claude-code` `codex` `screenshot` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-14 (today) |
 | 📅 **Created** | 2021-11-30 |
 | 📦 **Latest release** | [release_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.6.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 65.0 MB |
+| 💾 **Size** | 60.0 MB |
 | 🌐 **Website** | https://onlyswitch.click/ |
 
 ## 📦 Recent releases
 
 ### [release_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.6.0)
-<sub>2026-11-10 · 3d ago</sub>
+<sub>2026-11-10 · 4d ago</sub>
 
 > New features:
 > 1. Screenshots tab supported video recording
@@ -47,7 +47,7 @@
 > …
 
 ### [beta_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.6.0) _(pre-release)_
-<sub>2026-11-08 · 5d ago</sub>
+<sub>2026-11-08 · 6d ago</sub>
 
 > New features:
 > * Supported screen record
@@ -57,7 +57,7 @@
 > * Fix screenshots & record button issue
 
 ### [release_3.5.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.5.0)
-<sub>2026-11-06 · 7d ago</sub>
+<sub>2026-11-06 · 8d ago</sub>
 
 > New features:
 > * Added Schedule mode
@@ -77,7 +77,7 @@
 > 4. The brightness value can be input on the tab
 
 ### [release_3.4.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.4.0)
-<sub>2026-11-02 · 11d ago</sub>
+<sub>2026-11-02 · 12d ago</sub>
 
 > New features:
 > 1. Radio accesses Radio Browser API
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-13 | [Auto-hide the browser toolbar until the pointer rests at the page top](https://github.com/jacklandrin/OnlySwitch/commit/7cd7d2af1a958f529f5ec33a4d877aa2f10cce99) | jacklandrin |
-| 2026-11-13 | [Document the Browser tab and reload edited bookmarks that are alive](https://github.com/jacklandrin/OnlySwitch/commit/a2969aad35233bd606fc9e404de8f2efc71be2c0) | jacklandrin |
-| 2026-11-13 | [Integrate Browser tab into list, Only Control and Settings](https://github.com/jacklandrin/OnlySwitch/commit/61aaa5f060be5ee1cc6d52dfb505159022d9f49d) | jacklandrin |
-| 2026-11-13 | [Add browser views and localizations](https://github.com/jacklandrin/OnlySwitch/commit/bd8516b6d2bb596466a97b1ea1c4fd25a4232285) | jacklandrin |
-| 2026-11-13 | [Add BrowserFeature reducer and live WebKit page pool](https://github.com/jacklandrin/OnlySwitch/commit/3a6b906569a6d92e23bb556bfab83e0c519e9aaf) | jacklandrin |
-| 2026-11-13 | [Add browser page cache, navigation policy and storage client](https://github.com/jacklandrin/OnlySwitch/commit/ceeb522407644cef329a41c62c733b1b905671f5) | jacklandrin |
-| 2026-11-13 | [Add WebBrowser module with bookmark model and URL normalizer](https://github.com/jacklandrin/OnlySwitch/commit/e5ea0af8efa964f0edaad4a0b1a02cb67b66babd) | jacklandrin |
-| 2026-11-13 | [Drop stale swift-issue-reporting pin that broke package resolution](https://github.com/jacklandrin/OnlySwitch/commit/693d9d9de15771e8b3debe4a5ca23a11c3d9fbeb) | jacklandrin |
-| 2026-11-12 | [bump version](https://github.com/jacklandrin/OnlySwitch/commit/0536b21db7e7974a2d8cd35984e788cb3e52ab7e) | jacklandrin |
-| 2026-11-12 | [Add EQ presets with custom EQ as a second-level section](https://github.com/jacklandrin/OnlySwitch/commit/dd06d939d2f86b17ebabd0209be13589d513b3d6) | jacklandrin |
+| 2026-11-14 | [feat: submit the desktop pet prompt with Return](https://github.com/jacklandrin/OnlySwitch/commit/2db3c8b981613a49080838ece7b66b89235f0763) | jacklandrin |
+| 2026-11-14 | [fix: align the desktop pet prompt placeholder with the caret](https://github.com/jacklandrin/OnlySwitch/commit/29625e41cbed0ecc93e433005c864796eddc4fcf) | jacklandrin |
+| 2026-11-14 | [fix: fence the current pet markup in the edit prompt and polish edit …](https://github.com/jacklandrin/OnlySwitch/commit/8dbe2fe3a93830f138426f728135d280d48f6eba) | jacklandrin |
+| 2026-11-14 | [feat: edit generated desktop pets with AI](https://github.com/jacklandrin/OnlySwitch/commit/343d4b1f1bd49a969989a8d4d8d523b4e8b1776b) | jacklandrin |
+| 2026-11-14 | [fix: keep the desktop pet delete button separate from row selection](https://github.com/jacklandrin/OnlySwitch/commit/0f5731b4111dfdbbeefb5beca7ef63f178fc4c38) | jacklandrin |
+| 2026-11-14 | [feat: list desktop pets with live previews in Settings](https://github.com/jacklandrin/OnlySwitch/commit/9cf5ca86771a6818021f10227bf140b8c497dc3e) | jacklandrin |
+| 2026-11-14 | [fix: fall back to the built-in pet when the selected skin vanished](https://github.com/jacklandrin/OnlySwitch/commit/4c4eb2cccc4435d32e4fcd3e91a50e8106011793) | jacklandrin |
+| 2026-11-14 | [fix: tear down the skin web view while the desktop pet is hidden](https://github.com/jacklandrin/OnlySwitch/commit/4f51d6c30c26345bb7b310fd59cd70c80276c7d9) | jacklandrin |
+| 2026-11-14 | [fix: close encoded and SVG bypasses in the desktop pet skin validator](https://github.com/jacklandrin/OnlySwitch/commit/17f269dd80776d2a9cd9e87be678839d5e649c44) | jacklandrin |
+| 2026-11-14 | [feat: create and choose AI-generated desktop pet skins](https://github.com/jacklandrin/OnlySwitch/commit/8090e08449efc0df17dd2f57d2cdf9a8ac54bb53) | jacklandrin |
 
 [See all commits ↗](https://github.com/jacklandrin/OnlySwitch/commits)
 

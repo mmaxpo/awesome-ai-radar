@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 34.4k |
+| ⭐ **Stars** | 34.5k |
 | 🍴 **Forks** | 3.1k |
-| 🐞 **Open issues + PRs** | [58](https://github.com/ahujasid/mcp-for-blender/issues) |
+| 🐞 **Open issues + PRs** | [59](https://github.com/ahujasid/mcp-for-blender/issues) |
 | 💻 **Languages** | Python 98% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `3d-modeling` `ai` `blender` `blender-addon` `claude` `generative-ai` `llm` `mcp` `model-context-protocol` `python` `blender-mcp` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (2d ago) |
 | 📅 **Created** | 2025-03-07 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

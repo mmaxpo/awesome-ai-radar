@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 2.1k |
-| 🍴 **Forks** | 523 |
+| ⭐ **Stars** | 2.2k |
+| 🍴 **Forks** | 524 |
 | 🐞 **Open issues + PRs** | [490](https://github.com/openremote/core/issues) |
 | 💻 **Languages** | Java 49% · TypeScript 25% · Groovy 19% · Shell 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `iot-platform` `iot` `energy` `building` `mqtt` `smartcity` `dashboard` `asset-management` `mqtt-broker` `dataplatform` `rules-engine` `fleet-management` `energy-monitor` `energy-management` `fleet-telematics` `device-management` `edge-computing` `iot-application` `modbus` `ota-update` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2016-02-03 |
 | 📦 **Latest release** | [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0)
-<sub>2026-11-06 · 8d ago</sub>
+<sub>2026-11-06 · 9d ago</sub>
 
 > > [!NOTE]
 > > We have also recently published a new `openremote/keycloak` release, version `26.7.5.0`, that introduces a new UI design!
@@ -58,7 +58,7 @@
 > …
 
 ### [1.32.2](https://github.com/openremote/core/releases/tag/1.32.2)
-<sub>2026-10-21 · 24d ago</sub>
+<sub>2026-10-21 · 25d ago</sub>
 
 > **What's Changed**
 > **🔒 Security updates**

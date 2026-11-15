@@ -20,22 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 7.4k |
-| 🍴 **Forks** | 609 |
+| ⭐ **Stars** | 7.5k |
+| 🍴 **Forks** | 615 |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-08-06 |
-| 📦 **Latest release** | [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214) — 2026-11-14 |
+| 📦 **Latest release** | [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215) — 2026-11-15 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 80.3 MB |
+| 💾 **Size** | 80.5 MB |
 
 ## 📦 Recent releases
 
+### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
+<sub>2026-11-15 · today</sub>
+
+> **What's Changed**
+> * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
+> * [PR] chore(branch): land 40 single-purpose fixes as one history-preserving batch (wave 5) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6677
+> * [PR] fix: map search evidence offsets back to original Unicode text by @Afloat16 in https://github.com/ranxianglei/billion-context/pull/6494
+> * [PR] fix: interpret cache-diff byte offsets in original text coordinates by @Afloat16 in https://github.com/ranxianglei/billion-context/pull/6496
+> * [PR] fix: preserve null response bodies in the inline HTTP engine by @Afloat16 in https://github.com/ranxianglei/billion-context/pull/6502
+> …
+
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -46,7 +57,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 6d ago</sub>
+<sub>2026-11-07 · 7d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -68,7 +79,7 @@
 > …
 
 ### [v0.1.211](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.211)
-<sub>2026-11-01 · 13d ago</sub>
+<sub>2026-11-01 · 14d ago</sub>
 
 > **What's Changed**
 > * [PR] test(e2e): fork-adoption relay echoes plain text, not rendered ref tags — unblocks v0.1.210 release by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5377
@@ -78,31 +89,20 @@
 > * [PR] fix(storage): async ingest twin sweeps foreign rows while drift-latched (#5412) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5420
 > …
 
-### [v0.1.210](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.210)
-<sub>2026-10-31 · 14d ago</sub>
-
-> **What's Changed**
-> * [PR] release v0.1.209 by @github-actions[bot] in https://github.com/ranxianglei/billion-context/pull/4982
-> * [PR] ci: 恢复紧急快速发布入口(fast 模式加双信号防误触门) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5054
-> * [PR] Update QQ Group information in README by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5087
-> * [PR] Modify QQ group status in README.zh-CN.md by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5088
-> * [PR] Second process opening index.db falsely reports "will corrupt data" — change to a shared-mode warning (#5082) | 第二个进程打开 index.db 误报「会损坏数据」——改为共享形态的提示（#5082） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5091
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [Merge pull request #6758 from ranxianglei/batch8-wave8](https://github.com/ranxianglei/billion-context/commit/f21b601893fb151d927a44522b32edfe2c005404) | ranxianglei |
-| 2026-11-14 | [test: fix generatedAt 1ms flake in cache-fold batch/individual parity…](https://github.com/ranxianglei/billion-context/commit/1d71c20d249c8cadb4349fbc56e114b6d311dec1) | ci-check |
-| 2026-11-14 | [Merge pull request #6676 from ranxianglei/test/e2e-selfupdate-cli](https://github.com/ranxianglei/billion-context/commit/8964c1fe2d78077c70678484242f5ca2aca1487d) | ranxianglei |
-| 2026-11-14 | [Merge Afloat16/2026-11-14_diagnostics-unicode-bounds (PR #6750) into …](https://github.com/ranxianglei/billion-context/commit/35283ef606ae874f529dd179778ca9179c8f0505) | ranxianglei |
-| 2026-11-14 | [Merge Afloat16/2026-11-14_linear-handoff-capture (PR #6748) into batc…](https://github.com/ranxianglei/billion-context/commit/4511559723f6470b5ea164f1a15c0efa00b7bc0f) | ranxianglei |
-| 2026-11-14 | [Merge Afloat16/2026-11-14_linear-fold-registration (PR #6747) into ba…](https://github.com/ranxianglei/billion-context/commit/224a6cec37614f6d4baf5c38791409acafc6c794) | ranxianglei |
-| 2026-11-14 | [Merge Afloat16/2026-11-14_nested-upstream-error-codes (PR #6743) into…](https://github.com/ranxianglei/billion-context/commit/218d5867b2f93b5e1b4bb4cbe3445a7d20225dfd) | ranxianglei |
-| 2026-11-14 | [Merge Afloat16/2026-11-14_usage-log-attribution-tags (PR #6742) into …](https://github.com/ranxianglei/billion-context/commit/78e77150d3431e8b0703c5ad78aad1eada0a5d8b) | ranxianglei |
-| 2026-11-14 | [Merge Afloat16/2026-11-14_cache-diff-insertion-boundaries (PR #6738) …](https://github.com/ranxianglei/billion-context/commit/5c068f2103719e4319a6d3f3e1550f6306c00ac4) | ranxianglei |
-| 2026-11-14 | [Merge Afloat16/2026-11-14_keepalive-rotated-timers (PR #6739) into ba…](https://github.com/ranxianglei/billion-context/commit/cb6637bb75b01c209840ef8fd9ee9e0d8ba3ef8f) | ranxianglei |
+| 2026-11-15 | [Merge pull request #6824 from ranxianglei/ranxianglei-patch-4](https://github.com/ranxianglei/billion-context/commit/2e3cfc973b8620b1f7bc8a415ddcbd31e7f4aaee) | ranxianglei |
+| 2026-11-15 | [Improve cache health metrics in README.ja.md](https://github.com/ranxianglei/billion-context/commit/11b5fbeb28a56ffccd0c45cfcb64f9175018da9c) | ranxianglei |
+| 2026-11-15 | [Update cache health overview statistics in README](https://github.com/ranxianglei/billion-context/commit/dbc81ce6225e4f550ccde951f953da9f87bdf814) | ranxianglei |
+| 2026-11-15 | [Update cache health statistics in README](https://github.com/ranxianglei/billion-context/commit/3c4acf66834cb08bc969b082d1843faca3bdb923) | ranxianglei |
+| 2026-11-15 | [Merge pull request #6765 from ranxianglei/batch10-wave10](https://github.com/ranxianglei/billion-context/commit/912aa67292055fb0fda342c3559cd55385701d12) | ranxianglei |
+| 2026-11-15 | [Merge pull request #6810 from ranxianglei/2026-11-15_gate-concurrent](https://github.com/ranxianglei/billion-context/commit/3e42aae8bfa6d2f3bf48d376eaaaac27afbcf806) | ranxianglei |
+| 2026-11-15 | [fix(gate): default restart-lane agents to dsh,pi in the launcher](https://github.com/ranxianglei/billion-context/commit/2c6c51ef38caa51fe3ce9f574c3a8128faf1c21a) | ework-agent |
+| 2026-11-15 | [fix(gate): pass concurrency knobs through bili-gate.sh + document them](https://github.com/ranxianglei/billion-context/commit/db25b227377f864e0388ba90cfd3b372e736c89c) | ci-check |
+| 2026-11-15 | [perf(gate): run plugin (P) + restart (R) lanes concurrently](https://github.com/ranxianglei/billion-context/commit/57e75a9b9402b9a7b730adf41cf31b91f27405c9) | ework-agent |
+| 2026-11-15 | [Merge pull request #6808 from ranxianglei/2026-11-15_gate-evidence-uid](https://github.com/ranxianglei/billion-context/commit/26d9bcc649a801ff99f31847d51cbad17893d496) | ranxianglei |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

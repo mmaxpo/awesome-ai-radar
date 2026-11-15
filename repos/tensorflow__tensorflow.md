@@ -26,11 +26,11 @@
 | 💻 **Languages** | C++ 56% · Python 26% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1399.8 MB |
+| 💾 **Size** | 1400.1 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [Automated Code Change](https://github.com/tensorflow/tensorflow/commit/91dd9b0a3662435a109fd5636fc08597eba895f0) | tensorflower-gardener |
-| 2026-11-14 | [Integrate LLVM at llvm/llvm-project@de574ff51d4f](https://github.com/tensorflow/tensorflow/commit/3a5226287d65206ae46a4bc5c31fff9bbf83c60b) | nigham |
-| 2026-11-14 | [Add MakeSharedCleanup utility in IFRT for shared RAII cleanup.](https://github.com/tensorflow/tensorflow/commit/d51ea3e9d9a822d276f148c256b0a42f708c3efd) | junwhanahn |
-| 2026-11-14 | [Automated Code Change](https://github.com/tensorflow/tensorflow/commit/00694701894fc0f08f6225dfbbf7f77ece22e004) | tensorflower-gardener |
-| 2026-11-14 | [Merge pull request #130060 from bodapatisaikrishna:fix/gather-pfor-ne…](https://github.com/tensorflow/tensorflow/commit/5f3f7768e6529d4506bd0cb32d67a375b08bf4dc) | tensorflower-gardener |
-| 2026-11-14 | [Give the StableHLO converter C++ entry its own options proto.](https://github.com/tensorflow/tensorflow/commit/4a1fcad16a65b6ebff1528634f55bbf0faa05538) | majiddadashi |
-| 2026-11-14 | [Integrate LLVM at llvm/llvm-project@c54ccc6bbe29](https://github.com/tensorflow/tensorflow/commit/ac459e18523f6b3873efe19ea1c52ce5104a09ea) | tensorflower-gardener |
-| 2026-11-14 | [Automated Code Change](https://github.com/tensorflow/tensorflow/commit/ff39a90d22a5cfa24be3954a4685d7e5d3bb1087) | tensorflower-gardener |
-| 2026-11-14 | [Support `activation="silu"` (`x / (1 + exp(-x))`) in the XNNPACK CPU …](https://github.com/tensorflow/tensorflow/commit/95bd2218aa600eedc9a29fbb4a6ec53037c21941) | tensorflower-gardener |
-| 2026-11-14 | [Update backend layout tiling when sinking host-offload copies.](https://github.com/tensorflow/tensorflow/commit/d8a5e99434b9a2453e8da725978df0d5b8e57016) | tensorflower-gardener |
+| 2026-11-15 | [Migrate TFRT IFRT sharding_utils host-buffer holds to std::shared_ptr.](https://github.com/tensorflow/tensorflow/commit/60cd513b82d7bb17f1992a111226221232c36411) | junwhanahn |
+| 2026-11-15 | [[IFRT] Migrate Client host-buffer cleanup handles to std::shared_ptr<…](https://github.com/tensorflow/tensorflow/commit/11371bd99b78338d466e2ac9f3db54ae15d9fdf1) | junwhanahn |
+| 2026-11-15 | [[IFRT] Return nullopt from Layout::ByteSize for non-fixed-size dtypes…](https://github.com/tensorflow/tensorflow/commit/f83cb027ac866c12dee71220e66752234978d592) | junwhanahn |
+| 2026-11-15 | [[IFRT] Expand implementation conformance tests and reject negative sl…](https://github.com/tensorflow/tensorflow/commit/c4b83fe7e06fe639d6e99c9cea5aec7097c3051c) | junwhanahn |
+| 2026-11-15 | [Set matching_files_dataset_test to medium size and 7 shards to preven…](https://github.com/tensorflow/tensorflow/commit/9417b73895fc2c9224bdad8f556db4d178bce700) | dmiltr3 |
+| 2026-11-15 | [[PjRt-IFRT] Validate host buffer, addressability, and `byte_strides` …](https://github.com/tensorflow/tensorflow/commit/1e50b19dc8d2fdc0ec9fd595b0e36111c46f02f4) | hyeontaek |
+| 2026-11-14 | [[PjRt-IFRT] Migrate BasicStringArray::OnDoneWithBuffer to std::shared…](https://github.com/tensorflow/tensorflow/commit/c35bf04829f308e63414087c27c39ff118b617c5) | junwhanahn |
+| 2026-11-14 | [In `PartitionConvolutionWithSpatialDimensionHaloExchangeOnLHS`, `Halo…](https://github.com/tensorflow/tensorflow/commit/90336aea18c13d231ad91c3b80ced41393781b43) | SamGinzburg |
+| 2026-11-14 | [[tfcompile] Emit direct shared RngState calls in AOT codegen](https://github.com/tensorflow/tensorflow/commit/89799bc471871f47f51a7d33208426b9b5079a53) | majnemer |
+| 2026-11-14 | [Avoid redundant XNNPACK weight cache reloads and partition build steps.](https://github.com/tensorflow/tensorflow/commit/1b4ddd1b6442300c1e5760eb4cc95fb4c489c56b) | jdduke |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

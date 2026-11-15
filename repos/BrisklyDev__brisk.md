@@ -40,7 +40,7 @@
 > _No notes._
 
 ### [v2.5.0.flatpak](https://github.com/BrisklyDev/brisk/releases/tag/v2.5.0.flatpak)
-<sub>2026-11-11 · 2d ago</sub>
+<sub>2026-11-11 · 3d ago</sub>
 
 > _No notes._
 

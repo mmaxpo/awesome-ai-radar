@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 149.4k |
+| ⭐ **Stars** | 149.7k |
 | 🍴 **Forks** | 15.8k |
-| 🐞 **Open issues + PRs** | [83](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
+| 🐞 **Open issues + PRs** | [86](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
 | 💻 **Languages** | Python 80% · TypeScript 8% · JavaScript 7% · HTML 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-skills` `antigravity` `claude` `claude-code` `command-line` `copilot` `cursor-ai` `html5` `kiro` `landing-page` `mobile-ui` `react` `tailwindcss` `ui-design` `uikit` `windsurf-ai` `codex` `qoder` `trae` |

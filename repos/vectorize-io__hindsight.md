@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.0k |
+| ⭐ **Stars** | 61.1k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [232](https://github.com/vectorize-io/hindsight/issues) |
+| 🐞 **Open issues + PRs** | [235](https://github.com/vectorize-io/hindsight/issues) |
 | 💻 **Languages** | Python 70% · TypeScript 17% · MDX 9% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2025-10-30 |
 | 📦 **Latest release** | [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 823.2 MB |
+| 💾 **Size** | 823.4 MB |
 | 🌐 **Website** | https://hindsight.vectorize.io/ |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 11d ago</sub>
+<sub>2026-11-03 · 12d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935

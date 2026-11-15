@@ -20,28 +20,28 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 17.0k |
-| 🍴 **Forks** | 306 |
-| 🐞 **Open issues + PRs** | [162](https://github.com/experientiallabs/experiential/issues) |
-| 💻 **Languages** | Python 84% · Rust 14% |
+| ⭐ **Stars** | 17.1k |
+| 🍴 **Forks** | 308 |
+| 🐞 **Open issues + PRs** | [166](https://github.com/experientiallabs/experiential/issues) |
+| 💻 **Languages** | Python 85% · Rust 14% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-06-24 |
 | 📦 **Latest release** | [exp-code-v0.1.7](https://github.com/experientiallabs/experiential/releases/tag/exp-code-v0.1.7) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 105.5 MB |
+| 💾 **Size** | 105.9 MB |
 | 🌐 **Website** | https://experientiallabs.ai |
 
 ## 📦 Recent releases
 
 ### [exp-code-v0.1.7](https://github.com/experientiallabs/experiential/releases/tag/exp-code-v0.1.7) — exp-code 0.1.7
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > exp-code 0.1.7: the open-source coding and cowork agent (agent/). The sandbox runner is attached as one self-contained file with its sha256.
 
 ### [exp-code-v0.1.6](https://github.com/experientiallabs/experiential/releases/tag/exp-code-v0.1.6) — exp-code 0.1.6
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > exp-code 0.1.6: the open-source coding and cowork agent (agent/). The sandbox runner is attached as one self-contained file with its sha256.
 
@@ -56,7 +56,7 @@
 > exp-code 0.1.4: the open-source coding and cowork agent (agent/). The sandbox runner is attached as one self-contained file with its sha256.
 
 ### [exp-code-v0.1.3](https://github.com/experientiallabs/experiential/releases/tag/exp-code-v0.1.3) — exp-code 0.1.3
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > exp-code 0.1.3: the open-source coding and cowork agent (agent/). The sandbox runner is attached as one self-contained file with its sha256.
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [release: 0.7.245 (native 0.3.190) (#1375)](https://github.com/experientiallabs/experiential/commit/bb9cca9c816e8f768d0c830d52f49c5d99247870) | SilenNaihin |
+| 2026-11-15 | [gateway(gemini): review follow-ups after #1362 (own-field errors, inc…](https://github.com/experientiallabs/experiential/commit/14ec8dfa21a907be4ff41803389522617e13f78d) | SilenNaihin |
+| 2026-11-14 | [release: 0.7.244 (#1369)](https://github.com/experientiallabs/experiential/commit/3e699d692101d8d797760fe9fdf6651b0f56f08d) | SilenNaihin |
+| 2026-11-14 | [messages: serve per-message effort system turns instead of a 400 (#1368)](https://github.com/experientiallabs/experiential/commit/70c3ab251d3ae2b83203dc63e4e549a33130d91e) | SilenNaihin |
 | 2026-11-14 | [release: 0.7.243 (#1367)](https://github.com/experientiallabs/experiential/commit/1e6162af8f8910b841389ec8cfdad3dace1ee112) | SilenNaihin |
 | 2026-11-14 | [gateway: read an explicit null on optional response_format, tools and…](https://github.com/experientiallabs/experiential/commit/362dcce42d63198edce8d012c51fe93aeac9cd37) | SilenNaihin |
 | 2026-11-14 | [release: 0.7.242 (native 0.3.189) (#1360)](https://github.com/experientiallabs/experiential/commit/fbe24cc80993e8f97fe5425bd15c406921fd3202) | SilenNaihin |
 | 2026-11-14 | [gateway: native Google Gemini API surface (/v1beta generateContent) (…](https://github.com/experientiallabs/experiential/commit/0e194d0562473b7cd46deefe6f2c4bf5cf68e0b9) | SilenNaihin |
 | 2026-11-13 | [exp-code 0.1.7: exp-code login, logout and whoami (#1361)](https://github.com/experientiallabs/experiential/commit/2a5889e341ff2c852d004c399e12a680fbe2ca44) | SilenNaihin |
 | 2026-11-13 | [gateway: probe a hintless throttle window instead of refusing a lone …](https://github.com/experientiallabs/experiential/commit/7fc06c03ce62276758cdc59171916e5a9401ab0e) | SilenNaihin |
-| 2026-11-13 | [audit: ignore tornado GHSA-5cjw-f85j-cv6r with its capture-only sibli…](https://github.com/experientiallabs/experiential/commit/ea06765b0816d68e5c2f96de1bd7ad6653379da4) | SilenNaihin |
-| 2026-11-13 | [exp-code 0.1.6: tag each model call with its conversation and turn (#…](https://github.com/experientiallabs/experiential/commit/485af57e302d9ed04ae8cce4aa672a5a417e33fe) | SilenNaihin |
-| 2026-11-13 | [release: 0.7.241 (native 0.3.188) (#1356)](https://github.com/experientiallabs/experiential/commit/ce50e43929bbd48bc89eefb0c7b4fe6784e8e721) | SilenNaihin |
-| 2026-11-13 | [gateway: accept Responses reasoning.summary on Chat as a disclosed no…](https://github.com/experientiallabs/experiential/commit/20e7761084262dd7b6032f38c13e661bd947c20a) | SilenNaihin |
 
 [See all commits ↗](https://github.com/experientiallabs/experiential/commits)
 

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 57.6k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [13](https://github.com/zylon-ai/private-gpt/issues) |
+| 🐞 **Open issues + PRs** | [14](https://github.com/zylon-ai/private-gpt/issues) |
 | 💻 **Languages** | Python 87% · HTML 9% · MDX 3% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-tools` `on-premise` |

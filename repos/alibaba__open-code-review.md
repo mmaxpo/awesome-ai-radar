@@ -20,23 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 51.2k |
-| 🍴 **Forks** | 3.8k |
-| 🐞 **Open issues + PRs** | [339](https://github.com/alibaba/open-code-review/issues) |
+| ⭐ **Stars** | 51.7k |
+| 🍴 **Forks** | 4.0k |
+| 🐞 **Open issues + PRs** | [343](https://github.com/alibaba/open-code-review/issues) |
 | 💻 **Languages** | Go 70% · JavaScript 12% · TypeScript 9% · Kotlin 5% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-05-18 |
-| 📦 **Latest release** | [v1.13.9](https://github.com/alibaba/open-code-review/releases/tag/v1.13.9) — 2026-11-13 |
+| 📦 **Latest release** | [v1.13.10](https://github.com/alibaba/open-code-review/releases/tag/v1.13.10) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 53.6 MB |
+| 💾 **Size** | 53.7 MB |
 | 🌐 **Website** | https://open-codereview.ai |
 
 ## 📦 Recent releases
 
+### [v1.13.10](https://github.com/alibaba/open-code-review/releases/tag/v1.13.10)
+<sub>2026-11-15 · today</sub>
+
+> **🚀 Features**
+> - feat(review): default --to to HEAD when only --from is given (#1936)
+> - feat(cli): render Markdown summaries and style progress output (#1927)
+> - feat(review): support --resume for workspace mode (#1922)
+> - feat(workspace): support comparison-side code access (#1915)
+> **Full Changelog**: https://github.com/alibaba/open-code-review/compare/v1.13.9...v1.13.10
+
 ### [v1.13.9](https://github.com/alibaba/open-code-review/releases/tag/v1.13.9)
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **🚀 Features**
 > - feat(manifest): record excluded files in run coverage (#1901)
@@ -47,7 +57,7 @@
 > …
 
 ### [v1.13.8](https://github.com/alibaba/open-code-review/releases/tag/v1.13.8)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **🚀 Features**
 > - feat(tools): support reading both comparison sides (#1903)
@@ -58,7 +68,7 @@
 > …
 
 ### [v1.13.7](https://github.com/alibaba/open-code-review/releases/tag/v1.13.7)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > **🚀 Features**
 > - feat(scan): gate PLAN_TASK on file size (#1252)
@@ -69,7 +79,7 @@
 > …
 
 ### [v1.13.6](https://github.com/alibaba/open-code-review/releases/tag/v1.13.6)
-<sub>2026-11-05 · 9d ago</sub>
+<sub>2026-11-05 · 10d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): showcase supported model providers (#1862)
@@ -79,21 +89,11 @@
 > - fix(llm): preserve explicit false stream override (#1531)
 > …
 
-### [v1.13.5](https://github.com/alibaba/open-code-review/releases/tag/v1.13.5)
-<sub>2026-11-03 · 11d ago</sub>
-
-> **🚀 Features**
-> - feat(allowlist): add HAML, Slim and ERB template support (#1552)
-> - feat(allowlist): review .jsonc files (#1801)
-> - feat(allowlist): add EJS, Liquid and Nunjucks template support (#1553)
-> - feat(rules): add Scala-specific review rules (#1095)
-> **🐛 Bug Fixes**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [feat(review): default --to to HEAD when only --from is given (#1936)](https://github.com/alibaba/open-code-review/commit/7e5ce06c88de5ce81df5dc4f24e2e485b517fae8) | Walternater |
 | 2026-11-14 | [feat(cli): render Markdown summaries and style progress output (#1927)](https://github.com/alibaba/open-code-review/commit/d77d70b371c1b5526836d162029d6fb85e3ce4e0) | lizhengfeng101 |
 | 2026-11-14 | [feat(review): support --resume for workspace mode (#1922)](https://github.com/alibaba/open-code-review/commit/94893d927aca429fa94b89a9f849c1fdd6a18afd) | Walternater |
 | 2026-11-14 | [feat(workspace): support comparison-side code access (#1915)](https://github.com/alibaba/open-code-review/commit/abd6416e6faec64e00af170a74633e34d56ab467) | lizhengfeng101 |
@@ -103,7 +103,6 @@
 | 2026-11-12 | [fix(session): emit [] instead of null from session list --json (#1742)](https://github.com/alibaba/open-code-review/commit/6386895e7cfac419bd7a9cf4795e8b824a6e3ced) | castorhrio |
 | 2026-11-12 | [fix(tools): enforce per-request tool declarations (#1841)](https://github.com/alibaba/open-code-review/commit/43638b5c503233910639d8c24d646cfb76d2cc25) | chaojixinren |
 | 2026-11-12 | [docs(rules): put the rule table back in matching order, and hold it t…](https://github.com/alibaba/open-code-review/commit/1d7cc448200eebe3fb710834c0e7b8d04b63f77b) | abhisheksharma2411 |
-| 2026-11-12 | [feat(tools): support reading both comparison sides (#1903)](https://github.com/alibaba/open-code-review/commit/4236c871fe8130aa840a2a1c0922f469e87e0416) | lizhengfeng101 |
 
 [See all commits ↗](https://github.com/alibaba/open-code-review/commits)
 

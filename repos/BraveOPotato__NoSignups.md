@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 4.6k |
 | 🍴 **Forks** | 264 |
-| 🐞 **Open issues + PRs** | [979](https://github.com/BraveOPotato/NoSignups/issues) |
+| 🐞 **Open issues + PRs** | [983](https://github.com/BraveOPotato/NoSignups/issues) |
 | 💻 **Languages** | TypeScript 61% · CSS 27% · Python 10% · HTML 1% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | — |

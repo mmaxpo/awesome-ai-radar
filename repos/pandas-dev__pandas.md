@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 50.5k |
 | 🍴 **Forks** | 20.7k |
-| 🐞 **Open issues + PRs** | [1.9k](https://github.com/pandas-dev/pandas/issues) |
+| 🐞 **Open issues + PRs** | [1.8k](https://github.com/pandas-dev/pandas/issues) |
 | 💻 **Languages** | Python 91% · Cython 6% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `data-analysis` `pandas` `flexible` `alignment` `python` `data-science` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 414.2 MB |
+| 💾 **Size** | 413.2 MB |
 | 🌐 **Website** | https://pandas.pydata.org |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [ENH: future.python_scalars for __array_ufunc__ (#72115)](https://github.com/pandas-dev/pandas/commit/9b9be6d5b979cb984b765026158587c478a9a6f4) | rhshadrach |
+| 2026-11-15 | [DOC: Require pandas-review self-review for AI-assisted PRs (#70954)](https://github.com/pandas-dev/pandas/commit/aa74cd30dcbd53816f451b1bb76f658a4fff6cff) | jbrockmendel |
+| 2026-11-15 | [BUG: DataFrame.loc with a list of partial tuples on a MultiIndex (GH#…](https://github.com/pandas-dev/pandas/commit/ab0f0ab2d4b726b8c6c7a059cf24e5848c18b5d0) | jbrockmendel |
+| 2026-11-15 | [DEPR: non-native byteorder in Series/DataFrame/Index construction (GH…](https://github.com/pandas-dev/pandas/commit/4d7eab147d9412337fdad32ac38d2b169340db20) | jbrockmendel |
+| 2026-11-15 | [BUG: DataFrame.join with a list upcasting kept columns (GH#28269) (#7…](https://github.com/pandas-dev/pandas/commit/e0b4b5904b655b31a4545993952ccf89c4546343) | jbrockmendel |
+| 2026-11-15 | [BUG: cut with nullable/pyarrow integers above 2**53 (GH#31389) (#72083)](https://github.com/pandas-dev/pandas/commit/debd4a7671532a4d6b671f6b5fc065e909dfe38a) | jbrockmendel |
+| 2026-11-14 | [PERF: BaseMaskedArray._where with a same-dtype masked value (#72118)](https://github.com/pandas-dev/pandas/commit/99cc00d91e491d361393deea40447f66e3339ea4) | fangchenli |
+| 2026-11-14 | [TST: read_parquet with dtype_backend="pyarrow" for a list of structs …](https://github.com/pandas-dev/pandas/commit/405828a8a0fa31966efd8e219d190c8a4cccb50f) | hatemadi15 |
 | 2026-11-14 | [ENH: Unbox scalars from Index.min/max on EAs under future.python_scal…](https://github.com/pandas-dev/pandas/commit/ac3e45f758b847be1bb80f5aadaffcd904ac1a91) | rhshadrach |
 | 2026-11-14 | [ENH: Unbox scalars from EA frame reductions under future.python_scala…](https://github.com/pandas-dev/pandas/commit/0d932715c57aa186bcb6a8e6685e5817f11f9eed) | rhshadrach |
-| 2026-11-14 | [TST: boolean ufunc with out ignores masked values (GH#42303) (#72100)](https://github.com/pandas-dev/pandas/commit/c590aa7838bcfb472bce3d193f493cac166afaae) | zeyadrabie |
-| 2026-11-13 | [API: make bool[pyarrow] arithmetic match numpy/masked bools (GH#63064…](https://github.com/pandas-dev/pandas/commit/039a4f7a5207fcd41ab4699b49b4abf701e3bc26) | jbrockmendel |
-| 2026-11-13 | [BUG: read_csv true_values ignored for boolean EAs other than BooleanD…](https://github.com/pandas-dev/pandas/commit/0d4d199e5be5927c3369c6fbda5e1f6c2eb5fa8d) | jbrockmendel |
-| 2026-11-13 | [BUG: treat NaN as missing in a str list passed to ArrowDtype (GH#6457…](https://github.com/pandas-dev/pandas/commit/c1cc047cfede6271a49491e813a60bb2b05cc3ab) | jbrockmendel |
-| 2026-11-13 | [DEPR: DataFrame.agg with a callable producing a DataFrame (GH#49673) …](https://github.com/pandas-dev/pandas/commit/28f4539a08e1bbfe5ed61203f2c7897eff558dd1) | jbrockmendel |
-| 2026-11-13 | [DOC: explain that a multiplied Period freq does not bin timestamps (G…](https://github.com/pandas-dev/pandas/commit/ff36f3782158e049f6ab1d1889666b9d53cbee6a) | jbrockmendel |
-| 2026-11-13 | [BUG: drop with a bytes or __getitem__-only label (GH#11740) (#72039)](https://github.com/pandas-dev/pandas/commit/f3ac88afebf835ad00f96ec1196045c794234f43) | jbrockmendel |
-| 2026-11-13 | [ENH: Python fallback for groupby cumulative ops (GH#49758) (#72073)](https://github.com/pandas-dev/pandas/commit/f1aaba400a372459303f4e9a8233a247520b3498) | jbrockmendel |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

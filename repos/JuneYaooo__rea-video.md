@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.5k |
-| 🍴 **Forks** | 1.2k |
-| 🐞 **Open issues + PRs** | [4](https://github.com/JuneYaooo/rea-video/issues) |
+| ⭐ **Stars** | 8.9k |
+| 🍴 **Forks** | 1.3k |
+| 🐞 **Open issues + PRs** | [5](https://github.com/JuneYaooo/rea-video/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai-video` `aigc-detection` `claude-code` `codex` `ffmpeg` `prompt-engineering` `remotion` `reverse-engineering` `short-video` `shot-detection` `subtitles` `video-analysis` `video-breakdown` `video-editing` `video-generation` `vlm` `videomd` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-10-29 |
 | 📦 **Latest release** | [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 153.2 MB |
+| 💾 **Size** | 153.5 MB |
 | 🌐 **Website** | https://www.reavideo.ai/ |
 
 ## 📦 Recent releases
@@ -50,6 +50,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Tighten motion drive detection and caption erasing](https://github.com/JuneYaooo/rea-video/commit/ebe853e330d63719a1f91754f789647c515eac19) | JuneYaooo |
+| 2026-11-15 | [Motion drive for dance and action shots](https://github.com/JuneYaooo/rea-video/commit/5b09832ab64c334045b99aaaeb8207e86da765e8) | JuneYaooo |
 | 2026-11-14 | [Point multi-episode dramas to rea-toon in FAQ](https://github.com/JuneYaooo/rea-video/commit/751596967f58b8949124d291e59bdc40fc04486e) | JuneYaooo |
 | 2026-11-14 | [Keep local notes out of the repo](https://github.com/JuneYaooo/rea-video/commit/fe67e634f085c1a2360b610e1bf6154ab58bd6c9) | JuneYaooo |
 | 2026-11-14 | [Keep tests local](https://github.com/JuneYaooo/rea-video/commit/a01deeef423f4dbe1e7bcc399d2a7d864c951a7d) | JuneYaooo |
@@ -58,8 +60,6 @@
 | 2026-11-14 | [Merge pull request #45 from Choihello/feat/korean-ocr](https://github.com/JuneYaooo/rea-video/commit/d9659f6a8cd8056c1032dfaaab93421e08fe6714) | JuneYaooo |
 | 2026-11-14 | [README: Star History](https://github.com/JuneYaooo/rea-video/commit/ce1c4c1ebf95172376742cb784d35f005a84f436) | JuneYaooo |
 | 2026-11-14 | [Add --ocr-lang ko: Korean subtitle OCR](https://github.com/JuneYaooo/rea-video/commit/f95101621590684bded7b72d7895bc2925b91534) | Choihello |
-| 2026-11-14 | [README: remove Star History for now](https://github.com/JuneYaooo/rea-video/commit/124343f8acd09f2ae2e0ea4612a8d7512de4988d) | JuneYaooo |
-| 2026-11-14 | [Write the code remake's text from the breakdown](https://github.com/JuneYaooo/rea-video/commit/f5c8b450f9eefa9757462a1febe63eb5d52ccf4f) | JuneYaooo |
 
 [See all commits ↗](https://github.com/JuneYaooo/rea-video/commits)
 

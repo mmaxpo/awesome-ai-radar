@@ -30,7 +30,7 @@
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 328.6 MB |
+| 💾 **Size** | 328.7 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 17d ago</sub>
+<sub>2026-10-27 · 18d ago</sub>
 
 > **Changelog**
 > **New Features:**

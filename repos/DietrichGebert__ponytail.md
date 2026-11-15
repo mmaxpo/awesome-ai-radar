@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 190.8k |
+| ⭐ **Stars** | 191.2k |
 | 🍴 **Forks** | 10.7k |
-| 🐞 **Open issues + PRs** | [235](https://github.com/DietrichGebert/ponytail/issues) |
+| 🐞 **Open issues + PRs** | [238](https://github.com/DietrichGebert/ponytail/issues) |
 | 💻 **Languages** | JavaScript 49% · Python 25% · TypeScript 25% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `claude` `claude-code` `claude-code-plugin` `cursor-rules` `developer-tools` `llm` `prompt-engineering` `yagni` |
-| 🕒 **Last activity** | 2026-10-29 (16d ago) |
+| 🕒 **Last activity** | 2026-10-29 (17d ago) |
 | 📅 **Created** | 2026-06-12 |
 | 📦 **Latest release** | [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3)
-<sub>2026-10-29 · 16d ago</sub>
+<sub>2026-10-29 · 17d ago</sub>
 
 > This one cleans up the band. On Team, Enterprise and managed machines the warning on your first prompt is gone, and the band shows your model and session name again. In VS Code it stays on one line, other plugins' commands no longer print under ponytail's name, and the noisy "duplicate?" hint is gone.
 > **What's Changed**
@@ -45,7 +45,7 @@
 > …
 
 ### [v5.3.2](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.2)
-<sub>2026-10-16 · 28d ago</sub>
+<sub>2026-10-16 · 29d ago</sub>
 
 > Ponytail 5.3.2 brings your old sessions to the board. `/ponytail band import` reads your past Claude Code sessions once and adds them with their cost, agent time and tokens, so you can compare them with today's. The board also shows which model each session used.
 > **What's Changed**
@@ -65,7 +65,7 @@
 > …
 
 ### [v5.3.0](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.0)
-<sub>2026-10-16 · 29d ago</sub>
+<sub>2026-10-16 · 1mo ago</sub>
 
 > Ponytail 5.3 puts a band above the Claude Code prompt: what the current task costs, its tokens and agent time, how much existing code it reused, and whether the tests still pass. One click opens the board, a local page with every task across your projects and a card to share. Everything stays on your machine by default, `/ponytail band` hides it, and it needs Claude Code 2.1.290 or later.
 > ![The ponytail band in Claude Code](https://raw.githubusercontent.com/DietrichGebert/ponytail/v5.3.0/assets/band/band.png)

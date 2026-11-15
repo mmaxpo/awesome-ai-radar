@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 105.5k |
 | 🍴 **Forks** | 30.7k |
-| 🐞 **Open issues + PRs** | [18.2k](https://github.com/pytorch/pytorch/issues) |
+| 🐞 **Open issues + PRs** | [18.3k](https://github.com/pytorch/pytorch/issues) |
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1679.7 MB |
+| 💾 **Size** | 1678.2 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.12.1](https://github.com/pytorch/pytorch/releases/tag/v2.12.1) — PyTorch 2.12.1 Release, bug fix release
-<sub>2026-06-18 · 4mo ago</sub>
+<sub>2026-06-18 · 5mo ago</sub>
 
 > This release is meant to fix the following regressions and silent correctness issues:
 > **Regression fixes**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [[headeronly] migrate complex_math (#195021)](https://github.com/pytorch/pytorch/commit/1dcfb27239b3682a375f49580550b2e9866a2180) | cleonard530 |
+| 2026-11-15 | [[inductor] Decompose small-k topk into fused argmax-and-remove rounds…](https://github.com/pytorch/pytorch/commit/48f1cea6cf0a29cf83612fb05c11f183e06a3554) | anijain2305 |
+| 2026-11-15 | [[torchtitan hash update] update the pinned torchtitan hash (#204949)](https://github.com/pytorch/pytorch/commit/25c92ea46bfc7eb42b8770672d38aa65340515e7) | pytorchupdatebot |
+| 2026-11-14 | [[CUDA] Reuse cuSOLVER workspaces across batched QR loops (#204826)](https://github.com/pytorch/pytorch/commit/c79633996ebc2114482ae5a4ff3cb409d79a8a9c) | Skylion007 |
+| 2026-11-14 | [[c10d][nccl2] Don't block the current stream in WorkNCCL::getFuture()…](https://github.com/pytorch/pytorch/commit/04fe0974900dc7034a4b27ed4c74afe464fe133e) | chinmaydk99 |
+| 2026-11-14 | [Invalidate caches after axiom growth (#203253)](https://github.com/pytorch/pytorch/commit/db2cd613fff79fb9a5fc28a3a7040110f49e5093) | laithsakka |
 | 2026-11-14 | [[decomp] add `aten._trilinear` decomposition (#202958)](https://github.com/pytorch/pytorch/commit/e63b330cbcbcc136d3aab1895a183579dbb80dde) | khushi-411 |
 | 2026-11-14 | [Revert "[inductor] Decompose small-k topk into fused argmax-and-remov…](https://github.com/pytorch/pytorch/commit/290c13bd58a2d0a81e7e644e2eb57107bb6dccce) | pytorchmergebot |
 | 2026-11-14 | [Build Windows MAGMA for CUDA 13.5 (#204828)](https://github.com/pytorch/pytorch/commit/242a9cf0e013551eaada7827cfff1aa8d293dfb1) | atalman |
 | 2026-11-14 | [Revert "[aotautograd] Don't recompute reads of forward-mutated inputs…](https://github.com/pytorch/pytorch/commit/4390b847545f99e9f95d36346482c42d856cea99) | pytorchmergebot |
-| 2026-11-14 | [[compile] fix complex foreach inputs (#201839)](https://github.com/pytorch/pytorch/commit/7bfdc24bc8deebbe7cc64c42488c6af92a6d674a) | khushi-411 |
-| 2026-11-14 | [[ROCm][TunableOp] Include activation epilogue in GemmAndBiasParams si…](https://github.com/pytorch/pytorch/commit/a2cf87e07e05677d63975102843f82656633786a) | menglcai |
-| 2026-11-14 | [[inductor] Decompose small-k topk into fused argmax-and-remove rounds…](https://github.com/pytorch/pytorch/commit/f627724fb5e7c6987da31701b1b5552d3673439f) | anijain2305 |
-| 2026-11-14 | [[inductor] Don't let reads broadcast along the reduction vote OUTER i…](https://github.com/pytorch/pytorch/commit/e4369d6d1a1ac759108f8bde0c55d906bb81ea9e) | anijain2305 |
-| 2026-11-14 | [[Testcase Refactoring] Refactor test_minifier.py and test_dynamic_sha…](https://github.com/pytorch/pytorch/commit/f7ba74e4c9e19455c8e530d7df581e5506914e3c) | littlexiaozhang |
-| 2026-11-14 | [[CPP FakeTensor] Convert or reject non-fake inputs in the native fall…](https://github.com/pytorch/pytorch/commit/77533284cb528b0f9e4a12f1515f99b33ef958be) | liangel-02 |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

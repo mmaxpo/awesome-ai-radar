@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 39.7k |
+| ⭐ **Stars** | 39.6k |
 | 🍴 **Forks** | 3.7k |
 | 🐞 **Open issues + PRs** | [16](https://github.com/The-Vibe-Company/quivr/issues) |
 | 💻 **Languages** | Go 55% · Python 26% · TypeScript 7% · MDX 6% · JavaScript 3% |
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.0.1](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.1)
-<sub>2026-10-30 · 15d ago</sub>
+<sub>2026-10-30 · 16d ago</sub>
 
 > **Quivr 2.0.1**
 > 2.0.1 is a security release. It changes no API, no configuration and no stored data. Upgrade any 2.0.0 installation to it.

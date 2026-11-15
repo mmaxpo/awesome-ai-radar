@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 4.9k |
-| 🍴 **Forks** | 680 |
+| ⭐ **Stars** | 5.0k |
+| 🍴 **Forks** | 683 |
 | 🐞 **Open issues + PRs** | [16](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 61% · C 21% · Go 9% · C++ 4% · Python 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `airplay` `automation` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `dsh-plugin` `claude-code` `ios` `ios-automation` `mcp` `mcp-server` `mobile-agent` `phone-agent` `screen-mirroring` `seeed-xiao` `xiao-esp32s3` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-10-11 |
 | 📦 **Latest release** | [v1.0.5](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.5) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.4 MB |
+| 💾 **Size** | 18.1 MB |
 | 🌐 **Website** | https://handsy.tech?ref=github |
 
 ## 📦 Recent releases
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-14 | [test(ios): open the yellow step before looking for Unsure (#159)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/d9b6febe104f8aa8919eb514805f4736a1b76602) | onehumanbeing |
 | 2026-11-14 | [fix(ios): keep demo data out from under the firmware sheet (#158)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/77b6f5a9cbe21e1c7249440265e6ff9e7df77c8a) | onehumanbeing |
 | 2026-11-14 | [Startup: say why the board isn't this iPhone's input, retry the strea…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/ce49d0c9311b5b3741c7a14293d804b7ed233235) | onehumanbeing |
 | 2026-11-14 | [fix(cli): update tinygo bluetooth to v0.17.0 so the Windows scan find…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/5d4061ee75adfbcc54bca136f9a50af04b5df700) | HenriqueBueno |
@@ -103,7 +104,6 @@
 | 2026-11-12 | [Changelog 1.0.5: intents improve themselves (#151)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/788d9f16afd3b9b71772ec8bdd3e01fb834bb5d2) | onehumanbeing |
 | 2026-11-12 | [Agent fixes: open apps by code, Chinese/accented typing, tap verdict,…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/1e16a02fdefcc8a358badf26d95ee56f49718561) | onehumanbeing |
 | 2026-11-12 | [Firmware 0.2.5: lost video packets reported, press_for, result, net w…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/119801dd98757a3133d9d78b788e6a527fd6653b) | onehumanbeing |
-| 2026-11-10 | [test(ios): inject the Keychain so the key tests also run in CI (#143)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/5a4fddfbb1f2ce25fee9de816f93259ec5e3b9fa) | djs-91 |
 
 [See all commits ↗](https://github.com/onehumanbeing/esp32-iphone-agent/commits)
 

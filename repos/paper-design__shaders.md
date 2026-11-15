@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.0k |
-| 🍴 **Forks** | 176 |
+| 🍴 **Forks** | 178 |
 | 🐞 **Open issues + PRs** | [16](https://github.com/paper-design/shaders/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |

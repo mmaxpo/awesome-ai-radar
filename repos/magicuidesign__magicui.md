@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 23.3k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [9](https://github.com/magicuidesign/magicui/issues) |
+| 🐞 **Open issues + PRs** | [7](https://github.com/magicuidesign/magicui/issues) |
 | 💻 **Languages** | MDX 77% · TypeScript 23% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `framer-motion` `nextjs` `react` `tailwindcss` `typescript` `components` `shadcn-ui` |

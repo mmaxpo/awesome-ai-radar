@@ -26,11 +26,11 @@
 | 💻 **Languages** | TypeScript 92% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `artificial-intelligence` `llm` `chatgpt` `claude-ai` `cli` `developer-tools` `gpt` `openai` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2024-03-13 |
 | 📦 **Latest release** | [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 647.0 MB |
+| 💾 **Size** | 645.5 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > **1.38.0 (2026-11-10)**
 > **What's Changed**
@@ -80,7 +80,7 @@
 > …
 
 ### [pr19394-evidence](https://github.com/OpenHands/OpenHands/releases/tag/pr19394-evidence) — PR #19394 evidence (temporary)
-<sub>2026-11-05 · 8d ago</sub>
+<sub>2026-11-05 · 9d ago</sub>
 
 > Temporary evidence assets for OpenHands/OpenHands#19394. Browser click-through of automation setup dead ends and decoded PostHog automation_setup_blocked payloads. This release is evidence storage only and can be deleted after PR review.
 > **macOS install note**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [chore(deps): bump lucide-react from 1.69.0 to 1.70.0 (#19760)](https://github.com/OpenHands/OpenHands/commit/951dcf29ac076d009ba2fc9e3d693d63c2823e7f) | dependabot[bot] |
+| 2026-11-15 | [chore(deps): bump downshift from 9.4.0 to 9.4.1 (#19759)](https://github.com/OpenHands/OpenHands/commit/f6c4cf56ae74c602ed28ec1159a2ea14dcfb35bf) | dependabot[bot] |
+| 2026-11-15 | [fix(mcp): send the browser's backend URL as the MCP OAuth callback ba…](https://github.com/OpenHands/OpenHands/commit/02c438a78ec8b205cfdf9e9822330018241b0510) | neubig |
+| 2026-11-14 | [feat: reuse profile secret consent for automatic managed App enableme…](https://github.com/OpenHands/OpenHands/commit/4bbea81dc73aac76857307000bf9c91329c5f3c3) | neubig |
 | 2026-11-14 | [fix: generate UUIDs without crypto.randomUUID on plain-HTTP non-loopb…](https://github.com/OpenHands/OpenHands/commit/bca403840de709eea0584da19a288be3d705cdc9) | neubig |
 | 2026-11-14 | [feat(analytics): instrument automation setup funnel dead ends (#19394)](https://github.com/OpenHands/OpenHands/commit/e20691d0ef4329a8c0fca7794272cfaf255d3709) | neubig |
 | 2026-11-14 | [refactor(ui): name the catalog remove icon stroke (#19728)](https://github.com/OpenHands/OpenHands/commit/830c0459e2f6056ab81e020c22970e782ae1be75) | enyst |
 | 2026-11-14 | [feat(hooks): name the workspace and user hooks files in the Available…](https://github.com/OpenHands/OpenHands/commit/685eb42ded117ba0321aa8c3019e6677e5474317) | enyst |
 | 2026-11-14 | [chore(deps-dev): bump eslint-plugin-import-x from 4.17.1 to 4.18.0 in…](https://github.com/OpenHands/OpenHands/commit/006373d1aa27b2d8aaaddee028018658be46d55f) | dependabot[bot] |
 | 2026-11-14 | [chore(deps-dev): bump msw from 3.0.3 to 3.0.4 in the testing group (#…](https://github.com/OpenHands/OpenHands/commit/f288ce30e38f498560117aab428335b769bacde0) | dependabot[bot] |
-| 2026-11-14 | [chore(deps): bump the tanstack group with 2 updates (#19733)](https://github.com/OpenHands/OpenHands/commit/864308454359168e21893cb92067d1fc83252e4d) | dependabot[bot] |
-| 2026-11-14 | [chore(deps): bump zustand from 5.0.16 to 5.1.0 (#19737)](https://github.com/OpenHands/OpenHands/commit/d04acba47f927d2bc00603f0501a6385ec8443a5) | dependabot[bot] |
-| 2026-11-14 | [chore(deps): bump vite from 8.3.5 to 8.3.6 (#19736)](https://github.com/OpenHands/OpenHands/commit/33476cf4cd769245e97767bd6287bd8b8dec8ebb) | dependabot[bot] |
-| 2026-11-14 | [chore(deps): bump posthog-js from 1.447.1 to 1.447.3 (#19738)](https://github.com/OpenHands/OpenHands/commit/ac012a19a8f6f64b4e164602ffc7ccdb42c40cfa) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 

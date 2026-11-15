@@ -22,23 +22,34 @@
 |---|---|
 | ⭐ **Stars** | 188.0k |
 | 🍴 **Forks** | 45.9k |
-| 🐞 **Open issues + PRs** | [678](https://github.com/Significant-Gravitas/AutoGPT/issues) |
-| 💻 **Languages** | Python 68% · TypeScript 31% |
+| 🐞 **Open issues + PRs** | [694](https://github.com/Significant-Gravitas/AutoGPT/issues) |
+| 💻 **Languages** | Python 68% · TypeScript 30% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `openai` `python` `artificial-intelligence` `autonomous-agents` `llama-api` `agentic-ai` `agents` `llm` `claude` `gpt` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2023-03-16 |
-| 📦 **Latest release** | [autogpt-platform-beta-v0.11.2](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2) — 2026-11-11 |
+| 📦 **Latest release** | [autogpt-platform-beta-v0.11.3](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.3) — 2026-11-15 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 643.3 MB |
+| 💾 **Size** | 646.2 MB |
 | 🌐 **Website** | https://agpt.co |
 
 ## 📦 Recent releases
 
+### [autogpt-platform-beta-v0.11.3](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.3)
+<sub>2026-11-15 · today</sub>
+
+> **🚀 Release `autogpt-platform-beta-v0.11.3`**
+> **Date:** November 15, 2026
+> ---
+> **🔒 Security**
+> This release fixes several privately reported security issues. We'll publish the advisories once the fixes are live in production.
+> ---
+> …
+
 ### [preview-seed-fixture](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture) — Preview seed fixture (rolling) _(pre-release)_
 <sub>2026-08-06 · 3mo ago</sub>
 
-> Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@6ba94560676d (migration head: 20261112120000_account_deletion_confirmation_skipped). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so schema changes run against populated tables. RESTORE: apply restore-preamble.sql to the target database first (it creates the platform schema and installs the vector + pg_trgm extensions into it, which pg_dump --schema=platform omits), then run 'gunzip -c fixture.dump.gz | pg_restore -d <db> --no-owner' WITHOUT --exit-on-error (the dump's own CREATE SCHEMA collides benignly with the preamble's). SECURITY INVARIANT: this bake holds no cloud credentials and has no read path to any real database — it runs entirely against a throwaway Postgres container and contains only synthetic rows (Faker-generated, plus the hand-written preview marketplace) and the already-public marketplace agent exports checked into autogpt_platform/backend/agents/. This asset is regenerated on every eligible dev push and weekly; treat it as disposable.
+> Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@657153887ea2 (migration head: 20261112120000_account_deletion_confirmation_skipped). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so schema changes run against populated tables. RESTORE: apply restore-preamble.sql to the target database first (it creates the platform schema and installs the vector + pg_trgm extensions into it, which pg_dump --schema=platform omits), then run 'gunzip -c fixture.dump.gz | pg_restore -d <db> --no-owner' WITHOUT --exit-on-error (the dump's own CREATE SCHEMA collides benignly with the preamble's). SECURITY INVARIANT: this bake holds no cloud credentials and has no read path to any real database — it runs entirely against a throwaway Postgres container and contains only synthetic rows (Faker-generated, plus the hand-written preview marketplace) and the already-public marketplace agent exports checked into autogpt_platform/backend/agents/. This asset is regenerated on every eligible dev push and weekly; treat it as disposable.
 
 ### [autogpt-platform-beta-v0.11.2](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2)
 <sub>2026-11-11 · 3d ago</sub>
@@ -52,7 +63,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.1](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.1) — 🚀 AutoGPT Platform v0.11.1
-<sub>2026-11-06 · 8d ago</sub>
+<sub>2026-11-06 · 9d ago</sub>
 
 > **🔥 What's New?**
 > **⚠️ Breaking Changes**
@@ -63,7 +74,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.0) — 🚀 AutoGPT Platform v0.11.0
-<sub>2026-11-04 · 10d ago</sub>
+<sub>2026-11-04 · 11d ago</sub>
 
 > **🔥 What's New?**
 > **⚠️ Breaking Changes**
@@ -73,31 +84,20 @@
 > - **#15853** - LaunchDarkly support is removed and every feature flag is read from PostHog. `LAUNCH_DARKLY_SDK_KEY`, `FEATURE_FLAG_BACKEND`, `NEXT_PUBLIC_LAUNCHDARKLY_ENABLED`, `NEXT_PUBLIC_LAUNCHDARKLY_CLIENT_ID` and `NEXT_PUBLIC_FEATURE_FLAG_BACKEND` are ignored; without PostHog every flag is its default (by @kcze)
 > …
 
-### [autogpt-platform-beta-v0.10.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.10.0) — 🚀 AutoGPT Platform v0.10.0
-<sub>2026-10-27 · 18d ago</sub>
-
-> **🔥 What's New?**
-> **⚠️ Breaking Changes**
-> - **#15970** - Self-hosted Docker Compose generates its own service passwords per install and won't start without them: run `make init-env` (or the installer) before `docker compose up`. PostgreSQL, RabbitMQ, Redis, FalkorDB and ClamAV now listen on `127.0.0.1` only. Existing installs: see [Upgrading: service passwords are generated per install](https://github.com/Significant-Gravitas/AutoGPT/blob/master/docs/platform/getting-started.md#upgrading-service-passwords-are-generated-per-install) (by @ntindle)
-> - **#12206** - External API v1 is deprecated in favour of the new v2, and keeps working until 2027-01-31 (by @Pwuts)
-> **New Features**
-> - **#15990** - Record when each API key was last used (by @ntindle)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [fix(frontend): say when a JSON field holds a number too long to keep …](https://github.com/Significant-Gravitas/AutoGPT/commit/ac4e88888d3838fd5790dff2a85845a654d05024) | 0ubbe |
-| 2026-11-11 | [fix(backend): let a run leave an input blank when Advanced is on (#16…](https://github.com/Significant-Gravitas/AutoGPT/commit/9789d6d655efabea1bc04b1dd726a1c47f51b884) | 0ubbe |
-| 2026-11-11 | [fix(backend): account erasure deletes the account's chats (SECRT-2854…](https://github.com/Significant-Gravitas/AutoGPT/commit/06340e194f3f182b184597dd7dc70a70e49ab015) | kcze |
-| 2026-11-11 | [docs(platform): document every rate limit, and how the Platform finds…](https://github.com/Significant-Gravitas/AutoGPT/commit/b6e79fc245779706d53f3afac60d718afe2bd0b3) | Pwuts |
-| 2026-11-11 | [fix(platform): treat the platform's SDK keys (Firecrawl, DataForSEO, …](https://github.com/Significant-Gravitas/AutoGPT/commit/e6a91ab7bd149743cd2da7760f6fe57f8b3b4270) | Torantulino |
-| 2026-11-11 | [fix(blocks): mark Exa Create Research as an external action (#16707)](https://github.com/Significant-Gravitas/AutoGPT/commit/d4fbbacbeb65f9b94c356a847f3ba29212495c0e) | 0ubbe |
-| 2026-11-11 | [feat(platform): erase closed accounts after #15459's 14 days, keeping…](https://github.com/Significant-Gravitas/AutoGPT/commit/2dbf60b8eca52cb4139980d2955872c8260fc4eb) | kcze |
-| 2026-11-11 | [ci(platform): read the single-container build cache from the final ba…](https://github.com/Significant-Gravitas/AutoGPT/commit/3b661c618d28b4c9ff0b4ec35cd0859612f2bc1c) | Bentlybro |
-| 2026-11-11 | [feat(blocks): let the HubSpot blocks sign in with HubSpot OAuth (#15454)](https://github.com/Significant-Gravitas/AutoGPT/commit/4a0c419cd9725b1b48edb2b3b1068e3c191391cb) | Bentlybro |
-| 2026-11-11 | [fix(backend): an expert run with a failed step reports failed, not co…](https://github.com/Significant-Gravitas/AutoGPT/commit/5c9519b8fe39ea1379ea8efc13132c1ea9401231) | Bentlybro |
+| 2026-11-15 | [fix(backend): stub the new role check in the webhook-preset route tes…](https://github.com/Significant-Gravitas/AutoGPT/commit/657153887ea25aca92014ee713f9ceb344378e74) | ntindle |
+| 2026-11-15 | [Merge commit from fork](https://github.com/Significant-Gravitas/AutoGPT/commit/b05a6296a82c42cfb524f1b022c3d6559f22035b) | ntindle |
+| 2026-11-15 | [Merge commit from fork](https://github.com/Significant-Gravitas/AutoGPT/commit/36b8a54561e720658c09509c25bc42318632ecd3) | ntindle |
+| 2026-11-15 | [Merge commit from fork](https://github.com/Significant-Gravitas/AutoGPT/commit/f2cc414a1d785998872ce7993c45574a212db219) | ntindle |
+| 2026-11-15 | [Merge commit from fork](https://github.com/Significant-Gravitas/AutoGPT/commit/7c75f6640c653289ccb5938771c20d8534045e00) | ntindle |
+| 2026-11-15 | [Merge commit from fork](https://github.com/Significant-Gravitas/AutoGPT/commit/1d641f6e5df2c5e4ae24969b8a565646ec338834) | ntindle |
+| 2026-11-15 | [Merge commit from fork](https://github.com/Significant-Gravitas/AutoGPT/commit/f83734a4318567ce8a01052bacc29fd9d9ca0da9) | ntindle |
+| 2026-11-15 | [Merge commit from fork](https://github.com/Significant-Gravitas/AutoGPT/commit/43017c38b2d3ed2f736d6307e49e6f386b42d8f6) | ntindle |
+| 2026-11-15 | [chore(libs/deps): bump the production-dependencies group across 1 dir…](https://github.com/Significant-Gravitas/AutoGPT/commit/80e02a5e7697b29330159393a31ce5678b76e4cb) | dependabot[bot] |
+| 2026-11-14 | [fix(backend/scheduler): stop skipping runs of agent schedules stored …](https://github.com/Significant-Gravitas/AutoGPT/commit/93d5ab1abbcd5dcdf11432ca9c5af48fa2eb9f32) | Pwuts |
 
 [See all commits ↗](https://github.com/Significant-Gravitas/AutoGPT/commits)
 

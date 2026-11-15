@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.22.0](https://github.com/vercel-labs/json-render/releases/tag/v0.22.0)
-<sub>2026-11-04 · 9d ago</sub>
+<sub>2026-11-04 · 10d ago</sub>
 
 > **New Features**
 > - **Chat SDK renderer:** Added `@json-render/chat` to render specs as Chat SDK cards, so one catalog posts natively on Slack, Teams, and the other Chat SDK platforms. `streamCard` streams a card into a thread and edits it as elements arrive, and `toCard` validates specs against per-component schemas and optional platform limits. State expressions, `visible`, and `repeat` resolve against `spec.state` (#451)
@@ -54,7 +54,7 @@
 > - @bensabic
 
 ### [v0.21.3](https://github.com/vercel-labs/json-render/releases/tag/v0.21.3)
-<sub>2026-10-24 · 21d ago</sub>
+<sub>2026-10-24 · 22d ago</sub>
 
 > **Bug Fixes**
 > - **YAML patch state:** Keep move and copy operations in sync with later YAML edits, isolate copied and emitted values, and bound copy growth (#411)

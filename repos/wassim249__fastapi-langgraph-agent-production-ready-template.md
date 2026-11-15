@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.7k |
-| 🍴 **Forks** | 648 |
+| 🍴 **Forks** | 649 |
 | 🐞 **Open issues + PRs** | [2](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template/issues) |
 | 💻 **Languages** | Python 90% · Shell 6% · Makefile 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `agentic-ai` `docker` `fastapi` `fastapi-template` `langchain` `langchain-python` `langgraph` `langgraph-python` `llm` `memory` |
-| 🕒 **Last activity** | 2026-10-17 (28d ago) |
+| 🕒 **Last activity** | 2026-10-17 (29d ago) |
 | 📅 **Created** | 2025-04-07 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `master` |

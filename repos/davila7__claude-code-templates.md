@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 33.6k |
+| ⭐ **Stars** | 33.7k |
 | 🍴 **Forks** | 4.0k |
-| 🐞 **Open issues + PRs** | [517](https://github.com/davila7/claude-code-templates/issues) |
+| 🐞 **Open issues + PRs** | [520](https://github.com/davila7/claude-code-templates/issues) |
 | 💻 **Languages** | Python 40% · TypeScript 20% · HTML 11% · JavaScript 11% · TeX 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `claude` `claude-code` `agent-skills` `ai-agents` `claude-code-plugins` `cli` `mcp` `registry` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 300.8 MB |
+| 💾 **Size** | 302.0 MB |
 | 🌐 **Website** | https://aitmpl.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [fix(component-page): stop showing a component's date (#1564)](https://github.com/davila7/claude-code-templates/commit/8c9a4a2c4a12a3010a0d26eddd3c40e7cef16af1) | davila7 |
+| 2026-11-15 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/b49cdd91a196e36436517251d038bb1a63ac9dd4) | github-actions[bot] |
+| 2026-11-15 | [dashboard: keep personal accounts out of Organization sameAs (#1563)](https://github.com/davila7/claude-code-templates/commit/217aea5fca9c6f665cb74a72487860ba0a1309d1) | davila7 |
+| 2026-11-15 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/acc46db2dc32b83caf78365ca4c2062ce918e25f) | github-actions[bot] |
+| 2026-11-15 | [Add code-mode setting (CLAUDE_CODE_EXPERIMENTAL_CODE_MODE) (#1562)](https://github.com/davila7/claude-code-templates/commit/c2208fd0fca11c53e665c2a8b4e72fb73732734e) | davila7 |
 | 2026-11-14 | [dashboard: home title from counts.json, richer Organization sameAs (#…](https://github.com/davila7/claude-code-templates/commit/df0832f580ea4864a510eba4031e943d9fe1bab5) | davila7 |
 | 2026-11-14 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/06e607224df7801b50327114852ad82d9967e0a5) | github-actions[bot] |
 | 2026-11-13 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/9b6d5eb86b62f91ef6498227b127d091f2a3b712) | github-actions[bot] |
 | 2026-11-13 | [settings: main-model and advisor settings for the latest Claude model…](https://github.com/davila7/claude-code-templates/commit/5072497d82c2a75514c6fb4b1ed2fc77fe77a852) | davila7 |
 | 2026-11-13 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/44915c477f3d466401c09758f6ccad4a383a93ad) | github-actions[bot] |
-| 2026-11-13 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/ebb1d2aec96b38aff8c6960a43a07398a14db3c4) | github-actions[bot] |
-| 2026-11-13 | [settings: add model/fable-5-2-advisor (Fable 5.2 as the advisor model…](https://github.com/davila7/claude-code-templates/commit/431daa057fe9d8c9157f691938d553e13fd9220a) | davila7 |
-| 2026-11-13 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/820213ce61706770cd81d24899d2f3aa170c8eff) | github-actions[bot] |
-| 2026-11-13 | [feat(agents): rewrite database-architect with tested PostgreSQL rules…](https://github.com/davila7/claude-code-templates/commit/0970a693408b79367b9e5b0042a78d2e1a7c05e3) | davila7 |
-| 2026-11-12 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/82b59de18b544e7269b8b8bd8b09b0ba2ca924a1) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

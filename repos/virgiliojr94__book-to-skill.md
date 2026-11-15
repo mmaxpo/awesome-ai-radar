@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `context-engineering` `document-processing` `edtech` `knowledge-base` `knowledge-management` `llm` `pdf-to-markdown` `rag` `self-study` `study-tools` `book-to-skill` |
-| 🕒 **Last activity** | 2026-11-08 (5d ago) |
+| 🕒 **Last activity** | 2026-11-08 (6d ago) |
 | 📅 **Created** | 2026-05-01 |
 | 📦 **Latest release** | [v1.4.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.4.0) — 2026-08-10 |
 | 🌿 **Default branch** | `master` |
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.2.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.2.0) — v1.2.0 — installable package + multilingual chapter detection
-<sub>2026-06-17 · 4mo ago</sub>
+<sub>2026-06-17 · 5mo ago</sub>
 
 > book-to-skill v1.2.0 turns the project into an installable Python package and makes chapter detection genuinely multilingual.
 > **Highlights**

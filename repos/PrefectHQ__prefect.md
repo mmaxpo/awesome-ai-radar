@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [873](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [866](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 248.8 MB |
+| 💾 **Size** | 248.1 MB |
 | 🌐 **Website** | https://prefect.io |
 
 ## 📦 Recent releases
 
+### [3.9.4.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev2) — 3.9.4.dev2: Nightly Development Release _(pre-release)_
+<sub>2026-11-15 · today</sub>
+
+> **What's Changed**
+> **Bug Fixes 🐞**
+> * Clarify ECS work pool network configuration by @prabhushreyas in https://github.com/PrefectHQ/prefect/pull/23911
+> * fix(ui-v2): make the subflow run count respect the state filter by @Shanmukh-l33t in https://github.com/PrefectHQ/prefect/pull/23912
+> **Documentation 📓**
+> * docs: Add release notes for `prefect-redis==0.3.1` by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23915
+> …
+
 ### [3.9.4.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev1) — 3.9.4.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -47,7 +58,7 @@
 > …
 
 ### [3.9.3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3) — 3.9.3 - `aclose()`ing time
-<sub>2026-11-13 · today</sub>
+<sub>2026-11-13 · yesterday</sub>
 
 > **Enhancements ➕➕**
 > * Add search and ordering to the automations page by [@uinstinct](https://github.com/uinstinct) in [#23048](https://github.com/PrefectHQ/prefect/pull/23048)
@@ -58,7 +69,7 @@
 > …
 
 ### [3.9.3.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3.dev2) — 3.9.3.dev2: Nightly Development Release _(pre-release)_
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -69,7 +80,7 @@
 > …
 
 ### [3.9.3.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.3.dev1) — 3.9.3.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > **What's Changed**
 > **Development & Tidiness 🧹**
@@ -79,31 +90,20 @@
 > * chore(deps): Update dependency pixi-viewport to v7 by @prefect-renovate[bot] in https://github.com/PrefectHQ/prefect/pull/23825
 > …
 
-### [3.9.2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.2) — 3.9.2 - It’s okay to let go of a lock that already let go of you
-<sub>2026-11-06 · 7d ago</sub>
-
-> **3.9.2 - It’s okay to let go of a lock that already let go of you**
-> *Released on November 06, 2026*
-> **Enhancements ➕➕**
-> * Reduce deployment writes from queue polling by [@chuqCTC](https://github.com/chuqCTC) in [#23130](https://github.com/PrefectHQ/prefect/pull/23130)
-> **Bug Fixes 🐞**
-> * Render list-of-lists table artifacts in `ArtifactDataView` by [@devin-ai-integration](https://github.com/devin-ai-integration)[bot] in [#23359](https://github.com/PrefectHQ/prefect/pull/23359)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Quote attachment filenames in email_send_message (#23905)](https://github.com/PrefectHQ/prefect/commit/5460c3a8b23b1a70e810bf521a5433c71070a488) | anishmehta24 |
+| 2026-11-15 | [Sync UI V2 OpenAPI types with the locked schema (#23907)](https://github.com/PrefectHQ/prefect/commit/7633e3ec7acf12d820c995404f65b2d3f3f8189c) | zzstoatzz |
+| 2026-11-15 | [docs: fix ECS work pool network_configuration example key structure (…](https://github.com/PrefectHQ/prefect/commit/ad0ed765da3483bd7cda86fc82fd89b2f5271c18) | devin-ai-integration[bot] |
+| 2026-11-15 | [Document custom work pool defaults with the CLI (#23914)](https://github.com/PrefectHQ/prefect/commit/c784446f70768d62ff23f7026b6e16541e5aacf3) | prabhushreyas |
+| 2026-11-15 | [fix(ui-v2): make the subflow run count respect the state filter (#23912)](https://github.com/PrefectHQ/prefect/commit/7abf97a1d7a077cd7ce50b72a31b706511ecd03f) | Shanmukh-l33t |
+| 2026-11-15 | [Close the V2 sidebar on phones after a link is tapped (#23909)](https://github.com/PrefectHQ/prefect/commit/6932aa746c891c2da7d29e98a637cb1eda24a031) | zzstoatzz |
+| 2026-11-15 | [Center the V2 empty flow run graph message on phones (#23910)](https://github.com/PrefectHQ/prefect/commit/945717e3456e1faa12c60a67e5846c3fa543bdb7) | zzstoatzz |
+| 2026-11-15 | [Clarify ECS work pool network configuration (#23911)](https://github.com/PrefectHQ/prefect/commit/daeaa15af4a8c99da7e40bb347124133fba7e075) | prabhushreyas |
+| 2026-11-14 | [docs: Add release notes for `prefect-redis==0.3.1` (#23915)](https://github.com/PrefectHQ/prefect/commit/c12b3322560bee718479da8968e7af017df2ea33) | devin-ai-integration[bot] |
 | 2026-11-13 | [Update prefect-aws integration pin (#23902)](https://github.com/PrefectHQ/prefect/commit/29241a3aff4ad41bf79ed5782ea4059cb74d0b4d) | prefect-ci-bot-public[bot] |
-| 2026-11-13 | [Fix flaky test_concurrency_context_releases_slots_async (#23891)](https://github.com/PrefectHQ/prefect/commit/f7f89c5a884192406dd33fd1c7ece09072bfb79e) | devin-ai-integration[bot] |
-| 2026-11-13 | [docs: document worker submission bookkeeping contract in workers AGEN…](https://github.com/PrefectHQ/prefect/commit/22747733faa9827a4e53e0e9bb9b9881f6073581) | devin-ai-integration[bot] |
-| 2026-11-13 | [Fix CodSpeed import benchmark timeout and fail the job on benchmark f…](https://github.com/PrefectHQ/prefect/commit/b39bb40ea7ba52e7ce2ee3de7880aecf44081cd2) | devin-ai-integration[bot] |
-| 2026-11-13 | [Bump tornado from 6.6 to 6.6.1 (#23901)](https://github.com/PrefectHQ/prefect/commit/34505b4fd82521ee0525f21804585d25574a5d62) | dependabot[bot] |
-| 2026-11-13 | [docs: document rrule wall-clock timezone contract in server AGENTS.md…](https://github.com/PrefectHQ/prefect/commit/c1bd94996f1835272aa0f937257a2e5d2a9ff030) | devin-ai-integration[bot] |
-| 2026-11-13 | [docs: document ScriptError traceback convention in CLI AGENTS.md (#23…](https://github.com/PrefectHQ/prefect/commit/911a64f7556c1964ce593aa392f694e1163a7ad1) | devin-ai-integration[bot] |
-| 2026-11-13 | [docs: note integrations' reliance on private core engine APIs in AGEN…](https://github.com/PrefectHQ/prefect/commit/73f06799ed9822497a472a9be5c22701afb6237d) | devin-ai-integration[bot] |
-| 2026-11-13 | [docs: note floating aws-cdk-lib release risk in prefect-aws AGENTS.md…](https://github.com/PrefectHQ/prefect/commit/91be1bb01e8d395c3f81cd691520b07a32e6625c) | devin-ai-integration[bot] |
-| 2026-11-13 | [docs: update NormalizedSchedule guidance in server AGENTS.md (#23889)](https://github.com/PrefectHQ/prefect/commit/04eb540298554b13d12c3aa65ff9abfc936907ec) | devin-ai-integration[bot] |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

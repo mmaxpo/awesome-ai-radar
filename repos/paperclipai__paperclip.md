@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 113.9k |
+| ⭐ **Stars** | 114.0k |
 | 🍴 **Forks** | 18.9k |
 | 🐞 **Open issues + PRs** | [6.7k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 3% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0) — 2026-11-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 536.1 MB |
+| 💾 **Size** | 539.5 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 7d ago</sub>
+<sub>2026-11-06 · 8d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -58,7 +58,7 @@
 > …
 
 ### [v2026.1023.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0)
-<sub>2026-10-24 · 21d ago</sub>
+<sub>2026-10-24 · 22d ago</sub>
 
 > **Paperclip v2026.1023.0**
 > > Released: 2026-10-23
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [perf(recovery): stop re-asserting a failed legacy run whose decision …](https://github.com/paperclipai/paperclip/commit/45531b719eab6b2af25c18b35a882b4cc1aeebd6) | cryppadotta |
-| 2026-11-14 | [feat(runner): let a caller ask the transport for provider-started tur…](https://github.com/paperclipai/paperclip/commit/68d5c9c1205f1f1629d76a1ec703bcb1c38fc48d) | nickyleach |
-| 2026-11-14 | [perf(workspaces): read a sweep page's task trees and active runs in t…](https://github.com/paperclipai/paperclip/commit/7db92ea3194f7afdd82ce0c37681203dcc4ed8f6) | cryppadotta |
-| 2026-11-14 | [perf(workspaces): inspect only due workspaces and wait for a holding …](https://github.com/paperclipai/paperclip/commit/081dacba1d44e5b2b357d7f5105adda82f99e450) | cryppadotta |
-| 2026-11-14 | [fix(workspaces): settle closed remote workspaces after one confirmed …](https://github.com/paperclipai/paperclip/commit/20ccf03676c2b70e3865e632780cc95f9aaaa051) | cryppadotta |
-| 2026-11-14 | [perf(chat): scope GitHub review check run hints to the issue and thro…](https://github.com/paperclipai/paperclip/commit/c1451814c155adab79fd0181674a23b0dc2669e4) | cryppadotta |
-| 2026-11-14 | [perf(chat): back off GitHub review check head polls while the check c…](https://github.com/paperclipai/paperclip/commit/a7453eba604bc8439e79e0ec852a59ffbd119d32) | cryppadotta |
-| 2026-11-14 | [fix(mcp): preserve Tasks sleep authority and re-enable recovery (#21603)](https://github.com/paperclipai/paperclip/commit/7c0c3c4f31a135cf58d07ebaa2e75451bf14c194) | cryppadotta |
-| 2026-11-14 | [fix(native): close idle warm sessions in parallel across agents at sh…](https://github.com/paperclipai/paperclip/commit/aaec67b89161e42571bd12f7c3e3b26ac92be3ce) | cryppadotta |
-| 2026-11-14 | [perf(recovery): read only the run keys that active execution recovery…](https://github.com/paperclipai/paperclip/commit/12ac7cfd9f8292a889c33710e16cca1c0e8823f3) | cryppadotta |
+| 2026-11-15 | [perf(release): stage the verified host release daemon instead of comp…](https://github.com/paperclipai/paperclip/commit/e7f31705dad6dfdfd0f0f3f9e017ed2e0afc584b) | cryppadotta |
+| 2026-11-15 | [docs(skills): add aggregate-bound, lost-runner, and bug-class lessons…](https://github.com/paperclipai/paperclip/commit/8cd2d6a73d2097253dd329f55b637e12b20361c6) | cryppadotta |
+| 2026-11-15 | [fix(comments): keep saved authorization cards from blocking replies (…](https://github.com/paperclipai/paperclip/commit/c17ef9249ddf4e30e0031cfca7f625c3f0723695) | cryppadotta |
+| 2026-11-15 | [fix(server): wake a delivery task unscoped when it cannot apply settl…](https://github.com/paperclipai/paperclip/commit/689d62661d6d1fbf6ae6a4e20e5124888fa12dc0) | cryppadotta |
+| 2026-11-15 | [refactor: split the runner-e2e and restart-chaos READMEs into a runbo…](https://github.com/paperclipai/paperclip/commit/fb3b09aaef535755040166d8c57abe023ca8063e) | cryppadotta |
+| 2026-11-15 | [perf(release): build canary daemons during source verification and ke…](https://github.com/paperclipai/paperclip/commit/066c8244b5efba84335f400f2f191cc5a6850560) | cryppadotta |
+| 2026-11-15 | [perf(recovery): re-check only changed tasks between hourly full backs…](https://github.com/paperclipai/paperclip/commit/83541e89ad3b90740ffc61a32c396dddb5834526) | cryppadotta |
+| 2026-11-15 | [perf(db): carry scope hints in cross-process work notifications (#21681)](https://github.com/paperclipai/paperclip/commit/07d5a6ee17653b6df40904d4cc63ec2b6e3e9ca2) | cryppadotta |
+| 2026-11-15 | [fix(evals): repair four cohort-15 chat cases and prefix board links i…](https://github.com/paperclipai/paperclip/commit/819f61f1fd358874568b02f1b9462529e9ad1899) | cryppadotta |
+| 2026-11-15 | [fix(recovery): continue a task on its own when its saved files are pe…](https://github.com/paperclipai/paperclip/commit/ca23330c69b1f2b25bdadfcbda68317db97deaef) | cryppadotta |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

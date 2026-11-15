@@ -24,7 +24,7 @@
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `typescript` `tailwindcss` `nextjs` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `supabase` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` |
-| 🕒 **Last activity** | 2026-10-21 (23d ago) |
+| 🕒 **Last activity** | 2026-10-21 (24d ago) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v0.2.32](https://github.com/onlook-dev/onlook/releases/tag/v0.2.32) — 2025-07-17 |
 | 🌿 **Default branch** | `main` |

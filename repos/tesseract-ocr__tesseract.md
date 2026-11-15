@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 77.5k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [503](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [502](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
-| 🕒 **Last activity** | 2026-11-13 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [serialis: remove the size limit for strings and byte vectors (#4703)](https://github.com/tesseract-ocr/tesseract/commit/3bf26b81457248e69a101d4538ee33f1d0b49af8) | stweil |
+| 2026-11-14 | [Fix crash in Recognize when no language was loaded (#4681)](https://github.com/tesseract-ocr/tesseract/commit/2a9cb0dca6aaf89d26c2507ab69af079ec49ab9e) | sohailshk |
 | 2026-11-13 | [Fix download of ae_Arab.ttf for the unit tests (#4687)](https://github.com/tesseract-ocr/tesseract/commit/2b9712d094d1f4398341f2cd4a165faee5cb5084) | stweil |
 | 2026-11-13 | [unittest: use separate temporary directories for the LSTM trainer tes…](https://github.com/tesseract-ocr/tesseract/commit/aeccc43fb7577ecd99e7364a83c377f5c6c47905) | stweil |
 | 2026-11-13 | [Clip the SetRectangle rectangle to the image (#4683)](https://github.com/tesseract-ocr/tesseract/commit/5a575454f881f8328a6bff875c225ca6e69000c2) | sohailshk |
@@ -102,8 +104,6 @@
 | 2026-11-13 | [Merge pull request #4686 from NotAFlightRisk/man-alto-xml](https://github.com/tesseract-ocr/tesseract/commit/34f4e3ffc25847740a4b1d52d39d40e8013ace83) | zdenop |
 | 2026-11-13 | [SECURITY: steer vulnerability reports to GitHub's private reporting](https://github.com/tesseract-ocr/tesseract/commit/9dbff4dd7afe596690342bdaeac3d75d8d354519) | stweil |
 | 2026-11-11 | [Fix ALTO output file name in tesseract man page example](https://github.com/tesseract-ocr/tesseract/commit/f0a676bfea5dc52501b63638cfab41e806fad7a4) | NotAFlightRisk |
-| 2026-11-11 | [wordrec: stop the diacritics reassignment when the budget is used up](https://github.com/tesseract-ocr/tesseract/commit/4e3ec57f3039fd09e183f6884b8e1b70a57e9b0f) | stweil |
-| 2026-11-11 | [wordrec: let a real result win against a fake result of an exhausted …](https://github.com/tesseract-ocr/tesseract/commit/780f5d1a387143a1fd46de8bb2447c2cada8289b) | stweil |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 
