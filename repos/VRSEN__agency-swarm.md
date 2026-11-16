@@ -14,6 +14,8 @@
 | **Why it's worth a look** | Build an 'agency' of agents with roles, on OpenAI |
 | **Added** | 2026-11-11 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
@@ -24,7 +26,7 @@
 | 💻 **Languages** | Python 97% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-02 (13d ago) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2023-11-16 |
 | 📦 **Latest release** | [v1.11.0](https://github.com/VRSEN/agency-swarm/releases/tag/v1.11.0) — 2026-08-03 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.0-beta.1](https://github.com/VRSEN/agency-swarm/releases/tag/v2.0.0-beta.1) _(pre-release)_
-<sub>2026-10-30 · 16d ago</sub>
+<sub>2026-10-30 · 17d ago</sub>
 
 > This release moves Agency Swarm onto the newest versions of its core libraries: the OpenAI Python SDK 3, MCP 2 and FastMCP 4. Long conversations now cost less, because OpenAI compacts them and later turns send only what comes after the compaction. The default model is now GPT-6 Luna.
 > 2.0.0b1 is a pre-release, so `pip install --upgrade agency-swarm` still installs 1.11. To try it:
@@ -84,6 +86,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [docs: refresh the README, the contributing guide and the repository r…](https://github.com/VRSEN/agency-swarm/commit/016189784354b4298ed25de752d22013ee5b5511) | nicko-ai |
+| 2026-11-16 | [docs: rewrite AGENTS.md as short repository rules](https://github.com/VRSEN/agency-swarm/commit/45bc9eaa221e1999a5905ff427bf97bccbe11448) | nicko-ai |
 | 2026-11-02 | [fix: stop uploading traces to OpenAI when OPENAI_BASE_URL points else…](https://github.com/VRSEN/agency-swarm/commit/1bec92f0fc6e8485e53847c6f4a943a847058bff) | nicko-ai |
 | 2026-10-30 | [release: v2.0.0-beta.1 (#855)](https://github.com/VRSEN/agency-swarm/commit/b28ac98321b21c9e052f915a76f74fc449f8e74a) | VRSEN |
 | 2026-10-21 | [chore(deps-dev): bump fastapi from 0.141.1 to 0.143.3 (#845)](https://github.com/VRSEN/agency-swarm/commit/5b02d5f5bb1e47fd50c404398b36a07050f98001) | dependabot[bot] |
@@ -92,8 +96,6 @@
 | 2026-10-21 | [test: make concurrent multi-agency test send the bare value to Shared…](https://github.com/VRSEN/agency-swarm/commit/1ac9e7f87fc5b04738a9622a87400a2c181b60e3) | nicko-ai |
 | 2026-10-21 | [fix: servers bind all interfaces again; browser demos stay on localho…](https://github.com/VRSEN/agency-swarm/commit/1d841edb10f5e64b335e1c6fd2bc5c46b5b52a1b) | nicko-ai |
 | 2026-10-15 | [chore(deps): bump pydantic from 2.13.5 to 2.14.1 (#837)](https://github.com/VRSEN/agency-swarm/commit/a86d657e12b693be64a8dcb8ead560a7b9a4ef01) | dependabot[bot] |
-| 2026-10-15 | [chore(deps-dev): bump langchain-core from 1.6.3 to 1.6.9 (#838)](https://github.com/VRSEN/agency-swarm/commit/feb36786ee4534d9b40697f38878e8d726aa17b0) | dependabot[bot] |
-| 2026-10-15 | [chore(deps-dev): bump mypy from 2.3.1 to 2.4.0 (#839)](https://github.com/VRSEN/agency-swarm/commit/438e2ff36fe3d653b0b0b01281333ab9d8562448) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/VRSEN/agency-swarm/commits)
 

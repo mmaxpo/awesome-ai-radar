@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 9.2k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [755](https://github.com/catboost/catboost/issues) |
-| 💻 **Languages** | C++ 78% · Python 11% · Cuda 4% · CMake 3% · Scala 2% |
+| 🐞 **Open issues + PRs** | [756](https://github.com/catboost/catboost/issues) |
+| 💻 **Languages** | C++ 78% · Python 11% · Cuda 3% · CMake 3% · Scala 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `decision-trees` `gradient-boosting` `gbm` `gbdt` `python` `r` `kaggle` `gpu-computing` `catboost` `tutorial` `categorical-features` `gpu` `coreml` `data-science` `big-data` `cuda` `data-mining` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2017-07-18 |
 | 📦 **Latest release** | [node-package-v1.27.0](https://github.com/catboost/catboost/releases/tag/node-package-v1.27.0) — 2026-02-21 |
 | 🌿 **Default branch** | `master` |
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.10](https://github.com/catboost/catboost/releases/tag/v1.2.10) — 1.2.10
-<sub>2026-02-19 · 8mo ago</sub>
+<sub>2026-02-19 · 9mo ago</sub>
 
 > **New features**
 > * \[JVM applier\] Add `predictTransposed` method #2927. Thanks to @levs2001.
@@ -90,6 +90,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Intermediate changes](https://github.com/catboost/catboost/commit/7950bba2f542c512da305bae59505c49cc9a29c2) | robot-piglet |
+| 2026-11-16 | [Add onnx_export_ut to test sources.. #863](https://github.com/catboost/catboost/commit/6907c86e6ad2e7af4e85c719b31c99b03b0bf5c0) | andrey-khropov |
+| 2026-11-16 | [Support one-hot categorical features in ONNX export and import](https://github.com/catboost/catboost/commit/3b719fec2a55249b4f7b0c88ffa673ad984dd503) | SergeevVladislav |
 | 2026-11-15 | [Enable building and linking static library from Rust project](https://github.com/catboost/catboost/commit/8e83b235649315902fa8ee5132e437c971f040ee) | joelchen |
 | 2026-11-15 | [drop support for import_test/flake8 checks](https://github.com/catboost/catboost/commit/fbaf80c65d5ecfdb061ca8633d8036905889ac9f) | kuzmich321 |
 | 2026-11-14 | [Skip redundant chmod on cached executables](https://github.com/catboost/catboost/commit/bd7076faf5ec41c3bcf31982b770ab508f4d3063) | bgaifullin |
@@ -97,9 +100,6 @@
 | 2026-11-14 | [Do not mutate the caller's feature_tags in Pool](https://github.com/catboost/catboost/commit/ce149380154d7ad39dc715f06ae79ba1e0c8cccb) | davrens101 |
 | 2026-11-14 | [Fix classifier score for single-column labels](https://github.com/catboost/catboost/commit/0a8d91fee6d4209a215f5319b400d8516b91a5fe) | parlorsky |
 | 2026-11-14 | [Fix PEP8 issues in GPU vs CPU benchmark scripts (#3239)](https://github.com/catboost/catboost/commit/de00cae234a97bc1aad8ac81817accb072432de0) | nysib |
-| 2026-11-13 | [Fix grammar](https://github.com/catboost/catboost/commit/f8a251bb1f61d80dc515affcf5534a36b512c49b) | andrey-khropov |
-| 2026-11-13 | [Bump scikit-learn from 0.23.1 to 1.5.0 in /catboost/benchmarks/traini…](https://github.com/catboost/catboost/commit/57ac3928271a0c611464c5f21a9a2ce07e2c7681) | dependabot[bot] [49699333+dependabot |
-| 2026-11-13 | [Import pyroscope-io 1.4.0 from source](https://github.com/catboost/catboost/commit/dedc903d5ac3012834258ff18bb58f9010a19f21) | serjflint |
 
 [See all commits ↗](https://github.com/catboost/catboost/commits)
 

@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.1k |
-| 🍴 **Forks** | 131 |
-| 🐞 **Open issues + PRs** | [17](https://github.com/chriswritescode-dev/opencode-manager/issues) |
+| 🍴 **Forks** | 129 |
+| 🐞 **Open issues + PRs** | [18](https://github.com/chriswritescode-dev/opencode-manager/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `web` `mobile` `ai-agents` `ai-coding` `coding-agent` `developer-tools` `docker` `llm` `opencode` `pwa` `react` `remote-development` `self-hosted` `terminal` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (2d ago) |
 | 📅 **Created** | 2025-11-24 |
 | 📦 **Latest release** | [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — 2026-10-26 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — OpenCode Manager v1.1.0
-<sub>2026-10-26 · 20d ago</sub>
+<sub>2026-10-26 · 21d ago</sub>
 
 > **Highlights**
 > - **Linked OpenCode servers**: pair any machine running `opencode serve` with `ocm link` and a QR code, then run sessions, terminals, schedules, multi-runs, goals and permission modes on it from Manager. Linked servers' projects appear on the home page.
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.0.1](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.0.1) — OpenCode Manager v1.0.1
-<sub>2026-10-16 · 29d ago</sub>
+<sub>2026-10-16 · 1mo ago</sub>
 
 > **Highlights**
 > - **Active work**: one place to see which sessions need input, are running, or finished recently, across every repository. It appears as an Activity tool on the desktop tool rail, as an Active tab in the session picker, and at the top of the mobile More drawer.

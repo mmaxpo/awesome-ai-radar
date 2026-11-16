@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 13.6k |
+| ⭐ **Stars** | 13.7k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [182](https://github.com/openai/codex-security/issues) |
+| 🐞 **Open issues + PRs** | [192](https://github.com/openai/codex-security/issues) |
 | 💻 **Languages** | TypeScript 76% · Python 21% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-07-13 |
 | 📦 **Latest release** | [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 84.9 MB |
+| 💾 **Size** | 86.0 MB |
 | 🌐 **Website** | https://developers.openai.com/codex/security |
 
 ## 📦 Recent releases
 
 ### [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — Codex Security GitHub Action 0.10.0
-<sub>2026-11-12 · 3d ago</sub>
+<sub>2026-11-12 · 4d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0).
 > Installs `@openai/codex-security@0.10.0`.
@@ -45,7 +45,7 @@
 > ```
 
 ### [npm-v0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0) — Codex Security 0.10.0
-<sub>2026-11-12 · 3d ago</sub>
+<sub>2026-11-12 · 4d ago</sub>
 
 > **Highlights**
 > Codex Security 0.10.0 gives clearer guidance when a patch is blocked, lets interrupted Standard scans resume, and adds a budget for batch scans.
@@ -56,7 +56,7 @@
 > …
 
 ### [action-v0.9.1](https://github.com/openai/codex-security/releases/tag/action-v0.9.1) — Codex Security GitHub Action 0.9.1
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > GitHub Action for [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
 > Installs `@openai/codex-security@0.9.1`.
@@ -65,7 +65,7 @@
 > ```
 
 ### [npm-v0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1) — Codex Security 0.9.1
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > **Highlights**
 > - The npm package includes Developer ID-signed native addons for Apple Silicon and Intel Macs. This lets Codex Desktop load the addon when preparing review items.
@@ -76,7 +76,7 @@
 > …
 
 ### [npm-v0.9.0](https://github.com/openai/codex-security/releases/tag/npm-v0.9.0) — Codex Security 0.9.0 (source only)
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > **Source-only release.** The source archives below contain the original 0.9.0 release commit. The 0.9.0 build stopped during macOS signing, before npm publication. For the signed CLI and SDK package, use [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
 > **Highlights**
@@ -90,6 +90,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [test(plugin): make Deep Scan worker fixtures portable (#2665)](https://github.com/openai/codex-security/commit/c6432d1131f13e187acaf70655a59732dad5be1f) | mldangelo-oai |
+| 2026-11-16 | [docs(plugin): keep repository links usable in standalone copies (#2664)](https://github.com/openai/codex-security/commit/182c5fe00c5a8ca47be135e8229fda05181085b7) | mldangelo-oai |
 | 2026-11-14 | [fix(plugin): preserve Windows helper exit codes (#2651)](https://github.com/openai/codex-security/commit/173483d7c658be7a512c93d9559bf01a05d5b196) | JoaoMarcos44 |
 | 2026-11-13 | [docs: clarify Deep Scan preflight sandbox limits (#2611)](https://github.com/openai/codex-security/commit/f26b669b56a4423abd773c81f6c6c9c2ebadc42a) | dajiaohuang |
 | 2026-11-13 | [feat(examples): add synthetic security workflow benchmarks (#2618)](https://github.com/openai/codex-security/commit/462bad3da3089d67c6837f913e5a2f216c9c4ff5) | neharungta |
@@ -98,8 +100,6 @@
 | 2026-11-12 | [chore(release): 0.10.0](https://github.com/openai/codex-security/commit/f465432bc4c8882a8b667985a9f68045483ed796) | github-actions[bot] |
 | 2026-11-12 | [feat(scans): resume interrupted Standard scans (#2610)](https://github.com/openai/codex-security/commit/69038a2f56514f2d4fab43683c97cd313dc5cecb) | ianw-oai |
 | 2026-11-12 | [ci: stabilize campaign executable lookup tests (#2621)](https://github.com/openai/codex-security/commit/6b6c5251cf2deb43974beb554f1c1a0899b15871) | mldangelo-oai |
-| 2026-11-11 | [feat(import): include AWS-generated patches in Continuum findings (#2…](https://github.com/openai/codex-security/commit/7b5335becab87f87606e5a948518728b6fa1e91a) | mldangelo-oai |
-| 2026-11-11 | [fix(action): preserve literal scan paths (#2617)](https://github.com/openai/codex-security/commit/ed649f6337b84f11d5fcf6b13ff90ff8d608a830) | mldangelo-oai |
 
 [See all commits ↗](https://github.com/openai/codex-security/commits)
 

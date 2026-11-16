@@ -34,27 +34,27 @@
 ## 📦 Recent releases
 
 ### [number-flow@0.6.2](https://github.com/barvian/number-flow/releases/tag/number-flow%400.6.2)
-<sub>2026-07-18 · 3mo ago</sub>
+<sub>2026-07-18 · 4mo ago</sub>
 
 > **Patch Changes**
 > - Avoid forced reflows from redundant layout measurement: skip identity-equal `data` re-sets (React 19 double-sets `data` on mount) and skip the `willUpdate` measurement pass when animations can't run ([#196](https://github.com/barvian/number-flow/pull/196))
 
 ### [@number-flow/svelte@0.4.2](https://github.com/barvian/number-flow/releases/tag/%40number-flow/svelte%400.4.2)
-<sub>2026-07-18 · 3mo ago</sub>
+<sub>2026-07-18 · 4mo ago</sub>
 
 > **Patch Changes**
 > - Updated dependencies [[`116b054`](https://github.com/barvian/number-flow/commit/116b054a681e53442262d0210f7f4cb2231d72d8)]:
 >   - number-flow@0.6.2
 
 ### [@number-flow/react@0.6.2](https://github.com/barvian/number-flow/releases/tag/%40number-flow/react%400.6.2)
-<sub>2026-07-18 · 3mo ago</sub>
+<sub>2026-07-18 · 4mo ago</sub>
 
 > **Patch Changes**
 > - Updated dependencies [[`116b054`](https://github.com/barvian/number-flow/commit/116b054a681e53442262d0210f7f4cb2231d72d8)]:
 >   - number-flow@0.6.2
 
 ### [@number-flow/vue@0.5.2](https://github.com/barvian/number-flow/releases/tag/%40number-flow/vue%400.5.2)
-<sub>2026-07-18 · 3mo ago</sub>
+<sub>2026-07-18 · 4mo ago</sub>
 
 > **Patch Changes**
 > - Updated dependencies [[`116b054`](https://github.com/barvian/number-flow/commit/116b054a681e53442262d0210f7f4cb2231d72d8)]:

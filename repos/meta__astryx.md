@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 28.5k |
-| 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [679](https://github.com/meta/astryx/issues) |
-| 💻 **Languages** | TypeScript 64% · JavaScript 34% · Swift 1% |
+| ⭐ **Stars** | 29.3k |
+| 🍴 **Forks** | 2.3k |
+| 🐞 **Open issues + PRs** | [751](https://github.com/meta/astryx/issues) |
+| 💻 **Languages** | TypeScript 63% · JavaScript 36% · Swift 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-01-09 |
 | 📦 **Latest release** | [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1344.3 MB |
+| 💾 **Size** | 1349.2 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
 
 ### [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — Astryx v0.7.16
-<sub>2026-11-14 · yesterday</sub>
+<sub>2026-11-14 · 2d ago</sub>
 
 > Astryx 0.7.16 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.15](https://github.com/meta/astryx/releases/tag/v0.7.15)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > Astryx 0.7.15 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.14](https://github.com/meta/astryx/releases/tag/v0.7.14)
-<sub>2026-11-11 · 3d ago</sub>
+<sub>2026-11-11 · 4d ago</sub>
 
 > Astryx 0.7.14 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.13](https://github.com/meta/astryx/releases/tag/v0.7.13)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > Astryx 0.7.13 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.12](https://github.com/meta/astryx/releases/tag/v0.7.12)
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > Astryx 0.7.12 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [fix(cli): upgrade reads each TypeScript file in its own grammar (#11863)](https://github.com/meta/astryx/commit/ca9fee58036e521d1e17597e9f2ec3b67d28f834) | josephfarina |
-| 2026-11-15 | [feat(cli): a lookup miss points to the hook it nearly names (#11857)](https://github.com/meta/astryx/commit/2cafda977cf8e65f0541c4aefcc5a307ba6a6378) | josephfarina |
-| 2026-11-15 | [fix(Stepper): a disabled step in the compact layout says it is unavai…](https://github.com/meta/astryx/commit/da710f6ed0c7dc538fc34c0e9c37958bd726f418) | cixzhang |
-| 2026-11-15 | [perf(cli): a kept entry checks what each probe returned, not the prob…](https://github.com/meta/astryx/commit/17f7ffcc6674aa22b883d5a62d60c41e32b42249) | josephfarina |
-| 2026-11-15 | [spec(OverflowList): useOverflow's module record states when it measur…](https://github.com/meta/astryx/commit/f7b77db68efb09055789200b34de35f87f4f666f) | cixzhang |
-| 2026-11-15 | [fix(cli): decode UTF-8 paths in .gitattributes (#11773)](https://github.com/meta/astryx/commit/f5b7bacc68c83849eb9305b7b84247360ae1ee0e) | bezabyte |
-| 2026-11-15 | [fix(templates): page templates fit a 390 px phone screen, with a chec…](https://github.com/meta/astryx/commit/db3f616fff2a2e85c43cf12d5637639dcecac243) | josephfarina |
-| 2026-11-15 | [test(Item): the swipe's busy proof judges a held release by its curve…](https://github.com/meta/astryx/commit/64806d0bd2de47e47b455ee1a7074875fccaab1b) | vjeux |
-| 2026-11-15 | [fix(cli): theme list names the package each theme comes from and whet…](https://github.com/meta/astryx/commit/3387ab8f1cd44b4aa75462ac70d8bf8857cda2fb) | josephfarina |
-| 2026-11-15 | [feat(cli): doctor's newest-release and kept-cache messages say the sa…](https://github.com/meta/astryx/commit/a6716bc869f8a19206808a4c400ac7c39f3e5730) | josephfarina |
+| 2026-11-16 | [fix(cli): doctor's theme font check reads the families a font service…](https://github.com/meta/astryx/commit/e849bf77a6c52195368c8b2b713ada53be29969e) | josephfarina |
+| 2026-11-16 | [fix(core): copy works in a frame that does not allow the async Clipbo…](https://github.com/meta/astryx/commit/90edc6fa210849aa192dd1ad2bf49bc832b7e108) | josephfarina |
+| 2026-11-16 | [[experimental] render: a compile error names the file and the line, a…](https://github.com/meta/astryx/commit/483f621a2a6e7cd6762000a850a711f1bf29007a) | josephfarina |
+| 2026-11-16 | [fix(templates): form buttons that did nothing show what they would do…](https://github.com/meta/astryx/commit/81efb8c439e27c40a6aa6ab0b1e40beb1ea95684) | josephfarina |
+| 2026-11-16 | [fix(templates): two page templates no longer leave an empty column on…](https://github.com/meta/astryx/commit/f3fce450adab22d7ba568e4bf6f5874d424be0e2) | josephfarina |
+| 2026-11-16 | [fix(templates): form buttons that did nothing show what they would do…](https://github.com/meta/astryx/commit/29ec3af53086d62b8b2945c4b429458339201987) | josephfarina |
+| 2026-11-16 | [fix(templates): CommandPaletteGroup basic, CommandPaletteList and Dro…](https://github.com/meta/astryx/commit/0c0a4c512a6da7527ae5c051391e346e1ec5e574) | josephfarina |
+| 2026-11-16 | [docs(cli): the computer-level skill starts a page with build (#12037)](https://github.com/meta/astryx/commit/118dcc589d4b175e3c6bcf7e36b8af0158d9c894) | josephfarina |
+| 2026-11-16 | [fix(templates): give the dead controls in the tool templates a behavi…](https://github.com/meta/astryx/commit/54bf5ed706819b76bcb001735578dc7115915161) | josephfarina |
+| 2026-11-16 | [fix(templates): toolbar, selector, table, tab and popover example but…](https://github.com/meta/astryx/commit/047f1a95ad5ccd5d7311545146908b673120f8d3) | josephfarina |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

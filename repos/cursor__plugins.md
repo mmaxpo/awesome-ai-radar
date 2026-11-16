@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 16.4k |
-| 🍴 **Forks** | 1.7k |
-| 🐞 **Open issues + PRs** | [659](https://github.com/cursor/plugins/issues) |
+| ⭐ **Stars** | 16.6k |
+| 🍴 **Forks** | 1.8k |
+| 🐞 **Open issues + PRs** | [664](https://github.com/cursor/plugins/issues) |
 | 💻 **Languages** | TypeScript 88% · JavaScript 4% · TLA 3% · Mermaid 2% · Shell 2% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-15 (yesterday) |
 | 📅 **Created** | 2026-01-23 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

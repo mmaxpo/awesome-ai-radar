@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1678.2 MB |
+| 💾 **Size** | 1677.6 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [[headeronly] migrate complex_math (#195021)](https://github.com/pytorch/pytorch/commit/1dcfb27239b3682a375f49580550b2e9866a2180) | cleonard530 |
-| 2026-11-15 | [[inductor] Decompose small-k topk into fused argmax-and-remove rounds…](https://github.com/pytorch/pytorch/commit/48f1cea6cf0a29cf83612fb05c11f183e06a3554) | anijain2305 |
-| 2026-11-15 | [[torchtitan hash update] update the pinned torchtitan hash (#204949)](https://github.com/pytorch/pytorch/commit/25c92ea46bfc7eb42b8770672d38aa65340515e7) | pytorchupdatebot |
-| 2026-11-14 | [[CUDA] Reuse cuSOLVER workspaces across batched QR loops (#204826)](https://github.com/pytorch/pytorch/commit/c79633996ebc2114482ae5a4ff3cb409d79a8a9c) | Skylion007 |
-| 2026-11-14 | [[c10d][nccl2] Don't block the current stream in WorkNCCL::getFuture()…](https://github.com/pytorch/pytorch/commit/04fe0974900dc7034a4b27ed4c74afe464fe133e) | chinmaydk99 |
-| 2026-11-14 | [Invalidate caches after axiom growth (#203253)](https://github.com/pytorch/pytorch/commit/db2cd613fff79fb9a5fc28a3a7040110f49e5093) | laithsakka |
-| 2026-11-14 | [[decomp] add `aten._trilinear` decomposition (#202958)](https://github.com/pytorch/pytorch/commit/e63b330cbcbcc136d3aab1895a183579dbb80dde) | khushi-411 |
-| 2026-11-14 | [Revert "[inductor] Decompose small-k topk into fused argmax-and-remov…](https://github.com/pytorch/pytorch/commit/290c13bd58a2d0a81e7e644e2eb57107bb6dccce) | pytorchmergebot |
-| 2026-11-14 | [Build Windows MAGMA for CUDA 13.5 (#204828)](https://github.com/pytorch/pytorch/commit/242a9cf0e013551eaada7827cfff1aa8d293dfb1) | atalman |
-| 2026-11-14 | [Revert "[aotautograd] Don't recompute reads of forward-mutated inputs…](https://github.com/pytorch/pytorch/commit/4390b847545f99e9f95d36346482c42d856cea99) | pytorchmergebot |
+| 2026-11-16 | [[dynamo] Preserve dictionary storage order and builtin representation…](https://github.com/pytorch/pytorch/commit/46ba0e8cab72c02cedacadaad780a8e3ad83e7bd) | XuehaiPan |
+| 2026-11-16 | [[OpenReg] Rename OpenReg operator implementation files for clarity (#…](https://github.com/pytorch/pytorch/commit/561ce6ea6526ff9bf150e0acd8f8a8dab0cc640a) | can-gaa-hou |
+| 2026-11-16 | [Revert "[CUDA][LinAlg] lu_factor: performance improvements for batche…](https://github.com/pytorch/pytorch/commit/a0d3a9fc144dc6ef10e95dfd6568ceef467af56c) | pytorchmergebot |
+| 2026-11-16 | [[AOTI] Support PrivateUse1 devices in the model.so runtime (#204396)](https://github.com/pytorch/pytorch/commit/b82a2ed8e5d8672d1e4b1a39fec9320f20f0e01a) | can-gaa-hou |
+| 2026-11-16 | [[CUDA][LinAlg] lu_factor: performance improvements for batched rectan…](https://github.com/pytorch/pytorch/commit/3b8c011f34e5bf837ad86d73ded03e9708aab07f) | nikitaved |
+| 2026-11-16 | [[Test][XPU] Enable more `test_dataloader.py` tests on XPU (#203236)](https://github.com/pytorch/pytorch/commit/9c96ccf57a913f584b2042d9114caa4ffaa91c3b) | pbielak |
+| 2026-11-16 | [[Test][XPU] Enable more `test_foreach.py` cases on XPU (#202763)](https://github.com/pytorch/pytorch/commit/68f0e54fd5ad3d7ceba57b36a5c2ebbacd3d6756) | pbielak |
+| 2026-11-16 | [[Test][XPU] Enable more `nn/test_convolution.py` tests on XPU (#202750)](https://github.com/pytorch/pytorch/commit/06f9e25791bf2d23433b898dc153e13ed87bc38e) | pbielak |
+| 2026-11-16 | [[7/N] Refactor `TestAOTModuleSimplifiedDevice` and enable on XPU (#19…](https://github.com/pytorch/pytorch/commit/eb0f3a479c877468051f6228e8b4c8819fbdde4a) | pbielak |
+| 2026-11-16 | [Drop the unused torch::sycl CMake target (#195312)](https://github.com/pytorch/pytorch/commit/2395b41e0295e424ecd2484f4aa28ac2fcfcc21b) | cyyever |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

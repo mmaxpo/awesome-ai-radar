@@ -14,8 +14,6 @@
 | **Why it's worth a look** | Netflix's framework for ML/AI pipelines from laptop to prod |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
@@ -26,7 +24,7 @@
 | 💻 **Languages** | Python 94% · R 2% · Svelte 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `model-management` `ai` `ml` `ml-platform` `ml-infrastructure` `python` `mlops` `datascience` `high-performance-computing` `kubernetes` `aws` `azure` `gcp` `llm` `llmops` `agents` `generative-ai` `cost-optimization` `distributed-training` |
-| 🕒 **Last activity** | 2026-11-09 (6d ago) |
+| 🕒 **Last activity** | 2026-11-09 (7d ago) |
 | 📅 **Created** | 2019-09-17 |
 | 📦 **Latest release** | [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41) — 2026-11-06 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41)
-<sub>2026-11-06 · 8d ago</sub>
+<sub>2026-11-06 · 9d ago</sub>
 
 > **What's Changed**
 > * fix: conditional steps issue on argo 3.7.13+/4.0.4+ by @saikonen in https://github.com/Netflix/metaflow/pull/3401
@@ -47,7 +45,7 @@
 > …
 
 ### [2.19.40](https://github.com/Netflix/metaflow/releases/tag/2.19.40)
-<sub>2026-10-29 · 16d ago</sub>
+<sub>2026-10-29 · 17d ago</sub>
 
 > **What's Changed**
 > * [GSoC] Add paginated, filtered run iteration to the core client by @Aryan95614 in https://github.com/Netflix/metaflow/pull/3348
@@ -69,7 +67,7 @@
 > …
 
 ### [2.19.38](https://github.com/Netflix/metaflow/releases/tag/2.19.38)
-<sub>2026-08-18 · 2mo ago</sub>
+<sub>2026-08-18 · 3mo ago</sub>
 
 > **What's Changed**
 > * build(deps-dev): bump js-yaml from 4.3.0 to 4.3.1 in /metaflow/plugins/cards/ui by @dependabot[bot] in https://github.com/Netflix/metaflow/pull/3336

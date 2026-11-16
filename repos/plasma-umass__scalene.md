@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 13.6k |
-| 🍴 **Forks** | 448 |
-| 🐞 **Open issues + PRs** | [153](https://github.com/plasma-umass/scalene/issues) |
-| 💻 **Languages** | Python 59% · JavaScript 16% · C++ 9% · TypeScript 8% · Lean 7% |
+| 🍴 **Forks** | 449 |
+| 🐞 **Open issues + PRs** | [151](https://github.com/plasma-umass/scalene/issues) |
+| 💻 **Languages** | Python 60% · JavaScript 15% · C++ 9% · TypeScript 7% · Lean 6% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — Free-threaded wheels, M4 fix, safer API keys, and formal verification
-<sub>2026-10-23 · 22d ago</sub>
+<sub>2026-10-23 · 23d ago</sub>
 
 > **What's Changed**
 > **Headlines**
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Don't hang programs waiting for their own timer signal under Scalene …](https://github.com/plasma-umass/scalene/commit/167a3edbf4a5e39e0fdc876d4a9f65143b64eb42) | emeryberger |
+| 2026-11-16 | [Never fault reading a half-pushed frame in the CPU signal handler (#1…](https://github.com/plasma-umass/scalene/commit/e5e2230850ec2838a564a3b31f08e84567b2ad39) | emeryberger |
+| 2026-11-15 | [Signal smoketest: sleep instead of pause() (lost-wakeup race); enforc…](https://github.com/plasma-umass/scalene/commit/538a5187b5ef49f43b40a518d24c19fa8a1280b1) | emeryberger |
+| 2026-11-15 | [Document how saved settings and --api-keys-from-env combine; list con…](https://github.com/plasma-umass/scalene/commit/9bd56dced36096c99d5529933d84d0582de43b60) | emeryberger |
+| 2026-11-15 | [Add pytest plugin (`pytest --scalene`) — fixes #70 (#1059)](https://github.com/plasma-umass/scalene/commit/390ea0bd436d1d9442bd52edfa09ab5ac5db986a) | emeryberger |
+| 2026-11-15 | [Save AI provider settings with `scalene config` (fixes #911) (#1143)](https://github.com/plasma-umass/scalene/commit/33d507f973469f1a32360bbe7b529349126d1419) | emeryberger |
 | 2026-11-15 | [Give every timer arrival the same weight (#466 follow-up) (#1142)](https://github.com/plasma-umass/scalene/commit/0b9870bfa09aecc7e2eb8826dbd483214d4a763f) | emeryberger |
 | 2026-11-15 | [Charge CPU samples to the line running when the timer fired (fixes #4…](https://github.com/plasma-umass/scalene/commit/9893aa606aadf138f0bad0adf79f0265b3724a52) | emeryberger |
 | 2026-11-15 | [Windows: remove the Python sampler-thread fallback (#1141)](https://github.com/plasma-umass/scalene/commit/9daac986a3b9d9799f230f1af4198115090fa99e) | emeryberger |
 | 2026-11-14 | [Don't sample allocations inside native stack unwinding (fixes #1133) …](https://github.com/plasma-umass/scalene/commit/377176057b41172579937f4e71dc5bdf83a5c875) | emeryberger |
-| 2026-11-14 | [Count loop body lines in function CPU totals (fixes #1131) (#1137)](https://github.com/plasma-umass/scalene/commit/37951a9611f772b8b400e4b6f4964d0baf69a35e) | emeryberger |
-| 2026-11-14 | [Track line ends from the profiled frame's depth (fixes #1132) (#1138)](https://github.com/plasma-umass/scalene/commit/c1a955bddaa5428e577c81a1a6ce73829d0ddb2f) | emeryberger |
-| 2026-11-14 | [Don't block SIGALRM in os functions that start programs (fixes #1134)…](https://github.com/plasma-umass/scalene/commit/07d428a1195480a49ef94aa9b883866845bcc0a2) | emeryberger |
-| 2026-11-14 | [Sample Windows CPU from a native timer thread that trips the CPU sign…](https://github.com/plasma-umass/scalene/commit/e820eb1ce0dd93ef9179ae907271fe0aab685a85) | emeryberger |
-| 2026-11-14 | [Classify signal-path CPU samples by when the timer signal arrived (#1…](https://github.com/plasma-umass/scalene/commit/122cdfc80d99f50b14ad3141f93f28379bd7ddc2) | emeryberger |
-| 2026-11-14 | [Build and smoke-test wheels on every PR; fix CPU attribution on Windo…](https://github.com/plasma-umass/scalene/commit/057c01074f56b65c5ec941b1ef32c4346e13c3a3) | emeryberger |
 
 [See all commits ↗](https://github.com/plasma-umass/scalene/commits)
 

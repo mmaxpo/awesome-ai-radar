@@ -14,21 +14,23 @@
 | **Why it's worth a look** | Official Python SDK to build MCP servers/clients |
 | **Added** | 2026-11-11 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 24.9k |
 | 🍴 **Forks** | 4.1k |
-| 🐞 **Open issues + PRs** | [413](https://github.com/modelcontextprotocol/python-sdk/issues) |
+| 🐞 **Open issues + PRs** | [415](https://github.com/modelcontextprotocol/python-sdk/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `mcp` `mcp-server` `mcp-client` |
-| 🕒 **Last activity** | 2026-11-05 (9d ago) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2024-09-24 |
 | 📦 **Latest release** | [v2.3.0](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0) — 2026-10-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 17.8 MB |
+| 💾 **Size** | 17.9 MB |
 | 🌐 **Website** | https://py.sdk.modelcontextprotocol.io/ |
 
 ## 📦 Recent releases

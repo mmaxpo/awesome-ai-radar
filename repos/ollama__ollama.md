@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 187.0k |
+| ⭐ **Stars** | 187.2k |
 | 🍴 **Forks** | 19.1k |
 | 🐞 **Open issues + PRs** | [4.7k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 74% · C 18% · TypeScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `llm` `llms` `go` `golang` `ollama` `mistral` `gemma` `deepseek` `qwen` `gpt-oss` `glm` `minimax` `muse` |
-| 🕒 **Last activity** | 2026-11-14 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2023-06-26 |
 | 📦 **Latest release** | [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 95.5 MB |
+| 💾 **Size** | 95.4 MB |
 | 🌐 **Website** | https://ollama.com |
 
 ## 📦 Recent releases
 
 ### [v0.40.17-rc0](https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0) — v0.40.17 _(pre-release)_
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > **What's Changed**
 > * Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16)
-<sub>2026-11-09 · 5d ago</sub>
+<sub>2026-11-09 · 6d ago</sub>
 
 > **Ripple Preview**
 > [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15)
-<sub>2026-11-03 · 11d ago</sub>
+<sub>2026-11-03 · 12d ago</sub>
 
 > **MiMo V2.6**
 > Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14)
-<sub>2026-11-03 · 12d ago</sub>
+<sub>2026-11-03 · 13d ago</sub>
 
 > **What's Changed**
 > * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.40.13](https://github.com/ollama/ollama/releases/tag/v0.40.13)
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > **LFM3 on Linux and Windows**
 > Liquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.
@@ -90,6 +90,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [llm: keep weights out of pinned host memory on Windows iGPUs (#19636)](https://github.com/ollama/ollama/commit/15af2b261c14c494d1fe08cf9d0b9e0af1a18c84) | saman-amd |
 | 2026-11-14 | [api: preserve unmodeled tool schema keywords (#19686)](https://github.com/ollama/ollama/commit/a5864fcb33969705de3c0ebfedf4b2a16c970bcc) | jberg5 |
 | 2026-11-12 | [Map disabled thinking to the models lowest supported level (#19684)](https://github.com/ollama/ollama/commit/5632619189ab493c70bd3f9435214b8788cc1c80) | jberg5 |
 | 2026-11-12 | [cmd: show help for noninteractive bare invocations (#19557)](https://github.com/ollama/ollama/commit/9da7dfd5c3332298a345222a2011d58426a75ca2) | ParthSareen |
@@ -99,7 +100,6 @@
 | 2026-11-10 | [MLX, MLX-C: version bump (#19647)](https://github.com/ollama/ollama/commit/6140670fd1952941041dce5fb3f8932091bc22e4) | dhiltgen |
 | 2026-11-10 | [llama.cpp: version bump b12257 (#19646)](https://github.com/ollama/ollama/commit/9b390157f2a9807e7d6748d31aa86ceba6c01b8c) | dhiltgen |
 | 2026-11-10 | [mlx: support concurrent generation (#19197)](https://github.com/ollama/ollama/commit/ab9295d03c549cdfb23245d84382ae450d8f1439) | dhiltgen |
-| 2026-11-10 | [llm: use mmap for Vulkan integrated GPUs (#19640)](https://github.com/ollama/ollama/commit/3f3fa58f7fcf18de43ec126ad8676b4281b6923c) | dhiltgen |
 
 [See all commits ↗](https://github.com/ollama/ollama/commits)
 

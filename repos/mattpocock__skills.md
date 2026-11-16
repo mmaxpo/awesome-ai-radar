@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 324.8k |
+| ⭐ **Stars** | 325.7k |
 | 🍴 **Forks** | 27.3k |
-| 🐞 **Open issues + PRs** | [246](https://github.com/mattpocock/skills/issues) |
+| 🐞 **Open issues + PRs** | [248](https://github.com/mattpocock/skills/issues) |
 | 💻 **Languages** | Shell 73% · JavaScript 27% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-13 (2d ago) |
+| 🕒 **Last activity** | 2026-11-13 (3d ago) |
 | 📅 **Created** | 2026-02-03 |
 | 📦 **Latest release** | [v1.3.2](https://github.com/mattpocock/skills/releases/tag/v1.3.2) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.2](https://github.com/mattpocock/skills/releases/tag/v1.3.2)
-<sub>2026-10-29 · 17d ago</sub>
+<sub>2026-10-29 · 18d ago</sub>
 
 > **Patch Changes**
 > - [#1194](https://github.com/mattpocock/skills/pull/1194) [`b645f47`](https://github.com/mattpocock/skills/commit/b645f47de3e17ed3bf60586c9bebb8092e0f79fd) Thanks [@mattpocock](https://github.com/mattpocock)! - `ask-matt` now reads a skill's `SKILL.md` before stating what it does or recommending a step be skipped, instead of trusting its own one-line summaries ([#614](https://github.com/mattpocock/skills/issues/614)).

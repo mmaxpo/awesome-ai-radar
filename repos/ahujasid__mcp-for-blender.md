@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 34.5k |
-| 🍴 **Forks** | 3.1k |
-| 🐞 **Open issues + PRs** | [59](https://github.com/ahujasid/mcp-for-blender/issues) |
+| ⭐ **Stars** | 34.6k |
+| 🍴 **Forks** | 3.2k |
+| 🐞 **Open issues + PRs** | [60](https://github.com/ahujasid/mcp-for-blender/issues) |
 | 💻 **Languages** | Python 98% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `3d-modeling` `ai` `blender` `blender-addon` `claude` `generative-ai` `llm` `mcp` `model-context-protocol` `python` `blender-mcp` |
-| 🕒 **Last activity** | 2026-11-13 (2d ago) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2025-03-07 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [fix: make render default to see the scene instead of viewport](https://github.com/ahujasid/mcp-for-blender/commit/b6a2ce30c14636a562b5549684d9db6fc01f29ab) | ahujasid |
 | 2026-11-13 | [fix: change configuration for claude review](https://github.com/ahujasid/mcp-for-blender/commit/8f40787fbde8e6d8fe51c5a3553e5635fff40d2b) | ahujasid |
 | 2026-11-13 | [hygiene: version bump](https://github.com/ahujasid/mcp-for-blender/commit/f2f75abd6a4743e36ed95edfed5a60096b711d31) | ahujasid |
 | 2026-11-13 | [feat: add Claude plugin for Anthropic's plugin directory](https://github.com/ahujasid/mcp-for-blender/commit/26b5929cd71aecd338dc9317db93b56c84024273) | ahujasid |
@@ -50,7 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-04 | [hygiene: version bump](https://github.com/ahujasid/mcp-for-blender/commit/2e4b0bc294694b1570d76ed01be657c22e6d02a0) | ahujasid |
 | 2026-11-04 | [feat(addon): configure persistent listener bind address (#395)](https://github.com/ahujasid/mcp-for-blender/commit/7001b2845a5673984de660b98f1ea9ba3b95f0a5) | GGgenger333 |
 | 2026-11-04 | [feat: Hyper3D takes a folder of images as views of one object (#416)](https://github.com/ahujasid/mcp-for-blender/commit/e16aabdf2002b6aaaaaaa771a754fd69d2ffaf60) | ahujasid |
-| 2026-11-04 | [fix: keep generation image inputs from reading arbitrary files or the…](https://github.com/ahujasid/mcp-for-blender/commit/38e47dcc28a6651acfcfcf1d2d68e3846ca8fa37) | ljkx |
 
 [See all commits ↗](https://github.com/ahujasid/mcp-for-blender/commits)
 

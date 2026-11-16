@@ -20,23 +20,40 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 35.5k |
+| ⭐ **Stars** | 35.6k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [97](https://github.com/NandhaKishorM/laya/issues) |
+| 🐞 **Open issues + PRs** | [98](https://github.com/NandhaKishorM/laya/issues) |
 | 💻 **Languages** | Python 52% · Java 11% · Go 8% · Rust 7% · C# 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `calibration` `classification` `decision-model` `huggingface` `jev` `modernbert` `multilingual` `nlp` `python` `pytorch` `routing` `typed-decisions` `zero-shot` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-09-18 |
-| 📦 **Latest release** | [v0.4.32](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.32) — 2026-11-14 |
+| 📦 **Latest release** | [v0.4.35](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.35) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.3 MB |
+| 💾 **Size** | 22.5 MB |
 | 🌐 **Website** | https://huggingface.co/convaiinnovations/laya |
 
 ## 📦 Recent releases
 
+### [v0.4.35](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.35)
+<sub>2026-11-16 · today</sub>
+
+> **What's Changed**
+> * feat(sdk-ts): add HTTP routing snapshots by @xinpingzh in https://github.com/NandhaKishorM/laya/pull/1503
+> **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.34...v0.4.35
+
+### [v0.4.34](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.34)
+<sub>2026-11-15 · today</sub>
+
+> **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.33...v0.4.34
+
+### [v0.4.33](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.33)
+<sub>2026-11-15 · today</sub>
+
+> **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.32...v0.4.33
+
 ### [v0.4.32](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.32)
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > **What's Changed**
 > * perf(calibrate): vectorize record validation, threshold selection, and binning fit by @HamidRezaLS in https://github.com/NandhaKishorM/laya/pull/1496
@@ -47,7 +64,7 @@
 > …
 
 ### [v0.4.31](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.31)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > **What's Changed**
 > * feat(ts): expose local routing diagnostics by @xinpingzh in https://github.com/NandhaKishorM/laya/pull/1447
@@ -56,41 +73,20 @@
 > * feat(langchain): honor native auto/review routing policy by @xinpingzh in https://github.com/NandhaKishorM/laya/pull/1489
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.30...v0.4.31
 
-### [v0.4.30](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.30)
-<sub>2026-11-08 · 6d ago</sub>
-
-> **What's Changed**
-> * fix(vega): read a fit gold the way laya's fine-tune reads it by @aashish254 in https://github.com/NandhaKishorM/laya/pull/1474
-> * fix(vega): refuse an answer number that is not finite before it becomes a decision by @aashish254 in https://github.com/NandhaKishorM/laya/pull/1475
-> * fix(vega): refuse a malformed question by name, through laya's own question check by @aashish254 in https://github.com/NandhaKishorM/laya/pull/1476
-> * fix(vega): a gold keyed to no question id is refused, not dropped by @aashish254 in https://github.com/NandhaKishorM/laya/pull/1477
-> * fix(video): a duration the tool reports as N/A is 0.0, not a crash, in probe's banner fallback by @aashish254 in https://github.com/NandhaKishorM/laya/pull/1478
-> …
-
-### [v0.4.29](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.29)
-<sub>2026-11-08 · 7d ago</sub>
-
-> **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.28...v0.4.29
-
-### [v0.4.28](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.28)
-<sub>2026-11-07 · 7d ago</sub>
-
-> **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.27...v0.4.28
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [release: 0.4.35, the TypeScript HTTP client can ask the server for a …](https://github.com/NandhaKishorM/laya/commit/b1d656952f0f9581ea691a70cb6f38abf3eb13a9) | NandhaKishorM |
+| 2026-11-16 | [Merge pull request #1503 from xinpingzh: feat(sdk-ts): add HTTP routi…](https://github.com/NandhaKishorM/laya/commit/a5547a7f7fb2390a9ba10d20d4f6b5022410541b) | NandhaKishorM |
+| 2026-11-16 | [test(sdk-ts): verify routing over HTTP and installed packages](https://github.com/NandhaKishorM/laya/commit/a2b1f9d7e6f31c4e54677e2eb0f0b89a9846f039) | xinpingzh |
+| 2026-11-16 | [feat(sdk-ts): expose server routing snapshots](https://github.com/NandhaKishorM/laya/commit/f7e405a04dda391897d0fb6acf8d52783084bea4) | xinpingzh |
+| 2026-11-15 | [release: 0.4.34, documentation only: the README opens with where to t…](https://github.com/NandhaKishorM/laya/commit/80a1da1fa5448ea12163f4d977935625a0aea670) | NandhaKishorM |
+| 2026-11-15 | [release: 0.4.33, documentation only: the vega quickstart names Embedd…](https://github.com/NandhaKishorM/laya/commit/0dc3ff87a900815e570a085962e9adbf94b3fe21) | NandhaKishorM |
+| 2026-11-15 | [docs(readme): point the vega quickstart at Embedding Studio for a cal…](https://github.com/NandhaKishorM/laya/commit/27c563399d67b2f5702b89cf97f0d39f6046cd71) | NandhaKishorM |
 | 2026-11-14 | [release: 0.4.32, calibration fits 2.4x faster, per-bucket maps in Lay…](https://github.com/NandhaKishorM/laya/commit/af8ada066685d66b3fc0b31e6c56b96def23fe2f) | NandhaKishorM |
 | 2026-11-14 | [Merge PR #1499: build(deps): bump ruff from 0.17.3 to 0.17.4](https://github.com/NandhaKishorM/laya/commit/e26e681d4ad44f977f4c75f25c591338812ec939) | NandhaKishorM |
 | 2026-11-14 | [Merge PR #1498: fix(hooks): drop a rename probe that renders the orig…](https://github.com/NandhaKishorM/laya/commit/13281d918cb1b114a8733f5e5814676a7fc24e5f) | NandhaKishorM |
-| 2026-11-14 | [Merge PR #1496: perf(calibrate): vectorize record validation, thresho…](https://github.com/NandhaKishorM/laya/commit/cf41d5676a1222af28709e1ae297f8580bfc7f65) | NandhaKishorM |
-| 2026-11-14 | [Merge PR #1495: test(batch): cover interleaved schemas, chunking, and…](https://github.com/NandhaKishorM/laya/commit/fb4f9045b1f758c0973aeb2462e448daf518e49a) | NandhaKishorM |
-| 2026-11-14 | [Merge PR #1494: fix(integrations): gate LayaToolSelector on a per-buc…](https://github.com/NandhaKishorM/laya/commit/cb62575e0f4db1d68b554eea6a21a5d89bb5054c) | NandhaKishorM |
-| 2026-11-14 | [build(deps): bump ruff from 0.17.3 to 0.17.4](https://github.com/NandhaKishorM/laya/commit/8acbc89b9a6a11b50d256ea083f845ae86558ad9) | dependabot[bot] |
-| 2026-11-14 | [fix(hooks): drop a rename probe that renders the original question](https://github.com/NandhaKishorM/laya/commit/d8356d777616cdcca62a2be4fc15cf582b83d947) | PerryLink |
-| 2026-11-12 | [perf(calibrate): vectorize record validation, threshold selection, an…](https://github.com/NandhaKishorM/laya/commit/a1b73e7b1e2970277469acc33dc6b002b6097323) | HamidRezaLS |
-| 2026-11-12 | [test(batch): cover interleaved schemas, chunking, and length-sort ord…](https://github.com/NandhaKishorM/laya/commit/52481c8890f0dafecd17e7b658c7bb36b779232a) | goku54477 |
 
 [See all commits ↗](https://github.com/NandhaKishorM/laya/commits)
 

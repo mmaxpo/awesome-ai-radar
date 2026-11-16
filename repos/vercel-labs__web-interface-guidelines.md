@@ -19,8 +19,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.2k |
-| 🍴 **Forks** | 79 |
-| 🐞 **Open issues + PRs** | [2](https://github.com/vercel-labs/web-interface-guidelines/issues) |
+| 🍴 **Forks** | 81 |
+| 🐞 **Open issues + PRs** | [3](https://github.com/vercel-labs/web-interface-guidelines/issues) |
 | 💻 **Languages** | Shell 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `design` `interface` `nextjs` `react` `ui` |

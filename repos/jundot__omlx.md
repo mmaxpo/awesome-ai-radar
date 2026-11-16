@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 23.6k |
+| ⭐ **Stars** | 23.7k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [504](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [489](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 94.0 MB |
+| 💾 **Size** | 94.5 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
 ### [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 0.8.0rc1
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **oMLX 0.8.0rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 0.7.4.dev1
-<sub>2026-11-04 · 11d ago</sub>
+<sub>2026-11-04 · 12d ago</sub>
 
 > **oMLX 0.7.4.dev1**
 > > This is a development release. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3) — 0.7.3
-<sub>2026-10-31 · 14d ago</sub>
+<sub>2026-10-31 · 15d ago</sub>
 
 > **oMLX 0.7.3**
 > oMLX 0.7.3 makes DeepSeek V4.1 prefill and batched decode faster, lets Ask AI hold voice conversations, search the web, read links and look at your screen, and cuts memory use when many requests run at long context. The notes below cover changes since 0.7.3rc1, and earlier 0.7.3 highlights are summarized at the end.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.3rc1](https://github.com/jundot/omlx/releases/tag/v0.7.3rc1) — 0.7.3rc1
-<sub>2026-10-27 · 19d ago</sub>
+<sub>2026-10-27 · 20d ago</sub>
 
 > **oMLX 0.7.3rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.2](https://github.com/jundot/omlx/releases/tag/v0.7.2).
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.3.dev2](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev2) — 0.7.3.dev2
-<sub>2026-10-25 · 21d ago</sub>
+<sub>2026-10-25 · 22d ago</sub>
 
 > **oMLX 0.7.3.dev2**
 > > This is a hotfix release that fixes an error when turning on Lightning MTP for MiniMax M3.1 (#4827). It also removes the stray `</think>` at the start of MiniMax M3.1 non-streaming replies and fixes prefill for DeepSeek V4 Flash oQ3.5e.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [fix(benchmark): pin Prefill First for benchmark runs](https://github.com/jundot/omlx/commit/bf28cd6c43541ececeec01ba797377c913da5f8f) | jundot |
+| 2026-11-16 | [fix(benchmark): batch tests wider than max concurrent requests report…](https://github.com/jundot/omlx/commit/db8d34f9c1bdf7bf53c5bfcc83a1e13f8fbdbafc) | zviratko |
+| 2026-11-16 | [fix(prefill-helper): CUDA helper prefix cache, memory and 3-bit exper…](https://github.com/jundot/omlx/commit/8bfb13be42bbc3db78ec1bcf59b2f47902642ade) | jundot |
+| 2026-11-16 | [test: trim Applications launcher tests and comments](https://github.com/jundot/omlx/commit/166ecf5d84e29abb0622cc2979fd0bad1dc277fd) | jundot |
+| 2026-11-16 | [feat(mac): launch integrations from one Applications card (#5244)](https://github.com/jundot/omlx/commit/5e39ae315f86f0cc63851470ebbae64b0d470642) | LXD-8 |
+| 2026-11-16 | [feat(web): open Claude Code settings from its Applications tile (#5243)](https://github.com/jundot/omlx/commit/d3aaac4c2eb4ac2f394a7cd2066d863599cde83f) | LXD-8 |
+| 2026-11-16 | [feat(web): make the Applications card an icon launcher (#5238)](https://github.com/jundot/omlx/commit/b1d001c30d9af6083872d9231fd8142421d794f5) | LXD-8 |
 | 2026-11-13 | [fix(minimax-m3): probe MSA prefill kernel threadgroup before use (#5239)](https://github.com/jundot/omlx/commit/624cff0e23519ba46a4d5ed2802c2c236ad1a9ac) | begcdn |
 | 2026-11-13 | [fix(inkling2): round the expert activation to its input dtype](https://github.com/jundot/omlx/commit/5063be44db095ad362a566b4dd8312a2459bf6c0) | jundot |
 | 2026-11-13 | [feat(prefill-helper): Inkling 2 Small on Mac and NVIDIA Prefill Accel…](https://github.com/jundot/omlx/commit/c0814f623f247f91120a7df22b8e6d9dea1d8268) | jundot |
-| 2026-11-13 | [feat: add Inkling 2 Small support (#5229)](https://github.com/jundot/omlx/commit/adc3daa6712290316853686ded47e6da109ba6a4) | jundot |
-| 2026-11-13 | [fix: keep completed Harmony messages when the last one is malformed (…](https://github.com/jundot/omlx/commit/8b24a5b946deacb6bfec8c207c773d8c2a2750fb) | jundot |
-| 2026-11-13 | [perf(qwen4_exp): advise a decode token's SSD table pages before copyi…](https://github.com/jundot/omlx/commit/605e864f278e16db04d5909a361741da809f91f7) | yohann-bearzi |
-| 2026-11-13 | [fix: run profile reference repair on older settings files (#5216)](https://github.com/jundot/omlx/commit/90ba3b9d9fe6767bfec1853afb0a0c096aca700b) | jundot |
-| 2026-11-13 | [fix(admin): show recent decode speed per request, not the lifetime av…](https://github.com/jundot/omlx/commit/b0758fba02cea57e82e87525b7d8fdcaadd2bdfd) | jundot |
-| 2026-11-12 | [test(brew): expect the cluster extra in the Homebrew install spec](https://github.com/jundot/omlx/commit/c74f1b18558842e6b10fcfa6e2e901bb382129d4) | jundot |
-| 2026-11-12 | [fix(brew): install the cluster extra so the Cluster tab finds NVIDIA …](https://github.com/jundot/omlx/commit/f265b65e59ed701f70b9c14f79b3c8dc54976082) | jundot |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 

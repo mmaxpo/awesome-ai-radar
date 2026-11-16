@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Put any script's output in the Mac menu bar |
 | **Added** | 2026-11-14 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 4.8k |
-| 🍴 **Forks** | 146 |
-| 🐞 **Open issues + PRs** | [11](https://github.com/swiftbar/SwiftBar/issues) |
+| 🍴 **Forks** | 147 |
+| 🐞 **Open issues + PRs** | [12](https://github.com/swiftbar/SwiftBar/issues) |
 | 💻 **Languages** | Swift 97% · Shell 1% · Just 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `productivity` `macos` `scripting` |
-| 🕒 **Last activity** | 2026-11-08 (6d ago) |
+| 🕒 **Last activity** | 2026-11-08 (7d ago) |
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v2.1.2-beta-5](https://github.com/swiftbar/SwiftBar/releases/tag/v2.1.2-beta-5) — 2026-09-29 |
 | 🌿 **Default branch** | `main` |

@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 23.8k |
-| 🍴 **Forks** | 837 |
-| 🐞 **Open issues + PRs** | [132](https://github.com/fosrl/pangolin/issues) |
+| 🍴 **Forks** | 839 |
+| 🐞 **Open issues + PRs** | [133](https://github.com/fosrl/pangolin/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `reverse-proxy` `wireguard` `single-sign-on` `self-hosted` `oidc` `vpn` `zero-trust` `zero-trust-network-access` `ztna` `pam` `remote-access` `ssh` `tunneling` `nat-traversal` `sase` `sso` `wireguard-vpn` `pangolin` `ai-gateway` `gateway` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2024-09-27 |
 | 📦 **Latest release** | [1.26.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 98.9 MB |
+| 💾 **Size** | 97.8 MB |
 | 🌐 **Website** | https://pangolin.net |
 
 ## 📦 Recent releases
 
 ### [1.26.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0)
-<sub>2026-11-04 · 10d ago</sub>
+<sub>2026-11-04 · 11d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.26: Session Management, SSH Logs, and Auto Windows Updates](https://pangolin.net/news/1-26-release)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.26.0-rc.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0-rc.0) _(pre-release)_
-<sub>2026-11-02 · 12d ago</sub>
+<sub>2026-11-02 · 13d ago</sub>
 
 > **RC**
 > A Release Candidate (RC) is a near-final software version, stable but undergoing last tests before official release. It has all features and no known bugs.
@@ -58,7 +58,7 @@
 > …
 
 ### [1.25.3](https://github.com/fosrl/pangolin/releases/tag/1.25.3)
-<sub>2026-10-23 · 22d ago</sub>
+<sub>2026-10-23 · 23d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.25: Redirects, mTLS, and Machine Roles](https://pangolin.net/news/1-25-release)
@@ -69,7 +69,7 @@
 > …
 
 ### [1.25.2](https://github.com/fosrl/pangolin/releases/tag/1.25.2)
-<sub>2026-10-22 · 23d ago</sub>
+<sub>2026-10-22 · 24d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.25: Redirects, mTLS, and Machine Roles](https://pangolin.net/news/1-25-release)
@@ -80,7 +80,7 @@
 > …
 
 ### [1.25.1](https://github.com/fosrl/pangolin/releases/tag/1.25.1)
-<sub>2026-10-21 · 24d ago</sub>
+<sub>2026-10-21 · 25d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.25: Redirects, mTLS, and Machine Roles](https://pangolin.net/news/1-25-release)

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 54% · TypeScript 45% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2023-11-14 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Correct company name and email in README](https://github.com/abi/screenshot-to-code/commit/f2e5bbdd1dd5d93c259548d9bccf54e2a5f06a30) | abi |
 | 2026-11-14 | [README: fix nested link on the hosted version line](https://github.com/abi/screenshot-to-code/commit/0a77981c6eb4a4f4450690f21e4addc93522da9e) | abi |
 | 2026-11-14 | [Revise README for clarity and detail](https://github.com/abi/screenshot-to-code/commit/869687750d55f37b3ecc23fc993631fb1c4a307e) | abi |
 | 2026-11-14 | [README: link the hosted version as independently run by evolvAI US LLC](https://github.com/abi/screenshot-to-code/commit/ea96b8f2bcfc9e8bc8a382f8d82da14bad8c5077) | abi |
@@ -50,7 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-07-27 | [Refresh text-create model mix from judged text evals](https://github.com/abi/screenshot-to-code/commit/b0d6ab882e61c7eed359178a39f909d4f41a8e89) | abi |
 | 2026-07-27 | [Support text-brief eval sets alongside image sets](https://github.com/abi/screenshot-to-code/commit/00db2b41284e1a8aca1a09525ff2631cf9463b04) | abi |
 | 2026-07-27 | [Refresh image-create model mix from judged evals](https://github.com/abi/screenshot-to-code/commit/ee4401afa8259f907764853c62619b795c388c29) | abi |
-| 2026-07-27 | [Fail agent runs that finish without producing output](https://github.com/abi/screenshot-to-code/commit/91c400f44dec95c7b1f3b431a931797f28322ea4) | abi |
 
 [See all commits ↗](https://github.com/abi/screenshot-to-code/commits)
 

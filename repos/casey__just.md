@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 36.7k |
-| 🍴 **Forks** | 897 |
+| 🍴 **Forks** | 934 |
 | 🐞 **Open issues + PRs** | [172](https://github.com/casey/just/issues) |
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-15 (yesterday) |
 | 📅 **Created** | 2016-06-17 |
 | 📦 **Latest release** | [1.59.0](https://github.com/casey/just/releases/tag/1.59.0) — 2026-10-15 |
 | 🌿 **Default branch** | `master` |
@@ -58,7 +58,7 @@
 > …
 
 ### [1.57.0](https://github.com/casey/just/releases/tag/1.57.0)
-<sub>2026-07-19 · 3mo ago</sub>
+<sub>2026-07-19 · 4mo ago</sub>
 
 > **Changed**
 > - Pass arguments to `cmd.exe` without escaping ([#3636](https://github.com/casey/just/pull/3636) by [casey](https://github.com/casey))

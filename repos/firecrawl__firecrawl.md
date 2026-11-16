@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.9k |
+| ⭐ **Stars** | 202.2k |
 | 🍴 **Forks** | 10.6k |
-| 🐞 **Open issues + PRs** | [801](https://github.com/firecrawl/firecrawl/issues) |
+| 🐞 **Open issues + PRs** | [806](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 73% · Python 11% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [feat(alexandria): refuse provider scrapes above an optional maxCredit…](https://github.com/firecrawl/firecrawl/commit/e8f98a02ecaabd578fb2868f096924e229d879f0) | KrisOei |
 | 2026-11-13 | [perf(api): relay the fresh feed's encoded response (#5748)](https://github.com/firecrawl/firecrawl/commit/71f430a2dabffaf718cef7091c340b7384b91178) | PhantomInTheWire |
 | 2026-11-13 | [feat(api): proxy the fresh feed at /v2/fresh-vertical-feed/local/late…](https://github.com/firecrawl/firecrawl/commit/065cc5fdf2ca5cf6fc86fde53541ed2b3c4291b2) | PhantomInTheWire |
 | 2026-11-13 | [feat(api): support ambient Google credentials for Vertex and Pub/Sub …](https://github.com/firecrawl/firecrawl/commit/62c0bcacda0ad52824c5963d5c811cdceef71ce7) | tomsideguide |
@@ -103,7 +104,6 @@
 | 2026-11-13 | [feat(api): schedule a 24h delete for each ZDR blob and bound cleanup …](https://github.com/firecrawl/firecrawl/commit/d00d4483ea8ae6d9bdeca8a7c10e826eacc5df22) | mogery |
 | 2026-11-13 | [Forward zero data retention to Exchange from the exchange proxy (#5736)](https://github.com/firecrawl/firecrawl/commit/eaa56e8803b8d15336503d2c26fccb0ca6b99d18) | developersdigest |
 | 2026-11-12 | [feat(api): give the keyless provider-tools 403 a signup link (#5734)](https://github.com/firecrawl/firecrawl/commit/ab3acea889c724e8d7ebc48839e74cb16d8ca7a1) | nickscamara |
-| 2026-11-12 | [feat(api): hosted bash for agents at /v2/bash (experiment, off by def…](https://github.com/firecrawl/firecrawl/commit/793fd57f133b71426bb6ce65641428c28b883e36) | Ben2W |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

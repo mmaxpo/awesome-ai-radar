@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [418](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [417](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
@@ -89,6 +89,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [build(deps): bump the github-actions group across 1 directory with 2 …](https://github.com/PyO3/pyo3/commit/fcee2dc3d6bc5848922c74fd096e7548cf68856a) | dependabot[bot] |
+| 2026-11-15 | [docs: add pyromark to README examples (#6582)](https://github.com/PyO3/pyo3/commit/5f2e89208b2bdbcf10580ec2742e96fba697ad21) | monosans |
 | 2026-11-14 | [Fix Python logging example in documentation (#6581)](https://github.com/PyO3/pyo3/commit/b3fd214929cb17bfdc330c1388bcf24bfd3b2778) | innerpeacenan |
 | 2026-11-13 | [avoid leaking integers when creating slice objects (#6575)](https://github.com/PyO3/pyo3/commit/bafdacd76db5612488bcf941a89bb312fc30851f) | davidhewitt |
 | 2026-11-13 | [ci: fix lint failures nov 26 (#6576)](https://github.com/PyO3/pyo3/commit/c99586455deae0394c5a53e43db9333dd6937d4c) | davidhewitt |
@@ -97,8 +99,6 @@
 | 2026-11-01 | [fix cases of incorrect allocator or deallocator inheritance (#6559)](https://github.com/PyO3/pyo3/commit/aa0a05f792cdac4290021ec01c9adb6fc23e4a14) | davidhewitt |
 | 2026-10-26 | [build(deps): bump the github-actions group with 7 updates (#6556)](https://github.com/PyO3/pyo3/commit/26f9ec8be637d24d0dee18d51e129cc1a99f3a7c) | dependabot[bot] |
 | 2026-10-26 | [build(deps): update scraper requirement in /pyo3-ffi-check (#6554)](https://github.com/PyO3/pyo3/commit/48ab34bf607ea71b0db83214b93db46840b455d1) | dependabot[bot] |
-| 2026-10-25 | [build(deps): bump filelock from 3.19.1 to 3.20.3 (#6549)](https://github.com/PyO3/pyo3/commit/79627d8f830ce65a941725983fc55742160832aa) | dependabot[bot] |
-| 2026-10-25 | [build(deps): bump virtualenv from 16.7.12 to 21.14.13 (#6546)](https://github.com/PyO3/pyo3/commit/cb2b7eecb5c707598bba085de8d286d6392f0bc3) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

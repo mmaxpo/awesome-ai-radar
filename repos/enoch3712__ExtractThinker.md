@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.6k |
-| 🍴 **Forks** | 156 |
+| 🍴 **Forks** | 157 |
 | 🐞 **Open issues + PRs** | [5](https://github.com/enoch3712/ExtractThinker/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `llm` `nlp` `ocr` `openai` `python` `document-image-analysis` `document-intelligence` `document-parsing` `document-processing` `langchain` `machine-learning` `pdf` `pdf-to-text` |
-| 🕒 **Last activity** | 2026-09-16 (1mo ago) |
+| 🕒 **Last activity** | 2026-09-16 (2mo ago) |
 | 📅 **Created** | 2024-02-01 |
 | 📦 **Latest release** | [v0.1.14](https://github.com/enoch3712/ExtractThinker/releases/tag/v0.1.14) — 2025-06-09 |
 | 🌿 **Default branch** | `main` |

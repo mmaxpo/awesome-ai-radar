@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 5.6k |
+| ⭐ **Stars** | 5.8k |
 | 🍴 **Forks** | 1.2k |
-| 🐞 **Open issues + PRs** | [48](https://github.com/ethanplusai/sellbird/issues) |
+| 🐞 **Open issues + PRs** | [51](https://github.com/ethanplusai/sellbird/issues) |
 | 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (2d ago) |
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 0.4.0: Harvey is now Sellbird
-<sub>2026-11-06 · 8d ago</sub>
+<sub>2026-11-06 · 9d ago</sub>
 
 > Harvey has a new name: **Sellbird**. Same project, same history, same maintainers. Your stars, forks and issues are all here, and every old `github.com/ethanplusai/harvey` link redirects.
 > **Why the new name?** The name Harvey belongs to another AI company, so this open-source project needed a name of its own. Nothing about how it works has changed. More at [sellbird.ai/harvey](https://sellbird.ai/harvey/).

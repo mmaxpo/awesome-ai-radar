@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 67.3k |
+| ⭐ **Stars** | 67.5k |
 | 🍴 **Forks** | 4.5k |
-| 🐞 **Open issues + PRs** | [35](https://github.com/cathrynlavery/diagram-design/issues) |
+| 🐞 **Open issues + PRs** | [37](https://github.com/cathrynlavery/diagram-design/issues) |
 | 💻 **Languages** | HTML 58% · Python 42% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `claude-code` `codex` `data-visualization` `diagrams` `drawio` `mermaid` `svg` |
-| 🕒 **Last activity** | 2026-11-12 (2d ago) |
+| 🕒 **Last activity** | 2026-11-12 (3d ago) |
 | 📅 **Created** | 2026-04-16 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

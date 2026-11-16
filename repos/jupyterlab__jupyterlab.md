@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 89% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 311.5 MB |
+| 💾 **Size** | 311.4 MB |
 | 🌐 **Website** | https://jupyterlab.readthedocs.io/ |
 
 ## 📦 Recent releases
 
 ### [v4.7.0b1](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b1) _(pre-release)_
-<sub>2026-11-06 · 8d ago</sub>
+<sub>2026-11-06 · 9d ago</sub>
 
 > **4.7.0b1**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b0...ca6210d371e287beb3735824a931824cc0048125))
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6)
-<sub>2026-11-06 · 8d ago</sub>
+<sub>2026-11-06 · 9d ago</sub>
 
 > **4.6.6**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.5...a5eab3ae655dd8cea81618efc936e110d3b22037))
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.6.5](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.5)
-<sub>2026-10-29 · 16d ago</sub>
+<sub>2026-10-29 · 17d ago</sub>
 
 > **4.6.5**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.4...9f5590d07b9a63402a628fe758654f30ee59c2e4))
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Fix typo in extension tutorial (#20513)](https://github.com/jupyterlab/jupyterlab/commit/4b69f6286fcbbfa114d108d26a6459aec18e7324) | meeseeksmachine |
+| 2026-11-16 | [Improve the display of settings when searching (#20497)](https://github.com/jupyterlab/jupyterlab/commit/3e61fccb9b61bcaf7f3bcfb914fe3f81caebb4a8) | brichet |
+| 2026-11-15 | [Disable git hooks when the snapshot bots commit (#20451)](https://github.com/jupyterlab/jupyterlab/commit/d9277aeb24e864f96ce1fdbcb61ffd43bc34f29b) | Shanmukh-l33t |
 | 2026-11-15 | [Restore language pack search in the Extension Manager (#20409)](https://github.com/jupyterlab/jupyterlab/commit/ee893522826f436c4c8763324c672ffb6c2e6727) | MUFFANUJ |
 | 2026-11-14 | [Fix flaky completer, audio/video and output limit UI tests (#20438)](https://github.com/jupyterlab/jupyterlab/commit/7e6057cff1ae5ac6e48c829b6d06d0e7aa3f11cb) | krassowski |
 | 2026-11-14 | [Move sidebar sections up and down without dragging (#20498)](https://github.com/jupyterlab/jupyterlab/commit/53693c7e2ec61d363e0ed6ed187118477fa3aebc) | r0c0y |
@@ -101,9 +104,6 @@
 | 2026-11-14 | [[pre-commit.ci] pre-commit autoupdate (#20371)](https://github.com/jupyterlab/jupyterlab/commit/579d5efab65dd2f6a4dba4df0e204c6652a56f98) | pre-commit-ci[bot] |
 | 2026-11-14 | [Bump dompurify from 3.4.16 to 3.4.17 (#20500)](https://github.com/jupyterlab/jupyterlab/commit/50c4c92ad19d0e1bba24f598250a38d9fd317d1d) | dependabot[bot] |
 | 2026-11-14 | [User-facing changelog for 4.7 release (#20457)](https://github.com/jupyterlab/jupyterlab/commit/9e14d8c3b303a46c0e9436a15971141181046461) | krassowski |
-| 2026-11-13 | [Replace "Fix License" with "Check License" job (#20421)](https://github.com/jupyterlab/jupyterlab/commit/927b0828f881f34935aca060584e6a155dce2137) | krassowski |
-| 2026-11-13 | [Add runtime model validation for terminal REST API in `@jupyterlab/se…](https://github.com/jupyterlab/jupyterlab/commit/0b39ed25ff0ab37bdd6a14cdf362b04bced743a6) | Yash990-bit |
-| 2026-11-13 | [Validate user API models in @jupyterlab/services (#19981)](https://github.com/jupyterlab/jupyterlab/commit/fd320fe79e409939a28bef811cf8afcb6ef4940f) | Yash990-bit |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 32.3k |
 | 🍴 **Forks** | 1.8k |
-| 🐞 **Open issues + PRs** | [339](https://github.com/DevToys-app/DevToys/issues) |
+| 🐞 **Open issues + PRs** | [340](https://github.com/DevToys-app/DevToys/issues) |
 | 💻 **Languages** | C# 73% · SCSS 11% · HTML 7% · JavaScript 5% · TypeScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `syntax-highlighting` `developer-tools` `windows` `windows-11` `fluent-design` `fluent` `csharp` `windows-10` `mica` `winui` `cross-platform` `desktop` `desktop-app` `desktop-application` `extensible` `linux` `macos` `blazor` `typescript` |

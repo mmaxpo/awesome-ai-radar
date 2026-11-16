@@ -26,17 +26,17 @@
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `text-editor` `zed` `gpui` `rust-lang` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2021-02-20 |
 | 📦 **Latest release** | [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 541.5 MB |
+| 💾 **Size** | 543.3 MB |
 | 🌐 **Website** | https://zed.dev |
 
 ## 📦 Recent releases
 
 ### [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1)
-<sub>2026-11-11 · 3d ago</sub>
+<sub>2026-11-11 · 4d ago</sub>
 
 > This week's release includes optional automatic Git fetching, a resizable Refs column in the Git Graph, dragging Git Panel files into terminals and editors, and mouse-wheel font zoom in diff views and terminals.
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.29.1-pre](https://github.com/zed-industries/zed/releases/tag/v1.29.1-pre) _(pre-release)_
-<sub>2026-11-11 · 3d ago</sub>
+<sub>2026-11-11 · 4d ago</sub>
 
 > This week's release includes a Git Panel branch mode that lists every file changed since a base branch, a bookmark picker, configurable Git date formats, support for Claude Fable 5.2 for Anthropic BYOK users (plus Claude Mythos 5.2 if your organization has access), and a setting to turn off automatic agent thread titles.
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.27.0](https://github.com/zed-industries/zed/releases/tag/v1.27.0)
-<sub>2026-11-04 · 10d ago</sub>
+<sub>2026-11-04 · 11d ago</sub>
 
 > This week's release includes syntax highlighting for Go 1.27 generic methods, an option to open README files by default, and AI commit messages that follow your repository's recent commit style.
 > **Features**
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.28.0-pre](https://github.com/zed-industries/zed/releases/tag/v1.28.0-pre) _(pre-release)_
-<sub>2026-11-04 · 10d ago</sub>
+<sub>2026-11-04 · 11d ago</sub>
 
 > This week's release includes optional automatic Git fetching, a resizable Refs column in the Git Graph, dragging Git Panel files into terminals and editors, and mouse-wheel font zoom in diff views and terminals.
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.26.2](https://github.com/zed-industries/zed/releases/tag/v1.26.2)
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > This week's release includes Pyrefly as an optional built-in Python language server, the ability to expand and inspect nested variable values directly in debugger hovers, and DWARF debugging for WebAssembly sources in the JavaScript debugger.
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [language: Reset max start depth on pooled query cursors (#66983)](https://github.com/zed-industries/zed/commit/596dfdcf32d85d4d8d17a8887b4d0979ec7c5e14) | ptweezy |
-| 2026-11-15 | [fuzzy: Move segment results instead of cloning them (#66982)](https://github.com/zed-industries/zed/commit/5f27a0a02ab0f66755a15871b55f2cd8069325e0) | ptweezy |
-| 2026-11-15 | [agent: Read buffer length without copying the text (#66981)](https://github.com/zed-industries/zed/commit/fb62376caa2fdaeb383e1b89ffa5810fb41c4dbd) | ptweezy |
-| 2026-11-15 | [Fix antialiased outline compositing on Windows (#66972)](https://github.com/zed-industries/zed/commit/e2f00a41ac6789f0ae52b229567ad5715266e400) | wangdiandao |
-| 2026-11-14 | [Update ACP SDK to 5.3.0 and follow schema 1.18 rule changes (#66979)](https://github.com/zed-industries/zed/commit/703b5ac3f4ffe1e87a073123ae56e22f72f095c4) | benbrandt |
-| 2026-11-14 | [Fix R extension recommendations for unsupported file types (#66928)](https://github.com/zed-industries/zed/commit/15d136bf8e72ae43b284183ec46940c009460f5c) | bennetbo |
-| 2026-11-14 | [language: Reset unused-code state when seeking buffer chunks (#66977)](https://github.com/zed-industries/zed/commit/56a157e5b01b62afd5c50a014ed15b379de8dfd6) | ptweezy |
-| 2026-11-14 | [editor: Avoid cloning line text before shaping (#66978)](https://github.com/zed-industries/zed/commit/62cb1ac7b123ed6ec7be06f17b51f516583d2f8a) | ptweezy |
-| 2026-11-14 | [editor: Build completion sort keys once per match (#66959)](https://github.com/zed-industries/zed/commit/4cc3e27d9d348736cc6e0cd1c32ed94416902e95) | ptweezy |
-| 2026-11-14 | [fs: Optimize filesystem watcher path matching (#66973)](https://github.com/zed-industries/zed/commit/99c890d39d336052d9dae34c7914b55ee82abc5f) | RemcoSmitsDev |
+| 2026-11-16 | [agent_ui: Keep focus when background threads auto-send queued message…](https://github.com/zed-industries/zed/commit/d39178f6c9e6adeb68e7a0df0b2a5b7d7bd35877) | daejey |
+| 2026-11-16 | [Preserve mid-conversation system prompt updates (#66490)](https://github.com/zed-industries/zed/commit/89d3da65789d8728d01a82d284924334418065f7) | bennetbo |
+| 2026-11-16 | [Highlight high-merge-rate authors on the community PRs board (#67038)](https://github.com/zed-industries/zed/commit/99dd426cba792530d1b79ee0c4241c9076e7045f) | zelenenka |
+| 2026-11-16 | [Fix duplicate language server notifications (#67021)](https://github.com/zed-industries/zed/commit/430a781076180308af99fdd94f3ffabc8bccec90) | xsadia |
+| 2026-11-16 | [agent: Prompt for `always_confirm` patterns on in-project file edits …](https://github.com/zed-industries/zed/commit/12c1fc907f8f55971ecc61bd3905549f4d043f89) | benbrandt |
+| 2026-11-16 | [fs: Reduce time spend for hashing WatchKey in `watcher_ids_covering` …](https://github.com/zed-industries/zed/commit/6c7508a133cba5c93fb182e9d9efdfb392abf68d) | RemcoSmitsDev |
+| 2026-11-16 | [Unifying agent instructions to AGENTS.md (#66716)](https://github.com/zed-industries/zed/commit/a57e2fdc389a3e513a6d5f5a7564ebe2fd33fc88) | Sha1rholder |
+| 2026-11-16 | [agent_ui: Check for an empty message without copying the text (#67020)](https://github.com/zed-industries/zed/commit/053d91cb14b5fd138f221ec02bd76efb15e7b2af) | ptweezy |
+| 2026-11-16 | [util: Avoid allocating when sorting paths by extension (#67019)](https://github.com/zed-industries/zed/commit/125ca8672e928b19a62c2e4b761fb29fe2a34ae3) | ptweezy |
+| 2026-11-16 | [util: Return early from natural_sort for equal strings (#67016)](https://github.com/zed-industries/zed/commit/310bba2f2f88d2bb9f2369039bdb6bf89426da1b) | ptweezy |
 
 [See all commits ↗](https://github.com/zed-industries/zed/commits)
 

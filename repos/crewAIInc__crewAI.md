@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 60.9k |
+| ⭐ **Stars** | 61.0k |
 | 🍴 **Forks** | 9.2k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/crewAIInc/crewAI/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 300.6 MB |
+| 💾 **Size** | 300.7 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40)
-<sub>2026-11-11 · 3d ago</sub>
+<sub>2026-11-11 · 4d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39)
-<sub>2026-11-09 · 6d ago</sub>
+<sub>2026-11-09 · 7d ago</sub>
 
 > **What's Changed**
 > **Documentation**
@@ -67,7 +67,7 @@
 > @joaomdmoura
 
 ### [1.15.38](https://github.com/crewAIInc/crewAI/releases/tag/1.15.38)
-<sub>2026-11-08 · 6d ago</sub>
+<sub>2026-11-08 · 7d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -78,7 +78,7 @@
 > …
 
 ### [1.15.37](https://github.com/crewAIInc/crewAI/releases/tag/1.15.37)
-<sub>2026-11-07 · 8d ago</sub>
+<sub>2026-11-07 · 9d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -92,16 +92,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [fix(deps): bump dnspython and opentelemetry to patched versions (#9464)](https://github.com/crewAIInc/crewAI/commit/f4da03af1be0f61db71c8599a40c06dce98b9b48) | iris-clawd |
-| 2026-11-15 | [fix(cli): read and write .env as UTF-8 (#9445)](https://github.com/crewAIInc/crewAI/commit/127a4cb68c996326fb36c8f05431657a72b89d8a) | Pranav-Singh-Devloper |
-| 2026-11-13 | [fix(llms): keep a streamed delta when its chunk also carries usage (#…](https://github.com/crewAIInc/crewAI/commit/d7dfa0ef5ade793bd48ff7357c6eb45a45294371) | ats3v |
-| 2026-11-13 | [fix(README): update FAQ links to AMP headings (#9303)](https://github.com/crewAIInc/crewAI/commit/bc36a4df62936d57addae345a942e503d2b4bd1d) | TejasLamba2006 |
-| 2026-11-13 | [fix(tools): honor caller-provided Weaviate headers (#9348)](https://github.com/crewAIInc/crewAI/commit/bb0ecba1c1028f81d001f7ad699f37498fb14dc6) | Kiko0301 |
-| 2026-11-13 | [fix(cli): exit with the uv status when crewai install fails (#9346)](https://github.com/crewAIInc/crewAI/commit/dd3feccac1f4b93d748aa196c53aa61ee787a17a) | Kiko0301 |
-| 2026-11-13 | [fix(core): read pyproject.toml as utf-8 in project helpers (#9414)](https://github.com/crewAIInc/crewAI/commit/e72ac1747c8ef19a1d1fb8ecc7a19d780ee93eb0) | adityajai119 |
-| 2026-11-13 | [fix(project): accept an llm mapping in agents.yaml (#9421)](https://github.com/crewAIInc/crewAI/commit/b5ea88bfa18c73784d94dee77c7f261abb454a16) | adityajai119 |
-| 2026-11-13 | [fix(deps): raise soupsieve floor to 4.0 for CVE-2026-126190 (#9423)](https://github.com/crewAIInc/crewAI/commit/c6809a33e67a96c4fd800ca5871622158c46cc4e) | iris-clawd |
-| 2026-11-12 | [feat(cli): pick tools for standalone agents and add them later (#9339)](https://github.com/crewAIInc/crewAI/commit/9b38b5453c41feea94c3f88793fcf484d297bb0a) | lorenzejay |
+| 2026-11-16 | [fix(experimental): read the experiment baseline as UTF-8 (#9297)](https://github.com/crewAIInc/crewAI/commit/758b2c1d527e433750c46a06baa93708057d9d4d) | lxcxjxhx |
+| 2026-11-16 | [fix(utilities): prefix sanitized tool names that start with a digit (…](https://github.com/crewAIInc/crewAI/commit/facbad10df94611158fb76d43670046642b298eb) | HhH666-ux |
+| 2026-11-16 | [fix(memory): count scoped LanceDB records exactly above 50,000 rows (…](https://github.com/crewAIInc/crewAI/commit/2817a951f308bf477d4b221d3f3047ade3f97b61) | Varshith-Kali |
+| 2026-11-15 | [fix(tools): report Serply's hybrid flag from its own field (#9358)](https://github.com/crewAIInc/crewAI/commit/364b87959014b51933f59ed1a95f463d19224f36) | Kiko0301 |
+| 2026-11-15 | [fix(tools): let TavilyResearchTool's configured defaults apply (#9359)](https://github.com/crewAIInc/crewAI/commit/ab8588771a6077f8620590306999f683278fb431) | Kiko0301 |
+| 2026-11-15 | [fix(rag): normalize flat Chroma metadata filters (#9403)](https://github.com/crewAIInc/crewAI/commit/bf6fd3a0972dd72fe1ff568c243e87e3b8408d35) | jjhong011001 |
+| 2026-11-15 | [fix(rag): handle CSV record newlines without translating cell values …](https://github.com/crewAIInc/crewAI/commit/f98e2923a0b4523fbd11994ae6b1093beb338fb2) | lakers-abing |
+| 2026-11-15 | [fix(project): load json crew and agent files saved with a utf-8 bom (…](https://github.com/crewAIInc/crewAI/commit/574a09e84c3ba7823914a1df526723138d589f6f) | adityajai119 |
+| 2026-11-15 | [fix(task): preserve validated converter output in the configured form…](https://github.com/crewAIInc/crewAI/commit/c5733e9aae3f6554174abfb9f48a9cf20829dc10) | jjhong011001 |
+| 2026-11-15 | [docs(edge): align crew endpoint path with runtime example (#9432)](https://github.com/crewAIInc/crewAI/commit/36f28c018af8db02f9134b5e75f1fc42fee85d3f) | xu-song |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

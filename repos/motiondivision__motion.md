@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 35.2k |
-| 🍴 **Forks** | 1.5k |
+| ⭐ **Stars** | 35.3k |
+| 🍴 **Forks** | 1.6k |
 | 🐞 **Open issues + PRs** | [11](https://github.com/motiondivision/motion/issues) |
 | 💻 **Languages** | TypeScript 79% · HTML 17% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `animation` `animation-js` `motion` `react` `reactanimations` `spring` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2018-11-16 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1628.9 MB |
+| 💾 **Size** | 1629.0 MB |
 | 🌐 **Website** | https://motion.dev |
 
 ## 📦 Recent releases

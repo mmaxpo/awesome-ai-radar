@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 68.9k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [35](https://github.com/openinterpreter/openinterpreter/issues) |
+| 🐞 **Open issues + PRs** | [36](https://github.com/openinterpreter/openinterpreter/issues) |
 | 💻 **Languages** | Rust 97% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `coding-agent` `deepseek` `kimi` `qwen` `rust` `acp` `python` |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2023-07-14 |
 | 📦 **Latest release** | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 313.4 MB |
+| 💾 **Size** | 299.1 MB |
 | 🌐 **Website** | http://openinterpreter.com/ |
 
 ## 📦 Recent releases
 
 ### [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — Open Interpreter 0.0.61
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > **Open Interpreter 0.0.61**
 > **Models**
@@ -47,7 +47,7 @@
 > …
 
 ### [rust-v0.0.60](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.60) — Open Interpreter 0.0.60
-<sub>2026-11-09 · 6d ago</sub>
+<sub>2026-11-09 · 7d ago</sub>
 
 > **Open Interpreter 0.0.60**
 > **Models**
@@ -58,7 +58,7 @@
 > …
 
 ### [rust-v0.0.59](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.59) — Open Interpreter 0.0.59
-<sub>2026-11-04 · 11d ago</sub>
+<sub>2026-11-04 · 12d ago</sub>
 
 > **Open Interpreter 0.0.59**
 > **Models**
@@ -69,7 +69,7 @@
 > …
 
 ### [rust-v0.0.58](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.58) — Open Interpreter 0.0.58
-<sub>2026-11-01 · 14d ago</sub>
+<sub>2026-11-01 · 15d ago</sub>
 
 > **Open Interpreter 0.0.58**
 > **Models**
@@ -80,7 +80,7 @@
 > …
 
 ### [rust-v0.0.57](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.57) — Open Interpreter 0.0.57
-<sub>2026-10-31 · 14d ago</sub>
+<sub>2026-10-31 · 15d ago</sub>
 
 > **Open Interpreter 0.0.57**
 > **Models**

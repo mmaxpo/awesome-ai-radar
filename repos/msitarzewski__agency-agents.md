@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Library of ready-made specialist agent personas |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 168.4k |
-| 🍴 **Forks** | 27.3k |
-| 🐞 **Open issues + PRs** | [251](https://github.com/msitarzewski/agency-agents/issues) |
+| ⭐ **Stars** | 168.7k |
+| 🍴 **Forks** | 27.4k |
+| 🐞 **Open issues + PRs** | [256](https://github.com/msitarzewski/agency-agents/issues) |
 | 💻 **Languages** | Shell 84% · Python 15% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-09 (6d ago) |
+| 🕒 **Last activity** | 2026-11-09 (7d ago) |
 | 📅 **Created** | 2025-10-13 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

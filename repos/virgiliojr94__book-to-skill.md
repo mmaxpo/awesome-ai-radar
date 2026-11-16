@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Turn books into agent skills |
 | **Added** | 2026-11-14 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 37.9k |
+| ⭐ **Stars** | 38.1k |
 | 🍴 **Forks** | 4.0k |
-| 🐞 **Open issues + PRs** | [30](https://github.com/virgiliojr94/book-to-skill/issues) |
+| 🐞 **Open issues + PRs** | [36](https://github.com/virgiliojr94/book-to-skill/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `context-engineering` `document-processing` `edtech` `knowledge-base` `knowledge-management` `llm` `pdf-to-markdown` `rag` `self-study` `study-tools` `book-to-skill` |
-| 🕒 **Last activity** | 2026-11-08 (6d ago) |
+| 🕒 **Last activity** | 2026-11-08 (7d ago) |
 | 📅 **Created** | 2026-05-01 |
 | 📦 **Latest release** | [v1.4.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.4.0) — 2026-08-10 |
 | 🌿 **Default branch** | `master` |

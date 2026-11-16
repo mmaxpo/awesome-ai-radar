@@ -14,24 +14,37 @@
 | **Why it's worth a look** | Kimi K3 inference on a single CPU, written in C |
 | **Added** | 2026-11-14 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 12.1k |
+| ⭐ **Stars** | 12.2k |
 | 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [33](https://github.com/FareedKhan-dev/kimi-k3-in-c/issues) |
-| 💻 **Languages** | C 71% · Python 20% · Shell 5% · Makefile 2% · CMake 2% |
+| 🐞 **Open issues + PRs** | [3](https://github.com/FareedKhan-dev/kimi-k3-in-c/issues) |
+| 💻 **Languages** | C 69% · Python 23% · Shell 4% · Makefile 3% · CMake 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `avx2` `c99` `cpu-inference` `deep-learning` `from-scratch` `inference-engine` `kimi-k3` `linear-attention` `llm` `llm-inference` `machine-learning` `memory-efficient` `mixture-of-experts` `moe` `mxfp4` `quantization` `simd` `systems-programming` `transformer` `zero-dependencies` |
-| 🕒 **Last activity** | 2026-10-02 (1mo ago) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-08-01 |
-| 📦 **Latest release** | [v1.1.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/releases/tag/v1.1.0) — 2026-10-02 |
+| 📦 **Latest release** | [v2.0.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/releases/tag/v2.0.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 31.0 MB |
+| 💾 **Size** | 31.4 MB |
 | 🌐 **Website** | https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59 |
 
 ## 📦 Recent releases
+
+### [v2.0.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/releases/tag/v2.0.0)
+<sub>2026-11-15 · today</sub>
+
+> Long prompts stop being a one-core job, and a large round of fixes, most of them from outside contributors, makes everything that loads, parses, measures or certifies refuse a wrong input instead of quietly using it. Output is unchanged wherever it was already defined: every oracle gate still matches the PyTorch reference exactly, at any thread count.
+> **Compatibility notes, which are why this is 2.0.0:**
+> - `--save-state` files are now version 3, with the header inside the checksum. A version 2 file is refused rather than read; regenerate it with `--gen 0 --incremental --save-state`.
+> - MLA scratch grew: the score term of `k3_mla_scratch_cached()` is now H*T floats. Code that sizes scratch through the helpers is unaffected. `K3Cache` gained fields, so rebuild anything that embeds it.
+> - Chat sampling with both `--top-k` and `--top-p` measures the nucleus after top-k, as the Hugging Face and vLLM samplers do, so a fixed-seed run using both flags samples differently.
+> - Malformed numeric flags (`--gen 1junk`, an empty `--seed`, `--stop-id 4294967296`) exit 2 instead of being parsed leniently, and a prompt longer than 32,768 ids is refused instead of truncated.
+> …
 
 ### [v1.1.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/releases/tag/v1.1.0)
 <sub>2026-10-02 · 1mo ago</sub>
@@ -64,16 +77,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-10-02 | [docs(readme): move the contributor wall to the top](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/81bb6c23ccee2154bc35cad922588ab66494a9a9) | FareedKhan-dev |
-| 2026-10-02 | [fix(trunk): charge a prefetched layer to the bind that reaches it](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/7721a1b1661f8a153634e27a7b0ba0327ef37d08) | FareedKhan-dev |
-| 2026-10-02 | [docs: show contributors and star history in the README](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/fd8bf5219fae5de680dceafef09560057ecec6b2) | FareedKhan-dev |
-| 2026-10-02 | [docs(contributors): credit Deobot2 for the trunk pinning work](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/358dfcca0e78c82e42dc6d7c4c5cb775aecd856f) | FareedKhan-dev |
-| 2026-10-02 | [release: v1.1.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/1025d9e4990b211ec501b9bc17e9fdc43dcb4c14) | FareedKhan-dev |
-| 2026-10-02 | [docs: say how much free memory a preset needs, not only its peak RSS](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/e5dc42f44413a56b696f46f1909b6ab6d348f2d0) | FareedKhan-dev |
-| 2026-10-02 | [docs: catch the README up with the CLI, and record this round](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/1ae4d62c21814342b49c48e42bbc825f1865e3a8) | FareedKhan-dev |
-| 2026-10-02 | [feat(scripts): fetch only the shards a --layers N run needs](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/0838cb4cc45f836adaf45ba1efeae8586baf2f7e) | FareedKhan-dev |
-| 2026-10-02 | [perf(cache): split each expert read into 1 MiB chunks](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/916c0e716693ede4f84739b866ef266eea9b3dd1) | FareedKhan-dev |
-| 2026-10-02 | [fix(cli): let --preset auto start on large machines, and add --threads](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/64bf532edb9db39820faf853e01d07f94b1edeec) | FareedKhan-dev |
+| 2026-11-16 | [docs(readme): bring the README in line with 2.0.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/b26ee8231bfa4390545ef2aec3576fd834b92ba7) | FareedKhan-dev |
+| 2026-11-15 | [docs(readme): add the 2.0.0 contributors to the wall](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/a228989932f4b1ab497f11a14f62f4a78d825573) | FareedKhan-dev |
+| 2026-11-15 | [docs(changelog): record the full-model check on the released checkpoint](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/6cffb4113bd420627256471b4745cf8b51051e21) | FareedKhan-dev |
+| 2026-11-15 | [release: v2.0.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/e16de10e63e74e7a4b39905f14b39cbae0d2c8c5) | FareedKhan-dev |
+| 2026-11-15 | [docs(termux): drop the /tmp workaround and list the files parity needs](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/c5430ce3c81738a187f0070f5e3217a80792dee3) | FareedKhan-dev |
+| 2026-11-15 | [docs: add Termux (Android ARM64) build guide (#109)](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/82e28f68f30fbdb5f682bff8cce23afa8ecef986) | mechmind-dwv |
+| 2026-11-15 | [perf(mla): run the attention heads in parallel, bit-identical to the …](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/921f19f4ce50391d514783811bb528525b5c1ce6) | FareedKhan-dev |
+| 2026-11-15 | [fix(tools): close the JSON files cmp_logits reads](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/a63a2b70af859079c3d10cf49f91a73a71797fa6) | FareedKhan-dev |
+| 2026-11-15 | [ci: run the macOS job on macos-15](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/b60c29bbcf2b77a6d7de9455ea9bc9438d086d1d) | FareedKhan-dev |
+| 2026-11-15 | [build: make tok passes an explicit TOK_FILES through](https://github.com/FareedKhan-dev/kimi-k3-in-c/commit/c48f8333314b8da89c7b74871419dedfb62262c4) | FareedKhan-dev |
 
 [See all commits ↗](https://github.com/FareedKhan-dev/kimi-k3-in-c/commits)
 

@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 328.7 MB |
+| 💾 **Size** | 329.1 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 16d ago</sub>
+<sub>2026-10-29 · 17d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 18d ago</sub>
+<sub>2026-10-27 · 19d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.10](https://github.com/agno-agi/agno/releases/tag/v3.1.10)
-<sub>2026-10-23 · 22d ago</sub>
+<sub>2026-10-23 · 24d ago</sub>
 
 > **Changelog**
 > **Bug Fixes:**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.1.9](https://github.com/agno-agi/agno/releases/tag/v3.1.9)
-<sub>2026-10-22 · 23d ago</sub>
+<sub>2026-10-22 · 24d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [fix: pin httpx2<2.16.1 so mistralai imports again (#11703)](https://github.com/agno-agi/agno/commit/3cb5054ae5f8b20b50abe9e3e7364ae1ccf8cee1) | sannya-singal |
+| 2026-11-16 | [chore: correct two docstrings that promise a returned tuple (#11550)](https://github.com/agno-agi/agno/commit/53cd81e884847341a0815b4a94b8ec8a79f478bd) | lxcxjxhx |
+| 2026-11-16 | [fix: count real lines in Workspace.read_file so max_file_lines accept…](https://github.com/agno-agi/agno/commit/b19cf8833073f7181a9a797104895e0f7816dac2) | DZH166 |
+| 2026-11-16 | [[fix] Exclude trailing line separator from FileTools.read_file line c…](https://github.com/agno-agi/agno/commit/beec536335a34c3d4a5e1f9112eb0d8e82dacad3) | ansh-rohilla |
+| 2026-11-16 | [[fix] Preserve literal hashes in page heading context (#10819)](https://github.com/agno-agi/agno/commit/7384c286becd32986b18171d4b66a89042063cb1) | Yuilona |
+| 2026-11-16 | [[fix] Read Office uploads with non-string temporary stream names (#10…](https://github.com/agno-agi/agno/commit/0b0ace90cdf3864e726d2676d7226b1959f471b2) | rudycelekli |
+| 2026-11-15 | [feat: read the Company file tree through the Company API (#11612)](https://github.com/agno-agi/agno/commit/7e87bf6fd89753ec825b1e5befc87c7f5483ef6b) | ashpreetbedi |
 | 2026-11-14 | [fix: add timeout parameter to Linear, Discord and ModelsLab tools (#1…](https://github.com/agno-agi/agno/commit/7c3b729667e66282f0d845adbd507ee07242c5eb) | ansh-rohilla |
 | 2026-11-14 | [fix: reject page 0 on /traces and apply limit without page in JSON tr…](https://github.com/agno-agi/agno/commit/005abcd4a8de617795256ac7458099ee691991f6) | nightcityblade |
 | 2026-11-14 | [[fix] Keep an explicit db_engine in SQLTools when connection fields a…](https://github.com/agno-agi/agno/commit/1849efb8072feb55ddab075de7cf7471ce1a2d1b) | desty |
-| 2026-11-14 | [chore: auto-close issues past 5 per user in 24 hours (#11676)](https://github.com/agno-agi/agno/commit/439da90695d16d469b3b1963913ab1ad6e6a9648) | ysolanky |
-| 2026-11-13 | [test: retry the metrics refresh until it runs in the Claude and Codex…](https://github.com/agno-agi/agno/commit/453497088ba3b77db8c48770de31df7d899b8018) | harshsinha03 |
-| 2026-11-13 | [fix: Correct the v1 to v2 migration paths and add the v2 to v3 migrat…](https://github.com/agno-agi/agno/commit/2432bf2a7081d1e521cae1ab8332c8dde3ec4a28) | stra1g |
-| 2026-11-13 | [feat: list a session's compactions from AgentOS (#11617)](https://github.com/agno-agi/agno/commit/60bb49b62503cdaa12d7c1008b12aa7a31806f1f) | anuragts |
-| 2026-11-13 | [fix: add cost metric support to OpenRouterResponses (#9568)](https://github.com/agno-agi/agno/commit/878151ba85c7bec6f0df7edfa1bbc0e025fdd5c1) | aayush598 |
-| 2026-11-13 | [[fix] Make ExaTools pass the Exa options it accepts, and add the miss…](https://github.com/agno-agi/agno/commit/0ade84db16da8d63740192e1019c264fa9caa168) | ormeilu |
-| 2026-11-12 | [[fix] Remove silent token caps from routed providers (#10723)](https://github.com/agno-agi/agno/commit/c9bf62ff3addfdc48bbdd97e651623e5ced3d8ec) | FanouZeng-TT |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

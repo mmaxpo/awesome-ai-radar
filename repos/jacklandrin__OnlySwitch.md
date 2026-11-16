@@ -26,17 +26,39 @@
 | 💻 **Languages** | Swift 80% · HTML 14% · JavaScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `macos` `swiftui` `statusbar` `menubar-app` `notch` `audioplayer` `dark-mode` `pomodoro-timer` `shortcuts` `composable-architecture` `stagemanager` `widgetkit` `widgets` `ai` `ai-agents` `remote-control` `systemmonitor` `claude-code` `codex` `screenshot` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2021-11-30 |
-| 📦 **Latest release** | [release_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.6.0) — 2026-11-10 |
+| 📦 **Latest release** | [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 60.0 MB |
+| 💾 **Size** | 60.1 MB |
 | 🌐 **Website** | https://onlyswitch.click/ |
 
 ## 📦 Recent releases
 
+### [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 3.7.0
+<sub>2026-11-16 · today</sub>
+
+> New features:
+> * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
+> * Added Desktop Pet settings with configurable click actions and Codex/Claude Code activity monitoring.
+> * Added desktop pet hunger, feeding, and petting, with an option to turn hunger off.
+> * Create, preview, select, and edit custom desktop pet skins with AI.
+> Improvement:
+> …
+
+### [beta_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.7.0) _(pre-release)_
+<sub>2026-11-15 · today</sub>
+
+> New features:
+> * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
+> * Added Desktop Pet settings with configurable click actions and Codex/Claude Code activity monitoring.
+> * Added desktop pet hunger, feeding, and petting, with an option to turn hunger off.
+> * Create, preview, select, and edit custom desktop pet skins with AI.
+> Improvement:
+> …
+
 ### [release_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.6.0)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > New features:
 > 1. Screenshots tab supported video recording
@@ -47,7 +69,7 @@
 > …
 
 ### [beta_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.6.0) _(pre-release)_
-<sub>2026-11-08 · 6d ago</sub>
+<sub>2026-11-08 · 7d ago</sub>
 
 > New features:
 > * Supported screen record
@@ -57,7 +79,7 @@
 > * Fix screenshots & record button issue
 
 ### [release_3.5.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.5.0)
-<sub>2026-11-06 · 8d ago</sub>
+<sub>2026-11-06 · 9d ago</sub>
 
 > New features:
 > * Added Schedule mode
@@ -67,40 +89,20 @@
 > * Desk pet supported to open Apple Music and Spotify
 > …
 
-### [beta_3.5.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.5.0) _(pre-release)_
-<sub>2026-11-04 · 10d ago</sub>
-
-> New features:
-> 1. Task Schedule
-> 2. The Desk pet can hide on the screen edge
-> 3. Dim screen supported external screens
-> 4. The brightness value can be input on the tab
-
-### [release_3.4.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.4.0)
-<sub>2026-11-02 · 12d ago</sub>
-
-> New features:
-> 1. Radio accesses Radio Browser API
-> 2. Desk pet can show the music information
-> 3. Top sticker supports checklist
-> 4. Supported OnlyRemote for screenshots
-> Improvement:
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [docs: document OnlySwitch 3.7.0 features and advance release build](https://github.com/jacklandrin/OnlySwitch/commit/de4eb6b4878ae7d320808932613d353e6686f2d2) | jacklandrin |
+| 2026-11-16 | [perf: show the Dock preview sooner without misplacing it](https://github.com/jacklandrin/OnlySwitch/commit/af7211b72abc218205038ee38ccc6f231c6512ef) | jacklandrin |
+| 2026-11-16 | [chore: bump build number to 314](https://github.com/jacklandrin/OnlySwitch/commit/0e155dc1ad41c47e7669bc156bf7e79763b7e508) | jacklandrin |
+| 2026-11-16 | [feat: detect updates by build number and check hourly](https://github.com/jacklandrin/OnlySwitch/commit/f2fb849a6b564371e310043280f7ceb69c0738a7) | jacklandrin |
+| 2026-11-15 | [Fix background noise playback and loading state](https://github.com/jacklandrin/OnlySwitch/commit/ff711c471f163f7b369885792598830c7ebc5650) | jacklandrin |
 | 2026-11-14 | [feat: submit the desktop pet prompt with Return](https://github.com/jacklandrin/OnlySwitch/commit/2db3c8b981613a49080838ece7b66b89235f0763) | jacklandrin |
 | 2026-11-14 | [fix: align the desktop pet prompt placeholder with the caret](https://github.com/jacklandrin/OnlySwitch/commit/29625e41cbed0ecc93e433005c864796eddc4fcf) | jacklandrin |
 | 2026-11-14 | [fix: fence the current pet markup in the edit prompt and polish edit …](https://github.com/jacklandrin/OnlySwitch/commit/8dbe2fe3a93830f138426f728135d280d48f6eba) | jacklandrin |
 | 2026-11-14 | [feat: edit generated desktop pets with AI](https://github.com/jacklandrin/OnlySwitch/commit/343d4b1f1bd49a969989a8d4d8d523b4e8b1776b) | jacklandrin |
 | 2026-11-14 | [fix: keep the desktop pet delete button separate from row selection](https://github.com/jacklandrin/OnlySwitch/commit/0f5731b4111dfdbbeefb5beca7ef63f178fc4c38) | jacklandrin |
-| 2026-11-14 | [feat: list desktop pets with live previews in Settings](https://github.com/jacklandrin/OnlySwitch/commit/9cf5ca86771a6818021f10227bf140b8c497dc3e) | jacklandrin |
-| 2026-11-14 | [fix: fall back to the built-in pet when the selected skin vanished](https://github.com/jacklandrin/OnlySwitch/commit/4c4eb2cccc4435d32e4fcd3e91a50e8106011793) | jacklandrin |
-| 2026-11-14 | [fix: tear down the skin web view while the desktop pet is hidden](https://github.com/jacklandrin/OnlySwitch/commit/4f51d6c30c26345bb7b310fd59cd70c80276c7d9) | jacklandrin |
-| 2026-11-14 | [fix: close encoded and SVG bypasses in the desktop pet skin validator](https://github.com/jacklandrin/OnlySwitch/commit/17f269dd80776d2a9cd9e87be678839d5e649c44) | jacklandrin |
-| 2026-11-14 | [feat: create and choose AI-generated desktop pet skins](https://github.com/jacklandrin/OnlySwitch/commit/8090e08449efc0df17dd2f57d2cdf9a8ac54bb53) | jacklandrin |
 
 [See all commits ↗](https://github.com/jacklandrin/OnlySwitch/commits)
 

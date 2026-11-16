@@ -22,27 +22,27 @@
 |---|---|
 | ⭐ **Stars** | 13.9k |
 | 🍴 **Forks** | 771 |
-| 🐞 **Open issues + PRs** | [507](https://github.com/tinacms/tinacms/issues) |
+| 🐞 **Open issues + PRs** | [494](https://github.com/tinacms/tinacms/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `cms` `nextjs` `react` `content-management-system` `tinacms` `markdown` `typescript` `tina` `forestry` |
-| 🕒 **Last activity** | 2026-11-14 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2019-07-23 |
 | 📦 **Latest release** | [tinacms@3.15.2](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.2) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 923.1 MB |
+| 💾 **Size** | 921.9 MB |
 | 🌐 **Website** | https://tina.io |
 
 ## 📦 Recent releases
 
 ### [tinacms@3.15.2](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.2)
-<sub>2026-11-09 · 6d ago</sub>
+<sub>2026-11-09 · 7d ago</sub>
 
 > **Patch Changes**
 > - [#7994](https://github.com/tinacms/tinacms/pull/7994) [`c91c528`](https://github.com/tinacms/tinacms/commit/c91c528f51171ee8a5955831738c2ece5ef8bed2) Thanks [@Tyagiquamar](https://github.com/Tyagiquamar)! - Focus the reference field combobox when visual editing selects it. The reference field ignored `experimental_focusIntent`, so clicking a reference in the preview opened the sidebar without focusing anything.
 
 ### [@tinacms/cli@4.0.5](https://github.com/tinacms/tinacms/releases/tag/%40tinacms/cli%404.0.5)
-<sub>2026-11-09 · 6d ago</sub>
+<sub>2026-11-09 · 7d ago</sub>
 
 > **Patch Changes**
 > - [#8019](https://github.com/tinacms/tinacms/pull/8019) [`a547b2f`](https://github.com/tinacms/tinacms/commit/a547b2f77b2b4807a4d4fb5feb1a9ecb73c046d1) Thanks [@joshbermanssw](https://github.com/joshbermanssw)! - Cap Rollup's `maxParallelFileOps` at 100 in the production admin build, so `tinacms build` no longer fails with `EMFILE: too many open files` on hosts with a 1024 open-file limit, such as Cloudflare Workers Builds.
@@ -51,7 +51,7 @@
 >   - tinacms@3.15.2
 
 ### [tinacms@3.15.1](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.1)
-<sub>2026-11-01 · 13d ago</sub>
+<sub>2026-11-01 · 14d ago</sub>
 
 > **Patch Changes**
 > - [`124567b`](https://github.com/tinacms/tinacms/commit/124567b2e75e0f00b8d040d096532d8c6176f08f) Thanks [@Tyagiquamar](https://github.com/Tyagiquamar)! - Fix empty, index-less active field group when clicking a tinaField targeting an object list with fields.
@@ -60,7 +60,7 @@
 >   - @tinacms/mdx@2.4.2
 
 ### [@tinacms/mdx@2.4.2](https://github.com/tinacms/tinacms/releases/tag/%40tinacms/mdx%402.4.2)
-<sub>2026-11-01 · 13d ago</sub>
+<sub>2026-11-01 · 14d ago</sub>
 
 > **Patch Changes**
 > - [#7951](https://github.com/tinacms/tinacms/pull/7951) [`80502f8`](https://github.com/tinacms/tinacms/commit/80502f86b0224fb67ec05f0644db71bf5d38fde4) Thanks [@joshbermanssw](https://github.com/joshbermanssw)! - Fix saving a rich-text field that contains an empty bullet.
@@ -69,7 +69,7 @@
 >   Number and boolean values must be real numbers or booleans. If one is not, the save fails with a message that names the field. If you clear a number field, Tina saves it as `null`. Tina drops a highlight colour that contains characters a CSS colour cannot have, and the text stays highlighted.
 
 ### [@tinacms/mdx@2.4.1](https://github.com/tinacms/tinacms/releases/tag/%40tinacms/mdx%402.4.1)
-<sub>2026-10-27 · 19d ago</sub>
+<sub>2026-10-27 · 20d ago</sub>
 
 > **Patch Changes**
 > - [#7319](https://github.com/tinacms/tinacms/pull/7319) [`40cf662`](https://github.com/tinacms/tinacms/commit/40cf6628da02f81bd0cb5994a3ed78b71cba699a) Thanks [@Osamaali313](https://github.com/Osamaali313)! - Fix a crash when parsing rich-text containing an `image` field with `list: true`. The image-list branch called `.split(',')` on the array returned by `extractScalar`, throwing `TypeError: values.split is not a function`; the error was wrapped as a parse failure, so the block became an `invalid_markdown` node (content dropped in the editor) or failed `tinacms build`. It now maps over the array like the other list field types.
@@ -79,16 +79,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [feat(v4): browse a collection's documents in a table with folders and…](https://github.com/tinacms/tinacms/commit/87860ba11070b3ba004e14fc5d1c6e142f4290c8) | joshbermanssw |
+| 2026-11-16 | [feat(v4): search through TinaCloud with tinaCloud({ search }) (#8057)](https://github.com/tinacms/tinacms/commit/e1f226455d573b4415062aba33bcd62379f95f1a) | joshbermanssw |
+| 2026-11-16 | [fix(tinacms): recover when creating a branch fails in the branch swit…](https://github.com/tinacms/tinacms/commit/04635762a184ae3ae5242828145d24f19c873a45) | officialasishkumar |
+| 2026-11-16 | [fix(cli): wait for the datalayer server to listen before connecting (…](https://github.com/tinacms/tinacms/commit/995d1dc9b5917ea763aa865f62d0e53e8ed4e5c7) | officialasishkumar |
+| 2026-11-15 | [fix(graphql): index an unquoted date in a string field (#8023)](https://github.com/tinacms/tinacms/commit/f4e222ad0ef301ac83342e5096d7f53e701a3472) | officialasishkumar |
+| 2026-11-15 | [fix(graphql): build index key range when eq filters cover leading fie…](https://github.com/tinacms/tinacms/commit/f5a5746094071ed46d6865fba9a92d05fc92b697) | PranjalGoyal06 |
+| 2026-11-15 | [fix(tinacms): clear the preview URL poll on unmount (#8010)](https://github.com/tinacms/tinacms/commit/d58251fe0e641ecc28c7a444a0f934c3a1de4344) | sarahanntolsma-ff |
+| 2026-11-15 | [fix(v4): keep the barebones config loader open so server hooks can sa…](https://github.com/tinacms/tinacms/commit/a43bc9011251db370c61ffa0fbd7479d5c37cd4c) | joshbermanssw |
 | 2026-11-12 | [feat(v4): upload to Media with progress, cancel and retry (#8040)](https://github.com/tinacms/tinacms/commit/64e3517ec2959ca11484c35799c4f6eee2056acb) | joshbermanssw |
 | 2026-11-12 | [feat(v4): browse and manage Media in a pane (#8034)](https://github.com/tinacms/tinacms/commit/47d04d1ae9c13a9ca8c70fbd0f199310171830a2) | joshbermanssw |
-| 2026-11-12 | [feat(v4): save to a new branch on a protected or deleted branch (#8030)](https://github.com/tinacms/tinacms/commit/b9c993cfd81991d53aca7c5933a4ebd961a275fd) | joshbermanssw |
-| 2026-11-12 | [ci: run checks on merge_group and post license/cla for the merge queu…](https://github.com/tinacms/tinacms/commit/af5f7223810592f8c57c4cee411a376fc960c073) | kulesy |
-| 2026-11-12 | [chore(deps): bump minimatch from 5.1.6 to 5.1.9 (#8008)](https://github.com/tinacms/tinacms/commit/6a63b4e0c2256adca1a3fbc09e6d6c88bfc6c666) | dependabot[bot] |
-| 2026-11-11 | [feat(v4): make Home a dashboard of panels, registered as a plain scre…](https://github.com/tinacms/tinacms/commit/c500df4a4b115ddd923fb3fed3ed062a1d17b4bf) | joshbermanssw |
-| 2026-11-11 | [ci: restore the pnpm store on PRs and save it only from main pushes (…](https://github.com/tinacms/tinacms/commit/bf76cf0d886eed4cb2a157bbec934360a93b759c) | kulesy |
-| 2026-11-11 | [ci: cancel superseded PR builds and skip label-only runs (#8013)](https://github.com/tinacms/tinacms/commit/fd14fb622e5f00644a4ac24ac5ae5e923fbab86a) | kulesy |
-| 2026-11-11 | [feat(v4): add the search capability contract and defineSearchPlugin (…](https://github.com/tinacms/tinacms/commit/b312215ed84af7816f6426d492bbb3f3e64c1374) | joshbermanssw |
-| 2026-11-11 | [ci: run v4 coverage in its own job (#8039)](https://github.com/tinacms/tinacms/commit/0cae6a45eab68d9515b112711a45c39048964070) | joshbermanssw |
 
 [See all commits ↗](https://github.com/tinacms/tinacms/commits)
 

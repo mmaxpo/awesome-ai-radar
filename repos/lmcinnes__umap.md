@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 8.3k |
 | 🍴 **Forks** | 892 |
-| 🐞 **Open issues + PRs** | [545](https://github.com/lmcinnes/umap/issues) |
+| 🐞 **Open issues + PRs** | [544](https://github.com/lmcinnes/umap/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `umap` `dimensionality-reduction` `visualization` `machine-learning` `topological-data-analysis` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2017-07-02 |
 | 📦 **Latest release** | [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0) — 2026-11-10 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > **What's Changed**
 > * Embed combined models without densMAP instead of failing with KeyError by @raashish1601 in https://github.com/lmcinnes/umap/pull/1304
@@ -47,7 +47,7 @@
 > …
 
 ### [release-0.6.0rc1](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0rc1) _(pre-release)_
-<sub>2026-11-03 · 11d ago</sub>
+<sub>2026-11-03 · 12d ago</sub>
 
 > **What's Changed**
 > * Preserve input dtype in transform and fit_transform output by @sebastianbreguel in https://github.com/lmcinnes/umap/pull/1253
@@ -86,16 +86,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Merge pull request #1347 from rishi02102017/sparse-precomputed-exact-k](https://github.com/lmcinnes/umap/commit/27f4b2a096a0341371e0707a7261b2e61f3c9151) | lmcinnes |
 | 2026-11-14 | [Merge pull request #1348 from lmcinnes/whats_new](https://github.com/lmcinnes/umap/commit/5113b770a4ca109b21e51edd5c88bf981a1702e3) | lmcinnes |
 | 2026-11-14 | [Enhance documentation for UMAP 0.6: add details on new initialization…](https://github.com/lmcinnes/umap/commit/eccee468690c04b4a6bc4b1170c0bec6516d8552) | lmcinnes |
 | 2026-11-14 | [Add 'whats_new_0_6' to the documentation table of contents](https://github.com/lmcinnes/umap/commit/059615053770dc433d419c226fb04ba44b56d7e5) | lmcinnes |
 | 2026-11-14 | [Add new images and documentation for UMAP 0.6 release](https://github.com/lmcinnes/umap/commit/1494565609e0a56ac379cb135ddea8d31a31ced7) | lmcinnes |
 | 2026-11-14 | [Merge pull request #1345 from sebastianbreguel/scout/parallel-project…](https://github.com/lmcinnes/umap/commit/aee7eefc9d022abf64b8d87fc32188b71f0f526d) | lmcinnes |
+| 2026-11-14 | [Allow sparse precomputed rows with exactly n_neighbors distances](https://github.com/lmcinnes/umap/commit/4bdf5bff7e206a8ca3415fc1463bb7b329eab676) | rishi02102017 |
 | 2026-11-14 | [Sort the hard-negative projection in parallel when its order is unique](https://github.com/lmcinnes/umap/commit/74e0b12d2dcb5dbcacf65ce7936a86ba1e238d1e) | sebastianbreguel |
 | 2026-11-14 | [Merge pull request #1343 from sebastianbreguel/scout/blas-limit-proje…](https://github.com/lmcinnes/umap/commit/1b4d1dd26871a67fe7f531984d7d2aba64584f9c) | lmcinnes |
 | 2026-11-14 | [Merge pull request #1344 from gclendenning/master](https://github.com/lmcinnes/umap/commit/99e7e507f773d7b8d1e4e9105c9aa89c87d7360f) | lmcinnes |
-| 2026-11-14 | [Try running tests on 3.14/3.15 without parametric](https://github.com/lmcinnes/umap/commit/6384e6689739c40d55d1440d2b402c3f985fe5ea) | gclendenning |
-| 2026-11-13 | [Limit BLAS threads around the hard-negative projection](https://github.com/lmcinnes/umap/commit/ce56664b5816ef7e8888aeeb12232988565ebad2) | sebastianbreguel |
 
 [See all commits ↗](https://github.com/lmcinnes/umap/commits)
 

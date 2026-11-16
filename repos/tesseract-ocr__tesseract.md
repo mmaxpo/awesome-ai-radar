@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 77.5k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [502](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [490](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 53.7 MB |
+| 💾 **Size** | 53.9 MB |
 | 🌐 **Website** | https://tesseract-ocr.github.io/ |
 
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 18d ago</sub>
+<sub>2026-10-28 · 19d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [serialis: remove the size limit for strings and byte vectors (#4703)](https://github.com/tesseract-ocr/tesseract/commit/3bf26b81457248e69a101d4538ee33f1d0b49af8) | stweil |
-| 2026-11-14 | [Fix crash in Recognize when no language was loaded (#4681)](https://github.com/tesseract-ocr/tesseract/commit/2a9cb0dca6aaf89d26c2507ab69af079ec49ab9e) | sohailshk |
-| 2026-11-13 | [Fix download of ae_Arab.ttf for the unit tests (#4687)](https://github.com/tesseract-ocr/tesseract/commit/2b9712d094d1f4398341f2cd4a165faee5cb5084) | stweil |
-| 2026-11-13 | [unittest: use separate temporary directories for the LSTM trainer tes…](https://github.com/tesseract-ocr/tesseract/commit/aeccc43fb7577ecd99e7364a83c377f5c6c47905) | stweil |
-| 2026-11-13 | [Clip the SetRectangle rectangle to the image (#4683)](https://github.com/tesseract-ocr/tesseract/commit/5a575454f881f8328a6bff875c225ca6e69000c2) | sohailshk |
-| 2026-11-13 | [Make DetectOS fail without a legacy model instead of throwing (#4682)](https://github.com/tesseract-ocr/tesseract/commit/c1ea70b9bd5c136c53213532dd902474e269561c) | sohailshk |
-| 2026-11-13 | [fuzzer: delete the API on exit and include cstdint](https://github.com/tesseract-ocr/tesseract/commit/83010e9f7780896e1bc8c17e6800ad8d1b013fa8) | stweil |
-| 2026-11-13 | [Merge pull request #4686 from NotAFlightRisk/man-alto-xml](https://github.com/tesseract-ocr/tesseract/commit/34f4e3ffc25847740a4b1d52d39d40e8013ace83) | zdenop |
-| 2026-11-13 | [SECURITY: steer vulnerability reports to GitHub's private reporting](https://github.com/tesseract-ocr/tesseract/commit/9dbff4dd7afe596690342bdaeac3d75d8d354519) | stweil |
-| 2026-11-11 | [Fix ALTO output file name in tesseract man page example](https://github.com/tesseract-ocr/tesseract/commit/f0a676bfea5dc52501b63638cfab41e806fad7a4) | NotAFlightRisk |
+| 2026-11-15 | [ccmain: set all results of ParagraphInfo and Orientation](https://github.com/tesseract-ocr/tesseract/commit/ddcd04239a19d3992ecc443dfa0aa025843a6614) | stweil |
+| 2026-11-15 | [wordstrbox: fix missing end of the last line of a page](https://github.com/tesseract-ocr/tesseract/commit/958776bef946e65eeb41dfb8306dd29201932e9b) | stweil |
+| 2026-11-15 | [hocr: escape the language name and the document title](https://github.com/tesseract-ocr/tesseract/commit/7d52a4981096140ddc9493790e23a935c458cb2f) | stweil |
+| 2026-11-15 | [textord: skip the distance transform for blobs with a huge box](https://github.com/tesseract-ocr/tesseract/commit/66389e5a709f14e45cbb6191cd7e37e8d7919867) | stweil |
+| 2026-11-15 | [textord: fix read out of bounds in GAPMAP for a map with one entry](https://github.com/tesseract-ocr/tesseract/commit/d41f9fee1db7a12c08208b0c4db63a6aec143060) | stweil |
+| 2026-11-15 | [textord: fix loop counters and a division by zero in GAPMAP](https://github.com/tesseract-ocr/tesseract/commit/3624c6bf224719db284d97ccd3360d1e419254c0) | stweil |
+| 2026-11-15 | [classify: avoid a float overflow in ReadParamDesc](https://github.com/tesseract-ocr/tesseract/commit/b31e8585de29a66e0806faae48befee283e97748) | stweil |
+| 2026-11-15 | [classify: avoid linear searches by unichar id in the adaptive matcher](https://github.com/tesseract-ocr/tesseract/commit/bf506ff7daa3f0949d1a89384c4963fa6e775cd1) | stweil |
+| 2026-11-15 | [cutil: fix null pointer dereference for the size of an empty LIST](https://github.com/tesseract-ocr/tesseract/commit/0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0) | stweil |
+| 2026-11-15 | [classify: reject an inttemp class with too many protos](https://github.com/tesseract-ocr/tesseract/commit/6b2968d65cbe62799c2ae316fc00566a07e712c6) | stweil |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 

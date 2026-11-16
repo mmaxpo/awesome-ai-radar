@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.1k |
-| 🍴 **Forks** | 115 |
+| 🍴 **Forks** | 116 |
 | 🐞 **Open issues + PRs** | [14](https://github.com/ancsemi/Haven/issues) |
 | 💻 **Languages** | JavaScript 80% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 21.3 MB |
+| 💾 **Size** | 21.8 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
 ### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
-<sub>2026-11-15 · today</sub>
+<sub>2026-11-15 · yesterday</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > It has everything in 4.29.0, plus these, which are not in a stable yet:
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — Haven 4.29.0
-<sub>2026-11-15 · today</sub>
+<sub>2026-11-15 · yesterday</sub>
 
 > **Added**
 > - Call controls in fullscreen (thanks Roolk, #5849): mute, deafen, camera, screen share, call settings and leave stay on screen over a fullscreen camera or screen share, and a picker switches which stream is shown without leaving fullscreen.
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.29.0-beta.5](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.5) — Haven 4.29.0-beta.5 _(pre-release)_
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.28.0 until the next stable.
 > Changes since 4.29.0-beta.4:
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.29.0-beta.4](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.4) — Haven 4.29.0-beta.4 _(pre-release)_
-<sub>2026-11-11 · 3d ago</sub>
+<sub>2026-11-11 · 4d ago</sub>
 
 > Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
 > **New**
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.29.0-beta.3](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.3) — Haven 4.29.0-beta.3 _(pre-release)_
-<sub>2026-11-08 · 6d ago</sub>
+<sub>2026-11-08 · 7d ago</sub>
 
 > Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
 > **New**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Turn Add members into Manage members: add or remove people, roles or …](https://github.com/ancsemi/Haven/commit/38d1ace02df1cd28dcf68ff121f43355e2050014) | ancsemi |
+| 2026-11-16 | [Say why the emote words setting read may fail quietly (#5896)](https://github.com/ancsemi/Haven/commit/157e55b4f4a55b341fc400b54aea464a19998798) | ancsemi |
+| 2026-11-16 | [Move the remove-from-channel steps into their own file](https://github.com/ancsemi/Haven/commit/32239471c135bf093f627981bbaefb04fcd69440) | ancsemi |
+| 2026-11-16 | [Extend the PostgreSQL preview: posting, DMs, edits, reactions, thread…](https://github.com/ancsemi/Haven/commit/96eed57c6b3c9e3a1c383396ab96132382692689) | Slyke |
+| 2026-11-16 | [Sort DMs by latest message, name or your own order, saved on the acco…](https://github.com/ancsemi/Haven/commit/b7d71757036acb6f0aa51068356a35dab785fb74) | Amnibro |
+| 2026-11-16 | [Keep capitals in custom emote names and send emote names as emotes (#…](https://github.com/ancsemi/Haven/commit/52195c1540108a0f705537b510ff5989db7eecd6) | Amnibro |
 | 2026-11-15 | [Release 4.30.0-beta.1](https://github.com/ancsemi/Haven/commit/875d8176e8a93c114d6cf30e7fd176a63e545315) | ancsemi |
 | 2026-11-15 | [Website and changelog: Haven 4.29.0 and Desktop 1.8.4 are out](https://github.com/ancsemi/Haven/commit/494eef9fa98ce57582144c0c69cc24f047a57dd0) | ancsemi |
 | 2026-11-15 | [Bump cache tags on client files changed since 4.28.0](https://github.com/ancsemi/Haven/commit/21555e48536f2ca360c47e3180877ef5e02ddc9f) | ancsemi |
 | 2026-11-15 | [Open the link preview size menu above threads and pop-out DMs](https://github.com/ancsemi/Haven/commit/1bdaef7d43e463d9a98f7090cd1225db321d932d) | ancsemi |
-| 2026-11-15 | [Refuse Add all members on hidden-code channels and under private pare…](https://github.com/ancsemi/Haven/commit/a1dfabfb9207883d0bcb3ddf74f8530bfcd92d8b) | ancsemi |
-| 2026-11-14 | [Use the accent text colour on forum selection marks, bump cache tags,…](https://github.com/ancsemi/Haven/commit/6c176a764ccfc2dd15619cb26dcff59c5d604486) | ancsemi |
-| 2026-11-14 | [Mass-select forum topics to move or delete several at once (#5892)](https://github.com/ancsemi/Haven/commit/1e06adfa5036eed2f94ab7f3385757ac27156e4c) | Amnibro |
-| 2026-11-14 | [Let the sender choose whether a reply pushes its author (#5891)](https://github.com/ancsemi/Haven/commit/9c2f038f3544359994048b8b0db352091bf776e3) | Bo0sted |
-| 2026-11-13 | [Release 4.29.0-beta.5](https://github.com/ancsemi/Haven/commit/875ad21c31b0e7ec05bbb2e311c35c26821793b5) | ancsemi |
-| 2026-11-13 | [Let the admin merge a channel into another, for Ferry import duplicat…](https://github.com/ancsemi/Haven/commit/7d07fd3ce5cfd8dc8c1af4773259feaac5028486) | Dawnforger |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

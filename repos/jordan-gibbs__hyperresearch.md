@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.8k |
-| 🍴 **Forks** | 497 |
-| 🐞 **Open issues + PRs** | [18](https://github.com/jordan-gibbs/hyperresearch/issues) |
+| 🍴 **Forks** | 499 |
+| 🐞 **Open issues + PRs** | [19](https://github.com/jordan-gibbs/hyperresearch/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `agentskills` `claude-code` `deep-research` `deep-research-agent` `codex` `deepresearch` `research` `research-agent` `research-tools` `codex-plugin` `codex-skill` `citations` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-12 (2d ago) |
+| 🕒 **Last activity** | 2026-11-12 (3d ago) |
 | 📅 **Created** | 2026-04-09 |
 | 📦 **Latest release** | [v0.13.2](https://github.com/jordan-gibbs/hyperresearch/releases/tag/v0.13.2) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.13.2](https://github.com/jordan-gibbs/hyperresearch/releases/tag/v0.13.2)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **Fixed**
 > - **Installed agents show valid JSON in their output examples (#203, from @rsloveless).** The instruction-critic, readability-recommender and corpus-critic templates kept `str.format()` brace escapes, but none of the three goes through `.format()`, so a clean install wrote `{{` and `}}` into their JSON schema examples, on both the Claude and Codex targets. An agent that copied its example emitted invalid JSON. The escapes are gone from those three templates, and a new test installs every agent for both targets and parses each fenced `json` example.
@@ -44,7 +44,7 @@
 > - **Sync picks the same winner for duplicate note ids on every filesystem (#201, from @jackiectl2).** Sync scanned notes in `rglob` order, so when two files declared the same `id:` the one kept depended on directory traversal order; an import of `a/note.md` and `b/note.md` could keep `b`. Sync now scans in lexical path order.
 
 ### [v0.13.1](https://github.com/jordan-gibbs/hyperresearch/releases/tag/v0.13.1)
-<sub>2026-11-09 · 5d ago</sub>
+<sub>2026-11-09 · 6d ago</sub>
 
 > - **`hpr search --semantic` scores every note with one numpy matmul instead of one Python `cosine()` call each (#59).** `cosine()` did three generator passes per candidate in pure Python; at 512-dim that's ~49µs/vector, so a one-second query capped out around 15k notes (5k at 1536-dim) — well past any real vault, but the module docstring's "fine to ~50k notes" was already off by about an order of magnitude, having been written as if the vectorized loop it never got already existed. `semantic_search` now loads the stored vectors with `np.frombuffer` and scores the whole set in a single matmul, which is unaffected by a note embedded under a stale model/dimension mid-migration — it scores 0, same as `cosine()` did on a length mismatch, instead of joining the matrix. The scholarly-metadata filters and index-note exclusion added in #119 are applied in the SQL fetch before the matmul, so a filtered semantic search still only scores the filtered candidate set. Measured sub-second up to ~50k notes; larger vaults are untested. A stored all-zero vector, or an all-zero query, scores 0 with no NaN. numpy was already an unlisted transitive dependency via Crawl4AI; it's now declared directly. `cosine()` itself is untouched and still covered by its own test.
 > - **Sync renames a note's row in place when its `id:` changes (#159, from @fduple).** An edited `id:` went through the upsert as an insert of the new id, which `UNIQUE(notes.path)` refused on every sync; the stale row kept the old id and collided with the file that really owned it. Sync now moves the row to the new id, keeps the rows only the database holds (claims, embeddings, assets, and the `sources` and `escalations` rows for its URL), rebuilds the rest from the markdown, and frees the old id in the same pass. Updates run before adds so a new file named after the freed id indexes in one run. A rename is refused, with an error naming the file, when the frontmatter declares no id or does not parse, or when a new file named after the target id claims it. If SQLite rolls the whole sync transaction back mid-pass, sync stops and reports that nothing from the pass was kept.
@@ -55,7 +55,7 @@
 > …
 
 ### [v0.13.0](https://github.com/jordan-gibbs/hyperresearch/releases/tag/v0.13.0)
-<sub>2026-10-27 · 18d ago</sub>
+<sub>2026-10-27 · 19d ago</sub>
 
 > - **Step prompts agree with each other (#102).** Settles the contract conflicts listed in the issue: the no-re-synthesis invariant names the ship gate's compression pass as its one exception; width-sweep fetchers take no new topic searches but still chase the primary sources their batch cites; step 7 has a documented path for fewer than the target tensions when step 4 justified zero loci; a failed critic is re-spawned once and otherwise leaves an empty `critic_failed` findings file, since the ship gate checks all four exist; the step 11 outline leaves out Opinionated Synthesis for `short` reports; the step 1 example no longer shows a wrapper requirement in the decomposition; the readability recommender writes a JSON object, matching its schema; the polish auditor receives `wrapper_contract_path` so it knows whether to keep YAML frontmatter; step 16 hands off to the ship gate instead of declaring the run done; the one-chapter case in step 1.5 is described as an escape hatch; and the cite-check Goal states that non-numeric citations are sampled.
 > - **The pipeline runs on the OpenAI Codex CLI.** `hyperresearch install . --target codex` installs the entry skill at `.agents/skills/hyperresearch/`, invoked as `$hyperresearch <query>`, along with the 18 step procedures as plain files under `.hyperresearch/codex/steps/`, the subagent roster as custom agents in `.codex/agents/*.toml`, a Stop hook in `.codex/hooks.json`, and an `AGENTS.md` block. The step procedures are plain files because Codex caps the skill listing and has no skill-to-skill invocation. `--target all` installs both platforms. `--global --target codex` writes the skill to `~/.agents/skills/` and the agents to `~/.codex/agents/`. `--target claude` is the default and installs the same layout as before. Differences on Codex: there is no browser lane, so blocked fetches stay queued and are listed for the user; the Read+Edit tool locks are instructions rather than enforcement; and the Stop hook (`hyperresearch run stop-gate`) blocks the session from ending mid-pipeline. The Stop hook exists because an earlier Codex attempt answered inline and never touched the vault. Codex's sandbox defaults to read-only with no network, so a session needs `--sandbox workspace-write -c sandbox_workspace_write.network_access=true`. hyperresearch documents these flags and never writes to Codex's config.

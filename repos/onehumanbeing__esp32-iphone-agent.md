@@ -21,22 +21,33 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.0k |
-| 🍴 **Forks** | 683 |
-| 🐞 **Open issues + PRs** | [16](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
+| 🍴 **Forks** | 687 |
+| 🐞 **Open issues + PRs** | [18](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 61% · C 21% · Go 9% · C++ 4% · Python 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `airplay` `automation` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `dsh-plugin` `claude-code` `ios` `ios-automation` `mcp` `mcp-server` `mobile-agent` `phone-agent` `screen-mirroring` `seeed-xiao` `xiao-esp32s3` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-10-11 |
-| 📦 **Latest release** | [v1.0.5](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.5) — 2026-11-13 |
+| 📦 **Latest release** | [v1.0.6-build17](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.6-build17) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.1 MB |
+| 💾 **Size** | 17.6 MB |
 | 🌐 **Website** | https://handsy.tech?ref=github |
 
 ## 📦 Recent releases
 
+### [v1.0.6-build17](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.6-build17) — Handsy 1.0.6 build 17 (TestFlight)
+<sub>2026-11-15 · today</sub>
+
+> - App: a start whose Home gestures did nothing while the board's USB is up, but with no mouse on this iPhone,
+>   says to plug the board straight into this iPhone and tap Allow for the accessory, and goes on by itself once
+>   the mouse shows up (30 s); a board whose USB is asleep asks to unlock the iPhone. It used to say "plug it into
+>   USB-C" to users whose board was plugged in.
+> - App: when no fresh screen image arrives at startup, the app reopens the board's stream once before asking to
+>   restart Screen Mirroring.
+> …
+
 ### [v1.0.5](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.5) — Handsy 1.0.5 (TestFlight)
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **Highlights**
 > **Phone calls and texts (Beta).** The agent dials, speaks through iOS Live Speech and hears the other side through Live Captions. Here it books a haircut:
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.0.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.4) — Handsy 1.0.4 (TestFlight)
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **Highlights**
 > - DeepSeek models no longer wait on high-effort thinking for each step (#118).
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.0.3](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.3) — Handsy 1.0.3 (TestFlight)
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **Highlights**
 > A fix release: typing Chinese no longer crashes the app (#111), the app builds with Xcode 26.3 and 27 (#112), and a round of several gestures goes to the model so a plan isn't redone.
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.0.1](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.1) — Handsy 1.0.1 (TestFlight)
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **Highlights**
 > The first iPhone app. No computer in the middle: the ESP32 board is the AirPlay receiver and the iPhone's USB mouse and keyboard, and the app on the iPhone is the agent. It plans, looks at the mirrored screen and acts, with a Live Activity, Siri and Shortcuts, and recovers by itself when the board, hotspot or mirroring drops.
@@ -79,21 +90,12 @@
 > TestFlight build 9. Tagged on the main commit that carries this version.
 > …
 
-### [v1.0.6](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.6) — Handsy 1.0.6 (TestFlight)
-<sub>2026-11-13 · yesterday</sub>
-
-> **Highlights**
-> - **Standby in Dynamic Island**: between runs the island offers your most used intents and New Task, so a task starts from whatever app you are in.
-> - **Add to a running task**: words typed while it runs join its next step.
-> - **Tasks over many items**: the agent lists what matches, asks once with how many, then runs up to 1000 steps; repeated taps are done without a model call each time.
-> - **One memory** for the app and the CLI (`esp32agent memory`, MCP `memory_recall` / `memory_add`).
-> - Optional absolute-mouse firmware (`hardware/flash.sh --abs`): no pointer calibration.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [README: point to the Handsy plug-in device waitlist (#162)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/936d9e12c57f15253b35f4ce704ebebd945a1591) | onehumanbeing |
+| 2026-11-15 | [Hotfix: stats no longer crash the app after a board restart (App 1.0.…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/d39d6a8414298dc58900713baa19a9f49f277dd1) | onehumanbeing |
 | 2026-11-14 | [test(ios): open the yellow step before looking for Unsure (#159)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/d9b6febe104f8aa8919eb514805f4736a1b76602) | onehumanbeing |
 | 2026-11-14 | [fix(ios): keep demo data out from under the firmware sheet (#158)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/77b6f5a9cbe21e1c7249440265e6ff9e7df77c8a) | onehumanbeing |
 | 2026-11-14 | [Startup: say why the board isn't this iPhone's input, retry the strea…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/ce49d0c9311b5b3741c7a14293d804b7ed233235) | onehumanbeing |
@@ -102,8 +104,6 @@
 | 2026-11-13 | [App 1.0.6: record learning, steer, standby island, long tasks, absolu…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/39aa23e17de957bc01529fbd8f22f4deef0e08ca) | onehumanbeing |
 | 2026-11-12 | [fastlane: export with App Store Connect API key cloud signing (no Xco…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/87ddf6cf082c58a078c47f2b805c240205d0d516) | onehumanbeing |
 | 2026-11-12 | [Changelog 1.0.5: intents improve themselves (#151)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/788d9f16afd3b9b71772ec8bdd3e01fb834bb5d2) | onehumanbeing |
-| 2026-11-12 | [Agent fixes: open apps by code, Chinese/accented typing, tap verdict,…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/1e16a02fdefcc8a358badf26d95ee56f49718561) | onehumanbeing |
-| 2026-11-12 | [Firmware 0.2.5: lost video packets reported, press_for, result, net w…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/119801dd98757a3133d9d78b788e6a527fd6653b) | onehumanbeing |
 
 [See all commits ↗](https://github.com/onehumanbeing/esp32-iphone-agent/commits)
 

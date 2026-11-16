@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.1k |
+| ⭐ **Stars** | 61.3k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [235](https://github.com/vectorize-io/hindsight/issues) |
+| 🐞 **Open issues + PRs** | [245](https://github.com/vectorize-io/hindsight/issues) |
 | 💻 **Languages** | Python 70% · TypeScript 17% · MDX 9% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2025-10-30 |
 | 📦 **Latest release** | [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 823.4 MB |
+| 💾 **Size** | 823.5 MB |
 | 🌐 **Website** | https://hindsight.vectorize.io/ |
 
 ## 📦 Recent releases
 
 ### [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1)
-<sub>2026-11-10 · 4d ago</sub>
+<sub>2026-11-10 · 5d ago</sub>
 
 > **What's Changed**
 > * docs drop 0.9 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6284
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 12d ago</sub>
+<sub>2026-11-03 · 13d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.1.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.1.0)
-<sub>2026-10-21 · 24d ago</sub>
+<sub>2026-10-21 · 25d ago</sub>
 
 > **What's Changed**
 > * docs: v1.0.0 changelog, Memlake launch post, and version-1.0 docs snapshot by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5550
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [fix(retain): a schema echo reaches the fallback model, and Gemma stop…](https://github.com/vectorize-io/hindsight/commit/937216ffb7eed86df2088842b67dd3c4bc2ec3b1) | nicoloboschi |
+| 2026-11-16 | [fix(api): serialise the observation tree off the event loop (#6562)](https://github.com/vectorize-io/hindsight/commit/9698ffffb56c05a42c810ba5722462d6bb1176d9) | cdbartholomew |
+| 2026-11-16 | [fix(coding-agents): a bank gets its retain rules without the deepen e…](https://github.com/vectorize-io/hindsight/commit/fa4840fa6901c4d85dba88c5fdbf694f2953ed06) | nicoloboschi |
 | 2026-11-14 | [feat(knowledge-banks): search baseline for benchmarks — keywords in e…](https://github.com/vectorize-io/hindsight/commit/5318be8ea572aa00ceae636c71c1d8d334f805b6) | nicoloboschi |
 | 2026-11-13 | [fix(control-plane): reflect trace shows the loop in the order it real…](https://github.com/vectorize-io/hindsight/commit/0b3f09229bc13820f961244238ca885fda674076) | nicoloboschi |
 | 2026-11-13 | [chore(deps): bump toktok-rs to 0.4.0 (#6538)](https://github.com/vectorize-io/hindsight/commit/5ba62292f2dcdad8c036bb6497c444f01967171e) | nicoloboschi |
@@ -101,9 +104,6 @@
 | 2026-11-13 | [feat(knowledge-banks): token-budget search, per-bank media config, UI…](https://github.com/vectorize-io/hindsight/commit/a758bf601f11267f8084e93eb587543454d9bd61) | nicoloboschi |
 | 2026-11-13 | [perf(reflect): read a store-owned freshness hint instead of the exact…](https://github.com/vectorize-io/hindsight/commit/887ccdb6993e4c7af375258ca07890a260636b89) | nicoloboschi |
 | 2026-11-13 | [fix(worker): a store shed never spends a retry, and stops deferring a…](https://github.com/vectorize-io/hindsight/commit/4692afd5418405206ed3682e621879f94ec47442) | nicoloboschi |
-| 2026-11-13 | [feat(knowledge-banks): better search, faster ingest, multimodal queri…](https://github.com/vectorize-io/hindsight/commit/0952be19863bbfec5a31a4d6a61a3b41df0a26f1) | nicoloboschi |
-| 2026-11-13 | [fix(retain): Gemma 4 on vLLM keeps retain's facts, and refresh stops …](https://github.com/vectorize-io/hindsight/commit/0e6e06335a9bbf7e9a1872da4d271cbdbc922ccc) | nicoloboschi |
-| 2026-11-12 | [blog: announce the Hindsight app in OpenBot, correct the marketplace …](https://github.com/vectorize-io/hindsight/commit/9a730fa95a6453785341adaa436a9453ed5ebf7e) | benfrank241 |
 
 [See all commits ↗](https://github.com/vectorize-io/hindsight/commits)
 

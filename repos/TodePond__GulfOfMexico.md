@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 13.6k |
 | 🍴 **Forks** | 469 |
-| 🐞 **Open issues + PRs** | [485](https://github.com/TodePond/GulfOfMexico/issues) |
+| 🐞 **Open issues + PRs** | [486](https://github.com/TodePond/GulfOfMexico/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-10-28 (17d ago) |
+| 🕒 **Last activity** | 2026-10-28 (18d ago) |
 | 📅 **Created** | 2022-04-17 |
 | 📦 **Latest release** | [vSuper](https://github.com/TodePond/GulfOfMexico/releases/tag/vSuper) — 2026-10-10 |
 | 🌿 **Default branch** | `main` |

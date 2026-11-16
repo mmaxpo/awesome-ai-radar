@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 122.1k |
-| 🍴 **Forks** | 15.7k |
-| 🐞 **Open issues + PRs** | [260](https://github.com/earendil-works/pi/issues) |
+| ⭐ **Stars** | 122.3k |
+| 🍴 **Forks** | 15.8k |
+| 🐞 **Open issues + PRs** | [259](https://github.com/earendil-works/pi/issues) |
 | 💻 **Languages** | TypeScript 88% · HTML 9% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2025-08-09 |
 | 📦 **Latest release** | [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 108.9 MB |
+| 💾 **Size** | 110.3 MB |
 
 ## 📦 Recent releases
 
 ### [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2)
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > **New Features**
 > - **Fork sessions whose folder is gone**: when a session's original folder was moved or deleted, you can now fork it into the current folder instead of only continuing, so later resumes no longer ask. See [Continue or switch sessions](https://github.com/earendil-works/pi/blob/v1.5.2/packages/coding-agent/docs/sessions.md#continue-or-switch-sessions).
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.5.1](https://github.com/earendil-works/pi/releases/tag/v1.5.1)
-<sub>2026-11-09 · 5d ago</sub>
+<sub>2026-11-09 · 6d ago</sub>
 
 > **New Features**
 > - **Shell login and logout**: use `pi auth login <provider>` and `pi auth logout <provider>` without starting a session, with API-key and no-browser sign-in options. See [Credential commands](https://github.com/earendil-works/pi/blob/v1.5.1/packages/coding-agent/docs/cli.md#credential-commands).
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.5.0](https://github.com/earendil-works/pi/releases/tag/v1.5.0)
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **New Features**
 > - **Extension update changelogs**: see what changed in installed extension packages on the next fresh launch after an update. Package authors can choose the changelog path, and `collapseChangelog` condenses the notices. See [Show a changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/coding-agent/docs/packages.md#show-a-changelog).
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.4.0](https://github.com/earendil-works/pi/releases/tag/v1.4.0)
-<sub>2026-10-21 · 24d ago</sub>
+<sub>2026-10-21 · 25d ago</sub>
 
 > **New Features**
 > - **Image input for classifiers**: codemode `models.classify()` accepts `images` for TypeSafe's Jev and Cloudflare's Clef models on `typesafe`, `cloudflare-workers-ai`, and OpenRouter. See [Use classifier models](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/models.md#use-classifier-models) and [Codemode](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/codemode.md#models).
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/7cc21c24f6b5070924a6d9090a74c07f08686990) | badlogic |
-| 2026-11-15 | [feat(chord): admission with a typed value, route admission, host-data…](https://github.com/earendil-works/pi/commit/8270d9af6e75d20ecb517d2b8a9ad793fabd7284) | badlogic |
-| 2026-11-15 | [fix(p2): match subagent tool names regardless of case](https://github.com/earendil-works/pi/commit/3842a830c25afa9d160209eb704a2671c588beb0) | mitsuhiko |
-| 2026-11-15 | [feat(p2): footer model and thinking links open the command menu pages](https://github.com/earendil-works/pi/commit/c1f6797ca704abf09bc0461a188baf09f348ce7e) | mitsuhiko |
-| 2026-11-15 | [docs(p3): the plugin guide is slice 23](https://github.com/earendil-works/pi/commit/4f95fbe2f117d288610e937889ad03575777841c) | badlogic |
-| 2026-11-15 | [docs(p3): a plugin guide for agents, tested by a fresh agent writing …](https://github.com/earendil-works/pi/commit/96e782b59c3ff577a03e6a20d41bfb3d6dd69c9d) | badlogic |
-| 2026-11-15 | [fix(chord): consumer event tests wait for the async inflate's deliver…](https://github.com/earendil-works/pi/commit/7f021f0eebfa30558b7a51dad456f1ee20e752c8) | badlogic |
-| 2026-11-15 | [fix(ai): Together Kimi K3 test expects the upstream 1M output limit](https://github.com/earendil-works/pi/commit/0a25dd15e1685e98472d58cc526ec73f8a789ecd) | badlogic |
-| 2026-11-15 | [feat(p3): slice 1, base and sessions; chord app kit exports its start…](https://github.com/earendil-works/pi/commit/0db9861ec01842f0ade3fa93d95a59f378d92a8a) | badlogic |
-| 2026-11-15 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/bb396449c478bf4f654e11872e67ccbb44073bde) | badlogic |
+| 2026-11-16 | [docs(p3): practices for the renamed package; mutation copies and leak…](https://github.com/earendil-works/pi/commit/747c217b81980206063a89e46645b362de7ac8b1) | badlogic |
+| 2026-11-16 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/9cd49d2c00ac446f774b878d25923bdb3739dadd) | badlogic |
+| 2026-11-16 | [docs(p3): Fable plans and reviews, Opus builds](https://github.com/earendil-works/pi/commit/7f8229d6e0659f4c07d7cd8c04e00b2faeec6dcb) | badlogic |
+| 2026-11-16 | [feat(p2): create a project from the sidebar's Projects options](https://github.com/earendil-works/pi/commit/0826f9f39f42bb252e4b6ea51015b63f00f63deb) | davidbrai |
+| 2026-11-16 | [fix(p2): show every project in the sidebar, sessions or not](https://github.com/earendil-works/pi/commit/c17ff512f7c5a6d5738d0803e3b44b34aa7c11da) | davidbrai |
+| 2026-11-16 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/1e9bebc089ba5394a53064571cb6a73c115dc99e) | badlogic |
+| 2026-11-16 | [docs(p3): the basics before iterating: slices 26, 27, 25](https://github.com/earendil-works/pi/commit/865881c110320b6f8ce2709c1b019b590d497c66) | badlogic |
+| 2026-11-16 | [fix(coding-agent): update undici to 8.12.4 for security advisories](https://github.com/earendil-works/pi/commit/efbcd5adb4bc89f66a9694093be5785511e3eef6) | davidbrai |
+| 2026-11-16 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/9bd70ea1d044c57d412fef6d23ba53afb976dd80) | badlogic |
+| 2026-11-16 | [docs(p3): practices: p3 runs two ways, from the checkout and as a rel…](https://github.com/earendil-works/pi/commit/110c854f4708666036176d936bb57cb7aa7e1973) | badlogic |
 
 [See all commits ↗](https://github.com/earendil-works/pi/commits)
 

@@ -21,33 +21,33 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.6k |
-| 🍴 **Forks** | 807 |
-| 🐞 **Open issues + PRs** | [530](https://github.com/NVIDIA/Model-Optimizer/issues) |
+| 🍴 **Forks** | 809 |
+| 🐞 **Open issues + PRs** | [529](https://github.com/NVIDIA/Model-Optimizer/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2024-04-23 |
 | 📦 **Latest release** | [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 195.5 MB |
+| 💾 **Size** | 194.3 MB |
 | 🌐 **Website** | https://nvidia.github.io/Model-Optimizer/ |
 
 ## 📦 Recent releases
 
 ### [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — ModelOpt 0.47.1 Release
-<sub>2026-11-06 · 8d ago</sub>
+<sub>2026-11-06 · 9d ago</sub>
 
 > **Bug Fixes**
 > - Fix NVFP4 fake quantization (e.g. ``NVFP4_DEFAULT_CFG``) with Triton 3.9, as in the PyTorch 26.11 container, on GPUs with compute capability 8.9 or newer: it failed with ``NotImplementedError: Block pointers have been removed in favor of the tensor descriptor API``.
 
 ### [0.47.1rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1rc0) _(pre-release)_
-<sub>2026-11-05 · 9d ago</sub>
+<sub>2026-11-05 · 10d ago</sub>
 
 > -
 
 ### [0.48.0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0) — ModelOpt 0.48.0 Release
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **New Features**
 > **Sparsity**
@@ -58,7 +58,7 @@
 > …
 
 ### [0.48.0rc2](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0rc2) _(pre-release)_
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > Install this pre-release version using:
 > ```
@@ -66,7 +66,7 @@
 > ```
 
 ### [0.48.0rc1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0rc1) _(pre-release)_
-<sub>2026-10-17 · 28d ago</sub>
+<sub>2026-10-17 · 29d ago</sub>
 
 > Install this pre-release version using:
 > ```
@@ -77,6 +77,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Prepare reproducible chat blends with question-isolated splits (#3160)](https://github.com/NVIDIA/Model-Optimizer/commit/6c85409916c66e778c4569b17efca9de577622da) | yueshen2016 |
+| 2026-11-15 | [fix(speculative): one label alignment per projector_type; DSpark and …](https://github.com/NVIDIA/Model-Optimizer/commit/9047bbd418aaeeaf251fc286d2c3e8ac04bee29f) | h-guo18 |
+| 2026-11-15 | [Load nested Nemotron final norms during draft training (#3275)](https://github.com/NVIDIA/Model-Optimizer/commit/d9ff11fb8d000eaa8b5bfad4c51c49f8dfc6031d) | sragrawal |
 | 2026-11-13 | [[6437794] Fix ONNX autotune verbose logging (#3382)](https://github.com/NVIDIA/Model-Optimizer/commit/ef893e77084198c161cc908eb91380b3a47eccad) | gcunhase |
 | 2026-11-13 | [Expose the remote AutoTune engine path (#3379)](https://github.com/NVIDIA/Model-Optimizer/commit/e169b4c2bc62a32c45aaef793cde7599dee2c1b2) | gcunhase |
 | 2026-11-13 | [fix: make huggingface_hub plugin import optional (#2250)](https://github.com/NVIDIA/Model-Optimizer/commit/cc6963dea0a6f01d90d66c7699baf3884df5f64a) | Y-T-G |
@@ -84,9 +87,6 @@
 | 2026-11-13 | [Fix EAGLE3 training input normalization (#3228)](https://github.com/NVIDIA/Model-Optimizer/commit/9002cb3b58432f6c25e9c53553c902ccf292db05) | sragrawal |
 | 2026-11-13 | [Add experimental NVFP4 QAD adapter for NeMo AutoModel experts (#3164)](https://github.com/NVIDIA/Model-Optimizer/commit/1318c296fca258880834d159c98bc01ff45f1776) | Edwardf0t1 |
 | 2026-11-13 | [[OMNIML-6370] [3/5] Finalize AutoQuantize selections with sequential …](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | meenchen |
-| 2026-11-12 | [[OMNIML-6533] [1/2] Move the HF quantization plugin's remaining named…](https://github.com/NVIDIA/Model-Optimizer/commit/6cac13b59eab3f6106222a6043cf08865eaf9478) | shengliangxu |
-| 2026-11-12 | [[2/5] Prefix ModelOpt catalog skill names (#3283)](https://github.com/NVIDIA/Model-Optimizer/commit/60689c73f7fed08bb836f988f4e8942e11e8d744) | chadvoegele |
-| 2026-11-12 | [Calibrate the GGML IQ2 experts-only recipes with local_hessian instea…](https://github.com/NVIDIA/Model-Optimizer/commit/a3a487f415e6b04fb9e90ebfb5ff77cd1e1f17ff) | cjluo-nv |
 
 [See all commits ↗](https://github.com/NVIDIA/Model-Optimizer/commits)
 

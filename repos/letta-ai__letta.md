@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 25.4k |
+| ⭐ **Stars** | 25.5k |
 | 🍴 **Forks** | 2.7k |
 | 🐞 **Open issues + PRs** | [0](https://github.com/letta-ai/letta/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `llm` `llm-agent` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-10-18 (27d ago) |
+| 🕒 **Last activity** | 2026-10-18 (28d ago) |
 | 📅 **Created** | 2023-10-11 |
 | 📦 **Latest release** | [0.16.8](https://github.com/letta-ai/letta/releases/tag/0.16.8) — 2026-05-14 |
 | 🌿 **Default branch** | `main` |

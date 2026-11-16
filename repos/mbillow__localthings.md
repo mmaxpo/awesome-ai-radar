@@ -20,22 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 1.3k |
-| 🍴 **Forks** | 135 |
-| 🐞 **Open issues + PRs** | [86](https://github.com/mbillow/localthings/issues) |
+| ⭐ **Stars** | 1.4k |
+| 🍴 **Forks** | 141 |
+| 🐞 **Open issues + PRs** | [85](https://github.com/mbillow/localthings/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `custom-component` `hacs` `hacs-integration` `home-assistant` `home-automation` `samsung` `smartthings` `coap-protocol` `coap-server` `dtls` |
 | 🕒 **Last activity** | 2026-11-15 (today) |
 | 📅 **Created** | 2026-06-30 |
-| 📦 **Latest release** | [v0.38.0](https://github.com/mbillow/localthings/releases/tag/v0.38.0) — 2026-11-11 |
+| 📦 **Latest release** | [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 6.6 MB |
+| 💾 **Size** | 6.3 MB |
 
 ## 📦 Recent releases
 
+### [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0)
+<sub>2026-11-15 · today</sub>
+
+> **🚀 Highlights**
+> - **Samsung TVs.** Media player (power, volume, input, sound mode, channel and now-showing), picture mode, Wake-on-LAN, remote, notifications, apps and casting. Not yet run on hardware as merged. Thanks to @benjaml4 and @vmonkey! (#755, #856, part of #388)
+> - **Bespoke Jet Bot Combo.** State, battery, cleaning method, water level, auto empty, station status and more. Writes not yet confirmed on hardware. (#861, fixes #838)
+> - **Samsung FlexDry over 8888.** Both dryers get cycle, Start, Pause and Stop. The lower one also gets dry level, dry time and temperature. Thanks to @NadinMerali! (#866, from #673, fixes #649)
+> - **Range hoods.** Smart ventilate, Do Not Disturb and air quality sensors. Thanks to @sabaatworld! (#828, from #794)
+> - **No more reload loops.** An appliance that answers with only part of its data no longer reloads every 30 s, and new entities appear without a reload. (#850, fixes #807)
+> …
+
 ### [v0.38.0](https://github.com/mbillow/localthings/releases/tag/v0.38.0)
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > **⭐️🌟⭐️ One Thousand Stars ⭐️🌟⭐️**
 > **LocalThings now has over 1,000 stars on GitHub!**
@@ -46,7 +57,7 @@
 > …
 
 ### [v0.37.0](https://github.com/mbillow/localthings/releases/tag/v0.37.0)
-<sub>2026-11-08 · 7d ago</sub>
+<sub>2026-11-08 · 8d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbar media player.** Power, volume, mute, source, sound mode, playback, seek, shuffle and track info. Confirmed on the HW-Q950T. Thanks to @vmonkey and @benjaml4! (#775, part of #388)
@@ -57,7 +68,7 @@
 > …
 
 ### [v0.36.0](https://github.com/mbillow/localthings/releases/tag/v0.36.0)
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbars.** Boards without `/device/0` now set up, starting with the HW-S61B (sensors, selects, switches, numbers, buttons). Media player and TV come later. Thanks to @vmonkey! (#606, part of #388)
@@ -68,7 +79,7 @@
 > …
 
 ### [v0.35.0](https://github.com/mbillow/localthings/releases/tag/v0.35.0)
-<sub>2026-10-28 · 17d ago</sub>
+<sub>2026-10-28 · 18d ago</sub>
 
 > **🚀 Highlights**
 > - **Two new languages.** French and Brazilian Portuguese join the existing eight. The four actions (Start cooking and the three resource actions) can now be translated, and every language has them. Thanks to @3615nulsi and @eduardobittencourt! (#617, #694, from #686)
@@ -78,31 +89,20 @@
 > **✨ Added**
 > …
 
-### [v0.34.0](https://github.com/mbillow/localthings/releases/tag/v0.34.0)
-<sub>2026-10-11 · 1mo ago</sub>
-
-> **🚀 Highlights**
-> - **New `observe_resource` action.** Subscribe to a resource for up to two minutes and see everything it pushes, next to a plain read. It lists any field that only arrived in a notification. This is for finding data a device sends only when something is subscribed. (#612, for #607)
-> - **Oven lamp, sound and energy saving work with Remote Control off**, as in the SmartThings app. Everything that heats or starts a cook still needs Remote Control. Thanks to @BrawnyBravo! (#610, from #183 and #500)
-> **✨ Added**
-> - Fridges: start and end times for "Don't make ice at night". (#614, closes #599)
-> **🐛 Fixed**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Bump version to 0.39.0](https://github.com/mbillow/localthings/commit/11a23140c5d2493ecb616fdffff8128faa0bc953) | mbillow |
+| 2026-11-15 | [Decode the NY9100DW burner entities when no Fuel_ token is reported (…](https://github.com/mbillow/localthings/commit/6cfeb7bee52a5301c7573b797f66ade42b0178d4) | Varshavia |
+| 2026-11-15 | [Add Samsung FlexDry DM9900M support (#866)](https://github.com/mbillow/localthings/commit/af605a707ee8cd22ff14e90c6c9073d70f02cf44) | mbillow |
+| 2026-11-15 | [Decode the NY9100DW burners and retire the raw burner mask (#865)](https://github.com/mbillow/localthings/commit/57d5c76f4487c0375cdf85df75babd57712b954a) | mbillow |
+| 2026-11-15 | [Let read_resource fetch and save large files (#659) (#863)](https://github.com/mbillow/localthings/commit/071d95d9f16127552adf3823b2d3a62f9dbbe8ab) | mbillow |
+| 2026-11-15 | [Support the Bespoke Jet Bot Combo robot vacuum (#838) (#861)](https://github.com/mbillow/localthings/commit/319e544c8a3af765bf602fc7d41f4d89aa9266ff) | mbillow |
 | 2026-11-15 | [Label the WW9000HE washer's cycles from Table_00 (#635) (#860)](https://github.com/mbillow/localthings/commit/cc82809811af591a3fabb9c2fb14e05540a228b6) | mbillow |
 | 2026-11-15 | [Give a handshake timeout its own credential menu, with a retry (#822)…](https://github.com/mbillow/localthings/commit/2a413a61f41e6a9a26635eed2cc9d0dddec9587f) | mbillow |
 | 2026-11-15 | [Offer the credential step after a handshake timeout (#822) (#824)](https://github.com/mbillow/localthings/commit/3f44ea6cbb8c8df046dbb251ea310bce13d785c8) | jameskoziol |
 | 2026-11-15 | [Bixby floor AC speaker, always-on display and Bluetooth (#839); fix Q…](https://github.com/mbillow/localthings/commit/a49c4d0917ebfb3e48c636dfcb26c13622f905f1) | mbillow |
-| 2026-11-15 | [Quick fixes from issue triage: HW-Q935GF soundbar (#853), AC CoolClea…](https://github.com/mbillow/localthings/commit/18482f93e3d1440471e9cf1c7bd8d63de27d5e55) | mbillow |
-| 2026-11-15 | [Samsung TV and soundbar: Q990H settings, TV media player and TV extra…](https://github.com/mbillow/localthings/commit/4360e4127f444ef711bb708e470fa8467976a784) | mbillow |
-| 2026-11-14 | [Keep capability attributes for sub-units kept past the first poll (#855)](https://github.com/mbillow/localthings/commit/4a55ee12cbebd9f28e96c3158cd973aee9562ba4) | mbillow |
-| 2026-11-14 | [Expose the combo dry surface on AWM-US-M64 washer-dryers (#786) (#790)](https://github.com/mbillow/localthings/commit/8d0bfe0d962d4665ce3e436f3a8f2120ef94f758) | mbillow |
-| 2026-11-14 | [Keep capability attributes intact across an offline load (#854)](https://github.com/mbillow/localthings/commit/3e48b82c4aaf194b2fc47604bb387464e729e584) | diegocjorge |
-| 2026-11-14 | [Grow the entity set in place instead of reloading on a short read (#8…](https://github.com/mbillow/localthings/commit/f4074e321bcb89626bad63beba3d4aa57d7d924d) | mbillow |
 
 [See all commits ↗](https://github.com/mbillow/localthings/commits)
 

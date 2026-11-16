@@ -21,29 +21,29 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.0k |
-| 🍴 **Forks** | 406 |
-| 🐞 **Open issues + PRs** | [28](https://github.com/cosmicstack-labs/mercury-agent/issues) |
+| 🍴 **Forks** | 410 |
+| 🐞 **Open issues + PRs** | [29](https://github.com/cosmicstack-labs/mercury-agent/issues) |
 | 💻 **Languages** | TypeScript 87% · Rust 4% · MDX 4% · CSS 2% · JavaScript 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `ai-assistant` `llm` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-04-20 |
 | 📦 **Latest release** | [optimus-v0.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 60.5 MB |
+| 💾 **Size** | 61.9 MB |
 | 🌐 **Website** | https://mercuryagent.sh/ |
 
 ## 📦 Recent releases
 
 ### [optimus-v0.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2) — Optimus 0.5.2
-<sub>2026-11-14 · yesterday</sub>
+<sub>2026-11-14 · 2d ago</sub>
 
 > Plugin-only update. Install or update with `/plugins update optimus`, or **Plugins → Optimus → Update** in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per model needs Mercury 1.5.2.
 > - **Screenshots sized for the model in use.** Optimus resizes each capture to what the model reads best: Claude and OpenAI 1024×640, Gemini 768×480, open vision models 896×560. Click coordinates stay exact.
 > - **No screenshot for models that can't see images.** Optimus says which window is in front instead of sending a picture the model can't read.
 
 ### [v1.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.2) — Mercury v1.5.2
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **☿ Mercury Agent v1.5.2**
 > Watch your bots work live, approve things one at a time, and get complex jobs done properly. Chats run at the same time, memory keeps one copy of each thing, and text Mercury reads can't steer it.
@@ -54,7 +54,7 @@
 > …
 
 ### [v1.5.1](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.1) — Mercury v1.5.1
-<sub>2026-11-03 · 11d ago</sub>
+<sub>2026-11-03 · 12d ago</sub>
 
 > **☿ Mercury Agent v1.5.1**
 > Reading aloud and voice typing now use the voice you chose, Gemini included, and the Optimus update button tells you what it did.
@@ -65,7 +65,7 @@
 > …
 
 ### [v1.5.0](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.0) — Mercury v1.5.0
-<sub>2026-11-03 · 12d ago</sub>
+<sub>2026-11-03 · 13d ago</sub>
 
 > **☿ Mercury Agent v1.5.0: Mercury Desktop**
 > Mercury now has a desktop app for macOS, Windows and Linux. It runs Mercury on your computer or connects to Mercury on a server, keeps itself and your servers up to date, and asks you before anyone new gets in.
@@ -76,7 +76,7 @@
 > …
 
 ### [mercury-dev-latest](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/mercury-dev-latest) — Mercury Dev — 1.4.2-dev.20261102.3418788 _(pre-release)_
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > Dev build 1.4.2-dev.20261102.3418788.
 > Rolling preview — may be unstable. Stable users are NOT served this release.
@@ -87,6 +87,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/8a306deff480b748e3f720ccfce3c6fff6f8a70d) | mercuryagent |
+| 2026-11-15 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/697e9a458ecf448bf57f8d135fc748f2b7dfe4ec) | mercuryagent |
 | 2026-11-15 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/62135a04d511995ac6c17af44d602eb6b1fc4b2a) | mercuryagent |
 | 2026-11-14 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/93f073b8ca55e51f8ff98e13abc807524c5c6cc8) | mercuryagent |
 | 2026-11-14 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/37008ed8f631f7f37206dc17492e57e37a3910f0) | mercuryagent |
@@ -95,8 +97,6 @@
 | 2026-11-14 | [website: blog cover banner no longer fills the screen](https://github.com/cosmicstack-labs/mercury-agent/commit/49867ff2322eb57a2d2cc9d1186e96320dad2217) | hotheadhacker |
 | 2026-11-14 | [website: rebuild production site for the personal AI assistant post](https://github.com/cosmicstack-labs/mercury-agent/commit/a35782bd0b0a746a4fe57a32c627a844b75d897d) | hotheadhacker |
 | 2026-11-14 | [blog: What Is a Personal AI Assistant? 10 Real Tasks in 2026 (#305)](https://github.com/cosmicstack-labs/mercury-agent/commit/458e596f3f3c607c41d00e71e11ba4d383d5c018) | hotheadhacker |
-| 2026-11-14 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/72630c98af516150aadd03a932a88850da0ad010) | mercuryagent |
-| 2026-11-14 | [fix(security): bots can't be steered by what they read (ADR-044)](https://github.com/cosmicstack-labs/mercury-agent/commit/5803841c4bc0e05a7d74d234103202c57861fd80) | hotheadhacker |
 
 [See all commits ↗](https://github.com/cosmicstack-labs/mercury-agent/commits)
 

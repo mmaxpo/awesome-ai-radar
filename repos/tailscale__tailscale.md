@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 39.1k |
+| ⭐ **Stars** | 39.2k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [4.7k](https://github.com/tailscale/tailscale/issues) |
+| 🐞 **Open issues + PRs** | [4.8k](https://github.com/tailscale/tailscale/issues) |
 | 💻 **Languages** | Go 97% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `wireguard` `oauth` `sso` `2fa` `vpn` `tailscale` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2020-01-31 |
 | 📦 **Latest release** | [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
@@ -36,27 +36,27 @@
 ## 📦 Recent releases
 
 ### [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.6](https://github.com/tailscale/tailscale/releases/tag/v1.104.6)
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.5](https://github.com/tailscale/tailscale/releases/tag/v1.104.5)
-<sub>2026-11-03 · 12d ago</sub>
+<sub>2026-11-03 · 13d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.4](https://github.com/tailscale/tailscale/releases/tag/v1.104.4)
-<sub>2026-10-28 · 18d ago</sub>
+<sub>2026-10-28 · 19d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.2](https://github.com/tailscale/tailscale/releases/tag/v1.104.2)
-<sub>2026-10-21 · 25d ago</sub>
+<sub>2026-10-21 · 26d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [go.mod: bump 5 modules](https://github.com/tailscale/tailscale/commit/9ad2a9623c9c762c98ef0c0752cdf8fba730066f) | Dep Updater |
+| 2026-11-16 | [net/netmon: make static monitors work without netlink](https://github.com/tailscale/tailscale/commit/6e16dac9e9beec391730423198b3115eb3422efe) | bradfitz |
+| 2026-11-16 | [net/netns: honor ALL_PROXY when netns is disabled](https://github.com/tailscale/tailscale/commit/167d05bc82dbb7d435696b2ccd43300c7825bf31) | bradfitz |
+| 2026-11-15 | [net/memnet: implement CloseRead and CloseWrite](https://github.com/tailscale/tailscale/commit/a6baab333a55d114f81f42678b310e80afed91db) | emrelab |
+| 2026-11-15 | [prober: deflake TestHTTPBandwidth on coarse-clock machines](https://github.com/tailscale/tailscale/commit/daf82a50f0e597b815f158d38945fbfce10f9db0) | emrelab |
 | 2026-11-14 | [go.mod: bump golang.org/x/sys](https://github.com/tailscale/tailscale/commit/9d5313662a594ad9b595483153301941ae75e808) | Dep Updater |
 | 2026-11-14 | [cmd/testwrapper, .github/workflows: bound hung CI test jobs](https://github.com/tailscale/tailscale/commit/0d822c9d3ab06465e95868fe63c6a26fff55e170) | bradfitz |
 | 2026-11-14 | [logtail: add support for authenticated log uploads (#20482)](https://github.com/tailscale/tailscale/commit/09d54b6ce2d4baa56275eb39f5cb33b215125ae4) | dsnet |
 | 2026-11-13 | [clientupdate: stop requesting the -winui MSI variant on Windows](https://github.com/tailscale/tailscale/commit/027c2a825380e691b70dc6ad7a9ed3d39966c6b3) | nickkhyl |
 | 2026-11-13 | [derp/derpserver: fix data race on sclient.keepAliveTimer](https://github.com/tailscale/tailscale/commit/283569e7073e1a1fdd92a80f0975b478333a92af) | bradfitz |
-| 2026-11-13 | [ipn/ipnlocal: don't write a netmap cache without CacheNetworkMaps (#2…](https://github.com/tailscale/tailscale/commit/e0d532cca9beeb8ed235bf30b9198a7c0e0afa02) | xiaotianxt |
-| 2026-11-13 | [ipn/ipnlocal{,/netmapcache}: extract file store in prep for new store…](https://github.com/tailscale/tailscale/commit/c687660ac5e7b6ae437d65839273d0b18ec02eb3) | cmol |
-| 2026-11-13 | [ipn/ipnlocal: add stub for LocalBackend.SetLogUploader (#22375)](https://github.com/tailscale/tailscale/commit/59064619a0f4ea3293be038e08651c66c2886255) | dsnet |
-| 2026-11-12 | [cmd/k8s-proxy: add test for parsePort](https://github.com/tailscale/tailscale/commit/1d32249f40ce9940c8ab5be63840756bf2cb6f68) | ChaosInTheCRD |
-| 2026-11-12 | [cmd/k8s-proxy: listen on the PORT that the operator sets](https://github.com/tailscale/tailscale/commit/7ce5547382e25708b8abd7d2e059fc03575893d2) | ChaosInTheCRD |
 
 [See all commits ↗](https://github.com/tailscale/tailscale/commits)
 

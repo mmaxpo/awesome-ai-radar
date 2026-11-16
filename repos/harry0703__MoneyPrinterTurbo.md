@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 143.7k |
-| 🍴 **Forks** | 23.0k |
-| 🐞 **Open issues + PRs** | [87](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
+| ⭐ **Stars** | 143.9k |
+| 🍴 **Forks** | 23.1k |
+| 🐞 **Open issues + PRs** | [84](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `tiktok` `ai-video-generator` `content-creation` `ffmpeg` `instagram-reels` `llm` `short-video` `subtitles` `text-to-speech` `video-automation` `video-workflow` `workflow-automation` `youtube-shorts` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2024-03-11 |
 | 📦 **Latest release** | [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10) — 2026-11-07 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 528.8 MB |
+| 💾 **Size** | 529.0 MB |
 
 ## 📦 Recent releases
 
 ### [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10)
-<sub>2026-11-07 · 8d ago</sub>
+<sub>2026-11-07 · 9d ago</sub>
 
 > [English](#en-v1.3.10) | [中文](#cn-v1.3.10)
 > <h2 id="en-v1.3.10">Highlights</h2>
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.3.9](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.9)
-<sub>2026-10-21 · 25d ago</sub>
+<sub>2026-10-21 · 26d ago</sub>
 
 > [English](#en-v1.3.9) | [中文](#cn-v1.3.9)
 > <h2 id="en-v1.3.9">Highlights</h2>
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Fix typo in Edge TTS cue test fixture ('stil' -> 'still')](https://github.com/harry0703/MoneyPrinterTurbo/commit/92e0f9a55b91e353565015aab74b7c50cc28f148) | Dani-Google |
+| 2026-11-16 | [fix(loomloom): trace the video artifact download request](https://github.com/harry0703/MoneyPrinterTurbo/commit/8dc9b41eb72aa5fbe835c4bac51f071dc6c0fe30) | RerankerGuo |
+| 2026-11-16 | [test(material): cover malformed Pixabay files in the rendition size sort](https://github.com/harry0703/MoneyPrinterTurbo/commit/49b900780c2463573a7968e9217e86fbea990023) | rohanb123 |
+| 2026-11-16 | [fix(skill): honor runtime home (#1804)](https://github.com/harry0703/MoneyPrinterTurbo/commit/ab879b5d2603ee8bd8089b7e4dd0c999b53fea76) | dajiaohuang |
+| 2026-11-16 | [feat(material): add useapi.net sources (#1784)](https://github.com/harry0703/MoneyPrinterTurbo/commit/3c286d20798410892351c63fcd2ae4cdfbcb870e) | useapi |
 | 2026-11-13 | [docs: update packaging examples to current release](https://github.com/harry0703/MoneyPrinterTurbo/commit/ce289ffb61a118779c56d6b4a34181905dbed2b9) | dajiaohuang |
 | 2026-11-13 | [docs: clarify Docker setup order (#1801)](https://github.com/harry0703/MoneyPrinterTurbo/commit/f7f4aeff368bd2d5c97ee3c397e1b67aaaa62f79) | dajiaohuang |
 | 2026-11-13 | [docs: update MangoDisk promotion in readmes](https://github.com/harry0703/MoneyPrinterTurbo/commit/f6eb73ef6b674283d2d4ccd5cb10ad67cf6575a1) | harry0703 |
 | 2026-11-13 | [perf(material): download Pixabay's 1080p file instead of the 4K one w…](https://github.com/harry0703/MoneyPrinterTurbo/commit/16986d0118cbdaa284ff7ce03a87734ffd837ee9) | tanishqbaweja |
 | 2026-11-13 | [fix(subtitle): keep Mr. Smith, Dr. Walker and Mt. Everest in one subt…](https://github.com/harry0703/MoneyPrinterTurbo/commit/6a9a0cbe1659ea261afa34a6e85b597042d0d720) | tanishqbaweja |
-| 2026-11-13 | [fix(api): give /videos requests without voice_name the default voice …](https://github.com/harry0703/MoneyPrinterTurbo/commit/c2868a6774f5d824bff910e34342883f6eb5a973) | tanishqbaweja |
-| 2026-11-13 | [fix(webui): read the voice sample in the voice's language, so English…](https://github.com/harry0703/MoneyPrinterTurbo/commit/a06a43dd6ce9de6263620d3795506f387c5ca2d2) | tanishqbaweja |
-| 2026-11-12 | [fix(material): at clip speeds above 1x, download enough stock videos …](https://github.com/harry0703/MoneyPrinterTurbo/commit/82216ccbad2ff20d9c51a0cd8472e6ee6cda3f45) | tanishqbaweja |
-| 2026-11-12 | [chore: update project resources](https://github.com/harry0703/MoneyPrinterTurbo/commit/782cf3ae8cf829d95023d8bcb2ff5545d11ec858) | harry0703 |
-| 2026-11-12 | [fix(webui): show 1.00 MB instead of 1024 KB just below a unit boundary](https://github.com/harry0703/MoneyPrinterTurbo/commit/dd096584f1642f3d52b8b2aa7c39df84bb2066bf) | kevin9327 |
 
 [See all commits ↗](https://github.com/harry0703/MoneyPrinterTurbo/commits)
 

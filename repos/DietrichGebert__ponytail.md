@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 191.2k |
-| 🍴 **Forks** | 10.7k |
-| 🐞 **Open issues + PRs** | [238](https://github.com/DietrichGebert/ponytail/issues) |
+| ⭐ **Stars** | 191.9k |
+| 🍴 **Forks** | 10.8k |
+| 🐞 **Open issues + PRs** | [249](https://github.com/DietrichGebert/ponytail/issues) |
 | 💻 **Languages** | JavaScript 49% · Python 25% · TypeScript 25% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `claude` `claude-code` `claude-code-plugin` `cursor-rules` `developer-tools` `llm` `prompt-engineering` `yagni` |
-| 🕒 **Last activity** | 2026-10-29 (17d ago) |
+| 🕒 **Last activity** | 2026-10-29 (18d ago) |
 | 📅 **Created** | 2026-06-12 |
 | 📦 **Latest release** | [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3)
-<sub>2026-10-29 · 17d ago</sub>
+<sub>2026-10-29 · 18d ago</sub>
 
 > This one cleans up the band. On Team, Enterprise and managed machines the warning on your first prompt is gone, and the band shows your model and session name again. In VS Code it stays on one line, other plugins' commands no longer print under ponytail's name, and the noisy "duplicate?" hint is gone.
 > **What's Changed**
@@ -45,7 +45,7 @@
 > …
 
 ### [v5.3.2](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.2)
-<sub>2026-10-16 · 29d ago</sub>
+<sub>2026-10-16 · 1mo ago</sub>
 
 > Ponytail 5.3.2 brings your old sessions to the board. `/ponytail band import` reads your past Claude Code sessions once and adds them with their cost, agent time and tokens, so you can compare them with today's. The board also shows which model each session used.
 > **What's Changed**
@@ -54,7 +54,7 @@
 > **Full Changelog**: https://github.com/DietrichGebert/ponytail/compare/v5.3.1...v5.3.2
 
 ### [v5.3.1](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.1)
-<sub>2026-10-16 · 29d ago</sub>
+<sub>2026-10-16 · 1mo ago</sub>
 
 > Ponytail 5.3.1 fixes the band from 5.3. Other mods above the Claude Code prompt now show below the band instead of disappearing, and on Windows the band finds its files without `HOME` and writes the task ledger and board without `mkdir`. Thanks to @AllDmeat and @mohofo7 for the fixes, and to @tomkor and @1410822048 for the reports.
 > **What's Changed**

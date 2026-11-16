@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 11.0k |
+| ⭐ **Stars** | 11.1k |
 | 🍴 **Forks** | 1.6k |
 | 🐞 **Open issues + PRs** | [5](https://github.com/AgriciDaniel/claude-ads/issues) |
 | 💻 **Languages** | Python 84% · JavaScript 8% · TypeScript 4% · Shell 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `claude-code-skill` `ai-marketing` `ai` `marketing-automation` `open-source` `agent-skills` `google-ads` `meta-ads` `paid-advertising` `ppc` |
-| 🕒 **Last activity** | 2026-11-01 (13d ago) |
+| 🕒 **Last activity** | 2026-11-01 (14d ago) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v2.1.0](https://github.com/AgriciDaniel/claude-ads/releases/tag/v2.1.0) — 2026-10-16 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v2.1.0](https://github.com/AgriciDaniel/claude-ads/releases/tag/v2.1.0) — v2.1.0: Cockpit companion, routing, evidence and installer updates
-<sub>2026-10-16 · 29d ago</sub>
+<sub>2026-10-16 · 1mo ago</sub>
 
 > **Claude Ads v2.1.0**
 > This update adds the optional Cockpit companion, sharper command routing, fresher platform evidence, safer installers, and a plain-language README.

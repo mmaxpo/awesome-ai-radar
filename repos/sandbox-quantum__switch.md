@@ -22,63 +22,63 @@
 |---|---|
 | ⭐ **Stars** | 4.5k |
 | 🍴 **Forks** | 353 |
-| 🐞 **Open issues + PRs** | [652](https://github.com/sandbox-quantum/switch/issues) |
+| 🐞 **Open issues + PRs** | [669](https://github.com/sandbox-quantum/switch/issues) |
 | 💻 **Languages** | Python 54% · TypeScript 45% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent-orchestration` `ai-agents` `discord` `mcp` `microsoft-teams` `multi-agent` `slack` `ai` `chatops` `langchain` `open-source` `openai` `self-hosted` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-07-16 |
-| 📦 **Latest release** | [switch-agent-controller-v0.31.1-dev.559.g80c9177](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.559.g80c9177) — 2026-11-15 |
+| 📦 **Latest release** | [switch-agent-controller-v0.31.1-dev.571.g3e6bc11](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.571.g3e6bc11) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 81.8 MB |
+| 💾 **Size** | 83.5 MB |
 | 🌐 **Website** | https://www.switchagents.ai |
 
 ## 📦 Recent releases
 
-### [switch-agent-controller-v0.31.1-dev.559.g80c9177](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.559.g80c9177) — switch-agent-controller 0.31.1-dev.559.g80c9177 (dev build of main) _(pre-release)_
-<sub>2026-11-15 · today</sub>
+### [switch-agent-controller-v0.31.1-dev.571.g3e6bc11](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.571.g3e6bc11) — switch-agent-controller 0.31.1-dev.571.g3e6bc11 (dev build of main) _(pre-release)_
+<sub>2026-11-16 · today</sub>
 
-> The Switch agent controller built from main at 80c9177a3b8b8d55841f4022df9a7db92cab3e30, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `bc6797d3baa039792fb1c8bfdae54418347476a45aa08846c9f5e9062e97cc69`
+> The Switch agent controller built from main at 3e6bc11a3c280ac2b10174bba8801c3fd6485823, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
+>   SHA-256: `a94ebaeb329cdb5895d76b42df9b5dbeccab13befe5ec34552b0a189d36ef93d`
 
-### [switch-agent-controller-v0.31.1-dev.558.gdf0b6ab](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.558.gdf0b6ab) — switch-agent-controller 0.31.1-dev.558.gdf0b6ab (dev build of main) _(pre-release)_
-<sub>2026-11-14 · today</sub>
+### [switch-agent-controller-v0.31.1-dev.570.g4bc8da2](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.570.g4bc8da2) — switch-agent-controller 0.31.1-dev.570.g4bc8da2 (dev build of main) _(pre-release)_
+<sub>2026-11-16 · today</sub>
 
-> The Switch agent controller built from main at df0b6ab885dbd0d067a160c2ff3147ec9ba9c8e8, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `84c6ef387a6d13974bc03457ca35dd0e11dc19101e623d046073b02fd8b7082c`
+> The Switch agent controller built from main at 4bc8da2310d6851962debc0d621a2aebeaa0f26d, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
+>   SHA-256: `635b637a6511cb9fbba3203f7efa850cc91b5a37ccca560fb60f24e9e2287ed8`
 
-### [switch-agent-controller-v0.31.1-dev.556.g810e5da](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.556.g810e5da) — switch-agent-controller 0.31.1-dev.556.g810e5da (dev build of main) _(pre-release)_
-<sub>2026-11-13 · yesterday</sub>
+### [v0.41.0-canary.10](https://github.com/sandbox-quantum/switch/releases/tag/v0.41.0-canary.10) — Switch Console Canary 0.41.0-canary.10 _(pre-release)_
+<sub>2026-11-16 · today</sub>
 
-> The Switch agent controller built from main at 810e5da8ab7391aef8519d3d719dbe3bf8f67214, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `a70c5737ded2b6fb9e2c21c61cb3ef0d3f6746b7739987183a6616f940975f72`
+> Switch Console Canary 0.41.0-canary.10 — a preview build for internal testing. Canary installs update themselves to newer canaries; stable installs never see this release.
+> Download the `switch-console-canary-*` installer for your platform.
 
-### [switch-agent-controller-v0.31.1-dev.555.geaed04e](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.555.geaed04e) — switch-agent-controller 0.31.1-dev.555.geaed04e (dev build of main) _(pre-release)_
-<sub>2026-11-13 · yesterday</sub>
+### [switch-agent-controller-v0.32.0-rc.7](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.0-rc.7) — switch-agent-controller 0.32.0-rc.7 (release candidate) _(pre-release)_
+<sub>2026-11-16 · today</sub>
 
-> The Switch agent controller built from main at eaed04e137fa20a2952ef197c1834fa559bbfa39, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `7f422929953eec6bfbb29c3590255c2aa0a25310784c9ea2dcfd07b8902055d3`
+> The Switch agent controller built for the release candidate Switch 0.32.0-rc.7, at 1a0f5a69b6351e20a27f761d7580fdf4e5e652a8. Controllers connected to a Switch running that candidate update to it on their own once idle; bake it into a machine image for that candidate. `install.sh` and `switch-agent-controller update` leave it out.
+>   SHA-256: `3f7d717137b8dbb281d7d7155ac5381fd98eec5e8b3c121ea323b50b2f9b0dbb`
 
-### [switch-agent-controller-v0.31.1-dev.554.g48a06e0](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.554.g48a06e0) — switch-agent-controller 0.31.1-dev.554.g48a06e0 (dev build of main) _(pre-release)_
-<sub>2026-11-13 · yesterday</sub>
+### [switch-agent-controller-v0.31.1-dev.568.g1a0f5a6](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.31.1-dev.568.g1a0f5a6) — switch-agent-controller 0.31.1-dev.568.g1a0f5a6 (dev build of main) _(pre-release)_
+<sub>2026-11-16 · today</sub>
 
-> The Switch agent controller built from main at 48a06e03b31c50c74bc1a2834aceb146979a0ddb, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `e37eb7bd9bcfd412e467bb23b8b1775a354804e243b877e3353ef92bd3aa0907`
+> The Switch agent controller built from main at 1a0f5a69b6351e20a27f761d7580fdf4e5e652a8, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
+>   SHA-256: `a493fb165ad332044897558f958bfbf1054fd34b96b0a20160293e882b603124`
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [Put the newer agent providers behind a feature flag (#1985)](https://github.com/sandbox-quantum/switch/commit/80c9177a3b8b8d55841f4022df9a7db92cab3e30) | petr-sandbox |
-| 2026-11-14 | [feat(console): redesign Meet switch-buddy around an in-chat provider …](https://github.com/sandbox-quantum/switch/commit/df0b6ab885dbd0d067a160c2ff3147ec9ba9c8e8) | petr-sandbox |
-| 2026-11-14 | [Gateway: Organization settings — General, Workspaces, Users, Guardrai…](https://github.com/sandbox-quantum/switch/commit/adbc7f541c1102d3e72ade2b067312f9bb9f5c2e) | christian-mcdermott |
-| 2026-11-13 | [Merge pull request #1990 from sandbox-quantum/work/slack-connect-form](https://github.com/sandbox-quantum/switch/commit/810e5da8ab7391aef8519d3d719dbe3bf8f67214) | simonflk-sb |
-| 2026-11-13 | [Slack connect form: review fixes](https://github.com/sandbox-quantum/switch/commit/bf9e03318f24a12ca4114d07ec77e659d2c6bfaa) | simonflk-sb |
-| 2026-11-13 | [Gateway: the Connectors catalogue, and connecting from the web (CHOO-…](https://github.com/sandbox-quantum/switch/commit/eaed04e137fa20a2952ef197c1834fa559bbfa39) | christian-mcdermott |
-| 2026-11-13 | [Merge pull request #1996 from sandbox-quantum/organizations/mirror-ra…](https://github.com/sandbox-quantum/switch/commit/48a06e03b31c50c74bc1a2834aceb146979a0ddb) | petr-sandbox |
-| 2026-11-13 | [Gateway: Your account — display name, password, sign out and deleting…](https://github.com/sandbox-quantum/switch/commit/ec588b66a1ec8a86e9a38d24580577b3d96bcbb8) | christian-mcdermott |
-| 2026-11-13 | [Tell an unresolved host from a refused address, for WorkOS too](https://github.com/sandbox-quantum/switch/commit/d89deadd9e04a6c97f452fb450cc647549d51992) | petr-sandbox |
-| 2026-11-13 | [Fix the WorkOS mirror's event reads, and report a refused members ser…](https://github.com/sandbox-quantum/switch/commit/faec708140ce9f58a1838623b82355b9a52903da) | petr-sandbox |
+| 2026-11-16 | [Merge pull request #2023 from sandbox-quantum/fix/console-chat-attach…](https://github.com/sandbox-quantum/switch/commit/3e6bc11a3c280ac2b10174bba8801c3fd6485823) | raullopez-sandbox |
+| 2026-11-16 | [Merge pull request #2024 from sandbox-quantum/release/canary-pin-0.32…](https://github.com/sandbox-quantum/switch/commit/4bc8da2310d6851962debc0d621a2aebeaa0f26d) | petr-sandbox |
+| 2026-11-16 | [chore(release): bump canary switch-core pin to 0.32.0-rc.7](https://github.com/sandbox-quantum/switch/commit/753e6360eaed07f7539acb51929d5281bd7ef8c5) | amaudruz |
+| 2026-11-16 | [Console: show a failed attachment's error once in chat](https://github.com/sandbox-quantum/switch/commit/2376286eaef74ca59570f45d96a04b9383087ead) | raullopez-sandbox |
+| 2026-11-16 | [Merge pull request #2022 from sandbox-quantum/fix/gateway-image-conso…](https://github.com/sandbox-quantum/switch/commit/1a0f5a69b6351e20a27f761d7580fdf4e5e652a8) | petr-sandbox |
+| 2026-11-16 | [Copy the Console module a gateway test imports into the image builds](https://github.com/sandbox-quantum/switch/commit/5e8c9eef7fb49be40447c480db524e679aadaeb7) | petr-sandbox |
+| 2026-11-16 | [Windows onboarding: run Postgres without the VC++ runtime, and find C…](https://github.com/sandbox-quantum/switch/commit/48f6758e0bc00a0b38581bc523470d358012e630) | amaudruz |
+| 2026-11-16 | [Merge pull request #2014 from sandbox-quantum/console/onboarding-feed…](https://github.com/sandbox-quantum/switch/commit/6e8ffb7c589e746e931f393148b89f088ef7bce1) | petr-sandbox |
+| 2026-11-16 | [fix(droid): point the Windows installer at app.factory.ai/cli/windows…](https://github.com/sandbox-quantum/switch/commit/f0f1205ac203c5e0d2dc96388d62b07e0683174a) | amaudruz |
+| 2026-11-16 | [Import resource lazily so switch-core starts on Windows (CHOO-4461) (…](https://github.com/sandbox-quantum/switch/commit/35b7915584b3e11029601ab93eda6ebee2069d98) | amaudruz |
 
 [See all commits ↗](https://github.com/sandbox-quantum/switch/commits)
 

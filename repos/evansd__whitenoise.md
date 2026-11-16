@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.8k |
-| 🍴 **Forks** | 157 |
-| 🐞 **Open issues + PRs** | [25](https://github.com/evansd/whitenoise/issues) |
+| 🍴 **Forks** | 158 |
+| 🐞 **Open issues + PRs** | [29](https://github.com/evansd/whitenoise/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `django` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (2d ago) |
 | 📅 **Created** | 2013-08-08 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

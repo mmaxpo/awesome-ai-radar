@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 2.2k |
 | 🍴 **Forks** | 524 |
-| 🐞 **Open issues + PRs** | [490](https://github.com/openremote/core/issues) |
-| 💻 **Languages** | Java 49% · TypeScript 25% · Groovy 19% · Shell 5% |
+| 🐞 **Open issues + PRs** | [491](https://github.com/openremote/core/issues) |
+| 💻 **Languages** | Java 48% · TypeScript 25% · Groovy 19% · Shell 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `iot-platform` `iot` `energy` `building` `mqtt` `smartcity` `dashboard` `asset-management` `mqtt-broker` `dataplatform` `rules-engine` `fleet-management` `energy-monitor` `energy-management` `fleet-telematics` `device-management` `edge-computing` `iot-application` `modbus` `ota-update` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2016-02-03 |
 | 📦 **Latest release** | [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 304.1 MB |
+| 💾 **Size** | 304.2 MB |
 | 🌐 **Website** | https://openremote.io |
 
 ## 📦 Recent releases
 
 ### [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0)
-<sub>2026-11-06 · 9d ago</sub>
+<sub>2026-11-06 · 10d ago</sub>
 
 > > [!NOTE]
 > > We have also recently published a new `openremote/keycloak` release, version `26.7.5.0`, that introduces a new UI design!
@@ -47,7 +47,7 @@
 > …
 
 ### [1.33.0](https://github.com/openremote/core/releases/tag/1.33.0)
-<sub>2026-10-27 · 18d ago</sub>
+<sub>2026-10-27 · 20d ago</sub>
 
 > **⚠️  Important notes / Before you upgrade ⚠️**
 > - **Minor behavior changes in datapoint query requests.**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.32.2](https://github.com/openremote/core/releases/tag/1.32.2)
-<sub>2026-10-21 · 25d ago</sub>
+<sub>2026-10-21 · 26d ago</sub>
 
 > **What's Changed**
 > **🔒 Security updates**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Bump ubi10/openjdk-21-runtime in /manager (#3572)](https://github.com/openremote/core/commit/6d46b473d353533ccfc3938956eed145a134f2d8) | dependabot[bot] |
+| 2026-11-16 | [Fix blank page when a startup request fails (#3549)](https://github.com/openremote/core/commit/53afd942e29c8d5882eb850cba509e8a76abc08c) | Ekhorn |
 | 2026-11-13 | [Remove Balena files (#3570)](https://github.com/openremote/core/commit/c7652131fe2b36f7b4341a0d8a20a94fc8107667) | denniskuijs |
 | 2026-11-11 | [Migrate JSONSchemaUtil snapshot tests to spock snapshot (#3220)](https://github.com/openremote/core/commit/1ee1ed7db8d09d45b8865a3e85eb5fa2be4604f1) | Ekhorn |
 | 2026-11-10 | [Bump actions/setup-java from 6.1.0 to 6.2.0 in /.github/actions/get-v…](https://github.com/openremote/core/commit/14f389eae677421400084d1589cd548c3cb66ca4) | dependabot[bot] |
@@ -102,8 +104,6 @@
 | 2026-11-10 | [Bump github/codeql-action/upload-sarif from 4.39.2 to 4.39.3 (#3562)](https://github.com/openremote/core/commit/8e7e753cc50934d05156dcd53d518ed1d4ae4b02) | dependabot[bot] |
 | 2026-11-10 | [Bump docker/login-action from 4.7.0 to 4.8.0 (#3561)](https://github.com/openremote/core/commit/7782c7ae67b38a2e48aba5e43efdd045e8e3f1d7) | dependabot[bot] |
 | 2026-11-10 | [Bump actions/setup-java from 6.1.0 to 6.2.0 (#3560)](https://github.com/openremote/core/commit/214a5cc579410a3b80493cfdfda4f7db24628481) | dependabot[bot] |
-| 2026-11-09 | [Bump github/codeql-action/upload-sarif from 4.39.1 to 4.39.2 (#3550)](https://github.com/openremote/core/commit/718469671337aa028005cb63278a1cca0e49717b) | dependabot[bot] |
-| 2026-11-09 | [Bump tspascoal/get-user-teams-membership from 4.0.2 to 4.0.3 (#3551)](https://github.com/openremote/core/commit/676a198d0c3161ba9238544d672f5f3b4a7e45f9) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/openremote/core/commits)
 

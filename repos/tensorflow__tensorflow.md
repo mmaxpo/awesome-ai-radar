@@ -26,11 +26,11 @@
 | 💻 **Languages** | C++ 56% · Python 26% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1400.1 MB |
+| 💾 **Size** | 1401.8 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [Migrate TFRT IFRT sharding_utils host-buffer holds to std::shared_ptr.](https://github.com/tensorflow/tensorflow/commit/60cd513b82d7bb17f1992a111226221232c36411) | junwhanahn |
-| 2026-11-15 | [[IFRT] Migrate Client host-buffer cleanup handles to std::shared_ptr<…](https://github.com/tensorflow/tensorflow/commit/11371bd99b78338d466e2ac9f3db54ae15d9fdf1) | junwhanahn |
-| 2026-11-15 | [[IFRT] Return nullopt from Layout::ByteSize for non-fixed-size dtypes…](https://github.com/tensorflow/tensorflow/commit/f83cb027ac866c12dee71220e66752234978d592) | junwhanahn |
-| 2026-11-15 | [[IFRT] Expand implementation conformance tests and reject negative sl…](https://github.com/tensorflow/tensorflow/commit/c4b83fe7e06fe639d6e99c9cea5aec7097c3051c) | junwhanahn |
-| 2026-11-15 | [Set matching_files_dataset_test to medium size and 7 shards to preven…](https://github.com/tensorflow/tensorflow/commit/9417b73895fc2c9224bdad8f556db4d178bce700) | dmiltr3 |
-| 2026-11-15 | [[PjRt-IFRT] Validate host buffer, addressability, and `byte_strides` …](https://github.com/tensorflow/tensorflow/commit/1e50b19dc8d2fdc0ec9fd595b0e36111c46f02f4) | hyeontaek |
-| 2026-11-14 | [[PjRt-IFRT] Migrate BasicStringArray::OnDoneWithBuffer to std::shared…](https://github.com/tensorflow/tensorflow/commit/c35bf04829f308e63414087c27c39ff118b617c5) | junwhanahn |
-| 2026-11-14 | [In `PartitionConvolutionWithSpatialDimensionHaloExchangeOnLHS`, `Halo…](https://github.com/tensorflow/tensorflow/commit/90336aea18c13d231ad91c3b80ced41393781b43) | SamGinzburg |
-| 2026-11-14 | [[tfcompile] Emit direct shared RngState calls in AOT codegen](https://github.com/tensorflow/tensorflow/commit/89799bc471871f47f51a7d33208426b9b5079a53) | majnemer |
-| 2026-11-14 | [Avoid redundant XNNPACK weight cache reloads and partition build steps.](https://github.com/tensorflow/tensorflow/commit/1b4ddd1b6442300c1e5760eb4cc95fb4c489c56b) | jdduke |
+| 2026-11-16 | [PR #47758: [XLA] [XLA] Return Unimplemented for non-tuple while state…](https://github.com/tensorflow/tensorflow/commit/a1777076e1ffe33114b9705ed7c8472e7bff5c0b) | kodlan |
+| 2026-11-16 | [Pass LLVM library options to Triton TargetMachines through a context](https://github.com/tensorflow/tensorflow/commit/2551f9b66099c4c759aa11cee2bd4bd6ddb647fc) | vwbaker |
+| 2026-11-16 | [[XLA] Simplify and speed up region live range analysis in copy removal](https://github.com/tensorflow/tensorflow/commit/516c1810de54b1a8f85897575eb50ee8c51c7203) | blakehechtman |
+| 2026-11-16 | [PR #53125: [ROCm] Use specific symbols to version while leaving asan/…](https://github.com/tensorflow/tensorflow/commit/297d31f1f442567f324839d789b38e3db2e33ca9) | alekstheod |
+| 2026-11-16 | [Doc formatting cleanup: add blank line before "Inputs:".](https://github.com/tensorflow/tensorflow/commit/e5f8e21a372f498c90428b0e153cb0d26ac3266e) | fergushenderson |
+| 2026-11-16 | [Add an AOT compatibility tests and their goldens for the HostExecute …](https://github.com/tensorflow/tensorflow/commit/378935dce52c9bf97231804a2f1e5336910bdcb5) | khasanovaa |
+| 2026-11-16 | [[XLA:GPU] Add TestThunkParams helper for thunk unit tests.](https://github.com/tensorflow/tensorflow/commit/35c90b5571c50f593a6f44efb382ddce31311b3e) | sohaibiftikhar |
+| 2026-11-16 | [Merge pull request #129801 from somtri:feat-60485-xla-scan-small-ints](https://github.com/tensorflow/tensorflow/commit/c1cffcb1d6d979a14a838250e380292285401dff) | tensorflower-gardener |
+| 2026-11-16 | [[Clean Up] Return the load error from HostExecuteStartThunk::Initialize](https://github.com/tensorflow/tensorflow/commit/81ed3331163454b7d4dc2bb65b77e45208525649) | khasanovaa |
+| 2026-11-16 | [PR #52906: [XLA] Only rewrite max(a, clamp(a, x, b)) to clamp(a, x, b…](https://github.com/tensorflow/tensorflow/commit/5f55f63f6df0a533357aba8d2bbd4a2903f2dcdb) | Shakhtar-Sankur |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

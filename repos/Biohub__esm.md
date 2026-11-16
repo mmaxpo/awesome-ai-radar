@@ -24,7 +24,7 @@
 | 💻 **Languages** | Jupyter Notebook 57% · Python 43% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-09 (5d ago) |
+| 🕒 **Last activity** | 2026-11-09 (6d ago) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
@@ -33,13 +33,13 @@
 ## 📦 Recent releases
 
 ### [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3)
-<sub>2026-11-09 · 5d ago</sub>
+<sub>2026-11-09 · 6d ago</sub>
 
 > * bug fixes
 > * bump transformers version to >= 5.16
 
 ### [v3.4.2](https://github.com/Biohub/esm/releases/tag/v3.4.2)
-<sub>2026-10-30 · 16d ago</sub>
+<sub>2026-10-30 · 17d ago</sub>
 
 > - Added the Batch API (`ForgeBatchClient`) for folding, plus max-accuracy folding with ESMFold2 Pro (see `cookbook/snippets/batch.md` and `cookbook/snippets/fold_max_accuracy.md`)
 > - Released the 2025-cutoff ESMFold2 model
@@ -50,7 +50,7 @@
 > …
 
 ### [v3.4.1.post1](https://github.com/Biohub/esm/releases/tag/v3.4.1.post1)
-<sub>2026-09-16 · 1mo ago</sub>
+<sub>2026-09-16 · 2mo ago</sub>
 
 > This releases brings better compatibility between different implementations (HF / esm / mlx_lm) and allows use of a single set of model weights for all implementations. It also fixes multiple bugs
 > - mol_type compared against MOL_TYPE_NONPOLYMER (3), not a private constant (4)

@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [462](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [461](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-11 (4d ago) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2014-02-06 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 2026-09-15 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 38.5 MB |
+| 💾 **Size** | 38.4 MB |
 | 🌐 **Website** | https://xgboost.readthedocs.io/ |
 
 ## 📦 Recent releases
@@ -82,6 +82,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [[python] Add type hints. (#12838)](https://github.com/dmlc/xgboost/commit/3a5b390a1e6e108ff66cae69d6fc7c7591078320) | vineoy |
+| 2026-11-15 | [[doc] Refactor AFT survival analysis tutorial to use tabs for code ex…](https://github.com/dmlc/xgboost/commit/31abd0e3b8c2b7ab7af09e36b780e1d507e5da1f) | natsu0529 |
 | 2026-11-11 | [Skip unused features in GPU SHAP interaction finalization (#12825)](https://github.com/dmlc/xgboost/commit/293cad1a89ab749e3266e190c68118af2db09982) | RAMitchell |
 | 2026-11-10 | [Only zero and accumulate split-feature columns in CPU SHAP contributi…](https://github.com/dmlc/xgboost/commit/889205cb8e4d779ba50f79da406020f04f6a04a1) | sebastianbreguel |
 | 2026-11-10 | [Use fewer threads for small multiclass prediction transforms (#12821)](https://github.com/dmlc/xgboost/commit/e15fb94fccc2341233c51b5c7a4df4389cdeda9e) | sebastianbreguel |
@@ -90,8 +92,6 @@
 | 2026-11-09 | [[python] Dedupe training callbacks by identity so an unhashable callb…](https://github.com/dmlc/xgboost/commit/c0ed8b34f97d735ec63a537814ed0e7ae3ce3b5b) | paolo-perrone |
 | 2026-11-09 | [[python] Iterate pandas columns with items() instead of a name lookup…](https://github.com/dmlc/xgboost/commit/7b41d9c363be560f43a68538cd6566cccb7c39df) | sebastianbreguel |
 | 2026-11-09 | [Keep the global configuration unchanged when an update is rejected (#…](https://github.com/dmlc/xgboost/commit/e4ed53962e69c4008512a7de62765ebbfb16db66) | rishi02102017 |
-| 2026-11-07 | [Push a batch with no more threads than rows (#12816)](https://github.com/dmlc/xgboost/commit/c43256076009bcf25669c0de119d52fecd510751) | sebastianbreguel |
-| 2026-11-06 | [Align the GPU monotone constraint implementation to the CPU. (#12809)](https://github.com/dmlc/xgboost/commit/1f95e05447ba3e7a2722fbbfb571ead6d078e3ee) | trivialfis |
 
 [See all commits ↗](https://github.com/dmlc/xgboost/commits)
 

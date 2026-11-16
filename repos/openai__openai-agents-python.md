@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 30.7k |
 | 🍴 **Forks** | 5.1k |
-| 🐞 **Open issues + PRs** | [51](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [46](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `llm` `python` `openai` `harness` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2025-03-11 |
 | 📦 **Latest release** | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) — 2026-10-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 119.1 MB |
+| 💾 **Size** | 118.5 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
 
+### [v0.24.0-alpha.8](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8) — Agents SDK v0.24.0-alpha.8 _(pre-release)_
+<sub>2026-11-16 · today</sub>
+
+> **Agents SDK v0.24.0-alpha.8**
+> **Highlights**
+> - **Approve Python tool calls before they run.** Review the arguments and approve or reject the call. You can remember a decision for the rest of the Session. [Managed approval example](https://github.com/openai/openai-agents-python/blob/d6a81c997eabdc56108633eb3132fb3907f87d7e/examples/codex/managed_approvals/README.md#inspect-and-decide)
+> - **Connect your own model client.** The native tool loop works with async Responses and Chat Completions clients, LiteLLM, AnyLLM, and custom adapters. [Application-owned model clients](https://github.com/openai/openai-agents-python/blob/d6a81c997eabdc56108633eb3132fb3907f87d7e/docs/sdk/models.md#use-an-application-owned-model-client)
+> - **Add Realtime voice to a Session.** Use a server WebSocket, connect a browser over WebRTC, or attach to an existing SIP call. [Realtime connection options](https://github.com/openai/openai-agents-python/blob/d6a81c997eabdc56108633eb3132fb3907f87d7e/examples/codex/native_voice.md#choose-a-connection)
+> - **Resume more kinds of work.** Save supported pending tool requests and approvals. Request and token budgets keep the usage already spent when you restore a supported checkpoint. [Restore a checkpoint with a budget](https://github.com/openai/openai-agents-python/blob/d6a81c997eabdc56108633eb3132fb3907f87d7e/examples/codex/budgeted-recovery.md)
+> …
+
 ### [v0.24.0-alpha.7](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.7) — Agents SDK v0.24.0-alpha.7 _(pre-release)_
-<sub>2026-11-08 · 7d ago</sub>
+<sub>2026-11-08 · 8d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.7**
 > **Highlights**
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.24.0-alpha.6](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6) — Agents SDK v0.24.0-alpha.6 _(pre-release)_
-<sub>2026-11-03 · 11d ago</sub>
+<sub>2026-11-03 · 12d ago</sub>
 
 > **Install the preview**
 > Use standard CPython 3.10–3.14 in a virtual environment. These wheels include the native runtime; no Rust toolchain or source build is needed. This preview is distributed through GitHub Releases, not PyPI.
@@ -77,17 +88,6 @@
 > **Release readiness review (v0.23.0 -> TARGET 0a5a08b21cd44808d73e8a9e732212dd33b3690d)**
 > This is a release readiness report done by `$final-release-review` skill.
 > **Diff**
-> …
-
-### [v0.23.0](https://github.com/openai/openai-agents-python/releases/tag/v0.23.0)
-<sub>2026-10-02 · 1mo ago</sub>
-
-> **[0.23.0](https://github.com/openai/openai-agents-python/compare/v0.22.3...v0.23.0) (2026-10-01)**
-> **Features**
-> * **mcp:** add configurable MCP listing page limits ([#5133](https://github.com/openai/openai-agents-python/issues/5133)) ([9a21ab1](https://github.com/openai/openai-agents-python/commit/9a21ab19fee8314df63126bdf5c43691887222dd))
-> * **sandbox:** add opt-in Docker removal protection ([#5116](https://github.com/openai/openai-agents-python/issues/5116)) ([ae5803f](https://github.com/openai/openai-agents-python/commit/ae5803f3ccd59899c14e0ee2f356614933880a68))
-> * **sandbox:** allow configuring memory consolidation turns ([#5135](https://github.com/openai/openai-agents-python/issues/5135)) ([daa1bcb](https://github.com/openai/openai-agents-python/commit/daa1bcbcc097654809fa48478da1b87c64474971))
-> * **sessions:** add an opt-in encrypted history scan budget ([#5118](https://github.com/openai/openai-agents-python/issues/5118)) ([a2fdb94](https://github.com/openai/openai-agents-python/commit/a2fdb94627776efc9b3e893afe22f28e078c647a))
 > …
 
 ## 🔨 Latest commits

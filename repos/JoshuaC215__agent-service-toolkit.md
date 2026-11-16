@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.6k |
-| 🍴 **Forks** | 803 |
-| 🐞 **Open issues + PRs** | [6](https://github.com/JoshuaC215/agent-service-toolkit/issues) |
+| 🍴 **Forks** | 805 |
+| 🐞 **Open issues + PRs** | [5](https://github.com/JoshuaC215/agent-service-toolkit/issues) |
 | 💻 **Languages** | Python 97% · Shell 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `langgraph` `streamlit` |
-| 🕒 **Last activity** | 2026-11-14 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2024-08-04 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [chore(deps): bump opentelemetry-api from 1.45.1 to 1.45.2 (#408)](https://github.com/JoshuaC215/agent-service-toolkit/commit/3d771312f01d0397da3bc0cd2c2db8d4e1786128) | dependabot[bot] |
 | 2026-11-07 | [chore(deps): bump setuptools from 84.0.0 to 84.1.0 (#407)](https://github.com/JoshuaC215/agent-service-toolkit/commit/8bb3cd36264ca20e63a7c3a92bb8fcd383f09822) | dependabot[bot] |
 | 2026-11-01 | [fix(deps): security bumps and make ChromaDB an optional extra (#406)](https://github.com/JoshuaC215/agent-service-toolkit/commit/836649674568320c0cc994553a8a930ed82398d0) | JoshuaC215 |
 | 2026-11-01 | [fix: return empty history for new threads (#400)](https://github.com/JoshuaC215/agent-service-toolkit/commit/a13d1104aadaf4df62ea10b8c3fd7576c3a5c5ce) | mengqing88 |
@@ -50,7 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-10-31 | [chore(deps): bump langgraph-cli from 0.4.31 to 0.4.32.dev0 (#402)](https://github.com/JoshuaC215/agent-service-toolkit/commit/537677b0eed81ad7a7ffa8d9447a836a8510cba0) | dependabot[bot] |
 | 2026-10-31 | [chore(deps): bump oauthlib from 3.3.1 to 4.0.0 (#403)](https://github.com/JoshuaC215/agent-service-toolkit/commit/3ab8aeb950d150e5dbda9481c2dadcc536c563f5) | dependabot[bot] |
 | 2026-10-31 | [chore(deps): bump langgraph-api from 0.10.3 to 0.15.0 (#401)](https://github.com/JoshuaC215/agent-service-toolkit/commit/f1df703d22dd199fb8ee122e0b8c137cb69167a9) | dependabot[bot] |
-| 2026-10-24 | [chore(deps): bump multidict from 6.7.1 to 6.9.1 (#392)](https://github.com/JoshuaC215/agent-service-toolkit/commit/9c431c7ac2d58ef5dca0b820a4dd36ed5885af50) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/JoshuaC215/agent-service-toolkit/commits)
 

@@ -22,28 +22,28 @@
 |---|---|
 | ⭐ **Stars** | 32.2k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [92](https://github.com/openai/openai-python/issues) |
+| 🐞 **Open issues + PRs** | [96](https://github.com/openai/openai-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `openai` `python` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v3.51.0](https://github.com/openai/openai-python/releases/tag/v3.51.0) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 28.1 MB |
+| 💾 **Size** | 28.5 MB |
 | 🌐 **Website** | https://pypi.org/project/openai/ |
 
 ## 📦 Recent releases
 
 ### [v3.51.0](https://github.com/openai/openai-python/releases/tag/v3.51.0)
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **[3.51.0](https://github.com/openai/openai-python/compare/v3.50.0...v3.51.0) (2026-11-12)**
 > **Features**
 > * **api:** expand agent, image, Live, and external key support ([#4269](https://github.com/openai/openai-python/issues/4269)) ([59738a2](https://github.com/openai/openai-python/commit/59738a289ee82c7b86bf1e10230cceb6daa9716d))
 
 ### [v3.50.0](https://github.com/openai/openai-python/releases/tag/v3.50.0)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **[3.50.0](https://github.com/openai/openai-python/compare/v3.49.0...v3.50.0) (2026-11-12)**
 > **Features**
@@ -54,7 +54,7 @@
 > …
 
 ### [v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0)
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > **[3.49.0](https://github.com/openai/openai-python/compare/v3.48.0...v3.49.0) (2026-11-10)**
 > **Features**
@@ -63,7 +63,7 @@
 > * encode microphone recordings as valid PCM WAV ([#3900](https://github.com/openai/openai-python/issues/3900)) ([13c000d](https://github.com/openai/openai-python/commit/13c000d1f32c1e3e3c4b3e16bc6b956dfd4f5216))
 
 ### [v3.48.0](https://github.com/openai/openai-python/releases/tag/v3.48.0)
-<sub>2026-11-09 · 5d ago</sub>
+<sub>2026-11-09 · 6d ago</sub>
 
 > **[3.48.0](https://github.com/openai/openai-python/compare/v3.47.0...v3.48.0) (2026-11-09)**
 > **Features**
@@ -74,7 +74,7 @@
 > …
 
 ### [v3.47.0](https://github.com/openai/openai-python/releases/tag/v3.47.0)
-<sub>2026-11-05 · 9d ago</sub>
+<sub>2026-11-05 · 10d ago</sub>
 
 > **[3.47.0](https://github.com/openai/openai-python/compare/v3.46.0...v3.47.0) (2026-11-05)**
 > **Features**

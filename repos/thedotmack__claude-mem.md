@@ -20,23 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 117.2k |
+| ⭐ **Stars** | 117.5k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [166](https://github.com/thedotmack/claude-mem/issues) |
-| 💻 **Languages** | TypeScript 63% · JavaScript 32% · Python 4% |
+| 🐞 **Open issues + PRs** | [94](https://github.com/thedotmack/claude-mem/issues) |
+| 💻 **Languages** | TypeScript 64% · JavaScript 31% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-memory` `anthropic` `artificial-intelligence` `claude` `claude-agent-sdk` `claude-agents` `claude-code` `claude-code-plugin` `claude-skills` `long-term-memory` `mem0` `openmemory` `supermemory` `chromadb` `sqlite` `embeddings` `memory-engine` `rag` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2025-08-31 |
-| 📦 **Latest release** | [v15.18.4](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.4) — 2026-11-15 |
+| 📦 **Latest release** | [v15.19.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.19.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 852.0 MB |
+| 💾 **Size** | 867.6 MB |
 | 🌐 **Website** | https://claude-mem.ai |
 
 ## 📦 Recent releases
 
-### [v15.18.4](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.4)
+### [v15.19.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.19.0)
+<sub>2026-11-16 · today</sub>
+
+> **Continue a Claude Code or Codex conversation from My Work**
+> Open a request in My Work, then open "Where this came from". Under each Claude Code or Codex conversation there is now a message box. Type a message and press Send, and that same conversation takes the turn. The reply shows right there (#6191; the command shapes follow @wiesenthal's answer code in #6054, and the commit credits him).
+> - Each conversation keeps the messages you sent from My Work and their replies, in order. Stop ends a running turn.
+> - The box says which folder the turn runs in. When the recorded folder no longer exists (common after a worktree is cleaned up), the turn runs in the nearest existing folder above it.
+> - "Copy resume command" copies `claude --resume <id>` or `codex resume <id>`. On a Mac, "Open in Claude" opens a Claude Code conversation in the Claude desktop app.
+> - One Send starts one headless resume (`claude --resume <id> -p --output-format json`, or `codex exec resume <id> - --skip-git-repo-check`) with your message on stdin. A failed turn is recorded as failed and never retried. Nothing is queued or saved for replay, and nothing starts at startup, on a timer or on reconnect.
+> …
+
+### [v15.18.5](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.5)
 <sub>2026-11-15 · today</sub>
+
+> **Critical fixes**
+> - **The tree-sitter CLI installs on networks where its download script keeps failing** (#6110, thanks @rigel905, closes #6109). On some networks tree-sitter-cli's own `install.js` had its request reset every time, or exited 0 on a truncated file. The pinned SHA-256 check correctly refused the file, but nothing recovered after that, so `smart_search`, `smart_outline`, `smart_unfold` and the File Read Gate stayed off on every worker start, and `npx claude-mem repair` aborted. Now, when the script fails or leaves anything but the pinned executable, claude-mem fetches the same release asset directly, once, inside the same install time budget, and runs it only after it unpacks to the same pinned SHA-256. The script still runs first, so `HTTPS_PROXY` keeps working. A script that used up the whole budget gets no second attempt.
+> - **A corrupt Chroma collection is dropped once, not once per parallel backfill** (#6115, thanks @mohitdixit02 and @0xABCD01, closes #6113). When the HNSW segment of a large collection was corrupt, every parallel per-project backfill that hit it passed the "drop only once" check before the first delete finished, and queued its own delete against chroma-mcp. In #6113 that ran 19 drops at once and pushed chroma-mcp to a 312 GB memory footprint, stalling a 32 GB Mac. Callers now join the one drop already running for that collection and share its outcome. A failed drop costs one attempt from the retry budget, not one per caller, and different collections still drop independently. The remaining asks from that report (a memory bound on chroma-mcp, stopping writes when a drop can't be confirmed, measuring footprint on macOS) are tracked in #3610.
+> **Fixes**
+> - **`--help` prints help instead of running the command** (#6142, thanks @liuyinchu). `npx claude-mem mcp --help` used to start the stdio server, and `status`, `doctor` and `hook` entered their runtime paths; `t3code` and its aliases rejected the flag. `-h` and `--help` are now handled before dispatch for these commands. Plain `mcp` still starts the server.
+> **Docs**
+> …
+
+### [v15.18.4](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.4)
+<sub>2026-11-15 · yesterday</sub>
 
 > **Fixes**
 > - **Claude Code gets claude-mem's rules and tools once** (#6179). Before this, a Claude Code session got the same guidance from up to three places: the MCP server instructions, a memory block the local activation script wrote into `CLAUDE.md`, and a pointer line to `RULES-AND-TOOLS.md` (whose timeline legend was never actually loaded). Now there is one path. `MY-RULES.md`, which your `CLAUDE.md` already imports, ends with an import of `RULES-AND-TOOLS.md`, and Claude Code loads it from there.
@@ -47,7 +69,7 @@
 > …
 
 ### [v15.18.3](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.3)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **Critical fixes**
 > - **Codex keeps recording after claude-mem updates** (#6058, thanks @wiesenthal). Codex approves a hook that ships inside a plugin against a fingerprint of the plugin's whole folder. Every claude-mem update rewrites that folder, so after every update Codex switched all seven claude-mem hooks off ("plugin contents changed; hook approval required") and Codex sessions stopped being saved, with no message. The installer now registers claude-mem's Codex hooks in your own `~/.codex/hooks.json`, and each hook runs the on-PATH `claude-mem` launcher, which finds the newest install by itself. Codex trusts a hook in `hooks.json` by its own definition and position, so one approval now lasts across updates. Other tools' hooks in that file are kept in place, a second install changes nothing, a `hooks.json` that can't be parsed is refused and left untouched, and uninstall removes only claude-mem's entries. Turning the claude-mem plugin off in Codex still stops capture. `npx claude-mem doctor` has a new `Codex hooks` row that warns when the plugin is on but its hooks are missing from `hooks.json`.
@@ -58,7 +80,7 @@
 > …
 
 ### [v15.18.2](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.2)
-<sub>2026-11-12 · 2d ago</sub>
+<sub>2026-11-12 · 3d ago</sub>
 
 > **Critical fixes**
 > - **Gemini CLI on Windows records again** (#6079, thanks @tanishqbaweja). On Windows, Gemini CLI runs hook commands through PowerShell. The hook commands claude-mem wrote started with a quoted path, which PowerShell rejects as a parser error. Every claude-mem Gemini hook (SessionStart, BeforeAgent, AfterTool, AfterAgent, SessionEnd) failed on every event since 15.18.0, so Gemini sessions on Windows saved nothing and got no saved context. Hook commands on Windows now start with PowerShell's `&` call operator, as the Cursor and Windsurf hooks already do. macOS and Linux are unchanged.
@@ -68,42 +90,20 @@
 > **CI**
 > …
 
-### [v15.18.1](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.1)
-<sub>2026-11-12 · 3d ago</sub>
-
-> **Critical fixes**
-> - **The worker no longer fails to start when the database is busy at startup** (#6041). If the My Work refresh record was left as "running" by a restart and the database was locked at that moment, the repair write threw and took down the worker's whole startup, so memory stayed off until the next restart. The repair failure is now logged, and the next scheduled check tries again (whether or not scheduled refresh is on).
-> - **`npx claude-mem update` and the daily auto-update keep your setup** (#6045). Before this, an unattended update reset a server or server-beta runtime back to the local worker, so capture moved off your server. A legacy install with no saved provider could also have its cloud sync turned off and its Anthropic env keys cleared. Updates now reuse your saved runtime, provider, model and agents. They don't reopen the browser setup or ask the setup questions again, and only ask for a Gemini or OpenRouter key if one is missing. `npx claude-mem install` is unchanged.
-> - **My Work summaries stop retrying unusable model answers forever** (#6039, thanks @mohitdixit02, reported by @adminwat in #6037). When the model's answer failed validation, wasn't JSON or came back empty, the same unchanged request was resent every minute with no end. One report measured 104,869 calls, and the constant load starved a local Ollama runner. Each request version now gets at most 3 tries with a growing wait, then waits until its input or settings change. The card shows the actual reason. Thanks @balabommablock-cpu for testing and finding the empty-answer case.
-> **Fixes**
-> - **Lower observer cost by default** (#6031, thanks @kartik70, closes #5023). The observer's conversation budget drops from 400,000 to 100,000 characters (about 100K to about 26K tokens per turn in the issue's measurement). Installs that still hold the old shipped default move once; a value you set yourself is kept.
-> …
-
-### [v15.18.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.0)
-<sub>2026-11-12 · 3d ago</sub>
-
-> **eve agents get the same memory as Claude Code and Codex**
-> `claude-mem/eve` now gives an eve agent the full claude-mem memory loop through your cmem.ai account (#6042).
-> - **Session context:** each turn starts with the recent timeline from your memory. It is refreshed every turn under one message id, so it replaces itself instead of piling up.
-> - **Recall each turn:** one search before the turn, as before.
-> - **Recording is now on by default.** After each completed turn the provider sends the prompt, one observation per tool call, and a turn summary to cmem.ai as platform `eve`. Recorded tool calls and summaries come out of your cmem.ai observer allowance, the same allowance your other clients use. Pass `capture: false` to keep the old read-only behaviour; session context, recall, search and `remember` keep working.
->   - `<private>…</private>` regions and secret-shaped text are removed on your deployment before anything is sent, with the same rules the Cowork plugin uses.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [chore: promote 15.18.4 for auto-update](https://github.com/thedotmack/claude-mem/commit/62ca1eb865ddc08daad6a23e64f1418b928df7d0) | thedotmack |
-| 2026-11-15 | [docs: update CHANGELOG for v15.18.4](https://github.com/thedotmack/claude-mem/commit/1fe538f4bee15c9e39c8f1d761bfbf7aa677c742) | thedotmack |
-| 2026-11-15 | [chore: bump version to 15.18.4](https://github.com/thedotmack/claude-mem/commit/0f75ee66ea5811e448858b7af6220d44b8f1c617) | thedotmack |
-| 2026-11-15 | [fix: deliver claude-mem rules and tools once, through the CLAUDE.md-i…](https://github.com/thedotmack/claude-mem/commit/ff25f7f3e8e101b9240ca1bbc9b2b922a95f7774) | thedotmack |
-| 2026-11-13 | [docs: update README logo mark and preserve original lettering (#6104)](https://github.com/thedotmack/claude-mem/commit/0c488b54e761d7f6f4091b3a6e1958712f13b19d) | thedotmack |
-| 2026-11-12 | [feat(vercel-chat): add explicit project memory example (#6084)](https://github.com/thedotmack/claude-mem/commit/b0a0e2f9d2098b46d7be38d7d4c2cb862b553e37) | Kirat0201 |
-| 2026-11-12 | [fix(cost-report): take the owner name from config (#6085)](https://github.com/thedotmack/claude-mem/commit/218e649399adb94fb6138bf4dbb7934b8ea414c3) | MaxWang007 |
-| 2026-11-12 | [chore: promote 15.18.3 for auto-update](https://github.com/thedotmack/claude-mem/commit/22c2fe14e07fe9fffaa663db5cf8b254d23d8413) | thedotmack |
-| 2026-11-12 | [fix(worker): bound listing offsets on the worker plane at 10k (#5495 …](https://github.com/thedotmack/claude-mem/commit/ce07140989f25e4d76f9faa3c880b72ec30805c5) | xunguangzlj-cloud |
-| 2026-11-12 | [perf(dedup): bound full-scan pair counting to one title (#6052)](https://github.com/thedotmack/claude-mem/commit/68122cd8ad41fe5a67cd07e715f42c08fde0a459) | Afloat16 |
+| 2026-11-16 | [fix(import): Mem0 and Supermemory import acceptance for 16.0.0 (#6206)](https://github.com/thedotmack/claude-mem/commit/82d3602e2e43503ffd39c180b2af5f7521fc457b) | thedotmack |
+| 2026-11-16 | [chore: promote 15.19.0 for auto-update](https://github.com/thedotmack/claude-mem/commit/f705e9b99601dd9ac03e2f77c5aded6ff3d9471b) | thedotmack |
+| 2026-11-16 | [docs: say the 15.19.0 provenance tag shows on the server runtime](https://github.com/thedotmack/claude-mem/commit/8710ec4f107972d8b76ef67a41872ddda06d92b9) | thedotmack |
+| 2026-11-16 | [docs: update CHANGELOG for v15.19.0](https://github.com/thedotmack/claude-mem/commit/9bf4c6564893c7284082609c086860a18f02aa13) | thedotmack |
+| 2026-11-16 | [chore: bump version to 15.19.0](https://github.com/thedotmack/claude-mem/commit/01a86b235d3b9854c18e1841133d9a8e7fe1171a) | thedotmack |
+| 2026-11-16 | [feat(my-work): continue a Claude Code or Codex conversation from its …](https://github.com/thedotmack/claude-mem/commit/7acc9328706a529909125f2355736f55abdb48e5) | thedotmack |
+| 2026-11-15 | [feat(v16): import memories from Mem0 and Supermemory (#6106)](https://github.com/thedotmack/claude-mem/commit/5cc2fb16aa6d36b47d777d58dfd6456065510f9f) | thedotmack |
+| 2026-11-15 | [Observation provenance: always know which agent made a memory (#6100)](https://github.com/thedotmack/claude-mem/commit/9ea3e0eb86f0dcf37a262d2fd7217cdcc5bc62a2) | thedotmack |
+| 2026-11-15 | [docs(cline,kilo): say explicit MCP saves honor project exclusions (#6…](https://github.com/thedotmack/claude-mem/commit/63a6a95f84505bfc52415445b847bf7e1509e60f) | thedotmack |
+| 2026-11-15 | [fix(deep-search): derive the child deadline from the remaining budget…](https://github.com/thedotmack/claude-mem/commit/d40d249ca3ebdafe44d070aee7ef9af311c9ffff) | DeryFerd |
 
 [See all commits ↗](https://github.com/thedotmack/claude-mem/commits)
 

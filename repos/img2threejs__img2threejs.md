@@ -14,6 +14,8 @@
 | **Why it's worth a look** | Turn images into Three.js scenes |
 | **Added** | 2026-11-11 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
@@ -24,17 +26,17 @@
 | 💻 **Languages** | Python 97% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `3d` `ai-agents` `claude-code` `computer-graphics` `generative` `image-to-3d` `procedural-generation` `threejs` `typescript` `webgl` |
-| 🕒 **Last activity** | 2026-11-05 (10d ago) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1) — 2026-11-05 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 35.5 MB |
+| 💾 **Size** | 35.4 MB |
 | 🌐 **Website** | https://img2threejs.io |
 
 ## 📦 Recent releases
 
 ### [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1)
-<sub>2026-11-05 · 10d ago</sub>
+<sub>2026-11-05 · 11d ago</sub>
 
 > **What's Changed**
 > **Other Changes**

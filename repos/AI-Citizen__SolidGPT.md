@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.8k |
-| 🍴 **Forks** | 133 |
+| 🍴 **Forks** | 132 |
 | 🐞 **Open issues + PRs** | [15](https://github.com/AI-Citizen/SolidGPT/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 14% · CSS 2% |
 | 📜 **License** | CC-BY-4.0 |

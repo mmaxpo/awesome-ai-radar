@@ -26,7 +26,7 @@
 | 💻 **Languages** | Cython 52% · Python 42% · C 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `cython` `cpython` `cpython-extensions` `c` `cpp` `performance` `big-data` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2010-11-21 |
 | 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1)
-<sub>2026-11-01 · 13d ago</sub>
+<sub>2026-11-01 · 14d ago</sub>
 
 > _No notes._
 
@@ -64,6 +64,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Keep the end barrier of prange when code follows it in a parallel blo…](https://github.com/cython/cython/commit/3426ddee1fcbd0400313ffcfd558203471845cc7) | cakedev0 |
 | 2026-11-15 | [Fix use of pass in statement list and where `__future__` is allowed (…](https://github.com/cython/cython/commit/2a4662089231cbfba4bff987fcafa5ca0b62f7eb) | da-woods |
 | 2026-11-14 | [fix implicit __init__.py creation warnings (#8132)](https://github.com/cython/cython/commit/429a8f92889a80722e6de76438f45638169791e9) | dws |
 | 2026-11-14 | [CI: Compare changed file counts numerically in file-changes job (#8139)](https://github.com/cython/cython/commit/90f982f22fdebbc84443025835db467c8d6c3a95) | matusvalo |
@@ -73,7 +74,6 @@
 | 2026-11-12 | [Reset echo_file in close_listing_file() to avoid writing to a closed …](https://github.com/cython/cython/commit/bbd3790a32d50c8ea74c0dbee1f27fdcdf31b313) | frenzymadness |
 | 2026-11-10 | [Use IncRef/DecRef functions on old Limited API (#8125)](https://github.com/cython/cython/commit/c755f5c584a8dde1a5454fab2abcfef06a3c5bca) | da-woods |
 | 2026-11-08 | [Fix type inference for iteration over literal sequences with mixed it…](https://github.com/cython/cython/commit/8fffbf87cca92edfba2c35e9c495c24bee2cd10a) | akasakariko |
-| 2026-11-08 | [Update the default GCC version to GCC 11 (GH-8119)](https://github.com/cython/cython/commit/63f2de1574e5d4dc141d5a3ddf2601dbfbed7735) | da-woods |
 
 [See all commits ↗](https://github.com/cython/cython/commits)
 

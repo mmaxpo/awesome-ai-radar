@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 30.4k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [557](https://github.com/huggingface/smolagents/issues) |
+| 🐞 **Open issues + PRs** | [510](https://github.com/huggingface/smolagents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Add workflow to close pull requests without a validated and assigned …](https://github.com/huggingface/smolagents/commit/e1249d373d58db6abc73882ee394f6bb3854c89f) | albertvillanova |
+| 2026-11-15 | [Ask agents to run make style before committing (#3185)](https://github.com/huggingface/smolagents/commit/a5797f14f33f87aa5efd038451a15d8e812b1460) | albertvillanova |
 | 2026-11-15 | [Require issues to be validated and assigned before opening a pull req…](https://github.com/huggingface/smolagents/commit/1faabfa499a40bcb62f86c507552632a7a4f9edc) | albertvillanova |
 | 2026-11-15 | [Docs: build English only, other languages are machine-translated (#3091)](https://github.com/huggingface/smolagents/commit/a826da9e98c1c59443f2bb119a37fde2f569b292) | mishig25 |
 | 2026-11-15 | [Fix flaky test_transformers_toolcalling_agent (#3180)](https://github.com/huggingface/smolagents/commit/57b9e408d77cebc99c7d9f3af375ea8bf10033e6) | albertvillanova |
@@ -102,8 +104,6 @@
 | 2026-11-15 | [Fix pandas exception test for pandas 3 error message (#3176)](https://github.com/huggingface/smolagents/commit/deb17d9927fa8d11e35ab174ef8a69e77842998f) | albertvillanova |
 | 2026-11-15 | [Fix MCP extra installation with incompatible SDK 2.x (#2585)](https://github.com/huggingface/smolagents/commit/cd1a6b6e8badbe0d37721ed8d5b87209bb715916) | d3f4w2 |
 | 2026-10-06 | [Bump doc-builder workflow pin (#2906)](https://github.com/huggingface/smolagents/commit/96f33faaf028479119ec8d34507b47694cf14e34) | paulinebm |
-| 2026-09-30 | [fix(ci): harden GitHub Actions workflows (#2558) (#2868)](https://github.com/huggingface/smolagents/commit/c30b115286e000e98711fae5e85993547b73d826) | hf-security-analysis[bot] |
-| 2026-09-30 | [Bump the actions group across 1 directory with 6 updates (#2558)](https://github.com/huggingface/smolagents/commit/fcc81e9999dbfadfab04e00e2d9201c4bb7eefc8) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/huggingface/smolagents/commits)
 

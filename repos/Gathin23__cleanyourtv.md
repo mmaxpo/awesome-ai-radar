@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 58.1k |
+| ⭐ **Stars** | 58.5k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [239](https://github.com/Gathin23/cleanyourtv/issues) |
+| 🐞 **Open issues + PRs** | [316](https://github.com/Gathin23/cleanyourtv/issues) |
 | 💻 **Languages** | Python 54% · Java 40% · Kotlin 2% · Shell 2% · PowerShell 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `adb` `android-tv` `claude-code` `debloat` `launcher` `xiaomi` `android-tv-launcher` `bloatware-removal` `google-tv` `smart-tv` `sony-bravia` `tcl` `adblock` `apple-tv` `fire-tv` `privacy` `vibe-coding` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-15 (yesterday) |
 | 📅 **Created** | 2026-10-17 |
 | 📦 **Latest release** | [v3.5.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.5.0) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.5.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.5.0) — CleanYourTV 3.5: eight new themes, 472 TV models and a lighter Home
-<sub>2026-11-14 · yesterday</sub>
+<sub>2026-11-14 · 2d ago</sub>
 
 > Nine days, **355 pull requests from 152 people**. CleanYourTV 3.5 brings **eight new themes**, from Diwali lamps to Istanbul at night, three new add-ons, 30 more TVs from 12 new brands, and a Home screen that no longer holds on to memory it doesn't need. The README now reads in Spanish, French, Hebrew and Uzbek too.
 > Since v3.4.0: **472 TV models** (from 442), **129 brands** (from 117), **29 themes** (from 21), **36 add-ons** (from 33), **243 projects in the showcase** (from 212), **355 pull requests from 152 people**. No binaries, as always: build the launcher with `launcher/build-and-install.sh`.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.4.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.4.0) — CleanYourTV 3.4: five new themes, 442 TV models and tighter security
-<sub>2026-11-05 · 9d ago</sub>
+<sub>2026-11-05 · 10d ago</sub>
 
 > Think of CleanYourTV as the Linux of smart TVs: an open base that anyone can start from. In four days, people built on it again: **five new themes**, from photos taken on the space station to a snowy night with Santa's sleigh, two new add-ons, and **212 projects in the showcase**, made by people who took the launcher and made it theirs. The launcher itself gets fixes for clocks that stopped, Mi TV picture settings and remote buttons that opened the wrong app.
 > Since v3.3.0: **442 TV models** (from 407), **117 brands** (from 106), **21 themes** (from 16), **33 add-ons** (from 31), **212 projects in the showcase** (from 177), **247 pull requests from 143 people** in four days. No binaries, as always: build the launcher with `launcher/build-and-install.sh`.
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.3.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.3.0) — CleanYourTV 3.3: hold OK to move your apps
-<sub>2026-11-01 · 13d ago</sub>
+<sub>2026-11-01 · 14d ago</sub>
 
 > Your Home, in the order you want it. In v3.3, hold OK on any app on Home and a small menu opens: **Move**, **App info**, and **Remove from Home** when the App library is on. Choose Move, the arrows carry the tile, and Back puts it down. Until now this menu was a switch you had to find and turn on; in 3.3 every Home has it. The rest of this release is three days of the community at work: 47 more TVs, four new themes, Asturian in the launcher, and tools that tell you in a plain sentence when they can't reach your TV.
 > Since v3.2.0: **407 TV models** (from 360), **106 brands** (from 97), **31 languages** (from 30), **16 themes** (from 12), **177 projects in the showcase** (from 151), **262 pull requests from 163 people** in three days (v3.2 had 177 from 104 in two days). No binaries, as always: build the launcher with `launcher/build-and-install.sh`.
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.2.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.2.0) — CleanYourTV 3.2: The Halloween update
-<sub>2026-10-29 · 16d ago</sub>
+<sub>2026-10-29 · 18d ago</sub>
 
 > Happy Halloween. v3.2 turns your TV's Home into a haunted house for the week: a Halloween theme, a Halloween skin for the Wi-Fi, Inputs and Settings buttons, and a new screensaver add-on, Haunted. All of it goes away by itself after 1 November. The rest of this release is two days of the community at work: 19 more TVs, four new add-ons, a Latin American Spanish launcher and more switches for Home.
 > Since v3.1.0: **360 TV models** (from 341), **97 brands** (from 93), **30 languages** (from 29), **151 projects in the showcase** (from 140), **177 pull requests from 104 people** in two days (v3.1 had 323 from 176 since v3.0). No binaries, as always: build the launcher with `launcher/build-and-install.sh`.
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.1.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.1.0) — CleanYourTV 3.1: Samsung, LG and Roku owners get a fix too
-<sub>2026-10-27 · 18d ago</sub>
+<sub>2026-10-27 · 19d ago</sub>
 
 > Until now CleanYourTV could only help if your TV ran Android. If you had a Samsung, an LG or a Roku, all we could tell you was that it would not work. v3.1 gives those TVs a path too: [cleanyour.tv/not-android](https://cleanyour.tv/not-android) walks you through turning off the tracking with your remote, and the repo now sends you there as soon as it's clear your TV isn't Android. The rest of this release is two days of the community at work: 41 more TVs, six new add-ons, a launcher that fits more TVs and safer tools.
 > Since v3.0.0: **341 TV models** (from 300), **93 brands** (from 86), **29 languages** (from 28), **140 projects in the showcase** (from 113), **323 pull requests from 176 people** in two days (v3.0 had 301 from 169 in a week). No binaries, as always: build the launcher with `launcher/build-and-install.sh`.

@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 64.8k |
-| 🍴 **Forks** | 11.1k |
-| 🐞 **Open issues + PRs** | [368](https://github.com/karpathy/nanoGPT/issues) |
+| 🍴 **Forks** | 11.2k |
+| 🐞 **Open issues + PRs** | [369](https://github.com/karpathy/nanoGPT/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |

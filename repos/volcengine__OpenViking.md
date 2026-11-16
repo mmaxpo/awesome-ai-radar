@@ -26,17 +26,28 @@
 | 💻 **Languages** | Python 63% · TypeScript 17% · Rust 11% · JavaScript 3% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [react@0.1.12](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.12) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 419.7 MB |
+| 💾 **Size** | 421.1 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
+### [openviking-superagent@0.5.3-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.3-preview) — OpenViking SuperAgent 0.5.3-preview _(pre-release)_
+<sub>2026-11-15 · today</sub>
+
+> **Install**
+> macOS / Linux / WSL2 (this version):
+> ```sh
+> curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/superagent/releases/0.5.3-preview/install.sh | sh -s -- --version 0.5.3-preview
+> ```
+> Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separately; this command and these release assets are for macOS / Linux.
+> …
+
 ### [react@0.1.12](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.12) — @openviking/react 0.1.12
-<sub>2026-11-14 · today</sub>
+<sub>2026-11-14 · yesterday</sub>
 
 > **en-US**
 > **Patch Changes**
@@ -47,7 +58,7 @@
 > …
 
 ### [react@0.1.11](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.11) — @openviking/react 0.1.11
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 2d ago</sub>
 
 > **en-US**
 > **Patch Changes**
@@ -58,12 +69,12 @@
 > …
 
 ### [cli@0.5.3](https://github.com/volcengine/OpenViking/releases/tag/cli%400.5.3)
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 3d ago</sub>
 
 > _No notes._
 
 ### [v0.5.5](https://github.com/volcengine/OpenViking/releases/tag/v0.5.5)
-<sub>2026-11-13 · yesterday</sub>
+<sub>2026-11-13 · 3d ago</sub>
 
 > **中文**
 > **主要更新**
@@ -73,28 +84,20 @@
 > - **Gateway Context Profile**：新增 `recall_peer_scope`（`all` / `actor`），可把召回限制在当前 peer；新增 `capture_memory_types`，限制 capture 抽取的记忆类型；capture 会话保留用户自己的记忆策略。[#7389](https://github.com/volcengine/OpenViking/pull/7389)、[#7367](https://github.com/volcengine/OpenViking/pull/7367)、[#7429](https://github.com/volcengine/OpenViking/pull/7429)
 > …
 
-### [python-sdk@0.1.20](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.20) — openviking-sdk 0.1.20
-<sub>2026-11-12 · 3d ago</sub>
-
-> **更新**
-> - 支持上下文使用次数与最近使用时间标签更新
-> - 支持批量设置上下文标签
-> - 支持 Python 同步与异步客户端调用 `batch_set_tags`
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [feat(studio): copy, move, and delete shared resources (#7712)](https://github.com/volcengine/OpenViking/commit/f9bf90b398df1c0ee6732d257dcdba793f02e2b5) | openviking-superagent |
-| 2026-11-15 | [feat(ci): route Linux API jobs and wheel builds to dedicated runner (…](https://github.com/volcengine/OpenViking/commit/1a6e51f0c62462da43a79e9794f03efb485cc17f) | zhanglistar |
-| 2026-11-14 | [chore(react): prepare 0.1.12 stable release (#7706)](https://github.com/volcengine/OpenViking/commit/00c8e7b1b8701fe0f0ee43d29b4f96667984b6d5) | LaamGinghong |
-| 2026-11-14 | [feat(react): connect Console HITL flow and extensible form fields (#7…](https://github.com/volcengine/OpenViking/commit/bb70f8c7d1e90bc8ee65efe3cd3188996ae8bed1) | LaamGinghong |
-| 2026-11-14 | [feat(react): unify error feedback with Toast and copyable notificatio…](https://github.com/volcengine/OpenViking/commit/34c01616eb96a5077042c76ea4502587a332d8ee) | LaamGinghong |
-| 2026-11-14 | [feat(react): add opt-in frontend monitoring and target CSR (#7696)](https://github.com/volcengine/OpenViking/commit/c189fccf4941222365b404d2add51a104f375df8) | LaamGinghong |
-| 2026-11-14 | [fix(react): isolate file tree dashboard tooltips (#7698)](https://github.com/volcengine/OpenViking/commit/ad4516ec9fd92405afb316248a6e1c88190f1322) | LaamGinghong |
-| 2026-11-14 | [feat(react): add built-in HITL validation and step navigation (#7694)](https://github.com/volcengine/OpenViking/commit/c79d9fdb1b98330530c814ef56389aac17d49013) | LaamGinghong |
-| 2026-11-14 | [fix(react): unify focus halos and adopt Arco time picker (#7683)](https://github.com/volcengine/OpenViking/commit/99418e357764753a770d97e9e50be9845de2d5d7) | LaamGinghong |
-| 2026-11-14 | [refactor(compile): use isolated Markdown file workers (#7682)](https://github.com/volcengine/OpenViking/commit/d462af04e651335261d4972cb546788a788b2a47) | FuJiaJie123 |
+| 2026-11-16 | [fix: filebrowser ux (#7775)](https://github.com/volcengine/OpenViking/commit/3e93b8290726d6b3f2d0ccf5169ae0a7dc733bec) | leowld |
+| 2026-11-16 | [chore(sdk): 准备上下文统计能力发布 (#7511)](https://github.com/volcengine/OpenViking/commit/2b9d8c3b2114e4facb89e9329539eeb0cc2e8662) | hezhang-1216 |
+| 2026-11-16 | [fix(server): validate message parts before creating the session (#7640)](https://github.com/volcengine/OpenViking/commit/fd6e83523663ca55296a145f1cec03abed8c8bca) | Kiko0301 |
+| 2026-11-16 | [fix(server): make task list cursors portable across workers (#7615)](https://github.com/volcengine/OpenViking/commit/e6e5848b889f998a308e90001ef44bb63a57728d) | Kiko0301 |
+| 2026-11-16 | [fix(parse): keep multiline PDF table cells within their row (#7653)](https://github.com/volcengine/OpenViking/commit/5a19d4ec125a7c6bc98d7e0ccd2cf60cd1ef76b6) | 123XieC |
+| 2026-11-16 | [fix(parse): clean up the whole temp root after a web import (#7610)](https://github.com/volcengine/OpenViking/commit/a086bcdb29c991dc425cc4a5ca97c16eb0e5c1eb) | Kiko0301 |
+| 2026-11-16 | [fix(server): validate pack import parent before materializing upload …](https://github.com/volcengine/OpenViking/commit/a5fd018b5ad413bcc12bbe77e1634c1131a9ec48) | Kiko0301 |
+| 2026-11-16 | [fix(server): roll back an in-memory role change when persistence fail…](https://github.com/volcengine/OpenViking/commit/a220873878d1df711963896ad4af67c454405aa1) | Kiko0301 |
+| 2026-11-16 | [fix(parse): preserve multiline link targets (#7642)](https://github.com/volcengine/OpenViking/commit/f2b5ec7fdace452e87b7cdb64983c3f6b86e3340) | r266-tech |
+| 2026-11-16 | [refactor(logging): apply model logging policy (1/8) (#7769)](https://github.com/volcengine/OpenViking/commit/056c2f1c87d0d5bf7fd3d982fbd6f24df0b12ada) | MaojiaSheng |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 36.5k |
 | 🍴 **Forks** | 5.6k |
-| 🐞 **Open issues + PRs** | [864](https://github.com/continuedev/continue/issues) |
+| 🐞 **Open issues + PRs** | [863](https://github.com/continuedev/continue/issues) |
 | 💻 **Languages** | TypeScript 84% · JavaScript 8% · Kotlin 4% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `open-source` `developer-tools` `ai` `agent` `cli` |
-| 🕒 **Last activity** | 2026-11-14 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2023-05-24 |
 | 📦 **Latest release** | [v2.0.0-vscode](https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,12 +36,12 @@
 ## 📦 Recent releases
 
 ### [v2.0.0-vscode](https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode)
-<sub>2026-06-19 · 4mo ago</sub>
+<sub>2026-06-19 · 5mo ago</sub>
 
 > _No notes._
 
 ### [v2.1.0-vscode](https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode) _(pre-release)_
-<sub>2026-06-19 · 4mo ago</sub>
+<sub>2026-06-19 · 5mo ago</sub>
 
 > _No notes._
 

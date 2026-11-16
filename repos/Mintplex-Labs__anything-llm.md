@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 68.3k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [344](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [369](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
-| 🕒 **Last activity** | 2026-11-13 (yesterday) |
+| 🕒 **Last activity** | 2026-11-13 (2d ago) |
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — 2026-10-26 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — AnythingLLM v1.19.0
-<sub>2026-10-26 · 19d ago</sub>
+<sub>2026-10-26 · 20d ago</sub>
 
 > **Built-in LLM for Docker**
 > <img width="3680" height="2212" alt="AnythingLLM Docker built-in LLM powered by Lemonade and llama.cpp" src="https://github.com/user-attachments/assets/410b5784-ca15-4027-a1c4-056d9d5c748e" />

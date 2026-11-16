@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 6.6k |
-| 🍴 **Forks** | 526 |
-| 🐞 **Open issues + PRs** | [395](https://github.com/GoogleChrome/modern-web-guidance-src/issues) |
+| ⭐ **Stars** | 7.8k |
+| 🍴 **Forks** | 686 |
+| 🐞 **Open issues + PRs** | [407](https://github.com/GoogleChrome/modern-web-guidance-src/issues) |
 | 💻 **Languages** | TypeScript 78% · JavaScript 15% · CSS 3% · HTML 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-01-27 |
 | 📦 **Latest release** | [audit-data](https://github.com/GoogleChrome/modern-web-guidance-src/releases/tag/audit-data) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 166.4 MB |
+| 💾 **Size** | 166.5 MB |
 | 🌐 **Website** | https://goo.gle/modern-web-guidance |
 
 ## 📦 Recent releases

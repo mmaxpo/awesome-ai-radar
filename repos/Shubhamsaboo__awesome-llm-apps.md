@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 144.7k |
+| ⭐ **Stars** | 144.8k |
 | 🍴 **Forks** | 21.3k |
-| 🐞 **Open issues + PRs** | [8](https://github.com/Shubhamsaboo/awesome-llm-apps/issues) |
+| 🐞 **Open issues + PRs** | [10](https://github.com/Shubhamsaboo/awesome-llm-apps/issues) |
 | 💻 **Languages** | Python 53% · TypeScript 19% · JavaScript 18% · HTML 7% · CSS 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `llms` `rag` `python` `agents` |
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-15 | [Merge pull request #1311 from Shubhamsaboo/take-back-your-tv](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/4f40918e7f6fb90db5d736f77e91c9a80800dd7e) | Shubhamsaboo |
+| 2026-11-15 | [docs(take-back-your-tv): shorten the index entry and the README](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/c11535552cfdcd8d3528577d7d5b9a9f27cd10fe) | Shubhamsaboo |
+| 2026-11-15 | [feat(take-back-your-tv): add an agent playbook for cleaning up a smar…](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/3d2821c4159a5755b82200523233c923c6fb270b) | Shubhamsaboo |
+| 2026-11-15 | [Merge pull request #1264 from yangjian7zhong/fix/financial-coach-rege…](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/8537df9efd945271b3a40fb71e3879945d058460) | Shubhamsaboo |
+| 2026-11-15 | [fix(ai_financial_coach_agent): use raw strings for regex patterns](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/1514bfad138a0621de186b77ae7fa893b659d8bf) | yangjian7zhong |
 | 2026-11-15 | [Merge pull request #1294 from divya0795/fix/earnings-signal-score-who…](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/8d2a71dfc75806fb7f09abef3e4a4cfd41205110) | Shubhamsaboo |
 | 2026-11-15 | [Merge pull request #1256 from yangjian7zhong/fix/openai-remote-mcp-br…](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/284e123af1442e205999adb0f139d9bc6eda06cc) | Shubhamsaboo |
 | 2026-11-14 | [fix(mcp): guard malformed inputSchema fragments in argument validation](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/984852b9e4ff177c5bd721bb2f15248be9f5dee2) | yangjian7zhong |
 | 2026-11-12 | [fix(earnings-call-analyst): count OpenAI, xAI and plural AI terms](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/95dd67d809cd21396af8e93c3327b8b330a8e9a5) | divya0795 |
 | 2026-11-11 | [Merge pull request #1277 from elizabethfuentes12/add-dependency-upgra…](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/ff2016e6b98a81b92a846f39f7050b7337f81695) | Shubhamsaboo |
-| 2026-11-11 | [Merge pull request #1297 from SoulmatelynchVFX/fix/agno-agentos-doc-link](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/6531a4981b6098469db2009743bcf3f67ddf22b6) | Shubhamsaboo |
-| 2026-11-10 | [docs: correct the AgentOS link in two agent examples](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/0a6e9cc38bc1b2846b91183eb4280debe5be58e0) | SoulmatelynchVFX |
-| 2026-11-10 | [Merge pull request #1295 from divya0795/fix/meal-plan-days-clamp](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/38fcd0dd79441a4aacf9ade85f8cf131f6a372c7) | Shubhamsaboo |
-| 2026-11-10 | [Merge pull request #1292 from MohammadHijjawi97/fix/rag-tutorials-tex…](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/6832dc4ef006510ce6e71861163ca2025bde9a13) | Shubhamsaboo |
-| 2026-11-09 | [fix(dependency_upgrade_advisor): address review feedback](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/996696651f3ba2db86e1a3fa625df68ff6bd2a1b) | Elizabeth |
 
 [See all commits ↗](https://github.com/Shubhamsaboo/awesome-llm-apps/commits)
 

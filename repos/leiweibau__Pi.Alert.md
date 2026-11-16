@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 1.3k |
-| 🍴 **Forks** | 109 |
+| ⭐ **Stars** | 1.4k |
+| 🍴 **Forks** | 111 |
 | 🐞 **Open issues + PRs** | [2](https://github.com/leiweibau/Pi.Alert/issues) |
 | 💻 **Languages** | PHP 66% · Python 17% · JavaScript 7% · CSS 6% · Shell 4% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `arp-scan` `security` `self-hosted` `pi-hole` `pialert` `network-security` |
-| 🕒 **Last activity** | 2026-10-16 (29d ago) |
+| 🕒 **Last activity** | 2026-10-16 (1mo ago) |
 | 📅 **Created** | 2022-05-20 |
 | 📦 **Latest release** | [v2026-10-16](https://github.com/leiweibau/Pi.Alert/releases/tag/v2026-10-16) — 2026-10-16 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v2026-10-16](https://github.com/leiweibau/Pi.Alert/releases/tag/v2026-10-16) — Pi.Alert v2026-10-16
-<sub>2026-10-16 · 29d ago</sub>
+<sub>2026-10-16 · 1mo ago</sub>
 
 > New:
 > * Merge function for multi-MAC devices (#547)

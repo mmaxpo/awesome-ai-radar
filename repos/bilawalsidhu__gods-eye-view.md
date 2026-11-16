@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 65.0k |
-| 🍴 **Forks** | 12.8k |
-| 🐞 **Open issues + PRs** | [432](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| ⭐ **Stars** | 65.2k |
+| 🍴 **Forks** | 12.9k |
+| 🐞 **Open issues + PRs** | [437](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 96% · CSS 2% · Vue 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 206.9 MB |
+| 💾 **Size** | 231.3 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 18d ago</sub>
+<sub>2026-10-28 · 19d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [Merge pull request #1747 from bilawalsidhu/motion/vessels-frame-cadence](https://github.com/bilawalsidhu/gods-eye-view/commit/3d25a284f9186dcc936c26e0c4f745337b402e37) | samehkhamis |
-| 2026-11-15 | [Merge branch 'main' into motion/vessels-frame-cadence](https://github.com/bilawalsidhu/gods-eye-view/commit/c2fa15b205107a011e57650f3b150e3ec52f4831) | samehkhamis |
-| 2026-11-15 | [Merge pull request #1746 from bilawalsidhu/motion/satellites-dead-reckon](https://github.com/bilawalsidhu/gods-eye-view/commit/ec63345b3b2e4dbd2ec4b6f8eccfb93ff0d04adc) | samehkhamis |
-| 2026-11-15 | [fix(vessels): world-clock motion moves only drawn vessels, once per w…](https://github.com/bilawalsidhu/gods-eye-view/commit/52695daf5c8dd97162eb58c0ddc0d2bfecc23a68) | samehkhamis |
-| 2026-11-15 | [Add the changelog fragment for #1747](https://github.com/bilawalsidhu/gods-eye-view/commit/7bea88b395b1a606c761b25bb0c9586cf748cdbc) | samehkhamis |
-| 2026-11-15 | [Add the changelog fragment for #1746](https://github.com/bilawalsidhu/gods-eye-view/commit/e4afde3317a9a8d58e76787ca9ffee267b24a027) | samehkhamis |
-| 2026-11-15 | [Move vessels every frame and ask for frames as they move](https://github.com/bilawalsidhu/gods-eye-view/commit/57bacd98a803ca756b13af0c6aab729889746152) | samehkhamis |
-| 2026-11-15 | [Move satellites every frame between SGP4 samples](https://github.com/bilawalsidhu/gods-eye-view/commit/e31de29cccb5a4fe89fa79089ccbafc3d0fa17fc) | samehkhamis |
-| 2026-11-15 | [Merge pull request #1745 from bilawalsidhu/timeline/one-control-and-m…](https://github.com/bilawalsidhu/gods-eye-view/commit/e4708a815d012505a60e2f9c7fa57672820dfdd0) | samehkhamis |
-| 2026-11-15 | [A row plays only with a timeline to play; the speed shown follows the…](https://github.com/bilawalsidhu/gods-eye-view/commit/ac04812db200f58278eb86bd5f2d6dd6e82863a0) | samehkhamis |
+| 2026-11-16 | [Merge pull request #1760 from bilawalsidhu/render/renderer-seam](https://github.com/bilawalsidhu/gods-eye-view/commit/da81cf743b0b87a479a583391750113bfe7d6432) | samehkhamis |
+| 2026-11-16 | [Credits keep their linked words: only the words a source linked are t…](https://github.com/bilawalsidhu/gods-eye-view/commit/a7fe3eebc6e452ac877ec48f1cc7e4a8e261cb70) | samehkhamis |
+| 2026-11-16 | [World overlay: the distance curve is computed in the projection pass,…](https://github.com/bilawalsidhu/gods-eye-view/commit/74673f3c8565a170d3876ad8c6412e2b7526c605) | samehkhamis |
+| 2026-11-16 | [The contract text speaks of the renderer](https://github.com/bilawalsidhu/gods-eye-view/commit/256e99237273efd5c916a682e39239c8678c5fe0) | samehkhamis |
+| 2026-11-16 | [Contract and docs text describe the ports and the Cesium renderer only](https://github.com/bilawalsidhu/gods-eye-view/commit/9862b2a1652a02e46cb8f020a12a970882ac2963) | samehkhamis |
+| 2026-11-16 | [CONTACTS: a selected vessel's subject is labelled as its selection is…](https://github.com/bilawalsidhu/gods-eye-view/commit/1fdf52198d1ecc115d7c1a6a0d6144fd0d2a1985) | samehkhamis |
+| 2026-11-16 | [Merge main (87ab9d2b1, #1758 and the #1757 revert) into the renderer …](https://github.com/bilawalsidhu/gods-eye-view/commit/4b0958b9e8a0e2e8980e06164c10235ba3bafe16) | samehkhamis |
+| 2026-11-16 | [CONTACTS takes the selected vessel as its subject instead of followin…](https://github.com/bilawalsidhu/gods-eye-view/commit/2ac157aca2beaf05912785a5d7733685e91dde22) | samehkhamis |
+| 2026-11-16 | [Merge pull request #1759 from bilawalsidhu/revert/1757-vessel-labels-…](https://github.com/bilawalsidhu/gods-eye-view/commit/87ab9d2b10be33cc37301cbfedc14d3a96017419) | samehkhamis |
+| 2026-11-16 | [Moving transit allocates nothing per frame: reusable positions, kept …](https://github.com/bilawalsidhu/gods-eye-view/commit/725f2f299880b5c81e0ac850e345923fec481b9e) | samehkhamis |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

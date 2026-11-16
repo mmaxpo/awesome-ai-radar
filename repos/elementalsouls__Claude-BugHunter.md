@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 5.9k |
-| 🍴 **Forks** | 904 |
-| 🐞 **Open issues + PRs** | [5](https://github.com/elementalsouls/Claude-BugHunter/issues) |
-| 💻 **Languages** | Python 84% · PowerShell 9% · Shell 7% |
+| ⭐ **Stars** | 7.1k |
+| 🍴 **Forks** | 1.1k |
+| 🐞 **Open issues + PRs** | [3](https://github.com/elementalsouls/Claude-BugHunter/issues) |
+| 💻 **Languages** | Python 85% · PowerShell 8% · Shell 6% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-security` `anthropic` `application-security` `bug-bounty` `bugbounty` `bugcrowd` `claude` `claude-code` `claude-skills` `ethical-hacking` `hackerone` `offensive-security` `pentesting` `red-team` `security-tools` `web-security` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2026-05-05 |
 | 📦 **Latest release** | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) — 2026-06-05 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3.9 MB |
+| 💾 **Size** | 4.1 MB |
 | 🌐 **Website** | https://elementalsouls.github.io/Claude-BugHunter |
 
 ## 📦 Recent releases
@@ -61,16 +61,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/2cfe533df8efa2ced87c91299e1f62b88cb26108) | github-actions[bot] |
-| 2026-11-14 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/8ac4242ee0a108e65ac1343b56cce6c50ba456ef) | github-actions[bot] |
-| 2026-11-13 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/5b9820231003654d05ea353e8781660a72a7a478) | github-actions[bot] |
-| 2026-11-12 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/ce84ad24cbe8a97a4193ffdd46443789037ec9ca) | github-actions[bot] |
-| 2026-11-11 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/4a2d93e887fa4dfdc91da78bd614418b5837b535) | github-actions[bot] |
-| 2026-11-10 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/d5dcc5347675ed431488e0a0e46749e4918aa194) | github-actions[bot] |
-| 2026-11-09 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/edcae6f8964c13e3b2f2e0153fb941a1f0da46ea) | github-actions[bot] |
-| 2026-11-08 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/7d10e74176a20cf64d566a56226c6484de4ff220) | github-actions[bot] |
-| 2026-11-07 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/42a3ab1bb96426beb98f964d178695c1144c61ea) | github-actions[bot] |
-| 2026-11-06 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/3e71af03d48b7bca94a815cfff97431f932748d0) | github-actions[bot] |
+| 2026-11-16 | [fix(eval): report false-positive rates alongside grading coverage (#131)](https://github.com/elementalsouls/Claude-BugHunter/commit/2f9a226d38d35d28d06f1ed63753799d498a2b3d) | rudycelekli |
+| 2026-11-16 | [fix(scope): preserve metacharacters in host regex rules (#122)](https://github.com/elementalsouls/Claude-BugHunter/commit/228f976a6535ae2bd6d8b4e5736f5e1ca1c7ec10) | rudycelekli |
+| 2026-11-16 | [fix(eval): preserve ungraded PortSwigger outcomes (#117)](https://github.com/elementalsouls/Claude-BugHunter/commit/a5d1710562ab5bd79b7c8fa8021a4c8cf686a797) | rudycelekli |
+| 2026-11-16 | [fix(hooks): scan staged content before allowing a commit (#112)](https://github.com/elementalsouls/Claude-BugHunter/commit/028776f14ba61e45f00fa0d30b739d42cf48c24b) | rudycelekli |
+| 2026-11-16 | [fix(packaging): keep the standalone skill and report index current (#…](https://github.com/elementalsouls/Claude-BugHunter/commit/c4fb2c104d98dead9c9603926de3d43ff35add80) | rudycelekli |
+| 2026-11-16 | [fix(skills): fit three descriptions within the Agent Skills limit (#92)](https://github.com/elementalsouls/Claude-BugHunter/commit/56cb92bf09a2f70f5474edaf8f3f53615b7b797d) | xunguangzlj-cloud |
+| 2026-11-16 | [fix(cli): make triage signal matching case-insensitive (#90)](https://github.com/elementalsouls/Claude-BugHunter/commit/b81ab02c524f29c05676fedfae935165065d3694) | neonhomesick |
+| 2026-11-16 | [fix(engine): select the last JSON verdict fence in message order (#114)](https://github.com/elementalsouls/Claude-BugHunter/commit/5201c23bfcf143cbea109e1b28ff583462ed3bdd) | rudycelekli |
+| 2026-11-16 | [fix(mcp): preserve arguments and environment keys in Codex TOML (#109)](https://github.com/elementalsouls/Claude-BugHunter/commit/86abbf2e4a1656c7705d0c123a27a6ab6df50c47) | rudycelekli |
+| 2026-11-16 | [fix(cli): preserve nested Markdown in drafted reports (#106)](https://github.com/elementalsouls/Claude-BugHunter/commit/672b734d784ac33b01eca713316d4e75b654060b) | rudycelekli |
 
 [See all commits ↗](https://github.com/elementalsouls/Claude-BugHunter/commits)
 
