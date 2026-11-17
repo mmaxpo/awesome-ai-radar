@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [239](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [245](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-14 (yesterday) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 58.3 MB |
+| 💾 **Size** | 58.1 MB |
 | 🌐 **Website** | http://keras.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [Resolve weak floats and cbrt to floatx under bfloat16 and float16 (#2…](https://github.com/keras-team/keras/commit/34de92f06f2e15ae02261df9c49e03d98ba21adc) | gaga1313 |
+| 2026-11-16 | [Reword Fashion-MNIST license note in fashion_mnist.load_data docstrin…](https://github.com/keras-team/keras/commit/66f8c0db4f36c5b3c9adcdd127d88d93b76e7f65) | SamanehSaadat |
+| 2026-11-16 | [Use float32 inputs in SqueezeTest (#24253)](https://github.com/keras-team/keras/commit/b5f5bb86732663959a6f00825a700aafa5b740e7) | MarcosAsh |
+| 2026-11-16 | [Test 64-bit dtypes in the OpTest harness (#24230)](https://github.com/keras-team/keras/commit/beb2168589484df34514aa715825b1609a7b34ee) | gaga1313 |
+| 2026-11-16 | [Make `__array__` functions compliant with NumPy 2.x. (#24242)](https://github.com/keras-team/keras/commit/39559cc2888d43c12cbc3a853afa59dab9ecbfae) | hertschuh |
+| 2026-11-16 | [Check each op on NumPy arrays, Variables and Python lists in OpTest (…](https://github.com/keras-team/keras/commit/dc0ad94d2d5eedf3a56491c067786186ce2b4387) | gaga1313 |
+| 2026-11-16 | [Fix NumPy logsumexp for bfloat16 with ml_dtypes 0.7.0 (#24263)](https://github.com/keras-team/keras/commit/6d9a24a57adf3e4774426885ad1693c91526d6b5) | SamanehSaadat |
 | 2026-11-14 | [Add backend-agnostic implementation for geomspace (#24235)](https://github.com/keras-team/keras/commit/50be564d7d833537b789b0359ec709f5a7267c33) | SamanehSaadat |
 | 2026-11-14 | [Add backend-agnostic implementation for hamming (#24241)](https://github.com/keras-team/keras/commit/5521f19d5863a8744ef27ab6c83f4c4e57a5c4bf) | SamanehSaadat |
 | 2026-11-14 | [Remove unused train graph code (#24243)](https://github.com/keras-team/keras/commit/5c43c7c9d3b30a3725f0b4e716f7a5f6548af540) | SamanehSaadat |
-| 2026-11-14 | [Add backend-agnostic implementation for hanning (#24244)](https://github.com/keras-team/keras/commit/d2e98e462192422eba99c351507cec8113fd7114) | SamanehSaadat |
-| 2026-11-13 | [Check each op inside a functional Model in OpTest (#24240)](https://github.com/keras-team/keras/commit/abbab4c030e31476a069844fa64e53ba9368423b) | gaga1313 |
-| 2026-11-13 | [Fix torch linspace, logspace and geomspace returning nan for num=1 (#…](https://github.com/keras-team/keras/commit/426e315e67005f97d4cca0f4e68335e7fbf28fc8) | SamanehSaadat |
-| 2026-11-13 | [Write histograms and images with tensorboardX (#24238)](https://github.com/keras-team/keras/commit/de276338f5a158ea407fe07ad6667c80946be66d) | SamanehSaadat |
-| 2026-11-13 | [Add compile check to evaluate() in torch and numpy trainers (#24153)](https://github.com/keras-team/keras/commit/c93a34654c4d158dc3be4caea1d0bbc279373871) | vnayakde |
-| 2026-11-13 | [Calibrate third-party layers that declare GPTQ or AWQ support (#24237)](https://github.com/keras-team/keras/commit/397de7e1e7bf7e3c32c89f22d51251417b4e64c2) | JyotinderSingh |
-| 2026-11-13 | [Eliminate host-to-device tensor copies in quantized layers for CUDA g…](https://github.com/keras-team/keras/commit/e1089a6f4da475dd33331785890ec44b32f35b07) | JyotinderSingh |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

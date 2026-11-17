@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.3k |
+| ⭐ **Stars** | 61.5k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [245](https://github.com/vectorize-io/hindsight/issues) |
+| 🐞 **Open issues + PRs** | [257](https://github.com/vectorize-io/hindsight/issues) |
 | 💻 **Languages** | Python 70% · TypeScript 17% · MDX 9% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2025-10-30 |
 | 📦 **Latest release** | [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 823.5 MB |
+| 💾 **Size** | 825.0 MB |
 | 🌐 **Website** | https://hindsight.vectorize.io/ |
 
 ## 📦 Recent releases
 
 ### [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1)
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > **What's Changed**
 > * docs drop 0.9 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6284
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 13d ago</sub>
+<sub>2026-11-03 · 14d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.1.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.1.0)
-<sub>2026-10-21 · 25d ago</sub>
+<sub>2026-10-21 · 26d ago</sub>
 
 > **What's Changed**
 > * docs: v1.0.0 changelog, Memlake launch post, and version-1.0 docs snapshot by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5550
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [fix(retain): a schema echo reaches the fallback model, and Gemma stop…](https://github.com/vectorize-io/hindsight/commit/937216ffb7eed86df2088842b67dd3c4bc2ec3b1) | nicoloboschi |
-| 2026-11-16 | [fix(api): serialise the observation tree off the event loop (#6562)](https://github.com/vectorize-io/hindsight/commit/9698ffffb56c05a42c810ba5722462d6bb1176d9) | cdbartholomew |
-| 2026-11-16 | [fix(coding-agents): a bank gets its retain rules without the deepen e…](https://github.com/vectorize-io/hindsight/commit/fa4840fa6901c4d85dba88c5fdbf694f2953ed06) | nicoloboschi |
-| 2026-11-14 | [feat(knowledge-banks): search baseline for benchmarks — keywords in e…](https://github.com/vectorize-io/hindsight/commit/5318be8ea572aa00ceae636c71c1d8d334f805b6) | nicoloboschi |
-| 2026-11-13 | [fix(control-plane): reflect trace shows the loop in the order it real…](https://github.com/vectorize-io/hindsight/commit/0b3f09229bc13820f961244238ca885fda674076) | nicoloboschi |
-| 2026-11-13 | [chore(deps): bump toktok-rs to 0.4.0 (#6538)](https://github.com/vectorize-io/hindsight/commit/5ba62292f2dcdad8c036bb6497c444f01967171e) | nicoloboschi |
-| 2026-11-13 | [feat: Observation Tree — a bank's observations as an Open Knowledge F…](https://github.com/vectorize-io/hindsight/commit/8729110e6976fd7e4b2f34a5e5da78ba474160c3) | nicoloboschi |
-| 2026-11-13 | [feat(knowledge-banks): token-budget search, per-bank media config, UI…](https://github.com/vectorize-io/hindsight/commit/a758bf601f11267f8084e93eb587543454d9bd61) | nicoloboschi |
-| 2026-11-13 | [perf(reflect): read a store-owned freshness hint instead of the exact…](https://github.com/vectorize-io/hindsight/commit/887ccdb6993e4c7af375258ca07890a260636b89) | nicoloboschi |
-| 2026-11-13 | [fix(worker): a store shed never spends a retry, and stops deferring a…](https://github.com/vectorize-io/hindsight/commit/4692afd5418405206ed3682e621879f94ec47442) | nicoloboschi |
+| 2026-11-17 | [fix(mental-models): a reranker or embedder blip inside reflect no lon…](https://github.com/vectorize-io/hindsight/commit/14d93878031aefc7c9d486f6c580721e5aecf63e) | nicoloboschi |
+| 2026-11-17 | [docs: Observation Tree as a short section of Observations, not its ow…](https://github.com/vectorize-io/hindsight/commit/8233aa091cb9c8914252635a38261eb9d3a4c918) | nicoloboschi |
+| 2026-11-17 | [fix(knowledge-banks): cut and decode audio/video with PyAV, no system…](https://github.com/vectorize-io/hindsight/commit/6a6dd5272490dd621f84cfebb4e69130857e1bb0) | nicoloboschi |
+| 2026-11-17 | [chore(deps): bump pg0-embedded to 0.17.0 (#6610)](https://github.com/vectorize-io/hindsight/commit/bc56aef139b99428913effc2255bc09173694479) | nicoloboschi |
+| 2026-11-17 | [feat(tokenizer): hs-decide-1-flash vocabulary; half an emoji no longe…](https://github.com/vectorize-io/hindsight/commit/20b9990261bb7444a2c76f5905c0fac56828617a) | nicoloboschi |
+| 2026-11-17 | [test: run fact-extraction analysis in the core-LLM job, not test-api …](https://github.com/vectorize-io/hindsight/commit/6f8c799b44125288d4e967a8cb35b2070113de61) | nicoloboschi |
+| 2026-11-17 | [fix(cli): retain-files keys each document on its path, not its file s…](https://github.com/vectorize-io/hindsight/commit/72e3454659bb94a345a27a2ad84f1c4b39b52572) | nicoloboschi |
+| 2026-11-17 | [ci(test-api): stop shard 1 running the runner out of memory (#6593)](https://github.com/vectorize-io/hindsight/commit/a46baef86725ce3f67f0e09ceb1a1bfa96e3abb0) | nicoloboschi |
+| 2026-11-17 | [test(system): accept and ignore -n from PYTEST_ADDOPTS (#6605)](https://github.com/vectorize-io/hindsight/commit/66785dcae4b90a23c3bd306f770e99be9667cf6a) | nicoloboschi |
+| 2026-11-16 | [Knowledge-bank post-operation validator hooks for metering (#6594)](https://github.com/vectorize-io/hindsight/commit/b92ceb180e349a456d2b5454575067b6ff0f6306) | benfrank241 |
 
 [See all commits ↗](https://github.com/vectorize-io/hindsight/commits)
 

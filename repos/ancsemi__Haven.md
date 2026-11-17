@@ -21,22 +21,33 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.1k |
-| 🍴 **Forks** | 116 |
-| 🐞 **Open issues + PRs** | [14](https://github.com/ancsemi/Haven/issues) |
+| 🍴 **Forks** | 118 |
+| 🐞 **Open issues + PRs** | [15](https://github.com/ancsemi/Haven/issues) |
 | 💻 **Languages** | JavaScript 80% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 21.8 MB |
+| 💾 **Size** | 22.0 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
+### [v4.30.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.2) — Haven 4.30.0-beta.2 _(pre-release)_
+<sub>2026-11-16 · today</sub>
+
+> Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
+> New since 4.30.0-beta.1:
+> **Added**
+> - Manage members replaces Add members in a channel's right-click menu. Everyone is listed with the people in the channel ticked: tick someone to add them, untick to remove them, by person, by role, or with All users, which adds everyone when ticked and removes everyone when unticked. Nothing changes until you press the button, and removing asks first. Whoever may add people to a channel may take them out again, and so may anyone with Kick there; only the admin removes an admin or a guest, and others only remove people ranked below them (a private channel's creator may remove anyone else in it). A role hidden on profile cards no longer shows in this list.
+> - Emote names keep their capitals (asked for by gitty323, #5895): upload `HOLY` and `holy` as two different emotes, as Twitch and 7TV do. `:holy:` still finds `HOLY` when there is no exact match, so older messages keep working. A new switch, Settings > Chat & media > Turn emote names into emotes when I send, is off by default. When it is on, a word you type that is exactly a custom emote's name, capitals included, is sent as that emote, with no colons or picker. Code, links, mentions and slash commands are left alone. An admin can make the switch part of Defaults for New Members, so it starts on for everyone on their server (thanks Amnibro).
+> - Sort your DMs: the new sort button in the Direct Messages header picks Latest message, Alphabetical or Manual order. The pick and the order you arranged by hand follow your account to every device, and pinned DMs stay on top whatever you choose (thanks Amnibro).
+> …
+
 ### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > It has everything in 4.29.0, plus these, which are not in a stable yet:
@@ -47,7 +58,7 @@
 > …
 
 ### [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — Haven 4.29.0
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > **Added**
 > - Call controls in fullscreen (thanks Roolk, #5849): mute, deafen, camera, screen share, call settings and leave stay on screen over a fullscreen camera or screen share, and a picker switches which stream is shown without leaving fullscreen.
@@ -58,7 +69,7 @@
 > …
 
 ### [v4.29.0-beta.5](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.5) — Haven 4.29.0-beta.5 _(pre-release)_
-<sub>2026-11-13 · 2d ago</sub>
+<sub>2026-11-13 · 3d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.28.0 until the next stable.
 > Changes since 4.29.0-beta.4:
@@ -69,7 +80,7 @@
 > …
 
 ### [v4.29.0-beta.4](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.4) — Haven 4.29.0-beta.4 _(pre-release)_
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
 > **New**
@@ -79,31 +90,20 @@
 > - Favorites in the emoji pickers, saved on your account (#5874, thanks Amnibro).
 > …
 
-### [v4.29.0-beta.3](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.3) — Haven 4.29.0-beta.3 _(pre-release)_
-<sub>2026-11-08 · 7d ago</sub>
-
-> Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
-> **New**
-> - Mentions and replies: the @ button next to your name lists every message that @mentions you or replies to you, newest first, and clicking one jumps to it. A small count shows how many you have not seen yet (thanks broilpromptu). `mentions:me` in search does the same.
-> - Add members to a channel from its right-click menu: pick people one by one, a whole role at a time, or All users. On a private channel it works for whoever may invite to it.
-> - Blocked names (Settings > Admin > Who can sign up): words no username or display name may contain. Capitals, spaces, symbols, accents and look-alike numbers are ignored, so "B4d_W0rd" counts as "badword". Members who already have one are listed for the admin.
-> - Emoji search knows far more words: Unicode's keywords plus everyday chat words, so "this" finds 👆, "dead" finds 💀 and "sus" finds 🤨. Best matches come first.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [Let the login page scroll as a normal page so phones stop bouncing it up](https://github.com/ancsemi/Haven/commit/b02a34e0a627c16462509a0e204cf250a0c0128f) | ancsemi |
+| 2026-11-16 | [Keep channel and DM context menus on screen when they fit neither way](https://github.com/ancsemi/Haven/commit/2f9e4d30ecefb0c4f01450b0577ff5826eb08a6a) | ancsemi |
+| 2026-11-16 | [Release 4.30.0-beta.2](https://github.com/ancsemi/Haven/commit/2e957d29853e32782be4ac7b532b32ad23a824d7) | ancsemi |
+| 2026-11-16 | [Show activity from apps on the member's computer via Haven Desktop (#…](https://github.com/ancsemi/Haven/commit/fcd2016a997759667d44d15d14ba4151fa1378e1) | ancsemi |
+| 2026-11-16 | [Let the emote-names switch be a default for new members (#5895)](https://github.com/ancsemi/Haven/commit/698fbbcf71ea688603b330d1ef9f1ad51e472ee5) | ancsemi |
 | 2026-11-16 | [Turn Add members into Manage members: add or remove people, roles or …](https://github.com/ancsemi/Haven/commit/38d1ace02df1cd28dcf68ff121f43355e2050014) | ancsemi |
 | 2026-11-16 | [Say why the emote words setting read may fail quietly (#5896)](https://github.com/ancsemi/Haven/commit/157e55b4f4a55b341fc400b54aea464a19998798) | ancsemi |
 | 2026-11-16 | [Move the remove-from-channel steps into their own file](https://github.com/ancsemi/Haven/commit/32239471c135bf093f627981bbaefb04fcd69440) | ancsemi |
 | 2026-11-16 | [Extend the PostgreSQL preview: posting, DMs, edits, reactions, thread…](https://github.com/ancsemi/Haven/commit/96eed57c6b3c9e3a1c383396ab96132382692689) | Slyke |
 | 2026-11-16 | [Sort DMs by latest message, name or your own order, saved on the acco…](https://github.com/ancsemi/Haven/commit/b7d71757036acb6f0aa51068356a35dab785fb74) | Amnibro |
-| 2026-11-16 | [Keep capitals in custom emote names and send emote names as emotes (#…](https://github.com/ancsemi/Haven/commit/52195c1540108a0f705537b510ff5989db7eecd6) | Amnibro |
-| 2026-11-15 | [Release 4.30.0-beta.1](https://github.com/ancsemi/Haven/commit/875d8176e8a93c114d6cf30e7fd176a63e545315) | ancsemi |
-| 2026-11-15 | [Website and changelog: Haven 4.29.0 and Desktop 1.8.4 are out](https://github.com/ancsemi/Haven/commit/494eef9fa98ce57582144c0c69cc24f047a57dd0) | ancsemi |
-| 2026-11-15 | [Bump cache tags on client files changed since 4.28.0](https://github.com/ancsemi/Haven/commit/21555e48536f2ca360c47e3180877ef5e02ddc9f) | ancsemi |
-| 2026-11-15 | [Open the link preview size menu above threads and pop-out DMs](https://github.com/ancsemi/Haven/commit/1bdaef7d43e463d9a98f7090cd1225db321d932d) | ancsemi |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

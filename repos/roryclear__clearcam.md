@@ -14,21 +14,23 @@
 | **Why it's worth a look** | Object detection and tracking for any security camera |
 | **Added** | 2026-11-14 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 2.7k |
-| 🍴 **Forks** | 258 |
+| 🍴 **Forks** | 259 |
 | 🐞 **Open issues + PRs** | [0](https://github.com/roryclear/clearcam/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `object-detection` `tinygrad` `selfhosted` `nvr` `rtsp` `yolov9` `cctv` `clip` `ai` |
-| 🕒 **Last activity** | 2026-11-06 (10d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2025-01-04 |
 | 📦 **Latest release** | [0.2.8](https://github.com/roryclear/clearcam/releases/tag/0.2.8) — 2026-08-31 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 91.1 MB |
+| 💾 **Size** | 91.0 MB |
 | 🌐 **Website** | https://clearcam.org |
 
 ## 📦 Recent releases
@@ -58,7 +60,7 @@
 > Face recognition added
 
 ### [0.2.4](https://github.com/roryclear/clearcam/releases/tag/0.2.4)
-<sub>2026-02-20 · 8mo ago</sub>
+<sub>2026-02-20 · 9mo ago</sub>
 
 > - Stable playback and scrubbing
 > - Inference efficiency (wait for frame)

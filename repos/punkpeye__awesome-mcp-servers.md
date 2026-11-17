@@ -14,21 +14,23 @@
 | **Why it's worth a look** | Curated list of MCP servers |
 | **Added** | 2026-11-14 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 97.8k |
-| 🍴 **Forks** | 20.1k |
-| 🐞 **Open issues + PRs** | [5.2k](https://github.com/punkpeye/awesome-mcp-servers/issues) |
+| 🍴 **Forks** | 20.2k |
+| 🐞 **Open issues + PRs** | [4.6k](https://github.com/punkpeye/awesome-mcp-servers/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `mcp` |
-| 🕒 **Last activity** | 2026-11-06 (9d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-11-30 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 545.9 MB |
+| 💾 **Size** | 635.8 MB |
 | 🌐 **Website** | https://glama.ai/mcp/servers |
 
 ## 📦 Recent releases
@@ -39,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-06 | [Merge pull request #18775 from Arkz-Deepak/add-neurocode-server](https://github.com/punkpeye/awesome-mcp-servers/commit/f431a5cd95cebf038e587715635b9d1a0a4d0c02) | punkpeye |
-| 2026-11-06 | [docs: add Glama score badge for NeuroCode server](https://github.com/punkpeye/awesome-mcp-servers/commit/ae36e1677e4f4b50ab3d348cd133e02f77e572c2) | Arkz-Deepak |
-| 2026-11-06 | [Add NeuroCode in-memory CPG context slicer server](https://github.com/punkpeye/awesome-mcp-servers/commit/477c96b87479c62690b04b82ffd7ecacb07ccf94) | Arkz-Deepak |
-| 2026-11-02 | [Merge pull request #18312 from jackjin1997/add-markindex](https://github.com/punkpeye/awesome-mcp-servers/commit/29f2d490cc02468e7c9d87b0cf68d40d3041e7ef) | punkpeye |
-| 2026-11-02 | [Add jackjin1997/markindex to Knowledge & Memory](https://github.com/punkpeye/awesome-mcp-servers/commit/5a4ea801a939cd85b56a7a1329243e5da5d0e13a) | jackjin1997 |
-| 2026-10-23 | [Update README.md](https://github.com/punkpeye/awesome-mcp-servers/commit/f225f117f92626e6b7d5d2912746d9269e3d037b) | punkpeye |
-| 2026-10-23 | [Fix entry formatting](https://github.com/punkpeye/awesome-mcp-servers/commit/b10e8f4d6a8dd36f01054325b1304bb0af3da6f6) | punkpeye |
-| 2026-10-23 | [Merge pull request #16015 from zeitcow/codex/add-implicit-core](https://github.com/punkpeye/awesome-mcp-servers/commit/e1ff16ecb4e0d8a2eca5580540abc693b22cbd33) | punkpeye |
-| 2026-10-23 | [Fix entry formatting](https://github.com/punkpeye/awesome-mcp-servers/commit/e37d7be2fce6b16ae3e9548eb06f04c927144227) | punkpeye |
-| 2026-10-23 | [Merge pull request #16883 from multiassist/add-nakamotonotes-barometer](https://github.com/punkpeye/awesome-mcp-servers/commit/f78c5f9f2f02b3b4fd44f0be4dfb490856c0707c) | punkpeye |
+| 2026-11-17 | [Merge pull request #19103 from tl-sl/add-zerostack-mcp](https://github.com/punkpeye/awesome-mcp-servers/commit/5fb385c3c56a004eacad6a21cb446205c787926b) | punkpeye |
+| 2026-11-17 | [Merge pull request #19570 from Dinoctor/add-dinoctor](https://github.com/punkpeye/awesome-mcp-servers/commit/50fe60e4fe128aaa83aa7072746cb396d6477e71) | punkpeye |
+| 2026-11-17 | [Merge pull request #19129 from mambabuilt/add-mcp-dutch-rental-listings](https://github.com/punkpeye/awesome-mcp-servers/commit/7bafd92b2c5c04b7ecaac454b6e66758bbaaad7d) | punkpeye |
+| 2026-11-17 | [Merge pull request #15468 from robyroro/add-personamcp](https://github.com/punkpeye/awesome-mcp-servers/commit/ffaf57ca293d36651e4d214d648937b0eee398f8) | punkpeye |
+| 2026-11-17 | [Merge pull request #18029 from Stefan39/patch-1](https://github.com/punkpeye/awesome-mcp-servers/commit/3311a8ed89f1a5e186a2b2b6c823b1411be2b651) | punkpeye |
+| 2026-11-17 | [Fix entry formatting](https://github.com/punkpeye/awesome-mcp-servers/commit/f03458c7e0f71ca87562a88be87dd306f3dde310) | punkpeye |
+| 2026-11-17 | [Merge pull request #16212 from seanebones-lang/codex/add-deadbolt](https://github.com/punkpeye/awesome-mcp-servers/commit/96fc17ac3900b7dfd0cd8f3f0c3e59986cfde344) | punkpeye |
+| 2026-11-17 | [Merge pull request #15469 from seungmiyoon/add-korean-tax-mcp](https://github.com/punkpeye/awesome-mcp-servers/commit/0979edb3d40980edb189c6502835ead60ed377d7) | punkpeye |
+| 2026-11-17 | [Merge pull request #18153 from neilmorse/codex/add-spring-runtime-mcp](https://github.com/punkpeye/awesome-mcp-servers/commit/9f32e65fb50bf47e7a7db985b0b749521575108d) | punkpeye |
+| 2026-11-17 | [Merge pull request #16456 from pattalkslaw-del/add-tremelay](https://github.com/punkpeye/awesome-mcp-servers/commit/eab24ecfdd7a0f7a7291aa74d7b9002f46eabc01) | punkpeye |
 
 [See all commits ↗](https://github.com/punkpeye/awesome-mcp-servers/commits)
 

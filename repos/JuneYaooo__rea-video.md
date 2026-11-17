@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 9.5k |
-| 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [6](https://github.com/JuneYaooo/rea-video/issues) |
+| ⭐ **Stars** | 10.1k |
+| 🍴 **Forks** | 1.5k |
+| 🐞 **Open issues + PRs** | [5](https://github.com/JuneYaooo/rea-video/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai-video` `aigc-detection` `claude-code` `codex` `ffmpeg` `prompt-engineering` `remotion` `reverse-engineering` `short-video` `shot-detection` `subtitles` `video-analysis` `video-breakdown` `video-editing` `video-generation` `vlm` `videomd` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-10-29 |
 | 📦 **Latest release** | [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0)
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > **视频拆解标准包 Reel，报告重写，音效单独分离**
 > 这一版定下了视频拆解的标准包格式：拆片包（Reel）。拆一条视频现在得到两样东西：给人看的报告（HTML / PDF），和给模型、下游项目读的拆片包。格式介绍和规范见 [docs/reel.md](https://github.com/JuneYaooo/rea-video/blob/v0.1.0/docs/reel.md)。
@@ -50,16 +50,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [Keep calls whole when swapped subjects have no image](https://github.com/JuneYaooo/rea-video/commit/e83d5874beb6429d9488129c7f046755b60a5371) | JuneYaooo |
-| 2026-11-16 | [Plan generation from the remake intent and the model's limits](https://github.com/JuneYaooo/rea-video/commit/b5cbfee5c1987e3441b5223cb94beee2c542ba6f) | JuneYaooo |
-| 2026-11-16 | [Plan remakes per model and split the report into breakdown and remake](https://github.com/JuneYaooo/rea-video/commit/8db6cdf96d0c981d94daa22172c0f0c36187f159) | JuneYaooo |
-| 2026-11-16 | [Add Turkish flow diagram](https://github.com/JuneYaooo/rea-video/commit/820d661e807034e0f0284262b4e93085cfd3da49) | JuneYaooo |
-| 2026-11-16 | [docs: add Turkish README (#47)](https://github.com/JuneYaooo/rea-video/commit/b6f5c7a002616308c5181f04969cbef3d71517de) | lprvy |
-| 2026-11-15 | [Tighten motion drive detection and caption erasing](https://github.com/JuneYaooo/rea-video/commit/ebe853e330d63719a1f91754f789647c515eac19) | JuneYaooo |
-| 2026-11-15 | [Motion drive for dance and action shots](https://github.com/JuneYaooo/rea-video/commit/5b09832ab64c334045b99aaaeb8207e86da765e8) | JuneYaooo |
-| 2026-11-14 | [Point multi-episode dramas to rea-toon in FAQ](https://github.com/JuneYaooo/rea-video/commit/751596967f58b8949124d291e59bdc40fc04486e) | JuneYaooo |
-| 2026-11-14 | [Keep local notes out of the repo](https://github.com/JuneYaooo/rea-video/commit/fe67e634f085c1a2360b610e1bf6154ab58bd6c9) | JuneYaooo |
-| 2026-11-14 | [Keep tests local](https://github.com/JuneYaooo/rea-video/commit/a01deeef423f4dbe1e7bcc399d2a7d864c951a7d) | JuneYaooo |
+| 2026-11-17 | [Keep the install handoff to ChatCut](https://github.com/JuneYaooo/rea-video/commit/94625f2cc6ad738fb4fd2c2126fbc857428c8782) | JuneYaooo |
+| 2026-11-17 | [Note ChatCut also edits live-action footage](https://github.com/JuneYaooo/rea-video/commit/2cf82874641315d26e8b01df3bf805f0cb165c67) | JuneYaooo |
+| 2026-11-17 | [Merge pull request #51 from NicolaSanmu/chatcut-continue-install](https://github.com/JuneYaooo/rea-video/commit/a274f48ac8911c415c46c21f7b78026e1638f0ef) | JuneYaooo |
+| 2026-11-17 | [Hand off to each remake tool once the user picks one](https://github.com/JuneYaooo/rea-video/commit/cb37fc2a0fdd384b3c072d8984b4a0cd97b73d9c) | JuneYaooo |
+| 2026-11-17 | [Merge pull request #50 from cpbackend/fix/windows-proxy-for-model-dow…](https://github.com/JuneYaooo/rea-video/commit/a4faff3f8183f9922383cab94f3dcaf2f12a3dbb) | JuneYaooo |
+| 2026-11-17 | [Keep system proxy when no proxy env is set](https://github.com/JuneYaooo/rea-video/commit/23834983ad19bf4617e1df5f834b6b17fef73cdc) | JuneYaooo |
+| 2026-11-17 | [remake-tools：改推荐收尾措辞；装好后给用户一段提示，在新对话里接着复刻](https://github.com/JuneYaooo/rea-video/commit/d9394c066eb2eb214eab7bb327a375f4429779b4) | NicolaSanmu |
+| 2026-11-17 | [remake-tools：用户回「继续」时由 Agent 装好 ChatCut 接着复刻](https://github.com/JuneYaooo/rea-video/commit/f72ce05f8e760cff4974e5cd5c83b2d0b253bef2) | NicolaSanmu |
+| 2026-11-17 | [fix: use the Windows registry proxy for model downloads when only NO_…](https://github.com/JuneYaooo/rea-video/commit/521c3bcc18dd5441f66ea08d2867a432b72748b9) | cpbackend |
+| 2026-11-16 | [Write spec transition ids in VIDEO.md shots](https://github.com/JuneYaooo/rea-video/commit/07dd587119e884f7c50fbfae92e47840de86bea5) | JuneYaooo |
 
 [See all commits ↗](https://github.com/JuneYaooo/rea-video/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 8.0k |
 | 🍴 **Forks** | 778 |
-| 🐞 **Open issues + PRs** | [247](https://github.com/vastsa/PI-Desktop/issues) |
+| 🐞 **Open issues + PRs** | [254](https://github.com/vastsa/PI-Desktop/issues) |
 | 💻 **Languages** | TypeScript 54% · JavaScript 27% · Rust 16% · CSS 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `pi-desktop` `ai-agent` `coding-agent` `desktop-app` `electron` `global` `i18n` `local-first` `mcp` `pi-agent` `plugins` `react` `rust` `typescript` `pi` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2023-03-22 |
 | 📦 **Latest release** | [v0.22.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0) — 2026-11-08 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 207.2 MB |
+| 💾 **Size** | 208.1 MB |
 | 🌐 **Website** | https://www.aiuo.net |
 
 ## 📦 Recent releases
 
 ### [v0.23.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.1) _(pre-release)_
-<sub>2026-11-14 · yesterday</sub>
+<sub>2026-11-14 · 2d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.22.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0)
-<sub>2026-11-08 · 7d ago</sub>
+<sub>2026-11-08 · 8d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.22.0-beta.7](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.7) _(pre-release)_
-<sub>2026-11-08 · 7d ago</sub>
+<sub>2026-11-08 · 8d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.22.0-beta.6](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.6) _(pre-release)_
-<sub>2026-11-06 · 10d ago</sub>
+<sub>2026-11-06 · 11d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.22.0-beta.5](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.5) _(pre-release)_
-<sub>2026-11-04 · 11d ago</sub>
+<sub>2026-11-04 · 12d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [Merge pull request #2366 from koeria/fix/compaction-summary-cjk-2364](https://github.com/vastsa/PI-Desktop/commit/d0963bee014e8361b7fa9f8d02a64f63dceabb06) | vastsa |
-| 2026-11-16 | [Merge remote-tracking branch 'origin/main' into review/automation-236…](https://github.com/vastsa/PI-Desktop/commit/64352a78be4f1d112d0310a8549a65d8158d7444) | vastsa |
-| 2026-11-16 | [Merge pull request #2380 from vastsa/refactor/remove-goal-budget-setting](https://github.com/vastsa/PI-Desktop/commit/e17e5e7ed971bd0b45d38fed79d4c3fab227a555) | vastsa |
-| 2026-11-16 | [fix(agent-runtime): CJK-aware compaction summary sizing and chunked d…](https://github.com/vastsa/PI-Desktop/commit/509bad64319aa25123a2520bdb1f2975253cd160) | koeria |
-| 2026-11-16 | [Merge remote-tracking branch 'origin/main' into HEAD](https://github.com/vastsa/PI-Desktop/commit/76c8c8b228b79524fcb0fe9616cdc974767f26b0) | vastsa |
-| 2026-11-16 | [Merge pull request #2378 from new-Beginner/fix/legacy-goal-migration-…](https://github.com/vastsa/PI-Desktop/commit/3f0c9de2ddfb92662e909bf3d980c60a47a1b1fc) | vastsa |
-| 2026-11-16 | [feat(modes): let users edit builtin modes; drop the Goal budget setting](https://github.com/vastsa/PI-Desktop/commit/ac93a0ff75cbe59235813180e3de4f9e7b257e57) | vastsa |
-| 2026-11-16 | [test(plugins): align row action contract with supported panels](https://github.com/vastsa/PI-Desktop/commit/9253fa12de19d1899f4754e7f7f4446f0ac6d967) | vastsa |
-| 2026-11-16 | [fix(mods): retire legacy Goal turn snapshot triggers](https://github.com/vastsa/PI-Desktop/commit/733b753883e584b38ecf9cd8828e25d22f9cdd82) | new-Beginner |
-| 2026-11-16 | [Merge pull request #2373 from vastsa/docs/adr-handwritten-rewrite](https://github.com/vastsa/PI-Desktop/commit/29043af3371122e256bf265db31651da125d38e3) | vastsa |
+| 2026-11-17 | [fix(plugins): read the catalog fields the catalog actually uses (#2403)](https://github.com/vastsa/PI-Desktop/commit/047c4eab1c97a349b3cf8c734229b64ed9d87764) | vastsa |
+| 2026-11-17 | [feat(plugins): show marketplace categories in the app's language (#2400)](https://github.com/vastsa/PI-Desktop/commit/e2f137dff7f2ad77d6f1588dd50ba49751b8eb3b) | vastsa |
+| 2026-11-17 | [docs(agents): require restoring shared pnpm shims before worktree rem…](https://github.com/vastsa/PI-Desktop/commit/d2cd523e99dc51339dc21a0c581721c718bce198) | vastsa |
+| 2026-11-17 | [feat(plugins): page, sort and filter the marketplace through the cent…](https://github.com/vastsa/PI-Desktop/commit/f91799f3f190bb7f03cb4794605a69d99fa9701e) | vastsa |
+| 2026-11-17 | [Merge pull request #2398 from vastsa/fix/retract-prompt-model-system-row](https://github.com/vastsa/PI-Desktop/commit/4d16de71a34b02fd8711c1102a288664b3d171c1) | vastsa |
+| 2026-11-17 | [fix(host): ignore model system snapshot when retracting a stopped prompt](https://github.com/vastsa/PI-Desktop/commit/95446db66354e730df2bb8e9371720e4aee0931a) | vastsa |
+| 2026-11-17 | [Merge pull request #2396 from vastsa/fix/window-maximize-tiling](https://github.com/vastsa/PI-Desktop/commit/fcd958ae46110d68ffb77b054138c62ce0bd38ef) | vastsa |
+| 2026-11-17 | [test(desktop): track native tile minimum in shell size guard](https://github.com/vastsa/PI-Desktop/commit/41bc76096e0e4dfe612bfe884ae8412a25e1941e) | vastsa |
+| 2026-11-17 | [fix(desktop): restore native window maximize and tiling behavior](https://github.com/vastsa/PI-Desktop/commit/fceabebecb2a9e9c7a3c9573ca717635c244c562) | vastsa |
+| 2026-11-16 | [Merge pull request #2390 from koeria/fix/issue-2377-activation-scope](https://github.com/vastsa/PI-Desktop/commit/ecb2d98946b2d21168d423febda6d2ef05ac94e3) | vastsa |
 
 [See all commits ↗](https://github.com/vastsa/PI-Desktop/commits)
 

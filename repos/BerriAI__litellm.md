@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 63.3k |
-| 🍴 **Forks** | 13.3k |
+| ⭐ **Stars** | 63.4k |
+| 🍴 **Forks** | 13.4k |
 | 🐞 **Open issues + PRs** | [5.2k](https://github.com/BerriAI/litellm/issues) |
-| 💻 **Languages** | Python 84% · TypeScript 10% · Rust 5% |
+| 💻 **Languages** | Python 83% · TypeScript 10% · Rust 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `anthropic` `langchain` `llm` `llmops` `openai` `ai-gateway` `azure-openai` `bedrock` `gateway` `openai-proxy` `vertex-ai` `llm-gateway` `litellm` `mcp-gateway` `rust` `rust-ai` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2023-07-27 |
-| 📦 **Latest release** | [v1.108.9](https://github.com/BerriAI/litellm/releases/tag/v1.108.9) — 2026-11-14 |
+| 📦 **Latest release** | [v1.108.10](https://github.com/BerriAI/litellm/releases/tag/v1.108.10) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 2936.1 MB |
+| 💾 **Size** | 2950.9 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases
 
+### [v1.108.10](https://github.com/BerriAI/litellm/releases/tag/v1.108.10)
+<sub>2026-11-16 · today</sub>
+
+> **Verify Docker Image Signature**
+> ```bash
+> cosign verify \
+>   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
+>   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
+>   ghcr.io/berriai/litellm:v1.108.10
+> …
+
 ### [v1.111.0-dev.3](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.3) _(pre-release)_
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > > [!WARNING]
 > > **This release was only partly published. Use [v1.111.0-dev.4](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.4) instead.**
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.111.0-dev.4](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.4) _(pre-release)_
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > > [!IMPORTANT]
 > > **Signing has moved to keyless cosign.** Since v1.111.0-dev.3, releases are signed with Sigstore keyless signing (GitHub OIDC) instead of the `cosign.pub` key.
@@ -58,18 +69,18 @@
 > …
 
 ### [v1.110.0-rc.3](https://github.com/BerriAI/litellm/releases/tag/v1.110.0-rc.3) _(pre-release)_
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
-> **Verify Docker Image Signature**
-> All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
-> **Verify using the pinned commit hash (recommended):**
-> A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:
+> **Verify this release**
 > ```bash
 > cosign verify \
+>   --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \
+>   ghcr.io/berriai/litellm:v1.110.0-rc.3
+> ```
 > …
 
 ### [v1.107.0-rc.4](https://github.com/BerriAI/litellm/releases/tag/v1.107.0-rc.4) _(pre-release)_
-<sub>2026-11-14 · yesterday</sub>
+<sub>2026-11-14 · 2d ago</sub>
 
 > **Verify this release**
 > This release candidate is built from [`a1a541b`](https://github.com/BerriAI/litellm/commit/a1a541bfb1295d44bcb3b9ab882ba8f8b1c2dfa5), the reviewed merge of #51771 into `rc/1.107.0`. It is published as `1.107.0rc4` on PyPI and `v1.107.0-rc.4` on Docker
@@ -79,31 +90,20 @@
 >   --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \
 > …
 
-### [v1.108.9](https://github.com/BerriAI/litellm/releases/tag/v1.108.9)
-<sub>2026-11-14 · yesterday</sub>
-
-> **Verify Docker Image Signature**
-> All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).
-> **Verify using the pinned commit hash (recommended):**
-> A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:
-> ```bash
-> cosign verify \
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [chore(cost-map): add fal_ai seedance 2.5 flash rows, copilot deprecat…](https://github.com/BerriAI/litellm/commit/9a1e3bde9453f9b1316790fc51e6c098d9447d7b) | devin-ai-integration[bot] |
-| 2026-11-16 | [fix(proxy): stop returning stack traces in health check errors](https://github.com/BerriAI/litellm/commit/5c540976f603ff8bed19ebf846a0604a942d64ac) | ojensen-berri |
-| 2026-11-16 | [fix(decisions): answer 400 naming extra_headers when it is not an obj…](https://github.com/BerriAI/litellm/commit/f517a821b320ede3882b44353cb40510d8357473) | paveln83 |
-| 2026-11-16 | [refactor(auth): plan the authentication path in Rust (#51605)](https://github.com/BerriAI/litellm/commit/76e45df333c0b021b56ad119c3f3d4a40deedadf) | yujonglee-berri |
-| 2026-11-16 | [refactor(auth): decide route rules in Rust (#51531)](https://github.com/BerriAI/litellm/commit/4aa00352bbf9878d781eeb4e4535204f9f92568b) | yujonglee-berri |
-| 2026-11-16 | [feat(fnmatch): add a crate for Python's fnmatchcase glob dialect (#51…](https://github.com/BerriAI/litellm/commit/ad18efa84b369a71aba2bbd346d5b6eb2474923c) | yujonglee-berri |
-| 2026-11-16 | [refactor(proxy): keep the detached stream failure hook state on the l…](https://github.com/BerriAI/litellm/commit/2f448a9ee896d6d3ccb2899be0532bb031d49d95) | narmstrong-berri |
-| 2026-11-16 | [fix(messages): clamp bedrock effort before the drop_params effort gat…](https://github.com/BerriAI/litellm/commit/d034fb681ca296a0f082a224043eda62a2ce82d4) | narmstrong-berri |
-| 2026-11-16 | [fix(proxy)!: match the sign-in email fallback to the right user (#51897)](https://github.com/BerriAI/litellm/commit/58d86c21488653dee1d4844e5d27e0789c0d9148) | shrey-berri |
-| 2026-11-16 | [fix(proxy): stop team model writes from pulling in proxy-level settin…](https://github.com/BerriAI/litellm/commit/609acd5d9ccf54caf2061c883ea923347fd05b9b) | shrey-berri |
+| 2026-11-17 | [feat(litellm): add Vispark provider with Vision Small/Medium/Large (#…](https://github.com/BerriAI/litellm/commit/0cc072c999514faefd891efcd1a8b406e5350f04) | vansh-one |
+| 2026-11-17 | [refactor: reuse the shared session id reader and drop fresh restating…](https://github.com/BerriAI/litellm/commit/78d0a25fcd8ebdfc8854f0a801cea9858b30e49e) | mateo-berri |
+| 2026-11-17 | [feat(cost-map): price Claude on Bedrock Mantle under bedrock_mantle/ …](https://github.com/BerriAI/litellm/commit/42f901ad6597d19b1661883bb53037bbc9d85bf4) | devin-ai-integration[bot] |
+| 2026-11-17 | [test(cost): mark the cost tracking cases the reconciliation automatio…](https://github.com/BerriAI/litellm/commit/fd12cba0b2b9c195fd600a1695c2e4e5ab3ad8fe) | kerry-berri |
+| 2026-11-17 | [feat(callbacks-parallel-request-limiter): port parallel request limit…](https://github.com/BerriAI/litellm/commit/f5e911afd0e38a5509bcfbea1e9b1d26760ff52b) | narmstrong-berri |
+| 2026-11-17 | [fix(rust): read a dict subclass by its items when converting Python i…](https://github.com/BerriAI/litellm/commit/ae92c4750772bb954b5543b59af5431d76b56b58) | mika-lt |
+| 2026-11-17 | [feat(proxy): opt-in prefix block hashes in spend logs for workload re…](https://github.com/BerriAI/litellm/commit/4b12a4051e6cae2bde998aa3c54babc29c3e60d2) | mateo-berri |
+| 2026-11-17 | [fix(gemini): keep thought signatures for proxy model names without ge…](https://github.com/BerriAI/litellm/commit/da296ee4bfa706e2924ef4294d5b3d9802a2aa38) | ryan-crabbe-berri |
+| 2026-11-17 | [fix: keep LiteLLM-internal params out of provider request bodies (#46…](https://github.com/BerriAI/litellm/commit/98e83feeb7e0e0bb57f6b04dfc412c85404dbfdd) | fangkangmi |
+| 2026-11-17 | [refactor(ui): build the dashboard and chat shells on the shadcn Sideb…](https://github.com/BerriAI/litellm/commit/9e94c716f8a0e83cd08db299721669593adac0ce) | yuneng-berri |
 
 [See all commits ↗](https://github.com/BerriAI/litellm/commits)
 

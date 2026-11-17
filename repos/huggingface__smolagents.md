@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.4k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [510](https://github.com/huggingface/smolagents/issues) |
+| 🐞 **Open issues + PRs** | [515](https://github.com/huggingface/smolagents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-12-05 |
 | 📦 **Latest release** | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) — 2026-05-29 |
 | 🌿 **Default branch** | `main` |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [docs: add Rapid-MLX (Apple Silicon) example for OpenAIModel (#2175)](https://github.com/huggingface/smolagents/commit/8469d427d08655209a5a5e26242dba759b213206) | raullenchai |
+| 2026-11-17 | [Fix consecutive string message merging (#2356)](https://github.com/huggingface/smolagents/commit/4947c2b3e56bcadb92e40d81df76ffa3fc64e1a5) | fengjikui |
+| 2026-11-17 | [handle text-only Bedrock replies (#3198)](https://github.com/huggingface/smolagents/commit/36395cd0fcb3ebde77469217c4362606f3d9ce47) | julien-cto |
+| 2026-11-17 | [Fix LiteLLMRouterModel overriding deployment api_base and api_key wit…](https://github.com/huggingface/smolagents/commit/2a576ad0abe56251ce313606d40f2824d188e27e) | icn5381 |
 | 2026-11-15 | [Add workflow to close pull requests without a validated and assigned …](https://github.com/huggingface/smolagents/commit/e1249d373d58db6abc73882ee394f6bb3854c89f) | albertvillanova |
 | 2026-11-15 | [Ask agents to run make style before committing (#3185)](https://github.com/huggingface/smolagents/commit/a5797f14f33f87aa5efd038451a15d8e812b1460) | albertvillanova |
 | 2026-11-15 | [Require issues to be validated and assigned before opening a pull req…](https://github.com/huggingface/smolagents/commit/1faabfa499a40bcb62f86c507552632a7a4f9edc) | albertvillanova |
 | 2026-11-15 | [Docs: build English only, other languages are machine-translated (#3091)](https://github.com/huggingface/smolagents/commit/a826da9e98c1c59443f2bb119a37fde2f569b292) | mishig25 |
 | 2026-11-15 | [Fix flaky test_transformers_toolcalling_agent (#3180)](https://github.com/huggingface/smolagents/commit/57b9e408d77cebc99c7d9f3af375ea8bf10033e6) | albertvillanova |
 | 2026-11-15 | [Bump the actions group across 1 directory with 2 updates (#3147)](https://github.com/huggingface/smolagents/commit/58823fb71535793bc02de5dbb6a77e8caabe8099) | dependabot[bot] |
-| 2026-11-15 | [Require an assigned issue before opening a pull request (#3178)](https://github.com/huggingface/smolagents/commit/47ecad0549b41d14a8f8659bfae86475643fd258) | albertvillanova |
-| 2026-11-15 | [Fix pandas exception test for pandas 3 error message (#3176)](https://github.com/huggingface/smolagents/commit/deb17d9927fa8d11e35ab174ef8a69e77842998f) | albertvillanova |
-| 2026-11-15 | [Fix MCP extra installation with incompatible SDK 2.x (#2585)](https://github.com/huggingface/smolagents/commit/cd1a6b6e8badbe0d37721ed8d5b87209bb715916) | d3f4w2 |
-| 2026-10-06 | [Bump doc-builder workflow pin (#2906)](https://github.com/huggingface/smolagents/commit/96f33faaf028479119ec8d34507b47694cf14e34) | paulinebm |
 
 [See all commits ↗](https://github.com/huggingface/smolagents/commits)
 

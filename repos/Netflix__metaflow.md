@@ -14,17 +14,19 @@
 | **Why it's worth a look** | Netflix's framework for ML/AI pipelines from laptop to prod |
 | **Added** | 2026-11-11 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 10.3k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [523](https://github.com/Netflix/metaflow/issues) |
+| 🐞 **Open issues + PRs** | [521](https://github.com/Netflix/metaflow/issues) |
 | 💻 **Languages** | Python 94% · R 2% · Svelte 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `model-management` `ai` `ml` `ml-platform` `ml-infrastructure` `python` `mlops` `datascience` `high-performance-computing` `kubernetes` `aws` `azure` `gcp` `llm` `llmops` `agents` `generative-ai` `cost-optimization` `distributed-training` |
-| 🕒 **Last activity** | 2026-11-09 (7d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2019-09-17 |
 | 📦 **Latest release** | [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41) — 2026-11-06 |
 | 🌿 **Default branch** | `master` |
@@ -34,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41)
-<sub>2026-11-06 · 9d ago</sub>
+<sub>2026-11-06 · 10d ago</sub>
 
 > **What's Changed**
 > * fix: conditional steps issue on argo 3.7.13+/4.0.4+ by @saikonen in https://github.com/Netflix/metaflow/pull/3401
@@ -45,7 +47,7 @@
 > …
 
 ### [2.19.40](https://github.com/Netflix/metaflow/releases/tag/2.19.40)
-<sub>2026-10-29 · 17d ago</sub>
+<sub>2026-10-29 · 18d ago</sub>
 
 > **What's Changed**
 > * [GSoC] Add paginated, filtered run iteration to the core client by @Aryan95614 in https://github.com/Netflix/metaflow/pull/3348
@@ -92,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [Enable argo hooks to inherit security context from start step (#3354)](https://github.com/Netflix/metaflow/commit/2551e21c02f6666270a585a0d7fcbc21b8c20bce) | kevslinger |
 | 2026-11-09 | [fix(cards): prevent Table.from_dataframe from mutating input DataFram…](https://github.com/Netflix/metaflow/commit/bda5e774de68e65ae6f829f6d9643e7c592412d7) | sivaharish31 |
 | 2026-11-06 | [release: 2.19.41 (#3433)](https://github.com/Netflix/metaflow/commit/76ad41d72a28b2caa4ed2fed80f5a8f9c1503bb7) | saikonen |
 | 2026-11-06 | [fix(cards): stop get_cards from resetting the global namespace (#3396)](https://github.com/Netflix/metaflow/commit/425414acbddfe70ffe7cc2ba6130f4136b8140e8) | devteamaegis |
@@ -101,7 +104,6 @@
 | 2026-11-06 | [build(deps-dev): bump lodash from 4.17.23 to 4.18.1 in /metaflow/plug…](https://github.com/Netflix/metaflow/commit/5951330d2104ada909a2be580b5bf7b1743dc733) | dependabot[bot] |
 | 2026-11-05 | [Reject non-mapping config values passed via --config-value (#3391)](https://github.com/Netflix/metaflow/commit/d3299458133bbd67ea8b5e2ac84c84870e7e431c) | eyosi1239 |
 | 2026-11-04 | [fix: pass a timeout to the metadata heartbeat request (#3361)](https://github.com/Netflix/metaflow/commit/b4853f1ee250e282998de91efa6bf72d433a50ca) | RudraDudhat2509 |
-| 2026-11-04 | [Split every pip index URL, not just the first nine (#3382)](https://github.com/Netflix/metaflow/commit/9b9df2acce1a8af35c33e038c5c40bc9b605635f) | David-Wu1119 |
 
 [See all commits ↗](https://github.com/Netflix/metaflow/commits)
 

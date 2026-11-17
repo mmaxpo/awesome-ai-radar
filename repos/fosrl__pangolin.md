@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 23.8k |
-| 🍴 **Forks** | 839 |
-| 🐞 **Open issues + PRs** | [133](https://github.com/fosrl/pangolin/issues) |
+| 🍴 **Forks** | 840 |
+| 🐞 **Open issues + PRs** | [134](https://github.com/fosrl/pangolin/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `reverse-proxy` `wireguard` `single-sign-on` `self-hosted` `oidc` `vpn` `zero-trust` `zero-trust-network-access` `ztna` `pam` `remote-access` `ssh` `tunneling` `nat-traversal` `sase` `sso` `wireguard-vpn` `pangolin` `ai-gateway` `gateway` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-09-27 |
 | 📦 **Latest release** | [1.26.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 97.8 MB |
+| 💾 **Size** | 97.2 MB |
 | 🌐 **Website** | https://pangolin.net |
 
 ## 📦 Recent releases
 
 ### [1.26.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0)
-<sub>2026-11-04 · 11d ago</sub>
+<sub>2026-11-04 · 12d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.26: Session Management, SSH Logs, and Auto Windows Updates](https://pangolin.net/news/1-26-release)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.26.0-rc.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0-rc.0) _(pre-release)_
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **RC**
 > A Release Candidate (RC) is a near-final software version, stable but undergoing last tests before official release. It has all features and no known bugs.
@@ -58,7 +58,7 @@
 > …
 
 ### [1.25.3](https://github.com/fosrl/pangolin/releases/tag/1.25.3)
-<sub>2026-10-23 · 23d ago</sub>
+<sub>2026-10-23 · 25d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.25: Redirects, mTLS, and Machine Roles](https://pangolin.net/news/1-25-release)
@@ -69,7 +69,7 @@
 > …
 
 ### [1.25.2](https://github.com/fosrl/pangolin/releases/tag/1.25.2)
-<sub>2026-10-22 · 24d ago</sub>
+<sub>2026-10-22 · 26d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.25: Redirects, mTLS, and Machine Roles](https://pangolin.net/news/1-25-release)
@@ -80,7 +80,7 @@
 > …
 
 ### [1.25.1](https://github.com/fosrl/pangolin/releases/tag/1.25.1)
-<sub>2026-10-21 · 25d ago</sub>
+<sub>2026-10-21 · 26d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.25: Redirects, mTLS, and Machine Roles](https://pangolin.net/news/1-25-release)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-12 | [Merge pull request #4097 from berndderidder/update-node](https://github.com/fosrl/pangolin/commit/a83ad5da0a24db22ac99677068dbfccc6ef76d73) | oschwartz10612 |
-| 2026-11-12 | [Update to node 24.22.3](https://github.com/fosrl/pangolin/commit/212a127517f2ef02bc69387f6439b5e0d1af67d7) | berndderidder |
-| 2026-11-09 | [Merge pull request #4082 from fosrl/dev](https://github.com/fosrl/pangolin/commit/6e783a21965a9b0c94926d53d83b854d786cb6bb) | oschwartz10612 |
-| 2026-11-09 | [Get latest versions from the Fossorial API instead of GitHub](https://github.com/fosrl/pangolin/commit/8ae5a08b2970dc41888072870557ca7335431926) | oschwartz10612 |
-| 2026-11-09 | [Check site access before adding an olm peer](https://github.com/fosrl/pangolin/commit/52dfcca0bca54bb636529cbd7cddf96764dad75b) | oschwartz10612 |
-| 2026-11-09 | [Rate limit user lookups per IP](https://github.com/fosrl/pangolin/commit/34c2fb8e6bf0e42dd5c834ea62fe8ce1f46d6d07) | oschwartz10612 |
-| 2026-11-09 | [Scope domain reads and rule deletes to their owner](https://github.com/fosrl/pangolin/commit/dbfb7ce4002956c1b8ad899209039a50abd3bfca) | oschwartz10612 |
-| 2026-11-09 | [Strip cookies from AI gateway upstream requests](https://github.com/fosrl/pangolin/commit/3906c3633f7f4f96dedbf5242f88262a9b5ca871) | oschwartz10612 |
-| 2026-11-09 | [Leave OIDC client credentials out of the internal IdP route](https://github.com/fosrl/pangolin/commit/a00bfa942d2d5657f5782bde77422b05a1b752f1) | oschwartz10612 |
-| 2026-11-09 | [Block duplicate hostnames on non-inference resources](https://github.com/fosrl/pangolin/commit/856d1dd7169e359ad88c2021e5512a8d9257f3a9) | oschwartz10612 |
+| 2026-11-16 | [Merge pull request #4125 from fosrl/dev](https://github.com/fosrl/pangolin/commit/38ca2f99ade8531fe2119be00b33ca937f6a2688) | oschwartz10612 |
+| 2026-11-16 | [Fix expiring line up with subscription](https://github.com/fosrl/pangolin/commit/bf71e7d4e998ef1c466dec1034fac10985516cf3) | oschwartz10612 |
+| 2026-11-16 | [Require linked exit node on hybrid routes](https://github.com/fosrl/pangolin/commit/f95960c255f12ddf2b195cba1417013713174828) | oschwartz10612 |
+| 2026-11-16 | [Rename business to enterprise](https://github.com/fosrl/pangolin/commit/07dfa0280dcd43fb219f43c30ab0c9bccb573f10) | oschwartz10612 |
+| 2026-11-16 | [Fix support option resetting when changing users](https://github.com/fosrl/pangolin/commit/3596dffbe60014dc434ffda15e4af5d4f02a3767) | oschwartz10612 |
+| 2026-11-16 | [Quiet log message for self hosted licenses](https://github.com/fosrl/pangolin/commit/9fa262f0af21851452785c76273630856326e573) | oschwartz10612 |
+| 2026-11-16 | [Merge pull request #4119 from fosrl/dev](https://github.com/fosrl/pangolin/commit/c4a0aa630d1e5224e4554f8108f49e27f3b1a5fa) | oschwartz10612 |
+| 2026-11-16 | [Update pricing to match website](https://github.com/fosrl/pangolin/commit/a8828b165a712844c50e110fcd998d8ba86fda91) | oschwartz10612 |
+| 2026-11-16 | [Update security policy](https://github.com/fosrl/pangolin/commit/6b19c66e2911b2897cc8303f9ffdbd271072a71f) | oschwartz10612 |
+| 2026-11-16 | [Merge pull request #4103 from antcybersec/fix/test-temp-workdir-cleanup](https://github.com/fosrl/pangolin/commit/1d07441b99140c6461780466b6ac0c88f8e9bdfe) | oschwartz10612 |
 
 [See all commits ↗](https://github.com/fosrl/pangolin/commits)
 

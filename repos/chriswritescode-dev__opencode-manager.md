@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `web` `mobile` `ai-agents` `ai-coding` `coding-agent` `developer-tools` `docker` `llm` `opencode` `pwa` `react` `remote-development` `self-hosted` `terminal` |
-| 🕒 **Last activity** | 2026-11-13 (2d ago) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2025-11-24 |
 | 📦 **Latest release** | [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — 2026-10-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 38.5 MB |
+| 💾 **Size** | 38.7 MB |
 | 🌐 **Website** | https://opencodemanager.app |
 
 ## 📦 Recent releases
 
 ### [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — OpenCode Manager v1.1.0
-<sub>2026-10-26 · 21d ago</sub>
+<sub>2026-10-26 · 22d ago</sub>
 
 > **Highlights**
 > - **Linked OpenCode servers**: pair any machine running `opencode serve` with `ocm link` and a QR code, then run sessions, terminals, schedules, multi-runs, goals and permission modes on it from Manager. Linked servers' projects appear on the home page.

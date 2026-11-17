@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `ai` `botpress` `chatbot` `chatgpt` `gpt` `gpt-4` `llm` `openai` `langchain` `nlp` `prompt` |
-| 🕒 **Last activity** | 2026-11-13 (2d ago) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) — 2023-06-22 |
 | 🌿 **Default branch** | `master` |
@@ -89,6 +89,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [fix(llmz): hold an exit written before tool data came back until the …](https://github.com/botpress/botpress/commit/e6f34b576f375cda080fa3687c8e101222bce80b) | SohaibDM |
+| 2026-11-16 | [feat(llmz): let callers set the code result cap with maxResultChars (…](https://github.com/botpress/botpress/commit/6a1d6be64a1b3570d050d305824ad814ea3ba455) | SohaibDM |
 | 2026-11-13 | [fix(llmz): cap code results and error dumps sent to the model (0.9.23…](https://github.com/botpress/botpress/commit/24b0ca1bb49e9f9acdc459b0b844f9edb2913405) | SohaibDM |
 | 2026-11-13 | [fix(gsheets): canonicalize service account private keys (#15556)](https://github.com/botpress/botpress/commit/ee7756d29d788def2813a1a19999df0149d117cf) | pascal-botpress |
 | 2026-11-13 | [chore(client): bump client to version 2.13.0 (#15555)](https://github.com/botpress/botpress/commit/3e82f54db2ead8784e6c955871adbc1a6cb89948) | mikaelmoreau-botpress |
@@ -97,8 +99,6 @@
 | 2026-11-11 | [feat(cognitive): add classify to the client (1.4.0) (#15543)](https://github.com/botpress/botpress/commit/0658a908567d7fae7384885378b00f33adcc2c58) | AugustDG |
 | 2026-11-10 | [chore(chat): stop deploying chat to ECS (#15528)](https://github.com/botpress/botpress/commit/0cdf37321b43e2340eb17a792e0782a99f8d60f9) | mikaelmoreau-botpress |
 | 2026-11-10 | [fix(integrations/trello)!: reject webhooks that fail signature verifi…](https://github.com/botpress/botpress/commit/4f3d0ea62cc4b6ad0ac0e6409977d8056bc93b25) | allardy |
-| 2026-11-09 | [fix(llmz): send the execution state as its own message between the fi…](https://github.com/botpress/botpress/commit/96c8a755a96f87c81b24ddd844f61e5544d8812d) | SohaibDM |
-| 2026-11-09 | [fix(llmz): size the prompt budget by how the provider counts tokens (…](https://github.com/botpress/botpress/commit/24dfb0f994de01d50379bc3c234c729e67d62be1) | SohaibDM |
 
 [See all commits ↗](https://github.com/botpress/botpress/commits)
 

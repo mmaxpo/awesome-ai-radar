@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 99.3k |
+| ⭐ **Stars** | 99.4k |
 | 🍴 **Forks** | 5.7k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
 | 💻 **Languages** | Dart 80% · Rust 17% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `flutter` `file-sharing` `dart` `flutter-apps` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2022-12-16 |
 | 📦 **Latest release** | [v1.18.2](https://github.com/localsend/localsend/releases/tag/v1.18.2) — 2026-08-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.5 MB |
+| 💾 **Size** | 22.4 MB |
 | 🌐 **Website** | https://localsend.org |
 
 ## 📦 Recent releases
@@ -91,6 +91,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [Revert "deps: bump flutter to 3.47.9 (#3692)" (#3717)](https://github.com/localsend/localsend/commit/d1e6198f401939a9b76854f406f7dbb27d67a808) | Tienisto |
 | 2026-11-11 | [fix(linux): resolve the tray icon to an absolute path on Snap (#3354)](https://github.com/localsend/localsend/commit/2e7ef1972b0b4e210608ec77ef5fad334f798f7e) | vicajilau |
 | 2026-11-08 | [fix(linux): do not fail the build on the appindicator deprecation (#3…](https://github.com/localsend/localsend/commit/8476c091c5a107e4507b6b3ec0cb15a069e857b5) | vicajilau |
 | 2026-11-08 | [fix(linux): respect `XDG_CONFIG_HOME`, safely remove the desktop entr…](https://github.com/localsend/localsend/commit/c95e254813968d5bb41e31eaed5dfd497c03693c) | vicajilau |
@@ -100,7 +101,6 @@
 | 2026-11-08 | [fix: show "LocalSend" as title in the Linux system tray (#3374)](https://github.com/localsend/localsend/commit/8b0899323a5fce50ebf9b3ca09e60046c8c75d00) | Josephur |
 | 2026-11-08 | [deps: bump flutter to 3.47.9 (#3692)](https://github.com/localsend/localsend/commit/ef8ba6526b1fceb7bac58b410f231a23bec8e655) | Tienisto |
 | 2026-11-07 | [fix: release wakelock when a transfer fails (#3603)](https://github.com/localsend/localsend/commit/0ddf2536d4f5937724dbb8ea6a301bd48f26eca2) | bunnysayzz |
-| 2026-11-07 | [feat: add x86_64 rpm package to release workflow (#3038)](https://github.com/localsend/localsend/commit/39f215e4f6f112d614d094c1d623847e4bd6faf1) | basil |
 
 [See all commits ↗](https://github.com/localsend/localsend/commits)
 

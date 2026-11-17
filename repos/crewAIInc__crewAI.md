@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 300.7 MB |
+| 💾 **Size** | 300.1 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · 3d ago</sub>
+<sub>2026-11-12 · 4d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40)
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.39](https://github.com/crewAIInc/crewAI/releases/tag/1.15.39)
-<sub>2026-11-09 · 7d ago</sub>
+<sub>2026-11-09 · 8d ago</sub>
 
 > **What's Changed**
 > **Documentation**
@@ -67,7 +67,7 @@
 > @joaomdmoura
 
 ### [1.15.38](https://github.com/crewAIInc/crewAI/releases/tag/1.15.38)
-<sub>2026-11-08 · 7d ago</sub>
+<sub>2026-11-08 · 8d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -78,7 +78,7 @@
 > …
 
 ### [1.15.37](https://github.com/crewAIInc/crewAI/releases/tag/1.15.37)
-<sub>2026-11-07 · 9d ago</sub>
+<sub>2026-11-07 · 10d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -92,6 +92,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [fix(agent): honor max_execution_time without waiting for the worker (…](https://github.com/crewAIInc/crewAI/commit/96c4d85b6423dd06b7f1c38f12dd472399c6ce43) | Kiko0301 |
+| 2026-11-16 | [fix(crew): save task outputs that hold urls and other pydantic types …](https://github.com/crewAIInc/crewAI/commit/e26fe73c86a3e547ff75de2c3e336cedd40c086f) | adityajai119 |
 | 2026-11-16 | [fix(experimental): read the experiment baseline as UTF-8 (#9297)](https://github.com/crewAIInc/crewAI/commit/758b2c1d527e433750c46a06baa93708057d9d4d) | lxcxjxhx |
 | 2026-11-16 | [fix(utilities): prefix sanitized tool names that start with a digit (…](https://github.com/crewAIInc/crewAI/commit/facbad10df94611158fb76d43670046642b298eb) | HhH666-ux |
 | 2026-11-16 | [fix(memory): count scoped LanceDB records exactly above 50,000 rows (…](https://github.com/crewAIInc/crewAI/commit/2817a951f308bf477d4b221d3f3047ade3f97b61) | Varshith-Kali |
@@ -100,8 +102,6 @@
 | 2026-11-15 | [fix(rag): normalize flat Chroma metadata filters (#9403)](https://github.com/crewAIInc/crewAI/commit/bf6fd3a0972dd72fe1ff568c243e87e3b8408d35) | jjhong011001 |
 | 2026-11-15 | [fix(rag): handle CSV record newlines without translating cell values …](https://github.com/crewAIInc/crewAI/commit/f98e2923a0b4523fbd11994ae6b1093beb338fb2) | lakers-abing |
 | 2026-11-15 | [fix(project): load json crew and agent files saved with a utf-8 bom (…](https://github.com/crewAIInc/crewAI/commit/574a09e84c3ba7823914a1df526723138d589f6f) | adityajai119 |
-| 2026-11-15 | [fix(task): preserve validated converter output in the configured form…](https://github.com/crewAIInc/crewAI/commit/c5733e9aae3f6554174abfb9f48a9cf20829dc10) | jjhong011001 |
-| 2026-11-15 | [docs(edge): align crew endpoint path with runtime example (#9432)](https://github.com/crewAIInc/crewAI/commit/36f28c018af8db02f9134b5e75f1fc42fee85d3f) | xu-song |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

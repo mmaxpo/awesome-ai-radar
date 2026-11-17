@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.8k |
-| 🍴 **Forks** | 164 |
+| 🍴 **Forks** | 165 |
 | 🐞 **Open issues + PRs** | [18](https://github.com/barvian/number-flow/issues) |
 | 💻 **Languages** | TypeScript 53% · Astro 20% · MDX 7% · CSS 6% · Svelte 6% |
 | 📜 **License** | MIT |

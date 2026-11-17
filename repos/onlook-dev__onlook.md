@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/onlook-dev/onlook)
 
-> The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.
+> The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.
 
 ## 📝 Notes
 
@@ -14,6 +14,8 @@
 | **Why it's worth a look** | Edit React apps visually, with AI |
 | **Added** | 2026-11-14 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
@@ -24,11 +26,11 @@
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `typescript` `tailwindcss` `nextjs` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `supabase` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` |
-| 🕒 **Last activity** | 2026-10-21 (25d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v0.2.32](https://github.com/onlook-dev/onlook/releases/tag/v0.2.32) — 2025-07-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 81.1 MB |
+| 💾 **Size** | 82.5 MB |
 | 🌐 **Website** | https://onlook.com |
 
 ## 📦 Recent releases
@@ -80,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [docs: new README and Central Icons asset notice (#3147)](https://github.com/onlook-dev/onlook/commit/993068a859decf9e93152e8a9f43d379d0d708c0) | drfarrell |
 | 2026-07-22 | [fix(security): enforce project-membership authorization across all tR…](https://github.com/onlook-dev/onlook/commit/423e2e924366419e418ee049093872d535eea41a) | mrptato |
 | 2026-07-09 | [Update README to refresh header image (#3125)](https://github.com/onlook-dev/onlook/commit/ab57c090b51f913b214c40bffdcd5753d1bd5930) | drfarrell |
 | 2026-07-09 | [Updated header image (#3124)](https://github.com/onlook-dev/onlook/commit/781d67a63ff753050dbab9d95f8aa63ab4ca2c85) | drfarrell |
@@ -89,7 +92,6 @@
 | 2025-12-14 | [Fix open redirect vulnerability in OAuth callback (CVE-2025-63784) (#…](https://github.com/onlook-dev/onlook/commit/6962f87aadfeae72498151bdde799041301219cc) | drfarrell |
 | 2025-12-14 | [Fix DOM XSS vulnerability in text editor (CVE-2025-63785) (#3064)](https://github.com/onlook-dev/onlook/commit/2e6cda3bdfd31e8cfc829efdb5b9cac1baab4997) | drfarrell |
 | 2025-12-14 | [Fix CVE-2025-63783: Add authorization checks to project mutation APIs…](https://github.com/onlook-dev/onlook/commit/57ce1ccfacc7e8484cae59013a2b1e34518560e5) | drfarrell |
-| 2025-12-07 | [Next Upgrade (#3056)](https://github.com/onlook-dev/onlook/commit/cb97e012729eca441e09b1503282cb4bc2f4bcfb) | drfarrell |
 
 [See all commits ↗](https://github.com/onlook-dev/onlook/commits)
 

@@ -20,28 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.1k |
-| 🍴 **Forks** | 769 |
-| 🐞 **Open issues + PRs** | [331](https://github.com/superdesigndev/treg/issues) |
-| 💻 **Languages** | Python 74% · HTML 14% · JavaScript 4% · Vue 3% · Go 3% |
+| ⭐ **Stars** | 8.2k |
+| 🍴 **Forks** | 787 |
+| 🐞 **Open issues + PRs** | [340](https://github.com/superdesigndev/treg/issues) |
+| 💻 **Languages** | Python 74% · HTML 14% · JavaScript 3% · Vue 3% · Go 3% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `dsh-plugin` `agents` `api-keys` `cli` `credentials` `developer-tools` `mcp` `proxy` `python` `registry` `secrets` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-07-15 |
-| 📦 **Latest release** | [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — 2026-11-12 |
+| 📦 **Latest release** | [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 138.1 MB |
+| 💾 **Size** | 140.2 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases
 
+### [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — treg 1.0.0-beta.3 _(pre-release)_
+<sub>2026-11-17 · today</sub>
+
+> _No notes._
+
 ### [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — treg 1.0.0-beta.2 _(pre-release)_
-<sub>2026-11-12 · 4d ago</sub>
+<sub>2026-11-12 · 5d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.1](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.1) — treg 1.0.0-beta.1 _(pre-release)_
-<sub>2026-11-07 · 8d ago</sub>
+<sub>2026-11-07 · 9d ago</sub>
 
 > _No notes._
 
@@ -49,16 +54,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [Merge pull request #1704 from superdesigndev/feat/plugin-claude-page](https://github.com/superdesigndev/treg/commit/33a1c2f342d045e169679b0361943ca70db73702) | shehjad-dev |
-| 2026-11-16 | [Merge pull request #1682 from superdesigndev/fix/money-admission-kv-b…](https://github.com/superdesigndev/treg/commit/6346cca7532f2df9dd19e5f447bdce0de9409f88) | unclecode |
-| 2026-11-16 | [Merge pull request #1680 from superdesigndev/fix/upstream-pool-limits](https://github.com/superdesigndev/treg/commit/5ff890444ef6ac3d5a20d6933544ba69eeae436a) | unclecode |
-| 2026-11-16 | [Merge pull request #1678 from superdesigndev/fix/relay-dns-off-loop](https://github.com/superdesigndev/treg/commit/cce024c2b2e4f328751546e55c0f5c002efc1358) | unclecode |
-| 2026-11-16 | [Merge pull request #1274 from superdesigndev/feat/agent-payments-v1](https://github.com/superdesigndev/treg/commit/804ce61b563ef9ce7c5e38218a080a844eb7b4b8) | shehjad-dev |
-| 2026-11-16 | [feat(web): a /plugins/claude page for the Claude plugin listing](https://github.com/superdesigndev/treg/commit/54b0a696922b24283911a8957abbecd6bebb777c) | shehjad-dev |
-| 2026-11-16 | [Merge pull request #1695 from superdesigndev/docs/agents-public-revie…](https://github.com/superdesigndev/treg/commit/e059f2557fab97de0d39ed2bd9db8e9d835f10f6) | stonexer |
-| 2026-11-16 | [fix(agent-payments): review fixes before merge](https://github.com/superdesigndev/treg/commit/672ed0da5d1473d4087715c7692291bf5f159ccb) | shehjad-dev |
-| 2026-11-16 | [chore(agent-payments): drop the go-live plan from the branch](https://github.com/superdesigndev/treg/commit/72beedeac3c30b15da2499a164587d8da0e699bb) | shehjad-dev |
-| 2026-11-16 | [Merge remote-tracking branch 'origin/main' into feat/agent-payments-v1](https://github.com/superdesigndev/treg/commit/a5e69394c1e7e98a6d34af159d0fdfd940d0823a) | shehjad-dev |
+| 2026-11-17 | [Merge pull request #1751 from superdesigndev/feat/fernet-key-rotation](https://github.com/superdesigndev/treg/commit/a184d3fcb08358563b04128b3083485742aab752) | stonexer |
+| 2026-11-17 | [docs(secrets): open with the new Fernet key before writing with it](https://github.com/superdesigndev/treg/commit/43482d8ae7604b0f69cc9eadaaf97f57e7ce8866) | stonexer |
+| 2026-11-17 | [fix(secrets): rotate stored Fernet credentials with the Arena payloads](https://github.com/superdesigndev/treg/commit/27bc9ab8b9c70e688c0c385ab7564544eb0cd506) | stonexer |
+| 2026-11-17 | [Merge pull request #1750 from superdesigndev/feat/review-targeted-inv…](https://github.com/superdesigndev/treg/commit/f12168e1d0e7ab45964f8857a08ff7ec856740f9) | WorksOnMyVM |
+| 2026-11-17 | [fix(feedback): credit an async routed review to the find, not its poll](https://github.com/superdesigndev/treg/commit/297bb4423bac5ca99f235c4d8d22d9d2054bd1e5) | WorksOnMyVM |
+| 2026-11-17 | [test(feedback): retry the confirm-case review until its call record i…](https://github.com/superdesigndev/treg/commit/5d1335b1df74721044923c8ae5d4b5d90cf7774c) | WorksOnMyVM |
+| 2026-11-17 | [fix(feedback): bound the review counts read so it never holds a worker](https://github.com/superdesigndev/treg/commit/b036064fc3ae31177be3372ec0440b64d7fde5e1) | WorksOnMyVM |
+| 2026-11-17 | [fix(feedback): target a routed review by the child it is credited to](https://github.com/superdesigndev/treg/commit/6a75a43adc8d12e9f7399dce2621472f86ac6275) | WorksOnMyVM |
+| 2026-11-17 | [Merge main into feat/fernet-key-rotation](https://github.com/superdesigndev/treg/commit/29d43b74f07e6a892713d1d931a3a1efdaaa4c71) | stonexer |
+| 2026-11-17 | [feat(secrets): rotate the Fernet key through a key list](https://github.com/superdesigndev/treg/commit/6d13c57e91277585f2258a036a4d7e1264704393) | stonexer |
 
 [See all commits ↗](https://github.com/superdesigndev/treg/commits)
 

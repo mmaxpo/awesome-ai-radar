@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 30.7k |
 | 🍴 **Forks** | 5.1k |
-| 🐞 **Open issues + PRs** | [46](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [36](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `llm` `python` `openai` `harness` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2025-03-11 |
 | 📦 **Latest release** | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) — 2026-10-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 118.5 MB |
+| 💾 **Size** | 122.9 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
 
 ### [v0.24.0-alpha.8](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8) — Agents SDK v0.24.0-alpha.8 _(pre-release)_
-<sub>2026-11-16 · today</sub>
+<sub>2026-11-16 · yesterday</sub>
 
 > **Agents SDK v0.24.0-alpha.8**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.24.0-alpha.7](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.7) — Agents SDK v0.24.0-alpha.7 _(pre-release)_
-<sub>2026-11-08 · 8d ago</sub>
+<sub>2026-11-08 · 9d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.7**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.24.0-alpha.6](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6) — Agents SDK v0.24.0-alpha.6 _(pre-release)_
-<sub>2026-11-03 · 12d ago</sub>
+<sub>2026-11-03 · 13d ago</sub>
 
 > **Install the preview**
 > Use standard CPython 3.10–3.14 in a virtual environment. These wheels include the native runtime; no Rust toolchain or source build is needed. This preview is distributed through GitHub Releases, not PyPI.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [fix(deps): update python-multipart requirement from >=0.0.32 to >=0.0…](https://github.com/openai/openai-agents-python/commit/64fbde5d02b42ae5f9db668eb0184cdb3fc9d775) | dependabot[bot] |
-| 2026-11-10 | [docs: update translated pages (#5388)](https://github.com/openai/openai-agents-python/commit/d68961657843c7d81dfc25834484f8aac2957eb3) | seratch |
-| 2026-11-10 | [fix(deps-dev): bump pytest from 9.0.3 to 9.2.0 (#5710)](https://github.com/openai/openai-agents-python/commit/b0051a736fec104ee8b4d254de3e0c13758ecaec) | dependabot[bot] |
-| 2026-11-09 | [fix: use gpt-6-luna for session compaction by default (#5646)](https://github.com/openai/openai-agents-python/commit/1fc77bbc8ac1446690f6ba62dd0d52779bdcf43f) | seratch |
-| 2026-11-09 | [fix: skip streamed model attempts after an input guardrail trips (#5644)](https://github.com/openai/openai-agents-python/commit/8ea4333b4f223340739c3039e1a7720082493580) | seratch |
-| 2026-11-09 | [fix: retain tool guardrail results after approval and resume (#5643)](https://github.com/openai/openai-agents-python/commit/3a0c89c8e4ac42fe4134695d3ca5d0275f138f06) | seratch |
-| 2026-11-09 | [fix: preserve append order in SQLAlchemy sessions (#5645)](https://github.com/openai/openai-agents-python/commit/89a3ea4b279925d9d7720027dc872eeba6925224) | seratch |
-| 2026-11-09 | [fix: allow concurrent Streamable HTTP requests on MCP v2 (#5641)](https://github.com/openai/openai-agents-python/commit/2b90566eb2adc7d94e8fd8f234b007a937a98989) | seratch |
-| 2026-11-09 | [docs: clarify forced tool choice for read-only requests (#5640)](https://github.com/openai/openai-agents-python/commit/21ec412130103e7ffcc3fdf4c1368caba7fe9fe1) | seratch |
-| 2026-11-09 | [fix: Responses tool choice for functions named after hosted tools (#5…](https://github.com/openai/openai-agents-python/commit/3ac005f29919210f9c3f78668008477497c0d0ea) | seratch |
+| 2026-11-17 | [fix(deps): update fastapi requirement from >=0.162.0 to >=0.162.2 in …](https://github.com/openai/openai-agents-python/commit/9a3bce3d0ab013d64aa5591e92a4458d1c658f8b) | dependabot[bot] |
+| 2026-11-17 | [fix(deps): update openai requirement from <4,>=3.42.1 to >=3.48.0,<4 …](https://github.com/openai/openai-agents-python/commit/5e0f94458e91eb93f619b29045f7a2ebcc1f4f3e) | dependabot[bot] |
+| 2026-11-17 | [fix(deps): update twilio requirement from <10,>=9.12.0 to >=9.13.0,<1…](https://github.com/openai/openai-agents-python/commit/e27451cdb311b389bfbf3860106abe0991cbb641) | dependabot[bot] |
+| 2026-11-17 | [fix(deps-dev): bump fastapi from 0.141.1 to 0.162.2 (#6053)](https://github.com/openai/openai-agents-python/commit/494c0c0c13c8a08c83161848c275365febe90601) | dependabot[bot] |
+| 2026-11-17 | [fix(deps-dev): bump rich from 14.3.3 to 15.0.0 (#6055)](https://github.com/openai/openai-agents-python/commit/18d979bf218016a86cbbba1bd38165c87f7c2233) | dependabot[bot] |
+| 2026-11-17 | [fix(deps): bump pydantic from 2.14.2 to 2.14.3 (#6052)](https://github.com/openai/openai-agents-python/commit/4bb2637dcdc2c27da7a0d1820d416cb7e0eab4ab) | dependabot[bot] |
+| 2026-11-17 | [fix: preserve pending async calls in committed sessions (#6039)](https://github.com/openai/openai-agents-python/commit/f48003a6dba448be21f195c7508ca77e683fe08c) | ashwinnathan-openai |
+| 2026-11-17 | [fix: preserve pending input history across streamed retries (#6042)](https://github.com/openai/openai-agents-python/commit/9e05bd5bf299a5ddbb25f7fec8da10bf2baf6133) | ashwinnathan-openai |
+| 2026-11-16 | [fix: preserve wire aliases when reading Conversations session history…](https://github.com/openai/openai-agents-python/commit/5789c7c555b5d3e26104859d84286e412d7b6a9b) | seratch |
+| 2026-11-16 | [fix: preserve usage from failed and incomplete Responses calls (#6046)](https://github.com/openai/openai-agents-python/commit/6e6707cdcf63c2466f2bc8c6cb026ce3813bdf26) | seratch |
 
 [See all commits ↗](https://github.com/openai/openai-agents-python/commits)
 

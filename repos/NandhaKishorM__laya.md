@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 35.6k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [98](https://github.com/NandhaKishorM/laya/issues) |
+| 🐞 **Open issues + PRs** | [99](https://github.com/NandhaKishorM/laya/issues) |
 | 💻 **Languages** | Python 52% · Java 11% · Go 8% · Rust 7% · C# 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `calibration` `classification` `decision-model` `huggingface` `jev` `modernbert` `multilingual` `nlp` `python` `pytorch` `routing` `typed-decisions` `zero-shot` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-16 (yesterday) |
 | 📅 **Created** | 2026-09-18 |
 | 📦 **Latest release** | [v0.4.35](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.35) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
@@ -36,24 +36,24 @@
 ## 📦 Recent releases
 
 ### [v0.4.35](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.35)
-<sub>2026-11-16 · today</sub>
+<sub>2026-11-16 · yesterday</sub>
 
 > **What's Changed**
 > * feat(sdk-ts): add HTTP routing snapshots by @xinpingzh in https://github.com/NandhaKishorM/laya/pull/1503
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.34...v0.4.35
 
 ### [v0.4.34](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.34)
-<sub>2026-11-15 · today</sub>
+<sub>2026-11-15 · yesterday</sub>
 
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.33...v0.4.34
 
 ### [v0.4.33](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.33)
-<sub>2026-11-15 · today</sub>
+<sub>2026-11-15 · yesterday</sub>
 
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.32...v0.4.33
 
 ### [v0.4.32](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.32)
-<sub>2026-11-14 · yesterday</sub>
+<sub>2026-11-14 · 2d ago</sub>
 
 > **What's Changed**
 > * perf(calibrate): vectorize record validation, threshold selection, and binning fit by @HamidRezaLS in https://github.com/NandhaKishorM/laya/pull/1496
@@ -64,7 +64,7 @@
 > …
 
 ### [v0.4.31](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.31)
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > **What's Changed**
 > * feat(ts): expose local routing diagnostics by @xinpingzh in https://github.com/NandhaKishorM/laya/pull/1447

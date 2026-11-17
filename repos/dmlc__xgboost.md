@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [461](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [452](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2014-02-06 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 2026-09-15 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 38.4 MB |
+| 💾 **Size** | 38.5 MB |
 | 🌐 **Website** | https://xgboost.readthedocs.io/ |
 
 ## 📦 Recent releases
@@ -82,16 +82,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [[python] Add type hints. (#12838)](https://github.com/dmlc/xgboost/commit/3a5b390a1e6e108ff66cae69d6fc7c7591078320) | vineoy |
-| 2026-11-15 | [[doc] Refactor AFT survival analysis tutorial to use tabs for code ex…](https://github.com/dmlc/xgboost/commit/31abd0e3b8c2b7ab7af09e36b780e1d507e5da1f) | natsu0529 |
-| 2026-11-11 | [Skip unused features in GPU SHAP interaction finalization (#12825)](https://github.com/dmlc/xgboost/commit/293cad1a89ab749e3266e190c68118af2db09982) | RAMitchell |
-| 2026-11-10 | [Only zero and accumulate split-feature columns in CPU SHAP contributi…](https://github.com/dmlc/xgboost/commit/889205cb8e4d779ba50f79da406020f04f6a04a1) | sebastianbreguel |
-| 2026-11-10 | [Use fewer threads for small multiclass prediction transforms (#12821)](https://github.com/dmlc/xgboost/commit/e15fb94fccc2341233c51b5c7a4df4389cdeda9e) | sebastianbreguel |
-| 2026-11-10 | [Sort only partition-based categorical histogram segments on GPU (#12723)](https://github.com/dmlc/xgboost/commit/5a67748d59fdb919ac834b86f030a48999a2b885) | siqi-he |
-| 2026-11-09 | [Run elementwise prediction transforms in blocks of rows (#12819)](https://github.com/dmlc/xgboost/commit/b6e36234ea28926d9b8d9776e0795cebef281070) | sebastianbreguel |
-| 2026-11-09 | [[python] Dedupe training callbacks by identity so an unhashable callb…](https://github.com/dmlc/xgboost/commit/c0ed8b34f97d735ec63a537814ed0e7ae3ce3b5b) | paolo-perrone |
-| 2026-11-09 | [[python] Iterate pandas columns with items() instead of a name lookup…](https://github.com/dmlc/xgboost/commit/7b41d9c363be560f43a68538cd6566cccb7c39df) | sebastianbreguel |
-| 2026-11-09 | [Keep the global configuration unchanged when an update is rejected (#…](https://github.com/dmlc/xgboost/commit/e4ed53962e69c4008512a7de62765ebbfb16db66) | rishi02102017 |
+| 2026-11-17 | [Revert "Cap OpenMP threads at the block count in ParallelFor2d (#1280…](https://github.com/dmlc/xgboost/commit/5f1a7cff76753d26299d2a26aab5994c33a06822) | trivialfis |
+| 2026-11-17 | [Fix CUDA vector initialization after host shrink (#12840)](https://github.com/dmlc/xgboost/commit/f3b50aec9900dd13d71fd9e60cf1eb09f6c6dd45) | RAMitchell |
+| 2026-11-17 | [Bound the Poisson and Cox intercepts away from zero (#12864)](https://github.com/dmlc/xgboost/commit/07179cae3ae2049dc29677874b2a8823193522d3) | caxaxa |
+| 2026-11-17 | [[dask] Accept array-like feature weights in DaskDMatrix and the estim…](https://github.com/dmlc/xgboost/commit/aae18e572531e102c974292102692fdd8a0e6dc2) | caxaxa |
+| 2026-11-17 | [Walk each row once when predicting from a QuantileDMatrix with missin…](https://github.com/dmlc/xgboost/commit/c95da6d3392981eb48f1d1fb8a76c6c75dd54600) | sebastianbreguel |
+| 2026-11-17 | [Bound the Tweedie intercept away from zero (#12848)](https://github.com/dmlc/xgboost/commit/24eeb14c4cad5142b8bd5b36ecda656d76197f64) | caxaxa |
+| 2026-11-17 | [Weight queries without relevant documents in ndcg and map (#12833)](https://github.com/dmlc/xgboost/commit/4fb39509a99daed4f360078e8bcce6b1ff00d3c2) | sohailshk |
+| 2026-11-17 | [Bump vmactions/freebsd-vm (#12860)](https://github.com/dmlc/xgboost/commit/8242acb60ca4278cfa9f814f1e5ad28fd6168a62) | dependabot[bot] |
+| 2026-11-16 | [Fix typos in comments and docstrings (#12605)](https://github.com/dmlc/xgboost/commit/c41b7fc0802a31e3d99890864678a68416dd0ed2) | Nityahapani |
+| 2026-11-16 | [Guard max_num_features against 0 and negative values in plot_importan…](https://github.com/dmlc/xgboost/commit/c5b8b3b06a9c99e96b62543c418c05376f2ae486) | Nityahapani |
 
 [See all commits ↗](https://github.com/dmlc/xgboost/commits)
 

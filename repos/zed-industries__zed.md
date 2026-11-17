@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 95.1k |
-| 🍴 **Forks** | 11.7k |
+| ⭐ **Stars** | 95.2k |
+| 🍴 **Forks** | 11.8k |
 | 🐞 **Open issues + PRs** | [3.1k](https://github.com/zed-industries/zed/issues) |
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `text-editor` `zed` `gpui` `rust-lang` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2021-02-20 |
 | 📦 **Latest release** | [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 543.3 MB |
+| 💾 **Size** | 543.4 MB |
 | 🌐 **Website** | https://zed.dev |
 
 ## 📦 Recent releases
 
 ### [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1)
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > This week's release includes optional automatic Git fetching, a resizable Refs column in the Git Graph, dragging Git Panel files into terminals and editors, and mouse-wheel font zoom in diff views and terminals.
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.29.1-pre](https://github.com/zed-industries/zed/releases/tag/v1.29.1-pre) _(pre-release)_
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > This week's release includes a Git Panel branch mode that lists every file changed since a base branch, a bookmark picker, configurable Git date formats, support for Claude Fable 5.2 for Anthropic BYOK users (plus Claude Mythos 5.2 if your organization has access), and a setting to turn off automatic agent thread titles.
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.27.0](https://github.com/zed-industries/zed/releases/tag/v1.27.0)
-<sub>2026-11-04 · 11d ago</sub>
+<sub>2026-11-04 · 12d ago</sub>
 
 > This week's release includes syntax highlighting for Go 1.27 generic methods, an option to open README files by default, and AI commit messages that follow your repository's recent commit style.
 > **Features**
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.28.0-pre](https://github.com/zed-industries/zed/releases/tag/v1.28.0-pre) _(pre-release)_
-<sub>2026-11-04 · 11d ago</sub>
+<sub>2026-11-04 · 12d ago</sub>
 
 > This week's release includes optional automatic Git fetching, a resizable Refs column in the Git Graph, dragging Git Panel files into terminals and editors, and mouse-wheel font zoom in diff views and terminals.
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.26.2](https://github.com/zed-industries/zed/releases/tag/v1.26.2)
-<sub>2026-10-28 · 18d ago</sub>
+<sub>2026-10-28 · 19d ago</sub>
 
 > This week's release includes Pyrefly as an optional built-in Python language server, the ability to expand and inspect nested variable values directly in debugger hovers, and DWARF debugging for WebAssembly sources in the JavaScript debugger.
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [agent_ui: Keep focus when background threads auto-send queued message…](https://github.com/zed-industries/zed/commit/d39178f6c9e6adeb68e7a0df0b2a5b7d7bd35877) | daejey |
-| 2026-11-16 | [Preserve mid-conversation system prompt updates (#66490)](https://github.com/zed-industries/zed/commit/89d3da65789d8728d01a82d284924334418065f7) | bennetbo |
-| 2026-11-16 | [Highlight high-merge-rate authors on the community PRs board (#67038)](https://github.com/zed-industries/zed/commit/99dd426cba792530d1b79ee0c4241c9076e7045f) | zelenenka |
-| 2026-11-16 | [Fix duplicate language server notifications (#67021)](https://github.com/zed-industries/zed/commit/430a781076180308af99fdd94f3ffabc8bccec90) | xsadia |
-| 2026-11-16 | [agent: Prompt for `always_confirm` patterns on in-project file edits …](https://github.com/zed-industries/zed/commit/12c1fc907f8f55971ecc61bd3905549f4d043f89) | benbrandt |
-| 2026-11-16 | [fs: Reduce time spend for hashing WatchKey in `watcher_ids_covering` …](https://github.com/zed-industries/zed/commit/6c7508a133cba5c93fb182e9d9efdfb392abf68d) | RemcoSmitsDev |
-| 2026-11-16 | [Unifying agent instructions to AGENTS.md (#66716)](https://github.com/zed-industries/zed/commit/a57e2fdc389a3e513a6d5f5a7564ebe2fd33fc88) | Sha1rholder |
-| 2026-11-16 | [agent_ui: Check for an empty message without copying the text (#67020)](https://github.com/zed-industries/zed/commit/053d91cb14b5fd138f221ec02bd76efb15e7b2af) | ptweezy |
-| 2026-11-16 | [util: Avoid allocating when sorting paths by extension (#67019)](https://github.com/zed-industries/zed/commit/125ca8672e928b19a62c2e4b761fb29fe2a34ae3) | ptweezy |
-| 2026-11-16 | [util: Return early from natural_sort for equal strings (#67016)](https://github.com/zed-industries/zed/commit/310bba2f2f88d2bb9f2369039bdb6bf89426da1b) | ptweezy |
+| 2026-11-17 | [google_ai: Add Extra High thinking level for Gemini 4 Hydrogen (#67011)](https://github.com/zed-industries/zed/commit/698368515d17a602dd51ea61297e5412ce06f52f) | LorenzoBiassio |
+| 2026-11-17 | [onboarding: Keep header pinned while scrolling (#67079)](https://github.com/zed-industries/zed/commit/849b5b8e0737b7ec2ddbc96c26ba3c62a055f222) | aakashbapna |
+| 2026-11-17 | [sandbox: New linux sandbox (#67062)](https://github.com/zed-industries/zed/commit/3dcdee6d2bbebc86ec2978919342a49ed9a0e11a) | cameron1024 |
+| 2026-11-17 | [worktree: Only treat a directory as a bare repository when HEAD and c…](https://github.com/zed-industries/zed/commit/e5be9608ddd4cb0f2f179e1c0014f0a3a0337260) | likeaixxx |
+| 2026-11-17 | [agent: Accept stringified line numbers in read_file tool (#67072)](https://github.com/zed-industries/zed/commit/6e7c5d3ae8578753601f192e72555948fd7a5e99) | ChromaxS |
+| 2026-11-16 | [fix(git_graph): match log_source to CommitViewOptions reveal_file (#6…](https://github.com/zed-industries/zed/commit/482e76524bd33d8cbdfc352f1fef3eefbf2fad92) | jspwrd |
+| 2026-11-16 | [agent_ui: Check only the clicked pattern in pipeline permission dropd…](https://github.com/zed-industries/zed/commit/4191aeaf50e8e255b07bdf2624d7fac17c12f695) | tredondo |
+| 2026-11-16 | [Support Corgi builds on FHS Linux (#67055)](https://github.com/zed-industries/zed/commit/5709f329dc0d85b0e369d2973acb5efce6b8dea8) | kubkon |
+| 2026-11-16 | [gpui_web: Drop Shift from symbol keystrokes (#67052)](https://github.com/zed-industries/zed/commit/9925feb84c0cf10a63f1641b8f9789c11fada4de) | kubkon |
+| 2026-11-16 | [fs: Optimize filesystem watcher path matching by adding fast path for…](https://github.com/zed-industries/zed/commit/d833d4689d04183d1dfd1ad862dc80f6f044a41f) | RemcoSmitsDev |
 
 [See all commits ↗](https://github.com/zed-industries/zed/commits)
 

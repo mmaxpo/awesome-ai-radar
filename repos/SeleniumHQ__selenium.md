@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 34.6k |
 | 🍴 **Forks** | 8.7k |
-| 🐞 **Open issues + PRs** | [184](https://github.com/SeleniumHQ/selenium/issues) |
+| 🐞 **Open issues + PRs** | [185](https://github.com/SeleniumHQ/selenium/issues) |
 | 💻 **Languages** | Java 33% · C# 14% · JavaScript 11% · Python 10% · C++ 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `selenium` `webdriver` `java` `ruby` `python` `javascript` `dotnet` `rust` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2013-01-14 |
 | 📦 **Latest release** | [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) — 2026-10-29 |
 | 🌿 **Default branch** | `trunk` |
-| 💾 **Size** | 2356.7 MB |
+| 💾 **Size** | 2356.3 MB |
 | 🌐 **Website** | https://selenium.dev |
 
 ## 📦 Recent releases
 
 ### [nightly](https://github.com/SeleniumHQ/selenium/releases/tag/nightly) — Nightly _(pre-release)_
-<sub>2026-11-16 · today</sub>
+<sub>2026-11-17 · today</sub>
 
 > **What's Changed**
 > * [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in https://github.com/SeleniumHQ/selenium/pull/18245
@@ -47,7 +47,7 @@
 > …
 
 ### [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) — Selenium 4.52.0
-<sub>2026-10-29 · 18d ago</sub>
+<sub>2026-10-29 · 19d ago</sub>
 
 > **Detailed Changelogs by Component**
 > <img src="https://www.selenium.dev/images/programming/java.svg" width="20" height="20"> **[Java](https://github.com/SeleniumHQ/selenium/blob/trunk/java/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/python.svg" width="20" height="20"> **[Python](https://github.com/SeleniumHQ/selenium/blob/trunk/py/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/dotnet.svg" width="20" height="20"> **[DotNet](https://github.com/SeleniumHQ/selenium/blob/trunk/dotnet/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/ruby.svg" width="20" height="20"> **[Ruby](https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/javascript.svg" width="20" height="20"> **[JavaScript](https://github.com/SeleniumHQ/selenium/blob/trunk/javascript/selenium-webdriver/CHANGES.md)**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [[build] Automated Selenium Manager Update](https://github.com/SeleniumHQ/selenium/commit/a14afd843da0e9f54b60caa609a48562aab2de42) | selenium-ci |
+| 2026-11-17 | [[rust] Update Selenium Manager dependencies (#18328)](https://github.com/SeleniumHQ/selenium/commit/0d98700f63da3593eda1bd5dc584f852256e8a74) | bonigarcia |
+| 2026-11-17 | [[build] Automated Browser Version Update (#18325)](https://github.com/SeleniumHQ/selenium/commit/6fe06865dd402879dcdcbd8d4f71244003d540ec) | selenium-ci |
+| 2026-11-16 | [[py] Use tmp_path for driver service log files](https://github.com/SeleniumHQ/selenium/commit/7b240f5e58db8d1b7fe820bac549140d62250927) | titusfortner |
+| 2026-11-16 | [[build] check packaging before RBE tests so the test summary ends the…](https://github.com/SeleniumHQ/selenium/commit/d00a77b1050f5c45199ce2cd8c8e31fb37b5f2fe) | titusfortner |
+| 2026-11-16 | [[java] Wait for the second upload submit in FormHandlingTest](https://github.com/SeleniumHQ/selenium/commit/5213c7a995348e19855c51164c459cdcb0d9feed) | titusfortner |
+| 2026-11-16 | [[build] authenticate update script GitHub API calls with GITHUB_TOKEN](https://github.com/SeleniumHQ/selenium/commit/3aaf4ec3aaeeed9a0ca525218e394f5434254177) | titusfortner |
+| 2026-11-16 | [[java][bidi] Generate listExtensions and add tests (#18322)](https://github.com/SeleniumHQ/selenium/commit/c1f6deec1ea5cf69561f4e29f92589cfdbf5ddee) | pujagani |
 | 2026-11-16 | [[java][bidi] type vendor-declared BiDi fields instead of dropping the…](https://github.com/SeleniumHQ/selenium/commit/bbf94380e54e2e2db929fa27b640bc3b00312148) | yashp676 |
 | 2026-11-16 | [[build] Automated Selenium Manager Update](https://github.com/SeleniumHQ/selenium/commit/a5433366a73c460509488f82c441a61e78d5dde4) | selenium-ci |
-| 2026-11-16 | [[build] Automated Dependency Update (#18320)](https://github.com/SeleniumHQ/selenium/commit/4e47a5fd3b3d65d6d620bfd7556db04bd458ce36) | selenium-ci |
-| 2026-11-15 | [[build] Automated Browser Version Update (#18314)](https://github.com/SeleniumHQ/selenium/commit/9a752731b62f3234c6b93df52404b186dda7a8d9) | selenium-ci |
-| 2026-11-15 | [[py] Fix accessibility snapshot tests on Safari (#18317)](https://github.com/SeleniumHQ/selenium/commit/94d303708e700226eb5f6de490fc8e1417a9bd49) | AutomatedTester |
-| 2026-11-15 | [[py] Find Select options by value with XPath (#18305)](https://github.com/SeleniumHQ/selenium/commit/fa946675f25301326b16f883535c572e75b5c663) | Mohsintl |
-| 2026-11-13 | [[java] publish auto-service-annotations again so -Xlint builds pass (…](https://github.com/SeleniumHQ/selenium/commit/662911c12e483204a1809f19a508f6ac83a9d958) | diemol |
-| 2026-11-13 | [[build] Automated Browser Version Update (#18311)](https://github.com/SeleniumHQ/selenium/commit/72e603c2c557d239b7698fa05d20e60cf793f8bf) | selenium-ci |
-| 2026-11-12 | [[py] Snapshot accessibility in Classic sessions too (#18307)](https://github.com/SeleniumHQ/selenium/commit/a393610d6d42bbbf28c30b6bc4212682a58bbb6c) | AutomatedTester |
-| 2026-11-12 | [[js] Snapshot accessibility in Classic sessions too (#18308)](https://github.com/SeleniumHQ/selenium/commit/8f726bd5cf1eafff42fbdb4c60ea84eb28852e3a) | AutomatedTester |
 
 [See all commits ↗](https://github.com/SeleniumHQ/selenium/commits)
 

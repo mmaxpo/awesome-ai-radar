@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 30.3k |
 | 🍴 **Forks** | 1.0k |
-| 🐞 **Open issues + PRs** | [67](https://github.com/rxhanson/Rectangle/issues) |
+| 🐞 **Open issues + PRs** | [62](https://github.com/rxhanson/Rectangle/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-11 (5d ago) |
+| 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2019-06-21 |
 | 📦 **Latest release** | [v2.0.4](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.4) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 6.2 MB |
+| 💾 **Size** | 6.6 MB |
 | 🌐 **Website** | https://rectangleapp.com |
 
 ## 📦 Recent releases
 
 ### [v2.0.4](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.4)
-<sub>2026-10-20 · 26d ago</sub>
+<sub>2026-10-20 · 27d ago</sub>
 
 > **What's Changed**
 > * Keep snap previews translucent with Reduce Transparency by @kiteretsu903 in https://github.com/rxhanson/Rectangle/pull/1898
@@ -85,16 +85,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Give the Todo side its own strings (#1966)](https://github.com/rxhanson/Rectangle/commit/8ab33d080b608f5196deaf5d1c34a5500f7aa0ce) | AkiyamaKunka |
+| 2026-11-16 | [Keep zh-Hans up to date: README sync and translation fixes (#1964)](https://github.com/rxhanson/Rectangle/commit/0747958ac326857ac8d6e2338c09cb556efaf14f) | AkiyamaKunka |
+| 2026-11-16 | [Floor the center third calculations to whole pixels (#1961)](https://github.com/rxhanson/Rectangle/commit/5e4db976efd300a8aec92ac0032597173d8db533) | AkiyamaKunka |
+| 2026-11-16 | [Make the default display ordering deterministic (#1960)](https://github.com/rxhanson/Rectangle/commit/edb511eeaba967c195294d2384a7ef6934cf9095) | AkiyamaKunka |
+| 2026-11-16 | [Make cursor display text more concise](https://github.com/rxhanson/Rectangle/commit/57293954af9c73b465c04a4a3d5c3e7f770bbb7f) | rxhanson |
+| 2026-11-16 | [Fix breaking tests](https://github.com/rxhanson/Rectangle/commit/2d93e476afa59dea597942de2dd77672f3471075) | rxhanson |
+| 2026-11-16 | [Move window to the display under the cursor  (#1913)](https://github.com/rxhanson/Rectangle/commit/1e13c278eb208c970e176ecc77c3c3acae9c6973) | Kiizon |
+| 2026-11-16 | [Remove an unnecessary ax read when it's not needed](https://github.com/rxhanson/Rectangle/commit/60a78e08700e12da8d0303863f7760ae72cc18d4) | rxhanson |
+| 2026-11-16 | [The `WindowManager` needs to be adjusted so that it can accommodate f…](https://github.com/rxhanson/Rectangle/commit/d3cded57e55d0935fa725802f3c52547a9ff0b98) | rxhanson |
 | 2026-11-11 | [Add a download and update section for mainland China users to README.…](https://github.com/rxhanson/Rectangle/commit/875182d2690e4b8fdf485467b31a3233d630581f) | AkiyamaKunka |
-| 2026-11-06 | [Adjusting so that half and corner shortcuts don't cycle each other](https://github.com/rxhanson/Rectangle/commit/451ab711b5c669dd49e14212c23b60db884f7a00) | rxhanson |
-| 2026-11-06 | [A little more delineation for cooperativeMove usage in WindowManager](https://github.com/rxhanson/Rectangle/commit/e1828ccf4582a4633560f7bf966279c8c9fe7aba) | rxhanson |
-| 2026-11-06 | [Remove cooperative resize special casing on half actions](https://github.com/rxhanson/Rectangle/commit/0bdba1744fca7a2a01a8d6034d49926c6b03c47b) | rxhanson |
-| 2026-11-06 | [Xcode touching Storyboard](https://github.com/rxhanson/Rectangle/commit/f7c6bfeb15674a8f49e4917d4c2c29ac657a7945) | rxhanson |
-| 2026-11-06 | [More cleanup of the cooperative resize feature](https://github.com/rxhanson/Rectangle/commit/df6a403023120122a0ce6b212e1556bdeb617fa5) | rxhanson |
-| 2026-11-06 | [Converted from Groups to Folders](https://github.com/rxhanson/Rectangle/commit/b927af8146ab7b860eca61d73d69c90268b13647) | rxhanson |
-| 2026-11-06 | [Fix test making footprint window have alpha 0](https://github.com/rxhanson/Rectangle/commit/922176330bc9e6aef6d62b7db2fcfad846aafa66) | rxhanson |
-| 2026-11-06 | [Simplifying interface with cooperative corner resize](https://github.com/rxhanson/Rectangle/commit/298a8d862af6e997190fa2023611f0d17598e64d) | rxhanson |
-| 2026-11-03 | [Support vertical display traversal on repeated half actions (#1952)](https://github.com/rxhanson/Rectangle/commit/0698b04de4349f806beeb2e27b1ef9ab71b537b2) | yannickgloster |
 
 [See all commits ↗](https://github.com/rxhanson/Rectangle/commits)
 

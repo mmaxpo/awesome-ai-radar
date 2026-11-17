@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 23.7k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [489](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [510](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 94.5 MB |
+| 💾 **Size** | 96.0 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
 ### [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 0.8.0rc1
-<sub>2026-11-12 · 3d ago</sub>
+<sub>2026-11-12 · 4d ago</sub>
 
 > **oMLX 0.8.0rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 0.7.4.dev1
-<sub>2026-11-04 · 12d ago</sub>
+<sub>2026-11-04 · 13d ago</sub>
 
 > **oMLX 0.7.4.dev1**
 > > This is a development release. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3) — 0.7.3
-<sub>2026-10-31 · 15d ago</sub>
+<sub>2026-10-31 · 16d ago</sub>
 
 > **oMLX 0.7.3**
 > oMLX 0.7.3 makes DeepSeek V4.1 prefill and batched decode faster, lets Ask AI hold voice conversations, search the web, read links and look at your screen, and cuts memory use when many requests run at long context. The notes below cover changes since 0.7.3rc1, and earlier 0.7.3 highlights are summarized at the end.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.3rc1](https://github.com/jundot/omlx/releases/tag/v0.7.3rc1) — 0.7.3rc1
-<sub>2026-10-27 · 20d ago</sub>
+<sub>2026-10-27 · 21d ago</sub>
 
 > **oMLX 0.7.3rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.2](https://github.com/jundot/omlx/releases/tag/v0.7.2).
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.3.dev2](https://github.com/jundot/omlx/releases/tag/v0.7.3.dev2) — 0.7.3.dev2
-<sub>2026-10-25 · 22d ago</sub>
+<sub>2026-10-25 · 23d ago</sub>
 
 > **oMLX 0.7.3.dev2**
 > > This is a hotfix release that fixes an error when turning on Lightning MTP for MiniMax M3.1 (#4827). It also removes the stray `</think>` at the start of MiniMax M3.1 non-streaming replies and fixes prefill for DeepSeek V4 Flash oQ3.5e.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [fix(benchmark): pin Prefill First for benchmark runs](https://github.com/jundot/omlx/commit/bf28cd6c43541ececeec01ba797377c913da5f8f) | jundot |
-| 2026-11-16 | [fix(benchmark): batch tests wider than max concurrent requests report…](https://github.com/jundot/omlx/commit/db8d34f9c1bdf7bf53c5bfcc83a1e13f8fbdbafc) | zviratko |
-| 2026-11-16 | [fix(prefill-helper): CUDA helper prefix cache, memory and 3-bit exper…](https://github.com/jundot/omlx/commit/8bfb13be42bbc3db78ec1bcf59b2f47902642ade) | jundot |
-| 2026-11-16 | [test: trim Applications launcher tests and comments](https://github.com/jundot/omlx/commit/166ecf5d84e29abb0622cc2979fd0bad1dc277fd) | jundot |
-| 2026-11-16 | [feat(mac): launch integrations from one Applications card (#5244)](https://github.com/jundot/omlx/commit/5e39ae315f86f0cc63851470ebbae64b0d470642) | LXD-8 |
-| 2026-11-16 | [feat(web): open Claude Code settings from its Applications tile (#5243)](https://github.com/jundot/omlx/commit/d3aaac4c2eb4ac2f394a7cd2066d863599cde83f) | LXD-8 |
-| 2026-11-16 | [feat(web): make the Applications card an icon launcher (#5238)](https://github.com/jundot/omlx/commit/b1d001c30d9af6083872d9231fd8142421d794f5) | LXD-8 |
-| 2026-11-13 | [fix(minimax-m3): probe MSA prefill kernel threadgroup before use (#5239)](https://github.com/jundot/omlx/commit/624cff0e23519ba46a4d5ed2802c2c236ad1a9ac) | begcdn |
-| 2026-11-13 | [fix(inkling2): round the expert activation to its input dtype](https://github.com/jundot/omlx/commit/5063be44db095ad362a566b4dd8312a2459bf6c0) | jundot |
-| 2026-11-13 | [feat(prefill-helper): Inkling 2 Small on Mac and NVIDIA Prefill Accel…](https://github.com/jundot/omlx/commit/c0814f623f247f91120a7df22b8e6d9dea1d8268) | jundot |
+| 2026-11-17 | [perf(moe): run Qwen MoE verify and multi-request decode on the fused …](https://github.com/jundot/omlx/commit/5382e7480e6158573593044734e52bda0c459637) | jundot |
+| 2026-11-17 | [fix(qwen35): keep gs64 prefill projections on stock MLX without NAX q…](https://github.com/jundot/omlx/commit/f6782ad79dc384576412db2d067acb6e9d2df12a) | jundot |
+| 2026-11-17 | [feat(oq): stream oQe calibration for Qwen3.5 and Qwen3.5-MoE (#5332)](https://github.com/jundot/omlx/commit/eec2544c62c6bcdd2b3d3ff33d5fed2535d2c83f) | keefar |
+| 2026-11-17 | [fix: show the actual upload skip reason in bench banners](https://github.com/jundot/omlx/commit/ed045bbc0ab42a2e450bf49fcfb6454acd948259) | jundot |
+| 2026-11-17 | [feat(benchmark): skip leaderboard upload for non-default generation l…](https://github.com/jundot/omlx/commit/93044574086342a669fdb27d7ec1e704ef9a9753) | OmVidana |
+| 2026-11-17 | [fix: detect the thinking default by rendering the chat template](https://github.com/jundot/omlx/commit/44b0525533564702b56dc8620510207408d4ebf1) | jundot |
+| 2026-11-17 | [fix(distributed): recover a reply that arrives only as reasoning (#5328)](https://github.com/jundot/omlx/commit/48f7ead559c0188c7b96d5a27028946ed2646a24) | joshuaswarren |
+| 2026-11-17 | [fix(discovery): tolerate an undecodable byte in a Hugging Face refs f…](https://github.com/jundot/omlx/commit/a0e8ce180d7f02150c2ec03ecaffc9509eebd063) | joshuaswarren |
+| 2026-11-17 | [feat(splash): expose --activations and default attention to bf16 on M…](https://github.com/jundot/omlx/commit/c8213a1dbdd4790a4ec2e47d411b115f84929c01) | Woody-Hu |
+| 2026-11-17 | [test(qwen35): prevent Qwen4 import-order failures (#5277)](https://github.com/jundot/omlx/commit/1c4afcac9c62c2de0057576f8f563e2749a07236) | contrapuntal |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 

@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/bilawalsidhu/gods-eye-view)
 
-> A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
+> God's Eye View: a spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe. Official site: godseyeview.ai
 
 ## 📝 Notes
 
@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 65.2k |
+| ⭐ **Stars** | 65.4k |
 | 🍴 **Forks** | 12.9k |
-| 🐞 **Open issues + PRs** | [437](https://github.com/bilawalsidhu/gods-eye-view/issues) |
-| 💻 **Languages** | JavaScript 96% · CSS 2% · Vue 1% |
+| 🐞 **Open issues + PRs** | [439](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 231.3 MB |
+| 💾 **Size** | 231.8 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 19d ago</sub>
+<sub>2026-10-28 · 20d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [Merge pull request #1760 from bilawalsidhu/render/renderer-seam](https://github.com/bilawalsidhu/gods-eye-view/commit/da81cf743b0b87a479a583391750113bfe7d6432) | samehkhamis |
-| 2026-11-16 | [Credits keep their linked words: only the words a source linked are t…](https://github.com/bilawalsidhu/gods-eye-view/commit/a7fe3eebc6e452ac877ec48f1cc7e4a8e261cb70) | samehkhamis |
-| 2026-11-16 | [World overlay: the distance curve is computed in the projection pass,…](https://github.com/bilawalsidhu/gods-eye-view/commit/74673f3c8565a170d3876ad8c6412e2b7526c605) | samehkhamis |
-| 2026-11-16 | [The contract text speaks of the renderer](https://github.com/bilawalsidhu/gods-eye-view/commit/256e99237273efd5c916a682e39239c8678c5fe0) | samehkhamis |
-| 2026-11-16 | [Contract and docs text describe the ports and the Cesium renderer only](https://github.com/bilawalsidhu/gods-eye-view/commit/9862b2a1652a02e46cb8f020a12a970882ac2963) | samehkhamis |
-| 2026-11-16 | [CONTACTS: a selected vessel's subject is labelled as its selection is…](https://github.com/bilawalsidhu/gods-eye-view/commit/1fdf52198d1ecc115d7c1a6a0d6144fd0d2a1985) | samehkhamis |
-| 2026-11-16 | [Merge main (87ab9d2b1, #1758 and the #1757 revert) into the renderer …](https://github.com/bilawalsidhu/gods-eye-view/commit/4b0958b9e8a0e2e8980e06164c10235ba3bafe16) | samehkhamis |
-| 2026-11-16 | [CONTACTS takes the selected vessel as its subject instead of followin…](https://github.com/bilawalsidhu/gods-eye-view/commit/2ac157aca2beaf05912785a5d7733685e91dde22) | samehkhamis |
-| 2026-11-16 | [Merge pull request #1759 from bilawalsidhu/revert/1757-vessel-labels-…](https://github.com/bilawalsidhu/gods-eye-view/commit/87ab9d2b10be33cc37301cbfedc14d3a96017419) | samehkhamis |
-| 2026-11-16 | [Moving transit allocates nothing per frame: reusable positions, kept …](https://github.com/bilawalsidhu/gods-eye-view/commit/725f2f299880b5c81e0ac850e345923fec481b9e) | samehkhamis |
+| 2026-11-17 | [Merge pull request #1778 from bilawalsidhu/fix/clock-sources-on-destroy](https://github.com/bilawalsidhu/gods-eye-view/commit/624c229bc2a86fc1e47ed34c95fc7cefa2ac1676) | samehkhamis |
+| 2026-11-17 | [Add the changelog entry for the world clock fix](https://github.com/bilawalsidhu/gods-eye-view/commit/9db71ad443b9865dc74040aad7bd745579db30d4) | samehkhamis |
+| 2026-11-17 | [Launches and satellites leave the world clock when destroyed](https://github.com/bilawalsidhu/gods-eye-view/commit/ee306a46fc7f9ae929c2255e76db7ee72ba17c1e) | samehkhamis |
+| 2026-11-17 | [Merge pull request #1775 from bilawalsidhu/basemap/contract](https://github.com/bilawalsidhu/gods-eye-view/commit/9239d3efff4939ac496fe2dffcfcab142ac45c3a) | samehkhamis |
+| 2026-11-17 | [Add the changelog entry for the base map through the globe port](https://github.com/bilawalsidhu/gods-eye-view/commit/30705b5785d9513a8bd3c6cdd5ab4a18533722a6) | samehkhamis |
+| 2026-11-17 | [Base map through the globe port](https://github.com/bilawalsidhu/gods-eye-view/commit/8ff9a1fa2934a095d6fdad5010447887dac65ddb) | samehkhamis |
+| 2026-11-17 | [Merge pull request #1776 from bilawalsidhu/stories/open-stories-option](https://github.com/bilawalsidhu/gods-eye-view/commit/65480f26044fd503f39fbf4ab581f0c7b0811411) | samehkhamis |
+| 2026-11-17 | [Voice: tools accept voice: null again when reading openStories](https://github.com/bilawalsidhu/gods-eye-view/commit/23adcf1112bf362063ed5b54d7910dc9dff3c34c) | samehkhamis |
+| 2026-11-17 | [Voice: an app can supply what open_stories does](https://github.com/bilawalsidhu/gods-eye-view/commit/b1b2ac91c0e5374106e7981c2ec0ae9487e37b4f) | samehkhamis |
+| 2026-11-17 | [Merge pull request #1774 from bilawalsidhu/manjunath/card-previews](https://github.com/bilawalsidhu/gods-eye-view/commit/fa6d954702659fd350598fde8af6b645f79c70ed) | samehkhamis |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

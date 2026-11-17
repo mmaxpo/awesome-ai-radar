@@ -43,7 +43,7 @@
 > - Raise an informative error in [SMOTENC](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTENC.html#imblearn.over_sampling.SMOTENC) when the provided categorical_encoder does not keep one column per category (e.g. OneHotEncoder(drop=...) or an encoder merging infrequent categories), instead of failing with an opaque zero-size array NumPy error. [#1035](https://github.com/scikit-learn-contrib/imbalanced-learn/issues/1035) by [Imran Ahamed](https://github.com/immu4989).
 
 ### [0.14.1](https://github.com/scikit-learn-contrib/imbalanced-learn/releases/tag/0.14.1) — Imbalanced-learn 0.14.1
-<sub>2025-12-21 · 10mo ago</sub>
+<sub>2025-12-21 · 11mo ago</sub>
 
 > **Changelog**
 > **Maintenance**

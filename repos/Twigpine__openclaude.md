@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 34.4k |
 | 🍴 **Forks** | 9.1k |
-| 🐞 **Open issues + PRs** | [37](https://github.com/Twigpine/openclaude/issues) |
+| 🐞 **Open issues + PRs** | [34](https://github.com/Twigpine/openclaude/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `ai-agent` `ai-tools` `cli` `coding` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-04-01 |
 | 📦 **Latest release** | [v0.36.0](https://github.com/Twigpine/openclaude/releases/tag/v0.36.0) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 38.6 MB |
+| 💾 **Size** | 38.8 MB |
 | 🌐 **Website** | https://openclaude.twigpine.com |
 
 ## 📦 Recent releases
 
 ### [v0.36.0](https://github.com/Twigpine/openclaude/releases/tag/v0.36.0)
-<sub>2026-11-13 · 3d ago</sub>
+<sub>2026-11-13 · 4d ago</sub>
 
 > **[0.36.0](https://github.com/Twigpine/openclaude/compare/v0.35.1...v0.36.0) (2026-11-11)**
 > **Features**
@@ -47,14 +47,14 @@
 > …
 
 ### [v0.35.1](https://github.com/Twigpine/openclaude/releases/tag/v0.35.1)
-<sub>2026-11-09 · 7d ago</sub>
+<sub>2026-11-09 · 8d ago</sub>
 
 > **[0.35.1](https://github.com/Twigpine/openclaude/compare/v0.35.0...v0.35.1) (2026-11-09)**
 > **Bug Fixes**
 > * **opengateway:** cache the live model list for an hour, not a day ([#2490](https://github.com/Twigpine/openclaude/issues/2490)) ([96fb014](https://github.com/Twigpine/openclaude/commit/96fb01476901f54c8fdfa25b6909253907a47209))
 
 ### [v0.35.0](https://github.com/Twigpine/openclaude/releases/tag/v0.35.0)
-<sub>2026-11-09 · 7d ago</sub>
+<sub>2026-11-09 · 8d ago</sub>
 
 > **[0.35.0](https://github.com/Twigpine/openclaude/compare/v0.34.0...v0.35.0) (2026-11-09)**
 > **Features**
@@ -65,7 +65,7 @@
 > …
 
 ### [v0.34.0](https://github.com/Twigpine/openclaude/releases/tag/v0.34.0)
-<sub>2026-11-02 · 14d ago</sub>
+<sub>2026-11-02 · 15d ago</sub>
 
 > **[0.34.0](https://github.com/Twigpine/openclaude/compare/v0.33.0...v0.34.0) (2026-11-02)**
 > **Features**
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [chore(web): upgrade Astro to 7.4.12 for two security advisories (#2543)](https://github.com/Twigpine/openclaude/commit/34a8643a505e0bbc226c7775cd6363773a3608f9) | kevincodex1 |
+| 2026-11-17 | [chore: remove unused getOriginalCwd imports left by #2521 (#2542)](https://github.com/Twigpine/openclaude/commit/65a5b55aaea424f6b34effc6de6a25815fca0c97) | kevincodex1 |
+| 2026-11-17 | [test: stop ExitWorktreeTool suite from leaking the hooks config snaps…](https://github.com/Twigpine/openclaude/commit/439d75344f2819b7e0dcda0d116368b815635bc9) | Bensonluo |
+| 2026-11-17 | [feat: deep links, live auto theme, opt-in skill improvement (#2537)](https://github.com/Twigpine/openclaude/commit/d8e6666e16f045f4f40f611ba6f3ec7399aff753) | beardthelion |
+| 2026-11-17 | [feat: add /todos, /cd, /reload-skills and four CLAUDE_CODE_* env togg…](https://github.com/Twigpine/openclaude/commit/d8a35c44c24e498e5ca5989f180efac7addc09f1) | beardthelion |
+| 2026-11-16 | [Enable five audited feature flags (#2535)](https://github.com/Twigpine/openclaude/commit/4e471e7d97980b31e7184ffacf9b9ccc3c3579fb) | beardthelion |
 | 2026-11-16 | [feat(permissions): support Bash(prompt: ...) natural-language rules (…](https://github.com/Twigpine/openclaude/commit/9afab41d394fe684b2cc7d32ee96b478f27ceb21) | beardthelion |
 | 2026-11-16 | [feat: parse bash command structure for permission and safety checks (…](https://github.com/Twigpine/openclaude/commit/849e58bb573713326e0db5b69a5886222b594dd9) | beardthelion |
 | 2026-11-16 | [feat: opt-in OpenTelemetry event export and openclaude agents dispatc…](https://github.com/Twigpine/openclaude/commit/ce4129a7e038d44ba6fcdb1a67445bdb5b11cc59) | beardthelion |
 | 2026-11-15 | [feat(statusline): add optional refreshInterval for periodic re-runs (…](https://github.com/Twigpine/openclaude/commit/0a8df0ed67e74fc73e400baf6563a870a3d27d97) | Art3mk4 |
-| 2026-11-15 | [fix(files): invalidate cached reads after preserved-mtime updates (#2…](https://github.com/Twigpine/openclaude/commit/034586cc636d2386e071d00b4f2fa059c184ffaa) | Ricardo-M-L |
-| 2026-11-15 | [fix(input): recognize multiple quoted dragged paths (#2517)](https://github.com/Twigpine/openclaude/commit/fae8eff2fdde410d4e8cf9f740e9d6f957968c03) | Ricardo-M-L |
-| 2026-11-15 | [feat: /scroll-speed and /tui commands, unattended retry, idle compact…](https://github.com/Twigpine/openclaude/commit/766d48db5b7ea5b5d520007435906724b6c4b6ed) | beardthelion |
-| 2026-11-13 | [feat(buddy): sharp image tier for terminals with kitty graphics, and …](https://github.com/Twigpine/openclaude/commit/0c6b6f9ed4863a3bb8cea8c0233527da89d1937a) | kevincodex1 |
-| 2026-11-13 | [feat(buddy): procedural hero art with moods that follow the agent (#2…](https://github.com/Twigpine/openclaude/commit/b932e2b933e4a7ecddc4ef0ef950aa72f1c33302) | kevincodex1 |
-| 2026-11-13 | [fix(usage): validate saved rollup rows and lock every event-file dele…](https://github.com/Twigpine/openclaude/commit/3311b68f879ef005d4123bc8a15ff47e91a3ee55) | kevincodex1 |
 
 [See all commits ↗](https://github.com/Twigpine/openclaude/commits)
 

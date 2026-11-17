@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 16.6k |
+| ⭐ **Stars** | 16.8k |
 | 🍴 **Forks** | 1.8k |
-| 🐞 **Open issues + PRs** | [664](https://github.com/cursor/plugins/issues) |
-| 💻 **Languages** | TypeScript 88% · JavaScript 4% · TLA 3% · Mermaid 2% · Shell 2% |
+| 🐞 **Open issues + PRs** | [673](https://github.com/cursor/plugins/issues) |
+| 💻 **Languages** | TypeScript 89% · TLA 3% · JavaScript 3% · Mermaid 2% · Shell 2% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (yesterday) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-01-23 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.4 MB |
+| 💾 **Size** | 18.6 MB |
 
 ## 📦 Recent releases
 
@@ -40,16 +40,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [feat(pstack): new default models, one-file why and how, statechart fi…](https://github.com/cursor/plugins/commit/bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7) | poteto |
-| 2026-11-13 | [Merge pull request #1229 from cursor/add-runta-plugin](https://github.com/cursor/plugins/commit/3dbd22ff12742fb28c9700b9760baa29ed41dc13) | rshah2020 |
-| 2026-11-13 | [feat(third_party): add the Runta plugin](https://github.com/cursor/plugins/commit/1b1ed88cea00ab65a51af60f83a305b9455a5691) | rshah2020 |
-| 2026-11-13 | [Merge pull request #1227 from djiang-jq/djiang/squarespace-plugin](https://github.com/cursor/plugins/commit/05b49176bc9e00d8e9e3dbf136fa76631cd6468a) | djiang-jq |
-| 2026-11-13 | [feat(third_party): add the Squarespace plugin](https://github.com/cursor/plugins/commit/c427fa1b05787d4c5140e112ab0e16b384158eb9) | djiang-jq |
-| 2026-11-13 | [Merge pull request #1223 from cursor/add-engine-plugin](https://github.com/cursor/plugins/commit/24621dbcc59e205a7faadb0e06d540f91712b5cc) | rshah2020 |
-| 2026-11-13 | [feat(third_party): add the Engine plugin](https://github.com/cursor/plugins/commit/e98cb1b876d2d7ecde6d4b6d1d0edb469c0d5b7b) | rshah2020 |
-| 2026-11-13 | [Merge pull request #1219 from djiang-jq/djiang/rippling-setup-link](https://github.com/cursor/plugins/commit/6e359ce0aba9e927914d8a940510aa2ef66a8f23) | djiang-jq |
-| 2026-11-13 | [docs: link Rippling's MCP setup guide from the URL variable](https://github.com/cursor/plugins/commit/3534363cd892ebcf204f5d35c79d9874e02c6396) | djiang-jq |
-| 2026-11-12 | [Merge pull request #1217 from djiang-jq/djiang/paypal-plugin](https://github.com/cursor/plugins/commit/ec569379616a4826b98f0f0a205dd3411b573611) | djiang-jq |
+| 2026-11-17 | [Merge pull request #1258 from cursor/add-redo-plugin](https://github.com/cursor/plugins/commit/e1cc03121a0e71129a4fb730d7c5528a0a3e43c8) | rshah2020 |
+| 2026-11-17 | [feat(third_party): add the Redo plugin](https://github.com/cursor/plugins/commit/92ca6d07a3eb99e709e7e47458d0039c61bd7426) | rshah2020 |
+| 2026-11-17 | [Merge pull request #1255 from cursor/minu/google-search-console](https://github.com/cursor/plugins/commit/3fa33bb0f927bea2ccacd48a3cfda95145fb6bae) | minupalaniappan |
+| 2026-11-17 | [Merge pull request #1253 from cursor/liam-ilan/uber-courier](https://github.com/cursor/plugins/commit/320bfaa1fe11077b1efc7113bfafc7ef29ba1b8a) | liam-ilan |
+| 2026-11-17 | [feat(third_party): add Uber Courier plugin](https://github.com/cursor/plugins/commit/ea7001810c4141fbb049304c1bb181dfc9c47325) | liam-ilan |
+| 2026-11-17 | [Add the Google Search Console plugin for Grok Bot](https://github.com/cursor/plugins/commit/046fc09dfe97a0d7ba54ca4cb0aacb2bdeb2dfd0) | minupalaniappan |
+| 2026-11-16 | [Merge pull request #1251 from cursor/liam-ilan/factset](https://github.com/cursor/plugins/commit/b4a4f6151b8e77f8d71045f09f553a733cf0ed37) | liam-ilan |
+| 2026-11-16 | [Merge pull request #1252 from cursor/liam-ilan/sap-s4hana-cloud](https://github.com/cursor/plugins/commit/7acdf201927301c5e7ef7d30e5e3382824e3a75b) | liam-ilan |
+| 2026-11-16 | [Merge branch 'main' into liam-ilan/factset](https://github.com/cursor/plugins/commit/369164fca155e8642e7c6bdc4b46b33c1e72efbe) | liam-ilan |
+| 2026-11-16 | [Merge pull request #1250 from cursor/liam-ilan/close](https://github.com/cursor/plugins/commit/edf3e152bfb188d28d25db9e033f8ab444aa544f) | liam-ilan |
 
 [See all commits ↗](https://github.com/cursor/plugins/commits)
 

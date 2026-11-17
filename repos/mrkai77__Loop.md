@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 12.0k |
-| 🍴 **Forks** | 285 |
+| 🍴 **Forks** | 286 |
 | 🐞 **Open issues + PRs** | [50](https://github.com/mrkai77/Loop/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `macos` `swift` `window-management` `swiftui` `radial-menu` `macos-app` `menu` `productivity` |
-| 🕒 **Last activity** | 2026-11-14 (2d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2023-01-24 |
 | 📦 **Latest release** | [1.4.2](https://github.com/mrkai77/Loop/releases/tag/1.4.2) — 2026-01-26 |
 | 🌿 **Default branch** | `develop` |
@@ -34,7 +34,7 @@
 
 ## 📦 Recent releases
 
-### [prerelease](https://github.com/mrkai77/Loop/releases/tag/prerelease) — 🧪 1.4.3 (1791) _(pre-release)_
+### [prerelease](https://github.com/mrkai77/Loop/releases/tag/prerelease) — 🧪 1.4.3 (1792) _(pre-release)_
 <sub>2025-11-08 · 1y ago</sub>
 
 > **📰 Development News**
@@ -93,6 +93,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [🐞 Fix window focus within frontmost app + gesture rebuild fixes (#1211)](https://github.com/mrkai77/Loop/commit/1bba20ec84f336943aae884c8650b2c6907fb87a) | mrkai77 |
 | 2026-11-14 | [🐞 Fix delayed gesture availability after login (#1209)](https://github.com/mrkai77/Loop/commit/e8560f458ad14c403c1629dfbe0b3bfdce0fa6a7) | mrkai77 |
 | 2026-11-14 | [🐞 Track physical Fn state so media keys don't trigger Loop (#1184)](https://github.com/mrkai77/Loop/commit/fdd78fe9a94210cd7f5df883c5aadd5c2fdabd03) | root-daemon |
 | 2026-11-13 | [🐞 Fix crash when searching the action picker in non-English languages…](https://github.com/mrkai77/Loop/commit/8e0e30a881c90bd5a6f8988cc4f7430be13cb979) | nicorini |
@@ -102,7 +103,6 @@
 | 2026-11-09 | [✨ Track the original radial menu gesture in the session](https://github.com/mrkai77/Loop/commit/b041fcbb6644e0e5d7fbd06cde96e2819182f2fb) | mrkai77 |
 | 2026-11-09 | [✨ Let gestures override radial menu directions (#1189)](https://github.com/mrkai77/Loop/commit/fbf21e893add21a40593db1911febd09e6e8c95f) | mrkai77 |
 | 2026-10-13 | [🐞 Stop trackpad gestures from scrolling the page behind them (#1176)](https://github.com/mrkai77/Loop/commit/573ace3071641bbe002527ccfc0811842300ccba) | mrkai77 |
-| 2026-10-09 | [🐞 Also move cursor with window for actions handled by the system WM](https://github.com/mrkai77/Loop/commit/bb5bd167b77ff45674f3614cbd592f72a034d4dd) | mrkai77 |
 
 [See all commits ↗](https://github.com/mrkai77/Loop/commits)
 

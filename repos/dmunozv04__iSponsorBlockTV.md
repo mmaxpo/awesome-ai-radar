@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.2k |
-| 🍴 **Forks** | 316 |
+| 🍴 **Forks** | 317 |
 | 🐞 **Open issues + PRs** | [80](https://github.com/dmunozv04/iSponsorBlockTV/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `python` `appletv` `youtube` `sponsorblock` `chromecast` `roku` `tizen-tv` `androidtv` `samsungtv` |
-| 🕒 **Last activity** | 2026-11-14 (yesterday) |
+| 🕒 **Last activity** | 2026-11-14 (2d ago) |
 | 📅 **Created** | 2022-01-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/dmunozv04/iSponsorBlockTV/releases/tag/v2.11.0) — 2026-08-21 |
 | 🌿 **Default branch** | `main` |

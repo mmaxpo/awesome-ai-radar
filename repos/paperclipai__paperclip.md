@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 114.3k |
-| 🍴 **Forks** | 18.9k |
+| ⭐ **Stars** | 114.5k |
+| 🍴 **Forks** | 19.0k |
 | 🐞 **Open issues + PRs** | [6.8k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 3% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0) — 2026-11-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 541.4 MB |
+| 💾 **Size** | 543.6 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 9d ago</sub>
+<sub>2026-11-06 · 10d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -58,7 +58,7 @@
 > …
 
 ### [v2026.1023.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0)
-<sub>2026-10-24 · 23d ago</sub>
+<sub>2026-10-24 · 24d ago</sub>
 
 > **Paperclip v2026.1023.0**
 > > Released: 2026-10-23
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [perf(recovery): load changed rows, not every task, for company hints,…](https://github.com/paperclipai/paperclip/commit/b4fa1c7fb1c9adafc6407bc46381a0ab89f4b4fd) | cryppadotta |
-| 2026-11-16 | [test(recovery): bound every wait in the agent-row census and stop it …](https://github.com/paperclipai/paperclip/commit/278660149ca69f0b993195e21c34c5815ec70689) | cryppadotta |
-| 2026-11-16 | [fix(recovery): stop an agent configuration write from re-checking eve…](https://github.com/paperclipai/paperclip/commit/94cb7ad3596e0a73ee6c2ba3276efb12a7139a72) | cryppadotta |
-| 2026-11-16 | [fix(ui): add a space after composer autocomplete (#21754)](https://github.com/paperclipai/paperclip/commit/29903bed59b16a20e1b65f38cd99743e7309cae9) | cryppadotta |
-| 2026-11-16 | [fix(evals): compare browser zones by clock, wait for the reloaded pro…](https://github.com/paperclipai/paperclip/commit/f7a3497e9d865487b6071fbedaa4b56a20ce44ad) | cryppadotta |
-| 2026-11-16 | [test(restart-chaos): count distinct warm close failures and let R5 wa…](https://github.com/paperclipai/paperclip/commit/c5218f5ec48c18c3f2df04a86fad7e3af3840a4d) | cryppadotta |
-| 2026-11-16 | [fix(native): stop a finished warm owner's retained Runner when suspen…](https://github.com/paperclipai/paperclip/commit/d149e30323282edbf39f9e00100eef10c91f0711) | cryppadotta |
-| 2026-11-16 | [test(recovery): record a live process's OS-observed start time in own…](https://github.com/paperclipai/paperclip/commit/49a2b7b245fec7b78cb4467cb547c06be6d30ea1) | cryppadotta |
-| 2026-11-15 | [fix(native): release an idle warm owner whose sandbox Runner port a l…](https://github.com/paperclipai/paperclip/commit/03309f1650d3b0033e87e65f8240e7135124c5c0) | cryppadotta |
-| 2026-11-15 | [perf(recovery): stop counting a run start as a change to every task o…](https://github.com/paperclipai/paperclip/commit/da8cfda42e499e0c3a5206ef44b7d67407022585) | cryppadotta |
+| 2026-11-17 | [feat(runner): accept a resume-compatible build for a relaunched relea…](https://github.com/paperclipai/paperclip/commit/bc0a236b957d6403f1238350a5c681e91575436e) | nickyleach |
+| 2026-11-17 | [feat(google-workspace): REST-backed Gmail tools in server/src/google-…](https://github.com/paperclipai/paperclip/commit/a29658b5b717a5f2dbc807a070f146776af17866) | cryppadotta |
+| 2026-11-17 | [Add a Cloud run liveness check for inspection authority (#22005)](https://github.com/paperclipai/paperclip/commit/7b1c01a8a8b56c704afec51dcec01cf96ac971a0) | cryppadotta |
+| 2026-11-17 | [fix(google): keep Paperclip's Google client inside the 14 submitted s…](https://github.com/paperclipai/paperclip/commit/66ac5d7aa034837a80a428260292a45583a491e3) | cryppadotta |
+| 2026-11-17 | [fix(auth): stop holding a signed-in user's requests on an unchanged C…](https://github.com/paperclipai/paperclip/commit/3659a3a9474d3f257aa9465206a97004dd508e79) | cryppadotta |
+| 2026-11-17 | [fix(tool-gateway): screen MCP resource reads for prompt injection; pr…](https://github.com/paperclipai/paperclip/commit/65eac248763bf7e46f4434c663b8fdb4be9be1ee) | cryppadotta |
+| 2026-11-17 | [feat(connections): show a data-use disclosure in the Google Workspace…](https://github.com/paperclipai/paperclip/commit/b124ad06748e53cdf5a69cc9dcca1cc403275ddb) | cryppadotta |
+| 2026-11-17 | [docs(connections): Google Workspace approval checklist, code-fix plan…](https://github.com/paperclipai/paperclip/commit/12cb18e17d0a7ee24ba90d325a8eacaba44c59dc) | cryppadotta |
+| 2026-11-17 | [fix(native): report a Runner caught mid-exit as not running (#21987)](https://github.com/paperclipai/paperclip/commit/ca34aca77750a143dfc637c96769d64f9b14cbdb) | cryppadotta |
+| 2026-11-17 | [test(restart-chaos): keep a run waiting on an active model request as…](https://github.com/paperclipai/paperclip/commit/55228527cfe4f2b7dd69e5621bae2f1fd15fcba3) | cryppadotta |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

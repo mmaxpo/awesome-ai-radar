@@ -26,17 +26,28 @@
 | 💻 **Languages** | TypeScript 92% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `artificial-intelligence` `llm` `chatgpt` `claude-ai` `cli` `developer-tools` `gpt` `openai` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-03-13 |
-| 📦 **Latest release** | [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0) — 2026-11-12 |
+| 📦 **Latest release** | [v1.41.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.41.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 648.8 MB |
+| 💾 **Size** | 692.0 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
 
+### [v1.41.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.41.0)
+<sub>2026-11-16 · today</sub>
+
+> **1.41.0 (2026-11-16)**
+> **What's Changed**
+> **Features**
+> * feat(verify-openhands): scenarios beyond the happy path, `map controls`, `browser timezone` by @enyst in https://github.com/OpenHands/OpenHands/pull/19670
+> * feat(acp): choose the reasoning effort from what the agent reports by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/19436
+> * feat(hooks): name the workspace and user hooks files in the Available Hooks dialog by @enyst in https://github.com/OpenHands/OpenHands/pull/18366
+> …
+
 ### [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0)
-<sub>2026-11-12 · 3d ago</sub>
+<sub>2026-11-12 · 5d ago</sub>
 
 > **1.40.0 (2026-11-12)**
 > **What's Changed**
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.39.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.39.0)
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > **1.39.0 (2026-11-11)**
 > **What's Changed**
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0)
-<sub>2026-11-10 · 6d ago</sub>
+<sub>2026-11-10 · 7d ago</sub>
 
 > **1.38.0 (2026-11-10)**
 > **What's Changed**
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.37.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.37.0)
-<sub>2026-11-06 · 10d ago</sub>
+<sub>2026-11-06 · 11d ago</sub>
 
 > **1.37.0 (2026-11-06)**
 > **What's Changed**
@@ -79,31 +90,20 @@
 > * fix(chat): place resumed sessions after UTC conversation history by @ak684 in https://github.com/OpenHands/OpenHands/pull/19400
 > …
 
-### [pr19394-evidence](https://github.com/OpenHands/OpenHands/releases/tag/pr19394-evidence) — PR #19394 evidence (temporary)
-<sub>2026-11-05 · 10d ago</sub>
-
-> Temporary evidence assets for OpenHands/OpenHands#19394. Browser click-through of automation setup dead ends and decoded PostHog automation_setup_blocked payloads. This release is evidence storage only and can be deleted after PR review.
-> **macOS install note**
-> The app isn't signed with an Apple Developer ID yet, so macOS may call a
-> downloaded build *"damaged"* — it's Gatekeeper quarantine, not a bad file.
-> After moving the app to Applications, clear the flag once, then open normally:
-> ```sh
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [chore(deps): bump ws from 8.22.1 to 8.22.2 (#19778)](https://github.com/OpenHands/OpenHands/commit/035cffa0b955bc8c64aca6ce8cd94de2f944dc5a) | dependabot[bot] |
-| 2026-11-16 | [chore(deps): bump driver.js from 1.10.2 to 1.11.0 (#19777)](https://github.com/OpenHands/OpenHands/commit/37432fdbde0006ed3c8b1b32f7f274feb82dacea) | dependabot[bot] |
-| 2026-11-16 | [chore(deps): bump react-i18next from 18.0.0 to 18.0.1 in the i18next …](https://github.com/OpenHands/OpenHands/commit/2a300f8282815ddcbc15e60a54847c9ef54398eb) | dependabot[bot] |
-| 2026-11-16 | [fix: keep mobile conversation navigation visible (#19711)](https://github.com/OpenHands/OpenHands/commit/8b519a2278008a3b0e88769e97ecc097997dbe59) | niebloomj |
-| 2026-11-16 | [feat(automations): group the dashboard list by tag (#19745)](https://github.com/OpenHands/OpenHands/commit/e6be913e8c27a327f81e5d23a41c6cc2095056e9) | hieptl |
-| 2026-11-16 | [fix(modals): let an open combobox listbox take Escape before the dial…](https://github.com/OpenHands/OpenHands/commit/446c868b54252f58ec61503fe8f19d8db8c1c889) | SaltGardenia |
-| 2026-11-16 | [docs(verify-openhands): map maintenance 2026-11-14 (#19750)](https://github.com/OpenHands/OpenHands/commit/519b72b0456a7d0aae438a344e90c29177f30165) | enyst |
-| 2026-11-16 | [chore(deps): bump the i18next group across 1 directory with 2 updates…](https://github.com/OpenHands/OpenHands/commit/2914e63bc8af5bcb58debb5dc869c73e292433df) | dependabot[bot] |
-| 2026-11-15 | [fix(automations): retain mobile setup drafts across view switches (#1…](https://github.com/OpenHands/OpenHands/commit/c255de902b5f3dccc81b73cf5ca6a17cb1d6594b) | stefanielizeth73-art |
-| 2026-11-15 | [fix(agent-profiles): sync agent_settings.agent_kind with the active p…](https://github.com/OpenHands/OpenHands/commit/d55544a2011bf21a8c648060f46454b5a5fc4213) | suzhiguo7 |
+| 2026-11-17 | [chore(deps): bump isbot from 5.2.2 to 5.2.3 in the react-router group…](https://github.com/OpenHands/OpenHands/commit/3ef8f12bfbdf10fca47e79fc55821edc7481f72d) | dependabot[bot] |
+| 2026-11-17 | [chore(deps): bump i18next from 27.0.1 to 27.1.0 in the i18next group …](https://github.com/OpenHands/OpenHands/commit/b6c8249ddd89d7ece508a4bb3d4fabc4c7856072) | dependabot[bot] |
+| 2026-11-17 | [chore(deps-dev): bump the eslint group with 3 updates (#19804)](https://github.com/OpenHands/OpenHands/commit/4f3c78cba4de8419a59c0d2a638c8ac4c334de23) | dependabot[bot] |
+| 2026-11-17 | [chore(deps): bump posthog-js from 1.447.3 to 1.447.6 (#19807)](https://github.com/OpenHands/OpenHands/commit/6beee0290c8c0cbc08dac33a6cf2543f5fd82c94) | dependabot[bot] |
+| 2026-11-17 | [chore(deps): bump vite from 8.3.6 to 8.3.7 (#19805)](https://github.com/OpenHands/OpenHands/commit/38f7725e17934ee664f1fa7f08a05cb867cef5b9) | dependabot[bot] |
+| 2026-11-17 | [chore(deps): bump axios from 1.21.0 to 1.21.1 (#19809)](https://github.com/OpenHands/OpenHands/commit/bdea6c5e2b8e7bb5428890bf3617bcf37e561d0b) | dependabot[bot] |
+| 2026-11-17 | [chore(deps): bump downshift from 9.4.1 to 9.5.0 (#19808)](https://github.com/OpenHands/OpenHands/commit/984aeb6b13df768b6ac1b614a0d59cb99e4b0008) | dependabot[bot] |
+| 2026-11-17 | [chore(deps): bump framer-motion from 14.10.1 to 14.11.1 (#19806)](https://github.com/OpenHands/OpenHands/commit/3f50db99271faccf1cfd6b997754a5eab78a3faf) | dependabot[bot] |
+| 2026-11-17 | [docs(verify-openhands): map maintenance 2026-11-17 (#19818)](https://github.com/OpenHands/OpenHands/commit/bb362b01316734e9e5d0452c5264f344215e30c4) | enyst |
+| 2026-11-16 | [chore(main): release 1.41.0 (#19687)](https://github.com/OpenHands/OpenHands/commit/5ed4ffa5ac2509e479acc12b83247fbb4c3612c8) | openhands-release-bot[bot] |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 

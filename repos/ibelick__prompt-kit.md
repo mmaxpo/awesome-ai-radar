@@ -19,8 +19,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 3.2k |
-| 🍴 **Forks** | 166 |
-| 🐞 **Open issues + PRs** | [10](https://github.com/ibelick/prompt-kit/issues) |
+| 🍴 **Forks** | 167 |
+| 🐞 **Open issues + PRs** | [11](https://github.com/ibelick/prompt-kit/issues) |
 | 💻 **Languages** | TypeScript 82% · MDX 14% · JavaScript 3% · CSS 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `components` `nextjs` `react` `shadcn` `shadcn-ui` `tailwindcss` `ui` |

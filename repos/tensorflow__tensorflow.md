@@ -20,20 +20,31 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.6k |
+| ⭐ **Stars** | 201.7k |
 | 🍴 **Forks** | 78.0k |
-| 🐞 **Open issues + PRs** | [3.5k](https://github.com/tensorflow/tensorflow/issues) |
+| 🐞 **Open issues + PRs** | [3.4k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 26% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1401.8 MB |
+| 💾 **Size** | 1402.8 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
+
+### [v2.22.0-rc1](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1) — TensorFlow 2.22.0-rc1 _(pre-release)_
+<sub>2026-11-17 · today</sub>
+
+> **Release 2.22.0**
+> **TensorFlow**
+> **Breaking Changes**
+> The TensorBoard dependency is no longer included by default. If you use `tf.summary.*` APIs or `tf.keras.callbacks.TensorBoard`, please install the `tensorboard` package separately (`pip install tensorboard`). Otherwise, TensorFlow will raise an ImportError.
+> In `tensorflow/c/experimental/filesystem/filesystem_interface.h`, removed `TF_TransactionToken` and associated APIs.
+> **Major Features and Improvements**
+> …
 
 ### [v2.22.0-rc0](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc0) — TensorFlow 2.22.0-rc0 _(pre-release)_
 <sub>2026-09-24 · 1mo ago</sub>
@@ -79,27 +90,20 @@
 > * `tf.lite`
 > …
 
-### [v2.19.1](https://github.com/tensorflow/tensorflow/releases/tag/v2.19.1) — TensorFlow 2.19.1
-<sub>2025-08-13 · 1y ago</sub>
-
-> **Release 2.19.1**
-> **Bug Fixes and Other Changes**
-> * Fix save_model.save for Serving embedding and add SparseCore Reshard.
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [PR #47758: [XLA] [XLA] Return Unimplemented for non-tuple while state…](https://github.com/tensorflow/tensorflow/commit/a1777076e1ffe33114b9705ed7c8472e7bff5c0b) | kodlan |
-| 2026-11-16 | [Pass LLVM library options to Triton TargetMachines through a context](https://github.com/tensorflow/tensorflow/commit/2551f9b66099c4c759aa11cee2bd4bd6ddb647fc) | vwbaker |
-| 2026-11-16 | [[XLA] Simplify and speed up region live range analysis in copy removal](https://github.com/tensorflow/tensorflow/commit/516c1810de54b1a8f85897575eb50ee8c51c7203) | blakehechtman |
-| 2026-11-16 | [PR #53125: [ROCm] Use specific symbols to version while leaving asan/…](https://github.com/tensorflow/tensorflow/commit/297d31f1f442567f324839d789b38e3db2e33ca9) | alekstheod |
-| 2026-11-16 | [Doc formatting cleanup: add blank line before "Inputs:".](https://github.com/tensorflow/tensorflow/commit/e5f8e21a372f498c90428b0e153cb0d26ac3266e) | fergushenderson |
-| 2026-11-16 | [Add an AOT compatibility tests and their goldens for the HostExecute …](https://github.com/tensorflow/tensorflow/commit/378935dce52c9bf97231804a2f1e5336910bdcb5) | khasanovaa |
-| 2026-11-16 | [[XLA:GPU] Add TestThunkParams helper for thunk unit tests.](https://github.com/tensorflow/tensorflow/commit/35c90b5571c50f593a6f44efb382ddce31311b3e) | sohaibiftikhar |
-| 2026-11-16 | [Merge pull request #129801 from somtri:feat-60485-xla-scan-small-ints](https://github.com/tensorflow/tensorflow/commit/c1cffcb1d6d979a14a838250e380292285401dff) | tensorflower-gardener |
-| 2026-11-16 | [[Clean Up] Return the load error from HostExecuteStartThunk::Initialize](https://github.com/tensorflow/tensorflow/commit/81ed3331163454b7d4dc2bb65b77e45208525649) | khasanovaa |
-| 2026-11-16 | [PR #52906: [XLA] Only rewrite max(a, clamp(a, x, b)) to clamp(a, x, b…](https://github.com/tensorflow/tensorflow/commit/5f55f63f6df0a533357aba8d2bbd4a2903f2dcdb) | Shakhtar-Sankur |
+| 2026-11-17 | [PR #53153: [ROCM] Refactoring group gemm helper functions](https://github.com/tensorflow/tensorflow/commit/57ad1830fd42a902dd8d03c7a58e9746180f26ab) | pemeliya |
+| 2026-11-17 | [[XLA:GPU] Move RunSPMDPasses to GetDefaultCompilationPipeline.](https://github.com/tensorflow/tensorflow/commit/a74c58a70406af22861c4162e5791f195f86ed4c) | mooskagh |
+| 2026-11-17 | [[XLA:GPU] Support nested-tuple sub-kernels in horizontal fusion.](https://github.com/tensorflow/tensorflow/commit/6eb14c499fc96ce9e8743a448a012f5f726aeaca) | olegshyshkov |
+| 2026-11-17 | [Back all TPUDummyInput outputs with one shared zero buffer.](https://github.com/tensorflow/tensorflow/commit/73a5f7115a922e8fe2b24397c7fd94c2d9208474) | tensorflower-gardener |
+| 2026-11-17 | [[XLA:GPU] Snapshot ThunkMetadata and nested CommandBuffer thunks in P…](https://github.com/tensorflow/tensorflow/commit/7530e470a4f4e69943f2d72361458fe2bd69e876) | beckerhe |
+| 2026-11-17 | [[XLA] Split flag registration in MakeDebugOptionsFlags into smaller s…](https://github.com/tensorflow/tensorflow/commit/b68e90ecc54b98c645023ef38544ecb8a51c0abd) | shyamliagrawal |
+| 2026-11-17 | [Create TPU debugging overview page for openxla.](https://github.com/tensorflow/tensorflow/commit/118b51ab0e3187afaddf7522038fdcea02ab5fa1) | tensorflower-gardener |
+| 2026-11-17 | [Fix a ThreadSanitizer timeout race in RpcOpsTest.test_client_timeout …](https://github.com/tensorflow/tensorflow/commit/5182e973469462c0a483356479d3c6bec8475097) | dmiltr3 |
+| 2026-11-17 | [Update the TFLite GPU allowlist with new device models.](https://github.com/tensorflow/tensorflow/commit/547f3f03e181a07092d6198578a4b6e3f49b4552) | apaiu-dev |
+| 2026-11-17 | [PR #52443: [XLA:GPU] Add support probe and dense fallback for cuDNN r…](https://github.com/tensorflow/tensorflow/commit/cd71766e48d695df4d80b9917c1bd2755a982cda) | Cjkkkk |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

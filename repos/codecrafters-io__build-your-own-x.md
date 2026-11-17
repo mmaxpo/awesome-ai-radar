@@ -14,21 +14,23 @@
 | **Why it's worth a look** | Guides to build your own Git, Docker, DB, etc. from scratch |
 | **Added** | 2026-11-11 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 563.0k |
+| ⭐ **Stars** | 563.3k |
 | 🍴 **Forks** | 52.7k |
-| 🐞 **Open issues + PRs** | [704](https://github.com/codecrafters-io/build-your-own-x/issues) |
+| 🐞 **Open issues + PRs** | [646](https://github.com/codecrafters-io/build-your-own-x/issues) |
 | 💻 **Languages** | Markdown 100% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `programming` `tutorials` `tutorial-code` `tutorial-exercises` `free` `awesome-list` |
-| 🕒 **Last activity** | 2026-11-08 (7d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2018-05-09 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1.1 MB |
+| 💾 **Size** | 1.2 MB |
 | 🌐 **Website** | https://codecrafters.io |
 
 ## 📦 Recent releases
@@ -39,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-08 | [Merge pull request #2089 from thejesh23/add-vector-db-from-scratch](https://github.com/codecrafters-io/build-your-own-x/commit/b2daa235c4fb774402d219c48adfea2a81d94ce7) | sarupbanskota |
-| 2026-11-08 | [Add Vector Database from Scratch (Rust) to Database](https://github.com/codecrafters-io/build-your-own-x/commit/03553aa42ff42176ec607ddc448daf2cd2942108) | thejesh23 |
-| 2026-07-14 | [Merge pull request #1844 from ARJ544/fix-ai-model-anchor](https://github.com/codecrafters-io/build-your-own-x/commit/aa17439b62f384511a5561ce308e9598b94d8989) | rohitpaulk |
-| 2026-07-14 | [Fix incorrect anchor link for AI model section](https://github.com/codecrafters-io/build-your-own-x/commit/b916354a7a6d76ae4b313fd077a13666c2c24727) | ARJ544 |
-| 2026-06-25 | [Merge pull request #1812 from roiamiel1/add-build-deep-learning-from-…](https://github.com/codecrafters-io/build-your-own-x/commit/264b4547b30e8e700afd260751b5e13f8bc61275) | rohitpaulk |
-| 2026-06-23 | [Update link for 'Build Deep Learning From Scratch'](https://github.com/codecrafters-io/build-your-own-x/commit/750f70669bc53cd8d4b6c3bbd0ffa50776e820fe) | roiamiel1 |
-| 2026-06-21 | [add build add-build-deep-learning-from-scratch](https://github.com/codecrafters-io/build-your-own-x/commit/1b3cb7479d782d0e52ee23a3f07645815b22d680) | Roi Amiel |
-| 2026-02-21 | [Merge pull request #1398 from NikoPit/patch-1](https://github.com/codecrafters-io/build-your-own-x/commit/294aef8fde538d169089b1c7dc70b0ddc3b0ef6f) | sarupbanskota |
-| 2026-02-21 | [Merge pull request #1403 from RyanB28/patch-1](https://github.com/codecrafters-io/build-your-own-x/commit/80abb7e87064d6a048a40654ff47e01ea87de8d4) | sarupbanskota |
-| 2026-02-21 | [Merge pull request #1538 from Velnbur/master](https://github.com/codecrafters-io/build-your-own-x/commit/08fe81bce6d6baf7a09a8d5564e19d04134fdeb0) | sarupbanskota |
+| 2026-11-17 | [add build your own svelte (#968)](https://github.com/codecrafters-io/build-your-own-x/commit/ebae1430d28d52dbe12e189ffc7507e08d8c62ca) | tanhauhau |
+| 2026-11-17 | [[ImgBot] Optimize images (#746)](https://github.com/codecrafters-io/build-your-own-x/commit/3468fe91240ba2af4d68b3ea9de1a2a15bb6a782) | Pohakanui |
+| 2026-11-17 | [[Add] Neural Networks and Deep Learning (#867)](https://github.com/codecrafters-io/build-your-own-x/commit/bb316c09953e69f306f8c51ceccbad1b102cf768) | cyh1998 |
+| 2026-11-17 | [Add Haskell entry for Neural Networks section (#781)](https://github.com/codecrafters-io/build-your-own-x/commit/90cedc93b4d3e2eb7eacf5f90c2638a05d3c43e0) | luispauloml |
+| 2026-11-17 | [add-make-game-2d-in-java (#899)](https://github.com/codecrafters-io/build-your-own-x/commit/adc790b0ebd22fdb4c88ed46c8e6e9a87899e2e2) | 9bany |
+| 2026-11-17 | [Let's Make a Physics Engine (#980)](https://github.com/codecrafters-io/build-your-own-x/commit/65a164cbd2a9dbf1dd5dc3c8a368675900d29559) | JumpyLionnn |
+| 2026-11-17 | [fix: update README.md small typo (#1381)](https://github.com/codecrafters-io/build-your-own-x/commit/5810443d331a67c8b3f880050dd81a5e4d9df3cf) | s-amiour |
+| 2026-11-17 | [Add Crafting Interpreters Chapter (#473)](https://github.com/codecrafters-io/build-your-own-x/commit/3a4da54cc1c0aea6cc2a8500704f546dc8d3b289) | scallaway |
+| 2026-11-17 | [Add 'How I wrote my own "proper" programming language in OCaml and C+…](https://github.com/codecrafters-io/build-your-own-x/commit/283d5b1727c29f75e4c0377833bdf8d4c4b7902b) | NightProg |
+| 2026-11-17 | [Add Compiling a Lisp to Programming Languages section (#541)](https://github.com/codecrafters-io/build-your-own-x/commit/b325efdfc66a1db405c52fe4fa91eb142f51296e) | tekknolagi |
 
 [See all commits ↗](https://github.com/codecrafters-io/build-your-own-x/commits)
 

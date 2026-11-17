@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.7k |
-| 🍴 **Forks** | 126 |
-| 🐞 **Open issues + PRs** | [10](https://github.com/dbos-inc/dbos-transact-py/issues) |
+| 🍴 **Forks** | 125 |
+| 🐞 **Open issues + PRs** | [9](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
-| 🕒 **Last activity** | 2026-11-14 (2d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-07-19 |
 | 📦 **Latest release** | [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 4.0 MB |
+| 💾 **Size** | 4.1 MB |
 | 🌐 **Website** | https://docs.dbos.dev |
 
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0)
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > **What's Changed**
 > * Better Queue Locking by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/932
@@ -47,7 +47,7 @@
 > …
 
 ### [3.4.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.4.0)
-<sub>2026-10-28 · 18d ago</sub>
+<sub>2026-10-28 · 19d ago</sub>
 
 > **What's Changed**
 > * Poll only the status column for preemptible step cancellation by @buftio in https://github.com/dbos-inc/dbos-transact-py/pull/898
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Keep retrying a step once its backoff passes the float range (#960)](https://github.com/dbos-inc/dbos-transact-py/commit/2cf279cf380152b426ecd451d573ccc41f5715a6) | shanurwan |
 | 2026-11-13 | [Make DBOS.migrate() fail loudly on a migration lock timeout (#958)](https://github.com/dbos-inc/dbos-transact-py/commit/81aa7eea4e5b36a7aa5fce26a61cb4ff75712e9f) | ApparentlyTejas |
 | 2026-11-13 | [Durable client steps (#954)](https://github.com/dbos-inc/dbos-transact-py/commit/96ef3142c3a8383df6ee90338af1bda8d0979baa) | maxdml |
 | 2026-11-13 | [Preserve Queues in Workflow Management Operations (#956)](https://github.com/dbos-inc/dbos-transact-py/commit/0004801ae7f968643367628145be4a3db221c2fd) | kraftp |
@@ -103,7 +104,6 @@
 | 2026-11-11 | [DBOS.recover_workflows (#951)](https://github.com/dbos-inc/dbos-transact-py/commit/7a3c5209922c493b822c1c130b507a2af7d31ba6) | kraftp |
 | 2026-11-10 | [Timestamp Workflows from Statement Time (#950)](https://github.com/dbos-inc/dbos-transact-py/commit/9c807ec7bf2d00e33a862ed3c18c4e0811ff7ae8) | kraftp |
 | 2026-11-09 | [Fix Suspend Indexes (#948)](https://github.com/dbos-inc/dbos-transact-py/commit/0e59afe872e5974a2b79b396152accc3cd33e6c7) | kraftp |
-| 2026-11-09 | [fix(serialization): restore dates in variadic workflow inputs (#944)](https://github.com/dbos-inc/dbos-transact-py/commit/b5d2f3f3e31101c03f690de4e946ecb04bdfbe91) | mkzung |
 
 [See all commits ↗](https://github.com/dbos-inc/dbos-transact-py/commits)
 

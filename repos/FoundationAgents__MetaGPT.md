@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Multi-agent 'software company' (PM, architect, engineer) |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 9mo
+💤 **Quiet** — no activity for 10mo
 
 ## 📊 At a glance
 
@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 97% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `gpt` `llm` `metagpt` `multi-agent` |
-| 🕒 **Last activity** | 2026-01-21 (9mo ago) |
+| 🕒 **Last activity** | 2026-01-21 (10mo ago) |
 | 📅 **Created** | 2023-06-30 |
 | 📦 **Latest release** | [v0.8.2](https://github.com/FoundationAgents/MetaGPT/releases/tag/v0.8.2) — 2025-03-09 |
 | 🌿 **Default branch** | `main` |

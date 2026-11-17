@@ -12,8 +12,6 @@
 | **Why it's worth a look** | ESM3 and ESM C protein language models (successor to Meta's ESM) |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
@@ -24,7 +22,7 @@
 | 💻 **Languages** | Jupyter Notebook 57% · Python 43% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-09 (6d ago) |
+| 🕒 **Last activity** | 2026-11-09 (7d ago) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
@@ -33,13 +31,13 @@
 ## 📦 Recent releases
 
 ### [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3)
-<sub>2026-11-09 · 6d ago</sub>
+<sub>2026-11-09 · 7d ago</sub>
 
 > * bug fixes
 > * bump transformers version to >= 5.16
 
 ### [v3.4.2](https://github.com/Biohub/esm/releases/tag/v3.4.2)
-<sub>2026-10-30 · 17d ago</sub>
+<sub>2026-10-30 · 18d ago</sub>
 
 > - Added the Batch API (`ForgeBatchClient`) for folding, plus max-accuracy folding with ESMFold2 Pro (see `cookbook/snippets/batch.md` and `cookbook/snippets/fold_max_accuracy.md`)
 > - Released the 2025-cutoff ESMFold2 model

@@ -26,7 +26,7 @@
 | 💻 **Languages** | C 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `usb-host` `usb-device` `usb` `cdc` `hid` `uvc` `uac` `dfu` `ehci` `hub` `rndis` `musb` `dwc2` `xhci` `cherryusb` `cdns2` `cdns3` `ohci` |
-| 🕒 **Last activity** | 2026-11-11 (5d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2021-07-10 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/cherry-embedded/CherryUSB/releases/tag/v1.6.1) — 2026-04-27 |
 | 🌿 **Default branch** | `master` |
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [fix(core/usbh_core): move hport->connected check into mutex section](https://github.com/cherry-embedded/CherryUSB/commit/44700999fcea72bf179a6a2998d7391055cea0d7) | sakumisu |
+| 2026-11-17 | [fix(class/wireless/usbh_rndis): do not check g_rndis_rx_length with e…](https://github.com/cherry-embedded/CherryUSB/commit/738dedc6ec1968190ef17805fc4e37edbaec4ff3) | sakumisu |
 | 2026-11-11 | [fix(port/wch usbhsd): Fix the TOG mismatch issue following a bus rese…](https://github.com/cherry-embedded/CherryUSB/commit/05007a0cdcf480ff5e870ce142bc92c217060fc8) | Links0617 |
 | 2026-11-10 | [update(port/aic): sync code from luban lite](https://github.com/cherry-embedded/CherryUSB/commit/a0054795c44037ace8a2b77b6e610adbff2257ea) | sakumisu |
 | 2026-11-09 | [update(port/dwc2): adjust register macros order](https://github.com/cherry-embedded/CherryUSB/commit/692e0697c5a60534fb2b8a2edff9a4a4c2f6edba) | sakumisu |
@@ -102,8 +104,6 @@
 | 2026-11-08 | [fix(ci): fix iperf last return](https://github.com/cherry-embedded/CherryUSB/commit/cffeac73323c8ca2e1ae9335e5fe35c498cccbb6) | sakumisu |
 | 2026-10-30 | [update(port/dwc2/esp): add esp32h4 support](https://github.com/cherry-embedded/CherryUSB/commit/1cf7193676584a0c2bbfa53bf88b13b65a063130) | YanKE01 |
 | 2026-10-27 | [fix(port/ehci): fix errors before halt, because halt covers other errors](https://github.com/cherry-embedded/CherryUSB/commit/75ca4bc51fee722eda59ee155ad7025f345e01ab) | sakumisu |
-| 2026-10-27 | [fix(security): fix cdc without iad](https://github.com/cherry-embedded/CherryUSB/commit/601ba123afce8562c8cacb939547467d68f6b91c) | sakumisu |
-| 2026-10-24 | [fix(security): fix many security vulnerabilities](https://github.com/cherry-embedded/CherryUSB/commit/e5e197bf4f69993de7e81ab2fa94323ff72f5621) | sakumisu |
 
 [See all commits ↗](https://github.com/cherry-embedded/CherryUSB/commits)
 

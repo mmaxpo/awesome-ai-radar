@@ -21,22 +21,33 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.2k |
-| 🍴 **Forks** | 524 |
-| 🐞 **Open issues + PRs** | [491](https://github.com/openremote/core/issues) |
-| 💻 **Languages** | Java 48% · TypeScript 25% · Groovy 19% · Shell 5% |
+| 🍴 **Forks** | 525 |
+| 🐞 **Open issues + PRs** | [493](https://github.com/openremote/core/issues) |
+| 💻 **Languages** | Java 48% · TypeScript 26% · Groovy 19% · Shell 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `iot-platform` `iot` `energy` `building` `mqtt` `smartcity` `dashboard` `asset-management` `mqtt-broker` `dataplatform` `rules-engine` `fleet-management` `energy-monitor` `energy-management` `fleet-telematics` `device-management` `edge-computing` `iot-application` `modbus` `ota-update` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2016-02-03 |
-| 📦 **Latest release** | [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0) — 2026-11-06 |
+| 📦 **Latest release** | [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 304.2 MB |
+| 💾 **Size** | 304.4 MB |
 | 🌐 **Website** | https://openremote.io |
 
 ## 📦 Recent releases
 
+### [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1)
+<sub>2026-11-17 · today</sub>
+
+> **What's Changed**
+> **🐞 Bug fixes**
+> * Fix blank page when a startup request fails by @Ekhorn in https://github.com/openremote/core/pull/3549
+> * Fix event subscriptions stopping after a reconnect by @Ekhorn in https://github.com/openremote/core/pull/3548
+> **Other changes**
+> * Bump the vaadin group with 24 updates by @dependabot[bot] in https://github.com/openremote/core/pull/3555
+> …
+
 ### [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0)
-<sub>2026-11-06 · 10d ago</sub>
+<sub>2026-11-06 · 11d ago</sub>
 
 > > [!NOTE]
 > > We have also recently published a new `openremote/keycloak` release, version `26.7.5.0`, that introduces a new UI design!
@@ -47,7 +58,7 @@
 > …
 
 ### [1.33.0](https://github.com/openremote/core/releases/tag/1.33.0)
-<sub>2026-10-27 · 20d ago</sub>
+<sub>2026-10-27 · 21d ago</sub>
 
 > **⚠️  Important notes / Before you upgrade ⚠️**
 > - **Minor behavior changes in datapoint query requests.**
@@ -58,7 +69,7 @@
 > …
 
 ### [1.32.2](https://github.com/openremote/core/releases/tag/1.32.2)
-<sub>2026-10-21 · 26d ago</sub>
+<sub>2026-10-21 · 27d ago</sub>
 
 > **What's Changed**
 > **🔒 Security updates**
@@ -79,21 +90,12 @@
 > **What's Changed**
 > …
 
-### [1.32.0](https://github.com/openremote/core/releases/tag/1.32.0)
-<sub>2026-10-12 · 1mo ago</sub>
-
-> > [!NOTE]
-> > **As of October 13th, the repository has been renamed from `openremote/openremote` to `openremote/core`.**
-> > **We have also renamed the `master` branch to `main`, following the latest standards.**
-> > If you maintain a custom project that uses these references, we recommend updating them to prevent issues.
-> > All package distributions of OpenRemote (Docker, etc) have not been changed, and are unaffected.
-> **⚠️  Important notes / Before you upgrade ⚠️**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [Fix event subscriptions stopping after a reconnect (#3548)](https://github.com/openremote/core/commit/1b72bf4db4c9d73f5f9680b5d9836a5850bfbe23) | Ekhorn |
+| 2026-11-17 | [Pin browser test jobs to Ubuntu 24.04 (#3581)](https://github.com/openremote/core/commit/f74263478375d8cc4627bceffb59175e5a2c3f30) | Ekhorn |
 | 2026-11-16 | [Bump ubi10/openjdk-21-runtime in /manager (#3572)](https://github.com/openremote/core/commit/6d46b473d353533ccfc3938956eed145a134f2d8) | dependabot[bot] |
 | 2026-11-16 | [Fix blank page when a startup request fails (#3549)](https://github.com/openremote/core/commit/53afd942e29c8d5882eb850cba509e8a76abc08c) | Ekhorn |
 | 2026-11-13 | [Remove Balena files (#3570)](https://github.com/openremote/core/commit/c7652131fe2b36f7b4341a0d8a20a94fc8107667) | denniskuijs |
@@ -102,8 +104,6 @@
 | 2026-11-10 | [Align Gradle root project name with repository (#3559)](https://github.com/openremote/core/commit/a239f2988ebb010b5fb9806f249216a5b4ae2982) | wborn |
 | 2026-11-10 | [Stabilize gateway rejection assertions in GatewayTest (#3507)](https://github.com/openremote/core/commit/1d6246374dd0c01d6c2486afebf6db10745e1bdf) | wborn |
 | 2026-11-10 | [Bump github/codeql-action/upload-sarif from 4.39.2 to 4.39.3 (#3562)](https://github.com/openremote/core/commit/8e7e753cc50934d05156dcd53d518ed1d4ae4b02) | dependabot[bot] |
-| 2026-11-10 | [Bump docker/login-action from 4.7.0 to 4.8.0 (#3561)](https://github.com/openremote/core/commit/7782c7ae67b38a2e48aba5e43efdd045e8e3f1d7) | dependabot[bot] |
-| 2026-11-10 | [Bump actions/setup-java from 6.1.0 to 6.2.0 (#3560)](https://github.com/openremote/core/commit/214a5cc579410a3b80493cfdfda4f7db24628481) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/openremote/core/commits)
 

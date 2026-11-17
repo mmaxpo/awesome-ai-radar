@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 92% · HTML 4% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `playwright` `chromium` `firefox` `webkit` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2020-07-01 |
 | 📦 **Latest release** | [v1.65.2](https://github.com/microsoft/playwright-python/releases/tag/v1.65.2) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.65.2](https://github.com/microsoft/playwright-python/releases/tag/v1.65.2)
-<sub>2026-11-14 · 2d ago</sub>
+<sub>2026-11-14 · 3d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright/pull/44098 - browser(chromium): roll to r1255, v159.0.8154.6
@@ -44,7 +44,7 @@
 > - Chromium 159.0.8154.6
 
 ### [v1.65.1](https://github.com/microsoft/playwright-python/releases/tag/v1.65.1)
-<sub>2026-11-11 · 4d ago</sub>
+<sub>2026-11-11 · 5d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3337 - chore: roll Node.js to 26.13.1
@@ -55,7 +55,7 @@
 > …
 
 ### [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0)
-<sub>2026-11-09 · 6d ago</sub>
+<sub>2026-11-09 · 7d ago</sub>
 
 > **🧾 Locator code in Python**
 > A locator from [locator.normalize()](https://playwright.dev/python/docs/api/class-locator#locator-normalize) now converts to a string as Python code. Use it with [page.get_by_ref()](https://playwright.dev/python/docs/api/class-page#page-get-by-ref) to turn an element that an agent picks from a [page.aria_snapshot()](https://playwright.dev/python/docs/api/class-page#page-aria-snapshot) in the `"ai"` mode into code for your test:
@@ -66,7 +66,7 @@
 > …
 
 ### [v1.64.1](https://github.com/microsoft/playwright-python/releases/tag/v1.64.1)
-<sub>2026-10-22 · 24d ago</sub>
+<sub>2026-10-22 · 25d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3283 - chore: roll Node.js to 24.22.1
@@ -91,6 +91,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [devops: roll Node.js to the latest release of the same major version …](https://github.com/microsoft/playwright-python/commit/713147d9dd0d31d12a9ca6ca6b209a9dad579c4c) | yury-s |
 | 2026-11-13 | [devops(release): prepare a patch release with a workflow (#3347)](https://github.com/microsoft/playwright-python/commit/86a5f5a81010b1dbd155263e99782442b61d0cb2) | pavelfeldman |
 | 2026-11-13 | [fix(handlers): support immutable and built-in callbacks (#3344)](https://github.com/microsoft/playwright-python/commit/dbf7807fe7c26201a8ac7feb795e793325892693) | microsoft-playwright-automation[bot] |
 | 2026-11-13 | [chore: roll Playwright to 1.66.0-next (8534271f04) (#3342)](https://github.com/microsoft/playwright-python/commit/88eafe1b2b004c2f489d04d8d9cfdcd66f6c2cf2) | microsoft-playwright-automation[bot] |
@@ -100,7 +101,6 @@
 | 2026-11-11 | [chore: roll Node.js to 26.13.1 (#3337)](https://github.com/microsoft/playwright-python/commit/6f724516c648edda6bf55ba9a9fa2e8143faec52) | pavelfeldman |
 | 2026-11-11 | [fix(docker): upgrade base image packages during the build (#3336)](https://github.com/microsoft/playwright-python/commit/3b1f408208b970a3c108ee47f57c9b57f9b2bbe5) | yury-s |
 | 2026-11-10 | [devops(docker): publish stable images from the tip of a release branc…](https://github.com/microsoft/playwright-python/commit/89436fb88df74b0f1c5ef4b9df3a113d409bf3cd) | yury-s |
-| 2026-11-10 | [chore(bots): name the agent workflows agent-*, and start tasks by han…](https://github.com/microsoft/playwright-python/commit/63cdffb905cbd09c1b73ae2cde51f8dd353bccd8) | pavelfeldman |
 
 [See all commits ↗](https://github.com/microsoft/playwright-python/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 15.6k |
-| 🍴 **Forks** | 560 |
+| ⭐ **Stars** | 15.7k |
+| 🍴 **Forks** | 559 |
 | 🐞 **Open issues + PRs** | [233](https://github.com/benfred/py-spy/issues) |
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `profiler` `python` `performance-analysis` `profiling` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-16 (yesterday) |
 | 📅 **Created** | 2018-08-01 |
 | 📦 **Latest release** | [v0.4.3](https://github.com/benfred/py-spy/releases/tag/v0.4.3) — 2026-11-02 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.3](https://github.com/benfred/py-spy/releases/tag/v0.4.3)
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **Changes**
 > **🚀 Features**

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 68.3k |
+| ⭐ **Stars** | 68.4k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [369](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [358](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
-| 🕒 **Last activity** | 2026-11-13 (2d ago) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — 2026-10-26 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 94.5 MB |
+| 💾 **Size** | 93.8 MB |
 | 🌐 **Website** | https://anythingllm.com |
 
 ## 📦 Recent releases
 
 ### [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — AnythingLLM v1.19.0
-<sub>2026-10-26 · 20d ago</sub>
+<sub>2026-10-26 · 21d ago</sub>
 
 > **Built-in LLM for Docker**
 > <img width="3680" height="2212" alt="AnythingLLM Docker built-in LLM powered by Lemonade and llama.cpp" src="https://github.com/user-attachments/assets/410b5784-ca15-4027-a1c4-056d9d5c748e" />
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-13 | [Mobile document picker UI (#7125)](https://github.com/Mintplex-Labs/anything-llm/commit/4d09fa5f730698d39f1d783e47316744b260a700) | shatfield4 |
-| 2026-11-13 | [fix: title DrupalWiki attachments with their file name, not the hotdi…](https://github.com/Mintplex-Labs/anything-llm/commit/27dd2b8d7ac4fb788b2b4f4a1ef645f8a555ac4c) | Fahmid-Arman |
-| 2026-11-13 | [fix: send Voyage AI input_type for queries and documents (#7160)](https://github.com/Mintplex-Labs/anything-llm/commit/efbec940f2c5f9a1ddd5541093d86ac5c36dec16) | timothycarambat |
-| 2026-11-13 | [fix: separate replies in imported GitLab issue threads with a blank l…](https://github.com/Mintplex-Labs/anything-llm/commit/8a5aae109e05f4ff66ab9f62d1d15bc556d424bb) | Fahmid-Arman |
-| 2026-11-13 | [fix: bound Outlook thread reads and fit them to the context window (#…](https://github.com/Mintplex-Labs/anything-llm/commit/83dedd8abe3ae63c33cb011189db50591fbae176) | timothycarambat |
-| 2026-11-13 | [fix: use Cerebras time_info for streamed chat duration and tokens/sec…](https://github.com/Mintplex-Labs/anything-llm/commit/166287de1c94d40a1cb74e1c0f644a5adb1269f0) | Fahmid-Arman |
-| 2026-11-13 | [Add MiniMax as an image generation provider (#7144)](https://github.com/Mintplex-Labs/anything-llm/commit/54e6a7735a7d577de8c8d00d4d7aa2c01e55288f) | shatfield4 |
-| 2026-11-13 | [fix: use the resolved user id when updating a user from the admin end…](https://github.com/Mintplex-Labs/anything-llm/commit/56d4d831947d4432d02613567dc0f4ab8f390d94) | timothycarambat |
-| 2026-11-12 | [fix: guard image downloads in the PDF, DOCX and PPTX file tools (#7143)](https://github.com/Mintplex-Labs/anything-llm/commit/1626d971c73d70a68602a662e3baf52e160c62ff) | timothycarambat |
-| 2026-11-12 | [Browser extension side panel chat endpoint (#6802)](https://github.com/Mintplex-Labs/anything-llm/commit/b9a45fca4ff1dd68dfeade8a19f07799e7363290) | shatfield4 |
+| 2026-11-17 | [fix: match either explicitly restricted cron day field (#7234)](https://github.com/Mintplex-Labs/anything-llm/commit/eb498cf2c2111b0c651d4c3781f0cdfb8168935c) | Max-Reisinger |
+| 2026-11-17 | [fix: ignore quoted separators in XLSX delimiter detection (#7230)](https://github.com/Mintplex-Labs/anything-llm/commit/c66a8ded12e45b37cd4317646bbaac98f8898d14) | isnaenihidayat |
+| 2026-11-17 | [fix: offer each Mistral model the reasoning levels it accepts (#7228)](https://github.com/Mintplex-Labs/anything-llm/commit/41e4b95ea5edd9ec5190e91ddf211a2d12243b4e) | timothycarambat |
+| 2026-11-17 | [docs: clarify document paths for the removal API (#7225)](https://github.com/Mintplex-Labs/anything-llm/commit/5ea1281f6a557c3ecf18e8558eeac4bddeadfa76) | isnaenihidayat |
+| 2026-11-17 | [feat: show the anonymous telemetry toggle during onboarding](https://github.com/Mintplex-Labs/anything-llm/commit/8788aff491fa760d01a31c3e10111975ed5eeeb6) | timothycarambat |
+| 2026-11-16 | [fix: recompute a scheduled job's next run when it is turned back on (…](https://github.com/Mintplex-Labs/anything-llm/commit/86a53040e6207172f6592575640b86bfe89a8d1b) | Fahmid-Arman |
+| 2026-11-16 | [fix: keep the space between inline elements in Word export list items…](https://github.com/Mintplex-Labs/anything-llm/commit/15337eec2b37b2ecac6f759ec843b4ef7a0812ad) | Fahmid-Arman |
+| 2026-11-16 | [fix: drop the query and hash from a GitHub repo URL before loading it…](https://github.com/Mintplex-Labs/anything-llm/commit/1d630bad4fed1e09ba74591357903bf43a130693) | Fahmid-Arman |
+| 2026-11-16 | [fix: keep nested indentation when the agent file edit matches ignorin…](https://github.com/Mintplex-Labs/anything-llm/commit/cda5bde376f4a5803dad820088182c88aab3fd2d) | Fahmid-Arman |
+| 2026-11-16 | [fix: keep counting a numbered list that a code block interrupts in Wo…](https://github.com/Mintplex-Labs/anything-llm/commit/24fbd26cc45e19cae3f68d59e4e909bb31ad562c) | Fahmid-Arman |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
 

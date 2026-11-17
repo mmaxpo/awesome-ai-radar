@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 463.3k |
-| 🍴 **Forks** | 113.4k |
+| ⭐ **Stars** | 465.5k |
+| 🍴 **Forks** | 113.9k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/morluto/rea/issues) |
-| 💻 **Languages** | TypeScript 91% · JavaScript 5% · Python 1% · HTML 1% |
+| 💻 **Languages** | TypeScript 92% · JavaScript 5% · Python 1% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `cli` `mcp` `agent-skills` `dsh-plugin` `claude-code` `rea` `touhou` `android` `javascript` `python` `typescript` `nodejs` `linux` `ai` `security` `java` `cpp` `rust` `react` `html` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-04-14 |
 | 📦 **Latest release** | [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 174.6 MB |
+| 💾 **Size** | 177.0 MB |
 | 🌐 **Website** | https://rea.tools |
 
 ## 📦 Recent releases
 
 ### [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — rea-agents: v6.9.0
-<sub>2026-11-12 · 4d ago</sub>
+<sub>2026-11-12 · 5d ago</sub>
 
 > **[6.9.0](https://github.com/morluto/rea/compare/rea-agents-6.8.0...rea-agents-6.9.0) (2026-11-11)**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [rea-agents-6.8.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0) — rea-agents: v6.8.0
-<sub>2026-10-25 · 22d ago</sub>
+<sub>2026-10-25 · 23d ago</sub>
 
 > **[6.8.0](https://github.com/morluto/rea/compare/rea-agents-6.7.0...rea-agents-6.8.0) (2026-10-25)**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [rea-agents-6.7.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0) — rea-agents: v6.7.0
-<sub>2026-10-18 · 29d ago</sub>
+<sub>2026-10-18 · 1mo ago</sub>
 
 > **[6.7.0](https://github.com/morluto/rea/compare/rea-agents-6.6.0...rea-agents-6.7.0) (2026-10-18)**
 > **Highlights**
@@ -69,7 +69,7 @@
 > …
 
 ### [rea-agents-6.6.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.6.0) — rea-agents: v6.6.0
-<sub>2026-10-18 · 29d ago</sub>
+<sub>2026-10-18 · 1mo ago</sub>
 
 > **[6.6.0](https://github.com/morluto/rea/compare/rea-agents-6.5.0...rea-agents-6.6.0) (2026-10-18)**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [fix(ci): repair shared progress, cleanup and verifier failures (#11727)](https://github.com/morluto/rea/commit/552d1c7108b99d1c9ec15d8b629ae07dc56d4714) | ShuaixinHuang |
-| 2026-11-16 | [refactor(cli): derive build catalogs from the REA command registry](https://github.com/morluto/rea/commit/4ea24b6f8e63081ec5077c8e88370a8632aeeb0c) | N0zoM1z0 |
-| 2026-11-16 | [refactor(cli)!: own builtin refusals and retire per-command MCP](https://github.com/morluto/rea/commit/7d502ddb0d8d80d0e16a80b0edc813f704e3ac31) | N0zoM1z0 |
-| 2026-11-16 | [refactor(mcp): bind Electron tools through shared contracts](https://github.com/morluto/rea/commit/d6bcfc10eafa3c0893c7cbd5f3dc6a90359be022) | N0zoM1z0 |
-| 2026-11-16 | [feat(gdb): bind sessions to an optional executable](https://github.com/morluto/rea/commit/230db70fb473dd15928ae6c1a885f7e8a5507dae) | N0zoM1z0 |
-| 2026-11-16 | [refactor(cli): report unknown commands and the update notice from REA…](https://github.com/morluto/rea/commit/a10037ef10516cf92653596512932b15f190a5c0) | morluto |
-| 2026-11-16 | [test(hopper): audit producer-bound snapshots through MCP](https://github.com/morluto/rea/commit/ab16163061094a6c28e9133c9c618e0850c9cb2f) | N0zoM1z0 |
-| 2026-11-16 | [fix(cli): render help in REA and list csv and tsv formats (#11688)](https://github.com/morluto/rea/commit/a8cd584ccf90fb32ce0ef14e6eeb1c040fe6db30) | morluto |
-| 2026-11-16 | [test(cli): register decompile-all once in the overnight CLI schema re…](https://github.com/morluto/rea/commit/6c4e2bba9d79e54446f5fdff2ac32e54503a4a2b) | morluto |
-| 2026-11-16 | [refactor(cli): read global arguments once with one REA owner (#11687)](https://github.com/morluto/rea/commit/5257a3d91278387d832aed41c96b8896c2313a46) | morluto |
+| 2026-11-17 | [fix(environment): preserve HAR body source identity and scan coverage…](https://github.com/morluto/rea/commit/5ccb7c59c84e2297fd2c0ecb691154e410b285f2) | ShuaixinHuang |
+| 2026-11-17 | [feat(artifacts): inventory Android OTA update payloads offline (#11378)](https://github.com/morluto/rea/commit/51459cf203ae1eb6b586a95b21899eaa0f631823) | mvanhorn |
+| 2026-11-17 | [perf(ci): split lazy runtime chunks, cache Windows typecheck, and reu…](https://github.com/morluto/rea/commit/5a2a08a0481a37c94365cfc69175b278f0643e41) | morluto |
+| 2026-11-17 | [feat(artifacts): inspect NuGet package metadata and dependencies](https://github.com/morluto/rea/commit/43b9fa87fbbaa74224731a1fe3a8e67a2d336ae3) | mvanhorn |
+| 2026-11-17 | [fix(pe): reject incomplete certificate-table alignment (#11823)](https://github.com/morluto/rea/commit/3c71d3528f6c0d3d054790152881002d0049a1ee) | ShuaixinHuang |
+| 2026-11-17 | [fix(artifacts): cancel idle .NET bundle member streams (#11826)](https://github.com/morluto/rea/commit/3b85623436ffead0ff4747d664571b963d58b5f8) | ShuaixinHuang |
+| 2026-11-17 | [fix(contracts): keep recorded local-path schemas portable](https://github.com/morluto/rea/commit/954979b7ffcb9d2af5a27e8a37bb0ca7c077efef) | ShuaixinHuang |
+| 2026-11-17 | [feat(artifacts): inspect Android boot image components](https://github.com/morluto/rea/commit/a88c0a55544e16a710ddaad2feb5a2c6e7011f4e) | mvanhorn |
+| 2026-11-17 | [fix: isolate concurrent doctor cleanup scopes, trace JS fixture helpe…](https://github.com/morluto/rea/commit/116f159a8af041ea77aa79f84199e5155ec2064d) | morluto |
+| 2026-11-17 | [perf(tests): share CLI environments and lazy MCP sessions in Electron…](https://github.com/morluto/rea/commit/455c2695661005a1322061d1549f75e901e7e78f) | morluto |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

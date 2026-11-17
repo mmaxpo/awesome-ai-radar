@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.8k |
-| 🍴 **Forks** | 147 |
+| 🍴 **Forks** | 146 |
 | 🐞 **Open issues + PRs** | [31](https://github.com/snownico0722/PaperTodo/issues) |
 | 💻 **Languages** | C# 92% · C 6% · JavaScript 1% · HTML 1% |
 | 📜 **License** | Other |
@@ -30,12 +30,12 @@
 | 📅 **Created** | 2026-05-27 |
 | 📦 **Latest release** | [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 103.4 MB |
+| 💾 **Size** | 103.5 MB |
 
 ## 📦 Recent releases
 
 ### [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — PaperTodo v3.40
-<sub>2026-10-20 · 26d ago</sub>
+<sub>2026-10-20 · 27d ago</sub>
 
 > **纸片与胶囊**
 > - **快捷关闭纸片**：展开的纸片支持 Ctrl+W 或标题栏中键关闭。

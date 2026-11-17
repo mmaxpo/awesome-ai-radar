@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 195.7k |
+| ⭐ **Stars** | 196.5k |
 | 🍴 **Forks** | 23.0k |
-| 🐞 **Open issues + PRs** | [1.5k](https://github.com/anthropics/skills/issues) |
+| 🐞 **Open issues + PRs** | [1.6k](https://github.com/anthropics/skills/issues) |
 | 💻 **Languages** | Python 84% · JavaScript 8% · HTML 7% · Shell 1% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `agent-skills` |
-| 🕒 **Last activity** | 2026-11-14 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (yesterday) |
 | 📅 **Created** | 2025-09-22 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -40,6 +40,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [Update docx, pptx and xlsx skills: zipfile unpack, zip -y, validate.p…](https://github.com/anthropics/skills/commit/e4bb5d960d87126ff3b3a8af1a104b7db67560ba) | peterlai-ant |
 | 2026-11-14 | [Update docx, pptx, xlsx, and pdf skills (#2217)](https://github.com/anthropics/skills/commit/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064) | peterlai-ant |
 | 2026-11-06 | [Move Office skills to the Apache 2.0 license (#2146)](https://github.com/anthropics/skills/commit/2c5958ecac7cee2b583967a2c4981d0f4a75c579) | maheshmurag |
 | 2026-10-28 | [Update mcp-builder skill: teach v2 of the MCP TypeScript SDK (#2087)](https://github.com/anthropics/skills/commit/ca45fc496a3436251f191354091d557da31c15b5) | felixweinberger |
@@ -49,7 +50,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-09-29 | [Update claude-api skill: Claude Opus 5.5 default, Claude Sonnet 5.5, …](https://github.com/anthropics/skills/commit/8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4) | rlancemartin |
 | 2026-09-24 | [Update claude-api skill: link refusal billing to the docs (#1825)](https://github.com/anthropics/skills/commit/33375500bcea98d610eb30ce10ac4e59b89c390d) | cj-ant |
 | 2026-09-10 | [Update claude-api skill: Managed Agents `auto` permission policy and …](https://github.com/anthropics/skills/commit/34040c9c568585f6929bedeaad110ad08f079624) | cj-ant |
-| 2026-09-03 | [Update frontend-design skill to avoid generic design defaults (#1713)](https://github.com/anthropics/skills/commit/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f) | williamqian12 |
 
 [See all commits ↗](https://github.com/anthropics/skills/commits)
 

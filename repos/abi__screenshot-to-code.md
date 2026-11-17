@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 81.2k |
+| ⭐ **Stars** | 81.3k |
 | 🍴 **Forks** | 10.0k |
 | 🐞 **Open issues + PRs** | [150](https://github.com/abi/screenshot-to-code/issues) |
 | 💻 **Languages** | Python 54% · TypeScript 45% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-15 (yesterday) |
 | 📅 **Created** | 2023-11-14 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

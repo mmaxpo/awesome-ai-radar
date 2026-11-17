@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 202.2k |
+| ⭐ **Stars** | 202.5k |
 | 🍴 **Forks** | 10.6k |
-| 🐞 **Open issues + PRs** | [806](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 73% · Python 11% · Rust 5% · Java 3% · PHP 2% |
+| 🐞 **Open issues + PRs** | [810](https://github.com/firecrawl/firecrawl/issues) |
+| 💻 **Languages** | TypeScript 72% · Python 12% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 186.8 MB |
+| 💾 **Size** | 187.6 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
 
 ### [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — Firecrawl v2.11.0
-<sub>2026-06-19 · 4mo ago</sub>
+<sub>2026-06-19 · 5mo ago</sub>
 
 > **Firecrawl v2.11.0**
 > **Improvements**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [feat(alexandria): refuse provider scrapes above an optional maxCredit…](https://github.com/firecrawl/firecrawl/commit/e8f98a02ecaabd578fb2868f096924e229d879f0) | KrisOei |
-| 2026-11-13 | [perf(api): relay the fresh feed's encoded response (#5748)](https://github.com/firecrawl/firecrawl/commit/71f430a2dabffaf718cef7091c340b7384b91178) | PhantomInTheWire |
-| 2026-11-13 | [feat(api): proxy the fresh feed at /v2/fresh-vertical-feed/local/late…](https://github.com/firecrawl/firecrawl/commit/065cc5fdf2ca5cf6fc86fde53541ed2b3c4291b2) | PhantomInTheWire |
-| 2026-11-13 | [feat(api): support ambient Google credentials for Vertex and Pub/Sub …](https://github.com/firecrawl/firecrawl/commit/62c0bcacda0ad52824c5963d5c811cdceef71ce7) | tomsideguide |
-| 2026-11-13 | [fix(api): bound concurrent GCS deletes in ZDR request cleanup (#5742)](https://github.com/firecrawl/firecrawl/commit/2b15ea232f5c9533cb1a807b54657ad0297fbe6f) | mogery |
-| 2026-11-13 | [fix(security): bump rustls in the Rust SDK lockfile and zod, follow-r…](https://github.com/firecrawl/firecrawl/commit/acc44c86146a9ec633dd3f35f6337241a82c39ef) | mogery |
-| 2026-11-13 | [fix(api): refuse data source discovery and pause monitors for teams t…](https://github.com/firecrawl/firecrawl/commit/7f1785ea8e2d3c6c92af5ca7e276195a5737a183) | mogery |
-| 2026-11-13 | [feat(api): schedule a 24h delete for each ZDR blob and bound cleanup …](https://github.com/firecrawl/firecrawl/commit/d00d4483ea8ae6d9bdeca8a7c10e826eacc5df22) | mogery |
-| 2026-11-13 | [Forward zero data retention to Exchange from the exchange proxy (#5736)](https://github.com/firecrawl/firecrawl/commit/eaa56e8803b8d15336503d2c26fccb0ca6b99d18) | developersdigest |
-| 2026-11-12 | [feat(api): give the keyless provider-tools 403 a signup link (#5734)](https://github.com/firecrawl/firecrawl/commit/ab3acea889c724e8d7ebc48839e74cb16d8ca7a1) | nickscamara |
+| 2026-11-17 | [fix(alexandria): honor a forced alexandriaZDR org flag on every Alexa…](https://github.com/firecrawl/firecrawl/commit/2f73c303ceb36fe1408eda8eb837c99ad6f854b2) | developersdigest |
+| 2026-11-17 | [fix(python-sdk): stop shipping tests and backup module in the wheel (…](https://github.com/firecrawl/firecrawl/commit/46b7e9571ab9538e361d53f0ef1a5d077bed289c) | erikengervall |
+| 2026-11-17 | [test(js-sdk): raise the per-minute limits on CI e2e identities (#5420)](https://github.com/firecrawl/firecrawl/commit/da7de22e1076eb6ddb09aa0406b3d9a2762cba0f) | erikengervall |
+| 2026-11-17 | [fix(api): log where a firebill call's time went, and keep its connect…](https://github.com/firecrawl/firecrawl/commit/8e7e5887cfd69e1db2d3f16be22a642a02370aec) | micahstairs |
+| 2026-11-17 | [chore(api): remove the /v1/fireclaw route (#5800)](https://github.com/firecrawl/firecrawl/commit/7a1c6e30f537df1f7946afe8b6a9e82f22d121a7) | mogery |
+| 2026-11-17 | [feat(pdf): retry transient FirePDF failures once on the sync endpoint…](https://github.com/firecrawl/firecrawl/commit/9b06378cd263c9c4c68af9321a35953814db0cd9) | abimaelmartell |
+| 2026-11-17 | [fix(pdf): re-download PDFs whose browser handoff was cut off (#5177)](https://github.com/firecrawl/firecrawl/commit/d639c7ee30aea2e9169bfd296d4063823b80da47) | abimaelmartell |
+| 2026-11-16 | [ci(api): run the core unit tests on every pull request (#5782)](https://github.com/firecrawl/firecrawl/commit/7605448d5f128466811743504d5fe69c59c532c0) | mogery |
+| 2026-11-16 | [chore: remove stale files (#5788)](https://github.com/firecrawl/firecrawl/commit/bd4c1d6a57e13eec3a3282dbb7c27c98601bdf68) | mogery |
+| 2026-11-16 | [chore(api): remove the OpenAPI spec files (#5787)](https://github.com/firecrawl/firecrawl/commit/e7e925be9f556c4860d47987aca962c7402173fe) | mogery |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 50.5k |
 | 🍴 **Forks** | 20.7k |
-| 🐞 **Open issues + PRs** | [1.8k](https://github.com/pandas-dev/pandas/issues) |
+| 🐞 **Open issues + PRs** | [1.9k](https://github.com/pandas-dev/pandas/issues) |
 | 💻 **Languages** | Python 91% · Cython 6% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `data-analysis` `pandas` `flexible` `alignment` `python` `data-science` |
-| 🕒 **Last activity** | 2026-11-15 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 414.0 MB |
+| 💾 **Size** | 416.4 MB |
 | 🌐 **Website** | https://pandas.pydata.org |
 
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 11d ago</sub>
+<sub>2026-11-04 · 12d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.0](https://github.com/pandas-dev/pandas/releases/tag/v3.1.0) — pandas 3.1.0
-<sub>2026-10-22 · 25d ago</sub>
+<sub>2026-10-22 · 26d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.0.
 > This release includes some new features, bug fixes, and performance improvements. We recommend that all users upgrade to this version.
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.0.6](https://github.com/pandas-dev/pandas/releases/tag/v3.0.6) — pandas 3.0.6
-<sub>2026-09-17 · 1mo ago</sub>
+<sub>2026-09-17 · 2mo ago</sub>
 
 > We are pleased to announce the release of pandas 3.0.6.
 > This is a patch release in the 3.0.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.0.x series upgrade to this version. This is also the first release to support Python 3.15.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [BUG: read_fwf raising TypeError with callable skiprows (GH#20603) (#7…](https://github.com/pandas-dev/pandas/commit/90acce7c7cb3c663c54e4286b5065fc9c8ac63df) | jbrockmendel |
-| 2026-11-15 | [ENH: future.python_scalars for Series.tolist and Series.asof (#72108)](https://github.com/pandas-dev/pandas/commit/ed6da921d4059c29a6ae33f5982c561b8f6ccdef) | rhshadrach |
-| 2026-11-15 | [BUG: localize zoneinfo datetimes outside the stdlib datetime range (G…](https://github.com/pandas-dev/pandas/commit/535937a3c69f457da03bf286c11251aaf571c9d7) | hatemadi15 |
-| 2026-11-15 | [BUG: datetimelike add/sub with mismatched-length object array raised …](https://github.com/pandas-dev/pandas/commit/cd645faac4724e6e47b2d185efd0a8ade36aa9c1) | jbrockmendel |
-| 2026-11-15 | [BUG: fix DataFrame.plot.area and Series.plot.area on timedelta64 data…](https://github.com/pandas-dev/pandas/commit/31b8d905ba690cff9b5d128e5bb4538cd42ecf96) | mutasim-rehman |
-| 2026-11-15 | [BUG: DataFrame.plot raising KeyError when y includes the x column (GH…](https://github.com/pandas-dev/pandas/commit/c3d923fd790e90688322d1044c3cfe6bea21fc0d) | jbrockmendel |
-| 2026-11-15 | [PERF: keep 1D extension arrays of a frame other in DataFrame.where (#…](https://github.com/pandas-dev/pandas/commit/8fc0bad7783462f0a9c07f1712926455166cbf14) | fangchenli |
-| 2026-11-15 | [Sort values preserve object dtype (#72126)](https://github.com/pandas-dev/pandas/commit/03896c8905044c2061f82d279ea3bcdc77c6ea43) | mutasim-rehman |
-| 2026-11-15 | [TST: in-place clip with a float64 bound float32 cannot hold raises (G…](https://github.com/pandas-dev/pandas/commit/9706798e04ad221928bfa4890e0a33b69d7e6204) | jbrockmendel |
-| 2026-11-15 | [DOC: Fix minor wording in the 10 minutes to pandas guide (#72125)](https://github.com/pandas-dev/pandas/commit/b37001eda679503bac78c45b08e02c14a8b313b8) | Youeeeee |
+| 2026-11-17 | [BUG: qcut raises with infinite values (#69918)](https://github.com/pandas-dev/pandas/commit/fda69e407ee1aae34997938f91984677b1539407) | fabiovincenzi |
+| 2026-11-16 | [DOC: warn that to_excel writes strings starting with "=" as formulas …](https://github.com/pandas-dev/pandas/commit/3f78c15dd01c22bea029ef4e56de3cabd29e4d31) | jbrockmendel |
+| 2026-11-16 | [TST: add test for DataFrame subclass _metadata propagation in arithme…](https://github.com/pandas-dev/pandas/commit/d61c278a7c7a4c9f0b90f135a1d94b86ddd25d0c) | dilksh-sharma |
+| 2026-11-16 | [REF: use lib.no_default for dtype_backend in sql internals (GH#60326)…](https://github.com/pandas-dev/pandas/commit/d6ae4442e0e83ecd298eceab0737c47f8d0d0e9c) | jbrockmendel |
+| 2026-11-16 | [BUG: DataFrame.corr with an array-like passed as method (GH#11260) (#…](https://github.com/pandas-dev/pandas/commit/5d60cda5b9f5839a4270f38f95d704d34d4f6a22) | jbrockmendel |
+| 2026-11-16 | [DOC: document how freq affects to_timestamp (GH#59371) (#72116)](https://github.com/pandas-dev/pandas/commit/6172bbfd3d1706309d1854ad0ea8bab927ceca96) | jbrockmendel |
+| 2026-11-16 | [BUG: raise ValueError for mismatched-length sparse and period arithme…](https://github.com/pandas-dev/pandas/commit/f388be6f6f64952e05556e05309c47d5a7dceaf4) | jbrockmendel |
+| 2026-11-16 | [BUG: DataFrame.boxplot labels with array-like by (GH#23007) (#72130)](https://github.com/pandas-dev/pandas/commit/54182b0b3b5879337a3acd5e8ca4ab086d525d14) | jbrockmendel |
+| 2026-11-16 | [BUG: validate fill value in datetimelike array fillna with no NAs (GH…](https://github.com/pandas-dev/pandas/commit/2dfd09679c3a2cfb1c5a70e8561f20abb6912895) | jbrockmendel |
+| 2026-11-16 | [CI: use -n auto with mypy (#72147)](https://github.com/pandas-dev/pandas/commit/4ef16d6007b5293e04e2a957d103374e53bc780b) | rhshadrach |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

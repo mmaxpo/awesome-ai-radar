@@ -22,41 +22,41 @@
 |---|---|
 | ⭐ **Stars** | 9.3k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [133](https://github.com/MervinPraison/PraisonAI/issues) |
+| 🐞 **Open issues + PRs** | [95](https://github.com/MervinPraison/PraisonAI/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 13% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `aiagents` `framework` `ai-agent-framework` `ai-agents` `multi-agent` `multi-agent-system` `multi-agents` `ai-agent-sdk` `ai-agents-sdk` `openclaw` `air-gapped` `llm` `on-premise` `private-ai` `python` `regulated-industries` `self-hosted` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-03-19 |
 | 📦 **Latest release** | [v4.7.25](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.25) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 120.1 MB |
+| 💾 **Size** | 121.3 MB |
 | 🌐 **Website** | https://praison.ai |
 
 ## 📦 Recent releases
 
 ### [v4.7.25](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.25) — PraisonAI v4.7.25
-<sub>2026-11-14 · 2d ago</sub>
+<sub>2026-11-14 · 3d ago</sub>
 
 > Release v4.7.25
 
 ### [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) — PraisonAI v4.7.24
-<sub>2026-11-05 · 10d ago</sub>
+<sub>2026-11-05 · 11d ago</sub>
 
 > Release v4.7.24
 
 ### [v4.7.23](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.23) — PraisonAI v4.7.23
-<sub>2026-11-03 · 13d ago</sub>
+<sub>2026-11-03 · 14d ago</sub>
 
 > Release v4.7.23
 
 ### [v4.7.22](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.22) — PraisonAI v4.7.22
-<sub>2026-10-30 · 16d ago</sub>
+<sub>2026-10-30 · 17d ago</sub>
 
 > Release v4.7.22
 
 ### [v4.7.21](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.21) — PraisonAI v4.7.21
-<sub>2026-10-27 · 20d ago</sub>
+<sub>2026-10-27 · 21d ago</sub>
 
 > Release v4.7.21
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [docs: auto-update feature parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/e0cfc5c49746a284bba3ec5b9268b6680f6a727d) | MervinPraison |
-| 2026-11-16 | [fix(llm): define module logger used by can_use_tools/can_use_stop_wor…](https://github.com/MervinPraison/PraisonAI/commit/917f106aed458da9ba9c81b80703690c05825bb9) | sarankumar1325 |
-| 2026-11-16 | [test: add 29 split core-shard regression sets to CI (dajiaohuang, #63…](https://github.com/MervinPraison/PraisonAI/commit/c8e35e26060d73dd88c042ef1f63405776dcb785) | MervinPraison |
-| 2026-11-16 | [fix: localize default notification quiet hours (#6361)](https://github.com/MervinPraison/PraisonAI/commit/514ea0be4a553b8ee8095da40f26d2d5363448de) | dajiaohuang |
-| 2026-11-16 | [docs: clarify cumulative tool call budget (#6276)](https://github.com/MervinPraison/PraisonAI/commit/c060462e661f9c5363ac6e5c1542b0017b1b1e25) | dajiaohuang |
-| 2026-11-16 | [Propagate session directory listing errors (#6407)](https://github.com/MervinPraison/PraisonAI/commit/6f49690ed6950d3b49093a4b4fe9b0ab7667a98f) | dajiaohuang |
-| 2026-11-16 | [docs: clarify session storage and retention (#6411)](https://github.com/MervinPraison/PraisonAI/commit/efb73d8c0fc1cebeb1d607c7662156eaf8f540a9) | dajiaohuang |
-| 2026-11-16 | [fix: drain session mirror enqueues during close (#6412)](https://github.com/MervinPraison/PraisonAI/commit/9d1b03b56914d05df13f27f8ed393724ce07497f) | dajiaohuang |
-| 2026-11-16 | [Show renamed session titles in browse results (#6409)](https://github.com/MervinPraison/PraisonAI/commit/b1f0249a95c79536d06795a383790e3cc3e03b8f) | dajiaohuang |
-| 2026-11-16 | [Propagate session scan directory failures (#6408)](https://github.com/MervinPraison/PraisonAI/commit/b49b92b0e833eed686a6113d811466c56ef92d50) | dajiaohuang |
+| 2026-11-17 | [docs: auto-update feature parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/56be4933ad9565c05e18abc27f89df59bfda7739) | MervinPraison |
+| 2026-11-17 | [Merge pull request #6552 from MervinPraison/integrate-batch-2](https://github.com/MervinPraison/PraisonAI/commit/204201b36f7b5b32c721ea4d58c653dbf33fe587) | MervinPraison |
+| 2026-11-17 | [contract: no expected failures left; module logger for new log calls](https://github.com/MervinPraison/PraisonAI/commit/9c90e6ce557823c59aa9066428196e9436bfbe87) | MervinPraison |
+| 2026-11-17 | [test: trace control asserts every stream chunk passes through (F-08)](https://github.com/MervinPraison/PraisonAI/commit/cbd2634928333f495d5853978b8ccc1f8a9fb786) | MervinPraison |
+| 2026-11-17 | [fix: litellm streams record token usage and cost (F-08, litellm routes)](https://github.com/MervinPraison/PraisonAI/commit/77c40eccf928f3a83059373cb5d745c12fa8fbb9) | MervinPraison |
+| 2026-11-17 | [fix: streamed budget stop raises instead of falling back to chat() (F…](https://github.com/MervinPraison/PraisonAI/commit/0e0cb020fd455232bb33ddae96b618396bbde95f) | MervinPraison |
+| 2026-11-17 | [fix: OpenAI stream records token usage and cost (F-08, OpenAI route)](https://github.com/MervinPraison/PraisonAI/commit/7632ebe112a0593bbf69abee5dcc3ee9b5817f9f) | MervinPraison |
+| 2026-11-17 | [Merge origin/fix/F-05-responses-stream (contract file resolved later)](https://github.com/MervinPraison/PraisonAI/commit/f1a1504611efd1fbb5c50a1a56dfedede02a3a82) | MervinPraison |
+| 2026-11-17 | [Merge origin/fix/F-11-stream-trace (contract file resolved later)](https://github.com/MervinPraison/PraisonAI/commit/5159ad2e3c573a2ccda7881eb5358e21d32fbb8b) | MervinPraison |
+| 2026-11-17 | [Merge origin/fix/F-13-stream-deferred (contract file resolved later)](https://github.com/MervinPraison/PraisonAI/commit/4eea51c6ba03de5fbbbf7d1c86ab595fbd0f4237) | MervinPraison |
 
 [See all commits ↗](https://github.com/MervinPraison/PraisonAI/commits)
 

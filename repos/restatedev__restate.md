@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.7k |
-| 🍴 **Forks** | 236 |
-| 🐞 **Open issues + PRs** | [460](https://github.com/restatedev/restate/issues) |
+| 🍴 **Forks** | 237 |
+| 🐞 **Open issues + PRs** | [470](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 117.1 MB |
+| 💾 **Size** | 116.6 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 14d ago</sub>
+<sub>2026-11-02 · 15d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.7.14](https://github.com/restatedev/restate/releases/tag/v1.7.14)
-<sub>2026-10-22 · 24d ago</sub>
+<sub>2026-10-22 · 25d ago</sub>
 
 > **Restate v1.7.14**
 > Restate v1.7.14 is a security release. Restate now rejects TLS certificates issued through compromised emSign intermediate CAs. The release also updates the bundled TLS library to fix several recently disclosed vulnerabilities, and refreshes the OS trust store shipped in the Docker image.
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.8.1](https://github.com/restatedev/restate/releases/tag/v1.8.1)
-<sub>2026-10-21 · 26d ago</sub>
+<sub>2026-10-21 · 27d ago</sub>
 
 > **Restate v1.8.1**
 > v1.8.1 is a drop-in upgrade from v1.8.0, and you can roll back to v1.8.0 unless you enable signal recording. If you are still on v1.7.x, follow the [v1.8.0 upgrade requirements](https://github.com/restatedev/restate/blob/main/release-notes/v1.8.0.md#upgrade--rollback-guidance).
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [[QueryEngineV2] Pin datafusion-distributed to our fork with the termi…](https://github.com/restatedev/restate/commit/18314d9e43df9ea524b38e533962cd59c31f35b8) | AhmedSoliman |
-| 2026-11-16 | [[QueryEngineV2] Select the V2 engine in Admin queries and the SQL CLI](https://github.com/restatedev/restate/commit/d128849a5859fda62017f48437e8eaeb4faaa2e8) | AhmedSoliman |
-| 2026-11-16 | [[QueryEngineV2] Serve the indexes and migration_jobs tables from V2](https://github.com/restatedev/restate/commit/5f4e9362d75698f5664269ff2c56c10d8035c937) | AhmedSoliman |
-| 2026-11-16 | [[QueryEngineV2] Add the V2 query engine crate](https://github.com/restatedev/restate/commit/dcb3ab659fe655467f6453acd63604ba1620e9af) | AhmedSoliman |
-| 2026-11-16 | [[Storage] Universal compaction for partition stores and the log-server](https://github.com/restatedev/restate/commit/64a6b2d19a8f53bddf1faa53c841667d72dd67c9) | AhmedSoliman |
-| 2026-11-15 | [[QueryEngineV2] Admit query reads through the partition processor](https://github.com/restatedev/restate/commit/756a74ed50eb965b91b8bae248980d17ff47a906) | AhmedSoliman |
-| 2026-11-15 | [[QueryEngineV2] Add network protocol V7 and the distributed query tas…](https://github.com/restatedev/restate/commit/c2214c2b5fec9ac0beb5a3c1b725c671ed5a81de) | AhmedSoliman |
-| 2026-11-15 | [[DataFusion] Report remote scan failures as external errors, not Data…](https://github.com/restatedev/restate/commit/12adfb14c497b1577b1bba117f769e5eba941ee6) | AhmedSoliman |
-| 2026-11-15 | [[CI] Lock rust-toolchain from master instead of stable](https://github.com/restatedev/restate/commit/b0ac8748bc92513ee27b6e0c07202fefab601f26) | AhmedSoliman |
-| 2026-11-14 | [[Query] Show why a background migration isn't progressing in migratio…](https://github.com/restatedev/restate/commit/123f98b53e35343be85f952e67b62cda2ed511a7) | AhmedSoliman |
+| 2026-11-17 | [Journal entries track related blob (#5858)](https://github.com/restatedev/restate/commit/530e177dab41ed0b7fc1062c7ed030b57ddc037a) | muhamadazmy |
+| 2026-11-17 | [[RocksDB] Configurable SST compression for L0, other levels and the b…](https://github.com/restatedev/restate/commit/f28ae677d9ad6d5dc516b0634bc596420fe9fb44) | AhmedSoliman |
+| 2026-11-17 | [[QueryEngineV2] Look up sys_locks by scope and lock name instead of s…](https://github.com/restatedev/restate/commit/be65cb42f3e0bbaa89c3c6cda621558958443f4e) | AhmedSoliman |
+| 2026-11-17 | [[PartitionStore] Look up keys of any length, checked before decoding](https://github.com/restatedev/restate/commit/907f48ed8f4c60f1733bdc28aafd0c01fec3cfad) | AhmedSoliman |
+| 2026-11-17 | [[QueryEngineV2] Keep the session's batch size on filters pushed throu…](https://github.com/restatedev/restate/commit/1da26dc5fd402e72cda43f14e90b203308a4cb9f) | AhmedSoliman |
+| 2026-11-17 | [[QueryEngineV2] Look up sys_vqueue_meta by queue ID instead of scanning](https://github.com/restatedev/restate/commit/72a35047b8306b46cbb7989ab10255e25fa8f870) | AhmedSoliman |
+| 2026-11-17 | [[PartitionStore] Look up a table's records by complete key](https://github.com/restatedev/restate/commit/a233bea42bff161201b522f3582a9798859a2a24) | AhmedSoliman |
+| 2026-11-17 | [[UI] Updating Restate UI to v1.1.6 published at https://github.com/re…](https://github.com/restatedev/restate/commit/f0cfcae2b935cfe6f80de9a72a180f976da1c66c) | restatedev-web-ui[bot] |
+| 2026-11-16 | [Bump rust-version to 1.100.0](https://github.com/restatedev/restate/commit/834f388afee001ab7bd44547908031d56eb422c9) | tillrohrmann |
+| 2026-11-16 | [[QueryEngineV2] Count partition reads per query in the scope-bound re…](https://github.com/restatedev/restate/commit/42707fdb06a70f78c0454751b20dbc4ee092ec44) | AhmedSoliman |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

@@ -26,17 +26,17 @@
 | 💻 **Languages** | C++ 86% · Python 4% · C 3% · CMake 2% · Java 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `opencv` `c-plus-plus` `computer-vision` `deep-learning` `image-processing` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2012-07-19 |
 | 📦 **Latest release** | [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — 2026-11-06 |
 | 🌿 **Default branch** | `5.x` |
-| 💾 **Size** | 558.5 MB |
+| 💾 **Size** | 558.7 MB |
 | 🌐 **Website** | https://opencv.org |
 
 ## 📦 Recent releases
 
 ### [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — OpenCV 5.1.0
-<sub>2026-11-06 · 10d ago</sub>
+<sub>2026-11-06 · 11d ago</sub>
 
 > OpenCV 5.1.0 has been released.
 > :hammer_and_wrench: Change log is [here](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version510).
@@ -73,16 +73,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [Optimize CI runtime, enable ci:fast and ci:full (#30802)](https://github.com/opencv/opencv/commit/5d112831b5914b2c6b56fec797162bc7f21aae0b) | abhishek-gola |
-| 2026-11-16 | [doc(core): note unspecified NaN handling in minMaxLoc and minMaxIdx (…](https://github.com/opencv/opencv/commit/7a8d99e6b2253d32d8746f74a8f9805eee9c0c52) | sshivensolanki |
-| 2026-11-15 | [Merge pull request #30774 from tanveer-arch/fix-applycolormap-1x256](https://github.com/opencv/opencv/commit/b3d14b1caf41abb74d101a898b1fcae841152a24) | abhishek-gola |
-| 2026-11-15 | [dnn: compute LogSoftmax without taking the log of softmax (5.x) 🤖🤖🤖 (…](https://github.com/opencv/opencv/commit/d87ac83e055e7ccff8d803e3c40de3289905bb90) | usmanmateen |
-| 2026-11-15 | [doc(core): fix LUT index formula for CV_8S and CV_16S inputs (#30793)](https://github.com/opencv/opencv/commit/cc26a67b62279ce137f327a9c6a6f826fef3928e) | sshivensolanki |
-| 2026-11-15 | [samples: add error check for invalid frame count in application_trace…](https://github.com/opencv/opencv/commit/be7eede9c5abc22ec53cc02bef6e61ca53d0de25) | sultan-ai-and-ml |
-| 2026-11-15 | [Merge pull request #30679 from amd/port_5.x_pyrDown](https://github.com/opencv/opencv/commit/b6185cb36571aada94dbffe6868542ef9e60a1af) | madanm3 |
-| 2026-11-13 | [Fix dead links in Python tutorials (#30775)](https://github.com/opencv/opencv/commit/205613a29728c2217049bdddbbe98322b485b34e) | mgeethikasaisri09-eng |
-| 2026-11-13 | [Merge pull request #30706 from sshivensolanki/core-locateroi-1d (#30706)](https://github.com/opencv/opencv/commit/efe44093c383b7996b27da98f595dddc18f05a89) | sshivensolanki |
-| 2026-11-13 | [Merge pull request #30655 from sshivensolanki/core-add-sub-64-saturat…](https://github.com/opencv/opencv/commit/f62ce23b91a846e60103f222cab406e34638570e) | abhishek-gola |
+| 2026-11-17 | [Merge pull request #30867 from pratham-mcw:cornersubpix_opt_5x](https://github.com/opencv/opencv/commit/7fd928ae7036bf488d47259a7fe0043190e6d58a) | asmorkalov |
+| 2026-11-17 | [Merge pull request #30618 from vpisarev:dft_opt](https://github.com/opencv/opencv/commit/a30d2be6ead1f4a5fde0b446ce2e4a86c9370ea3) | vpisarev |
+| 2026-11-17 | [Merge pull request #30847 from pratham-mcw:inpaint_opt_5x](https://github.com/opencv/opencv/commit/82028f2e5ca2b88691fbbf2387abeeaa134cc588) | asmorkalov |
+| 2026-11-17 | [Merge pull request #30709 from peters:dnn/cuda102-reduce](https://github.com/opencv/opencv/commit/e04069c2b72c1ed5d3f2b65498dcedaf74a533a6) | asmorkalov |
+| 2026-11-17 | [Merge pull request #30886 from sshivensolanki:core-magnitude-phase-nd](https://github.com/opencv/opencv/commit/6d711375a127ab41e5ab062a0ea6920d7902b974) | asmorkalov |
+| 2026-11-17 | [Merge pull request #30879 from pratham-mcw:cvtColor_opt_5x](https://github.com/opencv/opencv/commit/cfc236d75ead15d9cb332424fe0e19fed53c6c7a) | asmorkalov |
+| 2026-11-17 | [Merge pull request #30877 from sshivensolanki/core-convert-bool-negat…](https://github.com/opencv/opencv/commit/5c98cb61a8b65c1daaf6f37ea6908ac2bfba3ffd) | asmorkalov |
+| 2026-11-17 | [Merge pull request #30872 from pratham-mcw:sortIdx_opt_5x](https://github.com/opencv/opencv/commit/84c8ba4e393053e41deb88470b6eb943ba3a6895) | asmorkalov |
+| 2026-11-17 | [ptcloud: check attribute counts against vertices in PlyEncoder 🤖🤖🤖 (#…](https://github.com/opencv/opencv/commit/d4783f1025aeca0cf97092f8367dfcee51b9b29f) | uwezkhan |
+| 2026-11-17 | [features2d: clear knnMatch output before matching (#30856)](https://github.com/opencv/opencv/commit/043c56d04cc291ab94847706bbea13676c828a9e) | pbkx |
 
 [See all commits ↗](https://github.com/opencv/opencv/commits)
 

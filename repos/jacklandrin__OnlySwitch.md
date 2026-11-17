@@ -23,7 +23,7 @@
 | ⭐ **Stars** | 6.1k |
 | 🍴 **Forks** | 249 |
 | 🐞 **Open issues + PRs** | [26](https://github.com/jacklandrin/OnlySwitch/issues) |
-| 💻 **Languages** | Swift 80% · HTML 14% · JavaScript 5% |
+| 💻 **Languages** | Swift 80% · HTML 13% · JavaScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `macos` `swiftui` `statusbar` `menubar-app` `notch` `audioplayer` `dark-mode` `pomodoro-timer` `shortcuts` `composable-architecture` `stagemanager` `widgetkit` `widgets` `ai` `ai-agents` `remote-control` `systemmonitor` `claude-code` `codex` `screenshot` |
 | 🕒 **Last activity** | 2026-11-16 (today) |
@@ -35,8 +35,19 @@
 
 ## 📦 Recent releases
 
-### [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 3.7.0
+### [beta_3.8.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.8.0) _(pre-release)_
 <sub>2026-11-16 · today</sub>
+
+> New features:
+> * Added a Display Brightness master switch in Settings → Display. Turn brightness controls off or back on without restarting OnlySwitch.
+> * Added an opt-in “Control External Displays via DDC” setting, off by default. Displays without native brightness control use software dimming while DDC is off.
+> Improvement:
+> * Include both new display settings in settings backups.
+> Bugfix:
+> …
+
+### [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 3.7.0
+<sub>2026-11-16 · yesterday</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
@@ -47,7 +58,7 @@
 > …
 
 ### [beta_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.7.0) _(pre-release)_
-<sub>2026-11-15 · today</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
@@ -58,7 +69,7 @@
 > …
 
 ### [release_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.6.0)
-<sub>2026-11-10 · 5d ago</sub>
+<sub>2026-11-10 · 6d ago</sub>
 
 > New features:
 > 1. Screenshots tab supported video recording
@@ -69,7 +80,7 @@
 > …
 
 ### [beta_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.6.0) _(pre-release)_
-<sub>2026-11-08 · 7d ago</sub>
+<sub>2026-11-08 · 8d ago</sub>
 
 > New features:
 > * Supported screen record
@@ -78,21 +89,12 @@
 > Bugfix:
 > * Fix screenshots & record button issue
 
-### [release_3.5.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.5.0)
-<sub>2026-11-06 · 9d ago</sub>
-
-> New features:
-> * Added Schedule mode
-> * Supported sync built-in screen's brightness to external displays
-> * Brightness supported to manually input value
-> * Redesigned settings screen
-> * Desk pet supported to open Apple Music and Spotify
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [bump version](https://github.com/jacklandrin/OnlySwitch/commit/839ae694c8866d0548338abcd3648426b31c95a0) | jacklandrin |
+| 2026-11-16 | [feat: add Display Brightness master switch and opt-in external DDC co…](https://github.com/jacklandrin/OnlySwitch/commit/6ef4f059fee494a25827e26b5d58a11aa87affd9) | jacklandrin |
 | 2026-11-16 | [docs: document OnlySwitch 3.7.0 features and advance release build](https://github.com/jacklandrin/OnlySwitch/commit/de4eb6b4878ae7d320808932613d353e6686f2d2) | jacklandrin |
 | 2026-11-16 | [perf: show the Dock preview sooner without misplacing it](https://github.com/jacklandrin/OnlySwitch/commit/af7211b72abc218205038ee38ccc6f231c6512ef) | jacklandrin |
 | 2026-11-16 | [chore: bump build number to 314](https://github.com/jacklandrin/OnlySwitch/commit/0e155dc1ad41c47e7669bc156bf7e79763b7e508) | jacklandrin |
@@ -101,8 +103,6 @@
 | 2026-11-14 | [feat: submit the desktop pet prompt with Return](https://github.com/jacklandrin/OnlySwitch/commit/2db3c8b981613a49080838ece7b66b89235f0763) | jacklandrin |
 | 2026-11-14 | [fix: align the desktop pet prompt placeholder with the caret](https://github.com/jacklandrin/OnlySwitch/commit/29625e41cbed0ecc93e433005c864796eddc4fcf) | jacklandrin |
 | 2026-11-14 | [fix: fence the current pet markup in the edit prompt and polish edit …](https://github.com/jacklandrin/OnlySwitch/commit/8dbe2fe3a93830f138426f728135d280d48f6eba) | jacklandrin |
-| 2026-11-14 | [feat: edit generated desktop pets with AI](https://github.com/jacklandrin/OnlySwitch/commit/343d4b1f1bd49a969989a8d4d8d523b4e8b1776b) | jacklandrin |
-| 2026-11-14 | [fix: keep the desktop pet delete button separate from row selection](https://github.com/jacklandrin/OnlySwitch/commit/0f5731b4111dfdbbeefb5beca7ef63f178fc4c38) | jacklandrin |
 
 [See all commits ↗](https://github.com/jacklandrin/OnlySwitch/commits)
 

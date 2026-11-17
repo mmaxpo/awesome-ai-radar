@@ -24,7 +24,7 @@
 | 💻 **Languages** | JavaScript 84% · CSS 13% · HTML 3% |
 | 📜 **License** | Unlicense |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-10-18 (29d ago) |
+| 🕒 **Last activity** | 2026-10-18 (1mo ago) |
 | 📅 **Created** | 2025-02-08 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

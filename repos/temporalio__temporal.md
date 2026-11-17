@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 24.4k |
+| ⭐ **Stars** | 24.5k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [1.2k](https://github.com/temporalio/temporal/issues) |
+| 🐞 **Open issues + PRs** | [1.1k](https://github.com/temporalio/temporal/issues) |
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 171.4 MB |
+| 💾 **Size** | 172.3 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [WHN metrics 2: add Update-aware WHN metrics with read-only registry c…](https://github.com/temporalio/temporal/commit/170fb83dca48fe82d69aa3ec3b6fe25acfc1791b) | feiyang3cat |
-| 2026-11-14 | [Expose Nexus caller RPS throttle status in Describe (#13000)](https://github.com/temporalio/temporal/commit/623e5f171d11a33750818326519f8cb9738257db) | prathyushpv |
-| 2026-11-14 | [Use CHASM UpdateWithStart in SANO. (#13070)](https://github.com/temporalio/temporal/commit/98925be15707693868c3a900a5d41df126da7fdf) | chanric |
-| 2026-11-13 | [schedulertest: CHASM scheduler lifecycle driver, start ledger invaria…](https://github.com/temporalio/temporal/commit/e0bcb743c4549198417326b2bcd45fcb8ccda9c7) | davidporter-id-au |
-| 2026-11-13 | [Tag Nexus operation failures by reason (#12340)](https://github.com/temporalio/temporal/commit/73f1acad34605ae6fe973579129adf45fb8c1dee) | stephanos |
-| 2026-11-13 | [Chasm request id cleanup (#13029)](https://github.com/temporalio/temporal/commit/d577f5d58511b164fb91a4d1d96c2e4a8608d673) | chanric |
-| 2026-11-13 | [Require matching request IDs for Nexus completions (#13077)](https://github.com/temporalio/temporal/commit/cbeb97f432b69ca02d5a2e5f4112b70bbaf7edf6) | tekkaya |
-| 2026-11-13 | [Keep CHASM schedule buffers progressing after discarded or failed sta…](https://github.com/temporalio/temporal/commit/3aec1dcef0c08a19868983c97f577eeeec3083fc) | chaptersix |
-| 2026-11-12 | [WHN metrics 1: add metrics of events that may generate workflow heart…](https://github.com/temporalio/temporal/commit/d2d307a0e06eb83f15d1301d39249b1c7554530c) | feiyang3cat |
-| 2026-11-12 | [Use SQLite by default for mixed brain tests (#13048)](https://github.com/temporalio/temporal/commit/f16ceaa388296c2e412d79395a99444174319596) | stephanos |
+| 2026-11-17 | [fix: refuse polls that arrive after ShutdownWorker of an unloaded tas…](https://github.com/temporalio/temporal/commit/a1e005230fbe050c83c8c285dcbf0bbfbd7093b4) | moetemp |
+| 2026-11-17 | [Add CHASM Speculative Transition (#13025)](https://github.com/temporalio/temporal/commit/23e4eab0337a0df7c65e4e1132651941f8a8209b) | chanric |
+| 2026-11-17 | [Align Schedules V1/V2 metric label sets for Prometheus (#12270)](https://github.com/temporalio/temporal/commit/b116145b754d87a12463434ce33bf9afc89bde20) | davidporter-id-au |
+| 2026-11-17 | [Sanitize Nexus return-path links (#12956)](https://github.com/temporalio/temporal/commit/38e5535f2448b2670878867618726a9c3a472487) | chrsmith |
+| 2026-11-17 | [Cap the total size of links attached to a CHASM execution (#12955)](https://github.com/temporalio/temporal/commit/763c820eb3487af077d801f102e617c1975b3196) | chrsmith |
+| 2026-11-17 | [Standardize link validation on an injected links.Validator (#12954)](https://github.com/temporalio/temporal/commit/3bbfa0bbc0d27645e5ce813e4c64d8b03645f568) | chrsmith |
+| 2026-11-16 | [Validate migrated schedule state (#13125)](https://github.com/temporalio/temporal/commit/5d3e50a91f2b8b6fff6ab486a0b904e2639785f7) | chaptersix |
+| 2026-11-16 | [verify query task (#13097)](https://github.com/temporalio/temporal/commit/8b1df85d697287095b3f2156e4a14bb7587fdb66) | feiyang3cat |
+| 2026-11-16 | [Bump temporal-auto-scaled-workers to 782664acf475 to skip task add ho…](https://github.com/temporalio/temporal/commit/a6d5f5feb3d9a81fec59a77c56a7ddc8f3f5dd12) | mani-j9 |
+| 2026-11-16 | [Accept SOFT_DELETE namespace state in metadata manager (#13002)](https://github.com/temporalio/temporal/commit/d07491318a628f477a9369c8eaa183bb3de31459) | awln-temporal |
 
 [See all commits ↗](https://github.com/temporalio/temporal/commits)
 

@@ -28,15 +28,26 @@
 | 🏷 **Topics** | `ai` `llm` `api` `chatbot` `chatgpt` `database` `docker` `frontend` `openai` `postgresql` `privacy` `security` `typescript` `html` `javascript` `react` `rag` `vector` `groq` `framework` |
 | 🕒 **Last activity** | 2026-11-16 (today) |
 | 📅 **Created** | 2023-05-12 |
-| 📦 **Latest release** | [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2) — 2026-10-30 |
+| 📦 **Latest release** | [v2.0.3](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.3) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 171.3 MB |
 | 🌐 **Website** | https://www.thevibecompany.co/en/portfolio/quivr |
 
 ## 📦 Recent releases
 
+### [v2.0.3](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.3)
+<sub>2026-11-16 · today</sub>
+
+> **Quivr 2.0.3**
+> 2.0.3 is a security and fix release. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.
+> **Security fixes**
+> - **Go 1.27.4** builds every Quivr binary and image (GO-2026-6859, in `net/http`).
+> - **PostgreSQL 17.12** replaces 17.11 in the database image. It ships zlib 1.4 (CVE-2026-4738). This is a PostgreSQL minor release: the data on disk stays as it is.
+> - **SeaweedFS**, which stores original files, gets zlib 1.4 (CVE-2026-4738) and brotli v1.2.7 (GO-2026-6888).
+> …
+
 ### [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2)
-<sub>2026-10-30 · 16d ago</sub>
+<sub>2026-10-30 · 18d ago</sub>
 
 > **Quivr 2.0.2**
 > 2.0.2 moves the search database to Weaviate 1.39.14. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.
@@ -47,7 +58,7 @@
 > …
 
 ### [v2.0.1](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.1)
-<sub>2026-10-30 · 17d ago</sub>
+<sub>2026-10-30 · 18d ago</sub>
 
 > **Quivr 2.0.1**
 > 2.0.1 is a security release. It changes no API, no configuration and no stored data. Upgrade any 2.0.0 installation to it.
@@ -58,7 +69,7 @@
 > …
 
 ### [v2.0.0](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.0) — Quivr 2.0.0
-<sub>2026-10-29 · 17d ago</sub>
+<sub>2026-10-29 · 18d ago</sub>
 
 > **Quivr 2.0.0**
 > Quivr is an open-source engine for content that keeps arriving. Your application, or Quivr's sources (RSS, Microsoft 365 mailboxes, X lists), send it documents. Quivr keeps every version of each document and makes it searchable within seconds, by keywords, by meaning, or both. It also checks every new document against your saved alerts. Quivr has no user interface: your application talks to it over an HTTP API, and AI agents use it through `quivr mcp`.
@@ -79,21 +90,13 @@
 > * **admin:** say when no alert applies to a document ([#3872](https://github.com/The-Vibe-Company/quivr/issues/3872)) ([c67f4ac](https://github.com/The-Vibe-Company/quivr/commit/c67f4ac89b0705a576e3e406cf0818cb42a3378c))
 > …
 
-### [v2.0.0-alpha.6](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.0-alpha.6) _(pre-release)_
-<sub>2026-10-08 · 1mo ago</sub>
-
-> **[2.0.0-alpha.6](https://github.com/The-Vibe-Company/quivr/compare/v2.0.0-alpha.5...v2.0.0-alpha.6) (2026-10-08)**
-> **Features**
-> * **autoscaling:** scale bulk workers from queue backlog ([#3818](https://github.com/The-Vibe-Company/quivr/issues/3818)) ([b7267a7](https://github.com/The-Vibe-Company/quivr/commit/b7267a7f52d9c0c275372ddf87db299fd87a0dda))
-> * **connectors:** pause and resume continuing imports ([#3844](https://github.com/The-Vibe-Company/quivr/issues/3844)) ([fa06fe4](https://github.com/The-Vibe-Company/quivr/commit/fa06fe4cf274a798147929733b6c5da26c0133b6))
-> * **content:** count metadata values for facets ([#3789](https://github.com/The-Vibe-Company/quivr/issues/3789)) ([63d76a9](https://github.com/The-Vibe-Company/quivr/commit/63d76a953fb3e42beb6fb771e86eec0f0d0fa009))
-> * **corpora:** add archive, restore and rename ([#3817](https://github.com/The-Vibe-Company/quivr/issues/3817)) ([939e273](https://github.com/The-Vibe-Company/quivr/commit/939e273e61a2bcd28fc809886b18d4c57542d5d8))
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-16 | [chore(main): release 2.0.3 (#3981)](https://github.com/The-Vibe-Company/quivr/commit/87f3743fa42f83a03d7cc5e9f0e324d0e5dcb5c9) | StanGirard |
+| 2026-11-16 | [fix(images): build on Go 1.27.4 and patch zlib and brotli in Postgres…](https://github.com/The-Vibe-Company/quivr/commit/b29e91957dfa9f12720478f344f628ea922d0101) | StanGirard |
+| 2026-11-16 | [fix(demo): make idempotency keys without crypto.randomUUID over plain…](https://github.com/The-Vibe-Company/quivr/commit/890b9689ca5a8b8a422be7017aa29522a259fe5f) | StanGirard |
 | 2026-11-02 | [test(demo): walk every main journey of the demo with TesterArmy e2e (…](https://github.com/The-Vibe-Company/quivr/commit/bb1b19ecf4094dbd1e309e521ce8b5fed4fb539f) | StanGirard |
 | 2026-11-02 | [fix(demo): pin alerts to the plugin version the core serves (#3980)](https://github.com/The-Vibe-Company/quivr/commit/25e4edf083c0fcd115ee952a048444de646604fd) | StanGirard |
 | 2026-10-30 | [chore(main): release 2.0.2 (#3977)](https://github.com/The-Vibe-Company/quivr/commit/0f9ce97492ebc2f577629bcc958f377e4f8673c0) | StanGirard |
@@ -101,9 +104,6 @@
 | 2026-10-30 | [chore(main): release 2.0.1 (#3975)](https://github.com/The-Vibe-Company/quivr/commit/5e2bdae4c6fc5f8d029501c0303c170590f1a639) | StanGirard |
 | 2026-10-30 | [fix(deploy): pin Weaviate 1.39.13 for CVE-2026-111943 (#3973)](https://github.com/The-Vibe-Company/quivr/commit/191d35f195c087852b5387e0887def9b95435bb8) | StanGirard |
 | 2026-10-30 | [fix(images): rebase on Python 3.12.16 and patch brotli in TEI (#3974)](https://github.com/The-Vibe-Company/quivr/commit/84e5c4ec5a45077952326d6387bf434d6dd175f9) | StanGirard |
-| 2026-10-29 | [chore(main): release 2.0.0 (#3955)](https://github.com/The-Vibe-Company/quivr/commit/e91e3d6c30e554d015974bfa69926cee5001bca4) | StanGirard |
-| 2026-10-29 | [fix(release): check out before downloading signed images in publish (…](https://github.com/The-Vibe-Company/quivr/commit/313f51e361b737f7986522493e26f0f1fa411ef7) | StanGirard |
-| 2026-10-29 | [docs(readme): add the Ask DeepWiki badge (#3972)](https://github.com/The-Vibe-Company/quivr/commit/bfed77dbf70f34996391d74908e4d21bbc2689ea) | StanGirard |
 
 [See all commits ↗](https://github.com/The-Vibe-Company/quivr/commits)
 

@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 329.1 MB |
+| 💾 **Size** | 329.5 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · 3d ago</sub>
+<sub>2026-11-12 · 4d ago</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 17d ago</sub>
+<sub>2026-10-29 · 19d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 19d ago</sub>
+<sub>2026-10-27 · 20d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.10](https://github.com/agno-agi/agno/releases/tag/v3.1.10)
-<sub>2026-10-23 · 24d ago</sub>
+<sub>2026-10-23 · 25d ago</sub>
 
 > **Changelog**
 > **Bug Fixes:**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.1.9](https://github.com/agno-agi/agno/releases/tag/v3.1.9)
-<sub>2026-10-22 · 24d ago</sub>
+<sub>2026-10-22 · 25d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [fix: postgres drop a failed table from MetaData so a retry can create…](https://github.com/agno-agi/agno/commit/8b5ce9f85812519a2452ff47981964b202e23828) | HhH666-ux |
+| 2026-11-17 | [[fix] Pin Daytona extra below 1.0 and hint a supported SDK (#11725)](https://github.com/agno-agi/agno/commit/9aa12c4111e9f134089e7ac8d7ea3c7b320ac779) | ningyixi |
+| 2026-11-17 | [fix: report MCPTools.connect() outcome and cleanup on CancelledError …](https://github.com/agno-agi/agno/commit/148d30fdfbc740a4c95d10d51ede8143a6cda5fa) | surlymochan |
+| 2026-11-17 | [fix: surface SQLTools fetch errors instead of returning [] (#11680)](https://github.com/agno-agi/agno/commit/8a252e15b58de6dc923f533bd356089c033d8040) | adityav1709 |
+| 2026-11-17 | [fix: qdrant honour batch_size when inserting documents (#11722)](https://github.com/agno-agi/agno/commit/f7c1c0380a8a1512dbf5aec831744d771e402d21) | HhH666-ux |
+| 2026-11-17 | [fix: preserve non-ASCII characters in skill tool outputs (#11540)](https://github.com/agno-agi/agno/commit/a0d7208e4ec3c10f493ffc46df78b24c58c49bf1) | xingjy10 |
+| 2026-11-16 | [fix: support openai-codex 0.163.0 and newer for native Codex approval…](https://github.com/agno-agi/agno/commit/11d144107895933cc6dc668eb520f7b850595d06) | sannya-singal |
 | 2026-11-16 | [fix: pin httpx2<2.16.1 so mistralai imports again (#11703)](https://github.com/agno-agi/agno/commit/3cb5054ae5f8b20b50abe9e3e7364ae1ccf8cee1) | sannya-singal |
 | 2026-11-16 | [chore: correct two docstrings that promise a returned tuple (#11550)](https://github.com/agno-agi/agno/commit/53cd81e884847341a0815b4a94b8ec8a79f478bd) | lxcxjxhx |
 | 2026-11-16 | [fix: count real lines in Workspace.read_file so max_file_lines accept…](https://github.com/agno-agi/agno/commit/b19cf8833073f7181a9a797104895e0f7816dac2) | DZH166 |
-| 2026-11-16 | [[fix] Exclude trailing line separator from FileTools.read_file line c…](https://github.com/agno-agi/agno/commit/beec536335a34c3d4a5e1f9112eb0d8e82dacad3) | ansh-rohilla |
-| 2026-11-16 | [[fix] Preserve literal hashes in page heading context (#10819)](https://github.com/agno-agi/agno/commit/7384c286becd32986b18171d4b66a89042063cb1) | Yuilona |
-| 2026-11-16 | [[fix] Read Office uploads with non-string temporary stream names (#10…](https://github.com/agno-agi/agno/commit/0b0ace90cdf3864e726d2676d7226b1959f471b2) | rudycelekli |
-| 2026-11-15 | [feat: read the Company file tree through the Company API (#11612)](https://github.com/agno-agi/agno/commit/7e87bf6fd89753ec825b1e5befc87c7f5483ef6b) | ashpreetbedi |
-| 2026-11-14 | [fix: add timeout parameter to Linear, Discord and ModelsLab tools (#1…](https://github.com/agno-agi/agno/commit/7c3b729667e66282f0d845adbd507ee07242c5eb) | ansh-rohilla |
-| 2026-11-14 | [fix: reject page 0 on /traces and apply limit without page in JSON tr…](https://github.com/agno-agi/agno/commit/005abcd4a8de617795256ac7458099ee691991f6) | nightcityblade |
-| 2026-11-14 | [[fix] Keep an explicit db_engine in SQLTools when connection fields a…](https://github.com/agno-agi/agno/commit/1849efb8072feb55ddab075de7cf7471ce1a2d1b) | desty |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

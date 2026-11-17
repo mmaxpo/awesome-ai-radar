@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 72.0k |
+| ⭐ **Stars** | 72.2k |
 | 🍴 **Forks** | 23.2k |
 | 🐞 **Open issues + PRs** | [71](https://github.com/ai-job-search-dev/ai-job-search/issues) |
 | 💻 **Languages** | Python 99% · TeX 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agents` `career` `claude-code` `cover-letter` `cv` `interview-preparation` `job-application` `job-hunting` `job-search` `latex` `resume` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-03-18 |
 | 📦 **Latest release** | [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0) — 2026-11-16 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0)
-<sub>2026-11-16 · today</sub>
+<sub>2026-11-16 · yesterday</sub>
 
 > **What's Changed**
 > * fix(scrape): send one plain term per CLI call and make portals state their query syntax (#536) by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/653
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5)
-<sub>2026-11-09 · 7d ago</sub>
+<sub>2026-11-09 · 8d ago</sub>
 
 > **What's Changed**
 > * fix(job-key): fold Latin letters without an NFKD decomposition and add --audit --migrate by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/637
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.7.4](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.4)
-<sub>2026-11-02 · 14d ago</sub>
+<sub>2026-11-02 · 15d ago</sub>
 
 > **What's Changed**
 > * fix(freehire-search): reject detail URLs on other hosts instead of asking the API for their last segment (#622) by @ayobamiseun in https://github.com/ai-job-search-dev/ai-job-search/pull/623
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.7.3](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.3) — v1.7.3 - Least privilege, postings checked before use, and fifty-eight fixes
-<sub>2026-10-19 · 27d ago</sub>
+<sub>2026-10-19 · 28d ago</sub>
 
 > A patch release in two halves. **The security model now does what the docs said it did:** skills and agents get only the tools they need, the permission file ships rules that hold even in bypass mode, and every job posting is checked for hidden instructions before anything reads it. **And contributors closed fifty-eight bugs in two weeks**, most of them found by running the real tools against real data. Seventy-one entries.
 > **Highlights**
@@ -93,6 +93,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [ci: add a stable CLI checks result job for required checks (#856)](https://github.com/ai-job-search-dev/ai-job-search/commit/f0195d1864549ea0f58e00e527398a8905f3d5d9) | jakob1379 |
 | 2026-11-16 | [feat!: move the portal skills to community-portals (#829)](https://github.com/ai-job-search-dev/ai-job-search/commit/745e6770dbcfb524ee245c89be0ff8df95924919) | jakob1379 |
 | 2026-11-12 | [fix(scrape): deduplicate candidates on the canonical key so store nev…](https://github.com/ai-job-search-dev/ai-job-search/commit/0d0d1a907a21454affa1b694acc4e2c5008a0d21) | ayobamiseun |
 | 2026-11-12 | [fix(upskill): leave jobs /rank vetoed on location or language out of …](https://github.com/ai-job-search-dev/ai-job-search/commit/8fc6d7c860b0ffff3fdb744e007ca255c02c8385) | TheMattHub |
@@ -102,7 +103,6 @@
 | 2026-11-12 | [fix(rank): hand the posting-scorer each job's key so it can return it…](https://github.com/ai-job-search-dev/ai-job-search/commit/281f9ef0e0daf06d58b250b666c9cf7a5e3532b9) | ayobamiseun |
 | 2026-11-12 | [fix(fetch): compare --out against the repo by identity, not spelling …](https://github.com/ai-job-search-dev/ai-job-search/commit/7a082b212aef4159a22144d01998dd37b9912af0) | ayobamiseun |
 | 2026-11-12 | [fix(posting-guard): refuse --out inside the repository (#732)](https://github.com/ai-job-search-dev/ai-job-search/commit/790692f63a60abf01aadc6be0a7c351a0cb5ff3f) | ayobamiseun |
-| 2026-11-11 | [docs(setup): give the private-repository path real commands in the qu…](https://github.com/ai-job-search-dev/ai-job-search/commit/a2e81c4fa65ccaf22d6163d5a946ff77ecea6348) | Yusuprozimemet |
 
 [See all commits ↗](https://github.com/ai-job-search-dev/ai-job-search/commits)
 

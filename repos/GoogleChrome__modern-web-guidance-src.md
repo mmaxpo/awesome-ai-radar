@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 7.8k |
-| 🍴 **Forks** | 686 |
+| ⭐ **Stars** | 8.3k |
+| 🍴 **Forks** | 712 |
 | 🐞 **Open issues + PRs** | [407](https://github.com/GoogleChrome/modern-web-guidance-src/issues) |
 | 💻 **Languages** | TypeScript 78% · JavaScript 15% · CSS 3% · HTML 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-01-27 |
 | 📦 **Latest release** | [audit-data](https://github.com/GoogleChrome/modern-web-guidance-src/releases/tag/audit-data) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 166.5 MB |
+| 💾 **Size** | 169.6 MB |
 | 🌐 **Website** | https://goo.gle/modern-web-guidance |
 
 ## 📦 Recent releases
@@ -44,16 +44,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [Reset scrollbar width in legacy color fallback and fix macOS notes (#…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/5e5cd33a7738f21281e3027732bcbd58cfa82bf1) | rviscomi |
-| 2026-11-13 | [js: add discipline guide, expectations, daily-grind eval, and 11 anal…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/ebb6f3aaae8652dd8938c8496e2809bc408ab986) | paulirish |
-| 2026-11-13 | [analyzing: write down which formats legacy-scan supports. refresh rea…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/768cd0d83cbef3c94964cd9e0ff9867f44200fb4) | paulirish |
-| 2026-11-13 | [analyzing: scan .scss files and blank // comments in preprocessor sty…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/562b5335197ad3d6bf157f5eee2722da733aebc0) | Janson79jc |
-| 2026-11-13 | [analyzing: extract Lit css template literals via TypeScript AST (#3583)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/607312c2d3bb09b77d844373ef8b56be6186c183) | Janson79jc |
-| 2026-11-13 | [dashboard: align internals and remaining copy with lexicon (#3586)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/ad5789a50f4251306847d5bac0ec2e39958b9b43) | paulirish |
-| 2026-11-13 | [Adds accessibility updates (#3262)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/a6b64c0d34852c3f158fe689cca5eb9353a4b6a7) | graemecoleman |
-| 2026-11-13 | [guides(form-factor-adaptation): accessibility updates (#3582)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/f813a255720b5453e6a80ccc113e17938b151dee) | IanPouncey |
-| 2026-11-13 | [analyzing: 4.5x faster legacy-scan (#3565)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/736e6a79b390c10941fe296d628e3a9f619fb43a) | paulirish |
-| 2026-11-13 | [core: fix scanDir check and remove orphaned nested guide (#3539)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/4993d31aecf618d04e68d6c99bf10a07f8a6b64c) | Prasad-Pitke |
+| 2026-11-16 | [js: real solution patches, grader fixes, and SKILL.md retrieval (#3597)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/268fb9ea69b6bc172611ded2026957826ec5b9ec) | paulirish |
+| 2026-11-16 | [evals: embed missing guide vectors before guided runs (#3599)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/ae64b8f0fa5823618de06b60eafee9776666dbf9) | paulirish |
+| 2026-11-16 | [harness: don't grade never-run tasks in partial suites. doc pi thinki…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/0376accbbfe82311db262699ea979692907860f5) | paulirish |
+| 2026-11-16 | [harness(nightly): include pass, leak, and error rates in summary emai…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/fc853bf0efb224125f8392ea0a5842b0fde854e6) | micahjo7 |
+| 2026-11-16 | [analyzing: add a format registry so new formats are a one-line change…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/19976799ebf8db67818f91093302550226b7e828) | paulirish |
+| 2026-11-16 | [feat: add Pi (pi.dev) as a supported agent (#3607)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/b730ccaed79ca84c102b473d0ddb0722f574261c) | jiangge |
+| 2026-11-16 | [passkey-authentication, hovercard: label the sign-in inputs and add a…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/48301c642449b0518de003835a2496bd30d33adb) | junaid-creo |
+| 2026-11-16 | [analyzing: ignore <script>/<style> blocks inside HTML comments (#3588)](https://github.com/GoogleChrome/modern-web-guidance-src/commit/b4370ed9f4eb6455ebdda8190acd91e355a40eda) | on-retryx |
+| 2026-11-16 | [test(ci): pass explicit weeklyProgressPoints in synthetic pipeline re…](https://github.com/GoogleChrome/modern-web-guidance-src/commit/102b34b044d9935dfac584c4c6c92f521651eb2f) | micahjo7 |
+| 2026-11-16 | [docs: auto-update recent evals and skill coverage in README.md [skip ci]](https://github.com/GoogleChrome/modern-web-guidance-src/commit/6971ebbec2b127d57aaa24ba63bab7b9de9e656b) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/GoogleChrome/modern-web-guidance-src/commits)
 

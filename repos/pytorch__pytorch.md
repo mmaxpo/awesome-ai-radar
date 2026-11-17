@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 105.5k |
-| 🍴 **Forks** | 30.7k |
-| 🐞 **Open issues + PRs** | [18.3k](https://github.com/pytorch/pytorch/issues) |
+| ⭐ **Stars** | 105.7k |
+| 🍴 **Forks** | 30.8k |
+| 🐞 **Open issues + PRs** | [18.4k](https://github.com/pytorch/pytorch/issues) |
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1677.6 MB |
+| 💾 **Size** | 1682.2 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 18d ago</sub>
+<sub>2026-10-28 · 19d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [[dynamo] Preserve dictionary storage order and builtin representation…](https://github.com/pytorch/pytorch/commit/46ba0e8cab72c02cedacadaad780a8e3ad83e7bd) | XuehaiPan |
-| 2026-11-16 | [[OpenReg] Rename OpenReg operator implementation files for clarity (#…](https://github.com/pytorch/pytorch/commit/561ce6ea6526ff9bf150e0acd8f8a8dab0cc640a) | can-gaa-hou |
-| 2026-11-16 | [Revert "[CUDA][LinAlg] lu_factor: performance improvements for batche…](https://github.com/pytorch/pytorch/commit/a0d3a9fc144dc6ef10e95dfd6568ceef467af56c) | pytorchmergebot |
-| 2026-11-16 | [[AOTI] Support PrivateUse1 devices in the model.so runtime (#204396)](https://github.com/pytorch/pytorch/commit/b82a2ed8e5d8672d1e4b1a39fec9320f20f0e01a) | can-gaa-hou |
-| 2026-11-16 | [[CUDA][LinAlg] lu_factor: performance improvements for batched rectan…](https://github.com/pytorch/pytorch/commit/3b8c011f34e5bf837ad86d73ded03e9708aab07f) | nikitaved |
-| 2026-11-16 | [[Test][XPU] Enable more `test_dataloader.py` tests on XPU (#203236)](https://github.com/pytorch/pytorch/commit/9c96ccf57a913f584b2042d9114caa4ffaa91c3b) | pbielak |
-| 2026-11-16 | [[Test][XPU] Enable more `test_foreach.py` cases on XPU (#202763)](https://github.com/pytorch/pytorch/commit/68f0e54fd5ad3d7ceba57b36a5c2ebbacd3d6756) | pbielak |
-| 2026-11-16 | [[Test][XPU] Enable more `nn/test_convolution.py` tests on XPU (#202750)](https://github.com/pytorch/pytorch/commit/06f9e25791bf2d23433b898dc153e13ed87bc38e) | pbielak |
-| 2026-11-16 | [[7/N] Refactor `TestAOTModuleSimplifiedDevice` and enable on XPU (#19…](https://github.com/pytorch/pytorch/commit/eb0f3a479c877468051f6228e8b4c8819fbdde4a) | pbielak |
-| 2026-11-16 | [Drop the unused torch::sycl CMake target (#195312)](https://github.com/pytorch/pytorch/commit/2395b41e0295e424ecd2484f4aa28ac2fcfcc21b) | cyyever |
+| 2026-11-17 | [[inductor] Add a non-overlapping fast path for max_pool2d backward. (…](https://github.com/pytorch/pytorch/commit/4777739420c9dc6d667d2b271ef343e1b3a23422) | orrangetabby17 |
+| 2026-11-17 | [[CD] Remove redundant libgomp NEEDED replacement (#201032)](https://github.com/pytorch/pytorch/commit/6af6987aa3603504c75df85c0906be686e0b8454) | JoshuaZhuwj |
+| 2026-11-17 | [[HOP] Keep node meta when scan re-traces its body for autograd (#203334)](https://github.com/pytorch/pytorch/commit/012eb2b6a70aba7fffcb0b567f57e02a0d6f70a8) | jack8558 |
+| 2026-11-17 | [[CPP FakeTensor] Handle symbolic shapes and data-dependent outputs (#…](https://github.com/pytorch/pytorch/commit/3f915f45bf5af116f418578034e2a8442e72425e) | liangel-02 |
+| 2026-11-17 | [[CPP FakeTensor] Propagate constants and invalidate written aliases (…](https://github.com/pytorch/pytorch/commit/99d95de06648647efaf0605c8dd756834ca46478) | liangel-02 |
+| 2026-11-17 | [[CPP FakeTensor] Create constants from numbers-as-tensors operations …](https://github.com/pytorch/pytorch/commit/3a69ddd3e0487af613346fe4ab012e197b260db5) | liangel-02 |
+| 2026-11-17 | [[CPP FakeTensor] Handle lift conversion and initial lift constants (#…](https://github.com/pytorch/pytorch/commit/3097d3d61f78fdabe7f866792a28c0d208378658) | liangel-02 |
+| 2026-11-17 | [[CPP FakeTensor] Move the fake fallback into libtorch_python (#205161)](https://github.com/pytorch/pytorch/commit/9c699801a5173fe8ec5d0fe04281280e4f2d5248) | liangel-02 |
+| 2026-11-17 | [[CPP FakeTensor] Select native modes in FakeTensorMode.__new__ (#205160)](https://github.com/pytorch/pytorch/commit/0d44fe1d02dff4562acaacef3632f1e712cfe42d) | liangel-02 |
+| 2026-11-17 | [[CPP FakeTensor] Route data access through fake detach handling (#204…](https://github.com/pytorch/pytorch/commit/98fac19a8ae52d1bc9aa17aa377db18953a26641) | liangel-02 |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

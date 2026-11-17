@@ -21,33 +21,41 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.6k |
-| 🍴 **Forks** | 809 |
-| 🐞 **Open issues + PRs** | [529](https://github.com/NVIDIA/Model-Optimizer/issues) |
+| 🍴 **Forks** | 813 |
+| 🐞 **Open issues + PRs** | [534](https://github.com/NVIDIA/Model-Optimizer/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-04-23 |
 | 📦 **Latest release** | [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 194.3 MB |
+| 💾 **Size** | 190.5 MB |
 | 🌐 **Website** | https://nvidia.github.io/Model-Optimizer/ |
 
 ## 📦 Recent releases
 
+### [0.49.0rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.49.0rc0) _(pre-release)_
+<sub>2026-11-16 · today</sub>
+
+> Install this pre-release version using:
+> ```bash
+> pip install "nvidia-modelopt[all] @ https://github.com/NVIDIA/Model-Optimizer/releases/download/0.49.0rc0/nvidia_modelopt-0.49.0rc0-py3-none-any.whl"
+> ```
+
 ### [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — ModelOpt 0.47.1 Release
-<sub>2026-11-06 · 9d ago</sub>
+<sub>2026-11-06 · 10d ago</sub>
 
 > **Bug Fixes**
 > - Fix NVFP4 fake quantization (e.g. ``NVFP4_DEFAULT_CFG``) with Triton 3.9, as in the PyTorch 26.11 container, on GPUs with compute capability 8.9 or newer: it failed with ``NotImplementedError: Block pointers have been removed in favor of the tensor descriptor API``.
 
 ### [0.47.1rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1rc0) _(pre-release)_
-<sub>2026-11-05 · 10d ago</sub>
+<sub>2026-11-05 · 12d ago</sub>
 
 > -
 
 ### [0.48.0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0) — ModelOpt 0.48.0 Release
-<sub>2026-11-02 · 14d ago</sub>
+<sub>2026-11-02 · 15d ago</sub>
 
 > **New Features**
 > **Sparsity**
@@ -58,35 +66,27 @@
 > …
 
 ### [0.48.0rc2](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0rc2) _(pre-release)_
-<sub>2026-10-28 · 18d ago</sub>
+<sub>2026-10-28 · 19d ago</sub>
 
 > Install this pre-release version using:
 > ```
 > pip install "nvidia-modelopt[all] @ https://github.com/NVIDIA/Model-Optimizer/releases/download/0.48.0rc2/nvidia_modelopt-0.48.0rc2-py3-none-any.whl"
 > ```
 
-### [0.48.0rc1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0rc1) _(pre-release)_
-<sub>2026-10-17 · 29d ago</sub>
-
-> Install this pre-release version using:
-> ```
-> pip install "nvidia-modelopt[all] @ https://github.com/NVIDIA/Model-Optimizer/releases/download/0.48.0rc1/nvidia_modelopt-0.48.0rc1-py3-none-any.whl"
-> ```
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-15 | [Prepare reproducible chat blends with question-isolated splits (#3160)](https://github.com/NVIDIA/Model-Optimizer/commit/6c85409916c66e778c4569b17efca9de577622da) | yueshen2016 |
-| 2026-11-15 | [fix(speculative): one label alignment per projector_type; DSpark and …](https://github.com/NVIDIA/Model-Optimizer/commit/9047bbd418aaeeaf251fc286d2c3e8ac04bee29f) | h-guo18 |
-| 2026-11-15 | [Load nested Nemotron final norms during draft training (#3275)](https://github.com/NVIDIA/Model-Optimizer/commit/d9ff11fb8d000eaa8b5bfad4c51c49f8dfc6031d) | sragrawal |
-| 2026-11-13 | [[6437794] Fix ONNX autotune verbose logging (#3382)](https://github.com/NVIDIA/Model-Optimizer/commit/ef893e77084198c161cc908eb91380b3a47eccad) | gcunhase |
-| 2026-11-13 | [Expose the remote AutoTune engine path (#3379)](https://github.com/NVIDIA/Model-Optimizer/commit/e169b4c2bc62a32c45aaef793cde7599dee2c1b2) | gcunhase |
-| 2026-11-13 | [fix: make huggingface_hub plugin import optional (#2250)](https://github.com/NVIDIA/Model-Optimizer/commit/cc6963dea0a6f01d90d66c7699baf3884df5f64a) | Y-T-G |
-| 2026-11-13 | [Preserve conversation and template inputs in streaming datasets (#3231)](https://github.com/NVIDIA/Model-Optimizer/commit/f7beef20efe2f50af93777b29cb2bd3f0286e1a6) | sragrawal |
-| 2026-11-13 | [Fix EAGLE3 training input normalization (#3228)](https://github.com/NVIDIA/Model-Optimizer/commit/9002cb3b58432f6c25e9c53553c902ccf292db05) | sragrawal |
-| 2026-11-13 | [Add experimental NVFP4 QAD adapter for NeMo AutoModel experts (#3164)](https://github.com/NVIDIA/Model-Optimizer/commit/1318c296fca258880834d159c98bc01ff45f1776) | Edwardf0t1 |
-| 2026-11-13 | [[OMNIML-6370] [3/5] Finalize AutoQuantize selections with sequential …](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | meenchen |
+| 2026-11-17 | [fix(onnx): require onnxslim 0.1.78 for ONNX 1.21 (#3414)](https://github.com/NVIDIA/Model-Optimizer/commit/a35496172d843be51292af82497ab5b0727f2af2) | kevalmorabia97 |
+| 2026-11-17 | [[NVBug 6968503] Add axis/block_size to INT4 RTN Q/DQ nodes (#3126)](https://github.com/NVIDIA/Model-Optimizer/commit/af54ce4addb2558221823111bf14de705b9a91a9) | haoxiz-nvidia |
+| 2026-11-17 | [Derive the GGML IQ super-block scale and match each block's output en…](https://github.com/NVIDIA/Model-Optimizer/commit/b1f5540c46653082ee28a553096668cde87b9816) | cjluo-nv |
+| 2026-11-17 | [Ask agents for problem-first PR descriptions with a modules-touched s…](https://github.com/NVIDIA/Model-Optimizer/commit/ee4782b717450f04c3dcfe7616cbc4c1ed8e38ce) | cjluo-nv |
+| 2026-11-17 | [Fix BF16 FP8 ONNX export with ml_dtypes 0.7.0 (#3405)](https://github.com/NVIDIA/Model-Optimizer/commit/e03b63b27c2a94701e125c429707cc0101aaa5bb) | ajrasane |
+| 2026-11-16 | [[3/5] Move skill evaluation datasets to canonical paths (#3374)](https://github.com/NVIDIA/Model-Optimizer/commit/0bf5f4310e0a698ebb514ba336fbdd9610cbeece) | chadvoegele |
+| 2026-11-16 | [Fix nightly: test_qad multi-GPU check and speculative SP gradient tes…](https://github.com/NVIDIA/Model-Optimizer/commit/e5cce4924f267d6862ded146aa243b53bc8c5cfe) | kevalmorabia97 |
+| 2026-11-16 | [Fix NaN amax when restoring a quantized Megatron-Core model before it…](https://github.com/NVIDIA/Model-Optimizer/commit/6f4cb4a82caf4ff8b7edb78d5ef597b286e2c8a7) | kevalmorabia97 |
+| 2026-11-16 | [docs: split changelog sections to reduce merge conflicts; add 0.50 se…](https://github.com/NVIDIA/Model-Optimizer/commit/b42551b0e3451a8cba51e67eddc260436d96bc7f) | kevalmorabia97 |
+| 2026-11-16 | [[chore]: weekly bump of uv.lock on main (2026-11-16) (#3395)](https://github.com/NVIDIA/Model-Optimizer/commit/5119f8c36fa730d7f7c7d38a082b8be5ed02043c) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/NVIDIA/Model-Optimizer/commits)
 

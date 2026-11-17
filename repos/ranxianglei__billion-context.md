@@ -21,21 +21,32 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.7k |
-| 🍴 **Forks** | 627 |
-| 🐞 **Open issues + PRs** | [1.2k](https://github.com/ranxianglei/billion-context/issues) |
+| 🍴 **Forks** | 620 |
+| 🐞 **Open issues + PRs** | [1.3k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-08-06 |
-| 📦 **Latest release** | [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215) — 2026-11-15 |
+| 📦 **Latest release** | [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 84.1 MB |
+| 💾 **Size** | 80.6 MB |
 
 ## 📦 Recent releases
 
+### [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216)
+<sub>2026-11-17 · today</sub>
+
+> **What's Changed**
+> * [PR] gate: two fixes — evidence file is now readable after the run completes + one retry added for the small-window round in  | gate 两个修复:跑完后证据文件能读了 + R 车道小窗口轮次加一次重试 by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6808
+> * [PR] Gate performance overhaul: P/R lanes parallelized, wall clock 45 min → ~18 min | gate 性能改造:P/R 车道并行,墙钟 45min→~18min by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6810
+> * [PR] chore(branch): land 20 single-purpose fixes as one history-preserving batch (wave 10) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6765
+> * [PR] fix: pass Claude Code's MCP config as --mcp-config=<file> so it cannot eat the prompt by @MohammadErfan-Jabbari in https://github.com/ranxianglei/billion-context/pull/6524
+> * [PR] fix: retry context overflow with measured output headroom by @zouzh22 in https://github.com/ranxianglei/billion-context/pull/6529
+> …
+
 ### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
@@ -46,7 +57,7 @@
 > …
 
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · 2d ago</sub>
+<sub>2026-11-14 · 3d ago</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -57,7 +68,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 8d ago</sub>
+<sub>2026-11-07 · 9d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -68,7 +79,7 @@
 > …
 
 ### [v0.1.212](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.212)
-<sub>2026-11-02 · 13d ago</sub>
+<sub>2026-11-02 · 14d ago</sub>
 
 > **What's Changed**
 > * [PR] (ai: anthropic/claude-opus-4-6) fix(release): nuclear box = deps download + build + publish, zero checks; add local zero-install publish script by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5436
@@ -78,31 +89,20 @@
 > * [PR] fix(release): land the raw-publish bump as a commit before tagging/syncing (empty sync PR 422 + stale-version tag) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5457
 > …
 
-### [v0.1.211](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.211)
-<sub>2026-11-01 · 15d ago</sub>
-
-> **What's Changed**
-> * [PR] test(e2e): fork-adoption relay echoes plain text, not rendered ref tags — unblocks v0.1.210 release by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5377
-> * [PR] docs: New blog post — What to do when billion-context is frequently compressed? | docs: 新博客文章——billion-context频繁压缩该怎么办? by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5389
-> * [PR] fix: frozen compression state becomes visible, diagnosable, and healable (#5408) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5409
-> * [PR] Session compression reminders no longer starve under frequent interruptions: absorption debt is paid in steps starting f | 中断频繁的会话压缩提醒不再饿死:吸收欠账从第 2 次中断起付台阶(#5415) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5416
-> * [PR] fix(storage): async ingest twin sweeps foreign rows while drift-latched (#5412) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5420
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [Merge pull request #6151 from ranxianglei/nudge-debug-pi](https://github.com/ranxianglei/billion-context/commit/301e1a5459a77d5578206927c8062a58381af642) | ranxianglei |
-| 2026-11-16 | [Merge pull request #6944 from ranxianglei/fix/responses-section-helper](https://github.com/ranxianglei/billion-context/commit/4a24c2635e478cfbaa54e73966552f1713a55345) | ranxianglei |
-| 2026-11-16 | [fix(responses): shared developer-section joiner kills the round-2 pre…](https://github.com/ranxianglei/billion-context/commit/1494b551500d107c9b5c4e896ff573bda3030930) | ranxianglei |
-| 2026-11-16 | [Merge pull request #6745 from ranxianglei/2026-11-14_recovery-visibility](https://github.com/ranxianglei/billion-context/commit/0821a8154428a7593e61e22af06160db78bfb19b) | ranxianglei |
-| 2026-11-16 | [Merge pull request #6913 from ranxianglei/2026-11-16_gate-render-knobs](https://github.com/ranxianglei/billion-context/commit/642000e7a3f3124628ddf1a3d80c4b6d76f8ef1e) | ranxianglei |
-| 2026-11-16 | [Merge pull request #6929 from ranxianglei/2026-11-16_remove-4521-stat…](https://github.com/ranxianglei/billion-context/commit/662f4b060290ac15c11160f0f876dc991c6589f2) | ranxianglei |
-| 2026-11-16 | [fix(gate): t1 prompt quoted the corpus line count dynamically](https://github.com/ranxianglei/billion-context/commit/aa9249411516b569c536640b8477bbb3947c035f) | ework-agent |
-| 2026-11-16 | [Merge remote-tracking branch 'origin/ci-fixes' into 2026-11-16_gate-r…](https://github.com/ranxianglei/billion-context/commit/9ed43c2b39fa6dd71e5bb3614c0902ae488d123a) | ci-check |
-| 2026-11-16 | [kernel+host: remove the #4521 armed-but-silent '[ACP status: …]' refr…](https://github.com/ranxianglei/billion-context/commit/4ccccab15f722f505c43d977be69095740f08c5a) | ranxianglei |
-| 2026-11-16 | [Merge pull request #6883 from ranxianglei/design/6880-dsh-purpose-signal](https://github.com/ranxianglei/billion-context/commit/d1ff6eaab38ea2358f12dac5128550b205edd385) | ranxianglei |
+| 2026-11-17 | [Merge pull request #6592 from OMSociety/2026-11-14_docs-dsh-go-client](https://github.com/ranxianglei/billion-context/commit/77fe0b1d63f90cb68a696bbeb5a5232464368010) | ranxianglei |
+| 2026-11-17 | [Merge pull request #7054 from ranxianglei/2026-11-17_attribution-diag…](https://github.com/ranxianglei/billion-context/commit/30fb448d4d6a57b69baf148296c845a344eee9cf) | ranxianglei |
+| 2026-11-17 | [fix(diagnostics): register the attribution topic the banner already r…](https://github.com/ranxianglei/billion-context/commit/b21a76db85a94ea26f806871162d60006cac353e) | ci-check |
+| 2026-11-17 | [docs(clients): cover the DSH Go host  The app ships its own dsh runti…](https://github.com/ranxianglei/billion-context/commit/1a3ea3cc6250249092f2fd1b4fec5e3816c7dd94) | OMSociety |
+| 2026-11-17 | [Merge pull request #6938 from ranxianglei/2026-11-16_release-v0.1.216](https://github.com/ranxianglei/billion-context/commit/6a641f378537e06e7430ec90c9abf035ffa12377) | ranxianglei |
+| 2026-11-17 | [fix(lane): read Claude Code's deferred-tools list so the nudge names …](https://github.com/ranxianglei/billion-context/commit/5d852d2f54c3807cbce5d1953ffa4c740156fed5) | ranxianglei |
+| 2026-11-17 | [fix(web): close the two malformed circles in the session-report SVG r…](https://github.com/ranxianglei/billion-context/commit/59e6c86b46cf2c855191101cd6bdb59e8ea68892) | ci-check |
+| 2026-11-17 | [fix(storage): repair the mysql lane's two latent ingest breakages (PR…](https://github.com/ranxianglei/billion-context/commit/d371092b8c0c182c573d394aa4d69ff870567ec0) | ci-check |
+| 2026-11-17 | [Merge PR #6953 direction C1 (reply stash out of the messages table)](https://github.com/ranxianglei/billion-context/commit/34b0fc8337a58bcecab129276eee2189cad04926) | ranxianglei |
+| 2026-11-17 | [fix(storage): keep the reply stash out of the messages table (directi…](https://github.com/ranxianglei/billion-context/commit/80daffc2f5dc5362bfc3645f253237871d3a8bc4) | ranxianglei |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

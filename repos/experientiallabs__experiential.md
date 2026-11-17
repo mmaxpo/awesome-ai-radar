@@ -20,60 +20,63 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 17.2k |
-| 🍴 **Forks** | 311 |
-| 🐞 **Open issues + PRs** | [168](https://github.com/experientiallabs/experiential/issues) |
-| 💻 **Languages** | Python 85% · Rust 14% |
+| ⭐ **Stars** | 17.5k |
+| 🍴 **Forks** | 313 |
+| 🐞 **Open issues + PRs** | [179](https://github.com/experientiallabs/experiential/issues) |
+| 💻 **Languages** | Python 87% · Rust 12% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-06-24 |
-| 📦 **Latest release** | [v0.7.246](https://github.com/experientiallabs/experiential/releases/tag/v0.7.246) — 2026-11-15 |
+| 📦 **Latest release** | [v0.7.250](https://github.com/experientiallabs/experiential/releases/tag/v0.7.250) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 106.9 MB |
+| 💾 **Size** | 112.5 MB |
 | 🌐 **Website** | https://experientiallabs.ai |
 
 ## 📦 Recent releases
 
+### [v0.7.250](https://github.com/experientiallabs/experiential/releases/tag/v0.7.250)
+<sub>2026-11-17 · today</sub>
+
+> Parallel input moderation accepts an explicit additional wait from 0 to 5000 ms. The default remains 250 ms, and the independent classifier timeout still bounds the entire check. The existing shared request budget, native deadline enforcement and settlement behavior remain unchanged.
+> Includes exp-gateway-native 0.3.193 and the previously merged warm-cache throttle fix: long Retry-After values can advance to a failover route.
+> Validation: all required checks pass, including 15,785 tests across the non-live suite shards and native wheel import checks on Linux, macOS and Windows.
+
+### [gitlab-archive/package-edge-preview-engine-bfa38ffd9e5c](https://github.com/experientiallabs/experiential/releases/tag/gitlab-archive/package-edge-preview-engine-bfa38ffd9e5c) — GitLab archive: edge-preview-engine bfa38ffd9e5cd8bd6ed26bacc161963d51bd9c98 _(pre-release)_
+<sub>2026-11-17 · today</sub>
+
+> Archived from the GitLab generic package registry before the GitLab project was retired.
+> Package `edge-preview-engine`, version `bfa38ffd9e5cd8bd6ed26bacc161963d51bd9c98` (created 2026-10-25). Files verified against GitLab sha256.
+
 ### [v0.7.246](https://github.com/experientiallabs/experiential/releases/tag/v0.7.246) — experiential 0.7.246
-<sub>2026-11-15 · today</sub>
+<sub>2026-11-15 · yesterday</sub>
 
 > Ships #1365: gateway exits for five stuck states. These are the guardrail pool worker leak on cancel, the alias reload backoff, health registry pruning, closing requests left open by a crash during failover, and a follow-up crash reconcile pass for exclusive owners. Python only; exp-gateway-native stays 0.3.190.
 
 ### [exp-code-v0.1.7](https://github.com/experientiallabs/experiential/releases/tag/exp-code-v0.1.7) — exp-code 0.1.7
-<sub>2026-11-13 · 2d ago</sub>
+<sub>2026-11-13 · 3d ago</sub>
 
 > exp-code 0.1.7: the open-source coding and cowork agent (agent/). The sandbox runner is attached as one self-contained file with its sha256.
 
 ### [exp-code-v0.1.6](https://github.com/experientiallabs/experiential/releases/tag/exp-code-v0.1.6) — exp-code 0.1.6
-<sub>2026-11-13 · 2d ago</sub>
+<sub>2026-11-13 · 3d ago</sub>
 
 > exp-code 0.1.6: the open-source coding and cowork agent (agent/). The sandbox runner is attached as one self-contained file with its sha256.
-
-### [exp-code-v0.1.5](https://github.com/experientiallabs/experiential/releases/tag/exp-code-v0.1.5) — exp-code 0.1.5
-<sub>2026-11-13 · 2d ago</sub>
-
-> exp-code 0.1.5: the open-source coding and cowork agent (agent/). The sandbox runner is attached as one self-contained file with its sha256.
-
-### [exp-code-v0.1.4](https://github.com/experientiallabs/experiential/releases/tag/exp-code-v0.1.4) — exp-code 0.1.4
-<sub>2026-11-13 · 2d ago</sub>
-
-> exp-code 0.1.4: the open-source coding and cowork agent (agent/). The sandbox runner is attached as one self-contained file with its sha256.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [Bound optional parallel input inspection to a shared 250 ms budget (#…](https://github.com/experientiallabs/experiential/commit/e404b68eb3f0f2fba7346b6aaa9b7665157b2fe6) | kfallah |
-| 2026-11-15 | [release: 0.7.246 (#1376)](https://github.com/experientiallabs/experiential/commit/159b06b5697f2b1412e54161961d44638ba134ff) | SilenNaihin |
-| 2026-11-15 | [gateway: exits for five stuck states (guardrail pool, alias reload, h…](https://github.com/experientiallabs/experiential/commit/066254c5804722703b9ef99de9400e8252c16020) | SilenNaihin |
-| 2026-11-15 | [release: 0.7.245 (native 0.3.190) (#1375)](https://github.com/experientiallabs/experiential/commit/bb9cca9c816e8f768d0c830d52f49c5d99247870) | SilenNaihin |
-| 2026-11-15 | [gateway(gemini): review follow-ups after #1362 (own-field errors, inc…](https://github.com/experientiallabs/experiential/commit/14ec8dfa21a907be4ff41803389522617e13f78d) | SilenNaihin |
-| 2026-11-14 | [release: 0.7.244 (#1369)](https://github.com/experientiallabs/experiential/commit/3e699d692101d8d797760fe9fdf6651b0f56f08d) | SilenNaihin |
-| 2026-11-14 | [messages: serve per-message effort system turns instead of a 400 (#1368)](https://github.com/experientiallabs/experiential/commit/70c3ab251d3ae2b83203dc63e4e549a33130d91e) | SilenNaihin |
-| 2026-11-14 | [release: 0.7.243 (#1367)](https://github.com/experientiallabs/experiential/commit/1e6162af8f8910b841389ec8cfdad3dace1ee112) | SilenNaihin |
-| 2026-11-14 | [gateway: read an explicit null on optional response_format, tools and…](https://github.com/experientiallabs/experiential/commit/362dcce42d63198edce8d012c51fe93aeac9cd37) | SilenNaihin |
-| 2026-11-14 | [release: 0.7.242 (native 0.3.189) (#1360)](https://github.com/experientiallabs/experiential/commit/fbe24cc80993e8f97fe5425bd15c406921fd3202) | SilenNaihin |
+| 2026-11-17 | [release: 0.7.251 (native 0.3.194) (#1399)](https://github.com/experientiallabs/experiential/commit/d74ab1bd5c661246d9954f72e9550de7e28d552b) | SilenNaihin |
+| 2026-11-17 | [gateway: accept Responses max_tool_calls (forward native, enforce gat…](https://github.com/experientiallabs/experiential/commit/9fcebeb0a6253c15fefea65d04e96fb14b2c33e2) | SilenNaihin |
+| 2026-11-17 | [gateway: keep attempts for the next rung when one rung's connections …](https://github.com/experientiallabs/experiential/commit/70dfaf7b7cdf9589382cd1ee763a8449112ee6f3) | SilenNaihin |
+| 2026-11-17 | [Allow configurable parallel moderation response waits (#1398)](https://github.com/experientiallabs/experiential/commit/7a2778c0e02abb3f7f51aadf24ebf3574cbd0bf6) | kfallah |
+| 2026-11-17 | [Merge GitLab main into GitHub main for history parity (#1394)](https://github.com/experientiallabs/experiential/commit/e061382b0a83fb2b6845cd6df3038f3b4ecf6eb1) | SilenNaihin |
+| 2026-11-17 | [gateway: a throttle waiting past the prompt cache fails over even whe…](https://github.com/experientiallabs/experiential/commit/61bceb6caa1d7dd8a74cfc9dbf4e856c17aa4fc8) | SilenNaihin |
+| 2026-11-17 | [registry: scope the Azure Responses and Vertex Anthropic transports t…](https://github.com/experientiallabs/experiential/commit/6ee78cb32e1c1519abb85be17c5ec08af7d6ec23) | SilenNaihin |
+| 2026-11-17 | [Merge GitLab main (e4ed8b946) into GitHub main for history parity](https://github.com/experientiallabs/experiential/commit/a6b23865b62e707b187eb45c65ee707e3ba051b5) | SilenNaihin |
+| 2026-11-16 | [release: 0.7.249 (native 0.3.192) (#1384)](https://github.com/experientiallabs/experiential/commit/6c3570f1d1d42052b6f17fd65fd9d2c4f34734dc) | SilenNaihin |
+| 2026-11-16 | [gateway: never end a request on a transport failure while another run…](https://github.com/experientiallabs/experiential/commit/c7b2a3474dd5cd37a11295c0c6dd68dd25d595ff) | SilenNaihin |
 
 [See all commits ↗](https://github.com/experientiallabs/experiential/commits)
 
