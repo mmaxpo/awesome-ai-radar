@@ -22,83 +22,78 @@
 |---|---|
 | ⭐ **Stars** | 7.7k |
 | 🍴 **Forks** | 710 |
-| 🐞 **Open issues + PRs** | [261](https://github.com/BuilderIO/agent-native/issues) |
+| 🐞 **Open issues + PRs** | [276](https://github.com/BuilderIO/agent-native/issues) |
 | 💻 **Languages** | TypeScript 87% · MDX 10% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `react` `agent-native` `typescript` `agent-framework` `agentic-ai` `ai-agents` `framework` `generative-ui` `mcp` `open-source` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-03-12 |
-| 📦 **Latest release** | [@agent-native/skills@0.4.8](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/skills%400.4.8) — 2026-11-16 |
+| 📦 **Latest release** | [@agent-native/core@0.231.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/core%400.231.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 594.5 MB |
+| 💾 **Size** | 598.1 MB |
 | 🌐 **Website** | https://www.agent-native.com |
 
 ## 📦 Recent releases
 
-### [@agent-native/skills@0.4.8](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/skills%400.4.8)
-<sub>2026-11-16 · today</sub>
-
-> **Patch Changes**
-> - Release all public npm packages with a patch version bump.
-> - Updated dependencies [e04e57c]
-> - Updated dependencies [cdf52f4]
-> - Updated dependencies [a4a4f9e]
-> - Updated dependencies [9af0433]
-> …
-
-### [@agent-native/core@0.229.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/core%400.229.0)
-<sub>2026-11-16 · today</sub>
+### [@agent-native/core@0.231.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/core%400.231.0)
+<sub>2026-11-18 · today</sub>
 
 > **Minor Changes**
-> - 9af0433: Add `defineAppConfigSection(key, schema)` so an app can register its own typed server config section. Its fields resolve like the framework's (declared default, `.meta({ env })` aliases, then `defineAppConfig()`), and `getAppConfig()[key]` or the returned `read()` reads it. Declare the section's type by augmenting `AppConfigSections`. Keys that collide with framework sections and env aliases another field already reads are refused at registration.
-> - 62bbf91: Two files created under one name at the same moment no longer collide. Core adds `nextFreeName` in `@agent-native/core/free-name`, which gives `name.html`, then `name-2.html`, `name-3.html` and so on, and `nameTaken` in `@agent-native/core/free-name/server`, one typed `name_taken` refusal that carries a free name to use instead. Design uses them first: copies made at once each save under their own name, a rename onto a taken name says so and suggests a free one, and older files that already share a name are given free names so Design's unique filename index can hold.
-> - f152dfe: Framework reliability improvements: agent runs, run recovery and tool approvals report failures instead of settling as empty successes; actions, the action query cache and session hooks handle cold starts, retries and mounted base paths; sign-in, organization context and workspace connections resolve the right org and credential; provider API calls are metered per app and operation; deploy builds bundle the installed optional ingestion parsers; and MCP `tool-search` can recommend tools for a short task summary.
-> - dd24195: Add `agent-native netlify-deploy`, which zips workspace functions deterministically with the installed Netlify CLI's bundler and runs `netlify deploy` in the same command, so unchanged functions keep their digest and are not re-uploaded. It fails with a `manifest-expired` line instead of silently deploying unstable ZIPs.
-> - e79c1ae: Comments & Review Kit: the comment box formats. Select text for a bar with bold, italic, strikethrough, code and links, use their shortcuts, or type Markdown as you go, including lists, quotes and code blocks. The box saves Markdown that shows the way it looked, opens a saved comment the way it shows, and reads pasted text as Markdown. `@agent-native/core/review/markdown` converts between a comment's Markdown and the box's document, and `findCommentMentions` in `@agent-native/core/review/plain-text` finds a comment's mentions the way the renderer chips them. Cmd/Ctrl+K in the box opens its link field even in apps whose command menu takes the shortcut from editable text: the command menu now leaves it to any field inside `data-command-menu-shortcut="own"`. The box shows its placeholder again once a comment is sent.
+> - 2755d62: Add `billing.commercialSurfaces` to `agent-native.json` (env `AGENT_NATIVE_CONFIG_BILLING_COMMERCIAL_SURFACES`). It defaults to `"show"`, which changes nothing. `"hide"` removes credit units and amounts, plan upgrades, free-credit offers and referral rewards: usage reads as dollars and tokens (a run reports its provider cost and no credits), existing credit alerts can't be listed, changed or delivered and new ones can't be created, stored credit-alert notices drop out of the inbox, the credit notice, credit-limit email and run-details credits row are left out, a credits-limit error offers only Retry in the card and the transcript, the referral action returns nothing, and the Builder connect popover, model picker and first-run setup drop the free-credit pitch. A composer host sets the Builder choice's caption with the `builder.creditsOffered` adapter. `commercialSurfacesHidden()` (from `@agent-native/core/client/app-config`) and `deploymentUsageBilling()` let an app follow the same setting, and `AgentKitRoot` takes `showRunCredits`. With `notifications.usageLimitNotices: false`, usage-limit alerts are no longer evaluated or sent on any channel.
+> - 3d92e2e: Settings › Labs has a "Show all Labs features" switch that turns on every Lab the person hasn't chosen for. `set-labs-show-all` lets the agent flip it, the on/off state of each Lab is mirrored into the `labs` application state, and `assertLabEnabled` lets an action used only by a Lab refuse callers who haven't turned it on.
+> **Patch Changes**
+> - 9f49abc: Apps in a workspace with no domain can now delegate to each other. When both apps share `A2A_SECRET`, the caller sends the person's own signed identity with no workspace claim, and the peer runs the call in that person's personal scope instead of rejecting an unsigned request. When a peer pauses the delegated task for approval, the chat shows a card that opens the peer's approval page, then continues the same task once the person approves it there. The card stays in the chat after a reload and closes once that task finishes.
+> - d863c6a: `setAgentChatContextItemAndPersist()` and `removeAgentChatContextItemAndPersist()` hold their change when a synchronous `setAgentChatContextItem()` publishes while their write is in flight. Before, the newer synchronous state hid the persisted change, so a composer prefill staged as the agent panel opened could vanish, and a removed one could stay. The change is now applied to that newer state, saved before the next queued write starts, and shown once saved, unless the synchronous change set the same key, or removed it or cleared the context. `setAgentChatContextItem()` and the other synchronous changes now save through the ordered app-state writer, so an earlier save can't reach the server after a later one and replace it.
 > …
 
-### [@agent-native/dispatch@0.42.8](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/dispatch%400.42.8)
-<sub>2026-11-16 · today</sub>
-
-> **Patch Changes**
-> - c28f853: A fresh Dispatch install no longer creates the retired, unused `vault_secrets` table. Databases that already have it keep it untouched, and the Vault keeps its keys in `app_secrets`.
-> - d9515da: Scope app creation settings writes to their owner.
-> - f152dfe: The MCP gateway and workspace app chat proxy forward app context and errors more reliably, and workspace app routes and cards handle mounted app paths.
-> - Release all public npm packages with a patch version bump.
-> - Updated dependencies [a4a4f9e]
-> …
-
-### [@agent-native/recap-cli@0.5.104](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/recap-cli%400.5.104)
-<sub>2026-11-16 · today</sub>
-
-> **Patch Changes**
-> - Release all public npm packages with a patch version bump.
-
-### [@agent-native/scheduling@0.3.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/scheduling%400.3.0)
-<sub>2026-11-16 · today</sub>
+### [@agent-native/toolkit@0.231.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/toolkit%400.231.0)
+<sub>2026-11-18 · today</sub>
 
 > **Minor Changes**
-> - f152dfe: Booking attendees keep the order they were added in through a new nullable `booking_attendees.position` column (add it in your app's migrations), and calendar and video providers can read credentials and account identity through workspace connections, including a Google Calendar workspace provider and calendar reminders.
+> - 2755d62: Add `billing.commercialSurfaces` to `agent-native.json` (env `AGENT_NATIVE_CONFIG_BILLING_COMMERCIAL_SURFACES`). It defaults to `"show"`, which changes nothing. `"hide"` removes credit units and amounts, plan upgrades, free-credit offers and referral rewards: usage reads as dollars and tokens (a run reports its provider cost and no credits), existing credit alerts can't be listed, changed or delivered and new ones can't be created, stored credit-alert notices drop out of the inbox, the credit notice, credit-limit email and run-details credits row are left out, a credits-limit error offers only Retry in the card and the transcript, the referral action returns nothing, and the Builder connect popover, model picker and first-run setup drop the free-credit pitch. A composer host sets the Builder choice's caption with the `builder.creditsOffered` adapter. `commercialSurfacesHidden()` (from `@agent-native/core/client/app-config`) and `deploymentUsageBilling()` let an app follow the same setting, and `AgentKitRoot` takes `showRunCredits`. With `notifications.usageLimitNotices: false`, usage-limit alerts are no longer evaluated or sent on any channel.
+> - 3d92e2e: Settings › Labs has a "Show all Labs features" switch that turns on every Lab the person hasn't chosen for. `set-labs-show-all` lets the agent flip it, the on/off state of each Lab is mirrored into the `labs` application state, and `assertLabEnabled` lets an action used only by a Lab refuse callers who haven't turned it on.
+> **Patch Changes**
+> - 9f49abc: Apps in a workspace with no domain can now delegate to each other. When both apps share `A2A_SECRET`, the caller sends the person's own signed identity with no workspace claim, and the peer runs the call in that person's personal scope instead of rejecting an unsigned request. When a peer pauses the delegated task for approval, the chat shows a card that opens the peer's approval page, then continues the same task once the person approves it there. The card stays in the chat after a reload and closes once that task finishes.
+> - d863c6a: The editor drag handle's app menu request has `insertAbove()`, which adds an empty paragraph above the block with the caret in it. A menu in a dialog, such as a phone's bottom sheet, now stays open when the on-screen keyboard resizes the page, as a menu with `role="menu"` already did.
+> …
+
+### [@agent-native/pinpoint@0.1.118](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/pinpoint%400.1.118)
+<sub>2026-11-18 · today</sub>
+
 > **Patch Changes**
 > - Release all public npm packages with a patch version bump.
-> - Updated dependencies [a4a4f9e]
-> - Updated dependencies [988cdee]
+
+### [@agent-native/dispatch@0.42.10](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/dispatch%400.42.10)
+<sub>2026-11-18 · today</sub>
+
+> **Patch Changes**
+> - 2755d62: Add `billing.commercialSurfaces` to `agent-native.json` (env `AGENT_NATIVE_CONFIG_BILLING_COMMERCIAL_SURFACES`). It defaults to `"show"`, which changes nothing. `"hide"` removes credit units and amounts, plan upgrades, free-credit offers and referral rewards: usage reads as dollars and tokens (a run reports its provider cost and no credits), existing credit alerts can't be listed, changed or delivered and new ones can't be created, stored credit-alert notices drop out of the inbox, the credit notice, credit-limit email and run-details credits row are left out, a credits-limit error offers only Retry in the card and the transcript, the referral action returns nothing, and the Builder connect popover, model picker and first-run setup drop the free-credit pitch. A composer host sets the Builder choice's caption with the `builder.creditsOffered` adapter. `commercialSurfacesHidden()` (from `@agent-native/core/client/app-config`) and `deploymentUsageBilling()` let an app follow the same setting, and `AgentKitRoot` takes `showRunCredits`. With `notifications.usageLimitNotices: false`, usage-limit alerts are no longer evaluated or sent on any channel.
+> - 50f7168: Dispatch can now run a granted workspace app's actions directly. Set `dispatch.directAppActions` (env `DISPATCH_DIRECT_APP_ACTIONS=true`) to add `list_app_actions`, `call_app_action`, and `read_view` to Dispatch's agent and MCP tools; they call the target app as the signed-in user, only for apps that user has granted, and return in about a second instead of running the app's agent through `ask_app`. The setting is off by default, and with it off Dispatch's tools and `ask_app` are unchanged.
+>   Dispatch app discovery now honors the workspace's `deployment.workspace.appsDirectory` and `appInclude` settings, and shows the `icon` set for an app in the deployment manifest or in `.agent-native/workspace-apps.json`. Apps listed without a description no longer break MCP task discovery.
+>   `setDispatchAppActionHeaderProvider` (from `@agent-native/dispatch/server`) lets a deployment add headers to each direct app action connection, such as a per-turn grant the target app's MCP turn grant admitter recognizes. It can't replace `Authorization`.
+>   A full MCP catalog (`catalog_scope: "full"`) now honors `externalAgents.writes: "ask_app_only"`: only reads and the compact builtins stay directly callable, and writes still go through `ask_app`. `mcpToolCallWasNotSent` (from `@agent-native/core/mcp-client`) tells a refusal `callTool` raised before sending apart from a failure after the call may have run.
 > …
+
+### [@agent-native/creative-context@0.8.75](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/creative-context%400.8.75)
+<sub>2026-11-18 · today</sub>
+
+> **Patch Changes**
+> - Release all public npm packages with a patch version bump.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [Add pnpm bench:create to measure a cold create, add-app, and install …](https://github.com/BuilderIO/agent-native/commit/6531e3edd264a06d013d8ebe3f8a1c8bbef08966) | rjcortese |
-| 2026-11-17 | [Retry convergence job-list reads on GitHub 5xx errors (#9303)](https://github.com/BuilderIO/agent-native/commit/4e974812a0c1ba4ab1b9c92aa601cd8e58a40491) | builder-io-integration[bot] |
-| 2026-11-17 | [Keep the dialog a valid workspace UI leaf (#9304)](https://github.com/BuilderIO/agent-native/commit/0741e053b2fc01ef03857bad11d6e855d286375e) | builder-io-integration[bot] |
-| 2026-11-17 | [Core, Toolkit, Dispatch: dialog focus return, popover anchor fix, dur…](https://github.com/BuilderIO/agent-native/commit/3fc244010853a993e79019420ce96e46fb695df8) | steve8708 |
-| 2026-11-17 | [Forms: respect text direction in editor and shared forms (#9142)](https://github.com/BuilderIO/agent-native/commit/29757b8de50485897eedca3fb72c1dccfa868f5c) | builder-factory |
-| 2026-11-17 | [MCP: open embed tools as full apps in the host side panel (#9213)](https://github.com/BuilderIO/agent-native/commit/2f65a0665d3be97beee63be17bd3577f2c57e1a7) | steve8708 |
-| 2026-11-17 | [Keep an Analytics panel's chart in a Content page (#8937)](https://github.com/BuilderIO/agent-native/commit/f6464e106dd585674a71a001f824901ec8946523) | 3mdistal |
-| 2026-11-17 | [Draw Analytics' dashboard charts from the toolkit (#9172)](https://github.com/BuilderIO/agent-native/commit/5c2d0ab562b1ac119c9fff2e7ad6a02661cba851) | 3mdistal |
-| 2026-11-17 | [Keep approval questions through the action registry, and keep shared …](https://github.com/BuilderIO/agent-native/commit/98fe7e4de26e158602ad7b737394c2f5d050f5ec) | 3mdistal |
-| 2026-11-17 | [Make a public Content page's sub-pages public with it, and keep publi…](https://github.com/BuilderIO/agent-native/commit/f53f27f9c5f43563016015970afe7b29dbe4f786) | 3mdistal |
+| 2026-11-18 | [Add desktop host extension points for per-app onboarding (#9360)](https://github.com/BuilderIO/agent-native/commit/b608a9ee4613631d2caf0c76db62a83449cd30d6) | steve8708 |
+| 2026-11-18 | [Add extension points for provider gates, A2A call hooks, MCP turn gra…](https://github.com/BuilderIO/agent-native/commit/41c2b0edd73bab20a0bffb5017b360aaa2ef4d04) | steve8708 |
+| 2026-11-18 | [Add opt-in share focus, member invite and credential draft options (#…](https://github.com/BuilderIO/agent-native/commit/66de1ad4216f0b9d6eb6aa6e34ca7e1dd9014f0f) | steve8708 |
+| 2026-11-18 | [Allow members to open new workspace apps before an admin visits (#9366)](https://github.com/BuilderIO/agent-native/commit/0cc6bb387b7555e3257b374cce591d6361590b3d) | steve8708 |
+| 2026-11-18 | [chore: release packages (patch) [stable-release] [skip netlify] (#9365)](https://github.com/BuilderIO/agent-native/commit/c9e37cbd5a1053b4216460f4c8529466eff89b5e) | builder-io-integration[bot] |
+| 2026-11-18 | [chore: release packages (patch) [stable-release] [skip netlify] (#9334)](https://github.com/BuilderIO/agent-native/commit/91038304706e399adcc7340f3d36ef02d8e62356) | builder-io-integration[bot] |
+| 2026-11-18 | [design: hide templates when designs contain files (#9355)](https://github.com/BuilderIO/agent-native/commit/57947d99b9825138d0fd563697953bb994a34ed9) | builder-factory |
+| 2026-11-18 | [Add opt-in direct app actions and workspace app icons to Dispatch (#9…](https://github.com/BuilderIO/agent-native/commit/50f71688775fa43e2c21aebdf9c26b8695664617) | steve8708 |
+| 2026-11-18 | [Clips: bump Chrome extension to 0.1.24 (#9333)](https://github.com/BuilderIO/agent-native/commit/2db59c8ce13d7a361b54c008566b1aef79ff1d6d) | shomix |
+| 2026-11-18 | [Add billing.commercialSurfaces to hide credits, plans and promos (#9357)](https://github.com/BuilderIO/agent-native/commit/2755d62a0c1ba19b6d858ede1b6abd91114128cc) | steve8708 |
 
 [See all commits ↗](https://github.com/BuilderIO/agent-native/commits)
 

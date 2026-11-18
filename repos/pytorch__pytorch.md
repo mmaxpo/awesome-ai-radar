@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1682.2 MB |
+| 💾 **Size** | 1681.4 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 19d ago</sub>
+<sub>2026-10-28 · 20d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [[inductor] Add a non-overlapping fast path for max_pool2d backward. (…](https://github.com/pytorch/pytorch/commit/4777739420c9dc6d667d2b271ef343e1b3a23422) | orrangetabby17 |
-| 2026-11-17 | [[CD] Remove redundant libgomp NEEDED replacement (#201032)](https://github.com/pytorch/pytorch/commit/6af6987aa3603504c75df85c0906be686e0b8454) | JoshuaZhuwj |
-| 2026-11-17 | [[HOP] Keep node meta when scan re-traces its body for autograd (#203334)](https://github.com/pytorch/pytorch/commit/012eb2b6a70aba7fffcb0b567f57e02a0d6f70a8) | jack8558 |
-| 2026-11-17 | [[CPP FakeTensor] Handle symbolic shapes and data-dependent outputs (#…](https://github.com/pytorch/pytorch/commit/3f915f45bf5af116f418578034e2a8442e72425e) | liangel-02 |
-| 2026-11-17 | [[CPP FakeTensor] Propagate constants and invalidate written aliases (…](https://github.com/pytorch/pytorch/commit/99d95de06648647efaf0605c8dd756834ca46478) | liangel-02 |
-| 2026-11-17 | [[CPP FakeTensor] Create constants from numbers-as-tensors operations …](https://github.com/pytorch/pytorch/commit/3a69ddd3e0487af613346fe4ab012e197b260db5) | liangel-02 |
-| 2026-11-17 | [[CPP FakeTensor] Handle lift conversion and initial lift constants (#…](https://github.com/pytorch/pytorch/commit/3097d3d61f78fdabe7f866792a28c0d208378658) | liangel-02 |
-| 2026-11-17 | [[CPP FakeTensor] Move the fake fallback into libtorch_python (#205161)](https://github.com/pytorch/pytorch/commit/9c699801a5173fe8ec5d0fe04281280e4f2d5248) | liangel-02 |
-| 2026-11-17 | [[CPP FakeTensor] Select native modes in FakeTensorMode.__new__ (#205160)](https://github.com/pytorch/pytorch/commit/0d44fe1d02dff4562acaacef3632f1e712cfe42d) | liangel-02 |
-| 2026-11-17 | [[CPP FakeTensor] Route data access through fake detach handling (#204…](https://github.com/pytorch/pytorch/commit/98fac19a8ae52d1bc9aa17aa377db18953a26641) | liangel-02 |
+| 2026-11-18 | [[Testcase Refactoring] Classify test/test_ops_gradients.py for the te…](https://github.com/pytorch/pytorch/commit/6dd0379803abe6a1735af5158733806413c1598b) | KarhouTam |
+| 2026-11-18 | [[Testcase Refactoring] Classify test/profiler/test_torch_tidy.py for …](https://github.com/pytorch/pytorch/commit/9a9f91b071da771cd7fd7ca62fc2a0e8295877d9) | KarhouTam |
+| 2026-11-18 | [[export] Document that export does not record an outer autocast (#205…](https://github.com/pytorch/pytorch/commit/42d36d305cc6a9e16aa1812c0bab5cc7a5acd59f) | shoumikhin |
+| 2026-11-18 | [[xpu] Remove unused function in grouped_mm (#205485)](https://github.com/pytorch/pytorch/commit/57f02f8db4f8ab613f55826dd1235500147f6681) | LuFinch |
+| 2026-11-18 | [[inductor] Add module_fqns and weight_fqns to kernel_information.json…](https://github.com/pytorch/pytorch/commit/93fdc6758e5513edcd0d86a09e313b5aca05bd64) | MirrorZ |
+| 2026-11-18 | [[inductor] Return Integer(0) from TruncToInt(Float(0.0)) (#204784)](https://github.com/pytorch/pytorch/commit/19c8216e9b1ed4face6ed9ae45f30aa08d38f6a8) | saitejacodes |
+| 2026-11-18 | [[Testcase Refactoring] Make test_split_cat_fx_passes device-agnostic …](https://github.com/pytorch/pytorch/commit/f2e0555046e9ffd90aaf091f3148422b18849760) | gavinwang269 |
+| 2026-11-18 | [[CPP FakeTensor] Skip unsupported nested tensor tests (#205364)](https://github.com/pytorch/pytorch/commit/d0f3e6fa71f2f56e5ab8b64052ddd9f91bbd9f88) | liangel-02 |
+| 2026-11-18 | [[export] Preserve sparse functorch wrappers in fake snapshots (#204957)](https://github.com/pytorch/pytorch/commit/2ec8123e7d87eaecd27ab9f4f8f0cbdb6cdea481) | liangel-02 |
+| 2026-11-18 | [[CPP FakeTensor] Support nested operator argument and output containe…](https://github.com/pytorch/pytorch/commit/8096046d4b8b968c09f4bdac4c73d95af0098e34) | liangel-02 |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

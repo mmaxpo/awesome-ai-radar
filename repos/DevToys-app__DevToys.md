@@ -45,7 +45,7 @@
 > …
 
 ### [v2.0.8.0](https://github.com/DevToys-app/DevToys/releases/tag/v2.0.8.0) _(pre-release)_
-<sub>2024-11-17 · 1y ago</sub>
+<sub>2024-11-17 · 2y ago</sub>
 
 >   * On Linux, fixed an issue causing blank window on startup. Kudo to @ccot7 for the help!
 >   * On Windows, fixed an issue where a ghost window appears in Alt+Tab.

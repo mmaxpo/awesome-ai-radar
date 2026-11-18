@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [419](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [421](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-16 (yesterday) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
@@ -89,6 +89,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [Use `cfg_select` in `OsStr` conversions (#6587)](https://github.com/PyO3/pyo3/commit/a6addae8948adedafd09b2832edf3fa23d282b16) | bschoenmaeckers |
 | 2026-11-16 | [build(deps): bump the github-actions group across 1 directory with 2 …](https://github.com/PyO3/pyo3/commit/fcee2dc3d6bc5848922c74fd096e7548cf68856a) | dependabot[bot] |
 | 2026-11-15 | [docs: add pyromark to README examples (#6582)](https://github.com/PyO3/pyo3/commit/5f2e89208b2bdbcf10580ec2742e96fba697ad21) | monosans |
 | 2026-11-14 | [Fix Python logging example in documentation (#6581)](https://github.com/PyO3/pyo3/commit/b3fd214929cb17bfdc330c1388bcf24bfd3b2778) | innerpeacenan |
@@ -98,7 +99,6 @@
 | 2026-11-02 | [build(deps): bump the github-actions group with 2 updates (#6567)](https://github.com/PyO3/pyo3/commit/3057df68bc6e3539cba9e34dc78be7473a307cbd) | dependabot[bot] |
 | 2026-11-01 | [fix cases of incorrect allocator or deallocator inheritance (#6559)](https://github.com/PyO3/pyo3/commit/aa0a05f792cdac4290021ec01c9adb6fc23e4a14) | davidhewitt |
 | 2026-10-26 | [build(deps): bump the github-actions group with 7 updates (#6556)](https://github.com/PyO3/pyo3/commit/26f9ec8be637d24d0dee18d51e129cc1a99f3a7c) | dependabot[bot] |
-| 2026-10-26 | [build(deps): update scraper requirement in /pyo3-ffi-check (#6554)](https://github.com/PyO3/pyo3/commit/48ab34bf607ea71b0db83214b93db46840b455d1) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

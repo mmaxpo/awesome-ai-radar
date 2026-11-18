@@ -26,17 +26,17 @@
 | 💻 **Languages** | JavaScript 80% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.0 MB |
+| 💾 **Size** | 24.7 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
 ### [v4.30.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.2) — Haven 4.30.0-beta.2 _(pre-release)_
-<sub>2026-11-16 · today</sub>
+<sub>2026-11-16 · yesterday</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.1:
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
-<sub>2026-11-15 · 2d ago</sub>
+<sub>2026-11-15 · 3d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > It has everything in 4.29.0, plus these, which are not in a stable yet:
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — Haven 4.29.0
-<sub>2026-11-15 · 2d ago</sub>
+<sub>2026-11-15 · 3d ago</sub>
 
 > **Added**
 > - Call controls in fullscreen (thanks Roolk, #5849): mute, deafen, camera, screen share, call settings and leave stay on screen over a fullscreen camera or screen share, and a picker switches which stream is shown without leaving fullscreen.
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.29.0-beta.5](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.5) — Haven 4.29.0-beta.5 _(pre-release)_
-<sub>2026-11-13 · 3d ago</sub>
+<sub>2026-11-13 · 4d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.28.0 until the next stable.
 > Changes since 4.29.0-beta.4:
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.29.0-beta.4](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.4) — Haven 4.29.0-beta.4 _(pre-release)_
-<sub>2026-11-11 · 5d ago</sub>
+<sub>2026-11-11 · 6d ago</sub>
 
 > Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
 > **New**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [Let the login page scroll as a normal page so phones stop bouncing it up](https://github.com/ancsemi/Haven/commit/b02a34e0a627c16462509a0e204cf250a0c0128f) | ancsemi |
-| 2026-11-16 | [Keep channel and DM context menus on screen when they fit neither way](https://github.com/ancsemi/Haven/commit/2f9e4d30ecefb0c4f01450b0577ff5826eb08a6a) | ancsemi |
-| 2026-11-16 | [Release 4.30.0-beta.2](https://github.com/ancsemi/Haven/commit/2e957d29853e32782be4ac7b532b32ad23a824d7) | ancsemi |
-| 2026-11-16 | [Show activity from apps on the member's computer via Haven Desktop (#…](https://github.com/ancsemi/Haven/commit/fcd2016a997759667d44d15d14ba4151fa1378e1) | ancsemi |
-| 2026-11-16 | [Let the emote-names switch be a default for new members (#5895)](https://github.com/ancsemi/Haven/commit/698fbbcf71ea688603b330d1ef9f1ad51e472ee5) | ancsemi |
-| 2026-11-16 | [Turn Add members into Manage members: add or remove people, roles or …](https://github.com/ancsemi/Haven/commit/38d1ace02df1cd28dcf68ff121f43355e2050014) | ancsemi |
-| 2026-11-16 | [Say why the emote words setting read may fail quietly (#5896)](https://github.com/ancsemi/Haven/commit/157e55b4f4a55b341fc400b54aea464a19998798) | ancsemi |
-| 2026-11-16 | [Move the remove-from-channel steps into their own file](https://github.com/ancsemi/Haven/commit/32239471c135bf093f627981bbaefb04fcd69440) | ancsemi |
-| 2026-11-16 | [Extend the PostgreSQL preview: posting, DMs, edits, reactions, thread…](https://github.com/ancsemi/Haven/commit/96eed57c6b3c9e3a1c383396ab96132382692689) | Slyke |
-| 2026-11-16 | [Sort DMs by latest message, name or your own order, saved on the acco…](https://github.com/ancsemi/Haven/commit/b7d71757036acb6f0aa51068356a35dab785fb74) | Amnibro |
+| 2026-11-18 | [Explain the catches in the merged PRs and bump the emoji picker cache…](https://github.com/ancsemi/Haven/commit/244e86c8698c13c38201691420685fd3db5abd55) | ancsemi |
+| 2026-11-18 | [Show picture borders in threads and on your own avatar at the bottom …](https://github.com/ancsemi/Haven/commit/e598077254dcae77ce91a1e70f7aec97e3339ac3) | ancsemi |
+| 2026-11-18 | [Give back a message or forum post that auto-mod refused](https://github.com/ancsemi/Haven/commit/640ea7ac35005fccb68af42e30cbbc4f72cc4852) | ancsemi |
+| 2026-11-18 | [Retry relayed tracks that fail to connect and check for missing ones …](https://github.com/ancsemi/Haven/commit/d6907a5d4e3d1361a2299d532e1ef69aef8899cf) | ancsemi |
+| 2026-11-18 | [Keep the channel list usable in the Compact layout when Join and Crea…](https://github.com/ancsemi/Haven/commit/49e17c729676ac32b84f476bff44680acf4496b4) | Amnibro |
+| 2026-11-18 | [Keep a "Missed call" line in the chat when a DM call goes unanswered …](https://github.com/ancsemi/Haven/commit/1addb8395a0a64162526296da7f2a3fab422e21e) | Amnibro |
+| 2026-11-18 | [Encrypt mobile push payloads to the device (#5871) (#5873)](https://github.com/ancsemi/Haven/commit/c0bf393b8c59e310e1342ebcb75732ee5fd06f00) | Amnibro |
+| 2026-11-18 | [Feat/shared call settings (#5903)](https://github.com/ancsemi/Haven/commit/4bc9bb540ad3bbcc5ea022fd36cbe7112878e118) | Roolk |
+| 2026-11-18 | [Lead the quick reaction row with your favorites, then your most-used …](https://github.com/ancsemi/Haven/commit/ca7934c38e93496116fbfc49814a76ee2b978747) | Amnibro |
+| 2026-11-18 | [[feat] More profile customization (#5900)](https://github.com/ancsemi/Haven/commit/e9ead9eb5791155ce3a62c99d10528207558724a) | Bo0sted |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

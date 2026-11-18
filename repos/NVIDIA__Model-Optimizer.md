@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.6k |
-| 🍴 **Forks** | 813 |
-| 🐞 **Open issues + PRs** | [534](https://github.com/NVIDIA/Model-Optimizer/issues) |
+| 🍴 **Forks** | 816 |
+| 🐞 **Open issues + PRs** | [544](https://github.com/NVIDIA/Model-Optimizer/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2024-04-23 |
 | 📦 **Latest release** | [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 190.5 MB |
+| 💾 **Size** | 208.1 MB |
 | 🌐 **Website** | https://nvidia.github.io/Model-Optimizer/ |
 
 ## 📦 Recent releases
 
 ### [0.49.0rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.49.0rc0) _(pre-release)_
-<sub>2026-11-16 · today</sub>
+<sub>2026-11-16 · yesterday</sub>
 
 > Install this pre-release version using:
 > ```bash
@@ -44,18 +44,18 @@
 > ```
 
 ### [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — ModelOpt 0.47.1 Release
-<sub>2026-11-06 · 10d ago</sub>
+<sub>2026-11-06 · 11d ago</sub>
 
 > **Bug Fixes**
 > - Fix NVFP4 fake quantization (e.g. ``NVFP4_DEFAULT_CFG``) with Triton 3.9, as in the PyTorch 26.11 container, on GPUs with compute capability 8.9 or newer: it failed with ``NotImplementedError: Block pointers have been removed in favor of the tensor descriptor API``.
 
 ### [0.47.1rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1rc0) _(pre-release)_
-<sub>2026-11-05 · 12d ago</sub>
+<sub>2026-11-05 · 13d ago</sub>
 
 > -
 
 ### [0.48.0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0) — ModelOpt 0.48.0 Release
-<sub>2026-11-02 · 15d ago</sub>
+<sub>2026-11-02 · 16d ago</sub>
 
 > **New Features**
 > **Sparsity**
@@ -66,7 +66,7 @@
 > …
 
 ### [0.48.0rc2](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0rc2) _(pre-release)_
-<sub>2026-10-28 · 19d ago</sub>
+<sub>2026-10-28 · 20d ago</sub>
 
 > Install this pre-release version using:
 > ```
@@ -77,16 +77,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [fix(onnx): require onnxslim 0.1.78 for ONNX 1.21 (#3414)](https://github.com/NVIDIA/Model-Optimizer/commit/a35496172d843be51292af82497ab5b0727f2af2) | kevalmorabia97 |
-| 2026-11-17 | [[NVBug 6968503] Add axis/block_size to INT4 RTN Q/DQ nodes (#3126)](https://github.com/NVIDIA/Model-Optimizer/commit/af54ce4addb2558221823111bf14de705b9a91a9) | haoxiz-nvidia |
-| 2026-11-17 | [Derive the GGML IQ super-block scale and match each block's output en…](https://github.com/NVIDIA/Model-Optimizer/commit/b1f5540c46653082ee28a553096668cde87b9816) | cjluo-nv |
-| 2026-11-17 | [Ask agents for problem-first PR descriptions with a modules-touched s…](https://github.com/NVIDIA/Model-Optimizer/commit/ee4782b717450f04c3dcfe7616cbc4c1ed8e38ce) | cjluo-nv |
-| 2026-11-17 | [Fix BF16 FP8 ONNX export with ml_dtypes 0.7.0 (#3405)](https://github.com/NVIDIA/Model-Optimizer/commit/e03b63b27c2a94701e125c429707cc0101aaa5bb) | ajrasane |
-| 2026-11-16 | [[3/5] Move skill evaluation datasets to canonical paths (#3374)](https://github.com/NVIDIA/Model-Optimizer/commit/0bf5f4310e0a698ebb514ba336fbdd9610cbeece) | chadvoegele |
-| 2026-11-16 | [Fix nightly: test_qad multi-GPU check and speculative SP gradient tes…](https://github.com/NVIDIA/Model-Optimizer/commit/e5cce4924f267d6862ded146aa243b53bc8c5cfe) | kevalmorabia97 |
-| 2026-11-16 | [Fix NaN amax when restoring a quantized Megatron-Core model before it…](https://github.com/NVIDIA/Model-Optimizer/commit/6f4cb4a82caf4ff8b7edb78d5ef597b286e2c8a7) | kevalmorabia97 |
-| 2026-11-16 | [docs: split changelog sections to reduce merge conflicts; add 0.50 se…](https://github.com/NVIDIA/Model-Optimizer/commit/b42551b0e3451a8cba51e67eddc260436d96bc7f) | kevalmorabia97 |
-| 2026-11-16 | [[chore]: weekly bump of uv.lock on main (2026-11-16) (#3395)](https://github.com/NVIDIA/Model-Optimizer/commit/5119f8c36fa730d7f7c7d38a082b8be5ed02043c) | github-actions[bot] |
+| 2026-11-18 | [fix(config): require pydantic>=2.5.0 (#3471)](https://github.com/NVIDIA/Model-Optimizer/commit/b7f546d305d8d9800559cbc7dc86c4897f68c378) | joe-nv |
+| 2026-11-18 | [docs: Link the Qwen3.8-27B draft models to their Hugging Face repos (…](https://github.com/NVIDIA/Model-Optimizer/commit/53d4eb55c0a418689e83456add1fdd8dbd14132c) | phicksy |
+| 2026-11-18 | [fix(sparsity): require wonderwords>=2.2.0 (#3470)](https://github.com/NVIDIA/Model-Optimizer/commit/508e3d2cfe4102e26ac5f64c738604abe5430431) | joe-nv |
+| 2026-11-18 | [Derive the GGML IQ super-block scale for local_hessian and match each…](https://github.com/NVIDIA/Model-Optimizer/commit/fe3dab761b009bea8ff3373efd6d9b5bdcbd01ca) | cjluo-nv |
+| 2026-11-18 | [Fix AutoCast unknown dimension metadata (#2420)](https://github.com/NVIDIA/Model-Optimizer/commit/69dc3faa5a8162b8be1607b74bd412b339080f7b) | haoxiz-nvidia |
+| 2026-11-17 | [[OMNIML-6370] [4/5] Score AutoQuantize KL candidates in a low-bit con…](https://github.com/NVIDIA/Model-Optimizer/commit/e7181568c81ff76bec7d4e420b13648451331123) | meenchen |
+| 2026-11-17 | [[NVBug 6785767] Keep the RMSNorm variance in FP32 in ONNX AutoCast (#…](https://github.com/NVIDIA/Model-Optimizer/commit/8732158bb8fdb15f3c9340339434d4fe0e27f2da) | haoxiz-nvidia |
+| 2026-11-17 | [Fix Qwen3.6 hybrid ONNX calibration and INT4 export (NVBug 7035423) (…](https://github.com/NVIDIA/Model-Optimizer/commit/17e646d6a7501a70793aadc1e970eadc6438ceb9) | Tracy-123-dev |
+| 2026-11-17 | [[OMNIML-6104] Prepare QDQ weights during Bridge PTQ (#3366)](https://github.com/NVIDIA/Model-Optimizer/commit/5fafec084d4b01eb44927cc6cd2b0723c28e2a29) | hychiang-git |
+| 2026-11-17 | [[2/2] Derive the GGML IQ super-block scales with a CUDA kernel (#3377)](https://github.com/NVIDIA/Model-Optimizer/commit/e96f81d67243c6f5cd2618e52a17abd6877d56b2) | cjluo-nv |
 
 [See all commits ↗](https://github.com/NVIDIA/Model-Optimizer/commits)
 

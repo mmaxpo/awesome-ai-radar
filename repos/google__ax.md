@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 14.8k |
 | 🍴 **Forks** | 796 |
-| 🐞 **Open issues + PRs** | [103](https://github.com/google/ax/issues) |
+| 🐞 **Open issues + PRs** | [101](https://github.com/google/ax/issues) |
 | 💻 **Languages** | Go 92% · Shell 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-03-30 |
 | 📦 **Latest release** | [v0.3.1](https://github.com/google/ax/releases/tag/v0.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 44.9 MB |
+| 💾 **Size** | 45.1 MB |
 | 🌐 **Website** | https://agentexecutor.io |
 
 ## 📦 Recent releases
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [ci: build and publish a release when a vX.Y.Z tag is pushed (#616)](https://github.com/google/ax/commit/21bedb61e05b737dcb0717f1a6c4d162c44448b8) | MushuEE |
-| 2026-11-17 | [test/e2e: run a pure image with a launcher on the mounted runner (#622)](https://github.com/google/ax/commit/0761344b657111e7f8595756189073521334811c) | aprajitaarora13 |
-| 2026-11-17 | [runner: hand the task to the image's launcher as files (#621)](https://github.com/google/ax/commit/bd4a683be24ddc4627879ad3f85e4a04354edbb9) | aprajitaarora13 |
-| 2026-11-17 | [controller, substrate: mount the runner from a read-only image volume…](https://github.com/google/ax/commit/a17fc5f763c3efc649caadb8c4aa720fa5013f7f) | aprajitaarora13 |
-| 2026-11-17 | [build: add the runner volume image (#619)](https://github.com/google/ax/commit/28c414720e32b47affa3e49c6f1c0812cf11d73a) | aprajitaarora13 |
-| 2026-11-17 | [ax: add promote to copy a task to another cluster (#618)](https://github.com/google/ax/commit/c6299c34b8fc4caa274a3203d56ce768969b25c5) | yongruilin |
-| 2026-11-16 | [lock, workspace: add shared RLock to Locker and guard EnsureSnapshotT…](https://github.com/google/ax/commit/167ee0b389867d008039816374f1a663ee3b1e56) | YoyinZyc |
-| 2026-11-16 | [hack: bind a Gateway to the hero demo's Antigravity starter task (#608)](https://github.com/google/ax/commit/90f76e08ab1a7edbef51b80035052a877c2c5f6b) | yongruilin |
-| 2026-11-16 | [feat(cli): add ax local, ax install/uninstall, and one-line installer…](https://github.com/google/ax/commit/9003bbddf4b855ec9078b99761bb948c601b0161) | YoyinZyc |
-| 2026-11-16 | [hack: drop the workspace profile from the hero demo until pre-warming…](https://github.com/google/ax/commit/e5adc50909b1eb68f8d8460955873d90b4459bba) | mayawang |
+| 2026-11-18 | [examples: bind a Gateway to the Claude Code example (#638)](https://github.com/google/ax/commit/239bf4c660e76aa116d26901b33a29970cb78707) | yongruilin |
+| 2026-11-18 | [runnerhttp, server: add :8081 runner HTTP handler, Actor JWT auth, an…](https://github.com/google/ax/commit/7c4ce3a7f4afbad84d8456ebe532aa9fa8ef7608) | itssimrank |
+| 2026-11-17 | [deploy, e2e: expose ax-server-runner :8081 only to atenet-egress in N…](https://github.com/google/ax/commit/e925acc78398d0039d27edad694118135db092bf) | siyuanfoundation |
+| 2026-11-17 | [hack: promote the hero demo's starter task with ax promote (#636)](https://github.com/google/ax/commit/cdbc9afd2ff25e570c4e28ace6e9ba9997d1e0ea) | yongruilin |
+| 2026-11-17 | [Runner proto lifecycle (#633)](https://github.com/google/ax/commit/18b87396d7ad08986077b3411c8b7fc41dedbeec) | itssimrank |
+| 2026-11-17 | [feat(install): pass the runner volume image through ax local start an…](https://github.com/google/ax/commit/d1781385b87e100563735936122937fb0b124663) | YoyinZyc |
+| 2026-11-17 | [store: implement TaskApplier in memory and postgres backends (#630)](https://github.com/google/ax/commit/d128a4bb3378ec3f2a8c142bcd8fcbfdc7654840) | siyuanfoundation |
+| 2026-11-17 | [feat(cli): add ax studio launcher and install.sh studio download (#627)](https://github.com/google/ax/commit/7fd1bf7913c085b2a10eff7d51bb8a9f11f5de9e) | YoyinZyc |
+| 2026-11-17 | [fix(tunnel): keep a tunnel per namespace of a context (#628)](https://github.com/google/ax/commit/e772628bcd5b0f4ce3e20f9c9ea0a2b018668fac) | yongruilin |
+| 2026-11-17 | [ax: add Kind E2E for promote (#629)](https://github.com/google/ax/commit/838bfbc1453135a40d18929e3d2f9e6083d1474f) | yongruilin |
 
 [See all commits ↗](https://github.com/google/ax/commits)
 

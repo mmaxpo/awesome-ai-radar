@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 93.6k |
-| 🍴 **Forks** | 12.5k |
+| ⭐ **Stars** | 93.7k |
+| 🍴 **Forks** | 12.6k |
 | 🐞 **Open issues + PRs** | [1.2k](https://github.com/OpenHands/OpenHands/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `artificial-intelligence` `llm` `chatgpt` `claude-ai` `cli` `developer-tools` `gpt` `openai` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2024-03-13 |
 | 📦 **Latest release** | [v1.41.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.41.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 692.0 MB |
+| 💾 **Size** | 693.0 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
 
 ### [v1.41.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.41.0)
-<sub>2026-11-16 · today</sub>
+<sub>2026-11-16 · yesterday</sub>
 
 > **1.41.0 (2026-11-16)**
 > **What's Changed**
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.39.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.39.0)
-<sub>2026-11-11 · 5d ago</sub>
+<sub>2026-11-11 · 6d ago</sub>
 
 > **1.39.0 (2026-11-11)**
 > **What's Changed**
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0)
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > **1.38.0 (2026-11-10)**
 > **What's Changed**
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.37.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.37.0)
-<sub>2026-11-06 · 11d ago</sub>
+<sub>2026-11-06 · 12d ago</sub>
 
 > **1.37.0 (2026-11-06)**
 > **What's Changed**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [chore(deps): bump isbot from 5.2.2 to 5.2.3 in the react-router group…](https://github.com/OpenHands/OpenHands/commit/3ef8f12bfbdf10fca47e79fc55821edc7481f72d) | dependabot[bot] |
-| 2026-11-17 | [chore(deps): bump i18next from 27.0.1 to 27.1.0 in the i18next group …](https://github.com/OpenHands/OpenHands/commit/b6c8249ddd89d7ece508a4bb3d4fabc4c7856072) | dependabot[bot] |
-| 2026-11-17 | [chore(deps-dev): bump the eslint group with 3 updates (#19804)](https://github.com/OpenHands/OpenHands/commit/4f3c78cba4de8419a59c0d2a638c8ac4c334de23) | dependabot[bot] |
-| 2026-11-17 | [chore(deps): bump posthog-js from 1.447.3 to 1.447.6 (#19807)](https://github.com/OpenHands/OpenHands/commit/6beee0290c8c0cbc08dac33a6cf2543f5fd82c94) | dependabot[bot] |
-| 2026-11-17 | [chore(deps): bump vite from 8.3.6 to 8.3.7 (#19805)](https://github.com/OpenHands/OpenHands/commit/38f7725e17934ee664f1fa7f08a05cb867cef5b9) | dependabot[bot] |
-| 2026-11-17 | [chore(deps): bump axios from 1.21.0 to 1.21.1 (#19809)](https://github.com/OpenHands/OpenHands/commit/bdea6c5e2b8e7bb5428890bf3617bcf37e561d0b) | dependabot[bot] |
-| 2026-11-17 | [chore(deps): bump downshift from 9.4.1 to 9.5.0 (#19808)](https://github.com/OpenHands/OpenHands/commit/984aeb6b13df768b6ac1b614a0d59cb99e4b0008) | dependabot[bot] |
-| 2026-11-17 | [chore(deps): bump framer-motion from 14.10.1 to 14.11.1 (#19806)](https://github.com/OpenHands/OpenHands/commit/3f50db99271faccf1cfd6b997754a5eab78a3faf) | dependabot[bot] |
-| 2026-11-17 | [docs(verify-openhands): map maintenance 2026-11-17 (#19818)](https://github.com/OpenHands/OpenHands/commit/bb362b01316734e9e5d0452c5264f344215e30c4) | enyst |
-| 2026-11-16 | [chore(main): release 1.41.0 (#19687)](https://github.com/OpenHands/OpenHands/commit/5ed4ffa5ac2509e479acc12b83247fbb4c3612c8) | openhands-release-bot[bot] |
+| 2026-11-18 | [chore(deps-dev): bump @testing-library/user-event from 14.6.8 to 14.6…](https://github.com/OpenHands/OpenHands/commit/37957771ba90f5c47640ac294c621c83a1007d79) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump @microlink/react-json-view from 1.31.48 to 1.31.50 …](https://github.com/OpenHands/OpenHands/commit/356e74351cbc6dbb9131bd636062509948d94fa1) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump framer-motion from 14.11.1 to 14.12.0 (#19827)](https://github.com/OpenHands/OpenHands/commit/dd8afe1ac2270351349fc59afa03f811ebe27b6e) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump posthog-js from 1.447.6 to 1.447.10 (#19829)](https://github.com/OpenHands/OpenHands/commit/e3828a69c8dd89ae51789d80bd6fdc42b219d194) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump lucide-react from 1.70.0 to 1.71.0 (#19830)](https://github.com/OpenHands/OpenHands/commit/4f3b9e91ba4e9e9d8638e0b70f6193933b1adc39) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump i18next from 27.1.0 to 27.1.1 in the i18next group …](https://github.com/OpenHands/OpenHands/commit/0c9b75f8843db02a7000f0f9224b9b03289ca958) | dependabot[bot] |
+| 2026-11-18 | [chore(deps-dev): bump electron from 45.2.3 to 45.3.0 (#19826)](https://github.com/OpenHands/OpenHands/commit/64720b6de5f0e79c0ee2d5b0855d51d813907aee) | dependabot[bot] |
+| 2026-11-18 | [feat(verify-openhands): every run has a non-loopback plain-HTTP origi…](https://github.com/OpenHands/OpenHands/commit/6b8f0c001f3cef7fc6afdc686ceae3c1dc7e400c) | enyst |
+| 2026-11-18 | [docs(verify-openhands): map maintenance 2026-11-18 (#19840)](https://github.com/OpenHands/OpenHands/commit/712b648a4442c795f3a26bf0816f6b96cc4c8ec0) | enyst |
+| 2026-11-18 | [fix(automations): restore native webhook source validation (#19600)](https://github.com/OpenHands/OpenHands/commit/6fa7686d37781d8172798231b07b968b9216214a) | 1kailas |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 

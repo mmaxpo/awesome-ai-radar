@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.6 MB |
+| 💾 **Size** | 183.7 MB |
 | 🌐 **Website** | https://scikit-learn.org |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [MNT register pytest marker no_check_spmatrix (#35416)](https://github.com/scikit-learn/scikit-learn/commit/2a9685b22d2e44b405eccb58d546e0b6c296ca33) | lorentzenchr |
+| 2026-11-18 | [TST fix warnings in test_metaestimator.py (#35404)](https://github.com/scikit-learn/scikit-learn/commit/863a402c161490cd5264c5cf5f6559191d67fbd4) | lorentzenchr |
+| 2026-11-18 | [CI Update Python version used in workflows (#35433)](https://github.com/scikit-learn/scikit-learn/commit/3ed02efeadea03e52d6d5095da9eec28c2ce7d27) | betatim |
+| 2026-11-18 | [CI security - Pin all GitHub Actions to commit SHAs  (#35318)](https://github.com/scikit-learn/scikit-learn/commit/6995c66f2f7f751ea1a50fdebea25a81e48ad270) | DeaMariaLeon |
+| 2026-11-18 | [MNT Enable stopping LogisticRegression by a callback (#35334)](https://github.com/scikit-learn/scikit-learn/commit/a6ab448ddfd320a67dc849cd445af16c36fd9387) | jeremiedbb |
+| 2026-11-17 | [ENH avoid copy of gradients and hessians in HGBT HistogramBuilder (#3…](https://github.com/scikit-learn/scikit-learn/commit/dba8e3d57785c333da866341dfd9736659c0ab41) | lorentzenchr |
 | 2026-11-17 | [ENH Sort only by X in IsotonicRegression.fit (#35422)](https://github.com/scikit-learn/scikit-learn/commit/1f98d2b4a5ddea0c251201f555cbeeeb8756165e) | cakedev0 |
 | 2026-11-17 | [MNT rename typedef test helper functions (#35415)](https://github.com/scikit-learn/scikit-learn/commit/da0b134fcf2a61e89448218e8633b0fb85aaa9c5) | lorentzenchr |
 | 2026-11-17 | [FEA Add array API support to `coverage_error` (#32626)](https://github.com/scikit-learn/scikit-learn/commit/e4b91c579c75e592ae202d5b8b1d230101d8203c) | jaffourt |
 | 2026-11-16 | [DOC Update maintainer doc for release from scikit-learn-release workf…](https://github.com/scikit-learn/scikit-learn/commit/a30a70e39ef550a01ea7234e9cf10d3d821df9cd) | lesteve |
-| 2026-11-16 | [:lock: :robot: CI Update lock files for main CI build(s) :lock: :robo…](https://github.com/scikit-learn/scikit-learn/commit/063e1bfb6985e263987e4b5e0d035e0282f70a9e) | scikit-learn-bot |
-| 2026-11-16 | [DOC add scientific reference to whatsnew entry 34412 (#35407)](https://github.com/scikit-learn/scikit-learn/commit/1a16a519abd16444af692c841e314d32a3b52a29) | lorentzenchr |
-| 2026-11-13 | [TST Fix PCA array API checks on rank-deficient data and update array-…](https://github.com/scikit-learn/scikit-learn/commit/ee56c8b5d809dc7b970a140ed501269b63c69cf8) | cakedev0 |
-| 2026-11-13 | [DOC improve User Guide on Linear Models - MultiTaskLasso (#35329)](https://github.com/scikit-learn/scikit-learn/commit/cf52283846d3085337ef214cdb2a6d7e23aa1157) | lorentzenchr |
-| 2026-11-13 | [DOC improve User Guide on Linear Models - Lasso (#35321)](https://github.com/scikit-learn/scikit-learn/commit/f7613034353b82c77a79d8a2719c8b9f5ae03e67) | lorentzenchr |
-| 2026-11-13 | [DOC Add ref for `dcg` and `ndcg` (#34085)](https://github.com/scikit-learn/scikit-learn/commit/42244dab1d3480d0a1684979ed53a571f20b6e06) | lucyleeow |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

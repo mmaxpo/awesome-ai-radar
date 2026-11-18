@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 27.2k |
+| ⭐ **Stars** | 27.3k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [385](https://github.com/onlook-dev/onlook/issues) |
+| 🐞 **Open issues + PRs** | [0](https://github.com/onlook-dev/onlook/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `react` `typescript` `tailwindcss` `nextjs` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `supabase` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` |
+| 🏷 **Topics** | `react` `typescript` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` `astryx` `styled-components` |
 | 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v0.2.32](https://github.com/onlook-dev/onlook/releases/tag/v0.2.32) — 2025-07-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 82.5 MB |
+| 💾 **Size** | 88.6 MB |
 | 🌐 **Website** | https://onlook.com |
 
 ## 📦 Recent releases
@@ -82,6 +82,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [chore: set the app version to 2.0.0 (#3150)](https://github.com/onlook-dev/onlook/commit/7b17f48c59adb7ac4ec30a6982e4971f22846c2b) | Krisodd |
+| 2026-11-17 | [Onlook: the desktop editor replaces v1 (#3149)](https://github.com/onlook-dev/onlook/commit/e10ccbac07c0fdf573b76ac26ddb75de3348b4a3) | Krisodd |
 | 2026-11-17 | [docs: new README and Central Icons asset notice (#3147)](https://github.com/onlook-dev/onlook/commit/993068a859decf9e93152e8a9f43d379d0d708c0) | drfarrell |
 | 2026-07-22 | [fix(security): enforce project-membership authorization across all tR…](https://github.com/onlook-dev/onlook/commit/423e2e924366419e418ee049093872d535eea41a) | mrptato |
 | 2026-07-09 | [Update README to refresh header image (#3125)](https://github.com/onlook-dev/onlook/commit/ab57c090b51f913b214c40bffdcd5753d1bd5930) | drfarrell |
@@ -90,8 +92,6 @@
 | 2026-02-27 | [Website v1.5: AI-native copy revamp, new pages, and UX improvements (…](https://github.com/onlook-dev/onlook/commit/a242be584fa9c71ca5be9e5e7a2640595c4200be) | drfarrell |
 | 2026-01-21 | [Unicorn scroll edits improvement (#3084)](https://github.com/onlook-dev/onlook/commit/ab9333d4fcfdb485383a228d157402a5efa6b4ea) | drfarrell |
 | 2025-12-14 | [Fix open redirect vulnerability in OAuth callback (CVE-2025-63784) (#…](https://github.com/onlook-dev/onlook/commit/6962f87aadfeae72498151bdde799041301219cc) | drfarrell |
-| 2025-12-14 | [Fix DOM XSS vulnerability in text editor (CVE-2025-63785) (#3064)](https://github.com/onlook-dev/onlook/commit/2e6cda3bdfd31e8cfc829efdb5b9cac1baab4997) | drfarrell |
-| 2025-12-14 | [Fix CVE-2025-63783: Add authorization checks to project mutation APIs…](https://github.com/onlook-dev/onlook/commit/57ce1ccfacc7e8484cae59013a2b1e34518560e5) | drfarrell |
 
 [See all commits ↗](https://github.com/onlook-dev/onlook/commits)
 

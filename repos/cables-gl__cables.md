@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 575 |
+| ⭐ **Stars** | 574 |
 | 🍴 **Forks** | 35 |
-| 🐞 **Open issues + PRs** | [410](https://github.com/cables-gl/cables/issues) |
+| 🐞 **Open issues + PRs** | [405](https://github.com/cables-gl/cables/issues) |
 | 💻 **Languages** | JavaScript 91% · GLSL 9% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-16 (yesterday) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2015-06-05 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 470.6 MB |
+| 💾 **Size** | 494.9 MB |
 | 🌐 **Website** | https://cables.gl |
 
 ## 📦 Recent releases
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [console timestamp as op](https://github.com/cables-gl/cables/commit/2bcc1b5a049368466dd8e2404a7ebd8492fb1dff) | pandrr |
-| 2026-11-16 | [console timestamp](https://github.com/cables-gl/cables/commit/2120d92b5b8ebf78e08ccab3d1764d93ade7eed7) | pandrr |
-| 2026-11-14 | [old](https://github.com/cables-gl/cables/commit/a092a2cb96e74170aec768dd0617e7330dece737) | pandrr |
-| 2026-11-13 | [copytexture anisotropic https://github.com/cables-gl/cables/issues/7344](https://github.com/cables-gl/cables/commit/d91a3232e41345c6e26f141cdf190041377b1dc8) | pandrr |
-| 2026-11-13 | [ New version v3: Fix invert problem, add wireframe helper meshes and …](https://github.com/cables-gl/cables/commit/2fd75c3278a88e629539c5dd8e1561d61cb75aa1) | pandrr |
-| 2026-11-13 | [dev changes](https://github.com/cables-gl/cables/commit/56434bd7fb7d7e604015d64c4a3de7c22d46855e) | pandrr |
-| 2026-11-13 | [remove forceShaderMod when using 2d textureEffects https://github.com…](https://github.com/cables-gl/cables/commit/74a5b8a7409efddca99c9f33236e85545a3ee31a) | pandrr |
-| 2026-11-13 | [autio race condition https://github.com/cables-gl/cables/issues/8149](https://github.com/cables-gl/cables/commit/564851b34926a1f769925a7f7bf9881f94c641c9) | pandrr |
-| 2026-11-13 | [simpleanim changelog](https://github.com/cables-gl/cables/commit/9163812a29b7f810f788f2d2a707456c448b8b2c) | pandrr |
-| 2026-11-13 | [cirular general rotate https://github.com/cables-gl/cables/issues/8380](https://github.com/cables-gl/cables/commit/d47462f67ffbf1c8c4054efc7f026a11c2e488a2) | pandrr |
+| 2026-11-17 | [dev changes](https://github.com/cables-gl/cables/commit/e01b5b391a79a3bfd55fda6bb6830ef55da562d4) | pandrr |
+| 2026-11-17 | [dev changes](https://github.com/cables-gl/cables/commit/883675524e75fb15eb6ed4cb1bd54f207a35834d) | pandrr |
+| 2026-11-17 | [Merge branch 'develop' of github.com:cables-gl/cables into develop](https://github.com/cables-gl/cables/commit/275400d61a6644afd2b9d8a06ece0ca88dcdb8b1) | pandrr |
+| 2026-11-17 | [move cables_docs into docs/ (with history)](https://github.com/cables-gl/cables/commit/743bca071f5725aee511fa27ce2739c4afd13e6f) | pandrr |
+| 2026-11-17 | [move cables_docs into docs/ (with history)](https://github.com/cables-gl/cables/commit/b170cad9430e11dff60f61518799d3d208f25c8d) | pandrr |
+| 2026-11-17 | [Merge remote-tracking branch 'refs/remotes/origin/develop' into develop](https://github.com/cables-gl/cables/commit/f928dba9ee4287cbd0e1b5c4e411361ac5d42db5) | pandrr |
+| 2026-11-17 | [Merge remote-tracking branch 'refs/remotes/origin/develop' into develop](https://github.com/cables-gl/cables/commit/f61cf959ef6c3fc1dec623a67e672c4ff3517bdf) | pandrr |
+| 2026-11-17 | [fix link to "quick start"](https://github.com/cables-gl/cables/commit/eb7057052136b387eef67da137d6e8b5483c9b93) | steam0r |
+| 2026-11-17 | [fix link to "quick start"](https://github.com/cables-gl/cables/commit/104624d599097fc84ed5f8edeac3a75858fe2c7e) | steam0r |
+| 2026-11-17 | [typos](https://github.com/cables-gl/cables/commit/aecc4883d8f531a884c864700850d502da18615a) | pandrr |
 
 [See all commits ↗](https://github.com/cables-gl/cables/commits)
 

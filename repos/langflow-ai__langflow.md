@@ -26,17 +26,28 @@
 | 💻 **Languages** | Python 72% · TypeScript 21% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `react-flow` `chatgpt` `large-language-models` `generative-ai` `agents` `multiagent` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2023-02-08 |
-| 📦 **Latest release** | [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 2026-11-10 |
+| 📦 **Latest release** | [v1.13.3](https://github.com/langflow-ai/langflow/releases/tag/v1.13.3) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1686.6 MB |
+| 💾 **Size** | 1703.3 MB |
 | 🌐 **Website** | http://www.langflow.org |
 
 ## 📦 Recent releases
 
+### [v1.13.3](https://github.com/langflow-ai/langflow/releases/tag/v1.13.3) — 1.13.3
+<sub>2026-11-17 · today</sub>
+
+> **What's Changed**
+> **🐛 Bug Fixes**
+> * fix(nextplaid): restore 1.13 component template loading by @erichare in https://github.com/langflow-ai/langflow/pull/16339
+> * fix: enforce custom component policy in background workflows by @erichare in https://github.com/langflow-ai/langflow/pull/16383
+> * fix(auth): invalidate native sessions after password changes by @erichare in https://github.com/langflow-ai/langflow/pull/16446
+> * fix(deps): easy dependency upgrades for 1.13.3 by @Adam-Aghili in https://github.com/langflow-ai/langflow/pull/16382
+> …
+
 ### [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 1.13.2
-<sub>2026-11-10 · 6d ago</sub>
+<sub>2026-11-10 · 7d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.12.10](https://github.com/langflow-ai/langflow/releases/tag/v1.12.10) — 1.12.10
-<sub>2026-11-05 · 11d ago</sub>
+<sub>2026-11-05 · 12d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -56,7 +67,7 @@
 > **Full Changelog**: https://github.com/langflow-ai/langflow/compare/v1.12.9...v1.12.10
 
 ### [v1.13.1](https://github.com/langflow-ai/langflow/releases/tag/v1.13.1) — 1.13.1
-<sub>2026-11-04 · 13d ago</sub>
+<sub>2026-11-04 · 14d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -67,7 +78,7 @@
 > …
 
 ### [v1.12.9](https://github.com/langflow-ai/langflow/releases/tag/v1.12.9) — 1.12.9
-<sub>2026-11-04 · 13d ago</sub>
+<sub>2026-11-04 · 14d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -75,31 +86,20 @@
 > * fix: absorb lxml and Mako image workarounds for 1.12.9 by @erichare in https://github.com/langflow-ai/langflow/pull/16123
 > **Full Changelog**: https://github.com/langflow-ai/langflow/compare/v1.12.8...v1.12.9
 
-### [v1.13.0](https://github.com/langflow-ai/langflow/releases/tag/v1.13.0) — 1.13.0
-<sub>2026-10-22 · 25d ago</sub>
-
-> **What's Changed**
-> **✨ New Features**
-> * feat(admin): add team and user administration API and CLI by @erichare in https://github.com/langflow-ai/langflow/pull/14782
-> * feat(authz): add enterprise directory provenance and CLI by @erichare in https://github.com/langflow-ai/langflow/pull/14841
-> * feat: add FunASR transcription component by @LauraGPT in https://github.com/langflow-ai/langflow/pull/14225
-> * feat: add Plivo bundle with SMS, voice call, and number lookup components by @sarveshpatil-plivo in https://github.com/langflow-ai/langflow/pull/14396
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [chore: merge release-1.13.3 test fix into main](https://github.com/langflow-ai/langflow/commit/21381e5b2964fb4c714dc91fcd5187d4cfc2a67f) | erichare |
+| 2026-11-17 | [test: count backend release version overrides for both registries](https://github.com/langflow-ai/langflow/commit/55c4398326671f35c3a8d48a24e8243ab2b92f5b) | erichare |
+| 2026-11-17 | [chore: merge release-1.13.3 into main](https://github.com/langflow-ai/langflow/commit/7296958064e7dde5a0a71b0afce2d4510c6d5ada) | erichare |
+| 2026-11-16 | [fix: align backend Docker versions with release wheels (#16453)](https://github.com/langflow-ai/langflow/commit/a3ad2f298e0ed9a90fa0c8cce1fa77e85fb561b2) | erichare |
+| 2026-11-16 | [fix: read the Assistant's bundled component sources under S3 storage …](https://github.com/langflow-ai/langflow/commit/790621cc3376a85f7096be5ead1ef9b5da58db65) | david-streamlio |
+| 2026-11-16 | [fix(playground): accept flow uploads in the shareable playground (#16…](https://github.com/langflow-ai/langflow/commit/7fe3b80aa5287556c8217c0819ced995584f0a9b) | Cristhianzl |
+| 2026-11-16 | [test(google): tolerate timeout reconstruction across worker threads](https://github.com/langflow-ai/langflow/commit/ce99f0f9d94534b06e94144856bbf858cfe03886) | erichare |
 | 2026-11-16 | [test(google): tolerate timeout reconstruction across worker threads](https://github.com/langflow-ai/langflow/commit/86fde091f88a8b40507512d36ed78b5917dc165e) | erichare |
-| 2026-11-13 | [test: fix snapshot deployment telemetry fixtures (#16395)](https://github.com/langflow-ai/langflow/commit/260cbf347cc5563cc48c79094c175ca31532ea2b) | erichare |
-| 2026-11-11 | [ci: fetch source release tags before LFX tests (#16348)](https://github.com/langflow-ai/langflow/commit/2cf9ce808afa6ad3f41aa5f6b47bdcb1927cde84) | erichare |
-| 2026-11-11 | [ci: stop pinning lfx to the langflow version in the migration test (#…](https://github.com/langflow-ai/langflow/commit/71b28b924050c95a244227d5a1424f2495014e14) | erichare |
-| 2026-11-10 | [chore: merge release-1.13.2 Gunicorn fix into main](https://github.com/langflow-ai/langflow/commit/eaf9dec98978674ff03e4f7a92f2d11441ffded8) | erichare |
-| 2026-11-10 | [fix: preserve Gunicorn compatibility cap in release installs](https://github.com/langflow-ai/langflow/commit/8b42952d734de18e34c2838ff6c634efb1815878) | erichare |
-| 2026-11-10 | [chore: merge release-1.13.2 bundle repair into main](https://github.com/langflow-ai/langflow/commit/a07daa267e82522ff3d8fd26de6c3c286b1c062c) | erichare |
-| 2026-11-10 | [fix: bump Amazon bundle for 1.13.2 Bedrock fixes](https://github.com/langflow-ai/langflow/commit/2ba6eb84e6378bd6596c34b8fbcad93cc426898b) | erichare |
-| 2026-11-10 | [chore: merge release-1.13.2 into main](https://github.com/langflow-ai/langflow/commit/5abad254f9cd8589e1f95b57e207dfb7840b5d61) | erichare |
-| 2026-11-10 | [fix(amazon): address Bedrock Converse QA failures (#16326)](https://github.com/langflow-ai/langflow/commit/608c261cc26b95812eb5215135130cf8f2caf483) | erichare |
+| 2026-11-16 | [fix(deps): easy dependency upgrades for 1.13.3 (#16382)](https://github.com/langflow-ai/langflow/commit/d6fa70f18aaa1849cf89b1287d53f7a9e6cd878c) | Adam-Aghili |
+| 2026-11-16 | [fix(deps): patch release 1.13.3 security dependencies (#16449)](https://github.com/langflow-ai/langflow/commit/30d4e1a85d4b6b7991a2ba927c327712b0e3d171) | erichare |
 
 [See all commits ↗](https://github.com/langflow-ai/langflow/commits)
 

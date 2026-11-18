@@ -26,17 +26,28 @@
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `ai-agent` `ai-tools` `cli` `coding` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-04-01 |
-| 📦 **Latest release** | [v0.36.0](https://github.com/Twigpine/openclaude/releases/tag/v0.36.0) — 2026-11-13 |
+| 📦 **Latest release** | [v0.37.0](https://github.com/Twigpine/openclaude/releases/tag/v0.37.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 38.8 MB |
+| 💾 **Size** | 38.9 MB |
 | 🌐 **Website** | https://openclaude.twigpine.com |
 
 ## 📦 Recent releases
 
+### [v0.37.0](https://github.com/Twigpine/openclaude/releases/tag/v0.37.0)
+<sub>2026-11-17 · today</sub>
+
+> **[0.37.0](https://github.com/Twigpine/openclaude/compare/v0.36.0...v0.37.0) (2026-11-17)**
+> **Features**
+> * /scroll-speed and /tui commands, unattended retry, idle compaction ([#2525](https://github.com/Twigpine/openclaude/issues/2525)) ([766d48d](https://github.com/Twigpine/openclaude/commit/766d48db5b7ea5b5d520007435906724b6c4b6ed))
+> * add /todos, /cd, /reload-skills and four CLAUDE_CODE_* env toggles ([#2521](https://github.com/Twigpine/openclaude/issues/2521)) ([d8a35c4](https://github.com/Twigpine/openclaude/commit/d8a35c44c24e498e5ca5989f180efac7addc09f1))
+> * **buddy:** procedural hero art with moods that follow the agent ([#2515](https://github.com/Twigpine/openclaude/issues/2515)) ([b932e2b](https://github.com/Twigpine/openclaude/commit/b932e2b933e4a7ecddc4ef0ef950aa72f1c33302))
+> * **buddy:** sharp image tier for terminals with kitty graphics, and Keynote ([#2516](https://github.com/Twigpine/openclaude/issues/2516)) ([0c6b6f9](https://github.com/Twigpine/openclaude/commit/0c6b6f9ed4863a3bb8cea8c0233527da89d1937a))
+> …
+
 ### [v0.36.0](https://github.com/Twigpine/openclaude/releases/tag/v0.36.0)
-<sub>2026-11-13 · 4d ago</sub>
+<sub>2026-11-13 · 5d ago</sub>
 
 > **[0.36.0](https://github.com/Twigpine/openclaude/compare/v0.35.1...v0.36.0) (2026-11-11)**
 > **Features**
@@ -47,14 +58,14 @@
 > …
 
 ### [v0.35.1](https://github.com/Twigpine/openclaude/releases/tag/v0.35.1)
-<sub>2026-11-09 · 8d ago</sub>
+<sub>2026-11-09 · 9d ago</sub>
 
 > **[0.35.1](https://github.com/Twigpine/openclaude/compare/v0.35.0...v0.35.1) (2026-11-09)**
 > **Bug Fixes**
 > * **opengateway:** cache the live model list for an hour, not a day ([#2490](https://github.com/Twigpine/openclaude/issues/2490)) ([96fb014](https://github.com/Twigpine/openclaude/commit/96fb01476901f54c8fdfa25b6909253907a47209))
 
 ### [v0.35.0](https://github.com/Twigpine/openclaude/releases/tag/v0.35.0)
-<sub>2026-11-09 · 8d ago</sub>
+<sub>2026-11-09 · 9d ago</sub>
 
 > **[0.35.0](https://github.com/Twigpine/openclaude/compare/v0.34.0...v0.35.0) (2026-11-09)**
 > **Features**
@@ -65,7 +76,7 @@
 > …
 
 ### [v0.34.0](https://github.com/Twigpine/openclaude/releases/tag/v0.34.0)
-<sub>2026-11-02 · 15d ago</sub>
+<sub>2026-11-02 · 16d ago</sub>
 
 > **[0.34.0](https://github.com/Twigpine/openclaude/compare/v0.33.0...v0.34.0) (2026-11-02)**
 > **Features**
@@ -75,20 +86,12 @@
 > * **attachments:** make TODO reminders configurable ([#2214](https://github.com/Twigpine/openclaude/issues/2214)) ([23115eb](https://github.com/Twigpine/openclaude/commit/23115eb86d376b65c1552b075b613b38fe98c40b))
 > …
 
-### [v0.33.0](https://github.com/Twigpine/openclaude/releases/tag/v0.33.0)
-<sub>2026-10-15 · 1mo ago</sub>
-
-> **[0.33.0](https://github.com/Twigpine/openclaude/compare/v0.32.0...v0.33.0) (2026-10-14)**
-> **Features**
-> * **provider:** add GMI Cloud as a provider and official partner ([#2279](https://github.com/Twigpine/openclaude/issues/2279)) ([e736c28](https://github.com/Twigpine/openclaude/commit/e736c28257d614558e22219e138d3f984b3e658d))
-> * **sessions:** add /sessions to resume or delete saved conversations ([#2262](https://github.com/Twigpine/openclaude/issues/2262)) ([fc3be25](https://github.com/Twigpine/openclaude/commit/fc3be25e2549698a21571f4f773d8b32a643bece))
-> **Bug Fixes**
-> * **statusline:** reset context usage after full compaction ([#2275](https://github.com/Twigpine/openclaude/issues/2275)) ([fc82603](https://github.com/Twigpine/openclaude/commit/fc826031aef42d7d8627c48cca9159faa10146c6))
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [feat: permission settings, plugin engine checks, and four bundled ski…](https://github.com/Twigpine/openclaude/commit/e9985989e08abd0f3229cd73887be64af4a86d28) | beardthelion |
+| 2026-11-17 | [chore(main): release 0.37.0 (#2513)](https://github.com/Twigpine/openclaude/commit/3cd5463dd2d64477956cc69d0a8b94a887c2d8c0) | github-actions[bot] |
 | 2026-11-17 | [chore(web): upgrade Astro to 7.4.12 for two security advisories (#2543)](https://github.com/Twigpine/openclaude/commit/34a8643a505e0bbc226c7775cd6363773a3608f9) | kevincodex1 |
 | 2026-11-17 | [chore: remove unused getOriginalCwd imports left by #2521 (#2542)](https://github.com/Twigpine/openclaude/commit/65a5b55aaea424f6b34effc6de6a25815fca0c97) | kevincodex1 |
 | 2026-11-17 | [test: stop ExitWorktreeTool suite from leaking the hooks config snaps…](https://github.com/Twigpine/openclaude/commit/439d75344f2819b7e0dcda0d116368b815635bc9) | Bensonluo |
@@ -97,8 +100,6 @@
 | 2026-11-16 | [Enable five audited feature flags (#2535)](https://github.com/Twigpine/openclaude/commit/4e471e7d97980b31e7184ffacf9b9ccc3c3579fb) | beardthelion |
 | 2026-11-16 | [feat(permissions): support Bash(prompt: ...) natural-language rules (…](https://github.com/Twigpine/openclaude/commit/9afab41d394fe684b2cc7d32ee96b478f27ceb21) | beardthelion |
 | 2026-11-16 | [feat: parse bash command structure for permission and safety checks (…](https://github.com/Twigpine/openclaude/commit/849e58bb573713326e0db5b69a5886222b594dd9) | beardthelion |
-| 2026-11-16 | [feat: opt-in OpenTelemetry event export and openclaude agents dispatc…](https://github.com/Twigpine/openclaude/commit/ce4129a7e038d44ba6fcdb1a67445bdb5b11cc59) | beardthelion |
-| 2026-11-15 | [feat(statusline): add optional refreshInterval for periodic re-runs (…](https://github.com/Twigpine/openclaude/commit/0a8df0ed67e74fc73e400baf6563a870a3d27d97) | Art3mk4 |
 
 [See all commits ↗](https://github.com/Twigpine/openclaude/commits)
 

@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 16.8k |
-| 🍴 **Forks** | 1.8k |
-| 🐞 **Open issues + PRs** | [673](https://github.com/cursor/plugins/issues) |
+| ⭐ **Stars** | 17.1k |
+| 🍴 **Forks** | 1.9k |
+| 🐞 **Open issues + PRs** | [675](https://github.com/cursor/plugins/issues) |
 | 💻 **Languages** | TypeScript 89% · TLA 3% · JavaScript 3% · Mermaid 2% · Shell 2% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-01-23 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.6 MB |
+| 💾 **Size** | 18.7 MB |
 
 ## 📦 Recent releases
 
@@ -40,16 +40,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [Merge pull request #1258 from cursor/add-redo-plugin](https://github.com/cursor/plugins/commit/e1cc03121a0e71129a4fb730d7c5528a0a3e43c8) | rshah2020 |
-| 2026-11-17 | [feat(third_party): add the Redo plugin](https://github.com/cursor/plugins/commit/92ca6d07a3eb99e709e7e47458d0039c61bd7426) | rshah2020 |
-| 2026-11-17 | [Merge pull request #1255 from cursor/minu/google-search-console](https://github.com/cursor/plugins/commit/3fa33bb0f927bea2ccacd48a3cfda95145fb6bae) | minupalaniappan |
-| 2026-11-17 | [Merge pull request #1253 from cursor/liam-ilan/uber-courier](https://github.com/cursor/plugins/commit/320bfaa1fe11077b1efc7113bfafc7ef29ba1b8a) | liam-ilan |
-| 2026-11-17 | [feat(third_party): add Uber Courier plugin](https://github.com/cursor/plugins/commit/ea7001810c4141fbb049304c1bb181dfc9c47325) | liam-ilan |
-| 2026-11-17 | [Add the Google Search Console plugin for Grok Bot](https://github.com/cursor/plugins/commit/046fc09dfe97a0d7ba54ca4cb0aacb2bdeb2dfd0) | minupalaniappan |
-| 2026-11-16 | [Merge pull request #1251 from cursor/liam-ilan/factset](https://github.com/cursor/plugins/commit/b4a4f6151b8e77f8d71045f09f553a733cf0ed37) | liam-ilan |
-| 2026-11-16 | [Merge pull request #1252 from cursor/liam-ilan/sap-s4hana-cloud](https://github.com/cursor/plugins/commit/7acdf201927301c5e7ef7d30e5e3382824e3a75b) | liam-ilan |
-| 2026-11-16 | [Merge branch 'main' into liam-ilan/factset](https://github.com/cursor/plugins/commit/369164fca155e8642e7c6bdc4b46b33c1e72efbe) | liam-ilan |
-| 2026-11-16 | [Merge pull request #1250 from cursor/liam-ilan/close](https://github.com/cursor/plugins/commit/edf3e152bfb188d28d25db9e033f8ab444aa544f) | liam-ilan |
+| 2026-11-18 | [Merge pull request #1269 from cursor/add-hospitable-plugin](https://github.com/cursor/plugins/commit/35a90942a7f02e1ebbc2443643179815f2147954) | rshah2020 |
+| 2026-11-18 | [feat(third_party): add the LMTY plugin](https://github.com/cursor/plugins/commit/d823b2d9726c7493497e28d88413d256d0ec6e9d) | rshah2020 |
+| 2026-11-18 | [Merge pull request #1275 from cursor/add-fiscal-ai-plugin](https://github.com/cursor/plugins/commit/5692c3d88a42576f3b21bf09e628de719af50885) | rshah2020 |
+| 2026-11-18 | [Merge branch 'main' into add-fiscal-ai-plugin](https://github.com/cursor/plugins/commit/384549785d47c657bbcdcce145c15d54708fc8d4) | rshah2020 |
+| 2026-11-18 | [Merge pull request #1262 from cursor/add-createos-plugin](https://github.com/cursor/plugins/commit/244c4764ce01174fb832062e4d7e06ea8c407a33) | rshah2020 |
+| 2026-11-18 | [Merge branch 'main' into add-fiscal-ai-plugin](https://github.com/cursor/plugins/commit/603ac527b8b8abbbca103c4f0ef21213f10aaf4b) | rshah2020 |
+| 2026-11-18 | [feat(third_party): add the CreateOS plugin](https://github.com/cursor/plugins/commit/47c419d4a026de84db4c9c64a23fd768d303148a) | rshah2020 |
+| 2026-11-18 | [Merge pull request #1263 from cursor/add-hq-plugin](https://github.com/cursor/plugins/commit/e27df34c5406709ab0dc26213794ae88daf6119c) | rshah2020 |
+| 2026-11-18 | [feat(third_party): add the Fiscal.ai plugin](https://github.com/cursor/plugins/commit/4fed385fd5b22ee095bb0aaa05fff59fdab9ccdb) | rshah2020 |
+| 2026-11-18 | [feat(third_party): add the HQ plugin](https://github.com/cursor/plugins/commit/fc996a03ae369b676e4f226a2ea3224d7bec8e59) | rshah2020 |
 
 [See all commits ↗](https://github.com/cursor/plugins/commits)
 

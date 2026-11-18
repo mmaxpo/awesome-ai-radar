@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 95.2k |
+| ⭐ **Stars** | 95.3k |
 | 🍴 **Forks** | 11.8k |
 | 🐞 **Open issues + PRs** | [3.1k](https://github.com/zed-industries/zed/issues) |
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `text-editor` `zed` `gpui` `rust-lang` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2021-02-20 |
 | 📦 **Latest release** | [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 543.4 MB |
+| 💾 **Size** | 543.5 MB |
 | 🌐 **Website** | https://zed.dev |
 
 ## 📦 Recent releases
 
 ### [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1)
-<sub>2026-11-11 · 5d ago</sub>
+<sub>2026-11-11 · 6d ago</sub>
 
 > This week's release includes optional automatic Git fetching, a resizable Refs column in the Git Graph, dragging Git Panel files into terminals and editors, and mouse-wheel font zoom in diff views and terminals.
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.29.1-pre](https://github.com/zed-industries/zed/releases/tag/v1.29.1-pre) _(pre-release)_
-<sub>2026-11-11 · 5d ago</sub>
+<sub>2026-11-11 · 6d ago</sub>
 
 > This week's release includes a Git Panel branch mode that lists every file changed since a base branch, a bookmark picker, configurable Git date formats, support for Claude Fable 5.2 for Anthropic BYOK users (plus Claude Mythos 5.2 if your organization has access), and a setting to turn off automatic agent thread titles.
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.27.0](https://github.com/zed-industries/zed/releases/tag/v1.27.0)
-<sub>2026-11-04 · 12d ago</sub>
+<sub>2026-11-04 · 13d ago</sub>
 
 > This week's release includes syntax highlighting for Go 1.27 generic methods, an option to open README files by default, and AI commit messages that follow your repository's recent commit style.
 > **Features**
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.28.0-pre](https://github.com/zed-industries/zed/releases/tag/v1.28.0-pre) _(pre-release)_
-<sub>2026-11-04 · 12d ago</sub>
+<sub>2026-11-04 · 13d ago</sub>
 
 > This week's release includes optional automatic Git fetching, a resizable Refs column in the Git Graph, dragging Git Panel files into terminals and editors, and mouse-wheel font zoom in diff views and terminals.
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.26.2](https://github.com/zed-industries/zed/releases/tag/v1.26.2)
-<sub>2026-10-28 · 19d ago</sub>
+<sub>2026-10-28 · 20d ago</sub>
 
 > This week's release includes Pyrefly as an optional built-in Python language server, the ability to expand and inspect nested variable values directly in debugger hovers, and DWARF debugging for WebAssembly sources in the JavaScript debugger.
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [google_ai: Add Extra High thinking level for Gemini 4 Hydrogen (#67011)](https://github.com/zed-industries/zed/commit/698368515d17a602dd51ea61297e5412ce06f52f) | LorenzoBiassio |
-| 2026-11-17 | [onboarding: Keep header pinned while scrolling (#67079)](https://github.com/zed-industries/zed/commit/849b5b8e0737b7ec2ddbc96c26ba3c62a055f222) | aakashbapna |
-| 2026-11-17 | [sandbox: New linux sandbox (#67062)](https://github.com/zed-industries/zed/commit/3dcdee6d2bbebc86ec2978919342a49ed9a0e11a) | cameron1024 |
-| 2026-11-17 | [worktree: Only treat a directory as a bare repository when HEAD and c…](https://github.com/zed-industries/zed/commit/e5be9608ddd4cb0f2f179e1c0014f0a3a0337260) | likeaixxx |
-| 2026-11-17 | [agent: Accept stringified line numbers in read_file tool (#67072)](https://github.com/zed-industries/zed/commit/6e7c5d3ae8578753601f192e72555948fd7a5e99) | ChromaxS |
-| 2026-11-16 | [fix(git_graph): match log_source to CommitViewOptions reveal_file (#6…](https://github.com/zed-industries/zed/commit/482e76524bd33d8cbdfc352f1fef3eefbf2fad92) | jspwrd |
-| 2026-11-16 | [agent_ui: Check only the clicked pattern in pipeline permission dropd…](https://github.com/zed-industries/zed/commit/4191aeaf50e8e255b07bdf2624d7fac17c12f695) | tredondo |
-| 2026-11-16 | [Support Corgi builds on FHS Linux (#67055)](https://github.com/zed-industries/zed/commit/5709f329dc0d85b0e369d2973acb5efce6b8dea8) | kubkon |
-| 2026-11-16 | [gpui_web: Drop Shift from symbol keystrokes (#67052)](https://github.com/zed-industries/zed/commit/9925feb84c0cf10a63f1641b8f9789c11fada4de) | kubkon |
-| 2026-11-16 | [fs: Optimize filesystem watcher path matching by adding fast path for…](https://github.com/zed-industries/zed/commit/d833d4689d04183d1dfd1ad862dc80f6f044a41f) | RemcoSmitsDev |
+| 2026-11-18 | [git_ui: Add commit message model picker (#50674)](https://github.com/zed-industries/zed/commit/1043f4a86ab911a381d9bfe45cf6b36d3cdcc89a) | soilSpoon |
+| 2026-11-18 | [agent_ui: Open tool call locations for files that are not text (#67092)](https://github.com/zed-industries/zed/commit/f88e54eed5474cab7504835e60b0c0d7d6e39485) | daejey |
+| 2026-11-18 | [Add typed support for the OpenAI Ultrafast service tier (#67143)](https://github.com/zed-industries/zed/commit/f3626706fa6855274a561f8f4aebf40666051596) | bennetbo |
+| 2026-11-18 | [editor: Fix crash after moving a project with a split diff to a new w…](https://github.com/zed-industries/zed/commit/da294762d69eafce1a35d224d2990c4ddf5f9abb) | Stiven-Gjekaj |
+| 2026-11-18 | [docs: Mention system clipboard register in Helix's core differences (…](https://github.com/zed-industries/zed/commit/e944cfa2fe622a7a15041b9dfc7770933792857c) | dinocosta |
+| 2026-11-18 | [git_ui: Fold buffers in commit view as soon as possible (#67111)](https://github.com/zed-industries/zed/commit/38f5c4af0d6bace9bbc010528452f69bdbee4179) | dinocosta |
+| 2026-11-18 | [project: Retry diffs since a commit after a failed load (#67116)](https://github.com/zed-industries/zed/commit/761786a4ef7144de734e48cb2e8f99bc46b5061e) | ptweezy |
+| 2026-11-18 | [settings: Make `SettingsFile::Global` compare equal to itself (#67121)](https://github.com/zed-industries/zed/commit/f070c7ff6c27d8bcec4ac14014cd2190a8b98eb0) | ptweezy |
+| 2026-11-18 | [Remove dead code in client, call, channel, and collab (#67126)](https://github.com/zed-industries/zed/commit/881c618a6a990fbf6adeed42d1d52f028e3d32b8) | ptweezy |
+| 2026-11-18 | [edit_prediction_cli: Fix total token percentiles (#67124)](https://github.com/zed-industries/zed/commit/1ab8b9abfb035a16afc6ba50f20b1191d1f80c73) | ptweezy |
 
 [See all commits ↗](https://github.com/zed-industries/zed/commits)
 

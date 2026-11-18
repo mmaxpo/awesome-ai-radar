@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 6.8k |
-| 🍴 **Forks** | 494 |
+| 🍴 **Forks** | 497 |
 | 🐞 **Open issues + PRs** | [12](https://github.com/oomol-lab/pdf-craft/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `document` `ocr` `pdf` `deepseek-ocr` `book-digitization` `deepseek-ocr-2` `document-processing` `ebook` `epub` `epub-translation` `markdown` `pdf-converter` `pdf-parser` `pdf-to-epub` `pdf-to-markdown` `pdf-translation` `python` `scanned-pdf` `text-extraction` `translation` |
-| 🕒 **Last activity** | 2026-11-14 (3d ago) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2025-02-12 |
 | 📦 **Latest release** | [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7)
-<sub>2026-10-28 · 20d ago</sub>
+<sub>2026-10-28 · 21d ago</sub>
 
 > **PDF Craft v2.6.7**
 > Restore incremental PDF extraction `on_body` / `on_footnote` delivery after the
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.6.6](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.6)
-<sub>2026-10-28 · 20d ago</sub>
+<sub>2026-10-28 · 21d ago</sub>
 
 > **PDF Craft v2.6.6**
 > PDF Craft 2.6.6 fixes concurrent PDF extraction, footnote OCR masks, XML fill
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.6.5](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.5)
-<sub>2026-10-26 · 21d ago</sub>
+<sub>2026-10-26 · 22d ago</sub>
 
 > **PDF Craft v2.6.5**
 > PDF Craft 2.6.5 adds translation-size previews and operation-scoped resource
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.6.4](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.4)
-<sub>2026-10-26 · 22d ago</sub>
+<sub>2026-10-26 · 23d ago</sub>
 
 > **PDF Craft v2.6.4**
 > PDF Craft 2.6.4 unifies extraction and translation progress, counts source words
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.6.3](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.3)
-<sub>2026-10-25 · 23d ago</sub>
+<sub>2026-10-25 · 24d ago</sub>
 
 > **PDF Craft v2.6.3**
 > PDF Craft 2.6.3 preserves the original cause of concurrent service failures,
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [chore: add pdfcraft.ai links to PyPI project URLs (#667)](https://github.com/oomol-lab/pdf-craft/commit/e755c82190ded3b5e9a3dc7b85af260b18f50d01) | l1shen |
 | 2026-11-14 | [Localize the top online conversion links in two READMEs (#666)](https://github.com/oomol-lab/pdf-craft/commit/72375b2cc448891af54b6cde78cd8947fc50ed1a) | alwaysmavs |
 | 2026-10-28 | [fix: finalize PDF layout from direct page dependencies (#568)](https://github.com/oomol-lab/pdf-craft/commit/46ac35d6b22b439f230f8a188bca7c230a763113) | Moskize91 |
 | 2026-10-28 | [fix: deliver content callbacks and page progress without unrelated wa…](https://github.com/oomol-lab/pdf-craft/commit/6a11c2de2bc462f1a48400ceafd3f1b4f600d6be) | Moskize91 |
@@ -103,7 +104,6 @@
 | 2026-10-28 | [fix: prevent premature PCEX dependency release and callback terminati…](https://github.com/oomol-lab/pdf-craft/commit/d99c097e960b7eb54cf7bb35743a4fa9259e0f80) | Moskize91 |
 | 2026-10-28 | [chore: prepare PDF Craft 2.6.6 release (#562)](https://github.com/oomol-lab/pdf-craft/commit/907ad581f00f280190e49083f19a990224e9670c) | Moskize91 |
 | 2026-10-28 | [fix: finalize extraction semantics before downstream consumers (#561)](https://github.com/oomol-lab/pdf-craft/commit/4e098926a8ea5668bec88615a62faff31fef5bc7) | Moskize91 |
-| 2026-10-28 | [fix: serialize extraction events and isolate blocking stream workers …](https://github.com/oomol-lab/pdf-craft/commit/0b06f964c251184f9b072a5683a66e75ef4062a8) | Moskize91 |
 
 [See all commits ↗](https://github.com/oomol-lab/pdf-craft/commits)
 

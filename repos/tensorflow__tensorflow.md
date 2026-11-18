@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.7k |
+| ⭐ **Stars** | 201.6k |
 | 🍴 **Forks** | 78.0k |
-| 🐞 **Open issues + PRs** | [3.4k](https://github.com/tensorflow/tensorflow/issues) |
+| 🐞 **Open issues + PRs** | [3.5k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 26% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1402.8 MB |
+| 💾 **Size** | 1407.4 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
 
 ### [v2.22.0-rc1](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1) — TensorFlow 2.22.0-rc1 _(pre-release)_
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **Release 2.22.0**
 > **TensorFlow**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [PR #53153: [ROCM] Refactoring group gemm helper functions](https://github.com/tensorflow/tensorflow/commit/57ad1830fd42a902dd8d03c7a58e9746180f26ab) | pemeliya |
-| 2026-11-17 | [[XLA:GPU] Move RunSPMDPasses to GetDefaultCompilationPipeline.](https://github.com/tensorflow/tensorflow/commit/a74c58a70406af22861c4162e5791f195f86ed4c) | mooskagh |
-| 2026-11-17 | [[XLA:GPU] Support nested-tuple sub-kernels in horizontal fusion.](https://github.com/tensorflow/tensorflow/commit/6eb14c499fc96ce9e8743a448a012f5f726aeaca) | olegshyshkov |
-| 2026-11-17 | [Back all TPUDummyInput outputs with one shared zero buffer.](https://github.com/tensorflow/tensorflow/commit/73a5f7115a922e8fe2b24397c7fd94c2d9208474) | tensorflower-gardener |
-| 2026-11-17 | [[XLA:GPU] Snapshot ThunkMetadata and nested CommandBuffer thunks in P…](https://github.com/tensorflow/tensorflow/commit/7530e470a4f4e69943f2d72361458fe2bd69e876) | beckerhe |
-| 2026-11-17 | [[XLA] Split flag registration in MakeDebugOptionsFlags into smaller s…](https://github.com/tensorflow/tensorflow/commit/b68e90ecc54b98c645023ef38544ecb8a51c0abd) | shyamliagrawal |
-| 2026-11-17 | [Create TPU debugging overview page for openxla.](https://github.com/tensorflow/tensorflow/commit/118b51ab0e3187afaddf7522038fdcea02ab5fa1) | tensorflower-gardener |
-| 2026-11-17 | [Fix a ThreadSanitizer timeout race in RpcOpsTest.test_client_timeout …](https://github.com/tensorflow/tensorflow/commit/5182e973469462c0a483356479d3c6bec8475097) | dmiltr3 |
-| 2026-11-17 | [Update the TFLite GPU allowlist with new device models.](https://github.com/tensorflow/tensorflow/commit/547f3f03e181a07092d6198578a4b6e3f49b4552) | apaiu-dev |
-| 2026-11-17 | [PR #52443: [XLA:GPU] Add support probe and dense fallback for cuDNN r…](https://github.com/tensorflow/tensorflow/commit/cd71766e48d695df4d80b9917c1bd2755a982cda) | Cjkkkk |
+| 2026-11-18 | [[PjRt-IFRT] Validate HloSharding invariants in HloShardingSpec](https://github.com/tensorflow/tensorflow/commit/1fb8340c1f4060f7fea7e3b723553329866cc1b5) | dimitar-asenov |
+| 2026-11-18 | [[XLA:GPU] Add non-fatal `--xla_gpu_[device_]execution_warn_stuck_time…](https://github.com/tensorflow/tensorflow/commit/dc52dd6fc694503dea4d76d3953fe89814d65e6e) | beckerhe |
+| 2026-11-18 | [[XLA:CPU] Lower 0-D dot_general through vector.contract.](https://github.com/tensorflow/tensorflow/commit/72403ed8a60911e673bee1acdc20adb235ba70dd) | pifon2a |
+| 2026-11-18 | [[XLA:SDY] Add need replication sharding rule for EighTpu custom call](https://github.com/tensorflow/tensorflow/commit/6cc19738169971dbf5053177141ed99f36e93ebd) | SamGinzburg |
+| 2026-11-18 | [Migrate XLA call sites to the direct `HloInstruction` frontend attrib…](https://github.com/tensorflow/tensorflow/commit/a035eab92b628443ba4aedf540ea101e83a9cc18) | toli-y |
+| 2026-11-18 | [[XLA:GPU] Import cuda-tile v13.5.0 (25732e3308abd43c0aa9007a7b3b01259…](https://github.com/tensorflow/tensorflow/commit/a0133b8decfe74e5c8caca9b5843abad9dacdc50) | chsigg |
+| 2026-11-18 | [[XLA:SPMD] Align permuted contracting shardings in windowed dot](https://github.com/tensorflow/tensorflow/commit/6647fb43ff626b9b66468e4703b311978157a2c1) | SamGinzburg |
+| 2026-11-18 | [[XLA:GPU] Add runtime and proto support for persistent BufferAllocation](https://github.com/tensorflow/tensorflow/commit/e78b8e0be024954786bca1b65c01b485b556e954) | majnemer |
+| 2026-11-18 | [PR #50727: [CPU] Flush subnormal inputs in the atan2 builtins](https://github.com/tensorflow/tensorflow/commit/16b08e8b04b56dbe4f8eaa4872096debc6f1fdf9) | Jaydeng75 |
+| 2026-11-18 | [Remove obsolete linkstatic = 1 workarounds from TensorFlow C++ rules](https://github.com/tensorflow/tensorflow/commit/60fd6de81dc9f2d61cd26e873a08511a4a8956b3) | tensorflower-gardener |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

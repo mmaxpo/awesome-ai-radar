@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 34.8k |
-| 🍴 **Forks** | 4.3k |
-| 🐞 **Open issues + PRs** | [124](https://github.com/OpenBMB/ChatDev/issues) |
+| 🍴 **Forks** | 4.4k |
+| 🐞 **Open issues + PRs** | [125](https://github.com/OpenBMB/ChatDev/issues) |
 | 💻 **Languages** | Python 70% · Vue 28% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-06 (11d ago) |
+| 🕒 **Last activity** | 2026-11-06 (12d ago) |
 | 📅 **Created** | 2023-08-28 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) — 2026-03-23 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) — v2.2.0:
-<sub>2026-03-23 · 7mo ago</sub>
+<sub>2026-03-23 · 8mo ago</sub>
 
 > **Key Updates:**
 > **OpenClaw Integration**
@@ -45,7 +45,7 @@
 > …
 
 ### [v2.1.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.1.0)
-<sub>2026-01-22 · 9mo ago</sub>
+<sub>2026-01-22 · 10mo ago</sub>
 
 > **Highlights of This Release**
 > **1. Batch Execution Support and the Introduction of the Laboratory Interface**

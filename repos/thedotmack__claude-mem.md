@@ -20,23 +20,56 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 117.9k |
-| 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [160](https://github.com/thedotmack/claude-mem/issues) |
-| 💻 **Languages** | TypeScript 65% · JavaScript 30% · Python 4% |
+| ⭐ **Stars** | 118.2k |
+| 🍴 **Forks** | 10.3k |
+| 🐞 **Open issues + PRs** | [91](https://github.com/thedotmack/claude-mem/issues) |
+| 💻 **Languages** | TypeScript 66% · JavaScript 29% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-memory` `anthropic` `artificial-intelligence` `claude` `claude-agent-sdk` `claude-agents` `claude-code` `claude-code-plugin` `claude-skills` `long-term-memory` `mem0` `openmemory` `supermemory` `chromadb` `sqlite` `embeddings` `memory-engine` `rag` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2025-08-31 |
-| 📦 **Latest release** | [v15.19.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.19.0) — 2026-11-16 |
+| 📦 **Latest release** | [v16.0.0](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 875.5 MB |
+| 💾 **Size** | 892.9 MB |
 | 🌐 **Website** | https://claude-mem.ai |
 
 ## 📦 Recent releases
 
+### [v16.0.0](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.0)
+<sub>2026-11-18 · today</sub>
+
+> **My Work puts what needs you first**
+> My Work, the page that shows what your agents are doing, was rebuilt from a full UI review (#6210, #6304). What needs you sits at the top, long lists fold, and every page works on a phone, by keyboard and with a screen reader.
+> - **What needs you comes first.** On the home page the first request waiting on you is at the top, with the one orange button on the screen. Requests are one-line rows; Idle and Shipped fold to one row each, with their counts.
+> - **Shorter pages.** On a real install: home is about 2,600px tall instead of 5,138; the List opens with 5 rows instead of 195; My Rules is about 4,400px instead of over 17,000.
+> - **Reply where you read.** A request's drawer puts the reply box right under its progress line, in every state. While a reply is on its way, "Reply here" waits, so a message can never go to a second conversation as a second paid turn.
+> - **A focus area's page** reads top to bottom: what needs you, the asks not started yet, then the board. A failed save says which change failed and offers Try again on that screen only. Past focus shows the day an area was marked done.
+> …
+
+### [v15.21.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.21.0)
+<sub>2026-11-17 · today</sub>
+
+> **claude-mem no longer turns off Claude Code's Code Mode**
+> - **Code Mode starts with claude-mem enabled** (#6278, thanks @naive000; reported in #6209 by @nasif-naseef). Code Mode (experimental, Claude Code 2.1.323 and later) refuses to start when a plugin's hooks module hooks `tool.call`. claude-mem's auto-clear mod did, so Code Mode was off for everyone with claude-mem enabled, even with auto-clear off. The mod now reads tool results through `session.append` instead. Auto-clear still works on every Claude Code version that runs mods (2.1.287 and later).
+> **Auto-clear picks up where it left off**
+> Auto-clear is still off unless you set `CLAUDE_MEM_AUTO_CLEAR_ENABLED` to `true`. When it is on:
+> - **It resumes with a continuation prompt instead of the bare word "continue"** (#6294). Before clearing, Claude saves its work state one last time, naming the list it is working from, the task it just finished and the overall goal. After `/clear`, auto-clear sends: `You are working on "<list>" and recently completed "<task>". Pick back up on our overarching goal "<goal>" from where you left off.` If that save left any of the three out, it sends "continue" as before and logs why.
+> - **It starts at 40% of the context window instead of 33%** (#6294). A `CLAUDE_MEM_AUTO_CLEAR_PERCENT` you set in `settings.json` or the environment still wins.
+> …
+
+### [v15.20.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.20.0)
+<sub>2026-11-17 · today</sub>
+
+> **Two critical fixes**
+> - **The worker starts when settings.json is not valid JSON** (#6259). The worker refused to start when `~/.claude-mem/settings.json` couldn't be parsed, even though the database already held the device identity it was trying to save there. Nothing was captured and no context was injected. It now logs a warning, leaves the file untouched, and starts. On a first start with no saved identity, the error names the file and says to repair or delete it.
+> - **Live Codex Desktop capture on macOS** (#6285, thanks @MaxWang007; reported in #6283 by @AlbertValverdeC). Under Bun on macOS, `fs.watch` gives no event while another process appends to a file it holds open, and Codex Desktop holds a rollout file open for the life of a thread. Codex sessions were read in one burst, sometimes a day later, when Codex closed the file. The transcript watcher now checks the files it already tails every 3 seconds and reads new bytes. It awaits one stat at a time, so a large `~/.codex/sessions` history never blocks the worker, and it never opens new files on its own.
+> **Also on main since 15.19.0**
+> Three pieces of the upcoming 16.0.0, already on main, ship in this release too:
+> - **Mem0 and Supermemory import acceptance fixes** (#6206): Supermemory `--documents` reruns no longer duplicate, and documents imported by 15.19.0 still count as already imported. Mem0 expiry includes its own date. Every import limit names its source; the unsourced 100 MiB total and 10,000-record default are gone (`--max-records` stays).
+> …
+
 ### [v15.19.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.19.0)
-<sub>2026-11-16 · yesterday</sub>
+<sub>2026-11-16 · 2d ago</sub>
 
 > **Continue a Claude Code or Codex conversation from My Work**
 > Open a request in My Work, then open "Where this came from". Under each Claude Code or Codex conversation there is now a message box. Type a message and press Send, and that same conversation takes the turn. The reply shows right there (#6191; the command shapes follow @wiesenthal's answer code in #6054, and the commit credits him).
@@ -47,7 +80,7 @@
 > …
 
 ### [v15.18.5](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.5)
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > **Critical fixes**
 > - **The tree-sitter CLI installs on networks where its download script keeps failing** (#6110, thanks @rigel905, closes #6109). On some networks tree-sitter-cli's own `install.js` had its request reset every time, or exited 0 on a truncated file. The pinned SHA-256 check correctly refused the file, but nothing recovered after that, so `smart_search`, `smart_outline`, `smart_unfold` and the File Read Gate stayed off on every worker start, and `npx claude-mem repair` aborted. Now, when the script fails or leaves anything but the pinned executable, claude-mem fetches the same release asset directly, once, inside the same install time budget, and runs it only after it unpacks to the same pinned SHA-256. The script still runs first, so `HTTPS_PROXY` keeps working. A script that used up the whole budget gets no second attempt.
@@ -57,53 +90,20 @@
 > **Docs**
 > …
 
-### [v15.18.4](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.4)
-<sub>2026-11-15 · 2d ago</sub>
-
-> **Fixes**
-> - **Claude Code gets claude-mem's rules and tools once** (#6179). Before this, a Claude Code session got the same guidance from up to three places: the MCP server instructions, a memory block the local activation script wrote into `CLAUDE.md`, and a pointer line to `RULES-AND-TOOLS.md` (whose timeline legend was never actually loaded). Now there is one path. `MY-RULES.md`, which your `CLAUDE.md` already imports, ends with an import of `RULES-AND-TOOLS.md`, and Claude Code loads it from there.
->   - When that import chain is complete in Claude Code, the MCP server sends no instructions, and the SessionStart hook drops the `Access Claude-Mem Rules + Tools:` pointer line. The server only skips its instructions when the imported file holds exactly the text it would send.
->   - Other hosts, and Claude Code users who never set up My Rules, are unchanged.
->   - The worker adds the import to an existing `MY-RULES.md` once at startup, so current users get it without doing anything. It never creates the file. Writing `MY-RULES.md` also makes sure `RULES-AND-TOOLS.md` exists, so the import never points at a missing file.
->   - `scripts/activate-progressive-memory-local.mjs` no longer writes the memory block into Claude's `CLAUDE.md`. Codex `AGENTS.md` keeps it, because `AGENTS.md` has no imports.
-> …
-
-### [v15.18.3](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.3)
-<sub>2026-11-12 · 4d ago</sub>
-
-> **Critical fixes**
-> - **Codex keeps recording after claude-mem updates** (#6058, thanks @wiesenthal). Codex approves a hook that ships inside a plugin against a fingerprint of the plugin's whole folder. Every claude-mem update rewrites that folder, so after every update Codex switched all seven claude-mem hooks off ("plugin contents changed; hook approval required") and Codex sessions stopped being saved, with no message. The installer now registers claude-mem's Codex hooks in your own `~/.codex/hooks.json`, and each hook runs the on-PATH `claude-mem` launcher, which finds the newest install by itself. Codex trusts a hook in `hooks.json` by its own definition and position, so one approval now lasts across updates. Other tools' hooks in that file are kept in place, a second install changes nothing, a `hooks.json` that can't be parsed is refused and left untouched, and uninstall removes only claude-mem's entries. Turning the claude-mem plugin off in Codex still stops capture. `npx claude-mem doctor` has a new `Codex hooks` row that warns when the plugin is on but its hooks are missing from `hooks.json`.
->   **Codex users: do this once after updating.**
->   1. Run `npx claude-mem install` and select Codex. `npx claude-mem update` and auto-update don't move the hooks, because older installers saved no agent selection. The installer prints `Registered 7 claude-mem hooks in <codex home>/hooks.json`.
->   2. Open interactive Codex, run `/hooks`, and approve the seven claude-mem hooks. `codex exec` can't ask for approval, so do this in interactive Codex first.
->   After that, updates don't need a new approval. Codex asks again only when a claude-mem hook's definition changes, when claude-mem adds a hook, or when another tool's hook listed before claude-mem's is removed.
-> …
-
-### [v15.18.2](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.2)
-<sub>2026-11-12 · 4d ago</sub>
-
-> **Critical fixes**
-> - **Gemini CLI on Windows records again** (#6079, thanks @tanishqbaweja). On Windows, Gemini CLI runs hook commands through PowerShell. The hook commands claude-mem wrote started with a quoted path, which PowerShell rejects as a parser error. Every claude-mem Gemini hook (SessionStart, BeforeAgent, AfterTool, AfterAgent, SessionEnd) failed on every event since 15.18.0, so Gemini sessions on Windows saved nothing and got no saved context. Hook commands on Windows now start with PowerShell's `&` call operator, as the Cursor and Windsurf hooks already do. macOS and Linux are unchanged.
->   **Windows Gemini CLI users: run `npx claude-mem gemini install` once after updating.** `npx claude-mem update` and auto-update do not rewrite Gemini's hooks, so the broken commands stay until you reinstall them. The reinstall replaces the old commands, and `npx claude-mem gemini uninstall` removes both forms.
-> **Improvements**
-> - **My Work shows the real state of open work** (#6038). Jev now reads each open work-state item once per version on the 10-minute My Work check and labels it: the state its notes describe, plus which of its fields holds the next step and the result. At confidence 0.8 or higher, My Work shows a judged status in place of a quiet agent's stale `doing` or missing status (finished becomes Done, not checked; waiting on you becomes Needs you; abandoned becomes Closed). A status the agent set on purpose, such as `blocked`, is kept. Labels are stored in `work-view/work-state-labels.json`; the work-state log itself is never written. Notes are redacted before Jev reads them, calls are paced one a second, and a service refusal or outage stops the run without being retried until the next check.
-> **CI**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [feat(setup): step bar, Back, plain errors and Stop import for 16.0.0 …](https://github.com/thedotmack/claude-mem/commit/3d1aa47ec6406c88a76bf9289c4a4248282303e6) | thedotmack |
-| 2026-11-17 | [feat(viewer): classic viewer and TV page for 16.0.0 (#6229)](https://github.com/thedotmack/claude-mem/commit/5f4ceceb807718c44be1ce632fcf5992f0615df5) | thedotmack |
-| 2026-11-16 | [fix(import): Mem0 and Supermemory import acceptance for 16.0.0 (#6206)](https://github.com/thedotmack/claude-mem/commit/82d3602e2e43503ffd39c180b2af5f7521fc457b) | thedotmack |
-| 2026-11-16 | [chore: promote 15.19.0 for auto-update](https://github.com/thedotmack/claude-mem/commit/f705e9b99601dd9ac03e2f77c5aded6ff3d9471b) | thedotmack |
-| 2026-11-16 | [docs: say the 15.19.0 provenance tag shows on the server runtime](https://github.com/thedotmack/claude-mem/commit/8710ec4f107972d8b76ef67a41872ddda06d92b9) | thedotmack |
-| 2026-11-16 | [docs: update CHANGELOG for v15.19.0](https://github.com/thedotmack/claude-mem/commit/9bf4c6564893c7284082609c086860a18f02aa13) | thedotmack |
-| 2026-11-16 | [chore: bump version to 15.19.0](https://github.com/thedotmack/claude-mem/commit/01a86b235d3b9854c18e1841133d9a8e7fe1171a) | thedotmack |
-| 2026-11-16 | [feat(my-work): continue a Claude Code or Codex conversation from its …](https://github.com/thedotmack/claude-mem/commit/7acc9328706a529909125f2355736f55abdb48e5) | thedotmack |
-| 2026-11-15 | [feat(v16): import memories from Mem0 and Supermemory (#6106)](https://github.com/thedotmack/claude-mem/commit/5cc2fb16aa6d36b47d777d58dfd6456065510f9f) | thedotmack |
-| 2026-11-15 | [Observation provenance: always know which agent made a memory (#6100)](https://github.com/thedotmack/claude-mem/commit/9ea3e0eb86f0dcf37a262d2fd7217cdcc5bc62a2) | thedotmack |
+| 2026-11-18 | [fix(my-work): a press anywhere on a focus card opens its area (#6315)](https://github.com/thedotmack/claude-mem/commit/c1dc252bda98b1310ba3fa4b195efe49070d554b) | thedotmack |
+| 2026-11-18 | [chore: promote 16.0.0 for auto-update](https://github.com/thedotmack/claude-mem/commit/cc4dbf5beb4bd98623e0b842e6617115f4e74631) | thedotmack |
+| 2026-11-18 | [docs: update CHANGELOG for v16.0.0](https://github.com/thedotmack/claude-mem/commit/39c259a6ebfb8f607dc4f9ee6ecdbc2ef4e6223a) | thedotmack |
+| 2026-11-18 | [chore: bump version to 16.0.0](https://github.com/thedotmack/claude-mem/commit/cc0fb95154581052f3611698b6ab6ec48a08f3f0) | thedotmack |
+| 2026-11-18 | [fix(my-work): touch sizes, the Decide chip's edge and 12px labels (Ph…](https://github.com/thedotmack/claude-mem/commit/dd33958aadb2c50d5ba02550551675ebe1eb20f9) | thedotmack |
+| 2026-11-18 | [fix: log two failures that were dropped without a word (#6302)](https://github.com/thedotmack/claude-mem/commit/441203361d53e92f13db35abb0a402976aa3f5ab) | thedotmack |
+| 2026-11-18 | [ci: state the measured run behind the job's 35-minute limit](https://github.com/thedotmack/claude-mem/commit/5150d8e84d9f92f56250c836ed5e586e1d28e4af) | thedotmack |
+| 2026-11-18 | [feat(my-work): Pro Max UI for 16.0.0 — My Work (#6210)](https://github.com/thedotmack/claude-mem/commit/36875d6488921503ebd3c3e69ad37eef9f1a09e4) | thedotmack |
+| 2026-11-17 | [Remove Observation TV (#6295)](https://github.com/thedotmack/claude-mem/commit/99f8bed8256050b79933abf7a5e64590bb3cce2f) | thedotmack |
+| 2026-11-17 | [perf(hook-spool): read the spool in bounded parallel batches (#6260)](https://github.com/thedotmack/claude-mem/commit/bbd8fa2e7cfcc00c8c0b7b1d0c49b31ab144cd83) | Zhong-fan |
 
 [See all commits ↗](https://github.com/thedotmack/claude-mem/commits)
 

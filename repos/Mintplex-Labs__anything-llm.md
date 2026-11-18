@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 68.4k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [358](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [344](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2023-06-04 |
-| 📦 **Latest release** | [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — 2026-10-26 |
+| 📦 **Latest release** | [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
 | 💾 **Size** | 93.8 MB |
 | 🌐 **Website** | https://anythingllm.com |
 
 ## 📦 Recent releases
 
+### [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — AnythingLLM v1.20.0
+<sub>2026-11-17 · today</sub>
+
+> **Updated browser extension**
+> The [browser extension](https://github.com/Mintplex-Labs/anythingllm-extension) has been improved beyond its original function of just collecting documents to now a full fledged UI chat bar with the ability to right click -> Add context (text and image) and chat directly  in Chrome. This sidebar should have mostly full parity for tooling and more with the traditional chat UI.
+> While it is backward and forward compatible, only full functionality is expected when the server and extension are on version 1.20.0 or later. We will be updating the browser extension on the [Chrome webstore](https://chromewebstore.google.com/detail/anythingllm-browser-compa/pncmdlebcopjodenlllcomedphdmeogm) shortly after main release.
+> <img width="3400" height="2046" alt="image" src="https://github.com/user-attachments/assets/5c01980f-04d1-4bb7-800c-a02d7dfcd1f0" />
+> **PowerPoint tool overhaul**
+> <img width="1990" height="1099" alt="pptx-generation" src="https://github.com/user-attachments/assets/05689972-1296-4869-b208-dd9301222dd3" />
+> …
+
 ### [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — AnythingLLM v1.19.0
-<sub>2026-10-26 · 21d ago</sub>
+<sub>2026-10-26 · 22d ago</sub>
 
 > **Built-in LLM for Docker**
 > <img width="3680" height="2212" alt="AnythingLLM Docker built-in LLM powered by Lemonade and llama.cpp" src="https://github.com/user-attachments/assets/410b5784-ca15-4027-a1c4-056d9d5c748e" />
@@ -79,31 +90,20 @@
 > - [x] Agent flow variables now support optional arguments
 > …
 
-### [v1.16.1](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.16.1) — AnythingLLM v1.16.1
-<sub>2026-08-27 · 2mo ago</sub>
-
-> **Activity and Chain of Thought Overhaul**
-> <img width="3680" height="2212" alt="image" src="https://github.com/user-attachments/assets/34e52190-51e3-40b5-baeb-d1936319cb4a" />
-> We overhauled our UI for long-horizon agentic tasks that show multiple thinking and tool calls to now roll up into a single clean, collapsible UI element.
-> This gives you more screen real estate for the actual response while still keeping the important call stack and thoughts the model produces in an easy-to-read format.
-> **Navigation Warning**
-> <img width="3680" height="2212" alt="image" src="https://github.com/user-attachments/assets/dfa98c30-4bde-4321-86cc-eb0bcd7b9873" />
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Fix: misleading Model Router delete confirmation and surface workspac…](https://github.com/Mintplex-Labs/anything-llm/commit/64b599fc92a9c2f4d60f2f9244d278acfff73204) | Bensonbenyi |
+| 2026-11-17 | [fix(i18n): correct Turkish translations and refresh README (#7247)](https://github.com/Mintplex-Labs/anything-llm/commit/807aaebbd3fa98368319546305e1c6f2e275cad9) | alkank |
+| 2026-11-17 | [fix: reject fractional keep-alive timeouts in isInteger validator (#7…](https://github.com/Mintplex-Labs/anything-llm/commit/b0cfa51578169293078b0a8c25bfed22db64c8dc) | rtmalikian |
+| 2026-11-17 | [fix: prefer PDF Author over Creator for document author (#7248)](https://github.com/Mintplex-Labs/anything-llm/commit/a30b7e2095e43dcef259196e477a5da9ab59e168) | timothycarambat |
+| 2026-11-17 | [fix: change MobileDevice.get return value to null when errors (#7238)](https://github.com/Mintplex-Labs/anything-llm/commit/84457e39233a8b0c89d5445bc6579e60cea5a620) | Bensonbenyi |
+| 2026-11-17 | [chore: bump version to 1.20.0 (#7221)](https://github.com/Mintplex-Labs/anything-llm/commit/160afa00ac0eca6315aabe662b2e7673c8c96172) | timothycarambat |
 | 2026-11-17 | [fix: match either explicitly restricted cron day field (#7234)](https://github.com/Mintplex-Labs/anything-llm/commit/eb498cf2c2111b0c651d4c3781f0cdfb8168935c) | Max-Reisinger |
 | 2026-11-17 | [fix: ignore quoted separators in XLSX delimiter detection (#7230)](https://github.com/Mintplex-Labs/anything-llm/commit/c66a8ded12e45b37cd4317646bbaac98f8898d14) | isnaenihidayat |
 | 2026-11-17 | [fix: offer each Mistral model the reasoning levels it accepts (#7228)](https://github.com/Mintplex-Labs/anything-llm/commit/41e4b95ea5edd9ec5190e91ddf211a2d12243b4e) | timothycarambat |
 | 2026-11-17 | [docs: clarify document paths for the removal API (#7225)](https://github.com/Mintplex-Labs/anything-llm/commit/5ea1281f6a557c3ecf18e8558eeac4bddeadfa76) | isnaenihidayat |
-| 2026-11-17 | [feat: show the anonymous telemetry toggle during onboarding](https://github.com/Mintplex-Labs/anything-llm/commit/8788aff491fa760d01a31c3e10111975ed5eeeb6) | timothycarambat |
-| 2026-11-16 | [fix: recompute a scheduled job's next run when it is turned back on (…](https://github.com/Mintplex-Labs/anything-llm/commit/86a53040e6207172f6592575640b86bfe89a8d1b) | Fahmid-Arman |
-| 2026-11-16 | [fix: keep the space between inline elements in Word export list items…](https://github.com/Mintplex-Labs/anything-llm/commit/15337eec2b37b2ecac6f759ec843b4ef7a0812ad) | Fahmid-Arman |
-| 2026-11-16 | [fix: drop the query and hash from a GitHub repo URL before loading it…](https://github.com/Mintplex-Labs/anything-llm/commit/1d630bad4fed1e09ba74591357903bf43a130693) | Fahmid-Arman |
-| 2026-11-16 | [fix: keep nested indentation when the agent file edit matches ignorin…](https://github.com/Mintplex-Labs/anything-llm/commit/cda5bde376f4a5803dad820088182c88aab3fd2d) | Fahmid-Arman |
-| 2026-11-16 | [fix: keep counting a numbered list that a code block interrupts in Wo…](https://github.com/Mintplex-Labs/anything-llm/commit/24fbd26cc45e19cae3f68d59e4e909bb31ad562c) | Fahmid-Arman |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
 

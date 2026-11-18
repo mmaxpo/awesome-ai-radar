@@ -26,7 +26,7 @@
 | 💻 **Languages** | Cython 52% · Python 42% · C 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `cython` `cpython` `cpython-extensions` `c` `cpp` `performance` `big-data` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2010-11-21 |
 | 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1)
-<sub>2026-11-01 · 15d ago</sub>
+<sub>2026-11-01 · 16d ago</sub>
 
 > _No notes._
 
@@ -64,6 +64,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Remove left-over reference](https://github.com/cython/cython/commit/0e3d7848c5cdd8e3e44d32589745441f068f5003) | da-woods |
+| 2026-11-18 | [Remove broken URL](https://github.com/cython/cython/commit/4805da2635a276b30705be48bdad3de003b73d0d) | da-woods |
 | 2026-11-17 | [Keep single-character bytes literals as bytes objects when iterating …](https://github.com/cython/cython/commit/e99970f9d42e7f0ccdb3578340526577df634399) | akasakariko |
 | 2026-11-17 | [Include owned array buffers in __sizeof__ (#8116)](https://github.com/cython/cython/commit/2ef70bc02158cca7ab3a79705018fec2f629ffc3) | 0z5a |
 | 2026-11-16 | [Docs: Fix the restrict qualifier in FAQ (#8144)](https://github.com/cython/cython/commit/cdbe265d1fb3b3b1e92e2d723e82409879ba1359) | matusvalo |
@@ -72,8 +74,6 @@
 | 2026-11-15 | [Fix use of pass in statement list and where `__future__` is allowed (…](https://github.com/cython/cython/commit/2a4662089231cbfba4bff987fcafa5ca0b62f7eb) | da-woods |
 | 2026-11-14 | [fix implicit __init__.py creation warnings (#8132)](https://github.com/cython/cython/commit/429a8f92889a80722e6de76438f45638169791e9) | dws |
 | 2026-11-14 | [CI: Compare changed file counts numerically in file-changes job (#8139)](https://github.com/cython/cython/commit/90f982f22fdebbc84443025835db467c8d6c3a95) | matusvalo |
-| 2026-11-14 | [Reduce graalpy parallelism furter on gp25.0 (#8131)](https://github.com/cython/cython/commit/35887c1bad80897661c968ac9c8f172764e4383a) | da-woods |
-| 2026-11-14 | [Silence some warnings from __Pyx_VisitFreelist (GH-8138)](https://github.com/cython/cython/commit/c05ee472f511e00b6c1bc9a46b30b50f89f67728) | da-woods |
 
 [See all commits ↗](https://github.com/cython/cython/commits)
 

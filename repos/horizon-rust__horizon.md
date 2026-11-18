@@ -20,73 +20,67 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 11.0k |
-| 🍴 **Forks** | 1.8k |
-| 🐞 **Open issues + PRs** | [1.4k](https://github.com/horizon-rust/horizon/issues) |
+| ⭐ **Stars** | 11.2k |
+| 🍴 **Forks** | 1.9k |
+| 🐞 **Open issues + PRs** | [1.3k](https://github.com/horizon-rust/horizon/issues) |
 | 💻 **Languages** | Rust 85% · Python 11% · Java 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `differential-testing` `game-engine` `linux` `minecraft` `reimplementation` `rust` `vulkan` `wgpu` `gamedev` `minecraft-java` `voxel` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-10-03 |
-| 📦 **Latest release** | [launcher@0.2.70](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.70) — 2026-11-17 |
+| 📦 **Latest release** | [launcher@0.2.78](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.78) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 772.9 MB |
+| 💾 **Size** | 828.5 MB |
 | 🌐 **Website** | https://playhorizon.dev |
 
 ## 📦 Recent releases
 
-### [launcher@0.2.70](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.70) — Horizon launcher 0.2.70
-<sub>2026-11-17 · today</sub>
-
-> **New**
-> - The mod API: #16941 merged with main (#17145)
-> **Fixed**
-> - Registry shader packs made for a retired shader API are refused, not installed (#17327)
-> - Skip the game-lease cleanup test in optimized builds so the launcher can release (#17418)
-> - Shader packs are offered by what the installed game runs, not the launcher's own build (#17567, fixes #17527)
-> …
-
-### [launcher@0.2.69](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.69) — Horizon launcher 0.2.69
-<sub>2026-11-16 · yesterday</sub>
+### [launcher@0.2.78](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.78) — Horizon launcher 0.2.78
+<sub>2026-11-18 · today</sub>
 
 > **Fixed**
-> - Port ledger: fix 1 stale citation in horizon-port-pack (#16881)
-> - Change Horizon's licence from MIT to LGPL-3.0-or-later (#17111)
+> - The storage report no longer fails on the links the game makes in its cache (#18144, fixes #17911)
 > **Contributors**
-> Thanks to @MSedgeMC, @kacpherek.
-> Your launcher updates itself. New here? On Linux take the .AppImage below, make it executable and run it; on Windows and macOS download the archive, extract it and run `horizon-launcher` (Horizon.app on macOS). Website: https://playhorizon.dev
-> …
-
-### [launcher@0.2.68](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.68) — Horizon launcher 0.2.68
-<sub>2026-11-15 · yesterday</sub>
-
-> **New**
-> - Arrows show and scroll the top bar's hidden tabs (#16580, fixes #16577)
-> **Fixed**
-> - Release notes draw only the rows in view (#16558, fixes #16557)
-> - fix traduction launcher (#16847)
-> - Name --prism-dir in the missing-files hint (#16895, fixes #16891)
-> …
-
-### [launcher@0.2.67](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.67) — Horizon launcher 0.2.67
-<sub>2026-11-15 · yesterday</sub>
-
-> **Fixed**
-> - Retire shader API 0.1; the game serves only 0.2 (#15886)
-> **Contributors**
-> Thanks to @NikitaMGrimm.
+> Thanks to @abuzar310.
 > Your launcher updates itself. New here? On Linux take the .AppImage below, make it executable and run it; on Windows and macOS download the archive, extract it and run `horizon-launcher` (Horizon.app on macOS). Website: https://playhorizon.dev
 > ---
 > …
 
-### [launcher@0.2.66](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.66) — Horizon launcher 0.2.66
-<sub>2026-11-15 · 2d ago</sub>
+### [launcher@0.2.77](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.77) — Horizon launcher 0.2.77
+<sub>2026-11-18 · today</sub>
 
 > **Fixed**
-> - Run four more slow tests in 17 s instead of 40 s (#16484)
-> - Skip parsing game files that cannot hold an impl Game (#16505)
+> - The window never waits for the game to say its shader API (#18155)
+> - List imported modpacks without reading their mods on the window thread (#18161)
+> - The migration lock is released before its file closes (#18143, fixes #18138)
 > **Contributors**
-> Thanks to @kacpherek.
+> Thanks to @NikitaMGrimm, @abuzar310.
+> …
+
+### [nightly](https://github.com/horizon-rust/horizon/releases/tag/nightly) — Nightly 2026-11-18 · 0b14f8a _(pre-release)_
+<sub>2026-11-18 · today</sub>
+
+> <h1>Want to play? Download the <a href="https://playhorizon.dev">Horizon launcher</a>.</h1><h1>Do NOT run the files below. They will not work on their own.</h1><p>The launcher installs this version and keeps it up to date. You need your own copy of Minecraft: Java Edition. The files below are what the launcher installs, and the dedicated server for people who host one.</p>
+> Nightly 2026-11-18 · 0b14f8a: main (0b14f8a), built from `nightly/build-2026-11-18-1` (0b14f8acfd97fa2c750e42795249dcc981178ca4).
+> Source: commit 0b14f8acfd97fa2c750e42795249dcc981178ca4, kept for good as the tag `nightly-source/2026-11-18-0b14f8a`; horizon-source.tar.gz is its tree. Native mods built for this Nightly pin that commit.
+> The launcher installs it by itself; your worlds stay as they are. A Nightly can include pull requests the Team picked before they are merged (below). Report bugs with the version the game shows ("Nightly <date> · <commit>").
+> **New**
+> - Graphics: a Full Performance preset, and every preset a fixed table (#15700)
+> …
+
+### [sdk-0b14f8acfd97fa2c750e42795249dcc981178ca4](https://github.com/horizon-rust/horizon/releases/tag/sdk-0b14f8acfd97fa2c750e42795249dcc981178ca4) — Mod SDK 0b14f8acfd _(pre-release)_
+<sub>2026-11-18 · today</sub>
+
+> Exact-build SDK for 0b14f8acfd97fa2c750e42795249dcc981178ca4; sdk.json inventories every asset and SHA256SUMS is signed for sdk-0b14f8acfd97fa2c750e42795249dcc981178ca4.
+
+### [launcher@0.2.76](https://github.com/horizon-rust/horizon/releases/tag/launcher%400.2.76) — Horizon launcher 0.2.76
+<sub>2026-11-18 · today</sub>
+
+> **Fixed**
+> - Keep content the game refuses out of the carry (#18067, fixes #18063)
+> - Remove stale patch-applied dir before running horizon-mixins (#17959, fixes #17931)
+> **Contributors**
+> Thanks to @DrDth, @Rocklarper.
 > Your launcher updates itself. New here? On Linux take the .AppImage below, make it executable and run it; on Windows and macOS download the archive, extract it and run `horizon-launcher` (Horizon.app on macOS). Website: https://playhorizon.dev
 > …
 
@@ -94,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [tooling(ci): ludodesktop runs no Horizon CI any more (#17883)](https://github.com/horizon-rust/horizon/commit/3a6bea51bd0032b90438fba10c07c32e4bc1288b) | ludovic111 |
-| 2026-11-17 | [Silk-touched hives keep their bees and honey on the client (#15872)](https://github.com/horizon-rust/horizon/commit/fd3142737b678255e6ff6337e3b475256b840876) | Sergo007 |
-| 2026-11-17 | [docs(governance): NikitaMGrimm on the council list and in the Team's …](https://github.com/horizon-rust/horizon/commit/5fc24d1edd3a85cca85f19596677cc5cbc939374) | NikitaMGrimm |
-| 2026-11-17 | [tooling(ci): every pull request gets a size label (#17628)](https://github.com/horizon-rust/horizon/commit/43226feaf33f66cda4aa71e3510ec713004b2b0d) | NikitaMGrimm |
-| 2026-11-17 | [docs(template): the pull request template asks for the agent line at …](https://github.com/horizon-rust/horizon/commit/22192f835a39109016848efb8c37bbf0868c20b0) | NikitaMGrimm |
-| 2026-11-17 | [tooling(ci): mojang republish checks out its script sparsely, as the …](https://github.com/horizon-rust/horizon/commit/101a3157c1731a1d5f3d028334b315a5212b8191) | NikitaMGrimm |
-| 2026-11-17 | [tooling(ci): the lint cache keeps cargo and always records its commit…](https://github.com/horizon-rust/horizon/commit/6186887a62b77d929f8a0a7272dcf4a6a63f4a1e) | NikitaMGrimm |
-| 2026-11-17 | [tooling(langs): do not count blank entries as coverage (#17639)](https://github.com/horizon-rust/horizon/commit/5c9c56be8c14e42b8a32ac52aac53ce26e159ecc) | angel2rider |
-| 2026-11-17 | [tooling(commands): a fixture pack runs every registered slot-source r…](https://github.com/horizon-rust/horizon/commit/b663e7e80fe4ed9763f792670730bad5ea603634) | TheMrZZ |
-| 2026-11-17 | [docs: run the game from horizon-game, where its executable moved (#17…](https://github.com/horizon-rust/horizon/commit/85facc07f20dca066aab2cb2de1fc8d04b63ec5c) | Bl4ckspell7 |
+| 2026-11-18 | [refactor(gameplay): Wave 3, ExecutionRole and Dim move to horizon-gam…](https://github.com/horizon-rust/horizon/commit/44afc8241d9a531de15a57a70e064fe9b079692b) | kacpherek |
+| 2026-11-18 | [refactor(gameplay): Wave 3, villager logic runs on a VillagerLevel tr…](https://github.com/horizon-rust/horizon/commit/1d2c106e3b62efb41307ee67ee56e109fbfd7c9e) | kacpherek |
+| 2026-11-18 | [feature(mods): set a server player's velocity (#17907)](https://github.com/horizon-rust/horizon/commit/ef956993e1fe8900b56a18f86a870c4905fdd6f2) | Detimes |
+| 2026-11-18 | [feature(mods): PlayerRef::connect_address gives the host and port the…](https://github.com/horizon-rust/horizon/commit/90a3dec839ef77edfcc6a25eb47cf5e5e532190f) | RsMan-Dev |
+| 2026-11-18 | [feature(mods): mob_reset_goals gives a loaded mob the goals of a new …](https://github.com/horizon-rust/horizon/commit/e0bacd674621f85c4ed102806da85c29a3de3a59) | RsMan-Dev |
+| 2026-11-18 | [bug(launcher): Play says which step it's on before the game starts (#…](https://github.com/horizon-rust/horizon/commit/7df554e918c73fd9a804b62839b870f65aaa1352) | NikitaMGrimm |
+| 2026-11-18 | [refactor(gameplay): /time, /weather, /gamerule and /help run on comma…](https://github.com/horizon-rust/horizon/commit/bf6e27f92433d5a5e130b98da0a62ebf360cae04) | kacpherek |
+| 2026-11-18 | [tooling(state-digest): an extended scene, and a LAN host digest that …](https://github.com/horizon-rust/horizon/commit/a96db09075a0f7f9a97c666044bdf75c88f34e0c) | kacpherek |
+| 2026-11-18 | [tooling(game): list what a function uses on Game (#18188)](https://github.com/horizon-rust/horizon/commit/a0f94090bbe9a4a431b8da4b8b4d384e0ac858e8) | kacpherek |
+| 2026-11-18 | [refactor(gameplay): Wave 3, minecart state and rules move to horizon-…](https://github.com/horizon-rust/horizon/commit/066250ec573ed516dc10dcd3f3b44071bba5062b) | kacpherek |
 
 [See all commits ↗](https://github.com/horizon-rust/horizon/commits)
 

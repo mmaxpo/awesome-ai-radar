@@ -20,8 +20,8 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 196.5k |
-| 🍴 **Forks** | 23.0k |
+| ⭐ **Stars** | 197.0k |
+| 🍴 **Forks** | 23.1k |
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/anthropics/skills/issues) |
 | 💻 **Languages** | Python 84% · JavaScript 8% · HTML 7% · Shell 1% |
 | 📜 **License** | — |

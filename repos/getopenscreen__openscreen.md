@@ -21,22 +21,33 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.5k |
-| 🍴 **Forks** | 493 |
-| 🐞 **Open issues + PRs** | [48](https://github.com/getopenscreen/openscreen/issues) |
+| 🍴 **Forks** | 497 |
+| 🐞 **Open issues + PRs** | [53](https://github.com/getopenscreen/openscreen/issues) |
 | 💻 **Languages** | TypeScript 48% · Rust 20% · HTML 14% · MDX 6% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `electron` `open-source` `screen-capture` `screen-recorder` `cross-platform` `ffmpeg` `product-demo` `rust` `screen-recording` `screen-studio` `screencast` `speech-to-text` `typescript` `video-editing` `video-editor` `wayland` `wgpu` `whisper` |
 | 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2026-03-14 |
-| 📦 **Latest release** | [v2.3.0-rc.7](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.7) — 2026-11-17 |
+| 📦 **Latest release** | [v2.3.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 281.1 MB |
+| 💾 **Size** | 281.2 MB |
 | 🌐 **Website** | https://getopenscreen.com/ |
 
 ## 📦 Recent releases
 
-### [v2.3.0-rc.7](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.7) _(pre-release)_
+### [v2.3.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0)
 <sub>2026-11-17 · today</sub>
+
+> <p align="center">
+>   <img src="https://raw.githubusercontent.com/getopenscreen/openscreen/v2.3.0/public/openscreen.png" alt="OpenScreen" width="64" />
+> </p>
+> **OpenScreen 2.3 gives you more control while recording and a clearer view of every AI edit.** Keep a floating camera preview nearby, pause your narration without ending the take, and follow the agent's work step by step. This release also adds per-clip rotation, Dutch and Polish, and native X11 recording.
+> **[Download for Windows, macOS and Linux](https://getopenscreen.com/download/)** · [Full changelog](https://github.com/getopenscreen/openscreen/compare/v2.2.2...v2.3.0)
+> Free and open source. MIT licensed. No features behind a paywall.
+> …
+
+### [v2.3.0-rc.7](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.7) _(pre-release)_
+<sub>2026-11-17 · yesterday</sub>
 
 > **Changes since v2.3.0-rc.6**
 > - fix(preview): keep scrubs playing while a new source loads
@@ -44,7 +55,7 @@
 > **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.3.0-rc.6...v2.3.0-rc.7
 
 ### [v2.3.0-rc.6](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.6) _(pre-release)_
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **Changes since v2.3.0-rc.5**
 > - fix(recording): drop a saved display whose stable id is gone
@@ -55,7 +66,7 @@
 > …
 
 ### [v2.3.0-rc.5](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.5) _(pre-release)_
-<sub>2026-11-16 · yesterday</sub>
+<sub>2026-11-16 · 2d ago</sub>
 
 > **Changes since v2.3.0-rc.4**
 > - fix(export): keep the permissions of the file an MP4 or GIF export replaces
@@ -63,7 +74,7 @@
 > **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.3.0-rc.4...v2.3.0-rc.5
 
 ### [v2.3.0-rc.4](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.4) _(pre-release)_
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > **Changes since v2.3.0-rc.3**
 > - fix(export): keep the existing file when an export write fails
@@ -72,16 +83,6 @@
 > - fix(recording): a dismissed picker cancels the start and never leaves the webcam recording
 > - fix(recording): keep a portal cancel that arrives with ready, before the wait
 > …
-
-### [v2.3.0-rc.3](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.3) _(pre-release)_
-<sub>2026-11-15 · yesterday</sub>
-
-> **Changes since v2.3.0-rc.2**
-> - fix(linux): keep the capture helper's diagnostics out of the editor's toast
-> - fix(export): keep the last frame when the encoder returns it without a duration
-> - fix(export): copy the render's AAC into an .m4a instead of re-encoding it
-> - fix(linux): keep the Wayland camera preview across the editor and Notes off the bar
-> **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.3.0-rc.2...v2.3.0-rc.3
 
 ## 🔨 Latest commits
 

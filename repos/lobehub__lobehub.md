@@ -20,23 +20,67 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 85.7k |
+| ⭐ **Stars** | 85.8k |
 | 🍴 **Forks** | 16.3k |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/lobehub/lobehub/issues) |
-| 💻 **Languages** | TypeScript 98% |
+| 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2023-05-21 |
-| 📦 **Latest release** | [v0.0.0-nightly.pr23243.40055](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23243.40055) — 2026-11-17 |
+| 📦 **Latest release** | [v2.3.4](https://github.com/lobehub/lobehub/releases/tag/v2.3.4) — 2026-11-18 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 620.3 MB |
+| 💾 **Size** | 633.6 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
-### [v0.0.0-nightly.pr23243.40055](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23243.40055) — PR Build v0.0.0-nightly.pr23243.40055 _(pre-release)_
+### [v2.3.5-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.1) — Desktop Canary v2.3.5-canary.1 _(pre-release)_
+<sub>2026-11-18 · today</sub>
+
+> **🐤 Canary Build — v2.3.5-canary.1**
+> > Automated canary build from `canary` branch.
+> **Commit Information**
+> - Based on changes since `v2.3.4-canary.1`
+> - Commit count: 287
+> - `0ad6212c2b` 🗃️ feat(database): add per-person channel sidebar sections (#23283) (Arvin Xu)
+> …
+
+### [v2.3.4](https://github.com/lobehub/lobehub/releases/tag/v2.3.4) — 🚀 Release v2.3.4
+<sub>2026-11-18 · today</sub>
+
+> **Release v2.3.4**
+> From PR #23286: https://github.com/lobehub/lobehub/pull/23286
+> **🚀 LobeHub Release (20261118)**
+> **Release Date:** November 18, 2026\
+> **Since v2.3.3:** 291 commits · 291 merged PRs · 13 contributors
+> > This weekly release turns Channels into a place where people and Agents work side by side, lets MCP connectors run on your own devices, and makes coding sessions easier to steer while they run.
+> …
+
+### [v0.0.0-nightly.pr23297.40163](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23297.40163) — PR Build v0.0.0-nightly.pr23297.40163 _(pre-release)_
 <sub>2026-11-17 · today</sub>
+
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr23297.40163`
+> **Release Time**: `2026-11-17T19:58:11.312Z`
+> **PR**: [#23297](https://github.com/lobehub/lobehub/pull/23297)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
+> …
+
+### [v0.0.0-nightly.pr23286.40158](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23286.40158) — PR Build v0.0.0-nightly.pr23286.40158 _(pre-release)_
+<sub>2026-11-17 · today</sub>
+
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr23286.40158`
+> **Release Time**: `2026-11-17T19:42:52.287Z`
+> **PR**: [#23286](https://github.com/lobehub/lobehub/pull/23286)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
+> …
+
+### [v0.0.0-nightly.pr23243.40055](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23243.40055) — PR Build v0.0.0-nightly.pr23243.40055 _(pre-release)_
+<sub>2026-11-17 · yesterday</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23243.40055`
@@ -46,64 +90,20 @@
 > This is a **development build** specifically created for testing purposes. Please note:
 > …
 
-### [v0.0.0-nightly.pr22948.39972](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22948.39972) — PR Build v0.0.0-nightly.pr22948.39972 _(pre-release)_
-<sub>2026-11-17 · today</sub>
-
-> **PR Build Information**
-> **Version**: `0.0.0-nightly.pr22948.39972`
-> **Release Time**: `2026-11-17T05:43:52.323Z`
-> **PR**: [#22948](https://github.com/lobehub/lobehub/pull/22948)
-> **⚠️ Important Notice**
-> This is a **development build** specifically created for testing purposes. Please note:
-> …
-
-### [v0.0.0-nightly.pr23101.39711](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23101.39711) — PR Build v0.0.0-nightly.pr23101.39711 _(pre-release)_
-<sub>2026-11-16 · yesterday</sub>
-
-> **PR Build Information**
-> **Version**: `0.0.0-nightly.pr23101.39711`
-> **Release Time**: `2026-11-16T06:26:30.459Z`
-> **PR**: [#23101](https://github.com/lobehub/lobehub/pull/23101)
-> **⚠️ Important Notice**
-> This is a **development build** specifically created for testing purposes. Please note:
-> …
-
-### [v0.0.0-nightly.pr23071.39649](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23071.39649) — PR Build v0.0.0-nightly.pr23071.39649 _(pre-release)_
-<sub>2026-11-15 · yesterday</sub>
-
-> **PR Build Information**
-> **Version**: `0.0.0-nightly.pr23071.39649`
-> **Release Time**: `2026-11-15T18:09:48.253Z`
-> **PR**: [#23071](https://github.com/lobehub/lobehub/pull/23071)
-> **⚠️ Important Notice**
-> This is a **development build** specifically created for testing purposes. Please note:
-> …
-
-### [v0.0.0-nightly.pr23017.39490](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23017.39490) — PR Build v0.0.0-nightly.pr23017.39490 _(pre-release)_
-<sub>2026-11-14 · 3d ago</sub>
-
-> **PR Build Information**
-> **Version**: `0.0.0-nightly.pr23017.39490`
-> **Release Time**: `2026-11-14T12:22:42.663Z`
-> **PR**: [#23017](https://github.com/lobehub/lobehub/pull/23017)
-> **⚠️ Important Notice**
-> This is a **development build** specifically created for testing purposes. Please note:
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [♻️ refactor(desktop): keep local Claude Code stdin always open, align…](https://github.com/lobehub/lobehub/commit/1583dc719f4a32ac66119e670a7d2315cecb4767) | ImSingee |
-| 2026-11-17 | [💄 style(worktree): use a sideways Split icon for the New worktree tog…](https://github.com/lobehub/lobehub/commit/fe9cc4318d69cfb029d2cdb2c7255157b86b9129) | ImSingee |
-| 2026-11-17 | [🐛 fix(heterogeneous-agents): stop persisting Codex warning items as t…](https://github.com/lobehub/lobehub/commit/9d1506e249874cdea0c59107bf59179e0ff36ca6) | Innei |
-| 2026-11-17 | [💄 style(settings): widen the Plans tab so four plan cards fit (#23242)](https://github.com/lobehub/lobehub/commit/88a905b8cf671ee4097db80bc988e153ad545448) | tjx666 |
-| 2026-11-17 | [💄 style(acceptance): give check evidence the full row width and dock …](https://github.com/lobehub/lobehub/commit/7628c7479b82df1e622881f72b7aafb52deaffba) | lobehub-coder |
-| 2026-11-17 | [💄 style(subscription): read the plan multiplier hero as a multiple in…](https://github.com/lobehub/lobehub/commit/119a01e79386583d7dd54a0f63c080ac755087b7) | tjx666 |
-| 2026-11-17 | [✨ feat(working-sidebar): show Claude Code background tasks in the Ove…](https://github.com/lobehub/lobehub/commit/9c18f1cf800f8a113e44b69dd122fa22af0c1034) | ImSingee |
-| 2026-11-17 | [🐛 fix(agent): let a private workspace Agent's owner switch to their p…](https://github.com/lobehub/lobehub/commit/afc096bed5529a3ac08b0ba6c5674cf7d0db177d) | rdmclin2 |
-| 2026-11-17 | [🐛 fix(desktop): show each page's own title in Recent Pages (#23223)](https://github.com/lobehub/lobehub/commit/c3741d6f8dd16b68bcba2a702601a2a32b95ecec) | lobehub-coder |
-| 2026-11-17 | [✨ feat(desktop): reopen closed tabs with Cmd/Ctrl+Shift+T and switch …](https://github.com/lobehub/lobehub/commit/57c1ca6a8ce3df2095bb42861a79dade479aa1fd) | lobehub-coder |
+| 2026-11-18 | [✨ feat(agent): synchronize on-demand tool policies across chat and pr…](https://github.com/lobehub/lobehub/commit/97a1d178e8356a07a5b7fb4935ad55dd77ad872d) | AmAzing129 |
+| 2026-11-18 | [♻️ refactor(skills): manage sidebar skills in agent settings (#23405)](https://github.com/lobehub/lobehub/commit/e25b0e967a306844677b1c2cfd6293dfdda7dc7a) | AmAzing129 |
+| 2026-11-18 | [🐛 fix(chat-input): avoid an empty attachment scrollbar (#23390)](https://github.com/lobehub/lobehub/commit/ab1fbf2b50e2ffb917d12b535fdb7ba4fe46c949) | smbslt3 |
+| 2026-11-18 | [👷 ci(deps): cache the pnpm store for every workflow through setup-env…](https://github.com/lobehub/lobehub/commit/d1dbfdbb822d88fb0cfa20b03e5a544a77f7f1cb) | Innei |
+| 2026-11-18 | [💄 style(model-bank): add GPT-6.2 to Azure and OpenRouter (#23376)](https://github.com/lobehub/lobehub/commit/128738687203a1e8d198443f86755f15c9c385d4) | tjx666 |
+| 2026-11-18 | [🗃️ feat(database): let an environment belong to one project (#23383)](https://github.com/lobehub/lobehub/commit/02305928f36b5b445daf43bea29600b93958be6f) | rdmclin2 |
+| 2026-11-18 | [🐛 fix(work-gallery): keep the Works type switch in the page header (#…](https://github.com/lobehub/lobehub/commit/980549db51635f75fd30a462185016e23b6d107b) | Innei |
+| 2026-11-18 | [⚡️ perf(conversation): give the message list an item size hint (#23375)](https://github.com/lobehub/lobehub/commit/e7d2940cae11222f8052d88351771c2bb7f255be) | Innei |
+| 2026-11-18 | [🐛 fix(agent-share): exempt Claude Code / Codex from share model limit…](https://github.com/lobehub/lobehub/commit/0e5d44329085c24ee8c0e646825d2d84625c4e01) | tjx666 |
+| 2026-11-18 | [🐛 fix(hetero): steer uploaded images into live Claude Code runs (#23362)](https://github.com/lobehub/lobehub/commit/a04e505069057e660efa01b18409461ec0241574) | MarioJames |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

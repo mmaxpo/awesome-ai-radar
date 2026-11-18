@@ -20,33 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.2k |
-| 🍴 **Forks** | 787 |
-| 🐞 **Open issues + PRs** | [340](https://github.com/superdesigndev/treg/issues) |
-| 💻 **Languages** | Python 74% · HTML 14% · JavaScript 3% · Vue 3% · Go 3% |
+| ⭐ **Stars** | 8.4k |
+| 🍴 **Forks** | 809 |
+| 🐞 **Open issues + PRs** | [330](https://github.com/superdesigndev/treg/issues) |
+| 💻 **Languages** | Python 74% · HTML 13% · JavaScript 3% · Vue 3% · Go 3% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `dsh-plugin` `agents` `api-keys` `cli` `credentials` `developer-tools` `mcp` `proxy` `python` `registry` `secrets` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 140.2 MB |
+| 💾 **Size** | 138.8 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases
 
 ### [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — treg 1.0.0-beta.3 _(pre-release)_
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — treg 1.0.0-beta.2 _(pre-release)_
-<sub>2026-11-12 · 5d ago</sub>
+<sub>2026-11-12 · 6d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.1](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.1) — treg 1.0.0-beta.1 _(pre-release)_
-<sub>2026-11-07 · 9d ago</sub>
+<sub>2026-11-07 · 10d ago</sub>
 
 > _No notes._
 
@@ -54,16 +54,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [Merge pull request #1751 from superdesigndev/feat/fernet-key-rotation](https://github.com/superdesigndev/treg/commit/a184d3fcb08358563b04128b3083485742aab752) | stonexer |
-| 2026-11-17 | [docs(secrets): open with the new Fernet key before writing with it](https://github.com/superdesigndev/treg/commit/43482d8ae7604b0f69cc9eadaaf97f57e7ce8866) | stonexer |
-| 2026-11-17 | [fix(secrets): rotate stored Fernet credentials with the Arena payloads](https://github.com/superdesigndev/treg/commit/27bc9ab8b9c70e688c0c385ab7564544eb0cd506) | stonexer |
-| 2026-11-17 | [Merge pull request #1750 from superdesigndev/feat/review-targeted-inv…](https://github.com/superdesigndev/treg/commit/f12168e1d0e7ab45964f8857a08ff7ec856740f9) | WorksOnMyVM |
-| 2026-11-17 | [fix(feedback): credit an async routed review to the find, not its poll](https://github.com/superdesigndev/treg/commit/297bb4423bac5ca99f235c4d8d22d9d2054bd1e5) | WorksOnMyVM |
-| 2026-11-17 | [test(feedback): retry the confirm-case review until its call record i…](https://github.com/superdesigndev/treg/commit/5d1335b1df74721044923c8ae5d4b5d90cf7774c) | WorksOnMyVM |
-| 2026-11-17 | [fix(feedback): bound the review counts read so it never holds a worker](https://github.com/superdesigndev/treg/commit/b036064fc3ae31177be3372ec0440b64d7fde5e1) | WorksOnMyVM |
-| 2026-11-17 | [fix(feedback): target a routed review by the child it is credited to](https://github.com/superdesigndev/treg/commit/6a75a43adc8d12e9f7399dce2621472f86ac6275) | WorksOnMyVM |
-| 2026-11-17 | [Merge main into feat/fernet-key-rotation](https://github.com/superdesigndev/treg/commit/29d43b74f07e6a892713d1d931a3a1efdaaa4c71) | stonexer |
-| 2026-11-17 | [feat(secrets): rotate the Fernet key through a key list](https://github.com/superdesigndev/treg/commit/6d13c57e91277585f2258a036a4d7e1264704393) | stonexer |
+| 2026-11-18 | [Merge pull request #1781 from superdesigndev/fix/allowance-refill-sta…](https://github.com/superdesigndev/treg/commit/05d942b0b95379ad576aba5583fbc096ae6b3f94) | WorksOnMyVM |
+| 2026-11-18 | [fix(call): a refill locks the team's row for its cap no harder than a…](https://github.com/superdesigndev/treg/commit/c07fdf24f6bcedc170a1d708e28e8c20680a77a5) | WorksOnMyVM |
+| 2026-11-18 | [fix(call): a refill reads the daily cap under the team's row lock and…](https://github.com/superdesigndev/treg/commit/d6dbfa6e54a3f6068df0b26c2021876e67fb1a10) | WorksOnMyVM |
+| 2026-11-18 | [fix(kv): the take that crosses an allowance counter's low mark asks a…](https://github.com/superdesigndev/treg/commit/981d5d0f90b8e05f14458cb2abeb90867e795498) | WorksOnMyVM |
+| 2026-11-18 | [Merge pull request #1783 from superdesigndev/revert/1684-money-path](https://github.com/superdesigndev/treg/commit/749ff8405670ceb893bd529ebb26740b77c95666) | unclecode |
+| 2026-11-18 | [fix(call): a refill keeps to the team's current daily cap and frees i…](https://github.com/superdesigndev/treg/commit/8c34c20948eea2d48bb82d474210a55b7779796a) | WorksOnMyVM |
+| 2026-11-18 | [fix(kv): an add that brought money ends the pause between refill asks](https://github.com/superdesigndev/treg/commit/69b009599d63b7b7d037b639ffc339f0ead6623a) | WorksOnMyVM |
+| 2026-11-18 | [revert: "perf(call): fewer database round trips on the money path" (#…](https://github.com/superdesigndev/treg/commit/a624c13d0af70bb5f18fc90580be85c4c88d7593) | unclecode |
+| 2026-11-18 | [fix(call): a refill beside a call asks for no amount and tells auto t…](https://github.com/superdesigndev/treg/commit/68efae7e27dfb5b9af06e415c3c5eb1ef08510b9) | WorksOnMyVM |
+| 2026-11-18 | [fix(kv): each deadline of an allowance counter asks for its own refill](https://github.com/superdesigndev/treg/commit/bae42bdee432706e7e8413bf835c44f71055108b) | WorksOnMyVM |
 
 [See all commits ↗](https://github.com/superdesigndev/treg/commits)
 

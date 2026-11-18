@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 71.6k |
+| ⭐ **Stars** | 71.7k |
 | 🍴 **Forks** | 11.5k |
 | 🐞 **Open issues + PRs** | [26](https://github.com/asgeirtj/system_prompts_leaks/issues) |
 | 💻 **Languages** | Python 64% · JavaScript 34% · HTML 2% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | `ai` `anthropic` `chatbot` `chatgpt` `claude` `claude-code` `codex` `gemini` `generative-ai` `google` `llm` `openai` `prompt-engineering` `ai-agents` `system-prompts` `cursor` `grok` `ai-prompts` `prompt` `system-prompt` |
-| 🕒 **Last activity** | 2026-11-16 (yesterday) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2025-05-03 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.6 MB |
+| 💾 **Size** | 24.9 MB |
 
 ## 📦 Recent releases
 
@@ -40,16 +40,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [Add Claude Code Mode (Fable 5.2)](https://github.com/asgeirtj/system_prompts_leaks/commit/09fc4721fcacaa4515ce7c7b39146d8b99dea103) | asgeirtj |
-| 2026-11-16 | [Update claude-fable-5.2.md](https://github.com/asgeirtj/system_prompts_leaks/commit/f6f2d846548193753a588308bb9e58dc28c17830) | asgeirtj |
-| 2026-11-15 | [update formatting](https://github.com/asgeirtj/system_prompts_leaks/commit/5102c93cb2e73fedfeaee0461a68926364fcd1dc) | asgeirtj |
-| 2026-11-15 | [Update README.md](https://github.com/asgeirtj/system_prompts_leaks/commit/42a64b46e12fbabcfc92038bb9d51b5253c7f339) | asgeirtj |
-| 2026-11-15 | [add qwen 4.0 max system prompt (#259)](https://github.com/asgeirtj/system_prompts_leaks/commit/1d70a94b2b74043831e5f362a88c88f4acf4636f) | xh1le |
-| 2026-11-15 | [Create thinking-summarizer.md](https://github.com/asgeirtj/system_prompts_leaks/commit/fb2460a0d6d76f80cbe677ccb1f44e1d41cd29c8) | asgeirtj |
-| 2026-11-14 | [Add Claude Docs connector guide and tools](https://github.com/asgeirtj/system_prompts_leaks/commit/bb4c9c5a8bcbe281e2fbe3fd1fa961e514c0a93f) | asgeirtj |
-| 2026-11-14 | [Update artifact type skills](https://github.com/asgeirtj/system_prompts_leaks/commit/9b0930ce01f3e7376fe3f8c535944364fc74ea3c) | asgeirtj |
-| 2026-11-14 | [Add Claude Sheets and Whiteboard artifact type skills](https://github.com/asgeirtj/system_prompts_leaks/commit/f415cf1012c42ca06bf853c5478bc51c7ae9aff1) | asgeirtj |
-| 2026-11-14 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/2af4ac9a8d82986808a813d01c71a658a60f694d) | asgeirtj |
+| 2026-11-18 | [Update Claude Code effort tables](https://github.com/asgeirtj/system_prompts_leaks/commit/87279d0453c9f710e09c6eeaaf1773ebd6716670) | asgeirtj |
+| 2026-11-18 | [Add Claude Code Desktop side chat prompt](https://github.com/asgeirtj/system_prompts_leaks/commit/14f61488024b6d5abec253ef5705a48c479b8fd3) | asgeirtj |
+| 2026-11-18 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/f4e119ddd18d65951493dff53f844d6c072699f5) | asgeirtj |
+| 2026-11-18 | [Add Claude Opus 3 system prompt (March 4, 2024)](https://github.com/asgeirtj/system_prompts_leaks/commit/02bcfcf80ecddb91a460f800a31b92d8d3b08601) | asgeirtj |
+| 2026-11-18 | [Update claude-fable-5.2.md](https://github.com/asgeirtj/system_prompts_leaks/commit/4e1b25fedc5900979a39dccc24e20be421adb0b7) | asgeirtj |
+| 2026-11-18 | [Add Claude Fable 5.2 system prompt (Claude Code desktop)](https://github.com/asgeirtj/system_prompts_leaks/commit/e93094a7ed0e10363a660ec6c0a4403b2a4be88b) | asgeirtj |
+| 2026-11-18 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/ad4eec6790dca5bd45c955684abe9407f84fb548) | asgeirtj |
+| 2026-11-18 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/d77669de43e61c442acffa6434910e19d7399605) | asgeirtj |
+| 2026-11-18 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/a6bc192fe5cc92c2b392257fcdf5a79c28ef3e46) | asgeirtj |
+| 2026-11-18 | [Update claude-code system prompts (2.1.327)](https://github.com/asgeirtj/system_prompts_leaks/commit/43cd848a25c63f7d4281b51b0d107de92f339ebc) | asgeirtj |
 
 [See all commits ↗](https://github.com/asgeirtj/system_prompts_leaks/commits)
 

@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.0k |
-| 🍴 **Forks** | 778 |
-| 🐞 **Open issues + PRs** | [254](https://github.com/vastsa/PI-Desktop/issues) |
+| ⭐ **Stars** | 8.1k |
+| 🍴 **Forks** | 780 |
+| 🐞 **Open issues + PRs** | [265](https://github.com/vastsa/PI-Desktop/issues) |
 | 💻 **Languages** | TypeScript 54% · JavaScript 27% · Rust 16% · CSS 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `pi-desktop` `ai-agent` `coding-agent` `desktop-app` `electron` `global` `i18n` `local-first` `mcp` `pi-agent` `plugins` `react` `rust` `typescript` `pi` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2023-03-22 |
 | 📦 **Latest release** | [v0.22.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0) — 2026-11-08 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 208.1 MB |
+| 💾 **Size** | 208.0 MB |
 | 🌐 **Website** | https://www.aiuo.net |
 
 ## 📦 Recent releases
 
+### [v0.23.0-beta.2](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.2) _(pre-release)_
+<sub>2026-11-18 · today</sub>
+
+> **What's Changed**
+> * fix(mods): restore reliable Goal run lifecycle and completion by @new-Beginner in https://github.com/vastsa/PI-Desktop/pull/2353
+> * fix(plan): preserve the owning session permission on approval by @Linuxdazhao in https://github.com/vastsa/PI-Desktop/pull/2326
+> * feat(session-collaboration): immediate delivery for reports and follow-ups by @Tioit-Wang in https://github.com/vastsa/PI-Desktop/pull/2355
+> * fix(transcripts): skip terminated torn prefixes instead of failing every read by @koeria in https://github.com/vastsa/PI-Desktop/pull/2301
+> * fix(git-clone): clean up the half-built destination after a timeout by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2357
+> …
+
 ### [v0.23.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.1) _(pre-release)_
-<sub>2026-11-14 · 2d ago</sub>
+<sub>2026-11-14 · 3d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.22.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0)
-<sub>2026-11-08 · 8d ago</sub>
+<sub>2026-11-08 · 9d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.22.0-beta.7](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.7) _(pre-release)_
-<sub>2026-11-08 · 8d ago</sub>
+<sub>2026-11-08 · 9d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -69,18 +80,7 @@
 > …
 
 ### [v0.22.0-beta.6](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.6) _(pre-release)_
-<sub>2026-11-06 · 11d ago</sub>
-
-> **What's Changed**
-> * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
-> * fix(file-manager): theme editor search controls by @AuhNijGnahz in https://github.com/vastsa/PI-Desktop/pull/1861
-> * perf(sessions): cache file-derived session summaries by file identity by @CJLY-0915 in https://github.com/vastsa/PI-Desktop/pull/1796
-> * fix(ci): keep Electron user-path test out of unit suite by @vastsa in https://github.com/vastsa/PI-Desktop/pull/1872
-> * fix(composer): scale the mode chip reservation with the appearance font by @SeanLiu326 in https://github.com/vastsa/PI-Desktop/pull/1879
-> …
-
-### [v0.22.0-beta.5](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.5) _(pre-release)_
-<sub>2026-11-04 · 12d ago</sub>
+<sub>2026-11-06 · 12d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [fix(plugins): read the catalog fields the catalog actually uses (#2403)](https://github.com/vastsa/PI-Desktop/commit/047c4eab1c97a349b3cf8c734229b64ed9d87764) | vastsa |
-| 2026-11-17 | [feat(plugins): show marketplace categories in the app's language (#2400)](https://github.com/vastsa/PI-Desktop/commit/e2f137dff7f2ad77d6f1588dd50ba49751b8eb3b) | vastsa |
-| 2026-11-17 | [docs(agents): require restoring shared pnpm shims before worktree rem…](https://github.com/vastsa/PI-Desktop/commit/d2cd523e99dc51339dc21a0c581721c718bce198) | vastsa |
-| 2026-11-17 | [feat(plugins): page, sort and filter the marketplace through the cent…](https://github.com/vastsa/PI-Desktop/commit/f91799f3f190bb7f03cb4794605a69d99fa9701e) | vastsa |
-| 2026-11-17 | [Merge pull request #2398 from vastsa/fix/retract-prompt-model-system-row](https://github.com/vastsa/PI-Desktop/commit/4d16de71a34b02fd8711c1102a288664b3d171c1) | vastsa |
-| 2026-11-17 | [fix(host): ignore model system snapshot when retracting a stopped prompt](https://github.com/vastsa/PI-Desktop/commit/95446db66354e730df2bb8e9371720e4aee0931a) | vastsa |
-| 2026-11-17 | [Merge pull request #2396 from vastsa/fix/window-maximize-tiling](https://github.com/vastsa/PI-Desktop/commit/fcd958ae46110d68ffb77b054138c62ce0bd38ef) | vastsa |
-| 2026-11-17 | [test(desktop): track native tile minimum in shell size guard](https://github.com/vastsa/PI-Desktop/commit/41bc76096e0e4dfe612bfe884ae8412a25e1941e) | vastsa |
-| 2026-11-17 | [fix(desktop): restore native window maximize and tiling behavior](https://github.com/vastsa/PI-Desktop/commit/fceabebecb2a9e9c7a3c9573ca717635c244c562) | vastsa |
-| 2026-11-16 | [Merge pull request #2390 from koeria/fix/issue-2377-activation-scope](https://github.com/vastsa/PI-Desktop/commit/ecb2d98946b2d21168d423febda6d2ef05ac94e3) | vastsa |
+| 2026-11-18 | [Merge pull request #2417 from vastsa/chore/release-0.23.0-beta.2](https://github.com/vastsa/PI-Desktop/commit/0ca811242628fa1f9cf796eee1ca0dd3f645c471) | vastsa |
+| 2026-11-18 | [chore(release): prepare v0.23.0-beta.2](https://github.com/vastsa/PI-Desktop/commit/97615d018f8d5f6482e1590dab274b3463c68456) | vastsa |
+| 2026-11-18 | [Merge pull request #2414 from zszz3/fix/codex-models-client-version](https://github.com/vastsa/PI-Desktop/commit/67e3b1bb4733a8bab69aa7d5e19b53e52f010674) | vastsa |
+| 2026-11-18 | [Merge pull request #2416 from vastsa/ci/pi-issue-automation](https://github.com/vastsa/PI-Desktop/commit/106fab968b8046010bc8acc5d762d4625a20fdaf) | Tioit-Wang |
+| 2026-11-18 | [chore(pi): read the provider key from the API_KEY secret](https://github.com/vastsa/PI-Desktop/commit/f2bb89bb0519c8e0fa4a1a7a591aaa5bf107b6f9) | Tioit-Wang |
+| 2026-11-18 | [chore(pi): read the provider key from the API_KEY secret](https://github.com/vastsa/PI-Desktop/commit/0b9d2b4ffaa5dc79d85b7db974e2bdef499de0dc) | Tioit-Wang |
+| 2026-11-18 | [docs(spec): describe the @pi issue automation](https://github.com/vastsa/PI-Desktop/commit/9c61f45a3b1ae35a6d0d65718a76e86ad6f51226) | Tioit-Wang |
+| 2026-11-18 | [ci(pi): add the triage label vocabulary](https://github.com/vastsa/PI-Desktop/commit/1bf6314806250fc6f5cb636d7d761f4cca3fb84c) | Tioit-Wang |
+| 2026-11-18 | [ci(pi): label new issues and link duplicates](https://github.com/vastsa/PI-Desktop/commit/f02e72cffa3c80d07cf6bdad23b8b5434e4361d1) | Tioit-Wang |
+| 2026-11-18 | [ci(pi): reply to @pi mentions with the pi agent](https://github.com/vastsa/PI-Desktop/commit/c3ae65f4d05351ad9ba3b253e9daf53a8dbdcd09) | Tioit-Wang |
 
 [See all commits ↗](https://github.com/vastsa/PI-Desktop/commits)
 

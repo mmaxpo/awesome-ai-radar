@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 563 |
+| ⭐ **Stars** | 564 |
 | 🍴 **Forks** | 61 |
 | 🐞 **Open issues + PRs** | [28](https://github.com/pizza-bot-app/pizza-bot/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 5% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` |
-| 🕒 **Last activity** | 2026-11-13 (3d ago) |
+| 🕒 **Last activity** | 2026-11-13 (4d ago) |
 | 📅 **Created** | 2026-06-26 |
 | 📦 **Latest release** | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — Pizza Bot OSS 1.3.0
-<sub>2026-11-10 · 6d ago</sub>
+<sub>2026-11-10 · 7d ago</sub>
 
 > **Highlights**
 > - **Opper provider.** You can use [Opper](https://opper.ai/) as a model provider. Thanks to @Felixkw12 for their first contribution! (#155)
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.1.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.1.0) — Pizza Bot OSS 1.1.0
-<sub>2026-09-19 · 1mo ago</sub>
+<sub>2026-09-19 · 2mo ago</sub>
 
 > **What's Changed**
 > * fix: stop unrelated advisories and a Windows flake from blocking merges by @JoeDo in https://github.com/pizza-bot-app/pizza-bot/pull/78

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 54% · TypeScript 45% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (yesterday) |
+| 🕒 **Last activity** | 2026-11-15 (2d ago) |
 | 📅 **Created** | 2023-11-14 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

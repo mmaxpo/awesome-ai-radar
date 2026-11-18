@@ -20,46 +20,46 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 111.9k |
+| ⭐ **Stars** | 112.6k |
 | 🍴 **Forks** | 6.7k |
-| 🐞 **Open issues + PRs** | [50](https://github.com/pbakaus/impeccable/issues) |
+| 🐞 **Open issues + PRs** | [56](https://github.com/pbakaus/impeccable/issues) |
 | 💻 **Languages** | Rust 78% · JavaScript 20% · TypeScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai` `anti-slop` `design` `slop` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2025-11-16 |
 | 📦 **Latest release** | [cli-v4.9.2](https://github.com/pbakaus/impeccable/releases/tag/cli-v4.9.2) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 903.2 MB |
+| 💾 **Size** | 908.2 MB |
 | 🌐 **Website** | https://impeccable.style |
 
 ## 📦 Recent releases
 
 ### [cli-v4.9.2](https://github.com/pbakaus/impeccable/releases/tag/cli-v4.9.2) — CLI 4.9.2
-<sub>2026-11-16 · yesterday</sub>
+<sub>2026-11-16 · 2d ago</sub>
 
 > - **Loop 0.1.3.** `loop install` and `loop update` verify it against its pinned checksum.
 > - **Your taste in every agent.** `loop connect` offers to add your Impeccable taste to your agents' rule files. Answer ahead of time with `--taste` or `--no-taste`.
 > - **Signing in does more.** `login` offers Loop when your plan includes it, and the first sign-in inside a repository adds that repository to your account.
 
 ### [engine-v0.1.25](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.25) — impeccable engine engine-v0.1.25
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > Prebuilt impeccable engine binaries (engine-v0.1.25). The launcher, the npm shim and impeccable install download these on first run. Docs: https://impeccable.style
 
 ### [loop-v0.1.3](https://github.com/pbakaus/impeccable/releases/tag/loop-v0.1.3) — Impeccable Loop 0.1.3
-<sub>2026-11-15 · yesterday</sub>
+<sub>2026-11-15 · 2d ago</sub>
 
 > Loop's cards have a new, calmer look with a clock for what's due. Answered cards fold into an outbox once your agent has read them. Wakes retry when they fail. One Loop runs per Mac.
 
 ### [cli-v4.9.1](https://github.com/pbakaus/impeccable/releases/tag/cli-v4.9.1) — CLI 4.9.1
-<sub>2026-11-14 · 3d ago</sub>
+<sub>2026-11-14 · 4d ago</sub>
 
 > - **New verbs.** `world` seeds DESIGN.md from a catalog world, `walkthrough` turns a recording into a walkthrough card, and `foundations` checks launch readiness from local files.
 > - **Loop.** `loop connect` now teaches your agents to ask through Needs you.
 
 ### [skill-v4.9.1](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.9.1) — Skill 4.9.1
-<sub>2026-11-14 · 3d ago</sub>
+<sub>2026-11-14 · 4d ago</sub>
 
 > - **Start from a world.** `impeccable world <id>` writes that world's design system as your DESIGN.md, beside PRODUCT.md, and never overwrites one you have. Later direction rounds name the world you chose instead of dealing new ones. Needs a signed-in account.
 > - **Live on a first page.** In an empty folder, Live says there is no page yet and offers to craft one, instead of leaving files behind. A plain HTML page gets its one-line config written for it. The first pick works on a bare element, and a first session tells you what to click.

@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 99.4k |
+| ⭐ **Stars** | 99.6k |
 | 🍴 **Forks** | 5.7k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
-| 💻 **Languages** | Dart 80% · Rust 17% |
+| 💻 **Languages** | Dart 79% · Rust 18% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `flutter` `file-sharing` `dart` `flutter-apps` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2022-12-16 |
 | 📦 **Latest release** | [v1.18.2](https://github.com/localsend/localsend/releases/tag/v1.18.2) — 2026-08-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.4 MB |
+| 💾 **Size** | 23.5 MB |
 | 🌐 **Website** | https://localsend.org |
 
 ## 📦 Recent releases
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [fix: strip request URLs from HTTP client errors so the PIN is not exp…](https://github.com/localsend/localsend/commit/025f950e67057dd4330cc22500ec90451df9bb1e) | Tienisto |
+| 2026-11-18 | [feat: make sending checksums opt-in (#3723)](https://github.com/localsend/localsend/commit/65496bdb021cd78d26657a34fba1fa5557dcb899) | Tienisto |
+| 2026-11-18 | [Expose channel direction reachability and probe peer on /register (#3…](https://github.com/localsend/localsend/commit/ef2578911a0ad34771d9090f66d3f5a80ddb95c7) | Tienisto |
+| 2026-11-17 | [chore: add marionette integration for debug builds (#3721)](https://github.com/localsend/localsend/commit/281b491e9c0d0e692fc7ff1caaea28c897a64fd0) | Tienisto |
 | 2026-11-17 | [Revert "deps: bump flutter to 3.47.9 (#3692)" (#3717)](https://github.com/localsend/localsend/commit/d1e6198f401939a9b76854f406f7dbb27d67a808) | Tienisto |
 | 2026-11-11 | [fix(linux): resolve the tray icon to an absolute path on Snap (#3354)](https://github.com/localsend/localsend/commit/2e7ef1972b0b4e210608ec77ef5fad334f798f7e) | vicajilau |
 | 2026-11-08 | [fix(linux): do not fail the build on the appindicator deprecation (#3…](https://github.com/localsend/localsend/commit/8476c091c5a107e4507b6b3ec0cb15a069e857b5) | vicajilau |
 | 2026-11-08 | [fix(linux): respect `XDG_CONFIG_HOME`, safely remove the desktop entr…](https://github.com/localsend/localsend/commit/c95e254813968d5bb41e31eaed5dfd497c03693c) | vicajilau |
 | 2026-11-08 | [fix(linux): set StartupWMClass in the deb desktop entry (#3355)](https://github.com/localsend/localsend/commit/c9ecfac3df63cf3f02e6a2cdc297ccebf08e8824) | vicajilau |
 | 2026-11-08 | [fix: allow scrolling in the edit favorites dialog (#3192)](https://github.com/localsend/localsend/commit/c833d501dd3a6ff70b9889c97772f316b8abd3d3) | samdelong |
-| 2026-11-08 | [fix: Flatpak drag-and-drop for files outside Downloads (#3373)](https://github.com/localsend/localsend/commit/9f8f356a9c9c38892f803b7006279db71f940987) | loucass |
-| 2026-11-08 | [fix: show "LocalSend" as title in the Linux system tray (#3374)](https://github.com/localsend/localsend/commit/8b0899323a5fce50ebf9b3ca09e60046c8c75d00) | Josephur |
-| 2026-11-08 | [deps: bump flutter to 3.47.9 (#3692)](https://github.com/localsend/localsend/commit/ef8ba6526b1fceb7bac58b410f231a23bec8e655) | Tienisto |
-| 2026-11-07 | [fix: release wakelock when a transfer fails (#3603)](https://github.com/localsend/localsend/commit/0ddf2536d4f5937724dbb8ea6a301bd48f26eca2) | bunnysayzz |
 
 [See all commits ↗](https://github.com/localsend/localsend/commits)
 

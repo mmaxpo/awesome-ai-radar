@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.7k |
-| 🍴 **Forks** | 648 |
+| 🍴 **Forks** | 647 |
 | 🐞 **Open issues + PRs** | [3](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template/issues) |
 | 💻 **Languages** | Python 90% · Shell 6% · Makefile 4% |
 | 📜 **License** | MIT |

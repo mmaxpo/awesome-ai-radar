@@ -20,30 +20,30 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 6.2k |
+| ⭐ **Stars** | 6.4k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [53](https://github.com/ethanplusai/sellbird/issues) |
+| 🐞 **Open issues + PRs** | [60](https://github.com/ethanplusai/sellbird/issues) |
 | 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` |
-| 🕒 **Last activity** | 2026-11-13 (3d ago) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.2 MB |
+| 💾 **Size** | 18.4 MB |
 | 🌐 **Website** | https://sellbird.ai |
 
 ## 📦 Recent releases
 
 ### [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 0.4.0: Harvey is now Sellbird
-<sub>2026-11-06 · 10d ago</sub>
+<sub>2026-11-06 · 11d ago</sub>
 
+> > **Follow [@sellbirdagent](https://x.com/sellbirdagent) on X** for new releases, features and the roadmap.
 > Harvey has a new name: **Sellbird**. Same project, same history, same maintainers. Your stars, forks and issues are all here, and every old `github.com/ethanplusai/harvey` link redirects.
 > **Why the new name?** The name Harvey belongs to another AI company, so this open-source project needed a name of its own. Nothing about how it works has changed. More at [sellbird.ai/harvey](https://sellbird.ai/harvey/).
 > Sellbird finds companies that need what you sell, finds the person who decides, checks their email address, writes each one a personal cold email, sends it and handles the replies. It runs on your own machine, on the Claude or ChatGPT plan you already have. If you'd rather not run it yourself, [sellbird.ai](https://sellbird.ai) is the hosted version, now in early access.
 > **Upgrading**
 > **Not a terminal person?** Open your Harvey folder in Claude Code (or Codex) and say: *"Update Harvey to the latest version."* It runs the steps below for you.
-> Or in a terminal:
 > …
 
 ### [v0.3.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.3.0) — 0.3.0 — Claude or Codex subscriptions
@@ -72,16 +72,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Merge pull request #269 from ethanplusai/feat/x-in-cli](https://github.com/ethanplusai/sellbird/commit/b212385259da92246a56311d790d936e75dd70dd) | ethanplusai |
+| 2026-11-18 | [Link @sellbirdagent from setup's summary, and open release notes with it](https://github.com/ethanplusai/sellbird/commit/edbfea80e79ba1b913ddc3b3bcf46597131a1c96) | ethanplusai |
+| 2026-11-18 | [Merge pull request #267 from ethanplusai/feat/follow-on-x](https://github.com/ethanplusai/sellbird/commit/d315300838999f5fd62c37ecdac2d763a84cdc8a) | ethanplusai |
+| 2026-11-18 | [Point people at @sellbirdagent on X from the README and the dashboard](https://github.com/ethanplusai/sellbird/commit/724dcf96e2aa63189e60e096d0d132801100242a) | ethanplusai |
+| 2026-11-18 | [Merge pull request #265 from ethanplusai/docs/trendshift-badge](https://github.com/ethanplusai/sellbird/commit/964a3a73ba51eef22a621715b0aabfea8d788db7) | ethanplusai |
+| 2026-11-18 | [Add the Trendshift badge to the README](https://github.com/ethanplusai/sellbird/commit/5ae5b191651c297ceffb1be18d618fc781f1506f) | ethanplusai |
 | 2026-11-11 | [Merge pull request #238 from ethanplusai/fix/no-tip-status](https://github.com/ethanplusai/sellbird/commit/25ec83978b21d16ae20779d09bfea113f37f0ef8) | ethanplusai |
 | 2026-11-11 | [Test: read app.js as UTF-8, so the label check passes on Windows](https://github.com/ethanplusai/sellbird/commit/d7297c4f9a64c33e6dda5bd264e363d81c210447) | ethanplusai |
 | 2026-11-11 | [no_tip: a dashboard label, a count in sellbird status, and a way back](https://github.com/ethanplusai/sellbird/commit/58275518c3facceb11cffc5c01ac6ecf54f3772f) | ethanplusai |
 | 2026-11-11 | [Merge pull request #233 from mattia33011/feat/writer-site-facts](https://github.com/ethanplusai/sellbird/commit/1fe9c48ae2158d638ca73ec96e8a6108c7e57a6f) | ethanplusai |
-| 2026-11-11 | [Merge main (CHANGELOG: keep both entries)](https://github.com/ethanplusai/sellbird/commit/0c264407c140e7bb5284bef2442d32ee500773f4) | ethanplusai |
-| 2026-11-11 | [Merge pull request #236 from HookTXT/hooktxt/french-owner-titles](https://github.com/ethanplusai/sellbird/commit/74ce4c16f12600abc5ad1f0b2ad90da2d6877761) | ethanplusai |
-| 2026-11-11 | [Merge pull request #231 from mattia33011/feat/italian-opt-out](https://github.com/ethanplusai/sellbird/commit/f20d487013c0a77ca9715000d333dc32b7011615) | ethanplusai |
-| 2026-11-11 | [Merge main into hooktxt/french-owner-titles](https://github.com/ethanplusai/sellbird/commit/c38ec9e6f702dcb255c963b1f8ea571ed80b5864) | HookTXT |
-| 2026-11-11 | [Merge main: accept Italian and French opt-out lines side by side](https://github.com/ethanplusai/sellbird/commit/75a1e8c69186b15dca0a80d7bf271f0fa518a0dc) | ethanplusai |
-| 2026-11-11 | [Merge main (CHANGELOG: keep both entries)](https://github.com/ethanplusai/sellbird/commit/0ad9f5b6686f3115d671249f19404b02e8aea39c) | ethanplusai |
 
 [See all commits ↗](https://github.com/ethanplusai/sellbird/commits)
 

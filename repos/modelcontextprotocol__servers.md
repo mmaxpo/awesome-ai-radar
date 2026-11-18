@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 92.1k |
 | 🍴 **Forks** | 12.0k |
-| 🐞 **Open issues + PRs** | [23](https://github.com/modelcontextprotocol/servers/issues) |
-| 💻 **Languages** | TypeScript 47% · JavaScript 33% · Python 19% |
+| 🐞 **Open issues + PRs** | [26](https://github.com/modelcontextprotocol/servers/issues) |
+| 💻 **Languages** | TypeScript 46% · JavaScript 31% · Python 22% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-12 (5d ago) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2024-11-19 |
-| 📦 **Latest release** | [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0) — 2026-11-11 |
+| 📦 **Latest release** | [v2.5.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 33.8 MB |
+| 💾 **Size** | 33.9 MB |
 | 🌐 **Website** | https://modelcontextprotocol.io |
 
 ## 📦 Recent releases
 
+### [v2.5.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0)
+<sub>2026-11-18 · today</sub>
+
+> **Security fixes**
+> v2.5.0 fixes eight vulnerabilities in three servers. Upgrade `mcp-server-git` to 2026.11.18,
+> `@modelcontextprotocol/server-filesystem` to 2.4.0 and `@modelcontextprotocol/server-everything` to 2.3.1.
+> | Package | Affected | Fixed in |
+> | --- | --- | --- |
+> | `mcp-server-git` | through 2026.11.11 | 2026.11.18 |
+> …
+
 ### [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0)
-<sub>2026-11-11 · 6d ago</sub>
+<sub>2026-11-11 · 7d ago</sub>
 
 > **Security fixes**
 > v2.4.0 fixes six vulnerabilities in three servers. Upgrade `@modelcontextprotocol/server-filesystem` to 2.3.0,
@@ -47,7 +58,7 @@
 > …
 
 ### [v2.3.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0)
-<sub>2026-11-04 · 12d ago</sub>
+<sub>2026-11-04 · 13d ago</sub>
 
 > **Packages**
 > | Package | Version | Registry | In this release |
@@ -58,7 +69,7 @@
 > …
 
 ### [v2.2.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0)
-<sub>2026-10-28 · 19d ago</sub>
+<sub>2026-10-28 · 20d ago</sub>
 
 > **Security: Node.js runtime and CA certificate updates (October 2026)**
 > On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates could be recovered from the public certificates. On October 21, Node.js shipped [security releases](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases) that update its bundled CA certificates for the compromise and fix several unrelated high-severity runtime CVEs. On October 23, Python's `certifi` 2026.10.23 removed the eMudhra roots `emSign Root CA - C1` and `emSign ECC Root CA - C3`.
@@ -69,7 +80,7 @@
 > …
 
 ### [v2.1.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0)
-<sub>2026-10-25 · 23d ago</sub>
+<sub>2026-10-25 · 24d ago</sub>
 
 > **Security fixes**
 > v2.1.0 fixes eight vulnerabilities in three servers. Upgrade
@@ -79,31 +90,20 @@
 > | --- | --- | --- |
 > …
 
-### [v2.0.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0)
-<sub>2026-10-19 · 29d ago</sub>
-
-> **Servers refactored to modern era**
-> This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected.
-> **Packages**
-> | Package | Version | Registry | In this release |
-> | --- | --- | --- | --- |
-> | `@modelcontextprotocol/server-everything` | `2.0.0` | npm | **published** |
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-11 | [Merge pull request #5518 from modelcontextprotocol/v2/chore/5509-rele…](https://github.com/modelcontextprotocol/servers/commit/e1dc4b18dbb948921da37f3d4224a628730b43b0) | cliffhall |
-| 2026-11-11 | [Merge pull request #5470 from modelcontextprotocol/changeset-release/…](https://github.com/modelcontextprotocol/servers/commit/6cfff622fb8eb41e2504340d5a6105d34094143c) | cliffhall |
-| 2026-11-11 | [chore: version packages](https://github.com/modelcontextprotocol/servers/commit/5c6686a8c35864aa0675f63ee956aae87ea69ea3) | github-actions[bot] |
-| 2026-11-11 | [Merge pull request #5510 from modelcontextprotocol/v2/chore/5509-pyth…](https://github.com/modelcontextprotocol/servers/commit/4ac5add6c09426c3b14c831a1c14a7c3f27416d5) | cliffhall |
-| 2026-11-11 | [Merge pull request #5516 from modelcontextprotocol/v2/fix/ghsa-p9cv-8…](https://github.com/modelcontextprotocol/servers/commit/0d53550e078021e0f82b07f4cab47d77d362df78) | cliffhall |
-| 2026-11-11 | [Merge pull request #5515 from modelcontextprotocol/v2/fix/ghsa-3rxj-6…](https://github.com/modelcontextprotocol/servers/commit/faef80baca51f9c9277341422729ed162927e72f) | cliffhall |
-| 2026-11-11 | [Merge pull request #5514 from modelcontextprotocol/v2/fix/ghsa-6hqx-g…](https://github.com/modelcontextprotocol/servers/commit/1629bb33208a9d98b77abce4b52b2808d3090bb0) | cliffhall |
-| 2026-11-11 | [fix(filesystem): address review round 4 for GHSA-p9cv-8g75-4xcg](https://github.com/modelcontextprotocol/servers/commit/505476dbdca218fd6a7b8f0c0ab95fbc5351313e) | cliffhall |
-| 2026-11-11 | [fix(filesystem): address review round 3 for GHSA-p9cv-8g75-4xcg](https://github.com/modelcontextprotocol/servers/commit/3d22dc17b5d1b434267c9d42f22e7d5b336875fe) | cliffhall |
-| 2026-11-11 | [fix(filesystem): address review round 2 for GHSA-p9cv-8g75-4xcg](https://github.com/modelcontextprotocol/servers/commit/db4cdfddfd447fee6a86ddd5e93f23203160cc2b) | cliffhall |
+| 2026-11-18 | [Merge pull request #5592 from modelcontextprotocol/v2/chore/5572-rele…](https://github.com/modelcontextprotocol/servers/commit/c799c8552b0f27b7a33a7b9233773da144dddcf5) | cliffhall |
+| 2026-11-18 | [Merge pull request #5597 from modelcontextprotocol/changeset-release/…](https://github.com/modelcontextprotocol/servers/commit/7f383a8e0f34f72b6eb519798633cea5c0769be6) | cliffhall |
+| 2026-11-18 | [chore: version packages](https://github.com/modelcontextprotocol/servers/commit/a4a2e2434edf6476762e23c10099ae4931f62519) | github-actions[bot] |
+| 2026-11-18 | [Merge pull request #5596 from modelcontextprotocol/v2/fix/5595-memory…](https://github.com/modelcontextprotocol/servers/commit/69f8a37e4698657eea49a1968ca18d55c31608e6) | cliffhall |
+| 2026-11-18 | [fix(memory): release held locks when the Streamable HTTP server stops](https://github.com/modelcontextprotocol/servers/commit/af86b99080b0f4af52ca6a8f4f1e043921ec6140) | cliffhall |
+| 2026-11-18 | [Merge pull request #5537 from modelcontextprotocol/changeset-release/…](https://github.com/modelcontextprotocol/servers/commit/8e44b8fac205856f95a9cf2297982453ff250181) | cliffhall |
+| 2026-11-18 | [chore: version packages](https://github.com/modelcontextprotocol/servers/commit/a13c39e647d8c553501ffe4d3f5d9db9dcc534f7) | github-actions[bot] |
+| 2026-11-18 | [Merge pull request #5591 from modelcontextprotocol/v2/chore/5572-pyth…](https://github.com/modelcontextprotocol/servers/commit/d40ba2625341ba22c70b1e83b5c6644a94e45638) | cliffhall |
+| 2026-11-18 | [chore: stamp Python CalVer versions for 2026.11.18](https://github.com/modelcontextprotocol/servers/commit/97ed9ec74f370222d4ceec50380d06dff36ac4e5) | github-actions[bot] |
+| 2026-11-18 | [Merge pull request #5590 from modelcontextprotocol/v2/fix/ghsa-r2q8-f…](https://github.com/modelcontextprotocol/servers/commit/b7edbca57b8107fbd4ab814d89fe08904618a65d) | cliffhall |
 
 [See all commits ↗](https://github.com/modelcontextprotocol/servers/commits)
 

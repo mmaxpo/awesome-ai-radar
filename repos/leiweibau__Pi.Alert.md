@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.4k |
-| 🍴 **Forks** | 112 |
+| 🍴 **Forks** | 111 |
 | 🐞 **Open issues + PRs** | [2](https://github.com/leiweibau/Pi.Alert/issues) |
 | 💻 **Languages** | PHP 66% · Python 17% · JavaScript 7% · CSS 6% · Shell 4% |
 | 📜 **License** | GPL-3.0 |

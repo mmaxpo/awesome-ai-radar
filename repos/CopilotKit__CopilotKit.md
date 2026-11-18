@@ -22,59 +22,59 @@
 |---|---|
 | ⭐ **Stars** | 38.8k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [448](https://github.com/CopilotKit/CopilotKit/issues) |
+| 🐞 **Open issues + PRs** | [454](https://github.com/CopilotKit/CopilotKit/issues) |
 | 💻 **Languages** | TypeScript 80% · Python 6% · MDX 5% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` `agent` `agents` `ai-agent` `ai-assistant` `assistant` `copilot` `copilot-chat` `agent-native` `agentic-ai` `assistant-chat-bots` `generative-ui` `js` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2023-06-19 |
-| 📦 **Latest release** | [v1.88.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.88.0) — 2026-11-13 |
+| 📦 **Latest release** | [v1.89.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.89.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 905.3 MB |
+| 💾 **Size** | 906.8 MB |
 | 🌐 **Website** | https://docs.copilotkit.ai |
 
 ## 📦 Recent releases
 
+### [v1.89.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.89.0)
+<sub>2026-11-17 · today</sub>
+
+> This release improves performance and reliability for long Intelligence threads, adds support for distinct agent display names, and expands MCP Apps with model-context sharing.
+
 ### [v1.88.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.88.0)
-<sub>2026-11-13 · 3d ago</sub>
+<sub>2026-11-13 · 4d ago</sub>
 
 > This release adds server-side agent runs through Intelligence, richer Learning capture, and several fixes to chat rendering and tool-call handling. It also includes one breaking change to thread naming.
 
 ### [v1.87.1](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.87.1)
-<sub>2026-11-12 · 4d ago</sub>
+<sub>2026-11-12 · 5d ago</sub>
 
 > This patch release fixes A2UI rendering for catalogs that declare protocol version 1.0 when streaming Direct JSON.
 
 ### [python-sdk/v0.1.97](https://github.com/CopilotKit/CopilotKit/releases/tag/python-sdk/v0.1.97)
-<sub>2026-11-12 · 5d ago</sub>
+<sub>2026-11-12 · 6d ago</sub>
 
 > Python SDK release: copilotkit 0.1.97
 > https://pypi.org/project/copilotkit/0.1.97/
 
 ### [v1.87.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.87.0)
-<sub>2026-11-11 · 5d ago</sub>
-
-> This release adds support for rendering A2UI 1.0 operations alongside the existing v0.9 protocol, so agents emitting native 1.0 surfaces (such as those from ADK) now render correctly without breaking existing integrations.
-
-### [v1.86.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.86.0)
 <sub>2026-11-11 · 6d ago</sub>
 
-> This release extends native generative UI to Vue and React Native, bumps the A2UI middleware, and hardens the runtime's MCP Apps and A2UI integration.
+> This release adds support for rendering A2UI 1.0 operations alongside the existing v0.9 protocol, so agents emitting native 1.0 surfaces (such as those from ADK) now render correctly without breaking existing integrations.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [chore(deps): update actions/setup-go digest to d8cbb80 (#8439)](https://github.com/CopilotKit/CopilotKit/commit/d6067175e8fdb365f5671cfdd9aea0c0252cdc8b) | renovate[bot] |
-| 2026-11-17 | [fix: regenerate public API manifest and fix a broken skill docs link …](https://github.com/CopilotKit/CopilotKit/commit/8d5faeb2e705acf0d4e9e6172bfeedc2e8ec0fba) | tylerslaton |
-| 2026-11-17 | [fix(skills): point the copilotkit skill at a prebuilt components page…](https://github.com/CopilotKit/CopilotKit/commit/7da500e94d43d1c5be53848146f6eebeef4bfb41) | contextablemark |
-| 2026-11-17 | [fix(release): regenerate public API manifest for agent name config](https://github.com/CopilotKit/CopilotKit/commit/67954943e7e48dea61d1ca7d488195ae2a352cfc) | contextablemark |
-| 2026-11-16 | [docs(shell-docs): add Frontends section to the docs home (#8429)](https://github.com/CopilotKit/CopilotKit/commit/1d4be7b96e03f4eb59f9e5548060653f7a8e1d4b) | tylerslaton |
-| 2026-11-16 | [fix(shell-docs): keep currentColor logos visible on the home diagram …](https://github.com/CopilotKit/CopilotKit/commit/3b65d02bb6adc04696dc57e5dd742d61d31c552e) | tylerslaton |
-| 2026-11-16 | [feat: support separate agent IDs and display names (#7868)](https://github.com/CopilotKit/CopilotKit/commit/28c9d1659224d98b8ac3a8fbf574317a18bdbd1a) | tylerslaton |
-| 2026-11-16 | [chore(skills): add docs, simple-english and i-have-adhd agent skills …](https://github.com/CopilotKit/CopilotKit/commit/13446f55a1ece626a22ffb48a743c04e300391f2) | tylerslaton |
-| 2026-11-16 | [feat(examples): bring back the Components pages on the A2UI playgroun…](https://github.com/CopilotKit/CopilotKit/commit/a33374c39ee58acff41dc4566fd3bb9e7fcd5632) | tylerslaton |
-| 2026-11-16 | [fix(examples): make the catalog checks fail when they find a problem](https://github.com/CopilotKit/CopilotKit/commit/535978c0ff44d7ee4132f69cca4e96f2ad16e968) | jerelvelarde |
+| 2026-11-18 | [chore(deps): update ruby/setup-ruby action to v1.341.0 (#8464)](https://github.com/CopilotKit/CopilotKit/commit/d85b612a3132b5d1113da92dc0c4beb06349b923) | renovate[bot] |
+| 2026-11-17 | [docs(readme): link OpenFuse under its new repository name (#8398)](https://github.com/CopilotKit/CopilotKit/commit/ff6f3b03267159cbbf70f9878d988adf4968d022) | tylerslaton |
+| 2026-11-17 | [chore: release monorepo v1.89.0 (#8457)](https://github.com/CopilotKit/CopilotKit/commit/99b36441e8a69821c742b3a052327f88032cf9b7) | dustywusty |
+| 2026-11-17 | [chore: release monorepo v1.89.0](https://github.com/CopilotKit/CopilotKit/commit/f5975b2002b56bd58ccab3bdcd6621f2e18a0393) | dustywusty |
+| 2026-11-17 | [perf(core,react-core): load long Intelligence threads in one burst (#…](https://github.com/CopilotKit/CopilotKit/commit/e8005d4587c64b44ee68ae225e73e5bc3c28a267) | dustywusty |
+| 2026-11-17 | [feat(showcase): register Omnara demos (#8286)](https://github.com/CopilotKit/CopilotKit/commit/ae69d61a06b39260e84d23fe143ab9433cfb5606) | contextablemark |
+| 2026-11-17 | [chore: pin @ag-ui/client, core and encoder 1.0.5](https://github.com/CopilotKit/CopilotKit/commit/c63ac314ca3686e0781b6dbd772e44cf5b443651) | mme |
+| 2026-11-17 | [docs(showcase): record final-source Omnara hosted checks](https://github.com/CopilotKit/CopilotKit/commit/ff2c9f243ee032be108d7f8138265e8b9bbb7af1) | contextablemark |
+| 2026-11-17 | [docs(shell-docs): add the OpenAI Agents SDK starter path to its quick…](https://github.com/CopilotKit/CopilotKit/commit/6514f4cf859123970b7dc22461b6e22bd04578c9) | mme |
+| 2026-11-17 | [fix(showcase): close bounded Omnara review gaps](https://github.com/CopilotKit/CopilotKit/commit/e1c5124d39ba230fa8c1ba0e3e301c809b2afdd3) | contextablemark |
 
 [See all commits ↗](https://github.com/CopilotKit/CopilotKit/commits)
 

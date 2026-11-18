@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 9.2k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [760](https://github.com/catboost/catboost/issues) |
+| 🐞 **Open issues + PRs** | [759](https://github.com/catboost/catboost/issues) |
 | 💻 **Languages** | C++ 78% · Python 11% · Cuda 3% · CMake 3% · Scala 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `decision-trees` `gradient-boosting` `gbm` `gbdt` `python` `r` `kaggle` `gpu-computing` `catboost` `tutorial` `categorical-features` `gpu` `coreml` `data-science` `big-data` `cuda` `data-mining` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2017-07-18 |
 | 📦 **Latest release** | [node-package-v1.27.0](https://github.com/catboost/catboost/releases/tag/node-package-v1.27.0) — 2026-02-21 |
 | 🌿 **Default branch** | `master` |
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [preserve directory entries in javac daemon JARs](https://github.com/catboost/catboost/commit/c483c0e2bd63912b3420a58892df0bfb1574352a) | IlyaNiklyaev |
+| 2026-11-17 | [fix javac daemon JDK isolation in Larry](https://github.com/catboost/catboost/commit/5c40b22e4a2ad31bfd5d4b9f373798a5c3675025) | IlyaNiklyaev |
+| 2026-11-17 | [Document the AUC value when there are no pairs to compare](https://github.com/catboost/catboost/commit/190631e1096afdc5c01ad3ed6ad2d8aabe36f86e) | gopain185 |
+| 2026-11-17 | [Fix append-only file access on Windows](https://github.com/catboost/catboost/commit/e20efe9274fbff7d5819c977d7cd2e88deca6070) | ilikepugs |
 | 2026-11-17 | [Intermediate changes](https://github.com/catboost/catboost/commit/c732045504234f781c377165b66264c41a48e947) | robot-piglet |
 | 2026-11-17 | [Package self-contained Python 3 Cython tool](https://github.com/catboost/catboost/commit/cc0ce40bee61db190a9d1ebc67d442ad5d89862c) | dimdim1177 |
 | 2026-11-17 | [Package self-contained Python 2 Cython tool](https://github.com/catboost/catboost/commit/1c963ad239c0a80a466a1ef52e6d5cb4a3aae547) | dimdim1177 |
 | 2026-11-16 | [Speed up TSkipList::Insert](https://github.com/catboost/catboost/commit/83bd0112346c984be183c48bf619a29ef5ecc75e) | ubyte |
 | 2026-11-16 | [Intermediate changes](https://github.com/catboost/catboost/commit/7950bba2f542c512da305bae59505c49cc9a29c2) | robot-piglet |
 | 2026-11-16 | [Add onnx_export_ut to test sources.. #863](https://github.com/catboost/catboost/commit/6907c86e6ad2e7af4e85c719b31c99b03b0bf5c0) | andrey-khropov |
-| 2026-11-16 | [Support one-hot categorical features in ONNX export and import](https://github.com/catboost/catboost/commit/3b719fec2a55249b4f7b0c88ffa673ad984dd503) | SergeevVladislav |
-| 2026-11-15 | [Enable building and linking static library from Rust project](https://github.com/catboost/catboost/commit/8e83b235649315902fa8ee5132e437c971f040ee) | joelchen |
-| 2026-11-15 | [drop support for import_test/flake8 checks](https://github.com/catboost/catboost/commit/fbaf80c65d5ecfdb061ca8633d8036905889ac9f) | kuzmich321 |
-| 2026-11-14 | [Skip redundant chmod on cached executables](https://github.com/catboost/catboost/commit/bd7076faf5ec41c3bcf31982b770ab508f4d3063) | bgaifullin |
 
 [See all commits ↗](https://github.com/catboost/catboost/commits)
 

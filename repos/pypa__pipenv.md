@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 25.0k |
 | 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [8](https://github.com/pypa/pipenv/issues) |
+| 🐞 **Open issues + PRs** | [4](https://github.com/pypa/pipenv/issues) |
 | 💻 **Languages** | Python 82% · HTML 18% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `pip` `python` `packaging` `virtualenv` `pipfile` |
-| 🕒 **Last activity** | 2026-11-14 (2d ago) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2017-01-20 |
 | 📦 **Latest release** | [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 251.4 MB |
+| 💾 **Size** | 251.5 MB |
 | 🌐 **Website** | https://pipenv.pypa.io |
 
 ## 📦 Recent releases
 
 ### [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — Release v2026.11.0
-<sub>2026-11-09 · 8d ago</sub>
+<sub>2026-11-09 · 9d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Added**
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.10.6](https://github.com/pypa/pipenv/releases/tag/v2026.10.6) — Release v2026.10.6
-<sub>2026-11-05 · 12d ago</sub>
+<sub>2026-11-05 · 13d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -58,7 +58,7 @@
 > …
 
 ### [v2026.10.5](https://github.com/pypa/pipenv/releases/tag/v2026.10.5) — Release v2026.10.5
-<sub>2026-11-01 · 15d ago</sub>
+<sub>2026-11-01 · 16d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -69,7 +69,7 @@
 > …
 
 ### [v2026.10.4](https://github.com/pypa/pipenv/releases/tag/v2026.10.4) — Release v2026.10.4
-<sub>2026-10-28 · 19d ago</sub>
+<sub>2026-10-28 · 20d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Added**
@@ -80,7 +80,7 @@
 > …
 
 ### [v2026.10.3](https://github.com/pypa/pipenv/releases/tag/v2026.10.3) — Release v2026.10.3
-<sub>2026-10-25 · 23d ago</sub>
+<sub>2026-10-25 · 24d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [Merge pull request #6787 from pcbeingused333/fix/uninstall-failure-co…](https://github.com/pypa/pipenv/commit/7729c825b8abf538a023c1a68ba3d4ed40fa9153) | matteius |
-| 2026-11-13 | [fix(uninstall): keep going and exit non-zero when pip uninstall fails…](https://github.com/pypa/pipenv/commit/781acf6cb875c8238ba154e088cffff3eb396ed0) | pcbeingused333 |
-| 2026-11-11 | [Merge pull request #6785 from Hisernberg/fix/vendoring-license-path-f…](https://github.com/pypa/pipenv/commit/a7783051ede5ba7fc4d4ab50d4ceb63947937b2c) | matteius |
-| 2026-11-11 | [Fix missing f-string in the flattened-subdep license path](https://github.com/pypa/pipenv/commit/d9a0db06d38778f98c602af7364197afa1fcb756) | Hisernberg |
-| 2026-11-09 | [Release v2026.11.0](https://github.com/pypa/pipenv/commit/3c34948686a487b2728fe1d007822a37cd656d8b) | matteius |
-| 2026-11-09 | [Bumped version to 2026.11.0.](https://github.com/pypa/pipenv/commit/8686678ebf2a107aeda3e8a592630492032a9f95) | matteius |
-| 2026-11-09 | [Merge pull request #6773 from matteius/feat/uv-resolver-backend-6109](https://github.com/pypa/pipenv/commit/ec9b914b3bd93a2141af5bfc2bfbb9ed6565b428) | matteius |
-| 2026-11-09 | [Merge pull request #6783 from pcbeingused333/fix/scan-quiet-stderr](https://github.com/pypa/pipenv/commit/afe9aaf5487e526a0bc8033993fbff9f908f821e) | matteius |
-| 2026-11-09 | [fix(scan): suppress Safety warnings on quiet success](https://github.com/pypa/pipenv/commit/8564457f173a5cd5efd09893b2ad9de8531f39cc) | pcbeingused333 |
-| 2026-11-09 | [fix(scan): preserve Safety stderr in quiet mode](https://github.com/pypa/pipenv/commit/831d0a5ae7bf337ea1fe70bc00ea44dee98fc433) | pcbeingused333 |
+| 2026-11-18 | [Merge pull request #6786 from Alpenj/fix-remote-requirements-temp-file](https://github.com/pypa/pipenv/commit/00ae9dc59e00f1132d74d79d8985ae47c70dd881) | matteius |
+| 2026-11-18 | [Merge pull request #6788 from pcbeingused333/fix/pipfile-path-sys-pla…](https://github.com/pypa/pipenv/commit/0a8646a201cfe5f93e91c6c2ca261cee7db16119) | matteius |
+| 2026-11-18 | [Merge pull request #6789 from pcbeingused333/fix/editable-uninstall-name](https://github.com/pypa/pipenv/commit/896778ff74bcae989706c03bb3429c104d7534da) | matteius |
+| 2026-11-18 | [Merge pull request #6791 from anishpentyala/fix/file-url-single-decode](https://github.com/pypa/pipenv/commit/31a6aba1ecaada89e2fc13ea5c87cc05d57abac0) | matteius |
+| 2026-11-18 | [Merge pull request #6792 from pypa/fix/vendoring-ci-py315](https://github.com/pypa/pipenv/commit/b8959751011ef42feb2533f5b41d5dcd9c7d94d4) | matteius |
+| 2026-11-18 | [Fix vendoring license download on Python 3.15 runners](https://github.com/pypa/pipenv/commit/ae8de4b0bc374286f9537c8d7da7a5de5352ab62) | matteius |
+| 2026-11-18 | [Use double backticks in news fragment](https://github.com/pypa/pipenv/commit/f9cf30c792f57c4d1228842a84b7bc51f2afb7cb) | matteius |
+| 2026-11-18 | [Merge branch 'main' into fix/editable-uninstall-name](https://github.com/pypa/pipenv/commit/32d6462a97d1f8f09a459a54089caece74d8dcf4) | matteius |
+| 2026-11-17 | [fix release command](https://github.com/pypa/pipenv/commit/0de1939d69214c254c1abaa827088657ab8f9fa8) | matteius |
+| 2026-11-17 | [Document local file URL decoding fix for issue 6790](https://github.com/pypa/pipenv/commit/0c9a411da3fdc93f5af6edd94aa6656f88be6ad7) | anishpentyala |
 
 [See all commits ↗](https://github.com/pypa/pipenv/commits)
 

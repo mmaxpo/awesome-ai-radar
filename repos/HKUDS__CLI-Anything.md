@@ -18,9 +18,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 59.0k |
-| 🍴 **Forks** | 5.3k |
-| 🐞 **Open issues + PRs** | [245](https://github.com/HKUDS/CLI-Anything/issues) |
+| ⭐ **Stars** | 59.4k |
+| 🍴 **Forks** | 5.4k |
+| 🐞 **Open issues + PRs** | [242](https://github.com/HKUDS/CLI-Anything/issues) |
 | 💻 **Languages** | Python 97% · C# 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |

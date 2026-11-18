@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.8k |
-| 🍴 **Forks** | 148 |
+| 🍴 **Forks** | 147 |
 | 🐞 **Open issues + PRs** | [12](https://github.com/swiftbar/SwiftBar/issues) |
 | 💻 **Languages** | Swift 97% · Shell 1% · Just 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `productivity` `macos` `scripting` |
-| 🕒 **Last activity** | 2026-11-08 (8d ago) |
+| 🕒 **Last activity** | 2026-11-08 (9d ago) |
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v2.1.2-beta-5](https://github.com/swiftbar/SwiftBar/releases/tag/v2.1.2-beta-5) — 2026-09-29 |
 | 🌿 **Default branch** | `main` |

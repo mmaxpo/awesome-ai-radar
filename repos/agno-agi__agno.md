@@ -26,17 +26,28 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2022-05-04 |
-| 📦 **Latest release** | [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0) — 2026-11-12 |
+| 📦 **Latest release** | [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 329.5 MB |
+| 💾 **Size** | 329.6 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
+### [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1)
+<sub>2026-11-17 · today</sub>
+
+> **Changelog**
+> **New Features:**
+> - **Session Compactions**: `GET /sessions/{session_id}/compactions` lists a session's compactions on `SqliteDb` and `PostgresDb`, newest first, with how many messages each replaced and the token count before and after.
+> - **Company Files**: A Task's files and the shared notes can now be read over the API with `GET /company/tasks/{task_id}/files` and `GET /company/notes`, each with a `/{path}` route to read one file. See [cookbook](https://github.com/agno-agi/agno/blob/main/cookbook/05_agent_os/30_company/16_company_file_tree.py).
+> **Improvements:**
+> - **LinearTools, DiscordTools and ModelsLabTools**: Now take a `timeout` (default 30 seconds, 120 for ModelsLab) that applies to every request.
+> …
+
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · 4d ago</sub>
+<sub>2026-11-12 · 5d ago</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -47,7 +58,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 19d ago</sub>
+<sub>2026-10-29 · 20d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -58,7 +69,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 20d ago</sub>
+<sub>2026-10-27 · 21d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +80,7 @@
 > …
 
 ### [v3.1.10](https://github.com/agno-agi/agno/releases/tag/v3.1.10)
-<sub>2026-10-23 · 25d ago</sub>
+<sub>2026-10-23 · 26d ago</sub>
 
 > **Changelog**
 > **Bug Fixes:**
@@ -79,31 +90,20 @@
 > - **Tracing**: Spans from `AgentOS(tracing=True)` and `setup_tracing()` now keep up to 1,024 attributes, so model spans keep their full input and message history on runs with many tool calls. `OTEL_SPAN_ATTRIBUTE_COUNT_LIMIT` and `OTEL_ATTRIBUTE_COUNT_LIMIT` still take precedence.
 > …
 
-### [v3.1.9](https://github.com/agno-agi/agno/releases/tag/v3.1.9)
-<sub>2026-10-22 · 25d ago</sub>
-
-> **Changelog**
-> **New Features:**
-> - **MCP Tool Runner**: `POST /mcp/server/tools/{tool_name}/run` runs any tool listed on the AgentOS Server Card over HTTP and returns its result, so a tool can be tested without an MCP client. Turn it off with `MCPConfig(tool_run_endpoint=False)`. See [cookbook](https://github.com/agno-agi/agno/blob/main/cookbook/05_agent_os/14_mcp/inspect_tools.py).
-> **Bug Fixes:**
-> - **AgentOS MCP Server**: `/mcp` and `/mcp/server-card` now accept browser requests from origins the AgentOS CORS policy allows, so `os.agno.com` can reach the MCP server of a local AgentOS. `/info` now reports the configured MCP path instead of always `/mcp`.
-> - **Postgres Metrics**: Metrics refresh on a migrated database no longer loads the legacy `sessions.runs` column into memory.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [[feat] Add Sarvam AI as a model provider (#11735)](https://github.com/agno-agi/agno/commit/821be55d1ec3bb472abe8bd94c3b2a0d6c78392f) | vikashmaddi-sarvam |
+| 2026-11-18 | [fix: reject page 0 on session, memory, eval and knowledge list routes…](https://github.com/agno-agi/agno/commit/ea74915eb0b9ea8039704e6b39947804297caa96) | harshsinha03 |
+| 2026-11-18 | [feat: inline JSON Schema output_schema in StudioTools (#11220)](https://github.com/agno-agi/agno/commit/59ca87f2d7fcda56d07b9fc4b5c4f60b17d5800d) | ysolanky |
+| 2026-11-18 | [feat: add multi-image and validation to OpenAITools; deprecate DalleT…](https://github.com/agno-agi/agno/commit/69d83166c197672300109862a8ad6fbe6c366950) | sannya-singal |
+| 2026-11-17 | [chore: Release v3.2.1 (#11691)](https://github.com/agno-agi/agno/commit/2e9a4521003da1cae559d8049a1c73306fc68004) | harshsinha03 |
+| 2026-11-17 | [fix: run Super Agent in Slack without users= and add default_role (#1…](https://github.com/agno-agi/agno/commit/44d4b1a24b1d15c6e0ec107f67d17026f75c15ef) | harshsinha03 |
+| 2026-11-17 | [fix: update deprecated model defaults (#10822)](https://github.com/agno-agi/agno/commit/038c95ac5c06457d2ec687f7bd8c9c490c19cb30) | bunnysayzz |
 | 2026-11-17 | [fix: postgres drop a failed table from MetaData so a retry can create…](https://github.com/agno-agi/agno/commit/8b5ce9f85812519a2452ff47981964b202e23828) | HhH666-ux |
 | 2026-11-17 | [[fix] Pin Daytona extra below 1.0 and hint a supported SDK (#11725)](https://github.com/agno-agi/agno/commit/9aa12c4111e9f134089e7ac8d7ea3c7b320ac779) | ningyixi |
 | 2026-11-17 | [fix: report MCPTools.connect() outcome and cleanup on CancelledError …](https://github.com/agno-agi/agno/commit/148d30fdfbc740a4c95d10d51ede8143a6cda5fa) | surlymochan |
-| 2026-11-17 | [fix: surface SQLTools fetch errors instead of returning [] (#11680)](https://github.com/agno-agi/agno/commit/8a252e15b58de6dc923f533bd356089c033d8040) | adityav1709 |
-| 2026-11-17 | [fix: qdrant honour batch_size when inserting documents (#11722)](https://github.com/agno-agi/agno/commit/f7c1c0380a8a1512dbf5aec831744d771e402d21) | HhH666-ux |
-| 2026-11-17 | [fix: preserve non-ASCII characters in skill tool outputs (#11540)](https://github.com/agno-agi/agno/commit/a0d7208e4ec3c10f493ffc46df78b24c58c49bf1) | xingjy10 |
-| 2026-11-16 | [fix: support openai-codex 0.163.0 and newer for native Codex approval…](https://github.com/agno-agi/agno/commit/11d144107895933cc6dc668eb520f7b850595d06) | sannya-singal |
-| 2026-11-16 | [fix: pin httpx2<2.16.1 so mistralai imports again (#11703)](https://github.com/agno-agi/agno/commit/3cb5054ae5f8b20b50abe9e3e7364ae1ccf8cee1) | sannya-singal |
-| 2026-11-16 | [chore: correct two docstrings that promise a returned tuple (#11550)](https://github.com/agno-agi/agno/commit/53cd81e884847341a0815b4a94b8ec8a79f478bd) | lxcxjxhx |
-| 2026-11-16 | [fix: count real lines in Workspace.read_file so max_file_lines accept…](https://github.com/agno-agi/agno/commit/b19cf8833073f7181a9a797104895e0f7816dac2) | DZH166 |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

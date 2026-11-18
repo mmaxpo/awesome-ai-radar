@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 53.5k |
-| 🍴 **Forks** | 4.4k |
-| 🐞 **Open issues + PRs** | [353](https://github.com/alibaba/open-code-review/issues) |
+| ⭐ **Stars** | 54.1k |
+| 🍴 **Forks** | 4.5k |
+| 🐞 **Open issues + PRs** | [343](https://github.com/alibaba/open-code-review/issues) |
 | 💻 **Languages** | Go 70% · JavaScript 12% · TypeScript 10% · Kotlin 5% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-05-18 |
-| 📦 **Latest release** | [v1.13.11](https://github.com/alibaba/open-code-review/releases/tag/v1.13.11) — 2026-11-17 |
+| 📦 **Latest release** | [v1.13.12](https://github.com/alibaba/open-code-review/releases/tag/v1.13.12) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 54.2 MB |
+| 💾 **Size** | 54.3 MB |
 | 🌐 **Website** | https://open-codereview.ai |
 
 ## 📦 Recent releases
 
+### [v1.13.12](https://github.com/alibaba/open-code-review/releases/tag/v1.13.12)
+<sub>2026-11-18 · today</sub>
+
+> **🚀 Features**
+> - feat(pages): add contact link to website footer (#1975)
+> **🐛 Bug Fixes**
+> - fix(session): keep finding identity fields separate (#1955)
+> - fix(telemetry): serialize lazy metric initialization (#1883)
+> - fix(tool): bound file_read result bytes, not just line count (#1878)
+> …
+
 ### [v1.13.11](https://github.com/alibaba/open-code-review/releases/tag/v1.13.11)
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **🚀 Features**
 > - feat(session): filter listed sessions by branch (#1702)
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.13.10](https://github.com/alibaba/open-code-review/releases/tag/v1.13.10)
-<sub>2026-11-15 · 2d ago</sub>
+<sub>2026-11-15 · 3d ago</sub>
 
 > **🚀 Features**
 > - feat(review): default --to to HEAD when only --from is given (#1936)
@@ -57,7 +68,7 @@
 > **Full Changelog**: https://github.com/alibaba/open-code-review/compare/v1.13.9...v1.13.10
 
 ### [v1.13.9](https://github.com/alibaba/open-code-review/releases/tag/v1.13.9)
-<sub>2026-11-13 · 4d ago</sub>
+<sub>2026-11-13 · 5d ago</sub>
 
 > **🚀 Features**
 > - feat(manifest): record excluded files in run coverage (#1901)
@@ -68,7 +79,7 @@
 > …
 
 ### [v1.13.8](https://github.com/alibaba/open-code-review/releases/tag/v1.13.8)
-<sub>2026-11-12 · 5d ago</sub>
+<sub>2026-11-12 · 6d ago</sub>
 
 > **🚀 Features**
 > - feat(tools): support reading both comparison sides (#1903)
@@ -78,31 +89,20 @@
 > - fix(acp): register stub signals before readiness (#1905)
 > …
 
-### [v1.13.7](https://github.com/alibaba/open-code-review/releases/tag/v1.13.7)
-<sub>2026-11-10 · 7d ago</sub>
-
-> **🚀 Features**
-> - feat(scan): gate PLAN_TASK on file size (#1252)
-> - feat(session): inspect saved sessions by ID from any directory (#1884)
-> - feat(rules): add Clojure and ClojureScript review rules (#965)
-> **🐛 Bug Fixes**
-> - fix: prevent postinstall 404 crash for unreleased v0.0.0 (#1820)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [fix(chatgptauth): drain OAuth callback responses before closing (#1996)](https://github.com/alibaba/open-code-review/commit/5d6552adafb6cbedfb54793214b777cd134dc97b) | lizhengfeng101 |
+| 2026-11-18 | [feat(pages): link the leaderboard to AACR-Bench (#1995)](https://github.com/alibaba/open-code-review/commit/d56d7a4cf6cc3f0869a75b07bcf85cd82c9c83ef) | lizhengfeng101 |
+| 2026-11-18 | [perf(pages): lazy-load documentation content by language (#1992)](https://github.com/alibaba/open-code-review/commit/8f9ce54026cf2d08feb989a40d5f8de1ba89e6e4) | wzxsdf |
+| 2026-11-18 | [docs(readme): add current branch review example (#1990)](https://github.com/alibaba/open-code-review/commit/319c34239de70f718f365f832e20ab74a86ea9e0) | lizhengfeng101 |
+| 2026-11-18 | [test(launcher): stop a Windows teardown turning a passing run red (#1…](https://github.com/alibaba/open-code-review/commit/f921d6a0de3b71befce15d8edf589cd3609968fa) | abhisheksharma2411 |
 | 2026-11-17 | [fix(session): keep finding identity fields separate (#1955)](https://github.com/alibaba/open-code-review/commit/d30f93864e9c682d27c7fb2d03ae112dca966c32) | Afloat16 |
 | 2026-11-17 | [fix(telemetry): serialize lazy metric initialization (#1883)](https://github.com/alibaba/open-code-review/commit/9430c9c61a7d35556cb0cebfc9408cbeab7edb96) | divya0795 |
 | 2026-11-17 | [gitcmd: bound Wait after cancellation with WaitDelay (#1909)](https://github.com/alibaba/open-code-review/commit/178543d92fecb7fcfe2da55ffcdc4486997fa75b) | Batianxieshen1 |
 | 2026-11-17 | [feat(pages): add contact link to website footer (#1975)](https://github.com/alibaba/open-code-review/commit/ed658157c6e15f8a086a289768c759cb9a63107a) | lizhengfeng101 |
 | 2026-11-17 | [fix(tool): bound file_read result bytes, not just line count (#1878)](https://github.com/alibaba/open-code-review/commit/4192238f9cb97abf9be134edc272659fcecb0a6b) | RerankerGuo |
-| 2026-11-17 | [fix(cmd): return non-zero for partial operational failures (#1030)](https://github.com/alibaba/open-code-review/commit/b5e81a11e926a7557b0cc0c50b98058e0c85b39e) | Qiyuanqiii |
-| 2026-11-17 | [docs: improve agent onboarding and refresh localized screenshots (#1957)](https://github.com/alibaba/open-code-review/commit/0f5a28495aeb9d27388db74c240c56c5c5f5868f) | lizhengfeng101 |
-| 2026-11-16 | [fix(session): compare sessions recorded under different path spelling…](https://github.com/alibaba/open-code-review/commit/dd1a7e12a3565f5f7396acb394d83ab18102e6ce) | castorhrio |
-| 2026-11-16 | [fix(viewer): truncate multibyte file paths on rune boundaries (#1854)](https://github.com/alibaba/open-code-review/commit/783fa679736ea6b1bb4d2fb57e50d1f65590d6cd) | LuckVd |
-| 2026-11-16 | [fix(config): address dotted MCP server names in config set (#1826)](https://github.com/alibaba/open-code-review/commit/e4c80117321c99b86e9d9da8e1254cc81beb01b6) | LuckVd |
 
 [See all commits ↗](https://github.com/alibaba/open-code-review/commits)
 

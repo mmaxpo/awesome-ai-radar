@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 72.2k |
-| 🍴 **Forks** | 23.2k |
-| 🐞 **Open issues + PRs** | [71](https://github.com/ai-job-search-dev/ai-job-search/issues) |
+| ⭐ **Stars** | 72.4k |
+| 🍴 **Forks** | 23.3k |
+| 🐞 **Open issues + PRs** | [69](https://github.com/ai-job-search-dev/ai-job-search/issues) |
 | 💻 **Languages** | Python 99% · TeX 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agents` `career` `claude-code` `cover-letter` `cv` `interview-preparation` `job-application` `job-hunting` `job-search` `latex` `resume` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-17 (yesterday) |
 | 📅 **Created** | 2026-03-18 |
 | 📦 **Latest release** | [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0) — 2026-11-16 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0)
-<sub>2026-11-16 · yesterday</sub>
+<sub>2026-11-16 · 2d ago</sub>
 
 > **What's Changed**
 > * fix(scrape): send one plain term per CLI call and make portals state their query syntax (#536) by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/653
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5)
-<sub>2026-11-09 · 8d ago</sub>
+<sub>2026-11-09 · 9d ago</sub>
 
 > **What's Changed**
 > * fix(job-key): fold Latin letters without an NFKD decomposition and add --audit --migrate by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/637
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.7.4](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.4)
-<sub>2026-11-02 · 15d ago</sub>
+<sub>2026-11-02 · 16d ago</sub>
 
 > **What's Changed**
 > * fix(freehire-search): reject detail URLs on other hosts instead of asking the API for their last segment (#622) by @ayobamiseun in https://github.com/ai-job-search-dev/ai-job-search/pull/623
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.7.3](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.3) — v1.7.3 - Least privilege, postings checked before use, and fifty-eight fixes
-<sub>2026-10-19 · 28d ago</sub>
+<sub>2026-10-19 · 29d ago</sub>
 
 > A patch release in two halves. **The security model now does what the docs said it did:** skills and agents get only the tools they need, the permission file ships rules that hold even in bypass mode, and every job posting is checked for hidden instructions before anything reads it. **And contributors closed fifty-eight bugs in two weeks**, most of them found by running the real tools against real data. Seventy-one entries.
 > **Highlights**

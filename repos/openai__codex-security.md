@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 13.9k |
+| ⭐ **Stars** | 14.0k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [180](https://github.com/openai/codex-security/issues) |
+| 🐞 **Open issues + PRs** | [187](https://github.com/openai/codex-security/issues) |
 | 💻 **Languages** | TypeScript 76% · Python 21% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-07-13 |
 | 📦 **Latest release** | [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 87.4 MB |
+| 💾 **Size** | 88.3 MB |
 | 🌐 **Website** | https://developers.openai.com/codex/security |
 
 ## 📦 Recent releases
 
 ### [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — Codex Security GitHub Action 0.10.0
-<sub>2026-11-12 · 5d ago</sub>
+<sub>2026-11-12 · 6d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0).
 > Installs `@openai/codex-security@0.10.0`.
@@ -45,7 +45,7 @@
 > ```
 
 ### [npm-v0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0) — Codex Security 0.10.0
-<sub>2026-11-12 · 5d ago</sub>
+<sub>2026-11-12 · 6d ago</sub>
 
 > **Highlights**
 > Codex Security 0.10.0 gives clearer guidance when a patch is blocked, lets interrupted Standard scans resume, and adds a budget for batch scans.
@@ -56,7 +56,7 @@
 > …
 
 ### [action-v0.9.1](https://github.com/openai/codex-security/releases/tag/action-v0.9.1) — Codex Security GitHub Action 0.9.1
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > GitHub Action for [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
 > Installs `@openai/codex-security@0.9.1`.
@@ -65,7 +65,7 @@
 > ```
 
 ### [npm-v0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1) — Codex Security 0.9.1
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > **Highlights**
 > - The npm package includes Developer ID-signed native addons for Apple Silicon and Intel Macs. This lets Codex Desktop load the addon when preparing review items.
@@ -76,7 +76,7 @@
 > …
 
 ### [npm-v0.9.0](https://github.com/openai/codex-security/releases/tag/npm-v0.9.0) — Codex Security 0.9.0 (source only)
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > **Source-only release.** The source archives below contain the original 0.9.0 release commit. The 0.9.0 build stopped during macOS signing, before npm publication. For the signed CLI and SDK package, use [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
 > **Highlights**
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [test(dedupe): cover retries for overloaded and internal Codex errors …](https://github.com/openai/codex-security/commit/ffee55ab54ca4ecebb1c088146177164c1228d91) | Shizoqua |
+| 2026-11-18 | [docs: add security workflow sample to examples index (#2666)](https://github.com/openai/codex-security/commit/aa4f286743a79337d6e5080e2a77ece474304b95) | adwaitm1301 |
+| 2026-11-18 | [feat(cli): investigate supplied dependency stacks (#2713)](https://github.com/openai/codex-security/commit/c1482dc808b7b3c9cdc02cba6822f68a5f4a4b14) | utsav-oai |
+| 2026-11-17 | [feat(cli): add an opt-in foundation for dependency investigations (#2…](https://github.com/openai/codex-security/commit/78418ad7c907c67a5bf5d0f2620e8b6afda3710a) | utsav-oai |
+| 2026-11-17 | [chore(release): 0.10.1](https://github.com/openai/codex-security/commit/9293f253bb979fd470d91e7ba1117362c0b304a3) | github-actions[bot] |
+| 2026-11-17 | [feat(scanner-imports): retain validation evidence for individual Cont…](https://github.com/openai/codex-security/commit/775231e9bf5f6bcda0bef5ff0b82860b5551f923) | mldangelo-oai |
+| 2026-11-17 | [feat(classify-severity): emit structured diagnostics on hosted record…](https://github.com/openai/codex-security/commit/acced5b84cb5e0565c95f90709b08014d85ffd7e) | kmbroai |
+| 2026-11-17 | [fix(findings): use saved comparison evidence across linked worktrees …](https://github.com/openai/codex-security/commit/034d9762878a52f0458ae25c92eb0679de97d38f) | mldangelo-oai |
 | 2026-11-17 | [chore(deps): update the Python and Node devcontainer features (#2560)](https://github.com/openai/codex-security/commit/887ef11a25063b3ed2eb4ec9282e136d7eff0906) | dependabot[bot] |
 | 2026-11-17 | [fix(history): avoid repeating findings in bulk scan matching (#149)](https://github.com/openai/codex-security/commit/95e0c8891c887f2a7c18df4fdbc0c57cc3c9111c) | GautamSharma99 |
-| 2026-11-17 | [fix(deep-scan): stop on Codex misalignment policy refusals (#2410)](https://github.com/openai/codex-security/commit/506e7c569fdb090fe799fe692de56637ffd96ed1) | Shizoqua |
-| 2026-11-17 | [fix(bulk-scan): reject receipt IDs missing from the campaign (#2677)](https://github.com/openai/codex-security/commit/6548b9246770ee3e19d99c5044d85e43f85e1c80) | mldangelo-oai |
-| 2026-11-17 | [docs(examples): compare vulnerable and repaired invoice ownership che…](https://github.com/openai/codex-security/commit/227bd55457af8beb0cde8cd09f4f092c5daceddf) | neharungta |
-| 2026-11-17 | [docs(providers): configure OrcaRouter through a native file profile (…](https://github.com/openai/codex-security/commit/9ebd3711ebee1264d5b89af3ab1e31ccea2d92c8) | martinzudergaming-a11y |
-| 2026-11-17 | [docs(providers): document a tested xAI Responses gateway workaround (…](https://github.com/openai/codex-security/commit/3cae0778d6bbf7de1eed7ddcb7426d8ef52784f7) | mldangelo-oai |
-| 2026-11-17 | [docs: add a software citation for Codex Security (#2639)](https://github.com/openai/codex-security/commit/b517c49ec423c01b7e23500afa94606dcc2dca5d) | mldangelo-oai |
-| 2026-11-17 | [docs(bulk-scan): show how --max-attempts works across two runs (#100)](https://github.com/openai/codex-security/commit/7a07634dcd59897740aaa418a61bdaedfd57084c) | GautamSharma99 |
-| 2026-11-17 | [docs(threat-model): check whether the app still serves a route (#200)](https://github.com/openai/codex-security/commit/139e093d810f4c7a928ffe163496a94549894363) | Haiduongcable |
 
 [See all commits ↗](https://github.com/openai/codex-security/commits)
 

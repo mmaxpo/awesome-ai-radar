@@ -22,66 +22,74 @@
 |---|---|
 | ⭐ **Stars** | 13.3k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [80](https://github.com/assistant-ui/assistant-ui/issues) |
+| 🐞 **Open issues + PRs** | [59](https://github.com/assistant-ui/assistant-ui/issues) |
 | 💻 **Languages** | TypeScript 84% · MDX 10% · JavaScript 3% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `conversational-ai` `radix-ui` `shadcn` `ui-components` `copilot` `chatbot` `vercel-ai-sdk` `ai-chatbot` `react-chatbot` `base-ui` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2023-11-22 |
-| 📦 **Latest release** | [assistant-ui@0.0.135](https://github.com/assistant-ui/assistant-ui/releases/tag/assistant-ui%400.0.135) — 2026-11-13 |
+| 📦 **Latest release** | [@assistant-ui/core@0.3.37](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 204.5 MB |
+| 💾 **Size** | 205.7 MB |
 | 🌐 **Website** | https://www.assistant-ui.com |
 
 ## 📦 Recent releases
 
-### [assistant-ui@0.0.135](https://github.com/assistant-ui/assistant-ui/releases/tag/assistant-ui%400.0.135)
-<sub>2026-11-13 · 3d ago</sub>
+### [@assistant-ui/core@0.3.37](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37)
+<sub>2026-11-18 · today</sub>
 
 > **Patch Changes**
-> - Updated dependencies [[`4254c59`](https://github.com/assistant-ui/assistant-ui/commit/4254c59e520629b51f4278b9e93315fab40a30da)]:
->   - setup-agent@0.2.0
+> - [#10593](https://github.com/assistant-ui/assistant-ui/pull/10593) [`528bfe9`](https://github.com/assistant-ui/assistant-ui/commit/528bfe964f1306f7070fd4efe034873b5f1cfe45) - `MessageRepository.import` now leaves the repository unchanged when it throws, for example when a message's parent or the head is missing. Thread `import` and `reset`, and loading history in the local runtime, check the data before clearing the current messages, so a history that cannot be placed no longer empties the thread. ([@Yonom](https://github.com/Yonom))
+> - [#10597](https://github.com/assistant-ui/assistant-ui/pull/10597) [`f1a812d`](https://github.com/assistant-ui/assistant-ui/commit/f1a812d2d1a6c824ea397d798a9b158f750b7804) - never run a frontend tool's `execute` for a tool call the backend owns. Tool-call parts gain `providerExecuted`: the tool invocation tracker, `ToolExecutionStream` and `unstable_runPendingTools` skip a call that carries it, even when the run ends before the backend's result arrives. UI message streams set it for provider-executed calls, the data stream format carries it from `addToolCallPart({ providerExecuted: true })` to the client, and `@assistant-ui/ai-sdk` sets it from the AI SDK part's `providerExecuted`. A dynamic tool call is marked only when its part carries `providerExecuted: true`, so otherwise it stays client-runnable as it is in the AI SDK. `@assistant-ui/react-langchain` holds a call while the graph is paused on an interrupt, and `@assistant-ui/eve` never hands a call to a frontend tool. ([@Yonom](https://github.com/Yonom))
+> - [#10641](https://github.com/assistant-ui/assistant-ui/pull/10641) [`8f30cfc`](https://github.com/assistant-ui/assistant-ui/commit/8f30cfc76b6e1483cc390a293eafc4d8fffb2bcd) - Keep Cloud message ID mappings available when a thread history moves from its live item to the listed item, so edits to loaded messages reach Cloud. ([@rupic-app](https://github.com/apps/rupic-app))
+> - [#10601](https://github.com/assistant-ui/assistant-ui/pull/10601) [`11afc02`](https://github.com/assistant-ui/assistant-ui/commit/11afc0276e87cc0834342d6fdeeaaf0595fccdbe) - fix(cloud): loading a thread follows `has_more` from the message list, so a page that ends before its limit no longer ends the thread early ([@Yonom](https://github.com/Yonom))
+> - [#10666](https://github.com/assistant-ui/assistant-ui/pull/10666) [`d9a7f68`](https://github.com/assistant-ui/assistant-ui/commit/d9a7f68b5a38fcc3f68b5acf127f71dd5b8a6837) - keep how a dictation session ended. Composer state gains `lastDictationEnd` (`{ reason, error?: AssistantError }`), set when a session ends and cleared before the next adapter listen attempt, so a UI can explain a failed dictation after `dictation` returns to `undefined`. The ended `DictationAdapter.Status` gains `error?: unknown`, which the composer normalizes to `AssistantError`, and `WebSpeechDictationAdapter` fills it with the browser's `{ code, message }` (for example `not-allowed` for a blocked microphone). `DictationEnd` is exported. ([@vidiyala99](https://github.com/vidiyala99))
+> …
 
-### [setup-agent@0.2.0](https://github.com/assistant-ui/assistant-ui/releases/tag/setup-agent%400.2.0)
-<sub>2026-11-13 · 3d ago</sub>
-
-> **Minor Changes**
-> - [#10566](https://github.com/assistant-ui/assistant-ui/pull/10566) [`4254c59`](https://github.com/assistant-ui/assistant-ui/commit/4254c59e520629b51f4278b9e93315fab40a30da) - Fetch the agent's instructions from the setup server. Commands that print guidance get the briefing, the stream's messages, the next-command hints and the relayed questions from `<setup-url>/guide`. A wording fix now ships with a server deploy instead of waiting for people to upgrade. Setup is online-only: without the guide a command fails with `Setup needs internet access to <url>`. The guide is data. The CLI strips control characters, fills placeholders itself, refuses redirects and guides over 256 KB, and runs only the `print`, `print-status` and `announce-agent` steps. ([@Yonom](https://github.com/Yonom))
->   Removed `agentInstructions`, `INSTRUCTIONS` and `AgentInstructionsOptions` from `setup-agent/cli`, since the text now lives on the server. `diffEvents` and `followSetup` take the guide.
-
-### [create-assistant-ui@0.0.98](https://github.com/assistant-ui/assistant-ui/releases/tag/create-assistant-ui%400.0.98)
-<sub>2026-11-13 · 3d ago</sub>
+### [@assistant-ui/x-generative-compiler@0.0.22](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/x-generative-compiler%400.0.22)
+<sub>2026-11-18 · today</sub>
 
 > **Patch Changes**
-> - Updated dependencies []:
->   - assistant-ui@0.0.135
+> - [#10709](https://github.com/assistant-ui/assistant-ui/pull/10709) [`08aa6f1`](https://github.com/assistant-ui/assistant-ui/commit/08aa6f1e19dc5228546cbc6878d6de510f0cd19e) - fix: drop module bindings that only a stripped region used, whatever their initializer, so calls and constructors such as `createDb(...)` or `new PrismaClient(...)` that only a backend `execute` needed no longer stay in the client build. A file whose `"use generative"` directive is not its first statement now fails the build instead of shipping uncompiled, and `withAui` runs the loader on every JS/TS extension, including `.mts` and `.cts`. ([@Yonom](https://github.com/Yonom))
 
-### [setup-agent@0.1.2](https://github.com/assistant-ui/assistant-ui/releases/tag/setup-agent%400.1.2)
-<sub>2026-11-13 · 3d ago</sub>
-
-> **Patch Changes**
-> - [#10561](https://github.com/assistant-ui/assistant-ui/pull/10561) [`c9cc1b7`](https://github.com/assistant-ui/assistant-ui/commit/c9cc1b7d292eda5c2131de9e7c5b0d74a402426f) - Keep the coding agent working until the setup is done. The briefing and the stream's `browser.opened` and `input.needed` messages now tell the agent that nothing wakes it once it ends its turn, so it blocks on answers with `wait` instead of stopping to wait for the browser. `wait <input-id>`, `wait plan` and `--wait` return after 100 seconds with `{"ok":false,"status":"waiting","next":"<command>"}` so an agent shell's own time limit does not kill them; `--timeout <seconds>` sets another limit and `0` waits as long as it takes. ([@Yonom](https://github.com/Yonom))
-
-### [@assistant-ui/x-buildutils@0.0.33](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/x-buildutils%400.0.33)
-<sub>2026-11-13 · 3d ago</sub>
+### [@assistant-ui/vue@0.0.8](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vue%400.0.8)
+<sub>2026-11-18 · today</sub>
 
 > **Patch Changes**
-> - [#10544](https://github.com/assistant-ui/assistant-ui/pull/10544) [`7854908`](https://github.com/assistant-ui/assistant-ui/commit/7854908de003619397e9e30c578eb926246d2068) - Emit the declarations of ESM packages with the native TypeScript 7 compiler. In local measurements this about halved a cold build of every package in the repository. The emitted types are equivalent, though some unions, members and inferred types print differently. ([@Kinfe123](https://github.com/Kinfe123))
+> - [#10656](https://github.com/assistant-ui/assistant-ui/pull/10656) [`cba4061`](https://github.com/assistant-ui/assistant-ui/commit/cba406112b09de49e99764b51a9d90a8ca952cc7) - keep the viewport footer inset accurate as content grows and its top margin changes. ([@okisdev](https://github.com/okisdev))
+> - [#10655](https://github.com/assistant-ui/assistant-ui/pull/10655) [`d694a8b`](https://github.com/assistant-ui/assistant-ui/commit/d694a8b638fe1ba59466a25b19aebcbfcaf5325f) - `useScrollLock` holds its position on containers with `scroll-behavior: smooth` and when the page itself is the scroller. ([@okisdev](https://github.com/okisdev))
+> - [#10649](https://github.com/assistant-ui/assistant-ui/pull/10649) [`8b606de`](https://github.com/assistant-ui/assistant-ui/commit/8b606de5b53572fb3da8be799f7324031b885524) - share composition, attachment key, and message id helpers across bindings without changing their behavior. ([@okisdev](https://github.com/okisdev))
+> - [#10654](https://github.com/assistant-ui/assistant-ui/pull/10654) [`415db3a`](https://github.com/assistant-ui/assistant-ui/commit/415db3acc68cb9413205d8b26f9232ea472aef07) - destroy vue and svelte provider clients on unmount so scopes and active streams stop immediately. ([@okisdev](https://github.com/okisdev))
+> - [#10668](https://github.com/assistant-ui/assistant-ui/pull/10668) [`f88a093`](https://github.com/assistant-ui/assistant-ui/commit/f88a093ec9b79a2137092e6d22ec51d7feb02f64) - Escape now stops speech only in the Vue thread it is pressed in, and an Escape that ends an IME composition no longer stops speech. ([@okisdev](https://github.com/okisdev))
+> …
+
+### [@assistant-ui/vite@0.0.22](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vite%400.0.22)
+<sub>2026-11-18 · today</sub>
+
+> **Patch Changes**
+> - Updated dependencies [[`08aa6f1`](https://github.com/assistant-ui/assistant-ui/commit/08aa6f1e19dc5228546cbc6878d6de510f0cd19e)]:
+>   - @assistant-ui/x-generative-compiler@0.0.22
+
+### [@assistant-ui/variants@0.0.5](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/variants%400.0.5)
+<sub>2026-11-18 · today</sub>
+
+> **Patch Changes**
+> - [#10604](https://github.com/assistant-ui/assistant-ui/pull/10604) [`9c7de04`](https://github.com/assistant-ui/assistant-ui/commit/9c7de0413212819811d38af4a30944e9611859d1) - fix: the Next.js route handlers now check the client address like the Vite plugin, and refuse requests whose address is unknown unless `allowRemoteClients` is set. ([@Yonom](https://github.com/Yonom))
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [fix(core): edits to loaded messages are no longer dropped (#10641)](https://github.com/assistant-ui/assistant-ui/commit/8f30cfc76b6e1483cc390a293eafc4d8fffb2bcd) | rupic-app[bot] |
-| 2026-11-17 | [docs: read dictation support through useSyncExternalStore (#10684)](https://github.com/assistant-ui/assistant-ui/commit/a4c705b08dbe04159c0a10f1cf9e737928d54c3c) | okisdev |
-| 2026-11-17 | [fix(examples): guard the echo runtime's edit and reply timer (#10683)](https://github.com/assistant-ui/assistant-ui/commit/59d5e6d3612e9ccf8a85a51d3c91fa4df1f9ec2d) | okisdev |
-| 2026-11-17 | [feat(examples): add with-solid-start (#10681)](https://github.com/assistant-ui/assistant-ui/commit/b3857d98ddb0fe72c1be0ef5955a895b79554517) | okisdev |
-| 2026-11-17 | [feat(solid): render initial state on the server without mounting the …](https://github.com/assistant-ui/assistant-ui/commit/e62b16205db600e556db20ec10b6c53f4917dcbc) | okisdev |
-| 2026-11-17 | [fix(examples): stop keeps the sent message when a draft exists (#10675)](https://github.com/assistant-ui/assistant-ui/commit/36b8ba970594c6d7bef9a4f1276aa938e720dad0) | okisdev |
-| 2026-11-17 | [feat(solid): suggestion primitives (#10669)](https://github.com/assistant-ui/assistant-ui/commit/c6f486829a163b37778de32b5675ae5fa7804f4e) | okisdev |
-| 2026-11-17 | [feat(examples): add with-solid (#10667)](https://github.com/assistant-ui/assistant-ui/commit/0d218c788f3f8511263851e45fb442789d21b512) | okisdev |
-| 2026-11-17 | [feat(solid): attachment primitives (#10671)](https://github.com/assistant-ui/assistant-ui/commit/f1e0dc1d9a774d825b4cf16838aa08fb15a4ce22) | okisdev |
-| 2026-11-17 | [feat(solid): error and chain of thought primitives (#10672)](https://github.com/assistant-ui/assistant-ui/commit/b33fbf124896e5c8343890036775dc8458ae8cb7) | okisdev |
+| 2026-11-18 | [fix(adapters): forward core's store and tap peers (#10704)](https://github.com/assistant-ui/assistant-ui/commit/03c06506107f55a7bc11bed616a2fed06af8a8ba) | okisdev |
+| 2026-11-18 | [fix(core): runtime extras expose useExtras so the React Compiler sees…](https://github.com/assistant-ui/assistant-ui/commit/ac873e5d3aded57180cbb8f2ec17fa109db6e4cd) | okisdev |
+| 2026-11-18 | [fix(ui): media, attachment swatches and source favicons load remote u…](https://github.com/assistant-ui/assistant-ui/commit/152efcfe7601325ab9b7fa1dec41e5c6c768d1b3) | Yonom |
+| 2026-11-18 | [perf(assistant-stream): many-part streams decode with less merge over…](https://github.com/assistant-ui/assistant-ui/commit/709a0cc74b14b6196b9e9466ecac58b502ae70e5) | Yonom |
+| 2026-11-18 | [fix(react-langchain): preserve prior tool outputs on edit (#10688)](https://github.com/assistant-ui/assistant-ui/commit/bf541446c512dde599b7f36151c9b35e0453fadf) | rupic-app[bot] |
+| 2026-11-18 | [fix(examples): guard remaining model routes from cross-site requests …](https://github.com/assistant-ui/assistant-ui/commit/18e5b35458d87956c4859a235eb0cdce5f1e8c6b) | rupic-app[bot] |
+| 2026-11-18 | [fix(remote-components): limit dev CORS and closed-policy image/media …](https://github.com/assistant-ui/assistant-ui/commit/5cdc7a3266708e4718071551590f642a7a77846c) | Yonom |
+| 2026-11-18 | [ci(python): python CI runs PostgreSQL thread-store cases (#10648)](https://github.com/assistant-ui/assistant-ui/commit/af4f279dc6fa04c581c80cf99ae41fd47476c62d) | egg119 |
+| 2026-11-18 | [fix: disabled frontend tools no longer run, and set_form_field only s…](https://github.com/assistant-ui/assistant-ui/commit/9906ce658c309e57b138c5232f2fb1b09cdb55f8) | Yonom |
+| 2026-11-18 | [fix(release): waits up to 15 minutes for npm versions before tagging …](https://github.com/assistant-ui/assistant-ui/commit/11afc90119d4ebe2d569e8ae6ddce2e81bc4401b) | Kinfe123 |
 
 [See all commits ↗](https://github.com/assistant-ui/assistant-ui/commits)
 

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [452](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [451](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2014-02-06 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 2026-09-15 |
 | 🌿 **Default branch** | `master` |
@@ -82,6 +82,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [[cat] Use uint8 for backing storage of strings. (#12870)](https://github.com/dmlc/xgboost/commit/b5a8c8913d72ca6bf831ac7c6c5be30b61887e3b) | trivialfis |
+| 2026-11-17 | [[python] Accept SciPy sparse arrays in inplace_predict (#12843)](https://github.com/dmlc/xgboost/commit/b1b2b6fa7fa25ad17d29e9668f1e3811bda9ea03) | caxaxa |
 | 2026-11-17 | [Revert "Cap OpenMP threads at the block count in ParallelFor2d (#1280…](https://github.com/dmlc/xgboost/commit/5f1a7cff76753d26299d2a26aab5994c33a06822) | trivialfis |
 | 2026-11-17 | [Fix CUDA vector initialization after host shrink (#12840)](https://github.com/dmlc/xgboost/commit/f3b50aec9900dd13d71fd9e60cf1eb09f6c6dd45) | RAMitchell |
 | 2026-11-17 | [Bound the Poisson and Cox intercepts away from zero (#12864)](https://github.com/dmlc/xgboost/commit/07179cae3ae2049dc29677874b2a8823193522d3) | caxaxa |
@@ -90,8 +92,6 @@
 | 2026-11-17 | [Bound the Tweedie intercept away from zero (#12848)](https://github.com/dmlc/xgboost/commit/24eeb14c4cad5142b8bd5b36ecda656d76197f64) | caxaxa |
 | 2026-11-17 | [Weight queries without relevant documents in ndcg and map (#12833)](https://github.com/dmlc/xgboost/commit/4fb39509a99daed4f360078e8bcce6b1ff00d3c2) | sohailshk |
 | 2026-11-17 | [Bump vmactions/freebsd-vm (#12860)](https://github.com/dmlc/xgboost/commit/8242acb60ca4278cfa9f814f1e5ad28fd6168a62) | dependabot[bot] |
-| 2026-11-16 | [Fix typos in comments and docstrings (#12605)](https://github.com/dmlc/xgboost/commit/c41b7fc0802a31e3d99890864678a68416dd0ed2) | Nityahapani |
-| 2026-11-16 | [Guard max_num_features against 0 and negative values in plot_importan…](https://github.com/dmlc/xgboost/commit/c5b8b3b06a9c99e96b62543c418c05376f2ae486) | Nityahapani |
 
 [See all commits ↗](https://github.com/dmlc/xgboost/commits)
 

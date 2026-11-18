@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 30.7k |
 | 🍴 **Forks** | 5.1k |
-| 🐞 **Open issues + PRs** | [36](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [37](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `llm` `python` `openai` `harness` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2025-03-11 |
-| 📦 **Latest release** | [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) — 2026-10-15 |
+| 📦 **Latest release** | [v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 122.9 MB |
+| 💾 **Size** | 124.2 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
 
+### [v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0)
+<sub>2026-11-18 · today</sub>
+
+> **[0.25.0](https://github.com/openai/openai-agents-python/compare/v0.24.0...v0.25.0) (2026-11-17)**
+> **Features**
+> * expose utilities for third-party session adapters ([#5428](https://github.com/openai/openai-agents-python/issues/5428)) ([16fdb20](https://github.com/openai/openai-agents-python/commit/16fdb2091d0b18cc1200d26ba6a20ee6f1962455))
+> * **sandbox:** remove Runloop provider ([#5369](https://github.com/openai/openai-agents-python/issues/5369)) ([12ce34d](https://github.com/openai/openai-agents-python/commit/12ce34d8438d6f1f7c964a261b89e069e8a0b3d3))
+> **Bug Fixes**
+> * avoid loading workspace startup files during internal sandbox operations ([#5406](https://github.com/openai/openai-agents-python/pull/5406)) ([841dfdd](https://github.com/openai/openai-agents-python/commit/841dfdd938bfd4ca052475eb76d6245a356868e0))
+> …
+
 ### [v0.24.0-alpha.8](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8) — Agents SDK v0.24.0-alpha.8 _(pre-release)_
-<sub>2026-11-16 · yesterday</sub>
+<sub>2026-11-16 · 2d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.8**
 > **Highlights**
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.24.0-alpha.7](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.7) — Agents SDK v0.24.0-alpha.7 _(pre-release)_
-<sub>2026-11-08 · 9d ago</sub>
+<sub>2026-11-08 · 10d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.7**
 > **Highlights**
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.24.0-alpha.6](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6) — Agents SDK v0.24.0-alpha.6 _(pre-release)_
-<sub>2026-11-03 · 13d ago</sub>
+<sub>2026-11-03 · 14d ago</sub>
 
 > **Install the preview**
 > Use standard CPython 3.10–3.14 in a virtual environment. These wheels include the native runtime; no Rust toolchain or source build is needed. This preview is distributed through GitHub Releases, not PyPI.
@@ -79,31 +90,20 @@
 > * batch OpenAI conversation session writes within the API limit ([#5334](https://github.com/openai/openai-agents-python/issues/5334)) ([26345c1](https://github.com/openai/openai-agents-python/commit/26345c1e45ebede8e2fc9b0bc7341dedab5e01fc))
 > …
 
-### [v0.23.1](https://github.com/openai/openai-agents-python/releases/tag/v0.23.1)
-<sub>2026-10-02 · 1mo ago</sub>
-
-> **[0.23.1](https://github.com/openai/openai-agents-python/compare/v0.23.0...v0.23.1) (2026-10-02)**
-> **Bug Fixes**
-> * restore release tests and refresh required readiness check ([#5278](https://github.com/openai/openai-agents-python/issues/5278)) ([730deb4](https://github.com/openai/openai-agents-python/commit/730deb419c0a2e9e5ebd739499744e4a6bf89ed1))
-> **Release readiness review (v0.23.0 -> TARGET 0a5a08b21cd44808d73e8a9e732212dd33b3690d)**
-> This is a release readiness report done by `$final-release-review` skill.
-> **Diff**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [fix: sandbox memory selection across UTC offsets (#6066)](https://github.com/openai/openai-agents-python/commit/e7ce15a25b336bb3d0840ad16dee597f69a6e6d3) | seratch |
+| 2026-11-18 | [fix: support opt-in JSON validation for Codex tool parameters (#6067)](https://github.com/openai/openai-agents-python/commit/54492d112b5c3366cc30f35abd60c46fa92140c2) | seratch |
+| 2026-11-18 | [fix: allow SDK 0.25 in the external provider example (#6068)](https://github.com/openai/openai-agents-python/commit/9b17858afb5b45f48bbf695cc7c8f34778425156) | jbeckwith-oai |
+| 2026-11-18 | [release: 0.25.0 (#5394)](https://github.com/openai/openai-agents-python/commit/0a74177ed23ffb0c2dba24eda3fb12fb58e3e09d) | openai-sdks[bot] |
+| 2026-11-17 | [fix: limit the Daytona extra to the supported 0.x SDK (#6065)](https://github.com/openai/openai-agents-python/commit/fd78fa038f853598ed849e25eec78bab1e49aa00) | seratch |
+| 2026-11-17 | [fix: align model defaults with TS SDK (#6064)](https://github.com/openai/openai-agents-python/commit/d5287b741dfd93de3ce1625f98b342cd0c4c455e) | seratch |
+| 2026-11-17 | [fix(deps): bump openai from 3.29.0 to 3.48.0 (#6054)](https://github.com/openai/openai-agents-python/commit/a4a4fa4cf0e34516df57871196de360253e614fe) | dependabot[bot] |
 | 2026-11-17 | [fix(deps): update fastapi requirement from >=0.162.0 to >=0.162.2 in …](https://github.com/openai/openai-agents-python/commit/9a3bce3d0ab013d64aa5591e92a4458d1c658f8b) | dependabot[bot] |
 | 2026-11-17 | [fix(deps): update openai requirement from <4,>=3.42.1 to >=3.48.0,<4 …](https://github.com/openai/openai-agents-python/commit/5e0f94458e91eb93f619b29045f7a2ebcc1f4f3e) | dependabot[bot] |
 | 2026-11-17 | [fix(deps): update twilio requirement from <10,>=9.12.0 to >=9.13.0,<1…](https://github.com/openai/openai-agents-python/commit/e27451cdb311b389bfbf3860106abe0991cbb641) | dependabot[bot] |
-| 2026-11-17 | [fix(deps-dev): bump fastapi from 0.141.1 to 0.162.2 (#6053)](https://github.com/openai/openai-agents-python/commit/494c0c0c13c8a08c83161848c275365febe90601) | dependabot[bot] |
-| 2026-11-17 | [fix(deps-dev): bump rich from 14.3.3 to 15.0.0 (#6055)](https://github.com/openai/openai-agents-python/commit/18d979bf218016a86cbbba1bd38165c87f7c2233) | dependabot[bot] |
-| 2026-11-17 | [fix(deps): bump pydantic from 2.14.2 to 2.14.3 (#6052)](https://github.com/openai/openai-agents-python/commit/4bb2637dcdc2c27da7a0d1820d416cb7e0eab4ab) | dependabot[bot] |
-| 2026-11-17 | [fix: preserve pending async calls in committed sessions (#6039)](https://github.com/openai/openai-agents-python/commit/f48003a6dba448be21f195c7508ca77e683fe08c) | ashwinnathan-openai |
-| 2026-11-17 | [fix: preserve pending input history across streamed retries (#6042)](https://github.com/openai/openai-agents-python/commit/9e05bd5bf299a5ddbb25f7fec8da10bf2baf6133) | ashwinnathan-openai |
-| 2026-11-16 | [fix: preserve wire aliases when reading Conversations session history…](https://github.com/openai/openai-agents-python/commit/5789c7c555b5d3e26104859d84286e412d7b6a9b) | seratch |
-| 2026-11-16 | [fix: preserve usage from failed and incomplete Responses calls (#6046)](https://github.com/openai/openai-agents-python/commit/6e6707cdcf63c2466f2bc8c6cb026ce3813bdf26) | seratch |
 
 [See all commits ↗](https://github.com/openai/openai-agents-python/commits)
 

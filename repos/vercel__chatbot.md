@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 21.1k |
 | 🍴 **Forks** | 6.8k |
-| 🐞 **Open issues + PRs** | [38](https://github.com/vercel/chatbot/issues) |
+| 🐞 **Open issues + PRs** | [37](https://github.com/vercel/chatbot/issues) |
 | 💻 **Languages** | TypeScript 96% · JavaScript 2% · CSS 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `nextjs` `shadcn-ui` `vercel` `chatgpt` `react` `redis` |
-| 🕒 **Last activity** | 2026-11-03 (13d ago) |
+| 🕒 **Last activity** | 2026-11-03 (14d ago) |
 | 📅 **Created** | 2023-05-19 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

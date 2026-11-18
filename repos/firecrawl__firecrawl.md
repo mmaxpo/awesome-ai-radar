@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/firecrawl/firecrawl)
 
-> Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
+> Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.
 
 ## 📝 Notes
 
@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 202.5k |
+| ⭐ **Stars** | 202.8k |
 | 🍴 **Forks** | 10.6k |
-| 🐞 **Open issues + PRs** | [810](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 72% · Python 12% · Rust 5% · Java 3% · PHP 2% |
+| 🐞 **Open issues + PRs** | [817](https://github.com/firecrawl/firecrawl/issues) |
+| 💻 **Languages** | TypeScript 73% · Python 10% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 187.6 MB |
+| 💾 **Size** | 188.1 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [fix(alexandria): honor a forced alexandriaZDR org flag on every Alexa…](https://github.com/firecrawl/firecrawl/commit/2f73c303ceb36fe1408eda8eb837c99ad6f854b2) | developersdigest |
-| 2026-11-17 | [fix(python-sdk): stop shipping tests and backup module in the wheel (…](https://github.com/firecrawl/firecrawl/commit/46b7e9571ab9538e361d53f0ef1a5d077bed289c) | erikengervall |
-| 2026-11-17 | [test(js-sdk): raise the per-minute limits on CI e2e identities (#5420)](https://github.com/firecrawl/firecrawl/commit/da7de22e1076eb6ddb09aa0406b3d9a2762cba0f) | erikengervall |
-| 2026-11-17 | [fix(api): log where a firebill call's time went, and keep its connect…](https://github.com/firecrawl/firecrawl/commit/8e7e5887cfd69e1db2d3f16be22a642a02370aec) | micahstairs |
-| 2026-11-17 | [chore(api): remove the /v1/fireclaw route (#5800)](https://github.com/firecrawl/firecrawl/commit/7a1c6e30f537df1f7946afe8b6a9e82f22d121a7) | mogery |
-| 2026-11-17 | [feat(pdf): retry transient FirePDF failures once on the sync endpoint…](https://github.com/firecrawl/firecrawl/commit/9b06378cd263c9c4c68af9321a35953814db0cd9) | abimaelmartell |
-| 2026-11-17 | [fix(pdf): re-download PDFs whose browser handoff was cut off (#5177)](https://github.com/firecrawl/firecrawl/commit/d639c7ee30aea2e9169bfd296d4063823b80da47) | abimaelmartell |
-| 2026-11-16 | [ci(api): run the core unit tests on every pull request (#5782)](https://github.com/firecrawl/firecrawl/commit/7605448d5f128466811743504d5fe69c59c532c0) | mogery |
-| 2026-11-16 | [chore: remove stale files (#5788)](https://github.com/firecrawl/firecrawl/commit/bd4c1d6a57e13eec3a3282dbb7c27c98601bdf68) | mogery |
-| 2026-11-16 | [chore(api): remove the OpenAPI spec files (#5787)](https://github.com/firecrawl/firecrawl/commit/e7e925be9f556c4860d47987aca962c7402173fe) | mogery |
+| 2026-11-18 | [feat(api): send library commands down the catalogue-read path (#5832)](https://github.com/firecrawl/firecrawl/commit/25c130276117f3d6fe5e142147cc2414d6dee609) | capy-ai[bot] |
+| 2026-11-18 | [Remove the support docs search method from the Elixir SDK and OpenAPI…](https://github.com/firecrawl/firecrawl/commit/0e535bc534e7050a9da1e5e70dd5f1a0a4e42eac) | mogery |
+| 2026-11-18 | [feat(api): serve Alexandria provider calls from /v2/alexandria (#5826)](https://github.com/firecrawl/firecrawl/commit/9dc8170a0e9bd81e3d8e8d354d7258dd96ae3b3c) | developersdigest |
+| 2026-11-17 | [feat(api): short redirect links for session downloads (#5828)](https://github.com/firecrawl/firecrawl/commit/0a585939b2d0ff9bbc4e8b1d2a41e4d8f9c74f1b) | tomsideguide |
+| 2026-11-17 | [refactor(api): trim session file routes and share the storage client …](https://github.com/firecrawl/firecrawl/commit/e35d5e340c56dbcabf36350805a91d7ffc3681c6) | tomsideguide |
+| 2026-11-17 | [feat(api): session, file and download link routes for the hosted MCP …](https://github.com/firecrawl/firecrawl/commit/b1a4d7521d0234bab45793fc72a587a45aec0684) | Ben2W |
+| 2026-11-17 | [test(api): remove the v0 e2e snips (#5825)](https://github.com/firecrawl/firecrawl/commit/dc55805c2ebdfe389943d4c4bed86629423ac8d9) | mogery |
+| 2026-11-17 | [README: update positioning to Firecrawl Alexandria (550+ providers) (…](https://github.com/firecrawl/firecrawl/commit/8ae5bed1d7ef3de532a29a981298da795361d115) | lauracodesatwork |
+| 2026-11-17 | [refactor(api): move admin controllers out of controllers/v0 (#5615)](https://github.com/firecrawl/firecrawl/commit/b666afbab019df1a57328b9bc8db25d2c40552fe) | mogery |
+| 2026-11-17 | [feat(api): authenticate to OpenAI with workload identity federation (…](https://github.com/firecrawl/firecrawl/commit/d69aa23c2008c35ffa929b92951bb60e16e403c3) | tomsideguide |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

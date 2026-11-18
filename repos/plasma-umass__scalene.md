@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 60% · JavaScript 15% · C++ 9% · TypeScript 7% · Lean 6% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-16 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (2d ago) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — Free-threaded wheels, M4 fix, safer API keys, and formal verification
-<sub>2026-10-23 · 24d ago</sub>
+<sub>2026-10-23 · 25d ago</sub>
 
 > **What's Changed**
 > **Headlines**
@@ -57,7 +57,7 @@
 > …
 
 ### [v2.2.1](https://github.com/plasma-umass/scalene/releases/tag/v2.2.1) — Scalene v2.2.1
-<sub>2026-03-22 · 7mo ago</sub>
+<sub>2026-03-22 · 8mo ago</sub>
 
 > **Scalene v2.2.1**
 > **Bug Fixes**

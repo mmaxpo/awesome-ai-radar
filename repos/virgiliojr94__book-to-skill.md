@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 38.2k |
+| ⭐ **Stars** | 38.4k |
 | 🍴 **Forks** | 4.1k |
 | 🐞 **Open issues + PRs** | [37](https://github.com/virgiliojr94/book-to-skill/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `context-engineering` `document-processing` `edtech` `knowledge-base` `knowledge-management` `llm` `pdf-to-markdown` `rag` `self-study` `study-tools` `book-to-skill` |
-| 🕒 **Last activity** | 2026-11-08 (8d ago) |
+| 🕒 **Last activity** | 2026-11-08 (9d ago) |
 | 📅 **Created** | 2026-05-01 |
 | 📦 **Latest release** | [v1.4.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.4.0) — 2026-08-10 |
 | 🌿 **Default branch** | `master` |

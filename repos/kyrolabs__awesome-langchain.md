@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Curated list of LangChain tools and projects |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 9.6k |
-| 🍴 **Forks** | 999 |
+| 🍴 **Forks** | 1.0k |
 | 🐞 **Open issues + PRs** | [2](https://github.com/kyrolabs/awesome-langchain/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | `ai` `awesome` `awesome-list` `langchain` `llm` |
-| 🕒 **Last activity** | 2026-11-11 (6d ago) |
+| 🕒 **Last activity** | 2026-11-11 (7d ago) |
 | 📅 **Created** | 2023-02-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

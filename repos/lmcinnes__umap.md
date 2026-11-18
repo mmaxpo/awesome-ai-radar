@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.3k |
-| 🍴 **Forks** | 893 |
-| 🐞 **Open issues + PRs** | [541](https://github.com/lmcinnes/umap/issues) |
+| 🍴 **Forks** | 895 |
+| 🐞 **Open issues + PRs** | [542](https://github.com/lmcinnes/umap/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `umap` `dimensionality-reduction` `visualization` `machine-learning` `topological-data-analysis` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2017-07-02 |
 | 📦 **Latest release** | [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0) — 2026-11-10 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 105.0 MB |
+| 💾 **Size** | 105.7 MB |
 | 🌐 **Website** | https://umap-learn.readthedocs.io |
 
 ## 📦 Recent releases
 
 ### [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0)
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > **What's Changed**
 > * Embed combined models without densMAP instead of failing with KeyError by @raashish1601 in https://github.com/lmcinnes/umap/pull/1304
@@ -47,7 +47,7 @@
 > …
 
 ### [release-0.6.0rc1](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0rc1) _(pre-release)_
-<sub>2026-11-03 · 13d ago</sub>
+<sub>2026-11-03 · 14d ago</sub>
 
 > **What's Changed**
 > * Preserve input dtype in transform and fit_transform output by @sebastianbreguel in https://github.com/lmcinnes/umap/pull/1253
@@ -86,16 +86,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Merge pull request #1355 from sebastianbreguel/fix-n-jobs-above-numba…](https://github.com/lmcinnes/umap/commit/1f7553b2d8dc54aaa2224da92b5869a3f0c91576) | lmcinnes |
+| 2026-11-18 | [Cap n_jobs at the numba thread pool size (fixes #1354)](https://github.com/lmcinnes/umap/commit/447aef08d71ad1048d7b8c2c962f61f2eb48b8f4) | sebastianbreguel |
+| 2026-11-18 | [Add test: fit with n_jobs above the numba thread count](https://github.com/lmcinnes/umap/commit/e5cf1995deae944855919b6c5d8771d0679cca58) | sebastianbreguel |
+| 2026-11-17 | [Merge pull request #1352 from domoritz/docs/embedding-atlas](https://github.com/lmcinnes/umap/commit/64b73ad7b4086ac86aecc45eeaa4caae35257732) | lmcinnes |
+| 2026-11-17 | [Cache the compiled kNN, smoothing and membership kernels on disk (#1351)](https://github.com/lmcinnes/umap/commit/7d4d9849f61aa50da0dafa4af279c1a082d96990) | sebastianbreguel |
+| 2026-11-17 | [Remove WebGPU detail from Embedding Atlas description](https://github.com/lmcinnes/umap/commit/6f31aa4360c1b463ef896326becd7927d4d6bc95) | domoritz |
+| 2026-11-17 | [Add Embedding Atlas to the interactive visualizations page](https://github.com/lmcinnes/umap/commit/ef54c19e436f3639f30250f8e464d20819c2e6b1) | domoritz |
 | 2026-11-17 | [Add live parameter sliders to the parameters documentation (#1341)](https://github.com/lmcinnes/umap/commit/6dafbbcfbd701aeacdfb417e72712d726c21c705) | domoritz |
 | 2026-11-16 | [Merge pull request #1350 from skundu42/fix/aligned-umap-pickle](https://github.com/lmcinnes/umap/commit/4f16ff100db79a73d12bea6a7a57c632945eab60) | lmcinnes |
 | 2026-11-16 | [Support pickling fitted AlignedUMAP models](https://github.com/lmcinnes/umap/commit/c0f74bd70ffc9be59c4d90ea72da249113d969c8) | skundu42 |
-| 2026-11-16 | [Merge pull request #1349 from sebastianbreguel/scout/transform-perf](https://github.com/lmcinnes/umap/commit/696c3822e3d7cae98e3cfddc8771fe436ee76178) | lmcinnes |
-| 2026-11-16 | [Merge pull request #1342 from linjiaye929/fix/parametric-large-array-…](https://github.com/lmcinnes/umap/commit/f0edc8abb72bc7c476465d4150780c37973f954d) | lmcinnes |
-| 2026-11-15 | [Loop numba metrics in numba for the small-data transform distance matrix](https://github.com/lmcinnes/umap/commit/2e3d66c5b1ce01095208844c5bf155f037d88e92) | sebastianbreguel |
-| 2026-11-15 | [Merge pull request #1347 from rishi02102017/sparse-precomputed-exact-k](https://github.com/lmcinnes/umap/commit/27f4b2a096a0341371e0707a7261b2e61f3c9151) | lmcinnes |
-| 2026-11-14 | [Merge pull request #1348 from lmcinnes/whats_new](https://github.com/lmcinnes/umap/commit/5113b770a4ca109b21e51edd5c88bf981a1702e3) | lmcinnes |
-| 2026-11-14 | [Enhance documentation for UMAP 0.6: add details on new initialization…](https://github.com/lmcinnes/umap/commit/eccee468690c04b4a6bc4b1170c0bec6516d8552) | lmcinnes |
-| 2026-11-14 | [Add 'whats_new_0_6' to the documentation table of contents](https://github.com/lmcinnes/umap/commit/059615053770dc433d419c226fb04ba44b56d7e5) | lmcinnes |
 
 [See all commits ↗](https://github.com/lmcinnes/umap/commits)
 

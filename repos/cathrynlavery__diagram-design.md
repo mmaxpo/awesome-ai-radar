@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 67.8k |
-| 🍴 **Forks** | 4.5k |
-| 🐞 **Open issues + PRs** | [39](https://github.com/cathrynlavery/diagram-design/issues) |
+| ⭐ **Stars** | 68.1k |
+| 🍴 **Forks** | 4.6k |
+| 🐞 **Open issues + PRs** | [38](https://github.com/cathrynlavery/diagram-design/issues) |
 | 💻 **Languages** | HTML 58% · Python 42% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `claude-code` `codex` `data-visualization` `diagrams` `drawio` `mermaid` `svg` |
-| 🕒 **Last activity** | 2026-11-12 (4d ago) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-04-16 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,8 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [chore(release): bump plugin manifests to 2.6.165](https://github.com/cathrynlavery/diagram-design/commit/bddddb607f0416815084b7db25255ee646076ca9) | github-actions[bot] |
+| 2026-11-18 | [fix(verify): reject escaped CSS property names (#524)](https://github.com/cathrynlavery/diagram-design/commit/69b88c0cd71bdd7f87fbbe3f196a1807ffbde19a) | YalcinkayaE |
 | 2026-11-12 | [chore(release): bump plugin manifests to 2.6.164](https://github.com/cathrynlavery/diagram-design/commit/f6db0decea96de66b901331a0f79a8d4b147ebae) | github-actions[bot] |
 | 2026-11-12 | [fix(verify): don't read quoted CSS data as a geometry declaration (#433)](https://github.com/cathrynlavery/diagram-design/commit/d096f3dafb8ac505a65f3104b23bb3fc32a9c0d2) | bercedev |
 | 2026-11-12 | [chore(release): bump plugin manifests to 2.6.163](https://github.com/cathrynlavery/diagram-design/commit/7e478b0c2ffa19f705b89657496353a505f14508) | github-actions[bot] |
@@ -49,8 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-12 | [fix(box-plot): read unquoted and valueless attributes as the HTML par…](https://github.com/cathrynlavery/diagram-design/commit/c6f689e7d7c987e73d1a10b957d5879026c7e71d) | TanmayShah29 |
 | 2026-11-12 | [chore(release): bump plugin manifests to 2.6.161](https://github.com/cathrynlavery/diagram-design/commit/58ee12c3913407962a061fc993a2f73f9ea8a3dc) | github-actions[bot] |
 | 2026-11-12 | [chore(ci): bump the ci-dependencies group (#499)](https://github.com/cathrynlavery/diagram-design/commit/4831326f156ea3ff95b84fc544b86ba1856fede3) | dependabot[bot] |
-| 2026-11-12 | [chore(release): bump plugin manifests to 2.6.160](https://github.com/cathrynlavery/diagram-design/commit/5713dd4743fc1015bd08884037a9a1a4e9d90507) | github-actions[bot] |
-| 2026-11-12 | [feat(type): add unit grid (#198)](https://github.com/cathrynlavery/diagram-design/commit/3ed137ca7d0475ae947dce30c4fc48520cd40492) | sdhilip200 |
 
 [See all commits ↗](https://github.com/cathrynlavery/diagram-design/commits)
 

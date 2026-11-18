@@ -21,21 +21,32 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.8k |
-| 🍴 **Forks** | 146 |
-| 🐞 **Open issues + PRs** | [31](https://github.com/snownico0722/PaperTodo/issues) |
+| 🍴 **Forks** | 147 |
+| 🐞 **Open issues + PRs** | [35](https://github.com/snownico0722/PaperTodo/issues) |
 | 💻 **Languages** | C# 92% · C 6% · JavaScript 1% · HTML 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `avalonedit` `csharp` `markdown` `minimalist` `notes` `todo` `windows` `wpf` `desktop` `note-taking` `productivity` `sticky-notes` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-05-27 |
 | 📦 **Latest release** | [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 103.5 MB |
+| 💾 **Size** | 106.1 MB |
 
 ## 📦 Recent releases
 
+### [v4.0.0-beta2](https://github.com/snownico0722/PaperTodo/releases/tag/v4.0.0-beta2) — PaperTodo v4.0.0-beta2 _(pre-release)_
+<sub>2026-11-18 · today</sub>
+
+> 这是一个测试版，可能存在很多问题、bug。
+> This is a beta version; it may contain many issues and bugs.
+> <details>
+> <summary>简体中文更新日志</summary>
+> **多工作区**
+> - **多工作区管理与切换**：支持最多创建 5 个独立工作区，各工作区的纸片、图片与插件状态独立存储。
+> …
+
 ### [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — PaperTodo v3.40
-<sub>2026-10-20 · 27d ago</sub>
+<sub>2026-10-20 · 28d ago</sub>
 
 > **纸片与胶囊**
 > - **快捷关闭纸片**：展开的纸片支持 Ctrl+W 或标题栏中键关闭。
@@ -78,31 +89,20 @@
 > - **已完成自动置底**：待办新增“已完成自动置底”选项，勾选完成后自动移到已完成区域末尾，取消完成时移回未完成区域末尾（开启自动清除时暂不触发）。
 > …
 
-### [v3.2.1](https://github.com/snownico0722/PaperTodo/releases/tag/v3.2.1) — PaperTodo v3.2.1
-<sub>2026-08-05 · 3mo ago</sub>
-
-> <details>
-> <summary>简体中文更新日志</summary>
-> PaperTodo v3.2.1-额外bug修正
-> **bug修复和边界修正**
-> - 优化全屏避让：取消边缘胶囊的高频置顶保护，改为前台窗口事件触发、1 秒轻量检查和 5 秒全局兜底；关闭避让后不再保留相关监听与定时检查。
-> - 修复程序重启后，直接从未展开的贴边胶囊右键删除非空纸片时，删除确认框可能导致异常退出的问题。
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-13 | [修复主胶囊回飞末帧在 WPF 布局期间交接导致的崩溃 [ci] (#457)](https://github.com/snownico0722/PaperTodo/commit/9d5f005d908aad639b656b48993a9524d6e081f9) | snownico0722 |
-| 2026-11-12 | [docs: 在中英文 README 添加贡献指南入口](https://github.com/snownico0722/PaperTodo/commit/7506e9265c7cf766671463a85cf3c696390c51fb) | snownico0722 |
-| 2026-11-12 | [Add files via upload](https://github.com/snownico0722/PaperTodo/commit/1ec518314c1cb7a86734862fa76096baec08a5e1) | snownico0722 |
-| 2026-11-09 | [修正工作区菜单与托盘入口，并明确架构文档维护边界 (#448)](https://github.com/snownico0722/PaperTodo/commit/32bfe9e0533c704d07691a50a00f8b5345dc9a2e) | snownico0722 |
-| 2026-11-09 | [校准中英文设置指南，补齐决策索引并精简 Agent 规则 (#447)](https://github.com/snownico0722/PaperTodo/commit/baf3312478298050d061c56e82779b9936cfee21) | snownico0722 |
-| 2026-11-09 | [补充按功能组织文件、合并规则与退役入口的判断依据 (#446)](https://github.com/snownico0722/PaperTodo/commit/8cf42e686ba160f29970162d29d757d21a176a2b) | snownico0722 |
-| 2026-11-09 | [精简遗留实现，统一待办规则、提示对话框和设置生效逻辑 (#445)](https://github.com/snownico0722/PaperTodo/commit/a32051cd573fb45c0f0915777ef592b8349b3eed) | snownico0722 |
-| 2026-11-09 | [修正三方合并的待办关联和写入时序，保护健康备份 (#442)](https://github.com/snownico0722/PaperTodo/commit/bf7d0baaf434737f4dfacee40070de8017fd3de7) | snownico0722 |
-| 2026-11-09 | [修复默认纸片隐藏外轮廓时失焦标题栏残留底色 [ci] (#444)](https://github.com/snownico0722/PaperTodo/commit/3934bcea63ebf07c9e64f2027f9090f657e8c4c2) | snownico0722 |
-| 2026-11-09 | [优化胶囊队列拖动计算，修复折叠队列落点预览 (#443)](https://github.com/snownico0722/PaperTodo/commit/10eb6b55032e1376a8456e16419dbee68e993937) | snownico0722 |
+| 2026-11-18 | [docs(plugins): 同步工作区与启停生命周期及多语言说明](https://github.com/snownico0722/PaperTodo/commit/33f7c65834ebf1e664b7d5577f1d8b9b8a906b8a) | snownico0722 |
+| 2026-11-18 | [docs(user-guide): 补齐 beta2 操作说明并同步中英文](https://github.com/snownico0722/PaperTodo/commit/62505fceaf3497f510547ec1a1d99ce28f50a495) | snownico0722 |
+| 2026-11-18 | [docs(changelog): 补充 beta2 插件管理与修复说明](https://github.com/snownico0722/PaperTodo/commit/8b0a2ac16ce4133d9634366c34438ee5d46708ed) | snownico0722 |
+| 2026-11-18 | [docs: 归档默认纸片缩放阴影性能决策与实验依据](https://github.com/snownico0722/PaperTodo/commit/d27aa3022e1d37272d57399e21ef67af066cefeb) | snownico0722 |
+| 2026-11-18 | [docs(release): 同步 v4.0.0-beta2 中英文更新日志](https://github.com/snownico0722/PaperTodo/commit/db224ec31157493ea58ab55123eb3e29af455a78) | snownico0722 |
+| 2026-11-18 | [Update CHANGELOG.zh.md](https://github.com/snownico0722/PaperTodo/commit/3d0dc3a5aee3d02fe7ddc9e192abec0fc5dd1140) | snownico0722 |
+| 2026-11-18 | [docs: remove release note entries introduced by PRs #460-#463](https://github.com/snownico0722/PaperTodo/commit/193f2ced901b58f5ec968aed794b2453820514ed) | snownico0722 |
+| 2026-11-18 | [fix: bound activation commands and offload telemetry persistence (#462)](https://github.com/snownico0722/PaperTodo/commit/82b32a9b5a66b7a603f24f45a47414e68db6454f) | snownico0722 |
+| 2026-11-18 | [fix: strengthen active edge capsule focus outlines (#460)](https://github.com/snownico0722/PaperTodo/commit/2a1561a9efe31fd762131a5383a6b4c37efacdce) | snownico0722 |
+| 2026-11-18 | [fix: enable resize hooks on restored edge papers (#463)](https://github.com/snownico0722/PaperTodo/commit/925a6cb48e75ad650da9daf6ddd0034060b9802b) | snownico0722 |
 
 [See all commits ↗](https://github.com/snownico0722/PaperTodo/commits)
 

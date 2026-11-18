@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 187.4k |
+| ⭐ **Stars** | 187.5k |
 | 🍴 **Forks** | 19.1k |
 | 🐞 **Open issues + PRs** | [4.7k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 74% · C 18% · TypeScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `llm` `llms` `go` `golang` `ollama` `mistral` `gemma` `deepseek` `qwen` `gpt-oss` `glm` `minimax` `muse` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2023-06-26 |
 | 📦 **Latest release** | [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 95.6 MB |
+| 💾 **Size** | 95.5 MB |
 | 🌐 **Website** | https://ollama.com |
 
 ## 📦 Recent releases
 
 ### [v0.40.17-rc1](https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1) — v0.40.17 _(pre-release)_
-<sub>2026-11-10 · 6d ago</sub>
+<sub>2026-11-10 · 7d ago</sub>
 
 > **What's Changed**
 > * Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16)
-<sub>2026-11-09 · 7d ago</sub>
+<sub>2026-11-09 · 8d ago</sub>
 
 > **Ripple Preview**
 > [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15)
-<sub>2026-11-03 · 13d ago</sub>
+<sub>2026-11-03 · 14d ago</sub>
 
 > **MiMo V2.6**
 > Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14)
-<sub>2026-11-03 · 14d ago</sub>
+<sub>2026-11-03 · 15d ago</sub>
 
 > **What's Changed**
 > * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.40.13](https://github.com/ollama/ollama/releases/tag/v0.40.13)
-<sub>2026-10-28 · 19d ago</sub>
+<sub>2026-10-28 · 20d ago</sub>
 
 > **LFM3 on Linux and Windows**
 > Liquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.

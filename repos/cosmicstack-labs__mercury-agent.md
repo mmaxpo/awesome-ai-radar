@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 4.0k |
 | 🍴 **Forks** | 411 |
-| 🐞 **Open issues + PRs** | [30](https://github.com/cosmicstack-labs/mercury-agent/issues) |
+| 🐞 **Open issues + PRs** | [29](https://github.com/cosmicstack-labs/mercury-agent/issues) |
 | 💻 **Languages** | TypeScript 73% · Kotlin 8% · Swift 7% · Rust 4% · MDX 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `ai-assistant` `llm` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-04-20 |
 | 📦 **Latest release** | [v1.5.4](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.4) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 62.0 MB |
+| 💾 **Size** | 63.6 MB |
 | 🌐 **Website** | https://mercuryagent.sh/ |
 
 ## 📦 Recent releases
 
 ### [v1.5.4](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.4) — Mercury v1.5.4
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **☿ Mercury Agent v1.5.4**
 > Set up voice from your phone, and fewer approval prompts.
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.5.3](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.3) — Mercury v1.5.3
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **☿ Mercury Agent v1.5.3**
 > Ready for Mercury on your phone, Google Workspace in one command, and bots that can't be steered by what they read.
@@ -58,7 +58,7 @@
 > …
 
 ### [optimus-v0.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2) — Optimus 0.5.2
-<sub>2026-11-14 · 3d ago</sub>
+<sub>2026-11-14 · 4d ago</sub>
 
 > Plugin-only update. Install or update with `/plugins update optimus`, or **Plugins → Optimus → Update** in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per model needs Mercury 1.5.2.
 > - **Screenshots sized for the model in use.** Optimus resizes each capture to what the model reads best: Claude and OpenAI 1024×640, Gemini 768×480, open vision models 896×560. Click coordinates stay exact.
@@ -76,7 +76,7 @@
 > …
 
 ### [v1.5.1](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.1) — Mercury v1.5.1
-<sub>2026-11-03 · 13d ago</sub>
+<sub>2026-11-03 · 14d ago</sub>
 
 > **☿ Mercury Agent v1.5.1**
 > Reading aloud and voice typing now use the voice you chose, Gemini included, and the Optimus update button tells you what it did.
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/7b0d6c0d6acf03fd7d0df0d9f0421aafca2496a9) | mercuryagent |
+| 2026-11-18 | [docs(site): publish Mercury Weekly #1 and the Weekly tag](https://github.com/cosmicstack-labs/mercury-agent/commit/198de3b6e6c43fa633d3007311441a1a250030a5) | hotheadhacker |
+| 2026-11-18 | [chore(blog): compress the Mercury Weekly #1 cover (1600x900, 160 KB)](https://github.com/cosmicstack-labs/mercury-agent/commit/ec5dfc14b77faceb7321278e73f9afbfd2f7299c) | hotheadhacker |
+| 2026-11-18 | [Add weekly tag for Mercury Weekly](https://github.com/cosmicstack-labs/mercury-agent/commit/bdd67d8ac4a5b4d5f675166d3753913e7d47647b) | tashiriskhan |
+| 2026-11-18 | [Add Mercury Weekly #1: IPOs, models and agents that pay](https://github.com/cosmicstack-labs/mercury-agent/commit/f1707af7ad6c94c41bf4e6c23246e5fc02ea2e50) | tashiriskhan |
+| 2026-11-17 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/593891c59b03697177844db7a37a2d9c65baf503) | mercuryagent |
 | 2026-11-17 | [release: v1.5.4 on mercuryagent.sh (downloads, updates, docs)](https://github.com/cosmicstack-labs/mercury-agent/commit/7ea6d5efa8ce28a2b06280ad5bd90a22619dacec) | mercuryagent |
 | 2026-11-17 | [Mercury 1.5.4: set up voice from your phone, fewer approval prompts](https://github.com/cosmicstack-labs/mercury-agent/commit/1e5d0ed5d4715d51e6eddc39c8ea69c31e6ece81) | hotheadhacker |
 | 2026-11-17 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/2faa9588dabc9676513a7f69b13ff6ca47de48e9) | mercuryagent |
 | 2026-11-17 | [release: v1.5.3 on mercuryagent.sh (downloads, updates, docs)](https://github.com/cosmicstack-labs/mercury-agent/commit/d5500d90d266ca52b5d72fd78e4d32a244995be6) | mercuryagent |
-| 2026-11-17 | [Mercury 1.5.3: phone apps, Google Workspace, bots that can't be steered](https://github.com/cosmicstack-labs/mercury-agent/commit/1906c11f80777676fbf71b38186d812d22b33236) | hotheadhacker |
-| 2026-11-17 | [Merge feat/mobile-ios: native iOS and Android apps, phone voice and t…](https://github.com/cosmicstack-labs/mercury-agent/commit/34a3c236b72645830d04ae80a2e01e83e96462bb) | hotheadhacker |
-| 2026-11-17 | [Merge pull request #307: Google Workspace (gws) connect](https://github.com/cosmicstack-labs/mercury-agent/commit/65fc898b81bf7c69348c6d09bcaf91589f8015ad) | hotheadhacker |
-| 2026-11-17 | [feat(android): native Kotlin app at parity with iOS](https://github.com/cosmicstack-labs/mercury-agent/commit/c90a077bff422b2d8aebafd80002e072b71728f1) | hotheadhacker |
-| 2026-11-17 | [feat(ios): Grok-style chat-first app with Liquid Glass](https://github.com/cosmicstack-labs/mercury-agent/commit/f3e60e78945c666a63fd8fc61100b0a33701b8cc) | hotheadhacker |
-| 2026-11-17 | [feat(voice): phone calls hear the caller, not the room](https://github.com/cosmicstack-labs/mercury-agent/commit/d25df503ed446bcebb40cca8b85f6a3526293647) | hotheadhacker |
 
 [See all commits ↗](https://github.com/cosmicstack-labs/mercury-agent/commits)
 

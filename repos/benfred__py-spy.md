@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 15.7k |
-| 🍴 **Forks** | 559 |
-| 🐞 **Open issues + PRs** | [233](https://github.com/benfred/py-spy/issues) |
+| 🍴 **Forks** | 558 |
+| 🐞 **Open issues + PRs** | [232](https://github.com/benfred/py-spy/issues) |
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `profiler` `python` `performance-analysis` `profiling` |
-| 🕒 **Last activity** | 2026-11-16 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (2d ago) |
 | 📅 **Created** | 2018-08-01 |
 | 📦 **Latest release** | [v0.4.3](https://github.com/benfred/py-spy/releases/tag/v0.4.3) — 2026-11-02 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.3](https://github.com/benfred/py-spy/releases/tag/v0.4.3)
-<sub>2026-11-02 · 14d ago</sub>
+<sub>2026-11-02 · 15d ago</sub>
 
 > **Changes**
 > **🚀 Features**
@@ -92,7 +92,7 @@
 | 2026-11-15 | [publish to pypi using trusted publisher (#912)](https://github.com/benfred/py-spy/commit/56d7cab50f05b41c492afea64e6f3f00436d09a1) | benfred |
 | 2026-11-15 | [use `base_frame` to avoid sampling partial frames (#911)](https://github.com/benfred/py-spy/commit/f02c2195ddee2cc26853970dde06a5b9cf8d15f8) | benfred |
 | 2026-11-15 | [Add support for free-threaded python interpreters (#905)](https://github.com/benfred/py-spy/commit/a2ae758b893f41925ec31d5de2659c3d655534a1) | benfred |
-| 2026-11-14 | [Avoid console layout underflow in small terminals (#897)](https://github.com/benfred/py-spy/commit/d62c5ec01e0f77507bd657b908453314d114d14e) | daniyyell-dev |
+| 2026-11-14 | [Avoid console layout underflow in small terminals (#897)](https://github.com/benfred/py-spy/commit/d62c5ec01e0f77507bd657b908453314d114d14e) | Daniel Jeremiah |
 | 2026-11-14 | [Re-enable tests in CI for freebsd (#910)](https://github.com/benfred/py-spy/commit/b6b66c91194ba2ca6b610937c5962a3e1ba4c8c8) | benfred |
 | 2026-11-14 | [Fix panic on FreeBSD when reading undefined nonblocking flag (#903)](https://github.com/benfred/py-spy/commit/f382a5cead1a09a970bf26b93f5c755b3b140782) | KGuillemot |
 | 2026-11-14 | [Fix empty interpreter section scans (#907)](https://github.com/benfred/py-spy/commit/b36c8daf2b653beed82b0446f8da1b372081bc17) | theomonnom |

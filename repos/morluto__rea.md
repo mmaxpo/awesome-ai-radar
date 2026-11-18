@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 465.5k |
-| 🍴 **Forks** | 113.9k |
+| ⭐ **Stars** | 467.6k |
+| 🍴 **Forks** | 114.3k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/morluto/rea/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 5% · Python 1% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `cli` `mcp` `agent-skills` `dsh-plugin` `claude-code` `rea` `touhou` `android` `javascript` `python` `typescript` `nodejs` `linux` `ai` `security` `java` `cpp` `rust` `react` `html` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-04-14 |
 | 📦 **Latest release** | [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 177.0 MB |
+| 💾 **Size** | 177.7 MB |
 | 🌐 **Website** | https://rea.tools |
 
 ## 📦 Recent releases
 
 ### [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — rea-agents: v6.9.0
-<sub>2026-11-12 · 5d ago</sub>
+<sub>2026-11-12 · 6d ago</sub>
 
 > **[6.9.0](https://github.com/morluto/rea/compare/rea-agents-6.8.0...rea-agents-6.9.0) (2026-11-11)**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [rea-agents-6.8.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0) — rea-agents: v6.8.0
-<sub>2026-10-25 · 23d ago</sub>
+<sub>2026-10-25 · 24d ago</sub>
 
 > **[6.8.0](https://github.com/morluto/rea/compare/rea-agents-6.7.0...rea-agents-6.8.0) (2026-10-25)**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [fix(environment): preserve HAR body source identity and scan coverage…](https://github.com/morluto/rea/commit/5ccb7c59c84e2297fd2c0ecb691154e410b285f2) | ShuaixinHuang |
-| 2026-11-17 | [feat(artifacts): inventory Android OTA update payloads offline (#11378)](https://github.com/morluto/rea/commit/51459cf203ae1eb6b586a95b21899eaa0f631823) | mvanhorn |
-| 2026-11-17 | [perf(ci): split lazy runtime chunks, cache Windows typecheck, and reu…](https://github.com/morluto/rea/commit/5a2a08a0481a37c94365cfc69175b278f0643e41) | morluto |
-| 2026-11-17 | [feat(artifacts): inspect NuGet package metadata and dependencies](https://github.com/morluto/rea/commit/43b9fa87fbbaa74224731a1fe3a8e67a2d336ae3) | mvanhorn |
-| 2026-11-17 | [fix(pe): reject incomplete certificate-table alignment (#11823)](https://github.com/morluto/rea/commit/3c71d3528f6c0d3d054790152881002d0049a1ee) | ShuaixinHuang |
-| 2026-11-17 | [fix(artifacts): cancel idle .NET bundle member streams (#11826)](https://github.com/morluto/rea/commit/3b85623436ffead0ff4747d664571b963d58b5f8) | ShuaixinHuang |
-| 2026-11-17 | [fix(contracts): keep recorded local-path schemas portable](https://github.com/morluto/rea/commit/954979b7ffcb9d2af5a27e8a37bb0ca7c077efef) | ShuaixinHuang |
-| 2026-11-17 | [feat(artifacts): inspect Android boot image components](https://github.com/morluto/rea/commit/a88c0a55544e16a710ddaad2feb5a2c6e7011f4e) | mvanhorn |
-| 2026-11-17 | [fix: isolate concurrent doctor cleanup scopes, trace JS fixture helpe…](https://github.com/morluto/rea/commit/116f159a8af041ea77aa79f84199e5155ec2064d) | morluto |
-| 2026-11-17 | [perf(tests): share CLI environments and lazy MCP sessions in Electron…](https://github.com/morluto/rea/commit/455c2695661005a1322061d1549f75e901e7e78f) | morluto |
+| 2026-11-18 | [fix(cli): show --json in global help (#12058)](https://github.com/morluto/rea/commit/39e8403306af0764c6319a514193d9fb4dad794e) | morluto |
+| 2026-11-18 | [fix(packaging): include the linked dinosaur notice (#11793)](https://github.com/morluto/rea/commit/aaacdc0ef7128def5e08f3d992ca5e0f6444f15d) | Plastic-time |
+| 2026-11-18 | [fix(artifacts): apply XML end-of-line handling to nuspec and POM text…](https://github.com/morluto/rea/commit/372e6e2fa07f3e81aea2e43379e5b707a7a4938f) | Plastic-time |
+| 2026-11-18 | [test(webmcp): consolidate passive discovery coverage](https://github.com/morluto/rea/commit/da5ff5e7a78680865382e08db808982a67d83bc6) | morluto |
+| 2026-11-18 | [test(browser): consolidate navigation timeline coverage](https://github.com/morluto/rea/commit/005a61cf4ccc16afbca88b50031b4b8a51faca2c) | morluto |
+| 2026-11-18 | [test(browser): consolidate DOM and resource capture coverage](https://github.com/morluto/rea/commit/085ef4cc3b92de1535a87a59b32d6e0c45cc03a0) | morluto |
+| 2026-11-18 | [fix(cli): reject blank paths in JSON input schemas (#11794)](https://github.com/morluto/rea/commit/eb0d1df3ccd80ba5f2c7d72c599ad15ba467764f) | Plastic-time |
+| 2026-11-18 | [chore(ci): exempt vincentkoc from PR author readiness](https://github.com/morluto/rea/commit/577062109aa8ba7a1aaa274b50191f449aa16416) | morluto |
+| 2026-11-18 | [test(artifacts): verify encrypted PCK extraction refusal (#12054)](https://github.com/morluto/rea/commit/5d54447d63e5359fdd3d7c76b14d90a4c03cff89) | morluto |
+| 2026-11-18 | [test(artifacts): consolidate stale admitted carrier checks (#12056)](https://github.com/morluto/rea/commit/ba498636c102f1f81b6089e50f35f21f76632151) | morluto |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

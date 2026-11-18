@@ -69,7 +69,7 @@
 > …
 
 ### [flowise@3.1.1](https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.1)
-<sub>2026-03-23 · 7mo ago</sub>
+<sub>2026-03-23 · 8mo ago</sub>
 
 > **What's Changed**
 > * Traversal env var by @christopherholland-workday in https://github.com/FlowiseAI/Flowise/pull/5962

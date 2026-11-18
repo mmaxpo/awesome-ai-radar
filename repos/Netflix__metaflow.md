@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 10.3k |
+| ⭐ **Stars** | 10.4k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [521](https://github.com/Netflix/metaflow/issues) |
+| 🐞 **Open issues + PRs** | [517](https://github.com/Netflix/metaflow/issues) |
 | 💻 **Languages** | Python 94% · R 2% · Svelte 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `model-management` `ai` `ml` `ml-platform` `ml-infrastructure` `python` `mlops` `datascience` `high-performance-computing` `kubernetes` `aws` `azure` `gcp` `llm` `llmops` `agents` `generative-ai` `cost-optimization` `distributed-training` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-17 (yesterday) |
 | 📅 **Created** | 2019-09-17 |
 | 📦 **Latest release** | [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41) — 2026-11-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 47.8 MB |
+| 💾 **Size** | 47.9 MB |
 | 🌐 **Website** | https://metaflow.org |
 
 ## 📦 Recent releases
 
 ### [2.19.41](https://github.com/Netflix/metaflow/releases/tag/2.19.41)
-<sub>2026-11-06 · 10d ago</sub>
+<sub>2026-11-06 · 11d ago</sub>
 
 > **What's Changed**
 > * fix: conditional steps issue on argo 3.7.13+/4.0.4+ by @saikonen in https://github.com/Netflix/metaflow/pull/3401
@@ -47,7 +47,7 @@
 > …
 
 ### [2.19.40](https://github.com/Netflix/metaflow/releases/tag/2.19.40)
-<sub>2026-10-29 · 18d ago</sub>
+<sub>2026-10-29 · 19d ago</sub>
 
 > **What's Changed**
 > * [GSoC] Add paginated, filtered run iteration to the core client by @Aryan95614 in https://github.com/Netflix/metaflow/pull/3348

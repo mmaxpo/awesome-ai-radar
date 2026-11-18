@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `web` `mobile` `ai-agents` `ai-coding` `coding-agent` `developer-tools` `docker` `llm` `opencode` `pwa` `react` `remote-development` `self-hosted` `terminal` |
-| 🕒 **Last activity** | 2026-11-16 (today) |
+| 🕒 **Last activity** | 2026-11-17 (today) |
 | 📅 **Created** | 2025-11-24 |
 | 📦 **Latest release** | [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — 2026-10-26 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — OpenCode Manager v1.1.0
-<sub>2026-10-26 · 22d ago</sub>
+<sub>2026-10-26 · 23d ago</sub>
 
 > **Highlights**
 > - **Linked OpenCode servers**: pair any machine running `opencode serve` with `ocm link` and a QR code, then run sessions, terminals, schedules, multi-runs, goals and permission modes on it from Manager. Linked servers' projects appear on the home page.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-17 | [Merge pull request #488 from chriswritescode-dev/om-207-validate-goal…](https://github.com/chriswritescode-dev/opencode-manager/commit/5c5de012db81b59b51182a75ba9837a19d52bff1) | chriswritescode-dev |
+| 2026-11-17 | [Fix the OpenCode 2.3.0 reload Goal assertion found validating cb4204d…](https://github.com/chriswritescode-dev/opencode-manager/commit/50d1958d43f18fa79579f187e819387f81707cfd) | chriswritescode-dev |
+| 2026-11-17 | [Apply remaining changes](https://github.com/chriswritescode-dev/opencode-manager/commit/f737511ba31f74ab9a79438023afba361281783f) | chriswritescode-dev |
+| 2026-11-17 | [Refresh Goal reads on plugin.updated, with recovery coverage](https://github.com/chriswritescode-dev/opencode-manager/commit/edd083e4178c8b50bc941f323041e447170017b4) | chriswritescode-dev |
+| 2026-11-17 | [Version-aware real-binary proof of the cold-Location Goal](https://github.com/chriswritescode-dev/opencode-manager/commit/47066b33b282c0c2377c7ba5cf5c6269dbb2b741) | chriswritescode-dev |
+| 2026-11-17 | [Move the OpenCode pin and supported floor to 2.3.0](https://github.com/chriswritescode-dev/opencode-manager/commit/23d9d1c945e2c080e3b2969407268e83cae8277d) | chriswritescode-dev |
 | 2026-11-13 | [Merge pull request #485 from chriswritescode-dev/chore/prune-redundan…](https://github.com/chriswritescode-dev/opencode-manager/commit/eba86dc3fc3c95de448ee0c24d462194679b1ea6) | chriswritescode-dev |
 | 2026-11-13 | [Remove duplicated and constant-only tests](https://github.com/chriswritescode-dev/opencode-manager/commit/71bde0378af2ce1bc115a0a7b39e58d8e8288fa2) | chriswritescode-dev |
 | 2026-11-13 | [Merge pull request #484 from chriswritescode-dev/chore/oxlint-anti-slop](https://github.com/chriswritescode-dev/opencode-manager/commit/ee4ef8217db2a991dd2f494d1a455c798c1acca8) | chriswritescode-dev |
 | 2026-11-13 | [Remove the unreachable agent and command rename plumbing](https://github.com/chriswritescode-dev/opencode-manager/commit/d153bc0d21fbb0329b63b38aa6c16168473ff489) | chriswritescode-dev |
-| 2026-11-13 | [Scope goal reads to the session directory and stabilize the backgroun…](https://github.com/chriswritescode-dev/opencode-manager/commit/80e013ec81ce13443e0a78cce9823dbe0c77cc0d) | chriswritescode-dev |
-| 2026-11-13 | [Fix remote session delete, unknown commit responses, restart errors a…](https://github.com/chriswritescode-dev/opencode-manager/commit/fc00273645d6f52801728ed088b1b6ba40729500) | chriswritescode-dev |
-| 2026-11-13 | [Assert the event stream exists in the deferred bootstrap test](https://github.com/chriswritescode-dev/opencode-manager/commit/51fb4fd12ff395007e1f3a14b9e0916d44ef977d) | chriswritescode-dev |
-| 2026-11-13 | [Isolate test state and inject the restart-pending check into config r…](https://github.com/chriswritescode-dev/opencode-manager/commit/76ca65ec5e90e87da7649d0681315b737eea9200) | chriswritescode-dev |
-| 2026-11-13 | [fix: apply 1 pr-agent suggestions](https://github.com/chriswritescode-dev/opencode-manager/commit/26fd21250a3197412775dcb0812f835d60a17a10) | lil-worker-cstech[bot] |
-| 2026-11-13 | [refactor: satisfy no-array-filter-map and no-accumulating-spread](https://github.com/chriswritescode-dev/opencode-manager/commit/19ee1d917382137ea6c65c075022c93d971d2f14) | chriswritescode-dev |
 
 [See all commits ↗](https://github.com/chriswritescode-dev/opencode-manager/commits)
 

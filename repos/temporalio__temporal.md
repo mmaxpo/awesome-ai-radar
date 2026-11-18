@@ -26,17 +26,17 @@
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 172.3 MB |
+| 💾 **Size** | 173.8 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 14d ago</sub>
+<sub>2026-11-02 · 15d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 14d ago</sub>
+<sub>2026-11-02 · 15d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 14d ago</sub>
+<sub>2026-11-02 · 15d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Add ephemeral CHASM component fields (#13085)](https://github.com/temporalio/temporal/commit/506d38141d6ebc663694d63b484aa020b31c415e) | bergundy |
+| 2026-11-18 | [Verify Nexus task (#13144)](https://github.com/temporalio/temporal/commit/148a5e99edbcab97684815916824fcae0ec622f5) | long-nt-tran |
+| 2026-11-17 | [Fix flakes: `TestAddThenConsumeActivities` should not assume FIFO (#1…](https://github.com/temporalio/temporal/commit/dbe2d84170bbc21509188d645725228af6aa20da) | carlydf |
+| 2026-11-17 | [Adding CapturePanicHook to avoid double-defer code (#13139)](https://github.com/temporalio/temporal/commit/d25f4923d31c9bb502e20e4bec0a5560fa77e8d1) | stuart-wells |
+| 2026-11-17 | [Add search attribute alias to field mapping to Namespace Detail for E…](https://github.com/temporalio/temporal/commit/392c9c44bffb653cb1a24dc21a850e360e5c6cec) | awln-temporal |
+| 2026-11-17 | [Bump go.temporal.io/testx to 806d3508f](https://github.com/temporalio/temporal/commit/77c3647e138455a5fd259cc7980a9460ae6ce036) | temporal-data |
+| 2026-11-17 | [Bump Go and dependencies to fix reported CVEs (#13131)](https://github.com/temporalio/temporal/commit/806d3508f7484f68948a8a08427d01bed391b151) | feiyang3cat |
+| 2026-11-17 | [Emit wide event when state sync is skipped for buffered events (#13135)](https://github.com/temporalio/temporal/commit/de3cfe9d19c05030674e27f95026287911e43d8b) | michaely520 |
 | 2026-11-17 | [fix: refuse polls that arrive after ShutdownWorker of an unloaded tas…](https://github.com/temporalio/temporal/commit/a1e005230fbe050c83c8c285dcbf0bbfbd7093b4) | moetemp |
 | 2026-11-17 | [Add CHASM Speculative Transition (#13025)](https://github.com/temporalio/temporal/commit/23e4eab0337a0df7c65e4e1132651941f8a8209b) | chanric |
-| 2026-11-17 | [Align Schedules V1/V2 metric label sets for Prometheus (#12270)](https://github.com/temporalio/temporal/commit/b116145b754d87a12463434ce33bf9afc89bde20) | davidporter-id-au |
-| 2026-11-17 | [Sanitize Nexus return-path links (#12956)](https://github.com/temporalio/temporal/commit/38e5535f2448b2670878867618726a9c3a472487) | chrsmith |
-| 2026-11-17 | [Cap the total size of links attached to a CHASM execution (#12955)](https://github.com/temporalio/temporal/commit/763c820eb3487af077d801f102e617c1975b3196) | chrsmith |
-| 2026-11-17 | [Standardize link validation on an injected links.Validator (#12954)](https://github.com/temporalio/temporal/commit/3bbfa0bbc0d27645e5ce813e4c64d8b03645f568) | chrsmith |
-| 2026-11-16 | [Validate migrated schedule state (#13125)](https://github.com/temporalio/temporal/commit/5d3e50a91f2b8b6fff6ab486a0b904e2639785f7) | chaptersix |
-| 2026-11-16 | [verify query task (#13097)](https://github.com/temporalio/temporal/commit/8b1df85d697287095b3f2156e4a14bb7587fdb66) | feiyang3cat |
-| 2026-11-16 | [Bump temporal-auto-scaled-workers to 782664acf475 to skip task add ho…](https://github.com/temporalio/temporal/commit/a6d5f5feb3d9a81fec59a77c56a7ddc8f3f5dd12) | mani-j9 |
-| 2026-11-16 | [Accept SOFT_DELETE namespace state in metadata manager (#13002)](https://github.com/temporalio/temporal/commit/d07491318a628f477a9369c8eaa183bb3de31459) | awln-temporal |
 
 [See all commits ↗](https://github.com/temporalio/temporal/commits)
 
