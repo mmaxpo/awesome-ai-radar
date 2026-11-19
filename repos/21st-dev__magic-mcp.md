@@ -19,8 +19,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 6.6k |
-| 🍴 **Forks** | 539 |
-| 🐞 **Open issues + PRs** | [9](https://github.com/21st-dev/magic-mcp/issues) |
+| 🍴 **Forks** | 541 |
+| 🐞 **Open issues + PRs** | [8](https://github.com/21st-dev/magic-mcp/issues) |
 | 💻 **Languages** | TypeScript 96% · Dockerfile 4% |
 | 📜 **License** | ISC |
 | 🏷 **Topics** | `21st` `claude` `cursor` `mcp` `model-context-protocol` `react` `tailwindcss` `ui-components` |

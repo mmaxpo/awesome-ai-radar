@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 118.2k |
+| ⭐ **Stars** | 118.3k |
 | 🍴 **Forks** | 10.3k |
-| 🐞 **Open issues + PRs** | [91](https://github.com/thedotmack/claude-mem/issues) |
+| 🐞 **Open issues + PRs** | [78](https://github.com/thedotmack/claude-mem/issues) |
 | 💻 **Languages** | TypeScript 66% · JavaScript 29% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-memory` `anthropic` `artificial-intelligence` `claude` `claude-agent-sdk` `claude-agents` `claude-code` `claude-code-plugin` `claude-skills` `long-term-memory` `mem0` `openmemory` `supermemory` `chromadb` `sqlite` `embeddings` `memory-engine` `rag` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2025-08-31 |
-| 📦 **Latest release** | [v16.0.0](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.0) — 2026-11-18 |
+| 📦 **Latest release** | [v16.0.1](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.1) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 892.9 MB |
+| 💾 **Size** | 895.1 MB |
 | 🌐 **Website** | https://claude-mem.ai |
 
 ## 📦 Recent releases
 
+### [v16.0.1](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.1)
+<sub>2026-11-19 · today</sub>
+
+> **Critical fixes**
+> - **Signing in to Codex works again on Windows while claude-mem runs** (#6332, thanks @ffe111, closes #6331). The private Codex home that claude-mem's app-server uses got its `auth.json` through a hard link to your real `~/.codex/auth.json`. Codex refuses to replace a credential file with more than one hard link (`persist_failed: atomic credential replacement does not support hard-linked files`), so `codex login` and token refresh failed for as long as that home existed. The private home now gets a symlink, which Codex follows. Only on Windows, and only when a symlink is not permitted (no Developer Mode or elevation), it gets a private copy instead. Any other error still fails loudly.
+> - **A probe answered with `<skip_summary/>` ends the quota cooldown** (#6324, thanks @vaibhav375, closes #6322). After a quota hit, the worker probes the provider and clears the cooldown once a probe stores a memory. A probe the provider answered with a valid `<skip_summary/>` stores nothing, so the cooldown never cleared and the worker re-probed every 5 minutes for as long as that session only skipped. A valid skip now releases the cooldown too, on both the store path and the early path before the memory session id is known. Observer-health success still needs a real store.
+> **Fixes**
+> - **Search falls back to SQLite instead of failing when Chroma is slow** (#6327, thanks @REI-330, closes #6323). The MCP client gives a search 30 s, while each Chroma read waited up to 60 s, so a slow query was still running when the caller gave up and the SQLite/FTS5 fallback never ran. A search now shares one 20 s budget across its Chroma reads and falls back when it runs out, without restarting a healthy chroma-mcp.
+> - **Chroma rebuilds no longer hold a core for hours** (#6299, thanks @srieteja). A full backfill now pauses after each row for its write time times `CLAUDE_MEM_CHROMA_BACKFILL_PAUSE_RATIO` (default 1, 0 turns it off), and chroma-mcp starts under `nice` (`CLAUDE_MEM_CHROMA_PROCESS_NICE`, default 10) outside Windows. Live sync is unchanged.
+> …
+
 ### [v16.0.0](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.0)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **My Work puts what needs you first**
 > My Work, the page that shows what your agents are doing, was rebuilt from a full UI review (#6210, #6304). What needs you sits at the top, long lists fold, and every page works on a phone, by keyboard and with a screen reader.
@@ -47,7 +58,7 @@
 > …
 
 ### [v15.21.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.21.0)
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **claude-mem no longer turns off Claude Code's Code Mode**
 > - **Code Mode starts with claude-mem enabled** (#6278, thanks @naive000; reported in #6209 by @nasif-naseef). Code Mode (experimental, Claude Code 2.1.323 and later) refuses to start when a plugin's hooks module hooks `tool.call`. claude-mem's auto-clear mod did, so Code Mode was off for everyone with claude-mem enabled, even with auto-clear off. The mod now reads tool results through `session.append` instead. Auto-clear still works on every Claude Code version that runs mods (2.1.287 and later).
@@ -58,7 +69,7 @@
 > …
 
 ### [v15.20.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.20.0)
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **Two critical fixes**
 > - **The worker starts when settings.json is not valid JSON** (#6259). The worker refused to start when `~/.claude-mem/settings.json` couldn't be parsed, even though the database already held the device identity it was trying to save there. Nothing was captured and no context was injected. It now logs a warning, leaves the file untouched, and starts. On a first start with no saved identity, the error names the file and says to repair or delete it.
@@ -69,7 +80,7 @@
 > …
 
 ### [v15.19.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.19.0)
-<sub>2026-11-16 · 2d ago</sub>
+<sub>2026-11-16 · 3d ago</sub>
 
 > **Continue a Claude Code or Codex conversation from My Work**
 > Open a request in My Work, then open "Where this came from". Under each Claude Code or Codex conversation there is now a message box. Type a message and press Send, and that same conversation takes the turn. The reply shows right there (#6191; the command shapes follow @wiesenthal's answer code in #6054, and the commit credits him).
@@ -79,31 +90,20 @@
 > - One Send starts one headless resume (`claude --resume <id> -p --output-format json`, or `codex exec resume <id> - --skip-git-repo-check`) with your message on stdin. A failed turn is recorded as failed and never retried. Nothing is queued or saved for replay, and nothing starts at startup, on a timer or on reconnect.
 > …
 
-### [v15.18.5](https://github.com/thedotmack/claude-mem/releases/tag/v15.18.5)
-<sub>2026-11-15 · 2d ago</sub>
-
-> **Critical fixes**
-> - **The tree-sitter CLI installs on networks where its download script keeps failing** (#6110, thanks @rigel905, closes #6109). On some networks tree-sitter-cli's own `install.js` had its request reset every time, or exited 0 on a truncated file. The pinned SHA-256 check correctly refused the file, but nothing recovered after that, so `smart_search`, `smart_outline`, `smart_unfold` and the File Read Gate stayed off on every worker start, and `npx claude-mem repair` aborted. Now, when the script fails or leaves anything but the pinned executable, claude-mem fetches the same release asset directly, once, inside the same install time budget, and runs it only after it unpacks to the same pinned SHA-256. The script still runs first, so `HTTPS_PROXY` keeps working. A script that used up the whole budget gets no second attempt.
-> - **A corrupt Chroma collection is dropped once, not once per parallel backfill** (#6115, thanks @mohitdixit02 and @0xABCD01, closes #6113). When the HNSW segment of a large collection was corrupt, every parallel per-project backfill that hit it passed the "drop only once" check before the first delete finished, and queued its own delete against chroma-mcp. In #6113 that ran 19 drops at once and pushed chroma-mcp to a 312 GB memory footprint, stalling a 32 GB Mac. Callers now join the one drop already running for that collection and share its outcome. A failed drop costs one attempt from the retry budget, not one per caller, and different collections still drop independently. The remaining asks from that report (a memory bound on chroma-mcp, stopping writes when a drop can't be confirmed, measuring footprint on macOS) are tracked in #3610.
-> **Fixes**
-> - **`--help` prints help instead of running the command** (#6142, thanks @liuyinchu). `npx claude-mem mcp --help` used to start the stdio server, and `status`, `doctor` and `hook` entered their runtime paths; `t3code` and its aliases rejected the flag. `-h` and `--help` are now handled before dispatch for these commands. Plain `mcp` still starts the server.
-> **Docs**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [fix(my-work): a press anywhere on a focus card opens its area (#6315)](https://github.com/thedotmack/claude-mem/commit/c1dc252bda98b1310ba3fa4b195efe49070d554b) | thedotmack |
-| 2026-11-18 | [chore: promote 16.0.0 for auto-update](https://github.com/thedotmack/claude-mem/commit/cc4dbf5beb4bd98623e0b842e6617115f4e74631) | thedotmack |
-| 2026-11-18 | [docs: update CHANGELOG for v16.0.0](https://github.com/thedotmack/claude-mem/commit/39c259a6ebfb8f607dc4f9ee6ecdbc2ef4e6223a) | thedotmack |
-| 2026-11-18 | [chore: bump version to 16.0.0](https://github.com/thedotmack/claude-mem/commit/cc0fb95154581052f3611698b6ab6ec48a08f3f0) | thedotmack |
-| 2026-11-18 | [fix(my-work): touch sizes, the Decide chip's edge and 12px labels (Ph…](https://github.com/thedotmack/claude-mem/commit/dd33958aadb2c50d5ba02550551675ebe1eb20f9) | thedotmack |
-| 2026-11-18 | [fix: log two failures that were dropped without a word (#6302)](https://github.com/thedotmack/claude-mem/commit/441203361d53e92f13db35abb0a402976aa3f5ab) | thedotmack |
-| 2026-11-18 | [ci: state the measured run behind the job's 35-minute limit](https://github.com/thedotmack/claude-mem/commit/5150d8e84d9f92f56250c836ed5e586e1d28e4af) | thedotmack |
-| 2026-11-18 | [feat(my-work): Pro Max UI for 16.0.0 — My Work (#6210)](https://github.com/thedotmack/claude-mem/commit/36875d6488921503ebd3c3e69ad37eef9f1a09e4) | thedotmack |
-| 2026-11-17 | [Remove Observation TV (#6295)](https://github.com/thedotmack/claude-mem/commit/99f8bed8256050b79933abf7a5e64590bb3cce2f) | thedotmack |
-| 2026-11-17 | [perf(hook-spool): read the spool in bounded parallel batches (#6260)](https://github.com/thedotmack/claude-mem/commit/bbd8fa2e7cfcc00c8c0b7b1d0c49b31ab144cd83) | Zhong-fan |
+| 2026-11-19 | [Show the Claude-Mem mark in the terminal startup card’s right column …](https://github.com/thedotmack/claude-mem/commit/4b48c5727ab62ee22e72a71b822a2fb225491fa2) | thedotmack |
+| 2026-11-19 | [feat(observer): support Codex as a quota fallback (#6326)](https://github.com/thedotmack/claude-mem/commit/2f4ed384376420be4f75a5fc2c27ce1bbfb77f81) | QuantScorpus |
+| 2026-11-19 | [chore: promote 16.0.1 for auto-update](https://github.com/thedotmack/claude-mem/commit/46e5bf526dc7951dd3f851af76c6b0a220d3f8a8) | thedotmack |
+| 2026-11-19 | [docs: update CHANGELOG for v16.0.1](https://github.com/thedotmack/claude-mem/commit/7214c5b5a44e7040fdd4def46adee543493ad6c3) | thedotmack |
+| 2026-11-19 | [chore: bump version to 16.0.1](https://github.com/thedotmack/claude-mem/commit/e22c58353b950b15e6e16d98719801224840f046) | thedotmack |
+| 2026-11-19 | [fix(chroma): end read calls before the worker's search budget (#6327)](https://github.com/thedotmack/claude-mem/commit/08bad9f906a1308a7bf76ac85e51c6bef3daae97) | REI-330 |
+| 2026-11-19 | [fix(codex): never hard-link the user's auth.json into the private Cod…](https://github.com/thedotmack/claude-mem/commit/833a0a834c8c91e6b4843cdba5c8bbe9035fb6d9) | ffe111 |
+| 2026-11-19 | [feat(devin): claude-mem in Devin cloud sessions and Devin Bots via an…](https://github.com/thedotmack/claude-mem/commit/b5c57a1a8d43195aa04be93d4776c88bd8d6695c) | devin-ai-integration[bot] |
+| 2026-11-19 | [feat(work-view): run the My Work refresh on OpenCode (#5535) (#6330)](https://github.com/thedotmack/claude-mem/commit/6bef24671b63e211af971e0b614c109f24b4ffdc) | REI-330 |
+| 2026-11-19 | [feat(search): match unsegmented scripts by substring on PostgreSQL (#…](https://github.com/thedotmack/claude-mem/commit/0b4e183408770db68628a453d7dac39d5d489375) | REI-330 |
 
 [See all commits ↗](https://github.com/thedotmack/claude-mem/commits)
 

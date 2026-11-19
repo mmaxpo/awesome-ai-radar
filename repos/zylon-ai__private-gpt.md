@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 57.6k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [15](https://github.com/zylon-ai/private-gpt/issues) |
+| 🐞 **Open issues + PRs** | [18](https://github.com/zylon-ai/private-gpt/issues) |
 | 💻 **Languages** | Python 87% · HTML 9% · MDX 3% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-tools` `on-premise` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2023-05-02 |
 | 📦 **Latest release** | [v1.0.1](https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1) — 2026-06-18 |
 | 🌿 **Default branch** | `main` |
@@ -91,7 +91,7 @@
 | 2026-11-13 | [fix(settings): wire HTTPS_PROXY to the proxy.https_proxy field (#2432)](https://github.com/zylon-ai/private-gpt/commit/9d37a133f1d50e9b10ed527ce198ffd7ded1af70) | simpleqt |
 | 2026-11-13 | [docs: add HopBase OpenAI-compatible provider guide (#2459)](https://github.com/zylon-ai/private-gpt/commit/03f7df6324c8122cfe23155086a302d65e10e9cb) | victor-zzh |
 | 2026-11-13 | [fix(readers): keep numeric-looking table cells as text when nodes are…](https://github.com/zylon-ai/private-gpt/commit/ef32cb847c88a75ad636e0956c156478671e1485) | MohammadHijjawi97 |
-| 2026-11-13 | [docs: add UberLLM OpenAI-compatible provider guide (#2446)](https://github.com/zylon-ai/private-gpt/commit/673046beaf3ee67fdd9f9eb9a811a604955492bf) | PSA-Team-source |
+| 2026-11-13 | [docs: add UberLLM OpenAI-compatible provider guide (#2446)](https://github.com/zylon-ai/private-gpt/commit/673046beaf3ee67fdd9f9eb9a811a604955492bf) | al-global-tech |
 
 [See all commits ↗](https://github.com/zylon-ai/private-gpt/commits)
 

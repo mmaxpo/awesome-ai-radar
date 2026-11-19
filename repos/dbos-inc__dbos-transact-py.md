@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.7k |
-| 🍴 **Forks** | 125 |
-| 🐞 **Open issues + PRs** | [11](https://github.com/dbos-inc/dbos-transact-py/issues) |
+| 🍴 **Forks** | 126 |
+| 🐞 **Open issues + PRs** | [9](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2024-07-19 |
 | 📦 **Latest release** | [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 4.2 MB |
+| 💾 **Size** | 4.4 MB |
 | 🌐 **Website** | https://docs.dbos.dev |
 
 ## 📦 Recent releases
 
 ### [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0)
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **Behavior Changes**
 > This release changes how DBOS workflow management operations (cancel, resume, fork rewind) interact with queues. Previously, these operations would clear queue information, so the workflow was no longer associated with any queue. Now, these operations do not clear queue operations, so cancelling and resuming a workflow re-enqueues the workflow to its original queue, and rewinding or forking a workflow similarly re-enqueues it (a cancelled or otherwise terminated workflow still does not consume a queue slot until resumed and re-enqueued). You can override this behavior by passing a different queue into resume, rewind, or fork. We made this change because of consistent user feedback that the original behavior (clearing queue information) was unintuitive.
@@ -47,7 +47,7 @@
 > …
 
 ### [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0)
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > **What's Changed**
 > * Better Queue Locking by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/932
@@ -58,7 +58,7 @@
 > …
 
 ### [3.4.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.4.0)
-<sub>2026-10-28 · 20d ago</sub>
+<sub>2026-10-28 · 21d ago</sub>
 
 > **What's Changed**
 > * Poll only the status column for preemptible step cancellation by @buftio in https://github.com/dbos-inc/dbos-transact-py/pull/898
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Delete By Level (#969)](https://github.com/dbos-inc/dbos-transact-py/commit/afef3f7d396a14a14801bfc9ac865b7bdbff996e) | kraftp |
 | 2026-11-17 | [Batch Async Result Polling (#962)](https://github.com/dbos-inc/dbos-transact-py/commit/9924fe6b6018f08304341d100adeb60c42712808) | oleksii-tumanov |
 | 2026-11-16 | [Keep retrying a step once its backoff passes the float range (#960)](https://github.com/dbos-inc/dbos-transact-py/commit/2cf279cf380152b426ecd451d573ccc41f5715a6) | shanurwan |
 | 2026-11-13 | [Make DBOS.migrate() fail loudly on a migration lock timeout (#958)](https://github.com/dbos-inc/dbos-transact-py/commit/81aa7eea4e5b36a7aa5fce26a61cb4ff75712e9f) | ApparentlyTejas |
@@ -103,7 +104,6 @@
 | 2026-11-12 | [fix(serialization): restore Optional dates and Decimal in portable wo…](https://github.com/dbos-inc/dbos-transact-py/commit/a3da1f2f8deef97a3ea752df231520cbcaf48a5d) | ravismash |
 | 2026-11-12 | [Consistently Make DBOS Methods Durable Steps (#955)](https://github.com/dbos-inc/dbos-transact-py/commit/160dc86d84646c33d9457c34f3d0866961748eac) | kraftp |
 | 2026-11-11 | [DBOS.recover_workflows (#951)](https://github.com/dbos-inc/dbos-transact-py/commit/7a3c5209922c493b822c1c130b507a2af7d31ba6) | kraftp |
-| 2026-11-10 | [Timestamp Workflows from Statement Time (#950)](https://github.com/dbos-inc/dbos-transact-py/commit/9c807ec7bf2d00e33a862ed3c18c4e0811ff7ae8) | kraftp |
 
 [See all commits ↗](https://github.com/dbos-inc/dbos-transact-py/commits)
 

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 564 |
 | 🍴 **Forks** | 61 |
-| 🐞 **Open issues + PRs** | [28](https://github.com/pizza-bot-app/pizza-bot/issues) |
+| 🐞 **Open issues + PRs** | [26](https://github.com/pizza-bot-app/pizza-bot/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 5% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` |
-| 🕒 **Last activity** | 2026-11-13 (4d ago) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-06-26 |
 | 📦 **Latest release** | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — Pizza Bot OSS 1.3.0
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > **Highlights**
 > - **Opper provider.** You can use [Opper](https://opper.ai/) as a model provider. Thanks to @Felixkw12 for their first contribution! (#155)
@@ -83,16 +83,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [chore(deps): bump langgraphjs stack and drop obsolete rejection drain…](https://github.com/pizza-bot-app/pizza-bot/commit/28388afa1dc9e80c4f74b4351f6a95d5c54f90fc) | JoeDo |
+| 2026-11-19 | [fix(plugin-sdk): keep Playwright browser text reads inline (#185)](https://github.com/pizza-bot-app/pizza-bot/commit/339641b9f2c9a7392ed66c7846a54831e205dde6) | CobraA1 |
+| 2026-11-19 | [chore(deps): bump @hono/node-server from 2.1.3 to 2.1.9 in /plugins (…](https://github.com/pizza-bot-app/pizza-bot/commit/5e55c9850c343728c9a6028abeddbf312ca6b41d) | dependabot[bot] |
+| 2026-11-19 | [chore(deps): bump hono from 4.13.13 to 4.13.19 in /plugins (#195)](https://github.com/pizza-bot-app/pizza-bot/commit/3588a5cfab48705f5c66f7fcf30425cc4f7ebef6) | dependabot[bot] |
+| 2026-11-19 | [feat(google-workspace): credentials for headless and container backen…](https://github.com/pizza-bot-app/pizza-bot/commit/28885a4132e36d912160b09808afad831b9c007a) | JoeDo |
 | 2026-11-10 | [chore: release v1.3.0 (#192)](https://github.com/pizza-bot-app/pizza-bot/commit/7268cf14a509c37951b58e152d6688fe326ba4a3) | JoeDo |
 | 2026-11-10 | [fix(deps): bump zod to 4.6.7 in the plugins lockfile (#191)](https://github.com/pizza-bot-app/pizza-bot/commit/d03efc44bf96b67da77f2d358118b8d503e91127) | JoeDo |
 | 2026-11-07 | [feat(ci): publish the backend image for linux/arm64 as well as amd64](https://github.com/pizza-bot-app/pizza-bot/commit/e911bb8b8f20790820d9be6a8f0ceadf5af038e3) | kdgac |
 | 2026-11-06 | [chore(deps): bump @vitest/mocker and vitest](https://github.com/pizza-bot-app/pizza-bot/commit/e50609f32d0967db83aba1d6d546111ffb2bd812) | dependabot[bot] |
 | 2026-11-06 | [chore(deps): bump hono from 4.13.10 to 4.13.16](https://github.com/pizza-bot-app/pizza-bot/commit/cf1b910ae2422b89e0a7807c992dfc7e27f363c1) | dependabot[bot] |
-| 2026-11-06 | [chore(deps): bump fast-uri from 3.1.8 to 3.1.9 in /plugins](https://github.com/pizza-bot-app/pizza-bot/commit/06db85748270d0947bf27345bdf73fdbe36c0128) | dependabot[bot] |
-| 2026-11-06 | [chore(deps): bump fast-uri from 3.1.8 to 3.1.9](https://github.com/pizza-bot-app/pizza-bot/commit/2d70375254c56d71f9f157e9170793830ac12556) | dependabot[bot] |
-| 2026-11-06 | [chore(deps): bump body-parser from 2.3.0 to 2.4.0 in /plugins](https://github.com/pizza-bot-app/pizza-bot/commit/eb8becf3809e7f49067667a373f65c386b990397) | dependabot[bot] |
-| 2026-11-06 | [chore(deps): bump ip-address from 10.7.2 to 10.7.6](https://github.com/pizza-bot-app/pizza-bot/commit/51690a99e4990b301980a1d6433c4622f439c5fc) | dependabot[bot] |
-| 2026-11-06 | [chore(deps): bump @hono/node-server from 2.1.1 to 2.1.6](https://github.com/pizza-bot-app/pizza-bot/commit/ab0f16407deb92f5bed8a7bd48f62df57aaa0dfe) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/pizza-bot-app/pizza-bot/commits)
 

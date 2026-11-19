@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 13.7k |
+| ⭐ **Stars** | 13.8k |
 | 🍴 **Forks** | 2.8k |
 | 🐞 **Open issues + PRs** | [136](https://github.com/0x4m4/hexstrike-ai/issues) |
 | 💻 **Languages** | Python 100% |

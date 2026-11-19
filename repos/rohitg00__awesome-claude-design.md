@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Living list of design skills for coding agents |
 | **Added** | 2026-11-14 |
 
-💤 **Quiet** — no activity for 6mo
+💤 **Quiet** — no activity for 7mo
 
 ## 📊 At a glance
 
@@ -26,7 +26,7 @@
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-design` `anthropic` `awesome` `awesome-list` `claude-code` `claude-design` `claude-skills` `design-md` `design-system` |
-| 🕒 **Last activity** | 2026-04-23 (6mo ago) |
+| 🕒 **Last activity** | 2026-04-23 (7mo ago) |
 | 📅 **Created** | 2026-04-19 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

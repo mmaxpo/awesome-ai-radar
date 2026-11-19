@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 151.2k |
+| ⭐ **Stars** | 151.6k |
 | 🍴 **Forks** | 16.0k |
-| 🐞 **Open issues + PRs** | [83](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
+| 🐞 **Open issues + PRs** | [84](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
 | 💻 **Languages** | Python 81% · TypeScript 8% · JavaScript 6% · HTML 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-skills` `antigravity` `claude` `claude-code` `command-line` `copilot` `cursor-ai` `html5` `kiro` `landing-page` `mobile-ui` `react` `tailwindcss` `ui-design` `uikit` `windsurf-ai` `codex` `qoder` `trae` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2025-11-30 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases/tag/v2.15.0) — 2026-08-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 8.4 MB |
+| 💾 **Size** | 8.9 MB |
 | 🌐 **Website** | https://www.uupm.cc/ |
 
 ## 📦 Recent releases
@@ -70,16 +70,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [fix(projects): precompile sample styles so they render offline (#584)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/2de1134dc4d1cfe112934611ae5803ae17a1bd7e) | vaibhav375 |
+| 2026-11-18 | [fix(gallery): correct subtitle branding and drop stale style count (#…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/0fa6f35939138cdfaa97cb375e711396bb1e43a7) | vaibhav375 |
+| 2026-11-18 | [feat: add GIS web map and Earth observation product types (#582)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/ed766d3bf62f32c8d27762ad49abdc3a4744c84f) | Khanhle19 |
 | 2026-11-18 | [feat: add web map UX guidelines (Maps category) (#581)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/f984fcd3dec8c71cf88f2b47ff8acd0ff4ca99c2) | Khanhle19 |
 | 2026-11-18 | [fix(design): keep cip scripts from crashing on a non-UTF-8 stdout (#580)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/f2cc36555984fbfb08f1dca037da2467578f33d2) | Lupin133 |
 | 2026-11-18 | [feat: add an agent-agnostic .agents plugins marketplace (#579)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd) | GamerDubz |
-| 2026-11-16 | [feat(design): add optional UberLLM logo provider (#567)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/e59ff376a41f7ca47b7541ad5c116495cbade3ee) | PSA-Team-source |
+| 2026-11-16 | [feat(design): add optional UberLLM logo provider (#567)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/e59ff376a41f7ca47b7541ad5c116495cbade3ee) | al-global-tech |
 | 2026-11-16 | [fix(gallery): open style cards from the keyboard and stop nested clic…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/902bf616a0cc590d3f89f233f0c4e00072e549f0) | d4nielantoni |
 | 2026-11-15 | [feat(design-system): export the generated design system as design tok…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/b6a79003ad2b93c174590a4143a0ddbb2e4574e2) | mvanhorn |
 | 2026-11-15 | [feat(design-system): write a self-contained preview page for the gene…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/efd98221354918762b54a5079b39554c3f546f7a) | mvanhorn |
-| 2026-11-15 | [fix: keep gallery styles in asset sync (#574)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/0e8d408204fdc66b8189960dd28cc20d71db188e) | ChoYugyeong |
-| 2026-11-15 | [fix: assemble the IME test reference path from components (#575)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/1f50119f717e935f135d605ce537223d1d7a0dac) | ChoYugyeong |
-| 2026-11-14 | [fix(cli): match dry-run sub-skill copies to installs (#571)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/d643997c82e94742dd3bee43210b0198e8bbba3d) | ChoYugyeong |
 
 [See all commits ↗](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commits)
 

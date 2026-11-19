@@ -20,26 +20,34 @@
 |---|---|
 | ⭐ **Stars** | 3.0k |
 | 🍴 **Forks** | 408 |
-| 🐞 **Open issues + PRs** | [82](https://github.com/Biohub/esm/issues) |
-| 💻 **Languages** | Jupyter Notebook 57% · Python 43% |
+| 🐞 **Open issues + PRs** | [81](https://github.com/Biohub/esm/issues) |
+| 💻 **Languages** | Jupyter Notebook 55% · Python 44% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
 | 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2024-06-25 |
-| 📦 **Latest release** | [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3) — 2026-11-09 |
+| 📦 **Latest release** | [v3.5.0](https://github.com/Biohub/esm/releases/tag/v3.5.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 11.2 MB |
 
 ## 📦 Recent releases
 
+### [v3.5.0](https://github.com/Biohub/esm/releases/tag/v3.5.0)
+<sub>2026-11-18 · today</sub>
+
+> * Improvement of "fused" mode which is now 2X+ faster than baseline
+> * Introduced "fast" mode which is ~7X faster than baseline
+> * Introduced "big" mode supporting longer sequences on one or multiple GPUs. On 4 H100 you can now fold 12k AA sequences
+> * Various small fixes
+
 ### [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3)
-<sub>2026-11-09 · 8d ago</sub>
+<sub>2026-11-09 · 9d ago</sub>
 
 > * bug fixes
 > * bump transformers version to >= 5.16
 
 ### [v3.4.2](https://github.com/Biohub/esm/releases/tag/v3.4.2)
-<sub>2026-10-30 · 19d ago</sub>
+<sub>2026-10-30 · 20d ago</sub>
 
 > - Added the Batch API (`ForgeBatchClient`) for folding, plus max-accuracy folding with ESMFold2 Pro (see `cookbook/snippets/batch.md` and `cookbook/snippets/fold_max_accuracy.md`)
 > - Released the 2025-cutoff ESMFold2 model
@@ -67,20 +75,11 @@
 > - Added support for loading HF-style checkpoints (ESMFold2)
 > - Various minor bug-fixes
 
-### [v3.4.0](https://github.com/Biohub/esm/releases/tag/v3.4.0)
-<sub>2026-08-27 · 2mo ago</sub>
-
-> - Added full support for ESMC and ESMFold2
-> - Added test suite for both ESMC and ESMFold2
-> - Added compatibility layer for huggingface port of ESMC and ESMFold2
-> - Maintained back compatibility with legacy models such as ESMC and support legacy model weights. ESMC now runs in emulation.
-> - Github actions for issue management
-> - Other smaller changes
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Sync OSS esm 3.5.0 (#432)](https://github.com/Biohub/esm/commit/42fc6babbfe499aeb42beaba232376d4e811bd71) | faustomilletari |
 | 2026-11-09 | [Bump version to 3.4.3 (#428)](https://github.com/Biohub/esm/commit/fddac936fc921445da2d099a3e4f7ae928717292) | faustomilletari |
 | 2026-11-06 | [Various improvements 2026-11-06 (#427)](https://github.com/Biohub/esm/commit/90d6497a546bb55929c2d3ca2e313d4613ec1922) | faustomilletari |
 | 2026-10-29 | [Sync OSS esm 3.4.2 (#426)](https://github.com/Biohub/esm/commit/8f0834cbc350aeaf507f755475873f7c61fa44a1) | ebetica |
@@ -90,7 +89,6 @@
 | 2026-08-27 | [Make v3.4.0 publishable to PyPI (#390)](https://github.com/Biohub/esm/commit/827ec128e4cdaf80f7d6f95fb367a08980b34918) | ebetica |
 | 2026-08-27 | [Remove mentions of installing from main (#389)](https://github.com/Biohub/esm/commit/912e9fcab19d266c4513aee98483a73571d85362) | ebetica |
 | 2026-08-27 | [sync 20260825 (#386)](https://github.com/Biohub/esm/commit/ab44d95db38db90c584f18433462c5213338c118) | faustomilletari |
-| 2026-08-24 | [esmfold2 notebook sync (#383)](https://github.com/Biohub/esm/commit/43ccece2ad485f27db46afdb67da2a9601e8f106) | imathur1 |
 
 [See all commits ↗](https://github.com/Biohub/esm/commits)
 

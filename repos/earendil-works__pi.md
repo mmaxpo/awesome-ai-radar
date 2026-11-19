@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 122.7k |
-| 🍴 **Forks** | 15.8k |
-| 🐞 **Open issues + PRs** | [260](https://github.com/earendil-works/pi/issues) |
+| ⭐ **Stars** | 122.9k |
+| 🍴 **Forks** | 15.9k |
+| 🐞 **Open issues + PRs** | [271](https://github.com/earendil-works/pi/issues) |
 | 💻 **Languages** | TypeScript 87% · HTML 10% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2025-08-09 |
 | 📦 **Latest release** | [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 110.8 MB |
+| 💾 **Size** | 111.3 MB |
 
 ## 📦 Recent releases
 
 ### [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2)
-<sub>2026-11-10 · 8d ago</sub>
+<sub>2026-11-10 · 9d ago</sub>
 
 > **New Features**
 > - **Fork sessions whose folder is gone**: when a session's original folder was moved or deleted, you can now fork it into the current folder instead of only continuing, so later resumes no longer ask. See [Continue or switch sessions](https://github.com/earendil-works/pi/blob/v1.5.2/packages/coding-agent/docs/sessions.md#continue-or-switch-sessions).
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.5.1](https://github.com/earendil-works/pi/releases/tag/v1.5.1)
-<sub>2026-11-09 · 8d ago</sub>
+<sub>2026-11-09 · 9d ago</sub>
 
 > **New Features**
 > - **Shell login and logout**: use `pi auth login <provider>` and `pi auth logout <provider>` without starting a session, with API-key and no-browser sign-in options. See [Credential commands](https://github.com/earendil-works/pi/blob/v1.5.1/packages/coding-agent/docs/cli.md#credential-commands).
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.5.0](https://github.com/earendil-works/pi/releases/tag/v1.5.0)
-<sub>2026-11-02 · 16d ago</sub>
+<sub>2026-11-02 · 17d ago</sub>
 
 > **New Features**
 > - **Extension update changelogs**: see what changed in installed extension packages on the next fresh launch after an update. Package authors can choose the changelog path, and `collapseChangelog` condenses the notices. See [Show a changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/coding-agent/docs/packages.md#show-a-changelog).
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.4.0](https://github.com/earendil-works/pi/releases/tag/v1.4.0)
-<sub>2026-10-21 · 27d ago</sub>
+<sub>2026-10-21 · 28d ago</sub>
 
 > **New Features**
 > - **Image input for classifiers**: codemode `models.classify()` accepts `images` for TypeSafe's Jev and Cloudflare's Clef models on `typesafe`, `cloudflare-workers-ai`, and OpenRouter. See [Use classifier models](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/models.md#use-classifier-models) and [Codemode](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/codemode.md#models).
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [docs(p3): decision: base entries live in src/bootstrap](https://github.com/earendil-works/pi/commit/ff8721f178fbb5c7ed560ed5c6ba254c5ed425e4) | badlogic |
-| 2026-11-18 | [feat(p2-mac): script to set the nightly's signing secrets without pri…](https://github.com/earendil-works/pi/commit/f6d0c2f9b6ffbcb00c5da52e7e88570539c78bde) | mitsuhiko |
-| 2026-11-18 | [feat(p2-mac): nightly builds with bundled p2 and Node, updated throug…](https://github.com/earendil-works/pi/commit/51abb2d7258fd44c6a2ccadb0a6202a41081920e) | mitsuhiko |
-| 2026-11-18 | [feat(p2): rebuild the sidebar as status/name/detail items grouped by …](https://github.com/earendil-works/pi/commit/efd284ecca3788ca1345fdcc927a1f97e7ceeeaf) | christianklotz |
-| 2026-11-18 | [docs(p3): decision: p3 likely ships as a single executable](https://github.com/earendil-works/pi/commit/05fd3fbda0bbb9a1c7a76e4bf92ab58ed77c8d94) | badlogic |
-| 2026-11-17 | [fix(ai): use Codex's context windows for GPT-6.2 (500K Sol, 272K Astra)](https://github.com/earendil-works/pi/commit/cead615b48b80d1c61eecab2f0b576d16eeaf4c5) | mitsuhiko |
-| 2026-11-17 | [feat(ai,coding-agent): add GPT-6.2 Astra and GPT-6.2 Sol](https://github.com/earendil-works/pi/commit/e56d35ce5eceedfa16eaf13a5f01a1f7b7271253) | mitsuhiko |
-| 2026-11-17 | [fix(p2): adapt the TUI to pi-tui's cached, read-only render output](https://github.com/earendil-works/pi/commit/ecb86002fe3f3cf5bd7ad30eb5c4f722e9c8c6c0) | mitsuhiko |
-| 2026-11-17 | [fix(p2-mac): renew a remote Pi's view cookie while its page is open](https://github.com/earendil-works/pi/commit/635952742b0ea6ec17a9e229e531590460873727) | mitsuhiko |
-| 2026-11-17 | [fix(p2): let a top-level navigation open a relayed image or file](https://github.com/earendil-works/pi/commit/9534ecad5cf5c28565120c1a371eadd50bbeec0f) | mitsuhiko |
+| 2026-11-19 | [feat(p2): a session's sidebar status shows working while any of its c…](https://github.com/earendil-works/pi/commit/653f332b6fe22e2e927dd3d553d20234a3de27f0) | mitsuhiko |
+| 2026-11-19 | [feat(p2): show running subagents above the main conversation's composer](https://github.com/earendil-works/pi/commit/e42343cb55a52c770521cdbb83862d97bf9a7e6e) | mitsuhiko |
+| 2026-11-19 | [fix(p2): expanding a project without sessions only turns its chevron](https://github.com/earendil-works/pi/commit/402dc19beda05291267b8a7e0d6b5a66466eece6) | christianklotz |
+| 2026-11-19 | [docs(p3): slices 8 and 10: what to build for worker memory with envir…](https://github.com/earendil-works/pi/commit/858357fe555e90cee09057cf843e001f63fbe56d) | badlogic |
+| 2026-11-19 | [docs(p2): handoff describes the phone's runit services and deploy, sl…](https://github.com/earendil-works/pi/commit/0ffa64e2f6ec74f1e18a9a4f1b64e8c97f49b745) | badlogic |
+| 2026-11-18 | [feat(p2): projects as owner-defined groups, a new location picker, si…](https://github.com/earendil-works/pi/commit/5a14e69c067d40dfbff4f2fff7d3b34c897e2dc9) | badlogic |
+| 2026-11-18 | [feat(p3): require Node 26.3.1 or newer; find worker processes without…](https://github.com/earendil-works/pi/commit/f94add25e898620aef47a67a9660f904aac4ee3e) | badlogic |
+| 2026-11-18 | [docs(p3): decision: the terminal sandbox accepts p3's minimum Node; s…](https://github.com/earendil-works/pi/commit/387ebc40f48254a1ba4b8baacdbbd98a8e05d0cb) | badlogic |
+| 2026-11-18 | [docs(p3): decision: Node 26 or newer everywhere](https://github.com/earendil-works/pi/commit/c870614fdcb510c22e78fc18bdfea3910d94f149) | badlogic |
+| 2026-11-18 | [docs(p3): decision: p3 ships with its own Node](https://github.com/earendil-works/pi/commit/687913451b5b1a60518989421566f36e8188c076) | badlogic |
 
 [See all commits ↗](https://github.com/earendil-works/pi/commits)
 

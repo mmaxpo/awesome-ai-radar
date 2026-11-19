@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.4k |
-| 🍴 **Forks** | 476 |
+| 🍴 **Forks** | 477 |
 | 🐞 **Open issues + PRs** | [348](https://github.com/lmstudio-ai/lms/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llm` `lmstudio` `nodejs` `typescript` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-17 (yesterday) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

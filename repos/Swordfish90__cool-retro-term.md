@@ -40,12 +40,12 @@
 > * Some smaller fixes
 
 ### [rolling](https://github.com/Swordfish90/cool-retro-term/releases/tag/rolling) — Rolling Release _(pre-release)_
-<sub>2026-01-22 · 9mo ago</sub>
+<sub>2026-01-22 · 10mo ago</sub>
 
 > _No notes._
 
 ### [2.0.0-beta1](https://github.com/Swordfish90/cool-retro-term/releases/tag/2.0.0-beta1)
-<sub>2026-01-22 · 9mo ago</sub>
+<sub>2026-01-22 · 10mo ago</sub>
 
 > * Migrate to Qt6
 > * Add support for multiple tabs and windows

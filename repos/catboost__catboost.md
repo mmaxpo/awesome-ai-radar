@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 9.2k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [759](https://github.com/catboost/catboost/issues) |
+| 🐞 **Open issues + PRs** | [760](https://github.com/catboost/catboost/issues) |
 | 💻 **Languages** | C++ 78% · Python 11% · Cuda 3% · CMake 3% · Scala 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `decision-trees` `gradient-boosting` `gbm` `gbdt` `python` `r` `kaggle` `gpu-computing` `catboost` `tutorial` `categorical-features` `gpu` `coreml` `data-science` `big-data` `cuda` `data-mining` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [node-package-v1.27.0](https://github.com/catboost/catboost/releases/tag/node-package-v1.27.0) — Node package release 1.27.0 
-<sub>2026-02-21 · 8mo ago</sub>
+<sub>2026-02-21 · 9mo ago</sub>
 
 > (uses `catboostmodel` native libraries from the main CatBoost release v1.2.10)
 > * Fix prediction of type `Probability` on CPUs that do not have SSE4 instruction set (that includes all ARM CPUs).
@@ -90,6 +90,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [. Microsoft Visual Studio 2019 C++ build tools versions v14.28 - 16.x…](https://github.com/catboost/catboost/commit/40cbf3862e623b28d72e7b2f33fc6346f5972d76) | andrey-khropov |
+| 2026-11-18 | [Intermediate changes](https://github.com/catboost/catboost/commit/8ca2402e60bcd5f5833a1f2f3767b8b2412a9f42) | robot-piglet |
+| 2026-11-18 | [StringSplitter: add unittest with split by C-string](https://github.com/catboost/catboost/commit/6a4c439b17c99a4f65aa7fa043fa151e675ca341) | ubyte |
 | 2026-11-18 | [preserve directory entries in javac daemon JARs](https://github.com/catboost/catboost/commit/c483c0e2bd63912b3420a58892df0bfb1574352a) | IlyaNiklyaev |
 | 2026-11-17 | [fix javac daemon JDK isolation in Larry](https://github.com/catboost/catboost/commit/5c40b22e4a2ad31bfd5d4b9f373798a5c3675025) | IlyaNiklyaev |
 | 2026-11-17 | [Document the AUC value when there are no pairs to compare](https://github.com/catboost/catboost/commit/190631e1096afdc5c01ad3ed6ad2d8aabe36f86e) | gopain185 |
@@ -97,9 +100,6 @@
 | 2026-11-17 | [Intermediate changes](https://github.com/catboost/catboost/commit/c732045504234f781c377165b66264c41a48e947) | robot-piglet |
 | 2026-11-17 | [Package self-contained Python 3 Cython tool](https://github.com/catboost/catboost/commit/cc0ce40bee61db190a9d1ebc67d442ad5d89862c) | dimdim1177 |
 | 2026-11-17 | [Package self-contained Python 2 Cython tool](https://github.com/catboost/catboost/commit/1c963ad239c0a80a466a1ef52e6d5cb4a3aae547) | dimdim1177 |
-| 2026-11-16 | [Speed up TSkipList::Insert](https://github.com/catboost/catboost/commit/83bd0112346c984be183c48bf619a29ef5ecc75e) | ubyte |
-| 2026-11-16 | [Intermediate changes](https://github.com/catboost/catboost/commit/7950bba2f542c512da305bae59505c49cc9a29c2) | robot-piglet |
-| 2026-11-16 | [Add onnx_export_ut to test sources.. #863](https://github.com/catboost/catboost/commit/6907c86e6ad2e7af4e85c719b31c99b03b0bf5c0) | andrey-khropov |
 
 [See all commits ↗](https://github.com/catboost/catboost/commits)
 

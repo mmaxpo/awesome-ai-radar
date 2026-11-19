@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 118.8k |
+| ⭐ **Stars** | 119.1k |
 | 🍴 **Forks** | 12.4k |
-| 🐞 **Open issues + PRs** | [133](https://github.com/addyosmani/agent-skills/issues) |
+| 🐞 **Open issues + PRs** | [119](https://github.com/addyosmani/agent-skills/issues) |
 | 💻 **Languages** | JavaScript 76% · Shell 22% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `antigravity` `claude-code` `cursor` `skills` `codex` |
-| 🕒 **Last activity** | 2026-11-14 (4d ago) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2026-02-15 |
-| 📦 **Latest release** | [0.6.16](https://github.com/addyosmani/agent-skills/releases/tag/0.6.16) — 2026-11-14 |
+| 📦 **Latest release** | [0.6.17](https://github.com/addyosmani/agent-skills/releases/tag/0.6.17) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1.9 MB |
+| 💾 **Size** | 2.0 MB |
 | 🌐 **Website** | https://skills.addy.ie |
 
 ## 📦 Recent releases
 
+### [0.6.17](https://github.com/addyosmani/agent-skills/releases/tag/0.6.17) — Agent Skills 0.6.17
+<sub>2026-11-18 · today</sub>
+
+> Agent Skills 0.6.17 adds an accessibility-engineering skill for auditing and fixing WCAG 2.2 AA issues, fixes a rollback workflow that could never log in, and lets you regrade eval runs without paying for them again.
+> **New skill**
+> - **accessibility-engineering** (#261, @Chukwuebuka-2003, reviewed by @nucliweb). Audits an existing interface with pinned axe-core and pa11y, triages the findings, and walks through the manual keyboard and screen reader checks the tools can't do. It ships an `accessibility-auditor` persona, an `/a11y` command, and an audit script that fails a partial run instead of reporting zero violations. Building new UI stays with frontend-ui-engineering. The shared accessibility checklist now targets WCAG 2.2 AA and matches the skill.
+> **Fixes**
+> - **Rollback can log in** (#799, @divya0795). The ci-cd-and-automation rollback workflow ran `vercel rollback` on a runner with no Vercel login, so it failed exactly when needed. It now passes the token, like the preview step already did.
+> - **Review evidence from the right tree** (#795, @TanmayShah29, reported by @Scroller251-cloud in #788). code-review-and-quality checks that the checkout is clean and on the reviewed ref before running tests or probes, since a working copy can hold another session's edits.
+> …
+
 ### [0.6.16](https://github.com/addyosmani/agent-skills/releases/tag/0.6.16) — Agent Skills 0.6.16
-<sub>2026-11-14 · 4d ago</sub>
+<sub>2026-11-14 · 5d ago</sub>
 
 > Agent Skills 0.6.16 lets specs evolve past V1, teaches the docs skill to spot drift, stops the frontend skill from installing toolchains just to verify, and fixes two quality-gate examples that could never fail.
 > **Skills**
@@ -47,7 +58,7 @@
 > …
 
 ### [0.6.15](https://github.com/addyosmani/agent-skills/releases/tag/0.6.15) — Agent Skills 0.6.15
-<sub>2026-10-31 · 18d ago</sub>
+<sub>2026-10-31 · 19d ago</sub>
 
 > Agent Skills 0.6.15 stops the security skill's staged-secret check from printing the secret it finds, fixes two simplify-ignore bugs that could corrupt protected code, and makes the constraints skill's security and accessibility gates actually fail CI.
 > **Security**
@@ -58,7 +69,7 @@
 > …
 
 ### [0.6.14](https://github.com/addyosmani/agent-skills/releases/tag/0.6.14) — Agent Skills 0.6.14
-<sub>2026-10-29 · 20d ago</sub>
+<sub>2026-10-29 · 21d ago</sub>
 
 > Agent Skills 0.6.14 is mostly about code samples. More than twenty snippets across the skills either failed as written or taught the wrong thing, and they're fixed. It also closes two supply-chain and injection risks in the samples, stops Claude Code from starting `/ship` or `/build` on its own, and brings the root manifest in line with Agent Plugins 1.0.0.
 > **Security fixes in the samples**
@@ -79,31 +90,20 @@
 > - **`/review` and `/test` are documented as what they are** (#682, reported by @sundeer in #681). They run their skill in the main session; they do not spawn the `code-reviewer` or `test-engineer` personas, whatever the docs said. The review commands now ask for the same severity labels the skill uses (Critical, Required, Optional, Nit).
 > …
 
-### [0.6.12](https://github.com/addyosmani/agent-skills/releases/tag/0.6.12) — Agent Skills 0.6.12
-<sub>2026-10-03 · 1mo ago</sub>
-
-> Agent Skills 0.6.12 is mostly about skills saying the right thing. It fixes a spec workflow that ran past its own approval gate, removes a command that does not exist and a code sample that does not parse, and slims performance-optimization the same way 0.6.11 slimmed security-and-hardening.
-> **Skill fixes**
-> - **spec-driven-development stops after the spec** (#629, @nucliweb, fixes #622). On hosts that load only the skill, some models ran Specify, Plan, Tasks and Implement in one turn, because the explicit "confirm before proceeding" step lived only in the `/spec` command. The skill now ends the turn after saving the spec and waits for approval, the same fix #497 made for interview-me.
-> - **No more invented rollback command** (#628, @jsynowiec). The shipping-and-launch checklist told you to run `npx prisma migrate rollback`, which Prisma does not have. It now asks for your project's verified rollback command or runbook, whatever migration tool you use.
-> - **The idempotency example parses** (#627, @jsynowiec). A bare `throw;` in api-and-interface-design is a syntax error in JavaScript; it now rethrows the caught error.
-> - **performance-optimization is slimmer** (#580, @Syamsuddin, with fixes from @nucliweb's review). Step 3's code patterns moved into a skill-local `references/optimization-patterns.md`, taking SKILL.md from 496 to 267 lines. The condensed summary keeps the guidance that matters without opening the reference: when an index will not help and what to do instead (partial, trigram or expression indexes), that a bad `rows=` estimate means `ANALYZE` rather than a new index, and stating a cache's staleness window.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [chore(release): bump plugin manifests to 0.6.16](https://github.com/addyosmani/agent-skills/commit/39b723ceebf81474d0557c1fecd01eddab585563) | r2 |
-| 2026-11-14 | [Merge #757: fire debugging on pasted diffs and stack traces](https://github.com/addyosmani/agent-skills/commit/8322e1ce0451481ac9f10cdaf33c2235533ee459) | addyosmani |
-| 2026-11-14 | [Merge remote-tracking branch 'origin/main' into pr757](https://github.com/addyosmani/agent-skills/commit/3de865b744d0584c319cc1d6edc73efbc4ccff79) | addyosmani |
-| 2026-11-14 | [Merge #763: say the review may look quick from reading the diff](https://github.com/addyosmani/agent-skills/commit/dee5781ef80d5b84cf724f858d2cc20f61e7cfc8) | addyosmani |
-| 2026-11-14 | [Merge remote-tracking branch 'origin/main' into pr757](https://github.com/addyosmani/agent-skills/commit/7d90e74db41af477a476ea5c1dc93779e3a2a157) | addyosmani |
-| 2026-11-14 | [Merge remote-tracking branch 'origin/main' into pr763](https://github.com/addyosmani/agent-skills/commit/8110c7ad876b8c5f3e9b391efe44f8d50bbf04b3) | addyosmani |
-| 2026-11-14 | [Merge #762: re-tune the TDD pasted-code clause for the current router](https://github.com/addyosmani/agent-skills/commit/970d8d3df49279e85ac34fc1ce67b881225717fd) | addyosmani |
-| 2026-11-14 | [Merge #383: spec evolution guidance, V1 scoping and delta specs](https://github.com/addyosmani/agent-skills/commit/a8e88e1402ceacd9414d6b4be0f3b3b50f1d51f6) | addyosmani |
-| 2026-11-14 | [Merge #744: stage skill resources outside the fixture baseline](https://github.com/addyosmani/agent-skills/commit/a8bb8d46da6a4cf3557b33f95c04344d3885c7f3) | addyosmani |
-| 2026-11-14 | [Merge #778: run the hook suites on macOS stock bash](https://github.com/addyosmani/agent-skills/commit/e982f644895e91163ad8545225bb3a821b53784c) | addyosmani |
+| 2026-11-18 | [chore(release): bump plugin manifests to 0.6.17](https://github.com/addyosmani/agent-skills/commit/8c99fa36d90068c82d547f7c12a9d67a3e95f4ee) | r2 |
+| 2026-11-18 | [Merge #261: add accessibility-engineering skill](https://github.com/addyosmani/agent-skills/commit/222bf920f0d3ac8ce9badf51cd7c60709050c1e0) | addyosmani |
+| 2026-11-18 | [Merge #667: record behavioral runs for historical regrading](https://github.com/addyosmani/agent-skills/commit/18336b6e6c24ebed8e26e4959c4cccab8b69042f) | addyosmani |
+| 2026-11-18 | [Merge #795: check the checkout is clean and on the reviewed ref](https://github.com/addyosmani/agent-skills/commit/45a9831738039b4cf7da3584aa71be150e089dda) | addyosmani |
+| 2026-11-18 | [Merge #797: save capability map and module specs under spec/](https://github.com/addyosmani/agent-skills/commit/d7fd10362675f8829b78e5e031fd57e6e9e9cae7) | addyosmani |
+| 2026-11-18 | [Merge #798: make the Gemini subagent example loadable](https://github.com/addyosmani/agent-skills/commit/49d7b464f38c585449f12414008b40904986976f) | addyosmani |
+| 2026-11-18 | [Merge #799: give the rollback workflow a Vercel token](https://github.com/addyosmani/agent-skills/commit/9a69de588142a63c726b347d31a918d415a91fce) | addyosmani |
+| 2026-11-16 | [fix(a11y): match main's command frontmatter and pack-level persona path](https://github.com/addyosmani/agent-skills/commit/f9e7e19210afb70c621489a9fc80651ce6d7fc8c) | Chukwuebuka-2003 |
+| 2026-11-16 | [fix(review): address maintainer accessibility feedback](https://github.com/addyosmani/agent-skills/commit/3b79b0ce438e944fab594b143f20f64b6093562d) | Chukwuebuka-2003 |
+| 2026-11-16 | [fix(review): address the second-round review on #261](https://github.com/addyosmani/agent-skills/commit/0094fdbd5ebb15ec9243a94e43e7224edbae52de) | Chukwuebuka-2003 |
 
 [See all commits ↗](https://github.com/addyosmani/agent-skills/commits)
 

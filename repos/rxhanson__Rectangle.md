@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.3k |
 | 🍴 **Forks** | 1.0k |
-| 🐞 **Open issues + PRs** | [62](https://github.com/rxhanson/Rectangle/issues) |
+| 🐞 **Open issues + PRs** | [63](https://github.com/rxhanson/Rectangle/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-16 (yesterday) |
+| 🕒 **Last activity** | 2026-11-16 (2d ago) |
 | 📅 **Created** | 2019-06-21 |
 | 📦 **Latest release** | [v2.0.4](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.4) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.4](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.4)
-<sub>2026-10-20 · 28d ago</sub>
+<sub>2026-10-20 · 29d ago</sub>
 
 > **What's Changed**
 > * Keep snap previews translucent with Reduce Transparency by @kiteretsu903 in https://github.com/rxhanson/Rectangle/pull/1898

@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.5k |
-| 🍴 **Forks** | 106 |
+| 🍴 **Forks** | 107 |
 | 🐞 **Open issues + PRs** | [72](https://github.com/RandomNinjaAtk/arr-scripts/issues) |
 | 💻 **Languages** | Shell 95% · Python 5% |
 | 📜 **License** | GPL-3.0 |

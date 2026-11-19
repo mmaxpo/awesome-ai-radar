@@ -14,7 +14,7 @@
 | **Why it's worth a look** | AlphaFold 2: predicts 3D protein structures (Nobel-winning work) |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 6mo
+💤 **Quiet** — no activity for 7mo
 
 ## 📊 At a glance
 
@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 97% · Shell 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-04-22 (6mo ago) |
+| 🕒 **Last activity** | 2026-04-22 (7mo ago) |
 | 📅 **Created** | 2021-06-17 |
 | 📦 **Latest release** | [v2.3.2](https://github.com/google-deepmind/alphafold/releases/tag/v2.3.2) — 2023-04-05 |
 | 🌿 **Default branch** | `main` |

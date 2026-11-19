@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 89% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v4.7.0b2](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b2) _(pre-release)_
-<sub>2026-11-16 · yesterday</sub>
+<sub>2026-11-16 · 2d ago</sub>
 
 > **4.7.0b2**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b1...7e75a1f85fb7ee7f07c7301f7c4f69c1fb7d7618))
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.7.0b1](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b1) _(pre-release)_
-<sub>2026-11-06 · 11d ago</sub>
+<sub>2026-11-06 · 12d ago</sub>
 
 > **4.7.0b1**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b0...ca6210d371e287beb3735824a931824cc0048125))
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6)
-<sub>2026-11-06 · 11d ago</sub>
+<sub>2026-11-06 · 13d ago</sub>
 
 > **4.6.6**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.5...a5eab3ae655dd8cea81618efc936e110d3b22037))
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.6.5](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.5)
-<sub>2026-10-29 · 19d ago</sub>
+<sub>2026-10-29 · 20d ago</sub>
 
 > **4.6.5**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.4...9f5590d07b9a63402a628fe758654f30ee59c2e4))
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 20d ago</sub>
+<sub>2026-10-28 · 21d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Bump xterm.js to 6.1.0 beta to fix Option key on macOS (#20033)](https://github.com/jupyterlab/jupyterlab/commit/d9b9ce566e2e35135f886a1ea812baaafd488c14) | Darshan808 |
+| 2026-11-18 | [Fix untranslated "Find..." in the JSON file viewer (#20542)](https://github.com/jupyterlab/jupyterlab/commit/0d5e83530197cee73b15a11d2c2c29b168db6065) | krassowski |
+| 2026-11-18 | [Fix passing sanitizer options to the completer in consoles (#20535)](https://github.com/jupyterlab/jupyterlab/commit/e2dcd573775358e0db355b8adc5d3f718c13cf31) | krassowski |
 | 2026-11-18 | [Remove unnecessary left alignment of LaTeX outputs (#16967)](https://github.com/jupyterlab/jupyterlab/commit/a1547b980d4dadf61c201ccc183f72f1c9fad41c) | mgeier |
 | 2026-11-17 | [Fetch latest extension versions concurrently in Extension Manager (#1…](https://github.com/jupyterlab/jupyterlab/commit/8f3ff648c93852298bf202ae3d2d6b6ee18a59eb) | Yash990-bit |
 | 2026-11-17 | [Improve licence metadata (PEP 639) (#19461)](https://github.com/jupyterlab/jupyterlab/commit/617424813d354875df90dc7bf93bad891755e403) | mwtoews |
@@ -101,9 +104,6 @@
 | 2026-11-17 | [Add dialog when toggling Show All Kernel Activity on (#20326)](https://github.com/jupyterlab/jupyterlab/commit/285087bb6852b06c0ce087e6d1a49e8a805aacaa) | Carreau |
 | 2026-11-17 | [Bump `jupyter-builder` to v1.3.0 (#20522)](https://github.com/jupyterlab/jupyterlab/commit/46d7c5d37adc9249baf767d3484674485b7a2e61) | Darshan808 |
 | 2026-11-17 | [Bump `@jupyter/eslint-plugin` to 1.5.0 (#20521)](https://github.com/jupyterlab/jupyterlab/commit/d2801ea64904a5f5984def16fbaa9ace34c39995) | Darshan808 |
-| 2026-11-17 | [Fix scrolling up skipping cells with long printed output or traceback…](https://github.com/jupyterlab/jupyterlab/commit/fb21ae758c4bfe6f361d6b2d99b3a25b03532a28) | boris324 |
-| 2026-11-17 | [Test "Last Modified" date styles across file browser widths (#19255)](https://github.com/jupyterlab/jupyterlab/commit/ed7706b0f133b0b980c54b4a76968a51d8ffacc8) | aryansk |
-| 2026-11-16 | [Document non-null assertion guidelines (#20512)](https://github.com/jupyterlab/jupyterlab/commit/b3501347500dcad61e9abfa294c8a4699fbed13a) | 14-himanshu |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

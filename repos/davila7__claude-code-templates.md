@@ -21,17 +21,17 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 34.0k |
-| 🍴 **Forks** | 4.0k |
-| 🐞 **Open issues + PRs** | [539](https://github.com/davila7/claude-code-templates/issues) |
+| 🍴 **Forks** | 4.1k |
+| 🐞 **Open issues + PRs** | [549](https://github.com/davila7/claude-code-templates/issues) |
 | 💻 **Languages** | Python 40% · TypeScript 21% · HTML 12% · JavaScript 11% · TeX 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `claude` `claude-code` `agent-skills` `ai-agents` `claude-code-plugins` `cli` `mcp` `registry` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 297.8 MB |
-| 🌐 **Website** | https://aitmpl.com |
+| 💾 **Size** | 307.2 MB |
+| 🌐 **Website** | https://www.aitmpl.com |
 
 ## 📦 Recent releases
 
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/816626c8d07b29d345f9f364f2162c1dcd33291b) | github-actions[bot] |
-| 2026-11-18 | [Rewrite supabase-schema-architect agent around Supabase's security mo…](https://github.com/davila7/claude-code-templates/commit/80472cba7589fd7d7d6cbbdc09ff62e7a1314eab) | davila7 |
-| 2026-11-18 | [feat(sponsors): count placement impressions and clicks, add a sponsor…](https://github.com/davila7/claude-code-templates/commit/63e7a6108d08cca2ccef94e480103fde03c5bbd0) | davila7 |
-| 2026-11-18 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/8634845c7c32a7c9726d4a67d41ba3b60ca77111) | github-actions[bot] |
-| 2026-11-17 | [Remove Hotjar from the blog and the legacy docs site (#1606)](https://github.com/davila7/claude-code-templates/commit/5e5cc3db7f9fb71bc2316417293cc2fc778ce482) | davila7 |
-| 2026-11-17 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/ce1cbd39fc3abfdcbfc49bddd1009fd8236b1268) | github-actions[bot] |
-| 2026-11-17 | [Rewrite api-security-audit agent: endpoint map, OWASP API Top 10 2023…](https://github.com/davila7/claude-code-templates/commit/291762626caaaa180186dcc387211b9e1f3d2bba) | davila7 |
-| 2026-11-17 | [mcp: make tool descriptions purely descriptive (#1596)](https://github.com/davila7/claude-code-templates/commit/a70d5f836e2474f97ef3509a1fc3633fc5e0e351) | davila7 |
-| 2026-11-17 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/d8e4f386ed05fb554f9f5b24aa50f94965c7fb69) | github-actions[bot] |
-| 2026-11-17 | [fix(mcp): partial-match fallback in search; fix force-push-blocker an…](https://github.com/davila7/claude-code-templates/commit/78b6ff4e36ce40b496d144e6197a94d60d40ed2a) | davila7 |
+| 2026-11-19 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/619db084fd2e94742710f74680db4168ca2bd470) | github-actions[bot] |
+| 2026-11-19 | [feat(dashboard): NVIDIA eye on the component page's scan card (#1622)](https://github.com/davila7/claude-code-templates/commit/ff2ca8a98b32ca9f56ee0e7d48e3dd4cd08937db) | davila7 |
+| 2026-11-19 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/6f913a0cd61c244ef60480f085e2386cba4b5c46) | github-actions[bot] |
+| 2026-11-19 | [fix(dashboard): keep the Files preview's expand bar under the preview…](https://github.com/davila7/claude-code-templates/commit/6c0bb15238cb5bfbf84ef27eb7e027720936e1e2) | davila7 |
+| 2026-11-19 | [Scan excerpt fixes + Compatibility tab redesign (agent ring) (#1619)](https://github.com/davila7/claude-code-templates/commit/813a33607784f65cd3e14b15d226b729cdb493dc) | davila7 |
+| 2026-11-19 | [feat(dashboard): scan report with a score ring, category bar and code…](https://github.com/davila7/claude-code-templates/commit/70d98086991273ea91a3af462502625344705a9a) | davila7 |
+| 2026-11-18 | [feat(dashboard): NVIDIA eye on the scan reports, agent logos in Compa…](https://github.com/davila7/claude-code-templates/commit/7deaf763dc0c3e06fb500eeacf46f3bc121fb2df) | davila7 |
+| 2026-11-18 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/21cc38c31641008077bef34338f612cee4f81c0a) | github-actions[bot] |
+| 2026-11-18 | [Agent compatibility per skill (SkillEvaluator Harness Check) + fix $N…](https://github.com/davila7/claude-code-templates/commit/fdfbaf11c4c5fac39273824baa58c56b06155d28) | davila7 |
+| 2026-11-18 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/d3a29567e1d4707db3377e5521a62f8ae5288aab) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

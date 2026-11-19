@@ -21,16 +21,16 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 14.8k |
-| 🍴 **Forks** | 796 |
-| 🐞 **Open issues + PRs** | [101](https://github.com/google/ax/issues) |
+| 🍴 **Forks** | 797 |
+| 🐞 **Open issues + PRs** | [97](https://github.com/google/ax/issues) |
 | 💻 **Languages** | Go 92% · Shell 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-03-30 |
 | 📦 **Latest release** | [v0.3.1](https://github.com/google/ax/releases/tag/v0.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 45.1 MB |
+| 💾 **Size** | 45.2 MB |
 | 🌐 **Website** | https://agentexecutor.io |
 
 ## 📦 Recent releases
@@ -41,7 +41,7 @@
 > _No notes._
 
 ### [v0.3.0](https://github.com/google/ax/releases/tag/v0.3.0)
-<sub>2026-09-20 · 1mo ago</sub>
+<sub>2026-09-20 · 2mo ago</sub>
 
 > _No notes._
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [README: shorten quick start around install.sh and ax local/install (#…](https://github.com/google/ax/commit/af62e9da5df390495151ac0c9390559ed09c1be9) | rakyll |
+| 2026-11-18 | [api: return Empty from Delete RPCs, and NotFound for a missing resour…](https://github.com/google/ax/commit/f35661116010869161530c893dd6ea6df60b017e) | yongruilin |
+| 2026-11-18 | [feat(axclient): add a public client package for reaching ax-server (#…](https://github.com/google/ax/commit/8e2a187a622c3d33312ba4b349f921efe604fe72) | YoyinZyc |
+| 2026-11-18 | [release: publish ax-runner-volume, with a switch to mount it by defau…](https://github.com/google/ax/commit/1e27c9761c063ad38a970b9fa3ac3dfc6f79f233) | MushuEE |
+| 2026-11-18 | [runner: use MkdirTemp for non-root RunDir fallback (#644)](https://github.com/google/ax/commit/3be65a4035749291ccbcc000e11af068368ba13d) | aprajitaarora13 |
+| 2026-11-18 | [Runner pull agent (#637)](https://github.com/google/ax/commit/f4a920324ab5acdf32922a99f184dd373f3fde0e) | itssimrank |
+| 2026-11-18 | [task: change TaskStatus.ate_actor_template to ObjectRef ate_template …](https://github.com/google/ax/commit/c097322db165059a81b8c8a1079a85c9b4233165) | siyuanfoundation |
+| 2026-11-18 | [runner, substrate, e2e: address review follow-ups from #620–#622 (#624)](https://github.com/google/ax/commit/18223db5d93256099a2fe3a2f83a5850ca35b2c7) | aprajitaarora13 |
 | 2026-11-18 | [examples: bind a Gateway to the Claude Code example (#638)](https://github.com/google/ax/commit/239bf4c660e76aa116d26901b33a29970cb78707) | yongruilin |
 | 2026-11-18 | [runnerhttp, server: add :8081 runner HTTP handler, Actor JWT auth, an…](https://github.com/google/ax/commit/7c4ce3a7f4afbad84d8456ebe532aa9fa8ef7608) | itssimrank |
-| 2026-11-17 | [deploy, e2e: expose ax-server-runner :8081 only to atenet-egress in N…](https://github.com/google/ax/commit/e925acc78398d0039d27edad694118135db092bf) | siyuanfoundation |
-| 2026-11-17 | [hack: promote the hero demo's starter task with ax promote (#636)](https://github.com/google/ax/commit/cdbc9afd2ff25e570c4e28ace6e9ba9997d1e0ea) | yongruilin |
-| 2026-11-17 | [Runner proto lifecycle (#633)](https://github.com/google/ax/commit/18b87396d7ad08986077b3411c8b7fc41dedbeec) | itssimrank |
-| 2026-11-17 | [feat(install): pass the runner volume image through ax local start an…](https://github.com/google/ax/commit/d1781385b87e100563735936122937fb0b124663) | YoyinZyc |
-| 2026-11-17 | [store: implement TaskApplier in memory and postgres backends (#630)](https://github.com/google/ax/commit/d128a4bb3378ec3f2a8c142bcd8fcbfdc7654840) | siyuanfoundation |
-| 2026-11-17 | [feat(cli): add ax studio launcher and install.sh studio download (#627)](https://github.com/google/ax/commit/7fd1bf7913c085b2a10eff7d51bb8a9f11f5de9e) | YoyinZyc |
-| 2026-11-17 | [fix(tunnel): keep a tunnel per namespace of a context (#628)](https://github.com/google/ax/commit/e772628bcd5b0f4ce3e20f9c9ea0a2b018668fac) | yongruilin |
-| 2026-11-17 | [ax: add Kind E2E for promote (#629)](https://github.com/google/ax/commit/838bfbc1453135a40d18929e3d2f9e6083d1474f) | yongruilin |
 
 [See all commits ↗](https://github.com/google/ax/commits)
 

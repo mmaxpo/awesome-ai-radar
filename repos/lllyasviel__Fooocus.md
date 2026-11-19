@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 54.0k |
 | 🍴 **Forks** | 8.6k |
-| 🐞 **Open issues + PRs** | [316](https://github.com/lllyasviel/Fooocus/issues) |
+| 🐞 **Open issues + PRs** | [315](https://github.com/lllyasviel/Fooocus/issues) |
 | 💻 **Languages** | Python 97% · JavaScript 3% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | — |

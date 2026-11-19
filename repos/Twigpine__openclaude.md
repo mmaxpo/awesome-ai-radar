@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 34.4k |
 | 🍴 **Forks** | 9.1k |
-| 🐞 **Open issues + PRs** | [34](https://github.com/Twigpine/openclaude/issues) |
+| 🐞 **Open issues + PRs** | [39](https://github.com/Twigpine/openclaude/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `ai-agent` `ai-tools` `cli` `coding` |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2026-04-01 |
 | 📦 **Latest release** | [v0.37.0](https://github.com/Twigpine/openclaude/releases/tag/v0.37.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 38.9 MB |
+| 💾 **Size** | 39.0 MB |
 | 🌐 **Website** | https://openclaude.twigpine.com |
 
 ## 📦 Recent releases
 
 ### [v0.37.0](https://github.com/Twigpine/openclaude/releases/tag/v0.37.0)
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **[0.37.0](https://github.com/Twigpine/openclaude/compare/v0.36.0...v0.37.0) (2026-11-17)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.36.0](https://github.com/Twigpine/openclaude/releases/tag/v0.36.0)
-<sub>2026-11-13 · 5d ago</sub>
+<sub>2026-11-13 · 6d ago</sub>
 
 > **[0.36.0](https://github.com/Twigpine/openclaude/compare/v0.35.1...v0.36.0) (2026-11-11)**
 > **Features**
@@ -58,14 +58,14 @@
 > …
 
 ### [v0.35.1](https://github.com/Twigpine/openclaude/releases/tag/v0.35.1)
-<sub>2026-11-09 · 9d ago</sub>
+<sub>2026-11-09 · 10d ago</sub>
 
 > **[0.35.1](https://github.com/Twigpine/openclaude/compare/v0.35.0...v0.35.1) (2026-11-09)**
 > **Bug Fixes**
 > * **opengateway:** cache the live model list for an hour, not a day ([#2490](https://github.com/Twigpine/openclaude/issues/2490)) ([96fb014](https://github.com/Twigpine/openclaude/commit/96fb01476901f54c8fdfa25b6909253907a47209))
 
 ### [v0.35.0](https://github.com/Twigpine/openclaude/releases/tag/v0.35.0)
-<sub>2026-11-09 · 9d ago</sub>
+<sub>2026-11-09 · 10d ago</sub>
 
 > **[0.35.0](https://github.com/Twigpine/openclaude/compare/v0.34.0...v0.35.0) (2026-11-09)**
 > **Features**
@@ -76,7 +76,7 @@
 > …
 
 ### [v0.34.0](https://github.com/Twigpine/openclaude/releases/tag/v0.34.0)
-<sub>2026-11-02 · 16d ago</sub>
+<sub>2026-11-02 · 17d ago</sub>
 
 > **[0.34.0](https://github.com/Twigpine/openclaude/compare/v0.33.0...v0.34.0) (2026-11-02)**
 > **Features**
@@ -90,6 +90,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [feat: run task-capable MCP tools as server tasks in the background (#…](https://github.com/Twigpine/openclaude/commit/036abbd6dc88a51abb7b78113a5b30415aa5b9de) | beardthelion |
+| 2026-11-18 | [fix(sdk): isolate transcript file pointer per SDK session context (#2…](https://github.com/Twigpine/openclaude/commit/7079222e76a4eeab1285da8690f0d4fa25f92aca) | AdityaxDeore |
 | 2026-11-18 | [feat: permission settings, plugin engine checks, and four bundled ski…](https://github.com/Twigpine/openclaude/commit/e9985989e08abd0f3229cd73887be64af4a86d28) | beardthelion |
 | 2026-11-17 | [chore(main): release 0.37.0 (#2513)](https://github.com/Twigpine/openclaude/commit/3cd5463dd2d64477956cc69d0a8b94a887c2d8c0) | github-actions[bot] |
 | 2026-11-17 | [chore(web): upgrade Astro to 7.4.12 for two security advisories (#2543)](https://github.com/Twigpine/openclaude/commit/34a8643a505e0bbc226c7775cd6363773a3608f9) | kevincodex1 |
@@ -98,8 +100,6 @@
 | 2026-11-17 | [feat: deep links, live auto theme, opt-in skill improvement (#2537)](https://github.com/Twigpine/openclaude/commit/d8e6666e16f045f4f40f611ba6f3ec7399aff753) | beardthelion |
 | 2026-11-17 | [feat: add /todos, /cd, /reload-skills and four CLAUDE_CODE_* env togg…](https://github.com/Twigpine/openclaude/commit/d8a35c44c24e498e5ca5989f180efac7addc09f1) | beardthelion |
 | 2026-11-16 | [Enable five audited feature flags (#2535)](https://github.com/Twigpine/openclaude/commit/4e471e7d97980b31e7184ffacf9b9ccc3c3579fb) | beardthelion |
-| 2026-11-16 | [feat(permissions): support Bash(prompt: ...) natural-language rules (…](https://github.com/Twigpine/openclaude/commit/9afab41d394fe684b2cc7d32ee96b478f27ceb21) | beardthelion |
-| 2026-11-16 | [feat: parse bash command structure for permission and safety checks (…](https://github.com/Twigpine/openclaude/commit/849e58bb573713326e0db5b69a5886222b594dd9) | beardthelion |
 
 [See all commits ↗](https://github.com/Twigpine/openclaude/commits)
 

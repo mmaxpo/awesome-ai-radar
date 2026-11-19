@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 114.7k |
-| 🍴 **Forks** | 19.0k |
+| ⭐ **Stars** | 115.0k |
+| 🍴 **Forks** | 19.1k |
 | 🐞 **Open issues + PRs** | [6.9k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 3% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-03-02 |
-| 📦 **Latest release** | [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0) — 2026-11-06 |
+| 📦 **Latest release** | [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 548.3 MB |
+| 💾 **Size** | 551.5 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
+### [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0)
+<sub>2026-11-18 · today</sub>
+
+> **Paperclip v2026.1117.0**
+> > Released: 2026-11-17
+> Paperclip v2026.1117.0 carries 1,586 commits, promoted from `2026.1110.0-beta.0`. The headline is a new default workspace: the Coordinator layout and Agent Chat are now standard, and task chat shows what a Runner agent actually did — its plan, inline diffs, tool calls, subagents, and a plan you can approve. Around that: agents that can set up connections within delegated authority, a full YAML editor for agent configuration, context-window and usage-limit readouts with a one-click Compact, proactive chat messages and automatic mid-turn steering for Codex and Pi, Codex image generation, and 1Password, Supabase, Vercel, and boxd in the catalog. Underneath, Runner runs continue through restarts, crashes, and container redeploys in far more cases, local Codex and OpenCode agents stay warm for much faster follow-ups, sandbox workspaces can survive a server replacement on S3-backed installs, the board keeps working through dropped connections, and run logs and skill packages move out of PostgreSQL into your configured storage.
+> **Breaking Changes**
+> - **The built-in Google Workspace connector is off by default.** While Paperclip's Google app verification is pending, the unified Google Workspace connection introduced in v2026.1106.0 is gated behind a new experimental setting: with it off, the connector is hidden from Apps and its setup, discovery, and tool execution are blocked — including connections saved on v2026.1106.0 — and the Composio and Arcade Google apps appear instead. To keep a Google Workspace connection working, turn on **Settings → Experimental → Google Workspace connector (Paperclip)** (`enableGoogleWorkspaceConnector`). ([#19247](https://github.com/paperclipai/paperclip/pull/19247))
+> - **Every subtask gets its own execution workspace.** Child tasks no longer share the parent's checkout, branch, or unmerged changes, on every creation path (API, `create_task`, chat suggestions, plugins, and the New sub-task dialog); `inheritExecutionWorkspaceFromIssueId` now copies only the project and workspace strategy, and an ancestor's `executionWorkspaceId` passed on create is dropped. A child an older release bound to its parent's workspace moves to its own workspace on its next run. Work that relied on a child editing the parent's checkout must merge or push through Git; unrelated tasks can still share a workspace through an explicit `existing` selection. ([#19860](https://github.com/paperclipai/paperclip/pull/19860))
+> …
+
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 11d ago</sub>
+<sub>2026-11-06 · 12d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -58,7 +69,7 @@
 > …
 
 ### [v2026.1023.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0)
-<sub>2026-10-24 · 25d ago</sub>
+<sub>2026-10-24 · 26d ago</sub>
 
 > **Paperclip v2026.1023.0**
 > > Released: 2026-10-23
@@ -79,31 +90,20 @@
 > - **Keyboard shortcuts are always on, and their settings are gone.** The instance-wide General toggle and the per-user Profile preference are both removed, along with the `GET`/`PATCH /api/auth/preferences` routes; `PATCH /api/instance/settings/general` no longer accepts `keyboardShortcuts`. Every signed-in user now has shortcuts enabled. ([#14141](https://github.com/paperclipai/paperclip/pull/14141), [#14643](https://github.com/paperclipai/paperclip/pull/14643))
 > …
 
-### [v2026.1001.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1001.0)
-<sub>2026-10-02 · 1mo ago</sub>
-
-> **Paperclip v2026.1001.0**
-> > Released: 2026-10-01
-> Paperclip v2026.1001.0 carries 77 commits, promoted from `2026.921.0-beta.1`. The headline is reliability: a deep hardening pass over the native runner and chat recovery — approval and Stop races, session continuity, sandbox reconnection and cleanup — alongside a friendlier face: agent personas throughout the app, an animated onboarding character, and a rebuilt Slack setup. Around those: agents can review GitHub pull requests as scheduled review bots, Railway joins the connector catalog with governed deployment tools, approvals and answers queue during active runs instead of bouncing, and execution harnesses now default to full auto.
-> **Breaking Changes**
-> - **The legacy Composio broker is retired.** The API-key catalog method, broker clients, session creation, account synchronization, child lifecycle and toolkit routes, and the Services tab are all removed. Existing legacy Composio connections stop working, and there is no automated migration — the experimental MCP aggregator connectors (below) are the successor path; see the Upgrade Guide for the manual steps. Vercel provenance is untouched. ([#13758](https://github.com/paperclipai/paperclip/pull/13758))
-> - **Execution harnesses now default to full auto.** Native runs default Claude/ACPX to `approve-all`, OpenCode to `allow`, and Codex to approval-and-sandbox bypass, and the legacy adapters follow the same policy — provider tools and connected tools included. Explicitly configured restrictive modes are preserved, and Paperclip's own approval decisions still enforce controller authority; only the *defaults* change. Operators who relied on unconfigured agents inheriting restrictive provider gates should set an explicit mode. ([#13686](https://github.com/paperclipai/paperclip/pull/13686), [#13693](https://github.com/paperclipai/paperclip/pull/13693))
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [fix(ui): forward unprefixed links to Connectors, Chat, Inbox and Dash…](https://github.com/paperclipai/paperclip/commit/2d67b060260f4a68f196bf5747a6f76029e6036e) | nguyenm7 |
-| 2026-11-18 | [fix(native): never rest a task blocked on the agent's own blocker (#2…](https://github.com/paperclipai/paperclip/commit/1c556d5340403112b39e9c7cb068483f58d79dfd) | cryppadotta |
-| 2026-11-18 | [fix(recovery): wait out a sandbox provider outage with no Retry (#22139)](https://github.com/paperclipai/paperclip/commit/a665ed6a1b990a96f11f73ea7bd73a8228e511e9) | cryppadotta |
-| 2026-11-18 | [fix(restart-chaos): exempt a continuation of an uncommitted follow-up…](https://github.com/paperclipai/paperclip/commit/069ec8a74e4dbea835e8f1ed3d4b314517ce7a14) | cryppadotta |
-| 2026-11-18 | [fix(runner): accept a new controller when the listener's controller g…](https://github.com/paperclipai/paperclip/commit/9e1a85fb46cb416bf6991ec0756eef79f1e1bfa8) | cryppadotta |
-| 2026-11-18 | [fix(recovery): continue a setup failure after work in seconds, with n…](https://github.com/paperclipai/paperclip/commit/42858fe4e582328a20f4789bd9a4e2e1e67d472b) | cryppadotta |
-| 2026-11-18 | [feat(connections): per-company workload identity issuer with public s…](https://github.com/paperclipai/paperclip/commit/11a0ff02050657f73cdac3fc0ab49c076a834ca0) | cryppadotta |
-| 2026-11-18 | [feat(dashboard): add an experimental areas and responsibilities dashb…](https://github.com/paperclipai/paperclip/commit/43b2d8be226e2e9848894ec3439090c7f1d3c701) | scotttong |
-| 2026-11-18 | [fix(native): retry transient provider refusals while reattaching a ha…](https://github.com/paperclipai/paperclip/commit/4afcbfc0c71120927973c2df8d1086561f06c223) | cryppadotta |
-| 2026-11-18 | [fix(native): keep recovery workers off a run its live heartbeat is fi…](https://github.com/paperclipai/paperclip/commit/6902c3f1932eda676267f752201e80aee11c40ff) | cryppadotta |
+| 2026-11-19 | [fix(dispatch): schedule a clean loop-limit continuation with its pers…](https://github.com/paperclipai/paperclip/commit/1355f93546b44017bdf71212c437ae7a57f8b5e7) | cryppadotta |
+| 2026-11-19 | [fix(restart-chaos): grade double executors on local runner identities…](https://github.com/paperclipai/paperclip/commit/70a43513433d96537b1e5b26430fddd1c06ca0d0) | cryppadotta |
+| 2026-11-19 | [fix(tasks): keep a due automatic retry working while it is dispatched…](https://github.com/paperclipai/paperclip/commit/7eaf38130beb8460e40e8a8120da3311e1ef0461) | cryppadotta |
+| 2026-11-19 | [feat(runner): start a released Runner again as the next run (#22288)](https://github.com/paperclipai/paperclip/commit/1c67687998b3c704bfabafab31a1f1cfd00ac549) | nickyleach |
+| 2026-11-19 | [fix(cloud): resolve or name the remaining online move blockers (#22294)](https://github.com/paperclipai/paperclip/commit/440f96247b77fdca9aaef963e71fb5a139033b9c) | cryppadotta |
+| 2026-11-19 | [feat(runner): pin Codex 0.170.0 and Agent SDK 0.3.328 so Fable 5.2 an…](https://github.com/paperclipai/paperclip/commit/170e1b0c078d0db64cf3deadd4d5f21e86d7fdcf) | devinfoley |
+| 2026-11-19 | [perf(heartbeat): skip unused session and holder reads for queued inpu…](https://github.com/paperclipai/paperclip/commit/90d985b8b919ab09df788ffc09b71dd83d136899) | nickyleach |
+| 2026-11-19 | [perf(wake-queue): reuse the task row locked by admission (#22280)](https://github.com/paperclipai/paperclip/commit/3dc6ccd8d8141bd5249bd675f19fb1e232a378a0) | nickyleach |
+| 2026-11-19 | [perf(wake-queue): skip recovery lookup when no saved receipt can be a…](https://github.com/paperclipai/paperclip/commit/5506359bbbdeb482aff622932dddb4da6d822d5a) | nickyleach |
+| 2026-11-19 | [Use one automatic goal steering decision for task comments (#22277)](https://github.com/paperclipai/paperclip/commit/f0caee6f95a4ac7f0cb60a880d01ca56ad03fd67) | nickyleach |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

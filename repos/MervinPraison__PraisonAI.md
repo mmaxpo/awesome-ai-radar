@@ -22,41 +22,41 @@
 |---|---|
 | ⭐ **Stars** | 9.3k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [89](https://github.com/MervinPraison/PraisonAI/issues) |
+| 🐞 **Open issues + PRs** | [102](https://github.com/MervinPraison/PraisonAI/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 13% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `aiagents` `framework` `ai-agent-framework` `ai-agents` `multi-agent` `multi-agent-system` `multi-agents` `ai-agent-sdk` `ai-agents-sdk` `openclaw` `air-gapped` `llm` `on-premise` `private-ai` `python` `regulated-industries` `self-hosted` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2024-03-19 |
 | 📦 **Latest release** | [v4.7.26](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.26) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 126.1 MB |
+| 💾 **Size** | 125.5 MB |
 | 🌐 **Website** | https://praison.ai |
 
 ## 📦 Recent releases
 
 ### [v4.7.26](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.26) — PraisonAI v4.7.26
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > Release v4.7.26
 
 ### [v4.7.25](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.25) — PraisonAI v4.7.25
-<sub>2026-11-14 · 4d ago</sub>
+<sub>2026-11-14 · 5d ago</sub>
 
 > Release v4.7.25
 
 ### [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) — PraisonAI v4.7.24
-<sub>2026-11-05 · 12d ago</sub>
+<sub>2026-11-05 · 13d ago</sub>
 
 > Release v4.7.24
 
 ### [v4.7.23](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.23) — PraisonAI v4.7.23
-<sub>2026-11-03 · 15d ago</sub>
+<sub>2026-11-03 · 16d ago</sub>
 
 > Release v4.7.23
 
 ### [v4.7.22](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.22) — PraisonAI v4.7.22
-<sub>2026-10-30 · 18d ago</sub>
+<sub>2026-10-30 · 19d ago</sub>
 
 > Release v4.7.22
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [feat(desktop): support MiniMax H3 image generation (#6654)](https://github.com/MervinPraison/PraisonAI/commit/067905778e9d440c691ba8d47c76456d9c1d5518) | octo-patch |
-| 2026-11-18 | [docs: auto-update documentation parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/493d594e734124b483e3d8a1fe9d7e68470c2c1c) | MervinPraison |
-| 2026-11-18 | [Merge pull request #6656 from MervinPraison/integration/batch7-2026-1…](https://github.com/MervinPraison/PraisonAI/commit/14f7886d760955d87df6060b3239a08923256140) | MervinPraison |
-| 2026-11-18 | [docs(readme): remove company Who line (#6655)](https://github.com/MervinPraison/PraisonAI/commit/41a37b644a472a197cc0ec037bd81c1c4f53925e) | MervinPraison |
-| 2026-11-18 | [Merge branch 'pr6649' into batch7](https://github.com/MervinPraison/PraisonAI/commit/c304ced3eea61b7bf99f53dc115eef7b32cebf91) | MervinPraison |
-| 2026-11-18 | [Merge branch 'pr6648' into batch7](https://github.com/MervinPraison/PraisonAI/commit/3cb7ca856222ebc9bceed5f8ac774ecae1c6b4b9) | MervinPraison |
-| 2026-11-18 | [Merge branch 'pr6647' into batch7](https://github.com/MervinPraison/PraisonAI/commit/10ee961f6e1e86f9b6bf5290dd5b2f360e967b4a) | MervinPraison |
-| 2026-11-18 | [Merge branch 'pr6653' into batch7](https://github.com/MervinPraison/PraisonAI/commit/5accfa5ec12b1d470aa370eb4d45356f24737023) | MervinPraison |
-| 2026-11-18 | [Merge branch 'pr6650' into batch7](https://github.com/MervinPraison/PraisonAI/commit/9485c384d641adf962166f9a181ef55e23a2ba6c) | MervinPraison |
-| 2026-11-18 | [test: pin the guardrail and approval block of Agent.__init__ (T-05)](https://github.com/MervinPraison/PraisonAI/commit/ea4cc6853359284c5a6006370af8ea25111123ef) | MervinPraison |
+| 2026-11-19 | [docs(ts): describe SandboxExecutor modes as command filters (#6685)](https://github.com/MervinPraison/PraisonAI/commit/860ea8068c03f1fcd6f27f2f590429f6244eac65) | MervinPraison |
+| 2026-11-19 | [test: check import timing subprocess results (#6672)](https://github.com/MervinPraison/PraisonAI/commit/5ffb54214faac8bddabd2ac48d611377beba5dde) | dajiaohuang |
+| 2026-11-19 | [fix: report comprehensive test failures accurately (#6669)](https://github.com/MervinPraison/PraisonAI/commit/2bcc27fb6830f00e5442e30cffe378789d3767bb) | dajiaohuang |
+| 2026-11-19 | [feat(ui): praisonai ui shows the same sidebar pages as praisonai dash…](https://github.com/MervinPraison/PraisonAI/commit/70db4ec80efce89dcdf9ba64e18a17ce5b286212) | MervinPraison |
+| 2026-11-19 | [fix(code): refresh ~/.praisonai/<ui>/app.py to the latest default unl…](https://github.com/MervinPraison/PraisonAI/commit/fae168f51a6b731d0a2cdde4939b580a2bd474ac) | MervinPraison |
+| 2026-11-19 | [fix(bot): refresh ~/.praisonai/claw/app.py to the latest default unle…](https://github.com/MervinPraison/PraisonAI/commit/dea2abb563459dd9d8a0a52214e9e1ee4a92a813) | MervinPraison |
+| 2026-11-19 | [chore(wrapper): eagle mark for the dashboard in the unified launcher …](https://github.com/MervinPraison/PraisonAI/commit/e38bb975e839b3dfefaf3c45645881ff0d492af4) | MervinPraison |
+| 2026-11-19 | [fix(code): praisonai ui starts aiui from the running Python; dashboar…](https://github.com/MervinPraison/PraisonAI/commit/5b82c08abc0b9cd988b3115a92c004977439b212) | MervinPraison |
+| 2026-11-19 | [fix(bot): dashboard starts aiui from the running Python; dashboard is…](https://github.com/MervinPraison/PraisonAI/commit/ed563a370093628ed6bb290432b57da3cd478e88) | MervinPraison |
+| 2026-11-19 | [feat(wrapper): pip install "praisonai[dashboard]"; claw extra kept as…](https://github.com/MervinPraison/PraisonAI/commit/150e3e2b10a6c148201aa6b7efd7e15b764ae68c) | MervinPraison |
 
 [See all commits ↗](https://github.com/MervinPraison/PraisonAI/commits)
 

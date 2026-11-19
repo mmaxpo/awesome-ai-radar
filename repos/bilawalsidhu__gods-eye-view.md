@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 65.7k |
+| ⭐ **Stars** | 65.9k |
 | 🍴 **Forks** | 13.0k |
-| 🐞 **Open issues + PRs** | [438](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| 🐞 **Open issues + PRs** | [437](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 234.2 MB |
+| 💾 **Size** | 239.7 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 21d ago</sub>
+<sub>2026-10-28 · 22d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [Merge pull request #808 from kvnloo/exp/cctv-target-navigation](https://github.com/bilawalsidhu/gods-eye-view/commit/6b05cd58b924b44763b212eda48351d463f8841e) | gekh |
-| 2026-11-18 | [Merge branch 'main' into exp/cctv-target-navigation](https://github.com/bilawalsidhu/gods-eye-view/commit/7acc917ae03f2fd8d7e5621b47b3542e79b35efe) | gekh |
-| 2026-11-18 | [Merge pull request #881 from kvnloo/perf/imagery-stale-thumbnail-canc…](https://github.com/bilawalsidhu/gods-eye-view/commit/de3886858276340fbbd9caec6a054a3a25ec3c0c) | gekh |
-| 2026-11-18 | [Merge branch 'main' into perf/imagery-stale-thumbnail-cancellation-20…](https://github.com/bilawalsidhu/gods-eye-view/commit/5ed27a91310b7c9ed16b344e27f3a5e7e924a419) | gekh |
-| 2026-11-18 | [Merge pull request #1210 from daikaginza/fix/i18n-installations-note](https://github.com/bilawalsidhu/gods-eye-view/commit/c8a24ec108c530fdc1f6dc161404f1e7373f9fef) | gekh |
-| 2026-11-18 | [refactor(i18n): show the installations status through translateStatus…](https://github.com/bilawalsidhu/gods-eye-view/commit/e4e7b3228944d115f48c0409bdacd4faebd15ce3) | gekh |
-| 2026-11-18 | [docs(i18n): tighten the Mapped Installations status comments](https://github.com/bilawalsidhu/gods-eye-view/commit/dc13be07c0ae83cd99c1ee0a11dfaa227c723afe) | gekh |
-| 2026-11-18 | [Check point coordinates without coercion and drop tests main already …](https://github.com/bilawalsidhu/gods-eye-view/commit/93f848d8b1cada24199a9f5c242aca6ddd02fe2b) | gekh |
-| 2026-11-18 | [refactor(imagery): drop unused cancellation counters and impossible-c…](https://github.com/bilawalsidhu/gods-eye-view/commit/bd84fab552b9bc5794d321c070f42a1b30a67bae) | gekh |
-| 2026-11-18 | [docs(imagery): tighten cancellation notes and match them to the code](https://github.com/bilawalsidhu/gods-eye-view/commit/a0db300d5473d812690aafda52b85bb9a0fa54d6) | gekh |
+| 2026-11-19 | [Merge pull request #1852 from bilawalsidhu/samehkhamis/kit-sweep-stories](https://github.com/bilawalsidhu/gods-eye-view/commit/5dbd73b4e946cd0a81b7019e6bd2b945eebdc87c) | samehkhamis |
+| 2026-11-19 | [Add the changelog entry for #1852](https://github.com/bilawalsidhu/gods-eye-view/commit/f821c31a36da749cd0c30f07b1b9d31291d34175) | samehkhamis |
+| 2026-11-19 | [Merge remote-tracking branch 'origin/main' into samehkhamis/kit-sweep…](https://github.com/bilawalsidhu/gods-eye-view/commit/e9f69d90a2867aefdd4594339b89dcd1189c6fb1) | samehkhamis |
+| 2026-11-19 | [Merge pull request #1851 from bilawalsidhu/samehkhamis/kit-sweep-laye…](https://github.com/bilawalsidhu/gods-eye-view/commit/42559db10b6af9a9049fb78f24204cf036c4e807) | samehkhamis |
+| 2026-11-19 | [Merge branch 'main' into samehkhamis/kit-sweep-layer-finder](https://github.com/bilawalsidhu/gods-eye-view/commit/7faf14c6a1af9bd3b8c0c186404e5ed15965cbf1) | samehkhamis |
+| 2026-11-19 | [Merge pull request #1598 from bilawalsidhu/fix/shortcuts-modifier-keys](https://github.com/bilawalsidhu/gods-eye-view/commit/12d208bae1a103d97ba5f5ffd540e9080733f23d) | gekh |
+| 2026-11-19 | [Merge branch 'main' into fix/shortcuts-modifier-keys](https://github.com/bilawalsidhu/gods-eye-view/commit/379afa03dba7ae4c9abc05c7d1908633365f631c) | gekh |
+| 2026-11-19 | [Add the changelog entry for #1851](https://github.com/bilawalsidhu/gods-eye-view/commit/e2ff789a294aea2b5a4b2751789d35896609add0) | samehkhamis |
+| 2026-11-19 | [Merge remote-tracking branch 'origin/main' into samehkhamis/kit-sweep…](https://github.com/bilawalsidhu/gods-eye-view/commit/7ba6d86485cd81f15592ec9c96d058d68afe94d7) | samehkhamis |
+| 2026-11-19 | [Merge pull request #1850 from bilawalsidhu/samehkhamis/kit-sweep-enti…](https://github.com/bilawalsidhu/gods-eye-view/commit/0293e748465ddfd4a2937e58132fd89717e9d0f6) | samehkhamis |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

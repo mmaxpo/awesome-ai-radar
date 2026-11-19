@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 12.3k |
+| ⭐ **Stars** | 12.4k |
 | 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [5](https://github.com/FareedKhan-dev/kimi-k3-in-c/issues) |
+| 🐞 **Open issues + PRs** | [6](https://github.com/FareedKhan-dev/kimi-k3-in-c/issues) |
 | 💻 **Languages** | C 69% · Python 23% · Shell 4% · Makefile 3% · CMake 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `avx2` `c99` `cpu-inference` `deep-learning` `from-scratch` `inference-engine` `kimi-k3` `linear-attention` `llm` `llm-inference` `machine-learning` `memory-efficient` `mixture-of-experts` `moe` `mxfp4` `quantization` `simd` `systems-programming` `transformer` `zero-dependencies` |
-| 🕒 **Last activity** | 2026-11-16 (2d ago) |
+| 🕒 **Last activity** | 2026-11-16 (3d ago) |
 | 📅 **Created** | 2026-08-01 |
 | 📦 **Latest release** | [v2.0.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/releases/tag/v2.0.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.0](https://github.com/FareedKhan-dev/kimi-k3-in-c/releases/tag/v2.0.0)
-<sub>2026-11-15 · 2d ago</sub>
+<sub>2026-11-15 · 3d ago</sub>
 
 > Long prompts stop being a one-core job, and a large round of fixes, most of them from outside contributors, makes everything that loads, parses, measures or certifies refuse a wrong input instead of quietly using it. Output is unchanged wherever it was already defined: every oracle gate still matches the PyTorch reference exactly, at any thread count.
 > **Compatibility notes, which are why this is 2.0.0:**

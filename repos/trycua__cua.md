@@ -20,84 +20,78 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 32.6k |
+| ⭐ **Stars** | 32.7k |
 | 🍴 **Forks** | 2.5k |
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/trycua/cua/issues) |
 | 💻 **Languages** | Rust 52% · TypeScript 18% · Python 15% · Swift 9% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `apple` `cua` `lume` `macos` `virtualization` `virtualization-framework` `swift` `ai-agent` `computer-use` `manus` `operator` `agent` `containerization` `windows` `windows-sandbox` `hacktoberfest` `computer-use-agent` `desktop-automation` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2025-01-31 |
-| 📦 **Latest release** | [cua-spaces-v0.38.8](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.38.8) — 2026-11-17 |
+| 📦 **Latest release** | [cua-spaces-v0.38.13](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.38.13) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 777.2 MB |
+| 💾 **Size** | 778.8 MB |
 | 🌐 **Website** | https://cua.ai |
 
 ## 📦 Recent releases
 
-### [cua-driver-rs-v0.53.2](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.53.2) — cua-driver-rs: v0.53.2 _(pre-release)_
-<sub>2026-11-18 · today</sub>
+### [nightly-cua-driver-rs-v0.54.1-nightly.20261119.44457756598](https://github.com/trycua/cua/releases/tag/nightly-cua-driver-rs-v0.54.1-nightly.20261119.44457756598) _(pre-release)_
+<sub>2026-11-19 · today</sub>
 
-> **Cua Driver 0.53.2**
-> **Summary**
-> This release includes 1 fix.
-> **Fixes**
-> - add started_at_unix_ms to recording session.json. ([#8118](https://github.com/trycua/cua/pull/8118)) Thanks @Iflaqbhat; reported by @methanoya.
-> **Contributors**
-> …
-
-### [cua-driver-rs-v0.53.1](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.53.1) — cua-driver-rs: v0.53.1 _(pre-release)_
-<sub>2026-11-18 · today</sub>
-
-> **Cua Driver 0.53.1**
-> **Summary**
-> This release includes 4 fixes.
-> **Fixes**
-> - report macOS AX enumeration counts in ax_window_unresolved. ([#8096](https://github.com/trycua/cua/pull/8096)) Thanks @lorenzozanee; reported by @JayLewisLLC.
-> - publish display-only rows as observations so verify_state can read them. ([#7566](https://github.com/trycua/cua/pull/7566))
-> …
-
-### [nightly-cua-driver-rs-v0.53.1-nightly.20261118.44236707997](https://github.com/trycua/cua/releases/tag/nightly-cua-driver-rs-v0.53.1-nightly.20261118.44236707997) _(pre-release)_
-<sub>2026-11-18 · today</sub>
-
-> **Cua Driver 0.53.1-nightly.20261118.44236707997 (nightly)**
+> **Cua Driver 0.54.1-nightly.20261119.44457756598 (nightly)**
 > Automated immutable nightly built from an exact `main` commit. Nightlies are
 > opt-in, may be less stable than regular releases, and never replace stable
 > update discovery.
 > **Source**
-> - Commit: [`dde4a4b64a49629ef41fb0faf19c45a178e0b08a`](https://github.com/trycua/cua/commit/dde4a4b64a49629ef41fb0faf19c45a178e0b08a)
+> - Commit: [`052dc3a0c19646f89d5e6ca30e110e2dd541eec2`](https://github.com/trycua/cua/commit/052dc3a0c19646f89d5e6ca30e110e2dd541eec2)
 > …
 
-### [cua-spaces-v0.38.8](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.38.8) — Cua Spaces v0.38.8
-<sub>2026-11-17 · today</sub>
+### [cua-spaces-v0.38.13](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.38.13) — Cua Spaces v0.38.13
+<sub>2026-11-18 · today</sub>
 
-> **Cua Spaces 0.38.8**
+> **Cua Spaces 0.38.13**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - ship LICENSE files in Python distributions. ([#8056](https://github.com/trycua/cua/pull/8056)) Thanks @cnYui; reported by @PreetamMatta.
+> - bundle Cua Driver 0.54.0 in Cua Spaces. ([#8183](https://github.com/trycua/cua/pull/8183))
 > **Contributors**
 > …
 
-### [cua-sdk-v0.28.2](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.28.2) — cua SDK 0.28.2
-<sub>2026-11-17 · today</sub>
+### [cua-spaces-v0.38.12](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.38.12) — Cua Spaces v0.38.12
+<sub>2026-11-18 · today</sub>
 
-> cua SDK 0.28.2 release assets.
+> **Cua Spaces 0.38.12**
+> **Summary**
+> This release includes 1 fix.
+> **Fixes**
+> - bundle cua 0.28.3 in Cua Spaces. ([#8186](https://github.com/trycua/cua/pull/8186))
+> **Contributors**
+> …
+
+### [cua-sdk-v0.28.3](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.28.3) — cua SDK 0.28.3
+<sub>2026-11-18 · today</sub>
+
+> cua SDK 0.28.3 release assets.
+
+### [cua-spacesd-v0.16.3](https://github.com/trycua/cua/releases/tag/cua-spacesd-v0.16.3) — cua-spacesd 0.16.3
+<sub>2026-11-18 · today</sub>
+
+> cua-spacesd 0.16.3 release assets.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [fix(cua-spacesd): send desktop Super chords through the desktop scope…](https://github.com/trycua/cua/commit/d9dcb1ee770fce99b531a85d4989d81ade098639) | injaneity |
-| 2026-11-18 | [chore(cua-driver): advance published installer version to 0.53.2 (#8147)](https://github.com/trycua/cua/commit/9937983b8d9de71a1648c598cbd012b31f8efb14) | cua-release-bot[bot] |
-| 2026-11-18 | [fix(cua-driver): fall back to WARP for unusable Windows captures (#8131)](https://github.com/trycua/cua/commit/d6938ef0e1017716f61c907f15764d1958934f90) | injaneity |
-| 2026-11-18 | [test(cua-driver): pin Windows posted clicks against an SDL-style mous…](https://github.com/trycua/cua/commit/14ae0e5f64c43e232328f05741c2556cccd938b5) | injaneity |
-| 2026-11-18 | [fix(cua-driver): exit the macOS daemon when an update replaces its ap…](https://github.com/trycua/cua/commit/6c17951c22e715836d8f2049f59f3e3dbf71608e) | injaneity |
-| 2026-11-18 | [feat(cua-driver): report is_password for Windows Edit elements (#8124)](https://github.com/trycua/cua/commit/959260deaed8872abab92efad2ad806b69408b3a) | injaneity |
-| 2026-11-18 | [chore(main): release cua-driver-rs 0.53.2 (#8125)](https://github.com/trycua/cua/commit/248e95bd3395d03de7e694002b450c0dd37580d5) | cua-release-bot[bot] |
-| 2026-11-18 | [fix(cua-driver): add started_at_unix_ms to recording session.json (#8…](https://github.com/trycua/cua/commit/7737d7db7139cbd2687de6f2d8581bfaa16758aa) | injaneity |
-| 2026-11-18 | [chore(main): release cua-driver-rs 0.53.1 (#8107)](https://github.com/trycua/cua/commit/004e38a750002dcb29650fdf15aa26660826f2c6) | cua-release-bot[bot] |
-| 2026-11-18 | [fix(cua-driver): explain session-scoped snapshots in the stale token …](https://github.com/trycua/cua/commit/6b36d0e3338d0fa602dc03b020f03d5bc8383dcb) | injaneity |
+| 2026-11-19 | [chore(main): release cua-sdk 0.28.4 (#8214)](https://github.com/trycua/cua/commit/89234e6ec1335bef9cb738c56add17366f83ef18) | cua-release-bot[bot] |
+| 2026-11-19 | [chore(main): release cua-spaces 0.38.14 (#8215)](https://github.com/trycua/cua/commit/bcb0ecb56d1cb80aba66508b52a0f8b7d235bc8e) | cua-release-bot[bot] |
+| 2026-11-19 | [fix(cua-driver): match packaged-app frames to their app in capability…](https://github.com/trycua/cua/commit/2dfcf96570394210c9eea420cb3c74a0605d9d07) | injaneity |
+| 2026-11-19 | [fix(spaces): send the Mac clipboard on paste in the native viewer (#8…](https://github.com/trycua/cua/commit/54312cfce862d13a57f0c28851bd399e261c8e70) | injaneity |
+| 2026-11-19 | [release digest: fail the job when the alert intake refuses the post (…](https://github.com/trycua/cua/commit/f34ed6543f0416e776bec5bc15f5bcd0ae041057) | cua-agents[bot] |
+| 2026-11-19 | [fix(relay): size the client stream budget to the memory limit, add me…](https://github.com/trycua/cua/commit/4e5a10e78e8fe4040dc9d4ef1d16a84544c27ae6) | f-trycua |
+| 2026-11-19 | [fix(cua-driver): put Hyprland browser bounds in Chromium's output spa…](https://github.com/trycua/cua/commit/ba69e045bceed65ae1c22767b575f85cc6a6b80b) | injaneity |
+| 2026-11-19 | [feat(cua-driver): download installer release assets from a mirror (#8…](https://github.com/trycua/cua/commit/291025a519d99f7e637511a90349a55b96893dcf) | injaneity |
+| 2026-11-19 | [fix(cua-driver): emit Windows agent cursor hook updates (#8120)](https://github.com/trycua/cua/commit/c951943ac8490d936e0f737dc0b63ad497dbd047) | injaneity |
+| 2026-11-19 | [fix(cua-driver): preserve Windows right-click modifiers (#8113)](https://github.com/trycua/cua/commit/26d98afb5937b60045fcc061130fd69b34a478cb) | injaneity |
 
 [See all commits ↗](https://github.com/trycua/cua/commits)
 

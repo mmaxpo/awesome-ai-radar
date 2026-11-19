@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 36.7k |
-| 🍴 **Forks** | 984 |
+| 🍴 **Forks** | 991 |
 | 🐞 **Open issues + PRs** | [173](https://github.com/casey/just/issues) |
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (3d ago) |
+| 🕒 **Last activity** | 2026-11-15 (4d ago) |
 | 📅 **Created** | 2016-06-17 |
 | 📦 **Latest release** | [1.59.0](https://github.com/casey/just/releases/tag/1.59.0) — 2026-10-15 |
 | 🌿 **Default branch** | `master` |

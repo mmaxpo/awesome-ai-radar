@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [451](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [454](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2014-02-06 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 2026-09-15 |
 | 🌿 **Default branch** | `master` |
@@ -82,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Optimize import time. (#12877)](https://github.com/dmlc/xgboost/commit/9e36e1469f1874b49f8eb76b81d0580e0a5e1172) | trivialfis |
 | 2026-11-18 | [[cat] Use uint8 for backing storage of strings. (#12870)](https://github.com/dmlc/xgboost/commit/b5a8c8913d72ca6bf831ac7c6c5be30b61887e3b) | trivialfis |
 | 2026-11-17 | [[python] Accept SciPy sparse arrays in inplace_predict (#12843)](https://github.com/dmlc/xgboost/commit/b1b2b6fa7fa25ad17d29e9668f1e3811bda9ea03) | caxaxa |
 | 2026-11-17 | [Revert "Cap OpenMP threads at the block count in ParallelFor2d (#1280…](https://github.com/dmlc/xgboost/commit/5f1a7cff76753d26299d2a26aab5994c33a06822) | trivialfis |
@@ -91,7 +92,6 @@
 | 2026-11-17 | [Walk each row once when predicting from a QuantileDMatrix with missin…](https://github.com/dmlc/xgboost/commit/c95da6d3392981eb48f1d1fb8a76c6c75dd54600) | sebastianbreguel |
 | 2026-11-17 | [Bound the Tweedie intercept away from zero (#12848)](https://github.com/dmlc/xgboost/commit/24eeb14c4cad5142b8bd5b36ecda656d76197f64) | caxaxa |
 | 2026-11-17 | [Weight queries without relevant documents in ndcg and map (#12833)](https://github.com/dmlc/xgboost/commit/4fb39509a99daed4f360078e8bcce6b1ff00d3c2) | sohailshk |
-| 2026-11-17 | [Bump vmactions/freebsd-vm (#12860)](https://github.com/dmlc/xgboost/commit/8242acb60ca4278cfa9f814f1e5ad28fd6168a62) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/dmlc/xgboost/commits)
 

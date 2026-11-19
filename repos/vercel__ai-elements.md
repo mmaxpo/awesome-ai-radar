@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.5k |
-| 🍴 **Forks** | 295 |
+| 🍴 **Forks** | 296 |
 | 🐞 **Open issues + PRs** | [126](https://github.com/vercel/ai-elements/issues) |
 | 💻 **Languages** | TypeScript 88% · MDX 12% |
 | 📜 **License** | Other |

@@ -26,7 +26,7 @@
 | 💻 **Languages** | MDX 77% · TypeScript 23% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `framer-motion` `nextjs` `react` `tailwindcss` `typescript` `components` `shadcn-ui` |
-| 🕒 **Last activity** | 2026-11-17 (yesterday) |
+| 🕒 **Last activity** | 2026-11-17 (2d ago) |
 | 📅 **Created** | 2023-06-26 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

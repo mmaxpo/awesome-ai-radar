@@ -20,23 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 42.4k |
+| ⭐ **Stars** | 42.5k |
 | 🍴 **Forks** | 3.5k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/volcengine/OpenViking/issues) |
-| 💻 **Languages** | Python 62% · TypeScript 17% · Rust 11% · JavaScript 4% · MDX 3% |
+| 💻 **Languages** | Python 61% · TypeScript 18% · Rust 10% · JavaScript 4% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-01-05 |
-| 📦 **Latest release** | [react@0.1.14](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.14) — 2026-11-18 |
+| 📦 **Latest release** | [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 424.4 MB |
+| 💾 **Size** | 426.1 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
+### [openviking-superagent@0.5.5-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.5-preview) — OpenViking SuperAgent 0.5.5-preview _(pre-release)_
+<sub>2026-11-19 · today</sub>
+
+> **Install**
+> macOS / Linux / WSL2 (this version):
+> ```sh
+> curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/superagent/releases/0.5.5-preview/install.sh | sh -s -- --version 0.5.5-preview
+> ```
+> Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separately; this command and these release assets are for macOS / Linux.
+> …
+
+### [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — @openviking/react 0.2.0
+<sub>2026-11-19 · today</sub>
+
+> **en-US**
+> **Minor Changes**
+> - 609baba: Let FileBrowser hosts load experience metrics and override individual experience dashboard sections.
+> - 704bec6: Add optional FileBrowser props for hosts to save and restore expanded folders independently of the selected resource.
+>   Hosts can also persist explicit collapses across mounts when home alias resolution is temporarily unavailable.
+> **Patch Changes**
+> …
+
 ### [react@0.1.14](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.14) — @openviking/react 0.1.14
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **en-US**
 > **Minor Changes**
@@ -47,7 +69,7 @@
 > …
 
 ### [openviking-superagent@0.5.4-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.4-preview) — OpenViking SuperAgent 0.5.4-preview _(pre-release)_
-<sub>2026-11-17 · yesterday</sub>
+<sub>2026-11-17 · 2d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -58,7 +80,7 @@
 > …
 
 ### [react@0.1.13](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.13) — @openviking/react 0.1.13
-<sub>2026-11-16 · yesterday</sub>
+<sub>2026-11-16 · 2d ago</sub>
 
 > **en-US**
 > **Patch Changes**
@@ -68,42 +90,20 @@
 >   Align compilation settings with directory and Skill pickers, full-path tooltips, frequency radio cards and time selection. Add file selection, historical comparison and file restore to Wiki history in a full-width document panel with the FileViewer diff renderer, hide history for ordinary resource files and while editing, improve pack upload, and keep model names and dashboard tooltips readable.
 > …
 
-### [openviking-superagent@0.5.3-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.3-preview) — OpenViking SuperAgent 0.5.3-preview _(pre-release)_
-<sub>2026-11-15 · 2d ago</sub>
-
-> **Install**
-> macOS / Linux / WSL2 (this version):
-> ```sh
-> curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/superagent/releases/0.5.3-preview/install.sh | sh -s -- --version 0.5.3-preview
-> ```
-> Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separately; this command and these release assets are for macOS / Linux.
-> …
-
-### [react@0.1.12](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.12) — @openviking/react 0.1.12
-<sub>2026-11-14 · 3d ago</sub>
-
-> **en-US**
-> **Patch Changes**
-> - Connect Console HITL question parsing, ordered answers and conversation continuation. Display and copy readable answer summaries while preserving protocol payloads for transport and storage.
-> - Support per-question field validators, control renderers and custom cards. Preserve input for retry after failed submissions and discard obsolete interactions when reloading or switching sessions.
-> - Unify HITL labels, help text, error tips and invalid-control icons. Clear local errors when input values change.
-> - Preserve drafts across HITL Previous/Next navigation and schedule-frequency changes, and submit all steps once.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [fix(compile): record configuration creation time (#7970)](https://github.com/volcengine/OpenViking/commit/ee47a8f133692ef0b40768adb0a0006f36cf5153) | FuJiaJie123 |
-| 2026-11-18 | [fix(react): restore Console command history after refresh (#7964)](https://github.com/volcengine/OpenViking/commit/4c11e4840338e63612a86f3ae60d297149f5cd17) | yufeng201 |
-| 2026-11-18 | [fix(react): preserve full URIs in Console write results (#7962)](https://github.com/volcengine/OpenViking/commit/61a0546ce1cb9a297b0778538d912ab3cd8f352c) | yufeng201 |
-| 2026-11-18 | [fix(storage): 增量更新以向量记录为准 (#7954)](https://github.com/volcengine/OpenViking/commit/0123636a88ca4c21c6e70d54a1546374e204c321) | qin-ctx |
-| 2026-11-18 | [fix(react): consolidate Compile terminal help (#7958)](https://github.com/volcengine/OpenViking/commit/9dd10ecb70b22256a51ffbaafe2f432f3f256004) | yufeng201 |
-| 2026-11-18 | [refactor(gateway): save each turn when its reply ends and drop the ca…](https://github.com/volcengine/OpenViking/commit/13082a92863ea56174616c51298854de74e33b59) | t0saki |
-| 2026-11-18 | [fix(compile): standardize LLM Wiki conflict states (#7956)](https://github.com/volcengine/OpenViking/commit/c7659f49b4cb9db1e35d9b0257b5312e542be9a1) | FuJiaJie123 |
-| 2026-11-18 | [fix(react): restore the FileBrowser search summary row (#7947)](https://github.com/volcengine/OpenViking/commit/94b18d3b02d644dabac7c6ee6495880b190974a7) | yufeng201 |
-| 2026-11-18 | [fix(compile): keep drafts when routing fails (#7411)](https://github.com/volcengine/OpenViking/commit/4c439769578253e8aa73b1910be9dd01042efa78) | cocolord |
-| 2026-11-18 | [refactor(logging): align retrieval core and utility logs (#7937)](https://github.com/volcengine/OpenViking/commit/fd940d8261133c0a7c2e608d5cece8f9b849600c) | MaojiaSheng |
+| 2026-11-19 | [fix: correct Grep root scopes and search feedback (#8032)](https://github.com/volcengine/OpenViking/commit/909ac00da86570bbdebe14a78f1ad1f0a5404219) | leowld |
+| 2026-11-19 | [fix(react): prevent CLI flash while checking VikingBot status (#8033)](https://github.com/volcengine/OpenViking/commit/478fefc5909980fd945bb5273dd38f8ee9745d46) | leowld |
+| 2026-11-19 | [fix(react): resolve current-user directory roots locally (#8036)](https://github.com/volcengine/OpenViking/commit/a52b5d4a764c4e89cd9ac81a02a05c4a6e2424b7) | leowld |
+| 2026-11-19 | [fix(grep): report capped results in VikingBot and MCP (#7938)](https://github.com/volcengine/OpenViking/commit/b0cb51a4bd0f9639c6c7576fb4029de1c6a91b24) | littleblueprince |
+| 2026-11-19 | [fix(react): preserve terminal code lines (#8044)](https://github.com/volcengine/OpenViking/commit/2b1018a12013c197e1ab2f9c19eef41c3763c099) | yufeng201 |
+| 2026-11-19 | [test(storage): 精简存储与索引契约测试 (#8038)](https://github.com/volcengine/OpenViking/commit/42e861f39e6bb0a6a6c08c3fd2d0ab5c9f25998e) | qin-ctx |
+| 2026-11-19 | [fix(react): use compile create quick command (#8041)](https://github.com/volcengine/OpenViking/commit/8d68b163f15d16aa17398b5660ba2b5156da33cc) | yufeng201 |
+| 2026-11-19 | [docs: move Changes Made below Description in the PR template (#8042)](https://github.com/volcengine/OpenViking/commit/f591acc1a4e072a658b1ca5092a30943a3291134) | qin-ctx |
+| 2026-11-19 | [feat(search): support advanced args for keyword search (#7967)](https://github.com/volcengine/OpenViking/commit/7a934e59b50bb11e634d6e3021bb5eb9c656e7a0) | ByteDanceLiuYang |
+| 2026-11-19 | [fix(studio): hide administration in dev mode (#8039)](https://github.com/volcengine/OpenViking/commit/b5b27720bebc7239fff2edaa24a54664c589615c) | yufeng201 |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

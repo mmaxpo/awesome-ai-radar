@@ -26,7 +26,7 @@
 | 💻 **Languages** | Cython 52% · Python 42% · C 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `cython` `cpython` `cpython-extensions` `c` `cpp` `performance` `big-data` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2010-11-21 |
 | 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1)
-<sub>2026-11-01 · 16d ago</sub>
+<sub>2026-11-01 · 17d ago</sub>
 
 > _No notes._
 
@@ -64,6 +64,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Fix compiler crash on `b'...'.decode()` without an encoding argument …](https://github.com/cython/cython/commit/9d9c0ab154c13d94298e682428c4704c2960f4db) | 0z5a |
 | 2026-11-18 | [Remove left-over reference](https://github.com/cython/cython/commit/0e3d7848c5cdd8e3e44d32589745441f068f5003) | da-woods |
 | 2026-11-18 | [Remove broken URL](https://github.com/cython/cython/commit/4805da2635a276b30705be48bdad3de003b73d0d) | da-woods |
 | 2026-11-17 | [Keep single-character bytes literals as bytes objects when iterating …](https://github.com/cython/cython/commit/e99970f9d42e7f0ccdb3578340526577df634399) | akasakariko |
@@ -73,7 +74,6 @@
 | 2026-11-16 | [Keep the end barrier of prange when code follows it in a parallel blo…](https://github.com/cython/cython/commit/3426ddee1fcbd0400313ffcfd558203471845cc7) | cakedev0 |
 | 2026-11-15 | [Fix use of pass in statement list and where `__future__` is allowed (…](https://github.com/cython/cython/commit/2a4662089231cbfba4bff987fcafa5ca0b62f7eb) | da-woods |
 | 2026-11-14 | [fix implicit __init__.py creation warnings (#8132)](https://github.com/cython/cython/commit/429a8f92889a80722e6de76438f45638169791e9) | dws |
-| 2026-11-14 | [CI: Compare changed file counts numerically in file-changes job (#8139)](https://github.com/cython/cython/commit/90f982f22fdebbc84443025835db467c8d6c3a95) | matusvalo |
 
 [See all commits ↗](https://github.com/cython/cython/commits)
 

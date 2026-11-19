@@ -44,7 +44,7 @@
 > _No notes._
 
 ### [v0.4.5](https://github.com/llmware-ai/llmware/releases/tag/v0.4.5)
-<sub>2026-02-21 · 8mo ago</sub>
+<sub>2026-02-21 · 9mo ago</sub>
 
 > _No notes._
 

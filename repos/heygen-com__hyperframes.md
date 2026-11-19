@@ -20,90 +20,84 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 86.3k |
-| 🍴 **Forks** | 8.0k |
-| 🐞 **Open issues + PRs** | [294](https://github.com/heygen-com/hyperframes/issues) |
+| ⭐ **Stars** | 86.8k |
+| 🍴 **Forks** | 8.1k |
+| 🐞 **Open issues + PRs** | [299](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `framework` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-03-10 |
-| 📦 **Latest release** | [v0.9.66](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.66) — 2026-11-18 |
+| 📦 **Latest release** | [v0.9.70](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.70) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 534.1 MB |
+| 💾 **Size** | 534.5 MB |
 | 🌐 **Website** | https://hyperframes.heygen.com |
 
 ## 📦 Recent releases
 
-### [v0.9.66](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.66)
+### [v0.9.70](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.70)
+<sub>2026-11-19 · today</sub>
+
+> **HyperFrames v0.9.70**
+> Released on 2026-11-19.
+> Projects with many SVG references or large sets of variables compile faster, and files whose path holds a tab join again. A provider key in your own project's .env file is used again, as the docs describe.
+> **Fixes**
+> - **Media Use:** Recipe, prefs and SFX lines show control characters as escapes ([36b60d18b4](https://github.com/heygen-com/hyperframes/commit/36b60d18b488999a36748693ef04fc3516e40aa4), [#8202](https://github.com/heygen-com/hyperframes/pull/8202)).
+> - **Render:** Keep segment checkpoints in the local cache ([e5283f63b9](https://github.com/heygen-com/hyperframes/commit/e5283f63b90dfe1bd4da45391dcd6969d3475462), [#8137](https://github.com/heygen-com/hyperframes/pull/8137)).
+> …
+
+### [v0.9.69](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.69)
 <sub>2026-11-18 · today</sub>
 
-> **HyperFrames v0.9.66**
+> **HyperFrames v0.9.69**
 > Released on 2026-11-18.
-> Studio's sealed preview now takes property edits, crops, resizes and plays slideshow scenes. A preview no longer sits in Buffering when a clip stops downloading, and the player can carry your own branding.
+> Image captioning in `capture` can now use a short-lived Vertex access token instead of a service-account key file. In Studio, a script edit in a sealed preview re-runs in place, without reloading the page.
 > **Features**
-> - **Player:** Add customizable branding to the preview player ([a9b4745f1](https://github.com/heygen-com/hyperframes/commit/a9b4745f1f9773cc0dcd1f6d81b942ce97335f87), [#7718](https://github.com/heygen-com/hyperframes/pull/7718)).
+> - **Capture:** Accept a short-lived Vertex access token for image captioning ([e0470b0add](https://github.com/heygen-com/hyperframes/commit/e0470b0add0569e158b0b07109155a9c760a72e3), [#8215](https://github.com/heygen-com/hyperframes/pull/8215)).
 > **Fixes**
 > …
 
-### [v0.9.65](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.65)
+### [v0.9.68](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.68)
 <sub>2026-11-18 · today</sub>
 
-> **HyperFrames v0.9.65**
-> Released on 2026-11-17.
-> Studio's sealed preview now draws motion paths, reads keyframes and keeps a moved layer in place when you add a keyframe. Studio's error and analytics events no longer carry your error text, file paths or selectors.
+> **HyperFrames v0.9.68**
+> Released on 2026-11-18.
+> A render whose page Chrome closed while opening now reopens it, or says why it can't. Sealed previews keep an unsized video's own size and show animated values, and renders can send all their traffic through one outbound proxy.
 > **Features**
-> - **Studio Server:** Let a host count the requests the API refuses with 403 ([078e54d00](https://github.com/heygen-com/hyperframes/commit/078e54d0089f57c9513dbcb5d07ea092f7be907b), [#8049](https://github.com/heygen-com/hyperframes/pull/8049)).
+> - **Engine:** Renders send page traffic through the egress proxy in HYPERFRAMES_CAPTURE_PROXY ([a2830467e](https://github.com/heygen-com/hyperframes/commit/a2830467e4d106d5058de89bb0d2c20d83d2cc4e), [#8196](https://github.com/heygen-com/hyperframes/pull/8196)).
 > **Fixes**
 > …
 
-### [v0.9.64](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.64)
-<sub>2026-11-17 · today</sub>
+### [v0.8.190-hdr.2](https://github.com/heygen-com/hyperframes/releases/tag/v0.8.190-hdr.2) _(pre-release)_
+<sub>2026-11-18 · today</sub>
 
-> **HyperFrames v0.9.64**
-> Released on 2026-11-17.
-> Hover and thumbnail captures no longer wait on a 4K clip's preview copy. In a sealed preview, scrubbing plays the music track and timeline rows know their element. `hyperframes check` finds text over a face. Studio's proxy refuses requests with no same-site signal. A stable release now needs a second maintainer besides its approver.
-> **Features**
-> - **CLI:** `check` finds text over a face, `measure` cuts the names of resumed takes, and `measure` reports hands ([820d63d7f](https://github.com/heygen-com/hyperframes/commit/820d63d7f9e2a5fafc0a0230e8b4c8dc5447d995), [#8074](https://github.com/heygen-com/hyperframes/pull/8074)).
-> **Fixes**
-> …
+> **What's Changed**
+> **Other Changes**
+> * fix(cli): isolate the skills freshness check on the hdr prerelease by @terencecho in https://github.com/heygen-com/hyperframes/pull/8199
+> **Full Changelog**: https://github.com/heygen-com/hyperframes/compare/v0.8.190-hdr.1...v0.8.190-hdr.2
 
-### [v0.9.63](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.63)
-<sub>2026-11-17 · today</sub>
+### [v0.9.28-alpha.4](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.28-alpha.4) _(pre-release)_
+<sub>2026-11-18 · today</sub>
 
-> **HyperFrames v0.9.63**
-> Released on 2026-11-17.
-> Studio's sealed preview shows audio meters and audio groups, a layer reorder is one undo step again, and text films start sooner. No HyperFrames server serves a project file as a service worker's script. This release also carries every change listed for 0.9.62. That version never reached npm: the merge queue landed it in one push with another PR, and the publish read only the push's last commit. Since #8077 a release publishes from its own commit in the push.
-> **Features**
-> - **Core:** The preview can stream an element's geometry to the editor every frame ([f9c5ed07b](https://github.com/heygen-com/hyperframes/commit/f9c5ed07bfc287b4097676b6c06e46b8f652e6c8), [#8052](https://github.com/heygen-com/hyperframes/pull/8052)).
-> **Performance**
-> …
-
-### [v0.9.61](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.61)
-<sub>2026-11-17 · yesterday</sub>
-
-> **HyperFrames v0.9.61**
-> Released on 2026-11-17.
-> Received projects and the files they reach stay inside their own folder across render, preview and Studio, and a sealed preview reloads in place in a fraction of a second. This release also carries every change listed for 0.9.60. That version never reached npm: its publish was refused because it ran from the release PR's merge ref, and since #8020 a stable release publishes from the push to `main` that merges it.
-> **Features**
-> - **Engine:** Render telemetry says why a page cannot reuse still frames ([c8df284b2](https://github.com/heygen-com/hyperframes/commit/c8df284b2ed15ae0ade05bf90e95192d05f3d1c6), [#7993](https://github.com/heygen-com/hyperframes/pull/7993)).
-> - **Studio:** An element's source-parsed animations are part of Studio's API ([efc91fc87](https://github.com/heygen-com/hyperframes/commit/efc91fc877d89d8057611dd87c81220be46df9a2), [#8061](https://github.com/heygen-com/hyperframes/pull/8061)).
-> …
+> **What's Changed**
+> **Other Changes**
+> * fix(cli): isolate the skills freshness check on the alpha prerelease by @terencecho in https://github.com/heygen-com/hyperframes/pull/8197
+> **Full Changelog**: https://github.com/heygen-com/hyperframes/compare/v0.9.28-alpha.3...v0.9.28-alpha.4
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [perf(core): count an svg id scope's renames once, not on every styles…](https://github.com/heygen-com/hyperframes/commit/67410727e63cd0de3e4013d1de2dd997790a7866) | miguel-heygen |
-| 2026-11-18 | [fix(cli): the very-many-files received-render test stops timing out o…](https://github.com/heygen-com/hyperframes/commit/3db2da06c9eae7ecccb74c4e777739a2677d7aa9) | miguel-heygen |
-| 2026-11-18 | [fix(studio-server): an inserted scene names its file from the project…](https://github.com/heygen-com/hyperframes/commit/f38e1e6defe59c97d2acec2595bafe34ac97fc9c) | miguel-heygen |
-| 2026-11-18 | [fix(studio): refused group, freeze frame and animation saves keep the…](https://github.com/heygen-com/hyperframes/commit/2efb55ecb5e5f5df02192b1de53facbb26cd90e5) | miguel-heygen |
-| 2026-11-18 | [fix(producer): fetch each remote script and stylesheet once, a few at…](https://github.com/heygen-com/hyperframes/commit/4bdf9181b4069fbe6ea2a230ad7eb695948057c8) | miguel-heygen |
-| 2026-11-18 | [fix(studio): a 3D slider drag previews live in a sealed preview (#8148)](https://github.com/heygen-com/hyperframes/commit/75992d82adf5d33aa874809a406b819e540c3348) | miguel-heygen |
-| 2026-11-18 | [chore: release v0.9.66 (#8172)](https://github.com/heygen-com/hyperframes/commit/1a82f6e9d65a2e50502cc411711b6a28481738c0) | miguel-heygen |
-| 2026-11-18 | [chore(aws-lambda): give the packed size budget its usual 5% headroom …](https://github.com/heygen-com/hyperframes/commit/c696c0e1573d45111f117e365b9095d157638a53) | jrusso1020 |
-| 2026-11-18 | [test(studio): edit accuracy waits for Studio to report the film loade…](https://github.com/heygen-com/hyperframes/commit/b90b8d1bb308f19ab82b7eac73a5fadaac88bf49) | miguel-heygen |
-| 2026-11-18 | [revert(producer): a render that fails on a missing file stops naming …](https://github.com/heygen-com/hyperframes/commit/94d06663b114de340cb74f4368936f43810c2850) | miguel-heygen |
+| 2026-11-19 | [fix(producer): cap compile-time remote downloads, give them one deadl…](https://github.com/heygen-com/hyperframes/commit/77ea9d80cfc8b347ccca966487a8ff902ce28320) | miguel-heygen |
+| 2026-11-19 | [fix: stop crashing on SVG elements named template (#8241)](https://github.com/heygen-com/hyperframes/commit/d106f9c8c7eacce9ae30275f9e78d715dd269e10) | miguel-heygen |
+| 2026-11-19 | [fix(core): read selector aliases only from what the compiler wrote (#…](https://github.com/heygen-com/hyperframes/commit/def770ed9886171789f420d9cd3fcd79eaace91b) | miguel-heygen |
+| 2026-11-19 | [fix(core): page runtimes carry no wide characters, so pages stay one …](https://github.com/heygen-com/hyperframes/commit/01a5e948beb984e0ea19f8939d4a5ae2b242f117) | miguel-heygen |
+| 2026-11-19 | [fix(media-use): re-freezing a recipe archives only under an integer v…](https://github.com/heygen-com/hyperframes/commit/e383abf475b6ebd5072d6aa1cb380bc7d984c629) | WaterrrForever |
+| 2026-11-19 | [chore: release v0.9.70 (#8234)](https://github.com/heygen-com/hyperframes/commit/592a9feff9aacce8c25246b04aa4fda54bea294d) | miguel-heygen |
+| 2026-11-19 | [fix(media-use): recipe, prefs and SFX lines show control characters a…](https://github.com/heygen-com/hyperframes/commit/36b60d18b488999a36748693ef04fc3516e40aa4) | WaterrrForever |
+| 2026-11-19 | [fix(render): keep segment checkpoints in the local cache (#8137)](https://github.com/heygen-com/hyperframes/commit/e5283f63b90dfe1bd4da45391dcd6969d3475462) | terencecho |
+| 2026-11-19 | [fix(skills): raise the launcher minimum to 0.9.68 (#8232)](https://github.com/heygen-com/hyperframes/commit/a4995e9e6f3856292bf957e5b376600a634b918c) | terencecho |
+| 2026-11-19 | [perf(core): rewrite svg attribute selectors in linear time over many …](https://github.com/heygen-com/hyperframes/commit/c672ef0e5d03a9f7410db7352172bd8fc75ddde6) | miguel-heygen |
 
 [See all commits ↗](https://github.com/heygen-com/hyperframes/commits)
 

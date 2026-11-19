@@ -21,22 +21,44 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.0k |
-| 🍴 **Forks** | 471 |
-| 🐞 **Open issues + PRs** | [20](https://github.com/homeassistant-ai/ha-mcp/issues) |
+| 🍴 **Forks** | 472 |
+| 🐞 **Open issues + PRs** | [19](https://github.com/homeassistant-ai/ha-mcp/issues) |
 | 💻 **Languages** | Python 96% · JavaScript 2% · Astro 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `claude` `hacs` `home-assistant` `home-automation` `llm` `mcp` `model-context-protocol` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2025-09-14 |
-| 📦 **Latest release** | [v9.3.0.dev3621](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3621) — 2026-11-17 |
+| 📦 **Latest release** | [v9.3.0.dev3632](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3632) — 2026-11-19 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 62.4 MB |
+| 💾 **Size** | 62.1 MB |
 | 🌐 **Website** | https://homeassistant-ai.github.io/ha-mcp/ |
 
 ## 📦 Recent releases
 
+### [v9.3.0.dev3632](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3632) — Dev Build 9.3.0.dev3632 _(pre-release)_
+<sub>2026-11-19 · today</sub>
+
+> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@9d44f10, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3632.
+> You receive these builds because the HACS **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
+> Changes since the previous pre-release:
+> - test: run the remaining replaced steps for real (#3148)
+> - test: close private-string access gaps and add an exemption-free guard (#3146)
+> …
+
+### [v9.3.0.dev3626](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3626) — Dev Build 9.3.0.dev3626 _(pre-release)_
+<sub>2026-11-18 · today</sub>
+
+> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@4dc8530, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3626.
+> You receive these builds because the HACS **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
+> Changes since the previous pre-release:
+> - refactor: consolidate automatic E2E lanes on fewer runners (#3141)
+> - deps(deps-dev): bump openai from 3.46.0 to 3.49.0 (#3143)
+> …
+
 ### [v9.3.0.dev3621](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3621) — Dev Build 9.3.0.dev3621 _(pre-release)_
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
 > Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@f4c6a3e, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3621.
@@ -47,7 +69,7 @@
 > …
 
 ### [v9.3.0.dev3618](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3618) — Dev Build 9.3.0.dev3618 _(pre-release)_
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
 > Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@96e2214, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3618.
@@ -58,7 +80,7 @@
 > …
 
 ### [v9.3.0.dev3617](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3617) — Dev Build 9.3.0.dev3617 _(pre-release)_
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
 > Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@b61bbdd, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3617.
@@ -68,42 +90,20 @@
 > **Other installs**
 > …
 
-### [v9.3.0.dev3615](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3615) — Dev Build 9.3.0.dev3615 _(pre-release)_
-<sub>2026-11-17 · today</sub>
-
-> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@ba2aef6, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3615.
-> You receive these builds because the HACS **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
-> Changes since the previous pre-release:
-> - ci: raise pyproject floors and re-lock on a vendored FastMCP bump (#3135)
-> **Other installs**
-> …
-
-### [v9.3.0.dev3612](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3612) — Dev Build 9.3.0.dev3612 _(pre-release)_
-<sub>2026-11-17 · today</sub>
-
-> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@efbcc9d, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3612.
-> You receive these builds because the HACS **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
-> Changes since the previous pre-release:
-> - docs: keep the native contracts doc to general rules (#3134)
-> **Other installs**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [deps(deps-dev): bump openai from 3.46.0 to 3.49.0 (#3143)](https://github.com/homeassistant-ai/ha-mcp/commit/635cb93b23ef8657d9f62f68cb0fd234bf16056d) | dependabot[bot] |
-| 2026-11-17 | [deps(deps): bump uncalled-for from 0.6.0 to 0.6.1 (#3142)](https://github.com/homeassistant-ai/ha-mcp/commit/07eb6ce2b698b69b5001ba98932e6a21d8b20395) | dependabot[bot] |
-| 2026-11-17 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/48bea5b6321b5f68bcb5e0544b6da27fbe22da08) | github-actions[bot] |
-| 2026-11-17 | [chore(addon): publish dev addon version 9.3.0.dev3621 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/7d0b53c3ea12512848366f54bfe85f80c4feb7d1) | github-actions[bot] |
-| 2026-11-17 | [test: move the remaining unit tests onto real Core, the real frontend…](https://github.com/homeassistant-ai/ha-mcp/commit/f4c6a3ecfb8cae06360d8b0a8dcbc9f375c59ef7) | kingpanther13 |
-| 2026-11-17 | [chore(addon): publish dev addon version 9.3.0.dev3618 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/37f4d8f7a3700fec18a6f6eba30eeae43c1cab5e) | github-actions[bot] |
-| 2026-11-17 | [chore(addon): publish dev addon version 9.3.0.dev3617 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/d9167ef6a12b3aeacf5b84e5480461bd940c2367) | github-actions[bot] |
-| 2026-11-17 | [chore(deps): update ghcr.io/astral-sh/uv docker tag to v0.13.9 (#3140)](https://github.com/homeassistant-ai/ha-mcp/commit/96e2214b4d8c66cc40d81aa8b507af2ce5a90644) | ha-mcp-renovate[bot] |
-| 2026-11-17 | [chore(deps): update dependency fastmcp-slim to v4.1.8 (#3139)](https://github.com/homeassistant-ai/ha-mcp/commit/b61bbdd4173cca4c0f965033c5a686e6f380eed3) | ha-mcp-renovate[bot] |
-| 2026-11-17 | [chore(addon): publish dev addon version 9.3.0.dev3615 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/d46b3c8491a97064748f04d6f36368aafc5a31dd) | github-actions[bot] |
+| 2026-11-19 | [deps(deps): bump cyclopts from 5.4.0 to 5.4.1 (#3151)](https://github.com/homeassistant-ai/ha-mcp/commit/b3bcd49938dc8645a4b47562ebe2d437f964899d) | dependabot[bot] |
+| 2026-11-19 | [chore(addon): publish dev addon version 9.3.0.dev3632 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/0507590a00349b7e59d1b63391492baf108dcda9) | github-actions[bot] |
+| 2026-11-19 | [deps(deps-dev): bump ast-grep-cli from 0.51.1 to 0.51.2 (#3150)](https://github.com/homeassistant-ai/ha-mcp/commit/3342ae75b98b11e0689d142511e696c08eebc32f) | dependabot[bot] |
+| 2026-11-19 | [chore(addon): publish dev addon version 9.3.0.dev3631 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/1e822924e70727f564f9b9d6674637a6318d4476) | github-actions[bot] |
+| 2026-11-19 | [chore(addon): publish dev addon version 9.3.0.dev3629 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/cfac8717f40a6a6301845515458dd77883708d7c) | github-actions[bot] |
+| 2026-11-19 | [test: run the remaining replaced steps for real (#3148)](https://github.com/homeassistant-ai/ha-mcp/commit/9d44f1024f179c58c6793fa037fbb981c9264a37) | kingpanther13 |
+| 2026-11-19 | [test: close private-string access gaps and add an exemption-free guar…](https://github.com/homeassistant-ai/ha-mcp/commit/634aec4557d004ff78a72e8548db99979142d7e2) | kingpanther13 |
+| 2026-11-19 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/5e0d75754e151e22aa9a7124c65c88ab367f94a8) | github-actions[bot] |
+| 2026-11-19 | [test: remove the final 41 SLF001 exemptions (#3145)](https://github.com/homeassistant-ai/ha-mcp/commit/5694d2bf0e975bdad04589a91b0c35341a7ae2e1) | kingpanther13 |
+| 2026-11-18 | [chore(addon): publish dev addon version 9.3.0.dev3626 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/dbfe16885fbf6d8f692ef52549a80b627fe5f6c0) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/homeassistant-ai/ha-mcp/commits)
 

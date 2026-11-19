@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [239](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [243](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 58.0 MB |
+| 💾 **Size** | 58.3 MB |
 | 🌐 **Website** | http://keras.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Stop using `backend.floatx` and instead import `config` (#24292)](https://github.com/keras-team/keras/commit/9e044ad0d766ffc6a9526d23e334ad61b848acc5) | hertschuh |
+| 2026-11-18 | [Check each op under bfloat16 and float16 floatx in OpTest (#24266)](https://github.com/keras-team/keras/commit/4a1c5a3c9b9af3c09a6d11aabe64fbe6ad070ace) | gaga1313 |
+| 2026-11-18 | [Stop using `backend.epsilon` and instead import `config` (#24289)](https://github.com/keras-team/keras/commit/f0a2630735dccbd628a4b054ad4abfdc24bf00b4) | hertschuh |
+| 2026-11-18 | [Make TensorFlow follow x64_mode (#24265)](https://github.com/keras-team/keras/commit/791137e8f8b8ee61e01dc5ccd298e81cff57122a) | gaga1313 |
+| 2026-11-18 | [Remove in-place operators on tensors (#24280)](https://github.com/keras-team/keras/commit/2c9d6f34908d9c6a555d2ebf64f3da9c25c2cc2e) | SamanehSaadat |
+| 2026-11-18 | [Check each op has finite gradients in OpTest (#24277)](https://github.com/keras-team/keras/commit/1fbb849cd5c3b72503ce52b5b751cb90457b6a4f) | gaga1313 |
 | 2026-11-18 | [Check dtype= argument in OpTest (#24268)](https://github.com/keras-team/keras/commit/1b51c059877036354b6f8498e9d23d050f86a4c9) | gaga1313 |
 | 2026-11-18 | [Convert 64-bit integers to float64 in elementwise ops under explicit_…](https://github.com/keras-team/keras/commit/da6a344b4382a04da26ec83795080c111bd24a86) | gaga1313 |
 | 2026-11-17 | [Suppress spurious divide-by-zero warning in numpy divide_no_nan (#24201)](https://github.com/keras-team/keras/commit/7e7e213c1d0bf505d278d8d03516390f7e1db4e0) | SID-6921 |
 | 2026-11-17 | [Honor copy argument in Variable.__array__ (#24275)](https://github.com/keras-team/keras/commit/ba23a7e4855be77d2da9f94b074c495a1c6305cb) | SamanehSaadat |
-| 2026-11-17 | [Stop re-exporting OpTest classes from keras.src.testing (#24276)](https://github.com/keras-team/keras/commit/fa24714ee0f335cd855bfcbc6b7a65a297411004) | SamanehSaadat |
-| 2026-11-17 | [Build(deps): Bump the github-actions group with 5 updates (#24274)](https://github.com/keras-team/keras/commit/8030854e5a95f22d254945a664f267834f9246f7) | dependabot[bot] |
-| 2026-11-17 | [Avoid UnitNormalization graph break in torch.compile (#24159)](https://github.com/keras-team/keras/commit/ac4e3f9a25bb5b2952e87955cdabf4f909d93654) | sandeepvijayarao09 |
-| 2026-11-17 | [Fix torch vdot for multi-dimensional inputs and kron for non-contiguo…](https://github.com/keras-team/keras/commit/a515ddc43603c3aaf60ae56efa05d9738aecafc5) | Viranshul-P |
-| 2026-11-17 | [Preserve caller sample weights when applying loss masks (#24256)](https://github.com/keras-team/keras/commit/e0f34121a3087a600214f9eb6bd2680b574911d2) | FactualExplorer |
-| 2026-11-17 | [Resolve weak floats and cbrt to floatx under bfloat16 and float16 (#2…](https://github.com/keras-team/keras/commit/34de92f06f2e15ae02261df9c49e03d98ba21adc) | gaga1313 |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

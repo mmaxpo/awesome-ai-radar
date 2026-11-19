@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 25.4k |
+| ⭐ **Stars** | 25.5k |
 | 🍴 **Forks** | 2.9k |
 | 🐞 **Open issues + PRs** | [25](https://github.com/walkinglabs/learn-harness-engineering/issues) |
 | 💻 **Languages** | TypeScript 83% · Shell 8% · JavaScript 5% · Python 3% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `harness` `harness-engineering` `harness-framework` `llm` `ai` `ai-agent` `agentic` `agentic-ai` `dsh-plugin` `dsh` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-15 (3d ago) |
+| 🕒 **Last activity** | 2026-11-15 (4d ago) |
 | 📅 **Created** | 2026-03-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

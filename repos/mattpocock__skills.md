@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 327.2k |
+| ⭐ **Stars** | 327.9k |
 | 🍴 **Forks** | 27.5k |
-| 🐞 **Open issues + PRs** | [252](https://github.com/mattpocock/skills/issues) |
+| 🐞 **Open issues + PRs** | [258](https://github.com/mattpocock/skills/issues) |
 | 💻 **Languages** | Shell 73% · JavaScript 27% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-02-03 |
 | 📦 **Latest release** | [v1.3.2](https://github.com/mattpocock/skills/releases/tag/v1.3.2) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.2](https://github.com/mattpocock/skills/releases/tag/v1.3.2)
-<sub>2026-10-29 · 20d ago</sub>
+<sub>2026-10-29 · 21d ago</sub>
 
 > **Patch Changes**
 > - [#1194](https://github.com/mattpocock/skills/pull/1194) [`b645f47`](https://github.com/mattpocock/skills/commit/b645f47de3e17ed3bf60586c9bebb8092e0f79fd) Thanks [@mattpocock](https://github.com/mattpocock)! - `ask-matt` now reads a skill's `SKILL.md` before stating what it does or recommending a step be skipped, instead of trusting its own one-line summaries ([#614](https://github.com/mattpocock/skills/issues/614)).
@@ -92,16 +92,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Merge pull request #1455 from mattpocock/ci-frontmatter-check](https://github.com/mattpocock/skills/commit/abeeaf95660ba9e8b7c753eb38f441ca707a8823) | mattpocock |
+| 2026-11-19 | [ci: check every SKILL.md's frontmatter parses with the installer's YA…](https://github.com/mattpocock/skills/commit/37209058e45b7c60b36218b7392df0ebcceb247a) | bot |
+| 2026-11-19 | [Merge pull request #1453 from mattpocock/fix-software-factory-frontma…](https://github.com/mattpocock/skills/commit/3a05171775a49076900759e0dd1b3ef8e2671323) | mattpocock |
+| 2026-11-19 | [fix(software-factory): quote description so strict YAML parsers accep…](https://github.com/mattpocock/skills/commit/9201b96da4af2d663faa13bef984095bb69059b1) | bot |
 | 2026-11-12 | [Merge pull request #1416 from mattpocock/software-factory-task-wording](https://github.com/mattpocock/skills/commit/5863806dd4e15c63174bee4e7515a4256792ecfa) | mattpocock |
 | 2026-11-11 | [software-factory: "job" is the CI vendor's word; explore leaves findings](https://github.com/mattpocock/skills/commit/d18183fe9d96e1240105a8534e53591e9b49afd7) | Matt Pocock |
 | 2026-10-31 | [software-factory: glossary skill for designing a factory (#1316)](https://github.com/mattpocock/skills/commit/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d) | mattpocock |
 | 2026-10-31 | [chief-of-staff: shared wiki first; retro and implement-spec as proced…](https://github.com/mattpocock/skills/commit/5ae481693d13b37d4d2c2c92d0b66d299c93e695) | mattpocock |
 | 2026-10-29 | [implement-spec: a fresh implementer subagent per ticket (#1342)](https://github.com/mattpocock/skills/commit/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa) | mattpocock |
 | 2026-10-29 | [chore: version skills (#1161)](https://github.com/mattpocock/skills/commit/d1478fcb140db0b93c0c8df17bcfd311844749d0) | github-actions[bot] |
-| 2026-10-29 | [Start subagents with a fresh context window, not a fork (#1341)](https://github.com/mattpocock/skills/commit/7739eaed7f8f3915437a8def198a6d0d7206dbc7) | mattpocock |
-| 2026-10-27 | [Close blank issues and route requests by kind (#1169)](https://github.com/mattpocock/skills/commit/59db609eb1e18aaf59b63284d0e52255aff0c63c) | mattpocock |
-| 2026-10-27 | [setup-matt-pocock-skills: reachable repo, legacy CONTEXT.md, tracker …](https://github.com/mattpocock/skills/commit/ed0de59eb5de8c2730a650cc69f588ffa64c1040) | mattpocock |
-| 2026-10-19 | [chief-of-staff: keep memory in a dated, commit-cited wiki (#1304)](https://github.com/mattpocock/skills/commit/5beb35b040e3de97e54fa9e386d7e42d15c295c2) | mattpocock |
 
 [See all commits ↗](https://github.com/mattpocock/skills/commits)
 

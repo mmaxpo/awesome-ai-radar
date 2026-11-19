@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 13.3k |
-| 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [59](https://github.com/assistant-ui/assistant-ui/issues) |
+| 🍴 **Forks** | 1.4k |
+| 🐞 **Open issues + PRs** | [29](https://github.com/assistant-ui/assistant-ui/issues) |
 | 💻 **Languages** | TypeScript 84% · MDX 10% · JavaScript 3% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `conversational-ai` `radix-ui` `shadcn` `ui-components` `copilot` `chatbot` `vercel-ai-sdk` `ai-chatbot` `react-chatbot` `base-ui` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2023-11-22 |
 | 📦 **Latest release** | [@assistant-ui/core@0.3.37](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 205.7 MB |
+| 💾 **Size** | 206.8 MB |
 | 🌐 **Website** | https://www.assistant-ui.com |
 
 ## 📦 Recent releases
 
 ### [@assistant-ui/core@0.3.37](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **Patch Changes**
 > - [#10593](https://github.com/assistant-ui/assistant-ui/pull/10593) [`528bfe9`](https://github.com/assistant-ui/assistant-ui/commit/528bfe964f1306f7070fd4efe034873b5f1cfe45) - `MessageRepository.import` now leaves the repository unchanged when it throws, for example when a message's parent or the head is missing. Thread `import` and `reset`, and loading history in the local runtime, check the data before clearing the current messages, so a history that cannot be placed no longer empties the thread. ([@Yonom](https://github.com/Yonom))
@@ -47,13 +47,13 @@
 > …
 
 ### [@assistant-ui/x-generative-compiler@0.0.22](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/x-generative-compiler%400.0.22)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **Patch Changes**
 > - [#10709](https://github.com/assistant-ui/assistant-ui/pull/10709) [`08aa6f1`](https://github.com/assistant-ui/assistant-ui/commit/08aa6f1e19dc5228546cbc6878d6de510f0cd19e) - fix: drop module bindings that only a stripped region used, whatever their initializer, so calls and constructors such as `createDb(...)` or `new PrismaClient(...)` that only a backend `execute` needed no longer stay in the client build. A file whose `"use generative"` directive is not its first statement now fails the build instead of shipping uncompiled, and `withAui` runs the loader on every JS/TS extension, including `.mts` and `.cts`. ([@Yonom](https://github.com/Yonom))
 
 ### [@assistant-ui/vue@0.0.8](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vue%400.0.8)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **Patch Changes**
 > - [#10656](https://github.com/assistant-ui/assistant-ui/pull/10656) [`cba4061`](https://github.com/assistant-ui/assistant-ui/commit/cba406112b09de49e99764b51a9d90a8ca952cc7) - keep the viewport footer inset accurate as content grows and its top margin changes. ([@okisdev](https://github.com/okisdev))
@@ -64,14 +64,14 @@
 > …
 
 ### [@assistant-ui/vite@0.0.22](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vite%400.0.22)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **Patch Changes**
 > - Updated dependencies [[`08aa6f1`](https://github.com/assistant-ui/assistant-ui/commit/08aa6f1e19dc5228546cbc6878d6de510f0cd19e)]:
 >   - @assistant-ui/x-generative-compiler@0.0.22
 
 ### [@assistant-ui/variants@0.0.5](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/variants%400.0.5)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **Patch Changes**
 > - [#10604](https://github.com/assistant-ui/assistant-ui/pull/10604) [`9c7de04`](https://github.com/assistant-ui/assistant-ui/commit/9c7de0413212819811d38af4a30944e9611859d1) - fix: the Next.js route handlers now check the client address like the Vite plugin, and refuse requests whose address is unknown unless `allowRemoteClients` is set. ([@Yonom](https://github.com/Yonom))
@@ -80,16 +80,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [fix(adapters): forward core's store and tap peers (#10704)](https://github.com/assistant-ui/assistant-ui/commit/03c06506107f55a7bc11bed616a2fed06af8a8ba) | okisdev |
-| 2026-11-18 | [fix(core): runtime extras expose useExtras so the React Compiler sees…](https://github.com/assistant-ui/assistant-ui/commit/ac873e5d3aded57180cbb8f2ec17fa109db6e4cd) | okisdev |
-| 2026-11-18 | [fix(ui): media, attachment swatches and source favicons load remote u…](https://github.com/assistant-ui/assistant-ui/commit/152efcfe7601325ab9b7fa1dec41e5c6c768d1b3) | Yonom |
-| 2026-11-18 | [perf(assistant-stream): many-part streams decode with less merge over…](https://github.com/assistant-ui/assistant-ui/commit/709a0cc74b14b6196b9e9466ecac58b502ae70e5) | Yonom |
-| 2026-11-18 | [fix(react-langchain): preserve prior tool outputs on edit (#10688)](https://github.com/assistant-ui/assistant-ui/commit/bf541446c512dde599b7f36151c9b35e0453fadf) | rupic-app[bot] |
-| 2026-11-18 | [fix(examples): guard remaining model routes from cross-site requests …](https://github.com/assistant-ui/assistant-ui/commit/18e5b35458d87956c4859a235eb0cdce5f1e8c6b) | rupic-app[bot] |
-| 2026-11-18 | [fix(remote-components): limit dev CORS and closed-policy image/media …](https://github.com/assistant-ui/assistant-ui/commit/5cdc7a3266708e4718071551590f642a7a77846c) | Yonom |
-| 2026-11-18 | [ci(python): python CI runs PostgreSQL thread-store cases (#10648)](https://github.com/assistant-ui/assistant-ui/commit/af4f279dc6fa04c581c80cf99ae41fd47476c62d) | egg119 |
-| 2026-11-18 | [fix: disabled frontend tools no longer run, and set_form_field only s…](https://github.com/assistant-ui/assistant-ui/commit/9906ce658c309e57b138c5232f2fb1b09cdb55f8) | Yonom |
-| 2026-11-18 | [fix(release): waits up to 15 minutes for npm versions before tagging …](https://github.com/assistant-ui/assistant-ui/commit/11afc90119d4ebe2d569e8ae6ddce2e81bc4401b) | Kinfe123 |
+| 2026-11-19 | [ci: durable example tests run in coverage and Python CI (#10692)](https://github.com/assistant-ui/assistant-ui/commit/f5bdd2bbe216964602c59887b885d135b17a6375) | Kinfe123 |
+| 2026-11-19 | [fix(react-ag-ui): rejoined clients persist one shared assistant answe…](https://github.com/assistant-ui/assistant-ui/commit/3ebd6d27281fd63d7542d79a341649368435d9ba) | okisdev |
+| 2026-11-19 | [ci(registry): filtered docs installs skip the Vercel CLI (#10541)](https://github.com/assistant-ui/assistant-ui/commit/c20914f3eef5de3bd25d54b10688fc278d272334) | Kinfe123 |
+| 2026-11-19 | [build: package docs no longer invalidate dependent package tasks (#10…](https://github.com/assistant-ui/assistant-ui/commit/fe99f9843218f19c938b6ca0ecb52271b2ffef18) | Kinfe123 |
+| 2026-11-19 | [fix(react-devtools): production builds render no DevToolsModal (#10516)](https://github.com/assistant-ui/assistant-ui/commit/1b37ba21d631221269b53dfb49b683f3fefe5bf7) | Kinfe123 |
+| 2026-11-19 | [fix(react-hook-form): guard submit_form's DOM checks (#10740)](https://github.com/assistant-ui/assistant-ui/commit/99167cd5b115ada495439386da2a4acf0fc708a0) | lhy-dcf |
+| 2026-11-19 | [fix(core): run development checks in browser builds (#10742)](https://github.com/assistant-ui/assistant-ui/commit/74199f892e29cc9377eb13b515de64a0ccadaf08) | rupic-app[bot] |
+| 2026-11-19 | [fix(perf): chrome spawn failures reject traces and clean up profiles …](https://github.com/assistant-ui/assistant-ui/commit/076c26f015d6d6aeec9d9640954c51da0e310ca0) | Kinfe123 |
+| 2026-11-19 | [feat(core): preserve redacted reasoning from external stores (#10515)](https://github.com/assistant-ui/assistant-ui/commit/ed4e64513d5e34a38488b5e77a390a7c5878b0b1) | Johnx-w |
+| 2026-11-19 | [docs(assistant-stream): recommend streamfold 0.1.20 (#10700)](https://github.com/assistant-ui/assistant-ui/commit/297420f1dcaf28965762dd4ceb3e2ae6799d352d) | Kinfe123 |
 
 [See all commits ↗](https://github.com/assistant-ui/assistant-ui/commits)
 

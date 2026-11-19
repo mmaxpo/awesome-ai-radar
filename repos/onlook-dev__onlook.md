@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 27.3k |
-| 🍴 **Forks** | 2.1k |
+| 🍴 **Forks** | 2.2k |
 | 🐞 **Open issues + PRs** | [0](https://github.com/onlook-dev/onlook/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `typescript` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` `astryx` `styled-components` |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v0.2.32](https://github.com/onlook-dev/onlook/releases/tag/v0.2.32) — 2025-07-17 |
 | 🌿 **Default branch** | `main` |
@@ -82,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [chore(github): add a bug report issue form (ONL-3328) (#3152)](https://github.com/onlook-dev/onlook/commit/fa8b12fb1b8d9fe6e7374abe5d5c02ff3deb32aa) | thebrubaker |
 | 2026-11-17 | [chore: set the app version to 2.0.0 (#3150)](https://github.com/onlook-dev/onlook/commit/7b17f48c59adb7ac4ec30a6982e4971f22846c2b) | Krisodd |
 | 2026-11-17 | [Onlook: the desktop editor replaces v1 (#3149)](https://github.com/onlook-dev/onlook/commit/e10ccbac07c0fdf573b76ac26ddb75de3348b4a3) | Krisodd |
 | 2026-11-17 | [docs: new README and Central Icons asset notice (#3147)](https://github.com/onlook-dev/onlook/commit/993068a859decf9e93152e8a9f43d379d0d708c0) | drfarrell |
@@ -91,7 +92,6 @@
 | 2026-06-09 | [Revise README with new Onlook description and links (#3117)](https://github.com/onlook-dev/onlook/commit/936b01553cdf4269a667426ce202fa9930e946f8) | drfarrell |
 | 2026-02-27 | [Website v1.5: AI-native copy revamp, new pages, and UX improvements (…](https://github.com/onlook-dev/onlook/commit/a242be584fa9c71ca5be9e5e7a2640595c4200be) | drfarrell |
 | 2026-01-21 | [Unicorn scroll edits improvement (#3084)](https://github.com/onlook-dev/onlook/commit/ab9333d4fcfdb485383a228d157402a5efa6b4ea) | drfarrell |
-| 2025-12-14 | [Fix open redirect vulnerability in OAuth callback (CVE-2025-63784) (#…](https://github.com/onlook-dev/onlook/commit/6962f87aadfeae72498151bdde799041301219cc) | drfarrell |
 
 [See all commits ↗](https://github.com/onlook-dev/onlook/commits)
 

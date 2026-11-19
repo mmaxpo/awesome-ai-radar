@@ -43,7 +43,7 @@
 > Introduces a new visualizer, Minimal. Thanks to @colinta for the original idea, and to @SoCuul for some code contributions along the way. This visualizer can also be filtered to display standalone modifier keys, a popular request.
 
 ### [v0.10.5](https://github.com/keycastr/keycastr/releases/tag/v0.10.5) — Improved handling of different input sources
-<sub>2025-11-24 · 11mo ago</sub>
+<sub>2025-11-24 · 12mo ago</sub>
 
 > Includes a fix for #314 , where a change in input source could be delayed.
 

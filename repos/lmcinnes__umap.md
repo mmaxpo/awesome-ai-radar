@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 8.3k |
 | 🍴 **Forks** | 895 |
-| 🐞 **Open issues + PRs** | [542](https://github.com/lmcinnes/umap/issues) |
+| 🐞 **Open issues + PRs** | [539](https://github.com/lmcinnes/umap/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `umap` `dimensionality-reduction` `visualization` `machine-learning` `topological-data-analysis` |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2017-07-02 |
 | 📦 **Latest release** | [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0) — 2026-11-10 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 105.7 MB |
+| 💾 **Size** | 105.9 MB |
 | 🌐 **Website** | https://umap-learn.readthedocs.io |
 
 ## 📦 Recent releases
 
 ### [release-0.6.0](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0)
-<sub>2026-11-10 · 8d ago</sub>
+<sub>2026-11-10 · 9d ago</sub>
 
 > **What's Changed**
 > * Embed combined models without densMAP instead of failing with KeyError by @raashish1601 in https://github.com/lmcinnes/umap/pull/1304
@@ -47,7 +47,7 @@
 > …
 
 ### [release-0.6.0rc1](https://github.com/lmcinnes/umap/releases/tag/release-0.6.0rc1) _(pre-release)_
-<sub>2026-11-03 · 14d ago</sub>
+<sub>2026-11-03 · 15d ago</sub>
 
 > **What's Changed**
 > * Preserve input dtype in transform and fit_transform output by @sebastianbreguel in https://github.com/lmcinnes/umap/pull/1253
@@ -86,16 +86,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Merge pull request #1340 from akshatvishu/fix-precomputed-knn](https://github.com/lmcinnes/umap/commit/971cdeacc5a0b97c01fee91d4c04bcd24794fbd5) | lmcinnes |
+| 2026-11-18 | [Merge pull request #1358 from sebastianbreguel/perf/sparse-precompute…](https://github.com/lmcinnes/umap/commit/299cdb87b19ae9d7e6a8452825904f9bc8b1480f) | lmcinnes |
+| 2026-11-18 | [Merge pull request #1356 from phunterlau/codex/l9-adam-repulsion](https://github.com/lmcinnes/umap/commit/9db54054ad51844969b9fa1f6838a1f9bd396efb) | lmcinnes |
+| 2026-11-18 | [Slice CSR arrays directly in the sparse precomputed kNN loop of fit](https://github.com/lmcinnes/umap/commit/3441ab7b3c1f532ec6eee2b3060354bbff2297cc) | sebastianbreguel |
+| 2026-11-18 | [Accelerate 2D Adam repulsion with radial lookup](https://github.com/lmcinnes/umap/commit/b89f8410e367c82f79cec6e15a6346756f1be6d1) | phunterlau |
 | 2026-11-18 | [Merge pull request #1355 from sebastianbreguel/fix-n-jobs-above-numba…](https://github.com/lmcinnes/umap/commit/1f7553b2d8dc54aaa2224da92b5869a3f0c91576) | lmcinnes |
 | 2026-11-18 | [Cap n_jobs at the numba thread pool size (fixes #1354)](https://github.com/lmcinnes/umap/commit/447aef08d71ad1048d7b8c2c962f61f2eb48b8f4) | sebastianbreguel |
 | 2026-11-18 | [Add test: fit with n_jobs above the numba thread count](https://github.com/lmcinnes/umap/commit/e5cf1995deae944855919b6c5d8771d0679cca58) | sebastianbreguel |
 | 2026-11-17 | [Merge pull request #1352 from domoritz/docs/embedding-atlas](https://github.com/lmcinnes/umap/commit/64b73ad7b4086ac86aecc45eeaa4caae35257732) | lmcinnes |
 | 2026-11-17 | [Cache the compiled kNN, smoothing and membership kernels on disk (#1351)](https://github.com/lmcinnes/umap/commit/7d4d9849f61aa50da0dafa4af279c1a082d96990) | sebastianbreguel |
-| 2026-11-17 | [Remove WebGPU detail from Embedding Atlas description](https://github.com/lmcinnes/umap/commit/6f31aa4360c1b463ef896326becd7927d4d6bc95) | domoritz |
-| 2026-11-17 | [Add Embedding Atlas to the interactive visualizations page](https://github.com/lmcinnes/umap/commit/ef54c19e436f3639f30250f8e464d20819c2e6b1) | domoritz |
-| 2026-11-17 | [Add live parameter sliders to the parameters documentation (#1341)](https://github.com/lmcinnes/umap/commit/6dafbbcfbd701aeacdfb417e72712d726c21c705) | domoritz |
-| 2026-11-16 | [Merge pull request #1350 from skundu42/fix/aligned-umap-pickle](https://github.com/lmcinnes/umap/commit/4f16ff100db79a73d12bea6a7a57c632945eab60) | lmcinnes |
-| 2026-11-16 | [Support pickling fitted AlignedUMAP models](https://github.com/lmcinnes/umap/commit/c0f74bd70ffc9be59c4d90ea72da249113d969c8) | skundu42 |
 
 [See all commits ↗](https://github.com/lmcinnes/umap/commits)
 

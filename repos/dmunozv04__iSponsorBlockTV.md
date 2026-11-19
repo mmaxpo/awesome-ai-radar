@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.3k |
-| 🍴 **Forks** | 324 |
+| 🍴 **Forks** | 327 |
 | 🐞 **Open issues + PRs** | [79](https://github.com/dmunozv04/iSponsorBlockTV/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `python` `appletv` `youtube` `sponsorblock` `chromecast` `roku` `tizen-tv` `androidtv` `samsungtv` |
-| 🕒 **Last activity** | 2026-11-14 (3d ago) |
+| 🕒 **Last activity** | 2026-11-14 (4d ago) |
 | 📅 **Created** | 2022-01-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/dmunozv04/iSponsorBlockTV/releases/tag/v2.11.0) — 2026-08-21 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v2.11.0](https://github.com/dmunozv04/iSponsorBlockTV/releases/tag/v2.11.0) — v2.11.0: fixing a blind SSRF on DIAL auto discovery
-<sub>2026-08-21 · 2mo ago</sub>
+<sub>2026-08-21 · 3mo ago</sub>
 
 > **Fixed blind SSRF on DIAL auto discovery**
 > Fixes advisory: [GHSA-56v3-jrq2-4q9m](https://github.com/dmunozv04/iSponsorBlockTV/security/advisories/GHSA-56v3-jrq2-4q9m) / [CVE-2026-77597](https://www.cve.org/CVERecord?id=CVE-2026-77597)

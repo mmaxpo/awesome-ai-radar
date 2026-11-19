@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 7.8k |
-| 🍴 **Forks** | 630 |
-| 🐞 **Open issues + PRs** | [1.3k](https://github.com/ranxianglei/billion-context/issues) |
+| ⭐ **Stars** | 7.9k |
+| 🍴 **Forks** | 640 |
+| 🐞 **Open issues + PRs** | [1.4k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-08-06 |
 | 📦 **Latest release** | [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 83.3 MB |
+| 💾 **Size** | 83.0 MB |
 
 ## 📦 Recent releases
 
 ### [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216)
-<sub>2026-11-17 · yesterday</sub>
+<sub>2026-11-17 · 2d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: two fixes — evidence file is now readable after the run completes + one retry added for the small-window round in  | gate 两个修复:跑完后证据文件能读了 + R 车道小窗口轮次加一次重试 by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6808
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
-<sub>2026-11-15 · 3d ago</sub>
+<sub>2026-11-15 · 4d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · 4d ago</sub>
+<sub>2026-11-14 · 5d ago</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 10d ago</sub>
+<sub>2026-11-07 · 11d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.1.212](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.212)
-<sub>2026-11-02 · 15d ago</sub>
+<sub>2026-11-02 · 16d ago</sub>
 
 > **What's Changed**
 > * [PR] (ai: anthropic/claude-opus-4-6) fix(release): nuclear box = deps download + build + publish, zero checks; add local zero-install publish script by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5436
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [Merge pull request #7083 from ranxianglei/design/6884-wire-client-sid…](https://github.com/ranxianglei/billion-context/commit/548e396022b9391e28a3c9061560be297779b8e8) | ranxianglei |
-| 2026-11-18 | [fix(tests): make the shutdown-signal test portable to Windows (it kil…](https://github.com/ranxianglei/billion-context/commit/3186e54ad2b0bdba2b2d598aac5cacc5bf4c08a2) | ranxianglei |
-| 2026-11-18 | [Merge pull request #7107 from ranxianglei/batch/p1-batch-2026-11-18-b3](https://github.com/ranxianglei/billion-context/commit/4b77eab409b0df4788985c34c54e98e2f599e421) | ranxianglei |
-| 2026-11-18 | [test(side-lane): pin the #7009 probe block as structurally unreachabl…](https://github.com/ranxianglei/billion-context/commit/572967fac532874bdcaf90441413d196e434c6cb) | ci-check |
-| 2026-11-18 | [fix(preflight): fold probes blocked by the local egress fuse](https://github.com/ranxianglei/billion-context/commit/7394cf44959b1e04bcc3450c63e839a786f77038) | WHUrubbish |
-| 2026-11-18 | [fix(pi): catch setModel rejections in native thread compatibility neg…](https://github.com/ranxianglei/billion-context/commit/0656d61e72b483b09abd5d37ecd4baa79a603613) | ci-check |
-| 2026-11-18 | [fix(pi): negotiate full Anthropic requests for bili](https://github.com/ranxianglei/billion-context/commit/0b2ce3027241d5191b133b458e274e8957869ca6) | shreynshah |
-| 2026-11-18 | [fix: pin client-managed cache marks so mid-history stays byte-stable …](https://github.com/ranxianglei/billion-context/commit/57fe06e1b223bfe776e0df97047f07ba53495c6d) | sx4im |
-| 2026-11-18 | [fix: claude MCP shim follows a Remote Control child's session id](https://github.com/ranxianglei/billion-context/commit/a2f9bb3ac28488fc939be2739ba03e18470ae9e7) | MohammadErfan-Jabbari |
-| 2026-11-18 | [test: pin the non-identity gate direction of the #6361 re-bind seam](https://github.com/ranxianglei/billion-context/commit/350cf0993625a3b1181a8782f00334d61051a8a1) | ci-check |
+| 2026-11-19 | [Merge pull request #7151 from ranxianglei/2026-11-18_hash-cleanup-batch1](https://github.com/ranxianglei/billion-context/commit/6453feeeb842bd1e471d875bf00287e5036a96c7) | ranxianglei |
+| 2026-11-19 | [Merge pull request #7191 from ranxianglei/2026-11-18_hash-cleanup-bat…](https://github.com/ranxianglei/billion-context/commit/cf97472216e44cd51f90914f61ee29736fad08ea) | ranxianglei |
+| 2026-11-19 | [Merge pull request #7281 from ranxianglei/2026-11-19_kernel-directive…](https://github.com/ranxianglei/billion-context/commit/7652de9f169b540ac1881b40b56c2ea51783fa02) | ranxianglei |
+| 2026-11-19 | [fix: sync root package-lock.json kernel version to 0.0.200 (lock-sync)](https://github.com/ranxianglei/billion-context/commit/9a880e4ef33a0c55501509f0badf5b35d11d497f) | ci-check |
+| 2026-11-19 | [kernel: update stale directive-only 'exempt anywhere' wording after t…](https://github.com/ranxianglei/billion-context/commit/2975a63da30fbd2500a5498729713bfc806d2040) | ci-check |
+| 2026-11-19 | [kernel: sync package-lock.json version to 0.0.200 (lock-sync with the…](https://github.com/ranxianglei/billion-context/commit/88f67800c0f15703bff7ca79fdbcd2d6163de1c3) | ci-check |
+| 2026-11-19 | [kernel: bump version to 0.0.200 (rebase onto master 0.0.199; resolve …](https://github.com/ranxianglei/billion-context/commit/b805e43acb86f220e99d6636ab44baaba985b89e) | ci-check |
+| 2026-11-19 | [kernel: move illegally-positioned directive-only systems to the trail…](https://github.com/ranxianglei/billion-context/commit/7e53417a5dae77ab128139bddaa0ed521817abb4) | ci-check |
+| 2026-11-19 | [Merge pull request #7252 from ranxianglei/feat/compress-reasoning-tail](https://github.com/ranxianglei/billion-context/commit/04ecbb42dd38543e9c407bd40eb773ae5ec8b60b) | ranxianglei |
+| 2026-11-19 | [Merge pull request #7242 from ranxianglei/2026-11-18_dsh-preset-compa…](https://github.com/ranxianglei/billion-context/commit/d9efd65a02ba223a86c7bff04617e04d69f523f7) | ranxianglei |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.7 MB |
+| 💾 **Size** | 184.1 MB |
 | 🌐 **Website** | https://scikit-learn.org |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [MNT register pytest marker no_check_spmatrix (#35416)](https://github.com/scikit-learn/scikit-learn/commit/2a9685b22d2e44b405eccb58d546e0b6c296ca33) | lorentzenchr |
-| 2026-11-18 | [TST fix warnings in test_metaestimator.py (#35404)](https://github.com/scikit-learn/scikit-learn/commit/863a402c161490cd5264c5cf5f6559191d67fbd4) | lorentzenchr |
-| 2026-11-18 | [CI Update Python version used in workflows (#35433)](https://github.com/scikit-learn/scikit-learn/commit/3ed02efeadea03e52d6d5095da9eec28c2ce7d27) | betatim |
-| 2026-11-18 | [CI security - Pin all GitHub Actions to commit SHAs  (#35318)](https://github.com/scikit-learn/scikit-learn/commit/6995c66f2f7f751ea1a50fdebea25a81e48ad270) | DeaMariaLeon |
-| 2026-11-18 | [MNT Enable stopping LogisticRegression by a callback (#35334)](https://github.com/scikit-learn/scikit-learn/commit/a6ab448ddfd320a67dc849cd445af16c36fd9387) | jeremiedbb |
-| 2026-11-17 | [ENH avoid copy of gradients and hessians in HGBT HistogramBuilder (#3…](https://github.com/scikit-learn/scikit-learn/commit/dba8e3d57785c333da866341dfd9736659c0ab41) | lorentzenchr |
-| 2026-11-17 | [ENH Sort only by X in IsotonicRegression.fit (#35422)](https://github.com/scikit-learn/scikit-learn/commit/1f98d2b4a5ddea0c251201f555cbeeeb8756165e) | cakedev0 |
-| 2026-11-17 | [MNT rename typedef test helper functions (#35415)](https://github.com/scikit-learn/scikit-learn/commit/da0b134fcf2a61e89448218e8633b0fb85aaa9c5) | lorentzenchr |
-| 2026-11-17 | [FEA Add array API support to `coverage_error` (#32626)](https://github.com/scikit-learn/scikit-learn/commit/e4b91c579c75e592ae202d5b8b1d230101d8203c) | jaffourt |
-| 2026-11-16 | [DOC Update maintainer doc for release from scikit-learn-release workf…](https://github.com/scikit-learn/scikit-learn/commit/a30a70e39ef550a01ea7234e9cf10d3d821df9cd) | lesteve |
+| 2026-11-19 | [TST Fix flaky test_logistic_cv_refit_false_non_elasticnet (#35456)](https://github.com/scikit-learn/scikit-learn/commit/2b275865c5c3a73d5c5f14be4b514cfc34cc9645) | cakedev0 |
+| 2026-11-19 | [PRF Faster `_fill_diagonal` and `_add_to_diagonal` for non-NumPy arra…](https://github.com/scikit-learn/scikit-learn/commit/3fdfb111e9d743fce0d0d0f5f9bb40514a1b4c52) | cakedev0 |
+| 2026-11-19 | [MNT implement findings for sandwich_dot (#35438)](https://github.com/scikit-learn/scikit-learn/commit/4d04711b86bea5a450771e145038a02b2a26478e) | lorentzenchr |
+| 2026-11-19 | [Bump the actions group across 1 directory with 3 updates (#35454)](https://github.com/scikit-learn/scikit-learn/commit/985184f60b6d6f3e1e01298bdbe9f9dc4ca46f34) | dependabot[bot] |
+| 2026-11-19 | [FIX Don't raise ConvergenceWarning when a callback stops LogisticRegr…](https://github.com/scikit-learn/scikit-learn/commit/6736ecdfeb10ab6450cff3cdcd7a2c4244f72b45) | betatim |
+| 2026-11-19 | [CI Use a GitHub Actions lockfile (#35452)](https://github.com/scikit-learn/scikit-learn/commit/60f6988b6dc41667c227ca30d81e169507287696) | virchan |
+| 2026-11-19 | [MNT Add custom agents setup files to .gitignore (#35302)](https://github.com/scikit-learn/scikit-learn/commit/b375ff6e7886d12e38d960deee7ab3cdfba164d5) | lorentzenchr |
+| 2026-11-19 | [CI Add job that tests for thread-safety bugs by enabling threaded par…](https://github.com/scikit-learn/scikit-learn/commit/2fb90462edc857fd88fe91e3743924842dd36635) | itamarst |
+| 2026-11-18 | [TST Add common tests for callback support (#34904)](https://github.com/scikit-learn/scikit-learn/commit/28670983af594da3af78b01b3da2fbbe0c8b2927) | jeremiedbb |
+| 2026-11-18 | [ENH warn in permutation_test_score when each group has a single label…](https://github.com/scikit-learn/scikit-learn/commit/d969f5de8133d62ab721cd676d61f1f99b831031) | jinchoi7651507 |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

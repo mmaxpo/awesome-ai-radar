@@ -24,7 +24,7 @@
 | 💻 **Languages** | TypeScript 53% · Astro 20% · MDX 7% · CSS 6% · Svelte 6% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `accessible` `animation` `odometer` `vue` `react` `svelte` |
-| 🕒 **Last activity** | 2026-09-20 (1mo ago) |
+| 🕒 **Last activity** | 2026-09-20 (2mo ago) |
 | 📅 **Created** | 2024-07-15 |
 | 📦 **Latest release** | [number-flow@0.6.2](https://github.com/barvian/number-flow/releases/tag/number-flow%400.6.2) — 2026-07-18 |
 | 🌿 **Default branch** | `main` |

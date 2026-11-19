@@ -26,17 +26,17 @@
 | 💻 **Languages** | C++ 86% · Python 4% · C 3% · CMake 2% · Java 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `opencv` `c-plus-plus` `computer-vision` `deep-learning` `image-processing` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2012-07-19 |
 | 📦 **Latest release** | [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — 2026-11-06 |
 | 🌿 **Default branch** | `5.x` |
-| 💾 **Size** | 558.9 MB |
+| 💾 **Size** | 559.3 MB |
 | 🌐 **Website** | https://opencv.org |
 
 ## 📦 Recent releases
 
 ### [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — OpenCV 5.1.0
-<sub>2026-11-06 · 12d ago</sub>
+<sub>2026-11-06 · 13d ago</sub>
 
 > OpenCV 5.1.0 has been released.
 > :hammer_and_wrench: Change log is [here](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version510).
@@ -73,16 +73,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [Merge pull request #30892 from pratham-mcw/svd_backSubst_opt_5x](https://github.com/opencv/opencv/commit/529546d011a0d87bc5592fb131e4b835e96f2d9f) | abhishek-gola |
-| 2026-11-18 | [Merge pull request #30904 from sshivensolanki:dnn-hardmax-first-index](https://github.com/opencv/opencv/commit/72f8810548903ab556c0c766517a2ee0317fcb80) | asmorkalov |
-| 2026-11-18 | [dnn: fix Hardmax max index when no element exceeds lowest()](https://github.com/opencv/opencv/commit/6158022f07ad3f1c365943216527c9ad73a99b84) | sshivensolanki |
-| 2026-11-18 | [Merge pull request #30893 from pctablet505:fix-video-dis-stale-initia…](https://github.com/opencv/opencv/commit/2ba4647c89601a4bbf1b73c123f700aef88c72bf) | asmorkalov |
-| 2026-11-18 | [Merge pull request #30898 from RITU940:fix/multiview-visibility-mask-…](https://github.com/opencv/opencv/commit/772cd730e9bf9f2b6c76689ced5e289f267a596b) | asmorkalov |
-| 2026-11-18 | [Merge pull request #30887 from abhishek-gola/fix/sphinx-docs-warnings](https://github.com/opencv/opencv/commit/80db42de8550cffe84e1fc2a79f24e121672f188) | abhishek-gola |
-| 2026-11-17 | [calib: respect detection mask row stride](https://github.com/opencv/opencv/commit/148ba7826b61504bc7c0f704793c13fbf3b6de7c) | RITU940 |
-| 2026-11-17 | [Merge pull request #30894 from pctablet505:fix-video-dis-collectgarba…](https://github.com/opencv/opencv/commit/0fc687bc7e0c604c2bf07f5dcccb33a254bb6432) | asmorkalov |
-| 2026-11-17 | [video: fix DISOpticalFlow::calc() crash after collectGarbage()](https://github.com/opencv/opencv/commit/521dd6bcdb01c0b136c3df967f231a75935bcf8f) | pctablet505 |
-| 2026-11-17 | [video: clear stale initial flow in DISOpticalFlow::calc()](https://github.com/opencv/opencv/commit/85d93fdbb6d57d651ccdeb2384fe616a798c48b0) | pctablet505 |
+| 2026-11-19 | [Merge pull request #30980 from abhishek-gola/revert-fast-ci](https://github.com/opencv/opencv/commit/0739a74edc6f5ded745f01cbcfe620062b73f9d6) | abhishek-gola |
+| 2026-11-19 | [Revert "Optimize CI runtime, enable ci:fast and ci:full (#30802)"](https://github.com/opencv/opencv/commit/420255caf512d0d91d24c14e06143d46fddf6ebd) | abhishek-gola |
+| 2026-11-19 | [geometry: reject degenerate minimal samples in estimateAffine2D / est…](https://github.com/opencv/opencv/commit/851cc5baa57391ea5a9571f95eec234dca9ff558) | poojithparchuri-iiitk |
+| 2026-11-19 | [Merge pull request #30639 from amd/port_5.x_remap](https://github.com/opencv/opencv/commit/3021339b72edab145f0802b9025290a694ce3123) | madanm3 |
+| 2026-11-19 | [Merge pull request #30954 from sshivensolanki/dnn-nms-batched-negativ…](https://github.com/opencv/opencv/commit/e207b496e477cb57416af4ea7c20be1e87018b85) | sshivensolanki |
+| 2026-11-19 | [Merge pull request #30956 from TINGyu123644/fix/enthought-dead-link](https://github.com/opencv/opencv/commit/7aebe39421918f080f3a1d1306e7ab9b6d319420) | asmorkalov |
+| 2026-11-19 | [Merge pull request #30908 from sshivensolanki/fix-pam-no-tupltype-5x](https://github.com/opencv/opencv/commit/6c60cc9a3a7f586b7faecf79ca3e6b1418c6b314) | asmorkalov |
+| 2026-11-19 | [Merge pull request #30939 from abhishek-gola/tests/test-fixes-5x](https://github.com/opencv/opencv/commit/d92a4105fce88bead71fe8f9830aac6080b8c47e) | asmorkalov |
+| 2026-11-19 | [Merge pull request #30941 from asmorkalov/as/agents.md](https://github.com/opencv/opencv/commit/b662117492b90cba662a2a96cc3ff8a8deb69d34) | asmorkalov |
+| 2026-11-19 | [docs(py_setup): remove dead Enthought downloads link](https://github.com/opencv/opencv/commit/54dcec825bb6d741e273c7c373556a1bc3753066) | TINGyu123644 |
 
 [See all commits ↗](https://github.com/opencv/opencv/commits)
 

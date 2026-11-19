@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 39.1k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [793](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [804](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-13 (4d ago) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2023-01-09 |
 | 📦 **Latest release** | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.4 MB |
+| 💾 **Size** | 183.6 MB |
 | 🌐 **Website** | https://dspy.ai |
 
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0)
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > **DSPy 3.5: A Lighter, Faster Foundation**
 > DSPy 3.5 brings a lighter LM layer, graduated core modules, and new History and image capabilities for RLM.
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Refresh model metadata provenance to LiteLLM 1.110.1 (#10917)](https://github.com/stanfordnlp/dspy/commit/7fbc8ff1665ee87122f06633270782dbf1f69c6b) | isaacbmiller |
+| 2026-11-18 | [Refresh LiteLLM metadata to 1.110.0 and resolve catalog aliases (#10905)](https://github.com/stanfordnlp/dspy/commit/9d3a8eb04618907854256e5b0fa88ea29e53e10b) | isaacbmiller |
 | 2026-11-12 | [chore: refresh model metadata provenance to LiteLLM 1.109.1 (#10878)](https://github.com/stanfordnlp/dspy/commit/2c07ebbee3a66f6e04b71e141c6c198f1b31a129) | isaacbmiller |
 | 2026-11-11 | [chore: refresh model metadata from LiteLLM 1.109.0 (#10871)](https://github.com/stanfordnlp/dspy/commit/398396012371a95471c8e7be24a70e6660e87aa4) | isaacbmiller |
 | 2026-11-10 | [Update versions for 3.5.0 (#10865)](https://github.com/stanfordnlp/dspy/commit/5708342f3c88b78fc3566d8294af4b1a50154c19) | github-actions[bot] |
@@ -102,8 +104,6 @@
 | 2026-11-10 | [docs(dspy): add concise DSPy 3.5 upgrade guide (#10862)](https://github.com/stanfordnlp/dspy/commit/743b0ce16dae7be1e64858724bde95746dacc15b) | isaacbmiller |
 | 2026-11-10 | [docs: make the RLM sandbox package example executable (#10860)](https://github.com/stanfordnlp/dspy/commit/471b3fb0e4efad45dbac980e42b1258f55a245cf) | isaacbmiller |
 | 2026-11-10 | [Fix tool call IDs in serialized ReAct history (#10844)](https://github.com/stanfordnlp/dspy/commit/c472201fc7bd06fbcd712bf083d69908f6777080) | isaacbmiller |
-| 2026-11-10 | [fix(tool): keep nested schema references scoped in native declaration…](https://github.com/stanfordnlp/dspy/commit/340deccd528805f01078113b9476e37072f75d0d) | isaacbmiller |
-| 2026-11-10 | [fix(xml): honor positional tuple schemas (#10850)](https://github.com/stanfordnlp/dspy/commit/ede7a62d066c9eef68a82898f62d1dc3b314cd41) | isaacbmiller |
 
 [See all commits ↗](https://github.com/stanfordnlp/dspy/commits)
 

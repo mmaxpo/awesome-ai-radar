@@ -21,21 +21,21 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.8k |
-| 🍴 **Forks** | 147 |
-| 🐞 **Open issues + PRs** | [35](https://github.com/snownico0722/PaperTodo/issues) |
+| 🍴 **Forks** | 148 |
+| 🐞 **Open issues + PRs** | [32](https://github.com/snownico0722/PaperTodo/issues) |
 | 💻 **Languages** | C# 92% · C 6% · JavaScript 1% · HTML 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `avalonedit` `csharp` `markdown` `minimalist` `notes` `todo` `windows` `wpf` `desktop` `note-taking` `productivity` `sticky-notes` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-05-27 |
 | 📦 **Latest release** | [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 106.1 MB |
+| 💾 **Size** | 104.0 MB |
 
 ## 📦 Recent releases
 
 ### [v4.0.0-beta2](https://github.com/snownico0722/PaperTodo/releases/tag/v4.0.0-beta2) — PaperTodo v4.0.0-beta2 _(pre-release)_
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > 这是一个测试版，可能存在很多问题、bug。
 > This is a beta version; it may contain many issues and bugs.
@@ -46,7 +46,7 @@
 > …
 
 ### [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — PaperTodo v3.40
-<sub>2026-10-20 · 28d ago</sub>
+<sub>2026-10-20 · 29d ago</sub>
 
 > **纸片与胶囊**
 > - **快捷关闭纸片**：展开的纸片支持 Ctrl+W 或标题栏中键关闭。
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [docs(plugins): 同步工作区与启停生命周期及多语言说明](https://github.com/snownico0722/PaperTodo/commit/33f7c65834ebf1e664b7d5577f1d8b9b8a906b8a) | snownico0722 |
-| 2026-11-18 | [docs(user-guide): 补齐 beta2 操作说明并同步中英文](https://github.com/snownico0722/PaperTodo/commit/62505fceaf3497f510547ec1a1d99ce28f50a495) | snownico0722 |
-| 2026-11-18 | [docs(changelog): 补充 beta2 插件管理与修复说明](https://github.com/snownico0722/PaperTodo/commit/8b0a2ac16ce4133d9634366c34438ee5d46708ed) | snownico0722 |
-| 2026-11-18 | [docs: 归档默认纸片缩放阴影性能决策与实验依据](https://github.com/snownico0722/PaperTodo/commit/d27aa3022e1d37272d57399e21ef67af066cefeb) | snownico0722 |
-| 2026-11-18 | [docs(release): 同步 v4.0.0-beta2 中英文更新日志](https://github.com/snownico0722/PaperTodo/commit/db224ec31157493ea58ab55123eb3e29af455a78) | snownico0722 |
-| 2026-11-18 | [Update CHANGELOG.zh.md](https://github.com/snownico0722/PaperTodo/commit/3d0dc3a5aee3d02fe7ddc9e192abec0fc5dd1140) | snownico0722 |
-| 2026-11-18 | [docs: remove release note entries introduced by PRs #460-#463](https://github.com/snownico0722/PaperTodo/commit/193f2ced901b58f5ec968aed794b2453820514ed) | snownico0722 |
-| 2026-11-18 | [fix: bound activation commands and offload telemetry persistence (#462)](https://github.com/snownico0722/PaperTodo/commit/82b32a9b5a66b7a603f24f45a47414e68db6454f) | snownico0722 |
-| 2026-11-18 | [fix: strengthen active edge capsule focus outlines (#460)](https://github.com/snownico0722/PaperTodo/commit/2a1561a9efe31fd762131a5383a6b4c37efacdce) | snownico0722 |
-| 2026-11-18 | [fix: enable resize hooks on restored edge papers (#463)](https://github.com/snownico0722/PaperTodo/commit/925a6cb48e75ad650da9daf6ddd0034060b9802b) | snownico0722 |
+| 2026-11-19 | [Place capture exclusion in unreleased notes](https://github.com/snownico0722/PaperTodo/commit/b0dd147759377687ae5ba30e5815395b7854947b) | snownico0722 |
+| 2026-11-19 | [Complete unreleased notes for PRs 454, 468 and 470](https://github.com/snownico0722/PaperTodo/commit/c21f517c4476f0ec962d13ab3b26a649d8034be1) | snownico0722 |
+| 2026-11-19 | [Complete unreleased notes for PRs 454, 468 and 470](https://github.com/snownico0722/PaperTodo/commit/5d9ffc7e60199a01edb421d57a80891fe541eaba) | snownico0722 |
+| 2026-11-19 | [Document merged settings and capsule improvements](https://github.com/snownico0722/PaperTodo/commit/1b9e9f79dc2c8d0c72aaf79320f6551d4d1c3784) | snownico0722 |
+| 2026-11-19 | [Document merged settings and capsule improvements](https://github.com/snownico0722/PaperTodo/commit/d3c19ec014a2ca8d9f21fa3d4b7a7d824dc3ff88) | snownico0722 |
+| 2026-11-19 | [Merge pull request #470 from snownico0722/feat/settings-cleanup-and-e…](https://github.com/snownico0722/PaperTodo/commit/d53bc19ec4877da9f2a04ade3697c58efe290c00) | snownico0722 |
+| 2026-11-19 | [Merge pull request #468 from snownico0722/feat/capsule-outline-enhanc…](https://github.com/snownico0722/PaperTodo/commit/a201b4e3b7816033a642a0b4022fcc3a7e81ca55) | snownico0722 |
+| 2026-11-19 | [Merge pull request #454 from snownico0722/feat/453-capture-exclusion](https://github.com/snownico0722/PaperTodo/commit/92e3d7050826d3c9ac8b4d60accf6ef4e88b2368) | snownico0722 |
+| 2026-11-19 | [Refresh stacked settings merge after capture scope fix](https://github.com/snownico0722/PaperTodo/commit/1af026c9b5958131db867c8f37c3f57f0df71e3c) | snownico0722 |
+| 2026-11-19 | [Refresh stacked capsule outline merge after capture scope fix](https://github.com/snownico0722/PaperTodo/commit/dedaf9f67a97b806ea219fd9ef5a3b6e76fed2d9) | snownico0722 |
 
 [See all commits ↗](https://github.com/snownico0722/PaperTodo/commits)
 

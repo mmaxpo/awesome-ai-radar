@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 144.4k |
-| 🍴 **Forks** | 23.2k |
-| 🐞 **Open issues + PRs** | [86](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
+| ⭐ **Stars** | 144.7k |
+| 🍴 **Forks** | 23.3k |
+| 🐞 **Open issues + PRs** | [90](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `tiktok` `ai-video-generator` `content-creation` `ffmpeg` `instagram-reels` `llm` `short-video` `subtitles` `text-to-speech` `video-automation` `video-workflow` `workflow-automation` `youtube-shorts` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2024-03-11 |
 | 📦 **Latest release** | [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10) — 2026-11-07 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 528.9 MB |
+| 💾 **Size** | 529.1 MB |
 
 ## 📦 Recent releases
 
 ### [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10)
-<sub>2026-11-07 · 11d ago</sub>
+<sub>2026-11-07 · 12d ago</sub>
 
 > [English](#en-v1.3.10) | [中文](#cn-v1.3.10)
 > <h2 id="en-v1.3.10">Highlights</h2>
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.3.9](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.9)
-<sub>2026-10-21 · 28d ago</sub>
+<sub>2026-10-21 · 29d ago</sub>
 
 > [English](#en-v1.3.9) | [中文](#cn-v1.3.9)
 > <h2 id="en-v1.3.9">Highlights</h2>
@@ -93,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Expose rendered scene clips in video project results](https://github.com/harry0703/MoneyPrinterTurbo/commit/bdd8d328cc366fe70d9fa67ffd0443ba34b4a3e1) | meowtivator |
+| 2026-11-19 | [feat(material): add Aigei stock video provider](https://github.com/harry0703/MoneyPrinterTurbo/commit/d4877bc5d481868fc38da357d446407bf5c7e229) | harry0703 |
 | 2026-11-16 | [Fix typo in Edge TTS cue test fixture ('stil' -> 'still')](https://github.com/harry0703/MoneyPrinterTurbo/commit/92e0f9a55b91e353565015aab74b7c50cc28f148) | Dani-Google |
 | 2026-11-16 | [fix(loomloom): trace the video artifact download request](https://github.com/harry0703/MoneyPrinterTurbo/commit/8dc9b41eb72aa5fbe835c4bac51f071dc6c0fe30) | RerankerGuo |
 | 2026-11-16 | [test(material): cover malformed Pixabay files in the rendition size sort](https://github.com/harry0703/MoneyPrinterTurbo/commit/49b900780c2463573a7968e9217e86fbea990023) | rohanb123 |
@@ -101,8 +103,6 @@
 | 2026-11-13 | [docs: update packaging examples to current release](https://github.com/harry0703/MoneyPrinterTurbo/commit/ce289ffb61a118779c56d6b4a34181905dbed2b9) | dajiaohuang |
 | 2026-11-13 | [docs: clarify Docker setup order (#1801)](https://github.com/harry0703/MoneyPrinterTurbo/commit/f7f4aeff368bd2d5c97ee3c397e1b67aaaa62f79) | dajiaohuang |
 | 2026-11-13 | [docs: update MangoDisk promotion in readmes](https://github.com/harry0703/MoneyPrinterTurbo/commit/f6eb73ef6b674283d2d4ccd5cb10ad67cf6575a1) | harry0703 |
-| 2026-11-13 | [perf(material): download Pixabay's 1080p file instead of the 4K one w…](https://github.com/harry0703/MoneyPrinterTurbo/commit/16986d0118cbdaa284ff7ce03a87734ffd837ee9) | tanishqbaweja |
-| 2026-11-13 | [fix(subtitle): keep Mr. Smith, Dr. Walker and Mt. Everest in one subt…](https://github.com/harry0703/MoneyPrinterTurbo/commit/6a9a0cbe1659ea261afa34a6e85b597042d0d720) | tanishqbaweja |
 
 [See all commits ↗](https://github.com/harry0703/MoneyPrinterTurbo/commits)
 

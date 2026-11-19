@@ -20,23 +20,43 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 14.0k |
+| ⭐ **Stars** | 14.2k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [187](https://github.com/openai/codex-security/issues) |
-| 💻 **Languages** | TypeScript 76% · Python 21% · JavaScript 2% |
+| 🐞 **Open issues + PRs** | [203](https://github.com/openai/codex-security/issues) |
+| 💻 **Languages** | TypeScript 77% · Python 20% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-07-13 |
-| 📦 **Latest release** | [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — 2026-11-12 |
+| 📦 **Latest release** | [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 88.3 MB |
+| 💾 **Size** | 87.6 MB |
 | 🌐 **Website** | https://developers.openai.com/codex/security |
 
 ## 📦 Recent releases
 
+### [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — Codex Security GitHub Action 0.10.1
+<sub>2026-11-18 · today</sub>
+
+> GitHub Action for [Codex Security 0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1).
+> Installs `@openai/codex-security@0.10.1`.
+> ```yaml
+> uses: openai/codex-security@bf650710f36c16936324efe250a49cdd9f2da037 # action-v0.10.1
+> ```
+
+### [npm-v0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1) — Codex Security 0.10.1
+<sub>2026-11-18 · today</sub>
+
+> **Highlights**
+> - **Exclude paths from scans.** Run `cs scan . --exclude-path examples/` to exclude a directory from review in Standard, Deep, or diff scans. Repeat the flag for more paths, or set `scan.exclude_paths` in your project configuration. Paths are literal and relative to the repository. The scanner can still read excluded files for context and filters out findings whose locations all fall under excluded paths.
+> - **Import scanner findings.** Use `cs import continuum` to collect AWS Continuum code issues with their supporting evidence. Attack-path analysis can use observations from the tested target when assessing reachability and severity. You can also import saved CrowdStrike Falcon Cloud Security IaC reports into your local workbench.
+> - **Deep Scan.** When Codex blocks a worker request because of a misalignment policy violation, Deep Scan now stops and reports the refusal without retrying the request.
+> - **Threat modeling.** When a route appears in a test or on a deleted line, the threat-modeling instructions now ask the scanner to verify that the application still serves it.
+> **Upgrade notes**
+> …
+
 ### [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — Codex Security GitHub Action 0.10.0
-<sub>2026-11-12 · 6d ago</sub>
+<sub>2026-11-12 · 7d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0).
 > Installs `@openai/codex-security@0.10.0`.
@@ -45,7 +65,7 @@
 > ```
 
 ### [npm-v0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0) — Codex Security 0.10.0
-<sub>2026-11-12 · 6d ago</sub>
+<sub>2026-11-12 · 7d ago</sub>
 
 > **Highlights**
 > Codex Security 0.10.0 gives clearer guidance when a patch is blocked, lets interrupted Standard scans resume, and adds a budget for batch scans.
@@ -56,7 +76,7 @@
 > …
 
 ### [action-v0.9.1](https://github.com/openai/codex-security/releases/tag/action-v0.9.1) — Codex Security GitHub Action 0.9.1
-<sub>2026-11-10 · 8d ago</sub>
+<sub>2026-11-10 · 9d ago</sub>
 
 > GitHub Action for [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
 > Installs `@openai/codex-security@0.9.1`.
@@ -64,42 +84,20 @@
 > uses: openai/codex-security@a98b35d7eef9f85c298c86229445bb64ac427aaf # action-v0.9.1
 > ```
 
-### [npm-v0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1) — Codex Security 0.9.1
-<sub>2026-11-10 · 8d ago</sub>
-
-> **Highlights**
-> - The npm package includes Developer ID-signed native addons for Apple Silicon and Intel Macs. This lets Codex Desktop load the addon when preparing review items.
-> - Deep Scan runs independent Standard reviews in batches. Workers can share leads and verify each other's evidence. The final report groups observations that have the same fix and retains the source locations from each review. [Deep Scan guide](https://github.com/openai/codex-security/blob/main/sdk/typescript/docs/cli.md#configure-deep-scans)
-> - External scanner imports are enabled by default in the CLI, SDK, and plugin. You can preview supported reports, save findings locally, and publish supported findings to Cloud. The scanner guides list the accepted formats and which inputs are local-only. [Scanner import guides](https://github.com/openai/codex-security/blob/main/docs/scanner-imports/README.md)
-> - `scans logs` finds sessions faster in large compressed histories. The GitHub Action also includes scan scope limitations in its job summary, including when a scan returns zero findings.
-> **Upgrade notes**
-> …
-
-### [npm-v0.9.0](https://github.com/openai/codex-security/releases/tag/npm-v0.9.0) — Codex Security 0.9.0 (source only)
-<sub>2026-11-10 · 8d ago</sub>
-
-> **Source-only release.** The source archives below contain the original 0.9.0 release commit. The 0.9.0 build stopped during macOS signing, before npm publication. For the signed CLI and SDK package, use [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
-> **Highlights**
-> - Deep Scan runs independent Standard reviews in batches. Workers can share leads and verify each other's evidence. The final report groups observations that have the same fix and retains the source locations from each review. [Deep Scan guide](https://github.com/openai/codex-security/blob/npm-v0.9.0/sdk/typescript/docs/cli.md#configure-deep-scans)
-> - External scanner imports are enabled by default in the CLI, SDK, and plugin. You can preview supported reports, save findings locally, and publish supported findings to Cloud. The scanner guides list the accepted formats and which inputs are local-only. [Scanner import guides](https://github.com/openai/codex-security/blob/npm-v0.9.0/docs/scanner-imports/README.md)
-> - `scans logs` finds sessions faster in large compressed histories. The GitHub Action also includes scan scope limitations in its job summary, including when a scan returns zero findings.
-> **Upgrade notes**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [test(dedupe): cover retries for overloaded and internal Codex errors …](https://github.com/openai/codex-security/commit/ffee55ab54ca4ecebb1c088146177164c1228d91) | Shizoqua |
-| 2026-11-18 | [docs: add security workflow sample to examples index (#2666)](https://github.com/openai/codex-security/commit/aa4f286743a79337d6e5080e2a77ece474304b95) | adwaitm1301 |
-| 2026-11-18 | [feat(cli): investigate supplied dependency stacks (#2713)](https://github.com/openai/codex-security/commit/c1482dc808b7b3c9cdc02cba6822f68a5f4a4b14) | utsav-oai |
-| 2026-11-17 | [feat(cli): add an opt-in foundation for dependency investigations (#2…](https://github.com/openai/codex-security/commit/78418ad7c907c67a5bf5d0f2620e8b6afda3710a) | utsav-oai |
-| 2026-11-17 | [chore(release): 0.10.1](https://github.com/openai/codex-security/commit/9293f253bb979fd470d91e7ba1117362c0b304a3) | github-actions[bot] |
-| 2026-11-17 | [feat(scanner-imports): retain validation evidence for individual Cont…](https://github.com/openai/codex-security/commit/775231e9bf5f6bcda0bef5ff0b82860b5551f923) | mldangelo-oai |
-| 2026-11-17 | [feat(classify-severity): emit structured diagnostics on hosted record…](https://github.com/openai/codex-security/commit/acced5b84cb5e0565c95f90709b08014d85ffd7e) | kmbroai |
-| 2026-11-17 | [fix(findings): use saved comparison evidence across linked worktrees …](https://github.com/openai/codex-security/commit/034d9762878a52f0458ae25c92eb0679de97d38f) | mldangelo-oai |
-| 2026-11-17 | [chore(deps): update the Python and Node devcontainer features (#2560)](https://github.com/openai/codex-security/commit/887ef11a25063b3ed2eb4ec9282e136d7eff0906) | dependabot[bot] |
-| 2026-11-17 | [fix(history): avoid repeating findings in bulk scan matching (#149)](https://github.com/openai/codex-security/commit/95e0c8891c887f2a7c18df4fdbc0c57cc3c9111c) | GautamSharma99 |
+| 2026-11-19 | [feat: add JSON error details for scan validation failures (#2730)](https://github.com/openai/codex-security/commit/8b114ad59518ba8529e9ea9e7d66004f6b4bc26e) | ianw-oai |
+| 2026-11-18 | [feat(cli): add independently reviewed dependency checks (#2715)](https://github.com/openai/codex-security/commit/5313e2e8579de78dea582bfed0d96cec493f5594) | utsav-oai |
+| 2026-11-18 | [test(cli): honor the CI timeout for integration commands (#2725)](https://github.com/openai/codex-security/commit/067c9b30616916c66f2da7a6fc8919ce9fab5447) | mldangelo-oai |
+| 2026-11-18 | [chore(deps): bump the codex group across 3 directories with 2 updates…](https://github.com/openai/codex-security/commit/a1e56b73a55638dd500b12d5dd62d3e9d7453582) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): update napi-derive to 3.7.1 in the native plugin (#2721)](https://github.com/openai/codex-security/commit/fd5bf1a093e720e1bb3416a9eef43dc764ccaa90) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump fast-xml-parser from 5.11.1 to 5.12.0 in /github-ac…](https://github.com/openai/codex-security/commit/fe1c651640c845d72721daeb5e31270113d72fde) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump ruff from 0.17.3 to 0.17.4 in /plugins/codex-securi…](https://github.com/openai/codex-security/commit/2101ecb33b0bcb15099e77425de571ced395a836) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump tokenx from 1.6.0 to 2.2.0 in /sdk/typescript (#2627)](https://github.com/openai/codex-security/commit/171e785e24d9a2f549c3594472bb460f1dbd02c3) | dependabot[bot] |
+| 2026-11-18 | [chore(deps): bump napi from 3.16.1 to 3.16.2 in /plugins/codex-securi…](https://github.com/openai/codex-security/commit/96fb3de45ac7cc0513a12cf292373c00e4c6ee33) | dependabot[bot] |
+| 2026-11-18 | [ci: bump docker/login-action from 4.7.0 to 4.8.0 (#2642)](https://github.com/openai/codex-security/commit/29b002fe8b7973ea7a6212f93b11fad7b619b700) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/openai/codex-security/commits)
 

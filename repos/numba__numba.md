@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 91% · C 6% · C++ 3% |
 | 📜 **License** | BSD-2-Clause |
 | 🏷 **Topics** | `python` `numpy` `llvm` `compiler` `cuda` `parallel` `numba` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2012-03-08 |
 | 📦 **Latest release** | [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1) — 2026-10-27 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1)
-<sub>2026-10-27 · 21d ago</sub>
+<sub>2026-10-27 · 22d ago</sub>
 
 > Numba patch release, please refer to the detailed release notes here -
 > https://numba.readthedocs.io/en/stable/release/0.68.1-notes.html
@@ -67,6 +67,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Merge pull request #10928 from kc611/kc/numba_numpy_api](https://github.com/numba/numba/commit/abf938a2f41de2385ff153255f2f056b339e3b1a) | esc |
+| 2026-11-18 | [Merge pull request #10971 from guilhermeleobas/guilhermeleobas/cache-…](https://github.com/numba/numba/commit/2950a031275ca29d4ad599cb831273a2fed2a955) | sklam |
+| 2026-11-18 | [Fix pre-commit issues](https://github.com/numba/numba/commit/78478defa5e5a627d0956c9ea799a07fe55c02a8) | kc611 |
 | 2026-11-16 | [Merge pull request #10815 from swap357/ci/add-3.15t-free-threading-wh…](https://github.com/numba/numba/commit/d5baf9e2f131bb838356a861783690303853cfb6) | esc |
 | 2026-11-16 | [Merge pull request #10623 from swap357/secure_gh_workflows](https://github.com/numba/numba/commit/e69f15d25d7c87e1b3b1ba927f3740aa3ce98a5c) | esc |
 | 2026-11-13 | [address review comment, fix with quotes on GITHUB_WORKSPACE variable](https://github.com/numba/numba/commit/e5304bad487a1f1bd449444b4e4000220766750c) | swap357 |
@@ -74,9 +77,6 @@
 | 2026-11-12 | [add environment declaration for anaconda.org publishing job](https://github.com/numba/numba/commit/5ddb77ec2d7391cf72cc4add15c80fd9c1330e0a) | swap357 |
 | 2026-11-12 | [address zizmor finding: add comments to permisssions on workflow file…](https://github.com/numba/numba/commit/c9139bb2a9c6f0239679280afbfc8542b03c0053) | swap357 |
 | 2026-11-12 | [export and use PYTHON_VERSION as env var in osx-arm64 builder](https://github.com/numba/numba/commit/834e05a2f4abe57f763ad75d98a035ad1732f2fd) | swap357 |
-| 2026-11-12 | [update jobs with missing names on workflows](https://github.com/numba/numba/commit/d0ad227a185b8d69ba0ae5f4d5e7425c80150a21) | swap357 |
-| 2026-11-12 | [Merge remote-tracking branch 'upstream/main' into secure_gh_workflows](https://github.com/numba/numba/commit/f7891e853881cc18d0908411ea2effd858f4f46b) | swap357 |
-| 2026-11-11 | [Merge pull request #10973 from sebastianbreguel/fix/partition-negativ…](https://github.com/numba/numba/commit/cdfb64df2388e1eedceb9e212e2843ea6edb263c) | swap357 |
 
 [See all commits ↗](https://github.com/numba/numba/commits)
 

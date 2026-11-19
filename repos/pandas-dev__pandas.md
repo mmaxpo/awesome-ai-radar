@@ -30,13 +30,13 @@
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 416.6 MB |
+| 💾 **Size** | 416.7 MB |
 | 🌐 **Website** | https://pandas.pydata.org |
 
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 13d ago</sub>
+<sub>2026-11-04 · 14d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.0](https://github.com/pandas-dev/pandas/releases/tag/v3.1.0) — pandas 3.1.0
-<sub>2026-10-22 · 27d ago</sub>
+<sub>2026-10-22 · 28d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.0.
 > This release includes some new features, bug fixes, and performance improvements. We recommend that all users upgrade to this version.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [BUG: raise MemoryError instead of crashing when a khash table cannot …](https://github.com/pandas-dev/pandas/commit/269b4876efc1bfc114db37e465fb008512670b9e) | jbrockmendel |
-| 2026-11-18 | [TST: DataFrameGroupBy.transform keeps dtypes beside a string column (…](https://github.com/pandas-dev/pandas/commit/5b8bfd3c55b55f46d88d87aae27cbc8dbe61cc9f) | jbrockmendel |
-| 2026-11-18 | [DOC: fix Timedelta/Timestamp docstrings claiming nanosecond storage (…](https://github.com/pandas-dev/pandas/commit/ec8c397f676c3689b253c771af89ab95243b2bd0) | jbrockmendel |
-| 2026-11-17 | [DOC: Add MultiIndex.to_list() to docs and indicate that it returns a …](https://github.com/pandas-dev/pandas/commit/47a82bc9c7c50b1cc360eb1a505546be5fde457e) | Prem-gosavi45 |
-| 2026-11-17 | [DOC: document how to format a long set of accepted values (GH#28784) …](https://github.com/pandas-dev/pandas/commit/ce59b5ad86978d76fcf93488e95e9d46896fe7b6) | jbrockmendel |
-| 2026-11-17 | [DOC: document differences between python and pyarrow string storage (…](https://github.com/pandas-dev/pandas/commit/06071de90b02d0efac5c4b0e819d33f95a61e492) | jbrockmendel |
-| 2026-11-17 | [DOC: fix HDFStore.put/append and to_hdf `index` parameter docs (GH#60…](https://github.com/pandas-dev/pandas/commit/d91dc497e35e1576c51d3ccf4d6c8c6824701485) | jbrockmendel |
-| 2026-11-17 | [TST: read_parquet with dtype_backend="pyarrow" and a tz-aware index (…](https://github.com/pandas-dev/pandas/commit/6dfef9f240fdb85099745fc8ef55b8a53f966bda) | jbrockmendel |
-| 2026-11-17 | [BUG: qcut raises with infinite values (#69918)](https://github.com/pandas-dev/pandas/commit/fda69e407ee1aae34997938f91984677b1539407) | fabiovincenzi |
-| 2026-11-16 | [DOC: warn that to_excel writes strings starting with "=" as formulas …](https://github.com/pandas-dev/pandas/commit/3f78c15dd01c22bea029ef4e56de3cabd29e4d31) | jbrockmendel |
+| 2026-11-18 | [CLN: import directly in pandas/io/_util.py instead of "import pandas …](https://github.com/pandas-dev/pandas/commit/264b9d8f97b579a009f77fb171bf0c24d903604a) | fangchenli |
+| 2026-11-18 | [TYP: consistent columns annotations for DataFrame writers (GH#30449) …](https://github.com/pandas-dev/pandas/commit/c4220638b83b3a879560b6024cda6efa2c67fd2b) | jbrockmendel |
+| 2026-11-18 | [BUG: ufunc with a pandas object as `where` recursed infinitely (GH#60…](https://github.com/pandas-dev/pandas/commit/13fa1b31da2f31bb24eb1c432ed25147e3a283f8) | jbrockmendel |
+| 2026-11-18 | [BUG: read_csv c engine header=None with callable usecols (GH#71880) (…](https://github.com/pandas-dev/pandas/commit/4f02479444c1da515b14c27fa028f521665ba98d) | jbrockmendel |
+| 2026-11-18 | [BUG: quantile on all-NA third-party ExtensionArray raising (GH#45968)…](https://github.com/pandas-dev/pandas/commit/9edea0116d91409ee38c8a5c0be2a1c325e01532) | jbrockmendel |
+| 2026-11-18 | [BUG: DataFrame.to_latex/to_csv with Index, Series or array columns (#…](https://github.com/pandas-dev/pandas/commit/68dda2544d640d5183124bd26e2ffe4e9bab6823) | jbrockmendel |
+| 2026-11-18 | [BUG: describe raising for EAs whose statistics can't be cast to float…](https://github.com/pandas-dev/pandas/commit/5339de05e4c2ac160f38a1805220df1735b938c7) | jbrockmendel |
+| 2026-11-18 | [DEPR: timedelta_range closed in favor of inclusive (GH#40245) (#72057)](https://github.com/pandas-dev/pandas/commit/3e52539e2786878c9fe47c6cd90f5a50484d5858) | jbrockmendel |
+| 2026-11-18 | [DOC/MNT: update maintainer release guidelines (#71901)](https://github.com/pandas-dev/pandas/commit/e45c04ac31d448a2f38d7eb0420f05a2391f323f) | jorisvandenbossche |
+| 2026-11-18 | [CLN: move _arrow_dtype_mapping from pandas.io into pandas.core (#72203)](https://github.com/pandas-dev/pandas/commit/29765f135c637a4890c9e62be84d63c1ba38809c) | fangchenli |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

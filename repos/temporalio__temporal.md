@@ -26,17 +26,17 @@
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 173.8 MB |
+| 💾 **Size** | 174.5 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 15d ago</sub>
+<sub>2026-11-02 · 16d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 15d ago</sub>
+<sub>2026-11-02 · 16d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 15d ago</sub>
+<sub>2026-11-02 · 16d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [Add ephemeral CHASM component fields (#13085)](https://github.com/temporalio/temporal/commit/506d38141d6ebc663694d63b484aa020b31c415e) | bergundy |
-| 2026-11-18 | [Verify Nexus task (#13144)](https://github.com/temporalio/temporal/commit/148a5e99edbcab97684815916824fcae0ec622f5) | long-nt-tran |
-| 2026-11-17 | [Fix flakes: `TestAddThenConsumeActivities` should not assume FIFO (#1…](https://github.com/temporalio/temporal/commit/dbe2d84170bbc21509188d645725228af6aa20da) | carlydf |
-| 2026-11-17 | [Adding CapturePanicHook to avoid double-defer code (#13139)](https://github.com/temporalio/temporal/commit/d25f4923d31c9bb502e20e4bec0a5560fa77e8d1) | stuart-wells |
-| 2026-11-17 | [Add search attribute alias to field mapping to Namespace Detail for E…](https://github.com/temporalio/temporal/commit/392c9c44bffb653cb1a24dc21a850e360e5c6cec) | awln-temporal |
-| 2026-11-17 | [Bump go.temporal.io/testx to 806d3508f](https://github.com/temporalio/temporal/commit/77c3647e138455a5fd259cc7980a9460ae6ce036) | temporal-data |
-| 2026-11-17 | [Bump Go and dependencies to fix reported CVEs (#13131)](https://github.com/temporalio/temporal/commit/806d3508f7484f68948a8a08427d01bed391b151) | feiyang3cat |
-| 2026-11-17 | [Emit wide event when state sync is skipped for buffered events (#13135)](https://github.com/temporalio/temporal/commit/de3cfe9d19c05030674e27f95026287911e43d8b) | michaely520 |
-| 2026-11-17 | [fix: refuse polls that arrive after ShutdownWorker of an unloaded tas…](https://github.com/temporalio/temporal/commit/a1e005230fbe050c83c8c285dcbf0bbfbd7093b4) | moetemp |
-| 2026-11-17 | [Add CHASM Speculative Transition (#13025)](https://github.com/temporalio/temporal/commit/23e4eab0337a0df7c65e4e1132651941f8a8209b) | chanric |
+| 2026-11-19 | [Bump go.temporal.io/testx to 4d2eaffb4](https://github.com/temporalio/temporal/commit/fd193d32ec42e2ed8785e251669ce0336bb6bc8a) | temporal-data |
+| 2026-11-19 | [Add Await for parallelsuite Scope helpers (#13151)](https://github.com/temporalio/temporal/commit/4d2eaffb4719cbc6072eddce4a623611c1b06f3b) | stephanos |
+| 2026-11-19 | [Clear the history cache when force-deleting an execution (#13055)](https://github.com/temporalio/temporal/commit/4841d727dae93c08444a94e47149c0fb0e74d226) | jiechenz |
+| 2026-11-18 | [Add Nexus serialization context usage metrics (#13158)](https://github.com/temporalio/temporal/commit/681937db2f87c499676d04b3e0f4b9256147aa2d) | JoshuaFrenchwood |
+| 2026-11-18 | [Bump go.temporal.io/testx to 9f6f2a962](https://github.com/temporalio/temporal/commit/28040d0bcad127682759438468ac94b9a44548ac) | temporal-data |
+| 2026-11-18 | [Expose direct assertions to generic suite helpers (#13118)](https://github.com/temporalio/temporal/commit/9f6f2a962e7bff928b8487c0d9cb1c6bb1d68460) | stephanos |
+| 2026-11-18 | [Use parallelsuite for functional subtests (#13108)](https://github.com/temporalio/temporal/commit/a85f2a55079d8ebfe0e4c2150a6d06a719d0b6d8) | stephanos |
+| 2026-11-18 | [Revert "Add search attribute alias to field mapping to Namespace Deta…](https://github.com/temporalio/temporal/commit/8baf2c38e695bf9473adf38c7a2ab41d3ca433d3) | awln-temporal |
+| 2026-11-18 | [Name suite receivers consistently (#13107)](https://github.com/temporalio/temporal/commit/4ab50d2e0a9931304f5a4911b6c8a6e6681b4e55) | stephanos |
+| 2026-11-18 | [Name child suite callback parameters consistently (#13106)](https://github.com/temporalio/temporal/commit/10a3ecf717833e47cd26a975f60a403c644e66ee) | stephanos |
 
 [See all commits ↗](https://github.com/temporalio/temporal/commits)
 

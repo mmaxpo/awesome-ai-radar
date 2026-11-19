@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 15.1k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [1](https://github.com/microsoft/playwright-python/issues) |
+| 🐞 **Open issues + PRs** | [0](https://github.com/microsoft/playwright-python/issues) |
 | 💻 **Languages** | Python 92% · HTML 4% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `playwright` `chromium` `firefox` `webkit` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.65.2](https://github.com/microsoft/playwright-python/releases/tag/v1.65.2)
-<sub>2026-11-14 · 4d ago</sub>
+<sub>2026-11-14 · 5d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright/pull/44098 - browser(chromium): roll to r1255, v159.0.8154.6
@@ -44,7 +44,7 @@
 > - Chromium 159.0.8154.6
 
 ### [v1.65.1](https://github.com/microsoft/playwright-python/releases/tag/v1.65.1)
-<sub>2026-11-11 · 6d ago</sub>
+<sub>2026-11-11 · 7d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3337 - chore: roll Node.js to 26.13.1
@@ -55,7 +55,7 @@
 > …
 
 ### [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0)
-<sub>2026-11-09 · 8d ago</sub>
+<sub>2026-11-09 · 9d ago</sub>
 
 > **🧾 Locator code in Python**
 > A locator from [locator.normalize()](https://playwright.dev/python/docs/api/class-locator#locator-normalize) now converts to a string as Python code. Use it with [page.get_by_ref()](https://playwright.dev/python/docs/api/class-page#page-get-by-ref) to turn an element that an agent picks from a [page.aria_snapshot()](https://playwright.dev/python/docs/api/class-page#page-aria-snapshot) in the `"ai"` mode into code for your test:
@@ -66,7 +66,7 @@
 > …
 
 ### [v1.64.1](https://github.com/microsoft/playwright-python/releases/tag/v1.64.1)
-<sub>2026-10-22 · 26d ago</sub>
+<sub>2026-10-22 · 27d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3283 - chore: roll Node.js to 24.22.1
@@ -91,6 +91,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [chore: start the review bot on pull_request_target again (#3354)](https://github.com/microsoft/playwright-python/commit/613727245cbeed62c9b0fb27a84942abd276602f) | pavelfeldman |
+| 2026-11-18 | [chore: roll Playwright to 1.66.0-next (8124fc3923) (#3353)](https://github.com/microsoft/playwright-python/commit/af8baa0ff17b494d934a992fdc7b399e696edea2) | microsoft-playwright-automation[bot] |
 | 2026-11-17 | [chore: start the review bot on pull_request, not pull_request_target …](https://github.com/microsoft/playwright-python/commit/16fdfef93ef06990fae3f85d2af87105f1dcdc90) | pavelfeldman |
 | 2026-11-17 | [chore(docker): remove check_layers.js, keep the Trivy scan (#3351)](https://github.com/microsoft/playwright-python/commit/ab9d149f27ab174b6c1e42cbda6ee56ff23ace53) | yury-s |
 | 2026-11-17 | [fix(docker): keep the pip cache out of the image layers, and check th…](https://github.com/microsoft/playwright-python/commit/9e771581e828cc784d672f54c48a143359ba66fe) | yury-s |
@@ -99,8 +101,6 @@
 | 2026-11-13 | [devops(release): prepare a patch release with a workflow (#3347)](https://github.com/microsoft/playwright-python/commit/86a5f5a81010b1dbd155263e99782442b61d0cb2) | pavelfeldman |
 | 2026-11-13 | [fix(handlers): support immutable and built-in callbacks (#3344)](https://github.com/microsoft/playwright-python/commit/dbf7807fe7c26201a8ac7feb795e793325892693) | microsoft-playwright-automation[bot] |
 | 2026-11-13 | [chore: roll Playwright to 1.66.0-next (8534271f04) (#3342)](https://github.com/microsoft/playwright-python/commit/88eafe1b2b004c2f489d04d8d9cfdcd66f6c2cf2) | microsoft-playwright-automation[bot] |
-| 2026-11-13 | [devops(roll): roll a release branch with the roll workflow (#3339)](https://github.com/microsoft/playwright-python/commit/f68f05ce17d548e6cc21e3cdc592c5b6cb489d20) | pavelfeldman |
-| 2026-11-12 | [build(deps): bump types-pyyaml from 6.0.12.20260906 to 6.0.12.2026110…](https://github.com/microsoft/playwright-python/commit/b36f716b50808af0ef031fda06546f97b407ddcc) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/microsoft/playwright-python/commits)
 

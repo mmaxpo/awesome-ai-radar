@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 85.8k |
-| 🍴 **Forks** | 16.3k |
+| ⭐ **Stars** | 85.9k |
+| 🍴 **Forks** | 16.4k |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/lobehub/lobehub/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2023-05-21 |
 | 📦 **Latest release** | [v2.3.4](https://github.com/lobehub/lobehub/releases/tag/v2.3.4) — 2026-11-18 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 633.6 MB |
+| 💾 **Size** | 627.0 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
 ### [v2.3.5-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.1) — Desktop Canary v2.3.5-canary.1 _(pre-release)_
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **🐤 Canary Build — v2.3.5-canary.1**
 > > Automated canary build from `canary` branch.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.3.4](https://github.com/lobehub/lobehub/releases/tag/v2.3.4) — 🚀 Release v2.3.4
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **Release v2.3.4**
 > From PR #23286: https://github.com/lobehub/lobehub/pull/23286
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23297.40163](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23297.40163) — PR Build v0.0.0-nightly.pr23297.40163 _(pre-release)_
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23297.40163`
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23286.40158](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23286.40158) — PR Build v0.0.0-nightly.pr23286.40158 _(pre-release)_
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23286.40158`
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23243.40055](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23243.40055) — PR Build v0.0.0-nightly.pr23243.40055 _(pre-release)_
-<sub>2026-11-17 · yesterday</sub>
+<sub>2026-11-17 · 2d ago</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23243.40055`
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [✨ feat(agent): synchronize on-demand tool policies across chat and pr…](https://github.com/lobehub/lobehub/commit/97a1d178e8356a07a5b7fb4935ad55dd77ad872d) | AmAzing129 |
-| 2026-11-18 | [♻️ refactor(skills): manage sidebar skills in agent settings (#23405)](https://github.com/lobehub/lobehub/commit/e25b0e967a306844677b1c2cfd6293dfdda7dc7a) | AmAzing129 |
-| 2026-11-18 | [🐛 fix(chat-input): avoid an empty attachment scrollbar (#23390)](https://github.com/lobehub/lobehub/commit/ab1fbf2b50e2ffb917d12b535fdb7ba4fe46c949) | smbslt3 |
-| 2026-11-18 | [👷 ci(deps): cache the pnpm store for every workflow through setup-env…](https://github.com/lobehub/lobehub/commit/d1dbfdbb822d88fb0cfa20b03e5a544a77f7f1cb) | Innei |
-| 2026-11-18 | [💄 style(model-bank): add GPT-6.2 to Azure and OpenRouter (#23376)](https://github.com/lobehub/lobehub/commit/128738687203a1e8d198443f86755f15c9c385d4) | tjx666 |
-| 2026-11-18 | [🗃️ feat(database): let an environment belong to one project (#23383)](https://github.com/lobehub/lobehub/commit/02305928f36b5b445daf43bea29600b93958be6f) | rdmclin2 |
-| 2026-11-18 | [🐛 fix(work-gallery): keep the Works type switch in the page header (#…](https://github.com/lobehub/lobehub/commit/980549db51635f75fd30a462185016e23b6d107b) | Innei |
-| 2026-11-18 | [⚡️ perf(conversation): give the message list an item size hint (#23375)](https://github.com/lobehub/lobehub/commit/e7d2940cae11222f8052d88351771c2bb7f255be) | Innei |
-| 2026-11-18 | [🐛 fix(agent-share): exempt Claude Code / Codex from share model limit…](https://github.com/lobehub/lobehub/commit/0e5d44329085c24ee8c0e646825d2d84625c4e01) | tjx666 |
-| 2026-11-18 | [🐛 fix(hetero): steer uploaded images into live Claude Code runs (#23362)](https://github.com/lobehub/lobehub/commit/a04e505069057e660efa01b18409461ec0241574) | MarioJames |
+| 2026-11-19 | [✨ feat(connector): distinguish workspace and private connectors (#22941)](https://github.com/lobehub/lobehub/commit/d86a85bcea15a5e1c3131f1d69bb1c08769a8819) | rdmclin2 |
+| 2026-11-19 | [♻️ refactor(styles): make one density spec the source for every densi…](https://github.com/lobehub/lobehub/commit/361266c4898d0ed4fb769223541755a5e51f0a52) | Innei |
+| 2026-11-19 | [♻️ refactor(skills): deduplicate Skills prompt and align device-route…](https://github.com/lobehub/lobehub/commit/35b070ac3d56fb35ba897b62cda3152a4c921c96) | AmAzing129 |
+| 2026-11-19 | [♻️ refactor(activator): deduplicate Tools Activator system prompt (#2…](https://github.com/lobehub/lobehub/commit/ae78ffd1420911bbdd2877dc1797c36b29742677) | AmAzing129 |
+| 2026-11-19 | [🐛 fix(chat-input): offer a project conversation its own environment (…](https://github.com/lobehub/lobehub/commit/5f679b5f33e6aeade93be6ecfa86a5e43a12f185) | rdmclin2 |
+| 2026-11-19 | [✨ feat(skills): focus the Skills settings store on marketplace skills…](https://github.com/lobehub/lobehub/commit/4a23eec771d2efa16d8571d346a665c75cfdadec) | AmAzing129 |
+| 2026-11-19 | [🐛 fix(skills): restore on-demand builtins for legacy agents (#23475)](https://github.com/lobehub/lobehub/commit/556bdefffa8b5dbb2f28592186570e46808b4968) | AmAzing129 |
+| 2026-11-19 | [✨ feat(locales): copy for notifying admins when a member budget runs …](https://github.com/lobehub/lobehub/commit/ff9a881ba82f0f852ce4fd09f446abcd12b49628) | rdmclin2 |
+| 2026-11-19 | [🐛 fix(agent-share): count Workspace agents' own runs in share stats (…](https://github.com/lobehub/lobehub/commit/bdea230ad8d2b68ccd6dc3942e683930803575f9) | tjx666 |
+| 2026-11-19 | [💄 style(ui): bring remaining surfaces onto the compact density tokens…](https://github.com/lobehub/lobehub/commit/07cc80bdda84799f4e2a9d02ea00bccc63400a7d) | Innei |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

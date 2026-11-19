@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 329.6 MB |
+| 💾 **Size** | 329.7 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1)
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **Changelog**
 > **New Features:**
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · 5d ago</sub>
+<sub>2026-11-12 · 6d ago</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 20d ago</sub>
+<sub>2026-10-29 · 21d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 21d ago</sub>
+<sub>2026-10-27 · 22d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.1.10](https://github.com/agno-agi/agno/releases/tag/v3.1.10)
-<sub>2026-10-23 · 26d ago</sub>
+<sub>2026-10-23 · 27d ago</sub>
 
 > **Changelog**
 > **Bug Fixes:**
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [[fix] Surface Neo4jTools errors instead of returning [] (#11724)](https://github.com/agno-agi/agno/commit/365c9c7e74719c1d20b557178add8c65f27a4426) | LangerSword |
 | 2026-11-18 | [[feat] Add Sarvam AI as a model provider (#11735)](https://github.com/agno-agi/agno/commit/821be55d1ec3bb472abe8bd94c3b2a0d6c78392f) | vikashmaddi-sarvam |
 | 2026-11-18 | [fix: reject page 0 on session, memory, eval and knowledge list routes…](https://github.com/agno-agi/agno/commit/ea74915eb0b9ea8039704e6b39947804297caa96) | harshsinha03 |
 | 2026-11-18 | [feat: inline JSON Schema output_schema in StudioTools (#11220)](https://github.com/agno-agi/agno/commit/59ca87f2d7fcda56d07b9fc4b5c4f60b17d5800d) | ysolanky |
@@ -103,7 +104,6 @@
 | 2026-11-17 | [fix: update deprecated model defaults (#10822)](https://github.com/agno-agi/agno/commit/038c95ac5c06457d2ec687f7bd8c9c490c19cb30) | bunnysayzz |
 | 2026-11-17 | [fix: postgres drop a failed table from MetaData so a retry can create…](https://github.com/agno-agi/agno/commit/8b5ce9f85812519a2452ff47981964b202e23828) | HhH666-ux |
 | 2026-11-17 | [[fix] Pin Daytona extra below 1.0 and hint a supported SDK (#11725)](https://github.com/agno-agi/agno/commit/9aa12c4111e9f134089e7ac8d7ea3c7b320ac779) | ningyixi |
-| 2026-11-17 | [fix: report MCPTools.connect() outcome and cleanup on CancelledError …](https://github.com/agno-agi/agno/commit/148d30fdfbc740a4c95d10d51ede8143a6cda5fa) | surlymochan |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

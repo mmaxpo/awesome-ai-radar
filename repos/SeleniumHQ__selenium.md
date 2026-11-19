@@ -22,30 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 34.6k |
 | 🍴 **Forks** | 8.7k |
-| 🐞 **Open issues + PRs** | [186](https://github.com/SeleniumHQ/selenium/issues) |
+| 🐞 **Open issues + PRs** | [185](https://github.com/SeleniumHQ/selenium/issues) |
 | 💻 **Languages** | Java 33% · C# 14% · JavaScript 11% · Python 10% · C++ 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `selenium` `webdriver` `java` `ruby` `python` `javascript` `dotnet` `rust` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2013-01-14 |
 | 📦 **Latest release** | [selenium-4.53.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.53.0) — 2026-11-17 |
 | 🌿 **Default branch** | `trunk` |
-| 💾 **Size** | 2360.6 MB |
+| 💾 **Size** | 2360.9 MB |
 | 🌐 **Website** | https://selenium.dev |
 
 ## 📦 Recent releases
 
 ### [nightly](https://github.com/SeleniumHQ/selenium/releases/tag/nightly) — Nightly _(pre-release)_
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-19 · today</sub>
 
 > **What's Changed**
 > * [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in https://github.com/SeleniumHQ/selenium/pull/18330
 > * [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in https://github.com/SeleniumHQ/selenium/pull/18331
 > * [build] extend the EngFlow cache for GHA to Rust by @titusfortner in https://github.com/SeleniumHQ/selenium/pull/18332
-> **Full Changelog**: https://github.com/SeleniumHQ/selenium/compare/selenium-4.53.0...nightly
+> * [rb] stop the driver service when starting a session fails with any error by @titusfortner in https://github.com/SeleniumHQ/selenium/pull/18333
+> * [js][bidi] Keep received node attributes in the generated BiDi modules by @pujagani in https://github.com/SeleniumHQ/selenium/pull/18336
+> …
 
 ### [selenium-4.53.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.53.0) — Selenium 4.53.0
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **Detailed Changelogs by Component**
 > <img src="https://www.selenium.dev/images/programming/java.svg" width="20" height="20"> **[Java](https://github.com/SeleniumHQ/selenium/blob/trunk/java/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/python.svg" width="20" height="20"> **[Python](https://github.com/SeleniumHQ/selenium/blob/trunk/py/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/dotnet.svg" width="20" height="20"> **[DotNet](https://github.com/SeleniumHQ/selenium/blob/trunk/dotnet/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/ruby.svg" width="20" height="20"> **[Ruby](https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/javascript.svg" width="20" height="20"> **[JavaScript](https://github.com/SeleniumHQ/selenium/blob/trunk/javascript/selenium-webdriver/CHANGES.md)**
@@ -56,7 +58,7 @@
 > …
 
 ### [selenium-4.52.0](https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0) — Selenium 4.52.0
-<sub>2026-10-29 · 20d ago</sub>
+<sub>2026-10-29 · 21d ago</sub>
 
 > **Detailed Changelogs by Component**
 > <img src="https://www.selenium.dev/images/programming/java.svg" width="20" height="20"> **[Java](https://github.com/SeleniumHQ/selenium/blob/trunk/java/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/python.svg" width="20" height="20"> **[Python](https://github.com/SeleniumHQ/selenium/blob/trunk/py/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/dotnet.svg" width="20" height="20"> **[DotNet](https://github.com/SeleniumHQ/selenium/blob/trunk/dotnet/CHANGELOG)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/ruby.svg" width="20" height="20"> **[Ruby](https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES)** &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<img src="https://www.selenium.dev/images/programming/javascript.svg" width="20" height="20"> **[JavaScript](https://github.com/SeleniumHQ/selenium/blob/trunk/javascript/selenium-webdriver/CHANGES.md)**
@@ -92,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [[js][bidi] Type vendor-declared BiDi fields instead of making extende…](https://github.com/SeleniumHQ/selenium/commit/c29d42a11b8a6c8e2ffbb023e59e7ef91c4283d8) | pujagani |
-| 2026-11-18 | [[js][bidi] Keep received node attributes in the generated BiDi module…](https://github.com/SeleniumHQ/selenium/commit/beab36a1fd8115edaecc3ece86d328d4c0ede45d) | pujagani |
-| 2026-11-18 | [[rb] stop the driver service when starting a session fails with any e…](https://github.com/SeleniumHQ/selenium/commit/799932514c89a15454636d2ebb15215e2d7b3c3c) | titusfortner |
-| 2026-11-18 | [[java] stop core from pulling the grid server's manifest entries into…](https://github.com/SeleniumHQ/selenium/commit/6e3bc1e956a809d66bdb1cbc6cb913fd1c69184a) | titusfortner |
-| 2026-11-18 | [[java] stop the Build-Revision grep from also matching STABLE_GIT_REV…](https://github.com/SeleniumHQ/selenium/commit/a4cba3fe406d10704e089ddb71e3130a104d8529) | titusfortner |
-| 2026-11-17 | [[build] extend the EngFlow cache for GHA to Rust (#18332)](https://github.com/SeleniumHQ/selenium/commit/6ed471be993a25b74a2fec33211774fdd29d2aea) | titusfortner |
-| 2026-11-17 | [[rb] raise integration spec read timeout to 60s so cold browser start…](https://github.com/SeleniumHQ/selenium/commit/34fa177d33329555b373348f8693882ef713dbe5) | titusfortner |
-| 2026-11-17 | [[build] pass the run command to the Bazel retry steps through the env…](https://github.com/SeleniumHQ/selenium/commit/984e6b767a582bee9790066f2005760b01623782) | titusfortner |
-| 2026-11-17 | [[build] extend the EngFlow cache for GHA to all bindings (#18331)](https://github.com/SeleniumHQ/selenium/commit/43df7b9748002d7b6a7b4cf6879407eb0543d595) | titusfortner |
-| 2026-11-17 | [[build] download the test file index from the nightly artifact instea…](https://github.com/SeleniumHQ/selenium/commit/e40e1ab2121f55e217894331db8dc68b2bec74cc) | titusfortner |
+| 2026-11-19 | [[build] rename the Windows runner cleanup script since it does not de…](https://github.com/SeleniumHQ/selenium/commit/7e394ae0b32fabbe4976d138fec545d76dd4e3a3) | titusfortner |
+| 2026-11-19 | [[build] Automated Browser Version Update (major) with CDP (#18338)](https://github.com/SeleniumHQ/selenium/commit/095080829660c9fe263ea5bf545614000007e740) | selenium-ci |
+| 2026-11-19 | [[js][bidi] Type vendor fields on extensible session capabilities (#18…](https://github.com/SeleniumHQ/selenium/commit/f42ffe7b3a41144173a685390cf4a99a82e42ae0) | pujagani |
+| 2026-11-18 | [[build] use pinned browsers in GitHub tests where supported](https://github.com/SeleniumHQ/selenium/commit/700f5ee1012c3105bedacaca65029749a4e5275a) | titusfortner |
+| 2026-11-18 | [[build] run GitHub Actions browser tests live on automated browser up…](https://github.com/SeleniumHQ/selenium/commit/1db5b120fa7e7bbf8ece04b1f718a3f8074d7598) | titusfortner |
+| 2026-11-18 | [[java] quit Safari driver like geckodriver without waiting an additio…](https://github.com/SeleniumHQ/selenium/commit/7fa71ca1460d696b8618914d4630e54bf4e191dd) | titusfortner |
+| 2026-11-18 | [[build] dispatch docker-selenium release preparation after the GitHub…](https://github.com/SeleniumHQ/selenium/commit/94ccdd9540385aa3999d4538e3db12ca6c0140c2) | titusfortner |
+| 2026-11-18 | [[build] Automated Selenium Manager Update](https://github.com/SeleniumHQ/selenium/commit/a0eb4ee4bd709b9ae02a0357c5633b750b749cf8) | selenium-ci |
+| 2026-11-18 | [[build] build Selenium Manager from source for GHA browser tests and …](https://github.com/SeleniumHQ/selenium/commit/a7ee29404b07bddf9de06d2a82cd6631a76c938f) | titusfortner |
+| 2026-11-18 | [[py] drop ActionBuilder browser tests that repeat ActionChains scenar…](https://github.com/SeleniumHQ/selenium/commit/e0b798e5ce3fc66c7deb173a3555e8a377665a9b) | titusfortner |
 
 [See all commits ↗](https://github.com/SeleniumHQ/selenium/commits)
 

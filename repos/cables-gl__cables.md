@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 574 |
 | 🍴 **Forks** | 35 |
-| 🐞 **Open issues + PRs** | [405](https://github.com/cables-gl/cables/issues) |
+| 🐞 **Open issues + PRs** | [407](https://github.com/cables-gl/cables/issues) |
 | 💻 **Languages** | JavaScript 91% · GLSL 9% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2015-06-05 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 494.9 MB |
+| 💾 **Size** | 495.2 MB |
 | 🌐 **Website** | https://cables.gl |
 
 ## 📦 Recent releases
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [fix data](https://github.com/cables-gl/cables/commit/d27f472d79e603bd605ddad10ad158c0414e7209) | pandrr |
+| 2026-11-19 | [toggle active did not use default size https://github.com/cables-gl/c…](https://github.com/cables-gl/cables/commit/1db0dce23f32d85331be35483f3e7f6dbf72bd21) | pandrr |
+| 2026-11-19 | [docs](https://github.com/cables-gl/cables/commit/bc8aaa72872ca14ec1f3d36174457469aa4f561a) | pandrr |
+| 2026-11-19 | [interactive rectangle and forcecanvas... https://cables.gl/edit/VLP0Qp](https://github.com/cables-gl/cables/commit/6b15a50c48f338e1f65cc25972d8d7d55b9d1cd0) | pandrr |
+| 2026-11-19 | [optional title array input https://github.com/cables-gl/cables/issues…](https://github.com/cables-gl/cables/commit/dd0de7b48cd088f978a2ca922c27ee43c9287f8f) | pandrr |
+| 2026-11-19 | [show warning for now](https://github.com/cables-gl/cables/commit/dd6de2b936cffb5920d72816ed9e78c64d4ba629) | pandrr |
+| 2026-11-18 | [rapier vehicle](https://github.com/cables-gl/cables/commit/8c7ff2bed1a4de1a6f2fc3ff9e3f0549006d189a) | pandrr |
+| 2026-11-18 | [docs / keyboard docs](https://github.com/cables-gl/cables/commit/a4a16d627f65a85e7263a80d48a7957dd493cc54) | pandrr |
 | 2026-11-17 | [dev changes](https://github.com/cables-gl/cables/commit/e01b5b391a79a3bfd55fda6bb6830ef55da562d4) | pandrr |
 | 2026-11-17 | [dev changes](https://github.com/cables-gl/cables/commit/883675524e75fb15eb6ed4cb1bd54f207a35834d) | pandrr |
-| 2026-11-17 | [Merge branch 'develop' of github.com:cables-gl/cables into develop](https://github.com/cables-gl/cables/commit/275400d61a6644afd2b9d8a06ece0ca88dcdb8b1) | pandrr |
-| 2026-11-17 | [move cables_docs into docs/ (with history)](https://github.com/cables-gl/cables/commit/743bca071f5725aee511fa27ce2739c4afd13e6f) | pandrr |
-| 2026-11-17 | [move cables_docs into docs/ (with history)](https://github.com/cables-gl/cables/commit/b170cad9430e11dff60f61518799d3d208f25c8d) | pandrr |
-| 2026-11-17 | [Merge remote-tracking branch 'refs/remotes/origin/develop' into develop](https://github.com/cables-gl/cables/commit/f928dba9ee4287cbd0e1b5c4e411361ac5d42db5) | pandrr |
-| 2026-11-17 | [Merge remote-tracking branch 'refs/remotes/origin/develop' into develop](https://github.com/cables-gl/cables/commit/f61cf959ef6c3fc1dec623a67e672c4ff3517bdf) | pandrr |
-| 2026-11-17 | [fix link to "quick start"](https://github.com/cables-gl/cables/commit/eb7057052136b387eef67da137d6e8b5483c9b93) | steam0r |
-| 2026-11-17 | [fix link to "quick start"](https://github.com/cables-gl/cables/commit/104624d599097fc84ed5f8edeac3a75858fe2c7e) | steam0r |
-| 2026-11-17 | [typos](https://github.com/cables-gl/cables/commit/aecc4883d8f531a884c864700850d502da18615a) | pandrr |
 
 [See all commits ↗](https://github.com/cables-gl/cables/commits)
 

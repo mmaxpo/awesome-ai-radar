@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 6.1k |
 | 🍴 **Forks** | 251 |
-| 🐞 **Open issues + PRs** | [27](https://github.com/jacklandrin/OnlySwitch/issues) |
+| 🐞 **Open issues + PRs** | [26](https://github.com/jacklandrin/OnlySwitch/issues) |
 | 💻 **Languages** | Swift 80% · HTML 13% · JavaScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `macos` `swiftui` `statusbar` `menubar-app` `notch` `audioplayer` `dark-mode` `pomodoro-timer` `shortcuts` `composable-architecture` `stagemanager` `widgetkit` `widgets` `ai` `ai-agents` `remote-control` `systemmonitor` `claude-code` `codex` `screenshot` |
-| 🕒 **Last activity** | 2026-11-16 (yesterday) |
+| 🕒 **Last activity** | 2026-11-18 (yesterday) |
 | 📅 **Created** | 2021-11-30 |
 | 📦 **Latest release** | [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 60.1 MB |
+| 💾 **Size** | 60.5 MB |
 | 🌐 **Website** | https://onlyswitch.click/ |
 
 ## 📦 Recent releases
 
 ### [beta_3.8.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.8.0) _(pre-release)_
-<sub>2026-11-16 · yesterday</sub>
+<sub>2026-11-16 · 2d ago</sub>
 
 > New features:
 > * Added a Display Brightness master switch in Settings → Display. Turn brightness controls off or back on without restarting OnlySwitch.
@@ -47,7 +47,7 @@
 > …
 
 ### [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 3.7.0
-<sub>2026-11-16 · 2d ago</sub>
+<sub>2026-11-16 · 3d ago</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
@@ -58,7 +58,7 @@
 > …
 
 ### [beta_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.7.0) _(pre-release)_
-<sub>2026-11-15 · 3d ago</sub>
+<sub>2026-11-15 · 4d ago</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
@@ -69,7 +69,7 @@
 > …
 
 ### [release_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.6.0)
-<sub>2026-11-10 · 7d ago</sub>
+<sub>2026-11-10 · 8d ago</sub>
 
 > New features:
 > 1. Screenshots tab supported video recording
@@ -80,7 +80,7 @@
 > …
 
 ### [beta_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.6.0) _(pre-release)_
-<sub>2026-11-08 · 9d ago</sub>
+<sub>2026-11-08 · 10d ago</sub>
 
 > New features:
 > * Supported screen record
@@ -93,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Merge pull request #236 from laakal/fix/system-monitor-menu-bar-cpu](https://github.com/jacklandrin/OnlySwitch/commit/dc27931609cdd5743b7a63367bea67889f88b6ad) | jacklandrin |
+| 2026-11-18 | [Fix menu bar indicator redraw loop](https://github.com/jacklandrin/OnlySwitch/commit/c231eed619bc609c42ad6286d079ce5c84a36ba0) | laakal |
 | 2026-11-16 | [bump version](https://github.com/jacklandrin/OnlySwitch/commit/839ae694c8866d0548338abcd3648426b31c95a0) | jacklandrin |
 | 2026-11-16 | [feat: add Display Brightness master switch and opt-in external DDC co…](https://github.com/jacklandrin/OnlySwitch/commit/6ef4f059fee494a25827e26b5d58a11aa87affd9) | jacklandrin |
 | 2026-11-16 | [docs: document OnlySwitch 3.7.0 features and advance release build](https://github.com/jacklandrin/OnlySwitch/commit/de4eb6b4878ae7d320808932613d353e6686f2d2) | jacklandrin |
@@ -101,8 +103,6 @@
 | 2026-11-16 | [feat: detect updates by build number and check hourly](https://github.com/jacklandrin/OnlySwitch/commit/f2fb849a6b564371e310043280f7ceb69c0738a7) | jacklandrin |
 | 2026-11-15 | [Fix background noise playback and loading state](https://github.com/jacklandrin/OnlySwitch/commit/ff711c471f163f7b369885792598830c7ebc5650) | jacklandrin |
 | 2026-11-14 | [feat: submit the desktop pet prompt with Return](https://github.com/jacklandrin/OnlySwitch/commit/2db3c8b981613a49080838ece7b66b89235f0763) | jacklandrin |
-| 2026-11-14 | [fix: align the desktop pet prompt placeholder with the caret](https://github.com/jacklandrin/OnlySwitch/commit/29625e41cbed0ecc93e433005c864796eddc4fcf) | jacklandrin |
-| 2026-11-14 | [fix: fence the current pet markup in the edit prompt and polish edit …](https://github.com/jacklandrin/OnlySwitch/commit/8dbe2fe3a93830f138426f728135d280d48f6eba) | jacklandrin |
 
 [See all commits ↗](https://github.com/jacklandrin/OnlySwitch/commits)
 

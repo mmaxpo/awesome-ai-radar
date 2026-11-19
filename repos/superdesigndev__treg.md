@@ -20,33 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.4k |
-| 🍴 **Forks** | 809 |
-| 🐞 **Open issues + PRs** | [330](https://github.com/superdesigndev/treg/issues) |
+| ⭐ **Stars** | 8.5k |
+| 🍴 **Forks** | 822 |
+| 🐞 **Open issues + PRs** | [340](https://github.com/superdesigndev/treg/issues) |
 | 💻 **Languages** | Python 74% · HTML 13% · JavaScript 3% · Vue 3% · Go 3% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `dsh-plugin` `agents` `api-keys` `cli` `credentials` `developer-tools` `mcp` `proxy` `python` `registry` `secrets` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 138.8 MB |
+| 💾 **Size** | 141.3 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases
 
 ### [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — treg 1.0.0-beta.3 _(pre-release)_
-<sub>2026-11-17 · yesterday</sub>
+<sub>2026-11-17 · 2d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — treg 1.0.0-beta.2 _(pre-release)_
-<sub>2026-11-12 · 6d ago</sub>
+<sub>2026-11-12 · 7d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.1](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.1) — treg 1.0.0-beta.1 _(pre-release)_
-<sub>2026-11-07 · 10d ago</sub>
+<sub>2026-11-07 · 11d ago</sub>
 
 > _No notes._
 
@@ -54,16 +54,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [Merge pull request #1781 from superdesigndev/fix/allowance-refill-sta…](https://github.com/superdesigndev/treg/commit/05d942b0b95379ad576aba5583fbc096ae6b3f94) | WorksOnMyVM |
-| 2026-11-18 | [fix(call): a refill locks the team's row for its cap no harder than a…](https://github.com/superdesigndev/treg/commit/c07fdf24f6bcedc170a1d708e28e8c20680a77a5) | WorksOnMyVM |
-| 2026-11-18 | [fix(call): a refill reads the daily cap under the team's row lock and…](https://github.com/superdesigndev/treg/commit/d6dbfa6e54a3f6068df0b26c2021876e67fb1a10) | WorksOnMyVM |
-| 2026-11-18 | [fix(kv): the take that crosses an allowance counter's low mark asks a…](https://github.com/superdesigndev/treg/commit/981d5d0f90b8e05f14458cb2abeb90867e795498) | WorksOnMyVM |
-| 2026-11-18 | [Merge pull request #1783 from superdesigndev/revert/1684-money-path](https://github.com/superdesigndev/treg/commit/749ff8405670ceb893bd529ebb26740b77c95666) | unclecode |
-| 2026-11-18 | [fix(call): a refill keeps to the team's current daily cap and frees i…](https://github.com/superdesigndev/treg/commit/8c34c20948eea2d48bb82d474210a55b7779796a) | WorksOnMyVM |
-| 2026-11-18 | [fix(kv): an add that brought money ends the pause between refill asks](https://github.com/superdesigndev/treg/commit/69b009599d63b7b7d037b639ffc339f0ead6623a) | WorksOnMyVM |
-| 2026-11-18 | [revert: "perf(call): fewer database round trips on the money path" (#…](https://github.com/superdesigndev/treg/commit/a624c13d0af70bb5f18fc90580be85c4c88d7593) | unclecode |
-| 2026-11-18 | [fix(call): a refill beside a call asks for no amount and tells auto t…](https://github.com/superdesigndev/treg/commit/68efae7e27dfb5b9af06e415c3c5eb1ef08510b9) | WorksOnMyVM |
-| 2026-11-18 | [fix(kv): each deadline of an allowance counter asks for its own refill](https://github.com/superdesigndev/treg/commit/bae42bdee432706e7e8413bf835c44f71055108b) | WorksOnMyVM |
+| 2026-11-19 | [Merge pull request #1816 from superdesigndev/perf/landing-hero-softwa…](https://github.com/superdesigndev/treg/commit/d43ff9c090f115aefea52ca0826d9615ba5cb427) | stonexer |
+| 2026-11-19 | [Merge remote-tracking branch 'origin/main' into perf/landing-hero-sof…](https://github.com/superdesigndev/treg/commit/6dd46deeb30ddb269aaefe3f385f51e6038a95e4) | stonexer |
+| 2026-11-19 | [Merge pull request #1807 from superdesigndev/fix/stamped-baseline-ind…](https://github.com/superdesigndev/treg/commit/3c342679467b03b931732bb59925e4fce915e133) | stonexer |
+| 2026-11-19 | [fix(db): drop six callrecord indexes no query uses](https://github.com/superdesigndev/treg/commit/3e269ea3e5e98284b40e19924a64212152737fc2) | stonexer |
+| 2026-11-19 | [fix(db): build the baseline indexes a stamped database never got](https://github.com/superdesigndev/treg/commit/37837446ced0f538cadeeecffc35b3d6eaac59b4) | stonexer |
+| 2026-11-19 | [Merge pull request #1824 from superdesigndev/cursor/fix-harvestapi-co…](https://github.com/superdesigndev/treg/commit/f954a4f51492daaa647cf204b2eb9249ac2937ae) | WorksOnMyVM |
+| 2026-11-19 | [Merge pull request #1823 from superdesigndev/codex/fix-topup-billing-…](https://github.com/superdesigndev/treg/commit/a627daa608b8762901e506c2d3bc57b293d903d3) | shehjad-dev |
+| 2026-11-19 | [Merge pull request #1818 from superdesigndev/feat/pairwise-compare](https://github.com/superdesigndev/treg/commit/0cc6ae96d1d0010991c1755436f850a84d22108d) | WorksOnMyVM |
+| 2026-11-19 | [fix(feedback): never compare an archive-served answer](https://github.com/superdesigndev/treg/commit/f7eae2e4d6cd22e4c382df4bed374d3f2025364f) | WorksOnMyVM |
+| 2026-11-19 | [test(feedback): compare B's host, not a URL prefix](https://github.com/superdesigndev/treg/commit/e3dde58ed3facdf390dac8f010bb295df7295a1d) | WorksOnMyVM |
 
 [See all commits ↗](https://github.com/superdesigndev/treg/commits)
 

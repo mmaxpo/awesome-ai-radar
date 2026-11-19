@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 68.1k |
+| ⭐ **Stars** | 68.4k |
 | 🍴 **Forks** | 4.6k |
 | 🐞 **Open issues + PRs** | [38](https://github.com/cathrynlavery/diagram-design/issues) |
-| 💻 **Languages** | HTML 58% · Python 42% |
+| 💻 **Languages** | HTML 57% · Python 43% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `claude-code` `codex` `data-visualization` `diagrams` `drawio` `mermaid` `svg` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-04-16 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 37.7 MB |
+| 💾 **Size** | 38.2 MB |
 | 🌐 **Website** | https://diagramdesign.dev |
 
 ## 📦 Recent releases
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [chore(release): bump plugin manifests to 2.6.168](https://github.com/cathrynlavery/diagram-design/commit/d74d8c2d0c78a9e1efd43137f6a9a51182a8b5f0) | github-actions[bot] |
+| 2026-11-19 | [docs(skill): render-and-look step and a shorter taste gate for curren…](https://github.com/cathrynlavery/diagram-design/commit/0e7cd839a9b58853dc4b724cbd77812e62d85787) | Socialpranker |
+| 2026-11-18 | [chore(release): bump plugin manifests to 2.6.167](https://github.com/cathrynlavery/diagram-design/commit/56d20ad82344c3f794ca8794ff7ca46fda06c765) | github-actions[bot] |
+| 2026-11-18 | [feat(import): redraw Mermaid quadrantChart blocks as quadrant diagram…](https://github.com/cathrynlavery/diagram-design/commit/36665801f7b06f53202e8cf086060a39b9d7955e) | mvanhorn |
+| 2026-11-18 | [chore(release): bump plugin manifests to 2.6.166](https://github.com/cathrynlavery/diagram-design/commit/13628f4700c95f404089c99c45ad66a2da9e508a) | github-actions[bot] |
+| 2026-11-18 | [feat(type): add verified schedule network diagrams (#527)](https://github.com/cathrynlavery/diagram-design/commit/7730491e651eafe95d5dff2e106ff35bb80be176) | YalcinkayaE |
 | 2026-11-18 | [chore(release): bump plugin manifests to 2.6.165](https://github.com/cathrynlavery/diagram-design/commit/bddddb607f0416815084b7db25255ee646076ca9) | github-actions[bot] |
 | 2026-11-18 | [fix(verify): reject escaped CSS property names (#524)](https://github.com/cathrynlavery/diagram-design/commit/69b88c0cd71bdd7f87fbbe3f196a1807ffbde19a) | YalcinkayaE |
 | 2026-11-12 | [chore(release): bump plugin manifests to 2.6.164](https://github.com/cathrynlavery/diagram-design/commit/f6db0decea96de66b901331a0f79a8d4b147ebae) | github-actions[bot] |
 | 2026-11-12 | [fix(verify): don't read quoted CSS data as a geometry declaration (#433)](https://github.com/cathrynlavery/diagram-design/commit/d096f3dafb8ac505a65f3104b23bb3fc32a9c0d2) | bercedev |
-| 2026-11-12 | [chore(release): bump plugin manifests to 2.6.163](https://github.com/cathrynlavery/diagram-design/commit/7e478b0c2ffa19f705b89657496353a505f14508) | github-actions[bot] |
-| 2026-11-12 | [fix(import): keep spaces and brackets in compact dash and equals labe…](https://github.com/cathrynlavery/diagram-design/commit/110842938b5c3664916cb68fbfe37884d30b01a8) | akram1089 |
-| 2026-11-12 | [chore(release): bump plugin manifests to 2.6.162](https://github.com/cathrynlavery/diagram-design/commit/6f479d925a24ea0d8c81ca954365be52c55a513e) | github-actions[bot] |
-| 2026-11-12 | [fix(box-plot): read unquoted and valueless attributes as the HTML par…](https://github.com/cathrynlavery/diagram-design/commit/c6f689e7d7c987e73d1a10b957d5879026c7e71d) | TanmayShah29 |
-| 2026-11-12 | [chore(release): bump plugin manifests to 2.6.161](https://github.com/cathrynlavery/diagram-design/commit/58ee12c3913407962a061fc993a2f73f9ea8a3dc) | github-actions[bot] |
-| 2026-11-12 | [chore(ci): bump the ci-dependencies group (#499)](https://github.com/cathrynlavery/diagram-design/commit/4831326f156ea3ff95b84fc544b86ba1856fede3) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/cathrynlavery/diagram-design/commits)
 

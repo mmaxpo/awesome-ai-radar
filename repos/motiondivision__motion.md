@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 35.3k |
+| ⭐ **Stars** | 35.4k |
 | 🍴 **Forks** | 1.6k |
-| 🐞 **Open issues + PRs** | [10](https://github.com/motiondivision/motion/issues) |
+| 🐞 **Open issues + PRs** | [5](https://github.com/motiondivision/motion/issues) |
 | 💻 **Languages** | TypeScript 80% · HTML 16% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `animation` `animation-js` `motion` `react` `reactanimations` `spring` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2018-11-16 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1629.1 MB |
+| 💾 **Size** | 1629.4 MB |
 | 🌐 **Website** | https://motion.dev |
 
 ## 📦 Recent releases
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [Merge pull request #4093 from motiondivision/claude/project-thread-uj…](https://github.com/motiondivision/motion/commit/3f6e5d54ea97b0e11e31fccbdb1cc54bc2ba352b) | mattgperry |
-| 2026-11-18 | [Raise m+LazyMotion+domMax size budget for the rejection handler](https://github.com/motiondivision/motion/commit/5e3393ad6373b839fc2e07dbd66d6d27abbcde92) | claude |
-| 2026-11-18 | [Handle a failed async LazyMotion features import](https://github.com/motiondivision/motion/commit/ead4fd5f14f459bc16cc36739a19cef36083a0dc) | claude |
-| 2026-11-18 | [Merge pull request #4086 from motiondivision/claude/project-thread-y6…](https://github.com/motiondivision/motion/commit/f591c1c2d129700e20fa829a6ddafd85aa86ce21) | mattgperry |
-| 2026-11-17 | [Read layout velocity from the value's last two frames](https://github.com/motiondivision/motion/commit/b2fcb2e0d1e7ba9af12a31f514dbed0bc88d93a3) | claude |
-| 2026-11-17 | [Merge remote-tracking branch 'origin/main' into lv](https://github.com/motiondivision/motion/commit/4f165218e322bbfaa16748e7e0ea63c4625f7d51) | claude |
-| 2026-11-17 | [Merge pull request #4085 from motiondivision/claude/project-thread-y6…](https://github.com/motiondivision/motion/commit/4e5be4d0e57637c911f37af39d31c16add7e3142) | mattgperry |
-| 2026-11-17 | [Merge pull request #4083 from motiondivision/claude/project-thread-y6…](https://github.com/motiondivision/motion/commit/963013215209a818e2426c31bd79501f8f6c2ca7) | mattgperry |
-| 2026-11-17 | [Merge pull request #4082 from motiondivision/claude/project-thread-y6…](https://github.com/motiondivision/motion/commit/e6fa5440186aa31eacde487b93ff122c24b9004e) | mattgperry |
-| 2026-11-17 | [Merge pull request #4087 from motiondivision/claude/project-thread-y6…](https://github.com/motiondivision/motion/commit/410a7acd5206d6d1540f5205664d480315ab94f8) | mattgperry |
+| 2026-11-19 | [Merge pull request #4096 from motiondivision/claude/project-thread-1z…](https://github.com/motiondivision/motion/commit/cd009de7a4314e065d4d9df683057124792d5b34) | mattgperry |
+| 2026-11-19 | [Merge main](https://github.com/motiondivision/motion/commit/368995f68c027e87ad9da43389d1663679ad28a8) | claude |
+| 2026-11-19 | [Merge pull request #4107 from motiondivision/claude/shared-layer-budget](https://github.com/motiondivision/motion/commit/61ce9960b7edbb5e9033e4a1861799e0972c40c4) | mattgperry |
+| 2026-11-19 | [Raise seven size budgets by 50 B for the shared layer budget](https://github.com/motiondivision/motion/commit/638ae90be6f35f6b73e8ff0ec5c81b74e737e7d6) | claude |
+| 2026-11-19 | [Merge pull request #4097 from motiondivision/claude/project-thread-1z…](https://github.com/motiondivision/motion/commit/9dc3ccdf8dc55d85bfada179aa50d0f76cf02529) | mattgperry |
+| 2026-11-19 | [Merge pull request #4098 from motiondivision/claude/project-thread-1z…](https://github.com/motiondivision/motion/commit/ea415ca48c4244b8cf6d08e5618ad49cd3d7afd1) | mattgperry |
+| 2026-11-19 | [Merge main](https://github.com/motiondivision/motion/commit/25986e585f8c69b8a058253774f19ab81fd31b5e) | claude |
+| 2026-11-19 | [Merge pull request #4100 from motiondivision/claude/project-thread-1z…](https://github.com/motiondivision/motion/commit/d7b04c0e8709e24c666abaf054ad4c2bb0ea82b7) | mattgperry |
+| 2026-11-19 | [Share the layout layer budget with elements animating on the compositor](https://github.com/motiondivision/motion/commit/8c1c530c03c2e733e032eaad5de302fcf72e4a75) | claude |
+| 2026-11-19 | [Merge pull request #4101 from motiondivision/claude/project-thread-1z…](https://github.com/motiondivision/motion/commit/214ea32fc49dba85cb7dd3a0ec3032941ca97e8f) | mattgperry |
 
 [See all commits ↗](https://github.com/motiondivision/motion/commits)
 

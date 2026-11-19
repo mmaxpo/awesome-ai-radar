@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2023-12-07 |
 | 📦 **Latest release** | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) — 2025-11-18 |
 | 🌿 **Default branch** | `main` |
@@ -64,6 +64,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Add MiniMax-H3-Image training adapter docs (#1839)](https://github.com/modelscope/DiffSynth-Studio/commit/35e72140b917cfae1ff66932373bb8f83d66e7aa) | mi804 |
+| 2026-11-19 | [Align MiniMax-H3-Image training to 6 steps (#1836)](https://github.com/modelscope/DiffSynth-Studio/commit/ca883a76d8f6c005b0c335bbafa826c27ec84148) | mi804 |
 | 2026-11-18 | [Fix MiniMax-H3-Image edit training (#1833)](https://github.com/modelscope/DiffSynth-Studio/commit/fc8b4be56759de06cac585929f608227ac58766b) | mi804 |
 | 2026-11-17 | [update version to 2.2.3 (#1835)](https://github.com/modelscope/DiffSynth-Studio/commit/9dde6d179fb49f835e8e746b08c2998a2877e5c7) | Artiprocher |
 | 2026-11-17 | [fix h3-image-pruned using gc (#1832)](https://github.com/modelscope/DiffSynth-Studio/commit/9285155970e01cd6a0f46f79097c9c12b86e0559) | mi804 |
@@ -72,8 +74,6 @@
 | 2026-11-12 | [support comfy-h3image-prune (#1825)](https://github.com/modelscope/DiffSynth-Studio/commit/28638042df62d206486a8bcff3ef22973c84e414) | mi804 |
 | 2026-11-11 | [update minimax-h3-image docs (#1822)](https://github.com/modelscope/DiffSynth-Studio/commit/55fdfb23987672528d2cf71f4a9d44aba44c1863) | Artiprocher |
 | 2026-11-11 | [update to version 2.2.2 (#1821)](https://github.com/modelscope/DiffSynth-Studio/commit/da8e83b588977a98a8cd7bac082219a312942e82) | Artiprocher |
-| 2026-11-11 | [update entropack example (#1820)](https://github.com/modelscope/DiffSynth-Studio/commit/19dd71afb9b45c27c32ebdb27b9a2dd266d33454) | mi804 |
-| 2026-11-11 | [register model config based on json files (#1819)](https://github.com/modelscope/DiffSynth-Studio/commit/05d7575329046a041434f6999bebe2969fe3cca4) | Artiprocher |
 
 [See all commits ↗](https://github.com/modelscope/DiffSynth-Studio/commits)
 

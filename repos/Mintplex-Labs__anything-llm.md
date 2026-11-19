@@ -22,32 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 68.4k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [344](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [355](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 93.8 MB |
+| 💾 **Size** | 94.2 MB |
 | 🌐 **Website** | https://anythingllm.com |
 
 ## 📦 Recent releases
 
 ### [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — AnythingLLM v1.20.0
-<sub>2026-11-17 · today</sub>
+<sub>2026-11-17 · yesterday</sub>
 
 > **Updated browser extension**
 > The [browser extension](https://github.com/Mintplex-Labs/anythingllm-extension) has been improved beyond its original function of just collecting documents to now a full fledged UI chat bar with the ability to right click -> Add context (text and image) and chat directly  in Chrome. This sidebar should have mostly full parity for tooling and more with the traditional chat UI.
-> While it is backward and forward compatible, only full functionality is expected when the server and extension are on version 1.20.0 or later. We will be updating the browser extension on the [Chrome webstore](https://chromewebstore.google.com/detail/anythingllm-browser-compa/pncmdlebcopjodenlllcomedphdmeogm) shortly after main release.
-> <img width="3400" height="2046" alt="image" src="https://github.com/user-attachments/assets/5c01980f-04d1-4bb7-800c-a02d7dfcd1f0" />
+> While it is backward and forward compatible, only full functionality is expected when the server and extension are on version 1.20.0 or later. The [Chrome webstore](https://chromewebstore.google.com/detail/anythingllm-browser-compa/pncmdlebcopjodenlllcomedphdmeogm) has been updated to this version as well.
+> https://github.com/user-attachments/assets/830069a6-34cb-4f37-80b0-6d52eb4622d0
 > **PowerPoint tool overhaul**
 > <img width="1990" height="1099" alt="pptx-generation" src="https://github.com/user-attachments/assets/05689972-1296-4869-b208-dd9301222dd3" />
 > …
 
 ### [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — AnythingLLM v1.19.0
-<sub>2026-10-26 · 22d ago</sub>
+<sub>2026-10-26 · 23d ago</sub>
 
 > **Built-in LLM for Docker**
 > <img width="3680" height="2212" alt="AnythingLLM Docker built-in LLM powered by Lemonade and llama.cpp" src="https://github.com/user-attachments/assets/410b5784-ca15-4027-a1c4-056d9d5c748e" />
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [docs: no PRs for issues labeled core-team-only](https://github.com/Mintplex-Labs/anything-llm/commit/2f6a451f55aca970311af2579088fe0c27af3ce8) | timothycarambat |
+| 2026-11-18 | [fix(ollama): stop replaying saved reasoning and keep native agent thi…](https://github.com/Mintplex-Labs/anything-llm/commit/1046dc061d9314f817d9c27782dc65328e0da6e3) | timothycarambat |
+| 2026-11-18 | [feat(agents): hint when filesystem search results are truncated (#7270)](https://github.com/Mintplex-Labs/anything-llm/commit/972b44747cf22e6bfa79c3fe6ff1779e68ee3f27) | timothycarambat |
+| 2026-11-18 | [fix(collector): run ffmpeg WAV conversion asynchronously (#7269)](https://github.com/Mintplex-Labs/anything-llm/commit/40ec73a5d53c05ed0e2273113ccf2975f49ba448) | timothycarambat |
+| 2026-11-18 | [fix(agents): run filesystem search ripgrep asynchronously (#7267)](https://github.com/Mintplex-Labs/anything-llm/commit/0d252cd6f02b3d92923ec43e86f61109c1c80e8c) | timothycarambat |
+| 2026-11-18 | [docs: dependency bumps are core-team only](https://github.com/Mintplex-Labs/anything-llm/commit/8db1c00b60b75b14a91a055edeab4976046de1e1) | timothycarambat |
 | 2026-11-18 | [Fix: misleading Model Router delete confirmation and surface workspac…](https://github.com/Mintplex-Labs/anything-llm/commit/64b599fc92a9c2f4d60f2f9244d278acfff73204) | Bensonbenyi |
 | 2026-11-17 | [fix(i18n): correct Turkish translations and refresh README (#7247)](https://github.com/Mintplex-Labs/anything-llm/commit/807aaebbd3fa98368319546305e1c6f2e275cad9) | alkank |
 | 2026-11-17 | [fix: reject fractional keep-alive timeouts in isInteger validator (#7…](https://github.com/Mintplex-Labs/anything-llm/commit/b0cfa51578169293078b0a8c25bfed22db64c8dc) | rtmalikian |
 | 2026-11-17 | [fix: prefer PDF Author over Creator for document author (#7248)](https://github.com/Mintplex-Labs/anything-llm/commit/a30b7e2095e43dcef259196e477a5da9ab59e168) | timothycarambat |
-| 2026-11-17 | [fix: change MobileDevice.get return value to null when errors (#7238)](https://github.com/Mintplex-Labs/anything-llm/commit/84457e39233a8b0c89d5445bc6579e60cea5a620) | Bensonbenyi |
-| 2026-11-17 | [chore: bump version to 1.20.0 (#7221)](https://github.com/Mintplex-Labs/anything-llm/commit/160afa00ac0eca6315aabe662b2e7673c8c96172) | timothycarambat |
-| 2026-11-17 | [fix: match either explicitly restricted cron day field (#7234)](https://github.com/Mintplex-Labs/anything-llm/commit/eb498cf2c2111b0c651d4c3781f0cdfb8168935c) | Max-Reisinger |
-| 2026-11-17 | [fix: ignore quoted separators in XLSX delimiter detection (#7230)](https://github.com/Mintplex-Labs/anything-llm/commit/c66a8ded12e45b37cd4317646bbaac98f8898d14) | isnaenihidayat |
-| 2026-11-17 | [fix: offer each Mistral model the reasoning levels it accepts (#7228)](https://github.com/Mintplex-Labs/anything-llm/commit/41e4b95ea5edd9ec5190e91ddf211a2d12243b4e) | timothycarambat |
-| 2026-11-17 | [docs: clarify document paths for the removal API (#7225)](https://github.com/Mintplex-Labs/anything-llm/commit/5ea1281f6a557c3ecf18e8558eeac4bddeadfa76) | isnaenihidayat |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
 

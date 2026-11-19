@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.4k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [517](https://github.com/huggingface/smolagents/issues) |
+| 🐞 **Open issues + PRs** | [523](https://github.com/huggingface/smolagents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-17 (today) |
+| 🕒 **Last activity** | 2026-11-18 (today) |
 | 📅 **Created** | 2024-12-05 |
 | 📦 **Latest release** | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) — 2026-05-29 |
 | 🌿 **Default branch** | `main` |
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-18 | [Support starred and iterable unpacking in assignments (#2556)](https://github.com/huggingface/smolagents/commit/2689e450364d451a0afa0a5e883d12a031c125dd) | himanshu748 |
+| 2026-11-18 | [add LlamaCppModel for Llama App (#3201)](https://github.com/huggingface/smolagents/commit/fcdf5f13563408569fff6172ee770a82a4fae710) | julien-cto |
+| 2026-11-18 | [remove non-English source docs (#3208)](https://github.com/huggingface/smolagents/commit/0747ebee579039c5764de73f0949627dab64cc37) | julien-cto |
 | 2026-11-17 | [docs: add Rapid-MLX (Apple Silicon) example for OpenAIModel (#2175)](https://github.com/huggingface/smolagents/commit/8469d427d08655209a5a5e26242dba759b213206) | raullenchai |
 | 2026-11-17 | [Fix consecutive string message merging (#2356)](https://github.com/huggingface/smolagents/commit/4947c2b3e56bcadb92e40d81df76ffa3fc64e1a5) | fengjikui |
 | 2026-11-17 | [handle text-only Bedrock replies (#3198)](https://github.com/huggingface/smolagents/commit/36395cd0fcb3ebde77469217c4362606f3d9ce47) | julien-cto |
@@ -101,9 +104,6 @@
 | 2026-11-15 | [Add workflow to close pull requests without a validated and assigned …](https://github.com/huggingface/smolagents/commit/e1249d373d58db6abc73882ee394f6bb3854c89f) | albertvillanova |
 | 2026-11-15 | [Ask agents to run make style before committing (#3185)](https://github.com/huggingface/smolagents/commit/a5797f14f33f87aa5efd038451a15d8e812b1460) | albertvillanova |
 | 2026-11-15 | [Require issues to be validated and assigned before opening a pull req…](https://github.com/huggingface/smolagents/commit/1faabfa499a40bcb62f86c507552632a7a4f9edc) | albertvillanova |
-| 2026-11-15 | [Docs: build English only, other languages are machine-translated (#3091)](https://github.com/huggingface/smolagents/commit/a826da9e98c1c59443f2bb119a37fde2f569b292) | mishig25 |
-| 2026-11-15 | [Fix flaky test_transformers_toolcalling_agent (#3180)](https://github.com/huggingface/smolagents/commit/57b9e408d77cebc99c7d9f3af375ea8bf10033e6) | albertvillanova |
-| 2026-11-15 | [Bump the actions group across 1 directory with 2 updates (#3147)](https://github.com/huggingface/smolagents/commit/58823fb71535793bc02de5dbb6a77e8caabe8099) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/huggingface/smolagents/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 467.6k |
-| 🍴 **Forks** | 114.3k |
-| 🐞 **Open issues + PRs** | [1.5k](https://github.com/morluto/rea/issues) |
+| ⭐ **Stars** | 469.4k |
+| 🍴 **Forks** | 114.7k |
+| 🐞 **Open issues + PRs** | [1.3k](https://github.com/morluto/rea/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 5% · Python 1% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `cli` `mcp` `agent-skills` `dsh-plugin` `claude-code` `rea` `touhou` `android` `javascript` `python` `typescript` `nodejs` `linux` `ai` `security` `java` `cpp` `rust` `react` `html` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-04-14 |
 | 📦 **Latest release** | [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 177.7 MB |
+| 💾 **Size** | 191.6 MB |
 | 🌐 **Website** | https://rea.tools |
 
 ## 📦 Recent releases
 
 ### [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — rea-agents: v6.9.0
-<sub>2026-11-12 · 6d ago</sub>
+<sub>2026-11-12 · 7d ago</sub>
 
 > **[6.9.0](https://github.com/morluto/rea/compare/rea-agents-6.8.0...rea-agents-6.9.0) (2026-11-11)**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [rea-agents-6.8.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0) — rea-agents: v6.8.0
-<sub>2026-10-25 · 24d ago</sub>
+<sub>2026-10-25 · 25d ago</sub>
 
 > **[6.8.0](https://github.com/morluto/rea/compare/rea-agents-6.7.0...rea-agents-6.8.0) (2026-10-25)**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [fix(cli): show --json in global help (#12058)](https://github.com/morluto/rea/commit/39e8403306af0764c6319a514193d9fb4dad794e) | morluto |
-| 2026-11-18 | [fix(packaging): include the linked dinosaur notice (#11793)](https://github.com/morluto/rea/commit/aaacdc0ef7128def5e08f3d992ca5e0f6444f15d) | Plastic-time |
-| 2026-11-18 | [fix(artifacts): apply XML end-of-line handling to nuspec and POM text…](https://github.com/morluto/rea/commit/372e6e2fa07f3e81aea2e43379e5b707a7a4938f) | Plastic-time |
-| 2026-11-18 | [test(webmcp): consolidate passive discovery coverage](https://github.com/morluto/rea/commit/da5ff5e7a78680865382e08db808982a67d83bc6) | morluto |
-| 2026-11-18 | [test(browser): consolidate navigation timeline coverage](https://github.com/morluto/rea/commit/005a61cf4ccc16afbca88b50031b4b8a51faca2c) | morluto |
-| 2026-11-18 | [test(browser): consolidate DOM and resource capture coverage](https://github.com/morluto/rea/commit/085ef4cc3b92de1535a87a59b32d6e0c45cc03a0) | morluto |
-| 2026-11-18 | [fix(cli): reject blank paths in JSON input schemas (#11794)](https://github.com/morluto/rea/commit/eb0d1df3ccd80ba5f2c7d72c599ad15ba467764f) | Plastic-time |
-| 2026-11-18 | [chore(ci): exempt vincentkoc from PR author readiness](https://github.com/morluto/rea/commit/577062109aa8ba7a1aaa274b50191f449aa16416) | morluto |
-| 2026-11-18 | [test(artifacts): verify encrypted PCK extraction refusal (#12054)](https://github.com/morluto/rea/commit/5d54447d63e5359fdd3d7c76b14d90a4c03cff89) | morluto |
-| 2026-11-18 | [test(artifacts): consolidate stale admitted carrier checks (#12056)](https://github.com/morluto/rea/commit/ba498636c102f1f81b6089e50f35f21f76632151) | morluto |
+| 2026-11-19 | [ci: reject merged test reports that do not confirm success (#12367)](https://github.com/morluto/rea/commit/f06c51a82a1f6fe74859656c0768efd76b88a2d7) | ShuaixinHuang |
+| 2026-11-19 | [refactor(dotnet): read metadata constant scalars through BinaryReader…](https://github.com/morluto/rea/commit/091b8b0339f3ab5b1075715e9dedfce5d6df8df1) | morluto |
+| 2026-11-19 | [ci(recorded-crash): bound package acquisition before install (#12365)](https://github.com/morluto/rea/commit/59c7eed91d52530ab110f9c80bd38419e5b99651) | ShuaixinHuang |
+| 2026-11-19 | [fix(pe): validate resource name extents before capacity (#12368)](https://github.com/morluto/rea/commit/17ad9c14ff84f41d13d2b5cedf02a19fdd49401b) | morluto |
+| 2026-11-19 | [refactor(macho): share checked segment and section framing (#12366)](https://github.com/morluto/rea/commit/5f258086b031b18b4cd65b9c35c63d0c726bfad0) | morluto |
+| 2026-11-19 | [fix(environment): apply collection mappings to identifier lists (#12354)](https://github.com/morluto/rea/commit/0a55ccba71edeba515ec19d7f4b750b7a12ffce5) | ShuaixinHuang |
+| 2026-11-19 | [fix(desktop): preserve exact dpkg ownership from partial queries (#12…](https://github.com/morluto/rea/commit/0fead854579542f6f8cd672d469c0667d57d8464) | morluto |
+| 2026-11-19 | [refactor(python): read marshal scalars and bytecode magic through Bin…](https://github.com/morluto/rea/commit/156303f6ede33e79ee2ebf2346bc9f28529149d5) | morluto |
+| 2026-11-19 | [fix(artifacts): require DOS magic before applying Windows path semant…](https://github.com/morluto/rea/commit/7758d03c5d1744057b43f4feafd5c1a3e899fe72) | morluto |
+| 2026-11-19 | [ci(sigrok): use the shared Ubuntu archive setup (#12359)](https://github.com/morluto/rea/commit/f6c04b74f3f70abc47fa2394365fb05d3a5e63ce) | ShuaixinHuang |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

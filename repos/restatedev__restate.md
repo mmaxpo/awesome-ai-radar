@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.7k |
-| 🍴 **Forks** | 238 |
-| 🐞 **Open issues + PRs** | [485](https://github.com/restatedev/restate/issues) |
+| 🍴 **Forks** | 239 |
+| 🐞 **Open issues + PRs** | [476](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 117.9 MB |
+| 💾 **Size** | 118.3 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 16d ago</sub>
+<sub>2026-11-02 · 17d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.7.14](https://github.com/restatedev/restate/releases/tag/v1.7.14)
-<sub>2026-10-22 · 26d ago</sub>
+<sub>2026-10-22 · 27d ago</sub>
 
 > **Restate v1.7.14**
 > Restate v1.7.14 is a security release. Restate now rejects TLS certificates issued through compromised emSign intermediate CAs. The release also updates the bundled TLS library to fix several recently disclosed vulnerabilities, and refreshes the OS trust store shipped in the Docker image.
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.8.1](https://github.com/restatedev/restate/releases/tag/v1.8.1)
-<sub>2026-10-21 · 28d ago</sub>
+<sub>2026-10-21 · 29d ago</sub>
 
 > **Restate v1.8.1**
 > v1.8.1 is a drop-in upgrade from v1.8.0, and you can roll back to v1.8.0 unless you enable signal recording. If you are still on v1.7.x, follow the [v1.8.0 upgrade requirements](https://github.com/restatedev/restate/blob/main/release-notes/v1.8.0.md#upgrade--rollback-guidance).
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [[ci] Hand the CI image to test jobs through the WarpBuild cache (#5947)](https://github.com/restatedev/restate/commit/8e48ffdaf08e5c81898ac3e4ecacf4899f0ad356) | MohamedBassem |
-| 2026-11-18 | [[PartitionStore] Index entries by service and handler, newest created…](https://github.com/restatedev/restate/commit/b963ed89639b8a248ca7c8d539be937a9f1412ac) | AhmedSoliman |
-| 2026-11-18 | [ci: drop redundant tests (#5934)](https://github.com/restatedev/restate/commit/c4f3d335e6443e18dee847bb3e3b26bf42c2d280) | MohamedBassem |
-| 2026-11-17 | [[QueryEngineV2] Look up journal entries by invocation ID and index](https://github.com/restatedev/restate/commit/d6c3e99e6d4993e034cb3dc8150c7ec0093160af) | AhmedSoliman |
-| 2026-11-17 | [[QueryEngineV2] Look up promises by their complete key](https://github.com/restatedev/restate/commit/9d34e952fe0c354919d9f9db770f1457f79d1bfe) | AhmedSoliman |
-| 2026-11-17 | [[QueryEngineV2] Keep test fixture storage out of reach of late query …](https://github.com/restatedev/restate/commit/b493638d25ffd62704cd70ebe10564b918356f0f) | AhmedSoliman |
-| 2026-11-17 | [[QueryEngineV2] Look up state by its complete key](https://github.com/restatedev/restate/commit/06349bf0e5520b310e10ec9770df3b008e9c3437) | AhmedSoliman |
-| 2026-11-17 | [[PartitionStore] Seek straight to each listed partition key](https://github.com/restatedev/restate/commit/8d30397c6adf0123aca4b1dbcaac5c52e2d9f682) | AhmedSoliman |
-| 2026-11-17 | [[QueryEngineV2] Compact large literal lists in EXPLAIN and ANALYZE](https://github.com/restatedev/restate/commit/d2695f8c26a6c49d6a95f3b474617983f60c5280) | AhmedSoliman |
-| 2026-11-17 | [Preserve aliases and native errors in compact EXPLAIN](https://github.com/restatedev/restate/commit/cc4da3668eb2d40cc2c90cf353feec22d76cf1a1) | AhmedSoliman |
+| 2026-11-19 | [[PartitionStore] Call a built index complete, like a finished migration](https://github.com/restatedev/restate/commit/dc16d12952ac60112c632a10ed6ffcdba4ab482e) | AhmedSoliman |
+| 2026-11-19 | [[PartitionStore] Let 1.8.2 open walks that later releases link differ…](https://github.com/restatedev/restate/commit/3502b8e35b3b49544f274ac14f761fe89ac7645a) | AhmedSoliman |
+| 2026-11-19 | [[PartitionStore] Make online migrations safe across replicas and roll…](https://github.com/restatedev/restate/commit/e7fac1f810539a625e1449c4ee6f4e70d40c51bc) | AhmedSoliman |
+| 2026-11-19 | [[Invoker] Put the invoker's budgeted reads behind a lendable memory p…](https://github.com/restatedev/restate/commit/51d98902ac7fdde1b4b48e3a8f9d0d61e56fa0c6) | MohamedBassem |
+| 2026-11-19 | [[PartitionStore] Widen blob ref count to u64 (#5960)](https://github.com/restatedev/restate/commit/6a5a0067d61205dd48b97b6ca37de54a3a9476d1) | muhamadazmy |
+| 2026-11-19 | [Store large journal entry contents in the blob table (#5935)](https://github.com/restatedev/restate/commit/e0caff7f009e34c3760d1807f36389defdeb9eae) | muhamadazmy |
+| 2026-11-18 | [[QueryEngineV2] Close a held read's task only once its Next has arrived](https://github.com/restatedev/restate/commit/7e9a3b235011bf749447aa48dda80c1c71e42bb0) | AhmedSoliman |
+| 2026-11-18 | [[Bifrost] Keep the local loglet's sealed tail above acknowledged appends](https://github.com/restatedev/restate/commit/c5e83e12e01e9e180b42e0d3db54df594566684f) | AhmedSoliman |
+| 2026-11-18 | [[PartitionStore] Track one-time migrations in the registry](https://github.com/restatedev/restate/commit/bb0ab5f8494f70c63ec73a9916ed13c0f443d5d6) | AhmedSoliman |
+| 2026-11-18 | [[PartitionStore] Store registry records under their own key kind](https://github.com/restatedev/restate/commit/1cfe8f81bdd6f04363a9297c2c4a9f92e4d60a14) | AhmedSoliman |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

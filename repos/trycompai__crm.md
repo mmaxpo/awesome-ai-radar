@@ -24,7 +24,7 @@
 | 💻 **Languages** | TypeScript 96% · Python 2% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-01 (16d ago) |
+| 🕒 **Last activity** | 2026-11-01 (17d ago) |
 | 📅 **Created** | 2026-07-31 |
 | 📦 **Latest release** | [v1.16.0](https://github.com/trycompai/crm/releases/tag/v1.16.0) — 2026-10-22 |
 | 🌿 **Default branch** | `release` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v1.16.0](https://github.com/trycompai/crm/releases/tag/v1.16.0)
-<sub>2026-10-22 · 27d ago</sub>
+<sub>2026-10-22 · 28d ago</sub>
 
 > **[1.16.0](https://github.com/trycompai/crm/compare/v1.15.3...v1.16.0) (2026-10-22)**
 > **Features**
@@ -45,7 +45,7 @@
 > …
 
 ### [v1.15.3](https://github.com/trycompai/crm/releases/tag/v1.15.3)
-<sub>2026-08-21 · 2mo ago</sub>
+<sub>2026-08-21 · 3mo ago</sub>
 
 > **[1.15.3](https://github.com/trycompai/crm/compare/v1.15.2...v1.15.3) (2026-08-21)**
 > **Fixes**
@@ -53,21 +53,21 @@
 > * stop a finished enrichment reading as failed ([#173](https://github.com/trycompai/crm/issues/173)) ([2946580](https://github.com/trycompai/crm/commit/2946580afdd43419ce08165a0d55ba9d084c554e))
 
 ### [v1.15.2](https://github.com/trycompai/crm/releases/tag/v1.15.2)
-<sub>2026-08-20 · 2mo ago</sub>
+<sub>2026-08-20 · 3mo ago</sub>
 
 > **[1.15.2](https://github.com/trycompai/crm/compare/v1.15.1...v1.15.2) (2026-08-20)**
 > **Documentation**
 > * **api:** explain runtime openapi document and vendoring rules ([#170](https://github.com/trycompai/crm/issues/170)) ([630f2c9](https://github.com/trycompai/crm/commit/630f2c9f375b5ae084ed708d21bcdb563c774a4f))
 
 ### [v1.15.1](https://github.com/trycompai/crm/releases/tag/v1.15.1)
-<sub>2026-08-20 · 2mo ago</sub>
+<sub>2026-08-20 · 3mo ago</sub>
 
 > **[1.15.1](https://github.com/trycompai/crm/compare/v1.15.0...v1.15.1) (2026-08-20)**
 > **Fixes**
 > * **api:** serve openapi.json and bundle swagger deps in function build ([#166](https://github.com/trycompai/crm/issues/166)) ([7ea4f37](https://github.com/trycompai/crm/commit/7ea4f37cd65e93d62d3977e08a0df476b3aa4479))
 
 ### [v1.15.0](https://github.com/trycompai/crm/releases/tag/v1.15.0)
-<sub>2026-08-20 · 2mo ago</sub>
+<sub>2026-08-20 · 3mo ago</sub>
 
 > **[1.15.0](https://github.com/trycompai/crm/compare/v1.14.0...v1.15.0) (2026-08-20)**
 > **Features**

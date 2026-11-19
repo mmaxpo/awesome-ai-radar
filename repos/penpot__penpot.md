@@ -22,26 +22,26 @@
 |---|---|
 | ⭐ **Stars** | 62.5k |
 | 🍴 **Forks** | 4.4k |
-| 🐞 **Open issues + PRs** | [931](https://github.com/penpot/penpot/issues) |
+| 🐞 **Open issues + PRs** | [948](https://github.com/penpot/penpot/issues) |
 | 💻 **Languages** | Clojure 75% · JavaScript 6% · Rust 6% · TypeScript 6% · SCSS 3% |
 | 📜 **License** | MPL-2.0 |
 | 🏷 **Topics** | `ux-design` `ux-experience` `prototyping` `clojure` `clojurescript` `ui` `design` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2015-12-29 |
 | 📦 **Latest release** | [2.19.3](https://github.com/penpot/penpot/releases/tag/2.19.3) — 2026-11-18 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 430.7 MB |
+| 💾 **Size** | 431.2 MB |
 | 🌐 **Website** | https://penpot.app |
 
 ## 📦 Recent releases
 
 ### [2.19.3](https://github.com/penpot/penpot/releases/tag/2.19.3)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > No changes for 2.19.3 according to CHANGES.md
 
 ### [2.19.2](https://github.com/penpot/penpot/releases/tag/2.19.2)
-<sub>2026-11-16 · 2d ago</sub>
+<sub>2026-11-16 · 3d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix referential integrity error when copying component variants with nested components across libraries and teams [#10704](https://github.com/penpot/penpot/issues/10704) (PR: [#12928](https://github.com/penpot/penpot/pull/12928))
@@ -52,7 +52,7 @@
 > …
 
 ### [2.19.1](https://github.com/penpot/penpot/releases/tag/2.19.1)
-<sub>2026-11-11 · 7d ago</sub>
+<sub>2026-11-11 · 8d ago</sub>
 
 > **:lock: Security fixes**
 > - Fix editor-role team members retrieving the signed invitation token of any pending invitation (https://github.com/penpot/penpot/security/advisories/GHSA-4mmc-j8rh-74pf) (PR: [#12892](https://github.com/penpot/penpot/pull/12892))
@@ -63,7 +63,7 @@
 > …
 
 ### [2.19.0](https://github.com/penpot/penpot/releases/tag/2.19.0)
-<sub>2026-11-09 · 8d ago</sub>
+<sub>2026-11-09 · 10d ago</sub>
 
 > **:boom: Breaking changes & Deprecations**
 > **Migrate legacy file payloads to file_data and delete orphan revisions**
@@ -74,7 +74,7 @@
 > …
 
 ### [2.18.7](https://github.com/penpot/penpot/releases/tag/2.18.7)
-<sub>2026-11-09 · 9d ago</sub>
+<sub>2026-11-09 · 10d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix binfile import accepting library relations outside the package and self-relations [#12895](https://github.com/penpot/penpot/issues/12895) (PR: [#12862](https://github.com/penpot/penpot/pull/12862))
@@ -83,16 +83,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [:wrench: Add PRs to status tech-review (#13152)](https://github.com/penpot/penpot/commit/dedd435db56dfb6efeb6b3056ab00f925089acf1) | yamila-moreno |
-| 2026-11-18 | [Merge remote-tracking branch 'origin/staging' into develop](https://github.com/penpot/penpot/commit/efd95dcf0c4b9bea9bb817da3409e99d3f323819) | niwinz |
-| 2026-11-18 | [Merge remote-tracking branch 'origin/staging' into staging](https://github.com/penpot/penpot/commit/dad4479b9cc02c6ed43ed3bf7339b4f7a9f5422d) | niwinz |
-| 2026-11-18 | [Merge remote-tracking branch 'origin/staging-2.19.x' into staging](https://github.com/penpot/penpot/commit/2377ab0a16a597d506fd0c38a846cbd08c0cd9c0) | niwinz |
-| 2026-11-18 | [:wrench: Test the direction of the move shortcuts (#13115)](https://github.com/penpot/penpot/commit/28a4794d7327662cf8a1c3ddbbc30f7ab40d8592) | EvaMarco |
-| 2026-11-18 | [:bug: Show the date of a restored autosaved version in the restore no…](https://github.com/penpot/penpot/commit/eb7860fcd77a93e1f262beb46775abffa0e41ad7) | EvaMarco |
-| 2026-11-18 | [:arrow_up: Update the system dependencies of the devenv and the image…](https://github.com/penpot/penpot/commit/aa12e5208136804cbf8f80870bd4f36c69bee438) | niwinz |
-| 2026-11-18 | [:wrench: Require milestone in PRs (#13129)](https://github.com/penpot/penpot/commit/89d5a862b57a290d23213e4a4b749bac57a7d621) | yamila-moreno |
-| 2026-11-18 | [:bug: Stop camelCase svg attributes from breaking files (#13132)](https://github.com/penpot/penpot/commit/a84d76d3971ef3ebc26f427a0fc2d92e97d49091) | alvorithm |
-| 2026-11-18 | [:sparkles: Delay building schemas in check-fn in release builds (#12711)](https://github.com/penpot/penpot/commit/d563444985fb15bbe2a3ca8c4561b2f4776e082e) | lukel97 |
+| 2026-11-19 | [:sparkles: Add viewers so org owners can change member role (#13163)](https://github.com/penpot/penpot/commit/b100a5e26f9b0d762ce3edbd00997d4b7f0874fb) | cocotime |
+| 2026-11-19 | [:arrow_up: Update DHI base images (#13170)](https://github.com/penpot/penpot/commit/210cbd6cc7ee0c60efa182336ab47e18cd1ee61c) | penpot-renovate[bot] |
+| 2026-11-19 | [Merge branch 'staging' into develop](https://github.com/penpot/penpot/commit/a6d12c5c329ca93f64ce8dbd951d76feb82d398a) | niwinz |
+| 2026-11-19 | [:bug: Fix problem with Penpot plugins being blocked (#13147)](https://github.com/penpot/penpot/commit/951ebbba6ac70316c2fb41af7359a67301ef0fdb) | Alotor |
+| 2026-11-19 | [:bug: Keep fill copies laid out after a component sync in the WebGL r…](https://github.com/penpot/penpot/commit/981fa0696137d40794665a45e7a8c9b362081083) | elenatorro |
+| 2026-11-19 | [:sparkles: Expose the instance URL and query params to plugins (#13018)](https://github.com/penpot/penpot/commit/b6db09e2fb9cec6f6d4817c93b1b025b4b5b0497) | Alotor |
+| 2026-11-19 | [:wrench: Add exemption to linked issues workflow](https://github.com/penpot/penpot/commit/be7be634d915e04f71913d5a64dd4c38f0584d5e) | yamila-moreno |
+| 2026-11-19 | [:wrench: Add exemption to linked issues workflow](https://github.com/penpot/penpot/commit/03a4c73b621d3ab6ea381d45bb07679dc418d2b6) | yamila-moreno |
+| 2026-11-19 | [:wrench: Prevent PRs without issue from merging](https://github.com/penpot/penpot/commit/2695434362d870249e3d26ea8022b8b1c52367ba) | yamila-moreno |
+| 2026-11-19 | [:wrench: Prevent PRs without issue from merging](https://github.com/penpot/penpot/commit/172a3589e8977ffdd4f9c07a05f1f889bb835512) | yamila-moreno |
 
 [See all commits ↗](https://github.com/penpot/penpot/commits)
 
