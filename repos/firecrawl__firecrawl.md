@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 203.7k |
+| ⭐ **Stars** | 204.8k |
 | 🍴 **Forks** | 10.7k |
-| 🐞 **Open issues + PRs** | [833](https://github.com/firecrawl/firecrawl/issues) |
+| 🐞 **Open issues + PRs** | [874](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 73% · Python 10% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 188.0 MB |
+| 💾 **Size** | 188.7 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [fix(api): send the scrape deadline to the Exchange (#5921)](https://github.com/firecrawl/firecrawl/commit/87202348f7b3c5273c237fe8b47d3c2568f4938c) | capy-ai[bot] |
+| 2026-11-20 | [chore(api): remove the hosted bash endpoint at /v2/bash (#5889)](https://github.com/firecrawl/firecrawl/commit/484be117975ac7b8be085c25f1fbd54d005f17ff) | Ben2W |
+| 2026-11-20 | [fix(api): durably retry monitor settles and bill monitor runs that to…](https://github.com/firecrawl/firecrawl/commit/a40eeffae134f0011531548513ad33b8ec13f72f) | micahstairs |
+| 2026-11-19 | [feat(api): add account endpoint group to key restrictions (#5881)](https://github.com/firecrawl/firecrawl/commit/dc37f52f9670be4ef3077f97f31096b2d0657205) | micahstairs |
+| 2026-11-19 | [feat(pdf): remove the RunPod MinerU engine from the PDF fallback chai…](https://github.com/firecrawl/firecrawl/commit/a38c6812f22ec1c97c97fcad431d8bcc728e3e89) | abimaelmartell |
+| 2026-11-19 | [README: lead with Firecrawl Local, then Firecrawl Cloud and self-host…](https://github.com/firecrawl/firecrawl/commit/8642a5271e692e9ebeccdc379ad87c85ac7dd7d0) | ericciarla |
+| 2026-11-19 | [fix(crawl): skip per-link URL locks once the crawl limit is reached (…](https://github.com/firecrawl/firecrawl/commit/5e66950a112277d6925bf486bb9fb7b4dd108e6a) | mogery |
+| 2026-11-19 | [fix(branding): font roles and one font-name normalizer (#5853)](https://github.com/firecrawl/firecrawl/commit/b89068de9b4865e40c0cbd626a017d20db697041) | abimaelmartell |
+| 2026-11-19 | [feat(api): export BullMQ queue depth and overdue age from the reconci…](https://github.com/firecrawl/firecrawl/commit/78054d10314547b23459cfadb30eccdb779b7ff4) | micahstairs |
 | 2026-11-18 | [fix(branding): don't cut surrogate pairs when the branding script tru…](https://github.com/firecrawl/firecrawl/commit/1510bc4fff9c7014f6fa5be0f821ece168a69d13) | abimaelmartell |
-| 2026-11-18 | [fix(branding): read the brand name from either end of the page title …](https://github.com/firecrawl/firecrawl/commit/e22933303269cb724cd3cd0ab3a98d9886919225) | abimaelmartell |
-| 2026-11-18 | [chore(python-sdk): release 4.58.0 (#5835)](https://github.com/firecrawl/firecrawl/commit/24002c681a9b827b953ac6c4a4729c6ea9783648) | KrisOei |
-| 2026-11-18 | [feat(search): per-team overrides for the Research Index daily limit (…](https://github.com/firecrawl/firecrawl/commit/20dfb471c61d8f6751fb6d08ed29cb26e21d738b) | KrisOei |
-| 2026-11-18 | [feat(api): gzip research responses (#5849)](https://github.com/firecrawl/firecrawl/commit/158050d0bcdef9dab97f0ea7a830c0b5f9e081ca) | KrisOei |
-| 2026-11-18 | [fix(security): drop rand 0.7.3 by moving kuchikiki to 0.8.9-speedread…](https://github.com/firecrawl/firecrawl/commit/7c16513e6ada9df5d9a6cfa6a1a1cfda3c841f9d) | mogery |
-| 2026-11-18 | [fix(security): move zip to 9.5.1 through anydoc 0.2.5 (#5851)](https://github.com/firecrawl/firecrawl/commit/31a321ca5e0009b2cf9b9446f9b2e8b5ed9a31bf) | mogery |
-| 2026-11-18 | [chore(js-sdk): release 4.55.0](https://github.com/firecrawl/firecrawl/commit/b7776ccb842b7e8aeb1be908b4d4d2936bec2ba2) | KrisOei |
-| 2026-11-18 | [fix(webhook): publish zero data retention webhooks to a dedicated exp…](https://github.com/firecrawl/firecrawl/commit/88611467f2d22d25d7b56f8bf27476362d9af892) | rahul-firecrawl |
-| 2026-11-18 | [feat(api): bill the fresh feed per returned record (#5848)](https://github.com/firecrawl/firecrawl/commit/caae4319794ac3b345a6d927a9327cb9d5c345f8) | KrisOei |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

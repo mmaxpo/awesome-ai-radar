@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 71.8k |
-| 🍴 **Forks** | 7.9k |
+| 🍴 **Forks** | 8.0k |
 | 🐞 **Open issues + PRs** | [1.8k](https://github.com/cline/cline/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2024-07-06 |
 | 📦 **Latest release** | [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26) — 2026-10-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 623.6 MB |
+| 💾 **Size** | 622.2 MB |
 | 🌐 **Website** | https://cline.bot |
 
 ## 📦 Recent releases
 
 ### [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26)
-<sub>2026-10-26 · 24d ago</sub>
+<sub>2026-10-26 · 25d ago</sub>
 
 > **Added**
 > - Cloud tasks: Settings > API Configuration has a Local | Cloud toggle when cloud sessions are on. Cloud picks the Cline model new cloud tasks run on, saved separately from your local models. Clicking the model label in a cloud session's composer opens it there.
@@ -47,7 +47,7 @@
 > …
 
 ### [desktop-v0.0.49](https://github.com/cline/cline/releases/tag/desktop-v0.0.49) — Desktop v0.0.49
-<sub>2026-10-26 · 24d ago</sub>
+<sub>2026-10-26 · 25d ago</sub>
 
 > - A new **Changes** button in the session header shows the session's line counts and opens a pane listing the files changed in the last turn or across the whole session, with a diff of each. When a turn finishes, a summary under it lists the files it changed; click it to open the pane on that turn
 > - A **project files panel** (folder button in the session header) shows a file tree beside the conversation, with a read-only tabbed viewer, git status letters, and a marker on files the session changed. Files the agent edited get a File/Diff toggle. Works on local and SSH environments
@@ -58,7 +58,7 @@
 > …
 
 ### [cli-v3.0.74](https://github.com/cline/cline/releases/tag/cli-v3.0.74) — CLI v3.0.74
-<sub>2026-10-26 · 24d ago</sub>
+<sub>2026-10-26 · 25d ago</sub>
 
 > - Opening a task that's already running in another Cline app now attaches to that run instead of starting a second one that couldn't be stopped. If an app closes mid-task, requests waiting on it now fail with a clear message instead of hanging
 > - `cline hub status` and `cline doctor` no longer hang on a Hub that has frozen. Its health check now times out after 3s and the Hub is reported as not running
@@ -69,7 +69,7 @@
 > …
 
 ### [sdk/sdk/v0.2.0](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.0) — SDK v0.2.0
-<sub>2026-10-26 · 24d ago</sub>
+<sub>2026-10-26 · 25d ago</sub>
 
 > - Starting a session that already has a run in progress now reattaches to the live session instead of replacing its runtime. Before, the original run kept going but couldn't be reached, and its transcript writes landed on a stale snapshot. A start that includes a prompt while a run is in progress is rejected
 > - The hub records every client that registered a capability for a session, including clients that join a task that's already running, and sends each request to the first one still connected. If none is left, the request fails quickly with a message the user can act on, instead of waiting forever
@@ -91,6 +91,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [feat(ui): components - SectionHeading, Banner, ItemCard, DetailList a…](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c) | haleyparkdesign |
 | 2026-11-17 | [fix(core): do not use LiteLLM legacy max_tokens as input budget when …](https://github.com/cline/cline/commit/eff43e19b267e171f597ab03733bfed25090f72d) | pei711 |
 | 2026-11-17 | [feat(mcp): carry tool annotations and session mode through the MCP pa…](https://github.com/cline/cline/commit/4cdfb19a5e897b9e75827cbb4f280f322e27e44a) | mkondratek |
 | 2026-11-16 | [docs: fix broken relative links in SDK, package, and example READMEs …](https://github.com/cline/cline/commit/146894b6a42a7a554c6ff37f7bb33fe5122cc33d) | pei711 |
@@ -100,7 +101,6 @@
 | 2026-11-12 | [fix(vscode): refresh generic provider models after saving credentials…](https://github.com/cline/cline/commit/d9a5258ba8afa9d55ccf2c43ec81f435f53132c8) | dominiccooney |
 | 2026-11-11 | [refactor(vscode): remove dead LiteLLM/OpenAI model state and unused m…](https://github.com/cline/cline/commit/32075f1110841fe5c7a17e096007e26da8e958f9) | dominiccooney |
 | 2026-11-11 | [refactor(vscode): remove dead onboarding models state and proto messa…](https://github.com/cline/cline/commit/c5df41f937c496ce8c8e689ba58776593c703dfa) | dominiccooney |
-| 2026-11-10 | [revert(llms): back out AI/ML API ranking/attribution and Wally provid…](https://github.com/cline/cline/commit/7796dc9ce12a6377796d1c265036c4038ff3fcb6) | saoudrizwan |
 
 [See all commits ↗](https://github.com/cline/cline/commits)
 

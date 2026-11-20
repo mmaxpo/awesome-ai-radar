@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 11.9k |
-| 🍴 **Forks** | 1.6k |
-| 🐞 **Open issues + PRs** | [5](https://github.com/elementalsouls/Claude-BugHunter/issues) |
+| ⭐ **Stars** | 13.5k |
+| 🍴 **Forks** | 1.7k |
+| 🐞 **Open issues + PRs** | [14](https://github.com/elementalsouls/Claude-BugHunter/issues) |
 | 💻 **Languages** | Python 87% · PowerShell 7% · Shell 6% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-security` `anthropic` `application-security` `bug-bounty` `bugbounty` `bugcrowd` `claude` `claude-code` `claude-skills` `ethical-hacking` `hackerone` `offensive-security` `pentesting` `red-team` `security-tools` `web-security` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-05-05 |
 | 📦 **Latest release** | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) — 2026-06-05 |
 | 🌿 **Default branch** | `main` |
@@ -61,6 +61,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/de07e0138176888e8ac8ba57cf6153a791b3b85f) | github-actions[bot] |
+| 2026-11-20 | [feat(mcp): add get_report tool for live disclosed-report bodies (#187)](https://github.com/elementalsouls/Claude-BugHunter/commit/5b7e76eb8e2b2a2793686c74ad53b7b57bdee6c2) | elementalsouls |
 | 2026-11-19 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/0e70a021e59d6875004e7a563f8511aca2ba3bc1) | github-actions[bot] |
 | 2026-11-18 | [docs(readme): note that the HackerOne account is optional (#176)](https://github.com/elementalsouls/Claude-BugHunter/commit/9bdb0a81658bc25f09c0b52d31fcde923d126e4f) | sm18lr88 |
 | 2026-11-18 | [docs(plugin): say what the HackerOne prompts are for and that they ca…](https://github.com/elementalsouls/Claude-BugHunter/commit/ce528f6d446b0b8e45539b2c7cd06003128c6c62) | sm18lr88 |
@@ -69,8 +71,6 @@
 | 2026-11-18 | [docs: regenerate skills.md report counts from current main (#164)](https://github.com/elementalsouls/Claude-BugHunter/commit/979f521335f9e33852559b0c880db547ad8167f8) | elementalsouls |
 | 2026-11-18 | [fix(mcp): harden HackerOne MCP server (pagination DoS, protocol negot…](https://github.com/elementalsouls/Claude-BugHunter/commit/52d08634d6a503325ac9acd28f35e0ee9fef52c9) | elementalsouls |
 | 2026-11-18 | [feat(mcp): add a HackerOne MCP server (closes #151) (#162)](https://github.com/elementalsouls/Claude-BugHunter/commit/cc19ed87f0c0df52c871c9cf372229243ff6d5db) | ItsRenjiii |
-| 2026-11-18 | [fix(engine,cli): cross-platform Windows support, utf-8 file writing, …](https://github.com/elementalsouls/Claude-BugHunter/commit/3c43bf8c92c53ad9c2b6ad2b9dca622299d34a34) | parveen0029 |
-| 2026-11-18 | [fix(scope): reduce URL bullets in scope.md to their host (#155)](https://github.com/elementalsouls/Claude-BugHunter/commit/bf066585aebaa88a621d0f69095789f06c08824e) | ege-arhan |
 
 [See all commits ↗](https://github.com/elementalsouls/Claude-BugHunter/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 92.1k |
 | 🍴 **Forks** | 12.0k |
-| 🐞 **Open issues + PRs** | [21](https://github.com/modelcontextprotocol/servers/issues) |
+| 🐞 **Open issues + PRs** | [11](https://github.com/modelcontextprotocol/servers/issues) |
 | 💻 **Languages** | TypeScript 46% · JavaScript 31% · Python 22% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2024-11-19 |
 | 📦 **Latest release** | [v2.5.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 34.2 MB |
+| 💾 **Size** | 34.3 MB |
 | 🌐 **Website** | https://modelcontextprotocol.io |
 
 ## 📦 Recent releases
 
 ### [v2.5.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Security fixes**
 > v2.5.0 fixes eight vulnerabilities in three servers. Upgrade `mcp-server-git` to 2026.11.18,
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0)
-<sub>2026-11-11 · 8d ago</sub>
+<sub>2026-11-11 · 9d ago</sub>
 
 > **Security fixes**
 > v2.4.0 fixes six vulnerabilities in three servers. Upgrade `@modelcontextprotocol/server-filesystem` to 2.3.0,
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.3.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0)
-<sub>2026-11-04 · 14d ago</sub>
+<sub>2026-11-04 · 15d ago</sub>
 
 > **Packages**
 > | Package | Version | Registry | In this release |
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.2.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0)
-<sub>2026-10-28 · 21d ago</sub>
+<sub>2026-10-28 · 22d ago</sub>
 
 > **Security: Node.js runtime and CA certificate updates (October 2026)**
 > On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates could be recovered from the public certificates. On October 21, Node.js shipped [security releases](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases) that update its bundled CA certificates for the compromise and fix several unrelated high-severity runtime CVEs. On October 23, Python's `certifi` 2026.10.23 removed the eMudhra roots `emSign Root CA - C1` and `emSign ECC Root CA - C3`.
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.1.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0)
-<sub>2026-10-25 · 25d ago</sub>
+<sub>2026-10-25 · 26d ago</sub>
 
 > **Security fixes**
 > v2.1.0 fixes eight vulnerabilities in three servers. Upgrade

@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/sandbox-quantum/switch)
 
-> Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.
+> Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Bring Claude Code, Codex, Gemini (Antigravity), Cursor, GitHub Copilot or your own agent on any model, and connect them to GitHub, Jira, Notion, Linear, Google Workspace and more. Self-hosted multi-agent orchestration with MCP.
 
 ## 📝 Notes
 
@@ -20,65 +20,65 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 4.6k |
-| 🍴 **Forks** | 359 |
-| 🐞 **Open issues + PRs** | [717](https://github.com/sandbox-quantum/switch/issues) |
+| ⭐ **Stars** | 4.7k |
+| 🍴 **Forks** | 365 |
+| 🐞 **Open issues + PRs** | [562](https://github.com/sandbox-quantum/switch/issues) |
 | 💻 **Languages** | Python 55% · TypeScript 44% |
 | 📜 **License** | Other |
-| 🏷 **Topics** | `agent-orchestration` `ai-agents` `discord` `mcp` `microsoft-teams` `multi-agent` `slack` `ai` `chatops` `langchain` `open-source` `openai` `self-hosted` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🏷 **Topics** | `agent-orchestration` `ai-agents` `discord` `mcp` `microsoft-teams` `multi-agent` `slack` `chatops` `langchain` `open-source` `openai` `self-hosted` `anthropic` `claude-code` `codex` `cursor` `gemini` `github-copilot` `llm` `telegram` |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-07-16 |
-| 📦 **Latest release** | [switch-agent-controller-v0.32.2-dev.635.gac26460](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.635.gac26460) — 2026-11-19 |
+| 📦 **Latest release** | [switch-agent-controller-v0.32.2-dev.639.g92a6d96](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.639.g92a6d96) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 97.6 MB |
+| 💾 **Size** | 93.6 MB |
 | 🌐 **Website** | https://www.switchagents.ai |
 
 ## 📦 Recent releases
 
+### [switch-agent-controller-v0.32.2-dev.639.g92a6d96](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.639.g92a6d96) — switch-agent-controller 0.32.2-dev.639.g92a6d96 (dev build of main) _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> The Switch agent controller built from main at 92a6d96418a40f8e742e8ff97a7022788aa541bf, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
+>   SHA-256: `754bd998197285953c3d1da605656219612368931afa59020955e75444611515`
+
+### [switch-agent-controller-v0.32.2-dev.638.g04e1a70](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.638.g04e1a70) — switch-agent-controller 0.32.2-dev.638.g04e1a70 (dev build of main) _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> The Switch agent controller built from main at 04e1a702509ca3765582ba44b1303574982cc45c, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
+>   SHA-256: `6e990d7f8b232ad588c9ef17c1b20d79016c0793283a878fa7cb7fe122dd8de5`
+
+### [switch-agent-controller-v0.32.2-dev.637.g067e12c](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.637.g067e12c) — switch-agent-controller 0.32.2-dev.637.g067e12c (dev build of main) _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> The Switch agent controller built from main at 067e12c5bd3442c885531832472c9ba3d5e2ac63, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
+>   SHA-256: `35dc8e615c70ba4aad18d7610cc7fa170a47184b1f01b20eba3bd5eee3b9f0f9`
+
+### [switch-agent-controller-v0.32.2-dev.636.g30872f6](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.636.g30872f6) — switch-agent-controller 0.32.2-dev.636.g30872f6 (dev build of main) _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> The Switch agent controller built from main at 30872f611da0bbdf804281e1bd5149ef47a590a7, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
+>   SHA-256: `bb2676918ccb84cedc35becfb20ce57978bbfc2558743b41425d1133e6ef38b4`
+
 ### [switch-agent-controller-v0.32.2-dev.635.gac26460](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.635.gac26460) — switch-agent-controller 0.32.2-dev.635.gac26460 (dev build of main) _(pre-release)_
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > The Switch agent controller built from main at ac264606f454831d336bd48abf110d894cc57245, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
 >   SHA-256: `292876cef44addd84f3bdcc8418a2ef9802ba4d9e47f01bede15267bd8f885cc`
-
-### [switch-agent-controller-v0.32.2-dev.634.g3558ee1](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.634.g3558ee1) — switch-agent-controller 0.32.2-dev.634.g3558ee1 (dev build of main) _(pre-release)_
-<sub>2026-11-19 · today</sub>
-
-> The Switch agent controller built from main at 3558ee118a140e8f81d271b160221b8b6436d674, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `fed0e0ae84d5edac6cbda9cb19d54e92ca5a461404fbf15fe0552a66da6171d4`
-
-### [switch-agent-controller-v0.32.2-dev.632.g95d34f7](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.632.g95d34f7) — switch-agent-controller 0.32.2-dev.632.g95d34f7 (dev build of main) _(pre-release)_
-<sub>2026-11-19 · today</sub>
-
-> The Switch agent controller built from main at 95d34f788d8c8fa9d1d638ddd7bc3ccd4e6581ee, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `0e8de9f07a08c843ccc1e5ebb98cac789b7d109a2f6843f39a957a639814b91c`
-
-### [switch-agent-controller-v0.32.2-dev.630.g74e10ff](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.630.g74e10ff) — switch-agent-controller 0.32.2-dev.630.g74e10ff (dev build of main) _(pre-release)_
-<sub>2026-11-18 · today</sub>
-
-> The Switch agent controller built from main at 74e10ff51b58ba4cc222580e74155a6359bd15fa, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `0594b90f37c256df6dd9c5125721b76b3f6f6eb81cc3feebd1e03d8f8b7b4d02`
-
-### [switch-agent-controller-v0.32.2-dev.629.g2be02b0](https://github.com/sandbox-quantum/switch/releases/tag/switch-agent-controller-v0.32.2-dev.629.g2be02b0) — switch-agent-controller 0.32.2-dev.629.g2be02b0 (dev build of main) _(pre-release)_
-<sub>2026-11-18 · yesterday</sub>
-
-> The Switch agent controller built from main at 2be02b0a0f5ab9b06d0c59b0c61226ccfda6554a, for the dev environment, whose controllers update to it on their own. Not for installing by hand; switch-dev-cleanup prunes it.
->   SHA-256: `44f1a5319e2035ddefc55f65cf4a5312c26507e7d9f738f636914ed9d2622822`
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [fix(core): bump certifi to 2026.10.23 for GHSA-6q48-6c7w-9gw2 (CHOO-3…](https://github.com/sandbox-quantum/switch/commit/92a6d96418a40f8e742e8ff97a7022788aa541bf) | paul-abb |
+| 2026-11-20 | [chore(deps-dev): bump electron (#614)](https://github.com/sandbox-quantum/switch/commit/04e1a702509ca3765582ba44b1303574982cc45c) | dependabot[bot] |
+| 2026-11-20 | [chore(deps): bump anyio in /core in the uv group across 1 directory (…](https://github.com/sandbox-quantum/switch/commit/067e12c5bd3442c885531832472c9ba3d5e2ac63) | dependabot[bot] |
+| 2026-11-20 | [Merge pull request #1902 from sandbox-quantum/organizations/workos-co…](https://github.com/sandbox-quantum/switch/commit/30872f611da0bbdf804281e1bd5149ef47a590a7) | petr-sandbox |
+| 2026-11-20 | [Address review: changelog under Unreleased, reuse the read link, rese…](https://github.com/sandbox-quantum/switch/commit/225be1fd4ebcad7c1d685a940ff2046df7f235df) | petr-sandbox |
+| 2026-11-20 | [CHOO-4268: stop following a deleted WorkOS organization, and count it](https://github.com/sandbox-quantum/switch/commit/c173ea79c026cf84984bad3d787477f6b296121d) | petr-sandbox |
+| 2026-11-20 | [CHOO-4193: report and alert on whether the WorkOS mirror keeps up](https://github.com/sandbox-quantum/switch/commit/2d128516d58b4d38c2247991639ca248bba1bece) | petr-sandbox |
+| 2026-11-20 | [feat(gateway): confirm member changes that also apply in Switch Trust…](https://github.com/sandbox-quantum/switch/commit/5fa9fa4208f8e22bd3efab3906f5862a18a8698f) | petr-sandbox |
 | 2026-11-19 | [decision: race a fallback backend after N seconds (Gemini first, Haik…](https://github.com/sandbox-quantum/switch/commit/ac264606f454831d336bd48abf110d894cc57245) | agent-runner353 |
 | 2026-11-19 | [Keep people's requests from taking a process's database pool (#1988)](https://github.com/sandbox-quantum/switch/commit/3558ee118a140e8f81d271b160221b8b6436d674) | abeldantas |
-| 2026-11-19 | [Say why Discord refused a private chat's channel, instead of a bare 5…](https://github.com/sandbox-quantum/switch/commit/3236aa6b3d6aaaca51fbb860d2d9569f1e6e16d3) | abeldantas |
-| 2026-11-19 | [Stop the New agent form flashing "already exists" at its own new agen…](https://github.com/sandbox-quantum/switch/commit/95d34f788d8c8fa9d1d638ddd7bc3ccd4e6581ee) | abeldantas |
-| 2026-11-19 | [Keep one action from asking the database for a connection per room (C…](https://github.com/sandbox-quantum/switch/commit/8a96395738ffe1bfe70bb5724ec0466584dc78de) | abeldantas |
-| 2026-11-18 | [@rudycelekli has signed the CLA in sandbox-quantum/switch#2155](https://github.com/sandbox-quantum/switch/commit/74e10ff51b58ba4cc222580e74155a6359bd15fa) | switch-cla-assistant[bot] |
-| 2026-11-18 | [Merge pull request #2129 from sandbox-quantum/feat/decision-model-on-…](https://github.com/sandbox-quantum/switch/commit/2be02b0a0f5ab9b06d0c59b0c61226ccfda6554a) | agent-runner353 |
-| 2026-11-18 | [dashboard: show the share of decisions that failed or timed out, and …](https://github.com/sandbox-quantum/switch/commit/18b0387e8d8ce7eb2a34080e2ee2d041797bc2fa) | agent-runner353 |
-| 2026-11-18 | [chore(release): Switch Console 0.41.1 (#2132)](https://github.com/sandbox-quantum/switch/commit/9704ba133acf462824f302c7815ef68b90d9d4b6) | amaudruz |
-| 2026-11-18 | [chore(release): switch-core 0.32.1 (#2131)](https://github.com/sandbox-quantum/switch/commit/7a0009ef6143150ce56641da52db805d0efb14fc) | amaudruz |
 
 [See all commits ↗](https://github.com/sandbox-quantum/switch/commits)
 

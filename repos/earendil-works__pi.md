@@ -20,22 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 122.9k |
+| ⭐ **Stars** | 123.0k |
 | 🍴 **Forks** | 15.9k |
-| 🐞 **Open issues + PRs** | [271](https://github.com/earendil-works/pi/issues) |
+| 🐞 **Open issues + PRs** | [280](https://github.com/earendil-works/pi/issues) |
 | 💻 **Languages** | TypeScript 87% · HTML 10% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2025-08-09 |
-| 📦 **Latest release** | [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2) — 2026-11-10 |
+| 📦 **Latest release** | [v1.6.0](https://github.com/earendil-works/pi/releases/tag/v1.6.0) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 111.3 MB |
+| 💾 **Size** | 112.3 MB |
 
 ## 📦 Recent releases
 
+### [v1.6.0](https://github.com/earendil-works/pi/releases/tag/v1.6.0)
+<sub>2026-11-20 · today</sub>
+
+> **New Features**
+> - **GPT-6.2 Astra and GPT-6.2 Sol**: both models are available on the `openai`, `azure`, and `openai-codex` providers, and GPT-6.2 Sol is now the default model for all three. See [Providers](https://github.com/earendil-works/pi/blob/v1.6.0/packages/coding-agent/docs/providers.md).
+> **Breaking Changes**
+> - Extension components: `render()` now returns `readonly string[]`, and `Container` returns the same cached array while its children are unchanged. Extensions that modify render output in place, including `super.render()` in a `Container` subclass or an embedded component's output, must copy it first ([#9549](https://github.com/earendil-works/pi/issues/9549))
+> **Added**
+> - Added GPT-6.2 Astra and GPT-6.2 Sol to the `openai`, `azure`, and `openai-codex` providers. Both reject reasoning effort `none` and `minimal`, so thinking level `off` is unavailable. Azure serves them with a 1.05M context window; Codex serves GPT-6.2 Sol with 500K and GPT-6.2 Astra with 272K
+> …
+
 ### [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2)
-<sub>2026-11-10 · 9d ago</sub>
+<sub>2026-11-10 · 10d ago</sub>
 
 > **New Features**
 > - **Fork sessions whose folder is gone**: when a session's original folder was moved or deleted, you can now fork it into the current folder instead of only continuing, so later resumes no longer ask. See [Continue or switch sessions](https://github.com/earendil-works/pi/blob/v1.5.2/packages/coding-agent/docs/sessions.md#continue-or-switch-sessions).
@@ -46,7 +57,7 @@
 > …
 
 ### [v1.5.1](https://github.com/earendil-works/pi/releases/tag/v1.5.1)
-<sub>2026-11-09 · 9d ago</sub>
+<sub>2026-11-09 · 10d ago</sub>
 
 > **New Features**
 > - **Shell login and logout**: use `pi auth login <provider>` and `pi auth logout <provider>` without starting a session, with API-key and no-browser sign-in options. See [Credential commands](https://github.com/earendil-works/pi/blob/v1.5.1/packages/coding-agent/docs/cli.md#credential-commands).
@@ -57,7 +68,7 @@
 > …
 
 ### [v1.5.0](https://github.com/earendil-works/pi/releases/tag/v1.5.0)
-<sub>2026-11-02 · 17d ago</sub>
+<sub>2026-11-02 · 18d ago</sub>
 
 > **New Features**
 > - **Extension update changelogs**: see what changed in installed extension packages on the next fresh launch after an update. Package authors can choose the changelog path, and `collapseChangelog` condenses the notices. See [Show a changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/coding-agent/docs/packages.md#show-a-changelog).
@@ -68,7 +79,7 @@
 > …
 
 ### [v1.4.0](https://github.com/earendil-works/pi/releases/tag/v1.4.0)
-<sub>2026-10-21 · 28d ago</sub>
+<sub>2026-10-21 · 29d ago</sub>
 
 > **New Features**
 > - **Image input for classifiers**: codemode `models.classify()` accepts `images` for TypeSafe's Jev and Cloudflare's Clef models on `typesafe`, `cloudflare-workers-ai`, and OpenRouter. See [Use classifier models](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/models.md#use-classifier-models) and [Codemode](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/codemode.md#models).
@@ -78,31 +89,20 @@
 > - **Rex terminal support**: OSC 8 hyperlinks, truecolor, and inline images.
 > …
 
-### [v1.3.0](https://github.com/earendil-works/pi/releases/tag/v1.3.0)
-<sub>2026-10-15 · 1mo ago</sub>
-
-> **New Features**
-> - **Choose where `/share` uploads**: `sessionShareDestination` selects `auto`, `gist`, or `radius`. See [Sessions and context](https://github.com/earendil-works/pi/blob/v1.3.0/packages/coding-agent/docs/settings.md#sessions-and-context) and [Export or share a session](https://github.com/earendil-works/pi/blob/v1.3.0/packages/coding-agent/docs/sessions.md#export-or-share-a-session).
-> - **Cache-preserving thinking level changes on OpenAI GPT-6**: changing the thinking level mid-session with an API key keeps the prompt cache.
-> - **Kimi Code over Chat Completions**: tools added mid-conversation no longer invalidate the prompt cache. `models.json` base URL overrides must now include `/v1`. See [Providers](https://github.com/earendil-works/pi/blob/v1.3.0/packages/coding-agent/docs/providers.md).
-> - **Clean model switching**: thinking from a previous model is dropped instead of being shown to the new model as text.
-> - **Resumed sessions keep their active tools**: `--tools +name`/`-name` applies on top of them. See [Tools](https://github.com/earendil-works/pi/blob/v1.3.0/packages/coding-agent/docs/settings.md#tools).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [feat(p2): a session's sidebar status shows working while any of its c…](https://github.com/earendil-works/pi/commit/653f332b6fe22e2e927dd3d553d20234a3de27f0) | mitsuhiko |
-| 2026-11-19 | [feat(p2): show running subagents above the main conversation's composer](https://github.com/earendil-works/pi/commit/e42343cb55a52c770521cdbb83862d97bf9a7e6e) | mitsuhiko |
-| 2026-11-19 | [fix(p2): expanding a project without sessions only turns its chevron](https://github.com/earendil-works/pi/commit/402dc19beda05291267b8a7e0d6b5a66466eece6) | christianklotz |
-| 2026-11-19 | [docs(p3): slices 8 and 10: what to build for worker memory with envir…](https://github.com/earendil-works/pi/commit/858357fe555e90cee09057cf843e001f63fbe56d) | badlogic |
-| 2026-11-19 | [docs(p2): handoff describes the phone's runit services and deploy, sl…](https://github.com/earendil-works/pi/commit/0ffa64e2f6ec74f1e18a9a4f1b64e8c97f49b745) | badlogic |
-| 2026-11-18 | [feat(p2): projects as owner-defined groups, a new location picker, si…](https://github.com/earendil-works/pi/commit/5a14e69c067d40dfbff4f2fff7d3b34c897e2dc9) | badlogic |
-| 2026-11-18 | [feat(p3): require Node 26.3.1 or newer; find worker processes without…](https://github.com/earendil-works/pi/commit/f94add25e898620aef47a67a9660f904aac4ee3e) | badlogic |
-| 2026-11-18 | [docs(p3): decision: the terminal sandbox accepts p3's minimum Node; s…](https://github.com/earendil-works/pi/commit/387ebc40f48254a1ba4b8baacdbbd98a8e05d0cb) | badlogic |
-| 2026-11-18 | [docs(p3): decision: Node 26 or newer everywhere](https://github.com/earendil-works/pi/commit/c870614fdcb510c22e78fc18bdfea3910d94f149) | badlogic |
-| 2026-11-18 | [docs(p3): decision: p3 ships with its own Node](https://github.com/earendil-works/pi/commit/687913451b5b1a60518989421566f36e8188c076) | badlogic |
+| 2026-11-20 | [feat(chord,p2): send the sync protocol version with every Radius request](https://github.com/earendil-works/pi/commit/122db84830cfb7bfc3de26bc98ae402f27473d20) | cristinaponcela |
+| 2026-11-20 | [fix(ai): retry more temporary provider failures](https://github.com/earendil-works/pi/commit/a00a5048dfae964fe89dce593215d0c3d275017c) | vegarsti |
+| 2026-11-20 | [fix(ai): retry gateway provider-unavailable and partial-response erro…](https://github.com/earendil-works/pi/commit/25190b72c195ce6502103ecba55064eade1f188b) | robopipi[bot] |
+| 2026-11-20 | [fix(ai): retry Cloudflare 525 errors](https://github.com/earendil-works/pi/commit/fb62c069b2ff810a95c083c1ca3dd31e9d7c1af3) | vegarsti |
+| 2026-11-20 | [docs(p3): process: the implementer answers questions on functionality…](https://github.com/earendil-works/pi/commit/30a3e0b1f01597193668d7c2092a4694cfe7db41) | badlogic |
+| 2026-11-20 | [docs(p3): process: the steps in three sections, Design, Implementatio…](https://github.com/earendil-works/pi/commit/c7d7a3f19d765293da074f88dad134dc69b9696a) | badlogic |
+| 2026-11-20 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/11048be478edcf7d3c92d6928d58500536f28b0c) | badlogic |
+| 2026-11-20 | [docs(p3): process: the stage labels Design, Implementation, Review](https://github.com/earendil-works/pi/commit/d085a66edc1cb51fcb8277ae80e74d1aff359630) | badlogic |
+| 2026-11-20 | [fix(p2): keep a link's underline under its text in answers (#12351)](https://github.com/earendil-works/pi/commit/6d2ba5e1ab37eff43b7964ac8a6a811a1d053a36) | cristinaponcela |
+| 2026-11-20 | [fix(coding-agent): repaint editor after extension pasteToEditor and s…](https://github.com/earendil-works/pi/commit/8c1afaae585fc353fa9da32c8272b066cea34140) | robopipi[bot] |
 
 [See all commits ↗](https://github.com/earendil-works/pi/commits)
 

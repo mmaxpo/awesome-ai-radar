@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `web` `mobile` `ai-agents` `ai-coding` `coding-agent` `developer-tools` `docker` `llm` `opencode` `pwa` `react` `remote-development` `self-hosted` `terminal` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2025-11-24 |
 | 📦 **Latest release** | [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — 2026-10-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 38.8 MB |
+| 💾 **Size** | 38.9 MB |
 | 🌐 **Website** | https://opencodemanager.app |
 
 ## 📦 Recent releases
 
 ### [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — OpenCode Manager v1.1.0
-<sub>2026-10-26 · 24d ago</sub>
+<sub>2026-10-26 · 25d ago</sub>
 
 > **Highlights**
 > - **Linked OpenCode servers**: pair any machine running `opencode serve` with `ocm link` and a QR code, then run sessions, terminals, schedules, multi-runs, goals and permission modes on it from Manager. Linked servers' projects appear on the home page.
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Merge pull request #490 from chriswritescode-dev/om-219-cold-catalog-…](https://github.com/chriswritescode-dev/opencode-manager/commit/750faf13614371b019770f1b630c99ff149ed97d) | chriswritescode-dev |
+| 2026-11-19 | [Wait for plugins before using the OpenCode default model on cold loca…](https://github.com/chriswritescode-dev/opencode-manager/commit/afde60ddf7b15c8c61eaec6030a4c75b93612bc1) | chriswritescode-dev |
 | 2026-11-19 | [Merge pull request #489 from chriswritescode-dev/fix/remote-schedule-…](https://github.com/chriswritescode-dev/opencode-manager/commit/3796ba15ebe166c17fd4ad6765f3fb4a7de2eaa4) | chriswritescode-dev |
 | 2026-11-19 | [fix(schedules): accept absolute Windows directories for remote schedules](https://github.com/chriswritescode-dev/opencode-manager/commit/742660ecfa6b22dbd7d6efdbb615b76dd94288a8) | chriswritescode-dev |
 | 2026-11-17 | [Merge pull request #488 from chriswritescode-dev/om-207-validate-goal…](https://github.com/chriswritescode-dev/opencode-manager/commit/5c5de012db81b59b51182a75ba9837a19d52bff1) | chriswritescode-dev |
@@ -102,8 +104,6 @@
 | 2026-11-17 | [Refresh Goal reads on plugin.updated, with recovery coverage](https://github.com/chriswritescode-dev/opencode-manager/commit/edd083e4178c8b50bc941f323041e447170017b4) | chriswritescode-dev |
 | 2026-11-17 | [Version-aware real-binary proof of the cold-Location Goal](https://github.com/chriswritescode-dev/opencode-manager/commit/47066b33b282c0c2377c7ba5cf5c6269dbb2b741) | chriswritescode-dev |
 | 2026-11-17 | [Move the OpenCode pin and supported floor to 2.3.0](https://github.com/chriswritescode-dev/opencode-manager/commit/23d9d1c945e2c080e3b2969407268e83cae8277d) | chriswritescode-dev |
-| 2026-11-13 | [Merge pull request #485 from chriswritescode-dev/chore/prune-redundan…](https://github.com/chriswritescode-dev/opencode-manager/commit/eba86dc3fc3c95de448ee0c24d462194679b1ea6) | chriswritescode-dev |
-| 2026-11-13 | [Remove duplicated and constant-only tests](https://github.com/chriswritescode-dev/opencode-manager/commit/71bde0378af2ce1bc115a0a7b39e58d8e8288fa2) | chriswritescode-dev |
 
 [See all commits ↗](https://github.com/chriswritescode-dev/opencode-manager/commits)
 

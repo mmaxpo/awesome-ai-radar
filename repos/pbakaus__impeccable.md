@@ -20,23 +20,28 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 113.3k |
-| 🍴 **Forks** | 6.7k |
-| 🐞 **Open issues + PRs** | [61](https://github.com/pbakaus/impeccable/issues) |
+| ⭐ **Stars** | 113.8k |
+| 🍴 **Forks** | 6.8k |
+| 🐞 **Open issues + PRs** | [69](https://github.com/pbakaus/impeccable/issues) |
 | 💻 **Languages** | Rust 75% · JavaScript 23% · TypeScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai` `anti-slop` `design` `slop` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2025-11-16 |
-| 📦 **Latest release** | [skill-v4.10.0](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.10.0) — 2026-11-18 |
+| 📦 **Latest release** | [engine-v0.1.28](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.28) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 908.3 MB |
+| 💾 **Size** | 911.3 MB |
 | 🌐 **Website** | https://impeccable.style |
 
 ## 📦 Recent releases
 
+### [engine-v0.1.28](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.28) — impeccable engine engine-v0.1.28
+<sub>2026-11-19 · today</sub>
+
+> Prebuilt impeccable engine binaries (engine-v0.1.28). The launcher, the npm shim and impeccable install download these on first run. Docs: https://impeccable.style
+
 ### [skill-v4.10.0](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.10.0) — Skill 4.10.0
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > - **DESIGN.md as a map.** A long DESIGN.md reaches your agent as a short map of where tokens, components and layouts live, and the agent looks up one token, component or section when it needs it. `design-compact` proposes the map and writes it only when you agree.
 > - **Drift you can act on.** When the code contradicts DESIGN.md, Impeccable names what it contradicts.
@@ -45,7 +50,7 @@
 > - **Steadier Live.** The Live bar stays still under the pointer, and the missing PRODUCT.md notice shows once.
 
 ### [cli-v4.10.0](https://github.com/pbakaus/impeccable/releases/tag/cli-v4.10.0) — CLI 4.10.0
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > - **Your switches, in every agent.** The switches you turn on in Impeccable reach your agents' rule files within seconds. `switches-refresh --now` syncs them on the spot.
 > - **Page shots.** `shot` saves a page at desktop and phone widths.
@@ -54,21 +59,14 @@
 > - **Codex: trust Impeccable's hooks.** Codex runs a new or changed hook only after you trust it. When Codex says "Hooks need review", choose Trust all and continue, or trust Impeccable's hooks in `/hooks`. A later release will trust them for you when you connect.
 
 ### [engine-v0.1.27](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.27) — impeccable engine engine-v0.1.27
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > Prebuilt impeccable engine binaries (engine-v0.1.27). The launcher, the npm shim and impeccable install download these on first run. Docs: https://impeccable.style
 
 ### [loop-v0.2.0](https://github.com/pbakaus/impeccable/releases/tag/loop-v0.2.0) — Impeccable Loop 0.2.0
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > Answers in Loop now wake Codex, Cursor, GitHub Copilot CLI and opencode, as they already did Claude Code. An answer that lands while an agent is mid-turn, or after its session ended, still reaches it.
-
-### [cli-v4.9.2](https://github.com/pbakaus/impeccable/releases/tag/cli-v4.9.2) — CLI 4.9.2
-<sub>2026-11-16 · 3d ago</sub>
-
-> - **Loop 0.1.3.** `loop install` and `loop update` verify it against its pinned checksum.
-> - **Your taste in every agent.** `loop connect` offers to add your Impeccable taste to your agents' rule files. Answer ahead of time with `--taste` or `--no-taste`.
-> - **Signing in does more.** `login` offers Loop when your plan includes it, and the first sign-in inside a repository adds that repository to your account.
 
 ## 🔨 Latest commits
 

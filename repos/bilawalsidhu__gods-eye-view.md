@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 65.9k |
-| 🍴 **Forks** | 13.0k |
-| 🐞 **Open issues + PRs** | [437](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| ⭐ **Stars** | 66.1k |
+| 🍴 **Forks** | 13.1k |
+| 🐞 **Open issues + PRs** | [425](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 239.7 MB |
+| 💾 **Size** | 246.2 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 22d ago</sub>
+<sub>2026-10-28 · 23d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Merge pull request #1852 from bilawalsidhu/samehkhamis/kit-sweep-stories](https://github.com/bilawalsidhu/gods-eye-view/commit/5dbd73b4e946cd0a81b7019e6bd2b945eebdc87c) | samehkhamis |
-| 2026-11-19 | [Add the changelog entry for #1852](https://github.com/bilawalsidhu/gods-eye-view/commit/f821c31a36da749cd0c30f07b1b9d31291d34175) | samehkhamis |
-| 2026-11-19 | [Merge remote-tracking branch 'origin/main' into samehkhamis/kit-sweep…](https://github.com/bilawalsidhu/gods-eye-view/commit/e9f69d90a2867aefdd4594339b89dcd1189c6fb1) | samehkhamis |
-| 2026-11-19 | [Merge pull request #1851 from bilawalsidhu/samehkhamis/kit-sweep-laye…](https://github.com/bilawalsidhu/gods-eye-view/commit/42559db10b6af9a9049fb78f24204cf036c4e807) | samehkhamis |
-| 2026-11-19 | [Merge branch 'main' into samehkhamis/kit-sweep-layer-finder](https://github.com/bilawalsidhu/gods-eye-view/commit/7faf14c6a1af9bd3b8c0c186404e5ed15965cbf1) | samehkhamis |
-| 2026-11-19 | [Merge pull request #1598 from bilawalsidhu/fix/shortcuts-modifier-keys](https://github.com/bilawalsidhu/gods-eye-view/commit/12d208bae1a103d97ba5f5ffd540e9080733f23d) | gekh |
-| 2026-11-19 | [Merge branch 'main' into fix/shortcuts-modifier-keys](https://github.com/bilawalsidhu/gods-eye-view/commit/379afa03dba7ae4c9abc05c7d1908633365f631c) | gekh |
-| 2026-11-19 | [Add the changelog entry for #1851](https://github.com/bilawalsidhu/gods-eye-view/commit/e2ff789a294aea2b5a4b2751789d35896609add0) | samehkhamis |
-| 2026-11-19 | [Merge remote-tracking branch 'origin/main' into samehkhamis/kit-sweep…](https://github.com/bilawalsidhu/gods-eye-view/commit/7ba6d86485cd81f15592ec9c96d058d68afe94d7) | samehkhamis |
-| 2026-11-19 | [Merge pull request #1850 from bilawalsidhu/samehkhamis/kit-sweep-enti…](https://github.com/bilawalsidhu/gods-eye-view/commit/0293e748465ddfd4a2937e58132fd89717e9d0f6) | samehkhamis |
+| 2026-11-20 | [Merge pull request #1277 from bilawalsidhu/codex/fix-annotation-heigh…](https://github.com/bilawalsidhu/gods-eye-view/commit/5982e811de7f4ae1c6844eb16c7578abe60928dc) | gekh |
+| 2026-11-20 | [Merge branch 'main' into codex/fix-annotation-height-culling](https://github.com/bilawalsidhu/gods-eye-view/commit/c00c272bd81093ff0d7b1f66cd20018e97e447ac) | gekh |
+| 2026-11-20 | [Merge pull request #1701 from bilawalsidhu/german/recent-imagery-auto…](https://github.com/bilawalsidhu/gods-eye-view/commit/fb2c0468b9ee7df4e91c143aa5ea6c4e3842418a) | gekh |
+| 2026-11-20 | [Merge branch 'main' into codex/fix-annotation-height-culling](https://github.com/bilawalsidhu/gods-eye-view/commit/f54d612aabc293a4e3bcaa6f7cce564c6b4c813c) | gekh |
+| 2026-11-20 | [Merge branch 'main' into german/recent-imagery-auto-successor](https://github.com/bilawalsidhu/gods-eye-view/commit/1a57469fd18ad8cbc00444b2ef748b52c09e0eca) | gekh |
+| 2026-11-20 | [Merge pull request #1460 from UBN606/feat/blender-camera-interchange-…](https://github.com/bilawalsidhu/gods-eye-view/commit/6ef4ae8f42bad34275cdd491b80e629cf004508f) | gekh |
+| 2026-11-20 | [Merge branch 'main' into german/recent-imagery-auto-successor](https://github.com/bilawalsidhu/gods-eye-view/commit/4262829e277bf2f63446035d95e32dae76c2974b) | gekh |
+| 2026-11-20 | [Merge branch 'main' into feat/blender-camera-interchange-submit](https://github.com/bilawalsidhu/gods-eye-view/commit/5b1c1ede292fc1390f9ba65b5451c94902c581ec) | gekh |
+| 2026-11-20 | [Merge pull request #1767 from ZloyS/denis/iss-live-telemetry](https://github.com/bilawalsidhu/gods-eye-view/commit/1dd007fa3e97baddc1f1c89d93dfc0b0f78a23cd) | asturksever |
+| 2026-11-20 | [Merge main into denis/iss-live-telemetry](https://github.com/bilawalsidhu/gods-eye-view/commit/050e0a3a7acbaf6dc2047db730555511dbc678a6) | ZloyS |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

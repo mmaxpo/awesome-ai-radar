@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 890 |
+| ⭐ **Stars** | 889 |
 | 🍴 **Forks** | 152 |
 | 🐞 **Open issues + PRs** | [19](https://github.com/luispedro/mahotas/issues) |
 | 💻 **Languages** | Python 63% · C++ 35% · Meson 1% |

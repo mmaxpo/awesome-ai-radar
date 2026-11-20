@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 30.8k |
-| 🍴 **Forks** | 2.4k |
-| 🐞 **Open issues + PRs** | [1.0k](https://github.com/meta/astryx/issues) |
-| 💻 **Languages** | TypeScript 61% · JavaScript 38% · Swift 1% |
+| ⭐ **Stars** | 31.2k |
+| 🍴 **Forks** | 2.5k |
+| 🐞 **Open issues + PRs** | [938](https://github.com/meta/astryx/issues) |
+| 💻 **Languages** | TypeScript 60% · JavaScript 38% · Swift 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-01-09 |
 | 📦 **Latest release** | [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1392.7 MB |
+| 💾 **Size** | 1342.3 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
 
 ### [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — Astryx v0.7.16
-<sub>2026-11-14 · 5d ago</sub>
+<sub>2026-11-14 · 6d ago</sub>
 
 > Astryx 0.7.16 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.15](https://github.com/meta/astryx/releases/tag/v0.7.15)
-<sub>2026-11-12 · 6d ago</sub>
+<sub>2026-11-12 · 7d ago</sub>
 
 > Astryx 0.7.15 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.14](https://github.com/meta/astryx/releases/tag/v0.7.14)
-<sub>2026-11-11 · 7d ago</sub>
+<sub>2026-11-11 · 8d ago</sub>
 
 > Astryx 0.7.14 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.13](https://github.com/meta/astryx/releases/tag/v0.7.13)
-<sub>2026-11-10 · 8d ago</sub>
+<sub>2026-11-10 · 9d ago</sub>
 
 > Astryx 0.7.13 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.12](https://github.com/meta/astryx/releases/tag/v0.7.12)
-<sub>2026-11-10 · 9d ago</sub>
+<sub>2026-11-10 · 10d ago</sub>
 
 > Astryx 0.7.12 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [chore: land batch 38 (2 pull requests) (#12912)](https://github.com/meta/astryx/commit/5825a9d56c152609d3c334d2e2e7ed7cc863736b) | josephfarina |
-| 2026-11-19 | [chore: land batch 35 (1 pull requests) (#12907)](https://github.com/meta/astryx/commit/0f67e76cbf457e4fd2686b1e688167be5d626879) | josephfarina |
-| 2026-11-19 | [docs(richtext): the README says what server rendering outputs (#12531)](https://github.com/meta/astryx/commit/676f276f2aec0050dbd11296deaaa8efdb4d572f) | cixzhang |
-| 2026-11-19 | [chore: land batch 34 (2 pull requests) (#12908)](https://github.com/meta/astryx/commit/31b52d0cbc5cb10a7485db07d499536c6ec11902) | josephfarina |
-| 2026-11-19 | [chore: land batch 31 (1 pull requests) (#12902)](https://github.com/meta/astryx/commit/cb58ce756160d9e7e15dac242db7470b3daf612e) | josephfarina |
-| 2026-11-19 | [chore: land batch 33 (1 pull requests) (#12906)](https://github.com/meta/astryx/commit/dcdd9faca6a56abc05fe17079549dda811ba287a) | josephfarina |
-| 2026-11-19 | [chore: land batch 27 (1 pull requests) (#12899)](https://github.com/meta/astryx/commit/67a6a0694bb5b5f03cb7ed2caa5dc45b31839aa4) | josephfarina |
-| 2026-11-19 | [fix(Citation): a label citation centres on the line it sits in (#12434)](https://github.com/meta/astryx/commit/a633a8d3311b2e32f67caaeeb43e34a2dbc86d9a) | cixzhang |
-| 2026-11-19 | [chore: land batch 28 (2 pull requests) (#12892)](https://github.com/meta/astryx/commit/b871bc6d1b2d31904d434c0acd68cb2724b9581b) | josephfarina |
-| 2026-11-19 | [fix(Timestamp): a relative name starts with the words it shows (#12222)](https://github.com/meta/astryx/commit/97210232574a0a2b97d64f6904cfe5817b0ed438) | cixzhang |
+| 2026-11-20 | [fix(ClickableCard, SelectableCard): a control inside rings itself, no…](https://github.com/meta/astryx/commit/5ebe00f5b273a253c8b5b76ecdf6c5fb5eead74d) | cixzhang |
+| 2026-11-20 | [spec(release): admit unpublished owner recuts (#13081)](https://github.com/meta/astryx/commit/c701ba4280dfb4d5e5f5c66b64eae864b208ce60) | cixzhang |
+| 2026-11-20 | [chore: land batch 106 (1 pull requests) (#13080)](https://github.com/meta/astryx/commit/1f5f1cb7799641f1efac72c75e788cab58479957) | josephfarina |
+| 2026-11-20 | [chore: land batch 104 (1 pull requests) (#13071)](https://github.com/meta/astryx/commit/ab882aaa47fa464c567193dfd8592ff9c2bb4316) | josephfarina |
+| 2026-11-20 | [[Component Audit] NumberInput: docs say when the clear button shows a…](https://github.com/meta/astryx/commit/9e40cf11fc33fac5da12ccc3df3b9060965dc2d1) | cixzhang |
+| 2026-11-20 | [fix(NavHeadingMenu): after keyboard input, the focused item draws the…](https://github.com/meta/astryx/commit/2773b025dd7419a46c6e103517a7835b823f8e19) | cixzhang |
+| 2026-11-20 | [[Component Audit] NavIcon: docs name the headings it belongs in and w…](https://github.com/meta/astryx/commit/f58e64459aa0aa534e8e5913eea8e9c277f3118b) | cixzhang |
+| 2026-11-20 | [docs(Table): on a phone, floors scroll sideways; a List below a break…](https://github.com/meta/astryx/commit/77a11ae0d2305c3f261190161248853f5741b52b) | josephfarina |
+| 2026-11-20 | [chore: land batch 103 (1 pull requests) (#13068)](https://github.com/meta/astryx/commit/16fde59f78b48440d4fc3bb239878ec8e4dc3f2f) | josephfarina |
+| 2026-11-20 | [chore: land batch 102 (1 pull requests) (#13066)](https://github.com/meta/astryx/commit/a7531d113be2ea055db51ee22605c671e11b9bb7) | josephfarina |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

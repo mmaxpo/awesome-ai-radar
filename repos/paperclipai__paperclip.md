@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.0k |
-| 🍴 **Forks** | 19.1k |
-| 🐞 **Open issues + PRs** | [6.9k](https://github.com/paperclipai/paperclip/issues) |
+| ⭐ **Stars** | 115.4k |
+| 🍴 **Forks** | 19.2k |
+| 🐞 **Open issues + PRs** | [7.0k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 3% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 551.5 MB |
+| 💾 **Size** | 553.3 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
 ### [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **Paperclip v2026.1117.0**
 > > Released: 2026-11-17
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 12d ago</sub>
+<sub>2026-11-06 · 13d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -69,7 +69,7 @@
 > …
 
 ### [v2026.1023.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0)
-<sub>2026-10-24 · 26d ago</sub>
+<sub>2026-10-24 · 27d ago</sub>
 
 > **Paperclip v2026.1023.0**
 > > Released: 2026-10-23
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [fix(dispatch): schedule a clean loop-limit continuation with its pers…](https://github.com/paperclipai/paperclip/commit/1355f93546b44017bdf71212c437ae7a57f8b5e7) | cryppadotta |
-| 2026-11-19 | [fix(restart-chaos): grade double executors on local runner identities…](https://github.com/paperclipai/paperclip/commit/70a43513433d96537b1e5b26430fddd1c06ca0d0) | cryppadotta |
-| 2026-11-19 | [fix(tasks): keep a due automatic retry working while it is dispatched…](https://github.com/paperclipai/paperclip/commit/7eaf38130beb8460e40e8a8120da3311e1ef0461) | cryppadotta |
-| 2026-11-19 | [feat(runner): start a released Runner again as the next run (#22288)](https://github.com/paperclipai/paperclip/commit/1c67687998b3c704bfabafab31a1f1cfd00ac549) | nickyleach |
-| 2026-11-19 | [fix(cloud): resolve or name the remaining online move blockers (#22294)](https://github.com/paperclipai/paperclip/commit/440f96247b77fdca9aaef963e71fb5a139033b9c) | cryppadotta |
-| 2026-11-19 | [feat(runner): pin Codex 0.170.0 and Agent SDK 0.3.328 so Fable 5.2 an…](https://github.com/paperclipai/paperclip/commit/170e1b0c078d0db64cf3deadd4d5f21e86d7fdcf) | devinfoley |
-| 2026-11-19 | [perf(heartbeat): skip unused session and holder reads for queued inpu…](https://github.com/paperclipai/paperclip/commit/90d985b8b919ab09df788ffc09b71dd83d136899) | nickyleach |
-| 2026-11-19 | [perf(wake-queue): reuse the task row locked by admission (#22280)](https://github.com/paperclipai/paperclip/commit/3dc6ccd8d8141bd5249bd675f19fb1e232a378a0) | nickyleach |
-| 2026-11-19 | [perf(wake-queue): skip recovery lookup when no saved receipt can be a…](https://github.com/paperclipai/paperclip/commit/5506359bbbdeb482aff622932dddb4da6d822d5a) | nickyleach |
-| 2026-11-19 | [Use one automatic goal steering decision for task comments (#22277)](https://github.com/paperclipai/paperclip/commit/f0caee6f95a4ac7f0cb60a880d01ca56ad03fd67) | nickyleach |
+| 2026-11-20 | [fix(tools): retry a named MCP gateway create that loses a deadlock (#…](https://github.com/paperclipai/paperclip/commit/a792409d07e984e7bf8382e295bdaebd2aa18dda) | paperclipbugbot |
+| 2026-11-20 | [fix(storage): back off a throttled small upload that has no source fi…](https://github.com/paperclipai/paperclip/commit/fa96716bb5ad5beb66d39c44210c87c39cf7dcac) | paperclipbugbot |
+| 2026-11-20 | [fix(workspaces): name incompatible project storage when a volume-free…](https://github.com/paperclipai/paperclip/commit/7ef731ec7ede8b2aaf5507ae8d49f2b952367beb) | paperclipbugbot |
+| 2026-11-20 | [fix(native): name the missing precondition when a bootstrap restart r…](https://github.com/paperclipai/paperclip/commit/c3260b1c03aa25eb88eb4c1f25cd65d757d72025) | paperclipbugbot |
+| 2026-11-20 | [fix(workspaces): stop a cancelled single-pass capture from leaking a …](https://github.com/paperclipai/paperclip/commit/bbb6b4fd5c6d5fa02e6a54bc5850f49e14c65046) | paperclipbugbot |
+| 2026-11-20 | [fix(environments): clean up an unconfirmed setup sandbox and answer a…](https://github.com/paperclipai/paperclip/commit/16dfa200ac8c94772109ba9b9cb2eea7f4d9b63d) | paperclipbugbot |
+| 2026-11-20 | [fix(environments): retry recording a started sandbox lease that loses…](https://github.com/paperclipai/paperclip/commit/49adbbe2f6f3a1b3f46671f472b8184a06f16cba) | paperclipbugbot |
+| 2026-11-20 | [fix(ui): mark the connectivity probe's timeout abort as intentional (…](https://github.com/paperclipai/paperclip/commit/48025caaca535b25eb1136968f47dea58b7c46ee) | paperclipbugbot |
+| 2026-11-20 | [fix(ui): stop reporting posthog-js request timeouts as unhandled reje…](https://github.com/paperclipai/paperclip/commit/434e574ec6066cfc1dbf16b3337bfceda4f0fcf2) | paperclipbugbot |
+| 2026-11-20 | [fix(native): retry a workspace failure write that loses a deadlock (#…](https://github.com/paperclipai/paperclip/commit/9874608d0aa66e090ce8ad2b93401fdcebe7b37f) | devinfoley |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

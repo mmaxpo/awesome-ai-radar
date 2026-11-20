@@ -22,20 +22,31 @@
 |---|---|
 | ⭐ **Stars** | 38.5k |
 | 🍴 **Forks** | 4.1k |
-| 🐞 **Open issues + PRs** | [37](https://github.com/virgiliojr94/book-to-skill/issues) |
+| 🐞 **Open issues + PRs** | [22](https://github.com/virgiliojr94/book-to-skill/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `context-engineering` `document-processing` `edtech` `knowledge-base` `knowledge-management` `llm` `pdf-to-markdown` `rag` `self-study` `study-tools` `book-to-skill` |
 | 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2026-05-01 |
-| 📦 **Latest release** | [v2.0.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.0) — 2026-11-19 |
+| 📦 **Latest release** | [v2.0.1](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.1) — 2026-11-19 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 2.7 MB |
+| 💾 **Size** | 2.9 MB |
 
 ## 📦 Recent releases
 
-### [v2.0.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.0)
+### [v2.0.1](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.1)
 <sub>2026-11-19 · today</sub>
+
+> **[2.0.1] - 2026-11-19**
+> **Added**
+> - Add opt-in guided MCP setup directly in Step 0
+> - Detect Arabic (الفصل/الباب) chapter headings (#346)
+> - Detect Georgian (თავი) chapter headings (#325)
+> **Documentation**
+> …
+
+### [v2.0.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.0)
+<sub>2026-11-19 · yesterday</sub>
 
 > **[2.0.0] - 2026-11-19**
 > **Added**
@@ -78,31 +89,20 @@
 > - Markdown / AsciiDoc ATX headings (`#`, `==`) detected when no numeric "Chapter N" is present.
 > …
 
-### [v1.1.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.1.0)
-<sub>2026-06-12 · 5mo ago</sub>
-
-> **[1.1.0] — 2026-06-12**
-> **Added**
-> - **GitHub Copilot CLI as a first-class target** — the same `SKILL.md` now
->   discovers, installs, and runs across GitHub Copilot CLI, Amp, and Claude Code
->   via the open Agent Skills standard. Skill Locations cover 8 discovery paths and
->   the script probe walks all of them (#30).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [feat(skill): add opt-in guided MCP setup directly in Step 0](https://github.com/virgiliojr94/book-to-skill/commit/a0fcb8cd004b017d07acf066510276311211d6a7) | virgiliojr94 |
-| 2026-11-19 | [fix(skill): clarify Search & Read onboarding UX and bare-search handling](https://github.com/virgiliojr94/book-to-skill/commit/dad950d33e91e8f29d32d3f8053c42123892dc25) | virgiliojr94 |
-| 2026-11-19 | [chore(release): v2.0.0](https://github.com/virgiliojr94/book-to-skill/commit/185936caf5781525d14c3deb08174f6d4feae4e4) | virgiliojr94 |
-| 2026-11-19 | [docs(plan): record Profile A selection for TR-LEG in v2 ledger](https://github.com/virgiliojr94/book-to-skill/commit/e5b981dc32bb63450ffbce8b5c95e861b00697bd) | virgiliojr94 |
-| 2026-11-19 | [docs(plan): record PR 4b and PR 5 completion in v2 ledger](https://github.com/virgiliojr94/book-to-skill/commit/2fe5c5d20ea49f6deaa6ec89eb0c3d86b426d5b6) | virgiliojr94 |
-| 2026-11-19 | [docs(remote): document Search & Read mode, architecture, and MCP secu…](https://github.com/virgiliojr94/book-to-skill/commit/5ab8f5614494986ca2c04532f1aa4af8c5e359e6) | virgiliojr94 |
-| 2026-11-19 | [test(remote): add offline mock MCP simulator, E2E flows, and security…](https://github.com/virgiliojr94/book-to-skill/commit/cdd50445c3f68b0d0ea88a3e8fab5e64abd51e4b) | virgiliojr94 |
-| 2026-11-19 | [feat(skill): wire incremental remote generation and provenance specs](https://github.com/virgiliojr94/book-to-skill/commit/928189080754f8ebf5ada85e76dc017e9145084b) | virgiliojr94 |
-| 2026-11-19 | [docs(plan): record PR 3 and PR 4a completion in v2 ledger](https://github.com/virgiliojr94/book-to-skill/commit/500f82a9fbd5f42c38e2eea681717ff9615204a4) | virgiliojr94 |
-| 2026-11-19 | [feat(remote): add coverage reporting and prose-free provenance metadata](https://github.com/virgiliojr94/book-to-skill/commit/efe9025eee19a61cda6d0e15a659f852bdd1b413) | virgiliojr94 |
+| 2026-11-19 | [chore(release): v2.0.1](https://github.com/virgiliojr94/book-to-skill/commit/57f3db51ff338edfd940a255b885c60ac90e40fa) | virgiliojr94 |
+| 2026-11-19 | [sec: resolve remaining high CodeQL test alerts and annotate empty exc…](https://github.com/virgiliojr94/book-to-skill/commit/c57deb8ce61d905d523b395e7d9f0071eef17d6c) | virgiliojr94 |
+| 2026-11-19 | [chore(remote): resolve v2.0.0 CodeQL alerts and exclude README.ja.md/…](https://github.com/virgiliojr94/book-to-skill/commit/be9ccf9969f4ff9158c754463cb2b952e00e0511) | virgiliojr94 |
+| 2026-11-19 | [ci: bump the github-actions group with 2 updates (#329)](https://github.com/virgiliojr94/book-to-skill/commit/b2778f3b66c269ebf9b413cfca26fe4b286e0c7c) | dependabot[bot] |
+| 2026-11-19 | [fix(pdf): match letter-spaced outline chapter headings (#347)](https://github.com/virgiliojr94/book-to-skill/commit/65f9b1decc6a3d89cdf1ff9465b7bb1705c3c30e) | wangngo |
+| 2026-11-19 | [docs: add Japanese README (#328)](https://github.com/virgiliojr94/book-to-skill/commit/be16a0ed97f8ce0ca036c74d5c392ddecab05521) | eltociear |
+| 2026-11-19 | [chore: slim archives with export-ignore and compressed docs images (#…](https://github.com/virgiliojr94/book-to-skill/commit/942033c8d4861fec369b156beb12af7e3906a21b) | blazardsky |
+| 2026-11-19 | [feat(extractor): detect Georgian (თავი) chapter headings (#325)](https://github.com/virgiliojr94/book-to-skill/commit/2ad4a8dc54fdcba3d76fe7e3b1442f09641f1c0d) | dex0shubham |
+| 2026-11-19 | [feat(extractor): detect Arabic (الفصل/الباب) chapter headings (#346)](https://github.com/virgiliojr94/book-to-skill/commit/1dd0b1541eca11b1914846af9213beaea9b2dfe1) | dex0shubham |
+| 2026-11-19 | [fix(epub): accept whitespace around XML attribute equals (#323)](https://github.com/virgiliojr94/book-to-skill/commit/5db008aa7a710206afda30760bedc58b34695076) | Stamina9 |
 
 [See all commits ↗](https://github.com/virgiliojr94/book-to-skill/commits)
 

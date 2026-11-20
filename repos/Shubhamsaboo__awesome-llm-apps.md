@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 145.1k |
+| ⭐ **Stars** | 145.2k |
 | 🍴 **Forks** | 21.4k |
-| 🐞 **Open issues + PRs** | [9](https://github.com/Shubhamsaboo/awesome-llm-apps/issues) |
+| 🐞 **Open issues + PRs** | [11](https://github.com/Shubhamsaboo/awesome-llm-apps/issues) |
 | 💻 **Languages** | Python 53% · TypeScript 19% · JavaScript 18% · HTML 7% · CSS 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `llms` `rag` `python` `agents` |
-| 🕒 **Last activity** | 2026-11-18 (yesterday) |
+| 🕒 **Last activity** | 2026-11-18 (2d ago) |
 | 📅 **Created** | 2024-04-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 169.3k |
+| ⭐ **Stars** | 169.5k |
 | 🍴 **Forks** | 27.5k |
-| 🐞 **Open issues + PRs** | [255](https://github.com/msitarzewski/agency-agents/issues) |
+| 🐞 **Open issues + PRs** | [275](https://github.com/msitarzewski/agency-agents/issues) |
 | 💻 **Languages** | Shell 84% · Python 15% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-09 (10d ago) |
+| 🕒 **Last activity** | 2026-11-09 (11d ago) |
 | 📅 **Created** | 2025-10-13 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

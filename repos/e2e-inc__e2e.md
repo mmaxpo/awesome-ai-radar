@@ -20,70 +20,69 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 14.0k |
-| 🍴 **Forks** | 777 |
-| 🐞 **Open issues + PRs** | [128](https://github.com/e2e-inc/e2e/issues) |
+| ⭐ **Stars** | 14.1k |
+| 🍴 **Forks** | 782 |
+| 🐞 **Open issues + PRs** | [127](https://github.com/e2e-inc/e2e/issues) |
 | 💻 **Languages** | TypeScript 99% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `e2e` `e2e-testing` `end-to-end-testing` `mobile` `mobile-testing` `playwright` `web` `ai-testing` `automation-testing` `qa` `test-automation` `testing` `testing-framework` `testing-tools` `ui-testing` `agentic-testing` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-07-22 |
-| 📦 **Latest release** | [@e2e-dev/testmu@0.0.5](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/testmu%400.0.5) — 2026-11-13 |
+| 📦 **Latest release** | [@e2e-dev/revyl@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/revyl%400.0.1) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 120.3 MB |
+| 💾 **Size** | 122.4 MB |
 | 🌐 **Website** | https://e2e.com |
 
 ## 📦 Recent releases
 
-### [@e2e-dev/testmu@0.0.5](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/testmu%400.0.5)
-<sub>2026-11-13 · 6d ago</sub>
+### [@e2e-dev/revyl@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/revyl%400.0.1)
+<sub>2026-11-19 · today</sub>
 
 > **Patch Changes**
-> - [#1735](https://github.com/e2e-inc/e2e/pull/1735) [`16ff228`](https://github.com/e2e-inc/e2e/commit/16ff228576b0c5959d96450a626faafd580bdc75) Thanks [@gronxb](https://github.com/gronxb)! - Update agent-device to 0.21.37. Without `device`, the iOS pool no longer picks a paired iPhone that is not connected: agent-device now lists a phone whose CoreDevice tunnel is unavailable as not booted. A `device` that names such a phone fails in `prepare` with "iOS device is not ready for automation", before any test runs, instead of at app launch. A test's own swipe and scroll now skip agent-device's post-gesture wait, which 0.21.36 ignored.
-> - [#1672](https://github.com/e2e-inc/e2e/pull/1672) [`3735887`](https://github.com/e2e-inc/e2e/commit/373588756937562aa89c7dd7f7995ac6b16db972) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Move GitHub repository metadata and CLI links to e2e-inc/e2e after the organization rename. Register the MCP server as io.github.e2e-inc/e2e.
-> - [#1715](https://github.com/e2e-inc/e2e/pull/1715) [`be460ec`](https://github.com/e2e-inc/e2e/commit/be460ecd91f4790884a36127310aab0d33853903) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Redact project tool results and errors before the model or AI trace recorder reads them, and redact and bound skip reasons before reporting. Avoid repeated scanning of malformed stack frames and trailing slashes in provider API endpoints. Keep ACP forwarding errors out of HTTP responses while preserving the cause in the runner's redacted failure output.
+> - [#1958](https://github.com/e2e-inc/e2e/pull/1958) [`ad641be`](https://github.com/e2e-inc/e2e/commit/ad641beeaca6ee56a251bdc0abde8053b0b0ee7c) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Update agent-device to 0.21.39. Android taps and key presses no longer wait for global animations, and screenshots on Android and single-panel iOS simulators read rotation without an extra round trip.
+> - [#1708](https://github.com/e2e-inc/e2e/pull/1708) [`f659d64`](https://github.com/e2e-inc/e2e/commit/f659d64d80cbb484f539681a6bf72f5047854a99) Thanks [@KayaanT](https://github.com/KayaanT)! - Add `@e2e-dev/revyl`: `revyl({ app, device, osVersion })` runs mobile targets on Revyl's hosted iOS simulators and Android emulators, one device per worker slot, through agent-device's `@agent-device/revyl` plugin. Set `REVYL_API_KEY` in the run environment; Revyl installs the build from the `https` `app` URL. Needs `@e2e-dev/mobile` 0.12.8 or later.
 
-### [@e2e-dev/smol@0.1.3](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/smol%400.1.3)
-<sub>2026-11-13 · 6d ago</sub>
-
-> **Patch Changes**
-> - [#1609](https://github.com/e2e-inc/e2e/pull/1609) [`34a260c`](https://github.com/e2e-inc/e2e/commit/34a260cc59d7ebd1d414fd2716f955bd2a51795f) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Bump playwright-core to 1.65.0 and commander to 15.1.0. `fill` no longer rejects malformed date, time, color, and range values, and actions wait for an element to leave an `inert` subtree. Smol sandboxes use the Playwright 1.65.0 image.
-> - [#1672](https://github.com/e2e-inc/e2e/pull/1672) [`3735887`](https://github.com/e2e-inc/e2e/commit/373588756937562aa89c7dd7f7995ac6b16db972) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Move GitHub repository metadata and CLI links to e2e-inc/e2e after the organization rename. Register the MCP server as io.github.e2e-inc/e2e.
-
-### [@e2e-dev/limrun@0.2.5](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/limrun%400.2.5)
-<sub>2026-11-13 · 6d ago</sub>
+### [@e2e-dev/notte@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/notte%400.0.1)
+<sub>2026-11-19 · today</sub>
 
 > **Patch Changes**
-> - [#1735](https://github.com/e2e-inc/e2e/pull/1735) [`16ff228`](https://github.com/e2e-inc/e2e/commit/16ff228576b0c5959d96450a626faafd580bdc75) Thanks [@gronxb](https://github.com/gronxb)! - Update agent-device to 0.21.37. Without `device`, the iOS pool no longer picks a paired iPhone that is not connected: agent-device now lists a phone whose CoreDevice tunnel is unavailable as not booted. A `device` that names such a phone fails in `prepare` with "iOS device is not ready for automation", before any test runs, instead of at app launch. A test's own swipe and scroll now skip agent-device's post-gesture wait, which 0.21.36 ignored.
-> - [#1672](https://github.com/e2e-inc/e2e/pull/1672) [`3735887`](https://github.com/e2e-inc/e2e/commit/373588756937562aa89c7dd7f7995ac6b16db972) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Move GitHub repository metadata and CLI links to e2e-inc/e2e after the organization rename. Register the MCP server as io.github.e2e-inc/e2e.
-> - [#1663](https://github.com/e2e-inc/e2e/pull/1663) [`322f00e`](https://github.com/e2e-inc/e2e/commit/322f00e55d8b2c8f834c150d5d239873bdad1daa) Thanks [@KrzysztofMoch](https://github.com/KrzysztofMoch)! - A Limrun device lease no longer names an agent-device `session` in its client configuration, which `@e2e-dev/mobile` rejected with `ENGINE_FAILURE` ("returned a lease without an id and a daemon baseUrl or JSON client configuration") before any test or session could start. The provider still allocates and renews the lease under its own session.
+> - [#1726](https://github.com/e2e-inc/e2e/pull/1726) [`9602daa`](https://github.com/e2e-inc/e2e/commit/9602daa9602444673b99ef6aaa33c67a81cb2f0b) Thanks [@andreakiro](https://github.com/andreakiro)! - New package: `notte()`, a browser provider that runs each test attempt in its own [Notte](https://notte.cc) cloud browser session, stops it when the attempt ends, reads `browser.waitForDownload` files back from the session's storage, and stops the sessions of workers that died when the run ends. [Notte browsers](https://e2e.com/docs/integrations/notte)
 
-### [@e2e-dev/lightpanda@0.0.2](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/lightpanda%400.0.2)
-<sub>2026-11-13 · 6d ago</sub>
+### [@e2e-dev/moli@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/moli%400.0.1)
+<sub>2026-11-19 · today</sub>
 
 > **Patch Changes**
-> - [#1672](https://github.com/e2e-inc/e2e/pull/1672) [`3735887`](https://github.com/e2e-inc/e2e/commit/373588756937562aa89c7dd7f7995ac6b16db972) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Move GitHub repository metadata and CLI links to e2e-inc/e2e after the organization rename. Register the MCP server as io.github.e2e-inc/e2e.
+> - [#1843](https://github.com/e2e-inc/e2e/pull/1843) [`29a0261`](https://github.com/e2e-inc/e2e/commit/29a0261775fc362aa26e7ea0fe53e671c864dbc1) Thanks [@ldm0](https://github.com/ldm0)! - Add `moli()` for `web({ browser: moli() })`. Each worker gets a local Moli CDP server with layout and resources enabled, automatic port selection, startup cancellation, and process cleanup when its lease ends.
 
-### [@e2e-dev/kernel@0.2.2](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/kernel%400.2.2)
-<sub>2026-11-13 · 6d ago</sub>
+### [@e2e-dev/testmu@0.0.6](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/testmu%400.0.6)
+<sub>2026-11-19 · today</sub>
 
 > **Patch Changes**
-> - [#1672](https://github.com/e2e-inc/e2e/pull/1672) [`3735887`](https://github.com/e2e-inc/e2e/commit/373588756937562aa89c7dd7f7995ac6b16db972) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Move GitHub repository metadata and CLI links to e2e-inc/e2e after the organization rename. Register the MCP server as io.github.e2e-inc/e2e.
+> - [#1859](https://github.com/e2e-inc/e2e/pull/1859) [`e65091b`](https://github.com/e2e-inc/e2e/commit/e65091bbe10b00860ec6240336b57933a7ce65f7) Thanks [@kdy1](https://github.com/kdy1)! - Update agent-device to 0.21.38. Opening an app now waits for the app's first screen before the first capture, and on Android a relaunch accepts a package that Android restarts at once. On iOS, `device.back()` presses the navigation bar's back button when there is one, keyboard dismiss and enter have a bounded idle wait, and agent-device establishes the screen origin of a full-screen private accessibility root.
+> - [#1958](https://github.com/e2e-inc/e2e/pull/1958) [`ad641be`](https://github.com/e2e-inc/e2e/commit/ad641beeaca6ee56a251bdc0abde8053b0b0ee7c) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Update agent-device to 0.21.39. Android taps and key presses no longer wait for global animations, and screenshots on Android and single-panel iOS simulators read rotation without an extra round trip.
+> - [#1708](https://github.com/e2e-inc/e2e/pull/1708) [`f659d64`](https://github.com/e2e-inc/e2e/commit/f659d64d80cbb484f539681a6bf72f5047854a99) Thanks [@KayaanT](https://github.com/KayaanT)! - `@e2e-dev/mobile/lease` adds `agentDevicePlugin(entry)`, which checks a provider plugin's version against the engine's agent-device and registers it in a lease daemon's home; `@e2e-dev/testmu` now uses it and needs `@e2e-dev/mobile` 0.12.8 or later. A lease's `device` selector is used to allocate it and no longer goes on the worker's client, since the lease scope already picks the device.
+
+### [@e2e-dev/smol@0.1.4](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/smol%400.1.4)
+<sub>2026-11-19 · today</sub>
+
+> **Patch Changes**
+> - [#1785](https://github.com/e2e-inc/e2e/pull/1785) [`ceaea64`](https://github.com/e2e-inc/e2e/commit/ceaea64ceead09d0a0f8cb5b384ef0d9ffac23a1) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Bump playwright-core to 1.65.1 and `@ai-sdk/provider` to 4.0.38. Smol sandboxes use the Playwright 1.65.1 image.
+> - [#1965](https://github.com/e2e-inc/e2e/pull/1965) [`60d29cf`](https://github.com/e2e-inc/e2e/commit/60d29cfe4c9d88b00659e0d0e00b8973d61e7391) Thanks [@szymonrybczak](https://github.com/szymonrybczak)! - List the maintainers' `@e2e.com` addresses in `contributors`.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [chore(skills): hide vendored skills on skills.sh and group the public…](https://github.com/e2e-inc/e2e/commit/624636d05d6c205d8d136c99567783f5c1833a52) | KrzysztofMoch |
-| 2026-11-19 | [feat(mcp)!: remove the run_tests tool (#1967)](https://github.com/e2e-inc/e2e/commit/0e9d58ec98dd4522929766c533f8078239fa72f9) | okwasniewski |
-| 2026-11-19 | [feat(cli): pause at screen.pause() under --watch (#1905)](https://github.com/e2e-inc/e2e/commit/34322c54165a214d8c65d8a10e09b788b7cbc382) | satya164 |
-| 2026-11-19 | [chore: move the conduct and contributor emails to e2e.com (#1965)](https://github.com/e2e-inc/e2e/commit/60d29cfe4c9d88b00659e0d0e00b8973d61e7391) | szymonrybczak |
-| 2026-11-19 | [fix(oauth): send the e2e User-Agent on sign-in and token requests (#1…](https://github.com/e2e-inc/e2e/commit/34b52baa0d0595827a18158d788ab9b73b791019) | Jaaneek |
-| 2026-11-19 | [feat: add screen.pause() (#1904)](https://github.com/e2e-inc/e2e/commit/4893d1dd7574a6661363bc43e33b335f40be667c) | satya164 |
-| 2026-11-19 | [fix(cache): read a clock time written as 5:42pm as volatile (#1955)](https://github.com/e2e-inc/e2e/commit/f3cd0321048ee73aae6464599473cb62b130341a) | JaynouOliver |
-| 2026-11-19 | [refactor(run): generalize the --step hold path (#1901)](https://github.com/e2e-inc/e2e/commit/759d1fc260e5c5f6fc7a7eff01d482c12849904b) | satya164 |
-| 2026-11-19 | [docs(examples): list a local Moli sign-in example (#1944)](https://github.com/e2e-inc/e2e/commit/ae36939a85a7537655b3032a40fecd704e2a9c56) | ldm0 |
-| 2026-11-19 | [docs(es): translate the getting-started and platform pages (#1932)](https://github.com/e2e-inc/e2e/commit/aa5190bcd8b5f9b067509e177613aa77c928a261) | kblok |
+| 2026-11-20 | [docs(fr): translate the getting-started pages (#1980)](https://github.com/e2e-inc/e2e/commit/1b007d4d7b257d80c6a2084eaf5dba1217325e04) | azizbecha |
+| 2026-11-20 | [docs(ja): fix mistranslations (#1991)](https://github.com/e2e-inc/e2e/commit/b25bb45a7d289ec7c6fbe3aaf7933f4565dc7870) | kazutoyo |
+| 2026-11-20 | [docs(hi): translate the Features pages (#1986)](https://github.com/e2e-inc/e2e/commit/313246376b074bb5f26909926f4fe1490a1a07d6) | samanyudas |
+| 2026-11-20 | [docs(ja): unify terminology (#1992)](https://github.com/e2e-inc/e2e/commit/9e4e6d3df7215b21d821b6ac0028e01d7c85983c) | kazutoyo |
+| 2026-11-20 | [docs(ja): rewrite the mobile page for clarity (#1989)](https://github.com/e2e-inc/e2e/commit/f02a97218040fca1d757dfb5109aa92507dfe18d) | kazutoyo |
+| 2026-11-20 | [fix(core): count a locator's waitedMs from where its deadline starts …](https://github.com/e2e-inc/e2e/commit/991b522830e2c5ede57d4d2f92b2fbb87a9a20ba) | okwasniewski |
+| 2026-11-20 | [ci(pr-size): leave translated docs out of the size label (#2000)](https://github.com/e2e-inc/e2e/commit/71d24a527ead2b775d2d1e897b4d70c634d8bc58) | okwasniewski |
+| 2026-11-20 | [docs(ja): catch up with English changes (#1987)](https://github.com/e2e-inc/e2e/commit/4d30f71647d3bc894550df7c7df123ba0b993444) | kazutoyo |
+| 2026-11-20 | [fix(web): launch Chromium with its sandbox on where it can start (#1621)](https://github.com/e2e-inc/e2e/commit/a06b931b8d51b693760f9db34781192eb676e603) | Varshith-Kali |
+| 2026-11-20 | [docs(ja,zh): stop the Security card promising that secrets stay out o…](https://github.com/e2e-inc/e2e/commit/3e25963f4387e0a26bf172a2b8a113569b7f6af3) | samanyudas |
 
 [See all commits ↗](https://github.com/e2e-inc/e2e/commits)
 

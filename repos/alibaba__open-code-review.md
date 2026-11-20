@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 54.3k |
+| ⭐ **Stars** | 54.5k |
 | 🍴 **Forks** | 4.5k |
 | 🐞 **Open issues + PRs** | [338](https://github.com/alibaba/open-code-review/issues) |
 | 💻 **Languages** | Go 70% · JavaScript 12% · TypeScript 10% · Kotlin 5% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-05-18 |
 | 📦 **Latest release** | [v1.13.13](https://github.com/alibaba/open-code-review/releases/tag/v1.13.13) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.13.13](https://github.com/alibaba/open-code-review/releases/tag/v1.13.13)
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > **🚀 Features**
 > - feat(pages): link the leaderboard to AACR-Bench (#1995)
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.13.12](https://github.com/alibaba/open-code-review/releases/tag/v1.13.12)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): add contact link to website footer (#1975)
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.13.11](https://github.com/alibaba/open-code-review/releases/tag/v1.13.11)
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **🚀 Features**
 > - feat(session): filter listed sessions by branch (#1702)
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.13.10](https://github.com/alibaba/open-code-review/releases/tag/v1.13.10)
-<sub>2026-11-15 · 4d ago</sub>
+<sub>2026-11-15 · 5d ago</sub>
 
 > **🚀 Features**
 > - feat(review): default --to to HEAD when only --from is given (#1936)
@@ -79,7 +79,7 @@
 > **Full Changelog**: https://github.com/alibaba/open-code-review/compare/v1.13.9...v1.13.10
 
 ### [v1.13.9](https://github.com/alibaba/open-code-review/releases/tag/v1.13.9)
-<sub>2026-11-13 · 6d ago</sub>
+<sub>2026-11-13 · 7d ago</sub>
 
 > **🚀 Features**
 > - feat(manifest): record excluded files in run coverage (#1901)
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [fix(pages): recover partial-locale fallback and fragment navigation (…](https://github.com/alibaba/open-code-review/commit/5a6f77ccd1540ed4e80c06490a696543e507d3e4) | wzxsdf |
+| 2026-11-20 | [docs(review-rules): explain specification-aware reviews (#2006)](https://github.com/alibaba/open-code-review/commit/5a8c1cb8efd6576f5341a198093ef83dfb837e6c) | wzxsdf |
+| 2026-11-20 | [docs(cli): sync severity ordering across translations (#2015)](https://github.com/alibaba/open-code-review/commit/64412461890e13da344c0d099195c844d0af38b4) | lizhengfeng101 |
+| 2026-11-20 | [feat(cli): order review and scan findings by severity (#2003)](https://github.com/alibaba/open-code-review/commit/8648ee2a095d50a91e1bd46e56883ed2cfd0f035) | lizhengfeng101 |
 | 2026-11-19 | [perf(viewer): avoid copying owned JSONL records (#1967)](https://github.com/alibaba/open-code-review/commit/a74bcbbd4975eb3a92493d5eb537cf276d79b322) | Afloat16 |
 | 2026-11-19 | [fix(gitlab_ci): stop posting a check-mark LGTM on a failed review (#1…](https://github.com/alibaba/open-code-review/commit/37ff30759815613ac29d76a68d8932f2781ba113) | gengwg |
 | 2026-11-19 | [feat(rules): add SQL review rules (#1941)](https://github.com/alibaba/open-code-review/commit/55b4b311d6b7dacf9798fa63a4780386db1e5bf3) | mvanhorn |
 | 2026-11-19 | [feat(rules): add Dhall review rules (#963)](https://github.com/alibaba/open-code-review/commit/b87ca79fbfb1b9efdd86c79dcf4977ebf91bedea) | chethanuk |
 | 2026-11-19 | [feat(rules): add Ruby review rules (#1940)](https://github.com/alibaba/open-code-review/commit/817ed02d7b1917ec6a36630d926af34661af9b97) | mvanhorn |
 | 2026-11-19 | [feat(allowlist): add CUDA (.cu/.cuh) and HIP (.hip) review support (#…](https://github.com/alibaba/open-code-review/commit/1363b96552c0a9bda86bcd0ba5b61a2d668c51dd) | SU-AN-coder |
-| 2026-11-19 | [fix(llmloop): reserve complete compression context budget (#1993)](https://github.com/alibaba/open-code-review/commit/445ad9dea3057346986197385858a1a281253cc9) | lizhengfeng101 |
-| 2026-11-18 | [fix(chatgptauth): drain OAuth callback responses before closing (#1996)](https://github.com/alibaba/open-code-review/commit/5d6552adafb6cbedfb54793214b777cd134dc97b) | lizhengfeng101 |
-| 2026-11-18 | [feat(pages): link the leaderboard to AACR-Bench (#1995)](https://github.com/alibaba/open-code-review/commit/d56d7a4cf6cc3f0869a75b07bcf85cd82c9c83ef) | lizhengfeng101 |
-| 2026-11-18 | [perf(pages): lazy-load documentation content by language (#1992)](https://github.com/alibaba/open-code-review/commit/8f9ce54026cf2d08feb989a40d5f8de1ba89e6e4) | wzxsdf |
 
 [See all commits ↗](https://github.com/alibaba/open-code-review/commits)
 

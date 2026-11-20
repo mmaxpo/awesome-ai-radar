@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 17.5k |
-| 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [685](https://github.com/cursor/plugins/issues) |
+| ⭐ **Stars** | 17.7k |
+| 🍴 **Forks** | 2.0k |
+| 🐞 **Open issues + PRs** | [688](https://github.com/cursor/plugins/issues) |
 | 💻 **Languages** | TypeScript 89% · TLA 3% · JavaScript 3% · Mermaid 2% · Shell 2% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-01-23 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.7 MB |
+| 💾 **Size** | 18.8 MB |
 
 ## 📦 Recent releases
 
@@ -40,16 +40,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Merge pull request #1299 from cursor/djiang/front-drop-scopes-only-auth](https://github.com/cursor/plugins/commit/aaeb0ea3a0584995aa8f55ce44c6c5259414b896) | djiang-jq |
+| 2026-11-20 | [fix(front): drop the scopes-only auth block from mcp.json](https://github.com/cursor/plugins/commit/95867733dade2e235498ea38cf3a80dc9f675fb9) | djiang-jq |
+| 2026-11-20 | [Merge pull request #1295 from djiang-jq/djiang/front-no-credentials](https://github.com/cursor/plugins/commit/fbb86c09bbb4a25e490aaed136899ced1e9140e4) | djiang-jq |
+| 2026-11-20 | [feat(front): drop the Front client credential fields](https://github.com/cursor/plugins/commit/bdbb503c002188f2136b633b1b30c6be32701244) | djiang-jq |
+| 2026-11-19 | [fix(pstack): run /statechart on native Windows and read TLC's \r\n li…](https://github.com/cursor/plugins/commit/0b46ec399d55f2829e88822998f53b84944837d3) | poteto |
+| 2026-11-19 | [chore(pstack): run the Gemini panel seat at gemini-4-neon-xhigh (#1284)](https://github.com/cursor/plugins/commit/dd24b6707267cd89c6621c4efc6fa91a1d0666ec) | poteto |
+| 2026-11-19 | [Merge pull request #1291 from djiang-jq/djiang/intuit-quickbooks](https://github.com/cursor/plugins/commit/50b3a3234bf2e0293849a48784d72030948e44ee) | djiang-jq |
+| 2026-11-19 | [feat(quickbooks-online): rename to Intuit QuickBooks, refresh descrip…](https://github.com/cursor/plugins/commit/171fccb04d6d5265d9c5aa213ae2a984ba5089bb) | djiang-jq |
 | 2026-11-19 | [chore(pstack): route the Gemini seat to Gemini 4 Neon (#1283)](https://github.com/cursor/plugins/commit/e58dd043600587dbaf58ba315e7f2b38373eeb43) | poteto |
 | 2026-11-18 | [Merge pull request #1269 from cursor/add-hospitable-plugin](https://github.com/cursor/plugins/commit/35a90942a7f02e1ebbc2443643179815f2147954) | rshah2020 |
-| 2026-11-18 | [feat(third_party): add the LMTY plugin](https://github.com/cursor/plugins/commit/d823b2d9726c7493497e28d88413d256d0ec6e9d) | rshah2020 |
-| 2026-11-18 | [Merge pull request #1275 from cursor/add-fiscal-ai-plugin](https://github.com/cursor/plugins/commit/5692c3d88a42576f3b21bf09e628de719af50885) | rshah2020 |
-| 2026-11-18 | [Merge branch 'main' into add-fiscal-ai-plugin](https://github.com/cursor/plugins/commit/384549785d47c657bbcdcce145c15d54708fc8d4) | rshah2020 |
-| 2026-11-18 | [Merge pull request #1262 from cursor/add-createos-plugin](https://github.com/cursor/plugins/commit/244c4764ce01174fb832062e4d7e06ea8c407a33) | rshah2020 |
-| 2026-11-18 | [Merge branch 'main' into add-fiscal-ai-plugin](https://github.com/cursor/plugins/commit/603ac527b8b8abbbca103c4f0ef21213f10aaf4b) | rshah2020 |
-| 2026-11-18 | [feat(third_party): add the CreateOS plugin](https://github.com/cursor/plugins/commit/47c419d4a026de84db4c9c64a23fd768d303148a) | rshah2020 |
-| 2026-11-18 | [Merge pull request #1263 from cursor/add-hq-plugin](https://github.com/cursor/plugins/commit/e27df34c5406709ab0dc26213794ae88daf6119c) | rshah2020 |
-| 2026-11-18 | [feat(third_party): add the Fiscal.ai plugin](https://github.com/cursor/plugins/commit/4fed385fd5b22ee095bb0aaa05fff59fdab9ccdb) | rshah2020 |
 
 [See all commits ↗](https://github.com/cursor/plugins/commits)
 

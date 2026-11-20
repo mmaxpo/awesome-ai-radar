@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 79.6k |
+| ⭐ **Stars** | 79.7k |
 | 🍴 **Forks** | 14.2k |
 | 🐞 **Open issues + PRs** | [68](https://github.com/rohitg00/ai-engineering-from-scratch/issues) |
 | 💻 **Languages** | Python 38% · JavaScript 27% · TypeScript 17% · HTML 9% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `ai-engineering` `computer-vision` `course` `deep-learning` `from-scratch` `generative-ai` `llm` `machine-learning` `mcp` `python` `reinforcement-learning` `rust` `transformers` `tutorial` `typescript` `rea` `dsh` |
-| 🕒 **Last activity** | 2026-11-18 (yesterday) |
+| 🕒 **Last activity** | 2026-11-18 (2d ago) |
 | 📅 **Created** | 2026-03-18 |
 | 📦 **Latest release** | [v2026.11.4](https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.11.4) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2026.11.4](https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.11.4) — Edition 2026.11.4: LangChain 101 and a One-Click Lesson Start
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > Build, run, persist, and debug agents with LangChain, and know what each choice costs. This edition adds LangChain 101, a manual where every claim rests on a recorded run, and a home page that gets you into a lesson in one click.
 > [Start learning](https://aiengineeringfromscratch.com) · [LangChain 101](https://aiengineeringfromscratch.com/manual-langchain-101.html) · [All manuals](https://aiengineeringfromscratch.com/manuals.html)
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.11.3](https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.11.3) — Edition 2026.11.3: Agent Substrate 101 and Clean Lesson URLs
-<sub>2026-11-13 · 6d ago</sub>
+<sub>2026-11-13 · 7d ago</sub>
 
 > Run stateful agents on Kubernetes with numbers you can check. This edition adds Agent Substrate 101, a manual built from 24 recorded experiments, and moves every course lesson to a short, readable URL.
 > [Start learning](https://aiengineeringfromscratch.com) · [Agent Substrate 101](https://aiengineeringfromscratch.com/manual-agent-substrate-101.html) · [All manuals](https://aiengineeringfromscratch.com/manuals.html)
@@ -58,7 +58,7 @@
 > …
 
 ### [v2026.11.2](https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.11.2) — Edition 2026.11.2: Lessons in Five Languages
-<sub>2026-11-09 · 9d ago</sub>
+<sub>2026-11-09 · 10d ago</sub>
 
 > Read each lesson in the language you use at work. This edition adds TypeScript ports to most lessons, and Rust, Julia and Go ports to the lessons where each of those languages is the right tool.
 > [Start learning](https://aiengineeringfromscratch.com) · [Catalog](https://aiengineeringfromscratch.com/catalog.html) · [Interviews](https://aiengineeringfromscratch.com/interviews)
@@ -69,7 +69,7 @@
 > …
 
 ### [v2026.11.1](https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.11.1) — Edition 2026.11.1: Interview Bank and Incident Scenarios
-<sub>2026-11-03 · 15d ago</sub>
+<sub>2026-11-03 · 16d ago</sub>
 
 > Practise for AI engineering interviews against the course itself. This edition adds an interview bank of 482 questions and 60 measured incident scenarios, a mock interview skill, and code blocks rendered at build time.
 > [Interviews](https://aiengineeringfromscratch.com/interviews) · [Scenarios](https://aiengineeringfromscratch.com/interviews/scenarios) · [Skills](https://aiengineeringfromscratch.com/skills.html) · [Start learning](https://aiengineeringfromscratch.com)
@@ -80,7 +80,7 @@
 > …
 
 ### [v2026.10.5](https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.10.5) — Edition 2026.10.5: Lesson Screen, vLLM 101, and Miles 101
-<sub>2026-10-29 · 20d ago</sub>
+<sub>2026-10-29 · 21d ago</sub>
 
 > Learn beside your terminal, read two new hardware manuals, and practise every lesson. This edition adds the lesson screen for agent tutors, vLLM 101 and Miles 101, 47 practice tasks, and two new inside-the-machine pages.
 > [Start learning](https://aiengineeringfromscratch.com) · [Skills](https://aiengineeringfromscratch.com/skills.html) · [Manuals](https://aiengineeringfromscratch.com/manuals.html) · [Practice](https://aiengineeringfromscratch.com/practice)

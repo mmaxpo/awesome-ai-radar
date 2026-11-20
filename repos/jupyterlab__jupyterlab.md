@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 89% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 312.1 MB |
+| 💾 **Size** | 312.2 MB |
 | 🌐 **Website** | https://jupyterlab.readthedocs.io/ |
 
 ## 📦 Recent releases
 
 ### [v4.7.0b2](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b2) _(pre-release)_
-<sub>2026-11-16 · 2d ago</sub>
+<sub>2026-11-16 · 3d ago</sub>
 
 > **4.7.0b2**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b1...7e75a1f85fb7ee7f07c7301f7c4f69c1fb7d7618))
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.7.0b1](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b1) _(pre-release)_
-<sub>2026-11-06 · 12d ago</sub>
+<sub>2026-11-06 · 13d ago</sub>
 
 > **4.7.0b1**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b0...ca6210d371e287beb3735824a931824cc0048125))
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.6.5](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.5)
-<sub>2026-10-29 · 20d ago</sub>
+<sub>2026-10-29 · 21d ago</sub>
 
 > **4.6.5**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.4...9f5590d07b9a63402a628fe758654f30ee59c2e4))
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 21d ago</sub>
+<sub>2026-10-28 · 22d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Prevent overwriting directories and avoid duplicate save on Save As (…](https://github.com/jupyterlab/jupyterlab/commit/adcb6f8af341909efb4af6743f4e0f31025d562a) | Yash990-bit |
+| 2026-11-20 | [Queue console execution during startup (#19148)](https://github.com/jupyterlab/jupyterlab/commit/c6461383200fd3e83c88aa139f4651d104292949) | MUFFANUJ |
 | 2026-11-19 | [Bump xterm.js to 6.1.0 beta to fix Option key on macOS (#20033)](https://github.com/jupyterlab/jupyterlab/commit/d9b9ce566e2e35135f886a1ea812baaafd488c14) | Darshan808 |
 | 2026-11-18 | [Fix untranslated "Find..." in the JSON file viewer (#20542)](https://github.com/jupyterlab/jupyterlab/commit/0d5e83530197cee73b15a11d2c2c29b168db6065) | krassowski |
 | 2026-11-18 | [Fix passing sanitizer options to the completer in consoles (#20535)](https://github.com/jupyterlab/jupyterlab/commit/e2dcd573775358e0db355b8adc5d3f718c13cf31) | krassowski |
@@ -102,8 +104,6 @@
 | 2026-11-17 | [Improve licence metadata (PEP 639) (#19461)](https://github.com/jupyterlab/jupyterlab/commit/617424813d354875df90dc7bf93bad891755e403) | mwtoews |
 | 2026-11-17 | [Fix cell-ID navigation in restored background notebooks (#20433)](https://github.com/jupyterlab/jupyterlab/commit/67271b0d5b849a5f8ade55fd04ee0db5abc73b33) | MUFFANUJ |
 | 2026-11-17 | [Add dialog when toggling Show All Kernel Activity on (#20326)](https://github.com/jupyterlab/jupyterlab/commit/285087bb6852b06c0ce087e6d1a49e8a805aacaa) | Carreau |
-| 2026-11-17 | [Bump `jupyter-builder` to v1.3.0 (#20522)](https://github.com/jupyterlab/jupyterlab/commit/46d7c5d37adc9249baf767d3484674485b7a2e61) | Darshan808 |
-| 2026-11-17 | [Bump `@jupyter/eslint-plugin` to 1.5.0 (#20521)](https://github.com/jupyterlab/jupyterlab/commit/d2801ea64904a5f5984def16fbaa9ace34c39995) | Darshan808 |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

@@ -26,7 +26,7 @@
 | 💻 **Languages** | C 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `usb-host` `usb-device` `usb` `cdc` `hid` `uvc` `uac` `dfu` `ehci` `hub` `rndis` `musb` `dwc2` `xhci` `cherryusb` `cdns2` `cdns3` `ohci` |
-| 🕒 **Last activity** | 2026-11-18 (yesterday) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2021-07-10 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/cherry-embedded/CherryUSB/releases/tag/v1.6.1) — 2026-04-27 |
 | 🌿 **Default branch** | `master` |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [add(port/wch): add wch usbss device controller port](https://github.com/cherry-embedded/CherryUSB/commit/b518afb1475d9de4b019e2e6c7664a1a4f2d899a) | Links0617 |
 | 2026-11-18 | [fix(security): check qh urb valid](https://github.com/cherry-embedded/CherryUSB/commit/7835d108baea5190f84060337bdb110810c1c7c1) | sakumisu |
 | 2026-11-18 | [fix(security): fix ep0 setup competition issue](https://github.com/cherry-embedded/CherryUSB/commit/962339a3d3c6619881c9c67379680e7b66dc21c3) | sakumisu |
 | 2026-11-18 | [update(class): free class immediately in xxx_connect when return error](https://github.com/cherry-embedded/CherryUSB/commit/62c3ff3c07b79dafbbd3dfaf0a354b9e718e31aa) | sakumisu |
@@ -103,7 +104,6 @@
 | 2026-11-09 | [update(port/dwc2): adjust register macros order](https://github.com/cherry-embedded/CherryUSB/commit/692e0697c5a60534fb2b8a2edff9a4a4c2f6edba) | sakumisu |
 | 2026-11-08 | [fix(ci): fix ci new build](https://github.com/cherry-embedded/CherryUSB/commit/6081dee3f7acdeb2d920b163148909f36acec4a9) | sakumisu |
 | 2026-11-08 | [feat(port/dwc2): support dwc2 dev desc dma mode](https://github.com/cherry-embedded/CherryUSB/commit/890a9403754ad069975293fa9e6707e8e1ca8630) | sakumisu |
-| 2026-11-08 | [fix(ci): fix iperf last return](https://github.com/cherry-embedded/CherryUSB/commit/cffeac73323c8ca2e1ae9335e5fe35c498cccbb6) | sakumisu |
 
 [See all commits ↗](https://github.com/cherry-embedded/CherryUSB/commits)
 

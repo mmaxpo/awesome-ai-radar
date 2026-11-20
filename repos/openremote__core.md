@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.2k |
-| 🍴 **Forks** | 525 |
-| 🐞 **Open issues + PRs** | [500](https://github.com/openremote/core/issues) |
+| 🍴 **Forks** | 527 |
+| 🐞 **Open issues + PRs** | [502](https://github.com/openremote/core/issues) |
 | 💻 **Languages** | Java 48% · TypeScript 26% · Groovy 19% · Shell 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `iot-platform` `iot` `energy` `building` `mqtt` `smartcity` `dashboard` `asset-management` `mqtt-broker` `dataplatform` `rules-engine` `fleet-management` `energy-monitor` `energy-management` `fleet-telematics` `device-management` `edge-computing` `iot-application` `modbus` `ota-update` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2016-02-03 |
 | 📦 **Latest release** | [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 304.4 MB |
+| 💾 **Size** | 304.2 MB |
 | 🌐 **Website** | https://openremote.io |
 
 ## 📦 Recent releases
 
 ### [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1)
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **What's Changed**
 > **🐞 Bug fixes**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0)
-<sub>2026-11-06 · 13d ago</sub>
+<sub>2026-11-06 · 14d ago</sub>
 
 > > [!NOTE]
 > > We have also recently published a new `openremote/keycloak` release, version `26.7.5.0`, that introduces a new UI design!
@@ -58,7 +58,7 @@
 > …
 
 ### [1.33.0](https://github.com/openremote/core/releases/tag/1.33.0)
-<sub>2026-10-27 · 23d ago</sub>
+<sub>2026-10-27 · 24d ago</sub>
 
 > **⚠️  Important notes / Before you upgrade ⚠️**
 > - **Minor behavior changes in datapoint query requests.**
@@ -69,7 +69,7 @@
 > …
 
 ### [1.32.2](https://github.com/openremote/core/releases/tag/1.32.2)
-<sub>2026-10-21 · 29d ago</sub>
+<sub>2026-10-21 · 1mo ago</sub>
 
 > **What's Changed**
 > **🔒 Security updates**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Bump artemis from 2.55.0 to 2.57.0 (#3529)](https://github.com/openremote/core/commit/68ec88625c1a5f463a7360158e575257de088051) | dependabot[bot] |
+| 2026-11-20 | [Bump ubi10/openjdk-21-runtime in /manager (#3597)](https://github.com/openremote/core/commit/fd65895a350753e7a162d9965c925d463f8b35dc) | dependabot[bot] |
+| 2026-11-19 | [Add configuration template import and export (#3380)](https://github.com/openremote/core/commit/9cab6cac24a30cc0a257f150bb46c1f24e0114d4) | Ekhorn |
+| 2026-11-19 | [Upgrade OpenJDK in manager image for CVE-2026-114938 (#3592)](https://github.com/openremote/core/commit/ddf84ad507bebadac6be4c8721adcbcf85e112eb) | Ekhorn |
 | 2026-11-19 | [Bump actions/setup-java from 6.2.0 to 6.3.0 in /.github/actions/get-v…](https://github.com/openremote/core/commit/e8fdef3c4e2e7ac6790ac75a17f3ccb1d1c5f28d) | dependabot[bot] |
 | 2026-11-19 | [Bump actions/setup-java from 6.2.0 to 6.3.0 (#3584)](https://github.com/openremote/core/commit/8187046cb5b8558131ef823632520e05a98cd3cc) | dependabot[bot] |
 | 2026-11-17 | [Fix event subscriptions stopping after a reconnect (#3548)](https://github.com/openremote/core/commit/1b72bf4db4c9d73f5f9680b5d9836a5850bfbe23) | Ekhorn |
 | 2026-11-17 | [Pin browser test jobs to Ubuntu 24.04 (#3581)](https://github.com/openremote/core/commit/f74263478375d8cc4627bceffb59175e5a2c3f30) | Ekhorn |
 | 2026-11-16 | [Bump ubi10/openjdk-21-runtime in /manager (#3572)](https://github.com/openremote/core/commit/6d46b473d353533ccfc3938956eed145a134f2d8) | dependabot[bot] |
 | 2026-11-16 | [Fix blank page when a startup request fails (#3549)](https://github.com/openremote/core/commit/53afd942e29c8d5882eb850cba509e8a76abc08c) | Ekhorn |
-| 2026-11-13 | [Remove Balena files (#3570)](https://github.com/openremote/core/commit/c7652131fe2b36f7b4341a0d8a20a94fc8107667) | denniskuijs |
-| 2026-11-11 | [Migrate JSONSchemaUtil snapshot tests to spock snapshot (#3220)](https://github.com/openremote/core/commit/1ee1ed7db8d09d45b8865a3e85eb5fa2be4604f1) | Ekhorn |
-| 2026-11-10 | [Bump actions/setup-java from 6.1.0 to 6.2.0 in /.github/actions/get-v…](https://github.com/openremote/core/commit/14f389eae677421400084d1589cd548c3cb66ca4) | dependabot[bot] |
-| 2026-11-10 | [Align Gradle root project name with repository (#3559)](https://github.com/openremote/core/commit/a239f2988ebb010b5fb9806f249216a5b4ae2982) | wborn |
 
 [See all commits ↗](https://github.com/openremote/core/commits)
 

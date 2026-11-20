@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 1.1k |
-| 🍴 **Forks** | 120 |
-| 🐞 **Open issues + PRs** | [16](https://github.com/ancsemi/Haven/issues) |
+| ⭐ **Stars** | 1.2k |
+| 🍴 **Forks** | 121 |
+| 🐞 **Open issues + PRs** | [17](https://github.com/ancsemi/Haven/issues) |
 | 💻 **Languages** | JavaScript 80% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.6 MB |
+| 💾 **Size** | 23.3 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
+### [v4.30.0-beta.3](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.3) — Haven 4.30.0-beta.3 _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
+> New since 4.30.0-beta.2:
+> **Added**
+> - More profile customization (thanks Bo0sted, #5900): pick a banner color in Edit Profile or let it follow your avatar, upload and crop a banner picture (with its own size limit in Uploads & Limits), and give your profile card a two-color theme it fades between.
+> - Call settings everywhere (thanks Roolk, #5903): Settings has a new Voice & video page with every call setting, usable without joining a call, plus Test microphone (with Hear myself) and Test camera. The fullscreen call popup shows the same full set of settings instead of three dropdowns.
+> - The quick reaction row leads with your favorites, then the reactions you use most, then the usual defaults (thanks Amnibro, #5902). A row you customized still wins, and its editor has a Reset to automatic button.
+> …
+
 ### [v4.30.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.2) — Haven 4.30.0-beta.2 _(pre-release)_
-<sub>2026-11-16 · 2d ago</sub>
+<sub>2026-11-16 · 3d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.1:
@@ -47,7 +58,7 @@
 > …
 
 ### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
-<sub>2026-11-15 · 4d ago</sub>
+<sub>2026-11-15 · 5d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > It has everything in 4.29.0, plus these, which are not in a stable yet:
@@ -58,7 +69,7 @@
 > …
 
 ### [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — Haven 4.29.0
-<sub>2026-11-15 · 4d ago</sub>
+<sub>2026-11-15 · 5d ago</sub>
 
 > **Added**
 > - Call controls in fullscreen (thanks Roolk, #5849): mute, deafen, camera, screen share, call settings and leave stay on screen over a fullscreen camera or screen share, and a picker switches which stream is shown without leaving fullscreen.
@@ -69,7 +80,7 @@
 > …
 
 ### [v4.29.0-beta.5](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.5) — Haven 4.29.0-beta.5 _(pre-release)_
-<sub>2026-11-13 · 5d ago</sub>
+<sub>2026-11-13 · 6d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.28.0 until the next stable.
 > Changes since 4.29.0-beta.4:
@@ -79,31 +90,20 @@
 > - A timeout now shows how long it lasts in a bar above the message box, and a forum post written during a timeout is kept instead of lost. Thanks Amnibro (#5887).
 > …
 
-### [v4.29.0-beta.4](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.4) — Haven 4.29.0-beta.4 _(pre-release)_
-<sub>2026-11-11 · 7d ago</sub>
-
-> Early access release. It goes to servers that turned on Settings > Admin > "Early access updates" and to the `:beta` Docker image. Everyone else stays on the stable version.
-> **New**
-> - Back and forward on the mouse's side buttons, like a browser: back closes the thread or pop-out DM you opened, leaves a forum topic for the forum's list, or returns to the channel you came from. A side button set as a shortcut in Haven Desktop keeps doing only that.
-> - The @ button also counts mentions and replies sent while you were away, and pulses while there are some (thanks Amnibro, asked for by broilpromptu).
-> - Click an @mention of a person to open their profile card (#5878, asked for by birdcrazy).
-> - Favorites in the emoji pickers, saved on your account (#5874, thanks Amnibro).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Guide: note what a backup's database still holds, fix the Audit Log path](https://github.com/ancsemi/Haven/commit/46104c7185f6b1f5a1b1f90455d38c873b6208d8) | ancsemi |
-| 2026-11-19 | [Make Close topic a labeled button on forum cards and the topic header](https://github.com/ancsemi/Haven/commit/ecb7842366f3bc10dd846e299907ffa2e0da8cb8) | ancsemi |
-| 2026-11-19 | [Keep the message box in step when text or media is switched on the op…](https://github.com/ancsemi/Haven/commit/95314f9cb2c34a804b9cb4c55ee9b4ab3c96558f) | rajuriprathik-a11y |
-| 2026-11-19 | [Start the noise gate closed so steady noise below its level is not se…](https://github.com/ancsemi/Haven/commit/26dafb77d4af49cbecf4e4a23eb813218d5ad98c) | Amnibro |
-| 2026-11-19 | [Paste and Ctrl shortcuts follow the key you press on any keyboard lay…](https://github.com/ancsemi/Haven/commit/c4ddeb399984dec79b41d6a2d3e67b332a069d57) | Amnibro |
-| 2026-11-19 | [Add an Exporting your data section to the guide (#5910) (#5914)](https://github.com/ancsemi/Haven/commit/4db93fd867c22d5416c1e873a1893943ce6c472c) | Amnibro |
-| 2026-11-19 | [Keep Discord pictures and files in Haven through Ferry, opt-in (#5906)](https://github.com/ancsemi/Haven/commit/b0461616b6a9bf0e7121792ed15c3bb07113db95) | Amnibro |
-| 2026-11-19 | [Let a long search filter list scroll](https://github.com/ancsemi/Haven/commit/030cbd398bb8daaaea29d14437e3082053ef1c57) | ancsemi |
-| 2026-11-19 | [Update the donor list](https://github.com/ancsemi/Haven/commit/92039c73d0e4bd8c7512535ed1774ae499b42cd8) | ancsemi |
-| 2026-11-19 | [Keep a muted channel in its place in the channel list](https://github.com/ancsemi/Haven/commit/cfa327bb9f9b413815b2eb1603d33d02c8097e11) | ancsemi |
+| 2026-11-20 | [Changelog: add the entries three merged PRs left out](https://github.com/ancsemi/Haven/commit/d78674a30721186add66ea303e50de66b03e062e) | ancsemi |
+| 2026-11-20 | [Release 4.30.0-beta.3](https://github.com/ancsemi/Haven/commit/d9ee00f9ac2b7d68c2c9b93573461378154849e3) | ancsemi |
+| 2026-11-20 | [Pause looping decoration while Haven is in the background (#5911)](https://github.com/ancsemi/Haven/commit/c0dda381de791d44d9ccbe0347da1040a743238c) | ancsemi |
+| 2026-11-20 | [Mark a DM in the main pane as a private conversation (#5920)](https://github.com/ancsemi/Haven/commit/a08aa34d6e12e2483f71143979d1a15bd1ef3790) | ancsemi |
+| 2026-11-20 | [Let members pick which role colors their name](https://github.com/ancsemi/Haven/commit/9d326e371e43905dde80944bd3d3def60be2df1e) | ancsemi |
+| 2026-11-20 | [Fullscreen: one-click show all streams, fix stream count label](https://github.com/ancsemi/Haven/commit/3abc54fcbb1b29c336750a532cb9c5bb03e92471) | ancsemi |
+| 2026-11-20 | [Fullscreen: choose which streams share the screen (#5912)](https://github.com/ancsemi/Haven/commit/1e58f01d3cfb5323002939cafa6976adcccc8dd0) | Roolk |
+| 2026-11-20 | [Do Not Disturb silences notification sounds and push (#5919)](https://github.com/ancsemi/Haven/commit/473d182b9ab13ca0257bac2e4d7bc54e15484a36) | Amnibro |
+| 2026-11-20 | [Custom theme: pick the highlight color separately (#5917)](https://github.com/ancsemi/Haven/commit/28cafe62c99cd3875e74afab95c722a47ff34aa2) | Amnibro |
+| 2026-11-20 | [Give back a message that slow mode refused (#5918)](https://github.com/ancsemi/Haven/commit/485860928d6531882c12b744196b02a8968de66c) | Amnibro |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

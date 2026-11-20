@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 105.7k |
 | 🍴 **Forks** | 30.8k |
-| 🐞 **Open issues + PRs** | [18.4k](https://github.com/pytorch/pytorch/issues) |
+| 🐞 **Open issues + PRs** | [18.5k](https://github.com/pytorch/pytorch/issues) |
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1681.3 MB |
+| 💾 **Size** | 1675.2 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 21d ago</sub>
+<sub>2026-10-28 · 22d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [[CI] Run the FA3 wheel upload in a dedicated environment with approva…](https://github.com/pytorch/pytorch/commit/e4e68adf3952c9193a5a08ed97031b8769ef60c2) | atalman |
-| 2026-11-19 | [[Test Refactoring] Standardizing the definition format for `device_ty…](https://github.com/pytorch/pytorch/commit/b03a81e91a34c3a95f1e47281e7bf115ba2c8c22) | fffrog |
-| 2026-11-19 | [[inductor] Native matmul fixes and a hook for the Helion backend (#20…](https://github.com/pytorch/pytorch/commit/cc554b226572b6b1c2750fc845a3a6b95ad9cfab) | nullplay |
-| 2026-11-19 | [[TunableOp] Close the results file when result writes stop (#202380)](https://github.com/pytorch/pytorch/commit/ec04e233cf8623c89404b947d6da3ed914c1a67b) | amd-maradosa |
-| 2026-11-19 | [[distributed][Symmetric memory] Account for strides in symmetric memo…](https://github.com/pytorch/pytorch/commit/3dc057e03e29033dee100acb911cd680b980bd7b) | mansiag05 |
-| 2026-11-19 | [[Inductor] Map PrivateUse1 devices to shared AOTI C++ wrapper headers…](https://github.com/pytorch/pytorch/commit/c4c9527f77b6038bbfdecf505ba19324fc80e481) | can-gaa-hou |
-| 2026-11-19 | [Fix CPU separable interpolation when the output width is 1 (#204534)](https://github.com/pytorch/pytorch/commit/c3ea26b5ae46e9a9f8ac92f51ffb39a2fd88dd61) | heyludy |
-| 2026-11-19 | [[profiler] Give the execution-trace pt2 tests a private inductor cach…](https://github.com/pytorch/pytorch/commit/8b97977cc95f31857c67ce324523254fffde5e39) | astachowiczhabana |
-| 2026-11-19 | [[Test][XPU] Enable more `test_dataloader.py` tests on XPU (#203236)](https://github.com/pytorch/pytorch/commit/ef2846d13adb294f9229325b832affb9cdaa91f4) | pbielak |
-| 2026-11-19 | [[Testcase Refactoring][PrivateUse1] Add hw_classification to test_ren…](https://github.com/pytorch/pytorch/commit/681a0229d63a9f6a613d45af02e30688fa91ab7b) | cn-sys |
+| 2026-11-20 | [[Profiler] Exclude XPU runtime/driver events from External id fallbac…](https://github.com/pytorch/pytorch/commit/d59e86aecf1bce34411bfe66c9e01d9257b8212b) | SlawomirLaba |
+| 2026-11-20 | [  [dynamo] preserve Stream/Event subclass type across graph-break rec…](https://github.com/pytorch/pytorch/commit/9f48f43a4b9d6c006367c9e8c88bc50e479ad079) | Stevennnn |
+| 2026-11-20 | [[dynamo] Raise TypeError for objects missing __enter__/__exit__ in `w…](https://github.com/pytorch/pytorch/commit/0538ec2f623ce3cec2b044526fcd391731435d3d) | guilhermeleobas |
+| 2026-11-20 | [[xpu] Handle grouped_mm with empty tensor as input (#205611)](https://github.com/pytorch/pytorch/commit/cffb5c017443e7f44d5c70bffbdffd0c08add392) | LuFinch |
+| 2026-11-20 | [[Testcase Refactoring] Classify Python operator typing tests as gener…](https://github.com/pytorch/pytorch/commit/d473a25fd4f88af8851bbe38eeb9ac64ec45d6af) | PAGEMRW |
+| 2026-11-20 | [[profiler][cuspy] Decode buffers using saved record layouts (#205783)](https://github.com/pytorch/pytorch/commit/57ab62c9e3b2ec77869f129b666055cfbdccd94d) | ngimel |
+| 2026-11-20 | [[Test][XPU] Enable `complex_tensor/test_complex_tensor.py` for XPU (#…](https://github.com/pytorch/pytorch/commit/b7f6ea368f14d8286250a1c3e8d5a461c3d3e84c) | pbielak |
+| 2026-11-20 | [[Inductor] Let backends declare their ATen C shim table for AOTI (#20…](https://github.com/pytorch/pytorch/commit/4f595ce0558ee7e3037d24bd11c1848ed08aa206) | can-gaa-hou |
+| 2026-11-20 | [[torchcomms] Remove torchcomms support from distributed_c10d (#205741)](https://github.com/pytorch/pytorch/commit/ededea4165730303c4dcd7d854b3f35b77a1d123) | d4l3k |
+| 2026-11-20 | [[Testcase Refactoring] Split test/test_functional_autograd_benchmark.…](https://github.com/pytorch/pytorch/commit/5b48107b6c0a5c451f2a00642a56c8fe34750708) | KarhouTam |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

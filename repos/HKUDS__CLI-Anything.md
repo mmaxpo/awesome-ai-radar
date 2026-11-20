@@ -14,21 +14,23 @@
 | **Why it's worth a look** | Wraps any software in a CLI so AI agents can operate it |
 | **Added** | 2026-11-14 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 60.3k |
+| ⭐ **Stars** | 61.0k |
 | 🍴 **Forks** | 5.5k |
-| 🐞 **Open issues + PRs** | [264](https://github.com/HKUDS/CLI-Anything/issues) |
+| 🐞 **Open issues + PRs** | [276](https://github.com/HKUDS/CLI-Anything/issues) |
 | 💻 **Languages** | Python 97% · C# 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-09-22 (1mo ago) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-03-08 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0) — 2026-06-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 41.3 MB |
+| 💾 **Size** | 41.2 MB |
 | 🌐 **Website** | https://clianything.cc/ |
 
 ## 📦 Recent releases

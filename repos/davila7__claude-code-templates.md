@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 34.0k |
 | 🍴 **Forks** | 4.1k |
-| 🐞 **Open issues + PRs** | [549](https://github.com/davila7/claude-code-templates/issues) |
+| 🐞 **Open issues + PRs** | [543](https://github.com/davila7/claude-code-templates/issues) |
 | 💻 **Languages** | Python 40% · TypeScript 21% · HTML 12% · JavaScript 11% · TeX 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `claude` `claude-code` `agent-skills` `ai-agents` `claude-code-plugins` `cli` `mcp` `registry` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 307.2 MB |
+| 💾 **Size** | 306.9 MB |
 | 🌐 **Website** | https://www.aitmpl.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/619db084fd2e94742710f74680db4168ca2bd470) | github-actions[bot] |
-| 2026-11-19 | [feat(dashboard): NVIDIA eye on the component page's scan card (#1622)](https://github.com/davila7/claude-code-templates/commit/ff2ca8a98b32ca9f56ee0e7d48e3dd4cd08937db) | davila7 |
-| 2026-11-19 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/6f913a0cd61c244ef60480f085e2386cba4b5c46) | github-actions[bot] |
-| 2026-11-19 | [fix(dashboard): keep the Files preview's expand bar under the preview…](https://github.com/davila7/claude-code-templates/commit/6c0bb15238cb5bfbf84ef27eb7e027720936e1e2) | davila7 |
-| 2026-11-19 | [Scan excerpt fixes + Compatibility tab redesign (agent ring) (#1619)](https://github.com/davila7/claude-code-templates/commit/813a33607784f65cd3e14b15d226b729cdb493dc) | davila7 |
-| 2026-11-19 | [feat(dashboard): scan report with a score ring, category bar and code…](https://github.com/davila7/claude-code-templates/commit/70d98086991273ea91a3af462502625344705a9a) | davila7 |
-| 2026-11-18 | [feat(dashboard): NVIDIA eye on the scan reports, agent logos in Compa…](https://github.com/davila7/claude-code-templates/commit/7deaf763dc0c3e06fb500eeacf46f3bc121fb2df) | davila7 |
-| 2026-11-18 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/21cc38c31641008077bef34338f612cee4f81c0a) | github-actions[bot] |
-| 2026-11-18 | [Agent compatibility per skill (SkillEvaluator Harness Check) + fix $N…](https://github.com/davila7/claude-code-templates/commit/fdfbaf11c4c5fac39273824baa58c56b06155d28) | davila7 |
-| 2026-11-18 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/d3a29567e1d4707db3377e5521a62f8ae5288aab) | github-actions[bot] |
+| 2026-11-20 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/e88848056dc85ded577b3b7368f351344e3536ce) | github-actions[bot] |
+| 2026-11-20 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/053feb29f36e3e5ee9da29c964eb3723a7915bf8) | github-actions[bot] |
+| 2026-11-20 | [Add GitRanks Contribute MCP to devtools (#1582)](https://github.com/davila7/claude-code-templates/commit/c125da1e4bef95766a312165a7b313f1a272dc4c) | maslianok |
+| 2026-11-20 | [Add Sofya MCP to web-data (#1586)](https://github.com/davila7/claude-code-templates/commit/b3d9fac28866f3d63cb3fdab3ea739839bd7e7d2) | yusufgurdogan |
+| 2026-11-20 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/1c6049978aa3a85c61df3018742c7fccf4533b1b) | github-actions[bot] |
+| 2026-11-20 | [Add subagents-pane plugin: live pane of agents, skills and plans (#1616)](https://github.com/davila7/claude-code-templates/commit/6ffd27c64cdd6595e8149747129c7df8772f5d9b) | qaokss |
+| 2026-11-20 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/6d52d5ae2a18a54cdc047d5bb20f752b057664ab) | github-actions[bot] |
+| 2026-11-20 | [Add 6 review skills from off-grid-ai/skills as external skills (#1601)](https://github.com/davila7/claude-code-templates/commit/d7d12930a1d766836a16d3daef1246791c1e425e) | alichherawalla |
+| 2026-11-20 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/ae5a6b27c52f54fea60ee651ea6b23eaa2be9b0f) | github-actions[bot] |
+| 2026-11-20 | [Add lemlist MCP to marketing (#1628)](https://github.com/davila7/claude-code-templates/commit/aa96da95531a5c2736357676791d59e931e6535a) | micktaiwan |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 14.2k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [203](https://github.com/openai/codex-security/issues) |
-| 💻 **Languages** | TypeScript 77% · Python 20% · JavaScript 2% |
+| 🐞 **Open issues + PRs** | [195](https://github.com/openai/codex-security/issues) |
+| 💻 **Languages** | TypeScript 77% · Python 19% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-07-13 |
 | 📦 **Latest release** | [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 87.6 MB |
+| 💾 **Size** | 95.7 MB |
 | 🌐 **Website** | https://developers.openai.com/codex/security |
 
 ## 📦 Recent releases
 
 ### [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — Codex Security GitHub Action 0.10.1
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > GitHub Action for [Codex Security 0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1).
 > Installs `@openai/codex-security@0.10.1`.
@@ -45,7 +45,7 @@
 > ```
 
 ### [npm-v0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1) — Codex Security 0.10.1
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **Highlights**
 > - **Exclude paths from scans.** Run `cs scan . --exclude-path examples/` to exclude a directory from review in Standard, Deep, or diff scans. Repeat the flag for more paths, or set `scan.exclude_paths` in your project configuration. Paths are literal and relative to the repository. The scanner can still read excluded files for context and filters out findings whose locations all fall under excluded paths.
@@ -56,7 +56,7 @@
 > …
 
 ### [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — Codex Security GitHub Action 0.10.0
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0).
 > Installs `@openai/codex-security@0.10.0`.
@@ -65,7 +65,7 @@
 > ```
 
 ### [npm-v0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0) — Codex Security 0.10.0
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > **Highlights**
 > Codex Security 0.10.0 gives clearer guidance when a patch is blocked, lets interrupted Standard scans resume, and adds a budget for batch scans.
@@ -76,7 +76,7 @@
 > …
 
 ### [action-v0.9.1](https://github.com/openai/codex-security/releases/tag/action-v0.9.1) — Codex Security GitHub Action 0.9.1
-<sub>2026-11-10 · 9d ago</sub>
+<sub>2026-11-10 · 10d ago</sub>
 
 > GitHub Action for [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
 > Installs `@openai/codex-security@0.9.1`.
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [feat: add JSON error details for scan validation failures (#2730)](https://github.com/openai/codex-security/commit/8b114ad59518ba8529e9ea9e7d66004f6b4bc26e) | ianw-oai |
-| 2026-11-18 | [feat(cli): add independently reviewed dependency checks (#2715)](https://github.com/openai/codex-security/commit/5313e2e8579de78dea582bfed0d96cec493f5594) | utsav-oai |
-| 2026-11-18 | [test(cli): honor the CI timeout for integration commands (#2725)](https://github.com/openai/codex-security/commit/067c9b30616916c66f2da7a6fc8919ce9fab5447) | mldangelo-oai |
-| 2026-11-18 | [chore(deps): bump the codex group across 3 directories with 2 updates…](https://github.com/openai/codex-security/commit/a1e56b73a55638dd500b12d5dd62d3e9d7453582) | dependabot[bot] |
-| 2026-11-18 | [chore(deps): update napi-derive to 3.7.1 in the native plugin (#2721)](https://github.com/openai/codex-security/commit/fd5bf1a093e720e1bb3416a9eef43dc764ccaa90) | dependabot[bot] |
-| 2026-11-18 | [chore(deps): bump fast-xml-parser from 5.11.1 to 5.12.0 in /github-ac…](https://github.com/openai/codex-security/commit/fe1c651640c845d72721daeb5e31270113d72fde) | dependabot[bot] |
-| 2026-11-18 | [chore(deps): bump ruff from 0.17.3 to 0.17.4 in /plugins/codex-securi…](https://github.com/openai/codex-security/commit/2101ecb33b0bcb15099e77425de571ced395a836) | dependabot[bot] |
-| 2026-11-18 | [chore(deps): bump tokenx from 1.6.0 to 2.2.0 in /sdk/typescript (#2627)](https://github.com/openai/codex-security/commit/171e785e24d9a2f549c3594472bb460f1dbd02c3) | dependabot[bot] |
-| 2026-11-18 | [chore(deps): bump napi from 3.16.1 to 3.16.2 in /plugins/codex-securi…](https://github.com/openai/codex-security/commit/96fb3de45ac7cc0513a12cf292373c00e4c6ee33) | dependabot[bot] |
-| 2026-11-18 | [ci: bump docker/login-action from 4.7.0 to 4.8.0 (#2642)](https://github.com/openai/codex-security/commit/29b002fe8b7973ea7a6212f93b11fad7b619b700) | dependabot[bot] |
+| 2026-11-20 | [fix(cli): honor configured caller scope in captured stack investigati…](https://github.com/openai/codex-security/commit/9b7b90c94c94b7eaec65018b0265b868f8b37e28) | utsav-oai |
+| 2026-11-20 | [fix(sdk): accept indexed stack misses (#2761)](https://github.com/openai/codex-security/commit/f9114413c92bd92d6b5f8aa72aea733062dd5ad0) | utsav-oai |
+| 2026-11-20 | [feat(cli)!: support incremental exploitability investigations (#2745)](https://github.com/openai/codex-security/commit/a69515510f8525e7909f770e61f5c8be450e3e29) | utsav-oai |
+| 2026-11-20 | [fix(workbench): split legacy roots from linked global finding groups …](https://github.com/openai/codex-security/commit/8c485db1432fbe0734cabf0249def5204a473d95) | hyeonsang010716 |
+| 2026-11-20 | [fix(config): keep cached scan skills disabled across path aliases (#2…](https://github.com/openai/codex-security/commit/e426284c595fb4616b9909826e142e1b84a3ae59) | adityajai119 |
+| 2026-11-20 | [fix(cli): assess captured stacks against public advisory conditions (…](https://github.com/openai/codex-security/commit/bcf39188a399d023331065766118c4f8996ea850) | utsav-oai |
+| 2026-11-20 | [feat(cli): render exploitability reports in Markdown and interactive …](https://github.com/openai/codex-security/commit/ff1123120b151dd92cbf423eb845be1abc3303ff) | utsav-oai |
+| 2026-11-20 | [fix(history): use singular nouns for one-item match-all counts (#2751)](https://github.com/openai/codex-security/commit/72f4502902766bd01bd21aea138edb777098e1b9) | i098 |
+| 2026-11-20 | [docs(cli): clarify static verification is instruction-based (#2744)](https://github.com/openai/codex-security/commit/c5f9a9100c3b97212b571219096e6343bf1dd41b) | TheOutlandsDev |
+| 2026-11-19 | [chore(deps): bump promptfoo from 0.124.1 to 0.125.1 in /evals/triage-…](https://github.com/openai/codex-security/commit/bd09ff8254667cedd355cd1f2e354e5a8002facf) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/openai/codex-security/commits)
 

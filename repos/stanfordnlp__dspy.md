@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 39.1k |
+| ⭐ **Stars** | 39.2k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [804](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [810](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0)
-<sub>2026-11-10 · 8d ago</sub>
+<sub>2026-11-10 · 9d ago</sub>
 
 > **DSPy 3.5: A Lighter, Faster Foundation**
 > DSPy 3.5 brings a lighter LM layer, graduated core modules, and new History and image capabilities for RLM.
@@ -80,7 +80,7 @@
 > …
 
 ### [3.3.1](https://github.com/stanfordnlp/dspy/releases/tag/3.3.1)
-<sub>2026-08-21 · 2mo ago</sub>
+<sub>2026-08-21 · 3mo ago</sub>
 
 > **DSPy 3.3.1**
 > DSPy 3.3.1 contains many interpreter fixes and improvements. It makes `PythonInterpreter`

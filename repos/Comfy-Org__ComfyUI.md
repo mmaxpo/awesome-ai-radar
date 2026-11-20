@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 147.6k |
+| ⭐ **Stars** | 147.8k |
 | 🍴 **Forks** | 17.7k |
 | 🐞 **Open issues + PRs** | [5.6k](https://github.com/Comfy-Org/ComfyUI/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `stable-diffusion` `pytorch` `ai` `python` `comfy` `comfyui` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2023-01-17 |
 | 📦 **Latest release** | [v0.46.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 105.8 MB |
+| 💾 **Size** | 106.3 MB |
 | 🌐 **Website** | https://www.comfy.org/ |
 
 ## 📦 Recent releases
 
 ### [v0.46.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(LTX): add AlphaGen, SDR to HDR, Reframe and Upscale nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17664
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0)
-<sub>2026-11-10 · 8d ago</sub>
+<sub>2026-11-10 · 9d ago</sub>
 
 > **What's Changed**
 > * Bump comfyui-frontend-package to 1.58.5 by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/17442
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.44.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0)
-<sub>2026-11-04 · 15d ago</sub>
+<sub>2026-11-04 · 16d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(Patina): add Patina texture nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17384
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.0)
-<sub>2026-10-27 · 23d ago</sub>
+<sub>2026-10-27 · 24d ago</sub>
 
 > **What's Changed**
 > * model_prefetch: syncrhonize all graph cleanups by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/17178
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [[Partner Nodes] feat(Tripo): add Smart UV node (#17827)](https://github.com/Comfy-Org/ComfyUI/commit/995456d0188ffb51032c28f41527cfa82d87d8a9) | bigcat88 |
-| 2026-11-19 | [Preserve frontend contract evidence in CodeRabbit reviews (#17173)](https://github.com/Comfy-Org/ComfyUI/commit/d5d59c4011312df6b3a4241fb48c045289ad9441) | christian-byrne |
-| 2026-11-19 | [Add Partner Node PR title check (#16918)](https://github.com/Comfy-Org/ComfyUI/commit/2a40840b1943a1a0984d2834c31b8517b0f01070) | christian-byrne |
-| 2026-11-18 | [ComfyUI v0.46.0](https://github.com/Comfy-Org/ComfyUI/commit/a277b5bf213e8a44fa34817b7770b54f86ef4cea) | comfyanonymous |
-| 2026-11-18 | [Bump comfyui-frontend-package to 1.59.6 (#17822)](https://github.com/Comfy-Org/ComfyUI/commit/4a5b5b134cb98cfc53734c57e36d538112b41965) | comfy-pr-bot |
-| 2026-11-18 | [[Partner Nodes] chore(FishAudio): switch speech-to-text to transcribe…](https://github.com/Comfy-Org/ComfyUI/commit/9bd16bfd844eefe33af57c54b298ac89139c15f1) | bigcat88 |
-| 2026-11-18 | [[Partner Nodes] feat(Kling): add 4:3 and 3:4 aspect ratios to Kling 4…](https://github.com/Comfy-Org/ComfyUI/commit/b391fa77e62e54eb697df24e9f3c5bf4a8365809) | bigcat88 |
-| 2026-11-18 | [[Partner Nodes] chore: remove retired Claude Sonnet 4.5 model and lef…](https://github.com/Comfy-Org/ComfyUI/commit/c34b7bbc3110939372eb7ff1799e5eabdbbb2125) | bigcat88 |
-| 2026-11-18 | [[Partner Nodes] feat: move more partner nodes to Comfy Router (#17794)](https://github.com/Comfy-Org/ComfyUI/commit/0263e48806e5be43fa926d3961caac29cd268d84) | bigcat88 |
-| 2026-11-18 | [Speed up sensenova text generation. (#17811)](https://github.com/Comfy-Org/ComfyUI/commit/05e878f3fb035ccabeddd1002b2c2ad88e92dedf) | comfyanonymous |
+| 2026-11-20 | [[Partner Nodes] feat(Mirelo): auto-downscale videos above 2160p in Vi…](https://github.com/Comfy-Org/ComfyUI/commit/a20552b5efd844ddf4da9dce4f55e313333a9ef9) | bigcat88 |
+| 2026-11-20 | [[Partner Nodes] feat(Sync): move sync.so nodes to Comfy Router (#17867)](https://github.com/Comfy-Org/ComfyUI/commit/980aec2c5f51970814963e8b1b88b46cd8f18af5) | bigcat88 |
+| 2026-11-20 | [Bump comfyui-frontend-package to 1.59.10 (#17839)](https://github.com/Comfy-Org/ComfyUI/commit/4ee8e523ba01b0335a5cd20ce9c1e2b684f69521) | comfy-pr-bot |
+| 2026-11-20 | [Add regression test for CVE-2024-12882 model download SSRF (#17773)](https://github.com/Comfy-Org/ComfyUI/commit/1994420682258539f9ea1d22a9857a14df6acd32) | luke-mino-altherr |
+| 2026-11-20 | [docs: restructure README, add docs/installation.md (#16660)](https://github.com/Comfy-Org/ComfyUI/commit/e9d51c56204c7f9fec89d650ddbdf66dfa685a97) | deepme987 |
+| 2026-11-19 | [Support SPZ v4 in File3DToSplat (#17852)](https://github.com/Comfy-Org/ComfyUI/commit/c59e67bd5a2757ddba1c6c6a993c0b6c811b54da) | kijai |
+| 2026-11-19 | [Add a ModelMergeMiniMaxH3 node. (#17843)](https://github.com/Comfy-Org/ComfyUI/commit/a286ac2fb49ef3f1a3f599e42c48f8af906fce71) | comfyanonymous |
+| 2026-11-19 | [[Partner Nodes] fix(validation): make aspect-ratio errors show the im…](https://github.com/Comfy-Org/ComfyUI/commit/d7589708646a9e27c479b8cc07884b3b69366184) | bigcat88 |
+| 2026-11-19 | [[Partner Nodes] feat(Creatify): add Boreal-H3 and Aurora 2.0 nodes (#…](https://github.com/Comfy-Org/ComfyUI/commit/c223fca268f5665d690426cd051a1d16bfc5f4f0) | bigcat88 |
+| 2026-11-19 | [Update workflow templates to v0.11.112 (#17856)](https://github.com/Comfy-Org/ComfyUI/commit/f9f01c2cea24875b8ac1eea648850d87d74cff14) | comfyui-wiki |
 
 [See all commits ↗](https://github.com/Comfy-Org/ComfyUI/commits)
 

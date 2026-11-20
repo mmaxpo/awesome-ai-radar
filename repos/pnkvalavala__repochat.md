@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 319 |
+| ⭐ **Stars** | 318 |
 | 🍴 **Forks** | 51 |
 | 🐞 **Open issues + PRs** | [3](https://github.com/pnkvalavala/repochat/issues) |
 | 💻 **Languages** | Python 100% |

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 98.2k |
-| 🍴 **Forks** | 20.4k |
-| 🐞 **Open issues + PRs** | [4.8k](https://github.com/punkpeye/awesome-mcp-servers/issues) |
+| ⭐ **Stars** | 98.3k |
+| 🍴 **Forks** | 20.5k |
+| 🐞 **Open issues + PRs** | [4.9k](https://github.com/punkpeye/awesome-mcp-servers/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `mcp` |
-| 🕒 **Last activity** | 2026-11-17 (2d ago) |
+| 🕒 **Last activity** | 2026-11-17 (3d ago) |
 | 📅 **Created** | 2024-11-30 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

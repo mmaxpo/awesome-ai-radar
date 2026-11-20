@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.7k |
-| 🍴 **Forks** | 11.4k |
+| ⭐ **Stars** | 100.8k |
+| 🍴 **Forks** | 11.5k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/NationalSecurityAgency/ghidra/issues) |
 | 💻 **Languages** | Java 86% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `software-analysis` `disassembler` `reverse-engineering` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2019-03-01 |
 | 📦 **Latest release** | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — 2026-10-22 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 408.0 MB |
+| 💾 **Size** | 407.9 MB |
 
 ## 📦 Recent releases
 
 ### [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — Ghidra 12.2
-<sub>2026-10-22 · 28d ago</sub>
+<sub>2026-10-22 · 29d ago</sub>
 
 > * [What's New](https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.2_build/Ghidra/Configurations/Public_Release/src/global/docs/WhatsNew.md)
 > * [Change History](https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.2_build/Ghidra/Configurations/Public_Release/src/global/docs/ChangeHistory.md)
@@ -78,16 +78,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [Merge branch 'GP-0_ryanmkurtz_PR-9775_rudycelekli_fix_pyghidra-script…](https://github.com/NationalSecurityAgency/ghidra/commit/b59c6712390d8957aebbd21bd4b2a8c68f5859e0) | ryanmkurtz |
+| 2026-11-19 | [Merge branch 'GP-0_ryanmkurtz_PR-9779_rudycelekli_fix_pyghidra-plugin…](https://github.com/NationalSecurityAgency/ghidra/commit/317de576a05beb03e5d1eba1d39e1353b7910c6a) | ryanmkurtz |
+| 2026-11-19 | [Merge branch 'GP-0_ryanmkurtz_PR-9783_rudycelekli_fix_pyghidra-monito…](https://github.com/NationalSecurityAgency/ghidra/commit/6f1ed08dddadf173e45564e0853fdd042ca8de51) | ryanmkurtz |
+| 2026-11-19 | [Merge branch](https://github.com/NationalSecurityAgency/ghidra/commit/7d15b5c2dfc39dcd5e91d555a89ec700dd961b59) | ryanmkurtz |
+| 2026-11-19 | [GP-0: Updating README.md](https://github.com/NationalSecurityAgency/ghidra/commit/921a2a56b0658b909f5f5129fda91a1da8baf6b5) | ryanmkurtz |
+| 2026-11-19 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/a39e300d7e5e98754870123d68f491e529fc7631) | ryanmkurtz |
 | 2026-11-19 | [Merge remote-tracking branch 'origin/GP-0_d-millar_lldb_delmem_fix'](https://github.com/NationalSecurityAgency/ghidra/commit/66b3412bdf679197c43858fabf7c3ea2f833bc31) | ryanmkurtz |
 | 2026-11-19 | [GP-0: old bug](https://github.com/NationalSecurityAgency/ghidra/commit/411636dae873068d6a1f8882fd59a70f916b5faa) | d-millar |
+| 2026-11-18 | [GP-7513 - Demangler - Fixed issue causing the demangler analyzer to d…](https://github.com/NationalSecurityAgency/ghidra/commit/fe5d7e258d73e1e6ada6dca11853e5ee9acf6cfe) | dragonmacher |
 | 2026-11-18 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/389891699a91d7552da8e322f51b405b089dfe3f) | ryanmkurtz |
-| 2026-11-18 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/7229cdac2e4cc9182cbbf5da6d1b9fde3c095b20) | ryanmkurtz |
-| 2026-11-18 | [Xtensa: fix BALL/BANY/BNALL/BNONE display operand order](https://github.com/NationalSecurityAgency/ghidra/commit/37f5fd92d32bb95269fbf9b2e1d826968dce1839) | chanellebingham |
-| 2026-11-18 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/63b0d703833cceb0b479a5dc0e582679d966186d) | ryanmkurtz |
-| 2026-11-18 | [Merge branch 'GP-0_ryanmkurtz_PR-10182_hxreborn_fix_headless-relative…](https://github.com/NationalSecurityAgency/ghidra/commit/c358466fea57681d43cec0d11ee90808782cdd15) | ryanmkurtz |
-| 2026-11-18 | [Xtensa: fix B4CONSTU encoding for ar=1 (0x10000, not 0x1000)](https://github.com/NationalSecurityAgency/ghidra/commit/755fd6de7951060c8205605380d08cbc900d4f2e) | Dukotah |
-| 2026-11-18 | [Merge branch 'GP-0_ryanmkurtz_PR-10222_cpruijsen_fix_sbom-pom-c-locale'](https://github.com/NationalSecurityAgency/ghidra/commit/353ea96f8c531a37f88728adaa37814fe7f307ec) | ryanmkurtz |
-| 2026-11-18 | [Merge branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/cf97714712d64eb79b3dc7f0c6752b71e232702d) | ryanmkurtz |
 
 [See all commits ↗](https://github.com/NationalSecurityAgency/ghidra/commits)
 

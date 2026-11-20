@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 30.4k |
+| ⭐ **Stars** | 30.5k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [523](https://github.com/huggingface/smolagents/issues) |
+| 🐞 **Open issues + PRs** | [533](https://github.com/huggingface/smolagents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2024-12-05 |
 | 📦 **Latest release** | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) — 2026-05-29 |
 | 🌿 **Default branch** | `main` |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Monitor: include PlanningStep tokens in monitor totals (Fixes #3187) …](https://github.com/huggingface/smolagents/commit/99721bdc3b6f502108751a93c5d7f08b1a04ce76) | hr1juldey |
 | 2026-11-18 | [Support starred and iterable unpacking in assignments (#2556)](https://github.com/huggingface/smolagents/commit/2689e450364d451a0afa0a5e883d12a031c125dd) | himanshu748 |
 | 2026-11-18 | [add LlamaCppModel for Llama App (#3201)](https://github.com/huggingface/smolagents/commit/fcdf5f13563408569fff6172ee770a82a4fae710) | julien-cto |
 | 2026-11-18 | [remove non-English source docs (#3208)](https://github.com/huggingface/smolagents/commit/0747ebee579039c5764de73f0949627dab64cc37) | julien-cto |
@@ -103,7 +104,6 @@
 | 2026-11-17 | [Fix LiteLLMRouterModel overriding deployment api_base and api_key wit…](https://github.com/huggingface/smolagents/commit/2a576ad0abe56251ce313606d40f2824d188e27e) | icn5381 |
 | 2026-11-15 | [Add workflow to close pull requests without a validated and assigned …](https://github.com/huggingface/smolagents/commit/e1249d373d58db6abc73882ee394f6bb3854c89f) | albertvillanova |
 | 2026-11-15 | [Ask agents to run make style before committing (#3185)](https://github.com/huggingface/smolagents/commit/a5797f14f33f87aa5efd038451a15d8e812b1460) | albertvillanova |
-| 2026-11-15 | [Require issues to be validated and assigned before opening a pull req…](https://github.com/huggingface/smolagents/commit/1faabfa499a40bcb62f86c507552632a7a4f9edc) | albertvillanova |
 
 [See all commits ↗](https://github.com/huggingface/smolagents/commits)
 

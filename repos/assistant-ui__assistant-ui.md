@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 13.3k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [29](https://github.com/assistant-ui/assistant-ui/issues) |
+| 🐞 **Open issues + PRs** | [30](https://github.com/assistant-ui/assistant-ui/issues) |
 | 💻 **Languages** | TypeScript 84% · MDX 10% · JavaScript 3% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `conversational-ai` `radix-ui` `shadcn` `ui-components` `copilot` `chatbot` `vercel-ai-sdk` `ai-chatbot` `react-chatbot` `base-ui` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2023-11-22 |
 | 📦 **Latest release** | [@assistant-ui/core@0.3.37](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 206.8 MB |
+| 💾 **Size** | 208.3 MB |
 | 🌐 **Website** | https://www.assistant-ui.com |
 
 ## 📦 Recent releases
 
 ### [@assistant-ui/core@0.3.37](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Patch Changes**
 > - [#10593](https://github.com/assistant-ui/assistant-ui/pull/10593) [`528bfe9`](https://github.com/assistant-ui/assistant-ui/commit/528bfe964f1306f7070fd4efe034873b5f1cfe45) - `MessageRepository.import` now leaves the repository unchanged when it throws, for example when a message's parent or the head is missing. Thread `import` and `reset`, and loading history in the local runtime, check the data before clearing the current messages, so a history that cannot be placed no longer empties the thread. ([@Yonom](https://github.com/Yonom))
@@ -47,13 +47,13 @@
 > …
 
 ### [@assistant-ui/x-generative-compiler@0.0.22](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/x-generative-compiler%400.0.22)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Patch Changes**
 > - [#10709](https://github.com/assistant-ui/assistant-ui/pull/10709) [`08aa6f1`](https://github.com/assistant-ui/assistant-ui/commit/08aa6f1e19dc5228546cbc6878d6de510f0cd19e) - fix: drop module bindings that only a stripped region used, whatever their initializer, so calls and constructors such as `createDb(...)` or `new PrismaClient(...)` that only a backend `execute` needed no longer stay in the client build. A file whose `"use generative"` directive is not its first statement now fails the build instead of shipping uncompiled, and `withAui` runs the loader on every JS/TS extension, including `.mts` and `.cts`. ([@Yonom](https://github.com/Yonom))
 
 ### [@assistant-ui/vue@0.0.8](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vue%400.0.8)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Patch Changes**
 > - [#10656](https://github.com/assistant-ui/assistant-ui/pull/10656) [`cba4061`](https://github.com/assistant-ui/assistant-ui/commit/cba406112b09de49e99764b51a9d90a8ca952cc7) - keep the viewport footer inset accurate as content grows and its top margin changes. ([@okisdev](https://github.com/okisdev))
@@ -64,14 +64,14 @@
 > …
 
 ### [@assistant-ui/vite@0.0.22](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vite%400.0.22)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Patch Changes**
 > - Updated dependencies [[`08aa6f1`](https://github.com/assistant-ui/assistant-ui/commit/08aa6f1e19dc5228546cbc6878d6de510f0cd19e)]:
 >   - @assistant-ui/x-generative-compiler@0.0.22
 
 ### [@assistant-ui/variants@0.0.5](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/variants%400.0.5)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Patch Changes**
 > - [#10604](https://github.com/assistant-ui/assistant-ui/pull/10604) [`9c7de04`](https://github.com/assistant-ui/assistant-ui/commit/9c7de0413212819811d38af4a30944e9611859d1) - fix: the Next.js route handlers now check the client address like the Vite plugin, and refuse requests whose address is unknown unless `allowRemoteClients` is set. ([@Yonom](https://github.com/Yonom))
@@ -80,16 +80,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [ci: review tier gives an archive outside every area T3 (#10771)](https://github.com/assistant-ui/assistant-ui/commit/67ca14d9106a09f48dfa54eae0b0999fa899ac99) | okisdev |
+| 2026-11-20 | [fix(core): hosted runtime hooks pick up edits on fast refresh (#10769)](https://github.com/assistant-ui/assistant-ui/commit/3c1497d5ed2b4821a8f2007cc0aa8361e58b24d6) | okisdev |
+| 2026-11-20 | [fix(store): preserve reader scroll-up during viewport footer shrink (…](https://github.com/assistant-ui/assistant-ui/commit/ca7c132a2e734d3ceeeca3b164f693aabebebb51) | rupic-app[bot] |
+| 2026-11-20 | [fix(react-ag-ui): a detached durable reply ends as interrupted, not c…](https://github.com/assistant-ui/assistant-ui/commit/c056b2cbb17ee454e0414915524124b7eb4594a7) | okisdev |
+| 2026-11-20 | [ci(security): limits fork Claude reviews per author and per day (#10760)](https://github.com/assistant-ui/assistant-ui/commit/84936122b616a70f6cb00503029b0d5b2e48f550) | Yonom |
+| 2026-11-20 | [fix(deps): update brace-expansion, parse5, seroval and more (#10757)](https://github.com/assistant-ui/assistant-ui/commit/ec023d0f9f2684d366e8462c213c414709741d7c) | aui-sec[bot] |
+| 2026-11-20 | [fix: run devtools registration and converter warnings in browser buil…](https://github.com/assistant-ui/assistant-ui/commit/9b9eeae3910247fc85ca40b5d7ced3ccb6dbc694) | okisdev |
+| 2026-11-19 | [ci(coverage): coverage shards balance cache misses from one shared pl…](https://github.com/assistant-ui/assistant-ui/commit/9b6c12d9c44df3a8d8e1bb32b76c9be5be9beb36) | Kinfe123 |
 | 2026-11-19 | [ci: durable example tests run in coverage and Python CI (#10692)](https://github.com/assistant-ui/assistant-ui/commit/f5bdd2bbe216964602c59887b885d135b17a6375) | Kinfe123 |
 | 2026-11-19 | [fix(react-ag-ui): rejoined clients persist one shared assistant answe…](https://github.com/assistant-ui/assistant-ui/commit/3ebd6d27281fd63d7542d79a341649368435d9ba) | okisdev |
-| 2026-11-19 | [ci(registry): filtered docs installs skip the Vercel CLI (#10541)](https://github.com/assistant-ui/assistant-ui/commit/c20914f3eef5de3bd25d54b10688fc278d272334) | Kinfe123 |
-| 2026-11-19 | [build: package docs no longer invalidate dependent package tasks (#10…](https://github.com/assistant-ui/assistant-ui/commit/fe99f9843218f19c938b6ca0ecb52271b2ffef18) | Kinfe123 |
-| 2026-11-19 | [fix(react-devtools): production builds render no DevToolsModal (#10516)](https://github.com/assistant-ui/assistant-ui/commit/1b37ba21d631221269b53dfb49b683f3fefe5bf7) | Kinfe123 |
-| 2026-11-19 | [fix(react-hook-form): guard submit_form's DOM checks (#10740)](https://github.com/assistant-ui/assistant-ui/commit/99167cd5b115ada495439386da2a4acf0fc708a0) | lhy-dcf |
-| 2026-11-19 | [fix(core): run development checks in browser builds (#10742)](https://github.com/assistant-ui/assistant-ui/commit/74199f892e29cc9377eb13b515de64a0ccadaf08) | rupic-app[bot] |
-| 2026-11-19 | [fix(perf): chrome spawn failures reject traces and clean up profiles …](https://github.com/assistant-ui/assistant-ui/commit/076c26f015d6d6aeec9d9640954c51da0e310ca0) | Kinfe123 |
-| 2026-11-19 | [feat(core): preserve redacted reasoning from external stores (#10515)](https://github.com/assistant-ui/assistant-ui/commit/ed4e64513d5e34a38488b5e77a390a7c5878b0b1) | Johnx-w |
-| 2026-11-19 | [docs(assistant-stream): recommend streamfold 0.1.20 (#10700)](https://github.com/assistant-ui/assistant-ui/commit/297420f1dcaf28965762dd4ceb3e2ae6799d352d) | Kinfe123 |
 
 [See all commits ↗](https://github.com/assistant-ui/assistant-ui/commits)
 

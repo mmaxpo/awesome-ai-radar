@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.7k |
+| ⭐ **Stars** | 61.8k |
 | 🍴 **Forks** | 3.6k |
 | 🐞 **Open issues + PRs** | [102](https://github.com/ayghri/i-have-adhd/issues) |
 | 💻 **Languages** | Python 85% · TypeScript 7% · JavaScript 6% · Shell 1% · PowerShell 1% |

@@ -20,43 +20,43 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 39.3k |
+| ⭐ **Stars** | 39.4k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [4.8k](https://github.com/tailscale/tailscale/issues) |
+| 🐞 **Open issues + PRs** | [4.7k](https://github.com/tailscale/tailscale/issues) |
 | 💻 **Languages** | Go 97% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `wireguard` `oauth` `sso` `2fa` `vpn` `tailscale` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2020-01-31 |
 | 📦 **Latest release** | [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 90.6 MB |
+| 💾 **Size** | 90.7 MB |
 | 🌐 **Website** | https://tailscale.com |
 
 ## 📦 Recent releases
 
 ### [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7)
-<sub>2026-11-12 · 6d ago</sub>
+<sub>2026-11-12 · 7d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.6](https://github.com/tailscale/tailscale/releases/tag/v1.104.6)
-<sub>2026-11-11 · 8d ago</sub>
+<sub>2026-11-11 · 9d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.5](https://github.com/tailscale/tailscale/releases/tag/v1.104.5)
-<sub>2026-11-03 · 16d ago</sub>
+<sub>2026-11-03 · 17d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.4](https://github.com/tailscale/tailscale/releases/tag/v1.104.4)
-<sub>2026-10-28 · 22d ago</sub>
+<sub>2026-10-28 · 23d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.2](https://github.com/tailscale/tailscale/releases/tag/v1.104.2)
-<sub>2026-10-21 · 29d ago</sub>
+<sub>2026-10-21 · 1mo ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [ipn/store/kubestore: cache TLS certs briefly on write replicas (#22103)](https://github.com/tailscale/tailscale/commit/c8ba9da543ff4fc1e28b341f2197dd2356b3c9fd) | davidsbond |
+| 2026-11-20 | [k8s-operator: stop PortRanges.All() at the last port in the range (#2…](https://github.com/tailscale/tailscale/commit/519a9f502ce2ebed5295fce4b8a3e4a1fccc992e) | Dev-next-gen |
+| 2026-11-19 | [feature/conn25: guard against an unusable Transit IP (#22513)](https://github.com/tailscale/tailscale/commit/2e8f381c2e1872b8b59e4b46cbd84786f3ecc689) | mazdakn |
+| 2026-11-19 | [go.mod: bump wg-go for hybrid pq log details](https://github.com/tailscale/tailscale/commit/d7d5d2a917a1197f30a65af5fe418bd8a2930bbf) | jwhited |
+| 2026-11-19 | [util/linuxfw: run without IPv6 rules when ip6tables fails to initiali…](https://github.com/tailscale/tailscale/commit/92f396d8e9bf28fc89d6da1e1e0ab9aceaa9e0e9) | bcreane |
+| 2026-11-19 | [wgengine/magicsock: update packetLooksLike docs](https://github.com/tailscale/tailscale/commit/d0512a9ef7790cd69336dabccad8ab3d351f769e) | jwhited |
+| 2026-11-19 | [control/controlknobs: clean up documentation and updater function (#2…](https://github.com/tailscale/tailscale/commit/d843b72e3564fdd4aad8792d4b288871b4d537f6) | sfllaw |
+| 2026-11-19 | [feature/conn25: use routecheck to pick amongst connectors](https://github.com/tailscale/tailscale/commit/f6483cc55a39ffa8c11fb255d7719ef3b0eadc9a) | franbull |
+| 2026-11-19 | [cmd/k8s-operator: clarify tag requirements (#15757)](https://github.com/tailscale/tailscale/commit/cc0716a2f82e5c056e167105dfd31926349e9030) | irbekrm |
 | 2026-11-19 | [cmd/k8s-operator: test ProxyGroup StatefulSet Pod management policy](https://github.com/tailscale/tailscale/commit/93ba239f2c8a1216e5e0a920953ce0481b11c691) | ChaosInTheCRD |
-| 2026-11-19 | [cmd/k8s-operator: start ProxyGroup Pods in parallel](https://github.com/tailscale/tailscale/commit/1af2fa9eeb472003e574abf841a04e440a6b1c8a) | ChaosInTheCRD |
-| 2026-11-19 | [cmd/k8s-operator,k8s-operator: test proxy liveness and readiness probes](https://github.com/tailscale/tailscale/commit/b76d891d987cb157399ddfbefa4946b6ee188f6f) | ChaosInTheCRD |
-| 2026-11-19 | [cmd/k8s-operator,k8s-operator: run liveness and readiness probes on P…](https://github.com/tailscale/tailscale/commit/6308edfdce3d259123e8a4606e79e7d0f4713757) | ChaosInTheCRD |
-| 2026-11-19 | [cmd/containerboot,kube/{certs,health}: test the /livez and /readyz ch…](https://github.com/tailscale/tailscale/commit/6e8f0f40cc6aa15b6b2398ba22c5b22ce37371b3) | ChaosInTheCRD |
-| 2026-11-19 | [cmd/containerboot,kube/{certs,health,localclient}: serve /livez and /…](https://github.com/tailscale/tailscale/commit/b5fa6773ce6999aae3d4dbfe546ac0de0a632cb5) | ChaosInTheCRD |
-| 2026-11-18 | [util/syspolicy, docs/windows: add HideWindowedUI system policy (#22447)](https://github.com/tailscale/tailscale/commit/c4d689ce42ac11ca70a546c6ed8958e88d05a573) | kari-ts |
-| 2026-11-18 | [various: add auth-exchange-attempts flag to up](https://github.com/tailscale/tailscale/commit/ed75aa3c1f822fa9b6432ce443961c1debad8d91) | mpminardi |
-| 2026-11-18 | [tstest/natlab: Fix typo in README sample command](https://github.com/tailscale/tailscale/commit/019902a601c65dd5ced304df59f97e617678b065) | fmarier |
-| 2026-11-18 | [wgengine/magicsock: remove logging from zero discokey to nonzero (#22…](https://github.com/tailscale/tailscale/commit/0ef7c4903731623981576614336e4a7f8c23fe4f) | cmol |
 
 [See all commits ↗](https://github.com/tailscale/tailscale/commits)
 

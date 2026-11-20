@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 68.2k |
+| ⭐ **Stars** | 68.3k |
 | 🍴 **Forks** | 27.7k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/scikit-learn/scikit-learn/issues) |
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 184.1 MB |
+| 💾 **Size** | 183.9 MB |
 | 🌐 **Website** | https://scikit-learn.org |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [TST Fix flaky test_logistic_cv_refit_false_non_elasticnet (#35456)](https://github.com/scikit-learn/scikit-learn/commit/2b275865c5c3a73d5c5f14be4b514cfc34cc9645) | cakedev0 |
-| 2026-11-19 | [PRF Faster `_fill_diagonal` and `_add_to_diagonal` for non-NumPy arra…](https://github.com/scikit-learn/scikit-learn/commit/3fdfb111e9d743fce0d0d0f5f9bb40514a1b4c52) | cakedev0 |
-| 2026-11-19 | [MNT implement findings for sandwich_dot (#35438)](https://github.com/scikit-learn/scikit-learn/commit/4d04711b86bea5a450771e145038a02b2a26478e) | lorentzenchr |
-| 2026-11-19 | [Bump the actions group across 1 directory with 3 updates (#35454)](https://github.com/scikit-learn/scikit-learn/commit/985184f60b6d6f3e1e01298bdbe9f9dc4ca46f34) | dependabot[bot] |
-| 2026-11-19 | [FIX Don't raise ConvergenceWarning when a callback stops LogisticRegr…](https://github.com/scikit-learn/scikit-learn/commit/6736ecdfeb10ab6450cff3cdcd7a2c4244f72b45) | betatim |
-| 2026-11-19 | [CI Use a GitHub Actions lockfile (#35452)](https://github.com/scikit-learn/scikit-learn/commit/60f6988b6dc41667c227ca30d81e169507287696) | virchan |
-| 2026-11-19 | [MNT Add custom agents setup files to .gitignore (#35302)](https://github.com/scikit-learn/scikit-learn/commit/b375ff6e7886d12e38d960deee7ab3cdfba164d5) | lorentzenchr |
-| 2026-11-19 | [CI Add job that tests for thread-safety bugs by enabling threaded par…](https://github.com/scikit-learn/scikit-learn/commit/2fb90462edc857fd88fe91e3743924842dd36635) | itamarst |
-| 2026-11-18 | [TST Add common tests for callback support (#34904)](https://github.com/scikit-learn/scikit-learn/commit/28670983af594da3af78b01b3da2fbbe0c8b2927) | jeremiedbb |
-| 2026-11-18 | [ENH warn in permutation_test_score when each group has a single label…](https://github.com/scikit-learn/scikit-learn/commit/d969f5de8133d62ab721cd676d61f1f99b831031) | jinchoi7651507 |
+| 2026-11-20 | [CI Lock the actions of the contributor type labeler workflow (#35470)](https://github.com/scikit-learn/scikit-learn/commit/0ab59f9bdcefd676c185b73ffc46352a7c532e07) | cakedev0 |
+| 2026-11-20 | [CI Add workflow to add contributor type labels on PRs (#35369)](https://github.com/scikit-learn/scikit-learn/commit/4f2a8dd82dc37fd20f3c185b253e8489b6c48c2c) | lesteve |
+| 2026-11-20 | [ENH Ridge: support `solver="cholesky"` for array API inputs (#35418)](https://github.com/scikit-learn/scikit-learn/commit/2dd5e2c7f03f4571c0aff7ccddcec21a4a6c88ca) | cakedev0 |
+| 2026-11-20 | [ENH allocate arrays for HGBT Splitter only once instead of in each it…](https://github.com/scikit-learn/scikit-learn/commit/1d07be8a30fdff4cf9ffae2e81ef9f2060952952) | lorentzenchr |
+| 2026-11-19 | [DOC improve User Guide on Linear Models - ElasticNet (#35428)](https://github.com/scikit-learn/scikit-learn/commit/5f6ffc020b1aa39e3333f55b6298a91810aed410) | lorentzenchr |
+| 2026-11-19 | [DOC fix filename reference to maintainer list in `scikit-learn-feedst…](https://github.com/scikit-learn/scikit-learn/commit/02feb7112478485bb6d7c5d00d6dc764fc9b5107) | AnneBeyer |
+| 2026-11-19 | [CI Skip LogisticRegression callback tests on Pyodide [pyodide] (#35459)](https://github.com/scikit-learn/scikit-learn/commit/5f9f6c495eb425eebccea64b92e9ad39a3c222dc) | AnneBeyer |
+| 2026-11-19 | [CI Open a tracking issue when the scheduled Pyodide build fails (#35462)](https://github.com/scikit-learn/scikit-learn/commit/8dbb149979a3cf14bb3f25db54ff047ef6dd6058) | AnneBeyer |
+| 2026-11-19 | [FIX Each callback context should be closed exactly once (#35447)](https://github.com/scikit-learn/scikit-learn/commit/a8803e4ec387f107bc09e1462fb563fd75301947) | betatim |
+| 2026-11-19 | [ENH HGBT use stack allocated buffers in histogram (#35441)](https://github.com/scikit-learn/scikit-learn/commit/d6a5828a494d99f4552893969f1900cf83be6769) | lorentzenchr |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

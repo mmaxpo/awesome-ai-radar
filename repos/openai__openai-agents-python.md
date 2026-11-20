@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 30.8k |
 | 🍴 **Forks** | 5.1k |
-| 🐞 **Open issues + PRs** | [42](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [51](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `llm` `python` `openai` `harness` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2025-03-11 |
 | 📦 **Latest release** | [v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 126.5 MB |
+| 💾 **Size** | 127.7 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
 
 ### [v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **[0.25.0](https://github.com/openai/openai-agents-python/compare/v0.24.0...v0.25.0) (2026-11-17)**
 > **Key Changes**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.24.0-alpha.8](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8) — Agents SDK v0.24.0-alpha.8 _(pre-release)_
-<sub>2026-11-16 · 3d ago</sub>
+<sub>2026-11-16 · 4d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.8**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.24.0-alpha.7](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.7) — Agents SDK v0.24.0-alpha.7 _(pre-release)_
-<sub>2026-11-08 · 11d ago</sub>
+<sub>2026-11-08 · 12d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.7**
 > **Highlights**
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.24.0-alpha.6](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6) — Agents SDK v0.24.0-alpha.6 _(pre-release)_
-<sub>2026-11-03 · 15d ago</sub>
+<sub>2026-11-03 · 16d ago</sub>
 
 > **Install the preview**
 > Use standard CPython 3.10–3.14 in a virtual environment. These wheels include the native runtime; no Rust toolchain or source build is needed. This preview is distributed through GitHub Releases, not PyPI.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [docs: Upgrade the GPT-Live demo to 1.1 (#6101)](https://github.com/openai/openai-agents-python/commit/6c4e4a29cd08eef454db6980d74da6afc8939d24) | seratch |
 | 2026-11-18 | [ci: run PyPI publish checks once on Python 3.14 (#6070)](https://github.com/openai/openai-agents-python/commit/91fb508a8931016efa793b033147d08cd20308cf) | seratch |
 | 2026-11-18 | [fix: sandbox memory selection across UTC offsets (#6066)](https://github.com/openai/openai-agents-python/commit/e7ce15a25b336bb3d0840ad16dee597f69a6e6d3) | seratch |
 | 2026-11-18 | [fix: support opt-in JSON validation for Codex tool parameters (#6067)](https://github.com/openai/openai-agents-python/commit/54492d112b5c3366cc30f35abd60c46fa92140c2) | seratch |
@@ -103,7 +104,6 @@
 | 2026-11-17 | [fix: align model defaults with TS SDK (#6064)](https://github.com/openai/openai-agents-python/commit/d5287b741dfd93de3ce1625f98b342cd0c4c455e) | seratch |
 | 2026-11-17 | [fix(deps): bump openai from 3.29.0 to 3.48.0 (#6054)](https://github.com/openai/openai-agents-python/commit/a4a4fa4cf0e34516df57871196de360253e614fe) | dependabot[bot] |
 | 2026-11-17 | [fix(deps): update fastapi requirement from >=0.162.0 to >=0.162.2 in …](https://github.com/openai/openai-agents-python/commit/9a3bce3d0ab013d64aa5591e92a4458d1c658f8b) | dependabot[bot] |
-| 2026-11-17 | [fix(deps): update openai requirement from <4,>=3.42.1 to >=3.48.0,<4 …](https://github.com/openai/openai-agents-python/commit/5e0f94458e91eb93f619b29045f7a2ebcc1f4f3e) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/openai/openai-agents-python/commits)
 

@@ -22,42 +22,42 @@
 |---|---|
 | ⭐ **Stars** | 38.8k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [464](https://github.com/CopilotKit/CopilotKit/issues) |
+| 🐞 **Open issues + PRs** | [470](https://github.com/CopilotKit/CopilotKit/issues) |
 | 💻 **Languages** | TypeScript 80% · Python 6% · MDX 5% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` `agent` `agents` `ai-agent` `ai-assistant` `assistant` `copilot` `copilot-chat` `agent-native` `agentic-ai` `assistant-chat-bots` `generative-ui` `js` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2023-06-19 |
 | 📦 **Latest release** | [v1.89.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.89.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 907.6 MB |
+| 💾 **Size** | 908.7 MB |
 | 🌐 **Website** | https://docs.copilotkit.ai |
 
 ## 📦 Recent releases
 
 ### [v1.89.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.89.0)
-<sub>2026-11-17 · yesterday</sub>
+<sub>2026-11-17 · 2d ago</sub>
 
 > This release improves performance and reliability for long Intelligence threads, adds support for distinct agent display names, and expands MCP Apps with model-context sharing.
 
 ### [v1.88.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.88.0)
-<sub>2026-11-13 · 5d ago</sub>
+<sub>2026-11-13 · 6d ago</sub>
 
 > This release adds server-side agent runs through Intelligence, richer Learning capture, and several fixes to chat rendering and tool-call handling. It also includes one breaking change to thread naming.
 
 ### [v1.87.1](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.87.1)
-<sub>2026-11-12 · 6d ago</sub>
+<sub>2026-11-12 · 7d ago</sub>
 
 > This patch release fixes A2UI rendering for catalogs that declare protocol version 1.0 when streaming Direct JSON.
 
 ### [python-sdk/v0.1.97](https://github.com/CopilotKit/CopilotKit/releases/tag/python-sdk/v0.1.97)
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > Python SDK release: copilotkit 0.1.97
 > https://pypi.org/project/copilotkit/0.1.97/
 
 ### [v1.87.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.87.0)
-<sub>2026-11-11 · 7d ago</sub>
+<sub>2026-11-11 · 8d ago</sub>
 
 > This release adds support for rendering A2UI 1.0 operations alongside the existing v0.9 protocol, so agents emitting native 1.0 surfaces (such as those from ADK) now render correctly without breaking existing integrations.
 
@@ -65,16 +65,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [ci: pin two Playwright jobs to Ubuntu 24.04 (#8477)](https://github.com/CopilotKit/CopilotKit/commit/567211b7edff7dde57cfc9b617655344004253c0) | BenTaylorDev |
-| 2026-11-18 | [ci: pin two Playwright jobs to Ubuntu 24.04](https://github.com/CopilotKit/CopilotKit/commit/3af0521298e4267b2f94cbbee49d5540cb0afb2b) | AlemTuzlak |
-| 2026-11-18 | [chore(deps): update ruby/setup-ruby action to v1.341.0 (#8464)](https://github.com/CopilotKit/CopilotKit/commit/d85b612a3132b5d1113da92dc0c4beb06349b923) | renovate[bot] |
-| 2026-11-17 | [docs(readme): link OpenFuse under its new repository name (#8398)](https://github.com/CopilotKit/CopilotKit/commit/ff6f3b03267159cbbf70f9878d988adf4968d022) | tylerslaton |
-| 2026-11-17 | [chore: release monorepo v1.89.0 (#8457)](https://github.com/CopilotKit/CopilotKit/commit/99b36441e8a69821c742b3a052327f88032cf9b7) | dustywusty |
-| 2026-11-17 | [chore: release monorepo v1.89.0](https://github.com/CopilotKit/CopilotKit/commit/f5975b2002b56bd58ccab3bdcd6621f2e18a0393) | dustywusty |
-| 2026-11-17 | [perf(core,react-core): load long Intelligence threads in one burst (#…](https://github.com/CopilotKit/CopilotKit/commit/e8005d4587c64b44ee68ae225e73e5bc3c28a267) | dustywusty |
-| 2026-11-17 | [feat(showcase): register Omnara demos (#8286)](https://github.com/CopilotKit/CopilotKit/commit/ae69d61a06b39260e84d23fe143ab9433cfb5606) | contextablemark |
-| 2026-11-17 | [chore: pin @ag-ui/client, core and encoder 1.0.5](https://github.com/CopilotKit/CopilotKit/commit/c63ac314ca3686e0781b6dbd772e44cf5b443651) | mme |
-| 2026-11-17 | [docs(showcase): record final-source Omnara hosted checks](https://github.com/CopilotKit/CopilotKit/commit/ff2c9f243ee032be108d7f8138265e8b9bbb7af1) | contextablemark |
+| 2026-11-20 | [chore: release docs to prod (#8510)](https://github.com/CopilotKit/CopilotKit/commit/2b4d787448fec0741c969c28424149184fc472ff) | AlemTuzlak |
+| 2026-11-20 | [chore: release docs e6ea48b50848122956cb6f0a8189816ff39f6e1c](https://github.com/CopilotKit/CopilotKit/commit/b16b18c781f5230ec0ed0289c08c05e6e5a44dfd) | AlemTuzlak |
+| 2026-11-20 | [fix(showcase): skip undeployed integrations in the compatibility audi…](https://github.com/CopilotKit/CopilotKit/commit/e6ea48b50848122956cb6f0a8189816ff39f6e1c) | contextablemark |
+| 2026-11-20 | [feat(examples): a live A2UI canvas, drawn by Express or Antigravity (…](https://github.com/CopilotKit/CopilotKit/commit/fd330d40cc626a67a6f8470a3e9475ab50a5d3e4) | contextablemark |
+| 2026-11-20 | [fix(examples): bound the A2UI canvas startup probes by the deadline](https://github.com/CopilotKit/CopilotKit/commit/b1fee02b6cc488df6063ecba100dbf2ad31c5ce6) | jerelvelarde |
+| 2026-11-20 | [fix(examples): validate legacy binary parts before charging the A2UI …](https://github.com/CopilotKit/CopilotKit/commit/c1074d392530813301b64890ed8cb94160adb0ab) | jerelvelarde |
+| 2026-11-20 | [fix(examples): end an A2UI canvas Express run in an error when it can…](https://github.com/CopilotKit/CopilotKit/commit/0b0a06e532f259031d1441215896a03b6a770f56) | jerelvelarde |
+| 2026-11-20 | [fix(examples): keep the A2UI canvas side by side on foldables (#8509)](https://github.com/CopilotKit/CopilotKit/commit/53c49b4fd50cddf93a9e9182f5af2b2d6cb7da60) | contextablemark |
+| 2026-11-20 | [style: auto-fix formatting](https://github.com/CopilotKit/CopilotKit/commit/4bff86c0e9e1dc3d4934bc39232e979c780eee46) | github-actions[bot] |
+| 2026-11-20 | [docs(examples): describe the A2UI canvas startup, quota and hand-back…](https://github.com/CopilotKit/CopilotKit/commit/33bb4617bc9606a0b48767fab0544bcb4e7d8107) | jerelvelarde |
 
 [See all commits ↗](https://github.com/CopilotKit/CopilotKit/commits)
 

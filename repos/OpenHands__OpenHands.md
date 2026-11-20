@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 93.8k |
+| ⭐ **Stars** | 93.9k |
 | 🍴 **Forks** | 12.6k |
 | 🐞 **Open issues + PRs** | [1.2k](https://github.com/OpenHands/OpenHands/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `artificial-intelligence` `llm` `chatgpt` `claude-ai` `cli` `developer-tools` `gpt` `openai` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2024-03-13 |
 | 📦 **Latest release** | [v1.42.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.42.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 697.9 MB |
+| 💾 **Size** | 703.7 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
 
 ### [v1.42.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.42.0)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **1.42.0 (2026-11-18)**
 > **What's Changed**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.41.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.41.0)
-<sub>2026-11-16 · 2d ago</sub>
+<sub>2026-11-16 · 3d ago</sub>
 
 > **1.41.0 (2026-11-16)**
 > **What's Changed**
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.39.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.39.0)
-<sub>2026-11-11 · 7d ago</sub>
+<sub>2026-11-11 · 8d ago</sub>
 
 > **1.39.0 (2026-11-11)**
 > **What's Changed**
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0)
-<sub>2026-11-10 · 9d ago</sub>
+<sub>2026-11-10 · 10d ago</sub>
 
 > **1.38.0 (2026-11-10)**
 > **What's Changed**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [chore(deps-dev): bump msw from 3.0.4 to 3.0.5 in the testing group (#…](https://github.com/OpenHands/OpenHands/commit/7c49747da2860bdce4620b0fb4810ae19456c676) | dependabot[bot] |
-| 2026-11-19 | [chore(deps-dev): bump prettier from 3.9.10 to 3.10.0 in the eslint gr…](https://github.com/OpenHands/OpenHands/commit/e73508897e7fd275fe11729b3fb9df3143dac9d1) | dependabot[bot] |
-| 2026-11-19 | [chore(deps): bump lucide-react from 1.71.0 to 1.72.0 (#19870)](https://github.com/OpenHands/OpenHands/commit/93557fa3f581e4292098265c5e8917027c6dcc94) | dependabot[bot] |
-| 2026-11-19 | [chore(deps): bump posthog-js from 1.447.10 to 1.447.12 (#19868)](https://github.com/OpenHands/OpenHands/commit/a61ba305c1de3f66d625c757fa42256a082b15df) | dependabot[bot] |
-| 2026-11-19 | [chore(deps): bump vite from 8.3.7 to 8.3.8 (#19867)](https://github.com/OpenHands/OpenHands/commit/12aa3e2c9cd952f081cd5cdad2a3982f6d3f3b70) | dependabot[bot] |
-| 2026-11-19 | [chore(deps): bump driver.js from 1.11.0 to 1.12.0 (#19869)](https://github.com/OpenHands/OpenHands/commit/17c986f10a73c02ad237ae861f4703913baad187) | dependabot[bot] |
-| 2026-11-19 | [docs(verify-openhands): map maintenance 2026-11-19 (#19873)](https://github.com/OpenHands/OpenHands/commit/8b49946eeeeafa89ec160aae601341eac2c0bc1c) | enyst |
-| 2026-11-19 | [fix(automations): keep the setup form when switching conversations (#…](https://github.com/OpenHands/OpenHands/commit/e1b8b60f25084a64412c3a2789a921034fc895c7) | ak684 |
-| 2026-11-18 | [docs(verify-openhands): list Settings → Experimental as pending in No…](https://github.com/OpenHands/OpenHands/commit/31c57c207be72d0a228ea7a7e68a3a81bc98bdd5) | enyst |
-| 2026-11-18 | [perf(chat): virtualize the conversation message list (#17820)](https://github.com/OpenHands/OpenHands/commit/f6cf44d54de492e754da4a842aa43cf5e1a280ce) | analisaperlengkapan |
+| 2026-11-20 | [ci: grant contents write to the release-ready job (#19615)](https://github.com/OpenHands/OpenHands/commit/4cc55de38c788b8b3dbf805dff729323cba30287) | SaltGardenia |
+| 2026-11-20 | [chore: bump agent-server to 1.63.1, automation to 1.34.1, extensions …](https://github.com/OpenHands/OpenHands/commit/bafd9768446a2c2e33475f682e534c801cf5cc17) | openhands-release-bot[bot] |
+| 2026-11-19 | [docs(verify-openhands): map Settings → Experimental and reactions as …](https://github.com/OpenHands/OpenHands/commit/428b3dc2a0e8d3d0f689a909e2607e33d973da76) | enyst |
+| 2026-11-19 | [feat(chat): show the agent's message edits (experimental) (#19794)](https://github.com/OpenHands/OpenHands/commit/e66610e25afedbea7c3f68f8c1e42f6d1055301a) | enyst |
+| 2026-11-19 | [fix(settings): list Experimental last, after Secrets (#19881)](https://github.com/OpenHands/OpenHands/commit/e327bff89f5b4258cda336a2be80c19fa0707793) | enyst |
+| 2026-11-19 | [feat(chat): render experimental decision cards (#19789)](https://github.com/OpenHands/OpenHands/commit/1b3114efc242671b5d40eb83882bc3a29de682c0) | enyst |
+| 2026-11-19 | [chore: bump agent-server to 1.63.0, automation to 1.34.0, extensions …](https://github.com/OpenHands/OpenHands/commit/2fa07b95432ed40cddf67d0e81630078b67ebe9d) | openhands-release-bot[bot] |
+| 2026-11-19 | [feat(settings): Features page for experimental user feature flags, wi…](https://github.com/OpenHands/OpenHands/commit/ebae4147272bf1244e85eb898e48f61a5d23b776) | enyst |
+| 2026-11-19 | [chore: bump agent-server to 1.62.0, automation to 1.33.0, extensions …](https://github.com/OpenHands/OpenHands/commit/32e0074fe971267170c0e839f6e245610b0c5dac) | openhands-release-bot[bot] |
+| 2026-11-19 | [ci: open one bot PR for the agent-server, automation and extensions p…](https://github.com/OpenHands/OpenHands/commit/f051b907528e20cfdb78e46bebaf3fafa1451bc0) | VascoSch92 |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 

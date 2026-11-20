@@ -21,16 +21,16 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 14.8k |
-| 🍴 **Forks** | 797 |
-| 🐞 **Open issues + PRs** | [97](https://github.com/google/ax/issues) |
+| 🍴 **Forks** | 798 |
+| 🐞 **Open issues + PRs** | [101](https://github.com/google/ax/issues) |
 | 💻 **Languages** | Go 92% · Shell 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-03-30 |
 | 📦 **Latest release** | [v0.3.1](https://github.com/google/ax/releases/tag/v0.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 45.2 MB |
+| 💾 **Size** | 45.1 MB |
 | 🌐 **Website** | https://agentexecutor.io |
 
 ## 📦 Recent releases
@@ -51,12 +51,12 @@
 > _No notes._
 
 ### [v0.2.2](https://github.com/google/ax/releases/tag/v0.2.2)
-<sub>2026-07-23 · 3mo ago</sub>
+<sub>2026-07-23 · 4mo ago</sub>
 
 > _No notes._
 
 ### [v0.2.1](https://github.com/google/ax/releases/tag/v0.2.1)
-<sub>2026-07-22 · 3mo ago</sub>
+<sub>2026-07-22 · 4mo ago</sub>
 
 > _No notes._
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [README: shorten quick start around install.sh and ax local/install (#…](https://github.com/google/ax/commit/af62e9da5df390495151ac0c9390559ed09c1be9) | rakyll |
-| 2026-11-18 | [api: return Empty from Delete RPCs, and NotFound for a missing resour…](https://github.com/google/ax/commit/f35661116010869161530c893dd6ea6df60b017e) | yongruilin |
-| 2026-11-18 | [feat(axclient): add a public client package for reaching ax-server (#…](https://github.com/google/ax/commit/8e2a187a622c3d33312ba4b349f921efe604fe72) | YoyinZyc |
-| 2026-11-18 | [release: publish ax-runner-volume, with a switch to mount it by defau…](https://github.com/google/ax/commit/1e27c9761c063ad38a970b9fa3ac3dfc6f79f233) | MushuEE |
-| 2026-11-18 | [runner: use MkdirTemp for non-root RunDir fallback (#644)](https://github.com/google/ax/commit/3be65a4035749291ccbcc000e11af068368ba13d) | aprajitaarora13 |
-| 2026-11-18 | [Runner pull agent (#637)](https://github.com/google/ax/commit/f4a920324ab5acdf32922a99f184dd373f3fde0e) | itssimrank |
-| 2026-11-18 | [task: change TaskStatus.ate_actor_template to ObjectRef ate_template …](https://github.com/google/ax/commit/c097322db165059a81b8c8a1079a85c9b4233165) | siyuanfoundation |
-| 2026-11-18 | [runner, substrate, e2e: address review follow-ups from #620–#622 (#624)](https://github.com/google/ax/commit/18223db5d93256099a2fe3a2f83a5850ca35b2c7) | aprajitaarora13 |
-| 2026-11-18 | [examples: bind a Gateway to the Claude Code example (#638)](https://github.com/google/ax/commit/239bf4c660e76aa116d26901b33a29970cb78707) | yongruilin |
-| 2026-11-18 | [runnerhttp, server: add :8081 runner HTTP handler, Actor JWT auth, an…](https://github.com/google/ax/commit/7c4ce3a7f4afbad84d8456ebe532aa9fa8ef7608) | itssimrank |
+| 2026-11-20 | [fix(promote): handle a finished task and a workspace's setup gateway …](https://github.com/google/ax/commit/de7de9052233b67da83bf1df282ccd6b6f9dc356) | yongruilin |
+| 2026-11-20 | [hack/hero-demo: check the warm workspace snapshot in Step 2 (#663)](https://github.com/google/ax/commit/b33d8cf1c137e48991ee947a966d8b13b97303f6) | YoyinZyc |
+| 2026-11-20 | [hack/hero-demo: pin Antigravity starter image to v0.0.0-rc.2 (#662)](https://github.com/google/ax/commit/3b20899899ba11264d212253834014448368535e) | Lukeluds |
+| 2026-11-20 | [examples: use the published ateworker-gvisor v1.0.0 image in workerpo…](https://github.com/google/ax/commit/77c13ca1d8d467c1f2beff4a809295b2fa235f20) | MushuEE |
+| 2026-11-19 | [fix(server): ignore client-supplied uid, timestamps and status (#659)](https://github.com/google/ax/commit/2a747da1079469d986e07218ab44d15fcc914d88) | yongruilin |
+| 2026-11-19 | [README: require Kubernetes 1.37+ for existing clusters (#658)](https://github.com/google/ax/commit/f1510ff1b400d5f5ce85ac571c3fad4a45c5c6a9) | MushuEE |
+| 2026-11-19 | [ax-server, e2e: enable workspace pre-warming by default and add share…](https://github.com/google/ax/commit/cb867b620bd490bd6fe3127d7034a4dea3ca9acf) | itssimrank |
+| 2026-11-19 | [api: paginate list RPCs with page tokens (#656)](https://github.com/google/ax/commit/749fa9c536a07237936160644964f7290f7e8737) | yongruilin |
+| 2026-11-19 | [hack/hero-demo: allow storage.googleapis.com and opt into runtime agy…](https://github.com/google/ax/commit/29f6a04e123cab1c589f45959f26c7ba4dd6c35f) | Lukeluds |
+| 2026-11-19 | [Fix/friction log local install (#655)](https://github.com/google/ax/commit/c03f481d523334fbf23ce393cfe03fe38afd1417) | YoyinZyc |
 
 [See all commits ↗](https://github.com/google/ax/commits)
 

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [420](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [419](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
@@ -89,6 +89,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [docs: add llm-token-visualizer to README examples (#6586)](https://github.com/PyO3/pyo3/commit/be9e428ab7573552c65aa9e7a7a0c6d14b06fd5d) | Mattbusel |
+| 2026-11-19 | [Make `PyFrame` available on `abi3`/`graalpy`/`pypy` (#6589)](https://github.com/PyO3/pyo3/commit/b122a1237643aedf89f16a33a92b6204a498957e) | bschoenmaeckers |
 | 2026-11-19 | [Introspection: add `pyprotocol!` to declare protocols in the stubs (#…](https://github.com/PyO3/pyo3/commit/2432980aa4aa42618e4423c449cc8acab8040cc7) | jonasdedden |
 | 2026-11-17 | [Use `cfg_select` in `OsStr` conversions (#6587)](https://github.com/PyO3/pyo3/commit/a6addae8948adedafd09b2832edf3fa23d282b16) | bschoenmaeckers |
 | 2026-11-16 | [build(deps): bump the github-actions group across 1 directory with 2 …](https://github.com/PyO3/pyo3/commit/fcee2dc3d6bc5848922c74fd096e7548cf68856a) | dependabot[bot] |
@@ -97,8 +99,6 @@
 | 2026-11-13 | [avoid leaking integers when creating slice objects (#6575)](https://github.com/PyO3/pyo3/commit/bafdacd76db5612488bcf941a89bb312fc30851f) | davidhewitt |
 | 2026-11-13 | [ci: fix lint failures nov 26 (#6576)](https://github.com/PyO3/pyo3/commit/c99586455deae0394c5a53e43db9333dd6937d4c) | davidhewitt |
 | 2026-11-02 | [feat: introduce stack-allocated `PyBuffer` (#5894)](https://github.com/PyO3/pyo3/commit/f41d7e8799cad7f1c393d00276a4fa7b83acf885) | winstxnhdw |
-| 2026-11-02 | [build(deps): bump the github-actions group with 2 updates (#6567)](https://github.com/PyO3/pyo3/commit/3057df68bc6e3539cba9e34dc78be7473a307cbd) | dependabot[bot] |
-| 2026-11-01 | [fix cases of incorrect allocator or deallocator inheritance (#6559)](https://github.com/PyO3/pyo3/commit/aa0a05f792cdac4290021ec01c9adb6fc23e4a14) | davidhewitt |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

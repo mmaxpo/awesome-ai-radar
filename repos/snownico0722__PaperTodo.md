@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 2.8k |
 | 🍴 **Forks** | 148 |
-| 🐞 **Open issues + PRs** | [32](https://github.com/snownico0722/PaperTodo/issues) |
+| 🐞 **Open issues + PRs** | [33](https://github.com/snownico0722/PaperTodo/issues) |
 | 💻 **Languages** | C# 92% · C 6% · JavaScript 1% · HTML 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `avalonedit` `csharp` `markdown` `minimalist` `notes` `todo` `windows` `wpf` `desktop` `note-taking` `productivity` `sticky-notes` |
@@ -30,12 +30,12 @@
 | 📅 **Created** | 2026-05-27 |
 | 📦 **Latest release** | [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 104.0 MB |
+| 💾 **Size** | 103.3 MB |
 
 ## 📦 Recent releases
 
 ### [v4.0.0-beta2](https://github.com/snownico0722/PaperTodo/releases/tag/v4.0.0-beta2) — PaperTodo v4.0.0-beta2 _(pre-release)_
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > 这是一个测试版，可能存在很多问题、bug。
 > This is a beta version; it may contain many issues and bugs.
@@ -46,7 +46,7 @@
 > …
 
 ### [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — PaperTodo v3.40
-<sub>2026-10-20 · 29d ago</sub>
+<sub>2026-10-20 · 1mo ago</sub>
 
 > **纸片与胶囊**
 > - **快捷关闭纸片**：展开的纸片支持 Ctrl+W 或标题栏中键关闭。
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [修复纸片背景设置显示并调整正文间距高级模式可见性 (#474)](https://github.com/snownico0722/PaperTodo/commit/2fd2b580d978f810d4b29065341e6ed890060c29) | snownico0722 |
+| 2026-11-19 | [Merge pull request #473 from snownico0722/feature/paper-content-spacing](https://github.com/snownico0722/PaperTodo/commit/6a720ed7bf55265b3d686dd795a2706f669cdc56) | snownico0722 |
+| 2026-11-19 | [让两组正文间距支持键盘选择并保留焦点 [ci]](https://github.com/snownico0722/PaperTodo/commit/644caa33f89471397a71ecca12e8ca90a158a3fe) | snownico0722 |
+| 2026-11-19 | [修复笔记调整行距后丢失本地正体和粗体字形](https://github.com/snownico0722/PaperTodo/commit/b4653d334145245e995eec74aa50bb9a5d0e2875) | snownico0722 |
+| 2026-11-19 | [在已加载的纸片窗口上验证换行与字体继承 [ci]](https://github.com/snownico0722/PaperTodo/commit/51d4925e168a722c452c6e7f0c7750bcd28d995d) | snownico0722 |
+| 2026-11-19 | [支持独立设置笔记行距与待办条目间距 [ci]](https://github.com/snownico0722/PaperTodo/commit/c17a0d5722aece7917ffbc2fba6f949bb4af1d02) | snownico0722 |
 | 2026-11-19 | [Place capture exclusion in unreleased notes](https://github.com/snownico0722/PaperTodo/commit/b0dd147759377687ae5ba30e5815395b7854947b) | snownico0722 |
 | 2026-11-19 | [Complete unreleased notes for PRs 454, 468 and 470](https://github.com/snownico0722/PaperTodo/commit/c21f517c4476f0ec962d13ab3b26a649d8034be1) | snownico0722 |
 | 2026-11-19 | [Complete unreleased notes for PRs 454, 468 and 470](https://github.com/snownico0722/PaperTodo/commit/5d9ffc7e60199a01edb421d57a80891fe541eaba) | snownico0722 |
 | 2026-11-19 | [Document merged settings and capsule improvements](https://github.com/snownico0722/PaperTodo/commit/1b9e9f79dc2c8d0c72aaf79320f6551d4d1c3784) | snownico0722 |
-| 2026-11-19 | [Document merged settings and capsule improvements](https://github.com/snownico0722/PaperTodo/commit/d3c19ec014a2ca8d9f21fa3d4b7a7d824dc3ff88) | snownico0722 |
-| 2026-11-19 | [Merge pull request #470 from snownico0722/feat/settings-cleanup-and-e…](https://github.com/snownico0722/PaperTodo/commit/d53bc19ec4877da9f2a04ade3697c58efe290c00) | snownico0722 |
-| 2026-11-19 | [Merge pull request #468 from snownico0722/feat/capsule-outline-enhanc…](https://github.com/snownico0722/PaperTodo/commit/a201b4e3b7816033a642a0b4022fcc3a7e81ca55) | snownico0722 |
-| 2026-11-19 | [Merge pull request #454 from snownico0722/feat/453-capture-exclusion](https://github.com/snownico0722/PaperTodo/commit/92e3d7050826d3c9ac8b4d60accf6ef4e88b2368) | snownico0722 |
-| 2026-11-19 | [Refresh stacked settings merge after capture scope fix](https://github.com/snownico0722/PaperTodo/commit/1af026c9b5958131db867c8f37c3f57f0df71e3c) | snownico0722 |
-| 2026-11-19 | [Refresh stacked capsule outline merge after capture scope fix](https://github.com/snownico0722/PaperTodo/commit/dedaf9f67a97b806ea219fd9ef5a3b6e76fed2d9) | snownico0722 |
 
 [See all commits ↗](https://github.com/snownico0722/PaperTodo/commits)
 

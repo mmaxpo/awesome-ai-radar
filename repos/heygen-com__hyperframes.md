@@ -20,23 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 86.8k |
+| ⭐ **Stars** | 87.3k |
 | 🍴 **Forks** | 8.1k |
-| 🐞 **Open issues + PRs** | [299](https://github.com/heygen-com/hyperframes/issues) |
+| 🐞 **Open issues + PRs** | [307](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `framework` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-03-10 |
-| 📦 **Latest release** | [v0.9.70](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.70) — 2026-11-19 |
+| 📦 **Latest release** | [v0.9.72](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.72) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 534.5 MB |
+| 💾 **Size** | 535.7 MB |
 | 🌐 **Website** | https://hyperframes.heygen.com |
 
 ## 📦 Recent releases
 
-### [v0.9.70](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.70)
+### [v0.9.72](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.72)
+<sub>2026-11-20 · today</sub>
+
+> **HyperFrames v0.9.72**
+> Released on 2026-11-20.
+> Renders limited by a CPU quota, such as a Kubernetes CPU limit, get their workers back, so long renders run at full speed again. Sealed previews restack layers from the layers panel and the timeline, and their videos keep colour grading and audio effects.
+> **Fixes**
+> - **Engine:** Renders under a CPU quota get their workers back ([db5950c00](https://github.com/heygen-com/hyperframes/commit/db5950c0049cd38b4fa73712121556c763621211), [#8262](https://github.com/heygen-com/hyperframes/pull/8262)).
+> - **Studio:** Dragging a layer in a sealed preview's layers panel restacks it ([9c3bfe150](https://github.com/heygen-com/hyperframes/commit/9c3bfe150eada7728d1d99f4b957aeba863cb081), [#8209](https://github.com/heygen-com/hyperframes/pull/8209)).
+> …
+
+### [v0.9.71](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.71)
 <sub>2026-11-19 · today</sub>
+
+> **HyperFrames v0.9.71**
+> Released on 2026-11-19.
+> Cancelling a render now stops its compile, and files a compile downloads have a size cap and one shared deadline. Renders read frames from MP4s whose seek index leaves out the first keyframe, and SVG-heavy compositions stay within the compile size limit.
+> **Fixes**
+> - **Engine:** Extract frames from MP4s whose seek index leaves out the first keyframe ([9813a6cbe](https://github.com/heygen-com/hyperframes/commit/9813a6cbef97fffda70f5a147b87747f7e35a77b), [#8252](https://github.com/heygen-com/hyperframes/pull/8252)).
+> - **Media Use:** Duck, cut, transcribe, dither and audio scripts print control characters as escapes ([98f548447](https://github.com/heygen-com/hyperframes/commit/98f548447e44307d4c240cf100bfb15a5e362b2f), [#8235](https://github.com/heygen-com/hyperframes/pull/8235)).
+> …
+
+### [v0.9.70](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.70)
+<sub>2026-11-19 · yesterday</sub>
 
 > **HyperFrames v0.9.70**
 > Released on 2026-11-19.
@@ -47,7 +69,7 @@
 > …
 
 ### [v0.9.69](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.69)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **HyperFrames v0.9.69**
 > Released on 2026-11-18.
@@ -58,7 +80,7 @@
 > …
 
 ### [v0.9.68](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.68)
-<sub>2026-11-18 · today</sub>
+<sub>2026-11-18 · yesterday</sub>
 
 > **HyperFrames v0.9.68**
 > Released on 2026-11-18.
@@ -68,36 +90,20 @@
 > **Fixes**
 > …
 
-### [v0.8.190-hdr.2](https://github.com/heygen-com/hyperframes/releases/tag/v0.8.190-hdr.2) _(pre-release)_
-<sub>2026-11-18 · today</sub>
-
-> **What's Changed**
-> **Other Changes**
-> * fix(cli): isolate the skills freshness check on the hdr prerelease by @terencecho in https://github.com/heygen-com/hyperframes/pull/8199
-> **Full Changelog**: https://github.com/heygen-com/hyperframes/compare/v0.8.190-hdr.1...v0.8.190-hdr.2
-
-### [v0.9.28-alpha.4](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.28-alpha.4) _(pre-release)_
-<sub>2026-11-18 · today</sub>
-
-> **What's Changed**
-> **Other Changes**
-> * fix(cli): isolate the skills freshness check on the alpha prerelease by @terencecho in https://github.com/heygen-com/hyperframes/pull/8197
-> **Full Changelog**: https://github.com/heygen-com/hyperframes/compare/v0.9.28-alpha.3...v0.9.28-alpha.4
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [fix(producer): cap compile-time remote downloads, give them one deadl…](https://github.com/heygen-com/hyperframes/commit/77ea9d80cfc8b347ccca966487a8ff902ce28320) | miguel-heygen |
-| 2026-11-19 | [fix: stop crashing on SVG elements named template (#8241)](https://github.com/heygen-com/hyperframes/commit/d106f9c8c7eacce9ae30275f9e78d715dd269e10) | miguel-heygen |
-| 2026-11-19 | [fix(core): read selector aliases only from what the compiler wrote (#…](https://github.com/heygen-com/hyperframes/commit/def770ed9886171789f420d9cd3fcd79eaace91b) | miguel-heygen |
-| 2026-11-19 | [fix(core): page runtimes carry no wide characters, so pages stay one …](https://github.com/heygen-com/hyperframes/commit/01a5e948beb984e0ea19f8939d4a5ae2b242f117) | miguel-heygen |
-| 2026-11-19 | [fix(media-use): re-freezing a recipe archives only under an integer v…](https://github.com/heygen-com/hyperframes/commit/e383abf475b6ebd5072d6aa1cb380bc7d984c629) | WaterrrForever |
-| 2026-11-19 | [chore: release v0.9.70 (#8234)](https://github.com/heygen-com/hyperframes/commit/592a9feff9aacce8c25246b04aa4fda54bea294d) | miguel-heygen |
-| 2026-11-19 | [fix(media-use): recipe, prefs and SFX lines show control characters a…](https://github.com/heygen-com/hyperframes/commit/36b60d18b488999a36748693ef04fc3516e40aa4) | WaterrrForever |
-| 2026-11-19 | [fix(render): keep segment checkpoints in the local cache (#8137)](https://github.com/heygen-com/hyperframes/commit/e5283f63b90dfe1bd4da45391dcd6969d3475462) | terencecho |
-| 2026-11-19 | [fix(skills): raise the launcher minimum to 0.9.68 (#8232)](https://github.com/heygen-com/hyperframes/commit/a4995e9e6f3856292bf957e5b376600a634b918c) | terencecho |
-| 2026-11-19 | [perf(core): rewrite svg attribute selectors in linear time over many …](https://github.com/heygen-com/hyperframes/commit/c672ef0e5d03a9f7410db7352172bd8fc75ddde6) | miguel-heygen |
+| 2026-11-20 | [fix(studio): a sealed move, resize or turn takes GSAP's route when GS…](https://github.com/heygen-com/hyperframes/commit/468ab907ee9836e076abdd7d0e0611c475dc1271) | miguel-heygen |
+| 2026-11-20 | [fix(studio): a sealed resize, move or turn typed or made by the agent…](https://github.com/heygen-com/hyperframes/commit/89edb0af0059fc599ec7b17c1078ab49a46d9da2) | miguel-heygen |
+| 2026-11-20 | [fix(studio): agent tools see the film in a sealed preview (#8281)](https://github.com/heygen-com/hyperframes/commit/c34df57abdb02b07916aa2a26c5c1be8dcd2ac64) | miguel-heygen |
+| 2026-11-20 | [fix(studio): a sealed crop lands where it was dragged (#8279)](https://github.com/heygen-com/hyperframes/commit/a755e3f58588024cdbc3f698e3d7673a4760dbc2) | miguel-heygen |
+| 2026-11-20 | [fix(core): a sub-composition's script re-run keeps the preview at its…](https://github.com/heygen-com/hyperframes/commit/33272097272eeda1b082879a2d79f38a9e47526b) | miguel-heygen |
+| 2026-11-20 | [fix(core): a redo in a sealed preview puts Studio's edit marks back i…](https://github.com/heygen-com/hyperframes/commit/95a8a91b5ea28ec21ac638aa69cd43b3a8c46cea) | miguel-heygen |
+| 2026-11-20 | [fix(core): split a rule's selector list once when rewriting svg id re…](https://github.com/heygen-com/hyperframes/commit/fbbbfe0587bb27f6738b7a697c11914caaa9a39c) | miguel-heygen |
+| 2026-11-20 | [fix(studio-server): preview copies of long clips with sound finish ag…](https://github.com/heygen-com/hyperframes/commit/07928702f8b3e3f59c75594e759df84443896890) | miguel-heygen |
+| 2026-11-20 | [fix(media-use): remove only the temp folders media-use made, and neve…](https://github.com/heygen-com/hyperframes/commit/e16c681dc07d360a9cf42e2ab77d827196a29883) | ukimsanov |
+| 2026-11-20 | [fix(core): check svg id scopes against excluded roots in one ancestor…](https://github.com/heygen-com/hyperframes/commit/026bff07d60edecbbc33045490511d1d948e6950) | miguel-heygen |
 
 [See all commits ↗](https://github.com/heygen-com/hyperframes/commits)
 

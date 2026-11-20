@@ -20,33 +20,38 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.5k |
-| 🍴 **Forks** | 822 |
-| 🐞 **Open issues + PRs** | [340](https://github.com/superdesigndev/treg/issues) |
-| 💻 **Languages** | Python 74% · HTML 13% · JavaScript 3% · Vue 3% · Go 3% |
+| ⭐ **Stars** | 8.6k |
+| 🍴 **Forks** | 839 |
+| 🐞 **Open issues + PRs** | [357](https://github.com/superdesigndev/treg/issues) |
+| 💻 **Languages** | Python 74% · HTML 14% · JavaScript 3% · Vue 3% · Go 3% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `dsh-plugin` `agents` `api-keys` `cli` `credentials` `developer-tools` `mcp` `proxy` `python` `registry` `secrets` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2026-07-15 |
-| 📦 **Latest release** | [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — 2026-11-17 |
+| 📦 **Latest release** | [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 141.3 MB |
+| 💾 **Size** | 140.2 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases
 
+### [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — treg 1.0.0-beta.4 _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> _No notes._
+
 ### [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — treg 1.0.0-beta.3 _(pre-release)_
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — treg 1.0.0-beta.2 _(pre-release)_
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.1](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.1) — treg 1.0.0-beta.1 _(pre-release)_
-<sub>2026-11-07 · 11d ago</sub>
+<sub>2026-11-07 · 12d ago</sub>
 
 > _No notes._
 
@@ -54,16 +59,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Merge pull request #1816 from superdesigndev/perf/landing-hero-softwa…](https://github.com/superdesigndev/treg/commit/d43ff9c090f115aefea52ca0826d9615ba5cb427) | stonexer |
-| 2026-11-19 | [Merge remote-tracking branch 'origin/main' into perf/landing-hero-sof…](https://github.com/superdesigndev/treg/commit/6dd46deeb30ddb269aaefe3f385f51e6038a95e4) | stonexer |
-| 2026-11-19 | [Merge pull request #1807 from superdesigndev/fix/stamped-baseline-ind…](https://github.com/superdesigndev/treg/commit/3c342679467b03b931732bb59925e4fce915e133) | stonexer |
-| 2026-11-19 | [fix(db): drop six callrecord indexes no query uses](https://github.com/superdesigndev/treg/commit/3e269ea3e5e98284b40e19924a64212152737fc2) | stonexer |
-| 2026-11-19 | [fix(db): build the baseline indexes a stamped database never got](https://github.com/superdesigndev/treg/commit/37837446ced0f538cadeeecffc35b3d6eaac59b4) | stonexer |
-| 2026-11-19 | [Merge pull request #1824 from superdesigndev/cursor/fix-harvestapi-co…](https://github.com/superdesigndev/treg/commit/f954a4f51492daaa647cf204b2eb9249ac2937ae) | WorksOnMyVM |
-| 2026-11-19 | [Merge pull request #1823 from superdesigndev/codex/fix-topup-billing-…](https://github.com/superdesigndev/treg/commit/a627daa608b8762901e506c2d3bc57b293d903d3) | shehjad-dev |
-| 2026-11-19 | [Merge pull request #1818 from superdesigndev/feat/pairwise-compare](https://github.com/superdesigndev/treg/commit/0cc6ae96d1d0010991c1755436f850a84d22108d) | WorksOnMyVM |
-| 2026-11-19 | [fix(feedback): never compare an archive-served answer](https://github.com/superdesigndev/treg/commit/f7eae2e4d6cd22e4c382df4bed374d3f2025364f) | WorksOnMyVM |
-| 2026-11-19 | [test(feedback): compare B's host, not a URL prefix](https://github.com/superdesigndev/treg/commit/e3dde58ed3facdf390dac8f010bb295df7295a1d) | WorksOnMyVM |
+| 2026-11-20 | [Merge pull request #1830 from superdesigndev/codex/apollo-phone-platform](https://github.com/superdesigndev/treg/commit/b5b2eaaf91dbc1c76ea0b2ae42765a2206e8501e) | shehjad-dev |
+| 2026-11-20 | [Merge pull request #1853 from superdesigndev/feat/autotopup-no-defaul…](https://github.com/superdesigndev/treg/commit/f75b43e5a9e2e2f312f27b6df17f0cb9c8f022b9) | JayZeeDesign |
+| 2026-11-20 | [feat(billing): auto top-up has no default monthly cap](https://github.com/superdesigndev/treg/commit/67781ef9b83e18bbc94686b95b7a06e4810aed7b) | JayZeeDesign |
+| 2026-11-20 | [fix(replay): match async submission settlement](https://github.com/superdesigndev/treg/commit/d46d5f4c4eac7da789cb46045796602f2f1868ad) | shehjad-dev |
+| 2026-11-20 | [fix(apollo): add email charge to phone task settlement](https://github.com/superdesigndev/treg/commit/051d5af45c81e1631db37a8f84fe951527776928) | shehjad-dev |
+| 2026-11-20 | [fix(apollo): charge matched phone submissions without pending jobs](https://github.com/superdesigndev/treg/commit/8c18e3e2de58839fd1f02117f326dca70202a8bf) | shehjad-dev |
+| 2026-11-20 | [feat(apollo): add platform phone validation](https://github.com/superdesigndev/treg/commit/52b65e47d0322a2903424781d874121bfbd49678) | shehjad-dev |
+| 2026-11-20 | [fix(tasks): keep declared pending polls open for Go CLI](https://github.com/superdesigndev/treg/commit/8873ebb4af32c8256ec8c5b5350c492fb66d2a23) | shehjad-dev |
+| 2026-11-20 | [feat(apollo): enable metered platform phone lookup](https://github.com/superdesigndev/treg/commit/be7639fafd0b426e8239a55740c469ff59915f10) | shehjad-dev |
+| 2026-11-20 | [Merge pull request #1851 from superdesigndev/feat/compare-reviewing-t…](https://github.com/superdesigndev/treg/commit/a1a647ad2f17aeedbebe5720e6329b1b1676de02) | WorksOnMyVM |
 
 [See all commits ↗](https://github.com/superdesigndev/treg/commits)
 

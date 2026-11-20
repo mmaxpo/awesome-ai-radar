@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 3.7k |
-| 🐞 **Open issues + PRs** | [78](https://github.com/wkentaro/labelme/issues) |
+| 🐞 **Open issues + PRs** | [77](https://github.com/wkentaro/labelme/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `image-annotation` `python` `computer-vision` `annotations` `deep-learning` `semantic-segmentation` `instance-segmentation` `video-annotation` `classification` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2016-05-09 |
 | 📦 **Latest release** | [v7.11.0](https://github.com/wkentaro/labelme/releases/tag/v7.11.0) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 71.5 MB |
+| 💾 **Size** | 71.4 MB |
 | 🌐 **Website** | https://labelme.io |
 
 ## 📦 Recent releases
 
 ### [v7.11.0](https://github.com/wkentaro/labelme/releases/tag/v7.11.0)
-<sub>2026-11-14 · 5d ago</sub>
+<sub>2026-11-14 · 6d ago</sub>
 
 > **Changed**
 > - SAM 3 asks to be downloaded again, as 1.8 GB on a GPU or 3.7 GB on the CPU, and asks again for its CPU files when AI falls back to the CPU. Its files from earlier versions stay on disk. ([#3099](https://github.com/wkentaro/labelme/pull/3099))
@@ -47,7 +47,7 @@
 > …
 
 ### [v7.10.0](https://github.com/wkentaro/labelme/releases/tag/v7.10.0)
-<sub>2026-11-13 · 6d ago</sub>
+<sub>2026-11-13 · 7d ago</sub>
 
 > **Added**
 > - Allow drawing Polygon and LineStrip paths by dragging, simplifying strokes into fewer vertices while preserving click-to-add input. ([#2757](https://github.com/wkentaro/labelme/pull/2757))
@@ -58,7 +58,7 @@
 > …
 
 ### [v7.9.1](https://github.com/wkentaro/labelme/releases/tag/v7.9.1)
-<sub>2026-10-25 · 25d ago</sub>
+<sub>2026-10-25 · 26d ago</sub>
 
 > **Fixed**
 > - Fix a point dragged inside a box being lost on image switch, because the move was never saved or added to undo history. ([#2845](https://github.com/wkentaro/labelme/pull/2845))
@@ -85,16 +85,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Merge pull request #3129 from wkentaro/perf/image-list-checkmarks-per…](https://github.com/wkentaro/labelme/commit/7e840675431402a3f449b8efc5c090ac1f172017) | wkentaro |
-| 2026-11-19 | [Merge pull request #3130 from wkentaro/fix/brightness-contrast-dialog…](https://github.com/wkentaro/labelme/commit/5cadd8a85cb296a342cef042141534cd0dddc44a) | wkentaro |
-| 2026-11-19 | [docs: note the faster Image List saves in the changelog](https://github.com/wkentaro/labelme/commit/c64e79a8099a6afa5e69a254ae2036eed7922eeb) | wkentaro |
-| 2026-11-19 | [perf: update Image List checkmarks without scanning every image](https://github.com/wkentaro/labelme/commit/48a7e2d5d3e0d233fd1fe1c28b613817f470cc3d) | wkentaro |
-| 2026-11-19 | [fix: list an image dropped twice only once](https://github.com/wkentaro/labelme/commit/a8e5dead662aa114e08829bf6ac799942112254b) | wkentaro |
-| 2026-11-19 | [docs: note the Brightness/Contrast memory fix in the changelog](https://github.com/wkentaro/labelme/commit/abab02a87ed009b389582689b3418f14f877b519) | wkentaro |
-| 2026-11-19 | [fix: free the Brightness/Contrast dialog after each use](https://github.com/wkentaro/labelme/commit/4bdcef365de91861b057d2dba712eea00b863f6e) | wkentaro |
-| 2026-11-19 | [refactor: adjust brightness and contrast without the dialog](https://github.com/wkentaro/labelme/commit/04cd87dc9d1447fc775d69bcbed7495ee989f71c) | wkentaro |
-| 2026-11-19 | [Merge pull request #3126 from wkentaro/fix/ai-model-resolution](https://github.com/wkentaro/labelme/commit/7f16433758f3917dda259b1c5b6f0e3567344443) | wkentaro |
-| 2026-11-19 | [docs: note the large-image AI fix in the changelog](https://github.com/wkentaro/labelme/commit/43688d3a25bd74c4b0f223724f6c20740fd7d0cc) | wkentaro |
+| 2026-11-20 | [Merge pull request #3132 from wkentaro/fix/mask-shape-sent-grid](https://github.com/wkentaro/labelme/commit/69fc959d1ca79c404f959971ea375f9e22a47048) | wkentaro |
+| 2026-11-19 | [test: check a saved match still covers its own sent column](https://github.com/wkentaro/labelme/commit/dee0e7b230912d9b98042748122b5f802e364c66) | wkentaro |
+| 2026-11-19 | [perf: leave a mask axis alone when its scale is 1](https://github.com/wkentaro/labelme/commit/e9a0a4f9d273fbc2a5ae382f43b1c7ffa4b383d6) | wkentaro |
+| 2026-11-19 | [fix: place a Mask Shape's pixels at its first point everywhere](https://github.com/wkentaro/labelme/commit/a6ac8f1fc3899fc2d0d9586adc5e8be9b7154a27) | wkentaro |
+| 2026-11-19 | [fix: round merged Mask Shape origins half up, as AI Assist does](https://github.com/wkentaro/labelme/commit/807f4c225770273e983ba390fa76a612a6954677) | wkentaro |
+| 2026-11-19 | [fix: scale AI results by the exact ratio of the Image sizes](https://github.com/wkentaro/labelme/commit/bf28e7b44523d2fbdab940f64e27f1b1d208ee2e) | wkentaro |
+| 2026-11-19 | [fix: map masks on the exact pixel grid](https://github.com/wkentaro/labelme/commit/673055511e378b88e2af707e1dd15ff80e42036c) | wkentaro |
+| 2026-11-19 | [fix: pool a shrunk mask instead of sampling one pixel per sent pixel](https://github.com/wkentaro/labelme/commit/d8bd470dc20a7bf02697808a56151668cd818a2e) | wkentaro |
+| 2026-11-19 | [fix: span the sent pixels whose centers fall in a box](https://github.com/wkentaro/labelme/commit/5eaf4906cf7302e0ddfb2262cff740ea41c8c562) | wkentaro |
+| 2026-11-19 | [fix: sample a shrunk Mask Shape where the Image is sampled](https://github.com/wkentaro/labelme/commit/60b5444c6aa19ed2e99a0472f1beed61874bd262) | wkentaro |
 
 [See all commits ↗](https://github.com/wkentaro/labelme/commits)
 

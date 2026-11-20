@@ -26,17 +26,17 @@
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 174.5 MB |
+| 💾 **Size** | 175.9 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 16d ago</sub>
+<sub>2026-11-02 · 17d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 16d ago</sub>
+<sub>2026-11-02 · 17d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 16d ago</sub>
+<sub>2026-11-02 · 17d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Bump go.temporal.io/testx to 4d3f3f0b9](https://github.com/temporalio/temporal/commit/2c8ae4e89b37d69e50aad460f4264b03447e6054) | temporal-data |
+| 2026-11-19 | [WHN impl 1: the overall framework (#12991)](https://github.com/temporalio/temporal/commit/a8f8328b001bd3302e658cdd062e18a5e92cf50f) | feiyang3cat |
+| 2026-11-19 | [Flow control (S): add concurrency service handler (#12895)](https://github.com/temporalio/temporal/commit/c524d769c40a6cdfd359a3fc9981ec5c5c5f4b58) | dnr |
+| 2026-11-19 | [Flow control (W): add limiter release transfer tasks (#12898)](https://github.com/temporalio/temporal/commit/32dd6ab362eb5fef0fc33f8d69bf1344882036ad) | dnr |
+| 2026-11-19 | [Flow control (R): add readiness cache foundation (#12958)](https://github.com/temporalio/temporal/commit/1c16be9604ea0601c6e00c22c76e512f52ebd2d9) | dnr |
+| 2026-11-19 | [Fix CHASM scheduler creation rollout in feature tests (#12448)](https://github.com/temporalio/temporal/commit/cead54f6b59ad88f2495ec10fd7d68ebcbfa8bbb) | chaptersix |
+| 2026-11-19 | [Migrate remaining functional test entrypoints to parallel suites (#13…](https://github.com/temporalio/temporal/commit/4d3f3f0b973d55215996324e489322b8af80d315) | stephanos |
+| 2026-11-19 | [namespace replication: add verification tooling (PR4a) (#12416)](https://github.com/temporalio/temporal/commit/2433d4e477e6d74a108eff4f9bf0d04aa0c8076a) | qyc5937 |
 | 2026-11-19 | [Bump go.temporal.io/testx to 4d2eaffb4](https://github.com/temporalio/temporal/commit/fd193d32ec42e2ed8785e251669ce0336bb6bc8a) | temporal-data |
 | 2026-11-19 | [Add Await for parallelsuite Scope helpers (#13151)](https://github.com/temporalio/temporal/commit/4d2eaffb4719cbc6072eddce4a623611c1b06f3b) | stephanos |
-| 2026-11-19 | [Clear the history cache when force-deleting an execution (#13055)](https://github.com/temporalio/temporal/commit/4841d727dae93c08444a94e47149c0fb0e74d226) | jiechenz |
-| 2026-11-18 | [Add Nexus serialization context usage metrics (#13158)](https://github.com/temporalio/temporal/commit/681937db2f87c499676d04b3e0f4b9256147aa2d) | JoshuaFrenchwood |
-| 2026-11-18 | [Bump go.temporal.io/testx to 9f6f2a962](https://github.com/temporalio/temporal/commit/28040d0bcad127682759438468ac94b9a44548ac) | temporal-data |
-| 2026-11-18 | [Expose direct assertions to generic suite helpers (#13118)](https://github.com/temporalio/temporal/commit/9f6f2a962e7bff928b8487c0d9cb1c6bb1d68460) | stephanos |
-| 2026-11-18 | [Use parallelsuite for functional subtests (#13108)](https://github.com/temporalio/temporal/commit/a85f2a55079d8ebfe0e4c2150a6d06a719d0b6d8) | stephanos |
-| 2026-11-18 | [Revert "Add search attribute alias to field mapping to Namespace Deta…](https://github.com/temporalio/temporal/commit/8baf2c38e695bf9473adf38c7a2ab41d3ca433d3) | awln-temporal |
-| 2026-11-18 | [Name suite receivers consistently (#13107)](https://github.com/temporalio/temporal/commit/4ab50d2e0a9931304f5a4911b6c8a6e6681b4e55) | stephanos |
-| 2026-11-18 | [Name child suite callback parameters consistently (#13106)](https://github.com/temporalio/temporal/commit/10a3ecf717833e47cd26a975f60a403c644e66ee) | stephanos |
 
 [See all commits ↗](https://github.com/temporalio/temporal/commits)
 

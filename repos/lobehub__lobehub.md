@@ -26,17 +26,28 @@
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2023-05-21 |
 | 📦 **Latest release** | [v2.3.4](https://github.com/lobehub/lobehub/releases/tag/v2.3.4) — 2026-11-18 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 627.0 MB |
+| 💾 **Size** | 635.3 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
+### [v2.3.5-canary.2](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.2) — Desktop Canary v2.3.5-canary.2 _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> **🐤 Canary Build — v2.3.5-canary.2**
+> > Automated canary build from `canary` branch.
+> **Commit Information**
+> - Based on changes since `v2.3.5-canary.1`
+> - Commit count: 152
+> - `05bc09e28b` 💄 style(channel): let a host open the conversation history with an intro (#23551) (YuTengjing)
+> …
+
 ### [v2.3.5-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.1) — Desktop Canary v2.3.5-canary.1 _(pre-release)_
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **🐤 Canary Build — v2.3.5-canary.1**
 > > Automated canary build from `canary` branch.
@@ -47,7 +58,7 @@
 > …
 
 ### [v2.3.4](https://github.com/lobehub/lobehub/releases/tag/v2.3.4) — 🚀 Release v2.3.4
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Release v2.3.4**
 > From PR #23286: https://github.com/lobehub/lobehub/pull/23286
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23297.40163](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23297.40163) — PR Build v0.0.0-nightly.pr23297.40163 _(pre-release)_
-<sub>2026-11-17 · yesterday</sub>
+<sub>2026-11-17 · 2d ago</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23297.40163`
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23286.40158](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23286.40158) — PR Build v0.0.0-nightly.pr23286.40158 _(pre-release)_
-<sub>2026-11-17 · yesterday</sub>
+<sub>2026-11-17 · 2d ago</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23286.40158`
@@ -79,31 +90,20 @@
 > This is a **development build** specifically created for testing purposes. Please note:
 > …
 
-### [v0.0.0-nightly.pr23243.40055](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23243.40055) — PR Build v0.0.0-nightly.pr23243.40055 _(pre-release)_
-<sub>2026-11-17 · 2d ago</sub>
-
-> **PR Build Information**
-> **Version**: `0.0.0-nightly.pr23243.40055`
-> **Release Time**: `2026-11-17T12:19:14.665Z`
-> **PR**: [#23243](https://github.com/lobehub/lobehub/pull/23243)
-> **⚠️ Important Notice**
-> This is a **development build** specifically created for testing purposes. Please note:
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [✨ feat(connector): distinguish workspace and private connectors (#22941)](https://github.com/lobehub/lobehub/commit/d86a85bcea15a5e1c3131f1d69bb1c08769a8819) | rdmclin2 |
-| 2026-11-19 | [♻️ refactor(styles): make one density spec the source for every densi…](https://github.com/lobehub/lobehub/commit/361266c4898d0ed4fb769223541755a5e51f0a52) | Innei |
-| 2026-11-19 | [♻️ refactor(skills): deduplicate Skills prompt and align device-route…](https://github.com/lobehub/lobehub/commit/35b070ac3d56fb35ba897b62cda3152a4c921c96) | AmAzing129 |
-| 2026-11-19 | [♻️ refactor(activator): deduplicate Tools Activator system prompt (#2…](https://github.com/lobehub/lobehub/commit/ae78ffd1420911bbdd2877dc1797c36b29742677) | AmAzing129 |
-| 2026-11-19 | [🐛 fix(chat-input): offer a project conversation its own environment (…](https://github.com/lobehub/lobehub/commit/5f679b5f33e6aeade93be6ecfa86a5e43a12f185) | rdmclin2 |
-| 2026-11-19 | [✨ feat(skills): focus the Skills settings store on marketplace skills…](https://github.com/lobehub/lobehub/commit/4a23eec771d2efa16d8571d346a665c75cfdadec) | AmAzing129 |
-| 2026-11-19 | [🐛 fix(skills): restore on-demand builtins for legacy agents (#23475)](https://github.com/lobehub/lobehub/commit/556bdefffa8b5dbb2f28592186570e46808b4968) | AmAzing129 |
-| 2026-11-19 | [✨ feat(locales): copy for notifying admins when a member budget runs …](https://github.com/lobehub/lobehub/commit/ff9a881ba82f0f852ce4fd09f446abcd12b49628) | rdmclin2 |
-| 2026-11-19 | [🐛 fix(agent-share): count Workspace agents' own runs in share stats (…](https://github.com/lobehub/lobehub/commit/bdea230ad8d2b68ccd6dc3942e683930803575f9) | tjx666 |
-| 2026-11-19 | [💄 style(ui): bring remaining surfaces onto the compact density tokens…](https://github.com/lobehub/lobehub/commit/07cc80bdda84799f4e2a9d02ea00bccc63400a7d) | Innei |
+| 2026-11-20 | [🐛 fix(artboard): take a trashed task's shares offline and count board…](https://github.com/lobehub/lobehub/commit/f2027f536547c63f6a188effc79d2bcb48c0d90d) | Innei |
+| 2026-11-20 | [✨ feat(settings): merge environments and the vault into one entry wit…](https://github.com/lobehub/lobehub/commit/c47510e357931f8b4918190aeabed9e5d5b14faf) | rdmclin2 |
+| 2026-11-20 | [💄 style(mention): render @-mentions in blue-violet instead of link bl…](https://github.com/lobehub/lobehub/commit/6659826c1ad5c494ac4f019827a5af5450ff3b76) | lobehub-coder |
+| 2026-11-20 | [✨ feat(channel): name a reply's topic for the member who runs it (#23…](https://github.com/lobehub/lobehub/commit/5af9a2491346e18aa97cd1d7a44e757b88f4beec) | lobehub-coder |
+| 2026-11-20 | [🐛 fix(marketplace): show installed custom-only connector lists (#23533)](https://github.com/lobehub/lobehub/commit/370392fecd20157b36b7e7d2c2e165550d45241a) | AmAzing129 |
+| 2026-11-20 | [🐛 fix(connector): finish legacy MCP migrations before refreshing list…](https://github.com/lobehub/lobehub/commit/22bf7536950326f8375b6a4312edf21dde97e7a5) | AmAzing129 |
+| 2026-11-20 | [💄 style(channel): let a host open the conversation history with an in…](https://github.com/lobehub/lobehub/commit/05bc09e28b75ae613c0f36ba0044eb4c3149762c) | tjx666 |
+| 2026-11-20 | [🐛 fix(agent-share): Visitors header arrow, desktop selected state, us…](https://github.com/lobehub/lobehub/commit/58bae51c3ec8d566a290bba53446851b43780679) | tjx666 |
+| 2026-11-20 | [✨ feat(desktop): open a directory from the shell with `lh app` (#23508)](https://github.com/lobehub/lobehub/commit/861773018cf365ba16d0e179b2d944eb01d0f430) | Innei |
+| 2026-11-20 | [💄 style(portal): pad the local file header's left like its right when…](https://github.com/lobehub/lobehub/commit/d8ce91cd2801e564b6bdd091663cc5248a82cd11) | lobehub-coder |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

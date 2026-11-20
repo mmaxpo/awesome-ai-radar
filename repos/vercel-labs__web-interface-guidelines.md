@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.2k |
-| 🍴 **Forks** | 81 |
+| 🍴 **Forks** | 83 |
 | 🐞 **Open issues + PRs** | [3](https://github.com/vercel-labs/web-interface-guidelines/issues) |
 | 💻 **Languages** | Shell 100% |
 | 📜 **License** | MIT |

@@ -21,22 +21,44 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.1k |
-| 🍴 **Forks** | 782 |
+| 🍴 **Forks** | 793 |
 | 🐞 **Open issues + PRs** | [275](https://github.com/vastsa/PI-Desktop/issues) |
-| 💻 **Languages** | TypeScript 54% · JavaScript 27% · Rust 16% · CSS 3% |
+| 💻 **Languages** | TypeScript 53% · JavaScript 28% · Rust 16% · CSS 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `pi-desktop` `ai-agent` `coding-agent` `desktop-app` `electron` `global` `i18n` `local-first` `mcp` `pi-agent` `plugins` `react` `rust` `typescript` `pi` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2023-03-22 |
-| 📦 **Latest release** | [v0.22.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0) — 2026-11-08 |
+| 📦 **Latest release** | [v0.23.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 217.0 MB |
+| 💾 **Size** | 221.0 MB |
 | 🌐 **Website** | https://www.aiuo.net |
 
 ## 📦 Recent releases
 
-### [v0.23.0-beta.3](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.3) _(pre-release)_
+### [v0.24.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.1) _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> **What's Changed**
+> * fix(config-sync): merge entities absent from one side as implicit deletes by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2457
+> * fix(chat): fork visible historical replies outside the live window by @koeria in https://github.com/vastsa/PI-Desktop/pull/2430
+> * fix(runtime): explicitly disable Responses strict mode when unsupported by @jeffry88 in https://github.com/vastsa/PI-Desktop/pull/2454
+> * fix(chrome): keep conversation actions clear of the work-panel toggle by @Linuxdazhao in https://github.com/vastsa/PI-Desktop/pull/2424
+> * fix(composer): refresh context usage after compacting a failed turn by @Seraph-x in https://github.com/vastsa/PI-Desktop/pull/2412
+> …
+
+### [v0.23.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0)
 <sub>2026-11-19 · today</sub>
+
+> **What's Changed**
+> * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
+> * fix(file-manager): theme editor search controls by @AuhNijGnahz in https://github.com/vastsa/PI-Desktop/pull/1861
+> * perf(sessions): cache file-derived session summaries by file identity by @CJLY-0915 in https://github.com/vastsa/PI-Desktop/pull/1796
+> * fix(ci): keep Electron user-path test out of unit suite by @vastsa in https://github.com/vastsa/PI-Desktop/pull/1872
+> * fix(composer): scale the mode chip reservation with the appearance font by @SeanLiu326 in https://github.com/vastsa/PI-Desktop/pull/1879
+> …
+
+### [v0.23.0-beta.3](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.3) _(pre-release)_
+<sub>2026-11-19 · yesterday</sub>
 
 > **What's Changed**
 > * feat(desktop): settings dialog, sidebar primary nav, startup guide and release announcement by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2432
@@ -44,7 +66,7 @@
 > **Full Changelog**: https://github.com/vastsa/PI-Desktop/compare/v0.23.0-beta.2...v0.23.0-beta.3
 
 ### [v0.23.0-beta.2](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.2) _(pre-release)_
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **What's Changed**
 > * fix(mods): restore reliable Goal run lifecycle and completion by @new-Beginner in https://github.com/vastsa/PI-Desktop/pull/2353
@@ -55,29 +77,7 @@
 > …
 
 ### [v0.23.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.1) _(pre-release)_
-<sub>2026-11-14 · 4d ago</sub>
-
-> **What's Changed**
-> * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
-> * fix(file-manager): theme editor search controls by @AuhNijGnahz in https://github.com/vastsa/PI-Desktop/pull/1861
-> * perf(sessions): cache file-derived session summaries by file identity by @CJLY-0915 in https://github.com/vastsa/PI-Desktop/pull/1796
-> * fix(ci): keep Electron user-path test out of unit suite by @vastsa in https://github.com/vastsa/PI-Desktop/pull/1872
-> * fix(composer): scale the mode chip reservation with the appearance font by @SeanLiu326 in https://github.com/vastsa/PI-Desktop/pull/1879
-> …
-
-### [v0.22.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0)
-<sub>2026-11-08 · 10d ago</sub>
-
-> **What's Changed**
-> * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
-> * fix(file-manager): theme editor search controls by @AuhNijGnahz in https://github.com/vastsa/PI-Desktop/pull/1861
-> * perf(sessions): cache file-derived session summaries by file identity by @CJLY-0915 in https://github.com/vastsa/PI-Desktop/pull/1796
-> * fix(ci): keep Electron user-path test out of unit suite by @vastsa in https://github.com/vastsa/PI-Desktop/pull/1872
-> * fix(composer): scale the mode chip reservation with the appearance font by @SeanLiu326 in https://github.com/vastsa/PI-Desktop/pull/1879
-> …
-
-### [v0.22.0-beta.7](https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.7) _(pre-release)_
-<sub>2026-11-08 · 10d ago</sub>
+<sub>2026-11-14 · 5d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Merge pull request #2447 from vastsa/chore/release-0.23.0](https://github.com/vastsa/PI-Desktop/commit/4f1cc662ab6dc51ca89090b54d7a12ccb7ba09da) | vastsa |
-| 2026-11-19 | [chore(release): prepare v0.23.0](https://github.com/vastsa/PI-Desktop/commit/9ffdc6bd39b87a8884b67e8d50bced1d73f7024d) | vastsa |
-| 2026-11-19 | [Merge pull request #2440 from vastsa/feat/empty-title-project-picker](https://github.com/vastsa/PI-Desktop/commit/f589deec80b4be928146db0eca74e6f3f5e4e4b0) | vastsa |
-| 2026-11-19 | [Merge pull request #2437 from G1oow/fix/composer-tail-line-caret](https://github.com/vastsa/PI-Desktop/commit/17884608df5cf45672944211f7e45fce1bfd688c) | Tioit-Wang |
-| 2026-11-19 | [test(desktop): match project name inside the switcher name span](https://github.com/vastsa/PI-Desktop/commit/ff388a1741ae59e1be4cfb4724d458d24f40af2b) | vastsa |
-| 2026-11-19 | [feat(desktop): show dropdown chevron on home project switcher](https://github.com/vastsa/PI-Desktop/commit/841feea2705ff080c1f2dd34a0c4a76dab718ba1) | vastsa |
-| 2026-11-19 | [Merge pull request #2439 from vastsa/feat/sidebar-recent-sessions](https://github.com/vastsa/PI-Desktop/commit/cd4d4531590577f801f1bed1fbe4980fd7d1d7c2) | vastsa |
-| 2026-11-19 | [feat(sidebar): turn the Sessions section into Recent sessions](https://github.com/vastsa/PI-Desktop/commit/50d202da5931d681b6892b3f29d6f206dd969102) | vastsa |
-| 2026-11-19 | [Merge pull request #2438 from vastsa/refactor/model-advanced-layout](https://github.com/vastsa/PI-Desktop/commit/08e15d5851d63fb1bc5d15f9404d5dddbbc3df71) | vastsa |
-| 2026-11-19 | [refactor(settings): regroup the per-model advanced sheet](https://github.com/vastsa/PI-Desktop/commit/a61f165d8c25d3c2b456ddd3020ff18fba2e56d2) | vastsa |
+| 2026-11-20 | [Merge pull request #2482 from vastsa/chore/release-0.24.0-beta.1](https://github.com/vastsa/PI-Desktop/commit/48a65582678ec04e018f90f8bc075253bad27085) | vastsa |
+| 2026-11-20 | [chore(release): prepare v0.24.0-beta.1](https://github.com/vastsa/PI-Desktop/commit/4f4e3b47f359aee1654e5a748753128267f3f692) | vastsa |
+| 2026-11-20 | [Merge pull request #2479 from vastsa/feat/bundled-official-enhancements](https://github.com/vastsa/PI-Desktop/commit/5d480b7c936ef572fd60c1c6f339cbb4ae81450b) | Tioit-Wang |
+| 2026-11-20 | [Merge pull request #2474 from vastsa/feat/plugin-platform-2470](https://github.com/vastsa/PI-Desktop/commit/a868d4baa5fe1a19efa4b6df808e33187631ad51) | Tioit-Wang |
+| 2026-11-20 | [test(plugins): stub the automation probe in the compaction fixture](https://github.com/vastsa/PI-Desktop/commit/80a1c022fe6c054b9e5c508b1e191d7b0ef3ccb0) | v_wyxgwang |
+| 2026-11-20 | [feat(plugins): bundle official enhancements with titles enabled](https://github.com/vastsa/PI-Desktop/commit/52861567190386e82d63636b8e1acdf60b2a4099) | v_wyxgwang |
+| 2026-11-20 | [Merge pull request #2478 from vastsa/fix/temporary-chat-label](https://github.com/vastsa/PI-Desktop/commit/a885cb2b2a625b01710722ce86aeb5c222448aae) | vastsa |
+| 2026-11-20 | [fix(chat): call the projectless target Temporary chat](https://github.com/vastsa/PI-Desktop/commit/9660da5ca72a2a2e4c82c22389a8ff40458f5bfb) | vastsa |
+| 2026-11-20 | [Merge pull request #2477 from vastsa/fix/home-temporary-title-switcher](https://github.com/vastsa/PI-Desktop/commit/5b2e091e66678f275f4f246a2f55b6e7f9532b67) | vastsa |
+| 2026-11-20 | [fix(chat): pick a project from the temporary home's title](https://github.com/vastsa/PI-Desktop/commit/f89c40d56fb146cd8d40cd4d96e1874086a83f8e) | vastsa |
 
 [See all commits ↗](https://github.com/vastsa/PI-Desktop/commits)
 

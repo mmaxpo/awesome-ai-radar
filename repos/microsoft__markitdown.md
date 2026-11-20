@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 196.9k |
+| ⭐ **Stars** | 197.2k |
 | 🍴 **Forks** | 14.9k |
-| 🐞 **Open issues + PRs** | [817](https://github.com/microsoft/markitdown/issues) |
+| 🐞 **Open issues + PRs** | [821](https://github.com/microsoft/markitdown/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `langchain` `openai` `autogen-extension` `autogen` `markdown` `microsoft-office` `pdf` |
-| 🕒 **Last activity** | 2026-11-07 (12d ago) |
+| 🕒 **Last activity** | 2026-11-07 (13d ago) |
 | 📅 **Created** | 2024-11-13 |
 | 📦 **Latest release** | [v0.1.9](https://github.com/microsoft/markitdown/releases/tag/v0.1.9) — 2026-10-21 |
 | 🌿 **Default branch** | `main` |
@@ -33,7 +33,7 @@
 ## 📦 Recent releases
 
 ### [v0.1.9](https://github.com/microsoft/markitdown/releases/tag/v0.1.9) — Version 0.1.9
-<sub>2026-10-21 · 28d ago</sub>
+<sub>2026-10-21 · 29d ago</sub>
 
 > **What's Changed**
 > * increase chunk size from 512 bytes to 64 KB for HTTP response reading by @YasirAlibrahem in https://github.com/microsoft/markitdown/pull/1511

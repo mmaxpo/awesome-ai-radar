@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 77.6k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [489](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [488](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 22d ago</sub>
+<sub>2026-10-28 · 23d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [classify: limit Min and Max instead of the range in ReadParamDesc](https://github.com/tesseract-ocr/tesseract/commit/2516f31c560e056449b6d9e95e10c6feeb6ad618) | stweil |
+| 2026-11-19 | [fix: link the autotools shared library to Accelerate (#4636)](https://github.com/tesseract-ocr/tesseract/commit/9c1f34d35195c8a7dae843b906924bb3f5b8b9f2) | mvanhorn |
 | 2026-11-19 | [Fix crashes in the result iterators for words without best_choice (#4…](https://github.com/tesseract-ocr/tesseract/commit/1e2735f2681503a38388841aa1d6f6071aeb0ff6) | zdenop |
 | 2026-11-18 | [Fix unresolved merge conflict in Makefile.am](https://github.com/tesseract-ocr/tesseract/commit/0c7dc2f312e12c6dd1efceff5d82fa01106446bb) | stweil |
 | 2026-11-18 | [benchmark: add clang-22 results and a summary over all platforms](https://github.com/tesseract-ocr/tesseract/commit/ceef685ab51e4b73df4bdcbd09e26dd9a33f1ca9) | stweil |
@@ -102,8 +104,6 @@
 | 2026-11-18 | [lstm: use AVX2 for tanh, the logistic function and the conversion to …](https://github.com/tesseract-ocr/tesseract/commit/3eccd1e605cef7f49f9961e3abf19605dd997a08) | stweil |
 | 2026-11-18 | [lstm: calculate several dot products at once with FMA and AVX512F](https://github.com/tesseract-ocr/tesseract/commit/3c5af087f6140d2154482bbf2c2d9e0442489e81) | stweil |
 | 2026-11-18 | [arch: speed up the integer matrix product with NEON](https://github.com/tesseract-ocr/tesseract/commit/fca2834671d9a7341f4adb613785dac72c6f8261) | stweil |
-| 2026-11-18 | [Add benchmarks for the LSTM code](https://github.com/tesseract-ocr/tesseract/commit/a08c1040e2d6d45f85fa766db8dfeafd504fb549) | stweil |
-| 2026-11-18 | [lstm: calculate several dot products at once with NEON](https://github.com/tesseract-ocr/tesseract/commit/d7960fdddd86098988a3d371ea85caa8062568f7) | stweil |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 

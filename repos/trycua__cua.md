@@ -26,72 +26,72 @@
 | 💻 **Languages** | Rust 52% · TypeScript 18% · Python 15% · Swift 9% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `apple` `cua` `lume` `macos` `virtualization` `virtualization-framework` `swift` `ai-agent` `computer-use` `manus` `operator` `agent` `containerization` `windows` `windows-sandbox` `hacktoberfest` `computer-use-agent` `desktop-automation` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2025-01-31 |
-| 📦 **Latest release** | [cua-spaces-v0.38.13](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.38.13) — 2026-11-18 |
+| 📦 **Latest release** | [cua-sdk-v0.29.3](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.29.3) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 778.8 MB |
+| 💾 **Size** | 787.4 MB |
 | 🌐 **Website** | https://cua.ai |
 
 ## 📦 Recent releases
 
-### [nightly-cua-driver-rs-v0.54.1-nightly.20261119.44457756598](https://github.com/trycua/cua/releases/tag/nightly-cua-driver-rs-v0.54.1-nightly.20261119.44457756598) _(pre-release)_
-<sub>2026-11-19 · today</sub>
+### [cua-sdk-v0.29.3](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.29.3) — cua SDK 0.29.3
+<sub>2026-11-20 · today</sub>
 
-> **Cua Driver 0.54.1-nightly.20261119.44457756598 (nightly)**
-> Automated immutable nightly built from an exact `main` commit. Nightlies are
-> opt-in, may be less stable than regular releases, and never replace stable
-> update discovery.
-> **Source**
-> - Commit: [`052dc3a0c19646f89d5e6ca30e110e2dd541eec2`](https://github.com/trycua/cua/commit/052dc3a0c19646f89d5e6ca30e110e2dd541eec2)
-> …
+> cua SDK 0.29.3 release assets.
 
-### [cua-spaces-v0.38.13](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.38.13) — Cua Spaces v0.38.13
-<sub>2026-11-18 · today</sub>
+### [cua-spaces-v0.39.7](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.39.7) — Cua Spaces v0.39.7
+<sub>2026-11-20 · today</sub>
 
-> **Cua Spaces 0.38.13**
+> **Cua Spaces 0.39.7**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - bundle Cua Driver 0.54.0 in Cua Spaces. ([#8183](https://github.com/trycua/cua/pull/8183))
+> - python security bumps (Twisted, pypdf, filelock, virtualenv, litellm, transformers, pyasn1, GitPython, fsspec, joserfc, black, langgraph-sdk). ([#8312](https://github.com/trycua/cua/pull/8312))
 > **Contributors**
 > …
 
-### [cua-spaces-v0.38.12](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.38.12) — Cua Spaces v0.38.12
-<sub>2026-11-18 · today</sub>
+### [bench-v0.4.15](https://github.com/trycua/cua/releases/tag/bench-v0.4.15) — cua-bench v0.4.15
+<sub>2026-11-20 · today</sub>
 
-> **Cua Spaces 0.38.12**
+> **Cua Bench 0.4.15**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - bundle cua 0.28.3 in Cua Spaces. ([#8186](https://github.com/trycua/cua/pull/8186))
+> - python security bumps (Twisted, pypdf, filelock, virtualenv, litellm, transformers, pyasn1, GitPython, fsspec, joserfc, black, langgraph-sdk). ([#8312](https://github.com/trycua/cua/pull/8312))
 > **Contributors**
 > …
 
-### [cua-sdk-v0.28.3](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.28.3) — cua SDK 0.28.3
-<sub>2026-11-18 · today</sub>
+### [cua-sdk-v0.29.2](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.29.2) — cua SDK 0.29.2
+<sub>2026-11-20 · today</sub>
 
-> cua SDK 0.28.3 release assets.
+> cua SDK 0.29.2 release assets.
 
-### [cua-spacesd-v0.16.3](https://github.com/trycua/cua/releases/tag/cua-spacesd-v0.16.3) — cua-spacesd 0.16.3
-<sub>2026-11-18 · today</sub>
+### [cua-spaces-v0.39.6](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.39.6) — Cua Spaces v0.39.6
+<sub>2026-11-20 · today</sub>
 
-> cua-spacesd 0.16.3 release assets.
+> **Cua Spaces 0.39.6**
+> **Summary**
+> This release includes 1 fix.
+> **Fixes**
+> - js security bumps (52 Dependabot alerts). ([#8313](https://github.com/trycua/cua/pull/8313))
+> **Contributors**
+> …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [chore(main): release cua-sdk 0.28.4 (#8214)](https://github.com/trycua/cua/commit/89234e6ec1335bef9cb738c56add17366f83ef18) | cua-release-bot[bot] |
-| 2026-11-19 | [chore(main): release cua-spaces 0.38.14 (#8215)](https://github.com/trycua/cua/commit/bcb0ecb56d1cb80aba66508b52a0f8b7d235bc8e) | cua-release-bot[bot] |
-| 2026-11-19 | [fix(cua-driver): match packaged-app frames to their app in capability…](https://github.com/trycua/cua/commit/2dfcf96570394210c9eea420cb3c74a0605d9d07) | injaneity |
-| 2026-11-19 | [fix(spaces): send the Mac clipboard on paste in the native viewer (#8…](https://github.com/trycua/cua/commit/54312cfce862d13a57f0c28851bd399e261c8e70) | injaneity |
-| 2026-11-19 | [release digest: fail the job when the alert intake refuses the post (…](https://github.com/trycua/cua/commit/f34ed6543f0416e776bec5bc15f5bcd0ae041057) | cua-agents[bot] |
-| 2026-11-19 | [fix(relay): size the client stream budget to the memory limit, add me…](https://github.com/trycua/cua/commit/4e5a10e78e8fe4040dc9d4ef1d16a84544c27ae6) | f-trycua |
-| 2026-11-19 | [fix(cua-driver): put Hyprland browser bounds in Chromium's output spa…](https://github.com/trycua/cua/commit/ba69e045bceed65ae1c22767b575f85cc6a6b80b) | injaneity |
-| 2026-11-19 | [feat(cua-driver): download installer release assets from a mirror (#8…](https://github.com/trycua/cua/commit/291025a519d99f7e637511a90349a55b96893dcf) | injaneity |
-| 2026-11-19 | [fix(cua-driver): emit Windows agent cursor hook updates (#8120)](https://github.com/trycua/cua/commit/c951943ac8490d936e0f737dc0b63ad497dbd047) | injaneity |
-| 2026-11-19 | [fix(cua-driver): preserve Windows right-click modifiers (#8113)](https://github.com/trycua/cua/commit/26d98afb5937b60045fcc061130fd69b34a478cb) | injaneity |
+| 2026-11-20 | [fix(cua-driver): stop only serve daemons on Linux update and append P…](https://github.com/trycua/cua/commit/2dae4316b9c3e49362ac89e558a316c40372a9cd) | injaneity |
+| 2026-11-20 | [docs(cua-driver): explain declarative hl.plugin.load in Hyprland Lua …](https://github.com/trycua/cua/commit/6e3d55ac7d25ed329d623c06ef70762a19a5a588) | injaneity |
+| 2026-11-20 | [fix(spaces-macos): bundle cua 0.29.3 in Cua Spaces (#8341)](https://github.com/trycua/cua/commit/a77c6b454605548ac10b365f87ada1b9fbb998e8) | cua-release-bot[bot] |
+| 2026-11-20 | [fix(ci): bin/ci quick sign-off works; docs image refs check runs cran…](https://github.com/trycua/cua/commit/37eec8d57ff77e466d4bcbba16376f93be53c8b9) | f-trycua |
+| 2026-11-20 | [chore(main): release cua-spacesd 0.17.1 (#8337)](https://github.com/trycua/cua/commit/ab6d1ec77eaf68432354c1285cf0c7693c321aaf) | cua-release-bot[bot] |
+| 2026-11-20 | [chore(main): release cua-sdk 0.29.3 (#8335)](https://github.com/trycua/cua/commit/295b2520b58522e820775405e3c2f28e05aa2b33) | cua-release-bot[bot] |
+| 2026-11-20 | [chore(main): release cua-spaces 0.39.7 (#8334)](https://github.com/trycua/cua/commit/69d0eb9ee0af622c52c5893a8b60c7740b8322ba) | cua-release-bot[bot] |
+| 2026-11-20 | [fix(relay): cut per-connection memory and give freed memory back (#8314)](https://github.com/trycua/cua/commit/4fd73ddca26415f67a5daed89e71530775c12633) | cua-agents[bot] |
+| 2026-11-20 | [fix(relay): stop machines retrying a refused token every few seconds …](https://github.com/trycua/cua/commit/83d9eab3bb81ac26bc6c993e7911f70da43f932a) | f-trycua |
+| 2026-11-20 | [chore(main): release bench 0.4.15 (#8332)](https://github.com/trycua/cua/commit/219fcd84a517bd106f91d24fc5c85430300a9272) | cua-release-bot[bot] |
 
 [See all commits ↗](https://github.com/trycua/cua/commits)
 

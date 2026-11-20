@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 91% · Cython 6% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `data-analysis` `pandas` `flexible` `alignment` `python` `data-science` |
-| 🕒 **Last activity** | 2026-11-18 (today) |
+| 🕒 **Last activity** | 2026-11-19 (today) |
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 416.7 MB |
+| 💾 **Size** | 417.0 MB |
 | 🌐 **Website** | https://pandas.pydata.org |
 
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 14d ago</sub>
+<sub>2026-11-04 · 15d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.0](https://github.com/pandas-dev/pandas/releases/tag/v3.1.0) — pandas 3.1.0
-<sub>2026-10-22 · 28d ago</sub>
+<sub>2026-10-22 · 29d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.0.
 > This release includes some new features, bug fixes, and performance improvements. We recommend that all users upgrade to this version.
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.0.5](https://github.com/pandas-dev/pandas/releases/tag/v3.0.5) — pandas 3.0.5
-<sub>2026-07-22 · 3mo ago</sub>
+<sub>2026-07-22 · 4mo ago</sub>
 
 > We are pleased to announce the release of pandas 3.0.5.
 > This is a patch release in the 3.0.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.0.x series upgrade to this version.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-19 | [CI: Update pixi.lock (#71547)](https://github.com/pandas-dev/pandas/commit/1e36a1be41ed335a5e5ba968c73ced666a883191) | github-actions[bot] |
+| 2026-11-19 | [BUG: honor custom __repr__ of container subclasses in repr (GH#18843)…](https://github.com/pandas-dev/pandas/commit/5a96bfa5f03224fb5dd0d895e5eb5f1beda23cf7) | jbrockmendel |
+| 2026-11-19 | [BUG: DataFrame.plot raising for DateOffset/Easter index freq (GH#2692…](https://github.com/pandas-dev/pandas/commit/84cfc0ba0fc2bf6365516c0f83bfca2ee247f903) | jbrockmendel |
+| 2026-11-19 | [DEPR: indexer_between_time include_start/include_end in favor of incl…](https://github.com/pandas-dev/pandas/commit/d7fa569f2b3a3686289fb34dd9aa2e0ac7cda277) | jbrockmendel |
+| 2026-11-19 | [BUG: where/mask with inplace=True ignoring labels missing from cond (…](https://github.com/pandas-dev/pandas/commit/d5f4d6536dd428e7f25734157a3343f95e0b0197) | jbrockmendel |
+| 2026-11-19 | [TST: hist(by=, sharex=True) bars follow shared labels for non-numeric…](https://github.com/pandas-dev/pandas/commit/7de707e9987d0e20b7d37ecc7306fb5f797afef1) | jbrockmendel |
+| 2026-11-19 | [ENH: route DataFrame._repr_html_ through to_html, add to_html(min_row…](https://github.com/pandas-dev/pandas/commit/15969a95bced0dbd303f8f0fbe1db1b7cb222b2f) | jbrockmendel |
+| 2026-11-19 | [BUG: RecursionError in repr of a Series/DataFrame containing itself (…](https://github.com/pandas-dev/pandas/commit/a47e619fd19853abbbe9768826509ef2914cc405) | jbrockmendel |
+| 2026-11-19 | [BUG: ewm(adjust=False) wrong result with com=1 and NaN (GH#31178) (#7…](https://github.com/pandas-dev/pandas/commit/7bea84d26835bb98e828e054ea54df1febde92c0) | jbrockmendel |
 | 2026-11-18 | [CLN: import directly in pandas/io/_util.py instead of "import pandas …](https://github.com/pandas-dev/pandas/commit/264b9d8f97b579a009f77fb171bf0c24d903604a) | fangchenli |
-| 2026-11-18 | [TYP: consistent columns annotations for DataFrame writers (GH#30449) …](https://github.com/pandas-dev/pandas/commit/c4220638b83b3a879560b6024cda6efa2c67fd2b) | jbrockmendel |
-| 2026-11-18 | [BUG: ufunc with a pandas object as `where` recursed infinitely (GH#60…](https://github.com/pandas-dev/pandas/commit/13fa1b31da2f31bb24eb1c432ed25147e3a283f8) | jbrockmendel |
-| 2026-11-18 | [BUG: read_csv c engine header=None with callable usecols (GH#71880) (…](https://github.com/pandas-dev/pandas/commit/4f02479444c1da515b14c27fa028f521665ba98d) | jbrockmendel |
-| 2026-11-18 | [BUG: quantile on all-NA third-party ExtensionArray raising (GH#45968)…](https://github.com/pandas-dev/pandas/commit/9edea0116d91409ee38c8a5c0be2a1c325e01532) | jbrockmendel |
-| 2026-11-18 | [BUG: DataFrame.to_latex/to_csv with Index, Series or array columns (#…](https://github.com/pandas-dev/pandas/commit/68dda2544d640d5183124bd26e2ffe4e9bab6823) | jbrockmendel |
-| 2026-11-18 | [BUG: describe raising for EAs whose statistics can't be cast to float…](https://github.com/pandas-dev/pandas/commit/5339de05e4c2ac160f38a1805220df1735b938c7) | jbrockmendel |
-| 2026-11-18 | [DEPR: timedelta_range closed in favor of inclusive (GH#40245) (#72057)](https://github.com/pandas-dev/pandas/commit/3e52539e2786878c9fe47c6cd90f5a50484d5858) | jbrockmendel |
-| 2026-11-18 | [DOC/MNT: update maintainer release guidelines (#71901)](https://github.com/pandas-dev/pandas/commit/e45c04ac31d448a2f38d7eb0420f05a2391f323f) | jorisvandenbossche |
-| 2026-11-18 | [CLN: move _arrow_dtype_mapping from pandas.io into pandas.core (#72203)](https://github.com/pandas-dev/pandas/commit/29765f135c637a4890c9e62be84d63c1ba38809c) | fangchenli |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

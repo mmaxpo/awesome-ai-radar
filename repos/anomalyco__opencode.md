@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 228.0k |
-| 🍴 **Forks** | 30.9k |
+| ⭐ **Stars** | 228.2k |
+| 🍴 **Forks** | 31.0k |
 | 🐞 **Open issues + PRs** | [4.0k](https://github.com/anomalyco/opencode/issues) |
 | 💻 **Languages** | TypeScript 85% · MDX 11% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2025-04-30 |
 | 📦 **Latest release** | [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2) — 2026-11-18 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 738.1 MB |
+| 💾 **Size** | 744.1 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
 
 ### [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Highlights**
 > - **GPT-6.2 Prompt Caching**: GPT-6.2 models don't cache a system prompt sent in the Responses `instructions` field, so every step re-billed it as uncached input. OpenCode now sends it as a leading developer message on every Responses route, including OpenAI (API key and ChatGPT sign-in), GitHub Copilot, Zen, Azure and OpenRouter, so it is cached from the second step on. ([#64542](https://github.com/anomalyco/opencode/pull/64542), [#64544](https://github.com/anomalyco/opencode/pull/64544))
@@ -46,7 +46,7 @@
 > - `webfetch` structured output no longer repeats the `url` and `format` it was called with. ([#64534](https://github.com/anomalyco/opencode/pull/64534))
 
 ### [v2.3.1](https://github.com/anomalyco/opencode/releases/tag/v2.3.1)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Highlights**
 > - **Timed-Out Shell Commands Keep Running**: A shell command still running when its timeout expires now moves to the background instead of being killed, so long builds and test runs finish and report back. A foreground `timeout: 0` now means the default 120 seconds. ([#63699](https://github.com/anomalyco/opencode/pull/63699))
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.19.6](https://github.com/anomalyco/opencode/releases/tag/v1.19.6)
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **Desktop**
 > **Improvements**
@@ -68,12 +68,12 @@
 > …
 
 ### [process-daemon-v0.6.0](https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.6.0) — process-daemon v0.6.0
-<sub>2026-11-16 · 2d ago</sub>
+<sub>2026-11-16 · 3d ago</sub>
 
 > opencode-pty 0.6.0 (protocol 9) from packages/process-daemon, published to npm as @opencode/pty@0.6.0.
 
 ### [v2.3.0](https://github.com/anomalyco/opencode/releases/tag/v2.3.0)
-<sub>2026-11-13 · 6d ago</sub>
+<sub>2026-11-13 · 7d ago</sub>
 
 > **Highlights**
 > - **Background Subagents by Default**: Subagents now return immediately, continue in the background, and report back whenever they become idle. You can keep working in the parent session while multiple subagents run concurrently. ([#63382](https://github.com/anomalyco/opencode/pull/63382))
@@ -87,16 +87,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [fix(core): respect repository line endings and symlinks in git diffs …](https://github.com/anomalyco/opencode/commit/0a297bf15de78acc4dce99b837b7e5879c1ff20b) | neriousy |
-| 2026-11-19 | [test: fix Windows timeouts in server and sdk contract tests (#64879)](https://github.com/anomalyco/opencode/commit/b8928b93605e925b189bb26b480586b8d9d8df38) | neriousy |
-| 2026-11-19 | [fix(app): match integrations dialog to palette width (#64882)](https://github.com/anomalyco/opencode/commit/40f7e4da2b6063121995c4afcda799341bda28c6) | arvsrn |
-| 2026-11-19 | [test(core): fix Windows unit flakes in video, shell, and session-tabs…](https://github.com/anomalyco/opencode/commit/354afc493ebde19701f14b8b800d28fb9f8ffce7) | neriousy |
-| 2026-11-19 | [test(tui): fix shell output, session link and terminal pane flakes (#…](https://github.com/anomalyco/opencode/commit/e3ee0821677672c5db793d82f669f14406afadc3) | neriousy |
-| 2026-11-19 | [test(app): measure the subagent indicator's exit in the task that sta…](https://github.com/anomalyco/opencode/commit/299193f88dbac910558ae73b29db81eaaa24c88b) | neriousy |
-| 2026-11-19 | [fix(desktop): open PowerShell 7 from Open in PowerShell on Windows (#…](https://github.com/anomalyco/opencode/commit/09cc0c7a59e08dda5fdfb09696f565b52f3cd10e) | neriousy |
-| 2026-11-19 | [Opentui 0.9.0 (#63989)](https://github.com/anomalyco/opencode/commit/4c5298bce4c48c2a3510809e8f15fa549fadd7bf) | simonklee |
-| 2026-11-19 | [feat(app): add previous and next match buttons to conversation search…](https://github.com/anomalyco/opencode/commit/88c90d08add7dd899a0caefc15609fdbb1d4b2ed) | neriousy |
-| 2026-11-19 | [fix(ai): default MiniMax text video ratio (#64822)](https://github.com/anomalyco/opencode/commit/d33b5783338b8b350aafc09f7dc2701eeba52a9a) | heimoshuiyu |
+| 2026-11-20 | [fix(app): keep the pinned group name field inside its menu without a …](https://github.com/anomalyco/opencode/commit/b958fc84d73e34a2fa021c285cd38c6de674adb9) | usrnk1 |
+| 2026-11-20 | [fix(app): stop buttons from flashing dark on keyboard focus (#65177)](https://github.com/anomalyco/opencode/commit/e440d29274caf25fc844bc0461e1b246f2bce50c) | usrnk1 |
+| 2026-11-20 | [fix(browser): show browser profiles inline and tidy settings copy (#6…](https://github.com/anomalyco/opencode/commit/22ecda23a923d30b64f4c74cc9a90bfabeb6a695) | usrnk1 |
+| 2026-11-20 | [fix(session-ui): show subagent status as a colored bar and word in th…](https://github.com/anomalyco/opencode/commit/85951cb08614dfe6443905552cae49d59d2d6615) | arvsrn |
+| 2026-11-20 | [feat(browser): open a link's new tab beside the tab it came from (#65…](https://github.com/anomalyco/opencode/commit/80d7c17d8e24b64deed205d166c7de812eeb3c64) | Hona |
+| 2026-11-20 | [fix(browser): confirm before clearing browsing data (#65124)](https://github.com/anomalyco/opencode/commit/bfee96a859aa0d225b845d67625d34ea6ae773d2) | Hona |
+| 2026-11-20 | [fix(install): stream curl download via stdout for confined curl (#65132)](https://github.com/anomalyco/opencode/commit/8b36735d5159e02a317cb57850122adc1f507354) | neriousy |
+| 2026-11-20 | [fix(app): go back and forward with the mouse buttons on desktop (#65129)](https://github.com/anomalyco/opencode/commit/13efefcfd373be7c433762c5447b471a6da711d3) | neriousy |
+| 2026-11-20 | [fix(app): recover child session permissions after reconnect (#65120)](https://github.com/anomalyco/opencode/commit/f0df6070f9fa54159d082f7539b8fb80e10688ba) | neriousy |
+| 2026-11-20 | [fix(ui): show text field and line comment focus in high contrast mode…](https://github.com/anomalyco/opencode/commit/10e26d9d6cf8a16f78517e2da2ea6e3543e40085) | usrnk1 |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 3.3k |
-| 🍴 **Forks** | 198 |
+| 🍴 **Forks** | 199 |
 | 🐞 **Open issues + PRs** | [4](https://github.com/PixArt-alpha/PixArt-alpha/issues) |
 | 💻 **Languages** | Python 83% · Jupyter Notebook 17% |
 | 📜 **License** | Apache-2.0 |
