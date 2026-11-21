@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 61.1k |
 | 🍴 **Forks** | 9.2k |
-| 🐞 **Open issues + PRs** | [1.2k](https://github.com/crewAIInc/crewAI/issues) |
+| 🐞 **Open issues + PRs** | [1.3k](https://github.com/crewAIInc/crewAI/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 301.1 MB |
+| 💾 **Size** | 301.4 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
 ### [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44)
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.43](https://github.com/crewAIInc/crewAI/releases/tag/1.15.43)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.42](https://github.com/crewAIInc/crewAI/releases/tag/1.15.42)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -69,7 +69,7 @@
 > …
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40)
-<sub>2026-11-11 · 8d ago</sub>
+<sub>2026-11-11 · 9d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [docs(files): document anthropic file blocks carry no cache_control (#…](https://github.com/crewAIInc/crewAI/commit/56c26a7fb3ece62c64de52e8b4228d15c9c81492) | joaomdmoura |
+| 2026-11-20 | [fix(a2a): require a secret for HMAC webhook signatures (#9459)](https://github.com/crewAIInc/crewAI/commit/f6f01ddf4300e88134bbac6dfb1762b4d75c19b0) | Kiko0301 |
+| 2026-11-20 | [fix(schema): keep fields with explicit non-null defaults non-nullable…](https://github.com/crewAIInc/crewAI/commit/b84960112ba19b110d9a49fd905f037894b0d0d4) | lkuko |
+| 2026-11-20 | [fix(llms): keep a streamed Azure delta when its chunk also carries us…](https://github.com/crewAIInc/crewAI/commit/0da44f6f7815a7e476b9c5f5bce50cc7d462952c) | YeChenglin8888 |
+| 2026-11-20 | [fix(files): reject non-positive text chunk sizes (#9520)](https://github.com/crewAIInc/crewAI/commit/9812f6c1c536e487e4e2612d45099fff1c054798) | Kiko0301 |
+| 2026-11-20 | [fix(tools): drop credentials on cross-origin redirects (#9516)](https://github.com/crewAIInc/crewAI/commit/3aeb98a271bb1d32ba1991ba2def1afb7aa82e89) | Kiko0301 |
+| 2026-11-20 | [fix(knowledge): stop chunking once a chunk reaches the end of the tex…](https://github.com/crewAIInc/crewAI/commit/fdbffa0ca3138a1e7c169e739ae9c2c6a41ab405) | Ayushraj06-bit |
+| 2026-11-20 | [fix: serialize enums by value in CrewJSONEncoder (#9582)](https://github.com/crewAIInc/crewAI/commit/c24960bda1d34d9038d7da92c3eee18275331feb) | nurlanmnn |
 | 2026-11-20 | [fix(artifacts): never cache save_artifact tool results (#9595)](https://github.com/crewAIInc/crewAI/commit/70a31b667dad750910ea5c006b1934a41821e05e) | MaiAditya |
 | 2026-11-20 | [fix(agents): set from_cache on the native tool finished event (#9504)](https://github.com/crewAIInc/crewAI/commit/8c75a465bd2c4f68ec79aa56a8bdbee8218283ed) | sunhouy |
-| 2026-11-20 | [test(utilities): cover non-dict message content blocks (#9467)](https://github.com/crewAIInc/crewAI/commit/0c31a44a5a4e2c680ca5f4fde69eade3911a4908) | Sakura-798 |
-| 2026-11-19 | [[docs-freeze] docs: snapshot and changelog for v1.15.44 (#9579)](https://github.com/crewAIInc/crewAI/commit/374c05392021271cabb809868282d949e0efbbe2) | Vidit-Ostwal |
-| 2026-11-19 | [feat: bump versions to 1.15.44 (#9578)](https://github.com/crewAIInc/crewAI/commit/484a6e3044a2511ee44f0eb5ff425da2eb1d6dbc) | Vidit-Ostwal |
-| 2026-11-19 | [chore: update litellm model catalog for v1.15.44 (#9576)](https://github.com/crewAIInc/crewAI/commit/5605f9d89c2422ba1fae6e52fa30a8e666a731c0) | Vidit-Ostwal |
-| 2026-11-19 | [docs: teach the flow skill to save and read artifacts (#9575)](https://github.com/crewAIInc/crewAI/commit/17d9ec3dfdbaf2dea593a958c9cdb3f99d773c86) | gabemilani |
-| 2026-11-19 | [fix(flow): resolve inline agent and crew action refs relative to the …](https://github.com/crewAIInc/crewAI/commit/fe019e19a8065b8795bd652072a4ed2065bfc52d) | adityajai119 |
-| 2026-11-19 | [fix(rag): stop duplicating kept separators when merging chunks (#9488)](https://github.com/crewAIInc/crewAI/commit/1096c2aeb2bd0c373327c49cd6ad2fc2fd0fbe54) | nurlanmnn |
-| 2026-11-19 | [fix(flow): isolate nested defaults from a shared flow declaration (#9…](https://github.com/crewAIInc/crewAI/commit/8f653b25447e3af5d04a2a34bd4f6bf6664f1bf1) | HanYuanLu |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

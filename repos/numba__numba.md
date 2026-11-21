@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 91% · C 6% · C++ 3% |
 | 📜 **License** | BSD-2-Clause |
 | 🏷 **Topics** | `python` `numpy` `llvm` `compiler` `cuda` `parallel` `numba` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2012-03-08 |
 | 📦 **Latest release** | [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1) — 2026-10-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 86.3 MB |
+| 💾 **Size** | 86.4 MB |
 | 🌐 **Website** | https://numba.pydata.org/ |
 
 ## 📦 Recent releases
 
 ### [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1)
-<sub>2026-10-27 · 23d ago</sub>
+<sub>2026-10-27 · 24d ago</sub>
 
 > Numba patch release, please refer to the detailed release notes here -
 > https://numba.readthedocs.io/en/stable/release/0.68.1-notes.html
@@ -67,16 +67,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Merge pull request #10894 from shaneraphel/zip-cache-readonly-home](https://github.com/numba/numba/commit/ef7e6959fe93fc8bfc1672579e84ecf5a34c1f0f) | swap357 |
+| 2026-11-20 | [Merge pull request #11003 from swap357/fix/11001_complex-fastmath-leak](https://github.com/numba/numba/commit/64792303cc326dfb03d3579e8b2be86be0e81999) | esc |
+| 2026-11-20 | [remove unused import](https://github.com/numba/numba/commit/bef55ac8bfa35bb74ed6c8676f495031c35bbb98) | swap357 |
 | 2026-11-19 | [Merge pull request #11004 from numba/renovate/pyrefly-1.x](https://github.com/numba/numba/commit/c786f9180a7deaadc700bc9e5605b21500b53992) | swap357 |
+| 2026-11-19 | [refactor TestComplexFastmath to remove numpy use](https://github.com/numba/numba/commit/347f88b7973824608f8e71fecee059d663b40a74) | swap357 |
+| 2026-11-19 | [refactor complex multiplication and division implementations to use r…](https://github.com/numba/numba/commit/ab57ae775e3c5fdb88d95f7ad92a291db19d3418) | swap357 |
 | 2026-11-19 | [Merge pull request #10928 from kc611/kc/numba_numpy_api](https://github.com/numba/numba/commit/abf938a2f41de2385ff153255f2f056b339e3b1a) | esc |
-| 2026-11-19 | [Update dependency pyrefly to v1.5.0](https://github.com/numba/numba/commit/f8ab8a6f9014a734ed42426e5cbe7fcce8e994f8) | renovate[bot] |
-| 2026-11-18 | [Merge pull request #10971 from guilhermeleobas/guilhermeleobas/cache-…](https://github.com/numba/numba/commit/2950a031275ca29d4ad599cb831273a2fed2a955) | sklam |
-| 2026-11-18 | [Fix pre-commit issues](https://github.com/numba/numba/commit/78478defa5e5a627d0956c9ea799a07fe55c02a8) | kc611 |
-| 2026-11-16 | [Merge pull request #10815 from swap357/ci/add-3.15t-free-threading-wh…](https://github.com/numba/numba/commit/d5baf9e2f131bb838356a861783690303853cfb6) | esc |
-| 2026-11-16 | [Merge pull request #10623 from swap357/secure_gh_workflows](https://github.com/numba/numba/commit/e69f15d25d7c87e1b3b1ba927f3740aa3ce98a5c) | esc |
-| 2026-11-13 | [address review comment, fix with quotes on GITHUB_WORKSPACE variable](https://github.com/numba/numba/commit/e5304bad487a1f1bd449444b4e4000220766750c) | swap357 |
-| 2026-11-12 | [add concurrency settings to stale and towncrier workflows](https://github.com/numba/numba/commit/d250467741410e863a598cee5d77742a10f05bea) | swap357 |
-| 2026-11-12 | [add environment declaration for anaconda.org publishing job](https://github.com/numba/numba/commit/5ddb77ec2d7391cf72cc4add15c80fd9c1330e0a) | swap357 |
+| 2026-11-19 | [add release note](https://github.com/numba/numba/commit/d6bb638327646947d758b92545b4e79190be02f7) | swap357 |
+| 2026-11-19 | [refactor complex multiplication, division, and absolute value impleme…](https://github.com/numba/numba/commit/31333f4c503aa77744d082211daa12c423fa3e7c) | swap357 |
+| 2026-11-19 | [add regression test for fastmath leakage](https://github.com/numba/numba/commit/a31539eaf55569327ec646a9008ce96dff4d580d) | swap357 |
 
 [See all commits ↗](https://github.com/numba/numba/commits)
 

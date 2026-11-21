@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 31.2k |
+| ⭐ **Stars** | 31.6k |
 | 🍴 **Forks** | 2.5k |
-| 🐞 **Open issues + PRs** | [938](https://github.com/meta/astryx/issues) |
-| 💻 **Languages** | TypeScript 60% · JavaScript 38% · Swift 1% |
+| 🐞 **Open issues + PRs** | [951](https://github.com/meta/astryx/issues) |
+| 💻 **Languages** | TypeScript 59% · JavaScript 39% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-01-09 |
-| 📦 **Latest release** | [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — 2026-11-14 |
+| 📦 **Latest release** | [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1342.3 MB |
+| 💾 **Size** | 1349.0 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
 
+### [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — Astryx v0.7.17
+<sub>2026-11-20 · today</sub>
+
+> **Astryx v0.7.17**
+> Upgrade every Astryx package your app uses to `0.7.17`, then run:
+> ```bash
+> astryx upgrade --from 0.7.16 --apply
+> ```
+> **Highlights**
+> …
+
 ### [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — Astryx v0.7.16
-<sub>2026-11-14 · 6d ago</sub>
+<sub>2026-11-14 · 7d ago</sub>
 
 > Astryx 0.7.16 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.7.15](https://github.com/meta/astryx/releases/tag/v0.7.15)
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > Astryx 0.7.15 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.7.14](https://github.com/meta/astryx/releases/tag/v0.7.14)
-<sub>2026-11-11 · 8d ago</sub>
+<sub>2026-11-11 · 9d ago</sub>
 
 > Astryx 0.7.14 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.7.13](https://github.com/meta/astryx/releases/tag/v0.7.13)
-<sub>2026-11-10 · 9d ago</sub>
+<sub>2026-11-10 · 10d ago</sub>
 
 > Astryx 0.7.13 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -79,31 +90,20 @@
 > ```
 > …
 
-### [v0.7.12](https://github.com/meta/astryx/releases/tag/v0.7.12)
-<sub>2026-11-10 · 10d ago</sub>
-
-> Astryx 0.7.12 — all `@astryxdesign/*` packages ship at this version.
-> ```bash
-> OLD_VERSION=0.7.11  # replace with the Core version your project uses today
-> npm install @astryxdesign/core@0.7.12 @astryxdesign/cli@0.7.12  # plus every other @astryxdesign/* package you use, at 0.7.12
-> npx @astryxdesign/cli upgrade --from "$OLD_VERSION" --apply --path .
-> ```
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [fix(ClickableCard, SelectableCard): a control inside rings itself, no…](https://github.com/meta/astryx/commit/5ebe00f5b273a253c8b5b76ecdf6c5fb5eead74d) | cixzhang |
-| 2026-11-20 | [spec(release): admit unpublished owner recuts (#13081)](https://github.com/meta/astryx/commit/c701ba4280dfb4d5e5f5c66b64eae864b208ce60) | cixzhang |
-| 2026-11-20 | [chore: land batch 106 (1 pull requests) (#13080)](https://github.com/meta/astryx/commit/1f5f1cb7799641f1efac72c75e788cab58479957) | josephfarina |
-| 2026-11-20 | [chore: land batch 104 (1 pull requests) (#13071)](https://github.com/meta/astryx/commit/ab882aaa47fa464c567193dfd8592ff9c2bb4316) | josephfarina |
-| 2026-11-20 | [[Component Audit] NumberInput: docs say when the clear button shows a…](https://github.com/meta/astryx/commit/9e40cf11fc33fac5da12ccc3df3b9060965dc2d1) | cixzhang |
-| 2026-11-20 | [fix(NavHeadingMenu): after keyboard input, the focused item draws the…](https://github.com/meta/astryx/commit/2773b025dd7419a46c6e103517a7835b823f8e19) | cixzhang |
-| 2026-11-20 | [[Component Audit] NavIcon: docs name the headings it belongs in and w…](https://github.com/meta/astryx/commit/f58e64459aa0aa534e8e5913eea8e9c277f3118b) | cixzhang |
-| 2026-11-20 | [docs(Table): on a phone, floors scroll sideways; a List below a break…](https://github.com/meta/astryx/commit/77a11ae0d2305c3f261190161248853f5741b52b) | josephfarina |
-| 2026-11-20 | [chore: land batch 103 (1 pull requests) (#13068)](https://github.com/meta/astryx/commit/16fde59f78b48440d4fc3bb239878ec8e4dc3f2f) | josephfarina |
-| 2026-11-20 | [chore: land batch 102 (1 pull requests) (#13066)](https://github.com/meta/astryx/commit/a7531d113be2ea055db51ee22605c671e11b9bb7) | josephfarina |
+| 2026-11-21 | [[Component Audit] PowerSearch: docs describe each prop once and corre…](https://github.com/meta/astryx/commit/67b821f39b7d30b703570f350c258232e80095e6) | cixzhang |
+| 2026-11-21 | [chore: land batch fe-theme-3 (7 pull requests) (#13276)](https://github.com/meta/astryx/commit/9aab75fbf22093da8c33fb7b3650f42df1943166) | josephfarina |
+| 2026-11-21 | [test(interaction-harness): a late page freeze fails by name (#13130)](https://github.com/meta/astryx/commit/04ff3cb44d31b7c2e5e339077cf0638bd640494b) | vjeux |
+| 2026-11-21 | [chore: land batch 141 (1 pull requests) (#13292)](https://github.com/meta/astryx/commit/7869990ec77434d42093ca74e02c5a03f46049ea) | josephfarina |
+| 2026-11-21 | [chore: land batch 140 (1 pull requests) (#13291)](https://github.com/meta/astryx/commit/e4fa4895fbfa3daf9bd1719cfcf35b3b1951ad27) | josephfarina |
+| 2026-11-21 | [ci: the interaction timing floor counts only specs the record knew (#…](https://github.com/meta/astryx/commit/f2c03d3b0681d2907c16c8e8c2bd99fc3282869b) | cixzhang |
+| 2026-11-21 | [perf(theme): theme/tokens no longer loads the theme builder (#12949)](https://github.com/meta/astryx/commit/4fa97f5cbd52347053e49907745e00d6ea20b93c) | vjeux |
+| 2026-11-21 | [chore: merge v0.7.17 release outputs to main (#13133)](https://github.com/meta/astryx/commit/452016907a4b274440278a7cf25011005625752f) | cixzhang |
+| 2026-11-21 | [chore(scripts): size:pages --page takes Folder:name to measure one na…](https://github.com/meta/astryx/commit/86857ba38eaa1e683c00cd8cca6624a5f3761c7f) | cixzhang |
+| 2026-11-21 | [perf(Timestamp): format the hover card's rows only when it shows (#13…](https://github.com/meta/astryx/commit/f896f3ce2f023e85068442c5b34d919531aac737) | vjeux |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

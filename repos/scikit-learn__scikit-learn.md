@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.9 MB |
+| 💾 **Size** | 183.8 MB |
 | 🌐 **Website** | https://scikit-learn.org |
 
 ## 📦 Recent releases
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [TST Fix flaky test_dual_deprecated by seeding its data (#35471)](https://github.com/scikit-learn/scikit-learn/commit/f85f0584d5d7a66068bfe50b395ac855b2289dc2) | cakedev0 |
+| 2026-11-20 | [MNT Callback transport actually free the accept thread on closing a l…](https://github.com/scikit-learn/scikit-learn/commit/5e9184e53cd3bfd5a068cb1cb96c5ad27eff8092) | jeremiedbb |
 | 2026-11-20 | [CI Lock the actions of the contributor type labeler workflow (#35470)](https://github.com/scikit-learn/scikit-learn/commit/0ab59f9bdcefd676c185b73ffc46352a7c532e07) | cakedev0 |
 | 2026-11-20 | [CI Add workflow to add contributor type labels on PRs (#35369)](https://github.com/scikit-learn/scikit-learn/commit/4f2a8dd82dc37fd20f3c185b253e8489b6c48c2c) | lesteve |
 | 2026-11-20 | [ENH Ridge: support `solver="cholesky"` for array API inputs (#35418)](https://github.com/scikit-learn/scikit-learn/commit/2dd5e2c7f03f4571c0aff7ccddcec21a4a6c88ca) | cakedev0 |
@@ -102,8 +104,6 @@
 | 2026-11-19 | [DOC fix filename reference to maintainer list in `scikit-learn-feedst…](https://github.com/scikit-learn/scikit-learn/commit/02feb7112478485bb6d7c5d00d6dc764fc9b5107) | AnneBeyer |
 | 2026-11-19 | [CI Skip LogisticRegression callback tests on Pyodide [pyodide] (#35459)](https://github.com/scikit-learn/scikit-learn/commit/5f9f6c495eb425eebccea64b92e9ad39a3c222dc) | AnneBeyer |
 | 2026-11-19 | [CI Open a tracking issue when the scheduled Pyodide build fails (#35462)](https://github.com/scikit-learn/scikit-learn/commit/8dbb149979a3cf14bb3f25db54ff047ef6dd6058) | AnneBeyer |
-| 2026-11-19 | [FIX Each callback context should be closed exactly once (#35447)](https://github.com/scikit-learn/scikit-learn/commit/a8803e4ec387f107bc09e1462fb563fd75301947) | betatim |
-| 2026-11-19 | [ENH HGBT use stack allocated buffers in histogram (#35441)](https://github.com/scikit-learn/scikit-learn/commit/d6a5828a494d99f4552893969f1900cf83be6769) | lorentzenchr |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

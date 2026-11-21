@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 99.9k |
+| ⭐ **Stars** | 100.1k |
 | 🍴 **Forks** | 5.7k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
-| 💻 **Languages** | Dart 79% · Rust 18% |
+| 💻 **Languages** | Dart 78% · Rust 18% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `flutter` `file-sharing` `dart` `flutter-apps` |
-| 🕒 **Last activity** | 2026-11-19 (yesterday) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2022-12-16 |
 | 📦 **Latest release** | [v1.18.2](https://github.com/localsend/localsend/releases/tag/v1.18.2) — 2026-08-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.5 MB |
+| 💾 **Size** | 23.3 MB |
 | 🌐 **Website** | https://localsend.org |
 
 ## 📦 Recent releases
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [fix(linux): require only Ayatana appindicator in the deb and name its…](https://github.com/localsend/localsend/commit/26cc8f997aa3f7ad789c12500a8b7206cfbb3ddc) | Tienisto |
+| 2026-11-21 | [fix(linux): name rpm desktop file after the application id so KWin sh…](https://github.com/localsend/localsend/commit/296bcf7490091bc6874f0d3c0ef043d927dc5d9d) | Tienisto |
+| 2026-11-21 | [fix(android): preserve gallery file modification times (#3715)](https://github.com/localsend/localsend/commit/2fe29dce145491db12228136ee8b0d2e662f9cc3) | ShlomoCode |
+| 2026-11-21 | [fix: bound inline text previews to prevent large-message freezes (#3737)](https://github.com/localsend/localsend/commit/1f36be759864c24e8cfada70d225547483c05906) | kneeyard126 |
+| 2026-11-20 | [fix(linux): install rpm icon without setuid, set StartupWMClass and r…](https://github.com/localsend/localsend/commit/12ec31310382d0e7a6f54697ebc9c7c64f833ccd) | Tienisto |
+| 2026-11-20 | [fix: avoid division by zero on the progress page when a file fails in…](https://github.com/localsend/localsend/commit/8e999736643547a3b375e1d442d160fa852db6ef) | Tienisto |
+| 2026-11-20 | [feat(linux): add software rendering toggle with automatic fallback af…](https://github.com/localsend/localsend/commit/b1b9abc7201b8afaa3ba7027575a2673fb6e78ee) | Tienisto |
 | 2026-11-19 | [fix: stop a send session that was cancelled while prepare-upload was …](https://github.com/localsend/localsend/commit/e05d12a9c0fd4d8c0245d2ec5c3c177e7e0f759b) | Tienisto |
 | 2026-11-18 | [fix: rank link-local IPv6 channels after IPv4 when choosing an addres…](https://github.com/localsend/localsend/commit/a6ee93b55340d7ef5d2519842503c7887f0e7479) | Tienisto |
 | 2026-11-18 | [fix: limit connection setup for pinned HTTP clients to 5 seconds (#3726)](https://github.com/localsend/localsend/commit/541689d1a4e8fd552772109b82ae75ecd7722afd) | Tienisto |
-| 2026-11-18 | [fix: let cancellation interrupt reading prepare-upload and upload res…](https://github.com/localsend/localsend/commit/84b17d4b6027dda4a6c98b0f7c2011dec034e48d) | Tienisto |
-| 2026-11-18 | [fix: strip request URLs from HTTP client errors so the PIN is not exp…](https://github.com/localsend/localsend/commit/025f950e67057dd4330cc22500ec90451df9bb1e) | Tienisto |
-| 2026-11-18 | [feat: make sending checksums opt-in (#3723)](https://github.com/localsend/localsend/commit/65496bdb021cd78d26657a34fba1fa5557dcb899) | Tienisto |
-| 2026-11-18 | [Expose channel direction reachability and probe peer on /register (#3…](https://github.com/localsend/localsend/commit/ef2578911a0ad34771d9090f66d3f5a80ddb95c7) | Tienisto |
-| 2026-11-17 | [chore: add marionette integration for debug builds (#3721)](https://github.com/localsend/localsend/commit/281b491e9c0d0e692fc7ff1caaea28c897a64fd0) | Tienisto |
-| 2026-11-17 | [Revert "deps: bump flutter to 3.47.9 (#3692)" (#3717)](https://github.com/localsend/localsend/commit/d1e6198f401939a9b76854f406f7dbb27d67a808) | Tienisto |
-| 2026-11-11 | [fix(linux): resolve the tray icon to an absolute path on Snap (#3354)](https://github.com/localsend/localsend/commit/2e7ef1972b0b4e210608ec77ef5fad334f798f7e) | vicajilau |
 
 [See all commits ↗](https://github.com/localsend/localsend/commits)
 

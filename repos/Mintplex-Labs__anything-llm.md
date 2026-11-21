@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 68.5k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [345](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [334](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 94.7 MB |
+| 💾 **Size** | 94.5 MB |
 | 🌐 **Website** | https://anythingllm.com |
 
 ## 📦 Recent releases
 
 ### [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — AnythingLLM v1.20.0
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **Updated browser extension**
 > The [browser extension](https://github.com/Mintplex-Labs/anythingllm-extension) has been improved beyond its original function of just collecting documents to now a full fledged UI chat bar with the ability to right click -> Add context (text and image) and chat directly  in Chrome. This sidebar should have mostly full parity for tooling and more with the traditional chat UI.
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — AnythingLLM v1.19.0
-<sub>2026-10-26 · 24d ago</sub>
+<sub>2026-10-26 · 25d ago</sub>
 
 > **Built-in LLM for Docker**
 > <img width="3680" height="2212" alt="AnythingLLM Docker built-in LLM powered by Lemonade and llama.cpp" src="https://github.com/user-attachments/assets/410b5784-ca15-4027-a1c4-056d9d5c748e" />
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [fix: replace every underscore in imported GitLab issue metadata label…](https://github.com/Mintplex-Labs/anything-llm/commit/472b1e3f4715c6ccd38a099aecd4651a449188aa) | MohammadHijjawi97 |
+| 2026-11-21 | [Agent skill availability: documents everywhere, cloud runtime gates](https://github.com/Mintplex-Labs/anything-llm/commit/7e30580e8c0076b1548419d6721b006a436cee94) | timothycarambat |
+| 2026-11-20 | [fix: read Bedrock Anthropic replies from text blocks, not the first b…](https://github.com/Mintplex-Labs/anything-llm/commit/90df028cd55a734ae5d3168105b732049901d0cf) | arjankapteijn |
 | 2026-11-19 | [fix: split Outlook agent recipients on semicolons and drop empty entr…](https://github.com/Mintplex-Labs/anything-llm/commit/b2da188766b245449fb573f1414632eb6afb57e8) | MohammadHijjawi97 |
 | 2026-11-19 | [fix: preserve sibling articles in website imports (#7251)](https://github.com/Mintplex-Labs/anything-llm/commit/c46b7fb182302454949dd46bc39cfc6bab300ef3) | Max-Reisinger |
 | 2026-11-19 | [fix: keep the chat in sync with the route when switching workspaces (…](https://github.com/Mintplex-Labs/anything-llm/commit/f3ed0c7de1562499f8a9feb30b8cbc26b5d649c5) | timothycarambat |
@@ -101,9 +104,6 @@
 | 2026-11-19 | [fix(agents): refuse to overwrite an existing destination in filesyste…](https://github.com/Mintplex-Labs/anything-llm/commit/3fd1cb383392248f28dc52ee6fb23ecf745dc3ca) | nurlanmnn |
 | 2026-11-19 | [fix(ollama): keep native tool requests inside num_ctx (#7295)](https://github.com/Mintplex-Labs/anything-llm/commit/d1f80ad2c65f22728fbd3434d5795d7d9022f7f9) | timothycarambat |
 | 2026-11-19 | [docs: fix Bedrock env var names in .env.example files (#7288)](https://github.com/Mintplex-Labs/anything-llm/commit/5fffef2170fe4d40dab50d8044a3dfee553bc9ba) | arjankapteijn |
-| 2026-11-19 | [fix: accept uppercase scheme and host in YouTube links (#7291)](https://github.com/Mintplex-Labs/anything-llm/commit/6a319df904e0f7bd763f9a005857b27476cbe6da) | Israel-Kli |
-| 2026-11-18 | [docs: no PRs for issues labeled core-team-only](https://github.com/Mintplex-Labs/anything-llm/commit/2f6a451f55aca970311af2579088fe0c27af3ce8) | timothycarambat |
-| 2026-11-18 | [fix(ollama): stop replaying saved reasoning and keep native agent thi…](https://github.com/Mintplex-Labs/anything-llm/commit/1046dc061d9314f817d9c27782dc65328e0da6e3) | timothycarambat |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
 

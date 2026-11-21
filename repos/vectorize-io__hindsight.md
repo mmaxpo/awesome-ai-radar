@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 62.2k |
+| ⭐ **Stars** | 62.4k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [231](https://github.com/vectorize-io/hindsight/issues) |
+| 🐞 **Open issues + PRs** | [240](https://github.com/vectorize-io/hindsight/issues) |
 | 💻 **Languages** | Python 70% · TypeScript 17% · MDX 9% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2025-10-30 |
 | 📦 **Latest release** | [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 834.7 MB |
+| 💾 **Size** | 835.1 MB |
 | 🌐 **Website** | https://hindsight.vectorize.io/ |
 
 ## 📦 Recent releases
 
 ### [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3)
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.2.2 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6678
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.2](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.2)
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > **What's Changed**
 > * test(llm): fix the two-user-turns tests broken by the tool-call retry by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6492
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1)
-<sub>2026-11-10 · 9d ago</sub>
+<sub>2026-11-10 · 10d ago</sub>
 
 > **What's Changed**
 > * docs drop 0.9 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6284
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 17d ago</sub>
+<sub>2026-11-03 · 18d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.1.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.1.0)
-<sub>2026-10-21 · 29d ago</sub>
+<sub>2026-10-21 · 1mo ago</sub>
 
 > **What's Changed**
 > * docs: v1.0.0 changelog, Memlake launch post, and version-1.0 docs snapshot by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5550
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [fix(knowledge): PDF calls queued when the pool is killed are retried,…](https://github.com/vectorize-io/hindsight/commit/62a03bfc96f175e9ac155acc72f292bed9ac4449) | nicoloboschi |
+| 2026-11-20 | [fix(kb): a PDF page is its own document in the rerank; drop the page …](https://github.com/vectorize-io/hindsight/commit/80bd005fc2be5c9604a1a0c9741ea93d5ac85156) | nicoloboschi |
+| 2026-11-20 | [perf(kb): time knowledge search by part, and let its vector searches …](https://github.com/vectorize-io/hindsight/commit/1ee4d90a25898afb9cb04f65e3fe8512d4759227) | nicoloboschi |
+| 2026-11-20 | [fix(llm): share LLM slots fairly across tenants, banks and documents …](https://github.com/vectorize-io/hindsight/commit/7f225b52134497fb02677f1950cd103ebc780226) | nicoloboschi |
+| 2026-11-20 | [fix(knowledge): a spreadsheet declaring millions of cells is read cel…](https://github.com/vectorize-io/hindsight/commit/cc963640ddae0db438ab13f403a3efa8f76ea5e0) | nicoloboschi |
 | 2026-11-20 | [fix(knowledge): a cut-off video is not refused for its header's lengt…](https://github.com/vectorize-io/hindsight/commit/59ec0f0c42e1df050dd8bc1185921febd71112b1) | nicoloboschi |
 | 2026-11-20 | [feat(kb): a knowledge search can skip the reranker (enable_reranking:…](https://github.com/vectorize-io/hindsight/commit/732f35e2dc5d25427e21b391959b114ae24a8d02) | nicoloboschi |
 | 2026-11-20 | [test(system-evals): the knowledge edge-case sample moves to hindsight…](https://github.com/vectorize-io/hindsight/commit/ae3c142e88e5b792be11bbb07cf46ca31ffa8e23) | nicoloboschi |
 | 2026-11-20 | [fix(llm): repair malformed JSON from the raw text, not the newline-es…](https://github.com/vectorize-io/hindsight/commit/385f2d232eeac13b8a23890ee4be806eb588b01b) | nicoloboschi |
 | 2026-11-20 | [fix(knowledge): an Office worker converts every file with one convert…](https://github.com/vectorize-io/hindsight/commit/797c5cfe298b507efb135af3b2282261a475fdf1) | nicoloboschi |
-| 2026-11-20 | [fix(knowledge): the server kills its biggest worker before the contai…](https://github.com/vectorize-io/hindsight/commit/bbdcbfd87cfabb3813f1fe160289051c06dfaf02) | nicoloboschi |
-| 2026-11-20 | [fix(knowledge): an Office file queued behind one that kills the conve…](https://github.com/vectorize-io/hindsight/commit/91bd6f8f41a7be72b118421c56266b82f8006343) | nicoloboschi |
-| 2026-11-20 | [fix(kb): text search finds the passage, not only the document (#6704)](https://github.com/vectorize-io/hindsight/commit/fdae5ed70c7ce54f09a1f4e8a231a118707e6d44) | nicoloboschi |
-| 2026-11-20 | [perf(retain): don't hold a pool connection while entity resolution sc…](https://github.com/vectorize-io/hindsight/commit/c49077205766c820759cbb6d9b03965f22790bba) | nicoloboschi |
-| 2026-11-20 | [fix(knowledge): a table is never one oversized passage, and staged pa…](https://github.com/vectorize-io/hindsight/commit/cf341dbf17e0843e9ec685c48c8677f303521cbb) | nicoloboschi |
 
 [See all commits ↗](https://github.com/vectorize-io/hindsight/commits)
 

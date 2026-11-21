@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.8k |
-| 🍴 **Forks** | 182 |
-| 🐞 **Open issues + PRs** | [173](https://github.com/Noovolari/leapp/issues) |
+| 🍴 **Forks** | 183 |
+| 🐞 **Open issues + PRs** | [175](https://github.com/Noovolari/leapp/issues) |
 | 💻 **Languages** | TypeScript 80% · SCSS 6% · HTML 5% · Python 4% · JavaScript 3% |
 | 📜 **License** | MPL-2.0 |
 | 🏷 **Topics** | `aws` `aws-credentials` `aws-creds` `cloud` `credential-manager` `saml-sso-url` `azure` `azure-cli` `temporary-credentials` `hacktoberfest` `electron` |

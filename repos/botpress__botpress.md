@@ -26,11 +26,11 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `ai` `botpress` `chatbot` `chatgpt` `gpt` `gpt-4` `llm` `openai` `langchain` `nlp` `prompt` |
-| 🕒 **Last activity** | 2026-11-18 (yesterday) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) — 2023-06-22 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 337.1 MB |
+| 💾 **Size** | 342.5 MB |
 | 🌐 **Website** | https://botpress.com |
 
 ## 📦 Recent releases
@@ -89,6 +89,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [feat(zai): use the Cognitive classification API, add classify(), prio…](https://github.com/botpress/botpress/commit/cd501dd208debd3acb2a6d9805ae5e68be2f0efa) | slvnperron |
+| 2026-11-21 | [fix(llmz): recover replies that put the start marker after a sentence…](https://github.com/botpress/botpress/commit/3d76ca4b81bad94ce95a8f71b9e6c393069ecf87) | aj-botpress |
+| 2026-11-20 | [fix(zai): harden retries, parsers and chunking across all operations …](https://github.com/botpress/botpress/commit/56b3f7258ed48fbe3fc7ffa79d9896fe5f0bfad4) | slvnperron |
 | 2026-11-18 | [fix(freshchat): verify token with /channels instead of /accounts/conf…](https://github.com/botpress/botpress/commit/2a842717da378bfff0671bd920f99b56469c356b) | raahuljohn |
 | 2026-11-16 | [fix(llmz): hold an exit written before tool data came back until the …](https://github.com/botpress/botpress/commit/e6f34b576f375cda080fa3687c8e101222bce80b) | SohaibDM |
 | 2026-11-16 | [feat(llmz): let callers set the code result cap with maxResultChars (…](https://github.com/botpress/botpress/commit/6a1d6be64a1b3570d050d305824ad814ea3ba455) | SohaibDM |
@@ -96,9 +99,6 @@
 | 2026-11-13 | [fix(gsheets): canonicalize service account private keys (#15556)](https://github.com/botpress/botpress/commit/ee7756d29d788def2813a1a19999df0149d117cf) | pascal-botpress |
 | 2026-11-13 | [chore(client): bump client to version 2.13.0 (#15555)](https://github.com/botpress/botpress/commit/3e82f54db2ead8784e6c955871adbc1a6cb89948) | mikaelmoreau-botpress |
 | 2026-11-13 | [fix(llmz): list only the last 5 iterations in the execution status (0…](https://github.com/botpress/botpress/commit/b1a80d49fa63029c49777ccfa850bc06fdaf3ce4) | SohaibDM |
-| 2026-11-13 | [fix(llmz): stop a runaway regex at the code timeout by updating quick…](https://github.com/botpress/botpress/commit/b94df1f8d9f3e4588fe8e79c658c95d470a9e479) | SohaibDM |
-| 2026-11-11 | [feat(cognitive): add classify to the client (1.4.0) (#15543)](https://github.com/botpress/botpress/commit/0658a908567d7fae7384885378b00f33adcc2c58) | AugustDG |
-| 2026-11-10 | [chore(chat): stop deploying chat to ECS (#15528)](https://github.com/botpress/botpress/commit/0cdf37321b43e2340eb17a792e0782a99f8d60f9) | mikaelmoreau-botpress |
 
 [See all commits ↗](https://github.com/botpress/botpress/commits)
 

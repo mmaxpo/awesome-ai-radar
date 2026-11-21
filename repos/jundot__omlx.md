@@ -22,21 +22,43 @@
 |---|---|
 | ⭐ **Stars** | 23.8k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [388](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [397](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-02-13 |
-| 📦 **Latest release** | [v0.8.0](https://github.com/jundot/omlx/releases/tag/v0.8.0) — 2026-11-18 |
+| 📦 **Latest release** | [v0.8.2](https://github.com/jundot/omlx/releases/tag/v0.8.2) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 98.6 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
+### [v0.8.2](https://github.com/jundot/omlx/releases/tag/v0.8.2) — 0.8.2
+<sub>2026-11-21 · today</sub>
+
+> > **Hotfix release:** Fixes wrong click positions on screenshots with Qwen3.8 Flash-Next (#5474). Everything else is the same as 0.8.1.
+> **oMLX 0.8.2**
+> oMLX 0.8.2 adds Hy4, Hy4-flash and Inkling 2 Mini, lets you apply a LoRA adapter from a model's settings, and makes MTP verify on M5, GLM-5.3 with several requests and new questions on a cached document faster.
+> **Download:** [macOS 26 / 27](https://github.com/jundot/omlx/releases/download/v0.8.2/oMLX-0.8.2-macos26-27.dmg) | [macOS 15 Sequoia](https://github.com/jundot/omlx/releases/download/v0.8.2/oMLX-0.8.2-macos15-sequoia.dmg)
+> **New Models: Hy4, Hy4-flash and Inkling 2 Mini**
+> Tencent's Hy4 and Hy4-flash run with image input, Lightning MTP and oQ/oQh, and their FP8 releases load as is (#5463). Lightning MTP takes Hy4-flash FP8 from 23.1 to 37.7 tok/s at 32K (+63%). Ready-made oQ4h builds are [Jundot/Hy4-flash-oQ4h-mtp](https://huggingface.co/Jundot/Hy4-flash-oQ4h-mtp) (132 GB) and [Jundot/Hy4-oQ4h-mtp](https://huggingface.co/Jundot/Hy4-oQ4h-mtp) (452 GB).
+> …
+
+### [v0.8.1](https://github.com/jundot/omlx/releases/tag/v0.8.1) — 0.8.1
+<sub>2026-11-21 · today</sub>
+
+> **oMLX 0.8.1**
+> oMLX 0.8.1 adds Hy4, Hy4-flash and Inkling 2 Mini, lets you apply a LoRA adapter from a model's settings, and makes MTP verify on M5, GLM-5.3 with several requests and new questions on a cached document faster.
+> **Download:** [macOS 26 / 27](https://github.com/jundot/omlx/releases/download/v0.8.1/oMLX-0.8.1-macos26-27.dmg) | [macOS 15 Sequoia](https://github.com/jundot/omlx/releases/download/v0.8.1/oMLX-0.8.1-macos15-sequoia.dmg)
+> **New Models: Hy4, Hy4-flash and Inkling 2 Mini**
+> Tencent's Hy4 and Hy4-flash run with image input, Lightning MTP and oQ/oQh, and their FP8 releases load as is (#5463). Lightning MTP takes Hy4-flash FP8 from 23.1 to 37.7 tok/s at 32K (+63%). Ready-made oQ4h builds are [Jundot/Hy4-flash-oQ4h-mtp](https://huggingface.co/Jundot/Hy4-flash-oQ4h-mtp) (132 GB) and [Jundot/Hy4-oQ4h-mtp](https://huggingface.co/Jundot/Hy4-oQ4h-mtp) (452 GB).
+> > M3 Ultra 512GB, 32K prompt, Lightning MTP on. MTP decode moves with draft acceptance, so single runs can differ.
+> …
+
 ### [v0.8.0](https://github.com/jundot/omlx/releases/tag/v0.8.0) — 0.8.0
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **oMLX 0.8.0**
 > oMLX 0.8.0 adds the Prefill Accelerator, which lets a PC with NVIDIA GPUs or a second Mac speed up prefill for a big model on your Mac, adds oQh for more accurate low-bit quants at the same size, and makes DeepSeek V4.1, Qwen and long-context decode faster.
@@ -47,7 +69,7 @@
 > …
 
 ### [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 0.8.0rc1
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > **oMLX 0.8.0rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -58,7 +80,7 @@
 > …
 
 ### [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 0.7.4.dev1
-<sub>2026-11-04 · 16d ago</sub>
+<sub>2026-11-04 · 17d ago</sub>
 
 > **oMLX 0.7.4.dev1**
 > > This is a development release. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -68,42 +90,20 @@
 > **Prefill Accelerator**
 > …
 
-### [v0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3) — 0.7.3
-<sub>2026-10-31 · 19d ago</sub>
-
-> **oMLX 0.7.3**
-> oMLX 0.7.3 makes DeepSeek V4.1 prefill and batched decode faster, lets Ask AI hold voice conversations, search the web, read links and look at your screen, and cuts memory use when many requests run at long context. The notes below cover changes since 0.7.3rc1, and earlier 0.7.3 highlights are summarized at the end.
-> **Download:** [macOS 26 / 27](https://github.com/jundot/omlx/releases/download/v0.7.3/oMLX-0.7.3-macos26-27.dmg) | [macOS 15 Sequoia](https://github.com/jundot/omlx/releases/download/v0.7.3/oMLX-0.7.3-macos15-sequoia.dmg)
-> https://github.com/user-attachments/assets/d63f2dbd-a3a9-47e0-bf1f-1add45c39395
-> **Ask AI Voice Mode, Web Search and Screen Capture**
-> Talk to your local models. Turn on Voice under App > Ask AI, press Option-Shift-Space and speak, and the answer plays back with captions. Ask AI can also search the web, read links and look at your screen (#4976).
-> …
-
-### [v0.7.3rc1](https://github.com/jundot/omlx/releases/tag/v0.7.3rc1) — 0.7.3rc1
-<sub>2026-10-27 · 24d ago</sub>
-
-> **oMLX 0.7.3rc1**
-> > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.2](https://github.com/jundot/omlx/releases/tag/v0.7.2).
-> The release candidate for oMLX 0.7.3 adds Ask AI, a question bar for your local models in any app, a GPU power limit for working on battery, and Ling 3.1 Flash with Lightning MTP. It also brings everything from the 0.7.3 development releases: MiniMax M3.1 Flash, faster M1 and M5 Macs, and better low-bit oQ.
-> **Download:** [macOS 26 / 27](https://github.com/jundot/omlx/releases/download/v0.7.3rc1/oMLX-0.7.3rc1-macos26-27.dmg) | [macOS 15 Sequoia](https://github.com/jundot/omlx/releases/download/v0.7.3rc1/oMLX-0.7.3rc1-macos15-sequoia.dmg)
-> **Ask AI**
-> Ask your local models from any app. Press Option-Space and a question bar floats over whatever you are working on without taking focus, and the answer streams in as Markdown. Slash presets set the model and system prompt per command, so `/translate` can run a small model with a fixed prompt and copy the result for you. Vision models also take images pasted with Command-V. Turn it on in the macOS app under App > Ask AI. #4854
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [fix(mtp): per-row rollback of affine/turboquant batch caches in batch…](https://github.com/jundot/omlx/commit/e1a402cf7b8e36599a3c1689b9d12cec5da79ade) | avifenesh |
-| 2026-11-20 | [perf(cache): join quantized caches layer by layer with room to grow (…](https://github.com/jundot/omlx/commit/7d0bcc92b6799d9d53e3685db33e3b038120b7e0) | avifenesh |
-| 2026-11-20 | [fix: clear the Metal pool before a cache store under memory pressure …](https://github.com/jundot/omlx/commit/903e1862104dee1d54467cb8c3e94d5e984e3c7e) | jundot |
-| 2026-11-20 | [fix(oq): streamed oQe refinement gives Qwen3.5 gated delta nets no ma…](https://github.com/jundot/omlx/commit/3f77d5e1e91e9cb961d33a188035a45457b1f5e8) | keefar |
-| 2026-11-20 | [refactor(cluster): remove dead v1 console and CUDA worker code (#5453)](https://github.com/jundot/omlx/commit/d4f95b4b1eb19c8a3b309129b1a8fe92f6249899) | jundot |
-| 2026-11-20 | [perf(deepseek_v41): advise a decode token's Engram pages before copyi…](https://github.com/jundot/omlx/commit/1149baff73fafa04387fbff477430aee2a5413b2) | Jiffywu |
-| 2026-11-20 | [feat(cluster): run DeepSeek V4.1 tensor-parallel on Macs with differe…](https://github.com/jundot/omlx/commit/44dfc29ef026fb02ad6e25e744a08575c21f1987) | Jiffywu |
-| 2026-11-20 | [feat(dsv41): release expert bank slots for a prefill that needs them …](https://github.com/jundot/omlx/commit/a865dc465ac3c27a68338ce089939501e574749a) | williamxie1989 |
-| 2026-11-20 | [feat(macos): add performance benchmark advanced options (#5257)](https://github.com/jundot/omlx/commit/ec9734144582ea2ee03a339b5b4d66a03a4303ce) | ngutech21 |
-| 2026-11-20 | [feat(oq): refine DeepSeek V4.1 routed expert codes below oQ4](https://github.com/jundot/omlx/commit/d675c0d72bf65c341945f461b8b1fc29e1d32203) | jundot |
+| 2026-11-21 | [formula: bump to 0.8.2](https://github.com/jundot/omlx/commit/ade9f20a43a8aa8d9191f6c6f130a98154306405) | github-actions[bot] |
+| 2026-11-21 | [chore: bump version to 0.8.2](https://github.com/jundot/omlx/commit/5eeec7757f83bfc99eeb87abe49686d00a0bba1f) | jundot |
+| 2026-11-21 | [fix: use the DeepSeek V4 hc kernel only for 4 streams and 4-wide rows](https://github.com/jundot/omlx/commit/e095f9d5635f7cc9cbbdda4cc06a7444f0afd863) | jundot |
+| 2026-11-21 | [fix: correct Qwen4 image MRoPE positions (#5474)](https://github.com/jundot/omlx/commit/fd240293f5406f144b0401f17c420946cfa22901) | jundot |
+| 2026-11-21 | [formula: bump to 0.8.1](https://github.com/jundot/omlx/commit/60ea5d6a0e5af18cb67d3da69912d49812962967) | github-actions[bot] |
+| 2026-11-21 | [feat(oq): quantize Inkling 2 Mini](https://github.com/jundot/omlx/commit/13fd0c9d14406fd86598cf9af749695a138dd21c) | jundot |
+| 2026-11-20 | [chore(cuda-helper): bump the helper to 0.1.7](https://github.com/jundot/omlx/commit/390ddfae5f8e50b3bf70e8a44556a5b82a828967) | jundot |
+| 2026-11-20 | [chore: bump version to 0.8.1](https://github.com/jundot/omlx/commit/fad2359b9552cb5a782302fd2c9532c38c59d3fe) | jundot |
+| 2026-11-20 | [feat(inkling2): support Inkling 2 Mini (#5468)](https://github.com/jundot/omlx/commit/24e5f90544bc57228f48fb0dda2241e93b008c65) | jundot |
+| 2026-11-20 | [feat(hy4): add Hy4 and Hy4-flash with DFly2 MTP, oQ and oQh (#5463)](https://github.com/jundot/omlx/commit/2cf8fce68a4c95942f57be92b3a1b8015687d5d3) | jundot |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 

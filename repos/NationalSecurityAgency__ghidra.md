@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — Ghidra 12.2
-<sub>2026-10-22 · 29d ago</sub>
+<sub>2026-10-22 · 1mo ago</sub>
 
 > * [What's New](https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.2_build/Ghidra/Configurations/Public_Release/src/global/docs/WhatsNew.md)
 > * [Change History](https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.2_build/Ghidra/Configurations/Public_Release/src/global/docs/ChangeHistory.md)
@@ -43,7 +43,7 @@
 > * SHA-256: `2c2cd776db3c1f6a097ba418922378ac3649cadd5e844a6f5f088ae628a7be67`
 
 ### [Ghidra_12.1.4_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build) — Ghidra 12.1.4
-<sub>2026-09-21 · 1mo ago</sub>
+<sub>2026-09-21 · 2mo ago</sub>
 
 > * [What's New](https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.1.4_build/Ghidra/Configurations/Public_Release/src/global/docs/WhatsNew.md)
 > * [Change History](https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.1.4_build/Ghidra/Configurations/Public_Release/src/global/docs/ChangeHistory.md)
@@ -78,16 +78,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Merge branch 'GP-0_ryanmkurtz_PR-9775_rudycelekli_fix_pyghidra-script…](https://github.com/NationalSecurityAgency/ghidra/commit/b59c6712390d8957aebbd21bd4b2a8c68f5859e0) | ryanmkurtz |
-| 2026-11-19 | [Merge branch 'GP-0_ryanmkurtz_PR-9779_rudycelekli_fix_pyghidra-plugin…](https://github.com/NationalSecurityAgency/ghidra/commit/317de576a05beb03e5d1eba1d39e1353b7910c6a) | ryanmkurtz |
-| 2026-11-19 | [Merge branch 'GP-0_ryanmkurtz_PR-9783_rudycelekli_fix_pyghidra-monito…](https://github.com/NationalSecurityAgency/ghidra/commit/6f1ed08dddadf173e45564e0853fdd042ca8de51) | ryanmkurtz |
-| 2026-11-19 | [Merge branch](https://github.com/NationalSecurityAgency/ghidra/commit/7d15b5c2dfc39dcd5e91d555a89ec700dd961b59) | ryanmkurtz |
-| 2026-11-19 | [GP-0: Updating README.md](https://github.com/NationalSecurityAgency/ghidra/commit/921a2a56b0658b909f5f5129fda91a1da8baf6b5) | ryanmkurtz |
-| 2026-11-19 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/a39e300d7e5e98754870123d68f491e529fc7631) | ryanmkurtz |
-| 2026-11-19 | [Merge remote-tracking branch 'origin/GP-0_d-millar_lldb_delmem_fix'](https://github.com/NationalSecurityAgency/ghidra/commit/66b3412bdf679197c43858fabf7c3ea2f833bc31) | ryanmkurtz |
-| 2026-11-19 | [GP-0: old bug](https://github.com/NationalSecurityAgency/ghidra/commit/411636dae873068d6a1f8882fd59a70f916b5faa) | d-millar |
-| 2026-11-18 | [GP-7513 - Demangler - Fixed issue causing the demangler analyzer to d…](https://github.com/NationalSecurityAgency/ghidra/commit/fe5d7e258d73e1e6ada6dca11853e5ee9acf6cfe) | dragonmacher |
-| 2026-11-18 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/389891699a91d7552da8e322f51b405b089dfe3f) | ryanmkurtz |
+| 2026-11-20 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/3fb3eec6a05442c901e9ead8620ca21eae830b18) | ryanmkurtz |
+| 2026-11-20 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/dd950a597858ba66db6e9f84dbbfbbed829aaf6a) | ryanmkurtz |
+| 2026-11-20 | [GP-0: HTML converted from Markdown should be UTF-8](https://github.com/NationalSecurityAgency/ghidra/commit/a95e071f316f196dcb7674cd591f3f200ec96153) | ryanmkurtz |
+| 2026-11-20 | [Merge branch 'GP-0_ryanmkurtz_PR-10150_lzandman_leon_fix-opbehavior-i…](https://github.com/NationalSecurityAgency/ghidra/commit/d5b786efaa0ceec0665a48d754f99ac0c0f1453b) | ryanmkurtz |
+| 2026-11-20 | [AArch32: fixed A32 mode rd pc offset](https://github.com/NationalSecurityAgency/ghidra/commit/8dec79bd257ad107936f5fa0f91dffb8f76ef0ac) | Sleigh-InSPECtor |
+| 2026-11-20 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/4524a99c9fce441fb9a332354835662180c00b94) | ryanmkurtz |
+| 2026-11-20 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/d73be16a9da205e13d560a92cbf158b60471ed01) | ryanmkurtz |
+| 2026-11-20 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/2a60f52643e442008324e0c190b20f0388a379a1) | ryanmkurtz |
+| 2026-11-19 | [GP-7524 Fixed function finding for ARM/THUMB](https://github.com/NationalSecurityAgency/ghidra/commit/92cbd59b81f57a543b4a9c93c9511485c606152d) | ghidragon |
+| 2026-11-19 | [ARM: fix SRSDA/SRSDB LR/SPSR store order and decrement addresses](https://github.com/NationalSecurityAgency/ghidra/commit/7ca3da9581c047dd833a5c2ac5b1bb9a995dbc76) | delaysystem |
 
 [See all commits ↗](https://github.com/NationalSecurityAgency/ghidra/commits)
 

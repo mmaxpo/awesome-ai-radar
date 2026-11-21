@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 57.9k |
+| ⭐ **Stars** | 58.0k |
 | 🍴 **Forks** | 4.4k |
-| 🐞 **Open issues + PRs** | [51](https://github.com/Imbad0202/academic-research-skills/issues) |
+| 🐞 **Open issues + PRs** | [54](https://github.com/Imbad0202/academic-research-skills/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `academic-writing` `ai-research` `claude` `claude-code` `literature-review` `peer-review` `prompt-engineering` `academic-pipeline` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-02-26 |
 | 📦 **Latest release** | [v3.24.4](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.24.4) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.24.4](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.24.4) — v3.24.4 — A committee-correspondence variant scoped to research ethics review, b…
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > > **Reviewer, revision-coach, cross-model, and Windows repairs; no new skill or mode, and the prompt-level changes are unmeasured:** The `revision-coach` committee-correspondence variant now covers only comments from a formal research ethics or human-subjects protection review of research with human participants, their data, or their biological samples, made by a body with formal review authority over the study. Before it takes the variant, the coach starts its reply by quoting the user's own words that name the body; when the user's turns do not name it, the coach asks which body sent the comments and in what review (#907). The preregistered eval runs used an earlier text of these rules, and the final rules have not been run in a plugin eval; a retest is tracked in #1122. Known limits of the gate, such as a named body whose kind of review is unknown, are listed in #1123. The letter gains a Below the Consensus Bar section for round-1 findings that two of the four non-DA reviewers raised with no conflict, or that one raised, and `revision-roadmap/1.1` gives them the levels `CORROBORATED` and `SINGLE-REVIEWER`; a `revision-roadmap/1.0` roadmap stays readable but cannot carry these values (#1100). The Devil's Advocate files an unsupported premise that a core claim depends on as an issue row, and the synthesizer marks a single-reviewer finding when a DA issue row reports it too; the mark does not raise the finding's level and is not evidence of independent judgement (#1098). The `reviewer_full` contract digest changes, so seeded-defect runs under the old digest are not directly comparable. The field analyst names the reviewer seat that checks who the manuscript assumes will benefit and who bears the cost, or writes `Seat: none` and states the gap (#1098). The domain reviewer judges literature coverage as of the date the manuscript states; the CHANGELOG entry gives its rules for a manuscript with no date and for works that may postdate it (part of #1107). GPT-6.2 Astra is a provisional cross-model verifier and the recommended OpenAI id; it passed the entry-gate smoke on the ChatGPT-subscription citation transport only, no Promotion Bakeoff is recorded, and the GPT-6.2 system card has not been audited for ARS. On the Responses API route, `openai_effort_guard.sh` rejects the efforts `none`, `minimal`, and `ultra` for it before a request leaves. Five file readers that do not follow symlinks no longer fail outright on Windows, and the inquiry branch ledger skips its directory fsync where a directory cannot be opened, so a crash right after a rename on Windows can lose the new directory entry (#1092). The Windows path is best-effort and not atomic, does not check every directory on the path (the CHANGELOG entry lists which it trusts), refuses every reparse point it checks (cloud-sync placeholders included), and was tested only by simulation on other hosts: no Windows run was made. The inquiry branch ledger alpha still refuses to run on Windows, and a binding manifest whose reference contains a colon no longer passes validation on any platform. For Chicago, MLA, IEEE, and Vancouver papers, `citation_compliance_agent` reports findings and auto-corrects nothing until a full fix lands, and some findings can still be wrong (#1093). Each way the `academic-paper` `full` revision loop ends now has one next step (#1087), the revision token check no longer stalls on a long run of capitals or digits (#1088), and MLA 9th conversion keeps a DOI that the entry has (#1095). Cross-model docs and comments, and the verifier prompt's `NOT_FOUND` definition, now say what the checks show (#1111, #1113, #1114, #1116), and the reviewer examples show the Coverage and Stakeholder Coverage rules (#1085).
 > **Changed**
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.24.3](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.24.3) — v3.24.3 — An author letter in the user's language, a field analyst that names no…
-<sub>2026-11-14 · 6d ago</sub>
+<sub>2026-11-14 · 7d ago</sub>
 
 > > **Reviewer, citation, and adapter repairs and one new reviewer output; no new skill or mode, and the prompt-level changes are unmeasured:** A `full` review now also writes the author a letter in the user's language beside the Editorial Decision Package. `scripts/check_author_letter.py` fails a quotation in the supported quotation marks that it cannot find in the manuscript, a machine line or internal id in the letter, and an item map that does not list each roadmap row once (#1078). The field analyst lists what it read before the Reviewer Configuration Cards (#1075), and the cards give checks with manuscript locations rather than conclusions (#1076); it no longer recommends journals or other venues and names a target only when the author has confirmed one (#1080). The Phase 1 checks count a Han or kana letter as 1 point and a word as 2, so a short Chinese or Japanese trigger is measured, and the manuscript-leak check finds a 24-point Chinese or Japanese passage copied from the manuscript unless the passage also occurs in a metadata-envelope value or the contract (#1077). Korean keeps the whitespace count. For text with no Han or kana letter after NFKC, both checks now run NFKC first, and the trigger count no longer counts a lone mark such as `—` as a word. The leak check has synthetic tests only; no rate on real reviews is measured. The reviewer claim check applies NFC before it matches a quotation (#1074). `citation_compliance_agent` edits the paper draft only in `full` mode, where its Corrected Draft now goes to Phase 6, and returns proposals in `revision` mode (#1068); its Phase Boundary block names both of its outputs (#1067), and standalone citation-check returns a report and rewrites the user's text only on request (#1062). The Zotero and Obsidian adapters send an item or note that fails the schema or a type check to the rejection log, instead of writing it to the passport or stopping the run; a Zotero `date` or `issued` that holds a number, such as `"date": 2024`, is now rejected, and all three adapters, `folder_scan.py` included, now need `jsonschema`. No real Zotero export or Obsidian vault was run (#1055, #1056, #1058, #1059). Claude Fable 5.2 is a supported session model; it has a system-card audit and a routing smoke test, but no full pipeline run or reviewer calibration (#1063).
 > **Added**
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.24.2](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.24.2) — v3.24.2 — An honest null for experiment locks, repro_lock alignment, and a corre…
-<sub>2026-11-06 · 14d ago</sub>
+<sub>2026-11-06 · 15d ago</sub>
 
 > > **Repairs and docs; no new skill or mode, and the prompt-level changes are unmeasured:** An `experiment_provenance[]` entry can now say it has no honest lock values, with `repro_lock: null` and a `repro_lock_reason` (#1049). A survey or an analysis with no LLM could pass before only with placeholder values. Earlier ARS releases reject this form, so a passport that uses it needs this release. `check_repro_lock.py` now fails a required value that breaks its field's type or value rule, such as a null model id; `cross_model.secondary_model_id` may still be null. `planned_vs_executed[].value` accepts only a number or a string, so some passports that passed before now fail (#1050). The `sr-screener` methods text no longer says the reviewers could read only the record file: the tool list removes web and write access, and reading only the given file is an instruction (#1039). SETUP records two checks in which an uploaded skill dispatched a built-in sub-agent in a conversation after a retry; multi-agent stages stay untested (#1040).
 > **Fixed**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.24.1](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.24.1) — v3.24.1 — Plugin installs from a claude.ai account marketplace, reviewer card co…
-<sub>2026-11-02 · 18d ago</sub>
+<sub>2026-11-02 · 19d ago</sub>
 
 > > **Install repairs for claude.ai and Claude Desktop; no new skill or mode:** ARS now installs from a claude.ai account marketplace. Before this release, that install loaded none of the five core skills (#1035), and claude.ai left out the four plugin agents because their names had underscores (#1037). On Claude Desktop, a skill and `/ars-lit-review` ran in plain chat, a project session dispatched the `synthesis-agent` plugin agent, and the SessionStart announce appeared in folder work. The write-scope guard, the tools allowlist, and a full pipeline run are untested on claude.ai and Claude Desktop. The reviewer now waits for the user to confirm the Reviewer Configuration Cards (#1030), and the README has a Brazilian Portuguese translation (#1032).
 > **Added**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.24.0](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.24.0) — v3.24.0 — Advisory checks of the panel's suggested references and findings, a on…
-<sub>2026-10-27 · 24d ago</sub>
+<sub>2026-10-27 · 25d ago</sub>
 
 > > **Two advisory reviewer checks and repairs; no new skill, and the checks' accuracy on real reviews is unmeasured:** v3.24.0 adds two attachments to the Editorial Decision Letter. The first looks up, live, each work that Reviewer 2 and Reviewer 3 recommend in the four indexes of the citation gate, and reports whether a record exists, not whether the work supports the recommendation (#1001). The second sends each weakness and each CRITICAL or MAJOR Devil's Advocate row, without its seat label, to a subagent of the session model, which says whether the manuscript contradicts it. A contradiction is listed only when the judge's quotation passes the script's check against the manuscript; other false verdicts are listed as not confirmed (#1002). It is on by default, and `ARS_PANEL_CLAIM_CHECK=0` turns it off. Neither attachment feeds the decision, the revision roadmap, or re-review criteria. Before the second check shipped, a preregistered held-out audit of 805 panel claims put the false-claim rate between 1.5% and 12.9%, and Claude Opus 5.5 and Claude Fable 5.1 passed its contrast gate as judges. The write-scope guard launcher starts one Python process per tool call instead of three, which should cut the Windows AppXSvc leak to about a third, although the Windows behaviour is untested here (#1015), and the guard's notes state which tool names it checks (#1022). Three integrity-check rules now agree on Stage 5 entry, report freshness, and Stage 4′ (#1011), and the startup notice appears only when an update is available (#1027). Outside users reported #1015, #1022, and #1027.
 > **Added**
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [fix(deep-research): make the Claim Decomposition trigger, Reading cas…](https://github.com/Imbad0202/academic-research-skills/commit/00315dfea67cba974583debae32b77bdce659301) | Imbad0202 |
+| 2026-11-21 | [Add Claim Decomposition pass to source_verification_agent (#1128) (#1…](https://github.com/Imbad0202/academic-research-skills/commit/d473358897231abd14837033f6f4952171892b91) | SID-6921 |
+| 2026-11-21 | [docs(academic-paper): name resubmission organization in the mode guid…](https://github.com/Imbad0202/academic-research-skills/commit/64e9ed0c8fa6c535853e9f5df9f4358ed8e1136c) | TanmayShah29 |
 | 2026-11-20 | [docs: name the DSH sibling distribution in the README (#1126) (#1134)](https://github.com/Imbad0202/academic-research-skills/commit/bd57330f63f4b089dde8fdef9bf5f009ecc89f0c) | Imbad0202 |
 | 2026-11-20 | [Cover commands/ars-revision-coach.md in the committee-correspondence …](https://github.com/Imbad0202/academic-research-skills/commit/414fab456220ed23e75e057980381bb597558482) | SID-6921 |
 | 2026-11-20 | [fix(deep-research): timeline_extraction_agent stops citing a v3.9.4 e…](https://github.com/Imbad0202/academic-research-skills/commit/bcfb9a3ebab96fbd68fa792b2eee300bb580c633) | Imbad0202 |
@@ -101,9 +104,6 @@
 | 2026-11-19 | [docs(academic-paper-reviewer): examples gain Coverage and Stakeholder…](https://github.com/Imbad0202/academic-research-skills/commit/a20b46331467cca0fc4f856873e9536927147e24) | Imbad0202 |
 | 2026-11-19 | [fix(academic-paper): scope the committee-correspondence variant to fo…](https://github.com/Imbad0202/academic-research-skills/commit/ca924ad71c883e5f5ade852f16256bdac6ab2507) | Imbad0202 |
 | 2026-11-19 | [docs(academic-paper): MLA 9th keeps a DOI that the entry has (#1095) …](https://github.com/Imbad0202/academic-research-skills/commit/2305363531ec2ecf85692e13bf5135ab25a49573) | Imbad0202 |
-| 2026-11-19 | [docs(cross-model): search signal, uri check, NOT_FOUND and NOT_SEARCH…](https://github.com/Imbad0202/academic-research-skills/commit/74fe22717ac7b9ea740861f4a120aa476b40dc08) | Imbad0202 |
-| 2026-11-19 | [docs(cross-model): Gemini invalid-index note and one-call-per-referen…](https://github.com/Imbad0202/academic-research-skills/commit/dea856acedf7f94a6127dfc61608c211f95f0f34) | Imbad0202 |
-| 2026-11-18 | [docs(cross-model): cost notes and grounding-guard comments say what t…](https://github.com/Imbad0202/academic-research-skills/commit/016e65f311b55747499fb18ab4a19acb0e8e0a2c) | Imbad0202 |
 
 [See all commits ↗](https://github.com/Imbad0202/academic-research-skills/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 471.0k |
-| 🍴 **Forks** | 115.0k |
+| ⭐ **Stars** | 472.2k |
+| 🍴 **Forks** | 115.3k |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/morluto/rea/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 5% · Python 1% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `cli` `mcp` `agent-skills` `dsh-plugin` `claude-code` `rea` `touhou` `android` `javascript` `python` `typescript` `nodejs` `linux` `ai` `security` `java` `cpp` `rust` `react` `html` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-04-14 |
 | 📦 **Latest release** | [rea-agents-6.10.1](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 193.0 MB |
+| 💾 **Size** | 195.4 MB |
 | 🌐 **Website** | https://rea.tools |
 
 ## 📦 Recent releases
 
 ### [rea-agents-6.10.1](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1) — rea-agents: v6.10.1
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **[6.10.1](https://github.com/morluto/rea/compare/rea-agents-6.10.0...rea-agents-6.10.1) (2026-11-20)**
 > This is the first 6.10 release published to npm. It includes the changes, migration notes, and contributor credits from 6.10.0 below, plus the patch fix.
@@ -47,7 +47,7 @@
 > …
 
 ### [rea-agents-6.10.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.0) — rea-agents: v6.10.0
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **[6.10.0](https://github.com/morluto/rea/compare/rea-agents-6.9.0...rea-agents-6.10.0) (2026-11-20)**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — rea-agents: v6.9.0
-<sub>2026-11-12 · 8d ago</sub>
+<sub>2026-11-12 · 9d ago</sub>
 
 > **[6.9.0](https://github.com/morluto/rea/compare/rea-agents-6.8.0...rea-agents-6.9.0) (2026-11-11)**
 > **Highlights**
@@ -69,7 +69,7 @@
 > …
 
 ### [rea-agents-6.8.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0) — rea-agents: v6.8.0
-<sub>2026-10-25 · 26d ago</sub>
+<sub>2026-10-25 · 27d ago</sub>
 
 > **[6.8.0](https://github.com/morluto/rea/compare/rea-agents-6.7.0...rea-agents-6.8.0) (2026-10-25)**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [test(reference): consolidate reader scheduling and failure checks (#1…](https://github.com/morluto/rea/commit/4f5d1b250c0d90d6cb53009ffb56a0fdd0a7a929) | morluto |
-| 2026-11-20 | [test(android): consolidate ADB and Apktool boundary checks (#12837)](https://github.com/morluto/rea/commit/79525a7c3eb0fe333463a2c76265a5f9fcdd7e2c) | morluto |
-| 2026-11-20 | [test(mcp): consolidate result delivery and capture checks (#12836)](https://github.com/morluto/rea/commit/11c951228c6ae466c8391a0871164ab11d89aa5e) | morluto |
-| 2026-11-20 | [test(pcap): consolidate tool admission coverage (#12834)](https://github.com/morluto/rea/commit/15d53aecb0ad8e5442414c43c44b44293c199266) | morluto |
-| 2026-11-20 | [test(formats): consolidate BEAM and DOL boundary checks (#12832)](https://github.com/morluto/rea/commit/c9caa0aa5b60e049ac5284b7f9efaad4d793c3ff) | morluto |
-| 2026-11-20 | [test(mcp): consolidate admission and lifecycle checks (#12833)](https://github.com/morluto/rea/commit/bb7bdd2fba4cbdd72e3c82df93fa64b7f0575799) | morluto |
-| 2026-11-20 | [test(erlang): consolidate BEAM budget and truncation coverage (#12830)](https://github.com/morluto/rea/commit/01895d33efd70d3291e91e89907db058e90b135e) | morluto |
-| 2026-11-20 | [test(reference): verify exclusion and missing-root outcomes (#12831)](https://github.com/morluto/rea/commit/68e6953897c1100faed203ad8af22c41c2a823a0) | morluto |
-| 2026-11-20 | [test(cli): consolidate launcher alias readiness checks (#12827)](https://github.com/morluto/rea/commit/53a23c0f0ddb3edca0a34ae29632407ab2974de0) | morluto |
-| 2026-11-20 | [test(compression): use a small authored framing fixture (#12829)](https://github.com/morluto/rea/commit/14bc8720c9a49dc35ff2aae8713f27a56218c259) | morluto |
+| 2026-11-21 | [docs(readme): simplify setup and move target details to the reference](https://github.com/morluto/rea/commit/a914bba78df46985618598a8e4ef79145acd3784) | morluto |
+| 2026-11-21 | [test(web): consolidate Browser worker inventory proofs (#13098)](https://github.com/morluto/rea/commit/e6df39bbba9c434942e742540b41c9e39a368bb3) | morluto |
+| 2026-11-21 | [test(web): consolidate CDP binary body proofs (#13097)](https://github.com/morluto/rea/commit/15855137b79de905bb63e4a6afdf08c8410ed865) | morluto |
+| 2026-11-21 | [docs(readme): refresh project badges](https://github.com/morluto/rea/commit/c7bc7436b4c354aabd34723b22dae7e544ee9a5e) | morluto |
+| 2026-11-21 | [test(web): consolidate CDP request identity and redirect proofs (#13096)](https://github.com/morluto/rea/commit/9a16142fad208c1c8c1abef5bb401172b09f086f) | morluto |
+| 2026-11-21 | [test(web): consolidate CDP response body lifecycle proofs (#13094)](https://github.com/morluto/rea/commit/e76b521461b64907795435eba9db5b79e0af2e3e) | morluto |
+| 2026-11-21 | [test(web): consolidate CDP response status proofs (#13095)](https://github.com/morluto/rea/commit/68f13d06d22ba9b5a57788c3aba29c7bd6a3dd70) | morluto |
+| 2026-11-21 | [test(web): consolidate passive CDP event fact proofs (#13093)](https://github.com/morluto/rea/commit/47a108e64e3cf981901673e2bb795bace99235b8) | morluto |
+| 2026-11-21 | [test(web): consolidate passive CDP admission proofs (#13092)](https://github.com/morluto/rea/commit/750120a4ce5405ca3b803287be8d522d21e341d9) | morluto |
+| 2026-11-21 | [test(web): consolidate script metadata admission and projection proof…](https://github.com/morluto/rea/commit/6878e24cc75aba57f04e1d60aec9d39d19c3659d) | morluto |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

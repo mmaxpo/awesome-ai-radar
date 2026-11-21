@@ -14,8 +14,6 @@
 | **Why it's worth a look** | Serve static files straight from a Python web app |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
@@ -26,7 +24,7 @@
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `django` |
-| 🕒 **Last activity** | 2026-11-13 (6d ago) |
+| 🕒 **Last activity** | 2026-11-13 (7d ago) |
 | 📅 **Created** | 2013-08-08 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.1k |
-| 🍴 **Forks** | 793 |
-| 🐞 **Open issues + PRs** | [275](https://github.com/vastsa/PI-Desktop/issues) |
+| 🍴 **Forks** | 797 |
+| 🐞 **Open issues + PRs** | [268](https://github.com/vastsa/PI-Desktop/issues) |
 | 💻 **Languages** | TypeScript 53% · JavaScript 28% · Rust 16% · CSS 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `pi-desktop` `ai-agent` `coding-agent` `desktop-app` `electron` `global` `i18n` `local-first` `mcp` `pi-agent` `plugins` `react` `rust` `typescript` `pi` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-03-22 |
 | 📦 **Latest release** | [v0.23.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 221.0 MB |
+| 💾 **Size** | 222.4 MB |
 | 🌐 **Website** | https://www.aiuo.net |
 
 ## 📦 Recent releases
 
 ### [v0.24.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.1) _(pre-release)_
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **What's Changed**
 > * fix(config-sync): merge entities absent from one side as implicit deletes by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2457
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.23.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0)
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.23.0-beta.3](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.3) _(pre-release)_
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **What's Changed**
 > * feat(desktop): settings dialog, sidebar primary nav, startup guide and release announcement by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2432
@@ -66,7 +66,7 @@
 > **Full Changelog**: https://github.com/vastsa/PI-Desktop/compare/v0.23.0-beta.2...v0.23.0-beta.3
 
 ### [v0.23.0-beta.2](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.2) _(pre-release)_
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **What's Changed**
 > * fix(mods): restore reliable Goal run lifecycle and completion by @new-Beginner in https://github.com/vastsa/PI-Desktop/pull/2353
@@ -77,7 +77,7 @@
 > …
 
 ### [v0.23.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.1) _(pre-release)_
-<sub>2026-11-14 · 5d ago</sub>
+<sub>2026-11-14 · 6d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [Merge pull request #2482 from vastsa/chore/release-0.24.0-beta.1](https://github.com/vastsa/PI-Desktop/commit/48a65582678ec04e018f90f8bc075253bad27085) | vastsa |
-| 2026-11-20 | [chore(release): prepare v0.24.0-beta.1](https://github.com/vastsa/PI-Desktop/commit/4f4e3b47f359aee1654e5a748753128267f3f692) | vastsa |
-| 2026-11-20 | [Merge pull request #2479 from vastsa/feat/bundled-official-enhancements](https://github.com/vastsa/PI-Desktop/commit/5d480b7c936ef572fd60c1c6f339cbb4ae81450b) | Tioit-Wang |
-| 2026-11-20 | [Merge pull request #2474 from vastsa/feat/plugin-platform-2470](https://github.com/vastsa/PI-Desktop/commit/a868d4baa5fe1a19efa4b6df808e33187631ad51) | Tioit-Wang |
-| 2026-11-20 | [test(plugins): stub the automation probe in the compaction fixture](https://github.com/vastsa/PI-Desktop/commit/80a1c022fe6c054b9e5c508b1e191d7b0ef3ccb0) | v_wyxgwang |
-| 2026-11-20 | [feat(plugins): bundle official enhancements with titles enabled](https://github.com/vastsa/PI-Desktop/commit/52861567190386e82d63636b8e1acdf60b2a4099) | v_wyxgwang |
-| 2026-11-20 | [Merge pull request #2478 from vastsa/fix/temporary-chat-label](https://github.com/vastsa/PI-Desktop/commit/a885cb2b2a625b01710722ce86aeb5c222448aae) | vastsa |
-| 2026-11-20 | [fix(chat): call the projectless target Temporary chat](https://github.com/vastsa/PI-Desktop/commit/9660da5ca72a2a2e4c82c22389a8ff40458f5bfb) | vastsa |
-| 2026-11-20 | [Merge pull request #2477 from vastsa/fix/home-temporary-title-switcher](https://github.com/vastsa/PI-Desktop/commit/5b2e091e66678f275f4f246a2f55b6e7f9532b67) | vastsa |
-| 2026-11-20 | [fix(chat): pick a project from the temporary home's title](https://github.com/vastsa/PI-Desktop/commit/f89c40d56fb146cd8d40cd4d96e1874086a83f8e) | vastsa |
+| 2026-11-21 | [Merge pull request #2473 from Linuxdazhao/fix/project-folder-relocati…](https://github.com/vastsa/PI-Desktop/commit/8a96c9bb3af9f634440d7537527617751cc0f373) | vastsa |
+| 2026-11-21 | [Merge pull request #2501 from vastsa/fix/compaction-stream-abort-2494](https://github.com/vastsa/PI-Desktop/commit/4f5c99d0d3b7af79464548f01df0a8e55ed9f24a) | vastsa |
+| 2026-11-21 | [Merge remote-tracking branch 'origin/main' into pr-2473-relocation](https://github.com/vastsa/PI-Desktop/commit/38bf987624a1eb824ad801a2870ec19f272beabd) | vastsa |
+| 2026-11-21 | [fix(projects): relocate only missing folders and cover two-step repair](https://github.com/vastsa/PI-Desktop/commit/cbd0e0c80659908e632ea07277e51b4125ed9577) | vastsa |
+| 2026-11-21 | [fix(agent-runtime): shrink the retained-tail fallback until it fits](https://github.com/vastsa/PI-Desktop/commit/d7dbeac041734552bc33c62063610f23140fa61d) | vastsa |
+| 2026-11-21 | [Merge pull request #2485 from taokoplay/fix/comfyui-binary-response](https://github.com/vastsa/PI-Desktop/commit/eaa3d60a192d85fdb8954c89ff6301ec584dd6cd) | vastsa |
+| 2026-11-21 | [Merge remote-tracking branch 'origin/main' into land/pr2485](https://github.com/vastsa/PI-Desktop/commit/ab6ff9d749ee0fab064fba04053df001ed10b8df) | vastsa |
+| 2026-11-21 | [fix(plugin-net): type binary capabilities and keep existing fetch con…](https://github.com/vastsa/PI-Desktop/commit/526417126f8d9fee4cc7952f0c827acaf720f3a0) | vastsa |
+| 2026-11-21 | [Merge pull request #2409 from SeanLiu326/fix/stop-settled-read-live-turn](https://github.com/vastsa/PI-Desktop/commit/c558d613ff5637d782021f9824a02c2776e1a823) | vastsa |
+| 2026-11-21 | [Merge pull request #2428 from SeanLiu326/fix/codex-gpt62-cacheable-in…](https://github.com/vastsa/PI-Desktop/commit/76e0a27b0de9a3609f8c9f9f9ec06dab3061ab6f) | vastsa |
 
 [See all commits ↗](https://github.com/vastsa/PI-Desktop/commits)
 

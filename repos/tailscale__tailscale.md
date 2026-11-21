@@ -26,32 +26,32 @@
 | 💻 **Languages** | Go 97% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `wireguard` `oauth` `sso` `2fa` `vpn` `tailscale` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2020-01-31 |
 | 📦 **Latest release** | [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 90.7 MB |
+| 💾 **Size** | 90.6 MB |
 | 🌐 **Website** | https://tailscale.com |
 
 ## 📦 Recent releases
 
 ### [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7)
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.6](https://github.com/tailscale/tailscale/releases/tag/v1.104.6)
-<sub>2026-11-11 · 9d ago</sub>
+<sub>2026-11-11 · 10d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.5](https://github.com/tailscale/tailscale/releases/tag/v1.104.5)
-<sub>2026-11-03 · 17d ago</sub>
+<sub>2026-11-03 · 18d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.4](https://github.com/tailscale/tailscale/releases/tag/v1.104.4)
-<sub>2026-10-28 · 23d ago</sub>
+<sub>2026-10-28 · 24d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [magicsock,tstun: add gauges for the number of open queues and sockets…](https://github.com/tailscale/tailscale/commit/36780d60ef6469f163bc3e567d3ede29fed3d66c) | illotum |
+| 2026-11-20 | [feature/conn25: do not lock mu in packetFilterAllow (#22534)](https://github.com/tailscale/tailscale/commit/8dc50105e4ea60898ed1d9d7c217c7cbfc5e2a71) | mazdakn |
+| 2026-11-20 | [feature/conn25: name lock-requiring methods Locked (#22532)](https://github.com/tailscale/tailscale/commit/4f7439b415ebbc74a7e623f4f27ffbc98708faf2) | mazdakn |
+| 2026-11-20 | [ssh/tailssh, tstest/natlab/vmtest: expand Tailscale SSH test coverage](https://github.com/tailscale/tailscale/commit/05abd5d73e993fde80c78dea140ed1cbec48cd6b) | bradfitz |
+| 2026-11-20 | [util/syspolicy/source: notify sessions when a forced read finds a change](https://github.com/tailscale/tailscale/commit/262640ff4ea7fd48277cf33668b9fbc9fb0d96e5) | nickkhyl |
+| 2026-11-20 | [clientupdate: don't exit tailscaled when starting the Windows installer](https://github.com/tailscale/tailscale/commit/b8370089746aa70d276333c97314d9b5fb0eda6a) | nickkhyl |
+| 2026-11-20 | [feature/conn25: mint tokens for DNS responses](https://github.com/tailscale/tailscale/commit/b21a9704378f0364318d6ec9667dcbc584ace64d) | franbull |
+| 2026-11-20 | [feature/conn25: decompose mapDNSResponse](https://github.com/tailscale/tailscale/commit/48f915b2adf172fa2f184af5b73de1443ef9bad8) | franbull |
+| 2026-11-20 | [net/memnet: don't arm deadline timers on a closed Pipe](https://github.com/tailscale/tailscale/commit/5c7e705edf6a6061bcf9170506c538cd5feb47c6) | bradfitz |
 | 2026-11-20 | [ipn/store/kubestore: cache TLS certs briefly on write replicas (#22103)](https://github.com/tailscale/tailscale/commit/c8ba9da543ff4fc1e28b341f2197dd2356b3c9fd) | davidsbond |
-| 2026-11-20 | [k8s-operator: stop PortRanges.All() at the last port in the range (#2…](https://github.com/tailscale/tailscale/commit/519a9f502ce2ebed5295fce4b8a3e4a1fccc992e) | Dev-next-gen |
-| 2026-11-19 | [feature/conn25: guard against an unusable Transit IP (#22513)](https://github.com/tailscale/tailscale/commit/2e8f381c2e1872b8b59e4b46cbd84786f3ecc689) | mazdakn |
-| 2026-11-19 | [go.mod: bump wg-go for hybrid pq log details](https://github.com/tailscale/tailscale/commit/d7d5d2a917a1197f30a65af5fe418bd8a2930bbf) | jwhited |
-| 2026-11-19 | [util/linuxfw: run without IPv6 rules when ip6tables fails to initiali…](https://github.com/tailscale/tailscale/commit/92f396d8e9bf28fc89d6da1e1e0ab9aceaa9e0e9) | bcreane |
-| 2026-11-19 | [wgengine/magicsock: update packetLooksLike docs](https://github.com/tailscale/tailscale/commit/d0512a9ef7790cd69336dabccad8ab3d351f769e) | jwhited |
-| 2026-11-19 | [control/controlknobs: clean up documentation and updater function (#2…](https://github.com/tailscale/tailscale/commit/d843b72e3564fdd4aad8792d4b288871b4d537f6) | sfllaw |
-| 2026-11-19 | [feature/conn25: use routecheck to pick amongst connectors](https://github.com/tailscale/tailscale/commit/f6483cc55a39ffa8c11fb255d7719ef3b0eadc9a) | franbull |
-| 2026-11-19 | [cmd/k8s-operator: clarify tag requirements (#15757)](https://github.com/tailscale/tailscale/commit/cc0716a2f82e5c056e167105dfd31926349e9030) | irbekrm |
-| 2026-11-19 | [cmd/k8s-operator: test ProxyGroup StatefulSet Pod management policy](https://github.com/tailscale/tailscale/commit/93ba239f2c8a1216e5e0a920953ce0481b11c691) | ChaosInTheCRD |
 
 [See all commits ↗](https://github.com/tailscale/tailscale/commits)
 

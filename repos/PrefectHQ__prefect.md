@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [877](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [870](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 249.0 MB |
+| 💾 **Size** | 249.7 MB |
 | 🌐 **Website** | https://prefect.io |
 
 ## 📦 Recent releases
 
+### [3.9.5.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev2) — 3.9.5.dev2: Nightly Development Release _(pre-release)_
+<sub>2026-11-21 · today</sub>
+
+> **What's Changed**
+> **Bug Fixes 🐞**
+> * Run db vacuum tasks one at a time on the maintenance pool by @ShikhJohari in https://github.com/PrefectHQ/prefect/pull/23742
+> **Development & Tidiness 🧹**
+> * Fix `ReactiveTriggers` stop race during startup by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/24021
+> * Fix flaky `test_keeps_polling_while_setup_hangs` observer test by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23950
+> …
+
 ### [3.9.5.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev1) — 3.9.5.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **What's Changed**
 > **Uncategorized**
@@ -46,7 +57,7 @@
 > **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.4...3.9.5.dev1
 
 ### [3.9.4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4) — 3.9.4 - It’s not you, it’s `CTRL_BREAK`
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > **Enhancements ➕➕**
 > * Accept only same-origin paths in the UI v2 login redirect by [@znicholasbrown](https://github.com/znicholasbrown) in [#23980](https://github.com/PrefectHQ/prefect/pull/23980)
@@ -57,7 +68,7 @@
 > …
 
 ### [3.9.4.dev6](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev6) — 3.9.4.dev6: Nightly Development Release _(pre-release)_
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -68,7 +79,7 @@
 > …
 
 ### [3.9.4.dev5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev5) — 3.9.4.dev5: Nightly Development Release _(pre-release)_
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -78,31 +89,20 @@
 > * Start the suspension observer early for MicroVM deployments that pull code by @bunchesofdonald in https://github.com/PrefectHQ/prefect/pull/23957
 > …
 
-### [3.9.4.dev4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev4) — 3.9.4.dev4: Nightly Development Release _(pre-release)_
-<sub>2026-11-17 · 3d ago</sub>
-
-> **What's Changed**
-> **Bug Fixes 🐞**
-> * Write auto-generated deployment Dockerfiles as UTF-8 in `prefect-docker` by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23929
-> **Documentation 📓**
-> * Document AWS setup for Lambda MicroVM push work pools by @bunchesofdonald in https://github.com/PrefectHQ/prefect/pull/23845
-> * docs: fix dead and chained redirects, CLI page titles and stale links by @madureira-gabriel in https://github.com/PrefectHQ/prefect/pull/23941
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Reduce state cross-products in orchestration rule tests (#24007)](https://github.com/PrefectHQ/prefect/commit/f263a655d2cc6e302a4a16132603fcbe06449699) | devin-ai-integration[bot] |
-| 2026-11-19 | [Use route names as OpenAPI operation IDs (#24010)](https://github.com/PrefectHQ/prefect/commit/63da2423efb592475fb16dac4d768f1df4b65a03) | devin-ai-integration[bot] |
-| 2026-11-19 | [Add RRule schedule builder component to ui-v2 (#24009)](https://github.com/PrefectHQ/prefect/commit/a74ac51c3a01d5349cc7b16bee44c64e9aa14c1b) | devin-ai-integration[bot] |
-| 2026-11-19 | [docs: Add release notes for 3.9.4 (#23995)](https://github.com/PrefectHQ/prefect/commit/ed96dafb35df5b7e09ef38c5a037d6f280fb5517) | desertaxle |
-| 2026-11-19 | [Update prefect-dbt integration pin (#24004)](https://github.com/PrefectHQ/prefect/commit/b4c2111607a8d92be451cf9a11836da8d318bce5) | prefect-ci-bot-public[bot] |
-| 2026-11-19 | [Update prefect-aws integration pin (#24005)](https://github.com/PrefectHQ/prefect/commit/b6340486e1b41076441f65000da315c7b385623f) | prefect-ci-bot-public[bot] |
-| 2026-11-19 | [docs: document how to verify integration dependency floors (#24003)](https://github.com/PrefectHQ/prefect/commit/9734c7748c2287f3c12cf6fc4669c332ebd9173b) | devin-ai-integration[bot] |
-| 2026-11-19 | [Fix flaky logs subscriber setup-cancellation test (#24002)](https://github.com/PrefectHQ/prefect/commit/1b17151d0303144e8b194cd504c5380f15cef1ed) | devin-ai-integration[bot] |
-| 2026-11-19 | [Retire PR auto-labeling workflows (#23987)](https://github.com/PrefectHQ/prefect/commit/44e1dd76be05bac5b06c3e475c8b2e318674c122) | devin-ai-integration[bot] |
-| 2026-11-19 | [docs: Add release notes for `prefect-aws==0.8.1` (#23994)](https://github.com/PrefectHQ/prefect/commit/441a5570ab7d47da744ef561fb283e25f6620181) | desertaxle |
+| 2026-11-20 | [Support non-root users in the official Docker image (#24027)](https://github.com/PrefectHQ/prefect/commit/5513abc4df1f20a02bb810849477b64c989c3160) | devin-ai-integration[bot] |
+| 2026-11-20 | [Fix flaky subscriber setup cancellation tests (#23881)](https://github.com/PrefectHQ/prefect/commit/1693b8386b6de14a58f9fac524d65a38541261cf) | devin-ai-integration[bot] |
+| 2026-11-20 | [Add `registry_credentials` to the Kubernetes worker (#23852)](https://github.com/PrefectHQ/prefect/commit/d44d9f745c1942c33c51f5dd4af3820956573b8b) | polwayne |
+| 2026-11-20 | [Run db vacuum tasks one at a time on the maintenance pool (#23742)](https://github.com/PrefectHQ/prefect/commit/b76e190895121aa8a204d3c493f342e1253a97bc) | ShikhJohari |
+| 2026-11-20 | [docs: clarify tmpchdir process-wide scope (#23998)](https://github.com/PrefectHQ/prefect/commit/7e19e94405e269d4c1e044b7ac4e7c6f7c1cab1b) | devin-ai-integration[bot] |
+| 2026-11-20 | [Stop pointing users at removed `prefect agent start` for `prefect-age…](https://github.com/PrefectHQ/prefect/commit/a328ffc14df285f84ac6887cff74128588d7734a) | devin-ai-integration[bot] |
+| 2026-11-20 | [Fix flaky `test_keeps_polling_while_setup_hangs` observer test (#23950)](https://github.com/PrefectHQ/prefect/commit/f7f20d77131ab6131c245747d178ad234e622139) | devin-ai-integration[bot] |
+| 2026-11-20 | [Fix `ReactiveTriggers` stop race during startup (#24021)](https://github.com/PrefectHQ/prefect/commit/4207eda2abcc55930aaa745085de360cbe8339bc) | devin-ai-integration[bot] |
+| 2026-11-20 | [Store text files with LF line endings (#24023)](https://github.com/PrefectHQ/prefect/commit/d0e4bb721f90fe0c107a5b3b67a146fc41be8342) | gaker |
+| 2026-11-20 | [Refresh the Python and UI dependency lockfiles (#24020)](https://github.com/PrefectHQ/prefect/commit/b57286cec5377e6a1ee0f0e71359bd083aedf897) | gaker |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

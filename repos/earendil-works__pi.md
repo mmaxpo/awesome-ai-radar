@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.0k |
+| ⭐ **Stars** | 123.1k |
 | 🍴 **Forks** | 15.9k |
-| 🐞 **Open issues + PRs** | [280](https://github.com/earendil-works/pi/issues) |
+| 🐞 **Open issues + PRs** | [282](https://github.com/earendil-works/pi/issues) |
 | 💻 **Languages** | TypeScript 87% · HTML 10% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2025-08-09 |
 | 📦 **Latest release** | [v1.6.0](https://github.com/earendil-works/pi/releases/tag/v1.6.0) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 112.3 MB |
+| 💾 **Size** | 113.4 MB |
 
 ## 📦 Recent releases
 
 ### [v1.6.0](https://github.com/earendil-works/pi/releases/tag/v1.6.0)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **New Features**
 > - **GPT-6.2 Astra and GPT-6.2 Sol**: both models are available on the `openai`, `azure`, and `openai-codex` providers, and GPT-6.2 Sol is now the default model for all three. See [Providers](https://github.com/earendil-works/pi/blob/v1.6.0/packages/coding-agent/docs/providers.md).
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2)
-<sub>2026-11-10 · 10d ago</sub>
+<sub>2026-11-10 · 11d ago</sub>
 
 > **New Features**
 > - **Fork sessions whose folder is gone**: when a session's original folder was moved or deleted, you can now fork it into the current folder instead of only continuing, so later resumes no longer ask. See [Continue or switch sessions](https://github.com/earendil-works/pi/blob/v1.5.2/packages/coding-agent/docs/sessions.md#continue-or-switch-sessions).
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.5.1](https://github.com/earendil-works/pi/releases/tag/v1.5.1)
-<sub>2026-11-09 · 10d ago</sub>
+<sub>2026-11-09 · 11d ago</sub>
 
 > **New Features**
 > - **Shell login and logout**: use `pi auth login <provider>` and `pi auth logout <provider>` without starting a session, with API-key and no-browser sign-in options. See [Credential commands](https://github.com/earendil-works/pi/blob/v1.5.1/packages/coding-agent/docs/cli.md#credential-commands).
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.5.0](https://github.com/earendil-works/pi/releases/tag/v1.5.0)
-<sub>2026-11-02 · 18d ago</sub>
+<sub>2026-11-02 · 19d ago</sub>
 
 > **New Features**
 > - **Extension update changelogs**: see what changed in installed extension packages on the next fresh launch after an update. Package authors can choose the changelog path, and `collapseChangelog` condenses the notices. See [Show a changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/coding-agent/docs/packages.md#show-a-changelog).
@@ -79,7 +79,7 @@
 > …
 
 ### [v1.4.0](https://github.com/earendil-works/pi/releases/tag/v1.4.0)
-<sub>2026-10-21 · 29d ago</sub>
+<sub>2026-10-21 · 1mo ago</sub>
 
 > **New Features**
 > - **Image input for classifiers**: codemode `models.classify()` accepts `images` for TypeSafe's Jev and Cloudflare's Clef models on `typesafe`, `cloudflare-workers-ai`, and OpenRouter. See [Use classifier models](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/models.md#use-classifier-models) and [Codemode](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/codemode.md#models).
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [feat(chord,p2): send the sync protocol version with every Radius request](https://github.com/earendil-works/pi/commit/122db84830cfb7bfc3de26bc98ae402f27473d20) | cristinaponcela |
-| 2026-11-20 | [fix(ai): retry more temporary provider failures](https://github.com/earendil-works/pi/commit/a00a5048dfae964fe89dce593215d0c3d275017c) | vegarsti |
-| 2026-11-20 | [fix(ai): retry gateway provider-unavailable and partial-response erro…](https://github.com/earendil-works/pi/commit/25190b72c195ce6502103ecba55064eade1f188b) | robopipi[bot] |
-| 2026-11-20 | [fix(ai): retry Cloudflare 525 errors](https://github.com/earendil-works/pi/commit/fb62c069b2ff810a95c083c1ca3dd31e9d7c1af3) | vegarsti |
-| 2026-11-20 | [docs(p3): process: the implementer answers questions on functionality…](https://github.com/earendil-works/pi/commit/30a3e0b1f01597193668d7c2092a4694cfe7db41) | badlogic |
-| 2026-11-20 | [docs(p3): process: the steps in three sections, Design, Implementatio…](https://github.com/earendil-works/pi/commit/c7d7a3f19d765293da074f88dad134dc69b9696a) | badlogic |
-| 2026-11-20 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/11048be478edcf7d3c92d6928d58500536f28b0c) | badlogic |
-| 2026-11-20 | [docs(p3): process: the stage labels Design, Implementation, Review](https://github.com/earendil-works/pi/commit/d085a66edc1cb51fcb8277ae80e74d1aff359630) | badlogic |
-| 2026-11-20 | [fix(p2): keep a link's underline under its text in answers (#12351)](https://github.com/earendil-works/pi/commit/6d2ba5e1ab37eff43b7964ac8a6a811a1d053a36) | cristinaponcela |
-| 2026-11-20 | [fix(coding-agent): repaint editor after extension pasteToEditor and s…](https://github.com/earendil-works/pi/commit/8c1afaae585fc353fa9da32c8272b066cea34140) | robopipi[bot] |
+| 2026-11-21 | [fix(p2): subagent models action lists every provider, unknown models …](https://github.com/earendil-works/pi/commit/780bf31fcaeb252fa9b68df3964c735eae75bde3) | mitsuhiko |
+| 2026-11-20 | [fix(p2): MCP results reach scripts as pi's whole CallToolResult, mode…](https://github.com/earendil-works/pi/commit/1acc72acd1ab3481066fe97790ccd3cb2059ea83) | mitsuhiko |
+| 2026-11-20 | [fix(coding-agent): run shutdown cleanup when the Windows console clos…](https://github.com/earendil-works/pi/commit/31b407dc6313eb3b232342d3fd59db70f661ded3) | petrroll |
+| 2026-11-20 | [fix(p2): highlight file and patch lines in context, so multi-line com…](https://github.com/earendil-works/pi/commit/9d63bb7277999ac83c7b1bd8b616141b28a9f666) | badlogic |
+| 2026-11-20 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/d25d134c6059173bf2677006cf75be8c041b1aad) | badlogic |
+| 2026-11-20 | [fix(p2): MCP results reach code-mode scripts whole; the model's cut r…](https://github.com/earendil-works/pi/commit/51532e40c2d5884783cc3c2586844a51baa0636a) | badlogic |
+| 2026-11-20 | [fix(ai): Gemini 3+ detection for prefixed Google model IDs, add compa…](https://github.com/earendil-works/pi/commit/fe8a6f5dc741e9214a20f70f359c68c72b494d1e) | petrroll |
+| 2026-11-20 | [Merge branch 'main' of https://github.com/earendil-works/pi](https://github.com/earendil-works/pi/commit/e98e59334d9c85532f8762b73fd98a9468ec807d) | badlogic |
+| 2026-11-20 | [fix(p2): type an agent's terminal command after the shell's first pro…](https://github.com/earendil-works/pi/commit/1ca2542572dc9ed8840ccfb927f8a5690960bb44) | badlogic |
+| 2026-11-20 | [fix(ai): resolve Bedrock SSO credentials through HTTPS_PROXY (#12365)](https://github.com/earendil-works/pi/commit/be269f57b1b707399edd86f5f718d1a907ffea8b) | robopipi[bot] |
 
 [See all commits ↗](https://github.com/earendil-works/pi/commits)
 

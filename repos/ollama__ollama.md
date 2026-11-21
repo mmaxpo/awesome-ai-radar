@@ -20,34 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 187.7k |
-| 🍴 **Forks** | 19.2k |
+| ⭐ **Stars** | 187.8k |
+| 🍴 **Forks** | 19.1k |
 | 🐞 **Open issues + PRs** | [4.7k](https://github.com/ollama/ollama/issues) |
-| 💻 **Languages** | Go 75% · C 18% · TypeScript 5% |
+| 💻 **Languages** | Go 75% · C 17% · TypeScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `llm` `llms` `go` `golang` `ollama` `mistral` `gemma` `deepseek` `qwen` `gpt-oss` `glm` `minimax` `muse` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-06-26 |
-| 📦 **Latest release** | [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) — 2026-11-09 |
+| 📦 **Latest release** | [v0.40.17](https://github.com/ollama/ollama/releases/tag/v0.40.17) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 95.5 MB |
+| 💾 **Size** | 95.9 MB |
 | 🌐 **Website** | https://ollama.com |
 
 ## 📦 Recent releases
 
-### [v0.40.17-rc2](https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2) — v0.40.17 _(pre-release)_
-<sub>2026-11-10 · 9d ago</sub>
+### [v0.40.17](https://github.com/ollama/ollama/releases/tag/v0.40.17)
+<sub>2026-11-10 · 10d ago</sub>
 
-> **What's Changed**
-> * Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583
-> * cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in https://github.com/ollama/ollama/pull/19409
-> * llm: use mmap for Vulkan integrated GPUs by @dhiltgen in https://github.com/ollama/ollama/pull/19640
-> * rpreslar4765/Ollama by @rpreslar4765 in https://github.com/ollama/ollama/pull/17163
-> * mlx: support concurrent generation by @dhiltgen in https://github.com/ollama/ollama/pull/19197
+> **Inkling 2 Mini**
+> [Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) from Thinking Machines is a 26B parameter model with 5.4B active.
+> Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified).
+> ```
+>   ollama run inkling-2-mini
+> ```
 > …
 
 ### [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16)
-<sub>2026-11-09 · 10d ago</sub>
+<sub>2026-11-09 · 11d ago</sub>
 
 > **Ripple Preview**
 > [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15)
-<sub>2026-11-03 · 16d ago</sub>
+<sub>2026-11-03 · 17d ago</sub>
 
 > **MiMo V2.6**
 > Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14)
-<sub>2026-11-03 · 17d ago</sub>
+<sub>2026-11-03 · 18d ago</sub>
 
 > **What's Changed**
 > * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.40.13](https://github.com/ollama/ollama/releases/tag/v0.40.13)
-<sub>2026-10-28 · 22d ago</sub>
+<sub>2026-10-28 · 23d ago</sub>
 
 > **LFM3 on Linux and Windows**
 > Liquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [mlx: fuse Inkling residual mixing on Metal (#19808)](https://github.com/ollama/ollama/commit/2bd4d6aabdf4caa39e7095e201dcda4cc1a3a406) | dhiltgen |
+| 2026-11-21 | [mlx: inkling follow up (#19806)](https://github.com/ollama/ollama/commit/23b94a2daf2cd1fbf6b4dcfbfd3efbaca424b7bf) | dhiltgen |
+| 2026-11-21 | [mlxrunner: add Inkling 2 Mini (#19799)](https://github.com/ollama/ollama/commit/cecac8bf1bd30ba928ee7cfe53b953f9b25642ae) | dhiltgen |
+| 2026-11-20 | [install: support preview channel (#19801)](https://github.com/ollama/ollama/commit/afc7c06022a86279609ac00676cc05ded5b7011c) | dhiltgen |
+| 2026-11-20 | [cmd: omit bias and gamma vectors from verbose safetensors show (#19803)](https://github.com/ollama/ollama/commit/0c666ce5ee7eaaeec8c77eb7f929c29964a8f246) | pdevine |
+| 2026-11-20 | [test: stabilize Pi catalog timeout regressions (#19742)](https://github.com/ollama/ollama/commit/5187f59581d5a3d502f8d89550f12314063c3a96) | hoyyeva |
+| 2026-11-20 | [mlxrunner: choose default parallelism from available memory (#19785)](https://github.com/ollama/ollama/commit/0b243a141a64110ef31d47ec35900cefcd467a18) | dhiltgen |
 | 2026-11-19 | [mlxrunner: adapt saved history to memory pressure (#19678)](https://github.com/ollama/ollama/commit/73ee71ddcc088451457845b22d03c349b7c4dd6b) | dhiltgen |
 | 2026-11-18 | [Merge pull request #19748 from ollama/claude/sched-shift-no-reload-18950](https://github.com/ollama/ollama/commit/42ac2c0c1e132c0b4f0d9cfcd4e7950f0c5470bc) | jaingaurav |
 | 2026-11-18 | [test: stabilize speech slow-reader coverage (#19746)](https://github.com/ollama/ollama/commit/508d8be9c8a43d6b9f98d6abca099f51320bff2b) | dhiltgen |
-| 2026-11-17 | [mlxrunner: reuse saved prefixes across request slots (#19677)](https://github.com/ollama/ollama/commit/b8db8d5b5c8daedbbef7bb9ace2221a38bc384c2) | dhiltgen |
-| 2026-11-17 | [Merge pull request #19731 from ollama/fix/repl-ctrl-c-multiline](https://github.com/ollama/ollama/commit/312c3c8d0c2709209ebbc816ca352bcaf52c19b5) | jaingaurav |
-| 2026-11-17 | [cmd: leave multiline mode when Ctrl+C or Ctrl+G discards input](https://github.com/ollama/ollama/commit/169626b403796ce482b3de0b3dd4bc3afdb15438) | jaingaurav |
-| 2026-11-16 | [mlxrunner: batch speculative verification (#19663)](https://github.com/ollama/ollama/commit/db5266a71d6413c4568208a768757b16ffd7a021) | dhiltgen |
-| 2026-11-16 | [cmake: support compatible binary MLX-C and XGrammar (#19688)](https://github.com/ollama/ollama/commit/9a4b136efefecb51b428d22e79b0f3d15769a1f8) | dhiltgen |
-| 2026-11-15 | [llm: keep weights out of pinned host memory on Windows iGPUs (#19636)](https://github.com/ollama/ollama/commit/15af2b261c14c494d1fe08cf9d0b9e0af1a18c84) | saman-amd |
-| 2026-11-14 | [api: preserve unmodeled tool schema keywords (#19686)](https://github.com/ollama/ollama/commit/a5864fcb33969705de3c0ebfedf4b2a16c970bcc) | jberg5 |
 
 [See all commits ↗](https://github.com/ollama/ollama/commits)
 

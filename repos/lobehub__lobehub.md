@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 85.9k |
-| 🍴 **Forks** | 16.4k |
-| 🐞 **Open issues + PRs** | [1.4k](https://github.com/lobehub/lobehub/issues) |
+| 🍴 **Forks** | 16.3k |
+| 🐞 **Open issues + PRs** | [1.5k](https://github.com/lobehub/lobehub/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-05-21 |
 | 📦 **Latest release** | [v2.3.4](https://github.com/lobehub/lobehub/releases/tag/v2.3.4) — 2026-11-18 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 635.3 MB |
+| 💾 **Size** | 638.8 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
 ### [v2.3.5-canary.2](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.2) — Desktop Canary v2.3.5-canary.2 _(pre-release)_
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **🐤 Canary Build — v2.3.5-canary.2**
 > > Automated canary build from `canary` branch.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.3.5-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.1) — Desktop Canary v2.3.5-canary.1 _(pre-release)_
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **🐤 Canary Build — v2.3.5-canary.1**
 > > Automated canary build from `canary` branch.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.3.4](https://github.com/lobehub/lobehub/releases/tag/v2.3.4) — 🚀 Release v2.3.4
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **Release v2.3.4**
 > From PR #23286: https://github.com/lobehub/lobehub/pull/23286
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23297.40163](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23297.40163) — PR Build v0.0.0-nightly.pr23297.40163 _(pre-release)_
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23297.40163`
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23286.40158](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23286.40158) — PR Build v0.0.0-nightly.pr23286.40158 _(pre-release)_
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23286.40158`
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [🐛 fix(artboard): take a trashed task's shares offline and count board…](https://github.com/lobehub/lobehub/commit/f2027f536547c63f6a188effc79d2bcb48c0d90d) | Innei |
-| 2026-11-20 | [✨ feat(settings): merge environments and the vault into one entry wit…](https://github.com/lobehub/lobehub/commit/c47510e357931f8b4918190aeabed9e5d5b14faf) | rdmclin2 |
-| 2026-11-20 | [💄 style(mention): render @-mentions in blue-violet instead of link bl…](https://github.com/lobehub/lobehub/commit/6659826c1ad5c494ac4f019827a5af5450ff3b76) | lobehub-coder |
-| 2026-11-20 | [✨ feat(channel): name a reply's topic for the member who runs it (#23…](https://github.com/lobehub/lobehub/commit/5af9a2491346e18aa97cd1d7a44e757b88f4beec) | lobehub-coder |
-| 2026-11-20 | [🐛 fix(marketplace): show installed custom-only connector lists (#23533)](https://github.com/lobehub/lobehub/commit/370392fecd20157b36b7e7d2c2e165550d45241a) | AmAzing129 |
-| 2026-11-20 | [🐛 fix(connector): finish legacy MCP migrations before refreshing list…](https://github.com/lobehub/lobehub/commit/22bf7536950326f8375b6a4312edf21dde97e7a5) | AmAzing129 |
-| 2026-11-20 | [💄 style(channel): let a host open the conversation history with an in…](https://github.com/lobehub/lobehub/commit/05bc09e28b75ae613c0f36ba0044eb4c3149762c) | tjx666 |
-| 2026-11-20 | [🐛 fix(agent-share): Visitors header arrow, desktop selected state, us…](https://github.com/lobehub/lobehub/commit/58bae51c3ec8d566a290bba53446851b43780679) | tjx666 |
-| 2026-11-20 | [✨ feat(desktop): open a directory from the shell with `lh app` (#23508)](https://github.com/lobehub/lobehub/commit/861773018cf365ba16d0e179b2d944eb01d0f430) | Innei |
-| 2026-11-20 | [💄 style(portal): pad the local file header's left like its right when…](https://github.com/lobehub/lobehub/commit/d8ce91cd2801e564b6bdd091663cc5248a82cd11) | lobehub-coder |
+| 2026-11-21 | [✨ feat(model-bank): add GPT Image 2.6 Flare and Sunburst with animate…](https://github.com/lobehub/lobehub/commit/8b952a0cb216e87a90bfdad5d7d0660d205c140a) | smbslt3 |
+| 2026-11-21 | [🐛 fix(auth): reject email changes to an address another account uses …](https://github.com/lobehub/lobehub/commit/aa88a6c418dfb92f511a8799925853a35b5e11d6) | tjx666 |
+| 2026-11-21 | [🐛 fix(agent): complete two-state tool and skill activation migration …](https://github.com/lobehub/lobehub/commit/c5d79a355d4a88645136711a7b14a49dc94cc8a8) | AmAzing129 |
+| 2026-11-21 | [🐛 fix(goal): stop showing internal reasons in the activity timeline (…](https://github.com/lobehub/lobehub/commit/5779bbdd3d0f04bba82f88e2581f41d19e1eda52) | AmAzing129 |
+| 2026-11-21 | [🐛 fix(marketplace): restore app icons and clarify catalog copy (#23585)](https://github.com/lobehub/lobehub/commit/016e23745e3bff2380cb5b29203e0d75e64cb8e8) | AmAzing129 |
+| 2026-11-21 | [🐛 fix(chat-input): show the running state once in the conversation co…](https://github.com/lobehub/lobehub/commit/009305e0217c096ebf911c969ac6cf861c5f0fcf) | AmAzing129 |
+| 2026-11-21 | [✨ feat(marketplace): organize app capabilities and separate the MCP c…](https://github.com/lobehub/lobehub/commit/42f94517560b7ca0073d0b08c2b8696b814d6b4c) | AmAzing129 |
+| 2026-11-21 | [✨ feat(marketplace): manage GitHub and Linear from their connector pa…](https://github.com/lobehub/lobehub/commit/ede931dba99cbc53b25206e47b7087f4cdf2fee7) | AmAzing129 |
+| 2026-11-21 | [✨ feat(agent-share): share an Agent by card without opening its link …](https://github.com/lobehub/lobehub/commit/c4895b461c6f7de7baed1a70ba4eedc9a16cb342) | arvinxx |
+| 2026-11-21 | [✨ feat(marketplace): organize connector discovery and installed navig…](https://github.com/lobehub/lobehub/commit/bc7465b1195fbe2615945c8852cab661171333e2) | AmAzing129 |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

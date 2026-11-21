@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 72.7k |
+| ⭐ **Stars** | 72.9k |
 | 🍴 **Forks** | 23.4k |
-| 🐞 **Open issues + PRs** | [44](https://github.com/ai-job-search-dev/ai-job-search/issues) |
+| 🐞 **Open issues + PRs** | [49](https://github.com/ai-job-search-dev/ai-job-search/issues) |
 | 💻 **Languages** | Python 99% · TeX 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agents` `career` `claude-code` `cover-letter` `cv` `interview-preparation` `job-application` `job-hunting` `job-search` `latex` `resume` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-03-18 |
 | 📦 **Latest release** | [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0) — 2026-11-16 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0)
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > **What's Changed**
 > * fix(scrape): send one plain term per CLI call and make portals state their query syntax (#536) by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/653
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5)
-<sub>2026-11-09 · 11d ago</sub>
+<sub>2026-11-09 · 12d ago</sub>
 
 > **What's Changed**
 > * fix(job-key): fold Latin letters without an NFKD decomposition and add --audit --migrate by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/637
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.7.4](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.4)
-<sub>2026-11-02 · 18d ago</sub>
+<sub>2026-11-02 · 19d ago</sub>
 
 > **What's Changed**
 > * fix(freehire-search): reject detail URLs on other hosts instead of asking the API for their last segment (#622) by @ayobamiseun in https://github.com/ai-job-search-dev/ai-job-search/pull/623
@@ -93,6 +93,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [feat(setup): recommend a minimal TeX install instead of texlive-full …](https://github.com/ai-job-search-dev/ai-job-search/commit/b3ea106cac34b783ae4d5708a9e6d97f6660d084) | jakob1379 |
 | 2026-11-19 | [fix(posting-guard): detect CSS invisibility tricks in inline styles (…](https://github.com/ai-job-search-dev/ai-job-search/commit/d2afe00bfc9b7be8ffc2ee41acc22570970b76d4) | ahmed-husssain |
 | 2026-11-18 | [fix(posting-guard): refuse input with no text to evaluate and exit 1 …](https://github.com/ai-job-search-dev/ai-job-search/commit/7b1cd4495967cfa4a781b8f5913f4c806c4c1f82) | ahmed-husssain |
 | 2026-11-18 | [ci: check PR titles against Conventional Commits with commitizen (#863)](https://github.com/ai-job-search-dev/ai-job-search/commit/ee13aa4f0e5c02e2e4c16bc8ea8f159ab614fa15) | jakob1379 |
@@ -102,7 +103,6 @@
 | 2026-11-12 | [fix(upskill): leave jobs /rank vetoed on location or language out of …](https://github.com/ai-job-search-dev/ai-job-search/commit/8fc6d7c860b0ffff3fdb744e007ca255c02c8385) | TheMattHub |
 | 2026-11-12 | [fix(cover-letter): load Raleway's bold face in the bullet-list font w…](https://github.com/ai-job-search-dev/ai-job-search/commit/8e814e57ac487d5f15675bb13ed07f95c9765c4a) | TheMattHub |
 | 2026-11-12 | [fix(guards): check command and agent files in subfolders too (#735)](https://github.com/ai-job-search-dev/ai-job-search/commit/e686ff24f634bbf40cb4c21e38d61d734f90ac26) | ayobamiseun |
-| 2026-11-12 | [fix(scrape): accept company: null as the portal contract allows (#738)](https://github.com/ai-job-search-dev/ai-job-search/commit/317ec994eafc11b11893af1e000e2ddcd12dfff1) | ayobamiseun |
 
 [See all commits ↗](https://github.com/ai-job-search-dev/ai-job-search/commits)
 

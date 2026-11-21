@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Live-coding visuals in the browser |
 | **Added** | 2026-11-14 |
 
-💤 **Quiet** — no activity for 6mo
+💤 **Quiet** — no activity for 7mo
 
 ## 📊 At a glance
 
@@ -26,7 +26,7 @@
 | 💻 **Languages** | JavaScript 100% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-04-25 (6mo ago) |
+| 🕒 **Last activity** | 2026-04-25 (7mo ago) |
 | 📅 **Created** | 2017-11-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

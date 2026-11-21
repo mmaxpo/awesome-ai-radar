@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 27.5k |
+| ⭐ **Stars** | 27.7k |
 | 🍴 **Forks** | 2.2k |
 | 🐞 **Open issues + PRs** | [8](https://github.com/onlook-dev/onlook/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `typescript` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` `astryx` `styled-components` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v2.0.2](https://github.com/onlook-dev/onlook/releases/tag/v2.0.2) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 88.7 MB |
+| 💾 **Size** | 88.9 MB |
 | 🌐 **Website** | https://onlook.com |
 
 ## 📦 Recent releases
 
 ### [v2.0.2](https://github.com/onlook-dev/onlook/releases/tag/v2.0.2) — Onlook 2.0
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > Onlook is a free, open-source editor for designers and visual engineers who shape their product in real code. This release is the Onlook desktop app: the Electron app, the canvas, and the layer that runs Claude Code or ChatGPT on your Mac.
 > - **Download:** [onlook.com/install](https://www.onlook.com/install). The app is free and works with the Claude or ChatGPT subscription you already have. macOS on Apple silicon and Intel.
@@ -81,6 +81,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [fix(codex): explain ChatGPT setup failures (ONL-3344) (#3159)](https://github.com/onlook-dev/onlook/commit/089840c3525faec88e74347bd5f7e06c76c8b3d0) | Krisodd |
+| 2026-11-21 | [fix(sidebar): keep restored project tabs usable (ONL-3288) (#3157)](https://github.com/onlook-dev/onlook/commit/9e56cf93314d6a057629e7a30873e25b3fe51dc4) | Krisodd |
+| 2026-11-20 | [Onboarding: ask for a role before "How did you hear about us?" (#3164)](https://github.com/onlook-dev/onlook/commit/894718edb8618372ed9da2b12bc2ed06f0694148) | drfarrell |
 | 2026-11-19 | [fix: preserve edits to long question responses (#3153)](https://github.com/onlook-dev/onlook/commit/721de14a519d603cea05faebfe669af853b0a59e) | Krisodd |
 | 2026-11-18 | [chore(github): add a bug report issue form (ONL-3328) (#3152)](https://github.com/onlook-dev/onlook/commit/fa8b12fb1b8d9fe6e7374abe5d5c02ff3deb32aa) | thebrubaker |
 | 2026-11-17 | [chore: set the app version to 2.0.0 (#3150)](https://github.com/onlook-dev/onlook/commit/7b17f48c59adb7ac4ec30a6982e4971f22846c2b) | Krisodd |
@@ -88,9 +91,6 @@
 | 2026-11-17 | [docs: new README and Central Icons asset notice (#3147)](https://github.com/onlook-dev/onlook/commit/993068a859decf9e93152e8a9f43d379d0d708c0) | drfarrell |
 | 2026-07-22 | [fix(security): enforce project-membership authorization across all tR…](https://github.com/onlook-dev/onlook/commit/423e2e924366419e418ee049093872d535eea41a) | mrptato |
 | 2026-07-09 | [Update README to refresh header image (#3125)](https://github.com/onlook-dev/onlook/commit/ab57c090b51f913b214c40bffdcd5753d1bd5930) | drfarrell |
-| 2026-07-09 | [Updated header image (#3124)](https://github.com/onlook-dev/onlook/commit/781d67a63ff753050dbab9d95f8aa63ab4ca2c85) | drfarrell |
-| 2026-06-09 | [Revise README with new Onlook description and links (#3117)](https://github.com/onlook-dev/onlook/commit/936b01553cdf4269a667426ce202fa9930e946f8) | drfarrell |
-| 2026-02-27 | [Website v1.5: AI-native copy revamp, new pages, and UX improvements (…](https://github.com/onlook-dev/onlook/commit/a242be584fa9c71ca5be9e5e7a2640595c4200be) | drfarrell |
 
 [See all commits ↗](https://github.com/onlook-dev/onlook/commits)
 

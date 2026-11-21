@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 15.2k |
-| 🍴 **Forks** | 584 |
+| 🍴 **Forks** | 583 |
 | 🐞 **Open issues + PRs** | [94](https://github.com/keycastr/keycastr/issues) |
 | 💻 **Languages** | Objective-C 100% |
 | 📜 **License** | BSD-3-Clause |

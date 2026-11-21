@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 54.5k |
+| ⭐ **Stars** | 55.0k |
 | 🍴 **Forks** | 4.5k |
-| 🐞 **Open issues + PRs** | [338](https://github.com/alibaba/open-code-review/issues) |
-| 💻 **Languages** | Go 70% · JavaScript 12% · TypeScript 10% · Kotlin 5% · CSS 2% |
+| 🐞 **Open issues + PRs** | [340](https://github.com/alibaba/open-code-review/issues) |
+| 💻 **Languages** | Go 71% · JavaScript 11% · TypeScript 10% · Kotlin 5% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-05-18 |
-| 📦 **Latest release** | [v1.13.13](https://github.com/alibaba/open-code-review/releases/tag/v1.13.13) — 2026-11-19 |
+| 📦 **Latest release** | [v1.14.0](https://github.com/alibaba/open-code-review/releases/tag/v1.14.0) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 54.6 MB |
+| 💾 **Size** | 56.5 MB |
 | 🌐 **Website** | https://open-codereview.ai |
 
 ## 📦 Recent releases
 
+### [v1.14.0](https://github.com/alibaba/open-code-review/releases/tag/v1.14.0)
+<sub>2026-11-21 · today</sub>
+
+> **🚀 Features**
+> - feat(rules,allowlist): exclude Cargo test/benchmark paths and refine Rust rules (#1971)
+> - feat(review): add optional behavior and impact analysis (#1937)
+> - feat(cli): order review and scan findings by severity (#2003)
+> - feat(rules): add SQL review rules (#1941)
+> - feat(rules): add Dhall review rules (#963)
+> …
+
 ### [v1.13.13](https://github.com/alibaba/open-code-review/releases/tag/v1.13.13)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): link the leaderboard to AACR-Bench (#1995)
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.13.12](https://github.com/alibaba/open-code-review/releases/tag/v1.13.12)
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): add contact link to website footer (#1975)
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.13.11](https://github.com/alibaba/open-code-review/releases/tag/v1.13.11)
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **🚀 Features**
 > - feat(session): filter listed sessions by branch (#1702)
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.13.10](https://github.com/alibaba/open-code-review/releases/tag/v1.13.10)
-<sub>2026-11-15 · 5d ago</sub>
+<sub>2026-11-15 · 6d ago</sub>
 
 > **🚀 Features**
 > - feat(review): default --to to HEAD when only --from is given (#1936)
@@ -78,31 +89,20 @@
 > - feat(workspace): support comparison-side code access (#1915)
 > **Full Changelog**: https://github.com/alibaba/open-code-review/compare/v1.13.9...v1.13.10
 
-### [v1.13.9](https://github.com/alibaba/open-code-review/releases/tag/v1.13.9)
-<sub>2026-11-13 · 7d ago</sub>
-
-> **🚀 Features**
-> - feat(manifest): record excluded files in run coverage (#1901)
-> **🐛 Bug Fixes**
-> - fix(action): show warnings in zero-finding PR summaries (#1766)
-> - fix(deps): update compatible vulnerable dependencies (#1919)
-> - fix(session): emit [] instead of null from session list --json (#1742)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [docs(runtime): remove the phase-one design note (#2031)](https://github.com/alibaba/open-code-review/commit/39515dca6161fb7fd176d87704b2b10e5f7a0c36) | lizhengfeng101 |
+| 2026-11-21 | [fix(cli): show token usage in analysis reports (#2030)](https://github.com/alibaba/open-code-review/commit/5f4d905f2d5e209aaa9e2f6e5495cc1cb82c0150) | lizhengfeng101 |
+| 2026-11-21 | [fix(viewer): keep the report header stable across tabs (#2022)](https://github.com/alibaba/open-code-review/commit/d29ca2044a42ea297a7fa93692d0f5ac8f38d84e) | lizhengfeng101 |
+| 2026-11-21 | [feat(rules,allowlist): exclude Cargo test/benchmark paths and refine …](https://github.com/alibaba/open-code-review/commit/7e4ecad163fd584630815c1a3abf4b3708a893a0) | alex09x |
+| 2026-11-21 | [fix(review): include TypeScript module extensions (#1962)](https://github.com/alibaba/open-code-review/commit/561787693595bbb2e12658557d63a661873c5aff) | Afloat16 |
+| 2026-11-21 | [docs(configuration): explain remote Chat Completions providers (#2005)](https://github.com/alibaba/open-code-review/commit/99ab679d7e327d13c6b69e71651ec30bbb2152f9) | wzxsdf |
+| 2026-11-21 | [fix(mcp): match tool definitions to their registered server (#1972)](https://github.com/alibaba/open-code-review/commit/2de8b4d9d5eb2939116cda628112e938d8a225a9) | Afloat16 |
+| 2026-11-21 | [feat(review): add optional behavior and impact analysis (#1937)](https://github.com/alibaba/open-code-review/commit/3adfc5a3fe59523620cfca94a06fbeb32021fc8b) | lizhengfeng101 |
 | 2026-11-20 | [fix(pages): recover partial-locale fallback and fragment navigation (…](https://github.com/alibaba/open-code-review/commit/5a6f77ccd1540ed4e80c06490a696543e507d3e4) | wzxsdf |
 | 2026-11-20 | [docs(review-rules): explain specification-aware reviews (#2006)](https://github.com/alibaba/open-code-review/commit/5a8c1cb8efd6576f5341a198093ef83dfb837e6c) | wzxsdf |
-| 2026-11-20 | [docs(cli): sync severity ordering across translations (#2015)](https://github.com/alibaba/open-code-review/commit/64412461890e13da344c0d099195c844d0af38b4) | lizhengfeng101 |
-| 2026-11-20 | [feat(cli): order review and scan findings by severity (#2003)](https://github.com/alibaba/open-code-review/commit/8648ee2a095d50a91e1bd46e56883ed2cfd0f035) | lizhengfeng101 |
-| 2026-11-19 | [perf(viewer): avoid copying owned JSONL records (#1967)](https://github.com/alibaba/open-code-review/commit/a74bcbbd4975eb3a92493d5eb537cf276d79b322) | Afloat16 |
-| 2026-11-19 | [fix(gitlab_ci): stop posting a check-mark LGTM on a failed review (#1…](https://github.com/alibaba/open-code-review/commit/37ff30759815613ac29d76a68d8932f2781ba113) | gengwg |
-| 2026-11-19 | [feat(rules): add SQL review rules (#1941)](https://github.com/alibaba/open-code-review/commit/55b4b311d6b7dacf9798fa63a4780386db1e5bf3) | mvanhorn |
-| 2026-11-19 | [feat(rules): add Dhall review rules (#963)](https://github.com/alibaba/open-code-review/commit/b87ca79fbfb1b9efdd86c79dcf4977ebf91bedea) | chethanuk |
-| 2026-11-19 | [feat(rules): add Ruby review rules (#1940)](https://github.com/alibaba/open-code-review/commit/817ed02d7b1917ec6a36630d926af34661af9b97) | mvanhorn |
-| 2026-11-19 | [feat(allowlist): add CUDA (.cu/.cuh) and HIP (.hip) review support (#…](https://github.com/alibaba/open-code-review/commit/1363b96552c0a9bda86bcd0ba5b61a2d668c51dd) | SU-AN-coder |
 
 [See all commits ↗](https://github.com/alibaba/open-code-review/commits)
 

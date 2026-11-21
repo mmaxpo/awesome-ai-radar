@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 50.6k |
-| 🍴 **Forks** | 20.8k |
+| 🍴 **Forks** | 20.7k |
 | 🐞 **Open issues + PRs** | [1.8k](https://github.com/pandas-dev/pandas/issues) |
 | 💻 **Languages** | Python 91% · Cython 6% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `data-analysis` `pandas` `flexible` `alignment` `python` `data-science` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 15d ago</sub>
+<sub>2026-11-04 · 16d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.1.0](https://github.com/pandas-dev/pandas/releases/tag/v3.1.0) — pandas 3.1.0
-<sub>2026-10-22 · 29d ago</sub>
+<sub>2026-10-22 · 1mo ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.0.
 > This release includes some new features, bug fixes, and performance improvements. We recommend that all users upgrade to this version.
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [BUG: Grouper(freq).value_counts raising with NaT in the grouped index…](https://github.com/pandas-dev/pandas/commit/ca8d2daa1bf8f30f4d1ce26dfad6792f590e298d) | jbrockmendel |
+| 2026-11-20 | [ENH: nlargest/nsmallest on non-numeric dtypes (GH#61166) (#72188)](https://github.com/pandas-dev/pandas/commit/ea9adce7db97709a477308467c90c2ee24d23d60) | jbrockmendel |
+| 2026-11-20 | [DOC: document how to write a custom offset (GH#35569) (#72239)](https://github.com/pandas-dev/pandas/commit/0d1cca392cc1302ee02b797a5b42e9a4071cffce) | jbrockmendel |
 | 2026-11-19 | [CI: Update pixi.lock (#71547)](https://github.com/pandas-dev/pandas/commit/1e36a1be41ed335a5e5ba968c73ced666a883191) | github-actions[bot] |
 | 2026-11-19 | [BUG: honor custom __repr__ of container subclasses in repr (GH#18843)…](https://github.com/pandas-dev/pandas/commit/5a96bfa5f03224fb5dd0d895e5eb5f1beda23cf7) | jbrockmendel |
 | 2026-11-19 | [BUG: DataFrame.plot raising for DateOffset/Easter index freq (GH#2692…](https://github.com/pandas-dev/pandas/commit/84cfc0ba0fc2bf6365516c0f83bfca2ee247f903) | jbrockmendel |
@@ -101,9 +104,6 @@
 | 2026-11-19 | [BUG: where/mask with inplace=True ignoring labels missing from cond (…](https://github.com/pandas-dev/pandas/commit/d5f4d6536dd428e7f25734157a3343f95e0b0197) | jbrockmendel |
 | 2026-11-19 | [TST: hist(by=, sharex=True) bars follow shared labels for non-numeric…](https://github.com/pandas-dev/pandas/commit/7de707e9987d0e20b7d37ecc7306fb5f797afef1) | jbrockmendel |
 | 2026-11-19 | [ENH: route DataFrame._repr_html_ through to_html, add to_html(min_row…](https://github.com/pandas-dev/pandas/commit/15969a95bced0dbd303f8f0fbe1db1b7cb222b2f) | jbrockmendel |
-| 2026-11-19 | [BUG: RecursionError in repr of a Series/DataFrame containing itself (…](https://github.com/pandas-dev/pandas/commit/a47e619fd19853abbbe9768826509ef2914cc405) | jbrockmendel |
-| 2026-11-19 | [BUG: ewm(adjust=False) wrong result with com=1 and NaN (GH#31178) (#7…](https://github.com/pandas-dev/pandas/commit/7bea84d26835bb98e828e054ea54df1febde92c0) | jbrockmendel |
-| 2026-11-18 | [CLN: import directly in pandas/io/_util.py instead of "import pandas …](https://github.com/pandas-dev/pandas/commit/264b9d8f97b579a009f77fb171bf0c24d903604a) | fangchenli |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

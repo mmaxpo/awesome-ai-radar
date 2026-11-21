@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 30.8k |
 | 🍴 **Forks** | 5.1k |
-| 🐞 **Open issues + PRs** | [51](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [57](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `llm` `python` `openai` `harness` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2025-03-11 |
 | 📦 **Latest release** | [v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 127.7 MB |
+| 💾 **Size** | 129.3 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
 
+### [v1.0.0-alpha.1](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1) — Agents SDK v1.0.0-alpha.1 _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> **Agents SDK v1.0.0-alpha.1**
+> This first preview from `feat/simple-codex` adds Codex as an opt-in model provider for the Python Agents SDK. The prebuilt `openai-agents` wheels (version `1.0.0a1`) are available exclusively through GitHub Releases.
+> **Highlights**
+> - **Choose Codex per run.** Import `CodexProvider` from `agents.models.codex` and create `provider = CodexProvider()`. Pass `RunConfig(model_provider=provider)` to the Runner. Codex uses your saved login. For API key authentication, use `CodexProvider(api_key=...)`. The provider selects the model for agents that use a model name or the default model. [Run the same agent with either provider](https://github.com/openai/openai-agents-python/blob/87e8f533c3b457fe632a5eb38ac42590d7f4d9fc/docs/models/codex.md#run-one-agent-with-either-provider)
+> - **Reuse Codex Core inside Python.** The wheel embeds unmodified Codex Core `rust-v0.166.0` through PyO3. Direct calls to Core eliminate `codex app-server` startup and JSON-RPC. Reuse the provider to share one `ThreadManager` across calls. Each call gets a fresh thread. Use an SDK session for history and close the provider with `await provider.aclose()` when you finish. [Thread lifetime and history](https://github.com/openai/openai-agents-python/blob/87e8f533c3b457fe632a5eb38ac42590d7f4d9fc/docs/models/codex.md#streaming-history-and-cancellation) · [Codex source](https://github.com/openai/codex/commit/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856)
+> - **Use SDK tools and approvals.** Stream text, hand off to a specialist, pause for approval before a Python tool runs, and validate typed output. Native commands follow Codex's sandbox and approval settings. A native approval prompt ends the model call. [Execution and approvals](https://github.com/openai/openai-agents-python/blob/87e8f533c3b457fe632a5eb38ac42590d7f4d9fc/docs/models/codex.md#configure-execution) · [Supported tools and model settings](https://github.com/openai/openai-agents-python/blob/87e8f533c3b457fe632a5eb38ac42590d7f4d9fc/docs/models/codex.md#supported-features-and-limits)
+> …
+
 ### [v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0)
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **[0.25.0](https://github.com/openai/openai-agents-python/compare/v0.24.0...v0.25.0) (2026-11-17)**
 > **Key Changes**
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.24.0-alpha.8](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8) — Agents SDK v0.24.0-alpha.8 _(pre-release)_
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.8**
 > **Highlights**
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.24.0-alpha.7](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.7) — Agents SDK v0.24.0-alpha.7 _(pre-release)_
-<sub>2026-11-08 · 12d ago</sub>
+<sub>2026-11-08 · 13d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.7**
 > **Highlights**
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.24.0-alpha.6](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6) — Agents SDK v0.24.0-alpha.6 _(pre-release)_
-<sub>2026-11-03 · 16d ago</sub>
+<sub>2026-11-03 · 17d ago</sub>
 
 > **Install the preview**
 > Use standard CPython 3.10–3.14 in a virtual environment. These wheels include the native runtime; no Rust toolchain or source build is needed. This preview is distributed through GitHub Releases, not PyPI.
@@ -77,17 +88,6 @@
 > **Linux x86_64 (glibc 2.39 or newer)**
 > ```sh
 > python -m pip install "https://github.com/openai/openai-agents-python/releases/download/v0.24.0-alpha.6/openai_agents-0.24.0a6-cp310-abi3-manylinux_2_39_x86_64.whl"
-> …
-
-### [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0)
-<sub>2026-10-15 · 1mo ago</sub>
-
-> **[0.24.0](https://github.com/openai/openai-agents-python/compare/v0.23.1...v0.24.0) (2026-10-15)**
-> **Key Changes**
-> 0.24.0 adds run-wide function error formatting and MCP discovery annotations, and improves recovery, sandbox safety, and tracing. This minor release includes compatibility changes for custom error callbacks and some saved agent graphs. Review the first two highlights before upgrading.
-> **Highlights:**
-> - **Update custom error formatters.** `RunConfig.tool_error_formatter` can receive `kind="tool_exception"` and an optional `error`. Handle the new kind or return `None` to retain the default message. Explicit per-tool handlers keep precedence; unconfigured defaults stay unchanged.
-> - **Plan upgrades around saved runs.** New RunState snapshots use schema 1.21. Finish affected older same-name agent graphs on their original SDK. Keep the agent code and original hook ordering unchanged. Use unique agent names for new durable runs; renaming a saved graph is not a migration.
 > …
 
 ## 🔨 Latest commits

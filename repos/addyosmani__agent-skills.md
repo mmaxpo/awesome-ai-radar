@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 119.3k |
+| ⭐ **Stars** | 119.5k |
 | 🍴 **Forks** | 12.4k |
-| 🐞 **Open issues + PRs** | [122](https://github.com/addyosmani/agent-skills/issues) |
+| 🐞 **Open issues + PRs** | [124](https://github.com/addyosmani/agent-skills/issues) |
 | 💻 **Languages** | JavaScript 76% · Shell 22% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `antigravity` `claude-code` `cursor` `skills` `codex` |
-| 🕒 **Last activity** | 2026-11-18 (yesterday) |
+| 🕒 **Last activity** | 2026-11-18 (2d ago) |
 | 📅 **Created** | 2026-02-15 |
 | 📦 **Latest release** | [0.6.17](https://github.com/addyosmani/agent-skills/releases/tag/0.6.17) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [0.6.17](https://github.com/addyosmani/agent-skills/releases/tag/0.6.17) — Agent Skills 0.6.17
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > Agent Skills 0.6.17 adds an accessibility-engineering skill for auditing and fixing WCAG 2.2 AA issues, fixes a rollback workflow that could never log in, and lets you regrade eval runs without paying for them again.
 > **New skill**
@@ -47,7 +47,7 @@
 > …
 
 ### [0.6.16](https://github.com/addyosmani/agent-skills/releases/tag/0.6.16) — Agent Skills 0.6.16
-<sub>2026-11-14 · 6d ago</sub>
+<sub>2026-11-14 · 7d ago</sub>
 
 > Agent Skills 0.6.16 lets specs evolve past V1, teaches the docs skill to spot drift, stops the frontend skill from installing toolchains just to verify, and fixes two quality-gate examples that could never fail.
 > **Skills**
@@ -58,7 +58,7 @@
 > …
 
 ### [0.6.15](https://github.com/addyosmani/agent-skills/releases/tag/0.6.15) — Agent Skills 0.6.15
-<sub>2026-10-31 · 20d ago</sub>
+<sub>2026-10-31 · 21d ago</sub>
 
 > Agent Skills 0.6.15 stops the security skill's staged-secret check from printing the secret it finds, fixes two simplify-ignore bugs that could corrupt protected code, and makes the constraints skill's security and accessibility gates actually fail CI.
 > **Security**
@@ -69,7 +69,7 @@
 > …
 
 ### [0.6.14](https://github.com/addyosmani/agent-skills/releases/tag/0.6.14) — Agent Skills 0.6.14
-<sub>2026-10-29 · 22d ago</sub>
+<sub>2026-10-29 · 23d ago</sub>
 
 > Agent Skills 0.6.14 is mostly about code samples. More than twenty snippets across the skills either failed as written or taught the wrong thing, and they're fixed. It also closes two supply-chain and injection risks in the samples, stops Claude Code from starting `/ship` or `/build` on its own, and brings the root manifest in line with Agent Plugins 1.0.0.
 > **Security fixes in the samples**

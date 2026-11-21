@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 72.2k |
+| ⭐ **Stars** | 72.3k |
 | 🍴 **Forks** | 11.6k |
-| 🐞 **Open issues + PRs** | [27](https://github.com/asgeirtj/system_prompts_leaks/issues) |
+| 🐞 **Open issues + PRs** | [26](https://github.com/asgeirtj/system_prompts_leaks/issues) |
 | 💻 **Languages** | Python 64% · JavaScript 34% · HTML 2% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | `ai` `anthropic` `chatbot` `chatgpt` `claude` `claude-code` `codex` `gemini` `generative-ai` `google` `llm` `openai` `prompt-engineering` `ai-agents` `system-prompts` `cursor` `grok` `ai-prompts` `prompt` `system-prompt` |
-| 🕒 **Last activity** | 2026-11-19 (yesterday) |
+| 🕒 **Last activity** | 2026-11-20 (today) |
 | 📅 **Created** | 2025-05-03 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 25.5 MB |
+| 💾 **Size** | 25.4 MB |
 
 ## 📦 Recent releases
 
@@ -40,16 +40,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Add 14 official Claude system prompt versions (November 2026)](https://github.com/asgeirtj/system_prompts_leaks/commit/56eeb3792e700a7e2165ffcd91f93c3115b210c7) | asgeirtj |
-| 2026-11-19 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/d85d5268d1f1834acef9df994200973d0d1458ef) | asgeirtj |
-| 2026-11-19 | [Update claude-code system prompts (2.1.328)](https://github.com/asgeirtj/system_prompts_leaks/commit/fb0c4b253a750a2d8e5b542fee8ba0628cf21b1f) | asgeirtj |
-| 2026-11-18 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/ee6ec04e8609dc4423e93b2c22d46ca577a8cf64) | asgeirtj |
-| 2026-11-18 | [Update Claude Code effort tables](https://github.com/asgeirtj/system_prompts_leaks/commit/87279d0453c9f710e09c6eeaaf1773ebd6716670) | asgeirtj |
-| 2026-11-18 | [Add Claude Code Desktop side chat prompt](https://github.com/asgeirtj/system_prompts_leaks/commit/14f61488024b6d5abec253ef5705a48c479b8fd3) | asgeirtj |
-| 2026-11-18 | [Update claude-code skills](https://github.com/asgeirtj/system_prompts_leaks/commit/f4e119ddd18d65951493dff53f844d6c072699f5) | asgeirtj |
-| 2026-11-18 | [Add Claude Opus 3 system prompt (March 4, 2024)](https://github.com/asgeirtj/system_prompts_leaks/commit/02bcfcf80ecddb91a460f800a31b92d8d3b08601) | asgeirtj |
-| 2026-11-18 | [Update claude-fable-5.2.md](https://github.com/asgeirtj/system_prompts_leaks/commit/4e1b25fedc5900979a39dccc24e20be421adb0b7) | asgeirtj |
-| 2026-11-18 | [Add Claude Fable 5.2 system prompt (Claude Code desktop)](https://github.com/asgeirtj/system_prompts_leaks/commit/e93094a7ed0e10363a660ec6c0a4403b2a4be88b) | asgeirtj |
+| 2026-11-20 | [Update README.md](https://github.com/asgeirtj/system_prompts_leaks/commit/0aa4be305d75f23db32977ee255dbd430c27e2e6) | asgeirtj |
+| 2026-11-20 | [normalize formatting](https://github.com/asgeirtj/system_prompts_leaks/commit/e701f8fe886b2c42f18b2c7177d8a360fafdf1fa) | asgeirtj |
+| 2026-11-20 | [Add Claude API tool prompts](https://github.com/asgeirtj/system_prompts_leaks/commit/c24600706a8f1039581f4da74e04f1100ed8f2fd) | asgeirtj |
+| 2026-11-20 | [normalize formatting](https://github.com/asgeirtj/system_prompts_leaks/commit/4d44846974bd871bc6db26a5fd55fe7951e35ea8) | asgeirtj |
+| 2026-11-20 | [Add Claude Code for VS Code system prompt](https://github.com/asgeirtj/system_prompts_leaks/commit/f1fe99a522e51d3b0d8466729fad71e7d95b5996) | asgeirtj |
+| 2026-11-20 | [Add Claude for Outlook and Claude for Google Workspace system prompts](https://github.com/asgeirtj/system_prompts_leaks/commit/3dc65e850edd3acd8347c7dece866b28988e6c43) | asgeirtj |
+| 2026-11-20 | [Move Claude for Microsoft 365 system prompts into a folder](https://github.com/asgeirtj/system_prompts_leaks/commit/ff304d1c7bbbe1b4d7bb7c345a189c7d35098fb2) | asgeirtj |
+| 2026-11-20 | [Update Claude for Microsoft 365 and Claude in Chrome system prompts](https://github.com/asgeirtj/system_prompts_leaks/commit/3f387b3d17d006148404d5825d7ebbf9ff7c59ed) | asgeirtj |
+| 2026-11-20 | [Update claude.ai system prompts](https://github.com/asgeirtj/system_prompts_leaks/commit/58ee514be42ee339374a21bc8b8120fbe4b92054) | asgeirtj |
+| 2026-11-20 | [Add Claude Opus 3 system prompt (claude.ai)](https://github.com/asgeirtj/system_prompts_leaks/commit/55148cc00bff7ab4c113f4e9303d9561c8e6b246) | asgeirtj |
 
 [See all commits ↗](https://github.com/asgeirtj/system_prompts_leaks/commits)
 

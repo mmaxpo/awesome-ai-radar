@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 1.1k |
+| ⭐ **Stars** | 1.2k |
 | 🍴 **Forks** | 91 |
 | 🐞 **Open issues + PRs** | [9](https://github.com/christian-fei/my-yt/issues) |
 | 💻 **Languages** | JavaScript 84% · CSS 13% · HTML 3% |

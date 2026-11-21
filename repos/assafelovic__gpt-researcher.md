@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 30.8k |
 | 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [72](https://github.com/assafelovic/gpt-researcher/issues) |
+| 🐞 **Open issues + PRs** | [76](https://github.com/assafelovic/gpt-researcher/issues) |
 | 💻 **Languages** | Python 66% · TypeScript 24% · JavaScript 4% · CSS 4% · HCL 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `python` `agent` `automation` `research` `search` `webscraping` `llms` `deepresearch` `mcp` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-12 (7d ago) |
+| 🕒 **Last activity** | 2026-11-12 (8d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — New paper UI, detailed reports in 3:27, and 53 community fixes
-<sub>2026-11-09 · 10d ago</sub>
+<sub>2026-11-09 · 11d ago</sub>
 
 > **A new UI, and detailed reports in under 4 minutes**
 > <a href="https://github.com/user-attachments/assets/4d3f26cf-8ccc-413a-b17c-80aa9e1b52d1">
@@ -78,7 +78,7 @@
 > …
 
 ### [v3.5.1](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.5.1)
-<sub>2026-06-23 · 4mo ago</sub>
+<sub>2026-06-23 · 5mo ago</sub>
 
 > **What's Changed**
 > * fix: add MAX_REVISIONS guard to prevent infinite revision loop by @varshiniml7 in https://github.com/assafelovic/gpt-researcher/pull/1783

@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 25.5k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [0](https://github.com/letta-ai/letta/issues) |
+| 🐞 **Open issues + PRs** | [1](https://github.com/letta-ai/letta/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `llm` `llm-agent` `ai` `ai-agents` |

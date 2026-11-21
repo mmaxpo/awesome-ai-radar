@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.4k |
+| ⭐ **Stars** | 115.6k |
 | 🍴 **Forks** | 19.2k |
 | 🐞 **Open issues + PRs** | [7.0k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 3% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 553.3 MB |
+| 💾 **Size** | 554.6 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
 ### [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **Paperclip v2026.1117.0**
 > > Released: 2026-11-17
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 13d ago</sub>
+<sub>2026-11-06 · 14d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -69,7 +69,7 @@
 > …
 
 ### [v2026.1023.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0)
-<sub>2026-10-24 · 27d ago</sub>
+<sub>2026-10-24 · 28d ago</sub>
 
 > **Paperclip v2026.1023.0**
 > > Released: 2026-10-23
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [fix(tools): retry a named MCP gateway create that loses a deadlock (#…](https://github.com/paperclipai/paperclip/commit/a792409d07e984e7bf8382e295bdaebd2aa18dda) | paperclipbugbot |
-| 2026-11-20 | [fix(storage): back off a throttled small upload that has no source fi…](https://github.com/paperclipai/paperclip/commit/fa96716bb5ad5beb66d39c44210c87c39cf7dcac) | paperclipbugbot |
-| 2026-11-20 | [fix(workspaces): name incompatible project storage when a volume-free…](https://github.com/paperclipai/paperclip/commit/7ef731ec7ede8b2aaf5507ae8d49f2b952367beb) | paperclipbugbot |
-| 2026-11-20 | [fix(native): name the missing precondition when a bootstrap restart r…](https://github.com/paperclipai/paperclip/commit/c3260b1c03aa25eb88eb4c1f25cd65d757d72025) | paperclipbugbot |
-| 2026-11-20 | [fix(workspaces): stop a cancelled single-pass capture from leaking a …](https://github.com/paperclipai/paperclip/commit/bbb6b4fd5c6d5fa02e6a54bc5850f49e14c65046) | paperclipbugbot |
-| 2026-11-20 | [fix(environments): clean up an unconfirmed setup sandbox and answer a…](https://github.com/paperclipai/paperclip/commit/16dfa200ac8c94772109ba9b9cb2eea7f4d9b63d) | paperclipbugbot |
-| 2026-11-20 | [fix(environments): retry recording a started sandbox lease that loses…](https://github.com/paperclipai/paperclip/commit/49adbbe2f6f3a1b3f46671f472b8184a06f16cba) | paperclipbugbot |
-| 2026-11-20 | [fix(ui): mark the connectivity probe's timeout abort as intentional (…](https://github.com/paperclipai/paperclip/commit/48025caaca535b25eb1136968f47dea58b7c46ee) | paperclipbugbot |
-| 2026-11-20 | [fix(ui): stop reporting posthog-js request timeouts as unhandled reje…](https://github.com/paperclipai/paperclip/commit/434e574ec6066cfc1dbf16b3337bfceda4f0fcf2) | paperclipbugbot |
-| 2026-11-20 | [fix(native): retry a workspace failure write that loses a deadlock (#…](https://github.com/paperclipai/paperclip/commit/9874608d0aa66e090ce8ad2b93401fdcebe7b37f) | devinfoley |
+| 2026-11-21 | [fix(native): let a fresh replacement Runner publish its verified pack…](https://github.com/paperclipai/paperclip/commit/f434f0e7bd72c0d880daa9c6ef915c913e989f1c) | devinfoley |
+| 2026-11-21 | [fix(server): pass a Cloud portfolio rate limit through as 429 (#22488)](https://github.com/paperclipai/paperclip/commit/21f4427b78fc3fe287f9f5905108c80971caed06) | paperclipbugbot |
+| 2026-11-21 | [fix(ui): keep translated pages from crashing on React DOM updates (#2…](https://github.com/paperclipai/paperclip/commit/95ba0a7de64b2ac685c7bfda281c8296e81100a7) | paperclipbugbot |
+| 2026-11-21 | [fix(ui): name the plugin whose UI module raised a browser error (#22487)](https://github.com/paperclipai/paperclip/commit/683d7ae120c0225715eb61ae492acdb65dbab58d) | paperclipbugbot |
+| 2026-11-21 | [fix(workspaces): attach a recovered saved version once, not once per …](https://github.com/paperclipai/paperclip/commit/4631d3b41a8f18c2700fcd894f9b5d10e1799c51) | paperclipbugbot |
+| 2026-11-21 | [Fix skill upload conflicts blocking first-agent onboarding (#22477)](https://github.com/paperclipai/paperclip/commit/1b1861c29d13427bac196932c19cb683c930e205) | devinfoley |
+| 2026-11-21 | [fix: retry verified legacy adapter preparation failures (#22464)](https://github.com/paperclipai/paperclip/commit/4697a5050836daae9b6f4276e910653a45c20694) | devinfoley |
+| 2026-11-21 | [fix(ci): stabilize database-backed readiness checks (#22476)](https://github.com/paperclipai/paperclip/commit/6bf312270c3ed740d71cc1b5e064530930a6d473) | devinfoley |
+| 2026-11-21 | [fix(heartbeat): name a full sandbox disk that stops a workspace save …](https://github.com/paperclipai/paperclip/commit/33ffaa5b9a2e0954c2afc063572346cb1be534a7) | paperclipbugbot |
+| 2026-11-21 | [build(server): omit tests from production compilation (#19383)](https://github.com/paperclipai/paperclip/commit/6b9952525d2775e09e204e140c3ee4584dbfa602) | appleguy |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

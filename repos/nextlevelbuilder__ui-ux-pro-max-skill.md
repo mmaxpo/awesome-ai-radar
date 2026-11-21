@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 152.0k |
-| 🍴 **Forks** | 16.0k |
-| 🐞 **Open issues + PRs** | [84](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
+| ⭐ **Stars** | 152.4k |
+| 🍴 **Forks** | 16.1k |
+| 🐞 **Open issues + PRs** | [85](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
 | 💻 **Languages** | Python 81% · TypeScript 8% · JavaScript 6% · HTML 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-skills` `antigravity` `claude` `claude-code` `command-line` `copilot` `cursor-ai` `html5` `kiro` `landing-page` `mobile-ui` `react` `tailwindcss` `ui-design` `uikit` `windsurf-ai` `codex` `qoder` `trae` |
-| 🕒 **Last activity** | 2026-11-19 (yesterday) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2025-11-30 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases/tag/v2.15.0) — 2026-08-13 |
 | 🌿 **Default branch** | `main` |
@@ -70,6 +70,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [feat: add form error-handling UX guidelines (rows 131-141) (#587)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/f76d1653d7467fc11fb9d9d79295a421c92ab958) | tuan204-dev |
 | 2026-11-19 | [fix(projects): precompile sample styles so they render offline (#584)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/2de1134dc4d1cfe112934611ae5803ae17a1bd7e) | vaibhav375 |
 | 2026-11-18 | [fix(gallery): correct subtitle branding and drop stale style count (#…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/0fa6f35939138cdfaa97cb375e711396bb1e43a7) | vaibhav375 |
 | 2026-11-18 | [feat: add GIS web map and Earth observation product types (#582)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/ed766d3bf62f32c8d27762ad49abdc3a4744c84f) | Khanhle19 |
@@ -79,7 +80,6 @@
 | 2026-11-16 | [feat(design): add optional UberLLM logo provider (#567)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/e59ff376a41f7ca47b7541ad5c116495cbade3ee) | al-global-tech |
 | 2026-11-16 | [fix(gallery): open style cards from the keyboard and stop nested clic…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/902bf616a0cc590d3f89f233f0c4e00072e549f0) | d4nielantoni |
 | 2026-11-15 | [feat(design-system): export the generated design system as design tok…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/b6a79003ad2b93c174590a4143a0ddbb2e4574e2) | mvanhorn |
-| 2026-11-15 | [feat(design-system): write a self-contained preview page for the gene…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/efd98221354918762b54a5079b39554c3f546f7a) | mvanhorn |
 
 [See all commits ↗](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commits)
 

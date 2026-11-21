@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 17.8k |
 | 🍴 **Forks** | 2.0k |
-| 🐞 **Open issues + PRs** | [171](https://github.com/Mikubill/sd-webui-controlnet/issues) |
+| 🐞 **Open issues + PRs** | [173](https://github.com/Mikubill/sd-webui-controlnet/issues) |
 | 💻 **Languages** | Python 95% · Cuda 3% · C++ 1% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | — |

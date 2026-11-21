@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [248](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [250](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 58.5 MB |
+| 💾 **Size** | 58.3 MB |
 | 🌐 **Website** | http://keras.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Stop using `backend.set_floatx` and instead import `config` (#24320)](https://github.com/keras-team/keras/commit/e1705782f99a692cd5b5aef181590f69342847c2) | hertschuh |
+| 2026-11-20 | [Convert 64-bit integers to float64 in the remaining ops under explici…](https://github.com/keras-team/keras/commit/aa360cdf3c8b95131b408ab41bc96af71f5d6106) | gaga1313 |
+| 2026-11-20 | [Increase TPU tolerance for channels_first test_affine_transform (#24310)](https://github.com/keras-team/keras/commit/aa615a686ff9e46bdf6ef9a630914609db702147) | gaga1313 |
+| 2026-11-20 | [Stop using `backend.standardize_data_format` and instead import it...…](https://github.com/keras-team/keras/commit/e75106a5e38b9c0f6773a82c214ec4438220398a) | hertschuh |
+| 2026-11-20 | [Remove `set_epsilon` from `keras.src.backend`. (#24306)](https://github.com/keras-team/keras/commit/d4fcf48c464be8661fd75ef3fa2b33a3e77c13b7) | hertschuh |
+| 2026-11-20 | [Fix inconsistency between `layer_normalization` op arguments and clas…](https://github.com/keras-team/keras/commit/6ec32d7751bfbfed8baafda4bd4c1c90cd19381e) | hertschuh |
 | 2026-11-20 | [Fix torch linspace and logspace not ending exactly at stop (#24305)](https://github.com/keras-team/keras/commit/a8c8a995833ee1fcbe751c568b1a547d5dbd4860) | SamanehSaadat |
 | 2026-11-20 | [Remove uses of `# flake8: noqa`. (#24304)](https://github.com/keras-team/keras/commit/7eba456c34fc9ea42d98087f5a597a03e33cc4bd) | hertschuh |
 | 2026-11-20 | [Convert 64-bit integers to float64 in reductions under explicit_x64 (…](https://github.com/keras-team/keras/commit/902ae99f795d6ad5827f8130644cd4a24aaf3b07) | gaga1313 |
 | 2026-11-20 | [Stop using `backend.image_data_format` and instead import `config` (#…](https://github.com/keras-team/keras/commit/c69ff6a6dd69bf41705885e81123b1032a7a16e3) | hertschuh |
-| 2026-11-19 | [Split an EinsumDense kernel for GPTQ/AWQ by its equation, not its sha…](https://github.com/keras-team/keras/commit/96a8478bd9584d741ae171114e6e27550ac88455) | JyotinderSingh |
-| 2026-11-19 | [Check each op in tf.function with unknown dimensions in OpTest (#24269)](https://github.com/keras-team/keras/commit/1199f4090d4ebde7aca45bbbb331032fee225c5e) | gaga1313 |
-| 2026-11-19 | [Fix affine_transform with a single transform for a batch of images (#…](https://github.com/keras-team/keras/commit/c9ee7440cdcb3f88983553cd091c05d22890fb22) | SamanehSaadat |
-| 2026-11-19 | [Stop using `backend.floatx` and instead import `config` (#24292)](https://github.com/keras-team/keras/commit/9e044ad0d766ffc6a9526d23e334ad61b848acc5) | hertschuh |
-| 2026-11-18 | [Check each op under bfloat16 and float16 floatx in OpTest (#24266)](https://github.com/keras-team/keras/commit/4a1c5a3c9b9af3c09a6d11aabe64fbe6ad070ace) | gaga1313 |
-| 2026-11-18 | [Stop using `backend.epsilon` and instead import `config` (#24289)](https://github.com/keras-team/keras/commit/f0a2630735dccbd628a4b054ad4abfdc24bf00b4) | hertschuh |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

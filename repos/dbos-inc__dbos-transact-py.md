@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 1.7k |
 | 🍴 **Forks** | 126 |
-| 🐞 **Open issues + PRs** | [9](https://github.com/dbos-inc/dbos-transact-py/issues) |
+| 🐞 **Open issues + PRs** | [10](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2024-07-19 |
 | 📦 **Latest release** | [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0)
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **Behavior Changes**
 > This release changes how DBOS workflow management operations (cancel, resume, fork rewind) interact with queues. Previously, these operations would clear queue information, so the workflow was no longer associated with any queue. Now, these operations do not clear queue operations, so cancelling and resuming a workflow re-enqueues the workflow to its original queue, and rewinding or forking a workflow similarly re-enqueues it (a cancelled or otherwise terminated workflow still does not consume a queue slot until resumed and re-enqueued). You can override this behavior by passing a different queue into resume, rewind, or fork. We made this change because of consistent user feedback that the original behavior (clearing queue information) was unintuitive.
@@ -47,7 +47,7 @@
 > …
 
 ### [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0)
-<sub>2026-11-10 · 9d ago</sub>
+<sub>2026-11-10 · 10d ago</sub>
 
 > **What's Changed**
 > * Better Queue Locking by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/932
@@ -58,7 +58,7 @@
 > …
 
 ### [3.4.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.4.0)
-<sub>2026-10-28 · 22d ago</sub>
+<sub>2026-10-28 · 23d ago</sub>
 
 > **What's Changed**
 > * Poll only the status column for preemptible step cancellation by @buftio in https://github.com/dbos-inc/dbos-transact-py/pull/898
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Suspend Workflow GetResult (#970)](https://github.com/dbos-inc/dbos-transact-py/commit/28192bd87ee81891546803fb583ea6a22c08d1ce) | kraftp |
+| 2026-11-20 | [Bulk rewind (#971)](https://github.com/dbos-inc/dbos-transact-py/commit/bad3353fd43d943b3a095073d28d8724382c093b) | lanice |
 | 2026-11-19 | [Workflow Archiving (#959)](https://github.com/dbos-inc/dbos-transact-py/commit/95d25eb51a93e6794935bf0ee96403273416b91c) | kraftp |
 | 2026-11-18 | [Delete By Level (#969)](https://github.com/dbos-inc/dbos-transact-py/commit/afef3f7d396a14a14801bfc9ac865b7bdbff996e) | kraftp |
 | 2026-11-17 | [Batch Async Result Polling (#962)](https://github.com/dbos-inc/dbos-transact-py/commit/9924fe6b6018f08304341d100adeb60c42712808) | oleksii-tumanov |
@@ -102,8 +104,6 @@
 | 2026-11-13 | [Durable client steps (#954)](https://github.com/dbos-inc/dbos-transact-py/commit/96ef3142c3a8383df6ee90338af1bda8d0979baa) | maxdml |
 | 2026-11-13 | [Preserve Queues in Workflow Management Operations (#956)](https://github.com/dbos-inc/dbos-transact-py/commit/0004801ae7f968643367628145be4a3db221c2fd) | kraftp |
 | 2026-11-12 | [parallel tests (#957)](https://github.com/dbos-inc/dbos-transact-py/commit/f9892f4db8144a2b333e3583dcc9a2f0895f22d5) | maxdml |
-| 2026-11-12 | [fix(serialization): restore Optional dates and Decimal in portable wo…](https://github.com/dbos-inc/dbos-transact-py/commit/a3da1f2f8deef97a3ea752df231520cbcaf48a5d) | ravismash |
-| 2026-11-12 | [Consistently Make DBOS Methods Durable Steps (#955)](https://github.com/dbos-inc/dbos-transact-py/commit/160dc86d84646c33d9457c34f3d0866961748eac) | kraftp |
 
 [See all commits ↗](https://github.com/dbos-inc/dbos-transact-py/commits)
 

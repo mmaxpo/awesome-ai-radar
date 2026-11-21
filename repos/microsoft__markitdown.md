@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 197.2k |
+| ⭐ **Stars** | 197.3k |
 | 🍴 **Forks** | 14.9k |
-| 🐞 **Open issues + PRs** | [821](https://github.com/microsoft/markitdown/issues) |
+| 🐞 **Open issues + PRs** | [824](https://github.com/microsoft/markitdown/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `langchain` `openai` `autogen-extension` `autogen` `markdown` `microsoft-office` `pdf` |
-| 🕒 **Last activity** | 2026-11-07 (13d ago) |
+| 🕒 **Last activity** | 2026-11-07 (14d ago) |
 | 📅 **Created** | 2024-11-13 |
 | 📦 **Latest release** | [v0.1.9](https://github.com/microsoft/markitdown/releases/tag/v0.1.9) — 2026-10-21 |
 | 🌿 **Default branch** | `main` |
@@ -33,7 +33,7 @@
 ## 📦 Recent releases
 
 ### [v0.1.9](https://github.com/microsoft/markitdown/releases/tag/v0.1.9) — Version 0.1.9
-<sub>2026-10-21 · 29d ago</sub>
+<sub>2026-10-21 · 1mo ago</sub>
 
 > **What's Changed**
 > * increase chunk size from 512 bytes to 64 KB for HTTP response reading by @YasirAlibrahem in https://github.com/microsoft/markitdown/pull/1511
@@ -44,7 +44,7 @@
 > …
 
 ### [v0.1.8](https://github.com/microsoft/markitdown/releases/tag/v0.1.8) — Version 0.1.8
-<sub>2026-09-21 · 1mo ago</sub>
+<sub>2026-09-21 · 2mo ago</sub>
 
 > This release rolls up dozens of small patches and bug fixes. For typical inputs and use cases, we expect outputs and behavior to remain largely unchanged from version 0.1.7.
 > The markitdown-ocr plugin has also been refactored to simplify future maintenance.

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 15.1k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [1](https://github.com/microsoft/playwright-python/issues) |
+| 🐞 **Open issues + PRs** | [3](https://github.com/microsoft/playwright-python/issues) |
 | 💻 **Languages** | Python 92% · HTML 4% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `playwright` `chromium` `firefox` `webkit` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.65.2](https://github.com/microsoft/playwright-python/releases/tag/v1.65.2)
-<sub>2026-11-14 · 6d ago</sub>
+<sub>2026-11-14 · 7d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright/pull/44098 - browser(chromium): roll to r1255, v159.0.8154.6
@@ -44,7 +44,7 @@
 > - Chromium 159.0.8154.6
 
 ### [v1.65.1](https://github.com/microsoft/playwright-python/releases/tag/v1.65.1)
-<sub>2026-11-11 · 8d ago</sub>
+<sub>2026-11-11 · 9d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3337 - chore: roll Node.js to 26.13.1
@@ -55,7 +55,7 @@
 > …
 
 ### [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0)
-<sub>2026-11-09 · 10d ago</sub>
+<sub>2026-11-09 · 11d ago</sub>
 
 > **🧾 Locator code in Python**
 > A locator from [locator.normalize()](https://playwright.dev/python/docs/api/class-locator#locator-normalize) now converts to a string as Python code. Use it with [page.get_by_ref()](https://playwright.dev/python/docs/api/class-page#page-get-by-ref) to turn an element that an agent picks from a [page.aria_snapshot()](https://playwright.dev/python/docs/api/class-page#page-aria-snapshot) in the `"ai"` mode into code for your test:
@@ -66,7 +66,7 @@
 > …
 
 ### [v1.64.1](https://github.com/microsoft/playwright-python/releases/tag/v1.64.1)
-<sub>2026-10-22 · 28d ago</sub>
+<sub>2026-10-22 · 29d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3283 - chore: roll Node.js to 24.22.1
@@ -91,6 +91,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [chore: roll Playwright to 1.66.0-next (a018f24a4f) (#3359)](https://github.com/microsoft/playwright-python/commit/de03c865f5738c2291a6a58c8b5c20346d8e70f2) | microsoft-playwright-automation[bot] |
 | 2026-11-20 | [docs: remove the mention of generateApiJson.js (#3358)](https://github.com/microsoft/playwright-python/commit/cdf38fca52c8ff0156a1b2ae40f76b5345224458) | yury-s |
 | 2026-11-19 | [chore: roll Playwright to 1.66.0-next (1664ab2899) (#3357)](https://github.com/microsoft/playwright-python/commit/f5d8fecdaf13556fef738b155fd171a3bfc869e3) | microsoft-playwright-automation[bot] |
 | 2026-11-19 | [build(deps): bump pytest-asyncio from 1.4.1 to 1.5.0 (#3356)](https://github.com/microsoft/playwright-python/commit/73e3a31c460622fefeb0f27246a85eb2754104ae) | dependabot[bot] |
@@ -100,7 +101,6 @@
 | 2026-11-17 | [chore: start the review bot on pull_request, not pull_request_target …](https://github.com/microsoft/playwright-python/commit/16fdfef93ef06990fae3f85d2af87105f1dcdc90) | pavelfeldman |
 | 2026-11-17 | [chore(docker): remove check_layers.js, keep the Trivy scan (#3351)](https://github.com/microsoft/playwright-python/commit/ab9d149f27ab174b6c1e42cbda6ee56ff23ace53) | yury-s |
 | 2026-11-17 | [fix(docker): keep the pip cache out of the image layers, and check th…](https://github.com/microsoft/playwright-python/commit/9e771581e828cc784d672f54c48a143359ba66fe) | yury-s |
-| 2026-11-17 | [chore: roll Playwright to 1.66.0-next (b4d016aadc) (#3348)](https://github.com/microsoft/playwright-python/commit/8ccab57c9a073540f8f97571f8483fad8b702baf) | microsoft-playwright-automation[bot] |
 
 [See all commits ↗](https://github.com/microsoft/playwright-python/commits)
 

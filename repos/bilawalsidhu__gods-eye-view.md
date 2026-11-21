@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 66.1k |
+| ⭐ **Stars** | 66.2k |
 | 🍴 **Forks** | 13.1k |
-| 🐞 **Open issues + PRs** | [425](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| 🐞 **Open issues + PRs** | [426](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 246.2 MB |
+| 💾 **Size** | 246.5 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 23d ago</sub>
+<sub>2026-10-28 · 24d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [Merge pull request #1277 from bilawalsidhu/codex/fix-annotation-heigh…](https://github.com/bilawalsidhu/gods-eye-view/commit/5982e811de7f4ae1c6844eb16c7578abe60928dc) | gekh |
-| 2026-11-20 | [Merge branch 'main' into codex/fix-annotation-height-culling](https://github.com/bilawalsidhu/gods-eye-view/commit/c00c272bd81093ff0d7b1f66cd20018e97e447ac) | gekh |
-| 2026-11-20 | [Merge pull request #1701 from bilawalsidhu/german/recent-imagery-auto…](https://github.com/bilawalsidhu/gods-eye-view/commit/fb2c0468b9ee7df4e91c143aa5ea6c4e3842418a) | gekh |
-| 2026-11-20 | [Merge branch 'main' into codex/fix-annotation-height-culling](https://github.com/bilawalsidhu/gods-eye-view/commit/f54d612aabc293a4e3bcaa6f7cce564c6b4c813c) | gekh |
-| 2026-11-20 | [Merge branch 'main' into german/recent-imagery-auto-successor](https://github.com/bilawalsidhu/gods-eye-view/commit/1a57469fd18ad8cbc00444b2ef748b52c09e0eca) | gekh |
-| 2026-11-20 | [Merge pull request #1460 from UBN606/feat/blender-camera-interchange-…](https://github.com/bilawalsidhu/gods-eye-view/commit/6ef4ae8f42bad34275cdd491b80e629cf004508f) | gekh |
-| 2026-11-20 | [Merge branch 'main' into german/recent-imagery-auto-successor](https://github.com/bilawalsidhu/gods-eye-view/commit/4262829e277bf2f63446035d95e32dae76c2974b) | gekh |
-| 2026-11-20 | [Merge branch 'main' into feat/blender-camera-interchange-submit](https://github.com/bilawalsidhu/gods-eye-view/commit/5b1c1ede292fc1390f9ba65b5451c94902c581ec) | gekh |
-| 2026-11-20 | [Merge pull request #1767 from ZloyS/denis/iss-live-telemetry](https://github.com/bilawalsidhu/gods-eye-view/commit/1dd007fa3e97baddc1f1c89d93dfc0b0f78a23cd) | asturksever |
-| 2026-11-20 | [Merge main into denis/iss-live-telemetry](https://github.com/bilawalsidhu/gods-eye-view/commit/050e0a3a7acbaf6dc2047db730555511dbc678a6) | ZloyS |
+| 2026-11-21 | [A voice or chat selection shows its card in the Context panel (#1890)](https://github.com/bilawalsidhu/gods-eye-view/commit/918435ddc7bd4529666ddafde65e68ad97fab4ce) | samehkhamis |
+| 2026-11-21 | [Voice Cockpit entry no longer switches Contacts on (#1889)](https://github.com/bilawalsidhu/gods-eye-view/commit/fbbe6cd91fbff15e03303be7feea0569cdf91843) | samehkhamis |
+| 2026-11-21 | [Show JTWC cyclones: western Pacific, Indian Ocean and Southern Hemisp…](https://github.com/bilawalsidhu/gods-eye-view/commit/5608b12a253ac6555761348a32a2c8e24e9e238f) | samehkhamis |
+| 2026-11-21 | [Place trademark attribution below the README install links (#1888)](https://github.com/bilawalsidhu/gods-eye-view/commit/ae212e5b631ed16cbe3d605abecdf105a1be8df3) | bilawalsidhu |
+| 2026-11-21 | [fix(satellites): releasing a tracked satellite clears its focus dimmi…](https://github.com/bilawalsidhu/gods-eye-view/commit/deff042265844ee88a52907f03ffcfa3b2f7ae3d) | samehkhamis |
+| 2026-11-21 | [test(scenes): drop the resumed-flight timing test (#1885)](https://github.com/bilawalsidhu/gods-eye-view/commit/aac6be77735f6bcad583204724a43302227abc4d) | samehkhamis |
+| 2026-11-21 | [Put the globe actions back on the title row, with the loading line un…](https://github.com/bilawalsidhu/gods-eye-view/commit/84324ea678cbb0ec947e7b2f6009e597fc2d22b5) | samehkhamis |
+| 2026-11-20 | [Merge pull request #1543 from Byrd-IT/byrdit/cctv-visible-only-fetch](https://github.com/bilawalsidhu/gods-eye-view/commit/41c792208e73f2ded123844cfce41fe88fd6d4f3) | gekh |
+| 2026-11-20 | [Merge branch 'main' into byrdit/cctv-visible-only-fetch](https://github.com/bilawalsidhu/gods-eye-view/commit/b94e5566932acc40f6030d9d589a76592bc8f8b3) | gekh |
+| 2026-11-20 | [Merge pull request #1267 from bilawalsidhu/codex/fix-cctv-session-adm…](https://github.com/bilawalsidhu/gods-eye-view/commit/98a26787a4359a94054bc015fc17cb4437c2fb2b) | gekh |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

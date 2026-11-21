@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 118.6k |
+| ⭐ **Stars** | 118.8k |
 | 🍴 **Forks** | 10.3k |
-| 🐞 **Open issues + PRs** | [85](https://github.com/thedotmack/claude-mem/issues) |
+| 🐞 **Open issues + PRs** | [84](https://github.com/thedotmack/claude-mem/issues) |
 | 💻 **Languages** | TypeScript 66% · JavaScript 29% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-memory` `anthropic` `artificial-intelligence` `claude` `claude-agent-sdk` `claude-agents` `claude-code` `claude-code-plugin` `claude-skills` `long-term-memory` `mem0` `openmemory` `supermemory` `chromadb` `sqlite` `embeddings` `memory-engine` `rag` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2025-08-31 |
-| 📦 **Latest release** | [v16.0.1](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.1) — 2026-11-19 |
+| 📦 **Latest release** | [v16.0.2](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.2) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 895.1 MB |
+| 💾 **Size** | 910.6 MB |
 | 🌐 **Website** | https://claude-mem.ai |
 
 ## 📦 Recent releases
 
+### [v16.0.2](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.2)
+<sub>2026-11-20 · today</sub>
+
+> **Critical fix**
+> - **An auto-update no longer deletes the plugin version a running Claude Code session was loaded from** (#6352, thanks @0xABCD01, closes #6349 reported by @justindrp). The cache sweep keeps a version folder while the Claude Code process recorded in its `.in_use` file is alive. On macOS and BSD, a few seconds of difference between the start time Claude Code recorded and the one `ps` reports was read as PID reuse, so the sweep deleted the folder from under a live session and every hook failed for the rest of that session. A start-time mismatch no longer removes the folder while the process at that PID is still Claude Code. A PID that now belongs to another program is still pruned as before.
+> - **Every cache prune now logs why and who.** The worker writes one log line per removed version with its reason (orphaned or superseded) and the `.in_use` records it rejected and why (process exited or start-time mismatch), so any removal can be traced from the log alone.
+> **Fixes**
+> - **The session-start card is drawn on Team and Enterprise accounts** (#6353, thanks @KeithMoc, closes #6314 reported by @TimoWestland). When an organization plugin runs first and the card's usual hooks never fire, the card now asks for itself from the `session.start` hook and the context hook answers it.
+> - **My Work detects OpenCode 2.x connections** (#6340, thanks @ZedingZhang, closes #6339 reported by @Realauster). The login probe reads OpenCode's JSON output, so a connected provider is no longer reported as logged out on OpenCode 2.3.2.
+> …
+
 ### [v16.0.1](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.1)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **Critical fixes**
 > - **Signing in to Codex works again on Windows while claude-mem runs** (#6332, thanks @ffe111, closes #6331). The private Codex home that claude-mem's app-server uses got its `auth.json` through a hard link to your real `~/.codex/auth.json`. Codex refuses to replace a credential file with more than one hard link (`persist_failed: atomic credential replacement does not support hard-linked files`), so `codex login` and token refresh failed for as long as that home existed. The private home now gets a symlink, which Codex follows. Only on Windows, and only when a symlink is not permitted (no Developer Mode or elevation), it gets a private copy instead. Any other error still fails loudly.
@@ -47,7 +58,7 @@
 > …
 
 ### [v16.0.0](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.0)
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **My Work puts what needs you first**
 > My Work, the page that shows what your agents are doing, was rebuilt from a full UI review (#6210, #6304). What needs you sits at the top, long lists fold, and every page works on a phone, by keyboard and with a screen reader.
@@ -58,7 +69,7 @@
 > …
 
 ### [v15.21.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.21.0)
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **claude-mem no longer turns off Claude Code's Code Mode**
 > - **Code Mode starts with claude-mem enabled** (#6278, thanks @naive000; reported in #6209 by @nasif-naseef). Code Mode (experimental, Claude Code 2.1.323 and later) refuses to start when a plugin's hooks module hooks `tool.call`. claude-mem's auto-clear mod did, so Code Mode was off for everyone with claude-mem enabled, even with auto-clear off. The mod now reads tool results through `session.append` instead. Auto-clear still works on every Claude Code version that runs mods (2.1.287 and later).
@@ -69,7 +80,7 @@
 > …
 
 ### [v15.20.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.20.0)
-<sub>2026-11-17 · 2d ago</sub>
+<sub>2026-11-17 · 3d ago</sub>
 
 > **Two critical fixes**
 > - **The worker starts when settings.json is not valid JSON** (#6259). The worker refused to start when `~/.claude-mem/settings.json` couldn't be parsed, even though the database already held the device identity it was trying to save there. Nothing was captured and no context was injected. It now logs a warning, leaves the file untouched, and starts. On a first start with no saved identity, the error names the file and says to repair or delete it.
@@ -79,31 +90,20 @@
 > - **Mem0 and Supermemory import acceptance fixes** (#6206): Supermemory `--documents` reruns no longer duplicate, and documents imported by 15.19.0 still count as already imported. Mem0 expiry includes its own date. Every import limit names its source; the unsourced 100 MiB total and 10,000-record default are gone (`--max-records` stays).
 > …
 
-### [v15.19.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.19.0)
-<sub>2026-11-16 · 4d ago</sub>
-
-> **Continue a Claude Code or Codex conversation from My Work**
-> Open a request in My Work, then open "Where this came from". Under each Claude Code or Codex conversation there is now a message box. Type a message and press Send, and that same conversation takes the turn. The reply shows right there (#6191; the command shapes follow @wiesenthal's answer code in #6054, and the commit credits him).
-> - Each conversation keeps the messages you sent from My Work and their replies, in order. Stop ends a running turn.
-> - The box says which folder the turn runs in. When the recorded folder no longer exists (common after a worktree is cleaned up), the turn runs in the nearest existing folder above it.
-> - "Copy resume command" copies `claude --resume <id>` or `codex resume <id>`. On a Mac, "Open in Claude" opens a Claude Code conversation in the Claude desktop app.
-> - One Send starts one headless resume (`claude --resume <id> -p --output-format json`, or `codex exec resume <id> - --skip-git-repo-check`) with your message on stdin. A failed turn is recorded as failed and never retried. Nothing is queued or saved for replay, and nothing starts at startup, on a timer or on reconnect.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [fix(chroma): reconcile ambiguous collection deletes before rebuilding…](https://github.com/thedotmack/claude-mem/commit/c0f37d60b2e4860851575e3cbb003f23fc340d4e) | POWDER-RANGER |
-| 2026-11-19 | [fix(chroma): restart chroma-mcp after a cancelled read once writes se…](https://github.com/thedotmack/claude-mem/commit/ec163d61d0a1e622482a85b8fc57ae5916667b98) | MaxWang007 |
-| 2026-11-19 | [fix(worker): install the terminal 404 and error handlers after routes…](https://github.com/thedotmack/claude-mem/commit/aa5fac5ad2a76b4f20500845d7768170a44e892e) | DeryFerd |
-| 2026-11-19 | [ci(windows): run the postinstall allowlist guard after the build (#6343)](https://github.com/thedotmack/claude-mem/commit/b0ebbb66a8317ff4a94d126a5cf0d531c7c709d0) | DeryFerd |
-| 2026-11-19 | [refactor(cli): read /api/admin/doctor once for the doctor report (#6344)](https://github.com/thedotmack/claude-mem/commit/53d9224208b877bf99ff444526e2e104798f270d) | DeryFerd |
-| 2026-11-19 | [test(worker): pin the Host guard ahead of CORS with a rebinding test …](https://github.com/thedotmack/claude-mem/commit/3025540a0919ba3f8afce4df81fe10b4ae12f1e6) | DeryFerd |
-| 2026-11-19 | [docs(devin): connect CMEM Pro on Devin cloud with one org secret (#6335)](https://github.com/thedotmack/claude-mem/commit/495433322319fa628846cef60c1450e740d1b8a3) | devin-ai-integration[bot] |
-| 2026-11-19 | [docs(docker): note the repo-root build context in the pinning example…](https://github.com/thedotmack/claude-mem/commit/4f60edd75a12cc4ae447aa0946497ea193d93da4) | DeryFerd |
-| 2026-11-19 | [fix(claude-md): resolve absolute paths before the project-root check …](https://github.com/thedotmack/claude-mem/commit/592a48716d6b5aa1341d58dba26e0522d50fc3cd) | LeviReisJs |
-| 2026-11-19 | [Show the Claude-Mem mark in the terminal startup card’s right column …](https://github.com/thedotmack/claude-mem/commit/4b48c5727ab62ee22e72a71b822a2fb225491fa2) | thedotmack |
+| 2026-11-20 | [fix(agent-runner): run the My Work OpenCode step on OpenCode 2.x (#6361)](https://github.com/thedotmack/claude-mem/commit/f1bb834527637231e23575e2a70c57375efdac04) | thedotmack |
+| 2026-11-20 | [chore: promote 16.0.2 for auto-update](https://github.com/thedotmack/claude-mem/commit/2eeda5052ff030711aa8ada22c65e5bdae8943fc) | thedotmack |
+| 2026-11-20 | [docs: update CHANGELOG for v16.0.2](https://github.com/thedotmack/claude-mem/commit/96658712bd46d0062eb19bbfb18723a364a9b0ef) | thedotmack |
+| 2026-11-20 | [test(transcripts): count the append poll's poke instead of racing its…](https://github.com/thedotmack/claude-mem/commit/1ba7227cab1147e423e4a1e70d2b4fcd96a754ee) | thedotmack |
+| 2026-11-20 | [chore: bump version to 16.0.2](https://github.com/thedotmack/claude-mem/commit/66688aa5e3c1d4386cb6f02c518cd3fba06f05b4) | thedotmack |
+| 2026-11-20 | [fix(prune): keep a cache version while its recorded Claude process is…](https://github.com/thedotmack/claude-mem/commit/ea1cfde657d6796bfa6c5d7de9d1e4570c3290eb) | 0xABCD01 |
+| 2026-11-20 | [fix(npx-cli): give the async host-observer probe the same 1s budget a…](https://github.com/thedotmack/claude-mem/commit/e469a8cd5405c29eb39e2de8dcb3f63c096f1263) | rtmalikian |
+| 2026-11-20 | [fix(my-work): prefer MXC for isolated Codex refresh on Windows (#6348)](https://github.com/thedotmack/claude-mem/commit/0ce495b0371caf2f0f1ca3fb0531efa0417d8723) | QuantScorpus |
+| 2026-11-20 | [fix(session-start-card): draw the card on Team and Enterprise account…](https://github.com/thedotmack/claude-mem/commit/a34ce9890be418eb6b0b4eb1235d13e968e3408a) | KeithMoc |
+| 2026-11-20 | [fix: detect OpenCode 2.x connections for My Work refresh (#6340)](https://github.com/thedotmack/claude-mem/commit/f52388ef75c2ba4ee684b507c3fd7ad502cfab56) | ZedingZhang |
 
 [See all commits ↗](https://github.com/thedotmack/claude-mem/commits)
 

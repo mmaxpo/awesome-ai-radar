@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 188.1k |
 | 🍴 **Forks** | 45.8k |
-| 🐞 **Open issues + PRs** | [777](https://github.com/Significant-Gravitas/AutoGPT/issues) |
+| 🐞 **Open issues + PRs** | [786](https://github.com/Significant-Gravitas/AutoGPT/issues) |
 | 💻 **Languages** | Python 68% · TypeScript 31% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `openai` `python` `artificial-intelligence` `autonomous-agents` `llama-api` `agentic-ai` `agents` `llm` `claude` `gpt` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-03-16 |
 | 📦 **Latest release** | [autogpt-platform-beta-v0.12.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.12.0) — 2026-11-19 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 665.6 MB |
+| 💾 **Size** | 663.4 MB |
 | 🌐 **Website** | https://agpt.co |
 
 ## 📦 Recent releases
@@ -38,10 +38,10 @@
 ### [preview-seed-fixture](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture) — Preview seed fixture (rolling) _(pre-release)_
 <sub>2026-08-06 · 3mo ago</sub>
 
-> Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@9c2d9e1a523b (migration head: 20261112120000_account_deletion_confirmation_skipped). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so schema changes run against populated tables. RESTORE: apply restore-preamble.sql to the target database first (it creates the platform schema and installs the vector + pg_trgm extensions into it, which pg_dump --schema=platform omits), then run 'gunzip -c fixture.dump.gz | pg_restore -d <db> --no-owner' WITHOUT --exit-on-error (the dump's own CREATE SCHEMA collides benignly with the preamble's). SECURITY INVARIANT: this bake holds no cloud credentials and has no read path to any real database — it runs entirely against a throwaway Postgres container and contains only synthetic rows (Faker-generated, plus the hand-written preview marketplace) and the already-public marketplace agent exports checked into autogpt_platform/backend/agents/. This asset is regenerated on every eligible dev push and weekly; treat it as disposable.
+> Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@10ddacffc54f (migration head: 20261120120000_add_onboarding_wizard_writer). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so schema changes run against populated tables. RESTORE: apply restore-preamble.sql to the target database first (it creates the platform schema and installs the vector + pg_trgm extensions into it, which pg_dump --schema=platform omits), then run 'gunzip -c fixture.dump.gz | pg_restore -d <db> --no-owner' WITHOUT --exit-on-error (the dump's own CREATE SCHEMA collides benignly with the preamble's). SECURITY INVARIANT: this bake holds no cloud credentials and has no read path to any real database — it runs entirely against a throwaway Postgres container and contains only synthetic rows (Faker-generated, plus the hand-written preview marketplace) and the already-public marketplace agent exports checked into autogpt_platform/backend/agents/. This asset is regenerated on every eligible dev push and weekly; treat it as disposable.
 
 ### [autogpt-platform-beta-v0.12.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.12.0) — 🚀 AutoGPT Platform v0.12.0
-<sub>2026-11-19 · today</sub>
+<sub>2026-11-19 · yesterday</sub>
 
 > **⚠️ Breaking change**
 > **The frontend no longer reads `TRUST_X_FORWARDED_FOR`** (#16530, @Pwuts). A self-hosted frontend that set it by hand gets no client IP from `X-Forwarded-For` for the sign-in IP log, IP blocks and per-visitor store search until `TRUSTED_PROXIES` lists the proxy in front of it. The single-container image and Vercel need nothing.
@@ -52,7 +52,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.3](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.3)
-<sub>2026-11-15 · 5d ago</sub>
+<sub>2026-11-15 · 6d ago</sub>
 
 > **🚀 Release `autogpt-platform-beta-v0.11.3`**
 > **Date:** November 15, 2026
@@ -63,7 +63,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.2](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2)
-<sub>2026-11-11 · 8d ago</sub>
+<sub>2026-11-11 · 9d ago</sub>
 
 > **🚀 Release `autogpt-platform-beta-v0.11.2`**
 > **Date:** January 2025
@@ -74,7 +74,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.1](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.1) — 🚀 AutoGPT Platform v0.11.1
-<sub>2026-11-06 · 14d ago</sub>
+<sub>2026-11-06 · 15d ago</sub>
 
 > **🔥 What's New?**
 > **⚠️ Breaking Changes**
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [fix(frontend/copilot): take the send intent from the app, not the URL](https://github.com/Significant-Gravitas/AutoGPT/commit/dd0b5f73266ea5f3dfab37ebccd93049af58e106) | Pwuts |
+| 2026-11-20 | [fix(platform): require an http(s) sign-in URL in the MCP OAuth flow](https://github.com/Significant-Gravitas/AutoGPT/commit/51e0547fcdb9c8307dd103f8063a3998f952e356) | Pwuts |
+| 2026-11-20 | [fix(backend/executor): sub-graph runs use only the input masks of the…](https://github.com/Significant-Gravitas/AutoGPT/commit/41035ea2a14c71468f32d7ff7bc724be8703fb25) | Pwuts |
+| 2026-11-20 | [fix(backend/executor): end a stopped Orchestrator's tool loop, and ru…](https://github.com/Significant-Gravitas/AutoGPT/commit/ef10f1acdf0d3b3e3435ec7eee394acac26858fc) | Pwuts |
+| 2026-11-20 | [fix(blocks): route the Orchestrator CLI's model calls through a loopb…](https://github.com/Significant-Gravitas/AutoGPT/commit/1c5aec63c2ad404bb34f8ef60e9c5c54c2b3e486) | Pwuts |
+| 2026-11-20 | [fix(backend/copilot): open the URL the browser host check returned](https://github.com/Significant-Gravitas/AutoGPT/commit/56b80deb4cd1341bad7db779bc513f6d14bb2d6c) | Pwuts |
+| 2026-11-20 | [fix(frontend/auth): send every password reset link back to the reset …](https://github.com/Significant-Gravitas/AutoGPT/commit/74ff1298896fdb190737f1010c70651c804a9489) | Pwuts |
 | 2026-11-19 | [feat(frontend): measure send-to-answer timing in chat (#15541)](https://github.com/Significant-Gravitas/AutoGPT/commit/eda70873cde1d9cb0b720bdcac8983d62f0f8d25) | ntindle |
 | 2026-11-19 | [ci(platform): harden release jobs, attest images and review new depen…](https://github.com/Significant-Gravitas/AutoGPT/commit/6a42315fec58ad499f3670e3aee349a61fb3d194) | ntindle |
 | 2026-11-19 | [feat(platform): connect services from the mobile app chat (#16923)](https://github.com/Significant-Gravitas/AutoGPT/commit/b217f800f13f27bb0fd73d7e5683c997ac4f2939) | 0ubbe |
-| 2026-11-19 | [feat(backend): measure first answer timing separately from model acti…](https://github.com/Significant-Gravitas/AutoGPT/commit/2adcd0b5a9ccc8850548ce5abbd6d05eaa867771) | ntindle |
-| 2026-11-19 | [feat(frontend/copilot): send again a message the chat couldn't confir…](https://github.com/Significant-Gravitas/AutoGPT/commit/58d903c2bb584d9f936acab68057f55e783a17ba) | ntindle |
-| 2026-11-19 | [feat(platform): turn the mobile chat input's mic into a recording orb…](https://github.com/Significant-Gravitas/AutoGPT/commit/c9f593da688c70b24f3a23f0cdb23cdfee829f8d) | 0ubbe |
-| 2026-11-19 | [fix(frontend): prevent translation extensions from breaking suggested…](https://github.com/Significant-Gravitas/AutoGPT/commit/bd04f550aab1e89cb556e6e240f675a974d8d492) | sentry[bot] |
-| 2026-11-19 | [fix(frontend): save the builder graph from one loaded snapshot after …](https://github.com/Significant-Gravitas/AutoGPT/commit/c055303d9681a14db2974cb7ec45f264e8fe683f) | ntindle |
-| 2026-11-19 | [feat(platform): a provider joins an existing account only for its own…](https://github.com/Significant-Gravitas/AutoGPT/commit/36474d67a4e248a4c6379042184fd89b4fce76ed) | ntindle |
-| 2026-11-19 | [fix(backend/copilot): tell Otto a refused tool call did not happen (#…](https://github.com/Significant-Gravitas/AutoGPT/commit/8d9dc278063c0820646d333c79e30d82387cb3f1) | kcze |
 
 [See all commits ↗](https://github.com/Significant-Gravitas/AutoGPT/commits)
 

@@ -20,33 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 95.4k |
+| ⭐ **Stars** | 95.5k |
 | 🍴 **Forks** | 11.8k |
 | 🐞 **Open issues + PRs** | [3.1k](https://github.com/zed-industries/zed/issues) |
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `text-editor` `zed` `gpui` `rust-lang` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2021-02-20 |
-| 📦 **Latest release** | [v1.29.2](https://github.com/zed-industries/zed/releases/tag/v1.29.2) — 2026-11-18 |
+| 📦 **Latest release** | [v1.29.3](https://github.com/zed-industries/zed/releases/tag/v1.29.3) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 544.9 MB |
+| 💾 **Size** | 545.8 MB |
 | 🌐 **Website** | https://zed.dev |
 
 ## 📦 Recent releases
 
+### [v1.30.2-pre](https://github.com/zed-industries/zed/releases/tag/v1.30.2-pre) _(pre-release)_
+<sub>2026-11-20 · today</sub>
+
+> - Fixed prompt caching for reusable OpenAI system instructions on GPT-6.2 and later. ([#67253](https://github.com/zed-industries/zed/pull/67253))
+> - Fixed Text Finder showing results from the previous query when a search found no matches. ([#67188](https://github.com/zed-industries/zed/pull/67188))
+
+### [v1.29.3](https://github.com/zed-industries/zed/releases/tag/v1.29.3)
+<sub>2026-11-20 · today</sub>
+
+> - Fixed prompt caching for reusable OpenAI system instructions on GPT-6.2 and later. ([#67252](https://github.com/zed-industries/zed/pull/67252))
+> - Fixed Text Finder showing results from the previous query when a search found no matches. ([#67189](https://github.com/zed-industries/zed/pull/67189))
+
 ### [v1.30.1-pre](https://github.com/zed-industries/zed/releases/tag/v1.30.1-pre) _(pre-release)_
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > - Added an official Snap package for Linux ([#67163](https://github.com/zed-industries/zed/pull/67163))
 
 ### [v1.29.2](https://github.com/zed-industries/zed/releases/tag/v1.29.2)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > - Added an official Snap package for Linux ([#67164](https://github.com/zed-industries/zed/pull/67164))
 
 ### [v1.29.1](https://github.com/zed-industries/zed/releases/tag/v1.29.1)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > This week's release includes a Git Panel branch mode that lists every file changed since a base branch, a bookmark picker, configurable Git date formats, support for Claude Fable 5.2 for Anthropic BYOK users (plus Claude Mythos 5.2 if your organization has access), and a setting to turn off automatic agent thread titles.
 > **Features**
@@ -56,42 +68,20 @@
 > - Improved the copy button on agent responses to briefly show a checkmark confirming the copy. ([#64664](https://github.com/zed-industries/zed/pull/64664); thanks [itsfuad](https://github.com/itsfuad))
 > …
 
-### [v1.30.0-pre](https://github.com/zed-industries/zed/releases/tag/v1.30.0-pre) _(pre-release)_
-<sub>2026-11-18 · yesterday</sub>
-
-> This week's release includes reduced GPU usage across the app, a model picker for AI commit message generation in the Git Panel, a setting to hide the title bar, support for GPT-6.1 Terra, and faster scanning of large projects.
-> **Features**
-> **AI**
-> - Added support for GPT-6.1 Terra to the OpenAI provider. ([#66659](https://github.com/zed-industries/zed/pull/66659); thanks [nymo](https://github.com/nymo))
-> - Added keyboard navigation to the agent thread switcher (opened with `ctrl-tab` from the Agent Panel or Threads Sidebar): `up` / `down`, `ctrl-n` / `ctrl-p`, and `home` / `end` move the selection, as do `ctrl-up` / `ctrl-down` while `ctrl` is still held. ([#66951](https://github.com/zed-industries/zed/pull/66951); thanks [kinoute](https://github.com/kinoute))
-> - Added support for the Extra High thinking effort level for Gemini 4 Hydrogen (`gemini-4-hydrogen`), which now defaults to High. ([#67011](https://github.com/zed-industries/zed/pull/67011); thanks [LorenzoBiassio](https://github.com/LorenzoBiassio))
-> …
-
-### [v1.28.1](https://github.com/zed-industries/zed/releases/tag/v1.28.1)
-<sub>2026-11-11 · 8d ago</sub>
-
-> This week's release includes optional automatic Git fetching, a resizable Refs column in the Git Graph, dragging Git Panel files into terminals and editors, and mouse-wheel font zoom in diff views and terminals.
-> **Features**
-> **AI**
-> - Added an `edit_predictions.button` setting to toggle the edit prediction button in the status bar. ([#66450](https://github.com/zed-industries/zed/pull/66450); thanks [z0al](https://github.com/z0al))
-> - Improved compatibility with the latest Agent Client Protocol, including handling of missing sessions, plan updates, diff formats, and cancellation of permission requests. ([#66425](https://github.com/zed-industries/zed/pull/66425))
-> - Improved the Agent's `read_file` tool output by truncating lines longer than 2,000 characters to prevent context window overflow. ([#65395](https://github.com/zed-industries/zed/pull/65395); thanks [Antphar](https://github.com/Antphar))
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [Show external agent authentication status in the Agent Panel (#67243)](https://github.com/zed-industries/zed/commit/a65e743ad90acb184f86ec87b67bb82076105417) | benbrandt |
-| 2026-11-20 | [Use Anthropic capability metadata and update model compatibility (#67…](https://github.com/zed-industries/zed/commit/ad1058d78d802f2fa857dee20aa2f5e123ef1ece) | bennetbo |
-| 2026-11-20 | [worktree: Do less work while scan_dir holds the state lock (#67226)](https://github.com/zed-industries/zed/commit/87e6a02e1e4624a2ede355d457d513142af08cde) | ptweezy |
-| 2026-11-20 | [Remove dead code and redundant checks in workspace, search, terminal,…](https://github.com/zed-industries/zed/commit/87da03ad3f7272f5258f3d1b7d638a3fc98ea555) | ptweezy |
-| 2026-11-19 | [editor: Remove dead code and redundant checks (#67217)](https://github.com/zed-industries/zed/commit/7279c76ef71d45504d7cfea00ee054f852ca0fbf) | ptweezy |
-| 2026-11-19 | [Remove dead code and redundant checks in agent and language model cra…](https://github.com/zed-industries/zed/commit/4e2c957a6d998e231eb2c09b45cbea35cf585a52) | ptweezy |
-| 2026-11-19 | [Fix TypeScript and TSX type highlighting (#64462)](https://github.com/zed-industries/zed/commit/a246423a3b24a08e0d0c8574eab3a9de422747e0) | mchisolm0 |
-| 2026-11-19 | [project: Remove dead code and redundant checks (#67200)](https://github.com/zed-industries/zed/commit/d5615304a1acd9573951aaf462bb46450b1b710b) | ptweezy |
-| 2026-11-19 | [Remove dead code and no-op options from UI components (#67201)](https://github.com/zed-industries/zed/commit/5a0e9521f6e0b5c92285ea5fc851bcaecce1f885) | ptweezy |
-| 2026-11-19 | [Remove dead code and stale lint suppressions in infrastructure crates…](https://github.com/zed-industries/zed/commit/925ee76e1ba1988bd7fd3f1c942f007fd439b6f2) | ptweezy |
+| 2026-11-21 | [text: Resolve min and max anchors without walking the rope (#67280)](https://github.com/zed-industries/zed/commit/2f808b3c2de049ecfdbad0fdb26763cebfcaa3b4) | ptweezy |
+| 2026-11-21 | [terminal_view: Memoize the minimum contrast check per color pair (#67…](https://github.com/zed-industries/zed/commit/167f53b58f005516b3904fe6a75013d8658d5d03) | ptweezy |
+| 2026-11-20 | [Wire up crates.io client in GPUI publishing xtask (#67278)](https://github.com/zed-industries/zed/commit/4f5e323e25e4eaf141483c011ba159ea54063b77) | MrSubidubi |
+| 2026-11-20 | [Unify git merge URL, both for command and output toast action (#66408)](https://github.com/zed-industries/zed/commit/852edce6f804961f6f6176be3a62665b9df00504) | HannesGitH |
+| 2026-11-20 | [component: Remove no-op grow and vertical options (#67220)](https://github.com/zed-industries/zed/commit/54fff2ff5b2f9fdbe1b99c0c2566e15dcb6cfcb9) | ptweezy |
+| 2026-11-20 | [Bump bundled macOS git to 2.56.1 and verify its checksum (#67264)](https://github.com/zed-industries/zed/commit/34639504475cef1677149ad351b3788a89dba865) | SomeoneToIgnore |
+| 2026-11-20 | [Remove actions that do nothing (#67227)](https://github.com/zed-industries/zed/commit/0a514d7ef59c6357878a244fdf8365d03c504767) | ptweezy |
+| 2026-11-20 | [Remove write-only fields and dead test plumbing (#67228)](https://github.com/zed-industries/zed/commit/a68d67e0580460cc8806cc7d27b6e1adbc29f27c) | ptweezy |
+| 2026-11-20 | [Preserve prompt caching for OpenAI Responses (#67245)](https://github.com/zed-industries/zed/commit/10d1b2a564604dba7b8f05b157b7f9e8ed35255b) | bennetbo |
+| 2026-11-20 | [crates_io_client: Add `team_id` query parameter and basic logging (#6…](https://github.com/zed-industries/zed/commit/46d97170084bfc5516e5e2a9058ff8d390343c4b) | MrSubidubi |
 
 [See all commits ↗](https://github.com/zed-industries/zed/commits)
 

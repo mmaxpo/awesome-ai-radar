@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 2.8k |
 | 🍴 **Forks** | 148 |
-| 🐞 **Open issues + PRs** | [33](https://github.com/snownico0722/PaperTodo/issues) |
+| 🐞 **Open issues + PRs** | [34](https://github.com/snownico0722/PaperTodo/issues) |
 | 💻 **Languages** | C# 92% · C 6% · JavaScript 1% · HTML 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `avalonedit` `csharp` `markdown` `minimalist` `notes` `todo` `windows` `wpf` `desktop` `note-taking` `productivity` `sticky-notes` |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-19 (yesterday) |
 | 📅 **Created** | 2026-05-27 |
 | 📦 **Latest release** | [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v4.0.0-beta2](https://github.com/snownico0722/PaperTodo/releases/tag/v4.0.0-beta2) — PaperTodo v4.0.0-beta2 _(pre-release)_
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > 这是一个测试版，可能存在很多问题、bug。
 > This is a beta version; it may contain many issues and bugs.
@@ -79,7 +79,7 @@
 > …
 
 ### [v3.3](https://github.com/snownico0722/PaperTodo/releases/tag/v3.3) — PaperTodo v3.3
-<sub>2026-08-23 · 2mo ago</sub>
+<sub>2026-08-23 · 3mo ago</sub>
 
 > <details>
 > <summary>简体中文更新日志</summary>

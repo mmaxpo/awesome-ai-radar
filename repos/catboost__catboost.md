@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 9.2k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [760](https://github.com/catboost/catboost/issues) |
+| 🐞 **Open issues + PRs** | [761](https://github.com/catboost/catboost/issues) |
 | 💻 **Languages** | C++ 78% · Python 11% · Cuda 3% · CMake 3% · Scala 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `decision-trees` `gradient-boosting` `gbm` `gbdt` `python` `r` `kaggle` `gpu-computing` `catboost` `tutorial` `categorical-features` `gpu` `coreml` `data-science` `big-data` `cuda` `data-mining` |
@@ -90,6 +90,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [MVS: branchless partition in CalculateThreshold](https://github.com/catboost/catboost/commit/b7f986a16ac27245e18fde70d2a4e82d93f96dc6) | ArseniyVarlamov |
+| 2026-11-20 | [[util] Recognize Xtensa in platform detection](https://github.com/catboost/catboost/commit/b0f9e5021ded8f951ea7c1d4b59e2caa2c8d2f56) | blokhtin |
 | 2026-11-20 | [CatBoost: add AVX2/AVX512 inference kernels and tuned leaf prefetch](https://github.com/catboost/catboost/commit/b10928e807a7c12e8c31135b9ac2fb68f05c5e9d) | don-dron |
 | 2026-11-20 | [Intermediate changes](https://github.com/catboost/catboost/commit/6ea13a8acc92fd7c5527f07ece5f8a52708cf14f) | robot-piglet |
 | 2026-11-20 | [Revert commit rXXXXXX, Enable supplier-owned Cython tools by default](https://github.com/catboost/catboost/commit/844c298ac8711aaa0d01c5c54b381ba53276ab20) | VestniK |
@@ -98,8 +100,6 @@
 | 2026-11-19 | [feat contrib/protobuf: Polish perfomance of `TextFormat::Printer::Print`](https://github.com/catboost/catboost/commit/748b5bb36a06809a8aa4f92892d7202dfc7733d6) | kpavlov00 |
 | 2026-11-19 | [Intermediate changes](https://github.com/catboost/catboost/commit/dfbf01a35650b0133f759e16e6251af04e97c575) | robot-piglet |
 | 2026-11-18 | [. Microsoft Visual Studio 2019 C++ build tools versions v14.28 - 16.x…](https://github.com/catboost/catboost/commit/40cbf3862e623b28d72e7b2f33fc6346f5972d76) | andrey-khropov |
-| 2026-11-18 | [Intermediate changes](https://github.com/catboost/catboost/commit/8ca2402e60bcd5f5833a1f2f3767b8b2412a9f42) | robot-piglet |
-| 2026-11-18 | [StringSplitter: add unittest with split by C-string](https://github.com/catboost/catboost/commit/6a4c439b17c99a4f65aa7fa043fa151e675ca341) | ubyte |
 
 [See all commits ↗](https://github.com/catboost/catboost/commits)
 

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `image-annotation` `python` `computer-vision` `annotations` `deep-learning` `semantic-segmentation` `instance-segmentation` `video-annotation` `classification` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-20 (yesterday) |
 | 📅 **Created** | 2016-05-09 |
 | 📦 **Latest release** | [v7.11.0](https://github.com/wkentaro/labelme/releases/tag/v7.11.0) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v7.11.0](https://github.com/wkentaro/labelme/releases/tag/v7.11.0)
-<sub>2026-11-14 · 6d ago</sub>
+<sub>2026-11-14 · 7d ago</sub>
 
 > **Changed**
 > - SAM 3 asks to be downloaded again, as 1.8 GB on a GPU or 3.7 GB on the CPU, and asks again for its CPU files when AI falls back to the CPU. Its files from earlier versions stay on disk. ([#3099](https://github.com/wkentaro/labelme/pull/3099))
@@ -47,7 +47,7 @@
 > …
 
 ### [v7.10.0](https://github.com/wkentaro/labelme/releases/tag/v7.10.0)
-<sub>2026-11-13 · 7d ago</sub>
+<sub>2026-11-13 · 8d ago</sub>
 
 > **Added**
 > - Allow drawing Polygon and LineStrip paths by dragging, simplifying strokes into fewer vertices while preserving click-to-add input. ([#2757](https://github.com/wkentaro/labelme/pull/2757))
@@ -58,7 +58,7 @@
 > …
 
 ### [v7.9.1](https://github.com/wkentaro/labelme/releases/tag/v7.9.1)
-<sub>2026-10-25 · 26d ago</sub>
+<sub>2026-10-25 · 27d ago</sub>
 
 > **Fixed**
 > - Fix a point dragged inside a box being lost on image switch, because the move was never saved or added to undo history. ([#2845](https://github.com/wkentaro/labelme/pull/2845))

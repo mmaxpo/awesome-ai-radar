@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 42.5k |
+| ⭐ **Stars** | 42.6k |
 | 🍴 **Forks** | 3.5k |
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/volcengine/OpenViking/issues) |
 | 💻 **Languages** | Python 61% · TypeScript 18% · Rust 10% · JavaScript 4% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 427.3 MB |
+| 💾 **Size** | 431.3 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
 ### [openviking-superagent@0.5.5-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.5-preview) — OpenViking SuperAgent 0.5.5-preview _(pre-release)_
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -47,7 +47,7 @@
 > …
 
 ### [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — @openviking/react 0.2.0
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **en-US**
 > **Minor Changes**
@@ -58,7 +58,7 @@
 > …
 
 ### [react@0.1.14](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.14) — @openviking/react 0.1.14
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **en-US**
 > **Minor Changes**
@@ -69,7 +69,7 @@
 > …
 
 ### [openviking-superagent@0.5.4-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.4-preview) — OpenViking SuperAgent 0.5.4-preview _(pre-release)_
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -80,7 +80,7 @@
 > …
 
 ### [react@0.1.13](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.13) — @openviking/react 0.1.13
-<sub>2026-11-16 · 3d ago</sub>
+<sub>2026-11-16 · 4d ago</sub>
 
 > **en-US**
 > **Patch Changes**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [fix(compile): preserve baseline when output is unchanged (#8109)](https://github.com/volcengine/OpenViking/commit/9fd2e02e222cd3ca9b70288d7f80f1ca93dcc8d7) | FuJiaJie123 |
-| 2026-11-20 | [fix(react): show compact command names in ov help (#8099)](https://github.com/volcengine/OpenViking/commit/8a19e6b04d3bf0a3daa766febfe699b41de9f8d6) | yufeng201 |
-| 2026-11-20 | [fix(react): align directory tour presets and themed artwork (#8101)](https://github.com/volcengine/OpenViking/commit/fc16795d17c242d729f96abe42cdcaf9927e71b7) | leowld |
-| 2026-11-20 | [fix(react): align terminal quick actions (#8096)](https://github.com/volcengine/OpenViking/commit/22f4ff6513b4a1aec75ded1c75a8cc883c717340) | yufeng201 |
-| 2026-11-20 | [fix(react): correct search scopes and VikingBot tool colors (#8098)](https://github.com/volcengine/OpenViking/commit/4a0e0fb383e3d7dbc346a2dd65f36cd7edada722) | leowld |
-| 2026-11-20 | [fix(react): preserve raw FileBrowser tree names (#8100)](https://github.com/volcengine/OpenViking/commit/72d8e488346d85c154e9c16a6b37cf307940716f) | yufeng201 |
-| 2026-11-20 | [fix(compile): settle exhausted submission retries (#8097)](https://github.com/volcengine/OpenViking/commit/e1f7405952504ffddc57607d9bdfc3f825e5f042) | FuJiaJie123 |
-| 2026-11-20 | [fix(react): align preview copy feedback and AgentConnect scrolling (#…](https://github.com/volcengine/OpenViking/commit/ced8e8e6139b45ad77b989be849677a366f6c94e) | leowld |
-| 2026-11-20 | [Feat/ls tree file uri (#8071)](https://github.com/volcengine/OpenViking/commit/f62a34de18bd8de67ffbedd836fa9dddb054bf92) | zhoujh01 |
-| 2026-11-20 | [fix(react): restore VikingBot session commit status (#8089)](https://github.com/volcengine/OpenViking/commit/6f0db1f484aa33e9d85358db01ee3d2dc2972784) | yufeng201 |
+| 2026-11-21 | [fix(react): refresh preview permissions with file tree (#8156)](https://github.com/volcengine/OpenViking/commit/000f0765d7ec183886fbabbc22e69bc289cc429d) | leowld |
+| 2026-11-21 | [fix(react): clarify recurring weekly compilation schedules (#8125)](https://github.com/volcengine/OpenViking/commit/6454707105d6ad98205b0bd23c46944bde9e1e53) | leowld |
+| 2026-11-21 | [fix(react): keep VikingBot tool icons neutral after sending (#8132)](https://github.com/volcengine/OpenViking/commit/217b663b7537303dcf0f36a81a7df4fdf10ce95e) | leowld |
+| 2026-11-21 | [fix(react): restrict ovpack export to directories (#8139)](https://github.com/volcengine/OpenViking/commit/8a3b133b22ff4cde1334e5257af313dcfa58638e) | leowld |
+| 2026-11-21 | [fix(react): distinguish compile and experience dashboard colors (#8152)](https://github.com/volcengine/OpenViking/commit/5949a04cf36b4e105d0723a70fef2f9739a752de) | leowld |
+| 2026-11-21 | [fix(acl): reject principals outside the resource account (#8117)](https://github.com/volcengine/OpenViking/commit/8d4daaae5819821bbcf18e6b0d8ea6c313a86e58) | xixi-box |
+| 2026-11-21 | [fix(crypto): reject malformed local root key files (#8126)](https://github.com/volcengine/OpenViking/commit/a0c00a4fd8bbb7997dad5ef54f20e3b02ebc3b6b) | Kiko0301 |
+| 2026-11-21 | [fix(react): only offer ovpack export for directories (#8141)](https://github.com/volcengine/OpenViking/commit/cfc32d6cf18194471fea53082b127e9e802e07a2) | leowld |
+| 2026-11-21 | [fix(react): keep ACL search placeholder stable (#8140)](https://github.com/volcengine/OpenViking/commit/3e3fd930d18b2e5b10f8e4e20d2bd3fc4f2de3c5) | leowld |
+| 2026-11-21 | [feat(react): allow hiding denied FileBrowser entries (#8136)](https://github.com/volcengine/OpenViking/commit/f5066cf5bf4277c79109a33ecdcc714fa0b2824a) | leowld |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

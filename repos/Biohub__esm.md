@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 3.0k |
 | 🍴 **Forks** | 408 |
-| 🐞 **Open issues + PRs** | [82](https://github.com/Biohub/esm/issues) |
+| 🐞 **Open issues + PRs** | [83](https://github.com/Biohub/esm/issues) |
 | 💻 **Languages** | Jupyter Notebook 55% · Python 44% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
@@ -33,7 +33,7 @@
 ## 📦 Recent releases
 
 ### [v3.5.0](https://github.com/Biohub/esm/releases/tag/v3.5.0)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > * Improvement of "fused" mode which is now 2X+ faster than baseline
 > * Introduced "fast" mode which is ~7X faster than baseline
@@ -41,13 +41,13 @@
 > * Various small fixes
 
 ### [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3)
-<sub>2026-11-09 · 10d ago</sub>
+<sub>2026-11-09 · 11d ago</sub>
 
 > * bug fixes
 > * bump transformers version to >= 5.16
 
 ### [v3.4.2](https://github.com/Biohub/esm/releases/tag/v3.4.2)
-<sub>2026-10-30 · 21d ago</sub>
+<sub>2026-10-30 · 22d ago</sub>
 
 > - Added the Batch API (`ForgeBatchClient`) for folding, plus max-accuracy folding with ESMFold2 Pro (see `cookbook/snippets/batch.md` and `cookbook/snippets/fold_max_accuracy.md`)
 > - Released the 2025-cutoff ESMFold2 model
@@ -79,6 +79,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [Update docs (#433)](https://github.com/Biohub/esm/commit/d49ee4606ea4a95a8bc7388171a6e21fefdf1c26) | faustomilletari |
 | 2026-11-18 | [Sync OSS esm 3.5.0 (#432)](https://github.com/Biohub/esm/commit/42fc6babbfe499aeb42beaba232376d4e811bd71) | faustomilletari |
 | 2026-11-09 | [Bump version to 3.4.3 (#428)](https://github.com/Biohub/esm/commit/fddac936fc921445da2d099a3e4f7ae928717292) | faustomilletari |
 | 2026-11-06 | [Various improvements 2026-11-06 (#427)](https://github.com/Biohub/esm/commit/90d6497a546bb55929c2d3ca2e313d4613ec1922) | faustomilletari |
@@ -88,7 +89,6 @@
 | 2026-09-03 | [OSS esm 3.4.1](https://github.com/Biohub/esm/commit/bf343ba264b650dff7a073643725f9aaa1fdbe8d) | faustomilletari |
 | 2026-08-27 | [Make v3.4.0 publishable to PyPI (#390)](https://github.com/Biohub/esm/commit/827ec128e4cdaf80f7d6f95fb367a08980b34918) | ebetica |
 | 2026-08-27 | [Remove mentions of installing from main (#389)](https://github.com/Biohub/esm/commit/912e9fcab19d266c4513aee98483a73571d85362) | ebetica |
-| 2026-08-27 | [sync 20260825 (#386)](https://github.com/Biohub/esm/commit/ab44d95db38db90c584f18433462c5213338c118) | faustomilletari |
 
 [See all commits ↗](https://github.com/Biohub/esm/commits)
 

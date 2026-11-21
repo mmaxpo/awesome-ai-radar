@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 4.0k |
-| 🍴 **Forks** | 412 |
-| 🐞 **Open issues + PRs** | [30](https://github.com/cosmicstack-labs/mercury-agent/issues) |
-| 💻 **Languages** | TypeScript 69% · Kotlin 11% · Swift 10% · Rust 4% · MDX 3% |
+| ⭐ **Stars** | 4.1k |
+| 🍴 **Forks** | 414 |
+| 🐞 **Open issues + PRs** | [31](https://github.com/cosmicstack-labs/mercury-agent/issues) |
+| 💻 **Languages** | TypeScript 68% · Kotlin 11% · Swift 10% · Rust 4% · MDX 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `ai-assistant` `llm` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-04-20 |
 | 📦 **Latest release** | [v1.5.4](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.4) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 65.1 MB |
+| 💾 **Size** | 67.5 MB |
 | 🌐 **Website** | https://mercuryagent.sh/ |
 
 ## 📦 Recent releases
 
 ### [v1.5.4](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.4) — Mercury v1.5.4
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **☿ Mercury Agent v1.5.4**
 > Set up voice from your phone, and fewer approval prompts.
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.5.3](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.3) — Mercury v1.5.3
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **☿ Mercury Agent v1.5.3**
 > Ready for Mercury on your phone, Google Workspace in one command, and bots that can't be steered by what they read.
@@ -58,14 +58,14 @@
 > …
 
 ### [optimus-v0.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2) — Optimus 0.5.2
-<sub>2026-11-14 · 6d ago</sub>
+<sub>2026-11-14 · 7d ago</sub>
 
 > Plugin-only update. Install or update with `/plugins update optimus`, or **Plugins → Optimus → Update** in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per model needs Mercury 1.5.2.
 > - **Screenshots sized for the model in use.** Optimus resizes each capture to what the model reads best: Claude and OpenAI 1024×640, Gemini 768×480, open vision models 896×560. Click coordinates stay exact.
 > - **No screenshot for models that can't see images.** Optimus says which window is in front instead of sending a picture the model can't read.
 
 ### [v1.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.2) — Mercury v1.5.2
-<sub>2026-11-12 · 7d ago</sub>
+<sub>2026-11-12 · 8d ago</sub>
 
 > **☿ Mercury Agent v1.5.2**
 > Watch your bots work live, approve things one at a time, and get complex jobs done properly. Chats run at the same time, memory keeps one copy of each thing, and text Mercury reads can't steer it.
@@ -76,7 +76,7 @@
 > …
 
 ### [v1.5.1](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.1) — Mercury v1.5.1
-<sub>2026-11-03 · 16d ago</sub>
+<sub>2026-11-03 · 17d ago</sub>
 
 > **☿ Mercury Agent v1.5.1**
 > Reading aloud and voice typing now use the voice you chose, Gemini included, and the Optimus update button tells you what it did.
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/35a6a57e1ea72e09abc4b8640a1db97368ebd24f) | mercuryagent |
-| 2026-11-19 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/128b2dfca0ad2ed7ba67186ca4464bdac49f87fa) | mercuryagent |
-| 2026-11-19 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/017d0a4e70fef1443cbd31d37388897f5acfec9c) | mercuryagent |
-| 2026-11-19 | [Merge feat/desktop-live-dictation: phone apps, calls from Mercury, li…](https://github.com/cosmicstack-labs/mercury-agent/commit/16ca90b49a46fb1b9521c181511b5307a209abb6) | hotheadhacker |
-| 2026-11-19 | [feat(android): create, edit and manage bots from the phone](https://github.com/cosmicstack-labs/mercury-agent/commit/20b3628da914ddb9f165db75a53d566bbba58fd2) | hotheadhacker |
-| 2026-11-19 | [feat(android): bot forms, schedules in words and the make/edit/manage…](https://github.com/cosmicstack-labs/mercury-agent/commit/bdb6e71459fd9770c165901c83a724a09c194850) | hotheadhacker |
-| 2026-11-19 | [fix(dictation): a red microphone while listening, on every app](https://github.com/cosmicstack-labs/mercury-agent/commit/bff823b41873d641e05e02cc4892931825c7ae90) | hotheadhacker |
-| 2026-11-19 | [feat(ios): create, edit and manage bots from the phone](https://github.com/cosmicstack-labs/mercury-agent/commit/5ee13cb0121c04daba017c3dbbf8ea9b87d1c76c) | hotheadhacker |
-| 2026-11-19 | [feat(ios): bot forms, schedules in words and the make/edit/manage req…](https://github.com/cosmicstack-labs/mercury-agent/commit/410d5752df5b5fc12e351ccefece74a172282f0b) | hotheadhacker |
-| 2026-11-18 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/9fbaefaec84e30723ea921ae914566bc58ad7c31) | mercuryagent |
+| 2026-11-21 | [chore(site): rebuild with the blog fixes from #314](https://github.com/cosmicstack-labs/mercury-agent/commit/cb6692180715d816e458d33c4a598fc7452b936f) | hotheadhacker |
+| 2026-11-21 | [Merge PR #314 from tashiriskhan: blog fixes](https://github.com/cosmicstack-labs/mercury-agent/commit/7cbb88dfeb820fa322af6f095cba7adf968b9c3d) | hotheadhacker |
+| 2026-11-21 | [feat(skills): Any to PDF as a built-in skill, dependencies installed …](https://github.com/cosmicstack-labs/mercury-agent/commit/5b00d8173f059efad0667c6529b2ab088eba1d3c) | hotheadhacker |
+| 2026-11-21 | [feat(bots): auto mode — bots decide permission asks at once (ADR-047)](https://github.com/cosmicstack-labs/mercury-agent/commit/b55b76e823e4a213f2b9afcc219fd9fdbf9757e4) | hotheadhacker |
+| 2026-11-21 | [perf(bots): fewer steps per run, and work kept at the token cap](https://github.com/cosmicstack-labs/mercury-agent/commit/1a5f2da5423359528d9f321e5a83703049681cee) | hotheadhacker |
+| 2026-11-21 | [perf(bots): make prompt caching work in bot runs](https://github.com/cosmicstack-labs/mercury-agent/commit/afbbf4f7e6f73b08d59faeed7603dfa66e971a5c) | hotheadhacker |
+| 2026-11-21 | [fix(reach): a call to a named device rings only that device](https://github.com/cosmicstack-labs/mercury-agent/commit/85b2c0cc4dccbb847754afaa0b24798a6667f540) | hotheadhacker |
+| 2026-11-21 | [Restore six-agents slug to keep live URL](https://github.com/cosmicstack-labs/mercury-agent/commit/a5d01ade7f6390b52f7006efea8a44e4125abda7) | tashiriskhan |
+| 2026-11-21 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/daa5ff3d0d9ef922700cee907650566e17d3c388) | mercuryagent |
+| 2026-11-20 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/382579ba0a36524e2bd6da0438d2e21d4e73525c) | mercuryagent |
 
 [See all commits ↗](https://github.com/cosmicstack-labs/mercury-agent/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 147.8k |
-| 🍴 **Forks** | 17.7k |
+| ⭐ **Stars** | 147.9k |
+| 🍴 **Forks** | 17.6k |
 | 🐞 **Open issues + PRs** | [5.6k](https://github.com/Comfy-Org/ComfyUI/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `stable-diffusion` `pytorch` `ai` `python` `comfy` `comfyui` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-01-17 |
 | 📦 **Latest release** | [v0.46.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 106.3 MB |
+| 💾 **Size** | 106.1 MB |
 | 🌐 **Website** | https://www.comfy.org/ |
 
 ## 📦 Recent releases
 
 ### [v0.46.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(LTX): add AlphaGen, SDR to HDR, Reframe and Upscale nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17664
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0)
-<sub>2026-11-10 · 9d ago</sub>
+<sub>2026-11-10 · 10d ago</sub>
 
 > **What's Changed**
 > * Bump comfyui-frontend-package to 1.58.5 by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/17442
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.44.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0)
-<sub>2026-11-04 · 16d ago</sub>
+<sub>2026-11-04 · 17d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(Patina): add Patina texture nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17384
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.0)
-<sub>2026-10-27 · 24d ago</sub>
+<sub>2026-10-27 · 25d ago</sub>
 
 > **What's Changed**
 > * model_prefetch: syncrhonize all graph cleanups by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/17178
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [[Partner Nodes] feat(Mirelo): auto-downscale videos above 2160p in Vi…](https://github.com/Comfy-Org/ComfyUI/commit/a20552b5efd844ddf4da9dce4f55e313333a9ef9) | bigcat88 |
-| 2026-11-20 | [[Partner Nodes] feat(Sync): move sync.so nodes to Comfy Router (#17867)](https://github.com/Comfy-Org/ComfyUI/commit/980aec2c5f51970814963e8b1b88b46cd8f18af5) | bigcat88 |
-| 2026-11-20 | [Bump comfyui-frontend-package to 1.59.10 (#17839)](https://github.com/Comfy-Org/ComfyUI/commit/4ee8e523ba01b0335a5cd20ce9c1e2b684f69521) | comfy-pr-bot |
-| 2026-11-20 | [Add regression test for CVE-2024-12882 model download SSRF (#17773)](https://github.com/Comfy-Org/ComfyUI/commit/1994420682258539f9ea1d22a9857a14df6acd32) | luke-mino-altherr |
-| 2026-11-20 | [docs: restructure README, add docs/installation.md (#16660)](https://github.com/Comfy-Org/ComfyUI/commit/e9d51c56204c7f9fec89d650ddbdf66dfa685a97) | deepme987 |
-| 2026-11-19 | [Support SPZ v4 in File3DToSplat (#17852)](https://github.com/Comfy-Org/ComfyUI/commit/c59e67bd5a2757ddba1c6c6a993c0b6c811b54da) | kijai |
-| 2026-11-19 | [Add a ModelMergeMiniMaxH3 node. (#17843)](https://github.com/Comfy-Org/ComfyUI/commit/a286ac2fb49ef3f1a3f599e42c48f8af906fce71) | comfyanonymous |
-| 2026-11-19 | [[Partner Nodes] fix(validation): make aspect-ratio errors show the im…](https://github.com/Comfy-Org/ComfyUI/commit/d7589708646a9e27c479b8cc07884b3b69366184) | bigcat88 |
-| 2026-11-19 | [[Partner Nodes] feat(Creatify): add Boreal-H3 and Aurora 2.0 nodes (#…](https://github.com/Comfy-Org/ComfyUI/commit/c223fca268f5665d690426cd051a1d16bfc5f4f0) | bigcat88 |
-| 2026-11-19 | [Update workflow templates to v0.11.112 (#17856)](https://github.com/Comfy-Org/ComfyUI/commit/f9f01c2cea24875b8ac1eea648850d87d74cff14) | comfyui-wiki |
+| 2026-11-21 | [[Partner Nodes] feat(Pruna): add P-Video-2 Pro Avatar and Reference t…](https://github.com/Comfy-Org/ComfyUI/commit/f99de883d5e65317c7f4a4b617b5aa7936622029) | bigcat88 |
+| 2026-11-21 | [Report a per-start server_boot_id in server feature flags (#17835)](https://github.com/Comfy-Org/ComfyUI/commit/860a7fdc7772bcb53f74a675d0592d89f94fa265) | christian-byrne |
+| 2026-11-21 | [docs(openapi): describe the agent feature flag (#17841)](https://github.com/Comfy-Org/ComfyUI/commit/0072b8680dd2db0b6d68c06f718fa33bd92a728c) | christian-byrne |
+| 2026-11-21 | [Add troubleshooting section to README (#17894)](https://github.com/Comfy-Org/ComfyUI/commit/cff733b7e60a5cf1bb2fbb9df01508ef18b5905a) | comfyanonymous |
+| 2026-11-20 | [[Partner Nodes] feat(HeyGen): add HeyGen Voice 1.0 Instant Clone Text…](https://github.com/Comfy-Org/ComfyUI/commit/afcb984e76fe9f870bf7746cf394766e1f690563) | bigcat88 |
+| 2026-11-20 | [[Partner Nodes] fix(Rodin): fix RGBA image upload, Gen-2.5 bounding b…](https://github.com/Comfy-Org/ComfyUI/commit/500943a81e7ed32b4452983b6e46cc340c29a693) | bigcat88 |
+| 2026-11-20 | [Update workflow templates to v0.11.114 (#17880)](https://github.com/Comfy-Org/ComfyUI/commit/8b146ae23468a8b51bde3d2bf5689ec5a88cd639) | comfyui-wiki |
+| 2026-11-20 | [[Partner Nodes] feat(Google): add Gemini Decision nodes (#17876)](https://github.com/Comfy-Org/ComfyUI/commit/c52bcf7fa7fde4e851d38105195551556add6693) | bigcat88 |
+| 2026-11-20 | [[Partner Nodes] fix(Rodin): fail the run when Rodin marks a task Fail…](https://github.com/Comfy-Org/ComfyUI/commit/0782617d8b4602c378d48cb00281ba5577d1b6b0) | bigcat88 |
+| 2026-11-20 | [[Partner Nodes] fix(audio): resample and downmix audio inputs that mp…](https://github.com/Comfy-Org/ComfyUI/commit/21afd7826fc91b4253384bbb7749245f98d7e501) | bigcat88 |
 
 [See all commits ↗](https://github.com/Comfy-Org/ComfyUI/commits)
 

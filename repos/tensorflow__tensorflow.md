@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 201.7k |
-| 🍴 **Forks** | 78.0k |
+| 🍴 **Forks** | 77.4k |
 | 🐞 **Open issues + PRs** | [3.5k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 25% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1411.6 MB |
+| 💾 **Size** | 1412.9 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
 
 ### [v2.22.0-rc1](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1) — TensorFlow 2.22.0-rc1 _(pre-release)_
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **Release 2.22.0**
 > **TensorFlow**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [[XLA:GPU] Cap small-input loop unrolling at a single thread block.](https://github.com/tensorflow/tensorflow/commit/cdc1a0a6718f4a8c9e9ce4d830cd06eeb24ad955) | thomasjoerg |
-| 2026-11-20 | [[XLA:GPU] Support slices in CuDnnGemmDimensions.](https://github.com/tensorflow/tensorflow/commit/db5e704598a172f5c05746a629385fe73de7b79e) | vwbaker |
-| 2026-11-20 | [[XLA:GPU] Track explicit setting of xla_gpu_default_to_alg_dot_bf16_b…](https://github.com/tensorflow/tensorflow/commit/1759502b6388c9bef9421db1386272ee8f94a4ae) | loislo |
-| 2026-11-20 | [[PJRT] Speed up small-dimension deinterleave with Highway.](https://github.com/tensorflow/tensorflow/commit/6e6fab69a84447f6591580031dd443963777d9a3) | hawkinsp |
-| 2026-11-20 | [[XLA:Codegen] Emit SelectBufferOp on root InsertTileOp for per-peer o…](https://github.com/tensorflow/tensorflow/commit/fb8042a0d446b999dad5448cf0713e0c21e03155) | sohaibiftikhar |
-| 2026-11-20 | [Add unit tests to show non-flat support on AsyncComputeOnRewriter.](https://github.com/tensorflow/tensorflow/commit/827ddce4c6daa95a92d5bd36bea3b07a190b782e) | ekayaaslan |
-| 2026-11-20 | [[XLA:GPU] Raise Triton reduce-scatter max blocks per grid from 64 to 128](https://github.com/tensorflow/tensorflow/commit/ea4467ee2fbe1a2a027249c40e1b8fae78a8e176) | PatriosTheGreat |
-| 2026-11-20 | [PR #53379: [XLA:GPU] Enable portable large VMM regression coverage](https://github.com/tensorflow/tensorflow/commit/26741371466f9d40c9c378f1f843c03c282dff32) | nouiz |
-| 2026-11-20 | [[XLA:GPU] Add clique-level release of cached symmetric memory.](https://github.com/tensorflow/tensorflow/commit/60910b113e86ae70b487672309d283cf6dbc187c) | PatriosTheGreat |
-| 2026-11-20 | [[IFRT] Validate non-negative dimensions and element-count bounds in `…](https://github.com/tensorflow/tensorflow/commit/d25591368286056170e91ac1764547cde19157c1) | hyeontaek |
+| 2026-11-21 | [[XLA:GPU] Color two-shot Triton AllGather outputs in collective symme…](https://github.com/tensorflow/tensorflow/commit/f80e9534620de429cb5f97adfd212a40b5e7390e) | sohaibiftikhar |
+| 2026-11-21 | [[IFRT IR] Tighten `IfrtDialect` attribute and `IfrtArrayType` verifiers](https://github.com/tensorflow/tensorflow/commit/3ceba449fd7e1bdf3ce593b90e3adc37d3f4d420) | ICGog |
+| 2026-11-21 | [[IFRT] Validate element bounds and non-zero product in `xla::ifrt::In…](https://github.com/tensorflow/tensorflow/commit/4244352d0041fb9db90f7883601998f5cf59eeb5) | hyeontaek |
+| 2026-11-21 | [[IFRT] Introduce `IfrtIrExecutable` and compile-only `IfrtIrProgramCo…](https://github.com/tensorflow/tensorflow/commit/d8fd7c04e5cf172d8bff31c647431f8ace901eda) | hyeontaek |
+| 2026-11-21 | [[xla:cpu/nanort] Plumb `ExecuteOptions::custom_options` through `Nano…](https://github.com/tensorflow/tensorflow/commit/944763d31ead203fb9afedf017bc01e281a11099) | cezheng |
+| 2026-11-21 | [[MHLO] Extend mhlo.dot_general with block scaling and structured spar…](https://github.com/tensorflow/tensorflow/commit/2b1a2b68725aa6363c5d6c31ab131eb489a9e124) | tensorflower-gardener |
+| 2026-11-21 | [[XLA] Keep latency_metadata an integer when collectives are combined](https://github.com/tensorflow/tensorflow/commit/614979f4518add3a00fa0503ab88eb39c96a49c6) | patrick-toulme |
+| 2026-11-21 | [Implement `AcquireExternalDmaAccess` for PjRt GPU.](https://github.com/tensorflow/tensorflow/commit/0ad69f3577522d874b9d1b816c2489cd6d92390c) | junwhanahn |
+| 2026-11-21 | [[XLA:PjRt] Add 512 bit transpose microkernels and runtime block sizing](https://github.com/tensorflow/tensorflow/commit/8112c9834ef0a323adfcc9f1b50f9d74537a4cb7) | majnemer |
+| 2026-11-21 | [Integrate LLVM at llvm/llvm-project@86801a03ccc8](https://github.com/tensorflow/tensorflow/commit/3f51b4b4a3574d998ff53cf446d146416bde2152) | tensorflower-gardener |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 195.3k |
+| ⭐ **Stars** | 196.0k |
 | 🍴 **Forks** | 11.0k |
-| 🐞 **Open issues + PRs** | [323](https://github.com/DietrichGebert/ponytail/issues) |
+| 🐞 **Open issues + PRs** | [331](https://github.com/DietrichGebert/ponytail/issues) |
 | 💻 **Languages** | JavaScript 49% · Python 25% · TypeScript 25% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `claude` `claude-code` `claude-code-plugin` `cursor-rules` `developer-tools` `llm` `prompt-engineering` `yagni` |
-| 🕒 **Last activity** | 2026-10-29 (22d ago) |
+| 🕒 **Last activity** | 2026-10-29 (23d ago) |
 | 📅 **Created** | 2026-06-12 |
 | 📦 **Latest release** | [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3)
-<sub>2026-10-29 · 22d ago</sub>
+<sub>2026-10-29 · 23d ago</sub>
 
 > This one cleans up the band. On Team, Enterprise and managed machines the warning on your first prompt is gone, and the band shows your model and session name again. In VS Code it stays on one line, other plugins' commands no longer print under ponytail's name, and the noisy "duplicate?" hint is gone.
 > **What's Changed**

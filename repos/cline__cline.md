@@ -21,22 +21,66 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 71.8k |
-| 🍴 **Forks** | 8.0k |
+| 🍴 **Forks** | 7.9k |
 | 🐞 **Open issues + PRs** | [1.8k](https://github.com/cline/cline/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2024-07-06 |
-| 📦 **Latest release** | [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26) — 2026-10-26 |
+| 📦 **Latest release** | [v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 622.2 MB |
+| 💾 **Size** | 623.6 MB |
 | 🌐 **Website** | https://cline.bot |
 
 ## 📦 Recent releases
 
+### [v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27)
+<sub>2026-11-21 · today</sub>
+
+> **Added**
+> - LM Studio settings have an API key field, for servers with "Require Authentication" turned on.
+> - The MCP tab shows a "read-only" badge on tools whose server declares them read-only.
+> - The Account view has a Privacy settings link to the Cline web app's data-use preferences.
+> - The extension package now includes its third-party license notices.
+> **Changed**
+> …
+
+### [desktop-v0.0.50](https://github.com/cline/cline/releases/tag/desktop-v0.0.50) — Desktop v0.0.50
+<sub>2026-11-21 · today</sub>
+
+> - The thinking picker offers **Max** reasoning effort, for models whose top level is max
+> - A manual `/compact` can be stopped. Before, it could sit on "Thinking…" with no Stop button when the summarizer stalled
+> - With no saved model, the Cline provider now starts on the first free model instead of Claude Sonnet 5.5. Saved selections are untouched
+> - The Account view has a Privacy settings link to the Cline web app's data-use preferences
+> - Settings → About has a **Third-party notices** entry with the licenses for the open source software included in Cline
+> - On macOS, Check for Updates from the menu runs once instead of twice
+> …
+
+### [cli-v3.0.75](https://github.com/cline/cline/releases/tag/cli-v3.0.75) — CLI v3.0.75
+<sub>2026-11-21 · today</sub>
+
+> - One-shot runs (a prompt argument or piped stdin) now start in yolo mode instead of act mode, since nobody is at the keyboard to approve tools. Act mode is kept when auto-approve is off (`--auto-approve false` or the saved setting), when a mode flag is passed, when plan mode is saved, or when the prompt is a `/team` prompt. Yolo mode has no team tools, so pass `--act` when you need them
+> - `--timeout` and Ctrl+C now stop the first turn of a one-shot run. Before, neither could interrupt it
+> - The CLI no longer reads `.env` or `bunfig.toml` from the directory it is launched in
+> - With no saved model, the Cline provider now starts on the first free model instead of Claude Sonnet 5.5. Saved selections are untouched
+> - `/account` shows a Privacy settings link to the Cline web app's data-use preferences
+> - `read_files` results are no longer cut to 8k characters on the way to the model. A read now arrives in full, up to the tool's own limit of 2000 lines or about 48k characters
+> …
+
+### [sdk/sdk/v0.2.1](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.1) — SDK v0.2.1
+<sub>2026-11-21 · today</sub>
+
+> - `read_files` results are no longer re-cut to the 8k tool-result cap on the way to the provider. They use the 50k file-content cap, so a read the tool reported in full arrives in full. Command, search, MCP and custom tool results keep the 8k cap, and an explicit tool-result cap still applies
+> - Models that need interleaved reasoning get a placeholder `reasoning_content` on assistant messages that have none. This fixes Reflection Beam's `400 Missing required parameter: 'messages[n].reasoning_content'` after compaction or a model switch. The fact is carried as `ModelInfo.metadata.interleavedReasoningField`
+> - The summarizer now states a preference to go without reasoning instead of disabling it outright. The gateway disables it only for models whose catalog entry advertises an off option. Before, uncatalogued models got `reasoning_effort: "none"`, which some endpoints reject, and compaction fell back to basic
+> - A custom model with saved overrides now has `reasoning` seeded into its capability list unless it sets `supportsReasoning: false`, so an explicit reasoning disable reaches the provider. Before, gpt-5.6 and gpt-6 chat-completions endpoints rejected every tool call
+> - The native OpenAI adapter fits the reasoning level to the model's advertised effort ladder, so `max` and Extra High are no longer sent verbatim to GPT-5.x and o-series models that reject them
+> - LiteLLM: the legacy `max_tokens` is no longer used as the input budget when `max_output_tokens` is set. Null limits are treated as missing
+> …
+
 ### [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26)
-<sub>2026-10-26 · 25d ago</sub>
+<sub>2026-10-26 · 26d ago</sub>
 
 > **Added**
 > - Cloud tasks: Settings > API Configuration has a Local | Cloud toggle when cloud sessions are on. Cloud picks the Cline model new cloud tasks run on, saved separately from your local models. Clicking the model label in a cloud session's composer opens it there.
@@ -46,61 +90,20 @@
 > - With no model chosen, the Cline provider uses Claude Sonnet 5.5 again, which is back at the top of Cline's recommended list.
 > …
 
-### [desktop-v0.0.49](https://github.com/cline/cline/releases/tag/desktop-v0.0.49) — Desktop v0.0.49
-<sub>2026-10-26 · 25d ago</sub>
-
-> - A new **Changes** button in the session header shows the session's line counts and opens a pane listing the files changed in the last turn or across the whole session, with a diff of each. When a turn finishes, a summary under it lists the files it changed; click it to open the pane on that turn
-> - A **project files panel** (folder button in the session header) shows a file tree beside the conversation, with a read-only tabbed viewer, git status letters, and a marker on files the session changed. Files the agent edited get a File/Diff toggle. Works on local and SSH environments
-> - An integrated **terminal panel** opens at the bottom of the window (toggle with Ctrl+backtick)
-> - Pull request status moved from the bar above the composer into a header button. Its menu shows the PR title, merge status and checks (failing checks first), and lets you open the PR on GitHub, create a PR, copy the branch name, or refresh
-> - A new **Local Models** settings page manages Ollama and LM Studio models: setup guidance, model details and storage, and a composer chip showing how much memory the loaded model uses
-> - **Keybindings** are configurable in Settings (also reachable from the app and Help menus). Quit can require holding the shortcut, 1 second by default on macOS, so it's harder to quit by accident
-> …
-
-### [cli-v3.0.74](https://github.com/cline/cline/releases/tag/cli-v3.0.74) — CLI v3.0.74
-<sub>2026-10-26 · 25d ago</sub>
-
-> - Opening a task that's already running in another Cline app now attaches to that run instead of starting a second one that couldn't be stopped. If an app closes mid-task, requests waiting on it now fail with a clear message instead of hanging
-> - `cline hub status` and `cline doctor` no longer hang on a Hub that has frozen. Its health check now times out after 3s and the Hub is reported as not running
-> - A turn whose connection drops after the model has streamed only reasoning (for example, "The socket connection was closed unexpectedly") is now retried instead of ending the run
-> - Model requests retry at most 3 times instead of 5
-> - Kimi K3 now gets `max` reasoning for Extra High and Max, instead of an `xhigh` setting it rejects
-> - Gemini API keys (the `gemini` provider) no longer send native Google Search. Free-tier keys failed every turn with a 429 quota error on Gemini 3+, and on Gemini 2.x every Cline tool was dropped
-> …
-
-### [sdk/sdk/v0.2.0](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.0) — SDK v0.2.0
-<sub>2026-10-26 · 25d ago</sub>
-
-> - Starting a session that already has a run in progress now reattaches to the live session instead of replacing its runtime. Before, the original run kept going but couldn't be reached, and its transcript writes landed on a stale snapshot. A start that includes a prompt while a run is in progress is rejected
-> - The hub records every client that registered a capability for a session, including clients that join a task that's already running, and sends each request to the first one still connected. If none is left, the request fails quickly with a message the user can act on, instead of waiting forever
-> - A turn whose connection drops after the model has streamed only reasoning is now retried, and the partial reasoning is discarded. Turns with text, media or tool calls are still never retried
-> - Model requests retry at most 3 times after the first attempt (down from 5). Failed attempts are recorded in Langfuse traces, and cancelled requests are no longer reported as Langfuse errors
-> - AI SDK updated to `ai` 7.0.136 / `@ai-sdk/provider-utils` 5.0.58. `max` reasoning now reaches the provider: the gateway no longer turns it into `xhigh`, and Kimi K3 gets `max` for Extra High and Max. Empty Anthropic turns are still retried despite the new `anthropic.*` custom stream parts
-> - The `gemini` provider no longer sends native Google Search. On Gemini 3+, free-tier keys failed every turn with a 429 quota error, and on Gemini 2.x it dropped every Cline tool. Vertex keeps native search
-> …
-
-### [desktop-v0.0.48](https://github.com/cline/cline/releases/tag/desktop-v0.0.48) — Desktop v0.0.48
-<sub>2026-10-17 · 1mo ago</sub>
-
-> - GPT-6 models (such as `gpt-6-sol` and `gpt-6.1-sol`) work on OpenAI and Azure OpenAI-compatible endpoints. Before, every request was rejected because Cline sent `max_tokens` instead of `max_completion_tokens`
-> - The Cline provider's default model is Claude Sonnet 5.5 again, which is back at the top of Cline's recommended list
-> - Refreshed the model catalog. Adds the CommandCode and Reflection providers. Default models change for 302.AI (Gemini 4 Argon), Eden AI and Prime Inference (Muse Spark Open), CoreWeave (Reflection Beam 1.0), NanoGPT, Pioneer (Nemotron 3.5 Super VL), and Scaleway (DeepSeek V4.1 Flash)
-> **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.47...desktop-v0.0.48
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [feat(ui): components - SectionHeading, Banner, ItemCard, DetailList a…](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c) | haleyparkdesign |
-| 2026-11-17 | [fix(core): do not use LiteLLM legacy max_tokens as input budget when …](https://github.com/cline/cline/commit/eff43e19b267e171f597ab03733bfed25090f72d) | pei711 |
-| 2026-11-17 | [feat(mcp): carry tool annotations and session mode through the MCP pa…](https://github.com/cline/cline/commit/4cdfb19a5e897b9e75827cbb4f280f322e27e44a) | mkondratek |
-| 2026-11-16 | [docs: fix broken relative links in SDK, package, and example READMEs …](https://github.com/cline/cline/commit/146894b6a42a7a554c6ff37f7bb33fe5122cc33d) | pei711 |
-| 2026-11-16 | [fix: pass commit search terms to git as arguments, not shell text (#1…](https://github.com/cline/cline/commit/0eeb32315ee28e5cd80c879ba16bc96eecf17dfe) | Eapp1e |
-| 2026-11-12 | [refactor(vscode): migrate xAI provider settings to GenericProviderSet…](https://github.com/cline/cline/commit/72b3d7140553a733242126e51a7c2e87efe75c64) | dominiccooney |
-| 2026-11-12 | [refactor(vscode): unify generic provider fallback names with presenta…](https://github.com/cline/cline/commit/50e77bc1e8f7ab023b7986821e4b5f82ff51b8c4) | dominiccooney |
-| 2026-11-12 | [fix(vscode): refresh generic provider models after saving credentials…](https://github.com/cline/cline/commit/d9a5258ba8afa9d55ccf2c43ec81f435f53132c8) | dominiccooney |
-| 2026-11-11 | [refactor(vscode): remove dead LiteLLM/OpenAI model state and unused m…](https://github.com/cline/cline/commit/32075f1110841fe5c7a17e096007e26da8e958f9) | dominiccooney |
-| 2026-11-11 | [refactor(vscode): remove dead onboarding models state and proto messa…](https://github.com/cline/cline/commit/c5df41f937c496ce8c8e689ba58776593c703dfa) | dominiccooney |
+| 2026-11-21 | [chore(vscode): release v4.1.27](https://github.com/cline/cline/commit/8075d2e35cf5cad67c24f180c80a05d311b74a3e) | saoudrizwan |
+| 2026-11-21 | [docs(desktop): drop flag-gated cloud items from the 0.0.50 notes](https://github.com/cline/cline/commit/e68fba63b3d7687cb518de378c9505efa007da67) | saoudrizwan |
+| 2026-11-21 | [chore(desktop): release v0.0.50](https://github.com/cline/cline/commit/4e3add853d898e601d93f5b2a7e851a8f18f5c13) | saoudrizwan |
+| 2026-11-21 | [chore(cli): release v3.0.75](https://github.com/cline/cline/commit/06f0ec711ea417430d552b98e7911fdac6f495a1) | saoudrizwan |
+| 2026-11-21 | [chore(sdk): release v0.2.1](https://github.com/cline/cline/commit/0905e828929c2e89ee710eb3c899487e86064e82) | saoudrizwan |
+| 2026-11-21 | [test(llms): accept tiered Qwen families in the prompt-cache route test](https://github.com/cline/cline/commit/0d7f2b18f94d913b3f2da1eebf7888803dab18a4) | saoudrizwan |
+| 2026-11-21 | [Add third party licenses to the desktop app (#15816)](https://github.com/cline/cline/commit/9f750b8a3dfbb441b629547d5d84aca130ea3828) | BarreiroT |
+| 2026-11-21 | [Add the third party notices to the CLI (#15811)](https://github.com/cline/cline/commit/4a5c5919308d32c29a116b345b88886a748d0929) | BarreiroT |
+| 2026-11-21 | [Attach the third party notices on our VSIX (#15809)](https://github.com/cline/cline/commit/456a695f35af7c3f852cf7fcd74c03d09bfb2602) | BarreiroT |
+| 2026-11-20 | [test(llms): remove image-model assertion on the generated catalog (#1…](https://github.com/cline/cline/commit/e8227d6f2e2725fdaad67e1a2ab9323e69b12516) | saoudrizwan |
 
 [See all commits ↗](https://github.com/cline/cline/commits)
 

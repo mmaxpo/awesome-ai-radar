@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 23.4k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [589](https://github.com/neondatabase/neon/issues) |
+| 🐞 **Open issues + PRs** | [590](https://github.com/neondatabase/neon/issues) |
 | 💻 **Languages** | Rust 74% · Python 19% · C 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `postgres` `postgresql` `serverless` `database` `rust` |

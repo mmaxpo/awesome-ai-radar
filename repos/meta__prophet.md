@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 66% · R 32% · Stan 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `forecasting` `r` `python` |
-| 🕒 **Last activity** | 2026-11-11 (9d ago) |
+| 🕒 **Last activity** | 2026-11-11 (10d ago) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v1.5.0](https://github.com/meta/prophet/releases/tag/v1.5.0) — 2026-10-05 |
 | 🌿 **Default branch** | `main` |
@@ -68,7 +68,7 @@
 > **Full Changelog**: https://github.com/facebook/prophet/compare/v1.2.2...v1.3.0
 
 ### [v1.2.2-patched](https://github.com/meta/prophet/releases/tag/v1.2.2-patched) — v1.2.2
-<sub>2026-01-25 · 9mo ago</sub>
+<sub>2026-01-25 · 10mo ago</sub>
 
 > **What's Changed**
 > * R Package: Update C++ Version to Comply with CRAN Policy by @mitokic in https://github.com/facebook/prophet/pull/2707

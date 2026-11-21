@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 5.4k |
 | 🍴 **Forks** | 1.2k |
-| 🐞 **Open issues + PRs** | [99](https://github.com/docker/genai-stack/issues) |
+| 🐞 **Open issues + PRs** | [100](https://github.com/docker/genai-stack/issues) |
 | 💻 **Languages** | Python 54% · Svelte 16% · Shell 14% · JavaScript 8% · Dockerfile 7% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-10-26 (25d ago) |
+| 🕒 **Last activity** | 2026-10-26 (26d ago) |
 | 📅 **Created** | 2023-09-13 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

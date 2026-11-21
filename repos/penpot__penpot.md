@@ -22,26 +22,26 @@
 |---|---|
 | ⭐ **Stars** | 62.6k |
 | 🍴 **Forks** | 4.4k |
-| 🐞 **Open issues + PRs** | [934](https://github.com/penpot/penpot/issues) |
+| 🐞 **Open issues + PRs** | [922](https://github.com/penpot/penpot/issues) |
 | 💻 **Languages** | Clojure 76% · JavaScript 6% · Rust 6% · TypeScript 5% · SCSS 3% |
 | 📜 **License** | MPL-2.0 |
 | 🏷 **Topics** | `ux-design` `ux-experience` `prototyping` `clojure` `clojurescript` `ui` `design` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2015-12-29 |
 | 📦 **Latest release** | [2.19.3](https://github.com/penpot/penpot/releases/tag/2.19.3) — 2026-11-18 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 433.1 MB |
+| 💾 **Size** | 432.1 MB |
 | 🌐 **Website** | https://penpot.app |
 
 ## 📦 Recent releases
 
 ### [2.19.3](https://github.com/penpot/penpot/releases/tag/2.19.3)
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > No changes for 2.19.3 according to CHANGES.md
 
 ### [2.19.2](https://github.com/penpot/penpot/releases/tag/2.19.2)
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix referential integrity error when copying component variants with nested components across libraries and teams [#10704](https://github.com/penpot/penpot/issues/10704) (PR: [#12928](https://github.com/penpot/penpot/pull/12928))
@@ -52,7 +52,7 @@
 > …
 
 ### [2.19.1](https://github.com/penpot/penpot/releases/tag/2.19.1)
-<sub>2026-11-11 · 9d ago</sub>
+<sub>2026-11-11 · 10d ago</sub>
 
 > **:lock: Security fixes**
 > - Fix editor-role team members retrieving the signed invitation token of any pending invitation (https://github.com/penpot/penpot/security/advisories/GHSA-4mmc-j8rh-74pf) (PR: [#12892](https://github.com/penpot/penpot/pull/12892))
@@ -74,7 +74,7 @@
 > …
 
 ### [2.18.7](https://github.com/penpot/penpot/releases/tag/2.18.7)
-<sub>2026-11-09 · 11d ago</sub>
+<sub>2026-11-09 · 12d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix binfile import accepting library relations outside the package and self-relations [#12895](https://github.com/penpot/penpot/issues/12895) (PR: [#12862](https://github.com/penpot/penpot/pull/12862))
@@ -83,16 +83,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [:zap: Resolve tokens incrementally with tokenscript (#12437)](https://github.com/penpot/penpot/commit/3c4ae62db53b3e844a5ea4cb54aaee8efe2f7d14) | floscr |
-| 2026-11-20 | [:zap: Fuse the reg-objects of a change batch per container (#12310)](https://github.com/penpot/penpot/commit/b6a08ea4cb79bcc46c9bb4843ec8061df8e92bbe) | niwinz |
-| 2026-11-20 | [:sparkles: Cover subscription rules with unit tests and trim e2e spec…](https://github.com/penpot/penpot/commit/d6e816daa045146f5e8c919ceed0aa0ec375662f) | niwinz |
-| 2026-11-20 | [:wrench: Fix pr validations](https://github.com/penpot/penpot/commit/ea11c4d71d519556c4b068cc25a819532a9be7fb) | yamila-moreno |
-| 2026-11-20 | [Merge remote-tracking branch 'origin/staging' into develop](https://github.com/penpot/penpot/commit/15a099f1188c427beae4c75d680ad7d246cff074) | niwinz |
-| 2026-11-20 | [:arrow_up: Update dependencies (#13191)](https://github.com/penpot/penpot/commit/1debed7f3c244d4698544839b0bbab0cfce21bd2) | niwinz |
-| 2026-11-20 | [:sparkles: Explain why a library cannot be disconnected in its modal …](https://github.com/penpot/penpot/commit/c40287254cce63b69732e0b6814bedf9b67c1fd8) | filipsajdak |
-| 2026-11-20 | [:sparkles: Copy stable deep link to selected boards from context menu…](https://github.com/penpot/penpot/commit/454e461c1eda2f164bcf87df13bb65d7093b7d06) | filipsajdak |
-| 2026-11-19 | [:bug: Undo a main text edit and its follow-up sync in one step](https://github.com/penpot/penpot/commit/6d0be9f47f18e7ca4a3716d7a483351533b2822f) | pabloalba |
-| 2026-11-19 | [:bug: Skip WebGL auto-grow heals for texts with a failed font](https://github.com/penpot/penpot/commit/8a9e87e33eb7262a0156ac1ea0cdd205d35e570e) | pabloalba |
+| 2026-11-20 | [Merge remote-tracking branch 'origin/develop' into develop](https://github.com/penpot/penpot/commit/8bca3f86eef17dfd67de428e76a5051171c42394) | niwinz |
+| 2026-11-20 | [:wrench: Fix CI module commands](https://github.com/penpot/penpot/commit/0572645d97004044dbd274648b3c11a6b5933bf2) | niwinz |
+| 2026-11-20 | [:recycle: Reduce the frontend e2e suite by merging equivalent specs (…](https://github.com/penpot/penpot/commit/52750d14de2c7060f7ebe46ca9aa1fcf9239ad0e) | niwinz |
+| 2026-11-20 | [Merge remote-tracking branch 'origin/staging' into develop](https://github.com/penpot/penpot/commit/adb61a9b968f7b4164f67c59afa702572f90121c) | niwinz |
+| 2026-11-20 | [:bug: Check the page that an add-page change stores (#12675)](https://github.com/penpot/penpot/commit/678fcc071bd63e5c80428475e36b08eef26d5b04) | alvorithm |
+| 2026-11-20 | [:recycle: Reduce the routes, viewer, theme and typography e2e specs (…](https://github.com/penpot/penpot/commit/f27bfdf76a02b6b0c0171d31e5e765010dc91d35) | niwinz |
+| 2026-11-20 | [:sparkles: Deliver telemetry audit events independently (#13230)](https://github.com/penpot/penpot/commit/e0194ce60a637c66bbb5e1619f86cf3316d1f104) | niwinz |
+| 2026-11-20 | [:recycle: Cut the shortcuts and inspect tab e2e specs (#13010)](https://github.com/penpot/penpot/commit/1439bc760573f895608ab7cf08239959231240ca) | niwinz |
+| 2026-11-20 | [:bug: Repair variant property set when removing a property (#12960)](https://github.com/penpot/penpot/commit/c9c9a574a00f911d401acde0f014b7be6b056430) | pabloalba |
+| 2026-11-20 | [:books: Update user guide for 2.20 features (#13149)](https://github.com/penpot/penpot/commit/fae248bb351f1136ae3484e88c4ee252c1348e43) | myfunnyandy |
 
 [See all commits ↗](https://github.com/penpot/penpot/commits)
 

@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 4.7k |
 | 🍴 **Forks** | 240 |
-| 🐞 **Open issues + PRs** | [483](https://github.com/restatedev/restate/issues) |
+| 🐞 **Open issues + PRs** | [474](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-01-04 |
-| 📦 **Latest release** | [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2) — 2026-11-02 |
+| 📦 **Latest release** | [v1.8.1-hotfix.3](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.3) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 118.8 MB |
+| 💾 **Size** | 119.5 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
+### [v1.8.1-hotfix.3](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.3)
+<sub>2026-11-20 · today</sub>
+
+> **Restate v1.8.1-hotfix.3**
+> **Install**
+> **Pull the Docker images**
+> ```sh
+> docker pull docker.restate.dev/restatedev/restate:1.8.1-hotfix.3
+> docker pull docker.restate.dev/restatedev/restate-cli:1.8.1-hotfix.3
+> …
+
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 18d ago</sub>
+<sub>2026-11-02 · 19d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.7.14](https://github.com/restatedev/restate/releases/tag/v1.7.14)
-<sub>2026-10-22 · 28d ago</sub>
+<sub>2026-10-22 · 29d ago</sub>
 
 > **Restate v1.7.14**
 > Restate v1.7.14 is a security release. Restate now rejects TLS certificates issued through compromised emSign intermediate CAs. The release also updates the bundled TLS library to fix several recently disclosed vulnerabilities, and refreshes the OS trust store shipped in the Docker image.
@@ -79,31 +90,20 @@
 > **🤖 A CLI Built for Scripts, CI and AI Agents**
 > …
 
-### [v1.8.0-rc.3](https://github.com/restatedev/restate/releases/tag/v1.8.0-rc.3) _(pre-release)_
-<sub>2026-10-13 · 1mo ago</sub>
-
-> **Restate v1.8.0-rc.3**
-> **Install**
-> **Pull the Docker images**
-> ```sh
-> docker pull docker.restate.dev/restatedev/restate:1.8.0-rc.3
-> docker pull docker.restate.dev/restatedev/restate-cli:1.8.0-rc.3
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [[Scheduler] Hand partition leadership only to replicas close to the l…](https://github.com/restatedev/restate/commit/2bacf553f2b759913f61aa5a51766f7a6029b681) | StephanEwen |
-| 2026-11-20 | [[PartitionStore] Read invocations by status through the status index'…](https://github.com/restatedev/restate/commit/d6e229138d9fb92e15ceb53ae1ac23a149383690) | AhmedSoliman |
-| 2026-11-20 | [[PartitionStore] Map invocation status conditions to the status index…](https://github.com/restatedev/restate/commit/3a978abba35160d5fa26c6f98851762135f97906) | AhmedSoliman |
-| 2026-11-20 | [[PartitionStore] Index entries by stage and status, by creation and b…](https://github.com/restatedev/restate/commit/dce2c2c63fef7257e6813f63f4e3e3950d76fad9) | AhmedSoliman |
-| 2026-11-20 | [[QueryEngineV2] Read the invocation list through the hourly creation …](https://github.com/restatedev/restate/commit/a12b378847b259338f395f2db30e36816785e7c5) | AhmedSoliman |
-| 2026-11-20 | [[UI] Updating Restate UI to v1.1.8 published at https://github.com/re…](https://github.com/restatedev/restate/commit/4548a2b5946531b306106e6e3d4a71d2c2e478f6) | restatedev-web-ui[bot] |
-| 2026-11-20 | [[Bifrost] Limit replicated loglet read-ahead by records and bytes (#5…](https://github.com/restatedev/restate/commit/6dca3f9292d31acac099e43aafb29ff2eea412b5) | StephanEwen |
-| 2026-11-20 | [[PartitionStore] Merge an index's runs one time bucket at a time](https://github.com/restatedev/restate/commit/d73c9c7e7d55a0b00e2ff8831b4fdbd2e72fa0d7) | AhmedSoliman |
-| 2026-11-20 | [[PartitionStore] Index every entry by creation hour and service, with…](https://github.com/restatedev/restate/commit/de7eeac3c926bc9db436f5bba4190601a96610f8) | AhmedSoliman |
-| 2026-11-20 | [[PartitionStore] Let secondary indexes store a value with each key](https://github.com/restatedev/restate/commit/4a9ca52e87951a2d02827f4a4b55fde47d14bddf) | AhmedSoliman |
+| 2026-11-21 | [[QueryEngine] Treat `unknown` as a sentinel, never as a value](https://github.com/restatedev/restate/commit/2aaabe8cf63d4efa4ee1f99c7d1234ec5776eeea) | AhmedSoliman |
+| 2026-11-21 | [[PartitionStore] Skip probe keys of pairs no status-index lane reads](https://github.com/restatedev/restate/commit/4272d581f6a0b42777ea493c616a8b002fea6ebc) | AhmedSoliman |
+| 2026-11-21 | [[QueryEngine] Show canonical_id in sys_invocation](https://github.com/restatedev/restate/commit/963b8b8e1ac810d002a4ecf2e76d9b1c78adb03d) | AhmedSoliman |
+| 2026-11-21 | [[QueryEngine] Show the stats tables' effective status](https://github.com/restatedev/restate/commit/0ac43558abc896d462beae1d10d3373e2f466a4d) | AhmedSoliman |
+| 2026-11-20 | [[DataFusion] Encode task replies directly into Bytes](https://github.com/restatedev/restate/commit/7b61a76b2cc1188bcceaf569e55dc94140d45288) | AhmedSoliman |
+| 2026-11-20 | [[QueryEngine] Show vqueue entries' effective status](https://github.com/restatedev/restate/commit/d4e1f615daf8f6c6cf2e7b88987ab06a880977b6) | AhmedSoliman |
+| 2026-11-20 | [[PartitionStore] Retire finished_entry_by_outcome/1](https://github.com/restatedev/restate/commit/bc082154786182148ea10ffd2f4d0bf3463e0e38) | AhmedSoliman |
+| 2026-11-20 | [[Types] Add the effective status of vqueue entries](https://github.com/restatedev/restate/commit/9adadb7d17c2d312b5a960e315a3adfe1b65b4fa) | AhmedSoliman |
+| 2026-11-20 | [[Types] Move vqueue entries' Stage and Status to restate-types](https://github.com/restatedev/restate/commit/e052ec54144317b18300d88f8eaabcb3d67f297c) | AhmedSoliman |
+| 2026-11-20 | [[Metadata] Add restate.schema.size.bytes gauge](https://github.com/restatedev/restate/commit/cf50c3e299e5e479bd907bff8a40b66f62c27c31) | tillrohrmann |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

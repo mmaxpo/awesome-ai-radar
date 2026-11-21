@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 5.1k |
-| 🍴 **Forks** | 708 |
-| 🐞 **Open issues + PRs** | [25](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
+| ⭐ **Stars** | 5.2k |
+| 🍴 **Forks** | 718 |
+| 🐞 **Open issues + PRs** | [26](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 68% · C 16% · Go 7% · C++ 4% · Python 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `airplay` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `dsh-plugin` `claude-code` `ios` `ios-automation` `mcp` `mcp-server` `mobile-agent` `phone-agent` `screen-mirroring` `xiao-esp32s3` `manina-ai` `seeed-xiao` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-10-11 |
 | 📦 **Latest release** | [v1.0.7](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.7) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 19.6 MB |
+| 💾 **Size** | 19.7 MB |
 | 🌐 **Website** | https://manina.ai?ref=github |
 
 ## 📦 Recent releases
 
 ### [v1.0.7](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.7) — Manina AI 1.0.7 (TestFlight)
-<sub>2026-11-18 · yesterday</sub>
+<sub>2026-11-18 · 2d ago</sub>
 
 > **App 1.0.7 · firmware 0.2.6 (TestFlight)**
 > - Agent: model replies are read off the main thread (board replies no longer wait behind them), and the app logs what the main thread runs when it stalls.
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.0.6-build17](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.6-build17) — Handsy 1.0.6 build 17 (TestFlight)
-<sub>2026-11-15 · 4d ago</sub>
+<sub>2026-11-15 · 5d ago</sub>
 
 > - App: a start whose Home gestures did nothing while the board's USB is up, but with no mouse on this iPhone,
 >   says to plug the board straight into this iPhone and tap Allow for the accessory, and goes on by itself once
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.0.5](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.5) — Handsy 1.0.5 (TestFlight)
-<sub>2026-11-13 · 6d ago</sub>
+<sub>2026-11-13 · 7d ago</sub>
 
 > **Highlights**
 > **Phone calls and texts (Beta).** The agent dials, speaks through iOS Live Speech and hears the other side through Live Captions. Here it books a haircut:
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.0.4](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.4) — Handsy 1.0.4 (TestFlight)
-<sub>2026-11-13 · 6d ago</sub>
+<sub>2026-11-13 · 7d ago</sub>
 
 > **Highlights**
 > - DeepSeek models no longer wait on high-effort thinking for each step (#118).
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.0.3](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.3) — Handsy 1.0.3 (TestFlight)
-<sub>2026-11-13 · 6d ago</sub>
+<sub>2026-11-13 · 7d ago</sub>
 
 > **Highlights**
 > A fix release: typing Chinese no longer crashes the app (#111), the app builds with Xcode 26.3 and 27 (#112), and a round of several gestures goes to the model so a plan isn't redone.

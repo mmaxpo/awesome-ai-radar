@@ -22,20 +22,20 @@
 |---|---|
 | ⭐ **Stars** | 1.4k |
 | 🍴 **Forks** | 145 |
-| 🐞 **Open issues + PRs** | [99](https://github.com/mbillow/localthings/issues) |
+| 🐞 **Open issues + PRs** | [88](https://github.com/mbillow/localthings/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `custom-component` `hacs` `hacs-integration` `home-assistant` `home-automation` `samsung` `smartthings` `coap-protocol` `coap-server` `dtls` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-06-30 |
 | 📦 **Latest release** | [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 6.6 MB |
+| 💾 **Size** | 6.7 MB |
 
 ## 📦 Recent releases
 
 ### [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0)
-<sub>2026-11-15 · 4d ago</sub>
+<sub>2026-11-15 · 5d ago</sub>
 
 > **🚀 Highlights**
 > - **Samsung TVs.** Media player (power, volume, input, sound mode, channel and now-showing), picture mode, Wake-on-LAN, remote, notifications, apps and casting. Not yet run on hardware as merged. Thanks to @benjaml4 and @vmonkey! (#755, #856, part of #388)
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.38.0](https://github.com/mbillow/localthings/releases/tag/v0.38.0)
-<sub>2026-11-11 · 9d ago</sub>
+<sub>2026-11-11 · 10d ago</sub>
 
 > **⭐️🌟⭐️ One Thousand Stars ⭐️🌟⭐️**
 > **LocalThings now has over 1,000 stars on GitHub!**
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.37.0](https://github.com/mbillow/localthings/releases/tag/v0.37.0)
-<sub>2026-11-08 · 12d ago</sub>
+<sub>2026-11-08 · 13d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbar media player.** Power, volume, mute, source, sound mode, playback, seek, shuffle and track info. Confirmed on the HW-Q950T. Thanks to @vmonkey and @benjaml4! (#775, part of #388)
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.36.0](https://github.com/mbillow/localthings/releases/tag/v0.36.0)
-<sub>2026-11-02 · 18d ago</sub>
+<sub>2026-11-02 · 19d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbars.** Boards without `/device/0` now set up, starting with the HW-S61B (sensors, selects, switches, numbers, buttons). Media player and TV come later. Thanks to @vmonkey! (#606, part of #388)
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.35.0](https://github.com/mbillow/localthings/releases/tag/v0.35.0)
-<sub>2026-10-28 · 22d ago</sub>
+<sub>2026-10-28 · 23d ago</sub>
 
 > **🚀 Highlights**
 > - **Two new languages.** French and Brazilian Portuguese join the existing eight. The four actions (Start cooking and the three resource actions) can now be translated, and every language has them. Thanks to @3615nulsi and @eduardobittencourt! (#617, #694, from #686)
@@ -93,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [UN55DU7200 coverage, and redact a TV's location and addresses (#895) …](https://github.com/mbillow/localthings/commit/f86a819c4371be1db3d21e1e06c44b4620dbce33) | mbillow |
+| 2026-11-21 | [Fixes for issues #867–#891 (#893)](https://github.com/mbillow/localthings/commit/6f3433131e6377336d5c261ed0f62a8a0ac11080) | mbillow |
 | 2026-11-20 | [Enforce target control permission for cooking actions (#778)](https://github.com/mbillow/localthings/commit/5b0e8b64727871f2d0d5242cf971781488aa92f3) | leejaew |
 | 2026-11-20 | [Fix TV Wake-on-LAN on default-only network adapters (#872)](https://github.com/mbillow/localthings/commit/a711b609966ee8457d4796b5440c087ab7bd87c3) | eduardobittencourt |
 | 2026-11-20 | [Keep a known sibling whose seed answered when its probe times out (#885)](https://github.com/mbillow/localthings/commit/58c5dd83e6c177c2bcf5edf5594ea3f2d5df563b) | antiremy |
@@ -101,8 +103,6 @@
 | 2026-11-19 | [Say in the README that diagnostics keep the OCF device ID (#874) (#892)](https://github.com/mbillow/localthings/commit/5815224dce7fb4395716cc842c333e65e52d38e8) | wit3 |
 | 2026-11-15 | [Bump version to 0.39.0](https://github.com/mbillow/localthings/commit/11a23140c5d2493ecb616fdffff8128faa0bc953) | mbillow |
 | 2026-11-15 | [Decode the NY9100DW burner entities when no Fuel_ token is reported (…](https://github.com/mbillow/localthings/commit/6cfeb7bee52a5301c7573b797f66ade42b0178d4) | Varshavia |
-| 2026-11-15 | [Add Samsung FlexDry DM9900M support (#866)](https://github.com/mbillow/localthings/commit/af605a707ee8cd22ff14e90c6c9073d70f02cf44) | mbillow |
-| 2026-11-15 | [Decode the NY9100DW burners and retire the raw burner mask (#865)](https://github.com/mbillow/localthings/commit/57d5c76f4487c0375cdf85df75babd57712b954a) | mbillow |
 
 [See all commits ↗](https://github.com/mbillow/localthings/commits)
 

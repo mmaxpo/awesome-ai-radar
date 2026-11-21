@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/firecrawl/firecrawl)
 
-> Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.
+> Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
 
 ## 📝 Notes
 
@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 204.8k |
-| 🍴 **Forks** | 10.7k |
-| 🐞 **Open issues + PRs** | [874](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 73% · Python 10% · Rust 5% · Java 3% · PHP 2% |
+| ⭐ **Stars** | 205.8k |
+| 🍴 **Forks** | 10.8k |
+| 🐞 **Open issues + PRs** | [895](https://github.com/firecrawl/firecrawl/issues) |
+| 💻 **Languages** | TypeScript 74% · Python 10% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 188.7 MB |
+| 💾 **Size** | 188.4 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-20 | [feat(api): add HOSTED_MCP_PROXY_SECRET for hosted MCP API-key request…](https://github.com/firecrawl/firecrawl/commit/41b36dfd28ad69df7da221d1d51f3d5fb4838be3) | Ben2W |
+| 2026-11-20 | [feat(api): name the search that led to each Alexandria call (#5934)](https://github.com/firecrawl/firecrawl/commit/e6f43250c51fb9811f1e60c016f146599d38b9e6) | nickscamara |
+| 2026-11-20 | [feat(threat-protection): raise org domain list cap to 10,000 and inde…](https://github.com/firecrawl/firecrawl/commit/f96a5154660165061d5b1defa0091bee28571f5d) | micahstairs |
+| 2026-11-20 | [feat(api): feedback for interact and browser sessions, and trace ids …](https://github.com/firecrawl/firecrawl/commit/380e1db208519c84bc57d533411854180c714f73) | nickscamara |
 | 2026-11-20 | [fix(api): send the scrape deadline to the Exchange (#5921)](https://github.com/firecrawl/firecrawl/commit/87202348f7b3c5273c237fe8b47d3c2568f4938c) | capy-ai[bot] |
 | 2026-11-20 | [chore(api): remove the hosted bash endpoint at /v2/bash (#5889)](https://github.com/firecrawl/firecrawl/commit/484be117975ac7b8be085c25f1fbd54d005f17ff) | Ben2W |
 | 2026-11-20 | [fix(api): durably retry monitor settles and bill monitor runs that to…](https://github.com/firecrawl/firecrawl/commit/a40eeffae134f0011531548513ad33b8ec13f72f) | micahstairs |
 | 2026-11-19 | [feat(api): add account endpoint group to key restrictions (#5881)](https://github.com/firecrawl/firecrawl/commit/dc37f52f9670be4ef3077f97f31096b2d0657205) | micahstairs |
 | 2026-11-19 | [feat(pdf): remove the RunPod MinerU engine from the PDF fallback chai…](https://github.com/firecrawl/firecrawl/commit/a38c6812f22ec1c97c97fcad431d8bcc728e3e89) | abimaelmartell |
 | 2026-11-19 | [README: lead with Firecrawl Local, then Firecrawl Cloud and self-host…](https://github.com/firecrawl/firecrawl/commit/8642a5271e692e9ebeccdc379ad87c85ac7dd7d0) | ericciarla |
-| 2026-11-19 | [fix(crawl): skip per-link URL locks once the crawl limit is reached (…](https://github.com/firecrawl/firecrawl/commit/5e66950a112277d6925bf486bb9fb7b4dd108e6a) | mogery |
-| 2026-11-19 | [fix(branding): font roles and one font-name normalizer (#5853)](https://github.com/firecrawl/firecrawl/commit/b89068de9b4865e40c0cbd626a017d20db697041) | abimaelmartell |
-| 2026-11-19 | [feat(api): export BullMQ queue depth and overdue age from the reconci…](https://github.com/firecrawl/firecrawl/commit/78054d10314547b23459cfadb30eccdb779b7ff4) | micahstairs |
-| 2026-11-18 | [fix(branding): don't cut surrogate pairs when the branding script tru…](https://github.com/firecrawl/firecrawl/commit/1510bc4fff9c7014f6fa5be0f821ece168a69d13) | abimaelmartell |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

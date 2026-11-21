@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.0k |
-| 🍴 **Forks** | 647 |
+| ⭐ **Stars** | 8.1k |
+| 🍴 **Forks** | 648 |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-08-06 |
 | 📦 **Latest release** | [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 85.7 MB |
+| 💾 **Size** | 88.2 MB |
 
 ## 📦 Recent releases
 
 ### [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216)
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: two fixes — evidence file is now readable after the run completes + one retry added for the small-window round in  | gate 两个修复:跑完后证据文件能读了 + R 车道小窗口轮次加一次重试 by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6808
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
-<sub>2026-11-15 · 5d ago</sub>
+<sub>2026-11-15 · 6d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · 6d ago</sub>
+<sub>2026-11-14 · 7d ago</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 12d ago</sub>
+<sub>2026-11-07 · 13d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.1.212](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.212)
-<sub>2026-11-02 · 17d ago</sub>
+<sub>2026-11-02 · 18d ago</sub>
 
 > **What's Changed**
 > * [PR] (ai: anthropic/claude-opus-4-6) fix(release): nuclear box = deps download + build + publish, zero checks; add local zero-install publish script by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5436
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [Merge pull request #7392 from ranxianglei/batch/afloat16-layered-2026…](https://github.com/ranxianglei/billion-context/commit/f7621b130eb64adb97451edfaa9b0cab42ca15d5) | ranxianglei |
-| 2026-11-20 | [docs: update stale force comment in image-rescale.ts](https://github.com/ranxianglei/billion-context/commit/d5ab3aa56ca7890c42ff5bba47d7c9c57b519385) | ci-check |
-| 2026-11-20 | [Merge PR #7375: fix(web): preserve the complete blog feed on manifest…](https://github.com/ranxianglei/billion-context/commit/dd59c3dd893535e1ab5b9f18c831b09727e69ca8) | ranxianglei |
-| 2026-11-20 | [Merge PR #7292: fix(web): refresh cached disk summaries when prices c…](https://github.com/ranxianglei/billion-context/commit/1f18f6618533da61d5c55f351f486b12abea876b) | ranxianglei |
-| 2026-11-20 | [Merge PR #7384: fix(web): release unread changelog error response bodies](https://github.com/ranxianglei/billion-context/commit/be466452916308a3bedeb16825985a979e67a213) | ranxianglei |
-| 2026-11-20 | [Merge PR #7370: fix: refresh skipped-proxy evidence in repeated alerts](https://github.com/ranxianglei/billion-context/commit/5aaefd5ed8d60a9c0ccbca7ca3d015341d5f893a) | ranxianglei |
-| 2026-11-20 | [Merge PR #7362: fix: keep listen retries within the valid port range](https://github.com/ranxianglei/billion-context/commit/2e2c68a26162ab401a18181acf3ec59dec7e76e7) | ranxianglei |
-| 2026-11-20 | [Merge PR #7359: fix(web): avoid repeated scans of malformed Markdown …](https://github.com/ranxianglei/billion-context/commit/d9733b4d5715cf2092112715afec40e295847ebf) | ranxianglei |
-| 2026-11-20 | [Merge PR #7341: refactor(web): share unread blog response cleanup](https://github.com/ranxianglei/billion-context/commit/159d247fe7f6b94090f274e9608d9faaaafe732d) | ranxianglei |
-| 2026-11-20 | [Merge PR #7294: fix(diagnostics): avoid reading unused log generations](https://github.com/ranxianglei/billion-context/commit/49d604aec41403b5678285ef51d56a6b6a21f3db) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7385 from ranxianglei/2026-11-20_preflight-failfa…](https://github.com/ranxianglei/billion-context/commit/371930c5ce9595e3a7561e724676789aea751dc7) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7368 from ranxianglei/2026-11-20_failfast-log-pre…](https://github.com/ranxianglei/billion-context/commit/e70103770db1a650726d94185e277f344898ad82) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7454 from ranxianglei/2026-11-21_byte-cap-media-s…](https://github.com/ranxianglei/billion-context/commit/67e9bc20ffa61ed0ac82e12f2807b7593a208465) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7324 from ranxianglei/2026-11-19_no-proxy-hold-ipv6](https://github.com/ranxianglei/billion-context/commit/a279b922a701967dcd4c9ca980dc4377c14f8852) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7423 from ranxianglei/2026-11-21_opencode-fork-li…](https://github.com/ranxianglei/billion-context/commit/410d9fe61590694bfdb958717131f9b418f1c497) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7417 from sx4im/fix-7416-tag-echo-turn-bleed](https://github.com/ranxianglei/billion-context/commit/c4ba79dcdb4786483ad6d0d71fcd182f35812275) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7343 from ranxianglei/2026-11-20_dead-code-4739-r…](https://github.com/ranxianglei/billion-context/commit/acc6a17e22208a79de86b574c48ae598de0eaad0) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7304 from Afloat16/2026-11-19_snapshot-kv-read-fa…](https://github.com/ranxianglei/billion-context/commit/76d54e373ce026a6add81a4dd37d8295afa118ad) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7298 from Afloat16/2026-11-19_gc-companion-metada…](https://github.com/ranxianglei/billion-context/commit/037a8d97f855df238ce4d68f72534c14c8abfbba) | ranxianglei |
+| 2026-11-21 | [Merge pull request #7457 from ranxianglei/2026-11-21_workbuddy-lane](https://github.com/ranxianglei/billion-context/commit/9bf4d48c87a6c4be7fb7ef71178ce4b79375fdb2) | ranxianglei |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

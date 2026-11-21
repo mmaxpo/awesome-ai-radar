@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.0](https://github.com/tensorchord/pgvecto.rs/releases/tag/v0.4.0)
-<sub>2024-11-21 · 1y ago</sub>
+<sub>2024-11-21 · 2y ago</sub>
 
 > **What's Changed**
 > * feat: increment build by @usamoi in https://github.com/tensorchord/pgvecto.rs/pull/508
