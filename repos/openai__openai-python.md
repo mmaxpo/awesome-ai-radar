@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 32.2k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [99](https://github.com/openai/openai-python/issues) |
+| 🐞 **Open issues + PRs** | [105](https://github.com/openai/openai-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `openai` `python` |

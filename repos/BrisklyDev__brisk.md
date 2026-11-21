@@ -24,7 +24,7 @@
 | 💻 **Languages** | Dart 78% · Rust 9% · C++ 8% · CMake 3% · Swift 2% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `download-manager` `downloader` `downloadmanager` `linux` `windows` `macos` |
-| 🕒 **Last activity** | 2026-11-12 (8d ago) |
+| 🕒 **Last activity** | 2026-11-12 (9d ago) |
 | 📅 **Created** | 2023-02-13 |
 | 📦 **Latest release** | [2.5.0.flatpak-hotfix](https://github.com/BrisklyDev/brisk/releases/tag/2.5.0.flatpak-hotfix) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
@@ -33,7 +33,7 @@
 ## 📦 Recent releases
 
 ### [2.5.0.flatpak-hotfix](https://github.com/BrisklyDev/brisk/releases/tag/2.5.0.flatpak-hotfix)
-<sub>2026-11-12 · 8d ago</sub>
+<sub>2026-11-12 · 9d ago</sub>
 
 > _No notes._
 

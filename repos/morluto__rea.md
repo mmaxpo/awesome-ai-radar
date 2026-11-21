@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 472.2k |
+| ⭐ **Stars** | 472.4k |
 | 🍴 **Forks** | 115.3k |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/morluto/rea/issues) |
-| 💻 **Languages** | TypeScript 92% · JavaScript 5% · Python 1% · HTML 1% |
+| 💻 **Languages** | TypeScript 91% · JavaScript 5% · HTML 1% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `cli` `mcp` `agent-skills` `dsh-plugin` `claude-code` `rea` `touhou` `android` `javascript` `python` `typescript` `nodejs` `linux` `ai` `security` `java` `cpp` `rust` `react` `html` |
 | 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-04-14 |
 | 📦 **Latest release** | [rea-agents-6.10.1](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 195.4 MB |
+| 💾 **Size** | 199.1 MB |
 | 🌐 **Website** | https://rea.tools |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [docs(readme): simplify setup and move target details to the reference](https://github.com/morluto/rea/commit/a914bba78df46985618598a8e4ef79145acd3784) | morluto |
-| 2026-11-21 | [test(web): consolidate Browser worker inventory proofs (#13098)](https://github.com/morluto/rea/commit/e6df39bbba9c434942e742540b41c9e39a368bb3) | morluto |
-| 2026-11-21 | [test(web): consolidate CDP binary body proofs (#13097)](https://github.com/morluto/rea/commit/15855137b79de905bb63e4a6afdf08c8410ed865) | morluto |
-| 2026-11-21 | [docs(readme): refresh project badges](https://github.com/morluto/rea/commit/c7bc7436b4c354aabd34723b22dae7e544ee9a5e) | morluto |
-| 2026-11-21 | [test(web): consolidate CDP request identity and redirect proofs (#13096)](https://github.com/morluto/rea/commit/9a16142fad208c1c8c1abef5bb401172b09f086f) | morluto |
-| 2026-11-21 | [test(web): consolidate CDP response body lifecycle proofs (#13094)](https://github.com/morluto/rea/commit/e76b521461b64907795435eba9db5b79e0af2e3e) | morluto |
-| 2026-11-21 | [test(web): consolidate CDP response status proofs (#13095)](https://github.com/morluto/rea/commit/68f13d06d22ba9b5a57788c3aba29c7bd6a3dd70) | morluto |
-| 2026-11-21 | [test(web): consolidate passive CDP event fact proofs (#13093)](https://github.com/morluto/rea/commit/47a108e64e3cf981901673e2bb795bace99235b8) | morluto |
-| 2026-11-21 | [test(web): consolidate passive CDP admission proofs (#13092)](https://github.com/morluto/rea/commit/750120a4ce5405ca3b803287be8d522d21e341d9) | morluto |
-| 2026-11-21 | [test(web): consolidate script metadata admission and projection proof…](https://github.com/morluto/rea/commit/6878e24cc75aba57f04e1d60aec9d39d19c3659d) | morluto |
+| 2026-11-21 | [fix(website): match social preview accents to REA blue](https://github.com/morluto/rea/commit/753321dda66d840c58008119a9e6852cd7c64f25) | morluto |
+| 2026-11-21 | [test(web): consolidate transaction admission and omission checks (#13…](https://github.com/morluto/rea/commit/c9a6f5dedc7766424e9d82d29a94d8ed39064fd9) | morluto |
+| 2026-11-21 | [test(web): consolidate network capture queue lifecycle checks (#13125)](https://github.com/morluto/rea/commit/9a9ee6cf3d97fffea4849902872ad9b028cbc54f) | morluto |
+| 2026-11-21 | [test(web): exercise encoded query limits across heap sizes (#13123)](https://github.com/morluto/rea/commit/c09a27770fd123bcb26204f7730dbd824cd6971b) | morluto |
+| 2026-11-21 | [test(web): consolidate saved scenario path checks (#13122)](https://github.com/morluto/rea/commit/b5cb5e2f0dd740993dc35a02c8d94068cf79df46) | morluto |
+| 2026-11-21 | [fix(website): use the blue REA wordmark for site icons](https://github.com/morluto/rea/commit/2c4776d9aa9c1167da96f75a27645a23ef3a348e) | morluto |
+| 2026-11-21 | [test(web): consolidate UI response observation lifecycle checks (#13121)](https://github.com/morluto/rea/commit/648d1f8f9d45822fbb729492a9519d12d4cf6fa6) | morluto |
+| 2026-11-21 | [test(web): consolidate scenario response body bounds (#13120)](https://github.com/morluto/rea/commit/6ae91b2a10ee178c057c0afecf2c6a012824cdde) | morluto |
+| 2026-11-21 | [feat(website): publish page-specific previews with the original REA blue](https://github.com/morluto/rea/commit/1dd25d87c7ba440b6256c644a556901eac1b3bbb) | morluto |
+| 2026-11-21 | [test(web): control scenario request deadline phases (#13119)](https://github.com/morluto/rea/commit/6ecafb590e4c506ac932877580f07b60ed7d9e91) | morluto |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [shadcn@4.23.0](https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0) — 2026-10-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 73.5 MB |
+| 💾 **Size** | 73.4 MB |
 | 🌐 **Website** | https://ui.shadcn.com |
 
 ## 📦 Recent releases
@@ -74,6 +74,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [chore(deps-dev): bump the deps group in /templates/vite-app with 2 up…](https://github.com/shadcn-ui/ui/commit/bfa64ff4d1cb7317d2403ecb176df6826d4caffc) | dependabot[bot] |
 | 2026-11-21 | [chore(deps-dev): bump the deps group in /templates/start-app with 2 u…](https://github.com/shadcn-ui/ui/commit/654a6d78ea6754b9c98444cf7bbf5dfe2bf546ce) | dependabot[bot] |
 | 2026-11-20 | [chore(deps-dev): bump the deps group (#12775)](https://github.com/shadcn-ui/ui/commit/45bbf9ba23c9c0f63d38887947e5fb06f59c7da3) | dependabot[bot] |
 | 2026-11-20 | [chore(deps): bump the deps group (#12779)](https://github.com/shadcn-ui/ui/commit/4e36f8731103654574f02afdcd8543c4a8a9b916) | dependabot[bot] |
@@ -83,7 +84,6 @@
 | 2026-11-20 | [chore(deps-dev): bump the deps group (#12769)](https://github.com/shadcn-ui/ui/commit/c02800d2e37757039bacfc3483ef8e6415226265) | dependabot[bot] |
 | 2026-11-20 | [chore(deps): bump the deps group in /templates/next-app with 3 update…](https://github.com/shadcn-ui/ui/commit/ad730ab0c3ed38bed560500e575440760db60f5c) | dependabot[bot] |
 | 2026-11-19 | [feat(registry): add community registries (#12763)](https://github.com/shadcn-ui/ui/commit/f50887ae68d0fdcbfbe86b57be08af94a4c88a68) | shadcn |
-| 2026-11-17 | [feat(registry): add community registries (#12740)](https://github.com/shadcn-ui/ui/commit/968d8cb9dc42ae5d52e8fd356cf84596ec832a26) | shadcn |
 
 [See all commits ↗](https://github.com/shadcn-ui/ui/commits)
 

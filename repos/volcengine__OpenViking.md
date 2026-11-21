@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 431.3 MB |
+| 💾 **Size** | 431.4 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases

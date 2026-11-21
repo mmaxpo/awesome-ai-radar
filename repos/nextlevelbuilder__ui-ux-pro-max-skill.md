@@ -23,14 +23,14 @@
 | ⭐ **Stars** | 152.4k |
 | 🍴 **Forks** | 16.1k |
 | 🐞 **Open issues + PRs** | [85](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
-| 💻 **Languages** | Python 81% · TypeScript 8% · JavaScript 6% · HTML 4% |
+| 💻 **Languages** | Python 82% · TypeScript 8% · JavaScript 6% · HTML 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-skills` `antigravity` `claude` `claude-code` `command-line` `copilot` `cursor-ai` `html5` `kiro` `landing-page` `mobile-ui` `react` `tailwindcss` `ui-design` `uikit` `windsurf-ai` `codex` `qoder` `trae` |
 | 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2025-11-30 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases/tag/v2.15.0) — 2026-08-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 8.9 MB |
+| 💾 **Size** | 8.8 MB |
 | 🌐 **Website** | https://www.uupm.cc/ |
 
 ## 📦 Recent releases

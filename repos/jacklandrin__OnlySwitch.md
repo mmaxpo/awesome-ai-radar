@@ -26,7 +26,7 @@
 | 💻 **Languages** | Swift 80% · HTML 13% · JavaScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `macos` `swiftui` `statusbar` `menubar-app` `notch` `audioplayer` `dark-mode` `pomodoro-timer` `shortcuts` `composable-architecture` `stagemanager` `widgetkit` `widgets` `ai` `ai-agents` `remote-control` `systemmonitor` `claude-code` `codex` `screenshot` |
-| 🕒 **Last activity** | 2026-11-18 (2d ago) |
+| 🕒 **Last activity** | 2026-11-18 (3d ago) |
 | 📅 **Created** | 2021-11-30 |
 | 📦 **Latest release** | [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
@@ -58,7 +58,7 @@
 > …
 
 ### [beta_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.7.0) _(pre-release)_
-<sub>2026-11-15 · 5d ago</sub>
+<sub>2026-11-15 · 6d ago</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.

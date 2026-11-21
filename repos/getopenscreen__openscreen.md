@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.3.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0)
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > <p align="center">
 >   <img src="https://raw.githubusercontent.com/getopenscreen/openscreen/v2.3.0/public/openscreen.png" alt="OpenScreen" width="64" />

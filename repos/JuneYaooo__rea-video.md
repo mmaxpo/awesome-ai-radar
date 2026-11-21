@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 11.6k |
 | 🍴 **Forks** | 1.7k |
-| 🐞 **Open issues + PRs** | [8](https://github.com/JuneYaooo/rea-video/issues) |
+| 🐞 **Open issues + PRs** | [5](https://github.com/JuneYaooo/rea-video/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai-video` `aigc-detection` `claude-code` `codex` `ffmpeg` `prompt-engineering` `remotion` `reverse-engineering` `short-video` `shot-detection` `subtitles` `video-analysis` `video-breakdown` `video-editing` `video-generation` `vlm` `videomd` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-10-29 |
 | 📦 **Latest release** | [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 72.8 MB |
+| 💾 **Size** | 72.9 MB |
 | 🌐 **Website** | https://www.reavideo.ai/ |
 
 ## 📦 Recent releases
@@ -50,16 +50,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Refresh report layout](https://github.com/JuneYaooo/rea-video/commit/612b3ef523c868d4c7cd5741ce29ba159f7582cb) | JuneYaooo |
+| 2026-11-21 | [Keep pitch frames steady and clarify Windows setup](https://github.com/JuneYaooo/rea-video/commit/2901858590cd919aeb48a9d0ab8b34463ea1b51a) | JuneYaooo |
+| 2026-11-21 | [Fix pitch analysis past the end of audio](https://github.com/JuneYaooo/rea-video/commit/3d9a740b7b5d449b3cba7af16a0125ee38276163) | zitihc |
+| 2026-11-21 | [fmt_time: carry rounded-up seconds into the minutes](https://github.com/JuneYaooo/rea-video/commit/8fae330148b6ea4a8ee76db88e425462fb1a2616) | nurlanmnn |
+| 2026-11-21 | [docs(setup): say which Python the Windows install uses](https://github.com/JuneYaooo/rea-video/commit/27cc34c0d7cad1285807f32fd0cc6c177ce6a8b1) | xdAsaah |
 | 2026-11-21 | [Handle image paths and Windows setup](https://github.com/JuneYaooo/rea-video/commit/4d98dd8dd1838edfa58037cf4df9d1cccc245da7) | JuneYaooo |
 | 2026-11-21 | [Report a missing ffmpeg when probe runs, not a missing file](https://github.com/JuneYaooo/rea-video/commit/73541597454c29281103e03029ba7bdb439875b7) | xdAsaah |
 | 2026-11-21 | [Tell Windows users how to install ffmpeg and Python, and how to link …](https://github.com/JuneYaooo/rea-video/commit/1526ca3b3c9c166f16a6425f34667981d7041725) | xdAsaah |
 | 2026-11-21 | [Find browsers in the 64-bit and per-user Windows install locations](https://github.com/JuneYaooo/rea-video/commit/6eb1e1779e57426a3ccf3b2e4cd8d992ce8180b5) | xdAsaah |
 | 2026-11-20 | [Find magic reveals and highlight moments](https://github.com/JuneYaooo/rea-video/commit/131d1527557d2cccacb64059d47560964235acd7) | JuneYaooo |
-| 2026-11-20 | [Fix SyntaxError on Python <=3.11: apostrophe inside single-quoted f-s…](https://github.com/JuneYaooo/rea-video/commit/82d5463890cbeb1b8442072b8e4665e7efdd76a2) | Godward-Bound |
-| 2026-11-19 | [Keep frame select expressions shallow](https://github.com/JuneYaooo/rea-video/commit/cf12cc73353635dc859cd7fb8a0c471c03ab150d) | JuneYaooo |
-| 2026-11-19 | [Update 3D-Speaker CAM++ checksum after sherpa-onnx re-export](https://github.com/JuneYaooo/rea-video/commit/cd2ca431bdf236d6123f320170bd0d762c2e384d) | BitmanAlan |
-| 2026-11-19 | [Update ChatCut entry](https://github.com/JuneYaooo/rea-video/commit/ac470773188574833b839be17abee6162201ddf9) | JuneYaooo |
-| 2026-11-19 | [Label sponsored tool in skill replies](https://github.com/JuneYaooo/rea-video/commit/7b411d5f18f5ba051465270ac0d7aad49e486d72) | JuneYaooo |
 
 [See all commits ↗](https://github.com/JuneYaooo/rea-video/commits)
 

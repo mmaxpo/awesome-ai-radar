@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 205.8k |
 | 🍴 **Forks** | 10.8k |
-| 🐞 **Open issues + PRs** | [895](https://github.com/firecrawl/firecrawl/issues) |
+| 🐞 **Open issues + PRs** | [896](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 74% · Python 10% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [feat(api): x-firecrawl-work-contact-only leaves personal contact fiel…](https://github.com/firecrawl/firecrawl/commit/e6c2ffdf7072fe9ab72eefa59622454f7480e163) | capy-ai[bot] |
 | 2026-11-20 | [feat(api): add HOSTED_MCP_PROXY_SECRET for hosted MCP API-key request…](https://github.com/firecrawl/firecrawl/commit/41b36dfd28ad69df7da221d1d51f3d5fb4838be3) | Ben2W |
 | 2026-11-20 | [feat(api): name the search that led to each Alexandria call (#5934)](https://github.com/firecrawl/firecrawl/commit/e6f43250c51fb9811f1e60c016f146599d38b9e6) | nickscamara |
 | 2026-11-20 | [feat(threat-protection): raise org domain list cap to 10,000 and inde…](https://github.com/firecrawl/firecrawl/commit/f96a5154660165061d5b1defa0091bee28571f5d) | micahstairs |
@@ -103,7 +104,6 @@
 | 2026-11-20 | [fix(api): durably retry monitor settles and bill monitor runs that to…](https://github.com/firecrawl/firecrawl/commit/a40eeffae134f0011531548513ad33b8ec13f72f) | micahstairs |
 | 2026-11-19 | [feat(api): add account endpoint group to key restrictions (#5881)](https://github.com/firecrawl/firecrawl/commit/dc37f52f9670be4ef3077f97f31096b2d0657205) | micahstairs |
 | 2026-11-19 | [feat(pdf): remove the RunPod MinerU engine from the PDF fallback chai…](https://github.com/firecrawl/firecrawl/commit/a38c6812f22ec1c97c97fcad431d8bcc728e3e89) | abimaelmartell |
-| 2026-11-19 | [README: lead with Firecrawl Local, then Firecrawl Cloud and self-host…](https://github.com/firecrawl/firecrawl/commit/8642a5271e692e9ebeccdc379ad87c85ac7dd7d0) | ericciarla |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

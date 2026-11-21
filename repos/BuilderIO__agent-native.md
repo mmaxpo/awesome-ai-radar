@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 7.7k |
 | 🍴 **Forks** | 711 |
-| 🐞 **Open issues + PRs** | [281](https://github.com/BuilderIO/agent-native/issues) |
+| 🐞 **Open issues + PRs** | [282](https://github.com/BuilderIO/agent-native/issues) |
 | 💻 **Languages** | TypeScript 87% · MDX 10% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `react` `agent-native` `typescript` `agent-framework` `agentic-ai` `ai-agents` `framework` `generative-ui` `mcp` `open-source` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.1.150-nightly.458](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.458) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 614.8 MB |
+| 💾 **Size** | 615.0 MB |
 | 🌐 **Website** | https://www.agent-native.com |
 
 ## 📦 Recent releases

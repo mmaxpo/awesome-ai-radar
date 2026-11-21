@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 93.9k |
+| ⭐ **Stars** | 94.0k |
 | 🍴 **Forks** | 12.6k |
 | 🐞 **Open issues + PRs** | [1.2k](https://github.com/OpenHands/OpenHands/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 7% |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2024-03-13 |
 | 📦 **Latest release** | [v1.43.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.43.0) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 706.6 MB |
+| 💾 **Size** | 706.8 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0)
-<sub>2026-11-12 · 8d ago</sub>
+<sub>2026-11-12 · 9d ago</sub>
 
 > **1.40.0 (2026-11-12)**
 > **What's Changed**

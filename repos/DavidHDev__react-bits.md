@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 52.4k |
-| 🍴 **Forks** | 2.6k |
+| 🍴 **Forks** | 2.7k |
 | 🐞 **Open issues + PRs** | [0](https://github.com/DavidHDev/react-bits/issues) |
 | 💻 **Languages** | JavaScript 58% · TypeScript 38% · CSS 5% |
 | 📜 **License** | Other |

@@ -23,7 +23,7 @@
 | ⭐ **Stars** | 15.4k |
 | 🍴 **Forks** | 4.2k |
 | 🐞 **Open issues + PRs** | [2.5k](https://github.com/jupyterlab/jupyterlab/issues) |
-| 💻 **Languages** | TypeScript 89% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
+| 💻 **Languages** | TypeScript 88% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
 | 🕒 **Last activity** | 2026-11-21 (today) |
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.7.0b1](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b1) _(pre-release)_
-<sub>2026-11-06 · 14d ago</sub>
+<sub>2026-11-06 · 15d ago</sub>
 
 > **4.7.0b1**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b0...ca6210d371e287beb3735824a931824cc0048125))
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6)
-<sub>2026-11-06 · 14d ago</sub>
+<sub>2026-11-06 · 15d ago</sub>
 
 > **4.6.6**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.5...a5eab3ae655dd8cea81618efc936e110d3b22037))
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Skip irrelevant CI jobs on forks (#20576)](https://github.com/jupyterlab/jupyterlab/commit/8f54fc644a1bf840c4c0b9a66a1ecbab48abd53c) | krassowski |
+| 2026-11-21 | [Fix Extension Manager acting on the npm name instead of the Python pa…](https://github.com/jupyterlab/jupyterlab/commit/020fe7364edd12b3c980791cf7ded49b2ee0d67b) | krassowski |
+| 2026-11-21 | [Make CI faster by switching some jobs to build with `skipLibCheck: tr…](https://github.com/jupyterlab/jupyterlab/commit/e77dbc363642eb3d18dbcba29dfad6187b494dcb) | krassowski |
 | 2026-11-20 | [Keep position on output resize in `full` windowing mode (#19253)](https://github.com/jupyterlab/jupyterlab/commit/c233d4b14d548fe55108a883aea5f9f52afe5594) | krassowski |
 | 2026-11-20 | [Fix flaky inline completer, metadata form, workspace reset and output…](https://github.com/jupyterlab/jupyterlab/commit/faafb84f99e8a47ccfb1e6056d046778d68499a4) | krassowski |
 | 2026-11-20 | [Unskip 49/51 remaining skipped Firefox UI tests (#20526)](https://github.com/jupyterlab/jupyterlab/commit/94715db27e023df1f7daf5107f782dd206d3f5f4) | krassowski |
@@ -101,9 +104,6 @@
 | 2026-11-20 | [Prevent overwriting directories and avoid duplicate save on Save As (…](https://github.com/jupyterlab/jupyterlab/commit/adcb6f8af341909efb4af6743f4e0f31025d562a) | Yash990-bit |
 | 2026-11-20 | [Queue console execution during startup (#19148)](https://github.com/jupyterlab/jupyterlab/commit/c6461383200fd3e83c88aa139f4651d104292949) | MUFFANUJ |
 | 2026-11-19 | [Bump xterm.js to 6.1.0 beta to fix Option key on macOS (#20033)](https://github.com/jupyterlab/jupyterlab/commit/d9b9ce566e2e35135f886a1ea812baaafd488c14) | Darshan808 |
-| 2026-11-18 | [Fix untranslated "Find..." in the JSON file viewer (#20542)](https://github.com/jupyterlab/jupyterlab/commit/0d5e83530197cee73b15a11d2c2c29b168db6065) | krassowski |
-| 2026-11-18 | [Fix passing sanitizer options to the completer in consoles (#20535)](https://github.com/jupyterlab/jupyterlab/commit/e2dcd573775358e0db355b8adc5d3f718c13cf31) | krassowski |
-| 2026-11-18 | [Remove unnecessary left alignment of LaTeX outputs (#16967)](https://github.com/jupyterlab/jupyterlab/commit/a1547b980d4dadf61c201ccc183f72f1c9fad41c) | mgeier |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 36.5k |
 | 🍴 **Forks** | 5.6k |
-| 🐞 **Open issues + PRs** | [859](https://github.com/continuedev/continue/issues) |
+| 🐞 **Open issues + PRs** | [860](https://github.com/continuedev/continue/issues) |
 | 💻 **Languages** | TypeScript 84% · JavaScript 8% · Kotlin 4% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `open-source` `developer-tools` `ai` `agent` `cli` |

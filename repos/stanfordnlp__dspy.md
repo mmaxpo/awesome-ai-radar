@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 39.2k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [816](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [818](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (yesterday) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-01-09 |
 | 📦 **Latest release** | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Refresh model metadata provenance to LiteLLM 1.110.2 (#10933)](https://github.com/stanfordnlp/dspy/commit/226d534da38ab8a39e4d6383e01e121dab50da51) | isaacbmiller |
 | 2026-11-19 | [Refresh model metadata provenance to LiteLLM 1.110.1 (#10917)](https://github.com/stanfordnlp/dspy/commit/7fbc8ff1665ee87122f06633270782dbf1f69c6b) | isaacbmiller |
 | 2026-11-18 | [Refresh LiteLLM metadata to 1.110.0 and resolve catalog aliases (#10905)](https://github.com/stanfordnlp/dspy/commit/9d3a8eb04618907854256e5b0fa88ea29e53e10b) | isaacbmiller |
 | 2026-11-12 | [chore: refresh model metadata provenance to LiteLLM 1.109.1 (#10878)](https://github.com/stanfordnlp/dspy/commit/2c07ebbee3a66f6e04b71e141c6c198f1b31a129) | isaacbmiller |
@@ -103,7 +104,6 @@
 | 2026-11-10 | [fix(clients): exclude LiteLLM releases with eager MCP imports (#10863)](https://github.com/stanfordnlp/dspy/commit/4f2ecefc50a31d9e67b621f88c072cee17736753) | isaacbmiller |
 | 2026-11-10 | [docs(dspy): add concise DSPy 3.5 upgrade guide (#10862)](https://github.com/stanfordnlp/dspy/commit/743b0ce16dae7be1e64858724bde95746dacc15b) | isaacbmiller |
 | 2026-11-10 | [docs: make the RLM sandbox package example executable (#10860)](https://github.com/stanfordnlp/dspy/commit/471b3fb0e4efad45dbac980e42b1258f55a245cf) | isaacbmiller |
-| 2026-11-10 | [Fix tool call IDs in serialized ReAct history (#10844)](https://github.com/stanfordnlp/dspy/commit/c472201fc7bd06fbcd712bf083d69908f6777080) | isaacbmiller |
 
 [See all commits ↗](https://github.com/stanfordnlp/dspy/commits)
 

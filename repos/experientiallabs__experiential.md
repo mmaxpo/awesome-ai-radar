@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 18.2k |
-| 🍴 **Forks** | 321 |
+| 🍴 **Forks** | 323 |
 | 🐞 **Open issues + PRs** | [182](https://github.com/experientiallabs/experiential/issues) |
 | 💻 **Languages** | Python 87% · Rust 12% |
 | 📜 **License** | Apache-2.0 |

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 38.9k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [478](https://github.com/CopilotKit/CopilotKit/issues) |
+| 🐞 **Open issues + PRs** | [479](https://github.com/CopilotKit/CopilotKit/issues) |
 | 💻 **Languages** | TypeScript 80% · Python 6% · MDX 5% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` `agent` `agents` `ai-agent` `ai-assistant` `assistant` `copilot` `copilot-chat` `agent-native` `agentic-ai` `assistant-chat-bots` `generative-ui` `js` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.90.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.0)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > This release adds framework-level telemetry to the runtime and sends the CopilotKit version to the Intelligence gateway, giving the gateway the context it needs to tailor behavior to a client's version.
 

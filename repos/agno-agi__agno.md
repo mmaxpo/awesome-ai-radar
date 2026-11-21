@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 22d ago</sub>
+<sub>2026-10-29 · 23d ago</sub>
 
 > **Changelog**
 > **New Features:**

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 58.0k |
 | 🍴 **Forks** | 4.4k |
-| 🐞 **Open issues + PRs** | [54](https://github.com/Imbad0202/academic-research-skills/issues) |
+| 🐞 **Open issues + PRs** | [55](https://github.com/Imbad0202/academic-research-skills/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `academic-writing` `ai-research` `claude` `claude-code` `literature-review` `peer-review` `prompt-engineering` `academic-pipeline` |

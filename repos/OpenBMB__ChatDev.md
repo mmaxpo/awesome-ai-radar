@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 34.8k |
 | 🍴 **Forks** | 4.4k |
-| 🐞 **Open issues + PRs** | [129](https://github.com/OpenBMB/ChatDev/issues) |
+| 🐞 **Open issues + PRs** | [131](https://github.com/OpenBMB/ChatDev/issues) |
 | 💻 **Languages** | Python 70% · Vue 28% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |

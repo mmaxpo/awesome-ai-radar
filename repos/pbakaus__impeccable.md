@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 114.3k |
+| ⭐ **Stars** | 114.4k |
 | 🍴 **Forks** | 6.8k |
 | 🐞 **Open issues + PRs** | [69](https://github.com/pbakaus/impeccable/issues) |
 | 💻 **Languages** | Rust 75% · JavaScript 23% · TypeScript 1% |

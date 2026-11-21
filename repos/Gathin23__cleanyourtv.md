@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 59.9k |
+| ⭐ **Stars** | 60.0k |
 | 🍴 **Forks** | 7.9k |
-| 🐞 **Open issues + PRs** | [159](https://github.com/Gathin23/cleanyourtv/issues) |
+| 🐞 **Open issues + PRs** | [165](https://github.com/Gathin23/cleanyourtv/issues) |
 | 💻 **Languages** | Python 54% · Java 41% · Kotlin 2% · Shell 2% · PowerShell 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `adb` `android-tv` `claude-code` `debloat` `launcher` `xiaomi` `android-tv-launcher` `bloatware-removal` `google-tv` `smart-tv` `sony-bravia` `tcl` `adblock` `apple-tv` `fire-tv` `privacy` `vibe-coding` |
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.4.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.4.0) — CleanYourTV 3.4: five new themes, 442 TV models and tighter security
-<sub>2026-11-05 · 15d ago</sub>
+<sub>2026-11-05 · 16d ago</sub>
 
 > Think of CleanYourTV as the Linux of smart TVs: an open base that anyone can start from. In four days, people built on it again: **five new themes**, from photos taken on the space station to a snowy night with Santa's sleigh, two new add-ons, and **212 projects in the showcase**, made by people who took the launcher and made it theirs. The launcher itself gets fixes for clocks that stopped, Mi TV picture settings and remote buttons that opened the wrong app.
 > Since v3.3.0: **442 TV models** (from 407), **117 brands** (from 106), **21 themes** (from 16), **33 add-ons** (from 31), **212 projects in the showcase** (from 177), **247 pull requests from 143 people** in four days. No binaries, as always: build the launcher with `launcher/build-and-install.sh`.
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.3.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.3.0) — CleanYourTV 3.3: hold OK to move your apps
-<sub>2026-11-01 · 19d ago</sub>
+<sub>2026-11-01 · 20d ago</sub>
 
 > Your Home, in the order you want it. In v3.3, hold OK on any app on Home and a small menu opens: **Move**, **App info**, and **Remove from Home** when the App library is on. Choose Move, the arrows carry the tile, and Back puts it down. Until now this menu was a switch you had to find and turn on; in 3.3 every Home has it. The rest of this release is three days of the community at work: 47 more TVs, four new themes, Asturian in the launcher, and tools that tell you in a plain sentence when they can't reach your TV.
 > Since v3.2.0: **407 TV models** (from 360), **106 brands** (from 97), **31 languages** (from 30), **16 themes** (from 12), **177 projects in the showcase** (from 151), **262 pull requests from 163 people** in three days (v3.2 had 177 from 104 in two days). No binaries, as always: build the launcher with `launcher/build-and-install.sh`.

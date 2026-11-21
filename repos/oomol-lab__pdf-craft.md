@@ -58,7 +58,7 @@
 > …
 
 ### [v2.6.5](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.5)
-<sub>2026-10-26 · 25d ago</sub>
+<sub>2026-10-26 · 26d ago</sub>
 
 > **PDF Craft v2.6.5**
 > PDF Craft 2.6.5 adds translation-size previews and operation-scoped resource

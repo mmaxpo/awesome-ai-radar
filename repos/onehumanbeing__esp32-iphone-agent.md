@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.2k |
-| 🍴 **Forks** | 718 |
+| 🍴 **Forks** | 719 |
 | 🐞 **Open issues + PRs** | [26](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 68% · C 16% · Go 7% · C++ 4% · Python 3% |
 | 📜 **License** | MIT |

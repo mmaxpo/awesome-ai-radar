@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.1k |
+| ⭐ **Stars** | 123.2k |
 | 🍴 **Forks** | 15.9k |
 | 🐞 **Open issues + PRs** | [282](https://github.com/earendil-works/pi/issues) |
 | 💻 **Languages** | TypeScript 87% · HTML 10% · JavaScript 1% |

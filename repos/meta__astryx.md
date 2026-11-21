@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 31.6k |
 | 🍴 **Forks** | 2.5k |
-| 🐞 **Open issues + PRs** | [951](https://github.com/meta/astryx/issues) |
+| 🐞 **Open issues + PRs** | [948](https://github.com/meta/astryx/issues) |
 | 💻 **Languages** | TypeScript 59% · JavaScript 39% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-01-09 |
 | 📦 **Latest release** | [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1349.0 MB |
+| 💾 **Size** | 1349.7 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [chore: land batch fe-theme-4 (9 pull requests) (#13315)](https://github.com/meta/astryx/commit/7916ed572d8d9700bcb72c848d8cf0b9247650f4) | josephfarina |
+| 2026-11-21 | [ci: refresh the recorded Node test times (#13328)](https://github.com/meta/astryx/commit/ce31d1bc1785d8184e475955a906a2ad8a6a0bee) | github-actions[bot] |
+| 2026-11-21 | [perf(core): read a list's animations once per hit-area pass (#13124)](https://github.com/meta/astryx/commit/0ed091c8b8c7d4b0af48a9b68507618e73227892) | vjeux |
+| 2026-11-21 | [chore: land batch 144 (2 pull requests) (#13353)](https://github.com/meta/astryx/commit/98c4c6db718b9de8f0da976a45be048dff171dc8) | josephfarina |
+| 2026-11-21 | [test(cli): the stopped-request test waits for the server's close (#13…](https://github.com/meta/astryx/commit/66b90a5c1f77494dcfacdaf778ae03f9c2e4fb1d) | vjeux |
+| 2026-11-21 | [fix(Tab): paint the hover and press layer under the label (#12662)](https://github.com/meta/astryx/commit/5c2b94a020375701ca23da6b477c3ab559e3d724) | cixzhang |
+| 2026-11-21 | [chore: land batch 143 (1 pull requests) (#13352)](https://github.com/meta/astryx/commit/66b7dffdad0dd7cabefdb6bd88d13a22aac0b1ad) | josephfarina |
+| 2026-11-21 | [perf(core): a cut label's tooltip and its measurement load after the …](https://github.com/meta/astryx/commit/95dd7cd7fe89b7bb9b272c5111e16bd82f044d3a) | cixzhang |
+| 2026-11-21 | [chore: land batch 142 (2 pull requests) (#13318)](https://github.com/meta/astryx/commit/30e7021ff0acd7e235d35d367a150ca6fd42dbd0) | josephfarina |
 | 2026-11-21 | [[Component Audit] PowerSearch: docs describe each prop once and corre…](https://github.com/meta/astryx/commit/67b821f39b7d30b703570f350c258232e80095e6) | cixzhang |
-| 2026-11-21 | [chore: land batch fe-theme-3 (7 pull requests) (#13276)](https://github.com/meta/astryx/commit/9aab75fbf22093da8c33fb7b3650f42df1943166) | josephfarina |
-| 2026-11-21 | [test(interaction-harness): a late page freeze fails by name (#13130)](https://github.com/meta/astryx/commit/04ff3cb44d31b7c2e5e339077cf0638bd640494b) | vjeux |
-| 2026-11-21 | [chore: land batch 141 (1 pull requests) (#13292)](https://github.com/meta/astryx/commit/7869990ec77434d42093ca74e02c5a03f46049ea) | josephfarina |
-| 2026-11-21 | [chore: land batch 140 (1 pull requests) (#13291)](https://github.com/meta/astryx/commit/e4fa4895fbfa3daf9bd1719cfcf35b3b1951ad27) | josephfarina |
-| 2026-11-21 | [ci: the interaction timing floor counts only specs the record knew (#…](https://github.com/meta/astryx/commit/f2c03d3b0681d2907c16c8e8c2bd99fc3282869b) | cixzhang |
-| 2026-11-21 | [perf(theme): theme/tokens no longer loads the theme builder (#12949)](https://github.com/meta/astryx/commit/4fa97f5cbd52347053e49907745e00d6ea20b93c) | vjeux |
-| 2026-11-21 | [chore: merge v0.7.17 release outputs to main (#13133)](https://github.com/meta/astryx/commit/452016907a4b274440278a7cf25011005625752f) | cixzhang |
-| 2026-11-21 | [chore(scripts): size:pages --page takes Folder:name to measure one na…](https://github.com/meta/astryx/commit/86857ba38eaa1e683c00cd8cca6624a5f3761c7f) | cixzhang |
-| 2026-11-21 | [perf(Timestamp): format the hover card's rows only when it shows (#13…](https://github.com/meta/astryx/commit/f896f3ce2f023e85068442c5b34d919531aac737) | vjeux |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

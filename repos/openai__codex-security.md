@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 14.2k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [204](https://github.com/openai/codex-security/issues) |
+| 🐞 **Open issues + PRs** | [206](https://github.com/openai/codex-security/issues) |
 | 💻 **Languages** | TypeScript 77% · Python 19% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-07-13 |
 | 📦 **Latest release** | [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 92.7 MB |
+| 💾 **Size** | 89.8 MB |
 | 🌐 **Website** | https://developers.openai.com/codex/security |
 
 ## 📦 Recent releases
@@ -88,6 +88,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [ci: bump taiki-e/install-action in / (#2786)](https://github.com/openai/codex-security/commit/dcb270ceb2eebb85285609ee5f5107c638d7191a) | dependabot[bot] |
 | 2026-11-20 | [chore(deps): bump the codex group across 3 directories with 2 updates…](https://github.com/openai/codex-security/commit/664fac181c2fbeb16a6b2291fe76d297c5877f0c) | dependabot[bot] |
 | 2026-11-20 | [chore(deps): bump ruff from 0.17.4 to 0.17.5 in /plugins/codex-securi…](https://github.com/openai/codex-security/commit/f4529b175f5affa10c5ac1383bc679f5a40063ee) | dependabot[bot] |
 | 2026-11-20 | [fix(cli): honor configured caller scope in captured stack investigati…](https://github.com/openai/codex-security/commit/9b7b90c94c94b7eaec65018b0265b868f8b37e28) | utsav-oai |
@@ -97,7 +98,6 @@
 | 2026-11-20 | [fix(config): keep cached scan skills disabled across path aliases (#2…](https://github.com/openai/codex-security/commit/e426284c595fb4616b9909826e142e1b84a3ae59) | adityajai119 |
 | 2026-11-20 | [fix(cli): assess captured stacks against public advisory conditions (…](https://github.com/openai/codex-security/commit/bcf39188a399d023331065766118c4f8996ea850) | utsav-oai |
 | 2026-11-20 | [feat(cli): render exploitability reports in Markdown and interactive …](https://github.com/openai/codex-security/commit/ff1123120b151dd92cbf423eb845be1abc3303ff) | utsav-oai |
-| 2026-11-20 | [fix(history): use singular nouns for one-item match-all counts (#2751)](https://github.com/openai/codex-security/commit/72f4502902766bd01bd21aea138edb777098e1b9) | i098 |
 
 [See all commits ↗](https://github.com/openai/codex-security/commits)
 

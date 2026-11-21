@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 68.9k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [38](https://github.com/openinterpreter/openinterpreter/issues) |
+| 🐞 **Open issues + PRs** | [41](https://github.com/openinterpreter/openinterpreter/issues) |
 | 💻 **Languages** | Rust 97% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `coding-agent` `deepseek` `kimi` `qwen` `rust` `acp` `python` |
@@ -80,7 +80,7 @@
 > …
 
 ### [rust-v0.0.57](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.57) — Open Interpreter 0.0.57
-<sub>2026-10-31 · 20d ago</sub>
+<sub>2026-10-31 · 21d ago</sub>
 
 > **Open Interpreter 0.0.57**
 > **Models**

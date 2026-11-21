@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 118.8k |
 | 🍴 **Forks** | 10.3k |
-| 🐞 **Open issues + PRs** | [84](https://github.com/thedotmack/claude-mem/issues) |
+| 🐞 **Open issues + PRs** | [89](https://github.com/thedotmack/claude-mem/issues) |
 | 💻 **Languages** | TypeScript 66% · JavaScript 29% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-memory` `anthropic` `artificial-intelligence` `claude` `claude-agent-sdk` `claude-agents` `claude-code` `claude-code-plugin` `claude-skills` `long-term-memory` `mem0` `openmemory` `supermemory` `chromadb` `sqlite` `embeddings` `memory-engine` `rag` |

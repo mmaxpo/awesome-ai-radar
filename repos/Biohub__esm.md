@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 3.0k |
-| 🍴 **Forks** | 408 |
+| 🍴 **Forks** | 409 |
 | 🐞 **Open issues + PRs** | [83](https://github.com/Biohub/esm/issues) |
 | 💻 **Languages** | Jupyter Notebook 55% · Python 44% |
 | 📜 **License** | Other |

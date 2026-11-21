@@ -18,9 +18,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 196.0k |
+| ⭐ **Stars** | 196.1k |
 | 🍴 **Forks** | 11.0k |
-| 🐞 **Open issues + PRs** | [331](https://github.com/DietrichGebert/ponytail/issues) |
+| 🐞 **Open issues + PRs** | [333](https://github.com/DietrichGebert/ponytail/issues) |
 | 💻 **Languages** | JavaScript 49% · Python 25% · TypeScript 25% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `claude` `claude-code` `claude-code-plugin` `cursor-rules` `developer-tools` `llm` `prompt-engineering` `yagni` |

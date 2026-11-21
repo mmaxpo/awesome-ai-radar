@@ -26,7 +26,7 @@
 | 💻 **Languages** | Go 55% · Python 26% · TypeScript 7% · MDX 6% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `api` `chatbot` `chatgpt` `database` `docker` `frontend` `openai` `postgresql` `privacy` `security` `typescript` `html` `javascript` `react` `rag` `vector` `groq` `framework` |
-| 🕒 **Last activity** | 2026-11-16 (4d ago) |
+| 🕒 **Last activity** | 2026-11-16 (5d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v2.0.3](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.3) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.3](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.3)
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > **Quivr 2.0.3**
 > 2.0.3 is a security and fix release. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2)
-<sub>2026-10-30 · 21d ago</sub>
+<sub>2026-10-30 · 22d ago</sub>
 
 > **Quivr 2.0.2**
 > 2.0.2 moves the search database to Weaviate 1.39.14. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.

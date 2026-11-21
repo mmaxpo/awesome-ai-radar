@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 63.6k |
+| ⭐ **Stars** | 63.7k |
 | 🍴 **Forks** | 13.4k |
-| 🐞 **Open issues + PRs** | [5.3k](https://github.com/BerriAI/litellm/issues) |
+| 🐞 **Open issues + PRs** | [5.4k](https://github.com/BerriAI/litellm/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 10% · Rust 6% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `anthropic` `langchain` `llm` `llmops` `openai` `ai-gateway` `azure-openai` `bedrock` `gateway` `openai-proxy` `vertex-ai` `llm-gateway` `litellm` `mcp-gateway` `rust` `rust-ai` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-07-27 |
 | 📦 **Latest release** | [v1.108.14](https://github.com/BerriAI/litellm/releases/tag/v1.108.14) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3087.9 MB |
+| 💾 **Size** | 3088.2 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [feat(gateway): answer a stream the provider fails before any content …](https://github.com/BerriAI/litellm/commit/754c2225d7db8ce71a94459df2216708995c037b) | yujonglee-berri |
+| 2026-11-21 | [feat(gateway): model restamping in rust gateway (#52428)](https://github.com/BerriAI/litellm/commit/d0de3c274c67c6cb1ae1263809965c7528ed6395) | yujonglee-berri |
 | 2026-11-21 | [refactor(auth-store): shape the cached virtual key in Rust and load i…](https://github.com/BerriAI/litellm/commit/590f5b8992bb54459ddfdce3a45f1030e55a8f83) | yujonglee-berri |
 | 2026-11-21 | [refactor(auth_cache_invalidation): move the invalidation channel to t…](https://github.com/BerriAI/litellm/commit/6245f94734938b0cfc25d208064a01806518040d) | yujonglee-berri |
 | 2026-11-21 | [refactor(auth_cache): type auth cache keys and keep the cache always …](https://github.com/BerriAI/litellm/commit/e8ae52cd618843cd2cf63b410751c434b8df083f) | yujonglee-berri |
@@ -102,8 +104,6 @@
 | 2026-11-21 | [test(spend): assert ledger callback counts apart from wire command or…](https://github.com/BerriAI/litellm/commit/e6f9598da099ec31e3be25fe2b8926249ee94c01) | devin-ai-integration[bot] |
 | 2026-11-21 | [test(files): measure only upload path allocations in the large upload…](https://github.com/BerriAI/litellm/commit/c7f05822a3b9fa57d50c2b88a627be1d4d2ee9b7) | devin-ai-integration[bot] |
 | 2026-11-21 | [feat(provider)!: add ResetData and stop sending OPENAI_API_KEY to key…](https://github.com/BerriAI/litellm/commit/ac7674625ceed298d6c411cc964f23aded63989d) | TheRealKraken |
-| 2026-11-21 | [refactor(messages): write anthropic-family configs as anthropic plus …](https://github.com/BerriAI/litellm/commit/f428dedb315c380f193c1b5901075768b9a2bcf6) | narmstrong-berri |
-| 2026-11-21 | [refactor(messages): split the messages config into four parts and bui…](https://github.com/BerriAI/litellm/commit/f72825cb6ed68ecdd27c3babaf18065b4acc4249) | narmstrong-berri |
 
 [See all commits ↗](https://github.com/BerriAI/litellm/commits)
 

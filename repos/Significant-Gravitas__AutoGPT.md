@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 188.1k |
 | 🍴 **Forks** | 45.8k |
-| 🐞 **Open issues + PRs** | [786](https://github.com/Significant-Gravitas/AutoGPT/issues) |
+| 🐞 **Open issues + PRs** | [784](https://github.com/Significant-Gravitas/AutoGPT/issues) |
 | 💻 **Languages** | Python 68% · TypeScript 31% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `openai` `python` `artificial-intelligence` `autonomous-agents` `llama-api` `agentic-ai` `agents` `llm` `claude` `gpt` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-03-16 |
 | 📦 **Latest release** | [autogpt-platform-beta-v0.12.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.12.0) — 2026-11-19 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 663.4 MB |
+| 💾 **Size** | 663.5 MB |
 | 🌐 **Website** | https://agpt.co |
 
 ## 📦 Recent releases

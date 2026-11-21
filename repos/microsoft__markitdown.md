@@ -18,9 +18,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 197.3k |
+| ⭐ **Stars** | 197.4k |
 | 🍴 **Forks** | 14.9k |
-| 🐞 **Open issues + PRs** | [824](https://github.com/microsoft/markitdown/issues) |
+| 🐞 **Open issues + PRs** | [826](https://github.com/microsoft/markitdown/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `langchain` `openai` `autogen-extension` `autogen` `markdown` `microsoft-office` `pdf` |

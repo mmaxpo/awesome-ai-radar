@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.10.6](https://github.com/pypa/pipenv/releases/tag/v2026.10.6) — Release v2026.10.6
-<sub>2026-11-05 · 15d ago</sub>
+<sub>2026-11-05 · 16d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**

@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.7k |
-| 🍴 **Forks** | 854 |
+| 🍴 **Forks** | 855 |
 | 🐞 **Open issues + PRs** | [364](https://github.com/superdesigndev/treg/issues) |
 | 💻 **Languages** | Python 74% · HTML 14% · JavaScript 3% · Vue 3% · Go 3% |
 | 📜 **License** | Other |
@@ -51,7 +51,7 @@
 > _No notes._
 
 ### [v1.0.0-beta.1](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.1) — treg 1.0.0-beta.1 _(pre-release)_
-<sub>2026-11-07 · 13d ago</sub>
+<sub>2026-11-07 · 14d ago</sub>
 
 > _No notes._
 

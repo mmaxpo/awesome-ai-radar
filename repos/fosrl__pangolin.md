@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 23.9k |
-| 🍴 **Forks** | 851 |
+| 🍴 **Forks** | 852 |
 | 🐞 **Open issues + PRs** | [135](https://github.com/fosrl/pangolin/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |

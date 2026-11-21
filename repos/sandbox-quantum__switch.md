@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 4.7k |
 | 🍴 **Forks** | 367 |
-| 🐞 **Open issues + PRs** | [566](https://github.com/sandbox-quantum/switch/issues) |
+| 🐞 **Open issues + PRs** | [567](https://github.com/sandbox-quantum/switch/issues) |
 | 💻 **Languages** | Python 55% · TypeScript 44% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent-orchestration` `ai-agents` `discord` `mcp` `microsoft-teams` `multi-agent` `slack` `chatops` `langchain` `open-source` `openai` `self-hosted` `anthropic` `claude-code` `codex` `cursor` `gemini` `github-copilot` `llm` `telegram` |

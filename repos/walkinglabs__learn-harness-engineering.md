@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 25.7k |
+| ⭐ **Stars** | 25.8k |
 | 🍴 **Forks** | 3.0k |
 | 🐞 **Open issues + PRs** | [19](https://github.com/walkinglabs/learn-harness-engineering/issues) |
 | 💻 **Languages** | TypeScript 83% · Shell 8% · JavaScript 5% · Python 3% · HTML 1% |

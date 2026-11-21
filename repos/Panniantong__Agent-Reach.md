@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 113.7k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [158](https://github.com/Panniantong/Agent-Reach/issues) |
+| 🐞 **Open issues + PRs** | [159](https://github.com/Panniantong/Agent-Reach/issues) |
 | 💻 **Languages** | Python 98% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-infrastructure` `ai-agent` `ai-search` `automation` `bilibili` `claude-code` `cli` `cursor` `free-api` `llm-tools` `mcp` `python` `reddit-scraper` `twitter-scraper` `web-scraper` `xiaohongshu` `youtube-transcript` |

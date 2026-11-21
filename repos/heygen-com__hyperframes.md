@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 87.7k |
 | 🍴 **Forks** | 8.2k |
-| 🐞 **Open issues + PRs** | [290](https://github.com/heygen-com/hyperframes/issues) |
+| 🐞 **Open issues + PRs** | [291](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `framework` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-03-10 |
 | 📦 **Latest release** | [v0.9.77](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.77) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 536.8 MB |
+| 💾 **Size** | 537.4 MB |
 | 🌐 **Website** | https://hyperframes.heygen.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [fix(studio-server): the preview file check resolves links on volumes …](https://github.com/heygen-com/hyperframes/commit/40cc86252d80ebc0daaf3db373b13d339f8c13f8) | miguel-heygen |
+| 2026-11-21 | [fix(cli): print capture setup commands on their own lines (#8374)](https://github.com/heygen-com/hyperframes/commit/281f1a2a48137925d114dbd8b55e03d152bdf83d) | jrusso1020 |
+| 2026-11-21 | [fix(studio-server): an agent step waits for history's first copies, s…](https://github.com/heygen-com/hyperframes/commit/fbbf5ee67e86e41e10536e5088baaf886330a60c) | miguel-heygen |
+| 2026-11-21 | [fix(studio-server): history refusals carry a closed reason, so caller…](https://github.com/heygen-com/hyperframes/commit/d5881e8aa67f796f851ae15a75702294ef53cc9f) | miguel-heygen |
+| 2026-11-21 | [fix(studio-server): a timed-out history save says it may still land, …](https://github.com/heygen-com/hyperframes/commit/6b74cfa9f5bbf01ebb0fe30420c0dab6c71f4f84) | miguel-heygen |
+| 2026-11-21 | [feat(engine): a late image's load time is logged when it arrives (#8372)](https://github.com/heygen-com/hyperframes/commit/e65b11e5c2be2c73d3ab0ea5628c51ec13f68a21) | miguel-heygen |
+| 2026-11-21 | [fix(cli): read --json before the command name the same as after it (#…](https://github.com/heygen-com/hyperframes/commit/9a618b798fcb6bb262d3709bc1de6edf2fff974b) | jrusso1020 |
+| 2026-11-21 | [fix(cli): a catalog gap report hands back a line only when every shel…](https://github.com/heygen-com/hyperframes/commit/4145572625110706fdbc269adaca70ee5de531e8) | miguel-heygen |
 | 2026-11-21 | [fix(cli): show control characters as text in capture, figma, usage an…](https://github.com/heygen-com/hyperframes/commit/7fcc4909b442ba79918ae69d8a67416820d730f9) | jrusso1020 |
 | 2026-11-21 | [fix(studio): adding or removing a text field keeps the spaces between…](https://github.com/heygen-com/hyperframes/commit/e8f52dc866221ff8ffad06ce4c198d0d969aaa05) | miguel-heygen |
-| 2026-11-21 | [fix(cli): a received-files write waits out a held lock instead of fai…](https://github.com/heygen-com/hyperframes/commit/f74e1545c06e32b5f0c0722b4a46b7e628d04a31) | miguel-heygen |
-| 2026-11-21 | [test(studio): the marquee-past-the-cap check waits as long as the fra…](https://github.com/heygen-com/hyperframes/commit/b0d9f3615984e6e88c2d6b4dae862fbde2004da1) | miguel-heygen |
-| 2026-11-21 | [fix(cli): a stop reads the process tree from /proc on Linux, so load …](https://github.com/heygen-com/hyperframes/commit/a2df08e49ebb2b2d285c0e8a7c173f953b032a9d) | miguel-heygen |
-| 2026-11-21 | [fix(engine): a capture proxy shared by many browsers no longer drops …](https://github.com/heygen-com/hyperframes/commit/5e16c18b1d239f7e1225f59be5c44614a6d9d784) | miguel-heygen |
-| 2026-11-21 | [fix(cli): show control characters as text in init, skills and render …](https://github.com/heygen-com/hyperframes/commit/8bc73a0bd34313790bdbf6be43cf67f311800711) | jrusso1020 |
-| 2026-11-21 | [test(studio-server): a held-file edit is checked for blocking waits, …](https://github.com/heygen-com/hyperframes/commit/29a5003eebdd1a1a01e4d1a4e3f375da93b078ab) | miguel-heygen |
-| 2026-11-21 | [fix(cli): show control characters as text in more commands' printed l…](https://github.com/heygen-com/hyperframes/commit/7a1163fc98149719c636a170aad6c99e2d68a291) | jrusso1020 |
-| 2026-11-21 | [fix(studio-server): a preview file request no longer waits on a silen…](https://github.com/heygen-com/hyperframes/commit/7cb605c787f4e85f66a2a46df60f8fdbe13faad6) | miguel-heygen |
 
 [See all commits ↗](https://github.com/heygen-com/hyperframes/commits)
 

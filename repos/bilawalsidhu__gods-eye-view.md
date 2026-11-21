@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 66.2k |
 | 🍴 **Forks** | 13.1k |
-| 🐞 **Open issues + PRs** | [426](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| 🐞 **Open issues + PRs** | [427](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 246.5 MB |
+| 💾 **Size** | 245.2 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Opening the phone Context tab no longer switches Contacts on (#1893)](https://github.com/bilawalsidhu/gods-eye-view/commit/561f5885c2c369a0c7b1b706607921fa8ae49f70) | samehkhamis |
+| 2026-11-21 | [Lines can fade with the age of their points, drawn by the renderer on…](https://github.com/bilawalsidhu/gods-eye-view/commit/7ff536299ab70c9a710e2b6110773b4dcb861586) | samehkhamis |
 | 2026-11-21 | [A voice or chat selection shows its card in the Context panel (#1890)](https://github.com/bilawalsidhu/gods-eye-view/commit/918435ddc7bd4529666ddafde65e68ad97fab4ce) | samehkhamis |
 | 2026-11-21 | [Voice Cockpit entry no longer switches Contacts on (#1889)](https://github.com/bilawalsidhu/gods-eye-view/commit/fbbe6cd91fbff15e03303be7feea0569cdf91843) | samehkhamis |
 | 2026-11-21 | [Show JTWC cyclones: western Pacific, Indian Ocean and Southern Hemisp…](https://github.com/bilawalsidhu/gods-eye-view/commit/5608b12a253ac6555761348a32a2c8e24e9e238f) | samehkhamis |
@@ -102,8 +104,6 @@
 | 2026-11-21 | [test(scenes): drop the resumed-flight timing test (#1885)](https://github.com/bilawalsidhu/gods-eye-view/commit/aac6be77735f6bcad583204724a43302227abc4d) | samehkhamis |
 | 2026-11-21 | [Put the globe actions back on the title row, with the loading line un…](https://github.com/bilawalsidhu/gods-eye-view/commit/84324ea678cbb0ec947e7b2f6009e597fc2d22b5) | samehkhamis |
 | 2026-11-20 | [Merge pull request #1543 from Byrd-IT/byrdit/cctv-visible-only-fetch](https://github.com/bilawalsidhu/gods-eye-view/commit/41c792208e73f2ded123844cfce41fe88fd6d4f3) | gekh |
-| 2026-11-20 | [Merge branch 'main' into byrdit/cctv-visible-only-fetch](https://github.com/bilawalsidhu/gods-eye-view/commit/b94e5566932acc40f6030d9d589a76592bc8f8b3) | gekh |
-| 2026-11-20 | [Merge pull request #1267 from bilawalsidhu/codex/fix-cctv-session-adm…](https://github.com/bilawalsidhu/gods-eye-view/commit/98a26787a4359a94054bc015fc17cb4437c2fb2b) | gekh |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

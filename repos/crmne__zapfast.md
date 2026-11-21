@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 4.8k |
+| ⭐ **Stars** | 4.9k |
 | 🍴 **Forks** | 498 |
-| 🐞 **Open issues + PRs** | [308](https://github.com/crmne/zapfast/issues) |
+| 🐞 **Open issues + PRs** | [309](https://github.com/crmne/zapfast/issues) |
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `chat` `desktop-app` `egui` `linux` `macos` `messaging` `rust` `whatsapp` `whatsapp-client` `windows` |

@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 564.3k |
-| 🍴 **Forks** | 52.7k |
+| 🍴 **Forks** | 52.8k |
 | 🐞 **Open issues + PRs** | [639](https://github.com/codecrafters-io/build-your-own-x/issues) |
 | 💻 **Languages** | Markdown 100% |
 | 📜 **License** | — |

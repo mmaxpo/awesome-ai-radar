@@ -69,7 +69,7 @@
 > …
 
 ### [v1.5.1](https://github.com/img2threejs/img2threejs/releases/tag/v1.5.1) — 1.5.1: add the GLB-reference route
-<sub>2026-08-23 · 2mo ago</sub>
+<sub>2026-08-23 · 3mo ago</sub>
 
 > **[1.5.1] — 2026-08-23**
 > **Theme: the GLB-reference route.** A GLB stops being an informal aid and becomes a measurement

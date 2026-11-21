@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 72.9k |
 | 🍴 **Forks** | 23.4k |
-| 🐞 **Open issues + PRs** | [49](https://github.com/ai-job-search-dev/ai-job-search/issues) |
+| 🐞 **Open issues + PRs** | [52](https://github.com/ai-job-search-dev/ai-job-search/issues) |
 | 💻 **Languages** | Python 99% · TeX 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agents` `career` `claude-code` `cover-letter` `cv` `interview-preparation` `job-application` `job-hunting` `job-search` `latex` `resume` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-03-18 |
 | 📦 **Latest release** | [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0) — 2026-11-16 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 5.8 MB |
+| 💾 **Size** | 5.9 MB |
 
 ## 📦 Recent releases
 

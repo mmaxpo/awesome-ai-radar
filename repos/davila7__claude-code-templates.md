@@ -30,7 +30,7 @@
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 307.3 MB |
+| 💾 **Size** | 307.8 MB |
 | 🌐 **Website** | https://www.aitmpl.com |
 
 ## 📦 Recent releases
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [docs(readme): use Proxy-Seller's partner tracking link (#1655)](https://github.com/davila7/claude-code-templates/commit/5a8853e7f0cbf5173451e329ae073250e6c442ca) | davila7 |
 | 2026-11-21 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/2fbe86762ebc872fadc5495f3ae4171e27a5e4d8) | github-actions[bot] |
 | 2026-11-21 | [Rewrite vulnerability-scanner skill: AI and agent risks, 2025/2026 OW…](https://github.com/davila7/claude-code-templates/commit/e3c1c93c12d14d52afa61b22577bfec613646f09) | davila7 |
 | 2026-11-21 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/f37bd13c4644677a8390160b8a8f4ae9c136ca14) | github-actions[bot] |
@@ -103,7 +104,6 @@
 | 2026-11-20 | [Show unique-installer growth, rising components and share cards on /t…](https://github.com/davila7/claude-code-templates/commit/db4abafdf671b664b936db69b41eb4f8178e5b6b) | davila7 |
 | 2026-11-20 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/e88848056dc85ded577b3b7368f351344e3536ce) | github-actions[bot] |
 | 2026-11-20 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/053feb29f36e3e5ee9da29c964eb3723a7915bf8) | github-actions[bot] |
-| 2026-11-20 | [Add GitRanks Contribute MCP to devtools (#1582)](https://github.com/davila7/claude-code-templates/commit/c125da1e4bef95766a312165a7b313f1a272dc4c) | maslianok |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

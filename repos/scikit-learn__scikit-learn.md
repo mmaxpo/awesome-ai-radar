@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [ENH Remove the references to children in CallbackContext (#35270)](https://github.com/scikit-learn/scikit-learn/commit/21626d67d47889da8d19f3dd2a819a0cf527f27f) | FrancoisPgm |
 | 2026-11-21 | [TST Fix flaky test_dual_deprecated by seeding its data (#35471)](https://github.com/scikit-learn/scikit-learn/commit/f85f0584d5d7a66068bfe50b395ac855b2289dc2) | cakedev0 |
 | 2026-11-20 | [MNT Callback transport actually free the accept thread on closing a l…](https://github.com/scikit-learn/scikit-learn/commit/5e9184e53cd3bfd5a068cb1cb96c5ad27eff8092) | jeremiedbb |
 | 2026-11-20 | [CI Lock the actions of the contributor type labeler workflow (#35470)](https://github.com/scikit-learn/scikit-learn/commit/0ab59f9bdcefd676c185b73ffc46352a7c532e07) | cakedev0 |
@@ -103,7 +104,6 @@
 | 2026-11-19 | [DOC improve User Guide on Linear Models - ElasticNet (#35428)](https://github.com/scikit-learn/scikit-learn/commit/5f6ffc020b1aa39e3333f55b6298a91810aed410) | lorentzenchr |
 | 2026-11-19 | [DOC fix filename reference to maintainer list in `scikit-learn-feedst…](https://github.com/scikit-learn/scikit-learn/commit/02feb7112478485bb6d7c5d00d6dc764fc9b5107) | AnneBeyer |
 | 2026-11-19 | [CI Skip LogisticRegression callback tests on Pyodide [pyodide] (#35459)](https://github.com/scikit-learn/scikit-learn/commit/5f9f6c495eb425eebccea64b92e9ad39a3c222dc) | AnneBeyer |
-| 2026-11-19 | [CI Open a tracking issue when the scheduled Pyodide build fails (#35462)](https://github.com/scikit-learn/scikit-learn/commit/8dbb149979a3cf14bb3f25db54ff047ef6dd6058) | AnneBeyer |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

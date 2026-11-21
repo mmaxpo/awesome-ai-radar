@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 23.8k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [397](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [401](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |

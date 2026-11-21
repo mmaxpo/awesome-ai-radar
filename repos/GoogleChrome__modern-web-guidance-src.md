@@ -20,8 +20,8 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 9.7k |
-| 🍴 **Forks** | 779 |
+| ⭐ **Stars** | 9.8k |
+| 🍴 **Forks** | 781 |
 | 🐞 **Open issues + PRs** | [384](https://github.com/GoogleChrome/modern-web-guidance-src/issues) |
 | 💻 **Languages** | TypeScript 79% · JavaScript 15% · CSS 3% · HTML 3% |
 | 📜 **License** | Apache-2.0 |

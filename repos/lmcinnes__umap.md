@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.3k |
-| 🍴 **Forks** | 896 |
+| 🍴 **Forks** | 897 |
 | 🐞 **Open issues + PRs** | [542](https://github.com/lmcinnes/umap/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | BSD-3-Clause |

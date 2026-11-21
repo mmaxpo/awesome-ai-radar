@@ -80,7 +80,7 @@
 > …
 
 ### [v2026.10.5](https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.10.5) — Edition 2026.10.5: Lesson Screen, vLLM 101, and Miles 101
-<sub>2026-10-29 · 22d ago</sub>
+<sub>2026-10-29 · 23d ago</sub>
 
 > Learn beside your terminal, read two new hardware manuals, and practise every lesson. This edition adds the lesson screen for agent tutors, vLLM 101 and Miles 101, 47 practice tasks, and two new inside-the-machine pages.
 > [Start learning](https://aiengineeringfromscratch.com) · [Skills](https://aiengineeringfromscratch.com/skills.html) · [Manuals](https://aiengineeringfromscratch.com/manuals.html) · [Practice](https://aiengineeringfromscratch.com/practice)

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 144.9k |
 | 🍴 **Forks** | 23.3k |
-| 🐞 **Open issues + PRs** | [93](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
+| 🐞 **Open issues + PRs** | [95](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `tiktok` `ai-video-generator` `content-creation` `ffmpeg` `instagram-reels` `llm` `short-video` `subtitles` `text-to-speech` `video-automation` `video-workflow` `workflow-automation` `youtube-shorts` |

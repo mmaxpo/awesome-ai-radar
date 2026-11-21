@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 8.1k |
 | 🍴 **Forks** | 797 |
-| 🐞 **Open issues + PRs** | [268](https://github.com/vastsa/PI-Desktop/issues) |
+| 🐞 **Open issues + PRs** | [266](https://github.com/vastsa/PI-Desktop/issues) |
 | 💻 **Languages** | TypeScript 53% · JavaScript 28% · Rust 16% · CSS 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `pi-desktop` `ai-agent` `coding-agent` `desktop-app` `electron` `global` `i18n` `local-first` `mcp` `pi-agent` `plugins` `react` `rust` `typescript` `pi` |
@@ -77,7 +77,7 @@
 > …
 
 ### [v0.23.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.1) _(pre-release)_
-<sub>2026-11-14 · 6d ago</sub>
+<sub>2026-11-14 · 7d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Merge pull request #2484 from zhanglinrun/fix/session-discovered-context](https://github.com/vastsa/PI-Desktop/commit/6ec971c7fd07ff23d3815f5ffb76e10a722281eb) | vastsa |
+| 2026-11-21 | [Merge branch 'main' into fix/session-discovered-context](https://github.com/vastsa/PI-Desktop/commit/c76a66d386628e4b444cd28dcb634b728bf334d6) | vastsa |
+| 2026-11-21 | [Merge pull request #2503 from chengzhi-c/feat/editable-context-menu](https://github.com/vastsa/PI-Desktop/commit/023ed86884b20104015fde256143fdf1fd5fc556) | vastsa |
+| 2026-11-21 | [Merge pull request #2511 from vastsa/feat/codemode-sandbox](https://github.com/vastsa/PI-Desktop/commit/86bedd0f61b1f25088fafd61a4f484a0bc3c8400) | vastsa |
+| 2026-11-21 | [feat(agent-runtime): add opt-in sandboxed codemode tool](https://github.com/vastsa/PI-Desktop/commit/458f5c9eabdcd96c9133e27a41e609ab0d0692dc) | vastsa |
+| 2026-11-21 | [test(desktop): stabilize native editing menu interactions](https://github.com/vastsa/PI-Desktop/commit/c3b4673c61d498b0e1e04edb586c560ea73aa7a9) | vastsa |
+| 2026-11-21 | [feat(desktop): add native editing context menu for editable text](https://github.com/vastsa/PI-Desktop/commit/bfab44ea2c9bea3953e3ed8f655f5cdb8567908c) | vastsa |
 | 2026-11-21 | [Merge pull request #2473 from Linuxdazhao/fix/project-folder-relocati…](https://github.com/vastsa/PI-Desktop/commit/8a96c9bb3af9f634440d7537527617751cc0f373) | vastsa |
 | 2026-11-21 | [Merge pull request #2501 from vastsa/fix/compaction-stream-abort-2494](https://github.com/vastsa/PI-Desktop/commit/4f5c99d0d3b7af79464548f01df0a8e55ed9f24a) | vastsa |
 | 2026-11-21 | [Merge remote-tracking branch 'origin/main' into pr-2473-relocation](https://github.com/vastsa/PI-Desktop/commit/38bf987624a1eb824ad801a2870ec19f272beabd) | vastsa |
-| 2026-11-21 | [fix(projects): relocate only missing folders and cover two-step repair](https://github.com/vastsa/PI-Desktop/commit/cbd0e0c80659908e632ea07277e51b4125ed9577) | vastsa |
-| 2026-11-21 | [fix(agent-runtime): shrink the retained-tail fallback until it fits](https://github.com/vastsa/PI-Desktop/commit/d7dbeac041734552bc33c62063610f23140fa61d) | vastsa |
-| 2026-11-21 | [Merge pull request #2485 from taokoplay/fix/comfyui-binary-response](https://github.com/vastsa/PI-Desktop/commit/eaa3d60a192d85fdb8954c89ff6301ec584dd6cd) | vastsa |
-| 2026-11-21 | [Merge remote-tracking branch 'origin/main' into land/pr2485](https://github.com/vastsa/PI-Desktop/commit/ab6ff9d749ee0fab064fba04053df001ed10b8df) | vastsa |
-| 2026-11-21 | [fix(plugin-net): type binary capabilities and keep existing fetch con…](https://github.com/vastsa/PI-Desktop/commit/526417126f8d9fee4cc7952f0c827acaf720f3a0) | vastsa |
-| 2026-11-21 | [Merge pull request #2409 from SeanLiu326/fix/stop-settled-read-live-turn](https://github.com/vastsa/PI-Desktop/commit/c558d613ff5637d782021f9824a02c2776e1a823) | vastsa |
-| 2026-11-21 | [Merge pull request #2428 from SeanLiu326/fix/codex-gpt62-cacheable-in…](https://github.com/vastsa/PI-Desktop/commit/76e0a27b0de9a3609f8c9f9f9ec06dab3061ab6f) | vastsa |
 
 [See all commits ↗](https://github.com/vastsa/PI-Desktop/commits)
 

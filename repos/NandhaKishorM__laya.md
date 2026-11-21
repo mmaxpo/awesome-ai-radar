@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 35.8k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [98](https://github.com/NandhaKishorM/laya/issues) |
+| 🐞 **Open issues + PRs** | [99](https://github.com/NandhaKishorM/laya/issues) |
 | 💻 **Languages** | Python 52% · Java 11% · Go 8% · Rust 7% · C# 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `calibration` `classification` `decision-model` `huggingface` `jev` `modernbert` `multilingual` `nlp` `python` `pytorch` `routing` `typed-decisions` `zero-shot` |

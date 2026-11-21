@@ -30,7 +30,7 @@
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1681.8 MB |
+| 💾 **Size** | 1683.1 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Revert "[ROCm] Replace deprecated HIP atomics and hipcub::Equality (#…](https://github.com/pytorch/pytorch/commit/59bc299401c2d4ba6545340a3ff77beca8709a49) | pytorchmergebot |
+| 2026-11-21 | [[CUDA] Build LocalizedAllocator on improved Python allocator api (#20…](https://github.com/pytorch/pytorch/commit/66fa84cbcb2001a816dc228dbde29ca184ff9d73) | kapilsh |
 | 2026-11-21 | [[CUDAGraph] Annotate captured memcpy batch nodes (#205997)](https://github.com/pytorch/pytorch/commit/00251bb0b7db29e3189176cfbbda482913270e79) | ngimel |
 | 2026-11-21 | [[inductor] Cap the number of dynamic-shape sub-kernels per combo kern…](https://github.com/pytorch/pytorch/commit/cb41f4ef2382a6c77b67706485bf54ae613b8d76) | anijain2305 |
 | 2026-11-21 | [[dynamo] Support bytearray is*() predicate methods (#205779)](https://github.com/pytorch/pytorch/commit/58a489fc6df58ef17de494dacf7ac452e7e34154) | Oscar-man-shrestha |
@@ -102,8 +104,6 @@
 | 2026-11-21 | [Reject shell dtype casts in TensorIterator on every device (#205864)](https://github.com/pytorch/pytorch/commit/0058429b37991a2946bd1b47b8f9fd0ea1458c26) | malfet |
 | 2026-11-21 | [[torchtitan hash update] update the pinned torchtitan hash (#205963)](https://github.com/pytorch/pytorch/commit/b9945d7c319a6a68a9e4f44794490d6a4c74fb81) | pytorchupdatebot |
 | 2026-11-21 | [[Inductor] Support ND pointwise and reduction tiling (#204324) (#204324)](https://github.com/pytorch/pytorch/commit/e716fffc7eded0e8ee852fbc2fa8a80ced15cf57) | blaine-rister |
-| 2026-11-21 | [[inductor] Move AutotuneCache.save's entry serialization next to the …](https://github.com/pytorch/pytorch/commit/f893f94ec926bfc18409821af29d7bdad2ea9102) | bobrenjc93 |
-| 2026-11-21 | [[aot autograd cache] Factor precompile artifact recording out of AOTA…](https://github.com/pytorch/pytorch/commit/e7a4eeee76cdbd5d32611ec074a620b211821cd4) | bobrenjc93 |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

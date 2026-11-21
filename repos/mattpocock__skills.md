@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 329.4k |
+| ⭐ **Stars** | 329.5k |
 | 🍴 **Forks** | 27.7k |
 | 🐞 **Open issues + PRs** | [262](https://github.com/mattpocock/skills/issues) |
 | 💻 **Languages** | Shell 67% · JavaScript 33% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (yesterday) |
+| 🕒 **Last activity** | 2026-11-19 (2d ago) |
 | 📅 **Created** | 2026-02-03 |
 | 📦 **Latest release** | [v1.3.2](https://github.com/mattpocock/skills/releases/tag/v1.3.2) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |

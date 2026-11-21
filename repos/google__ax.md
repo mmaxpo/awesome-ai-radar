@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 14.8k |
-| 🍴 **Forks** | 799 |
+| 🍴 **Forks** | 800 |
 | 🐞 **Open issues + PRs** | [113](https://github.com/google/ax/issues) |
 | 💻 **Languages** | Go 92% · Shell 7% |
 | 📜 **License** | Apache-2.0 |

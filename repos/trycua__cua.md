@@ -30,7 +30,7 @@
 | 📅 **Created** | 2025-01-31 |
 | 📦 **Latest release** | [cua-spaces-v0.41.1](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.1) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 792.6 MB |
+| 💾 **Size** | 793.0 MB |
 | 🌐 **Website** | https://cua.ai |
 
 ## 📦 Recent releases
@@ -82,16 +82,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [fix(ci): assemble electron-windows in one upload so the Windows feed …](https://github.com/trycua/cua/commit/80a38488aa76dd4798f0d7500b7c93516ef2bb40) | f-trycua |
+| 2026-11-21 | [chore(main): release cua-spacesd 0.17.3 (#8472)](https://github.com/trycua/cua/commit/fb879ca7c4c3653c99fdc137757b41a5048a0f4f) | cua-release-bot[bot] |
+| 2026-11-21 | [fix(cua-driver): send a background pixel click past an element withou…](https://github.com/trycua/cua/commit/5118278c546c1e3e4f19844d144b56228cd30808) | injaneity |
+| 2026-11-21 | [fix(cua-spacesd): refuse a rootless Xwayland desktop instead of strea…](https://github.com/trycua/cua/commit/7ef9b7ac17247c4f47c21bad47c9f1e448c8bc15) | injaneity |
+| 2026-11-21 | [fix(cua-driver): report the window covering a verified bring_to_front…](https://github.com/trycua/cua/commit/45f5a417d5b6d68d62af12e0f0a0e247179f63f9) | injaneity |
+| 2026-11-21 | [fix(cua-driver): build move_cursor action records in its producers (#…](https://github.com/trycua/cua/commit/c50d638310f4d56c69789707f2d4b79cbee3dadb) | injaneity |
+| 2026-11-21 | [fix(cua-driver): match list_windows app filter against unlocalized bu…](https://github.com/trycua/cua/commit/20ddc5942fc2100825eb719acc03bf74a07de03b) | injaneity |
+| 2026-11-21 | [fix(cua-driver): build every Windows crate against windows 0.61 (#8444)](https://github.com/trycua/cua/commit/d0e4f4dc4e734affa6a1aca1464deddf55a71763) | injaneity |
 | 2026-11-21 | [chore(main): release cua-spaces 0.41.2 (#8455)](https://github.com/trycua/cua/commit/04d952f8c8336b1d2083b22c513a3fa9f662927e) | cua-release-bot[bot] |
 | 2026-11-21 | [chore(main): release cua-driver-rs 0.56.5 (#8454)](https://github.com/trycua/cua/commit/d6a57da5c620d19f1f2122c3c45d9fb0a94a579e) | cua-release-bot[bot] |
-| 2026-11-21 | [fix(spaces-macos): bundle Cua Driver 0.56.4 in Cua Spaces (#8452)](https://github.com/trycua/cua/commit/b648172831009e86f23953ff74ed228eeb91f1de) | cua-release-bot[bot] |
-| 2026-11-21 | [fix(cua-driver): add GNOME/Mutter notes to the skill (#8303)](https://github.com/trycua/cua/commit/5b8a2b47f374e441019db7562423f7e8f5af4cd8) | injaneity |
-| 2026-11-21 | [chore(cua-driver): advance published installer version to 0.56.4 (#8449)](https://github.com/trycua/cua/commit/76c514e2094637080b796226f2e291c5e8f60a5f) | cua-release-bot[bot] |
-| 2026-11-21 | [fix(cua-driver): wait for the Save sheet's Save button to report enab…](https://github.com/trycua/cua/commit/c657f8c002fead6946bf16c7d1ac3a3e0c3d61df) | f-trycua |
-| 2026-11-21 | [ci(cua-driver): gate every driver change on the hosted E2E lanes befo…](https://github.com/trycua/cua/commit/b06eff89216aa1211179b7720c09fdf19c61dc46) | f-trycua |
-| 2026-11-21 | [docs: repoint five relative links at paths that exist (#8445)](https://github.com/trycua/cua/commit/c6350de75e054811c0042da34fc9087b39d63151) | injaneity |
-| 2026-11-21 | [chore(main): release cua-driver-rs 0.56.4 (#8440)](https://github.com/trycua/cua/commit/7166cbbe74670440b351d9f684f6dde0f0fe661c) | cua-release-bot[bot] |
-| 2026-11-21 | [chore(main): release cua-spaces 0.41.1 (#8441)](https://github.com/trycua/cua/commit/1dce17e4990972a71b17eed5c25a16ac19255c24) | cua-release-bot[bot] |
 
 [See all commits ↗](https://github.com/trycua/cua/commits)
 

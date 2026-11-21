@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 228.3k |
+| ⭐ **Stars** | 228.4k |
 | 🍴 **Forks** | 31.0k |
-| 🐞 **Open issues + PRs** | [4.0k](https://github.com/anomalyco/opencode/issues) |
+| 🐞 **Open issues + PRs** | [4.1k](https://github.com/anomalyco/opencode/issues) |
 | 💻 **Languages** | TypeScript 85% · MDX 10% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2025-04-30 |
 | 📦 **Latest release** | [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2) — 2026-11-18 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 747.6 MB |
+| 💾 **Size** | 747.3 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
@@ -87,6 +87,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [docs(console): document embedding models (#65402)](https://github.com/anomalyco/opencode/commit/a61f2670442c951a7ea76c5a6a406ed2e2912c02) | vimtor |
 | 2026-11-21 | [fix(desktop): draw the Windows caption buttons in the contrast theme'…](https://github.com/anomalyco/opencode/commit/ba5bbef82c9fc27e033a12ca50657f4ec8d629da) | Hona |
 | 2026-11-21 | [fix(desktop): resync server event streams after Windows resumes from …](https://github.com/anomalyco/opencode/commit/32ae0197715f822fb1247504f81e3eefc7d3c8fb) | Hona |
 | 2026-11-21 | [fix(desktop): reopen snapped, moved and minimized windows where they …](https://github.com/anomalyco/opencode/commit/3aff591323f73d8032f73fa7bb8a152bc230b328) | Hona |
@@ -96,7 +97,6 @@
 | 2026-11-21 | [feat(desktop): flash the Windows taskbar button for requests that wai…](https://github.com/anomalyco/opencode/commit/844a6aa6feeb1a1e56f05af2436eec3ee8582653) | Hona |
 | 2026-11-21 | [feat(desktop): open in Windows Terminal and list only installed apps …](https://github.com/anomalyco/opencode/commit/f05c0fdc0666618dbae69068a19cb310de84c911) | Hona |
 | 2026-11-21 | [feat(core): a paired machine needs no approval (#65356)](https://github.com/anomalyco/opencode/commit/44593c514ec56444a5f49954fa6a30d27cb5270f) | kitlangton |
-| 2026-11-21 | [feat(core): machine.list tool in Code Mode (#65349)](https://github.com/anomalyco/opencode/commit/5ca87b9ddaf3536d4d6aa740218d33efb6577563) | kitlangton |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

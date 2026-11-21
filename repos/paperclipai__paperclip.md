@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 554.6 MB |
+| 💾 **Size** | 554.4 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [test(restart-chaos): grade hosted runs with R1 and a strict release-s…](https://github.com/paperclipai/paperclip/commit/558dbb01320987eb9aba80d5d1a8e66604456f72) | cryppadotta |
 | 2026-11-21 | [fix(native): let a fresh replacement Runner publish its verified pack…](https://github.com/paperclipai/paperclip/commit/f434f0e7bd72c0d880daa9c6ef915c913e989f1c) | devinfoley |
 | 2026-11-21 | [fix(server): pass a Cloud portfolio rate limit through as 429 (#22488)](https://github.com/paperclipai/paperclip/commit/21f4427b78fc3fe287f9f5905108c80971caed06) | paperclipbugbot |
 | 2026-11-21 | [fix(ui): keep translated pages from crashing on React DOM updates (#2…](https://github.com/paperclipai/paperclip/commit/95ba0a7de64b2ac685c7bfda281c8296e81100a7) | paperclipbugbot |
@@ -103,7 +104,6 @@
 | 2026-11-21 | [fix: retry verified legacy adapter preparation failures (#22464)](https://github.com/paperclipai/paperclip/commit/4697a5050836daae9b6f4276e910653a45c20694) | devinfoley |
 | 2026-11-21 | [fix(ci): stabilize database-backed readiness checks (#22476)](https://github.com/paperclipai/paperclip/commit/6bf312270c3ed740d71cc1b5e064530930a6d473) | devinfoley |
 | 2026-11-21 | [fix(heartbeat): name a full sandbox disk that stops a workspace save …](https://github.com/paperclipai/paperclip/commit/33ffaa5b9a2e0954c2afc063572346cb1be534a7) | paperclipbugbot |
-| 2026-11-21 | [build(server): omit tests from production compilation (#19383)](https://github.com/paperclipai/paperclip/commit/6b9952525d2775e09e204e140c3ee4584dbfa602) | appleguy |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

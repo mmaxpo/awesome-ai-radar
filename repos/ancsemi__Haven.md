@@ -47,7 +47,7 @@
 > …
 
 ### [v4.30.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.2) — Haven 4.30.0-beta.2 _(pre-release)_
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.1:
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Find flags and built-in image emoji in reaction picker search](https://github.com/ancsemi/Haven/commit/0ee5e7737ce47b987e1b15e15128d200079b4df6) | ancsemi |
 | 2026-11-20 | [Changelog: add the entries three merged PRs left out](https://github.com/ancsemi/Haven/commit/d78674a30721186add66ea303e50de66b03e062e) | ancsemi |
 | 2026-11-20 | [Release 4.30.0-beta.3](https://github.com/ancsemi/Haven/commit/d9ee00f9ac2b7d68c2c9b93573461378154849e3) | ancsemi |
 | 2026-11-20 | [Pause looping decoration while Haven is in the background (#5911)](https://github.com/ancsemi/Haven/commit/c0dda381de791d44d9ccbe0347da1040a743238c) | ancsemi |
@@ -103,7 +104,6 @@
 | 2026-11-20 | [Fullscreen: choose which streams share the screen (#5912)](https://github.com/ancsemi/Haven/commit/1e58f01d3cfb5323002939cafa6976adcccc8dd0) | Roolk |
 | 2026-11-20 | [Do Not Disturb silences notification sounds and push (#5919)](https://github.com/ancsemi/Haven/commit/473d182b9ab13ca0257bac2e4d7bc54e15484a36) | Amnibro |
 | 2026-11-20 | [Custom theme: pick the highlight color separately (#5917)](https://github.com/ancsemi/Haven/commit/28cafe62c99cd3875e74afab95c722a47ff34aa2) | Amnibro |
-| 2026-11-20 | [Give back a message that slow mode refused (#5918)](https://github.com/ancsemi/Haven/commit/485860928d6531882c12b744196b02a8968de66c) | Amnibro |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

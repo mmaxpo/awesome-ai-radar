@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 15.2k |
+| ⭐ **Stars** | 15.4k |
 | 🍴 **Forks** | 1.8k |
 | 🐞 **Open issues + PRs** | [15](https://github.com/elementalsouls/Claude-BugHunter/issues) |
 | 💻 **Languages** | Python 87% · PowerShell 7% · Shell 6% |

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 6.9k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [76](https://github.com/ethanplusai/sellbird/issues) |
+| 🐞 **Open issues + PRs** | [77](https://github.com/ethanplusai/sellbird/issues) |
 | 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` `sales-agent` `grok` `grok-bot` |

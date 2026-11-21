@@ -63,7 +63,7 @@
 > …
 
 ### [2.19.0](https://github.com/penpot/penpot/releases/tag/2.19.0)
-<sub>2026-11-09 · 11d ago</sub>
+<sub>2026-11-09 · 12d ago</sub>
 
 > **:boom: Breaking changes & Deprecations**
 > **Migrate legacy file payloads to file_data and delete orphan revisions**
