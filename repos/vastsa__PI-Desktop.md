@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 8.1k |
 | 🍴 **Forks** | 797 |
-| 🐞 **Open issues + PRs** | [266](https://github.com/vastsa/PI-Desktop/issues) |
+| 🐞 **Open issues + PRs** | [262](https://github.com/vastsa/PI-Desktop/issues) |
 | 💻 **Languages** | TypeScript 53% · JavaScript 28% · Rust 16% · CSS 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `pi-desktop` `ai-agent` `coding-agent` `desktop-app` `electron` `global` `i18n` `local-first` `mcp` `pi-agent` `plugins` `react` `rust` `typescript` `pi` |
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Merge pull request #2465 from Linuxdazhao/fix/edit-dsl-diagnostics-2453](https://github.com/vastsa/PI-Desktop/commit/e89051fc7d5955e245e969f4b5e1ff7f6aea9ddd) | vastsa |
+| 2026-11-21 | [Merge pull request #2502 from koeria/fix/issue-2499](https://github.com/vastsa/PI-Desktop/commit/535f018ac568c4b281ba5821b927cce86cdc0646) | vastsa |
+| 2026-11-21 | [Merge branch 'main' into fix/issue-2499](https://github.com/vastsa/PI-Desktop/commit/6175575f420349b74546b4533857dba6d5cfaf33) | vastsa |
+| 2026-11-21 | [Merge branch 'main' into fix/edit-dsl-diagnostics-2453](https://github.com/vastsa/PI-Desktop/commit/5c97bb582b036f32bc8bd5073e87679f1614d336) | vastsa |
 | 2026-11-21 | [Merge pull request #2484 from zhanglinrun/fix/session-discovered-context](https://github.com/vastsa/PI-Desktop/commit/6ec971c7fd07ff23d3815f5ffb76e10a722281eb) | vastsa |
 | 2026-11-21 | [Merge branch 'main' into fix/session-discovered-context](https://github.com/vastsa/PI-Desktop/commit/c76a66d386628e4b444cd28dcb634b728bf334d6) | vastsa |
+| 2026-11-21 | [Merge branch 'main' into fix/edit-dsl-diagnostics-2453](https://github.com/vastsa/PI-Desktop/commit/37b407b6431fbde206f7d4136acd19281567f085) | vastsa |
+| 2026-11-21 | [Merge branch 'main' into fix/issue-2499](https://github.com/vastsa/PI-Desktop/commit/a68f824aca37e8554a1a354df41557bbc2670b1c) | vastsa |
 | 2026-11-21 | [Merge pull request #2503 from chengzhi-c/feat/editable-context-menu](https://github.com/vastsa/PI-Desktop/commit/023ed86884b20104015fde256143fdf1fd5fc556) | vastsa |
 | 2026-11-21 | [Merge pull request #2511 from vastsa/feat/codemode-sandbox](https://github.com/vastsa/PI-Desktop/commit/86bedd0f61b1f25088fafd61a4f484a0bc3c8400) | vastsa |
-| 2026-11-21 | [feat(agent-runtime): add opt-in sandboxed codemode tool](https://github.com/vastsa/PI-Desktop/commit/458f5c9eabdcd96c9133e27a41e609ab0d0692dc) | vastsa |
-| 2026-11-21 | [test(desktop): stabilize native editing menu interactions](https://github.com/vastsa/PI-Desktop/commit/c3b4673c61d498b0e1e04edb586c560ea73aa7a9) | vastsa |
-| 2026-11-21 | [feat(desktop): add native editing context menu for editable text](https://github.com/vastsa/PI-Desktop/commit/bfab44ea2c9bea3953e3ed8f655f5cdb8567908c) | vastsa |
-| 2026-11-21 | [Merge pull request #2473 from Linuxdazhao/fix/project-folder-relocati…](https://github.com/vastsa/PI-Desktop/commit/8a96c9bb3af9f634440d7537527617751cc0f373) | vastsa |
-| 2026-11-21 | [Merge pull request #2501 from vastsa/fix/compaction-stream-abort-2494](https://github.com/vastsa/PI-Desktop/commit/4f5c99d0d3b7af79464548f01df0a8e55ed9f24a) | vastsa |
-| 2026-11-21 | [Merge remote-tracking branch 'origin/main' into pr-2473-relocation](https://github.com/vastsa/PI-Desktop/commit/38bf987624a1eb824ad801a2870ec19f272beabd) | vastsa |
 
 [See all commits ↗](https://github.com/vastsa/PI-Desktop/commits)
 

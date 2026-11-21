@@ -22,8 +22,8 @@
 |---|---|
 | ⭐ **Stars** | 31.6k |
 | 🍴 **Forks** | 2.5k |
-| 🐞 **Open issues + PRs** | [948](https://github.com/meta/astryx/issues) |
-| 💻 **Languages** | TypeScript 59% · JavaScript 39% |
+| 🐞 **Open issues + PRs** | [947](https://github.com/meta/astryx/issues) |
+| 💻 **Languages** | TypeScript 59% · JavaScript 40% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
 | 🕒 **Last activity** | 2026-11-21 (today) |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [fix(Field): label, description and status text, the status tooltip in…](https://github.com/meta/astryx/commit/dbc4d8d1c9a6130b1c326dfcff71e19b9ba97523) | cixzhang |
 | 2026-11-21 | [chore: land batch fe-theme-4 (9 pull requests) (#13315)](https://github.com/meta/astryx/commit/7916ed572d8d9700bcb72c848d8cf0b9247650f4) | josephfarina |
 | 2026-11-21 | [ci: refresh the recorded Node test times (#13328)](https://github.com/meta/astryx/commit/ce31d1bc1785d8184e475955a906a2ad8a6a0bee) | github-actions[bot] |
 | 2026-11-21 | [perf(core): read a list's animations once per hit-area pass (#13124)](https://github.com/meta/astryx/commit/0ed091c8b8c7d4b0af48a9b68507618e73227892) | vjeux |
@@ -103,7 +104,6 @@
 | 2026-11-21 | [chore: land batch 143 (1 pull requests) (#13352)](https://github.com/meta/astryx/commit/66b7dffdad0dd7cabefdb6bd88d13a22aac0b1ad) | josephfarina |
 | 2026-11-21 | [perf(core): a cut label's tooltip and its measurement load after the …](https://github.com/meta/astryx/commit/95dd7cd7fe89b7bb9b272c5111e16bd82f044d3a) | cixzhang |
 | 2026-11-21 | [chore: land batch 142 (2 pull requests) (#13318)](https://github.com/meta/astryx/commit/30e7021ff0acd7e235d35d367a150ca6fd42dbd0) | josephfarina |
-| 2026-11-21 | [[Component Audit] PowerSearch: docs describe each prop once and corre…](https://github.com/meta/astryx/commit/67b821f39b7d30b703570f350c258232e80095e6) | cixzhang |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

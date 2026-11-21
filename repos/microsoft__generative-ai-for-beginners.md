@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.9k |
+| ⭐ **Stars** | 124.0k |
 | 🍴 **Forks** | 66.8k |
 | 🐞 **Open issues + PRs** | [3](https://github.com/microsoft/generative-ai-for-beginners/issues) |
 | 💻 **Languages** | Jupyter Notebook 100% |

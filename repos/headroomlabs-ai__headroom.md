@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 81% · Rust 12% · JavaScript 3% · TypeScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `ai` `anthropic` `compression` `context-engineering` `context-window` `fastapi` `langchain` `llm` `mcp` `openai` `proxy` `python` `rag` `token-optimization` `claude-code` `cursor` `prompt-engineering` `tokens` `typescript` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-20 (yesterday) |
 | 📅 **Created** | 2026-01-07 |
 | 📦 **Latest release** | [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |

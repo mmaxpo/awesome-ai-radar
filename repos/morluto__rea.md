@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [test(web): consolidate request credential evidence checks (#13129)](https://github.com/morluto/rea/commit/270323942bd211463b67b3d7b18aa1ffb2c4eb90) | morluto |
+| 2026-11-21 | [test(web): consolidate network content evidence checks (#13128)](https://github.com/morluto/rea/commit/c20ee87b2b849846d5959339670dd0b48ba3df0e) | morluto |
 | 2026-11-21 | [fix(website): match social preview accents to REA blue](https://github.com/morluto/rea/commit/753321dda66d840c58008119a9e6852cd7c64f25) | morluto |
 | 2026-11-21 | [test(web): consolidate transaction admission and omission checks (#13…](https://github.com/morluto/rea/commit/c9a6f5dedc7766424e9d82d29a94d8ed39064fd9) | morluto |
 | 2026-11-21 | [test(web): consolidate network capture queue lifecycle checks (#13125)](https://github.com/morluto/rea/commit/9a9ee6cf3d97fffea4849902872ad9b028cbc54f) | morluto |
@@ -102,8 +104,6 @@
 | 2026-11-21 | [fix(website): use the blue REA wordmark for site icons](https://github.com/morluto/rea/commit/2c4776d9aa9c1167da96f75a27645a23ef3a348e) | morluto |
 | 2026-11-21 | [test(web): consolidate UI response observation lifecycle checks (#13121)](https://github.com/morluto/rea/commit/648d1f8f9d45822fbb729492a9519d12d4cf6fa6) | morluto |
 | 2026-11-21 | [test(web): consolidate scenario response body bounds (#13120)](https://github.com/morluto/rea/commit/6ae91b2a10ee178c057c0afecf2c6a012824cdde) | morluto |
-| 2026-11-21 | [feat(website): publish page-specific previews with the original REA blue](https://github.com/morluto/rea/commit/1dd25d87c7ba440b6256c644a556901eac1b3bbb) | morluto |
-| 2026-11-21 | [test(web): control scenario request deadline phases (#13119)](https://github.com/morluto/rea/commit/6ecafb590e4c506ac932877580f07b60ed7d9e91) | morluto |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

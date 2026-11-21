@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-07-22 |
 | 📦 **Latest release** | [@e2e-dev/revyl@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/revyl%400.0.1) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 122.1 MB |
+| 💾 **Size** | 122.6 MB |
 | 🌐 **Website** | https://e2e.com |
 
 ## 📦 Recent releases

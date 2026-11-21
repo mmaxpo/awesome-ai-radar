@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 71.8k |
 | 🍴 **Forks** | 6.4k |
-| 🐞 **Open issues + PRs** | [18](https://github.com/mvanhorn/last30days-skill/issues) |
+| 🐞 **Open issues + PRs** | [17](https://github.com/mvanhorn/last30days-skill/issues) |
 | 💻 **Languages** | Python 96% · HTML 2% · Go 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-prompts` `claude` `claude-code` `reddit` `twitter` `hackernews` `polymarket` `research` `youtube` `ai-skill` `bluesky` `clawhub` `deep-research` `instagram` `openclaw` `recency` `social-media` `tiktok` `trends` `web-search` |

@@ -73,6 +73,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Merge pull request #31008 from sshivensolanki/dnn-eyelike-uint32-uint64](https://github.com/opencv/opencv/commit/13778986a86cfb3b6745be923b088914e9fc28f7) | abhishek-gola |
+| 2026-11-21 | [dnn: support CV_32U and CV_64U outputs in EyeLike](https://github.com/opencv/opencv/commit/c8ac3039be2c70fb491c5d70489d62044fb5c319) | sshivensolanki |
 | 2026-11-21 | [Merge pull request #31013 from sshivensolanki/dnn-clip-uint32-uint64](https://github.com/opencv/opencv/commit/e49cba785665646539e70ca7bcfa3a9d71adf5fc) | abhishek-gola |
 | 2026-11-21 | [Merge pull request #30817 from ternaus/codex/fractional-area-resize](https://github.com/opencv/opencv/commit/d12ffef79ba18b7fe942350d129e94a62cb69afd) | abhishek-gola |
 | 2026-11-21 | [dnn: support CV_32U and CV_64U in Clip default bounds](https://github.com/opencv/opencv/commit/fe06ceaca528f17e02c95f172dd26845e416a9bf) | sshivensolanki |
@@ -81,8 +83,6 @@
 | 2026-11-21 | [Merge pull request #30990 from pranayr710/fix/compare-cv-bool](https://github.com/opencv/opencv/commit/fc79cd24c2dffad90facfc5f575fcf6bfa981548) | abhishek-gola |
 | 2026-11-20 | [Merge pull request #30977 from varun-jaiswal17/docs-5x-version-wording](https://github.com/opencv/opencv/commit/b6d8ca41b1b2b5cb020ecb7abe8d04a48fc54b74) | varun-jaiswal17 |
 | 2026-11-20 | [Merge pull request #31001 from sshivensolanki:dnn-hardmax-int64-bool](https://github.com/opencv/opencv/commit/21b23e402f8677d51e408e4baeed1874b3662bba) | asmorkalov |
-| 2026-11-20 | [Merge pull request #30398 from abhishek-gola/non-cpu-hal](https://github.com/opencv/opencv/commit/22db6f41b9b31a148d54444f596faca481463286) | abhishek-gola |
-| 2026-11-20 | [doc(core): fix output type rules for mulTransposed and calcCovarMatri…](https://github.com/opencv/opencv/commit/884de0655de94ec34b4dcdf9edf4287b1f086fd2) | sshivensolanki |
 
 [See all commits ↗](https://github.com/opencv/opencv/commits)
 

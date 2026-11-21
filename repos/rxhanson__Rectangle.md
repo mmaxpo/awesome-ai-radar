@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **What's Changed**
 > * Free the Settings window when it closes by @zolferfigueiredo in https://github.com/rxhanson/Rectangle/pull/1930

@@ -30,7 +30,7 @@
 | 📅 **Created** | 2023-10-06 |
 | 📦 **Latest release** | [v0.13.4](https://github.com/open-webui/open-webui/releases/tag/v0.13.4) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 601.0 MB |
+| 💾 **Size** | 591.2 MB |
 | 🌐 **Website** | https://openwebui.com |
 
 ## 📦 Recent releases

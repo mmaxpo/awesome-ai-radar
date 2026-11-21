@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 89.3k |
 | 🍴 **Forks** | 13.8k |
-| 🐞 **Open issues + PRs** | [849](https://github.com/cheaper-inference/OmniRoute/issues) |
+| 🐞 **Open issues + PRs** | [851](https://github.com/cheaper-inference/OmniRoute/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `a2a` `ai-agents` `ai-gateway` `anthropic` `claude` `claude-code` `cline` `codex` `copilot` `cursor` `deepseek` `free-ai` `gemini` `llm-gateway` `mcp` `openai` `openai-proxy` `qwen` `token-saver` `kimi` |
@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v3.8.54](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54) — 2026-11-17 |
 | 🌿 **Default branch** | `release/v3.8.55` |
-| 💾 **Size** | 3649.3 MB |
+| 💾 **Size** | 3653.7 MB |
 | 🌐 **Website** | https://omniroute.online |
 
 ## 📦 Recent releases

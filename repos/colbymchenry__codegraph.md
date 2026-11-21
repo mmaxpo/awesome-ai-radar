@@ -47,7 +47,7 @@
 > …
 
 ### [v1.6.3](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.3)
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **[1.6.3] - 2026-11-17**
 > **Highlights**

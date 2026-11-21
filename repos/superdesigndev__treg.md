@@ -30,7 +30,7 @@
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 140.5 MB |
+| 💾 **Size** | 139.3 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases

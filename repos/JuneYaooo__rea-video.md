@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 11.6k |
 | 🍴 **Forks** | 1.7k |
-| 🐞 **Open issues + PRs** | [5](https://github.com/JuneYaooo/rea-video/issues) |
+| 🐞 **Open issues + PRs** | [6](https://github.com/JuneYaooo/rea-video/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai-video` `aigc-detection` `claude-code` `codex` `ffmpeg` `prompt-engineering` `remotion` `reverse-engineering` `short-video` `shot-detection` `subtitles` `video-analysis` `video-breakdown` `video-editing` `video-generation` `vlm` `videomd` |
@@ -50,6 +50,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Make reports easier to read](https://github.com/JuneYaooo/rea-video/commit/86486c6e104b917fb4b6a2d6501134686c05b219) | JuneYaooo |
 | 2026-11-21 | [Refresh report layout](https://github.com/JuneYaooo/rea-video/commit/612b3ef523c868d4c7cd5741ce29ba159f7582cb) | JuneYaooo |
 | 2026-11-21 | [Keep pitch frames steady and clarify Windows setup](https://github.com/JuneYaooo/rea-video/commit/2901858590cd919aeb48a9d0ab8b34463ea1b51a) | JuneYaooo |
 | 2026-11-21 | [Fix pitch analysis past the end of audio](https://github.com/JuneYaooo/rea-video/commit/3d9a740b7b5d449b3cba7af16a0125ee38276163) | zitihc |
@@ -59,7 +60,6 @@
 | 2026-11-21 | [Report a missing ffmpeg when probe runs, not a missing file](https://github.com/JuneYaooo/rea-video/commit/73541597454c29281103e03029ba7bdb439875b7) | xdAsaah |
 | 2026-11-21 | [Tell Windows users how to install ffmpeg and Python, and how to link …](https://github.com/JuneYaooo/rea-video/commit/1526ca3b3c9c166f16a6425f34667981d7041725) | xdAsaah |
 | 2026-11-21 | [Find browsers in the 64-bit and per-user Windows install locations](https://github.com/JuneYaooo/rea-video/commit/6eb1e1779e57426a3ccf3b2e4cd8d992ce8180b5) | xdAsaah |
-| 2026-11-20 | [Find magic reveals and highlight moments](https://github.com/JuneYaooo/rea-video/commit/131d1527557d2cccacb64059d47560964235acd7) | JuneYaooo |
 
 [See all commits ↗](https://github.com/JuneYaooo/rea-video/commits)
 

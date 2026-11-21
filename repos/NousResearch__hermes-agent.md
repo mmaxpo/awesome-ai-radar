@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [test(dashboard): the foreign-address probe test never names an addres…](https://github.com/NousResearch/hermes-agent/commit/b25cf0a408d20bbc658cac26deca35d084980466) | unsupportedpastels |
-| 2026-11-21 | [fix(dashboard): --status probes its own address only where this machi…](https://github.com/NousResearch/hermes-agent/commit/686baf81b86a7e884be5e0ddd656d6b2c6af52f2) | unsupportedpastels |
-| 2026-11-21 | [test(dashboard): the exec-launcher --status test runs the launcher th…](https://github.com/NousResearch/hermes-agent/commit/d61e25fffecd9b5bcb607a844e936ed4b22a9cb9) | unsupportedpastels |
-| 2026-11-21 | [fix(dashboard): --status probes the address it names, so an exec laun…](https://github.com/NousResearch/hermes-agent/commit/6141972d9c1ded69f0315a82623ca53ed93ed574) | BearHuddleston |
-| 2026-11-21 | [fix(dashboard): --status checks listener address overlap before omitt…](https://github.com/NousResearch/hermes-agent/commit/891a8250005accb26c5a1bfec9e23c0284ba1e19) | BearHuddleston |
-| 2026-11-21 | [fix(dashboard): --status attributes a held port by the peer its probe…](https://github.com/NousResearch/hermes-agent/commit/572e4ab424b82842aef2437beade93d950b94ce0) | unsupportedpastels |
-| 2026-11-21 | [test(dashboard): the listener-hint test no longer races the gateway's…](https://github.com/NousResearch/hermes-agent/commit/8c72699488e04d7749ae7420058bdd27d70ecd73) | unsupportedpastels |
-| 2026-11-21 | [fix(dashboard): the gateway hints name its live listener and read no …](https://github.com/NousResearch/hermes-agent/commit/05677872dfd4e4cd806bfbf828a580c54f7f8085) | unsupportedpastels |
-| 2026-11-21 | [fix(dashboard): a gateway draining or in its restart wait keeps exit 75](https://github.com/NousResearch/hermes-agent/commit/f14e36c2403fef09721ea1b3c4e67e264aee485a) | unsupportedpastels |
-| 2026-11-21 | [fix(dashboard): --status leaves its own launcher out and names a gate…](https://github.com/NousResearch/hermes-agent/commit/273dae2080d74d63014ebb1abfd93501368385c5) | unsupportedpastels |
+| 2026-11-21 | [fix(gateway): never copy a launcher key the home's .env already sets](https://github.com/NousResearch/hermes-agent/commit/38fde82474b5d370590e314358cc05076dc9ae70) | unsupportedpastels |
+| 2026-11-21 | [fix(gateway): name running turns in the no-service-manager recipe too](https://github.com/NousResearch/hermes-agent/commit/c8a8bfb2f7af7d673b43a4de46fff3098ba1d4e1) | unsupportedpastels |
+| 2026-11-21 | [fix(gateway): probe a by-hand backend's health only in the planner's …](https://github.com/NousResearch/hermes-agent/commit/49607d4ce546dfa3f39ab442f74f48c07f658a3c) | unsupportedpastels |
+| 2026-11-21 | [test(gateway): run the status-wording cases on the host they describe](https://github.com/NousResearch/hermes-agent/commit/989b03e10f1c318633c2c5bc25e1c4b21fc6f68d) | unsupportedpastels |
+| 2026-11-21 | [test(gateway): check the plan's hermes commands by their output, not …](https://github.com/NousResearch/hermes-agent/commit/78b654f287db5a2e75f6e866da1e44eedcf45a8d) | unsupportedpastels |
+| 2026-11-21 | [fix(gateway): block a by-hand plan on a refused old public URL](https://github.com/NousResearch/hermes-agent/commit/0137734cf8f8cd761e28a2279c1d8ea687fb5fde) | unsupportedpastels |
+| 2026-11-21 | [fix(gateway): say how the unknown-activity blocker clears and name it…](https://github.com/NousResearch/hermes-agent/commit/18cfd6e05556bd8da0b34b7599b0825468ea7589) | unsupportedpastels |
+| 2026-11-21 | [fix(gateway): name known running turns in every forced by-hand plan](https://github.com/NousResearch/hermes-agent/commit/ad067d40f27ab03baba9533d085e08c005e31c09) | BearHuddleston |
+| 2026-11-21 | [fix(gateway): treat a by-hand backend without /api/health as unknown …](https://github.com/NousResearch/hermes-agent/commit/dbd7ace40a6bc9fbd2a8a770793c44b2e4fa6a44) | unsupportedpastels |
+| 2026-11-21 | [fix(gateway): redact inline source after pythonw short -c clusters too](https://github.com/NousResearch/hermes-agent/commit/f12fc78ca1d048de0091d30e124f6acc3a8d0ad1) | unsupportedpastels |
 
 [See all commits ↗](https://github.com/NousResearch/hermes-agent/commits)
 

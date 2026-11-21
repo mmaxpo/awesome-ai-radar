@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 60.0k |
 | 🍴 **Forks** | 7.9k |
-| 🐞 **Open issues + PRs** | [165](https://github.com/Gathin23/cleanyourtv/issues) |
+| 🐞 **Open issues + PRs** | [166](https://github.com/Gathin23/cleanyourtv/issues) |
 | 💻 **Languages** | Python 54% · Java 41% · Kotlin 2% · Shell 2% · PowerShell 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `adb` `android-tv` `claude-code` `debloat` `launcher` `xiaomi` `android-tv-launcher` `bloatware-removal` `google-tv` `smart-tv` `sony-bravia` `tcl` `adblock` `apple-tv` `fire-tv` `privacy` `vibe-coding` |

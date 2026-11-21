@@ -14,7 +14,15 @@ This list is checked by a GitHub Action **every day**, so you always see:
 - 📄 **A detail sheet for every repo** — stars, languages, license, latest releases, recent commits
 - 📊 **The whole list as a table** — [`repos.csv`](repos.csv), sortable and searchable
 
-**318 repos · 19 categories · 111 new releases this week** · _last checked 2026-11-21 15:31 UTC_
+### 🎯 Why you need this
+
+- ⏱ **Save hours of digging** — no more scrolling X, Reddit and GitHub Trending: the AI repos that matter are in one place, grouped by what you're building.
+- ✅ **Don't build on dead code** — see which projects are maintained, shipping releases or abandoned *before* you depend on them.
+- 🧭 **Every pick has a reason** — a one-line *why* for each repo, not just a star count.
+- 🔔 **Stay current in 2 minutes a week** — the [weekly digest](weekly/) tells you what shipped. ⭐ Star or 👀 watch this repo to keep it on your radar.
+- 🛠 **Make it yours** — use it as a template to track your own stack.
+
+**318 repos · 19 categories · 111 new releases this week** · _last checked 2026-11-21 15:38 UTC_
 
 **Jump to:** [🔥 What's new](#-whats-new-last-7-days) · [🗂 Categories](#-categories) · [📰 Weekly digests](weekly/) · [➕ Suggest a repo](#-suggest-a-repo) · [🛠 Make your own radar](#-make-your-own-radar-in-1-minute)
 
@@ -55,7 +63,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 - **[OpenHands/OpenHands](repos/OpenHands__OpenHands.md)** — [v1.43.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.43.0) (today) · 💻 Coding agents & dev tools
 - **[mudler/LocalAI](repos/mudler__LocalAI.md)** — [v5.0.1](https://github.com/mudler/LocalAI/releases/tag/v5.0.1) (today) · 🖥 Models, local inference & gateways
 - **[zed-industries/zed](repos/zed-industries__zed.md)** — [v1.29.3](https://github.com/zed-industries/zed/releases/tag/v1.29.3) (today) · 💻 Coding agents & dev tools
-- **[rxhanson/Rectangle](repos/rxhanson__Rectangle.md)** — [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5) (today) · 🧰 Open-source utilities
+- **[rxhanson/Rectangle](repos/rxhanson__Rectangle.md)** — [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5) (yesterday) · 🧰 Open-source utilities
 - **[colbymchenry/codegraph](repos/colbymchenry__codegraph.md)** — [v1.6.4](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.4) (yesterday) · 💻 Coding agents & dev tools
 - **[CopilotKit/CopilotKit](repos/CopilotKit__CopilotKit.md)** — [v1.90.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.0) (yesterday) · 🧩 Low-code builders & chat UIs
 - **[debpalash/VoiceStudio](repos/debpalash__VoiceStudio.md)** — [v0.5.9-beta.7](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.7) (yesterday) · 🖼 Image & video generation
@@ -138,11 +146,13 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 
 <details><summary><b>🔨 New commits only</b> (110 repos)</summary>
 
+- **[tailscale/tailscale](repos/tailscale__tailscale.md)** (today): _magicsock,tstun: add gauges for the number of open queues and sockets…_
+- **[opencv/opencv](repos/opencv__opencv.md)** (today): _Merge pull request #31008 from sshivensolanki/dnn-eyelike-uint32-uint64_
+- **[JuneYaooo/rea-video](repos/JuneYaooo__rea-video.md)** (today): _Make reports easier to read_
+- **[tt-a1i/archify](repos/tt-a1i__archify.md)** (today): _Merge pull request #1423 from tt-a1i/feat/geo-seo-v3-main_
 - **[bilawalsidhu/gods-eye-view](repos/bilawalsidhu__gods-eye-view.md)** (today): _Opening the phone Context tab no longer switches Contacts on (#1893)_
 - **[pytorch/pytorch](repos/pytorch__pytorch.md)** (today): _Revert "[ROCm] Replace deprecated HIP atomics and hipcub::Equality (#…_
 - **[JustVugg/colibri](repos/JustVugg__colibri.md)** (today): _Merge pull request #2530 from JustVugg/dev_
-- **[tt-a1i/archify](repos/tt-a1i__archify.md)** (today): _Merge pull request #1423 from tt-a1i/feat/geo-seo-v3-main_
-- **[JuneYaooo/rea-video](repos/JuneYaooo__rea-video.md)** (today): _Refresh report layout_
 - **[wshobson/agents](repos/wshobson__agents.md)** (today): _ci(smoke): install OpenCode from the pinned npm package instead of pi…_
 - **[hesreallyhim/awesome-claude-code](repos/hesreallyhim__awesome-claude-code.md)** (today): _chore: update repo ticker data and SVGs [skip ci]_
 - **[scikit-learn/scikit-learn](repos/scikit-learn__scikit-learn.md)** (today): _ENH Remove the references to children in CallbackContext (#35270)_
@@ -164,7 +174,6 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 - **[motiondivision/motion](repos/motiondivision__motion.md)** (today): _Merge pull request #4109 from motiondivision/claude/project-thread-il…_
 - **[tinacms/tinacms](repos/tinacms__tinacms.md)** (today): _fix(v4): show the Resume prompt once per document per page load (#8056)_
 - **[vercel-labs/agent-browser](repos/vercel-labs__agent-browser.md)** (today): _feat(webmcp): announce page tools so agents use them (#2606)_
-- **[opencv/opencv](repos/opencv__opencv.md)** (today): _Merge pull request #31013 from sshivensolanki/dnn-clip-uint32-uint64_
 - **[cursor/plugins](repos/cursor__plugins.md)** (today): _google-slides: use Google's current Google Slides icon (#1314)_
 - **[anthropics/claude-plugins-official](repos/anthropics__claude-plugins-official.md)** (today): _feat(theme-examples): add sound to Koi Pond and Falling Sand (#7191)_
 - **[walkinglabs/learn-harness-engineering](repos/walkinglabs__learn-harness-engineering.md)** (today): _feat(docs): add English llms output (#36)_
@@ -179,7 +188,6 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 - **[numba/numba](repos/numba__numba.md)** (today): _Merge pull request #10894 from shaneraphel/zip-cache-readonly-home_
 - **[google/skills](repos/google__skills.md)** (today): _No public description_
 - **[openinterpreter/openinterpreter](repos/openinterpreter__openinterpreter.md)** (today): _Merge pull request #1988 from openinterpreter/interpreterwork/fable-c…_
-- **[tailscale/tailscale](repos/tailscale__tailscale.md)** (today): _magicsock,tstun: add gauges for the number of open queues and sockets…_
 - **[keras-team/keras](repos/keras-team__keras.md)** (today): _Stop using `backend.set_floatx` and instead import `config` (#24320)_
 - **[asgeirtj/system_prompts_leaks](repos/asgeirtj__system_prompts_leaks.md)** (today): _Update README.md_
 - **[anthropics/claude-cookbooks](repos/anthropics__claude-cookbooks.md)** (today): _ci: use claude-code-action v1 (#979)_
@@ -192,7 +200,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 - **[pandas-dev/pandas](repos/pandas-dev__pandas.md)** (today): _BUG: Grouper(freq).value_counts raising with NaT in the grouped index…_
 - **[microsoft/playwright-python](repos/microsoft__playwright-python.md)** (today): _chore: roll Playwright to 1.66.0-next (a018f24a4f) (#3359)_
 - **[ggml-org/whisper.cpp](repos/ggml-org__whisper.cpp.md)** (today): _ci : update CUDA 11.8.0 CUBLAS version to 11.11.3.6 (#4195)_
-- **[headroomlabs-ai/headroom](repos/headroomlabs-ai__headroom.md)** (today): _fix(cache): preserve complete CCR hashes across restarts (#4820)_
+- **[headroomlabs-ai/headroom](repos/headroomlabs-ai__headroom.md)** (yesterday): _fix(cache): preserve complete CCR hashes across restarts (#4820)_
 - **[MemPalace/mempalace](repos/MemPalace__mempalace.md)** (yesterday): _Merge pull request #3031 from MemPalace/chore/changelog-backfill-blas…_
 - **[cherry-embedded/CherryUSB](repos/cherry-embedded__CherryUSB.md)** (yesterday): _add(port/wch): add wch usbss device controller port_
 - **[HKUDS/CLI-Anything](repos/HKUDS__CLI-Anything.md)** (yesterday): _Merge pull request #481 from HKUDS/chaohuang-ai-patch-6_
@@ -308,7 +316,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 | [**OpenHands/OpenHands**](repos/OpenHands__OpenHands.md) 🆕<br><sub>🙌 OpenHands: AI-Driven Development</sub> | Open-source AI software-development agent | 94.0k | today | [v1.43.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.43.0) · today |
 | [**rtk-ai/rtk**](repos/rtk-ai__rtk.md) 🆕<br><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero depend…</sub> | CLI proxy that cuts LLM tokens 60–90% on common dev commands | 87.4k | today | [dev-1.2.2-rc.662](https://github.com/rtk-ai/rtk/releases/tag/dev-1.2.2-rc.662) · today |
 | [**abi/screenshot-to-code**](repos/abi__screenshot-to-code.md) 🆕<br><sub>Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</sub> | Turn screenshots/designs into HTML/React code | 81.3k | 6d ago | — |
-| [**headroomlabs-ai/headroom**](repos/headroomlabs-ai__headroom.md) 🆕<br><sub>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agen…</sub> | Compress tool outputs, logs and RAG chunks before they hit the LLM <sub>· TCOS</sub> | 80.2k | today | [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) · 11d ago |
+| [**headroomlabs-ai/headroom**](repos/headroomlabs-ai__headroom.md) 🆕<br><sub>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agen…</sub> | Compress tool outputs, logs and RAG chunks before they hit the LLM <sub>· TCOS</sub> | 80.2k | yesterday | [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) · 11d ago |
 | [**colbymchenry/codegraph**](repos/colbymchenry__codegraph.md) 🆕<br><sub>Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode…</sub> | Pre-indexed code knowledge graph that auto-syncs for coding agents <sub>· TCOS</sub> | 78.3k | today | [v1.6.4](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.4) · yesterday |
 | [**Fission-AI/OpenSpec**](repos/Fission-AI__OpenSpec.md) 🆕<br><sub>Spec-driven development (SDD) for AI coding assistants.</sub> | Spec-driven development for AI coding assistants | 75.4k | today | [v2.1.1](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.1.1) · yesterday |
 | [**cline/cline**](repos/cline__cline.md) 🆕<br><sub>Autonomous coding agent as an SDK, IDE extension, or CLI assistant.</sub> | Autonomous coding agent inside VS Code | 71.8k | today | [v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27) · today |
@@ -483,7 +491,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 
 | Repo | Why it's worth a look | ⭐ | Last activity | Latest release |
 |---|---|---|---|---|
-| [**sherlock-project/sherlock**](repos/sherlock-project__sherlock.md) 🆕<br><sub>Hunt down social media accounts by username across social networks</sub> | Find someone's social-media accounts by username (OSINT) | 115.3k | today | [v0.16.2](https://github.com/sherlock-project/sherlock/releases/tag/v0.16.2) · 2mo ago |
+| [**sherlock-project/sherlock**](repos/sherlock-project__sherlock.md) 🆕<br><sub>Hunt down social media accounts by username across social networks</sub> | Find someone's social-media accounts by username (OSINT) | 115.4k | today | [v0.16.2](https://github.com/sherlock-project/sherlock/releases/tag/v0.16.2) · 2mo ago |
 | [**NationalSecurityAgency/ghidra**](repos/NationalSecurityAgency__ghidra.md) 🆕<br><sub>Ghidra is a software reverse engineering (SRE) framework</sub> | Reverse-engineering framework (NSA) | 100.9k | today | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) · 1mo ago |
 | [**usestrix/strix**](repos/usestrix__strix.md) 🆕<br><sub>Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</sub> | AI penetration testing to find and fix app vulnerabilities | 76.9k | yesterday | [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1) · 10d ago |
 | [**elementalsouls/Claude-BugHunter**](repos/elementalsouls__Claude-BugHunter.md) 🆕<br><sub>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc…</sub> | Claude Code skill bundle for bug hunting and red teaming | 15.4k | today | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) · 5mo ago |
@@ -583,7 +591,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 | [**codecrafters-io/build-your-own-x**](repos/codecrafters-io__build-your-own-x.md) 🆕<br><sub>Master programming by recreating your favorite technologies from scratch.</sub> | Guides to build your own Git, Docker, DB, etc. from scratch | 564.3k | 2d ago | — |
 | [**donnemartin/system-design-primer**](repos/donnemartin__system-design-primer.md)<br><sub>Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.</sub> | Learn to design large-scale systems; system-design interview prep with flashcards | 378.7k | 2mo ago | — |
 | [**Shubhamsaboo/awesome-llm-apps**](repos/Shubhamsaboo__awesome-llm-apps.md) 🆕<br><sub>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</sub> | Many runnable example LLM/agent apps to learn from | 145.3k | 3d ago | — |
-| [**microsoft/generative-ai-for-beginners**](repos/microsoft__generative-ai-for-beginners.md) 🆕<br><sub>21 Lessons, Get Started Building with Generative AI </sub> | 21-lesson Generative AI course from Microsoft | 123.9k | 2d ago | — |
+| [**microsoft/generative-ai-for-beginners**](repos/microsoft__generative-ai-for-beginners.md) 🆕<br><sub>21 Lessons, Get Started Building with Generative AI </sub> | 21-lesson Generative AI course from Microsoft | 124.0k | 2d ago | — |
 | [**rasbt/LLMs-from-scratch**](repos/rasbt__LLMs-from-scratch.md) 🆕<br><sub>Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</sub> | Build a ChatGPT-like LLM in PyTorch step by step | 108.8k | today | — |
 | [**karpathy/autoresearch**](repos/karpathy__autoresearch.md) 💤<br><sub>AI agents running research on single-GPU nanochat training automatically</sub> | Agents running ML research automatically on one GPU | 100.4k | 8mo ago | — |
 | [**mlabonne/llm-course**](repos/mlabonne__llm-course.md) 💤<br><sub>Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</sub> | LLM course with roadmaps and Colab notebooks | 85.2k | 9mo ago | — |
@@ -610,7 +618,7 @@ _📰 Readable summary: [this week's digest](weekly/2026-W47.md) · [all weeks](
 | [**Gathin23/cleanyourtv**](repos/Gathin23__cleanyourtv.md) 🆕<br><sub>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</sub> | Debloat Android/Google TV without root | 60.0k | yesterday | [v3.6.0](https://github.com/Gathin23/cleanyourtv/releases/tag/v3.6.0) · yesterday |
 | [**tailscale/tailscale**](repos/tailscale__tailscale.md) 🆕<br><sub>The easiest, most secure way to use WireGuard and 2FA.</sub> | Zero-config private network (WireGuard mesh VPN) | 39.4k | today | [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7) · 8d ago |
 | [**DevToys-app/DevToys**](repos/DevToys-app__DevToys.md)<br><sub>A Swiss Army knife for developers.</sub> | Offline Swiss-army knife of developer utilities | 32.3k | 1mo ago | [v2.0.9.0](https://github.com/DevToys-app/DevToys/releases/tag/v2.0.9.0) · 10mo ago |
-| [**rxhanson/Rectangle**](repos/rxhanson__Rectangle.md) 🆕<br><sub>Move and resize windows on macOS with keyboard shortcuts and snap areas</sub> | Mac window snapping with keyboard shortcuts | 30.3k | today | [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5) · today |
+| [**rxhanson/Rectangle**](repos/rxhanson__Rectangle.md) 🆕<br><sub>Move and resize windows on macOS with keyboard shortcuts and snap areas</sub> | Mac window snapping with keyboard shortcuts | 30.3k | today | [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5) · yesterday |
 | [**fosrl/pangolin**](repos/fosrl__pangolin.md) 🆕<br><sub>Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and …</sub> | Self-hosted zero-trust VPN and reverse proxy (WireGuard) | 23.9k | today | [1.27.1](https://github.com/fosrl/pangolin/releases/tag/1.27.1) · today |
 | [**neondatabase/neon**](repos/neondatabase__neon.md)<br><sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching…</sub> | Serverless Postgres that branches instantly | 23.4k | 2mo ago | [release-proxy-8853](https://github.com/neondatabase/neon/releases/tag/release-proxy-8853) · 1y ago |
 | [**android/nowinandroid**](repos/android__nowinandroid.md) 🆕<br><sub>A fully functional Android app built entirely with Kotlin and Jetpack Compose</sub> | Reference Android app: Kotlin + Jetpack Compose best practices | 22.1k | today | [0.1.1](https://github.com/android/nowinandroid/releases/tag/0.1.1) · 3y ago |
@@ -845,7 +853,7 @@ Papers, courses, models and sites that aren't GitHub repos (so they're not track
 
 | Top repo | ⭐ | Last activity |
 |---|---|---|
-| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)<br><sub>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and…</sub> | 42.8k | 12d ago |
+| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)<br><sub>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and…</sub> | 42.9k | 12d ago |
 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)<br><sub>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</sub> | 34.8k | 15d ago |
 | [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)<br><sub>See, hear, and interact on your local devices.</sub> | 27.2k | 12d ago |
 | [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM)<br><sub>MiniCPM5: SOTA on-device LLMs, small yet powerful.</sub> | 11.9k | 12d ago |
@@ -858,11 +866,11 @@ Papers, courses, models and sites that aren't GitHub repos (so they're not track
 | Top repo | ⭐ | Last activity |
 |---|---|---|
 | [ZenRows/zenrows-mcp](https://github.com/ZenRows/zenrows-mcp)<br><sub>Official Zenrows MCP integration</sub> | 22 | yesterday |
-| [ZenRows/zenrows-python-sdk](https://github.com/ZenRows/zenrows-python-sdk)<br><sub>SDK to access Zenrows API directly from Python. We handle proxies rotation, headless brows…</sub> | 21 | 2d ago |
-| [ZenRows/zenrows-node-sdk](https://github.com/ZenRows/zenrows-node-sdk)<br><sub>SDK to access Zenrows API directly from Node.js. We handle proxies rotation, headless brow…</sub> | 19 | 2d ago |
-| [ZenRows/cli](https://github.com/ZenRows/cli)<br><sub>Zero-config CLI that gives AI agents reliable access to protected web data through Zenrows…</sub> | 18 | 2d ago |
-| [ZenRows/zenrows-go-sdk](https://github.com/ZenRows/zenrows-go-sdk)<br><sub>Zenrows® SDK for effective scraping in the Go programming language</sub> | 5 | 2d ago |
-| [ZenRows/scrapy-zenrows-middleware](https://github.com/ZenRows/scrapy-zenrows-middleware) | 2 | 2d ago |
+| [ZenRows/zenrows-python-sdk](https://github.com/ZenRows/zenrows-python-sdk)<br><sub>SDK to access Zenrows API directly from Python. We handle proxies rotation, headless brows…</sub> | 21 | 3d ago |
+| [ZenRows/zenrows-node-sdk](https://github.com/ZenRows/zenrows-node-sdk)<br><sub>SDK to access Zenrows API directly from Node.js. We handle proxies rotation, headless brow…</sub> | 19 | 3d ago |
+| [ZenRows/cli](https://github.com/ZenRows/cli)<br><sub>Zero-config CLI that gives AI agents reliable access to protected web data through Zenrows…</sub> | 18 | 3d ago |
+| [ZenRows/zenrows-go-sdk](https://github.com/ZenRows/zenrows-go-sdk)<br><sub>Zenrows® SDK for effective scraping in the Go programming language</sub> | 5 | 3d ago |
+| [ZenRows/scrapy-zenrows-middleware](https://github.com/ZenRows/scrapy-zenrows-middleware) | 2 | 3d ago |
 
 ### [Stability AI](https://github.com/Stability-AI) — Makers of Stable Diffusion
 <sub> · 52 public repos</sub>
