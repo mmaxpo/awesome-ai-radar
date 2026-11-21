@@ -135,6 +135,65 @@
   status: study
   added: 2026-11-11
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: NousResearch/hermes-agent
+  why: "Self-improving agent that grows with you — huge community"
+  category: agents
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: bytedance/deer-flow
+  why: "Long-horizon SuperAgent harness: researches, codes, creates"
+  category: agents
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: langchain-ai/langchain
+  why: "The agent engineering platform — still the reference ecosystem"
+  category: agents
+  status: study
+  added: 2026-11-15
+
+- repo: langchain-ai/langgraph
+  why: "Build resilient, stateful agents as graphs"
+  category: agents
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: browser-use/browser-use
+  why: "Python library for AI browser agents"
+  category: agents
+  status: study
+  added: 2026-11-15
+
+- repo: vercel-labs/agent-browser
+  why: "Browser automation CLI built for AI agents"
+  category: agents
+  status: study
+  added: 2026-11-15
+
+- repo: HKUDS/nanobot
+  why: "Lightweight open-source personal agent"
+  category: agents
+  status: study
+  added: 2026-11-15
+
+- repo: multica-ai/multica
+  why: "Self-hostable workspace where humans and agents work as one team"
+  category: agents
+  status: study
+  added: 2026-11-15
+
+- repo: TauricResearch/TradingAgents
+  why: "Multi-agent LLM trading framework (analyst, risk, trader roles)"
+  category: agents
+  status: study
+  added: 2026-11-15
+
 # ───────── 💻 Coding agents & dev tools ─────────
 
 - repo: anomalyco/opencode
@@ -197,6 +256,108 @@
   status: study
   added: 2026-11-14
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: charmbracelet/crush
+  why: "Terminal coding agent for any LLM — swap models mid-session, LSP + MCP"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: anthropics/claude-code
+  why: "Anthropic's official agentic coding tool for the terminal"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: google-gemini/gemini-cli
+  why: "Google's open-source terminal agent for Gemini models"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: Aider-AI/aider
+  why: "Classic AI pair programmer in the terminal, git-aware"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: aaif-goose/goose
+  why: "Extensible open-source agent that installs, runs, edits and tests code"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: github/spec-kit
+  why: "GitHub's toolkit for spec-driven development with AI agents"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: Fission-AI/OpenSpec
+  why: "Spec-driven development for AI coding assistants"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: bmad-code-org/BMAD-METHOD
+  why: "Agile method + agent roles for AI-driven development"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: stablyai/orca
+  why: "Run a fleet of coding agents (Claude Code, Codex) in parallel"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: farion1231/cc-switch
+  why: "Desktop switcher for Claude Code, Codex, OpenCode providers & configs"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: colbymchenry/codegraph
+  why: "Pre-indexed code knowledge graph that auto-syncs for coding agents"
+  category: coding
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: Graphify-Labs/graphify
+  why: "Turn a codebase + docs + schemas into a queryable knowledge graph"
+  category: coding
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: upstash/context7
+  why: "Up-to-date library docs for coding agents (MCP)"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: rtk-ai/rtk
+  why: "CLI proxy that cuts LLM tokens 60–90% on common dev commands"
+  category: coding
+  status: study
+  added: 2026-11-15
+
+- repo: headroomlabs-ai/headroom
+  why: "Compress tool outputs, logs and RAG chunks before they hit the LLM"
+  category: coding
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: daytonaio/daytona
+  why: "Secure sandboxes for running AI-generated code"
+  category: coding
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
 # ───────── 🔁 Durable workflows & orchestration ─────────
 
 - repo: temporalio/temporal
@@ -235,6 +396,14 @@
   status: study
   added: 2026-11-14
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: n8n-io/n8n
+  why: "Workflow automation with native AI — visual + code"
+  category: workflows
+  status: study
+  added: 2026-11-15
+
 # ───────── 🪄 Agent skills & guidance ─────────
 
 - repo: nextlevelbuilder/ui-ux-pro-max-skill
@@ -266,6 +435,69 @@
   category: skills
   status: study
   added: 2026-11-14
+
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: obra/superpowers
+  why: "Agentic skills framework & dev methodology — one of the most-starred skill sets"
+  category: skills
+  status: study
+  added: 2026-11-15
+
+- repo: affaan-m/ECC
+  why: "Agent harness optimization: skills, memory, security for Claude Code/Codex/Cursor"
+  category: skills
+  status: study
+  added: 2026-11-15
+
+- repo: multica-ai/andrej-karpathy-skills
+  why: "Single CLAUDE.md from Karpathy's notes on LLM coding pitfalls"
+  category: skills
+  status: study
+  added: 2026-11-15
+
+- repo: garrytan/gstack
+  why: "Garry Tan's Claude Code setup: 23 opinionated role tools"
+  category: skills
+  status: study
+  added: 2026-11-15
+
+- repo: JuliusBrussee/caveman
+  why: "Skill + proxy that makes coding agents talk in far fewer tokens"
+  category: skills
+  status: study
+  added: 2026-11-15
+
+- repo: wshobson/agents
+  why: "Plugins, agents, skills and commands for Claude Code, Codex, Cursor"
+  category: skills
+  status: study
+  added: 2026-11-15
+
+- repo: anthropics/claude-plugins-official
+  why: "Anthropic-managed directory of Claude Code plugins"
+  category: skills
+  status: study
+  added: 2026-11-15
+
+- repo: coreyhaines31/marketingskills
+  why: "Marketing skills for agents: CRO, copywriting, SEO, analytics"
+  category: skills
+  status: study
+  project: agency
+  added: 2026-11-15
+
+- repo: mvanhorn/last30days-skill
+  why: "Skill that researches a topic across Reddit, X, YouTube, HN"
+  category: skills
+  status: study
+  added: 2026-11-15
+
+- repo: blader/humanizer
+  why: "Skill that removes signs of AI-generated writing"
+  category: skills
+  status: study
+  added: 2026-11-15
 
 # ───────── 🧠 RAG, memory & chat with your data ─────────
 
@@ -311,6 +543,46 @@
   status: study
   added: 2026-11-11
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: mem0ai/mem0
+  why: "Drop-in memory layer for AI agents"
+  category: rag
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: MemPalace/mempalace
+  why: "Top-benchmarked open-source AI memory system"
+  category: rag
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: infiniflow/ragflow
+  why: "Agent-native RAG engine with deep document understanding"
+  category: rag
+  status: study
+  added: 2026-11-15
+
+- repo: run-llama/llama_index
+  why: "Document processing + RAG framework"
+  category: rag
+  status: study
+  added: 2026-11-15
+
+- repo: HKUDS/LightRAG
+  why: "Simple, fast graph-based RAG"
+  category: rag
+  status: study
+  added: 2026-11-15
+
+- repo: VectifyAI/PageIndex
+  why: "Vectorless, reasoning-based RAG over long documents"
+  category: rag
+  status: study
+  added: 2026-11-15
+
 # ───────── 📄 Documents, OCR & web data ─────────
 
 - repo: firecrawl/firecrawl
@@ -348,6 +620,38 @@
   category: documents
   status: study
   added: 2026-11-11
+
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: docling-project/docling
+  why: "Convert PDFs/Office docs into AI-ready structured data (IBM)"
+  category: documents
+  status: study
+  added: 2026-11-15
+
+- repo: opendatalab/MinerU
+  why: "PDF & Office to LLM-ready Markdown/JSON"
+  category: documents
+  status: study
+  added: 2026-11-15
+
+- repo: PaddlePaddle/PaddleOCR
+  why: "Lightweight OCR: PDFs/images to structured data"
+  category: documents
+  status: study
+  added: 2026-11-15
+
+- repo: unclecode/crawl4ai
+  why: "LLM-friendly web crawler & scraper"
+  category: documents
+  status: study
+  added: 2026-11-15
+
+- repo: D4Vinci/Scrapling
+  why: "Adaptive web scraping framework, single request to full crawl"
+  category: documents
+  status: study
+  added: 2026-11-15
 
 # ───────── 🖥 Models, local inference & gateways ─────────
 
@@ -411,6 +715,57 @@
   status: study
   added: 2026-11-11
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: ggml-org/llama.cpp
+  why: "The core C/C++ engine for running LLMs locally"
+  category: models
+  status: study
+  added: 2026-11-15
+
+- repo: vllm-project/vllm
+  why: "High-throughput LLM serving engine"
+  category: models
+  status: study
+  project: TCOS
+  added: 2026-11-15
+
+- repo: unslothai/unsloth
+  why: "Run and fine-tune LLMs locally, fast and low-memory"
+  category: models
+  status: study
+  added: 2026-11-15
+
+- repo: hiyouga/LlamaFactory
+  why: "Unified fine-tuning for 100+ LLMs & VLMs"
+  category: models
+  status: study
+  added: 2026-11-15
+
+- repo: mudler/LocalAI
+  why: "Self-hosted OpenAI-compatible engine for LLMs, voice, image"
+  category: models
+  status: study
+  added: 2026-11-15
+
+- repo: janhq/jan
+  why: "Offline ChatGPT alternative that runs 100% on your computer"
+  category: models
+  status: study
+  added: 2026-11-15
+
+- repo: cheaper-inference/OmniRoute
+  why: "Free AI gateway: one endpoint for many providers"
+  category: models
+  status: study
+  added: 2026-11-15
+
+- repo: ggml-org/whisper.cpp
+  why: "Fast local speech-to-text (Whisper in C/C++)"
+  category: models
+  status: study
+  added: 2026-11-15
+
 # ───────── 📈 Classic ML, data science & vision ─────────
 
 - repo: scikit-learn/scikit-learn
@@ -473,6 +828,14 @@
   status: study
   added: 2026-11-11
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: huggingface/transformers
+  why: "The model-definition library behind most open models"
+  category: ml
+  status: study
+  added: 2026-11-15
+
 # ───────── 🧬 AI for science ─────────
 
 - repo: google-deepmind/alphafold
@@ -533,6 +896,14 @@
   status: study
   added: 2026-11-14
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: usestrix/strix
+  why: "AI penetration testing to find and fix app vulnerabilities"
+  category: security
+  status: study
+  added: 2026-11-15
+
 # ───────── 🧩 Low-code builders & chat UIs ─────────
 
 - repo: langflow-ai/langflow
@@ -571,6 +942,26 @@
   status: study
   added: 2026-11-11
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: langgenius/dify
+  why: "Build agentic workflows and RAG apps, self-hostable"
+  category: builders
+  status: study
+  added: 2026-11-15
+
+- repo: open-webui/open-webui
+  why: "Self-hosted chat UI for Ollama and OpenAI-compatible APIs"
+  category: builders
+  status: study
+  added: 2026-11-15
+
+- repo: supabase/supabase
+  why: "Postgres platform: DB, auth, storage, vectors"
+  category: builders
+  status: study
+  added: 2026-11-15
+
 # ───────── ✍️ Prompting & LLM programming ─────────
 
 - repo: stanfordnlp/dspy
@@ -584,6 +975,14 @@
   category: prompting
   status: study
   added: 2026-11-11
+
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: dair-ai/Prompt-Engineering-Guide
+  why: "Guides and papers on prompt & context engineering"
+  category: prompting
+  status: study
+  added: 2026-11-15
 
 # ───────── 🖼 Image & video generation ─────────
 
@@ -635,6 +1034,36 @@
   status: study
   added: 2026-11-11
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: debpalash/VoiceStudio
+  why: "Fully local ElevenLabs alternative: cloning, dubbing"
+  category: imagegen
+  status: study
+  project: Klipova
+  added: 2026-11-15
+
+- repo: microsoft/VibeVoice
+  why: "Microsoft's open frontier voice AI"
+  category: imagegen
+  status: study
+  project: Klipova
+  added: 2026-11-15
+
+- repo: jamiepine/voicebox
+  why: "Open-source AI voice studio: clone, dictate, create"
+  category: imagegen
+  status: study
+  project: Klipova
+  added: 2026-11-15
+
+- repo: OpenMontageInc/OpenMontage
+  why: "Agentic video production system with 12 pipelines"
+  category: imagegen
+  status: study
+  project: Klipova
+  added: 2026-11-15
+
 # ───────── 🎨 Design & creative ─────────
 
 - repo: voltagent/awesome-design-md
@@ -678,6 +1107,28 @@
   category: design
   status: study
   added: 2026-11-14
+
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: nexu-io/open-design
+  why: "Local-first collaborative AI design agent workspace"
+  category: design
+  status: study
+  project: agency
+  added: 2026-11-15
+
+- repo: Nutlope/hallmark
+  why: "Anti-AI-slop design skill for Claude Code, Cursor, Codex"
+  category: design
+  status: study
+  project: agency
+  added: 2026-11-15
+
+- repo: tt-a1i/archify
+  why: "Turn any idea or codebase into an interactive diagram"
+  category: design
+  status: study
+  added: 2026-11-15
 
 # ───────── 🐍 Python & backend tooling ─────────
 
@@ -814,6 +1265,62 @@
   category: learning
   status: study
   added: 2026-11-14
+
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: rasbt/LLMs-from-scratch
+  why: "Build a ChatGPT-like LLM in PyTorch step by step"
+  category: learning
+  status: study
+  added: 2026-11-15
+
+- repo: karpathy/nanochat
+  why: "Karpathy's full ChatGPT pipeline for ~$100"
+  category: learning
+  status: study
+  added: 2026-11-15
+
+- repo: karpathy/autoresearch
+  why: "Agents running ML research automatically on one GPU"
+  category: learning
+  status: study
+  added: 2026-11-15
+
+- repo: mlabonne/llm-course
+  why: "LLM course with roadmaps and Colab notebooks"
+  category: learning
+  status: study
+  added: 2026-11-15
+
+- repo: microsoft/generative-ai-for-beginners
+  why: "21-lesson Generative AI course from Microsoft"
+  category: learning
+  status: study
+  added: 2026-11-15
+
+- repo: microsoft/ai-agents-for-beginners
+  why: "18-lesson AI agents course from Microsoft"
+  category: learning
+  status: study
+  added: 2026-11-15
+
+- repo: anthropics/claude-cookbooks
+  why: "Official Claude recipes and notebooks"
+  category: learning
+  status: study
+  added: 2026-11-15
+
+- repo: shareAI-lab/learn-claude-code
+  why: "Build a nano Claude Code-like harness from scratch"
+  category: learning
+  status: study
+  added: 2026-11-15
+
+- repo: hesreallyhim/awesome-claude-code
+  why: "Curated Claude Code resources"
+  category: learning
+  status: study
+  added: 2026-11-15
 
 # ───────── 🧰 Open-source utilities ─────────
 
@@ -1047,6 +1554,20 @@
   status: study
   added: 2026-11-14
 
+# — added from Github-Ranking-AI top 100 (2026-11-15) —
+
+- repo: twentyhq/twenty
+  why: "Open-source Salesforce alternative built for AI"
+  category: apps
+  status: study
+  added: 2026-11-15
+
+- repo: hugohe3/ppt-master
+  why: "Documents or topics to native PowerPoint decks"
+  category: apps
+  status: study
+  added: 2026-11-15
+
 # ───────── 🏢 Organizations ─────────
 
 - org: openai
@@ -1273,7 +1794,7 @@
   why: "AI development company"
 
 - repo: huggingface/smolagents
-  why: "Hugging Face's small, code-first agent library: agents write and run Python instead of JSON tool calls. --- _Generated by [Claude Code](https://claude.ai/code)_"
+  why: "Hugging Face's small, code-first agent library: agents write and run Python instead of JSON tool calls."
   category: agents
   status: study
   added: 2026-11-11
