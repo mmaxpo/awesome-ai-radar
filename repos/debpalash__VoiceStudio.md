@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.8k |
+| ⭐ **Stars** | 116.3k |
 | 🍴 **Forks** | 12.9k |
-| 🐞 **Open issues + PRs** | [36](https://github.com/debpalash/VoiceStudio/issues) |
+| 🐞 **Open issues + PRs** | [33](https://github.com/debpalash/VoiceStudio/issues) |
 | 💻 **Languages** | Python 55% · TypeScript 26% · Swift 6% · Kotlin 6% · JavaScript 5% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `tts` `voice-cloning` `voice-generation` `voice-ai` `ai` `cuda` `mlx` `huggingface` `transcription` `translate` `workflow` `omnivoice-studio` `dubbing` `audiobook` `elevenlabs-alternative` `local-first` `speech-to-text` `text-to-speech` `voicestudio` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-04-09 |
 | 📦 **Latest release** | [v0.5.9-beta.7](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.7) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 213.5 MB |
+| 💾 **Size** | 212.6 MB |
 | 🌐 **Website** | https://voicestudio.sh |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.5.9-beta.6](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.6) — v0.5.9-beta.6 — VoiceStudio _(pre-release)_
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **Download**
 > | Platform | Download | Signing |
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.5.9-beta.3](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.3) — v0.5.9-beta.3 — VoiceStudio _(pre-release)_
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 6d ago</sub>
 
 > **Download**
 > | Platform | Download | Signing |
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.5.9-beta.2](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.2) — v0.5.9-beta.2 — VoiceStudio _(pre-release)_
-<sub>2026-11-14 · 7d ago</sub>
+<sub>2026-11-14 · 8d ago</sub>
 
 > **Download**
 > | Platform | Download | Signing |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [fix(omnivoice): trim long-reference windows on every clone path (#4272)](https://github.com/debpalash/VoiceStudio/commit/15cad9debde1adedad41b01a3bc8b18e6ab2f865) | ksylvan |
-| 2026-11-21 | [perf: faster dub pipeline, transcription and job saves (#4323)](https://github.com/debpalash/VoiceStudio/commit/c9189c0f69722d93572600728b438b5a0dd4cfc2) | debpalash |
-| 2026-11-21 | [ci: faster Python tests and ROCm image builds; smaller installers (#4…](https://github.com/debpalash/VoiceStudio/commit/42f0f93b8f741c681861866b850add73501262ae) | debpalash |
-| 2026-11-21 | [perf: speed up Electron startup, UI responsiveness, and backend DB/en…](https://github.com/debpalash/VoiceStudio/commit/1f658f844eaf05955f77db838baaf672c81bfc1e) | debpalash |
-| 2026-11-21 | [perf: fewer renderer re-renders, lazy waveforms and lighter polling (…](https://github.com/debpalash/VoiceStudio/commit/54465ec203e7a7d68894a09d89c1f6002bc70e59) | debpalash |
-| 2026-11-20 | [Merge pull request #4315 from debpalash/train/deryferd-4290-4303](https://github.com/debpalash/VoiceStudio/commit/d535c6b26a9822c79adf71e2094e44664a92b5d5) | debpalash |
-| 2026-11-20 | [fix(train): retry a transient Windows sharing violation when publishi…](https://github.com/debpalash/VoiceStudio/commit/a29ee984547f7848a7a12d7dda996f99221603cd) | debpalash |
-| 2026-11-20 | [Merge branch 'main' into train/deryferd-4290-4303](https://github.com/debpalash/VoiceStudio/commit/5c34bd3edfa600ff51c8499682446f9b38b26464) | debpalash |
-| 2026-11-20 | [docs(contributing): branch from the latest main, merge it before each…](https://github.com/debpalash/VoiceStudio/commit/48032fdae300fbe0f99cbf4f98f8efd8ba4dddcb) | debpalash |
-| 2026-11-20 | [fix(train): explain the ignored temp-file cleanup in the env writer (…](https://github.com/debpalash/VoiceStudio/commit/8538630e28250f60511a1d4705dce8f9e619b49f) | debpalash |
+| 2026-11-22 | [test(desktop): accept the live elapsed clock after an install burst (…](https://github.com/debpalash/VoiceStudio/commit/2bb21302241793977055c44f7c52815bcbf0261e) | debpalash |
+| 2026-11-22 | [fix(asr,licence): ROCm 4 GB dictation pick by VRAM fit; licence notes…](https://github.com/debpalash/VoiceStudio/commit/eb0fda32e6d1e16a551ad8cffa421ff21a8b455f) | debpalash |
+| 2026-11-22 | [feat(generate): sentence/paragraph gaps and SSML-lite tags in Generat…](https://github.com/debpalash/VoiceStudio/commit/d5dd3c3e529dbaa1720753d9e0e46940ab5175c2) | velixio |
+| 2026-11-22 | [fix(tts): read Vietnamese numbers reliably (#4332)](https://github.com/debpalash/VoiceStudio/commit/dada5c9b5ac044a566f05fe5924f88248029b251) | debpalash |
+| 2026-11-22 | [fix(omnivoice): gate the fallback Higgs tokenizer only when it would …](https://github.com/debpalash/VoiceStudio/commit/866eefc9fb594e9ba22f1edc8c17da289c68d994) | debpalash |
+| 2026-11-22 | [fix(install): VoxCPM2 kaldifst wheel pin and proxy bypass fallback (#…](https://github.com/debpalash/VoiceStudio/commit/eb2f1d8692d48bdf07769563f6ae86e7b4ecc091) | debpalash |
+| 2026-11-22 | [fix(asr): PyTorch Whisper no longer retains encoder attention maps (C…](https://github.com/debpalash/VoiceStudio/commit/cb02fd868d0b86f7755ffa3f7dbe7d67e246faff) | debpalash |
+| 2026-11-22 | [fix(models): don't report a model installed while a weight is still d…](https://github.com/debpalash/VoiceStudio/commit/13235c8cc0313889daaa427233242b72c6adc7cf) | AmrSallams |
+| 2026-11-21 | [﻿fix(asr): keep ROCm dictation on the HIP GPU instead of the CPU (#4327)](https://github.com/debpalash/VoiceStudio/commit/f3d88d62be2f0357b3537a976c876bb3269a3d5e) | DeryFerd |
+| 2026-11-21 | [feat(dub): download the dubbing demo videos on demand (#4326)](https://github.com/debpalash/VoiceStudio/commit/23fb3898927dad037840cb49b89f0b7815592cf5) | debpalash |
 
 [See all commits ↗](https://github.com/debpalash/VoiceStudio/commits)
 

@@ -14,8 +14,6 @@
 | **Why it's worth a look** | Handy command runner: a simpler Makefile for project tasks |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
@@ -26,7 +24,7 @@
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (6d ago) |
+| 🕒 **Last activity** | 2026-11-15 (7d ago) |
 | 📅 **Created** | 2016-06-17 |
 | 📦 **Latest release** | [1.59.0](https://github.com/casey/just/releases/tag/1.59.0) — 2026-10-15 |
 | 🌿 **Default branch** | `master` |

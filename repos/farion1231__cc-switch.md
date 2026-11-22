@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 156.2k |
+| ⭐ **Stars** | 156.3k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [799](https://github.com/farion1231/cc-switch/issues) |
+| 🐞 **Open issues + PRs** | [776](https://github.com/farion1231/cc-switch/issues) |
 | 💻 **Languages** | Rust 63% · TypeScript 36% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-tools` `claude-code` `desktop-app` `open-source` `rust` `tauri` `codex` `mcp` `provider-management` `wsl-support` `opencode` `skills` `skills-management` `hermes` `grok` `grokbuild` `pi` `deepseek-harness` `kimi-code` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-08-04 |
 | 📦 **Latest release** | [v4.0.38](https://github.com/farion1231/cc-switch/releases/tag/v4.0.38) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 116.8 MB |
+| 💾 **Size** | 117.8 MB |
 | 🌐 **Website** | https://ccswitch.io |
 
 ## 📦 Recent releases
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.0.35](https://github.com/farion1231/cc-switch/releases/tag/v4.0.35) — CC Switch v4.0.35
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **CC Switch v4.0.35**
 > 本版本让 Claude Code / Claude Desktop 里用 ChatGPT 账号的 Codex 卡片能用上 **GPT-6.2**，会话管理里可以看到 Codex `/goal` 的**完整目标**，请求详情里的请求 ID 可以**一键复制**。
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.0.34](https://github.com/farion1231/cc-switch/releases/tag/v4.0.34) — CC Switch v4.0.34
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **CC Switch v4.0.34**
 > 本版本的技能仓库支持 **GitLab、Gitea 和 Forgejo**（包括自建实例和 Codeberg），不再只能添加 GitHub 上的仓库。会话管理里现在可以直接删除 **Antigravity CLI** 的会话；开启自动下载更新后，发现新版本会立刻开始下载。另外，WorkBuddy 手动添加的模型可以设置思考强度，S3 同步也可以像 WebDAV 一样清除本机保存的配置。
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [docs(release): add v4.0.38 release notes](https://github.com/farion1231/cc-switch/commit/2c084ec752a985fa77470facc14cad76ee67e8e1) | farion1231 |
-| 2026-11-21 | [chore(release): v4.0.38](https://github.com/farion1231/cc-switch/commit/6006b663dfbae3a13a886e4c424e430cf20f25b7) | farion1231 |
-| 2026-11-21 | [test(sessions): gate the Windows-only Oh My Pi test env helper](https://github.com/farion1231/cc-switch/commit/78d2daf76b2aeee4a54d5f09f0f0cf533cf5b8bc) | farion1231 |
-| 2026-11-21 | [fix(skills): report a non-ZIP repo archive instead of "0 skills found"](https://github.com/farion1231/cc-switch/commit/a5fd82b6aa2c6ac369c07541a6a97ac2020ebf8a) | farion1231 |
-| 2026-11-21 | [fix(tools): give the install enumeration probe the login-shell PATH](https://github.com/farion1231/cc-switch/commit/49e5d9a00fbd03a7bdfc21eb1b6624fee4a7e67e) | farion1231 |
-| 2026-11-21 | [fix(dsh): normalize reasoningEfforts keys before writing cordis.patch…](https://github.com/farion1231/cc-switch/commit/18744a32da3654c51483047d25827004923c6971) | farion1231 |
-| 2026-11-21 | [chore(ci): remove the unused Claude review workflow](https://github.com/farion1231/cc-switch/commit/a3a85a500e723c73ed03cfc1db18a42bb7befc52) | farion1231 |
-| 2026-11-21 | [fix(agy): drop redundant Google prefix from Google AI plan names (#9834)](https://github.com/farion1231/cc-switch/commit/40f4bc900b411bfcfc3eb05e3c71e77ace51998e) | allenxu09 |
-| 2026-11-21 | [fix(usage): show Codex cache writes in the usage summary and request …](https://github.com/farion1231/cc-switch/commit/1159383db14ed9d5b0559dc42b5da2d3abad21dd) | Chaoqi31 |
-| 2026-11-21 | [fix(codex): honor reasoning overrides for official model names (#9017)](https://github.com/farion1231/cc-switch/commit/a18d91c56f1cc91a8560b512d86e8a5a32552246) | StrengW |
+| 2026-11-22 | [docs(release): add v4.0.39 release notes](https://github.com/farion1231/cc-switch/commit/768eec9ca94db629f086e8c01ca91e2f63bb273d) | farion1231 |
+| 2026-11-22 | [chore(release): v4.0.39](https://github.com/farion1231/cc-switch/commit/87c39ee1a6aa0ec8a36f15e2ca649bad31b33cfa) | farion1231 |
+| 2026-11-22 | [fix(presets): offer only low/high/max efforts for OpenCode Go DeepSee…](https://github.com/farion1231/cc-switch/commit/89723290116057048de4c2f8b10e72dd98e14ee4) | farion1231 |
+| 2026-11-22 | [fix(plugins): don't create config dirs for apps whose CLI isn't insta…](https://github.com/farion1231/cc-switch/commit/dcba4bb05fb093533373480bb22b8b3e91d680d5) | farion1231 |
+| 2026-11-22 | [fix(tools): fall back to the desktop app's bundled Codex CLI for runt…](https://github.com/farion1231/cc-switch/commit/4a1da640e323e6708e940f6002d6912b4a974475) | farion1231 |
+| 2026-11-22 | [fix(proxy): bound SSE buffering in usage/log collectors (#9846)](https://github.com/farion1231/cc-switch/commit/f2b3c12eb59d2e155b39f29bd3b34d5c9e57885f) | HaiYangBG1 |
+| 2026-11-22 | [fix: route home-dir lookups through get_home_dir (#9845)](https://github.com/farion1231/cc-switch/commit/3feb336f38deb21ba3a474a2eef2ce1885d10885) | HaiYangBG1 |
+| 2026-11-22 | [fix(deeplink): do not open import dialog when config merge fails (#9844)](https://github.com/farion1231/cc-switch/commit/30958c04197a6cb0d913555ed08cd9840c44d368) | HaiYangBG1 |
+| 2026-11-22 | [perf(privacy): avoid Unicode copies and prune redundant scans (#9826)](https://github.com/farion1231/cc-switch/commit/32773e88c8a41e69a69dd15724cc93db6ef33d37) | YUZHEthefool |
+| 2026-11-22 | [feat(providers): add a copy button to the API key input (#9232)](https://github.com/farion1231/cc-switch/commit/698b1b7f43764a7b8fb8c046996309f3717e87eb) | minimote |
 
 [See all commits ↗](https://github.com/farion1231/cc-switch/commits)
 

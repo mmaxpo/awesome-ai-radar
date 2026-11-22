@@ -20,90 +20,90 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 135.9k |
+| ⭐ **Stars** | 136.1k |
 | 🍴 **Forks** | 25.9k |
 | 🐞 **Open issues + PRs** | [2.6k](https://github.com/ggml-org/llama.cpp/issues) |
 | 💻 **Languages** | C++ 57% · C 16% · Python 8% · TypeScript 5% · Cuda 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ggml` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-03-10 |
-| 📦 **Latest release** | [b12606](https://github.com/ggml-org/llama.cpp/releases/tag/b12606) — 2026-11-21 |
+| 📦 **Latest release** | [b12631](https://github.com/ggml-org/llama.cpp/releases/tag/b12631) — 2026-11-22 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 500.6 MB |
+| 💾 **Size** | 500.5 MB |
 | 🌐 **Website** | https://llama.app |
 
 ## 📦 Recent releases
 
-### [b12606](https://github.com/ggml-org/llama.cpp/releases/tag/b12606) _(pre-release)_
-<sub>2026-11-21 · today</sub>
+### [b12631](https://github.com/ggml-org/llama.cpp/releases/tag/b12631) _(pre-release)_
+<sub>2026-11-22 · today</sub>
 
 > <details open>
-> llama : remove fused lightning indexer gating (#32650)
-> The fused lightning indexer is always used now, so drop the cparams flags, the auto probe and the non-fused fallbacks.
-> Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB)
-> </details>
-> **Website:**
-> …
-
-### [b12604](https://github.com/ggml-org/llama.cpp/releases/tag/b12604) _(pre-release)_
-<sub>2026-11-21 · today</sub>
-
-> <details open>
-> llama-grammar: Fix integer overflow (#32551)
-> * llama-grammar: Fix integer overflow
-> * Check incorrect values at parsing and bail out nicely
-> * fix style
-> </details>
-> …
-
-### [b12603](https://github.com/ggml-org/llama.cpp/releases/tag/b12603) _(pre-release)_
-<sub>2026-11-21 · today</sub>
-
-> <details open>
-> llama : score only the k-pools of the ubatch sequences in QSA (#32519)
+> webgpu : update GDN supports_op check (#32782)
 > </details>
 > **Website:**
 > - <https://llama.app>
 > **Attestations:**
 > …
 
-### [b12602](https://github.com/ggml-org/llama.cpp/releases/tag/b12602) _(pre-release)_
-<sub>2026-11-21 · today</sub>
+### [b12629](https://github.com/ggml-org/llama.cpp/releases/tag/b12629) _(pre-release)_
+<sub>2026-11-22 · today</sub>
 
 > <details open>
-> sycl: Improve Grouped XMX GEMM by avoiding SLM staging (#31428)
+> opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K, Q6_K) (#32686)
+> * opencl: add Q4_0 coopmat GEMM for Adreno 850
+> Assisted-by: Claude Opus 5.5
+> * opencl: add Q5_0 coopmat GEMM for Adreno 850
+> * opencl: add Q8_0 coopmat GEMM for Adreno 850
+> …
+
+### [b12628](https://github.com/ggml-org/llama.cpp/releases/tag/b12628) _(pre-release)_
+<sub>2026-11-22 · today</sub>
+
+> <details open>
+> vulkan : support non-contiguous src in SCALE (#32735)
+> Assisted-By: Opus 5.5
+> </details>
+> **Website:**
+> - <https://llama.app>
+> …
+
+### [b12627](https://github.com/ggml-org/llama.cpp/releases/tag/b12627) _(pre-release)_
+<sub>2026-11-22 · today</sub>
+
+> <details open>
+> server : fit non-causal batches in one ubatch (#32713)
 > </details>
 > **Website:**
 > - <https://llama.app>
 > **Attestations:**
 > …
 
-### [b12600](https://github.com/ggml-org/llama.cpp/releases/tag/b12600) _(pre-release)_
-<sub>2026-11-20 · today</sub>
+### [b12626](https://github.com/ggml-org/llama.cpp/releases/tag/b12626) _(pre-release)_
+<sub>2026-11-22 · today</sub>
 
 > <details open>
-> model : Inkling 2 Mini (#32694)
-> * Conversion
-> * Separate model_type
-> * Add gate_rank to allow building from metadata while testing
-> * Base model
+> vulkan : fix memset for unaligned ranges for non-UMA devices (#32725)
+> See https://github.com/ggml-org/llama.cpp/pull/32574
+> </details>
+> **Website:**
+> - <https://llama.app>
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [model: apply .scale tensors automatically + fix correctness (#32669)](https://github.com/ggml-org/llama.cpp/commit/19bc41dbb41e858eebc269b49ccdec1f0d28880c) | ngxson |
-| 2026-11-21 | [sycl: bound CONV_TRANSPOSE_1D input iteration (#31109)](https://github.com/ggml-org/llama.cpp/commit/e50c254a22c590c9d2a60db86690d48d42497e2b) | newjordan |
-| 2026-11-21 | [ggml : improvements to the memory access pattern in `ggml_compute_for…](https://github.com/ggml-org/llama.cpp/commit/660be5506b15eae512f0df3ae0cc168712555319) | kazutoshi-ak |
-| 2026-11-21 | [mtmd: support kyutai/hibiki realtime full-duplex (#32491)](https://github.com/ggml-org/llama.cpp/commit/c622f623fca9f0f085eb82f38874d1ab4a1791cd) | ngxson |
-| 2026-11-21 | [sycl: add IQ4_NL and IQ4_XS weight reorder (#31998)](https://github.com/ggml-org/llama.cpp/commit/c6610333490e1d28d2700982064b76baf2bcb08c) | Titaniumtown |
-| 2026-11-21 | [sycl: column-blocked gated_delta_net kernel (#32456)](https://github.com/ggml-org/llama.cpp/commit/44c20b1c0a1c77fd629fc5d032a5d7fa5843ebca) | Titaniumtown |
-| 2026-11-21 | [ui: open the context gauge panel on click as a popover (#32685)](https://github.com/ggml-org/llama.cpp/commit/80325823d47ce8d02ae487de4b5563b2695684e4) | allozaur |
-| 2026-11-21 | [sycl: add fused ADD, RMS_NORM, MUL and vectorize rms norm (#31753)](https://github.com/ggml-org/llama.cpp/commit/a818a46f3df4b6dee7f59f174283deaeae083c4b) | clemenswasser |
-| 2026-11-21 | [CUDA: abort on UB in fastdiv (#32698)](https://github.com/ggml-org/llama.cpp/commit/b019be0c86e8adaf8b46627c091c24c1597b95f9) | JohannesGaessler |
-| 2026-11-21 | [vulkan: unroll FA coopmat1 array due to a driver bug on AMD Windows (…](https://github.com/ggml-org/llama.cpp/commit/362ac929749d56e433878585a8506f24968698b4) | 0cc4m |
+| 2026-11-22 | [ggml/gguf : avoid creating invalid enum values from untrusted file da…](https://github.com/ggml-org/llama.cpp/commit/8d60873dfb8619f2b5ed31adfbab07cccb40db5c) | mohitmishra786 |
+| 2026-11-22 | [ggml : add SIGMOID backward pass (#32126)](https://github.com/ggml-org/llama.cpp/commit/ad50351f5092436f312d98d25689207df25f4802) | gianni-cor |
+| 2026-11-22 | [chat : trigger lazy grammar on bare JSON tool calls (#32497)](https://github.com/ggml-org/llama.cpp/commit/42f6a58fd1bfd475d9f09ea3bf7ef671c059eaf2) | ViezeVingertjes |
+| 2026-11-22 | [ggml : fix nonzero clear on WebGPU and non-UMA devices (#32727)](https://github.com/ggml-org/llama.cpp/commit/9c10c94e16ebc4f3ed7c06264a93bf7e019c3f26) | sanmai |
+| 2026-11-22 | [HIP: fix double halving of NVFP4 scales on CDNA3 (#32790)](https://github.com/ggml-org/llama.cpp/commit/8cb0d98ccd0a310879ae8eaa1ce2c41e4b40a052) | TwelveNights |
+| 2026-11-22 | [webgpu : update GDN supports_op check (#32782)](https://github.com/ggml-org/llama.cpp/commit/e300919cc704ddde3a8a8346a8714f57eeeee71b) | sanmai |
+| 2026-11-22 | [ggml-webgpu : Update to a recent version of Dawn (#32779)](https://github.com/ggml-org/llama.cpp/commit/5d28d64bf2969d7b9c863e5001de83b30ce81557) | sanmai |
+| 2026-11-22 | [opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K…](https://github.com/ggml-org/llama.cpp/commit/1fb8a269603b497fc1ce7dab2f2fc5c1be7a51cb) | shaofeiqi |
+| 2026-11-22 | [vulkan : support non-contiguous src in SCALE (#32735)](https://github.com/ggml-org/llama.cpp/commit/8a97fa98ab1a454709bbf5ac979661feaeadec40) | Revertron |
+| 2026-11-22 | [server : fit non-causal batches in one ubatch (#32713)](https://github.com/ggml-org/llama.cpp/commit/225a5345bbb0e0c70859af5441ba922beb666fcf) | am17an |
 
 [See all commits ↗](https://github.com/ggml-org/llama.cpp/commits)
 

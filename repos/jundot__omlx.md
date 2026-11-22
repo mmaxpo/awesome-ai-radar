@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 23.8k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [403](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [430](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.8.2](https://github.com/jundot/omlx/releases/tag/v0.8.2) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 98.6 MB |
+| 💾 **Size** | 98.7 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
 ### [v0.8.2](https://github.com/jundot/omlx/releases/tag/v0.8.2) — 0.8.2
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > > **Hotfix release:** Fixes wrong click positions on screenshots with Qwen3.8 Flash-Next (#5474). Everything else is the same as 0.8.1.
 > **oMLX 0.8.2**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.8.1](https://github.com/jundot/omlx/releases/tag/v0.8.1) — 0.8.1
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > **oMLX 0.8.1**
 > oMLX 0.8.1 adds Hy4, Hy4-flash and Inkling 2 Mini, lets you apply a LoRA adapter from a model's settings, and makes MTP verify on M5, GLM-5.3 with several requests and new questions on a cached document faster.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.8.0](https://github.com/jundot/omlx/releases/tag/v0.8.0) — 0.8.0
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **oMLX 0.8.0**
 > oMLX 0.8.0 adds the Prefill Accelerator, which lets a PC with NVIDIA GPUs or a second Mac speed up prefill for a big model on your Mac, adds oQh for more accurate low-bit quants at the same size, and makes DeepSeek V4.1, Qwen and long-context decode faster.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 0.8.0rc1
-<sub>2026-11-12 · 8d ago</sub>
+<sub>2026-11-12 · 9d ago</sub>
 
 > **oMLX 0.8.0rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.4.dev1](https://github.com/jundot/omlx/releases/tag/v0.7.4.dev1) — 0.7.4.dev1
-<sub>2026-11-04 · 17d ago</sub>
+<sub>2026-11-04 · 18d ago</sub>
 
 > **oMLX 0.7.4.dev1**
 > > This is a development release. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [perf(inkling2): run the flash banded attention kernel on FP16 prefill…](https://github.com/jundot/omlx/commit/8d2c9c6251241f8f752202b17bcfc44cb27ad220) | j3k0 |
+| 2026-11-22 | [perf(inkling2): draft from context copies, 15 tokens on verbatim runs…](https://github.com/jundot/omlx/commit/f99a31f4c4826f9185e0b0b8be11eae28b8ec8e2) | jundot |
+| 2026-11-22 | [perf(inkling2): bound sliding-window KV cache to reachable tokens and…](https://github.com/jundot/omlx/commit/7ecc946d03b53abc01a92585903fd68e090c9d3b) | masterfasa |
+| 2026-11-22 | [fix(inkling2): honor enable_thinking=false and reasoning_effort=off (…](https://github.com/jundot/omlx/commit/a0ed2f5958ad9e62bcb7e84c01ea4438cc8d8554) | masterfasa |
+| 2026-11-22 | [fix(inkling2): make Lightning MTP verify rows match serial decode (#5…](https://github.com/jundot/omlx/commit/16b3f79d7d30932f1ebc3c640de4ba27344764a7) | jundot |
+| 2026-11-22 | [fix(inkling2): keep NVFP4 expert outputs in range with float16 activa…](https://github.com/jundot/omlx/commit/5c30bc151368258f1a91922f466705b3ff78284e) | CharlesJS |
+| 2026-11-22 | [perf(inkling2): project only used in_proj slices on looped sliding vi…](https://github.com/jundot/omlx/commit/b0286dcc987685cbceaba8519d47604a126a8006) | BUKOWSKIREAL |
+| 2026-11-22 | [fix(dflash): start pre-drafted recurrent Markov head from the newest …](https://github.com/jundot/omlx/commit/fb25b4ced9bd084f58df5d6ff6b45b8bf45adb68) | masterfasa |
+| 2026-11-22 | [test: restore the TurboQuant verify flag after the padded-row tests (…](https://github.com/jundot/omlx/commit/c55dc81631ab20009ac12dc631ad1936051e8826) | jundot |
 | 2026-11-21 | [formula: bump to 0.8.2](https://github.com/jundot/omlx/commit/ade9f20a43a8aa8d9191f6c6f130a98154306405) | github-actions[bot] |
-| 2026-11-21 | [chore: bump version to 0.8.2](https://github.com/jundot/omlx/commit/5eeec7757f83bfc99eeb87abe49686d00a0bba1f) | jundot |
-| 2026-11-21 | [fix: use the DeepSeek V4 hc kernel only for 4 streams and 4-wide rows](https://github.com/jundot/omlx/commit/e095f9d5635f7cc9cbbdda4cc06a7444f0afd863) | jundot |
-| 2026-11-21 | [fix: correct Qwen4 image MRoPE positions (#5474)](https://github.com/jundot/omlx/commit/fd240293f5406f144b0401f17c420946cfa22901) | jundot |
-| 2026-11-21 | [formula: bump to 0.8.1](https://github.com/jundot/omlx/commit/60ea5d6a0e5af18cb67d3da69912d49812962967) | github-actions[bot] |
-| 2026-11-21 | [feat(oq): quantize Inkling 2 Mini](https://github.com/jundot/omlx/commit/13fd0c9d14406fd86598cf9af749695a138dd21c) | jundot |
-| 2026-11-20 | [chore(cuda-helper): bump the helper to 0.1.7](https://github.com/jundot/omlx/commit/390ddfae5f8e50b3bf70e8a44556a5b82a828967) | jundot |
-| 2026-11-20 | [chore: bump version to 0.8.1](https://github.com/jundot/omlx/commit/fad2359b9552cb5a782302fd2c9532c38c59d3fe) | jundot |
-| 2026-11-20 | [feat(inkling2): support Inkling 2 Mini (#5468)](https://github.com/jundot/omlx/commit/24e5f90544bc57228f48fb0dda2241e93b008c65) | jundot |
-| 2026-11-20 | [feat(hy4): add Hy4 and Hy4-flash with DFly2 MTP, oQ and oQh (#5463)](https://github.com/jundot/omlx/commit/2cf8fce68a4c95942f57be92b3a1b8015687d5d3) | jundot |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 

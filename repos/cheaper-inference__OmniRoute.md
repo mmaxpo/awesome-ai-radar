@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 89.3k |
+| ⭐ **Stars** | 89.5k |
 | 🍴 **Forks** | 13.8k |
-| 🐞 **Open issues + PRs** | [851](https://github.com/cheaper-inference/OmniRoute/issues) |
+| 🐞 **Open issues + PRs** | [810](https://github.com/cheaper-inference/OmniRoute/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `a2a` `ai-agents` `ai-gateway` `anthropic` `claude` `claude-code` `cline` `codex` `copilot` `cursor` `deepseek` `free-ai` `gemini` `llm-gateway` `mcp` `openai` `openai-proxy` `qwen` `token-saver` `kimi` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v3.8.54](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54) — 2026-11-17 |
 | 🌿 **Default branch** | `release/v3.8.55` |
-| 💾 **Size** | 3653.7 MB |
+| 💾 **Size** | 3699.1 MB |
 | 🌐 **Website** | https://omniroute.online |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.8.53](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.53)
-<sub>2026-11-06 · 15d ago</sub>
+<sub>2026-11-06 · 16d ago</sub>
 
 > **OmniRoute v3.8.53**
 > **1,189 documented changes** from 1,162 commits in the cycle, with **222 people** contributing. Thank you all.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Merge pull request #20892 from cheaper-inference/fix/salvage-20225-v3855](https://github.com/cheaper-inference/OmniRoute/commit/eaae2e9dc96ebccf86c4ec8c4cb3d40bbbc58961) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20899 from cheaper-inference/fix/salvage-20231-v3855](https://github.com/cheaper-inference/OmniRoute/commit/43a3fe5812814e292e01e71cf04d3bf8a29f66ca) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20111 from RayJW/feat/mistral-prompt-caching](https://github.com/cheaper-inference/OmniRoute/commit/b9c1bf0365f35073ab3dd81e65e337b6f0f76b89) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20900 from cheaper-inference/fix/salvage-20604-v3855](https://github.com/cheaper-inference/OmniRoute/commit/47a8b2590fbdc8f6a132efae521df65288bb6ef2) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20895 from cheaper-inference/fix/merge-train-e2-2…](https://github.com/cheaper-inference/OmniRoute/commit/2e48cdb256a415afc6e607e94450aef459f018bf) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20890 from cheaper-inference/fix/test-policy-pack…](https://github.com/cheaper-inference/OmniRoute/commit/ea64a83e2ec1a17707dead9d9fedc268e4becd6c) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20652 from cheaper-inference/chore/derived-qg-rev…](https://github.com/cheaper-inference/OmniRoute/commit/2b90085225893a872fe71a64689521b9dd7252b3) | diegosouzapw |
-| 2026-11-21 | [Merge branch 'release/v3.8.55' into fix/salvage-20604-v3855](https://github.com/cheaper-inference/OmniRoute/commit/392d88aee8325dd29c2f4c01e6556dd4d8da1e3b) | diegosouzapw |
-| 2026-11-21 | [Merge branch 'release/v3.8.55' into fix/salvage-20231-v3855](https://github.com/cheaper-inference/OmniRoute/commit/53ccc79bf0f69e6334a902cf47f25053daa21ffa) | diegosouzapw |
-| 2026-11-21 | [Merge branch 'release/v3.8.55' into fix/salvage-20225-v3855](https://github.com/cheaper-inference/OmniRoute/commit/c3b9ac7164735addd7c006dd9946578d781c43c3) | diegosouzapw |
+| 2026-11-21 | [Merge pull request #20961 from cheaper-inference/fix/restore-preferre…](https://github.com/cheaper-inference/OmniRoute/commit/5ffa68e835442a12ed1204a2eebf4076c298aecb) | diegosouzapw |
+| 2026-11-21 | [Merge pull request #20370 from maxmad64bis/fix/plugin-model-row-fidelity](https://github.com/cheaper-inference/OmniRoute/commit/65ff1f94940f82214eab6c1b129579df102420b7) | diegosouzapw |
+| 2026-11-21 | [Merge pull request #20958 from cheaper-inference/fix/merge-train-h-20…](https://github.com/cheaper-inference/OmniRoute/commit/5b6c0af52deb06d6f278adad542f988f58afc9e4) | diegosouzapw |
+| 2026-11-21 | [Merge branch 'release/v3.8.55' into fix/plugin-model-row-fidelity](https://github.com/cheaper-inference/OmniRoute/commit/3ab4719c0769040016b50e1f8a419eb192508d64) | diegosouzapw |
+| 2026-11-21 | [Merge pull request #20947 from cheaper-inference/fix/merge-train-g-20…](https://github.com/cheaper-inference/OmniRoute/commit/4265bb2ad5477450a07d3a43ea33a62c6c874878) | diegosouzapw |
+| 2026-11-21 | [chore(changelog): name the fragment after #20961](https://github.com/cheaper-inference/OmniRoute/commit/7b7b61c6e771a17a35bdc829dbaa624404dadd76) | diegosouzapw |
+| 2026-11-21 | [Merge branch 'release/v3.8.55' into fix/restore-preferred-failover-wi…](https://github.com/cheaper-inference/OmniRoute/commit/a86811d79e3ebb90f41e707dc04c44815b680a8c) | diegosouzapw |
+| 2026-11-21 | [Merge pull request #20108 from b84330808/fix/usage-guard-once-per-req…](https://github.com/cheaper-inference/OmniRoute/commit/934d6afee6eb3b260a91fbe5dec7d152e58bdabb) | diegosouzapw |
+| 2026-11-21 | [fix(sse): restore the preferred-account failover wiring in chat.ts](https://github.com/cheaper-inference/OmniRoute/commit/7477ae6c6bad26a983773392b371dd8791f46149) | diegosouzapw |
+| 2026-11-21 | [Merge pull request #19735 from serenity-X/pr/perf/or9r-b-call-log-ove…](https://github.com/cheaper-inference/OmniRoute/commit/eaf57c1cc11aaea9b6cee6de04308fdfc9d2fffb) | diegosouzapw |
 
 [See all commits ↗](https://github.com/cheaper-inference/OmniRoute/commits)
 

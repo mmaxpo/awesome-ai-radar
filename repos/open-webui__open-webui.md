@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 159.2k |
+| ⭐ **Stars** | 159.3k |
 | 🍴 **Forks** | 23.1k |
-| 🐞 **Open issues + PRs** | [279](https://github.com/open-webui/open-webui/issues) |
+| 🐞 **Open issues + PRs** | [281](https://github.com/open-webui/open-webui/issues) |
 | 💻 **Languages** | Svelte 39% · Python 37% · JavaScript 16% · TypeScript 7% · CSS 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ollama` `ollama-webui` `llm` `webui` `self-hosted` `llm-ui` `llm-webui` `llms` `rag` `ai` `open-webui` `ui` `openai` `mcp` `openapi` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-10-06 |
 | 📦 **Latest release** | [v0.13.4](https://github.com/open-webui/open-webui/releases/tag/v0.13.4) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 591.2 MB |
+| 💾 **Size** | 665.9 MB |
 | 🌐 **Website** | https://openwebui.com |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.13.3](https://github.com/open-webui/open-webui/releases/tag/v0.13.3)
-<sub>2026-11-08 · 12d ago</sub>
+<sub>2026-11-08 · 13d ago</sub>
 
 > **Added**
 > - 🦾 **Agents in automations.** The automation editor now lets you choose a terminal and working folder, then select a coding agent available there. Scheduled runs use that saved terminal and folder, and check that the terminal and agent are still available before starting. Agent automations send their results to a chat; channel destinations remain available for ordinary models. [Commit](https://github.com/open-webui/open-webui/commit/21fc016141c73a0e11b428c61bde20527bbc228a)
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.13.2](https://github.com/open-webui/open-webui/releases/tag/v0.13.2)
-<sub>2026-11-08 · 13d ago</sub>
+<sub>2026-11-08 · 14d ago</sub>
 
 > **Fixed**
 > - 🔓 **Chat over plain HTTP.** Opening Open WebUI over plain HTTP at a LAN or Docker address now loads new and existing chats instead of staying on a spinner with "crypto.randomUUID is not a function". [#33919](https://github.com/open-webui/open-webui/issues/33919)
@@ -66,7 +66,7 @@
 > - 🎛️ **Side Chat permission switch.** The Allow Side Chat switch is now visible even when Temporary Chat is off, so administrators can configure the two permissions independently. [#33920](https://github.com/open-webui/open-webui/pull/33920)
 
 ### [v0.13.1](https://github.com/open-webui/open-webui/releases/tag/v0.13.1)
-<sub>2026-11-08 · 13d ago</sub>
+<sub>2026-11-08 · 14d ago</sub>
 
 > **Added**
 > - 🦾 **Coding agents as models.** On an Open Terminal that offers agents, coding agents such as Claude Code, Codex and Pi now appear in the model picker. You can chat with them or call them by voice, choose their reasoning effort and service tier, and approve their tool requests in the chat. Each conversation uses one agent, and agent chats cannot be regenerated, continued or edited and resent. If an agent's terminal goes away, its chats and new chats fall back to the default model and earlier replies keep the agent's name. Autocompletion in agent chats uses the task model, or is skipped when there is none. [#33843](https://github.com/open-webui/open-webui/pull/33843), [#33860](https://github.com/open-webui/open-webui/pull/33860), [#33880](https://github.com/open-webui/open-webui/pull/33880), [#33857](https://github.com/open-webui/open-webui/pull/33857)
@@ -77,7 +77,7 @@
 > …
 
 ### [v0.13.0](https://github.com/open-webui/open-webui/releases/tag/v0.13.0)
-<sub>2026-11-03 · 18d ago</sub>
+<sub>2026-11-03 · 19d ago</sub>
 
 > **Added**
 > - 📑 **Tabbed workspace.** The Tabs button at the top of a chat now opens a workspace for files, multiple terminal sessions, artifacts, previews, voice calls and comments. Add tabs from the + menu, drag to reorder them, and create and save new files directly into the selected terminal. Keep the conversation and its working files together while coding, analyzing data or reviewing generated documents. [Commit](https://github.com/open-webui/open-webui/commit/2d7cf5ec99c3fa5c7ee48b91823fb8021b846cf3), [Commit](https://github.com/open-webui/open-webui/commit/5b58b1ebc03024fca1efd498aeabe4d9880dc3aa), [Commit](https://github.com/open-webui/open-webui/commit/a06aa230f75cc2d3512d1bca197a98f3c35da96f), [Commit](https://github.com/open-webui/open-webui/commit/cdc6feecd3769aac41844d81bd775dfb69b44912)

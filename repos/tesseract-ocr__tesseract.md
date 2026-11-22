@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 77.6k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [491](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [492](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-20 (2d ago) |
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 24d ago</sub>
+<sub>2026-10-28 · 25d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -47,7 +47,7 @@
 > …
 
 ### [5.5.3](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.3)
-<sub>2026-07-24 · 3mo ago</sub>
+<sub>2026-07-24 · 4mo ago</sub>
 
 > **What's Changed**
 > This release fixes two security advisories and several smaller issues.
@@ -58,7 +58,7 @@
 > …
 
 ### [5.5.2](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.2)
-<sub>2025-12-26 · 10mo ago</sub>
+<sub>2025-12-26 · 11mo ago</sub>
 
 > **What's Changed**
 > * Simplify code for osdetect by @stweil in https://github.com/tesseract-ocr/tesseract/pull/4436

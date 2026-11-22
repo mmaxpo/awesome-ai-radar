@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 472.4k |
-| 🍴 **Forks** | 115.3k |
-| 🐞 **Open issues + PRs** | [1.4k](https://github.com/morluto/rea/issues) |
-| 💻 **Languages** | TypeScript 91% · JavaScript 5% · HTML 1% · Python 1% |
+| ⭐ **Stars** | 473.5k |
+| 🍴 **Forks** | 115.5k |
+| 🐞 **Open issues + PRs** | [1.3k](https://github.com/morluto/rea/issues) |
+| 💻 **Languages** | TypeScript 91% · JavaScript 5% · Python 1% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `cli` `mcp` `agent-skills` `dsh-plugin` `claude-code` `rea` `touhou` `android` `javascript` `python` `typescript` `nodejs` `linux` `ai` `security` `java` `cpp` `rust` `react` `html` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-04-14 |
 | 📦 **Latest release** | [rea-agents-6.10.1](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 199.1 MB |
+| 💾 **Size** | 209.2 MB |
 | 🌐 **Website** | https://rea.tools |
 
 ## 📦 Recent releases
 
 ### [rea-agents-6.10.1](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1) — rea-agents: v6.10.1
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **[6.10.1](https://github.com/morluto/rea/compare/rea-agents-6.10.0...rea-agents-6.10.1) (2026-11-20)**
 > This is the first 6.10 release published to npm. It includes the changes, migration notes, and contributor credits from 6.10.0 below, plus the patch fix.
@@ -47,7 +47,7 @@
 > …
 
 ### [rea-agents-6.10.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.0) — rea-agents: v6.10.0
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **[6.10.0](https://github.com/morluto/rea/compare/rea-agents-6.9.0...rea-agents-6.10.0) (2026-11-20)**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — rea-agents: v6.9.0
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 10d ago</sub>
 
 > **[6.9.0](https://github.com/morluto/rea/compare/rea-agents-6.8.0...rea-agents-6.9.0) (2026-11-11)**
 > **Highlights**
@@ -69,7 +69,7 @@
 > …
 
 ### [rea-agents-6.8.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0) — rea-agents: v6.8.0
-<sub>2026-10-25 · 27d ago</sub>
+<sub>2026-10-25 · 28d ago</sub>
 
 > **[6.8.0](https://github.com/morluto/rea/compare/rea-agents-6.7.0...rea-agents-6.8.0) (2026-10-25)**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [test(web): consolidate request credential evidence checks (#13129)](https://github.com/morluto/rea/commit/270323942bd211463b67b3d7b18aa1ffb2c4eb90) | morluto |
-| 2026-11-21 | [test(web): consolidate network content evidence checks (#13128)](https://github.com/morluto/rea/commit/c20ee87b2b849846d5959339670dd0b48ba3df0e) | morluto |
-| 2026-11-21 | [fix(website): match social preview accents to REA blue](https://github.com/morluto/rea/commit/753321dda66d840c58008119a9e6852cd7c64f25) | morluto |
-| 2026-11-21 | [test(web): consolidate transaction admission and omission checks (#13…](https://github.com/morluto/rea/commit/c9a6f5dedc7766424e9d82d29a94d8ed39064fd9) | morluto |
-| 2026-11-21 | [test(web): consolidate network capture queue lifecycle checks (#13125)](https://github.com/morluto/rea/commit/9a9ee6cf3d97fffea4849902872ad9b028cbc54f) | morluto |
-| 2026-11-21 | [test(web): exercise encoded query limits across heap sizes (#13123)](https://github.com/morluto/rea/commit/c09a27770fd123bcb26204f7730dbd824cd6971b) | morluto |
-| 2026-11-21 | [test(web): consolidate saved scenario path checks (#13122)](https://github.com/morluto/rea/commit/b5cb5e2f0dd740993dc35a02c8d94068cf79df46) | morluto |
-| 2026-11-21 | [fix(website): use the blue REA wordmark for site icons](https://github.com/morluto/rea/commit/2c4776d9aa9c1167da96f75a27645a23ef3a348e) | morluto |
-| 2026-11-21 | [test(web): consolidate UI response observation lifecycle checks (#13121)](https://github.com/morluto/rea/commit/648d1f8f9d45822fbb729492a9519d12d4cf6fa6) | morluto |
-| 2026-11-21 | [test(web): consolidate scenario response body bounds (#13120)](https://github.com/morluto/rea/commit/6ae91b2a10ee178c057c0afecf2c6a012824cdde) | morluto |
+| 2026-11-22 | [fix(functions): preserve proven referenced string membership changes …](https://github.com/morluto/rea/commit/afbbfff561a9d83689e49f61a5192b98bbfe5c07) | morluto |
+| 2026-11-22 | [perf(uefi): pool framed LZMA worker and fuse single-pass publication …](https://github.com/morluto/rea/commit/6a20a88e8149ffe2cd03cd5c1da195defbae652f) | liziye627-design |
+| 2026-11-22 | [perf(pcap/pwntools): eliminate redundant parsing, linear scans, and q…](https://github.com/morluto/rea/commit/18f5b7b4db6b24789084ebb1c81ad552893bc48a) | morluto |
+| 2026-11-22 | [perf(adapters): eliminate hot-path overhead across WASM, EVM, Frida, …](https://github.com/morluto/rea/commit/26465e8ae63045372f28383b1dcc4856e9b41644) | morluto |
+| 2026-11-22 | [test(desktop): consolidate archive task and reader coverage (#13419)](https://github.com/morluto/rea/commit/ec56d1b020702dce16fda4b3da512da694fb1c33) | morluto |
+| 2026-11-22 | [perf(io): stream SQLite snapshots, chunk stable artifact reads, and b…](https://github.com/morluto/rea/commit/58af29e6b0ad56aaff1c6f714d9c5dfc9690315f) | morluto |
+| 2026-11-22 | [perf(artifacts/android): reuse ASAR snapshot descriptors and index JA…](https://github.com/morluto/rea/commit/4d7a9710fe19af7e70693ea56c1e5d3a0268baa1) | morluto |
+| 2026-11-22 | [fix(desktop): keep export and task drafts on the admitted capture (#1…](https://github.com/morluto/rea/commit/cbafdaa8e3f03dafdc3a454d89bde4b6c56bf64b) | morluto |
+| 2026-11-22 | [docs(setup): document Kilo Code registration and its config layers (#…](https://github.com/morluto/rea/commit/c445f56ae39ad13016ef4511e4e95dd9e7adb86e) | akshad-exe |
+| 2026-11-22 | [fix(test): reap synthetic test-stub processes on cleanup failure and …](https://github.com/morluto/rea/commit/bd9a7fad7efba6a2aad1ace7a9e4388f6cf11101) | morluto |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

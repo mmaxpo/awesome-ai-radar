@@ -22,20 +22,20 @@
 |---|---|
 | ⭐ **Stars** | 13.6k |
 | 🍴 **Forks** | 449 |
-| 🐞 **Open issues + PRs** | [153](https://github.com/plasma-umass/scalene/issues) |
+| 🐞 **Open issues + PRs** | [152](https://github.com/plasma-umass/scalene/issues) |
 | 💻 **Languages** | Python 60% · JavaScript 15% · C++ 9% · TypeScript 7% · Lean 6% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-16 (5d ago) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 20.3 MB |
+| 💾 **Size** | 20.4 MB |
 
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — Free-threaded wheels, M4 fix, safer API keys, and formal verification
-<sub>2026-10-23 · 28d ago</sub>
+<sub>2026-10-23 · 29d ago</sub>
 
 > **What's Changed**
 > **Headlines**
@@ -89,6 +89,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [Claim the pending CPU-signal arrival atomically (fixes #1151) (#1152)](https://github.com/plasma-umass/scalene/commit/557ecb3d4e8437cdf37a60547490947bcf3b9507) | emeryberger |
+| 2026-11-21 | [NVIDIA: report the current per-process GPU load, not the lifetime ave…](https://github.com/plasma-umass/scalene/commit/4c9a5b8cd4350740bbf4f71600034fbbc3ed2a27) | KuzAlexey |
 | 2026-11-16 | [Don't hang programs waiting for their own timer signal under Scalene …](https://github.com/plasma-umass/scalene/commit/167a3edbf4a5e39e0fdc876d4a9f65143b64eb42) | emeryberger |
 | 2026-11-16 | [Never fault reading a half-pushed frame in the CPU signal handler (#1…](https://github.com/plasma-umass/scalene/commit/e5e2230850ec2838a564a3b31f08e84567b2ad39) | emeryberger |
 | 2026-11-15 | [Signal smoketest: sleep instead of pause() (lost-wakeup race); enforc…](https://github.com/plasma-umass/scalene/commit/538a5187b5ef49f43b40a518d24c19fa8a1280b1) | emeryberger |
@@ -97,8 +99,6 @@
 | 2026-11-15 | [Save AI provider settings with `scalene config` (fixes #911) (#1143)](https://github.com/plasma-umass/scalene/commit/33d507f973469f1a32360bbe7b529349126d1419) | emeryberger |
 | 2026-11-15 | [Give every timer arrival the same weight (#466 follow-up) (#1142)](https://github.com/plasma-umass/scalene/commit/0b9870bfa09aecc7e2eb8826dbd483214d4a763f) | emeryberger |
 | 2026-11-15 | [Charge CPU samples to the line running when the timer fired (fixes #4…](https://github.com/plasma-umass/scalene/commit/9893aa606aadf138f0bad0adf79f0265b3724a52) | emeryberger |
-| 2026-11-15 | [Windows: remove the Python sampler-thread fallback (#1141)](https://github.com/plasma-umass/scalene/commit/9daac986a3b9d9799f230f1af4198115090fa99e) | emeryberger |
-| 2026-11-14 | [Don't sample allocations inside native stack unwinding (fixes #1133) …](https://github.com/plasma-umass/scalene/commit/377176057b41172579937f4e71dc5bdf83a5c875) | emeryberger |
 
 [See all commits ↗](https://github.com/plasma-umass/scalene/commits)
 

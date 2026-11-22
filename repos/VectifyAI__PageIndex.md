@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 40.7k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [175](https://github.com/VectifyAI/PageIndex/issues) |
+| 🐞 **Open issues + PRs** | [174](https://github.com/VectifyAI/PageIndex/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `agents` `ai` `ai-agents` `context-engineering` `llm` `rag` `reasoning` `retrieval` `retrieval-augmented-generation` `vector-database` `information-retrieval` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-21 (yesterday) |
 | 📅 **Created** | 2025-04-01 |
 | 📦 **Latest release** | [v0.7.4](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.4) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.3](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.3) — PageIndex 0.7.3 — Lower Cost, Higher Accuracy than Vector RAG
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > - **Cheaper** than vector RAG: for both index and query.
 > - **Faster**: trees are created from layout stats.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.2](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.2) — PageIndex 0.7.2 — Lower Cost, Higher Accuracy than Vector RAG
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > - **Cheaper** than vector RAG: for both index and query.
 > - **Faster**: trees are created from layout stats.
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.0](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.0) — PageIndex 0.7.0 — Lower Cost, Higher Accuracy than Vector RAG
-<sub>2026-11-15 · 5d ago</sub>
+<sub>2026-11-15 · 6d ago</sub>
 
 > - **Cheaper** than vector RAG: for both index and query.
 > - **Faster**: trees are created from layout stats.

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 79.9k |
+| ⭐ **Stars** | 80.0k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [523](https://github.com/unslothai/unsloth/issues) |
-| 💻 **Languages** | Python 72% · TypeScript 23% · PowerShell 1% · Shell 1% · Rust 1% |
+| 🐞 **Open issues + PRs** | [569](https://github.com/unslothai/unsloth/issues) |
+| 💻 **Languages** | Python 73% · TypeScript 23% · PowerShell 1% · Shell 1% · Rust 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `fine-tuning` `llama` `llms` `gemma` `unsloth` `llm` `deepseek` `text-to-speech` `tts` `qwen` `agent` `openai` `reinforcement-learning` `self-hosted` `ui` `image-generation` `stable-diffusion` `chatgpt` `ai` `python` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-11-29 |
 | 📦 **Latest release** | [v0.1.922-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.922-beta) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 715.8 MB |
+| 💾 **Size** | 721.8 MB |
 | 🌐 **Website** | https://unsloth.ai/docs |
 
 ## 📦 Recent releases
 
 ### [v0.1.922-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.922-beta) — Inkling Mini + Bug fixes
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > Run the new Inkling 2 Mini model, the strongest 26.4B model that runs on 16GB RAM.
 > This release makes image generation faster and lighter on small GPUs. Macs with Apple Silicon can now restyle videos, and chats that use MCP tools no longer reprocess the whole conversation on every message.
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.1.921-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.921-beta) — Bug Fixes + Faster images +Inkling Mini + faster MCP chats
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > There will be another release today in a few hours!
 > Run the new Inkling 2 Mini model, the strongest 26.4B model that runs on 16GB RAM.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [CI: hold the HF=latest legs below transformers 5.24 until unsloth-zoo…](https://github.com/unslothai/unsloth/commit/ee62cb7857ded11ecfe68a11f123a03f803ff55e) | danielhanchen |
-| 2026-11-21 | [Security audit: re-review the transformers 5.24.0 testing_utils.py si…](https://github.com/unslothai/unsloth/commit/8b7cde79ebf5a901b2fd936bbee214fb8c7562c7) | danielhanchen |
-| 2026-11-21 | [Studio tests: forget the served-vision answer between the two servers…](https://github.com/unslothai/unsloth/commit/fd3bbb269ea2f7db2321c8950d22a0c345dca6e6) | danielhanchen |
-| 2026-11-21 | [Pipeline parallel: keep the frozen-prefix skip off on later stages (#…](https://github.com/unslothai/unsloth/commit/ed74b5983e9e3169ec1d6c9aec777d1127069f24) | danielhanchen |
-| 2026-11-21 | [Studio: wallpaper chat masks only the composer's own box (#18751)](https://github.com/unslothai/unsloth/commit/6117d4c761a41db762c9d0abe2719e4ee1864f72) | shimmyshimmer |
-| 2026-11-21 | [Studio: permission pill shows its icon only when collapsed (#18750)](https://github.com/unslothai/unsloth/commit/62126b447afadcd6af08eaa7759f95831193be70) | shimmyshimmer |
-| 2026-11-21 | [Tests: read llama.py as UTF-8 in the vocab-parallel gloo test (#18743)](https://github.com/unslothai/unsloth/commit/c9670d85833bd1c0c02ad944fc229e51cf374b12) | danielhanchen |
-| 2026-11-21 | [Studio tests: seed the dense fast-LoRA parity input and hold its inpu…](https://github.com/unslothai/unsloth/commit/ba4979c497e17b9e190da25cfcb31eff6e4069a5) | danielhanchen |
-| 2026-11-21 | [Native TP: opt-in vocab-parallel lm_head and cross entropy (#18625)](https://github.com/unslothai/unsloth/commit/77f37de186a9c0483dc869360dba4845ef656605) | danielhanchen |
-| 2026-11-21 | [Windows No Compiler CI: measure again when only the file watcher fail…](https://github.com/unslothai/unsloth/commit/cb27fb7c5fae07afaa608a1adf8c0cbedc609e47) | danielhanchen |
+| 2026-11-22 | [Diffusion DDP tests: rendezvous through a FileStore, not a port picke…](https://github.com/unslothai/unsloth/commit/5b4b8360917bcf79530f77b0422745e1e7f3e9e6) | danielhanchen |
+| 2026-11-22 | [Tests: two reds from #18856 (exec-d _utils helper cannot do its relat…](https://github.com/unslothai/unsloth/commit/28eaeb732914dbd9972fb92af92d77702f0a036f) | danielhanchen |
+| 2026-11-22 | [Studio: keep accented and non-Latin text in pages saved from Chrome (…](https://github.com/unslothai/unsloth/commit/c751a7a5576f8822114d320b8fb2d06c45ae7ddd) | NilayYadav |
+| 2026-11-22 | [Private push: refuse a public repo before writing dataset metadata (#…](https://github.com/unslothai/unsloth/commit/bf082c96ad848826f8831d863761081ade62601b) | danielhanchen |
+| 2026-11-22 | [Studio FLUX.2 klein 9B-KV: run KV checkpoints on their own pipeline (…](https://github.com/unslothai/unsloth/commit/acb504cbc89689867a54fdcef830a4aecd04fb7f) | danielhanchen |
+| 2026-11-22 | [Studio: keep pasted screenshots in imported Cursor chats (#18703)](https://github.com/unslothai/unsloth/commit/57aafaa95472860f1271683018a37e8bf717e517) | NilayYadav |
+| 2026-11-22 | [Studio: keep the audio.cpp accelerator chosen at install across updat…](https://github.com/unslothai/unsloth/commit/c6d4ef2687da2be3a09748c046dec0547515f6d6) | NilayYadav |
+| 2026-11-22 | [ROCm SDPA check: run the probe children in a private directory (#18858)](https://github.com/unslothai/unsloth/commit/f03851a8e89c1d208f1070e72ddff4701170dbb0) | danielhanchen |
+| 2026-11-22 | [Studio: let the model see images read in imported Claude Code chats (…](https://github.com/unslothai/unsloth/commit/94d96c084ef1bf350504daf79895dec915cfbf2d) | NilayYadav |
+| 2026-11-22 | [Studio: keep the tool call cap picked with MCP on across reloads (#18…](https://github.com/unslothai/unsloth/commit/582698f7d25f2efc4ece65b8524e78afe54f66fb) | NilayYadav |
 
 [See all commits ↗](https://github.com/unslothai/unsloth/commits)
 

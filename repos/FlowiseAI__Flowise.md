@@ -47,7 +47,7 @@
 > …
 
 ### [flowise@3.1.3](https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.3)
-<sub>2026-06-25 · 4mo ago</sub>
+<sub>2026-06-25 · 5mo ago</sub>
 
 > **What's Changed**
 > * Fix clickjacking by @yau-wd in https://github.com/FlowiseAI/Flowise/pull/6185

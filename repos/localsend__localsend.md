@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.1k |
-| 🍴 **Forks** | 5.7k |
+| ⭐ **Stars** | 100.2k |
+| 🍴 **Forks** | 5.8k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
-| 💻 **Languages** | Dart 78% · Rust 18% |
+| 💻 **Languages** | Dart 79% · Rust 18% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `flutter` `file-sharing` `dart` `flutter-apps` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2022-12-16 |
 | 📦 **Latest release** | [v1.18.2](https://github.com/localsend/localsend/releases/tag/v1.18.2) — 2026-08-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.3 MB |
+| 💾 **Size** | 24.2 MB |
 | 🌐 **Website** | https://localsend.org |
 
 ## 📦 Recent releases
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [fix(windows): render LocalSend icon in the Share Sheet & "Share with"…](https://github.com/localsend/localsend/commit/eb61b5f10119c47161cbd20d4a1e4edd4e308489) | ShlomoCode |
+| 2026-11-21 | [ci: locate makeappx in Windows SDK bin instead of App Certification K…](https://github.com/localsend/localsend/commit/19c02034291ae9ef24dc1a6611aa126115a86ad1) | Tienisto |
+| 2026-11-21 | [release: 1.19.0+65 (#3745)](https://github.com/localsend/localsend/commit/5c70ff3648265858f46634633134ab19b783ba41) | Tienisto |
+| 2026-11-21 | [docs: clarify Debian startup changelog entry (#3746)](https://github.com/localsend/localsend/commit/da72a45a5b00eb60793e138bc42ae43b4d9863a7) | ShlomoCode |
+| 2026-11-21 | [docs: update changelog for 1.19.0 (#3744)](https://github.com/localsend/localsend/commit/94b09400ef004c1dd1a86c25e5c3a89f2e17604a) | Tienisto |
+| 2026-11-21 | [docs: update changelog (#3500)](https://github.com/localsend/localsend/commit/dffc9bedb7d23eaa63ea8b534ce72dc5b418069f) | ShlomoCode |
+| 2026-11-21 | [i18n: add missing translations for all locales (#3743)](https://github.com/localsend/localsend/commit/855c4aad968e55b624e6e6173c88043e309042c3) | Tienisto |
+| 2026-11-21 | [Update tr.json (#3710)](https://github.com/localsend/localsend/commit/063ae5e22887215c895e6a2ba465ef2d75f72388) | mikropsoft |
+| 2026-11-21 | [feat: show HTTPS badge in device list tile when encryption is enabled…](https://github.com/localsend/localsend/commit/e13200e1a9c1b1073bbe9b58bfe6ccb4756ae879) | Tienisto |
 | 2026-11-21 | [fix(linux): require only Ayatana appindicator in the deb and name its…](https://github.com/localsend/localsend/commit/26cc8f997aa3f7ad789c12500a8b7206cfbb3ddc) | Tienisto |
-| 2026-11-21 | [fix(linux): name rpm desktop file after the application id so KWin sh…](https://github.com/localsend/localsend/commit/296bcf7490091bc6874f0d3c0ef043d927dc5d9d) | Tienisto |
-| 2026-11-21 | [fix(android): preserve gallery file modification times (#3715)](https://github.com/localsend/localsend/commit/2fe29dce145491db12228136ee8b0d2e662f9cc3) | ShlomoCode |
-| 2026-11-21 | [fix: bound inline text previews to prevent large-message freezes (#3737)](https://github.com/localsend/localsend/commit/1f36be759864c24e8cfada70d225547483c05906) | kneeyard126 |
-| 2026-11-20 | [fix(linux): install rpm icon without setuid, set StartupWMClass and r…](https://github.com/localsend/localsend/commit/12ec31310382d0e7a6f54697ebc9c7c64f833ccd) | Tienisto |
-| 2026-11-20 | [fix: avoid division by zero on the progress page when a file fails in…](https://github.com/localsend/localsend/commit/8e999736643547a3b375e1d442d160fa852db6ef) | Tienisto |
-| 2026-11-20 | [feat(linux): add software rendering toggle with automatic fallback af…](https://github.com/localsend/localsend/commit/b1b9abc7201b8afaa3ba7027575a2673fb6e78ee) | Tienisto |
-| 2026-11-19 | [fix: stop a send session that was cancelled while prepare-upload was …](https://github.com/localsend/localsend/commit/e05d12a9c0fd4d8c0245d2ec5c3c177e7e0f759b) | Tienisto |
-| 2026-11-18 | [fix: rank link-local IPv6 channels after IPv4 when choosing an addres…](https://github.com/localsend/localsend/commit/a6ee93b55340d7ef5d2519842503c7887f0e7479) | Tienisto |
-| 2026-11-18 | [fix: limit connection setup for pinned HTTP clients to 5 seconds (#3726)](https://github.com/localsend/localsend/commit/541689d1a4e8fd552772109b82ae75ecd7722afd) | Tienisto |
 
 [See all commits ↗](https://github.com/localsend/localsend/commits)
 

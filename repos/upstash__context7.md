@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 65.2k |
+| ⭐ **Stars** | 65.3k |
 | 🍴 **Forks** | 3.3k |
-| 🐞 **Open issues + PRs** | [55](https://github.com/upstash/context7/issues) |
+| 🐞 **Open issues + PRs** | [56](https://github.com/upstash/context7/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llm` `mcp` `mcp-server` `vibe-coding` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-03-26 |
 | 📦 **Latest release** | [mcpb-v4.7.3](https://github.com/upstash/context7/releases/tag/mcpb-v4.7.3) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
@@ -59,7 +59,7 @@
 > - 7fe6e09: The rules and skills that `ctx7 setup` and the plugins install are back to their text from before the source code and upgrade guide tools: no `query-code`, `ctx7 code` or `get-upgrade-guide` guidance. The MCP server describes its experimental tools only to users who turned them on.
 
 ### [mcpb-v4.7.2](https://github.com/upstash/context7/releases/tag/mcpb-v4.7.2) — context7.mcpb 4.7.2
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > MCP Bundle for [@upstash/context7-mcp@4.7.2](https://github.com/upstash/context7/releases/tag/%40upstash%2Fcontext7-mcp%404.7.2)
 

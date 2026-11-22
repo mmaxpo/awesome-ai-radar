@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 53% · TypeScript 36% · HTML 5% · JavaScript 4% · Shell 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `claude-code` `mcp` `skills` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-21 (yesterday) |
 | 📅 **Created** | 2025-11-20 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

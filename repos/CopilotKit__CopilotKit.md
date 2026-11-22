@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 38.9k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [479](https://github.com/CopilotKit/CopilotKit/issues) |
+| 🐞 **Open issues + PRs** | [480](https://github.com/CopilotKit/CopilotKit/issues) |
 | 💻 **Languages** | TypeScript 80% · Python 6% · MDX 5% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` `agent` `agents` `ai-agent` `ai-assistant` `assistant` `copilot` `copilot-chat` `agent-native` `agentic-ai` `assistant-chat-bots` `generative-ui` `js` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-06-19 |
 | 📦 **Latest release** | [v1.90.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.0) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 908.7 MB |
+| 💾 **Size** | 908.9 MB |
 | 🌐 **Website** | https://docs.copilotkit.ai |
 
 ## 📦 Recent releases
@@ -41,22 +41,22 @@
 > This release adds framework-level telemetry to the runtime and sends the CopilotKit version to the Intelligence gateway, giving the gateway the context it needs to tailor behavior to a client's version.
 
 ### [v1.89.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.89.0)
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > This release improves performance and reliability for long Intelligence threads, adds support for distinct agent display names, and expands MCP Apps with model-context sharing.
 
 ### [v1.88.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.88.0)
-<sub>2026-11-13 · 7d ago</sub>
+<sub>2026-11-13 · 8d ago</sub>
 
 > This release adds server-side agent runs through Intelligence, richer Learning capture, and several fixes to chat rendering and tool-call handling. It also includes one breaking change to thread naming.
 
 ### [v1.87.1](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.87.1)
-<sub>2026-11-12 · 8d ago</sub>
+<sub>2026-11-12 · 9d ago</sub>
 
 > This patch release fixes A2UI rendering for catalogs that declare protocol version 1.0 when streaming Direct JSON.
 
 ### [python-sdk/v0.1.97](https://github.com/CopilotKit/CopilotKit/releases/tag/python-sdk/v0.1.97)
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 10d ago</sub>
 
 > Python SDK release: copilotkit 0.1.97
 > https://pypi.org/project/copilotkit/0.1.97/
@@ -65,16 +65,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [feat(core): continue capture on a new Trajectory after Intelligence s…](https://github.com/CopilotKit/CopilotKit/commit/6f8e51b4682e1e5ff733895d11d099ff5afd015b) | BenTaylorDev |
-| 2026-11-20 | [chore: release monorepo v1.90.0 (#8515)](https://github.com/CopilotKit/CopilotKit/commit/c1f317e839996dc845b930567210c8d976d6c5b1) | BenTaylorDev |
-| 2026-11-20 | [style: auto-fix formatting](https://github.com/CopilotKit/CopilotKit/commit/26b42f528a584ce76f65f01c7d38103c3607ca39) | github-actions[bot] |
-| 2026-11-20 | [chore: release monorepo v1.90.0](https://github.com/CopilotKit/CopilotKit/commit/0371d936813df46b9ccb27f92a053df6e303693d) | BenTaylorDev |
-| 2026-11-20 | [chore: release docs to prod (#8510)](https://github.com/CopilotKit/CopilotKit/commit/2b4d787448fec0741c969c28424149184fc472ff) | AlemTuzlak |
-| 2026-11-20 | [chore: release docs e6ea48b50848122956cb6f0a8189816ff39f6e1c](https://github.com/CopilotKit/CopilotKit/commit/b16b18c781f5230ec0ed0289c08c05e6e5a44dfd) | AlemTuzlak |
-| 2026-11-20 | [fix(showcase): skip undeployed integrations in the compatibility audi…](https://github.com/CopilotKit/CopilotKit/commit/e6ea48b50848122956cb6f0a8189816ff39f6e1c) | contextablemark |
-| 2026-11-20 | [feat(examples): a live A2UI canvas, drawn by Express or Antigravity (…](https://github.com/CopilotKit/CopilotKit/commit/fd330d40cc626a67a6f8470a3e9475ab50a5d3e4) | contextablemark |
-| 2026-11-20 | [fix(examples): bound the A2UI canvas startup probes by the deadline](https://github.com/CopilotKit/CopilotKit/commit/b1fee02b6cc488df6063ecba100dbf2ad31c5ce6) | jerelvelarde |
-| 2026-11-20 | [fix(examples): validate legacy binary parts before charging the A2UI …](https://github.com/CopilotKit/CopilotKit/commit/c1074d392530813301b64890ed8cb94160adb0ab) | jerelvelarde |
+| 2026-11-22 | [fix(shell-docs): correct telemetry IP, skip .json pageviews, keep sta…](https://github.com/CopilotKit/CopilotKit/commit/4bf3945125a27a9eb21fe722d26bc90779e296fc) | jpr5 |
+| 2026-11-22 | [fix(shell-docs): stop counting .json requests as docs_pageview](https://github.com/CopilotKit/CopilotKit/commit/90912dcaa40705002b866715d582ee4cf94d2f76) | jpr5 |
+| 2026-11-22 | [fix(shell-docs): send no server-side analytics from non-production Ra…](https://github.com/CopilotKit/CopilotKit/commit/39acf03643a1f49ba7cbaca73a7e81ba674f0538) | jpr5 |
+| 2026-11-22 | [fix(shell-docs): report the visitor's IP from cf-connecting-ip behind…](https://github.com/CopilotKit/CopilotKit/commit/2a643ee24c77ce180a4cb98baca513c3c7a4b5d4) | jpr5 |
+| 2026-11-22 | [chore: release docs to prod (#8534)](https://github.com/CopilotKit/CopilotKit/commit/819d51744fa4f9db4bc91336274bed4f0bccbc65) | jpr5 |
+| 2026-11-22 | [chore: release docs f4fd2df7db8c1663eb395e734a2b07ca1fa032b1](https://github.com/CopilotKit/CopilotKit/commit/878330bdb365a4d52c12fa20cdda7a8d1db54370) | jpr5 |
+| 2026-11-21 | [docs(telemetry): say the sink may sample connects, per its configuration](https://github.com/CopilotKit/CopilotKit/commit/f4fd2df7db8c1663eb395e734a2b07ca1fa032b1) | jpr5 |
+| 2026-11-21 | [docs(telemetry): drop the "sink is ours" premise from the client comm…](https://github.com/CopilotKit/CopilotKit/commit/27a698c8044310ef4738cb09d1947c27ef5c9567) | jpr5 |
+| 2026-11-21 | [docs(shared): say where anonymous connect telemetry is sampled](https://github.com/CopilotKit/CopilotKit/commit/1c7f141e0b2379953ac711a0b746b941a63b8b9a) | jpr5 |
+| 2026-11-21 | [fix(shell-docs): strip Cloudflare headers from the /ingest PostHog pr…](https://github.com/CopilotKit/CopilotKit/commit/06aec8aad2c7fcda4323f4e2784860958de4ec6b) | jpr5 |
 
 [See all commits ↗](https://github.com/CopilotKit/CopilotKit/commits)
 

@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 40.8k |
 | 🍴 **Forks** | 5.8k |
-| 🐞 **Open issues + PRs** | [236](https://github.com/HKUDS/LightRAG/issues) |
+| 🐞 **Open issues + PRs** | [245](https://github.com/HKUDS/LightRAG/issues) |
 | 💻 **Languages** | Python 91% · TypeScript 7% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `knowledge-graph` `large-language-models` `retrieval-augmented-generation` `genai` `graphrag` `llm` `rag` `gpt` `docling` `mineru` `ragas` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2024-10-02 |
-| 📦 **Latest release** | [v1.5.8rc1](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc1) — 2026-11-15 |
+| 📦 **Latest release** | [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 123.9 MB |
+| 💾 **Size** | 124.9 MB |
 | 🌐 **Website** | https://arxiv.org/abs/2410.05779 |
 
 ## 📦 Recent releases
 
+### [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2)
+<sub>2026-11-21 · today</sub>
+
+> **What's Changed**
+> * fix(jina): stop retrying permanent 4xx errors by @Shizoqua in https://github.com/HKUDS/LightRAG/pull/4028
+> * fix(pipeline): round-trip sidecar URIs for Windows drive paths by @rtmalikian in https://github.com/HKUDS/LightRAG/pull/4273
+> * fix(rerank): stop retrying permanent errors in generic_rerank_api by @danielaskdd in https://github.com/HKUDS/LightRAG/pull/4420
+> * fix(query): return the failure shape from aquery_data when no keywords are extracted by @Zhuoxi2000 in https://github.com/HKUDS/LightRAG/pull/4419
+> * fix(postgres): give AGE a valid graph name for long or digit-leading workspaces by @zzjiho in https://github.com/HKUDS/LightRAG/pull/4408
+> …
+
 ### [v1.5.8rc1](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc1)
-<sub>2026-11-15 · 6d ago</sub>
+<sub>2026-11-15 · 7d ago</sub>
 
 > **Important Notes**
 > > v1.5.8rc1 is a release candidate. Please test it on a copy of your data before upgrading production.
@@ -79,31 +90,20 @@
 > * fix(operate): compute most common entity type and normalize keywords on rebuild by @santhreal in https://github.com/HKUDS/LightRAG/pull/3589
 > …
 
-### [v1.5.6](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.6)
-<sub>2026-08-06 · 3mo ago</sub>
-
-> **Important Notes**
-> Introducing **PGTableGraphStorage**, a new graph storage backend built on native PostgreSQL tables. By eliminating the dependency on Apache AGE, it not only simplifies deployment but also delivers significantly higher graph storage performance with reduced storage footprint. It will replace the AGE-based `PGGraphStorage` as the preferred graph storage solution for PostgreSQL. This makes **PostgreSQL** the go-to **all-in-one backend database** for LightRAG, enabling a single database to cover all four storage types.
-> **What's New**
-> * feat(kg): add PGTableGraphStorage — PostgreSQL-native graph backend (no AGE dependency) by @ysys143 in https://github.com/HKUDS/LightRAG/pull/3103
-> * docs(pipeline): rewrite the dedup and concurrency chapters from a user's view by @danielaskdd in https://github.com/HKUDS/LightRAG/pull/3583
-> **What's Changed**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Merge pull request #4533 from danielaskdd/test/trim-aiohttp-retry-cases](https://github.com/HKUDS/LightRAG/commit/510be78afa81bbaeea9d31f3f72d645f4637d70a) | danielaskdd |
-| 2026-11-21 | [test(retry): keep one status row per branch of the 5xx threshold](https://github.com/HKUDS/LightRAG/commit/e33ce719b5c9d7165efebad46803b734dbf61f7a) | danielaskdd |
-| 2026-11-21 | [test(retry): pin the aiohttp retry table once, one wiring case per br…](https://github.com/HKUDS/LightRAG/commit/cf5cbad5de3b60117c8d4c35a3601d39ffc0f047) | danielaskdd |
-| 2026-11-21 | [Merge pull request #4532 from Ymmcc/fix/jina-embedding-index-order](https://github.com/HKUDS/LightRAG/commit/2112670c9fcd4a93aa8fc1d0c7be44c3dd16dafa) | danielaskdd |
-| 2026-11-21 | [test(jina): trim redundant index-order cases; name bad indices in the…](https://github.com/HKUDS/LightRAG/commit/015646d26045835c382f61dcc7118a668e37ce23) | danielaskdd |
-| 2026-11-21 | [Merge pull request #4524 from wToTw123/codex/1120-partial-token-usage](https://github.com/HKUDS/LightRAG/commit/9fcb413d098fd7cdd2b8f6a823433584d4426584) | danielaskdd |
-| 2026-11-21 | [fix(llm): normalize nullable Gemini usage counts at the binding](https://github.com/HKUDS/LightRAG/commit/d35fd394ed7803fc24ca100e6df008cbc3d37f37) | danielaskdd |
-| 2026-11-21 | [Merge pull request #4526 from chuenchen309/fix/md-display-math-with-p…](https://github.com/HKUDS/LightRAG/commit/2ddb0c4104168556a26cb0e8a662695b00c5c5ac) | danielaskdd |
-| 2026-11-21 | [Merge pull request #4531 from SDLSY/fix/kg-chunk-pick-method-validati…](https://github.com/HKUDS/LightRAG/commit/8fa35260b158759737196b1e2545c9c0b2916489) | danielaskdd |
-| 2026-11-21 | [Merge pull request #4529 from Zhuoxi2000/fix-query-keywords-metadata-…](https://github.com/HKUDS/LightRAG/commit/eca4d7689e374fddb9f9bd20b8e2079433c9d9e1) | danielaskdd |
+| 2026-11-22 | [Merge pull request #4593 from danielaskdd/ci/pg-smoke-paths](https://github.com/HKUDS/LightRAG/commit/b0859bafaf247b4929f0d2be608178da6baaa40c) | danielaskdd |
+| 2026-11-22 | [ci: trigger PostgreSQL smoke tests on every module they exercise](https://github.com/HKUDS/LightRAG/commit/4e76157f086d28b49d0b9729a0c27abf34ab6291) | danielaskdd |
+| 2026-11-22 | [Merge pull request #4549 from MohammadHijjawi97/fix/export-markdown-e…](https://github.com/HKUDS/LightRAG/commit/c5cc0b22677d0f77753464efa8ddf1b5ef07748d) | danielaskdd |
+| 2026-11-22 | [fix(export): narrow the Markdown cell rewrite to pipes and line breaks](https://github.com/HKUDS/LightRAG/commit/adde9cd39e8a4e37bc133bfbfb84f0b0ccd21e2f) | danielaskdd |
+| 2026-11-22 | [fix(export): render Markdown cells as literal text](https://github.com/HKUDS/LightRAG/commit/74691beedb43db5f55d9d98810a837131ee98422) | danielaskdd |
+| 2026-11-22 | [fix(export): escape `<` in Markdown cells and cover every table](https://github.com/HKUDS/LightRAG/commit/49c34e6a1beae72a9f883c19b644179aba02e8c4) | danielaskdd |
+| 2026-11-22 | [Merge pull request #4592 from danielaskdd/docs/test-guide-lessons](https://github.com/HKUDS/LightRAG/commit/24451381a15fb1d19221669b6aa6fdedb255574c) | danielaskdd |
+| 2026-11-22 | [docs: fold the test-trim lessons into the testing guides](https://github.com/HKUDS/LightRAG/commit/a0d3493c0b42476a8245d030ed7ca88dd110f180) | danielaskdd |
+| 2026-11-22 | [Merge pull request #4590 from danielaskdd/test/d2-setup](https://github.com/HKUDS/LightRAG/commit/5611581edfae716ca14c34acec87f9572e7e4ef1) | danielaskdd |
+| 2026-11-22 | [Merge pull request #4591 from danielaskdd/test/d3-webui](https://github.com/HKUDS/LightRAG/commit/df987a1de8f4193efd81ee31e3801f26545f4f14) | danielaskdd |
 
 [See all commits ↗](https://github.com/HKUDS/LightRAG/commits)
 

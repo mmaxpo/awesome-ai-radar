@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 16.3k |
+| ⭐ **Stars** | 16.4k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [418](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [419](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-19 (yesterday) |
+| 🕒 **Last activity** | 2026-11-19 (2d ago) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |

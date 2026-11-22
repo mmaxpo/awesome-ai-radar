@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.1k |
+| ⭐ **Stars** | 61.2k |
 | 🍴 **Forks** | 9.2k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/crewAIInc/crewAI/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-21 (yesterday) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.43](https://github.com/crewAIInc/crewAI/releases/tag/1.15.43)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.42](https://github.com/crewAIInc/crewAI/releases/tag/1.15.42)
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -69,7 +69,7 @@
 > …
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · 8d ago</sub>
+<sub>2026-11-12 · 9d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40)
-<sub>2026-11-11 · 9d ago</sub>
+<sub>2026-11-11 · 10d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -103,7 +103,7 @@
 | 2026-11-20 | [fix(knowledge): stop chunking once a chunk reaches the end of the tex…](https://github.com/crewAIInc/crewAI/commit/fdbffa0ca3138a1e7c169e739ae9c2c6a41ab405) | Ayushraj06-bit |
 | 2026-11-20 | [fix: serialize enums by value in CrewJSONEncoder (#9582)](https://github.com/crewAIInc/crewAI/commit/c24960bda1d34d9038d7da92c3eee18275331feb) | nurlanmnn |
 | 2026-11-20 | [fix(artifacts): never cache save_artifact tool results (#9595)](https://github.com/crewAIInc/crewAI/commit/70a31b667dad750910ea5c006b1934a41821e05e) | MaiAditya |
-| 2026-11-20 | [fix(agents): set from_cache on the native tool finished event (#9504)](https://github.com/crewAIInc/crewAI/commit/8c75a465bd2c4f68ec79aa56a8bdbee8218283ed) | sunhouy |
+| 2026-11-20 | [fix(agents): set from_cache on the native tool finished event (#9504)](https://github.com/crewAIInc/crewAI/commit/8c75a465bd2c4f68ec79aa56a8bdbee8218283ed) | houyunsun |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

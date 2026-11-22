@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 21.7k |
+| ⭐ **Stars** | 21.8k |
 | 🍴 **Forks** | 1.8k |
-| 🐞 **Open issues + PRs** | [123](https://github.com/img2threejs/img2threejs/issues) |
+| 🐞 **Open issues + PRs** | [124](https://github.com/img2threejs/img2threejs/issues) |
 | 💻 **Languages** | Python 97% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `3d` `ai-agents` `claude-code` `computer-graphics` `generative` `image-to-3d` `procedural-generation` `threejs` `typescript` `webgl` |
-| 🕒 **Last activity** | 2026-11-16 (5d ago) |
+| 🕒 **Last activity** | 2026-11-16 (6d ago) |
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1) — 2026-11-05 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1)
-<sub>2026-11-05 · 16d ago</sub>
+<sub>2026-11-05 · 17d ago</sub>
 
 > **What's Changed**
 > **Other Changes**

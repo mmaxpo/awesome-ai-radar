@@ -21,21 +21,21 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.1k |
-| 🍴 **Forks** | 649 |
+| 🍴 **Forks** | 655 |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-08-06 |
 | 📦 **Latest release** | [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 89.2 MB |
+| 💾 **Size** | 89.5 MB |
 
 ## 📦 Recent releases
 
 ### [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: two fixes — evidence file is now readable after the run completes + one retry added for the small-window round in  | gate 两个修复:跑完后证据文件能读了 + R 车道小窗口轮次加一次重试 by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6808
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
-<sub>2026-11-15 · 6d ago</sub>
+<sub>2026-11-15 · 7d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · 7d ago</sub>
+<sub>2026-11-14 · 8d ago</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 13d ago</sub>
+<sub>2026-11-07 · 14d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Merge pull request #7385 from ranxianglei/2026-11-20_preflight-failfa…](https://github.com/ranxianglei/billion-context/commit/371930c5ce9595e3a7561e724676789aea751dc7) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7368 from ranxianglei/2026-11-20_failfast-log-pre…](https://github.com/ranxianglei/billion-context/commit/e70103770db1a650726d94185e277f344898ad82) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7454 from ranxianglei/2026-11-21_byte-cap-media-s…](https://github.com/ranxianglei/billion-context/commit/67e9bc20ffa61ed0ac82e12f2807b7593a208465) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7324 from ranxianglei/2026-11-19_no-proxy-hold-ipv6](https://github.com/ranxianglei/billion-context/commit/a279b922a701967dcd4c9ca980dc4377c14f8852) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7423 from ranxianglei/2026-11-21_opencode-fork-li…](https://github.com/ranxianglei/billion-context/commit/410d9fe61590694bfdb958717131f9b418f1c497) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7417 from sx4im/fix-7416-tag-echo-turn-bleed](https://github.com/ranxianglei/billion-context/commit/c4ba79dcdb4786483ad6d0d71fcd182f35812275) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7343 from ranxianglei/2026-11-20_dead-code-4739-r…](https://github.com/ranxianglei/billion-context/commit/acc6a17e22208a79de86b574c48ae598de0eaad0) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7304 from Afloat16/2026-11-19_snapshot-kv-read-fa…](https://github.com/ranxianglei/billion-context/commit/76d54e373ce026a6add81a4dd37d8295afa118ad) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7298 from Afloat16/2026-11-19_gc-companion-metada…](https://github.com/ranxianglei/billion-context/commit/037a8d97f855df238ce4d68f72534c14c8abfbba) | ranxianglei |
-| 2026-11-21 | [Merge pull request #7457 from ranxianglei/2026-11-21_workbuddy-lane](https://github.com/ranxianglei/billion-context/commit/9bf4d48c87a6c4be7fb7ef71178ce4b79375fdb2) | ranxianglei |
+| 2026-11-22 | [Merge pull request #7532 from ranxianglei/fix/preflight-identity-fast…](https://github.com/ranxianglei/billion-context/commit/0b68ade725c857b50ba125ed0f8a35385ab6b959) | ranxianglei |
+| 2026-11-22 | [test: stamp the overflow wall in the 9 fixtures the identity fast pat…](https://github.com/ranxianglei/billion-context/commit/c993aa5c4b1a5dc0da0d72473a3e0e6e72e976a3) | ci-check |
+| 2026-11-22 | [Merge pull request #7522 from ranxianglei/2026-11-22_kernel-hide-cons…](https://github.com/ranxianglei/billion-context/commit/6078bcffcb135029604a2a546b86caa4a3429639) | ranxianglei |
+| 2026-11-22 | [test: pin the identity fast path's positive + model-mismatch directio…](https://github.com/ranxianglei/billion-context/commit/8af3bcbb3384731640c0e43f5eda3e50ff8173ce) | ci-check |
+| 2026-11-22 | [fix: correct stale comment — a model change IS a fast-path demotion](https://github.com/ranxianglei/billion-context/commit/46b72035ee9ae2ed6207955aba042e0e68021ce8) | ci-check |
+| 2026-11-22 | [Merge pull request #7446 from ranxianglei/2026-11-21_fix-agy-cli-clip…](https://github.com/ranxianglei/billion-context/commit/f79bd222103997674e632771084fa47b25351521) | ranxianglei |
+| 2026-11-22 | [Merge pull request #7326 from ranxianglei/2026-11-19_rcagg-compress-gate](https://github.com/ranxianglei/billion-context/commit/bb8deeac811a37112f0449c0005fa45f06b84089) | ranxianglei |
+| 2026-11-22 | [Merge pull request #7330 from WantexZard/2026-11-19_responses-fork-eg…](https://github.com/ranxianglei/billion-context/commit/f593991b9ec00d75258b405ed3da466bd2d1c63c) | ranxianglei |
+| 2026-11-22 | [Merge pull request #7287 from x1051445024/2026-11-19_fix-v1internal-p…](https://github.com/ranxianglei/billion-context/commit/7c6a1c844313e45541af25d7d38b7bd3a307c090) | ranxianglei |
+| 2026-11-22 | [kernel: orphan-sweep exemption recognizes the line-form compress args](https://github.com/ranxianglei/billion-context/commit/ce781e54af2a2cd1230933046b1d63e3b7951208) | ranxianglei |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

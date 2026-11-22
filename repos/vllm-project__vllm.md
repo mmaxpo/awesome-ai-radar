@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 97.3k |
 | 🍴 **Forks** | 25.1k |
-| 🐞 **Open issues + PRs** | [10.8k](https://github.com/vllm-project/vllm/issues) |
+| 🐞 **Open issues + PRs** | [10.9k](https://github.com/vllm-project/vllm/issues) |
 | 💻 **Languages** | Python 86% · Rust 7% · Cuda 4% · C++ 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gpt` `llm` `pytorch` `model-serving` `transformer` `llm-serving` `inference` `llama` `amd` `cuda` `tpu` `deepseek` `qwen` `blackwell` `deepseek-v3` `gpt-oss` `kimi` `moe` `openai` `qwen3` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-02-09 |
 | 📦 **Latest release** | [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 377.4 MB |
+| 💾 **Size** | 378.6 MB |
 | 🌐 **Website** | https://vllm.ai |
 
 ## 📦 Recent releases
 
 ### [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > **v0.34.0**
 > **1,061 commits from 412 contributors (120 new).** Thank you!
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.33.0rc3](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) — v0.33.0
-<sub>2026-11-02 · 19d ago</sub>
+<sub>2026-11-02 · 20d ago</sub>
 
 > **v0.33.0**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [[CI] Use platform device in M-RoPE prompt embeds test (#69134)](https://github.com/vllm-project/vllm/commit/81a4fe55a22d4f11754a535051b56c6faca738dc) | hlin99 |
-| 2026-11-21 | [[Model] Add masked_token_ids to never sample given tokens (#68976)](https://github.com/vllm-project/vllm/commit/93c590ef3a84a4a064bfe5ca5146b3d848054072) | aoshen02 |
-| 2026-11-21 | [[Bugfix][Multimodal] Return 400 for unreadable embedding payloads (#6…](https://github.com/vllm-project/vllm/commit/c2fb5c5aba0a904fdbecb8e01b7c41db5bfaeadf) | my-git9 |
-| 2026-11-21 | [[Bugfix][Security] Complete input-bound hardening left incomplete by …](https://github.com/vllm-project/vllm/commit/0bf9c07376a4091627e6cb50dd85464361db452c) | jperezdealgaba |
-| 2026-11-21 | [[XPU] skip not applied tests in lora/test_layer.py and test_config.py…](https://github.com/vllm-project/vllm/commit/80456e51f8ec16e88eeb918881f7a758cbd1c2fe) | yma11 |
-| 2026-11-21 | [[Perf][Model] Export ZAYA1 CCA prefill checkpoints (#68921)](https://github.com/vllm-project/vllm/commit/9920e7c7c8aabd90384f03ef75143cfac8068737) | JaredforReal |
-| 2026-11-21 | [[Bugfix][EC Connector] Keep marker token embeddings for pruned Qwen3-…](https://github.com/vllm-project/vllm/commit/dd8c157895f01875bc5f44c51003bbe330647330) | ashwaniag |
-| 2026-11-21 | [[Doc] Add vLLM security review skill (#69101)](https://github.com/vllm-project/vllm/commit/a5a902d02328e48493775ed75e352059e9d3b3b0) | jperezdealgaba |
-| 2026-11-21 | [[Kernel][GDN] Faster fused CUDA MTP decode for 16-bit recurrent state…](https://github.com/vllm-project/vllm/commit/78f20a5a3454bcdcc0717cf63d26acf4075c1161) | gau-nernst |
-| 2026-11-21 | [fix(security): use segment-boundary-aware root_path stripping in auth…](https://github.com/vllm-project/vllm/commit/3a1176475f25255923cbf881b277a9f676c762ca) | jperezdealgaba |
+| 2026-11-22 | [[Bugfix] Apply the video processor frame caps when loading videos (#6…](https://github.com/vllm-project/vllm/commit/b976fff86af82c559b19aa676f52ea193eb0c188) | paulpak58 |
+| 2026-11-22 | [[Perf][KV Offload] Avoid waking idle FS workers on job completion (#6…](https://github.com/vllm-project/vllm/commit/17323e0b1ca54296cc3016b72d481ecffc17e69b) | waizuichougou |
+| 2026-11-22 | [[Bugfix][KV Offload] Preserve reused ARC prefixes during running-requ…](https://github.com/vllm-project/vllm/commit/e29c741da8d11e2ae7ba381bb78b6f703812cae1) | waizuichougou |
+| 2026-11-22 | [[Rust Frontend] Support allowed_tools tool_choice (#68408)](https://github.com/vllm-project/vllm/commit/443b51e52fad36bbbd7960fd272c8baf23f14dbb) | BugenZhao |
+| 2026-11-22 | [[KV Offload] Add access_mode (read/write/readwrite) (#67961)](https://github.com/vllm-project/vllm/commit/9ae9c15c569176e52783dd2ef8f4fedf8aadc70a) | effi-ofer |
+| 2026-11-22 | [[Bugfix][Multimodal] Pass image kwargs through the OpenCUA processor …](https://github.com/vllm-project/vllm/commit/cb19fedd85f55e4c09ce76ab95b3a70fe4b5872a) | subhashpolisetti |
+| 2026-11-22 | [[Frontend] Classify errors in offline LLM APIs (#68667)](https://github.com/vllm-project/vllm/commit/d4cc8ec42efa7e1b41dfc5462d189004d5c5cb19) | Remarkable911 |
+| 2026-11-22 | [[Bugfix][KV Offload] Store the chunks that fit when a request exceeds…](https://github.com/vllm-project/vllm/commit/e72fc9ae50c221180c4b8f4a94c5009714a4b199) | lnvitesace |
+| 2026-11-22 | [[Bugfix][Multimodal] Accept torch.Tensor videos in vLLM's own HF proc…](https://github.com/vllm-project/vllm/commit/647a76866b4559a74e27d1c6b55fbffe85c07ce4) | yarikama |
+| 2026-11-22 | [[Bugfix][Multimodal] Accept NumPy images and PIL frame videos in Muse…](https://github.com/vllm-project/vllm/commit/cb85c4e9efc27be9644bb90d8eed5fb521a77f44) | yarikama |
 
 [See all commits ↗](https://github.com/vllm-project/vllm/commits)
 

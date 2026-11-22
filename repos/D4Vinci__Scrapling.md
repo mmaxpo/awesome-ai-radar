@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 104.8k |
+| ⭐ **Stars** | 104.9k |
 | 🍴 **Forks** | 11.0k |
 | 🐞 **Open issues + PRs** | [24](https://github.com/D4Vinci/Scrapling/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `crawler` `crawling` `crawling-python` `playwright` `python` `scraping` `selectors` `stealth` `web-scraper` `web-scraping` `web-scraping-python` `webscraping` `xpath` `automation` `ai` `ai-scraping` `data` `data-extraction` `mcp` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-17 (4d ago) |
+| 🕒 **Last activity** | 2026-11-17 (5d ago) |
 | 📅 **Created** | 2024-10-13 |
 | 📦 **Latest release** | [v0.5.1](https://github.com/D4Vinci/Scrapling/releases/tag/v0.5.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.5.1](https://github.com/D4Vinci/Scrapling/releases/tag/v0.5.1) — Release v0.5.1
-<sub>2026-11-04 · 16d ago</sub>
+<sub>2026-11-04 · 17d ago</sub>
 
 > **Small version bump, big browser upgrade! This version lets AI agents follow motion and control drag and drop, adds dedicated remote browser sessions, and brings fixes across parsing, spiders, proxies, and the shell 🚀**
 > **With this update, we extend the limits of current AI models** 🔥
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.4.15](https://github.com/D4Vinci/Scrapling/releases/tag/v0.4.15) — Release v0.4.15
-<sub>2026-08-23 · 2mo ago</sub>
+<sub>2026-08-23 · 3mo ago</sub>
 
 > **One of the biggest releases this year: a reworked MCP server, RAG-ready Markdown in one line, an improved Cloudflare solver, and browser tabs that stay open for automation 🚀**
 > > [!NOTE]

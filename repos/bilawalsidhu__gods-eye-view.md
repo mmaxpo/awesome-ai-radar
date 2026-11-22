@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 66.2k |
+| ⭐ **Stars** | 66.3k |
 | 🍴 **Forks** | 13.1k |
 | 🐞 **Open issues + PRs** | [427](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 245.2 MB |
+| 💾 **Size** | 244.8 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 24d ago</sub>
+<sub>2026-10-28 · 25d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [A line can be drawn as several runs (`breaks`) (#1895)](https://github.com/bilawalsidhu/gods-eye-view/commit/d9d79ebc4da7379a1359947d23543b72757221bb) | samehkhamis |
+| 2026-11-21 | [A line can show only the part of it within a time span of the scene c…](https://github.com/bilawalsidhu/gods-eye-view/commit/e4caf5d3afcb40041cfa6b167b4fda7bb9b393c5) | samehkhamis |
 | 2026-11-21 | [Opening the phone Context tab no longer switches Contacts on (#1893)](https://github.com/bilawalsidhu/gods-eye-view/commit/561f5885c2c369a0c7b1b706607921fa8ae49f70) | samehkhamis |
 | 2026-11-21 | [Lines can fade with the age of their points, drawn by the renderer on…](https://github.com/bilawalsidhu/gods-eye-view/commit/7ff536299ab70c9a710e2b6110773b4dcb861586) | samehkhamis |
 | 2026-11-21 | [A voice or chat selection shows its card in the Context panel (#1890)](https://github.com/bilawalsidhu/gods-eye-view/commit/918435ddc7bd4529666ddafde65e68ad97fab4ce) | samehkhamis |
@@ -102,8 +104,6 @@
 | 2026-11-21 | [Place trademark attribution below the README install links (#1888)](https://github.com/bilawalsidhu/gods-eye-view/commit/ae212e5b631ed16cbe3d605abecdf105a1be8df3) | bilawalsidhu |
 | 2026-11-21 | [fix(satellites): releasing a tracked satellite clears its focus dimmi…](https://github.com/bilawalsidhu/gods-eye-view/commit/deff042265844ee88a52907f03ffcfa3b2f7ae3d) | samehkhamis |
 | 2026-11-21 | [test(scenes): drop the resumed-flight timing test (#1885)](https://github.com/bilawalsidhu/gods-eye-view/commit/aac6be77735f6bcad583204724a43302227abc4d) | samehkhamis |
-| 2026-11-21 | [Put the globe actions back on the title row, with the loading line un…](https://github.com/bilawalsidhu/gods-eye-view/commit/84324ea678cbb0ec947e7b2f6009e597fc2d22b5) | samehkhamis |
-| 2026-11-20 | [Merge pull request #1543 from Byrd-IT/byrdit/cctv-visible-only-fetch](https://github.com/bilawalsidhu/gods-eye-view/commit/41c792208e73f2ded123844cfce41fe88fd6d4f3) | gekh |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

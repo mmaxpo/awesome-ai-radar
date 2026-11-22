@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 46.0k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [589](https://github.com/janhq/jan/issues) |
+| 🐞 **Open issues + PRs** | [592](https://github.com/janhq/jan/issues) |
 | 💻 **Languages** | Rust 57% · TypeScript 40% · Python 1% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `llamacpp` `localai` `self-hosted` `gpt` `tauri` `chatgpt` `llm` `open-source` |
-| 🕒 **Last activity** | 2026-11-18 (3d ago) |
+| 🕒 **Last activity** | 2026-11-18 (4d ago) |
 | 📅 **Created** | 2023-08-17 |
 | 📦 **Latest release** | [v0.8.8](https://github.com/janhq/jan/releases/tag/v0.8.8) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.8.8](https://github.com/janhq/jan/releases/tag/v0.8.8) — 0.8.8
-<sub>2026-10-28 · 24d ago</sub>
+<sub>2026-10-28 · 25d ago</sub>
 
 > **Jan v0.8.8: security fixes, llama.cpp 0.7.0, and Trusted Hosts for the local API**
 > A security update to v0.8.7. We recommend updating. Your data and settings carry over; a few behaviours change, listed under **What you might notice**.

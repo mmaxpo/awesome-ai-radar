@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 30.8k |
-| 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [76](https://github.com/assafelovic/gpt-researcher/issues) |
+| 🍴 **Forks** | 4.3k |
+| 🐞 **Open issues + PRs** | [80](https://github.com/assafelovic/gpt-researcher/issues) |
 | 💻 **Languages** | Python 66% · TypeScript 24% · JavaScript 4% · CSS 4% · HCL 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `python` `agent` `automation` `research` `search` `webscraping` `llms` `deepresearch` `mcp` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-12 (8d ago) |
+| 🕒 **Last activity** | 2026-11-12 (9d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
@@ -56,7 +56,7 @@
 > …
 
 ### [v3.6.1](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.6.1) — Major fixes
-<sub>2026-08-24 · 2mo ago</sub>
+<sub>2026-08-24 · 3mo ago</sub>
 
 > **What's Changed**
 > * fix: restore main, add CI, and land 97 queued PRs by @assafelovic in https://github.com/assafelovic/gpt-researcher/pull/2074

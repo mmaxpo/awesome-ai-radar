@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 60.6k |
+| ⭐ **Stars** | 60.7k |
 | 🍴 **Forks** | 7.7k |
 | 🐞 **Open issues + PRs** | [838](https://github.com/MemPalace/mempalace/issues) |
 | 💻 **Languages** | Python 94% · JavaScript 2% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `chromadb` `llm` `mcp` `memory` `python` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-04-05 |
 | 📦 **Latest release** | [v3.12.0](https://github.com/MemPalace/mempalace/releases/tag/v3.12.0) — 2026-11-12 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 33.2 MB |
+| 💾 **Size** | 33.3 MB |
 | 🌐 **Website** | http://mempalaceofficial.com/ |
 
 ## 📦 Recent releases
 
 ### [v3.12.0](https://github.com/MemPalace/mempalace/releases/tag/v3.12.0) — v3.12.0 — verbatim mining, recoverable writes
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 10d ago</sub>
 
 > MemPalace 3.12 keeps source text and bytes intact, makes interrupted re-mines recoverable, and cuts the work needed to maintain large palaces. Timestamps and project wings now follow the same rules across tools and hooks. Antigravity gains a visual Palace explorer, and the final release review fixes graph identity collisions, concurrent checkpoint duplicates, document filtering, and newest-first pagination.
 > **Upgrade notes**
@@ -80,7 +80,7 @@
 > …
 
 ### [v3.8.0](https://github.com/MemPalace/mempalace/releases/tag/v3.8.0) — v3.8.0 — fast large palaces, lean MCP proxies, wakeable agents
-<sub>2026-08-23 · 2mo ago</sub>
+<sub>2026-08-23 · 3mo ago</sub>
 
 > **v3.8.0 — fast large palaces, lean MCP proxies, wakeable agents**
 > Large palaces get fast and stay small in 3.8.0. Chroma metadata tools no longer cold-load HNSW, `sqlite_exact` stops scanning and hydrating the whole palace for common reads, long-running Chroma servers stop rebuilding their client on their own writes, and proxied MCP sessions no longer import a storage stack they never use. Agents also gain a persistent `logstream watch` primitive so coordination can wake a harness instead of relying on repeated five-minute waits.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [fix(kg): harden KnowledgeGraph for multi-process SQLite access (#948)](https://github.com/MemPalace/mempalace/commit/b2ef8fed22f53b48acbda1ffebac040cb8a22f69) | felipecpaiva |
 | 2026-11-20 | [Merge pull request #3031 from MemPalace/chore/changelog-backfill-blas…](https://github.com/MemPalace/mempalace/commit/51717e00dd6e12ed2200552afb9504bb7c480955) | igorls |
 | 2026-11-20 | [docs(changelog): backfill unreleased entries and fix the 3.12.0 date](https://github.com/MemPalace/mempalace/commit/b8e2a81f26fe65c2b4fe10419227873b1f9dd7c3) | igorls |
 | 2026-11-20 | [fix(perf): cap BLAS threads in server entry points, not at import](https://github.com/MemPalace/mempalace/commit/c201f7091b1cefda77b25d46da058a4c4e6e803c) | igorls |
@@ -103,7 +104,6 @@
 | 2026-11-19 | [test(antigravity): start Node once per module for hook-common probes](https://github.com/MemPalace/mempalace/commit/f974e1b9c1807413c6c3e73b5b7c963f5695d35a) | igorls |
 | 2026-11-19 | [docs(changelog): re-mine journal and owner-scoped prunes](https://github.com/MemPalace/mempalace/commit/8dc627de15fd98d84a092657a4b8c777036203d4) | igorls |
 | 2026-11-19 | [test(mine): a journal failing on the second upsert batch loses nothing](https://github.com/MemPalace/mempalace/commit/700717cefb4ede2ec409cbbfaf953d4388ab9ec9) | igorls |
-| 2026-11-19 | [fix(revisions): keep the palace directory 0700 when the journal creat…](https://github.com/MemPalace/mempalace/commit/2745bc796060d7da96316ba14b817580987961b5) | igorls |
 
 [See all commits ↗](https://github.com/MemPalace/mempalace/commits)
 

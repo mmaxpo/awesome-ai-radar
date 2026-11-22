@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.1k |
-| 🍴 **Forks** | 414 |
-| 🐞 **Open issues + PRs** | [31](https://github.com/cosmicstack-labs/mercury-agent/issues) |
+| 🍴 **Forks** | 415 |
+| 🐞 **Open issues + PRs** | [33](https://github.com/cosmicstack-labs/mercury-agent/issues) |
 | 💻 **Languages** | TypeScript 68% · Kotlin 11% · Swift 10% · Rust 4% · MDX 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `ai-assistant` `llm` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-04-20 |
 | 📦 **Latest release** | [v1.5.4](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.4) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.5.4](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.4) — Mercury v1.5.4
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **☿ Mercury Agent v1.5.4**
 > Set up voice from your phone, and fewer approval prompts.
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.5.3](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.3) — Mercury v1.5.3
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **☿ Mercury Agent v1.5.3**
 > Ready for Mercury on your phone, Google Workspace in one command, and bots that can't be steered by what they read.
@@ -58,7 +58,7 @@
 > …
 
 ### [optimus-v0.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2) — Optimus 0.5.2
-<sub>2026-11-14 · 7d ago</sub>
+<sub>2026-11-14 · 8d ago</sub>
 
 > Plugin-only update. Install or update with `/plugins update optimus`, or **Plugins → Optimus → Update** in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per model needs Mercury 1.5.2.
 > - **Screenshots sized for the model in use.** Optimus resizes each capture to what the model reads best: Claude and OpenAI 1024×640, Gemini 768×480, open vision models 896×560. Click coordinates stay exact.
@@ -90,6 +90,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/cc500896e66fcbd20df6f7aabd2ff8b86f7753b6) | mercuryagent |
+| 2026-11-21 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/5bd520d5cd46d50edca4486e2d1fd750bceb5471) | mercuryagent |
 | 2026-11-21 | [chore(site): rebuild with the blog fixes from #314](https://github.com/cosmicstack-labs/mercury-agent/commit/cb6692180715d816e458d33c4a598fc7452b936f) | hotheadhacker |
 | 2026-11-21 | [Merge PR #314 from tashiriskhan: blog fixes](https://github.com/cosmicstack-labs/mercury-agent/commit/7cbb88dfeb820fa322af6f095cba7adf968b9c3d) | hotheadhacker |
 | 2026-11-21 | [feat(skills): Any to PDF as a built-in skill, dependencies installed …](https://github.com/cosmicstack-labs/mercury-agent/commit/5b00d8173f059efad0667c6529b2ab088eba1d3c) | hotheadhacker |
@@ -98,8 +100,6 @@
 | 2026-11-21 | [perf(bots): make prompt caching work in bot runs](https://github.com/cosmicstack-labs/mercury-agent/commit/afbbf4f7e6f73b08d59faeed7603dfa66e971a5c) | hotheadhacker |
 | 2026-11-21 | [fix(reach): a call to a named device rings only that device](https://github.com/cosmicstack-labs/mercury-agent/commit/85b2c0cc4dccbb847754afaa0b24798a6667f540) | hotheadhacker |
 | 2026-11-21 | [Restore six-agents slug to keep live URL](https://github.com/cosmicstack-labs/mercury-agent/commit/a5d01ade7f6390b52f7006efea8a44e4125abda7) | tashiriskhan |
-| 2026-11-21 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/daa5ff3d0d9ef922700cee907650566e17d3c388) | mercuryagent |
-| 2026-11-20 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/382579ba0a36524e2bd6da0438d2e21d4e73525c) | mercuryagent |
 
 [See all commits ↗](https://github.com/cosmicstack-labs/mercury-agent/commits)
 

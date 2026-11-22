@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 161.6k |
+| ⭐ **Stars** | 161.7k |
 | 🍴 **Forks** | 25.5k |
-| 🐞 **Open issues + PRs** | [1.3k](https://github.com/langgenius/dify/issues) |
+| 🐞 **Open issues + PRs** | [1.4k](https://github.com/langgenius/dify/issues) |
 | 💻 **Languages** | Python 57% · TypeScript 40% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `gpt` `llm` `openai` `python` `agent` `nextjs` `workflow` `genai` `automation` `low-code` `mcp` `no-code` `agentic-ai` `agentic-framework` `agentic-workflow` `claude` `skills` `deepseek` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-04-12 |
 | 📦 **Latest release** | [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 722.3 MB |
+| 💾 **Size** | 718.7 MB |
 | 🌐 **Website** | https://dify.ai |
 
 ## 📦 Recent releases
 
 ### [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — v1.20.0
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **Dify 1.20.0 keeps your traces flowing and your knowledge bases safer.** Export traces to any OpenTelemetry collector, keep Langfuse working after its legacy ingestion endpoint retirement, and scan uploaded knowledge files for malware before they are indexed. Chatflows can show Agent tool activity as it happens, and personal access tokens let scripts and agents call the Dify OpenAPI on your behalf. The bundled plugin daemon is upgraded to **0.6.15-local**.
 > [New Features](#user-content-new-features) · [Configuration and Integration Changes](#user-content-configuration-and-integration-changes) · [Database Migrations](#user-content-database-migrations) · [Upgrade Guide](#user-content-upgrade-guide)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.19.0](https://github.com/langgenius/dify/releases/tag/1.19.0) — v1.19.0 - Trace Your Workflows, Layer by Layer
-<sub>2026-11-04 · 17d ago</sub>
+<sub>2026-11-04 · 18d ago</sub>
 
 > **Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree.
 > This release also makes Workflow Tools portable with App packages, adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin daemon is upgraded to **0.6.14-local**.
@@ -58,7 +58,7 @@
 > …
 
 ### [1.18.0](https://github.com/langgenius/dify/releases/tag/1.18.0) — v1.18.0 — Smarter Agent Routing, Portable Apps, Deeper Workflow Visibility
-<sub>2026-10-23 · 29d ago</sub>
+<sub>2026-10-23 · 1mo ago</sub>
 
 > Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line.
 > > [!IMPORTANT]
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [fix(api): send custom tool JSON bodies as JSON when the content type …](https://github.com/langgenius/dify/commit/a06bc83cf02aafd6e18ff3f73af93e4d64c306cd) | Revinand |
+| 2026-11-22 | [test(api): bring the tools transform service tests under strict pyref…](https://github.com/langgenius/dify/commit/597f623a1fc70650abe8a77b074b90cd3ddba7f2) | yetuge |
+| 2026-11-22 | [fix(web): remove skip link animation (#46906)](https://github.com/langgenius/dify/commit/dfb269c1520e46899d722b9187ddad087a69d943) | lyzno1 |
+| 2026-11-22 | [fix(web): preserve permission set deletion confirmation (#46903)](https://github.com/langgenius/dify/commit/68d0cffd004acbe70503912f41aa98580f27dd33) | lyzno1 |
+| 2026-11-22 | [refactor(api): initialize trial provider records through short-lived …](https://github.com/langgenius/dify/commit/5cadff3b04282413df6484b247542438a45f8096) | paulhuiseismic |
+| 2026-11-22 | [fix(web): allow canceling workflow DSL exports (#46901)](https://github.com/langgenius/dify/commit/a6ea1b0f9bd4e2a81376b56fed607cd63e886aeb) | lyzno1 |
+| 2026-11-22 | [docs(dify-ui): clarify dialog dismissal during requests (#46895)](https://github.com/langgenius/dify/commit/f2b8315e5d294724caf7475c227382ce93c2d076) | lyzno1 |
+| 2026-11-22 | [fix(api): resolve remaining pyrefly diagnostics (#46769) (#46770)](https://github.com/langgenius/dify/commit/c19e1446ba5e8404797dddf62ee00c9bbb2d1cbd) | P-r-e-m-i-u-m |
+| 2026-11-22 | [fix(web): preserve the selected pipeline template during deletion (#4…](https://github.com/langgenius/dify/commit/6f99da3f8ce131d0d4cec1fad3dc3b649bf7a320) | lyzno1 |
 | 2026-11-21 | [fix(web): keep external API deletion checks with the confirmation (#4…](https://github.com/langgenius/dify/commit/8b6fbfb010ff77b6d2d9e57c4fdd3d8225f3e6ca) | lyzno1 |
-| 2026-11-21 | [fix(web): preserve workspace role deletion confirmation (#46880)](https://github.com/langgenius/dify/commit/3bda064561c6bcb29cc435eedd01c31fbb4bd01d) | lyzno1 |
-| 2026-11-21 | [fix(web): prevent duplicate MCP URL rotations (#46877)](https://github.com/langgenius/dify/commit/47527178f97b7a4b8950506fec4589bb6a53e017) | lyzno1 |
-| 2026-11-21 | [fix(web): allow saving model configuration during background refresh …](https://github.com/langgenius/dify/commit/b9081dc682ed226ba6f2f8d972fdc0f2f6e9373a) | lyzno1 |
-| 2026-11-21 | [fix(web): keep credential deletion confirmation open while pending (#…](https://github.com/langgenius/dify/commit/899a43525d3a12e4454395888ad4afc127aecb6b) | lyzno1 |
-| 2026-11-21 | [fix(web): protect model configuration while saving (#46867)](https://github.com/langgenius/dify/commit/63069f5f47e4a268bc7c015ae1a17c364c1ad3af) | lyzno1 |
-| 2026-11-20 | [fix(web): allow retrying failed custom tool previews (#46853)](https://github.com/langgenius/dify/commit/296abf4e27f9d95ff8847eb6c55b043a2a71fba3) | lyzno1 |
-| 2026-11-20 | [refactor(web): align feature ownership and editor boundaries (#46858)](https://github.com/langgenius/dify/commit/4ab850e4f06047fb0a6dcba70f3f32ab2c521c90) | lyzno1 |
-| 2026-11-20 | [refactor(api): validate OAuth bearer token cache with Pydantic (#43713)](https://github.com/langgenius/dify/commit/04a9a11023f63b0a8226415f844c374c0c4852b1) | Redestiny |
-| 2026-11-20 | [refactor(api): decode plugin daemon errors directly with Pydantic (#4…](https://github.com/langgenius/dify/commit/946f66f53106aebe3547c3ed51d29c12fba7430e) | Johnx-w |
 
 [See all commits ↗](https://github.com/langgenius/dify/commits)
 

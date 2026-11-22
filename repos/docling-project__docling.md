@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 70.8k |
+| ⭐ **Stars** | 70.9k |
 | 🍴 **Forks** | 5.4k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/docling-project/docling/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `convert` `documents` `pdf` `tables` `document-parser` `document-parsing` `docx` `html` `markdown` `pdf-converter` `pdf-to-json` `pdf-to-text` `pptx` `xlsx` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2024-07-09 |
 | 📦 **Latest release** | [v2.151.1](https://github.com/docling-project/docling/releases/tag/v2.151.1) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 473.3 MB |
+| 💾 **Size** | 473.4 MB |
 | 🌐 **Website** | https://docling-project.github.io/docling |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.151.0](https://github.com/docling-project/docling/releases/tag/v2.151.0)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **Feature**
 > * **pptx:** Read waterfall, treemap and the other Office 2016 charts ([#5371](https://github.com/docling-project/docling/issues/5371)) ([`440492a`](https://github.com/docling-project/docling/commit/440492ac0d0e14952b32dda28fede7495611c899))
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.150.1](https://github.com/docling-project/docling/releases/tag/v2.150.1)
-<sub>2026-11-14 · 7d ago</sub>
+<sub>2026-11-14 · 8d ago</sub>
 
 > **Fix**
 > * **cli:** Omit from_formats in convert-remote unless --from is set ([#5346](https://github.com/docling-project/docling/issues/5346)) ([`ebc50e3`](https://github.com/docling-project/docling/commit/ebc50e35057462c39771f28ca1d5c593e20a70c3))
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.150.0](https://github.com/docling-project/docling/releases/tag/v2.150.0)
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 12d ago</sub>
 
 > **Feature**
 > * **xbrl:** Support iXBRL input and remote taxonomy resolution with source_uri ([#4689](https://github.com/docling-project/docling/issues/4689)) ([`43c016c`](https://github.com/docling-project/docling/commit/43c016caedf076b3016fe6cdd4ec4d2b53b5acc1))
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.149.0](https://github.com/docling-project/docling/releases/tag/v2.149.0)
-<sub>2026-11-08 · 13d ago</sub>
+<sub>2026-11-08 · 14d ago</sub>
 
 > **Feature**
 > * **pdf:** Add opt-in embedded PDF image extraction ([#5143](https://github.com/docling-project/docling/issues/5143)) ([`3df6c93`](https://github.com/docling-project/docling/commit/3df6c9318fc6d91fde424c90a28fc7d7e5f080dc))
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [fix(email): handle UnicodeDecodeError for .msg files with 8-bit body …](https://github.com/docling-project/docling/commit/0f3564c772e006c73417f61658a2d41c8352224d) | todkarsant |
 | 2026-11-20 | [feat: turn audio/video transcripts and slide media into tracks (#4752)](https://github.com/docling-project/docling/commit/5182e556308958f3ac4762bb7d03a092c2f339c9) | DanielNg0729 |
 | 2026-11-20 | [fix(calendar): describe expanded days of monthly and yearly rules as …](https://github.com/docling-project/docling/commit/f93ee6bc72717da7384389434d90fbb1977047df) | gagan-baghel |
 | 2026-11-20 | [docs(examples): pass engine_type to ApiVlmEngineOptions (#5380)](https://github.com/docling-project/docling/commit/77907bbe40d0dc62436bae078ebb6ec7d772e396) | usercjr |
@@ -103,7 +104,6 @@
 | 2026-11-19 | [fix(service-client): keep the WebSocket poll fallback within the orig…](https://github.com/docling-project/docling/commit/f9249e5067d7dacc01bd9a55abf5eb945b3861d0) | TemitopeKadri |
 | 2026-11-19 | [fix(service-client): propagate input iterator errors (#5013)](https://github.com/docling-project/docling/commit/11503233cc174f6f7eedc32e2f03c46a93c69176) | Gout999 |
 | 2026-11-19 | [fix: preserve VLM page-range provenance and verify complete assembly …](https://github.com/docling-project/docling/commit/5068b0365c347641fe51219dd9b754357aa32c93) | geoHeil |
-| 2026-11-19 | [fix: avoid OpenCV FIPS aborts with Databricks opt-out setting (#5430)](https://github.com/docling-project/docling/commit/de09f2a81460fb8439fc228d09d0faeeec48d301) | xixi-box |
 
 [See all commits ↗](https://github.com/docling-project/docling/commits)
 

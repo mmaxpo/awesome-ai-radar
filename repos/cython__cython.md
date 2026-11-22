@@ -26,7 +26,7 @@
 | 💻 **Languages** | Cython 52% · Python 42% · C 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `cython` `cpython` `cpython-extensions` `c` `cpp` `performance` `big-data` |
-| 🕒 **Last activity** | 2026-11-19 (2d ago) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2010-11-21 |
 | 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1)
-<sub>2026-11-01 · 19d ago</sub>
+<sub>2026-11-01 · 20d ago</sub>
 
 > _No notes._
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [Fix compiler crash on `b'...'.decode()` without an encoding argument …](https://github.com/cython/cython/commit/9d9c0ab154c13d94298e682428c4704c2960f4db) | 0z5a |
-| 2026-11-18 | [Remove left-over reference](https://github.com/cython/cython/commit/0e3d7848c5cdd8e3e44d32589745441f068f5003) | da-woods |
-| 2026-11-18 | [Remove broken URL](https://github.com/cython/cython/commit/4805da2635a276b30705be48bdad3de003b73d0d) | da-woods |
-| 2026-11-17 | [Keep single-character bytes literals as bytes objects when iterating …](https://github.com/cython/cython/commit/e99970f9d42e7f0ccdb3578340526577df634399) | akasakariko |
-| 2026-11-17 | [Include owned array buffers in __sizeof__ (#8116)](https://github.com/cython/cython/commit/2ef70bc02158cca7ab3a79705018fec2f629ffc3) | 0z5a |
-| 2026-11-16 | [Docs: Fix the restrict qualifier in FAQ (#8144)](https://github.com/cython/cython/commit/cdbe265d1fb3b3b1e92e2d723e82409879ba1359) | matusvalo |
-| 2026-11-16 | [Default to 1 worker process on GraalPy in cythonize (#8143)](https://github.com/cython/cython/commit/157ca5a0c29a8675a928229b73baad2cbfa01e38) | msimacek |
-| 2026-11-16 | [Keep the end barrier of prange when code follows it in a parallel blo…](https://github.com/cython/cython/commit/3426ddee1fcbd0400313ffcfd558203471845cc7) | cakedev0 |
-| 2026-11-15 | [Fix use of pass in statement list and where `__future__` is allowed (…](https://github.com/cython/cython/commit/2a4662089231cbfba4bff987fcafa5ca0b62f7eb) | da-woods |
-| 2026-11-14 | [fix implicit __init__.py creation warnings (#8132)](https://github.com/cython/cython/commit/429a8f92889a80722e6de76438f45638169791e9) | dws |
+| 2026-11-22 | [Merge branch '3.3.x'](https://github.com/cython/cython/commit/3eba19aad74806f196d40e21db7d583c26c7d2cc) | scoder |
+| 2026-11-22 | [Update changelog.](https://github.com/cython/cython/commit/4ffb9c483a5abf872ed97c0c558e21a981947e83) | scoder |
+| 2026-11-22 | [CI: make success gates fail on cancelled jobs and detector failures (…](https://github.com/cython/cython/commit/da36d13b22f1c68696e5ea15ad15984b3718197d) | sotomayorlucas |
+| 2026-11-22 | [Fix a few issues with the TSAN workflow run (#8111)](https://github.com/cython/cython/commit/722413af8196ccb063e837c29f2d4d031b7accb9) | da-woods |
+| 2026-11-22 | [Reset echo_file in close_listing_file() to avoid writing to a closed …](https://github.com/cython/cython/commit/93e6ae11c974b23e70e849f616d4ba79a0e6ddd2) | frenzymadness |
+| 2026-11-22 | [fix implicit __init__.py creation warnings (#8132)](https://github.com/cython/cython/commit/c70959c89ab3171f455ed4f45a7b1e0936588352) | dws |
+| 2026-11-22 | [Keep the end barrier of prange when code follows it in a parallel blo…](https://github.com/cython/cython/commit/5dd1581328b602ca3def42816037977a2eec0969) | cakedev0 |
+| 2026-11-22 | [Default to 1 worker process on GraalPy in cythonize (#8143)](https://github.com/cython/cython/commit/3ce8ed2945bfa5de9dd530c80483a47327979a66) | msimacek |
+| 2026-11-22 | [Docs: Fix the restrict qualifier in FAQ (#8144)](https://github.com/cython/cython/commit/8012b7ad45218799d33e75c7d580ca05b9004b6e) | matusvalo |
+| 2026-11-22 | [Remove left-over reference](https://github.com/cython/cython/commit/5e66f2d7edbb6827905e4ff4c0ba24143a5d32f1) | da-woods |
 
 [See all commits ↗](https://github.com/cython/cython/commits)
 

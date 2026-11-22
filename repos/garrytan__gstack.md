@@ -22,20 +22,31 @@
 |---|---|
 | ⭐ **Stars** | 142.3k |
 | 🍴 **Forks** | 21.0k |
-| 🐞 **Open issues + PRs** | [119](https://github.com/garrytan/gstack/issues) |
+| 🐞 **Open issues + PRs** | [49](https://github.com/garrytan/gstack/issues) |
 | 💻 **Languages** | TypeScript 91% · Shell 4% · Go Template 3% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-03-11 |
-| 📦 **Latest release** | [v1.102.1.0](https://github.com/garrytan/gstack/releases/tag/v1.102.1.0) — 2026-11-20 |
+| 📦 **Latest release** | [v1.102.2.0](https://github.com/garrytan/gstack/releases/tag/v1.102.2.0) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 271.1 MB |
+| 💾 **Size** | 271.3 MB |
 
 ## 📦 Recent releases
 
+### [v1.102.2.0](https://github.com/garrytan/gstack/releases/tag/v1.102.2.0) — gstack v1.102.2.0
+<sub>2026-11-21 · today</sub>
+
+> gstack 1.102.2.0 fixes two things that broke skills on Codex, stops /plan-tune sending your typed answers to the model without a record, lets large repositories use /ship, makes /office-hours start from ground truth, and moves skill routing out of your CLAUDE.md into the hook that now does that job.
+> **Codex**
+> - Skills no longer stop on Codex 0.170 when they clean up temporary files: gstack's Codex skills stopped using the `rm -f` form that Codex refuses (67 refusals before, 0 after). (#4612)
+> - /review on Codex with OpenAI models no longer fails a review that really ran its security pass. Codex encrypts the message sent to that reviewer, so gstack now recognises the pass from the reviewer it started instead of from the message text. (#4622)
+> **Privacy and telemetry**
+> - /plan-tune's answer summariser now writes the off-machine send record the README promises before it sends your typed answers to the model, and sends nothing if that record can't be written. A new test fails on any model call that writes no record. Thanks to @robbiesierra for the report. (#4621)
+> …
+
 ### [v1.102.1.0](https://github.com/garrytan/gstack/releases/tag/v1.102.1.0) — gstack v1.102.1.0
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > gstack 1.102.1.0 closes a gap where a secret written after a slash could be printed unhidden, locks down gstack's usage reporting and makes it more useful for people who opt in, fixes a set of bugs in how gstack picks the right skill for a prompt, and makes a gstack skill's start step run as Claude Code loads the skill, so it can't be skipped.
 > **Usage reporting (telemetry, opt-in)**
@@ -46,7 +57,7 @@
 > …
 
 ### [v1.102.0.0](https://github.com/garrytan/gstack/releases/tag/v1.102.0.0) — gstack v1.102.0.0
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > gstack 1.102.0.0 makes Codex a first-class host: it now gets gstack's skill suggestions, the destructive-command check and /review's checklist hold. The destructive-command check was rebuilt to ask far less often while catching far more real damage.
 > **Destructive-command check (/careful)**
@@ -57,7 +68,7 @@
 > …
 
 ### [v1.101.0.0](https://github.com/garrytan/gstack/releases/tag/v1.101.0.0) — gstack v1.101.0.0
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > **gstack v1.101.0.0**
 > **What's new**
@@ -78,31 +89,20 @@
 > - /ship's documentation check no longer wastes one of its two attempts when the checking model writes text after its result line; it is asked once, for free, to resend the result alone. (#4285)
 > …
 
-### [v1.99.5.0](https://github.com/garrytan/gstack/releases/tag/v1.99.5.0) — gstack v1.99.5.0
-<sub>2026-11-16 · 5d ago</sub>
-
-> **gstack v1.99.5.0**
-> The standalone /plan-eng-review command is back, plus a clearer error from `gstack-redact` and a plain guide to how outside contributions land.
-> **What's new**
-> - `/plan-eng-review` is back as its own command on every host that had it, including Claude Code, Codex and OpenClaw, and requests like "review the architecture" route to it again. /autoplan works exactly as before [#4375](https://github.com/garrytan/gstack/pull/4375).
-> **Fixes**
-> - `gstack-redact` now says up front that input over 16 MiB is always refused: `--help` and both "too large" errors name the limit, say `--max-bytes` can't raise it, and suggest splitting the input. Reported by @exGeni and first fixed by @ElNeMeR70 [#4373](https://github.com/garrytan/gstack/pull/4373).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Codex skills no longer stop on temp-file cleanup, which Codex refuses…](https://github.com/garrytan/gstack/commit/bd77c8ccaa373e3a072ef3d9f4839edae16b46f0) | garrytan |
-| 2026-11-21 | [The spawnSync overflow test no longer fails about once an hour on CI …](https://github.com/garrytan/gstack/commit/43c9c201e34b6d6a4b75418ec4d20e147557dd80) | garrytan |
-| 2026-11-21 | [/office-hours checks for a real user first and ends startup sessions …](https://github.com/garrytan/gstack/commit/27e5db990208898cba69eba87c7fc6b43e51b224) | garrytan |
-| 2026-11-21 | [Give the /ship conductor trial's judge one more attempt on fresh labe…](https://github.com/garrytan/gstack/commit/4363c51257325a52cf50158e6f4e371f5a1c8f01) | garrytan |
-| 2026-11-21 | [Make /ship's preflight honor the repo's CI rerun time limit and name …](https://github.com/garrytan/gstack/commit/df4d0bd0b159f245a084d4dfbe2703838455a0b6) | garrytan |
-| 2026-11-21 | [Tell /ship review readers never to kill processes they didn't start (…](https://github.com/garrytan/gstack/commit/cbe37f2c0a638d295627767f2c400c22328e5574) | garrytan |
-| 2026-11-21 | [Make the /ship conductor trial stop only at the final remote-gate ref…](https://github.com/garrytan/gstack/commit/aea71f414e9130435c386bdf4fba1a55789344d3) | garrytan |
-| 2026-11-21 | [/ship's review no longer stops when Capy's drive sync database grows …](https://github.com/garrytan/gstack/commit/cc0896560abbaeed0b1df4157900fd2f50f76d66) | garrytan |
-| 2026-11-21 | [Let the /ship conductor trial end at the remote gate when a case's ba…](https://github.com/garrytan/gstack/commit/baef51fe0ec9b0f4e7103c874d94eb2c304d7100) | garrytan |
-| 2026-11-21 | [Fix ready notes, landing decisions, release PR descriptions and squas…](https://github.com/garrytan/gstack/commit/7fe1900f8b9e4143f15dc9e6becafdcb6375680b) | garrytan |
+| 2026-11-22 | [Review exclusions stay in place when the repo's own policy test pins …](https://github.com/garrytan/gstack/commit/44e244d603036a46833ce14e9fd319276ee73e33) | garrytan |
+| 2026-11-22 | [Free test shards stop failing when a test's browser exits during the …](https://github.com/garrytan/gstack/commit/3c9cda0a2d678777d6487c545b9cbb8e26618485) | garrytan |
+| 2026-11-22 | [A fix closes its review finding only after a finished full review, an…](https://github.com/garrytan/gstack/commit/63900b308cd57a9fae29141b64c1dd9b00752579) | garrytan |
+| 2026-11-22 | [Prompt router stops sending feature requests to your bug-fix skill (#…](https://github.com/garrytan/gstack/commit/596ff8a7cc913d405e7682ac99106cdfa7aab7e9) | garrytan |
+| 2026-11-22 | [Review and ship tools: read Codex numbered severities, check Remote C…](https://github.com/garrytan/gstack/commit/b3323f47b8cb6ec074bc755d3b108983a816007a) | garrytan |
+| 2026-11-22 | [Test selection finds tests for NodeNext .js imports and Rails specs (…](https://github.com/garrytan/gstack/commit/4bd15f8a3d7e159f61e8fe2d465cb20f4b0629c6) | garrytan |
+| 2026-11-22 | [A skipped CI run no longer blocks reusing a passing run on the same c…](https://github.com/garrytan/gstack/commit/7530280407b9a466fc4a546f026f1cc3eff8211a) | garrytan |
+| 2026-11-22 | [/ship can finish after a docs audit stopped before saving its snapsho…](https://github.com/garrytan/gstack/commit/25bf93c4e29d80f520e415c65b0ae778867c9ded) | garrytan |
+| 2026-11-22 | [Local checks reuse every green CI run at your code, not only the firs…](https://github.com/garrytan/gstack/commit/3d3ce73eb9eb6d1d1f472e0e81f419d8fd9bdc73) | garrytan |
+| 2026-11-22 | [Fix eight problems users reported in skill instructions (#4686)](https://github.com/garrytan/gstack/commit/113deeaf9c99847c719cc9d1dd826ea2ef7ce4e5) | garrytan |
 
 [See all commits ↗](https://github.com/garrytan/gstack/commits)
 

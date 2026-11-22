@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.7k |
-| 🍴 **Forks** | 240 |
-| 🐞 **Open issues + PRs** | [476](https://github.com/restatedev/restate/issues) |
+| 🍴 **Forks** | 242 |
+| 🐞 **Open issues + PRs** | [474](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.3](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.3) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 119.5 MB |
+| 💾 **Size** | 119.7 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
 ### [v1.8.1-hotfix.3](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.3)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **Restate v1.8.1-hotfix.3**
 > **Install**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 19d ago</sub>
+<sub>2026-11-02 · 20d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [[DataFusion] Optionally compress the batches of query tasks](https://github.com/restatedev/restate/commit/510b3a79c61c67519d07a6287779b24774dda643) | AhmedSoliman |
+| 2026-11-22 | [[DataFusion] Give query tasks their own lane and memory pool, and nev…](https://github.com/restatedev/restate/commit/37ce486fec924489cfbd60dc52cde7ba531bdabf) | AhmedSoliman |
+| 2026-11-22 | [[chore] Bump url to 2.5.9 for RUSTSEC-2026-0592](https://github.com/restatedev/restate/commit/c7eb7ea528874520c1155fd978dfc5feff181959) | AhmedSoliman |
+| 2026-11-21 | [[DataFusion] Keep Arrow IPC state per query output lane](https://github.com/restatedev/restate/commit/85d379ad366a7a6ea1366b1a12a88befe4b98fa9) | AhmedSoliman |
 | 2026-11-21 | [[QueryEngine] Treat `unknown` as a sentinel, never as a value](https://github.com/restatedev/restate/commit/2aaabe8cf63d4efa4ee1f99c7d1234ec5776eeea) | AhmedSoliman |
 | 2026-11-21 | [[PartitionStore] Skip probe keys of pairs no status-index lane reads](https://github.com/restatedev/restate/commit/4272d581f6a0b42777ea493c616a8b002fea6ebc) | AhmedSoliman |
 | 2026-11-21 | [[QueryEngine] Show canonical_id in sys_invocation](https://github.com/restatedev/restate/commit/963b8b8e1ac810d002a4ecf2e76d9b1c78adb03d) | AhmedSoliman |
 | 2026-11-21 | [[QueryEngine] Show the stats tables' effective status](https://github.com/restatedev/restate/commit/0ac43558abc896d462beae1d10d3373e2f466a4d) | AhmedSoliman |
 | 2026-11-20 | [[DataFusion] Encode task replies directly into Bytes](https://github.com/restatedev/restate/commit/7b61a76b2cc1188bcceaf569e55dc94140d45288) | AhmedSoliman |
 | 2026-11-20 | [[QueryEngine] Show vqueue entries' effective status](https://github.com/restatedev/restate/commit/d4e1f615daf8f6c6cf2e7b88987ab06a880977b6) | AhmedSoliman |
-| 2026-11-20 | [[PartitionStore] Retire finished_entry_by_outcome/1](https://github.com/restatedev/restate/commit/bc082154786182148ea10ffd2f4d0bf3463e0e38) | AhmedSoliman |
-| 2026-11-20 | [[Types] Add the effective status of vqueue entries](https://github.com/restatedev/restate/commit/9adadb7d17c2d312b5a960e315a3adfe1b65b4fa) | AhmedSoliman |
-| 2026-11-20 | [[Types] Move vqueue entries' Stage and Status to restate-types](https://github.com/restatedev/restate/commit/e052ec54144317b18300d88f8eaabcb3d67f297c) | AhmedSoliman |
-| 2026-11-20 | [[Metadata] Add restate.schema.size.bytes gauge](https://github.com/restatedev/restate/commit/cf50c3e299e5e479bd907bff8a40b66f62c27c31) | tillrohrmann |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 144.9k |
+| ⭐ **Stars** | 145.1k |
 | 🍴 **Forks** | 23.3k |
-| 🐞 **Open issues + PRs** | [95](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
+| 🐞 **Open issues + PRs** | [103](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `tiktok` `ai-video-generator` `content-creation` `ffmpeg` `instagram-reels` `llm` `short-video` `subtitles` `text-to-speech` `video-automation` `video-workflow` `workflow-automation` `youtube-shorts` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2024-03-11 |
 | 📦 **Latest release** | [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10) — 2026-11-07 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10)
-<sub>2026-11-07 · 14d ago</sub>
+<sub>2026-11-07 · 15d ago</sub>
 
 > [English](#en-v1.3.10) | [中文](#cn-v1.3.10)
 > <h2 id="en-v1.3.10">Highlights</h2>
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [feat(llm): add AtmoRouter provider](https://github.com/harry0703/MoneyPrinterTurbo/commit/86e45a2233a72c41d83389ac5cb49bbf5f6a847d) | BeckleyTenriajeng |
+| 2026-11-22 | [fix(tts): handle null voice names (#1822)](https://github.com/harry0703/MoneyPrinterTurbo/commit/278ee2d382ee965aa3a04b0014b630a49f664621) | tanishqbaweja |
+| 2026-11-22 | [refactor(render): add backend interface (#1825)](https://github.com/harry0703/MoneyPrinterTurbo/commit/1108ad1d7493da4ea87cf9f72804077bd2715c57) | venkatsammm |
+| 2026-11-22 | [fix(seedance): poll "pending" from Ark-compatible gateways instead of…](https://github.com/harry0703/MoneyPrinterTurbo/commit/e8b5961c3c05624eee0df9657989fe8e347feb16) | TopoRush |
 | 2026-11-21 | [fix(audio): validate decoded packets (#1823)](https://github.com/harry0703/MoneyPrinterTurbo/commit/92f6258714010dfea6fc28cc37a0bbb4558096a5) | AyhamJo7 |
 | 2026-11-20 | [perf(video): draw each composite layer only where it covers the frame](https://github.com/harry0703/MoneyPrinterTurbo/commit/ef3c333fd475595176fc90b67c78555bf4b739a2) | b84330808 |
 | 2026-11-20 | [fix(i18n): translate remaining Spanish WebUI strings and unify termin…](https://github.com/harry0703/MoneyPrinterTurbo/commit/20a09b84af20e3135d15b1bb32b90b3ed3841ea3) | PedroFlores199 |
 | 2026-11-20 | [fix(tts): migrate Gemini speech to Flash-Lite 3.8](https://github.com/harry0703/MoneyPrinterTurbo/commit/5309263739f0776e94ab5ccef26a5e30a65c2b1c) | JunaidAhamed-7777 |
 | 2026-11-20 | [chore: update project resources](https://github.com/harry0703/MoneyPrinterTurbo/commit/aebf92bfa2e8346182a188773d377e8e4f426a44) | harry0703 |
 | 2026-11-19 | [Expose rendered scene clips in video project results](https://github.com/harry0703/MoneyPrinterTurbo/commit/bdd8d328cc366fe70d9fa67ffd0443ba34b4a3e1) | meowtivator |
-| 2026-11-19 | [feat(material): add Aigei stock video provider](https://github.com/harry0703/MoneyPrinterTurbo/commit/d4877bc5d481868fc38da357d446407bf5c7e229) | harry0703 |
-| 2026-11-16 | [Fix typo in Edge TTS cue test fixture ('stil' -> 'still')](https://github.com/harry0703/MoneyPrinterTurbo/commit/92e0f9a55b91e353565015aab74b7c50cc28f148) | Dani-Google |
-| 2026-11-16 | [fix(loomloom): trace the video artifact download request](https://github.com/harry0703/MoneyPrinterTurbo/commit/8dc9b41eb72aa5fbe835c4bac51f071dc6c0fe30) | RerankerGuo |
-| 2026-11-16 | [test(material): cover malformed Pixabay files in the rendition size sort](https://github.com/harry0703/MoneyPrinterTurbo/commit/49b900780c2463573a7968e9217e86fbea990023) | rohanb123 |
 
 [See all commits ↗](https://github.com/harry0703/MoneyPrinterTurbo/commits)
 

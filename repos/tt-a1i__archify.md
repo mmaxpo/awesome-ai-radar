@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 98.5k |
+| ⭐ **Stars** | 98.7k |
 | 🍴 **Forks** | 6.7k |
-| 🐞 **Open issues + PRs** | [364](https://github.com/tt-a1i/archify/issues) |
+| 🐞 **Open issues + PRs** | [360](https://github.com/tt-a1i/archify/issues) |
 | 💻 **Languages** | JavaScript 91% · CSS 4% · HTML 3% · Astro 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `architecture-diagram` `developer-tools` `system-design` `agent-skills` `codex` `opencode` `sequence-diagram` `deepseek-harness` `dsh-plugin` `coding-agents` `diagrams` `diagrams-as-code` `software-architecture` `ai-agents` `claude-code` `claude-skills` `flowchart` `llm` `mermaid` `visualization` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-04-15 |
 | 📦 **Latest release** | [archify-dsh-v1.1.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.1.0) — 2026-11-08 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1762.6 MB |
+| 💾 **Size** | 1772.7 MB |
 | 🌐 **Website** | https://archify.si |
 
 ## 📦 Recent releases
 
 ### [archify-dsh-v1.1.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.1.0) — Archify DSH 1.1.0
-<sub>2026-11-08 · 12d ago</sub>
+<sub>2026-11-08 · 13d ago</sub>
 
 > Published `@tt-a1i/archify-dsh@1.1.0` — a Skill-only DeepSeek Harness bundle containing Archify 3.2.0.
 > - Published: 2026-11-08 (npm `latest`)

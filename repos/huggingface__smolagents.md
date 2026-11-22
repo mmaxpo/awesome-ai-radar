@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.5k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [547](https://github.com/huggingface/smolagents/issues) |
+| 🐞 **Open issues + PRs** | [561](https://github.com/huggingface/smolagents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-20 (2d ago) |
 | 📅 **Created** | 2024-12-05 |
 | 📦 **Latest release** | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) — 2026-05-29 |
 | 🌿 **Default branch** | `main` |

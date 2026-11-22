@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 151.5k |
+| ⭐ **Stars** | 151.8k |
 | 🍴 **Forks** | 14.6k |
 | 🐞 **Open issues + PRs** | [1.7k](https://github.com/Graphify-Labs/graphify/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `claude-code` `graphrag` `knowledge-graph` `codex` `openclaw` `skills` `antigravity` `gemini` `leiden` `rag` `tree-sitter` `ai-agents` `ast` `code-analysis` `code-search` `cursor` `developer-tools` `llm` `mcp` `graphify` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2026-04-03 |
-| 📦 **Latest release** | [v0.9.114](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.114) — 2026-11-20 |
+| 📦 **Latest release** | [v0.9.115](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.115) — 2026-11-21 |
 | 🌿 **Default branch** | `v8` |
-| 💾 **Size** | 36.4 MB |
-| 🌐 **Website** | https://www.graphify.com |
+| 💾 **Size** | 36.2 MB |
+| 🌐 **Website** | graphify.com |
 
 ## 📦 Recent releases
 
+### [v0.9.115](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.115)
+<sub>2026-11-21 · today</sub>
+
+> Security fix for a forced-SMB-authentication issue on Windows (GHSA-g6c9-j4vm-mwq4), plus a batch of extractor, resolution and incremental-update fixes. The extractor fixes that change output share one AST cache schema bump (50 → 51), so the first build after upgrading re-extracts the affected languages.
+> **Security**
+> - **extract/detect**: indexing a repository no longer stats a corpus-chosen path that resolves outside the scan root. A `.sh` `source`/script-invocation line or a `.git` file naming a UNC `gitdir:`/`commondir` could coerce outbound SMB authentication on Windows (leaking a NetNTLMv2 response) on default offline settings. Probes are now bounded to the scan root and UNC paths are refused before they are resolved (GHSA-g6c9-j4vm-mwq4, thanks @Torch4084).
+> **Fixes**
+> - **path**: an exact node id resolves before tier matching, so an id is no longer refused as ambiguous (#5367, thanks @Arav-Arun).
+> - **python**: a cross-file call through an explicit `from ... import ...` is constrained to the imported name and module (#5229, thanks @Arav-Arun).
+> …
+
 ### [v0.9.114](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.114) — graphify 0.9.114
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > Performance work on the extract/build/update pipeline, plus a batch of extractor and build fixes. Every entry marked Perf preserves graph output exactly (byte-identical); the extractor fixes change output and share one AST cache schema bump (see the note at the end).
 > - Perf: **ids** `normalize_id` gets an ASCII fast-path, pre-compiled regexes and an LRU cache, so the common (ASCII, repeated) identifier case skips the Unicode normalization loop. ~1.26x on the compute path and a large win on repeated ids, which recurs heavily across a corpus.
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.9.113](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.113) — graphify 0.9.113
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > - Change: **packaging** the minimum Python is now 3.11.5 (was 3.11), and soupsieve is pinned to 4.1.1 for every interpreter. soupsieve's patched releases require 3.11.5, so raising the floor clears the open soupsieve advisories (ReDoS and recursion/polynomial-DoS in the CSS selector parser, reached transitively through beautifulsoup4 in the optional `svg`/`all`/`pdf` extras). Installs on Python 3.11.0-3.11.4 keep resolving to 0.9.112; everyone on 3.11.5 and up is unaffected (#5301, thanks @TPAteeq).
 > - Fix: **ruby** methods of one class or module whose names differ only by a leading/trailing `_` or by case (`_read_attribute`/`read_attribute`, `_where!`/`where!`), including those in a `class << self`, get distinct node ids instead of one swallowing the other (#5292, thanks @rohit-jsfreaky).
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.9.112](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.112) — graphify 0.9.112
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > - Docs: **python** the README, its translations, CONTRIBUTING, RELEASING, the bug-report template and the ruff/pyright targets now state Python 3.11 as the minimum, matching the floor that shipped in 0.9.111 (#5238, thanks @Deepanshu-Mehta; @Max17190 sent the same fix in #5237).
 > - Docs: **links** the Always-on setup link in the README and all translations points straight at docs.graphify.com/open-source/vibe-coding instead of going through a redirect from the old guides/always-on path (#5261, thanks @SyedFahad7).
@@ -69,38 +80,27 @@
 > …
 
 ### [v0.9.111](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.111) — graphify 0.9.111
-<sub>2026-11-15 · 5d ago</sub>
+<sub>2026-11-15 · 6d ago</sub>
 
 > Maintenance and security release.
 > - **Minimum Python is now 3.11** (was 3.10). Python 3.10 reached end of life in October 2026, and the patched releases of our optional and transitive dependencies no longer ship wheels for it. Raising the floor lets the lockfile move to those patched versions. Installs on Python 3.10 keep resolving to 0.9.110, the last 3.10-compatible release; everyone on 3.11 and up is unaffected.
 > - **Security:** with 3.10 dropped, the committed lockfile resolves Pillow 13.0.0, filelock 4.2.4 and opentelemetry-api 1.45.2 for every supported interpreter, clearing the open Dependabot advisories against the older pins. Pillow is only pulled in by the optional `svg`/`all` extras, not the core install. This is a dependency and packaging change only: no change to extraction behaviour and the AST cache schema is unchanged.
 > - **Test:** the backtick-substitution runtime tests now skip on bash older than 4.1 (they rely on `BASH_XTRACEFD`, added in 4.1) instead of misbehaving on the bash 3.2 that macOS ships.
 
-### [v0.9.110](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.110) — graphify 0.9.110
-<sub>2026-11-15 · 5d ago</sub>
-
-> - Fix: **python** a call through an aliased import (`from mod import foo as bar; bar()`) is linked from inside a method body and from a decorated function or class def, not just at module level (#5214, thanks @hementhu).
-> - Fix: **go** a type's methods declared in an internal `_test.go` file (same `package foo`) fold into the type's package node instead of splitting it and dropping its method-call edges; an external `package foo_test` stays separate (#5209, thanks @Yi-111-a).
-> - Fix: **js** a name bound in an enclosing scope and captured into a tracked nested closure no longer fabricates a false `indirect_call` to a same-named corpus function; a genuinely unbound name still resolves (#5217, thanks @Sidreyas).
-> - Fix: **sql** a T-SQL procedure that parses structurally (rather than through ERROR recovery) keeps its INSERT/UPDATE/DELETE/SELECT INTO writes, and session temp objects (`#t`, `##t`, `@t`) are skipped (#5146, thanks @sunhouy).
-> - Fix: **sql** an Oracle `CREATE PACKAGE`/`PACKAGE BODY`'s member procedures and functions, and their table reads and writes, are recovered instead of yielding only a file node (#5168, thanks @JaynouOliver).
-> - Test: **llm** cover non-fragment array siblings and fragment-less arrays in the single-element-array unwrap (#5192 follow-up, thanks @rohanb123).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [docs(readme): add "When to reach for Graphify" task table to translat…](https://github.com/Graphify-Labs/graphify/commit/b582ad401aaef4378935ec6620e3b165ae8e03c1) | safishamsi |
-| 2026-11-20 | [docs(readme): propagate hero, quickstart fix, and terminology to tran…](https://github.com/Graphify-Labs/graphify/commit/5d2e6487797b308fb37113fee72897a1f74cac5f) | safishamsi |
-| 2026-11-20 | [docs(readme): add task-based "When to reach for Graphify" section](https://github.com/Graphify-Labs/graphify/commit/b2e0d16ae792c2f52de7ff3b4f3e416e7488951d) | safishamsi |
-| 2026-11-20 | [docs(readme): blend hero, fix quickstart, clarify god-node/community …](https://github.com/Graphify-Labs/graphify/commit/15bf90831bf1fa8682b8d997b8fa62928864ae23) | safishamsi |
-| 2026-11-20 | [docs(readme): add Install-in-Gemini-CLI badge to Connect section](https://github.com/Graphify-Labs/graphify/commit/1e8bb62be5b87edf3963bdd40a6089da495ccf6e) | safishamsi |
-| 2026-11-20 | [docs(readme): add "Connect your agent over MCP" section](https://github.com/Graphify-Labs/graphify/commit/dfab9ccc05cfedb4ce98beea1809582ac7a9f62c) | safishamsi |
-| 2026-11-20 | [chore(release): bump version to 0.9.114](https://github.com/Graphify-Labs/graphify/commit/ae37e0bd4d6dc95f3ea0f50d7c154603c6458b2e) | safishamsi |
-| 2026-11-20 | [docs: fold the sql/vbnet/cpp/sys.path/serve/build fixes into 0.9.114 …](https://github.com/Graphify-Labs/graphify/commit/b2e61e4ccea16df79162aff9daa12ec533be2ed9) | safishamsi |
-| 2026-11-20 | [fix(extract): bind plain-imported module member calls to function nod…](https://github.com/Graphify-Labs/graphify/commit/e68f46a048d3934a01386c69cc317b777c084573) | madhusudanpatnaik |
-| 2026-11-20 | [fix(cpp): keep std-qualified type references off project symbols (#5219)](https://github.com/Graphify-Labs/graphify/commit/5aec2d1a849fb70e48da82cf0379ae75380b025e) | deba2k5 |
+| 2026-11-21 | [chore(release): fold AST schema 51 and changelog for the #5367..#5364…](https://github.com/Graphify-Labs/graphify/commit/3671f31124fdb1de4ec4e485b1bcd7059726a5f3) | safishamsi |
+| 2026-11-21 | [fix(php): a used trait's method outranks the inherited one; pin cycle…](https://github.com/Graphify-Labs/graphify/commit/40225373950ef553742736e9cd553a1f7b108669) | livingforelvis |
+| 2026-11-21 | [fix(php): resolve member calls in remapped files and through inherite…](https://github.com/Graphify-Labs/graphify/commit/a31cca4b7a2b7fe459dd41c297eefbd7a066953a) | livingforelvis |
+| 2026-11-21 | [test(csharp): cover a static readonly singleton and a var-shadowed ty…](https://github.com/Graphify-Labs/graphify/commit/d595f9ae2323e6177ea4df7fd34e5cc78e1f0fed) | ArnabOPP |
+| 2026-11-21 | [test(csharp): make the ambiguous-type test actually ambiguous (#5376)](https://github.com/Graphify-Labs/graphify/commit/8292be1e88b3172bb18fe310b4b69aa7da4bc782) | ArnabOPP |
+| 2026-11-21 | [fix(csharp): resolve a call through a static member of a type, `Audio…](https://github.com/Graphify-Labs/graphify/commit/be6e1f89887d0ad76f1e31724a93731b55f9e5f2) | ArnabOPP |
+| 2026-11-21 | [fix(python): constrain cross-file calls to explicit import bindings](https://github.com/Graphify-Labs/graphify/commit/2387b2f7d4cfb6d2f40a88b59805ed74793ae3ab) | Arav-Arun |
+| 2026-11-21 | [fix(rust): give each colliding impl block member its own node](https://github.com/Graphify-Labs/graphify/commit/44aab679bab6f6fb1f0d5b16b313e5d2651a280c) | ayushcodes10 |
+| 2026-11-21 | [fix(watch): reconcile corpus-only hook changes](https://github.com/Graphify-Labs/graphify/commit/ec6f8cc4670835958fe89c670331c5a32762950b) | sdivyanshu90 |
+| 2026-11-21 | [fix(update): report oversized JSON as skipped so no-change runs skip](https://github.com/Graphify-Labs/graphify/commit/053af683cef9a0e33e25a486286e8c58baef3166) | madhusudanpatnaik |
 
 [See all commits ↗](https://github.com/Graphify-Labs/graphify/commits)
 

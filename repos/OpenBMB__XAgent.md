@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v1.0.0](https://github.com/OpenBMB/XAgent/releases/tag/v1.0.0)
-<sub>2023-11-22 · 2y ago</sub>
+<sub>2023-11-22 · 3y ago</sub>
 
 > **What's Changed**
 > - Offical release of XAgent Container Images on DockerHub, now you can just download and play XAgent, see our dockerhub [page](https://hub.docker.com/u/xagentteam) for more information.

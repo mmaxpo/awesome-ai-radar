@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 118.8k |
+| ⭐ **Stars** | 119.0k |
 | 🍴 **Forks** | 10.3k |
-| 🐞 **Open issues + PRs** | [89](https://github.com/thedotmack/claude-mem/issues) |
+| 🐞 **Open issues + PRs** | [80](https://github.com/thedotmack/claude-mem/issues) |
 | 💻 **Languages** | TypeScript 66% · JavaScript 29% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-memory` `anthropic` `artificial-intelligence` `claude` `claude-agent-sdk` `claude-agents` `claude-code` `claude-code-plugin` `claude-skills` `long-term-memory` `mem0` `openmemory` `supermemory` `chromadb` `sqlite` `embeddings` `memory-engine` `rag` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-08-31 |
-| 📦 **Latest release** | [v16.0.2](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.2) — 2026-11-20 |
+| 📦 **Latest release** | [v16.0.3](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.3) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 910.6 MB |
+| 💾 **Size** | 917.2 MB |
 | 🌐 **Website** | https://claude-mem.ai |
 
 ## 📦 Recent releases
 
+### [v16.0.3](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.3)
+<sub>2026-11-21 · today</sub>
+
+> **Critical fix**
+> - **The OMP hook works with the server runtime** (#6367, thanks @flipcyde101, closes #6366 reported by @walynde). When `CLAUDE_MEM_RUNTIME` was `server` or `server-beta`, the OMP hook still sent everything to the local worker, so OMP sessions were dropped. The hook now reads `CLAUDE_MEM_SERVER_URL`, `CLAUDE_MEM_SERVER_API_KEY` and `CLAUDE_MEM_SERVER_PROJECT_ID` (or the `CLAUDE_MEM_SERVER_BETA_*` names; environment variables win over `settings.json`) and talks to the server's `/v1` API directly: session start, tool and reply events, context, and session end. It applies the same rules the worker applies before it saves anything: `<private>` blocks are stripped, excluded projects and `CLAUDE_MEM_SKIP_TOOLS` are honored, every prompt is recorded, and the project name comes from git. If the server settings are incomplete, it falls back to the worker as before.
+> - **OMP users: run `npx claude-mem install --ide omp` once to get this fix.** The OMP hook is a copied file, so a plugin update alone does not replace it.
+> **Fixes**
+> - **Knowledge queries and corpus requests can no longer hang forever** (#6368, thanks @flipcyde101, closes #6364 reported by @soarkit). A stalled Agent SDK stream used to keep the request and its Claude CLI child alive with no end. A knowledge query or prime now stops after 10 minutes and a corpus request after 15, with a 504 error. The corpus stays locked until the timed-out work has really stopped, so it cannot write after a delete or rebuild.
+> - **The "paused saving memories" notice goes away once Codex is saving** (#6374, thanks @ryrenz, closes #6372 reported by @raw34). After you switched `CLAUDE_MEM_PROVIDER` to `codex` following a Claude quota pause, every new session still said capture was paused until the old Claude cooldown ran out. The notice is now recomputed when Codex stores a memory.
+> …
+
 ### [v16.0.2](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.2)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **Critical fix**
 > - **An auto-update no longer deletes the plugin version a running Claude Code session was loaded from** (#6352, thanks @0xABCD01, closes #6349 reported by @justindrp). The cache sweep keeps a version folder while the Claude Code process recorded in its `.in_use` file is alive. On macOS and BSD, a few seconds of difference between the start time Claude Code recorded and the one `ps` reports was read as PID reuse, so the sweep deleted the folder from under a live session and every hook failed for the rest of that session. A start-time mismatch no longer removes the folder while the process at that PID is still Claude Code. A PID that now belongs to another program is still pruned as before.
@@ -47,7 +58,7 @@
 > …
 
 ### [v16.0.1](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.1)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **Critical fixes**
 > - **Signing in to Codex works again on Windows while claude-mem runs** (#6332, thanks @ffe111, closes #6331). The private Codex home that claude-mem's app-server uses got its `auth.json` through a hard link to your real `~/.codex/auth.json`. Codex refuses to replace a credential file with more than one hard link (`persist_failed: atomic credential replacement does not support hard-linked files`), so `codex login` and token refresh failed for as long as that home existed. The private home now gets a symlink, which Codex follows. Only on Windows, and only when a symlink is not permitted (no Developer Mode or elevation), it gets a private copy instead. Any other error still fails loudly.
@@ -58,7 +69,7 @@
 > …
 
 ### [v16.0.0](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.0)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **My Work puts what needs you first**
 > My Work, the page that shows what your agents are doing, was rebuilt from a full UI review (#6210, #6304). What needs you sits at the top, long lists fold, and every page works on a phone, by keyboard and with a screen reader.
@@ -69,7 +80,7 @@
 > …
 
 ### [v15.21.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.21.0)
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **claude-mem no longer turns off Claude Code's Code Mode**
 > - **Code Mode starts with claude-mem enabled** (#6278, thanks @naive000; reported in #6209 by @nasif-naseef). Code Mode (experimental, Claude Code 2.1.323 and later) refuses to start when a plugin's hooks module hooks `tool.call`. claude-mem's auto-clear mod did, so Code Mode was off for everyone with claude-mem enabled, even with auto-clear off. The mod now reads tool results through `session.append` instead. Auto-clear still works on every Claude Code version that runs mods (2.1.287 and later).
@@ -79,31 +90,20 @@
 > - **It starts at 40% of the context window instead of 33%** (#6294). A `CLAUDE_MEM_AUTO_CLEAR_PERCENT` you set in `settings.json` or the environment still wins.
 > …
 
-### [v15.20.0](https://github.com/thedotmack/claude-mem/releases/tag/v15.20.0)
-<sub>2026-11-17 · 3d ago</sub>
-
-> **Two critical fixes**
-> - **The worker starts when settings.json is not valid JSON** (#6259). The worker refused to start when `~/.claude-mem/settings.json` couldn't be parsed, even though the database already held the device identity it was trying to save there. Nothing was captured and no context was injected. It now logs a warning, leaves the file untouched, and starts. On a first start with no saved identity, the error names the file and says to repair or delete it.
-> - **Live Codex Desktop capture on macOS** (#6285, thanks @MaxWang007; reported in #6283 by @AlbertValverdeC). Under Bun on macOS, `fs.watch` gives no event while another process appends to a file it holds open, and Codex Desktop holds a rollout file open for the life of a thread. Codex sessions were read in one burst, sometimes a day later, when Codex closed the file. The transcript watcher now checks the files it already tails every 3 seconds and reads new bytes. It awaits one stat at a time, so a large `~/.codex/sessions` history never blocks the worker, and it never opens new files on its own.
-> **Also on main since 15.19.0**
-> Three pieces of the upcoming 16.0.0, already on main, ship in this release too:
-> - **Mem0 and Supermemory import acceptance fixes** (#6206): Supermemory `--documents` reruns no longer duplicate, and documents imported by 15.19.0 still count as already imported. Mem0 expiry includes its own date. Every import limit names its source; the unsourced 100 MiB total and 10,000-record default are gone (`--max-records` stays).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [fix(agent-runner): run the My Work OpenCode step on OpenCode 2.x (#6361)](https://github.com/thedotmack/claude-mem/commit/f1bb834527637231e23575e2a70c57375efdac04) | thedotmack |
-| 2026-11-20 | [chore: promote 16.0.2 for auto-update](https://github.com/thedotmack/claude-mem/commit/2eeda5052ff030711aa8ada22c65e5bdae8943fc) | thedotmack |
-| 2026-11-20 | [docs: update CHANGELOG for v16.0.2](https://github.com/thedotmack/claude-mem/commit/96658712bd46d0062eb19bbfb18723a364a9b0ef) | thedotmack |
-| 2026-11-20 | [test(transcripts): count the append poll's poke instead of racing its…](https://github.com/thedotmack/claude-mem/commit/1ba7227cab1147e423e4a1e70d2b4fcd96a754ee) | thedotmack |
-| 2026-11-20 | [chore: bump version to 16.0.2](https://github.com/thedotmack/claude-mem/commit/66688aa5e3c1d4386cb6f02c518cd3fba06f05b4) | thedotmack |
-| 2026-11-20 | [fix(prune): keep a cache version while its recorded Claude process is…](https://github.com/thedotmack/claude-mem/commit/ea1cfde657d6796bfa6c5d7de9d1e4570c3290eb) | 0xABCD01 |
-| 2026-11-20 | [fix(npx-cli): give the async host-observer probe the same 1s budget a…](https://github.com/thedotmack/claude-mem/commit/e469a8cd5405c29eb39e2de8dcb3f63c096f1263) | rtmalikian |
-| 2026-11-20 | [fix(my-work): prefer MXC for isolated Codex refresh on Windows (#6348)](https://github.com/thedotmack/claude-mem/commit/0ce495b0371caf2f0f1ca3fb0531efa0417d8723) | QuantScorpus |
-| 2026-11-20 | [fix(session-start-card): draw the card on Team and Enterprise account…](https://github.com/thedotmack/claude-mem/commit/a34ce9890be418eb6b0b4eb1235d13e968e3408a) | KeithMoc |
-| 2026-11-20 | [fix: detect OpenCode 2.x connections for My Work refresh (#6340)](https://github.com/thedotmack/claude-mem/commit/f52388ef75c2ba4ee684b507c3fd7ad502cfab56) | ZedingZhang |
+| 2026-11-21 | [docs: tell OMP users to reinstall the hook for the 16.0.3 server-runt…](https://github.com/thedotmack/claude-mem/commit/79d33254e5570b43175c639c2a2ce58bd1e221b9) | thedotmack |
+| 2026-11-21 | [chore: promote 16.0.3 for auto-update](https://github.com/thedotmack/claude-mem/commit/9e1450a809a4f76089f56c624d87e3b4f1ac832c) | thedotmack |
+| 2026-11-21 | [docs: update CHANGELOG for v16.0.3](https://github.com/thedotmack/claude-mem/commit/36e09defa22ab3c1259b3a01c2b1056704d3913e) | thedotmack |
+| 2026-11-21 | [chore: bump version to 16.0.3](https://github.com/thedotmack/claude-mem/commit/4a04765b17c46d36d6ecdd91b41f1adffffa2a81) | thedotmack |
+| 2026-11-21 | [fix(worker): register standalone observer SDK children in the process…](https://github.com/thedotmack/claude-mem/commit/951fe119043727ddd3c3a8ee0a67b36ffd632f8e) | DeryFerd |
+| 2026-11-21 | [fix(agent-runner): bound the collected stdout and stderr of a chatty …](https://github.com/thedotmack/claude-mem/commit/d3f65553a700c4bdf0118a93f0e7cb57f8d0d14f) | DeryFerd |
+| 2026-11-21 | [fix(transcripts): skip JSONL records beyond the tail cap instead of a…](https://github.com/thedotmack/claude-mem/commit/69cbef94bcb72917fe3596dc620eedbe116792dc) | DeryFerd |
+| 2026-11-21 | [fix(sync-api): compare the internal projector credential in constant …](https://github.com/thedotmack/claude-mem/commit/bcde3a977cdf0c34413f82fef6e577e321224742) | DeryFerd |
+| 2026-11-21 | [fix(openclaw): only remove a claude-mem-shaped installPath from the u…](https://github.com/thedotmack/claude-mem/commit/49daf7ea08ba0afa199a15e18bbc9b52dc2e749d) | DeryFerd |
+| 2026-11-21 | [fix(knowledge): enforce idle and absolute deadlines on Agent SDK quer…](https://github.com/thedotmack/claude-mem/commit/18abce9e49c36b4d95b030658392e6390745fbc7) | flipcyde101 |
 
 [See all commits ↗](https://github.com/thedotmack/claude-mem/commits)
 

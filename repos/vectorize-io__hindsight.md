@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 62.4k |
+| ⭐ **Stars** | 62.6k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [242](https://github.com/vectorize-io/hindsight/issues) |
+| 🐞 **Open issues + PRs** | [252](https://github.com/vectorize-io/hindsight/issues) |
 | 💻 **Languages** | Python 70% · TypeScript 17% · MDX 9% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-21 (yesterday) |
 | 📅 **Created** | 2025-10-30 |
 | 📦 **Latest release** | [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.2.2 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6678
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.2](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.2)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **What's Changed**
 > * test(llm): fix the two-user-turns tests broken by the tool-call retry by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6492
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 18d ago</sub>
+<sub>2026-11-03 · 19d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935

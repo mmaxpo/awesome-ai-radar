@@ -22,20 +22,20 @@
 |---|---|
 | ⭐ **Stars** | 29.2k |
 | 🍴 **Forks** | 2.4k |
-| 🐞 **Open issues + PRs** | [568](https://github.com/charmbracelet/crush/issues) |
+| 🐞 **Open issues + PRs** | [578](https://github.com/charmbracelet/crush/issues) |
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agentic-ai` `ai` `llms` `ravishing` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-05-21 |
 | 📦 **Latest release** | [v0.102.0](https://github.com/charmbracelet/crush/releases/tag/v0.102.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 35.7 MB |
+| 💾 **Size** | 35.9 MB |
 
 ## 📦 Recent releases
 
 ### [nightly](https://github.com/charmbracelet/crush/releases/tag/nightly) _(pre-release)_
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-22 · today</sub>
 
 > ---
 > <details>
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.102.0](https://github.com/charmbracelet/crush/releases/tag/v0.102.0)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **Channels, custom prompts and server hardening**
 > There's so much good stuff in this release and we're really proud of _all_ of it. Read on for more.
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.101.0](https://github.com/charmbracelet/crush/releases/tag/v0.101.0)
-<sub>2026-11-12 · 8d ago</sub>
+<sub>2026-11-12 · 9d ago</sub>
 
 > **Skill toggles, tool timers and a faster Hyper ⚡**
 > This release was brought to you by our team and our favorite contributors! Long awaited features ahead, read along!
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.100.0](https://github.com/charmbracelet/crush/releases/tag/v0.100.0)
-<sub>2026-11-05 · 15d ago</sub>
+<sub>2026-11-05 · 16d ago</sub>
 
 > **Subagents, Sysadmin Mode, and PGP/SSH Prompts**
 > This is a big one! Crush can now run a team of subagents, permissions are much more flexible, and you can now do GPG and SSH auth right inside Crush! Read on for more.
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.99.0](https://github.com/charmbracelet/crush/releases/tag/v0.99.0)
-<sub>2026-10-29 · 22d ago</sub>
+<sub>2026-10-29 · 23d ago</sub>
 
 > **Hooks, Catwalk v3!**
 > A big one! Crush now runs on Catwalk v3, hooks can see every part of a run, and editors that host Crush get a whole new set of tools to feel right at home.
@@ -93,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [chore(legal): @AynSiddiqui has signed the CLA](https://github.com/charmbracelet/crush/commit/d63960b5147b94593ff50efefd1afa3fc4aface8) | charmcli |
+| 2026-11-21 | [feat: allow to change the model and reasoning during a run (#4325)](https://github.com/charmbracelet/crush/commit/3d00da85c17004fecc68a5f6d0c5a854aee336ba) | andrinoff |
 | 2026-11-21 | [chore(nix): update nixpkgs so the dev shell's linter can read Go 1.27…](https://github.com/charmbracelet/crush/commit/6ce1491d406974f3610cf755b27ab1096451feb4) | taciturnaxolotl |
 | 2026-11-21 | [chore(legal): @2118505078xyh1 has signed the CLA](https://github.com/charmbracelet/crush/commit/db7c905f8df5e3893e33ba44322f9dae2dca668d) | charmcli |
 | 2026-11-20 | [Fix/bash process cleanup (#4339)](https://github.com/charmbracelet/crush/commit/07f4baf0ef02269b8efbf3c5f4d3720d104dd592) | janearc |
@@ -101,8 +103,6 @@
 | 2026-11-20 | [chore(legal): @sasax741 has signed the CLA](https://github.com/charmbracelet/crush/commit/663a22abd1fa2b41ae0008efe8a1aa219b9d2bf3) | charmcli |
 | 2026-11-19 | [chore(deps): update fantasy and catwalk](https://github.com/charmbracelet/crush/commit/2a427f37e3bfb514a012ebe19b4124db18a6d000) | andreynering |
 | 2026-11-19 | [v0.102.0](https://github.com/charmbracelet/crush/commit/c62fa029f743047ab70fcc88cef9029be6c5beff) | andrinoff |
-| 2026-11-19 | [feat(ui): Claude Channels TUI (#3347)](https://github.com/charmbracelet/crush/commit/60c5457b31fa4f0ad253f7e9bc463ce3ef3390e2) | joestump-agent |
-| 2026-11-19 | [chore(legal): @Nacl-HCl has signed the CLA](https://github.com/charmbracelet/crush/commit/c7a39c2d4d8d6d30baa4fd7a20dc11c6ed9479a6) | charmcli |
 
 [See all commits ↗](https://github.com/charmbracelet/crush/commits)
 

@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 81.3k |
+| ⭐ **Stars** | 81.4k |
 | 🍴 **Forks** | 10.0k |
 | 🐞 **Open issues + PRs** | [150](https://github.com/abi/screenshot-to-code/issues) |
 | 💻 **Languages** | Python 54% · TypeScript 45% |

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 52.4k |
+| ⭐ **Stars** | 52.5k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [0](https://github.com/DavidHDev/react-bits/issues) |
+| 🐞 **Open issues + PRs** | [1](https://github.com/DavidHDev/react-bits/issues) |
 | 💻 **Languages** | JavaScript 58% · TypeScript 38% · CSS 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `animations` `components` `components-library` `components-react` `javascript` `react` `reactjs` `web` `3d` `component-library` `css-animations` `tailwind` `tailwindcss` `ui-components` `ui-library` `react-components` |
-| 🕒 **Last activity** | 2026-11-19 (yesterday) |
+| 🕒 **Last activity** | 2026-11-19 (2d ago) |
 | 📅 **Created** | 2024-08-06 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

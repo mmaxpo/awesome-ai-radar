@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 55.0k |
-| 🍴 **Forks** | 4.5k |
-| 🐞 **Open issues + PRs** | [340](https://github.com/alibaba/open-code-review/issues) |
+| ⭐ **Stars** | 55.3k |
+| 🍴 **Forks** | 4.6k |
+| 🐞 **Open issues + PRs** | [344](https://github.com/alibaba/open-code-review/issues) |
 | 💻 **Languages** | Go 71% · JavaScript 11% · TypeScript 10% · Kotlin 5% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-05-18 |
-| 📦 **Latest release** | [v1.14.0](https://github.com/alibaba/open-code-review/releases/tag/v1.14.0) — 2026-11-21 |
+| 📦 **Latest release** | [v1.14.1](https://github.com/alibaba/open-code-review/releases/tag/v1.14.1) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 56.5 MB |
 | 🌐 **Website** | https://open-codereview.ai |
 
 ## 📦 Recent releases
 
+### [v1.14.1](https://github.com/alibaba/open-code-review/releases/tag/v1.14.1)
+<sub>2026-11-22 · today</sub>
+
+> **🚀 Features**
+> - feat(skills): include behavior and impact in native and delegated reviews (#2029)
+> **🐛 Bug Fixes**
+> - fix(tool): reject workspace named pipes before opening (#1979)
+> - fix(examples): fail GitFlic and Gerrit jobs when ocr review fails (#2032)
+> - fix(cli): show token usage in analysis reports (#2030)
+> …
+
 ### [v1.14.0](https://github.com/alibaba/open-code-review/releases/tag/v1.14.0)
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > **🚀 Features**
 > - feat(rules,allowlist): exclude Cargo test/benchmark paths and refine Rust rules (#1971)
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.13.13](https://github.com/alibaba/open-code-review/releases/tag/v1.13.13)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): link the leaderboard to AACR-Bench (#1995)
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.13.12](https://github.com/alibaba/open-code-review/releases/tag/v1.13.12)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): add contact link to website footer (#1975)
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.13.11](https://github.com/alibaba/open-code-review/releases/tag/v1.13.11)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **🚀 Features**
 > - feat(session): filter listed sessions by branch (#1702)
@@ -79,30 +90,20 @@
 > - fix(viewer): truncate multibyte file paths on rune boundaries (#1854)
 > …
 
-### [v1.13.10](https://github.com/alibaba/open-code-review/releases/tag/v1.13.10)
-<sub>2026-11-15 · 6d ago</sub>
-
-> **🚀 Features**
-> - feat(review): default --to to HEAD when only --from is given (#1936)
-> - feat(cli): render Markdown summaries and style progress output (#1927)
-> - feat(review): support --resume for workspace mode (#1922)
-> - feat(workspace): support comparison-side code access (#1915)
-> **Full Changelog**: https://github.com/alibaba/open-code-review/compare/v1.13.9...v1.13.10
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [refactor: adopt modern Go stdlib helpers (#1566)](https://github.com/alibaba/open-code-review/commit/d0744d31b19d9fe97ffeff78dd8fb04e0be69312) | sisantaChhatoi |
+| 2026-11-22 | [docs(skill): respect review-only intent for mispositioned findings (#…](https://github.com/alibaba/open-code-review/commit/284ff013f0705ae6cac4c8dfbffa2f2551886d56) | prascli |
+| 2026-11-22 | [fix(tool): reject workspace named pipes before opening (#1979)](https://github.com/alibaba/open-code-review/commit/fa315a0ee2012483ea72b7fd49f937812de9c761) | Afloat16 |
+| 2026-11-22 | [fix(examples): fail GitFlic and Gerrit jobs when ocr review fails (#2…](https://github.com/alibaba/open-code-review/commit/78c2e0e26f62ea150044cb0be2357b93f80f5b86) | thejesh23 |
+| 2026-11-22 | [feat(skills): include behavior and impact in native and delegated rev…](https://github.com/alibaba/open-code-review/commit/398f4349cfa8be58c25c0a988ad5db1def5bd528) | lizhengfeng101 |
 | 2026-11-21 | [docs(runtime): remove the phase-one design note (#2031)](https://github.com/alibaba/open-code-review/commit/39515dca6161fb7fd176d87704b2b10e5f7a0c36) | lizhengfeng101 |
 | 2026-11-21 | [fix(cli): show token usage in analysis reports (#2030)](https://github.com/alibaba/open-code-review/commit/5f4d905f2d5e209aaa9e2f6e5495cc1cb82c0150) | lizhengfeng101 |
 | 2026-11-21 | [fix(viewer): keep the report header stable across tabs (#2022)](https://github.com/alibaba/open-code-review/commit/d29ca2044a42ea297a7fa93692d0f5ac8f38d84e) | lizhengfeng101 |
 | 2026-11-21 | [feat(rules,allowlist): exclude Cargo test/benchmark paths and refine …](https://github.com/alibaba/open-code-review/commit/7e4ecad163fd584630815c1a3abf4b3708a893a0) | alex09x |
 | 2026-11-21 | [fix(review): include TypeScript module extensions (#1962)](https://github.com/alibaba/open-code-review/commit/561787693595bbb2e12658557d63a661873c5aff) | Afloat16 |
-| 2026-11-21 | [docs(configuration): explain remote Chat Completions providers (#2005)](https://github.com/alibaba/open-code-review/commit/99ab679d7e327d13c6b69e71651ec30bbb2152f9) | wzxsdf |
-| 2026-11-21 | [fix(mcp): match tool definitions to their registered server (#1972)](https://github.com/alibaba/open-code-review/commit/2de8b4d9d5eb2939116cda628112e938d8a225a9) | Afloat16 |
-| 2026-11-21 | [feat(review): add optional behavior and impact analysis (#1937)](https://github.com/alibaba/open-code-review/commit/3adfc5a3fe59523620cfca94a06fbeb32021fc8b) | lizhengfeng101 |
-| 2026-11-20 | [fix(pages): recover partial-locale fallback and fragment navigation (…](https://github.com/alibaba/open-code-review/commit/5a6f77ccd1540ed4e80c06490a696543e507d3e4) | wzxsdf |
-| 2026-11-20 | [docs(review-rules): explain specification-aware reviews (#2006)](https://github.com/alibaba/open-code-review/commit/5a8c1cb8efd6576f5341a198093ef83dfb837e6c) | wzxsdf |
 
 [See all commits ↗](https://github.com/alibaba/open-code-review/commits)
 

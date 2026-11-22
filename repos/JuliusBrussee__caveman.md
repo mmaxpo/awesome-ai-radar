@@ -20,23 +20,50 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 121.9k |
+| ⭐ **Stars** | 122.1k |
 | 🍴 **Forks** | 7.1k |
-| 🐞 **Open issues + PRs** | [109](https://github.com/JuliusBrussee/caveman/issues) |
-| 💻 **Languages** | Go 48% · JavaScript 26% · TypeScript 14% · Python 10% |
+| 🐞 **Open issues + PRs** | [110](https://github.com/JuliusBrussee/caveman/issues) |
+| 💻 **Languages** | Go 50% · JavaScript 26% · TypeScript 14% · Python 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `anthropic` `caveman` `claude` `claude-code` `llm` `meme` `prompt-engineering` `skill` `tokens` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-04-04 |
-| 📦 **Latest release** | [v4.1.0](https://github.com/JuliusBrussee/caveman/releases/tag/v4.1.0) — 2026-11-08 |
+| 📦 **Latest release** | [v4.2.0](https://github.com/JuliusBrussee/caveman/releases/tag/v4.2.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 21.5 MB |
+| 💾 **Size** | 21.7 MB |
 | 🌐 **Website** | https://docs.caveman.so/caveman |
 
 ## 📦 Recent releases
 
+### [v4.2.0](https://github.com/JuliusBrussee/caveman/releases/tag/v4.2.0) — Caveman 4.2.0
+<sub>2026-11-22 · today</sub>
+
+> Caveman 4.2.0 adds a QuickJS Code-Mode MCP gateway (`caveman codemode` / `caveman wrap --codemode`) with multi-agent overlays, multi-harness tool-envelope unwrapping in the compression engine, cache-safe proxy optimizations (local turn-effort gating, duplicate-read collapsing, canonical tool ordering, and `defer_loading`), `@caveman-ai/middleware/codemode`, opt-in Code-Mode support in `@caveman-ai/pi` 0.4.0, and a native Codex CLI provider for `caveman-compress`.
+> **New**
+> **QuickJS Code-Mode MCP gateway** (#1559)
+> - **`caveman-mcp codemode` and `caveman codemode`** collapse large upstream stdio and HTTP MCP catalogs into a static, prefix-cache-safe set of Code-Mode tools (`codemode_search_tools`, `codemode_execute`, `codemode_mutate`) backed by an embedded pure-Go QuickJS sandbox (`modernc.org/quickjs`) plus built-in repo and PR helpers (`batch_read`, `symbol_outline`, `pr_read`, `ci_logs`).
+> - **`caveman wrap --codemode`** installs temporary per-session Code-Mode overlays for Claude Code, Codex, OpenCode, Gemini CLI, Qwen Code, Kilo, OpenClaw, Pi, and Hermes (including `config.yaml` sync-back of in-session Hermes edits; Cursor MCP configs are discovered by `caveman codemode`).
+> - **Workspace MCP discovery is explicit:** workspace-local MCP definitions are loaded only when `--trust-workspace-mcp` or `CAVEMAN_TRUST_WORKSPACE_MCP=1` is set.
+> …
+
+### [bin-v4.2.0](https://github.com/JuliusBrussee/caveman/releases/tag/bin-v4.2.0)
+<sub>2026-11-22 · today</sub>
+
+> Signed Caveman runtime companions for macOS, Linux, and Windows. The binaries are licensed under the Apache License 2.0 (LICENSE, NOTICE); see LICENSING.md and the attached third-party notices. The ghcr.io caveman-proxy image is still built without cgo, so its code compressor handles Go source only; the caveman-proxy and caveman-engine binaries here also compress TypeScript, JavaScript, Python, Rust, Java and C/C++.
+
+### [middleware-ts-v1.2.0](https://github.com/JuliusBrussee/caveman/releases/tag/middleware-ts-v1.2.0) — @caveman-ai/middleware 1.2.0
+<sub>2026-11-22 · today</sub>
+
+> - Add the `@caveman-ai/middleware/codemode` subpath (`createCodeModeToolset`):
+>   a provider-agnostic, zero-dependency in-process Code-Mode toolset that
+>   collapses large framework or MCP tool catalogs into three static,
+>   prefix-cache-safe meta-tools (`codemode_search_tools`, `codemode_execute`,
+>   and `codemode_mutate`) with BM25 discovery, structured execution pipelines,
+>   and read/write separation (#1559).
+> …
+
 ### [v4.1.0](https://github.com/JuliusBrussee/caveman/releases/tag/v4.1.0) — Caveman 4.1.0
-<sub>2026-11-08 · 13d ago</sub>
+<sub>2026-11-08 · 14d ago</sub>
 
 > Caveman 4.1.0 is a maintenance release: bug fixes across compress, OpenCode, Hermes, Pi, the proxy and the hooks, a recovery store that no longer fills up and stops compressing, and a few small switches people asked for. caveman-compress now refuses a file with a key or token in it, and installs from skill hubs again.
 > **Action needed**
@@ -47,7 +74,7 @@
 > …
 
 ### [middleware-python-v1.0.1](https://github.com/JuliusBrussee/caveman/releases/tag/middleware-python-v1.0.1) — caveman-middleware 1.0.1
-<sub>2026-11-08 · 13d ago</sub>
+<sub>2026-11-08 · 14d ago</sub>
 
 > - Security: the `litellm` extra excludes litellm 1.107.0, which upstream
 >   reported compromised
@@ -57,31 +84,12 @@
 > - `anthropic` 2.x is inside the supported range (`>=1.0,<3`). Before this, the
 > …
 
-### [middleware-ts-v1.1.0](https://github.com/JuliusBrussee/caveman/releases/tag/middleware-ts-v1.1.0) — @caveman-ai/middleware 1.1.0
-<sub>2026-11-08 · 13d ago</sub>
-
-> - Security: the MCP adapter now requires `@modelcontextprotocol/sdk` 1.32.0 or
->   later. Earlier releases followed redirects to any origin and handed it custom
->   headers, and on 307/308 the request body including OAuth tokens
->   ([GHSA-6prh-2h8m-c8cw](https://osv.dev/vulnerability/GHSA-6prh-2h8m-c8cw)).
->   With 1.30.x or 1.31.x installed, MCP results pass through uncompressed and a
->   warning names the advisory and the version to upgrade to.
-> …
-
-### [bin-v4.1.0](https://github.com/JuliusBrussee/caveman/releases/tag/bin-v4.1.0)
-<sub>2026-11-07 · 14d ago</sub>
-
-> Signed Caveman runtime companions for macOS, Linux, and Windows. The binaries are licensed under the Apache License 2.0 (LICENSE, NOTICE); see LICENSING.md and the attached third-party notices. The ghcr.io caveman-proxy image is still built without cgo, so its code compressor handles Go source only; the caveman-proxy and caveman-engine binaries here also compress TypeScript, JavaScript, Python, Rust, Java and C/C++.
-
-### [bin-v4.0.2](https://github.com/JuliusBrussee/caveman/releases/tag/bin-v4.0.2)
-<sub>2026-10-23 · 29d ago</sub>
-
-> Signed Caveman runtime companions for macOS, Linux, and Windows. The binaries are licensed under the Apache License 2.0 (LICENSE, NOTICE); see LICENSING.md and the attached third-party notices. The ghcr.io caveman-proxy image is still built without cgo, so its code compressor handles Go source only; the caveman-proxy and caveman-engine binaries here also compress TypeScript, JavaScript, Python, Rust, Java and C/C++.
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [chore(release): pin Caveman 4.2.0, bin-v4.2.0, @caveman-ai/cli 4.2.0,…](https://github.com/JuliusBrussee/caveman/commit/70f4f34e834893ea9af9f4fc6022266bd56d18b1) | JuliusBrussee |
+| 2026-11-22 | [feat: QuickJS Code-Mode MCP gateway, multi-harness envelopes, and cac…](https://github.com/JuliusBrussee/caveman/commit/9de43acf33ccba036ee7d3ca11ff8fcf8417e756) | JuliusBrussee |
 | 2026-11-17 | [docs(readme): say what Caveman Code measured](https://github.com/JuliusBrussee/caveman/commit/a192894723a8f47e7f504c7b5041967ff1f18e55) | JuliusBrussee |
 | 2026-11-17 | [chore: drop stale monorepo paths and private references from comments](https://github.com/JuliusBrussee/caveman/commit/3a0d376c1c1065f84bfae3b7518667defb394ff9) | JuliusBrussee |
 | 2026-11-17 | [fix(engine): pixel atlas and golden generators write inside this repo](https://github.com/JuliusBrussee/caveman/commit/ace655cf7260206f2fc84a7edfb5e6600c83708a) | JuliusBrussee |
@@ -90,8 +98,6 @@
 | 2026-11-17 | [fix(cli): remove dev and deploy aws, which printed make targets this …](https://github.com/JuliusBrussee/caveman/commit/1cbe5b6290665298b15ef10a019687f502017ff1) | JuliusBrussee |
 | 2026-11-17 | [docs: state benchmark numbers with their samples and drop private ref…](https://github.com/JuliusBrussee/caveman/commit/edd564851a75e1f3c31235e9edf0e4d6403221af) | JuliusBrussee |
 | 2026-11-17 | [docs: collapse per-folder agent docs into one AGENTS.md each](https://github.com/JuliusBrussee/caveman/commit/8e00433f1a573c1b26a2135ec4cb9c67f50e2433) | JuliusBrussee |
-| 2026-11-17 | [docs(technical): drop audits and design records, fold live rules in](https://github.com/JuliusBrussee/caveman/commit/299dac5212de6bebe13f5ea99b0babf359003549) | JuliusBrussee |
-| 2026-11-17 | [docs: make AGENTS.md the agent guide and add docs/WHY.md](https://github.com/JuliusBrussee/caveman/commit/87f163debad0248dcf8b64abbf313a9eb6929a36) | JuliusBrussee |
 
 [See all commits ↗](https://github.com/JuliusBrussee/caveman/commits)
 

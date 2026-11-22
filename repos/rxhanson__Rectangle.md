@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.3k |
 | 🍴 **Forks** | 1.0k |
-| 🐞 **Open issues + PRs** | [21](https://github.com/rxhanson/Rectangle/issues) |
+| 🐞 **Open issues + PRs** | [23](https://github.com/rxhanson/Rectangle/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-20 (yesterday) |
 | 📅 **Created** | 2019-06-21 |
 | 📦 **Latest release** | [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |

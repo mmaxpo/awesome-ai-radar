@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.6k |
-| 🍴 **Forks** | 264 |
+| 🍴 **Forks** | 265 |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/BraveOPotato/NoSignups/issues) |
 | 💻 **Languages** | TypeScript 61% · CSS 27% · Python 10% · HTML 1% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-17 (3d ago) |
+| 🕒 **Last activity** | 2026-11-17 (4d ago) |
 | 📅 **Created** | 2026-05-07 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

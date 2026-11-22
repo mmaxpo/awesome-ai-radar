@@ -20,78 +20,90 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 32.7k |
+| ⭐ **Stars** | 32.8k |
 | 🍴 **Forks** | 2.5k |
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/trycua/cua/issues) |
 | 💻 **Languages** | Rust 52% · TypeScript 18% · Python 15% · Swift 9% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `apple` `cua` `lume` `macos` `virtualization` `virtualization-framework` `swift` `ai-agent` `computer-use` `manus` `operator` `agent` `containerization` `windows` `windows-sandbox` `hacktoberfest` `computer-use-agent` `desktop-automation` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-01-31 |
-| 📦 **Latest release** | [cua-spaces-v0.41.1](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.1) — 2026-11-21 |
+| 📦 **Latest release** | [cua-spaces-v0.41.3](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.3) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 793.0 MB |
+| 💾 **Size** | 791.7 MB |
 | 🌐 **Website** | https://cua.ai |
 
 ## 📦 Recent releases
 
-### [cua-driver-rs-v0.56.4](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.56.4) — cua-driver-rs: v0.56.4 _(pre-release)_
-<sub>2026-11-21 · today</sub>
+### [cua-driver-rs-v0.58.1](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.58.1) — cua-driver-rs: v0.58.1 _(pre-release)_
+<sub>2026-11-22 · today</sub>
 
-> **Cua Driver 0.56.4**
+> **Cua Driver 0.58.1**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - restore macOS web type_text keys and unhide reopened apps. ([#8434](https://github.com/trycua/cua/pull/8434))
+> - keep the macOS agent cursor under a window covering its background target. ([#8511](https://github.com/trycua/cua/pull/8511)) reported by @r33drichards.
 > **Contributors**
 > …
 
-### [cua-spaces-v0.41.1](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.1) — Cua Spaces v0.41.1
-<sub>2026-11-21 · today</sub>
+### [cua-spaces-v0.41.3](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.3) — Cua Spaces v0.41.3
+<sub>2026-11-22 · today</sub>
 
-> **Cua Spaces 0.41.1**
+> **Cua Spaces 0.41.3**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - bundle cua 0.31.0 in Cua Spaces. ([#8429](https://github.com/trycua/cua/pull/8429))
+> - bundle Cua Driver 0.57.0 in Cua Spaces. ([#8486](https://github.com/trycua/cua/pull/8486))
 > **Contributors**
 > …
 
-### [cua-sdk-v0.31.0](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.31.0) — cua SDK 0.31.0
-<sub>2026-11-21 · today</sub>
+### [nightly-cua-driver-rs-v0.58.1-nightly.20261122.44984672738](https://github.com/trycua/cua/releases/tag/nightly-cua-driver-rs-v0.58.1-nightly.20261122.44984672738) _(pre-release)_
+<sub>2026-11-22 · today</sub>
 
-> cua SDK 0.31.0 release assets.
+> **Cua Driver 0.58.1-nightly.20261122.44984672738 (nightly)**
+> Automated immutable nightly built from an exact `main` commit. Nightlies are
+> opt-in, may be less stable than regular releases, and never replace stable
+> update discovery.
+> **Source**
+> - Commit: [`0e505e0064fe24e339fab071b30ea3f0841b5af6`](https://github.com/trycua/cua/commit/0e505e0064fe24e339fab071b30ea3f0841b5af6)
+> …
 
-### [cua-spaces-v0.41.0](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.0) — Cua Spaces v0.41.0
-<sub>2026-11-21 · today</sub>
+### [bench-v0.4.19](https://github.com/trycua/cua/releases/tag/bench-v0.4.19) — cua-bench v0.4.19
+<sub>2026-11-22 · today</sub>
 
-> **Cua Spaces 0.41.0**
+> **Cua Bench 0.4.19**
 > **Summary**
-> This release adds 1 feature.
-> **Features**
-> - Linux runtime in a Hyper-V VM on Windows without WSL 2. ([#8417](https://github.com/trycua/cua/pull/8417))
+> This release includes 1 fix.
+> **Fixes**
+> - correct "successfully" spelling in file-removal log. ([#8201](https://github.com/trycua/cua/pull/8201))
 > **Contributors**
 > …
 
-### [cua-sdk-v0.30.1](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.30.1) — cua SDK 0.30.1
-<sub>2026-11-21 · today</sub>
+### [bench-v0.4.18](https://github.com/trycua/cua/releases/tag/bench-v0.4.18) — cua-bench v0.4.18
+<sub>2026-11-22 · today</sub>
 
-> cua SDK 0.30.1 release assets.
+> **Cua Bench 0.4.18**
+> **Summary**
+> This release includes 1 fix.
+> **Fixes**
+> - accept cua-driver 0.58. ([#8502](https://github.com/trycua/cua/pull/8502))
+> **Contributors**
+> …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [fix(ci): assemble electron-windows in one upload so the Windows feed …](https://github.com/trycua/cua/commit/80a38488aa76dd4798f0d7500b7c93516ef2bb40) | f-trycua |
-| 2026-11-21 | [chore(main): release cua-spacesd 0.17.3 (#8472)](https://github.com/trycua/cua/commit/fb879ca7c4c3653c99fdc137757b41a5048a0f4f) | cua-release-bot[bot] |
-| 2026-11-21 | [fix(cua-driver): send a background pixel click past an element withou…](https://github.com/trycua/cua/commit/5118278c546c1e3e4f19844d144b56228cd30808) | injaneity |
-| 2026-11-21 | [fix(cua-spacesd): refuse a rootless Xwayland desktop instead of strea…](https://github.com/trycua/cua/commit/7ef9b7ac17247c4f47c21bad47c9f1e448c8bc15) | injaneity |
-| 2026-11-21 | [fix(cua-driver): report the window covering a verified bring_to_front…](https://github.com/trycua/cua/commit/45f5a417d5b6d68d62af12e0f0a0e247179f63f9) | injaneity |
-| 2026-11-21 | [fix(cua-driver): build move_cursor action records in its producers (#…](https://github.com/trycua/cua/commit/c50d638310f4d56c69789707f2d4b79cbee3dadb) | injaneity |
-| 2026-11-21 | [fix(cua-driver): match list_windows app filter against unlocalized bu…](https://github.com/trycua/cua/commit/20ddc5942fc2100825eb719acc03bf74a07de03b) | injaneity |
-| 2026-11-21 | [fix(cua-driver): build every Windows crate against windows 0.61 (#8444)](https://github.com/trycua/cua/commit/d0e4f4dc4e734affa6a1aca1464deddf55a71763) | injaneity |
-| 2026-11-21 | [chore(main): release cua-spaces 0.41.2 (#8455)](https://github.com/trycua/cua/commit/04d952f8c8336b1d2083b22c513a3fa9f662927e) | cua-release-bot[bot] |
-| 2026-11-21 | [chore(main): release cua-driver-rs 0.56.5 (#8454)](https://github.com/trycua/cua/commit/d6a57da5c620d19f1f2122c3c45d9fb0a94a579e) | cua-release-bot[bot] |
+| 2026-11-22 | [fix(cua-sandbox): accept cua-driver 0.59 (#8531)](https://github.com/trycua/cua/commit/fc6565225647eee294e38f40191454f39d7c81aa) | cua-release-bot[bot] |
+| 2026-11-22 | [feat(cua-driver): add metadata-only RuntimeWitnessV0 contract (#7952)](https://github.com/trycua/cua/commit/d4408c55de191e850dde7d68dabb9050ec0df375) | injaneity |
+| 2026-11-22 | [chore(cua-driver): advance published installer version to 0.58.1 (#8527)](https://github.com/trycua/cua/commit/cee1e4e7b6382e59dc8bd7622863ba9e1099df78) | cua-release-bot[bot] |
+| 2026-11-22 | [fix(cua-sandbox-apps): stop shell interpolation of icon paths in crea…](https://github.com/trycua/cua/commit/bb976e93cb3587e6d93198e368d9eadf261bc405) | f-trycua |
+| 2026-11-22 | [chore(main): release cua-driver-rs 0.58.2 (#8524)](https://github.com/trycua/cua/commit/b63bc99181b4cf7e4f550bc91b5238209e3af7bc) | cua-release-bot[bot] |
+| 2026-11-22 | [fix(cua-driver): keep foreground type_text out of sibling windows (#8…](https://github.com/trycua/cua/commit/3d434907b732cfcbd6f70ad2fcdb9cc4e4b26bf0) | injaneity |
+| 2026-11-22 | [fix(cua-driver): raise the agent cursor after an untargeted move that…](https://github.com/trycua/cua/commit/7a96d50efe6389c31747a03635faf4f4dfb5b1a8) | injaneity |
+| 2026-11-22 | [chore(main): release cua-driver-rs 0.58.1 (#8518)](https://github.com/trycua/cua/commit/68210fe377a532e7e3b58fa03c95d7fe9d11339b) | cua-release-bot[bot] |
+| 2026-11-22 | [ci(spaces): reuse main's compiled workspace crates in the app library…](https://github.com/trycua/cua/commit/357f4de37c5ec28b68e2cb710f320ead023b4b7c) | f-trycua |
+| 2026-11-22 | [ci(spaces): key the Rust dependency cache without the caller's cargo …](https://github.com/trycua/cua/commit/296337d6ff60cde4691fe648ee0b392666e252a4) | f-trycua |
 
 [See all commits ↗](https://github.com/trycua/cua/commits)
 

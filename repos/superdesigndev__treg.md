@@ -21,32 +21,32 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.7k |
-| 🍴 **Forks** | 855 |
-| 🐞 **Open issues + PRs** | [364](https://github.com/superdesigndev/treg/issues) |
+| 🍴 **Forks** | 860 |
+| 🐞 **Open issues + PRs** | [371](https://github.com/superdesigndev/treg/issues) |
 | 💻 **Languages** | Python 74% · HTML 14% · JavaScript 3% · Vue 3% · Go 3% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `dsh-plugin` `agents` `api-keys` `cli` `credentials` `developer-tools` `mcp` `proxy` `python` `registry` `secrets` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 139.3 MB |
+| 💾 **Size** | 139.5 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases
 
 ### [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — treg 1.0.0-beta.4 _(pre-release)_
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — treg 1.0.0-beta.3 _(pre-release)_
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — treg 1.0.0-beta.2 _(pre-release)_
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 10d ago</sub>
 
 > _No notes._
 
@@ -59,16 +59,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [Merge pull request #1870 from superdesigndev/feat/compare-hint-cli](https://github.com/superdesigndev/treg/commit/0abb4928e959e0d7d3ed5f04f325e17070ad76a1) | WorksOnMyVM |
+| 2026-11-22 | [test: regenerate the API surface snapshot for the compact comparison …](https://github.com/superdesigndev/treg/commit/5f42a8cd296ef94aefb26323456c8a4b5dd97243) | WorksOnMyVM |
+| 2026-11-22 | [fix(compare): one hints declaration per call, a note that outlives a …](https://github.com/superdesigndev/treg/commit/379c721a82aff2ac0280121c9813e3edcf78a464) | WorksOnMyVM |
+| 2026-11-22 | [fix(compare): keep --org and declared hints in the CLI, batch the ans…](https://github.com/superdesigndev/treg/commit/7694b1103d00c6939246586547418a7c95dac8b2) | WorksOnMyVM |
+| 2026-11-22 | [fix(compare): keep a CLI comparison in the call's team and judge team…](https://github.com/superdesigndev/treg/commit/d2ef3a9431372a45dd391dbda44155896a708742) | WorksOnMyVM |
+| 2026-11-22 | [feat(compare): show a waiting comparison beside a CLI call](https://github.com/superdesigndev/treg/commit/809c360cac779c12ee037630d0c24ddb7b152c32) | WorksOnMyVM |
+| 2026-11-22 | [Merge pull request #1869 from superdesigndev/feat/cursor-plugin-category](https://github.com/superdesigndev/treg/commit/e56af275b4e6ebeb64945958b614ddf8355ca2ba) | JayZeeDesign |
+| 2026-11-21 | [feat(plugin): set Cursor plugin category to research](https://github.com/superdesigndev/treg/commit/752590e0a57ffe6bb3c84c3fde850fa0909dd9c5) | JayZeeDesign |
 | 2026-11-21 | [Merge pull request #1865 from superdesigndev/fix/compare-scan-eligibl…](https://github.com/superdesigndev/treg/commit/da380e389ae76f932c3aa425b3cefe489c4dbdd4) | WorksOnMyVM |
 | 2026-11-21 | [docs(compare): describe the scan miss without traffic figures](https://github.com/superdesigndev/treg/commit/924f7972bd4099d7f69d22f1ca92857237fb3043) | WorksOnMyVM |
-| 2026-11-21 | [fix(compare): scan only eligible teams' calls so earlier markers are …](https://github.com/superdesigndev/treg/commit/3e598ba33133d181844d70151fbbe960c4254252) | WorksOnMyVM |
-| 2026-11-21 | [Merge pull request #1863 from superdesigndev/feat/compare-marker-diag…](https://github.com/superdesigndev/treg/commit/c6bf7ba0efe76c141385f21d186e7055934c6770) | WorksOnMyVM |
-| 2026-11-21 | [fix(compare): count a marker only when the store accepted it](https://github.com/superdesigndev/treg/commit/5c9d8cf06abb7b9add6651cd0d772dbd5e475354) | WorksOnMyVM |
-| 2026-11-21 | [feat(feedback): count why routed calls are or are not marked for comp…](https://github.com/superdesigndev/treg/commit/9ac53f2b86ebba561d434612426d74c63376ac16) | WorksOnMyVM |
-| 2026-11-21 | [Merge pull request #1687 from superdesigndev/fix/archivekeyorg-natura…](https://github.com/superdesigndev/treg/commit/219fdaaad1fcb74a1aa5e34d5311c2d88f5f1942) | unclecode |
-| 2026-11-21 | [Merge pull request #1862 from superdesigndev/feat/compare-inline-pair](https://github.com/superdesigndev/treg/commit/bdc0bf55e5db41fa8aeba5ba99a88db0f307db06) | WorksOnMyVM |
-| 2026-11-21 | [chore(alembic): renumber the archive mark key revisions to 0120 and 0121](https://github.com/superdesigndev/treg/commit/ceb9ef3c494c3fc91246fd10574d46b803553317) | unclecode |
-| 2026-11-21 | [docs(alembic): 0119 is a hard rollback floor, and older code takes se…](https://github.com/superdesigndev/treg/commit/1d255d94b935da6ef565235a86cb8380120006b7) | unclecode |
 
 [See all commits ↗](https://github.com/superdesigndev/treg/commits)
 

@@ -21,16 +21,16 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 14.1k |
-| 🍴 **Forks** | 786 |
+| 🍴 **Forks** | 789 |
 | 🐞 **Open issues + PRs** | [122](https://github.com/e2e-inc/e2e/issues) |
 | 💻 **Languages** | TypeScript 99% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `e2e` `e2e-testing` `end-to-end-testing` `mobile` `mobile-testing` `playwright` `web` `ai-testing` `automation-testing` `qa` `test-automation` `testing` `testing-framework` `testing-tools` `ui-testing` `agentic-testing` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-07-22 |
 | 📦 **Latest release** | [@e2e-dev/revyl@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/revyl%400.0.1) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 122.6 MB |
+| 💾 **Size** | 121.9 MB |
 | 🌐 **Website** | https://e2e.com |
 
 ## 📦 Recent releases
@@ -73,16 +73,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [fix(web): fail setInputFiles on a missing path as INVALID_ARGUMENT be…](https://github.com/e2e-inc/e2e/commit/6fdb1c278a0f5cce1d0e7376436f3674d72b07dc) | kunalgoesbyken |
+| 2026-11-22 | [fix(desktop): fix input, read, cleanup, and launch bugs found reviewi…](https://github.com/e2e-inc/e2e/commit/53f5cf603180e258c126f9afb6159f1cdd55ecf0) | kdy1 |
+| 2026-11-22 | [fix(core): translate provider failures on ai releases before 7.0.88 (…](https://github.com/e2e-inc/e2e/commit/f4fb7c7581993a545cb9e0cb0b8fb49783df6957) | okwasniewski |
+| 2026-11-22 | [fix(cache): record a focused-field value as a gap when the step showe…](https://github.com/e2e-inc/e2e/commit/77c5e537db338eeff3c8e819045c23acdeed698e) | Asheesh7298 |
+| 2026-11-22 | [feat(expect): expect(fn).toPass() and expect.poll intervals (#2013)](https://github.com/e2e-inc/e2e/commit/7e3205461b5efbd11dc81db6cd0a6c1fd90db7e6) | satya164 |
+| 2026-11-22 | [fix(web): refuse an unknown browser name or a malformed viewport in w…](https://github.com/e2e-inc/e2e/commit/851127396c3c1b82a4599877c3c0ef8b4fdcf554) | kunalgoesbyken |
 | 2026-11-21 | [feat(test): add test.describe.fail and the fail option on describe (#…](https://github.com/e2e-inc/e2e/commit/c30354ff84668a9c4e0d7bd8790e93d85f40a20c) | Vishwas1345 |
 | 2026-11-21 | [ci: drop stale review labels and let fork authors ask with /ready (#2…](https://github.com/e2e-inc/e2e/commit/1f93969631c2966315a28b456a927f44ea07c195) | okwasniewski |
 | 2026-11-21 | [fix(web): read content hidden under a closed details across shadow ro…](https://github.com/e2e-inc/e2e/commit/f8aa3131cb6cc70e7a8037489fcefa5ae6c25715) | michal-e2e |
 | 2026-11-21 | [fix(desktop-testbed): pin ai to 7.0.179 like the rest of the repo (#2…](https://github.com/e2e-inc/e2e/commit/f18321aa5a34a21cdd91a0d846b80be825799a6b) | okwasniewski |
-| 2026-11-21 | [feat(web): match route and waitForResponse by method (#1924)](https://github.com/e2e-inc/e2e/commit/003c18a4ee57be2a6a280dcc3047f5f3ff3fdf64) | ijaidev |
-| 2026-11-21 | [feat(desktop): add the @e2e-dev/desktop engine on agent-desktop (#1953)](https://github.com/e2e-inc/e2e/commit/a2d0363128c95288b8e43d50029dc7a14b40c002) | kdy1 |
-| 2026-11-21 | [feat(mobile): add device.viewport() (#2033)](https://github.com/e2e-inc/e2e/commit/abb40648ed83ef2d7c28b76a725798ffd8f3233f) | FaZeDrug |
-| 2026-11-21 | [feat(screen): accept percent points in tapAt, doubleTapAt, and swipe …](https://github.com/e2e-inc/e2e/commit/ed48b0b455a3a2b1bfd5779b2c4b2d45bfe57bee) | rentezzy |
-| 2026-11-21 | [fix(core): stop launch() hosts from driving one mobile device (#2008)](https://github.com/e2e-inc/e2e/commit/5b61f221aa69d6bf0b3dad0ea270fc85e5098475) | michal-e2e |
-| 2026-11-21 | [docs(ja): catch up with English changes (#2032)](https://github.com/e2e-inc/e2e/commit/6fbadcb7cdf4151f967aa6d42fefd108e0e63ebd) | kazutoyo |
 
 [See all commits ↗](https://github.com/e2e-inc/e2e/commits)
 

@@ -21,22 +21,44 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 63.7k |
-| 🍴 **Forks** | 13.4k |
+| 🍴 **Forks** | 13.5k |
 | 🐞 **Open issues + PRs** | [5.4k](https://github.com/BerriAI/litellm/issues) |
-| 💻 **Languages** | Python 83% · TypeScript 10% · Rust 6% |
+| 💻 **Languages** | Python 82% · TypeScript 10% · Rust 6% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `anthropic` `langchain` `llm` `llmops` `openai` `ai-gateway` `azure-openai` `bedrock` `gateway` `openai-proxy` `vertex-ai` `llm-gateway` `litellm` `mcp-gateway` `rust` `rust-ai` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-07-27 |
-| 📦 **Latest release** | [v1.108.14](https://github.com/BerriAI/litellm/releases/tag/v1.108.14) — 2026-11-20 |
+| 📦 **Latest release** | [v1.108.15](https://github.com/BerriAI/litellm/releases/tag/v1.108.15) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3088.2 MB |
+| 💾 **Size** | 3104.0 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases
 
+### [v1.108.15](https://github.com/BerriAI/litellm/releases/tag/v1.108.15) — 1.108.15 (LTS)
+<sub>2026-11-21 · today</sub>
+
+> > [!TIP]
+> > The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch
+> **Verify this release**
+> ```bash
+> cosign verify \
+>   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
+> …
+
+### [v1.112.0-dev.2](https://github.com/BerriAI/litellm/releases/tag/v1.112.0-dev.2) _(pre-release)_
+<sub>2026-11-21 · today</sub>
+
+> **Verify Docker Image Signature**
+> ```bash
+> cosign verify \
+>   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
+>   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
+>   ghcr.io/berriai/litellm:v1.112.0-dev.2
+> …
+
 ### [v1.108.14](https://github.com/BerriAI/litellm/releases/tag/v1.108.14) — 1.108.14 (LTS)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > > [!TIP]
 > > The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch
@@ -47,7 +69,7 @@
 > …
 
 ### [v1.106.12](https://github.com/BerriAI/litellm/releases/tag/v1.106.12)
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **Verify this release**
 > ```bash
@@ -58,7 +80,7 @@
 > …
 
 ### [v1.111.0-rc.3](https://github.com/BerriAI/litellm/releases/tag/v1.111.0-rc.3) _(pre-release)_
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **Verify this release**
 > ```bash
@@ -68,42 +90,20 @@
 >   ghcr.io/berriai/litellm:v1.111.0-rc.3
 > …
 
-### [v1.109.3](https://github.com/BerriAI/litellm/releases/tag/v1.109.3)
-<sub>2026-11-20 · yesterday</sub>
-
-> **Verify this release**
-> ```bash
-> cosign verify \
->   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
->   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
->   ghcr.io/berriai/litellm:v1.109.3
-> …
-
-### [v1.108.13](https://github.com/BerriAI/litellm/releases/tag/v1.108.13) — 1.108.13 (LTS)
-<sub>2026-11-20 · yesterday</sub>
-
-> > [!TIP]
-> > The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch
-> **Verify this release**
-> ```bash
-> cosign verify \
->   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [feat(gateway): answer a stream the provider fails before any content …](https://github.com/BerriAI/litellm/commit/754c2225d7db8ce71a94459df2216708995c037b) | yujonglee-berri |
-| 2026-11-21 | [feat(gateway): model restamping in rust gateway (#52428)](https://github.com/BerriAI/litellm/commit/d0de3c274c67c6cb1ae1263809965c7528ed6395) | yujonglee-berri |
-| 2026-11-21 | [refactor(auth-store): shape the cached virtual key in Rust and load i…](https://github.com/BerriAI/litellm/commit/590f5b8992bb54459ddfdce3a45f1030e55a8f83) | yujonglee-berri |
-| 2026-11-21 | [refactor(auth_cache_invalidation): move the invalidation channel to t…](https://github.com/BerriAI/litellm/commit/6245f94734938b0cfc25d208064a01806518040d) | yujonglee-berri |
-| 2026-11-21 | [refactor(auth_cache): type auth cache keys and keep the cache always …](https://github.com/BerriAI/litellm/commit/e8ae52cd618843cd2cf63b410751c434b8df083f) | yujonglee-berri |
-| 2026-11-21 | [feat(gateway): serve inference through router-core with the host glue…](https://github.com/BerriAI/litellm/commit/897fb204f6ab44fc412453c36fc4c3caeca49467) | yujonglee-berri |
-| 2026-11-21 | [test: isolate guardrail opt-out from AWS signing executor timing (#53…](https://github.com/BerriAI/litellm/commit/bc2b1d771f3e78c034c52157fdefabbcdc44fab8) | devin-ai-integration[bot] |
-| 2026-11-21 | [test(spend): assert ledger callback counts apart from wire command or…](https://github.com/BerriAI/litellm/commit/e6f9598da099ec31e3be25fe2b8926249ee94c01) | devin-ai-integration[bot] |
-| 2026-11-21 | [test(files): measure only upload path allocations in the large upload…](https://github.com/BerriAI/litellm/commit/c7f05822a3b9fa57d50c2b88a627be1d4d2ee9b7) | devin-ai-integration[bot] |
-| 2026-11-21 | [feat(provider)!: add ResetData and stop sending OPENAI_API_KEY to key…](https://github.com/BerriAI/litellm/commit/ac7674625ceed298d6c411cc964f23aded63989d) | TheRealKraken |
+| 2026-11-22 | [feat(proxy)!: carry unused budget into the next period with a cap (#5…](https://github.com/BerriAI/litellm/commit/90dce4b93bd2b090621a6b9083311294d3358bc6) | shivamrawat1 |
+| 2026-11-22 | [refactor: drop slop comments and string getattr from fresh code (#53552)](https://github.com/BerriAI/litellm/commit/6df435f81c1703f1c6c61a2b4f4f1aaf54a31c0c) | devin-ai-integration[bot] |
+| 2026-11-22 | [feat(realtime): bill translation WebRTC calls by the time the call ra…](https://github.com/BerriAI/litellm/commit/aa166f1b9abff926711255be8e85b85d18c88f5a) | moe-berri |
+| 2026-11-22 | [fix(models): declare GPT-Live and translation endpoints (#53277)](https://github.com/BerriAI/litellm/commit/18fe30f31d0b94683efa3b494e8da920f6b02f47) | moe-berri |
+| 2026-11-22 | [test(e2e): expect the Models refresh action in the page header above …](https://github.com/BerriAI/litellm/commit/39d797be54d828926218298a6741db9918e055a7) | kerry-berri |
+| 2026-11-22 | [fix(models): accept the Live sessions route in the Rust catalog (#53279)](https://github.com/BerriAI/litellm/commit/935177e7baf0bf240e2f41d069b682c24aa62a82) | moe-berri |
+| 2026-11-22 | [test(e2e): match the renamed Virtual Key and Admin labels in UI specs…](https://github.com/BerriAI/litellm/commit/20a9c0c6a558240519c19675b7c5dbff38cd5bb7) | kerry-berri |
+| 2026-11-22 | [test(e2e): expect the Admin Settings heading on the admin page (#53545)](https://github.com/BerriAI/litellm/commit/2e2bd37853238a50cad8c48efe38bf481f61e1c3) | kerry-berri |
+| 2026-11-22 | [test(e2e): match the Skills Hub search placeholder (#53544)](https://github.com/BerriAI/litellm/commit/2abb952dd0043759febd2374f8b870cab98880a0) | kerry-berri |
+| 2026-11-22 | [test(e2e): expect only key-creating teams in the Create Key team drop…](https://github.com/BerriAI/litellm/commit/3938707deb5259b9d3860b02c0bcdfa0e28a563f) | kerry-berri |
 
 [See all commits ↗](https://github.com/BerriAI/litellm/commits)
 

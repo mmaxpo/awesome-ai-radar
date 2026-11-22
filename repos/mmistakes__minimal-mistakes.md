@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 13.6k |
 | 🍴 **Forks** | 27.1k |
-| 🐞 **Open issues + PRs** | [25](https://github.com/mmistakes/minimal-mistakes/issues) |
+| 🐞 **Open issues + PRs** | [23](https://github.com/mmistakes/minimal-mistakes/issues) |
 | 💻 **Languages** | HTML 47% · SCSS 47% · JavaScript 3% · Ruby 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `jekyll` `jekyll-theme` `theme` `github-pages` `ruby-gem` `algolia` `algolia-search` `lunr` |

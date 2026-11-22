@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 56.8k |
-| 🍴 **Forks** | 6.6k |
-| 🐞 **Open issues + PRs** | [492](https://github.com/aaif-goose/goose/issues) |
+| ⭐ **Stars** | 56.9k |
+| 🍴 **Forks** | 6.7k |
+| 🐞 **Open issues + PRs** | [498](https://github.com/aaif-goose/goose/issues) |
 | 💻 **Languages** | Rust 72% · TypeScript 23% · Python 1% · JavaScript 1% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `mcp` `acp` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-20 (yesterday) |
 | 📅 **Created** | 2024-08-23 |
 | 📦 **Latest release** | [v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2)
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **✨ Features**
 > - Gemini 4 Neon added to the model catalog [#13684](https://github.com/aaif-goose/goose/pull/13684)
@@ -44,13 +44,13 @@
 > - Thinking levels now sent to Gemini 4 and later, including xhigh [#13673](https://github.com/aaif-goose/goose/pull/13673)
 
 ### [v1.60.1](https://github.com/aaif-goose/goose/releases/tag/v1.60.1)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **🐛 Bug Fixes**
 > - Compaction: drop the `<analysis>` scratchpad that Claude models refuse [#13572](https://github.com/aaif-goose/goose/pull/13572)
 
 ### [v1.60.0](https://github.com/aaif-goose/goose/releases/tag/v1.60.0)
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **✨ Features**
 > - SkillOperation and drop the Skills extension [#13574](https://github.com/aaif-goose/goose/pull/13574)
@@ -61,13 +61,13 @@
 > …
 
 ### [v1.59.2](https://github.com/aaif-goose/goose/releases/tag/v1.59.2)
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 6d ago</sub>
 
 > **🐛 **Bug Fixes****
 > - Databricks provider: drop thinking blocks bound to a different prefix [#13551](https://github.com/aaif-goose/goose/pull/13551)
 
 ### [v1.59.1](https://github.com/aaif-goose/goose/releases/tag/v1.59.1)
-<sub>2026-11-14 · 7d ago</sub>
+<sub>2026-11-14 · 8d ago</sub>
 
 > macOS desktop builds and full release notes coming soon.
 

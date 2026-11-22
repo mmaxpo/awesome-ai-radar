@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 11.6k |
-| 🍴 **Forks** | 1.7k |
-| 🐞 **Open issues + PRs** | [6](https://github.com/JuneYaooo/rea-video/issues) |
+| ⭐ **Stars** | 12.0k |
+| 🍴 **Forks** | 1.8k |
+| 🐞 **Open issues + PRs** | [7](https://github.com/JuneYaooo/rea-video/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai-video` `aigc-detection` `claude-code` `codex` `ffmpeg` `prompt-engineering` `remotion` `reverse-engineering` `short-video` `shot-detection` `subtitles` `video-analysis` `video-breakdown` `video-editing` `video-generation` `vlm` `videomd` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-10-29 |
 | 📦 **Latest release** | [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 72.9 MB |
+| 💾 **Size** | 73.3 MB |
 | 🌐 **Website** | https://www.reavideo.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0)
-<sub>2026-11-11 · 9d ago</sub>
+<sub>2026-11-11 · 10d ago</sub>
 
 > **视频拆解标准包 Reel，报告重写，音效单独分离**
 > 这一版定下了视频拆解的标准包格式：拆片包（Reel）。拆一条视频现在得到两样东西：给人看的报告（HTML / PDF），和给模型、下游项目读的拆片包。格式介绍和规范见 [docs/reel.md](https://github.com/JuneYaooo/rea-video/blob/v0.1.0/docs/reel.md)。
@@ -50,16 +50,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Make reports easier to read](https://github.com/JuneYaooo/rea-video/commit/86486c6e104b917fb4b6a2d6501134686c05b219) | JuneYaooo |
-| 2026-11-21 | [Refresh report layout](https://github.com/JuneYaooo/rea-video/commit/612b3ef523c868d4c7cd5741ce29ba159f7582cb) | JuneYaooo |
-| 2026-11-21 | [Keep pitch frames steady and clarify Windows setup](https://github.com/JuneYaooo/rea-video/commit/2901858590cd919aeb48a9d0ab8b34463ea1b51a) | JuneYaooo |
-| 2026-11-21 | [Fix pitch analysis past the end of audio](https://github.com/JuneYaooo/rea-video/commit/3d9a740b7b5d449b3cba7af16a0125ee38276163) | zitihc |
-| 2026-11-21 | [fmt_time: carry rounded-up seconds into the minutes](https://github.com/JuneYaooo/rea-video/commit/8fae330148b6ea4a8ee76db88e425462fb1a2616) | nurlanmnn |
-| 2026-11-21 | [docs(setup): say which Python the Windows install uses](https://github.com/JuneYaooo/rea-video/commit/27cc34c0d7cad1285807f32fd0cc6c177ce6a8b1) | xdAsaah |
-| 2026-11-21 | [Handle image paths and Windows setup](https://github.com/JuneYaooo/rea-video/commit/4d98dd8dd1838edfa58037cf4df9d1cccc245da7) | JuneYaooo |
-| 2026-11-21 | [Report a missing ffmpeg when probe runs, not a missing file](https://github.com/JuneYaooo/rea-video/commit/73541597454c29281103e03029ba7bdb439875b7) | xdAsaah |
-| 2026-11-21 | [Tell Windows users how to install ffmpeg and Python, and how to link …](https://github.com/JuneYaooo/rea-video/commit/1526ca3b3c9c166f16a6425f34667981d7041725) | xdAsaah |
-| 2026-11-21 | [Find browsers in the 64-bit and per-user Windows install locations](https://github.com/JuneYaooo/rea-video/commit/6eb1e1779e57426a3ccf3b2e4cd8d992ce8180b5) | xdAsaah |
+| 2026-11-22 | [Point remakes to Capsule recipes first](https://github.com/JuneYaooo/rea-video/commit/574c47a2ce5dfc8b2197d64f7cfae02755736b78) | JuneYaooo |
+| 2026-11-22 | [Flag reference frames that conflict with swaps](https://github.com/JuneYaooo/rea-video/commit/01258b9e85a270dc49d1725819ced6d60228ec7b) | JuneYaooo |
+| 2026-11-22 | [Weigh image reviews and uncertain shots more carefully](https://github.com/JuneYaooo/rea-video/commit/9f1b075d6a7b1a6782feb5f4e8d3dd83a3dc5762) | JuneYaooo |
+| 2026-11-22 | [Keep remake execution in one place](https://github.com/JuneYaooo/rea-video/commit/de506fd5f157315b4089629286af1ab96c01a072) | JuneYaooo |
+| 2026-11-22 | [Make remake runs more reliable](https://github.com/JuneYaooo/rea-video/commit/90eae960d13643e24a0066d6f569df7f390f0567) | JuneYaooo |
+| 2026-11-22 | [Add an English path through the docs and CLI](https://github.com/JuneYaooo/rea-video/commit/6b2f689b64cef6106601571a87d1d1f1a24c3ddf) | JuneYaooo |
+| 2026-11-22 | [Hand remakes to Capsule Cinema and keep packages portable](https://github.com/JuneYaooo/rea-video/commit/865888a1ef43558c129edcaa07ec864f3692a491) | JuneYaooo |
+| 2026-11-22 | [Note default remake model](https://github.com/JuneYaooo/rea-video/commit/6c1c8f51315fb552bd9ff10d451fa5c324a3e066) | JuneYaooo |
+| 2026-11-22 | [Polish plugin listing](https://github.com/JuneYaooo/rea-video/commit/916cb6f1cab3ae7574bfa68aaaf9e48f74334bfb) | JuneYaooo |
+| 2026-11-22 | [Smooth out plugin installs](https://github.com/JuneYaooo/rea-video/commit/7a299954ed004ad32f76ad3f3506f7f4c99ccffd) | JuneYaooo |
 
 [See all commits ↗](https://github.com/JuneYaooo/rea-video/commits)
 

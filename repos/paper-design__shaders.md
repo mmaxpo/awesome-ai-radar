@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `shaders` `webgl` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-21 (yesterday) |
 | 📅 **Created** | 2024-10-09 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

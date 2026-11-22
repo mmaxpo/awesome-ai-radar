@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 150.0k |
 | 🍴 **Forks** | 25.2k |
-| 🐞 **Open issues + PRs** | [784](https://github.com/langchain-ai/langchain/issues) |
+| 🐞 **Open issues + PRs** | [785](https://github.com/langchain-ai/langchain/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `anthropic` `gemini` `langchain` `llm` `openai` `python` `agents` `ai-agents` `chatgpt` `enterprise` `framework` `generative-ai` `multiagent` `open-source` `pydantic` `rag` `deepagents` `langgraph` `typescript` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2022-10-17 |
 | 📦 **Latest release** | [langchain-openai==1.8.5](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5) — 2026-11-19 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 629.5 MB |
+| 💾 **Size** | 629.3 MB |
 | 🌐 **Website** | https://docs.langchain.com/langchain/ |
 
 ## 📦 Recent releases
 
 ### [langchain-openai==1.8.5](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > Changes since langchain-openai==1.8.4
 > release(openai): 1.8.5 (#41969)
@@ -44,7 +44,7 @@
 > feat(core): standardize finish reason on message-finish events (#41926)
 
 ### [langchain-anthropic==1.7.12](https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.12)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > Changes since langchain-anthropic==1.7.11
 > release(anthropic): 1.7.12 (#41966)
@@ -54,7 +54,7 @@
 > fix(anthropic): don't share the async HTTP client between models (#41946)
 
 ### [langchain-core==1.8.4](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.4)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > Changes since langchain-core==1.8.3
 > release(core): 1.8.4 (#41964)
@@ -62,7 +62,7 @@
 > feat(langchain): tag synthetic HITL tool messages with source metadata (#41928)
 
 ### [langchain-openai==1.8.4](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.4)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > Changes since langchain-openai==1.8.3
 > release(openai): 1.8.4 (#41962)

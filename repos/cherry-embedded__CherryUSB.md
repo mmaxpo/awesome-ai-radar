@@ -26,7 +26,7 @@
 | 💻 **Languages** | C 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `usb-host` `usb-device` `usb` `cdc` `hid` `uvc` `uac` `dfu` `ehci` `hub` `rndis` `musb` `dwc2` `xhci` `cherryusb` `cdns2` `cdns3` `ohci` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-20 (2d ago) |
 | 📅 **Created** | 2021-07-10 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/cherry-embedded/CherryUSB/releases/tag/v1.6.1) — 2026-04-27 |
 | 🌿 **Default branch** | `master` |

@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 3.2k |
-| 🍴 **Forks** | 166 |
+| 🍴 **Forks** | 165 |
 | 🐞 **Open issues + PRs** | [11](https://github.com/ibelick/prompt-kit/issues) |
 | 💻 **Languages** | TypeScript 82% · MDX 14% · JavaScript 3% · CSS 1% |
 | 📜 **License** | MIT |

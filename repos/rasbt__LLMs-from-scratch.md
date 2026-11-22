@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 108.8k |
 | 🍴 **Forks** | 16.8k |
-| 🐞 **Open issues + PRs** | [9](https://github.com/rasbt/LLMs-from-scratch/issues) |
+| 🐞 **Open issues + PRs** | [7](https://github.com/rasbt/LLMs-from-scratch/issues) |
 | 💻 **Languages** | Jupyter Notebook 73% · Python 27% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `gpt` `large-language-models` `llm` `python` `pytorch` `ai` `artificial-intelligence` `language-model` `deep-learning` `machine-learning` `from-scratch` `generative-ai` `transformers` `attention-mechanism` `finetuning` `instruction-tuning` `natural-language-processing` `pretraining` `tokenizer` |
-| 🕒 **Last activity** | 2026-11-20 (today) |
+| 🕒 **Last activity** | 2026-11-21 (today) |
 | 📅 **Created** | 2023-07-23 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,8 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-21 | [Correct softmax output shape comments (#1124)](https://github.com/rasbt/LLMs-from-scratch/commit/3040b6cdb75ddbd96a33d3beae17dc03dcd1ebc3) | 2kclo3 |
+| 2026-11-21 | [Add a Chapter 2 bonus on strided data loading (#1125)](https://github.com/rasbt/LLMs-from-scratch/commit/ad8bcdc2243557bfda7a271c72da294c94f5537f) | rasbt |
 | 2026-11-09 | [Pass alternative flag through recursive LoRA replacement (#1114)](https://github.com/rasbt/LLMs-from-scratch/commit/0311973e2c974b9e0223933103dc400c7a536179) | MohammadHijjawi97 |
 | 2026-11-06 | [Add tests for MoE KV-cache bonus and fix top_k > num_experts in MoE m…](https://github.com/rasbt/LLMs-from-scratch/commit/62f941fe71ed7ddae4005d24fca3d3df38631db7) | io-prashant |
 | 2026-11-06 | [Fix n_kv_groups interpretation in MLA, SWA, and KV-sharing memory est…](https://github.com/rasbt/LLMs-from-scratch/commit/813f511013ba7d55a9047b8bad63fe87d00a1bbf) | io-prashant |
@@ -49,8 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-05 | [Fix off-by-one in max_generable of optimized KV cache generation (#1109)](https://github.com/rasbt/LLMs-from-scratch/commit/b093eb06c2973625a2d3994530cce1c15b782886) | MohammadHijjawi97 |
 | 2026-11-05 | [Update reasoning-from-scratch submodule (#1108)](https://github.com/rasbt/LLMs-from-scratch/commit/73961695d50b842ab5df7b1b12cd72cea5b777e8) | rasbt |
 | 2026-11-05 | [Use hf repo as primary backup dir if OpenAI server is down (#1107)](https://github.com/rasbt/LLMs-from-scratch/commit/28769e19032a309a219e4bc4eb2c7dd4e37fef17) | rasbt |
-| 2026-10-30 | [Fix tokens/sec calculation and add context-length check (#1102)](https://github.com/rasbt/LLMs-from-scratch/commit/fb009538a8875f481a10f3f1f7b93b9ee51a42e3) | danishshaikh06 |
-| 2026-10-30 | [Fix wrong pairs and removals in find-near-duplicates.py with empty va…](https://github.com/rasbt/LLMs-from-scratch/commit/2f688848af4ddeca8fe9ac97f4bf70d4a18afe2d) | MohammadHijjawi97 |
 
 [See all commits ↗](https://github.com/rasbt/LLMs-from-scratch/commits)
 

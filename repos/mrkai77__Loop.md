@@ -22,19 +22,19 @@
 |---|---|
 | ⭐ **Stars** | 12.0k |
 | 🍴 **Forks** | 286 |
-| 🐞 **Open issues + PRs** | [51](https://github.com/mrkai77/Loop/issues) |
+| 🐞 **Open issues + PRs** | [49](https://github.com/mrkai77/Loop/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `macos` `swift` `window-management` `swiftui` `radial-menu` `macos-app` `menu` `productivity` |
-| 🕒 **Last activity** | 2026-11-19 (2d ago) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-01-24 |
 | 📦 **Latest release** | [1.4.2](https://github.com/mrkai77/Loop/releases/tag/1.4.2) — 2026-01-26 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 356.1 MB |
+| 💾 **Size** | 355.4 MB |
 
 ## 📦 Recent releases
 
-### [prerelease](https://github.com/mrkai77/Loop/releases/tag/prerelease) — 🧪 1.4.3 (1792) _(pre-release)_
+### [prerelease](https://github.com/mrkai77/Loop/releases/tag/prerelease) — 🧪 1.4.3 (1793) _(pre-release)_
 <sub>2025-11-08 · 1y ago</sub>
 
 > **📰 Development News**
@@ -46,7 +46,7 @@
 > …
 
 ### [1.4.2](https://github.com/mrkai77/Loop/releases/tag/1.4.2)
-<sub>2026-01-26 · 9mo ago</sub>
+<sub>2026-01-26 · 10mo ago</sub>
 
 > **📰 Development News**
 > - 🚧 Fixed an issue in the previous version’s updater that may prevent Loop's updates from installing. If you are prompted to install this update multiple times, please install the app manually from [here](https://github.com/MrKai77/Loop/releases/tag/1.4.2).
@@ -93,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [🐞 Shrink a window before moving it to a smaller frame (#1190)](https://github.com/mrkai77/Loop/commit/5cc7551c2caa177ff0b9d5ba63410a2c98371e43) | jvanderen1 |
+| 2026-11-22 | [🐞 Replace SkyLight window blur with an in-window backdrop blur](https://github.com/mrkai77/Loop/commit/56a96f7f1bd52a72c3a7b6b06febdd5d85710534) | mrkai77 |
 | 2026-11-17 | [🐞 Fix window focus within frontmost app + gesture rebuild fixes (#1211)](https://github.com/mrkai77/Loop/commit/1bba20ec84f336943aae884c8650b2c6907fb87a) | mrkai77 |
 | 2026-11-14 | [🐞 Fix delayed gesture availability after login (#1209)](https://github.com/mrkai77/Loop/commit/e8560f458ad14c403c1629dfbe0b3bfdce0fa6a7) | mrkai77 |
 | 2026-11-14 | [🐞 Track physical Fn state so media keys don't trigger Loop (#1184)](https://github.com/mrkai77/Loop/commit/fdd78fe9a94210cd7f5df883c5aadd5c2fdabd03) | root-daemon |
@@ -101,8 +103,6 @@
 | 2026-11-13 | [🎨 Make swipe and pinch gesture code consistent (#1207)](https://github.com/mrkai77/Loop/commit/4a63f979bc96959f641d842a2e37224a5c92f066) | mrkai77 |
 | 2026-11-13 | [Hold pinches until Loop accepts them (#1185)](https://github.com/mrkai77/Loop/commit/fae85f5ee0dcd5dcfcaa6e7ce96d60d565cce534) | jvanderen1 |
 | 2026-11-09 | [✨ Track the original radial menu gesture in the session](https://github.com/mrkai77/Loop/commit/b041fcbb6644e0e5d7fbd06cde96e2819182f2fb) | mrkai77 |
-| 2026-11-09 | [✨ Let gestures override radial menu directions (#1189)](https://github.com/mrkai77/Loop/commit/fbf21e893add21a40593db1911febd09e6e8c95f) | mrkai77 |
-| 2026-10-13 | [🐞 Stop trackpad gestures from scrolling the page behind them (#1176)](https://github.com/mrkai77/Loop/commit/573ace3071641bbe002527ccfc0811842300ccba) | mrkai77 |
 
 [See all commits ↗](https://github.com/mrkai77/Loop/commits)
 

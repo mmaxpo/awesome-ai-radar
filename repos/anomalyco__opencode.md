@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 228.4k |
+| ⭐ **Stars** | 228.5k |
 | 🍴 **Forks** | 31.0k |
 | 🐞 **Open issues + PRs** | [4.1k](https://github.com/anomalyco/opencode/issues) |
-| 💻 **Languages** | TypeScript 85% · MDX 10% · CSS 3% |
+| 💻 **Languages** | TypeScript 74% · Rust 14% · MDX 9% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-04-30 |
 | 📦 **Latest release** | [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2) — 2026-11-18 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 747.3 MB |
+| 💾 **Size** | 728.8 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
 
 ### [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **Highlights**
 > - **GPT-6.2 Prompt Caching**: GPT-6.2 models don't cache a system prompt sent in the Responses `instructions` field, so every step re-billed it as uncached input. OpenCode now sends it as a leading developer message on every Responses route, including OpenAI (API key and ChatGPT sign-in), GitHub Copilot, Zen, Azure and OpenRouter, so it is cached from the second step on. ([#64542](https://github.com/anomalyco/opencode/pull/64542), [#64544](https://github.com/anomalyco/opencode/pull/64544))
@@ -46,7 +46,7 @@
 > - `webfetch` structured output no longer repeats the `url` and `format` it was called with. ([#64534](https://github.com/anomalyco/opencode/pull/64534))
 
 ### [v2.3.1](https://github.com/anomalyco/opencode/releases/tag/v2.3.1)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **Highlights**
 > - **Timed-Out Shell Commands Keep Running**: A shell command still running when its timeout expires now moves to the background instead of being killed, so long builds and test runs finish and report back. A foreground `timeout: 0` now means the default 120 seconds. ([#63699](https://github.com/anomalyco/opencode/pull/63699))
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.19.6](https://github.com/anomalyco/opencode/releases/tag/v1.19.6)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **Desktop**
 > **Improvements**
@@ -68,12 +68,12 @@
 > …
 
 ### [process-daemon-v0.6.0](https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.6.0) — process-daemon v0.6.0
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > opencode-pty 0.6.0 (protocol 9) from packages/process-daemon, published to npm as @opencode/pty@0.6.0.
 
 ### [v2.3.0](https://github.com/anomalyco/opencode/releases/tag/v2.3.0)
-<sub>2026-11-13 · 8d ago</sub>
+<sub>2026-11-13 · 9d ago</sub>
 
 > **Highlights**
 > - **Background Subagents by Default**: Subagents now return immediately, continue in the background, and report back whenever they become idle. You can keep working in the parent session while multiple subagents run concurrently. ([#63382](https://github.com/anomalyco/opencode/pull/63382))
@@ -87,16 +87,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [docs(console): document embedding models (#65402)](https://github.com/anomalyco/opencode/commit/a61f2670442c951a7ea76c5a6a406ed2e2912c02) | vimtor |
-| 2026-11-21 | [fix(desktop): draw the Windows caption buttons in the contrast theme'…](https://github.com/anomalyco/opencode/commit/ba5bbef82c9fc27e033a12ca50657f4ec8d629da) | Hona |
-| 2026-11-21 | [fix(desktop): resync server event streams after Windows resumes from …](https://github.com/anomalyco/opencode/commit/32ae0197715f822fb1247504f81e3eefc7d3c8fb) | Hona |
-| 2026-11-21 | [fix(desktop): reopen snapped, moved and minimized windows where they …](https://github.com/anomalyco/opencode/commit/3aff591323f73d8032f73fa7bb8a152bc230b328) | Hona |
-| 2026-11-21 | [fix(desktop): open projects and new sessions from opencode:// links a…](https://github.com/anomalyco/opencode/commit/b310a05b5452b2d79a7ad3d49251c15876c2e54c) | Hona |
-| 2026-11-21 | [fix(core): shell tool's structured result says why a command has no e…](https://github.com/anomalyco/opencode/commit/dcb24c74dc04fe6fdbe5a2515e18efa6bd39c9e1) | kitlangton |
-| 2026-11-21 | [feat(desktop): show a count badge for sessions that need you on the W…](https://github.com/anomalyco/opencode/commit/edacc8686a8b89ed5aae75b2833fd99fcd8da7f9) | Hona |
-| 2026-11-21 | [feat(desktop): flash the Windows taskbar button for requests that wai…](https://github.com/anomalyco/opencode/commit/844a6aa6feeb1a1e56f05af2436eec3ee8582653) | Hona |
-| 2026-11-21 | [feat(desktop): open in Windows Terminal and list only installed apps …](https://github.com/anomalyco/opencode/commit/f05c0fdc0666618dbae69068a19cb310de84c911) | Hona |
-| 2026-11-21 | [feat(core): a paired machine needs no approval (#65356)](https://github.com/anomalyco/opencode/commit/44593c514ec56444a5f49954fa6a30d27cb5270f) | kitlangton |
+| 2026-11-22 | [feat(data): add new models section and yesterday leaderboard (#65541)](https://github.com/anomalyco/opencode/commit/ee5fe34e136488a1839ac73bcca8321c51a31b75) | fwang |
+| 2026-11-22 | [fix(core): ask to reconnect ChatGPT when its refresh token is rejecte…](https://github.com/anomalyco/opencode/commit/5310e42203af41c3452ee44b24fc7d0c52aaa3cc) | hearnadam |
+| 2026-11-22 | [feat(mcp): follow the MCP Events beta for push delivery (#65271)](https://github.com/anomalyco/opencode/commit/1645a8aa5ad2d29783ba8defac2905f6f3046e71) | rekram1-node |
+| 2026-11-22 | [fix(core): put small fields before large output in tool results (#65513)](https://github.com/anomalyco/opencode/commit/5756d59a68a3d16ce412280c3ab055031898cce2) | rekram1-node |
+| 2026-11-22 | [refactor(core): the command seam names its own types (#65508)](https://github.com/anomalyco/opencode/commit/73a0eae88de47f10068a0f9dc7a743638fa3d830) | kitlangton |
+| 2026-11-22 | [test(app): follow the OpenCode rename and Go-through-OpenCode connect…](https://github.com/anomalyco/opencode/commit/d02b62de5dbd23187660b51b78f2899fe5ab2bf7) | opencodejr[bot] |
+| 2026-11-22 | [refactor(core): a seam for commands that outlive the server (#65449)](https://github.com/anomalyco/opencode/commit/942af1fb8bf2f3ab28dd76f864e402f237e4d747) | kitlangton |
+| 2026-11-22 | [feat(app): start voice with the newest GPT-Live model the server list…](https://github.com/anomalyco/opencode/commit/342839461ac5548fb72378c9a99f7e3bd81e8159) | Tarquinen |
+| 2026-11-22 | [feat(core): list voice models from models.dev (#65491)](https://github.com/anomalyco/opencode/commit/387140811c5c3a0ba8488c906da1768a552857be) | Tarquinen |
+| 2026-11-22 | [refactor(core): ask an environment what it can do (#65452)](https://github.com/anomalyco/opencode/commit/d03cb4a02420cb627d5554b1bcf7464fd1aaced9) | kitlangton |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

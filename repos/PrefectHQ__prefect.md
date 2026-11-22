@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -35,8 +35,19 @@
 
 ## 📦 Recent releases
 
+### [3.9.5.dev3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev3) — 3.9.5.dev3: Nightly Development Release _(pre-release)_
+<sub>2026-11-22 · today</sub>
+
+> **What's Changed**
+> **Bug Fixes 🐞**
+> * Aggregate nested collections of states when determining the final state by @Nacl-HCl in https://github.com/PrefectHQ/prefect/pull/23474
+> **Uncategorized**
+> * Reject `--param` and `--job-variable` values without `=` in `prefect deployment run` by @harshit3355 in https://github.com/PrefectHQ/prefect/pull/24035
+> **New Contributors**
+> …
+
 ### [3.9.5.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev2) — 3.9.5.dev2: Nightly Development Release _(pre-release)_
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -47,7 +58,7 @@
 > …
 
 ### [3.9.5.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev1) — 3.9.5.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **What's Changed**
 > **Uncategorized**
@@ -57,7 +68,7 @@
 > **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.4...3.9.5.dev1
 
 ### [3.9.4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4) — 3.9.4 - It’s not you, it’s `CTRL_BREAK`
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **Enhancements ➕➕**
 > * Accept only same-origin paths in the UI v2 login redirect by [@znicholasbrown](https://github.com/znicholasbrown) in [#23980](https://github.com/PrefectHQ/prefect/pull/23980)
@@ -68,7 +79,7 @@
 > …
 
 ### [3.9.4.dev6](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev6) — 3.9.4.dev6: Nightly Development Release _(pre-release)_
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -78,31 +89,20 @@
 > * fix(prefect-redis): keep unprocessed entries when trimming streams by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23965
 > …
 
-### [3.9.4.dev5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev5) — 3.9.4.dev5: Nightly Development Release _(pre-release)_
-<sub>2026-11-18 · 3d ago</sub>
-
-> **What's Changed**
-> **Enhancements ➕➕**
-> * Document `RemoteFileSystem` settings with an example by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23959
-> **Uncategorized**
-> * Start the flow run suspension observer before the engine loads the flow by @bunchesofdonald in https://github.com/PrefectHQ/prefect/pull/23947
-> * Start the suspension observer early for MicroVM deployments that pull code by @bunchesofdonald in https://github.com/PrefectHQ/prefect/pull/23957
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [Aggregate nested collections of states when determining the final sta…](https://github.com/PrefectHQ/prefect/commit/b055980caf24955eebcb51fe6c9088522f48208a) | Nacl-HCl |
+| 2026-11-21 | [docs: document safe redirect search params in routes AGENTS.md (#23983)](https://github.com/PrefectHQ/prefect/commit/dfc66c657dc1181ef701e4606a0fff5718c457d5) | devin-ai-integration[bot] |
+| 2026-11-21 | [Reject `--param` and `--job-variable` values without `=` in `prefect …](https://github.com/PrefectHQ/prefect/commit/d29e3536b2aef90cac26d32d1e78e65cc289dff1) | harshit3355 |
+| 2026-11-21 | [docs: document legacy prefect-agent pool handling in CLI AGENTS.md (#…](https://github.com/PrefectHQ/prefect/commit/7e6e8d84d1972f442171050a4aa9b77385db8d7a) | devin-ai-integration[bot] |
 | 2026-11-20 | [Support non-root users in the official Docker image (#24027)](https://github.com/PrefectHQ/prefect/commit/5513abc4df1f20a02bb810849477b64c989c3160) | devin-ai-integration[bot] |
 | 2026-11-20 | [Fix flaky subscriber setup cancellation tests (#23881)](https://github.com/PrefectHQ/prefect/commit/1693b8386b6de14a58f9fac524d65a38541261cf) | devin-ai-integration[bot] |
 | 2026-11-20 | [Add `registry_credentials` to the Kubernetes worker (#23852)](https://github.com/PrefectHQ/prefect/commit/d44d9f745c1942c33c51f5dd4af3820956573b8b) | polwayne |
 | 2026-11-20 | [Run db vacuum tasks one at a time on the maintenance pool (#23742)](https://github.com/PrefectHQ/prefect/commit/b76e190895121aa8a204d3c493f342e1253a97bc) | ShikhJohari |
 | 2026-11-20 | [docs: clarify tmpchdir process-wide scope (#23998)](https://github.com/PrefectHQ/prefect/commit/7e19e94405e269d4c1e044b7ac4e7c6f7c1cab1b) | devin-ai-integration[bot] |
 | 2026-11-20 | [Stop pointing users at removed `prefect agent start` for `prefect-age…](https://github.com/PrefectHQ/prefect/commit/a328ffc14df285f84ac6887cff74128588d7734a) | devin-ai-integration[bot] |
-| 2026-11-20 | [Fix flaky `test_keeps_polling_while_setup_hangs` observer test (#23950)](https://github.com/PrefectHQ/prefect/commit/f7f20d77131ab6131c245747d178ad234e622139) | devin-ai-integration[bot] |
-| 2026-11-20 | [Fix `ReactiveTriggers` stop race during startup (#24021)](https://github.com/PrefectHQ/prefect/commit/4207eda2abcc55930aaa745085de360cbe8339bc) | devin-ai-integration[bot] |
-| 2026-11-20 | [Store text files with LF line endings (#24023)](https://github.com/PrefectHQ/prefect/commit/d0e4bb721f90fe0c107a5b3b67a146fc41be8342) | gaker |
-| 2026-11-20 | [Refresh the Python and UI dependency lockfiles (#24020)](https://github.com/PrefectHQ/prefect/commit/b57286cec5377e6a1ee0f0e71359bd083aedf897) | gaker |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

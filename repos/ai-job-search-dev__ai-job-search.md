@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 72.9k |
+| ⭐ **Stars** | 73.0k |
 | 🍴 **Forks** | 23.4k |
-| 🐞 **Open issues + PRs** | [52](https://github.com/ai-job-search-dev/ai-job-search/issues) |
+| 🐞 **Open issues + PRs** | [50](https://github.com/ai-job-search-dev/ai-job-search/issues) |
 | 💻 **Languages** | Python 99% · TeX 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agents` `career` `claude-code` `cover-letter` `cv` `interview-preparation` `job-application` `job-hunting` `job-search` `latex` `resume` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-03-18 |
 | 📦 **Latest release** | [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0) — 2026-11-16 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 5.9 MB |
+| 💾 **Size** | 6.0 MB |
 
 ## 📦 Recent releases
 
 ### [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0)
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 6d ago</sub>
 
 > **What's Changed**
 > * fix(scrape): send one plain term per CLI call and make portals state their query syntax (#536) by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/653
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5)
-<sub>2026-11-09 · 12d ago</sub>
+<sub>2026-11-09 · 13d ago</sub>
 
 > **What's Changed**
 > * fix(job-key): fold Latin letters without an NFKD decomposition and add --audit --migrate by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/637
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.7.4](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.4)
-<sub>2026-11-02 · 19d ago</sub>
+<sub>2026-11-02 · 20d ago</sub>
 
 > **What's Changed**
 > * fix(freehire-search): reject detail URLs on other hosts instead of asking the API for their last segment (#622) by @ayobamiseun in https://github.com/ai-job-search-dev/ai-job-search/pull/623
@@ -93,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [fix(robots): treat a comment-only robots.txt as allow-all (Greenhouse…](https://github.com/ai-job-search-dev/ai-job-search/commit/ab51f852316faca85fe6ce93cccd7ac58b9c20df) | MadsLorentzen |
+| 2026-11-22 | [fix(posting-guard): stop reading window.ENV in a page script as a .en…](https://github.com/ai-job-search-dev/ai-job-search/commit/6ec7eead309013cebfa002fb2c3588d0bfb2090a) | MadsLorentzen |
 | 2026-11-21 | [feat(setup): recommend a minimal TeX install instead of texlive-full …](https://github.com/ai-job-search-dev/ai-job-search/commit/b3ea106cac34b783ae4d5708a9e6d97f6660d084) | jakob1379 |
 | 2026-11-19 | [fix(posting-guard): detect CSS invisibility tricks in inline styles (…](https://github.com/ai-job-search-dev/ai-job-search/commit/d2afe00bfc9b7be8ffc2ee41acc22570970b76d4) | ahmed-husssain |
 | 2026-11-18 | [fix(posting-guard): refuse input with no text to evaluate and exit 1 …](https://github.com/ai-job-search-dev/ai-job-search/commit/7b1cd4495967cfa4a781b8f5913f4c806c4c1f82) | ahmed-husssain |
@@ -101,8 +103,6 @@
 | 2026-11-16 | [feat!: move the portal skills to community-portals (#829)](https://github.com/ai-job-search-dev/ai-job-search/commit/745e6770dbcfb524ee245c89be0ff8df95924919) | jakob1379 |
 | 2026-11-12 | [fix(scrape): deduplicate candidates on the canonical key so store nev…](https://github.com/ai-job-search-dev/ai-job-search/commit/0d0d1a907a21454affa1b694acc4e2c5008a0d21) | ayobamiseun |
 | 2026-11-12 | [fix(upskill): leave jobs /rank vetoed on location or language out of …](https://github.com/ai-job-search-dev/ai-job-search/commit/8fc6d7c860b0ffff3fdb744e007ca255c02c8385) | TheMattHub |
-| 2026-11-12 | [fix(cover-letter): load Raleway's bold face in the bullet-list font w…](https://github.com/ai-job-search-dev/ai-job-search/commit/8e814e57ac487d5f15675bb13ed07f95c9765c4a) | TheMattHub |
-| 2026-11-12 | [fix(guards): check command and agent files in subfolders too (#735)](https://github.com/ai-job-search-dev/ai-job-search/commit/e686ff24f634bbf40cb4c21e38d61d734f90ac26) | ayobamiseun |
 
 [See all commits ↗](https://github.com/ai-job-search-dev/ai-job-search/commits)
 

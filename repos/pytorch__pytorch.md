@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 105.8k |
 | 🍴 **Forks** | 30.7k |
-| 🐞 **Open issues + PRs** | [18.5k](https://github.com/pytorch/pytorch/issues) |
+| 🐞 **Open issues + PRs** | [18.6k](https://github.com/pytorch/pytorch/issues) |
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1683.1 MB |
+| 💾 **Size** | 1684.2 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 23d ago</sub>
+<sub>2026-10-28 · 24d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Revert "[ROCm] Replace deprecated HIP atomics and hipcub::Equality (#…](https://github.com/pytorch/pytorch/commit/59bc299401c2d4ba6545340a3ff77beca8709a49) | pytorchmergebot |
-| 2026-11-21 | [[CUDA] Build LocalizedAllocator on improved Python allocator api (#20…](https://github.com/pytorch/pytorch/commit/66fa84cbcb2001a816dc228dbde29ca184ff9d73) | kapilsh |
-| 2026-11-21 | [[CUDAGraph] Annotate captured memcpy batch nodes (#205997)](https://github.com/pytorch/pytorch/commit/00251bb0b7db29e3189176cfbbda482913270e79) | ngimel |
-| 2026-11-21 | [[inductor] Cap the number of dynamic-shape sub-kernels per combo kern…](https://github.com/pytorch/pytorch/commit/cb41f4ef2382a6c77b67706485bf54ae613b8d76) | anijain2305 |
-| 2026-11-21 | [[dynamo] Support bytearray is*() predicate methods (#205779)](https://github.com/pytorch/pytorch/commit/58a489fc6df58ef17de494dacf7ac452e7e34154) | Oscar-man-shrestha |
-| 2026-11-21 | [[dynamo] Support bytearray.removeprefix() and bytearray.removesuffix(…](https://github.com/pytorch/pytorch/commit/3d9968a444014684a6e46fa9214f77255bcd42c6) | Oscar-man-shrestha |
-| 2026-11-21 | [[MPS] Add float8_e8m0fnu and float4_e2m1fn_x2 as passthrough types (#…](https://github.com/pytorch/pytorch/commit/44574849bc88fb5332406f51d782c491f01259fc) | malfet |
-| 2026-11-21 | [Reject shell dtype casts in TensorIterator on every device (#205864)](https://github.com/pytorch/pytorch/commit/0058429b37991a2946bd1b47b8f9fd0ea1458c26) | malfet |
-| 2026-11-21 | [[torchtitan hash update] update the pinned torchtitan hash (#205963)](https://github.com/pytorch/pytorch/commit/b9945d7c319a6a68a9e4f44794490d6a4c74fb81) | pytorchupdatebot |
-| 2026-11-21 | [[Inductor] Support ND pointwise and reduction tiling (#204324) (#204324)](https://github.com/pytorch/pytorch/commit/e716fffc7eded0e8ee852fbc2fa8a80ced15cf57) | blaine-rister |
+| 2026-11-22 | [[MPS] Fix conv2d and conv_transpose2d for batch sizes above 65535 (#2…](https://github.com/pytorch/pytorch/commit/ee0eed2fcd35650303548025d2378bbe2ca44a91) | Isalia20 |
+| 2026-11-22 | [Revert "Round float64 to float16, bfloat16 and float8 once in default…](https://github.com/pytorch/pytorch/commit/aabd19c7bc9b1ae4922427a10ba9d3357f864611) | pytorchmergebot |
+| 2026-11-22 | [Revert "Fix float32 to float8_e8m0fnu rounding of subnormals (#204208)"](https://github.com/pytorch/pytorch/commit/bd3e2c245090920d286be339942ecbe1044a1eed) | pytorchmergebot |
+| 2026-11-22 | [Revert "Declare has_denorm of the float8 numeric_limits as a float_de…](https://github.com/pytorch/pytorch/commit/4324c01ab74732eebd6f90d73c08ec3996389140) | pytorchmergebot |
+| 2026-11-22 | [Revert "[Dynamo] Fix state pollution in test infra and config restore…](https://github.com/pytorch/pytorch/commit/ca4a71e7ebaa6a6b5ecb0235f0cbd02209922cb7) | pytorchmergebot |
+| 2026-11-22 | [Declare has_denorm of the float8 numeric_limits as a float_denorm_sty…](https://github.com/pytorch/pytorch/commit/2dcb20fa18f6d4b7deed1fca6bf16fde1370e105) | lw |
+| 2026-11-22 | [Fix float32 to float8_e8m0fnu rounding of subnormals (#204208)](https://github.com/pytorch/pytorch/commit/ada8b7f5f5cd3900bfd7589d922126afe9e745a6) | lw |
+| 2026-11-22 | [Round float64 to float16, bfloat16 and float8 once in default convers…](https://github.com/pytorch/pytorch/commit/642748a888d9034acb357bb7b68f105c96a5b20f) | lw |
+| 2026-11-22 | [[MPS] Use MPP and a decode kernel for MXFP8 and NVFP4 _scaled_mm_v2 (…](https://github.com/pytorch/pytorch/commit/c1aec0bbeb84ca90ac5739c6452771787bee4959) | malfet |
+| 2026-11-22 | [[Dynamo] Fix state pollution in test infra and config restore (#191930)](https://github.com/pytorch/pytorch/commit/6e5f53dd5be082f3be970a413e91abad29e04b26) | guan404ming |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

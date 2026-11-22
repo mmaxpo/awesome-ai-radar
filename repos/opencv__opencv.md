@@ -26,7 +26,7 @@
 | 💻 **Languages** | C++ 86% · Python 4% · C 3% · CMake 2% · Java 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `opencv` `c-plus-plus` `computer-vision` `deep-learning` `image-processing` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2012-07-19 |
 | 📦 **Latest release** | [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — 2026-11-06 |
 | 🌿 **Default branch** | `5.x` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — OpenCV 5.1.0
-<sub>2026-11-06 · 15d ago</sub>
+<sub>2026-11-06 · 16d ago</sub>
 
 > OpenCV 5.1.0 has been released.
 > :hammer_and_wrench: Change log is [here](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version510).
@@ -73,6 +73,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [Merge pull request #31025 from sshivensolanki/dnn-onehot-uint32-bool](https://github.com/opencv/opencv/commit/7e2201571de1715e24484d637a2bceca97f9add5) | sshivensolanki |
+| 2026-11-22 | [Merge pull request #30606 from tushar152006/feat-dnn-onnx-col2im](https://github.com/opencv/opencv/commit/65c6ccd6e5c7d9943fa07d32e7f1b5935a39a213) | abhishek-gola |
+| 2026-11-22 | [dnn(onnx): add support for ONNX Col2Im operator](https://github.com/opencv/opencv/commit/f3a7576b579d3302ad7ffa1dcafc2e1d6ccd14d6) | tushar152006 |
 | 2026-11-21 | [Merge pull request #31008 from sshivensolanki/dnn-eyelike-uint32-uint64](https://github.com/opencv/opencv/commit/13778986a86cfb3b6745be923b088914e9fc28f7) | abhishek-gola |
 | 2026-11-21 | [dnn: support CV_32U and CV_64U outputs in EyeLike](https://github.com/opencv/opencv/commit/c8ac3039be2c70fb491c5d70489d62044fb5c319) | sshivensolanki |
 | 2026-11-21 | [Merge pull request #31013 from sshivensolanki/dnn-clip-uint32-uint64](https://github.com/opencv/opencv/commit/e49cba785665646539e70ca7bcfa3a9d71adf5fc) | abhishek-gola |
@@ -80,9 +83,6 @@
 | 2026-11-21 | [dnn: support CV_32U and CV_64U in Clip default bounds](https://github.com/opencv/opencv/commit/fe06ceaca528f17e02c95f172dd26845e416a9bf) | sshivensolanki |
 | 2026-11-21 | [Merge pull request #31004 from sshivensolanki/dnn-tensortoscalar-int8…](https://github.com/opencv/opencv/commit/c7a8a7afbd4e382752c326dff3e63e4cb2693486) | abhishek-gola |
 | 2026-11-21 | [Merge pull request #30985 from RITU940/fix/triangulate-column-roi-stride](https://github.com/opencv/opencv/commit/63cb0349bb45ef8ec2101adde60b8d0e25a12129) | abhishek-gola |
-| 2026-11-21 | [Merge pull request #30990 from pranayr710/fix/compare-cv-bool](https://github.com/opencv/opencv/commit/fc79cd24c2dffad90facfc5f575fcf6bfa981548) | abhishek-gola |
-| 2026-11-20 | [Merge pull request #30977 from varun-jaiswal17/docs-5x-version-wording](https://github.com/opencv/opencv/commit/b6d8ca41b1b2b5cb020ecb7abe8d04a48fc54b74) | varun-jaiswal17 |
-| 2026-11-20 | [Merge pull request #31001 from sshivensolanki:dnn-hardmax-int64-bool](https://github.com/opencv/opencv/commit/21b23e402f8677d51e408e4baeed1874b3662bba) | asmorkalov |
 
 [See all commits ↗](https://github.com/opencv/opencv/commits)
 

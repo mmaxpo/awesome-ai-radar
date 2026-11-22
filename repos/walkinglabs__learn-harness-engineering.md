@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 83% · Shell 8% · JavaScript 5% · Python 3% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `harness` `harness-engineering` `harness-framework` `llm` `ai` `ai-agent` `agentic` `agentic-ai` `dsh-plugin` `dsh` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-21 (yesterday) |
 | 📅 **Created** | 2026-03-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

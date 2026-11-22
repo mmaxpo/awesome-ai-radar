@@ -26,22 +26,22 @@
 | 💻 **Languages** | Clojure 76% · JavaScript 6% · Rust 6% · TypeScript 5% · SCSS 3% |
 | 📜 **License** | MPL-2.0 |
 | 🏷 **Topics** | `ux-design` `ux-experience` `prototyping` `clojure` `clojurescript` `ui` `design` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2015-12-29 |
 | 📦 **Latest release** | [2.19.3](https://github.com/penpot/penpot/releases/tag/2.19.3) — 2026-11-18 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 432.1 MB |
+| 💾 **Size** | 432.3 MB |
 | 🌐 **Website** | https://penpot.app |
 
 ## 📦 Recent releases
 
 ### [2.19.3](https://github.com/penpot/penpot/releases/tag/2.19.3)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > No changes for 2.19.3 according to CHANGES.md
 
 ### [2.19.2](https://github.com/penpot/penpot/releases/tag/2.19.2)
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 6d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix referential integrity error when copying component variants with nested components across libraries and teams [#10704](https://github.com/penpot/penpot/issues/10704) (PR: [#12928](https://github.com/penpot/penpot/pull/12928))
@@ -52,7 +52,7 @@
 > …
 
 ### [2.19.1](https://github.com/penpot/penpot/releases/tag/2.19.1)
-<sub>2026-11-11 · 10d ago</sub>
+<sub>2026-11-11 · 11d ago</sub>
 
 > **:lock: Security fixes**
 > - Fix editor-role team members retrieving the signed invitation token of any pending invitation (https://github.com/penpot/penpot/security/advisories/GHSA-4mmc-j8rh-74pf) (PR: [#12892](https://github.com/penpot/penpot/pull/12892))
@@ -74,7 +74,7 @@
 > …
 
 ### [2.18.7](https://github.com/penpot/penpot/releases/tag/2.18.7)
-<sub>2026-11-09 · 12d ago</sub>
+<sub>2026-11-09 · 13d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix binfile import accepting library relations outside the package and self-relations [#12895](https://github.com/penpot/penpot/issues/12895) (PR: [#12862](https://github.com/penpot/penpot/pull/12862))

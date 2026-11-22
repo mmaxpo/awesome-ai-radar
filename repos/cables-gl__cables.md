@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 575 |
 | 🍴 **Forks** | 35 |
-| 🐞 **Open issues + PRs** | [411](https://github.com/cables-gl/cables/issues) |
+| 🐞 **Open issues + PRs** | [412](https://github.com/cables-gl/cables/issues) |
 | 💻 **Languages** | JavaScript 91% · GLSL 9% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (2d ago) |
+| 🕒 **Last activity** | 2026-11-19 (3d ago) |
 | 📅 **Created** | 2015-06-05 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `develop` |

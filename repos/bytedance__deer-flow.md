@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 81% · TypeScript 15% · MDX 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `agentic` `agentic-framework` `agentic-workflow` `ai` `ai-agents` `deep-research` `langchain` `langgraph` `llm` `multi-agent` `nodejs` `podcast` `python` `langmanus` `typescript` `harness` `superagent` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-05-07 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/bytedance/deer-flow/releases/tag/v2.2.0) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 107.4 MB |
+| 💾 **Size** | 106.1 MB |
 | 🌐 **Website** | https://deerflow.tech |
 
 ## 📦 Recent releases
 
 ### [v2.2.0](https://github.com/bytedance/deer-flow/releases/tag/v2.2.0) — DeerFlow 2.2.0
-<sub>2026-11-04 · 17d ago</sub>
+<sub>2026-11-04 · 18d ago</sub>
 
 > **DeerFlow 2.2.0**
 > DeerFlow 2.2 turns the 2.1 super-agent harness into a deployment-grade platform
@@ -72,16 +72,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [fix: restore persisted todos in thread history (#8459)](https://github.com/bytedance/deer-flow/commit/1c286b9336d90c1f8cee3e9ae5837c32f7d94d61) | jipeng6036-del |
-| 2026-11-21 | [fix(gateway): refuse artifact share imports where the writer is unava…](https://github.com/bytedance/deer-flow/commit/0ebf8ce7b25eabb9c87e72627ffc69ff8ba01e05) | Aling33 |
-| 2026-11-21 | [feat(voice-input): enable dictation with a configured STT service (#8…](https://github.com/bytedance/deer-flow/commit/5eb78f65306d1908f131ba5ebeb3588be0f21f2c) | AnnaSuSu |
-| 2026-11-21 | [fix(frontend): localize the sidecar send button's accessible name (#8…](https://github.com/bytedance/deer-flow/commit/ee72fe281c05760e700fa44dbb3e6a62d97cdff3) | jadelike-wine |
-| 2026-11-21 | [fix(subagents): start subagent execution timeout at admission (#8356)](https://github.com/bytedance/deer-flow/commit/dccb163836b500e3004b9d6c30a727dfd2695de1) | Loveca |
-| 2026-11-21 | [fix(gateway): reject an end_at past the UTC range (#8465)](https://github.com/bytedance/deer-flow/commit/900d1b65eb87375de6327cd0a34c7910fbaef567) | cosolar |
-| 2026-11-21 | [chore(deps): bump opentelemetry-api from 1.45.1 to 1.45.2 in /backend…](https://github.com/bytedance/deer-flow/commit/702dd69c501c07ff1a9935246aadf9df49f5e8a2) | dependabot[bot] |
-| 2026-11-21 | [fix(channels): keep code blocks rendering across Discord message spli…](https://github.com/bytedance/deer-flow/commit/2c98fe40d4eae450a90252c3d332fc926cd715bf) | hyeonsang010716 |
-| 2026-11-21 | [fix(skills): validate directory names and package regular files (#8444)](https://github.com/bytedance/deer-flow/commit/7810b807f27a43db0b275635deb98310ffd8506a) | ggnnggez |
-| 2026-11-21 | [fix(memory): rebuild the DeerMem index from the memory buckets only (…](https://github.com/bytedance/deer-flow/commit/d834188dcd4e470357d5835c9d22b3de37a97a23) | hyeonsang010716 |
+| 2026-11-22 | [fix(sandbox): build the bash cwd prefix for the shell that runs it (#…](https://github.com/bytedance/deer-flow/commit/25a59aa5c72aa7a621a37843c5ef6d8b9ab19893) | huyengiang101086-spec |
+| 2026-11-22 | [fix(runtime): keep run-input appends off the run-change clock (#8479)](https://github.com/bytedance/deer-flow/commit/9bd2bfa859fc185508387c32e27d922fac1f09ff) | Shelden-Hao |
+| 2026-11-22 | [fix(github): separate webhook runs from tool authentication (#8485)](https://github.com/bytedance/deer-flow/commit/ee54c9630037e9b339aaa61f1082d19afa32c534) | WillemJiang |
+| 2026-11-22 | [fix(dingtalk): handle multi-backtick inline code spans (#8469)](https://github.com/bytedance/deer-flow/commit/53e6042c290dd37759efc7535fa9fcef02ad64d3) | hajicheng |
+| 2026-11-22 | [feat(extensions): add a workspace page to the run postmortem example …](https://github.com/bytedance/deer-flow/commit/e9d481e9f592f6b51d6fa634b80da785ee575e5c) | gdut4140 |
+| 2026-11-22 | [fix(smoke-test): sign in with an existing test account (#8481)](https://github.com/bytedance/deer-flow/commit/d322e88f23e7400245b5f769d324228b771375c4) | WillemJiang |
+| 2026-11-22 | [fix(memory): bound DeerMem's in-process document cache (#8480)](https://github.com/bytedance/deer-flow/commit/a9b5dd80f8a52d1d6e66d6462d2635f7ca91d76f) | hyeonsang010716 |
+| 2026-11-22 | [fix(runtime): page thread history from the before cursor (#8398)](https://github.com/bytedance/deer-flow/commit/aa783497513b4518f63dc49c8be0dc2d43ebde9a) | 67-luck |
+| 2026-11-22 | [fix(opensandbox): report a missing file as FileNotFoundError (#8470)](https://github.com/bytedance/deer-flow/commit/b6b0be211ec6445381dad1b89ba79ced81830e4b) | bascan |
+| 2026-11-22 | [fix(memory): let OpenViking's write policy decide a refused non-owner…](https://github.com/bytedance/deer-flow/commit/7b84fd09983e2a539f5d6be392d253b3e8b1889a) | hyeonsang010716 |
 
 [See all commits ↗](https://github.com/bytedance/deer-flow/commits)
 

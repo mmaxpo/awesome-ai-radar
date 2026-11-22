@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 156.5k |
+| ⭐ **Stars** | 156.6k |
 | 🍴 **Forks** | 25.1k |
-| 🐞 **Open issues + PRs** | [15.9k](https://github.com/anthropics/claude-code/issues) |
+| 🐞 **Open issues + PRs** | [16.0k](https://github.com/anthropics/claude-code/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-02-22 |
 | 📦 **Latest release** | [v2.1.330](https://github.com/anthropics/claude-code/releases/tag/v2.1.330) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 35.9 MB |
+| 💾 **Size** | 36.3 MB |
 | 🌐 **Website** | https://code.claude.com/docs/en/overview |
 
 ## 📦 Recent releases
 
 ### [v2.1.330](https://github.com/anthropics/claude-code/releases/tag/v2.1.330)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **What's changed**
 > - Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after `claude auth login`, Claude Code applies the organization's settings and uses its cloud provider or gateway
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.1.329](https://github.com/anthropics/claude-code/releases/tag/v2.1.329)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > **What's changed**
 > - Added a trust dialog warning that says where a folder's hooks are declared
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.1.328](https://github.com/anthropics/claude-code/releases/tag/v2.1.328)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **What's changed**
 > - Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.1.327](https://github.com/anthropics/claude-code/releases/tag/v2.1.327)
-<sub>2026-11-17 · 3d ago</sub>
+<sub>2026-11-17 · 4d ago</sub>
 
 > **What's changed**
 > - Added a confirmation before `/install-github-app` changes a repository
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.1.326](https://github.com/anthropics/claude-code/releases/tag/v2.1.326)
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > **What's changed**
 > - Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/26a5b52bb5d9f53bff6b4804214ec88deab78ce3) | actions-user |
-| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/f6d9c06876f60e5474ba0743175dc37bb7a15b10) | actions-user |
-| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/91471e5a34d03835cd4785f36cc1c8c7265fa492) | actions-user |
-| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/08859bd09c737c8531b1a3a6c7189274b38bf970) | actions-user |
-| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/937b7978cbede8660eb33541e7763015746f7cd4) | actions-user |
-| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/216403e8afc629729cde8e639ccf48c664ca929f) | actions-user |
-| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/dfb4bf9ff2a4e7f8a5af12ac401c97d28d4025dd) | actions-user |
-| 2026-11-21 | [Don't run @claude mentions on pull requests from forks (#111198)](https://github.com/anthropics/claude-code/commit/b5cbc659d4c19686ef2b6be013bd054a10167042) | mhegazy |
-| 2026-11-20 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/11fd18fc30fd9c7117cfb58f2c8d4ea96426cb74) | actions-user |
-| 2026-11-20 | [chore: Update CHANGELOG.md and feed.xml](https://github.com/anthropics/claude-code/commit/e791a1c41eee7504672a109fd6eb66b11566b8a1) | actions-user |
+| 2026-11-22 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/1006c2e4f783f016963fb290d3eb4afaa2d448b1) | actions-user |
+| 2026-11-22 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/8af3c14e96cb69179726700cc24c2ace4b13cdb4) | actions-user |
+| 2026-11-22 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/4d28f76521def29be66a9a233957924bab6e065a) | actions-user |
+| 2026-11-22 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/6591fdae228a1a53407720c36c0ba630a83730cf) | actions-user |
+| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/b022ba6df88a5ddfbcedc39739a191c7e2ff5196) | actions-user |
+| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/6935d6e1ec69321aace1be56c73c876bade33e6b) | actions-user |
+| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/d24156684a9ecfedfde133e2b92b7189d2710d9c) | actions-user |
+| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/ed5b3a829c99d5ea34bc0b373e02c586d85cedc6) | actions-user |
+| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/e1cd3c1ba8e992c43e8317760096338596105a4d) | actions-user |
+| 2026-11-21 | [chore: Update mods/](https://github.com/anthropics/claude-code/commit/928ac132a30dbe1ccf1f800cc93c4e8a65e4c449) | actions-user |
 
 [See all commits ↗](https://github.com/anthropics/claude-code/commits)
 

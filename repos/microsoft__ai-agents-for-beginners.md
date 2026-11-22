@@ -26,7 +26,7 @@
 | 💻 **Languages** | Jupyter Notebook 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `agentic-framework` `agentic-rag` `ai-agents` `ai-agents-framework` `autogen` `generative-ai` `semantic-kernel` `foundry` `foundry-local` `microsoft-foundry` |
-| 🕒 **Last activity** | 2026-11-17 (4d ago) |
+| 🕒 **Last activity** | 2026-11-17 (5d ago) |
 | 📅 **Created** | 2024-11-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

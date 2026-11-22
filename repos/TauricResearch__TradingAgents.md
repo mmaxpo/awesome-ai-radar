@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.4k |
+| ⭐ **Stars** | 123.5k |
 | 🍴 **Forks** | 23.6k |
-| 🐞 **Open issues + PRs** | [158](https://github.com/TauricResearch/TradingAgents/issues) |
+| 🐞 **Open issues + PRs** | [159](https://github.com/TauricResearch/TradingAgents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `finance` `llm` `multiagent` `trading` |
-| 🕒 **Last activity** | 2026-11-17 (4d ago) |
+| 🕒 **Last activity** | 2026-11-17 (5d ago) |
 | 📅 **Created** | 2024-12-28 |
 | 📦 **Latest release** | [v0.7.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v0.7.1) — 2026-10-27 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.7.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v0.7.1) — TradingAgents v0.7.1
-<sub>2026-10-27 · 25d ago</sub>
+<sub>2026-10-27 · 26d ago</sub>
 
 > Decisions are scored only on final closes and settle across long market holidays, a model's unpadded date no longer reads filings made after the run date, and fixes to portfolios, prices, SEC statements, reports, Azure and Claude settings.
 > **Upgrading from 0.7.0**

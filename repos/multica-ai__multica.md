@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 57.0k |
+| ⭐ **Stars** | 57.1k |
 | 🍴 **Forks** | 7.5k |
 | 🐞 **Open issues + PRs** | [2.0k](https://github.com/multica-ai/multica/issues) |
 | 💻 **Languages** | Go 52% · TypeScript 40% · MDX 6% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-01-13 |
 | 📦 **Latest release** | [v0.11.1](https://github.com/multica-ai/multica/releases/tag/v0.11.1) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 213.3 MB |
+| 💾 **Size** | 216.4 MB |
 | 🌐 **Website** | https://multica.ai |
 
 ## 📦 Recent releases
 
 ### [v0.11.1](https://github.com/multica-ai/multica/releases/tag/v0.11.1)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **Changelog**
 > * 528cd82711f2f99eedd04e4d3a68c6c31b514659 MUL-8370 fix(docs): restrict doc and folder deletion to creators and admins (#10946) (@Bohan-J)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.11.0](https://github.com/multica-ai/multica/releases/tag/v0.11.0)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **Changelog**
 > * 874897897fdd9ab8e26158521a0d14c1ffa2d452 MUL-7745 MUL-9463: fix(squads): run an @<!-- -->agent mention of the assigned squad's leader as a leader task (#8918) (@ADanMan)
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.10.0](https://github.com/multica-ai/multica/releases/tag/v0.10.0)
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 6d ago</sub>
 
 > **Changelog**
 > * 24ebdea7bed60633caaf6ef0b85dcd86e5d3bc16 MUL-6056: verify GitHub installation control before workspace binding (#10705) (@Bohan-J)
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.9.0](https://github.com/multica-ai/multica/releases/tag/v0.9.0)
-<sub>2026-11-13 · 8d ago</sub>
+<sub>2026-11-13 · 9d ago</sub>
 
 > **Changelog**
 > * 4dc251a47d597a4d974e286935a6d64c219e7bff EDEN-20: add confirmed deletion of inbox entries (#10356) (@happice0746)
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.8.2](https://github.com/multica-ai/multica/releases/tag/v0.8.2)
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 12d ago</sub>
 
 > **Changelog**
 > * e77e13abcacbab666af7a88238a587c73306c35c MUL-6907 feat(i18n): add complete Russian localization for web and desktop (#9832)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [feat(sidebar): hide Projects and Views counts by default (MUL-9784) (…](https://github.com/multica-ai/multica/commit/9774007cbd5f28237e5526fc7a433202a4ddb64a) | forrestchang |
-| 2026-11-21 | [fix(dev-env): never register or destroy the shared 8080 backend and m…](https://github.com/multica-ai/multica/commit/c1406c7c31e0e2b0c17f2375ab402b2cb8b661c1) | forrestchang |
-| 2026-11-21 | [test(docs): pass docs.spec.ts with and without collab (MUL-9783) (#11…](https://github.com/multica-ai/multica/commit/09a57ba504c37dbddcf7b1f1d3aefcb35859caf8) | forrestchang |
-| 2026-11-21 | [fix(deploy): pass documented backend variables in self-host Compose a…](https://github.com/multica-ai/multica/commit/9fd0487ffcdedb442b481a7abe363a45a7e4623e) | forrestchang |
-| 2026-11-21 | [feat(docs): slim the doc header to status, comments and More (MUL-978…](https://github.com/multica-ai/multica/commit/5a7a238ad03d95544b81f7f9938f23e4001a521d) | forrestchang |
-| 2026-11-21 | [fix(deploy): let self-host Compose and Helm set feature flags (MUL-97…](https://github.com/multica-ai/multica/commit/5fbd8da84c89ecb23398ea135e8da3632e9c533b) | forrestchang |
-| 2026-11-21 | [feat(deploy): ship the collab service (image, release, Helm, self-hos…](https://github.com/multica-ai/multica/commit/8d88e5c71150839d11253e6d0ac9e57348c75dd1) | forrestchang |
-| 2026-11-21 | [feat(docs): live co-editing for people and agents (MUL-9743) (#11092)](https://github.com/multica-ai/multica/commit/1f119972fc4336bc693e429cbf13bee7bec0d71e) | forrestchang |
-| 2026-11-21 | [fix(desktop): localize window titles via the tab title contract (MUL-…](https://github.com/multica-ai/multica/commit/6097a7c8b01aa9496e779d44d38baaadd2136511) | forrestchang |
-| 2026-11-21 | [perf(comments): load server thumbnails for comment images in thumbnai…](https://github.com/multica-ai/multica/commit/76188dade356fcb3ea80c58584dd4b038c1cbaef) | forrestchang |
+| 2026-11-22 | [ci: catch migration-number collisions with the latest main before mer…](https://github.com/multica-ai/multica/commit/4ceffd536603c67620c7460f6c412dcbf092299e) | forrestchang |
+| 2026-11-22 | [refactor(inbox): share the single-key shortcut guard in one hook (MUL…](https://github.com/multica-ai/multica/commit/370b2643f6fa536c51e724ab21c3fd0b092ce0fe) | forrestchang |
+| 2026-11-22 | [test(docs): enforce env var docs coverage for every built-in runtime …](https://github.com/multica-ai/multica/commit/b62398190e832c25037600f880b31a96f57bd981) | forrestchang |
+| 2026-11-22 | [feat(inbox): default auto-archive to completing or triggering an agen…](https://github.com/multica-ai/multica/commit/be6c62540616b55e669de24a08a51c2074f828d1) | forrestchang |
+| 2026-11-22 | [fix(dev-env): drop the slot database through the shared container whe…](https://github.com/multica-ai/multica/commit/72b8878796234368158194f4c451a95bbe0702e1) | forrestchang |
+| 2026-11-22 | [feat(inbox): Z undoes the inline undo on the Inbox Zero screen (MUL-9…](https://github.com/multica-ai/multica/commit/18e5be6904c031edbdf3045a2edcf0455a1811b5) | forrestchang |
+| 2026-11-22 | [feat(apps): connect remote MCP apps over OAuth, starting with Mobbin …](https://github.com/multica-ai/multica/commit/d5792738f9bab3ba463009f1ac7fdc4d8d9c5850) | forrestchang |
+| 2026-11-22 | [docs: sync env vars, contributing workflow, and multilingual doc pari…](https://github.com/multica-ai/multica/commit/4fb42df284c8444574c8de3abe3e460adb7ad5be) | forrestchang |
+| 2026-11-22 | [fix(issues): preserve in-progress annotation drafts and yield landing…](https://github.com/multica-ai/multica/commit/812cecb2430d30d17f107ba87222032e2e2fe2f6) | forrestchang |
+| 2026-11-22 | [refactor(cli): resolve doc and folder ids with the shared prefix reso…](https://github.com/multica-ai/multica/commit/f6b4c9f79c9b2b99afd2db3259533702b9cbc4a7) | forrestchang |
 
 [See all commits ↗](https://github.com/multica-ai/multica/commits)
 

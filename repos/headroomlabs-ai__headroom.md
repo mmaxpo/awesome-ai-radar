@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.2k |
+| ⭐ **Stars** | 80.4k |
 | 🍴 **Forks** | 6.3k |
-| 🐞 **Open issues + PRs** | [330](https://github.com/headroomlabs-ai/headroom/issues) |
+| 🐞 **Open issues + PRs** | [327](https://github.com/headroomlabs-ai/headroom/issues) |
 | 💻 **Languages** | Python 81% · Rust 12% · JavaScript 3% · TypeScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `ai` `anthropic` `compression` `context-engineering` `context-window` `fastapi` `langchain` `llm` `mcp` `openai` `proxy` `python` `rag` `token-optimization` `claude-code` `cursor` `prompt-engineering` `tokens` `typescript` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-01-07 |
-| 📦 **Latest release** | [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) — 2026-11-10 |
+| 📦 **Latest release** | [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 105.4 MB |
+| 💾 **Size** | 105.0 MB |
 | 🌐 **Website** | https://docs.headroomlabs.ai/docs |
 
 ## 📦 Recent releases
 
+### [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — Release v0.45.0
+<sub>2026-11-22 · today</sub>
+
+> **[0.45.0](https://github.com/headroomlabs-ai/headroom/compare/v0.44.0...v0.45.0) (2026-11-22)**
+> **Features**
+> * **opencode:** add repeatable --extra-model flag for custom wrap-time models ([#2364](https://github.com/headroomlabs-ai/headroom/issues/2364)) ([66e0086](https://github.com/headroomlabs-ai/headroom/commit/66e0086952d4b311c9fe9b489fbd12d1d270fcde))
+> * **savings:** book modelled output savings per request, as a token and dollar range ([#4878](https://github.com/headroomlabs-ai/headroom/issues/4878)) ([00436a8](https://github.com/headroomlabs-ai/headroom/commit/00436a8b11b69f19e280ba0ce3f54f50094e4a5e))
+> * **shaper:** let an extension replace a level's steering text; default to L3 ([#4877](https://github.com/headroomlabs-ai/headroom/issues/4877)) ([a3afd43](https://github.com/headroomlabs-ai/headroom/commit/a3afd43e0cbd3ed4b2186419bcc8ac447d110e39))
+> * **telemetry:** split beacon sessions by harness, model and day ([#4881](https://github.com/headroomlabs-ai/headroom/issues/4881)) ([ac932eb](https://github.com/headroomlabs-ai/headroom/commit/ac932eb7c43156e94088d21e6c1edf3dc14b233b))
+> …
+
 ### [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) — Release v0.44.0
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 12d ago</sub>
 
 > **[0.44.0](https://github.com/headroomlabs-ai/headroom/compare/v0.43.1...v0.44.0) (2026-11-09)**
 > **⚠ BREAKING CHANGES**
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.43.1](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.1) — Release v0.43.1
-<sub>2026-11-05 · 15d ago</sub>
+<sub>2026-11-05 · 16d ago</sub>
 
 > **[0.43.1](https://github.com/headroomlabs-ai/headroom/compare/v0.43.0...v0.43.1) (2026-11-05)**
 > **Bug Fixes**
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.0) — Release v0.43.0
-<sub>2026-11-05 · 15d ago</sub>
+<sub>2026-11-05 · 16d ago</sub>
 
 > **[0.43.0](https://github.com/headroomlabs-ai/headroom/compare/v0.42.0...v0.43.0) (2026-11-05)**
 > **⚠ BREAKING CHANGES**
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.42.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.42.0) — Release v0.42.0
-<sub>2026-10-26 · 25d ago</sub>
+<sub>2026-10-26 · 26d ago</sub>
 
 > **[0.42.0](https://github.com/headroomlabs-ai/headroom/compare/v0.41.0...v0.42.0) (2026-10-26)**
 > **Features**
@@ -79,31 +90,20 @@
 > * **savings:** add the per-request counterfactual savings record ([#4236](https://github.com/headroomlabs-ai/headroom/issues/4236)) ([2912b7b](https://github.com/headroomlabs-ai/headroom/commit/2912b7b620d7abd39828db73e4f326b9a041d309))
 > …
 
-### [v0.41.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.41.0) — Release v0.41.0
-<sub>2026-10-14 · 1mo ago</sub>
-
-> **[0.41.0](https://github.com/headroomlabs-ai/headroom/compare/v0.40.0...v0.41.0) (2026-10-13)**
-> **Features**
-> * **antigravity:** add native Google Antigravity IDE integration ([#3817](https://github.com/headroomlabs-ai/headroom/issues/3817)) ([cd4367b](https://github.com/headroomlabs-ai/headroom/commit/cd4367b040bf80b7358f100da54994f6d5fbfcfe))
-> * **opencode:** support the OpenCode 2.x plugin API ([#3999](https://github.com/headroomlabs-ai/headroom/issues/3999)) ([1d4b357](https://github.com/headroomlabs-ai/headroom/commit/1d4b357ca745549382e1ed9a3a6d39b5df52d3d5))
-> * **plugins:** add headroom-snip Claude Code mod that animates compression ([#3980](https://github.com/headroomlabs-ai/headroom/issues/3980)) ([17abee2](https://github.com/headroomlabs-ai/headroom/commit/17abee2721c1946bc8903d623bec91ff6e531c17))
-> * **proxy:** native spend/savings stats + dashboard for the Rust proxy ([#2321](https://github.com/headroomlabs-ai/headroom/issues/2321)) ([70b21c1](https://github.com/headroomlabs-ai/headroom/commit/70b21c12c41cd128c7b8700c33b29b687de567a4))
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [chore: release 0.45.0 (#4724)](https://github.com/headroomlabs-ai/headroom/commit/ce0460cfa8598dc939243dbc7aec4b2d35f4e44a) | headroom-release[bot] |
+| 2026-11-22 | [ci(security): verify the gitleaks download against its release checks…](https://github.com/headroomlabs-ai/headroom/commit/6608cf702ee040f8d71ebc778abba85bd327af6b) | chopratejas |
+| 2026-11-22 | [fix(ci): keep alert rule and location out of the public CodeQL triage…](https://github.com/headroomlabs-ai/headroom/commit/047aadde868d38e27b5d6bc2d99dd21362fa0d53) | chopratejas |
+| 2026-11-22 | [fix(proxy): keep settings.json mode and symlink in the cc-switch reco…](https://github.com/headroomlabs-ai/headroom/commit/3bae009c3fd9c2a730b98830e642ecb312878002) | chopratejas |
+| 2026-11-22 | [fix(plugins): keep the hook launcher's Python fallback off the projec…](https://github.com/headroomlabs-ai/headroom/commit/c5d8f133606ffadbf4be8731dc1fed77e471f64f) | chopratejas |
+| 2026-11-22 | [fix(memory): keep Neo4j relationship types to a single identifier (#4…](https://github.com/headroomlabs-ai/headroom/commit/b0a8c000caade71df451b4c1976fe402e12a2a6a) | chopratejas |
+| 2026-11-22 | [feat(shaper): let an extension replace a level's steering text; defau…](https://github.com/headroomlabs-ai/headroom/commit/a3afd43e0cbd3ed4b2186419bcc8ac447d110e39) | chopratejas |
 | 2026-11-20 | [fix(cache): preserve complete CCR hashes across restarts (#4820)](https://github.com/headroomlabs-ai/headroom/commit/e27f0d96cc3032d5f2c510ac97545553b867a697) | stefanielizeth73-art |
 | 2026-11-20 | [fix(lossless): never grep-fold Ruby Logger timestamps (#4907)](https://github.com/headroomlabs-ai/headroom/commit/4a945007817022c9f797d811f475dc1172522b97) | Ayushraj06-bit |
 | 2026-11-20 | [test(memory): skip HNSW tests when the hnswlib probe fails (#4911)](https://github.com/headroomlabs-ai/headroom/commit/f4c2974e11b64a78f886caca6cdcde28d406f835) | Parideboy |
-| 2026-11-19 | [fix(output-shaper): don't add Responses instructions to a body alread…](https://github.com/headroomlabs-ai/headroom/commit/3a8270b836bc9ffa050eb7066a902ea936bc7ef2) | chopratejas |
-| 2026-11-18 | [fix(proxy): clamp /transformations/feed limit to [1, 100] (#4934)](https://github.com/headroomlabs-ai/headroom/commit/ec2ab21844ac7dfbadeea1a5636b12b1a4699e26) | HetCreep |
-| 2026-11-18 | [fix(proxy): keep relay tasks when the same WS handle re-registers (#4…](https://github.com/headroomlabs-ai/headroom/commit/f4691e8ab10a237255922e8d0dee66cd0db05191) | zhengqiuyang |
-| 2026-11-18 | [fix(proxy): give the OpenAI Responses error frame its type discrimina…](https://github.com/headroomlabs-ai/headroom/commit/53a2521637ec6d71a5b53e11f5698ebef96d97b1) | eillarra |
-| 2026-11-17 | [test(providers): keep the developer's models.json out of model-config…](https://github.com/headroomlabs-ai/headroom/commit/db2fde1f983407d504615b48f5c9baa354ba1892) | KennethWKZ |
-| 2026-11-17 | [fix(openclaw): keep the Python launcher fallback off the working dire…](https://github.com/headroomlabs-ai/headroom/commit/acebf20b47efa6a31acd78e9f742b022e03192fb) | chopratejas |
-| 2026-11-17 | [fix(content-router): protect cache_control markers nested in tool_res…](https://github.com/headroomlabs-ai/headroom/commit/18067b1d19f6606bae3b4d6b50efeeaa48dc477e) | aimanmalib |
 
 [See all commits ↗](https://github.com/headroomlabs-ai/headroom/commits)
 

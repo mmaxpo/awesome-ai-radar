@@ -21,27 +21,27 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.7k |
-| 🍴 **Forks** | 711 |
-| 🐞 **Open issues + PRs** | [282](https://github.com/BuilderIO/agent-native/issues) |
+| 🍴 **Forks** | 712 |
+| 🐞 **Open issues + PRs** | [277](https://github.com/BuilderIO/agent-native/issues) |
 | 💻 **Languages** | TypeScript 87% · MDX 10% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `react` `agent-native` `typescript` `agent-framework` `agentic-ai` `ai-agents` `framework` `generative-ui` `mcp` `open-source` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.1.150-nightly.458](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.458) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 615.0 MB |
+| 💾 **Size** | 611.2 MB |
 | 🌐 **Website** | https://www.agent-native.com |
 
 ## 📦 Recent releases
 
 ### [v0.1.150-nightly.458](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.458) — Agent-Native Nightly v0.1.150-nightly.458 _(pre-release)_
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > Auto-updating Nightly build of the Agent-Native desktop app.
 
 ### [clips-nightly-v0.1.531-0](https://github.com/BuilderIO/agent-native/releases/tag/clips-nightly-v0.1.531-0) — Clips Nightly v0.1.531-0 _(pre-release)_
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > Auto-updating nightly build of the Clips menu-bar app.
 > The in-app updater fetches its manifest from the `clips-nightly-latest`
@@ -49,17 +49,17 @@
 > signed bundles it downloads.
 
 ### [v0.1.150-nightly.457](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.457) — Agent-Native Nightly v0.1.150-nightly.457 _(pre-release)_
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > Auto-updating Nightly build of the Agent-Native desktop app.
 
 ### [v0.1.150-nightly.456](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.456) — Agent-Native Nightly v0.1.150-nightly.456 _(pre-release)_
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > Auto-updating Nightly build of the Agent-Native desktop app.
 
 ### [clips-nightly-v0.1.530-0](https://github.com/BuilderIO/agent-native/releases/tag/clips-nightly-v0.1.530-0) — Clips Nightly v0.1.530-0 _(pre-release)_
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > Auto-updating nightly build of the Clips menu-bar app.
 > The in-app updater fetches its manifest from the `clips-nightly-latest`
@@ -70,16 +70,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [fix(core): roll framework session expiry and cookies after 24h (#9543)](https://github.com/BuilderIO/agent-native/commit/2275c2a7dea83e2e70069208a7dabab2d4448384) | steve8708 |
-| 2026-11-21 | [Confirm quiet alt text from the saved page, and sync the open editor …](https://github.com/BuilderIO/agent-native/commit/fac1415a9290b6c6aa671d6b2aa05455b68ed5be) | 3mdistal |
-| 2026-11-21 | [Decide MCP access for the actions every app shares (#9448)](https://github.com/BuilderIO/agent-native/commit/1a0a9db0b1ed221157c3216caa88b197027313f2) | 3mdistal |
-| 2026-11-21 | [Write Content image alt text quietly on the image, without opening th…](https://github.com/BuilderIO/agent-native/commit/6363906b0b3a2d07868dba3b7cf8fed182d1fed1) | 3mdistal |
-| 2026-11-21 | [Keep 16 months of Search Console history and each article's top queri…](https://github.com/BuilderIO/agent-native/commit/e7ab57187fa062252440d736d27e265fc48970d5) | 3mdistal |
-| 2026-11-21 | [Report app actions the app refused as changing nothing (#9573)](https://github.com/BuilderIO/agent-native/commit/563035a0d1cfc5b32329f5c3773ea2296fb456f9) | an-fleet-bot[bot] |
-| 2026-11-21 | [Let data programs emit their full 4 MiB result in background and prod…](https://github.com/BuilderIO/agent-native/commit/22cc51ccaffc6ae9111b9ff4a6094de1cf54e08d) | 3mdistal |
-| 2026-11-21 | [Move a Content block to another page from its menu (#9382)](https://github.com/BuilderIO/agent-native/commit/1e0cc46739820e711e1a8b534090a65966006a50) | 3mdistal |
-| 2026-11-21 | [Attach a Content page to a Mail draft as a PDF file (#9515)](https://github.com/BuilderIO/agent-native/commit/c088b0b8cba91ffbec191c47d17d19c9798b7c4b) | 3mdistal |
-| 2026-11-21 | [Let Content suggest formatting on side-by-side table cells and on bot…](https://github.com/BuilderIO/agent-native/commit/d1f9a10efed7514cc048989f7f481c3adae13d08) | 3mdistal |
+| 2026-11-22 | [AGENT-PRIVATE-TURN-CONTINUE-1119: private turn with a written reply i…](https://github.com/BuilderIO/agent-native/commit/32e2797f1ed9fb6100ad88e8bd79ff94376dc8b6) | builder-io-integration[bot] |
+| 2026-11-22 | [fix(core): keep the app on screen when a route chunk fails to load of…](https://github.com/BuilderIO/agent-native/commit/9a59177aa099d36c69f955b688988d68f00284cf) | builder-io-integration[bot] |
+| 2026-11-22 | [fix(toolkit): show retryable error when timezone preference fails (#9…](https://github.com/BuilderIO/agent-native/commit/3ed4a656edcbb3019130ce92a76ab3e7af9efbd6) | builder-io-integration[bot] |
+| 2026-11-22 | [Let outside agents send Analytics reports and run alerts after the us…](https://github.com/BuilderIO/agent-native/commit/6d92e0a879d1bda55e2325e4f6fb6577bbb9b623) | 3mdistal |
+| 2026-11-22 | [Ask once before an MCP agent spends past $1 of BigQuery a day in Anal…](https://github.com/BuilderIO/agent-native/commit/798b8b143a1f94ab073470aaecd4efbe857f9cc5) | 3mdistal |
+| 2026-11-22 | [Make Dispatch pane routing decisive and workspace-aware (#9637)](https://github.com/BuilderIO/agent-native/commit/4163448ec05e9d9871e9b2702d6cfd4ab7e62386) | steve8708 |
+| 2026-11-22 | [Redesign Content's AI suggestion card and show AI comment work live t…](https://github.com/BuilderIO/agent-native/commit/fc4f32439959ae914c7f38a19b6c2ec37fb9b1e9) | 3mdistal |
+| 2026-11-22 | [Decide MCP access for Clips' own actions (#9629)](https://github.com/BuilderIO/agent-native/commit/24a42053b5cf06d53a8721432d1dd62acfc40691) | 3mdistal |
+| 2026-11-22 | [Tell ask_app_status callers how to keep polling after a handle expire…](https://github.com/BuilderIO/agent-native/commit/0c772055a9324aa9960197eb9b29524ff8b535b4) | 3mdistal |
+| 2026-11-22 | [Group the Files sidebar on a view's select, status, multi-select or c…](https://github.com/BuilderIO/agent-native/commit/148eb241e0cce7ef52abcbf41ed2af8ab7e73e36) | 3mdistal |
 
 [See all commits ↗](https://github.com/BuilderIO/agent-native/commits)
 

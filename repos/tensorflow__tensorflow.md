@@ -26,17 +26,17 @@
 | 💻 **Languages** | C++ 56% · Python 25% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1412.9 MB |
+| 💾 **Size** | 1413.0 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
 
 ### [v2.22.0-rc1](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1) — TensorFlow 2.22.0-rc1 _(pre-release)_
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **Release 2.22.0**
 > **TensorFlow**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [Automated Code Change](https://github.com/tensorflow/tensorflow/commit/75cf5f742ef3b5fec501269669fac40b77a6387b) | tensorflower-gardener |
+| 2026-11-22 | [[XLA:GPU][NFC] Move GPU alias_info libraries to backends/gpu/hlo/anal…](https://github.com/tensorflow/tensorflow/commit/cf89af92e0fb46de21c9675f169bcee4fec735c4) | pifon2a |
+| 2026-11-21 | [[XLA:CPU] Remove legacy prebuilt tfcompile RngState shims](https://github.com/tensorflow/tensorflow/commit/73720b3e45428c614c0cb5019935ca5b24330ecf) | majnemer |
+| 2026-11-21 | [[XLA:GPU][NFC] Move GPU fusion passes to backends/gpu/transforms/fusion](https://github.com/tensorflow/tensorflow/commit/de10f3b94079b19634662ce7148cbf6c25a93a68) | pifon2a |
+| 2026-11-21 | [[XLA:GPU] Delete unused hlo_algorithm_denylist and gpu_autotuning_proto](https://github.com/tensorflow/tensorflow/commit/48cee7f27c798c18210f72491877a8b9b639edd3) | pifon2a |
+| 2026-11-21 | [[IFRT IR] Tighten IFRT IR op verifiers and factor shared checks onto …](https://github.com/tensorflow/tensorflow/commit/c7e516a88d55f704e8c99983b3de45780d00412d) | ICGog |
+| 2026-11-21 | [[XLA] Peel bitcasts when checking buffer aliasing in ShouldFuseInPlaceOp](https://github.com/tensorflow/tensorflow/commit/5d4f214c54e90627bda9c866935044cdca352d68) | blakehechtman |
+| 2026-11-21 | [[IFRT IR] Enforce direct `FuncOp` nesting in `NestedInIfrtFuncTrait` …](https://github.com/tensorflow/tensorflow/commit/2deff6661c853fe610762db39006e172e0ca3c56) | ICGog |
 | 2026-11-21 | [[XLA:GPU] Color two-shot Triton AllGather outputs in collective symme…](https://github.com/tensorflow/tensorflow/commit/f80e9534620de429cb5f97adfd212a40b5e7390e) | sohaibiftikhar |
 | 2026-11-21 | [[IFRT IR] Tighten `IfrtDialect` attribute and `IfrtArrayType` verifiers](https://github.com/tensorflow/tensorflow/commit/3ceba449fd7e1bdf3ce593b90e3adc37d3f4d420) | ICGog |
-| 2026-11-21 | [[IFRT] Validate element bounds and non-zero product in `xla::ifrt::In…](https://github.com/tensorflow/tensorflow/commit/4244352d0041fb9db90f7883601998f5cf59eeb5) | hyeontaek |
-| 2026-11-21 | [[IFRT] Introduce `IfrtIrExecutable` and compile-only `IfrtIrProgramCo…](https://github.com/tensorflow/tensorflow/commit/d8fd7c04e5cf172d8bff31c647431f8ace901eda) | hyeontaek |
-| 2026-11-21 | [[xla:cpu/nanort] Plumb `ExecuteOptions::custom_options` through `Nano…](https://github.com/tensorflow/tensorflow/commit/944763d31ead203fb9afedf017bc01e281a11099) | cezheng |
-| 2026-11-21 | [[MHLO] Extend mhlo.dot_general with block scaling and structured spar…](https://github.com/tensorflow/tensorflow/commit/2b1a2b68725aa6363c5d6c31ab131eb489a9e124) | tensorflower-gardener |
-| 2026-11-21 | [[XLA] Keep latency_metadata an integer when collectives are combined](https://github.com/tensorflow/tensorflow/commit/614979f4518add3a00fa0503ab88eb39c96a49c6) | patrick-toulme |
-| 2026-11-21 | [Implement `AcquireExternalDmaAccess` for PjRt GPU.](https://github.com/tensorflow/tensorflow/commit/0ad69f3577522d874b9d1b816c2489cd6d92390c) | junwhanahn |
-| 2026-11-21 | [[XLA:PjRt] Add 512 bit transpose microkernels and runtime block sizing](https://github.com/tensorflow/tensorflow/commit/8112c9834ef0a323adfcc9f1b50f9d74537a4cb7) | majnemer |
-| 2026-11-21 | [Integrate LLVM at llvm/llvm-project@86801a03ccc8](https://github.com/tensorflow/tensorflow/commit/3f51b4b4a3574d998ff53cf446d146416bde2152) | tensorflower-gardener |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

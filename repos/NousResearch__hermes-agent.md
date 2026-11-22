@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 265.1k |
-| 🍴 **Forks** | 59.9k |
+| ⭐ **Stars** | 265.3k |
+| 🍴 **Forks** | 60.0k |
 | 🐞 **Open issues + PRs** | [54.2k](https://github.com/NousResearch/hermes-agent/issues) |
 | 💻 **Languages** | Python 73% · TypeScript 24% · JavaScript 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agent` `ai-agents` `llm` `anthropic` `chatgpt` `claude` `claude-code` `codex` `hermes` `hermes-agent` `nous-research` `openai` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-07-22 |
 | 📦 **Latest release** | [v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1512.9 MB |
+| 💾 **Size** | 1512.5 MB |
 | 🌐 **Website** | https://hermes-agent.nousresearch.com |
 
 ## 📦 Recent releases
 
 ### [v0.23.3+canary.20261120T064609Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3%2Bcanary.20261120T064609Z) — Hermes Agent canary v0.23.3+canary.20261120T064609Z _(pre-release)_
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **Hermes Agent v0.23.3+canary.20261120T064609Z (v0.23.3+canary.20261120T064609Z)**
 > **Release Date:** November 20, 2026
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3) — Hermes Agent v0.23.3
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **Hermes Agent v0.23.3**
 > **Release Date:** November 19, 2026
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.23.2+canary.20261119T064637Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261119T064637Z) — Hermes Agent canary v0.23.2+canary.20261119T064637Z _(pre-release)_
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **Hermes Agent v0.23.2+canary.20261119T064637Z (v0.23.2+canary.20261119T064637Z)**
 > **Release Date:** November 19, 2026
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.23.2+canary.20261118T064620Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261118T064620Z) — Hermes Agent canary v0.23.2+canary.20261118T064620Z _(pre-release)_
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **Hermes Agent v0.23.2+canary.20261118T064620Z (v0.23.2+canary.20261118T064620Z)**
 > **Release Date:** November 18, 2026
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.23.2+canary.20261117T064624Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261117T064624Z) — Hermes Agent canary v0.23.2+canary.20261117T064624Z _(pre-release)_
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **Hermes Agent v0.23.2+canary.20261117T064624Z (v0.23.2+canary.20261117T064624Z)**
 > **Release Date:** November 17, 2026
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [fix(gateway): never copy a launcher key the home's .env already sets](https://github.com/NousResearch/hermes-agent/commit/38fde82474b5d370590e314358cc05076dc9ae70) | unsupportedpastels |
-| 2026-11-21 | [fix(gateway): name running turns in the no-service-manager recipe too](https://github.com/NousResearch/hermes-agent/commit/c8a8bfb2f7af7d673b43a4de46fff3098ba1d4e1) | unsupportedpastels |
-| 2026-11-21 | [fix(gateway): probe a by-hand backend's health only in the planner's …](https://github.com/NousResearch/hermes-agent/commit/49607d4ce546dfa3f39ab442f74f48c07f658a3c) | unsupportedpastels |
-| 2026-11-21 | [test(gateway): run the status-wording cases on the host they describe](https://github.com/NousResearch/hermes-agent/commit/989b03e10f1c318633c2c5bc25e1c4b21fc6f68d) | unsupportedpastels |
-| 2026-11-21 | [test(gateway): check the plan's hermes commands by their output, not …](https://github.com/NousResearch/hermes-agent/commit/78b654f287db5a2e75f6e866da1e44eedcf45a8d) | unsupportedpastels |
-| 2026-11-21 | [fix(gateway): block a by-hand plan on a refused old public URL](https://github.com/NousResearch/hermes-agent/commit/0137734cf8f8cd761e28a2279c1d8ea687fb5fde) | unsupportedpastels |
-| 2026-11-21 | [fix(gateway): say how the unknown-activity blocker clears and name it…](https://github.com/NousResearch/hermes-agent/commit/18cfd6e05556bd8da0b34b7599b0825468ea7589) | unsupportedpastels |
-| 2026-11-21 | [fix(gateway): name known running turns in every forced by-hand plan](https://github.com/NousResearch/hermes-agent/commit/ad067d40f27ab03baba9533d085e08c005e31c09) | BearHuddleston |
-| 2026-11-21 | [fix(gateway): treat a by-hand backend without /api/health as unknown …](https://github.com/NousResearch/hermes-agent/commit/dbd7ace40a6bc9fbd2a8a770793c44b2e4fa6a44) | unsupportedpastels |
-| 2026-11-21 | [fix(gateway): redact inline source after pythonw short -c clusters too](https://github.com/NousResearch/hermes-agent/commit/f12fc78ca1d048de0091d30e124f6acc3a8d0ad1) | unsupportedpastels |
+| 2026-11-22 | [test(desktop): disband rewrite leaves out another room's tombstone](https://github.com/NousResearch/hermes-agent/commit/0f602c5f6f18615632535251d62a2db74ce93b69) | teknium1 |
+| 2026-11-22 | [fix(desktop): every group chat storage writer keeps the whole room re…](https://github.com/NousResearch/hermes-agent/commit/49a2bdcab97bfb2e617fb3ed331f6c0a1fa3b24e) | kshitijk4poor |
+| 2026-11-22 | [test(profiles): pin the review-surfaced branches of the profile lifec…](https://github.com/NousResearch/hermes-agent/commit/da8e7d71abe4ac165760cd813c0c18c53e697b90) | kshitijk4poor |
+| 2026-11-22 | [fix(profiles): a failed import stages in a hidden mkdtemp, so Windows…](https://github.com/NousResearch/hermes-agent/commit/cbfc05acd8c4af391bb0029a71a4522948d020ad) | kshitijk4poor |
+| 2026-11-22 | [test(profiles): the staging-mode test is POSIX-only; the lock wait is…](https://github.com/NousResearch/hermes-agent/commit/9b70b9b33136e2f2cde00865cc05a92cf83507fd) | kshitijk4poor |
+| 2026-11-22 | [fix(profiles): import and rename publish a name like create, so a rac…](https://github.com/NousResearch/hermes-agent/commit/427b87092cf8eb008ad964a4cee05501ebe9541d) | kshitijk4poor |
+| 2026-11-22 | [fix(desktop): the share-keys hint scopes the launch profile to a fres…](https://github.com/NousResearch/hermes-agent/commit/ad6d519aceef17d502814f9b8034cd5d63b51456) | kshitijk4poor |
+| 2026-11-22 | [fix(desktop): the share-keys hint says a cloned bot's logins are copied](https://github.com/NousResearch/hermes-agent/commit/5e2124dc825f8631b82653b615304058135e98d8) | kshitijk4poor |
+| 2026-11-22 | [fix(kanban): the model preflight judges a card by the provider and UR…](https://github.com/NousResearch/hermes-agent/commit/fbd2c432354a0410f660310c369c864cd0082359) | kshitijk4poor |
+| 2026-11-22 | [test(ci): check that notarytool's stdout stays out of the preflight l…](https://github.com/NousResearch/hermes-agent/commit/8650b2aea8899cc494acf87b117d1f9c75dacbc4) | BearHuddleston |
 
 [See all commits ↗](https://github.com/NousResearch/hermes-agent/commits)
 

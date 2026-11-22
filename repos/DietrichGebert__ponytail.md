@@ -14,17 +14,19 @@
 | **Why it's worth a look** | Rules for coding agents |
 | **Added** | 2026-11-14 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 196.1k |
-| 🍴 **Forks** | 11.0k |
-| 🐞 **Open issues + PRs** | [333](https://github.com/DietrichGebert/ponytail/issues) |
+| ⭐ **Stars** | 196.7k |
+| 🍴 **Forks** | 11.1k |
+| 🐞 **Open issues + PRs** | [315](https://github.com/DietrichGebert/ponytail/issues) |
 | 💻 **Languages** | JavaScript 49% · Python 25% · TypeScript 25% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `claude` `claude-code` `claude-code-plugin` `cursor-rules` `developer-tools` `llm` `prompt-engineering` `yagni` |
-| 🕒 **Last activity** | 2026-10-29 (23d ago) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-06-12 |
 | 📦 **Latest release** | [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3)
-<sub>2026-10-29 · 23d ago</sub>
+<sub>2026-10-29 · 24d ago</sub>
 
 > This one cleans up the band. On Team, Enterprise and managed machines the warning on your first prompt is gone, and the band shows your model and session name again. In VS Code it stays on one line, other plugins' commands no longer print under ponytail's name, and the noisy "duplicate?" hint is gone.
 > **What's Changed**
@@ -90,6 +92,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [fix(hooks): decode stdin across UTF-8 chunk boundaries (#1495)](https://github.com/DietrichGebert/ponytail/commit/ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10) | Afloat16 |
+| 2026-11-22 | [fix(band): keep readable subagent usage during partial imports (#1461)](https://github.com/DietrichGebert/ponytail/commit/affbac13e2820804754a8380454006eb664f193e) | Afloat16 |
+| 2026-11-21 | [docs: add Braids to Already built with Ponytail (#1537)](https://github.com/DietrichGebert/ponytail/commit/dec89d9040ad863decb0207003dcd500cb00aa03) | DietrichGebert |
 | 2026-10-29 | [docs: add PhotoReunion to Already built with Ponytail (#1313)](https://github.com/DietrichGebert/ponytail/commit/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846) | DietrichGebert |
 | 2026-10-29 | [chore: release v5.3.3 (#1307)](https://github.com/DietrichGebert/ponytail/commit/7801d061243d7b753bad0e0b3c057cd250b11755) | DietrichGebert |
 | 2026-10-29 | [fix(band): drop the duplicate? hint, count only project files, tighte…](https://github.com/DietrichGebert/ponytail/commit/a3edb0ec9d44473f814d9b0e435b80e3cbb138df) | DietrichGebert |
@@ -97,9 +102,6 @@
 | 2026-10-29 | [fix(band): watch only /clear, /resume and /branch, so other plugins' …](https://github.com/DietrichGebert/ponytail/commit/134b8e1a3a8078302b8ba77f86626c0802b2a6db) | ph3on1x |
 | 2026-10-29 | [fix(band): find the transcript without a classic hook (#1242)](https://github.com/DietrichGebert/ponytail/commit/6309875aa27a788030b8e3f43e29a1342a6370ee) | trhinehart-attentive |
 | 2026-10-18 | [fix(bench): wait for the killed todo server before the workdir cleanu…](https://github.com/DietrichGebert/ponytail/commit/09c434ab73ca43761c5d8b0c5d341926c2fba710) | devohmycode |
-| 2026-10-18 | [fix(hooks): give the codebase map 3 s so a slow Windows start keeps i…](https://github.com/DietrichGebert/ponytail/commit/5117d0ef09e9fc040093d8d54182d8e28d3201b9) | DietrichGebert |
-| 2026-10-18 | [fix(hooks): 15 s hook timeout so a slow node start on Windows keeps i…](https://github.com/DietrichGebert/ponytail/commit/5a5a605fb1292a93095e9b8fcd5a7866f2fcc637) | DietrichGebert |
-| 2026-10-18 | [fix(codex): small composer icon instead of the 554 KB logo (#1164)](https://github.com/DietrichGebert/ponytail/commit/629158d41d1f1e2a65c06abe0a3d58bf76ad2745) | DietrichGebert |
 
 [See all commits ↗](https://github.com/DietrichGebert/ponytail/commits)
 

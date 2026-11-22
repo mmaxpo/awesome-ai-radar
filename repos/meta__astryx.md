@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 31.6k |
+| ⭐ **Stars** | 32.0k |
 | 🍴 **Forks** | 2.5k |
-| 🐞 **Open issues + PRs** | [947](https://github.com/meta/astryx/issues) |
+| 🐞 **Open issues + PRs** | [910](https://github.com/meta/astryx/issues) |
 | 💻 **Languages** | TypeScript 59% · JavaScript 40% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-01-09 |
 | 📦 **Latest release** | [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1349.7 MB |
+| 💾 **Size** | 1358.1 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
 
 ### [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — Astryx v0.7.17
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **Astryx v0.7.17**
 > Upgrade every Astryx package your app uses to `0.7.17`, then run:
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — Astryx v0.7.16
-<sub>2026-11-14 · 7d ago</sub>
+<sub>2026-11-14 · 8d ago</sub>
 
 > Astryx 0.7.16 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.15](https://github.com/meta/astryx/releases/tag/v0.7.15)
-<sub>2026-11-12 · 8d ago</sub>
+<sub>2026-11-12 · 9d ago</sub>
 
 > Astryx 0.7.15 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.14](https://github.com/meta/astryx/releases/tag/v0.7.14)
-<sub>2026-11-11 · 9d ago</sub>
+<sub>2026-11-11 · 10d ago</sub>
 
 > Astryx 0.7.14 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.13](https://github.com/meta/astryx/releases/tag/v0.7.13)
-<sub>2026-11-10 · 10d ago</sub>
+<sub>2026-11-10 · 11d ago</sub>
 
 > Astryx 0.7.13 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [fix(Field): label, description and status text, the status tooltip in…](https://github.com/meta/astryx/commit/dbc4d8d1c9a6130b1c326dfcff71e19b9ba97523) | cixzhang |
-| 2026-11-21 | [chore: land batch fe-theme-4 (9 pull requests) (#13315)](https://github.com/meta/astryx/commit/7916ed572d8d9700bcb72c848d8cf0b9247650f4) | josephfarina |
-| 2026-11-21 | [ci: refresh the recorded Node test times (#13328)](https://github.com/meta/astryx/commit/ce31d1bc1785d8184e475955a906a2ad8a6a0bee) | github-actions[bot] |
-| 2026-11-21 | [perf(core): read a list's animations once per hit-area pass (#13124)](https://github.com/meta/astryx/commit/0ed091c8b8c7d4b0af48a9b68507618e73227892) | vjeux |
-| 2026-11-21 | [chore: land batch 144 (2 pull requests) (#13353)](https://github.com/meta/astryx/commit/98c4c6db718b9de8f0da976a45be048dff171dc8) | josephfarina |
-| 2026-11-21 | [test(cli): the stopped-request test waits for the server's close (#13…](https://github.com/meta/astryx/commit/66b90a5c1f77494dcfacdaf778ae03f9c2e4fb1d) | vjeux |
-| 2026-11-21 | [fix(Tab): paint the hover and press layer under the label (#12662)](https://github.com/meta/astryx/commit/5c2b94a020375701ca23da6b477c3ab559e3d724) | cixzhang |
-| 2026-11-21 | [chore: land batch 143 (1 pull requests) (#13352)](https://github.com/meta/astryx/commit/66b7dffdad0dd7cabefdb6bd88d13a22aac0b1ad) | josephfarina |
-| 2026-11-21 | [perf(core): a cut label's tooltip and its measurement load after the …](https://github.com/meta/astryx/commit/95dd7cd7fe89b7bb9b272c5111e16bd82f044d3a) | cixzhang |
-| 2026-11-21 | [chore: land batch 142 (2 pull requests) (#13318)](https://github.com/meta/astryx/commit/30e7021ff0acd7e235d35d367a150ca6fd42dbd0) | josephfarina |
+| 2026-11-22 | [fix(TimeInput, DateTimeInput): time and date text read in the formatt…](https://github.com/meta/astryx/commit/cbb4c42a0c6e6a35dd475bda924be10f6d1ac96e) | cixzhang |
+| 2026-11-22 | [chore: land batch 170 (1 pull requests) (#13557)](https://github.com/meta/astryx/commit/d64c99d2549bb1ae95ac277b84a450385f4e4d8c) | josephfarina |
+| 2026-11-22 | [fix(BottomSheet): a scrim press dismisses only when it starts and end…](https://github.com/meta/astryx/commit/7111951a43d5738ff3bbac8a1eb0de544ed5d0fa) | MuhammadAusafJamal |
+| 2026-11-22 | [chore: land batch 169 (2 pull requests) (#13548)](https://github.com/meta/astryx/commit/7c1c76e6eb97a7a5c7ac5bfb2b07906adec3c0f2) | josephfarina |
+| 2026-11-22 | [chore: land batch 166 (6 pull requests) (#13542)](https://github.com/meta/astryx/commit/9d1923577357cb1918b3a01b17bf3f0a9ca36bf0) | josephfarina |
+| 2026-11-22 | [chore: land batch 165 (2 pull requests) (#13541)](https://github.com/meta/astryx/commit/5d7ae4c1a58c80fb9ad3f1fbba8f4dd760d485bf) | josephfarina |
+| 2026-11-22 | [chore: land batch 167 (1 pull requests) (#13545)](https://github.com/meta/astryx/commit/a1260d0610e48c1152b550156023105cbdda0e16) | josephfarina |
+| 2026-11-22 | [chore: land batch 168 (1 pull requests) (#13546)](https://github.com/meta/astryx/commit/9b64eeb9cbcb2b2ad7b0e91f1a3b1f20bc4133da) | josephfarina |
+| 2026-11-22 | [perf(Table): a collapsed expansion chevron has no positioned box at r…](https://github.com/meta/astryx/commit/fca85088858273f1aaae149e39cc2af776ed448f) | cixzhang |
+| 2026-11-22 | [test(a11y): a Firefox project runs the hover specs (#13524)](https://github.com/meta/astryx/commit/891cff5418dbea48725475e5fb41788596e625c9) | cixzhang |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

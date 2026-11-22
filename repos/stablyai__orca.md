@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 131.7k |
-| 🍴 **Forks** | 8.4k |
+| ⭐ **Stars** | 132.5k |
+| 🍴 **Forks** | 8.5k |
 | 🐞 **Open issues + PRs** | [9.0k](https://github.com/stablyai/orca/issues) |
-| 💻 **Languages** | TypeScript 96% · JavaScript 3% |
+| 💻 **Languages** | TypeScript 95% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `ghostty` `terminal` `opencode` `orchestration` `worktrees` `pi` `mobile-app` `agent-ide` `ai-agents` `yc-backed` `automation` `bot` `grok-bot` `hermes-agent` `muse` `openclaw` `runtime` `swarm` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-03-17 |
-| 📦 **Latest release** | [v1.4.268](https://github.com/stablyai/orca/releases/tag/v1.4.268) — 2026-11-21 |
+| 📦 **Latest release** | [v1.4.269](https://github.com/stablyai/orca/releases/tag/v1.4.269) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3179.9 MB |
+| 💾 **Size** | 3200.3 MB |
 | 🌐 **Website** | https://orca.dev |
 
 ## 📦 Recent releases
 
-### [v1.4.268](https://github.com/stablyai/orca/releases/tag/v1.4.268)
+### [v1.4.269](https://github.com/stablyai/orca/releases/tag/v1.4.269)
 <sub>2026-11-21 · today</sub>
+
+> Following [1.4.268](https://github.com/stablyai/orca/releases/tag/v1.4.268), here is the next round of Orca. Bots learn eight more agents, and the phone app catches up with the desktop.
+> **Bots on eight more agents, a fuller phone & a quieter Mac ✨**
+> Bots can now run on Kiro, Kimi Code, Auggie, Gemini CLI, Kilo Code, MiMo Code, Droid and Goose, Chat opens more agents directly, and the phone app can answer, approve and set up almost everything the desktop can.
+> - 🤖 **Run bots on more agents:** Bots can run on Kiro, Kimi Code, Auggie, Gemini CLI, Kilo Code, MiMo Code, Droid and Goose. Chat can open Kiro, Auggie and Goose too, and Kiro chats run your own hooks.
+> - 📱 **Do more from your phone:** Answer an agent's questions and Google or Composio setup cards from its chat, review tool approvals and access requests in Needs you, manage an agent's tools and webhooks, start a new chat from +, and browse a group's threads and items. These need the matching mobile build.
+> - 🔐 **Antigravity, your way:** Google account users can pick Orca's built-in Google sign-in or the agy agent, and agy has its own Sign in in Settings.
+> …
+
+### [v1.4.268](https://github.com/stablyai/orca/releases/tag/v1.4.268)
+<sub>2026-11-21 · yesterday</sub>
 
 > We shipped more than one release today. Check out [1.4.267](https://github.com/stablyai/orca/releases/tag/v1.4.267) and [1.4.266](https://github.com/stablyai/orca/releases/tag/v1.4.266) too.
 > **Bots on more agents, richer Slack & a faster Orca ✨**
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.4.267](https://github.com/stablyai/orca/releases/tag/v1.4.267)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > A quick patch on [1.4.266](https://github.com/stablyai/orca/releases/tag/v1.4.266) with stability and UI improvements.
 > **What's new in 1.4.267**
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.4.266](https://github.com/stablyai/orca/releases/tag/v1.4.266)
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > [Previous release: 1.4.265](https://github.com/stablyai/orca/releases/tag/v1.4.265): Orca Bots as first-class teammates, with a lighter desktop for busy chats.
 > **Introducing Orca Bots (Beta) <img src="https://raw.githubusercontent.com/stablyai/orca/main/src/shared/bot-mascots/A1.webp" alt="Orca" width="36" height="36" valign="middle" />**
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.4.265](https://github.com/stablyai/orca/releases/tag/v1.4.265)
-<sub>2026-11-19 · yesterday</sub>
+<sub>2026-11-19 · 2d ago</sub>
 
 > [Previous release: 1.4.264](https://github.com/stablyai/orca/releases/tag/v1.4.264) — Chat commands find their workspace, keeping browser work with the right chat.
 > **Introducing Orca Bots (Beta) <img src="https://raw.githubusercontent.com/stablyai/orca/main/src/shared/bot-mascots/A1.webp" alt="Orca" width="20" height="20" valign="middle" />**
@@ -79,31 +90,20 @@
 > - 💬 **Slack threads show what a bot is doing:** A thread now reflects what its turn is working on, and long answers arrive whole instead of cut up.
 > …
 
-### [android-v0.0.68](https://github.com/stablyai/orca/releases/tag/android-v0.0.68) — Orca Mobile Android android-v0.0.68 _(pre-release)_
-<sub>2026-11-19 · yesterday</sub>
-
-> [Previous Android release: 0.0.67](https://github.com/stablyai/orca/releases/tag/android-v0.0.67)
-> **More control over chats and terminals from your phone ✨**
-> Android 0.0.68 brings together improvements for starting agents, following their work and returning to earlier sessions. With an updated paired host, you can choose the workflow you want and do more of the follow-up from your phone.
-> - 💬 **Start in Chat or CLI:** Choose a surface in the New Tab sheet instead of relying entirely on the host's default. Your phone remembers your choice; agents that cannot run in Chat still open in the CLI.
-> - 🔎 **Find and revisit past work:** Agent History adds agent and sort filters, searches across the whole project, and offers to resume interrupted chats after the computer restarts.
-> - 🔔 **See which agent needs a read:** Unread bells appear on workspace agent rows and session tabs, including collapsed groups. Viewing the agent's tab marks its reply read.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [fix(launch): do not submit a launch prompt into the shell after the a…](https://github.com/stablyai/orca/commit/d40b2dc983b9250ac93812048eb01fb8a04a7bbc) | innocarpe |
-| 2026-11-21 | [feat(bots): pilot a Tidy-up that moves, merges and retires memory lin…](https://github.com/stablyai/orca/commit/1e8546eadfcd69ae3438c0e3c0a3693cf771067a) | AmethystLiang |
-| 2026-11-21 | [fix(editor): keep EditorEditFileSurface under the 400-line lint limit…](https://github.com/stablyai/orca/commit/ae73aedb03a690cf4c13c346dfa92f19bdb94ff2) | AmethystLiang |
-| 2026-11-21 | [feat(mobile): add people to who can ask from the phone (#46369)](https://github.com/stablyai/orca/commit/5891891916143204212cfbf03a2398e168c45371) | AmoabaKelvin |
-| 2026-11-21 | [fix(editor): show edits made in Edit mode when returning to Changes (…](https://github.com/stablyai/orca/commit/d8103ccacab84b533840e4e83368592e9df53f4a) | audichuang |
-| 2026-11-21 | [fix(pdf): focus the PDF viewer on open so PageUp/PageDown scroll it (…](https://github.com/stablyai/orca/commit/bb2f75bf2e428ebad10fa329938b50c69a85ff30) | stmoon |
-| 2026-11-21 | [fix(editor): keep the Changes view visible under the external-change …](https://github.com/stablyai/orca/commit/c326a2e170246f9cdfa01030e44f44a2790ff1a8) | audichuang |
-| 2026-11-21 | [feat(mobile): read the agent's soul, edit its memory and manage its s…](https://github.com/stablyai/orca/commit/9e9ceede7543f0cc0479a7b00508a9e4883b7f9b) | AmoabaKelvin |
-| 2026-11-21 | [test(managed-server): skip the Linux-host shell-command suites on Win…](https://github.com/stablyai/orca/commit/c3fd7e209abe32052e97882e7df2e008dd81a436) | Pr1p |
-| 2026-11-21 | [feat(mobile): share agents by link from the phone (#46162)](https://github.com/stablyai/orca/commit/f388c739a95e85893d5850732533e821abd07d40) | AmoabaKelvin |
+| 2026-11-22 | [fix(automations): stop a dark-wake hold from overriding missed-run gr…](https://github.com/stablyai/orca/commit/fc05029f3fbb13690924364ead0814ea4d16e04a) | Naor-Yekutiely |
+| 2026-11-22 | [fix(antigravity): start a worker given a level model id on its listed…](https://github.com/stablyai/orca/commit/c5de2672a1bba0255340a407cb3ec66ee58f868b) | nwparker |
+| 2026-11-22 | [fix(i18n): correct mistranslated Korean labels on the Workspace clean…](https://github.com/stablyai/orca/commit/9394077842b1093bc578d8ef6a2a59b0b8752184) | dbsghdz1 |
+| 2026-11-22 | [fix(mobile): refresh paired devices after an external registry revoke…](https://github.com/stablyai/orca/commit/c354ab30ce7d615add5cbcbaae6b6ff8f3b51bdc) | lexasoft123 |
+| 2026-11-22 | [fix(native-chat): show stored chat images over 3 MB on paired desktop…](https://github.com/stablyai/orca/commit/8408e2dfa0f5a73f708fd01e62ea3ba184f0a548) | AmoabaKelvin |
+| 2026-11-22 | [feat(kiro): pick reasoning effort for a new Kiro Chat before the firs…](https://github.com/stablyai/orca/commit/22ad3bbe244a0f61bc403d83aae03b68f58c1264) | AmoabaKelvin |
+| 2026-11-22 | [feat(account): Team & admin link to the web console in Settings › Orc…](https://github.com/stablyai/orca/commit/16aa1217d2f9ec9f2b8fb25cc24858c355d91f98) | nwparker |
+| 2026-11-22 | [fix(i18n): translate Korean entries that still copied English (#46840)](https://github.com/stablyai/orca/commit/ddc86686069eb2b26b84111f567c394f6f6d967b) | Dawnilove |
+| 2026-11-22 | [fix(native-chat): preview images ACP tools return without a file path…](https://github.com/stablyai/orca/commit/eb078db70d8450b73905d897597a4a85ffaabfbd) | AmoabaKelvin |
+| 2026-11-22 | [fix(mobile): keep the item answer card's picks when another device an…](https://github.com/stablyai/orca/commit/c2a5dee45ce3a210bf218db1f5a864155e8e84d6) | AmoabaKelvin |
 
 [See all commits ↗](https://github.com/stablyai/orca/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 205.8k |
+| ⭐ **Stars** | 206.6k |
 | 🍴 **Forks** | 10.8k |
-| 🐞 **Open issues + PRs** | [896](https://github.com/firecrawl/firecrawl/issues) |
+| 🐞 **Open issues + PRs** | [914](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 74% · Python 10% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [feat(api): optional extra resource prefixes for MCP action logs (#5950)](https://github.com/firecrawl/firecrawl/commit/3487d929360fa3544a18b2cdd92615f4d24ba1a3) | capy-ai[bot] |
+| 2026-11-22 | [test(api): resolve the map redirect snip's redirect from its mock (#5…](https://github.com/firecrawl/firecrawl/commit/151238789187480b1cef449d5c765411da5e3757) | capy-ai[bot] |
+| 2026-11-22 | [test(api): accept an HTTP error status for search results that scrape…](https://github.com/firecrawl/firecrawl/commit/804ec0b87d30f6406032211e46fddc3f09380913) | Ben2W |
 | 2026-11-21 | [feat(api): x-firecrawl-work-contact-only leaves personal contact fiel…](https://github.com/firecrawl/firecrawl/commit/e6c2ffdf7072fe9ab72eefa59622454f7480e163) | capy-ai[bot] |
 | 2026-11-20 | [feat(api): add HOSTED_MCP_PROXY_SECRET for hosted MCP API-key request…](https://github.com/firecrawl/firecrawl/commit/41b36dfd28ad69df7da221d1d51f3d5fb4838be3) | Ben2W |
 | 2026-11-20 | [feat(api): name the search that led to each Alexandria call (#5934)](https://github.com/firecrawl/firecrawl/commit/e6f43250c51fb9811f1e60c016f146599d38b9e6) | nickscamara |
@@ -101,9 +104,6 @@
 | 2026-11-20 | [feat(api): feedback for interact and browser sessions, and trace ids …](https://github.com/firecrawl/firecrawl/commit/380e1db208519c84bc57d533411854180c714f73) | nickscamara |
 | 2026-11-20 | [fix(api): send the scrape deadline to the Exchange (#5921)](https://github.com/firecrawl/firecrawl/commit/87202348f7b3c5273c237fe8b47d3c2568f4938c) | capy-ai[bot] |
 | 2026-11-20 | [chore(api): remove the hosted bash endpoint at /v2/bash (#5889)](https://github.com/firecrawl/firecrawl/commit/484be117975ac7b8be085c25f1fbd54d005f17ff) | Ben2W |
-| 2026-11-20 | [fix(api): durably retry monitor settles and bill monitor runs that to…](https://github.com/firecrawl/firecrawl/commit/a40eeffae134f0011531548513ad33b8ec13f72f) | micahstairs |
-| 2026-11-19 | [feat(api): add account endpoint group to key restrictions (#5881)](https://github.com/firecrawl/firecrawl/commit/dc37f52f9670be4ef3077f97f31096b2d0657205) | micahstairs |
-| 2026-11-19 | [feat(pdf): remove the RunPod MinerU engine from the PDF fallback chai…](https://github.com/firecrawl/firecrawl/commit/a38c6812f22ec1c97c97fcad431d8bcc728e3e89) | abimaelmartell |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

@@ -22,29 +22,29 @@
 |---|---|
 | ⭐ **Stars** | 50.5k |
 | 🍴 **Forks** | 4.6k |
-| 🐞 **Open issues + PRs** | [212](https://github.com/mudler/LocalAI/issues) |
+| 🐞 **Open issues + PRs** | [208](https://github.com/mudler/LocalAI/issues) |
 | 💻 **Languages** | Go 72% · JavaScript 17% · CSS 2% · C++ 2% · TypeScript 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `ai` `llm` `stable-diffusion` `api` `tts` `musicgen` `mamba` `audio-generation` `image-generation` `text-generation` `rerank` `distributed` `libp2p` `decentralized` `object-detection` `mcp` `agents` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-03-18 |
 | 📦 **Latest release** | [v5.0.1](https://github.com/mudler/LocalAI/releases/tag/v5.0.1) — 2026-11-20 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 251.5 MB |
+| 💾 **Size** | 253.0 MB |
 | 🌐 **Website** | https://localai.io |
 
 ## 📦 Recent releases
 
-### [dev-master](https://github.com/mudler/LocalAI/releases/tag/dev-master) — Development build (077dd65) _(pre-release)_
-<sub>2026-11-15 · 6d ago</sub>
+### [dev-master](https://github.com/mudler/LocalAI/releases/tag/dev-master) — Development build (e68e9fb) _(pre-release)_
+<sub>2026-11-15 · 7d ago</sub>
 
-> Commit: 077dd65dd964ebdde60fc97a6e25aa8e3b4906ab
-> Date: 2026-11-21T13:10:51Z
-> Subject: test(addons): list the new cases and document the signer in the apps spec
+> Commit: e68e9fbbab5242cc4fcd80e89b90640b03b9c68f
+> Date: 2026-11-22T09:00:57Z
+> Subject: fix(trace): keep persisted traces when one file cannot be read
 > This is an unsupported development build of the master branch. Use a release for anything that matters.
 
 ### [v5.0.1](https://github.com/mudler/LocalAI/releases/tag/v5.0.1)
-<sub>2026-11-20 · today</sub>
+<sub>2026-11-20 · yesterday</sub>
 
 > **What's Changed**
 > **Other Changes**
@@ -55,7 +55,7 @@
 > …
 
 ### [v5.0.0](https://github.com/mudler/LocalAI/releases/tag/v5.0.0)
-<sub>2026-11-18 · 2d ago</sub>
+<sub>2026-11-18 · 3d ago</sub>
 
 > <p align="center">
 >   <em>
@@ -66,7 +66,7 @@
 > …
 
 ### [v4.12.1](https://github.com/mudler/LocalAI/releases/tag/v4.12.1)
-<sub>2026-10-23 · 29d ago</sub>
+<sub>2026-10-23 · 1mo ago</sub>
 
 > Patch release v4.12.1. Security fix only.
 > **Security**
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [test(ui): hold the estimate until the sizing state is seen](https://github.com/mudler/LocalAI/commit/e2ce44372bebd4ee8f71108690484ab421094303) | mudler |
-| 2026-11-21 | [test(p2prelay): keep a pass pending when checking that refusals look …](https://github.com/mudler/LocalAI/commit/2951b3228fcf4c89bb79102a7ae57ee489d28b0a) | mudler |
-| 2026-11-21 | [test(addons): list the two signer cases in the gateway and apps inven…](https://github.com/mudler/LocalAI/commit/ca795d214c256a2df6f7349820fb567f9504bfce) | mudler |
-| 2026-11-21 | [test(addons): list the new cases and document the signer in the apps …](https://github.com/mudler/LocalAI/commit/077dd65dd964ebdde60fc97a6e25aa8e3b4906ab) | mudler |
-| 2026-11-21 | [Remove the cluster-wide change of carrier](https://github.com/mudler/LocalAI/commit/0b1e21e9d2f0f805f5c2968ef0be654fa84f6ba0) | mudler |
-| 2026-11-21 | [fix(importer): pair a repo's speculative drafter with the model](https://github.com/mudler/LocalAI/commit/ae2083366d3d55f085e34820022b526c6d8a7e1f) | mudler |
-| 2026-11-21 | [Judge the health of a node by the routes it holds](https://github.com/mudler/LocalAI/commit/db133cfc364234d74db46a83ef478598fb594f9b) | mudler |
-| 2026-11-21 | [fix(addons): stop asking for approval once the upgrade is approved](https://github.com/mudler/LocalAI/commit/e7fa6f7fa156774a30cd8cad57e317fb13296413) | mudler |
-| 2026-11-21 | [Send requests between processes over the peer link only](https://github.com/mudler/LocalAI/commit/c67e6f7e8d187fd40985e9a2579c0bc92e57827b) | mudler |
-| 2026-11-21 | [fix(localaitools): fit the admin turn prompt in its budget again](https://github.com/mudler/LocalAI/commit/4333b5c1feaa40fe501200c05b7a18611570d0f9) | mudler |
+| 2026-11-22 | [fix(trace): keep persisted traces when one file cannot be read](https://github.com/mudler/LocalAI/commit/e68e9fbbab5242cc4fcd80e89b90640b03b9c68f) | mudler |
+| 2026-11-22 | [fix(ui): list backend log processes from the workers in a cluster](https://github.com/mudler/LocalAI/commit/9e8c76d648e0894ec3b4226b79236c47f65c1a64) | mudler |
+| 2026-11-22 | [test(importers): use Ginkgo for the repository ID test](https://github.com/mudler/LocalAI/commit/c332830228f69681101bb7792c6ae6bfcfa08d9f) | mudler |
+| 2026-11-22 | [fix(importers): accept scheme-less Hugging Face repository URIs](https://github.com/mudler/LocalAI/commit/66f593afec5cb9a0b6d1f5fd573c45f5a75c77ff) | mudler |
+| 2026-11-22 | [chore: :arrow_up: Update 0xShug0/audio.cpp to `04a37f2e80ff2dbcdd84cc…](https://github.com/mudler/LocalAI/commit/100afd737ef0c2feff13d62874312afb6d09ad4d) | localai-update-bot[bot] |
+| 2026-11-22 | [chore: :arrow_up: Update CrispStrobe/CrispASR to `6974f1825e18ccd5ab7…](https://github.com/mudler/LocalAI/commit/214e8f79b66c8120a0872721d6ebfe409fb88427) | localai-update-bot[bot] |
+| 2026-11-22 | [fix(importers): import Ollama models by name, params and projector, a…](https://github.com/mudler/LocalAI/commit/00ab41086592d8c24bd4b16e10373b04752f162b) | mudler-agent |
+| 2026-11-22 | [feat(addons): add the Ollama search add-on (#13383)](https://github.com/mudler/LocalAI/commit/a8a7ea460a1f791b46731e0e2b5a857d12783f52) | mudler-agent |
+| 2026-11-22 | [feat(modelsearch): accept ollama:// search results and list their lay…](https://github.com/mudler/LocalAI/commit/aca3d8c9f2f577e04b012d9b8ca83b702d40fdf9) | mudler-agent |
+| 2026-11-22 | [chore: :arrow_up: Update ggml-org/whisper.cpp to `5eaee0cc9024eb9e9a9…](https://github.com/mudler/LocalAI/commit/63ea3075705376975b6d0978d4769e6ce0ec094f) | localai-update-bot[bot] |
 
 [See all commits ↗](https://github.com/mudler/LocalAI/commits)
 

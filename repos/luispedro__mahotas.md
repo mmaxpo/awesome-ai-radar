@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v1.4.19](https://github.com/luispedro/mahotas/releases/tag/v1.4.19) — Version 1.4.19
-<sub>2026-09-22 · 1mo ago</sub>
+<sub>2026-09-22 · 2mo ago</sub>
 
 > Bugfix release
 > - Require Python 3.10+; support Python 3.14 and NumPy 2.x

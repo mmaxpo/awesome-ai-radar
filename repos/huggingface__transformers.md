@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 169.3k |
+| ⭐ **Stars** | 169.4k |
 | 🍴 **Forks** | 35.3k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/huggingface/transformers/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `nlp` `natural-language-processing` `pytorch` `pytorch-transformers` `transformer` `model-hub` `pretrained-models` `speech-recognition` `hacktoberfest` `python` `machine-learning` `deep-learning` `audio` `deepseek` `gemma` `glm` `llm` `qwen` `vlm` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2018-10-29 |
 | 📦 **Latest release** | [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 564.4 MB |
+| 💾 **Size** | 563.9 MB |
 | 🌐 **Website** | https://huggingface.co/transformers |
 
 ## 📦 Recent releases
 
 ### [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — Release v5.24.0
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > **Release v5.24.0**
 > **New Model additions**
@@ -58,7 +58,7 @@
 > …
 
 ### [v5.22.2](https://github.com/huggingface/transformers/releases/tag/v5.22.2) — Patch release v5.22.2
-<sub>2026-11-06 · 14d ago</sub>
+<sub>2026-11-06 · 15d ago</sub>
 
 > **Patch release v5.22.2**
 > Some in between patch for security and distributed fixes. See the included commits :hugs:
@@ -67,7 +67,7 @@
 > **Full Changelog**: https://github.com/huggingface/transformers/compare/v5.22.1...v5.22.2
 
 ### [v5.22.1](https://github.com/huggingface/transformers/releases/tag/v5.22.1) — Patch release v5.22.1
-<sub>2026-10-30 · 22d ago</sub>
+<sub>2026-10-30 · 23d ago</sub>
 
 > **Patch release v5.22.1**
 > We just had to fix the documentation!

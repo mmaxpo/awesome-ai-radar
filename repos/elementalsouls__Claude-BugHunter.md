@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 15.4k |
-| 🍴 **Forks** | 1.8k |
+| ⭐ **Stars** | 16.9k |
+| 🍴 **Forks** | 1.9k |
 | 🐞 **Open issues + PRs** | [15](https://github.com/elementalsouls/Claude-BugHunter/issues) |
-| 💻 **Languages** | Python 87% · PowerShell 7% · Shell 6% |
+| 💻 **Languages** | Python 88% · PowerShell 7% · Shell 6% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-security` `anthropic` `application-security` `bug-bounty` `bugbounty` `bugcrowd` `claude` `claude-code` `claude-skills` `ethical-hacking` `hackerone` `offensive-security` `pentesting` `red-team` `security-tools` `web-security` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2026-05-05 |
 | 📦 **Latest release** | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) — 2026-06-05 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3.6 MB |
+| 💾 **Size** | 3.7 MB |
 | 🌐 **Website** | https://elementalsouls.github.io/Claude-BugHunter |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.0](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.0) — v2.0 — report-curation + 5 missing surfaces + chains + engagements
-<sub>2026-05-25 · 5mo ago</sub>
+<sub>2026-05-25 · 6mo ago</sub>
 
 > Workstream A — Report-curation backfill across 11 hunt-* skills.
 >   hunt-graphql 3 -> 12 | hunt-race-condition 3 -> 12 | hunt-xxe 4 -> 10
@@ -61,6 +61,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [fix(cbh,osint): four terminal-tooling bugs — triage gate, report BOM/…](https://github.com/elementalsouls/Claude-BugHunter/commit/9ba66b1b3a7d84c501202a527cdc22b2051c5711) | elementalsouls |
+| 2026-11-22 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/42bd4625d5cd4d206fbb468f0cd7a2e9cf1ef54f) | github-actions[bot] |
 | 2026-11-21 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/8258d29726804f5b954a09c625caedc183f7130d) | github-actions[bot] |
 | 2026-11-20 | [fix(cbh): report draft leaks OS login; steps heading + platform alias…](https://github.com/elementalsouls/Claude-BugHunter/commit/c5d5c38123bf01f1223da3225bd3d28a930d028f) | elementalsouls |
 | 2026-11-20 | [fix(windows): make PowerShell scripts ASCII-only (PS 5.1 parse crash)…](https://github.com/elementalsouls/Claude-BugHunter/commit/9ff08590cb75ca59adf3a2e319e9908cd8ff2f53) | elementalsouls |
@@ -69,8 +71,6 @@
 | 2026-11-20 | [feat(mcp): add get_report tool for live disclosed-report bodies (#187)](https://github.com/elementalsouls/Claude-BugHunter/commit/5b7e76eb8e2b2a2793686c74ad53b7b57bdee6c2) | elementalsouls |
 | 2026-11-19 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/0e70a021e59d6875004e7a563f8511aca2ba3bc1) | github-actions[bot] |
 | 2026-11-18 | [docs(readme): note that the HackerOne account is optional (#176)](https://github.com/elementalsouls/Claude-BugHunter/commit/9bdb0a81658bc25f09c0b52d31fcde923d126e4f) | sm18lr88 |
-| 2026-11-18 | [docs(plugin): say what the HackerOne prompts are for and that they ca…](https://github.com/elementalsouls/Claude-BugHunter/commit/ce528f6d446b0b8e45539b2c7cd06003128c6c62) | sm18lr88 |
-| 2026-11-18 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/b63ae349afad88772e6d854a277ae9965fd4c369) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/elementalsouls/Claude-BugHunter/commits)
 

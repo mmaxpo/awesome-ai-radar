@@ -64,7 +64,7 @@
 > …
 
 ### [0.16.5](https://github.com/letta-ai/letta/releases/tag/0.16.5) — v0.16.5
-<sub>2026-02-24 · 8mo ago</sub>
+<sub>2026-02-24 · 9mo ago</sub>
 
 > **What's Changed**
 > * chore: bump version 0.16.5 by @carenthomas in https://github.com/letta-ai/letta/pull/3202

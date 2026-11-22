@@ -26,11 +26,11 @@
 | 💻 **Languages** | Go 72% · TypeScript 21% · C++ 3% · Python 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `rag` `retrieval-augmented-generation` `agentic-ai` `agentic-retrieval` `agentic-search` `context-management` `knowledge-compilation` `agent-harness` `context-engineering` `harness-engineering` `search-harness` `agent-native-database` `context-engine` `retrieval-harness` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2023-12-12 |
 | 📦 **Latest release** | [v1.0.0](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 192.0 MB |
+| 💾 **Size** | 192.7 MB |
 | 🌐 **Website** | https://ragflow.io |
 
 ## 📦 Recent releases
@@ -38,10 +38,10 @@
 ### [nightly](https://github.com/infiniflow/ragflow/releases/tag/nightly) _(pre-release)_
 <sub>2025-12-01 · 11mo ago</sub>
 
-> Release nightly created from 91c702e86be3dcb3cabc9f6d81e485d02241bef8 at 2026-11-21 13:10:30+00:00
+> Release nightly created from 58d8fb6d5a9aafb04caa5475fc498928dfe4e154 at 2026-11-22 13:12:07+00:00
 
 ### [v1.0.0](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0)
-<sub>2026-11-06 · 15d ago</sub>
+<sub>2026-11-06 · 16d ago</sub>
 
 > After three release candidates, we are pleased to announce the official release of RAGFlow 1.0, now ready for production. Built on a complete rewrite in Go, this release significantly reduces deployment and runtime overhead and introduces an all-new Agentic Chat experience. We encourage all users to upgrade for improved stability, performance, and question answering.
 > **Highlights**
@@ -52,7 +52,7 @@
 > …
 
 ### [v1.0.0-rc3](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc3)
-<sub>2026-10-30 · 22d ago</sub>
+<sub>2026-10-30 · 23d ago</sub>
 
 > 1.0.0-rc3 is the third and final release candidate before the official v1.0.0 release. It fixes several issues found in rc2 and introduces new features and enhancements.
 > **Key updates:**
@@ -63,7 +63,7 @@
 > …
 
 ### [v0.27.3](https://github.com/infiniflow/ragflow/releases/tag/v0.27.3)
-<sub>2026-10-23 · 29d ago</sub>
+<sub>2026-10-23 · 1mo ago</sub>
 
 > **What's Changed**
 > * Port agentic RAG to GO by @qinling0210 in https://github.com/infiniflow/ragflow/pull/19500
@@ -88,6 +88,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [refactor (#22634)](https://github.com/infiniflow/ragflow/commit/58d8fb6d5a9aafb04caa5475fc498928dfe4e154) | JinHai-CN |
+| 2026-11-22 | [Add license declaration (#22635)](https://github.com/infiniflow/ragflow/commit/33e29d80031becf3f57335179ef2100e8408acdf) | JinHai-CN |
 | 2026-11-20 | [Converge hand-written helpers to shared stdlib and common symbols (#2…](https://github.com/infiniflow/ragflow/commit/91c702e86be3dcb3cabc9f6d81e485d02241bef8) | xugangqiang |
 | 2026-11-20 | [Refactor: expose single mode for RAGFlow (#22608)](https://github.com/infiniflow/ragflow/commit/687a9dc87f1edfbf3b35ed8c72ebb192af65b6ef) | wangq8 |
 | 2026-11-20 | [fix(agent): keep sentence terminators when narrowing search chunks (#…](https://github.com/infiniflow/ragflow/commit/2038ae5210c6bb6c5a7905eb16bea352f4a3e41f) | chuenchen309 |
@@ -96,8 +98,6 @@
 | 2026-11-20 | [feat(model): implement soft delete using active status (#22595)](https://github.com/infiniflow/ragflow/commit/ac229305537a0fe71cad7b8de602456debffdaa7) | flyingwhit |
 | 2026-11-20 | [Feat: Adjust the layout of the compilation template page (#22603)](https://github.com/infiniflow/ragflow/commit/f1f682534f6189b2db97eb551e1fb496b9aa891f) | cike8899 |
 | 2026-11-20 | [Feat: update component styles to use rounded-2xl and rounded-full for…](https://github.com/infiniflow/ragflow/commit/c381212fa86eee5e0bdde25c8a6d433aa28bc437) | cike8899 |
-| 2026-11-20 | [feat: add last login tenant column (#22596)](https://github.com/infiniflow/ragflow/commit/e91c8e0432d91c52d5192d52951f53dcc97187c7) | buua436 |
-| 2026-11-20 | [Feat: Adjust the layout of the search page (#22597)](https://github.com/infiniflow/ragflow/commit/ea99ad0d1d1e99f128980784a51d7cc56228dd5d) | cike8899 |
 
 [See all commits ↗](https://github.com/infiniflow/ragflow/commits)
 

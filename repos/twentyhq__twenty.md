@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 61.3k |
-| 🍴 **Forks** | 10.1k |
-| 🐞 **Open issues + PRs** | [183](https://github.com/twentyhq/twenty/issues) |
+| 🍴 **Forks** | 10.2k |
+| 🐞 **Open issues + PRs** | [148](https://github.com/twentyhq/twenty/issues) |
 | 💻 **Languages** | TypeScript 82% · MDX 16% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `crm` `customer` `graphql` `marketing` `react` `sales` `typescript` `crm-system` `nestjs` `reactjs` `web` `monorepo` `open-source` `postgresql` `good-first-issue` `hacktoberfest` `javascript` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2022-12-01 |
 | 📦 **Latest release** | [sdk/v2.59.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.59.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3023.0 MB |
+| 💾 **Size** | 3042.8 MB |
 | 🌐 **Website** | https://twenty.com |
 
 ## 📦 Recent releases
 
 ### [sdk/v2.59.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.59.0)
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > **✨ New features**
 > - feat(cli): pull public application assets ([#30275](https://github.com/twentyhq/twenty/pull/30275)) by @Weiko
@@ -47,7 +47,7 @@
 > …
 
 ### [twenty/v2.59.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.59.0)
-<sub>2026-11-16 · 4d ago</sub>
+<sub>2026-11-16 · 5d ago</sub>
 
 > **✨ New features**
 > - feat(billing): record admin usage limit overrides as arrangements ([#29469](https://github.com/twentyhq/twenty/pull/29469)) by @etiennejouan
@@ -80,7 +80,7 @@
 > …
 
 ### [twenty/v2.57.1](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.1)
-<sub>2026-11-09 · 11d ago</sub>
+<sub>2026-11-09 · 12d ago</sub>
 
 > Claude thinking tokens were being billed at roughly 1.7 times the actual Anthropic cost. That is fixed in this release, and cache writes are now priced correctly too. If your workspace uses AI features, credit usage will drop from this version forward.
 > Installed app and marketplace pages show their content again. You can see what data objects, automations, and interface pieces an app includes before or after installing it. SAML providers saved with PEM certificates now authenticate correctly.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Record the actual level on impersonation audit events (#31101)](https://github.com/twentyhq/twenty/commit/caf62b888a05fc3966931617f6455982d3214b51) | prastoin |
-| 2026-11-21 | [i18n - translations (#31105)](https://github.com/twentyhq/twenty/commit/80f03c8df028186874802b42a3a5c3183e35a198) | twenty-pr[bot] |
-| 2026-11-21 | [Key access groups by type and rule shape, shared across roles (#31097)](https://github.com/twentyhq/twenty/commit/bfba91f0eb9801dfb14d3325068234f4508ffb56) | charlesBochet |
-| 2026-11-21 | [Group consecutive chat messages from the same sender (#31003)](https://github.com/twentyhq/twenty/commit/d6269f917847e7bfc21f58378080646b62d97039) | Bonapara |
-| 2026-11-21 | [Refresh the tool index when it is read instead of from an effect (#31…](https://github.com/twentyhq/twenty/commit/31f5b11c396814aa181de22ebf353d9f783c5779) | charlesBochet |
-| 2026-11-21 | [Inline the AI chat and inbox sync logic into their effects (#31102)](https://github.com/twentyhq/twenty/commit/be3a61212cb04a28ea1fbe02ee3965a5847773ee) | charlesBochet |
-| 2026-11-21 | [Count connected members per app on the server and revoke in one state…](https://github.com/twentyhq/twenty/commit/d6c4ae9a7d86328445c2678888d58f918054d10e) | FelixMalfait |
-| 2026-11-21 | [Remove the standard Helper agent (#31087)](https://github.com/twentyhq/twenty/commit/ee88618a008f351bde9cd75355ea6b969e2f239e) | FelixMalfait |
-| 2026-11-21 | [i18n - translations (#31095)](https://github.com/twentyhq/twenty/commit/48a62c97f7bd52598229bd15ab4168decc7dcf73) | twenty-pr[bot] |
-| 2026-11-21 | [Trim workspace and member names before saving them (#30984)](https://github.com/twentyhq/twenty/commit/b8a6050343cf941fc6a836c6ce736ae85c004825) | prastoin |
+| 2026-11-22 | [i18n - translations (#31141)](https://github.com/twentyhq/twenty/commit/b83122a7cc112703807546f5b830b7e3ba862edb) | twenty-pr[bot] |
+| 2026-11-22 | [Leave message attachments out of role wide access and individual role…](https://github.com/twentyhq/twenty/commit/9cee6f100e32b70e2aaf6189d7c809406da3b892) | charlesBochet |
+| 2026-11-22 | [Name AI chat and inbox code after what it is (#31139)](https://github.com/twentyhq/twenty/commit/d4578e4a3492d0afa763d9b1214cbd29279ee850) | charlesBochet |
+| 2026-11-22 | [Look up walled and one-to-many access group rules by value (#31135)](https://github.com/twentyhq/twenty/commit/fe2e676f952fd22e397856e868520733e66d6f97) | charlesBochet |
+| 2026-11-22 | [Add a command revoking role wide access to channel objects where chan…](https://github.com/twentyhq/twenty/commit/fc01ecf6b928954c90395a74fc25d816b350c7da) | charlesBochet |
+| 2026-11-22 | [Share duplicated AI chat and inbox logic in helpers (#31137)](https://github.com/twentyhq/twenty/commit/1975701b78c26a0b007cc1f2e46c5f9238f4159c) | charlesBochet |
+| 2026-11-22 | [Mark unreadable columns that show the restricted placeholder instead …](https://github.com/twentyhq/twenty/commit/fa5e12dc79f474f4133fbdd6fa8517c8466bfd24) | charlesBochet |
+| 2026-11-22 | [i18n - translations (#31138)](https://github.com/twentyhq/twenty/commit/94f8941f696fb1d9df9468ba372cc4640b830d01) | twenty-pr[bot] |
+| 2026-11-22 | [Reach message and calendar records through channel visibility rules b…](https://github.com/twentyhq/twenty/commit/cc90c95e40e0e1deb7a3b20b6de7af7b0cbf45b8) | charlesBochet |
+| 2026-11-22 | [Delete and trim low-value AI front-end tests (#31134)](https://github.com/twentyhq/twenty/commit/e08883f50f3ad29c65b7fac8592f78be99054204) | charlesBochet |
 
 [See all commits ↗](https://github.com/twentyhq/twenty/commits)
 
