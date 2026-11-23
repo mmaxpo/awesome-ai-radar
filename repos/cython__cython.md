@@ -26,7 +26,7 @@
 | 💻 **Languages** | Cython 52% · Python 42% · C 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `cython` `cpython` `cpython-extensions` `c` `cpp` `performance` `big-data` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2010-11-21 |
 | 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1)
-<sub>2026-11-01 · 20d ago</sub>
+<sub>2026-11-01 · 21d ago</sub>
 
 > _No notes._
 
@@ -64,6 +64,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Use unique temporary files for compiler cache entries (GH-8108)](https://github.com/cython/cython/commit/420d79cb4fa81250a407690091e6e80e4bcffa50) | vyasr |
 | 2026-11-22 | [Merge branch '3.3.x'](https://github.com/cython/cython/commit/3eba19aad74806f196d40e21db7d583c26c7d2cc) | scoder |
 | 2026-11-22 | [Update changelog.](https://github.com/cython/cython/commit/4ffb9c483a5abf872ed97c0c558e21a981947e83) | scoder |
 | 2026-11-22 | [CI: make success gates fail on cancelled jobs and detector failures (…](https://github.com/cython/cython/commit/da36d13b22f1c68696e5ea15ad15984b3718197d) | sotomayorlucas |
@@ -73,7 +74,6 @@
 | 2026-11-22 | [Keep the end barrier of prange when code follows it in a parallel blo…](https://github.com/cython/cython/commit/5dd1581328b602ca3def42816037977a2eec0969) | cakedev0 |
 | 2026-11-22 | [Default to 1 worker process on GraalPy in cythonize (#8143)](https://github.com/cython/cython/commit/3ce8ed2945bfa5de9dd530c80483a47327979a66) | msimacek |
 | 2026-11-22 | [Docs: Fix the restrict qualifier in FAQ (#8144)](https://github.com/cython/cython/commit/8012b7ad45218799d33e75c7d580ca05b9004b6e) | matusvalo |
-| 2026-11-22 | [Remove left-over reference](https://github.com/cython/cython/commit/5e66f2d7edbb6827905e4ff4c0ba24143a5d32f1) | da-woods |
 
 [See all commits ↗](https://github.com/cython/cython/commits)
 

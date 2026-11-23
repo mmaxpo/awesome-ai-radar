@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 66.3k |
-| 🍴 **Forks** | 13.1k |
-| 🐞 **Open issues + PRs** | [427](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| ⭐ **Stars** | 66.5k |
+| 🍴 **Forks** | 13.2k |
+| 🐞 **Open issues + PRs** | [439](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 244.8 MB |
+| 💾 **Size** | 257.1 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 25d ago</sub>
+<sub>2026-10-28 · 26d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Merge pull request #1910 from bilawalsidhu/german/perimeters-growth-age](https://github.com/bilawalsidhu/gods-eye-view/commit/ec2f7d8ca732c489403813e90ec88460c9d7fcd2) | gekh |
+| 2026-11-23 | [docs(changelog): add the fire perimeters age colouring entry](https://github.com/bilawalsidhu/gods-eye-view/commit/51bf3d0807b0f37beb546862129029ebbb11c0c5) | gekh |
+| 2026-11-23 | [feat(perimeters): colour fire perimeters by age](https://github.com/bilawalsidhu/gods-eye-view/commit/d303d48693c35ace4b2508b2a96d63d41904acee) | gekh |
+| 2026-11-23 | [Merge pull request #1540 from Byrd-IT/byrdit/recent-imagery-dateline](https://github.com/bilawalsidhu/gods-eye-view/commit/e51853de3d7b07cf9058b93ae66f4127f1c9568a) | gekh |
+| 2026-11-23 | [Merge main into byrdit/recent-imagery-dateline](https://github.com/bilawalsidhu/gods-eye-view/commit/46f8ea16c03862a038b9585f866254a93e740578) | gekh |
 | 2026-11-21 | [A line can be drawn as several runs (`breaks`) (#1895)](https://github.com/bilawalsidhu/gods-eye-view/commit/d9d79ebc4da7379a1359947d23543b72757221bb) | samehkhamis |
 | 2026-11-21 | [A line can show only the part of it within a time span of the scene c…](https://github.com/bilawalsidhu/gods-eye-view/commit/e4caf5d3afcb40041cfa6b167b4fda7bb9b393c5) | samehkhamis |
 | 2026-11-21 | [Opening the phone Context tab no longer switches Contacts on (#1893)](https://github.com/bilawalsidhu/gods-eye-view/commit/561f5885c2c369a0c7b1b706607921fa8ae49f70) | samehkhamis |
 | 2026-11-21 | [Lines can fade with the age of their points, drawn by the renderer on…](https://github.com/bilawalsidhu/gods-eye-view/commit/7ff536299ab70c9a710e2b6110773b4dcb861586) | samehkhamis |
 | 2026-11-21 | [A voice or chat selection shows its card in the Context panel (#1890)](https://github.com/bilawalsidhu/gods-eye-view/commit/918435ddc7bd4529666ddafde65e68ad97fab4ce) | samehkhamis |
-| 2026-11-21 | [Voice Cockpit entry no longer switches Contacts on (#1889)](https://github.com/bilawalsidhu/gods-eye-view/commit/fbbe6cd91fbff15e03303be7feea0569cdf91843) | samehkhamis |
-| 2026-11-21 | [Show JTWC cyclones: western Pacific, Indian Ocean and Southern Hemisp…](https://github.com/bilawalsidhu/gods-eye-view/commit/5608b12a253ac6555761348a32a2c8e24e9e238f) | samehkhamis |
-| 2026-11-21 | [Place trademark attribution below the README install links (#1888)](https://github.com/bilawalsidhu/gods-eye-view/commit/ae212e5b631ed16cbe3d605abecdf105a1be8df3) | bilawalsidhu |
-| 2026-11-21 | [fix(satellites): releasing a tracked satellite clears its focus dimmi…](https://github.com/bilawalsidhu/gods-eye-view/commit/deff042265844ee88a52907f03ffcfa3b2f7ae3d) | samehkhamis |
-| 2026-11-21 | [test(scenes): drop the resumed-flight timing test (#1885)](https://github.com/bilawalsidhu/gods-eye-view/commit/aac6be77735f6bcad583204724a43302227abc4d) | samehkhamis |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

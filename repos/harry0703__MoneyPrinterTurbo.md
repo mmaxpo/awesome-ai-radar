@@ -20,22 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 145.1k |
-| 🍴 **Forks** | 23.3k |
-| 🐞 **Open issues + PRs** | [103](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
+| ⭐ **Stars** | 145.2k |
+| 🍴 **Forks** | 23.4k |
+| 🐞 **Open issues + PRs** | [91](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `tiktok` `ai-video-generator` `content-creation` `ffmpeg` `instagram-reels` `llm` `short-video` `subtitles` `text-to-speech` `video-automation` `video-workflow` `workflow-automation` `youtube-shorts` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-03-11 |
-| 📦 **Latest release** | [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10) — 2026-11-07 |
+| 📦 **Latest release** | [v1.3.11](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.11) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 529.1 MB |
+| 💾 **Size** | 529.4 MB |
 
 ## 📦 Recent releases
 
+### [v1.3.11](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.11)
+<sub>2026-11-23 · today</sub>
+
+> [English](#en-v1.3.11) | [中文](#cn-v1.3.11)
+> <h2 id="en-v1.3.11">Highlights</h2>
+> - Added **[Aigei](https://www.aigei.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=moneyprinterturbo)** as a stock video source.
+> - Added **useapi.net** as a source for AI video and images.
+> - Added **APINEBULA, APIXO Responses, AtmoRouter, and MartLLM** (formerly UberLLM) as LLM providers.
+> - Improved **local rendering performance** by reducing per-frame compositing work for subtitles, letterboxing, and slide transitions.
+> …
+
 ### [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10)
-<sub>2026-11-07 · 15d ago</sub>
+<sub>2026-11-07 · 16d ago</sub>
 
 > [English](#en-v1.3.10) | [中文](#cn-v1.3.10)
 > <h2 id="en-v1.3.10">Highlights</h2>
@@ -78,31 +89,20 @@
 > - Added Kokoro and VoxCPM TTS providers. Kokoro supports a self-hosted OpenAI-compatible service and automatically loads the server's voice list.
 > …
 
-### [v1.3.6](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.6)
-<sub>2026-09-02 · 2mo ago</sub>
-
-> [English](#en-v1.3.6) | [中文](#cn-v1.3.6)
-> <h2 id="en-v1.3.6">Highlights</h2>
-> - Added native Volcano Engine Ark Seedance video generation for generating source clips directly from script segments.
-> - Added OFox multi-model text-to-video support, allowing Seedance, Wan, and other models to share one API key.
-> - Added Metaso MiniMax H3 text-to-video support with `768P`/`2K` output, 4–15 second clips, and `9:16`, `16:9`, and `1:1` aspect ratios.
-> - Added an OpenAI-compatible text-to-image material source for cloud relays and local gateways.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [feat(llm): add AtmoRouter provider](https://github.com/harry0703/MoneyPrinterTurbo/commit/86e45a2233a72c41d83389ac5cb49bbf5f6a847d) | BeckleyTenriajeng |
-| 2026-11-22 | [fix(tts): handle null voice names (#1822)](https://github.com/harry0703/MoneyPrinterTurbo/commit/278ee2d382ee965aa3a04b0014b630a49f664621) | tanishqbaweja |
-| 2026-11-22 | [refactor(render): add backend interface (#1825)](https://github.com/harry0703/MoneyPrinterTurbo/commit/1108ad1d7493da4ea87cf9f72804077bd2715c57) | venkatsammm |
-| 2026-11-22 | [fix(seedance): poll "pending" from Ark-compatible gateways instead of…](https://github.com/harry0703/MoneyPrinterTurbo/commit/e8b5961c3c05624eee0df9657989fe8e347feb16) | TopoRush |
-| 2026-11-21 | [fix(audio): validate decoded packets (#1823)](https://github.com/harry0703/MoneyPrinterTurbo/commit/92f6258714010dfea6fc28cc37a0bbb4558096a5) | AyhamJo7 |
-| 2026-11-20 | [perf(video): draw each composite layer only where it covers the frame](https://github.com/harry0703/MoneyPrinterTurbo/commit/ef3c333fd475595176fc90b67c78555bf4b739a2) | b84330808 |
-| 2026-11-20 | [fix(i18n): translate remaining Spanish WebUI strings and unify termin…](https://github.com/harry0703/MoneyPrinterTurbo/commit/20a09b84af20e3135d15b1bb32b90b3ed3841ea3) | PedroFlores199 |
-| 2026-11-20 | [fix(tts): migrate Gemini speech to Flash-Lite 3.8](https://github.com/harry0703/MoneyPrinterTurbo/commit/5309263739f0776e94ab5ccef26a5e30a65c2b1c) | JunaidAhamed-7777 |
-| 2026-11-20 | [chore: update project resources](https://github.com/harry0703/MoneyPrinterTurbo/commit/aebf92bfa2e8346182a188773d377e8e4f426a44) | harry0703 |
-| 2026-11-19 | [Expose rendered scene clips in video project results](https://github.com/harry0703/MoneyPrinterTurbo/commit/bdd8d328cc366fe70d9fa67ffd0443ba34b4a3e1) | meowtivator |
+| 2026-11-23 | [chore: release v1.3.11](https://github.com/harry0703/MoneyPrinterTurbo/commit/3482168e8958a73c48656634c750a5ce459224df) | harry0703 |
+| 2026-11-23 | [fix(api): reject a null video_aspect before the task starts](https://github.com/harry0703/MoneyPrinterTurbo/commit/708ac4836c14f77196c5d1f23cc0885ac9014c04) | HEOJUNFO |
+| 2026-11-23 | [fix(api): reject a blank video_script on /audio and /subtitle](https://github.com/harry0703/MoneyPrinterTurbo/commit/fc7f44d1ce24dd34c83f3b79aa74b5579e20c071) | HEOJUNFO |
+| 2026-11-23 | [perf(video): fill the opaque composite background one row at a time](https://github.com/harry0703/MoneyPrinterTurbo/commit/1d7ec49adf62cf743f2aff35fe1188ae858a93eb) | b84330808 |
+| 2026-11-23 | [Rename UberLLM to MartLLM](https://github.com/harry0703/MoneyPrinterTurbo/commit/d021ad119872ebaa718489b6cd261cdf2d318040) | al-global-tech |
+| 2026-11-23 | [perf(project): verify cached render artifacts once](https://github.com/harry0703/MoneyPrinterTurbo/commit/96496d5642ce3c6b080d728d2c91e32f78faad5c) | nemo-crypto |
+| 2026-11-23 | [fix(project): preserve display aspect ratio when cropping scenes](https://github.com/harry0703/MoneyPrinterTurbo/commit/0a18e462fba44d11f8af15e2017ba53066ef1168) | nemo-crypto |
+| 2026-11-23 | [fix(project): clear stale failed stage when retrying render](https://github.com/harry0703/MoneyPrinterTurbo/commit/21bbb3dcf9eb0cfc6114cf8e5dec78da73a56b48) | nemo-crypto |
+| 2026-11-23 | [fix(cli): preserve Unicode separators inside JSONL values](https://github.com/harry0703/MoneyPrinterTurbo/commit/c06bc121fbf690b6e9e47852b646dbff208f8634) | nemo-crypto |
+| 2026-11-23 | [fix(tts): bound Edge TTS streams (#1826)](https://github.com/harry0703/MoneyPrinterTurbo/commit/8c0771452e11b5cc6f9223fdedef757156fd4744) | venkatsammm |
 
 [See all commits ↗](https://github.com/harry0703/MoneyPrinterTurbo/commits)
 

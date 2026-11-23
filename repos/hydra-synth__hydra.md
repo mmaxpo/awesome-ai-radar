@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.8k |
-| 🍴 **Forks** | 323 |
-| 🐞 **Open issues + PRs** | [102](https://github.com/hydra-synth/hydra/issues) |
+| 🍴 **Forks** | 324 |
+| 🐞 **Open issues + PRs** | [103](https://github.com/hydra-synth/hydra/issues) |
 | 💻 **Languages** | JavaScript 100% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | — |

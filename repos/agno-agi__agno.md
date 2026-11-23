@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 330.0 MB |
+| 💾 **Size** | 330.1 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 10d ago</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 23d ago</sub>
+<sub>2026-10-29 · 25d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 25d ago</sub>
+<sub>2026-10-27 · 26d ago</sub>
 
 > **Changelog**
 > **New Features:**

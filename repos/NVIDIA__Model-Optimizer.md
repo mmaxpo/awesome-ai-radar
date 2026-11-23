@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.7k |
-| 🍴 **Forks** | 829 |
-| 🐞 **Open issues + PRs** | [555](https://github.com/NVIDIA/Model-Optimizer/issues) |
+| 🍴 **Forks** | 833 |
+| 🐞 **Open issues + PRs** | [571](https://github.com/NVIDIA/Model-Optimizer/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-04-23 |
 | 📦 **Latest release** | [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 208.0 MB |
+| 💾 **Size** | 213.8 MB |
 | 🌐 **Website** | https://nvidia.github.io/Model-Optimizer/ |
 
 ## 📦 Recent releases
 
 ### [0.49.0rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.49.0rc0) _(pre-release)_
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 6d ago</sub>
 
 > Install this pre-release version using:
 > ```bash
@@ -44,18 +44,18 @@
 > ```
 
 ### [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — ModelOpt 0.47.1 Release
-<sub>2026-11-06 · 15d ago</sub>
+<sub>2026-11-06 · 16d ago</sub>
 
 > **Bug Fixes**
 > - Fix NVFP4 fake quantization (e.g. ``NVFP4_DEFAULT_CFG``) with Triton 3.9, as in the PyTorch 26.11 container, on GPUs with compute capability 8.9 or newer: it failed with ``NotImplementedError: Block pointers have been removed in favor of the tensor descriptor API``.
 
 ### [0.47.1rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1rc0) _(pre-release)_
-<sub>2026-11-05 · 16d ago</sub>
+<sub>2026-11-05 · 18d ago</sub>
 
 > -
 
 ### [0.48.0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0) — ModelOpt 0.48.0 Release
-<sub>2026-11-02 · 20d ago</sub>
+<sub>2026-11-02 · 21d ago</sub>
 
 > **New Features**
 > **Sparsity**
@@ -66,7 +66,7 @@
 > …
 
 ### [0.48.0rc2](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0rc2) _(pre-release)_
-<sub>2026-10-28 · 24d ago</sub>
+<sub>2026-10-28 · 25d ago</sub>
 
 > Install this pre-release version using:
 > ```

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 24.5k |
+| ⭐ **Stars** | 24.6k |
 | 🍴 **Forks** | 2.1k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/temporalio/temporal/issues) |
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 176.0 MB |
+| 💾 **Size** | 175.0 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 19d ago</sub>
+<sub>2026-11-02 · 20d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 19d ago</sub>
+<sub>2026-11-02 · 20d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 19d ago</sub>
+<sub>2026-11-02 · 20d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828
@@ -89,6 +89,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Deliver child completion to the current parent run when the reset run…](https://github.com/temporalio/temporal/commit/cd668989792406a24b72672dbbfd1e98a66e3853) | cestercian |
 | 2026-11-21 | [Add internal RPC for worker heartbeats (#8600)](https://github.com/temporalio/temporal/commit/32ef011fbd1e38ecddf656fc3f5026f6641cfeab) | rkannan82 |
 | 2026-11-21 | [Define a minimal CHASM entity to durably track worker liveness (#8564)](https://github.com/temporalio/temporal/commit/4e0a45f161d3889f66e212795a53bce219494e83) | rkannan82 |
 | 2026-11-21 | [Fix flakes: raise deadlock detection timeout in `TestChildWorkflowInh…](https://github.com/temporalio/temporal/commit/59c4ca9a6bad1e55f02eddca4062e07b6bf15cf7) | carlydf |
@@ -98,7 +99,6 @@
 | 2026-11-20 | [Fix flaky TestMultipleTasks_ValidateStats test (#13185)](https://github.com/temporalio/temporal/commit/ea8df3ed523e767bf663a7f442600fffa12c96ed) | veeral-patel |
 | 2026-11-20 | [Fix testx bump workflow races (#13209)](https://github.com/temporalio/temporal/commit/c44a13c6d2973babd589525a3b3db7ae5f19116d) | stephanos |
 | 2026-11-20 | [Use namespace.Name in TestEnv.SendSignal (#13205)](https://github.com/temporalio/temporal/commit/bb5f7e6740a2f1b3c40ac425eaa31f539b969b38) | stephanos |
-| 2026-11-20 | [Fix CHASM ALLOW_ALL callback race losing action accounting (#13046)](https://github.com/temporalio/temporal/commit/8c0773dcb20e34f1ed501929cbb508160f14023b) | chaptersix |
 
 [See all commits ↗](https://github.com/temporalio/temporal/commits)
 

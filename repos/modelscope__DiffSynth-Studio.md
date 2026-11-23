@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 13.4k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [586](https://github.com/modelscope/DiffSynth-Studio/issues) |
+| 🐞 **Open issues + PRs** | [584](https://github.com/modelscope/DiffSynth-Studio/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-12-07 |
 | 📦 **Latest release** | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) — 2025-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 20.4 MB |
+| 💾 **Size** | 20.7 MB |
 
 ## 📦 Recent releases
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [Release ModelScope AIGC Inference Services (#1843)](https://github.com/modelscope/DiffSynth-Studio/commit/d32f72424cd22bc0ea8100cc57559149b4eac933) | Artiprocher |
+| 2026-11-23 | [update README (#1852)](https://github.com/modelscope/DiffSynth-Studio/commit/259d1864903a7d469975584294d233bdb4aba6ae) | Artiprocher |
+| 2026-11-23 | [Support Unified Sequence Parallel (#1851)](https://github.com/modelscope/DiffSynth-Studio/commit/e33e16cfd38fc9d22b753303ed2b16d086ceb586) | Artiprocher |
+| 2026-11-23 | [fix typo (#1848)](https://github.com/modelscope/DiffSynth-Studio/commit/ee5fab2387c9ae012edb771dcfad6c6a6aceda3b) | Artiprocher |
+| 2026-11-23 | [update docs (#1847)](https://github.com/modelscope/DiffSynth-Studio/commit/87ae01654426887ebb139923820df41dc6592c77) | Artiprocher |
+| 2026-11-23 | [update kv-cache-compression examples (#1846)](https://github.com/modelscope/DiffSynth-Studio/commit/e0fd43262d92ebc162a5433ef91dc23200f1342d) | Artiprocher |
+| 2026-11-23 | [support DetailScale-SR (#1845)](https://github.com/modelscope/DiffSynth-Studio/commit/eb8ce72835e6e3fb0554a5b3fca0bd46948262f2) | Artiprocher |
+| 2026-11-23 | [Support KV-Cache Compression (#1844)](https://github.com/modelscope/DiffSynth-Studio/commit/3075eb67ae18b68c756e95bb93419292f7abed49) | Artiprocher |
 | 2026-11-19 | [Add MiniMax-H3-Image training adapter docs (#1839)](https://github.com/modelscope/DiffSynth-Studio/commit/35e72140b917cfae1ff66932373bb8f83d66e7aa) | mi804 |
 | 2026-11-19 | [Align MiniMax-H3-Image training to 6 steps (#1836)](https://github.com/modelscope/DiffSynth-Studio/commit/ca883a76d8f6c005b0c335bbafa826c27ec84148) | mi804 |
 | 2026-11-18 | [Fix MiniMax-H3-Image edit training (#1833)](https://github.com/modelscope/DiffSynth-Studio/commit/fc8b4be56759de06cac585929f608227ac58766b) | mi804 |
-| 2026-11-17 | [update version to 2.2.3 (#1835)](https://github.com/modelscope/DiffSynth-Studio/commit/9dde6d179fb49f835e8e746b08c2998a2877e5c7) | Artiprocher |
-| 2026-11-17 | [fix h3-image-pruned using gc (#1832)](https://github.com/modelscope/DiffSynth-Studio/commit/9285155970e01cd6a0f46f79097c9c12b86e0559) | mi804 |
-| 2026-11-17 | [support H3 image training adapter (#1827)](https://github.com/modelscope/DiffSynth-Studio/commit/77fcaf62c6c6140c49f5e7f19c1b055165d76e81) | mi804 |
-| 2026-11-16 | [Fix MiniMax-H3-Image training not using dataset captions](https://github.com/modelscope/DiffSynth-Studio/commit/c05b58d6a78cc9d2c1908b9a10c9941a59b9bcdf) | mi804 |
-| 2026-11-12 | [support comfy-h3image-prune (#1825)](https://github.com/modelscope/DiffSynth-Studio/commit/28638042df62d206486a8bcff3ef22973c84e414) | mi804 |
-| 2026-11-11 | [update minimax-h3-image docs (#1822)](https://github.com/modelscope/DiffSynth-Studio/commit/55fdfb23987672528d2cf71f4a9d44aba44c1863) | Artiprocher |
 
 [See all commits ↗](https://github.com/modelscope/DiffSynth-Studio/commits)
 

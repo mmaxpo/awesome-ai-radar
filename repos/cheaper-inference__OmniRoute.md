@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 89.5k |
-| 🍴 **Forks** | 13.8k |
-| 🐞 **Open issues + PRs** | [810](https://github.com/cheaper-inference/OmniRoute/issues) |
+| ⭐ **Stars** | 89.8k |
+| 🍴 **Forks** | 13.9k |
+| 🐞 **Open issues + PRs** | [861](https://github.com/cheaper-inference/OmniRoute/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `a2a` `ai-agents` `ai-gateway` `anthropic` `claude` `claude-code` `cline` `codex` `copilot` `cursor` `deepseek` `free-ai` `gemini` `llm-gateway` `mcp` `openai` `openai-proxy` `qwen` `token-saver` `kimi` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v3.8.54](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54) — 2026-11-17 |
 | 🌿 **Default branch** | `release/v3.8.55` |
-| 💾 **Size** | 3699.1 MB |
+| 💾 **Size** | 3694.4 MB |
 | 🌐 **Website** | https://omniroute.online |
 
 ## 📦 Recent releases
 
 ### [v3.8.54](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **OmniRoute v3.8.54**
 > - **Providers:** official "Sign in with ChatGPT" provider (`chatgpt`, PKCE + live model discovery); MiniMax Code (managed gateway + dashboard device-code sign-in); RenderHour (images, video, speech); MegaBrain (dual auth); EmpirioLabs, ParalonCloud, deAPI, Replicate chat, Cerebrium, Hetzner Inference and Grokified; native `opencode-server` executor; Microsoft 365 Copilot work/school sign-in; GitHub Copilot embeddings; Gemini Lyria 3 music models; custom JSON API provider nodes (request template + response path).
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.8.53](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.53)
-<sub>2026-11-06 · 16d ago</sub>
+<sub>2026-11-06 · 17d ago</sub>
 
 > **OmniRoute v3.8.53**
 > **1,189 documented changes** from 1,162 commits in the cycle, with **222 people** contributing. Thank you all.

@@ -26,17 +26,17 @@
 | 💻 **Languages** | Go 55% · Python 26% · TypeScript 7% · MDX 6% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `api` `chatbot` `chatgpt` `database` `docker` `frontend` `openai` `postgresql` `privacy` `security` `typescript` `html` `javascript` `react` `rag` `vector` `groq` `framework` |
-| 🕒 **Last activity** | 2026-11-16 (5d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v2.0.3](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.3) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 171.3 MB |
+| 💾 **Size** | 171.4 MB |
 | 🌐 **Website** | https://www.thevibecompany.co/en/portfolio/quivr |
 
 ## 📦 Recent releases
 
 ### [v2.0.3](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.3)
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > **Quivr 2.0.3**
 > 2.0.3 is a security and fix release. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2)
-<sub>2026-10-30 · 22d ago</sub>
+<sub>2026-10-30 · 24d ago</sub>
 
 > **Quivr 2.0.2**
 > 2.0.2 moves the search database to Weaviate 1.39.14. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.0.1](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.1)
-<sub>2026-10-30 · 23d ago</sub>
+<sub>2026-10-30 · 24d ago</sub>
 
 > **Quivr 2.0.1**
 > 2.0.1 is a security release. It changes no API, no configuration and no stored data. Upgrade any 2.0.0 installation to it.
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.0.0](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.0) — Quivr 2.0.0
-<sub>2026-10-29 · 23d ago</sub>
+<sub>2026-10-29 · 24d ago</sub>
 
 > **Quivr 2.0.0**
 > Quivr is an open-source engine for content that keeps arriving. Your application, or Quivr's sources (RSS, Microsoft 365 mailboxes, X lists), send it documents. Quivr keeps every version of each document and makes it searchable within seconds, by keywords, by meaning, or both. It also checks every new document against your saved alerts. Quivr has no user interface: your application talks to it over an HTTP API, and AI agents use it through `quivr mcp`.

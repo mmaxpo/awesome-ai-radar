@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 265.3k |
-| 🍴 **Forks** | 60.0k |
-| 🐞 **Open issues + PRs** | [54.2k](https://github.com/NousResearch/hermes-agent/issues) |
+| ⭐ **Stars** | 265.6k |
+| 🍴 **Forks** | 60.1k |
+| 🐞 **Open issues + PRs** | [54.3k](https://github.com/NousResearch/hermes-agent/issues) |
 | 💻 **Languages** | Python 73% · TypeScript 24% · JavaScript 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agent` `ai-agents` `llm` `anthropic` `chatgpt` `claude` `claude-code` `codex` `hermes` `hermes-agent` `nous-research` `openai` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-07-22 |
 | 📦 **Latest release** | [v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1512.5 MB |
+| 💾 **Size** | 1514.8 MB |
 | 🌐 **Website** | https://hermes-agent.nousresearch.com |
 
 ## 📦 Recent releases
 
+### [canary.20261123T065600Z-v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/canary.20261123T065600Z-v0.23.3) — Hermes Agent canary canary.20261123T065600Z-v0.23.3 _(pre-release)_
+<sub>2026-11-23 · today</sub>
+
+> **Hermes Agent v0.23.3+canary.20261123T065600Z (canary.20261123T065600Z-v0.23.3)**
+> **Release Date:** November 23, 2026
+> **Downloads**
+> **Hermes Desktop**
+> | OS | Architecture | Download |
+> |---|---|---|
+> …
+
 ### [v0.23.3+canary.20261120T064609Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3%2Bcanary.20261120T064609Z) — Hermes Agent canary v0.23.3+canary.20261120T064609Z _(pre-release)_
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **Hermes Agent v0.23.3+canary.20261120T064609Z (v0.23.3+canary.20261120T064609Z)**
 > **Release Date:** November 20, 2026
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3) — Hermes Agent v0.23.3
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **Hermes Agent v0.23.3**
 > **Release Date:** November 19, 2026
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.23.2+canary.20261119T064637Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261119T064637Z) — Hermes Agent canary v0.23.2+canary.20261119T064637Z _(pre-release)_
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **Hermes Agent v0.23.2+canary.20261119T064637Z (v0.23.2+canary.20261119T064637Z)**
 > **Release Date:** November 19, 2026
@@ -69,21 +80,10 @@
 > …
 
 ### [v0.23.2+canary.20261118T064620Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261118T064620Z) — Hermes Agent canary v0.23.2+canary.20261118T064620Z _(pre-release)_
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **Hermes Agent v0.23.2+canary.20261118T064620Z (v0.23.2+canary.20261118T064620Z)**
 > **Release Date:** November 18, 2026
-> **Downloads**
-> **Hermes Desktop**
-> | OS | Architecture | Download |
-> |---|---|---|
-> …
-
-### [v0.23.2+canary.20261117T064624Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261117T064624Z) — Hermes Agent canary v0.23.2+canary.20261117T064624Z _(pre-release)_
-<sub>2026-11-17 · 5d ago</sub>
-
-> **Hermes Agent v0.23.2+canary.20261117T064624Z (v0.23.2+canary.20261117T064624Z)**
-> **Release Date:** November 17, 2026
 > **Downloads**
 > **Hermes Desktop**
 > | OS | Architecture | Download |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [test(desktop): disband rewrite leaves out another room's tombstone](https://github.com/NousResearch/hermes-agent/commit/0f602c5f6f18615632535251d62a2db74ce93b69) | teknium1 |
-| 2026-11-22 | [fix(desktop): every group chat storage writer keeps the whole room re…](https://github.com/NousResearch/hermes-agent/commit/49a2bdcab97bfb2e617fb3ed331f6c0a1fa3b24e) | kshitijk4poor |
-| 2026-11-22 | [test(profiles): pin the review-surfaced branches of the profile lifec…](https://github.com/NousResearch/hermes-agent/commit/da8e7d71abe4ac165760cd813c0c18c53e697b90) | kshitijk4poor |
-| 2026-11-22 | [fix(profiles): a failed import stages in a hidden mkdtemp, so Windows…](https://github.com/NousResearch/hermes-agent/commit/cbfc05acd8c4af391bb0029a71a4522948d020ad) | kshitijk4poor |
-| 2026-11-22 | [test(profiles): the staging-mode test is POSIX-only; the lock wait is…](https://github.com/NousResearch/hermes-agent/commit/9b70b9b33136e2f2cde00865cc05a92cf83507fd) | kshitijk4poor |
-| 2026-11-22 | [fix(profiles): import and rename publish a name like create, so a rac…](https://github.com/NousResearch/hermes-agent/commit/427b87092cf8eb008ad964a4cee05501ebe9541d) | kshitijk4poor |
-| 2026-11-22 | [fix(desktop): the share-keys hint scopes the launch profile to a fres…](https://github.com/NousResearch/hermes-agent/commit/ad6d519aceef17d502814f9b8034cd5d63b51456) | kshitijk4poor |
-| 2026-11-22 | [fix(desktop): the share-keys hint says a cloned bot's logins are copied](https://github.com/NousResearch/hermes-agent/commit/5e2124dc825f8631b82653b615304058135e98d8) | kshitijk4poor |
-| 2026-11-22 | [fix(kanban): the model preflight judges a card by the provider and UR…](https://github.com/NousResearch/hermes-agent/commit/fbd2c432354a0410f660310c369c864cd0082359) | kshitijk4poor |
-| 2026-11-22 | [test(ci): check that notarytool's stdout stays out of the preflight l…](https://github.com/NousResearch/hermes-agent/commit/8650b2aea8899cc494acf87b117d1f9c75dacbc4) | BearHuddleston |
+| 2026-11-23 | [plugin-catalog: bump anaella to 0.9.64](https://github.com/NousResearch/hermes-agent/commit/45665879083359efe1fc5134ddd2f5dffd804139) | isaacgounton |
+| 2026-11-23 | [chore(catalog): review disclosure for anaella](https://github.com/NousResearch/hermes-agent/commit/53eeeccbc6e501ce337955776292bbf874e1df44) | teknium1 |
+| 2026-11-23 | [plugin-catalog: bump anaella to 0.9.52](https://github.com/NousResearch/hermes-agent/commit/59f43d99f5cc9d6d53d848c91b69cb6140eb66ca) | isaacgounton |
+| 2026-11-23 | [chore(catalog): review disclosure for ciphervault](https://github.com/NousResearch/hermes-agent/commit/8c0fe7fe9af01ffbbdc718bc8e30e76e9a6e7316) | teknium1 |
+| 2026-11-23 | [plugin-catalog: repin ciphervault to 0.8.2](https://github.com/NousResearch/hermes-agent/commit/7929f4c56760d70e59279f5626def15b5887a379) | samuel-1-avson |
+| 2026-11-23 | [plugin-catalog: re-pin ciphervault to 0.8.1](https://github.com/NousResearch/hermes-agent/commit/e7acbf48e16292791202f3e997106652fc3d7e85) | samuel-1-avson |
+| 2026-11-23 | [plugin-catalog: re-pin ciphervault to 0.8.0](https://github.com/NousResearch/hermes-agent/commit/e77d48743f1db92a8579f2d129b74e39b8a30a7d) | samuel-1-avson |
+| 2026-11-23 | [plugin-catalog: re-pin ciphervault to 0.7.3](https://github.com/NousResearch/hermes-agent/commit/01ab8abab32fd7efccc88e46ac0530274a147e56) | samuel-1-avson |
+| 2026-11-23 | [plugin-catalog: re-pin ciphervault 0.7.2 to the docs commit](https://github.com/NousResearch/hermes-agent/commit/fb893949d1a9eec7bf7cadb621816221b8472a35) | samuel-1-avson |
+| 2026-11-23 | [plugin-catalog: re-pin ciphervault to 0.7.2 with review fixes](https://github.com/NousResearch/hermes-agent/commit/78e1447c05238cb38d5f36c9e61af2f270cd3a32) | samuel-1-avson |
 
 [See all commits ↗](https://github.com/NousResearch/hermes-agent/commits)
 

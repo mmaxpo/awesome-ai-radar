@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 40.8k |
 | 🍴 **Forks** | 5.8k |
-| 🐞 **Open issues + PRs** | [245](https://github.com/HKUDS/LightRAG/issues) |
+| 🐞 **Open issues + PRs** | [236](https://github.com/HKUDS/LightRAG/issues) |
 | 💻 **Languages** | Python 91% · TypeScript 7% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `knowledge-graph` `large-language-models` `retrieval-augmented-generation` `genai` `graphrag` `llm` `rag` `gpt` `docling` `mineru` `ragas` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-10-02 |
 | 📦 **Latest release** | [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 124.9 MB |
+| 💾 **Size** | 127.3 MB |
 | 🌐 **Website** | https://arxiv.org/abs/2410.05779 |
 
 ## 📦 Recent releases
 
 ### [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2)
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > **What's Changed**
 > * fix(jina): stop retrying permanent 4xx errors by @Shizoqua in https://github.com/HKUDS/LightRAG/pull/4028
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.5.8rc1](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc1)
-<sub>2026-11-15 · 7d ago</sub>
+<sub>2026-11-15 · 8d ago</sub>
 
 > **Important Notes**
 > > v1.5.8rc1 is a release candidate. Please test it on a copy of your data before upgrading production.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Merge pull request #4593 from danielaskdd/ci/pg-smoke-paths](https://github.com/HKUDS/LightRAG/commit/b0859bafaf247b4929f0d2be608178da6baaa40c) | danielaskdd |
-| 2026-11-22 | [ci: trigger PostgreSQL smoke tests on every module they exercise](https://github.com/HKUDS/LightRAG/commit/4e76157f086d28b49d0b9729a0c27abf34ab6291) | danielaskdd |
-| 2026-11-22 | [Merge pull request #4549 from MohammadHijjawi97/fix/export-markdown-e…](https://github.com/HKUDS/LightRAG/commit/c5cc0b22677d0f77753464efa8ddf1b5ef07748d) | danielaskdd |
-| 2026-11-22 | [fix(export): narrow the Markdown cell rewrite to pipes and line breaks](https://github.com/HKUDS/LightRAG/commit/adde9cd39e8a4e37bc133bfbfb84f0b0ccd21e2f) | danielaskdd |
-| 2026-11-22 | [fix(export): render Markdown cells as literal text](https://github.com/HKUDS/LightRAG/commit/74691beedb43db5f55d9d98810a837131ee98422) | danielaskdd |
-| 2026-11-22 | [fix(export): escape `<` in Markdown cells and cover every table](https://github.com/HKUDS/LightRAG/commit/49c34e6a1beae72a9f883c19b644179aba02e8c4) | danielaskdd |
-| 2026-11-22 | [Merge pull request #4592 from danielaskdd/docs/test-guide-lessons](https://github.com/HKUDS/LightRAG/commit/24451381a15fb1d19221669b6aa6fdedb255574c) | danielaskdd |
-| 2026-11-22 | [docs: fold the test-trim lessons into the testing guides](https://github.com/HKUDS/LightRAG/commit/a0d3493c0b42476a8245d030ed7ca88dd110f180) | danielaskdd |
-| 2026-11-22 | [Merge pull request #4590 from danielaskdd/test/d2-setup](https://github.com/HKUDS/LightRAG/commit/5611581edfae716ca14c34acec87f9572e7e4ef1) | danielaskdd |
-| 2026-11-22 | [Merge pull request #4591 from danielaskdd/test/d3-webui](https://github.com/HKUDS/LightRAG/commit/df987a1de8f4193efd81ee31e3801f26545f4f14) | danielaskdd |
+| 2026-11-23 | [Merge pull request #4610 from Sanskar1724/fix-table-split-rowspan](https://github.com/HKUDS/LightRAG/commit/1ac49a0c9725cd87dfa95abb11fd83a909d2eb91) | danielaskdd |
+| 2026-11-23 | [Merge pull request #4620 from danielaskdd/docs/compress-stargazer-images](https://github.com/HKUDS/LightRAG/commit/07a90f5040f38f5c8e0bc62e2d96906fea0e07aa) | danielaskdd |
+| 2026-11-23 | [docs: compress the stargazer affiliation images](https://github.com/HKUDS/LightRAG/commit/6ccc267e1125872b7fd0b4407f87796530c49607) | danielaskdd |
+| 2026-11-23 | [Merge pull request #4619 from HKUDS/codex/readme-color-stargazer-caro…](https://github.com/HKUDS/LightRAG/commit/2a45e44fb7f2df19b916153f5bf6d77254dd4eee) | danielaskdd |
+| 2026-11-23 | [docs: sync the stargazer carousel into the Japanese and Indonesian RE…](https://github.com/HKUDS/LightRAG/commit/a89d2677dc9d69dfc71793418abfd92197ccc5f4) | danielaskdd |
+| 2026-11-23 | [test(chunker): restore the HTML header pipeline test](https://github.com/HKUDS/LightRAG/commit/fde988aecbf6c482376e542f14f08fa671832d75) | danielaskdd |
+| 2026-11-23 | [test(chunker): trim the table-split tests and pin three unpinned bran…](https://github.com/HKUDS/LightRAG/commit/8dccd2c57083b28d40138c4766e7df30bfc5837a) | danielaskdd |
+| 2026-11-23 | [docs: add the color stargazer affiliation carousel](https://github.com/HKUDS/LightRAG/commit/28a4ede97b5ff44311b2a53581cdded313cd8b62) | LarFii |
+| 2026-11-23 | [fix(chunker): read rowspan tables with HTML's tokenizer rules](https://github.com/HKUDS/LightRAG/commit/229fdaa59322673fccf54c56ba7d79e58314332a) | danielaskdd |
+| 2026-11-23 | [fix(chunker): require complete tags inside a rowspan table's cells](https://github.com/HKUDS/LightRAG/commit/c9175075686e517ee5e3ce0bdea41a3cd9717eaf) | danielaskdd |
 
 [See all commits ↗](https://github.com/HKUDS/LightRAG/commits)
 

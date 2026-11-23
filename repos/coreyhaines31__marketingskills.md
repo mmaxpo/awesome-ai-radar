@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 62.0k |
-| 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [45](https://github.com/coreyhaines31/marketingskills/issues) |
+| ⭐ **Stars** | 62.2k |
+| 🍴 **Forks** | 9.1k |
+| 🐞 **Open issues + PRs** | [55](https://github.com/coreyhaines31/marketingskills/issues) |
 | 💻 **Languages** | JavaScript 94% · Python 3% · HTML 2% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude` `codex` `marketing` `agent-skills` `ai-agents` `ai-seo` `claude-code` `claude-code-plugin` `claude-skills` `content-marketing` `conversion-rate-optimization` `copywriting` `cursor` `email-marketing` `generative-engine-optimization` `growth-marketing` `marketing-automation` `saas-marketing` `seo` `skill-md` |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-20 (3d ago) |
 | 📅 **Created** | 2026-01-15 |
 | 📦 **Latest release** | [v2.14.25](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.25) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.14.25](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.25) — v2.14.25 — Community batch: fourteen new tool guides, three guide updates, and t…
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > Community batch: fourteen new tool guides, three guide updates, and three skill contributions.
 > - **New integration guides**, each reviewed against the usefulness and neutrality rules in `tools/PARTNERS.md`: Hermoso (#1014), Calven (#980), PostOnce (#979), GetYouTubeTranscript (#975), Hyper Elements (#974), ScrapeWhale (#972), Adspy (#965), Adeli (#964), SignalShelf (#959), GoAnyAPI with a CLI and tests (#946), Parallel with a CLI and tests (#943), Marcora (#939), Adlicio (#898), and SocialToAI (#917). Updated guides: Precleared (#957) and Coupler (#904). Edits made on the way in: tracking links, in-guide disclosure lines, pointers to vendors' own skill packs, comparison framing, and price pitches were removed; Adlicio no longer documents Google Maps or logged-in Facebook group scraping; GetYouTubeTranscript and ScrapeWhale carry a platform-terms note.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.14.24](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.24) — v2.14.24 — Community batch: thirteen skill contributions, rebased onto this week…
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > Community batch: thirteen skill contributions, rebased onto this week's changes.
 > - **public-relations** (1.2.4 → 1.3.0): a new `references/press-releases.md` on when a release is worth it, how to structure and write one, and distribution options from your own newsroom page to the paid wires, with what wire distribution does and doesn't get you (#885 by @dylancaponi, who discloses building one of the listed options). Adds a Press Release Distribution category to the registry and an eval.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.14.23](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.23) — v2.14.23 — Community batch: 22 CLI fixes and three CI checks. No skill content c…
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > Community batch: 22 CLI fixes and three CI checks. No skill content changes.
 > - **CLI fixes** (by @rudycelekli, each with a contract test): **ahrefs** sends the required Keywords Explorer and SERP Overview parameters (#864); **google-ads** strips hyphens from the customer ID (#877); **similarweb** requests geography from the v4 endpoint (#876); **dataforseo** enforces per-task keyword limits (#873); **mixpanel** requires the funnel date range (#871); **supermetrics** rejects row limits that would be truncated (#879); **tiktok-ads** sends `operation_status` for campaign status updates (#872); **resend** pages audience, contact, and webhook lists with cursors (#874); **postmark** enforces batch and suppression limits (#867); **activecampaign** sends deal search as `filters[search]` and requires whole-cent deal values (#861, #862); **close** filters activities with `_type` (#860); **apollo** enforces the ten-person bulk enrichment limit (#868); **hunter** reads and pauses sequences through documented routes (#869); **lemlist** requests campaign stats from the v2 route (#870); **truelist** enforces the three-address inline limit (#863); **optimizely** changes experiment state with the documented action parameter (#866); **livestorm** creates webhooks with the documented attributes (#865); **trustpilot** pages business search with `perpage` (#875); **wistia** honors an explicit false public flag (#878); **paddle** rejects incomplete recurring price options (#858). The remaining CLIs now exit non-zero on HTTP 4xx and 5xx responses (#852).
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.14.22](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.22) — v2.14.22 — AI video and voice model facts refreshed against vendor pages, checke…
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > AI video and voice model facts refreshed against vendor pages, checked 2026-11-19 (#994). Same treatment as the image models in 2.14.21: each tool is described by what its vendor states and where to check, with no ratings.
 > - **video** (2.4.5 → 2.4.6): the model comparison table and "Quick picks" are rewritten. Veo 3.1 makes 4, 6, or 8 second clips, not "variable" length, so the skill now says to plan a video as several shots. Kling is 4.0 (3 to 30 seconds), Seedance is 2.5, Hailuo runs MiniMax H3, Pika is 2.5, and the open-weight option is Wan 2.2, with HunyuanVideo's licence limits noted. Runway's row covers Gen-4.5 and its API, which also hosts Veo, Kling, and Seedance. HeyGen's plan table matched no current plan and is replaced (credits per month, 1 to 60 minute videos); its avatar and language counts and custom-avatar footage rules are updated, and its MCP endpoint is given. Synthesia's line now says what its site states. `references/ai-video-prompting.md` drops "up to 2 minutes" for Kling and other dated tips.
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.14.21](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.21) — v2.14.21 — AI image model facts refreshed against vendor docs, checked 2026-11-1…
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > AI image model facts refreshed against vendor docs, checked 2026-11-19 (#1009).
 > - **image** (2.0.7 → 2.0.8): the model comparison table now names each family, what its vendor says it is for, and where to check, in place of "Best / Good / Limited" ratings and pinned versions. Corrections: Google's current models are the Nano Banana 2.x family, with up to 14 reference images, and `gemini-2.5-flash-image` is marked legacy; FLUX 3 Image takes up to ten references and FLUX.2 [dev] is local-only and non-commercial; Ideogram's 4.x models are current and take up to 10 style references; OpenAI points new integrations to `gpt-image-2.6-sunburst` or `gpt-image-2.6-flare`, `gpt-image-1` is already shut down, and `gpt-image-2` shuts down on 10 Feb 2027; Recraft's default is V4.1; SDXL is a legacy model. Midjourney's version is no longer pinned, because its docs could not be read and other sources disagree. The decision tree lists options to compare instead of a "best" per need. `references/ai-image-prompting.md` carries the same corrections.

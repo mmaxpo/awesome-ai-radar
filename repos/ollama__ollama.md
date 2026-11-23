@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 187.8k |
+| ⭐ **Stars** | 187.9k |
 | 🍴 **Forks** | 19.1k |
 | 🐞 **Open issues + PRs** | [4.7k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 75% · C 17% · TypeScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `llm` `llms` `go` `golang` `ollama` `mistral` `gemma` `deepseek` `qwen` `gpt-oss` `glm` `minimax` `muse` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-22 (yesterday) |
 | 📅 **Created** | 2023-06-26 |
 | 📦 **Latest release** | [v0.40.17](https://github.com/ollama/ollama/releases/tag/v0.40.17) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.40.17](https://github.com/ollama/ollama/releases/tag/v0.40.17)
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 12d ago</sub>
 
 > **Inkling 2 Mini**
 > [Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) from Thinking Machines is a 26B parameter model with 5.4B active.
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16)
-<sub>2026-11-09 · 12d ago</sub>
+<sub>2026-11-09 · 13d ago</sub>
 
 > **Ripple Preview**
 > [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15)
-<sub>2026-11-03 · 18d ago</sub>
+<sub>2026-11-03 · 19d ago</sub>
 
 > **MiMo V2.6**
 > Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14)
-<sub>2026-11-03 · 19d ago</sub>
+<sub>2026-11-03 · 20d ago</sub>
 
 > **What's Changed**
 > * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.40.13](https://github.com/ollama/ollama/releases/tag/v0.40.13)
-<sub>2026-10-28 · 24d ago</sub>
+<sub>2026-10-28 · 25d ago</sub>
 
 > **LFM3 on Linux and Windows**
 > Liquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.

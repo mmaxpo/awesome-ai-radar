@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 161.7k |
 | 🍴 **Forks** | 25.5k |
-| 🐞 **Open issues + PRs** | [1.4k](https://github.com/langgenius/dify/issues) |
+| 🐞 **Open issues + PRs** | [1.3k](https://github.com/langgenius/dify/issues) |
 | 💻 **Languages** | Python 57% · TypeScript 40% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `gpt` `llm` `openai` `python` `agent` `nextjs` `workflow` `genai` `automation` `low-code` `mcp` `no-code` `agentic-ai` `agentic-framework` `agentic-workflow` `claude` `skills` `deepseek` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-04-12 |
 | 📦 **Latest release** | [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 718.7 MB |
+| 💾 **Size** | 718.0 MB |
 | 🌐 **Website** | https://dify.ai |
 
 ## 📦 Recent releases
 
 ### [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — v1.20.0
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **Dify 1.20.0 keeps your traces flowing and your knowledge bases safer.** Export traces to any OpenTelemetry collector, keep Langfuse working after its legacy ingestion endpoint retirement, and scan uploaded knowledge files for malware before they are indexed. Chatflows can show Agent tool activity as it happens, and personal access tokens let scripts and agents call the Dify OpenAPI on your behalf. The bundled plugin daemon is upgraded to **0.6.15-local**.
 > [New Features](#user-content-new-features) · [Configuration and Integration Changes](#user-content-configuration-and-integration-changes) · [Database Migrations](#user-content-database-migrations) · [Upgrade Guide](#user-content-upgrade-guide)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.19.0](https://github.com/langgenius/dify/releases/tag/1.19.0) — v1.19.0 - Trace Your Workflows, Layer by Layer
-<sub>2026-11-04 · 18d ago</sub>
+<sub>2026-11-04 · 19d ago</sub>
 
 > **Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree.
 > This release also makes Workflow Tools portable with App packages, adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin daemon is upgraded to **0.6.14-local**.
@@ -80,7 +80,7 @@
 > …
 
 ### [1.17.0](https://github.com/langgenius/dify/releases/tag/1.17.0) — v1.17.0
-<sub>2026-08-25 · 2mo ago</sub>
+<sub>2026-08-25 · 3mo ago</sub>
 
 > **New Features**
 > **Agent: E2B Sandbox, Home Snapshots, and Skill Management**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [fix(api): send custom tool JSON bodies as JSON when the content type …](https://github.com/langgenius/dify/commit/a06bc83cf02aafd6e18ff3f73af93e4d64c306cd) | Revinand |
-| 2026-11-22 | [test(api): bring the tools transform service tests under strict pyref…](https://github.com/langgenius/dify/commit/597f623a1fc70650abe8a77b074b90cd3ddba7f2) | yetuge |
-| 2026-11-22 | [fix(web): remove skip link animation (#46906)](https://github.com/langgenius/dify/commit/dfb269c1520e46899d722b9187ddad087a69d943) | lyzno1 |
-| 2026-11-22 | [fix(web): preserve permission set deletion confirmation (#46903)](https://github.com/langgenius/dify/commit/68d0cffd004acbe70503912f41aa98580f27dd33) | lyzno1 |
-| 2026-11-22 | [refactor(api): initialize trial provider records through short-lived …](https://github.com/langgenius/dify/commit/5cadff3b04282413df6484b247542438a45f8096) | paulhuiseismic |
-| 2026-11-22 | [fix(web): allow canceling workflow DSL exports (#46901)](https://github.com/langgenius/dify/commit/a6ea1b0f9bd4e2a81376b56fed607cd63e886aeb) | lyzno1 |
-| 2026-11-22 | [docs(dify-ui): clarify dialog dismissal during requests (#46895)](https://github.com/langgenius/dify/commit/f2b8315e5d294724caf7475c227382ce93c2d076) | lyzno1 |
-| 2026-11-22 | [fix(api): resolve remaining pyrefly diagnostics (#46769) (#46770)](https://github.com/langgenius/dify/commit/c19e1446ba5e8404797dddf62ee00c9bbb2d1cbd) | P-r-e-m-i-u-m |
-| 2026-11-22 | [fix(web): preserve the selected pipeline template during deletion (#4…](https://github.com/langgenius/dify/commit/6f99da3f8ce131d0d4cec1fad3dc3b649bf7a320) | lyzno1 |
-| 2026-11-21 | [fix(web): keep external API deletion checks with the confirmation (#4…](https://github.com/langgenius/dify/commit/8b6fbfb010ff77b6d2d9e57c4fdd3d8225f3e6ca) | lyzno1 |
+| 2026-11-23 | [test(web): skip two more specs that flake in CI (#46984)](https://github.com/langgenius/dify/commit/e62d1e37a523dc1ce42c56b7100380022291c598) | hyoban |
+| 2026-11-23 | [test(web): skip browser specs that flake in CI (#46982)](https://github.com/langgenius/dify/commit/8017daa9f68bdbe3842650fe38f354222533a16e) | hyoban |
+| 2026-11-23 | [test(web): stabilize IP policy creation focus assertions (#46977)](https://github.com/langgenius/dify/commit/3421e649cb82c6c11bd45952de13fc17b19d2656) | hyoban |
+| 2026-11-23 | [test(web): pin the browser test environment and fail on console error…](https://github.com/langgenius/dify/commit/317279e2c8ced526b71b87d09fd15dbe2cbb081f) | hyoban |
+| 2026-11-23 | [test(web): wait for answer content before hovering attachments (#46969)](https://github.com/langgenius/dify/commit/923cc565d38937319a99aca55dea15d9a588f1a5) | hyoban |
+| 2026-11-23 | [refactor(agent): isolate Build draft save, checkout, and apply (#46369)](https://github.com/langgenius/dify/commit/1fdb40817cb1880bed0d25c76f0f965f9dd30944) | hjlarry |
+| 2026-11-23 | [fix(web): show comment threads without popup transitions (#46972)](https://github.com/langgenius/dify/commit/5749b93017035d3ae858c905dd6d074493ee3736) | lyzno1 |
+| 2026-11-23 | [chore(i18n): sync translations with en-US (#46961)](https://github.com/langgenius/dify/commit/f1ead55236e4dff6a74522a50a6c89e6b66eb19b) | github-actions[bot] |
+| 2026-11-23 | [test(api): strictly type Sandbox code executor tests (#46950)](https://github.com/langgenius/dify/commit/49ba40f22871be5e137d92b9179d98bd087fcff1) | ShousenZHANG |
+| 2026-11-23 | [test(api): strictly type owner transfer mail tests (#46912)](https://github.com/langgenius/dify/commit/869091b46d83c8a8855f38dfd28bcfcf1c913262) | ShousenZHANG |
 
 [See all commits ↗](https://github.com/langgenius/dify/commits)
 

@@ -26,17 +26,17 @@
 | 💻 **Languages** | C 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `usb-host` `usb-device` `usb` `cdc` `hid` `uvc` `uac` `dfu` `ehci` `hub` `rndis` `musb` `dwc2` `xhci` `cherryusb` `cdns2` `cdns3` `ohci` |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2021-07-10 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/cherry-embedded/CherryUSB/releases/tag/v1.6.1) — 2026-04-27 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 94.6 MB |
+| 💾 **Size** | 94.7 MB |
 | 🌐 **Website** | https://cherryusb.readthedocs.io |
 
 ## 📦 Recent releases
 
 ### [v1.6.1](https://github.com/cherry-embedded/CherryUSB/releases/tag/v1.6.1) — CherryUSB v1.6.1
-<sub>2026-04-27 · 6mo ago</sub>
+<sub>2026-04-27 · 7mo ago</sub>
 
 > **Hi, there, this version is a freeze version, the next release time we planned is 2026-12-31, thank you for supporting cherryusb!**
 > **Common**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.6.0](https://github.com/cherry-embedded/CherryUSB/releases/tag/v1.6.0) — CherryUSB v1.6.0
-<sub>2026-01-27 · 9mo ago</sub>
+<sub>2026-01-27 · 10mo ago</sub>
 
 > **Common**
 > - update(demo): remove all old desc api
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [add(class/wch): add ch372 vendor class and ch372 template demo](https://github.com/cherry-embedded/CherryUSB/commit/117a079d06f4c904498b30879de06b05c728399b) | Links0617 |
+| 2026-11-23 | [fix(port/wch): fix wch usbhs device controller port burst transfer bug](https://github.com/cherry-embedded/CherryUSB/commit/8a9c2100517a8f85b19ffa9d83806ae0f6397165) | Links0617 |
+| 2026-11-23 | [fix(port/wch): fix wch usbss device controller port burst transfer bug](https://github.com/cherry-embedded/CherryUSB/commit/6bbe0b2c47b82e28913061745e7d18e8f1bbeef2) | Links0617 |
 | 2026-11-20 | [add(port/wch): add wch usbss device controller port](https://github.com/cherry-embedded/CherryUSB/commit/b518afb1475d9de4b019e2e6c7664a1a4f2d899a) | Links0617 |
 | 2026-11-18 | [fix(security): check qh urb valid](https://github.com/cherry-embedded/CherryUSB/commit/7835d108baea5190f84060337bdb110810c1c7c1) | sakumisu |
 | 2026-11-18 | [fix(security): fix ep0 setup competition issue](https://github.com/cherry-embedded/CherryUSB/commit/962339a3d3c6619881c9c67379680e7b66dc21c3) | sakumisu |
@@ -101,9 +104,6 @@
 | 2026-11-17 | [fix(class/wireless/usbh_rndis): do not check g_rndis_rx_length with e…](https://github.com/cherry-embedded/CherryUSB/commit/738dedc6ec1968190ef17805fc4e37edbaec4ff3) | sakumisu |
 | 2026-11-11 | [fix(port/wch usbhsd): Fix the TOG mismatch issue following a bus rese…](https://github.com/cherry-embedded/CherryUSB/commit/05007a0cdcf480ff5e870ce142bc92c217060fc8) | Links0617 |
 | 2026-11-10 | [update(port/aic): sync code from luban lite](https://github.com/cherry-embedded/CherryUSB/commit/a0054795c44037ace8a2b77b6e610adbff2257ea) | sakumisu |
-| 2026-11-09 | [update(port/dwc2): adjust register macros order](https://github.com/cherry-embedded/CherryUSB/commit/692e0697c5a60534fb2b8a2edff9a4a4c2f6edba) | sakumisu |
-| 2026-11-08 | [fix(ci): fix ci new build](https://github.com/cherry-embedded/CherryUSB/commit/6081dee3f7acdeb2d920b163148909f36acec4a9) | sakumisu |
-| 2026-11-08 | [feat(port/dwc2): support dwc2 dev desc dma mode](https://github.com/cherry-embedded/CherryUSB/commit/890a9403754ad069975293fa9e6707e8e1ca8630) | sakumisu |
 
 [See all commits ↗](https://github.com/cherry-embedded/CherryUSB/commits)
 

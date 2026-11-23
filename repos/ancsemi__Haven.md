@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.2k |
-| 🍴 **Forks** | 123 |
-| 🐞 **Open issues + PRs** | [18](https://github.com/ancsemi/Haven/issues) |
+| 🍴 **Forks** | 124 |
+| 🐞 **Open issues + PRs** | [17](https://github.com/ancsemi/Haven/issues) |
 | 💻 **Languages** | JavaScript 81% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.5 MB |
+| 💾 **Size** | 23.5 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
 ### [v4.30.0-beta.3](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.3) — Haven 4.30.0-beta.3 _(pre-release)_
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.2:
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.30.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.2) — Haven 4.30.0-beta.2 _(pre-release)_
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.1:
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
-<sub>2026-11-15 · 7d ago</sub>
+<sub>2026-11-15 · 8d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > It has everything in 4.29.0, plus these, which are not in a stable yet:
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — Haven 4.29.0
-<sub>2026-11-15 · 7d ago</sub>
+<sub>2026-11-15 · 8d ago</sub>
 
 > **Added**
 > - Call controls in fullscreen (thanks Roolk, #5849): mute, deafen, camera, screen share, call settings and leave stay on screen over a fullscreen camera or screen share, and a picker switches which stream is shown without leaving fullscreen.
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.29.0-beta.5](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.5) — Haven 4.29.0-beta.5 _(pre-release)_
-<sub>2026-11-13 · 8d ago</sub>
+<sub>2026-11-13 · 9d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.28.0 until the next stable.
 > Changes since 4.29.0-beta.4:
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Count a live welcome message as unread in a channel that is not open …](https://github.com/ancsemi/Haven/commit/2d36ebd645c08931144805010f9ac1a62943417a) | ancsemi |
-| 2026-11-22 | [Bump cache tags and add changelog entries for #5928 and #5929](https://github.com/ancsemi/Haven/commit/e089c6bd31bc7aa8f3bca4090143819718326585) | ancsemi |
-| 2026-11-22 | [Choose and order the message box buttons, with the rest in the + menu…](https://github.com/ancsemi/Haven/commit/b56e9e4aecc0ea52884f773d6e2efbadf8b9a3b3) | Amnibro |
-| 2026-11-22 | [Drag soundboard sounds into your own order (#5922)](https://github.com/ancsemi/Haven/commit/bda05b49a7bfaf4892063e27c2c4bbc9586dca2c) | Amnibro |
-| 2026-11-22 | [Show -# lines as small text, with a Small text row in the formatting …](https://github.com/ancsemi/Haven/commit/0aba276bc509d6fb0436d0f87150b22d5acf5520) | Amnibro |
-| 2026-11-22 | [Keep an unfinished forum post per forum until it is posted or cancell…](https://github.com/ancsemi/Haven/commit/781e792ee681eafe5b8d7adb55affdcae49f416e) | Amnibro |
-| 2026-11-22 | [Focus and Focus Classic layouts for desktop (#5928)](https://github.com/ancsemi/Haven/commit/2d6344dc5e28b2859883aa3ab4ad499fa04a8e1c) | Amnibro |
-| 2026-11-22 | [Internet Access check: use portchecker.io's POST API and fall back wh…](https://github.com/ancsemi/Haven/commit/2305d5bd1b735727515da117b4be60d2ab5cc453) | Amnibro |
-| 2026-11-21 | [Find flags and built-in image emoji in reaction picker search](https://github.com/ancsemi/Haven/commit/0ee5e7737ce47b987e1b15e15128d200079b4df6) | ancsemi |
-| 2026-11-20 | [Changelog: add the entries three merged PRs left out](https://github.com/ancsemi/Haven/commit/d78674a30721186add66ea303e50de66b03e062e) | ancsemi |
+| 2026-11-22 | [Put a name typed in full first in the @mention list (#5932)](https://github.com/ancsemi/Haven/commit/ad9ae09a9820ea228cd0ca4a8a8d1cc735405f82) | Amnibro |
+| 2026-11-22 | [Show how many people picked each role on its role menu button](https://github.com/ancsemi/Haven/commit/1f10a78a072eb5a6c49369864635b48a0eb99f29) | ancsemi |
+| 2026-11-22 | [Add the local network block to the coturn setup in the guide](https://github.com/ancsemi/Haven/commit/6017195bad24ecf76e321d6454d11c41628eb6e0) | ancsemi |
+| 2026-11-22 | [Put test webhook makers in their webhook's channel](https://github.com/ancsemi/Haven/commit/c33ea4381605a7c851d18c808814762cc7728c62) | ancsemi |
+| 2026-11-22 | [Keep the example TURN relay from reaching the local network](https://github.com/ancsemi/Haven/commit/6505b10c6f840474301a301825f3d453d93ebd76) | ancsemi |
+| 2026-11-22 | [Read long messages in pieces in the AI link sweep](https://github.com/ancsemi/Haven/commit/6e343a0fa6d5f1b18c8c145e74aee218279d5d9b) | ancsemi |
+| 2026-11-22 | [Auto-cleanup removes only real attachments nothing else uses](https://github.com/ancsemi/Haven/commit/5f28bba1d0b037c10e124ff7999163c41e0916c2) | ancsemi |
+| 2026-11-22 | [Limit wrong passwords per account on admin recovery](https://github.com/ancsemi/Haven/commit/bec809f16d46acbe519932656c4920f139727ce8) | ancsemi |
+| 2026-11-22 | [Stop a webhook token when its maker can no longer open the channel](https://github.com/ancsemi/Haven/commit/567e918560b444494aa97a4cc5d0ea546e26480a) | ancsemi |
+| 2026-11-22 | [Let only the installer's own page drive the installer](https://github.com/ancsemi/Haven/commit/3ba93ba37f5814b84f92d10495234b0b91887a06) | ancsemi |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

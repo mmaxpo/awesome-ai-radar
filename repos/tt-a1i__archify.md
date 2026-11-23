@@ -20,23 +20,39 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 98.7k |
-| 🍴 **Forks** | 6.7k |
+| ⭐ **Stars** | 99.0k |
+| 🍴 **Forks** | 6.8k |
 | 🐞 **Open issues + PRs** | [360](https://github.com/tt-a1i/archify/issues) |
-| 💻 **Languages** | JavaScript 91% · CSS 4% · HTML 3% · Astro 2% |
+| 💻 **Languages** | JavaScript 88% · TypeScript 4% · CSS 3% · HTML 2% · Rust 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `architecture-diagram` `developer-tools` `system-design` `agent-skills` `codex` `opencode` `sequence-diagram` `deepseek-harness` `dsh-plugin` `coding-agents` `diagrams` `diagrams-as-code` `software-architecture` `ai-agents` `claude-code` `claude-skills` `flowchart` `llm` `mermaid` `visualization` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-04-15 |
-| 📦 **Latest release** | [archify-dsh-v1.1.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.1.0) — 2026-11-08 |
+| 📦 **Latest release** | [archify-dsh-v1.2.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.2.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1772.7 MB |
+| 💾 **Size** | 1840.4 MB |
 | 🌐 **Website** | https://archify.si |
 
 ## 📦 Recent releases
 
+### [archify-dsh-v1.2.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.2.0) — Archify DSH 1.2.0
+<sub>2026-11-23 · today</sub>
+
+> Published `@tt-a1i/archify-dsh` from this tag's verified tarball. See the integration README for the bundled Archify source and acceptance record.
+
+### [v3.3.0](https://github.com/tt-a1i/archify/releases/tag/v3.3.0)
+<sub>2026-11-22 · today</sub>
+
+> **What's Changed**
+> * Sync labs/code-analysis with dev (3.1.x) by @yijiez666-alt in https://github.com/tt-a1i/archify/pull/996
+> * Sync labs/code-analysis with dev and address #998 review findings by @yijiez666-alt in https://github.com/tt-a1i/archify/pull/1004
+> * release: enable v3.2.0 update notice and fix demo card clipping by @tt-a1i in https://github.com/tt-a1i/archify/pull/1006
+> * Code Analysis module (#979) synced with labs/code-analysis by @yijiez666-alt in https://github.com/tt-a1i/archify/pull/1007
+> * Codex/code analysis module by @yijiez666-alt in https://github.com/tt-a1i/archify/pull/979
+> …
+
 ### [archify-dsh-v1.1.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.1.0) — Archify DSH 1.1.0
-<sub>2026-11-08 · 13d ago</sub>
+<sub>2026-11-08 · 14d ago</sub>
 
 > Published `@tt-a1i/archify-dsh@1.1.0` — a Skill-only DeepSeek Harness bundle containing Archify 3.2.0.
 > - Published: 2026-11-08 (npm `latest`)
@@ -68,42 +84,20 @@
 > - Clearer cards, routing/label coordination, Sequence notes, Lifecycle layouts, and long-page reader navigation.
 > …
 
-### [archify-dsh-v1.0.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.0.0) — Archify DSH 1.0.0
-<sub>2026-10-04 · 1mo ago</sub>
-
-> **Archify DSH 1.0.0**
-> `@tt-a1i/archify-dsh@1.0.0` brings the Archify 3.x authoring and delivery flow to the DeepSeek Harness community integration. It bundles Archify **3.0.1**, including the post-tag Skill installation fix from #704, from immutable source `7158026e852f3aa6578c741e673b46d7878c92c1`. Adapter and Archify version numbers are independent.
-> The supported host is exactly **`@deepseek-ai/dsh@0.1.2-rc.1`**, with Node **`^22.19.0 || >=24.0.0`**. DSH remains a developer preview; the adapter's 1.0 contract does not promise compatibility with other host versions. This is a community integration, not an official DeepSeek product.
-> **Install and upgrade**
-> Update the DSH host separately to the supported version, then run this command in each profile that uses Archify:
-> ```bash
-> …
-
-### [v3.0.1](https://github.com/tt-a1i/archify/releases/tag/v3.0.1)
-<sub>2026-09-28 · 1mo ago</sub>
-
-> Archify 3.0.1 makes stable update reminders part of normal diagram delivery. `finalize` and standalone `deliver` now include a bounded update result in their receipts and terminal output, and the Skill carries one reminder into its final response when a newer verified release is known. A reminder repeats until the user updates or explicitly asks to snooze it for seven days or ignore that exact release. Checks use the fixed official manifest and cached results; no update installs automatically.
-> The diagram format, generated HTML/SVG content, validation quality gates, and existing path protections are unchanged. See the [changelog](https://github.com/tt-a1i/archify/blob/v3.0.1/CHANGELOG.md) for the full entry.
-> **What's Changed**
-> * Publish v3.0.0 stable update manifest by @tt-a1i in https://github.com/tt-a1i/archify/pull/598
-> * Keep update notices in diagram delivery receipts by @tt-a1i in https://github.com/tt-a1i/archify/pull/599
-> * Promote update reminders to stable by @tt-a1i in https://github.com/tt-a1i/archify/pull/610
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Merge pull request #1423 from tt-a1i/feat/geo-seo-v3-main](https://github.com/tt-a1i/archify/commit/8509a3d63e763b4d454ea9aafa1f939545fcb1ea) | tt-a1i |
-| 2026-11-21 | [docs(geo): clarify QbitAI command attribution and architecture placem…](https://github.com/tt-a1i/archify/commit/f524d8009a44bda29089f6187b19204e1e88f17a) | tt-a1i |
-| 2026-11-21 | [Extract the real Skill ZIP reliably in the Windows install tests](https://github.com/tt-a1i/archify/commit/f06c31f74cbf48144e6de9618433d2999c0dbcd9) | tt-a1i |
-| 2026-11-21 | [fix(seo): block explainer JSON pointer 404s and ship GEO v3 supersess…](https://github.com/tt-a1i/archify/commit/2ce3549b845db894e4fa7391260fed91f90aa0ee) | tt-a1i |
-| 2026-11-17 | [Merge pull request #1390 from tt-a1i/feat/geo-universal-positioning-main](https://github.com/tt-a1i/archify/commit/44781293f38728baf04dbad33ce1a0cef8c39cca) | tt-a1i |
-| 2026-11-17 | [docs(geo): qualify explainer opt-in browser check per review](https://github.com/tt-a1i/archify/commit/d9b4f0961f669dffd9805fe117d5bc1603ee6c88) | tt-a1i |
-| 2026-11-17 | [docs(geo): align waterfall description with execution-span schema](https://github.com/tt-a1i/archify/commit/a0613c95e8287178152129598e294c768df6211d) | tt-a1i |
-| 2026-11-17 | [docs(geo): broaden positioning to universal interactive diagrams and …](https://github.com/tt-a1i/archify/commit/a2dc77804ecc6f415b594b553b40ba1e91d48da1) | tt-a1i |
-| 2026-11-15 | [Merge pull request #1369 from tt-a1i/feat/geo-upgrade-main](https://github.com/tt-a1i/archify/commit/a7ed6fd6657da90414831d1d42cf95987188750c) | tt-a1i |
-| 2026-11-15 | [fix(geo): resolve CI Cloudflare regressions and address review feedback](https://github.com/tt-a1i/archify/commit/ca846760ff380b2f32cd799c4fe8e0accb9aacdc) | tt-a1i |
+| 2026-11-23 | [Merge pull request #1466 from tt-a1i/docs/dsh-1.2.0-record](https://github.com/tt-a1i/archify/commit/3ca198d867ce4b616332f846ff66e5c8e5e60f95) | tt-a1i |
+| 2026-11-23 | [docs(dsh): record published 1.2.0 release](https://github.com/tt-a1i/archify/commit/7f92258145b6038fbb52c73083d17349528744c5) | tt-a1i |
+| 2026-11-23 | [Merge pull request #1464 from tt-a1i/feat/dsh-1.2.0](https://github.com/tt-a1i/archify/commit/428ca67657297febfa284a87ec47b306a0290ac5) | tt-a1i |
+| 2026-11-23 | [feat(dsh): prepare 1.2.0 bundling Archify 3.3.0 for DSH 0.2.2-rc.5](https://github.com/tt-a1i/archify/commit/2617eff544e8ec4c27a993120539e62c148c4fb6) | tt-a1i |
+| 2026-11-22 | [Merge pull request #1460 from tt-a1i/chore/stable-manifest-v3.3.0](https://github.com/tt-a1i/archify/commit/6cafc5a9875a795c6932ac0c196dacf3097fafe6) | tt-a1i |
+| 2026-11-22 | [release: publish stable 3.3.0 update manifest](https://github.com/tt-a1i/archify/commit/283ce47ffe929f17e261f639511ffbdaf47097d3) | tt-a1i |
+| 2026-11-22 | [Merge pull request #1458 from tt-a1i/release/v3.3.0](https://github.com/tt-a1i/archify/commit/af3aaf3c36762f2afb62a4a09533f6c7273b07e5) | tt-a1i |
+| 2026-11-22 | [test(viewer): exclude page colophon from readability overflow check](https://github.com/tt-a1i/archify/commit/687335e6c2967db6195359c01db689d4c740f825) | tt-a1i |
+| 2026-11-22 | [merge: include PR #1459 release docs refresh in release/v3.3.0](https://github.com/tt-a1i/archify/commit/fc32cab51a4a2b067ef6d665a0a8688aebfb6c08) | tt-a1i |
+| 2026-11-22 | [Merge pull request #1459 from tt-a1i/docs/release-docs-refresh](https://github.com/tt-a1i/archify/commit/087cfd8c1bc292967371c113209d8fd1b258dd78) | tt-a1i |
 
 [See all commits ↗](https://github.com/tt-a1i/archify/commits)
 

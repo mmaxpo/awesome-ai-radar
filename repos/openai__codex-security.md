@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 14.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [220](https://github.com/openai/codex-security/issues) |
+| 🐞 **Open issues + PRs** | [228](https://github.com/openai/codex-security/issues) |
 | 💻 **Languages** | TypeScript 77% · Python 19% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-07-13 |
 | 📦 **Latest release** | [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 90.3 MB |
+| 💾 **Size** | 91.0 MB |
 | 🌐 **Website** | https://developers.openai.com/codex/security |
 
 ## 📦 Recent releases
 
 ### [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — Codex Security GitHub Action 0.10.1
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1).
 > Installs `@openai/codex-security@0.10.1`.
@@ -45,7 +45,7 @@
 > ```
 
 ### [npm-v0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1) — Codex Security 0.10.1
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **Highlights**
 > - **Exclude paths from scans.** Run `cs scan . --exclude-path examples/` to exclude a directory from review in Standard, Deep, or diff scans. Repeat the flag for more paths, or set `scan.exclude_paths` in your project configuration. Paths are literal and relative to the repository. The scanner can still read excluded files for context and filters out findings whose locations all fall under excluded paths.
@@ -56,7 +56,7 @@
 > …
 
 ### [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — Codex Security GitHub Action 0.10.0
-<sub>2026-11-12 · 10d ago</sub>
+<sub>2026-11-12 · 11d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0).
 > Installs `@openai/codex-security@0.10.0`.
@@ -65,7 +65,7 @@
 > ```
 
 ### [npm-v0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0) — Codex Security 0.10.0
-<sub>2026-11-12 · 10d ago</sub>
+<sub>2026-11-12 · 11d ago</sub>
 
 > **Highlights**
 > Codex Security 0.10.0 gives clearer guidance when a patch is blocked, lets interrupted Standard scans resume, and adds a budget for batch scans.
@@ -76,7 +76,7 @@
 > …
 
 ### [action-v0.9.1](https://github.com/openai/codex-security/releases/tag/action-v0.9.1) — Codex Security GitHub Action 0.9.1
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > GitHub Action for [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
 > Installs `@openai/codex-security@0.9.1`.
@@ -88,6 +88,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [fix(cli): attribute exploitability model requests (#2801)](https://github.com/openai/codex-security/commit/5718ce40a40dce152ce85bb9d46abd4a314f0b60) | utsav-oai |
+| 2026-11-22 | [ci: bump taiki-e/install-action to v2.90.5 (#2804)](https://github.com/openai/codex-security/commit/35373239d9319e5f5ada1f135f13a7da5c01c909) | dependabot[bot] |
 | 2026-11-21 | [ci: bump taiki-e/install-action in / (#2786)](https://github.com/openai/codex-security/commit/dcb270ceb2eebb85285609ee5f5107c638d7191a) | dependabot[bot] |
 | 2026-11-20 | [chore(deps): bump the codex group across 3 directories with 2 updates…](https://github.com/openai/codex-security/commit/664fac181c2fbeb16a6b2291fe76d297c5877f0c) | dependabot[bot] |
 | 2026-11-20 | [chore(deps): bump ruff from 0.17.4 to 0.17.5 in /plugins/codex-securi…](https://github.com/openai/codex-security/commit/f4529b175f5affa10c5ac1383bc679f5a40063ee) | dependabot[bot] |
@@ -96,8 +98,6 @@
 | 2026-11-20 | [feat(cli)!: support incremental exploitability investigations (#2745)](https://github.com/openai/codex-security/commit/a69515510f8525e7909f770e61f5c8be450e3e29) | utsav-oai |
 | 2026-11-20 | [fix(workbench): split legacy roots from linked global finding groups …](https://github.com/openai/codex-security/commit/8c485db1432fbe0734cabf0249def5204a473d95) | hyeonsang010716 |
 | 2026-11-20 | [fix(config): keep cached scan skills disabled across path aliases (#2…](https://github.com/openai/codex-security/commit/e426284c595fb4616b9909826e142e1b84a3ae59) | adityajai119 |
-| 2026-11-20 | [fix(cli): assess captured stacks against public advisory conditions (…](https://github.com/openai/codex-security/commit/bcf39188a399d023331065766118c4f8996ea850) | utsav-oai |
-| 2026-11-20 | [feat(cli): render exploitability reports in Markdown and interactive …](https://github.com/openai/codex-security/commit/ff1123120b151dd92cbf423eb845be1abc3303ff) | utsav-oai |
 
 [See all commits ↗](https://github.com/openai/codex-security/commits)
 

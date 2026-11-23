@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 32.0k |
-| 🍴 **Forks** | 2.5k |
-| 🐞 **Open issues + PRs** | [910](https://github.com/meta/astryx/issues) |
+| ⭐ **Stars** | 32.5k |
+| 🍴 **Forks** | 2.6k |
+| 🐞 **Open issues + PRs** | [804](https://github.com/meta/astryx/issues) |
 | 💻 **Languages** | TypeScript 59% · JavaScript 40% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-01-09 |
 | 📦 **Latest release** | [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1358.1 MB |
+| 💾 **Size** | 1348.9 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
 
 ### [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — Astryx v0.7.17
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **Astryx v0.7.17**
 > Upgrade every Astryx package your app uses to `0.7.17`, then run:
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — Astryx v0.7.16
-<sub>2026-11-14 · 8d ago</sub>
+<sub>2026-11-14 · 9d ago</sub>
 
 > Astryx 0.7.16 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.15](https://github.com/meta/astryx/releases/tag/v0.7.15)
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 10d ago</sub>
 
 > Astryx 0.7.15 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.14](https://github.com/meta/astryx/releases/tag/v0.7.14)
-<sub>2026-11-11 · 10d ago</sub>
+<sub>2026-11-11 · 11d ago</sub>
 
 > Astryx 0.7.14 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.13](https://github.com/meta/astryx/releases/tag/v0.7.13)
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 12d ago</sub>
 
 > Astryx 0.7.13 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [fix(TimeInput, DateTimeInput): time and date text read in the formatt…](https://github.com/meta/astryx/commit/cbb4c42a0c6e6a35dd475bda924be10f6d1ac96e) | cixzhang |
-| 2026-11-22 | [chore: land batch 170 (1 pull requests) (#13557)](https://github.com/meta/astryx/commit/d64c99d2549bb1ae95ac277b84a450385f4e4d8c) | josephfarina |
-| 2026-11-22 | [fix(BottomSheet): a scrim press dismisses only when it starts and end…](https://github.com/meta/astryx/commit/7111951a43d5738ff3bbac8a1eb0de544ed5d0fa) | MuhammadAusafJamal |
-| 2026-11-22 | [chore: land batch 169 (2 pull requests) (#13548)](https://github.com/meta/astryx/commit/7c1c76e6eb97a7a5c7ac5bfb2b07906adec3c0f2) | josephfarina |
-| 2026-11-22 | [chore: land batch 166 (6 pull requests) (#13542)](https://github.com/meta/astryx/commit/9d1923577357cb1918b3a01b17bf3f0a9ca36bf0) | josephfarina |
-| 2026-11-22 | [chore: land batch 165 (2 pull requests) (#13541)](https://github.com/meta/astryx/commit/5d7ae4c1a58c80fb9ad3f1fbba8f4dd760d485bf) | josephfarina |
-| 2026-11-22 | [chore: land batch 167 (1 pull requests) (#13545)](https://github.com/meta/astryx/commit/a1260d0610e48c1152b550156023105cbdda0e16) | josephfarina |
-| 2026-11-22 | [chore: land batch 168 (1 pull requests) (#13546)](https://github.com/meta/astryx/commit/9b64eeb9cbcb2b2ad7b0e91f1a3b1f20bc4133da) | josephfarina |
-| 2026-11-22 | [perf(Table): a collapsed expansion chevron has no positioned box at r…](https://github.com/meta/astryx/commit/fca85088858273f1aaae149e39cc2af776ed448f) | cixzhang |
-| 2026-11-22 | [test(a11y): a Firefox project runs the hover specs (#13524)](https://github.com/meta/astryx/commit/891cff5418dbea48725475e5fb41788596e625c9) | cixzhang |
+| 2026-11-23 | [ci(a11y): a pull request's browser-spec legs follow the plan, up to t…](https://github.com/meta/astryx/commit/fc0ea5c022af5e20b46e7c6ab74e8bb4c29fc360) | cixzhang |
+| 2026-11-23 | [fix(DropdownMenu, ContextMenu): a tap on a sheet row's icon, end cont…](https://github.com/meta/astryx/commit/823baf305ea3e2cf318f3570d0104e5d868b5862) | shashank03-dev |
+| 2026-11-23 | [test(a11y): prune the nine Firefox known failures that now pass (#13647)](https://github.com/meta/astryx/commit/62764407354a7ac129105a9839e69615657843ec) | cixzhang |
+| 2026-11-23 | [fix(NavHeadingMenuItem): keep disabled rows focused and inert (#11416)](https://github.com/meta/astryx/commit/b795facd7dc96fc5a64134470545bd99766cd4b8) | korkt-kim |
+| 2026-11-23 | [test(Switch): every screencast proof reports its unscripted frame sta…](https://github.com/meta/astryx/commit/c00904601e3b29265cf3fb17ff830baabefac387) | cixzhang |
+| 2026-11-23 | [test(AlertDialog): stamp test touches on the page clock (#13643)](https://github.com/meta/astryx/commit/91a773ed0dcbfd2c9fd59dd3021d8aa3fa2b0d68) | vjeux |
+| 2026-11-23 | [fix(menu press): swallow a Home Screen app's late click after a pick …](https://github.com/meta/astryx/commit/dd706d072c60aa9f65461ad3ce61f640bdd9d02e) | vjeux |
+| 2026-11-23 | [test(cli): packed-search-catalog's kept-store case starts no backgrou…](https://github.com/meta/astryx/commit/276a2b6d84f5251e0d131c18fce790a80a55bebd) | cixzhang |
+| 2026-11-23 | [fix(Badge, Token): a cut Hebrew or Arabic label in a Badge, a static …](https://github.com/meta/astryx/commit/9be5ccc225dd0e7eb3becd6fafa698521a3c2fc3) | cixzhang |
+| 2026-11-23 | [fix(build): normalize Windows path separators for library pattern mat…](https://github.com/meta/astryx/commit/85efed987ff90b780b7ba51eac6a0259fd8be99f) | jaideepkrishna2008-ui |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

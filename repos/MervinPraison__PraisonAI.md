@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 9.4k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [129](https://github.com/MervinPraison/PraisonAI/issues) |
+| 🐞 **Open issues + PRs** | [122](https://github.com/MervinPraison/PraisonAI/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 12% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `aiagents` `framework` `ai-agent-framework` `ai-agents` `multi-agent` `multi-agent-system` `multi-agents` `ai-agent-sdk` `ai-agents-sdk` `openclaw` `air-gapped` `llm` `on-premise` `private-ai` `python` `regulated-industries` `self-hosted` |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-03-19 |
 | 📦 **Latest release** | [v4.8.0](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 127.8 MB |
+| 💾 **Size** | 128.6 MB |
 | 🌐 **Website** | https://praison.ai |
 
 ## 📦 Recent releases
 
 ### [v4.8.0](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.0) — v4.8.0: Security hardening release
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **Security hardening release**
 > This release makes PraisonAI safer by default. Servers stay on your own machine unless you give them a token. Tools that read files, fetch URLs or run code now stay inside clear limits. A project you clone can no longer change your trust settings.
@@ -47,22 +47,22 @@
 > …
 
 ### [v4.7.26](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.26) — PraisonAI v4.7.26
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > Release v4.7.26
 
 ### [v4.7.25](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.25) — PraisonAI v4.7.25
-<sub>2026-11-14 · 8d ago</sub>
+<sub>2026-11-14 · 9d ago</sub>
 
 > Release v4.7.25
 
 ### [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) — PraisonAI v4.7.24
-<sub>2026-11-05 · 16d ago</sub>
+<sub>2026-11-05 · 17d ago</sub>
 
 > Release v4.7.24
 
 ### [v4.7.23](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.23) — PraisonAI v4.7.23
-<sub>2026-11-03 · 19d ago</sub>
+<sub>2026-11-03 · 20d ago</sub>
 
 > Release v4.7.23
 
@@ -70,16 +70,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [chore(release): bump praisonai-agents [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/b55a75bfe096ccf22e65aa267646738ee497accd) | praisonai-triage-agent[bot] |
-| 2026-11-20 | [docs: auto-update feature parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/2f6169cad351e356409cdafd5a54effda37fbc0a) | MervinPraison |
-| 2026-11-20 | [Report one context-window percentage (#6721)](https://github.com/MervinPraison/PraisonAI/commit/09b78137130e0b3da0065cda59956eb9d2006eea) | MervinPraison |
-| 2026-11-20 | [fix(a2ui): send surfaces without the removed A2A module (#6726)](https://github.com/MervinPraison/PraisonAI/commit/3473f0acf79e18e2235445682c6a180ce11e8e4d) | MervinPraison |
-| 2026-11-19 | [fix: start Telegram webhook within async lifecycle (#6684)](https://github.com/MervinPraison/PraisonAI/commit/8179765c0f95fea253f7e639d7501985a39588a8) | dajiaohuang |
-| 2026-11-19 | [docs(code): describe SandboxExecutor modes as command filters (#6687)](https://github.com/MervinPraison/PraisonAI/commit/501c62a31ff543159000013a0163e3e2ae0f46f1) | MervinPraison |
-| 2026-11-19 | [Fix/code UI launch (#6702)](https://github.com/MervinPraison/PraisonAI/commit/2697d71541825deea167906ad23513eb022474b4) | MervinPraison |
-| 2026-11-19 | [Fix/bot dashboard launch (#6701)](https://github.com/MervinPraison/PraisonAI/commit/4caae1861ff091009900649f2ed019e4046bf457) | MervinPraison |
-| 2026-11-19 | [chore(ts): release 1.8.0 (#6704)](https://github.com/MervinPraison/PraisonAI/commit/7b5e2e7060a622aedfd8c59845599512d0c4ef7d) | MervinPraison |
-| 2026-11-19 | [ci: drop a removed test id from the agents-core shard (#6705)](https://github.com/MervinPraison/PraisonAI/commit/8d80146361aa762b27a47048dd065dd5f78fad86) | MervinPraison |
+| 2026-11-23 | [chore(deps): require aiui>=0.3.177 (#6740)](https://github.com/MervinPraison/PraisonAI/commit/fee9e6204f31f7eda7a1c135e992f8f87e319883) | MervinPraison |
+| 2026-11-23 | [fix(train): llm command starts its own trainer; llm extra no longer p…](https://github.com/MervinPraison/PraisonAI/commit/08fc34f02c4e15b7146763e537d736a61e5a9b3f) | MervinPraison |
+| 2026-11-23 | [docs(readme): give every diagram its own background (#6763)](https://github.com/MervinPraison/PraisonAI/commit/fc20bf3fdc3bfdf306d33f967a712b971ee709c5) | MervinPraison |
+| 2026-11-23 | [docs(readme): show the four feature diagrams instead of folding them …](https://github.com/MervinPraison/PraisonAI/commit/9860aeb71f76f33026c3c56b8b2034b668630c10) | MervinPraison |
+| 2026-11-23 | [docs(readme): diagrams for multi-agent patterns, bot gateway, MCP and…](https://github.com/MervinPraison/PraisonAI/commit/f6718dccb0c157062870f04d71ecac3f9d6c528c) | MervinPraison |
+| 2026-11-23 | [docs(agents): add a before-you-build checklist and the shared helper …](https://github.com/MervinPraison/PraisonAI/commit/5037f350424e50ebb38265ee929d10e6193b399d) | MervinPraison |
+| 2026-11-23 | [fix(embedding): drop params the provider does not support (#6751)](https://github.com/MervinPraison/PraisonAI/commit/d1d56aae9c4c3a3aa0502c2ce0926cf18b2e5ce6) | MervinPraison |
+| 2026-11-23 | [docs: auto-update documentation parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/f224df06ab6acff17ae9cfe3ebf2ef14f152eebd) | MervinPraison |
+| 2026-11-23 | [fix: let a streamed turn run more than one round of tools (#6750)](https://github.com/MervinPraison/PraisonAI/commit/0b050b3812007b15839054624fe73b3b6b2d1516) | praisonai-triage-agent[bot] |
+| 2026-11-23 | [test(a2ui): regression for SDK 0.12 without a2ui.a2a.parts (#6724) (#…](https://github.com/MervinPraison/PraisonAI/commit/9ba05a8e4a434bb51d3b879be14855a49b802b65) | Dhivya-Bharathy |
 
 [See all commits ↗](https://github.com/MervinPraison/PraisonAI/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 97.3k |
-| 🍴 **Forks** | 25.1k |
-| 🐞 **Open issues + PRs** | [10.9k](https://github.com/vllm-project/vllm/issues) |
+| ⭐ **Stars** | 97.4k |
+| 🍴 **Forks** | 25.2k |
+| 🐞 **Open issues + PRs** | [11.0k](https://github.com/vllm-project/vllm/issues) |
 | 💻 **Languages** | Python 86% · Rust 7% · Cuda 4% · C++ 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gpt` `llm` `pytorch` `model-serving` `transformer` `llm-serving` `inference` `llama` `amd` `cuda` `tpu` `deepseek` `qwen` `blackwell` `deepseek-v3` `gpt-oss` `kimi` `moe` `openai` `qwen3` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-02-09 |
 | 📦 **Latest release** | [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 378.6 MB |
+| 💾 **Size** | 380.5 MB |
 | 🌐 **Website** | https://vllm.ai |
 
 ## 📦 Recent releases
 
 ### [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 6d ago</sub>
 
 > **v0.34.0**
 > **1,061 commits from 412 contributors (120 new).** Thank you!
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.33.0rc3](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) — v0.33.0
-<sub>2026-11-02 · 20d ago</sub>
+<sub>2026-11-02 · 21d ago</sub>
 
 > **v0.33.0**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [[Bugfix] Apply the video processor frame caps when loading videos (#6…](https://github.com/vllm-project/vllm/commit/b976fff86af82c559b19aa676f52ea193eb0c188) | paulpak58 |
-| 2026-11-22 | [[Perf][KV Offload] Avoid waking idle FS workers on job completion (#6…](https://github.com/vllm-project/vllm/commit/17323e0b1ca54296cc3016b72d481ecffc17e69b) | waizuichougou |
-| 2026-11-22 | [[Bugfix][KV Offload] Preserve reused ARC prefixes during running-requ…](https://github.com/vllm-project/vllm/commit/e29c741da8d11e2ae7ba381bb78b6f703812cae1) | waizuichougou |
-| 2026-11-22 | [[Rust Frontend] Support allowed_tools tool_choice (#68408)](https://github.com/vllm-project/vllm/commit/443b51e52fad36bbbd7960fd272c8baf23f14dbb) | BugenZhao |
-| 2026-11-22 | [[KV Offload] Add access_mode (read/write/readwrite) (#67961)](https://github.com/vllm-project/vllm/commit/9ae9c15c569176e52783dd2ef8f4fedf8aadc70a) | effi-ofer |
-| 2026-11-22 | [[Bugfix][Multimodal] Pass image kwargs through the OpenCUA processor …](https://github.com/vllm-project/vllm/commit/cb19fedd85f55e4c09ce76ab95b3a70fe4b5872a) | subhashpolisetti |
-| 2026-11-22 | [[Frontend] Classify errors in offline LLM APIs (#68667)](https://github.com/vllm-project/vllm/commit/d4cc8ec42efa7e1b41dfc5462d189004d5c5cb19) | Remarkable911 |
-| 2026-11-22 | [[Bugfix][KV Offload] Store the chunks that fit when a request exceeds…](https://github.com/vllm-project/vllm/commit/e72fc9ae50c221180c4b8f4a94c5009714a4b199) | lnvitesace |
-| 2026-11-22 | [[Bugfix][Multimodal] Accept torch.Tensor videos in vLLM's own HF proc…](https://github.com/vllm-project/vllm/commit/647a76866b4559a74e27d1c6b55fbffe85c07ce4) | yarikama |
-| 2026-11-22 | [[Bugfix][Multimodal] Accept NumPy images and PIL frame videos in Muse…](https://github.com/vllm-project/vllm/commit/cb85c4e9efc27be9644bb90d8eed5fb521a77f44) | yarikama |
+| 2026-11-23 | [[ROCm][Perf] Skip masked-out context tiles for sliding-window models …](https://github.com/vllm-project/vllm/commit/e83d82a46b50a27534584a8bf4c6dd2d2cb9eeb5) | phambinhfin |
+| 2026-11-23 | [[Refactor][SleepMode] Expose CuMemBackend allocator hook (#69412)](https://github.com/vllm-project/vllm/commit/187c473dbe8aa2b3fc4213d5b79a70c588902ba5) | Ronald1995 |
+| 2026-11-23 | [[Bugfix][KVConnector] Split MLA kernel rows larger than the NIXL bloc…](https://github.com/vllm-project/vllm/commit/75d8770263d6907de1f28a7fdaf485e20a039d6d) | NickLucche |
+| 2026-11-23 | [[Bugfix][Model] Normalize the legacy Qwen3-ASR text config alias (#69…](https://github.com/vllm-project/vllm/commit/6aeedab553dd85d6bc3f9f4deb3bb264bce0cb7c) | pk954061458 |
+| 2026-11-23 | [[Bugfix][Quantization] Keep checkpoint-excluded routed experts unquan…](https://github.com/vllm-project/vllm/commit/abad4cc48213a20bdc335379520fc66b26e6181d) | vllmellm |
+| 2026-11-23 | [[Core][Model Loader] Add sleep/wake/reload lifecycle hooks to model l…](https://github.com/vllm-project/vllm/commit/afb35f85e7e25720a9acb656d0b20b20d33ffcd0) | romanbaron |
+| 2026-11-23 | [[CI] Use test runner for sampling and LoRA tests (#68884)](https://github.com/vllm-project/vllm/commit/ee1d07c7b2c30dc0eb686bdb00a8ce94f4e4c071) | hlin99 |
+| 2026-11-23 | [[Model] Migrate ERNIE 4.5 to Transformers backend (#69087)](https://github.com/vllm-project/vllm/commit/d9bfe86b9fe1156642ac45aadef965159dd1d7f1) | Remarkable911 |
+| 2026-11-23 | [[Bugfix] Respect root_path in elastic EP scaling middleware (#69285)](https://github.com/vllm-project/vllm/commit/4a1620a09aba0cd771a186b81e973707c0ecbb07) | rishabhsai |
+| 2026-11-23 | [[CI][Bugfix] Precompute Gemma3n sparsity quantiles before inference (…](https://github.com/vllm-project/vllm/commit/ab94934e6ca2db6e41e9e6d8eeefb740488ed0ee) | hlin99 |
 
 [See all commits ↗](https://github.com/vllm-project/vllm/commits)
 

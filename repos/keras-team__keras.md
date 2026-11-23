@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [255](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [261](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-20 (2d ago) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |

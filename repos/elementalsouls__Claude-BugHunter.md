@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 16.9k |
-| 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [15](https://github.com/elementalsouls/Claude-BugHunter/issues) |
-| 💻 **Languages** | Python 88% · PowerShell 7% · Shell 6% |
+| ⭐ **Stars** | 19.2k |
+| 🍴 **Forks** | 2.1k |
+| 🐞 **Open issues + PRs** | [10](https://github.com/elementalsouls/Claude-BugHunter/issues) |
+| 💻 **Languages** | Python 88% · PowerShell 7% · Shell 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-security` `anthropic` `application-security` `bug-bounty` `bugbounty` `bugcrowd` `claude` `claude-code` `claude-skills` `ethical-hacking` `hackerone` `offensive-security` `pentesting` `red-team` `security-tools` `web-security` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-05-05 |
 | 📦 **Latest release** | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) — 2026-06-05 |
 | 🌿 **Default branch** | `main` |
@@ -61,16 +61,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [fix(scope): harden the scope gate against three fail-open paths (#182…](https://github.com/elementalsouls/Claude-BugHunter/commit/a7e73914e6e7eba98f39721df53d76629b9bed23) | elementalsouls |
+| 2026-11-23 | [fix: five tooling/engine correctness bugs — classify, extract_json, s…](https://github.com/elementalsouls/Claude-BugHunter/commit/6a530fb3149c8c34d3ba0eb31b4eb431e91da648) | elementalsouls |
+| 2026-11-23 | [chore(readme): dedicated wordmark-only sponsor badge + spacing](https://github.com/elementalsouls/Claude-BugHunter/commit/f645b4cf80d1e4d65eef9513246f347befa3997e) | elementalsouls |
+| 2026-11-23 | [chore(assets): replace ThreatWatch360 logo with official brand mark](https://github.com/elementalsouls/Claude-BugHunter/commit/d0feb1a05f3fd0172727cab9fd01f6a1a1217ddd) | elementalsouls |
+| 2026-11-23 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/5601278eac03eacc0a8a85485006512de1a16ff6) | github-actions[bot] |
 | 2026-11-22 | [fix(cbh,osint): four terminal-tooling bugs — triage gate, report BOM/…](https://github.com/elementalsouls/Claude-BugHunter/commit/9ba66b1b3a7d84c501202a527cdc22b2051c5711) | elementalsouls |
 | 2026-11-22 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/42bd4625d5cd4d206fbb468f0cd7a2e9cf1ef54f) | github-actions[bot] |
 | 2026-11-21 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/8258d29726804f5b954a09c625caedc183f7130d) | github-actions[bot] |
 | 2026-11-20 | [fix(cbh): report draft leaks OS login; steps heading + platform alias…](https://github.com/elementalsouls/Claude-BugHunter/commit/c5d5c38123bf01f1223da3225bd3d28a930d028f) | elementalsouls |
 | 2026-11-20 | [fix(windows): make PowerShell scripts ASCII-only (PS 5.1 parse crash)…](https://github.com/elementalsouls/Claude-BugHunter/commit/9ff08590cb75ca59adf3a2e319e9908cd8ff2f53) | elementalsouls |
-| 2026-11-20 | [fix(engine): utf-8 encoding for all file/console I/O (Windows cp1252 …](https://github.com/elementalsouls/Claude-BugHunter/commit/dbb9a590e558b9524e51c07c65d9460530d741e2) | elementalsouls |
-| 2026-11-20 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/de07e0138176888e8ac8ba57cf6153a791b3b85f) | github-actions[bot] |
-| 2026-11-20 | [feat(mcp): add get_report tool for live disclosed-report bodies (#187)](https://github.com/elementalsouls/Claude-BugHunter/commit/5b7e76eb8e2b2a2793686c74ad53b7b57bdee6c2) | elementalsouls |
-| 2026-11-19 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/0e70a021e59d6875004e7a563f8511aca2ba3bc1) | github-actions[bot] |
-| 2026-11-18 | [docs(readme): note that the HackerOne account is optional (#176)](https://github.com/elementalsouls/Claude-BugHunter/commit/9bdb0a81658bc25f09c0b52d31fcde923d126e4f) | sm18lr88 |
 
 [See all commits ↗](https://github.com/elementalsouls/Claude-BugHunter/commits)
 

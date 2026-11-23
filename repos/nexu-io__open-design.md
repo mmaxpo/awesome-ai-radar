@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 108.9k |
+| ⭐ **Stars** | 109.1k |
 | 🍴 **Forks** | 12.3k |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/nexu-io/open-design/issues) |
 | 💻 **Languages** | TypeScript 72% · HTML 21% · CSS 4% · Python 1% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-design` `byok` `design-systems` `claude-design` `hermes-agent` `agent-skills` `desktop-app` `figma-alternative` `prototyping` `ui-generator` `claude-code-for-design` `codex-design` `cursor-design` `deepseek-harness` `dsh-plugin` `dsh` `deepseek` `desktop-apps` `local-first` `vibe-coding` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-04-28 |
 | 📦 **Latest release** | [open-design-v0.27.2](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.2) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3575.1 MB |
+| 💾 **Size** | 3575.4 MB |
 | 🌐 **Website** | https://open-design.ai |
 
 ## 📦 Recent releases
 
 ### [open-design-v0.27.2](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.2) — Open Design 0.27.2 — Clearer Quotas, Sharper Displays
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **🌟 Codename: *Clearer Quotas, Sharper Displays***
 > 0.27.2 is a focused reliability patch for the 0.27 line. No new surface—just clearer signals when a limit resets, a project action fails, a display changes, or a Mac app updates itself.
@@ -47,7 +47,7 @@
 > …
 
 ### [open-design-v0.27.1](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.1) — OpenDesign 0.27.1 — Invite Friends, Earn Reset
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > Get up to 6 RESET on OpenDesign 🎉
 > Invite a friend to OpenDesign. When they sign up through your link and start their first paid subscription within 48 hours, you each receive a Reset Card if eligible. Use it to reset your Design Plan usage limits.
@@ -58,7 +58,7 @@
 > …
 
 ### [open-design-v0.27.0](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.0) — Open Design 0.27.0 — CoRouter for Teams
-<sub>2026-11-04 · 18d ago</sub>
+<sub>2026-11-04 · 19d ago</sub>
 
 > **🌟 Codename: *CoRouter for Teams***
 > **Unlimited seats. Shared credits.** One subscription gives your team shared access to model credits. Invite colleagues to your workspace for free, with no extra seat fees. Create in Open Design or call models through the API using the same shared credits. The workspace owner manages the subscription, upgrades and top-ups.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [chore(release): bump main to 0.27.3 ahead of stable 0.27.2 (#9562)](https://github.com/nexu-io/open-design/commit/5fdcc3db1e31bd4fa70f673041b78e87977507c3) | open-design-release-bot[bot] |
 | 2026-11-21 | [[OPEND-5490] fix(daemon): validate Vela video durations dynamically f…](https://github.com/nexu-io/open-design/commit/e033aad1d15a9d4084316e5223f2c6597fd32619) | Siri-Ray |
 | 2026-11-20 | [[OPEND-4628] fix(web): drop the external-link icon from the sign-in r…](https://github.com/nexu-io/open-design/commit/667f19464a920958c78cf1d6336b50e8ce46d747) | open-design-crew[bot] |
 | 2026-11-18 | [[OPEND-4759] fix(daemon): avoid blocking proxy queries during log dis…](https://github.com/nexu-io/open-design/commit/07258801b9e4ae80553816bb1606af7aa9a63dff) | open-design-crew[bot] |
@@ -103,7 +104,6 @@
 | 2026-11-17 | [[OPEND-5384] fix(web): align home examples with the composer (#9512)](https://github.com/nexu-io/open-design/commit/f2ecaa3f88e1eba001379ea845e7b7754310ea6d) | open-design-crew[bot] |
 | 2026-11-17 | [fix(skills): launch agent-browser Chrome with mock keychain (#9336)](https://github.com/nexu-io/open-design/commit/a91bde2a9d4bee0232ab2b3d3d829fbcab97b33e) | Siri-Ray |
 | 2026-11-16 | [[OPEND-5275] docs(motion): add a copyable template gallery (#9465)](https://github.com/nexu-io/open-design/commit/0701042f3d2957fe485bb8508652e40ec6dae832) | open-design-crew[bot] |
-| 2026-11-16 | [fix(web): count the discovery wheel once in the scroll probe (#8705)](https://github.com/nexu-io/open-design/commit/aa9a369dcf4d13c4bbe16803d41f9c3b52500b27) | HaiYangBG1 |
 
 [See all commits ↗](https://github.com/nexu-io/open-design/commits)
 

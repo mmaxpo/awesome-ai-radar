@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.4k |
+| ⭐ **Stars** | 100.5k |
 | 🍴 **Forks** | 13.8k |
-| 🐞 **Open issues + PRs** | [194](https://github.com/karpathy/autoresearch/issues) |
+| 🐞 **Open issues + PRs** | [193](https://github.com/karpathy/autoresearch/issues) |
 | 💻 **Languages** | Python 83% · Jupyter Notebook 17% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |

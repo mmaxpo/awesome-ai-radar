@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 73% · Jupyter Notebook 25% · Makefile 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `application` `data` `fine-tuning` `framework` `llamaindex` `llm` `rag` `vector-database` `multi-agents` |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-20 (3d ago) |
 | 📅 **Created** | 2022-11-02 |
 | 📦 **Latest release** | [v0.14.26](https://github.com/run-llama/llama_index/releases/tag/v0.14.26) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.14.26](https://github.com/run-llama/llama_index/releases/tag/v0.14.26)
-<sub>2026-11-13 · 8d ago</sub>
+<sub>2026-11-13 · 9d ago</sub>
 
 > **Release Notes**
 > **[2026-11-13]**

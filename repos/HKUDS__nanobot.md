@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 50.3k |
 | 🍴 **Forks** | 8.8k |
-| 🐞 **Open issues + PRs** | [874](https://github.com/HKUDS/nanobot/issues) |
+| 🐞 **Open issues + PRs** | [862](https://github.com/HKUDS/nanobot/issues) |
 | 💻 **Languages** | Python 61% · TypeScript 38% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `ai-agents` `openclaw` `agent-framework` `chatbot` `chatops` `discord-bot` `llm-agents` `llms` `local-llm` `mcp` `model-context-protocol` `multi-agent` `openai-compatible` `personal-ai-assistant` `python` `self-hosted` `telegram-bot-ai-assistant` `webui` `workflow-automation` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-02-01 |
 | 📦 **Latest release** | [v0.4.2](https://github.com/HKUDS/nanobot/releases/tag/v0.4.2) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 88.0 MB |
+| 💾 **Size** | 88.6 MB |
 | 🌐 **Website** | https://nanobot.wiki |
 
 ## 📦 Recent releases
 
 ### [v0.4.2](https://github.com/HKUDS/nanobot/releases/tag/v0.4.2)
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **Changes**
 > - Connect over SSH to gateways that also advertise a public WebSocket URL. **Use existing SSH settings** now supports Windows hosts where Python 3 is available as `python`. The quick-pairing command remains Linux-only; gateway-native TLS and `trustedProxyAuth` are still unsupported over SSH. [#6682](https://github.com/HKUDS/nanobot/pull/6682)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.4.1](https://github.com/HKUDS/nanobot/releases/tag/v0.4.1)
-<sub>2026-11-06 · 15d ago</sub>
+<sub>2026-11-06 · 17d ago</sub>
 
 > **Changes**
 > - Fix TLS certificate verification, sandboxed shell execution and workspace permissions for queued inputs.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.4.0](https://github.com/HKUDS/nanobot/releases/tag/v0.4.0)
-<sub>2026-10-28 · 25d ago</sub>
+<sub>2026-10-28 · 26d ago</sub>
 
 > 🐈 **nanobot `v0.4.0`** makes everyday work easier to continue — with durable conversation history, a more capable workbench, and a clearer path to the next update.
 > **Keep moving.** The gateway now stores model history and browser transcripts in SQLite, imports existing conversations, and coordinates updates around saved state. Stable and opt-in Preview releases share one update flow, with explicit confirmation before installation and restart.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [feat(webui): show desktop message actions in the side gutters (#6751)](https://github.com/HKUDS/nanobot/commit/0c45c7441450ca0c3145dca779ae166aa5456b95) | chengyongru |
-| 2026-11-22 | [fix(webui): underline focused sidebar titles instead of boxing the ro…](https://github.com/HKUDS/nanobot/commit/843dc20121ce8abf496874a2e3373c2f266d400d) | chengyongru |
-| 2026-11-22 | [fix(webui): let users turn off failed channels (#6748)](https://github.com/HKUDS/nanobot/commit/b65c3ac7faf4d813d1501e657dfad9c39d0adf94) | chengyongru |
-| 2026-11-21 | [ci: publish accepted releases to PyPI in one click](https://github.com/HKUDS/nanobot/commit/0dc8679edcc6061fbcdf3de13c7e16000e9d1b65) | Re-bin |
-| 2026-11-21 | [chore: prepare v0.4.2](https://github.com/HKUDS/nanobot/commit/5f1df63d4ec9b92fd0bda4ca2e5365a35e81ed67) | Re-bin |
-| 2026-11-21 | [fix(webui): preserve focus when reopening the model picker](https://github.com/HKUDS/nanobot/commit/372dca37b6d3efabdd7e24ac3603877c1e41e99b) | Re-bin |
-| 2026-11-20 | [fix(webui): align settings sidebar footer rows](https://github.com/HKUDS/nanobot/commit/bc690f0394a00703d6f25a48c63ecb0170b2e091) | chengyongru |
-| 2026-11-20 | [refactor(webui): colocate composer palette and automation calendar st…](https://github.com/HKUDS/nanobot/commit/6057ce59e57d3040c45f0c958ea39c1a32aabe20) | chengyongru |
-| 2026-11-20 | [feat(webui): collapse long user messages exceeding half viewport heig…](https://github.com/HKUDS/nanobot/commit/09384cab26a91049caaf29856e6d89d8e116b1e5) | chengyongru |
-| 2026-11-20 | [feat(webui): redesign goal island as floating vibrancy platter (#6737)](https://github.com/HKUDS/nanobot/commit/db0306b404954e48ffb82ceae70cbf6f73094348) | chengyongru |
+| 2026-11-23 | [fix(commands): deliver deferred receipts in order to the original ses…](https://github.com/HKUDS/nanobot/commit/37c2af8ffc86c5adf0a9e42732e26722d8a4260b) | chengyongru |
+| 2026-11-23 | [feat(channels): localize native Telegram, Discord and Feishu command …](https://github.com/HKUDS/nanobot/commit/db93433950fbd6c56d5adbf7800535e7177945e6) | chengyongru |
+| 2026-11-23 | [test: consolidate overlapping coverage across runtime and clients (#6…](https://github.com/HKUDS/nanobot/commit/a078bffdf9a7728d17ecbda62f59c60348dc9d03) | chengyongru |
+| 2026-11-23 | [fix(webui): honor the /model result before displaying or using a pres…](https://github.com/HKUDS/nanobot/commit/9fc36e1b72769575ddac9078c5595b97188a7a13) | chengyongru |
+| 2026-11-23 | [fix(webui): adapt message actions to the chat pane width (#6762)](https://github.com/HKUDS/nanobot/commit/6ab2d8ffb5359b9a0bf89d1e3e830ce1e75a00a8) | chengyongru |
+| 2026-11-23 | [feat(clients): localize slash menus and preserve command reply text (…](https://github.com/HKUDS/nanobot/commit/44fcf6439817c7dc921c22fb9bc222134ee3ab01) | chengyongru |
+| 2026-11-23 | [feat(commands): route localized command results through channel prese…](https://github.com/HKUDS/nanobot/commit/d38aac78989ec601d2fa0f6ede174654f28a3fa6) | chengyongru |
+| 2026-11-23 | [fix(types): describe the regex search contract for JSON schema (#6755)](https://github.com/HKUDS/nanobot/commit/026191c9badb8efcb58c2f3aae6c4aee64ec78bb) | chengyongru |
+| 2026-11-23 | [fix(webui): align activity status icons with reply text (#6754)](https://github.com/HKUDS/nanobot/commit/ee65a5945507d5c4a9368f88a19a3b77cb160e7e) | chengyongru |
+| 2026-11-23 | [feat(webui): fold the diff toggle into the file edit row (#6753)](https://github.com/HKUDS/nanobot/commit/e8ddac5283fe5cea5475d2c0cb0342cbc7ece1a3) | chengyongru |
 
 [See all commits ↗](https://github.com/HKUDS/nanobot/commits)
 

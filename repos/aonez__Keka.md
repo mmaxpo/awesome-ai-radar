@@ -24,7 +24,7 @@
 | 💻 **Languages** | PHP 85% · HTML 12% · Python 2% · Shell 1% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `keka` `archiver` `macos` `osx` `ios` `ipados` `7zip` `compression` `extraction` `rar` `zip` `zstd` |
-| 🕒 **Last activity** | 2026-11-09 (12d ago) |
+| 🕒 **Last activity** | 2026-11-09 (13d ago) |
 | 📅 **Created** | 2016-11-08 |
 | 📦 **Latest release** | [v1.6.8](https://github.com/aonez/Keka/releases/tag/v1.6.8) — 2026-09-24 |
 | 🌿 **Default branch** | `master` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v1.6.8](https://github.com/aonez/Keka/releases/tag/v1.6.8) — Keka v1.6.8
-<sub>2026-09-24 · 1mo ago</sub>
+<sub>2026-09-24 · 2mo ago</sub>
 
 > 👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩
 > 👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 39.2k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [825](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [827](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-21 (2d ago) |
 | 📅 **Created** | 2023-01-09 |
 | 📦 **Latest release** | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0)
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 12d ago</sub>
 
 > **DSPy 3.5: A Lighter, Faster Foundation**
 > DSPy 3.5 brings a lighter LM layer, graduated core modules, and new History and image capabilities for RLM.

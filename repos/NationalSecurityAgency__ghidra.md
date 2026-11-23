@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.9k |
+| ⭐ **Stars** | 101.1k |
 | 🍴 **Forks** | 11.5k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/NationalSecurityAgency/ghidra/issues) |
 | 💻 **Languages** | Java 86% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `software-analysis` `disassembler` `reverse-engineering` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2019-03-01 |
 | 📦 **Latest release** | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — 2026-10-22 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 407.9 MB |
+| 💾 **Size** | 408.0 MB |
 
 ## 📦 Recent releases
 
@@ -78,16 +78,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [GP-0: Fixing javadoc](https://github.com/NationalSecurityAgency/ghidra/commit/f2824cfd9e01f13c71744bf045cd29ba84ab8443) | ryanmkurtz |
+| 2026-11-23 | [Merge branch 'GP-0_ryanmkurtz_PR-10269_atorcam102_fix-osgi-cache-cano…](https://github.com/NationalSecurityAgency/ghidra/commit/c8d842450e18d132a4f154702878be27daa21a43) | ryanmkurtz |
+| 2026-11-23 | [Merge branch 'GP-0_ryanmkurtz_PR-10270_atorcam102_fix-launchsupport-n…](https://github.com/NationalSecurityAgency/ghidra/commit/fbaba77a1d943c15693a30bdd609501d1c6a9c69) | ryanmkurtz |
+| 2026-11-22 | [Fix NullPointerException in LaunchSupport when stdin is closed](https://github.com/NationalSecurityAgency/ghidra/commit/ca813714aeffa34c86fb562631578313c997dd2e) | atorcam102 |
+| 2026-11-22 | [Use canonical path for the Felix OSGi cache directory](https://github.com/NationalSecurityAgency/ghidra/commit/2dfa7a9b93cf50928d6d7bdad3926bf823148245) | atorcam102 |
 | 2026-11-20 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/3fb3eec6a05442c901e9ead8620ca21eae830b18) | ryanmkurtz |
 | 2026-11-20 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/dd950a597858ba66db6e9f84dbbfbbed829aaf6a) | ryanmkurtz |
 | 2026-11-20 | [GP-0: HTML converted from Markdown should be UTF-8](https://github.com/NationalSecurityAgency/ghidra/commit/a95e071f316f196dcb7674cd591f3f200ec96153) | ryanmkurtz |
 | 2026-11-20 | [Merge branch 'GP-0_ryanmkurtz_PR-10150_lzandman_leon_fix-opbehavior-i…](https://github.com/NationalSecurityAgency/ghidra/commit/d5b786efaa0ceec0665a48d754f99ac0c0f1453b) | ryanmkurtz |
 | 2026-11-20 | [AArch32: fixed A32 mode rd pc offset](https://github.com/NationalSecurityAgency/ghidra/commit/8dec79bd257ad107936f5fa0f91dffb8f76ef0ac) | Sleigh-InSPECtor |
-| 2026-11-20 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/4524a99c9fce441fb9a332354835662180c00b94) | ryanmkurtz |
-| 2026-11-20 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/d73be16a9da205e13d560a92cbf158b60471ed01) | ryanmkurtz |
-| 2026-11-20 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/2a60f52643e442008324e0c190b20f0388a379a1) | ryanmkurtz |
-| 2026-11-19 | [GP-7524 Fixed function finding for ARM/THUMB](https://github.com/NationalSecurityAgency/ghidra/commit/92cbd59b81f57a543b4a9c93c9511485c606152d) | ghidragon |
-| 2026-11-19 | [ARM: fix SRSDA/SRSDB LR/SPSR store order and decrement addresses](https://github.com/NationalSecurityAgency/ghidra/commit/7ca3da9581c047dd833a5c2ac5b1bb9a995dbc76) | delaysystem |
 
 [See all commits ↗](https://github.com/NationalSecurityAgency/ghidra/commits)
 

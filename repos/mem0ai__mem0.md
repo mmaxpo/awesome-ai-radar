@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 69.3k |
-| 🍴 **Forks** | 8.2k |
-| 🐞 **Open issues + PRs** | [978](https://github.com/mem0ai/mem0/issues) |
+| ⭐ **Stars** | 69.4k |
+| 🍴 **Forks** | 8.3k |
+| 🐞 **Open issues + PRs** | [982](https://github.com/mem0ai/mem0/issues) |
 | 💻 **Languages** | Python 58% · TypeScript 40% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `chatgpt` `llm` `python` `rag` `long-term-memory` `memory` `memory-management` `state-management` `ai-agents` `agents` `genai` `agentic-memory` `agentic-memory-system` |
-| 🕒 **Last activity** | 2026-11-18 (4d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-06-20 |
 | 📦 **Latest release** | [ts-v3.3.1](https://github.com/mem0ai/mem0/releases/tag/ts-v3.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 68.0 MB |
+| 💾 **Size** | 68.1 MB |
 | 🌐 **Website** | https://mem0.ai |
 
 ## 📦 Recent releases
@@ -56,14 +56,14 @@
 > …
 
 ### [deepseek-plugin-v0.3.2](https://github.com/mem0ai/mem0/releases/tag/deepseek-plugin-v0.3.2) — Mem0 DeepSeek Plugin (v0.3.2)
-<sub>2026-09-23 · 1mo ago</sub>
+<sub>2026-09-23 · 2mo ago</sub>
 
 > **Improvements:**
 > - **Search:** The `search_memory` tool description no longer asks the agent to search proactively before answering anything that may depend on earlier context. It now asks for a search before repeating investigation or when earlier decisions, fixes, commands, or results may help ([#7420](https://github.com/mem0ai/mem0/pull/7420))
 > - **Automatic recall:** Injected memories are introduced as "Mem0 found these relevant memories from earlier work:". The old heading called them a shallow first pass and told the agent to search again with `mem0_memory`, a tool DeepSeek does not have ([#7420](https://github.com/mem0ai/mem0/pull/7420))
 
 ### [pi-agent-v0.3.2](https://github.com/mem0ai/mem0/releases/tag/pi-agent-v0.3.2) — Mem0 Pi Agent Plugin (v0.3.2)
-<sub>2026-09-23 · 1mo ago</sub>
+<sub>2026-09-23 · 2mo ago</sub>
 
 > **Improvements:**
 > - **Search:** The memory policy, `mem0_memory` tool description, and prompt guidelines no longer ask the agent to search before answering anything that may depend on earlier context or to run several searches per question. They now ask for a search before repeating investigation or when earlier decisions, fixes, commands, or results may help ([#7420](https://github.com/mem0ai/mem0/pull/7420))
@@ -71,7 +71,7 @@
 > - **Automatic recall:** Injected memories are introduced as "Mem0 found these relevant memories from earlier work in this repository:", the same heading as the Python plugins. The old heading called them a shallow first pass and told the agent to search again ([#7420](https://github.com/mem0ai/mem0/pull/7420))
 
 ### [openclaw-v1.2.1](https://github.com/mem0ai/mem0/releases/tag/openclaw-v1.2.1) — Mem0 OpenClaw Plugin (v1.2.1)
-<sub>2026-09-23 · 1mo ago</sub>
+<sub>2026-09-23 · 2mo ago</sub>
 
 > **Improvements:**
 > - **Search:** The `memory_search` tool description no longer asks the agent to search proactively or to run several searches for multi-part questions. It now asks for a search before repeating investigation or when earlier decisions, fixes, commands, or results may help. Recall strategies (`smart`, `always`, `manual`) are unchanged ([#7420](https://github.com/mem0ai/mem0/pull/7420))
@@ -80,6 +80,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [fix(security): resolve 22 Vanta HIGH/CRITICAL Dependabot alerts (mong…](https://github.com/mem0ai/mem0/commit/f93aba4b53241ccd9db32903cd19d1ff7f0066f0) | harshgupta-mem0 |
 | 2026-11-18 | [fix(llms): treat bare gpt-5-* and gpt-6* as reasoning models (#7939)](https://github.com/mem0ai/mem0/commit/fff8a6472512d1bc1a4bccab8c645b65a1df7fe5) | vinayb21-work |
 | 2026-11-06 | [fix(security): upgrade @azure/msal-node to 7.x via @azure/identity 4.…](https://github.com/mem0ai/mem0/commit/f1791daa86d469249c9b002f62644d58a1eb96a0) | harshgupta-mem0 |
 | 2026-11-06 | [fix(security): resolve 9 Vanta HIGH Dependabot vulnerabilities (#7849)](https://github.com/mem0ai/mem0/commit/d16b8df6f97bad5b2a1ae88fcbacd31db834652e) | harshgupta-mem0 |
@@ -89,7 +90,6 @@
 | 2026-10-26 | [docs(platform): add the pricing FAQ page (#7711)](https://github.com/mem0ai/mem0/commit/26cdefb46600c0fa5953c4b5ee5003c125539fc4) | harsh-mem0 |
 | 2026-10-21 | [docs(platform): rewrite the BYOK page as a feature guide (#7661)](https://github.com/mem0ai/mem0/commit/2c81af3bbe27d9bccb09c772d583df9e9be72ee5) | harsh-mem0 |
 | 2026-10-14 | [Add OSS Halloween Happy Hour banner to README (#7637)](https://github.com/mem0ai/mem0/commit/0724291bd864cf807e88ee8981c8226644e8fb42) | karthik-indla |
-| 2026-10-12 | [fix(client): reject empty entity IDs and filters in add and delete_al…](https://github.com/mem0ai/mem0/commit/d26ba5e4518cef7fff3c66d4f715b21adf9feabe) | blazingretinol |
 
 [See all commits ↗](https://github.com/mem0ai/mem0/commits)
 

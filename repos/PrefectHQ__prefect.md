@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [870](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [888](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.9.5.dev3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev3) — 3.9.5.dev3: Nightly Development Release _(pre-release)_
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -47,7 +47,7 @@
 > …
 
 ### [3.9.5.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev2) — 3.9.5.dev2: Nightly Development Release _(pre-release)_
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -58,7 +58,7 @@
 > …
 
 ### [3.9.5.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev1) — 3.9.5.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **What's Changed**
 > **Uncategorized**
@@ -68,7 +68,7 @@
 > **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.4...3.9.5.dev1
 
 ### [3.9.4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4) — 3.9.4 - It’s not you, it’s `CTRL_BREAK`
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **Enhancements ➕➕**
 > * Accept only same-origin paths in the UI v2 login redirect by [@znicholasbrown](https://github.com/znicholasbrown) in [#23980](https://github.com/PrefectHQ/prefect/pull/23980)
@@ -79,7 +79,7 @@
 > …
 
 ### [3.9.4.dev6](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev6) — 3.9.4.dev6: Nightly Development Release _(pre-release)_
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Update prefect-kubernetes integration pin (#24070)](https://github.com/PrefectHQ/prefect/commit/f89e93e21714fea40ca44057af99d4014808293e) | prefect-ci-bot-public[bot] |
+| 2026-11-23 | [Sweep stale integration pins in uv.lock (#24058)](https://github.com/PrefectHQ/prefect/commit/5dbcb7b418eac4edc4df2f067a074f49b1386303) | prefect-ci-bot-public[bot] |
+| 2026-11-23 | [Stop Escape from opening the flow run graph in fullscreen (#24046)](https://github.com/PrefectHQ/prefect/commit/ba4c3897e6e9f0f200402b6557c659732050c374) | burrows99 |
+| 2026-11-23 | [docs: Add release notes for `prefect-kubernetes==0.8.2` (#24068)](https://github.com/PrefectHQ/prefect/commit/d4abc8d71586831207093a73eddc73671d1513c0) | devin-ai-integration[bot] |
+| 2026-11-23 | [Only initialize Amplitude in UI v2 when server analytics are enabled …](https://github.com/PrefectHQ/prefect/commit/4cabb0d2924b4710ca6e7b679c94ae133882c1e3) | devin-ai-integration[bot] |
 | 2026-11-22 | [Aggregate nested collections of states when determining the final sta…](https://github.com/PrefectHQ/prefect/commit/b055980caf24955eebcb51fe6c9088522f48208a) | Nacl-HCl |
 | 2026-11-21 | [docs: document safe redirect search params in routes AGENTS.md (#23983)](https://github.com/PrefectHQ/prefect/commit/dfc66c657dc1181ef701e4606a0fff5718c457d5) | devin-ai-integration[bot] |
 | 2026-11-21 | [Reject `--param` and `--job-variable` values without `=` in `prefect …](https://github.com/PrefectHQ/prefect/commit/d29e3536b2aef90cac26d32d1e78e65cc289dff1) | harshit3355 |
 | 2026-11-21 | [docs: document legacy prefect-agent pool handling in CLI AGENTS.md (#…](https://github.com/PrefectHQ/prefect/commit/7e6e8d84d1972f442171050a4aa9b77385db8d7a) | devin-ai-integration[bot] |
 | 2026-11-20 | [Support non-root users in the official Docker image (#24027)](https://github.com/PrefectHQ/prefect/commit/5513abc4df1f20a02bb810849477b64c989c3160) | devin-ai-integration[bot] |
-| 2026-11-20 | [Fix flaky subscriber setup cancellation tests (#23881)](https://github.com/PrefectHQ/prefect/commit/1693b8386b6de14a58f9fac524d65a38541261cf) | devin-ai-integration[bot] |
-| 2026-11-20 | [Add `registry_credentials` to the Kubernetes worker (#23852)](https://github.com/PrefectHQ/prefect/commit/d44d9f745c1942c33c51f5dd4af3820956573b8b) | polwayne |
-| 2026-11-20 | [Run db vacuum tasks one at a time on the maintenance pool (#23742)](https://github.com/PrefectHQ/prefect/commit/b76e190895121aa8a204d3c493f342e1253a97bc) | ShikhJohari |
-| 2026-11-20 | [docs: clarify tmpchdir process-wide scope (#23998)](https://github.com/PrefectHQ/prefect/commit/7e19e94405e269d4c1e044b7ac4e7c6f7c1cab1b) | devin-ai-integration[bot] |
-| 2026-11-20 | [Stop pointing users at removed `prefect agent start` for `prefect-age…](https://github.com/PrefectHQ/prefect/commit/a328ffc14df285f84ac6887cff74128588d7734a) | devin-ai-integration[bot] |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

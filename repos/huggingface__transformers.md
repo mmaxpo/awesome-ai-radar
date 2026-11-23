@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `nlp` `natural-language-processing` `pytorch` `pytorch-transformers` `transformer` `model-hub` `pretrained-models` `speech-recognition` `hacktoberfest` `python` `machine-learning` `deep-learning` `audio` `deepseek` `gemma` `glm` `llm` `qwen` `vlm` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2018-10-29 |
 | 📦 **Latest release** | [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 563.9 MB |
+| 💾 **Size** | 564.3 MB |
 | 🌐 **Website** | https://huggingface.co/transformers |
 
 ## 📦 Recent releases
 
 ### [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — Release v5.24.0
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **Release v5.24.0**
 > **New Model additions**
@@ -47,7 +47,7 @@
 > …
 
 ### [v5.23.0](https://github.com/huggingface/transformers/releases/tag/v5.23.0) — Release v5.23.0
-<sub>2026-11-13 · 8d ago</sub>
+<sub>2026-11-13 · 10d ago</sub>
 
 > **Release v5.23.0**
 > **New Model additions**
@@ -58,7 +58,7 @@
 > …
 
 ### [v5.22.2](https://github.com/huggingface/transformers/releases/tag/v5.22.2) — Patch release v5.22.2
-<sub>2026-11-06 · 15d ago</sub>
+<sub>2026-11-06 · 17d ago</sub>
 
 > **Patch release v5.22.2**
 > Some in between patch for security and distributed fixes. See the included commits :hugs:
@@ -67,14 +67,14 @@
 > **Full Changelog**: https://github.com/huggingface/transformers/compare/v5.22.1...v5.22.2
 
 ### [v5.22.1](https://github.com/huggingface/transformers/releases/tag/v5.22.1) — Patch release v5.22.1
-<sub>2026-10-30 · 23d ago</sub>
+<sub>2026-10-30 · 24d ago</sub>
 
 > **Patch release v5.22.1**
 > We just had to fix the documentation!
 > ** [Fix] Remove WIP doc for Ml4 (https://github.com/huggingface/transformers/pull/50124) from @remi-or
 
 ### [v5.22.0](https://github.com/huggingface/transformers/releases/tag/v5.22.0) — v5.22.0: Mistral Large 4 (Le Chonk)
-<sub>2026-10-29 · 23d ago</sub>
+<sub>2026-10-29 · 25d ago</sub>
 
 > **New Models**
 > **Mistral Large 4 (Le Chonk)**
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Restore CUDA expectation for DeepseekV2 test_batch_fa2 (#51068)](https://github.com/huggingface/transformers/commit/2f1bc5e321b9a736200a590d6e7743ccdeb60772) | ydshieh |
-| 2026-11-21 | [Add Inkling2 Mini (#51050)](https://github.com/huggingface/transformers/commit/046bdb8cc2cee29d233964bb77fe6fd37cfe4aa3) | guarin |
-| 2026-11-20 | [Fix Intel CPU Dockerfile: pin kernels via transformers[kernels] and d…](https://github.com/huggingface/transformers/commit/4d9ef623e3b0a1fb6c12891a907e0e50d41f0af8) | jiqing-feng |
-| 2026-11-20 | [Skip flaky Kosmos2 `test_generate_from_multimodal_encoder_outputs` (#…](https://github.com/huggingface/transformers/commit/8d7668dd7d5f945e34aa0f5d9f163bc5f955e163) | ydshieh |
-| 2026-11-20 | [Save dequantized models without the quantizer's weight conversions (#…](https://github.com/huggingface/transformers/commit/106b40c7c2e6705680897271d06d774675c8cdb8) | qgallouedec |
-| 2026-11-20 | [[CB] Scale the per-token memory estimate by the TP size (#48566)](https://github.com/huggingface/transformers/commit/d0da3b84c6b5851e7506fcde99d33e7fa793e1f7) | qgallouedec |
-| 2026-11-20 | [Fix OmniASR CTC blank token ID (#51040)](https://github.com/huggingface/transformers/commit/1cfb1e8e4cb6945a84078c60a92a26bc35f80bd1) | taking-lying-flat |
-| 2026-11-20 | [Fix flaky DeepseekV32 / Whisper / HiggsAudioV2 CUDA graph capture fai…](https://github.com/huggingface/transformers/commit/dd623c8cf785bec63a9b1a396b846b5d121f2ace) | ydshieh |
-| 2026-11-20 | [[docs] Fix the custom ResNet example in the customizing models guide …](https://github.com/huggingface/transformers/commit/c0ae6dd7e68a8e8d7ad3a7fd8c8ac7fc9171d91e) | AlexxRussell |
-| 2026-11-20 | [Keep the cache under activation checkpointing when gradients are off …](https://github.com/huggingface/transformers/commit/f2c9ee2401bce932d38d48eafde581a65af7fcc9) | qgallouedec |
+| 2026-11-23 | [[OmniASR] Support a `padding_mask` kept on the CPU in the audio encod…](https://github.com/huggingface/transformers/commit/0d3998c0ae41a9cf9b853d93f2b22806c215f19e) | El-euchidali |
+| 2026-11-23 | [[vLLM CI] Test vLLM features built on transformers tokenizers / proce…](https://github.com/huggingface/transformers/commit/bae9427f872e2a96e6ef612a99ff135a133f42e1) | ydshieh |
+| 2026-11-23 | [Fix test_flash_attn_2_can_dispatch_composite_models for models that d…](https://github.com/huggingface/transformers/commit/5b6c887c3e75dce213631488353a73b5d67d373e) | Abdennacer-Badaoui |
+| 2026-11-23 | [[Chat Parsing] Preserve explicit string arguments in typed json and p…](https://github.com/huggingface/transformers/commit/fcc89620113994456848b7f2a7a47230b187f569) | xgbtxy |
+| 2026-11-23 | [[docs] Replace deprecated torch_dtype with dtype in doc examples (#51…](https://github.com/huggingface/transformers/commit/91c512bc655351d5a38fd355a923ae167518f6fb) | abhitorch81 |
+| 2026-11-23 | [Fix batch-dependent text output in image-text-to-text and any-to-any …](https://github.com/huggingface/transformers/commit/a8041496678faf305f8d384f34fc3997c7edd04f) | Enricoftw |
+| 2026-11-23 | [Add overridable Trainer.get_resumed_dataloader (#50248)](https://github.com/huggingface/transformers/commit/f6c0d55d3a61c2a1880a03a4042b9be5c8e7befa) | bruno-hays |
+| 2026-11-23 | [:red-circle: fix(nemotron_h): honor configured Mamba time-step limits…](https://github.com/huggingface/transformers/commit/2f6f6912aff24e5d31b20a129a19b6c1819bca60) | yuhezhang-ai |
+| 2026-11-23 | [Restore `modeling_attn_mask_utils` for remote code (one-off to unbloc…](https://github.com/huggingface/transformers/commit/4b401cf208f3a39a5d9cc2a93723ce8dc7049d6c) | hmellor |
+| 2026-11-23 | [Refactor output tracing for `depth_anything` (#49947)](https://github.com/huggingface/transformers/commit/8516c7394b6b19e8e3abbf6dabb965eeb5439c02) | omkar-334 |
 
 [See all commits ↗](https://github.com/huggingface/transformers/commits)
 

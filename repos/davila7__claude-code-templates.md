@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 34.1k |
 | 🍴 **Forks** | 4.1k |
-| 🐞 **Open issues + PRs** | [556](https://github.com/davila7/claude-code-templates/issues) |
+| 🐞 **Open issues + PRs** | [570](https://github.com/davila7/claude-code-templates/issues) |
 | 💻 **Languages** | Python 39% · TypeScript 21% · HTML 11% · JavaScript 11% · TeX 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `claude` `claude-code` `agent-skills` `ai-agents` `claude-code-plugins` `cli` `mcp` `registry` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 309.6 MB |
+| 💾 **Size** | 309.3 MB |
 | 🌐 **Website** | https://www.aitmpl.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [chore: Update star history chart](https://github.com/davila7/claude-code-templates/commit/c1bc5c1df4ff0bffb9a04d8f7790543681232423) | github-actions[bot] |
+| 2026-11-23 | [fix(dashboard): align every icon in the collapsed sidebar (#1672)](https://github.com/davila7/claude-code-templates/commit/5e3c55d706f3b8c0e4eedee49a25cb8d2ef0e819) | davila7 |
+| 2026-11-23 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/8929f198edc03efe3e135f1610b59dd4d29d8b0b) | github-actions[bot] |
+| 2026-11-22 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/89b2877c8e707be57e7caa502e6ead3783a23fcb) | github-actions[bot] |
+| 2026-11-22 | [Create source.jsonAdd pdfToMarkdown external plugin (#1667)](https://github.com/davila7/claude-code-templates/commit/016ee9f43112f65aa64fe0837707d9b4852b0d8c) | ThiloReintjes |
+| 2026-11-22 | [Syntax highlighting in the Files tab Code view (#1668)](https://github.com/davila7/claude-code-templates/commit/26e6b5a075f8cf04c0795495f6cf1d3f6a5f4c44) | davila7 |
 | 2026-11-22 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/44fd6fda16f51e5accdde254d5f530fb45de7390) | github-actions[bot] |
 | 2026-11-22 | [Drop the cumulative installers chart from /trending (#1658)](https://github.com/davila7/claude-code-templates/commit/ff245092fb27e84772da944e6976ab5641d3f31e) | davila7 |
 | 2026-11-22 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/ea3c74fec310f73af16b51554a9d5fbba669271c) | github-actions[bot] |
 | 2026-11-22 | [Add dependency-cooldown setting: skip packages published in the last …](https://github.com/davila7/claude-code-templates/commit/81dd4392f696da0b85e636f933e069b7ee468515) | davila7 |
-| 2026-11-22 | [Redesign the component Files tab: one card, outline menu, line number…](https://github.com/davila7/claude-code-templates/commit/3c907d7700f6e883965ab31744908a1bf5382d70) | davila7 |
-| 2026-11-21 | [docs(readme): use Proxy-Seller's partner tracking link (#1655)](https://github.com/davila7/claude-code-templates/commit/5a8853e7f0cbf5173451e329ae073250e6c442ca) | davila7 |
-| 2026-11-21 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/2fbe86762ebc872fadc5495f3ae4171e27a5e4d8) | github-actions[bot] |
-| 2026-11-21 | [Rewrite vulnerability-scanner skill: AI and agent risks, 2025/2026 OW…](https://github.com/davila7/claude-code-templates/commit/e3c1c93c12d14d52afa61b22577bfec613646f09) | davila7 |
-| 2026-11-21 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/f37bd13c4644677a8390160b8a8f4ae9c136ca14) | github-actions[bot] |
-| 2026-11-21 | [Leaderboard: "Harness Components Leaderboard" heading, searchable pag…](https://github.com/davila7/claude-code-templates/commit/fb7a8a09287a01584b6cd072e879ffcedd15f59e) | davila7 |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

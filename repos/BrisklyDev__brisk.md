@@ -24,7 +24,7 @@
 | 💻 **Languages** | Dart 78% · Rust 9% · C++ 8% · CMake 3% · Swift 2% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `download-manager` `downloader` `downloadmanager` `linux` `windows` `macos` |
-| 🕒 **Last activity** | 2026-11-12 (9d ago) |
+| 🕒 **Last activity** | 2026-11-12 (11d ago) |
 | 📅 **Created** | 2023-02-13 |
 | 📦 **Latest release** | [2.5.0.flatpak-hotfix](https://github.com/BrisklyDev/brisk/releases/tag/2.5.0.flatpak-hotfix) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
@@ -33,17 +33,17 @@
 ## 📦 Recent releases
 
 ### [2.5.0.flatpak-hotfix](https://github.com/BrisklyDev/brisk/releases/tag/2.5.0.flatpak-hotfix)
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 11d ago</sub>
 
 > _No notes._
 
 ### [v2.5.0.flatpak](https://github.com/BrisklyDev/brisk/releases/tag/v2.5.0.flatpak)
-<sub>2026-11-11 · 10d ago</sub>
+<sub>2026-11-11 · 11d ago</sub>
 
 > _No notes._
 
 ### [v2.5.0](https://github.com/BrisklyDev/brisk/releases/tag/v2.5.0)
-<sub>2026-11-11 · 10d ago</sub>
+<sub>2026-11-11 · 11d ago</sub>
 
 > **Changelog**
 > **:sparkles: New Features**
@@ -54,7 +54,7 @@
 > …
 
 ### [v2.4.0](https://github.com/BrisklyDev/brisk/releases/tag/v2.4.0)
-<sub>2026-11-09 · 12d ago</sub>
+<sub>2026-11-09 · 14d ago</sub>
 
 > **Changelog**
 > **:sparkles: New Features**

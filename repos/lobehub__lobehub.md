@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 86.0k |
-| 🍴 **Forks** | 16.3k |
+| 🍴 **Forks** | 16.4k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/lobehub/lobehub/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-05-21 |
 | 📦 **Latest release** | [v2.3.5](https://github.com/lobehub/lobehub/releases/tag/v2.3.5) — 2026-11-22 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 643.3 MB |
+| 💾 **Size** | 644.2 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
 ### [v2.3.6-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.6-canary.1) — Desktop Canary v2.3.6-canary.1 _(pre-release)_
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **🐤 Canary Build — v2.3.6-canary.1**
 > > Automated canary build from `canary` branch.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.3.5](https://github.com/lobehub/lobehub/releases/tag/v2.3.5) — 🚀 Release v2.3.5
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **Release v2.3.5**
 > From PR #23632: https://github.com/lobehub/lobehub/pull/23632
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.3.5-canary.3](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.3) — Desktop Canary v2.3.5-canary.3 _(pre-release)_
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **🐤 Canary Build — v2.3.5-canary.3**
 > > Automated canary build from `canary` branch.
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.3.5-canary.2](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.2) — Desktop Canary v2.3.5-canary.2 _(pre-release)_
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **🐤 Canary Build — v2.3.5-canary.2**
 > > Automated canary build from `canary` branch.
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.3.5-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.1) — Desktop Canary v2.3.5-canary.1 _(pre-release)_
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **🐤 Canary Build — v2.3.5-canary.1**
 > > Automated canary build from `canary` branch.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [🐛 fix(channel): show share visitors the Works their reply created (#2…](https://github.com/lobehub/lobehub/commit/b2ee8d5761cc59544b1886e5e15db6ae386ddf21) | tjx666 |
-| 2026-11-22 | [🐛 fix(activator): report a skill that could not be opened as failed, …](https://github.com/lobehub/lobehub/commit/f2c2e4c8804dd71dec311672f269d735c180dbd4) | AmAzing129 |
-| 2026-11-22 | [✨ feat(channel): show a failed reply as an error card in the Agent's …](https://github.com/lobehub/lobehub/commit/ed5f42c00b49ad820ddd863ba595f85a4a30e9d7) | arvinxx |
-| 2026-11-22 | [⚡️ perf(channel): read a Channel or Thread view without the Channel w…](https://github.com/lobehub/lobehub/commit/1c4eae14d934fd385bdb31c7bd3d0aa9202184ea) | arvinxx |
-| 2026-11-22 | [💄 style(auth): show change-email errors inline with next steps (#23638)](https://github.com/lobehub/lobehub/commit/263d9059c73eed645fae51cf93c30fc3bb4ccb8b) | tjx666 |
-| 2026-11-22 | [✨ feat(agent): choose visibility when creating in a workspace, explai…](https://github.com/lobehub/lobehub/commit/fb17b58f63ba0b737affb750306bef54bdc4999e) | rdmclin2 |
-| 2026-11-22 | [✨ feat(agent): show Agent visibility as a property in the sidebar men…](https://github.com/lobehub/lobehub/commit/a4952a0429a0fc8c6d9a8de983d1d399feb85085) | rdmclin2 |
-| 2026-11-22 | [⚡️ perf(web-browsing): move crawl error recovery to tool results and …](https://github.com/lobehub/lobehub/commit/573b57d8d8322f5ef0e54e9734917e6ffed8f010) | AmAzing129 |
-| 2026-11-22 | [🐛 fix: align community workspace dependencies and markdown prebundlin…](https://github.com/lobehub/lobehub/commit/a01f830cd7322fd5ffcf431eccd14dde0f8e9c81) | MarioJames |
-| 2026-11-22 | [🐛 fix(cli): use desktop Antigravity auth in Connect services (#23635)](https://github.com/lobehub/lobehub/commit/e725ac06195055e8643c9f0e2a4defefac219c06) | MarioJames |
+| 2026-11-23 | [✨ feat(resource): paint a ThumbHash placeholder while library images …](https://github.com/lobehub/lobehub/commit/2d1bf9b34312f5bcc06a275ac1e9d3dcabd743cb) | arvinxx |
+| 2026-11-23 | [✨ feat(agent): list Lobe AI with the other agents and in search (#23728)](https://github.com/lobehub/lobehub/commit/f0c560a526f0b7bec6dcd242c7df3073b5f1ec29) | rdmclin2 |
+| 2026-11-23 | [✨ feat(share): open visitor conversations on their own page (#23741)](https://github.com/lobehub/lobehub/commit/18ff6aead33b35bfb8b6a4566ffa66578f81041e) | tjx666 |
+| 2026-11-23 | [🔥 refactor: remove the Better Coding Experience lab and make its feat…](https://github.com/lobehub/lobehub/commit/4fb98730703100bfd3faac851a6d0eac09666812) | ImSingee |
+| 2026-11-23 | [✨ feat(channel): return the recorded ThumbHash with Channel attachmen…](https://github.com/lobehub/lobehub/commit/c27f5422626342f07a7b8e2fc16f050751651bb4) | arvinxx |
+| 2026-11-23 | [⚡️ perf(skill-store): virtualize Skill Store lists with masonic (#23744)](https://github.com/lobehub/lobehub/commit/4236ba937bc309eb315c955115327b685fd076e3) | arvinxx |
+| 2026-11-23 | [💄 style(subscription): add workspace member budget chip copy (#23729)](https://github.com/lobehub/lobehub/commit/c6a9e5fa185716e1d22f4a7121209b1c09000f89) | rdmclin2 |
+| 2026-11-23 | [🐛 fix(editor): open the @ member menu when members load after mount (…](https://github.com/lobehub/lobehub/commit/e04d50f5bad03c13e5e5bab113c9cb9b580c1015) | rdmclin2 |
+| 2026-11-23 | [🐛 fix(task): render cron weekday ranges correctly (#23683)](https://github.com/lobehub/lobehub/commit/9df9d682c042f3b0854cca100ee2750bcdeed520) | Max-Reisinger |
+| 2026-11-23 | [🐛 fix(working-sidebar): stop the Files view toggle from stalling on l…](https://github.com/lobehub/lobehub/commit/8b604ba13f31eb91fe91094948bf9a1bb3dbf57a) | AmAzing129 |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

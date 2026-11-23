@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 42.6k |
-| 🍴 **Forks** | 3.5k |
+| ⭐ **Stars** | 42.7k |
+| 🍴 **Forks** | 3.6k |
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/volcengine/OpenViking/issues) |
-| 💻 **Languages** | Python 61% · TypeScript 18% · Rust 10% · JavaScript 5% · MDX 3% |
+| 💻 **Languages** | Python 61% · TypeScript 18% · Rust 11% · JavaScript 5% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 430.9 MB |
+| 💾 **Size** | 433.4 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
 ### [openviking-superagent@0.5.5-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.5-preview) — OpenViking SuperAgent 0.5.5-preview _(pre-release)_
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -47,7 +47,7 @@
 > …
 
 ### [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — @openviking/react 0.2.0
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **en-US**
 > **Minor Changes**
@@ -58,7 +58,7 @@
 > …
 
 ### [react@0.1.14](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.14) — @openviking/react 0.1.14
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **en-US**
 > **Minor Changes**
@@ -69,7 +69,7 @@
 > …
 
 ### [openviking-superagent@0.5.4-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.4-preview) — OpenViking SuperAgent 0.5.4-preview _(pre-release)_
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -80,7 +80,7 @@
 > …
 
 ### [react@0.1.13](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.13) — @openviking/react 0.1.13
-<sub>2026-11-16 · 5d ago</sub>
+<sub>2026-11-16 · 6d ago</sub>
 
 > **en-US**
 > **Patch Changes**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [perf(ui): load deep-link previews alongside the tree (#8185)](https://github.com/volcengine/OpenViking/commit/e6dc9714647057a15964a23f1fd8bb3dafb144cf) | yufeng201 |
-| 2026-11-22 | [fix(react): 优化 JSON 预览与 VikingBot 记忆文案 (#8176)](https://github.com/volcengine/OpenViking/commit/6a0fd463ffac0a71183333bd5c5a765fefde9b14) | yufeng201 |
-| 2026-11-22 | [fix(react): keep restored file previews stable (#8173)](https://github.com/volcengine/OpenViking/commit/e1233b3bbd8db00f5b488b199106949ec1d85f1e) | yufeng201 |
-| 2026-11-21 | [fix(compile): persist cancellation of queued runs (#8166)](https://github.com/volcengine/OpenViking/commit/1efb03a3e8dc57d315346301885a7ba130db488f) | FuJiaJie123 |
-| 2026-11-21 | [fix(react): refresh preview permissions with file tree (#8156)](https://github.com/volcengine/OpenViking/commit/000f0765d7ec183886fbabbc22e69bc289cc429d) | leowld |
-| 2026-11-21 | [fix(react): clarify recurring weekly compilation schedules (#8125)](https://github.com/volcengine/OpenViking/commit/6454707105d6ad98205b0bd23c46944bde9e1e53) | leowld |
-| 2026-11-21 | [fix(react): keep VikingBot tool icons neutral after sending (#8132)](https://github.com/volcengine/OpenViking/commit/217b663b7537303dcf0f36a81a7df4fdf10ce95e) | leowld |
-| 2026-11-21 | [fix(react): restrict ovpack export to directories (#8139)](https://github.com/volcengine/OpenViking/commit/8a3b133b22ff4cde1334e5257af313dcfa58638e) | leowld |
-| 2026-11-21 | [fix(react): distinguish compile and experience dashboard colors (#8152)](https://github.com/volcengine/OpenViking/commit/5949a04cf36b4e105d0723a70fef2f9739a752de) | leowld |
-| 2026-11-21 | [fix(acl): reject principals outside the resource account (#8117)](https://github.com/volcengine/OpenViking/commit/8d4daaae5819821bbcf18e6b0d8ea6c313a86e58) | xixi-box |
+| 2026-11-23 | [fix(react): close command assists outside the input (#8269)](https://github.com/volcengine/OpenViking/commit/300ab8eb0746d917b7b968b7f739a28a5a5c04b5) | yufeng201 |
+| 2026-11-23 | [feat(queuefs): add durable PostgreSQL backend (#8233)](https://github.com/volcengine/OpenViking/commit/484347c192a1270b42ed500148e7511e653d96d0) | zhanglistar |
+| 2026-11-23 | [fix(grep): 将 Python 正则匹配迁移到 Rust (#8289)](https://github.com/volcengine/OpenViking/commit/d1b124c5d179880a907130b6703d2b3d4e295482) | qin-ctx |
+| 2026-11-23 | [fix(react): align file browser history scope and root breadcrumb (#8297)](https://github.com/volcengine/OpenViking/commit/ad0f4200aa7824f17b34e17adcaa1e1206a129d3) | LaamGinghong |
+| 2026-11-23 | [fix(react): align VikingBot activation copy (#8291)](https://github.com/volcengine/OpenViking/commit/951ec937407d88aa12411e2b0f5c1dc410cd8f2d) | LaamGinghong |
+| 2026-11-23 | [fix(bot): preserve remote skill integrity with privacy restoration (#…](https://github.com/volcengine/OpenViking/commit/5b7c655610caef9017ed0540474dc7d49db4f2db) | LIEGU0317 |
+| 2026-11-23 | [fix(react): support prelaunch agent connection instructions (#8288)](https://github.com/volcengine/OpenViking/commit/b8512a7d543271cdcd89e6adb5a56e6947934e8b) | leowld |
+| 2026-11-23 | [fix(react): keep draft references removable during replies (#8284)](https://github.com/volcengine/OpenViking/commit/9acd1857fa0b216df30b3e6567495744870a9988) | LaamGinghong |
+| 2026-11-23 | [fix(memory): 创建用户时预置记忆目录 (#8283)](https://github.com/volcengine/OpenViking/commit/38220ce53c3ca6659cf3f6dcdd6fba721cdd7fdf) | qin-ctx |
+| 2026-11-23 | [fix(react): keep FileBrowser panes usable when resizing (#8282)](https://github.com/volcengine/OpenViking/commit/ae3952e953e60f0609a2dd5a15cb87419ce2d401) | LaamGinghong |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 27.7k |
+| ⭐ **Stars** | 27.8k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [12](https://github.com/onlook-dev/onlook/issues) |
+| 🐞 **Open issues + PRs** | [19](https://github.com/onlook-dev/onlook/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `typescript` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` `astryx` `styled-components` |
-| 🕒 **Last activity** | 2026-11-21 (yesterday) |
+| 🕒 **Last activity** | 2026-11-21 (2d ago) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v2.0.2](https://github.com/onlook-dev/onlook/releases/tag/v2.0.2) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.2](https://github.com/onlook-dev/onlook/releases/tag/v2.0.2) — Onlook 2.0
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > Onlook is a free, open-source editor for designers and visual engineers who shape their product in real code. This release is the Onlook desktop app: the Electron app, the canvas, and the layer that runs Claude Code or ChatGPT on your Mac.
 > - **Download:** [onlook.com/install](https://www.onlook.com/install). The app is free and works with the Claude or ChatGPT subscription you already have. macOS on Apple silicon and Intel.

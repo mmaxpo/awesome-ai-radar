@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 52.8k |
+| ⭐ **Stars** | 53.1k |
 | 🍴 **Forks** | 6.4k |
-| 🐞 **Open issues + PRs** | [195](https://github.com/JustVugg/colibri/issues) |
-| 💻 **Languages** | C 54% · Python 31% · Cuda 5% · HTML 4% · Shell 3% |
+| 🐞 **Open issues + PRs** | [255](https://github.com/JustVugg/colibri/issues) |
+| 💻 **Languages** | C 55% · Python 30% · Cuda 7% · HTML 3% · Shell 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-07-01 |
-| 📦 **Latest release** | [v2.1.0](https://github.com/JustVugg/colibri/releases/tag/v2.1.0) — 2026-10-31 |
+| 📦 **Latest release** | [v2.2.0](https://github.com/JustVugg/colibri/releases/tag/v2.2.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 55.8 MB |
+| 💾 **Size** | 55.3 MB |
 | 🌐 **Website** | https://justvugg.github.io/colibri |
 
 ## 📦 Recent releases
 
+### [v2.2.0](https://github.com/JustVugg/colibri/releases/tag/v2.2.0) — colibri v2.2.0
+<sub>2026-11-22 · today</sub>
+
+> colibri 2.2.0: everything since 2.1.0 (2026-10-31). The full list is in [CHANGELOG.md](https://github.com/JustVugg/colibri/blob/v2.2.0/CHANGELOG.md).
+> **New models**
+> - **Inkling-2-Small** (594B, 17B active, Apache 2.0): text, pictures and tools, from unsloth's GGUFs (UD-IQ1_S 171.7 GB to UD-Q4_K_XL 354 GB, pictures through the mmproj) or our int4 g64 converted from the NVFP4 release; CUDA and Vulkan, an MTP drafter (`INK2_MTP=1`).
+> - **Inkling-2-Mini** (26.4B, 3.4B active, Apache 2.0), whose middle layers run three passes: text and pictures from unsloth's GGUFs (UD-IQ2_XXS 8.5 GB to UD-Q4_K_XL 17.6 GB; their root files and the `Mainline_Support` ones, mainline llama.cpp's `inkling2_loop` layout, alike) or our int4 g64 from the NVFP4 release; Vulkan and CUDA with a decode step in one frame of their dense chains (the routed experts on the card, the attention split over its positions), and the CPU. UD-Q4_K_XL decodes at 40.9-41.1 tok/s with CUDA, 39.2-39.4 with Vulkan and 8.0-8.1 on the CPU, and reads a 570-token prompt at 285-289 tok/s with CUDA and 270-277 with Vulkan.
+> - **Qwen3.8-27B** (dense): text and images on CUDA, Vulkan and the CPU, its MTP head from a GGUF, and speculative decoding on CUDA with DFlash2.
+> - **Kimi K3.1 Pro**: K3's weights with sparse attention past 2048 tokens, on the CPU, Vulkan and a new CUDA chain.
+> …
+
 ### [v2.1.0](https://github.com/JustVugg/colibri/releases/tag/v2.1.0) — colibri v2.1.0
-<sub>2026-10-31 · 22d ago</sub>
+<sub>2026-10-31 · 23d ago</sub>
 
 > **Huge open models on the machine you already have**: on the CPU, on any GPU through Vulkan, on NVIDIA cards through CUDA. Pure C, one file per model family.
 > 387 pull requests since v2.0.0, 208 of them from 35 contributors. GGUF files now run natively on every engine, read exactly as published. Four new models arrive, Mistral-Large-4 (1T) among them. CUDA gets device chains of its own and a routed-expert tier for every engine. Qwen3.8-Flash-Next runs a 256k context at the speed of 64k, an agent's turns read only what is new, and there is a new chat UI.
@@ -79,31 +90,20 @@
 > - **#1632**: brio mode, on all nine engines. Hand the engine the options an
 > …
 
-### [v1.11.0](https://github.com/JustVugg/colibri/releases/tag/v1.11.0) — colibri v1.11.0
-<sub>2026-09-13 · 2mo ago</sub>
-
-> 56 pull requests since v1.10.2. A ninth model family, five real bugs closed
-> across four engines, and the two platforms the C tests never built on now
-> building them in CI.
-> **A ninth engine: DeepSeek V4.1 Flash**
-> - **#1453**: DeepSeek V4.1 Flash (552B, 510 GB on disk) runs on a CPU box
->   streaming experts from an SSD, with no conversion: the released checkpoint
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-10-31 | [Merge pull request #2530 from JustVugg/dev](https://github.com/JustVugg/colibri/commit/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6) | JustVugg |
-| 2026-10-31 | [Merge pull request #2528 from JustVugg/fix/readme-q36-mtp-default](https://github.com/JustVugg/colibri/commit/312e52838091ff54fd3b09da386557b7a02a9932) | JustVugg |
-| 2026-10-31 | [site: the version line and the project's model names](https://github.com/JustVugg/colibri/commit/ac4358632cd16eddf78e13207d6e39a8d8545e5b) | JustVugg |
-| 2026-10-31 | [ui: System One opens with a generic example, in the page's language](https://github.com/JustVugg/colibri/commit/46b665bb1cad478e12c482b62aefaf4e42302bd3) | JustVugg |
-| 2026-10-31 | [site: the new site, with every model of 2.1.0](https://github.com/JustVugg/colibri/commit/55f928eab6ffcf0f3ae6ae6c1bada48a4d8795e7) | JustVugg |
-| 2026-10-31 | [README: Qwen3.6's MTP head drafts with Q36_MTP=1, not by default](https://github.com/JustVugg/colibri/commit/042491d52aedc761c19a430f1d8d9a017b9bdcb9) | JustVugg |
-| 2026-10-31 | [Merge pull request #2526 from JustVugg/dev](https://github.com/JustVugg/colibri/commit/704a3f68184b78367a04cb5526e428dc2f90f05b) | JustVugg |
-| 2026-10-31 | [Merge pull request #2527 from JustVugg/fix/vk-pool-import-windows](https://github.com/JustVugg/colibri/commit/7dd91ae363d2e1d3f030d804cebe12dd207cde4f) | JustVugg |
-| 2026-10-31 | [README: every model, the GGUF table, the GPU sections and our benchma…](https://github.com/JustVugg/colibri/commit/563647ccf78d9569bacce849bbc5d728a1486ba7) | JustVugg |
-| 2026-10-31 | [vulkan: the exit report's resident set without glibc's freed blocks](https://github.com/JustVugg/colibri/commit/2c2947bc5848d5d772a50d559f1ee436bd50e881) | JustVugg |
+| 2026-11-22 | [Merge pull request #2965 from JustVugg/dev](https://github.com/JustVugg/colibri/commit/e479104ae01bdc40ce81e675299b1d230891b321) | JustVugg |
+| 2026-11-22 | [Merge pull request #2969 from JustVugg/batch/2026-11-22-c](https://github.com/JustVugg/colibri/commit/43de59227f19c065f874adf6c3adb2e3d5846edb) | JustVugg |
+| 2026-11-22 | [TUI screenshots taken again on 2.2.0 at a 64K context; the expert map…](https://github.com/JustVugg/colibri/commit/66d2cb9a5a04caa96d53608d8f4f88ef7044d13e) | JustVugg |
+| 2026-11-22 | [qwen38: the expert map reads the CUDA tier and the chain's slots, not…](https://github.com/JustVugg/colibri/commit/2454cbf2bce96915988c5a3f0fa2a2dec88d5de6) | JustVugg |
+| 2026-11-22 | [README: coli chat is the classic line chat, coli tui the full-screen …](https://github.com/JustVugg/colibri/commit/a2ee98f1c0006b1f9d2c6aa49711c989db220225) | JustVugg |
+| 2026-11-22 | [Merge pull request #2968 from JustVugg/batch/2026-11-22-b](https://github.com/JustVugg/colibri/commit/05245ef45048b837fee5ed7b5b1ab2e59161fb80) | JustVugg |
+| 2026-11-22 | [changelog: #2967 in 2.2.0's fixes](https://github.com/JustVugg/colibri/commit/d516759ae8a2e9acd52332aa04b3a73ec9a6cb40) | JustVugg |
+| 2026-11-22 | [Merge pull request #2967 from KairaCode/q38-gguf-ple-read](https://github.com/JustVugg/colibri/commit/6a5b9ec9d049ab0da3d69b335c83496166223b5b) | JustVugg |
+| 2026-11-22 | [gguf: overlapped reads on Windows, so a thread team's reads do not queue](https://github.com/JustVugg/colibri/commit/38a345a11264c404db49546eb80607df0538781d) | KairaCode |
+| 2026-11-22 | [Merge pull request #2966 from JustVugg/batch/2026-11-22-a](https://github.com/JustVugg/colibri/commit/679b34ee49b4ffaabe95fe22cfc6a61920c8781a) | JustVugg |
 
 [See all commits ↗](https://github.com/JustVugg/colibri/commits)
 

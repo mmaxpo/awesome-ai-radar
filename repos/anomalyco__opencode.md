@@ -20,23 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 228.5k |
-| 🍴 **Forks** | 31.0k |
-| 🐞 **Open issues + PRs** | [4.1k](https://github.com/anomalyco/opencode/issues) |
+| ⭐ **Stars** | 228.8k |
+| 🍴 **Forks** | 31.1k |
+| 🐞 **Open issues + PRs** | [4.0k](https://github.com/anomalyco/opencode/issues) |
 | 💻 **Languages** | TypeScript 74% · Rust 14% · MDX 9% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-04-30 |
-| 📦 **Latest release** | [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2) — 2026-11-18 |
+| 📦 **Latest release** | [v2.4.1](https://github.com/anomalyco/opencode/releases/tag/v2.4.1) — 2026-11-23 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 728.8 MB |
+| 💾 **Size** | 738.5 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
 
+### [v2.4.1](https://github.com/anomalyco/opencode/releases/tag/v2.4.1)
+<sub>2026-11-23 · today</sub>
+
+> **Highlights**
+> - **macOS 12 Session Fix**: OpenCode can save assistant messages again on the older SQLite version included with macOS 12. ([#65771](https://github.com/anomalyco/opencode/pull/65771))
+> - **Config-Only Providers Show Their Models**: Providers you set up only in your config, such as Ollama, now show their models in `/models` without a `/connect` login. ([#65793](https://github.com/anomalyco/opencode/pull/65793))
+> - **Unread `/btw` Answers**: When a side question finishes behind another side-panel tab, its tab shows an unread dot until you open it. ([#65821](https://github.com/anomalyco/opencode/pull/65821))
+> **Core**
+> **Improvements**
+> …
+
+### [v2.4.0](https://github.com/anomalyco/opencode/releases/tag/v2.4.0)
+<sub>2026-11-23 · today</sub>
+
+> **Highlights**
+> - **Built-In Desktop Browser**: Import your sign-ins and browsing history from Chrome, Edge, Firefox or Safari, and add extensions from Chromium browsers or the Chrome and Edge stores. Everything stays in one persistent desktop profile: chat links open signed in, your tabs survive restarts and the agent can read and drive the same pages without you switching apps. ([#63002](https://github.com/anomalyco/opencode/pull/63002), [#65073](https://github.com/anomalyco/opencode/pull/65073))
+> - **Automations**: Ask the agent to run a prompt, a script or a shell command on a timer, on a cron schedule or when an MCP server sends an event, and manage them with `/automation`. Set `"automations": false` in your config if you don't want them. ([#65296](https://github.com/anomalyco/opencode/pull/65296), [#65186](https://github.com/anomalyco/opencode/pull/65186))
+> - **Generate Videos**: When a connected provider has a video model, the agent can make videos with `generate_video`. It keeps working while the video renders and saves the files into your workspace when they're ready. ([#63666](https://github.com/anomalyco/opencode/pull/63666), [#65664](https://github.com/anomalyco/opencode/pull/65664))
+> - **New TUI Look**: The TUI's new designs are on by default, and the `opencode` theme is the new one. Pick `opencode-classic` in **Theme** to keep the previous colors. ([#64988](https://github.com/anomalyco/opencode/pull/64988))
+> - **Windows Taskbar Status**: On Windows, the taskbar button shows session progress, counts sessions that need you and flashes when a permission or question is waiting. ([#65317](https://github.com/anomalyco/opencode/pull/65317), [#65318](https://github.com/anomalyco/opencode/pull/65318), [#65319](https://github.com/anomalyco/opencode/pull/65319))
+> …
+
 ### [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **Highlights**
 > - **GPT-6.2 Prompt Caching**: GPT-6.2 models don't cache a system prompt sent in the Responses `instructions` field, so every step re-billed it as uncached input. OpenCode now sends it as a leading developer message on every Responses route, including OpenAI (API key and ChatGPT sign-in), GitHub Copilot, Zen, Azure and OpenRouter, so it is cached from the second step on. ([#64542](https://github.com/anomalyco/opencode/pull/64542), [#64544](https://github.com/anomalyco/opencode/pull/64544))
@@ -46,7 +68,7 @@
 > - `webfetch` structured output no longer repeats the `url` and `format` it was called with. ([#64534](https://github.com/anomalyco/opencode/pull/64534))
 
 ### [v2.3.1](https://github.com/anomalyco/opencode/releases/tag/v2.3.1)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **Highlights**
 > - **Timed-Out Shell Commands Keep Running**: A shell command still running when its timeout expires now moves to the background instead of being killed, so long builds and test runs finish and report back. A foreground `timeout: 0` now means the default 120 seconds. ([#63699](https://github.com/anomalyco/opencode/pull/63699))
@@ -57,7 +79,7 @@
 > …
 
 ### [v1.19.6](https://github.com/anomalyco/opencode/releases/tag/v1.19.6)
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **Desktop**
 > **Improvements**
@@ -67,36 +89,20 @@
 > - Sessions with many images no longer send oversized requests. When the images in a session's history pass 25 MiB, the oldest are replaced with a placeholder.
 > …
 
-### [process-daemon-v0.6.0](https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.6.0) — process-daemon v0.6.0
-<sub>2026-11-16 · 5d ago</sub>
-
-> opencode-pty 0.6.0 (protocol 9) from packages/process-daemon, published to npm as @opencode/pty@0.6.0.
-
-### [v2.3.0](https://github.com/anomalyco/opencode/releases/tag/v2.3.0)
-<sub>2026-11-13 · 9d ago</sub>
-
-> **Highlights**
-> - **Background Subagents by Default**: Subagents now return immediately, continue in the background, and report back whenever they become idle. You can keep working in the parent session while multiple subagents run concurrently. ([#63382](https://github.com/anomalyco/opencode/pull/63382))
-> - **Quieter Transcripts by Default**: The TUI now summarizes each run of tool calls and thoughts into one collapsible activity row, so the answer is easier to follow. To see every step again, set **Verbosity** to `medium` or `high` in settings, or set `session.verbosity` in your TUI config; an existing setting is kept. ([#63207](https://github.com/anomalyco/opencode/pull/63207))
-> - **Jump to an Earlier Prompt**: In the desktop app, open **Jump to message** from the command palette or press `Cmd+Alt+G` (`Ctrl+Alt+G` on Windows and Linux) to search prompts across the current session and jump directly to one. ([#63585](https://github.com/anomalyco/opencode/pull/63585))
-> **Core**
-> **Improvements**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [feat(data): add new models section and yesterday leaderboard (#65541)](https://github.com/anomalyco/opencode/commit/ee5fe34e136488a1839ac73bcca8321c51a31b75) | fwang |
-| 2026-11-22 | [fix(core): ask to reconnect ChatGPT when its refresh token is rejecte…](https://github.com/anomalyco/opencode/commit/5310e42203af41c3452ee44b24fc7d0c52aaa3cc) | hearnadam |
-| 2026-11-22 | [feat(mcp): follow the MCP Events beta for push delivery (#65271)](https://github.com/anomalyco/opencode/commit/1645a8aa5ad2d29783ba8defac2905f6f3046e71) | rekram1-node |
-| 2026-11-22 | [fix(core): put small fields before large output in tool results (#65513)](https://github.com/anomalyco/opencode/commit/5756d59a68a3d16ce412280c3ab055031898cce2) | rekram1-node |
-| 2026-11-22 | [refactor(core): the command seam names its own types (#65508)](https://github.com/anomalyco/opencode/commit/73a0eae88de47f10068a0f9dc7a743638fa3d830) | kitlangton |
-| 2026-11-22 | [test(app): follow the OpenCode rename and Go-through-OpenCode connect…](https://github.com/anomalyco/opencode/commit/d02b62de5dbd23187660b51b78f2899fe5ab2bf7) | opencodejr[bot] |
-| 2026-11-22 | [refactor(core): a seam for commands that outlive the server (#65449)](https://github.com/anomalyco/opencode/commit/942af1fb8bf2f3ab28dd76f864e402f237e4d747) | kitlangton |
-| 2026-11-22 | [feat(app): start voice with the newest GPT-Live model the server list…](https://github.com/anomalyco/opencode/commit/342839461ac5548fb72378c9a99f7e3bd81e8159) | Tarquinen |
-| 2026-11-22 | [feat(core): list voice models from models.dev (#65491)](https://github.com/anomalyco/opencode/commit/387140811c5c3a0ba8488c906da1768a552857be) | Tarquinen |
-| 2026-11-22 | [refactor(core): ask an environment what it can do (#65452)](https://github.com/anomalyco/opencode/commit/d03cb4a02420cb627d5554b1bcf7464fd1aaced9) | kitlangton |
+| 2026-11-23 | [docs(protocol): clarify session API descriptions (#65837)](https://github.com/anomalyco/opencode/commit/02ccc5c7cc60740b7c3830025b3cd7859eef7259) | rekram1-node |
+| 2026-11-23 | [fix(release): format Discord announcement subheadings (#63495)](https://github.com/anomalyco/opencode/commit/72fbe177151a84190093f17104aa87fe7b379fed) | OpeOginni |
+| 2026-11-23 | [chore: update team members (#65702)](https://github.com/anomalyco/opencode/commit/71020126b041a092b345a5147d64ca1b1d6a1b3a) | rekram1-node |
+| 2026-11-23 | [fix(latex): support the LaTeX control space in math (#64156)](https://github.com/anomalyco/opencode/commit/4cf9db957485dd51a5b195fb6e2c1e03d8da1107) | jensenojs |
+| 2026-11-23 | [fix(app): keep the model list in place when unfavoriting with the mou…](https://github.com/anomalyco/opencode/commit/3bae667b6fc0c7f3c65d76af433f29052932013e) | rekram1-node |
+| 2026-11-23 | [fix(plugin): lower the @opentui peer floor to 0.8.0 and stop raising …](https://github.com/anomalyco/opencode/commit/698800f59cf3808e3a670b91e35ba1eb14d92411) | opencode-agent[bot] |
+| 2026-11-23 | [fix(cli-rs): bound the transcript window so scrolling stops growing m…](https://github.com/anomalyco/opencode/commit/0089ba9e39a9ff7701b83fa87d62964612b61a66) | simonklee |
+| 2026-11-23 | [feat(cli-rs): bring the Rust client up to v2.4.0, and fix finished su…](https://github.com/anomalyco/opencode/commit/b51482f9073accbdddf511048cbe9f833e107e1c) | simonklee |
+| 2026-11-23 | [fix(nix): update node_modules hashes (#65824)](https://github.com/anomalyco/opencode/commit/7268011db4b9871f74403f4167c5f3f63d9fbb5f) | rekram1-node |
+| 2026-11-23 | [fix(app): mark /btw tabs answered in the background as unread (#65821)](https://github.com/anomalyco/opencode/commit/9b03fe1f65e8b28f3e39544d295d0d949f2fa6bf) | usrnk1 |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

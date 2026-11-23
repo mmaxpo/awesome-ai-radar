@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.3k |
+| ⭐ **Stars** | 115.4k |
 | 🍴 **Forks** | 15.2k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/supabase/supabase/issues) |
 | 💻 **Languages** | TypeScript 73% · MDX 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `firebase` `supabase` `realtime` `postgrest` `postgres` `postgresql` `websockets` `deno` `embeddings` `vectors` `alternative` `auth` `database` `example` `nextjs` `oauth2` `pgvector` `postgis` `ai` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2019-10-12 |
 | 📦 **Latest release** | [v1.26.08](https://github.com/supabase/supabase/releases/tag/v1.26.08) — 2026-08-07 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 2471.4 MB |
+| 💾 **Size** | 2472.7 MB |
 | 🌐 **Website** | https://supabase.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [chore(www): bump MCP server card to 0.18.0 (#53690)](https://github.com/supabase/supabase/commit/4ead4b092ee7e5ad4def2cd295b14492db12720b) | claude[bot] |
-| 2026-11-20 | [docs(auth): explain that supabase-js refreshes the session automatica…](https://github.com/supabase/supabase/commit/9964968b53f078bf4e246fc25443e3220a8a143b) | supabase-vercel-tedd[bot] |
-| 2026-11-20 | [docs: say where to reset the database password in the connection guid…](https://github.com/supabase/supabase/commit/5fb0be08b131d2fe76d7925ea0c4de60ad7ef325) | supabase-vercel-tedd[bot] |
-| 2026-11-20 | [docs(auth): explain how to verify JWTs without reaching the JWKS endp…](https://github.com/supabase/supabase/commit/57e5db42e23c26f3cb2244664bff9a1ee5b4b350) | supabase-vercel-tedd[bot] |
-| 2026-11-20 | [docs(auth): explain why the signup trigger must schema-qualify names …](https://github.com/supabase/supabase/commit/edece97bdcf36b6099b2218fe848d3dff46bb881) | supabase-vercel-tedd[bot] |
-| 2026-11-20 | [Add Jack Secord to list of contributors (#53750)](https://github.com/supabase/supabase/commit/edcfad5baed0a06b612c8147360e1bb8cefd53fb) | jackseco-82 |
-| 2026-11-20 | [fix(self-hosted): mint the HS256 test token with openssl (#53759)](https://github.com/supabase/supabase/commit/80e237f5d8f24211f98e2f72829891405642625a) | aantti |
-| 2026-11-20 | [docs(auth): note that the Kotlin Auth plugin can't be used with Fireb…](https://github.com/supabase/supabase/commit/fbd1e34128b7f1afe53d7a721272eb781469de35) | supabase-vercel-tedd[bot] |
-| 2026-11-20 | [docs: route JavaScript v2 reference contributors correctly (#51219)](https://github.com/supabase/supabase/commit/584b9588d9d9009e5120a32f8b0032506ac40227) | donghaxkim |
-| 2026-11-20 | [docs: catch up the CLI reference sidebar (#53749)](https://github.com/supabase/supabase/commit/1773f3a2226832792ab40916e27c00bd2ecb16de) | mdonnalley |
+| 2026-11-23 | [fix(auth): open matching logs from Overview API errors FE-5191 (#53854)](https://github.com/supabase/supabase/commit/548abae3e9c7e5b848d53693b7687d94ccf616c8) | jordienr |
+| 2026-11-23 | [fix: broken links from the Web 404 Review, week of 2026-11-09 (#53436)](https://github.com/supabase/supabase/commit/4439db9aa6c7a6ee5275752f8f1159bf206ed7d5) | claude[bot] |
+| 2026-11-23 | [chore(self-hosted): update 2026-11-23 - 0.8.5 (#53866)](https://github.com/supabase/supabase/commit/0ee83da5e5c5c406747ffc35d293c81c144ba61f) | aantti |
+| 2026-11-23 | [fix(studio): treat WebKit's CORS-denied module load as a chunk-load e…](https://github.com/supabase/supabase/commit/fb3ed7ee3c7a9263748ae9d577f7dc8e0c484b1e) | supabase-vercel-tedd[bot] |
+| 2026-11-23 | [chore(mobile app listicle) - split out rest and graphql data apis (#5…](https://github.com/supabase/supabase/commit/08becca4e4847e56e942d29fa9837668622debf9) | kodster28 |
+| 2026-11-23 | [feat(docs) - add techarticle schema to mgmt api (#53646)](https://github.com/supabase/supabase/commit/c0ae88e2b692ab5fa4b12906fe8e3caec319dced) | kodster28 |
+| 2026-11-23 | [chore(www) - allow indexing of 2 solutions pages (#53644)](https://github.com/supabase/supabase/commit/dcd494e101cef9e351c5dd861e078f6ab78be7da) | kodster28 |
+| 2026-11-23 | [chore(docs,www) - remove dupe h1s (#53645)](https://github.com/supabase/supabase/commit/ebdbe95c1bd65cfef419b685cece0f793b1abf80) | kodster28 |
+| 2026-11-23 | [content(kb) - astro auth listicle (#53481)](https://github.com/supabase/supabase/commit/079d9905bdb799c44293bcb7a7831e17747002db) | kodster28 |
+| 2026-11-23 | [docs(auth): document dedicated scope for SAML providers (#53859)](https://github.com/supabase/supabase/commit/ca8ee0b93e4fd0b209fea67acd94a684113c8a99) | hf |
 
 [See all commits ↗](https://github.com/supabase/supabase/commits)
 

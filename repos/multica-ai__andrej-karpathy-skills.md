@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 235.0k |
+| ⭐ **Stars** | 235.3k |
 | 🍴 **Forks** | 23.3k |
 | 🐞 **Open issues + PRs** | [109](https://github.com/multica-ai/andrej-karpathy-skills/issues) |
 | 💻 **Languages** | — |

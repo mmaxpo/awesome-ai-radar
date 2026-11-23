@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.8 MB |
+| 💾 **Size** | 183.9 MB |
 | 🌐 **Website** | https://scikit-learn.org |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [DOC Add torch XPU version and driver note to Array API docs (#34648) …](https://github.com/scikit-learn/scikit-learn/commit/09724b2db681e6181b1d1c9faf346b575cdc22a8) | themythofsisyphusjayant |
+| 2026-11-23 | [Allow partials to specify check name via kwarg in `_check_name` (used…](https://github.com/scikit-learn/scikit-learn/commit/7eeda88b0e86bc73c2d25f4c19040563facd9ca6) | lucyleeow |
+| 2026-11-23 | [DOC Fix typo in SGD docs (#35494)](https://github.com/scikit-learn/scikit-learn/commit/9ca09bc84cfc5133fb8788f8a3a4fdd43fefdcca) | david-cortes-intel |
+| 2026-11-23 | [MNT Disable progressbar if not last one in callback list (#35272)](https://github.com/scikit-learn/scikit-learn/commit/229239f6e6bd11c17b57f294ac591b76ce258ad1) | FrancoisPgm |
+| 2026-11-23 | [FIX Callback transport don't store connections forever (#34870)](https://github.com/scikit-learn/scikit-learn/commit/eff735c50a324741c5c33343be99439883caaf97) | jeremiedbb |
+| 2026-11-23 | [FIX Set array_api_support tag for `MaxAbsScaler` and `LabelBinarizer`…](https://github.com/scikit-learn/scikit-learn/commit/135c488ae340a248178d7ed89282e3273aedd9fc) | betatim |
 | 2026-11-21 | [ENH Remove the references to children in CallbackContext (#35270)](https://github.com/scikit-learn/scikit-learn/commit/21626d67d47889da8d19f3dd2a819a0cf527f27f) | FrancoisPgm |
 | 2026-11-21 | [TST Fix flaky test_dual_deprecated by seeding its data (#35471)](https://github.com/scikit-learn/scikit-learn/commit/f85f0584d5d7a66068bfe50b395ac855b2289dc2) | cakedev0 |
 | 2026-11-20 | [MNT Callback transport actually free the accept thread on closing a l…](https://github.com/scikit-learn/scikit-learn/commit/5e9184e53cd3bfd5a068cb1cb96c5ad27eff8092) | jeremiedbb |
 | 2026-11-20 | [CI Lock the actions of the contributor type labeler workflow (#35470)](https://github.com/scikit-learn/scikit-learn/commit/0ab59f9bdcefd676c185b73ffc46352a7c532e07) | cakedev0 |
-| 2026-11-20 | [CI Add workflow to add contributor type labels on PRs (#35369)](https://github.com/scikit-learn/scikit-learn/commit/4f2a8dd82dc37fd20f3c185b253e8489b6c48c2c) | lesteve |
-| 2026-11-20 | [ENH Ridge: support `solver="cholesky"` for array API inputs (#35418)](https://github.com/scikit-learn/scikit-learn/commit/2dd5e2c7f03f4571c0aff7ccddcec21a4a6c88ca) | cakedev0 |
-| 2026-11-20 | [ENH allocate arrays for HGBT Splitter only once instead of in each it…](https://github.com/scikit-learn/scikit-learn/commit/1d07be8a30fdff4cf9ffae2e81ef9f2060952952) | lorentzenchr |
-| 2026-11-19 | [DOC improve User Guide on Linear Models - ElasticNet (#35428)](https://github.com/scikit-learn/scikit-learn/commit/5f6ffc020b1aa39e3333f55b6298a91810aed410) | lorentzenchr |
-| 2026-11-19 | [DOC fix filename reference to maintainer list in `scikit-learn-feedst…](https://github.com/scikit-learn/scikit-learn/commit/02feb7112478485bb6d7c5d00d6dc764fc9b5107) | AnneBeyer |
-| 2026-11-19 | [CI Skip LogisticRegression callback tests on Pyodide [pyodide] (#35459)](https://github.com/scikit-learn/scikit-learn/commit/5f9f6c495eb425eebccea64b92e9ad39a3c222dc) | AnneBeyer |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 85.6k |
+| ⭐ **Stars** | 85.7k |
 | 🍴 **Forks** | 12.1k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/bytedance/deer-flow/issues) |
-| 💻 **Languages** | Python 81% · TypeScript 15% · MDX 3% |
+| 💻 **Languages** | Python 81% · TypeScript 14% · MDX 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `agentic` `agentic-framework` `agentic-workflow` `ai` `ai-agents` `deep-research` `langchain` `langgraph` `llm` `multi-agent` `nodejs` `podcast` `python` `langmanus` `typescript` `harness` `superagent` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-05-07 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/bytedance/deer-flow/releases/tag/v2.2.0) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 106.1 MB |
+| 💾 **Size** | 108.7 MB |
 | 🌐 **Website** | https://deerflow.tech |
 
 ## 📦 Recent releases
 
 ### [v2.2.0](https://github.com/bytedance/deer-flow/releases/tag/v2.2.0) — DeerFlow 2.2.0
-<sub>2026-11-04 · 18d ago</sub>
+<sub>2026-11-04 · 19d ago</sub>
 
 > **DeerFlow 2.2.0**
 > DeerFlow 2.2 turns the 2.1 super-agent harness into a deployment-grade platform
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.1.0](https://github.com/bytedance/deer-flow/releases/tag/v2.1.0) — v2.1.0 Release
-<sub>2026-09-24 · 1mo ago</sub>
+<sub>2026-09-24 · 2mo ago</sub>
 
 > **DeerFlow 2.1.0**
 > DeerFlow 2.1 builds on the 2.0 super-agent harness with a focus on **trust,
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.0.0](https://github.com/bytedance/deer-flow/releases/tag/v2.0.0) — DeerFlow 2.0.0 released
-<sub>2026-06-25 · 4mo ago</sub>
+<sub>2026-06-25 · 5mo ago</sub>
 
 > **DeerFlow 2.0.0**
 > DeerFlow 2.0 is a **ground-up rewrite** around a "super agent" harness that
@@ -72,16 +72,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [fix(sandbox): build the bash cwd prefix for the shell that runs it (#…](https://github.com/bytedance/deer-flow/commit/25a59aa5c72aa7a621a37843c5ef6d8b9ab19893) | huyengiang101086-spec |
-| 2026-11-22 | [fix(runtime): keep run-input appends off the run-change clock (#8479)](https://github.com/bytedance/deer-flow/commit/9bd2bfa859fc185508387c32e27d922fac1f09ff) | Shelden-Hao |
-| 2026-11-22 | [fix(github): separate webhook runs from tool authentication (#8485)](https://github.com/bytedance/deer-flow/commit/ee54c9630037e9b339aaa61f1082d19afa32c534) | WillemJiang |
-| 2026-11-22 | [fix(dingtalk): handle multi-backtick inline code spans (#8469)](https://github.com/bytedance/deer-flow/commit/53e6042c290dd37759efc7535fa9fcef02ad64d3) | hajicheng |
-| 2026-11-22 | [feat(extensions): add a workspace page to the run postmortem example …](https://github.com/bytedance/deer-flow/commit/e9d481e9f592f6b51d6fa634b80da785ee575e5c) | gdut4140 |
-| 2026-11-22 | [fix(smoke-test): sign in with an existing test account (#8481)](https://github.com/bytedance/deer-flow/commit/d322e88f23e7400245b5f769d324228b771375c4) | WillemJiang |
-| 2026-11-22 | [fix(memory): bound DeerMem's in-process document cache (#8480)](https://github.com/bytedance/deer-flow/commit/a9b5dd80f8a52d1d6e66d6462d2635f7ca91d76f) | hyeonsang010716 |
-| 2026-11-22 | [fix(runtime): page thread history from the before cursor (#8398)](https://github.com/bytedance/deer-flow/commit/aa783497513b4518f63dc49c8be0dc2d43ebde9a) | 67-luck |
-| 2026-11-22 | [fix(opensandbox): report a missing file as FileNotFoundError (#8470)](https://github.com/bytedance/deer-flow/commit/b6b0be211ec6445381dad1b89ba79ced81830e4b) | bascan |
-| 2026-11-22 | [fix(memory): let OpenViking's write policy decide a refused non-owner…](https://github.com/bytedance/deer-flow/commit/7b84fd09983e2a539f5d6be392d253b3e8b1889a) | hyeonsang010716 |
+| 2026-11-23 | [fix(harness): compare tool output, not per-call bytes, in loop detect…](https://github.com/bytedance/deer-flow/commit/fc0d4bd7bc2602b4ff0abdc8600545b23b620ef9) | HYYAlex |
+| 2026-11-23 | [fix(feishu): keep topic and card replies on their conversation (#8523)](https://github.com/bytedance/deer-flow/commit/cd9fbf2967d198b049b559db53278e6c2b62eeca) | Totoro-qaq |
+| 2026-11-23 | [fix(skills): reject boolean rollback history indexes (#8363)](https://github.com/bytedance/deer-flow/commit/0926db9c0fa356ca5d4559048d45c3927f43cd20) | mikamikasuki |
+| 2026-11-23 | [fix(events): stop pinning a DB write lock for every thread ever writt…](https://github.com/bytedance/deer-flow/commit/0c1e2119df73761952d5e81fb44c0ad3c3913b87) | hyeonsang010716 |
+| 2026-11-23 | [refactor(persistence): leave one guarded delete on ScheduledTaskRepos…](https://github.com/bytedance/deer-flow/commit/ea1872e4291e11f584001b027be42c664e505473) | hyeonsang010716 |
+| 2026-11-23 | [fix(slack): wait for Retry-After before retrying a reply (#8266)](https://github.com/bytedance/deer-flow/commit/7287c7945f3677b71fae45640e440a53e57af9ad) | pcbeingused333 |
+| 2026-11-23 | [fix(benchmark): honor AIO service flags in Docker lifecycle runs (#8493)](https://github.com/bytedance/deer-flow/commit/b669144246d6068424d2c2b8f72e61f241eb4c24) | LuisQin01 |
+| 2026-11-23 | [feat(subagents): add read-only SQLite history inventory (#8520)](https://github.com/bytedance/deer-flow/commit/ecfe8264ea930f1553de46446324a19dbfb808d6) | MasterZRC |
+| 2026-11-23 | [docs(readme): describe local workspace mode in Chinese (#8528)](https://github.com/bytedance/deer-flow/commit/12ca6379a93d96f875c96beb44cd9ec24b0d9253) | jadelike-wine |
+| 2026-11-23 | [fix(opensandbox): keep stale callbacks from destroying replacement sa…](https://github.com/bytedance/deer-flow/commit/6cefec0c9dacceec3e97d42e0e4c86105a2dcec1) | Leeminjing |
 
 [See all commits ↗](https://github.com/bytedance/deer-flow/commits)
 

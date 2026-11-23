@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Build a nano Claude Code-like harness from scratch |
 | **Added** | 2026-11-15 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.7k |
+| ⭐ **Stars** | 80.8k |
 | 🍴 **Forks** | 12.9k |
 | 🐞 **Open issues + PRs** | [56](https://github.com/shareAI-lab/learn-claude-code/issues) |
 | 💻 **Languages** | Python 70% · TypeScript 29% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `claude-code` `teaching` `agent-development` `ai-agent` `claude` `educational` `llm` `python` `tutorial` |
-| 🕒 **Last activity** | 2026-11-15 (6d ago) |
+| 🕒 **Last activity** | 2026-11-15 (8d ago) |
 | 📅 **Created** | 2025-06-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -49,7 +47,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-10-27 | [fix(web): restore pointer cursor on buttons (#595)](https://github.com/shareAI-lab/learn-claude-code/commit/11c6ce5ff51319279975bd3648403a1ca6e01e6b) | xbsheng |
 | 2026-10-27 | [Clarify s03 permission prompt (#593)](https://github.com/shareAI-lab/learn-claude-code/commit/aa7ee1662c1bb0ffb63381ba19c1954aa3a0d866) | suifeng187 |
 | 2026-10-27 | [docs: translate code comments in Chinese READMEs (s04-s06) (#590)](https://github.com/shareAI-lab/learn-claude-code/commit/a2f81623d55668490fd137a06628fa3aa788b272) | zl1nq |
-| 2026-10-27 | [fix(s11): document unreachable else branch in inject_background_resul…](https://github.com/shareAI-lab/learn-claude-code/commit/8491527b3c64dd1a608154d900406ff7aa277dff) | dajiaohuang |
+| 2026-10-27 | [fix(s11): document unreachable else branch in inject_background_resul…](https://github.com/shareAI-lab/learn-claude-code/commit/8491527b3c64dd1a608154d900406ff7aa277dff) | Wu Shuwen |
 | 2026-10-27 | [fix: add hysteresis to message-count compaction (#582)](https://github.com/shareAI-lab/learn-claude-code/commit/b057622db233d9a4c8b3ccedda90a9501301833c) | JiangYuxin-Jim |
 
 [See all commits ↗](https://github.com/shareAI-lab/learn-claude-code/commits)

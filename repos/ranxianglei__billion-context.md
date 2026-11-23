@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.1k |
-| 🍴 **Forks** | 655 |
-| 🐞 **Open issues + PRs** | [1.4k](https://github.com/ranxianglei/billion-context/issues) |
+| ⭐ **Stars** | 8.2k |
+| 🍴 **Forks** | 668 |
+| 🐞 **Open issues + PRs** | [1.5k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-08-06 |
 | 📦 **Latest release** | [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 89.5 MB |
+| 💾 **Size** | 89.9 MB |
 
 ## 📦 Recent releases
 
 ### [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216)
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: two fixes — evidence file is now readable after the run completes + one retry added for the small-window round in  | gate 两个修复:跑完后证据文件能读了 + R 车道小窗口轮次加一次重试 by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6808
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
-<sub>2026-11-15 · 7d ago</sub>
+<sub>2026-11-15 · 8d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · 8d ago</sub>
+<sub>2026-11-14 · 9d ago</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 14d ago</sub>
+<sub>2026-11-07 · 15d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.1.212](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.212)
-<sub>2026-11-02 · 19d ago</sub>
+<sub>2026-11-02 · 21d ago</sub>
 
 > **What's Changed**
 > * [PR] (ai: anthropic/claude-opus-4-6) fix(release): nuclear box = deps download + build + publish, zero checks; add local zero-install publish script by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5436
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Merge pull request #7532 from ranxianglei/fix/preflight-identity-fast…](https://github.com/ranxianglei/billion-context/commit/0b68ade725c857b50ba125ed0f8a35385ab6b959) | ranxianglei |
-| 2026-11-22 | [test: stamp the overflow wall in the 9 fixtures the identity fast pat…](https://github.com/ranxianglei/billion-context/commit/c993aa5c4b1a5dc0da0d72473a3e0e6e72e976a3) | ci-check |
-| 2026-11-22 | [Merge pull request #7522 from ranxianglei/2026-11-22_kernel-hide-cons…](https://github.com/ranxianglei/billion-context/commit/6078bcffcb135029604a2a546b86caa4a3429639) | ranxianglei |
-| 2026-11-22 | [test: pin the identity fast path's positive + model-mismatch directio…](https://github.com/ranxianglei/billion-context/commit/8af3bcbb3384731640c0e43f5eda3e50ff8173ce) | ci-check |
-| 2026-11-22 | [fix: correct stale comment — a model change IS a fast-path demotion](https://github.com/ranxianglei/billion-context/commit/46b72035ee9ae2ed6207955aba042e0e68021ce8) | ci-check |
-| 2026-11-22 | [Merge pull request #7446 from ranxianglei/2026-11-21_fix-agy-cli-clip…](https://github.com/ranxianglei/billion-context/commit/f79bd222103997674e632771084fa47b25351521) | ranxianglei |
-| 2026-11-22 | [Merge pull request #7326 from ranxianglei/2026-11-19_rcagg-compress-gate](https://github.com/ranxianglei/billion-context/commit/bb8deeac811a37112f0449c0005fa45f06b84089) | ranxianglei |
-| 2026-11-22 | [Merge pull request #7330 from WantexZard/2026-11-19_responses-fork-eg…](https://github.com/ranxianglei/billion-context/commit/f593991b9ec00d75258b405ed3da466bd2d1c63c) | ranxianglei |
-| 2026-11-22 | [Merge pull request #7287 from x1051445024/2026-11-19_fix-v1internal-p…](https://github.com/ranxianglei/billion-context/commit/7c6a1c844313e45541af25d7d38b7bd3a307c090) | ranxianglei |
-| 2026-11-22 | [kernel: orphan-sweep exemption recognizes the line-form compress args](https://github.com/ranxianglei/billion-context/commit/ce781e54af2a2cd1230933046b1d63e3b7951208) | ranxianglei |
+| 2026-11-23 | [Merge pull request #7517 from ranxianglei/fix/codex-window-raise](https://github.com/ranxianglei/billion-context/commit/a9a322d0b7c5c800a431f66a8c184224852d9eb2) | ranxianglei |
+| 2026-11-23 | [Merge pull request #7583 from ranxianglei/fix/6785-review-followups](https://github.com/ranxianglei/billion-context/commit/055f53255f8fc760d86cbb61a95c9fe4d2f4ea42) | ranxianglei |
+| 2026-11-23 | [Merge pull request #4410 from ranxianglei/2026-10-23_issue4401-judge-…](https://github.com/ranxianglei/billion-context/commit/79a5f98d713c77c3c27c3352902cf02bbdc6f96a) | ranxianglei |
+| 2026-11-23 | [test(#7574): close the second database connection before the temp fol…](https://github.com/ranxianglei/billion-context/commit/e365215bc7231008d830e8e6f4d03f365bd7e297) | ranxianglei |
+| 2026-11-23 | [fix(#7574): correct the rollback finding — tool-output texts do not c…](https://github.com/ranxianglei/billion-context/commit/ffcb085b06a8d08a36610e2ba69708a018d172ee) | ranxianglei |
+| 2026-11-23 | [docs(#7574): record the review follow-up in the unified storage desig…](https://github.com/ranxianglei/billion-context/commit/0f09d5fed64e7fb73b4d9a62eacf4cb4c9240e0d) | ranxianglei |
+| 2026-11-23 | [fix(#7574): pi sends the full id list again after a switch to the ant…](https://github.com/ranxianglei/billion-context/commit/4ed66eda0bbf9219ab885ef3127c71d573731003) | ranxianglei |
+| 2026-11-23 | [fix(#7574): a well-formed short id list on an empty ledger no longer …](https://github.com/ranxianglei/billion-context/commit/c0fcfa7ee8d3e937f77dd69014e857f75ef5711c) | ranxianglei |
+| 2026-11-23 | [fix(#7574): the outbound op log records every turn safely and only ru…](https://github.com/ranxianglei/billion-context/commit/4a7a1fa7c9f3b73f0d4f0ddeb5c7be22a1f531e5) | ranxianglei |
+| 2026-11-23 | [fix(#7574): after a rollback to an older build, state fields it wrote…](https://github.com/ranxianglei/billion-context/commit/2e685aa21c3484e5d27d31ec76b9746e8cc5d624) | ranxianglei |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

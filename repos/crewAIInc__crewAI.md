@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 61.2k |
-| 🍴 **Forks** | 9.2k |
+| 🍴 **Forks** | 9.3k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/crewAIInc/crewAI/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-21 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 301.4 MB |
+| 💾 **Size** | 302.2 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
 ### [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.43](https://github.com/crewAIInc/crewAI/releases/tag/1.15.43)
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.42](https://github.com/crewAIInc/crewAI/releases/tag/1.15.42)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -69,7 +69,7 @@
 > …
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 10d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40)
-<sub>2026-11-11 · 10d ago</sub>
+<sub>2026-11-11 · 11d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [fix(deps): bump e2b on Python >=3.11 to pull patched wcmatch (GHSA-53…](https://github.com/crewAIInc/crewAI/commit/6a5b80c4551a562004f342f46c8d1470627f535f) | Vidit-Ostwal |
+| 2026-11-23 | [fix(files): wrap file-like inputs in normalize_input_files (#9626)](https://github.com/crewAIInc/crewAI/commit/3c53d5073b5f29cfbf707cfa79e5843f11162a87) | Kiko0301 |
+| 2026-11-23 | [fix(cli): reject negative checkpoint prune retention counts (#9676)](https://github.com/crewAIInc/crewAI/commit/6eceb811a6f67d945fa509057302678bef0d980c) | Kelvin-Waititu |
+| 2026-11-23 | [fix(crewai-tools): report MongoDB tool's real env vars (#9622)](https://github.com/crewAIInc/crewAI/commit/6ecb873903345022637d758e7df6532b260d0a61) | Kiko0301 |
+| 2026-11-23 | [fix(files): let prefer_upload enable Bedrock S3 uploads (#9624)](https://github.com/crewAIInc/crewAI/commit/2d840d0e86c11ffe00f8f9fe3a8e4fb7ea5d2186) | Kiko0301 |
+| 2026-11-23 | [fix(converter): validate foreign models against the target schema (#9…](https://github.com/crewAIInc/crewAI/commit/7cc18c55e195778df2f64e9a6bd05f9cb29a5adf) | jjhong011001 |
+| 2026-11-23 | [fix(files): preserve narrow dimensions when resizing images (#9605)](https://github.com/crewAIInc/crewAI/commit/e184e58cde6ad7e46eaf9ae9c9c05efaac483d18) | nazek52 |
+| 2026-11-23 | [fix(a2a): reject empty credentials and use constant-time comparison i…](https://github.com/crewAIInc/crewAI/commit/77786fe99e0b183b9ce83558fb191b90fbb95382) | SDLSY |
+| 2026-11-23 | [fix(tools): make HyperbrowserLoadTool params optional in its schema (…](https://github.com/crewAIInc/crewAI/commit/d84514b5eee2598816f7ea11dc0b5889cfb23dfd) | kushagra0526 |
 | 2026-11-21 | [docs(files): document anthropic file blocks carry no cache_control (#…](https://github.com/crewAIInc/crewAI/commit/56c26a7fb3ece62c64de52e8b4228d15c9c81492) | joaomdmoura |
-| 2026-11-20 | [fix(a2a): require a secret for HMAC webhook signatures (#9459)](https://github.com/crewAIInc/crewAI/commit/f6f01ddf4300e88134bbac6dfb1762b4d75c19b0) | Kiko0301 |
-| 2026-11-20 | [fix(schema): keep fields with explicit non-null defaults non-nullable…](https://github.com/crewAIInc/crewAI/commit/b84960112ba19b110d9a49fd905f037894b0d0d4) | lkuko |
-| 2026-11-20 | [fix(llms): keep a streamed Azure delta when its chunk also carries us…](https://github.com/crewAIInc/crewAI/commit/0da44f6f7815a7e476b9c5f5bce50cc7d462952c) | YeChenglin8888 |
-| 2026-11-20 | [fix(files): reject non-positive text chunk sizes (#9520)](https://github.com/crewAIInc/crewAI/commit/9812f6c1c536e487e4e2612d45099fff1c054798) | Kiko0301 |
-| 2026-11-20 | [fix(tools): drop credentials on cross-origin redirects (#9516)](https://github.com/crewAIInc/crewAI/commit/3aeb98a271bb1d32ba1991ba2def1afb7aa82e89) | Kiko0301 |
-| 2026-11-20 | [fix(knowledge): stop chunking once a chunk reaches the end of the tex…](https://github.com/crewAIInc/crewAI/commit/fdbffa0ca3138a1e7c169e739ae9c2c6a41ab405) | Ayushraj06-bit |
-| 2026-11-20 | [fix: serialize enums by value in CrewJSONEncoder (#9582)](https://github.com/crewAIInc/crewAI/commit/c24960bda1d34d9038d7da92c3eee18275331feb) | nurlanmnn |
-| 2026-11-20 | [fix(artifacts): never cache save_artifact tool results (#9595)](https://github.com/crewAIInc/crewAI/commit/70a31b667dad750910ea5c006b1934a41821e05e) | MaiAditya |
-| 2026-11-20 | [fix(agents): set from_cache on the native tool finished event (#9504)](https://github.com/crewAIInc/crewAI/commit/8c75a465bd2c4f68ec79aa56a8bdbee8218283ed) | houyunsun |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

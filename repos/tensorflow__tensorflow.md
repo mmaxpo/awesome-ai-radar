@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.7k |
+| ⭐ **Stars** | 201.8k |
 | 🍴 **Forks** | 77.4k |
 | 🐞 **Open issues + PRs** | [3.5k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 25% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1413.0 MB |
+| 💾 **Size** | 1414.7 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
 
 ### [v2.22.0-rc1](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1) — TensorFlow 2.22.0-rc1 _(pre-release)_
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **Release 2.22.0**
 > **TensorFlow**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Automated Code Change](https://github.com/tensorflow/tensorflow/commit/75cf5f742ef3b5fec501269669fac40b77a6387b) | tensorflower-gardener |
-| 2026-11-22 | [[XLA:GPU][NFC] Move GPU alias_info libraries to backends/gpu/hlo/anal…](https://github.com/tensorflow/tensorflow/commit/cf89af92e0fb46de21c9675f169bcee4fec735c4) | pifon2a |
-| 2026-11-21 | [[XLA:CPU] Remove legacy prebuilt tfcompile RngState shims](https://github.com/tensorflow/tensorflow/commit/73720b3e45428c614c0cb5019935ca5b24330ecf) | majnemer |
-| 2026-11-21 | [[XLA:GPU][NFC] Move GPU fusion passes to backends/gpu/transforms/fusion](https://github.com/tensorflow/tensorflow/commit/de10f3b94079b19634662ce7148cbf6c25a93a68) | pifon2a |
-| 2026-11-21 | [[XLA:GPU] Delete unused hlo_algorithm_denylist and gpu_autotuning_proto](https://github.com/tensorflow/tensorflow/commit/48cee7f27c798c18210f72491877a8b9b639edd3) | pifon2a |
-| 2026-11-21 | [[IFRT IR] Tighten IFRT IR op verifiers and factor shared checks onto …](https://github.com/tensorflow/tensorflow/commit/c7e516a88d55f704e8c99983b3de45780d00412d) | ICGog |
-| 2026-11-21 | [[XLA] Peel bitcasts when checking buffer aliasing in ShouldFuseInPlaceOp](https://github.com/tensorflow/tensorflow/commit/5d4f214c54e90627bda9c866935044cdca352d68) | blakehechtman |
-| 2026-11-21 | [[IFRT IR] Enforce direct `FuncOp` nesting in `NestedInIfrtFuncTrait` …](https://github.com/tensorflow/tensorflow/commit/2deff6661c853fe610762db39006e172e0ca3c56) | ICGog |
-| 2026-11-21 | [[XLA:GPU] Color two-shot Triton AllGather outputs in collective symme…](https://github.com/tensorflow/tensorflow/commit/f80e9534620de429cb5f97adfd212a40b5e7390e) | sohaibiftikhar |
-| 2026-11-21 | [[IFRT IR] Tighten `IfrtDialect` attribute and `IfrtArrayType` verifiers](https://github.com/tensorflow/tensorflow/commit/3ceba449fd7e1bdf3ce593b90e3adc37d3f4d420) | ICGog |
+| 2026-11-23 | [[XLA:GPU] Order producer-consumer adaptor instructions like the fused…](https://github.com/tensorflow/tensorflow/commit/a16aa301ecbd8ffa964e40d401b35cfe1300f39f) | Moerafaat |
+| 2026-11-23 | [[XLA:GPU] Use CuDnnGemmDimensions instead of TritonFusionAnalysis in …](https://github.com/tensorflow/tensorflow/commit/87f4eab9436cf4d4937de7b5f707d9d819416674) | vwbaker |
+| 2026-11-23 | [[XLA:GPU] Remove hlo_fusion_stats.](https://github.com/tensorflow/tensorflow/commit/ea084cc5869e8c1e8216bc8f0cf5d9562c82082c) | pifon2a |
+| 2026-11-23 | [[XLA:GPU] Preserve gpu_device_info.name in GpuTargetConfig::FromProto](https://github.com/tensorflow/tensorflow/commit/d760b5dcdc11a1aaef9a446a75f9b624a3cec773) | tucan9389 |
+| 2026-11-23 | [[XLA:GPU] Support split M dimensions in CuDnnGemmDimensions.](https://github.com/tensorflow/tensorflow/commit/dbfb9c00138c3364668a6090938b75696f08ff29) | vwbaker |
+| 2026-11-23 | [[XLA] Prevent int64_t overflow in AxisRef sub-axis next_pre_size](https://github.com/tensorflow/tensorflow/commit/d1e88f60a279ae74bf17c583366a053f06dd81cc) | dimitar-asenov |
+| 2026-11-23 | [[XLA:GPU] Configure two-shot AllGather kernel spec and peer-table out…](https://github.com/tensorflow/tensorflow/commit/53280aebedf641d22900c94594fd098e4b6a2814) | sohaibiftikhar |
+| 2026-11-23 | [[XLA:CPU] Forward kTiledLlvmIrGemv dots to xtile.](https://github.com/tensorflow/tensorflow/commit/6ebd77854f79dfd94c71aeab6f126af11b1c07e4) | pifon2a |
+| 2026-11-23 | [PR #52971: [AlgebraicSimplifier] Gate constant reciprocal division re…](https://github.com/tensorflow/tensorflow/commit/f658875f7c96a60db69578e69872170d1e5fc1ff) | JarvisDing-sdu |
+| 2026-11-23 | [[XLA] Fix int64 truncation in IotaTileAssignment::value_at](https://github.com/tensorflow/tensorflow/commit/24c6d53dd5091c02c8ff7c6cf0de56077fe82423) | dimitar-asenov |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

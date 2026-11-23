@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 77.0k |
+| ⭐ **Stars** | 77.2k |
 | 🍴 **Forks** | 8.8k |
-| 🐞 **Open issues + PRs** | [619](https://github.com/usestrix/strix/issues) |
+| 🐞 **Open issues + PRs** | [625](https://github.com/usestrix/strix/issues) |
 | 💻 **Languages** | Python 78% · Go 11% · TypeScript 8% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agents` `artificial-intelligence` `cybersecurity` `penetration-testing` `ai-penetration-testing` `ai-pentesting` `ai-security` `bug-bounty` `ctf-tools` `cybersecurity-tools` `ethical-hacking` `llm-security` `offensive-security` `pentesting-tools` `red-teaming` `security-automation` `security` `code-quality` `ai-hacking` `hacking` |
-| 🕒 **Last activity** | 2026-11-19 (2d ago) |
+| 🕒 **Last activity** | 2026-11-22 (today) |
 | 📅 **Created** | 2025-08-05 |
 | 📦 **Latest release** | [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.0 MB |
+| 💾 **Size** | 18.1 MB |
 | 🌐 **Website** | https://strix.ai |
 
 ## 📦 Recent releases
 
 ### [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1)
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 12d ago</sub>
 
 > **What's Changed**
 > * Stop the run after finish_pr_review by @ian-at-strix in https://github.com/usestrix/strix/pull/1451
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [Remove comment about 'started_at' time](https://github.com/usestrix/strix/commit/00912af5d179fda5e52961421f9061240a43676c) | ian-at-strix |
+| 2026-11-22 | [feat(runner): the root context records when the root started](https://github.com/usestrix/strix/commit/a60c8b5ff8f871ba8ffdd482b235ccae1a8b8961) | ian-at-strix |
 | 2026-11-19 | [refactor(prompts): delegate patch work by task, not agent type](https://github.com/usestrix/strix/commit/a1ccf777d80e812edf23fc8b82bdc17def6143ac) | 0xallam |
 | 2026-11-19 | [fix(skills): preserve workflow outcomes and review the delivered patch](https://github.com/usestrix/strix/commit/cce68922784af5def973cdd0d17e92239df89779) | 0xallam |
 | 2026-11-19 | [feat(skills): the finding is filed first and the fix agent attaches t…](https://github.com/usestrix/strix/commit/b1dfe05974936f5b4868c392f1bbad52d9de6608) | 0xallam |
@@ -102,8 +104,6 @@
 | 2026-11-19 | [fix(skills): the fix agent hands the reviewer the text it intends to …](https://github.com/usestrix/strix/commit/23558cd6b446c6ae4dc1b80daefa80c3c67497d1) | devin-ai-integration[bot] |
 | 2026-11-19 | [fix(skills): the reviewer accepts a disclosed partial fix when the op…](https://github.com/usestrix/strix/commit/b68ab5dbeda69a79f983e19f8638cdee67490fec) | devin-ai-integration[bot] |
 | 2026-11-19 | [fix(prompts): the white-box delegation rules name the fix agent as th…](https://github.com/usestrix/strix/commit/bc68109b71c193308f485fe6912ef1eebd34d2ec) | devin-ai-integration[bot] |
-| 2026-11-19 | [feat(skills): a dedicated fix agent and an independent reviewer decid…](https://github.com/usestrix/strix/commit/582b1c934ed5c49654f66fa2cb2153be297a3a07) | 0xallam |
-| 2026-11-19 | [Remove --methodology; a reusable methodology goes in --instruction-fi…](https://github.com/usestrix/strix/commit/85e569b2217a9be15e792674761f9a03fe3a77eb) | bearsyankees |
 
 [See all commits ↗](https://github.com/usestrix/strix/commits)
 

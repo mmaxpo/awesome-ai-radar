@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 87.7k |
 | 🍴 **Forks** | 9.1k |
-| 🐞 **Open issues + PRs** | [343](https://github.com/unclecode/crawl4ai/issues) |
+| 🐞 **Open issues + PRs** | [339](https://github.com/unclecode/crawl4ai/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `crawler` `data-extraction` `llm` `markdown` `mcp` `open-source` `playwright` `python` `rag` `scraper` `web-crawler` `web-crawling` `web-scraping` `crawl4ai-cloud` |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-05-09 |
 | 📦 **Latest release** | [v0.9.6](https://github.com/unclecode/crawl4ai/releases/tag/v0.9.6) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 148.6 MB |
-| 🌐 **Website** | https://crawl4ai.com/?ref=github-about |
+| 💾 **Size** | 148.8 MB |
+| 🌐 **Website** | https://crawl4ai.com/signin/?ref=github-about |
 
 ## 📦 Recent releases
 
 ### [v0.9.6](https://github.com/unclecode/crawl4ai/releases/tag/v0.9.6) — Release v0.9.6
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **🎉 Crawl4AI v0.9.6 Released!**
 > **📦 Installation**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [Merge pull request #2592 from unclecode/release/v0.9.6](https://github.com/unclecode/crawl4ai/commit/67a717723f6413eeb5a5b14569aef8308f888adc) | unclecode |
-| 2026-11-20 | [fix(docker): run background jobs in the caller's context on Python 3.10](https://github.com/unclecode/crawl4ai/commit/2a959fbb95d1342aab49efbc6b814f197914c1bd) | ntohidi |
-| 2026-11-20 | [ci: build arm64 Docker image on a native ARM runner](https://github.com/unclecode/crawl4ai/commit/9e55c4453b141ae00896b420c4fe750677eb1088) | ntohidi |
-| 2026-11-20 | [docs: set v0.9.6 release date](https://github.com/unclecode/crawl4ai/commit/7fc14a5a715636cebb0cb1620be55b292f3db910) | ntohidi |
-| 2026-11-20 | [docs: add GHSA ids for the v0.9.6 advisories](https://github.com/unclecode/crawl4ai/commit/a06e23ca66f2a513e9d189dc13330999ab494397) | ntohidi |
-| 2026-11-19 | [docs: add the default LLM provider change to the v0.9.6 notes](https://github.com/unclecode/crawl4ai/commit/4888da3d1b8755f9efaae70e8019a8f871807edd) | ntohidi |
-| 2026-11-19 | [Merge remote-tracking branch 'origin/develop' into prep/v0.9.6](https://github.com/unclecode/crawl4ai/commit/9fc8886acc9001a5a43a2eca7475bdc0d464a442) | ntohidi |
-| 2026-11-19 | [Merge pull request #2585 from unclecode/fix/2584-default-llm-provider](https://github.com/unclecode/crawl4ai/commit/5b55498c89e48aae2f7b214366bd101c90f5e05a) | ntohidi |
-| 2026-11-19 | [fix(llm): drop the last fixed temperature and old model example](https://github.com/unclecode/crawl4ai/commit/4309fd447a38c083c93a90b4386dd77874a63629) | ntohidi |
-| 2026-11-19 | [fix(llm): move the default provider off gpt-4o before its shutdown](https://github.com/unclecode/crawl4ai/commit/6ba4eae14f295d414c0648b9140d2fba9a3d4150) | ntohidi |
+| 2026-11-23 | [Merge pull request #2614 from unclecode/feat/docs-s2-8](https://github.com/unclecode/crawl4ai/commit/4e4bab5d44a7557eb403f137ec589833368a3e38) | unclecode |
+| 2026-11-23 | [S2-8: a plain brand title and description for the docs home page](https://github.com/unclecode/crawl4ai/commit/8cb9df8dce15bc44b623bc8585c2e60d002796b6) | unclecode |
+| 2026-11-23 | [Merge pull request #2613 from unclecode/feat/docs-s2](https://github.com/unclecode/crawl4ai/commit/d1c7fa1cddc950cebcec2f7c08deb513cf8d73be) | unclecode |
+| 2026-11-23 | [S2-9: TechArticle structured data on every docs page](https://github.com/unclecode/crawl4ai/commit/0fa0238e07c0c38661d06d10d05fa2d039ef14a2) | unclecode |
+| 2026-11-23 | [S2-5: one rule for every link to crawl4ai.com](https://github.com/unclecode/crawl4ai/commit/d89aaa69d6a9d08786a1287eb6d425f482e55102) | unclecode |
+| 2026-11-23 | [S2-4: self-hosting names 0.9.6 as the latest release](https://github.com/unclecode/crawl4ai/commit/0706c4d3ecd981388b709296766ea9316c88010c) | unclecode |
+| 2026-11-23 | [S2-3: plain links to crawl4ai.com on every docs page](https://github.com/unclecode/crawl4ai/commit/a20296fff840947c309c43949506c269288d9469) | unclecode |
+| 2026-11-23 | [S2-2: the Cloud strip and install boxes use IBM Plex and crawl4ai.com…](https://github.com/unclecode/crawl4ai/commit/f3476d452a1dbaa94d437d48095db9bc21680ee5) | unclecode |
+| 2026-11-23 | [S2-1: a test switch for the Cloud strip state](https://github.com/unclecode/crawl4ai/commit/04e895921920707f232e6eee7d99e9c6348e6dbf) | unclecode |
+| 2026-11-23 | [Merge pull request #2612 from unclecode/feat/docs-cloud-strip](https://github.com/unclecode/crawl4ai/commit/663f59999375fa6767ddb77a5a08080ca362d5db) | unclecode |
 
 [See all commits ↗](https://github.com/unclecode/crawl4ai/commits)
 

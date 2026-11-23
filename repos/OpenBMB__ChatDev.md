@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 34.8k |
+| ⭐ **Stars** | 34.9k |
 | 🍴 **Forks** | 4.4k |
-| 🐞 **Open issues + PRs** | [132](https://github.com/OpenBMB/ChatDev/issues) |
+| 🐞 **Open issues + PRs** | [135](https://github.com/OpenBMB/ChatDev/issues) |
 | 💻 **Languages** | Python 70% · Vue 28% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-06 (16d ago) |
+| 🕒 **Last activity** | 2026-11-06 (17d ago) |
 | 📅 **Created** | 2023-08-28 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/OpenBMB/ChatDev/releases/tag/v2.2.0) — 2026-03-23 |
 | 🌿 **Default branch** | `main` |

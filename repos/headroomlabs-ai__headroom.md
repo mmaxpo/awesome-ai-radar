@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.4k |
+| ⭐ **Stars** | 80.6k |
 | 🍴 **Forks** | 6.3k |
-| 🐞 **Open issues + PRs** | [327](https://github.com/headroomlabs-ai/headroom/issues) |
+| 🐞 **Open issues + PRs** | [342](https://github.com/headroomlabs-ai/headroom/issues) |
 | 💻 **Languages** | Python 81% · Rust 12% · JavaScript 3% · TypeScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `ai` `anthropic` `compression` `context-engineering` `context-window` `fastapi` `langchain` `llm` `mcp` `openai` `proxy` `python` `rag` `token-optimization` `claude-code` `cursor` `prompt-engineering` `tokens` `typescript` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-01-07 |
 | 📦 **Latest release** | [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 105.0 MB |
+| 💾 **Size** | 104.8 MB |
 | 🌐 **Website** | https://docs.headroomlabs.ai/docs |
 
 ## 📦 Recent releases
 
 ### [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — Release v0.45.0
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **[0.45.0](https://github.com/headroomlabs-ai/headroom/compare/v0.44.0...v0.45.0) (2026-11-22)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) — Release v0.44.0
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **[0.44.0](https://github.com/headroomlabs-ai/headroom/compare/v0.43.1...v0.44.0) (2026-11-09)**
 > **⚠ BREAKING CHANGES**
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.43.1](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.1) — Release v0.43.1
-<sub>2026-11-05 · 16d ago</sub>
+<sub>2026-11-05 · 17d ago</sub>
 
 > **[0.43.1](https://github.com/headroomlabs-ai/headroom/compare/v0.43.0...v0.43.1) (2026-11-05)**
 > **Bug Fixes**
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.0) — Release v0.43.0
-<sub>2026-11-05 · 16d ago</sub>
+<sub>2026-11-05 · 17d ago</sub>
 
 > **[0.43.0](https://github.com/headroomlabs-ai/headroom/compare/v0.42.0...v0.43.0) (2026-11-05)**
 > **⚠ BREAKING CHANGES**
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.42.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.42.0) — Release v0.42.0
-<sub>2026-10-26 · 26d ago</sub>
+<sub>2026-10-26 · 27d ago</sub>
 
 > **[0.42.0](https://github.com/headroomlabs-ai/headroom/compare/v0.41.0...v0.42.0) (2026-10-26)**
 > **Features**

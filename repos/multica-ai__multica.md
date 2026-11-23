@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 57.1k |
-| 🍴 **Forks** | 7.5k |
+| ⭐ **Stars** | 57.5k |
+| 🍴 **Forks** | 7.6k |
 | 🐞 **Open issues + PRs** | [2.0k](https://github.com/multica-ai/multica/issues) |
 | 💻 **Languages** | Go 52% · TypeScript 40% · MDX 6% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-01-13 |
-| 📦 **Latest release** | [v0.11.1](https://github.com/multica-ai/multica/releases/tag/v0.11.1) — 2026-11-19 |
+| 📦 **Latest release** | [v0.12.0](https://github.com/multica-ai/multica/releases/tag/v0.12.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 216.4 MB |
+| 💾 **Size** | 225.8 MB |
 | 🌐 **Website** | https://multica.ai |
 
 ## 📦 Recent releases
 
+### [v0.12.0](https://github.com/multica-ai/multica/releases/tag/v0.12.0)
+<sub>2026-11-23 · today</sub>
+
+> **Changelog**
+> * ec943222efba2e2c8acbdec284a9e72a3c98d982 MUL-9420: guest role scoped to shared projects (#10766) (@forrestchang)
+> * bac9e5b3f31eefac14b95892e007aad07f62db18 MUL-9420: release Cloud guests with the commercial launch, drop FF_WORKSPACE_GUESTS (#10998) (@multica-eve)
+> * 309cc9fe4400dd28c87a8583d7943e4149e9308c MUL-9488 feat: cap Free workspace members, exclude guests, upgrade and invite (#10957) (@multica-eve)
+> * e293fca0d3b753f470a6de21c256eae822b4dc34 MUL-9634 fix(editor): stop every editor's Markdown tokenizers piling up on the global marked (#10961) (@multica-eve)
+> * fb824cd9f7ffd61789e6a55d5b5ced5e8b91239f MUL-9654 perf(properties): compute usage_count in one pass and take it off the hot path (#10980) (@multica-eve)
+> …
+
 ### [v0.11.1](https://github.com/multica-ai/multica/releases/tag/v0.11.1)
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **Changelog**
 > * 528cd82711f2f99eedd04e4d3a68c6c31b514659 MUL-8370 fix(docs): restrict doc and folder deletion to creators and admins (#10946) (@Bohan-J)
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.11.0](https://github.com/multica-ai/multica/releases/tag/v0.11.0)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **Changelog**
 > * 874897897fdd9ab8e26158521a0d14c1ffa2d452 MUL-7745 MUL-9463: fix(squads): run an @<!-- -->agent mention of the assigned squad's leader as a leader task (#8918) (@ADanMan)
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.10.0](https://github.com/multica-ai/multica/releases/tag/v0.10.0)
-<sub>2026-11-16 · 6d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > **Changelog**
 > * 24ebdea7bed60633caaf6ef0b85dcd86e5d3bc16 MUL-6056: verify GitHub installation control before workspace binding (#10705) (@Bohan-J)
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.9.0](https://github.com/multica-ai/multica/releases/tag/v0.9.0)
-<sub>2026-11-13 · 9d ago</sub>
+<sub>2026-11-13 · 10d ago</sub>
 
 > **Changelog**
 > * 4dc251a47d597a4d974e286935a6d64c219e7bff EDEN-20: add confirmed deletion of inbox entries (#10356) (@happice0746)
@@ -79,31 +90,20 @@
 > * 079ec9f676ffccc8df20b43d96bda62dd86169f4 MUL-8923: feat(environments): stop, restart, start and read logs from the issue sidebar (#10330) (@forrestchang)
 > …
 
-### [v0.8.2](https://github.com/multica-ai/multica/releases/tag/v0.8.2)
-<sub>2026-11-10 · 12d ago</sub>
-
-> **Changelog**
-> * e77e13abcacbab666af7a88238a587c73306c35c MUL-6907 feat(i18n): add complete Russian localization for web and desktop (#9832)
-> * d6a9f0ec161b45b1172b97ce316c6395a1cf34e7 MUL-8043: feat(issues): include sub-issue runs in execution logs and timelines (#9283)
-> * 632445ec4e36f3aec990846581dcc5ef46c27a21 MUL-8165: launch the new homepage, with one URL per language (#10266)
-> * 05259b84e2a228b23521b52e9b1c818741ce38fb MUL-8329 feat(views): widen the issue and chat reading column on wide screens (#10162)
-> * 02ba30fb4d13e45dfd6617269527bff65aa5018e MUL-8472: feat(projects): enable private projects for everyone (#10273)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [ci: catch migration-number collisions with the latest main before mer…](https://github.com/multica-ai/multica/commit/4ceffd536603c67620c7460f6c412dcbf092299e) | forrestchang |
-| 2026-11-22 | [refactor(inbox): share the single-key shortcut guard in one hook (MUL…](https://github.com/multica-ai/multica/commit/370b2643f6fa536c51e724ab21c3fd0b092ce0fe) | forrestchang |
-| 2026-11-22 | [test(docs): enforce env var docs coverage for every built-in runtime …](https://github.com/multica-ai/multica/commit/b62398190e832c25037600f880b31a96f57bd981) | forrestchang |
-| 2026-11-22 | [feat(inbox): default auto-archive to completing or triggering an agen…](https://github.com/multica-ai/multica/commit/be6c62540616b55e669de24a08a51c2074f828d1) | forrestchang |
-| 2026-11-22 | [fix(dev-env): drop the slot database through the shared container whe…](https://github.com/multica-ai/multica/commit/72b8878796234368158194f4c451a95bbe0702e1) | forrestchang |
-| 2026-11-22 | [feat(inbox): Z undoes the inline undo on the Inbox Zero screen (MUL-9…](https://github.com/multica-ai/multica/commit/18e5be6904c031edbdf3045a2edcf0455a1811b5) | forrestchang |
-| 2026-11-22 | [feat(apps): connect remote MCP apps over OAuth, starting with Mobbin …](https://github.com/multica-ai/multica/commit/d5792738f9bab3ba463009f1ac7fdc4d8d9c5850) | forrestchang |
-| 2026-11-22 | [docs: sync env vars, contributing workflow, and multilingual doc pari…](https://github.com/multica-ai/multica/commit/4fb42df284c8444574c8de3abe3e460adb7ad5be) | forrestchang |
-| 2026-11-22 | [fix(issues): preserve in-progress annotation drafts and yield landing…](https://github.com/multica-ai/multica/commit/812cecb2430d30d17f107ba87222032e2e2fe2f6) | forrestchang |
-| 2026-11-22 | [refactor(cli): resolve doc and folder ids with the shared prefix reso…](https://github.com/multica-ai/multica/commit/f6b4c9f79c9b2b99afd2db3259533702b9cbc4a7) | forrestchang |
+| 2026-11-23 | [fix(motion): reduced motion is instant everywhere, and lint rejects s…](https://github.com/multica-ai/multica/commit/daf52e7045e706b6ac640055785693667b0020fe) | forrestchang |
+| 2026-11-23 | [docs(ui): motion rules for v4 transform properties and frozen exit co…](https://github.com/multica-ai/multica/commit/50f1045794cd85e1beb4699d022b80be740d3661) | forrestchang |
+| 2026-11-23 | [chore(ui): check transition-[…] lists cover v4 translate/scale/rotate…](https://github.com/multica-ai/multica/commit/912c3183b3e8fc2bafb37ff32c715455749959e7) | forrestchang |
+| 2026-11-23 | [MUL-9924: Highlight actionable UI areas in Complete tutorial screensh…](https://github.com/multica-ai/multica/commit/665b4cd8e1e94388b1be6f2f685f945f153e7493) | forrestchang |
+| 2026-11-23 | [fix(inbox): keep open issue when switching Work panel Inbox tabs (MUL…](https://github.com/multica-ai/multica/commit/b31a24bea79722d0d157a896f058f6ad4433718b) | forrestchang |
+| 2026-11-23 | [feat(motion): Wave 3 motion polish across issue detail, docs/editor, …](https://github.com/multica-ai/multica/commit/17ccb642973a588eeea9cd7c7aa1d55855f8f914) | forrestchang |
+| 2026-11-23 | [feat(ui): Motion Wave 2 — drag settle, sidebar/peek collapse, Desktop…](https://github.com/multica-ai/multica/commit/7af9e79cec53ac89adf1a28f5096d261cd846621) | forrestchang |
+| 2026-11-23 | [docs(ui): motion rules, and frame-by-frame motion checks with 2x GIFs…](https://github.com/multica-ai/multica/commit/4c110971b29e298558acd25531cf5ffa0caf1e71) | forrestchang |
+| 2026-11-23 | [feat(ui): Motion Wave 1 — exit animations, Collapsible, Tabs slider, …](https://github.com/multica-ai/multica/commit/fa71dc9861ee9437cc7ca2504f9f064337b77675) | forrestchang |
+| 2026-11-23 | [fix(desktop): keep an issue tab's scroll position across tab switches…](https://github.com/multica-ai/multica/commit/5f7cd898afbf846fd9ec4d39fc7c016eec9af9d0) | Bohan-J |
 
 [See all commits ↗](https://github.com/multica-ai/multica/commits)
 

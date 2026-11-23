@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 17d ago</sub>
+<sub>2026-11-04 · 19d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [CI: Update pixi.lock (#72272)](https://github.com/pandas-dev/pandas/commit/717bcd3eda554a0b2e826889f9e30efbd88f00cd) | github-actions[bot] |
 | 2026-11-22 | [BUG: clear error for a scalar row after a list-like row (GH#29213) (#…](https://github.com/pandas-dev/pandas/commit/ef7d968a259a987dd9e5a6d03878f627d5fbf980) | jbrockmendel |
 | 2026-11-21 | [BUG: plotting into one shared axes hid tick labels on its siblings (G…](https://github.com/pandas-dev/pandas/commit/65e672976359106dcbed3fdce142f71b13ed5cb8) | jbrockmendel |
 | 2026-11-21 | [PERF: don't build the engine in Index.is_monotonic_* to check its typ…](https://github.com/pandas-dev/pandas/commit/c3e8e6fd853f56e3e448fdc46f8588d90e651356) | fangchenli |
@@ -103,7 +104,6 @@
 | 2026-11-21 | [BUG: Styler.to_excel reads border color names as widths (GH#71305) (#…](https://github.com/pandas-dev/pandas/commit/50c774dee7eb8f4dd9296f3676ed99231f41bd3f) | zeyadrabie |
 | 2026-11-20 | [BUG: Grouper(freq).value_counts raising with NaT in the grouped index…](https://github.com/pandas-dev/pandas/commit/ca8d2daa1bf8f30f4d1ce26dfad6792f590e298d) | jbrockmendel |
 | 2026-11-20 | [ENH: nlargest/nsmallest on non-numeric dtypes (GH#61166) (#72188)](https://github.com/pandas-dev/pandas/commit/ea9adce7db97709a477308467c90c2ee24d23d60) | jbrockmendel |
-| 2026-11-20 | [DOC: document how to write a custom offset (GH#35569) (#72239)](https://github.com/pandas-dev/pandas/commit/0d1cca392cc1302ee02b797a5b42e9a4071cffce) | jbrockmendel |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

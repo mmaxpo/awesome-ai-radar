@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 12.2k |
+| ⭐ **Stars** | 12.3k |
 | 🍴 **Forks** | 1.8k |
-| 🐞 **Open issues + PRs** | [21](https://github.com/trycompai/crm/issues) |
+| 🐞 **Open issues + PRs** | [23](https://github.com/trycompai/crm/issues) |
 | 💻 **Languages** | TypeScript 96% · Python 2% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-01 (20d ago) |
+| 🕒 **Last activity** | 2026-11-01 (21d ago) |
 | 📅 **Created** | 2026-07-31 |
 | 📦 **Latest release** | [v1.16.0](https://github.com/trycompai/crm/releases/tag/v1.16.0) — 2026-10-22 |
 | 🌿 **Default branch** | `release` |

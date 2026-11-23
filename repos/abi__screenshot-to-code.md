@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Turn screenshots/designs into HTML/React code |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 81.4k |
 | 🍴 **Forks** | 10.0k |
-| 🐞 **Open issues + PRs** | [150](https://github.com/abi/screenshot-to-code/issues) |
+| 🐞 **Open issues + PRs** | [148](https://github.com/abi/screenshot-to-code/issues) |
 | 💻 **Languages** | Python 54% · TypeScript 45% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (6d ago) |
+| 🕒 **Last activity** | 2026-11-15 (8d ago) |
 | 📅 **Created** | 2023-11-14 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

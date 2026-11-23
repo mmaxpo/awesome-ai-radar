@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 71.4k |
 | 🍴 **Forks** | 9.1k |
-| 🐞 **Open issues + PRs** | [165](https://github.com/FoundationAgents/MetaGPT/issues) |
+| 🐞 **Open issues + PRs** | [167](https://github.com/FoundationAgents/MetaGPT/issues) |
 | 💻 **Languages** | Python 97% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `gpt` `llm` `metagpt` `multi-agent` |

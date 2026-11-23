@@ -20,90 +20,90 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.3k |
+| ⭐ **Stars** | 61.4k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [148](https://github.com/twentyhq/twenty/issues) |
+| 🐞 **Open issues + PRs** | [173](https://github.com/twentyhq/twenty/issues) |
 | 💻 **Languages** | TypeScript 82% · MDX 16% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `crm` `customer` `graphql` `marketing` `react` `sales` `typescript` `crm-system` `nestjs` `reactjs` `web` `monorepo` `open-source` `postgresql` `good-first-issue` `hacktoberfest` `javascript` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2022-12-01 |
-| 📦 **Latest release** | [sdk/v2.59.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.59.0) — 2026-11-16 |
+| 📦 **Latest release** | [sdk/v2.62.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.62.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3042.8 MB |
+| 💾 **Size** | 3092.0 MB |
 | 🌐 **Website** | https://twenty.com |
 
 ## 📦 Recent releases
 
-### [sdk/v2.59.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.59.0)
-<sub>2026-11-16 · 5d ago</sub>
+### [sdk/v2.62.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.62.0)
+<sub>2026-11-23 · today</sub>
 
-> **✨ New features**
-> - feat(cli): pull public application assets ([#30275](https://github.com/twentyhq/twenty/pull/30275)) by @Weiko
-> - feat(cli): export workspace records to CSV ([#30279](https://github.com/twentyhq/twenty/pull/30279)) by @Weiko
-> - feat(cli): preserve imported application sources in builds ([#30281](https://github.com/twentyhq/twenty/pull/30281)) by @Weiko
-> - feat(cli): send proxy headers to servers behind authenticating proxies ([#30310](https://github.com/twentyhq/twenty/pull/30310)) by @FelixMalfait
-> **💅 Improvements & UX**
-> …
-
-### [twenty/v2.59.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.59.0)
-<sub>2026-11-16 · 5d ago</sub>
-
-> **✨ New features**
-> - feat(billing): record admin usage limit overrides as arrangements ([#29469](https://github.com/twentyhq/twenty/pull/29469)) by @etiennejouan
-> - feat(inbox): preview chat images inline, browse them, and share attachments with Messages ([#30127](https://github.com/twentyhq/twenty/pull/30127)) by @etiennejouan
-> - feat(teams): manually link Teams users to workspace members ([#30156](https://github.com/twentyhq/twenty/pull/30156)) by @abdulrahmancodes
-> - feat(inbox): show direct messages in their own sidebar section ([#30232](https://github.com/twentyhq/twenty/pull/30232)) by @etiennejouan
-> - feat(cli): pull public application assets ([#30275](https://github.com/twentyhq/twenty/pull/30275)) by @Weiko
-> …
-
-### [twenty/v2.58.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.58.0)
-<sub>2026-11-13 · 8d ago</sub>
-
-> **⚠️ Breaking changes**
-> - [BREAKING_CHANGE] Drop the legacy workspace workflow object ([#30036](https://github.com/twentyhq/twenty/pull/30036)) by @charlesBochet
-> - [BREAKING_CHANGE] Read row level permission rules in the permission compiler ([#30132](https://github.com/twentyhq/twenty/pull/30132)) by @charlesBochet
-> - [BREAKING_CHANGE] Mask record grants with limiting roles and drop legacy current user permissions ([#30145](https://github.com/twentyhq/twenty/pull/30145)) by @charlesBochet
-> - chore(security): bump exa-js to 2.28.0 in the exa app ([#30188](https://github.com/twentyhq/twenty/pull/30188)) by @mabdullahabaid
-> **✨ New features**
-> …
-
-### [sdk/v2.58.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.58.0)
-<sub>2026-11-13 · 8d ago</sub>
-
-> **⚠️ Breaking changes**
-> - [BREAKING_CHANGE] Drop the legacy workspace workflow object ([#30036](https://github.com/twentyhq/twenty/pull/30036)) by @charlesBochet
-> - [BREAKING_CHANGE] Read row level permission rules in the permission compiler ([#30132](https://github.com/twentyhq/twenty/pull/30132)) by @charlesBochet
-> - [BREAKING_CHANGE] Mask record grants with limiting roles and drop legacy current user permissions ([#30145](https://github.com/twentyhq/twenty/pull/30145)) by @charlesBochet
-> **💅 Improvements & UX**
-> - Agents design fixes ([#29288](https://github.com/twentyhq/twenty/pull/29288)) by @Bonapara
-> …
-
-### [twenty/v2.57.1](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.1)
-<sub>2026-11-09 · 12d ago</sub>
-
-> Claude thinking tokens were being billed at roughly 1.7 times the actual Anthropic cost. That is fixed in this release, and cache writes are now priced correctly too. If your workspace uses AI features, credit usage will drop from this version forward.
-> Installed app and marketplace pages show their content again. You can see what data objects, automations, and interface pieces an app includes before or after installing it. SAML providers saved with PEM certificates now authenticate correctly.
-> The Security and Privacy settings pages have been reorganized. Iframe origins and media access use table-style inputs with favicons, the AI card links to the agents and model tiers it affects, and the compliance section opens with a cleaner layout.
+> This release fixes a sidebar regression that left non-admin members without the Applications permission unable to see standard navigation items. Companies, People, Opportunities, Tasks, Notes, Dashboards, and folders all disappeared when the customizable sidebar flag was disabled.
+> No SDK exports, types, or CLI commands changed. Package consumers do not need to update their code.
 > **🌟 Highlights**
-> - Claude thinking tokens were billed at about 1.7× the Anthropic rate — that is now corrected, and cache writes are priced correctly too. ([#29976](https://github.com/twentyhq/twenty/pull/29976))
-> - Installed app and marketplace pages show the full content an app adds — data, automations, interface pieces — after being missing since earlier this year. ([#29707](https://github.com/twentyhq/twenty/pull/29707))
+> - Sidebar navigation items (Companies, People, Opportunities, Tasks, Notes, Dashboards) are now visible to members without the Applications permission when the customizable sidebar flag is off. ([#31179](https://github.com/twentyhq/twenty/pull/31179))
+> **🐛 Bug fixes**
+> - Fixes a bug where sidebar items (Companies, People, Opportunities, Tasks, Notes, Dashboards) were hidden for members lacking the Applications permission when the customizable sidebar flag is off — no SDK changes required. ([#31179](https://github.com/twentyhq/twenty/pull/31179)) by @thomtrp
+> …
+
+### [twenty/v2.62.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.62.0)
+<sub>2026-11-23 · today</sub>
+
+> The `NOT_STARTED` workflow run status is removed in this release. The upgrade command converts any runs in that state to `ENQUEUED` automatically. Update any custom integrations, filters, or views that reference `NOT_STARTED` before upgrading.
+> A regression from 2.61 is fixed for team members without the Applications permission. Those members were seeing an empty sidebar — Companies, People, Opportunities, Tasks, Notes, and Dashboards all gone. Navigation is restored for those roles.
+> Emoji reactions now work in direct messages. Email thread panels no longer break when channel visibility is enabled. Internally, workflow privacy moves from a visibility enum to a boolean flag; the old column stays this release and is dropped in 2.63.
+> **⚠️ Breaking changes**
+> - The NOT_STARTED workflow run status is removed. The upgrade converts existing NOT_STARTED runs to ENQUEUED. Update any integrations, filters, or views that reference NOT_STARTED before upgrading. ([#31154](https://github.com/twentyhq/twenty/pull/31154)) by @charlesBochet
+> **🌟 Highlights**
+> …
+
+### [twenty/v2.61.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.61.0)
+<sub>2026-11-22 · today</sub>
+
+> **⚠️ Breaking changes**
+> - [BREAKING_CHANGE] Show member health checks in Apps preferences ([#29242](https://github.com/twentyhq/twenty/pull/29242)) by @ehconitin
+> - [BREAKING_CHANGE] Upsert row-level permission rules instead of a predicate tree ([#30252](https://github.com/twentyhq/twenty/pull/30252)) by @charlesBochet
+> - Import recurring Google Calendar meetings only up to 90 days ahead ([#30335](https://github.com/twentyhq/twenty/pull/30335)) by @neo773
+> - [BREAKING_CHANGE] Add a 2.60 command that drops the workspace workflowVersion object ([#30500](https://github.com/twentyhq/twenty/pull/30500)) by @thomtrp
+> - [BREAKING_CHANGE] Add generic date functions to validation rules ([#30527](https://github.com/twentyhq/twenty/pull/30527)) by @FelixMalfait
+> …
+
+### [sdk/v2.61.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.61.0)
+<sub>2026-11-22 · today</sub>
+
+> Nine breaking changes ship here. Billing types are the main target: `planKey` on `BillingSubscriptionItem` is now nullable, the metered API is removed, and `... on BillingLicensedProduct` fragments need updating. `navigationMenuItem.folderId` renames to `parentId` and `upsertRowLevelPermissionPredicates` moves to a rules array. `recordShare` and `accessGroup` are removed as standard workspace objects.
+> App manifests gain `billing.prices` for real-currency per-member pricing. Agents support `isPrivate` and `createdByUserWorkspaceId`. Three new APIs — `connectedAccount`, `READ_PRIVATE_CHANNELS`, and `calendarChannels` — let an app map calendar channels to their owners without user context.
+> `twenty app pull` now restores both frontend dependencies and logic-function sources. `twenty app dev --verbose` shows the full watch scope.
+> **⚠️ Breaking changes**
+> - `defineHealthCheck` now accepts `runOnUserPreferences: true` to show the check in member preferences; without it, checks only run in workspace settings. ([#29242](https://github.com/twentyhq/twenty/pull/29242)) by @ehconitin
+> - `upsertRowLevelPermissionPredicates` is removed; replace calls with the rules-based API, passing each rule as an object with its own `operations` array and predicate groups. ([#30252](https://github.com/twentyhq/twenty/pull/30252)) by @charlesBochet
+> …
+
+### [sdk/v2.60.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.60.0)
+<sub>2026-11-22 · today</sub>
+
+> **⚠️ Breaking changes**
+> - [BREAKING_CHANGE] Show member health checks in Apps preferences ([#29242](https://github.com/twentyhq/twenty/pull/29242)) by @ehconitin
+> - [BREAKING_CHANGE] Upsert row-level permission rules instead of a predicate tree ([#30252](https://github.com/twentyhq/twenty/pull/30252)) by @charlesBochet
+> - Import recurring Google Calendar meetings only up to 90 days ahead ([#30335](https://github.com/twentyhq/twenty/pull/30335)) by @neo773
+> - [BREAKING_CHANGE] Add a 2.60 command that drops the workspace workflowVersion object ([#30500](https://github.com/twentyhq/twenty/pull/30500)) by @thomtrp
+> - [BREAKING_CHANGE] Add generic date functions to validation rules ([#30527](https://github.com/twentyhq/twenty/pull/30527)) by @FelixMalfait
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [i18n - translations (#31141)](https://github.com/twentyhq/twenty/commit/b83122a7cc112703807546f5b830b7e3ba862edb) | twenty-pr[bot] |
-| 2026-11-22 | [Leave message attachments out of role wide access and individual role…](https://github.com/twentyhq/twenty/commit/9cee6f100e32b70e2aaf6189d7c809406da3b892) | charlesBochet |
-| 2026-11-22 | [Name AI chat and inbox code after what it is (#31139)](https://github.com/twentyhq/twenty/commit/d4578e4a3492d0afa763d9b1214cbd29279ee850) | charlesBochet |
-| 2026-11-22 | [Look up walled and one-to-many access group rules by value (#31135)](https://github.com/twentyhq/twenty/commit/fe2e676f952fd22e397856e868520733e66d6f97) | charlesBochet |
-| 2026-11-22 | [Add a command revoking role wide access to channel objects where chan…](https://github.com/twentyhq/twenty/commit/fc01ecf6b928954c90395a74fc25d816b350c7da) | charlesBochet |
-| 2026-11-22 | [Share duplicated AI chat and inbox logic in helpers (#31137)](https://github.com/twentyhq/twenty/commit/1975701b78c26a0b007cc1f2e46c5f9238f4159c) | charlesBochet |
-| 2026-11-22 | [Mark unreadable columns that show the restricted placeholder instead …](https://github.com/twentyhq/twenty/commit/fa5e12dc79f474f4133fbdd6fa8517c8466bfd24) | charlesBochet |
-| 2026-11-22 | [i18n - translations (#31138)](https://github.com/twentyhq/twenty/commit/94f8941f696fb1d9df9468ba372cc4640b830d01) | twenty-pr[bot] |
-| 2026-11-22 | [Reach message and calendar records through channel visibility rules b…](https://github.com/twentyhq/twenty/commit/cc90c95e40e0e1deb7a3b20b6de7af7b0cbf45b8) | charlesBochet |
-| 2026-11-22 | [Delete and trim low-value AI front-end tests (#31134)](https://github.com/twentyhq/twenty/commit/e08883f50f3ad29c65b7fac8592f78be99054204) | charlesBochet |
+| 2026-11-23 | [Fix CLI manifest mock so named UI imports resolve at load time (#30933)](https://github.com/twentyhq/twenty/commit/73cf770ecf565b82e6f2eb8adf24eadd7216288c) | BOHEUS |
+| 2026-11-23 | [Refuse links to records the role cannot read (#31198)](https://github.com/twentyhq/twenty/commit/79b780c867a18fd07e984a25932dfabec4b2e23a) | charlesBochet |
+| 2026-11-23 | [Exempt API keys from channel visibility behind a feature flag (#31215)](https://github.com/twentyhq/twenty/commit/67076baf6df464c9c8c6e453115018873839b7d8) | charlesBochet |
+| 2026-11-23 | [chore: remove the unused entities dependency from twenty-shared (#31230)](https://github.com/twentyhq/twenty/commit/315f315403bd628d3892bbc5a187f88389b698e5) | mabdullahabaid |
+| 2026-11-23 | [Compute access groups on writes made in the lite workspace context (#…](https://github.com/twentyhq/twenty/commit/c4ccdfcd258762b0d4ecfe01c7410c8175628bfe) | charlesBochet |
+| 2026-11-23 | [chore: remove unused dependencies from twenty-zapier (#31232)](https://github.com/twentyhq/twenty/commit/f938ee43cdf8c31c7493a2f28c99497285e30648) | mabdullahabaid |
+| 2026-11-23 | [i18n - translations (#31246)](https://github.com/twentyhq/twenty/commit/d0257d16a81f18a00a6d3389b94cc308bdb154d5) | twenty-pr[bot] |
+| 2026-11-23 | [i18n - translations (#31241)](https://github.com/twentyhq/twenty/commit/5722ff75a6475bf4d2cf6c8a659acf5281489389) | twenty-pr[bot] |
+| 2026-11-23 | [Move a built-in section to a tab that already holds one (#31030)](https://github.com/twentyhq/twenty/commit/554aa20418073dbb9457556afa620230add04f6d) | thomtrp |
+| 2026-11-23 | [feat(ai-chat): refuse attachments over 50 MB with an error toast (#31…](https://github.com/twentyhq/twenty/commit/5511cff1f8459edc6b8245679d2b9f11bb0f3b10) | etiennejouan |
 
 [See all commits ↗](https://github.com/twentyhq/twenty/commits)
 

@@ -14,27 +14,29 @@
 | **Why it's worth a look** | Autonomous agent that researches and writes reports |
 | **Added** | 2026-11-11 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 30.8k |
+| ⭐ **Stars** | 30.9k |
 | 🍴 **Forks** | 4.3k |
-| 🐞 **Open issues + PRs** | [80](https://github.com/assafelovic/gpt-researcher/issues) |
-| 💻 **Languages** | Python 66% · TypeScript 24% · JavaScript 4% · CSS 4% · HCL 1% |
+| 🐞 **Open issues + PRs** | [16](https://github.com/assafelovic/gpt-researcher/issues) |
+| 💻 **Languages** | Python 68% · TypeScript 23% · JavaScript 4% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `python` `agent` `automation` `research` `search` `webscraping` `llms` `deepresearch` `mcp` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-12 (9d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 53.1 MB |
+| 💾 **Size** | 58.2 MB |
 | 🌐 **Website** | https://gptr.dev |
 
 ## 📦 Recent releases
 
 ### [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — New paper UI, detailed reports in 3:27, and 53 community fixes
-<sub>2026-11-09 · 12d ago</sub>
+<sub>2026-11-09 · 14d ago</sub>
 
 > **A new UI, and detailed reports in under 4 minutes**
 > <a href="https://github.com/user-attachments/assets/4d3f26cf-8ccc-413a-b17c-80aa9e1b52d1">
@@ -92,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-09 | [ci: remove the AWS ECR build and Terraform deploy workflows (#2276)](https://github.com/assafelovic/gpt-researcher/commit/ddd4db36208d9c8e49f3b2436efda97baecb5433) | assafelovic |
-| 2026-11-09 | [Merge pull request #2274 from assafelovic/triage/2026-11-release](https://github.com/assafelovic/gpt-researcher/commit/597a99e2ef879606229754ec0d575a89eb587464) | assafelovic |
-| 2026-11-09 | [ci(docker): use the Node 24 majors of the Docker actions](https://github.com/assafelovic/gpt-researcher/commit/5016a09e4ffb238f176f8ff5ed4e2584c68e4d6b) | assafelovic |
-| 2026-11-09 | [chore(release): 0.17.0, single [project] metadata table](https://github.com/assafelovic/gpt-researcher/commit/273a073938ae62c86cfd5083c9900220ebacf735) | assafelovic |
-| 2026-11-09 | [chore(frontend): stop tracking the next-pwa service worker build output](https://github.com/assafelovic/gpt-researcher/commit/dc1c4c42af6340493b7d9a5b748fa99b4eecf714) | assafelovic |
-| 2026-11-09 | [Merge PR #2222: docs: sync Chinese README (README-zh_CN.md) with the …](https://github.com/assafelovic/gpt-researcher/commit/937dac255ec9dc6908ed0355d22b37170344027d) | assafelovic |
-| 2026-11-09 | [Merge PR #1924: feat: update MiniMax regional providers and Flash def…](https://github.com/assafelovic/gpt-researcher/commit/08013dffbd33db5010738a9f5ca368260c1b4786) | assafelovic |
-| 2026-11-09 | [Merge PR #2184: feat: add Deploy on Render page and render.yaml](https://github.com/assafelovic/gpt-researcher/commit/f98e0054d74db9a6710394ae23678d12c82d2584) | assafelovic |
-| 2026-11-09 | [Merge PR #2231: fix(scraper): retry HTTP 403 with a transparent user …](https://github.com/assafelovic/gpt-researcher/commit/07b262feff37e3f559fb1a687a0e895f94a00ad0) | assafelovic |
-| 2026-11-09 | [Merge PR #2232: feat: add an optional research lifecycle observer](https://github.com/assafelovic/gpt-researcher/commit/3537a245e76e449100be1bb1930ea9931aa3fe8b) | assafelovic |
+| 2026-11-23 | [Merge pull request #2364 from assafelovic/docs/costs-page](https://github.com/assafelovic/gpt-researcher/commit/9d39a2f86d55e264f69dfeff2365f27fad3c1144) | assafelovic |
+| 2026-11-23 | [docs: add a Costs page and link it from the overview](https://github.com/assafelovic/gpt-researcher/commit/8b857ff9fba30f5d5d4bb0a63f426327a8a1efa8) | assafelovic |
+| 2026-11-23 | [Merge pull request #2359 from assafelovic/fix/detailed-report-costs](https://github.com/assafelovic/gpt-researcher/commit/5e95ef4b3cc476de99be98e933c13acf53c96aea) | assafelovic |
+| 2026-11-22 | [fix: deliver cost_update events to custom log handlers](https://github.com/assafelovic/gpt-researcher/commit/df48d9cbb01bf19f00b0c79b83112a3bcda46ed8) | assafelovic |
+| 2026-11-22 | [fix: include subtopic researcher costs in detailed report totals](https://github.com/assafelovic/gpt-researcher/commit/797bdf64e70ec6e888a31b9ff402783eb556d970) | assafelovic |
+| 2026-11-22 | [Merge pull request #2358 from assafelovic/docs/cost-stats](https://github.com/assafelovic/gpt-researcher/commit/8b474fe7d92aca112601cb87e1ec0999103bc01a) | assafelovic |
+| 2026-11-22 | [docs: update cost and runtime stats to measured values](https://github.com/assafelovic/gpt-researcher/commit/a390845f68069bc20a6cb8b2a2c975d5db4cd29e) | assafelovic |
+| 2026-11-22 | [Merge pull request #2357 from assafelovic/docs/site-polish](https://github.com/assafelovic/gpt-researcher/commit/1f1117e460cc0e159907290235e6d8de81e579f3) | assafelovic |
+| 2026-11-22 | [docs: site icons, homepage title, Discord badge and FAQ cost](https://github.com/assafelovic/gpt-researcher/commit/833ec119cf06df2040015c435fb7f93b1ad0816f) | assafelovic |
+| 2026-11-22 | [Frontend follow-ups: runtime /outputs proxy and a Next.js lockfile (#…](https://github.com/assafelovic/gpt-researcher/commit/0b27488a8576415af1d1246ddc9c2364275d6c7f) | assafelovic |
 
 [See all commits ↗](https://github.com/assafelovic/gpt-researcher/commits)
 

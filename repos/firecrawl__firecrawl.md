@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 206.6k |
+| ⭐ **Stars** | 207.6k |
 | 🍴 **Forks** | 10.8k |
-| 🐞 **Open issues + PRs** | [914](https://github.com/firecrawl/firecrawl/issues) |
+| 🐞 **Open issues + PRs** | [924](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 74% · Python 10% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [feat(api): route gov web-search to research proxy behind flag (#5984)](https://github.com/firecrawl/firecrawl/commit/6f2c50739e8426c49e83832408927bf0f862e69b) | KrisOei |
+| 2026-11-23 | [fix(api): name the lock on every firebill finalize confirm (#5982)](https://github.com/firecrawl/firecrawl/commit/25b2e0586509ff213d5e9f99c0044c637e640ee9) | micahstairs |
+| 2026-11-23 | [feat(api): send government search to the research proxy behind a flag…](https://github.com/firecrawl/firecrawl/commit/e21a58e60f70872f420b87579c14775f56580bb0) | KrisOei |
 | 2026-11-22 | [feat(api): optional extra resource prefixes for MCP action logs (#5950)](https://github.com/firecrawl/firecrawl/commit/3487d929360fa3544a18b2cdd92615f4d24ba1a3) | capy-ai[bot] |
 | 2026-11-22 | [test(api): resolve the map redirect snip's redirect from its mock (#5…](https://github.com/firecrawl/firecrawl/commit/151238789187480b1cef449d5c765411da5e3757) | capy-ai[bot] |
 | 2026-11-22 | [test(api): accept an HTTP error status for search results that scrape…](https://github.com/firecrawl/firecrawl/commit/804ec0b87d30f6406032211e46fddc3f09380913) | Ben2W |
@@ -101,9 +104,6 @@
 | 2026-11-20 | [feat(api): add HOSTED_MCP_PROXY_SECRET for hosted MCP API-key request…](https://github.com/firecrawl/firecrawl/commit/41b36dfd28ad69df7da221d1d51f3d5fb4838be3) | Ben2W |
 | 2026-11-20 | [feat(api): name the search that led to each Alexandria call (#5934)](https://github.com/firecrawl/firecrawl/commit/e6f43250c51fb9811f1e60c016f146599d38b9e6) | nickscamara |
 | 2026-11-20 | [feat(threat-protection): raise org domain list cap to 10,000 and inde…](https://github.com/firecrawl/firecrawl/commit/f96a5154660165061d5b1defa0091bee28571f5d) | micahstairs |
-| 2026-11-20 | [feat(api): feedback for interact and browser sessions, and trace ids …](https://github.com/firecrawl/firecrawl/commit/380e1db208519c84bc57d533411854180c714f73) | nickscamara |
-| 2026-11-20 | [fix(api): send the scrape deadline to the Exchange (#5921)](https://github.com/firecrawl/firecrawl/commit/87202348f7b3c5273c237fe8b47d3c2568f4938c) | capy-ai[bot] |
-| 2026-11-20 | [chore(api): remove the hosted bash endpoint at /v2/bash (#5889)](https://github.com/firecrawl/firecrawl/commit/484be117975ac7b8be085c25f1fbd54d005f17ff) | Ben2W |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

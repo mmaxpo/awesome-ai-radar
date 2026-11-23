@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 16.4k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [419](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [420](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-19 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 61.5 MB |
+| 💾 **Size** | 61.6 MB |
 | 🌐 **Website** | https://pyo3.rs |
 
 ## 📦 Recent releases
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Also let dependabot update github actions in `/.github/actions/` (#6599)](https://github.com/PyO3/pyo3/commit/f6aeac96014895c0773230e3c23795f7b9b477e1) | bschoenmaeckers |
+| 2026-11-23 | [build(deps): update codspeed-criterion-compat requirement (#6553)](https://github.com/PyO3/pyo3/commit/ddab9f931a014ea3939142274177111fd3645be1) | dependabot[bot] |
+| 2026-11-23 | [build(deps): bump the github-actions group with 2 updates (#6595)](https://github.com/PyO3/pyo3/commit/77598f4562cdf49b941cb9bca2eb95f76b94dc61) | dependabot[bot] |
+| 2026-11-23 | [Add support for `jiff` V1 (#6584)](https://github.com/PyO3/pyo3/commit/172078950af2d89898cc1297f405dacf85593bcf) | bschoenmaeckers |
+| 2026-11-23 | [Introspection: make __new__ return Self (#6384)](https://github.com/PyO3/pyo3/commit/99fafb333f00971b26aa43d5ebe2dbb4ee8229f3) | Tpt |
+| 2026-11-23 | [perf: read abi3 `datetime` fields through the descriptor `tp_descr_ge…](https://github.com/PyO3/pyo3/commit/3acfb9b802129301c0d7011e4775038af15554eb) | alexander-beedie |
 | 2026-11-19 | [docs: add llm-token-visualizer to README examples (#6586)](https://github.com/PyO3/pyo3/commit/be9e428ab7573552c65aa9e7a7a0c6d14b06fd5d) | Mattbusel |
 | 2026-11-19 | [Make `PyFrame` available on `abi3`/`graalpy`/`pypy` (#6589)](https://github.com/PyO3/pyo3/commit/b122a1237643aedf89f16a33a92b6204a498957e) | bschoenmaeckers |
 | 2026-11-19 | [Introspection: add `pyprotocol!` to declare protocols in the stubs (#…](https://github.com/PyO3/pyo3/commit/2432980aa4aa42618e4423c449cc8acab8040cc7) | jonasdedden |
 | 2026-11-17 | [Use `cfg_select` in `OsStr` conversions (#6587)](https://github.com/PyO3/pyo3/commit/a6addae8948adedafd09b2832edf3fa23d282b16) | bschoenmaeckers |
-| 2026-11-16 | [build(deps): bump the github-actions group across 1 directory with 2 …](https://github.com/PyO3/pyo3/commit/fcee2dc3d6bc5848922c74fd096e7548cf68856a) | dependabot[bot] |
-| 2026-11-15 | [docs: add pyromark to README examples (#6582)](https://github.com/PyO3/pyo3/commit/5f2e89208b2bdbcf10580ec2742e96fba697ad21) | monosans |
-| 2026-11-14 | [Fix Python logging example in documentation (#6581)](https://github.com/PyO3/pyo3/commit/b3fd214929cb17bfdc330c1388bcf24bfd3b2778) | innerpeacenan |
-| 2026-11-13 | [avoid leaking integers when creating slice objects (#6575)](https://github.com/PyO3/pyo3/commit/bafdacd76db5612488bcf941a89bb312fc30851f) | davidhewitt |
-| 2026-11-13 | [ci: fix lint failures nov 26 (#6576)](https://github.com/PyO3/pyo3/commit/c99586455deae0394c5a53e43db9333dd6937d4c) | davidhewitt |
-| 2026-11-02 | [feat: introduce stack-allocated `PyBuffer` (#5894)](https://github.com/PyO3/pyo3/commit/f41d7e8799cad7f1c393d00276a4fa7b83acf885) | winstxnhdw |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

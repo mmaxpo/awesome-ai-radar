@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 72.4k |
-| 🍴 **Forks** | 6.4k |
-| 🐞 **Open issues + PRs** | [16](https://github.com/mvanhorn/last30days-skill/issues) |
+| ⭐ **Stars** | 73.2k |
+| 🍴 **Forks** | 6.5k |
+| 🐞 **Open issues + PRs** | [24](https://github.com/mvanhorn/last30days-skill/issues) |
 | 💻 **Languages** | Python 96% · HTML 2% · Go 1% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `ai-prompts` `claude` `claude-code` `reddit` `twitter` `hackernews` `polymarket` `research` `youtube` `ai-skill` `bluesky` `clawhub` `deep-research` `instagram` `openclaw` `recency` `social-media` `tiktok` `trends` `web-search` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🏷 **Topics** | `reddit` `twitter` `polymarket` `youtube` `instagram` `tiktok` `agent-skills` `artificial-intelligence` `bot` `command-line` `data-science` `dsh-plugin` `golang` `llms` `nlp` `osint` `python3` `dsh` `automation` `terminal` |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-01-23 |
 | 📦 **Latest release** | [v4.6.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 57.0 MB |
+| 💾 **Size** | 56.3 MB |
 
 ## 📦 Recent releases
 
 ### [v4.6.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0)
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **What's Changed**
 > * fix(comments): spend TikTok and Instagram comment calls on posts the report keeps by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1554
@@ -46,7 +46,7 @@
 > …
 
 ### [v4.5.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.5.0)
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **What's Changed**
 > * fix(reddit): unpack all three results in attach_comments by @itzzdev09 in https://github.com/mvanhorn/last30days-skill/pull/1548
@@ -57,7 +57,7 @@
 > …
 
 ### [v4.4.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.4.0)
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **What's Changed**
 > * fix(watchlist): pass scheduled topics as literal research text by @iliaal in https://github.com/mvanhorn/last30days-skill/pull/1514
@@ -68,7 +68,7 @@
 > …
 
 ### [v4.3.2](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.2)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **What's Changed**
 > * docs: add Persian (Farsi) README translation by @abbasi0abolfazl in https://github.com/mvanhorn/last30days-skill/pull/1503
@@ -79,7 +79,7 @@
 > …
 
 ### [v4.3.1](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.1)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **What's Changed**
 > * docs: README shows what v4 does by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1497
@@ -92,6 +92,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [feat(codex): add plugin icon (#1567)](https://github.com/mvanhorn/last30days-skill/commit/331025e662756ca51e86dfddcf59969f6dba25a0) | mvanhorn |
+| 2026-11-22 | [docs: document DeepSeek Harness as a supported host (#1565)](https://github.com/mvanhorn/last30days-skill/commit/b1b096bd5ac9ab945da757ebc3ccee0c5f264fd6) | mvanhorn |
 | 2026-11-22 | [chore(release): bump version to 4.6.0 (#1559)](https://github.com/mvanhorn/last30days-skill/commit/64b1f006f800640022ce07f51de5ce56aad34b76) | github-actions[bot] |
 | 2026-11-22 | [feat(shortform): keyless TikTok/Instagram fallback via web discovery …](https://github.com/mvanhorn/last30days-skill/commit/5354e7791ed5d617330b79944cdfdf43a449245d) | grain-lu |
 | 2026-11-21 | [feat(library): silent multi-harness finished-brief capture and offlin…](https://github.com/mvanhorn/last30days-skill/commit/e63f8e8732f1b934449b363f211b3654531b8ef2) | mvanhorn |
@@ -100,8 +102,6 @@
 | 2026-11-21 | [chore(release): bump version to 4.5.0 (#1553)](https://github.com/mvanhorn/last30days-skill/commit/8ede659374b298ffb0529e13b802c0bd9637f769) | github-actions[bot] |
 | 2026-11-21 | [feat: OpenCode browse MCP lane for X and Reddit host data (#1537)](https://github.com/mvanhorn/last30days-skill/commit/fe5093dbf9957566b584fb49b94ccf1b7f8ab4c6) | dtnghla |
 | 2026-11-21 | [fix(env): stop sending APIFY_API_TOKEN to ScrapeCreators for TikTok (…](https://github.com/mvanhorn/last30days-skill/commit/8f6d51607bbe0ab69a8042293d749a7d6f4984fe) | mvanhorn |
-| 2026-11-21 | [fix(cookies): recover Windows Firefox WAL snapshots on WSL (#1552)](https://github.com/mvanhorn/last30days-skill/commit/c0aa57742e50a1bd1e49c622581725427c05093c) | iliaal |
-| 2026-11-21 | [fix(x): drop advanced-search operators from the Bird topic query (#1544)](https://github.com/mvanhorn/last30days-skill/commit/168aa67f2b637a2766f9e117fa8a3ff24d51a858) | dajiaohuang |
 
 [See all commits ↗](https://github.com/mvanhorn/last30days-skill/commits)
 

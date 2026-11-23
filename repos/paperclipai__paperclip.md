@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.8k |
-| 🍴 **Forks** | 19.2k |
-| 🐞 **Open issues + PRs** | [7.0k](https://github.com/paperclipai/paperclip/issues) |
+| ⭐ **Stars** | 116.2k |
+| 🍴 **Forks** | 19.3k |
+| 🐞 **Open issues + PRs** | [7.1k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 3% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 555.2 MB |
+| 💾 **Size** | 558.5 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
 ### [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **Paperclip v2026.1117.0**
 > > Released: 2026-11-17
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 15d ago</sub>
+<sub>2026-11-06 · 16d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -69,7 +69,7 @@
 > …
 
 ### [v2026.1023.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0)
-<sub>2026-10-24 · 29d ago</sub>
+<sub>2026-10-24 · 1mo ago</sub>
 
 > **Paperclip v2026.1023.0**
 > > Released: 2026-10-23
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [fix(identity): read a provisioned agent key without an exclusive agen…](https://github.com/paperclipai/paperclip/commit/7671e0cf0d718351f3b0c4d6a7d33df9867ffb8a) | devinfoley |
-| 2026-11-22 | [fix(runner): support native OpenCode on macOS SSH hosts (#22534)](https://github.com/paperclipai/paperclip/commit/28ed2f1db0eec8750be6ecb20c74694cb584d8e0) | devinfoley |
-| 2026-11-22 | [test(restart-chaos): drain a max-hours hosted run from the end of arr…](https://github.com/paperclipai/paperclip/commit/e5f0e1508bd4eb00142433452b1afa85ec4446f8) | cryppadotta |
-| 2026-11-22 | [test(ui): wait for the settings notification before the company home …](https://github.com/paperclipai/paperclip/commit/324ec1f537a9ba1e84239faa81bcef326a5dd1b7) | cryppadotta |
-| 2026-11-22 | [fix(recovery): report an unprepared saved skill on resume instead of …](https://github.com/paperclipai/paperclip/commit/7e30ba2c453b7de36c40c10b90ae67b0a47cf2bd) | paperclipbugbot |
-| 2026-11-22 | [fix(heartbeat): deliver a saved answer on a reviewed task with open b…](https://github.com/paperclipai/paperclip/commit/4ec1447a671774b3c921ffd4ae4bbe383fbbff9b) | paperclipbugbot |
-| 2026-11-22 | [test(server): advance the maintenance fake clock only after database …](https://github.com/paperclipai/paperclip/commit/7a4a5bba8a0b2c82336f41e158d3fe676d16eba2) | cryppadotta |
-| 2026-11-22 | [fix(chat): continue a Slack question that a person answered in Paperc…](https://github.com/paperclipai/paperclip/commit/782bd8d8ebc522a955c8c1f27be68b23ad4e6a96) | paperclipbugbot |
-| 2026-11-22 | [fix(server): validate agentId query parameter on company activity end…](https://github.com/paperclipai/paperclip/commit/ac02de7732e8aad2d44304792db8cec4a5a0ebc0) | sentry[bot] |
-| 2026-11-22 | [test(runner): wait for the background task notification turn before t…](https://github.com/paperclipai/paperclip/commit/28c11084ad86fdd8c5e17201b459b0f7df919e7b) | cryppadotta |
+| 2026-11-23 | [fix(connectors): show Anthropic as "Anthropic (Claude)" so a Claude s…](https://github.com/paperclipai/paperclip/commit/9a6e61cf36f5908f82fa8368a8a91d694dc68407) | cryppadotta |
+| 2026-11-23 | [fix(apps): show readable Google Workspace action names on Review and …](https://github.com/paperclipai/paperclip/commit/98fd412851a3d326463c2ba2f22d1d0d8941305f) | cryppadotta |
+| 2026-11-23 | [fix(logging): keep tool-call arguments out of failed request logs (#2…](https://github.com/paperclipai/paperclip/commit/624a78fd5d29dd30a513e170689c39f583f19c05) | cryppadotta |
+| 2026-11-23 | [fix(connections): remove connection content when a task or company is…](https://github.com/paperclipai/paperclip/commit/a3af1ac6dbc735ed1027b358985bafaacaac8392) | cryppadotta |
+| 2026-11-23 | [fix(ui): open and link only http(s) or same-origin URLs from user and…](https://github.com/paperclipai/paperclip/commit/ad163d0e360147bfee10bb31f56cd9696a093782) | cryppadotta |
+| 2026-11-23 | [fix(native): store repeated provider pack bytes once in each workspac…](https://github.com/paperclipai/paperclip/commit/b7dea0f07002c94cc6237e5e6766b27e40e3cdc7) | cryppadotta |
+| 2026-11-23 | [fix(telemetry): report every Paperclip runner harness as its own adap…](https://github.com/paperclipai/paperclip/commit/06d488b4303b4a5095ccd6f8f8107a5c79728e10) | cryppadotta |
+| 2026-11-23 | [fix(claude-local): accept every copy hint key in the setup-token prom…](https://github.com/paperclipai/paperclip/commit/8f20961d2027285ab90a1e2937c3737422990a43) | son9son9 |
+| 2026-11-23 | [fix(customer-success): fit oversized inspection list pages instead of…](https://github.com/paperclipai/paperclip/commit/78b10a43ce751c2e16a15593f40cb134d9ca2c03) | cryppadotta |
+| 2026-11-23 | [fix(ui): keep the tasks the user opened in the saved read cache ahead…](https://github.com/paperclipai/paperclip/commit/30881e6aa9a4d1c00ea5be3db36047d267b82e1b) | cryppadotta |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

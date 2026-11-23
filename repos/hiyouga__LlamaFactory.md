@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `fine-tuning` `llama` `llm` `peft` `transformers` `rlhf` `qlora` `quantization` `qwen` `instruction-tuning` `gpt` `lora` `large-language-models` `agent` `ai` `moe` `llama3` `deepseek` `gemma` `nlp` |
-| 🕒 **Last activity** | 2026-11-21 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-05-28 |
 | 📦 **Latest release** | [v0.9.5](https://github.com/hiyouga/LlamaFactory/releases/tag/v0.9.5) — 2026-05-30 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 14.0 MB |
+| 💾 **Size** | 14.1 MB |
 | 🌐 **Website** | https://llamafactory.readthedocs.io |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [[v1] Refactor the FSDPTurbo adapter and gradient lifecycle (#11013)](https://github.com/hiyouga/LlamaFactory/commit/8ebba0d07dd14fdb1d429c497f018c7dae2e44b7) | hazelduan |
+| 2026-11-23 | [[hparams] map warmup_ratio to warmup_steps on transformers v5 (#11009)](https://github.com/hiyouga/LlamaFactory/commit/d1867f4084dee160d4aff86a5467ff397daf20bf) | prassu017 |
+| 2026-11-23 | [[docs] fix Wiki QA dataset link and refresh install/login instruction…](https://github.com/hiyouga/LlamaFactory/commit/bc4983a18a20f15af232924e9c6760fd640ec4a3) | codemayq |
+| 2026-11-23 | [[data] fix: close the function tag in Seed-OSS tool calls (#11003)](https://github.com/hiyouga/LlamaFactory/commit/68c4b74d72a6fc4f09b05fbd11250396ac6e770d) | nurlanmnn |
+| 2026-11-23 | [[docker] add FSDPTurbo and upgrade triton-ascend to 3.6.0 (#11011)](https://github.com/hiyouga/LlamaFactory/commit/e12b2c7dc8a3200365c96e48e79471f780bb7679) | xvxuopop |
 | 2026-11-21 | [[docs] Add InCoder and IQuest models to the README tables (#11008)](https://github.com/hiyouga/LlamaFactory/commit/42acf37f59b0af71480647e47e228ca4228cb43b) | CSJianYang |
 | 2026-11-19 | [[docs] Add GitCode badge to README (#11000)](https://github.com/hiyouga/LlamaFactory/commit/b4e4d3fcb2a5a13ce6b9431d395e3939f84b8ec1) | hiyouga |
 | 2026-11-18 | [[model] Add GS1 decision model training with native two-stage recipe …](https://github.com/hiyouga/LlamaFactory/commit/57712ad19597cf75114c4c907e5189df5107f6bd) | jacklanda |
 | 2026-11-17 | [[deps] upgrade transformers to 5.17.0 (#10869)](https://github.com/hiyouga/LlamaFactory/commit/885a4ca65cebf17a92e869af13c2ce42caca314a) | chinyixiang |
 | 2026-11-17 | [[docs] add Qwen3.8 to the supported models table (#10992)](https://github.com/hiyouga/LlamaFactory/commit/5cbf775b4e22c791d9026a9682634378bbf1aabd) | Manfredss |
-| 2026-11-16 | [[ci] Trigger CI workflows on requirements/*.txt changes (#10989)](https://github.com/hiyouga/LlamaFactory/commit/8869783bb72fffd44524042fbb716980bd89fd85) | hiyouga |
-| 2026-11-16 | [[v1] Adapt to FSDPTurbo GDN API (#10985)](https://github.com/hiyouga/LlamaFactory/commit/fc4f229430a2bb30cfbf47dd0ce3f37429821804) | hazelduan |
-| 2026-11-16 | [[v1] Fix FSDPTurbo expert ownership, CP gradients, and plan compatibi…](https://github.com/hiyouga/LlamaFactory/commit/faee7b999862e7abed1e0922ea818d5684762981) | hazelduan |
-| 2026-11-13 | [[deps] upgrade vllm to 0.28.0 (#10857)](https://github.com/hiyouga/LlamaFactory/commit/5f1f6ad537e69216e0604671223cc1eeecbb7ba6) | chinyixiang |
-| 2026-11-12 | [fix model type cast (#10971)](https://github.com/hiyouga/LlamaFactory/commit/6d1059c727450a4f58e56ad204d01a71abad7781) | codemayq |
 
 [See all commits ↗](https://github.com/hiyouga/LlamaFactory/commits)
 

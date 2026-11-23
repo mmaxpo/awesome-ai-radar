@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 13.8k |
 | 🍴 **Forks** | 2.8k |
-| 🐞 **Open issues + PRs** | [136](https://github.com/0x4m4/hexstrike-ai/issues) |
+| 🐞 **Open issues + PRs** | [135](https://github.com/0x4m4/hexstrike-ai/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `0x4m4` `ai` `ai-agents` `ai-cybersecurity` `ai-hacking` `ai-penetration-testing` `ai-security-tool` `artificial-intelligence` `ctf-tools` `generative-ai` `kali-linux` `kali-tools` `llm` `llm-integration` `mcp` `mcp-server` `mcp-tools` `pentesting` `pentesting-tools` `hexstrike` |

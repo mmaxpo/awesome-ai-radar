@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 62.6k |
+| ⭐ **Stars** | 62.9k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [252](https://github.com/vectorize-io/hindsight/issues) |
-| 💻 **Languages** | Python 70% · TypeScript 17% · MDX 9% · Rust 2% |
+| 🐞 **Open issues + PRs** | [235](https://github.com/vectorize-io/hindsight/issues) |
+| 💻 **Languages** | Python 70% · TypeScript 16% · MDX 9% · Rust 2% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
-| 🕒 **Last activity** | 2026-11-21 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-10-30 |
 | 📦 **Latest release** | [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 835.1 MB |
+| 💾 **Size** | 841.1 MB |
 | 🌐 **Website** | https://hindsight.vectorize.io/ |
 
 ## 📦 Recent releases
 
 ### [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.2.2 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6678
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.2](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.2)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **What's Changed**
 > * test(llm): fix the two-user-turns tests broken by the tool-call retry by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6492
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1)
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **What's Changed**
 > * docs drop 0.9 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6284
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 19d ago</sub>
+<sub>2026-11-03 · 20d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [fix(knowledge): PDF calls queued when the pool is killed are retried,…](https://github.com/vectorize-io/hindsight/commit/62a03bfc96f175e9ac155acc72f292bed9ac4449) | nicoloboschi |
-| 2026-11-20 | [fix(kb): a PDF page is its own document in the rerank; drop the page …](https://github.com/vectorize-io/hindsight/commit/80bd005fc2be5c9604a1a0c9741ea93d5ac85156) | nicoloboschi |
-| 2026-11-20 | [perf(kb): time knowledge search by part, and let its vector searches …](https://github.com/vectorize-io/hindsight/commit/1ee4d90a25898afb9cb04f65e3fe8512d4759227) | nicoloboschi |
-| 2026-11-20 | [fix(llm): share LLM slots fairly across tenants, banks and documents …](https://github.com/vectorize-io/hindsight/commit/7f225b52134497fb02677f1950cd103ebc780226) | nicoloboschi |
-| 2026-11-20 | [fix(knowledge): a spreadsheet declaring millions of cells is read cel…](https://github.com/vectorize-io/hindsight/commit/cc963640ddae0db438ab13f403a3efa8f76ea5e0) | nicoloboschi |
-| 2026-11-20 | [fix(knowledge): a cut-off video is not refused for its header's lengt…](https://github.com/vectorize-io/hindsight/commit/59ec0f0c42e1df050dd8bc1185921febd71112b1) | nicoloboschi |
-| 2026-11-20 | [feat(kb): a knowledge search can skip the reranker (enable_reranking:…](https://github.com/vectorize-io/hindsight/commit/732f35e2dc5d25427e21b391959b114ae24a8d02) | nicoloboschi |
-| 2026-11-20 | [test(system-evals): the knowledge edge-case sample moves to hindsight…](https://github.com/vectorize-io/hindsight/commit/ae3c142e88e5b792be11bbb07cf46ca31ffa8e23) | nicoloboschi |
-| 2026-11-20 | [fix(llm): repair malformed JSON from the raw text, not the newline-es…](https://github.com/vectorize-io/hindsight/commit/385f2d232eeac13b8a23890ee4be806eb588b01b) | nicoloboschi |
-| 2026-11-20 | [fix(knowledge): an Office worker converts every file with one convert…](https://github.com/vectorize-io/hindsight/commit/797c5cfe298b507efb135af3b2282261a475fdf1) | nicoloboschi |
+| 2026-11-23 | [feat(llm): add antigravity provider driving Google's agy CLI (#6830)](https://github.com/vectorize-io/hindsight/commit/3ca5b2aa92f5c66d203cf5b39719f0b45927e37b) | nicoloboschi |
+| 2026-11-23 | [fix(reflect): let HINDSIGHT_API_LLM_STRICT_SCHEMA_REFLECT take the to…](https://github.com/vectorize-io/hindsight/commit/5cf3737b21e2dba0e7a36b0edaea76973fa7dbea) | nicoloboschi |
+| 2026-11-23 | [fix(ci): flaky tests and CI 429s — umbrella for 10 issues (#6824)](https://github.com/vectorize-io/hindsight/commit/467378704af157a463810f2c23c4304f73b7a014) | nicoloboschi |
+| 2026-11-23 | [perf(oracle): watermark index, batched link inserts, set-wise observa…](https://github.com/vectorize-io/hindsight/commit/cb54db32884dc07dc64f2e369d3aa9fde5347644) | nicoloboschi |
+| 2026-11-23 | [fix(mental-models): a rate-limited refresh step neither pauses the mo…](https://github.com/vectorize-io/hindsight/commit/ea603137cc972047d1fe7b944b4f891f9cdf94aa) | nicoloboschi |
+| 2026-11-23 | [fix(migrations): keep extension schemas we cannot relocate on the mig…](https://github.com/vectorize-io/hindsight/commit/fe53a31164e98e0fa883f1f00e1a116bc5f13d36) | nicoloboschi |
+| 2026-11-23 | [fix(llm): read Mistral's typed content blocks as text instead of cras…](https://github.com/vectorize-io/hindsight/commit/735ace90628637f3e7b969a695803ea9a70b8bca) | nicoloboschi |
+| 2026-11-23 | [feat(clients): knowledge-bank methods on the Python and TypeScript wr…](https://github.com/vectorize-io/hindsight/commit/a6fa4548bf2df640e873c0ed3e7d42da05e4d8da) | nicoloboschi |
+| 2026-11-23 | [fix(mcp): an allowlist naming no built-in tool registers no built-ins…](https://github.com/vectorize-io/hindsight/commit/345ac91d5799386fd8c490efcb13e453951e8bdc) | nicoloboschi |
+| 2026-11-23 | [fix(docs): FAQ links no unreleased page; production builds leave out …](https://github.com/vectorize-io/hindsight/commit/7a09eaddd257a4314e654a6d438709cf5be27b3d) | nicoloboschi |
 
 [See all commits ↗](https://github.com/vectorize-io/hindsight/commits)
 

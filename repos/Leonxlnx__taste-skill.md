@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 119.9k |
-| 🍴 **Forks** | 8.0k |
-| 🐞 **Open issues + PRs** | [18](https://github.com/Leonxlnx/taste-skill/issues) |
+| ⭐ **Stars** | 120.5k |
+| 🍴 **Forks** | 8.1k |
+| 🐞 **Open issues + PRs** | [20](https://github.com/Leonxlnx/taste-skill/issues) |
 | 💻 **Languages** | JavaScript 61% · HTML 28% · CSS 11% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `frontend` `agent-skills` `ai-agents` `anti-slop` `cursor` `design-system` `landing-page` `ui-design` `web-design` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — tasteskill v2.5.1
-<sub>2026-11-07 · 15d ago</sub>
+<sub>2026-11-07 · 16d ago</sub>
 
 > What a 44-site test of 2.5.0 showed, fixed: builds now iterate until the checker is clean, every page moves, products without photographs are shown in photographs, palettes fit the trade, the copy gets a voice of its own, and nothing lies on anything else on a phone. The install name did not change.
 > - **A finish gate:** `scripts/gate.mjs` runs the checker, the layout check and a copy lint, and a build is not done until its last line reads `GATE: PASS` (three rounds, five waivers with reasons at most). In Claude Code it runs as a Stop hook from the skill itself. It never traps an agent: a question to the user costs no round, and `gate.mjs --done` ends a build at the user's word.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.5.0](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.0) — tasteskill v2.5
-<sub>2026-11-04 · 17d ago</sub>
+<sub>2026-11-04 · 18d ago</sub>
 
 > A complete rebuild of `design-taste-frontend` around professional company websites at the figma.com and x.ai bar. The install name did not change.
 > - **One page system:** every build starts from the same starter. The hero fills the first screen, one section per screen, equal left and right edges.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.1.5](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.1.5) — tasteskill v2.1.5
-<sub>2026-10-24 · 28d ago</sub>
+<sub>2026-10-24 · 29d ago</sub>
 
 > Fixes from the community. Thanks to everyone who reported and sent them.
 > - **Safe text in charts and split headings** (#160, #169, thanks @jcastilla89 and @Pablolakotek): `charts.js` and the `Stage.split` fallback escape the text they insert, so a label or heading from user data can no longer inject markup.
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [Merge pull request #218 from Leonxlnx/cursor/add-community-sponsors-2557](https://github.com/Leonxlnx/taste-skill/commit/6c0b5c78f5d31776e2210305abaa210cdc0030bf) | Leonxlnx |
+| 2026-11-22 | [Remove duplicate ajmalaksar25 community sponsor avatar](https://github.com/Leonxlnx/taste-skill/commit/ddb50023bc11991e96dbb3624a0e1d1c01769cbe) | cursoragent |
+| 2026-11-22 | [Add moritz-mode and ajmalaksar25 to community sponsors](https://github.com/Leonxlnx/taste-skill/commit/c971ee3b804a150492970d68d39eef83fe2a52d3) | cursoragent |
 | 2026-11-07 | [Merge pull request #196 from Leonxlnx/v2.5.1](https://github.com/Leonxlnx/taste-skill/commit/f6b76575f949707b4e3c37cd86cb44b0b98643e8) | Leonxlnx |
 | 2026-11-07 | [tasteskill 2.5.1: finish gate, motion on every page, copy layer, phot…](https://github.com/Leonxlnx/taste-skill/commit/b900a8075fd7a2449bd6f414a2ae79657e95363c) | Leonxlnx |
 | 2026-11-05 | [font-load: warn for each web font that never loads (#186)](https://github.com/Leonxlnx/taste-skill/commit/9b4bf937a1f69348126959c15d2f99a73e65699b) | Leonxlnx |
@@ -101,9 +104,6 @@
 | 2026-11-05 | [--root for the scripts that serve a page file (#182)](https://github.com/Leonxlnx/taste-skill/commit/151afddbe3be2bd5cadd4884d381dfa13fc920ff) | Leonxlnx |
 | 2026-11-05 | [Merge main (#181) into fix/grok-build/inspect-root](https://github.com/Leonxlnx/taste-skill/commit/7a373bf2ed1cb6799fe87816005e499435253dec) | Leonxlnx |
 | 2026-11-05 | [Each checked page gets its own report folder (#181)](https://github.com/Leonxlnx/taste-skill/commit/8fcde309b31c9d857c51a504548d95de12eb0e89) | Leonxlnx |
-| 2026-11-05 | [Port to 2.5: font-load warns for each web font that never loads](https://github.com/Leonxlnx/taste-skill/commit/386d187d8637d35a9f282ff4da2edfc857ea6b32) | Leonxlnx |
-| 2026-11-05 | [Port to 2.5: --root for the scripts that serve a page file](https://github.com/Leonxlnx/taste-skill/commit/4c492ecf6d59a19fd31b4516f98e502129da50d5) | Leonxlnx |
-| 2026-11-05 | [Port to 2.5: each checked page gets its own report folder](https://github.com/Leonxlnx/taste-skill/commit/3324132353b0ef22388f60262a42bc06677111f9) | Leonxlnx |
 
 [See all commits ↗](https://github.com/Leonxlnx/taste-skill/commits)
 

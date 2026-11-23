@@ -22,74 +22,71 @@
 |---|---|
 | ⭐ **Stars** | 13.4k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [35](https://github.com/assistant-ui/assistant-ui/issues) |
+| 🐞 **Open issues + PRs** | [37](https://github.com/assistant-ui/assistant-ui/issues) |
 | 💻 **Languages** | TypeScript 84% · MDX 10% · JavaScript 3% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `conversational-ai` `radix-ui` `shadcn` `ui-components` `copilot` `chatbot` `vercel-ai-sdk` `ai-chatbot` `react-chatbot` `base-ui` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-11-22 |
-| 📦 **Latest release** | [@assistant-ui/core@0.3.37](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37) — 2026-11-18 |
+| 📦 **Latest release** | [@assistant-ui/vscode@0.0.2](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vscode%400.0.2) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 208.4 MB |
+| 💾 **Size** | 207.9 MB |
 | 🌐 **Website** | https://www.assistant-ui.com |
 
 ## 📦 Recent releases
 
-### [@assistant-ui/core@0.3.37](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37)
-<sub>2026-11-18 · 4d ago</sub>
+### [@assistant-ui/vscode@0.0.2](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vscode%400.0.2)
+<sub>2026-11-22 · today</sub>
 
 > **Patch Changes**
-> - [#10593](https://github.com/assistant-ui/assistant-ui/pull/10593) [`528bfe9`](https://github.com/assistant-ui/assistant-ui/commit/528bfe964f1306f7070fd4efe034873b5f1cfe45) - `MessageRepository.import` now leaves the repository unchanged when it throws, for example when a message's parent or the head is missing. Thread `import` and `reset`, and loading history in the local runtime, check the data before clearing the current messages, so a history that cannot be placed no longer empties the thread. ([@Yonom](https://github.com/Yonom))
-> - [#10597](https://github.com/assistant-ui/assistant-ui/pull/10597) [`f1a812d`](https://github.com/assistant-ui/assistant-ui/commit/f1a812d2d1a6c824ea397d798a9b158f750b7804) - never run a frontend tool's `execute` for a tool call the backend owns. Tool-call parts gain `providerExecuted`: the tool invocation tracker, `ToolExecutionStream` and `unstable_runPendingTools` skip a call that carries it, even when the run ends before the backend's result arrives. UI message streams set it for provider-executed calls, the data stream format carries it from `addToolCallPart({ providerExecuted: true })` to the client, and `@assistant-ui/ai-sdk` sets it from the AI SDK part's `providerExecuted`. A dynamic tool call is marked only when its part carries `providerExecuted: true`, so otherwise it stays client-runnable as it is in the AI SDK. `@assistant-ui/react-langchain` holds a call while the graph is paused on an interrupt, and `@assistant-ui/eve` never hands a call to a frontend tool. ([@Yonom](https://github.com/Yonom))
-> - [#10641](https://github.com/assistant-ui/assistant-ui/pull/10641) [`8f30cfc`](https://github.com/assistant-ui/assistant-ui/commit/8f30cfc76b6e1483cc390a293eafc4d8fffb2bcd) - Keep Cloud message ID mappings available when a thread history moves from its live item to the listed item, so edits to loaded messages reach Cloud. ([@rupic-app](https://github.com/apps/rupic-app))
-> - [#10601](https://github.com/assistant-ui/assistant-ui/pull/10601) [`11afc02`](https://github.com/assistant-ui/assistant-ui/commit/11afc0276e87cc0834342d6fdeeaaf0595fccdbe) - fix(cloud): loading a thread follows `has_more` from the message list, so a page that ends before its limit no longer ends the thread early ([@Yonom](https://github.com/Yonom))
-> - [#10666](https://github.com/assistant-ui/assistant-ui/pull/10666) [`d9a7f68`](https://github.com/assistant-ui/assistant-ui/commit/d9a7f68b5a38fcc3f68b5acf127f71dd5b8a6837) - keep how a dictation session ended. Composer state gains `lastDictationEnd` (`{ reason, error?: AssistantError }`), set when a session ends and cleared before the next adapter listen attempt, so a UI can explain a failed dictation after `dictation` returns to `undefined`. The ended `DictationAdapter.Status` gains `error?: unknown`, which the composer normalizes to `AssistantError`, and `WebSpeechDictationAdapter` fills it with the browser's `{ code, message }` (for example `not-allowed` for a blocked microphone). `DictationEnd` is exported. ([@vidiyala99](https://github.com/vidiyala99))
-> …
+> - [#10704](https://github.com/assistant-ui/assistant-ui/pull/10704) [`03c0650`](https://github.com/assistant-ui/assistant-ui/commit/03c06506107f55a7bc11bed616a2fed06af8a8ba) - Adapters that install `@assistant-ui/core` declare `@assistant-ui/store` and `@assistant-ui/tap` as peers, so strict installers such as Yarn PnP resolve the single copy the app provides. `@assistant-ui/react-ag-ui` also forwards the `zod` peer that `@ag-ui/client` declares. ([@okisdev](https://github.com/okisdev))
+> - Updated dependencies [[`74199f8`](https://github.com/assistant-ui/assistant-ui/commit/74199f892e29cc9377eb13b515de64a0ccadaf08), [`01d3fd7`](https://github.com/assistant-ui/assistant-ui/commit/01d3fd7519f6b4e16043285c7f03658fd7e4e685), [`974347f`](https://github.com/assistant-ui/assistant-ui/commit/974347f28c8e37e7dbde8ed526ce0363fe346cb6), [`ac873e5`](https://github.com/assistant-ui/assistant-ui/commit/ac873e5d3aded57180cbb8f2ec17fa109db6e4cd), [`9906ce6`](https://github.com/assistant-ui/assistant-ui/commit/9906ce658c309e57b138c5232f2fb1b09cdb55f8), [`3c1497d`](https://github.com/assistant-ui/assistant-ui/commit/3c1497d5ed2b4821a8f2007cc0aa8361e58b24d6), [`50efa27`](https://github.com/assistant-ui/assistant-ui/commit/50efa27e67989bd3104805047e8a444fe2a18e32), [`c66dab9`](https://github.com/assistant-ui/assistant-ui/commit/c66dab996f43619fb8ed6e4e6e673726f0e70da3), [`aea6e31`](https://github.com/assistant-ui/assistant-ui/commit/aea6e313402681acd45cc23bdadcfe7d37cd2e03), [`ed4e645`](https://github.com/assistant-ui/assistant-ui/commit/ed4e64513d5e34a38488b5e77a390a7c5878b0b1)]:
+>   - @assistant-ui/core@0.3.38
 
-### [@assistant-ui/x-generative-compiler@0.0.22](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/x-generative-compiler%400.0.22)
-<sub>2026-11-18 · 4d ago</sub>
+### [@assistant-ui/tap@0.9.27](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/tap%400.9.27)
+<sub>2026-11-22 · today</sub>
 
 > **Patch Changes**
-> - [#10709](https://github.com/assistant-ui/assistant-ui/pull/10709) [`08aa6f1`](https://github.com/assistant-ui/assistant-ui/commit/08aa6f1e19dc5228546cbc6878d6de510f0cd19e) - fix: drop module bindings that only a stripped region used, whatever their initializer, so calls and constructors such as `createDb(...)` or `new PrismaClient(...)` that only a backend `execute` needed no longer stay in the client build. A file whose `"use generative"` directive is not its first statement now fails the build instead of shipping uncompiled, and `withAui` runs the loader on every JS/TS extension, including `.mts` and `.cts`. ([@Yonom](https://github.com/Yonom))
+> - [#10742](https://github.com/assistant-ui/assistant-ui/pull/10742) [`74199f8`](https://github.com/assistant-ui/assistant-ui/commit/74199f892e29cc9377eb13b515de64a0ccadaf08) - Development warnings and tap checks now work in browser builds where the bundler replaces `process.env.NODE_ENV` without defining a `process` global. ([@rupic-app](https://github.com/apps/rupic-app))
 
-### [@assistant-ui/vue@0.0.8](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vue%400.0.8)
-<sub>2026-11-18 · 4d ago</sub>
-
-> **Patch Changes**
-> - [#10656](https://github.com/assistant-ui/assistant-ui/pull/10656) [`cba4061`](https://github.com/assistant-ui/assistant-ui/commit/cba406112b09de49e99764b51a9d90a8ca952cc7) - keep the viewport footer inset accurate as content grows and its top margin changes. ([@okisdev](https://github.com/okisdev))
-> - [#10655](https://github.com/assistant-ui/assistant-ui/pull/10655) [`d694a8b`](https://github.com/assistant-ui/assistant-ui/commit/d694a8b638fe1ba59466a25b19aebcbfcaf5325f) - `useScrollLock` holds its position on containers with `scroll-behavior: smooth` and when the page itself is the scroller. ([@okisdev](https://github.com/okisdev))
-> - [#10649](https://github.com/assistant-ui/assistant-ui/pull/10649) [`8b606de`](https://github.com/assistant-ui/assistant-ui/commit/8b606de5b53572fb3da8be799f7324031b885524) - share composition, attachment key, and message id helpers across bindings without changing their behavior. ([@okisdev](https://github.com/okisdev))
-> - [#10654](https://github.com/assistant-ui/assistant-ui/pull/10654) [`415db3a`](https://github.com/assistant-ui/assistant-ui/commit/415db3acc68cb9413205d8b26f9232ea472aef07) - destroy vue and svelte provider clients on unmount so scopes and active streams stop immediately. ([@okisdev](https://github.com/okisdev))
-> - [#10668](https://github.com/assistant-ui/assistant-ui/pull/10668) [`f88a093`](https://github.com/assistant-ui/assistant-ui/commit/f88a093ec9b79a2137092e6d22ec51d7feb02f64) - Escape now stops speech only in the Vue thread it is pressed in, and an Escape that ends an IME composition no longer stops speech. ([@okisdev](https://github.com/okisdev))
-> …
-
-### [@assistant-ui/vite@0.0.22](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/vite%400.0.22)
-<sub>2026-11-18 · 4d ago</sub>
+### [@assistant-ui/store@0.3.25](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/store%400.3.25)
+<sub>2026-11-22 · today</sub>
 
 > **Patch Changes**
-> - Updated dependencies [[`08aa6f1`](https://github.com/assistant-ui/assistant-ui/commit/08aa6f1e19dc5228546cbc6878d6de510f0cd19e)]:
->   - @assistant-ui/x-generative-compiler@0.0.22
+> - [#10766](https://github.com/assistant-ui/assistant-ui/pull/10766) [`ca7c132`](https://github.com/assistant-ui/assistant-ui/commit/ca7c132a2e734d3ceeeca3b164f693aabebebb51) - Preserve a reader's upward scroll when a thread viewport footer shrinks. ([@rupic-app](https://github.com/apps/rupic-app))
+> - [#10696](https://github.com/assistant-ui/assistant-ui/pull/10696) [`c21c46d`](https://github.com/assistant-ui/assistant-ui/commit/c21c46d0cdef039ec1377eefa3f01507df22453c) - Recheck viewport position when the content inset changes. ([@rupic-app](https://github.com/apps/rupic-app))
+> - [#10775](https://github.com/assistant-ui/assistant-ui/pull/10775) [`e1efac0`](https://github.com/assistant-ui/assistant-ui/commit/e1efac0c22e9799f3d0e0422dc6abdbe8c1c5c09) - feat: warn once in development when the deprecated `useAui({ ... })` overload is called, pointing to `AuiConfig` with `<AssistantRuntimeProvider config>` or `<AuiProvider extends config>`; the overload's JSDoc example now shows the replacement ([@Yonom](https://github.com/Yonom))
 
-### [@assistant-ui/variants@0.0.5](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/variants%400.0.5)
-<sub>2026-11-18 · 4d ago</sub>
+### [setup-agent@0.2.2](https://github.com/assistant-ui/assistant-ui/releases/tag/setup-agent%400.2.2)
+<sub>2026-11-22 · today</sub>
 
 > **Patch Changes**
-> - [#10604](https://github.com/assistant-ui/assistant-ui/pull/10604) [`9c7de04`](https://github.com/assistant-ui/assistant-ui/commit/9c7de0413212819811d38af4a30944e9611859d1) - fix: the Next.js route handlers now check the client address like the Vite plugin, and refuse requests whose address is unknown unless `allowRemoteClients` is set. ([@Yonom](https://github.com/Yonom))
+> - [#10791](https://github.com/assistant-ui/assistant-ui/pull/10791) [`75d755f`](https://github.com/assistant-ui/assistant-ui/commit/75d755fb31ec9b7e15fde96ea9b4057cc567fefc) - `connectCheckout` (and every `setup-agent` command) attaches to the setup over a WebSocket where the runtime has a global `WebSocket` (Node 22 and later), as the setup page already does, so the setup server's Durable Object can hibernate between messages instead of staying awake for an open SSE stream. Node 20 keeps using SSE. ([@Yonom](https://github.com/Yonom))
+
+### [@assistant-ui/react-pi@0.0.35](https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/react-pi%400.0.35)
+<sub>2026-11-22 · today</sub>
+
+> **Patch Changes**
+> - [#10704](https://github.com/assistant-ui/assistant-ui/pull/10704) [`03c0650`](https://github.com/assistant-ui/assistant-ui/commit/03c06506107f55a7bc11bed616a2fed06af8a8ba) - Adapters that install `@assistant-ui/core` declare `@assistant-ui/store` and `@assistant-ui/tap` as peers, so strict installers such as Yarn PnP resolve the single copy the app provides. `@assistant-ui/react-ag-ui` also forwards the `zod` peer that `@ag-ui/client` declares. ([@okisdev](https://github.com/okisdev))
+> - [#10714](https://github.com/assistant-ui/assistant-ui/pull/10714) [`ac873e5`](https://github.com/assistant-ui/assistant-ui/commit/ac873e5d3aded57180cbb8f2ec17fa109db6e4cd) - RuntimeExtras gains `useExtras`, which the React Compiler recognizes as a hook, and `use` is deprecated. ([@okisdev](https://github.com/okisdev))
+> - Updated dependencies [[`74199f8`](https://github.com/assistant-ui/assistant-ui/commit/74199f892e29cc9377eb13b515de64a0ccadaf08), [`01d3fd7`](https://github.com/assistant-ui/assistant-ui/commit/01d3fd7519f6b4e16043285c7f03658fd7e4e685), [`974347f`](https://github.com/assistant-ui/assistant-ui/commit/974347f28c8e37e7dbde8ed526ce0363fe346cb6), [`ac873e5`](https://github.com/assistant-ui/assistant-ui/commit/ac873e5d3aded57180cbb8f2ec17fa109db6e4cd), [`9906ce6`](https://github.com/assistant-ui/assistant-ui/commit/9906ce658c309e57b138c5232f2fb1b09cdb55f8), [`3c1497d`](https://github.com/assistant-ui/assistant-ui/commit/3c1497d5ed2b4821a8f2007cc0aa8361e58b24d6), [`50efa27`](https://github.com/assistant-ui/assistant-ui/commit/50efa27e67989bd3104805047e8a444fe2a18e32), [`c66dab9`](https://github.com/assistant-ui/assistant-ui/commit/c66dab996f43619fb8ed6e4e6e673726f0e70da3), [`709a0cc`](https://github.com/assistant-ui/assistant-ui/commit/709a0cc74b14b6196b9e9466ecac58b502ae70e5), [`aea6e31`](https://github.com/assistant-ui/assistant-ui/commit/aea6e313402681acd45cc23bdadcfe7d37cd2e03), [`ed4e645`](https://github.com/assistant-ui/assistant-ui/commit/ed4e64513d5e34a38488b5e77a390a7c5878b0b1), [`297420f`](https://github.com/assistant-ui/assistant-ui/commit/297420f1dcaf28965762dd4ceb3e2ae6799d352d)]:
+>   - @assistant-ui/core@0.3.38
+>   - assistant-stream@0.3.59
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [fix(docs-theme): supports Farming Labs 0.2.x peers from 0.2.141 (#10720)](https://github.com/assistant-ui/assistant-ui/commit/810fa6256ed52d31b7fc11e2fe55301e66bbc00b) | Kinfe123 |
-| 2026-11-22 | [fix(deps): update vite to 8.3.8 (#10786)](https://github.com/assistant-ui/assistant-ui/commit/09540e57cab69ad754c4341c48fe1b85ea199dfe) | Kinfe123 |
-| 2026-11-22 | [fix(docs): make design tokens follow the design guide (#10783)](https://github.com/assistant-ui/assistant-ui/commit/75283e18d212b886ba4b490b02ba3bab87b5499c) | Kinfe123 |
-| 2026-11-21 | [fix(deps): update @hono/node-server to 2.1.11 (#10779)](https://github.com/assistant-ui/assistant-ui/commit/93b04aa47612a448044b9feb725031467fe6fd08) | aui-sec[bot] |
-| 2026-11-21 | [fix(deps): update react-router and zod (#10765)](https://github.com/assistant-ui/assistant-ui/commit/3b848877bd631bea0f652971a7a0300ed595218c) | aui-sec[bot] |
-| 2026-11-20 | [feat(store): warn in development on the deprecated useAui({ ... }) ov…](https://github.com/assistant-ui/assistant-ui/commit/e1efac0c22e9799f3d0e0422dc6abdbe8c1c5c09) | Yonom |
-| 2026-11-20 | [docs(pricing): divider rules have square ends (#10774)](https://github.com/assistant-ui/assistant-ui/commit/f3b24f5a6782a22f2fea8897e7ce87c76fe4facf) | Kinfe123 |
-| 2026-11-20 | [docs(mcp): send server instructions and describe preview config roots…](https://github.com/assistant-ui/assistant-ui/commit/3314276279f6515ae6ec4bbf6cf241fb2eaeb5bc) | Yonom |
-| 2026-11-20 | [ci: review tier gives an archive outside every area T3 (#10771)](https://github.com/assistant-ui/assistant-ui/commit/67ca14d9106a09f48dfa54eae0b0999fa899ac99) | okisdev |
-| 2026-11-20 | [fix(core): hosted runtime hooks pick up edits on fast refresh (#10769)](https://github.com/assistant-ui/assistant-ui/commit/3c1497d5ed2b4821a8f2007cc0aa8361e58b24d6) | okisdev |
+| 2026-11-23 | [chore(docs): serve the Board app's DID document; move the apex redire…](https://github.com/assistant-ui/assistant-ui/commit/8227544705c6045e70545711ee38d09040e1a282) | Yonom |
+| 2026-11-23 | [fix(setup-agent): cancels setups after an hour of agent silence (#10801)](https://github.com/assistant-ui/assistant-ui/commit/4a0d2a5b9f04c8fb7ff9cd224827a958096b52dc) | Yonom |
+| 2026-11-23 | [fix(setup): serve an unattended guide and an install guide that match…](https://github.com/assistant-ui/assistant-ui/commit/f91eb36ee688059c9eed90cc85b223f7bb035c11) | Yonom |
+| 2026-11-23 | [fix(ui): scaffolded components pass Next.js lint without warnings (#1…](https://github.com/assistant-ui/assistant-ui/commit/da7012c9d2591808aa9ea09b82e8e7f8e70f3c58) | Yonom |
+| 2026-11-23 | [fix(cli): make init's TooltipProvider line agree with shadcn's note (…](https://github.com/assistant-ui/assistant-ui/commit/9862b16800b6f94812fbdfc6a51be087b517ea14) | Yonom |
+| 2026-11-23 | [fix: spec prompts fill composer and Ink shows lines after stray escap…](https://github.com/assistant-ui/assistant-ui/commit/7a89603ccf7ab5e36c0a91fac49bb1818ca5b8d5) | Yonom |
+| 2026-11-23 | [fix(deps): update @opentelemetry/resources and seroval-plugins (#10795)](https://github.com/assistant-ui/assistant-ui/commit/d11e178f1b86fcaa05cab4a339eeaefb23987e6e) | aui-sec[bot] |
+| 2026-11-23 | [fix(cli): prints setup guidance before init and create (#10796)](https://github.com/assistant-ui/assistant-ui/commit/fc4dc133395450405052b06d92adb53139041177) | Yonom |
+| 2026-11-22 | [docs(examples): builds workspace packages before editor startup (#10780)](https://github.com/assistant-ui/assistant-ui/commit/5639b3875ed4096298a2a34fca442a75ae739a14) | QA666 |
+| 2026-11-22 | [fix(react-ag-ui): exposes partial tool args while streaming (#10785)](https://github.com/assistant-ui/assistant-ui/commit/88c701d6c249fddca40769ea71e4da38ef15a59d) | egg119 |
 
 [See all commits ↗](https://github.com/assistant-ui/assistant-ui/commits)
 

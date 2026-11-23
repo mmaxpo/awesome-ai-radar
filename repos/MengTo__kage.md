@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.8k |
-| 🍴 **Forks** | 315 |
+| 🍴 **Forks** | 316 |
 | 🐞 **Open issues + PRs** | [1](https://github.com/MengTo/kage/issues) |
 | 💻 **Languages** | HTML 100% |
 | 📜 **License** | — |

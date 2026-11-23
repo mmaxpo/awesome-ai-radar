@@ -20,22 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 73.0k |
+| ⭐ **Stars** | 73.1k |
 | 🍴 **Forks** | 23.4k |
-| 🐞 **Open issues + PRs** | [50](https://github.com/ai-job-search-dev/ai-job-search/issues) |
+| 🐞 **Open issues + PRs** | [51](https://github.com/ai-job-search-dev/ai-job-search/issues) |
 | 💻 **Languages** | Python 99% · TeX 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agents` `career` `claude-code` `cover-letter` `cv` `interview-preparation` `job-application` `job-hunting` `job-search` `latex` `resume` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-03-18 |
-| 📦 **Latest release** | [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0) — 2026-11-16 |
+| 📦 **Latest release** | [v2.1.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.1.0) — 2026-11-23 |
 | 🌿 **Default branch** | `master` |
 | 💾 **Size** | 6.0 MB |
 
 ## 📦 Recent releases
 
+### [v2.1.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.1.0)
+<sub>2026-11-23 · today</sub>
+
+> **What's Changed**
+> * ci: add a stable CLI checks result job for required checks by @jakob1379 in https://github.com/ai-job-search-dev/ai-job-search/pull/856
+> * ci: check PR titles against Conventional Commits with commitizen by @jakob1379 in https://github.com/ai-job-search-dev/ai-job-search/pull/863
+> * fix(posting-guard): refuse empty input and exit 1 (fixes #798) by @ahmed-husssain in https://github.com/ai-job-search-dev/ai-job-search/pull/815
+> * fix(posting-guard): detect CSS invisibility tricks in inline styles (#785) by @ahmed-husssain in https://github.com/ai-job-search-dev/ai-job-search/pull/834
+> * feat(setup): recommend a minimal TeX install instead of texlive-full by @jakob1379 in https://github.com/ai-job-search-dev/ai-job-search/pull/873
+> …
+
 ### [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0)
-<sub>2026-11-16 · 6d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > **What's Changed**
 > * fix(scrape): send one plain term per CLI call and make portals state their query syntax (#536) by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/653
@@ -46,7 +57,7 @@
 > …
 
 ### [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5)
-<sub>2026-11-09 · 13d ago</sub>
+<sub>2026-11-09 · 14d ago</sub>
 
 > **What's Changed**
 > * fix(job-key): fold Latin letters without an NFKD decomposition and add --audit --migrate by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/637
@@ -57,7 +68,7 @@
 > …
 
 ### [v1.7.4](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.4)
-<sub>2026-11-02 · 20d ago</sub>
+<sub>2026-11-02 · 21d ago</sub>
 
 > **What's Changed**
 > * fix(freehire-search): reject detail URLs on other hosts instead of asking the API for their last segment (#622) by @ayobamiseun in https://github.com/ai-job-search-dev/ai-job-search/pull/623
@@ -76,17 +87,6 @@
 > A public review by an AI agent read the shipped configuration and concluded that local use was unsafe as configured. It had a point. The job-application skill's frontmatter granted bare `Bash`, `Edit` and `Write`. The scraper pre-approved `bun run` on any CLI path. And the `/apply` reviewer and the `/rank` scorers ran as general-purpose agents with every tool while they held untrusted posting text. Now:
 > - **Skill frontmatter grants nothing beyond what `settings.json` already allows.** The security guard checks every skill and command frontmatter against an exact allowlist, and a portal skill may grant only its own CLI.
 > - **`settings.json` ships `deny` rules that hold in every permission mode.** They block uploads via `curl`/`wget`, `scp`, `ssh`, `nc`, and reads of `.env` and credential folders. `ask` rules cover edits to the permission files themselves and `git push`.
-> …
-
-### [v1.7.2](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.2) — v1.7.2 - Measured PDFs, CLIs that stop trusting the digits, tools that survive n…
-<sub>2026-09-29 · 1mo ago</sub>
-
-> A patch release with one theme: **the checks the workflow documented now actually run, and the tools stop breaking on anything that is not ASCII.** Compiled PDFs get measured instead of eyeballed, the portal CLIs stop trusting the digits in a URL, and every Python tool survives a Cyrillic posting or a Turkish robots.txt on Windows. Thirty-two entries, twenty-four of them fixes, most reported and fixed by contributors within days of each other.
-> **Highlights**
-> **`/apply` measures the PDF instead of looking at it (#378, #476, #458, #498, #465)**
-> `tools/verify_layout.py` measures what Step 5b previously only eyeballed: per-page text extent, bottom whitespace, the largest internal gap, footer collisions, and an entry header stranded at a page break. It exists for a failure every other check missed: a moderncv `\cventry` is unbreakable, so an entry that does not fit jumps to the next page and leaves a hole while the document still compiles, still has the right page count, and still passes `verify_pdf.py`. Step 5b now also runs the page-count check it had been claiming Step 5d ran (nothing in the workflow passed `--pages` at all). `verify_pdf.py --contains` sees through LaTeX's typographic substitutions, so `--contains "Master's degree"` and `--contains "2016-2024"` no longer report a keyword missing from a document that plainly contains it, and the new `--ascii-dates` flag reads the raw text layer for the one thing the fold must not hide: a year joined to an en-dash, which a real Workday import dropped together with the date. Poppler stays optional; a missing or xpdf `pdftotext` degrades to a `skipped:` exit 2 that now names both causes.
-> **Portal CLIs stop trusting the digits (#448, #500, #435, #460, #504, #505)**
-> `jobindex-search detail` fetched any URL verbatim and, when the path did not match, returned a well-formed fake posting built from whatever page came back. `linkedin-search detail` took the first six-plus-digit segment from any URL, so a Greenhouse or Lever apply link fetched whichever LinkedIn posting carried that number, with exit 0. Both now parse the host for real and exit 1 with the `BAD_ID` contract before any request, matching the rest of the CLIs. `jobnet-search detail` no longer reports an externally hosted ad as not found, `jobdanmark-search detail` backs off on 429/5xx like every other portal, and `freehire-search` decodes HTML entities in titles and keeps the salary period, so a yearly figure no longer reads as monthly.
 > …
 
 ## 🔨 Latest commits

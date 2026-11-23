@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 11.2k |
 | 🍴 **Forks** | 1.2k |
-| 🐞 **Open issues + PRs** | [47](https://github.com/Doriandarko/claude-engineer/issues) |
+| 🐞 **Open issues + PRs** | [48](https://github.com/Doriandarko/claude-engineer/issues) |
 | 💻 **Languages** | Python 92% · JavaScript 4% · HTML 3% · CSS 2% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |

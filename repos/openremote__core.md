@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 2.2k |
 | 🍴 **Forks** | 530 |
-| 🐞 **Open issues + PRs** | [506](https://github.com/openremote/core/issues) |
+| 🐞 **Open issues + PRs** | [498](https://github.com/openremote/core/issues) |
 | 💻 **Languages** | Java 48% · TypeScript 26% · Groovy 19% · Shell 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `iot-platform` `iot` `energy` `building` `mqtt` `smartcity` `dashboard` `asset-management` `mqtt-broker` `dataplatform` `rules-engine` `fleet-management` `energy-monitor` `energy-management` `fleet-telematics` `device-management` `edge-computing` `iot-application` `modbus` `ota-update` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2016-02-03 |
 | 📦 **Latest release** | [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 304.2 MB |
+| 💾 **Size** | 304.4 MB |
 | 🌐 **Website** | https://openremote.io |
 
 ## 📦 Recent releases
 
 ### [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1)
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **What's Changed**
 > **🐞 Bug fixes**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0)
-<sub>2026-11-06 · 16d ago</sub>
+<sub>2026-11-06 · 17d ago</sub>
 
 > > [!NOTE]
 > > We have also recently published a new `openremote/keycloak` release, version `26.7.5.0`, that introduces a new UI design!
@@ -58,7 +58,7 @@
 > …
 
 ### [1.33.0](https://github.com/openremote/core/releases/tag/1.33.0)
-<sub>2026-10-27 · 25d ago</sub>
+<sub>2026-10-27 · 27d ago</sub>
 
 > **⚠️  Important notes / Before you upgrade ⚠️**
 > - **Minor behavior changes in datapoint query requests.**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [CI/CD: Add container memory, OOM kill and restart alarms and reduce n…](https://github.com/openremote/core/commit/973c86ee2e53a9c09fbbd00114dacb4563a87880) | richturner |
-| 2026-11-20 | [Bump artemis from 2.55.0 to 2.57.0 (#3529)](https://github.com/openremote/core/commit/68ec88625c1a5f463a7360158e575257de088051) | dependabot[bot] |
-| 2026-11-20 | [Bump ubi10/openjdk-21-runtime in /manager (#3597)](https://github.com/openremote/core/commit/fd65895a350753e7a162d9965c925d463f8b35dc) | dependabot[bot] |
-| 2026-11-19 | [Add configuration template import and export (#3380)](https://github.com/openremote/core/commit/9cab6cac24a30cc0a257f150bb46c1f24e0114d4) | Ekhorn |
-| 2026-11-19 | [Upgrade OpenJDK in manager image for CVE-2026-114938 (#3592)](https://github.com/openremote/core/commit/ddf84ad507bebadac6be4c8721adcbcf85e112eb) | Ekhorn |
-| 2026-11-19 | [Bump actions/setup-java from 6.2.0 to 6.3.0 in /.github/actions/get-v…](https://github.com/openremote/core/commit/e8fdef3c4e2e7ac6790ac75a17f3ccb1d1c5f28d) | dependabot[bot] |
-| 2026-11-19 | [Bump actions/setup-java from 6.2.0 to 6.3.0 (#3584)](https://github.com/openremote/core/commit/8187046cb5b8558131ef823632520e05a98cd3cc) | dependabot[bot] |
-| 2026-11-17 | [Fix event subscriptions stopping after a reconnect (#3548)](https://github.com/openremote/core/commit/1b72bf4db4c9d73f5f9680b5d9836a5850bfbe23) | Ekhorn |
-| 2026-11-17 | [Pin browser test jobs to Ubuntu 24.04 (#3581)](https://github.com/openremote/core/commit/f74263478375d8cc4627bceffb59175e5a2c3f30) | Ekhorn |
-| 2026-11-16 | [Bump ubi10/openjdk-21-runtime in /manager (#3572)](https://github.com/openremote/core/commit/6d46b473d353533ccfc3938956eed145a134f2d8) | dependabot[bot] |
+| 2026-11-23 | [Clean up state left by backend specs and fix UI test role lookup (#3594)](https://github.com/openremote/core/commit/39a171a2338070449200df77105514af23183e50) | Ekhorn |
+| 2026-11-23 | [Misc kubernetes related updates (#3606)](https://github.com/openremote/core/commit/8bfb786bbfac0e5cb3d414b05ba66600c27e2b06) | ebariaux |
+| 2026-11-23 | [On idle remove duplicate cluster marker after zooming (#3598)](https://github.com/openremote/core/commit/a5bf13f15e4ef1b43c0ed64fc33266a227b60d3a) | Ekhorn |
+| 2026-11-23 | [Fall back to the previous version of the create-ec2 CFT template (#3609)](https://github.com/openremote/core/commit/21cb91ef09c3d30cccd91f34547490b8994d4cb1) | denniskuijs |
+| 2026-11-23 | [Make Grype output both sarif/table formats at once (#3595)](https://github.com/openremote/core/commit/51c8079834652e917bb6e5f0b576f0a45d4299f5) | Ekhorn |
+| 2026-11-23 | [Use US English in text, preserving public APIs (#3571)](https://github.com/openremote/core/commit/de24b446bf37c76364c740d3ae5dd9b4d17b47cc) | wborn |
+| 2026-11-23 | [Bump com.icegreen:greenmail from 2.1.9 to 2.1.15 (#3528)](https://github.com/openremote/core/commit/ab398eb038ca023249be125a4b05e58ec898243a) | dependabot[bot] |
+| 2026-11-23 | [Set PostgreSQL idle in transaction session timeout in deploy profile …](https://github.com/openremote/core/commit/987f7655af006e12c1a6728758744dc51eec542b) | richturner |
+| 2026-11-23 | [Reduce query-exporter false positives and add asset table size metric…](https://github.com/openremote/core/commit/083427b7f98685695ac8b4fa20fc14f4a0f4903a) | richturner |
+| 2026-11-23 | [Add MQTT connection status to load2 fixtures (#3602)](https://github.com/openremote/core/commit/6d3a1a200eaea3509ec7d9f72818f43cb059a4ff) | ebariaux |
 
 [See all commits ↗](https://github.com/openremote/core/commits)
 

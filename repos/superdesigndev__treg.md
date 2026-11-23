@@ -20,38 +20,43 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.7k |
-| 🍴 **Forks** | 860 |
+| ⭐ **Stars** | 8.8k |
+| 🍴 **Forks** | 872 |
 | 🐞 **Open issues + PRs** | [371](https://github.com/superdesigndev/treg/issues) |
 | 💻 **Languages** | Python 74% · HTML 14% · JavaScript 3% · Vue 3% · Go 3% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `dsh-plugin` `agents` `api-keys` `cli` `credentials` `developer-tools` `mcp` `proxy` `python` `registry` `secrets` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-07-15 |
-| 📦 **Latest release** | [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — 2026-11-20 |
+| 📦 **Latest release** | [v1.0.0-beta.5](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.5) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 139.5 MB |
+| 💾 **Size** | 140.8 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases
 
+### [v1.0.0-beta.5](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.5) — treg 1.0.0-beta.5 _(pre-release)_
+<sub>2026-11-23 · today</sub>
+
+> _No notes._
+
 ### [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — treg 1.0.0-beta.4 _(pre-release)_
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — treg 1.0.0-beta.3 _(pre-release)_
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — treg 1.0.0-beta.2 _(pre-release)_
-<sub>2026-11-12 · 10d ago</sub>
+<sub>2026-11-12 · 11d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.1](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.1) — treg 1.0.0-beta.1 _(pre-release)_
-<sub>2026-11-07 · 14d ago</sub>
+<sub>2026-11-07 · 16d ago</sub>
 
 > _No notes._
 
@@ -59,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Merge pull request #1870 from superdesigndev/feat/compare-hint-cli](https://github.com/superdesigndev/treg/commit/0abb4928e959e0d7d3ed5f04f325e17070ad76a1) | WorksOnMyVM |
-| 2026-11-22 | [test: regenerate the API surface snapshot for the compact comparison …](https://github.com/superdesigndev/treg/commit/5f42a8cd296ef94aefb26323456c8a4b5dd97243) | WorksOnMyVM |
-| 2026-11-22 | [fix(compare): one hints declaration per call, a note that outlives a …](https://github.com/superdesigndev/treg/commit/379c721a82aff2ac0280121c9813e3edcf78a464) | WorksOnMyVM |
-| 2026-11-22 | [fix(compare): keep --org and declared hints in the CLI, batch the ans…](https://github.com/superdesigndev/treg/commit/7694b1103d00c6939246586547418a7c95dac8b2) | WorksOnMyVM |
-| 2026-11-22 | [fix(compare): keep a CLI comparison in the call's team and judge team…](https://github.com/superdesigndev/treg/commit/d2ef3a9431372a45dd391dbda44155896a708742) | WorksOnMyVM |
-| 2026-11-22 | [feat(compare): show a waiting comparison beside a CLI call](https://github.com/superdesigndev/treg/commit/809c360cac779c12ee037630d0c24ddb7b152c32) | WorksOnMyVM |
-| 2026-11-22 | [Merge pull request #1869 from superdesigndev/feat/cursor-plugin-category](https://github.com/superdesigndev/treg/commit/e56af275b4e6ebeb64945958b614ddf8355ca2ba) | JayZeeDesign |
-| 2026-11-21 | [feat(plugin): set Cursor plugin category to research](https://github.com/superdesigndev/treg/commit/752590e0a57ffe6bb3c84c3fde850fa0909dd9c5) | JayZeeDesign |
-| 2026-11-21 | [Merge pull request #1865 from superdesigndev/fix/compare-scan-eligibl…](https://github.com/superdesigndev/treg/commit/da380e389ae76f932c3aa425b3cefe489c4dbdd4) | WorksOnMyVM |
-| 2026-11-21 | [docs(compare): describe the scan miss without traffic figures](https://github.com/superdesigndev/treg/commit/924f7972bd4099d7f69d22f1ca92857237fb3043) | WorksOnMyVM |
+| 2026-11-23 | [Merge pull request #1895 from superdesigndev/fix/forager-route-hints](https://github.com/superdesigndev/treg/commit/4b8027741ef283a171636c6fd6e9c7166b599daf) | shehjad-dev |
+| 2026-11-23 | [Merge pull request #1896 from superdesigndev/feat/rerank-finer-bands](https://github.com/superdesigndev/treg/commit/7cddc0e7745fa7d8b5c4ec38093470fbd5899d99) | stonexer |
+| 2026-11-23 | [feat(catalog): rank equal matches by callability, operator tiers and …](https://github.com/superdesigndev/treg/commit/e038b8dd0d1308cf7ac7cd2072838a13aee92d91) | stonexer |
+| 2026-11-23 | [fix(cli): call an async hold an async task reservation](https://github.com/superdesigndev/treg/commit/d40b976605cb37854dbfbef40878d3005e5cfcb0) | shehjad-dev |
+| 2026-11-23 | [fix(call): name the routed tool only for an endpoint that route picks](https://github.com/superdesigndev/treg/commit/711d7d1ebfaa21e667c6a9753a59ea12555dd24a) | shehjad-dev |
+| 2026-11-23 | [Merge pull request #1893 from superdesigndev/feat/forager-vendor](https://github.com/superdesigndev/treg/commit/1d9403ced2fd0891070d2e10999f8e38e8c0c67a) | shehjad-dev |
+| 2026-11-23 | [feat(catalog): list Forager on a team's key and treg's](https://github.com/superdesigndev/treg/commit/cdb07b5b3dfc42af225345da880d295afbebcc5f) | shehjad-dev |
+| 2026-11-23 | [feat(proxy): a credential half can fill one path segment](https://github.com/superdesigndev/treg/commit/d49f1a289be7da58379c42a4fdb83b12f1554f42) | shehjad-dev |
+| 2026-11-23 | [Merge pull request #1891 from superdesigndev/fix/review-codes-wrong-n…](https://github.com/superdesigndev/treg/commit/efd91dc6809caf74ff78593ef288873b632fa2af) | WorksOnMyVM |
+| 2026-11-23 | [fix(feedback): codebook keeps off-topic hits WRONG and boilerplate NO…](https://github.com/superdesigndev/treg/commit/88d7e90ab916fe0775d9408b6c66014e426a57e1) | WorksOnMyVM |
 
 [See all commits ↗](https://github.com/superdesigndev/treg/commits)
 

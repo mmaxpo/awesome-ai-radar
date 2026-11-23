@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 45.3k |
 | 🍴 **Forks** | 7.8k |
-| 🐞 **Open issues + PRs** | [480](https://github.com/langchain-ai/langgraph/issues) |
+| 🐞 **Open issues + PRs** | [481](https://github.com/langchain-ai/langgraph/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `chatgpt` `deepagents` `enterprise` `framework` `gemini` `generative-ai` `langchain` `langgraph` `llm` `multiagent` `open-source` `openai` `pydantic` `python` `rag` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-22 (yesterday) |
 | 📅 **Created** | 2023-08-09 |
 | 📦 **Latest release** | [1.2.24](https://github.com/langchain-ai/langgraph/releases/tag/1.2.24) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
@@ -36,14 +36,14 @@
 ## 📦 Recent releases
 
 ### [1.2.24](https://github.com/langchain-ai/langgraph/releases/tag/1.2.24) — langgraph==1.2.24
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > Changes since 1.2.23
 > * release(langgraph): 1.2.24 (#9752)
 > * fix(langgraph): handle `REMOVE_ALL_MESSAGES` in `_messages_delta_reducer` and `None` checkpoints in `DeltaChannel` (#9735)
 
 ### [1.2.23](https://github.com/langchain-ai/langgraph/releases/tag/1.2.23) — langgraph==1.2.23
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > Changes since 1.2.22
 > * release(langgraph): 1.2.23 (#9742)
@@ -53,7 +53,7 @@
 > * fix(langgraph): avoid warning races in dynamic schemas (#9716)
 
 ### [prebuilt==1.1.3](https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.3) — langgraph-prebuilt==1.1.3
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > Changes since prebuilt==1.1.2
 > * release(prebuilt): 1.1.3 (#9741)
@@ -61,7 +61,7 @@
 > * fix(prebuilt): make wrap_tool_call state overrides reach the tool (#9730)
 
 ### [1.2.22](https://github.com/langchain-ai/langgraph/releases/tag/1.2.22) — langgraph==1.2.22
-<sub>2026-11-14 · 8d ago</sub>
+<sub>2026-11-14 · 9d ago</sub>
 
 > Changes since 1.2.21
 > * release(langgraph): 1.2.22 (#9702)
@@ -72,7 +72,7 @@
 > …
 
 ### [checkpointpostgres==3.2.1](https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.1) — langgraph-checkpoint-postgres==3.2.1
-<sub>2026-11-14 · 8d ago</sub>
+<sub>2026-11-14 · 9d ago</sub>
 
 > Changes since checkpointpostgres==3.2.0
 > * release(checkpoint-postgres): 3.2.1 (#9700)

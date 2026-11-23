@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Full toolkit: LangGraph agent + FastAPI service + Streamlit UI |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 4.6k |
-| 🍴 **Forks** | 806 |
+| 🍴 **Forks** | 807 |
 | 🐞 **Open issues + PRs** | [5](https://github.com/JoshuaC215/agent-service-toolkit/issues) |
 | 💻 **Languages** | Python 97% · Shell 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `langgraph` `streamlit` |
-| 🕒 **Last activity** | 2026-11-16 (6d ago) |
+| 🕒 **Last activity** | 2026-11-16 (7d ago) |
 | 📅 **Created** | 2024-08-04 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

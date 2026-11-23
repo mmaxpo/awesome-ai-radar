@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.2k |
+| ⭐ **Stars** | 100.4k |
 | 🍴 **Forks** | 5.8k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
 | 💻 **Languages** | Dart 79% · Rust 18% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `flutter` `file-sharing` `dart` `flutter-apps` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2022-12-16 |
 | 📦 **Latest release** | [v1.18.2](https://github.com/localsend/localsend/releases/tag/v1.18.2) — 2026-08-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 24.2 MB |
+| 💾 **Size** | 23.9 MB |
 | 🌐 **Website** | https://localsend.org |
 
 ## 📦 Recent releases
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [fix: preserve extension case and leading dot in FilePathStringExt.wit…](https://github.com/localsend/localsend/commit/89881acb32c9edf6a4bdffc4e21214bf0321708e) | lingyicute |
+| 2026-11-23 | [feat: group the changelog by release and show what's new after an upd…](https://github.com/localsend/localsend/commit/1be89369573775e9bc573ce236a9d59fc510767a) | ShlomoCode |
+| 2026-11-23 | [docs: update changelog](https://github.com/localsend/localsend/commit/d8702511dfb074d795452a9204ba3c9473f4f01f) | Tienisto |
+| 2026-11-23 | [fix: anonymous sender fingerprint (#3754)](https://github.com/localsend/localsend/commit/0d9060eeebc2b422522958ade46067d19982d3c0) | Tienisto |
+| 2026-11-23 | [chore: bump rustls to 0.23.46 (#3753)](https://github.com/localsend/localsend/commit/ebd0473c79b7e84eb8b79ba767a4b3ac39d7ee3c) | Tienisto |
+| 2026-11-23 | [docs: update release date](https://github.com/localsend/localsend/commit/11af648e2ad29222cac7bca967d094750f339cdd) | Tienisto |
+| 2026-11-22 | [feat: Add support for Alpine Linux CLI (#3752)](https://github.com/localsend/localsend/commit/12d127724828e194566d9b9848dc97d438b52be0) | julianxhokaxhiu |
+| 2026-11-22 | [fix(windows): close running app and remove autostart, Send to shortcu…](https://github.com/localsend/localsend/commit/9dddabf8e95298f90e9c1e76bd96e4c4e44c9681) | Tienisto |
 | 2026-11-22 | [fix(windows): render LocalSend icon in the Share Sheet & "Share with"…](https://github.com/localsend/localsend/commit/eb61b5f10119c47161cbd20d4a1e4edd4e308489) | ShlomoCode |
 | 2026-11-21 | [ci: locate makeappx in Windows SDK bin instead of App Certification K…](https://github.com/localsend/localsend/commit/19c02034291ae9ef24dc1a6611aa126115a86ad1) | Tienisto |
-| 2026-11-21 | [release: 1.19.0+65 (#3745)](https://github.com/localsend/localsend/commit/5c70ff3648265858f46634633134ab19b783ba41) | Tienisto |
-| 2026-11-21 | [docs: clarify Debian startup changelog entry (#3746)](https://github.com/localsend/localsend/commit/da72a45a5b00eb60793e138bc42ae43b4d9863a7) | ShlomoCode |
-| 2026-11-21 | [docs: update changelog for 1.19.0 (#3744)](https://github.com/localsend/localsend/commit/94b09400ef004c1dd1a86c25e5c3a89f2e17604a) | Tienisto |
-| 2026-11-21 | [docs: update changelog (#3500)](https://github.com/localsend/localsend/commit/dffc9bedb7d23eaa63ea8b534ce72dc5b418069f) | ShlomoCode |
-| 2026-11-21 | [i18n: add missing translations for all locales (#3743)](https://github.com/localsend/localsend/commit/855c4aad968e55b624e6e6173c88043e309042c3) | Tienisto |
-| 2026-11-21 | [Update tr.json (#3710)](https://github.com/localsend/localsend/commit/063ae5e22887215c895e6a2ba465ef2d75f72388) | mikropsoft |
-| 2026-11-21 | [feat: show HTTPS badge in device list tile when encryption is enabled…](https://github.com/localsend/localsend/commit/e13200e1a9c1b1073bbe9b58bfe6ccb4756ae879) | Tienisto |
-| 2026-11-21 | [fix(linux): require only Ayatana appindicator in the deb and name its…](https://github.com/localsend/localsend/commit/26cc8f997aa3f7ad789c12500a8b7206cfbb3ddc) | Tienisto |
 
 [See all commits ↗](https://github.com/localsend/localsend/commits)
 

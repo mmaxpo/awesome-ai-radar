@@ -20,90 +20,90 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 136.1k |
-| 🍴 **Forks** | 25.9k |
+| ⭐ **Stars** | 136.2k |
+| 🍴 **Forks** | 26.0k |
 | 🐞 **Open issues + PRs** | [2.6k](https://github.com/ggml-org/llama.cpp/issues) |
 | 💻 **Languages** | C++ 57% · C 16% · Python 8% · TypeScript 5% · Cuda 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ggml` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-03-10 |
-| 📦 **Latest release** | [b12631](https://github.com/ggml-org/llama.cpp/releases/tag/b12631) — 2026-11-22 |
+| 📦 **Latest release** | [b12651](https://github.com/ggml-org/llama.cpp/releases/tag/b12651) — 2026-11-23 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 500.5 MB |
+| 💾 **Size** | 505.9 MB |
 | 🌐 **Website** | https://llama.app |
 
 ## 📦 Recent releases
 
-### [b12631](https://github.com/ggml-org/llama.cpp/releases/tag/b12631) _(pre-release)_
-<sub>2026-11-22 · today</sub>
+### [b12651](https://github.com/ggml-org/llama.cpp/releases/tag/b12651) _(pre-release)_
+<sub>2026-11-23 · today</sub>
 
 > <details open>
-> webgpu : update GDN supports_op check (#32782)
+> webgpu : add ROLL support (#31887)
+> * webgpu : add ROLL support
+> * tests : keep ROLL cases portable across backends
+> </details>
+> **Website:**
+> …
+
+### [b12650](https://github.com/ggml-org/llama.cpp/releases/tag/b12650) _(pre-release)_
+<sub>2026-11-23 · today</sub>
+
+> <details open>
+> chat : improve inkling parser/grammar (#32833)
 > </details>
 > **Website:**
 > - <https://llama.app>
 > **Attestations:**
 > …
 
-### [b12629](https://github.com/ggml-org/llama.cpp/releases/tag/b12629) _(pre-release)_
-<sub>2026-11-22 · today</sub>
+### [b12649](https://github.com/ggml-org/llama.cpp/releases/tag/b12649) _(pre-release)_
+<sub>2026-11-23 · today</sub>
 
 > <details open>
-> opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K, Q6_K) (#32686)
-> * opencl: add Q4_0 coopmat GEMM for Adreno 850
-> Assisted-by: Claude Opus 5.5
-> * opencl: add Q5_0 coopmat GEMM for Adreno 850
-> * opencl: add Q8_0 coopmat GEMM for Adreno 850
-> …
-
-### [b12628](https://github.com/ggml-org/llama.cpp/releases/tag/b12628) _(pre-release)_
-<sub>2026-11-22 · today</sub>
-
-> <details open>
-> vulkan : support non-contiguous src in SCALE (#32735)
-> Assisted-By: Opus 5.5
+> opencl: add xielu (#32791)
+> Assisted-by: Codex
 > </details>
 > **Website:**
 > - <https://llama.app>
 > …
 
-### [b12627](https://github.com/ggml-org/llama.cpp/releases/tag/b12627) _(pre-release)_
-<sub>2026-11-22 · today</sub>
+### [b12648](https://github.com/ggml-org/llama.cpp/releases/tag/b12648) _(pre-release)_
+<sub>2026-11-23 · today</sub>
 
 > <details open>
-> server : fit non-causal batches in one ubatch (#32713)
+> opencl: add q4_k coop-k c8 GEMM for spec verify (#32716)
+> * opencl: add q4_k coop-k c8 GEMM for spec verify
+> Co-authored-by: Hongqiang Wang <wangh@qti.qualcomm.com>
+> Assisted-by: Codex
+> * opencl: enable q4_k c8 GEMM for n >= 2 for X2
+> …
+
+### [b12647](https://github.com/ggml-org/llama.cpp/releases/tag/b12647) _(pre-release)_
+<sub>2026-11-23 · today</sub>
+
+> <details open>
+> tests : compare only the guaranteed GDN snapshot slots (#32820)
 > </details>
 > **Website:**
 > - <https://llama.app>
 > **Attestations:**
-> …
-
-### [b12626](https://github.com/ggml-org/llama.cpp/releases/tag/b12626) _(pre-release)_
-<sub>2026-11-22 · today</sub>
-
-> <details open>
-> vulkan : fix memset for unaligned ranges for non-UMA devices (#32725)
-> See https://github.com/ggml-org/llama.cpp/pull/32574
-> </details>
-> **Website:**
-> - <https://llama.app>
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [ggml/gguf : avoid creating invalid enum values from untrusted file da…](https://github.com/ggml-org/llama.cpp/commit/8d60873dfb8619f2b5ed31adfbab07cccb40db5c) | mohitmishra786 |
-| 2026-11-22 | [ggml : add SIGMOID backward pass (#32126)](https://github.com/ggml-org/llama.cpp/commit/ad50351f5092436f312d98d25689207df25f4802) | gianni-cor |
-| 2026-11-22 | [chat : trigger lazy grammar on bare JSON tool calls (#32497)](https://github.com/ggml-org/llama.cpp/commit/42f6a58fd1bfd475d9f09ea3bf7ef671c059eaf2) | ViezeVingertjes |
-| 2026-11-22 | [ggml : fix nonzero clear on WebGPU and non-UMA devices (#32727)](https://github.com/ggml-org/llama.cpp/commit/9c10c94e16ebc4f3ed7c06264a93bf7e019c3f26) | sanmai |
-| 2026-11-22 | [HIP: fix double halving of NVFP4 scales on CDNA3 (#32790)](https://github.com/ggml-org/llama.cpp/commit/8cb0d98ccd0a310879ae8eaa1ce2c41e4b40a052) | TwelveNights |
-| 2026-11-22 | [webgpu : update GDN supports_op check (#32782)](https://github.com/ggml-org/llama.cpp/commit/e300919cc704ddde3a8a8346a8714f57eeeee71b) | sanmai |
-| 2026-11-22 | [ggml-webgpu : Update to a recent version of Dawn (#32779)](https://github.com/ggml-org/llama.cpp/commit/5d28d64bf2969d7b9c863e5001de83b30ce81557) | sanmai |
-| 2026-11-22 | [opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K…](https://github.com/ggml-org/llama.cpp/commit/1fb8a269603b497fc1ce7dab2f2fc5c1be7a51cb) | shaofeiqi |
-| 2026-11-22 | [vulkan : support non-contiguous src in SCALE (#32735)](https://github.com/ggml-org/llama.cpp/commit/8a97fa98ab1a454709bbf5ac979661feaeadec40) | Revertron |
-| 2026-11-22 | [server : fit non-causal batches in one ubatch (#32713)](https://github.com/ggml-org/llama.cpp/commit/225a5345bbb0e0c70859af5441ba922beb666fcf) | am17an |
+| 2026-11-23 | [ui: set code in messages at the size of the text around it (#32892)](https://github.com/ggml-org/llama.cpp/commit/1094646c1fb706b0bc7cf3569c707a173032a01d) | allozaur |
+| 2026-11-23 | [ui: unmount a closed collapsible's body after one transition (#32881)](https://github.com/ggml-org/llama.cpp/commit/27d0a1fc73f3a50bc32e13d13e163e462cc37316) | allozaur |
+| 2026-11-23 | [ui: drop tool calls cut off by Stop from the next request (#32738)](https://github.com/ggml-org/llama.cpp/commit/b6d5ce4bc9a3691d26b3207cc6c9c63b732d67e8) | allozaur |
+| 2026-11-23 | [metal: resolve gpu timeout on iPhone for Bonsai (#31815)](https://github.com/ggml-org/llama.cpp/commit/1f3ea67fbf857bb831d3fb9e3a91c0f8ad3fbe78) | bri-prism |
+| 2026-11-23 | [ui: use a red edge on the send button's error state (#32856)](https://github.com/ggml-org/llama.cpp/commit/a0677c341ba6bbfbbf74fa3c966f4dba74e1c830) | allozaur |
+| 2026-11-23 | [ui: name the PWA from the build env and default it to Llama Chat (#32…](https://github.com/ggml-org/llama.cpp/commit/2359d27a3694f220b190e5947684fcd4b3b2340f) | allozaur |
+| 2026-11-23 | [ggml-openvino: CI fixes, new model support, fixes and improvements. (…](https://github.com/ggml-org/llama.cpp/commit/51fc2f90e23d4faf0f726f476a5452652b535145) | ravi9 |
+| 2026-11-23 | [rpc : typed request helpers and a single validation step on the serve…](https://github.com/ggml-org/llama.cpp/commit/03813c56e47f6cd7a9b9bc2ad8edcebed88ce342) | am17an |
+| 2026-11-23 | [ggml-cuda : handle zero blocks in few-row MMQ quantization (#32566)](https://github.com/ggml-org/llama.cpp/commit/46f4da217419ecac95708600e0f6ebc4bdb91cfd) | thelittlefireman |
+| 2026-11-23 | [ui: smooth height transition for every collapsible (#32873)](https://github.com/ggml-org/llama.cpp/commit/4663f9ca8a97c525ba3d248711fa2b52050920ec) | allozaur |
 
 [See all commits ↗](https://github.com/ggml-org/llama.cpp/commits)
 

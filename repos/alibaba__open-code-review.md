@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 55.3k |
+| ⭐ **Stars** | 55.6k |
 | 🍴 **Forks** | 4.6k |
-| 🐞 **Open issues + PRs** | [344](https://github.com/alibaba/open-code-review/issues) |
-| 💻 **Languages** | Go 71% · JavaScript 11% · TypeScript 10% · Kotlin 5% · CSS 2% |
+| 🐞 **Open issues + PRs** | [356](https://github.com/alibaba/open-code-review/issues) |
+| 💻 **Languages** | Go 70% · JavaScript 11% · TypeScript 10% · Kotlin 5% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-05-18 |
-| 📦 **Latest release** | [v1.14.1](https://github.com/alibaba/open-code-review/releases/tag/v1.14.1) — 2026-11-22 |
+| 📦 **Latest release** | [v1.14.2](https://github.com/alibaba/open-code-review/releases/tag/v1.14.2) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 56.5 MB |
+| 💾 **Size** | 56.8 MB |
 | 🌐 **Website** | https://open-codereview.ai |
 
 ## 📦 Recent releases
 
+### [v1.14.2](https://github.com/alibaba/open-code-review/releases/tag/v1.14.2)
+<sub>2026-11-23 · today</sub>
+
+> **🚀 Features**
+> - feat(i18n): add Turkish README, site docs and VS Code localization (#1986)
+> **🐛 Bug Fixes**
+> - fix(rules): recognize BOM-prefixed Objective-C source (#1964)
+> **🔧 Refactoring**
+> - refactor: adopt modern Go stdlib helpers (#1566)
+> …
+
 ### [v1.14.1](https://github.com/alibaba/open-code-review/releases/tag/v1.14.1)
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **🚀 Features**
 > - feat(skills): include behavior and impact in native and delegated reviews (#2029)
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.14.0](https://github.com/alibaba/open-code-review/releases/tag/v1.14.0)
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **🚀 Features**
 > - feat(rules,allowlist): exclude Cargo test/benchmark paths and refine Rust rules (#1971)
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.13.13](https://github.com/alibaba/open-code-review/releases/tag/v1.13.13)
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): link the leaderboard to AACR-Bench (#1995)
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.13.12](https://github.com/alibaba/open-code-review/releases/tag/v1.13.12)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): add contact link to website footer (#1975)
@@ -79,21 +90,12 @@
 > - fix(tool): bound file_read result bytes, not just line count (#1878)
 > …
 
-### [v1.13.11](https://github.com/alibaba/open-code-review/releases/tag/v1.13.11)
-<sub>2026-11-17 · 5d ago</sub>
-
-> **🚀 Features**
-> - feat(session): filter listed sessions by branch (#1702)
-> - feat(rules): add Move review rules (#959)
-> **🐛 Bug Fixes**
-> - fix(session): compare sessions recorded under different path spellings (#1750)
-> - fix(viewer): truncate multibyte file paths on rune boundaries (#1854)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [feat(i18n): add Turkish README, site docs and VS Code localization (#…](https://github.com/alibaba/open-code-review/commit/e74f2c6bd4422bd1e12d257d1725bcce1d6b9ddd) | alkank |
+| 2026-11-22 | [fix(rules): recognize BOM-prefixed Objective-C source (#1964)](https://github.com/alibaba/open-code-review/commit/9285d1b8958ec709ac7db751b73e6d2153ef1a4c) | Afloat16 |
 | 2026-11-22 | [refactor: adopt modern Go stdlib helpers (#1566)](https://github.com/alibaba/open-code-review/commit/d0744d31b19d9fe97ffeff78dd8fb04e0be69312) | sisantaChhatoi |
 | 2026-11-22 | [docs(skill): respect review-only intent for mispositioned findings (#…](https://github.com/alibaba/open-code-review/commit/284ff013f0705ae6cac4c8dfbffa2f2551886d56) | prascli |
 | 2026-11-22 | [fix(tool): reject workspace named pipes before opening (#1979)](https://github.com/alibaba/open-code-review/commit/fa315a0ee2012483ea72b7fd49f937812de9c761) | Afloat16 |
@@ -102,8 +104,6 @@
 | 2026-11-21 | [docs(runtime): remove the phase-one design note (#2031)](https://github.com/alibaba/open-code-review/commit/39515dca6161fb7fd176d87704b2b10e5f7a0c36) | lizhengfeng101 |
 | 2026-11-21 | [fix(cli): show token usage in analysis reports (#2030)](https://github.com/alibaba/open-code-review/commit/5f4d905f2d5e209aaa9e2f6e5495cc1cb82c0150) | lizhengfeng101 |
 | 2026-11-21 | [fix(viewer): keep the report header stable across tabs (#2022)](https://github.com/alibaba/open-code-review/commit/d29ca2044a42ea297a7fa93692d0f5ac8f38d84e) | lizhengfeng101 |
-| 2026-11-21 | [feat(rules,allowlist): exclude Cargo test/benchmark paths and refine …](https://github.com/alibaba/open-code-review/commit/7e4ecad163fd584630815c1a3abf4b3708a893a0) | alex09x |
-| 2026-11-21 | [fix(review): include TypeScript module extensions (#1962)](https://github.com/alibaba/open-code-review/commit/561787693595bbb2e12658557d63a661873c5aff) | Afloat16 |
 
 [See all commits ↗](https://github.com/alibaba/open-code-review/commits)
 

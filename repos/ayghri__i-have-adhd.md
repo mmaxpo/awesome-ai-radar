@@ -18,9 +18,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.9k |
+| ⭐ **Stars** | 62.0k |
 | 🍴 **Forks** | 3.6k |
-| 🐞 **Open issues + PRs** | [103](https://github.com/ayghri/i-have-adhd/issues) |
+| 🐞 **Open issues + PRs** | [95](https://github.com/ayghri/i-have-adhd/issues) |
 | 💻 **Languages** | Python 85% · TypeScript 7% · JavaScript 6% · Shell 1% · PowerShell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `adhd` `claude-` `claude-code-plugin` `claude-skills` `developer-tools` `productivity` |

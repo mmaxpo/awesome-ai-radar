@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 56.9k |
 | 🍴 **Forks** | 6.7k |
-| 🐞 **Open issues + PRs** | [498](https://github.com/aaif-goose/goose/issues) |
+| 🐞 **Open issues + PRs** | [500](https://github.com/aaif-goose/goose/issues) |
 | 💻 **Languages** | Rust 72% · TypeScript 23% · Python 1% · JavaScript 1% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `mcp` `acp` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-08-23 |
 | 📦 **Latest release** | [v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 974.8 MB |
+| 💾 **Size** | 975.6 MB |
 | 🌐 **Website** | https://goose-docs.ai/ |
 
 ## 📦 Recent releases
 
 ### [v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2)
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **✨ Features**
 > - Gemini 4 Neon added to the model catalog [#13684](https://github.com/aaif-goose/goose/pull/13684)
@@ -44,13 +44,13 @@
 > - Thinking levels now sent to Gemini 4 and later, including xhigh [#13673](https://github.com/aaif-goose/goose/pull/13673)
 
 ### [v1.60.1](https://github.com/aaif-goose/goose/releases/tag/v1.60.1)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **🐛 Bug Fixes**
 > - Compaction: drop the `<analysis>` scratchpad that Claude models refuse [#13572](https://github.com/aaif-goose/goose/pull/13572)
 
 ### [v1.60.0](https://github.com/aaif-goose/goose/releases/tag/v1.60.0)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **✨ Features**
 > - SkillOperation and drop the Skills extension [#13574](https://github.com/aaif-goose/goose/pull/13574)
@@ -61,13 +61,13 @@
 > …
 
 ### [v1.59.2](https://github.com/aaif-goose/goose/releases/tag/v1.59.2)
-<sub>2026-11-16 · 6d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > **🐛 **Bug Fixes****
 > - Databricks provider: drop thinking blocks bound to a different prefix [#13551](https://github.com/aaif-goose/goose/pull/13551)
 
 ### [v1.59.1](https://github.com/aaif-goose/goose/releases/tag/v1.59.1)
-<sub>2026-11-14 · 8d ago</sub>
+<sub>2026-11-14 · 9d ago</sub>
 
 > macOS desktop builds and full release notes coming soon.
 
@@ -75,16 +75,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [fix(desktop): reject non-image attachments when connected to an exter…](https://github.com/aaif-goose/goose/commit/059fee25f13fa92be561a7d42cdd04ececef5a98) | burrows99 |
+| 2026-11-23 | [chore(deps-dev): bump @changesets/cli from 2.30.0 to 3.0.3 in /ui (#1…](https://github.com/aaif-goose/goose/commit/2da00c6b02c312d05940df94ac1816cc29350a42) | dependabot[bot] |
+| 2026-11-23 | [chore(deps): bump the actions-minor-and-patch group with 3 updates (#…](https://github.com/aaif-goose/goose/commit/1c5c57b9424f43cfdda3f552525aca487d7935e9) | dependabot[bot] |
+| 2026-11-23 | [chore(deps): bump the cargo-minor-and-patch group with 9 updates (#13…](https://github.com/aaif-goose/goose/commit/ffc964f40e249df8bb1d13dc852988ed9f415664) | dependabot[bot] |
+| 2026-11-23 | [chore(deps): bump the ui-minor-and-patch group in /ui with 8 updates …](https://github.com/aaif-goose/goose/commit/69f1c7d0239830c7307086ac67c6e170df0c02e8) | dependabot[bot] |
+| 2026-11-22 | [docs: rename internal leftover gdk names to oi-kit (#13679)](https://github.com/aaif-goose/goose/commit/4dcfe297beed90ccc2ba0d316e71a8527f2c0e95) | lifeizhou-ap |
+| 2026-11-22 | [fix(oauth): time out stalled Databricks OAuth token requests (#13710)](https://github.com/aaif-goose/goose/commit/fd3803e2af915079ad7d81f9bf9db9a7ce9e3d84) | willemave |
 | 2026-11-20 | [fix(providers): resolve Ollama Cloud model context window from the da…](https://github.com/aaif-goose/goose/commit/36b29113aff691e1a46a21a5c25900824caf9949) | ramit-mitra |
 | 2026-11-20 | [chore(deps): upgrade @agentclientprotocol/sdk to 2.6.0 (#13678)](https://github.com/aaif-goose/goose/commit/ca949ba94c0d59679c7e7eeccfaa277076e5b9e9) | lifeizhou-ap |
 | 2026-11-20 | [fix(providers): update FriendliAI provider name, description, and doc…](https://github.com/aaif-goose/goose/commit/c77f95b9c5c4242cd1cb83669523d2231da75352) | Lee-Si-Yoon |
-| 2026-11-20 | [feat(desktop): show the provider before the model on the model button…](https://github.com/aaif-goose/goose/commit/80ce9431261f2265117528bf75a100fc0f241dca) | TheSeydiCharyyev |
-| 2026-11-20 | [fix(cli): enable the sigstore crypto provider for goose update (#13686)](https://github.com/aaif-goose/goose/commit/95b87d5ff92b3848ba0599bdbafe250b7b29272e) | TheSeydiCharyyev |
-| 2026-11-20 | [feat(providers): add Gemini 4 Neon to the model catalog (#13684)](https://github.com/aaif-goose/goose/commit/ea5dded738a46e1eac591642316ca8500a1e8158) | baxen |
-| 2026-11-20 | [fix(google): send thinking levels to Gemini 4 and later, including xh…](https://github.com/aaif-goose/goose/commit/42055e73fda21edd8f3056a5eef682d08589aef0) | LordMelkor |
-| 2026-11-20 | [fix(desktop): stop PowerShell 7's module path from breaking Windows u…](https://github.com/aaif-goose/goose/commit/13010daff1cf894d3e12eb526307fedf27a42f0e) | lifeizhou-ap |
-| 2026-11-19 | [docs: rename GDK to oi-kit (#13345)](https://github.com/aaif-goose/goose/commit/3b3d838ed8e8ac5f565b53fa6a72fbf2079bdef7) | DOsinga |
-| 2026-11-19 | [fix(desktop): stop Electron when quitting the Forge dev UI with q (#1…](https://github.com/aaif-goose/goose/commit/fab36278739d56c79e234e33286b661c8f984b0e) | lifeizhou-ap |
 
 [See all commits ↗](https://github.com/aaif-goose/goose/commits)
 

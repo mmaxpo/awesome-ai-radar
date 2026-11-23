@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 35.4k |
+| ⭐ **Stars** | 35.5k |
 | 🍴 **Forks** | 1.6k |
-| 🐞 **Open issues + PRs** | [7](https://github.com/motiondivision/motion/issues) |
+| 🐞 **Open issues + PRs** | [11](https://github.com/motiondivision/motion/issues) |
 | 💻 **Languages** | TypeScript 80% · HTML 16% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `animation` `animation-js` `motion` `react` `reactanimations` `spring` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2018-11-16 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Merge pull request #4109 from motiondivision/claude/project-thread-il…](https://github.com/motiondivision/motion/commit/1b374802de947700ad7d2bb52a0ccec8339cf2f1) | mattgperry |
-| 2026-11-20 | [Give layers to the deepest nodes first](https://github.com/motiondivision/motion/commit/39801dcb3f4b36b05c7ea40f5b8a0184c329fda8) | claude |
-| 2026-11-20 | [Keep layers on the nodes within the layer budget](https://github.com/motiondivision/motion/commit/a44e7b6363d07b48657b58a3cc76b2256663eaa7) | claude |
-| 2026-11-19 | [Merge pull request #4096 from motiondivision/claude/project-thread-1z…](https://github.com/motiondivision/motion/commit/cd009de7a4314e065d4d9df683057124792d5b34) | mattgperry |
-| 2026-11-19 | [Merge main](https://github.com/motiondivision/motion/commit/368995f68c027e87ad9da43389d1663679ad28a8) | claude |
-| 2026-11-19 | [Merge pull request #4107 from motiondivision/claude/shared-layer-budget](https://github.com/motiondivision/motion/commit/61ce9960b7edbb5e9033e4a1861799e0972c40c4) | mattgperry |
-| 2026-11-19 | [Raise seven size budgets by 50 B for the shared layer budget](https://github.com/motiondivision/motion/commit/638ae90be6f35f6b73e8ff0ec5c81b74e737e7d6) | claude |
-| 2026-11-19 | [Merge pull request #4097 from motiondivision/claude/project-thread-1z…](https://github.com/motiondivision/motion/commit/9dc3ccdf8dc55d85bfada179aa50d0f76cf02529) | mattgperry |
-| 2026-11-19 | [Merge pull request #4098 from motiondivision/claude/project-thread-1z…](https://github.com/motiondivision/motion/commit/ea415ca48c4244b8cf6d08e5618ad49cd3d7afd1) | mattgperry |
-| 2026-11-19 | [Merge main](https://github.com/motiondivision/motion/commit/25986e585f8c69b8a058253774f19ab81fd31b5e) | claude |
+| 2026-11-23 | [Merge pull request #4123 from motiondivision/claude/project-thread-y5…](https://github.com/motiondivision/motion/commit/133051adce0f0b0bfb661f9f517dc2250ba3a288) | mattgperry |
+| 2026-11-23 | [Keep inView's own observer and bring main's size budgets back within …](https://github.com/motiondivision/motion/commit/182dedbe25272ea16cd91b77f94b27bfc17dc83b) | mattgperry |
+| 2026-11-23 | [Merge pull request #4120 from motiondivision/perf/layout-willupdate-t…](https://github.com/motiondivision/motion/commit/f591bfffdeb4ca01cb78e2cf27c6d8a83ec0b1f0) | mattgperry |
+| 2026-11-23 | [Merge pull request #4119 from motiondivision/perf/boxshadow-and-velocity](https://github.com/motiondivision/motion/commit/b6ba2f123db058baaee708df16a7f02e460982f3) | mattgperry |
+| 2026-11-23 | [Merge pull request #4116 from motiondivision/perf/observers-and-frame…](https://github.com/motiondivision/motion/commit/799061258ead25b223b8307568f36e61aaa71239) | mattgperry |
+| 2026-11-23 | [Merge branch 'main' into perf/observers-and-frameloop](https://github.com/motiondivision/motion/commit/7fdb073c4ee7df27eb2d235f58f4c63ce50b6529) | mattgperry |
+| 2026-11-23 | [Raise the m + domAnimation budget for the inView rework (+0.01 kB)](https://github.com/motiondivision/motion/commit/61d86afa1ad9b3c372a9f7a022589238b52ad451) | mattgperry |
+| 2026-11-23 | [Declare the root's page box cache rather than making the field on eve…](https://github.com/motiondivision/motion/commit/21fb9f3ce06e2b118a9a3ab29dc12c922881e2ae) | mattgperry |
+| 2026-11-23 | [Drop the snapshot pass's page boxes as soon as the update runs](https://github.com/motiondivision/motion/commit/10bc0be0c8c0d73f5c5ae9a15038fce5cf668709) | mattgperry |
+| 2026-11-23 | [Merge pull request #4121 from motiondivision/bundlesize/4-slim-multi-…](https://github.com/motiondivision/motion/commit/699ff927ac7e0cca77e29fbeba65ba087b9b4fd8) | mattgperry |
 
 [See all commits ↗](https://github.com/motiondivision/motion/commits)
 

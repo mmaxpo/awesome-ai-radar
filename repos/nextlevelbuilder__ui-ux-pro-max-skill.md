@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 152.7k |
+| ⭐ **Stars** | 153.2k |
 | 🍴 **Forks** | 16.1k |
-| 🐞 **Open issues + PRs** | [84](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
-| 💻 **Languages** | Python 82% · TypeScript 8% · JavaScript 6% · HTML 4% |
+| 🐞 **Open issues + PRs** | [88](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
+| 💻 **Languages** | Python 82% · TypeScript 7% · JavaScript 6% · HTML 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-skills` `antigravity` `claude` `claude-code` `command-line` `copilot` `cursor-ai` `html5` `kiro` `landing-page` `mobile-ui` `react` `tailwindcss` `ui-design` `uikit` `windsurf-ai` `codex` `qoder` `trae` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-11-30 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases/tag/v2.15.0) — 2026-08-13 |
 | 🌿 **Default branch** | `main` |
@@ -70,6 +70,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [docs: add GitHub CLI skill installation command (#591)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/7e935ad920b390035e0e139bce555d091d14c70b) | tommaso-moro |
+| 2026-11-23 | [fix(i18n): 🐞 infer RTL for mixed-script previews (#588)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/281e4537afb11333ac9947783779aaf314ebfbf2) | t4sh |
 | 2026-11-22 | [feat(i18n): add Arabic query synonym normalization and RTL-safe HTML …](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/6ec2bb58334ca3014573c4cbd4834ee3a40afd9d) | mlubbad |
 | 2026-11-21 | [feat: add form error-handling UX guidelines (rows 131-141) (#587)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/f76d1653d7467fc11fb9d9d79295a421c92ab958) | tuan204-dev |
 | 2026-11-19 | [fix(projects): precompile sample styles so they render offline (#584)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/2de1134dc4d1cfe112934611ae5803ae17a1bd7e) | vaibhav375 |
@@ -78,8 +80,6 @@
 | 2026-11-18 | [feat: add web map UX guidelines (Maps category) (#581)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/f984fcd3dec8c71cf88f2b47ff8acd0ff4ca99c2) | Khanhle19 |
 | 2026-11-18 | [fix(design): keep cip scripts from crashing on a non-UTF-8 stdout (#580)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/f2cc36555984fbfb08f1dca037da2467578f33d2) | Lupin133 |
 | 2026-11-18 | [feat: add an agent-agnostic .agents plugins marketplace (#579)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd) | GamerDubz |
-| 2026-11-16 | [feat(design): add optional UberLLM logo provider (#567)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/e59ff376a41f7ca47b7541ad5c116495cbade3ee) | al-global-tech |
-| 2026-11-16 | [fix(gallery): open style cards from the keyboard and stop nested clic…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/902bf616a0cc590d3f89f233f0c4e00072e549f0) | d4nielantoni |
 
 [See all commits ↗](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commits)
 

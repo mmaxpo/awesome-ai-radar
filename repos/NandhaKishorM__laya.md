@@ -22,28 +22,39 @@
 |---|---|
 | ⭐ **Stars** | 35.8k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [103](https://github.com/NandhaKishorM/laya/issues) |
+| 🐞 **Open issues + PRs** | [100](https://github.com/NandhaKishorM/laya/issues) |
 | 💻 **Languages** | Python 52% · Java 11% · Go 8% · Rust 7% · C# 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `calibration` `classification` `decision-model` `huggingface` `jev` `modernbert` `multilingual` `nlp` `python` `pytorch` `routing` `typed-decisions` `zero-shot` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-09-18 |
-| 📦 **Latest release** | [v0.5.2](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.2) — 2026-11-21 |
+| 📦 **Latest release** | [v0.5.3](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.3) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.2 MB |
+| 💾 **Size** | 22.4 MB |
 | 🌐 **Website** | https://huggingface.co/convaiinnovations/laya |
 
 ## 📦 Recent releases
 
+### [v0.5.3](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.3)
+<sub>2026-11-23 · today</sub>
+
+> **What's Changed**
+> * fix(vega): translate engine's string-keyed choice labels back to caller's labels by @aashish254 in https://github.com/NandhaKishorM/laya/pull/1519
+> * build(deps): bump actions/setup-java from 6.2.0 to 6.3.0 by @dependabot[bot] in https://github.com/NandhaKishorM/laya/pull/1520
+> * build(deps): bump actions/setup-go from 7.0.0 to 7.1.0 by @dependabot[bot] in https://github.com/NandhaKishorM/laya/pull/1521
+> * build(deps): bump ruff from 0.17.4 to 0.17.5 by @dependabot[bot] in https://github.com/NandhaKishorM/laya/pull/1522
+> * build(deps-dev): bump vitest from 5.1.0 to 5.1.1 in /laya-ts by @dependabot[bot] in https://github.com/NandhaKishorM/laya/pull/1523
+> …
+
 ### [v0.5.2](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.2)
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > **What's Changed**
 > * learn: laya.Escalator and laya.vllm_teacher, a teacher for what the learner is unsure of (0.5.2) by @NandhaKishorM in https://github.com/NandhaKishorM/laya/pull/1518
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.5.1...v0.5.2
 
 ### [v0.5.1](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.1)
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **What's Changed**
 > * Sponsor link at the top of the README and a Sponsor button by @NandhaKishorM in https://github.com/NandhaKishorM/laya/pull/1513
@@ -54,34 +65,29 @@
 > …
 
 ### [v0.5.0](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.0)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.38...v0.5.0
 
 ### [v0.4.38](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.38)
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.37...v0.4.38
-
-### [v0.4.37](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.37)
-<sub>2026-11-18 · 3d ago</sub>
-
-> **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.36...v0.4.37
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [release: 0.5.2, laya.vllm_teacher (a teacher you run yourself) and la…](https://github.com/NandhaKishorM/laya/commit/e150aa92a0d4059ac621875b39b620847cf1b88a) | NandhaKishorM |
-| 2026-11-21 | [docs: the teacher line is measured, as in vegaml 0.18](https://github.com/NandhaKishorM/laya/commit/b5ed2fdc91a2233eef79c757554dafeb720b69b3) | NandhaKishorM |
-| 2026-11-21 | [learn: laya.Escalator, a teacher for what the learner is unsure of](https://github.com/NandhaKishorM/laya/commit/7e5279fecc1a2d7e28acfd557fc78d168f25ad8e) | NandhaKishorM |
-| 2026-11-21 | [test(policy): nest the JSON deep enough to raise RecursionError on ev…](https://github.com/NandhaKishorM/laya/commit/19ccbf2fff0024f1dda11da735881be044bacc0a) | NandhaKishorM |
-| 2026-11-21 | [release: 0.5.1, questions.json must be in a policy's manifest, laya-o…](https://github.com/NandhaKishorM/laya/commit/090c540ec4cd0e5c71d539d952f0250e97399fcb) | NandhaKishorM |
-| 2026-11-21 | [test(serve): the uppercase log-level witness follows the installed uv…](https://github.com/NandhaKishorM/laya/commit/411e6a31afa8cd28febd05bb429eabb2cc41bc0b) | NandhaKishorM |
-| 2026-11-21 | [Merge pull request #1515 from Aniketchavan7: fix(serve): correct uvic…](https://github.com/NandhaKishorM/laya/commit/05948e3747209c8c826f9538c1d3c46af77fdf88) | NandhaKishorM |
-| 2026-11-21 | [Merge pull request #1510 from aoright: fix(policy): require questions…](https://github.com/NandhaKishorM/laya/commit/66632aef4b3a40aeb5042038fe96bc418b7d7ab2) | NandhaKishorM |
-| 2026-11-21 | [Merge pull request #1508 from sathariels: feat(rust): make ort downlo…](https://github.com/NandhaKishorM/laya/commit/1bf3003bf8a105b1a0aae585958ac7022bc3deb5) | NandhaKishorM |
-| 2026-11-20 | [fix(serve): correct uvicorn log-level case sensitivity expectation in…](https://github.com/NandhaKishorM/laya/commit/ec54c20c80daa0f156ed066c2260fa32c2667150) | Aniketchavan7 |
+| 2026-11-23 | [fix(java): re-record lang_tables.json after #1526's stopwords](https://github.com/NandhaKishorM/laya/commit/54c72865e4781233396a56c2db013e29ced3b43c) | NandhaKishorM |
+| 2026-11-23 | [release: 0.5.3, choice labels come back as written on the new engine,…](https://github.com/NandhaKishorM/laya/commit/abefd7d955008a59287b0fa8c5753cb323307693) | NandhaKishorM |
+| 2026-11-23 | [fix(rust): pin ort to exactly 2.0.0-rc.13 so a fresh resolve still co…](https://github.com/NandhaKishorM/laya/commit/da444d5107ef2e23d0240f75cc45d904d7408253) | NandhaKishorM |
+| 2026-11-23 | [fix(rust,dotnet): carry #1526's Spanish, Portuguese and Italian stopw…](https://github.com/NandhaKishorM/laya/commit/60fdb8cd7814176990d3991b2c7da2d198de47d2) | NandhaKishorM |
+| 2026-11-23 | [Merge pull request #1528 from dante01yoon: fix(ts): a null or blank p…](https://github.com/NandhaKishorM/laya/commit/33189272e55a854b174c9d2f2afdf15615cd31ea) | NandhaKishorM |
+| 2026-11-23 | [Merge pull request #1526 from Rukafuu: fix(lang): add unaccented and …](https://github.com/NandhaKishorM/laya/commit/d82c4fc5f2e5a17e8806702b08ce33d476b55d84) | NandhaKishorM |
+| 2026-11-23 | [Merge pull request #1525 from Rukafuu: fix(onnx-export): the cleanup …](https://github.com/NandhaKishorM/laya/commit/ac7cf2eb042251059a058e75ea76a98fafff1c9e) | NandhaKishorM |
+| 2026-11-23 | [Merge pull request #1524 from chetanxrathore: fix(onnx): verify fused…](https://github.com/NandhaKishorM/laya/commit/29e0d3bffe5f33926f91814aacafd0ff3af020b2) | NandhaKishorM |
+| 2026-11-23 | [Merge pull request #1519 from aashish254: fix(vega): translate engine…](https://github.com/NandhaKishorM/laya/commit/7675240f6ebf39efa1e29529cfc0539a54e8e841) | NandhaKishorM |
+| 2026-11-23 | [Merge pull request #1523 from app/dependabot: build(deps-dev): bump v…](https://github.com/NandhaKishorM/laya/commit/e13a6b00d29ee278178de00bd27a1d27358d12ab) | NandhaKishorM |
 
 [See all commits ↗](https://github.com/NandhaKishorM/laya/commits)
 

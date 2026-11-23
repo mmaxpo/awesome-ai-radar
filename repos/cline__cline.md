@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 71.8k |
-| 🍴 **Forks** | 7.9k |
+| 🍴 **Forks** | 8.0k |
 | 🐞 **Open issues + PRs** | [1.8k](https://github.com/cline/cline/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-07-06 |
 | 📦 **Latest release** | [v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 623.6 MB |
+| 💾 **Size** | 622.8 MB |
 | 🌐 **Website** | https://cline.bot |
 
 ## 📦 Recent releases
 
 ### [v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27)
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **Added**
 > - LM Studio settings have an API key field, for servers with "Require Authentication" turned on.
@@ -47,7 +47,7 @@
 > …
 
 ### [desktop-v0.0.50](https://github.com/cline/cline/releases/tag/desktop-v0.0.50) — Desktop v0.0.50
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > - The thinking picker offers **Max** reasoning effort, for models whose top level is max
 > - A manual `/compact` can be stopped. Before, it could sit on "Thinking…" with no Stop button when the summarizer stalled
@@ -58,7 +58,7 @@
 > …
 
 ### [cli-v3.0.75](https://github.com/cline/cline/releases/tag/cli-v3.0.75) — CLI v3.0.75
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > - One-shot runs (a prompt argument or piped stdin) now start in yolo mode instead of act mode, since nobody is at the keyboard to approve tools. Act mode is kept when auto-approve is off (`--auto-approve false` or the saved setting), when a mode flag is passed, when plan mode is saved, or when the prompt is a `/team` prompt. Yolo mode has no team tools, so pass `--act` when you need them
 > - `--timeout` and Ctrl+C now stop the first turn of a one-shot run. Before, neither could interrupt it
@@ -69,7 +69,7 @@
 > …
 
 ### [sdk/sdk/v0.2.1](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.1) — SDK v0.2.1
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > - `read_files` results are no longer re-cut to the 8k tool-result cap on the way to the provider. They use the 50k file-content cap, so a read the tool reported in full arrives in full. Command, search, MCP and custom tool results keep the 8k cap, and an explicit tool-result cap still applies
 > - Models that need interleaved reasoning get a placeholder `reasoning_content` on assistant messages that have none. This fixes Reflection Beam's `400 Missing required parameter: 'messages[n].reasoning_content'` after compaction or a model switch. The fact is carried as `ModelInfo.metadata.interleavedReasoningField`
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26)
-<sub>2026-10-26 · 27d ago</sub>
+<sub>2026-10-26 · 28d ago</sub>
 
 > **Added**
 > - Cloud tasks: Settings > API Configuration has a Local | Cloud toggle when cloud sessions are on. Cloud picks the Cline model new cloud tasks run on, saved separately from your local models. Clicking the model label in a cloud session's composer opens it there.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Move the third party notices to the root on the CLI install (#15836)](https://github.com/cline/cline/commit/34c104e6fc49781cda4adcd73ffdccd8f029fef9) | BarreiroT |
 | 2026-11-21 | [chore(vscode): release v4.1.27](https://github.com/cline/cline/commit/8075d2e35cf5cad67c24f180c80a05d311b74a3e) | saoudrizwan |
 | 2026-11-21 | [docs(desktop): drop flag-gated cloud items from the 0.0.50 notes](https://github.com/cline/cline/commit/e68fba63b3d7687cb518de378c9505efa007da67) | saoudrizwan |
 | 2026-11-21 | [chore(desktop): release v0.0.50](https://github.com/cline/cline/commit/4e3add853d898e601d93f5b2a7e851a8f18f5c13) | saoudrizwan |
@@ -103,7 +104,6 @@
 | 2026-11-21 | [Add third party licenses to the desktop app (#15816)](https://github.com/cline/cline/commit/9f750b8a3dfbb441b629547d5d84aca130ea3828) | BarreiroT |
 | 2026-11-21 | [Add the third party notices to the CLI (#15811)](https://github.com/cline/cline/commit/4a5c5919308d32c29a116b345b88886a748d0929) | BarreiroT |
 | 2026-11-21 | [Attach the third party notices on our VSIX (#15809)](https://github.com/cline/cline/commit/456a695f35af7c3f852cf7fcd74c03d09bfb2602) | BarreiroT |
-| 2026-11-20 | [test(llms): remove image-model assertion on the generated catalog (#1…](https://github.com/cline/cline/commit/e8227d6f2e2725fdaad67e1a2ab9323e69b12516) | saoudrizwan |
 
 [See all commits ↗](https://github.com/cline/cline/commits)
 

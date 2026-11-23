@@ -26,25 +26,25 @@
 | 💻 **Languages** | Go 72% · JavaScript 17% · CSS 2% · C++ 2% · TypeScript 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `ai` `llm` `stable-diffusion` `api` `tts` `musicgen` `mamba` `audio-generation` `image-generation` `text-generation` `rerank` `distributed` `libp2p` `decentralized` `object-detection` `mcp` `agents` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-03-18 |
 | 📦 **Latest release** | [v5.0.1](https://github.com/mudler/LocalAI/releases/tag/v5.0.1) — 2026-11-20 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 253.0 MB |
+| 💾 **Size** | 254.0 MB |
 | 🌐 **Website** | https://localai.io |
 
 ## 📦 Recent releases
 
-### [dev-master](https://github.com/mudler/LocalAI/releases/tag/dev-master) — Development build (e68e9fb) _(pre-release)_
-<sub>2026-11-15 · 7d ago</sub>
+### [dev-master](https://github.com/mudler/LocalAI/releases/tag/dev-master) — Development build (83d36f8) _(pre-release)_
+<sub>2026-11-15 · 8d ago</sub>
 
-> Commit: e68e9fbbab5242cc4fcd80e89b90640b03b9c68f
-> Date: 2026-11-22T09:00:57Z
-> Subject: fix(trace): keep persisted traces when one file cannot be read
+> Commit: 83d36f88ab43e2ab44f4c0c69fa1e22527f0710e
+> Date: 2026-11-23T13:41:56Z
+> Subject: fix(grammars): exclude unescaped control characters in JSON string rules (#13417)
 > This is an unsupported development build of the master branch. Use a release for anything that matters.
 
 ### [v5.0.1](https://github.com/mudler/LocalAI/releases/tag/v5.0.1)
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > **What's Changed**
 > **Other Changes**
@@ -55,7 +55,7 @@
 > …
 
 ### [v5.0.0](https://github.com/mudler/LocalAI/releases/tag/v5.0.0)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > <p align="center">
 >   <em>
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [fix(trace): keep persisted traces when one file cannot be read](https://github.com/mudler/LocalAI/commit/e68e9fbbab5242cc4fcd80e89b90640b03b9c68f) | mudler |
-| 2026-11-22 | [fix(ui): list backend log processes from the workers in a cluster](https://github.com/mudler/LocalAI/commit/9e8c76d648e0894ec3b4226b79236c47f65c1a64) | mudler |
-| 2026-11-22 | [test(importers): use Ginkgo for the repository ID test](https://github.com/mudler/LocalAI/commit/c332830228f69681101bb7792c6ae6bfcfa08d9f) | mudler |
-| 2026-11-22 | [fix(importers): accept scheme-less Hugging Face repository URIs](https://github.com/mudler/LocalAI/commit/66f593afec5cb9a0b6d1f5fd573c45f5a75c77ff) | mudler |
-| 2026-11-22 | [chore: :arrow_up: Update 0xShug0/audio.cpp to `04a37f2e80ff2dbcdd84cc…](https://github.com/mudler/LocalAI/commit/100afd737ef0c2feff13d62874312afb6d09ad4d) | localai-update-bot[bot] |
-| 2026-11-22 | [chore: :arrow_up: Update CrispStrobe/CrispASR to `6974f1825e18ccd5ab7…](https://github.com/mudler/LocalAI/commit/214e8f79b66c8120a0872721d6ebfe409fb88427) | localai-update-bot[bot] |
-| 2026-11-22 | [fix(importers): import Ollama models by name, params and projector, a…](https://github.com/mudler/LocalAI/commit/00ab41086592d8c24bd4b16e10373b04752f162b) | mudler-agent |
-| 2026-11-22 | [feat(addons): add the Ollama search add-on (#13383)](https://github.com/mudler/LocalAI/commit/a8a7ea460a1f791b46731e0e2b5a857d12783f52) | mudler-agent |
-| 2026-11-22 | [feat(modelsearch): accept ollama:// search results and list their lay…](https://github.com/mudler/LocalAI/commit/aca3d8c9f2f577e04b012d9b8ca83b702d40fdf9) | mudler-agent |
-| 2026-11-22 | [chore: :arrow_up: Update ggml-org/whisper.cpp to `5eaee0cc9024eb9e9a9…](https://github.com/mudler/LocalAI/commit/63ea3075705376975b6d0978d4769e6ce0ec094f) | localai-update-bot[bot] |
+| 2026-11-23 | [feat(ui): add video as a background kind (#13419)](https://github.com/mudler/LocalAI/commit/bad4daa93e8303ab5a9c12e7f3689449fb090f64) | mudler-agent |
+| 2026-11-23 | [fix(grammars): exclude unescaped control characters in JSON string ru…](https://github.com/mudler/LocalAI/commit/83d36f88ab43e2ab44f4c0c69fa1e22527f0710e) | Kirep-06 |
+| 2026-11-23 | [[llama-cpp] fix: catch all JSON exceptions when normalizing message c…](https://github.com/mudler/LocalAI/commit/d9b9019162cd18b742bcebb31b7446b2048cebc5) | leilei3167 |
+| 2026-11-23 | [test(studio): find the wait message after a sub-agent report in wait_…](https://github.com/mudler/LocalAI/commit/e62bb30b5208aa600490116509775d647e6dae18) | mudler |
+| 2026-11-23 | [test(addons): list the launch diagnostics specs in the case inventories](https://github.com/mudler/LocalAI/commit/9b377d230f7b317f411963243423d9dba90214f0) | mudler |
+| 2026-11-23 | [docs(addons): tell where the reason of a failed upgrade is](https://github.com/mudler/LocalAI/commit/5e07944c986c638f3e29ee60767db8e9dd6e11d2) | mudler |
+| 2026-11-23 | [fix(addons): put the launch cause in the log of a failed upgrade](https://github.com/mudler/LocalAI/commit/e1b1db069fa5b2eedf428937f9833d42953ed2c4) | mudler |
+| 2026-11-23 | [fix(addons): say why an add-on process did not launch](https://github.com/mudler/LocalAI/commit/403b90a1bbb643fe25aa41c3cd6fa7fd1971c670) | mudler |
+| 2026-11-23 | [fix(ui): keep the list picker menu inside the panel that holds it](https://github.com/mudler/LocalAI/commit/fc6c68f2007239cb873b7fd852b5815ab781dbc3) | mudler |
+| 2026-11-23 | [test(addons): list the lifecycle and gateway specs in the case invent…](https://github.com/mudler/LocalAI/commit/e428a08006164fd0c3094e9867648a34bda9b2df) | mudler |
 
 [See all commits ↗](https://github.com/mudler/LocalAI/commits)
 

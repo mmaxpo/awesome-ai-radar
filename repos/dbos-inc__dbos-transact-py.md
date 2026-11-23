@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 1.7k |
 | 🍴 **Forks** | 126 |
-| 🐞 **Open issues + PRs** | [11](https://github.com/dbos-inc/dbos-transact-py/issues) |
+| 🐞 **Open issues + PRs** | [9](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
-| 🕒 **Last activity** | 2026-11-21 (yesterday) |
+| 🕒 **Last activity** | 2026-11-21 (2d ago) |
 | 📅 **Created** | 2024-07-19 |
 | 📦 **Latest release** | [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **Behavior Changes**
 > This release changes how DBOS workflow management operations (cancel, resume, fork rewind) interact with queues. Previously, these operations would clear queue information, so the workflow was no longer associated with any queue. Now, these operations do not clear queue operations, so cancelling and resuming a workflow re-enqueues the workflow to its original queue, and rewinding or forking a workflow similarly re-enqueues it (a cancelled or otherwise terminated workflow still does not consume a queue slot until resumed and re-enqueued). You can override this behavior by passing a different queue into resume, rewind, or fork. We made this change because of consistent user feedback that the original behavior (clearing queue information) was unintuitive.
@@ -47,7 +47,7 @@
 > …
 
 ### [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0)
-<sub>2026-11-10 · 11d ago</sub>
+<sub>2026-11-10 · 12d ago</sub>
 
 > **What's Changed**
 > * Better Queue Locking by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/932
@@ -58,7 +58,7 @@
 > …
 
 ### [3.4.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.4.0)
-<sub>2026-10-28 · 24d ago</sub>
+<sub>2026-10-28 · 26d ago</sub>
 
 > **What's Changed**
 > * Poll only the status column for preemptible step cancellation by @buftio in https://github.com/dbos-inc/dbos-transact-py/pull/898

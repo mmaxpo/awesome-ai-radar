@@ -22,26 +22,31 @@
 |---|---|
 | ⭐ **Stars** | 109.0k |
 | 🍴 **Forks** | 15.0k |
-| 🐞 **Open issues + PRs** | [724](https://github.com/google-gemini/gemini-cli/issues) |
+| 🐞 **Open issues + PRs** | [733](https://github.com/google-gemini/gemini-cli/issues) |
 | 💻 **Languages** | TypeScript 97% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gemini` `gemini-api` `ai` `ai-agents` `cli` `mcp-client` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-04-17 |
 | 📦 **Latest release** | [v0.70.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 103.5 MB |
+| 💾 **Size** | 103.7 MB |
 | 🌐 **Website** | https://geminicli.com |
 
 ## 📦 Recent releases
 
+### [v0.71.0-nightly.20261123.geecccfcd5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261123.geecccfcd5) — Release v0.71.0-nightly.20261123.geecccfcd5 _(pre-release)_
+<sub>2026-11-23 · today</sub>
+
+> **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261122.geecccfcd5...v0.71.0-nightly.20261123.geecccfcd5
+
 ### [v0.71.0-nightly.20261122.geecccfcd5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261122.geecccfcd5) — Release v0.71.0-nightly.20261122.geecccfcd5 _(pre-release)_
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261121.geecccfcd5...v0.71.0-nightly.20261122.geecccfcd5
 
 ### [v0.71.0-nightly.20261121.geecccfcd5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261121.geecccfcd5) — Release v0.71.0-nightly.20261121.geecccfcd5 _(pre-release)_
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **What's Changed**
 > * fix(cli): expand Windows home-relative paths using tilde and backslash by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/30376
@@ -49,7 +54,7 @@
 > **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261120.gd4cb1713f...v0.71.0-nightly.20261121.geecccfcd5
 
 ### [v0.71.0-nightly.20261120.gd4cb1713f](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261120.gd4cb1713f) — Release v0.71.0-nightly.20261120.gd4cb1713f _(pre-release)_
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **What's Changed**
 > * fix(core,cli): preserve literal `$` characters during template placeholder replacement by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/30136
@@ -60,7 +65,7 @@
 > …
 
 ### [v0.70.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0) — Release v0.70.0
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **What's Changed**
 > * Changelog for v0.69.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30222
@@ -68,17 +73,6 @@
 > * chore(release): bump version to 0.70.0-nightly.20261110.g1603e9bab by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30223
 > * test(cli): remove redundant lowercase restart test in AdminSettingsChangedDialog by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/30221
 > * fix(cli): preserve Unicode prompts and strip ANSI fragments in session previews (#29915) by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/30220
-> …
-
-### [v0.71.0-preview.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-preview.0) — Release v0.71.0-preview.0 _(pre-release)_
-<sub>2026-11-19 · 2d ago</sub>
-
-> **What's Changed**
-> * Changelog for v0.70.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30361
-> * chore(release): bump version to 0.71.0-nightly.20261118.g615d6bc8c by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30366
-> * Changelog for v0.69.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30365
-> * fix(core,cli): parse PowerShell commands asynchronously to prevent UI spinner freeze by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30334
-> * chore(gcp): push development worker to private artifact registry by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/30319
 > …
 
 ## 🔨 Latest commits

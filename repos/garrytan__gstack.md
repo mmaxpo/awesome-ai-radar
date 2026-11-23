@@ -20,22 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 142.3k |
+| ⭐ **Stars** | 142.5k |
 | 🍴 **Forks** | 21.0k |
-| 🐞 **Open issues + PRs** | [49](https://github.com/garrytan/gstack/issues) |
+| 🐞 **Open issues + PRs** | [52](https://github.com/garrytan/gstack/issues) |
 | 💻 **Languages** | TypeScript 91% · Shell 4% · Go Template 3% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-03-11 |
-| 📦 **Latest release** | [v1.102.2.0](https://github.com/garrytan/gstack/releases/tag/v1.102.2.0) — 2026-11-21 |
+| 📦 **Latest release** | [v1.103.0.0](https://github.com/garrytan/gstack/releases/tag/v1.103.0.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 271.3 MB |
+| 💾 **Size** | 274.5 MB |
 
 ## 📦 Recent releases
 
+### [v1.103.0.0](https://github.com/garrytan/gstack/releases/tag/v1.103.0.0) — gstack v1.103.0.0
+<sub>2026-11-23 · today</sub>
+
+> **gstack v1.103.0.0**
+> This release closes gaps in two of gstack's safety checks and its merge tool, fixes the /ship failures that were stopping pull requests from finishing, and renames `/verify` to `/build-check` so Claude Code's own `/verify` works again. Upgrade with `/gstack-upgrade`.
+> **Action needed: `/verify` is now `/build-check`**
+> - `/verify` is now `/build-check`, so typing `/verify` opens Claude Code's built-in `/verify` again. Use `/build-check` for gstack's build-and-check loop and `/build-check quick` for the check-only pass. (#4714)
+> - If you turned the skill off with `disabled_skills: verify`, change that entry to `build-check`. Until you do, gstack reads `verify` as `build-check`, so the skill stays off after you upgrade. (#4719)
+> - gstack no longer runs the check pass before every commit on its own, so the `verify_before_commit` setting is retired. Setting it prints a note and changes nothing, and a config file that still has it keeps working. (#4714)
+> …
+
 ### [v1.102.2.0](https://github.com/garrytan/gstack/releases/tag/v1.102.2.0) — gstack v1.102.2.0
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · yesterday</sub>
 
 > gstack 1.102.2.0 fixes two things that broke skills on Codex, stops /plan-tune sending your typed answers to the model without a record, lets large repositories use /ship, makes /office-hours start from ground truth, and moves skill routing out of your CLAUDE.md into the hook that now does that job.
 > **Codex**
@@ -46,7 +57,7 @@
 > …
 
 ### [v1.102.1.0](https://github.com/garrytan/gstack/releases/tag/v1.102.1.0) — gstack v1.102.1.0
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > gstack 1.102.1.0 closes a gap where a secret written after a slash could be printed unhidden, locks down gstack's usage reporting and makes it more useful for people who opt in, fixes a set of bugs in how gstack picks the right skill for a prompt, and makes a gstack skill's start step run as Claude Code loads the skill, so it can't be skipped.
 > **Usage reporting (telemetry, opt-in)**
@@ -57,7 +68,7 @@
 > …
 
 ### [v1.102.0.0](https://github.com/garrytan/gstack/releases/tag/v1.102.0.0) — gstack v1.102.0.0
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > gstack 1.102.0.0 makes Codex a first-class host: it now gets gstack's skill suggestions, the destructive-command check and /review's checklist hold. The destructive-command check was rebuilt to ask far less often while catching far more real damage.
 > **Destructive-command check (/careful)**
@@ -68,7 +79,7 @@
 > …
 
 ### [v1.101.0.0](https://github.com/garrytan/gstack/releases/tag/v1.101.0.0) — gstack v1.101.0.0
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **gstack v1.101.0.0**
 > **What's new**
@@ -78,31 +89,20 @@
 > - When another agent drives /ship step by step, each phase now runs as one command, the calls are counted, and the run stops itself after 100 minutes. ([#4451](https://github.com/garrytan/gstack/pull/4451))
 > …
 
-### [v1.100.0.0](https://github.com/garrytan/gstack/releases/tag/v1.100.0.0) — gstack v1.100.0.0
-<sub>2026-11-17 · 4d ago</sub>
-
-> **gstack v1.100.0.0**
-> This release fixes five security advisories in a dependency, makes gstack's shell locks safe on Ubuntu 26.04, and changes how /ship writes and reviews pull requests. One optional hook check is removed.
-> **Fixes**
-> - Security: hono is pinned to 4.13.16, which fixes five advisories (GHSA-3gg2-335m-rxc6, GHSA-46wx-v44x-9hh2, GHSA-4h7h-rv7c-7m2v, GHSA-4m76-xfj5-7975, GHSA-h7mg-cq63-vhpq) found in 4.13.13. hono reaches gstack only through its development and test tools, and gstack's own code never uses it, so none of the five was reachable; contributors get the fix on their next `bun install`. (#4408)
-> - gstack's shell locks admit exactly one holder again on Ubuntu 26.04 and GitHub's current `ubuntu-latest`, whose Rust `mkdir` reports success even when another process created the directory first. Before this, two updates could move one checkout at once, or two `gstack-config set` calls could drop each other's keys. (#4262)
-> - /ship's documentation check no longer wastes one of its two attempts when the checking model writes text after its result line; it is asked once, for free, to resend the result alone. (#4285)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Review exclusions stay in place when the repo's own policy test pins …](https://github.com/garrytan/gstack/commit/44e244d603036a46833ce14e9fd319276ee73e33) | garrytan |
-| 2026-11-22 | [Free test shards stop failing when a test's browser exits during the …](https://github.com/garrytan/gstack/commit/3c9cda0a2d678777d6487c545b9cbb8e26618485) | garrytan |
-| 2026-11-22 | [A fix closes its review finding only after a finished full review, an…](https://github.com/garrytan/gstack/commit/63900b308cd57a9fae29141b64c1dd9b00752579) | garrytan |
-| 2026-11-22 | [Prompt router stops sending feature requests to your bug-fix skill (#…](https://github.com/garrytan/gstack/commit/596ff8a7cc913d405e7682ac99106cdfa7aab7e9) | garrytan |
-| 2026-11-22 | [Review and ship tools: read Codex numbered severities, check Remote C…](https://github.com/garrytan/gstack/commit/b3323f47b8cb6ec074bc755d3b108983a816007a) | garrytan |
-| 2026-11-22 | [Test selection finds tests for NodeNext .js imports and Rails specs (…](https://github.com/garrytan/gstack/commit/4bd15f8a3d7e159f61e8fe2d465cb20f4b0629c6) | garrytan |
-| 2026-11-22 | [A skipped CI run no longer blocks reusing a passing run on the same c…](https://github.com/garrytan/gstack/commit/7530280407b9a466fc4a546f026f1cc3eff8211a) | garrytan |
-| 2026-11-22 | [/ship can finish after a docs audit stopped before saving its snapsho…](https://github.com/garrytan/gstack/commit/25bf93c4e29d80f520e415c65b0ae778867c9ded) | garrytan |
-| 2026-11-22 | [Local checks reuse every green CI run at your code, not only the firs…](https://github.com/garrytan/gstack/commit/3d3ce73eb9eb6d1d1f472e0e81f419d8fd9bdc73) | garrytan |
-| 2026-11-22 | [Fix eight problems users reported in skill instructions (#4686)](https://github.com/garrytan/gstack/commit/113deeaf9c99847c719cc9d1dd826ea2ef7ce4e5) | garrytan |
+| 2026-11-23 | [gstack-upgrade works again after you disable skills (#4704) (#4743)](https://github.com/garrytan/gstack/commit/c4cfe6d1c94e2fd6fe2afd735dd1a5cc914cfe0c) | garrytan |
+| 2026-11-23 | [/cso searches the whole repository in one call with a hard time limit…](https://github.com/garrytan/gstack/commit/a3ecfd530df3c78c2d60e92b6488586a75e0ff91) | garrytan |
+| 2026-11-23 | [Add a test that stops /ship from gaining refusals without a stated re…](https://github.com/garrytan/gstack/commit/45b48f17d9282442bc1321bc2ba9ffbf037195f3) | garrytan |
+| 2026-11-23 | [/cso reports every security finding the code supports instead of drop…](https://github.com/garrytan/gstack/commit/af6deb996eca01f21c6747697af911d95c132de0) | garrytan |
+| 2026-11-23 | [Write up a failed or shelved attempt before closing it (GST-3576) (#4…](https://github.com/garrytan/gstack/commit/8143a91809b2305da6ffa7486923008b72d337e6) | garrytan |
+| 2026-11-23 | [v1.103.0.0 Release v1.103.0.0: /verify becomes /build-check, plus sec…](https://github.com/garrytan/gstack/commit/71c5e34d706831154dae2fb144a7c50e0e46beda) | garrytan |
+| 2026-11-23 | [A green CI run now counts for your branch when only main moved under …](https://github.com/garrytan/gstack/commit/261f380002d19f67bca028dd48364729803c8bc5) | garrytan |
+| 2026-11-23 | [Publish the test of /ship's review panel against two plain reads (GST…](https://github.com/garrytan/gstack/commit/8751b382dd5d3953c26e4e9e3f1532ec053031b0) | garrytan |
+| 2026-11-23 | [Release check's docs-audit tests accept /ship's step for a stopped do…](https://github.com/garrytan/gstack/commit/50204fd64f80ab4bd3b4095704dc908e989ceda2) | garrytan |
+| 2026-11-23 | [/plan-ceo-review explains its mode recommendation by what that mode d…](https://github.com/garrytan/gstack/commit/0408128f2fa5a11ffb5862e1fa05802a3708754c) | garrytan |
 
 [See all commits ↗](https://github.com/garrytan/gstack/commits)
 

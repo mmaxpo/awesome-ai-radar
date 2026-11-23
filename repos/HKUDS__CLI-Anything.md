@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 62.4k |
-| 🍴 **Forks** | 5.7k |
-| 🐞 **Open issues + PRs** | [285](https://github.com/HKUDS/CLI-Anything/issues) |
+| ⭐ **Stars** | 63.3k |
+| 🍴 **Forks** | 5.8k |
+| 🐞 **Open issues + PRs** | [284](https://github.com/HKUDS/CLI-Anything/issues) |
 | 💻 **Languages** | Python 97% · C# 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-20 (3d ago) |
 | 📅 **Created** | 2026-03-08 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0) — 2026-06-25 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0)
-<sub>2026-06-25 · 4mo ago</sub>
+<sub>2026-06-25 · 5mo ago</sub>
 
 > **Highlights**
 > * **CLI-Matrix** — a new `cli-hub matrix` command family that turns curated, multi-CLI workflow "matrices" into one-shot, capability-driven installs. Discover with `cli-hub matrix list/search` and `cli-hub can <task>`, inspect with `matrix info/doctor`, verify capability coverage with `matrix preflight`, and provision an entire workflow with `matrix install` (recipes, scoped installs, dry-run, resume). Ships `cli-anything-hub` **0.4.0** to PyPI with `matrix.py` / `matrix_skill.py` and unified install/preflight/discover analytics.

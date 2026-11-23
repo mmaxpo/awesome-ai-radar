@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 24.9k |
 | 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [430](https://github.com/modelcontextprotocol/python-sdk/issues) |
+| 🐞 **Open issues + PRs** | [432](https://github.com/modelcontextprotocol/python-sdk/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `mcp` `mcp-server` `mcp-client` |
-| 🕒 **Last activity** | 2026-11-17 (5d ago) |
+| 🕒 **Last activity** | 2026-11-17 (6d ago) |
 | 📅 **Created** | 2024-09-24 |
 | 📦 **Latest release** | [v2.3.0](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0) — 2026-10-02 |
 | 🌿 **Default branch** | `main` |
@@ -77,7 +77,7 @@
 > **Full Changelog**: https://github.com/modelcontextprotocol/python-sdk/compare/v2.0.0...v2.0.1
 
 ### [v2.1.1](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.1.1)
-<sub>2026-08-25 · 2mo ago</sub>
+<sub>2026-08-25 · 3mo ago</sub>
 
 > **What's Changed**
 > * Point imports of mcp.server.fastmcp at the migration guide by @maxisbey in https://github.com/modelcontextprotocol/python-sdk/pull/3388

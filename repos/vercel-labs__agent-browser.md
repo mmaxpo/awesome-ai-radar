@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 53.3k |
-| 🍴 **Forks** | 3.7k |
-| 🐞 **Open issues + PRs** | [576](https://github.com/vercel-labs/agent-browser/issues) |
+| ⭐ **Stars** | 53.6k |
+| 🍴 **Forks** | 3.8k |
+| 🐞 **Open issues + PRs** | [579](https://github.com/vercel-labs/agent-browser/issues) |
 | 💻 **Languages** | Rust 92% · TypeScript 6% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-01-11 |
 | 📦 **Latest release** | [v0.43.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 36.3 MB |
+| 💾 **Size** | 38.5 MB |
 | 🌐 **Website** | https://agent-browser.dev |
 
 ## 📦 Recent releases
 
 ### [v0.43.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0)
-<sub>2026-11-12 · 9d ago</sub>
+<sub>2026-11-12 · 10d ago</sub>
 
 > **New Features**
 > - Added **snapshot hints** for controls whose accessible name is empty or shared with another ref in the same snapshot. The hint follows the ref and lists the control's icon, image file, `data-testid`, `name` or `id`, and the text of the nearest row or list item (#2578)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.42.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.42.0)
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **New Features**
 > - Added **saved flows** (experimental): record a browser task once, then replay its requests. A run tries direct HTTP first, then the same request from the page, then a replay of the recorded commands, and saves the tier that worked. Runs send requests only to public addresses, and saving waits for in-flight requests and follows redirects to the end (#2236, #2397, #2432, #2433, #2444)
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.41.2](https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.2)
-<sub>2026-11-03 · 18d ago</sub>
+<sub>2026-11-03 · 19d ago</sub>
 
 > **New Features**
 > - Added **targeted skill references** with `skills get <name> --ref <ref>` and the MCP `agent_browser_skills_get` tool's `refs` argument, so agents can load one reference or template at a time (#2310)
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.41.1](https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.1)
-<sub>2026-11-01 · 20d ago</sub>
+<sub>2026-11-01 · 22d ago</sub>
 
 > **Bug Fixes**
 > - Fixed **cookie attributes** so `cookies set` honors `--http-only` and `--same-site`, preserves the existing aliases, and rejects unknown arguments (#2256)
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.41.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.0)
-<sub>2026-10-29 · 24d ago</sub>
+<sub>2026-10-29 · 25d ago</sub>
 
 > **Breaking Changes**
 > - **`@agent-browser/eve` tools now come from the MCP tool catalog.** The extension exposes the CLI's MCP tools instead of 21 hand-written ones, so tool names and inputs change: `navigate` is `open`, `evaluate` is `eval`, `press_key` is `press`, `select_option` is `select`, `set_checked` is `check` and `uncheck`, `get` is `get_text`, `get_url` and the other `get_*` tools, `tabs` is the `tab_*` tools, and `wait_for` is the `wait_*` tools. The same names apply to `@agent-browser/eve/tools` overrides. The sandbox needs agent-browser 0.41, which the extension installs by default (#2241)

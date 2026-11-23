@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 6.8k |
-| 🍴 **Forks** | 502 |
+| 🍴 **Forks** | 501 |
 | 🐞 **Open issues + PRs** | [12](https://github.com/oomol-lab/pdf-craft/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `document` `ocr` `pdf` `deepseek-ocr` `book-digitization` `deepseek-ocr-2` `document-processing` `ebook` `epub` `epub-translation` `markdown` `pdf-converter` `pdf-parser` `pdf-to-epub` `pdf-to-markdown` `pdf-translation` `python` `scanned-pdf` `text-extraction` `translation` |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-02-12 |
 | 📦 **Latest release** | [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7)
-<sub>2026-10-28 · 25d ago</sub>
+<sub>2026-10-28 · 26d ago</sub>
 
 > **PDF Craft v2.6.7**
 > Restore incremental PDF extraction `on_body` / `on_footnote` delivery after the
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.6.6](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.6)
-<sub>2026-10-28 · 25d ago</sub>
+<sub>2026-10-28 · 26d ago</sub>
 
 > **PDF Craft v2.6.6**
 > PDF Craft 2.6.6 fixes concurrent PDF extraction, footnote OCR masks, XML fill
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.6.5](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.5)
-<sub>2026-10-26 · 26d ago</sub>
+<sub>2026-10-26 · 28d ago</sub>
 
 > **PDF Craft v2.6.5**
 > PDF Craft 2.6.5 adds translation-size previews and operation-scoped resource
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.6.4](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.4)
-<sub>2026-10-26 · 27d ago</sub>
+<sub>2026-10-26 · 28d ago</sub>
 
 > **PDF Craft v2.6.4**
 > PDF Craft 2.6.4 unifies extraction and translation progress, counts source words
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.6.3](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.3)
-<sub>2026-10-25 · 28d ago</sub>
+<sub>2026-10-25 · 29d ago</sub>
 
 > **PDF Craft v2.6.3**
 > PDF Craft 2.6.3 preserves the original cause of concurrent service failures,
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [docs: use PDF Craft logo in deployment options header SVG (#672)](https://github.com/oomol-lab/pdf-craft/commit/56acd2887ef78b12e2fe50abcbd5147ce14ce7e1) | alwaysmavs |
+| 2026-11-23 | [docs: add 3-column deployment options table, MCP/OpenAPI badges, and …](https://github.com/oomol-lab/pdf-craft/commit/adf0abe052845fb575c6b3a81da069abbd90ca67) | alwaysmavs |
 | 2026-11-20 | [fix: align MiniCPM-OCR with the upstream backend (#670)](https://github.com/oomol-lab/pdf-craft/commit/6eee49ae10622d66abd5191c6acae167398c6d5a) | Moskize91 |
 | 2026-11-20 | [feat(ocr): add MiniCPM-OCR vendor backend (#669)](https://github.com/oomol-lab/pdf-craft/commit/cb47d557d5108548bc8f3136354ecbcbd01e423e) | Caldalis |
 | 2026-11-19 | [Tag top online conversion links in three READMEs (#668)](https://github.com/oomol-lab/pdf-craft/commit/ecd36d215a8786f48aafde8df81126b69e1ce4b9) | Cheerego7 |
@@ -102,8 +104,6 @@
 | 2026-10-28 | [fix: finalize PDF layout from direct page dependencies (#568)](https://github.com/oomol-lab/pdf-craft/commit/46ac35d6b22b439f230f8a188bca7c230a763113) | Moskize91 |
 | 2026-10-28 | [fix: deliver content callbacks and page progress without unrelated wa…](https://github.com/oomol-lab/pdf-craft/commit/6a11c2de2bc462f1a48400ceafd3f1b4f600d6be) | Moskize91 |
 | 2026-10-28 | [fix: unblock ready OCR neighborhoods for page refinement (#566)](https://github.com/oomol-lab/pdf-craft/commit/7619abd4cc445c9f363b6ef26014c5c4094062a8) | Moskize91 |
-| 2026-10-28 | [fix: stream PDF page refinement and incremental content delivery (#565)](https://github.com/oomol-lab/pdf-craft/commit/10579178437f06cc637eef793a4899cb93737445) | Moskize91 |
-| 2026-10-28 | [fix: restore incremental extraction callbacks and prepare 2.6.7 (#564)](https://github.com/oomol-lab/pdf-craft/commit/8340f7c40aa4c643b06fec5af96d48ed1961739f) | Moskize91 |
 
 [See all commits ↗](https://github.com/oomol-lab/pdf-craft/commits)
 

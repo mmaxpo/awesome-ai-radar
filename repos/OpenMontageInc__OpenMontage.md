@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Agentic video production system with 12 pipelines |
 | **Added** | 2026-11-15 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 82.3k |
-| 🍴 **Forks** | 11.2k |
-| 🐞 **Open issues + PRs** | [357](https://github.com/OpenMontageInc/OpenMontage/issues) |
+| ⭐ **Stars** | 82.6k |
+| 🍴 **Forks** | 11.3k |
+| 🐞 **Open issues + PRs** | [356](https://github.com/OpenMontageInc/OpenMontage/issues) |
 | 💻 **Languages** | Python 73% · HTML 17% · JavaScript 5% · TypeScript 4% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `agent` `agentic-ai` `ai` `claude` `copilot` `cursor` `elevenlabs` `ffmpeg` `flux` `image-generation` `open-source` `openai` `python` `remotion` `stable-diffusion` `text-to-speech` `text-to-video` `video-generation` `video-production` |
-| 🕒 **Last activity** | 2026-11-16 (6d ago) |
+| 🕒 **Last activity** | 2026-11-16 (7d ago) |
 | 📅 **Created** | 2026-03-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

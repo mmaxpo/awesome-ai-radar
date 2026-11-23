@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 55.6k |
+| ⭐ **Stars** | 55.7k |
 | 🍴 **Forks** | 6.2k |
-| 🐞 **Open issues + PRs** | [111](https://github.com/bmad-code-org/BMAD-METHOD/issues) |
+| 🐞 **Open issues + PRs** | [114](https://github.com/bmad-code-org/BMAD-METHOD/issues) |
 | 💻 **Languages** | Python 80% · HTML 12% · JavaScript 6% · CSS 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agile` `ai` `context-engineering` `spec-driven-development` `sdlc` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-04-13 |
 | 📦 **Latest release** | [v6.12.4](https://github.com/bmad-code-org/BMAD-METHOD/releases/tag/v6.12.4) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 56.0 MB |
+| 💾 **Size** | 56.1 MB |
 
 ## 📦 Recent releases
 

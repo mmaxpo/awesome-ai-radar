@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 575 |
+| ⭐ **Stars** | 576 |
 | 🍴 **Forks** | 35 |
-| 🐞 **Open issues + PRs** | [412](https://github.com/cables-gl/cables/issues) |
+| 🐞 **Open issues + PRs** | [390](https://github.com/cables-gl/cables/issues) |
 | 💻 **Languages** | JavaScript 91% · GLSL 9% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (3d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2015-06-05 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 495.2 MB |
+| 💾 **Size** | 495.3 MB |
 | 🌐 **Website** | https://cables.gl |
 
 ## 📦 Recent releases
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [show user error when texture toobig  https://github.com/cables-gl/cab…](https://github.com/cables-gl/cables/commit/526bdc56a45aaf10bc69a64e05ff8353965a8ce3) | pandrr |
+| 2026-11-23 | [comment](https://github.com/cables-gl/cables/commit/17d2134218d3b284351afcd969dc0dc92f1277a5) | pandrr |
+| 2026-11-23 | [glsl minify](https://github.com/cables-gl/cables/commit/8df09169cd3db621d90441c0bd51070fec3a7a7f) | pandrr |
+| 2026-11-23 | [Merge branch 'develop' of github.com:cables-gl/cables into develop](https://github.com/cables-gl/cables/commit/b4b557c0fb73cbbbd8e35ec0e3a93e805059f19e) | pandrr |
+| 2026-11-23 | [debug](https://github.com/cables-gl/cables/commit/610d98ed8ce82d5983d6b3272f62057051ea5cba) | pandrr |
+| 2026-11-22 | [auto commit](https://github.com/cables-gl/cables/commit/3f1929b2d5c98b3da9f6a81f8f6200195f6727cb) | undev-studio |
+| 2026-11-22 | [auto commit](https://github.com/cables-gl/cables/commit/3f6b8bbcc723f166dc598029b630d182eb60f365) | undev-studio |
 | 2026-11-19 | [fix data](https://github.com/cables-gl/cables/commit/d27f472d79e603bd605ddad10ad158c0414e7209) | pandrr |
 | 2026-11-19 | [toggle active did not use default size https://github.com/cables-gl/c…](https://github.com/cables-gl/cables/commit/1db0dce23f32d85331be35483f3e7f6dbf72bd21) | pandrr |
 | 2026-11-19 | [docs](https://github.com/cables-gl/cables/commit/bc8aaa72872ca14ec1f3d36174457469aa4f561a) | pandrr |
-| 2026-11-19 | [interactive rectangle and forcecanvas... https://cables.gl/edit/VLP0Qp](https://github.com/cables-gl/cables/commit/6b15a50c48f338e1f65cc25972d8d7d55b9d1cd0) | pandrr |
-| 2026-11-19 | [optional title array input https://github.com/cables-gl/cables/issues…](https://github.com/cables-gl/cables/commit/dd0de7b48cd088f978a2ca922c27ee43c9287f8f) | pandrr |
-| 2026-11-19 | [show warning for now](https://github.com/cables-gl/cables/commit/dd6de2b936cffb5920d72816ed9e78c64d4ba629) | pandrr |
-| 2026-11-18 | [rapier vehicle](https://github.com/cables-gl/cables/commit/8c7ff2bed1a4de1a6f2fc3ff9e3f0549006d189a) | pandrr |
-| 2026-11-18 | [docs / keyboard docs](https://github.com/cables-gl/cables/commit/a4a16d627f65a85e7263a80d48a7957dd493cc54) | pandrr |
-| 2026-11-17 | [dev changes](https://github.com/cables-gl/cables/commit/e01b5b391a79a3bfd55fda6bb6830ef55da562d4) | pandrr |
-| 2026-11-17 | [dev changes](https://github.com/cables-gl/cables/commit/883675524e75fb15eb6ed4cb1bd54f207a35834d) | pandrr |
 
 [See all commits ↗](https://github.com/cables-gl/cables/commits)
 

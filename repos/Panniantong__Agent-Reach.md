@@ -14,17 +14,19 @@
 | **Why it's worth a look** | Gives agents access to information across the internet |
 | **Added** | 2026-11-14 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 113.9k |
-| 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [159](https://github.com/Panniantong/Agent-Reach/issues) |
+| ⭐ **Stars** | 114.2k |
+| 🍴 **Forks** | 10.3k |
+| 🐞 **Open issues + PRs** | [160](https://github.com/Panniantong/Agent-Reach/issues) |
 | 💻 **Languages** | Python 98% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-infrastructure` `ai-agent` `ai-search` `automation` `bilibili` `claude-code` `cli` `cursor` `free-api` `llm-tools` `mcp` `python` `reddit-scraper` `twitter-scraper` `web-scraper` `xiaohongshu` `youtube-transcript` |
-| 🕒 **Last activity** | 2026-11-08 (14d ago) |
+| 🕒 **Last activity** | 2026-11-22 (yesterday) |
 | 📅 **Created** | 2026-02-24 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.1) — 2026-11-01 |
 | 🌿 **Default branch** | `main` |
@@ -33,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.6.1](https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.1)
-<sub>2026-11-01 · 21d ago</sub>
+<sub>2026-11-01 · 22d ago</sub>
 
 > 中文：
 > - 全网搜索、Reddit、小红书、B站在 1.6.0 里会出现的几种"明明能查却报错"或"显示成功但内容是空的"，这版都修好了。
@@ -91,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-22 | [Merge pull request #1021 from LohseZSai/feat/mcp-coexistence-priority](https://github.com/Panniantong/Agent-Reach/commit/a8ab1e9a2475957d759eac2dbedfe91b0a1e1021) | Panniantong |
+| 2026-11-22 | [docs(skill): short-circuit to Agent Reach MCP when mounted in session](https://github.com/Panniantong/Agent-Reach/commit/78940d886474e10370dd0991148da16239fcd3b1) | 龙舌兰 |
 | 2026-11-08 | [Merge pull request #934 from Panniantong/fix/reddit-linkedin-instagra…](https://github.com/Panniantong/Agent-Reach/commit/c70ae6da5d39bc90e09ad2ae0575ccc89f31e284) | Panniantong |
 | 2026-11-08 | [fix(opencli): test OpenCLI 2.0.3 so LinkedIn jobs work on Chinese pag…](https://github.com/Panniantong/Agent-Reach/commit/6e9b8b3fb5b92318595d38f395b2e439903a06c3) | Panniantong |
 | 2026-11-08 | [Merge pull request #925 from remote-controlled-man/codex/prflow-ffc95…](https://github.com/Panniantong/Agent-Reach/commit/a64a47e3aa236c8124c34949c16aa13c73343dba) | Panniantong |
@@ -99,8 +103,6 @@
 | 2026-11-08 | [Merge pull request #898 from quark404/fix/windows-hide-child-console](https://github.com/Panniantong/Agent-Reach/commit/41eba5797dc37e81c464de9dd79b93a5c3a641f2) | Panniantong |
 | 2026-11-08 | [Merge remote-tracking branch 'origin/main' into sweep/b925](https://github.com/Panniantong/Agent-Reach/commit/b0c4ee273cb7cbdf4ec84aade76abb5432b3a3b0) | Panniantong |
 | 2026-11-08 | [Merge remote-tracking branch 'origin/main' into sweep/b851](https://github.com/Panniantong/Agent-Reach/commit/f50e0054d3aed7823efebd8d0cdde0dc66db356c) | Panniantong |
-| 2026-11-08 | [Merge remote-tracking branch 'origin/main' into sweep/pr779](https://github.com/Panniantong/Agent-Reach/commit/9f483e1598cae1f4a3d18650e42b304b23f15ac7) | Panniantong |
-| 2026-11-08 | [Merge remote-tracking branch 'origin/main' into sweep/pr898](https://github.com/Panniantong/Agent-Reach/commit/c102528d844f5ec0852f1b8e93d1c6a4945d8312) | Panniantong |
 
 [See all commits ↗](https://github.com/Panniantong/Agent-Reach/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 60.7k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [838](https://github.com/MemPalace/mempalace/issues) |
+| 🐞 **Open issues + PRs** | [835](https://github.com/MemPalace/mempalace/issues) |
 | 💻 **Languages** | Python 94% · JavaScript 2% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `chromadb` `llm` `mcp` `memory` `python` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-04-05 |
 | 📦 **Latest release** | [v3.12.0](https://github.com/MemPalace/mempalace/releases/tag/v3.12.0) — 2026-11-12 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 33.3 MB |
+| 💾 **Size** | 33.5 MB |
 | 🌐 **Website** | http://mempalaceofficial.com/ |
 
 ## 📦 Recent releases
 
 ### [v3.12.0](https://github.com/MemPalace/mempalace/releases/tag/v3.12.0) — v3.12.0 — verbatim mining, recoverable writes
-<sub>2026-11-12 · 10d ago</sub>
+<sub>2026-11-12 · 11d ago</sub>
 
 > MemPalace 3.12 keeps source text and bytes intact, makes interrupted re-mines recoverable, and cuts the work needed to maintain large palaces. Timestamps and project wings now follow the same rules across tools and hooks. Antigravity gains a visual Palace explorer, and the final release review fixes graph identity collisions, concurrent checkpoint duplicates, document filtering, and newest-first pagination.
 > **Upgrade notes**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Merge pull request #2533 from ariannamethod/fix/convo-source-snapshot](https://github.com/MemPalace/mempalace/commit/dfa318af2d41ad6c64fc3b08c28d16410c9b634b) | igorls |
+| 2026-11-23 | [Merge pull request #2436 from BuboTheWise/fix/2413-process-scoped-wri…](https://github.com/MemPalace/mempalace/commit/988bb9a4c783333550f1c3717c44e08af13ed7c3) | igorls |
+| 2026-11-23 | [Merge pull request #2507 from potterdigital/docs/macos-launchagent-pr…](https://github.com/MemPalace/mempalace/commit/f4b7fdea773e9a6fe2268a373344c9ea43166608) | igorls |
+| 2026-11-23 | [Merge pull request #3048 from jayzhou2309/fix/sqlite-exact-bulk-paren…](https://github.com/MemPalace/mempalace/commit/81b8153ebbe135917402097d0c9fadea669fd7b3) | igorls |
+| 2026-11-23 | [Merge pull request #3006 from MemPalace/dependabot/github_actions/act…](https://github.com/MemPalace/mempalace/commit/8eb77266b89be832b57581dbc5745dbe88125483) | igorls |
+| 2026-11-23 | [Merge pull request #3005 from MemPalace/dependabot/github_actions/doc…](https://github.com/MemPalace/mempalace/commit/16d13e4aec31de01ba072ef37f84217d1e264a3e) | igorls |
+| 2026-11-22 | [fix(sqlite_exact): join parent-key lookups with UNION ALL](https://github.com/MemPalace/mempalace/commit/d4a0bf808615e183aa7e26f337c3ec613c36f0b0) | jayzhou2309 |
 | 2026-11-22 | [fix(kg): harden KnowledgeGraph for multi-process SQLite access (#948)](https://github.com/MemPalace/mempalace/commit/b2ef8fed22f53b48acbda1ffebac040cb8a22f69) | felipecpaiva |
-| 2026-11-20 | [Merge pull request #3031 from MemPalace/chore/changelog-backfill-blas…](https://github.com/MemPalace/mempalace/commit/51717e00dd6e12ed2200552afb9504bb7c480955) | igorls |
-| 2026-11-20 | [docs(changelog): backfill unreleased entries and fix the 3.12.0 date](https://github.com/MemPalace/mempalace/commit/b8e2a81f26fe65c2b4fe10419227873b1f9dd7c3) | igorls |
-| 2026-11-20 | [fix(perf): cap BLAS threads in server entry points, not at import](https://github.com/MemPalace/mempalace/commit/c201f7091b1cefda77b25d46da058a4c4e6e803c) | igorls |
-| 2026-11-19 | [Merge pull request #3032 from MemPalace/fix/ci-flakes-node-hooks-watc…](https://github.com/MemPalace/mempalace/commit/358e25cd1aa466252ac41c1284362318e9fc1c81) | igorls |
-| 2026-11-19 | [Merge pull request #3016 from MemPalace/fix/remine-preserve-prior-text](https://github.com/MemPalace/mempalace/commit/24d3d9048e22b2b58b55b1a920e0bc9b9dd03457) | igorls |
-| 2026-11-19 | [test(miner): synchronize the armed watchdog test with a handshake (#3…](https://github.com/MemPalace/mempalace/commit/f379ed49ee4d092f988d2a96fbdee57994786e01) | igorls |
-| 2026-11-19 | [test(antigravity): start Node once per module for hook-common probes](https://github.com/MemPalace/mempalace/commit/f974e1b9c1807413c6c3e73b5b7c963f5695d35a) | igorls |
-| 2026-11-19 | [docs(changelog): re-mine journal and owner-scoped prunes](https://github.com/MemPalace/mempalace/commit/8dc627de15fd98d84a092657a4b8c777036203d4) | igorls |
-| 2026-11-19 | [test(mine): a journal failing on the second upsert batch loses nothing](https://github.com/MemPalace/mempalace/commit/700717cefb4ede2ec409cbbfaf953d4388ab9ec9) | igorls |
+| 2026-11-21 | [fix(test): update test for per-request lease lifecycle — address igor…](https://github.com/MemPalace/mempalace/commit/e739519191d46c0e3e74064dce6c39ff3f064fb6) | BuboTheWise |
+| 2026-11-20 | [fix(convos): bound source reads and preserve other wings during remine](https://github.com/MemPalace/mempalace/commit/daef478210496a4f1438db1f49e90ad4900ca43c) | ariannamethod |
 
 [See all commits ↗](https://github.com/MemPalace/mempalace/commits)
 

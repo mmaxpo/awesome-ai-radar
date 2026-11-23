@@ -22,35 +22,35 @@
 |---|---|
 | ⭐ **Stars** | 32.2k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [105](https://github.com/openai/openai-python/issues) |
+| 🐞 **Open issues + PRs** | [108](https://github.com/openai/openai-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `openai` `python` |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v3.57.0](https://github.com/openai/openai-python/releases/tag/v3.57.0) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 30.2 MB |
+| 💾 **Size** | 30.8 MB |
 | 🌐 **Website** | https://pypi.org/project/openai/ |
 
 ## 📦 Recent releases
 
 ### [v3.57.0](https://github.com/openai/openai-python/releases/tag/v3.57.0)
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **[3.57.0](https://github.com/openai/openai-python/compare/v3.56.0...v3.57.0) (2026-11-19)**
 > **Features**
 > * **api:** support Live WebRTC standby ([#4296](https://github.com/openai/openai-python/issues/4296)) ([18d10c3](https://github.com/openai/openai-python/commit/18d10c381cac674c56620acc3c1b547fb691f5ea))
 
 ### [v3.56.0](https://github.com/openai/openai-python/releases/tag/v3.56.0)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 3d ago</sub>
 
 > **[3.56.0](https://github.com/openai/openai-python/compare/v3.55.1...v3.56.0) (2026-11-19)**
 > **Features**
 > * **api:** add gpt-live-1.1 to Live model choices ([#4294](https://github.com/openai/openai-python/issues/4294)) ([a51f139](https://github.com/openai/openai-python/commit/a51f13999c3546b1dd9a29d57ddde7f95ae389d6))
 
 ### [v3.55.1](https://github.com/openai/openai-python/releases/tag/v3.55.1)
-<sub>2026-11-18 · 3d ago</sub>
+<sub>2026-11-18 · 4d ago</sub>
 
 > **[3.55.1](https://github.com/openai/openai-python/compare/v3.55.0...v3.55.1) (2026-11-18)**
 > **Chores**
@@ -60,7 +60,7 @@
 > * **deps:** bump the python-security group across 1 directory with 2 updates ([#4267](https://github.com/openai/openai-python/issues/4267)) ([ed1d6b6](https://github.com/openai/openai-python/commit/ed1d6b620a08433307bcf238a05ed6faaf6372ad))
 
 ### [v3.55.0](https://github.com/openai/openai-python/releases/tag/v3.55.0)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **[3.55.0](https://github.com/openai/openai-python/compare/v3.54.0...v3.55.0) (2026-11-18)**
 > **Features**
@@ -68,7 +68,7 @@
 > * **api:** hide Managed Agents session budget controls and events ([#4289](https://github.com/openai/openai-python/issues/4289)) ([b78d3eb](https://github.com/openai/openai-python/commit/b78d3ebb54287aebf50b04544a07c4c21f02dd1e))
 
 ### [v3.54.0](https://github.com/openai/openai-python/releases/tag/v3.54.0)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 5d ago</sub>
 
 > **[3.54.0](https://github.com/openai/openai-python/compare/v3.53.0...v3.54.0) (2026-11-17)**
 > **Features**

@@ -26,17 +26,28 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `convert` `documents` `pdf` `tables` `document-parser` `document-parsing` `docx` `html` `markdown` `pdf-converter` `pdf-to-json` `pdf-to-text` `pptx` `xlsx` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2024-07-09 |
-| 📦 **Latest release** | [v2.151.1](https://github.com/docling-project/docling/releases/tag/v2.151.1) — 2026-11-19 |
+| 📦 **Latest release** | [v2.152.0](https://github.com/docling-project/docling/releases/tag/v2.152.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 473.4 MB |
+| 💾 **Size** | 472.1 MB |
 | 🌐 **Website** | https://docling-project.github.io/docling |
 
 ## 📦 Recent releases
 
+### [v2.152.0](https://github.com/docling-project/docling/releases/tag/v2.152.0)
+<sub>2026-11-23 · today</sub>
+
+> **Feature**
+> * **pdf:** Cancel queued PDF parsing when conversions stop ([#5456](https://github.com/docling-project/docling/issues/5456)) ([`4c0a96d`](https://github.com/docling-project/docling/commit/4c0a96de53af1032a2f2ac0375fdd7f844672349))
+> * **service:** Let the server choose the default pipeline ([#4875](https://github.com/docling-project/docling/issues/4875)) ([`adfdff3`](https://github.com/docling-project/docling/commit/adfdff3426692a736145c3a3e0ac4fc837615d1e))
+> * Turn audio/video transcripts and slide media into tracks ([#4752](https://github.com/docling-project/docling/issues/4752)) ([`5182e55`](https://github.com/docling-project/docling/commit/5182e556308958f3ac4762bb7d03a092c2f339c9))
+> * **heading-hierarchy:** Read keyword markers of other languages ([#5474](https://github.com/docling-project/docling/issues/5474)) ([`557df04`](https://github.com/docling-project/docling/commit/557df045572672b4cf62a119c5252af49938a10b))
+> * **vlm:** Add native MLX support for Nemotron 3.5 Parse ([#4934](https://github.com/docling-project/docling/issues/4934)) ([`825c774`](https://github.com/docling-project/docling/commit/825c77458b4d05ed7071d0789dc8e40ba9d18211))
+> …
+
 ### [v2.151.1](https://github.com/docling-project/docling/releases/tag/v2.151.1)
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **Fix**
 > * **service-client:** Keep the WebSocket poll fallback within the original timeout ([#5121](https://github.com/docling-project/docling/issues/5121)) ([`f9249e5`](https://github.com/docling-project/docling/commit/f9249e5067d7dacc01bd9a55abf5eb945b3861d0))
@@ -47,7 +58,7 @@
 > …
 
 ### [v2.151.0](https://github.com/docling-project/docling/releases/tag/v2.151.0)
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **Feature**
 > * **pptx:** Read waterfall, treemap and the other Office 2016 charts ([#5371](https://github.com/docling-project/docling/issues/5371)) ([`440492a`](https://github.com/docling-project/docling/commit/440492ac0d0e14952b32dda28fede7495611c899))
@@ -58,7 +69,7 @@
 > …
 
 ### [v2.150.1](https://github.com/docling-project/docling/releases/tag/v2.150.1)
-<sub>2026-11-14 · 8d ago</sub>
+<sub>2026-11-14 · 9d ago</sub>
 
 > **Fix**
 > * **cli:** Omit from_formats in convert-remote unless --from is set ([#5346](https://github.com/docling-project/docling/issues/5346)) ([`ebc50e3`](https://github.com/docling-project/docling/commit/ebc50e35057462c39771f28ca1d5c593e20a70c3))
@@ -69,7 +80,7 @@
 > …
 
 ### [v2.150.0](https://github.com/docling-project/docling/releases/tag/v2.150.0)
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **Feature**
 > * **xbrl:** Support iXBRL input and remote taxonomy resolution with source_uri ([#4689](https://github.com/docling-project/docling/issues/4689)) ([`43c016c`](https://github.com/docling-project/docling/commit/43c016caedf076b3016fe6cdd4ec4d2b53b5acc1))
@@ -79,31 +90,20 @@
 > * **example:** Avoid exposing original PII by default ([#5182](https://github.com/docling-project/docling/issues/5182)) ([`e77fcc2`](https://github.com/docling-project/docling/commit/e77fcc22863cca3097a1cb20c0496e83ef831c18))
 > …
 
-### [v2.149.0](https://github.com/docling-project/docling/releases/tag/v2.149.0)
-<sub>2026-11-08 · 14d ago</sub>
-
-> **Feature**
-> * **pdf:** Add opt-in embedded PDF image extraction ([#5143](https://github.com/docling-project/docling/issues/5143)) ([`3df6c93`](https://github.com/docling-project/docling/commit/3df6c9318fc6d91fde424c90a28fc7d7e5f080dc))
-> * Refactored the cli to be more intuitive ([#5214](https://github.com/docling-project/docling/issues/5214)) ([`55f21d6`](https://github.com/docling-project/docling/commit/55f21d6a439a236965542f4fd2f21d8366306b93))
-> * **asr:** Add support for mlx-audio ([#5181](https://github.com/docling-project/docling/issues/5181)) ([`756059c`](https://github.com/docling-project/docling/commit/756059c2666753890e3f531ff5d6416be8b3df0e))
-> * **vlm:** Add MiniCPM-OCR preset ([#5134](https://github.com/docling-project/docling/issues/5134)) ([`1282e3d`](https://github.com/docling-project/docling/commit/1282e3d9fa34f28772785177f1f330936e8df96a))
-> **Fix**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [fix(email): handle UnicodeDecodeError for .msg files with 8-bit body …](https://github.com/docling-project/docling/commit/0f3564c772e006c73417f61658a2d41c8352224d) | todkarsant |
-| 2026-11-20 | [feat: turn audio/video transcripts and slide media into tracks (#4752)](https://github.com/docling-project/docling/commit/5182e556308958f3ac4762bb7d03a092c2f339c9) | DanielNg0729 |
-| 2026-11-20 | [fix(calendar): describe expanded days of monthly and yearly rules as …](https://github.com/docling-project/docling/commit/f93ee6bc72717da7384389434d90fbb1977047df) | gagan-baghel |
-| 2026-11-20 | [docs(examples): pass engine_type to ApiVlmEngineOptions (#5380)](https://github.com/docling-project/docling/commit/77907bbe40d0dc62436bae078ebb6ec7d772e396) | usercjr |
-| 2026-11-20 | [feat(heading-hierarchy): read keyword markers of other languages (#5474)](https://github.com/docling-project/docling/commit/557df045572672b4cf62a119c5252af49938a10b) | DanielNg0729 |
-| 2026-11-19 | [feat(vlm): add native MLX support for Nemotron 3.5 Parse (#4934)](https://github.com/docling-project/docling/commit/825c77458b4d05ed7071d0789dc8e40ba9d18211) | geoHeil |
-| 2026-11-19 | [chore: bump version to 2.151.1 [skip ci]](https://github.com/docling-project/docling/commit/56d39ffe214f59299963ed0ffb14ae29540bea99) | github-actions[bot] |
-| 2026-11-19 | [fix(service-client): keep the WebSocket poll fallback within the orig…](https://github.com/docling-project/docling/commit/f9249e5067d7dacc01bd9a55abf5eb945b3861d0) | TemitopeKadri |
-| 2026-11-19 | [fix(service-client): propagate input iterator errors (#5013)](https://github.com/docling-project/docling/commit/11503233cc174f6f7eedc32e2f03c46a93c69176) | Gout999 |
-| 2026-11-19 | [fix: preserve VLM page-range provenance and verify complete assembly …](https://github.com/docling-project/docling/commit/5068b0365c347641fe51219dd9b754357aa32c93) | geoHeil |
+| 2026-11-23 | [chore: bump version to 2.152.0 [skip ci]](https://github.com/docling-project/docling/commit/311b68352d072d32831f39bd82b1804f1486e2c0) | github-actions[bot] |
+| 2026-11-23 | [test: update the PowerPoint renderer dependency guard (#5540)](https://github.com/docling-project/docling/commit/07a26f2ee3c7bd978539de67b178c97a9c43d26b) | PeterStaar-IBM |
+| 2026-11-23 | [feat(pdf): cancel queued PDF parsing when conversions stop (#5456)](https://github.com/docling-project/docling/commit/4c0a96de53af1032a2f2ac0375fdd7f844672349) | PeterStaar-IBM |
+| 2026-11-23 | [feat(service): let the server choose the default pipeline (#4875)](https://github.com/docling-project/docling/commit/adfdff3426692a736145c3a3e0ac4fc837615d1e) | tim-roethig |
+| 2026-11-23 | [fix(pdfium): keep words beside a tall cell and right-to-left runs apa…](https://github.com/docling-project/docling/commit/41dbb0c73c2c1335a0858990949501a4259619e5) | cau-git |
+| 2026-11-23 | [fix(epub): find a package document stored with a literal percent sign…](https://github.com/docling-project/docling/commit/0cf0f8a1d507d5f202c5879df14337ea3bab5159) | cau-git |
+| 2026-11-23 | [fix(jats): treat xref/@rid as optional and as IDREFS (#4381)](https://github.com/docling-project/docling/commit/6504fe0feef5106f35ceb72a7bd618177b08fba0) | chrikrah |
+| 2026-11-23 | [fix: serialize PDFium rendering in Office backends (#5377)](https://github.com/docling-project/docling/commit/62ff440a1f0b6608a965b717c5538a8e8e034288) | xixi-box |
+| 2026-11-23 | [fix(md): preserve inline HTML line breaks (#5275)](https://github.com/docling-project/docling/commit/d416bd1f78679c35321c7d008641f7f2312cd5bd) | enigma49 |
+| 2026-11-23 | [fix(csv): keep fields larger than the default csv limit (#5253)](https://github.com/docling-project/docling/commit/1fb40fb41b1b980c4d0236385b06897fa2d91b60) | Viranshul-P |
 
 [See all commits ↗](https://github.com/docling-project/docling/commits)
 

@@ -26,17 +26,17 @@
 | 💻 **Languages** | C++ 86% · Python 4% · C 3% · CMake 2% · Java 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `opencv` `c-plus-plus` `computer-vision` `deep-learning` `image-processing` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2012-07-19 |
 | 📦 **Latest release** | [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — 2026-11-06 |
 | 🌿 **Default branch** | `5.x` |
-| 💾 **Size** | 559.4 MB |
+| 💾 **Size** | 559.5 MB |
 | 🌐 **Website** | https://opencv.org |
 
 ## 📦 Recent releases
 
 ### [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — OpenCV 5.1.0
-<sub>2026-11-06 · 16d ago</sub>
+<sub>2026-11-06 · 17d ago</sub>
 
 > OpenCV 5.1.0 has been released.
 > :hammer_and_wrench: Change log is [here](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version510).
@@ -73,16 +73,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Merge pull request #31025 from sshivensolanki/dnn-onehot-uint32-bool](https://github.com/opencv/opencv/commit/7e2201571de1715e24484d637a2bceca97f9add5) | sshivensolanki |
-| 2026-11-22 | [Merge pull request #30606 from tushar152006/feat-dnn-onnx-col2im](https://github.com/opencv/opencv/commit/65c6ccd6e5c7d9943fa07d32e7f1b5935a39a213) | abhishek-gola |
-| 2026-11-22 | [dnn(onnx): add support for ONNX Col2Im operator](https://github.com/opencv/opencv/commit/f3a7576b579d3302ad7ffa1dcafc2e1d6ccd14d6) | tushar152006 |
-| 2026-11-21 | [Merge pull request #31008 from sshivensolanki/dnn-eyelike-uint32-uint64](https://github.com/opencv/opencv/commit/13778986a86cfb3b6745be923b088914e9fc28f7) | abhishek-gola |
-| 2026-11-21 | [dnn: support CV_32U and CV_64U outputs in EyeLike](https://github.com/opencv/opencv/commit/c8ac3039be2c70fb491c5d70489d62044fb5c319) | sshivensolanki |
-| 2026-11-21 | [Merge pull request #31013 from sshivensolanki/dnn-clip-uint32-uint64](https://github.com/opencv/opencv/commit/e49cba785665646539e70ca7bcfa3a9d71adf5fc) | abhishek-gola |
-| 2026-11-21 | [Merge pull request #30817 from ternaus/codex/fractional-area-resize](https://github.com/opencv/opencv/commit/d12ffef79ba18b7fe942350d129e94a62cb69afd) | abhishek-gola |
-| 2026-11-21 | [dnn: support CV_32U and CV_64U in Clip default bounds](https://github.com/opencv/opencv/commit/fe06ceaca528f17e02c95f172dd26845e416a9bf) | sshivensolanki |
-| 2026-11-21 | [Merge pull request #31004 from sshivensolanki/dnn-tensortoscalar-int8…](https://github.com/opencv/opencv/commit/c7a8a7afbd4e382752c326dff3e63e4cb2693486) | abhishek-gola |
-| 2026-11-21 | [Merge pull request #30985 from RITU940/fix/triangulate-column-roi-stride](https://github.com/opencv/opencv/commit/63cb0349bb45ef8ec2101adde60b8d0e25a12129) | abhishek-gola |
+| 2026-11-23 | [Merge pull request #30999 from sshivensolanki:core-mean-bool](https://github.com/opencv/opencv/commit/9637fe1290c7de45027efa9a2155e2806eb55451) | sshivensolanki |
+| 2026-11-23 | [Merge pull request #31083 from jazayush:5.x](https://github.com/opencv/opencv/commit/7070df2736d4f51577effa8a80894a78345d3f50) | jazayush |
+| 2026-11-23 | [Merge pull request #31080 from pratapvirat2004:patch-1](https://github.com/opencv/opencv/commit/49bfe2764c4f36be71fa74daee12e1e87ae0e8f7) | asmorkalov |
+| 2026-11-23 | [docs(imgproc): fix math rendering in color formula](https://github.com/opencv/opencv/commit/79ae2329140b58638caa95cff13d4e43e75c4df4) | pratapvirat2004 |
+| 2026-11-23 | [Merge pull request #31044 from harshil-sri/fix-0d-threshold-lut](https://github.com/opencv/opencv/commit/fb6166e54b495496bb76d721295fe277f850cec0) | abhishek-gola |
+| 2026-11-23 | [Merge pull request #31034 from sshivensolanki/dnn-cast-uint32-uint64](https://github.com/opencv/opencv/commit/d2c6f944cf23cc27ddc5f505386702014ce91794) | abhishek-gola |
+| 2026-11-23 | [Merge pull request #31039 from ish1416/dnn-reduce-support-unsigned](https://github.com/opencv/opencv/commit/e4ec28617fd5449451c6e06d96d54257cea42006) | abhishek-gola |
+| 2026-11-22 | [Merge pull request #31047 from sshivensolanki/dnn-range-zero-delta](https://github.com/opencv/opencv/commit/2ce6479ab8fccb840ecd0fe42bb74dfcc8787486) | abhishek-gola |
+| 2026-11-22 | [dnn: support CV_32U and CV_64U in Reduce layers](https://github.com/opencv/opencv/commit/4bd226ed155bdfce18184ef25a1c32f0556fd5b2) | ish1416 |
+| 2026-11-22 | [imgproc: support 5.x depths in remap/warp with INTER_NEAREST (#30595)](https://github.com/opencv/opencv/commit/5bb1be7693ea93cca5ec5926628a1889624dadb2) | sshivensolanki |
 
 [See all commits ↗](https://github.com/opencv/opencv/commits)
 

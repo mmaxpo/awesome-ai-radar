@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 6.9k |
-| 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [79](https://github.com/ethanplusai/sellbird/issues) |
+| ⭐ **Stars** | 7.0k |
+| 🍴 **Forks** | 1.5k |
+| 🐞 **Open issues + PRs** | [83](https://github.com/ethanplusai/sellbird/issues) |
 | 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` `sales-agent` `grok` `grok-bot` |
-| 🕒 **Last activity** | 2026-11-18 (4d ago) |
+| 🕒 **Last activity** | 2026-11-18 (5d ago) |
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 0.4.0: Harvey is now Sellbird
-<sub>2026-11-06 · 15d ago</sub>
+<sub>2026-11-06 · 16d ago</sub>
 
 > > **Follow [@sellbirdagent](https://x.com/sellbirdagent) on X** for new releases, features and the roadmap.
 > Harvey has a new name: **Sellbird**. Same project, same history, same maintainers. Your stars, forks and issues are all here, and every old `github.com/ethanplusai/harvey` link redirects.

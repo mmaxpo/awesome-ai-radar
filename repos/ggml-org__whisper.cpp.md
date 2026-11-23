@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 55.4k |
 | 🍴 **Forks** | 6.3k |
-| 🐞 **Open issues + PRs** | [370](https://github.com/ggml-org/whisper.cpp/issues) |
+| 🐞 **Open issues + PRs** | [371](https://github.com/ggml-org/whisper.cpp/issues) |
 | 💻 **Languages** | C++ 52% · C 30% · Cuda 9% · Metal 3% · GLSL 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `openai` `speech-to-text` `transformer` `whisper` `inference` `speech-recognition` |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2022-09-25 |
 | 📦 **Latest release** | [v1.9.5](https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5) — 2026-10-06 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [b5907](https://github.com/ggml-org/whisper.cpp/releases/tag/b5907) _(pre-release)_
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > _No notes._
 
@@ -75,6 +75,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [ggml : revert 5922450fbce (#4200)](https://github.com/ggml-org/whisper.cpp/commit/96ec4d9823e9d0211944172da35f9f29134af990) | danbev |
 | 2026-11-20 | [ci : update CUDA 11.8.0 CUBLAS version to 11.11.3.6 (#4195)](https://github.com/ggml-org/whisper.cpp/commit/5eaee0cc9024eb9e9a99469199920c8b7f5cb9ec) | danbev |
 | 2026-11-20 | [ci : update deploy-examples-wasm workflow plugins (#4194)](https://github.com/ggml-org/whisper.cpp/commit/258bb629a29d635e5d8f494138c1dff086e630bb) | danbev |
 | 2026-11-20 | [go : replace -fopenmp with -lgomp in cgo LDFLAGS (#4180)](https://github.com/ggml-org/whisper.cpp/commit/95b3b2f855e09404499529228de15734cdeeb6a1) | amirthn6533 |
@@ -84,7 +85,6 @@
 | 2026-11-19 | [examples : remove explict version from test-cmake (#4172)](https://github.com/ggml-org/whisper.cpp/commit/91c1e144ff944f106e1b013efc06a57612fb6127) | danbev |
 | 2026-11-19 | [ci : add API/ABI check to make-release workflow (#4185)](https://github.com/ggml-org/whisper.cpp/commit/cb4da344da4ca22d6ceb597e7e0919ba7e2e9b5c) | danbev |
 | 2026-11-19 | [examples : set LLAMA_TAG to commit that fixes ctz64 on win32 (#4189)](https://github.com/ggml-org/whisper.cpp/commit/8bf716f99324efa9d7e47e3df91d723c8ab74793) | danbev |
-| 2026-11-18 | [whisper : bump version to 1.9.6 (#4188)](https://github.com/ggml-org/whisper.cpp/commit/6680804f99c3982b7d59f27ae315ce880570017e) | danbev |
 
 [See all commits ↗](https://github.com/ggml-org/whisper.cpp/commits)
 

@@ -24,7 +24,7 @@
 | 💻 **Languages** | Shell 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-08-24 (2mo ago) |
+| 🕒 **Last activity** | 2026-08-24 (3mo ago) |
 | 📅 **Created** | 2026-08-18 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

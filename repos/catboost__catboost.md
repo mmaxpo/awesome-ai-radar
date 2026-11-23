@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 9.2k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [761](https://github.com/catboost/catboost/issues) |
+| 🐞 **Open issues + PRs** | [762](https://github.com/catboost/catboost/issues) |
 | 💻 **Languages** | C++ 78% · Python 11% · Cuda 3% · CMake 3% · Scala 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `decision-trees` `gradient-boosting` `gbm` `gbdt` `python` `r` `kaggle` `gpu-computing` `catboost` `tutorial` `categorical-features` `gpu` `coreml` `data-science` `big-data` `cuda` `data-mining` |
-| 🕒 **Last activity** | 2026-11-21 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2017-07-18 |
 | 📦 **Latest release** | [node-package-v1.27.0](https://github.com/catboost/catboost/releases/tag/node-package-v1.27.0) — 2026-02-21 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1700.0 MB |
+| 💾 **Size** | 1700.1 MB |
 | 🌐 **Website** | https://catboost.ai |
 
 ## 📦 Recent releases
@@ -90,6 +90,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Intermediate changes](https://github.com/catboost/catboost/commit/05014682a5b96af2c71fea1b1259cdbab2529a3c) | robot-piglet |
+| 2026-11-22 | [. Microsoft Visual Studio 2019 C++ build tools versions v14.28 - 16.x…](https://github.com/catboost/catboost/commit/4f3d4b345fa1812e08931cbbf12a9ae7dc03c8c0) | andrey-khropov |
 | 2026-11-21 | [Revert zstd debug section compression for Linux release builds](https://github.com/catboost/catboost/commit/373e622b5d8d6549875ba1f6285447cf1ce2ded2) | antoshkka |
 | 2026-11-20 | [MVS: branchless partition in CalculateThreshold](https://github.com/catboost/catboost/commit/b7f986a16ac27245e18fde70d2a4e82d93f96dc6) | ArseniyVarlamov |
 | 2026-11-20 | [[util] Recognize Xtensa in platform detection](https://github.com/catboost/catboost/commit/b0f9e5021ded8f951ea7c1d4b59e2caa2c8d2f56) | blokhtin |
@@ -98,8 +100,6 @@
 | 2026-11-20 | [Revert commit rXXXXXX, Enable supplier-owned Cython tools by default](https://github.com/catboost/catboost/commit/844c298ac8711aaa0d01c5c54b381ba53276ab20) | VestniK |
 | 2026-11-20 | [Enable supplier-owned Cython tools by default](https://github.com/catboost/catboost/commit/4701bdb0d6fbcc5bbc5c9d69b3f9460e820dcd26) | dimdim1177 |
 | 2026-11-20 | [feat build: enable zstd debug symbols compression in Linux release bu…](https://github.com/catboost/catboost/commit/559c4cc4a38a516bab270e26c1b62413f7cd4c0a) | antoshkka |
-| 2026-11-19 | [feat contrib/protobuf: Polish perfomance of `TextFormat::Printer::Print`](https://github.com/catboost/catboost/commit/748b5bb36a06809a8aa4f92892d7202dfc7733d6) | kpavlov00 |
-| 2026-11-19 | [Intermediate changes](https://github.com/catboost/catboost/commit/dfbf01a35650b0133f759e16e6251af04e97c575) | robot-piglet |
 
 [See all commits ↗](https://github.com/catboost/catboost/commits)
 

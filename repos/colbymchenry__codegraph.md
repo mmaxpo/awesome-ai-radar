@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 78.4k |
+| ⭐ **Stars** | 78.5k |
 | 🍴 **Forks** | 5.2k |
 | 🐞 **Open issues + PRs** | [244](https://github.com/colbymchenry/codegraph/issues) |
 | 💻 **Languages** | TypeScript 90% · Rust 5% · Svelte 2% · JavaScript 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-01-18 |
 | 📦 **Latest release** | [v1.6.4](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.4) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 58.1 MB |
+| 💾 **Size** | 57.7 MB |
 | 🌐 **Website** | https://colbymchenry.github.io/codegraph/ |
 
 ## 📦 Recent releases
 
 ### [v1.6.4](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.4)
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **[1.6.4] - 2026-11-20**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.6.3](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.3)
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **[1.6.3] - 2026-11-17**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [fix(go): a chain broken after its `.`s that starts with new(T) or a l…](https://github.com/colbymchenry/codegraph/commit/66d42a563e8d9c85c9eb95c61b7f33641d456a37) | colbymchenry |
+| 2026-11-23 | [fix(go): resolve local types from multiline method chains (#3455) (#3…](https://github.com/colbymchenry/codegraph/commit/b550b6513d0a04fb1a2979834601d004e70a2c9b) | zhangkom |
+| 2026-11-23 | [fix(go): a local given a chain that starts with new(T) or a literal h…](https://github.com/colbymchenry/codegraph/commit/50587b1f7a879e4867ff53c015f4e34194bb194e) | maxmilian |
+| 2026-11-23 | [feat(mcp): codegraph_callers and codegraph_callees page past limit wi…](https://github.com/colbymchenry/codegraph/commit/ec32c76cbab269be3560fc1ccc53baec2b89edf9) | blairjordan |
+| 2026-11-23 | [fix(callers): callers outside tests come before tests, so the limit n…](https://github.com/colbymchenry/codegraph/commit/6c5366d56e004c853c79942d1813bc4eb20a7697) | blairjordan |
+| 2026-11-23 | [fix(mcp): an explicit CODEGRAPH_MCP_TOOLS allowlist lists every named…](https://github.com/colbymchenry/codegraph/commit/e54fad7ced803f54a754930274cef85c8315ead0) | nchrisr |
+| 2026-11-23 | [fix(bundle): the Git Bash launcher hands node.exe a Windows path (#34…](https://github.com/colbymchenry/codegraph/commit/d8b7434dd454ab7cb7e4d2c92289bd4144e758f4) | colbymchenry |
 | 2026-11-20 | [docs(changelog): promote [Unreleased] into [1.6.4]](https://github.com/colbymchenry/codegraph/commit/461a5d87a873a4932997cd9a49042ab30e45a675) | github-actions[bot] |
 | 2026-11-20 | [docs(site): document what 1.6.4 adds (#3425)](https://github.com/colbymchenry/codegraph/commit/b4392571214f0ac1177d352abbb394c6aaf6df8c) | colbymchenry |
 | 2026-11-20 | [docs: the one-symbol explore answer in the README, and a command name…](https://github.com/colbymchenry/codegraph/commit/20d6e93854b040cb9da68c8a536e4d318ccfe983) | colbymchenry |
-| 2026-11-20 | [release: 1.6.4 (#3424)](https://github.com/colbymchenry/codegraph/commit/ee73cec63bbb79cd3db6b380308bf07d5e04d639) | colbymchenry |
-| 2026-11-20 | [feat(explore): answer a one-symbol question with its definition and e…](https://github.com/colbymchenry/codegraph/commit/337a41f50bef48f5b8f3330cbfa1342098d3b382) | colbymchenry |
-| 2026-11-19 | [fix(kotlin): read calls named after a modifier keyword, on a newer gr…](https://github.com/colbymchenry/codegraph/commit/69bbb389780410f43de7b514b90b2f7ba6b12584) | colbymchenry |
-| 2026-11-19 | [feat(php): work out the web root from the project's own includes when…](https://github.com/colbymchenry/codegraph/commit/eb992b5257611793f54cf47806dbfbd00114240e) | colbymchenry |
-| 2026-11-19 | [feat(php): link includes built from $_SERVER['DOCUMENT_ROOT'] under a…](https://github.com/colbymchenry/codegraph/commit/67178d8f42469995bbba9ec760207efd30dfa696) | colbymchenry |
-| 2026-11-19 | [chore(extraction): bump EXTRACTION_VERSION to 29 (#3411)](https://github.com/colbymchenry/codegraph/commit/1f1bfaafaed7cd2e9007d45436c4810375654889) | colbymchenry |
-| 2026-11-19 | [fix(dart): index classes with Dart 3.13 primary constructors, on a ne…](https://github.com/colbymchenry/codegraph/commit/9f0ed70428f6a6547f8b102f452568aed56ef296) | colbymchenry |
 
 [See all commits ↗](https://github.com/colbymchenry/codegraph/commits)
 

@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 5.2k |
 | 🍴 **Forks** | 522 |
-| 🐞 **Open issues + PRs** | [40](https://github.com/OpenBMB/AgentVerse/issues) |
+| 🐞 **Open issues + PRs** | [38](https://github.com/OpenBMB/AgentVerse/issues) |
 | 💻 **Languages** | JavaScript 81% · TypeScript 10% · Python 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `ai` `gpt` `gpt-4` `llm` |

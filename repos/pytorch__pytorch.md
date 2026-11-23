@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 105.8k |
 | 🍴 **Forks** | 30.7k |
-| 🐞 **Open issues + PRs** | [18.6k](https://github.com/pytorch/pytorch/issues) |
+| 🐞 **Open issues + PRs** | [18.5k](https://github.com/pytorch/pytorch/issues) |
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1684.2 MB |
+| 💾 **Size** | 1688.1 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 24d ago</sub>
+<sub>2026-10-28 · 25d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [[MPS] Fix conv2d and conv_transpose2d for batch sizes above 65535 (#2…](https://github.com/pytorch/pytorch/commit/ee0eed2fcd35650303548025d2378bbe2ca44a91) | Isalia20 |
-| 2026-11-22 | [Revert "Round float64 to float16, bfloat16 and float8 once in default…](https://github.com/pytorch/pytorch/commit/aabd19c7bc9b1ae4922427a10ba9d3357f864611) | pytorchmergebot |
-| 2026-11-22 | [Revert "Fix float32 to float8_e8m0fnu rounding of subnormals (#204208)"](https://github.com/pytorch/pytorch/commit/bd3e2c245090920d286be339942ecbe1044a1eed) | pytorchmergebot |
-| 2026-11-22 | [Revert "Declare has_denorm of the float8 numeric_limits as a float_de…](https://github.com/pytorch/pytorch/commit/4324c01ab74732eebd6f90d73c08ec3996389140) | pytorchmergebot |
-| 2026-11-22 | [Revert "[Dynamo] Fix state pollution in test infra and config restore…](https://github.com/pytorch/pytorch/commit/ca4a71e7ebaa6a6b5ecb0235f0cbd02209922cb7) | pytorchmergebot |
-| 2026-11-22 | [Declare has_denorm of the float8 numeric_limits as a float_denorm_sty…](https://github.com/pytorch/pytorch/commit/2dcb20fa18f6d4b7deed1fca6bf16fde1370e105) | lw |
-| 2026-11-22 | [Fix float32 to float8_e8m0fnu rounding of subnormals (#204208)](https://github.com/pytorch/pytorch/commit/ada8b7f5f5cd3900bfd7589d922126afe9e745a6) | lw |
-| 2026-11-22 | [Round float64 to float16, bfloat16 and float8 once in default convers…](https://github.com/pytorch/pytorch/commit/642748a888d9034acb357bb7b68f105c96a5b20f) | lw |
-| 2026-11-22 | [[MPS] Use MPP and a decode kernel for MXFP8 and NVFP4 _scaled_mm_v2 (…](https://github.com/pytorch/pytorch/commit/c1aec0bbeb84ca90ac5739c6452771787bee4959) | malfet |
-| 2026-11-22 | [[Dynamo] Fix state pollution in test infra and config restore (#191930)](https://github.com/pytorch/pytorch/commit/6e5f53dd5be082f3be970a413e91abad29e04b26) | guan404ming |
+| 2026-11-23 | [refactor FSDPTest and FSDPTestMininx to be device-agnostic (#205271)](https://github.com/pytorch/pytorch/commit/fcd0bf3b6fbb83d5e376f7547f5abb07914e0555) | fffrog |
+| 2026-11-23 | [s390x: update tolerance thresholds for test_vjp_grid_sampler_2d_cpu_f…](https://github.com/pytorch/pytorch/commit/a8e58581263b8a27cbfbb7e8752b82eded883334) | AlekseiNikiforovIBM |
+| 2026-11-23 | [[CooR] Register the device_mesh custom ops when DTensor is imported (…](https://github.com/pytorch/pytorch/commit/8389bc9d7fb1a4acbc42d6f34932a8b2828ac627) | bobrenjc93 |
+| 2026-11-23 | [[dynamo] Drop redundant locals and super() calls in DiskDynamoStore/D…](https://github.com/pytorch/pytorch/commit/b956060641ef3790c20bd3008be5f25ab59db34b) | bobrenjc93 |
+| 2026-11-23 | [[dynamo] Factor import-alias installation out of CompilePackage.insta…](https://github.com/pytorch/pytorch/commit/d40e925734ce312465d61a6f063ef94f86df0da8) | bobrenjc93 |
+| 2026-11-23 | [[dynamo] Build the cache entry once in DynamoStore.save_package (#206…](https://github.com/pytorch/pytorch/commit/a133f1ebd0112a3b77d4c529aac81affd2632750) | bobrenjc93 |
+| 2026-11-23 | [[dynamo] PrecompileCacheEntry.from_cache_entry never returns None (#2…](https://github.com/pytorch/pytorch/commit/8a80cb68b856f220aa65631fd3daab0957492734) | bobrenjc93 |
+| 2026-11-23 | [[dynamo] Flatten _lookup_code's code_source walk (#206197)](https://github.com/pytorch/pytorch/commit/42277bbbee4876384659e564e905ce13a9cd2441) | bobrenjc93 |
+| 2026-11-23 | [[cuDNN][conv] Derive max workspace during cuDNN conv autotuning after…](https://github.com/pytorch/pytorch/commit/130edca4ebcad531eb267df71388428f1bb87af4) | eqy |
+| 2026-11-23 | [[dynamo] Use CPython-style arg checks for builtin arity errors (#205749)](https://github.com/pytorch/pytorch/commit/134033073c8d2342daf13e3b4bac833c8a92563a) | guilhermeleobas |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

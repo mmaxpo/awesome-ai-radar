@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.2k |
-| 🍴 **Forks** | 153 |
+| 🍴 **Forks** | 152 |
 | 🐞 **Open issues + PRs** | [6](https://github.com/rohitg00/awesome-claude-design/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |

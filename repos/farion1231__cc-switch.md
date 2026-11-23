@@ -20,23 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 156.3k |
+| ⭐ **Stars** | 156.6k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [776](https://github.com/farion1231/cc-switch/issues) |
+| 🐞 **Open issues + PRs** | [736](https://github.com/farion1231/cc-switch/issues) |
 | 💻 **Languages** | Rust 63% · TypeScript 36% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-tools` `claude-code` `desktop-app` `open-source` `rust` `tauri` `codex` `mcp` `provider-management` `wsl-support` `opencode` `skills` `skills-management` `hermes` `grok` `grokbuild` `pi` `deepseek-harness` `kimi-code` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-08-04 |
-| 📦 **Latest release** | [v4.0.38](https://github.com/farion1231/cc-switch/releases/tag/v4.0.38) — 2026-11-21 |
+| 📦 **Latest release** | [v4.0.40](https://github.com/farion1231/cc-switch/releases/tag/v4.0.40) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 117.8 MB |
+| 💾 **Size** | 119.5 MB |
 | 🌐 **Website** | https://ccswitch.io |
 
 ## 📦 Recent releases
 
+### [v4.0.40](https://github.com/farion1231/cc-switch/releases/tag/v4.0.40) — CC Switch v4.0.40
+<sub>2026-11-23 · today</sub>
+
+> **CC Switch v4.0.40**
+> 本版本让 **Grok Build 的官方卡可以绑定授权中心里的 xAI 账号**，像 Claude、Codex 官方卡一样在多个 Grok 账号之间切换。**插件页**支持 Antigravity CLI；**用量统计**的供应商和模型列表加了缓存命中率；**小米 MiMo** 内置余额和 Token Plan 额度查询；授权中心的账号卡片跟随侧栏应用的顺序和隐藏设置。
+> 本版本还加固了深链接导入 MCP、用量脚本、SQL 导入和非本机监听地址的安全检查，并提升了数据库、本地路由、用量同步、会话搜索和「应用」页的速度。另外修复了 Kimi Code Desktop 主 agent 的用量没统计；Antigravity 输出速度从 4.0.38 起虚高；T3 Code 和单独运行的 ACP 里的 Antigravity 会话看不到；Mistral 官方 API 开思考后回复为空；Kimi 原生 Responses 在并行看图工具调用后一直报 400；WorkBuddy 企业账号积分显示为已用完；托盘里看不到 xAI 额度、官方账号显示成网站域名；Skills 页的「发现」里出现重复的技能；「应用」页要等版本检查完才显示安装状态等问题。
+> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.40-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.40-ja.md)**
+> ---
+> **新增**
+> …
+
+### [v4.0.39](https://github.com/farion1231/cc-switch/releases/tag/v4.0.39) — CC Switch v4.0.39
+<sub>2026-11-22 · yesterday</sub>
+
+> **CC Switch v4.0.39**
+> 本版本以修复为主。**API Key 输入框**加了复制按钮；**备份**可以设置总大小上限，超过时从最旧的开始删；Claude Code 经 Codex OAuth 使用 **GPT-6.2 Sol / Astra** 时，系统提示的缓存命中率大幅提高。
+> 另外修复了 Claude Code 和 Claude Desktop 的原生供应商卡住不出字时，要等最长 600 秒才故障转移；很长的流式响应让用量和日志收集占用的内存一直增长；一键导入链接合并配置失败后仍弹出确认框；只装了 Codex 桌面版时，插件页显示「未安装 Codex」；插件页给没装的应用建了空配置文件夹；OpenCode Go 的 DeepSeek V4.1 Flash 缺少 `max` 思考档位；快速点击时弹出层和下拉菜单闪烁等问题。
+> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.39-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.39-ja.md)**
+> ---
+> **新增**
+> …
+
 ### [v4.0.38](https://github.com/farion1231/cc-switch/releases/tag/v4.0.38) — CC Switch v4.0.38
-<sub>2026-11-21 · today</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **CC Switch v4.0.38**
 > 本版本以修复为主。一键导入链接现在可以导入 **WorkBuddy** 供应商；Linux 上也能在授权中心切换 **Antigravity** 账号；Antigravity 的会话列表不再混进空会话和内部子会话，会话阅读器能看到思考、工具调用和结果。
@@ -47,7 +69,7 @@
 > …
 
 ### [v4.0.37](https://github.com/farion1231/cc-switch/releases/tag/v4.0.37) — CC Switch v4.0.37
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **CC Switch v4.0.37**
 > 本版本以修复为主。读不出来的供应商和 MCP 条目（比如由更新版本写入、经 WebDAV / S3 同步过来的）不再被当成空配置、下次保存时被默认值覆盖，而是单独列出来，可以删除；Pi 新增 **Mistral AI** 预设；韩语界面翻译整体改进。
@@ -58,7 +80,7 @@
 > …
 
 ### [v4.0.36](https://github.com/farion1231/cc-switch/releases/tag/v4.0.36) — CC Switch v4.0.36
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **CC Switch v4.0.36**
 > 本版本新增**插件**页面，可以在 CC Switch 里安装、启用、更新、卸载 Claude Code、Codex、Grok Build、MiniMax Code、OpenClaw、Pi 的插件，并管理 Claude Code、Codex、Grok Build 的插件市场。技能仓库现在可以用**访问令牌读取私有仓库**；经本地路由的供应商可以设置**费用倍率**；会话管理里能看到 Claude Code 桌面版的**章节**。
@@ -68,42 +90,20 @@
 > **新增**
 > …
 
-### [v4.0.35](https://github.com/farion1231/cc-switch/releases/tag/v4.0.35) — CC Switch v4.0.35
-<sub>2026-11-18 · 4d ago</sub>
-
-> **CC Switch v4.0.35**
-> 本版本让 Claude Code / Claude Desktop 里用 ChatGPT 账号的 Codex 卡片能用上 **GPT-6.2**，会话管理里可以看到 Codex `/goal` 的**完整目标**，请求详情里的请求 ID 可以**一键复制**。
-> 另外修复了 Claude Code 的 auto 模式在关不掉思考的模型上被整体拦下；Codex 聚合模式和「打开终端」报 Responses-Lite 需要 `reasoning.context`；Codex 压缩上下文后第一条请求被拒；用量页自定义日期选到很早的年份时卡死；Skill 的托管副本不在了就卸载不掉等问题。
-> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.35-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.35-ja.md)**
-> ---
-> **新增**
-> …
-
-### [v4.0.34](https://github.com/farion1231/cc-switch/releases/tag/v4.0.34) — CC Switch v4.0.34
-<sub>2026-11-17 · 5d ago</sub>
-
-> **CC Switch v4.0.34**
-> 本版本的技能仓库支持 **GitLab、Gitea 和 Forgejo**（包括自建实例和 Codeberg），不再只能添加 GitHub 上的仓库。会话管理里现在可以直接删除 **Antigravity CLI** 的会话；开启自动下载更新后，发现新版本会立刻开始下载。另外，WorkBuddy 手动添加的模型可以设置思考强度，S3 同步也可以像 WebDAV 一样清除本机保存的配置。
-> 另外修复了 Gemini CLI 的供应商「获取模型列表」报 Key 无效或拿到空列表；Codex 里的 GitHub Copilot 模型被当成不支持图片；阿里云 OSS、腾讯云 COS、华为云 OBS 用不了 S3 同步；Skills 目录里有失效链接时整个云同步上传失败；路由模式下 Fable 5.2 被显示成 Fable 5；Copilot 上的 Gemini 模型缓存命中率低；Copilot 上勾了 1M 的 Fable 模型请求失败等问题。
-> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.34-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.34-ja.md)**
-> ---
-> **新增**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [docs(release): add v4.0.39 release notes](https://github.com/farion1231/cc-switch/commit/768eec9ca94db629f086e8c01ca91e2f63bb273d) | farion1231 |
-| 2026-11-22 | [chore(release): v4.0.39](https://github.com/farion1231/cc-switch/commit/87c39ee1a6aa0ec8a36f15e2ca649bad31b33cfa) | farion1231 |
-| 2026-11-22 | [fix(presets): offer only low/high/max efforts for OpenCode Go DeepSee…](https://github.com/farion1231/cc-switch/commit/89723290116057048de4c2f8b10e72dd98e14ee4) | farion1231 |
-| 2026-11-22 | [fix(plugins): don't create config dirs for apps whose CLI isn't insta…](https://github.com/farion1231/cc-switch/commit/dcba4bb05fb093533373480bb22b8b3e91d680d5) | farion1231 |
-| 2026-11-22 | [fix(tools): fall back to the desktop app's bundled Codex CLI for runt…](https://github.com/farion1231/cc-switch/commit/4a1da640e323e6708e940f6002d6912b4a974475) | farion1231 |
-| 2026-11-22 | [fix(proxy): bound SSE buffering in usage/log collectors (#9846)](https://github.com/farion1231/cc-switch/commit/f2b3c12eb59d2e155b39f29bd3b34d5c9e57885f) | HaiYangBG1 |
-| 2026-11-22 | [fix: route home-dir lookups through get_home_dir (#9845)](https://github.com/farion1231/cc-switch/commit/3feb336f38deb21ba3a474a2eef2ce1885d10885) | HaiYangBG1 |
-| 2026-11-22 | [fix(deeplink): do not open import dialog when config merge fails (#9844)](https://github.com/farion1231/cc-switch/commit/30958c04197a6cb0d913555ed08cd9840c44d368) | HaiYangBG1 |
-| 2026-11-22 | [perf(privacy): avoid Unicode copies and prune redundant scans (#9826)](https://github.com/farion1231/cc-switch/commit/32773e88c8a41e69a69dd15724cc93db6ef33d37) | YUZHEthefool |
-| 2026-11-22 | [feat(providers): add a copy button to the API key input (#9232)](https://github.com/farion1231/cc-switch/commit/698b1b7f43764a7b8fb8c046996309f3717e87eb) | minimote |
+| 2026-11-23 | [fix(settings): avoid flashing the loading indicator when reopening se…](https://github.com/farion1231/cc-switch/commit/721ca8e08c5233f41e9a79cc367d581ac1ec4bcd) | fuyundev |
+| 2026-11-23 | [docs(release): add v4.0.40 release notes](https://github.com/farion1231/cc-switch/commit/f19a9d4f4f08bda03106a7be87c77cbcdf55b019) | farion1231 |
+| 2026-11-23 | [chore(release): v4.0.40](https://github.com/farion1231/cc-switch/commit/08f505b1d28bc2dbe091491030456bee678a4f76) | farion1231 |
+| 2026-11-23 | [feat(presets): add StringAI as a full sponsor](https://github.com/farion1231/cc-switch/commit/f81715e5d52ddf746566a7d16b56e515b3c1240c) | farion1231 |
+| 2026-11-23 | [fix(proxy): parse chunked thinking/text content from Chat upstreams](https://github.com/farion1231/cc-switch/commit/0c1121ce377722e2cd4ac0897b3780cea3f419e4) | farion1231 |
+| 2026-11-23 | [fix(tray): show xAI OAuth quota in the tray, including Codex stack me…](https://github.com/farion1231/cc-switch/commit/0e8a584b601f960309e64b4cbc019a18d0070fee) | farion1231 |
+| 2026-11-23 | [fix(kimi): support protocol 1.5 usage accounting (#9505)](https://github.com/farion1231/cc-switch/commit/f08abf96f038330e61052cbc14674db19ff55b9d) | Chenning-Tao |
+| 2026-11-23 | [fix(security): enforce per-connection Host check on non-loopback prox…](https://github.com/farion1231/cc-switch/commit/9f1c1bb54cf483e5bf489835af32c95aec322a03) | YUZHEthefool |
+| 2026-11-23 | [perf(sessions): cancel obsolete content searches across IPC (#9896)](https://github.com/farion1231/cc-switch/commit/2372b1134e88ce0656003307c970f00b3b073b98) | YUZHEthefool |
+| 2026-11-23 | [fix(tests): compile sync_agy_usage helper on all platforms](https://github.com/farion1231/cc-switch/commit/a09a99d7abbb2b7f57c31db8e8a2ce2aa5221635) | farion1231 |
 
 [See all commits ↗](https://github.com/farion1231/cc-switch/commits)
 

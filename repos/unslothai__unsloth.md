@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.0k |
-| 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [569](https://github.com/unslothai/unsloth/issues) |
+| ⭐ **Stars** | 80.1k |
+| 🍴 **Forks** | 7.5k |
+| 🐞 **Open issues + PRs** | [536](https://github.com/unslothai/unsloth/issues) |
 | 💻 **Languages** | Python 73% · TypeScript 23% · PowerShell 1% · Shell 1% · Rust 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `fine-tuning` `llama` `llms` `gemma` `unsloth` `llm` `deepseek` `text-to-speech` `tts` `qwen` `agent` `openai` `reinforcement-learning` `self-hosted` `ui` `image-generation` `stable-diffusion` `chatgpt` `ai` `python` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-11-29 |
-| 📦 **Latest release** | [v0.1.922-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.922-beta) — 2026-11-20 |
+| 📦 **Latest release** | [v0.1.923-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.923-beta) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 721.8 MB |
+| 💾 **Size** | 735.9 MB |
 | 🌐 **Website** | https://unsloth.ai/docs |
 
 ## 📦 Recent releases
 
+### [v0.1.923-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.923-beta) — Inkling 1.9x faster inference
+<sub>2026-11-23 · today</sub>
+
+> Inkling 2 Mini runs up to 1.9x faster on all GPUs for decoding + RTX Spark improvements. Also new: faster GRPO and AsyncGRPO training, Qwen-Image-Flash and FastWan, a Knowledge page in Settings and audio, subtitle and image translation.
+> **Highlights**
+> - **Inkling 2 Mini on 8 to 12 GB GPUs** up to 1.9x faster decoding [guide](https://unsloth.ai/docs/models/inkling-2-mini#id-23rd-november-update)
+> - **Multi-GPU diffusion LoRA training** about 2x the samples per second on two GPUs
+> - **Qwen-Image-Flash + FastWan** 4-step images about 14x faster than Qwen-Image, 3-step video up to 3x faster
+> - **GRPO improvements** AsyncGRPO 40% less time + 2x faster GRPO rollouts on Strix Halo**
+> …
+
 ### [v0.1.922-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.922-beta) — Inkling Mini + Bug fixes
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > Run the new Inkling 2 Mini model, the strongest 26.4B model that runs on 16GB RAM.
 > This release makes image generation faster and lighter on small GPUs. Macs with Apple Silicon can now restyle videos, and chats that use MCP tools no longer reprocess the whole conversation on every message.
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.1.921-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.921-beta) — Bug Fixes + Faster images +Inkling Mini + faster MCP chats
-<sub>2026-11-20 · yesterday</sub>
+<sub>2026-11-20 · 2d ago</sub>
 
 > There will be another release today in a few hours!
 > Run the new Inkling 2 Mini model, the strongest 26.4B model that runs on 16GB RAM.
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.1.920-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.920-beta) — AMD NPU + video diffusion LoRA
-<sub>2026-11-19 · 2d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > AMD NPU support gets a big update in Unsloth: Q4NX models you convert now load on the NPU, and every NPU model shows whether it runs. Also new: LTX-2.5 and MOSS-Image LoRA training, NVIDIA Cosmos3 FP8 video and scheduled tasks that reply in a chat.
 > **Highlights**
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.1.919-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.919-beta) — Computer Use + Translate + MiniMax-H3-Image + New Model Picker
-<sub>2026-11-17 · 4d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > This update brings **computer use (beta)**, letting local models see your screen and interact with apps, plus MCP integrations for Unity, Unreal Engine, Blender and Roblox.
 > MiniMax-H3-Image now supports GGUF, FP8 and INT8, with LoRA training. We've also introduced a new model picker, redesigned Connections and improved project folders.
@@ -79,31 +90,20 @@
 > - **Engram:** Change and swap engrams for Qwen Flash and DeepSeek.
 > …
 
-### [v0.1.918-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.918-beta) — Computer Use, MiniMax-H3-Image + Perf fixes
-<sub>2026-11-16 · 5d ago</sub>
-
-> This update brings **computer use (beta)**, letting local models see your screen and interact with apps, plus MCP integrations for Unity, Unreal Engine, Blender and Roblox.
-> MiniMax-H3-Image now supports GGUF, FP8 and INT8, with LoRA training. We've also introduced a new model picker, redesigned Connections and improved project folders.
-> **Highlights**
-> - **Engram:** Change and swap engrams for Qwen Flash and DeepSeek.
-> - **Computer use (beta):** Local vision models and connected providers can now see your screen and interact with apps. Off by default, with permission controls.
-> - **Game engines + creative apps:** Connect Unreal Engine, Unity, Godot and Roblox through MCP, alongside Blender.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Diffusion DDP tests: rendezvous through a FileStore, not a port picke…](https://github.com/unslothai/unsloth/commit/5b4b8360917bcf79530f77b0422745e1e7f3e9e6) | danielhanchen |
-| 2026-11-22 | [Tests: two reds from #18856 (exec-d _utils helper cannot do its relat…](https://github.com/unslothai/unsloth/commit/28eaeb732914dbd9972fb92af92d77702f0a036f) | danielhanchen |
-| 2026-11-22 | [Studio: keep accented and non-Latin text in pages saved from Chrome (…](https://github.com/unslothai/unsloth/commit/c751a7a5576f8822114d320b8fb2d06c45ae7ddd) | NilayYadav |
-| 2026-11-22 | [Private push: refuse a public repo before writing dataset metadata (#…](https://github.com/unslothai/unsloth/commit/bf082c96ad848826f8831d863761081ade62601b) | danielhanchen |
-| 2026-11-22 | [Studio FLUX.2 klein 9B-KV: run KV checkpoints on their own pipeline (…](https://github.com/unslothai/unsloth/commit/acb504cbc89689867a54fdcef830a4aecd04fb7f) | danielhanchen |
-| 2026-11-22 | [Studio: keep pasted screenshots in imported Cursor chats (#18703)](https://github.com/unslothai/unsloth/commit/57aafaa95472860f1271683018a37e8bf717e517) | NilayYadav |
-| 2026-11-22 | [Studio: keep the audio.cpp accelerator chosen at install across updat…](https://github.com/unslothai/unsloth/commit/c6d4ef2687da2be3a09748c046dec0547515f6d6) | NilayYadav |
-| 2026-11-22 | [ROCm SDPA check: run the probe children in a private directory (#18858)](https://github.com/unslothai/unsloth/commit/f03851a8e89c1d208f1070e72ddff4701170dbb0) | danielhanchen |
-| 2026-11-22 | [Studio: let the model see images read in imported Claude Code chats (…](https://github.com/unslothai/unsloth/commit/94d96c084ef1bf350504daf79895dec915cfbf2d) | NilayYadav |
-| 2026-11-22 | [Studio: keep the tool call cap picked with MCP on across reloads (#18…](https://github.com/unslothai/unsloth/commit/582698f7d25f2efc4ece65b8524e78afe54f66fb) | NilayYadav |
+| 2026-11-23 | [Studio: wait longer for a long summary prompt and retry a cut-off sum…](https://github.com/unslothai/unsloth/commit/5bdf38eacdfa3513b217409dcc70b7b8840a6622) | shimmyshimmer |
+| 2026-11-23 | [Bump install.sh / install.ps1 pins to unsloth>=2026.11.10 (#19097)](https://github.com/unslothai/unsloth/commit/f5407c052a224792f1f1bdc549b3bdfc2cccf02c) | danielhanchen |
+| 2026-11-23 | [Tensor parallel for Inkling 2: shard the wrapper attention by heads (…](https://github.com/unslothai/unsloth/commit/11801a62a47daf6c691528bd15ec87dbd2530f2a) | danielhanchen |
+| 2026-11-23 | [Context parallel (Ulysses) for Inkling 2 (#19074)](https://github.com/unslothai/unsloth/commit/b0dea7145223444b237e9081c12e344028ae38a1) | danielhanchen |
+| 2026-11-23 | [Update pyproject.toml](https://github.com/unslothai/unsloth/commit/699c0c3337fba1781328d6d6f0ebdf9b91af5e0d) | danielhanchen |
+| 2026-11-23 | [Studio: let Max Tokens reach the model's window on Ollama and Custom …](https://github.com/unslothai/unsloth/commit/90a95e1f76f132a99897b8c1f64db3806ca476f8) | shimmyshimmer |
+| 2026-11-23 | [Native FSDP2: shard a bitsandbytes 4-bit quantize-on-load while it lo…](https://github.com/unslothai/unsloth/commit/5a285dcfc2ab0b70e15d3725faade8263b5058e8) | danielhanchen |
+| 2026-11-23 | [Diffusion backend tests: the apply_attention_backend stubs take fallb…](https://github.com/unslothai/unsloth/commit/4f4d6c589a63ccc7d25e55868c3ca476f276dad7) | danielhanchen |
+| 2026-11-23 | [Studio: give local thinking a window budget, and compact after a thou…](https://github.com/unslothai/unsloth/commit/bf48fd932d847fcf61447e002bdb5b75c99f8c42) | danielhanchen |
+| 2026-11-23 | [Cap Studio paging reserve on Windows integrated CUDA GPUs (#19081)](https://github.com/unslothai/unsloth/commit/169e4427a6901517e121ad4496728d81a7fe7601) | danielhanchen |
 
 [See all commits ↗](https://github.com/unslothai/unsloth/commits)
 
