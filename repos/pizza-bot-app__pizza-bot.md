@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 576 |
-| 🍴 **Forks** | 62 |
-| 🐞 **Open issues + PRs** | [26](https://github.com/pizza-bot-app/pizza-bot/issues) |
+| ⭐ **Stars** | 578 |
+| 🍴 **Forks** | 63 |
+| 🐞 **Open issues + PRs** | [28](https://github.com/pizza-bot-app/pizza-bot/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 5% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-06-26 |
 | 📦 **Latest release** | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 11.6 MB |
+| 💾 **Size** | 11.7 MB |
 | 🌐 **Website** | https://github.com/pizza-bot-app/pizza-bot/releases |
 
 ## 📦 Recent releases
 
 ### [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — Pizza Bot OSS 1.3.0
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **Highlights**
 > - **Opper provider.** You can use [Opper](https://opper.ai/) as a model provider. Thanks to @Felixkw12 for their first contribution! (#155)
@@ -83,16 +83,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Merge pull request #212 from pizza-bot-app/fix/surface-content-filter…](https://github.com/pizza-bot-app/pizza-bot/commit/06d6338561ac0969f0ab40a26320a7f8ec7f9ed2) | JoeDo |
+| 2026-11-23 | [fix(chat): surface replies blocked by the provider's content filter](https://github.com/pizza-bot-app/pizza-bot/commit/88789e8fa95a6fcf9998271cc9cc0aeb372bc222) | JoeDo |
+| 2026-11-23 | [Merge pull request #165 from pizza-bot-app/fix/bedrock-truncated-tool…](https://github.com/pizza-bot-app/pizza-bot/commit/1590bd7c1f9ba8eeda9be84d71cf9380999866b5) | JoeDo |
+| 2026-11-23 | [feat(web): show a status while a cut-off tool call is retried](https://github.com/pizza-bot-app/pizza-bot/commit/2305ccffe6d7b04d39727be16b70bf45948a8aa2) | igorfil |
+| 2026-11-23 | [fix(runtime): count cut-off retries against the model-call limit](https://github.com/pizza-bot-app/pizza-bot/commit/17865bf766aede6759c2017f279ac11706b7eb76) | igorfil |
+| 2026-11-23 | [fix(runtime): silently retry a tool call cut off at the output-token …](https://github.com/pizza-bot-app/pizza-bot/commit/c35d0ca80ed9904a8f2b29efcfb8aac264b7c4d3) | igorfil |
+| 2026-11-23 | [fix(runtime): tell the orchestrator when its tool call was cut off](https://github.com/pizza-bot-app/pizza-bot/commit/3c2e7de7913138e9fe746d03a43fd3fcaac21a0a) | igorfil |
+| 2026-11-23 | [fix(bedrock): drop every assistant turn Converse cannot replay](https://github.com/pizza-bot-app/pizza-bot/commit/71774d7306d601aa34f86697d91eea5e94e78d5f) | igorfil |
+| 2026-11-23 | [fix(bedrock): drop invalid tool calls before Converse replay](https://github.com/pizza-bot-app/pizza-bot/commit/0b947b3f4c3aafc644fe4cae97f4db92179bc52b) | igorfil |
 | 2026-11-22 | [fix: address non-blocking review notes from #205, #206 and #207 (#208)](https://github.com/pizza-bot-app/pizza-bot/commit/9c709ed9206ae1587bb784adf2a5b19ecdf8b9b9) | JoeDo |
-| 2026-11-22 | [fix(inference-providers): keep streamed Anthropic refusals as refusal…](https://github.com/pizza-bot-app/pizza-bot/commit/8ba9c17fb5ff04256ce734d5385ae8805ea183c6) | JoeDo |
-| 2026-11-22 | [fix(runtime-langgraph): pause the sandbox watchdog during bridged hos…](https://github.com/pizza-bot-app/pizza-bot/commit/82be4a88b86878c9e9e4ceb3639eb9c0bac27eff) | JoeDo |
-| 2026-11-22 | [feat(inference-providers): route Vertex AI through a project and loca…](https://github.com/pizza-bot-app/pizza-bot/commit/09823d956225460810c79cf2e6d75af197023fcd) | JoeDo |
-| 2026-11-19 | [fix(bedrock): drop blank text blocks from replayed history (#204)](https://github.com/pizza-bot-app/pizza-bot/commit/ce626e028c3eb9666789ba547b7baf76ac190590) | JoeDo |
-| 2026-11-19 | [docs(bedrock): state why stripReasoningForBedrock is still needed (#201)](https://github.com/pizza-bot-app/pizza-bot/commit/aa14a2292cfad3e9b71327647e78add4e3e17b72) | JoeDo |
-| 2026-11-19 | [chore: add .nvmrc and route QuickJS subagent cap through sandbox opti…](https://github.com/pizza-bot-app/pizza-bot/commit/e708ac31e9c97448dab6f1bd83ef5c21dea8b06e) | JoeDo |
-| 2026-11-19 | [chore(deps): bump langgraphjs stack and drop obsolete rejection drain…](https://github.com/pizza-bot-app/pizza-bot/commit/28388afa1dc9e80c4f74b4351f6a95d5c54f90fc) | JoeDo |
-| 2026-11-19 | [fix(plugin-sdk): keep Playwright browser text reads inline (#185)](https://github.com/pizza-bot-app/pizza-bot/commit/339641b9f2c9a7392ed66c7846a54831e205dde6) | CobraA1 |
-| 2026-11-19 | [chore(deps): bump @hono/node-server from 2.1.3 to 2.1.9 in /plugins (…](https://github.com/pizza-bot-app/pizza-bot/commit/5e55c9850c343728c9a6028abeddbf312ca6b41d) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/pizza-bot-app/pizza-bot/commits)
 

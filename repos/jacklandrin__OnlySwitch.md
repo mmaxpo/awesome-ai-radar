@@ -26,7 +26,7 @@
 | 💻 **Languages** | Swift 80% · HTML 13% · JavaScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `macos` `swiftui` `statusbar` `menubar-app` `notch` `audioplayer` `dark-mode` `pomodoro-timer` `shortcuts` `composable-architecture` `stagemanager` `widgetkit` `widgets` `ai` `ai-agents` `remote-control` `systemmonitor` `claude-code` `codex` `screenshot` |
-| 🕒 **Last activity** | 2026-11-18 (5d ago) |
+| 🕒 **Last activity** | 2026-11-18 (6d ago) |
 | 📅 **Created** | 2021-11-30 |
 | 📦 **Latest release** | [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [beta_3.8.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.8.0) _(pre-release)_
-<sub>2026-11-16 · 6d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > New features:
 > * Added a Display Brightness master switch in Settings → Display. Turn brightness controls off or back on without restarting OnlySwitch.
@@ -47,7 +47,7 @@
 > …
 
 ### [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 3.7.0
-<sub>2026-11-16 · 7d ago</sub>
+<sub>2026-11-16 · 8d ago</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
@@ -58,7 +58,7 @@
 > …
 
 ### [beta_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.7.0) _(pre-release)_
-<sub>2026-11-15 · 8d ago</sub>
+<sub>2026-11-15 · 9d ago</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
@@ -69,7 +69,7 @@
 > …
 
 ### [release_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.6.0)
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > New features:
 > 1. Screenshots tab supported video recording
@@ -80,7 +80,7 @@
 > …
 
 ### [beta_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.6.0) _(pre-release)_
-<sub>2026-11-08 · 14d ago</sub>
+<sub>2026-11-08 · 15d ago</sub>
 
 > New features:
 > * Supported screen record

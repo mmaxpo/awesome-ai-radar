@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 34.1k |
+| ⭐ **Stars** | 34.2k |
 | 🍴 **Forks** | 4.1k |
-| 🐞 **Open issues + PRs** | [570](https://github.com/davila7/claude-code-templates/issues) |
-| 💻 **Languages** | Python 39% · TypeScript 21% · HTML 11% · JavaScript 11% · TeX 7% |
+| 🐞 **Open issues + PRs** | [578](https://github.com/davila7/claude-code-templates/issues) |
+| 💻 **Languages** | Python 39% · TypeScript 21% · HTML 12% · JavaScript 11% · TeX 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `claude` `claude-code` `agent-skills` `ai-agents` `claude-code-plugins` `cli` `mcp` `registry` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 309.3 MB |
+| 💾 **Size** | 311.8 MB |
 | 🌐 **Website** | https://www.aitmpl.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/03c316de3528b639d37c426314cf5b91b4e65e01) | github-actions[bot] |
+| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/69203204b371fa3eccb77534f15c5df45a64a0a1) | github-actions[bot] |
+| 2026-11-24 | [feat(skills): platform-oauth-linked-billing, set up Claude Platform O…](https://github.com/davila7/claude-code-templates/commit/df647f1b358e0b0aa5fc1b830d0814e1f8afbfbd) | davila7 |
+| 2026-11-24 | [blog: add Automated Testing Workflow article (agent + command + hook)…](https://github.com/davila7/claude-code-templates/commit/279d494c9b4f1225f23679eafaedf83c333fa3b6) | davila7 |
+| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/9de37d0750e82117b3ad20145cf6bc9c433a299f) | github-actions[bot] |
+| 2026-11-24 | [Add release-manager agent (development-team) (#1675)](https://github.com/davila7/claude-code-templates/commit/0652b7c2d5825f214cac22cc269f5d5f9ee2a95f) | badhope |
+| 2026-11-23 | [feat(dashboard): "Build my stack with Claude" page behind a flag (#1683)](https://github.com/davila7/claude-code-templates/commit/b3ef82024a085acfc214f6ad76a41ceb308c4d35) | davila7 |
 | 2026-11-23 | [chore: Update star history chart](https://github.com/davila7/claude-code-templates/commit/c1bc5c1df4ff0bffb9a04d8f7790543681232423) | github-actions[bot] |
 | 2026-11-23 | [fix(dashboard): align every icon in the collapsed sidebar (#1672)](https://github.com/davila7/claude-code-templates/commit/5e3c55d706f3b8c0e4eedee49a25cb8d2ef0e819) | davila7 |
 | 2026-11-23 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/8929f198edc03efe3e135f1610b59dd4d29d8b0b) | github-actions[bot] |
-| 2026-11-22 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/89b2877c8e707be57e7caa502e6ead3783a23fcb) | github-actions[bot] |
-| 2026-11-22 | [Create source.jsonAdd pdfToMarkdown external plugin (#1667)](https://github.com/davila7/claude-code-templates/commit/016ee9f43112f65aa64fe0837707d9b4852b0d8c) | ThiloReintjes |
-| 2026-11-22 | [Syntax highlighting in the Files tab Code view (#1668)](https://github.com/davila7/claude-code-templates/commit/26e6b5a075f8cf04c0795495f6cf1d3f6a5f4c44) | davila7 |
-| 2026-11-22 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/44fd6fda16f51e5accdde254d5f530fb45de7390) | github-actions[bot] |
-| 2026-11-22 | [Drop the cumulative installers chart from /trending (#1658)](https://github.com/davila7/claude-code-templates/commit/ff245092fb27e84772da944e6976ab5641d3f31e) | davila7 |
-| 2026-11-22 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/ea3c74fec310f73af16b51554a9d5fbba669271c) | github-actions[bot] |
-| 2026-11-22 | [Add dependency-cooldown setting: skip packages published in the last …](https://github.com/davila7/claude-code-templates/commit/81dd4392f696da0b85e636f933e069b7ee468515) | davila7 |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

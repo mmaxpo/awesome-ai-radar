@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 64.4k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [261](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [264](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.12.3](https://github.com/keras-team/keras/releases/tag/v3.12.3)
-<sub>2026-06-26 · 4mo ago</sub>
+<sub>2026-06-26 · 5mo ago</sub>
 
 > Keras 3.12.3 is a security patch release that hardens model saving, loading, and deserialization against a range of attack vectors.
 > **HDF5 Hardening**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [Stop using `backend.set_image_data_format` and instead import `config…](https://github.com/keras-team/keras/commit/504e7fc4be799c8091cf9ddbb119fcfe01dd49e8) | hertschuh |
+| 2026-11-23 | [Do not copy tensors when using a TF dataset with JAX or NumPy. (#24291)](https://github.com/keras-team/keras/commit/3965340f20fb8db7b1ebb3fdfd0e087ea57db4aa) | hertschuh |
+| 2026-11-23 | [Convert integer inputs to floats in sigmoid, softmax and log_softmax …](https://github.com/keras-team/keras/commit/052116b7879edfa54a23185af75eb1ba9e0f1c58) | gaga1313 |
+| 2026-11-23 | [Convert integer inputs to floats in erf, erfinv and rsqrt (#24322)](https://github.com/keras-team/keras/commit/f496356212666a57b44f1abc082f4493b66bb346) | gaga1313 |
 | 2026-11-20 | [Stop using `backend.set_floatx` and instead import `config` (#24320)](https://github.com/keras-team/keras/commit/e1705782f99a692cd5b5aef181590f69342847c2) | hertschuh |
 | 2026-11-20 | [Convert 64-bit integers to float64 in the remaining ops under explici…](https://github.com/keras-team/keras/commit/aa360cdf3c8b95131b408ab41bc96af71f5d6106) | gaga1313 |
 | 2026-11-20 | [Increase TPU tolerance for channels_first test_affine_transform (#24310)](https://github.com/keras-team/keras/commit/aa615a686ff9e46bdf6ef9a630914609db702147) | gaga1313 |
 | 2026-11-20 | [Stop using `backend.standardize_data_format` and instead import it...…](https://github.com/keras-team/keras/commit/e75106a5e38b9c0f6773a82c214ec4438220398a) | hertschuh |
 | 2026-11-20 | [Remove `set_epsilon` from `keras.src.backend`. (#24306)](https://github.com/keras-team/keras/commit/d4fcf48c464be8661fd75ef3fa2b33a3e77c13b7) | hertschuh |
 | 2026-11-20 | [Fix inconsistency between `layer_normalization` op arguments and clas…](https://github.com/keras-team/keras/commit/6ec32d7751bfbfed8baafda4bd4c1c90cd19381e) | hertschuh |
-| 2026-11-20 | [Fix torch linspace and logspace not ending exactly at stop (#24305)](https://github.com/keras-team/keras/commit/a8c8a995833ee1fcbe751c568b1a547d5dbd4860) | SamanehSaadat |
-| 2026-11-20 | [Remove uses of `# flake8: noqa`. (#24304)](https://github.com/keras-team/keras/commit/7eba456c34fc9ea42d98087f5a597a03e33cc4bd) | hertschuh |
-| 2026-11-20 | [Convert 64-bit integers to float64 in reductions under explicit_x64 (…](https://github.com/keras-team/keras/commit/902ae99f795d6ad5827f8130644cd4a24aaf3b07) | gaga1313 |
-| 2026-11-20 | [Stop using `backend.image_data_format` and instead import `config` (#…](https://github.com/keras-team/keras/commit/c69ff6a6dd69bf41705885e81123b1032a7a16e3) | hertschuh |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

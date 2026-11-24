@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 119.9k |
+| ⭐ **Stars** | 120.1k |
 | 🍴 **Forks** | 12.5k |
-| 🐞 **Open issues + PRs** | [130](https://github.com/addyosmani/agent-skills/issues) |
-| 💻 **Languages** | JavaScript 76% · Shell 22% · Python 1% |
+| 🐞 **Open issues + PRs** | [115](https://github.com/addyosmani/agent-skills/issues) |
+| 💻 **Languages** | JavaScript 77% · Shell 21% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `antigravity` `claude-code` `cursor` `skills` `codex` |
-| 🕒 **Last activity** | 2026-11-18 (4d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-02-15 |
-| 📦 **Latest release** | [0.6.17](https://github.com/addyosmani/agent-skills/releases/tag/0.6.17) — 2026-11-18 |
+| 📦 **Latest release** | [0.6.18](https://github.com/addyosmani/agent-skills/releases/tag/0.6.18) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 2.0 MB |
+| 💾 **Size** | 2.1 MB |
 | 🌐 **Website** | https://skills.addy.ie |
 
 ## 📦 Recent releases
 
+### [0.6.18](https://github.com/addyosmani/agent-skills/releases/tag/0.6.18) — Agent Skills 0.6.18
+<sub>2026-11-24 · today</sub>
+
+> Agent Skills 0.6.18 makes every skill carry its own copy of the shared checklists, so installing a single skill no longer leaves its references missing. It also fixes two security references that said more than they did.
+> **Skills**
+> - **Shared checklists ship with each skill** (#670, @drakulavich, reviewed by @federicobartoli, fixes #597). Skills that use a checklist from the root `references/` now carry a generated copy under `references/shared/`. A per-skill install has everything it links to, and nothing depends on symlinks, so it also works on Windows. CI fails if a copy drifts from its source. **Contributors:** after editing anything in `references/`, run `node scripts/sync-shared-references.js` and commit the copies.
+> - **The SSRF example is marked as partial** (#809, @RogueTex, #805). It was labelled GOOD, but `fetch` resolves DNS again after the check. It now says what the precheck doesn't cover and how to close the gap at connection time.
+> - **The floor guard no longer prints the lines it flags** (#806, @TanmayShah29, #804). Findings are reported as `file:line`, so a suppressed line holding a secret-like value stays out of terminals and agent logs.
+> - **The a11y audit script resolves from the installed skill** (#810, @RogueTex). It works from your own project, not only from this repo's root.
+> …
+
 ### [0.6.17](https://github.com/addyosmani/agent-skills/releases/tag/0.6.17) — Agent Skills 0.6.17
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > Agent Skills 0.6.17 adds an accessibility-engineering skill for auditing and fixing WCAG 2.2 AA issues, fixes a rollback workflow that could never log in, and lets you regrade eval runs without paying for them again.
 > **New skill**
@@ -47,7 +58,7 @@
 > …
 
 ### [0.6.16](https://github.com/addyosmani/agent-skills/releases/tag/0.6.16) — Agent Skills 0.6.16
-<sub>2026-11-14 · 9d ago</sub>
+<sub>2026-11-14 · 10d ago</sub>
 
 > Agent Skills 0.6.16 lets specs evolve past V1, teaches the docs skill to spot drift, stops the frontend skill from installing toolchains just to verify, and fixes two quality-gate examples that could never fail.
 > **Skills**
@@ -58,7 +69,7 @@
 > …
 
 ### [0.6.15](https://github.com/addyosmani/agent-skills/releases/tag/0.6.15) — Agent Skills 0.6.15
-<sub>2026-10-31 · 23d ago</sub>
+<sub>2026-10-31 · 24d ago</sub>
 
 > Agent Skills 0.6.15 stops the security skill's staged-secret check from printing the secret it finds, fixes two simplify-ignore bugs that could corrupt protected code, and makes the constraints skill's security and accessibility gates actually fail CI.
 > **Security**
@@ -69,7 +80,7 @@
 > …
 
 ### [0.6.14](https://github.com/addyosmani/agent-skills/releases/tag/0.6.14) — Agent Skills 0.6.14
-<sub>2026-10-29 · 25d ago</sub>
+<sub>2026-10-29 · 26d ago</sub>
 
 > Agent Skills 0.6.14 is mostly about code samples. More than twenty snippets across the skills either failed as written or taught the wrong thing, and they're fixed. It also closes two supply-chain and injection risks in the samples, stops Claude Code from starting `/ship` or `/build` on its own, and brings the root manifest in line with Agent Plugins 1.0.0.
 > **Security fixes in the samples**
@@ -79,31 +90,20 @@
 > **Samples that now work as written**
 > …
 
-### [0.6.13](https://github.com/addyosmani/agent-skills/releases/tag/0.6.13) — Agent Skills 0.6.13
-<sub>2026-10-13 · 1mo ago</sub>
-
-> Agent Skills 0.6.13 fixes code samples in three skills that failed as written, two simplify-ignore bugs that could lose protected code or bring back a reverted change, and gets test-driven-development to fire when the code is already in the prompt. It also sets a written bar for which hosts the README lists.
-> **Skill fixes**
-> - **Three samples that did not work as written** (@rudycelekli). The error boundary in shipping-and-launch threw on every render and could never show its fallback (#637). The error state in frontend-ui-engineering called a `refetch` that was never defined (#638). The zod title check in the hardening reference accepted a title made only of spaces (#639).
-> - **test-driven-development fires on pasted code** (#678, @federicobartoli). "Add unit tests for this function" and a pasted bug with no mention of tests went from 0 of 6 to 6 of 6 runs with one added clause, with no false fires across 24 adjacent prompts. Measured with the model pinned, as proposed in #620.
-> - **documentation-and-adrs gains a prose review step** (#661, @manavmishra): mark the details that must survive an edit, and never replace an unsupported claim with an invented example or a stronger guarantee.
-> - **`/review` and `/test` are documented as what they are** (#682, reported by @sundeer in #681). They run their skill in the main session; they do not spawn the `code-reviewer` or `test-engineer` personas, whatever the docs said. The review commands now ask for the same severity labels the skill uses (Critical, Required, Optional, Nit).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [chore(release): bump plugin manifests to 0.6.17](https://github.com/addyosmani/agent-skills/commit/8c99fa36d90068c82d547f7c12a9d67a3e95f4ee) | r2 |
-| 2026-11-18 | [Merge #261: add accessibility-engineering skill](https://github.com/addyosmani/agent-skills/commit/222bf920f0d3ac8ce9badf51cd7c60709050c1e0) | addyosmani |
-| 2026-11-18 | [Merge #667: record behavioral runs for historical regrading](https://github.com/addyosmani/agent-skills/commit/18336b6e6c24ebed8e26e4959c4cccab8b69042f) | addyosmani |
-| 2026-11-18 | [Merge #795: check the checkout is clean and on the reviewed ref](https://github.com/addyosmani/agent-skills/commit/45a9831738039b4cf7da3584aa71be150e089dda) | addyosmani |
-| 2026-11-18 | [Merge #797: save capability map and module specs under spec/](https://github.com/addyosmani/agent-skills/commit/d7fd10362675f8829b78e5e031fd57e6e9e9cae7) | addyosmani |
-| 2026-11-18 | [Merge #798: make the Gemini subagent example loadable](https://github.com/addyosmani/agent-skills/commit/49d7b464f38c585449f12414008b40904986976f) | addyosmani |
-| 2026-11-18 | [Merge #799: give the rollback workflow a Vercel token](https://github.com/addyosmani/agent-skills/commit/9a69de588142a63c726b347d31a918d415a91fce) | addyosmani |
-| 2026-11-16 | [fix(a11y): match main's command frontmatter and pack-level persona path](https://github.com/addyosmani/agent-skills/commit/f9e7e19210afb70c621489a9fc80651ce6d7fc8c) | Chukwuebuka-2003 |
-| 2026-11-16 | [fix(review): address maintainer accessibility feedback](https://github.com/addyosmani/agent-skills/commit/3b79b0ce438e944fab594b143f20f64b6093562d) | Chukwuebuka-2003 |
-| 2026-11-16 | [fix(review): address the second-round review on #261](https://github.com/addyosmani/agent-skills/commit/0094fdbd5ebb15ec9243a94e43e7224edbae52de) | Chukwuebuka-2003 |
+| 2026-11-24 | [chore(release): bump plugin manifests to 0.6.18](https://github.com/addyosmani/agent-skills/commit/e997ac5b9a74eab332d5e9793bb38a38c8cfdd74) | r2 |
+| 2026-11-24 | [Merge #773: exercise the version-validator CLI against temporary mani…](https://github.com/addyosmani/agent-skills/commit/5695183d6b0aa4b1573498273fe45288b22442e1) | addyosmani |
+| 2026-11-24 | [Merge #771: cache large WebFetch responses without argv limits](https://github.com/addyosmani/agent-skills/commit/c8418b72d9a8d43b44502c83d24f1303022ce4f7) | addyosmani |
+| 2026-11-24 | [Merge #769: isolate fixture repositories from inherited Git hooks](https://github.com/addyosmani/agent-skills/commit/99820a90559cdc5a5715867b1ad3f21f6523557c) | addyosmani |
+| 2026-11-24 | [Merge #806: report floor-guard findings by file and line](https://github.com/addyosmani/agent-skills/commit/ca5d610ccef46574198124f0ed727b5e32499009) | addyosmani |
+| 2026-11-24 | [Merge #807: let plan commands defer to the configured task list target](https://github.com/addyosmani/agent-skills/commit/ec9d4ae4959fbff9d03974ecb24325aa026a8e6e) | addyosmani |
+| 2026-11-24 | [Merge #809: mark the SSRF precheck example as incomplete](https://github.com/addyosmani/agent-skills/commit/65021295f7e97abf8311bb9e8d3425b290240c29) | addyosmani |
+| 2026-11-24 | [Merge #813: pin the example workflows to Node 24 action majors](https://github.com/addyosmani/agent-skills/commit/522482d28c81d593d0f296f66e730748cf69e7b0) | addyosmani |
+| 2026-11-24 | [Merge #810: resolve the a11y audit helper from the installed skill](https://github.com/addyosmani/agent-skills/commit/9133aae7af4937900079ba9efb3efbdb418970ab) | addyosmani |
+| 2026-11-24 | [Merge #670: ship shared checklists as generated skill-local copies](https://github.com/addyosmani/agent-skills/commit/3ed9f6961c481a681f6533c1f58369a93eb23526) | addyosmani |
 
 [See all commits ↗](https://github.com/addyosmani/agent-skills/commits)
 

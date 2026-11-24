@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.3k |
 | 🍴 **Forks** | 1.0k |
-| 🐞 **Open issues + PRs** | [23](https://github.com/rxhanson/Rectangle/issues) |
+| 🐞 **Open issues + PRs** | [24](https://github.com/rxhanson/Rectangle/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (2d ago) |
+| 🕒 **Last activity** | 2026-11-20 (3d ago) |
 | 📅 **Created** | 2019-06-21 |
 | 📦 **Latest release** | [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5)
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > **What's Changed**
 > * Free the Settings window when it closes by @zolferfigueiredo in https://github.com/rxhanson/Rectangle/pull/1930

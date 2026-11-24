@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.4k |
-| 🍴 **Forks** | 15.2k |
+| ⭐ **Stars** | 115.3k |
+| 🍴 **Forks** | 15.1k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/supabase/supabase/issues) |
 | 💻 **Languages** | TypeScript 73% · MDX 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `firebase` `supabase` `realtime` `postgrest` `postgres` `postgresql` `websockets` `deno` `embeddings` `vectors` `alternative` `auth` `database` `example` `nextjs` `oauth2` `pgvector` `postgis` `ai` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2019-10-12 |
 | 📦 **Latest release** | [v1.26.08](https://github.com/supabase/supabase/releases/tag/v1.26.08) — 2026-08-07 |
 | 🌿 **Default branch** | `master` |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [fix(auth): open matching logs from Overview API errors FE-5191 (#53854)](https://github.com/supabase/supabase/commit/548abae3e9c7e5b848d53693b7687d94ccf616c8) | jordienr |
-| 2026-11-23 | [fix: broken links from the Web 404 Review, week of 2026-11-09 (#53436)](https://github.com/supabase/supabase/commit/4439db9aa6c7a6ee5275752f8f1159bf206ed7d5) | claude[bot] |
-| 2026-11-23 | [chore(self-hosted): update 2026-11-23 - 0.8.5 (#53866)](https://github.com/supabase/supabase/commit/0ee83da5e5c5c406747ffc35d293c81c144ba61f) | aantti |
-| 2026-11-23 | [fix(studio): treat WebKit's CORS-denied module load as a chunk-load e…](https://github.com/supabase/supabase/commit/fb3ed7ee3c7a9263748ae9d577f7dc8e0c484b1e) | supabase-vercel-tedd[bot] |
-| 2026-11-23 | [chore(mobile app listicle) - split out rest and graphql data apis (#5…](https://github.com/supabase/supabase/commit/08becca4e4847e56e942d29fa9837668622debf9) | kodster28 |
-| 2026-11-23 | [feat(docs) - add techarticle schema to mgmt api (#53646)](https://github.com/supabase/supabase/commit/c0ae88e2b692ab5fa4b12906fe8e3caec319dced) | kodster28 |
-| 2026-11-23 | [chore(www) - allow indexing of 2 solutions pages (#53644)](https://github.com/supabase/supabase/commit/dcd494e101cef9e351c5dd861e078f6ab78be7da) | kodster28 |
-| 2026-11-23 | [chore(docs,www) - remove dupe h1s (#53645)](https://github.com/supabase/supabase/commit/ebdbe95c1bd65cfef419b685cece0f793b1abf80) | kodster28 |
-| 2026-11-23 | [content(kb) - astro auth listicle (#53481)](https://github.com/supabase/supabase/commit/079d9905bdb799c44293bcb7a7831e17747002db) | kodster28 |
-| 2026-11-23 | [docs(auth): document dedicated scope for SAML providers (#53859)](https://github.com/supabase/supabase/commit/ca8ee0b93e4fd0b209fea67acd94a684113c8a99) | hf |
+| 2026-11-24 | [chore(www): replace markdown-toc with the local TOC helper to drop vu…](https://github.com/supabase/supabase/commit/1f6ee9e8b954976c1d607979081d26dea154f0fb) | supabase-vercel-tedd[bot] |
+| 2026-11-24 | [chore(deps): bump vitest to 5.1.1 (#53945)](https://github.com/supabase/supabase/commit/8fe6df84f3137c2a118e55a7cda7967f04e7d3a8) | supabase-vercel-tedd[bot] |
+| 2026-11-24 | [fix(studio): refresh observability charts for the selected range FE-5…](https://github.com/supabase/supabase/commit/15fcb7dc49fc2b08ecb284bef1569805297a97d3) | jordienr |
+| 2026-11-24 | [Add myself to humans.txt (#53948)](https://github.com/supabase/supabase/commit/9c0e1c7dc34c20d7498a1332ac9479c39ae89ced) | fcgravalos |
+| 2026-11-24 | [feat(www): shared account menu (#53666)](https://github.com/supabase/supabase/commit/d885fc7458d81543cbfbb3e18cd6a1accb6c19ac) | antlio |
+| 2026-11-24 | [fix(docs): shared account menu (#53620)](https://github.com/supabase/supabase/commit/c2292c97f22524f095c6795a55471d217e0f7487) | antlio |
+| 2026-11-24 | [fix(kb): header sign in state (#53558)](https://github.com/supabase/supabase/commit/ef8005d8639df54d360f4aff035938a1ce8f2c9a) | antlio |
+| 2026-11-24 | [content(kb) - react native auth listicle (#53550)](https://github.com/supabase/supabase/commit/5aed230adbd246fce9bb068d3851d60be320575d) | kodster28 |
+| 2026-11-24 | [chore: bump pnpm to 12.21.0 (#53676)](https://github.com/supabase/supabase/commit/50bab5657f5e0851fa81c0137071b6726c7f10c3) | ivasilov |
+| 2026-11-24 | [legal: add Supplemental Terms version 2 (November 24, 2026) (#53944)](https://github.com/supabase/supabase/commit/d6c9751f165bb38dfc4091d33605b771d4564e6f) | claude[bot] |
 
 [See all commits ↗](https://github.com/supabase/supabase/commits)
 

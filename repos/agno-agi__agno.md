@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 330.1 MB |
+| 💾 **Size** | 331.2 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1)
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · 10d ago</sub>
+<sub>2026-11-12 · 11d ago</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 25d ago</sub>
+<sub>2026-10-29 · 26d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 26d ago</sub>
+<sub>2026-10-27 · 27d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [[cookbook] Add GetYouTubeTranscript hosted MCP example (#11785)](https://github.com/agno-agi/agno/commit/e59ca576219e589136e53b6cff8d6677899cf95f) | pushkarsingh32 |
-| 2026-11-20 | [fix: workflow preserve falsy step content (0, False, []) in CEL conte…](https://github.com/agno-agi/agno/commit/cafe0b49457cc1859ab2401888fc3b2538443d7a) | TINGyu123644 |
-| 2026-11-20 | [fix: workflow preserve falsy previous_step_content in StepInput.to_di…](https://github.com/agno-agi/agno/commit/d122d129c4abb00647139cfea40f0cdcf4eda861) | lkuko |
-| 2026-11-19 | [[feat] Send an Agno User-Agent from the Sarvam provider (#11748)](https://github.com/agno-agi/agno/commit/b3b8b6832bf5a4a6c9ec5be5d3deae7290e44cbd) | vikashmaddi-sarvam |
-| 2026-11-19 | [[fix] Surface Neo4jTools errors instead of returning [] (#11724)](https://github.com/agno-agi/agno/commit/365c9c7e74719c1d20b557178add8c65f27a4426) | LangerSword |
-| 2026-11-18 | [[feat] Add Sarvam AI as a model provider (#11735)](https://github.com/agno-agi/agno/commit/821be55d1ec3bb472abe8bd94c3b2a0d6c78392f) | vikashmaddi-sarvam |
-| 2026-11-18 | [fix: reject page 0 on session, memory, eval and knowledge list routes…](https://github.com/agno-agi/agno/commit/ea74915eb0b9ea8039704e6b39947804297caa96) | harshsinha03 |
-| 2026-11-18 | [feat: inline JSON Schema output_schema in StudioTools (#11220)](https://github.com/agno-agi/agno/commit/59ca87f2d7fcda56d07b9fc4b5c4f60b17d5800d) | ysolanky |
-| 2026-11-18 | [feat: add multi-image and validation to OpenAITools; deprecate DalleT…](https://github.com/agno-agi/agno/commit/69d83166c197672300109862a8ad6fbe6c366950) | sannya-singal |
-| 2026-11-17 | [chore: Release v3.2.1 (#11691)](https://github.com/agno-agi/agno/commit/2e9a4521003da1cae559d8049a1c73306fc68004) | harshsinha03 |
+| 2026-11-24 | [[fix] Honor zero result limits in core knowledge searches (#10778)](https://github.com/agno-agi/agno/commit/bd24f44997b3cc86b3cfa9f6608bacc0353c601f) | FanouZeng-TT |
+| 2026-11-24 | [[fix] Quote CSV query result fields and headers (#10681)](https://github.com/agno-agi/agno/commit/471f930b2eff3f96aedd45065eab00e9aeceb3f5) | Xuxchloris |
+| 2026-11-24 | [fix: read the video id from youtu.be, shorts, embed and live links (#…](https://github.com/agno-agi/agno/commit/63a5a0f92dcb3ebacaf38fe2b8c6aeee52b0d071) | DZH166 |
+| 2026-11-24 | [[fix] Gemini: pass image bytes to Part.from_bytes instead of a base64…](https://github.com/agno-agi/agno/commit/eb30cccc389fb16a56e8db3473adf51c05ee8ab4) | HardMax71 |
+| 2026-11-24 | [[fix] Deduplicate llms.txt pages before applying the URL limit (#10671)](https://github.com/agno-agi/agno/commit/463e26d7c6c02a2238992b0a7caaba1949ec1696) | lakers-abing |
+| 2026-11-24 | [chore: bump pyjwt to 2.15.1 in cookbook lockfiles (#10680)](https://github.com/agno-agi/agno/commit/ef5392390728d57637f8bd7d62122309ab4380bf) | katsugtgz |
+| 2026-11-24 | [[fix] Count source pages toward web search result limit (#10678)](https://github.com/agno-agi/agno/commit/31dcf2ea387e448b7f3cab57e88e62a3fba56b6f) | lakers-abing |
+| 2026-11-24 | [fix: reject a non-positive page size in CSVReader.async_read (#11829)](https://github.com/agno-agi/agno/commit/7915ddeead5f35a8fc5c1550a6c18e1311430e32) | DZH166 |
+| 2026-11-24 | [fix: drop failed table from MetaData on MySQL and SQLite retry  (#11846)](https://github.com/agno-agi/agno/commit/2667dc4c0e02c9b65f2f1ff3c31dedbefa9aac48) | shotsan |
+| 2026-11-24 | [cookbook: remove hardcoded qwen38 context size from Heabsy README (#1…](https://github.com/agno-agi/agno/commit/f600606b46eb47894f6c34aabb23891ae9c30e96) | sannya-singal |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 18.7k |
-| 🍴 **Forks** | 2.0k |
-| 🐞 **Open issues + PRs** | [689](https://github.com/cursor/plugins/issues) |
+| ⭐ **Stars** | 19.1k |
+| 🍴 **Forks** | 2.1k |
+| 🐞 **Open issues + PRs** | [692](https://github.com/cursor/plugins/issues) |
 | 💻 **Languages** | TypeScript 89% · TLA 3% · JavaScript 3% · Mermaid 2% · Shell 2% |
 | 📜 **License** | — |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-01-23 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.8 MB |
+| 💾 **Size** | 18.9 MB |
 
 ## 📦 Recent releases
 
@@ -40,16 +40,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [gong: fix logo](https://github.com/cursor/plugins/commit/7a583913eb1b8d1a0ee76753d1a2cf072e7b54f9) | SirajChokshi |
-| 2026-11-22 | [Merge pull request #1305 from cursor/eliu/tailscale-guide-bot-computer](https://github.com/cursor/plugins/commit/ec5dbf8851aabc0122dbbf51990c052b45b9b107) | ericgyl817 |
-| 2026-11-21 | [tailscale: look up a 100.x address's full name with tailscale_check_h…](https://github.com/cursor/plugins/commit/878486c425db6dc7f96c925ab8bbde78e2a9b446) | ericgyl817 |
-| 2026-11-21 | [google-slides: use Google's current Google Slides icon (#1314)](https://github.com/cursor/plugins/commit/792440e8a560a4a3f63748cdee70491ecd412982) | SirajChokshi |
-| 2026-11-21 | [google-sheets: use Google's current Google Sheets icon (#1313)](https://github.com/cursor/plugins/commit/e75af4dcb17c31a6d845bce4d5b0bb144c885e80) | SirajChokshi |
-| 2026-11-21 | [google-docs: use Google's current Google Docs icon (#1312)](https://github.com/cursor/plugins/commit/874541bc52f13bbe745ff8707ff6d86abb36d2c5) | SirajChokshi |
-| 2026-11-20 | [Merge pull request #1307 from cursor/add-sabre-developer-hub-plugin](https://github.com/cursor/plugins/commit/d42aff08aa58965d2735c4ead61a9af82b89d0d0) | akshayadinesh |
-| 2026-11-20 | [feat(third_party): add the Sabre Developer Hub plugin](https://github.com/cursor/plugins/commit/1db23149372cc772db52fb0895f97829ac9e89e8) | Akshaya Dinesh |
-| 2026-11-20 | [tailscale: say the bot computer reaches tailnet hosts by full name on…](https://github.com/cursor/plugins/commit/0b694284146c04e2b83c092686e49d6e4c4fa87b) | ericgyl817 |
-| 2026-11-20 | [Merge pull request #1299 from cursor/djiang/front-drop-scopes-only-auth](https://github.com/cursor/plugins/commit/aaeb0ea3a0584995aa8f55ce44c6c5259414b896) | djiang-jq |
+| 2026-11-24 | [Merge pull request #1331 from cursor/rohan/add-easyship-plugin](https://github.com/cursor/plugins/commit/ca782ed8b3c2c521cead8e1720d55c3a5dbf2347) | rshah2020 |
+| 2026-11-24 | [feat(third_party): add the Easyship plugin](https://github.com/cursor/plugins/commit/e0bc5fd20804ccb326f4dca975c20d8a69d64668) | rshah2020 |
+| 2026-11-24 | [Merge pull request #1329 from djiang-jq/djiang/add-campfire](https://github.com/cursor/plugins/commit/005d8f6e8ec057b738adcd08a08b30db0478402d) | djiang-jq |
+| 2026-11-24 | [feat(third_party): add the Campfire plugin](https://github.com/cursor/plugins/commit/04cfc0f92657eb3127853d5c67b599a7239a0bce) | djiang-jq |
+| 2026-11-24 | [Merge pull request #1328 from djiang-jq/djiang/add-freshbooks](https://github.com/cursor/plugins/commit/96af3b7a4eaf4bab2535d1591f29aae61a3c605d) | djiang-jq |
+| 2026-11-24 | [feat(third_party): add the FreshBooks plugin](https://github.com/cursor/plugins/commit/ffec83ba9831f878dc28f3211434a2675ea63a01) | djiang-jq |
+| 2026-11-24 | [feat(pstack): have /reframe list the problems a vague description cou…](https://github.com/cursor/plugins/commit/9e278fe4d4ecd8bfe98b1b79bf4be662efb338cc) | poteto |
+| 2026-11-24 | [Merge pull request #1325 from santiagomed/cursor/x-chat-helper-refres…](https://github.com/cursor/plugins/commit/3b748810c8ca7002d896912a8e7ade80061c15ba) | santiagomed |
+| 2026-11-23 | [X MCP guide: build X Chat helper upgrades in temp venv before swapping](https://github.com/cursor/plugins/commit/0631889f21bc4fa30dcff783e39bb0e79cde8f25) | santiagomed |
+| 2026-11-23 | [X MCP guide: pass xdk_version on send_chat_message](https://github.com/cursor/plugins/commit/1b8319ca3e58768f89178f8f15bdfee35de9060d) | santiagomed |
 
 [See all commits ↗](https://github.com/cursor/plugins/commits)
 

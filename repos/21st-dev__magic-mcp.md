@@ -18,8 +18,8 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 6.6k |
-| 🍴 **Forks** | 547 |
+| ⭐ **Stars** | 6.7k |
+| 🍴 **Forks** | 549 |
 | 🐞 **Open issues + PRs** | [8](https://github.com/21st-dev/magic-mcp/issues) |
 | 💻 **Languages** | TypeScript 96% · Dockerfile 4% |
 | 📜 **License** | ISC |

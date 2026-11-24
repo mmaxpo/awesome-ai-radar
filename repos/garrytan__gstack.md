@@ -22,20 +22,31 @@
 |---|---|
 | ⭐ **Stars** | 142.5k |
 | 🍴 **Forks** | 21.0k |
-| 🐞 **Open issues + PRs** | [52](https://github.com/garrytan/gstack/issues) |
+| 🐞 **Open issues + PRs** | [55](https://github.com/garrytan/gstack/issues) |
 | 💻 **Languages** | TypeScript 91% · Shell 4% · Go Template 3% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-03-11 |
-| 📦 **Latest release** | [v1.103.0.0](https://github.com/garrytan/gstack/releases/tag/v1.103.0.0) — 2026-11-23 |
+| 📦 **Latest release** | [v1.103.1.0](https://github.com/garrytan/gstack/releases/tag/v1.103.1.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 274.5 MB |
+| 💾 **Size** | 275.4 MB |
 
 ## 📦 Recent releases
 
+### [v1.103.1.0](https://github.com/garrytan/gstack/releases/tag/v1.103.1.0) — gstack v1.103.1.0
+<sub>2026-11-24 · today</sub>
+
+> **gstack v1.103.1.0**
+> **What's new**
+> - `/ship` now tells you what to change when GitHub refuses a push for email privacy. ([#4748](https://github.com/garrytan/gstack/pull/4748))
+> - `gstack-approvals rule` and `round-grant` now say which `--owner-ref` check failed. ([#4748](https://github.com/garrytan/gstack/pull/4748))
+> - The merge queue's bisect now accepts a red judge case whose name holds a space. ([#4748](https://github.com/garrytan/gstack/pull/4748))
+> - /cso reports every security finding the code supports instead of dropping most of them. ([#4739](https://github.com/garrytan/gstack/pull/4739))
+> …
+
 ### [v1.103.0.0](https://github.com/garrytan/gstack/releases/tag/v1.103.0.0) — gstack v1.103.0.0
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **gstack v1.103.0.0**
 > This release closes gaps in two of gstack's safety checks and its merge tool, fixes the /ship failures that were stopping pull requests from finishing, and renames `/verify` to `/build-check` so Claude Code's own `/verify` works again. Upgrade with `/gstack-upgrade`.
@@ -46,7 +57,7 @@
 > …
 
 ### [v1.102.2.0](https://github.com/garrytan/gstack/releases/tag/v1.102.2.0) — gstack v1.102.2.0
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > gstack 1.102.2.0 fixes two things that broke skills on Codex, stops /plan-tune sending your typed answers to the model without a record, lets large repositories use /ship, makes /office-hours start from ground truth, and moves skill routing out of your CLAUDE.md into the hook that now does that job.
 > **Codex**
@@ -57,7 +68,7 @@
 > …
 
 ### [v1.102.1.0](https://github.com/garrytan/gstack/releases/tag/v1.102.1.0) — gstack v1.102.1.0
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > gstack 1.102.1.0 closes a gap where a secret written after a slash could be printed unhidden, locks down gstack's usage reporting and makes it more useful for people who opt in, fixes a set of bugs in how gstack picks the right skill for a prompt, and makes a gstack skill's start step run as Claude Code loads the skill, so it can't be skipped.
 > **Usage reporting (telemetry, opt-in)**
@@ -68,7 +79,7 @@
 > …
 
 ### [v1.102.0.0](https://github.com/garrytan/gstack/releases/tag/v1.102.0.0) — gstack v1.102.0.0
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > gstack 1.102.0.0 makes Codex a first-class host: it now gets gstack's skill suggestions, the destructive-command check and /review's checklist hold. The destructive-command check was rebuilt to ask far less often while catching far more real damage.
 > **Destructive-command check (/careful)**
@@ -78,31 +89,20 @@
 > **Codex**
 > …
 
-### [v1.101.0.0](https://github.com/garrytan/gstack/releases/tag/v1.101.0.0) — gstack v1.101.0.0
-<sub>2026-11-18 · 4d ago</sub>
-
-> **gstack v1.101.0.0**
-> **What's new**
-> - Before you're asked to try an app build, the new `gstack-first-use` command has an agent from another model family play that build on the same kind of device and check the first five things you'll do with it. ([#4465](https://github.com/garrytan/gstack/pull/4465))
-> - Before an agent asks its owner a question, `gstack-owner-answers` can check the draft against the owner's earlier answers and suggest dropping only the lines an existing standing yes already covers. ([#4467](https://github.com/garrytan/gstack/pull/4467))
-> - GitHub release notes now list every change in plain words, with a link to its pull request. ([#4390](https://github.com/garrytan/gstack/pull/4390))
-> - When another agent drives /ship step by step, each phase now runs as one command, the calls are counted, and the run stops itself after 100 minutes. ([#4451](https://github.com/garrytan/gstack/pull/4451))
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [gstack-upgrade works again after you disable skills (#4704) (#4743)](https://github.com/garrytan/gstack/commit/c4cfe6d1c94e2fd6fe2afd735dd1a5cc914cfe0c) | garrytan |
-| 2026-11-23 | [/cso searches the whole repository in one call with a hard time limit…](https://github.com/garrytan/gstack/commit/a3ecfd530df3c78c2d60e92b6488586a75e0ff91) | garrytan |
-| 2026-11-23 | [Add a test that stops /ship from gaining refusals without a stated re…](https://github.com/garrytan/gstack/commit/45b48f17d9282442bc1321bc2ba9ffbf037195f3) | garrytan |
-| 2026-11-23 | [/cso reports every security finding the code supports instead of drop…](https://github.com/garrytan/gstack/commit/af6deb996eca01f21c6747697af911d95c132de0) | garrytan |
-| 2026-11-23 | [Write up a failed or shelved attempt before closing it (GST-3576) (#4…](https://github.com/garrytan/gstack/commit/8143a91809b2305da6ffa7486923008b72d337e6) | garrytan |
-| 2026-11-23 | [v1.103.0.0 Release v1.103.0.0: /verify becomes /build-check, plus sec…](https://github.com/garrytan/gstack/commit/71c5e34d706831154dae2fb144a7c50e0e46beda) | garrytan |
-| 2026-11-23 | [A green CI run now counts for your branch when only main moved under …](https://github.com/garrytan/gstack/commit/261f380002d19f67bca028dd48364729803c8bc5) | garrytan |
-| 2026-11-23 | [Publish the test of /ship's review panel against two plain reads (GST…](https://github.com/garrytan/gstack/commit/8751b382dd5d3953c26e4e9e3f1532ec053031b0) | garrytan |
-| 2026-11-23 | [Release check's docs-audit tests accept /ship's step for a stopped do…](https://github.com/garrytan/gstack/commit/50204fd64f80ab4bd3b4095704dc908e989ceda2) | garrytan |
-| 2026-11-23 | [/plan-ceo-review explains its mode recommendation by what that mode d…](https://github.com/garrytan/gstack/commit/0408128f2fa5a11ffb5862e1fa05802a3708754c) | garrytan |
+| 2026-11-24 | [v1.103.2.0 release (#4785)](https://github.com/garrytan/gstack/commit/d74ee528b6df9ddb945be2103a24544babe76e65) | garrytan |
+| 2026-11-24 | [make-pdf: a NUL character can no longer hide script from the sanitize…](https://github.com/garrytan/gstack/commit/f7402213a04d720eed5c50557c0ba528a69af4bd) | garrytan |
+| 2026-11-24 | [After a fix, the second review round is always a full review (#4783)](https://github.com/garrytan/gstack/commit/7deee4292c3d96d97640960c95ef3857ae1d47e1) | garrytan |
+| 2026-11-24 | [Weekly benchmark records can't slip text into the release log or lose…](https://github.com/garrytan/gstack/commit/c34b967346f1e0514c2f1eed3836e91a62ac08e3) | garrytan |
+| 2026-11-24 | [A small second review round checks the fix again (#4781)](https://github.com/garrytan/gstack/commit/c2e61872197ea2e4968b990dd7d485ccc4f46f76) | garrytan |
+| 2026-11-24 | [Show the weekly benchmark in every stable release plan, ready to hold…](https://github.com/garrytan/gstack/commit/a9c746fa0c5cb19524bfc45bf75806b99fc1d2b5) | garrytan |
+| 2026-11-24 | [/ship instructions match the new review rules (GST-3562) (#4779)](https://github.com/garrytan/gstack/commit/0603c2738980587466fc3fcc7182329f9945de7e) | garrytan |
+| 2026-11-24 | [v1.103.1.0 release (#4780)](https://github.com/garrytan/gstack/commit/8b68498500a15c9aa149deda478fde0ffee98646) | garrytan |
+| 2026-11-24 | [A first version's public copy catches a short owner quote whose paddi…](https://github.com/garrytan/gstack/commit/bb6d13ea30a7e2407157d473fc08f50ec5feb396) | garrytan |
+| 2026-11-24 | [A first version's public copy keeps out a short owner quote padded wi…](https://github.com/garrytan/gstack/commit/f3a89d2105a8f18852e8b15a016ad7153e6c19dc) | garrytan |
 
 [See all commits ↗](https://github.com/garrytan/gstack/commits)
 

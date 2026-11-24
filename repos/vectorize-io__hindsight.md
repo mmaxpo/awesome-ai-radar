@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 62.9k |
+| ⭐ **Stars** | 63.1k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [235](https://github.com/vectorize-io/hindsight/issues) |
-| 💻 **Languages** | Python 70% · TypeScript 16% · MDX 9% · Rust 2% · Shell 1% |
+| 🐞 **Open issues + PRs** | [206](https://github.com/vectorize-io/hindsight/issues) |
+| 💻 **Languages** | Python 69% · TypeScript 16% · MDX 11% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-10-30 |
-| 📦 **Latest release** | [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3) — 2026-11-19 |
+| 📦 **Latest release** | [v1.3.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.3.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 841.1 MB |
+| 💾 **Size** | 841.9 MB |
 | 🌐 **Website** | https://hindsight.vectorize.io/ |
 
 ## 📦 Recent releases
 
+### [v1.3.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.3.0)
+<sub>2026-11-24 · today</sub>
+
+> **What's Changed**
+> * docs: changelog for v1.2.3 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6714
+> * fix(release): slim image no longer overwrites :latest by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6728
+> * feat(mcp): per-bank MCP server instructions in the initialize response by @cdbartholomew in https://github.com/vectorize-io/hindsight/pull/6712
+> * docs: replace retired Claude Code plugin text and dead integration link in blog and guides by @chrislatimer in https://github.com/vectorize-io/hindsight/pull/6716
+> * fix(knowledge): bound the work of cutting a video, and drop files that fail for good by @cdbartholomew in https://github.com/vectorize-io/hindsight/pull/6711
+> …
+
 ### [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3)
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.2.2 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6678
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.2.2](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.2)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **What's Changed**
 > * test(llm): fix the two-user-turns tests broken by the tool-call retry by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6492
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1)
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **What's Changed**
 > * docs drop 0.9 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6284
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 20d ago</sub>
+<sub>2026-11-03 · 21d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935
@@ -79,31 +90,20 @@
 > * fix(reflect): treat a non-list id field on done as empty instead of failing the reflect by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5952
 > …
 
-### [v1.1.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.1.0)
-<sub>2026-10-21 · 1mo ago</sub>
-
-> **What's Changed**
-> * docs: v1.0.0 changelog, Memlake launch post, and version-1.0 docs snapshot by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5550
-> * fix(client): stop the export poll loop from overrunning its timeout on Windows by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5568
-> * feat/webhook event delivery ids by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5576
-> * feat(control-plane): identify dataplane requests with its own User-Agent by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5536
-> * feat(extensions): LLM request extension — choose the LLM and credentials of each call server-side by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5578
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [feat(llm): add antigravity provider driving Google's agy CLI (#6830)](https://github.com/vectorize-io/hindsight/commit/3ca5b2aa92f5c66d203cf5b39719f0b45927e37b) | nicoloboschi |
-| 2026-11-23 | [fix(reflect): let HINDSIGHT_API_LLM_STRICT_SCHEMA_REFLECT take the to…](https://github.com/vectorize-io/hindsight/commit/5cf3737b21e2dba0e7a36b0edaea76973fa7dbea) | nicoloboschi |
-| 2026-11-23 | [fix(ci): flaky tests and CI 429s — umbrella for 10 issues (#6824)](https://github.com/vectorize-io/hindsight/commit/467378704af157a463810f2c23c4304f73b7a014) | nicoloboschi |
-| 2026-11-23 | [perf(oracle): watermark index, batched link inserts, set-wise observa…](https://github.com/vectorize-io/hindsight/commit/cb54db32884dc07dc64f2e369d3aa9fde5347644) | nicoloboschi |
-| 2026-11-23 | [fix(mental-models): a rate-limited refresh step neither pauses the mo…](https://github.com/vectorize-io/hindsight/commit/ea603137cc972047d1fe7b944b4f891f9cdf94aa) | nicoloboschi |
-| 2026-11-23 | [fix(migrations): keep extension schemas we cannot relocate on the mig…](https://github.com/vectorize-io/hindsight/commit/fe53a31164e98e0fa883f1f00e1a116bc5f13d36) | nicoloboschi |
-| 2026-11-23 | [fix(llm): read Mistral's typed content blocks as text instead of cras…](https://github.com/vectorize-io/hindsight/commit/735ace90628637f3e7b969a695803ea9a70b8bca) | nicoloboschi |
-| 2026-11-23 | [feat(clients): knowledge-bank methods on the Python and TypeScript wr…](https://github.com/vectorize-io/hindsight/commit/a6fa4548bf2df640e873c0ed3e7d42da05e4d8da) | nicoloboschi |
-| 2026-11-23 | [fix(mcp): an allowlist naming no built-in tool registers no built-ins…](https://github.com/vectorize-io/hindsight/commit/345ac91d5799386fd8c490efcb13e453951e8bdc) | nicoloboschi |
-| 2026-11-23 | [fix(docs): FAQ links no unreleased page; production builds leave out …](https://github.com/vectorize-io/hindsight/commit/7a09eaddd257a4314e654a6d438709cf5be27b3d) | nicoloboschi |
+| 2026-11-24 | [fix(docs): Knowledge Banks post links the released 1.3 docs, not /nex…](https://github.com/vectorize-io/hindsight/commit/0b0ba46b09c0801770f9254fc6aefca5d89b0bc3) | nicoloboschi |
+| 2026-11-24 | [Blog: Introducing Knowledge Banks (24 Nov launch) (#6677)](https://github.com/vectorize-io/hindsight/commit/3131a9dac511767a86a491651843ac7a47345ede) | nicoloboschi |
+| 2026-11-24 | [feat(hermes): recall_max_tokens_mode=split shares the token budget ac…](https://github.com/vectorize-io/hindsight/commit/966089d238eb377f6a3af3edc3d15de3c6ae933b) | nicoloboschi |
+| 2026-11-24 | [release(obsidian): v0.4.1](https://github.com/vectorize-io/hindsight/commit/dca467de94134d70f2510a7c20351c11bc9bca96) | nicoloboschi |
+| 2026-11-24 | [fix(release): only bump the top-level version in an integration's pac…](https://github.com/vectorize-io/hindsight/commit/4ffa0997ec7773cf412895b30993c5ebd68e3e1e) | nicoloboschi |
+| 2026-11-24 | [feat(obsidian): skip notes by frontmatter tag; pick a retain strategy…](https://github.com/vectorize-io/hindsight/commit/2fbbddff4af1810f0699d0894991d2ac4b117100) | nicoloboschi |
+| 2026-11-24 | [Release v1.3.0](https://github.com/vectorize-io/hindsight/commit/937886199e0e3443f41f4d8180a16b12cc95c547) | nicoloboschi |
+| 2026-11-24 | [fix(mental-models): delta refresh removes a deleted memory's claims r…](https://github.com/vectorize-io/hindsight/commit/8451ca950e3e92f8466f29b2a0e457aaa84f5cf8) | nicoloboschi |
+| 2026-11-24 | [fix(control-plane): knowledge-bank UI polish — file-name titles, rend…](https://github.com/vectorize-io/hindsight/commit/0cd94761e88607b833396128cf4a1ce91f99ae33) | nicoloboschi |
+| 2026-11-24 | [fix(mental-models): a page whose every cited fact is gone is rebuilt,…](https://github.com/vectorize-io/hindsight/commit/291cede18f9fa14424a8bde924e0840d98494db7) | nicoloboschi |
 
 [See all commits ↗](https://github.com/vectorize-io/hindsight/commits)
 

@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.2k |
-| 🍴 **Forks** | 152 |
-| 🐞 **Open issues + PRs** | [6](https://github.com/rohitg00/awesome-claude-design/issues) |
+| 🍴 **Forks** | 154 |
+| 🐞 **Open issues + PRs** | [8](https://github.com/rohitg00/awesome-claude-design/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-design` `anthropic` `awesome` `awesome-list` `claude-code` `claude-design` `claude-skills` `design-md` `design-system` |

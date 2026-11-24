@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 57.6k |
+| ⭐ **Stars** | 57.7k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [22](https://github.com/zylon-ai/private-gpt/issues) |
+| 🐞 **Open issues + PRs** | [25](https://github.com/zylon-ai/private-gpt/issues) |
 | 💻 **Languages** | Python 87% · HTML 9% · MDX 3% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-tools` `on-premise` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-05-02 |
 | 📦 **Latest release** | [v1.0.1](https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1) — 2026-06-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 221.5 MB |
+| 💾 **Size** | 221.7 MB |
 | 🌐 **Website** | https://www.zylon.ai/private-gpt |
 
 ## 📦 Recent releases

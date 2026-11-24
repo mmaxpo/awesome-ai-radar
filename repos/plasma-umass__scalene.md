@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 13.6k |
 | 🍴 **Forks** | 449 |
-| 🐞 **Open issues + PRs** | [152](https://github.com/plasma-umass/scalene/issues) |
+| 🐞 **Open issues + PRs** | [153](https://github.com/plasma-umass/scalene/issues) |
 | 💻 **Languages** | Python 60% · JavaScript 15% · C++ 9% · TypeScript 7% · Lean 6% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-22 (2d ago) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |

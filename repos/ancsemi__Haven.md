@@ -22,21 +22,43 @@
 |---|---|
 | ⭐ **Stars** | 1.2k |
 | 🍴 **Forks** | 124 |
-| 🐞 **Open issues + PRs** | [17](https://github.com/ancsemi/Haven/issues) |
+| 🐞 **Open issues + PRs** | [16](https://github.com/ancsemi/Haven/issues) |
 | 💻 **Languages** | JavaScript 81% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-02-11 |
-| 📦 **Latest release** | [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — 2026-11-15 |
+| 📦 **Latest release** | [v4.30.0](https://github.com/ancsemi/Haven/releases/tag/v4.30.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.5 MB |
+| 💾 **Size** | 23.8 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
+### [v4.31.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.31.0-beta.1) — Haven 4.31.0-beta.1 _(pre-release)_
+<sub>2026-11-23 · today</sub>
+
+> This is an early access build: new work that has not been through a stable release yet. Servers get it only with Settings > Admin > Early access updates switched on (Docker: the `:beta` image). Everything in stable 4.30.0 is included.
+> **Added**
+> - Bot accounts: Settings > Bots & data now has Webhooks and Bots as separate pages. A bot is a member account a program signs in to with a token, so it can do anything a member can, wherever its roles let it; webhooks are unchanged. Making one needs the new Bot Manager permission. A bot gets the roles and channels a new member gets, and its page has its token (shown once, with Make new token), name, picture, Enable/Disable, a list of Bot Creators who may look after it without any other permission (only the admin and Bot Managers change that list), its channels (added and removed by the Manage members rules) and, for people who can manage roles, Manage this bot's roles. A bot that has never posted can be deleted by a Bot Manager; after that only the admin can, and its messages go with it. Bot accounts carry a BOT tag, can post embeds, buttons and dropdowns, and get clicks straight over their own connection. See "Bot Accounts" in GUIDE.md.
+> - Bots can post embeds, buttons and dropdowns, in the same JSON shapes Discord uses, so a Discord bot's payload works as it is. Embeds show a colored card with a title, text, fields, pictures and a footer. Buttons come in the primary, secondary, green, red and link styles. Dropdowns allow one pick or several. A click or a pick is checked and sent to the bot's callback URL, signed, and the bot answers with a private reply, a new message, or an edit that changes the message (a bot's edit can now replace its embeds and buttons). See "Embeds, Buttons and Dropdowns" in GUIDE.md.
+> - Two new desktop layouts in Settings > Layout (thanks Amnibro, #5928). Focus puts the conversation that needs you in the middle, with menus in a dock along the bottom, and moves you to the next thing to answer when you send. Focus Classic shows one list at a time (Server, DMs, Activity, You) beside the chat. Both are off unless you pick them. In a call, the channel list also shows a red dot next to anyone sharing their screen; click it to watch.
+> - Drag a soundboard sound onto another to put it where you want it (asked for by Raidenphantom). The order is yours alone and follows you to every device; the Soundboard panel, the pop-up and the pop-out all use it, and sounds you have not moved keep their place after the ones you have.
+> …
+
+### [v4.30.0](https://github.com/ancsemi/Haven/releases/tag/v4.30.0) — Haven 4.30.0
+<sub>2026-11-23 · today</sub>
+
+> **Before you update**
+> - Only if you opted into the PostgreSQL preview: a preview database made with 4.29 is refused by 4.30 at startup. Start the preview on a fresh database. Servers on the normal built-in database are not affected.
+> **Added**
+> - More profile customization (thanks Bo0sted, #5900): pick a banner color in Edit Profile or let it follow your avatar, upload and crop a banner picture (with its own size limit in Uploads & Limits), and give your profile card a two-color theme it fades between.
+> - Call settings everywhere (thanks Roolk, #5903): Settings has a new Voice & video page with every call setting, usable without joining a call, plus Test microphone (with Hear myself) and Test camera. The fullscreen call popup shows the same full set of settings instead of three dropdowns.
+> - The quick reaction row leads with your favorites, then the reactions you use most, then the usual defaults (thanks Amnibro, #5902). A row you customized still wins, and its editor has a Reset to automatic button.
+> …
+
 ### [v4.30.0-beta.3](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.3) — Haven 4.30.0-beta.3 _(pre-release)_
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.2:
@@ -47,7 +69,7 @@
 > …
 
 ### [v4.30.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.2) — Haven 4.30.0-beta.2 _(pre-release)_
-<sub>2026-11-16 · 7d ago</sub>
+<sub>2026-11-16 · 8d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.1:
@@ -58,7 +80,7 @@
 > …
 
 ### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
-<sub>2026-11-15 · 8d ago</sub>
+<sub>2026-11-15 · 9d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > It has everything in 4.29.0, plus these, which are not in a stable yet:
@@ -68,42 +90,20 @@
 > - Merge a channel into another (admin, a channel's menu > Merge into…), for the duplicates a Ferry history import leaves next to channels copied by hand. The channel merged into keeps its name, settings, permissions and members; every message of the other moves into it in time order, threads and all, and the other is deleted. A Discord message that is in both (imported in one, relayed by Ferry in the other) is kept once, with its replies, reactions and pin. Messages that look re-posted by hand from Discord (the same text, posted later in Haven) are listed with both copies, and only the ticked ones go, leaving the Discord copy with its real author and time. Ferry links, webhooks, scheduled messages and role menus come along, a later history import lands in the merged channel, and people who were caught up stay caught up. Protected messages always stay.
 > …
 
-### [v4.29.0](https://github.com/ancsemi/Haven/releases/tag/v4.29.0) — Haven 4.29.0
-<sub>2026-11-15 · 8d ago</sub>
-
-> **Added**
-> - Call controls in fullscreen (thanks Roolk, #5849): mute, deafen, camera, screen share, call settings and leave stay on screen over a fullscreen camera or screen share, and a picker switches which stream is shown without leaving fullscreen.
-> - Video players in chat have Theater (as wide as the chat) and Fullscreen buttons: YouTube cards, uploaded videos and videos in link previews.
-> - Platform emoji built into Haven: Windows, Mac, iPhone, Android and Linux, under Platforms in the emoji picker. They work in messages, reactions and role menus.
-> - Role menus: each role's emoji is picked from a searchable list of every emoji, the server's custom ones and Haven's own included. A role named after a platform starts with its icon.
-> - Add members to a channel that already exists: right-click it and pick people one by one, a whole role at a time, or All users. People already in it are shown, and banned people are left out. It works for the admin and anyone who can invite people, and on a private channel for whoever may invite to it (its creator or a moderator there).
-> …
-
-### [v4.29.0-beta.5](https://github.com/ancsemi/Haven/releases/tag/v4.29.0-beta.5) — Haven 4.29.0-beta.5 _(pre-release)_
-<sub>2026-11-13 · 9d ago</sub>
-
-> Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.28.0 until the next stable.
-> Changes since 4.29.0-beta.4:
-> **Added**
-> - Merge a channel into another (admin, a channel's menu > Merge into…), for the duplicates a Ferry history import leaves next to channels copied by hand. Every message moves over in time order, threads and all; a Discord message that is in both is kept once, and messages that look re-posted by hand are listed and only removed when ticked. Thanks Dawnforger (#5890).
-> - Bots can edit their own messages through the webhook API (`PATCH /api/webhooks/<token>/messages/<id>`). A bot only ever edits its own messages, and protected messages stay as they are.
-> - A timeout now shows how long it lasts in a bar above the message box, and a forum post written during a timeout is kept instead of lost. Thanks Amnibro (#5887).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Put a name typed in full first in the @mention list (#5932)](https://github.com/ancsemi/Haven/commit/ad9ae09a9820ea228cd0ca4a8a8d1cc735405f82) | Amnibro |
-| 2026-11-22 | [Show how many people picked each role on its role menu button](https://github.com/ancsemi/Haven/commit/1f10a78a072eb5a6c49369864635b48a0eb99f29) | ancsemi |
-| 2026-11-22 | [Add the local network block to the coturn setup in the guide](https://github.com/ancsemi/Haven/commit/6017195bad24ecf76e321d6454d11c41628eb6e0) | ancsemi |
-| 2026-11-22 | [Put test webhook makers in their webhook's channel](https://github.com/ancsemi/Haven/commit/c33ea4381605a7c851d18c808814762cc7728c62) | ancsemi |
-| 2026-11-22 | [Keep the example TURN relay from reaching the local network](https://github.com/ancsemi/Haven/commit/6505b10c6f840474301a301825f3d453d93ebd76) | ancsemi |
-| 2026-11-22 | [Read long messages in pieces in the AI link sweep](https://github.com/ancsemi/Haven/commit/6e343a0fa6d5f1b18c8c145e74aee218279d5d9b) | ancsemi |
-| 2026-11-22 | [Auto-cleanup removes only real attachments nothing else uses](https://github.com/ancsemi/Haven/commit/5f28bba1d0b037c10e124ff7999163c41e0916c2) | ancsemi |
-| 2026-11-22 | [Limit wrong passwords per account on admin recovery](https://github.com/ancsemi/Haven/commit/bec809f16d46acbe519932656c4920f139727ce8) | ancsemi |
-| 2026-11-22 | [Stop a webhook token when its maker can no longer open the channel](https://github.com/ancsemi/Haven/commit/567e918560b444494aa97a4cc5d0ea546e26480a) | ancsemi |
-| 2026-11-22 | [Let only the installer's own page drive the installer](https://github.com/ancsemi/Haven/commit/3ba93ba37f5814b84f92d10495234b0b91887a06) | ancsemi |
+| 2026-11-24 | [Show offline people as offline, not idle, in the pop-out DM and profi…](https://github.com/ancsemi/Haven/commit/bde0156c4e3a0662e7f6f191c8849097cbfa79e9) | ancsemi |
+| 2026-11-23 | [Release 4.31.0-beta.1](https://github.com/ancsemi/Haven/commit/195164a8152458bb23075ccbb2ee4b761468d7e8) | ancsemi |
+| 2026-11-23 | [Website and changelog for 4.30.0 and Desktop 1.9.0](https://github.com/ancsemi/Haven/commit/490f0a54bd90fe317e0fe3b8219fa6c6b619cdd6) | ancsemi |
+| 2026-11-23 | [Let the Private conversation tag shrink on phones](https://github.com/ancsemi/Haven/commit/6083ce6d3f0aa5e554e713aa70829b1e31016333) | ancsemi |
+| 2026-11-23 | [List only channel members to someone who can only remove](https://github.com/ancsemi/Haven/commit/228812f1009023183c4c0eda25edf14753691690) | ancsemi |
+| 2026-11-23 | [Cover the hidden-text default in the bot push test](https://github.com/ancsemi/Haven/commit/7c6f6d4f968b0162a7c651a3462f9a0a15089afa) | ancsemi |
+| 2026-11-23 | [Hide members from people without View Channel Members (#5931)](https://github.com/ancsemi/Haven/commit/2503d3f0533dcb0a6884627124b5aabc09965d20) | ancsemi |
+| 2026-11-23 | [Hide message text in pushes to older apps by default](https://github.com/ancsemi/Haven/commit/6edb726912bdc492e23ba45438e5eecce299313d) | ancsemi |
+| 2026-11-23 | [Only the admin changes single sign-on settings](https://github.com/ancsemi/Haven/commit/1557aca3d34e10bbba600f08cdb4c2b7ea33faa9) | ancsemi |
+| 2026-11-23 | [Keep server icons in place when switching servers (#5933)](https://github.com/ancsemi/Haven/commit/b99056ce3283dff8063c2f15fd5112dae2354623) | ancsemi |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

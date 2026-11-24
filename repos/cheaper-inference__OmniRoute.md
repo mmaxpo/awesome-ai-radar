@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 89.8k |
-| 🍴 **Forks** | 13.9k |
+| ⭐ **Stars** | 90.0k |
+| 🍴 **Forks** | 14.0k |
 | 🐞 **Open issues + PRs** | [861](https://github.com/cheaper-inference/OmniRoute/issues) |
-| 💻 **Languages** | TypeScript 93% · JavaScript 7% |
+| 💻 **Languages** | TypeScript 93% · JavaScript 6% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `a2a` `ai-agents` `ai-gateway` `anthropic` `claude` `claude-code` `cline` `codex` `copilot` `cursor` `deepseek` `free-ai` `gemini` `llm-gateway` `mcp` `openai` `openai-proxy` `qwen` `token-saver` `kimi` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v3.8.54](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54) — 2026-11-17 |
 | 🌿 **Default branch** | `release/v3.8.55` |
-| 💾 **Size** | 3694.4 MB |
+| 💾 **Size** | 3711.7 MB |
 | 🌐 **Website** | https://omniroute.online |
 
 ## 📦 Recent releases
 
 ### [v3.8.54](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54)
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **OmniRoute v3.8.54**
 > - **Providers:** official "Sign in with ChatGPT" provider (`chatgpt`, PKCE + live model discovery); MiniMax Code (managed gateway + dashboard device-code sign-in); RenderHour (images, video, speech); MegaBrain (dual auth); EmpirioLabs, ParalonCloud, deAPI, Replicate chat, Cerebrium, Hetzner Inference and Grokified; native `opencode-server` executor; Microsoft 365 Copilot work/school sign-in; GitHub Copilot embeddings; Gemini Lyria 3 music models; custom JSON API provider nodes (request template + response path).
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.8.53](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.53)
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > **OmniRoute v3.8.53**
 > **1,189 documented changes** from 1,162 commits in the cycle, with **222 people** contributing. Thank you all.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-21 | [Merge pull request #20961 from cheaper-inference/fix/restore-preferre…](https://github.com/cheaper-inference/OmniRoute/commit/5ffa68e835442a12ed1204a2eebf4076c298aecb) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20370 from maxmad64bis/fix/plugin-model-row-fidelity](https://github.com/cheaper-inference/OmniRoute/commit/65ff1f94940f82214eab6c1b129579df102420b7) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20958 from cheaper-inference/fix/merge-train-h-20…](https://github.com/cheaper-inference/OmniRoute/commit/5b6c0af52deb06d6f278adad542f988f58afc9e4) | diegosouzapw |
-| 2026-11-21 | [Merge branch 'release/v3.8.55' into fix/plugin-model-row-fidelity](https://github.com/cheaper-inference/OmniRoute/commit/3ab4719c0769040016b50e1f8a419eb192508d64) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20947 from cheaper-inference/fix/merge-train-g-20…](https://github.com/cheaper-inference/OmniRoute/commit/4265bb2ad5477450a07d3a43ea33a62c6c874878) | diegosouzapw |
-| 2026-11-21 | [chore(changelog): name the fragment after #20961](https://github.com/cheaper-inference/OmniRoute/commit/7b7b61c6e771a17a35bdc829dbaa624404dadd76) | diegosouzapw |
-| 2026-11-21 | [Merge branch 'release/v3.8.55' into fix/restore-preferred-failover-wi…](https://github.com/cheaper-inference/OmniRoute/commit/a86811d79e3ebb90f41e707dc04c44815b680a8c) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #20108 from b84330808/fix/usage-guard-once-per-req…](https://github.com/cheaper-inference/OmniRoute/commit/934d6afee6eb3b260a91fbe5dec7d152e58bdabb) | diegosouzapw |
-| 2026-11-21 | [fix(sse): restore the preferred-account failover wiring in chat.ts](https://github.com/cheaper-inference/OmniRoute/commit/7477ae6c6bad26a983773392b371dd8791f46149) | diegosouzapw |
-| 2026-11-21 | [Merge pull request #19735 from serenity-X/pr/perf/or9r-b-call-log-ove…](https://github.com/cheaper-inference/OmniRoute/commit/eaf57c1cc11aaea9b6cee6de04308fdfc9d2fffb) | diegosouzapw |
+| 2026-11-24 | [Merge pull request #21090 from cheaper-inference/feat/opencode-zen-go…](https://github.com/cheaper-inference/OmniRoute/commit/264eb34420498d976ebeb4c607531a8209893346) | diegosouzapw |
+| 2026-11-24 | [Merge pull request #21082 from cheaper-inference/fix/kilo-paid-model-…](https://github.com/cheaper-inference/OmniRoute/commit/af292fe49fd207de99c2c73d9454a777ac51d0e2) | diegosouzapw |
+| 2026-11-24 | [Merge pull request #21081 from cheaper-inference/fix/rtk-preserve-err…](https://github.com/cheaper-inference/OmniRoute/commit/7cdf9a4d4ea5f0caee7ad08a217a0bb43917a664) | diegosouzapw |
+| 2026-11-24 | [Merge pull request #21080 from cheaper-inference/fix/cline-daily-free…](https://github.com/cheaper-inference/OmniRoute/commit/b65b8a728ccc8b97cfe5d61509c047635fd92aea) | diegosouzapw |
+| 2026-11-24 | [fix(db): run the migration-numbering gate in the pre-commit hook when…](https://github.com/cheaper-inference/OmniRoute/commit/eff2a475edf1d282db4b2ac485c9098df2de96de) | diegosouzapw |
+| 2026-11-24 | [Merge pull request #20891 from cheaper-inference/fix/salvage-20106-v3855](https://github.com/cheaper-inference/OmniRoute/commit/817ebfb2c0934a9769b01fe9beffc6b4387fd357) | diegosouzapw |
+| 2026-11-24 | [Merge pull request #20216 from KiaroSama/fix/pr-comparison-base-20261114](https://github.com/cheaper-inference/OmniRoute/commit/b47ecc93c8101d5fcc9188cde7e2a3b84c0eca1b) | diegosouzapw |
+| 2026-11-24 | [Merge pull request #20539 from cheaper-inference/feat/ui-kit-0-43-ado…](https://github.com/cheaper-inference/OmniRoute/commit/3648db7a48138c87fbeda683260f1a69c96fd4aa) | diegosouzapw |
+| 2026-11-24 | [Merge pull request #21145 from cheaper-inference/fix/release-v3.8.55-…](https://github.com/cheaper-inference/OmniRoute/commit/9a663869b73399e47d0d2a93f21a2fbdf48ffb37) | diegosouzapw |
+| 2026-11-24 | [test(quota): read the reset hint's wait instead of matching one shape](https://github.com/cheaper-inference/OmniRoute/commit/c5a324e5ca15abe01db9a62f7f391a4886efe951) | diegosouzapw |
 
 [See all commits ↗](https://github.com/cheaper-inference/OmniRoute/commits)
 

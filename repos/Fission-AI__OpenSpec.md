@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 75.5k |
+| ⭐ **Stars** | 75.6k |
 | 🍴 **Forks** | 5.2k |
 | 🐞 **Open issues + PRs** | [212](https://github.com/Fission-AI/OpenSpec/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `spec` `ai` `context-engineering` `engineering` `planning` `prd` `sdlc` `spec-driven-development` `specification` `sdd` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-08-05 |
 | 📦 **Latest release** | [v2.1.1](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.1.1) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.1.1](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.1.1) — v2.1.1 - Offline skill installs, safer archive
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **OpenSpec 2.1.1**
 > This release smooths out a handful of rough edges. Skills now install straight from the CLI, with no Git and no network needed. Archive is more careful with your main specs, and `validate --strict` catches two problems before they reach archive. Your workflows don't change.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.1.0](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.1.0) — v2.1.0 - Global skills
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **OpenSpec 2.1**
 > OpenSpec now supports global skills for coding agents. Install the skills once and your agent can use them in every project on your machine.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.0.0](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.0.0) — v2.0.0 - Skills in .agents/skills, /opsx commands removed
-<sub>2026-11-11 · 11d ago</sub>
+<sub>2026-11-11 · 12d ago</sub>
 
 > **OpenSpec 2.0**
 > OpenSpec now installs skills in `.agents/skills/` instead of keeping a separate copy for each coding agent. Tools that don't read this folder, like Claude Code and Kiro, get links to the same skills.
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.17.0](https://github.com/Fission-AI/OpenSpec/releases/tag/v1.17.0) — v1.17.0 - Safe upgrades, 2.0 notice
-<sub>2026-11-09 · 13d ago</sub>
+<sub>2026-11-09 · 14d ago</sub>
 
 > **What's New in v1.17.0**
 > `openspec update` now upgrades a project from any older release in one run, and announces that command files go away in OpenSpec 2.0.
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.16.1](https://github.com/Fission-AI/OpenSpec/releases/tag/v1.16.1) — v1.16.1 - Spec parsing, version checks
-<sub>2026-11-07 · 16d ago</sub>
+<sub>2026-11-07 · 17d ago</sub>
 
 > **What's New in v1.16.1**
 > A patch release that makes spec validation stricter and more forgiving in the right places, and makes `openspec version --check` reliable.
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [chore(deps-dev): bump vitest and @vitest/ui to 5.1.1 (#2296)](https://github.com/Fission-AI/OpenSpec/commit/1f846e64b0dffa47e0590078cfc7121cc7f59f7b) | clay-good |
+| 2026-11-24 | [chore(deps): bump the website-dependencies group (#2294)](https://github.com/Fission-AI/OpenSpec/commit/4abd55cea98acd8e587abd8d4f6bb9fbe3687ea5) | dependabot[bot] |
 | 2026-11-19 | [Version Packages (#2284)](https://github.com/Fission-AI/OpenSpec/commit/0c737dc1b543249b38b0f4716816fcf493d894dd) | openspec-release-bot[bot] |
 | 2026-11-19 | [fix(update): refresh skills that npx skills put in a project (#2269)](https://github.com/Fission-AI/OpenSpec/commit/a0993e9d56d503148f13b10ea0e8f4eec2f8ce68) | clay-good |
 | 2026-11-19 | [fix(skills): install skills from the npm package instead of cloning (…](https://github.com/Fission-AI/OpenSpec/commit/4ff226bbd11645b7c6ae48332f8c87ff94212aa1) | clay-good |
@@ -102,8 +104,6 @@
 | 2026-11-18 | [fix(validate): allow frontmatter at the top of delta specs (#2273)](https://github.com/Fission-AI/OpenSpec/commit/e0fdff34466f1adf93d90cdb0e4382bcf0b6fd3d) | clay-good |
 | 2026-11-18 | [fix(archive): read a wrapped line starting with `<` as part of its se…](https://github.com/Fission-AI/OpenSpec/commit/a1213fcdc768948034a48d8837c9e0543d124e16) | clay-good |
 | 2026-11-18 | [fix(archive): put a blank line after ## Purpose in a new main spec (#…](https://github.com/Fission-AI/OpenSpec/commit/168a5eacc639f9625f6c151613bcb5c46cb2c236) | clay-good |
-| 2026-11-18 | [fix(validate): warn when MODIFIED requirement grows past 500 chars (#…](https://github.com/Fission-AI/OpenSpec/commit/499602e82cd2e389586a8b781f27deb8737d8537) | clay-good |
-| 2026-11-18 | [fix(version): stop telling Homebrew and Nix installs to update with n…](https://github.com/Fission-AI/OpenSpec/commit/efdf5319b58bcba3ea113528168793d2610ce5a4) | clay-good |
 
 [See all commits ↗](https://github.com/Fission-AI/OpenSpec/commits)
 

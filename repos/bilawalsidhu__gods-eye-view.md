@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 66.5k |
+| ⭐ **Stars** | 66.6k |
 | 🍴 **Forks** | 13.2k |
-| 🐞 **Open issues + PRs** | [439](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| 🐞 **Open issues + PRs** | [441](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 257.1 MB |
+| 💾 **Size** | 261.8 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 26d ago</sub>
+<sub>2026-10-28 · 27d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #1910 from bilawalsidhu/german/perimeters-growth-age](https://github.com/bilawalsidhu/gods-eye-view/commit/ec2f7d8ca732c489403813e90ec88460c9d7fcd2) | gekh |
-| 2026-11-23 | [docs(changelog): add the fire perimeters age colouring entry](https://github.com/bilawalsidhu/gods-eye-view/commit/51bf3d0807b0f37beb546862129029ebbb11c0c5) | gekh |
-| 2026-11-23 | [feat(perimeters): colour fire perimeters by age](https://github.com/bilawalsidhu/gods-eye-view/commit/d303d48693c35ace4b2508b2a96d63d41904acee) | gekh |
-| 2026-11-23 | [Merge pull request #1540 from Byrd-IT/byrdit/recent-imagery-dateline](https://github.com/bilawalsidhu/gods-eye-view/commit/e51853de3d7b07cf9058b93ae66f4127f1c9568a) | gekh |
-| 2026-11-23 | [Merge main into byrdit/recent-imagery-dateline](https://github.com/bilawalsidhu/gods-eye-view/commit/46f8ea16c03862a038b9585f866254a93e740578) | gekh |
-| 2026-11-21 | [A line can be drawn as several runs (`breaks`) (#1895)](https://github.com/bilawalsidhu/gods-eye-view/commit/d9d79ebc4da7379a1359947d23543b72757221bb) | samehkhamis |
-| 2026-11-21 | [A line can show only the part of it within a time span of the scene c…](https://github.com/bilawalsidhu/gods-eye-view/commit/e4caf5d3afcb40041cfa6b167b4fda7bb9b393c5) | samehkhamis |
-| 2026-11-21 | [Opening the phone Context tab no longer switches Contacts on (#1893)](https://github.com/bilawalsidhu/gods-eye-view/commit/561f5885c2c369a0c7b1b706607921fa8ae49f70) | samehkhamis |
-| 2026-11-21 | [Lines can fade with the age of their points, drawn by the renderer on…](https://github.com/bilawalsidhu/gods-eye-view/commit/7ff536299ab70c9a710e2b6110773b4dcb861586) | samehkhamis |
-| 2026-11-21 | [A voice or chat selection shows its card in the Context panel (#1890)](https://github.com/bilawalsidhu/gods-eye-view/commit/918435ddc7bd4529666ddafde65e68ad97fab4ce) | samehkhamis |
+| 2026-11-24 | [Merge pull request #1901 from manjunath22466/context-stack/e-cctv-pla…](https://github.com/bilawalsidhu/gods-eye-view/commit/08a48c225322d93f3cf25baec0a22c15ab864d01) | asturksever |
+| 2026-11-24 | [Merge main into the CCTV projection branch](https://github.com/bilawalsidhu/gods-eye-view/commit/8fcf2151a039f299921d6c7d720c8567125c800c) | manjunath22466 |
+| 2026-11-24 | [Merge pull request #1899 from manjunath22466/context-stack/b-cctv-on-…](https://github.com/bilawalsidhu/gods-eye-view/commit/a7b23d79f64de8b3219bbf9f8b91c20b96bdd2f8) | gekh |
+| 2026-11-24 | [Isolate same-camera reselection in the CCTV gate](https://github.com/bilawalsidhu/gods-eye-view/commit/b7ef9d0e38c88d871be4b6364f8ebb7b17998316) | manjunath22466 |
+| 2026-11-24 | [Keep camera stills matched to their Context preview](https://github.com/bilawalsidhu/gods-eye-view/commit/19b08b5f5f5b4e5da6cff162cfc93bcebf1e7ab1) | manjunath22466 |
+| 2026-11-24 | [Merge upstream main into the CCTV projection branch](https://github.com/bilawalsidhu/gods-eye-view/commit/be25af000e8174ebe0ad8b1c182ec5f01b07c1e3) | manjunath22466 |
+| 2026-11-24 | [Merge branch 'main' into context-stack/b-cctv-on-keeps-view](https://github.com/bilawalsidhu/gods-eye-view/commit/a2f6214b57c96c6a8fa0913604edd3f0f918b1e4) | gekh |
+| 2026-11-24 | [Merge pull request #1909 from bilawalsidhu/german/opening-intro](https://github.com/bilawalsidhu/gods-eye-view/commit/04539e13f3ab3e13384b47c49949d1800ab4464f) | gekh |
+| 2026-11-24 | [Hand the opening over to the globe at the pupil planet's size, not th…](https://github.com/bilawalsidhu/gods-eye-view/commit/07b62f75573c58542aee088029844ff1493a6bdc) | gekh |
+| 2026-11-24 | [Test that Cameras waits for layer enable](https://github.com/bilawalsidhu/gods-eye-view/commit/72c65869df1de4d202d3574d44feddb0fd394efd) | manjunath22466 |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

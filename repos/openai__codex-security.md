@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 14.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [228](https://github.com/openai/codex-security/issues) |
+| 🐞 **Open issues + PRs** | [222](https://github.com/openai/codex-security/issues) |
 | 💻 **Languages** | TypeScript 77% · Python 19% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-07-13 |
 | 📦 **Latest release** | [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 91.0 MB |
+| 💾 **Size** | 90.1 MB |
 | 🌐 **Website** | https://developers.openai.com/codex/security |
 
 ## 📦 Recent releases
 
 ### [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — Codex Security GitHub Action 0.10.1
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1).
 > Installs `@openai/codex-security@0.10.1`.
@@ -45,7 +45,7 @@
 > ```
 
 ### [npm-v0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1) — Codex Security 0.10.1
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **Highlights**
 > - **Exclude paths from scans.** Run `cs scan . --exclude-path examples/` to exclude a directory from review in Standard, Deep, or diff scans. Repeat the flag for more paths, or set `scan.exclude_paths` in your project configuration. Paths are literal and relative to the repository. The scanner can still read excluded files for context and filters out findings whose locations all fall under excluded paths.
@@ -56,7 +56,7 @@
 > …
 
 ### [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — Codex Security GitHub Action 0.10.0
-<sub>2026-11-12 · 11d ago</sub>
+<sub>2026-11-12 · 12d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0).
 > Installs `@openai/codex-security@0.10.0`.
@@ -65,7 +65,7 @@
 > ```
 
 ### [npm-v0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0) — Codex Security 0.10.0
-<sub>2026-11-12 · 11d ago</sub>
+<sub>2026-11-12 · 12d ago</sub>
 
 > **Highlights**
 > Codex Security 0.10.0 gives clearer guidance when a patch is blocked, lets interrupted Standard scans resume, and adds a budget for batch scans.
@@ -76,7 +76,7 @@
 > …
 
 ### [action-v0.9.1](https://github.com/openai/codex-security/releases/tag/action-v0.9.1) — Codex Security GitHub Action 0.9.1
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > GitHub Action for [Codex Security 0.9.1](https://github.com/openai/codex-security/releases/tag/npm-v0.9.1).
 > Installs `@openai/codex-security@0.9.1`.
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [fix(cli): attribute exploitability model requests (#2801)](https://github.com/openai/codex-security/commit/5718ce40a40dce152ce85bb9d46abd4a314f0b60) | utsav-oai |
-| 2026-11-22 | [ci: bump taiki-e/install-action to v2.90.5 (#2804)](https://github.com/openai/codex-security/commit/35373239d9319e5f5ada1f135f13a7da5c01c909) | dependabot[bot] |
-| 2026-11-21 | [ci: bump taiki-e/install-action in / (#2786)](https://github.com/openai/codex-security/commit/dcb270ceb2eebb85285609ee5f5107c638d7191a) | dependabot[bot] |
-| 2026-11-20 | [chore(deps): bump the codex group across 3 directories with 2 updates…](https://github.com/openai/codex-security/commit/664fac181c2fbeb16a6b2291fe76d297c5877f0c) | dependabot[bot] |
-| 2026-11-20 | [chore(deps): bump ruff from 0.17.4 to 0.17.5 in /plugins/codex-securi…](https://github.com/openai/codex-security/commit/f4529b175f5affa10c5ac1383bc679f5a40063ee) | dependabot[bot] |
-| 2026-11-20 | [fix(cli): honor configured caller scope in captured stack investigati…](https://github.com/openai/codex-security/commit/9b7b90c94c94b7eaec65018b0265b868f8b37e28) | utsav-oai |
-| 2026-11-20 | [fix(sdk): accept indexed stack misses (#2761)](https://github.com/openai/codex-security/commit/f9114413c92bd92d6b5f8aa72aea733062dd5ad0) | utsav-oai |
-| 2026-11-20 | [feat(cli)!: support incremental exploitability investigations (#2745)](https://github.com/openai/codex-security/commit/a69515510f8525e7909f770e61f5c8be450e3e29) | utsav-oai |
-| 2026-11-20 | [fix(workbench): split legacy roots from linked global finding groups …](https://github.com/openai/codex-security/commit/8c485db1432fbe0734cabf0249def5204a473d95) | hyeonsang010716 |
-| 2026-11-20 | [fix(config): keep cached scan skills disabled across path aliases (#2…](https://github.com/openai/codex-security/commit/e426284c595fb4616b9909826e142e1b84a3ae59) | adityajai119 |
+| 2026-11-24 | [chore(deps): bump Codex CLI and SDK to 0.172.0 (#2823)](https://github.com/openai/codex-security/commit/72d6f26113e511b2f8d6e9cf469bc29d1fb78e7e) | dependabot[bot] |
+| 2026-11-24 | [chore(release): 0.11.0](https://github.com/openai/codex-security/commit/353fbf8f5cc0dc5287561809bb4df93319ca4642) | github-actions[bot] |
+| 2026-11-24 | [docs(cli): clarify test execution during patch risk assessment (#2763)](https://github.com/openai/codex-security/commit/8c253917991f48fa0da8087056d51150937eb023) | mldangelo-oai |
+| 2026-11-24 | [ci: bump actions/create-github-app-token from 3.3.0 to 3.4.0 (#2813)](https://github.com/openai/codex-security/commit/4b431802448ef49ee4b87c82473f2224aba4ca1f) | dependabot[bot] |
+| 2026-11-24 | [fix(validation): refresh Continuum evidence after issue moves and dis…](https://github.com/openai/codex-security/commit/21ebff7bf0a117bbc46f720cdbb28c9ee62544b2) | mldangelo-oai |
+| 2026-11-24 | [fix(deep-scan): retry Windows JSON artifact replacement and clean up …](https://github.com/openai/codex-security/commit/6077499932d24f989df15506b6dc2751f285081f) | abhiramshaji-cyber |
+| 2026-11-24 | [fix(validation): exclude outdated Continuum verdicts from remediation…](https://github.com/openai/codex-security/commit/6f586d8bbc2396f0f991c1756a1364896b9c3c04) | mldangelo-oai |
+| 2026-11-24 | [feat(remediation): reuse saved Continuum assessments in patch and ver…](https://github.com/openai/codex-security/commit/73eb1520f6bdfdbaebfe0ba6f2861617cdc27d73) | mldangelo-oai |
+| 2026-11-24 | [fix(validation): keep Continuum verdicts while waiting for linked iss…](https://github.com/openai/codex-security/commit/81534c4b689501f7a728209aafe84ae486de6286) | mldangelo-oai |
+| 2026-11-24 | [fix(validation): resume pending Continuum checks and preserve inconcl…](https://github.com/openai/codex-security/commit/2324a7b557c49b9f0640ca4833ec56ac796dea9d) | mldangelo-oai |
 
 [See all commits ↗](https://github.com/openai/codex-security/commits)
 

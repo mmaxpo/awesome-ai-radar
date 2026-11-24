@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.3k |
-| 🍴 **Forks** | 738 |
-| 🐞 **Open issues + PRs** | [18](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
+| 🍴 **Forks** | 744 |
+| 🐞 **Open issues + PRs** | [16](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 67% · C 17% · Go 6% · C++ 5% · Python 3% |
 | 📜 **License** | MIT |
-| 🏷 **Topics** | `ai-agent` `airplay` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `dsh-plugin` `claude-code` `ios` `ios-automation` `mcp` `mcp-server` `mobile-agent` `phone-agent` `screen-mirroring` `xiao-esp32s3` `manina-ai` `seeed-xiao` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🏷 **Topics** | `ai-agent` `airplay` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `claude-code` `ios` `ios-automation` `mcp` `mcp-server` `mobile-agent` `phone-agent` `screen-mirroring` `xiao-esp32s3` `manina-ai` `seeed-xiao` `iphone-automation` |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-10-11 |
 | 📦 **Latest release** | [v1.0.10.1](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.10.1) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 20.5 MB |
+| 💾 **Size** | 20.0 MB |
 | 🌐 **Website** | https://manina.ai?ref=github |
 
 ## 📦 Recent releases
 
 ### [v1.0.10.1](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.10.1) — Manina AI 1.0.10.1 (TestFlight)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > - Chinese input is much faster: pinyin goes in one go and is read back once; a right text is no longer deleted and typed again (a long text that shows only its end, the same message already in the chat, an OCR slip). Only English letters or the keyboard's other candidate (西安 for 西岸) are typed again.
 > - Agent: a `type` that repeats part of the text just typed is not typed again; `tap 发送` without quotes is understood (no second model call).
@@ -46,7 +46,7 @@
 > - Hermes Agent plugin (`integrations/hermes`, a portable Agent Plugins v1 package): the esp32agent MCP server (esp32agent 0.1.5) plus the manina skill. `hermes plugins install onehumanbeing/esp32-iphone-agent/integrations/hermes --enable`.
 
 ### [v1.0.10](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.10) — Manina AI 1.0.10 (TestFlight)
-<sub>2026-11-22 · yesterday</sub>
+<sub>2026-11-22 · 2d ago</sub>
 
 > - Agent: `collect WHAT max N` that stops on its count saves the result (README) and says where, as a list read to its end does.
 > - Agent: when the progress count is reached and the result written but the run goes on with another gesture, the planner looks once.
@@ -54,7 +54,7 @@
 > - Runs: a run that a guard gave up on ("stuck:") ends as `stall`, not `model_fail`; run_end also says which link the mouse and keyboard used (`transport`: usb / ble) and the longest run of gestures that changed nothing (`unchanged_max`).
 
 ### [v1.0.9](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.9) — Manina AI 1.0.9 (TestFlight)
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > - iOS 16.4 minimum: iPhone 8 and iPhone X can run the app. On iPhones before iOS 17 the agent leaves an app through the AssistiveTouch menu (its button found on the screen) instead of the Home bar.
 > - Experimental M5Stack StopWatch board (Bluetooth): it shows the run (character, steps, time, the step's text), the yellow key pauses and resumes, two quick presses stop, help and confirms buzz until answered, a done task's answer shows on the screen, quick intents (the newest 5) start from the watch, hold yellow to talk. Updates from its own firmware channel; the app sends it the phone's time and what needs fixing (mirroring lost, iPhone locked).
@@ -65,7 +65,7 @@
 > …
 
 ### [v1.0.7](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.7) — Manina AI 1.0.7 (TestFlight)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **App 1.0.7 · firmware 0.2.6 (TestFlight)**
 > - Agent: model replies are read off the main thread (board replies no longer wait behind them), and the app logs what the main thread runs when it stalls.
@@ -76,7 +76,7 @@
 > …
 
 ### [v1.0.6-build17](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.6-build17) — Handsy 1.0.6 build 17 (TestFlight)
-<sub>2026-11-15 · 7d ago</sub>
+<sub>2026-11-15 · 8d ago</sub>
 
 > - App: a start whose Home gestures did nothing while the board's USB is up, but with no mouse on this iPhone,
 >   says to plug the board straight into this iPhone and tap Allow for the accessory, and goes on by itself once
@@ -90,6 +90,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [README: link the setup guides for AI iPhone control, MCP and Claude C…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/9ac751618ee644e947646a72b8e0fa6a340fb3fb) | onehumanbeing |
 | 2026-11-23 | [Changelog: 1.0.10.1, significantly faster Chinese input (#185)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/90f450ea7c2741901a2b4102c8d209c930961912) | onehumanbeing |
 | 2026-11-23 | [App 1.0.10.1: much faster Chinese input (#184)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/8e51f56b3ec3e2577226c8bfdc7ca6f2eaae8e30) | onehumanbeing |
 | 2026-11-23 | [Hermes Agent plugin: esp32agent MCP server and manina skill (#183)](https://github.com/onehumanbeing/esp32-iphone-agent/commit/6af87ec7a5ad2f19e2d98d39222e19ca4fd1958b) | onehumanbeing |
@@ -99,7 +100,6 @@
 | 2026-11-22 | [Merge pull request #181 from onehumanbeing/fw-0.2.8-readme](https://github.com/onehumanbeing/esp32-iphone-agent/commit/1fc4eb377a0a204fc4318a9c9a8a829211a2fdb5) | onehumanbeing |
 | 2026-11-22 | [README: iOS 16.4+ with the TestFlight app (iPhone 8 / X), M5Stack Sto…](https://github.com/onehumanbeing/esp32-iphone-agent/commit/f58fb82b581f014393ca1a8d84553fa9aec35274) | onehumanbeing |
 | 2026-11-22 | [Firmware 0.2.8: StopWatch voice coded in sample order](https://github.com/onehumanbeing/esp32-iphone-agent/commit/82e6f2d2717ad354f35ca740f250cc9a3f1c7156) | onehumanbeing |
-| 2026-11-22 | [firmware: add --no-audio build flag to keep audio on the iPhone](https://github.com/onehumanbeing/esp32-iphone-agent/commit/f4b2c6c0ae821b69a66eaffd94b58c13fdf0f09b) | rPlayAI |
 
 [See all commits ↗](https://github.com/onehumanbeing/esp32-iphone-agent/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 35.8k |
+| ⭐ **Stars** | 35.9k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [100](https://github.com/NandhaKishorM/laya/issues) |
+| 🐞 **Open issues + PRs** | [107](https://github.com/NandhaKishorM/laya/issues) |
 | 💻 **Languages** | Python 52% · Java 11% · Go 8% · Rust 7% · C# 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `calibration` `classification` `decision-model` `huggingface` `jev` `modernbert` `multilingual` `nlp` `python` `pytorch` `routing` `typed-decisions` `zero-shot` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-23 (yesterday) |
 | 📅 **Created** | 2026-09-18 |
 | 📦 **Latest release** | [v0.5.3](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.3) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.5.3](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.3)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **What's Changed**
 > * fix(vega): translate engine's string-keyed choice labels back to caller's labels by @aashish254 in https://github.com/NandhaKishorM/laya/pull/1519
@@ -47,14 +47,14 @@
 > …
 
 ### [v0.5.2](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.2)
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **What's Changed**
 > * learn: laya.Escalator and laya.vllm_teacher, a teacher for what the learner is unsure of (0.5.2) by @NandhaKishorM in https://github.com/NandhaKishorM/laya/pull/1518
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.5.1...v0.5.2
 
 ### [v0.5.1](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.1)
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > **What's Changed**
 > * Sponsor link at the top of the README and a Sponsor button by @NandhaKishorM in https://github.com/NandhaKishorM/laya/pull/1513
@@ -65,12 +65,12 @@
 > …
 
 ### [v0.5.0](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.0)
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.38...v0.5.0
 
 ### [v0.4.38](https://github.com/NandhaKishorM/laya/releases/tag/v0.4.38)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.4.37...v0.4.38
 

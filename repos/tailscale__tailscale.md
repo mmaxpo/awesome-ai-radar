@@ -20,38 +20,38 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 39.5k |
+| ⭐ **Stars** | 39.6k |
 | 🍴 **Forks** | 3.5k |
 | 🐞 **Open issues + PRs** | [4.7k](https://github.com/tailscale/tailscale/issues) |
 | 💻 **Languages** | Go 97% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `wireguard` `oauth` `sso` `2fa` `vpn` `tailscale` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2020-01-31 |
 | 📦 **Latest release** | [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 91.2 MB |
+| 💾 **Size** | 91.7 MB |
 | 🌐 **Website** | https://tailscale.com |
 
 ## 📦 Recent releases
 
 ### [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7)
-<sub>2026-11-12 · 10d ago</sub>
+<sub>2026-11-12 · 11d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.6](https://github.com/tailscale/tailscale/releases/tag/v1.104.6)
-<sub>2026-11-11 · 12d ago</sub>
+<sub>2026-11-11 · 13d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.5](https://github.com/tailscale/tailscale/releases/tag/v1.104.5)
-<sub>2026-11-03 · 20d ago</sub>
+<sub>2026-11-03 · 21d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.4](https://github.com/tailscale/tailscale/releases/tag/v1.104.4)
-<sub>2026-10-28 · 26d ago</sub>
+<sub>2026-10-28 · 27d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [client/systray: shut down cleanly on termination signals (#22583)](https://github.com/tailscale/tailscale/commit/0345103edd62ccbb3de3b0c39d9b36337080b7ab) | fQwQf |
-| 2026-11-23 | [derp/derpserver: count packets, not seqs, in writer flood test](https://github.com/tailscale/tailscale/commit/693839367f198c4370aa4a24605842cb0afed3d1) | bradfitz |
-| 2026-11-23 | [cmd/derper: remove unpublished bootstrap DNS names, validate publishe…](https://github.com/tailscale/tailscale/commit/7a47412c332180f2161918666b1c65d213b8f1b1) | bradfitz |
-| 2026-11-23 | [net/dnsfallback: only resolve Tailscale's own names, and not when off…](https://github.com/tailscale/tailscale/commit/c7b017dc17a10cbfde7b91b99fd66f908d80d6c3) | bradfitz |
-| 2026-11-23 | [.github/workflows: give golangci-lint its own Go build cache](https://github.com/tailscale/tailscale/commit/fefe73acf60875d03a27c6e6d2561c7468a05747) | bradfitz |
-| 2026-11-23 | [wgengine/router: add envknob to disable src_valid_mark (#22591)](https://github.com/tailscale/tailscale/commit/82cb6f8ba0df89a83fbe3a2aff0876357f91f4cf) | mikeodr |
-| 2026-11-23 | [tsnet: wait for control to know s2's DERP home and endpoints in delta…](https://github.com/tailscale/tailscale/commit/c3a92572e843e0be91ce0b175b0df3096d025cf3) | bradfitz |
-| 2026-11-23 | [tstest/integration: deflake TestClientSideJailing](https://github.com/tailscale/tailscale/commit/66e3d823c754fd4dd87b95785568c76869e5a786) | bradfitz |
-| 2026-11-23 | [feature/acme: add tests for cert status of invalid cached certs](https://github.com/tailscale/tailscale/commit/8c3db134d8f790f14f0b1a0850120788bd17dffd) | ChaosInTheCRD |
-| 2026-11-23 | [feature/acme: report Expired only when a cached cert has expired](https://github.com/tailscale/tailscale/commit/f0ce5749d19094974066a5ab01afcb39b73ef1d8) | ChaosInTheCRD |
+| 2026-11-24 | [cmd/k8s-operator: publish HA Service VIPs for configured IP families …](https://github.com/tailscale/tailscale/commit/6dce0b211825c52461325f914f842e9521e41e48) | hyperb1iss |
+| 2026-11-23 | [licenses: update license notices](https://github.com/tailscale/tailscale/commit/da6276d77025ee2bce288c4ccf07b35e14f253a7) | License Updater |
+| 2026-11-23 | [VERSION.txt: this is v1.107.0 (#22612)](https://github.com/tailscale/tailscale/commit/b5034b78a5dca2412cb5224fc3e63ea6aeff2677) | nickoneill |
+| 2026-11-23 | [feature/conn25: enforce token verification](https://github.com/tailscale/tailscale/commit/3ec7c0cd6cc04e087e7123d03a81fb3064b35dc3) | franbull |
+| 2026-11-23 | [appc,feature/conn25: build split DNS routes from the parsed config](https://github.com/tailscale/tailscale/commit/7caf9edb4071de87d15e3e01ab112e5bbe83eeed) | mzbenami |
+| 2026-11-23 | [net/dns: stage the new hosts file outside of the etc directory on Win…](https://github.com/tailscale/tailscale/commit/0afa9614d3e53bf834b2b91fff019d7fcfbf9bf1) | nickkhyl |
+| 2026-11-23 | [net/dns: retry failed hosts file updates in the background on Windows](https://github.com/tailscale/tailscale/commit/65c4e364776cde41332c60843e05af41618e0fcd) | nickkhyl |
+| 2026-11-23 | [util/coalescedop: add Wait](https://github.com/tailscale/tailscale/commit/a11574557916d33c8c75707a0a70d581377f0415) | nickkhyl |
+| 2026-11-23 | [derp/derpserver: add rate limiting exemption by IP (#22610)](https://github.com/tailscale/tailscale/commit/00183293b8f529991990a832ce1ccb6f3783755b) | mikeodr |
+| 2026-11-23 | [net/dns/resolver: don't count a torn-down UDP write as an upstream error](https://github.com/tailscale/tailscale/commit/01f673c4268eebcce1b6af08ed32e0ab41fde2b1) | bradfitz |
 
 [See all commits ↗](https://github.com/tailscale/tailscale/commits)
 

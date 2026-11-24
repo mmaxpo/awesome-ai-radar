@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 12.6k |
-| 🍴 **Forks** | 1.8k |
-| 🐞 **Open issues + PRs** | [10](https://github.com/JuneYaooo/rea-video/issues) |
+| ⭐ **Stars** | 12.9k |
+| 🍴 **Forks** | 1.9k |
+| 🐞 **Open issues + PRs** | [8](https://github.com/JuneYaooo/rea-video/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai-video` `aigc-detection` `claude-code` `codex` `ffmpeg` `prompt-engineering` `remotion` `reverse-engineering` `short-video` `shot-detection` `subtitles` `video-analysis` `video-breakdown` `video-editing` `video-generation` `vlm` `videomd` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-10-29 |
 | 📦 **Latest release** | [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 73.6 MB |
+| 💾 **Size** | 73.5 MB |
 | 🌐 **Website** | https://www.reavideo.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0)
-<sub>2026-11-11 · 11d ago</sub>
+<sub>2026-11-11 · 12d ago</sub>
 
 > **视频拆解标准包 Reel，报告重写，音效单独分离**
 > 这一版定下了视频拆解的标准包格式：拆片包（Reel）。拆一条视频现在得到两样东西：给人看的报告（HTML / PDF），和给模型、下游项目读的拆片包。格式介绍和规范见 [docs/reel.md](https://github.com/JuneYaooo/rea-video/blob/v0.1.0/docs/reel.md)。
@@ -50,16 +50,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Use Gemini directly and keep evals local](https://github.com/JuneYaooo/rea-video/commit/9572a00bbccf0baa272983893b5c0c3589875088) | JuneYaooo |
-| 2026-11-23 | [Tighten model answers and remake frames](https://github.com/JuneYaooo/rea-video/commit/4a8dcded6a57ccbba07f3168b1bb2707bf60c376) | JuneYaooo |
-| 2026-11-23 | [Keep face_area median at MIN_AREA and use linear projection for SFX s…](https://github.com/JuneYaooo/rea-video/commit/99033f7ec8e2ddd51da40259d99d679897860c95) | JuneYaooo |
-| 2026-11-23 | [Fix review precedence, moments v3 edge cases, DIY remake fallback, an…](https://github.com/JuneYaooo/rea-video/commit/92b9df33140843ac4376afcd1c5f8432043d30be) | JuneYaooo |
-| 2026-11-22 | [Align model limits with vendor docs](https://github.com/JuneYaooo/rea-video/commit/a124acd4a02b3a9b72b9e7dedca5d1bfcda2a7b8) | JuneYaooo |
-| 2026-11-22 | [Point remakes to Capsule recipes first](https://github.com/JuneYaooo/rea-video/commit/574c47a2ce5dfc8b2197d64f7cfae02755736b78) | JuneYaooo |
-| 2026-11-22 | [Flag reference frames that conflict with swaps](https://github.com/JuneYaooo/rea-video/commit/01258b9e85a270dc49d1725819ced6d60228ec7b) | JuneYaooo |
-| 2026-11-22 | [Weigh image reviews and uncertain shots more carefully](https://github.com/JuneYaooo/rea-video/commit/9f1b075d6a7b1a6782feb5f4e8d3dd83a3dc5762) | JuneYaooo |
-| 2026-11-22 | [Keep remake execution in one place](https://github.com/JuneYaooo/rea-video/commit/de506fd5f157315b4089629286af1ab96c01a072) | JuneYaooo |
-| 2026-11-22 | [Make remake runs more reliable](https://github.com/JuneYaooo/rea-video/commit/90eae960d13643e24a0066d6f569df7f390f0567) | JuneYaooo |
+| 2026-11-24 | [Read clip lengths more reliably](https://github.com/JuneYaooo/rea-video/commit/0449f76b151c70ead5a4bb3d08623ff283af3985) | JuneYaooo |
+| 2026-11-24 | [Keep a dissolve's measured span when shots are rebuilt from the survey](https://github.com/JuneYaooo/rea-video/commit/4440430ee3bbb1b369a61f31bb664d2c57093f87) | HEOJUNFO |
+| 2026-11-24 | [Tighten how survey cuts join a measured transition](https://github.com/JuneYaooo/rea-video/commit/763673b5e53101d29173981159b0e48e0a708ba5) | JuneYaooo |
+| 2026-11-24 | [Keep a measured dissolve when the survey calls a cut inside it](https://github.com/JuneYaooo/rea-video/commit/de6b61802e8b6f289af493946b7083072466d63b) | HEOJUNFO |
+| 2026-11-24 | [Keep a detector cut that is close to another detector cut](https://github.com/JuneYaooo/rea-video/commit/e82bd6aff370bef44c8dd929e12de46290a5904b) | HEOJUNFO |
+| 2026-11-24 | [Shape prompt drafts per model](https://github.com/JuneYaooo/rea-video/commit/bc97f214ebedfdc6510a9b2241cd8f8222f63517) | JuneYaooo |
+| 2026-11-24 | [Refine prompt research step](https://github.com/JuneYaooo/rea-video/commit/99b3340a28078c940e5240ca4e3222fc7301bf5f) | JuneYaooo |
+| 2026-11-24 | [Pass top-level --lang to subcommands](https://github.com/JuneYaooo/rea-video/commit/c93d9cdc791cd4c98cea041f3eee7b28fba5949a) | JuneYaooo |
+| 2026-11-24 | [fix(cli,i18n): accept --lang across commands, complete English CLI he…](https://github.com/JuneYaooo/rea-video/commit/bce64471fd4268cd5110467563d3f37e8aa2383e) | yuearc |
+| 2026-11-24 | [Keep the failure reason when later VLM calls are skipped](https://github.com/JuneYaooo/rea-video/commit/32a071a1e5b8384ead6c7b4fdb8fb5ea1799d061) | HEOJUNFO |
 
 [See all commits ↗](https://github.com/JuneYaooo/rea-video/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 72.6k |
+| ⭐ **Stars** | 73.0k |
 | 🍴 **Forks** | 5.7k |
-| 🐞 **Open issues + PRs** | [4](https://github.com/blader/humanizer/issues) |
+| 🐞 **Open issues + PRs** | [8](https://github.com/blader/humanizer/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-writing` `claude-code` `codex` `cursor` `prompt-engineering` `writing-tools` `ai-humanizer` `chatgpt` `claude` `humanize-ai-text` `humanizer` `llm` |
-| 🕒 **Last activity** | 2026-11-19 (3d ago) |
+| 🕒 **Last activity** | 2026-11-19 (4d ago) |
 | 📅 **Created** | 2026-01-18 |
 | 📦 **Latest release** | [v4.0.0](https://github.com/blader/humanizer/releases/tag/v4.0.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v4.0.0](https://github.com/blader/humanizer/releases/tag/v4.0.0) — Humanizer v4.0.0
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > Humanizer 4.0.0 lets the skill add a specific detail where the text is generic, and it rewrites the skill's own instructions and examples to be clearer.
 > A rewrite may now contain a detail that was not in your text. If you rely on the old rule, stay on v3.1.0.

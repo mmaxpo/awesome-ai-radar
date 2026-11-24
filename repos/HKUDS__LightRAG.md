@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 40.8k |
 | 🍴 **Forks** | 5.8k |
-| 🐞 **Open issues + PRs** | [236](https://github.com/HKUDS/LightRAG/issues) |
+| 🐞 **Open issues + PRs** | [238](https://github.com/HKUDS/LightRAG/issues) |
 | 💻 **Languages** | Python 91% · TypeScript 7% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `knowledge-graph` `large-language-models` `retrieval-augmented-generation` `genai` `graphrag` `llm` `rag` `gpt` `docling` `mineru` `ragas` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2024-10-02 |
-| 📦 **Latest release** | [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2) — 2026-11-21 |
+| 📦 **Latest release** | [v1.5.8](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 127.3 MB |
+| 💾 **Size** | 126.1 MB |
 | 🌐 **Website** | https://arxiv.org/abs/2410.05779 |
 
 ## 📦 Recent releases
 
+### [v1.5.8](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8)
+<sub>2026-11-23 · today</sub>
+
+> **Important Notes**
+> **Highlights**
+> **1. Introduces a new storage type: Configuration storage**
+> This store holds the key LightRAG configuration. It prepares the ground for gradually moving settings from the .env file into backend storage, and it also lays the foundation for the next step: account and permission management.
+> In v1.5.8 configuration storage holds each workspace's **embedding baselines**: for every vector target (entities, relationships, chunks), the embedding space its vectors were written in. **Changing the embedding model on an existing workspace now refuses startup**.
+> * **Backends:** `JsonKVStorage`, `PGKVStorage`, `MongoKVStorage` and `OpenSearchKVStorage`, selected with `LIGHTRAG_CONFIG_STORAGE`. Left unset, it follows `LIGHTRAG_KV_STORAGE`, so most deployments need no new setting. `RedisKVStorage` is not admitted, so Redis deployments default to `JsonKVStorage`, with a startup warning.
+> …
+
 ### [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2)
-<sub>2026-11-21 · yesterday</sub>
+<sub>2026-11-21 · 2d ago</sub>
 
 > **What's Changed**
 > * fix(jina): stop retrying permanent 4xx errors by @Shizoqua in https://github.com/HKUDS/LightRAG/pull/4028
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.5.8rc1](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc1)
-<sub>2026-11-15 · 8d ago</sub>
+<sub>2026-11-15 · 9d ago</sub>
 
 > **Important Notes**
 > > v1.5.8rc1 is a release candidate. Please test it on a copy of your data before upgrading production.
@@ -79,31 +90,20 @@
 > **What's Changed**
 > …
 
-### [v1.5.7rc1](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.7rc1) _(pre-release)_
-<sub>2026-08-17 · 3mo ago</sub>
-
-> **What's New**
-> * Add an offline tool to migrate a graph from Apache AGE to PostgreSQL tables by @ysys143 in https://github.com/HKUDS/LightRAG/pull/3620
-> * feat: support graph-first ingestion with deferred vector indexing by @letsgetai in https://github.com/HKUDS/LightRAG/pull/3473
-> **What's Changed**
-> * fix(kg): return copies from NetworkXStorage get_node and get_edge by @santhreal in https://github.com/HKUDS/LightRAG/pull/3588
-> * fix(operate): compute most common entity type and normalize keywords on rebuild by @santhreal in https://github.com/HKUDS/LightRAG/pull/3589
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #4610 from Sanskar1724/fix-table-split-rowspan](https://github.com/HKUDS/LightRAG/commit/1ac49a0c9725cd87dfa95abb11fd83a909d2eb91) | danielaskdd |
-| 2026-11-23 | [Merge pull request #4620 from danielaskdd/docs/compress-stargazer-images](https://github.com/HKUDS/LightRAG/commit/07a90f5040f38f5c8e0bc62e2d96906fea0e07aa) | danielaskdd |
-| 2026-11-23 | [docs: compress the stargazer affiliation images](https://github.com/HKUDS/LightRAG/commit/6ccc267e1125872b7fd0b4407f87796530c49607) | danielaskdd |
-| 2026-11-23 | [Merge pull request #4619 from HKUDS/codex/readme-color-stargazer-caro…](https://github.com/HKUDS/LightRAG/commit/2a45e44fb7f2df19b916153f5bf6d77254dd4eee) | danielaskdd |
-| 2026-11-23 | [docs: sync the stargazer carousel into the Japanese and Indonesian RE…](https://github.com/HKUDS/LightRAG/commit/a89d2677dc9d69dfc71793418abfd92197ccc5f4) | danielaskdd |
-| 2026-11-23 | [test(chunker): restore the HTML header pipeline test](https://github.com/HKUDS/LightRAG/commit/fde988aecbf6c482376e542f14f08fa671832d75) | danielaskdd |
-| 2026-11-23 | [test(chunker): trim the table-split tests and pin three unpinned bran…](https://github.com/HKUDS/LightRAG/commit/8dccd2c57083b28d40138c4766e7df30bfc5837a) | danielaskdd |
-| 2026-11-23 | [docs: add the color stargazer affiliation carousel](https://github.com/HKUDS/LightRAG/commit/28a4ede97b5ff44311b2a53581cdded313cd8b62) | LarFii |
-| 2026-11-23 | [fix(chunker): read rowspan tables with HTML's tokenizer rules](https://github.com/HKUDS/LightRAG/commit/229fdaa59322673fccf54c56ba7d79e58314332a) | danielaskdd |
-| 2026-11-23 | [fix(chunker): require complete tags inside a rowspan table's cells](https://github.com/HKUDS/LightRAG/commit/c9175075686e517ee5e3ce0bdea41a3cd9717eaf) | danielaskdd |
+| 2026-11-24 | [Merge pull request #4642 from shadowinlife/perf/query-fitter-token-memo](https://github.com/HKUDS/LightRAG/commit/cf82ba9f1e516c5c9ba95a6c5adfb60489e0ce59) | danielaskdd |
+| 2026-11-24 | [Merge pull request #4643 from kabishou11/fix/cross-provider-role-host…](https://github.com/HKUDS/LightRAG/commit/512345ec4bd706ab228c7eab25ade600d3e9f031) | danielaskdd |
+| 2026-11-24 | [Merge pull request #4646 from leninworld/fix/embedding-base64-neo4j-k…](https://github.com/HKUDS/LightRAG/commit/db8cb33a3164835d72d9423f50b72cc4d294940a) | danielaskdd |
+| 2026-11-24 | [test(operate): import the budget helpers from their new module path](https://github.com/HKUDS/LightRAG/commit/43fd41689bd574c765607bd687bb6641036af39a) | danielaskdd |
+| 2026-11-24 | [test: move the Neo4j keep_alive parsing test into its own module](https://github.com/HKUDS/LightRAG/commit/0158c9f1524552b0de3d20745f5cd17df689bac0) | danielaskdd |
+| 2026-11-24 | [fix(api): warn when a cross-provider role falls back to its default host](https://github.com/HKUDS/LightRAG/commit/a2d865a2dd67c535b8bd5073ae2c6dfa0c3c1b66) | danielaskdd |
+| 2026-11-24 | [test(operate): move the total-budget fitter suites to tests/operate](https://github.com/HKUDS/LightRAG/commit/0acdca6610ada2ffdada525ecdf43203def9db34) | danielaskdd |
+| 2026-11-24 | [test(operate): trim the fitter memo tests to the cases that catch a b…](https://github.com/HKUDS/LightRAG/commit/a7ea4e6bd771d1a72816defda29b192109f5d9cf) | danielaskdd |
+| 2026-11-24 | [Bump core version to 1.5.9 and API version to 0356](https://github.com/HKUDS/LightRAG/commit/667a916406b0a62b047fc709d032e3cbba28b8a6) | danielaskdd |
+| 2026-11-24 | [fix: parse EMBEDDING_USE_BASE64 and NEO4J_KEEP_ALIVE with the shared …](https://github.com/HKUDS/LightRAG/commit/3331c8c2ffa3bf1fc1b3c07ba2038a26f6d11c0f) | leninworld |
 
 [See all commits ↗](https://github.com/HKUDS/LightRAG/commits)
 

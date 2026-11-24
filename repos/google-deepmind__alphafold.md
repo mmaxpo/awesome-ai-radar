@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 14.9k |
+| ⭐ **Stars** | 15.0k |
 | 🍴 **Forks** | 3.0k |
 | 🐞 **Open issues + PRs** | [311](https://github.com/google-deepmind/alphafold/issues) |
 | 💻 **Languages** | Python 97% · Shell 2% |

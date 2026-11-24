@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 198.0k |
+| ⭐ **Stars** | 198.2k |
 | 🍴 **Forks** | 15.0k |
-| 🐞 **Open issues + PRs** | [823](https://github.com/microsoft/markitdown/issues) |
+| 🐞 **Open issues + PRs** | [828](https://github.com/microsoft/markitdown/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `langchain` `openai` `autogen-extension` `autogen` `markdown` `microsoft-office` `pdf` |
-| 🕒 **Last activity** | 2026-11-07 (16d ago) |
+| 🕒 **Last activity** | 2026-11-07 (17d ago) |
 | 📅 **Created** | 2024-11-13 |
 | 📦 **Latest release** | [v0.1.9](https://github.com/microsoft/markitdown/releases/tag/v0.1.9) — 2026-10-21 |
 | 🌿 **Default branch** | `main` |

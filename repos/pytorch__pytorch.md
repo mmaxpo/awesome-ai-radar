@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 105.8k |
+| ⭐ **Stars** | 105.7k |
 | 🍴 **Forks** | 30.7k |
-| 🐞 **Open issues + PRs** | [18.5k](https://github.com/pytorch/pytorch/issues) |
+| 🐞 **Open issues + PRs** | [18.6k](https://github.com/pytorch/pytorch/issues) |
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1688.1 MB |
+| 💾 **Size** | 1693.0 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 25d ago</sub>
+<sub>2026-10-28 · 26d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [refactor FSDPTest and FSDPTestMininx to be device-agnostic (#205271)](https://github.com/pytorch/pytorch/commit/fcd0bf3b6fbb83d5e376f7547f5abb07914e0555) | fffrog |
-| 2026-11-23 | [s390x: update tolerance thresholds for test_vjp_grid_sampler_2d_cpu_f…](https://github.com/pytorch/pytorch/commit/a8e58581263b8a27cbfbb7e8752b82eded883334) | AlekseiNikiforovIBM |
-| 2026-11-23 | [[CooR] Register the device_mesh custom ops when DTensor is imported (…](https://github.com/pytorch/pytorch/commit/8389bc9d7fb1a4acbc42d6f34932a8b2828ac627) | bobrenjc93 |
-| 2026-11-23 | [[dynamo] Drop redundant locals and super() calls in DiskDynamoStore/D…](https://github.com/pytorch/pytorch/commit/b956060641ef3790c20bd3008be5f25ab59db34b) | bobrenjc93 |
-| 2026-11-23 | [[dynamo] Factor import-alias installation out of CompilePackage.insta…](https://github.com/pytorch/pytorch/commit/d40e925734ce312465d61a6f063ef94f86df0da8) | bobrenjc93 |
-| 2026-11-23 | [[dynamo] Build the cache entry once in DynamoStore.save_package (#206…](https://github.com/pytorch/pytorch/commit/a133f1ebd0112a3b77d4c529aac81affd2632750) | bobrenjc93 |
-| 2026-11-23 | [[dynamo] PrecompileCacheEntry.from_cache_entry never returns None (#2…](https://github.com/pytorch/pytorch/commit/8a80cb68b856f220aa65631fd3daab0957492734) | bobrenjc93 |
-| 2026-11-23 | [[dynamo] Flatten _lookup_code's code_source walk (#206197)](https://github.com/pytorch/pytorch/commit/42277bbbee4876384659e564e905ce13a9cd2441) | bobrenjc93 |
-| 2026-11-23 | [[cuDNN][conv] Derive max workspace during cuDNN conv autotuning after…](https://github.com/pytorch/pytorch/commit/130edca4ebcad531eb267df71388428f1bb87af4) | eqy |
-| 2026-11-23 | [[dynamo] Use CPython-style arg checks for builtin arity errors (#205749)](https://github.com/pytorch/pytorch/commit/134033073c8d2342daf13e3b4bac833c8a92563a) | guilhermeleobas |
+| 2026-11-24 | [[Stable ABI] Add cpublas shims (#204470)](https://github.com/pytorch/pytorch/commit/304eed355e40bf1a1688ae94ede5ee6d0e16bdbe) | cleonard530 |
+| 2026-11-24 | [[inductor][cutlass] Gate the CUTLASS C++ backend on supported CUDA ar…](https://github.com/pytorch/pytorch/commit/40a3237bbf9de00e0496973f7bd17a223b9de31c) | crcrpar |
+| 2026-11-24 | [[CUDA] Skip garbage collection of cached blocks during graph capture …](https://github.com/pytorch/pytorch/commit/df5fb4949fa9d5656b79aab2839b3ddb467313c2) | kapilsh |
+| 2026-11-24 | [[CUDA] Keep cached segments during graph capture when an allocation f…](https://github.com/pytorch/pytorch/commit/06c79b1e5b4b6a8aa1a62f0b7d9f783c466896c2) | kapilsh |
+| 2026-11-24 | [`F.interpolate`: Add `inter-area` mode on CPU, matching opencv (#205844)](https://github.com/pytorch/pytorch/commit/f29b6d519223d9b95d601b3b08d9145bc34947c1) | NicolasHug |
+| 2026-11-24 | [[MPS] Fix silently wrong depthwise conv2d output for large filters (#…](https://github.com/pytorch/pytorch/commit/a4742da251b6429f96b5a016fdfc893cbb1deb0f) | Isalia20 |
+| 2026-11-24 | [Add WaitCounter instrumentation to CUDA availability checks (#206319)…](https://github.com/pytorch/pytorch/commit/f8be190f31bb148e90804c964a48ac3ccbc4e8a8) | dsesh |
+| 2026-11-24 | [[MPS] Add _scaled_grouped_mm_v2 (#206066)](https://github.com/pytorch/pytorch/commit/1d28e3a704d1d634d240e8fe0566c0c6df975458) | malfet |
+| 2026-11-24 | [[pytorch][typing] Declare pci_bus_id, pci_device_id and pci_domain_id…](https://github.com/pytorch/pytorch/commit/4db54c7ee2e3a048a97ec16fac5a41013578663c) | lovetoburnswhen |
+| 2026-11-24 | [[profiler][cuspy] Use native CUDA event graph node IDs (#206322)](https://github.com/pytorch/pytorch/commit/c9fdc83eb4d3f53c3a3f2356cd8885c111e653ad) | ngimel |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

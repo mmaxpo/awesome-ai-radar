@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 16.4k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [420](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [409](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Also let dependabot update github actions in `/.github/actions/` (#6599)](https://github.com/PyO3/pyo3/commit/f6aeac96014895c0773230e3c23795f7b9b477e1) | bschoenmaeckers |
-| 2026-11-23 | [build(deps): update codspeed-criterion-compat requirement (#6553)](https://github.com/PyO3/pyo3/commit/ddab9f931a014ea3939142274177111fd3645be1) | dependabot[bot] |
-| 2026-11-23 | [build(deps): bump the github-actions group with 2 updates (#6595)](https://github.com/PyO3/pyo3/commit/77598f4562cdf49b941cb9bca2eb95f76b94dc61) | dependabot[bot] |
-| 2026-11-23 | [Add support for `jiff` V1 (#6584)](https://github.com/PyO3/pyo3/commit/172078950af2d89898cc1297f405dacf85593bcf) | bschoenmaeckers |
-| 2026-11-23 | [Introspection: make __new__ return Self (#6384)](https://github.com/PyO3/pyo3/commit/99fafb333f00971b26aa43d5ebe2dbb4ee8229f3) | Tpt |
-| 2026-11-23 | [perf: read abi3 `datetime` fields through the descriptor `tp_descr_ge…](https://github.com/PyO3/pyo3/commit/3acfb9b802129301c0d7011e4775038af15554eb) | alexander-beedie |
-| 2026-11-19 | [docs: add llm-token-visualizer to README examples (#6586)](https://github.com/PyO3/pyo3/commit/be9e428ab7573552c65aa9e7a7a0c6d14b06fd5d) | Mattbusel |
-| 2026-11-19 | [Make `PyFrame` available on `abi3`/`graalpy`/`pypy` (#6589)](https://github.com/PyO3/pyo3/commit/b122a1237643aedf89f16a33a92b6204a498957e) | bschoenmaeckers |
-| 2026-11-19 | [Introspection: add `pyprotocol!` to declare protocols in the stubs (#…](https://github.com/PyO3/pyo3/commit/2432980aa4aa42618e4423c449cc8acab8040cc7) | jonasdedden |
-| 2026-11-17 | [Use `cfg_select` in `OsStr` conversions (#6587)](https://github.com/PyO3/pyo3/commit/a6addae8948adedafd09b2832edf3fa23d282b16) | bschoenmaeckers |
+| 2026-11-24 | [Stubs: do not emit `__str__` and `__repr__` overrides (#6607)](https://github.com/PyO3/pyo3/commit/87868c302bd460098b5b2f4a16f53236f425493f) | Tpt |
+| 2026-11-24 | [fix: jiff ZonedDateTime to datetime and back roundtrip (#6606)](https://github.com/PyO3/pyo3/commit/76d3997a3e6b548f48972bc97ded537de14d09b5) | Ravencentric |
+| 2026-11-24 | [docs: add pygrpc-native to README examples (#6566)](https://github.com/PyO3/pyo3/commit/aa2eb17b75f0fa7a865233635a98d725eca41777) | theminjunchoi |
+| 2026-11-23 | [Use `gh-actions-lock` to lock ci dependencies (#6598) (#6598)](https://github.com/PyO3/pyo3/commit/fdfc9e472b50849fdd87569f03530f87c29b0e80) | bschoenmaeckers |
+| 2026-11-23 | [build(deps-dev): bump the uv-tools group with 4 updates (#6602)](https://github.com/PyO3/pyo3/commit/07cb376a37e66b0c4062dd55c19cb924a8e69871) | dependabot[bot] |
+| 2026-11-23 | [docs: add harper-py to examples (#6548)](https://github.com/PyO3/pyo3/commit/a7772396faf31e1e22ad49a949c8bd28533e36ff) | Maksim-Burtsev |
+| 2026-11-23 | [Implement some missing functions to `PyError` (#6591)](https://github.com/PyO3/pyo3/commit/8ec1796bc634f51790d14ce7fb7829d948a5122e) | clin1234 |
+| 2026-11-23 | [docs: add fin-primitives to README examples (#6585)](https://github.com/PyO3/pyo3/commit/3a4c35c011d1b16be4b6d1a4f3621cef07f9f320) | Mattbusel |
+| 2026-11-23 | [Add support for `parking_lot@0.13` & `lock_api@0.5` (#6600)](https://github.com/PyO3/pyo3/commit/2810ead420c029fe9ac60d705e6cfe7a6f759c06) | bschoenmaeckers |
+| 2026-11-23 | [build(deps): bump the github-actions group across 4 directories with …](https://github.com/PyO3/pyo3/commit/011ade47a3dd471f09fe6ec931fe9d648e8aab00) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

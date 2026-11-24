@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [888](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [825](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 249.7 MB |
+| 💾 **Size** | 250.6 MB |
 | 🌐 **Website** | https://prefect.io |
 
 ## 📦 Recent releases
 
+### [3.9.5.dev4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev4) — 3.9.5.dev4: Nightly Development Release _(pre-release)_
+<sub>2026-11-24 · today</sub>
+
+> **What's Changed**
+> **Enhancements ➕➕**
+> * Document virtual network configuration for ACI flow containers by @himanshuchawla0807-gif in https://github.com/PrefectHQ/prefect/pull/23620
+> * Read V2 state colors from body so color modes apply by @zzstoatzz in https://github.com/PrefectHQ/prefect/pull/23804
+> **Bug Fixes 🐞**
+> * Keep the client transition id on states substituted by rejecting rules by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23977
+> …
+
 ### [3.9.5.dev3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev3) — 3.9.5.dev3: Nightly Development Release _(pre-release)_
-<sub>2026-11-22 · yesterday</sub>
+<sub>2026-11-22 · 2d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -47,7 +58,7 @@
 > …
 
 ### [3.9.5.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev2) — 3.9.5.dev2: Nightly Development Release _(pre-release)_
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -58,7 +69,7 @@
 > …
 
 ### [3.9.5.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev1) — 3.9.5.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > **What's Changed**
 > **Uncategorized**
@@ -68,7 +79,7 @@
 > **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.4...3.9.5.dev1
 
 ### [3.9.4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4) — 3.9.4 - It’s not you, it’s `CTRL_BREAK`
-<sub>2026-11-19 · 3d ago</sub>
+<sub>2026-11-19 · 4d ago</sub>
 
 > **Enhancements ➕➕**
 > * Accept only same-origin paths in the UI v2 login redirect by [@znicholasbrown](https://github.com/znicholasbrown) in [#23980](https://github.com/PrefectHQ/prefect/pull/23980)
@@ -78,31 +89,20 @@
 > * Allow nested `tmpchdir` contexts on the same thread by [@devin-ai-integration](https://github.com/devin-ai-integration) in [#23871](https://github.com/PrefectHQ/prefect/pull/23871)
 > …
 
-### [3.9.4.dev6](https://github.com/PrefectHQ/prefect/releases/tag/3.9.4.dev6) — 3.9.4.dev6: Nightly Development Release _(pre-release)_
-<sub>2026-11-19 · 4d ago</sub>
-
-> **What's Changed**
-> **Enhancements ➕➕**
-> * Accept only same-origin paths in the UI v2 login redirect by @znicholasbrown in https://github.com/PrefectHQ/prefect/pull/23980
-> **Bug Fixes 🐞**
-> * Strip credentials from repository URL in `GitRepository` clone debug log by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23969
-> * fix(prefect-redis): keep unprocessed entries when trimming streams by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23965
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Update prefect-kubernetes integration pin (#24070)](https://github.com/PrefectHQ/prefect/commit/f89e93e21714fea40ca44057af99d4014808293e) | prefect-ci-bot-public[bot] |
-| 2026-11-23 | [Sweep stale integration pins in uv.lock (#24058)](https://github.com/PrefectHQ/prefect/commit/5dbcb7b418eac4edc4df2f067a074f49b1386303) | prefect-ci-bot-public[bot] |
-| 2026-11-23 | [Stop Escape from opening the flow run graph in fullscreen (#24046)](https://github.com/PrefectHQ/prefect/commit/ba4c3897e6e9f0f200402b6557c659732050c374) | burrows99 |
-| 2026-11-23 | [docs: Add release notes for `prefect-kubernetes==0.8.2` (#24068)](https://github.com/PrefectHQ/prefect/commit/d4abc8d71586831207093a73eddc73671d1513c0) | devin-ai-integration[bot] |
-| 2026-11-23 | [Only initialize Amplitude in UI v2 when server analytics are enabled …](https://github.com/PrefectHQ/prefect/commit/4cabb0d2924b4710ca6e7b679c94ae133882c1e3) | devin-ai-integration[bot] |
-| 2026-11-22 | [Aggregate nested collections of states when determining the final sta…](https://github.com/PrefectHQ/prefect/commit/b055980caf24955eebcb51fe6c9088522f48208a) | Nacl-HCl |
-| 2026-11-21 | [docs: document safe redirect search params in routes AGENTS.md (#23983)](https://github.com/PrefectHQ/prefect/commit/dfc66c657dc1181ef701e4606a0fff5718c457d5) | devin-ai-integration[bot] |
-| 2026-11-21 | [Reject `--param` and `--job-variable` values without `=` in `prefect …](https://github.com/PrefectHQ/prefect/commit/d29e3536b2aef90cac26d32d1e78e65cc289dff1) | harshit3355 |
-| 2026-11-21 | [docs: document legacy prefect-agent pool handling in CLI AGENTS.md (#…](https://github.com/PrefectHQ/prefect/commit/7e6e8d84d1972f442171050a4aa9b77385db8d7a) | devin-ai-integration[bot] |
-| 2026-11-20 | [Support non-root users in the official Docker image (#24027)](https://github.com/PrefectHQ/prefect/commit/5513abc4df1f20a02bb810849477b64c989c3160) | devin-ai-integration[bot] |
+| 2026-11-24 | [Resolve API route dependencies on the event loop (#23279)](https://github.com/PrefectHQ/prefect/commit/cca7dea1f0aec1e692876d435ea03a2bc0e60683) | fatih-acar |
+| 2026-11-24 | [Stop the async flow engine from blocking its event loop on the suspen…](https://github.com/PrefectHQ/prefect/commit/8222fd5abead575651beb17b044f2f8b82b00307) | fatih-acar |
+| 2026-11-24 | [Add more TagBadgeGroup regression tests for a counter wider than the …](https://github.com/PrefectHQ/prefect/commit/97915452decd5b53b038cdf0e429109343370f9d) | devin-ai-integration[bot] |
+| 2026-11-24 | [Show every tag inline when the last tag is narrower than the overflow…](https://github.com/PrefectHQ/prefect/commit/974398cd9ca0e80cdc999a9d192e42d59baa7c81) | burrows99 |
+| 2026-11-23 | [Fix flaky artifacts empty-state and concurrency limits E2E tests (#23…](https://github.com/PrefectHQ/prefect/commit/fa6656b3db12c30df981bd7e127b7ef699fd373e) | devin-ai-integration[bot] |
+| 2026-11-23 | [Read V2 state colors from body so color modes apply (#23804)](https://github.com/PrefectHQ/prefect/commit/43c6326033b02215974f033145b2136b9108f99d) | zzstoatzz |
+| 2026-11-23 | [Show which worker wrote a self-hosted flow run log (#24022)](https://github.com/PrefectHQ/prefect/commit/ab123ef1bfc056afa9dbb3c18f6ccc67ccdb44ac) | devin-ai-integration[bot] |
+| 2026-11-23 | [Reject negative tag-based concurrency limits (#24041)](https://github.com/PrefectHQ/prefect/commit/ff5fe2609077911a3783840ae90ef536fe9fa0b9) | DanShinde |
+| 2026-11-23 | [docs: note that RRule schedules reject INTERVAL=0 on create/update (#…](https://github.com/PrefectHQ/prefect/commit/83ecbbfa6ed809e1b4bc0ebe6d0d5aa946147079) | devin-ai-integration[bot] |
+| 2026-11-23 | [Trim redundant test matrices and fix v1 concurrency mock test (#24074)](https://github.com/PrefectHQ/prefect/commit/66f90d41f581f1303b776307c4cb78d54409af35) | devin-ai-integration[bot] |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

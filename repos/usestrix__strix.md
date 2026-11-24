@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 77.2k |
+| ⭐ **Stars** | 77.4k |
 | 🍴 **Forks** | 8.8k |
-| 🐞 **Open issues + PRs** | [625](https://github.com/usestrix/strix/issues) |
-| 💻 **Languages** | Python 78% · Go 11% · TypeScript 8% · Jinja 1% |
+| 🐞 **Open issues + PRs** | [626](https://github.com/usestrix/strix/issues) |
+| 💻 **Languages** | Python 79% · Go 11% · TypeScript 8% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agents` `artificial-intelligence` `cybersecurity` `penetration-testing` `ai-penetration-testing` `ai-pentesting` `ai-security` `bug-bounty` `ctf-tools` `cybersecurity-tools` `ethical-hacking` `llm-security` `offensive-security` `pentesting-tools` `red-teaming` `security-automation` `security` `code-quality` `ai-hacking` `hacking` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-08-05 |
 | 📦 **Latest release** | [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1)
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **What's Changed**
 > * Stop the run after finish_pr_review by @ian-at-strix in https://github.com/usestrix/strix/pull/1451
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [Remove comment about 'started_at' time](https://github.com/usestrix/strix/commit/00912af5d179fda5e52961421f9061240a43676c) | ian-at-strix |
-| 2026-11-22 | [feat(runner): the root context records when the root started](https://github.com/usestrix/strix/commit/a60c8b5ff8f871ba8ffdd482b235ccae1a8b8961) | ian-at-strix |
-| 2026-11-19 | [refactor(prompts): delegate patch work by task, not agent type](https://github.com/usestrix/strix/commit/a1ccf777d80e812edf23fc8b82bdc17def6143ac) | 0xallam |
-| 2026-11-19 | [fix(skills): preserve workflow outcomes and review the delivered patch](https://github.com/usestrix/strix/commit/cce68922784af5def973cdd0d17e92239df89779) | 0xallam |
-| 2026-11-19 | [feat(skills): the finding is filed first and the fix agent attaches t…](https://github.com/usestrix/strix/commit/b1dfe05974936f5b4868c392f1bbad52d9de6608) | 0xallam |
-| 2026-11-19 | [docs(skills): keep the withholding conditions in one list](https://github.com/usestrix/strix/commit/d560ec418d22955df7a46b75cd6bc619d864bde9) | 0xallam |
-| 2026-11-19 | [docs(skills): keep the withholding conditions in one list](https://github.com/usestrix/strix/commit/d843c23c48ed7b8913b82419bbeae7a99e0c3db4) | 0xallam |
-| 2026-11-19 | [fix(skills): the fix agent hands the reviewer the text it intends to …](https://github.com/usestrix/strix/commit/23558cd6b446c6ae4dc1b80daefa80c3c67497d1) | devin-ai-integration[bot] |
-| 2026-11-19 | [fix(skills): the reviewer accepts a disclosed partial fix when the op…](https://github.com/usestrix/strix/commit/b68ab5dbeda69a79f983e19f8638cdee67490fec) | devin-ai-integration[bot] |
-| 2026-11-19 | [fix(prompts): the white-box delegation rules name the fix agent as th…](https://github.com/usestrix/strix/commit/bc68109b71c193308f485fe6912ef1eebd34d2ec) | devin-ai-integration[bot] |
+| 2026-11-24 | [Judge input typed into a shell on what is typed](https://github.com/usestrix/strix/commit/935f82350782cdf15d70cbcb3e6d7e48f49071c2) | yoni-at-strix |
+| 2026-11-24 | [Save each test object's details and the agent that made it in the export](https://github.com/usestrix/strix/commit/30cceb56a58aef122a054892759a68de16c47113) | yoni-at-strix |
+| 2026-11-24 | [Keep only the opening command for each shell session](https://github.com/usestrix/strix/commit/7006745a02b3c7a125bc7ebed75cdc2270174898) | yoni-at-strix |
+| 2026-11-24 | [Append one row to test_objects.csv per registered object](https://github.com/usestrix/strix/commit/ccef1bb83476a4329a3a226c1c4bde137139424d) | yoni-at-strix |
+| 2026-11-24 | [Write the test-object registry as test_objects.csv beside the report](https://github.com/usestrix/strix/commit/c2fd0d7f9ca80f5a78bf7d4727a3f41fdfd32e4a) | yoni-at-strix |
+| 2026-11-24 | [Keep a refusal after the deadline, never clear a request body that wa…](https://github.com/usestrix/strix/commit/6ed21629b0b3c291f5c865a5a8e280ff74392cc9) | yoni-at-strix |
+| 2026-11-24 | [Check shell input against the engine's own session record, find the i…](https://github.com/usestrix/strix/commit/b24fddc7aca95f53b60443d2746e5700b909cc36) | yoni-at-strix |
+| 2026-11-24 | [Tell the terminal prompt when its copy of an action was cut](https://github.com/usestrix/strix/commit/6b79bbedeef9a350af733d2c40c6cde8f250f39b) | yoni-at-strix |
+| 2026-11-24 | [Show the whole action in the terminal approval prompt and keep approv…](https://github.com/usestrix/strix/commit/cee348bb167b913bef6b21a21ab6c32e553405bd) | yoni-at-strix |
+| 2026-11-24 | [Offer the action check every file a command names, bind shell session…](https://github.com/usestrix/strix/commit/70e638a34a284868c2e8f03732e79bf6212f434a) | yoni-at-strix |
 
 [See all commits ↗](https://github.com/usestrix/strix/commits)
 

@@ -20,63 +20,69 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 65.3k |
+| ⭐ **Stars** | 65.4k |
 | 🍴 **Forks** | 3.3k |
-| 🐞 **Open issues + PRs** | [54](https://github.com/upstash/context7/issues) |
+| 🐞 **Open issues + PRs** | [60](https://github.com/upstash/context7/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llm` `mcp` `mcp-server` `vibe-coding` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-03-26 |
-| 📦 **Latest release** | [mcpb-v4.7.3](https://github.com/upstash/context7/releases/tag/mcpb-v4.7.3) — 2026-11-17 |
+| 📦 **Latest release** | [mcpb-v4.8.0](https://github.com/upstash/context7/releases/tag/mcpb-v4.8.0) — 2026-11-24 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 50.8 MB |
+| 💾 **Size** | 50.9 MB |
 | 🌐 **Website** | https://context7.com |
 
 ## 📦 Recent releases
 
+### [mcpb-v4.8.0](https://github.com/upstash/context7/releases/tag/mcpb-v4.8.0) — context7.mcpb 4.8.0
+<sub>2026-11-24 · today</sub>
+
+> MCP Bundle for [@upstash/context7-mcp@4.8.0](https://github.com/upstash/context7/releases/tag/%40upstash%2Fcontext7-mcp%404.8.0)
+
+### [@upstash/context7-pi@0.2.0](https://github.com/upstash/context7/releases/tag/%40upstash/context7-pi%400.2.0)
+<sub>2026-11-24 · today</sub>
+
+> **Minor Changes**
+> - 32dccfd: Agents pass the version a project uses as its own value, not as a suffix of the library ID. `query-docs` (MCP and pi) takes a `version` input and `ctx7 docs` a `--tag` option, sent to `/v2/context` as `version`; Context7 serves that version or the closest one it has. `resolve-library-id` no longer lists versions.
+
+### [@upstash/context7-mcp@4.8.0](https://github.com/upstash/context7/releases/tag/%40upstash/context7-mcp%404.8.0)
+<sub>2026-11-24 · today</sub>
+
+> **Minor Changes**
+> - 3e98f32: Serve the context7-mcp skill through the MCP skills extension (SEP-2640).
+> - 32dccfd: Agents pass the version a project uses as its own value, not as a suffix of the library ID. `query-docs` (MCP and pi) takes a `version` input and `ctx7 docs` a `--tag` option, sent to `/v2/context` as `version`; Context7 serves that version or the closest one it has. `resolve-library-id` no longer lists versions.
+
+### [ctx7@0.13.0](https://github.com/upstash/context7/releases/tag/ctx7%400.13.0)
+<sub>2026-11-24 · today</sub>
+
+> **Minor Changes**
+> - 32dccfd: Agents pass the version a project uses as its own value, not as a suffix of the library ID. `query-docs` (MCP and pi) takes a `version` input and `ctx7 docs` a `--tag` option, sent to `/v2/context` as `version`; Context7 serves that version or the closest one it has. `resolve-library-id` no longer lists versions.
+> - 11cb18d: Add `--vscode-insiders` to `ctx7 setup` and `ctx7 remove`. Global setup now writes to the VS Code Insiders user folder, and you can combine it with `--vscode` in one command. The setup picker and auto-detection do not list VS Code Insiders, so use the flag.
+>   `ctx7 remove` no longer deletes a skill from a shared skills folder (such as `~/.agents/skills`) while another agent still uses it.
+> **Patch Changes**
+> - 88beb24: `ctx7 setup` also continues with OAuth when the browser login is refused an API key by the teamspace's policy, instead of ending with "Authorization denied".
+> …
+
 ### [mcpb-v4.7.3](https://github.com/upstash/context7/releases/tag/mcpb-v4.7.3) — context7.mcpb 4.7.3
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > MCP Bundle for [@upstash/context7-mcp@4.7.3](https://github.com/upstash/context7/releases/tag/%40upstash%2Fcontext7-mcp%404.7.3)
-
-### [@upstash/context7-opencode@0.2.2](https://github.com/upstash/context7/releases/tag/%40upstash/context7-opencode%400.2.2)
-<sub>2026-11-17 · 6d ago</sub>
-
-> **Patch Changes**
-> - 7fe6e09: The rules and skills that `ctx7 setup` and the plugins install are back to their text from before the source code and upgrade guide tools: no `query-code`, `ctx7 code` or `get-upgrade-guide` guidance. The MCP server describes its experimental tools only to users who turned them on.
-
-### [@upstash/context7-mcp@4.7.3](https://github.com/upstash/context7/releases/tag/%40upstash/context7-mcp%404.7.3)
-<sub>2026-11-17 · 6d ago</sub>
-
-> **Patch Changes**
-> - 159156f: Replace the experimental `query-code` tool with `grep-code`, `glob-code`, `read-code` and `find-symbol`. `query-code` is removed; a dashboard choice that turned it on now turns on the new tools. They take the parameters of the Grep, Glob and Read tools that coding agents have, so agents search the library instead of the local project.
-
-### [ctx7@0.12.2](https://github.com/upstash/context7/releases/tag/ctx7%400.12.2)
-<sub>2026-11-17 · 6d ago</sub>
-
-> **Patch Changes**
-> - 7fe6e09: The rules and skills that `ctx7 setup` and the plugins install are back to their text from before the source code and upgrade guide tools: no `query-code`, `ctx7 code` or `get-upgrade-guide` guidance. The MCP server describes its experimental tools only to users who turned them on.
-
-### [mcpb-v4.7.2](https://github.com/upstash/context7/releases/tag/mcpb-v4.7.2) — context7.mcpb 4.7.2
-<sub>2026-11-17 · 6d ago</sub>
-
-> MCP Bundle for [@upstash/context7-mcp@4.7.2](https://github.com/upstash/context7/releases/tag/%40upstash%2Fcontext7-mcp%404.7.2)
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [CTX7-4056: Document SCIM provisioning with Microsoft Entra ID (#3924)](https://github.com/upstash/context7/commit/be7f5c3075dde929a59f130a5b6e2d33926ab027) | fahreddinozcan |
+| 2026-11-24 | [CTX7-4063: Show framed screenshots at the column width (#3930)](https://github.com/upstash/context7/commit/2c1e8641a99d344a2a016e9aaf4c5c1f4c5c6744) | fahreddinozcan |
+| 2026-11-24 | [chore(release): version packages (#3886)](https://github.com/upstash/context7/commit/e67df84541654e9afab0c44556891d3cc3bbb971) | github-actions[bot] |
+| 2026-11-24 | [CTX7-4060: Switch setup to OAuth when the device login is refused an …](https://github.com/upstash/context7/commit/88beb243f7042bb2a2129c9b81498720d909bde2) | fahreddinozcan |
+| 2026-11-24 | [CTX7-4058: Add the 2.0.3 on-prem changelog (#3928)](https://github.com/upstash/context7/commit/9169e8b29fd744758e1fe2d3a2e826177b61b7a9) | fahreddinozcan |
+| 2026-11-24 | [CTX7-3901: Document OAuth sign-in for on-prem MCP clients and write k…](https://github.com/upstash/context7/commit/2f472ff9f3dbed77403b34766effa24e0f62de90) | fahreddinozcan |
+| 2026-11-24 | [CTX7-4006: Switch setup to OAuth when the teamspace refuses API keys …](https://github.com/upstash/context7/commit/82b851fcfeefd7f9a2c4fb0e1e3c598270dae522) | fahreddinozcan |
+| 2026-11-24 | [CTX7-4050: Add a guide for putting Context7 behind your own MCP gatew…](https://github.com/upstash/context7/commit/eebfe62a41dda3e1a591d098d061a59334a48af0) | fahreddinozcan |
 | 2026-11-23 | [CTX7-3978: Support VS Code Insiders in ctx7 setup (#3878)](https://github.com/upstash/context7/commit/11cb18d81c93bffe6c9c662ec7cb605f34ea6946) | fahreddinozcan |
 | 2026-11-23 | [CTX7-4022: Tighten the Azure DevOps on-prem docs and add screenshots …](https://github.com/upstash/context7/commit/d648d80cf7484e7d0107892253a6a9b30d04d1e2) | fahreddinozcan |
-| 2026-11-23 | [docs: note that code requests are free while source search is off (#3…](https://github.com/upstash/context7/commit/0efe049badfc6f6fe2d04edd16b1306ff5b0cf47) | context7[bot] |
-| 2026-11-20 | [CTX7-4003: Document the Azure DevOps integration for Enterprise (#3888)](https://github.com/upstash/context7/commit/b1e3611e32a8b1369ae526cacdf335ddfd6e5fbb) | fahreddinozcan |
-| 2026-11-20 | [docs: document code search 503 busy response (#3879)](https://github.com/upstash/context7/commit/9782e8e251a8d1aeaf2eae045ff3a15524383df8) | context7[bot] |
-| 2026-11-20 | [docs: document the MCP experimental tools off switch (#3880)](https://github.com/upstash/context7/commit/e6f38f7bfa213dcd1e6001793c1250a7edfd704d) | context7[bot] |
-| 2026-11-20 | [docs: document private repository ownership check (#3876)](https://github.com/upstash/context7/commit/b051c8a106c5d41e5af06c22182debda296e1f67) | context7[bot] |
-| 2026-11-20 | [CTX7-3616: Pass the library version as its own input; resolve-library…](https://github.com/upstash/context7/commit/32dccfd687e29a37919e44bcca85487b3e356590) | enesgules |
-| 2026-11-20 | [CTX7-3589: Serve context7-mcp skill over MCP skills extension (#3656)](https://github.com/upstash/context7/commit/3e98f32b6b1fbe34cba68f92a3723259db7f21c8) | enesgules |
-| 2026-11-20 | [CTX7-3977: Strip terminal control characters from CLI API content (#3…](https://github.com/upstash/context7/commit/7b681396dd3a9eae6eb746027654ee6348fbe71a) | enesgules |
 
 [See all commits ↗](https://github.com/upstash/context7/commits)
 

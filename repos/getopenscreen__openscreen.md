@@ -20,23 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 7.9k |
-| 🍴 **Forks** | 528 |
-| 🐞 **Open issues + PRs** | [63](https://github.com/getopenscreen/openscreen/issues) |
+| ⭐ **Stars** | 8.0k |
+| 🍴 **Forks** | 535 |
+| 🐞 **Open issues + PRs** | [76](https://github.com/getopenscreen/openscreen/issues) |
 | 💻 **Languages** | TypeScript 49% · Rust 20% · HTML 13% · MDX 6% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `electron` `open-source` `screen-capture` `screen-recorder` `cross-platform` `ffmpeg` `product-demo` `rust` `screen-recording` `screen-studio` `screencast` `speech-to-text` `typescript` `video-editing` `video-editor` `wayland` `wgpu` `whisper` |
 | 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2026-03-14 |
-| 📦 **Latest release** | [v2.3.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0) — 2026-11-17 |
+| 📦 **Latest release** | [v2.4.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 284.2 MB |
+| 💾 **Size** | 284.4 MB |
 | 🌐 **Website** | https://getopenscreen.com/ |
 
 ## 📦 Recent releases
 
+### [v2.4.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0)
+<sub>2026-11-23 · today</sub>
+
+> If OpenScreen saves you time, a star on the repo helps others find it.
+> **What's Changed**
+> * fix(linux): record through a version 1 ScreenCast portal by @EtienneLescot in https://github.com/getopenscreen/openscreen/pull/1538
+> * feat(timeline): show each speed region's output duration by @EtienneLescot in https://github.com/getopenscreen/openscreen/pull/1557
+> * feat(editor): add pixel X / Y / Width / Height fields to the crop by @0xmyst3ry in https://github.com/getopenscreen/openscreen/pull/1389
+> * docs(testing): log the v2.3.0-rc.1 e2e passes on Windows, macOS and Linux by @EtienneLescot in https://github.com/getopenscreen/openscreen/pull/1565
+> …
+
+### [v2.4.0-rc.1](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0-rc.1) _(pre-release)_
+<sub>2026-11-23 · today</sub>
+
+> **Changes since v2.3.0**
+> - fix(linux): record through a version 1 ScreenCast portal
+> - fix(linux): take the v1 path on an empty cursor-mode mask
+> - feat(timeline): show each speed region's output duration on its pill
+> - fix(timeline): show a speed pill's full label on hover when it is cut off
+> - feat(editor): add pixel X / Y / Width / Height fields to the crop
+> …
+
 ### [v2.3.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0)
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > <p align="center">
 >   <img src="https://raw.githubusercontent.com/getopenscreen/openscreen/v2.3.0/public/openscreen.png" alt="OpenScreen" width="64" />
@@ -47,7 +69,7 @@
 > …
 
 ### [v2.3.0-rc.7](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.7) _(pre-release)_
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **Changes since v2.3.0-rc.6**
 > - fix(preview): keep scrubs playing while a new source loads
@@ -55,7 +77,7 @@
 > **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.3.0-rc.6...v2.3.0-rc.7
 
 ### [v2.3.0-rc.6](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.6) _(pre-release)_
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **Changes since v2.3.0-rc.5**
 > - fix(recording): drop a saved display whose stable id is gone
@@ -65,29 +87,11 @@
 > - fix(updater): close idle macOS MCP sessions before installing
 > …
 
-### [v2.3.0-rc.5](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.5) _(pre-release)_
-<sub>2026-11-16 · 7d ago</sub>
-
-> **Changes since v2.3.0-rc.4**
-> - fix(export): keep the permissions of the file an MP4 or GIF export replaces
-> - fix(export): set a replaced export's mode through the staged file's handle
-> **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.3.0-rc.4...v2.3.0-rc.5
-
-### [v2.3.0-rc.4](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.4) _(pre-release)_
-<sub>2026-11-15 · 7d ago</sub>
-
-> **Changes since v2.3.0-rc.3**
-> - fix(export): keep the existing file when an export write fails
-> - fix(export): stage an export write under a short name
-> - fix(export): keep the permissions of the file an export replaces
-> - fix(recording): a dismissed picker cancels the start and never leaves the webcam recording
-> - fix(recording): keep a portal cancel that arrives with ready, before the wait
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [chore(release): release v2.4.0 into main](https://github.com/getopenscreen/openscreen/commit/2b65ea937184de88b6c2a0ccf6e54400c950b10e) | github-actions[bot] |
 | 2026-11-23 | [fix(linux): prevent Wayland HUD clipping at larger text scales](https://github.com/getopenscreen/openscreen/commit/20abd8c8542e8ed1bd655012e607f9a27b082737) | IdrisGit |
 | 2026-11-23 | [fix(cli): write a whole chunk before acknowledging it](https://github.com/getopenscreen/openscreen/commit/e10f02bdf01b7a766e971e9dbefa21a6fa3db150) | EtienneLescot |
 | 2026-11-23 | [fix(cli): give each export its own partial file, and remove it when t…](https://github.com/getopenscreen/openscreen/commit/706317dee1ab518eeb10a1f27a1a714937da3216) | EtienneLescot |
@@ -97,7 +101,6 @@
 | 2026-11-23 | [fix(capture): close an open pause before a Linux take's stopped snapshot](https://github.com/getopenscreen/openscreen/commit/5cdf47c049aca68dc1a1e49838d8862d2a895012) | EtienneLescot |
 | 2026-11-23 | [fix(stt): give up on a Whisper model download that stops receiving data](https://github.com/getopenscreen/openscreen/commit/73058deb2c8f6e4b2666fff0b99935463332e147) | EtienneLescot |
 | 2026-11-23 | [docs(effects): say how to go on when an effect's image cannot be read…](https://github.com/getopenscreen/openscreen/commit/254e8585092ffec33148ee70aae1e15b73e24007) | EtienneLescot |
-| 2026-11-23 | [fix(media): size an image by a decoded frame only, never by its heade…](https://github.com/getopenscreen/openscreen/commit/647a2b4d429e6415d166d037483f378cd8adc3c3) | EtienneLescot |
 
 [See all commits ↗](https://github.com/getopenscreen/openscreen/commits)
 

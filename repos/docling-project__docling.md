@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 70.9k |
+| ⭐ **Stars** | 71.0k |
 | 🍴 **Forks** | 5.4k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/docling-project/docling/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `convert` `documents` `pdf` `tables` `document-parser` `document-parsing` `docx` `html` `markdown` `pdf-converter` `pdf-to-json` `pdf-to-text` `pptx` `xlsx` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2024-07-09 |
 | 📦 **Latest release** | [v2.152.0](https://github.com/docling-project/docling/releases/tag/v2.152.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 472.1 MB |
+| 💾 **Size** | 478.3 MB |
 | 🌐 **Website** | https://docling-project.github.io/docling |
 
 ## 📦 Recent releases
 
 ### [v2.152.0](https://github.com/docling-project/docling/releases/tag/v2.152.0)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Feature**
 > * **pdf:** Cancel queued PDF parsing when conversions stop ([#5456](https://github.com/docling-project/docling/issues/5456)) ([`4c0a96d`](https://github.com/docling-project/docling/commit/4c0a96de53af1032a2f2ac0375fdd7f844672349))
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.151.1](https://github.com/docling-project/docling/releases/tag/v2.151.1)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **Fix**
 > * **service-client:** Keep the WebSocket poll fallback within the original timeout ([#5121](https://github.com/docling-project/docling/issues/5121)) ([`f9249e5`](https://github.com/docling-project/docling/commit/f9249e5067d7dacc01bd9a55abf5eb945b3861d0))
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.151.0](https://github.com/docling-project/docling/releases/tag/v2.151.0)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **Feature**
 > * **pptx:** Read waterfall, treemap and the other Office 2016 charts ([#5371](https://github.com/docling-project/docling/issues/5371)) ([`440492a`](https://github.com/docling-project/docling/commit/440492ac0d0e14952b32dda28fede7495611c899))
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.150.1](https://github.com/docling-project/docling/releases/tag/v2.150.1)
-<sub>2026-11-14 · 9d ago</sub>
+<sub>2026-11-14 · 10d ago</sub>
 
 > **Fix**
 > * **cli:** Omit from_formats in convert-remote unless --from is set ([#5346](https://github.com/docling-project/docling/issues/5346)) ([`ebc50e3`](https://github.com/docling-project/docling/commit/ebc50e35057462c39771f28ca1d5c593e20a70c3))
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.150.0](https://github.com/docling-project/docling/releases/tag/v2.150.0)
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **Feature**
 > * **xbrl:** Support iXBRL input and remote taxonomy resolution with source_uri ([#4689](https://github.com/docling-project/docling/issues/4689)) ([`43c016c`](https://github.com/docling-project/docling/commit/43c016caedf076b3016fe6cdd4ec4d2b53b5acc1))
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [chore: bump version to 2.152.0 [skip ci]](https://github.com/docling-project/docling/commit/311b68352d072d32831f39bd82b1804f1486e2c0) | github-actions[bot] |
-| 2026-11-23 | [test: update the PowerPoint renderer dependency guard (#5540)](https://github.com/docling-project/docling/commit/07a26f2ee3c7bd978539de67b178c97a9c43d26b) | PeterStaar-IBM |
-| 2026-11-23 | [feat(pdf): cancel queued PDF parsing when conversions stop (#5456)](https://github.com/docling-project/docling/commit/4c0a96de53af1032a2f2ac0375fdd7f844672349) | PeterStaar-IBM |
-| 2026-11-23 | [feat(service): let the server choose the default pipeline (#4875)](https://github.com/docling-project/docling/commit/adfdff3426692a736145c3a3e0ac4fc837615d1e) | tim-roethig |
-| 2026-11-23 | [fix(pdfium): keep words beside a tall cell and right-to-left runs apa…](https://github.com/docling-project/docling/commit/41dbb0c73c2c1335a0858990949501a4259619e5) | cau-git |
-| 2026-11-23 | [fix(epub): find a package document stored with a literal percent sign…](https://github.com/docling-project/docling/commit/0cf0f8a1d507d5f202c5879df14337ea3bab5159) | cau-git |
-| 2026-11-23 | [fix(jats): treat xref/@rid as optional and as IDREFS (#4381)](https://github.com/docling-project/docling/commit/6504fe0feef5106f35ceb72a7bd618177b08fba0) | chrikrah |
-| 2026-11-23 | [fix: serialize PDFium rendering in Office backends (#5377)](https://github.com/docling-project/docling/commit/62ff440a1f0b6608a965b717c5538a8e8e034288) | xixi-box |
-| 2026-11-23 | [fix(md): preserve inline HTML line breaks (#5275)](https://github.com/docling-project/docling/commit/d416bd1f78679c35321c7d008641f7f2312cd5bd) | enigma49 |
-| 2026-11-23 | [fix(csv): keep fields larger than the default csv limit (#5253)](https://github.com/docling-project/docling/commit/1fb40fb41b1b980c4d0236385b06897fa2d91b60) | Viranshul-P |
+| 2026-11-24 | [perf(table-structure): skip the TableFormer decode for a table that h…](https://github.com/docling-project/docling/commit/22b80a43d1baf8f7d51ae9b690e33b917a983ff4) | galer1us |
+| 2026-11-24 | [fix(email): join the soft line breaks of format=flowed text (#5500)](https://github.com/docling-project/docling/commit/240f4606159d599e3dd04d816d26ff2ca6797ddf) | gagan-baghel |
+| 2026-11-24 | [fix(pdf): report missing pages in the native pipeline (#5554)](https://github.com/docling-project/docling/commit/942df62435bbeb9e6db3de571366ab16332e029c) | xixi-box |
+| 2026-11-24 | [feat(pdf): expose docling-parse do_char_normalization in PdfBackendOp…](https://github.com/docling-project/docling/commit/3f95a7cb6ff1f1841315c4b2a2dad6d63ae8a693) | galer1us |
+| 2026-11-24 | [fix(calendar): do not describe days that BYMONTHDAY limits as every s…](https://github.com/docling-project/docling/commit/f969d7952482c700baad62b46cba7d5531c63578) | leninworld |
+| 2026-11-24 | [fix(reading-order): compare merge candidates with the chain's tail (#…](https://github.com/docling-project/docling/commit/d615996c6064f17cd42843eabdb3d511b04b12b0) | nicdeluc |
+| 2026-11-24 | [fix(calendar): keep the end when the start cannot be read (#5553)](https://github.com/docling-project/docling/commit/f170d86766f66ba5dc8d654ae76d6ea63b342e56) | hktitof |
+| 2026-11-24 | [fix(html): keep the content of a details tag inside its table cell (#…](https://github.com/docling-project/docling/commit/7885a9c43d58f9f2c229ace102d642252794e599) | shlokbam |
+| 2026-11-24 | [fix(latex): drop the empty row after the last table row (#5504)](https://github.com/docling-project/docling/commit/9605134f5f3defddf1b2dd1e4b39f8c854154b3b) | chuenchen309 |
+| 2026-11-24 | [docs: describe PictureDescriptionApiOptions.params as JSON body field…](https://github.com/docling-project/docling/commit/730366ebe3e71faafc644dac4f7577bb3b612f8d) | thejesh23 |
 
 [See all commits ↗](https://github.com/docling-project/docling/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 68.5k |
+| ⭐ **Stars** | 68.6k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [348](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🐞 **Open issues + PRs** | [335](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
-| 🕒 **Last activity** | 2026-11-21 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — AnythingLLM v1.20.0
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **Updated browser extension**
 > The [browser extension](https://github.com/Mintplex-Labs/anythingllm-extension) has been improved beyond its original function of just collecting documents to now a full fledged UI chat bar with the ability to right click -> Add context (text and image) and chat directly  in Chrome. This sidebar should have mostly full parity for tooling and more with the traditional chat UI.
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — AnythingLLM v1.19.0
-<sub>2026-10-26 · 27d ago</sub>
+<sub>2026-10-26 · 28d ago</sub>
 
 > **Built-in LLM for Docker**
 > <img width="3680" height="2212" alt="AnythingLLM Docker built-in LLM powered by Lemonade and llama.cpp" src="https://github.com/user-attachments/assets/410b5784-ca15-4027-a1c4-056d9d5c748e" />
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [fix: expand system prompt variables written inside other braces (#7331)](https://github.com/Mintplex-Labs/anything-llm/commit/593c0943facbe0a5e1cfac2d7616f15707a9317a) | MohammadHijjawi97 |
+| 2026-11-23 | [fix: use HTML file input for document uploads (#7309)](https://github.com/Mintplex-Labs/anything-llm/commit/92175f438fb577156c6f96ed561efa29494f0c28) | Pamalric |
+| 2026-11-23 | [fix: import Paperless-ngx documents that have no original file name (…](https://github.com/Mintplex-Labs/anything-llm/commit/c5d53913eb10ec985692175e04b3ea88f02ffcc3) | Israel-Kli |
+| 2026-11-23 | [fix: accept postgres:// connection strings for PGVector (#7313)](https://github.com/Mintplex-Labs/anything-llm/commit/3e0d8a7ce70bf3e493693136ce4a86fb10d7725d) | MohammadHijjawi97 |
+| 2026-11-23 | [chore: update Gemini fallback model to gemini-3.1-flash-lite (#7329)](https://github.com/Mintplex-Labs/anything-llm/commit/d3b4fabf4e46fcf156392e8d1444194b95b8a437) | timothycarambat |
+| 2026-11-23 | [fix: Pin encoding_format to float in Generic OpenAI embedder (#7319)](https://github.com/Mintplex-Labs/anything-llm/commit/b03ebe3f1599330c5cd191c3ea97a033943930bc) | Bensonbenyi |
+| 2026-11-23 | [fix: expand multi-stage plugins in ephemeral agent toolOverrides (#7321)](https://github.com/Mintplex-Labs/anything-llm/commit/65a1f64400546f5344e7be1eedd0286cee043099) | Max-Reisinger |
+| 2026-11-23 | [fix(i18n): replace unrelated Japanese chat toolbar strings (#7327)](https://github.com/Mintplex-Labs/anything-llm/commit/7690af123a87442669c9148c1543744051e905c9) | AyhamJo7 |
+| 2026-11-23 | [fix: Ensure LanceDB rerank fetches at least topN candidates before re…](https://github.com/Mintplex-Labs/anything-llm/commit/bd2d71fef11cd55d0cb506952788e2cf8c5acbc7) | Bensonbenyi |
 | 2026-11-21 | [fix: replace every underscore in imported GitLab issue metadata label…](https://github.com/Mintplex-Labs/anything-llm/commit/472b1e3f4715c6ccd38a099aecd4651a449188aa) | MohammadHijjawi97 |
-| 2026-11-21 | [Agent skill availability: documents everywhere, cloud runtime gates](https://github.com/Mintplex-Labs/anything-llm/commit/7e30580e8c0076b1548419d6721b006a436cee94) | timothycarambat |
-| 2026-11-20 | [fix: read Bedrock Anthropic replies from text blocks, not the first b…](https://github.com/Mintplex-Labs/anything-llm/commit/90df028cd55a734ae5d3168105b732049901d0cf) | arjankapteijn |
-| 2026-11-19 | [fix: split Outlook agent recipients on semicolons and drop empty entr…](https://github.com/Mintplex-Labs/anything-llm/commit/b2da188766b245449fb573f1414632eb6afb57e8) | MohammadHijjawi97 |
-| 2026-11-19 | [fix: preserve sibling articles in website imports (#7251)](https://github.com/Mintplex-Labs/anything-llm/commit/c46b7fb182302454949dd46bc39cfc6bab300ef3) | Max-Reisinger |
-| 2026-11-19 | [fix: keep the chat in sync with the route when switching workspaces (…](https://github.com/Mintplex-Labs/anything-llm/commit/f3ed0c7de1562499f8a9feb30b8cbc26b5d649c5) | timothycarambat |
-| 2026-11-19 | [fix: keep the text after a non-extension dot in raw-text titles (#7284)](https://github.com/Mintplex-Labs/anything-llm/commit/4b74f397c52171e1ff8f2f64b4ba933ef5057d99) | MohammadHijjawi97 |
-| 2026-11-19 | [fix(agents): refuse to overwrite an existing destination in filesyste…](https://github.com/Mintplex-Labs/anything-llm/commit/3fd1cb383392248f28dc52ee6fb23ecf745dc3ca) | nurlanmnn |
-| 2026-11-19 | [fix(ollama): keep native tool requests inside num_ctx (#7295)](https://github.com/Mintplex-Labs/anything-llm/commit/d1f80ad2c65f22728fbd3434d5795d7d9022f7f9) | timothycarambat |
-| 2026-11-19 | [docs: fix Bedrock env var names in .env.example files (#7288)](https://github.com/Mintplex-Labs/anything-llm/commit/5fffef2170fe4d40dab50d8044a3dfee553bc9ba) | arjankapteijn |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
 

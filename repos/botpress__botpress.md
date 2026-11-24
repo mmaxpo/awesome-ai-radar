@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `ai` `botpress` `chatbot` `chatgpt` `gpt` `gpt-4` `llm` `openai` `langchain` `nlp` `prompt` |
-| 🕒 **Last activity** | 2026-11-21 (2d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) — 2023-06-22 |
 | 🌿 **Default branch** | `master` |
@@ -89,6 +89,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [chore(client): bump api to 1.141.0 and client to 2.15.0 (#15569)](https://github.com/botpress/botpress/commit/5e29a779b495f6f6e134fbd8764d2b7edf38fdcc) | aj-botpress |
+| 2026-11-23 | [chore(client): bump client version to 2.14.0 (#15567)](https://github.com/botpress/botpress/commit/441a3aa03639a70f53d8bcd997a6d892c4793694) | zeckrust |
 | 2026-11-21 | [feat(zai): use the Cognitive classification API, add classify(), prio…](https://github.com/botpress/botpress/commit/cd501dd208debd3acb2a6d9805ae5e68be2f0efa) | slvnperron |
 | 2026-11-21 | [fix(llmz): recover replies that put the start marker after a sentence…](https://github.com/botpress/botpress/commit/3d76ca4b81bad94ce95a8f71b9e6c393069ecf87) | aj-botpress |
 | 2026-11-20 | [fix(zai): harden retries, parsers and chunking across all operations …](https://github.com/botpress/botpress/commit/56b3f7258ed48fbe3fc7ffa79d9896fe5f0bfad4) | slvnperron |
@@ -97,8 +99,6 @@
 | 2026-11-16 | [feat(llmz): let callers set the code result cap with maxResultChars (…](https://github.com/botpress/botpress/commit/6a1d6be64a1b3570d050d305824ad814ea3ba455) | SohaibDM |
 | 2026-11-13 | [fix(llmz): cap code results and error dumps sent to the model (0.9.23…](https://github.com/botpress/botpress/commit/24b0ca1bb49e9f9acdc459b0b844f9edb2913405) | SohaibDM |
 | 2026-11-13 | [fix(gsheets): canonicalize service account private keys (#15556)](https://github.com/botpress/botpress/commit/ee7756d29d788def2813a1a19999df0149d117cf) | pascal-botpress |
-| 2026-11-13 | [chore(client): bump client to version 2.13.0 (#15555)](https://github.com/botpress/botpress/commit/3e82f54db2ead8784e6c955871adbc1a6cb89948) | mikaelmoreau-botpress |
-| 2026-11-13 | [fix(llmz): list only the last 5 iterations in the execution status (0…](https://github.com/botpress/botpress/commit/b1a80d49fa63029c49777ccfa850bc06fdaf3ce4) | SohaibDM |
 
 [See all commits ↗](https://github.com/botpress/botpress/commits)
 

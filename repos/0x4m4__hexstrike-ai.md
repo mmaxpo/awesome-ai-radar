@@ -18,8 +18,8 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 13.8k |
-| 🍴 **Forks** | 2.8k |
+| ⭐ **Stars** | 13.9k |
+| 🍴 **Forks** | 2.9k |
 | 🐞 **Open issues + PRs** | [135](https://github.com/0x4m4/hexstrike-ai/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |

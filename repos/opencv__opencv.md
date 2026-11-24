@@ -26,17 +26,17 @@
 | 💻 **Languages** | C++ 86% · Python 4% · C 3% · CMake 2% · Java 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `opencv` `c-plus-plus` `computer-vision` `deep-learning` `image-processing` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2012-07-19 |
 | 📦 **Latest release** | [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — 2026-11-06 |
 | 🌿 **Default branch** | `5.x` |
-| 💾 **Size** | 559.5 MB |
+| 💾 **Size** | 559.8 MB |
 | 🌐 **Website** | https://opencv.org |
 
 ## 📦 Recent releases
 
 ### [5.1.0](https://github.com/opencv/opencv/releases/tag/5.1.0) — OpenCV 5.1.0
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > OpenCV 5.1.0 has been released.
 > :hammer_and_wrench: Change log is [here](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version510).
@@ -73,16 +73,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #30999 from sshivensolanki:core-mean-bool](https://github.com/opencv/opencv/commit/9637fe1290c7de45027efa9a2155e2806eb55451) | sshivensolanki |
-| 2026-11-23 | [Merge pull request #31083 from jazayush:5.x](https://github.com/opencv/opencv/commit/7070df2736d4f51577effa8a80894a78345d3f50) | jazayush |
-| 2026-11-23 | [Merge pull request #31080 from pratapvirat2004:patch-1](https://github.com/opencv/opencv/commit/49bfe2764c4f36be71fa74daee12e1e87ae0e8f7) | asmorkalov |
-| 2026-11-23 | [docs(imgproc): fix math rendering in color formula](https://github.com/opencv/opencv/commit/79ae2329140b58638caa95cff13d4e43e75c4df4) | pratapvirat2004 |
-| 2026-11-23 | [Merge pull request #31044 from harshil-sri/fix-0d-threshold-lut](https://github.com/opencv/opencv/commit/fb6166e54b495496bb76d721295fe277f850cec0) | abhishek-gola |
-| 2026-11-23 | [Merge pull request #31034 from sshivensolanki/dnn-cast-uint32-uint64](https://github.com/opencv/opencv/commit/d2c6f944cf23cc27ddc5f505386702014ce91794) | abhishek-gola |
-| 2026-11-23 | [Merge pull request #31039 from ish1416/dnn-reduce-support-unsigned](https://github.com/opencv/opencv/commit/e4ec28617fd5449451c6e06d96d54257cea42006) | abhishek-gola |
-| 2026-11-22 | [Merge pull request #31047 from sshivensolanki/dnn-range-zero-delta](https://github.com/opencv/opencv/commit/2ce6479ab8fccb840ecd0fe42bb74dfcc8787486) | abhishek-gola |
-| 2026-11-22 | [dnn: support CV_32U and CV_64U in Reduce layers](https://github.com/opencv/opencv/commit/4bd226ed155bdfce18184ef25a1c32f0556fd5b2) | ish1416 |
-| 2026-11-22 | [imgproc: support 5.x depths in remap/warp with INTER_NEAREST (#30595)](https://github.com/opencv/opencv/commit/5bb1be7693ea93cca5ec5926628a1889624dadb2) | sshivensolanki |
+| 2026-11-24 | [Merge pull request #31123 from sshivensolanki:dnn-maxunpool-kernel-hw](https://github.com/opencv/opencv/commit/d1abca9a89312703719b82d884b591c82620533e) | asmorkalov |
+| 2026-11-24 | [dnn: reject negative position ids in RotaryEmbedding gather 🤖🤖🤖 (#30511)](https://github.com/opencv/opencv/commit/7b07609d66e2c4aae6117d82c06d58511b21f496) | uwezkhan |
+| 2026-11-24 | [ptcloud: bound triangle vertex indices in triangleRasterize 🤖🤖🤖 (#30640)](https://github.com/opencv/opencv/commit/06f7ecb5ce6899d8fccf6f3ce011210d91ebb673) | uwezkhan |
+| 2026-11-24 | [Merge pull request #31061 from sshivensolanki/dnn-trilu-tall-matrix](https://github.com/opencv/opencv/commit/3e3f338dde7fc593f5a8e13a8c35af9cce4b2150) | sshivensolanki |
+| 2026-11-24 | [docs(imgproc): describe contour approximation modes (#31118)](https://github.com/opencv/opencv/commit/60aeb36381836df2d541ed725f7caf93a055d3e0) | abhishek-gola |
+| 2026-11-24 | [dnn: fix MaxUnpool kernel and stride order in the ONNX importer](https://github.com/opencv/opencv/commit/f9efe61f9a3426935a50e6ce0e0604ca5f92a77f) | sshivensolanki |
+| 2026-11-24 | [Merge pull request #30938 from abhishek-gola/tests/faster-test-infra-5x](https://github.com/opencv/opencv/commit/8a1083b85aa4a315d4627e44766f467b7aa2ef79) | abhishek-gola |
+| 2026-11-24 | [docs(imgproc): clarify LINK_RUNS behavior](https://github.com/opencv/opencv/commit/9cffded4c4b1dcc95b9d73a92d145c1ac98430ec) | Shiven078 |
+| 2026-11-24 | [tests: speed up reference implementations and avoid repeated work in …](https://github.com/opencv/opencv/commit/28d85a1fb0228029c5dbd8b07ce6a6f2b370e7ba) | abhishek-gola |
+| 2026-11-24 | [Merge pull request #31115 from emreyoleridev:doc-fix-sample-links-5x](https://github.com/opencv/opencv/commit/e472ab201ea608fca12d24e751dfa873c91b7491) | asmorkalov |
 
 [See all commits ↗](https://github.com/opencv/opencv/commits)
 

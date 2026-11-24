@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 87.7k |
 | 🍴 **Forks** | 9.1k |
-| 🐞 **Open issues + PRs** | [339](https://github.com/unclecode/crawl4ai/issues) |
+| 🐞 **Open issues + PRs** | [341](https://github.com/unclecode/crawl4ai/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `crawler` `data-extraction` `llm` `markdown` `mcp` `open-source` `playwright` `python` `rag` `scraper` `web-crawler` `web-crawling` `web-scraping` `crawl4ai-cloud` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-23 (yesterday) |
 | 📅 **Created** | 2024-05-09 |
 | 📦 **Latest release** | [v0.9.6](https://github.com/unclecode/crawl4ai/releases/tag/v0.9.6) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.9.6](https://github.com/unclecode/crawl4ai/releases/tag/v0.9.6) — Release v0.9.6
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > **🎉 Crawl4AI v0.9.6 Released!**
 > **📦 Installation**

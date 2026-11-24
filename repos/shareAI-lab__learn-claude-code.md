@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 80.8k |
 | 🍴 **Forks** | 12.9k |
-| 🐞 **Open issues + PRs** | [56](https://github.com/shareAI-lab/learn-claude-code/issues) |
+| 🐞 **Open issues + PRs** | [57](https://github.com/shareAI-lab/learn-claude-code/issues) |
 | 💻 **Languages** | Python 70% · TypeScript 29% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `claude-code` `teaching` `agent-development` `ai-agent` `claude` `educational` `llm` `python` `tutorial` |
-| 🕒 **Last activity** | 2026-11-15 (8d ago) |
+| 🕒 **Last activity** | 2026-11-15 (9d ago) |
 | 📅 **Created** | 2025-06-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

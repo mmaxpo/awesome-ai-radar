@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 1.4k |
 | 🍴 **Forks** | 149 |
-| 🐞 **Open issues + PRs** | [97](https://github.com/mbillow/localthings/issues) |
+| 🐞 **Open issues + PRs** | [104](https://github.com/mbillow/localthings/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `custom-component` `hacs` `hacs-integration` `home-assistant` `home-automation` `samsung` `smartthings` `coap-protocol` `coap-server` `dtls` |
-| 🕒 **Last activity** | 2026-11-21 (2d ago) |
+| 🕒 **Last activity** | 2026-11-21 (3d ago) |
 | 📅 **Created** | 2026-06-30 |
 | 📦 **Latest release** | [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0) — 2026-11-15 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0)
-<sub>2026-11-15 · 7d ago</sub>
+<sub>2026-11-15 · 8d ago</sub>
 
 > **🚀 Highlights**
 > - **Samsung TVs.** Media player (power, volume, input, sound mode, channel and now-showing), picture mode, Wake-on-LAN, remote, notifications, apps and casting. Not yet run on hardware as merged. Thanks to @benjaml4 and @vmonkey! (#755, #856, part of #388)
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.38.0](https://github.com/mbillow/localthings/releases/tag/v0.38.0)
-<sub>2026-11-11 · 12d ago</sub>
+<sub>2026-11-11 · 13d ago</sub>
 
 > **⭐️🌟⭐️ One Thousand Stars ⭐️🌟⭐️**
 > **LocalThings now has over 1,000 stars on GitHub!**
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.37.0](https://github.com/mbillow/localthings/releases/tag/v0.37.0)
-<sub>2026-11-08 · 15d ago</sub>
+<sub>2026-11-08 · 16d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbar media player.** Power, volume, mute, source, sound mode, playback, seek, shuffle and track info. Confirmed on the HW-Q950T. Thanks to @vmonkey and @benjaml4! (#775, part of #388)
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.36.0](https://github.com/mbillow/localthings/releases/tag/v0.36.0)
-<sub>2026-11-02 · 21d ago</sub>
+<sub>2026-11-02 · 22d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbars.** Boards without `/device/0` now set up, starting with the HW-S61B (sensors, selects, switches, numbers, buttons). Media player and TV come later. Thanks to @vmonkey! (#606, part of #388)
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.35.0](https://github.com/mbillow/localthings/releases/tag/v0.35.0)
-<sub>2026-10-28 · 25d ago</sub>
+<sub>2026-10-28 · 26d ago</sub>
 
 > **🚀 Highlights**
 > - **Two new languages.** French and Brazilian Portuguese join the existing eight. The four actions (Start cooking and the three resource actions) can now be translated, and every language has them. Thanks to @3615nulsi and @eduardobittencourt! (#617, #694, from #686)

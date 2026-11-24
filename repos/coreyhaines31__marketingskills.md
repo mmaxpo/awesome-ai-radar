@@ -20,23 +20,56 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 62.2k |
+| ⭐ **Stars** | 62.4k |
 | 🍴 **Forks** | 9.1k |
-| 🐞 **Open issues + PRs** | [55](https://github.com/coreyhaines31/marketingskills/issues) |
+| 🐞 **Open issues + PRs** | [71](https://github.com/coreyhaines31/marketingskills/issues) |
 | 💻 **Languages** | JavaScript 94% · Python 3% · HTML 2% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude` `codex` `marketing` `agent-skills` `ai-agents` `ai-seo` `claude-code` `claude-code-plugin` `claude-skills` `content-marketing` `conversion-rate-optimization` `copywriting` `cursor` `email-marketing` `generative-engine-optimization` `growth-marketing` `marketing-automation` `saas-marketing` `seo` `skill-md` |
-| 🕒 **Last activity** | 2026-11-20 (3d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-01-15 |
-| 📦 **Latest release** | [v2.14.25](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.25) — 2026-11-20 |
+| 📦 **Latest release** | [v2.14.28](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.28) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 7.4 MB |
+| 💾 **Size** | 7.7 MB |
 | 🌐 **Website** | https://marketing-skills.com |
 
 ## 📦 Recent releases
 
+### [v2.14.28](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.28) — v2.14.28 — Three methods added to existing skills (#1048).
+<sub>2026-11-23 · today</sub>
+
+> Three methods added to existing skills (#1048).
+> - **prospecting** (1.7.0 → 1.8.0): podcast appearances as a lead source. Episodes are indexed with speaker-labelled transcripts, so a search finds a named guest describing the problem you solve, in their own words. `references/signal-plays.md` covers three uses (find people describing the problem, research an account's leader, find the shows your buyers appear on) and five rules: check the air date, confirm who said it on the episode page, apply ICP fit, name the episode openly because they published it, and keep the reference to one line. A 90-day freshness window and a tools row are added. Eval 15 added.
+> - **social** (2.6.0 → 2.6.1), **marketing-loops** (1.9.0 → 1.9.1): outlier posts are scored against the account's own median, split by platform and format, as a multiple of the baseline (1.5–2× mild, 2–5× strong, 5× or more huge), from at least 20 posts, with low confidence under 10. This replaces "for example 100K+ views" in the listening reference and the niche-outlier loop. Method adapted from ScrapeCreators' outlier-post-finder skill (MIT).
+> - **customer-research** (2.0.8 → 2.0.9): a table for sorting a comment thread into questions, objections, complaints, confusion, requests, buying intent, debate, and praise before clustering, with two cautions: the top comments are not the representative ones, and commenters are an audience, not a list.
+> **Skill ZIP assets**
+> Complete source catalog: 53 skills.
+> …
+
+### [v2.14.27](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.27) — v2.14.27 — New tool access for app store, SEO audit, comment, and podcast data (…
+<sub>2026-11-23 · today</sub>
+
+> New tool access for app store, SEO audit, comment, and podcast data (#1048).
+> - **aso** (2.0.6 → 2.1.0): a new section, With App Store Connect Access. For the user's own Apple app, an agent with the open-source App Store Connect CLI reads reviews by rating and country, the rating breakdown, Apple's review summaries, week-over-week numbers, and the exact listing text, always in read-only mode, in place of asking for an export. Review responses and metadata changes are drafted and sent only on approval. New guide: `tools/integrations/app-store-connect-cli.md`, plus an App Store category in the registry.
+> - **seo-audit** (2.2.9 → 2.2.10): SEOmator joins Tools Referenced, an open-source audit CLI and local MCP server an agent or CI job can run free. Checks it couldn't run stay "not measured" in the report. New guide: `tools/integrations/seomator.md`. Its repository ships a skill also named `seo-audit`; the guide covers the CLI and MCP server only.
+> - **ScrapeCreators guide**: comment and transcript endpoints, for mining what an audience asks and objects to. The wording is kept; lists of commenters are not.
+> - **Firecrawl guide**: podcast transcripts through Alexandria (speaker-labelled, quotes with timestamps), with the documented request, credit costs, and the third-party terms step that needs the user.
+> **Skill ZIP assets**
+> …
+
+### [v2.14.26](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.26) — v2.14.26 — prospecting (1.6.3 → 1.7.0): subprocessor and DPA pages as a prospect…
+<sub>2026-11-23 · today</sub>
+
+> - **prospecting** (1.6.3 → 1.7.0): subprocessor and DPA pages as a prospecting source (#1046). Companies publish the vendors that process their customers' data, so the page is a free, first-party record of part of the stack. `references/signal-plays.md` gains a section on three uses: finding accounts that name a given vendor (`"subprocessors" "<vendor>"`), qualifying an account before writing, and catching a vendor being added or dropped. It says where the pages live, and gives rules for the weak points: the list covers only vendors that touch customer data, absence proves nothing, names may be legal entities, and the lookup is never the opening line. The tools table, the tech-stack signal row, and `references/data-sources.md` list it. Eval 14 added.
+> **Skill ZIP assets**
+> Complete source catalog: 53 skills.
+> Claude web target: 53 skills with reviewed short descriptions.
+> Perplexity Computer target: 53 skills.
+> Choose `<name>-claude-web.zip` for the documented single-folder web upload format.
+> …
+
 ### [v2.14.25](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.25) — v2.14.25 — Community batch: fourteen new tool guides, three guide updates, and t…
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > Community batch: fourteen new tool guides, three guide updates, and three skill contributions.
 > - **New integration guides**, each reviewed against the usefulness and neutrality rules in `tools/PARTNERS.md`: Hermoso (#1014), Calven (#980), PostOnce (#979), GetYouTubeTranscript (#975), Hyper Elements (#974), ScrapeWhale (#972), Adspy (#965), Adeli (#964), SignalShelf (#959), GoAnyAPI with a CLI and tests (#946), Parallel with a CLI and tests (#943), Marcora (#939), Adlicio (#898), and SocialToAI (#917). Updated guides: Precleared (#957) and Coupler (#904). Edits made on the way in: tracking links, in-guide disclosure lines, pointers to vendors' own skill packs, comparison framing, and price pitches were removed; Adlicio no longer documents Google Maps or logged-in Facebook group scraping; GetYouTubeTranscript and ScrapeWhale carry a platform-terms note.
@@ -47,7 +80,7 @@
 > …
 
 ### [v2.14.24](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.24) — v2.14.24 — Community batch: thirteen skill contributions, rebased onto this week…
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > Community batch: thirteen skill contributions, rebased onto this week's changes.
 > - **public-relations** (1.2.4 → 1.3.0): a new `references/press-releases.md` on when a release is worth it, how to structure and write one, and distribution options from your own newsroom page to the paid wires, with what wire distribution does and doesn't get you (#885 by @dylancaponi, who discloses building one of the listed options). Adds a Press Release Distribution category to the registry and an eval.
@@ -57,53 +90,20 @@
 > - **video** (2.4.6 → 2.4.7), **ad-creative** (2.13.4 → 2.13.5): one layout per aspect ratio for code-rendered video, and a frame check for cropped products, logos, and text, with product-photo guidance in the Hyperframes guide (#915 by @alexandrosmimilidis).
 > …
 
-### [v2.14.23](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.23) — v2.14.23 — Community batch: 22 CLI fixes and three CI checks. No skill content c…
-<sub>2026-11-20 · 3d ago</sub>
-
-> Community batch: 22 CLI fixes and three CI checks. No skill content changes.
-> - **CLI fixes** (by @rudycelekli, each with a contract test): **ahrefs** sends the required Keywords Explorer and SERP Overview parameters (#864); **google-ads** strips hyphens from the customer ID (#877); **similarweb** requests geography from the v4 endpoint (#876); **dataforseo** enforces per-task keyword limits (#873); **mixpanel** requires the funnel date range (#871); **supermetrics** rejects row limits that would be truncated (#879); **tiktok-ads** sends `operation_status` for campaign status updates (#872); **resend** pages audience, contact, and webhook lists with cursors (#874); **postmark** enforces batch and suppression limits (#867); **activecampaign** sends deal search as `filters[search]` and requires whole-cent deal values (#861, #862); **close** filters activities with `_type` (#860); **apollo** enforces the ten-person bulk enrichment limit (#868); **hunter** reads and pauses sequences through documented routes (#869); **lemlist** requests campaign stats from the v2 route (#870); **truelist** enforces the three-address inline limit (#863); **optimizely** changes experiment state with the documented action parameter (#866); **livestorm** creates webhooks with the documented attributes (#865); **trustpilot** pages business search with `perpage` (#875); **wistia** honors an explicit false public flag (#878); **paddle** rejects incomplete recurring price options (#858). The remaining CLIs now exit non-zero on HTTP 4xx and 5xx responses (#852).
-> - **Hidden-content check** (#956 by @TanmayShah29, closes #931): a new CI job and `scripts/check-hidden-content.mjs` flag content a reviewer would not see in rendered markdown: HTML comments, invisible Unicode, long blank runs, piped-to-shell downloads, and webhook or secret-exfiltration patterns. Legitimate hits go in an allowlist.
-> - **Validator fix** (#977 by @divya0795): `validate-skills-official.sh` reported every skill as valid, because it matched "valid" inside "Validation failed". It now fails on a rejected skill, with a regression test.
-> - **Trigger eval** (#978 by @divya0795): a run that ends in an error result (not logged in, API or rate-limit error) is scored as an error, not as an answer.
-> **Skill ZIP assets**
-> …
-
-### [v2.14.22](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.22) — v2.14.22 — AI video and voice model facts refreshed against vendor pages, checke…
-<sub>2026-11-19 · 3d ago</sub>
-
-> AI video and voice model facts refreshed against vendor pages, checked 2026-11-19 (#994). Same treatment as the image models in 2.14.21: each tool is described by what its vendor states and where to check, with no ratings.
-> - **video** (2.4.5 → 2.4.6): the model comparison table and "Quick picks" are rewritten. Veo 3.1 makes 4, 6, or 8 second clips, not "variable" length, so the skill now says to plan a video as several shots. Kling is 4.0 (3 to 30 seconds), Seedance is 2.5, Hailuo runs MiniMax H3, Pika is 2.5, and the open-weight option is Wan 2.2, with HunyuanVideo's licence limits noted. Runway's row covers Gen-4.5 and its API, which also hosts Veo, Kling, and Seedance. HeyGen's plan table matched no current plan and is replaced (credits per month, 1 to 60 minute videos); its avatar and language counts and custom-avatar footage rules are updated, and its MCP endpoint is given. Synthesia's line now says what its site states. `references/ai-video-prompting.md` drops "up to 2 minutes" for Kling and other dated tips.
-> - **ad-creative** (2.13.3 → 2.13.4): the video and voice sections of `references/generative-tools.md`. Removed or corrected: Veo "up to 60 seconds" and its Gemini API preview models (shut down 22 Oct 2026); Kling "up to 3 minutes"; Seedance "12 reference files" and "OpenAI-compatible" (not found in its docs); Higgsfield "50+ camera movements"; per-second prices that could not be traced to a vendor. Voice: OpenAI's TTS models shut down on 6 Jan 2027 and OpenAI does offer custom voices; Cartesia's current model is `sonic-3.6` with 44 languages and voice cloning, and no "40ms" figure is published; ElevenLabs states 90+ languages on v4 and meters in credits; Voicebox's local port, engines, and languages are corrected; PlayHT is removed because its site no longer resolves. The "Best / Good" quality column in the voice comparison is gone.
-> - Limits: Kling's own developer docs and BytePlus's Seedance pages did not load, so their clip lengths come from Runway's listing of those models and are labelled that way. Google's Veo prices and OpenAI's TTS prices were not readable, so none are quoted; the one remaining video cost estimate names its source.
-> **Skill ZIP assets**
-> Complete source catalog: 53 skills.
-> …
-
-### [v2.14.21](https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.21) — v2.14.21 — AI image model facts refreshed against vendor docs, checked 2026-11-1…
-<sub>2026-11-19 · 3d ago</sub>
-
-> AI image model facts refreshed against vendor docs, checked 2026-11-19 (#1009).
-> - **image** (2.0.7 → 2.0.8): the model comparison table now names each family, what its vendor says it is for, and where to check, in place of "Best / Good / Limited" ratings and pinned versions. Corrections: Google's current models are the Nano Banana 2.x family, with up to 14 reference images, and `gemini-2.5-flash-image` is marked legacy; FLUX 3 Image takes up to ten references and FLUX.2 [dev] is local-only and non-commercial; Ideogram's 4.x models are current and take up to 10 style references; OpenAI points new integrations to `gpt-image-2.6-sunburst` or `gpt-image-2.6-flare`, `gpt-image-1` is already shut down, and `gpt-image-2` shuts down on 10 Feb 2027; Recraft's default is V4.1; SDXL is a legacy model. Midjourney's version is no longer pinned, because its docs could not be read and other sources disagree. The decision tree lists options to compare instead of a "best" per need. `references/ai-image-prompting.md` carries the same corrections.
-> - **ad-creative** (2.13.2 → 2.13.3): the image section of `references/generative-tools.md` gets the same treatment. Removed: the Flux speed and price-per-megapixel table (no speeds are published, and one row priced a model with no hosted API), Ideogram's "~90% vs ~30%" accuracy claim and "4.3 billion style presets" (the vendor states neither), the DALL-E 3 row, and a Gemini curl example that no longer matches Google's docs. The cost table's three image rows are one hedged range. The video and voice sections are unchanged and still need the same check.
-> - **competitor-profiling** (2.1.8 → 2.1.9): the tool stack table says what the Firecrawl and DataForSEO stack adds, in place of "Preferred — richer data".
-> **Skill ZIP assets**
-> Complete source catalog: 53 skills.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-20 | [Merge pull request #1019 from coreyhaines31/integrate/vendor-guides-b…](https://github.com/coreyhaines31/marketingskills/commit/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1) | coreyhaines31 |
-| 2026-11-20 | [chore: release 2.14.25](https://github.com/coreyhaines31/marketingskills/commit/71b8044dc40df7878563e297f77d0241d99d8795) | coreyhaines31 |
-| 2026-11-20 | [fix: reword #892's corrections to what primary sources support](https://github.com/coreyhaines31/marketingskills/commit/ef0de127404f4c8ad34ce6210e8cc6d0bc972ec1) | coreyhaines31 |
-| 2026-11-20 | [Merge pull request #892](https://github.com/coreyhaines31/marketingskills/commit/f7955c328a12426606a841c439245c03f280e2dd) | coreyhaines31 |
-| 2026-11-20 | [Merge pull request #859](https://github.com/coreyhaines31/marketingskills/commit/3b8bca7bc90fcdf0ddf233e2e7444646f7ba8504) | coreyhaines31 |
-| 2026-11-20 | [fix: reviewer edits to the second group of vendor guides](https://github.com/coreyhaines31/marketingskills/commit/fc66c32b91cd3e7e8dd7991769ff81ce843109e0) | coreyhaines31 |
-| 2026-11-20 | [Merge pull request #898](https://github.com/coreyhaines31/marketingskills/commit/722e0dd4d7b10fdb5ba01386c6c8ccd87abe1cd1) | coreyhaines31 |
-| 2026-11-20 | [Merge pull request #904](https://github.com/coreyhaines31/marketingskills/commit/41561e96917ed77e58963835d72fcc99e64caddf) | coreyhaines31 |
-| 2026-11-20 | [Merge pull request #939](https://github.com/coreyhaines31/marketingskills/commit/35de2cde74fa01cbf1edab391f2f8513dc00b734) | coreyhaines31 |
-| 2026-11-20 | [Merge pull request #943](https://github.com/coreyhaines31/marketingskills/commit/dcb58462cc26add4d2e99b66f202c119ab3998f0) | coreyhaines31 |
+| 2026-11-23 | [Merge pull request #1050 from coreyhaines31/feature/1048-methods](https://github.com/coreyhaines31/marketingskills/commit/8fd2fcade2fd6629026e9dfe6d133b55b36968b9) | coreyhaines31 |
+| 2026-11-23 | [Merge branch 'main' into feature/1048-methods](https://github.com/coreyhaines31/marketingskills/commit/3436288411ad04572058fe7776e617ffec74e1af) | coreyhaines31 |
+| 2026-11-23 | [Merge pull request #1049 from coreyhaines31/feature/1048-tool-access](https://github.com/coreyhaines31/marketingskills/commit/1a6f91eeb23fa049427187690522e1acd328f019) | coreyhaines31 |
+| 2026-11-23 | [chore: release 2.14.28](https://github.com/coreyhaines31/marketingskills/commit/4f053d928385449457721fed537af9fd5671f828) | coreyhaines31 |
+| 2026-11-23 | [feat: add outlier scoring, comment sorting, and podcasts as a lead so…](https://github.com/coreyhaines31/marketingskills/commit/be85be135de750813a48f7eb6bd1c9cde48ca63d) | coreyhaines31 |
+| 2026-11-23 | [chore: release 2.14.27](https://github.com/coreyhaines31/marketingskills/commit/fe0678517ee73d4a4876ddbe57e43b252e87a384) | coreyhaines31 |
+| 2026-11-23 | [feat(aso, seo-audit): use App Store Connect and a local audit engine …](https://github.com/coreyhaines31/marketingskills/commit/bc44169abcca53847f5cef6207bbc009ef3b15b3) | coreyhaines31 |
+| 2026-11-23 | [feat(tools): add App Store Connect CLI and SEOmator guides; extend Sc…](https://github.com/coreyhaines31/marketingskills/commit/0f668c2bad3969b5eb8c3df3c9e82fe22bcd61cf) | coreyhaines31 |
+| 2026-11-23 | [Merge pull request #1047 from coreyhaines31/feature/1046-dpa-subproce…](https://github.com/coreyhaines31/marketingskills/commit/8a0c22d677e6031e8a5dd4b554b6ce059b753ffe) | coreyhaines31 |
+| 2026-11-23 | [chore: release 2.14.26](https://github.com/coreyhaines31/marketingskills/commit/f3d77c3fb5e1c66da86a8890f5412fb28aaeecc6) | coreyhaines31 |
 
 [See all commits ↗](https://github.com/coreyhaines31/marketingskills/commits)
 

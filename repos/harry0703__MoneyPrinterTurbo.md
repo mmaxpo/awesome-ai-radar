@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 145.2k |
+| ⭐ **Stars** | 145.4k |
 | 🍴 **Forks** | 23.4k |
-| 🐞 **Open issues + PRs** | [91](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
+| 🐞 **Open issues + PRs** | [90](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `tiktok` `ai-video-generator` `content-creation` `ffmpeg` `instagram-reels` `llm` `short-video` `subtitles` `text-to-speech` `video-automation` `video-workflow` `workflow-automation` `youtube-shorts` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2024-03-11 |
 | 📦 **Latest release** | [v1.3.11](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.11) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 529.4 MB |
+| 💾 **Size** | 529.2 MB |
 
 ## 📦 Recent releases
 
 ### [v1.3.11](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.11)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > [English](#en-v1.3.11) | [中文](#cn-v1.3.11)
 > <h2 id="en-v1.3.11">Highlights</h2>
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10)
-<sub>2026-11-07 · 16d ago</sub>
+<sub>2026-11-07 · 17d ago</sub>
 
 > [English](#en-v1.3.10) | [中文](#cn-v1.3.10)
 > <h2 id="en-v1.3.10">Highlights</h2>
@@ -93,6 +93,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [fix(material): use Wan 3.0 by default (#1842)](https://github.com/harry0703/MoneyPrinterTurbo/commit/dabfd3f8548d30ed0eea8759decbdead9626e0e6) | chengzeyi |
 | 2026-11-23 | [chore: release v1.3.11](https://github.com/harry0703/MoneyPrinterTurbo/commit/3482168e8958a73c48656634c750a5ce459224df) | harry0703 |
 | 2026-11-23 | [fix(api): reject a null video_aspect before the task starts](https://github.com/harry0703/MoneyPrinterTurbo/commit/708ac4836c14f77196c5d1f23cc0885ac9014c04) | HEOJUNFO |
 | 2026-11-23 | [fix(api): reject a blank video_script on /audio and /subtitle](https://github.com/harry0703/MoneyPrinterTurbo/commit/fc7f44d1ce24dd34c83f3b79aa74b5579e20c071) | HEOJUNFO |
@@ -102,7 +103,6 @@
 | 2026-11-23 | [fix(project): preserve display aspect ratio when cropping scenes](https://github.com/harry0703/MoneyPrinterTurbo/commit/0a18e462fba44d11f8af15e2017ba53066ef1168) | nemo-crypto |
 | 2026-11-23 | [fix(project): clear stale failed stage when retrying render](https://github.com/harry0703/MoneyPrinterTurbo/commit/21bbb3dcf9eb0cfc6114cf8e5dec78da73a56b48) | nemo-crypto |
 | 2026-11-23 | [fix(cli): preserve Unicode separators inside JSONL values](https://github.com/harry0703/MoneyPrinterTurbo/commit/c06bc121fbf690b6e9e47852b646dbff208f8634) | nemo-crypto |
-| 2026-11-23 | [fix(tts): bound Edge TTS streams (#1826)](https://github.com/harry0703/MoneyPrinterTurbo/commit/8c0771452e11b5cc6f9223fdedef757156fd4744) | venkatsammm |
 
 [See all commits ↗](https://github.com/harry0703/MoneyPrinterTurbo/commits)
 

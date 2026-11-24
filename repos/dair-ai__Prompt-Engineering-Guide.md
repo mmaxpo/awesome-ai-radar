@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 80.3k |
 | 🍴 **Forks** | 8.8k |
-| 🐞 **Open issues + PRs** | [297](https://github.com/dair-ai/Prompt-Engineering-Guide/issues) |
+| 🐞 **Open issues + PRs** | [296](https://github.com/dair-ai/Prompt-Engineering-Guide/issues) |
 | 💻 **Languages** | MDX 94% · Jupyter Notebook 4% · TypeScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `deep-learning` `prompt-engineering` `openai` `chatgpt` `language-model` `generative-ai` `agents` `ai-agents` `llms` `agent` `rag` |

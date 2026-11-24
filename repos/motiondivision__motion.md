@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 35.5k |
 | 🍴 **Forks** | 1.6k |
-| 🐞 **Open issues + PRs** | [11](https://github.com/motiondivision/motion/issues) |
+| 🐞 **Open issues + PRs** | [6](https://github.com/motiondivision/motion/issues) |
 | 💻 **Languages** | TypeScript 80% · HTML 16% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `animation` `animation-js` `motion` `react` `reactanimations` `spring` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2018-11-16 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1629.6 MB |
+| 💾 **Size** | 1629.8 MB |
 | 🌐 **Website** | https://motion.dev |
 
 ## 📦 Recent releases
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #4123 from motiondivision/claude/project-thread-y5…](https://github.com/motiondivision/motion/commit/133051adce0f0b0bfb661f9f517dc2250ba3a288) | mattgperry |
-| 2026-11-23 | [Keep inView's own observer and bring main's size budgets back within …](https://github.com/motiondivision/motion/commit/182dedbe25272ea16cd91b77f94b27bfc17dc83b) | mattgperry |
-| 2026-11-23 | [Merge pull request #4120 from motiondivision/perf/layout-willupdate-t…](https://github.com/motiondivision/motion/commit/f591bfffdeb4ca01cb78e2cf27c6d8a83ec0b1f0) | mattgperry |
-| 2026-11-23 | [Merge pull request #4119 from motiondivision/perf/boxshadow-and-velocity](https://github.com/motiondivision/motion/commit/b6ba2f123db058baaee708df16a7f02e460982f3) | mattgperry |
-| 2026-11-23 | [Merge pull request #4116 from motiondivision/perf/observers-and-frame…](https://github.com/motiondivision/motion/commit/799061258ead25b223b8307568f36e61aaa71239) | mattgperry |
-| 2026-11-23 | [Merge branch 'main' into perf/observers-and-frameloop](https://github.com/motiondivision/motion/commit/7fdb073c4ee7df27eb2d235f58f4c63ce50b6529) | mattgperry |
-| 2026-11-23 | [Raise the m + domAnimation budget for the inView rework (+0.01 kB)](https://github.com/motiondivision/motion/commit/61d86afa1ad9b3c372a9f7a022589238b52ad451) | mattgperry |
-| 2026-11-23 | [Declare the root's page box cache rather than making the field on eve…](https://github.com/motiondivision/motion/commit/21fb9f3ce06e2b118a9a3ab29dc12c922881e2ae) | mattgperry |
-| 2026-11-23 | [Drop the snapshot pass's page boxes as soon as the update runs](https://github.com/motiondivision/motion/commit/10bc0be0c8c0d73f5c5ae9a15038fce5cf668709) | mattgperry |
-| 2026-11-23 | [Merge pull request #4121 from motiondivision/bundlesize/4-slim-multi-…](https://github.com/motiondivision/motion/commit/699ff927ac7e0cca77e29fbeba65ba087b9b4fd8) | mattgperry |
+| 2026-11-24 | [Merge pull request #4131 from motiondivision/perf/sleeping-delayed-tr…](https://github.com/motiondivision/motion/commit/1fa0e141f7b3f0a4eea258d5debc7dfbe5af6ffc) | mattgperry |
+| 2026-11-24 | [Merge pull request #4127 from motiondivision/dependabot/npm_and_yarn/…](https://github.com/motiondivision/motion/commit/b26e5bf2bdfcaeb595dadca005e50c2ba877899b) | mattgperry |
+| 2026-11-24 | [Merge pull request #4128 from motiondivision/perf/variant-stagger-order](https://github.com/motiondivision/motion/commit/82a22b6b82d2656a24e0fb3ffd1a6d161aa12ddf) | mattgperry |
+| 2026-11-24 | [Merge pull request #4129 from motiondivision/perf/scroll-size-polling](https://github.com/motiondivision/motion/commit/0fb391adbbd1c4c963fa9f063f4d2e2e616286f3) | mattgperry |
+| 2026-11-24 | [Merge pull request #4130 from motiondivision/perf/timeline-append](https://github.com/motiondivision/motion/commit/81516384d484c1ba0230acf436673784eb0b24da) | mattgperry |
+| 2026-11-24 | [Don't set values on every frame of their delay](https://github.com/motiondivision/motion/commit/b75071448469a99d696865d8579f96786733b8a8) | mattgperry |
+| 2026-11-24 | [Skip the overlap scan when a timeline segment starts after every keyf…](https://github.com/motiondivision/motion/commit/8ac50dce43150f8533db6ddf7cf4e17424bf2c46) | mattgperry |
+| 2026-11-24 | [Stop polling a container's scroll size when its last tracking subscri…](https://github.com/motiondivision/motion/commit/45b9c9cc07d385368bb0abfe1131aae489782b28) | mattgperry |
+| 2026-11-24 | [Sort a parent's variant children once per dispatch, and only for a st…](https://github.com/motiondivision/motion/commit/b17048f7a2f484ee374beb13be2760648418443f) | mattgperry |
+| 2026-11-24 | [Bump form-data from 4.0.3 to 4.0.6](https://github.com/motiondivision/motion/commit/6d45687b76e7a71f15d71d59553e776e676ba2fd) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/motiondivision/motion/commits)
 

@@ -14,23 +14,23 @@
 | **Why it's worth a look** | Time-series forecasting (formerly the fbprophet package) |
 | **Added** | 2026-11-11 |
 
-↪️ **Moved** — was `facebook/prophet`
+↪️ **Moved** — was `facebook/prophet` · 🆕 **Active this week**
 
 ## 📊 At a glance
 
 | | |
 |---|---|
 | ⭐ **Stars** | 20.5k |
-| 🍴 **Forks** | 4.6k |
-| 🐞 **Open issues + PRs** | [473](https://github.com/meta/prophet/issues) |
+| 🍴 **Forks** | 4.7k |
+| 🐞 **Open issues + PRs** | [474](https://github.com/meta/prophet/issues) |
 | 💻 **Languages** | Python 66% · R 32% · Stan 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `forecasting` `r` `python` |
-| 🕒 **Last activity** | 2026-11-11 (12d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v1.5.0](https://github.com/meta/prophet/releases/tag/v1.5.0) — 2026-10-05 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 67.2 MB |
+| 💾 **Size** | 66.6 MB |
 | 🌐 **Website** | https://facebook.github.io/prophet |
 
 ## 📦 Recent releases
@@ -61,7 +61,7 @@
 > **Full Changelog**: https://github.com/facebook/prophet/compare/v1.3.0...v1.4.0
 
 ### [v1.3.0](https://github.com/meta/prophet/releases/tag/v1.3.0)
-<sub>2026-01-27 · 9mo ago</sub>
+<sub>2026-01-27 · 10mo ago</sub>
 
 > **What's Changed**
 > * minor: Support pandas 3.0 and numpy 2.4 by @tcuongd in https://github.com/facebook/prophet/pull/2715
@@ -82,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Merge pull request #2784 from iruzen-dono/fix/cmdstanpy-rtools-floor](https://github.com/meta/prophet/commit/c26adf5b012b19d30d79dd7dcdce982bf0c89a4d) | iruzen-dono |
 | 2026-10-22 | [fix: reject NaN holiday windows instead of silently dropping the rang…](https://github.com/meta/prophet/commit/5cf15c0f6e5d5259d9dd8d511fb4e15a45884cdc) | NishchayMahor |
 | 2026-10-21 | [refactor: compute component plot data in private helpers (#2756)](https://github.com/meta/prophet/commit/ad059eba8fc9f38e921b3e5e907bc83b27b44472) | Thanatos9404 |
 | 2026-10-21 | [Fix Prophet init failure on Windows in UTF-8 mode (#2758) (#2759)](https://github.com/meta/prophet/commit/02bae83fce07702339c607dca62183f9143e92e2) | hippi345 |
@@ -91,7 +92,6 @@
 | 2026-10-05 | [minor: 1.5.0 release (#2752)](https://github.com/meta/prophet/commit/f57c4e13a29d18f927f2516f04990a3540711694) | tcuongd |
 | 2026-10-05 | [fix: keep MAP parameter shapes when the history is constant (#2749)](https://github.com/meta/prophet/commit/f98ff2167556248b50804fbe52adce74387618ca) | kwy404 |
 | 2026-10-05 | [refactor: separate performance_metrics into metrics module to resolve…](https://github.com/meta/prophet/commit/a6b6ce40807a54e68ea7dc3ee820eee88ed668e6) | fabiooliveir |
-| 2026-10-03 | [fix: do not modify the metrics list passed to performance_metrics (#2…](https://github.com/meta/prophet/commit/0e2adaf37f59f594e51fab673cd1c103632eb0a7) | kwy404 |
 
 [See all commits ↗](https://github.com/meta/prophet/commits)
 

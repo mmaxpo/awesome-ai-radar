@@ -22,21 +22,42 @@
 |---|---|
 | ⭐ **Stars** | 42.7k |
 | 🍴 **Forks** | 3.6k |
-| 🐞 **Open issues + PRs** | [1.6k](https://github.com/volcengine/OpenViking/issues) |
+| 🐞 **Open issues + PRs** | [1.7k](https://github.com/volcengine/OpenViking/issues) |
 | 💻 **Languages** | Python 61% · TypeScript 18% · Rust 11% · JavaScript 5% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-01-05 |
-| 📦 **Latest release** | [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — 2026-11-19 |
+| 📦 **Latest release** | [python-sdk@0.1.21](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.21) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 433.4 MB |
+| 💾 **Size** | 433.7 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
+### [python-sdk@0.1.21](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.21)
+<sub>2026-11-24 · today</sub>
+
+> _No notes._
+
+### [cli@0.5.4](https://github.com/volcengine/OpenViking/releases/tag/cli%400.5.4)
+<sub>2026-11-24 · today</sub>
+
+> _No notes._
+
+### [v0.5.6](https://github.com/volcengine/OpenViking/releases/tag/v0.5.6)
+<sub>2026-11-24 · today</sub>
+
+> **中文**
+> **主要更新**
+> - **PostgreSQL 持久化覆盖 Account、Task/Work 和 Watch**：`account_store.provider`、`storage.task_store.provider`、`storage.watch_store.provider` 均可设为 `postgres`，多进程和多节点部署可在不依赖 Redis 的情况下共享账户、用户、API Key、任务、工作记录与 Watch 状态。三个 Store 独立配置，也继续支持原有 File、SQLite、MySQL 等后端。[#7514](https://github.com/volcengine/OpenViking/pull/7514)、[#7552](https://github.com/volcengine/OpenViking/pull/7552)、[#7568](https://github.com/volcengine/OpenViking/pull/7568)、[#7968](https://github.com/volcengine/OpenViking/pull/7968)
+> - **QueueFS 任务顺序与恢复**：后台消息新增按目标串行和按组固定处理归属的调度能力。External、Compile 和 Memory 任务在忙碌、重试、取消与进程恢复时保留原消息及顺序，SessionCommit 会等待已接受的记忆批次真正落稳后再确认队列消息。[#7584](https://github.com/volcengine/OpenViking/pull/7584)、[#7606](https://github.com/volcengine/OpenViking/pull/7606)、[#7531](https://github.com/volcengine/OpenViking/pull/7531)
+> - **Compile 配置、执行与快照分离**：Compile 现在以 `compile_name` 管理持久配置，每次执行使用独立任务 ID、冻结输入、增量基线和 Git 快照；复杂模式改为隔离的 Markdown 文件 worker，VikingBot 另增简单编译模式。配置、定时触发、运行、输出和回滚的职责更清楚。[#7737](https://github.com/volcengine/OpenViking/pull/7737)、[#7682](https://github.com/volcengine/OpenViking/pull/7682)、[#7657](https://github.com/volcengine/OpenViking/pull/7657)
+> - **Privacy 安全执行外部命令**：新增 `ov privacy run`，可在环境变量、env 文件或命令参数中解析 `{{ov_privacy:...}}` 引用，并在子进程标准输出和错误输出中重新遮蔽敏感值；解析失败时不会启动子进程。隐私检测也统一了匹配逻辑并减少误报。[#7760](https://github.com/volcengine/OpenViking/pull/7760)、[#7458](https://github.com/volcengine/OpenViking/pull/7458)
+> …
+
 ### [openviking-superagent@0.5.5-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.5-preview) — OpenViking SuperAgent 0.5.5-preview _(pre-release)_
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -47,7 +68,7 @@
 > …
 
 ### [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — @openviking/react 0.2.0
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **en-US**
 > **Minor Changes**
@@ -57,53 +78,20 @@
 > **Patch Changes**
 > …
 
-### [react@0.1.14](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.14) — @openviking/react 0.1.14
-<sub>2026-11-18 · 5d ago</sub>
-
-> **en-US**
-> **Minor Changes**
-> - 128b63d: AgentConnect accepts `isEnterprise` to show English or Chinese team onboarding instructions for agents supported by the official installer, preserving API key masking and copying. Existing instructions remain the default.
-> - 196fad5: Add OpenViking CLI session, file download, and OVPack commands to Console. Local inputs use the browser file picker. Administrator-only backup and restore require opting in through `commandOptions.allowAdminCommands`.
->   With `--read-content`, Console search results display multiline file content and fall back to the abstract when content is unavailable or blank. Search result items support an optional `content` field for the multiline body.
-> - 81c42ac: Align the Console's built-in command options with the Volcengine terminal, including filesystem limits, search filters, ACL JSON, inline writes, resource import options, and task filters. Show the canonical names, aliases, and defaults in command help. `tree` now requires a directory URI, for example `ov tree viking://resources -L 2`.
-> …
-
-### [openviking-superagent@0.5.4-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.4-preview) — OpenViking SuperAgent 0.5.4-preview _(pre-release)_
-<sub>2026-11-17 · 6d ago</sub>
-
-> **Install**
-> macOS / Linux / WSL2 (this version):
-> ```sh
-> curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/superagent/releases/0.5.4-preview/install.sh | sh -s -- --version 0.5.4-preview
-> ```
-> Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separately; this command and these release assets are for macOS / Linux.
-> …
-
-### [react@0.1.13](https://github.com/volcengine/OpenViking/releases/tag/react%400.1.13) — @openviking/react 0.1.13
-<sub>2026-11-16 · 6d ago</sub>
-
-> **en-US**
-> **Patch Changes**
-> - ae0ce7a: Add the named compile workflow and its CLI guide. FileBrowser now reports selected tree entries so hosts can add directory references to VikingBot, whose send button uses a rounded square.
-> - 62d5cd5: Support switching named compilation configurations through directory-style tabs, native Git snapshot history, and Wiki edits with explicit snapshots.
->   Propagate pending Wiki conflicts from deeply nested files to every ancestor directory, including collapsed subtrees, and refresh cleared markers. Preserve conflict tags loaded after an older empty index, and let refreshed conflict results override historical compilation counts. Skip inaccessible directory placeholders while traversing containers with readable descendants. Respect write-permission changes in open configuration editors, compare the first version against an empty baseline, and refresh the current version after a restore conflict before allowing another confirmation.
->   Align compilation settings with directory and Skill pickers, full-path tooltips, frequency radio cards and time selection. Add file selection, historical comparison and file restore to Wiki history in a full-width document panel with the FileViewer diff renderer, hide history for ordinary resource files and while editing, improve pack upload, and keep model names and dashboard tooltips readable.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [fix(react): close command assists outside the input (#8269)](https://github.com/volcengine/OpenViking/commit/300ab8eb0746d917b7b968b7f739a28a5a5c04b5) | yufeng201 |
-| 2026-11-23 | [feat(queuefs): add durable PostgreSQL backend (#8233)](https://github.com/volcengine/OpenViking/commit/484347c192a1270b42ed500148e7511e653d96d0) | zhanglistar |
-| 2026-11-23 | [fix(grep): 将 Python 正则匹配迁移到 Rust (#8289)](https://github.com/volcengine/OpenViking/commit/d1b124c5d179880a907130b6703d2b3d4e295482) | qin-ctx |
-| 2026-11-23 | [fix(react): align file browser history scope and root breadcrumb (#8297)](https://github.com/volcengine/OpenViking/commit/ad0f4200aa7824f17b34e17adcaa1e1206a129d3) | LaamGinghong |
-| 2026-11-23 | [fix(react): align VikingBot activation copy (#8291)](https://github.com/volcengine/OpenViking/commit/951ec937407d88aa12411e2b0f5c1dc410cd8f2d) | LaamGinghong |
-| 2026-11-23 | [fix(bot): preserve remote skill integrity with privacy restoration (#…](https://github.com/volcengine/OpenViking/commit/5b7c655610caef9017ed0540474dc7d49db4f2db) | LIEGU0317 |
-| 2026-11-23 | [fix(react): support prelaunch agent connection instructions (#8288)](https://github.com/volcengine/OpenViking/commit/b8512a7d543271cdcd89e6adb5a56e6947934e8b) | leowld |
-| 2026-11-23 | [fix(react): keep draft references removable during replies (#8284)](https://github.com/volcengine/OpenViking/commit/9acd1857fa0b216df30b3e6567495744870a9988) | LaamGinghong |
-| 2026-11-23 | [fix(memory): 创建用户时预置记忆目录 (#8283)](https://github.com/volcengine/OpenViking/commit/38220ce53c3ca6659cf3f6dcdd6fba721cdd7fdf) | qin-ctx |
-| 2026-11-23 | [fix(react): keep FileBrowser panes usable when resizing (#8282)](https://github.com/volcengine/OpenViking/commit/ae3952e953e60f0609a2dd5a15cb87419ce2d401) | LaamGinghong |
+| 2026-11-24 | [fix(acl): restore empty-string grant decoding (#8371)](https://github.com/volcengine/OpenViking/commit/e13f0441eaf2a1beacba9002b5720aeb8bae970e) | chuanbao666 |
+| 2026-11-24 | [fix(react): 保持未知预览类型并修复前端测试 (#8369)](https://github.com/volcengine/OpenViking/commit/6b42f562583c132deb09a61cea57e02573f9f094) | cocolord |
+| 2026-11-24 | [test(react): 修复当前用户目录展开测试卡死 (#8367)](https://github.com/volcengine/OpenViking/commit/0a4e2d46fc6acec09496b2dfda8ca625b7d9c16c) | cocolord |
+| 2026-11-24 | [fix(compile): 修复增量编译漏处理和重复执行 (#7813)](https://github.com/volcengine/OpenViking/commit/dfad651fee8fede13dda3915477a452e1b31032a) | cocolord |
+| 2026-11-24 | [feat(parse): forward Feishu nested import options to Understanding AP…](https://github.com/volcengine/OpenViking/commit/6ebab8e04d2afc544ec487d177e65a3e04c37a8d) | ShaoZegangByte |
+| 2026-11-24 | [fix(docker): 移除已删除的 redis-mysql 构建依赖 (#8347)](https://github.com/volcengine/OpenViking/commit/39db38ac3c7f726f87b7f08e5488739ff6c24313) | qin-ctx |
+| 2026-11-24 | [test(client): 精简 Python HTTP 客户端契约测试 (#8343)](https://github.com/volcengine/OpenViking/commit/0c826b74a39f74fe2089bec4bf97172d90e2640f) | qin-ctx |
+| 2026-11-24 | [fix(auth): 将 OIDC 验签迁移到 PyJWT (#8330)](https://github.com/volcengine/OpenViking/commit/d925c6e7f922264f18c88d9f5e9942b5e2939e33) | qin-ctx |
+| 2026-11-24 | [test(server): 梳理服务端业务模块单测 (#8300)](https://github.com/volcengine/OpenViking/commit/0b19c82840c7a456e20a127f1447fd3eb7e8bb7a) | qin-ctx |
+| 2026-11-24 | [test(observability): 精简接入与可观测性契约测试 (#8301)](https://github.com/volcengine/OpenViking/commit/d2f47ca74ec8e5c945e9ebfc31926aaa503bc185) | qin-ctx |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

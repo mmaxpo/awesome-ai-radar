@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — Open Interpreter 0.0.61
-<sub>2026-11-11 · 12d ago</sub>
+<sub>2026-11-11 · 13d ago</sub>
 
 > **Open Interpreter 0.0.61**
 > **Models**
@@ -47,7 +47,7 @@
 > …
 
 ### [rust-v0.0.60](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.60) — Open Interpreter 0.0.60
-<sub>2026-11-09 · 14d ago</sub>
+<sub>2026-11-09 · 15d ago</sub>
 
 > **Open Interpreter 0.0.60**
 > **Models**
@@ -58,7 +58,7 @@
 > …
 
 ### [rust-v0.0.59](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.59) — Open Interpreter 0.0.59
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > **Open Interpreter 0.0.59**
 > **Models**
@@ -69,7 +69,7 @@
 > …
 
 ### [rust-v0.0.58](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.58) — Open Interpreter 0.0.58
-<sub>2026-11-01 · 22d ago</sub>
+<sub>2026-11-01 · 23d ago</sub>
 
 > **Open Interpreter 0.0.58**
 > **Models**
@@ -80,7 +80,7 @@
 > …
 
 ### [rust-v0.0.57](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.57) — Open Interpreter 0.0.57
-<sub>2026-10-31 · 23d ago</sub>
+<sub>2026-10-31 · 24d ago</sub>
 
 > **Open Interpreter 0.0.57**
 > **Models**

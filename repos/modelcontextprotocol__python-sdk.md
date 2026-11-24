@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Official Python SDK to build MCP servers/clients |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 24.9k |
+| ⭐ **Stars** | 25.0k |
 | 🍴 **Forks** | 4.2k |
 | 🐞 **Open issues + PRs** | [432](https://github.com/modelcontextprotocol/python-sdk/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `mcp` `mcp-server` `mcp-client` |
-| 🕒 **Last activity** | 2026-11-17 (6d ago) |
+| 🕒 **Last activity** | 2026-11-17 (7d ago) |
 | 📅 **Created** | 2024-09-24 |
 | 📦 **Latest release** | [v2.3.0](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0) — 2026-10-02 |
 | 🌿 **Default branch** | `main` |
@@ -69,7 +67,7 @@
 > …
 
 ### [v2.0.1](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.0.1)
-<sub>2026-08-26 · 2mo ago</sub>
+<sub>2026-08-26 · 3mo ago</sub>
 
 > One off backport of the FastMCP import warning for `2.0.x`, this is due to a lot of people running into this error and making issues on other repos about it. Ideally either pin `mcp<2` or upgrade to 2.
 > **What's Changed**

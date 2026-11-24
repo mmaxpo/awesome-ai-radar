@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 88% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-21 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 312.0 MB |
+| 💾 **Size** | 312.1 MB |
 | 🌐 **Website** | https://jupyterlab.readthedocs.io/ |
 
 ## 📦 Recent releases
 
 ### [v4.7.0b2](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b2) _(pre-release)_
-<sub>2026-11-16 · 6d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > **4.7.0b2**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b1...7e75a1f85fb7ee7f07c7301f7c4f69c1fb7d7618))
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.7.0b1](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b1) _(pre-release)_
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > **4.7.0b1**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b0...ca6210d371e287beb3735824a931824cc0048125))
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6)
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > **4.6.6**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.5...a5eab3ae655dd8cea81618efc936e110d3b22037))
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.6.5](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.5)
-<sub>2026-10-29 · 25d ago</sub>
+<sub>2026-10-29 · 26d ago</sub>
 
 > **4.6.5**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.4...9f5590d07b9a63402a628fe758654f30ee59c2e4))
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 25d ago</sub>
+<sub>2026-10-28 · 26d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Fix hidden metadata drafts being written into another cell or noteboo…](https://github.com/jupyterlab/jupyterlab/commit/2ffda9a7b8b42d76a6858abaffe4aab9c2f1872a) | krassowski |
+| 2026-11-23 | [Drop `@babel/preset-env`, `@stdlib/stats` and three lint plugins (#20…](https://github.com/jupyterlab/jupyterlab/commit/8d24f8deb10ba6e65c0350bc235a4e105ea7396a) | krassowski |
 | 2026-11-21 | [Skip irrelevant CI jobs on forks (#20576)](https://github.com/jupyterlab/jupyterlab/commit/8f54fc644a1bf840c4c0b9a66a1ecbab48abd53c) | krassowski |
 | 2026-11-21 | [Fix Extension Manager acting on the npm name instead of the Python pa…](https://github.com/jupyterlab/jupyterlab/commit/020fe7364edd12b3c980791cf7ded49b2ee0d67b) | krassowski |
 | 2026-11-21 | [Make CI faster by switching some jobs to build with `skipLibCheck: tr…](https://github.com/jupyterlab/jupyterlab/commit/e77dbc363642eb3d18dbcba29dfad6187b494dcb) | krassowski |
@@ -102,8 +104,6 @@
 | 2026-11-20 | [Unskip 49/51 remaining skipped Firefox UI tests (#20526)](https://github.com/jupyterlab/jupyterlab/commit/94715db27e023df1f7daf5107f782dd206d3f5f4) | krassowski |
 | 2026-11-20 | [List a subset of known (hard-coded) extensions in the Extension Manag…](https://github.com/jupyterlab/jupyterlab/commit/9d38eb0307d3b0d622e1d5d1fc2de6f822a3bb3d) | krassowski |
 | 2026-11-20 | [Prevent overwriting directories and avoid duplicate save on Save As (…](https://github.com/jupyterlab/jupyterlab/commit/adcb6f8af341909efb4af6743f4e0f31025d562a) | Yash990-bit |
-| 2026-11-20 | [Queue console execution during startup (#19148)](https://github.com/jupyterlab/jupyterlab/commit/c6461383200fd3e83c88aa139f4651d104292949) | MUFFANUJ |
-| 2026-11-19 | [Bump xterm.js to 6.1.0 beta to fix Option key on macOS (#20033)](https://github.com/jupyterlab/jupyterlab/commit/d9b9ce566e2e35135f886a1ea812baaafd488c14) | Darshan808 |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

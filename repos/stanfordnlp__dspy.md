@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 39.2k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [827](https://github.com/stanfordnlp/dspy/issues) |
+| 🐞 **Open issues + PRs** | [834](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-21 (2d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-01-09 |
 | 📦 **Latest release** | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0)
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **DSPy 3.5: A Lighter, Faster Foundation**
 > DSPy 3.5 brings a lighter LM layer, graduated core modules, and new History and image capabilities for RLM.
@@ -58,7 +58,7 @@
 > …
 
 ### [3.4.0](https://github.com/stanfordnlp/dspy/releases/tag/3.4.0)
-<sub>2026-09-25 · 1mo ago</sub>
+<sub>2026-09-25 · 2mo ago</sub>
 
 > **DSPy 3.4.0**
 > DSPy 3.4 introduces **Jev integration through TypeSafe**, with three experimental decision types—`Noul`, `Choice`, and `Score`—that bring probability evidence into ordinary DSPy signatures. ReAnchor calibrates those decisions against your program's metric. This release also introduces native LM engines, a local CPython interpreter for trusted code, async ReActV2, and versioned documentation.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Refresh model metadata provenance to LiteLLM 1.110.3 (#10952)](https://github.com/stanfordnlp/dspy/commit/2ae73ca33372aa0a172bcb27584f03aaaf4d7e18) | isaacbmiller |
 | 2026-11-21 | [Refresh model metadata provenance to LiteLLM 1.110.2 (#10933)](https://github.com/stanfordnlp/dspy/commit/226d534da38ab8a39e4d6383e01e121dab50da51) | isaacbmiller |
 | 2026-11-19 | [Refresh model metadata provenance to LiteLLM 1.110.1 (#10917)](https://github.com/stanfordnlp/dspy/commit/7fbc8ff1665ee87122f06633270782dbf1f69c6b) | isaacbmiller |
 | 2026-11-18 | [Refresh LiteLLM metadata to 1.110.0 and resolve catalog aliases (#10905)](https://github.com/stanfordnlp/dspy/commit/9d3a8eb04618907854256e5b0fa88ea29e53e10b) | isaacbmiller |
@@ -103,7 +104,6 @@
 | 2026-11-10 | [fix(dspy): find dspy's distribution by the package it installs (#10864)](https://github.com/stanfordnlp/dspy/commit/4e9db7a83e71e4c36315a2402ae7ffd0c6493404) | isaacbmiller |
 | 2026-11-10 | [fix(clients): exclude LiteLLM releases with eager MCP imports (#10863)](https://github.com/stanfordnlp/dspy/commit/4f2ecefc50a31d9e67b621f88c072cee17736753) | isaacbmiller |
 | 2026-11-10 | [docs(dspy): add concise DSPy 3.5 upgrade guide (#10862)](https://github.com/stanfordnlp/dspy/commit/743b0ce16dae7be1e64858724bde95746dacc15b) | isaacbmiller |
-| 2026-11-10 | [docs: make the RLM sandbox package example executable (#10860)](https://github.com/stanfordnlp/dspy/commit/471b3fb0e4efad45dbac980e42b1258f55a245cf) | isaacbmiller |
 
 [See all commits ↗](https://github.com/stanfordnlp/dspy/commits)
 

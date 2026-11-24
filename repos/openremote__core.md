@@ -21,22 +21,33 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.2k |
-| 🍴 **Forks** | 530 |
-| 🐞 **Open issues + PRs** | [498](https://github.com/openremote/core/issues) |
+| 🍴 **Forks** | 532 |
+| 🐞 **Open issues + PRs** | [492](https://github.com/openremote/core/issues) |
 | 💻 **Languages** | Java 48% · TypeScript 26% · Groovy 19% · Shell 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `iot-platform` `iot` `energy` `building` `mqtt` `smartcity` `dashboard` `asset-management` `mqtt-broker` `dataplatform` `rules-engine` `fleet-management` `energy-monitor` `energy-management` `fleet-telematics` `device-management` `edge-computing` `iot-application` `modbus` `ota-update` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2016-02-03 |
-| 📦 **Latest release** | [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1) — 2026-11-17 |
+| 📦 **Latest release** | [1.35.0](https://github.com/openremote/core/releases/tag/1.35.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 304.4 MB |
+| 💾 **Size** | 304.5 MB |
 | 🌐 **Website** | https://openremote.io |
 
 ## 📦 Recent releases
 
+### [1.35.0](https://github.com/openremote/core/releases/tag/1.35.0)
+<sub>2026-11-24 · today</sub>
+
+> > [!IMPORTANT]
+> > We have addressed the CVE-2026-114938 Java4Shell vulnerability in this latest Docker image, with an OpenJDK upgrade in #3592.
+> > Unless manually resolved, it's recommended to upgrade OpenRemote to this version, to prevent misuse of an exploit.
+> **⚠️ Important notes / Before you upgrade ⚠️**
+> - **`sendAttributeEvent` now fails fast when event processing is unavailable** ([#3593](https://github.com/openremote/core/pull/3593)).
+>   `AssetProcessingService.sendAttributeEvent(...)` throws `AttributeEventProcessorUnavailableException` (an `IllegalStateException`) on the calling thread if Camel or the attribute-processing route is unavailable; previously the event was silently dropped. Move startup attribute writes from `ContainerService.start()` to `startProducers()`, and handle the exception at submission in tasks that must keep running across a route outage.
+> …
+
 ### [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1)
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **What's Changed**
 > **🐞 Bug fixes**
@@ -47,7 +58,7 @@
 > …
 
 ### [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0)
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > > [!NOTE]
 > > We have also recently published a new `openremote/keycloak` release, version `26.7.5.0`, that introduces a new UI design!
@@ -58,7 +69,7 @@
 > …
 
 ### [1.33.0](https://github.com/openremote/core/releases/tag/1.33.0)
-<sub>2026-10-27 · 27d ago</sub>
+<sub>2026-10-27 · 28d ago</sub>
 
 > **⚠️  Important notes / Before you upgrade ⚠️**
 > - **Minor behavior changes in datapoint query requests.**
@@ -79,31 +90,20 @@
 > * Add manager URL to Keycloak container by @Ekhorn in https://github.com/openremote/core/pull/3412
 > …
 
-### [1.32.1](https://github.com/openremote/core/releases/tag/1.32.1)
-<sub>2026-10-14 · 1mo ago</sub>
-
-> > [!NOTE]
-> > **As of October 13th, the repository has been renamed from `openremote/openremote` to `openremote/core`.**
-> > **We have also renamed the `master` branch to `main`, following the latest standards.**
-> > If you maintain a custom project that uses these references, we recommend updating them to prevent issues.
-> > All package distributions of OpenRemote (Docker, etc) have not been changed, and are unaffected.
-> **What's Changed**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Update `AGENTS.md` to prevent AI accreditation on commits (#3615)](https://github.com/openremote/core/commit/3617eba26f8553c50de2a25757825e307e9804ad) | denniskuijs |
+| 2026-11-24 | [Improve startup sequence to avoid starvation on event processing (#3593)](https://github.com/openremote/core/commit/c748e4f6eb76e5cb9e9a96cd5a8bdca8dc244649) | ebariaux |
+| 2026-11-24 | [Assert the value descriptor schema hash in AssetModelTest (#3586)](https://github.com/openremote/core/commit/028bff97be5493274d4d2eb66ef9dae272d4f3b1) | costajohnt |
+| 2026-11-24 | [Pin versions for query-exporter and sish (#3613)](https://github.com/openremote/core/commit/f9614581708444d0b18aeb3a2168258083e7db04) | denniskuijs |
+| 2026-11-24 | [Render map marker values as text](https://github.com/openremote/core/commit/7a44522b7b48620689a8510b02a595d8f1d167f0) | Ekhorn |
+| 2026-11-24 | [Fall back to the previous version of the create-ec2 CFT template (#3612)](https://github.com/openremote/core/commit/d6094b9a07bd902fed2f39320ae19682a35226af) | denniskuijs |
+| 2026-11-24 | [Bump github/codeql-action/upload-sarif from 4.39.3 to 4.39.4 (#3610)](https://github.com/openremote/core/commit/0e80a4188f3cd1c899488a0a2437ba472fe4db10) | dependabot[bot] |
+| 2026-11-24 | [Bump actions/create-github-app-token from 3.3.0 to 3.4.0 (#3611)](https://github.com/openremote/core/commit/8d57f6a17c58439b64198588ec534ec48d8f18eb) | dependabot[bot] |
+| 2026-11-23 | [Ask for template parameters on config template import (#3564)](https://github.com/openremote/core/commit/d7fed6f6aa65dedd8fd3223214e9a72daac54476) | Ekhorn |
 | 2026-11-23 | [Clean up state left by backend specs and fix UI test role lookup (#3594)](https://github.com/openremote/core/commit/39a171a2338070449200df77105514af23183e50) | Ekhorn |
-| 2026-11-23 | [Misc kubernetes related updates (#3606)](https://github.com/openremote/core/commit/8bfb786bbfac0e5cb3d414b05ba66600c27e2b06) | ebariaux |
-| 2026-11-23 | [On idle remove duplicate cluster marker after zooming (#3598)](https://github.com/openremote/core/commit/a5bf13f15e4ef1b43c0ed64fc33266a227b60d3a) | Ekhorn |
-| 2026-11-23 | [Fall back to the previous version of the create-ec2 CFT template (#3609)](https://github.com/openremote/core/commit/21cb91ef09c3d30cccd91f34547490b8994d4cb1) | denniskuijs |
-| 2026-11-23 | [Make Grype output both sarif/table formats at once (#3595)](https://github.com/openremote/core/commit/51c8079834652e917bb6e5f0b576f0a45d4299f5) | Ekhorn |
-| 2026-11-23 | [Use US English in text, preserving public APIs (#3571)](https://github.com/openremote/core/commit/de24b446bf37c76364c740d3ae5dd9b4d17b47cc) | wborn |
-| 2026-11-23 | [Bump com.icegreen:greenmail from 2.1.9 to 2.1.15 (#3528)](https://github.com/openremote/core/commit/ab398eb038ca023249be125a4b05e58ec898243a) | dependabot[bot] |
-| 2026-11-23 | [Set PostgreSQL idle in transaction session timeout in deploy profile …](https://github.com/openremote/core/commit/987f7655af006e12c1a6728758744dc51eec542b) | richturner |
-| 2026-11-23 | [Reduce query-exporter false positives and add asset table size metric…](https://github.com/openremote/core/commit/083427b7f98685695ac8b4fa20fc14f4a0f4903a) | richturner |
-| 2026-11-23 | [Add MQTT connection status to load2 fixtures (#3602)](https://github.com/openremote/core/commit/6d3a1a200eaea3509ec7d9f72818f43cb059a4ff) | ebariaux |
 
 [See all commits ↗](https://github.com/openremote/core/commits)
 

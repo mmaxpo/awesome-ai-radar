@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 148.3k |
+| ⭐ **Stars** | 148.4k |
 | 🍴 **Forks** | 17.7k |
 | 🐞 **Open issues + PRs** | [5.6k](https://github.com/Comfy-Org/ComfyUI/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `stable-diffusion` `pytorch` `ai` `python` `comfy` `comfyui` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-01-17 |
 | 📦 **Latest release** | [v0.46.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.46.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(LTX): add AlphaGen, SDR to HDR, Reframe and Upscale nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17664
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0)
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **What's Changed**
 > * Bump comfyui-frontend-package to 1.58.5 by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/17442
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.44.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0)
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(Patina): add Patina texture nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17384
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.0)
-<sub>2026-10-27 · 27d ago</sub>
+<sub>2026-10-27 · 28d ago</sub>
 
 > **What's Changed**
 > * model_prefetch: syncrhonize all graph cleanups by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/17178
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Missing custom nodes folders should not cause a startup crash. (#17954)](https://github.com/Comfy-Org/ComfyUI/commit/da8bd08e48deee74d9f6c3bc00aed365b00ec209) | comfyanonymous |
+| 2026-11-23 | [Serve an empty stylesheet when user.css is missing (#17928)](https://github.com/Comfy-Org/ComfyUI/commit/2fcb6cef9ab1b6dc556b7cff1765a0724ad5e884) | DrJKL |
+| 2026-11-23 | [Fix Video Deflicker warp on Apple MPS (#17940)](https://github.com/Comfy-Org/ComfyUI/commit/1b7d0861e480310cc514c334a7c364b108892d5a) | harmehak0173 |
+| 2026-11-23 | [Update workflow templates to v0.11.118 (#17949)](https://github.com/Comfy-Org/ComfyUI/commit/3e5b865db9adbb2a19f66ee0270b07c3efac269e) | comfyui-wiki |
+| 2026-11-23 | [Update workflow templates to v0.11.117 (#17944)](https://github.com/Comfy-Org/ComfyUI/commit/801c4a82c27b14e6b6d0a7270a23ec9f85824b16) | comfyui-wiki |
+| 2026-11-23 | [Support w3 and w5 quantization formats (#17938)](https://github.com/Comfy-Org/ComfyUI/commit/a88593173fa3eb31fa25f2ad2db9521f7bb74744) | kijai |
+| 2026-11-23 | [[Partner Nodes] feat(Anthropic): move Claude node to Comfy Router (#1…](https://github.com/Comfy-Org/ComfyUI/commit/720e923631e685e9cb28b9e2cc7b43f82b44033f) | bigcat88 |
 | 2026-11-23 | [[Partner Nodes] feat(Meshy): add N1 texture and Image to Relief nodes…](https://github.com/Comfy-Org/ComfyUI/commit/830ccd9ee78811508453ee1a042bf83a6a280b8a) | bigcat88 |
 | 2026-11-23 | [[Partner Nodes] feat(Gemini-LLM): add Gemini 4 Neon to the Gemini tex…](https://github.com/Comfy-Org/ComfyUI/commit/f08f28aaac5447af3b2e8a83e2f53c8774d23151) | bigcat88 |
 | 2026-11-23 | [[Partner Nodes] fix(video): keep rotation when resizing videos for up…](https://github.com/Comfy-Org/ComfyUI/commit/fa68736d5f84cbea8fb10466205bc6fdd41a274c) | bigcat88 |
-| 2026-11-23 | [cleanup last commit. (#17932)](https://github.com/Comfy-Org/ComfyUI/commit/5ea159fa614bca9fb38a25a099189d6d0b4f3597) | comfyanonymous |
-| 2026-11-23 | [Fix Wan 2.2 VAE strips crashing on MPS (#17757)](https://github.com/Comfy-Org/ComfyUI/commit/b6a958c6c193bbc62be7498c2585fae003cfd039) | vqt123 |
-| 2026-11-22 | [[Partner Nodes] feat(TypeSafe): add TypeSafe Jev Yes/No, Choice, Pick…](https://github.com/Comfy-Org/ComfyUI/commit/4c2b826d74a1827f5cc4a706608fc4653ed12972) | bigcat88 |
-| 2026-11-22 | [[Partner Nodes] feat(ElevenLabs): add SFX v3 to the Text to Sound Eff…](https://github.com/Comfy-Org/ComfyUI/commit/8b25bbc371b73e876996cf14c917d075d78de2ee) | bigcat88 |
-| 2026-11-22 | [Name the problem when an LTXV node gets a VAE that does not encode vi…](https://github.com/Comfy-Org/ComfyUI/commit/4708f03f67f1d5594d14e6e73e4c7ded1f1ac1f4) | christian-byrne |
-| 2026-11-22 | [Keep context window accumulators on the intermediate device (#17884)](https://github.com/Comfy-Org/ComfyUI/commit/4bff04177c25cf1f1448ee0e1209f175059a9b35) | kijai |
-| 2026-11-22 | [Reduce Flux activation memory for UltraTex sequences (#17688)](https://github.com/Comfy-Org/ComfyUI/commit/a427399ccedbe94ce508a5c23a74663ada4e4c93) | kijai |
 
 [See all commits ↗](https://github.com/Comfy-Org/ComfyUI/commits)
 

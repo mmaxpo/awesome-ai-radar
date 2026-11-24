@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 109.1k |
-| 🍴 **Forks** | 12.3k |
+| ⭐ **Stars** | 109.3k |
+| 🍴 **Forks** | 12.4k |
 | 🐞 **Open issues + PRs** | [1.4k](https://github.com/nexu-io/open-design/issues) |
 | 💻 **Languages** | TypeScript 72% · HTML 21% · CSS 4% · Python 1% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-design` `byok` `design-systems` `claude-design` `hermes-agent` `agent-skills` `desktop-app` `figma-alternative` `prototyping` `ui-generator` `claude-code-for-design` `codex-design` `cursor-design` `deepseek-harness` `dsh-plugin` `dsh` `deepseek` `desktop-apps` `local-first` `vibe-coding` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-04-28 |
 | 📦 **Latest release** | [open-design-v0.27.2](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.2) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3575.4 MB |
+| 💾 **Size** | 3575.3 MB |
 | 🌐 **Website** | https://open-design.ai |
 
 ## 📦 Recent releases
 
 ### [open-design-v0.27.2](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.2) — Open Design 0.27.2 — Clearer Quotas, Sharper Displays
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **🌟 Codename: *Clearer Quotas, Sharper Displays***
 > 0.27.2 is a focused reliability patch for the 0.27 line. No new surface—just clearer signals when a limit resets, a project action fails, a display changes, or a Mac app updates itself.
@@ -47,7 +47,7 @@
 > …
 
 ### [open-design-v0.27.1](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.1) — OpenDesign 0.27.1 — Invite Friends, Earn Reset
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > Get up to 6 RESET on OpenDesign 🎉
 > Invite a friend to OpenDesign. When they sign up through your link and start their first paid subscription within 48 hours, you each receive a Reset Card if eligible. Use it to reset your Design Plan usage limits.
@@ -58,7 +58,7 @@
 > …
 
 ### [open-design-v0.27.0](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.0) — Open Design 0.27.0 — CoRouter for Teams
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > **🌟 Codename: *CoRouter for Teams***
 > **Unlimited seats. Shared credits.** One subscription gives your team shared access to model credits. Invite colleagues to your workspace for free, with no extra seat fees. Create in Open Design or call models through the API using the same shared credits. The workspace owner manages the subscription, upgrades and top-ups.

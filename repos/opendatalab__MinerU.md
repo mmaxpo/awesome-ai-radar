@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 84.2k |
+| ⭐ **Stars** | 84.3k |
 | 🍴 **Forks** | 7.0k |
-| 🐞 **Open issues + PRs** | [16](https://github.com/opendatalab/MinerU/issues) |
+| 🐞 **Open issues + PRs** | [21](https://github.com/opendatalab/MinerU/issues) |
 | 💻 **Languages** | Python 98% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `extract-data` `layout-analysis` `ocr` `parser` `pdf` `pdf-converter` `python` `document-analysis` `pdf-parser` `pdf-extractor-llm` `pdf-extractor-pretrain` `pdf-extractor-rag` `ai4science` `docx` `pptx` `xlsx` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-22 (yesterday) |
 | 📅 **Created** | 2024-02-29 |
 | 📦 **Latest release** | [mineru-4.2.3-released](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.3-released) — 2026-11-16 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [mineru-4.2.3-released](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.3-released) — MinerU 4.2.3
-<sub>2026-11-16 · 6d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > **4.2.3**
 > - **新增单文件执行超时与托管恢复**。WebUI、Router 和 API Server 支持 `--task-timeout`，默认 `3600` 秒，从取得解析名额开始计时，覆盖解析和服务端产物打包。超时任务返回 `task_timeout`，独立 API 停止接收新任务，由部署方重建服务。Router 通过父进程监督回收超时 worker 及模型子进程，并重新启动服务，即使执行线程、事件循环或取消清理挂起也能触发恢复。
@@ -47,7 +47,7 @@
 > …
 
 ### [mineru-4.2.2-released](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.2-released) — MinerU 4.2.2
-<sub>2026-11-13 · 10d ago</sub>
+<sub>2026-11-13 · 11d ago</sub>
 
 > **4.2.2**
 > - **完善本地 VLM 引擎的故障传播与生命周期管理**。统一消费 LMDeploy、vLLM、llama.cpp 和 MLX 的公共健康与失效契约；确认引擎失效后停止复用缓存实例，并通知关联宿主，避免把全局故障当作普通识别失败而静默降级。普通单片识别失败仍保留既有回退。
@@ -58,7 +58,7 @@
 > …
 
 ### [mineru-4.2.1-released](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.1-released) — MinerU 4.2.1
-<sub>2026-11-11 · 12d ago</sub>
+<sub>2026-11-11 · 13d ago</sub>
 
 > **4.2.1**
 > - **修复 Doclib 截断续读遗漏内容**。Markdown 文档或单页读取在 `context=0` 时，达到长度限制后通过 `next_request.locator` 与 `next_request.after` 继续读取当前页的剩余内容，读完后再建议下一页。CLI 续读标记和 SDK 文档同步更新。
@@ -69,7 +69,7 @@
 > …
 
 ### [mineru-4.2.0-released](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.0-released) — MinerU 4.2.0
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **4.2.0**
 > MinerU 4.2.0 重点升级 WebUI 交互与结果溯源，改善复杂 PDF、公式和表格的解析质量，并完善设备选择、模型缓存、服务管理与输入安全。以下为相对 4.1.0 的累计更新，包含 4.1.x 期间已发布的改进。
@@ -80,7 +80,7 @@
 > …
 
 ### [mineru-4.1.7-released](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.1.7-released) — MinerU 4.1.7
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > MinerU 4.1.7 adds persistent authentication for the local document library and improves layout detection.
 > - Require a persistent bearer token for Doclib HTTP endpoints. The SDK reads local credentials automatically; direct HTTP integrations must send the token.

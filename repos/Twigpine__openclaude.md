@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 34.5k |
 | 🍴 **Forks** | 9.1k |
-| 🐞 **Open issues + PRs** | [37](https://github.com/Twigpine/openclaude/issues) |
+| 🐞 **Open issues + PRs** | [36](https://github.com/Twigpine/openclaude/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `ai-agent` `ai-tools` `cli` `coding` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-04-01 |
 | 📦 **Latest release** | [v0.37.0](https://github.com/Twigpine/openclaude/releases/tag/v0.37.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 39.6 MB |
+| 💾 **Size** | 39.7 MB |
 | 🌐 **Website** | https://openclaude.twigpine.com |
 
 ## 📦 Recent releases
 
 ### [v0.37.0](https://github.com/Twigpine/openclaude/releases/tag/v0.37.0)
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > **[0.37.0](https://github.com/Twigpine/openclaude/compare/v0.36.0...v0.37.0) (2026-11-17)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.36.0](https://github.com/Twigpine/openclaude/releases/tag/v0.36.0)
-<sub>2026-11-13 · 10d ago</sub>
+<sub>2026-11-13 · 11d ago</sub>
 
 > **[0.36.0](https://github.com/Twigpine/openclaude/compare/v0.35.1...v0.36.0) (2026-11-11)**
 > **Features**
@@ -58,14 +58,14 @@
 > …
 
 ### [v0.35.1](https://github.com/Twigpine/openclaude/releases/tag/v0.35.1)
-<sub>2026-11-09 · 14d ago</sub>
+<sub>2026-11-09 · 15d ago</sub>
 
 > **[0.35.1](https://github.com/Twigpine/openclaude/compare/v0.35.0...v0.35.1) (2026-11-09)**
 > **Bug Fixes**
 > * **opengateway:** cache the live model list for an hour, not a day ([#2490](https://github.com/Twigpine/openclaude/issues/2490)) ([96fb014](https://github.com/Twigpine/openclaude/commit/96fb01476901f54c8fdfa25b6909253907a47209))
 
 ### [v0.35.0](https://github.com/Twigpine/openclaude/releases/tag/v0.35.0)
-<sub>2026-11-09 · 14d ago</sub>
+<sub>2026-11-09 · 15d ago</sub>
 
 > **[0.35.0](https://github.com/Twigpine/openclaude/compare/v0.34.0...v0.35.0) (2026-11-09)**
 > **Features**
@@ -76,7 +76,7 @@
 > …
 
 ### [v0.34.0](https://github.com/Twigpine/openclaude/releases/tag/v0.34.0)
-<sub>2026-11-02 · 21d ago</sub>
+<sub>2026-11-02 · 22d ago</sub>
 
 > **[0.34.0](https://github.com/Twigpine/openclaude/compare/v0.33.0...v0.34.0) (2026-11-02)**
 > **Features**
@@ -90,6 +90,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [fix(gemini): show a blocked-reply notice for SAFETY/RECITATION instea…](https://github.com/Twigpine/openclaude/commit/9b92b89ccbaf7fc070b5ee0c01a2126bb7930643) | pcbeingused333 |
 | 2026-11-22 | [feat: /focus command and focus view for the fullscreen transcript (#2…](https://github.com/Twigpine/openclaude/commit/97a3158a03d88a4bed71a9f9a0344a4acfb0aa38) | beardthelion |
 | 2026-11-21 | [feat(sdk): add host-facing authenticateMcpServer for OAuth MCP server…](https://github.com/Twigpine/openclaude/commit/3beebbfdca7bdb1ff35eeb1f94a2b33187e26f77) | AdityaxDeore |
 | 2026-11-20 | [feat(repo-map): support Java source files (#2559)](https://github.com/Twigpine/openclaude/commit/4ba28e2537ce6a099b534c62ca53838fe18ce3bf) | Ayush7614 |
@@ -99,7 +100,6 @@
 | 2026-11-20 | [feat(repo-map): support Go and Rust source files (#2551)](https://github.com/Twigpine/openclaude/commit/12203a3d899e2d58c95b8b205c97c450cbd42e76) | Ayush7614 |
 | 2026-11-19 | [feat(bg): add scriptable wait command for background sessions (#2557)](https://github.com/Twigpine/openclaude/commit/c61b6b58a2d0f8bb11eaf5d5eec41629ccc49080) | jatmn |
 | 2026-11-18 | [feat: run task-capable MCP tools as server tasks in the background (#…](https://github.com/Twigpine/openclaude/commit/036abbd6dc88a51abb7b78113a5b30415aa5b9de) | beardthelion |
-| 2026-11-18 | [fix(sdk): isolate transcript file pointer per SDK session context (#2…](https://github.com/Twigpine/openclaude/commit/7079222e76a4eeab1285da8690f0d4fa25f92aca) | AdityaxDeore |
 
 [See all commits ↗](https://github.com/Twigpine/openclaude/commits)
 

@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 21.8k |
+| ⭐ **Stars** | 21.9k |
 | 🍴 **Forks** | 1.9k |
 | 🐞 **Open issues + PRs** | [126](https://github.com/img2threejs/img2threejs/issues) |
 | 💻 **Languages** | Python 97% · JavaScript 2% |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1) — 2026-11-05 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 37.9 MB |
+| 💾 **Size** | 43.8 MB |
 | 🌐 **Website** | https://img2threejs.io |
 
 ## 📦 Recent releases
 
 ### [v2.0.1](https://github.com/img2threejs/img2threejs/releases/tag/v2.0.1)
-<sub>2026-11-05 · 18d ago</sub>
+<sub>2026-11-05 · 19d ago</sub>
 
 > **What's Changed**
 > **Other Changes**

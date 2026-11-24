@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 108.9k |
+| ⭐ **Stars** | 109.0k |
 | 🍴 **Forks** | 16.8k |
-| 🐞 **Open issues + PRs** | [6](https://github.com/rasbt/LLMs-from-scratch/issues) |
+| 🐞 **Open issues + PRs** | [5](https://github.com/rasbt/LLMs-from-scratch/issues) |
 | 💻 **Languages** | Jupyter Notebook 73% · Python 27% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `gpt` `large-language-models` `llm` `python` `pytorch` `ai` `artificial-intelligence` `language-model` `deep-learning` `machine-learning` `from-scratch` `generative-ai` `transformers` `attention-mechanism` `finetuning` `instruction-tuning` `natural-language-processing` `pretraining` `tokenizer` |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-07-23 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Forward `allowed_special` in `Llama3Tokenizer.encode` (#1121)](https://github.com/rasbt/LLMs-from-scratch/commit/59a6a32121899211bf57b2e8ae16540a5c9b1d45) | MohammadHijjawi97 |
 | 2026-11-22 | [Fix inverted checkpoint condition in Gutenberg pretraining script (#1…](https://github.com/rasbt/LLMs-from-scratch/commit/5790c0c50bcb7d95bf9ee39f438c09ea31826b7d) | MohammadHijjawi97 |
 | 2026-11-21 | [Correct softmax output shape comments (#1124)](https://github.com/rasbt/LLMs-from-scratch/commit/3040b6cdb75ddbd96a33d3beae17dc03dcd1ebc3) | 2kclo3 |
 | 2026-11-21 | [Add a Chapter 2 bonus on strided data loading (#1125)](https://github.com/rasbt/LLMs-from-scratch/commit/ad8bcdc2243557bfda7a271c72da294c94f5537f) | rasbt |
@@ -50,7 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-06 | [Fix dtype of preallocated KV cache in optimized GPT implementation (#…](https://github.com/rasbt/LLMs-from-scratch/commit/c6222b00cc3cf6eff0c846ec96759f7e8ab406a2) | MohammadHijjawi97 |
 | 2026-11-06 | [Fix training loss in hparam search summary (#1110)](https://github.com/rasbt/LLMs-from-scratch/commit/b5a5165420946487fa0030d3d6729d457c0f6ab5) | NotAFlightRisk |
 | 2026-11-05 | [Fix off-by-one in max_generable of optimized KV cache generation (#1109)](https://github.com/rasbt/LLMs-from-scratch/commit/b093eb06c2973625a2d3994530cce1c15b782886) | MohammadHijjawi97 |
-| 2026-11-05 | [Update reasoning-from-scratch submodule (#1108)](https://github.com/rasbt/LLMs-from-scratch/commit/73961695d50b842ab5df7b1b12cd72cea5b777e8) | rasbt |
 
 [See all commits ↗](https://github.com/rasbt/LLMs-from-scratch/commits)
 

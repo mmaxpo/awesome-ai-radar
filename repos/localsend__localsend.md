@@ -20,20 +20,31 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.4k |
+| ⭐ **Stars** | 100.6k |
 | 🍴 **Forks** | 5.8k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
 | 💻 **Languages** | Dart 79% · Rust 18% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `flutter` `file-sharing` `dart` `flutter-apps` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2022-12-16 |
-| 📦 **Latest release** | [v1.18.2](https://github.com/localsend/localsend/releases/tag/v1.18.2) — 2026-08-21 |
+| 📦 **Latest release** | [v1.19.0](https://github.com/localsend/localsend/releases/tag/v1.19.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 23.9 MB |
 | 🌐 **Website** | https://localsend.org |
 
 ## 📦 Recent releases
+
+### [v1.19.0](https://github.com/localsend/localsend/releases/tag/v1.19.0)
+<sub>2026-11-24 · today</sub>
+
+> This release also added the rpm package for the first time (e.g. for Fedora users).
+> Please note a breaking change in the CLI API when sending files.
+> - feat: make sending checksums opt-in (@Tienisto)
+> - feat: format timestamps using system date and time settings (@ShlomoCode)
+> - feat: add keyboard shortcuts to accept or decline incoming transfers (@Tienisto)
+> - feat: restore hashtag codes for connecting to devices (@Tienisto)
+> …
 
 ### [v1.18.2](https://github.com/localsend/localsend/releases/tag/v1.18.2)
 <sub>2026-08-21 · 3mo ago</sub>
@@ -78,29 +89,20 @@
 > - feat(android): add option to open gallery when image/video was automatically saved (@Tienisto)
 > …
 
-### [v1.16.1](https://github.com/localsend/localsend/releases/tag/v1.16.1)
-<sub>2024-11-05 · 2y ago</sub>
-
-> **Summary**
-> - feat: show exact error message when using IP address dialog or favorite dialog (@Tienisto)
-> - feat(desktop): highlight file when tapping "Show in folder" (@Tienisto)
-> - fix(android): properly close app on back gesture (@Tienisto)
-> [Full Changelog](https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md)
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [ci: build android with JDK 21 to match F-Droid (#3758)](https://github.com/localsend/localsend/commit/44f48f18a5503c43873570ff489d27ff1983e198) | Tienisto |
+| 2026-11-23 | [docs: update changelog](https://github.com/localsend/localsend/commit/b3b5f647d73e734636014c1cf2b44a7cbafd1fb6) | Tienisto |
+| 2026-11-23 | [fix: drop i18n from changelog content (#3757)](https://github.com/localsend/localsend/commit/6f7f49820371f72a292194dc5cdb0f50ba4d07f9) | Tienisto |
+| 2026-11-23 | [Fix message input dialog overflow with large text (#3749)](https://github.com/localsend/localsend/commit/58e742179572a53a45e557e87231d15d888470a7) | ArtemChikolaev |
 | 2026-11-23 | [fix: preserve extension case and leading dot in FilePathStringExt.wit…](https://github.com/localsend/localsend/commit/89881acb32c9edf6a4bdffc4e21214bf0321708e) | lingyicute |
 | 2026-11-23 | [feat: group the changelog by release and show what's new after an upd…](https://github.com/localsend/localsend/commit/1be89369573775e9bc573ce236a9d59fc510767a) | ShlomoCode |
 | 2026-11-23 | [docs: update changelog](https://github.com/localsend/localsend/commit/d8702511dfb074d795452a9204ba3c9473f4f01f) | Tienisto |
 | 2026-11-23 | [fix: anonymous sender fingerprint (#3754)](https://github.com/localsend/localsend/commit/0d9060eeebc2b422522958ade46067d19982d3c0) | Tienisto |
 | 2026-11-23 | [chore: bump rustls to 0.23.46 (#3753)](https://github.com/localsend/localsend/commit/ebd0473c79b7e84eb8b79ba767a4b3ac39d7ee3c) | Tienisto |
 | 2026-11-23 | [docs: update release date](https://github.com/localsend/localsend/commit/11af648e2ad29222cac7bca967d094750f339cdd) | Tienisto |
-| 2026-11-22 | [feat: Add support for Alpine Linux CLI (#3752)](https://github.com/localsend/localsend/commit/12d127724828e194566d9b9848dc97d438b52be0) | julianxhokaxhiu |
-| 2026-11-22 | [fix(windows): close running app and remove autostart, Send to shortcu…](https://github.com/localsend/localsend/commit/9dddabf8e95298f90e9c1e76bd96e4c4e44c9681) | Tienisto |
-| 2026-11-22 | [fix(windows): render LocalSend icon in the Share Sheet & "Share with"…](https://github.com/localsend/localsend/commit/eb61b5f10119c47161cbd20d4a1e4edd4e308489) | ShlomoCode |
-| 2026-11-21 | [ci: locate makeappx in Windows SDK bin instead of App Certification K…](https://github.com/localsend/localsend/commit/19c02034291ae9ef24dc1a6611aa126115a86ad1) | Tienisto |
 
 [See all commits ↗](https://github.com/localsend/localsend/commits)
 

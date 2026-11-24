@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 55.6k |
+| ⭐ **Stars** | 56.0k |
 | 🍴 **Forks** | 4.6k |
-| 🐞 **Open issues + PRs** | [356](https://github.com/alibaba/open-code-review/issues) |
+| 🐞 **Open issues + PRs** | [342](https://github.com/alibaba/open-code-review/issues) |
 | 💻 **Languages** | Go 70% · JavaScript 11% · TypeScript 10% · Kotlin 5% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-05-18 |
-| 📦 **Latest release** | [v1.14.2](https://github.com/alibaba/open-code-review/releases/tag/v1.14.2) — 2026-11-23 |
+| 📦 **Latest release** | [v1.14.3](https://github.com/alibaba/open-code-review/releases/tag/v1.14.3) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 56.8 MB |
+| 💾 **Size** | 57.0 MB |
 | 🌐 **Website** | https://open-codereview.ai |
 
 ## 📦 Recent releases
 
+### [v1.14.3](https://github.com/alibaba/open-code-review/releases/tag/v1.14.3)
+<sub>2026-11-24 · today</sub>
+
+> **🐛 Bug Fixes**
+> - fix(tool): return a model-facing error for invalid code_search regex (#1811)
+> - fix(deps): update OpenTelemetry to v1.47.0 (#2067)
+> **📖 Documentation**
+> - docs(actions): explain how to allow pull_request_target (#2068)
+> - docs(review-rules): note that include also overrides the extension allowlist (#1913)
+> …
+
 ### [v1.14.2](https://github.com/alibaba/open-code-review/releases/tag/v1.14.2)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **🚀 Features**
 > - feat(i18n): add Turkish README, site docs and VS Code localization (#1986)
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.14.1](https://github.com/alibaba/open-code-review/releases/tag/v1.14.1)
-<sub>2026-11-22 · yesterday</sub>
+<sub>2026-11-22 · 2d ago</sub>
 
 > **🚀 Features**
 > - feat(skills): include behavior and impact in native and delegated reviews (#2029)
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.14.0](https://github.com/alibaba/open-code-review/releases/tag/v1.14.0)
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > **🚀 Features**
 > - feat(rules,allowlist): exclude Cargo test/benchmark paths and refine Rust rules (#1971)
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.13.13](https://github.com/alibaba/open-code-review/releases/tag/v1.13.13)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **🚀 Features**
 > - feat(pages): link the leaderboard to AACR-Bench (#1995)
@@ -79,31 +90,20 @@
 > **📖 Documentation**
 > …
 
-### [v1.13.12](https://github.com/alibaba/open-code-review/releases/tag/v1.13.12)
-<sub>2026-11-18 · 5d ago</sub>
-
-> **🚀 Features**
-> - feat(pages): add contact link to website footer (#1975)
-> **🐛 Bug Fixes**
-> - fix(session): keep finding identity fields separate (#1955)
-> - fix(telemetry): serialize lazy metric initialization (#1883)
-> - fix(tool): bound file_read result bytes, not just line count (#1878)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [feat(skills): review GitHub PRs from pinned snapshots (#2038)](https://github.com/alibaba/open-code-review/commit/959f8f5bb6fca717d4af05996103ad960a77cc99) | lizhengfeng101 |
+| 2026-11-24 | [feat(session): persist retry reports in session end (#1083)](https://github.com/alibaba/open-code-review/commit/404b058f4cef477ab061e1ae4250fea37701769f) | Gongyl01 |
+| 2026-11-24 | [fix(tool): return a model-facing error for invalid code_search regex …](https://github.com/alibaba/open-code-review/commit/f6379f71edba1e59dbc056e8f455df1f84396498) | OUAO-FRANK |
+| 2026-11-24 | [docs(actions): explain how to allow pull_request_target (#2068)](https://github.com/alibaba/open-code-review/commit/4e284aa9b304dc62f43f919398129a0af44a705e) | Qiyuanqiii |
+| 2026-11-24 | [docs(review-rules): note that include also overrides the extension al…](https://github.com/alibaba/open-code-review/commit/0325f5bac94828462aafebc34f1505a09f622517) | Walternater |
+| 2026-11-24 | [docs: add French translation of the README (#2042)](https://github.com/alibaba/open-code-review/commit/734a104131de68e31f2b6a6d23823f2ff1b056d9) | neodelphis |
+| 2026-11-24 | [fix(deps): update OpenTelemetry to v1.47.0 (#2067)](https://github.com/alibaba/open-code-review/commit/fb536b1b0bbe83f2547c85739536f5ce5b9ba9a4) | lizhengfeng101 |
 | 2026-11-22 | [feat(i18n): add Turkish README, site docs and VS Code localization (#…](https://github.com/alibaba/open-code-review/commit/e74f2c6bd4422bd1e12d257d1725bcce1d6b9ddd) | alkank |
 | 2026-11-22 | [fix(rules): recognize BOM-prefixed Objective-C source (#1964)](https://github.com/alibaba/open-code-review/commit/9285d1b8958ec709ac7db751b73e6d2153ef1a4c) | Afloat16 |
 | 2026-11-22 | [refactor: adopt modern Go stdlib helpers (#1566)](https://github.com/alibaba/open-code-review/commit/d0744d31b19d9fe97ffeff78dd8fb04e0be69312) | sisantaChhatoi |
-| 2026-11-22 | [docs(skill): respect review-only intent for mispositioned findings (#…](https://github.com/alibaba/open-code-review/commit/284ff013f0705ae6cac4c8dfbffa2f2551886d56) | prascli |
-| 2026-11-22 | [fix(tool): reject workspace named pipes before opening (#1979)](https://github.com/alibaba/open-code-review/commit/fa315a0ee2012483ea72b7fd49f937812de9c761) | Afloat16 |
-| 2026-11-22 | [fix(examples): fail GitFlic and Gerrit jobs when ocr review fails (#2…](https://github.com/alibaba/open-code-review/commit/78c2e0e26f62ea150044cb0be2357b93f80f5b86) | thejesh23 |
-| 2026-11-22 | [feat(skills): include behavior and impact in native and delegated rev…](https://github.com/alibaba/open-code-review/commit/398f4349cfa8be58c25c0a988ad5db1def5bd528) | lizhengfeng101 |
-| 2026-11-21 | [docs(runtime): remove the phase-one design note (#2031)](https://github.com/alibaba/open-code-review/commit/39515dca6161fb7fd176d87704b2b10e5f7a0c36) | lizhengfeng101 |
-| 2026-11-21 | [fix(cli): show token usage in analysis reports (#2030)](https://github.com/alibaba/open-code-review/commit/5f4d905f2d5e209aaa9e2f6e5495cc1cb82c0150) | lizhengfeng101 |
-| 2026-11-21 | [fix(viewer): keep the report header stable across tabs (#2022)](https://github.com/alibaba/open-code-review/commit/d29ca2044a42ea297a7fa93692d0f5ac8f38d84e) | lizhengfeng101 |
 
 [See all commits ↗](https://github.com/alibaba/open-code-review/commits)
 

@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 13.6k |
-| 🍴 **Forks** | 27.1k |
+| 🍴 **Forks** | 27.0k |
 | 🐞 **Open issues + PRs** | [23](https://github.com/mmistakes/minimal-mistakes/issues) |
 | 💻 **Languages** | HTML 47% · SCSS 47% · JavaScript 3% · Ruby 3% |
 | 📜 **License** | MIT |

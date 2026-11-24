@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 228.8k |
+| ⭐ **Stars** | 228.9k |
 | 🍴 **Forks** | 31.1k |
-| 🐞 **Open issues + PRs** | [4.0k](https://github.com/anomalyco/opencode/issues) |
+| 🐞 **Open issues + PRs** | [4.1k](https://github.com/anomalyco/opencode/issues) |
 | 💻 **Languages** | TypeScript 74% · Rust 14% · MDX 9% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-04-30 |
 | 📦 **Latest release** | [v2.4.1](https://github.com/anomalyco/opencode/releases/tag/v2.4.1) — 2026-11-23 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 738.5 MB |
+| 💾 **Size** | 755.4 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.4.0](https://github.com/anomalyco/opencode/releases/tag/v2.4.0)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Highlights**
 > - **Built-In Desktop Browser**: Import your sign-ins and browsing history from Chrome, Edge, Firefox or Safari, and add extensions from Chromium browsers or the Chrome and Edge stores. Everything stays in one persistent desktop profile: chat links open signed in, your tabs survive restarts and the agent can read and drive the same pages without you switching apps. ([#63002](https://github.com/anomalyco/opencode/pull/63002), [#65073](https://github.com/anomalyco/opencode/pull/65073))
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2)
-<sub>2026-11-18 · 5d ago</sub>
+<sub>2026-11-18 · 6d ago</sub>
 
 > **Highlights**
 > - **GPT-6.2 Prompt Caching**: GPT-6.2 models don't cache a system prompt sent in the Responses `instructions` field, so every step re-billed it as uncached input. OpenCode now sends it as a leading developer message on every Responses route, including OpenAI (API key and ChatGPT sign-in), GitHub Copilot, Zen, Azure and OpenRouter, so it is cached from the second step on. ([#64542](https://github.com/anomalyco/opencode/pull/64542), [#64544](https://github.com/anomalyco/opencode/pull/64544))
@@ -68,7 +68,7 @@
 > - `webfetch` structured output no longer repeats the `url` and `format` it was called with. ([#64534](https://github.com/anomalyco/opencode/pull/64534))
 
 ### [v2.3.1](https://github.com/anomalyco/opencode/releases/tag/v2.3.1)
-<sub>2026-11-18 · 5d ago</sub>
+<sub>2026-11-18 · 6d ago</sub>
 
 > **Highlights**
 > - **Timed-Out Shell Commands Keep Running**: A shell command still running when its timeout expires now moves to the background instead of being killed, so long builds and test runs finish and report back. A foreground `timeout: 0` now means the default 120 seconds. ([#63699](https://github.com/anomalyco/opencode/pull/63699))
@@ -79,7 +79,7 @@
 > …
 
 ### [v1.19.6](https://github.com/anomalyco/opencode/releases/tag/v1.19.6)
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **Desktop**
 > **Improvements**
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [docs(protocol): clarify session API descriptions (#65837)](https://github.com/anomalyco/opencode/commit/02ccc5c7cc60740b7c3830025b3cd7859eef7259) | rekram1-node |
-| 2026-11-23 | [fix(release): format Discord announcement subheadings (#63495)](https://github.com/anomalyco/opencode/commit/72fbe177151a84190093f17104aa87fe7b379fed) | OpeOginni |
-| 2026-11-23 | [chore: update team members (#65702)](https://github.com/anomalyco/opencode/commit/71020126b041a092b345a5147d64ca1b1d6a1b3a) | rekram1-node |
-| 2026-11-23 | [fix(latex): support the LaTeX control space in math (#64156)](https://github.com/anomalyco/opencode/commit/4cf9db957485dd51a5b195fb6e2c1e03d8da1107) | jensenojs |
-| 2026-11-23 | [fix(app): keep the model list in place when unfavoriting with the mou…](https://github.com/anomalyco/opencode/commit/3bae667b6fc0c7f3c65d76af433f29052932013e) | rekram1-node |
-| 2026-11-23 | [fix(plugin): lower the @opentui peer floor to 0.8.0 and stop raising …](https://github.com/anomalyco/opencode/commit/698800f59cf3808e3a670b91e35ba1eb14d92411) | opencode-agent[bot] |
-| 2026-11-23 | [fix(cli-rs): bound the transcript window so scrolling stops growing m…](https://github.com/anomalyco/opencode/commit/0089ba9e39a9ff7701b83fa87d62964612b61a66) | simonklee |
-| 2026-11-23 | [feat(cli-rs): bring the Rust client up to v2.4.0, and fix finished su…](https://github.com/anomalyco/opencode/commit/b51482f9073accbdddf511048cbe9f833e107e1c) | simonklee |
-| 2026-11-23 | [fix(nix): update node_modules hashes (#65824)](https://github.com/anomalyco/opencode/commit/7268011db4b9871f74403f4167c5f3f63d9fbb5f) | rekram1-node |
-| 2026-11-23 | [fix(app): mark /btw tabs answered in the background as unread (#65821)](https://github.com/anomalyco/opencode/commit/9b03fe1f65e8b28f3e39544d295d0d949f2fa6bf) | usrnk1 |
+| 2026-11-24 | [fix(core): make the API skill and cd worktree tests pass on Windows (…](https://github.com/anomalyco/opencode/commit/66d53a82d03e86bf8e01f0fd5462fd1f13891c84) | opencodejr[bot] |
+| 2026-11-24 | [fix(core): refuse plugin automation creates before configured permiss…](https://github.com/anomalyco/opencode/commit/af54caef70f9bc1d700d9bfd5b4f2f7471deadd8) | vimtor |
+| 2026-11-24 | [feat(ui): radio surfaces and flat unselected controls, as in Figma (#…](https://github.com/anomalyco/opencode/commit/a44675ecee88e348bccb341034e39edf208b2ea9) | ludvigrask |
+| 2026-11-24 | [fix(models): honor legacy variants at the selected speed (#66107)](https://github.com/anomalyco/opencode/commit/4bb997ea44ce0ad58eb10ab37937c24d77eb6ff9) | vimtor |
+| 2026-11-24 | [fix(core): wait for the automation target's plugin registry (#66104)](https://github.com/anomalyco/opencode/commit/f84258d3b62cd810dda74270a23b1a65c45ab27e) | vimtor |
+| 2026-11-24 | [fix(core): register worktrees before honoring cancellation (#66105)](https://github.com/anomalyco/opencode/commit/caacb32ff9688b53132785ab7a99385d6fc2830e) | vimtor |
+| 2026-11-24 | [fix(plugin): preserve completed errors on late abort (#66102)](https://github.com/anomalyco/opencode/commit/71324e2063bf094c73e314a6a3a5d4d6a904131a) | vimtor |
+| 2026-11-24 | [fix(core): keep saved Superbot Fast Priority sessions working (#66106)](https://github.com/anomalyco/opencode/commit/8d915d49defe9b5465189cb967b9fbeb9aab764b) | vimtor |
+| 2026-11-24 | [fix(core): accept undefined fields in Effect plugin automations (#66103)](https://github.com/anomalyco/opencode/commit/baa7e9287631e5796a5efc10b42adfe50516a532) | vimtor |
+| 2026-11-24 | [fix(ui): stack elevation shadows in Figma's order (#66071)](https://github.com/anomalyco/opencode/commit/0c2e204eaa286c952fab91ce60cd544e3dfbb743) | ludvigrask |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

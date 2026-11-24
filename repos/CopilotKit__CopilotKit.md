@@ -22,59 +22,58 @@
 |---|---|
 | ⭐ **Stars** | 38.9k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [477](https://github.com/CopilotKit/CopilotKit/issues) |
+| 🐞 **Open issues + PRs** | [486](https://github.com/CopilotKit/CopilotKit/issues) |
 | 💻 **Languages** | TypeScript 80% · Python 6% · MDX 5% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` `agent` `agents` `ai-agent` `ai-assistant` `assistant` `copilot` `copilot-chat` `agent-native` `agentic-ai` `assistant-chat-bots` `generative-ui` `js` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-06-19 |
-| 📦 **Latest release** | [v1.90.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.0) — 2026-11-20 |
+| 📦 **Latest release** | [v1.90.2](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.2) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 908.9 MB |
+| 💾 **Size** | 907.5 MB |
 | 🌐 **Website** | https://docs.copilotkit.ai |
 
 ## 📦 Recent releases
 
+### [v1.90.2](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.2)
+<sub>2026-11-23 · today</sub>
+
+> This is a maintenance release that keeps all `monorepo` lane packages in sync at version `1.90.2`. There are no functional changes since the previous release.
+
+### [channels/v0.13.0](https://github.com/CopilotKit/CopilotKit/releases/tag/channels/v0.13.0)
+<sub>2026-11-23 · today</sub>
+
+> This release improves the reliability of approval resumes and interactive pickers across multiple processes and replicas. It also improves resilience when Intelligence thread history fails to replay.
+
+### [v1.90.1](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.1)
+<sub>2026-11-23 · today</sub>
+
+> This release adds fullscreen support for MCP Apps widgets and improves telemetry accuracy, alongside an important breaking change to runtime thread history and debug event handling.
+
 ### [v1.90.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.0)
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > This release adds framework-level telemetry to the runtime and sends the CopilotKit version to the Intelligence gateway, giving the gateway the context it needs to tailor behavior to a client's version.
 
 ### [v1.89.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.89.0)
-<sub>2026-11-17 · 5d ago</sub>
+<sub>2026-11-17 · 6d ago</sub>
 
 > This release improves performance and reliability for long Intelligence threads, adds support for distinct agent display names, and expands MCP Apps with model-context sharing.
-
-### [v1.88.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.88.0)
-<sub>2026-11-13 · 9d ago</sub>
-
-> This release adds server-side agent runs through Intelligence, richer Learning capture, and several fixes to chat rendering and tool-call handling. It also includes one breaking change to thread naming.
-
-### [v1.87.1](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.87.1)
-<sub>2026-11-12 · 10d ago</sub>
-
-> This patch release fixes A2UI rendering for catalogs that declare protocol version 1.0 when streaming Direct JSON.
-
-### [python-sdk/v0.1.97](https://github.com/CopilotKit/CopilotKit/releases/tag/python-sdk/v0.1.97)
-<sub>2026-11-12 · 11d ago</sub>
-
-> Python SDK release: copilotkit 0.1.97
-> https://pypi.org/project/copilotkit/0.1.97/
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-22 | [chore: release docs to prod (#8537)](https://github.com/CopilotKit/CopilotKit/commit/544e64f0423533c5ade8346cd7b9da3c0530a6bc) | jpr5 |
-| 2026-11-22 | [chore: release docs 4bf3945125a27a9eb21fe722d26bc90779e296fc](https://github.com/CopilotKit/CopilotKit/commit/5bdb6be0cbf055de6b7d9f322032baff689ae6fd) | jpr5 |
-| 2026-11-22 | [fix(shell-docs): correct telemetry IP, skip .json pageviews, keep sta…](https://github.com/CopilotKit/CopilotKit/commit/4bf3945125a27a9eb21fe722d26bc90779e296fc) | jpr5 |
-| 2026-11-22 | [fix(shell-docs): stop counting .json requests as docs_pageview](https://github.com/CopilotKit/CopilotKit/commit/90912dcaa40705002b866715d582ee4cf94d2f76) | jpr5 |
-| 2026-11-22 | [fix(shell-docs): send no server-side analytics from non-production Ra…](https://github.com/CopilotKit/CopilotKit/commit/39acf03643a1f49ba7cbaca73a7e81ba674f0538) | jpr5 |
-| 2026-11-22 | [fix(shell-docs): report the visitor's IP from cf-connecting-ip behind…](https://github.com/CopilotKit/CopilotKit/commit/2a643ee24c77ce180a4cb98baca513c3c7a4b5d4) | jpr5 |
-| 2026-11-22 | [chore: release docs to prod (#8534)](https://github.com/CopilotKit/CopilotKit/commit/819d51744fa4f9db4bc91336274bed4f0bccbc65) | jpr5 |
-| 2026-11-22 | [chore: release docs f4fd2df7db8c1663eb395e734a2b07ca1fa032b1](https://github.com/CopilotKit/CopilotKit/commit/878330bdb365a4d52c12fa20cdda7a8d1db54370) | jpr5 |
-| 2026-11-21 | [docs(telemetry): say the sink may sample connects, per its configuration](https://github.com/CopilotKit/CopilotKit/commit/f4fd2df7db8c1663eb395e734a2b07ca1fa032b1) | jpr5 |
-| 2026-11-21 | [docs(telemetry): drop the "sink is ours" premise from the client comm…](https://github.com/CopilotKit/CopilotKit/commit/27a698c8044310ef4738cb09d1947c27ef5c9567) | jpr5 |
+| 2026-11-24 | [feat(showcase): add Cloudflare Agents integration (#8351)](https://github.com/CopilotKit/CopilotKit/commit/1164b57a6cb15ca70e49a7a2886a3d141564b2b1) | mme |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/main' into mme/cloudflare-agents…](https://github.com/CopilotKit/CopilotKit/commit/33c6039635e89872e0e79cabade4e49ba34684d0) | mme |
+| 2026-11-24 | [ci(showcase): register Omnara in staging (PNI-775) (#8508)](https://github.com/CopilotKit/CopilotKit/commit/0db991fa6acfadee3e3739415b4f77b474c46955) | contextablemark |
+| 2026-11-24 | [fix(showcase): isolate Omnara visitor sessions (#8459)](https://github.com/CopilotKit/CopilotKit/commit/6ea2a019642e132384b028756c8d38d01c002984) | contextablemark |
+| 2026-11-23 | [chore: release monorepo v1.90.2 (#8553)](https://github.com/CopilotKit/CopilotKit/commit/81f54bdbe072781283a48ba3cce9efd871165e2e) | jpr5 |
+| 2026-11-23 | [chore: release monorepo v1.90.2](https://github.com/CopilotKit/CopilotKit/commit/b26e65150836982b8a5b9760c7120e6bb49fbfe6) | jpr5 |
+| 2026-11-23 | [fix(release): allow publishing a dependency scope ahead of its depend…](https://github.com/CopilotKit/CopilotKit/commit/b94e8110c65f3fdcef34d679c8eb649f8ea56fcf) | jpr5 |
+| 2026-11-23 | [fix(release): keep exact pins blocking and let a partial publish resume](https://github.com/CopilotKit/CopilotKit/commit/6f020daa99f41f9ced6d493b8e0fac7b47510091) | jpr5 |
+| 2026-11-23 | [fix(release): keep refusing a lagging peer range](https://github.com/CopilotKit/CopilotKit/commit/0a164a037c07ff998134b528ed49313534f1ceee) | jpr5 |
+| 2026-11-23 | [fix(release): allow publishing a dependency scope ahead of its depend…](https://github.com/CopilotKit/CopilotKit/commit/e71472a16510ae360b480550e012916e2f0c341c) | jpr5 |
 
 [See all commits ↗](https://github.com/CopilotKit/CopilotKit/commits)
 

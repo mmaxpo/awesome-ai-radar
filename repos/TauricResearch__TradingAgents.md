@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/TauricResearch/TradingAgents)
 
-> TradingAgents: Multi-Agents LLM Financial Trading Framework
+> TradingAgents: Towards Agentic Finance Research
 
 ## 📝 Notes
 
@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.6k |
+| ⭐ **Stars** | 123.7k |
 | 🍴 **Forks** | 23.7k |
-| 🐞 **Open issues + PRs** | [161](https://github.com/TauricResearch/TradingAgents/issues) |
-| 💻 **Languages** | Python 100% |
+| 🐞 **Open issues + PRs** | [164](https://github.com/TauricResearch/TradingAgents/issues) |
+| 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `finance` `llm` `multiagent` `trading` |
-| 🕒 **Last activity** | 2026-11-17 (6d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2024-12-28 |
-| 📦 **Latest release** | [v0.7.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v0.7.1) — 2026-10-27 |
+| 📦 **Latest release** | [v1.0.0](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 6.6 MB |
+| 💾 **Size** | 11.1 MB |
 | 🌐 **Website** | https://tauric.ai |
 
 ## 📦 Recent releases
 
+### [v1.0.0](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.0)
+<sub>2026-11-24 · today</sub>
+
+> - TradingAgents: Towards Agentic Finance Research.
+> **Research**
+> - Agents: Equity Research, Macro Strategy, Quant Research and Risk Analysis research in parallel and report back.
+> - Skills: sixteen built-in research methods, from an earnings review to a DCF valuation.
+> - Your own agents and skills, as Markdown files.
+> - Plan mode: review and revise a research plan before it runs.
+> …
+
 ### [v0.7.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v0.7.1) — TradingAgents v0.7.1
-<sub>2026-10-27 · 27d ago</sub>
+<sub>2026-10-27 · 28d ago</sub>
 
 > Decisions are scored only on final closes and settle across long market holidays, a model's unpadded date no longer reads filings made after the run date, and fixes to portfolios, prices, SEC statements, reports, Azure and Claude settings.
 > **Upgrading from 0.7.0**
@@ -79,21 +90,12 @@
 > - **Reports record what produced them.** Each report opens with the analysis date, version, provider, models, analysts, rounds and data vendors; the state log keeps them as `run_settings`. (#752, #1197)
 > …
 
-### [v0.5.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v0.5.1) — TradingAgents v0.5.1
-<sub>2026-09-24 · 2mo ago</sub>
-
-> A package layout organised by what each module holds, social posts screened by
-> TypeSafe's Jev when a key is set, GPT-6 Sol and Luna as the default models, and
-> fixes to run isolation, SEC EDGAR statements and historical runs.
-> **Upgrading from 0.5.0**
-> Some modules moved, and the old import paths are gone. Update imports as follows:
-> - `tradingagents.dataflows.interface` is `tradingagents.dataflows.router`, and `dataflows.symbol_utils` is `dataflows.symbols`. `dataflows.utils` is gone: `get_current_date` is in `dataflows.date_window`, `safe_ticker_component` in `dataflows.symbols`.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [ci(npm): enable publishing for TradingAgents v1.0.0](https://github.com/TauricResearch/TradingAgents/commit/81501e0f108c9960f55f0f45b79cafa7857f2c0a) | Yijia-Xiao |
+| 2026-11-24 | [release: TradingAgents 1.0.0](https://github.com/TauricResearch/TradingAgents/commit/da95d501c9363f0a58bb0ce5746a6d31cc15df2f) | Yijia-Xiao |
 | 2026-11-04 | [announce Trading-R1 official release](https://github.com/TauricResearch/TradingAgents/commit/9fa1196fffbcfd9de5146d2dd2869df84ab99838) | Tauric-Research |
 | 2026-10-27 | [Merge pull request #1613 from TauricResearch/v0.7.1](https://github.com/TauricResearch/TradingAgents/commit/c4544913a14ed3df5f1ed7b9e8483270ce20682a) | Yijia-Xiao |
 | 2026-10-27 | [release: 0.7.1](https://github.com/TauricResearch/TradingAgents/commit/3e44faafa042daf953f6ec2422ae36bb1fd4f50f) | Yijia-Xiao |
@@ -102,8 +104,6 @@
 | 2026-10-27 | [build(docker): keep every .env file out of the image](https://github.com/TauricResearch/TradingAgents/commit/ec4e2c8e5adc9de0757ccc14e1bedc1c405d835f) | Yijia-Xiao |
 | 2026-10-27 | [fix(cli): check a ticker with the data layer's own rule (#1604)](https://github.com/TauricResearch/TradingAgents/commit/a334a1f878f4d744c34230e216e613955762e26b) | Yijia-Xiao |
 | 2026-10-27 | [fix(llm): read a dated Claude snapshot's version without its date (#1…](https://github.com/TauricResearch/TradingAgents/commit/ae0424745ef8684bbe9db91a01effb84d40c8223) | Yijia-Xiao |
-| 2026-10-27 | [fix(llm): pass the output-token cap and a configured endpoint to Azur…](https://github.com/TauricResearch/TradingAgents/commit/347974a000b66d9fe463c4d17b8f6e08dbdcce9a) | Yijia-Xiao |
-| 2026-10-27 | [fix(polymarket): keep a long shot's odds from printing as 0% or 100% …](https://github.com/TauricResearch/TradingAgents/commit/b78f136ba3c9e7205fbbd79c7f337a4cac21ce25) | Yijia-Xiao |
 
 [See all commits ↗](https://github.com/TauricResearch/TradingAgents/commits)
 

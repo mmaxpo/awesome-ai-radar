@@ -20,66 +20,74 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 7.7k |
-| 🍴 **Forks** | 713 |
-| 🐞 **Open issues + PRs** | [268](https://github.com/BuilderIO/agent-native/issues) |
+| ⭐ **Stars** | 7.8k |
+| 🍴 **Forks** | 714 |
+| 🐞 **Open issues + PRs** | [276](https://github.com/BuilderIO/agent-native/issues) |
 | 💻 **Languages** | TypeScript 87% · MDX 10% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `react` `agent-native` `typescript` `agent-framework` `agentic-ai` `ai-agents` `framework` `generative-ui` `mcp` `open-source` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-03-12 |
-| 📦 **Latest release** | [v0.1.150-nightly.459](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.459) — 2026-11-22 |
+| 📦 **Latest release** | [@agent-native/core@0.232.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/core%400.232.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 618.8 MB |
+| 💾 **Size** | 620.1 MB |
 | 🌐 **Website** | https://www.agent-native.com |
 
 ## 📦 Recent releases
 
-### [v0.1.150-nightly.459](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.459) — Agent-Native Nightly v0.1.150-nightly.459 _(pre-release)_
-<sub>2026-11-22 · today</sub>
-
-> Auto-updating Nightly build of the Agent-Native desktop app.
-
-### [clips-nightly-v0.1.532-0](https://github.com/BuilderIO/agent-native/releases/tag/clips-nightly-v0.1.532-0) — Clips Nightly v0.1.532-0 _(pre-release)_
-<sub>2026-11-22 · today</sub>
+### [clips-nightly-v0.1.534-0](https://github.com/BuilderIO/agent-native/releases/tag/clips-nightly-v0.1.534-0) — Clips Nightly v0.1.534-0 _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
 > Auto-updating nightly build of the Clips menu-bar app.
 > The in-app updater fetches its manifest from the `clips-nightly-latest`
 > release — this versioned release is the immutable source of the
 > signed bundles it downloads.
 
-### [v0.1.150-nightly.458](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.458) — Agent-Native Nightly v0.1.150-nightly.458 _(pre-release)_
-<sub>2026-11-21 · 2d ago</sub>
+### [v0.1.150-nightly.461](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.461) — Agent-Native Nightly v0.1.150-nightly.461 _(pre-release)_
+<sub>2026-11-23 · today</sub>
 
 > Auto-updating Nightly build of the Agent-Native desktop app.
 
-### [clips-nightly-v0.1.531-0](https://github.com/BuilderIO/agent-native/releases/tag/clips-nightly-v0.1.531-0) — Clips Nightly v0.1.531-0 _(pre-release)_
-<sub>2026-11-21 · 2d ago</sub>
+### [@agent-native/core@0.232.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/core%400.232.0)
+<sub>2026-11-23 · today</sub>
 
-> Auto-updating nightly build of the Clips menu-bar app.
-> The in-app updater fetches its manifest from the `clips-nightly-latest`
-> release — this versioned release is the immutable source of the
-> signed bundles it downloads.
+> **Minor Changes**
+> - bf07e40: The agent's resource writes can now refuse to write over a newer save. An agent's resource read starts with a `[revision …, scope …]` line, and the `resources` write action, `write-resource` and `pnpm action resource-write --expected-revision` take that revision back: when someone saved the file after the read, nothing is written and the write fails with `save_conflict` and the revision there now. Writes report the new revision, and a write without one still replaces what's there. `POST /_agent-native/resources` returns the `revision` too, and with `ifNotExists` it now creates only where no file is, so of two creates at once the second gets the first one's file instead of writing over it, and a shared create in an organization gets the organization's file from before organizations instead of hiding it behind a new copy. `useCreateResource` accepts `ifNotExists`, and `resourcePutIfSnapshot` takes `visibility`, `threadId`, `runId` and `expiresAt`. Toolkit's personalization settings save their instructions over the version each edit started from, merging onto a newer save and asking which version to keep when both changed the text.
+> - 089091b: Publish app capability manifests and standardize tab-scoped navigation. Enable realtime sync by default, acknowledge settled screens, and let embedded app frames handle view tools.
+> - 41c2b0e: Add extension points a deployment can register its own policy through, with no change until something registers:
+>   - `fetchWithProviderCallGate` (from `@agent-native/core/provider-api` and `@agent-native/core/provider-api/call-gates`) sends a request made with a package's own client through the registered provider call gates, so a gate refuses, debits or rate-limits it exactly as it would a provider-api request. `precheckProviderCall` takes the request URL when known, so a gate that claims requests by URL is prechecked too, and a caller that must precheck before its own work (such as a token refresh) calls `precheckGatedProviderCall`, which bounds the precheck by the same admission deadline (`ProviderCallGateAdmissionTimeoutError`), and passes the receipt as `prechecked` so it runs once. The scheduling Google Calendar provider sends every request through it as provider `google_calendar`, takes an optional `getAccountIdentity(credentialId)` that gates receive as the request's `accountId` (a lookup that misses the admission deadline arrives as `ProviderAccountLookupTimeoutError` in `accountIdError`), and an optional `appId` (default `"scheduling"`) that gates receive as the consuming app.
+>   - `registerA2AActionCallHook` (from `@agent-native/core/a2a`) lets a hook add JSON-RPC params to outgoing `actions/invoke` calls and, on the receiving app, refuse an incoming call or admit it as foreground work (`isA2AForegroundCall()`), optionally in a verified organization. A refusal reaches the caller as `A2ACallRefusedError`.
+> …
 
-### [v0.1.150-nightly.457](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.457) — Agent-Native Nightly v0.1.150-nightly.457 _(pre-release)_
-<sub>2026-11-21 · 2d ago</sub>
+### [@agent-native/pinpoint@0.1.119](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/pinpoint%400.1.119)
+<sub>2026-11-23 · today</sub>
 
-> Auto-updating Nightly build of the Agent-Native desktop app.
+> **Patch Changes**
+> - Release all public npm packages with a patch version bump.
+
+### [@agent-native/agentkit@0.232.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/agentkit%400.232.0)
+<sub>2026-11-23 · today</sub>
+
+> **Patch Changes**
+> - 6facea0: Keep the Thinking indicator visible after a chat message appears while its run is starting, including when a queued message starts immediately.
+> - 4163448: Define typed action suggestions and receipts so hosts can execute the specific action a user selects.
+> - Release all public npm packages with a patch version bump.
+> - 88dad0f: Keep a stopped chat reply's text the same live and after reload: Stop tells the server the last part of the reply the browser showed, the server saves the reply only up to there, and a run whose Stop reached another server still saves its reply.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [fix(guards): make security, module-name, design E2E, and MCP contract…](https://github.com/BuilderIO/agent-native/commit/ea5812b1f4d2265aa23d27fb38387471260c0b7e) | steve8708 |
-| 2026-11-23 | [Give onboarding journey follow-ups a whole-millisecond time limit (#9…](https://github.com/BuilderIO/agent-native/commit/154aca2ac646990ac85f94b6d2cfbf7c84eb7dc2) | 3mdistal |
-| 2026-11-23 | [Keep the comment's quote in what Comment AI reads on a long page (#9674)](https://github.com/BuilderIO/agent-native/commit/9f223613baee4ce7d083166fb2c4183868b48dcb) | 3mdistal |
-| 2026-11-23 | [Design: stop the guard retry from causing empty responses (#9458)](https://github.com/BuilderIO/agent-native/commit/095660771f62b4ec866f12f43268f4501b44f6a5) | shomix |
-| 2026-11-23 | [fix(design): make Design home search addressable so find-designs land…](https://github.com/BuilderIO/agent-native/commit/21c90bdff1e0f48ed8ff56d8551ea4660d388b76) | steve8708 |
-| 2026-11-23 | [fix(clips): carry library search in navigate and filter LibraryGrid b…](https://github.com/BuilderIO/agent-native/commit/8aa67b002e35ad64bac2e4b5fe100e4397842e10) | steve8708 |
-| 2026-11-23 | [Report actionable permissions when TypeScript cannot execute (#9681)](https://github.com/BuilderIO/agent-native/commit/b91cb5a934993ed95015fb9f1f6d8e6a7b65387d) | builder-factory |
-| 2026-11-23 | [Fix typecheck compiler lookup in ancestor node_modules (#9150)](https://github.com/BuilderIO/agent-native/commit/8599a50e8c631ae718d7238174a05cf95d3c98d5) | builder-factory |
-| 2026-11-23 | [Keep end-to-end runners on their relevant CI checks](https://github.com/BuilderIO/agent-native/commit/6e87bbc22f30abedbe872ffac781af540d9883f3) | steve8708 |
-| 2026-11-23 | [Accept additional scopes in personal OAuth grants (#9675)](https://github.com/BuilderIO/agent-native/commit/ba3ef91234ce3bb9e69b90553247c5054e424b83) | steve8708 |
+| 2026-11-24 | [factory-run: no oncall ping on reporter questions; bare form submissi…](https://github.com/BuilderIO/agent-native/commit/8b4875096cc6aa40117772ea36a5ce6ed0c9b5db) | samijaber |
+| 2026-11-24 | [Let Content's code-mode pilot run as scripts for allowlisted organiza…](https://github.com/BuilderIO/agent-native/commit/6e1e604563873b141cc95f002201e24053bcbf1b) | 3mdistal |
+| 2026-11-24 | [content: show all available move destinations (#9754)](https://github.com/BuilderIO/agent-native/commit/f926f0b84382e512feeabdbaef4514289cfd9e40) | builder-factory |
+| 2026-11-24 | [Design: local canvas performance benchmark (#9699)](https://github.com/BuilderIO/agent-native/commit/a5b8d285214540d94e19aa9e1eb172cd1060dac9) | shomix |
+| 2026-11-24 | [Design: keep inspector controls within narrow panels (#9775)](https://github.com/BuilderIO/agent-native/commit/9d72686fb58a4b367af4da22caedacda567af589) | builder-factory |
+| 2026-11-24 | [Record how big each MCP tool result is in tool-call analytics (#9687)](https://github.com/BuilderIO/agent-native/commit/acad739808b2f6ec7c8a0e14fdcd3232a717a36b) | 3mdistal |
+| 2026-11-24 | [Show a data program's scheduled refresh in Analytics' MCP tools (#9697)](https://github.com/BuilderIO/agent-native/commit/c862f5821b0b949ec10c122421932da43f6a035c) | 3mdistal |
+| 2026-11-24 | [Re-read a data program panel until the run its Refresh queued lands (…](https://github.com/BuilderIO/agent-native/commit/a20bef88d0b4f9435a7bf0d4a6dbc287a68a7d66) | 3mdistal |
+| 2026-11-24 | [Bind durable attachment references to canonical submissions (#9736)](https://github.com/BuilderIO/agent-native/commit/b9ad2ba8576f822f8a968d9859e9a68332e494a6) | an-fleet-bot[bot] |
+| 2026-11-24 | [Say why Content's Suggesting mode refused an edit (#9672)](https://github.com/BuilderIO/agent-native/commit/7d214dc1158d7f54c7f38c4736f56b799e7e77e5) | 3mdistal |
 
 [See all commits ↗](https://github.com/BuilderIO/agent-native/commits)
 

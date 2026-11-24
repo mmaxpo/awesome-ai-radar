@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.5k |
-| 🍴 **Forks** | 681 |
+| 🍴 **Forks** | 682 |
 | 🐞 **Open issues + PRs** | [178](https://github.com/matplotlib/mplfinance/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Other |

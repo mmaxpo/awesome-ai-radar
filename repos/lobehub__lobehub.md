@@ -20,90 +20,84 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 86.0k |
+| ⭐ **Stars** | 86.1k |
 | 🍴 **Forks** | 16.4k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/lobehub/lobehub/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-05-21 |
-| 📦 **Latest release** | [v2.3.5](https://github.com/lobehub/lobehub/releases/tag/v2.3.5) — 2026-11-22 |
+| 📦 **Latest release** | [v2.3.6](https://github.com/lobehub/lobehub/releases/tag/v2.3.6) — 2026-11-24 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 644.2 MB |
+| 💾 **Size** | 644.8 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
-### [v2.3.6-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.6-canary.1) — Desktop Canary v2.3.6-canary.1 _(pre-release)_
-<sub>2026-11-22 · yesterday</sub>
+### [v2.3.7-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.7-canary.1) — Desktop Canary v2.3.7-canary.1 _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
-> **🐤 Canary Build — v2.3.6-canary.1**
-> > Automated canary build from `canary` branch.
-> **Commit Information**
-> - Based on changes since `v2.3.5-canary.3`
-> - Commit count: 13
-> - `573b57d8d8` ⚡️ perf(web-browsing): move crawl error recovery to tool results and slim always-on prompt (#23633) (AmAzing-)
+> _No notes._
+
+### [v2.3.6](https://github.com/lobehub/lobehub/releases/tag/v2.3.6) — 🚀 Release v2.3.6
+<sub>2026-11-24 · today</sub>
+
+> **Release v2.3.6**
+> From PR #23789: https://github.com/lobehub/lobehub/pull/23789
+> **🚀 LobeHub Release (20261124)**
+> **Release Date:** November 24, 2026
+> **Since v2.3.5:** 358 merged PRs · 12 contributors
+> > This release makes Agents easier to share and to work with in Channels, regroups Skills and Connectors into one Marketplace, and adds a Compact interface density across the app.
 > …
 
-### [v2.3.5](https://github.com/lobehub/lobehub/releases/tag/v2.3.5) — 🚀 Release v2.3.5
-<sub>2026-11-22 · yesterday</sub>
+### [v0.0.0-nightly.pr23789.41581](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23789.41581) — PR Build v0.0.0-nightly.pr23789.41581 _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
-> **Release v2.3.5**
-> From PR #23632: https://github.com/lobehub/lobehub/pull/23632
-> **Summary**
-> Contribution source: AI-assisted
-> Backport the cyan, green and red agent cover colors from [#23624](https://github.com/lobehub/lobehub/pull/23624) to the community release branch. A fresh install of `main` can resolve `@lobehub/ui@6.19.0` within the declared dependency range. The old seven-entry palette fails type-checking on that version and returns an undefined cover color for some generated avatars.
-> The cover uses the corresponding theme token for each new color. Inferring the lookup's keys also supports older UI versions in the release's existing dependency range.
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr23789.41581`
+> **Release Time**: `2026-11-24T11:25:22.538Z`
+> **PR**: [#23789](https://github.com/lobehub/lobehub/pull/23789)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
 > …
 
-### [v2.3.5-canary.3](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.3) — Desktop Canary v2.3.5-canary.3 _(pre-release)_
-<sub>2026-11-22 · yesterday</sub>
+### [v0.0.0-nightly.pr23761.41577](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23761.41577) — PR Build v0.0.0-nightly.pr23761.41577 _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
-> **🐤 Canary Build — v2.3.5-canary.3**
-> > Automated canary build from `canary` branch.
-> **Commit Information**
-> - Based on changes since `v2.3.5-canary.2`
-> - Commit count: 36
-> - `865a3d2d59` ✨ feat(oidc): replace the toby client with a dedicated lobot-mobile client (#23617) (Arvin Xu)
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr23761.41577`
+> **Release Time**: `2026-11-24T11:05:21.469Z`
+> **PR**: [#23761](https://github.com/lobehub/lobehub/pull/23761)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
 > …
 
-### [v2.3.5-canary.2](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.2) — Desktop Canary v2.3.5-canary.2 _(pre-release)_
-<sub>2026-11-20 · 3d ago</sub>
+### [v0.0.0-nightly.pr23784.41564](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23784.41564) — PR Build v0.0.0-nightly.pr23784.41564 _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
-> **🐤 Canary Build — v2.3.5-canary.2**
-> > Automated canary build from `canary` branch.
-> **Commit Information**
-> - Based on changes since `v2.3.5-canary.1`
-> - Commit count: 152
-> - `05bc09e28b` 💄 style(channel): let a host open the conversation history with an intro (#23551) (YuTengjing)
-> …
-
-### [v2.3.5-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.5-canary.1) — Desktop Canary v2.3.5-canary.1 _(pre-release)_
-<sub>2026-11-18 · 5d ago</sub>
-
-> **🐤 Canary Build — v2.3.5-canary.1**
-> > Automated canary build from `canary` branch.
-> **Commit Information**
-> - Based on changes since `v2.3.4-canary.1`
-> - Commit count: 287
-> - `0ad6212c2b` 🗃️ feat(database): add per-person channel sidebar sections (#23283) (Arvin Xu)
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr23784.41564`
+> **Release Time**: `2026-11-24T10:08:22.781Z`
+> **PR**: [#23784](https://github.com/lobehub/lobehub/pull/23784)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [✨ feat(resource): paint a ThumbHash placeholder while library images …](https://github.com/lobehub/lobehub/commit/2d1bf9b34312f5bcc06a275ac1e9d3dcabd743cb) | arvinxx |
-| 2026-11-23 | [✨ feat(agent): list Lobe AI with the other agents and in search (#23728)](https://github.com/lobehub/lobehub/commit/f0c560a526f0b7bec6dcd242c7df3073b5f1ec29) | rdmclin2 |
-| 2026-11-23 | [✨ feat(share): open visitor conversations on their own page (#23741)](https://github.com/lobehub/lobehub/commit/18ff6aead33b35bfb8b6a4566ffa66578f81041e) | tjx666 |
-| 2026-11-23 | [🔥 refactor: remove the Better Coding Experience lab and make its feat…](https://github.com/lobehub/lobehub/commit/4fb98730703100bfd3faac851a6d0eac09666812) | ImSingee |
-| 2026-11-23 | [✨ feat(channel): return the recorded ThumbHash with Channel attachmen…](https://github.com/lobehub/lobehub/commit/c27f5422626342f07a7b8e2fc16f050751651bb4) | arvinxx |
-| 2026-11-23 | [⚡️ perf(skill-store): virtualize Skill Store lists with masonic (#23744)](https://github.com/lobehub/lobehub/commit/4236ba937bc309eb315c955115327b685fd076e3) | arvinxx |
-| 2026-11-23 | [💄 style(subscription): add workspace member budget chip copy (#23729)](https://github.com/lobehub/lobehub/commit/c6a9e5fa185716e1d22f4a7121209b1c09000f89) | rdmclin2 |
-| 2026-11-23 | [🐛 fix(editor): open the @ member menu when members load after mount (…](https://github.com/lobehub/lobehub/commit/e04d50f5bad03c13e5e5bab113c9cb9b580c1015) | rdmclin2 |
-| 2026-11-23 | [🐛 fix(task): render cron weekday ranges correctly (#23683)](https://github.com/lobehub/lobehub/commit/9df9d682c042f3b0854cca100ee2750bcdeed520) | Max-Reisinger |
-| 2026-11-23 | [🐛 fix(working-sidebar): stop the Files view toggle from stalling on l…](https://github.com/lobehub/lobehub/commit/8b604ba13f31eb91fe91094948bf9a1bb3dbf57a) | AmAzing129 |
+| 2026-11-24 | [🐛 fix(antigravity): preserve streamed replies and surface quota hando…](https://github.com/lobehub/lobehub/commit/2abd2692a1ee733ee9252fd2126dd8b13ad5242c) | MarioJames |
+| 2026-11-24 | [🐛 fix(agent-runtime): expire runs parked on an unanswered card after …](https://github.com/lobehub/lobehub/commit/223609187242b5a0db754a57f50693f04c6609a0) | tjx666 |
+| 2026-11-24 | [💄 style(connect-agent): put Refresh beside the device select, drop th…](https://github.com/lobehub/lobehub/commit/a45026113ea7be90c4494fef3612ddd7a6d3fd56) | arvinxx |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/main' into canary](https://github.com/lobehub/lobehub/commit/89a4c2d35fb63cae16024a54ec71f1ec93832832) | lobehubbot |
+| 2026-11-24 | [🚀 release: 20261124 (#23789)](https://github.com/lobehub/lobehub/commit/061f4d9fa334d5555b06bd7d95a0ce6078e9153c) | tjx666 |
+| 2026-11-24 | [✨ feat(settings): split account and space settings with a switch card…](https://github.com/lobehub/lobehub/commit/a1fca3ef9402c36a9499ba54aaa47cd8b8eb278a) | rdmclin2 |
+| 2026-11-24 | [✨ feat(chat-input): hide the desktop Local Sandbox execution option (…](https://github.com/lobehub/lobehub/commit/33f9eb88f92d51df85e620f94cac5dcded9dde49) | rdmclin2 |
+| 2026-11-24 | [💄 style(channel): cap the conversation loading skeleton to its column…](https://github.com/lobehub/lobehub/commit/22aa85f764e99a9c3144ab2f9927bd45f25b4870) | tjx666 |
+| 2026-11-24 | [🔒 fix(hetero): device runs act as their caller within agent scopes, n…](https://github.com/lobehub/lobehub/commit/3bf7170d71c83b5bec9adc6b1579e694f189c2cf) | nekomeowww |
+| 2026-11-24 | [🔖 chore(release): release version v2.3.6](https://github.com/lobehub/lobehub/commit/be883e89cd59d07345931a9461543e6043f2a3c7) | lobe-tsukumo[bot] |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

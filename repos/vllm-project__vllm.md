@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 97.4k |
+| ⭐ **Stars** | 97.5k |
 | 🍴 **Forks** | 25.2k |
-| 🐞 **Open issues + PRs** | [11.0k](https://github.com/vllm-project/vllm/issues) |
+| 🐞 **Open issues + PRs** | [11.1k](https://github.com/vllm-project/vllm/issues) |
 | 💻 **Languages** | Python 86% · Rust 7% · Cuda 4% · C++ 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gpt` `llm` `pytorch` `model-serving` `transformer` `llm-serving` `inference` `llama` `amd` `cuda` `tpu` `deepseek` `qwen` `blackwell` `deepseek-v3` `gpt-oss` `kimi` `moe` `openai` `qwen3` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-02-09 |
 | 📦 **Latest release** | [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 380.5 MB |
+| 💾 **Size** | 382.3 MB |
 | 🌐 **Website** | https://vllm.ai |
 
 ## 📦 Recent releases
 
 ### [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)
-<sub>2026-11-16 · 6d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > **v0.34.0**
 > **1,061 commits from 412 contributors (120 new).** Thank you!
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.33.0rc3](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) — v0.33.0
-<sub>2026-11-02 · 21d ago</sub>
+<sub>2026-11-02 · 22d ago</sub>
 
 > **v0.33.0**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [[ROCm][Perf] Skip masked-out context tiles for sliding-window models …](https://github.com/vllm-project/vllm/commit/e83d82a46b50a27534584a8bf4c6dd2d2cb9eeb5) | phambinhfin |
-| 2026-11-23 | [[Refactor][SleepMode] Expose CuMemBackend allocator hook (#69412)](https://github.com/vllm-project/vllm/commit/187c473dbe8aa2b3fc4213d5b79a70c588902ba5) | Ronald1995 |
-| 2026-11-23 | [[Bugfix][KVConnector] Split MLA kernel rows larger than the NIXL bloc…](https://github.com/vllm-project/vllm/commit/75d8770263d6907de1f28a7fdaf485e20a039d6d) | NickLucche |
-| 2026-11-23 | [[Bugfix][Model] Normalize the legacy Qwen3-ASR text config alias (#69…](https://github.com/vllm-project/vllm/commit/6aeedab553dd85d6bc3f9f4deb3bb264bce0cb7c) | pk954061458 |
-| 2026-11-23 | [[Bugfix][Quantization] Keep checkpoint-excluded routed experts unquan…](https://github.com/vllm-project/vllm/commit/abad4cc48213a20bdc335379520fc66b26e6181d) | vllmellm |
-| 2026-11-23 | [[Core][Model Loader] Add sleep/wake/reload lifecycle hooks to model l…](https://github.com/vllm-project/vllm/commit/afb35f85e7e25720a9acb656d0b20b20d33ffcd0) | romanbaron |
-| 2026-11-23 | [[CI] Use test runner for sampling and LoRA tests (#68884)](https://github.com/vllm-project/vllm/commit/ee1d07c7b2c30dc0eb686bdb00a8ce94f4e4c071) | hlin99 |
-| 2026-11-23 | [[Model] Migrate ERNIE 4.5 to Transformers backend (#69087)](https://github.com/vllm-project/vllm/commit/d9bfe86b9fe1156642ac45aadef965159dd1d7f1) | Remarkable911 |
-| 2026-11-23 | [[Bugfix] Respect root_path in elastic EP scaling middleware (#69285)](https://github.com/vllm-project/vllm/commit/4a1620a09aba0cd771a186b81e973707c0ecbb07) | rishabhsai |
-| 2026-11-23 | [[CI][Bugfix] Precompute Gemma3n sparsity quantiles before inference (…](https://github.com/vllm-project/vllm/commit/ab94934e6ca2db6e41e9e6d8eeefb740488ed0ee) | hlin99 |
+| 2026-11-24 | [[Perf][Attention] Vectorize per-token-head KV tile loads in Triton at…](https://github.com/vllm-project/vllm/commit/eb42ba633eec9453f161e33494ae49d0284b12f2) | Jeremiah-HL |
+| 2026-11-24 | [[Bugfix] Fix /classify for per-position seq-cls heads on the Transfor…](https://github.com/vllm-project/vllm/commit/bdd3d787ae663e31299facff453323f74a92e751) | KathanSheth |
+| 2026-11-24 | [[Perf][MM] Use varlen attention in MiniCPM-V vision encoder (#69136)](https://github.com/vllm-project/vllm/commit/31814a6f6f2d24b2bebebd7c94181c02ae51cef7) | YunzhuLu |
+| 2026-11-24 | [[Recipes][XPU] Add validated 8192-token context defaults for some Qwe…](https://github.com/vllm-project/vllm/commit/03a905b941a204732d4f24e76d68a8f8cf4983cb) | louie-tsai |
+| 2026-11-24 | [[Security] Bound media preprocessing per prompt (#69098)](https://github.com/vllm-project/vllm/commit/880c63222bbf9522e115c34418f1e8039e6ee40c) | jperezdealgaba |
+| 2026-11-24 | [[Bugfix][Multimodal] Include the cause in HF processor error messages…](https://github.com/vllm-project/vllm/commit/bd1ebabfd95fb5a3638dbe17981b98c6bbb84244) | YingxuH |
+| 2026-11-24 | [[Frontend][Perf] Default --renderer-num-workers to 4 for the async re…](https://github.com/vllm-project/vllm/commit/93bb688f48fb5d75fee748947ec0e3256bee74f6) | arpera |
+| 2026-11-24 | [[Perf][ROCm][Attention] Use smaller tiles in the prefix_prefill kerne…](https://github.com/vllm-project/vllm/commit/d9586ca916b49ad1e04d08b6ad3bbe00129269d6) | lijipeng787 |
+| 2026-11-24 | [[Rust Frontend] Support DeepSeek V4 completion suffixes (#68969)](https://github.com/vllm-project/vllm/commit/b09bc99f40951f8984a6c64cecfed47036bc6016) | suntp |
+| 2026-11-24 | [[Rust Frontend] Parse Mistral v11+ tool calls (#69601)](https://github.com/vllm-project/vllm/commit/fbf9dadde6e8e454e48aa40e62757da28c45c3e9) | BugenZhao |
 
 [See all commits ↗](https://github.com/vllm-project/vllm/commits)
 

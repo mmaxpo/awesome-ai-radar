@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 61.2k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [568](https://github.com/jamiepine/voicebox/issues) |
+| 🐞 **Open issues + PRs** | [565](https://github.com/jamiepine/voicebox/issues) |
 | 💻 **Languages** | Python 46% · TypeScript 42% · Rust 9% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `voice-clone` `qwen3-tts` `voice-ai` `whisper` `qwen3-tts-ui` `cuda` `mlx` |
-| 🕒 **Last activity** | 2026-11-21 (2d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-01-25 |
 | 📦 **Latest release** | [v0.6.0](https://github.com/jamiepine/voicebox/releases/tag/v0.6.0) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 100.3 MB |
+| 💾 **Size** | 100.5 MB |
 | 🌐 **Website** | https://voicebox.sh |
 
 ## 📦 Recent releases
 
 ### [v0.6.0](https://github.com/jamiepine/voicebox/releases/tag/v0.6.0)
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > **The stability release.** 0.5 made Voicebox a dictation and agent-voice studio; 0.6 makes it hold up. Sixty-plus contributor pull requests landed since 0.5 and most of them fix something that used to go wrong in daily use: MLX crashed with `There is no Stream(gpu, 1) in current thread` when a model was loaded on one thread and used on another, memory grew with every generation and never came back on unload, a fully-cached model retried HuggingFace five times per file before it would load offline, the Docker image could not write its own data volume, dictation refused to arm without an LLM it was never going to call, and the backend test suite would not even collect. All of that is fixed. The headline features ride on top: native AMD ROCm on Windows and in Docker, five new interface languages, and Chatterbox multilingual running on Apple Silicon through MLX.
 > One change is breaking for existing MCP configs: the four MCP tools are renamed from dotted to underscore names (`voicebox.speak` → `voicebox_speak`, and so on) because Claude Desktop rejects dots in tool names. See the MCP section below.
@@ -86,16 +86,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-10-07 | [Merge pull request #1168 from jamiepine/prep/pr-1062](https://github.com/jamiepine/voicebox/commit/8af7efe62fab8d33e2a5dfbedabaa45f68a5184f) | capy-ai-staging[bot] |
-| 2026-10-07 | [docs(engines): describe all three INSTRUCT_ENGINES members](https://github.com/jamiepine/voicebox/commit/ce755ff08573ae613d1ffe897ddcabb8f824e777) | jamiepine |
-| 2026-10-07 | [style: drop stray blank line in EngineModelSelector](https://github.com/jamiepine/voicebox/commit/6b9edb799812f83e69f8b9381f026c58f5a364b7) | jamiepine |
-| 2026-10-07 | [fix(omnivoice): use the shared INSTRUCT_ENGINES for VoiceDesign and O…](https://github.com/jamiepine/voicebox/commit/d896524c606dc0f763e39bf6f6917cc7a5a4164f) | jamiepine |
-| 2026-10-07 | [Merge origin/main (Qwen VoiceDesign) into prep/pr-1062, keep both eng…](https://github.com/jamiepine/voicebox/commit/bb6ee6a8e863ea7f75717a8f4f3618c82cdd80ed) | jamiepine |
-| 2026-10-07 | [Merge pull request #1173 from jamiepine/prep/pr-1012](https://github.com/jamiepine/voicebox/commit/dc5b6db8aea2f4a4ddcfb7953cc5eb779a2cbb46) | capy-ai-staging[bot] |
-| 2026-10-07 | [fix(stories): collapse whitespace in chapter titles; mp3 at 160k to k…](https://github.com/jamiepine/voicebox/commit/450417de8a4651a16dbad77c30e6b4328b3cee66) | jamiepine |
-| 2026-10-07 | [docs(api): note format/chapters params on the export-audio endpoints](https://github.com/jamiepine/voicebox/commit/32ea50b74598fb5dea8db7fe734bb754d577c112) | jamiepine |
-| 2026-10-07 | [docs(changelog): m4b/mp3 story export and MP3 generation export under…](https://github.com/jamiepine/voicebox/commit/2445e80b69943d2a1501a1ec61e1f2a82ae97231) | jamiepine |
-| 2026-10-07 | [test(export): cover MP3 export endpoint and make the m4b round-trip p…](https://github.com/jamiepine/voicebox/commit/1927d0607b72c7cbfd00da1cf37ee6eceaac5fce) | jamiepine |
+| 2026-11-24 | [Track every model load so a successful load always clears the downloa…](https://github.com/jamiepine/voicebox/commit/8dc2a5bfe0f783edd53f8a346a22dcad9c1fb793) | jamiepine |
+| 2026-11-24 | [Only prefer the repo data root when the app did not spawn the backend](https://github.com/jamiepine/voicebox/commit/6898ccb89b5ccf1b38e7a4606595850985c5fa55) | jamiepine |
+| 2026-11-24 | [Resolve app folders against the dev backend's data root in debug builds](https://github.com/jamiepine/voicebox/commit/1c5243b50b772f2a44723bc634277d024488afca) | jamiepine |
+| 2026-11-24 | [Narrow Tauri shell and fs permissions and open app folders from Rust](https://github.com/jamiepine/voicebox/commit/8abf8255c891a59c62be3b2d48d2b06c369e6147) | jamiepine |
+| 2026-11-24 | [Make TADA residency size-aware and retry only clean OSError load fail…](https://github.com/jamiepine/voicebox/commit/b227910978ee2aaf6926b13ac4b7870db9b9b962) | jamiepine |
+| 2026-11-24 | [Skip snapshot verification for a model that is already resident](https://github.com/jamiepine/voicebox/commit/8ce92fdb1ee3b25967951e3ee0b2a845bed496cd) | jamiepine |
+| 2026-11-24 | [Retry an unverified model load online once before failing (#1261)](https://github.com/jamiepine/voicebox/commit/8b845f77533534e5ba2fb18909c79846f485f794) | jamiepine |
+| 2026-11-24 | [Only report a model as downloaded once its snapshot is verified compl…](https://github.com/jamiepine/voicebox/commit/8815b9be08a184501a5c0cd5e428dd51b46d4721) | jamiepine |
+| 2026-11-24 | [Bring the recovery dialog forward, or open OS settings when the main …](https://github.com/jamiepine/voicebox/commit/b5835f9d795cae615518c96a2a2f5065a195db10) | jamiepine |
+| 2026-11-24 | [Recover from a denied microphone permission (#1267)](https://github.com/jamiepine/voicebox/commit/6d3b024e2884e3794b738296ffd29d9542f3abc1) | jamiepine |
 
 [See all commits ↗](https://github.com/jamiepine/voicebox/commits)
 

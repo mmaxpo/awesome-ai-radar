@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 94.1k |
+| ⭐ **Stars** | 94.2k |
 | 🍴 **Forks** | 12.6k |
-| 🐞 **Open issues + PRs** | [1.3k](https://github.com/OpenHands/OpenHands/issues) |
+| 🐞 **Open issues + PRs** | [1.2k](https://github.com/OpenHands/OpenHands/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `artificial-intelligence` `llm` `chatgpt` `claude-ai` `cli` `developer-tools` `gpt` `openai` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2024-03-13 |
-| 📦 **Latest release** | [v1.44.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.44.0) — 2026-11-23 |
+| 📦 **Latest release** | [v1.45.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.45.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 703.4 MB |
+| 💾 **Size** | 696.5 MB |
 | 🌐 **Website** | https://openhands.dev |
 
 ## 📦 Recent releases
 
+### [v1.45.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.45.0)
+<sub>2026-11-24 · today</sub>
+
+> **1.45.0 (2026-11-24)**
+> **What's Changed**
+> **Features**
+> * feat(factories): show a factory's worklogs, newest first by @jpshackelford in https://github.com/OpenHands/OpenHands/pull/19811
+> * feat(factories): delete a factory from its page by @jpshackelford in https://github.com/OpenHands/OpenHands/pull/19861
+> * feat(projects): OpenHands Projects in Canvas (experimental) by @enyst in https://github.com/OpenHands/OpenHands/pull/19495
+> …
+
 ### [v1.44.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.44.0)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **1.44.0 (2026-11-23)**
 > **What's Changed**
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.43.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.43.0)
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > **1.43.0 (2026-11-20)**
 > **What's Changed**
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.42.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.42.0)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **1.42.0 (2026-11-18)**
 > **What's Changed**
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.41.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.41.0)
-<sub>2026-11-16 · 6d ago</sub>
+<sub>2026-11-16 · 7d ago</sub>
 
 > **1.41.0 (2026-11-16)**
 > **What's Changed**
@@ -79,31 +90,20 @@
 > * feat(hooks): name the workspace and user hooks files in the Available Hooks dialog by @enyst in https://github.com/OpenHands/OpenHands/pull/18366
 > …
 
-### [v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0)
-<sub>2026-11-12 · 11d ago</sub>
-
-> **1.40.0 (2026-11-12)**
-> **What's Changed**
-> **Features**
-> * feat: improve Codex subscription authentication guidance by @xunjizhe in https://github.com/OpenHands/OpenHands/pull/17194
-> **Bug Fixes**
-> * fix(chat): keep messages at tied history page boundaries by @enyst in https://github.com/OpenHands/OpenHands/pull/19649
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [feat(factories): delete a factory from its page (#19861)](https://github.com/OpenHands/OpenHands/commit/7cc0bcbebe7711a7dddb828d6a4facdc3c7b5168) | jpshackelford |
-| 2026-11-23 | [feat(factories): show a factory's worklogs, newest first (#19811)](https://github.com/OpenHands/OpenHands/commit/6de38490c1905e43f7732056f31b75caaddac5da) | jpshackelford |
-| 2026-11-23 | [chore(main): release 1.44.0 (#19911)](https://github.com/OpenHands/OpenHands/commit/3f2a7fcc7288fb5916feb983dffa45abc75aa5b7) | openhands-release-bot[bot] |
-| 2026-11-23 | [chore: bump agent-server to 1.63.1, automation to 1.35.0, extensions …](https://github.com/OpenHands/OpenHands/commit/d1fc0fc001245eea0ed619044bc9c149c4870a69) | openhands-release-bot[bot] |
-| 2026-11-23 | [docs(verify-openhands): map Factories as F31 (#19899)](https://github.com/OpenHands/OpenHands/commit/1df5c95e84e332b6cc8bceda10fcd2d44390a23a) | jpshackelford |
-| 2026-11-23 | [chore(deps-dev): bump the testing group across 1 directory with 2 upd…](https://github.com/OpenHands/OpenHands/commit/f2ed371eed5d074c64bd47e538db7b3afe5f304c) | dependabot[bot] |
-| 2026-11-23 | [fix(conversation-overview): count diff stats from the longest common …](https://github.com/OpenHands/OpenHands/commit/08f4c34500a14e48e7cf2c8c840684d0ff94249b) | LeizhenZhang |
-| 2026-11-23 | [fix(settings): make SettingsDropdownInput clearable by default (#19664)](https://github.com/OpenHands/OpenHands/commit/df675f04d555ed93403914905e0c61006b01ad21) | SaltGardenia |
-| 2026-11-23 | [feat(factories): add Factories sidebar entry with list and drill-in v…](https://github.com/OpenHands/OpenHands/commit/b16289656d21d970ff247affa0623a7f7c612da4) | jpshackelford |
-| 2026-11-23 | [View and edit an automation's key-value store (#19907)](https://github.com/OpenHands/OpenHands/commit/8f0b6de2750f27ee0a2660895c79c2a0f2fd790c) | tofarr |
+| 2026-11-24 | [chore(deps): bump the i18next group with 2 updates (#20022)](https://github.com/OpenHands/OpenHands/commit/d5dcd45d1c3f798fce782833029476a2b371e051) | dependabot[bot] |
+| 2026-11-24 | [chore(deps-dev): bump the eslint group with 2 updates (#20023)](https://github.com/OpenHands/OpenHands/commit/b97ae3cd77c145a832667575b9a8d6891cd8395f) | dependabot[bot] |
+| 2026-11-24 | [chore(deps-dev): bump electron from 45.3.2 to 45.3.3 (#20024)](https://github.com/OpenHands/OpenHands/commit/bcb29faacdd3157ae119a9cd26448128cb83c5c6) | dependabot[bot] |
+| 2026-11-24 | [chore(deps): bump @tanstack/react-virtual from 3.11.3 to 3.14.26 in t…](https://github.com/OpenHands/OpenHands/commit/6c222eb9dc0ee5f85c364253b2c27a894e533717) | dependabot[bot] |
+| 2026-11-24 | [chore: bump agent-server to 1.63.1, automation to 1.35.1, extensions …](https://github.com/OpenHands/OpenHands/commit/9dfc6cedd99d2c919722dc5d5df73d2efa921340) | openhands-release-bot[bot] |
+| 2026-11-24 | [chore(main): release 1.45.0 (#20014)](https://github.com/OpenHands/OpenHands/commit/47eed012171230b059c3f5cbf3798bded74ea248) | openhands-release-bot[bot] |
+| 2026-11-24 | [feat(frontend): nest sub-agent conversations under their parent (#20010)](https://github.com/OpenHands/OpenHands/commit/7a9425ac0b1c1a648414fde7af23136c442204ca) | neubig |
+| 2026-11-24 | [fix(chat): close the agent profile and model pill popovers on Escape …](https://github.com/OpenHands/OpenHands/commit/cd22e079cd95e01493a21d07371e324f569e6b57) | enyst |
+| 2026-11-23 | [fix(sidebar): trap mobile drawer focus (#19999)](https://github.com/OpenHands/OpenHands/commit/d6161fd3baf9e9b011c4da875833010220ebaa56) | malhotra5 |
+| 2026-11-23 | [fix(conversation): cancel inline rename on Escape (#19997)](https://github.com/OpenHands/OpenHands/commit/997618d3f26f7234a67fea2494949903dc87f597) | malhotra5 |
 
 [See all commits ↗](https://github.com/OpenHands/OpenHands/commits)
 

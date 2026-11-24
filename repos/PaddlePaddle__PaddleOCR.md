@@ -20,7 +20,7 @@
 |---|---|
 | ⭐ **Stars** | 93.1k |
 | 🍴 **Forks** | 11.7k |
-| 🐞 **Open issues + PRs** | [279](https://github.com/PaddlePaddle/PaddleOCR/issues) |
+| 🐞 **Open issues + PRs** | [283](https://github.com/PaddlePaddle/PaddleOCR/issues) |
 | 💻 **Languages** | Python 69% · C++ 11% · TypeScript 6% · Shell 5% · Swift 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ocr` `chineseocr` `pdf2markdown` `pp-ocr` `pp-structure` `document-parsing` `document-translation` `kie` `ai4science` `pdf-extractor-rag` `pdf-parser` `rag` `paddleocr-vl` |
@@ -45,7 +45,7 @@
 > …
 
 ### [v3.6.0](https://github.com/PaddlePaddle/PaddleOCR/releases/tag/v3.6.0)
-<sub>2026-05-28 · 5mo ago</sub>
+<sub>2026-05-28 · 6mo ago</sub>
 
 > **2026.5.28 v3.6.0 released**
 > * **Release the PaddleOCR-VL-1.6 document parsing solution.**

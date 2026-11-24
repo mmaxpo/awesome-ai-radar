@@ -21,72 +21,72 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.1k |
-| 🍴 **Forks** | 474 |
-| 🐞 **Open issues + PRs** | [15](https://github.com/homeassistant-ai/ha-mcp/issues) |
+| 🍴 **Forks** | 477 |
+| 🐞 **Open issues + PRs** | [16](https://github.com/homeassistant-ai/ha-mcp/issues) |
 | 💻 **Languages** | Python 96% · JavaScript 2% · Astro 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `claude` `hacs` `home-assistant` `home-automation` `llm` `mcp` `model-context-protocol` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-09-14 |
-| 📦 **Latest release** | [v9.3.0.dev3699](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3699) — 2026-11-23 |
+| 📦 **Latest release** | [v9.3.0.dev3716](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3716) — 2026-11-24 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 63.6 MB |
+| 💾 **Size** | 64.9 MB |
 | 🌐 **Website** | https://homeassistant-ai.github.io/ha-mcp/ |
 
 ## 📦 Recent releases
 
-### [v9.3.0.dev3699](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3699) — Dev Build 9.3.0.dev3699 _(pre-release)_
-<sub>2026-11-23 · today</sub>
+### [v9.3.0.dev3716](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3716) — Dev Build 9.3.0.dev3716 _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
 > **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@de918ef, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3699.
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@7b50b56, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3716.
 > You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
 > Changes since the previous pre-release:
-> - fix: take the file tools' log path, file names and hidden-definition check from Core (#2632) (#3173)
+> - fix: let maintainers require generated bug report output (#3193)
 > **Other installs**
 > …
 
-### [v9.3.0.dev3695](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3695) — Dev Build 9.3.0.dev3695 _(pre-release)_
-<sub>2026-11-23 · today</sub>
+### [v9.3.0.dev3713](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3713) — Dev Build 9.3.0.dev3713 _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
 > **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@80e193c, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3695.
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@ad3adb2, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3713.
 > You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
 > Changes since the previous pre-release:
-> - feat: export and import HA-MCP settings between installations (#3164)
+> - fix: run real integrations where unit tests registered stand-ins under their names (#3189)
 > **Other installs**
 > …
 
-### [v9.3.0.dev3691](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3691) — Dev Build 9.3.0.dev3691 _(pre-release)_
+### [v9.3.0.dev3711](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3711) — Dev Build 9.3.0.dev3711 _(pre-release)_
 <sub>2026-11-23 · today</sub>
 
 > **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@157e58a, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3691.
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@cc9ded8, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3711.
 > You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
 > Changes since the previous pre-release:
-> - feat: ha_manage_updates follows Home Assistant's update and Repairs paths and reads Core's breaking changes again (#3179)
-> - deps(deps): bump pydantic-settings from 2.16.2 to 2.16.3 (#3186)
-> …
-
-### [v9.3.0.dev3683](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3683) — Dev Build 9.3.0.dev3683 _(pre-release)_
-<sub>2026-11-22 · today</sub>
-
-> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@05d13b7, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3683.
-> You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
-> Changes since the previous pre-release:
-> - fix: catch restricted entity_ids wherever they stand in tool output in enforce mode (#3175)
+> - chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.11.3 (#3191)
 > **Other installs**
 > …
 
-### [v9.3.0.dev3680](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3680) — Dev Build 9.3.0.dev3680 _(pre-release)_
-<sub>2026-11-22 · yesterday</sub>
+### [v9.3.0.dev3708](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3708) — Dev Build 9.3.0.dev3708 _(pre-release)_
+<sub>2026-11-23 · today</sub>
 
 > **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@f1b66f1, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3680.
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@72723a5, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3708.
 > You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
 > Changes since the previous pre-release:
-> - feat: read and change Home Assistant's backup-before-update settings in ha_manage_backup (#3177)
+> - fix: keep a failed script or automation write's own error in enforce mode (#3181)
+> **Other installs**
+> …
+
+### [v9.3.0.dev3704](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3704) — Dev Build 9.3.0.dev3704 _(pre-release)_
+<sub>2026-11-23 · today</sub>
+
+> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@d957400, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3704.
+> You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
+> Changes since the previous pre-release:
+> - fix(scenes,scripts): no guessed entity after a write, on activation by key, or for a YAML scene id (#2632) (#3176)
 > **Other installs**
 > …
 
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [chore(addon): publish dev addon version 9.3.0.dev3699 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/d7313a64742b97f357d8bd3060d221879547e318) | github-actions[bot] |
-| 2026-11-23 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/e2dc8f024480733b4c372060785f1b7a7a6f439c) | github-actions[bot] |
-| 2026-11-23 | [fix: take the file tools' log path, file names and hidden-definition …](https://github.com/homeassistant-ai/ha-mcp/commit/de918eff9072b4b2318ece04d4edf9c68b641848) | Patch76 |
-| 2026-11-23 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/a260f27cd596714d7559053b87fb83784772ccd9) | github-actions[bot] |
-| 2026-11-23 | [chore(addon): publish dev addon version 9.3.0.dev3695 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/b15d77a050ecedbd44de2f431d986014a68e7244) | github-actions[bot] |
-| 2026-11-23 | [chore(internal): sync tool docs after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/6ade1205c29c5ebbc7a3d93e73da0b04cae5f2af) | github-actions[bot] |
-| 2026-11-23 | [feat: export and import HA-MCP settings between installations (#3164)](https://github.com/homeassistant-ai/ha-mcp/commit/80e193c212ad24ca7a530b6770c943f4fef20f41) | kingpanther13 |
-| 2026-11-23 | [chore(addon): publish dev addon version 9.3.0.dev3691 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/3703df6e1defb8ea4426a18e6de009ad89d638f5) | github-actions[bot] |
-| 2026-11-23 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/aab1589f8c0d69091a592ab897665334431db95a) | github-actions[bot] |
-| 2026-11-23 | [chore(internal): sync tool docs after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/c75e42760cb3ad9fd4fa10232f4aa7efa6b1617f) | github-actions[bot] |
+| 2026-11-24 | [fix: let maintainers require generated bug report output (#3193)](https://github.com/homeassistant-ai/ha-mcp/commit/7b50b56139f42c8813f26d555c88e84efd0fa7b2) | kingpanther13 |
+| 2026-11-24 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/991a7a8c58da4dc25d0ccbb380fdadb054267163) | github-actions[bot] |
+| 2026-11-24 | [chore(addon): publish dev addon version 9.3.0.dev3713 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/26f91de9af3469eaf776cd66dc9c1ad0d7248867) | github-actions[bot] |
+| 2026-11-24 | [fix: run real integrations where unit tests registered stand-ins unde…](https://github.com/homeassistant-ai/ha-mcp/commit/ad3adb240506afbf49b8b6336cfd7a2d8b44eb73) | kingpanther13 |
+| 2026-11-23 | [chore(addon): publish dev addon version 9.3.0.dev3711 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/2c255cbe12327133e3f7958f684bb4ad96f44d92) | github-actions[bot] |
+| 2026-11-23 | [chore(deps): update ghcr.io/home-assistant/home-assistant docker tag …](https://github.com/homeassistant-ai/ha-mcp/commit/cc9ded843ab726ffd274c2f81ee3d8c05d728f08) | ha-mcp-renovate[bot] |
+| 2026-11-23 | [chore(addon): publish dev addon version 9.3.0.dev3708 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/f488988aa94f05386ff8aa9a6bc80f276296db27) | github-actions[bot] |
+| 2026-11-23 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/ae3e2ae090970a5cb8dd908d442644b2ef34f41b) | github-actions[bot] |
+| 2026-11-23 | [fix: keep a failed script or automation write's own error in enforce …](https://github.com/homeassistant-ai/ha-mcp/commit/72723a52d4df95a1648d604cc4cc57a3094ffde6) | Patch76 |
+| 2026-11-23 | [chore(addon): publish dev addon version 9.3.0.dev3704 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/67100f66f21a553d53b8b234f9815309874a688b) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/homeassistant-ai/ha-mcp/commits)
 

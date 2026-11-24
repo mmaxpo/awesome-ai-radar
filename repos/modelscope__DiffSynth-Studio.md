@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 13.4k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [584](https://github.com/modelscope/DiffSynth-Studio/issues) |
+| 🐞 **Open issues + PRs** | [588](https://github.com/modelscope/DiffSynth-Studio/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-12-07 |
 | 📦 **Latest release** | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) — 2025-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 20.7 MB |
+| 💾 **Size** | 20.8 MB |
 
 ## 📦 Recent releases
 
@@ -64,6 +64,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [support sensenova v1.6 (#1855)](https://github.com/modelscope/DiffSynth-Studio/commit/3093e5599430e5605054cd052631344ae4298891) | mi804 |
 | 2026-11-23 | [update README (#1852)](https://github.com/modelscope/DiffSynth-Studio/commit/259d1864903a7d469975584294d233bdb4aba6ae) | Artiprocher |
 | 2026-11-23 | [Support Unified Sequence Parallel (#1851)](https://github.com/modelscope/DiffSynth-Studio/commit/e33e16cfd38fc9d22b753303ed2b16d086ceb586) | Artiprocher |
 | 2026-11-23 | [fix typo (#1848)](https://github.com/modelscope/DiffSynth-Studio/commit/ee5fab2387c9ae012edb771dcfad6c6a6aceda3b) | Artiprocher |
@@ -73,7 +74,6 @@
 | 2026-11-23 | [Support KV-Cache Compression (#1844)](https://github.com/modelscope/DiffSynth-Studio/commit/3075eb67ae18b68c756e95bb93419292f7abed49) | Artiprocher |
 | 2026-11-19 | [Add MiniMax-H3-Image training adapter docs (#1839)](https://github.com/modelscope/DiffSynth-Studio/commit/35e72140b917cfae1ff66932373bb8f83d66e7aa) | mi804 |
 | 2026-11-19 | [Align MiniMax-H3-Image training to 6 steps (#1836)](https://github.com/modelscope/DiffSynth-Studio/commit/ca883a76d8f6c005b0c335bbafa826c27ec84148) | mi804 |
-| 2026-11-18 | [Fix MiniMax-H3-Image edit training (#1833)](https://github.com/modelscope/DiffSynth-Studio/commit/fc8b4be56759de06cac585929f608227ac58766b) | mi804 |
 
 [See all commits ↗](https://github.com/modelscope/DiffSynth-Studio/commits)
 

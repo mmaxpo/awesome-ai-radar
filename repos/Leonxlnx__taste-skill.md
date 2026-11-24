@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 120.5k |
+| ⭐ **Stars** | 121.0k |
 | 🍴 **Forks** | 8.1k |
-| 🐞 **Open issues + PRs** | [20](https://github.com/Leonxlnx/taste-skill/issues) |
+| 🐞 **Open issues + PRs** | [24](https://github.com/Leonxlnx/taste-skill/issues) |
 | 💻 **Languages** | JavaScript 61% · HTML 28% · CSS 11% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `frontend` `agent-skills` `ai-agents` `anti-slop` `cursor` `design-system` `landing-page` `ui-design` `web-design` |
-| 🕒 **Last activity** | 2026-11-22 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-02-19 |
 | 📦 **Latest release** | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — 2026-11-07 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 102.3 MB |
+| 💾 **Size** | 102.2 MB |
 | 🌐 **Website** | https://tasteskill.dev |
 
 ## 📦 Recent releases
 
 ### [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — tasteskill v2.5.1
-<sub>2026-11-07 · 16d ago</sub>
+<sub>2026-11-07 · 17d ago</sub>
 
 > What a 44-site test of 2.5.0 showed, fixed: builds now iterate until the checker is clean, every page moves, products without photographs are shown in photographs, palettes fit the trade, the copy gets a voice of its own, and nothing lies on anything else on a phone. The install name did not change.
 > - **A finish gate:** `scripts/gate.mjs` runs the checker, the layout check and a copy lint, and a build is not done until its last line reads `GATE: PASS` (three rounds, five waivers with reasons at most). In Claude Code it runs as a Stop hook from the skill itself. It never traps an agent: a question to the user costs no round, and `gate.mjs --done` ends a build at the user's word.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.5.0](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.0) — tasteskill v2.5
-<sub>2026-11-04 · 18d ago</sub>
+<sub>2026-11-04 · 19d ago</sub>
 
 > A complete rebuild of `design-taste-frontend` around professional company websites at the figma.com and x.ai bar. The install name did not change.
 > - **One page system:** every build starts from the same starter. The hero fills the first screen, one section per screen, equal left and right edges.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.1.5](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.1.5) — tasteskill v2.1.5
-<sub>2026-10-24 · 29d ago</sub>
+<sub>2026-10-24 · 1mo ago</sub>
 
 > Fixes from the community. Thanks to everyone who reported and sent them.
 > - **Safe text in charts and split headings** (#160, #169, thanks @jcastilla89 and @Pablolakotek): `charts.js` and the `Stage.split` fallback escape the text they insert, so a label or heading from user data can no longer inject markup.

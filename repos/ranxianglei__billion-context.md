@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.2k |
-| 🍴 **Forks** | 668 |
-| 🐞 **Open issues + PRs** | [1.5k](https://github.com/ranxianglei/billion-context/issues) |
+| ⭐ **Stars** | 8.3k |
+| 🍴 **Forks** | 673 |
+| 🐞 **Open issues + PRs** | [1.4k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-08-06 |
 | 📦 **Latest release** | [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 89.9 MB |
+| 💾 **Size** | 92.2 MB |
 
 ## 📦 Recent releases
 
 ### [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216)
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: two fixes — evidence file is now readable after the run completes + one retry added for the small-window round in  | gate 两个修复:跑完后证据文件能读了 + R 车道小窗口轮次加一次重试 by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6808
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
-<sub>2026-11-15 · 8d ago</sub>
+<sub>2026-11-15 · 9d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · 9d ago</sub>
+<sub>2026-11-14 · 10d ago</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 15d ago</sub>
+<sub>2026-11-07 · 16d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.1.212](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.212)
-<sub>2026-11-02 · 21d ago</sub>
+<sub>2026-11-02 · 22d ago</sub>
 
 > **What's Changed**
 > * [PR] (ai: anthropic/claude-opus-4-6) fix(release): nuclear box = deps download + build + publish, zero checks; add local zero-install publish script by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5436
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #7517 from ranxianglei/fix/codex-window-raise](https://github.com/ranxianglei/billion-context/commit/a9a322d0b7c5c800a431f66a8c184224852d9eb2) | ranxianglei |
-| 2026-11-23 | [Merge pull request #7583 from ranxianglei/fix/6785-review-followups](https://github.com/ranxianglei/billion-context/commit/055f53255f8fc760d86cbb61a95c9fe4d2f4ea42) | ranxianglei |
-| 2026-11-23 | [Merge pull request #4410 from ranxianglei/2026-10-23_issue4401-judge-…](https://github.com/ranxianglei/billion-context/commit/79a5f98d713c77c3c27c3352902cf02bbdc6f96a) | ranxianglei |
-| 2026-11-23 | [test(#7574): close the second database connection before the temp fol…](https://github.com/ranxianglei/billion-context/commit/e365215bc7231008d830e8e6f4d03f365bd7e297) | ranxianglei |
-| 2026-11-23 | [fix(#7574): correct the rollback finding — tool-output texts do not c…](https://github.com/ranxianglei/billion-context/commit/ffcb085b06a8d08a36610e2ba69708a018d172ee) | ranxianglei |
-| 2026-11-23 | [docs(#7574): record the review follow-up in the unified storage desig…](https://github.com/ranxianglei/billion-context/commit/0f09d5fed64e7fb73b4d9a62eacf4cb4c9240e0d) | ranxianglei |
-| 2026-11-23 | [fix(#7574): pi sends the full id list again after a switch to the ant…](https://github.com/ranxianglei/billion-context/commit/4ed66eda0bbf9219ab885ef3127c71d573731003) | ranxianglei |
-| 2026-11-23 | [fix(#7574): a well-formed short id list on an empty ledger no longer …](https://github.com/ranxianglei/billion-context/commit/c0fcfa7ee8d3e937f77dd69014e857f75ef5711c) | ranxianglei |
-| 2026-11-23 | [fix(#7574): the outbound op log records every turn safely and only ru…](https://github.com/ranxianglei/billion-context/commit/4a7a1fa7c9f3b73f0d4f0ddeb5c7be22a1f531e5) | ranxianglei |
-| 2026-11-23 | [fix(#7574): after a rollback to an older build, state fields it wrote…](https://github.com/ranxianglei/billion-context/commit/2e685aa21c3484e5d27d31ec76b9746e8cc5d624) | ranxianglei |
+| 2026-11-24 | [Merge pull request #7659 from ranxianglei/2026-11-24_eg-ga-docs-wrapup](https://github.com/ranxianglei/billion-context/commit/256df56f15348e6597a1347b07a36e4e19ff862d) | ranxianglei |
+| 2026-11-24 | [fix(egress diagrams): pointer arrow was a self-loop; remove double ar…](https://github.com/ranxianglei/billion-context/commit/3aee42c3fabda496a88fd121023cac6d2a53660d) | ranxianglei |
+| 2026-11-24 | [fix(egress diagrams): the six new arrows had no arrowheads (review m0…](https://github.com/ranxianglei/billion-context/commit/d4ff7ee8a1d53cd23c47e3bfe6d8727a5828a3da) | ranxianglei |
+| 2026-11-24 | [regenerate config docs from the rebased seed (egressPlane back to 0 o…](https://github.com/ranxianglei/billion-context/commit/5911beb31392eb81a135b6ff90ca521ae0e1bb99) | ranxianglei |
+| 2026-11-24 | [revert: egressPlane config-docs seed back to 0 (off) — the GA flip wa…](https://github.com/ranxianglei/billion-context/commit/c1531f5f0913d154b08f42ea552c3da3ec38fcfd) | ranxianglei |
+| 2026-11-24 | [revert: egressPlane default stays 0 (owner ruling) — the PR is docs-o…](https://github.com/ranxianglei/billion-context/commit/21adc8eab4c7fab981b32c5b0bea90268b72dc10) | ranxianglei |
+| 2026-11-24 | [test: scope 3 egress-fork/lane suites to egressPlane off after the GA…](https://github.com/ranxianglei/billion-context/commit/b1a3d2cbebb6a690df3eb30fd25ee4fc0b25e631) | ci-check |
+| 2026-11-24 | [test: scope 6 legacy-path suites to egressPlane off after the GA defa…](https://github.com/ranxianglei/billion-context/commit/a7fda78087078f73c5ed8426234eb91919f88cb2) | ci-check |
+| 2026-11-24 | [fix(docs): sync egressPlane GA wording into the config-docs seed](https://github.com/ranxianglei/billion-context/commit/68a0131a7f5e0685230517572d915e18a2806be7) | ci-check |
+| 2026-11-24 | [docs(egress): full doc wrap-up per owner review — dedicated egress-pl…](https://github.com/ranxianglei/billion-context/commit/689cb8d8ef304ce86247c9f80590c3e4124717ac) | ranxianglei |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

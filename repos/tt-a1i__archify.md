@@ -20,39 +20,50 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 99.0k |
+| ⭐ **Stars** | 99.4k |
 | 🍴 **Forks** | 6.8k |
-| 🐞 **Open issues + PRs** | [360](https://github.com/tt-a1i/archify/issues) |
+| 🐞 **Open issues + PRs** | [358](https://github.com/tt-a1i/archify/issues) |
 | 💻 **Languages** | JavaScript 88% · TypeScript 4% · CSS 3% · HTML 2% · Rust 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `architecture-diagram` `developer-tools` `system-design` `agent-skills` `codex` `opencode` `sequence-diagram` `deepseek-harness` `dsh-plugin` `coding-agents` `diagrams` `diagrams-as-code` `software-architecture` `ai-agents` `claude-code` `claude-skills` `flowchart` `llm` `mermaid` `visualization` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-04-15 |
-| 📦 **Latest release** | [archify-dsh-v1.2.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.2.0) — 2026-11-23 |
+| 📦 **Latest release** | [v3.3.1](https://github.com/tt-a1i/archify/releases/tag/v3.3.1) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1840.4 MB |
+| 💾 **Size** | 1859.9 MB |
 | 🌐 **Website** | https://archify.si |
 
 ## 📦 Recent releases
 
+### [v3.3.1](https://github.com/tt-a1i/archify/releases/tag/v3.3.1)
+<sub>2026-11-24 · today</sub>
+
+> **Archify 3.3 in 60 seconds**
+> https://github.com/user-attachments/assets/6a0d6637-e3af-43af-a733-4b4b53da0542
+> Code Analysis maps your repository as a dependency atlas and a 3D model, then marks findings on your own architecture diagram. Story turns native diagrams into animated walkthroughs you can export as SVG, a stage page or 1080p video.
+> **What's Changed**
+> * release: publish stable 3.3.0 update manifest by @tt-a1i in https://github.com/tt-a1i/archify/pull/1460
+> * chore: sync dev with main and start v3.3.1-dev.1 cycle by @tt-a1i in https://github.com/tt-a1i/archify/pull/1461
+> …
+
 ### [archify-dsh-v1.2.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.2.0) — Archify DSH 1.2.0
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > Published `@tt-a1i/archify-dsh` from this tag's verified tarball. See the integration README for the bundled Archify source and acceptance record.
 
 ### [v3.3.0](https://github.com/tt-a1i/archify/releases/tag/v3.3.0)
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
+> **Archify 3.3 in 60 seconds**
+> https://github.com/user-attachments/assets/6a0d6637-e3af-43af-a733-4b4b53da0542
+> Code Analysis maps your repository as a dependency atlas and a 3D model, then marks findings on your own architecture diagram. Story turns native diagrams into animated walkthroughs you can export as SVG, a stage page or 1080p video.
 > **What's Changed**
 > * Sync labs/code-analysis with dev (3.1.x) by @yijiez666-alt in https://github.com/tt-a1i/archify/pull/996
 > * Sync labs/code-analysis with dev and address #998 review findings by @yijiez666-alt in https://github.com/tt-a1i/archify/pull/1004
-> * release: enable v3.2.0 update notice and fix demo card clipping by @tt-a1i in https://github.com/tt-a1i/archify/pull/1006
-> * Code Analysis module (#979) synced with labs/code-analysis by @yijiez666-alt in https://github.com/tt-a1i/archify/pull/1007
-> * Codex/code analysis module by @yijiez666-alt in https://github.com/tt-a1i/archify/pull/979
 > …
 
 ### [archify-dsh-v1.1.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.1.0) — Archify DSH 1.1.0
-<sub>2026-11-08 · 14d ago</sub>
+<sub>2026-11-08 · 15d ago</sub>
 
 > Published `@tt-a1i/archify-dsh@1.1.0` — a Skill-only DeepSeek Harness bundle containing Archify 3.2.0.
 > - Published: 2026-11-08 (npm `latest`)
@@ -73,31 +84,20 @@
 >   - **Reading:**
 > …
 
-### [v3.1.0](https://github.com/tt-a1i/archify/releases/tag/v3.1.0)
-<sub>2026-10-13 · 1mo ago</sub>
-
-> **Archify 3.1.0**
-> https://github.com/user-attachments/assets/d6144aba-cb48-4692-a24d-b43bf7be62c2
-> *30 seconds of Archify 3.1: five new diagram types, Live motion, light and dark.*
-> Ten diagram types, with Live motion enabled by default: **ERD, Class/interface, Tree, Timeline and Waterfall** join Architecture, Workflow, Sequence, Dataflow and Lifecycle.
-> - Type-specific motion stays separate from authored topology; switch to Still when needed.
-> - Clearer cards, routing/label coordination, Sequence notes, Lifecycle layouts, and long-page reader navigation.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #1466 from tt-a1i/docs/dsh-1.2.0-record](https://github.com/tt-a1i/archify/commit/3ca198d867ce4b616332f846ff66e5c8e5e60f95) | tt-a1i |
-| 2026-11-23 | [docs(dsh): record published 1.2.0 release](https://github.com/tt-a1i/archify/commit/7f92258145b6038fbb52c73083d17349528744c5) | tt-a1i |
-| 2026-11-23 | [Merge pull request #1464 from tt-a1i/feat/dsh-1.2.0](https://github.com/tt-a1i/archify/commit/428ca67657297febfa284a87ec47b306a0290ac5) | tt-a1i |
-| 2026-11-23 | [feat(dsh): prepare 1.2.0 bundling Archify 3.3.0 for DSH 0.2.2-rc.5](https://github.com/tt-a1i/archify/commit/2617eff544e8ec4c27a993120539e62c148c4fb6) | tt-a1i |
-| 2026-11-22 | [Merge pull request #1460 from tt-a1i/chore/stable-manifest-v3.3.0](https://github.com/tt-a1i/archify/commit/6cafc5a9875a795c6932ac0c196dacf3097fafe6) | tt-a1i |
-| 2026-11-22 | [release: publish stable 3.3.0 update manifest](https://github.com/tt-a1i/archify/commit/283ce47ffe929f17e261f639511ffbdaf47097d3) | tt-a1i |
-| 2026-11-22 | [Merge pull request #1458 from tt-a1i/release/v3.3.0](https://github.com/tt-a1i/archify/commit/af3aaf3c36762f2afb62a4a09533f6c7273b07e5) | tt-a1i |
-| 2026-11-22 | [test(viewer): exclude page colophon from readability overflow check](https://github.com/tt-a1i/archify/commit/687335e6c2967db6195359c01db689d4c740f825) | tt-a1i |
-| 2026-11-22 | [merge: include PR #1459 release docs refresh in release/v3.3.0](https://github.com/tt-a1i/archify/commit/fc32cab51a4a2b067ef6d665a0a8688aebfb6c08) | tt-a1i |
-| 2026-11-22 | [Merge pull request #1459 from tt-a1i/docs/release-docs-refresh](https://github.com/tt-a1i/archify/commit/087cfd8c1bc292967371c113209d8fd1b258dd78) | tt-a1i |
+| 2026-11-24 | [Merge pull request #1478 from tt-a1i/feat/geo-seo-v4-main](https://github.com/tt-a1i/archify/commit/62f3a995eb26ee23f784bdea4a7992340078e9be) | tt-a1i |
+| 2026-11-24 | [docs(geo): specify installed skill path for code-analysis CLI example](https://github.com/tt-a1i/archify/commit/fdefb9beae3b8adce318adb4725184462d69e322) | tt-a1i |
+| 2026-11-24 | [fix(seo): resolve Bing SEO warnings and ship GEO v4 v3.3 capabilities…](https://github.com/tt-a1i/archify/commit/71d5a9f25a250587687046e582b34db1afe422a4) | tt-a1i |
+| 2026-11-24 | [Merge pull request #1475 from tt-a1i/chore/stable-manifest-v3.3.1](https://github.com/tt-a1i/archify/commit/59ee5b7d39182d1534d063810929e19fd672fc39) | tt-a1i |
+| 2026-11-24 | [fix(release): keep v3.3.1 stable manifest summary within 160-characte…](https://github.com/tt-a1i/archify/commit/919b66f41134246461103c9c08e6e12351ebaa5e) | tt-a1i |
+| 2026-11-24 | [release: publish stable 3.3.1 update manifest](https://github.com/tt-a1i/archify/commit/916781a5ed2ad6133c0fdefb85e61f863a5c36c4) | tt-a1i |
+| 2026-11-24 | [Merge pull request #1474 from tt-a1i/release/v3.3.1](https://github.com/tt-a1i/archify/commit/894225cca657d181e03f332e716b63782ba6b4da) | tt-a1i |
+| 2026-11-24 | [release: promote dev and prepare v3.3.1](https://github.com/tt-a1i/archify/commit/fede2eee7637f36f713b5a5e66a8066c710fe8a2) | tt-a1i |
+| 2026-11-24 | [chore: merge origin/main into release/v3.3.1](https://github.com/tt-a1i/archify/commit/4a1cfb574bdf5880d6876fe3847406d063d53e60) | tt-a1i |
+| 2026-11-24 | [Merge pull request #1473 from tt-a1i/codex/architecture-labels-1123](https://github.com/tt-a1i/archify/commit/a51c277b9ca8783db3f773e1e086db80191f1191) | tt-a1i |
 
 [See all commits ↗](https://github.com/tt-a1i/archify/commits)
 

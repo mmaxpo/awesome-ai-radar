@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 116.2k |
-| 🍴 **Forks** | 19.3k |
-| 🐞 **Open issues + PRs** | [7.1k](https://github.com/paperclipai/paperclip/issues) |
+| ⭐ **Stars** | 116.6k |
+| 🍴 **Forks** | 19.4k |
+| 🐞 **Open issues + PRs** | [6.9k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 93% · JavaScript 3% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 558.5 MB |
+| 💾 **Size** | 559.5 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
 ### [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0)
-<sub>2026-11-18 · 4d ago</sub>
+<sub>2026-11-18 · 5d ago</sub>
 
 > **Paperclip v2026.1117.0**
 > > Released: 2026-11-17
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 16d ago</sub>
+<sub>2026-11-06 · 17d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [fix(connectors): show Anthropic as "Anthropic (Claude)" so a Claude s…](https://github.com/paperclipai/paperclip/commit/9a6e61cf36f5908f82fa8368a8a91d694dc68407) | cryppadotta |
-| 2026-11-23 | [fix(apps): show readable Google Workspace action names on Review and …](https://github.com/paperclipai/paperclip/commit/98fd412851a3d326463c2ba2f22d1d0d8941305f) | cryppadotta |
-| 2026-11-23 | [fix(logging): keep tool-call arguments out of failed request logs (#2…](https://github.com/paperclipai/paperclip/commit/624a78fd5d29dd30a513e170689c39f583f19c05) | cryppadotta |
-| 2026-11-23 | [fix(connections): remove connection content when a task or company is…](https://github.com/paperclipai/paperclip/commit/a3af1ac6dbc735ed1027b358985bafaacaac8392) | cryppadotta |
-| 2026-11-23 | [fix(ui): open and link only http(s) or same-origin URLs from user and…](https://github.com/paperclipai/paperclip/commit/ad163d0e360147bfee10bb31f56cd9696a093782) | cryppadotta |
-| 2026-11-23 | [fix(native): store repeated provider pack bytes once in each workspac…](https://github.com/paperclipai/paperclip/commit/b7dea0f07002c94cc6237e5e6766b27e40e3cdc7) | cryppadotta |
-| 2026-11-23 | [fix(telemetry): report every Paperclip runner harness as its own adap…](https://github.com/paperclipai/paperclip/commit/06d488b4303b4a5095ccd6f8f8107a5c79728e10) | cryppadotta |
-| 2026-11-23 | [fix(claude-local): accept every copy hint key in the setup-token prom…](https://github.com/paperclipai/paperclip/commit/8f20961d2027285ab90a1e2937c3737422990a43) | son9son9 |
-| 2026-11-23 | [fix(customer-success): fit oversized inspection list pages instead of…](https://github.com/paperclipai/paperclip/commit/78b10a43ce751c2e16a15593f40cb134d9ca2c03) | cryppadotta |
-| 2026-11-23 | [fix(ui): keep the tasks the user opened in the saved read cache ahead…](https://github.com/paperclipai/paperclip/commit/30881e6aa9a4d1c00ea5be3db36047d267b82e1b) | cryppadotta |
+| 2026-11-24 | [fix(plan-mode): open the plan review card when a Plan-mode run settle…](https://github.com/paperclipai/paperclip/commit/28aa32e7d7ba72d8f83c03ffd45625c096813e6b) | cryppadotta |
+| 2026-11-24 | [feat(antigravity): verified Antigravity CLI route for native swarm (i…](https://github.com/paperclipai/paperclip/commit/7d26bdaa424551a172f1a4b7ae3c737a0745e8f9) | cryppadotta |
+| 2026-11-24 | [feat(antigravity): /plan selects Plan mode and keeps Antigravity read…](https://github.com/paperclipai/paperclip/commit/18aa2b353daa65058fa26eb05875c9cd98072a82) | cryppadotta |
+| 2026-11-24 | [feat(antigravity): pin and provision the Antigravity CLI route (#22728)](https://github.com/paperclipai/paperclip/commit/b6f1b7b4af7c584f1c91183dca96612f251786e6) | cryppadotta |
+| 2026-11-24 | [perf(ci): cut PR CI under 5 minutes (shared PG, E2E parallelism, rout…](https://github.com/paperclipai/paperclip/commit/9a0453839154af5ba50528148ee032941058342c) | cryppadotta |
+| 2026-11-24 | [fix(github): re-read parked response requests after the settle decisi…](https://github.com/paperclipai/paperclip/commit/3cd1370141befdb5485578d7e777a1ae26fbf8bb) | cryppadotta |
+| 2026-11-24 | [fix(tools): show agents the stable code of a connected tool's own err…](https://github.com/paperclipai/paperclip/commit/d1339f1fe47c67079a44ccc815d4b5c1401fbe12) | cryppadotta |
+| 2026-11-24 | [Fix plugin SDK issues.list double-applying offset/limit (#16327)](https://github.com/paperclipai/paperclip/commit/92e3ad1de905aef60915fd0c71e7c9fa0bd4b71d) | calvindomenico |
+| 2026-11-24 | [fix(plugins): report WORKER_UNAVAILABLE when no worker is registered …](https://github.com/paperclipai/paperclip/commit/d2bdad4ae54cce1a5b2a64c3cacbd598ef53d7ed) | Iyanuoluwa007 |
+| 2026-11-24 | [fix(workspaces): move a managed folder online when its records name a…](https://github.com/paperclipai/paperclip/commit/dd6db295a348d7d75a4d6f0051b0bbc90cca0e58) | cryppadotta |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

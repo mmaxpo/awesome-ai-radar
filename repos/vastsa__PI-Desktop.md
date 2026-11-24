@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.2k |
-| 🍴 **Forks** | 805 |
-| 🐞 **Open issues + PRs** | [267](https://github.com/vastsa/PI-Desktop/issues) |
+| 🍴 **Forks** | 813 |
+| 🐞 **Open issues + PRs** | [268](https://github.com/vastsa/PI-Desktop/issues) |
 | 💻 **Languages** | TypeScript 53% · JavaScript 28% · Rust 15% · CSS 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `pi-desktop` `ai-agent` `coding-agent` `desktop-app` `electron` `global` `i18n` `local-first` `mcp` `pi-agent` `plugins` `react` `rust` `typescript` `pi` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-03-22 |
 | 📦 **Latest release** | [v0.23.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 221.1 MB |
+| 💾 **Size** | 223.6 MB |
 | 🌐 **Website** | https://www.aiuo.net |
 
 ## 📦 Recent releases
 
 ### [v0.24.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.1) _(pre-release)_
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > **What's Changed**
 > * fix(config-sync): merge entities absent from one side as implicit deletes by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2457
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.23.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.23.0-beta.3](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.3) _(pre-release)_
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **What's Changed**
 > * feat(desktop): settings dialog, sidebar primary nav, startup guide and release announcement by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2432
@@ -66,7 +66,7 @@
 > **Full Changelog**: https://github.com/vastsa/PI-Desktop/compare/v0.23.0-beta.2...v0.23.0-beta.3
 
 ### [v0.23.0-beta.2](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.2) _(pre-release)_
-<sub>2026-11-18 · 5d ago</sub>
+<sub>2026-11-18 · 6d ago</sub>
 
 > **What's Changed**
 > * fix(mods): restore reliable Goal run lifecycle and completion by @new-Beginner in https://github.com/vastsa/PI-Desktop/pull/2353
@@ -77,7 +77,7 @@
 > …
 
 ### [v0.23.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.1) _(pre-release)_
-<sub>2026-11-14 · 9d ago</sub>
+<sub>2026-11-14 · 10d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #2530 from vastsa/fix/mcp-legacy-sse-fallback](https://github.com/vastsa/PI-Desktop/commit/7254a04529ff4392045c2d7f0b653580bf69b4d3) | vastsa |
-| 2026-11-23 | [Merge remote-tracking branch 'origin/main' into fix/mcp-legacy-sse-fa…](https://github.com/vastsa/PI-Desktop/commit/9a6c43f375b67844a2dbe2c6deeffdcaf8fc5ac8) | vastsa |
-| 2026-11-23 | [Merge pull request #2394 from mybolide/fix/remote-project-group-section](https://github.com/vastsa/PI-Desktop/commit/1b09965916a1da8991c67359b7fbc863d2910d6a) | vastsa |
-| 2026-11-23 | [fix(mcp): fall back to the legacy HTTP+SSE transport](https://github.com/vastsa/PI-Desktop/commit/03cabe3edf5af3277d11ed3d1ce1bb9d658a72a4) | vastsa |
-| 2026-11-23 | [Merge branch 'main' into fix/remote-project-group-section](https://github.com/vastsa/PI-Desktop/commit/b79b5221ad3323d078bd449149b1baaf14ca5d69) | vastsa |
-| 2026-11-23 | [Merge pull request #2420 from skyler-developer/fix/issue-1993-maximiz…](https://github.com/vastsa/PI-Desktop/commit/b3d9de947b065547105d735a5a979b7f2855d914) | vastsa |
-| 2026-11-23 | [Merge remote-tracking branch 'origin/main' into fix/remote-project-gr…](https://github.com/vastsa/PI-Desktop/commit/7efc52a63df2a981fd794c2ec135ffa32b9dc67a) | mybolide |
-| 2026-11-23 | [Merge branch 'main' into fix/issue-1993-maximize-flag](https://github.com/vastsa/PI-Desktop/commit/50315ea62af00209123a574407c2f9991d74add0) | vastsa |
-| 2026-11-23 | [Merge pull request #2518 from YankongLi/perf/review-diff-serialization](https://github.com/vastsa/PI-Desktop/commit/9502003486901a2b7fe5db0977a514ccef74435f) | vastsa |
-| 2026-11-23 | [Merge branch 'main' into fix/issue-1993-maximize-flag](https://github.com/vastsa/PI-Desktop/commit/9887bff18d764723b9f9040cdacb25c47fb8cd76) | vastsa |
+| 2026-11-24 | [Merge pull request #2560 from vastsa/fix/p1-paste-image](https://github.com/vastsa/PI-Desktop/commit/28921d986482993018c3da90e8bf4f5f49093a86) | Tioit-Wang |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/main' into fix/p1-paste-image](https://github.com/vastsa/PI-Desktop/commit/ea0136d38d214bfc4f798b71023d443feccd097f) | Tioit-Wang |
+| 2026-11-24 | [Merge pull request #2559 from vastsa/fix/p1-sidebar-height](https://github.com/vastsa/PI-Desktop/commit/840c312a76318f3ad5c1e7c364b4f554d5234bae) | Tioit-Wang |
+| 2026-11-24 | [test(composer): fix Windows file-reference paste fixture](https://github.com/vastsa/PI-Desktop/commit/ea0768a788b36553a6c617b4cccc90d80be9d1fd) | Tioit-Wang |
+| 2026-11-24 | [fix(sidebar): keep projects reachable at high zoom](https://github.com/vastsa/PI-Desktop/commit/9f4099ab1f167a3cff014980ab744e1a012bb4b7) | Tioit-Wang |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/pr/2533' into fix/p1-paste-image](https://github.com/vastsa/PI-Desktop/commit/562723ec5eddaa8bfd51fab14f14ebb91bf1f01b) | Tioit-Wang |
+| 2026-11-24 | [Merge pull request #2557: bundle File Manager 0.13.0](https://github.com/vastsa/PI-Desktop/commit/108117de27870b030fc75c5c59f22dcf26cdc762) | Tioit-Wang |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/main' into feat/bundled-file-man…](https://github.com/vastsa/PI-Desktop/commit/a9358037fc1861b59a1bf131349c157753e34f5a) | Tioit-Wang |
+| 2026-11-24 | [Merge pull request #2556 from vastsa/chore/architecture-ratchet](https://github.com/vastsa/PI-Desktop/commit/9213ba2659cea15f5e4adecb163058a5af5fdd8d) | vastsa |
+| 2026-11-24 | [test(file-manager): exercise the updated remote panel](https://github.com/vastsa/PI-Desktop/commit/e2045bbcddbda3511fec3ca521ceb9eb1b46fc81) | Tioit-Wang |
 
 [See all commits ↗](https://github.com/vastsa/PI-Desktop/commits)
 

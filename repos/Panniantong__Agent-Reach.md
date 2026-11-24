@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 114.2k |
+| ⭐ **Stars** | 114.4k |
 | 🍴 **Forks** | 10.3k |
 | 🐞 **Open issues + PRs** | [160](https://github.com/Panniantong/Agent-Reach/issues) |
 | 💻 **Languages** | Python 98% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-infrastructure` `ai-agent` `ai-search` `automation` `bilibili` `claude-code` `cli` `cursor` `free-api` `llm-tools` `mcp` `python` `reddit-scraper` `twitter-scraper` `web-scraper` `xiaohongshu` `youtube-transcript` |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-02-24 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.1) — 2026-11-01 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.6.1](https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.1)
-<sub>2026-11-01 · 22d ago</sub>
+<sub>2026-11-01 · 23d ago</sub>
 
 > 中文：
 > - 全网搜索、Reddit、小红书、B站在 1.6.0 里会出现的几种"明明能查却报错"或"显示成功但内容是空的"，这版都修好了。
@@ -93,6 +93,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Merge pull request #1024 from Panniantong/fix/security-report-1-6-1](https://github.com/Panniantong/Agent-Reach/commit/8d9ecc1f5521fe7d223cde782aaa4005695e2671) | Panniantong |
+| 2026-11-24 | [fix: block bili-cli's browser-cookie3 outright; reinstall CloakBrowse…](https://github.com/Panniantong/Agent-Reach/commit/5673cb94d6660309d6172befdb1940f5a45fb8a2) | Panniantong |
+| 2026-11-24 | [fix: tighten b23.tv check, keep bili-cli off real browsers on Windows…](https://github.com/Panniantong/Agent-Reach/commit/690c6c3f797724c573c534e63aeff1f4857302db) | Panniantong |
 | 2026-11-22 | [Merge pull request #1021 from LohseZSai/feat/mcp-coexistence-priority](https://github.com/Panniantong/Agent-Reach/commit/a8ab1e9a2475957d759eac2dbedfe91b0a1e1021) | Panniantong |
 | 2026-11-22 | [docs(skill): short-circuit to Agent Reach MCP when mounted in session](https://github.com/Panniantong/Agent-Reach/commit/78940d886474e10370dd0991148da16239fcd3b1) | 龙舌兰 |
 | 2026-11-08 | [Merge pull request #934 from Panniantong/fix/reddit-linkedin-instagra…](https://github.com/Panniantong/Agent-Reach/commit/c70ae6da5d39bc90e09ad2ae0575ccc89f31e284) | Panniantong |
@@ -100,9 +103,6 @@
 | 2026-11-08 | [Merge pull request #925 from remote-controlled-man/codex/prflow-ffc95…](https://github.com/Panniantong/Agent-Reach/commit/a64a47e3aa236c8124c34949c16aa13c73343dba) | Panniantong |
 | 2026-11-08 | [Merge pull request #851 from w21180239/feat/skill-unlink](https://github.com/Panniantong/Agent-Reach/commit/7c190890ee23f6ffb806f84bb1817792ace05569) | Panniantong |
 | 2026-11-08 | [Merge pull request #779 from rahul05ranjan/fix/xueqiu-html-entities](https://github.com/Panniantong/Agent-Reach/commit/d653e8aedb26cf2f03778018f212bf7c69a16c0a) | Panniantong |
-| 2026-11-08 | [Merge pull request #898 from quark404/fix/windows-hide-child-console](https://github.com/Panniantong/Agent-Reach/commit/41eba5797dc37e81c464de9dd79b93a5c3a641f2) | Panniantong |
-| 2026-11-08 | [Merge remote-tracking branch 'origin/main' into sweep/b925](https://github.com/Panniantong/Agent-Reach/commit/b0c4ee273cb7cbdf4ec84aade76abb5432b3a3b0) | Panniantong |
-| 2026-11-08 | [Merge remote-tracking branch 'origin/main' into sweep/b851](https://github.com/Panniantong/Agent-Reach/commit/f50e0054d3aed7823efebd8d0cdde0dc66db356c) | Panniantong |
 
 [See all commits ↗](https://github.com/Panniantong/Agent-Reach/commits)
 

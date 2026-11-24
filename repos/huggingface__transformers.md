@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 169.4k |
+| ⭐ **Stars** | 169.2k |
 | 🍴 **Forks** | 35.3k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/huggingface/transformers/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `nlp` `natural-language-processing` `pytorch` `pytorch-transformers` `transformer` `model-hub` `pretrained-models` `speech-recognition` `hacktoberfest` `python` `machine-learning` `deep-learning` `audio` `deepseek` `gemma` `glm` `llm` `qwen` `vlm` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2018-10-29 |
 | 📦 **Latest release** | [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 564.3 MB |
+| 💾 **Size** | 564.2 MB |
 | 🌐 **Website** | https://huggingface.co/transformers |
 
 ## 📦 Recent releases
 
 ### [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — Release v5.24.0
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > **Release v5.24.0**
 > **New Model additions**
@@ -47,7 +47,7 @@
 > …
 
 ### [v5.23.0](https://github.com/huggingface/transformers/releases/tag/v5.23.0) — Release v5.23.0
-<sub>2026-11-13 · 10d ago</sub>
+<sub>2026-11-13 · 11d ago</sub>
 
 > **Release v5.23.0**
 > **New Model additions**
@@ -58,7 +58,7 @@
 > …
 
 ### [v5.22.2](https://github.com/huggingface/transformers/releases/tag/v5.22.2) — Patch release v5.22.2
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > **Patch release v5.22.2**
 > Some in between patch for security and distributed fixes. See the included commits :hugs:
@@ -67,14 +67,14 @@
 > **Full Changelog**: https://github.com/huggingface/transformers/compare/v5.22.1...v5.22.2
 
 ### [v5.22.1](https://github.com/huggingface/transformers/releases/tag/v5.22.1) — Patch release v5.22.1
-<sub>2026-10-30 · 24d ago</sub>
+<sub>2026-10-30 · 25d ago</sub>
 
 > **Patch release v5.22.1**
 > We just had to fix the documentation!
 > ** [Fix] Remove WIP doc for Ml4 (https://github.com/huggingface/transformers/pull/50124) from @remi-or
 
 ### [v5.22.0](https://github.com/huggingface/transformers/releases/tag/v5.22.0) — v5.22.0: Mistral Large 4 (Le Chonk)
-<sub>2026-10-29 · 25d ago</sub>
+<sub>2026-10-29 · 26d ago</sub>
 
 > **New Models**
 > **Mistral Large 4 (Le Chonk)**
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [[OmniASR] Support a `padding_mask` kept on the CPU in the audio encod…](https://github.com/huggingface/transformers/commit/0d3998c0ae41a9cf9b853d93f2b22806c215f19e) | El-euchidali |
-| 2026-11-23 | [[vLLM CI] Test vLLM features built on transformers tokenizers / proce…](https://github.com/huggingface/transformers/commit/bae9427f872e2a96e6ef612a99ff135a133f42e1) | ydshieh |
-| 2026-11-23 | [Fix test_flash_attn_2_can_dispatch_composite_models for models that d…](https://github.com/huggingface/transformers/commit/5b6c887c3e75dce213631488353a73b5d67d373e) | Abdennacer-Badaoui |
-| 2026-11-23 | [[Chat Parsing] Preserve explicit string arguments in typed json and p…](https://github.com/huggingface/transformers/commit/fcc89620113994456848b7f2a7a47230b187f569) | xgbtxy |
-| 2026-11-23 | [[docs] Replace deprecated torch_dtype with dtype in doc examples (#51…](https://github.com/huggingface/transformers/commit/91c512bc655351d5a38fd355a923ae167518f6fb) | abhitorch81 |
-| 2026-11-23 | [Fix batch-dependent text output in image-text-to-text and any-to-any …](https://github.com/huggingface/transformers/commit/a8041496678faf305f8d384f34fc3997c7edd04f) | Enricoftw |
-| 2026-11-23 | [Add overridable Trainer.get_resumed_dataloader (#50248)](https://github.com/huggingface/transformers/commit/f6c0d55d3a61c2a1880a03a4042b9be5c8e7befa) | bruno-hays |
-| 2026-11-23 | [:red-circle: fix(nemotron_h): honor configured Mamba time-step limits…](https://github.com/huggingface/transformers/commit/2f6f6912aff24e5d31b20a129a19b6c1819bca60) | yuhezhang-ai |
-| 2026-11-23 | [Restore `modeling_attn_mask_utils` for remote code (one-off to unbloc…](https://github.com/huggingface/transformers/commit/4b401cf208f3a39a5d9cc2a93723ce8dc7049d6c) | hmellor |
-| 2026-11-23 | [Refactor output tracing for `depth_anything` (#49947)](https://github.com/huggingface/transformers/commit/8516c7394b6b19e8e3abbf6dabb965eeb5439c02) | omkar-334 |
+| 2026-11-24 | [feat: add rocm entries to hub kernels mapping (#50980)](https://github.com/huggingface/transformers/commit/9ffd1f50a1fe13183d435ff60cb4b92777cc417e) | drbh |
+| 2026-11-24 | [Pad text and audio features on their own sides when batching multimod…](https://github.com/huggingface/transformers/commit/840bc92650ad5b8d8a83f2c64c5b3782e05ce4f7) | Enricoftw |
+| 2026-11-24 | [[vLLM CI] Add more language / multimodal pooling models vs transforme…](https://github.com/huggingface/transformers/commit/b308e3d194858a276c0481fabfd72e4380534e8c) | ydshieh |
+| 2026-11-24 | [Fix strided checkpoint reads on PyTorch 2.9 (#51042)](https://github.com/huggingface/transformers/commit/af80f69cb0cf321dffc1cdb8379f3a58a883295b) | satsuki2486441738 |
+| 2026-11-24 | [Fix Llama4 forward crash on missing image_outputs (#51144)](https://github.com/huggingface/transformers/commit/ab19734bb45071c74b6d9dd7a5906dd68b366ae7) | kylesayrs |
+| 2026-11-24 | [Fix TIPSv2 bfloat16 forward: text pooling returned float32 (#50175)](https://github.com/huggingface/transformers/commit/b0f4265020c209826afb7dca2c95c8077433b90f) | tarekziade |
+| 2026-11-24 | [Expose `past_key_values` in `MBartDecoderLayer.forward` signature for…](https://github.com/huggingface/transformers/commit/8f548bbfaed26adb72d88b897d9c3e60cc4a075b) | hmellor |
+| 2026-11-24 | [Move YaRN `mscale` helpers into `modeling_rope_utils` (#51175)](https://github.com/huggingface/transformers/commit/ae61745a79914d83b8e600cea57341af82f19eb2) | ArthurZucker |
+| 2026-11-24 | [[PR1] [Modular Clean-Up] Remove No-op Overrides (#50317)](https://github.com/huggingface/transformers/commit/fe4a46771d2d38ffb047a2cab797d3848303cd4c) | itazap |
+| 2026-11-24 | [Add kolibri 1.1 (#51176)](https://github.com/huggingface/transformers/commit/e75335fb29c266b36b22bf32f250bfca1f2165f3) | Cyrilvallez |
 
 [See all commits ↗](https://github.com/huggingface/transformers/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 42.8k |
+| ⭐ **Stars** | 42.9k |
 | 🍴 **Forks** | 4.5k |
 | 🐞 **Open issues + PRs** | [6](https://github.com/wshobson/agents/issues) |
 | 💻 **Languages** | Python 90% · Shell 4% · C# 3% · JavaScript 2% · Makefile 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `agent-skills` `agentic-ai` `ai-agents` `cursor` `cursor-rules` `mcp` `multi-agent` `opencode` `claude-code` `antigravity` `claude` `claude-skills` `subagents` `codex` `claude-code-marketplace` `claude-code-plugin` `github-copilot` `pi-coding-agent` `coding-agents` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-07-24 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,8 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [docs: link Verified scorecards and waitlist from the README (#843)](https://github.com/wshobson/agents/commit/c96b5f6552dba32e4492307493ee613581430715) | wshobson |
+| 2026-11-23 | [docs: publish the first measured Verified scorecards (#842)](https://github.com/wshobson/agents/commit/34e50fee32114afd9475f25d81492712f08cb71c) | wshobson |
 | 2026-11-23 | [ci: gate repeat Claude reviews on the claude-review label (#841)](https://github.com/wshobson/agents/commit/1eecf4b58eb380ff7ddc258a11c6586381d67b95) | wshobson |
 | 2026-11-22 | [feat(verified): per-run cost cap, exact model id, no web tools (#839)](https://github.com/wshobson/agents/commit/51b9ae3ac68d9c236549a9b57f5dca7e6c0c168c) | wshobson |
 | 2026-11-22 | [feat(verified): add Verified scorecards with measured workflow pass r…](https://github.com/wshobson/agents/commit/12bcec79ec7f24868bc75fe8cd21428ebf5e96d0) | wshobson |
@@ -49,8 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-18 | [fix(payment-processing): update pci-compliance requirement titles to …](https://github.com/wshobson/agents/commit/42203085cfc5736204bf0f6d436dff7e1da0bf3f) | Johnbjoseph-cybersec |
 | 2026-11-18 | [fix: migrate governance signing hooks and verification to current rec…](https://github.com/wshobson/agents/commit/b7c518aa9d3513d2660c8dc59f8d725a1e22f1c6) | tomjwxf |
 | 2026-11-18 | [fix(plugin-eval): track blockquote depth when bounding code spans and…](https://github.com/wshobson/agents/commit/e861e8d9a42e3462372f0c51522ce811bfd4189a) | Laihu08 |
-| 2026-11-18 | [Remove retired MeiGen plugin listing (#825)](https://github.com/wshobson/agents/commit/0aa6509f68e8a53a3f3104b58ab98de2a9acbe58) | jau123 |
-| 2026-11-18 | [deps(plugin-eval): bump the python-minor-and-patch group across 1 dir…](https://github.com/wshobson/agents/commit/9337ce4286eb44778cff5fe69b210656564017f5) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/wshobson/agents/commits)
 

@@ -18,9 +18,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 378.9k |
-| 🍴 **Forks** | 59.3k |
-| 🐞 **Open issues + PRs** | [644](https://github.com/donnemartin/system-design-primer/issues) |
+| ⭐ **Stars** | 379.0k |
+| 🍴 **Forks** | 59.4k |
+| 🐞 **Open issues + PRs** | [645](https://github.com/donnemartin/system-design-primer/issues) |
 | 💻 **Languages** | Python 98% · Shell 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `programming` `development` `design` `design-system` `system` `design-patterns` `web` `web-application` `webapp` `python` `interview` `interview-questions` `interview-practice` |

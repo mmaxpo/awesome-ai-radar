@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Fix docstring in `get_namespace` (#35508)](https://github.com/scikit-learn/scikit-learn/commit/09b24e97cf16f3b22e7bd57a8ed078f24238b1b1) | lucyleeow |
+| 2026-11-24 | [PRF Compute KMeans' tolerance without np.var on dense data (#35311)](https://github.com/scikit-learn/scikit-learn/commit/6369cd74fe6a2379056cffbaf5ce03ab792df337) | cakedev0 |
+| 2026-11-24 | [Fix typo - remove unused variable in `LogisticRegression` (#35506)](https://github.com/scikit-learn/scikit-learn/commit/bd1cce6759b914f8475f1e66ea1a25e84d5b4132) | lucyleeow |
+| 2026-11-24 | [Fix add sample weight checking back to 'check_array_api_mixed_inputs'…](https://github.com/scikit-learn/scikit-learn/commit/76d435ffd94e507c49e866d2ff667224c64b096a) | lucyleeow |
+| 2026-11-23 | [DOC Make array API doc consistent with respect to device naming in ta…](https://github.com/scikit-learn/scikit-learn/commit/6b8ba39487fe28111986d599deecd0680d2787d0) | ogrisel |
 | 2026-11-23 | [DOC Add torch XPU version and driver note to Array API docs (#34648) …](https://github.com/scikit-learn/scikit-learn/commit/09724b2db681e6181b1d1c9faf346b575cdc22a8) | themythofsisyphusjayant |
 | 2026-11-23 | [Allow partials to specify check name via kwarg in `_check_name` (used…](https://github.com/scikit-learn/scikit-learn/commit/7eeda88b0e86bc73c2d25f4c19040563facd9ca6) | lucyleeow |
 | 2026-11-23 | [DOC Fix typo in SGD docs (#35494)](https://github.com/scikit-learn/scikit-learn/commit/9ca09bc84cfc5133fb8788f8a3a4fdd43fefdcca) | david-cortes-intel |
 | 2026-11-23 | [MNT Disable progressbar if not last one in callback list (#35272)](https://github.com/scikit-learn/scikit-learn/commit/229239f6e6bd11c17b57f294ac591b76ce258ad1) | FrancoisPgm |
 | 2026-11-23 | [FIX Callback transport don't store connections forever (#34870)](https://github.com/scikit-learn/scikit-learn/commit/eff735c50a324741c5c33343be99439883caaf97) | jeremiedbb |
-| 2026-11-23 | [FIX Set array_api_support tag for `MaxAbsScaler` and `LabelBinarizer`…](https://github.com/scikit-learn/scikit-learn/commit/135c488ae340a248178d7ed89282e3273aedd9fc) | betatim |
-| 2026-11-21 | [ENH Remove the references to children in CallbackContext (#35270)](https://github.com/scikit-learn/scikit-learn/commit/21626d67d47889da8d19f3dd2a819a0cf527f27f) | FrancoisPgm |
-| 2026-11-21 | [TST Fix flaky test_dual_deprecated by seeding its data (#35471)](https://github.com/scikit-learn/scikit-learn/commit/f85f0584d5d7a66068bfe50b395ac855b2289dc2) | cakedev0 |
-| 2026-11-20 | [MNT Callback transport actually free the accept thread on closing a l…](https://github.com/scikit-learn/scikit-learn/commit/5e9184e53cd3bfd5a068cb1cb96c5ad27eff8092) | jeremiedbb |
-| 2026-11-20 | [CI Lock the actions of the contributor type labeler workflow (#35470)](https://github.com/scikit-learn/scikit-learn/commit/0ab59f9bdcefd676c185b73ffc46352a7c532e07) | cakedev0 |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

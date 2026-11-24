@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 23.9k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [427](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [432](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.8.3](https://github.com/jundot/omlx/releases/tag/v0.8.3) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 100.1 MB |
+| 💾 **Size** | 100.5 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
 ### [v0.8.3](https://github.com/jundot/omlx/releases/tag/v0.8.3) — 0.8.3
-<sub>2026-11-22 · today</sub>
+<sub>2026-11-22 · yesterday</sub>
 
 > **oMLX 0.8.3**
 > oMLX 0.8.3 is an optimization release for Inkling 2 Mini and the Hy4 family, which got day-0 support in 0.8.1. Inkling 2 Mini prefills about 20% faster and decodes 10-13% faster, Hy4 Flash starts answering sooner and needs less memory, and Claude Code's web search now works with local models.
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.8.2](https://github.com/jundot/omlx/releases/tag/v0.8.2) — 0.8.2
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > > **Hotfix release:** Fixes wrong click positions on screenshots with Qwen3.8 Flash-Next (#5474). Everything else is the same as 0.8.1.
 > **oMLX 0.8.2**
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.8.1](https://github.com/jundot/omlx/releases/tag/v0.8.1) — 0.8.1
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > **oMLX 0.8.1**
 > oMLX 0.8.1 adds Hy4, Hy4-flash and Inkling 2 Mini, lets you apply a LoRA adapter from a model's settings, and makes MTP verify on M5, GLM-5.3 with several requests and new questions on a cached document faster.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.8.0](https://github.com/jundot/omlx/releases/tag/v0.8.0) — 0.8.0
-<sub>2026-11-18 · 5d ago</sub>
+<sub>2026-11-18 · 6d ago</sub>
 
 > **oMLX 0.8.0**
 > oMLX 0.8.0 adds the Prefill Accelerator, which lets a PC with NVIDIA GPUs or a second Mac speed up prefill for a big model on your Mac, adds oQh for more accurate low-bit quants at the same size, and makes DeepSeek V4.1, Qwen and long-context decode faster.
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 0.8.0rc1
-<sub>2026-11-12 · 10d ago</sub>
+<sub>2026-11-12 · 11d ago</sub>
 
 > **oMLX 0.8.0rc1**
 > > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [fix(ssd-cache): share one size limit across models (#5497) (#5554)](https://github.com/jundot/omlx/commit/04e6e8e0162617bb48218a8e69740d96b428d767) | yxshee |
-| 2026-11-23 | [fix(inkling2): fall back when a fused kernel's threadgroup exceeds th…](https://github.com/jundot/omlx/commit/9c27f986adb4a5771ad4fc71ebdb9920a0e37268) | j3k0 |
-| 2026-11-23 | [fix(prefill-helper): retry a helper that lost its GPU and say why (#5…](https://github.com/jundot/omlx/commit/dd14a813b5eaa877889439600fea7d02260b1363) | jundot |
-| 2026-11-23 | [perf(engine): end decode bursts until a request's first visible text …](https://github.com/jundot/omlx/commit/832eca1f3ecdc580f20fa64e557c96567f14ff8f) | masterfasa |
-| 2026-11-23 | [fix(specprefill): share one engine between a model and its SpecPrefil…](https://github.com/jundot/omlx/commit/69abd86fc45948f3b1c4e70648a7359c8f2ca180) | jundot |
-| 2026-11-23 | [docs: credit Wikipedia for the calibration text](https://github.com/jundot/omlx/commit/95fbf3541c21b0fbbedecc0dc2e16b96bb487f20) | jundot |
-| 2026-11-23 | [fix(oq): replace unsafe rows in the oQe calibration data (#5524)](https://github.com/jundot/omlx/commit/6bfbe19e688060f9ff2552fda420bd6e901218f6) | jundot |
-| 2026-11-23 | [perf(inkling2): send a lone left-padded row to the decode kernel](https://github.com/jundot/omlx/commit/a1cb53cb5a712b5e3b9e4dcfd089f11f474c9045) | jundot |
-| 2026-11-23 | [perf(inkling2): FlashDecoding kernel for batched decode and verify (#…](https://github.com/jundot/omlx/commit/087b9e2f40e8dbcc96953529641ab414ffe801bf) | masterfasa |
-| 2026-11-23 | [perf(inkling2): run row-exact verify attention rows in one launch (#5…](https://github.com/jundot/omlx/commit/bc4a348e45107d48efd2bec850bf84d9347edf47) | fneto1977 |
+| 2026-11-24 | [build(vlm): update mlx-vlm to 0.8.1 and adapt the patches around it (…](https://github.com/jundot/omlx/commit/eff5de556c4cd11eeb5ce72241b97b7ad76e0c02) | jundot |
+| 2026-11-24 | [fix(cuda-helper): admit 2, 3 and 5-bit affine expert banks (#5551) (#…](https://github.com/jundot/omlx/commit/be6129bfd08512c503c20b64df8c2cda49b32529) | begcdn |
+| 2026-11-24 | [fix(ssd-cache): keep superseded writes from replacing newer blocks (#…](https://github.com/jundot/omlx/commit/10143699490a5d2e4198bb577535d9fa610dfcb8) | Atishay8192261 |
+| 2026-11-24 | [fix(ssd-cache): mark an inline write-through entry clean (#5544)](https://github.com/jundot/omlx/commit/ac0fff3c967e0c29789e89536f3669f5b9c389ce) | frarredondo |
+| 2026-11-24 | [perf(deepseek_v41): batch the indexer across a decode batch (#5549)](https://github.com/jundot/omlx/commit/2cc87960cdb3a1f9bb48b0f0d6f5f5ace512c71a) | bleugreen |
+| 2026-11-24 | [fix(prefill-helper): log long prompts that run before the helper is r…](https://github.com/jundot/omlx/commit/8515583fe5ba4be6af435fb75bd633e9da212af5) | GumbiiDigital |
+| 2026-11-24 | [feat(splash): honor max_context_window above the native window (#5578)](https://github.com/jundot/omlx/commit/9e102fa382ca7a458ef8bb46ec78b68c77b5706a) | pedily |
+| 2026-11-24 | [fix(server): stop waiting for in-flight requests after 5 s at shutdow…](https://github.com/jundot/omlx/commit/7b89016ff0d08979882545fb5b6f2eaa57695d76) | lmdc45 |
+| 2026-11-24 | [fix(cache): keep hot cache touches constant time on long chains (#5255)](https://github.com/jundot/omlx/commit/897a0562d3e0f66fde822aaa10db06fe2c801ab5) | jundot |
+| 2026-11-24 | [feat: add opt-in macos-say TTS model (#5076)](https://github.com/jundot/omlx/commit/2bb2332d5841a763e4855d4ca22d6abcb58c5f2e) | zviratko |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 

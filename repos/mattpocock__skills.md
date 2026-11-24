@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 331.2k |
-| 🍴 **Forks** | 27.8k |
-| 🐞 **Open issues + PRs** | [267](https://github.com/mattpocock/skills/issues) |
+| ⭐ **Stars** | 332.0k |
+| 🍴 **Forks** | 27.9k |
+| 🐞 **Open issues + PRs** | [266](https://github.com/mattpocock/skills/issues) |
 | 💻 **Languages** | Shell 67% · JavaScript 33% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-19 (4d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-02-03 |
 | 📦 **Latest release** | [v1.3.2](https://github.com/mattpocock/skills/releases/tag/v1.3.2) — 2026-10-29 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.2](https://github.com/mattpocock/skills/releases/tag/v1.3.2)
-<sub>2026-10-29 · 25d ago</sub>
+<sub>2026-10-29 · 26d ago</sub>
 
 > **Patch Changes**
 > - [#1194](https://github.com/mattpocock/skills/pull/1194) [`b645f47`](https://github.com/mattpocock/skills/commit/b645f47de3e17ed3bf60586c9bebb8092e0f79fd) Thanks [@mattpocock](https://github.com/mattpocock)! - `ask-matt` now reads a skill's `SKILL.md` before stating what it does or recommending a step be skipped, instead of trusting its own one-line summaries ([#614](https://github.com/mattpocock/skills/issues/614)).
@@ -92,16 +92,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Merge pull request #1474 from mattpocock/chief-of-staff-soften](https://github.com/mattpocock/skills/commit/d65391149dbb5fe76478e76fa8d5122b2aa5a70e) | mattpocock |
+| 2026-11-24 | [chief-of-staff: delegate the work, offer convention fixes](https://github.com/mattpocock/skills/commit/742afa6b936d17c8dcc790748840e4992edd42fa) | bot |
+| 2026-11-24 | [chief-of-staff: relay target, friction-only offers, keep conversation](https://github.com/mattpocock/skills/commit/419dac71f1dfe95e378bc1009f0b0fad2a3cb6ed) | bot |
+| 2026-11-24 | [Merge pull request #1473 from mattpocock/chief-of-staff-delegate-reme…](https://github.com/mattpocock/skills/commit/6bb33ef4dd4f12cec18a1a4b7f1446508e624bb2) | mattpocock |
+| 2026-11-24 | [chief-of-staff: refocus on delegate and remember](https://github.com/mattpocock/skills/commit/4edd64a19537607848e8ab999f95a370d3af8a49) | bot |
 | 2026-11-19 | [Merge pull request #1455 from mattpocock/ci-frontmatter-check](https://github.com/mattpocock/skills/commit/abeeaf95660ba9e8b7c753eb38f441ca707a8823) | mattpocock |
 | 2026-11-19 | [ci: check every SKILL.md's frontmatter parses with the installer's YA…](https://github.com/mattpocock/skills/commit/37209058e45b7c60b36218b7392df0ebcceb247a) | bot |
 | 2026-11-19 | [Merge pull request #1453 from mattpocock/fix-software-factory-frontma…](https://github.com/mattpocock/skills/commit/3a05171775a49076900759e0dd1b3ef8e2671323) | mattpocock |
 | 2026-11-19 | [fix(software-factory): quote description so strict YAML parsers accep…](https://github.com/mattpocock/skills/commit/9201b96da4af2d663faa13bef984095bb69059b1) | bot |
 | 2026-11-12 | [Merge pull request #1416 from mattpocock/software-factory-task-wording](https://github.com/mattpocock/skills/commit/5863806dd4e15c63174bee4e7515a4256792ecfa) | mattpocock |
-| 2026-11-11 | [software-factory: "job" is the CI vendor's word; explore leaves findings](https://github.com/mattpocock/skills/commit/d18183fe9d96e1240105a8534e53591e9b49afd7) | Matt Pocock |
-| 2026-10-31 | [software-factory: glossary skill for designing a factory (#1316)](https://github.com/mattpocock/skills/commit/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d) | mattpocock |
-| 2026-10-31 | [chief-of-staff: shared wiki first; retro and implement-spec as proced…](https://github.com/mattpocock/skills/commit/5ae481693d13b37d4d2c2c92d0b66d299c93e695) | mattpocock |
-| 2026-10-29 | [implement-spec: a fresh implementer subagent per ticket (#1342)](https://github.com/mattpocock/skills/commit/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa) | mattpocock |
-| 2026-10-29 | [chore: version skills (#1161)](https://github.com/mattpocock/skills/commit/d1478fcb140db0b93c0c8df17bcfd311844749d0) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/mattpocock/skills/commits)
 

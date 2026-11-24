@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 161.7k |
+| ⭐ **Stars** | 161.8k |
 | 🍴 **Forks** | 25.5k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/langgenius/dify/issues) |
 | 💻 **Languages** | Python 57% · TypeScript 40% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `gpt` `llm` `openai` `python` `agent` `nextjs` `workflow` `genai` `automation` `low-code` `mcp` `no-code` `agentic-ai` `agentic-framework` `agentic-workflow` `claude` `skills` `deepseek` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-04-12 |
 | 📦 **Latest release** | [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 718.0 MB |
+| 💾 **Size** | 724.5 MB |
 | 🌐 **Website** | https://dify.ai |
 
 ## 📦 Recent releases
 
 ### [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — v1.20.0
-<sub>2026-11-18 · 5d ago</sub>
+<sub>2026-11-18 · 6d ago</sub>
 
 > **Dify 1.20.0 keeps your traces flowing and your knowledge bases safer.** Export traces to any OpenTelemetry collector, keep Langfuse working after its legacy ingestion endpoint retirement, and scan uploaded knowledge files for malware before they are indexed. Chatflows can show Agent tool activity as it happens, and personal access tokens let scripts and agents call the Dify OpenAPI on your behalf. The bundled plugin daemon is upgraded to **0.6.15-local**.
 > [New Features](#user-content-new-features) · [Configuration and Integration Changes](#user-content-configuration-and-integration-changes) · [Database Migrations](#user-content-database-migrations) · [Upgrade Guide](#user-content-upgrade-guide)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.19.0](https://github.com/langgenius/dify/releases/tag/1.19.0) — v1.19.0 - Trace Your Workflows, Layer by Layer
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > **Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree.
 > This release also makes Workflow Tools portable with App packages, adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin daemon is upgraded to **0.6.14-local**.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [test(web): skip two more specs that flake in CI (#46984)](https://github.com/langgenius/dify/commit/e62d1e37a523dc1ce42c56b7100380022291c598) | hyoban |
-| 2026-11-23 | [test(web): skip browser specs that flake in CI (#46982)](https://github.com/langgenius/dify/commit/8017daa9f68bdbe3842650fe38f354222533a16e) | hyoban |
-| 2026-11-23 | [test(web): stabilize IP policy creation focus assertions (#46977)](https://github.com/langgenius/dify/commit/3421e649cb82c6c11bd45952de13fc17b19d2656) | hyoban |
-| 2026-11-23 | [test(web): pin the browser test environment and fail on console error…](https://github.com/langgenius/dify/commit/317279e2c8ced526b71b87d09fd15dbe2cbb081f) | hyoban |
-| 2026-11-23 | [test(web): wait for answer content before hovering attachments (#46969)](https://github.com/langgenius/dify/commit/923cc565d38937319a99aca55dea15d9a588f1a5) | hyoban |
-| 2026-11-23 | [refactor(agent): isolate Build draft save, checkout, and apply (#46369)](https://github.com/langgenius/dify/commit/1fdb40817cb1880bed0d25c76f0f965f9dd30944) | hjlarry |
-| 2026-11-23 | [fix(web): show comment threads without popup transitions (#46972)](https://github.com/langgenius/dify/commit/5749b93017035d3ae858c905dd6d074493ee3736) | lyzno1 |
-| 2026-11-23 | [chore(i18n): sync translations with en-US (#46961)](https://github.com/langgenius/dify/commit/f1ead55236e4dff6a74522a50a6c89e6b66eb19b) | github-actions[bot] |
-| 2026-11-23 | [test(api): strictly type Sandbox code executor tests (#46950)](https://github.com/langgenius/dify/commit/49ba40f22871be5e137d92b9179d98bd087fcff1) | ShousenZHANG |
-| 2026-11-23 | [test(api): strictly type owner transfer mail tests (#46912)](https://github.com/langgenius/dify/commit/869091b46d83c8a8855f38dfd28bcfcf1c913262) | ShousenZHANG |
+| 2026-11-24 | [refactor(web): upload plugin packages and bundles through the console…](https://github.com/langgenius/dify/commit/724ac15121ee3d7d7145d6b9c0ce777938530476) | hyoban |
+| 2026-11-24 | [refactor(web): move annotation import, public uploads and binary down…](https://github.com/langgenius/dify/commit/1f2df9a0c12a6aab7589e42da513918406208361) | hyoban |
+| 2026-11-24 | [fix(api): document multipart upload bodies and binary download respon…](https://github.com/langgenius/dify/commit/134eb1a2155709ed7b35d7cebb4931f9a54bbdbe) | hyoban |
+| 2026-11-24 | [refactor(web): move console file, image, logo and skill uploads to co…](https://github.com/langgenius/dify/commit/83542155e594080add9ae16766b891153baf7954) | hyoban |
+| 2026-11-24 | [refactor(web): send dataset file uploads through the console contract…](https://github.com/langgenius/dify/commit/9be943313a7301161981045531fc8c79e3bbb931) | hyoban |
+| 2026-11-24 | [refactor(web): stream datasource node runs through the console client…](https://github.com/langgenius/dify/commit/0234cd1dc802affbb18c2787bdf7c1303c416c10) | hyoban |
+| 2026-11-24 | [refactor(web): stream workflow, snippet and pipeline runs through the…](https://github.com/langgenius/dify/commit/28473d8384d812934560c44a673ce0d0fc348039) | hyoban |
+| 2026-11-24 | [refactor(web): stream chat, completion and WebApp workflow events thr…](https://github.com/langgenius/dify/commit/d3378cd026e91b6512cd4e74c79d6b48156e22f6) | hyoban |
+| 2026-11-24 | [fix(dify-ui): own avatar group stacking order (#47086)](https://github.com/langgenius/dify/commit/c6be7ebd5f0774d2e09a86f2809c8beb632f0673) | lyzno1 |
+| 2026-11-24 | [refactor(web): stream completion and workflow generator events throug…](https://github.com/langgenius/dify/commit/9177a7fe0d6abf12f61c4202ce86ba42aecd6002) | hyoban |
 
 [See all commits ↗](https://github.com/langgenius/dify/commits)
 

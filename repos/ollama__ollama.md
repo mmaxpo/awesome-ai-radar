@@ -20,23 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 187.9k |
-| 🍴 **Forks** | 19.1k |
+| ⭐ **Stars** | 188.0k |
+| 🍴 **Forks** | 19.2k |
 | 🐞 **Open issues + PRs** | [4.7k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 75% · C 17% · TypeScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `llm` `llms` `go` `golang` `ollama` `mistral` `gemma` `deepseek` `qwen` `gpt-oss` `glm` `minimax` `muse` |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-06-26 |
-| 📦 **Latest release** | [v0.40.17](https://github.com/ollama/ollama/releases/tag/v0.40.17) — 2026-11-10 |
+| 📦 **Latest release** | [v0.40.18](https://github.com/ollama/ollama/releases/tag/v0.40.18) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 96.0 MB |
 | 🌐 **Website** | https://ollama.com |
 
 ## 📦 Recent releases
 
+### [v0.40.18](https://github.com/ollama/ollama/releases/tag/v0.40.18)
+<sub>2026-11-24 · today</sub>
+
+> **What's Changed**
+> * mlx: fuse Inkling residual mixing on Metal by @dhiltgen in https://github.com/ollama/ollama/pull/19808
+> * mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in https://github.com/ollama/ollama/pull/19805
+> * llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in https://github.com/ollama/ollama/pull/19865
+> * inkling2: faster Metal decode, prefill and draft rounds by @dhiltgen in https://github.com/ollama/ollama/pull/19843
+> **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.17...v0.40.18-rc0
+
 ### [v0.40.17](https://github.com/ollama/ollama/releases/tag/v0.40.17)
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **Inkling 2 Mini**
 > [Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) from Thinking Machines is a 26B parameter model with 5.4B active.
@@ -47,7 +57,7 @@
 > …
 
 ### [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16)
-<sub>2026-11-09 · 13d ago</sub>
+<sub>2026-11-09 · 14d ago</sub>
 
 > **Ripple Preview**
 > [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.
@@ -58,7 +68,7 @@
 > …
 
 ### [v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15)
-<sub>2026-11-03 · 19d ago</sub>
+<sub>2026-11-03 · 20d ago</sub>
 
 > **MiMo V2.6**
 > Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.
@@ -69,7 +79,7 @@
 > …
 
 ### [v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14)
-<sub>2026-11-03 · 20d ago</sub>
+<sub>2026-11-03 · 21d ago</sub>
 
 > **What's Changed**
 > * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap
@@ -79,17 +89,12 @@
 > * Ollama's app can now retry ChatGPT disconnect failures instead of leaving the connection in a broken state
 > …
 
-### [v0.40.13](https://github.com/ollama/ollama/releases/tag/v0.40.13)
-<sub>2026-10-28 · 25d ago</sub>
-
-> **LFM3 on Linux and Windows**
-> Liquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.
-> **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [inkling2: faster Metal decode, prefill and draft rounds (#19843)](https://github.com/ollama/ollama/commit/924cc286cc592f49c481fa84e15fa60dbc75989e) | dhiltgen |
+| 2026-11-24 | [llama.cpp: version bump b12651 + remove jetpack5 support (#19865)](https://github.com/ollama/ollama/commit/900e1469fbb8c78ac9be0b22e2ccf77927195eec) | pdevine |
 | 2026-11-22 | [mlxrunner: share tensor helpers and model setup across architectures …](https://github.com/ollama/ollama/commit/318ee284aa3b5558de57efefff730ea33c4a9bef) | jaingaurav |
 | 2026-11-21 | [mlx: fuse Inkling residual mixing on Metal (#19808)](https://github.com/ollama/ollama/commit/2bd4d6aabdf4caa39e7095e201dcda4cc1a3a406) | dhiltgen |
 | 2026-11-21 | [mlx: inkling follow up (#19806)](https://github.com/ollama/ollama/commit/23b94a2daf2cd1fbf6b4dcfbfd3efbaca424b7bf) | dhiltgen |
@@ -98,8 +103,6 @@
 | 2026-11-20 | [cmd: omit bias and gamma vectors from verbose safetensors show (#19803)](https://github.com/ollama/ollama/commit/0c666ce5ee7eaaeec8c77eb7f929c29964a8f246) | pdevine |
 | 2026-11-20 | [test: stabilize Pi catalog timeout regressions (#19742)](https://github.com/ollama/ollama/commit/5187f59581d5a3d502f8d89550f12314063c3a96) | hoyyeva |
 | 2026-11-20 | [mlxrunner: choose default parallelism from available memory (#19785)](https://github.com/ollama/ollama/commit/0b243a141a64110ef31d47ec35900cefcd467a18) | dhiltgen |
-| 2026-11-19 | [mlxrunner: adapt saved history to memory pressure (#19678)](https://github.com/ollama/ollama/commit/73ee71ddcc088451457845b22d03c349b7c4dd6b) | dhiltgen |
-| 2026-11-18 | [Merge pull request #19748 from ollama/claude/sched-shift-no-reload-18950](https://github.com/ollama/ollama/commit/42ac2c0c1e132c0b4f0d9cfcd4e7950f0c5470bc) | jaingaurav |
 
 [See all commits ↗](https://github.com/ollama/ollama/commits)
 

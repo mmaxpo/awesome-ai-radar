@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 1.7k |
 | 🍴 **Forks** | 126 |
-| 🐞 **Open issues + PRs** | [9](https://github.com/dbos-inc/dbos-transact-py/issues) |
+| 🐞 **Open issues + PRs** | [12](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
-| 🕒 **Last activity** | 2026-11-21 (2d ago) |
+| 🕒 **Last activity** | 2026-11-21 (3d ago) |
 | 📅 **Created** | 2024-07-19 |
 | 📦 **Latest release** | [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
@@ -47,7 +47,7 @@
 > …
 
 ### [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0)
-<sub>2026-11-10 · 12d ago</sub>
+<sub>2026-11-10 · 13d ago</sub>
 
 > **What's Changed**
 > * Better Queue Locking by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/932
@@ -58,7 +58,7 @@
 > …
 
 ### [3.4.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.4.0)
-<sub>2026-10-28 · 26d ago</sub>
+<sub>2026-10-28 · 27d ago</sub>
 
 > **What's Changed**
 > * Poll only the status column for preemptible step cancellation by @buftio in https://github.com/dbos-inc/dbos-transact-py/pull/898

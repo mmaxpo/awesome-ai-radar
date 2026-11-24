@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 101.1k |
+| ⭐ **Stars** | 101.2k |
 | 🍴 **Forks** | 11.5k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/NationalSecurityAgency/ghidra/issues) |
 | 💻 **Languages** | Java 86% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `software-analysis` `disassembler` `reverse-engineering` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2019-03-01 |
 | 📦 **Latest release** | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — 2026-10-22 |
 | 🌿 **Default branch** | `master` |
@@ -78,16 +78,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [GP-0: Fixing javadoc](https://github.com/NationalSecurityAgency/ghidra/commit/f2824cfd9e01f13c71744bf045cd29ba84ab8443) | ryanmkurtz |
-| 2026-11-23 | [Merge branch 'GP-0_ryanmkurtz_PR-10269_atorcam102_fix-osgi-cache-cano…](https://github.com/NationalSecurityAgency/ghidra/commit/c8d842450e18d132a4f154702878be27daa21a43) | ryanmkurtz |
-| 2026-11-23 | [Merge branch 'GP-0_ryanmkurtz_PR-10270_atorcam102_fix-launchsupport-n…](https://github.com/NationalSecurityAgency/ghidra/commit/fbaba77a1d943c15693a30bdd609501d1c6a9c69) | ryanmkurtz |
-| 2026-11-22 | [Fix NullPointerException in LaunchSupport when stdin is closed](https://github.com/NationalSecurityAgency/ghidra/commit/ca813714aeffa34c86fb562631578313c997dd2e) | atorcam102 |
-| 2026-11-22 | [Use canonical path for the Felix OSGi cache directory](https://github.com/NationalSecurityAgency/ghidra/commit/2dfa7a9b93cf50928d6d7bdad3926bf823148245) | atorcam102 |
-| 2026-11-20 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/3fb3eec6a05442c901e9ead8620ca21eae830b18) | ryanmkurtz |
-| 2026-11-20 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/dd950a597858ba66db6e9f84dbbfbbed829aaf6a) | ryanmkurtz |
-| 2026-11-20 | [GP-0: HTML converted from Markdown should be UTF-8](https://github.com/NationalSecurityAgency/ghidra/commit/a95e071f316f196dcb7674cd591f3f200ec96153) | ryanmkurtz |
-| 2026-11-20 | [Merge branch 'GP-0_ryanmkurtz_PR-10150_lzandman_leon_fix-opbehavior-i…](https://github.com/NationalSecurityAgency/ghidra/commit/d5b786efaa0ceec0665a48d754f99ac0c0f1453b) | ryanmkurtz |
-| 2026-11-20 | [AArch32: fixed A32 mode rd pc offset](https://github.com/NationalSecurityAgency/ghidra/commit/8dec79bd257ad107936f5fa0f91dffb8f76ef0ac) | Sleigh-InSPECtor |
+| 2026-11-24 | [Merge branch 'GP-0_ryanmkurtz_PR-9925_ketpatil77_fix_validated-input-…](https://github.com/NationalSecurityAgency/ghidra/commit/5e553af53de93171516baad443cee0e5a8900268) | ryanmkurtz |
+| 2026-11-24 | [Merge branch 'GP-0_ryanmkurtz_PR-10275_lzandman_leon_fix-swift-string…](https://github.com/NationalSecurityAgency/ghidra/commit/047eaced3dfa5bd5fd499ad1520a86222f25b5b9) | ryanmkurtz |
+| 2026-11-24 | [GP-0: Certify](https://github.com/NationalSecurityAgency/ghidra/commit/55c421931aec54059576b83c10dea82e9e5d01e8) | ryanmkurtz |
+| 2026-11-24 | [GP-0: Improved UNC check (Closes #10292)](https://github.com/NationalSecurityAgency/ghidra/commit/7fd8fa744958442455287817dafcc6871c13369c) | ryanmkurtz |
+| 2026-11-24 | [Merge branch 'GP-0_ryanmkurtz_PR-10189_blaze0089_fix-lzfse-fse-flush6…](https://github.com/NationalSecurityAgency/ghidra/commit/52bfa52e07b85bea3f3ed8b195a80717ee3f7888) | ryanmkurtz |
+| 2026-11-24 | [Merge branch 'GP-0_ryanmkurtz_PR-10286_mattst88_som-noreturn-functions'](https://github.com/NationalSecurityAgency/ghidra/commit/0e2c4e8379887c0ff4772d2d89b774e388addb59) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/GP-0-dragonmacher-test-fixes-11-…](https://github.com/NationalSecurityAgency/ghidra/commit/fc33a9682cebcd31fa5088ea9701f24f9cb68988) | ryanmkurtz |
+| 2026-11-23 | [Test fixes](https://github.com/NationalSecurityAgency/ghidra/commit/189e28c21d4637dfffb9e6b3afff485f6ad16faa) | dragonmacher |
+| 2026-11-23 | [SOM: Add a list of functions that do not return](https://github.com/NationalSecurityAgency/ghidra/commit/6579dbe5261b4cffff133d60b90a0996e2ce2e44) | mattst88 |
+| 2026-11-23 | [Merge remote-tracking branch 'origin/GP-0-dragonmacher-app-context-fix'](https://github.com/NationalSecurityAgency/ghidra/commit/cc2a3af96e05af7903a62aee8bd0bcabbf304e3c) | ryanmkurtz |
 
 [See all commits ↗](https://github.com/NationalSecurityAgency/ghidra/commits)
 

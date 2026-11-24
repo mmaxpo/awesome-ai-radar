@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 69.4k |
 | 🍴 **Forks** | 8.3k |
-| 🐞 **Open issues + PRs** | [982](https://github.com/mem0ai/mem0/issues) |
+| 🐞 **Open issues + PRs** | [987](https://github.com/mem0ai/mem0/issues) |
 | 💻 **Languages** | Python 58% · TypeScript 40% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `chatgpt` `llm` `python` `rag` `long-term-memory` `memory` `memory-management` `state-management` `ai-agents` `agents` `genai` `agentic-memory` `agentic-memory-system` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-06-20 |
 | 📦 **Latest release** | [ts-v3.3.1](https://github.com/mem0ai/mem0/releases/tag/ts-v3.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 68.1 MB |
+| 💾 **Size** | 68.3 MB |
 | 🌐 **Website** | https://mem0.ai |
 
 ## 📦 Recent releases
@@ -80,6 +80,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Update README.md (#7996)](https://github.com/mem0ai/mem0/commit/8096993d69396bf97311249206915cadb2eb998f) | deshraj |
 | 2026-11-23 | [fix(security): resolve 22 Vanta HIGH/CRITICAL Dependabot alerts (mong…](https://github.com/mem0ai/mem0/commit/f93aba4b53241ccd9db32903cd19d1ff7f0066f0) | harshgupta-mem0 |
 | 2026-11-18 | [fix(llms): treat bare gpt-5-* and gpt-6* as reasoning models (#7939)](https://github.com/mem0ai/mem0/commit/fff8a6472512d1bc1a4bccab8c645b65a1df7fe5) | vinayb21-work |
 | 2026-11-06 | [fix(security): upgrade @azure/msal-node to 7.x via @azure/identity 4.…](https://github.com/mem0ai/mem0/commit/f1791daa86d469249c9b002f62644d58a1eb96a0) | harshgupta-mem0 |
@@ -89,7 +90,6 @@
 | 2026-10-30 | [fix(ts): never re-create a deleted memory when update races delete (#…](https://github.com/mem0ai/mem0/commit/d2b8432b772a5923ab5ba145cf1ae2a9f8b1c3f2) | harsh-mem0 |
 | 2026-10-26 | [docs(platform): add the pricing FAQ page (#7711)](https://github.com/mem0ai/mem0/commit/26cdefb46600c0fa5953c4b5ee5003c125539fc4) | harsh-mem0 |
 | 2026-10-21 | [docs(platform): rewrite the BYOK page as a feature guide (#7661)](https://github.com/mem0ai/mem0/commit/2c81af3bbe27d9bccb09c772d583df9e9be72ee5) | harsh-mem0 |
-| 2026-10-14 | [Add OSS Halloween Happy Hour banner to README (#7637)](https://github.com/mem0ai/mem0/commit/0724291bd864cf807e88ee8981c8226644e8fb42) | karthik-indla |
 
 [See all commits ↗](https://github.com/mem0ai/mem0/commits)
 

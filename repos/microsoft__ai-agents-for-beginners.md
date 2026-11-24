@@ -14,19 +14,17 @@
 | **Why it's worth a look** | 18-lesson AI agents course from Microsoft |
 | **Added** | 2026-11-15 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.8k |
-| 🍴 **Forks** | 26.4k |
+| ⭐ **Stars** | 80.9k |
+| 🍴 **Forks** | 26.5k |
 | 🐞 **Open issues + PRs** | [3](https://github.com/microsoft/ai-agents-for-beginners/issues) |
 | 💻 **Languages** | Jupyter Notebook 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `agentic-framework` `agentic-rag` `ai-agents` `ai-agents-framework` `autogen` `generative-ai` `semantic-kernel` `foundry` `foundry-local` `microsoft-foundry` |
-| 🕒 **Last activity** | 2026-11-17 (6d ago) |
+| 🕒 **Last activity** | 2026-11-17 (7d ago) |
 | 📅 **Created** | 2024-11-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 78.5k |
+| ⭐ **Stars** | 78.6k |
 | 🍴 **Forks** | 5.2k |
-| 🐞 **Open issues + PRs** | [244](https://github.com/colbymchenry/codegraph/issues) |
+| 🐞 **Open issues + PRs** | [246](https://github.com/colbymchenry/codegraph/issues) |
 | 💻 **Languages** | TypeScript 90% · Rust 5% · Svelte 2% · JavaScript 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2026-01-18 |
 | 📦 **Latest release** | [v1.6.4](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.4) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 57.7 MB |
+| 💾 **Size** | 59.1 MB |
 | 🌐 **Website** | https://colbymchenry.github.io/codegraph/ |
 
 ## 📦 Recent releases
 
 ### [v1.6.4](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.4)
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > **[1.6.4] - 2026-11-20**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.6.3](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.3)
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **[1.6.3] - 2026-11-17**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [fix(go): a chain broken after its `.`s that starts with new(T) or a l…](https://github.com/colbymchenry/codegraph/commit/66d42a563e8d9c85c9eb95c61b7f33641d456a37) | colbymchenry |
-| 2026-11-23 | [fix(go): resolve local types from multiline method chains (#3455) (#3…](https://github.com/colbymchenry/codegraph/commit/b550b6513d0a04fb1a2979834601d004e70a2c9b) | zhangkom |
-| 2026-11-23 | [fix(go): a local given a chain that starts with new(T) or a literal h…](https://github.com/colbymchenry/codegraph/commit/50587b1f7a879e4867ff53c015f4e34194bb194e) | maxmilian |
-| 2026-11-23 | [feat(mcp): codegraph_callers and codegraph_callees page past limit wi…](https://github.com/colbymchenry/codegraph/commit/ec32c76cbab269be3560fc1ccc53baec2b89edf9) | blairjordan |
-| 2026-11-23 | [fix(callers): callers outside tests come before tests, so the limit n…](https://github.com/colbymchenry/codegraph/commit/6c5366d56e004c853c79942d1813bc4eb20a7697) | blairjordan |
-| 2026-11-23 | [fix(mcp): an explicit CODEGRAPH_MCP_TOOLS allowlist lists every named…](https://github.com/colbymchenry/codegraph/commit/e54fad7ced803f54a754930274cef85c8315ead0) | nchrisr |
-| 2026-11-23 | [fix(bundle): the Git Bash launcher hands node.exe a Windows path (#34…](https://github.com/colbymchenry/codegraph/commit/d8b7434dd454ab7cb7e4d2c92289bd4144e758f4) | colbymchenry |
-| 2026-11-20 | [docs(changelog): promote [Unreleased] into [1.6.4]](https://github.com/colbymchenry/codegraph/commit/461a5d87a873a4932997cd9a49042ab30e45a675) | github-actions[bot] |
-| 2026-11-20 | [docs(site): document what 1.6.4 adds (#3425)](https://github.com/colbymchenry/codegraph/commit/b4392571214f0ac1177d352abbb394c6aaf6df8c) | colbymchenry |
-| 2026-11-20 | [docs: the one-symbol explore answer in the README, and a command name…](https://github.com/colbymchenry/codegraph/commit/20d6e93854b040cb9da68c8a536e4d318ccfe983) | colbymchenry |
+| 2026-11-23 | [fix(pascal): a routine whose {$ifdef} branches each open a block ends…](https://github.com/colbymchenry/codegraph/commit/73c6cff66e525a92bff65675b6b0c46687e91ef1) | colbymchenry |
+| 2026-11-23 | [fix(pascal): an inherited call links the ancestor method it runs (#3477)](https://github.com/colbymchenry/codegraph/commit/b9285eb7bf0c327e5f712bc50abbc50e7df64a82) | colbymchenry |
+| 2026-11-23 | [fix(pascal): a bare call links what its scope declares, across a unit…](https://github.com/colbymchenry/codegraph/commit/f4c37e4e9c90cefb5ca56e98ce3b31ae00c28921) | colbymchenry |
+| 2026-11-23 | [fix(pascal): index class and record helpers as types with methods (#3…](https://github.com/colbymchenry/codegraph/commit/7fbc66b7e25b50760b3cbe65703eea6d99e2e39e) | colbymchenry |
+| 2026-11-23 | [fix(kotlin): a class implements the interface it delegates `by`; supe…](https://github.com/colbymchenry/codegraph/commit/0442e322efea69efb056f337315896d9806c8bf7) | colbymchenry |
+| 2026-11-23 | [fix(pascal): a bare call links only what its scope declares, a with s…](https://github.com/colbymchenry/codegraph/commit/8763586ce06e8be2a0723a7713eac1565a7ace9e) | colbymchenry |
+| 2026-11-23 | [perf(resolution): start the resolver pool sooner near the gate, and i…](https://github.com/colbymchenry/codegraph/commit/103782193328e2eef5692eac3f4cbecf9adcffd0) | colbymchenry |
+| 2026-11-23 | [fix(kotlin): calls written in a bodied class's header link from the c…](https://github.com/colbymchenry/codegraph/commit/358c2734a7ab9b21cafcd9537fd7fc898eac14b1) | colbymchenry |
+| 2026-11-23 | [fix(pascal): calls reach the overload their arguments fit; more imple…](https://github.com/colbymchenry/codegraph/commit/f5a2cd737fd3d52e3224f1fd61913c13fafc3a20) | colbymchenry |
+| 2026-11-23 | [fix(pascal): show implementation bodies for declared routines (#3453)…](https://github.com/colbymchenry/codegraph/commit/06803b28abb40dd36dfc81fa10d573abac98aca5) | yang0228 |
 
 [See all commits ↗](https://github.com/colbymchenry/codegraph/commits)
 

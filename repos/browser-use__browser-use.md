@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 121.8k |
+| ⭐ **Stars** | 121.9k |
 | 🍴 **Forks** | 13.6k |
 | 🐞 **Open issues + PRs** | [587](https://github.com/browser-use/browser-use/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llm` `ai-agents` `ai-tools` `browser-automation` `python` `browser-use` `playwright` `browser-agent` `cdp` `cloud-browser` `computer-use` `headless-browser` `mcp` `remote-browser` `stealth-browser` `web-automation` `web-scraping` |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2024-10-31 |
 | 📦 **Latest release** | [1.0.8](https://github.com/browser-use/browser-use/releases/tag/1.0.8) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 42.0 MB |
+| 💾 **Size** | 42.3 MB |
 | 🌐 **Website** | https://browser-use.com |
 
 ## 📦 Recent releases
 
 ### [1.0.8](https://github.com/browser-use/browser-use/releases/tag/1.0.8) — browser-use 1.0.8
-<sub>2026-11-22 · yesterday</sub>
+<sub>2026-11-22 · 2d ago</sub>
 
 > `pip install 'browser-use==1.0.8'`
 > - The judge asks as one more turn of the run, so the provider reads the run from its cache instead of billing the trace again. It returns the same verdict fields, gotchas included (#6457).
@@ -47,7 +47,7 @@
 > …
 
 ### [1.0.8rc1](https://github.com/browser-use/browser-use/releases/tag/1.0.8rc1) — 1.0.8rc1: release candidate for 1.0.8 _(pre-release)_
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > `pip install 'browser-use==1.0.8rc1'`
 > - The judge asks as one more turn of the run, so the provider reads the run from its cache instead of billing the trace again. It returns the same verdict fields, gotchas included (#6457).
@@ -58,7 +58,7 @@
 > …
 
 ### [1.0.7](https://github.com/browser-use/browser-use/releases/tag/1.0.7) — browser-use 1.0.7
-<sub>2026-11-20 · 2d ago</sub>
+<sub>2026-11-20 · 3d ago</sub>
 
 > `pip install 'browser-use==1.0.7'`
 > - **MCP calls no longer time out at 60 s.** A long `browser_exec` now replies within 50 s with the output so far, so Cursor and other clients with a 60 s limit get a result instead of `Request timed out`. The cell keeps running, and calling `browser_exec` again with empty code returns the rest. Calls under 50 s reply exactly as before (#6477).
@@ -66,7 +66,7 @@
 > - Skills, README, CLI and MCP ask coding agents for integration feedback (#6454).
 
 ### [1.0.6](https://github.com/browser-use/browser-use/releases/tag/1.0.6) — browser-use 1.0.6
-<sub>2026-11-16 · 7d ago</sub>
+<sub>2026-11-16 · 8d ago</sub>
 
 > `pip install 'browser-use==1.0.6'`
 > - **BU 4.0 is the default model.** `Agent(task)` and `ChatBrowserUse()` now run `bu-4.0` on the Browser Use gateway instead of `bu-fast`. Pass `llm='bu-4.0-mini'` for simple tasks at the lowest cost, or `llm='bu-4.0-pro'` for the hardest tasks (#6430).
@@ -76,7 +76,7 @@
 > PRs: https://github.com/browser-use/browser-use/pull/6430, https://github.com/browser-use/browser-use/pull/6425, https://github.com/browser-use/browser-use/pull/6418, https://github.com/browser-use/browser-use/pull/6431
 
 ### [1.0.5](https://github.com/browser-use/browser-use/releases/tag/1.0.5) — browser-use 1.0.5
-<sub>2026-11-14 · 9d ago</sub>
+<sub>2026-11-14 · 10d ago</sub>
 
 > `pip install 'browser-use==1.0.5'`
 > - Every run is judged by your own model: one more low-effort request checks the run against the task and fills `result.judgement` with `success`, `failure_reason`, `description`, `prompt_injection_detected`, `bot_block_or_captcha_detected` and `gotchas`. `judge_context=` gives it your criteria; `judge=False` turns it off; the 0.x `use_judge` / `ground_truth` work again (#6398).

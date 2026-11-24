@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.8k |
-| 🍴 **Forks** | 270 |
+| 🍴 **Forks** | 277 |
 | 🐞 **Open issues + PRs** | [0](https://github.com/roryclear/clearcam/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `object-detection` `tinygrad` `selfhosted` `nvr` `rtsp` `yolov9` `cctv` `clip` `ai` |
-| 🕒 **Last activity** | 2026-11-19 (3d ago) |
+| 🕒 **Last activity** | 2026-11-23 (today) |
 | 📅 **Created** | 2025-01-04 |
 | 📦 **Latest release** | [0.2.8](https://github.com/roryclear/clearcam/releases/tag/0.2.8) — 2026-08-31 |
 | 🌿 **Default branch** | `main` |
@@ -70,6 +70,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-23 | [clean](https://github.com/roryclear/clearcam/commit/40c0fe5f0011a47f8a972966df58278ec8d1f833) | roryclear |
 | 2026-11-19 | [Update README.md](https://github.com/roryclear/clearcam/commit/9e622b2230d9e33d19b86a25220e2ba55b73bd99) | roryclear |
 | 2026-11-19 | [Update README.md](https://github.com/roryclear/clearcam/commit/b4bf691c13d691a8b55818e458cb8231869e0892) | roryclear |
 | 2026-11-19 | [Selfnotify (#200)](https://github.com/roryclear/clearcam/commit/ee3de622263ffe71dc8c16233d0d8dda5a5685c2) | roryclear |
@@ -79,7 +80,6 @@
 | 2026-11-04 | [save more objects](https://github.com/roryclear/clearcam/commit/5cc24ebfebf8d4408d00f58303039c21345305e8) | roryclear |
 | 2026-11-04 | [fix adaface](https://github.com/roryclear/clearcam/commit/34c0f6c6b5bcf244469559cb241c0140a657d473) | roryclear |
 | 2026-11-03 | [start cv2 resize func](https://github.com/roryclear/clearcam/commit/61fad6da899c10779cfaf0b60781f24e21066f17) | roryclear |
-| 2026-11-03 | [clean preprocess func](https://github.com/roryclear/clearcam/commit/f78375ebd3259e116a1d605b4eee5be0a883ec55) | roryclear |
 
 [See all commits ↗](https://github.com/roryclear/clearcam/commits)
 
