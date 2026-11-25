@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 85.7k |
+| ⭐ **Stars** | 85.8k |
 | 🍴 **Forks** | 12.1k |
-| 🐞 **Open issues + PRs** | [1.1k](https://github.com/bytedance/deer-flow/issues) |
+| 🐞 **Open issues + PRs** | [955](https://github.com/bytedance/deer-flow/issues) |
 | 💻 **Languages** | Python 82% · TypeScript 14% · MDX 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `agentic` `agentic-framework` `agentic-workflow` `ai` `ai-agents` `deep-research` `langchain` `langgraph` `llm` `multi-agent` `nodejs` `podcast` `python` `langmanus` `typescript` `harness` `superagent` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-05-07 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/bytedance/deer-flow/releases/tag/v2.2.0) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.2.0](https://github.com/bytedance/deer-flow/releases/tag/v2.2.0) — DeerFlow 2.2.0
-<sub>2026-11-04 · 20d ago</sub>
+<sub>2026-11-04 · 21d ago</sub>
 
 > **DeerFlow 2.2.0**
 > DeerFlow 2.2 turns the 2.1 super-agent harness into a deployment-grade platform
@@ -72,16 +72,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [fix(skills): reclaim idle projection lock entries (#8564)](https://github.com/bytedance/deer-flow/commit/4223e0710c2061d6047c7988ec6552611764e5f4) | zzj84862-creator |
-| 2026-11-24 | [fix(nginx): leave multipart headroom above the upload limit (#8580)](https://github.com/bytedance/deer-flow/commit/8d6e774de663a268bd764bd34a2430f71acbc8c0) | Tong-bit-art |
-| 2026-11-24 | [fix(feishu): keep links and code blocks from rich-text posts (#8574)](https://github.com/bytedance/deer-flow/commit/3a2ebca7179e6aef084bcc97342153241c358780) | HYYAlex |
-| 2026-11-24 | [docs(deploy): clarify local config and runtime paths (#8572)](https://github.com/bytedance/deer-flow/commit/336b3d35270f8fc121f02ec0328f5ba5dfd34cce) | jadelike-wine |
-| 2026-11-24 | [fix(sandbox): forward operator environment to provisioned pods (#8370)](https://github.com/bytedance/deer-flow/commit/6f5e24b5003b07c2a1a917723ad351801e7eaa8c) | gcl-coder |
-| 2026-11-24 | [feat(crawl4ai): configurable web_fetch output cap and a truncation no…](https://github.com/bytedance/deer-flow/commit/b5e19e03a0dba7581961e004a4e59b1b9315c029) | bascan |
-| 2026-11-24 | [fix(mcp): expose structured-only stdio tool results (#8542)](https://github.com/bytedance/deer-flow/commit/efc98f1164886153a6e310fe832d90dbb6c77eaf) | Wang-Zephyr |
-| 2026-11-24 | [fix(benchmark): pass OpenSandbox instance to _invalidate_sandbox (#8561)](https://github.com/bytedance/deer-flow/commit/ec189ccd2b258511cc9367c33520e03c047cd350) | kevinisbest |
-| 2026-11-24 | [feat(memory): support multi-user and multi-tenant isolation in openvi…](https://github.com/bytedance/deer-flow/commit/178edb47210c4d40f6bc03800c291c0ddf1fc2ba) | YukoOshima |
-| 2026-11-24 | [fix(sandbox): offload unexpected sandbox-init error sanitization off …](https://github.com/bytedance/deer-flow/commit/b8e03f71dee586c21a61c1f5e7ee7b76d5b09c66) | zzj84862-creator |
+| 2026-11-25 | [fix(scheduler-ui): preserve seconds in local one-time timestamps (#8627)](https://github.com/bytedance/deer-flow/commit/aa9913c4cc2d3ba537d78a48de9ef531fdcbbb05) | wzxsdf |
+| 2026-11-25 | [fix(skills): write each history record whole under the history file l…](https://github.com/bytedance/deer-flow/commit/f3dfb55110e9beeb5aceae7678510e70b880e43a) | hyeonsang010716 |
+| 2026-11-25 | [feat(mcp): maintain agent credential grants at runtime (grants: runti…](https://github.com/bytedance/deer-flow/commit/526864b47e86dbfc4b5c02baffe763e3abe23c09) | bascan |
+| 2026-11-25 | [fix(projects): keep shelf index entries line-atomic (#8521)](https://github.com/bytedance/deer-flow/commit/5f964ba2f04dbe20d9acdc3de45ab97f188c72ea) | BlueX888 |
+| 2026-11-25 | [feat(vefaas-sandbox): add speculative prewarm, snapshots, pause/resum…](https://github.com/bytedance/deer-flow/commit/882063d83db4681c533c6e42f4a35b6595c9e39e) | kevinisbest |
+| 2026-11-25 | [feat(sandbox): make AIO sandbox Pod resources configurable (#8575)](https://github.com/bytedance/deer-flow/commit/f9b7598fdddc315a4a578fb5d7315a6bca405c2f) | ZedingZhang |
+| 2026-11-25 | [fix(sandbox): defer fresh OpenSandbox skill-policy acquisition (#8590)](https://github.com/bytedance/deer-flow/commit/f56fb962d0cbf8b2194256919c03098f02b62269) | bascan |
+| 2026-11-25 | [fix(client): honor saved and per-call reasoning effort (#8597)](https://github.com/bytedance/deer-flow/commit/72ca21dd4bda22592d7cb782446345aca128a96d) | Wang-Zephyr |
+| 2026-11-25 | [fix(sandbox): stop the rest of a cancelled AIO command (#8566)](https://github.com/bytedance/deer-flow/commit/6e3746e04e0dc11276f55ea86c437d87e8fc0180) | kongxinjun |
+| 2026-11-25 | [fix(frontend): localize main chat send and stop button names (#8588)](https://github.com/bytedance/deer-flow/commit/5d2f9014c1218e918dbd42f6717950178b2ccdab) | jadelike-wine |
 
 [See all commits ↗](https://github.com/bytedance/deer-flow/commits)
 

@@ -18,9 +18,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 60.8k |
+| ⭐ **Stars** | 60.9k |
 | 🍴 **Forks** | 8.5k |
-| 🐞 **Open issues + PRs** | [138](https://github.com/karpathy/nanochat/issues) |
+| 🐞 **Open issues + PRs** | [139](https://github.com/karpathy/nanochat/issues) |
 | 💻 **Languages** | Python 77% · Jupyter Notebook 19% · Shell 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |

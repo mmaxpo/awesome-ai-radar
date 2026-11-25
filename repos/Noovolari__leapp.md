@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 80% · SCSS 6% · HTML 5% · Python 4% · JavaScript 3% |
 | 📜 **License** | MPL-2.0 |
 | 🏷 **Topics** | `aws` `aws-credentials` `aws-creds` `cloud` `credential-manager` `saml-sso-url` `azure` `azure-cli` `temporary-credentials` `hacktoberfest` `electron` |
-| 🕒 **Last activity** | 2026-11-23 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (2d ago) |
 | 📅 **Created** | 2020-07-28 |
 | 📦 **Latest release** | [v0.26.1](https://github.com/Noovolari/leapp/releases/tag/v0.26.1) — 2024-06-06 |
 | 🌿 **Default branch** | `master` |

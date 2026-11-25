@@ -21,22 +21,33 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.7k |
-| 🍴 **Forks** | 126 |
-| 🐞 **Open issues + PRs** | [12](https://github.com/dbos-inc/dbos-transact-py/issues) |
+| 🍴 **Forks** | 127 |
+| 🐞 **Open issues + PRs** | [11](https://github.com/dbos-inc/dbos-transact-py/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `dbos` `postgresql` `microservice-orchestration` `orchestration` `workflow-engine` `durable-execution` `microservices-orchestration` `agentic-workflow` `cronjob-scheduler` `workflows` `sqlite` |
-| 🕒 **Last activity** | 2026-11-21 (3d ago) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-07-19 |
-| 📦 **Latest release** | [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0) — 2026-11-17 |
+| 📦 **Latest release** | [3.7.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.7.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3.9 MB |
+| 💾 **Size** | 4.2 MB |
 | 🌐 **Website** | https://docs.dbos.dev |
 
 ## 📦 Recent releases
 
+### [3.7.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.7.0)
+<sub>2026-11-24 · today</sub>
+
+> **What's Changed**
+> * Batch Async Result Polling by @oleksii-tumanov in https://github.com/dbos-inc/dbos-transact-py/pull/962
+> * Delete By Level by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/969
+> * Workflow Archiving by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/959
+> * Bulk rewind by @lanice in https://github.com/dbos-inc/dbos-transact-py/pull/971
+> * Suspend Workflow GetResult by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/970
+> …
+
 ### [3.6.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.6.0)
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **Behavior Changes**
 > This release changes how DBOS workflow management operations (cancel, resume, fork rewind) interact with queues. Previously, these operations would clear queue information, so the workflow was no longer associated with any queue. Now, these operations do not clear queue operations, so cancelling and resuming a workflow re-enqueues the workflow to its original queue, and rewinding or forking a workflow similarly re-enqueues it (a cancelled or otherwise terminated workflow still does not consume a queue slot until resumed and re-enqueued). You can override this behavior by passing a different queue into resume, rewind, or fork. We made this change because of consistent user feedback that the original behavior (clearing queue information) was unintuitive.
@@ -47,7 +58,7 @@
 > …
 
 ### [3.5.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.5.0)
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **What's Changed**
 > * Better Queue Locking by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/932
@@ -58,7 +69,7 @@
 > …
 
 ### [3.4.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.4.0)
-<sub>2026-10-28 · 27d ago</sub>
+<sub>2026-10-28 · 28d ago</sub>
 
 > **What's Changed**
 > * Poll only the status column for preemptible step cancellation by @buftio in https://github.com/dbos-inc/dbos-transact-py/pull/898
@@ -79,21 +90,13 @@
 > If you are only using the open source library, without Conductor or Cloud, you don't need to make any changes.
 > …
 
-### [3.2.0](https://github.com/dbos-inc/dbos-transact-py/releases/tag/3.2.0)
-<sub>2026-09-29 · 1mo ago</sub>
-
-> **What's Changed**
-> * Improve Workflow Conflict Resolution by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/862
-> * publish preview releases when merging to main by @maxdml in https://github.com/dbos-inc/dbos-transact-py/pull/863
-> * Keep the version build hook out of the wheel by @Kayvan-Zahiri in https://github.com/dbos-inc/dbos-transact-py/pull/868
-> * Custom Sessionmaker by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/866
-> * Delete Datasource Checkpoints by @kraftp in https://github.com/dbos-inc/dbos-transact-py/pull/867
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Stop the auto-upgrade loop before the workflow drain (#979)](https://github.com/dbos-inc/dbos-transact-py/commit/d3cd0882afb074601b9840e284c466d0bc4c9257) | maxdml |
+| 2026-11-24 | [Skip the wait setup for zero-timeout recv and get_event (#977)](https://github.com/dbos-inc/dbos-transact-py/commit/da90502e8e850f83e4e6bbe4bc18a7cc46cea9b4) | buftio |
+| 2026-11-24 | [Pin the partitioned dequeue's PENDING check to index probes (#976)](https://github.com/dbos-inc/dbos-transact-py/commit/e9fe7d7033ee0207ea2ba0f20a049cadf9164ece) | buftio |
 | 2026-11-20 | [Suspend Workflow GetResult (#970)](https://github.com/dbos-inc/dbos-transact-py/commit/28192bd87ee81891546803fb583ea6a22c08d1ce) | kraftp |
 | 2026-11-20 | [Bulk rewind (#971)](https://github.com/dbos-inc/dbos-transact-py/commit/bad3353fd43d943b3a095073d28d8724382c093b) | lanice |
 | 2026-11-19 | [Workflow Archiving (#959)](https://github.com/dbos-inc/dbos-transact-py/commit/95d25eb51a93e6794935bf0ee96403273416b91c) | kraftp |
@@ -101,9 +104,6 @@
 | 2026-11-17 | [Batch Async Result Polling (#962)](https://github.com/dbos-inc/dbos-transact-py/commit/9924fe6b6018f08304341d100adeb60c42712808) | oleksii-tumanov |
 | 2026-11-16 | [Keep retrying a step once its backoff passes the float range (#960)](https://github.com/dbos-inc/dbos-transact-py/commit/2cf279cf380152b426ecd451d573ccc41f5715a6) | shanurwan |
 | 2026-11-13 | [Make DBOS.migrate() fail loudly on a migration lock timeout (#958)](https://github.com/dbos-inc/dbos-transact-py/commit/81aa7eea4e5b36a7aa5fce26a61cb4ff75712e9f) | ApparentlyTejas |
-| 2026-11-13 | [Durable client steps (#954)](https://github.com/dbos-inc/dbos-transact-py/commit/96ef3142c3a8383df6ee90338af1bda8d0979baa) | maxdml |
-| 2026-11-13 | [Preserve Queues in Workflow Management Operations (#956)](https://github.com/dbos-inc/dbos-transact-py/commit/0004801ae7f968643367628145be4a3db221c2fd) | kraftp |
-| 2026-11-12 | [parallel tests (#957)](https://github.com/dbos-inc/dbos-transact-py/commit/f9892f4db8144a2b333e3583dcc9a2f0895f22d5) | maxdml |
 
 [See all commits ↗](https://github.com/dbos-inc/dbos-transact-py/commits)
 

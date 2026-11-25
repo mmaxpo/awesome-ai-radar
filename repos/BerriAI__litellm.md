@@ -20,56 +20,56 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 63.8k |
-| 🍴 **Forks** | 13.5k |
+| ⭐ **Stars** | 63.9k |
+| 🍴 **Forks** | 13.6k |
 | 🐞 **Open issues + PRs** | [5.5k](https://github.com/BerriAI/litellm/issues) |
-| 💻 **Languages** | Python 82% · TypeScript 10% · Rust 6% |
+| 💻 **Languages** | Python 82% · TypeScript 10% · Rust 7% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `anthropic` `langchain` `llm` `llmops` `openai` `ai-gateway` `azure-openai` `bedrock` `gateway` `openai-proxy` `vertex-ai` `llm-gateway` `litellm` `mcp-gateway` `rust` `rust-ai` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-07-27 |
-| 📦 **Latest release** | [v1.110.3](https://github.com/BerriAI/litellm/releases/tag/v1.110.3) — 2026-11-24 |
+| 📦 **Latest release** | [v1.109.5](https://github.com/BerriAI/litellm/releases/tag/v1.109.5) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3157.1 MB |
+| 💾 **Size** | 3173.8 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases
 
-### [v1.110.3](https://github.com/BerriAI/litellm/releases/tag/v1.110.3)
+### [v1.109.5](https://github.com/BerriAI/litellm/releases/tag/v1.109.5)
+<sub>2026-11-25 · today</sub>
+
+> **Verify this release**
+> ```bash
+> cosign verify \
+>   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
+>   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
+>   ghcr.io/berriai/litellm:v1.109.5
+> …
+
+### [v1.110.4](https://github.com/BerriAI/litellm/releases/tag/v1.110.4)
+<sub>2026-11-25 · today</sub>
+
+> **Verify this release**
+> ```bash
+> cosign verify \
+>   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
+>   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
+>   ghcr.io/berriai/litellm:v1.110.4
+> …
+
+### [v1.111.0](https://github.com/BerriAI/litellm/releases/tag/v1.111.0)
+<sub>2026-11-25 · today</sub>
+
+> **Verify Docker Image Signature**
+> ```bash
+> cosign verify \
+>   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
+>   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
+>   ghcr.io/berriai/litellm:v1.111.0
+> …
+
+### [v1.108.17](https://github.com/BerriAI/litellm/releases/tag/v1.108.17) — 1.108.17 (LTS)
 <sub>2026-11-24 · today</sub>
-
-> **Verify Docker Image Signature**
-> ```bash
-> cosign verify \
->   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
->   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
->   ghcr.io/berriai/litellm:v1.110.3
-> …
-
-### [v1.109.4](https://github.com/BerriAI/litellm/releases/tag/v1.109.4)
-<sub>2026-11-24 · today</sub>
-
-> **Verify Docker Image Signature**
-> ```bash
-> cosign verify \
->   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
->   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
->   ghcr.io/berriai/litellm:v1.109.4
-> …
-
-### [v1.108.16](https://github.com/BerriAI/litellm/releases/tag/v1.108.16)
-<sub>2026-11-23 · today</sub>
-
-> **Verify Docker Image Signature**
-> ```bash
-> cosign verify \
->   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
->   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
->   ghcr.io/berriai/litellm:v1.108.16
-> …
-
-### [v1.108.15](https://github.com/BerriAI/litellm/releases/tag/v1.108.15) — 1.108.15 (LTS)
-<sub>2026-11-21 · 2d ago</sub>
 
 > > [!TIP]
 > > The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch
@@ -79,31 +79,31 @@
 >   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
 > …
 
-### [v1.112.0-dev.2](https://github.com/BerriAI/litellm/releases/tag/v1.112.0-dev.2) _(pre-release)_
-<sub>2026-11-21 · 2d ago</sub>
+### [v1.112.0-rc.1](https://github.com/BerriAI/litellm/releases/tag/v1.112.0-rc.1) _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
-> **Verify Docker Image Signature**
+> **Verify this release**
 > ```bash
 > cosign verify \
 >   --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \
 >   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
->   ghcr.io/berriai/litellm:v1.112.0-dev.2
+>   ghcr.io/berriai/litellm:v1.112.0-rc.1
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [feat(proxy): skip blocked deployments in background health checks (#5…](https://github.com/BerriAI/litellm/commit/273cc395aeb773d28986579b86a73a34d7180edc) | AaronHowell |
-| 2026-11-24 | [fix(scim): stop SCIM user writes from overwriting teams a concurrent …](https://github.com/BerriAI/litellm/commit/eedbdcc0f967009128f4fb23f124984d8c06bf8a) | jesus-berri |
-| 2026-11-24 | [fix(openai): drop or refuse an o-series reasoning_effort level the mo…](https://github.com/BerriAI/litellm/commit/9a384a563a8600b65bda905c25c7c017c63e652a) | quietjules |
-| 2026-11-24 | [chore(types): type optional_params and litellm_params as dict[str, ob…](https://github.com/BerriAI/litellm/commit/de342db9b65cf7984e0786e6c9926edc4d7974ae) | mateo-berri |
-| 2026-11-24 | [fix(batches): keep the endpoint a batch was created for on retrieve, …](https://github.com/BerriAI/litellm/commit/85ba26ff5f0a566026c5cd172341c6c64322e16e) | paveln83 |
-| 2026-11-24 | [fix(guardrails): scan refusal text in output guardrails on chat and r…](https://github.com/BerriAI/litellm/commit/25b010e8e1c94bff3db85e2bbc11a551ba73ff29) | quietjules |
-| 2026-11-24 | [fix(realtime): enforce TPM limits during realtime sessions (#53689)](https://github.com/BerriAI/litellm/commit/440572c451c7d25d5233814eb0c40e01e221fd16) | owen-hj |
-| 2026-11-24 | [fix(vertex_ai): answer 400 for gemini embedding video_metadata that s…](https://github.com/BerriAI/litellm/commit/731dce9083cb6f0e8c8f7fafa5f161f5dcb09510) | linhqm |
-| 2026-11-24 | [refactor(types): replace Unknown with proven types in 86 files (#53803)](https://github.com/BerriAI/litellm/commit/957433607ab8475d65e7bebd0175646806350483) | mateo-berri |
-| 2026-11-24 | [fix(bedrock): keep shared $defs in Claude tool schemas and bound inli…](https://github.com/BerriAI/litellm/commit/b484c877e1f232240ca2576c5e9e14c1bcedb483) | paveln83 |
+| 2026-11-25 | [fix(responses): reject an unresolvable previous_response_id on the ch…](https://github.com/BerriAI/litellm/commit/d941699343bdc61682b59cc9346b9e1fd8341194) | edvinsq |
+| 2026-11-25 | [test(budgets): give the held-back stream cancel test a fallback so th…](https://github.com/BerriAI/litellm/commit/519d84423e27aa0520b2948c65ca444cbadc313f) | kerry-berri |
+| 2026-11-25 | [fix(guardrails): check one-object parts and tool turns on generateCon…](https://github.com/BerriAI/litellm/commit/bc4ca0b218ff6af1595ae105298f979d20062fd2) | zoveki |
+| 2026-11-25 | [refactor(gateway-auth-core): keep the model access denial in error.rs…](https://github.com/BerriAI/litellm/commit/6f34f0cf25d58015a62a7b74ed557294ed57b923) | yujonglee-berri |
+| 2026-11-25 | [fix(router): send /v1/messages message_start live during thinking whe…](https://github.com/BerriAI/litellm/commit/34dea88f048b7106df3e16d513c9a616953aee28) | ellisc42 |
+| 2026-11-25 | [fix(llms): send later system messages as user turns for models declar…](https://github.com/BerriAI/litellm/commit/801976e7077c3fd85a92d2b457a4be7d96761635) | quietjules |
+| 2026-11-25 | [test(responses-bridge): cover multi-turn GPT-6.2 prompt caching on Op…](https://github.com/BerriAI/litellm/commit/d91a02dfb3471e683078338102633403ceee74d3) | paveln83 |
+| 2026-11-25 | [fix(guardrails): classify only the frames each read completes in Pres…](https://github.com/BerriAI/litellm/commit/2c4d2344660564b1e256acd6b8dc0c1c1620361c) | izzybn |
+| 2026-11-25 | [fix(router): with pre-call checks on, retry a context window error on…](https://github.com/BerriAI/litellm/commit/9add785f1a9c13d8ae60980610868253c86cc0df) | martenj4 |
+| 2026-11-25 | [fix(rust-config): apply require_key_mcp_access_defined from the store…](https://github.com/BerriAI/litellm/commit/df9d7606c3b01faf975e06d00138c5521bb77775) | kerry-berri |
 
 [See all commits ↗](https://github.com/BerriAI/litellm/commits)
 

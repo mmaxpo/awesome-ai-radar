@@ -26,17 +26,17 @@
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 176.5 MB |
+| 💾 **Size** | 177.3 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 21d ago</sub>
+<sub>2026-11-02 · 22d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 21d ago</sub>
+<sub>2026-11-02 · 22d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 21d ago</sub>
+<sub>2026-11-02 · 22d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Add sharded force replication workflow (#10528)](https://github.com/temporalio/temporal/commit/79bc7d8f67055f7ff15770abe9e26290e6701e3d) | robholland |
+| 2026-11-24 | [Flow control (H): release activity limiters (#13193)](https://github.com/temporalio/temporal/commit/c70df1608ab79154dda9d22ab5abc2078725abb3) | dnr |
+| 2026-11-24 | [Bump go.temporal.io/testx to 082cf13a8](https://github.com/temporalio/temporal/commit/a25c9dec70564cabea154b81f164b1d943952f8b) | temporal-data |
+| 2026-11-24 | [Move softassert to testx (#13269)](https://github.com/temporalio/temporal/commit/082cf13a8283633635daac71f137a41872184798) | stephanos |
+| 2026-11-24 | [Flow control (T): add limiter transaction protocol (#13192)](https://github.com/temporalio/temporal/commit/076b19bbebba4601ef7b1b6a063bad7ddc95a68a) | dnr |
+| 2026-11-24 | [Flow control (SB): batch concurrency service requests (#13194)](https://github.com/temporalio/temporal/commit/a40f06c1730ffd19a3d80bfb1ad3d2c4961dad4b) | dnr |
+| 2026-11-24 | [Bump go.temporal.io/testx to 42c15ace2](https://github.com/temporalio/temporal/commit/147029a21c0bbfe5d7e8947e661bf0c6ab6a84c8) | temporal-data |
+| 2026-11-24 | [Move the test hook registry into testx (#13266)](https://github.com/temporalio/temporal/commit/42c15ace2189adb5c4625ac41e68b5eecf2d0c08) | stephanos |
+| 2026-11-24 | [Fix panic on empty MySQL isolation level attribute (#13095)](https://github.com/temporalio/temporal/commit/8495e55022f65988dd14e337cbcbba3a39b61bc3) | alaahong |
 | 2026-11-23 | [Add keepalive dial option to local frontend gRPC connection (#12819)](https://github.com/temporalio/temporal/commit/4197dfdd52eb338c932e64db209e3853fc7a032d) | AdamMagued |
-| 2026-11-23 | [Defer V1->V2 schedule auto-migration while a backfill is in progress …](https://github.com/temporalio/temporal/commit/170953cf9b8f11ac5344cd6ec58f8673adfa0403) | davidporter-id-au |
-| 2026-11-23 | [Measure workflow cache entry size under the workflow lock (#13214)](https://github.com/temporalio/temporal/commit/0f9d8d7400483a33e382809ed7d42afe8fc572c7) | abenn135 |
-| 2026-11-23 | [Reject HTTP redirects on outbound Nexus requests (#13221)](https://github.com/temporalio/temporal/commit/411dadbd9fdfe0997d2ac9d79867763f6a3e305c) | chrsmith |
-| 2026-11-23 | [Check eager namespace refresh membership with the namespace's replica…](https://github.com/temporalio/temporal/commit/b12de7289e7768eafa9ea0fc4756d571133ef486) | michaely520 |
-| 2026-11-23 | [Make admin rate limiting the default and add RawHistory endpoints (#1…](https://github.com/temporalio/temporal/commit/c69a19148744830943ec22dd49139d58c4ab4f99) | ratdaddy |
-| 2026-11-23 | [WHN impl 2: store worker control queue when workflow task starts (#12…](https://github.com/temporalio/temporal/commit/5208234bde6867e25c1a9b984d4652505b4c5e23) | feiyang3cat |
-| 2026-11-23 | [Decide legacy namespace replication from resolver membership (#13218)](https://github.com/temporalio/temporal/commit/10f3a667e7132426d41dc4af802a0aaab174876d) | qyc5937 |
-| 2026-11-23 | [Deliver child completion to the current parent run when the reset run…](https://github.com/temporalio/temporal/commit/cd668989792406a24b72672dbbfd1e98a66e3853) | cestercian |
-| 2026-11-21 | [Add internal RPC for worker heartbeats (#8600)](https://github.com/temporalio/temporal/commit/32ef011fbd1e38ecddf656fc3f5026f6641cfeab) | rkannan82 |
 
 [See all commits ↗](https://github.com/temporalio/temporal/commits)
 

@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 38.9k |
+| ⭐ **Stars** | 39.0k |
 | 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [29](https://github.com/virgiliojr94/book-to-skill/issues) |
+| 🐞 **Open issues + PRs** | [17](https://github.com/virgiliojr94/book-to-skill/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `context-engineering` `document-processing` `edtech` `knowledge-base` `knowledge-management` `llm` `pdf-to-markdown` `rag` `self-study` `study-tools` `book-to-skill` |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2026-05-01 |
 | 📦 **Latest release** | [v2.0.1](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.1) — 2026-11-19 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 2.8 MB |
+| 💾 **Size** | 3.1 MB |
 
 ## 📦 Recent releases
 
 ### [v2.0.1](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.1)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **[2.0.1] - 2026-11-19**
 > **Added**
@@ -46,7 +46,7 @@
 > …
 
 ### [v2.0.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.0)
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **[2.0.0] - 2026-11-19**
 > **Added**
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-19 | [chore(release): v2.0.1](https://github.com/virgiliojr94/book-to-skill/commit/57f3db51ff338edfd940a255b885c60ac90e40fa) | virgiliojr94 |
-| 2026-11-19 | [sec: resolve remaining high CodeQL test alerts and annotate empty exc…](https://github.com/virgiliojr94/book-to-skill/commit/c57deb8ce61d905d523b395e7d9f0071eef17d6c) | virgiliojr94 |
-| 2026-11-19 | [chore(remote): resolve v2.0.0 CodeQL alerts and exclude README.ja.md/…](https://github.com/virgiliojr94/book-to-skill/commit/be9ccf9969f4ff9158c754463cb2b952e00e0511) | virgiliojr94 |
-| 2026-11-19 | [ci: bump the github-actions group with 2 updates (#329)](https://github.com/virgiliojr94/book-to-skill/commit/b2778f3b66c269ebf9b413cfca26fe4b286e0c7c) | dependabot[bot] |
-| 2026-11-19 | [fix(pdf): match letter-spaced outline chapter headings (#347)](https://github.com/virgiliojr94/book-to-skill/commit/65f9b1decc6a3d89cdf1ff9465b7bb1705c3c30e) | wangngo |
-| 2026-11-19 | [docs: add Japanese README (#328)](https://github.com/virgiliojr94/book-to-skill/commit/be16a0ed97f8ce0ca036c74d5c392ddecab05521) | eltociear |
-| 2026-11-19 | [chore: slim archives with export-ignore and compressed docs images (#…](https://github.com/virgiliojr94/book-to-skill/commit/942033c8d4861fec369b156beb12af7e3906a21b) | blazardsky |
-| 2026-11-19 | [feat(extractor): detect Georgian (თავი) chapter headings (#325)](https://github.com/virgiliojr94/book-to-skill/commit/2ad4a8dc54fdcba3d76fe7e3b1442f09641f1c0d) | dex0shubham |
-| 2026-11-19 | [feat(extractor): detect Arabic (الفصل/الباب) chapter headings (#346)](https://github.com/virgiliojr94/book-to-skill/commit/1dd0b1541eca11b1914846af9213beaea9b2dfe1) | dex0shubham |
-| 2026-11-19 | [fix(epub): accept whitespace around XML attribute equals (#323)](https://github.com/virgiliojr94/book-to-skill/commit/5db008aa7a710206afda30760bedc58b34695076) | Stamina9 |
+| 2026-11-24 | [chore(governance): enable issue-first enforcement mode on master (#360)](https://github.com/virgiliojr94/book-to-skill/commit/79b3fa66d249635453f8e9bc517fe033ac9d5a91) | virgiliojr94 |
+| 2026-11-24 | [fix(ci): prevent receipt re-minting when an approved issue is edited …](https://github.com/virgiliojr94/book-to-skill/commit/feed26e60f9b2aa2ecd26ba1780bd3acac75b5d1) | virgiliojr94 |
+| 2026-11-24 | [fix(ci): separate issue-first runner job name from status context (#360)](https://github.com/virgiliojr94/book-to-skill/commit/c5af014e5c2b83ba3b32bfe763a11f1a23ed87fd) | virgiliojr94 |
+| 2026-11-24 | [chore(governance): add issue-first policy evaluator and workflow in o…](https://github.com/virgiliojr94/book-to-skill/commit/b2223089a09a2567543ed956c7875767787afc26) | virgiliojr94 |
+| 2026-11-24 | [test(pdf): resolve CodeQL mutable-attribute import alert in image rep…](https://github.com/virgiliojr94/book-to-skill/commit/024b5c3c12d594f65b583ac8974008b7be3e0428) | virgiliojr94 |
+| 2026-11-24 | [fix(epub): ignore commented XML package entries (#342)](https://github.com/virgiliojr94/book-to-skill/commit/4350de7b7a49c12853a66d5761ffeed99b013041) | Stamina9 |
+| 2026-11-24 | [fix(pdf): decode pdfinfo output as UTF-8 (#344)](https://github.com/virgiliojr94/book-to-skill/commit/9c51da283373568e25c21604cdd3b03933118c68) | Stamina9 |
+| 2026-11-24 | [fix(pdf): check later pages before rejecting scans (#354)](https://github.com/virgiliojr94/book-to-skill/commit/1bdf5c7351cc51a0da27999705ca6dbadfad17ea) | Stamina9 |
+| 2026-11-24 | [fix(pdf): report embedded images that text extraction drops (#356)](https://github.com/virgiliojr94/book-to-skill/commit/e75d6ff2d5e25b4c93acb58f576556cf3be21c7e) | TanmayShah29 |
+| 2026-11-24 | [ci: bump actions/dependency-review-action from 5.0.0 to 5.0.1 (#357)](https://github.com/virgiliojr94/book-to-skill/commit/aee998ca1ad8182bc9d56969b55ea54279ec2b04) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/virgiliojr94/book-to-skill/commits)
 

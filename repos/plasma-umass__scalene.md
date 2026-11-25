@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 60% · JavaScript 15% · C++ 9% · TypeScript 7% · Lean 6% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-22 (2d ago) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |
@@ -89,6 +89,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Propagate --allocation-sampling-window to child processes (fixes #115…](https://github.com/plasma-umass/scalene/commit/f42a69b921a100f924d37156f3b48879c431adee) | emeryberger |
 | 2026-11-22 | [Claim the pending CPU-signal arrival atomically (fixes #1151) (#1152)](https://github.com/plasma-umass/scalene/commit/557ecb3d4e8437cdf37a60547490947bcf3b9507) | emeryberger |
 | 2026-11-21 | [NVIDIA: report the current per-process GPU load, not the lifetime ave…](https://github.com/plasma-umass/scalene/commit/4c9a5b8cd4350740bbf4f71600034fbbc3ed2a27) | KuzAlexey |
 | 2026-11-16 | [Don't hang programs waiting for their own timer signal under Scalene …](https://github.com/plasma-umass/scalene/commit/167a3edbf4a5e39e0fdc876d4a9f65143b64eb42) | emeryberger |
@@ -98,7 +99,6 @@
 | 2026-11-15 | [Add pytest plugin (`pytest --scalene`) — fixes #70 (#1059)](https://github.com/plasma-umass/scalene/commit/390ea0bd436d1d9442bd52edfa09ab5ac5db986a) | emeryberger |
 | 2026-11-15 | [Save AI provider settings with `scalene config` (fixes #911) (#1143)](https://github.com/plasma-umass/scalene/commit/33d507f973469f1a32360bbe7b529349126d1419) | emeryberger |
 | 2026-11-15 | [Give every timer arrival the same weight (#466 follow-up) (#1142)](https://github.com/plasma-umass/scalene/commit/0b9870bfa09aecc7e2eb8826dbd483214d4a763f) | emeryberger |
-| 2026-11-15 | [Charge CPU samples to the line running when the timer fired (fixes #4…](https://github.com/plasma-umass/scalene/commit/9893aa606aadf138f0bad0adf79f0265b3724a52) | emeryberger |
 
 [See all commits ↗](https://github.com/plasma-umass/scalene/commits)
 

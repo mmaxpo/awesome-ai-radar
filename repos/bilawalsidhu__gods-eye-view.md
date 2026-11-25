@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 66.6k |
+| ⭐ **Stars** | 66.8k |
 | 🍴 **Forks** | 13.2k |
-| 🐞 **Open issues + PRs** | [441](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| 🐞 **Open issues + PRs** | [442](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 261.8 MB |
+| 💾 **Size** | 262.5 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 27d ago</sub>
+<sub>2026-10-28 · 28d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Merge pull request #1901 from manjunath22466/context-stack/e-cctv-pla…](https://github.com/bilawalsidhu/gods-eye-view/commit/08a48c225322d93f3cf25baec0a22c15ab864d01) | asturksever |
-| 2026-11-24 | [Merge main into the CCTV projection branch](https://github.com/bilawalsidhu/gods-eye-view/commit/8fcf2151a039f299921d6c7d720c8567125c800c) | manjunath22466 |
-| 2026-11-24 | [Merge pull request #1899 from manjunath22466/context-stack/b-cctv-on-…](https://github.com/bilawalsidhu/gods-eye-view/commit/a7b23d79f64de8b3219bbf9f8b91c20b96bdd2f8) | gekh |
-| 2026-11-24 | [Isolate same-camera reselection in the CCTV gate](https://github.com/bilawalsidhu/gods-eye-view/commit/b7ef9d0e38c88d871be4b6364f8ebb7b17998316) | manjunath22466 |
-| 2026-11-24 | [Keep camera stills matched to their Context preview](https://github.com/bilawalsidhu/gods-eye-view/commit/19b08b5f5f5b4e5da6cff162cfc93bcebf1e7ab1) | manjunath22466 |
-| 2026-11-24 | [Merge upstream main into the CCTV projection branch](https://github.com/bilawalsidhu/gods-eye-view/commit/be25af000e8174ebe0ad8b1c182ec5f01b07c1e3) | manjunath22466 |
-| 2026-11-24 | [Merge branch 'main' into context-stack/b-cctv-on-keeps-view](https://github.com/bilawalsidhu/gods-eye-view/commit/a2f6214b57c96c6a8fa0913604edd3f0f918b1e4) | gekh |
-| 2026-11-24 | [Merge pull request #1909 from bilawalsidhu/german/opening-intro](https://github.com/bilawalsidhu/gods-eye-view/commit/04539e13f3ab3e13384b47c49949d1800ab4464f) | gekh |
-| 2026-11-24 | [Hand the opening over to the globe at the pupil planet's size, not th…](https://github.com/bilawalsidhu/gods-eye-view/commit/07b62f75573c58542aee088029844ff1493a6bdc) | gekh |
-| 2026-11-24 | [Test that Cameras waits for layer enable](https://github.com/bilawalsidhu/gods-eye-view/commit/72c65869df1de4d202d3574d44feddb0fd394efd) | manjunath22466 |
+| 2026-11-25 | [Merge pull request #1711 from bilawalsidhu/mazeyar/perf-firms-cached-…](https://github.com/bilawalsidhu/gods-eye-view/commit/84ca483a8de5e5228e343fd38be0724c9dde2e45) | gekh |
+| 2026-11-25 | [Merge remote-tracking branch 'origin/main' into mazeyar/perf-firms-ca…](https://github.com/bilawalsidhu/gods-eye-view/commit/f055c3d0d90349ce85d835b6f9b9071b00483d49) | gekh |
+| 2026-11-25 | [Merge pull request #1678 from quanticsoul4772/upstream/windows-ci-nom…](https://github.com/bilawalsidhu/gods-eye-view/commit/48491175bc54989fc2dee82bacbf59158035d265) | gekh |
+| 2026-11-25 | [Merge branch 'main' into upstream/windows-ci-nominatim-test](https://github.com/bilawalsidhu/gods-eye-view/commit/5a823235470917709ec20efb54bcc4db973f45b1) | gekh |
+| 2026-11-25 | [Merge pull request #1195 from ianblenke/boundaries-overlay](https://github.com/bilawalsidhu/gods-eye-view/commit/bde2e5e6a209ed77b0f178ce969e2bf8ab5f2efc) | gekh |
+| 2026-11-25 | [Merge remote-tracking branch 'origin/main' into boundaries-overlay](https://github.com/bilawalsidhu/gods-eye-view/commit/994b8bc118c8b296d9318d230da264ab437c2b82) | gekh |
+| 2026-11-25 | [Merge branch 'main' into upstream/windows-ci-nominatim-test](https://github.com/bilawalsidhu/gods-eye-view/commit/0f2dcd5e7f43079344b0a4d4a7cb1cf27f0c4854) | gekh |
+| 2026-11-25 | [Merge pull request #1903 from bilawalsidhu/mazeyar/aircraft-angle-spr…](https://github.com/bilawalsidhu/gods-eye-view/commit/d011646553a98b1b622e67d2f4a9eddcc2dbb21b) | gekh |
+| 2026-11-25 | [Merge remote-tracking branch 'origin/main' into mazeyar/aircraft-angl…](https://github.com/bilawalsidhu/gods-eye-view/commit/187fd8ebbc2060493c5386d362a7c11c46bb9830) | gekh |
+| 2026-11-25 | [Merge pull request #1640 from quanticsoul4772/upstream/hud-sun-negati…](https://github.com/bilawalsidhu/gods-eye-view/commit/298c4e85a70bd6770486fc682538d835397dbb98) | gekh |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

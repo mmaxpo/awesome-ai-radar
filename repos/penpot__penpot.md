@@ -22,38 +22,38 @@
 |---|---|
 | ⭐ **Stars** | 62.7k |
 | 🍴 **Forks** | 4.5k |
-| 🐞 **Open issues + PRs** | [943](https://github.com/penpot/penpot/issues) |
+| 🐞 **Open issues + PRs** | [950](https://github.com/penpot/penpot/issues) |
 | 💻 **Languages** | Clojure 76% · JavaScript 6% · Rust 6% · TypeScript 5% · SCSS 3% |
 | 📜 **License** | MPL-2.0 |
 | 🏷 **Topics** | `ux-design` `ux-experience` `prototyping` `clojure` `clojurescript` `ui` `design` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2015-12-29 |
 | 📦 **Latest release** | [2.19.5](https://github.com/penpot/penpot/releases/tag/2.19.5) — 2026-11-24 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 434.6 MB |
+| 💾 **Size** | 436.7 MB |
 | 🌐 **Website** | https://penpot.app |
 
 ## 📦 Recent releases
 
 ### [2.19.5](https://github.com/penpot/penpot/releases/tag/2.19.5)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **:bug: Bugs fixed**
 > - Revert [#13165](https://github.com/penpot/penpot/issues/13165), because it causes more regression, the issue is already correctly fixed on the upcoming 2.20.0
 
 ### [2.19.4](https://github.com/penpot/penpot/releases/tag/2.19.4)
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix importing large `.penpot` files in Chrome [#13165](https://github.com/penpot/penpot/issues/13165) (PR: [#13183](https://github.com/penpot/penpot/pull/13183))
 
 ### [2.19.3](https://github.com/penpot/penpot/releases/tag/2.19.3)
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > No changes for 2.19.3 according to CHANGES.md
 
 ### [2.19.2](https://github.com/penpot/penpot/releases/tag/2.19.2)
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > **:bug: Bugs fixed**
 > - Fix referential integrity error when copying component variants with nested components across libraries and teams [#10704](https://github.com/penpot/penpot/issues/10704) (PR: [#12928](https://github.com/penpot/penpot/pull/12928))
@@ -64,7 +64,7 @@
 > …
 
 ### [2.19.1](https://github.com/penpot/penpot/releases/tag/2.19.1)
-<sub>2026-11-11 · 13d ago</sub>
+<sub>2026-11-11 · 14d ago</sub>
 
 > **:lock: Security fixes**
 > - Fix editor-role team members retrieving the signed invitation token of any pending invitation (https://github.com/penpot/penpot/security/advisories/GHSA-4mmc-j8rh-74pf) (PR: [#12892](https://github.com/penpot/penpot/pull/12892))
@@ -78,16 +78,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [:bug: Show the full library name in a tooltip when it is cut (#13237)](https://github.com/penpot/penpot/commit/07c3409ad0fbcc9ba1126833865f446ac81847da) | EvaMarco |
-| 2026-11-24 | [:bug: Add opt-in MCP JSON replies and deliver pending outcomes on shu…](https://github.com/penpot/penpot/commit/01a7342f4b66fa9177730fc796dcf30f9f885858) | myagizmaktav |
-| 2026-11-24 | [:sparkles: Add nitrate methods to bring owned teams into an organizat…](https://github.com/penpot/penpot/commit/dc49d6bed6e898e075dc7ad52d25e16464aab5a5) | juanfran |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/develop' into develop](https://github.com/penpot/penpot/commit/495df7ef667bf81a3c3eb617c9ac45871cd53a1e) | niwinz |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/staging' into develop](https://github.com/penpot/penpot/commit/4427b83ae0430eb5ff1fefece9a1ccc298c93347) | niwinz |
-| 2026-11-24 | [:bug: Fix not rendering & computing into layout trailing white spaces…](https://github.com/penpot/penpot/commit/5aac5ab9bafe8f88e4553c23371fcea25e02d0cf) | belen-albeza |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/staging-2.19.x' into staging](https://github.com/penpot/penpot/commit/bc3f8dd6ef162d3288b4a0fce9ed65586db48f6b) | niwinz |
-| 2026-11-24 | [:bug: Correct UI CSS export and test restore flow](https://github.com/penpot/penpot/commit/5fafca7665cd973707e19a742d7411768a86835f) | niwinz |
-| 2026-11-24 | [:tada: Add a command to create pull requests](https://github.com/penpot/penpot/commit/b52fcc7e6d822e6dc5310cb9d200a6593417900f) | niwinz |
-| 2026-11-24 | [:bug: Fix render-wasm panic when an auto layout has only absolute chi…](https://github.com/penpot/penpot/commit/407ee58ddd9bd5a744bd988d1c88b5c122eee449) | elenatorro |
+| 2026-11-25 | [Merge remote-tracking branch 'origin/staging' into develop](https://github.com/penpot/penpot/commit/a0bbafaf12c60804fde2c03a510ed62049e0942a) | superalex |
+| 2026-11-25 | [:bug: Honor text and emoji presentation in WebGL text (#13295)](https://github.com/penpot/penpot/commit/f9f5a4cdd0049d62c151c592be39807896382459) | superalex |
+| 2026-11-25 | [:sparkles: Add on-demand pull request reviews (#13272)](https://github.com/penpot/penpot/commit/aab5a4752f4fbfaf5aeabb6234c81d5c36be61eb) | MischaPanch |
+| 2026-11-25 | [:books: Fix shortcut labels and ruler guide keys in the user guide (#…](https://github.com/penpot/penpot/commit/89717787c78e4f71fe56680fe40576eb937c8c7b) | myfunnyandy |
+| 2026-11-25 | [:bug: Normalize legacy svg attrs of pasted shapes (#13334)](https://github.com/penpot/penpot/commit/edd487cddd2dc52d4b135f969147ca3ee1922d43) | EvaMarco |
+| 2026-11-25 | [:sparkles: Count the trips of a throttled update loop before reportin…](https://github.com/penpot/penpot/commit/efe420e3e471869d58d0ab425e52dac67f63db0b) | EvaMarco |
+| 2026-11-25 | [:bug: Keep variant property order and remove the right property past …](https://github.com/penpot/penpot/commit/1438be5b2614095a1076c784e14e370e0a315e07) | elenatorro |
+| 2026-11-25 | [:bug: Ignore default constraints when syncing library components](https://github.com/penpot/penpot/commit/7f53bf76b699dbf69207ff1c496c78b7e52b657b) | pabloalba |
+| 2026-11-25 | [:bug: Keep the image when Selected colors changes a text color (#13313)](https://github.com/penpot/penpot/commit/6337810676134b7632dc241a2f33d7383e2fbb15) | EvaMarco |
+| 2026-11-25 | [:bug: Validate and repair variant properties as a set](https://github.com/penpot/penpot/commit/571ee80a4b35e340743b703ca8e5cde46e2cfe04) | pabloalba |
 
 [See all commits ↗](https://github.com/penpot/penpot/commits)
 

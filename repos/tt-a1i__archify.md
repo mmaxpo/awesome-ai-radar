@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/tt-a1i/archify)
 
-> Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
+> Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.
 
 ## 📝 Notes
 
@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 99.4k |
+| ⭐ **Stars** | 99.8k |
 | 🍴 **Forks** | 6.8k |
-| 🐞 **Open issues + PRs** | [358](https://github.com/tt-a1i/archify/issues) |
+| 🐞 **Open issues + PRs** | [363](https://github.com/tt-a1i/archify/issues) |
 | 💻 **Languages** | JavaScript 88% · TypeScript 4% · CSS 3% · HTML 2% · Rust 1% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `architecture-diagram` `developer-tools` `system-design` `agent-skills` `codex` `opencode` `sequence-diagram` `deepseek-harness` `dsh-plugin` `coding-agents` `diagrams` `diagrams-as-code` `software-architecture` `ai-agents` `claude-code` `claude-skills` `flowchart` `llm` `mermaid` `visualization` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🏷 **Topics** | `architecture-diagram` `developer-tools` `system-design` `agent-skills` `codex` `opencode` `deepseek-harness` `dsh-plugin` `coding-agents` `diagrams` `diagrams-as-code` `software-architecture` `ai-agents` `claude-code` `claude-skills` `flowchart` `llm` `mermaid` `visualization` `code-analysis` |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-04-15 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/tt-a1i/archify/releases/tag/v3.3.1) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1859.9 MB |
+| 💾 **Size** | 1872.6 MB |
 | 🌐 **Website** | https://archify.si |
 
 ## 📦 Recent releases
 
 ### [v3.3.1](https://github.com/tt-a1i/archify/releases/tag/v3.3.1)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **Archify 3.3 in 60 seconds**
 > https://github.com/user-attachments/assets/6a0d6637-e3af-43af-a733-4b4b53da0542
@@ -47,12 +47,12 @@
 > …
 
 ### [archify-dsh-v1.2.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.2.0) — Archify DSH 1.2.0
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > Published `@tt-a1i/archify-dsh` from this tag's verified tarball. See the integration README for the bundled Archify source and acceptance record.
 
 ### [v3.3.0](https://github.com/tt-a1i/archify/releases/tag/v3.3.0)
-<sub>2026-11-22 · yesterday</sub>
+<sub>2026-11-22 · 2d ago</sub>
 
 > **Archify 3.3 in 60 seconds**
 > https://github.com/user-attachments/assets/6a0d6637-e3af-43af-a733-4b4b53da0542
@@ -63,7 +63,7 @@
 > …
 
 ### [archify-dsh-v1.1.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.1.0) — Archify DSH 1.1.0
-<sub>2026-11-08 · 15d ago</sub>
+<sub>2026-11-08 · 16d ago</sub>
 
 > Published `@tt-a1i/archify-dsh@1.1.0` — a Skill-only DeepSeek Harness bundle containing Archify 3.2.0.
 > - Published: 2026-11-08 (npm `latest`)
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Merge pull request #1478 from tt-a1i/feat/geo-seo-v4-main](https://github.com/tt-a1i/archify/commit/62f3a995eb26ee23f784bdea4a7992340078e9be) | tt-a1i |
-| 2026-11-24 | [docs(geo): specify installed skill path for code-analysis CLI example](https://github.com/tt-a1i/archify/commit/fdefb9beae3b8adce318adb4725184462d69e322) | tt-a1i |
-| 2026-11-24 | [fix(seo): resolve Bing SEO warnings and ship GEO v4 v3.3 capabilities…](https://github.com/tt-a1i/archify/commit/71d5a9f25a250587687046e582b34db1afe422a4) | tt-a1i |
-| 2026-11-24 | [Merge pull request #1475 from tt-a1i/chore/stable-manifest-v3.3.1](https://github.com/tt-a1i/archify/commit/59ee5b7d39182d1534d063810929e19fd672fc39) | tt-a1i |
-| 2026-11-24 | [fix(release): keep v3.3.1 stable manifest summary within 160-characte…](https://github.com/tt-a1i/archify/commit/919b66f41134246461103c9c08e6e12351ebaa5e) | tt-a1i |
-| 2026-11-24 | [release: publish stable 3.3.1 update manifest](https://github.com/tt-a1i/archify/commit/916781a5ed2ad6133c0fdefb85e61f863a5c36c4) | tt-a1i |
-| 2026-11-24 | [Merge pull request #1474 from tt-a1i/release/v3.3.1](https://github.com/tt-a1i/archify/commit/894225cca657d181e03f332e716b63782ba6b4da) | tt-a1i |
-| 2026-11-24 | [release: promote dev and prepare v3.3.1](https://github.com/tt-a1i/archify/commit/fede2eee7637f36f713b5a5e66a8066c710fe8a2) | tt-a1i |
-| 2026-11-24 | [chore: merge origin/main into release/v3.3.1](https://github.com/tt-a1i/archify/commit/4a1cfb574bdf5880d6876fe3847406d063d53e60) | tt-a1i |
-| 2026-11-24 | [Merge pull request #1473 from tt-a1i/codex/architecture-labels-1123](https://github.com/tt-a1i/archify/commit/a51c277b9ca8783db3f773e1e086db80191f1191) | tt-a1i |
+| 2026-11-25 | [Merge pull request #1494 from tt-a1i/fix/v3.3.2-main-ci](https://github.com/tt-a1i/archify/commit/a0199aab7bc1e87821c286f9b297afb8f98894ec) | tt-a1i |
+| 2026-11-25 | [fix(lifecycle): keep an explicitly visible final legend key](https://github.com/tt-a1i/archify/commit/ed1bbcdb127143bbcf3a28ff237fc30cc1e5b536) | tt-a1i |
+| 2026-11-25 | [build: regenerate archify.zip for the lifecycle legend fix](https://github.com/tt-a1i/archify/commit/16106ee0f0f66dd9aba3db9a1b7dee1de031baed) | tt-a1i |
+| 2026-11-25 | [fix: restore lifecycle final-legend guard and settle workbench Back c…](https://github.com/tt-a1i/archify/commit/550f6f533a92ad499452808ff62951fa0f022eb9) | tt-a1i |
+| 2026-11-25 | [Merge pull request #1492 from tt-a1i/release/v3.3.2](https://github.com/tt-a1i/archify/commit/dd71ddd3a5506c1816758609c210aebc12fdcfff) | tt-a1i |
+| 2026-11-25 | [release: promote dev and prepare v3.3.2](https://github.com/tt-a1i/archify/commit/fb2b0c758589ee89bbf296e7521ae5e42a6ebaf9) | tt-a1i |
+| 2026-11-25 | [Merge pull request #1489 from tt-a1i/feat/in-page-update-notice](https://github.com/tt-a1i/archify/commit/79ae742b5d30a004eb1bcb3a61f66f5834cccfa1) | tt-a1i |
+| 2026-11-25 | [feat(delivery): dock update notices in the Viewer header](https://github.com/tt-a1i/archify/commit/1dc4c0255c6cad7ada7914fe198ff4efbc941d66) | tt-a1i |
+| 2026-11-25 | [Merge remote-tracking branch 'origin/dev' into HEAD](https://github.com/tt-a1i/archify/commit/eb053c6b2df04d322e08ff242a4b2850f9787410) | tt-a1i |
+| 2026-11-25 | [Merge pull request #1491 from tt-a1i/fix/pr-diagram-change-only-color](https://github.com/tt-a1i/archify/commit/c685b925779466fdc8500116c0360877b1754646) | tt-a1i |
 
 [See all commits ↗](https://github.com/tt-a1i/archify/commits)
 

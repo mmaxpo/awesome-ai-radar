@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 3.0k |
-| 🍴 **Forks** | 408 |
+| 🍴 **Forks** | 409 |
 | 🐞 **Open issues + PRs** | [82](https://github.com/Biohub/esm/issues) |
 | 💻 **Languages** | Jupyter Notebook 55% · Python 44% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (3d ago) |
+| 🕒 **Last activity** | 2026-11-20 (4d ago) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v3.5.0](https://github.com/Biohub/esm/releases/tag/v3.5.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
@@ -33,7 +33,7 @@
 ## 📦 Recent releases
 
 ### [v3.5.0](https://github.com/Biohub/esm/releases/tag/v3.5.0)
-<sub>2026-11-18 · 5d ago</sub>
+<sub>2026-11-18 · 6d ago</sub>
 
 > * Improvement of "fused" mode which is now 2X+ faster than baseline
 > * Introduced "fast" mode which is ~7X faster than baseline
@@ -41,13 +41,13 @@
 > * Various small fixes
 
 ### [v3.4.3](https://github.com/Biohub/esm/releases/tag/v3.4.3)
-<sub>2026-11-09 · 14d ago</sub>
+<sub>2026-11-09 · 15d ago</sub>
 
 > * bug fixes
 > * bump transformers version to >= 5.16
 
 ### [v3.4.2](https://github.com/Biohub/esm/releases/tag/v3.4.2)
-<sub>2026-10-30 · 25d ago</sub>
+<sub>2026-10-30 · 26d ago</sub>
 
 > - Added the Batch API (`ForgeBatchClient`) for folding, plus max-accuracy folding with ESMFold2 Pro (see `cookbook/snippets/batch.md` and `cookbook/snippets/fold_max_accuracy.md`)
 > - Released the 2025-cutoff ESMFold2 model

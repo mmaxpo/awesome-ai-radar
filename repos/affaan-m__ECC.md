@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 310.0k |
+| ⭐ **Stars** | 310.5k |
 | 🍴 **Forks** | 45.6k |
-| 🐞 **Open issues + PRs** | [207](https://github.com/affaan-m/ECC/issues) |
+| 🐞 **Open issues + PRs** | [217](https://github.com/affaan-m/ECC/issues) |
 | 💻 **Languages** | JavaScript 76% · Rust 11% · Python 11% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agents` `anthropic` `claude` `claude-code` `developer-tools` `llm` `mcp` `productivity` |
-| 🕒 **Last activity** | 2026-11-23 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (2d ago) |
 | 📅 **Created** | 2026-01-18 |
 | 📦 **Latest release** | [v2.2.3](https://github.com/affaan-m/ECC/releases/tag/v2.2.3) — 2026-10-01 |
 | 🌿 **Default branch** | `main` |
@@ -80,7 +80,7 @@
 > …
 
 ### [v2.1.0](https://github.com/affaan-m/ECC/releases/tag/v2.1.0) — ECC 2.1.0: Plan Canvas, Kimi Harness, and Self-Hosted Compute
-<sub>2026-07-27 · 3mo ago</sub>
+<sub>2026-07-27 · 4mo ago</sub>
 
 > **ECC 2.1.0: Plan Canvas, Kimi Harness, and Self-Hosted Compute**
 > ECC 2.1 turns plan review into a visual loop and opens the harness to self-hosted models. Plan Canvas lets you review agent plans in the browser. Point at the part you mean instead of retyping it in chat. A new Kimi Code install target and a verified Itô GPU path make ECC + open-source models a first-class setup, backed by our public sponsors: Moonshot AI (Kimi), Itô, and Atlas Cloud.

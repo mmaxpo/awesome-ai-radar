@@ -61,7 +61,7 @@
 >   - number-flow@0.6.2
 
 ### [number-flow@0.6.1](https://github.com/barvian/number-flow/releases/tag/number-flow%400.6.1)
-<sub>2026-06-27 · 4mo ago</sub>
+<sub>2026-06-27 · 5mo ago</sub>
 
 > **Patch Changes**
 > - Guard DOM globals in browser (see [#188](https://github.com/barvian/number-flow/issues/188)) ([`a73a383`](https://github.com/barvian/number-flow/commit/a73a38374191c73884a019fe9e6447920c81ab36))

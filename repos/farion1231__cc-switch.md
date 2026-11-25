@@ -20,23 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 156.9k |
-| 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [746](https://github.com/farion1231/cc-switch/issues) |
+| ⭐ **Stars** | 157.1k |
+| 🍴 **Forks** | 10.3k |
+| 🐞 **Open issues + PRs** | [757](https://github.com/farion1231/cc-switch/issues) |
 | 💻 **Languages** | Rust 63% · TypeScript 36% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-tools` `claude-code` `desktop-app` `open-source` `rust` `tauri` `codex` `mcp` `provider-management` `wsl-support` `opencode` `skills` `skills-management` `hermes` `grok` `grokbuild` `pi` `deepseek-harness` `kimi-code` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-08-04 |
-| 📦 **Latest release** | [v4.0.40](https://github.com/farion1231/cc-switch/releases/tag/v4.0.40) — 2026-11-23 |
+| 📦 **Latest release** | [v4.0.42](https://github.com/farion1231/cc-switch/releases/tag/v4.0.42) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 119.5 MB |
+| 💾 **Size** | 120.5 MB |
 | 🌐 **Website** | https://ccswitch.io |
 
 ## 📦 Recent releases
 
+### [v4.0.42](https://github.com/farion1231/cc-switch/releases/tag/v4.0.42) — CC Switch v4.0.42
+<sub>2026-11-25 · today</sub>
+
+> **CC Switch v4.0.42**
+> 本版本让 **GitHub Copilot** 供应商支持 Copilot 的 **Auto 自动选模型**：在 Claude、Codex 或 Claude Desktop 的模型列表里选「GitHub Copilot 自动选择」，每次对话由 Copilot 决定用哪个模型，Copilot Free 账号也能用。
+> 本版本还修复了 4.0.41 引入的问题：所有应用的供应商卡片都显示「agy 在用」，副标题也被换成 Antigravity 账号邮箱。另外，Antigravity 官方卡换号时，系统钥匙串第一次读回失败不会再把已经换好的账号绑定撤销。
+> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.42-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.42-ja.md)**
+> ---
+> **新增**
+> …
+
+### [v4.0.41](https://github.com/farion1231/cc-switch/releases/tag/v4.0.41) — CC Switch v4.0.41
+<sub>2026-11-25 · today</sub>
+
+> **CC Switch v4.0.41**
+> 本版本新增 **CodeBuddy** 支持（腾讯的 CLI 和桌面版共用一套配置）：可以管理自定义模型、MCP、Skills、提示词、会话和用量，在授权中心收集多个官方账号，查看套餐、积分和到期时间并随时切换。**Copilot CLI** 的供应商可以一键同步到 VS Code 的 Copilot 插件；**Grok 官方卡**显示订阅等级。
+> 本版本还让 Claude 原生转发复用上游连接，主窗口和托盘面板启动时加载的代码更少，后台请求和供应商连通性检查失败时会说明原因，并加固了数据库文件权限、备份文件名、CONNECT 代理和深链接的安全检查。另外修复了 Codex 路由到 Opus / Sonnet 5.5 时工具调用后报「requires adaptive thinking」；Gemini Native 工具调用历史较长时报 400；旧请求的故障转移结果覆盖手动选的路由；Antigravity 卡片绑定的账号和授权中心不同步；Codex 分叉会话的用量一直不入账；Pi 插件被当成 pnpm 处理；Windows 上 Hermes 显示两处安装；macOS 更新后 Dock 栏多出一个图标等问题。
+> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.41-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.41-ja.md)**
+> ---
+> **新增**
+> …
+
 ### [v4.0.40](https://github.com/farion1231/cc-switch/releases/tag/v4.0.40) — CC Switch v4.0.40
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **CC Switch v4.0.40**
 > 本版本让 **Grok Build 的官方卡可以绑定授权中心里的 xAI 账号**，像 Claude、Codex 官方卡一样在多个 Grok 账号之间切换。**插件页**支持 Antigravity CLI；**用量统计**的供应商和模型列表加了缓存命中率；**小米 MiMo** 内置余额和 Token Plan 额度查询；授权中心的账号卡片跟随侧栏应用的顺序和隐藏设置。
@@ -47,7 +69,7 @@
 > …
 
 ### [v4.0.39](https://github.com/farion1231/cc-switch/releases/tag/v4.0.39) — CC Switch v4.0.39
-<sub>2026-11-22 · 2d ago</sub>
+<sub>2026-11-22 · 3d ago</sub>
 
 > **CC Switch v4.0.39**
 > 本版本以修复为主。**API Key 输入框**加了复制按钮；**备份**可以设置总大小上限，超过时从最旧的开始删；Claude Code 经 Codex OAuth 使用 **GPT-6.2 Sol / Astra** 时，系统提示的缓存命中率大幅提高。
@@ -58,7 +80,7 @@
 > …
 
 ### [v4.0.38](https://github.com/farion1231/cc-switch/releases/tag/v4.0.38) — CC Switch v4.0.38
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > **CC Switch v4.0.38**
 > 本版本以修复为主。一键导入链接现在可以导入 **WorkBuddy** 供应商；Linux 上也能在授权中心切换 **Antigravity** 账号；Antigravity 的会话列表不再混进空会话和内部子会话，会话阅读器能看到思考、工具调用和结果。
@@ -68,42 +90,20 @@
 > **新增**
 > …
 
-### [v4.0.37](https://github.com/farion1231/cc-switch/releases/tag/v4.0.37) — CC Switch v4.0.37
-<sub>2026-11-20 · 4d ago</sub>
-
-> **CC Switch v4.0.37**
-> 本版本以修复为主。读不出来的供应商和 MCP 条目（比如由更新版本写入、经 WebDAV / S3 同步过来的）不再被当成空配置、下次保存时被默认值覆盖，而是单独列出来，可以删除；Pi 新增 **Mistral AI** 预设；韩语界面翻译整体改进。
-> 另外修复了本地路由监听地址填 IPv6 时启动不了；「应用到 Claude Code 插件」会把损坏的 `~/.claude/config.json` 整个清空；网速慢时大的技能仓库下载到一半被中断；从访达打开 CC Switch 时 Codex 模型目录探测找不到 Node；工具调用参数里 `_` 开头的字段被删掉后才发给上游；移出又加回故障转移队列的供应商仍被跳过；插件页点「重试」看起来没反应等问题。
-> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.37-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.37-ja.md)**
-> ---
-> **新增**
-> …
-
-### [v4.0.36](https://github.com/farion1231/cc-switch/releases/tag/v4.0.36) — CC Switch v4.0.36
-<sub>2026-11-19 · 5d ago</sub>
-
-> **CC Switch v4.0.36**
-> 本版本新增**插件**页面，可以在 CC Switch 里安装、启用、更新、卸载 Claude Code、Codex、Grok Build、MiniMax Code、OpenClaw、Pi 的插件，并管理 Claude Code、Codex、Grok Build 的插件市场。技能仓库现在可以用**访问令牌读取私有仓库**；经本地路由的供应商可以设置**费用倍率**；会话管理里能看到 Claude Code 桌面版的**章节**。
-> 另外修复了 Codex 开了官方额度保护后自动审批也被拦下；Codex 聚合模式下新发布的官方模型要很久才出现；OpenCode 升级到 2.x 后 1.x 会话的用量不再统计；用量页自定义日期一输入年份就变成 1905；Antigravity 多个模型显示未定价等问题。用量统计里价格相同的推理档位现在合并成一行。
-> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.36-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.36-ja.md)**
-> ---
-> **新增**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [feat(codebuddy): add CodeBuddy Code support with official account swi…](https://github.com/farion1231/cc-switch/commit/e6fd4accd257406bf9141baa402caaa78f975ba1) | Owlbay |
-| 2026-11-24 | [perf(frontend): lazy-load i18n locales and tray usage tab, pause hidd…](https://github.com/farion1231/cc-switch/commit/3b7a7ed9b07e87409203c3e6a1585bff239f7874) | ZhenWang-BIT |
-| 2026-11-24 | [perf(proxy): 复用 Claude 原生转发的上游连接 (#9914)](https://github.com/farion1231/cc-switch/commit/83a3161fc4c61ce91947c21bd45759aa59fc814d) | wlndysky |
-| 2026-11-24 | [perf(backend): avoid per-row allocations in usage medians and lazy-in…](https://github.com/farion1231/cc-switch/commit/aaf6ee963927ea0173e53ac00c1919840948ab22) | ZhenWang-BIT |
-| 2026-11-24 | [test(commands): prune redundant regression tests and consolidate tabl…](https://github.com/farion1231/cc-switch/commit/148ca40a7db9a1edf2fc57b22c4b9020827dbf42) | allenxu09 |
-| 2026-11-24 | [feat(grokbuild): show subscription tier and quota config on official …](https://github.com/farion1231/cc-switch/commit/3b8e5f3f277b125c9c52e69c7c5ec1eba69e9c35) | funkpopo |
-| 2026-11-24 | [fix(macos): keep pinned Dock icon after update restart (#9910)](https://github.com/farion1231/cc-switch/commit/0c3b5fdd8026e37e6f0809f79b417de784c33f9d) | allenxu09 |
-| 2026-11-23 | [fix(settings): avoid flashing the loading indicator when reopening se…](https://github.com/farion1231/cc-switch/commit/721ca8e08c5233f41e9a79cc367d581ac1ec4bcd) | fuyundev |
-| 2026-11-23 | [docs(release): add v4.0.40 release notes](https://github.com/farion1231/cc-switch/commit/f19a9d4f4f08bda03106a7be87c77cbcdf55b019) | farion1231 |
-| 2026-11-23 | [chore(release): v4.0.40](https://github.com/farion1231/cc-switch/commit/08f505b1d28bc2dbe091491030456bee678a4f76) | farion1231 |
+| 2026-11-25 | [docs(release): add v4.0.42 release notes](https://github.com/farion1231/cc-switch/commit/aa4a8c63365d1d3ed2eb27872a7da6a0709d0629) | farion1231 |
+| 2026-11-25 | [chore(release): v4.0.42](https://github.com/farion1231/cc-switch/commit/0b46557ed4bd18af245656468bcb78c4d60d9ae3) | farion1231 |
+| 2026-11-25 | [docs(manual): describe how Copilot Auto support is detected for Free …](https://github.com/farion1231/cc-switch/commit/65b3cf8cf2acd34045442942dffeec3db240f9d8) | farion1231 |
+| 2026-11-25 | [fix(copilot): let Free accounts use Auto routing](https://github.com/farion1231/cc-switch/commit/c18f4b0a966ae8d278ebcf7b6a31764486aac79d) | farion1231 |
+| 2026-11-25 | [fix(agy): retry sign-in verification after a keychain write (#9979)](https://github.com/farion1231/cc-switch/commit/112bf52cdb532b6ad43731b093c6b6b5f40795ba) | allenxu09 |
+| 2026-11-25 | [fix(agy): prevent cached Antigravity auth status from leaking onto ot…](https://github.com/farion1231/cc-switch/commit/99f4bae58531e72667cfd1ea9dd466933050cfac) | allenxu09 |
+| 2026-11-25 | [feat(copilot): support Fusion Auto model routing (#9564)](https://github.com/farion1231/cc-switch/commit/6da092fa22e3327835b1bd65bb8e551a0514670c) | Railgun-wiki |
+| 2026-11-25 | [docs(release): add v4.0.41 release notes](https://github.com/farion1231/cc-switch/commit/3c9f8b426733b3be269eaadec1da2754ecf9362e) | farion1231 |
+| 2026-11-25 | [chore(release): v4.0.41](https://github.com/farion1231/cc-switch/commit/ff26f1a4db40469ccfd37b696f1eb0987b8c268e) | farion1231 |
+| 2026-11-25 | [fix(proxy): keep adaptive thinking on Codex tool turns for Opus/Sonne…](https://github.com/farion1231/cc-switch/commit/46726137cf9371829ca02ad37bf21133a3ccbbb5) | farion1231 |
 
 [See all commits ↗](https://github.com/farion1231/cc-switch/commits)
 

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Kotlin 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `android` `jetpack-compose` `kotlin` `sample` |
-| 🕒 **Last activity** | 2026-11-22 (yesterday) |
+| 🕒 **Last activity** | 2026-11-22 (2d ago) |
 | 📅 **Created** | 2022-04-19 |
 | 📦 **Latest release** | [0.1.1](https://github.com/android/nowinandroid/releases/tag/0.1.1) — 2023-07-13 |
 | 🌿 **Default branch** | `main` |

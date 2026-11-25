@@ -26,22 +26,33 @@
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agent` `mcp` `agent-harness` `agent-collaboration` `skills` `loop-engineering` `proactive-agent` `super-agent` `personal-assistant` `task-management` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-05-21 |
 | 📦 **Latest release** | [v2.3.6](https://github.com/lobehub/lobehub/releases/tag/v2.3.6) — 2026-11-24 |
 | 🌿 **Default branch** | `canary` |
-| 💾 **Size** | 644.8 MB |
+| 💾 **Size** | 646.0 MB |
 | 🌐 **Website** | https://lobehub.com |
 
 ## 📦 Recent releases
 
+### [v0.0.0-nightly.pr23856.41755](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23856.41755) — PR Build v0.0.0-nightly.pr23856.41755 _(pre-release)_
+<sub>2026-11-25 · today</sub>
+
+> **PR Build Information**
+> **Version**: `0.0.0-nightly.pr23856.41755`
+> **Release Time**: `2026-11-25T11:27:20.280Z`
+> **PR**: [#23856](https://github.com/lobehub/lobehub/pull/23856)
+> **⚠️ Important Notice**
+> This is a **development build** specifically created for testing purposes. Please note:
+> …
+
 ### [v2.3.7-canary.1](https://github.com/lobehub/lobehub/releases/tag/v2.3.7-canary.1) — Desktop Canary v2.3.7-canary.1 _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > _No notes._
 
 ### [v2.3.6](https://github.com/lobehub/lobehub/releases/tag/v2.3.6) — 🚀 Release v2.3.6
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **Release v2.3.6**
 > From PR #23789: https://github.com/lobehub/lobehub/pull/23789
@@ -52,7 +63,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23789.41581](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23789.41581) — PR Build v0.0.0-nightly.pr23789.41581 _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23789.41581`
@@ -63,7 +74,7 @@
 > …
 
 ### [v0.0.0-nightly.pr23761.41577](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23761.41577) — PR Build v0.0.0-nightly.pr23761.41577 _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **PR Build Information**
 > **Version**: `0.0.0-nightly.pr23761.41577`
@@ -73,31 +84,20 @@
 > This is a **development build** specifically created for testing purposes. Please note:
 > …
 
-### [v0.0.0-nightly.pr23784.41564](https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23784.41564) — PR Build v0.0.0-nightly.pr23784.41564 _(pre-release)_
-<sub>2026-11-24 · today</sub>
-
-> **PR Build Information**
-> **Version**: `0.0.0-nightly.pr23784.41564`
-> **Release Time**: `2026-11-24T10:08:22.781Z`
-> **PR**: [#23784](https://github.com/lobehub/lobehub/pull/23784)
-> **⚠️ Important Notice**
-> This is a **development build** specifically created for testing purposes. Please note:
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [🐛 fix(antigravity): preserve streamed replies and surface quota hando…](https://github.com/lobehub/lobehub/commit/2abd2692a1ee733ee9252fd2126dd8b13ad5242c) | MarioJames |
-| 2026-11-24 | [🐛 fix(agent-runtime): expire runs parked on an unanswered card after …](https://github.com/lobehub/lobehub/commit/223609187242b5a0db754a57f50693f04c6609a0) | tjx666 |
-| 2026-11-24 | [💄 style(connect-agent): put Refresh beside the device select, drop th…](https://github.com/lobehub/lobehub/commit/a45026113ea7be90c4494fef3612ddd7a6d3fd56) | arvinxx |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/main' into canary](https://github.com/lobehub/lobehub/commit/89a4c2d35fb63cae16024a54ec71f1ec93832832) | lobehubbot |
-| 2026-11-24 | [🚀 release: 20261124 (#23789)](https://github.com/lobehub/lobehub/commit/061f4d9fa334d5555b06bd7d95a0ce6078e9153c) | tjx666 |
-| 2026-11-24 | [✨ feat(settings): split account and space settings with a switch card…](https://github.com/lobehub/lobehub/commit/a1fca3ef9402c36a9499ba54aaa47cd8b8eb278a) | rdmclin2 |
-| 2026-11-24 | [✨ feat(chat-input): hide the desktop Local Sandbox execution option (…](https://github.com/lobehub/lobehub/commit/33f9eb88f92d51df85e620f94cac5dcded9dde49) | rdmclin2 |
-| 2026-11-24 | [💄 style(channel): cap the conversation loading skeleton to its column…](https://github.com/lobehub/lobehub/commit/22aa85f764e99a9c3144ab2f9927bd45f25b4870) | tjx666 |
-| 2026-11-24 | [🔒 fix(hetero): device runs act as their caller within agent scopes, n…](https://github.com/lobehub/lobehub/commit/3bf7170d71c83b5bec9adc6b1579e694f189c2cf) | nekomeowww |
-| 2026-11-24 | [🔖 chore(release): release version v2.3.6](https://github.com/lobehub/lobehub/commit/be883e89cd59d07345931a9461543e6043f2a3c7) | lobe-tsukumo[bot] |
+| 2026-11-25 | [✅ test(utils): fix compressImage tests broken by the toBlob encode pa…](https://github.com/lobehub/lobehub/commit/58a93517c7001b9ce33f4d1343b88d29443257a4) | lobehub-coder |
+| 2026-11-25 | [✨ feat(channel): let Agents post cards outside their reply: webhook a…](https://github.com/lobehub/lobehub/commit/ef23d884229a6e30124ad2792b2673647b69c67a) | arvinxx |
+| 2026-11-25 | [💄 style(channel): show a card's submitted form as its fields, not the…](https://github.com/lobehub/lobehub/commit/bf714ffb9b49dc8b602ecac725c8afb8d644b149) | arvinxx |
+| 2026-11-25 | [🐛 fix(channel): keep one-delivery requests on the timeline instead of…](https://github.com/lobehub/lobehub/commit/f836e33c6cd1a6ddd7a3b1f2f914358bdc8a1b17) | arvinxx |
+| 2026-11-25 | [⚡️ perf(upload): fail stalled uploads, encode off the main thread, se…](https://github.com/lobehub/lobehub/commit/7b1f91c01527af3bbf79ed994abeaa12591c4e0d) | arvinxx |
+| 2026-11-25 | [♻️ refactor(channel): drop the automatic 👀/✅ marks on Agent requests …](https://github.com/lobehub/lobehub/commit/e9547267e9641970d58c44c06ca8d773024d6670) | arvinxx |
+| 2026-11-25 | [🐛 fix(conversation): keep the view pinned while a reply's card settle…](https://github.com/lobehub/lobehub/commit/a26e92a1dd332d1595112541131c77e694cfb0d3) | arvinxx |
+| 2026-11-25 | [✨ feat(project): align the project execution-environment picker and s…](https://github.com/lobehub/lobehub/commit/fdf168a2bd0fd2a3f08a123934f73b99828d623b) | rdmclin2 |
+| 2026-11-25 | [💄 style(subscription): add show all / show less copy for tier model l…](https://github.com/lobehub/lobehub/commit/b3c3ead547fcd02042eaa62c263c03b45340a9ea) | rdmclin2 |
+| 2026-11-25 | [🐛 fix(desktop): show page avatars in the recently viewed menu (#23856)](https://github.com/lobehub/lobehub/commit/bb4a8330fdc2ac49aca936d9bafaad39bc2c8b2f) | tjx666 |
 
 [See all commits ↗](https://github.com/lobehub/lobehub/commits)
 

@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.7k |
-| 🍴 **Forks** | 835 |
-| 🐞 **Open issues + PRs** | [580](https://github.com/NVIDIA/Model-Optimizer/issues) |
+| 🍴 **Forks** | 834 |
+| 🐞 **Open issues + PRs** | [593](https://github.com/NVIDIA/Model-Optimizer/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-04-23 |
 | 📦 **Latest release** | [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 219.0 MB |
+| 💾 **Size** | 222.3 MB |
 | 🌐 **Website** | https://nvidia.github.io/Model-Optimizer/ |
 
 ## 📦 Recent releases
 
 ### [0.49.0rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.49.0rc0) _(pre-release)_
-<sub>2026-11-16 · 7d ago</sub>
+<sub>2026-11-16 · 8d ago</sub>
 
 > Install this pre-release version using:
 > ```bash
@@ -44,18 +44,18 @@
 > ```
 
 ### [0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) — ModelOpt 0.47.1 Release
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > **Bug Fixes**
 > - Fix NVFP4 fake quantization (e.g. ``NVFP4_DEFAULT_CFG``) with Triton 3.9, as in the PyTorch 26.11 container, on GPUs with compute capability 8.9 or newer: it failed with ``NotImplementedError: Block pointers have been removed in favor of the tensor descriptor API``.
 
 ### [0.47.1rc0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1rc0) _(pre-release)_
-<sub>2026-11-05 · 19d ago</sub>
+<sub>2026-11-05 · 20d ago</sub>
 
 > -
 
 ### [0.48.0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0) — ModelOpt 0.48.0 Release
-<sub>2026-11-02 · 22d ago</sub>
+<sub>2026-11-02 · 23d ago</sub>
 
 > **New Features**
 > **Sparsity**
@@ -66,7 +66,7 @@
 > …
 
 ### [0.48.0rc2](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0rc2) _(pre-release)_
-<sub>2026-10-28 · 26d ago</sub>
+<sub>2026-10-28 · 27d ago</sub>
 
 > Install this pre-release version using:
 > ```
@@ -77,16 +77,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [[1/2] refactor(speculative): hand the DFlash-family loss one context …](https://github.com/NVIDIA/Model-Optimizer/commit/27a504479bc0a615fadade6e8a9759041d778f0b) | h-guo18 |
+| 2026-11-25 | [Fix save_pretrained for Hugging Face MoE models with quantized fused …](https://github.com/NVIDIA/Model-Optimizer/commit/a6d3d73ef357676138010bd1f2913e23f4680d48) | sychen52 |
+| 2026-11-24 | [skills: move the generic launcher guide to the common skill (#3500)](https://github.com/NVIDIA/Model-Optimizer/commit/d69d66eb989869402b1a605f9d6879c75f462cef) | Zhehao-Hu |
+| 2026-11-24 | [Keep the source checkpoint's layer_types in the exported config (#3558)](https://github.com/NVIDIA/Model-Optimizer/commit/8a79310a9630bfd245c7ea032f786948e4a51f6b) | Fridah-nv |
+| 2026-11-24 | [[OMNIML-6062] Dequantize block-FP8 weights that load in the model dty…](https://github.com/NVIDIA/Model-Optimizer/commit/16af4b9c54214e58fe6fac95a66c58c43c4bcea3) | shengliangxu |
+| 2026-11-24 | [[OMNIML-6624] Fix KV-cache growth during layerwise GPTQ calibration (…](https://github.com/NVIDIA/Model-Optimizer/commit/c6345c549af0358156f726bce7c0679969d7f17c) | meenchen |
+| 2026-11-24 | [fix(onnx): infer blocked DQ axis from weight layout (#3551)](https://github.com/NVIDIA/Model-Optimizer/commit/3ebeef8c0a7c6a755bb7b885f0445832c2a7512a) | joe-nv |
 | 2026-11-24 | [Fix EAGLE deployment tests with current TensorRT-LLM (#3553)](https://github.com/NVIDIA/Model-Optimizer/commit/0882957a41f07defc9fcca86eadf593cd92e5015) | yingguo-trt |
 | 2026-11-24 | [[OMNIML-6533] Find the models' PTQ modules through the import system …](https://github.com/NVIDIA/Model-Optimizer/commit/7db3ef5e4571c2e94938e1e330f87da2ab965ccd) | shengliangxu |
 | 2026-11-24 | [[OMNIML-6533] [2/2] Move the vLLM quantization plugins' named-model c…](https://github.com/NVIDIA/Model-Optimizer/commit/1e6408b830716ec738d07a4398deaba4448f9d36) | shengliangxu |
-| 2026-11-21 | [Add Kimi-K3.1-Pro NVFP4 recipe: recipe-driven per-module formats in t…](https://github.com/NVIDIA/Model-Optimizer/commit/3497c11ea16ff44109e8a2d581026cb1d5a7e828) | juhi10071998 |
-| 2026-11-20 | [Default GPTQ to the fused NVFP4 update (#2598)](https://github.com/NVIDIA/Model-Optimizer/commit/b735732ef59c632c1d788d32e1ac024f61850016) | namgyu-yun |
-| 2026-11-20 | [docs(review): check CHANGELOG entry is in the newest section (#3506)](https://github.com/NVIDIA/Model-Optimizer/commit/de3aa48ca716ff4b22d2236e1ee23dde072e32f1) | kevalmorabia97 |
-| 2026-11-20 | [fix(autocast): stream calibration batches instead of materializing al…](https://github.com/NVIDIA/Model-Optimizer/commit/06d7e538158ca064d13797b94806f21f8084c144) | SID-6921 |
-| 2026-11-20 | [[NVBug 7126379] Fix typos and missing words (#3501)](https://github.com/NVIDIA/Model-Optimizer/commit/9373b181766696ab5b90884c375f40b95e64911b) | noeyy-mino |
-| 2026-11-20 | [MTP Boosting foundation (#3277)](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | talorabr |
-| 2026-11-20 | [Fix quantized export state capture for FSDP2 weights (#3494)](https://github.com/NVIDIA/Model-Optimizer/commit/37da734816b7704e9dea5b81938f9ce21dd62bf6) | mxinO |
 
 [See all commits ↗](https://github.com/NVIDIA/Model-Optimizer/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.7k |
+| ⭐ **Stars** | 80.8k |
 | 🍴 **Forks** | 6.3k |
-| 🐞 **Open issues + PRs** | [365](https://github.com/headroomlabs-ai/headroom/issues) |
+| 🐞 **Open issues + PRs** | [334](https://github.com/headroomlabs-ai/headroom/issues) |
 | 💻 **Languages** | Python 81% · Rust 12% · JavaScript 3% · TypeScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `ai` `anthropic` `compression` `context-engineering` `context-window` `fastapi` `langchain` `llm` `mcp` `openai` `proxy` `python` `rag` `token-optimization` `claude-code` `cursor` `prompt-engineering` `tokens` `typescript` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-01-07 |
 | 📦 **Latest release** | [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 105.8 MB |
+| 💾 **Size** | 106.5 MB |
 | 🌐 **Website** | https://docs.headroomlabs.ai/docs |
 
 ## 📦 Recent releases
 
 ### [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — Release v0.45.0
-<sub>2026-11-22 · 2d ago</sub>
+<sub>2026-11-22 · 3d ago</sub>
 
 > **[0.45.0](https://github.com/headroomlabs-ai/headroom/compare/v0.44.0...v0.45.0) (2026-11-22)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) — Release v0.44.0
-<sub>2026-11-10 · 14d ago</sub>
+<sub>2026-11-10 · 15d ago</sub>
 
 > **[0.44.0](https://github.com/headroomlabs-ai/headroom/compare/v0.43.1...v0.44.0) (2026-11-09)**
 > **⚠ BREAKING CHANGES**
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.43.1](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.1) — Release v0.43.1
-<sub>2026-11-05 · 18d ago</sub>
+<sub>2026-11-05 · 19d ago</sub>
 
 > **[0.43.1](https://github.com/headroomlabs-ai/headroom/compare/v0.43.0...v0.43.1) (2026-11-05)**
 > **Bug Fixes**
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.0) — Release v0.43.0
-<sub>2026-11-05 · 18d ago</sub>
+<sub>2026-11-05 · 19d ago</sub>
 
 > **[0.43.0](https://github.com/headroomlabs-ai/headroom/compare/v0.42.0...v0.43.0) (2026-11-05)**
 > **⚠ BREAKING CHANGES**
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.42.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.42.0) — Release v0.42.0
-<sub>2026-10-26 · 28d ago</sub>
+<sub>2026-10-26 · 29d ago</sub>
 
 > **[0.42.0](https://github.com/headroomlabs-ai/headroom/compare/v0.41.0...v0.42.0) (2026-10-26)**
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [test(live): mark provider-calling tests so default pytest never hits …](https://github.com/headroomlabs-ai/headroom/commit/8614305b7913cec8449fae9e6fe88d2fa7b30286) | HetCreep |
-| 2026-11-24 | [fix(proxy): refuse 6to4 upstream addresses on every Python release (#…](https://github.com/headroomlabs-ai/headroom/commit/3c0fc1cede3af32808e00bf196bc9fe81784b8e3) | chopratejas |
-| 2026-11-24 | [fix(copilot): attach the operator's Copilot credential only over http…](https://github.com/headroomlabs-ai/headroom/commit/52ed66e21bb0ccdbaaec76a194e7cd92671c8b94) | HetCreep |
-| 2026-11-24 | [fix(deps): bump cookie to 0.18.3 for RUSTSEC-2026-0594 (#5015)](https://github.com/headroomlabs-ai/headroom/commit/0d629307b7fd7bb2c28b3f0323181730b32b843e) | chopratejas |
-| 2026-11-23 | [fix(deps): bump url to 2.5.9 for RUSTSEC-2026-0592 (#4998)](https://github.com/headroomlabs-ai/headroom/commit/c0591105f33bf6e99e0338728c5016121116826a) | chopratejas |
-| 2026-11-22 | [chore: release 0.45.0 (#4724)](https://github.com/headroomlabs-ai/headroom/commit/ce0460cfa8598dc939243dbc7aec4b2d35f4e44a) | headroom-release[bot] |
-| 2026-11-22 | [ci(security): verify the gitleaks download against its release checks…](https://github.com/headroomlabs-ai/headroom/commit/6608cf702ee040f8d71ebc778abba85bd327af6b) | chopratejas |
-| 2026-11-22 | [fix(ci): keep alert rule and location out of the public CodeQL triage…](https://github.com/headroomlabs-ai/headroom/commit/047aadde868d38e27b5d6bc2d99dd21362fa0d53) | chopratejas |
-| 2026-11-22 | [fix(proxy): keep settings.json mode and symlink in the cc-switch reco…](https://github.com/headroomlabs-ai/headroom/commit/3bae009c3fd9c2a730b98830e642ecb312878002) | chopratejas |
-| 2026-11-22 | [fix(plugins): keep the hook launcher's Python fallback off the projec…](https://github.com/headroomlabs-ai/headroom/commit/c5d8f133606ffadbf4be8731dc1fed77e471f64f) | chopratejas |
+| 2026-11-25 | [feat(release): define versioned policy contracts (#3637)](https://github.com/headroomlabs-ai/headroom/commit/234c233cc439aedba53b242f02f695de5f90c877) | JerrettDavis |
+| 2026-11-24 | [fix(savings): don't double-charge inferred cache writes in lifetime i…](https://github.com/headroomlabs-ai/headroom/commit/df4477f2753afc65528d2560429a62d33a730d26) | Totopo27 |
+| 2026-11-24 | [fix(proxy): log peer close codes for Responses WebSockets (#4978)](https://github.com/headroomlabs-ai/headroom/commit/c489b5f8fe57b42b17f810ef5e9e65ede298947c) | emme1t |
+| 2026-11-24 | [fix(code-compressor): don't blame the compressor or trip the breaker …](https://github.com/headroomlabs-ai/headroom/commit/d2d4e0e6f37ee06fb9609e4d663bc773e046dfa7) | KennethWKZ |
+| 2026-11-24 | [fix(content-router): treat unparseable JSON as nothing to minify afte…](https://github.com/headroomlabs-ai/headroom/commit/8eedfc686baf0bcb37d278ba62324ac8ad93ab30) | KennethWKZ |
+| 2026-11-24 | [fix(tool-search): treat Claude Code's ToolSearch as the resolver for …](https://github.com/headroomlabs-ai/headroom/commit/2c17627e03a67945b35d11eb2a5289276646d889) | KennethWKZ |
+| 2026-11-24 | [fix(proxy): bucket invalid model keys into "other" in requests_by_mod…](https://github.com/headroomlabs-ai/headroom/commit/ae9d45875b418eec51b8d8e024265b03ad710ead) | PCTEJA |
+| 2026-11-24 | [fix(proxy): skip a leading UTF-8 BOM when reconstructing closed SSE (…](https://github.com/headroomlabs-ai/headroom/commit/f21327105ae8843828b5733fb25f1179a0a3ca37) | Mystery01092000 |
+| 2026-11-24 | [deps: Bump the cargo-minor-patch group across 1 directory with 10 upd…](https://github.com/headroomlabs-ai/headroom/commit/8c206ddf53c89424a84ad5e308d87c9d769e6aef) | dependabot[bot] |
+| 2026-11-24 | [test(proxy): require no allow-origin header for rejected CORS origins…](https://github.com/headroomlabs-ai/headroom/commit/87b56ce1fb6de5fa1520ffb7d093b4de13498854) | chopratejas |
 
 [See all commits ↗](https://github.com/headroomlabs-ai/headroom/commits)
 

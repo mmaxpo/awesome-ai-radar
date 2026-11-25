@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 57.7k |
+| ⭐ **Stars** | 57.9k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [2.0k](https://github.com/multica-ai/multica/issues) |
+| 🐞 **Open issues + PRs** | [2.1k](https://github.com/multica-ai/multica/issues) |
 | 💻 **Languages** | Go 52% · TypeScript 40% · MDX 6% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-01-13 |
-| 📦 **Latest release** | [v0.12.1](https://github.com/multica-ai/multica/releases/tag/v0.12.1) — 2026-11-23 |
+| 📦 **Latest release** | [v0.13.0](https://github.com/multica-ai/multica/releases/tag/v0.13.0) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 246.0 MB |
+| 💾 **Size** | 251.0 MB |
 | 🌐 **Website** | https://multica.ai |
 
 ## 📦 Recent releases
 
+### [v0.13.0](https://github.com/multica-ai/multica/releases/tag/v0.13.0)
+<sub>2026-11-25 · today</sub>
+
+> **Changelog**
+> * d1e64c82c0ee4eadc39eae927751867a4867c4df MUL-10020 fix(dashboard): keep standalone runs out of the Squads leaderboard (#11359) (@forrestchang)
+> * fecda39bc4c3d356b69db6b88a1ebd34c9d84c84 MUL-10023 fix(issues): say what a published reply's run is still waiting on (#11533) (@multica-eve)
+> * 35b54a3742bb51bdf5ffa688655367ec98044862 MUL-10192 chore(changelog): v0.13.0 release notes (#11554) (@multica-eve)
+> * afc1e2c781467af76bcddcf070034b5dc6d2928c MUL-8860: add issue blockers and automatic dependency wakeups (#10279) (@Bohan-J)
+> * e663b326c011541207afcb853ebd1bc64957e280 MUL-8860: fix(issues): keep finished issues out of the Blocked filter, readable self-dependency error (#11395) (@Bohan-J)
+> …
+
 ### [v0.12.1](https://github.com/multica-ai/multica/releases/tag/v0.12.1)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Changelog**
 > * 665b4cd8e1e94388b1be6f2f685f945f153e7493 MUL-9924: Highlight actionable UI areas in Complete tutorial screenshots (#11306) (@forrestchang and @multica-agent)
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.12.0](https://github.com/multica-ai/multica/releases/tag/v0.12.0)
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Changelog**
 > * ec943222efba2e2c8acbdec284a9e72a3c98d982 MUL-9420: guest role scoped to shared projects (#10766) (@forrestchang)
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.11.1](https://github.com/multica-ai/multica/releases/tag/v0.11.1)
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **Changelog**
 > * 528cd82711f2f99eedd04e4d3a68c6c31b514659 MUL-8370 fix(docs): restrict doc and folder deletion to creators and admins (#10946) (@Bohan-J)
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.11.0](https://github.com/multica-ai/multica/releases/tag/v0.11.0)
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > **Changelog**
 > * 874897897fdd9ab8e26158521a0d14c1ffa2d452 MUL-7745 MUL-9463: fix(squads): run an @<!-- -->agent mention of the assigned squad's leader as a leader task (#8918) (@ADanMan)
@@ -79,31 +90,20 @@
 > * b70c8b96d0c638e73802336063abfe3734f69f65 MUL-9102: Support GitLab system hook merge request events (#10411) (@xiaoAriana)
 > …
 
-### [v0.10.0](https://github.com/multica-ai/multica/releases/tag/v0.10.0)
-<sub>2026-11-16 · 8d ago</sub>
-
-> **Changelog**
-> * 24ebdea7bed60633caaf6ef0b85dcd86e5d3bc16 MUL-6056: verify GitHub installation control before workspace binding (#10705) (@Bohan-J)
-> * c07c978407e4dd0b2b5081cf83478b49a20f707c MUL-6895, MUL-6586: fix(daemon,tasks): force a server-side re-check for woken runtimes to clear a stale empty-claim stall (#7824) (@ADanMan)
-> * 4c19b93e58b2e07959d3bdea5b2dd2142eb0d377 MUL-9191: remove MULTICA_THEME_STORE off switch; theme store is always on (#10552) (@Bohan-J)
-> * f7365ff8b86704e5cc2fe22c9b9873c28d753b3f MUL-9200: multica view create/update/duplicate/delete (#10555) (@forrestchang)
-> * 0a89348c8ee5a9da2be00c077fbd0b842b551053 MUL-9215: feat(inbox): list issues by whose turn it is, with snooze (#10573) (@forrestchang)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [fix(inbox): keep the hover card's actions inside the card (MUL-10092)…](https://github.com/multica-ai/multica/commit/b5e6204b00dd2a0896f73d1f458052910fc25c48) | forrestchang |
-| 2026-11-24 | [feat(apps): redesign the Apps page with independent scroll areas and …](https://github.com/multica-ai/multica/commit/9d7a40d3f44428e63c3688b65d476011ff001995) | forrestchang |
-| 2026-11-24 | [feat(projects): one Resources list with a single Add menu (MUL-10084)…](https://github.com/multica-ai/multica/commit/a2a7d8c7a66c3edef77fd238c910f20cf9c6d9fe) | forrestchang |
-| 2026-11-24 | [feat(inbox): MUL-10068 fold settled status into the bar's actions, ke…](https://github.com/multica-ai/multica/commit/d408c0ba8afc30dcd7417fdc5cbd9a160a09fb46) | forrestchang |
-| 2026-11-24 | [feat(inbox): deliver the report a squad finishes with when handoffs a…](https://github.com/multica-ai/multica/commit/33215cec572fd2a9859c702311dfb23b80bc8be5) | forrestchang |
-| 2026-11-24 | [fix(taskfailure): retry confirmed Trae response stream disconnects (#…](https://github.com/multica-ai/multica/commit/56aab1c8ee4fca0087b2959fa062fce26be45ff7) | Frezc |
-| 2026-11-24 | [perf(chat): cap session list last-message preview at 256 chars (MUL-8…](https://github.com/multica-ai/multica/commit/ca089ccdcfa23014ef0d82dddc670b7a6cc26365) | Bohan-J |
-| 2026-11-24 | [feat(agent): steer running Hermes turns in issues and Chat via ACP /s…](https://github.com/multica-ai/multica/commit/40cbc0df8257a9810353b1e7f141154c70b70576) | Bohan-J |
-| 2026-11-24 | [fix(squads): stop squad usage attribution leaking onto direct runs (M…](https://github.com/multica-ai/multica/commit/04716c696e41961f21cda03f69d23769333ba0b3) | Bohan-J |
-| 2026-11-24 | [feat(chat): change a wakeup's timing from the Wakeups panel (MUL-1002…](https://github.com/multica-ai/multica/commit/147b8ed873c3e6a1a25094a71353dad17224f895) | multica-eve |
+| 2026-11-25 | [feat(issues): keyboard cursor for the issue list, table and board (MU…](https://github.com/multica-ai/multica/commit/9a2d33658482afc9f7b37ead8035546181634d02) | forrestchang |
+| 2026-11-25 | [fix(ghsnapshot): sweep head-mismatched and checks-watched PRs for wak…](https://github.com/multica-ai/multica/commit/4b3be67ea5919892f847d5ca686a172228fa8f84) | forrestchang |
+| 2026-11-25 | [feat(shortcuts): issue verbs S/A/P/L/⇧D/⇧P/Q/R on the issue in front …](https://github.com/multica-ai/multica/commit/f9b3b4b18e5285390a33402e0c53917bf6d87b9d) | forrestchang |
+| 2026-11-25 | [fix(issues): keep the pinned comment composer still at the end of the…](https://github.com/multica-ai/multica/commit/73593862348f1344f4e2620c0b30bb7bd2af7a82) | forrestchang |
+| 2026-11-25 | [fix(issues): keep the outline card centered during its enter/exit ani…](https://github.com/multica-ai/multica/commit/b22efd52926c495e4f8e373456f9843ee9bdda13) | forrestchang |
+| 2026-11-25 | [fix(search): keep ⌘K selection on the top row as results land (MUL-10…](https://github.com/multica-ai/multica/commit/62ee7f498878140bc4795c7cbf3593daf8ffc993) | forrestchang |
+| 2026-11-25 | [feat(docs): unify doc comment card actions and selection (MUL-10209) …](https://github.com/multica-ai/multica/commit/12a7f95bd344cd118f7bf19ec4718dfc38ef376d) | forrestchang |
+| 2026-11-25 | [fix(docs): give doc titles the full row and add a right-click menu (M…](https://github.com/multica-ai/multica/commit/e33ae51e9c91cf868bac2ceaf036ec67e3f67546) | forrestchang |
+| 2026-11-25 | [MUL-10192 chore(changelog): v0.13.0 release notes (#11554)](https://github.com/multica-ai/multica/commit/35b54a3742bb51bdf5ffa688655367ec98044862) | multica-eve |
+| 2026-11-25 | [fix(issues): check blocker visibility on remove_blocked_by (MUL-10206…](https://github.com/multica-ai/multica/commit/fd9d635d2876c7eeb4768f9d365b9f11fdc0c6d4) | multica-eve |
 
 [See all commits ↗](https://github.com/multica-ai/multica/commits)
 

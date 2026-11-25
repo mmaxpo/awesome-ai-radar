@@ -20,26 +20,26 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.6k |
+| ⭐ **Stars** | 100.8k |
 | 🍴 **Forks** | 5.8k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
 | 💻 **Languages** | Dart 79% · Rust 18% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `flutter` `file-sharing` `dart` `flutter-apps` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-24 (yesterday) |
 | 📅 **Created** | 2022-12-16 |
 | 📦 **Latest release** | [v1.19.0](https://github.com/localsend/localsend/releases/tag/v1.19.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.9 MB |
+| 💾 **Size** | 23.8 MB |
 | 🌐 **Website** | https://localsend.org |
 
 ## 📦 Recent releases
 
 ### [v1.19.0](https://github.com/localsend/localsend/releases/tag/v1.19.0)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > This release also added the rpm package for the first time (e.g. for Fedora users).
-> Please note a breaking change in the CLI API when sending files.
+> Please note a breaking change in the CLI when sending files.
 > - feat: make sending checksums opt-in (@Tienisto)
 > - feat: format timestamps using system date and time settings (@ShlomoCode)
 > - feat: add keyboard shortcuts to accept or decline incoming transfers (@Tienisto)

@@ -26,16 +26,16 @@
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agentic-ai` `ai` `llms` `ravishing` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-05-21 |
 | 📦 **Latest release** | [v0.102.0](https://github.com/charmbracelet/crush/releases/tag/v0.102.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 39.4 MB |
+| 💾 **Size** | 39.7 MB |
 
 ## 📦 Recent releases
 
 ### [nightly](https://github.com/charmbracelet/crush/releases/tag/nightly) _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-25 · today</sub>
 
 > ---
 > <details>
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.102.0](https://github.com/charmbracelet/crush/releases/tag/v0.102.0)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **Channels, custom prompts and server hardening**
 > There's so much good stuff in this release and we're really proud of _all_ of it. Read on for more.
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.101.0](https://github.com/charmbracelet/crush/releases/tag/v0.101.0)
-<sub>2026-11-12 · 11d ago</sub>
+<sub>2026-11-12 · 12d ago</sub>
 
 > **Skill toggles, tool timers and a faster Hyper ⚡**
 > This release was brought to you by our team and our favorite contributors! Long awaited features ahead, read along!
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.100.0](https://github.com/charmbracelet/crush/releases/tag/v0.100.0)
-<sub>2026-11-05 · 18d ago</sub>
+<sub>2026-11-05 · 19d ago</sub>
 
 > **Subagents, Sysadmin Mode, and PGP/SSH Prompts**
 > This is a big one! Crush can now run a team of subagents, permissions are much more flexible, and you can now do GPG and SSH auth right inside Crush! Read on for more.
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.99.0](https://github.com/charmbracelet/crush/releases/tag/v0.99.0)
-<sub>2026-10-29 · 25d ago</sub>
+<sub>2026-10-29 · 26d ago</sub>
 
 > **Hooks, Catwalk v3!**
 > A big one! Crush now runs on Catwalk v3, hooks can see every part of a run, and editors that host Crush get a whole new set of tools to feel right at home.
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [chore(legal): @Luxe7 has signed the CLA](https://github.com/charmbracelet/crush/commit/cd645ef7d0f061ac0c2e893eecad0b37db139dc4) | charmcli |
-| 2026-11-24 | [fix(cmd): make --host connect to the server and read sessions there (…](https://github.com/charmbracelet/crush/commit/963ec056279666c5f6acedcdfdd43557dffbbfb1) | andrinoff |
-| 2026-11-24 | [fix(cmd): show the workspace creation error once instead of twice (#4…](https://github.com/charmbracelet/crush/commit/aba74b50c09d5487444a899cabeda44e16d1d90f) | andrinoff |
-| 2026-11-24 | [server: keep explicit servers and their workspaces alive (#4352)](https://github.com/charmbracelet/crush/commit/11cc53e9d0599bf4d475ef14a2202f3ff2b24ca7) | meowgorithm |
-| 2026-11-24 | [chore(legal): @xgbtxy has signed the CLA](https://github.com/charmbracelet/crush/commit/3260032a9abc8467bac6b75e6bde213c5086f03a) | charmcli |
-| 2026-11-23 | [ci(labeler): label on a schedule instead of pull_request_target](https://github.com/charmbracelet/crush/commit/603a22ae1eea6baa65d25b411195074bd72f6131) | taciturnaxolotl |
-| 2026-11-23 | [feat(ui): show bash and job output live while commands run (#4276)](https://github.com/charmbracelet/crush/commit/ee51fe87bb306a945bf9057edf94f5574b192fd2) | KunoDLK |
-| 2026-11-23 | [fix(run): print the whole answer in crush run (#4270)](https://github.com/charmbracelet/crush/commit/a787a05d887dcfea72a04fff3b9e3a4bd08c5000) | AnyCPU |
-| 2026-11-22 | [chore(legal): @manelsen has signed the CLA](https://github.com/charmbracelet/crush/commit/46ce1595be55a77feb5c0bb46e7f2cbed7022b79) | charmcli |
-| 2026-11-22 | [fix(config): make crushrc exports reach Crush and stop expanding valu…](https://github.com/charmbracelet/crush/commit/7fa693e9373197be757fad530ca9b24634789e99) | taciturnaxolotl |
+| 2026-11-25 | [docs: move the channels out of the README (#4421)](https://github.com/charmbracelet/crush/commit/535dad0ba50cd57e46a17907a76cb861081e1244) | andrinoff |
+| 2026-11-25 | [fix(server): stop a new window from getting other sessions' prompts (…](https://github.com/charmbracelet/crush/commit/6e54ac296b159b282433193d2dd21db51b0f2365) | andrinoff |
+| 2026-11-25 | [fix(server): title sessions started with a ! command in client/server…](https://github.com/charmbracelet/crush/commit/18bc386b4578a2002980d1e854fb7a512655b4f2) | andrinoff |
+| 2026-11-25 | [fix(cmd): resolve relative --host and --prompt paths before using --c…](https://github.com/charmbracelet/crush/commit/b9ffb038d96e8495744fc36be7297763147bf796) | andrinoff |
+| 2026-11-25 | [fix(server): keep a server started with crush server running for othe…](https://github.com/charmbracelet/crush/commit/04293685f90be381d456573817f9483ff9d88674) | andrinoff |
+| 2026-11-25 | [fix(ui): show ! commands run from another window on the same session …](https://github.com/charmbracelet/crush/commit/d9a3849810ca3c367848f04ca114a9d0bef27c88) | andrinoff |
+| 2026-11-25 | [fix(cmd): let crush session follow the client_server config option (#…](https://github.com/charmbracelet/crush/commit/47b41662f55591ab8d9c226447d384204f5cd447) | andrinoff |
+| 2026-11-25 | [fix(cmd): stop crush logout from starting a server in local mode (#4413)](https://github.com/charmbracelet/crush/commit/b21ff3f723153820f9e7bd87aaa6b2886576e2b2) | andrinoff |
+| 2026-11-25 | [fix(cmd): warn about the permission mode a project really runs in (#4…](https://github.com/charmbracelet/crush/commit/56a64e41bace4425d8989bf54d1962dd750eeed8) | andrinoff |
+| 2026-11-25 | [fix(server): keep a session's usage and summary when a client saves i…](https://github.com/charmbracelet/crush/commit/b63cdbdf7763b7a5aee9813f80c3d33f2d2b4ac7) | andrinoff |
 
 [See all commits ↗](https://github.com/charmbracelet/crush/commits)
 

@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [460](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [458](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2014-02-06 |
 | 📦 **Latest release** | [v3.3.1](https://github.com/dmlc/xgboost/releases/tag/v3.3.1) — 2026-09-15 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 38.2 MB |
+| 💾 **Size** | 38.3 MB |
 | 🌐 **Website** | https://xgboost.readthedocs.io/ |
 
 ## 📦 Recent releases
@@ -82,6 +82,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Register SYCL quantile objective kernels through kernel dispatch (#12…](https://github.com/dmlc/xgboost/commit/e338746156a274320c6b5f71039f62ea207d3625) | avolkov-intel |
+| 2026-11-25 | [Revert "Cap OpenMP loop threads at the loop size (#12792)" (#12852)](https://github.com/dmlc/xgboost/commit/f2ba9365c218b952a1c2925506fc69cb6efb8404) | nh13 |
+| 2026-11-24 | [Bump the github-actions group with 2 updates (#12890)](https://github.com/dmlc/xgboost/commit/8bb836c166d98876393cac8ead9d97f5bc3919e2) | dependabot[bot] |
 | 2026-11-19 | [[R] Warn about ignored arguments in `predict.xgboost` (#12616)](https://github.com/dmlc/xgboost/commit/e0e4564aea606e688b6db58d6a9235ac19748dcb) | Eliaaazzz |
 | 2026-11-19 | [Optimize import time. (#12877)](https://github.com/dmlc/xgboost/commit/9e36e1469f1874b49f8eb76b81d0580e0a5e1172) | trivialfis |
 | 2026-11-18 | [[cat] Use uint8 for backing storage of strings. (#12870)](https://github.com/dmlc/xgboost/commit/b5a8c8913d72ca6bf831ac7c6c5be30b61887e3b) | trivialfis |
@@ -89,9 +92,6 @@
 | 2026-11-17 | [Revert "Cap OpenMP threads at the block count in ParallelFor2d (#1280…](https://github.com/dmlc/xgboost/commit/5f1a7cff76753d26299d2a26aab5994c33a06822) | trivialfis |
 | 2026-11-17 | [Fix CUDA vector initialization after host shrink (#12840)](https://github.com/dmlc/xgboost/commit/f3b50aec9900dd13d71fd9e60cf1eb09f6c6dd45) | RAMitchell |
 | 2026-11-17 | [Bound the Poisson and Cox intercepts away from zero (#12864)](https://github.com/dmlc/xgboost/commit/07179cae3ae2049dc29677874b2a8823193522d3) | caxaxa |
-| 2026-11-17 | [[dask] Accept array-like feature weights in DaskDMatrix and the estim…](https://github.com/dmlc/xgboost/commit/aae18e572531e102c974292102692fdd8a0e6dc2) | caxaxa |
-| 2026-11-17 | [Walk each row once when predicting from a QuantileDMatrix with missin…](https://github.com/dmlc/xgboost/commit/c95da6d3392981eb48f1d1fb8a76c6c75dd54600) | sebastianbreguel |
-| 2026-11-17 | [Bound the Tweedie intercept away from zero (#12848)](https://github.com/dmlc/xgboost/commit/24eeb14c4cad5142b8bd5b36ecda656d76197f64) | caxaxa |
 
 [See all commits ↗](https://github.com/dmlc/xgboost/commits)
 

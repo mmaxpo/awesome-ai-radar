@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 12.0k |
-| 🍴 **Forks** | 288 |
-| 🐞 **Open issues + PRs** | [48](https://github.com/mrkai77/Loop/issues) |
+| 🍴 **Forks** | 289 |
+| 🐞 **Open issues + PRs** | [49](https://github.com/mrkai77/Loop/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `macos` `swift` `window-management` `swiftui` `radial-menu` `macos-app` `menu` `productivity` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-01-24 |
 | 📦 **Latest release** | [1.4.2](https://github.com/mrkai77/Loop/releases/tag/1.4.2) — 2026-01-26 |
 | 🌿 **Default branch** | `develop` |

@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 199.8k |
+| ⭐ **Stars** | 200.3k |
 | 🍴 **Forks** | 23.4k |
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/anthropics/skills/issues) |
 | 💻 **Languages** | Python 84% · JavaScript 8% · HTML 7% · Shell 1% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `agent-skills` |
-| 🕒 **Last activity** | 2026-11-16 (8d ago) |
+| 🕒 **Last activity** | 2026-11-16 (9d ago) |
 | 📅 **Created** | 2025-09-22 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

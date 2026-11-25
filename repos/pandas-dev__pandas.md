@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 91% · Cython 6% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `data-analysis` `pandas` `flexible` `alignment` `python` `data-science` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [CI: Add Python 3.15 CI jobs instead of python-dev; consolidate CI set…](https://github.com/pandas-dev/pandas/commit/a0885a1054bb9a91f10584944a613062cdebdc5c) | mroeschke |
+| 2026-11-24 | [BUG: convert_dtypes(dtype_backend="numpy_nullable") KeyError for unma…](https://github.com/pandas-dev/pandas/commit/b048c155d9aebfafabd11bee3dd8b6ba839d6a3e) | jbrockmendel |
+| 2026-11-24 | [PERF: avoid per-element group labels in nullable DataFrame axis=1 red…](https://github.com/pandas-dev/pandas/commit/6151915091dfeeb20542de7f31e21cf15782a580) | rhshadrach |
 | 2026-11-23 | [BUG: MultiIndex.sortlevel ignores values of out-of-order levels (GH#5…](https://github.com/pandas-dev/pandas/commit/8c7cd24e9e03ba800d1eafcf5da21c9f3ac2861d) | jbrockmendel |
 | 2026-11-23 | [PERF: wrap Arrow libjoin output directly in Index._from_join_target (…](https://github.com/pandas-dev/pandas/commit/9d8d3f4e970ae9351c4b8ed3bf1581c8e00d9f77) | fangchenli |
 | 2026-11-23 | [BUG: misplaced overlay of off-period time series on a period axis (GH…](https://github.com/pandas-dev/pandas/commit/d68ece3856df62c1f29fc2ea0b80a1f49ad6383a) | jbrockmendel |
@@ -101,9 +104,6 @@
 | 2026-11-23 | [BUG: CategoricalIndex.__contains__ wrong result with RangeIndex categ…](https://github.com/pandas-dev/pandas/commit/176746ab7693e3e4eb5ee53fbc0ddc47ebe09f00) | sainimal1ba-hue |
 | 2026-11-22 | [CI: Update pixi.lock (#72272)](https://github.com/pandas-dev/pandas/commit/717bcd3eda554a0b2e826889f9e30efbd88f00cd) | github-actions[bot] |
 | 2026-11-22 | [BUG: clear error for a scalar row after a list-like row (GH#29213) (#…](https://github.com/pandas-dev/pandas/commit/ef7d968a259a987dd9e5a6d03878f627d5fbf980) | jbrockmendel |
-| 2026-11-21 | [BUG: plotting into one shared axes hid tick labels on its siblings (G…](https://github.com/pandas-dev/pandas/commit/65e672976359106dcbed3fdce142f71b13ed5cb8) | jbrockmendel |
-| 2026-11-21 | [PERF: don't build the engine in Index.is_monotonic_* to check its typ…](https://github.com/pandas-dev/pandas/commit/c3e8e6fd853f56e3e448fdc46f8588d90e651356) | fangchenli |
-| 2026-11-21 | [BUG: raise clear error for to_csv binary mode without a path (GH#4440…](https://github.com/pandas-dev/pandas/commit/ba8e1eec3ed70cf62772178de34e16096817b24c) | jbrockmendel |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

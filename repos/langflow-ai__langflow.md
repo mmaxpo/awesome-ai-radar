@@ -26,17 +26,28 @@
 | 💻 **Languages** | Python 72% · TypeScript 21% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `react-flow` `chatgpt` `large-language-models` `generative-ai` `agents` `multiagent` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-02-08 |
-| 📦 **Latest release** | [v1.13.3](https://github.com/langflow-ai/langflow/releases/tag/v1.13.3) — 2026-11-17 |
+| 📦 **Latest release** | [v1.13.4](https://github.com/langflow-ai/langflow/releases/tag/v1.13.4) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1718.0 MB |
+| 💾 **Size** | 1718.3 MB |
 | 🌐 **Website** | http://www.langflow.org |
 
 ## 📦 Recent releases
 
+### [v1.13.4](https://github.com/langflow-ai/langflow/releases/tag/v1.13.4) — 1.13.4
+<sub>2026-11-24 · today</sub>
+
+> **What's Changed**
+> **🐛 Bug Fixes**
+> * fix: enforce component logging policy by @erichare in https://github.com/langflow-ai/langflow/pull/16476
+> * fix(mcp): require credentials for project file resources by @erichare in https://github.com/langflow-ai/langflow/pull/16477
+> * fix(mcp): require an active project owner by @erichare in https://github.com/langflow-ai/langflow/pull/16478
+> * fix(mcp): scope tool caches to Langflow sessions by @erichare in https://github.com/langflow-ai/langflow/pull/16500
+> …
+
 ### [v1.13.3](https://github.com/langflow-ai/langflow/releases/tag/v1.13.3) — 1.13.3
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.13.2](https://github.com/langflow-ai/langflow/releases/tag/v1.13.2) — 1.13.2
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.12.10](https://github.com/langflow-ai/langflow/releases/tag/v1.12.10) — 1.12.10
-<sub>2026-11-05 · 18d ago</sub>
+<sub>2026-11-05 · 19d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -67,7 +78,7 @@
 > **Full Changelog**: https://github.com/langflow-ai/langflow/compare/v1.12.9...v1.12.10
 
 ### [v1.13.1](https://github.com/langflow-ai/langflow/releases/tag/v1.13.1) — 1.13.1
-<sub>2026-11-04 · 20d ago</sub>
+<sub>2026-11-04 · 21d ago</sub>
 
 > **What's Changed**
 > **🐛 Bug Fixes**
@@ -77,29 +88,20 @@
 > * fix(security): protect MCP component reserved fields by @erichare in https://github.com/langflow-ai/langflow/pull/15974
 > …
 
-### [v1.12.9](https://github.com/langflow-ai/langflow/releases/tag/v1.12.9) — 1.12.9
-<sub>2026-11-04 · 20d ago</sub>
-
-> **What's Changed**
-> **🐛 Bug Fixes**
-> * fix: backport 1.13.1 fixes and image security updates to 1.12.9 by @erichare in https://github.com/langflow-ai/langflow/pull/16119
-> * fix: absorb lxml and Mako image workarounds for 1.12.9 by @erichare in https://github.com/langflow-ai/langflow/pull/16123
-> **Full Changelog**: https://github.com/langflow-ai/langflow/compare/v1.12.8...v1.12.9
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [chore: merge release-1.13.3 test fix into main](https://github.com/langflow-ai/langflow/commit/21381e5b2964fb4c714dc91fcd5187d4cfc2a67f) | erichare |
-| 2026-11-17 | [test: count backend release version overrides for both registries](https://github.com/langflow-ai/langflow/commit/55c4398326671f35c3a8d48a24e8243ab2b92f5b) | erichare |
-| 2026-11-17 | [chore: merge release-1.13.3 into main](https://github.com/langflow-ai/langflow/commit/7296958064e7dde5a0a71b0afce2d4510c6d5ada) | erichare |
-| 2026-11-16 | [fix: align backend Docker versions with release wheels (#16453)](https://github.com/langflow-ai/langflow/commit/a3ad2f298e0ed9a90fa0c8cce1fa77e85fb561b2) | erichare |
-| 2026-11-16 | [fix: read the Assistant's bundled component sources under S3 storage …](https://github.com/langflow-ai/langflow/commit/790621cc3376a85f7096be5ead1ef9b5da58db65) | david-streamlio |
-| 2026-11-16 | [fix(playground): accept flow uploads in the shareable playground (#16…](https://github.com/langflow-ai/langflow/commit/7fe3b80aa5287556c8217c0819ced995584f0a9b) | Cristhianzl |
-| 2026-11-16 | [test(google): tolerate timeout reconstruction across worker threads](https://github.com/langflow-ai/langflow/commit/ce99f0f9d94534b06e94144856bbf858cfe03886) | erichare |
-| 2026-11-16 | [test(google): tolerate timeout reconstruction across worker threads](https://github.com/langflow-ai/langflow/commit/86fde091f88a8b40507512d36ed78b5917dc165e) | erichare |
-| 2026-11-16 | [fix(deps): easy dependency upgrades for 1.13.3 (#16382)](https://github.com/langflow-ai/langflow/commit/d6fa70f18aaa1849cf89b1287d53f7a9e6cd878c) | Adam-Aghili |
-| 2026-11-16 | [fix(deps): patch release 1.13.3 security dependencies (#16449)](https://github.com/langflow-ai/langflow/commit/30d4e1a85d4b6b7991a2ba927c327712b0e3d171) | erichare |
+| 2026-11-24 | [chore: merge release-1.13.4 into main](https://github.com/langflow-ai/langflow/commit/6c9aea6f5d5f47a76a25e8e3e1b4779a4f83d522) | erichare |
+| 2026-11-23 | [fix: block unsafe object resolvers in generated components (#16572)](https://github.com/langflow-ai/langflow/commit/d4565c37b3935b3f779156c2f8ee9698a053475d) | erichare |
+| 2026-11-23 | [fix(deps): refresh security dependencies for 1.13.4 (#16569)](https://github.com/langflow-ai/langflow/commit/48f95e6e00c80c527390da91707eaf9cf277d0cc) | Adam-Aghili |
+| 2026-11-23 | [fix(mcp): require an explicit project authentication mode (#16567)](https://github.com/langflow-ai/langflow/commit/6ac05028a1d11c737dfe58d461aaea6157ab4c64) | erichare |
+| 2026-11-23 | [fix: apply credential destination policy to unified model providers (…](https://github.com/langflow-ai/langflow/commit/68d8f13a3d9540d84640931af52d697f468412d8) | erichare |
+| 2026-11-23 | [fix(flows): apply credential redaction to forks and replacement recei…](https://github.com/langflow-ai/langflow/commit/4a131cf3d6f7e5f2887320814336baa94b13ebb8) | erichare |
+| 2026-11-23 | [fix: apply the embedded database policy to SQLite imports (#16564)](https://github.com/langflow-ai/langflow/commit/98b6a644a30b1095d8b5edae89a3a143c7257dd8) | erichare |
+| 2026-11-23 | [fix(mcp): reserve Docker client environment settings by default (#16563)](https://github.com/langflow-ai/langflow/commit/e9627d0633d0b5e393845052100f282b1539d996) | erichare |
+| 2026-11-23 | [fix(lfx): preserve model responses when token usage is missing (#16560)](https://github.com/langflow-ai/langflow/commit/4d1f34711a88febb79705787980cddc12dcb662b) | erichare |
+| 2026-11-23 | [fix(jobs): stamp the finish time on every cancel path (1.13.4) (#16558)](https://github.com/langflow-ai/langflow/commit/914dc40bfae4e986d0b72f3b44d8faa5c425dc40) | ogabrielluiz |
 
 [See all commits ↗](https://github.com/langflow-ai/langflow/commits)
 

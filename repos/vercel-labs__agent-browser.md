@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 53.7k |
+| ⭐ **Stars** | 53.9k |
 | 🍴 **Forks** | 3.8k |
-| 🐞 **Open issues + PRs** | [556](https://github.com/vercel-labs/agent-browser/issues) |
-| 💻 **Languages** | Rust 92% · TypeScript 5% · JavaScript 2% |
+| 🐞 **Open issues + PRs** | [495](https://github.com/vercel-labs/agent-browser/issues) |
+| 💻 **Languages** | Rust 94% · TypeScript 4% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-01-11 |
 | 📦 **Latest release** | [v0.44.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.44.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 36.9 MB |
+| 💾 **Size** | 39.7 MB |
 | 🌐 **Website** | https://agent-browser.dev |
 
 ## 📦 Recent releases
 
 ### [v0.44.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.44.0)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **New Features**
 > - Added a **Ladybird provider**: `-p ladybird` drives Ladybird over WebDriver, headless by default or with `--headed`. Safari and Ladybird share one local driver launcher, and the WebDriver client now honors `Content-Length`, so it no longer hangs on drivers that keep the connection open. Snapshots and refs stay Chrome-only, as with Safari (#2721)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.43.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0)
-<sub>2026-11-12 · 11d ago</sub>
+<sub>2026-11-12 · 12d ago</sub>
 
 > **New Features**
 > - Added **snapshot hints** for controls whose accessible name is empty or shared with another ref in the same snapshot. The hint follows the ref and lists the control's icon, image file, `data-testid`, `name` or `id`, and the text of the nearest row or list item (#2578)
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.42.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.42.0)
-<sub>2026-11-10 · 14d ago</sub>
+<sub>2026-11-10 · 15d ago</sub>
 
 > **New Features**
 > - Added **saved flows** (experimental): record a browser task once, then replay its requests. A run tries direct HTTP first, then the same request from the page, then a replay of the recorded commands, and saves the tier that worked. Runs send requests only to public addresses, and saving waits for in-flight requests and follows redirects to the end (#2236, #2397, #2432, #2433, #2444)
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.41.2](https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.2)
-<sub>2026-11-03 · 20d ago</sub>
+<sub>2026-11-03 · 21d ago</sub>
 
 > **New Features**
 > - Added **targeted skill references** with `skills get <name> --ref <ref>` and the MCP `agent_browser_skills_get` tool's `refs` argument, so agents can load one reference or template at a time (#2310)
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.41.1](https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.1)
-<sub>2026-11-01 · 23d ago</sub>
+<sub>2026-11-01 · 24d ago</sub>
 
 > **Bug Fixes**
 > - Fixed **cookie attributes** so `cookies set` honors `--http-only` and `--same-site`, preserves the existing aliases, and rejects unknown arguments (#2256)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Prepare v0.44.0 (#2722)](https://github.com/vercel-labs/agent-browser/commit/0a923358ea989d7602f0d06507ad3447c62ffe9b) | lahfir |
-| 2026-11-23 | [fix(webmcp): show each tool's origin in announcements (#2720)](https://github.com/vercel-labs/agent-browser/commit/bf03eb13832d5817593df769203ed6c8b6f46b77) | Railly |
-| 2026-11-23 | [refactor(settings): carry the restore key, save policy and checks onl…](https://github.com/vercel-labs/agent-browser/commit/1ee56cd2b7ce17629b1cf6cd119847a3364493a0) | Railly |
-| 2026-11-23 | [feat(webdriver): add Ladybird provider (#2721)](https://github.com/vercel-labs/agent-browser/commit/dc987e0831b41417169647d0152101c7c363c328) | lahfir |
-| 2026-11-23 | [fix(interaction): refuse fill, type, check, uncheck and select on pre…](https://github.com/vercel-labs/agent-browser/commit/3a83e3cfb25ab0b93ab546aedb755e0d70b5c3a3) | Railly |
-| 2026-11-23 | [Version the OG image URL by card content (#2719)](https://github.com/vercel-labs/agent-browser/commit/e0d56f21bb81a7e72c6ea8550de00e091d2668ac) | ctate |
-| 2026-11-23 | [Use the Vercel Labs lockup in the docs header (#2717)](https://github.com/vercel-labs/agent-browser/commit/c091f702a731499070f32f2f3136c5bcb8b0e60f) | ctate |
-| 2026-11-23 | [Use the Vercel Labs OG card generator (#2718)](https://github.com/vercel-labs/agent-browser/commit/1af7c73eb04f33633e353d31b10eb29b53b84247) | ctate |
-| 2026-11-21 | [fix(ci): enable WebMCP on Chrome 157+, unblock paused iframes under -…](https://github.com/vercel-labs/agent-browser/commit/d2dfc782ccdd79d25a9b4f0acced9321789cecb8) | Railly |
-| 2026-11-21 | [feat(webmcp): announce page tools so agents use them (#2606)](https://github.com/vercel-labs/agent-browser/commit/1fde6b90e8f17474b2f122d4b4ce43a7fa0a6aa0) | Railly |
+| 2026-11-25 | [Prepare v0.45.0 (#2748)](https://github.com/vercel-labs/agent-browser/commit/f0a98351ec920bd826b22c98dacf8414f04b9832) | lahfir |
+| 2026-11-25 | [fix(iframe): resolve frames by selector and ref, and scope selectors,…](https://github.com/vercel-labs/agent-browser/commit/e20a97bde0eb187f6f572b529710705d3b9a490d) | Railly |
+| 2026-11-25 | [fix(dashboard): forward editing shortcuts and bridge copy, cut and pa…](https://github.com/vercel-labs/agent-browser/commit/7b20c4939a1cb9b7383ea118b0ae9b07f18c6743) | Railly |
+| 2026-11-25 | [fix(iframe): run eval in the selected frame and capture cross-origin …](https://github.com/vercel-labs/agent-browser/commit/58d313edb6a305e3235b8a9f38960f0ae6b9c779) | Railly |
+| 2026-11-25 | [fix(iframe): label iframes by name in snapshots and align iframe anno…](https://github.com/vercel-labs/agent-browser/commit/8a78afb37728ccc2963a060ca6080e85334d91d0) | Railly |
+| 2026-11-25 | [fix(state): collect storage without stalling, leaking focus, or hitti…](https://github.com/vercel-labs/agent-browser/commit/0536ca2a1b23e7a0ce16c81cfb623fc24122664e) | Railly |
+| 2026-11-25 | [fix(state): show state list dates and state show counts, and keep spe…](https://github.com/vercel-labs/agent-browser/commit/20d0eff8a50d62e6bd4efa3b133873422cbf6dc7) | Railly |
+| 2026-11-25 | [fix(dashboard): map live view pointer to the real frame, forward held…](https://github.com/vercel-labs/agent-browser/commit/7d6ff1bf3362c64dc6e34ac10aea81f3b32a35a7) | Railly |
+| 2026-11-24 | [fix(firefox): double-click, POST reload, cdp-url, and Windows test he…](https://github.com/vercel-labs/agent-browser/commit/5759f6bb2cdf3d8cf0670b0996a8793972a4628e) | lahfir |
+| 2026-11-24 | [feat(firefox): click with another button or held modifier keys (#2595)](https://github.com/vercel-labs/agent-browser/commit/06ea6d6a5299a0d815cb71e594590359d1ef0d59) | lahfir |
 
 [See all commits ↗](https://github.com/vercel-labs/agent-browser/commits)
 

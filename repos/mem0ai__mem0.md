@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 69.4k |
+| ⭐ **Stars** | 69.5k |
 | 🍴 **Forks** | 8.3k |
-| 🐞 **Open issues + PRs** | [987](https://github.com/mem0ai/mem0/issues) |
+| 🐞 **Open issues + PRs** | [996](https://github.com/mem0ai/mem0/issues) |
 | 💻 **Languages** | Python 58% · TypeScript 40% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `chatgpt` `llm` `python` `rag` `long-term-memory` `memory` `memory-management` `state-management` `ai-agents` `agents` `genai` `agentic-memory` `agentic-memory-system` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-06-20 |
 | 📦 **Latest release** | [ts-v3.3.1](https://github.com/mem0ai/mem0/releases/tag/ts-v3.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 68.3 MB |
+| 💾 **Size** | 68.6 MB |
 | 🌐 **Website** | https://mem0.ai |
 
 ## 📦 Recent releases
 
 ### [ts-v3.3.1](https://github.com/mem0ai/mem0/releases/tag/ts-v3.3.1) — Mem0 Node SDK (v3.3.1)
-<sub>2026-09-25 · 1mo ago</sub>
+<sub>2026-09-25 · 2mo ago</sub>
 
 > **Bug Fixes:**
 > - **Config (OSS):** `ConfigManager` no longer injects OpenAI's default `baseURL` and `model` into non-OpenAI LLM providers. The defaults now apply only to `openai` and `openai_structured`, so a DeepSeek, xAI, or other provider config without an explicit `baseURL` or `model` falls back to that provider's own defaults and env vars (`DEEPSEEK_API_BASE`, `XAI_API_BASE`, ...) instead of pointing at OpenAI with an OpenAI model name ([#7350](https://github.com/mem0ai/mem0/pull/7350))
@@ -45,7 +45,7 @@
 > - **Packaging:** `pg`, `@types/pg`, and `natural` are now optional peer dependencies, and `pg` / `@types/pg` accept caret ranges instead of the exact `8.11.3` / `8.11.0` pins, so installing `mem0ai` no longer pulls in `pg` or conflicts with an app's own `pg` version. The PGVector store now imports `pg` only when it is used, so install it alongside `mem0ai` (`npm install pg`) if you use that store. `@types/jest` moved from peer dependencies to dev dependencies ([#7450](https://github.com/mem0ai/mem0/pull/7450))
 
 ### [v2.2.1](https://github.com/mem0ai/mem0/releases/tag/v2.2.1) — Mem0 Python SDK (v2.2.1)
-<sub>2026-09-25 · 1mo ago</sub>
+<sub>2026-09-25 · 2mo ago</sub>
 
 > **Bug Fixes:**
 > - **Core:** `add()` (`Memory` and `AsyncMemory`) no longer reports records the vector store rejected as successful `ADD` events. Only records that were actually inserted are written to history, entity-linked, and returned. If none of the extracted memories could be inserted, `add()` now raises `VectorStoreError` instead of returning memories that were never stored ([#7066](https://github.com/mem0ai/mem0/pull/7066))
@@ -80,6 +80,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [fix(security): resolve 5 Vanta LOW Dependabot vulnerabilities (#8004)](https://github.com/mem0ai/mem0/commit/a330119bda245ad05bf1d5e6779fc588b5f19443) | harshgupta-mem0 |
 | 2026-11-24 | [Update README.md (#7996)](https://github.com/mem0ai/mem0/commit/8096993d69396bf97311249206915cadb2eb998f) | deshraj |
 | 2026-11-23 | [fix(security): resolve 22 Vanta HIGH/CRITICAL Dependabot alerts (mong…](https://github.com/mem0ai/mem0/commit/f93aba4b53241ccd9db32903cd19d1ff7f0066f0) | harshgupta-mem0 |
 | 2026-11-18 | [fix(llms): treat bare gpt-5-* and gpt-6* as reasoning models (#7939)](https://github.com/mem0ai/mem0/commit/fff8a6472512d1bc1a4bccab8c645b65a1df7fe5) | vinayb21-work |
@@ -89,7 +90,6 @@
 | 2026-10-30 | [fix(memory): never re-create a deleted memory when update races delet…](https://github.com/mem0ai/mem0/commit/753496cf1435d76c3a711f3af51303f7fdcb6420) | harsh-mem0 |
 | 2026-10-30 | [fix(ts): never re-create a deleted memory when update races delete (#…](https://github.com/mem0ai/mem0/commit/d2b8432b772a5923ab5ba145cf1ae2a9f8b1c3f2) | harsh-mem0 |
 | 2026-10-26 | [docs(platform): add the pricing FAQ page (#7711)](https://github.com/mem0ai/mem0/commit/26cdefb46600c0fa5953c4b5ee5003c125539fc4) | harsh-mem0 |
-| 2026-10-21 | [docs(platform): rewrite the BYOK page as a feature guide (#7661)](https://github.com/mem0ai/mem0/commit/2c81af3bbe27d9bccb09c772d583df9e9be72ee5) | harsh-mem0 |
 
 [See all commits ↗](https://github.com/mem0ai/mem0/commits)
 

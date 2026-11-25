@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1693.0 MB |
+| 💾 **Size** | 1692.3 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 26d ago</sub>
+<sub>2026-10-28 · 27d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [[Stable ABI] Add cpublas shims (#204470)](https://github.com/pytorch/pytorch/commit/304eed355e40bf1a1688ae94ede5ee6d0e16bdbe) | cleonard530 |
-| 2026-11-24 | [[inductor][cutlass] Gate the CUTLASS C++ backend on supported CUDA ar…](https://github.com/pytorch/pytorch/commit/40a3237bbf9de00e0496973f7bd17a223b9de31c) | crcrpar |
-| 2026-11-24 | [[CUDA] Skip garbage collection of cached blocks during graph capture …](https://github.com/pytorch/pytorch/commit/df5fb4949fa9d5656b79aab2839b3ddb467313c2) | kapilsh |
-| 2026-11-24 | [[CUDA] Keep cached segments during graph capture when an allocation f…](https://github.com/pytorch/pytorch/commit/06c79b1e5b4b6a8aa1a62f0b7d9f783c466896c2) | kapilsh |
-| 2026-11-24 | [`F.interpolate`: Add `inter-area` mode on CPU, matching opencv (#205844)](https://github.com/pytorch/pytorch/commit/f29b6d519223d9b95d601b3b08d9145bc34947c1) | NicolasHug |
-| 2026-11-24 | [[MPS] Fix silently wrong depthwise conv2d output for large filters (#…](https://github.com/pytorch/pytorch/commit/a4742da251b6429f96b5a016fdfc893cbb1deb0f) | Isalia20 |
-| 2026-11-24 | [Add WaitCounter instrumentation to CUDA availability checks (#206319)…](https://github.com/pytorch/pytorch/commit/f8be190f31bb148e90804c964a48ac3ccbc4e8a8) | dsesh |
-| 2026-11-24 | [[MPS] Add _scaled_grouped_mm_v2 (#206066)](https://github.com/pytorch/pytorch/commit/1d28e3a704d1d634d240e8fe0566c0c6df975458) | malfet |
-| 2026-11-24 | [[pytorch][typing] Declare pci_bus_id, pci_device_id and pci_domain_id…](https://github.com/pytorch/pytorch/commit/4db54c7ee2e3a048a97ec16fac5a41013578663c) | lovetoburnswhen |
-| 2026-11-24 | [[profiler][cuspy] Use native CUDA event graph node IDs (#206322)](https://github.com/pytorch/pytorch/commit/c9fdc83eb4d3f53c3a3f2356cd8885c111e653ad) | ngimel |
+| 2026-11-25 | [[ROCm]: Add Group Gemm Backend Selection Heuristic (#204242)](https://github.com/pytorch/pytorch/commit/be6edbd6b5c55cff0d852aa5e79d4dab4f450e5c) | TheRealMichaelWang |
+| 2026-11-25 | [Document single-element tuple support in avg_pool3d docs (#206165)](https://github.com/pytorch/pytorch/commit/8e13fcc45bbca5421c7ab3f49068a5cad7d8110e) | rashedrana |
+| 2026-11-25 | [Cross-reference the logistic sigmoid APIs in the PyTorch docs (#206287)](https://github.com/pytorch/pytorch/commit/bc8841896ea1493fb5b74caa786f9abc6b3e02b0) | chamione |
+| 2026-11-25 | [[mkldnn][17/N] Port ideep's primitive cache and attr_t into ATen (#20…](https://github.com/pytorch/pytorch/commit/efd2c8f556dcd09b75104888aec9d5ca2cae9b10) | frost-intel |
+| 2026-11-25 | [[mkldnn][16/N] Port ideep matmul (fp32 and quantized) into ATen (#205…](https://github.com/pytorch/pytorch/commit/872d189fe989d7b2479a861c3fc56937ab7922a9) | frost-intel |
+| 2026-11-25 | [[mkldnn][15/N] Port ideep quantized transposed convolution into ATen …](https://github.com/pytorch/pytorch/commit/cfebc8d7e3e369fdd55f85dda536c8c1372b83a9) | frost-intel |
+| 2026-11-25 | [[mkldnn][14/N] Port ideep transposed convolution into ATen (#205974)](https://github.com/pytorch/pytorch/commit/166b1f35ff221d2dbdd6dc500a25a2158e285181) | frost-intel |
+| 2026-11-25 | [[mkldnn][13/N] Port ideep quantized convolution into ATen (#205973)](https://github.com/pytorch/pytorch/commit/ea5587c4e634d0ff9f5ea54e328f82b2745e9d81) | frost-intel |
+| 2026-11-25 | [[mkldnn][12/N] Port ideep convolution compute_v2 into ATen (#205972)](https://github.com/pytorch/pytorch/commit/436f47e152bad7e279352262c04e9561f7dbdc66) | frost-intel |
+| 2026-11-25 | [added lowering for adaptive_avg_pool2d_backward (#201075)](https://github.com/pytorch/pytorch/commit/2acfb36e361a8140e7d57224da94266664e681be) | morrison-turnansky |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

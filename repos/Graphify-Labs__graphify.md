@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 152.8k |
+| ⭐ **Stars** | 153.2k |
 | 🍴 **Forks** | 14.7k |
 | 🐞 **Open issues + PRs** | [1.7k](https://github.com/Graphify-Labs/graphify/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `claude-code` `graphrag` `knowledge-graph` `codex` `openclaw` `skills` `antigravity` `gemini` `leiden` `rag` `tree-sitter` `ai-agents` `ast` `code-analysis` `code-search` `cursor` `developer-tools` `llm` `mcp` `graphify` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-04-03 |
-| 📦 **Latest release** | [v0.9.119](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.119) — 2026-11-24 |
+| 📦 **Latest release** | [v0.9.120](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.120) — 2026-11-25 |
 | 🌿 **Default branch** | `v8` |
-| 💾 **Size** | 36.0 MB |
+| 💾 **Size** | 36.1 MB |
 | 🌐 **Website** | graphify.com |
 
 ## 📦 Recent releases
 
+### [v0.9.120](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.120)
+<sub>2026-11-25 · today</sub>
+
+> A batch of resolution, serve, export, clustering and performance fixes across nine community pull requests. The Python function-local-import change alters node/edge output, so the AST cache schema bumps (55 to 56) and Python re-extracts on the first build after upgrading; the other fixes need no rebuild.
+> - Feat: **serve** a new `affected` MCP tool reports the reverse-dependency blast radius of a symbol (what breaks if you change it), and `query_graph` gains an optional `seeds` argument to start a traversal from known nodes; both resolve a node by name, file path, or id the same way the CLI does (#5254, thanks @ArnabOPP; proposed by @ramarro123).
+> - Perf: **query** per-node search fields, degrees and the hub threshold, an integer-indexed adjacency for BFS/DFS, and rendered NODE lines are each computed once per loaded graph and reused by every later query, and document frequency is taken through the trigram index; query output is byte-identical (#5476, thanks @nothariharan).
+> - Fix: **python** a bare call inside a function whose name is bound by a function-local import (`from m import x`, `import x`) no longer binds to an unrelated same-named module-level definition in the same file; the import shadows the twin within that function only (#5427, thanks @ayushcodes10).
+> - Fix: **python** a function-local import no longer leaks its binding into a sibling function at the same scope, so a same-named call elsewhere in the file resolves to its own target rather than the imported one (#5436, thanks @ayushcodes10).
+> - Fix: **watch** the watcher test helper replaces the clock in `watch.py` only, instead of patching the process-wide `time.sleep`, which had broken the subprocess waits a rebuild performs and made the watch tests flaky under the parallel suite (#5444, thanks @Deepjyoti-Sarmah).
+> …
+
 ### [v0.9.119](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.119)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > A fix for a core-install regression in 0.9.118, plus a batch of resolution, extractor, export and performance fixes across ten community pull requests. The Python, Go and COBOL changes alter node/edge output, so the AST cache schema bumps (53 to 55) and those languages re-extract on the first build after upgrading; the other fixes need no rebuild.
 > - Fix: **serve** graph commands (`query`, `path`, `explain`, `affected`, `benchmark`) run again on a core install without the `[mcp]` extra. 0.9.118 imported `anyio` (an mcp-extra-only dependency) at the top of `graphify/serve.py`, so loading it raised `ModuleNotFoundError` for those commands; the import is moved back inside the MCP server path where `anyio` is always present (#5320, thanks @Deepjyoti-Sarmah).
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.9.118](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.118)
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > A batch of extractor, resolution, serve, export, clustering and reporting fixes across fourteen community pull requests. The Objective-C, C and C# changes alter node/edge output, so the AST cache schema bumps (51 to 53) and the first build after upgrading re-extracts the affected languages; the other fixes need no rebuild.
 > - Fix: **csharp** a local, parameter or field named `partial`, `required`, `async`, `nint`, `nuint` or `with` (contextual keywords) that tree-sitter-c-sharp mis-parses where a statement starts with it no longer derails the file; it is rewritten to its verbatim `@name` form before parsing (byte-length preserving), so the enclosing type and the members after it are kept instead of being silently dropped (#5043, thanks @ThatAblaze).
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.9.115](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.115)
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > Security fix for a forced-SMB-authentication issue on Windows (GHSA-g6c9-j4vm-mwq4), plus a batch of extractor, resolution and incremental-update fixes. The extractor fixes that change output share one AST cache schema bump (50 → 51), so the first build after upgrading re-extracts the affected languages.
 > **Security**
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.9.114](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.114) — graphify 0.9.114
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > Performance work on the extract/build/update pipeline, plus a batch of extractor and build fixes. Every entry marked Perf preserves graph output exactly (byte-identical); the extractor fixes change output and share one AST cache schema bump (see the note at the end).
 > - Perf: **ids** `normalize_id` gets an ASCII fast-path, pre-compiled regexes and an LRU cache, so the common (ASCII, repeated) identifier case skips the Unicode normalization loop. ~1.26x on the compute path and a large win on repeated ids, which recurs heavily across a corpus.
@@ -79,31 +90,20 @@
 > - Perf: **watch** the no-change topology comparison uses an order-independent content hash computed in one pass instead of sorting and re-serializing the whole graph; ~1.4x on that compare.
 > …
 
-### [v0.9.113](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.113) — graphify 0.9.113
-<sub>2026-11-19 · 4d ago</sub>
-
-> - Change: **packaging** the minimum Python is now 3.11.5 (was 3.11), and soupsieve is pinned to 4.1.1 for every interpreter. soupsieve's patched releases require 3.11.5, so raising the floor clears the open soupsieve advisories (ReDoS and recursion/polynomial-DoS in the CSS selector parser, reached transitively through beautifulsoup4 in the optional `svg`/`all`/`pdf` extras). Installs on Python 3.11.0-3.11.4 keep resolving to 0.9.112; everyone on 3.11.5 and up is unaffected (#5301, thanks @TPAteeq).
-> - Fix: **ruby** methods of one class or module whose names differ only by a leading/trailing `_` or by case (`_read_attribute`/`read_attribute`, `_where!`/`where!`), including those in a `class << self`, get distinct node ids instead of one swallowing the other (#5292, thanks @rohit-jsfreaky).
-> - Fix: **lua** table-field functions whose names differ only by a leading/trailing `_` (`M._load`/`M.load`, `Runner:_start`/`Runner:start`) get distinct node ids; `M.f`/`M:f` still name one field (#5294, thanks @rohit-jsfreaky).
-> - Fix: **scala** members whose names differ only by a leading `_`, a `_=` setter suffix, or case (`_enter`/`enter`, `size`/`size_=`, `forEach`/`foreach`), including across a class and its companion object, get distinct node ids (#5296, thanks @rohit-jsfreaky).
-> - Fix: **elixir** defs whose names differ only by a leading/trailing `_`, a `!`/`?` suffix, or case (`_name`/`name`, `get`/`get!`, `__schema__`/`schema`) get distinct node ids, so a `get!` call no longer lands on `get` (#5298, thanks @rohit-jsfreaky).
-> - Fix: **rust** a prelude trait's type argument (`Celsius` in `impl From<Celsius>` or a `T: Into<Celsius>` bound) is read as a generic-argument reference instead of being mistaken for the trait itself, so it no longer emits a wrong `implements`/`inherits` edge (#5332, thanks @azeemshaik025).
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [docs(changelog): ship both dev trains as one 0.9.119 release](https://github.com/Graphify-Labs/graphify/commit/ba33a181f88b6ff675699decf4878566af851ab3) | safishamsi |
-| 2026-11-24 | [test: mark the watchdog-driven watch-override test serial](https://github.com/Graphify-Labs/graphify/commit/42362dc8cfb8ed2e80836ae95aaee26748e735cf) | safishamsi |
-| 2026-11-24 | [chore(release): schema 55, 0.9.120 changelog for the #5441..#5419 batch](https://github.com/Graphify-Labs/graphify/commit/53e64af8d0a8328fa099aef08e86b1ffef2b5ace) | safishamsi |
-| 2026-11-24 | [test(5418): pin Python parameter call shadowing](https://github.com/Graphify-Labs/graphify/commit/492aa9265cda4add05a4553822e093fd331f6724) | Deepjyoti-Sarmah |
-| 2026-11-24 | [fix(5418): respect parameters in the import-guided call pass](https://github.com/Graphify-Labs/graphify/commit/06e2364004d98943fb6f711a7830d4600838bc9e) | Deepjyoti-Sarmah |
-| 2026-11-24 | [fix(5418): do not link a call made through a Python parameter](https://github.com/Graphify-Labs/graphify/commit/d760ad3994d8744783e78af839a156d465f13557) | Deepjyoti-Sarmah |
-| 2026-11-24 | [refactor(5418): move _python_param_names into python_scope](https://github.com/Graphify-Labs/graphify/commit/a17fd50f1c66445cd7460ba53194d5843213a3dc) | Deepjyoti-Sarmah |
-| 2026-11-24 | [fix(go): fold sibling-file type copies per directory when a same-name…](https://github.com/Graphify-Labs/graphify/commit/a13d7ac194846d4a8dc8182d1edf51a4a3e5510a) | PravalVerma |
-| 2026-11-24 | [perf(build): optimize file label disambiguation from O(M^2 * D) to O(…](https://github.com/Graphify-Labs/graphify/commit/0d4730f6a0893dd02f0bb4dce46ed410bbc2a834) | Gaurav-meena95 |
-| 2026-11-24 | [fix(affected): replace O(/E/) full-graph scans with incident edge tra…](https://github.com/Graphify-Labs/graphify/commit/4b7306d80760c27c4b09938a943708b94ba6ccf5) | Gaurav-meena95 |
+| 2026-11-25 | [docs(changelog): correct 0.9.120 PR count (eight -> nine)](https://github.com/Graphify-Labs/graphify/commit/02c27dc246cd7bc359d0f4acaf53a3fce595bc1e) | safishamsi |
+| 2026-11-25 | [chore(release): 0.9.120 — schema 56, eight community PRs](https://github.com/Graphify-Labs/graphify/commit/16127eb30892f997d758efdd894e5e04264edbbb) | safishamsi |
+| 2026-11-25 | [perf(serve): compute document frequency through the trigram index](https://github.com/Graphify-Labs/graphify/commit/626dd601c15d67de7991d1a4c893bea4c0ae3268) | nothariharan |
+| 2026-11-25 | [fix(serve): drop structure caches inherited by the traversal view](https://github.com/Graphify-Labs/graphify/commit/7df2eeed453bbc500481533d8255e01faa45a849) | nothariharan |
+| 2026-11-25 | [perf(serve): render NODE lines once and skip unreachable EDGE lines](https://github.com/Graphify-Labs/graphify/commit/98cabf2809d9b0a46e64a264136873b82be7ebf3) | nothariharan |
+| 2026-11-25 | [perf(serve): walk BFS/DFS on integer-indexed adjacency](https://github.com/Graphify-Labs/graphify/commit/99e14849e21c4c35056af133b20a99646cd17f76) | nothariharan |
+| 2026-11-25 | [perf(serve): cache degrees and the hub threshold per graph](https://github.com/Graphify-Labs/graphify/commit/0a09c8670094592b0683fffb022f5557ce4c7c67) | nothariharan |
+| 2026-11-25 | [perf(serve): precompute per-node query fields once per graph](https://github.com/Graphify-Labs/graphify/commit/8624fb7a8189b1857927f2a430f3a7be78638594) | nothariharan |
+| 2026-11-25 | [fix(python): stop a function local import leaking into a sibling call](https://github.com/Graphify-Labs/graphify/commit/640a7abd25a1874bc8368532e3ba318660f2cdd8) | ayushcodes10 |
+| 2026-11-25 | [fix(python): stop a function local import call binding to a same file…](https://github.com/Graphify-Labs/graphify/commit/db57319819982cd39b96d51d5d02bd4d871775bc) | ayushcodes10 |
 
 [See all commits ↗](https://github.com/Graphify-Labs/graphify/commits)
 

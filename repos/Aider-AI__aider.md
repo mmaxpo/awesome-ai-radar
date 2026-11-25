@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 50.2k |
+| ⭐ **Stars** | 50.3k |
 | 🍴 **Forks** | 5.2k |
 | 🐞 **Open issues + PRs** | [2.0k](https://github.com/Aider-AI/aider/issues) |
 | 💻 **Languages** | Python 80% · CSS 4% · Shell 4% · Tree-sitter Query 4% · JavaScript 4% |

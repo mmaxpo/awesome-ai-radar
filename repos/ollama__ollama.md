@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 188.0k |
+| ⭐ **Stars** | 188.1k |
 | 🍴 **Forks** | 19.2k |
-| 🐞 **Open issues + PRs** | [4.7k](https://github.com/ollama/ollama/issues) |
+| 🐞 **Open issues + PRs** | [4.8k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 75% · C 17% · TypeScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `llm` `llms` `go` `golang` `ollama` `mistral` `gemma` `deepseek` `qwen` `gpt-oss` `glm` `minimax` `muse` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.40.18](https://github.com/ollama/ollama/releases/tag/v0.40.18)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **What's Changed**
 > * mlx: fuse Inkling residual mixing on Metal by @dhiltgen in https://github.com/ollama/ollama/pull/19808
@@ -46,7 +46,7 @@
 > **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.17...v0.40.18-rc0
 
 ### [v0.40.17](https://github.com/ollama/ollama/releases/tag/v0.40.17)
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **Inkling 2 Mini**
 > [Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) from Thinking Machines is a 26B parameter model with 5.4B active.
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16)
-<sub>2026-11-09 · 14d ago</sub>
+<sub>2026-11-09 · 15d ago</sub>
 
 > **Ripple Preview**
 > [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15)
-<sub>2026-11-03 · 20d ago</sub>
+<sub>2026-11-03 · 21d ago</sub>
 
 > **MiMo V2.6**
 > Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14)
-<sub>2026-11-03 · 21d ago</sub>
+<sub>2026-11-03 · 22d ago</sub>
 
 > **What's Changed**
 > * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap

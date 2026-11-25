@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 15.8k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [489](https://github.com/Unstructured-IO/unstructured/issues) |
+| 🐞 **Open issues + PRs** | [490](https://github.com/Unstructured-IO/unstructured/issues) |
 | 💻 **Languages** | HTML 87% · Python 12% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `document-parsing` `machine-learning` `nlp` `ocr` `information-retrieval` `data-pipelines` `ml` `preprocessing` `pdf-to-text` `natural-language-processing` `pdf` `pdf-to-json` `document-image-analysis` `donut` `document-image-processing` `document-parser` `docx` `langchain` `llm` |
-| 🕒 **Last activity** | 2026-11-19 (4d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2022-09-26 |
-| 📦 **Latest release** | [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37) — 2026-11-06 |
+| 📦 **Latest release** | [0.27.38](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.38) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 236.4 MB |
 | 🌐 **Website** | https://www.unstructured.io/ |
 
 ## 📦 Recent releases
 
+### [0.27.38](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.38)
+<sub>2026-11-24 · today</sub>
+
+> **What's Changed**
+> **Enhancements**
+> * perf: render the PDF once in hi_res instead of once per pipeline stage by @CyMule in https://github.com/Unstructured-IO/unstructured/pull/4530
+> **Fixes**
+> * fix: produce no elements for an empty CSV or TSV file by @Bensonluo in https://github.com/Unstructured-IO/unstructured/pull/4707
+> * fix(metrics): separate threshold precision from the AP envelope by @Afloat16 in https://github.com/Unstructured-IO/unstructured/pull/4703
+> …
+
 ### [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37)
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > **What's Changed**
 > **Fixes**
@@ -47,7 +58,7 @@
 > …
 
 ### [0.27.36](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.36)
-<sub>2026-10-30 · 25d ago</sub>
+<sub>2026-10-30 · 26d ago</sub>
 
 > **What's Changed**
 > **Other changes**
@@ -58,7 +69,7 @@
 > …
 
 ### [0.27.35](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.35)
-<sub>2026-10-27 · 28d ago</sub>
+<sub>2026-10-27 · 29d ago</sub>
 
 > **What's Changed**
 > **Other changes**
@@ -79,18 +90,12 @@
 > * fix(email): drop the empty entry of an address group by @chrikrah in https://github.com/Unstructured-IO/unstructured/pull/4576
 > …
 
-### [0.27.33](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.33)
-<sub>2026-10-22 · 1mo ago</sub>
-
-> **What's Changed**
-> * fix(chunking): don't repeat a very large split element in every chunk by @kholdrex in https://github.com/Unstructured-IO/unstructured/pull/4565
-> * fix(deps): bump certifi to 2026.10.19 by @lawrence-u10d in https://github.com/Unstructured-IO/unstructured/pull/4564
-> **Full Changelog**: https://github.com/Unstructured-IO/unstructured/compare/0.27.32...0.27.33
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [chore: release 0.27.38 (#4854)](https://github.com/Unstructured-IO/unstructured/commit/2653935aa783e72b89b345cf63a74324962cdd75) | CyMule |
+| 2026-11-24 | [perf: render the PDF once in hi_res instead of once per pipeline stag…](https://github.com/Unstructured-IO/unstructured/commit/2f685ec3d25f3bb58b64ee82666a1c0f79033407) | CyMule |
 | 2026-11-19 | [fix(docx): stop long vertical merges from dropping table rows from te…](https://github.com/Unstructured-IO/unstructured/commit/1ab3be89b689fbe91a2152b720908b7edb143945) | inchang-ing |
 | 2026-11-17 | [perf: stop text extraction after finding the requested match (#4780)](https://github.com/Unstructured-IO/unstructured/commit/52735431453043da0f3225b1fdd3d20b15c71b91) | Afloat16 |
 | 2026-11-17 | [perf(sorting): accumulate dense XY-cut projections once (#4748)](https://github.com/Unstructured-IO/unstructured/commit/230ed8b27ad1ebbca3ef6e8b41d4b87ccbe3e941) | Afloat16 |
@@ -99,8 +104,6 @@
 | 2026-11-17 | [fix: strip leading UTF-8 BOM before JSON content-shape detection (#4397)](https://github.com/Unstructured-IO/unstructured/commit/0c166fc21b65de8d398ff3ba13976882266916a4) | chuenchen309 |
 | 2026-11-17 | [fix: retain coordinates when classifying text as an email address (#4…](https://github.com/Unstructured-IO/unstructured/commit/d63cf141c2d70f61baad31939bbbeed501dcb5e4) | Afloat16 |
 | 2026-11-17 | [fix: preserve repeated quoted CSV headers without a final newline (#4…](https://github.com/Unstructured-IO/unstructured/commit/08c7eb14529eee26c866a6fb3c56a78e36ef01b6) | Afloat16 |
-| 2026-11-16 | [fix(csv): decompress a compressed CSV file named for its compression …](https://github.com/Unstructured-IO/unstructured/commit/3552529a5070ed1a4000c31846736aaa53a3f8bd) | Bensonluo |
-| 2026-11-14 | [fix(chunking): don't emit a chunk that holds only the overlap when ov…](https://github.com/Unstructured-IO/unstructured/commit/ac932052e6e0ba3feab8a6e96b6d4480218e009f) | sinnercode228 |
 
 [See all commits ↗](https://github.com/Unstructured-IO/unstructured/commits)
 

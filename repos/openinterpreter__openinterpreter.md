@@ -26,17 +26,17 @@
 | 💻 **Languages** | Rust 97% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `coding-agent` `deepseek` `kimi` `qwen` `rust` `acp` `python` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-07-14 |
 | 📦 **Latest release** | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 302.3 MB |
+| 💾 **Size** | 303.9 MB |
 | 🌐 **Website** | http://openinterpreter.com/ |
 
 ## 📦 Recent releases
 
 ### [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — Open Interpreter 0.0.61
-<sub>2026-11-11 · 13d ago</sub>
+<sub>2026-11-11 · 14d ago</sub>
 
 > **Open Interpreter 0.0.61**
 > **Models**
@@ -47,7 +47,7 @@
 > …
 
 ### [rust-v0.0.60](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.60) — Open Interpreter 0.0.60
-<sub>2026-11-09 · 15d ago</sub>
+<sub>2026-11-09 · 16d ago</sub>
 
 > **Open Interpreter 0.0.60**
 > **Models**
@@ -58,7 +58,7 @@
 > …
 
 ### [rust-v0.0.59](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.59) — Open Interpreter 0.0.59
-<sub>2026-11-04 · 20d ago</sub>
+<sub>2026-11-04 · 21d ago</sub>
 
 > **Open Interpreter 0.0.59**
 > **Models**
@@ -69,7 +69,7 @@
 > …
 
 ### [rust-v0.0.58](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.58) — Open Interpreter 0.0.58
-<sub>2026-11-01 · 23d ago</sub>
+<sub>2026-11-01 · 24d ago</sub>
 
 > **Open Interpreter 0.0.58**
 > **Models**
@@ -80,7 +80,7 @@
 > …
 
 ### [rust-v0.0.57](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.57) — Open Interpreter 0.0.57
-<sub>2026-10-31 · 24d ago</sub>
+<sub>2026-10-31 · 25d ago</sub>
 
 > **Open Interpreter 0.0.57**
 > **Models**
@@ -91,6 +91,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Merge pull request #1993 from openinterpreter/interpreterwork/docs-lo…](https://github.com/openinterpreter/openinterpreter/commit/f1701ae772bf1ee8ced04c83d5a806bd694f9fd1) | interpreterwork-automation[bot] |
+| 2026-11-24 | [Clarify local model tool-call and context guidance](https://github.com/openinterpreter/openinterpreter/commit/a7694b58aba8a791d408f3d7d1ef047c35743169) | interpreterwork |
 | 2026-11-23 | [Merge pull request #1985 from Dev-next-gen/fix/harness-glob-wildcards](https://github.com/openinterpreter/openinterpreter/commit/a786d8474b0d7289320c16f00e852679fae7866e) | interpreterwork-automation[bot] |
 | 2026-11-23 | [fix(harness): bound Glob/Grep pattern length and brace nesting](https://github.com/openinterpreter/openinterpreter/commit/876f261a1290833871bcfc28ec01f7f67264faac) | Dev-next-gen |
 | 2026-11-23 | [Merge remote-tracking branch 'origin/main' into fix/harness-glob-wild…](https://github.com/openinterpreter/openinterpreter/commit/0b89e73f2933082f0ed38977f7ba22ba20725d30) | Dev-next-gen |
@@ -99,8 +101,6 @@
 | 2026-11-22 | [Merge remote-tracking branch 'origin/main' into fix/harness-glob-wild…](https://github.com/openinterpreter/openinterpreter/commit/8275c62e6060f3f9fa7782bdad66fc98b4b8ffb3) | Dev-next-gen |
 | 2026-11-22 | [Merge branch 'main' into fix/kimi-agents-md-char-boundary](https://github.com/openinterpreter/openinterpreter/commit/d5b8641c020ae594eff2d5fd506ae10c3c36b92e) | Dev-next-gen |
 | 2026-11-21 | [Merge pull request #1988 from openinterpreter/interpreterwork/fable-c…](https://github.com/openinterpreter/openinterpreter/commit/bb3f575d8badc136eb5808bbbb707a04eb5daa3f) | interpreterwork-automation[bot] |
-| 2026-11-20 | [Make repeated turn input a no-op by client message id](https://github.com/openinterpreter/openinterpreter/commit/ab54fa8f4a9d515ea146e859bdcd44de3885f759) | interpreterwork |
-| 2026-11-20 | [Merge pull request #1987 from openinterpreter/interpreterwork/fable-c…](https://github.com/openinterpreter/openinterpreter/commit/7a5509e307cc56d66f5c7413955bb387ab895815) | interpreterwork-automation[bot] |
 
 [See all commits ↗](https://github.com/openinterpreter/openinterpreter/commits)
 

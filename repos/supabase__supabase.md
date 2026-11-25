@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.3k |
+| ⭐ **Stars** | 115.5k |
 | 🍴 **Forks** | 15.1k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/supabase/supabase/issues) |
 | 💻 **Languages** | TypeScript 73% · MDX 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `firebase` `supabase` `realtime` `postgrest` `postgres` `postgresql` `websockets` `deno` `embeddings` `vectors` `alternative` `auth` `database` `example` `nextjs` `oauth2` `pgvector` `postgis` `ai` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2019-10-12 |
 | 📦 **Latest release** | [v1.26.08](https://github.com/supabase/supabase/releases/tag/v1.26.08) — 2026-08-07 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 2472.7 MB |
+| 💾 **Size** | 2484.8 MB |
 | 🌐 **Website** | https://supabase.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [chore(www): replace markdown-toc with the local TOC helper to drop vu…](https://github.com/supabase/supabase/commit/1f6ee9e8b954976c1d607979081d26dea154f0fb) | supabase-vercel-tedd[bot] |
-| 2026-11-24 | [chore(deps): bump vitest to 5.1.1 (#53945)](https://github.com/supabase/supabase/commit/8fe6df84f3137c2a118e55a7cda7967f04e7d3a8) | supabase-vercel-tedd[bot] |
-| 2026-11-24 | [fix(studio): refresh observability charts for the selected range FE-5…](https://github.com/supabase/supabase/commit/15fcb7dc49fc2b08ecb284bef1569805297a97d3) | jordienr |
-| 2026-11-24 | [Add myself to humans.txt (#53948)](https://github.com/supabase/supabase/commit/9c0e1c7dc34c20d7498a1332ac9479c39ae89ced) | fcgravalos |
-| 2026-11-24 | [feat(www): shared account menu (#53666)](https://github.com/supabase/supabase/commit/d885fc7458d81543cbfbb3e18cd6a1accb6c19ac) | antlio |
-| 2026-11-24 | [fix(docs): shared account menu (#53620)](https://github.com/supabase/supabase/commit/c2292c97f22524f095c6795a55471d217e0f7487) | antlio |
-| 2026-11-24 | [fix(kb): header sign in state (#53558)](https://github.com/supabase/supabase/commit/ef8005d8639df54d360f4aff035938a1ce8f2c9a) | antlio |
-| 2026-11-24 | [content(kb) - react native auth listicle (#53550)](https://github.com/supabase/supabase/commit/5aed230adbd246fce9bb068d3851d60be320575d) | kodster28 |
-| 2026-11-24 | [chore: bump pnpm to 12.21.0 (#53676)](https://github.com/supabase/supabase/commit/50bab5657f5e0851fa81c0137071b6726c7f10c3) | ivasilov |
-| 2026-11-24 | [legal: add Supplemental Terms version 2 (November 24, 2026) (#53944)](https://github.com/supabase/supabase/commit/d6c9751f165bb38dfc4091d33605b771d4564e6f) | claude[bot] |
+| 2026-11-25 | [Change deprecation notice in docs to mention early 2027 (#54052)](https://github.com/supabase/supabase/commit/af75c3f8d9aa45c7ce1a365894d45635c47d5953) | firdaws |
+| 2026-11-25 | [feat(studio): already approved request preselect org and projects (#5…](https://github.com/supabase/supabase/commit/107b7dbad2db82b05ba57d7c723760bb2f5ac65e) | djhi |
+| 2026-11-25 | [docs(skills): treat user-defined names as sensitive in telemetry-stan…](https://github.com/supabase/supabase/commit/6a305cd311aca5b8a87d219664b9db75f57e3520) | drewm |
+| 2026-11-25 | [fix(docs): use the sub claim in the storage copy/move policy examples…](https://github.com/supabase/supabase/commit/7960616cf99e943e12c7879b82cf9030937709ad) | anh-nguyenn |
+| 2026-11-25 | [fix(docs): keyboard shortcut hydration (#53959)](https://github.com/supabase/supabase/commit/3643bc656d4d88d9d5a9d56e1c2a3d5b98998f17) | antlio |
+| 2026-11-25 | [fix(common): clear first-referrer cookie on consent revoke (#54043)](https://github.com/supabase/supabase/commit/71f7780d1eca53db980d59a6b4fec576579f27f2) | pamelachia |
+| 2026-11-25 | [Add Lyric Hartley to humans.txt (#53081)](https://github.com/supabase/supabase/commit/b3076f07b2863690d2f33058955bbbea391a4693) | lyric |
+| 2026-11-25 | [fix(docs): layout v2 fixtures (#53761)](https://github.com/supabase/supabase/commit/041c36387309ea8160810772112ebb67a8cc3101) | antlio |
+| 2026-11-25 | [feat(studio): note that edge function secrets can't be retrieved once…](https://github.com/supabase/supabase/commit/a36d21848cb27bdefd8c5b130e252408d2bc6992) | supabase-vercel-tedd[bot] |
+| 2026-11-25 | [refactor(ui-patterns): use FrameworkProvider for routing and drop nex…](https://github.com/supabase/supabase/commit/7c368aadfd115d62bce1345d992ff9d3749944d1) | alaister |
 
 [See all commits ↗](https://github.com/supabase/supabase/commits)
 

@@ -14,19 +14,19 @@
 | **Why it's worth a look** | MCP server: your agent builds and edits 3D scenes in Blender |
 | **Added** | 2026-11-14 |
 
-↪️ **Moved** — was `ahujasid/blender-mcp` · 🆕 **Active this week**
+↪️ **Moved** — was `ahujasid/blender-mcp`
 
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 35.6k |
+| ⭐ **Stars** | 35.8k |
 | 🍴 **Forks** | 3.3k |
-| 🐞 **Open issues + PRs** | [69](https://github.com/ahujasid/mcp-for-blender/issues) |
+| 🐞 **Open issues + PRs** | [71](https://github.com/ahujasid/mcp-for-blender/issues) |
 | 💻 **Languages** | Python 99% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `3d-modeling` `ai` `blender` `blender-addon` `claude` `generative-ai` `llm` `mcp` `model-context-protocol` `python` `blender-mcp` |
-| 🕒 **Last activity** | 2026-11-18 (6d ago) |
+| 🕒 **Last activity** | 2026-11-18 (7d ago) |
 | 📅 **Created** | 2025-03-07 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

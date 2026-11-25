@@ -21,16 +21,16 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 109.0k |
-| 🍴 **Forks** | 16.8k |
-| 🐞 **Open issues + PRs** | [5](https://github.com/rasbt/LLMs-from-scratch/issues) |
+| 🍴 **Forks** | 16.9k |
+| 🐞 **Open issues + PRs** | [4](https://github.com/rasbt/LLMs-from-scratch/issues) |
 | 💻 **Languages** | Jupyter Notebook 73% · Python 27% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `gpt` `large-language-models` `llm` `python` `pytorch` `ai` `artificial-intelligence` `language-model` `deep-learning` `machine-learning` `from-scratch` `generative-ai` `transformers` `attention-mechanism` `finetuning` `instruction-tuning` `natural-language-processing` `pretraining` `tokenizer` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-07-23 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 16.7 MB |
+| 💾 **Size** | 17.1 MB |
 | 🌐 **Website** | https://amzn.to/4fqvn0D |
 
 ## 📦 Recent releases
@@ -41,6 +41,8 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Apply the cached-generation context check and tokens/sec fix to the o…](https://github.com/rasbt/LLMs-from-scratch/commit/22c637fdf9aa2f5fdd39c2cc80c1d36b4ab7d8d8) | sohailshk |
+| 2026-11-24 | [Support MoE configs in the batched KV-cache Qwen3Model (#1122)](https://github.com/rasbt/LLMs-from-scratch/commit/1c3bec98e329bf0e9472a4c9da051c366ebecba6) | MohammadHijjawi97 |
 | 2026-11-24 | [Forward `allowed_special` in `Llama3Tokenizer.encode` (#1121)](https://github.com/rasbt/LLMs-from-scratch/commit/59a6a32121899211bf57b2e8ae16540a5c9b1d45) | MohammadHijjawi97 |
 | 2026-11-22 | [Fix inverted checkpoint condition in Gutenberg pretraining script (#1…](https://github.com/rasbt/LLMs-from-scratch/commit/5790c0c50bcb7d95bf9ee39f438c09ea31826b7d) | MohammadHijjawi97 |
 | 2026-11-21 | [Correct softmax output shape comments (#1124)](https://github.com/rasbt/LLMs-from-scratch/commit/3040b6cdb75ddbd96a33d3beae17dc03dcd1ebc3) | 2kclo3 |
@@ -49,8 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-06 | [Add tests for MoE KV-cache bonus and fix top_k > num_experts in MoE m…](https://github.com/rasbt/LLMs-from-scratch/commit/62f941fe71ed7ddae4005d24fca3d3df38631db7) | io-prashant |
 | 2026-11-06 | [Fix n_kv_groups interpretation in MLA, SWA, and KV-sharing memory est…](https://github.com/rasbt/LLMs-from-scratch/commit/813f511013ba7d55a9047b8bad63fe87d00a1bbf) | io-prashant |
 | 2026-11-06 | [Fix dtype of preallocated KV cache in optimized GPT implementation (#…](https://github.com/rasbt/LLMs-from-scratch/commit/c6222b00cc3cf6eff0c846ec96759f7e8ab406a2) | MohammadHijjawi97 |
-| 2026-11-06 | [Fix training loss in hparam search summary (#1110)](https://github.com/rasbt/LLMs-from-scratch/commit/b5a5165420946487fa0030d3d6729d457c0f6ab5) | NotAFlightRisk |
-| 2026-11-05 | [Fix off-by-one in max_generable of optimized KV cache generation (#1109)](https://github.com/rasbt/LLMs-from-scratch/commit/b093eb06c2973625a2d3994530cce1c15b782886) | MohammadHijjawi97 |
 
 [See all commits ↗](https://github.com/rasbt/LLMs-from-scratch/commits)
 

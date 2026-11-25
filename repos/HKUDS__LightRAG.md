@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 40.8k |
+| ⭐ **Stars** | 40.9k |
 | 🍴 **Forks** | 5.8k |
-| 🐞 **Open issues + PRs** | [238](https://github.com/HKUDS/LightRAG/issues) |
+| 🐞 **Open issues + PRs** | [279](https://github.com/HKUDS/LightRAG/issues) |
 | 💻 **Languages** | Python 91% · TypeScript 7% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `knowledge-graph` `large-language-models` `retrieval-augmented-generation` `genai` `graphrag` `llm` `rag` `gpt` `docling` `mineru` `ragas` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-10-02 |
 | 📦 **Latest release** | [v1.5.8](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 126.1 MB |
+| 💾 **Size** | 127.9 MB |
 | 🌐 **Website** | https://arxiv.org/abs/2410.05779 |
 
 ## 📦 Recent releases
 
 ### [v1.5.8](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Important Notes**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2)
-<sub>2026-11-21 · 2d ago</sub>
+<sub>2026-11-21 · 3d ago</sub>
 
 > **What's Changed**
 > * fix(jina): stop retrying permanent 4xx errors by @Shizoqua in https://github.com/HKUDS/LightRAG/pull/4028
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.5.8rc1](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc1)
-<sub>2026-11-15 · 9d ago</sub>
+<sub>2026-11-15 · 10d ago</sub>
 
 > **Important Notes**
 > > v1.5.8rc1 is a release candidate. Please test it on a copy of your data before upgrading production.
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Merge pull request #4691 from danielaskdd/feat/setup-voyageai-embedding](https://github.com/HKUDS/LightRAG/commit/64fc6cb3c510ebfca61da4ddcdeb9d94dad55ccf) | danielaskdd |
+| 2026-11-25 | [feat(voyageai): honor EMBEDDING_BINDING_HOST as the VoyageAI endpoint](https://github.com/HKUDS/LightRAG/commit/86e223d2ab07a905dc492d05aa0a507e27211089) | danielaskdd |
+| 2026-11-25 | [feat(setup): offer VoyageAI as an embedding provider in the wizard](https://github.com/HKUDS/LightRAG/commit/37eb760a31c27495c030740ddb2603e9f1bdc21e) | danielaskdd |
 | 2026-11-24 | [Merge pull request #4642 from shadowinlife/perf/query-fitter-token-memo](https://github.com/HKUDS/LightRAG/commit/cf82ba9f1e516c5c9ba95a6c5adfb60489e0ce59) | danielaskdd |
 | 2026-11-24 | [Merge pull request #4643 from kabishou11/fix/cross-provider-role-host…](https://github.com/HKUDS/LightRAG/commit/512345ec4bd706ab228c7eab25ade600d3e9f031) | danielaskdd |
 | 2026-11-24 | [Merge pull request #4646 from leninworld/fix/embedding-base64-neo4j-k…](https://github.com/HKUDS/LightRAG/commit/db8cb33a3164835d72d9423f50b72cc4d294940a) | danielaskdd |
@@ -101,9 +104,6 @@
 | 2026-11-24 | [test: move the Neo4j keep_alive parsing test into its own module](https://github.com/HKUDS/LightRAG/commit/0158c9f1524552b0de3d20745f5cd17df689bac0) | danielaskdd |
 | 2026-11-24 | [fix(api): warn when a cross-provider role falls back to its default host](https://github.com/HKUDS/LightRAG/commit/a2d865a2dd67c535b8bd5073ae2c6dfa0c3c1b66) | danielaskdd |
 | 2026-11-24 | [test(operate): move the total-budget fitter suites to tests/operate](https://github.com/HKUDS/LightRAG/commit/0acdca6610ada2ffdada525ecdf43203def9db34) | danielaskdd |
-| 2026-11-24 | [test(operate): trim the fitter memo tests to the cases that catch a b…](https://github.com/HKUDS/LightRAG/commit/a7ea4e6bd771d1a72816defda29b192109f5d9cf) | danielaskdd |
-| 2026-11-24 | [Bump core version to 1.5.9 and API version to 0356](https://github.com/HKUDS/LightRAG/commit/667a916406b0a62b047fc709d032e3cbba28b8a6) | danielaskdd |
-| 2026-11-24 | [fix: parse EMBEDDING_USE_BASE64 and NEO4J_KEEP_ALIVE with the shared …](https://github.com/HKUDS/LightRAG/commit/3331c8c2ffa3bf1fc1b3c07ba2038a26f6d11c0f) | leninworld |
 
 [See all commits ↗](https://github.com/HKUDS/LightRAG/commits)
 

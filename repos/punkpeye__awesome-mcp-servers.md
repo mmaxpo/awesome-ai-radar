@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 98.5k |
-| 🍴 **Forks** | 20.8k |
-| 🐞 **Open issues + PRs** | [5.3k](https://github.com/punkpeye/awesome-mcp-servers/issues) |
+| 🍴 **Forks** | 20.9k |
+| 🐞 **Open issues + PRs** | [5.4k](https://github.com/punkpeye/awesome-mcp-servers/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `mcp` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-11-30 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,8 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Merge pull request #20670 from ethereaglehq/add-privatools-mcp](https://github.com/punkpeye/awesome-mcp-servers/commit/818d13a27cc147c43b6b0b9458c777e982ccf6d3) | punkpeye |
+| 2026-11-25 | [Add PrivaTools MCP server (ethereaglehq/privatools-mcp)](https://github.com/punkpeye/awesome-mcp-servers/commit/8ff29d732e6027719961e0836aead4c14e2165ef) | ethereaglehq |
 | 2026-11-24 | [Merge pull request #20547 from pecopeko/add-mcp-public-intel](https://github.com/punkpeye/awesome-mcp-servers/commit/ac5cc375faa76c50b8c848538549e78884c2a8dd) | punkpeye |
 | 2026-11-24 | [Add pecopeko/mcp-public-intel MCP server](https://github.com/punkpeye/awesome-mcp-servers/commit/6cf48dda227e208f3ff27c8a846ceb54ba318e8d) | pecopeko |
 | 2026-11-24 | [Merge pull request #20537 from neoma-pcam/main](https://github.com/punkpeye/awesome-mcp-servers/commit/3a4d04d99abe2735361a32b167780f78fcc97460) | punkpeye |
@@ -49,8 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-24 | [Add luca-network/spr (Sealed Payment Record)](https://github.com/punkpeye/awesome-mcp-servers/commit/723309c57dce2bda3fba4a904517cfdc484b6206) | Qunlay1 |
 | 2026-11-23 | [Update CONTRIBUTING.md](https://github.com/punkpeye/awesome-mcp-servers/commit/9522f9ff8c8ab9e103fa2a75d49ab4b66af22be3) | punkpeye |
 | 2026-11-23 | [Update CONTRIBUTING.md](https://github.com/punkpeye/awesome-mcp-servers/commit/3dce3a9d49360bd8f21c45b6fc35365bf2b093c8) | punkpeye |
-| 2026-11-23 | [Update CONTRIBUTING.md](https://github.com/punkpeye/awesome-mcp-servers/commit/9dbadb400a592289ec0f0dd97ee44632840c3c2b) | punkpeye |
-| 2026-11-23 | [Merge pull request #20426 from taddeimania/add-lathe](https://github.com/punkpeye/awesome-mcp-servers/commit/4428f13717af2fb5227e3df316371f8d6c117f59) | punkpeye |
 
 [See all commits ↗](https://github.com/punkpeye/awesome-mcp-servers/commits)
 

@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 15.2k |
-| 🍴 **Forks** | 583 |
+| 🍴 **Forks** | 585 |
 | 🐞 **Open issues + PRs** | [94](https://github.com/keycastr/keycastr/issues) |
 | 💻 **Languages** | Objective-C 100% |
 | 📜 **License** | BSD-3-Clause |
@@ -38,7 +38,7 @@
 > * Adjust Minimal visualizer keystroke filtering options by @colinta in https://github.com/keycastr/keycastr/pull/354
 
 ### [v0.11.0](https://github.com/keycastr/keycastr/releases/tag/v0.11.0) — New "Minimal" Visualizer
-<sub>2026-08-27 · 2mo ago</sub>
+<sub>2026-08-27 · 3mo ago</sub>
 
 > Introduces a new visualizer, Minimal. Thanks to @colinta for the original idea, and to @SoCuul for some code contributions along the way. This visualizer can also be filtered to display standalone modifier keys, a popular request.
 

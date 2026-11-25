@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.4k |
-| 🍴 **Forks** | 605 |
+| 🍴 **Forks** | 608 |
 | 🐞 **Open issues + PRs** | [43](https://github.com/pablostanley/yoinks/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |

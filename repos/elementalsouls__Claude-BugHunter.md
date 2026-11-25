@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 20.9k |
-| 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [13](https://github.com/elementalsouls/Claude-BugHunter/issues) |
+| ⭐ **Stars** | 22.5k |
+| 🍴 **Forks** | 2.3k |
+| 🐞 **Open issues + PRs** | [19](https://github.com/elementalsouls/Claude-BugHunter/issues) |
 | 💻 **Languages** | Python 90% · PowerShell 5% · Shell 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-security` `anthropic` `application-security` `bug-bounty` `bugbounty` `bugcrowd` `claude` `claude-code` `claude-skills` `ethical-hacking` `hackerone` `offensive-security` `pentesting` `red-team` `security-tools` `web-security` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-05-05 |
 | 📦 **Latest release** | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) — 2026-06-05 |
 | 🌿 **Default branch** | `main` |
@@ -61,6 +61,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/6a2153d9932adf41fa4d7f5dee626047c5005a83) | github-actions[bot] |
 | 2026-11-24 | [feat(docs): bespoke terminal-HUD landing page for GitHub Pages (#232)](https://github.com/elementalsouls/Claude-BugHunter/commit/9796beeeded3b9e6df50b9f5f89e79dc43bc6915) | elementalsouls |
 | 2026-11-24 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/6b710c27c586100511f81acc2d6403aa2e616204) | github-actions[bot] |
 | 2026-11-24 | [feat(engine): default data isolation + leak-proof attack metrics (#230)](https://github.com/elementalsouls/Claude-BugHunter/commit/d5f7d0d001bc6f6ba4ac38cf730b1871b9d8840c) | elementalsouls |
@@ -70,7 +71,6 @@
 | 2026-11-23 | [fix(scope): harden the scope gate against three fail-open paths (#182…](https://github.com/elementalsouls/Claude-BugHunter/commit/a7e73914e6e7eba98f39721df53d76629b9bed23) | elementalsouls |
 | 2026-11-23 | [fix: five tooling/engine correctness bugs — classify, extract_json, s…](https://github.com/elementalsouls/Claude-BugHunter/commit/6a530fb3149c8c34d3ba0eb31b4eb431e91da648) | elementalsouls |
 | 2026-11-23 | [chore(readme): dedicated wordmark-only sponsor badge + spacing](https://github.com/elementalsouls/Claude-BugHunter/commit/f645b4cf80d1e4d65eef9513246f347befa3997e) | elementalsouls |
-| 2026-11-23 | [chore(assets): replace ThreatWatch360 logo with official brand mark](https://github.com/elementalsouls/Claude-BugHunter/commit/d0feb1a05f3fd0172727cab9fd01f6a1a1217ddd) | elementalsouls |
 
 [See all commits ↗](https://github.com/elementalsouls/Claude-BugHunter/commits)
 

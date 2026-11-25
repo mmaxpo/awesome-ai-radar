@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 57.7k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [25](https://github.com/zylon-ai/private-gpt/issues) |
+| 🐞 **Open issues + PRs** | [26](https://github.com/zylon-ai/private-gpt/issues) |
 | 💻 **Languages** | Python 87% · HTML 9% · MDX 3% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-tools` `on-premise` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-05-02 |
 | 📦 **Latest release** | [v1.0.1](https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1) — 2026-06-18 |
 | 🌿 **Default branch** | `main` |
@@ -82,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [fix(ingest): detect Office packages that sniff as zip (#2490)](https://github.com/zylon-ai/private-gpt/commit/914c533a594b592b8796a9bb1939924c4dbc6eed) | jaluma |
 | 2026-11-23 | [fix: isolate release version lines and forward-port fixes (#2469)](https://github.com/zylon-ai/private-gpt/commit/18682ede5556dd624d5b4910961adcab8799e3d4) | pabloogc |
 | 2026-11-18 | [fix(chat): break tool-call loops by changing how history is shown to …](https://github.com/zylon-ai/private-gpt/commit/2373cc7b912019c9b8fdb8907b2c256799b2adcb) | jaluma |
 | 2026-11-18 | [fix(ingest): require whitespace after a list marker when normalizing …](https://github.com/zylon-ai/private-gpt/commit/e204707e3a261f653c838e784bf6eb33148bcff1) | MohammadHijjawi97 |
@@ -91,7 +92,6 @@
 | 2026-11-17 | [fix(install): boot core-only installs and pin release dependencies (#…](https://github.com/zylon-ai/private-gpt/commit/cfbd09b45a513d48e6181a243eaa6bbbda1ae9b6) | jaluma |
 | 2026-11-13 | [fix(settings): wire HTTPS_PROXY to the proxy.https_proxy field (#2432)](https://github.com/zylon-ai/private-gpt/commit/9d37a133f1d50e9b10ed527ce198ffd7ded1af70) | simpleqt |
 | 2026-11-13 | [docs: add HopBase OpenAI-compatible provider guide (#2459)](https://github.com/zylon-ai/private-gpt/commit/03f7df6324c8122cfe23155086a302d65e10e9cb) | victor-zzh |
-| 2026-11-13 | [fix(readers): keep numeric-looking table cells as text when nodes are…](https://github.com/zylon-ai/private-gpt/commit/ef32cb847c88a75ad636e0956c156478671e1485) | MohammadHijjawi97 |
 
 [See all commits ↗](https://github.com/zylon-ai/private-gpt/commits)
 

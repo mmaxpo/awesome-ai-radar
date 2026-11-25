@@ -20,23 +20,67 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 89.4k |
-| 🍴 **Forks** | 8.3k |
-| 🐞 **Open issues + PRs** | [324](https://github.com/heygen-com/hyperframes/issues) |
+| ⭐ **Stars** | 90.0k |
+| 🍴 **Forks** | 8.4k |
+| 🐞 **Open issues + PRs** | [332](https://github.com/heygen-com/hyperframes/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `animation` `ffmpeg` `gsap` `html` `mcp` `puppeteer` `rendering` `typescript` `ai-agents` `claude-code` `html-to-video` `motion-graphics` `video-editor` `agent-skills` `ai-video` `ai-video-editor` `remotion-alternative` `video-editing` `video-generation` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-03-10 |
-| 📦 **Latest release** | [v0.9.90](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.90) — 2026-11-24 |
+| 📦 **Latest release** | [v0.9.94](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.94) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 542.4 MB |
+| 💾 **Size** | 545.6 MB |
 | 🌐 **Website** | https://hyperframes.heygen.com |
 
 ## 📦 Recent releases
 
-### [v0.9.90](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.90)
+### [v0.9.94](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.94)
+<sub>2026-11-25 · today</sub>
+
+> **HyperFrames v0.9.94**
+> Released on 2026-11-25.
+> You can render one part of a film in a single pass, in any format and frame rate, with HDR video and shader transitions. Project files, media paths and captured videos stay inside the project, and code that reads media input options by position works again.
+> **Features**
+> - **Studio Server:** The render route renders a part of the film when asked for a start and end ([d2d527952](https://github.com/heygen-com/hyperframes/commit/d2d527952b7f551185d460f1c1b1e194971727c1), [#8787](https://github.com/heygen-com/hyperframes/pull/8787)).
+> - **Producer:** Render a part of the film with HDR video or shader transitions ([66aba4c7a](https://github.com/heygen-com/hyperframes/commit/66aba4c7a0b7475d964d22ae2491d22d7e89fb48), [#8802](https://github.com/heygen-com/hyperframes/pull/8802)).
+> …
+
+### [v0.9.93](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.93)
+<sub>2026-11-25 · today</sub>
+
+> **HyperFrames v0.9.93**
+> Released on 2026-11-25.
+> Telemetry turns off the same way everywhere with DO_NOT_TRACK or HYPERFRAMES_NO_TELEMETRY, and a cached whisper model is used only when its checksum matches. Media commands and playlists read only local, self-contained inputs, and auto GPU mode picks software rendering when it is faster.
+> **Fixes**
+> - **Studio:** Words selected in a sealed text edit show the formatting toolbar, as unsealed ([d4edc6d14f](https://github.com/heygen-com/hyperframes/commit/d4edc6d14faa62a7d9c6b3adb4aeb8b868ba6648), [#8777](https://github.com/heygen-com/hyperframes/pull/8777)).
+> - **CLI:** A cached whisper model is used only once its sha256 matches its pin ([5c4f5febbc](https://github.com/heygen-com/hyperframes/commit/5c4f5febbcd7e4493542d2d7465c0ff46af4b807), [#8762](https://github.com/heygen-com/hyperframes/pull/8762)).
+> …
+
+### [v0.9.92](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.92)
+<sub>2026-11-25 · today</sub>
+
+> **HyperFrames v0.9.92**
+> Released on 2026-11-24.
+> A Studio rename now names the files it left on the old path, and sealed previews save moves and resizes like unsealed ones. Renders no longer stop on a URL Node cannot parse, and local media, LUT paths and pasted edits stay where they belong.
+> **Features**
+> - **Core:** A sealed preview answers a text toolbar's authored styles and fonts ([36d576395](https://github.com/heygen-com/hyperframes/commit/36d57639584d0534c32e816c87d9baf2a1683fd0), [#8761](https://github.com/heygen-com/hyperframes/pull/8761)).
+> - **Studio:** Long audio keeps its fx and beats, read from the server, no page OOM ([630409ca1](https://github.com/heygen-com/hyperframes/commit/630409ca19e13bf3400d1d2180bc8c14932970b7), [#8622](https://github.com/heygen-com/hyperframes/pull/8622)).
+> …
+
+### [v0.9.91](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.91)
 <sub>2026-11-24 · today</sub>
+
+> **HyperFrames v0.9.91**
+> Released on 2026-11-24.
+> Local voice and tts now speak a narration line as written. Tts replaces a link at its output name with the audio file. Capture keeps an SVG link attribute only under its plain or xlink name.
+> **Fixes**
+> - **CLI:** Tts replaces a link at its output name with the audio file ([45846f1e6d](https://github.com/heygen-com/hyperframes/commit/45846f1e6d5609462d29652315d0d4254fe92c24), [#8707](https://github.com/heygen-com/hyperframes/pull/8707)).
+> - **CLI:** Speak a narration line as written in local voice and tts ([99ccd54c63](https://github.com/heygen-com/hyperframes/commit/99ccd54c6369cfd5aab43e83a1dfd441e5fdf791), [#8706](https://github.com/heygen-com/hyperframes/pull/8706)).
+> …
+
+### [v0.9.90](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.90)
+<sub>2026-11-24 · yesterday</sub>
 
 > **HyperFrames v0.9.90**
 > Released on 2026-11-24.
@@ -46,64 +90,20 @@
 > - **Media Use:** The skill's media probe opens files only as self-contained containers ([7a7471e7cf](https://github.com/heygen-com/hyperframes/commit/7a7471e7cf93ee44cbe79cbc9cc9156e6544028e), [#8710](https://github.com/heygen-com/hyperframes/pull/8710)).
 > …
 
-### [v0.9.89](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.89)
-<sub>2026-11-24 · today</sub>
-
-> **HyperFrames v0.9.89**
-> Released on 2026-11-24.
-> A Studio capture shows a 4K clip from the server's frame, and deleting a clip no longer re-renders every player. File, media and backup reads touch only the one path they were given.
-> **Fixes**
-> - **Media Use:** Carve decodes only media files inside the composition's folder ([aefca2baff](https://github.com/heygen-com/hyperframes/commit/aefca2baff396213711b59fcce5ec357896529c6), [#8649](https://github.com/heygen-com/hyperframes/pull/8649)).
-> - **Player:** A sealed player plays media from hosts without CORS and names a missing runtime ([1c20a107a6](https://github.com/heygen-com/hyperframes/commit/1c20a107a6d671b69e13d0b31402f35f10c8e5ea), [#8142](https://github.com/heygen-com/hyperframes/pull/8142)).
-> …
-
-### [v0.9.88](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.88)
-<sub>2026-11-24 · today</sub>
-
-> **HyperFrames v0.9.88**
-> Released on 2026-11-24.
-> A cloud render no longer stops a chunk as stalled while its video frames are still extracting. The 4K clip on screen plays its own file while its lighter preview copy is made, instead of showing a still.
-> **Fixes**
-> - **Producer:** A cloud chunk is not stopped as stalled while its video frames are still extracting ([8cdf5b22dc](https://github.com/heygen-com/hyperframes/commit/8cdf5b22dc2edf6766d2cd8c17e3b8d35883cdfa), [#8632](https://github.com/heygen-com/hyperframes/pull/8632)).
-> - **Player:** A film ready before load no longer times the frame's next own document from it ([779bed5c0a](https://github.com/heygen-com/hyperframes/commit/779bed5c0a6da3c7364d441f8945c2d8a54a8cbe), [#8634](https://github.com/heygen-com/hyperframes/pull/8634))
-> …
-
-### [v0.9.87](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.87)
-<sub>2026-11-24 · today</sub>
-
-> **HyperFrames v0.9.87**
-> Released on 2026-11-23.
-> An edit's preview shows the change again within about a second, not after a five-second wait. Looped audio stays in sync in Safari, and a render's compile now stops at a deadline.
-> **Features**
-> - **Studio:** Apps embedding Studio can style a sealed pick as Studio's panel does ([8376f32e0c](https://github.com/heygen-com/hyperframes/commit/8376f32e0c8586c2055bc704724fa390beef54eb), [#8614](https://github.com/heygen-com/hyperframes/pull/8614)).
-> **Fixes**
-> …
-
-### [v0.9.86](https://github.com/heygen-com/hyperframes/releases/tag/v0.9.86)
-<sub>2026-11-23 · yesterday</sub>
-
-> **HyperFrames v0.9.86**
-> Released on 2026-11-23.
-> A save during an import keeps its own undo step, and full-size stills count their real memory, so the cache frees them. Text on a sealed preview can now be edited in place, and sealed recordings move the layer live.
-> **Features**
-> - **Studio:** Edit text in place on a sealed preview's canvas ([8d2783561](https://github.com/heygen-com/hyperframes/commit/8d2783561f4eb3038a2b6305cc9f160651834a12), [#8183](https://github.com/heygen-com/hyperframes/pull/8183)).
-> **Fixes**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [chore: release v0.9.91 (#8718)](https://github.com/heygen-com/hyperframes/commit/08431260d936ba5001bb7d13be21397a1ef6ffd2) | jrusso1020 |
-| 2026-11-24 | [fix(cli): tts replaces a link at its output name with the audio file …](https://github.com/heygen-com/hyperframes/commit/45846f1e6d5609462d29652315d0d4254fe92c24) | jrusso1020 |
-| 2026-11-24 | [fix(registry): inline the warm-grain starter's grain texture (#8712)](https://github.com/heygen-com/hyperframes/commit/93309f35cda894adab3e13ba66b1cd2e81618569) | jrusso1020 |
-| 2026-11-24 | [fix(docs): copied catalog wiring reads back as the values shown (#8715)](https://github.com/heygen-com/hyperframes/commit/716a89e571e2e8f94ecc84934741b02dd1592a66) | jrusso1020 |
-| 2026-11-24 | [fix(cli): speak a narration line as written in local voice and tts (#…](https://github.com/heygen-com/hyperframes/commit/99ccd54c6369cfd5aab43e83a1dfd441e5fdf791) | jrusso1020 |
-| 2026-11-24 | [fix(studio-server): preview head scripts land in the head when an att…](https://github.com/heygen-com/hyperframes/commit/07e03e8fed3846ccbf0d79f9ec0b145b3e308fae) | jrusso1020 |
-| 2026-11-24 | [fix(cli): capture keeps an SVG link attribute only under its plain or…](https://github.com/heygen-com/hyperframes/commit/42ad487987b7e7f61b10fda341338f2caa10020f) | jrusso1020 |
-| 2026-11-24 | [chore: release v0.9.90 (#8709)](https://github.com/heygen-com/hyperframes/commit/8eeeabf8a6c293c96e69444dd92de9b8b6c8c945) | jrusso1020 |
-| 2026-11-24 | [fix(cli): media-use resolve reads each asset as one local self-contai…](https://github.com/heygen-com/hyperframes/commit/7975ecc423a0670a510fedd7d722146a370a0186) | michaelwang11394 |
-| 2026-11-24 | [fix(media-use): the skill's media probe opens files only as self-cont…](https://github.com/heygen-com/hyperframes/commit/7a7471e7cf93ee44cbe79cbc9cc9156e6544028e) | michaelwang11394 |
+| 2026-11-25 | [fix(core): strip file marks inside templates and refuse markup a brow…](https://github.com/heygen-com/hyperframes/commit/81869faaa769c3a1f720ac6adcf59d3201a58046) | miguel-heygen |
+| 2026-11-25 | [fix(studio): an edit goes to the file a host was mounted from, never …](https://github.com/heygen-com/hyperframes/commit/9dc416ad50f958a9fa5454b14bbebb1094911a0e) | miguel-heygen |
+| 2026-11-25 | [fix(studio-server): element and animation edits take an HTML file onl…](https://github.com/heygen-com/hyperframes/commit/92d0210a174390913958dde9ab50242a75065fc2) | jrusso1020 |
+| 2026-11-25 | [fix(media-use): a music job puts its track at the name only when comp…](https://github.com/heygen-com/hyperframes/commit/5dd0ee9eff5b9656a84f6617b2cf65a93181448e) | jrusso1020 |
+| 2026-11-25 | [test(studio): the edit bench reads a nudge burst's box once a sealed …](https://github.com/heygen-com/hyperframes/commit/b79fd6ae2ad9cb0452c103ff9bb8a36fdc139787) | miguel-heygen |
+| 2026-11-25 | [feat(studio): a sealed preview reports the shown display of every ele…](https://github.com/heygen-com/hyperframes/commit/8008dc89f078d748067b6e03524936b42c2defb3) | miguel-heygen |
+| 2026-11-25 | [test(engine): the cut audio link test cuts the read under load too (#…](https://github.com/heygen-com/hyperframes/commit/6f997837c0eae19d26946ebe8bdc96ebce3c5764) | miguel-heygen |
+| 2026-11-25 | [fix(studio): a file is a composition only when a browser would build …](https://github.com/heygen-com/hyperframes/commit/d494f25c7b3048de45c38767503d94ebe34d2970) | jrusso1020 |
+| 2026-11-25 | [fix(media-use): audio scripts replace the file at a name and leave a …](https://github.com/heygen-com/hyperframes/commit/4c0d6148a317bab266aec23168a48273e33989b8) | jrusso1020 |
+| 2026-11-25 | [fix(studio-server): opening a project no longer waits on its drive to…](https://github.com/heygen-com/hyperframes/commit/7359dc95e4dd495b06a601e7d98db21078b8e811) | miguel-heygen |
 
 [See all commits ↗](https://github.com/heygen-com/hyperframes/commits)
 

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 2.2k |
 | 🍴 **Forks** | 532 |
-| 🐞 **Open issues + PRs** | [492](https://github.com/openremote/core/issues) |
+| 🐞 **Open issues + PRs** | [496](https://github.com/openremote/core/issues) |
 | 💻 **Languages** | Java 48% · TypeScript 26% · Groovy 19% · Shell 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `iot-platform` `iot` `energy` `building` `mqtt` `smartcity` `dashboard` `asset-management` `mqtt-broker` `dataplatform` `rules-engine` `fleet-management` `energy-monitor` `energy-management` `fleet-telematics` `device-management` `edge-computing` `iot-application` `modbus` `ota-update` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2016-02-03 |
 | 📦 **Latest release** | [1.35.0](https://github.com/openremote/core/releases/tag/1.35.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [1.35.0](https://github.com/openremote/core/releases/tag/1.35.0)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > > [!IMPORTANT]
 > > We have addressed the CVE-2026-114938 Java4Shell vulnerability in this latest Docker image, with an OpenJDK upgrade in #3592.
@@ -47,7 +47,7 @@
 > …
 
 ### [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1)
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **What's Changed**
 > **🐞 Bug fixes**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0)
-<sub>2026-11-06 · 18d ago</sub>
+<sub>2026-11-06 · 19d ago</sub>
 
 > > [!NOTE]
 > > We have also recently published a new `openremote/keycloak` release, version `26.7.5.0`, that introduces a new UI design!
@@ -69,7 +69,7 @@
 > …
 
 ### [1.33.0](https://github.com/openremote/core/releases/tag/1.33.0)
-<sub>2026-10-27 · 28d ago</sub>
+<sub>2026-10-27 · 29d ago</sub>
 
 > **⚠️  Important notes / Before you upgrade ⚠️**
 > - **Minor behavior changes in datapoint query requests.**

@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Many runnable example LLM/agent apps to learn from |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 145.6k |
+| ⭐ **Stars** | 145.7k |
 | 🍴 **Forks** | 21.4k |
-| 🐞 **Open issues + PRs** | [16](https://github.com/Shubhamsaboo/awesome-llm-apps/issues) |
+| 🐞 **Open issues + PRs** | [19](https://github.com/Shubhamsaboo/awesome-llm-apps/issues) |
 | 💻 **Languages** | Python 53% · TypeScript 19% · JavaScript 18% · HTML 7% · CSS 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `llms` `rag` `python` `agents` |
-| 🕒 **Last activity** | 2026-11-18 (6d ago) |
+| 🕒 **Last activity** | 2026-11-18 (7d ago) |
 | 📅 **Created** | 2024-04-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

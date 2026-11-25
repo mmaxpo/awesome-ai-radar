@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 73.9k |
-| 🍴 **Forks** | 6.5k |
-| 🐞 **Open issues + PRs** | [33](https://github.com/mvanhorn/last30days-skill/issues) |
+| ⭐ **Stars** | 74.9k |
+| 🍴 **Forks** | 6.6k |
+| 🐞 **Open issues + PRs** | [31](https://github.com/mvanhorn/last30days-skill/issues) |
 | 💻 **Languages** | Python 96% · HTML 2% · Go 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `reddit` `twitter` `polymarket` `youtube` `instagram` `tiktok` `agent-skills` `artificial-intelligence` `bot` `command-line` `data-science` `dsh-plugin` `golang` `llms` `nlp` `osint` `python3` `dsh` `automation` `terminal` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-01-23 |
 | 📦 **Latest release** | [v4.6.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 57.4 MB |
+| 💾 **Size** | 57.8 MB |
 
 ## 📦 Recent releases
 
 ### [v4.6.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0)
-<sub>2026-11-22 · 2d ago</sub>
+<sub>2026-11-22 · 3d ago</sub>
 
 > **What's Changed**
 > * fix(comments): spend TikTok and Instagram comment calls on posts the report keeps by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1554
@@ -57,7 +57,7 @@
 > …
 
 ### [v4.4.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.4.0)
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > **What's Changed**
 > * fix(watchlist): pass scheduled topics as literal research text by @iliaal in https://github.com/mvanhorn/last30days-skill/pull/1514
@@ -79,7 +79,7 @@
 > …
 
 ### [v4.3.1](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.1)
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **What's Changed**
 > * docs: README shows what v4 does by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1497
@@ -92,16 +92,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [chore(readme): auto-update clean light/dark star history chart (#1617)](https://github.com/mvanhorn/last30days-skill/commit/7c2e1c2b099b13abd4397910168c4f53e638bb21) | mvanhorn |
+| 2026-11-24 | [chore(deps): update the OSV scanner workflow to v2.7.1 (#1563)](https://github.com/mvanhorn/last30days-skill/commit/c7056bc2fc3e5f281c58aa3cac2c63a1886b15ed) | dependabot[bot] |
+| 2026-11-24 | [fix(reddit): honor SearXNG in web discovery (#1603)](https://github.com/mvanhorn/last30days-skill/commit/c3dc463414b5401370cf449acdb9adf2aa571eef) | flipcyde101 |
+| 2026-11-24 | [fix: honor explicit local reasoning with configured provider keys (#1…](https://github.com/mvanhorn/last30days-skill/commit/bb18cccc53157dbac6adc9c23d5ef9b765441961) | TheAyushTandon |
+| 2026-11-24 | [fix(truthsocial): decode HTML entities and keep paragraph breaks in p…](https://github.com/mvanhorn/last30days-skill/commit/553da843b3c096464c74e17a7ac3acb566931f28) | thejesh23 |
+| 2026-11-24 | [fix(signals,relevance,rerank,cluster,fusion,dedupe): enforce monotoni…](https://github.com/mvanhorn/last30days-skill/commit/8a372bd06a7272b0426f1242b3c61b68e364bc1d) | iliaal |
 | 2026-11-24 | [fix(x,bird-search): harden X backend parsing, error/403 propagation, …](https://github.com/mvanhorn/last30days-skill/commit/d40dd3aaf48cf81097931bbafbaab1c8f5db5144) | iliaal |
 | 2026-11-24 | [fix(pipeline,schema,dates): fix fetch_memo lifecycle, weighting, X fl…](https://github.com/mvanhorn/last30days-skill/commit/f66444193a27f302f3299b95de393ce827d5ed6a) | iliaal |
 | 2026-11-24 | [fix(freshness,polymarket): harden verification grounding, cache/statu…](https://github.com/mvanhorn/last30days-skill/commit/f722f5e7d8f6b2ae306346e71cdfaac292c8305d) | iliaal |
 | 2026-11-24 | [fix(youtube,bluesky,linkedin,corpus,mcp): harden comments, session co…](https://github.com/mvanhorn/last30days-skill/commit/5cfcc2e1dd02d08c8dddc91dc68efea15bf9cee3) | iliaal |
-| 2026-11-24 | [fix(jobs,hn,stocktwits,meta_ads): harden sitemap ownership, timeouts,…](https://github.com/mvanhorn/last30days-skill/commit/2f708b40e414c2b51141ea9d718da0261195d58e) | iliaal |
-| 2026-11-24 | [fix(query,resolve,competitors,planner,handoff): harden entity extract…](https://github.com/mvanhorn/last30days-skill/commit/1433d55d0dfe8cfe0ec9387401cc3ec8923e1519) | iliaal |
-| 2026-11-24 | [fix(reddit): harden Arctic/ScrapeCreators/enrich null-safety and cana…](https://github.com/mvanhorn/last30days-skill/commit/287f3f5f40e9241cb9895a27e7a2b8898d6d7751) | iliaal |
-| 2026-11-24 | [fix(reddit): fix keyless listing timeframe, health isolation, score b…](https://github.com/mvanhorn/last30days-skill/commit/3c3cadb51159a20b55400e7d69111222b9c39dbe) | iliaal |
-| 2026-11-24 | [fix(doctor,backends,providers,health,ui): harden pin parity, thinking…](https://github.com/mvanhorn/last30days-skill/commit/b92a3bcab2f514cb60c9602d0151040879250b42) | iliaal |
-| 2026-11-24 | [fix(cli,render): align stocktwits/brief/save-dir CLI contracts and Po…](https://github.com/mvanhorn/last30days-skill/commit/8ed7aded1fba2599badd9121434dc19255ba2fcd) | iliaal |
 
 [See all commits ↗](https://github.com/mvanhorn/last30days-skill/commits)
 

@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 92% · HTML 4% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `playwright` `chromium` `firefox` `webkit` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2020-07-01 |
 | 📦 **Latest release** | [v1.65.2](https://github.com/microsoft/playwright-python/releases/tag/v1.65.2) — 2026-11-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 16.5 MB |
+| 💾 **Size** | 16.6 MB |
 | 🌐 **Website** | https://playwright.dev/python/ |
 
 ## 📦 Recent releases
 
 ### [v1.65.2](https://github.com/microsoft/playwright-python/releases/tag/v1.65.2)
-<sub>2026-11-14 · 10d ago</sub>
+<sub>2026-11-14 · 11d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright/pull/44098 - browser(chromium): roll to r1255, v159.0.8154.6
@@ -44,7 +44,7 @@
 > - Chromium 159.0.8154.6
 
 ### [v1.65.1](https://github.com/microsoft/playwright-python/releases/tag/v1.65.1)
-<sub>2026-11-11 · 12d ago</sub>
+<sub>2026-11-11 · 13d ago</sub>
 
 > **Highlights**
 > https://github.com/microsoft/playwright-python/pull/3337 - chore: roll Node.js to 26.13.1
@@ -55,7 +55,7 @@
 > …
 
 ### [v1.65.0](https://github.com/microsoft/playwright-python/releases/tag/v1.65.0)
-<sub>2026-11-09 · 14d ago</sub>
+<sub>2026-11-09 · 15d ago</sub>
 
 > **🧾 Locator code in Python**
 > A locator from [locator.normalize()](https://playwright.dev/python/docs/api/class-locator#locator-normalize) now converts to a string as Python code. Use it with [page.get_by_ref()](https://playwright.dev/python/docs/api/class-page#page-get-by-ref) to turn an element that an agent picks from a [page.aria_snapshot()](https://playwright.dev/python/docs/api/class-page#page-aria-snapshot) in the `"ai"` mode into code for your test:
@@ -91,6 +91,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [chore: roll Playwright to 1.66.0-next (b0e0b7b555) (#3373)](https://github.com/microsoft/playwright-python/commit/f31e7025d36bebc4b55c2e94f97f26ac92e13067) | microsoft-playwright-automation[bot] |
 | 2026-11-24 | [fix(events): preserve pytest outcomes without closing the connection …](https://github.com/microsoft/playwright-python/commit/8b452510884008b70c099a32089d4501c90c721f) | microsoft-playwright-automation[bot] |
 | 2026-11-23 | [chore: roll Playwright to 1.66.0-next (049226728d) (#3365)](https://github.com/microsoft/playwright-python/commit/c830b5f852afd4a0c036b69443544875c7249fa7) | microsoft-playwright-automation[bot] |
 | 2026-11-20 | [chore: roll Playwright to 1.66.0-next (a018f24a4f) (#3359)](https://github.com/microsoft/playwright-python/commit/de03c865f5738c2291a6a58c8b5c20346d8e70f2) | microsoft-playwright-automation[bot] |
@@ -100,7 +101,6 @@
 | 2026-11-19 | [build(deps): bump types-pyyaml from 6.0.12.20261103 to 6.0.12.2026111…](https://github.com/microsoft/playwright-python/commit/cf56bf910ea3b5560ff1cf5ab0832ee325a7337c) | dependabot[bot] |
 | 2026-11-18 | [chore: start the review bot on pull_request_target again (#3354)](https://github.com/microsoft/playwright-python/commit/613727245cbeed62c9b0fb27a84942abd276602f) | pavelfeldman |
 | 2026-11-18 | [chore: roll Playwright to 1.66.0-next (8124fc3923) (#3353)](https://github.com/microsoft/playwright-python/commit/af8baa0ff17b494d934a992fdc7b399e696edea2) | microsoft-playwright-automation[bot] |
-| 2026-11-17 | [chore: start the review bot on pull_request, not pull_request_target …](https://github.com/microsoft/playwright-python/commit/16fdfef93ef06990fae3f85d2af87105f1dcdc90) | pavelfeldman |
 
 [See all commits ↗](https://github.com/microsoft/playwright-python/commits)
 

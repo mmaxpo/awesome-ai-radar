@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [MNT Use `_check_name` in `check_estimator` when `on_fail="raise"` (#3…](https://github.com/scikit-learn/scikit-learn/commit/7c426b6d7f5eacc57abfd58880cf6187bd09cbdc) | lucyleeow |
+| 2026-11-25 | [TST fix uncollected tests and avoidable warnings in the test suite (#…](https://github.com/scikit-learn/scikit-learn/commit/46a731ce82bde3f52cdf94dd099c1c0f7c8f2bf8) | lorentzenchr |
+| 2026-11-24 | [FIX `AttributeError` in `check array` (#35405)](https://github.com/scikit-learn/scikit-learn/commit/645d9c93bd867789f9125d187aa556ee0983e30a) | direkkakkar319-ops |
+| 2026-11-24 | [MNT Fix typo in `test_plot_precision_recall_pos_label` (#35504)](https://github.com/scikit-learn/scikit-learn/commit/abeaec0274dc2ed9a0a2dbd78a148613ce1fb413) | lucyleeow |
+| 2026-11-24 | [FIX check_array(copy=False, force_writeable=True) returning a writeab…](https://github.com/scikit-learn/scikit-learn/commit/ea1bf33473fce388b5cf27410bc06c5d5c12e35e) | DeaMariaLeon |
+| 2026-11-24 | [FIX gap safe screening of coordinate descent with warm start at optim…](https://github.com/scikit-learn/scikit-learn/commit/798630b1ebc1876e63fa6fc62da30178a5c2b370) | lorentzenchr |
+| 2026-11-24 | [FIX Newton line search: revert polynomial interpolation, add approxim…](https://github.com/scikit-learn/scikit-learn/commit/0c6be425323b2835bd89d4113332a1f4c8fc8910) | lorentzenchr |
 | 2026-11-24 | [Fix docstring in `get_namespace` (#35508)](https://github.com/scikit-learn/scikit-learn/commit/09b24e97cf16f3b22e7bd57a8ed078f24238b1b1) | lucyleeow |
 | 2026-11-24 | [PRF Compute KMeans' tolerance without np.var on dense data (#35311)](https://github.com/scikit-learn/scikit-learn/commit/6369cd74fe6a2379056cffbaf5ce03ab792df337) | cakedev0 |
 | 2026-11-24 | [Fix typo - remove unused variable in `LogisticRegression` (#35506)](https://github.com/scikit-learn/scikit-learn/commit/bd1cce6759b914f8475f1e66ea1a25e84d5b4132) | lucyleeow |
-| 2026-11-24 | [Fix add sample weight checking back to 'check_array_api_mixed_inputs'…](https://github.com/scikit-learn/scikit-learn/commit/76d435ffd94e507c49e866d2ff667224c64b096a) | lucyleeow |
-| 2026-11-23 | [DOC Make array API doc consistent with respect to device naming in ta…](https://github.com/scikit-learn/scikit-learn/commit/6b8ba39487fe28111986d599deecd0680d2787d0) | ogrisel |
-| 2026-11-23 | [DOC Add torch XPU version and driver note to Array API docs (#34648) …](https://github.com/scikit-learn/scikit-learn/commit/09724b2db681e6181b1d1c9faf346b575cdc22a8) | themythofsisyphusjayant |
-| 2026-11-23 | [Allow partials to specify check name via kwarg in `_check_name` (used…](https://github.com/scikit-learn/scikit-learn/commit/7eeda88b0e86bc73c2d25f4c19040563facd9ca6) | lucyleeow |
-| 2026-11-23 | [DOC Fix typo in SGD docs (#35494)](https://github.com/scikit-learn/scikit-learn/commit/9ca09bc84cfc5133fb8788f8a3a4fdd43fefdcca) | david-cortes-intel |
-| 2026-11-23 | [MNT Disable progressbar if not last one in callback list (#35272)](https://github.com/scikit-learn/scikit-learn/commit/229239f6e6bd11c17b57f294ac591b76ce258ad1) | FrancoisPgm |
-| 2026-11-23 | [FIX Callback transport don't store connections forever (#34870)](https://github.com/scikit-learn/scikit-learn/commit/eff735c50a324741c5c33343be99439883caaf97) | jeremiedbb |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

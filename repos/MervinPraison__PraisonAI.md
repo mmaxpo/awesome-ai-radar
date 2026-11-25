@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 9.4k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [124](https://github.com/MervinPraison/PraisonAI/issues) |
+| 🐞 **Open issues + PRs** | [129](https://github.com/MervinPraison/PraisonAI/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 12% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `aiagents` `framework` `ai-agent-framework` `ai-agents` `multi-agent` `multi-agent-system` `multi-agents` `ai-agent-sdk` `ai-agents-sdk` `openclaw` `air-gapped` `llm` `on-premise` `private-ai` `python` `regulated-industries` `self-hosted` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-24 (yesterday) |
 | 📅 **Created** | 2024-03-19 |
 | 📦 **Latest release** | [v4.8.1](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.1) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
@@ -36,12 +36,12 @@
 ## 📦 Recent releases
 
 ### [v4.8.1](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.1) — PraisonAI v4.8.1
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > Release v4.8.1
 
 ### [v4.8.0](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.0) — v4.8.0: Security hardening release
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **Security hardening release**
 > This release makes PraisonAI safer by default. Servers stay on your own machine unless you give them a token. Tools that read files, fetch URLs or run code now stay inside clear limits. A project you clone can no longer change your trust settings.
@@ -52,17 +52,17 @@
 > …
 
 ### [v4.7.26](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.26) — PraisonAI v4.7.26
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > Release v4.7.26
 
 ### [v4.7.25](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.25) — PraisonAI v4.7.25
-<sub>2026-11-14 · 10d ago</sub>
+<sub>2026-11-14 · 11d ago</sub>
 
 > Release v4.7.25
 
 ### [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) — PraisonAI v4.7.24
-<sub>2026-11-05 · 18d ago</sub>
+<sub>2026-11-05 · 19d ago</sub>
 
 > Release v4.7.24
 

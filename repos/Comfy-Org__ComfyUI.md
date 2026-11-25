@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 148.4k |
+| ⭐ **Stars** | 148.6k |
 | 🍴 **Forks** | 17.7k |
 | 🐞 **Open issues + PRs** | [5.6k](https://github.com/Comfy-Org/ComfyUI/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `stable-diffusion` `pytorch` `ai` `python` `comfy` `comfyui` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-01-17 |
 | 📦 **Latest release** | [v0.46.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 106.4 MB |
+| 💾 **Size** | 106.5 MB |
 | 🌐 **Website** | https://www.comfy.org/ |
 
 ## 📦 Recent releases
 
 ### [v0.46.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0)
-<sub>2026-11-18 · 5d ago</sub>
+<sub>2026-11-18 · 6d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(LTX): add AlphaGen, SDR to HDR, Reframe and Upscale nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17664
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0)
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **What's Changed**
 > * Bump comfyui-frontend-package to 1.58.5 by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/17442
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.44.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0)
-<sub>2026-11-04 · 20d ago</sub>
+<sub>2026-11-04 · 21d ago</sub>
 
 > **What's Changed**
 > * [Partner Nodes] feat(Patina): add Patina texture nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17384
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.0)
-<sub>2026-10-27 · 28d ago</sub>
+<sub>2026-10-27 · 29d ago</sub>
 
 > **What's Changed**
 > * model_prefetch: syncrhonize all graph cleanups by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/17178
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [[Partner Nodes] feat(Meshy): accept and emit task ids as STRING (#17987)](https://github.com/Comfy-Org/ComfyUI/commit/a2103ae69d98d8ef94c150f5a472b89775eed929) | bigcat88 |
+| 2026-11-25 | [[Partner Nodes] feat(Recraft): add Vectorizer Pro and shape stacking,…](https://github.com/Comfy-Org/ComfyUI/commit/b27006af3d753e4a94cd703d9a2432b68a7e6865) | bigcat88 |
+| 2026-11-25 | [Don't do int8 linears in int8 on GB300. (#17973)](https://github.com/Comfy-Org/ComfyUI/commit/0d0e105153c02261519a6a552c52ec1cd5d9855e) | comfyanonymous |
+| 2026-11-24 | [Revert frontend version. (#17970)](https://github.com/Comfy-Org/ComfyUI/commit/1f13e29b267f051b84e5c5476ee7a65badb28288) | comfyanonymous |
+| 2026-11-24 | [Register local_mcp_connect feature flag (#17966)](https://github.com/Comfy-Org/ComfyUI/commit/b461f9eaca58897cd7d8aea419bdfc9c6fe77b38) | christian-byrne |
+| 2026-11-24 | [[Partner Nodes] feat(OpenAI): add ChatGPT V2 node and GPT-6.2 Astra a…](https://github.com/Comfy-Org/ComfyUI/commit/62879ac7f585be68f9423af242cbedbf95858b70) | bigcat88 |
 | 2026-11-24 | [Missing custom nodes folders should not cause a startup crash. (#17954)](https://github.com/Comfy-Org/ComfyUI/commit/da8bd08e48deee74d9f6c3bc00aed365b00ec209) | comfyanonymous |
 | 2026-11-23 | [Serve an empty stylesheet when user.css is missing (#17928)](https://github.com/Comfy-Org/ComfyUI/commit/2fcb6cef9ab1b6dc556b7cff1765a0724ad5e884) | DrJKL |
 | 2026-11-23 | [Fix Video Deflicker warp on Apple MPS (#17940)](https://github.com/Comfy-Org/ComfyUI/commit/1b7d0861e480310cc514c334a7c364b108892d5a) | harmehak0173 |
 | 2026-11-23 | [Update workflow templates to v0.11.118 (#17949)](https://github.com/Comfy-Org/ComfyUI/commit/3e5b865db9adbb2a19f66ee0270b07c3efac269e) | comfyui-wiki |
-| 2026-11-23 | [Update workflow templates to v0.11.117 (#17944)](https://github.com/Comfy-Org/ComfyUI/commit/801c4a82c27b14e6b6d0a7270a23ec9f85824b16) | comfyui-wiki |
-| 2026-11-23 | [Support w3 and w5 quantization formats (#17938)](https://github.com/Comfy-Org/ComfyUI/commit/a88593173fa3eb31fa25f2ad2db9521f7bb74744) | kijai |
-| 2026-11-23 | [[Partner Nodes] feat(Anthropic): move Claude node to Comfy Router (#1…](https://github.com/Comfy-Org/ComfyUI/commit/720e923631e685e9cb28b9e2cc7b43f82b44033f) | bigcat88 |
-| 2026-11-23 | [[Partner Nodes] feat(Meshy): add N1 texture and Image to Relief nodes…](https://github.com/Comfy-Org/ComfyUI/commit/830ccd9ee78811508453ee1a042bf83a6a280b8a) | bigcat88 |
-| 2026-11-23 | [[Partner Nodes] feat(Gemini-LLM): add Gemini 4 Neon to the Gemini tex…](https://github.com/Comfy-Org/ComfyUI/commit/f08f28aaac5447af3b2e8a83e2f53c8774d23151) | bigcat88 |
-| 2026-11-23 | [[Partner Nodes] fix(video): keep rotation when resizing videos for up…](https://github.com/Comfy-Org/ComfyUI/commit/fa68736d5f84cbea8fb10466205bc6fdd41a274c) | bigcat88 |
 
 [See all commits ↗](https://github.com/Comfy-Org/ComfyUI/commits)
 

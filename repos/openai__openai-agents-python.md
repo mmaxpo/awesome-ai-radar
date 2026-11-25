@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 30.9k |
 | 🍴 **Forks** | 5.1k |
-| 🐞 **Open issues + PRs** | [85](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [74](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `llm` `python` `openai` `harness` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-03-11 |
 | 📦 **Latest release** | [v0.26.0](https://github.com/openai/openai-agents-python/releases/tag/v0.26.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 130.6 MB |
+| 💾 **Size** | 131.3 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
 
 ### [v0.26.0](https://github.com/openai/openai-agents-python/releases/tag/v0.26.0)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **[0.26.0](https://github.com/openai/openai-agents-python/compare/v0.25.0...v0.26.0) (2026-11-24)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.0.0-alpha.2](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2) — Agents SDK v1.0.0-alpha.2 _(pre-release)_
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Agents SDK v1.0.0-alpha.2**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.0.0-alpha.1](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1) — Agents SDK v1.0.0-alpha.1 _(pre-release)_
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > **Agents SDK v1.0.0-alpha.1**
 > This first preview from `feat/simple-codex` adds Codex as an opt-in model provider for the Python Agents SDK. The prebuilt `openai-agents` wheels (version `1.0.0a1`) are available exclusively through GitHub Releases.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0)
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > **[0.25.0](https://github.com/openai/openai-agents-python/compare/v0.24.0...v0.25.0) (2026-11-17)**
 > **Key Changes**
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.24.0-alpha.8](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8) — Agents SDK v0.24.0-alpha.8 _(pre-release)_
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.8**
 > **Highlights**

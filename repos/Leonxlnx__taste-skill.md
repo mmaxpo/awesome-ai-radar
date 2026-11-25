@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 121.0k |
-| 🍴 **Forks** | 8.1k |
-| 🐞 **Open issues + PRs** | [24](https://github.com/Leonxlnx/taste-skill/issues) |
+| ⭐ **Stars** | 121.4k |
+| 🍴 **Forks** | 8.2k |
+| 🐞 **Open issues + PRs** | [26](https://github.com/Leonxlnx/taste-skill/issues) |
 | 💻 **Languages** | JavaScript 61% · HTML 28% · CSS 11% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `frontend` `agent-skills` `ai-agents` `anti-slop` `cursor` `design-system` `landing-page` `ui-design` `web-design` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-02-19 |
 | 📦 **Latest release** | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — 2026-11-07 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 102.2 MB |
+| 💾 **Size** | 103.1 MB |
 | 🌐 **Website** | https://tasteskill.dev |
 
 ## 📦 Recent releases
 
 ### [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — tasteskill v2.5.1
-<sub>2026-11-07 · 17d ago</sub>
+<sub>2026-11-07 · 18d ago</sub>
 
 > What a 44-site test of 2.5.0 showed, fixed: builds now iterate until the checker is clean, every page moves, products without photographs are shown in photographs, palettes fit the trade, the copy gets a voice of its own, and nothing lies on anything else on a phone. The install name did not change.
 > - **A finish gate:** `scripts/gate.mjs` runs the checker, the layout check and a copy lint, and a build is not done until its last line reads `GATE: PASS` (three rounds, five waivers with reasons at most). In Claude Code it runs as a Stop hook from the skill itself. It never traps an agent: a question to the user costs no round, and `gate.mjs --done` ends a build at the user's word.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.5.0](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.0) — tasteskill v2.5
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > A complete rebuild of `design-taste-frontend` around professional company websites at the figma.com and x.ai bar. The install name did not change.
 > - **One page system:** every build starts from the same starter. The hero fills the first screen, one section per screen, equal left and right edges.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Add SerpApi to the sponsors table](https://github.com/Leonxlnx/taste-skill/commit/d1a2bb41d927083ac7118f60cfc9cdf711810ea0) | Leonxlnx |
 | 2026-11-22 | [Merge pull request #218 from Leonxlnx/cursor/add-community-sponsors-2557](https://github.com/Leonxlnx/taste-skill/commit/6c0b5c78f5d31776e2210305abaa210cdc0030bf) | Leonxlnx |
 | 2026-11-22 | [Remove duplicate ajmalaksar25 community sponsor avatar](https://github.com/Leonxlnx/taste-skill/commit/ddb50023bc11991e96dbb3624a0e1d1c01769cbe) | cursoragent |
 | 2026-11-22 | [Add moritz-mode and ajmalaksar25 to community sponsors](https://github.com/Leonxlnx/taste-skill/commit/c971ee3b804a150492970d68d39eef83fe2a52d3) | cursoragent |
@@ -103,7 +104,6 @@
 | 2026-11-05 | [Merge main (#181, #182) into portfolio/alan/e596f504b4a2](https://github.com/Leonxlnx/taste-skill/commit/f578e23218be09ffd5b70debbfdec9fe8286d310) | Leonxlnx |
 | 2026-11-05 | [--root for the scripts that serve a page file (#182)](https://github.com/Leonxlnx/taste-skill/commit/151afddbe3be2bd5cadd4884d381dfa13fc920ff) | Leonxlnx |
 | 2026-11-05 | [Merge main (#181) into fix/grok-build/inspect-root](https://github.com/Leonxlnx/taste-skill/commit/7a373bf2ed1cb6799fe87816005e499435253dec) | Leonxlnx |
-| 2026-11-05 | [Each checked page gets its own report folder (#181)](https://github.com/Leonxlnx/taste-skill/commit/8fcde309b31c9d857c51a504548d95de12eb0e89) | Leonxlnx |
 
 [See all commits ↗](https://github.com/Leonxlnx/taste-skill/commits)
 

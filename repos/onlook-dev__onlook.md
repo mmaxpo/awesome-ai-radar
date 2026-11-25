@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 27.9k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [20](https://github.com/onlook-dev/onlook/issues) |
+| 🐞 **Open issues + PRs** | [22](https://github.com/onlook-dev/onlook/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `typescript` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` `astryx` `styled-components` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v2.0.2](https://github.com/onlook-dev/onlook/releases/tag/v2.0.2) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 89.6 MB |
+| 💾 **Size** | 89.7 MB |
 | 🌐 **Website** | https://onlook.com |
 
 ## 📦 Recent releases
 
 ### [v2.0.2](https://github.com/onlook-dev/onlook/releases/tag/v2.0.2) — Onlook 2.0
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > Onlook is a free, open-source editor for designers and visual engineers who shape their product in real code. This release is the Onlook desktop app: the Electron app, the canvas, and the layer that runs Claude Code or ChatGPT on your Mac.
 > - **Download:** [onlook.com/install](https://www.onlook.com/install). The app is free and works with the Claude or ChatGPT subscription you already have. macOS on Apple silicon and Intel.
@@ -81,16 +81,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [fix(canvas): stop idle highlights from repeatedly repainting (#3190)](https://github.com/onlook-dev/onlook/commit/76a8c4ea6faddbea5e5e61ee71184d41ea8cd149) | Krisodd |
-| 2026-11-24 | [fix(tips): keep keyboard shortcuts inside the dialog (ONL-3309) (#3188)](https://github.com/onlook-dev/onlook/commit/b7a73b06dd9519d0da2ac5f2ce27b3e327c401cd) | Krisodd |
-| 2026-11-24 | [fix: release failed preview pages and explain startup failures (#3182)](https://github.com/onlook-dev/onlook/commit/5f7179df729f3b0aed49f001cac99649b24bdc64) | Krisodd |
-| 2026-11-24 | [fix(chat): keep sign-in above the input (ONL-3348) (#3187)](https://github.com/onlook-dev/onlook/commit/ab80f996707d1699b3b4b4ec1f0acae48c4e2564) | Krisodd |
-| 2026-11-24 | [fix(canvas): place duplicated Frames beside their source (ONL-3315) (…](https://github.com/onlook-dev/onlook/commit/441fcdca2fc0b8198dbb309b444c98e4789a3d40) | Krisodd |
-| 2026-11-24 | [fix(env): recover GitHub status after shell capture failure (ONL-3332…](https://github.com/onlook-dev/onlook/commit/e6e0a7bbc3e3324ae4c3700d63a41d1c37648f4f) | Krisodd |
-| 2026-11-24 | [fix(projects): explain why a project cannot open (ONL-3346) (#3178)](https://github.com/onlook-dev/onlook/commit/df0fd4ed24e56ed413a4b2f75c37af011ca1972b) | Krisodd |
-| 2026-11-24 | [fix(canvas): capture off-screen Frames after resizing (ONL-3312) (#3185)](https://github.com/onlook-dev/onlook/commit/e5863503f7a6284262639060e67e691aa2339575) | Krisodd |
-| 2026-11-24 | [fix(tabs): show hover previews and git status on every project tab (O…](https://github.com/onlook-dev/onlook/commit/83338a39ba3cf79c339237f15734db3777a80478) | Krisodd |
-| 2026-11-24 | [fix(events): place steered chat messages at pickup (ONL-3306) (#3180)](https://github.com/onlook-dev/onlook/commit/c17bd784b793b12fddabb8c75b7a6d6374527ee3) | Krisodd |
+| 2026-11-25 | [docs: link the Windows download in the README (#3209)](https://github.com/onlook-dev/onlook/commit/20e374e0d548d7cc43b74b33d08c7e7905db2874) | Krisodd |
+| 2026-11-25 | [fix(updater): install Windows updates silently from Restart to update…](https://github.com/onlook-dev/onlook/commit/2ac0a2b9bce4110a615b5e484cec445cb7d4f7e7) | Krisodd |
+| 2026-11-25 | [fix(updater): recognize the Windows signing certificate (ONL-3378) (#…](https://github.com/onlook-dev/onlook/commit/c548999797028456a8b607e6710dfea83c6bd11f) | Krisodd |
+| 2026-11-25 | [fix(telemetry): bound link opens and count Mac cold starts (ONL-3374)…](https://github.com/onlook-dev/onlook/commit/474a78334f3f93ae75008aa8ab6243a76a98ff1c) | Krisodd |
+| 2026-11-25 | [fix(rail): let Help menus receive mouse clicks (ONL-3359) (#3201)](https://github.com/onlook-dev/onlook/commit/937bcfc6e367d4ab8b7dd35d6c7f11d1a070ad6c) | Krisodd |
+| 2026-11-25 | [fix(workspace): explain missing Git for New Blank Draft (ONL-3373) (#…](https://github.com/onlook-dev/onlook/commit/91a3ff9e8bb9894d44b7ff346e1808fafc977574) | Krisodd |
+| 2026-11-25 | [feat(telemetry): record when the app is opened from a link (ONL-3364)…](https://github.com/onlook-dev/onlook/commit/e07315ac1eec1f5f596a4be49989d3f0b61f1698) | drfarrell |
+| 2026-11-25 | [fix(agent-host): update Codex and Claude runtimes (ONL-3351) (#3195)](https://github.com/onlook-dev/onlook/commit/39ff91ce5a464ba4cd2d3b89f91053d3cc63981b) | Krisodd |
+| 2026-11-25 | [ci: package the unsigned Windows installer on every push to main (ONL…](https://github.com/onlook-dev/onlook/commit/fa0f4cc9dd39ebc3109da004f323d0a766ceabae) | Krisodd |
+| 2026-11-25 | [fix(project-setup): recover supported apps from port conflicts (#3194)](https://github.com/onlook-dev/onlook/commit/9ccb68a6b84ab046827018280670195f955b8801) | Krisodd |
 
 [See all commits ↗](https://github.com/onlook-dev/onlook/commits)
 

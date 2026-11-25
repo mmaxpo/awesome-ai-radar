@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 578 |
+| ⭐ **Stars** | 579 |
 | 🍴 **Forks** | 63 |
-| 🐞 **Open issues + PRs** | [28](https://github.com/pizza-bot-app/pizza-bot/issues) |
+| 🐞 **Open issues + PRs** | [35](https://github.com/pizza-bot-app/pizza-bot/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 5% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-06-26 |
 | 📦 **Latest release** | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 11.7 MB |
+| 💾 **Size** | 14.7 MB |
 | 🌐 **Website** | https://github.com/pizza-bot-app/pizza-bot/releases |
 
 ## 📦 Recent releases
 
 ### [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — Pizza Bot OSS 1.3.0
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **Highlights**
 > - **Opper provider.** You can use [Opper](https://opper.ai/) as a model provider. Thanks to @Felixkw12 for their first contribution! (#155)
@@ -83,16 +83,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #212 from pizza-bot-app/fix/surface-content-filter…](https://github.com/pizza-bot-app/pizza-bot/commit/06d6338561ac0969f0ab40a26320a7f8ec7f9ed2) | JoeDo |
-| 2026-11-23 | [fix(chat): surface replies blocked by the provider's content filter](https://github.com/pizza-bot-app/pizza-bot/commit/88789e8fa95a6fcf9998271cc9cc0aeb372bc222) | JoeDo |
-| 2026-11-23 | [Merge pull request #165 from pizza-bot-app/fix/bedrock-truncated-tool…](https://github.com/pizza-bot-app/pizza-bot/commit/1590bd7c1f9ba8eeda9be84d71cf9380999866b5) | JoeDo |
-| 2026-11-23 | [feat(web): show a status while a cut-off tool call is retried](https://github.com/pizza-bot-app/pizza-bot/commit/2305ccffe6d7b04d39727be16b70bf45948a8aa2) | igorfil |
-| 2026-11-23 | [fix(runtime): count cut-off retries against the model-call limit](https://github.com/pizza-bot-app/pizza-bot/commit/17865bf766aede6759c2017f279ac11706b7eb76) | igorfil |
-| 2026-11-23 | [fix(runtime): silently retry a tool call cut off at the output-token …](https://github.com/pizza-bot-app/pizza-bot/commit/c35d0ca80ed9904a8f2b29efcfb8aac264b7c4d3) | igorfil |
-| 2026-11-23 | [fix(runtime): tell the orchestrator when its tool call was cut off](https://github.com/pizza-bot-app/pizza-bot/commit/3c2e7de7913138e9fe746d03a43fd3fcaac21a0a) | igorfil |
-| 2026-11-23 | [fix(bedrock): drop every assistant turn Converse cannot replay](https://github.com/pizza-bot-app/pizza-bot/commit/71774d7306d601aa34f86697d91eea5e94e78d5f) | igorfil |
-| 2026-11-23 | [fix(bedrock): drop invalid tool calls before Converse replay](https://github.com/pizza-bot-app/pizza-bot/commit/0b947b3f4c3aafc644fe4cae97f4db92179bc52b) | igorfil |
-| 2026-11-22 | [fix: address non-blocking review notes from #205, #206 and #207 (#208)](https://github.com/pizza-bot-app/pizza-bot/commit/9c709ed9206ae1587bb784adf2a5b19ecdf8b9b9) | JoeDo |
+| 2026-11-25 | [Merge pull request #224 from pizza-bot-app/feat/head-app-icon](https://github.com/pizza-bot-app/pizza-bot/commit/852e68257f053c1114d7f3fc580cf69e093e18b8) | JoeDo |
+| 2026-11-25 | [feat: use the robot's head as the app icon](https://github.com/pizza-bot-app/pizza-bot/commit/77e4b07e85858a6e3e4ad3cde0b97cea31bb7cd4) | JoeDo |
+| 2026-11-24 | [fix(runtime): refuse eval task() dispatch to approval-gated skills](https://github.com/pizza-bot-app/pizza-bot/commit/ecca27c625de3e6fdb6aca70757205ddc5e2f231) | JoeDo |
+| 2026-11-24 | [fix(runtime): give each task() dispatched from eval its own tool call id](https://github.com/pizza-bot-app/pizza-bot/commit/25aa663a4d5a7c1cccfee4dd775a0fb984782da0) | JoeDo |
+| 2026-11-24 | [Merge pull request #214 from pizza-bot-app/feat/trigger-names](https://github.com/pizza-bot-app/pizza-bot/commit/ef7f4c2e92a10f629d7b04562012a643998c6679) | JoeDo |
+| 2026-11-24 | [Merge pull request #213 from pizza-bot-app/feat/unified-resource-deta…](https://github.com/pizza-bot-app/pizza-bot/commit/847a72b87132ee3417bdd334d9a2db9b56fcd728) | JoeDo |
+| 2026-11-24 | [Merge pull request #110 from pizza-bot-app/delete-mcp](https://github.com/pizza-bot-app/pizza-bot/commit/4d70633075b65bf6de4a9275343c00025ff2f251) | JoeDo |
+| 2026-11-24 | [feat: optional names for schedules and webhooks](https://github.com/pizza-bot-app/pizza-bot/commit/8f00969e1e7609bdd59019aa912df7a82573abec) | JoeDo |
+| 2026-11-24 | [feat(web): read-only detail view with one header action for every res…](https://github.com/pizza-bot-app/pizza-bot/commit/86e6919ab7a9ca04a8a31ffa4d7424d91c2398c2) | JoeDo |
+| 2026-11-24 | [fix(web): refetch an MCP server's config after saving it](https://github.com/pizza-bot-app/pizza-bot/commit/da1e9832aba27b43fca30699a5fe8a51820aa40d) | JoeDo |
 
 [See all commits ↗](https://github.com/pizza-bot-app/pizza-bot/commits)
 

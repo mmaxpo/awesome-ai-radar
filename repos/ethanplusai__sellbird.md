@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 7.2k |
+| ⭐ **Stars** | 7.3k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [90](https://github.com/ethanplusai/sellbird/issues) |
-| 💻 **Languages** | Python 92% · JavaScript 5% · CSS 2% · HTML 1% |
+| 🐞 **Open issues + PRs** | [96](https://github.com/ethanplusai/sellbird/issues) |
+| 💻 **Languages** | Python 87% · JavaScript 8% · CSS 3% · HTML 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` `sales-agent` `grok` `grok-bot` |
-| 🕒 **Last activity** | 2026-11-18 (6d ago) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-03-12 |
-| 📦 **Latest release** | [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 2026-11-06 |
+| 📦 **Latest release** | [v0.5.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.5.0) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.4 MB |
+| 💾 **Size** | 25.0 MB |
 | 🌐 **Website** | https://sellbird.ai |
 
 ## 📦 Recent releases
 
+### [v0.5.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.5.0) — 0.5.0: your sales team, inside your agent
+<sub>2026-11-25 · today</sub>
+
+> Sellbird finds the businesses worth talking to, writes the first email and every follow-up, and books the meeting. With 0.5 it lives where you already work: in Claude Code, Claude desktop and Codex.
+> - **Connect in one click.** Run `sellbird connect`, or press Connect next to Claude Code, Claude desktop or Codex in the dashboard. No config files to edit, no keys pasted anywhere. Your agent gets its own key with limited reach.
+> - **Ask your agent "What needs me?"** It answers with a card in the chat: what Sellbird did overnight, what's waiting for your OK, how each campaign is doing. One click opens the full app right next to the chat, already signed in.
+> - **A new app, built around your agent.** A dock with six places: Today, Outbound, Inbound, People, Calendar and Numbers, plus Set up. Pages open with one sentence on where things stand. Today shows what your agent did and what only you can decide. Drafts show why each person was picked.
+> - **Everything in one place.** Outbound, inbound leads from your site's forms, texts to people who said yes, brand mentions, social playbooks, people with stages and deals, a real calendar with week and month views, and numbers with charts over time and a found-to-meeting funnel.
+> - **You stay in charge.** Your agent can read, draft, plan and explain. Approving, sending, buying and resuming are always your clicks.
+> …
+
 ### [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 0.4.0: Harvey is now Sellbird
-<sub>2026-11-06 · 17d ago</sub>
+<sub>2026-11-06 · 18d ago</sub>
 
 > > **Follow [@sellbirdagent](https://x.com/sellbirdagent) on X** for new releases, features and the roadmap.
 > Harvey has a new name: **Sellbird**. Same project, same history, same maintainers. Your stars, forks and issues are all here, and every old `github.com/ethanplusai/harvey` link redirects.
@@ -72,16 +83,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [Merge pull request #269 from ethanplusai/feat/x-in-cli](https://github.com/ethanplusai/sellbird/commit/b212385259da92246a56311d790d936e75dd70dd) | ethanplusai |
-| 2026-11-18 | [Link @sellbirdagent from setup's summary, and open release notes with it](https://github.com/ethanplusai/sellbird/commit/edbfea80e79ba1b913ddc3b3bcf46597131a1c96) | ethanplusai |
-| 2026-11-18 | [Merge pull request #267 from ethanplusai/feat/follow-on-x](https://github.com/ethanplusai/sellbird/commit/d315300838999f5fd62c37ecdac2d763a84cdc8a) | ethanplusai |
-| 2026-11-18 | [Point people at @sellbirdagent on X from the README and the dashboard](https://github.com/ethanplusai/sellbird/commit/724dcf96e2aa63189e60e096d0d132801100242a) | ethanplusai |
-| 2026-11-18 | [Merge pull request #265 from ethanplusai/docs/trendshift-badge](https://github.com/ethanplusai/sellbird/commit/964a3a73ba51eef22a621715b0aabfea8d788db7) | ethanplusai |
-| 2026-11-18 | [Add the Trendshift badge to the README](https://github.com/ethanplusai/sellbird/commit/5ae5b191651c297ceffb1be18d618fc781f1506f) | ethanplusai |
-| 2026-11-11 | [Merge pull request #238 from ethanplusai/fix/no-tip-status](https://github.com/ethanplusai/sellbird/commit/25ec83978b21d16ae20779d09bfea113f37f0ef8) | ethanplusai |
-| 2026-11-11 | [Test: read app.js as UTF-8, so the label check passes on Windows](https://github.com/ethanplusai/sellbird/commit/d7297c4f9a64c33e6dda5bd264e363d81c210447) | ethanplusai |
-| 2026-11-11 | [no_tip: a dashboard label, a count in sellbird status, and a way back](https://github.com/ethanplusai/sellbird/commit/58275518c3facceb11cffc5c01ac6ecf54f3772f) | ethanplusai |
-| 2026-11-11 | [Merge pull request #233 from mattia33011/feat/writer-site-facts](https://github.com/ethanplusai/sellbird/commit/1fe9c48ae2158d638ca73ec96e8a6108c7e57a6f) | ethanplusai |
+| 2026-11-25 | [Merge pull request #309 from ethanplusai/feat/agent-first-ui](https://github.com/ethanplusai/sellbird/commit/8c743f1c475f61f7b2c04e50501cf6938a126ed6) | ethanplusai |
+| 2026-11-25 | [README: Sellbird shown inside Claude and Codex, and the app in a wind…](https://github.com/ethanplusai/sellbird/commit/6717494d245d7b8a4c54b2f6a4a932d787cfa392) | ethanplusai |
+| 2026-11-25 | [Tests pass on Linux and Windows: the desktop install test uses this c…](https://github.com/ethanplusai/sellbird/commit/6d01e693d95cf7627af9dd77ce08824c85f58255) | ethanplusai |
+| 2026-11-25 | [CLA: Florida law. NOTICE: Voyage Studios LLC, doing business as Sellb…](https://github.com/ethanplusai/sellbird/commit/bfe73bff91f89b326922701c1ad3d1db8da41ea4) | ethanplusai |
+| 2026-11-25 | [Add the Sellbird Contributor License Agreement and a bot that checks …](https://github.com/ethanplusai/sellbird/commit/a494279e5fb0323a466af6bdc6d561a81690e9aa) | ethanplusai |
+| 2026-11-24 | [Sellbird 0.5.0](https://github.com/ethanplusai/sellbird/commit/3d1ce72bc5fac331d22185050b8f041138e15950) | ethanplusai |
+| 2026-11-24 | [README and docs for 0.5: Sellbird inside your agent, the new app, upg…](https://github.com/ethanplusai/sellbird/commit/500601a317d33e48533bb8f141c5a291b60e22eb) | ethanplusai |
+| 2026-11-24 | [Setup wizard banner lines up again](https://github.com/ethanplusai/sellbird/commit/70e343b663277abeb615907aca6b9e7e34033bdf) | ethanplusai |
+| 2026-11-24 | [Fresh-install fixes: plain empty status, no warmup check on the examp…](https://github.com/ethanplusai/sellbird/commit/f6dd87f0ec100b3704139173e6f885be6a1372fd) | ethanplusai |
+| 2026-11-24 | [A card posts its click straight to the dashboard when the app won't](https://github.com/ethanplusai/sellbird/commit/28fa60a78d331e43fc5375a8becd8ac82d95503a) | ethanplusai |
 
 [See all commits ↗](https://github.com/ethanplusai/sellbird/commits)
 

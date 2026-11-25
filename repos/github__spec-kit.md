@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 151.3k |
+| ⭐ **Stars** | 151.4k |
 | 🍴 **Forks** | 13.6k |
-| 🐞 **Open issues + PRs** | [236](https://github.com/github/spec-kit/issues) |
+| 🐞 **Open issues + PRs** | [232](https://github.com/github/spec-kit/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% · PowerShell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `copilot` `development` `engineering` `prd` `spec` `spec-driven` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-08-21 |
 | 📦 **Latest release** | [v1.4.4](https://github.com/github/spec-kit/releases/tag/v1.4.4) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.4 MB |
+| 💾 **Size** | 23.5 MB |
 | 🌐 **Website** | https://github.github.com/spec-kit/ |
 
 ## 📦 Recent releases
 
 ### [v1.4.4](https://github.com/github/spec-kit/releases/tag/v1.4.4) — Spec Kit - 1.4.4
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Install**
 > ```bash
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.4.3](https://github.com/github/spec-kit/releases/tag/v1.4.3) — Spec Kit - 1.4.3
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **Install**
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.4.2](https://github.com/github/spec-kit/releases/tag/v1.4.2) — Spec Kit - 1.4.2
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **Install**
 > ```bash
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.4.0](https://github.com/github/spec-kit/releases/tag/v1.4.0) — Spec Kit - 1.4.0
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **Install**
 > ```bash
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [fix(extensions): parse command frontmatter after a UTF-8 BOM (#5562)](https://github.com/github/spec-kit/commit/7609822ee538c1a2b6541b0675bfb120cdad2fe9) | leninworld |
+| 2026-11-25 | [fix(extensions): fall back to in-memory archive when the unlinked dow…](https://github.com/github/spec-kit/commit/653840318ea05264bc12d32ec1bad16697892fab) | orshih6 |
+| 2026-11-25 | [fix(presets): report preset layers hidden by project overrides (#5560)](https://github.com/github/spec-kit/commit/22ee44302495d381f5eeeafb991bf3c992995f5a) | dleontev |
+| 2026-11-25 | [fix: accept UTF-8 BOM in bundler JSON readers (#5557)](https://github.com/github/spec-kit/commit/542a2973f1eda4c53c88d075b8b283ca14660bf5) | chelsealong |
+| 2026-11-24 | [fix(extensions): keep edited skill resources on an unforced integrati…](https://github.com/github/spec-kit/commit/f61648db96b5ac5eb65a54577865dafc2c830a7c) | kartsan03 |
+| 2026-11-24 | [fix(integrations): decode captured dispatch_command output as UTF-8 (…](https://github.com/github/spec-kit/commit/edf5067e389dbe5ba81f5d9df1555143478cc3c6) | adityajai119 |
+| 2026-11-24 | [chore: migrate shared infrastructure writes to FileHelper (#5543)](https://github.com/github/spec-kit/commit/4d7cb8e524189369f00376df6284246d3cc4434a) | mnriem |
+| 2026-11-24 | [fix(presets): resolve script artifacts through the CLI (#5415)](https://github.com/github/spec-kit/commit/7def2cdeaa74024147ccc80763fe77c30ce44ef4) | Verlintas |
+| 2026-11-24 | [fix(scripts): reconfigure stdout and stderr as UTF-8 in setup_tasks.p…](https://github.com/github/spec-kit/commit/c4b8da9eff5c20eb540e34d752cff20ee87a9ef5) | adityajai119 |
 | 2026-11-24 | [docs: add spec-visualizer to community friends (#5549)](https://github.com/github/spec-kit/commit/e59953dd63947b16d1a3193903223dd3b52547c1) | josephleee |
-| 2026-11-23 | [[Copilot Dreaming] Avoid rejecting valid extension IDs with digits (#…](https://github.com/github/spec-kit/commit/a55782f1f1e7f2469cb204843c05d1a42fa2fae7) | Copilot |
-| 2026-11-23 | [fix(copilot): suppress discarded prompt hook output (#5547)](https://github.com/github/spec-kit/commit/97487e2a5c358bf5e4c414bfb4d7637895741187) | XSY-28 |
-| 2026-11-23 | [fix(scripts): emit raw UTF-8 bytes without newline mangling in resolv…](https://github.com/github/spec-kit/commit/c1205067bd320e6e47fd260eaffbec3c5a62004d) | adityajai119 |
-| 2026-11-23 | [fix(auth): decode az and gh CLI credentials as UTF-8 in caller thread…](https://github.com/github/spec-kit/commit/5fd2d2a97bac4f449cdb4efff4d64a12804d7b36) | adityajai119 |
-| 2026-11-23 | [fix: allow more time for loopback TLS in integration tests (#5513)](https://github.com/github/spec-kit/commit/f323a4d1b53e12bb1f5732e5a8e8277320ad6e8c) | chelsealong |
-| 2026-11-23 | [Add Task Consolidation extension to community catalog (#5530)](https://github.com/github/spec-kit/commit/b8efe6b59dbf6b1eb1386d64f0ecfb4f2dd3f553) | github-actions[bot] |
-| 2026-11-23 | [chore: release 1.4.4, begin 1.4.5.dev0 development (#5537)](https://github.com/github/spec-kit/commit/51a897f41c420ab09e8812e3d2871b3f4aa7f350) | mnriem |
-| 2026-11-23 | [Update T-Shirt Sizing Gate to v0.2.1 (#5529)](https://github.com/github/spec-kit/commit/f5a6ef9af61b1c6a09f8ef1d1a10091d68c57f9f) | github-actions[bot] |
-| 2026-11-23 | [Exit non-zero from integration upgrade when no integration is install…](https://github.com/github/spec-kit/commit/fbafea212c9a10f5e80296ee9abdd5c8461fab14) | yxshee |
 
 [See all commits ↗](https://github.com/github/spec-kit/commits)
 

@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 39.2k |
-| 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [834](https://github.com/stanfordnlp/dspy/issues) |
+| 🍴 **Forks** | 3.6k |
+| 🐞 **Open issues + PRs** | [841](https://github.com/stanfordnlp/dspy/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-01-09 |
 | 📦 **Latest release** | [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 183.6 MB |
+| 💾 **Size** | 183.8 MB |
 | 🌐 **Website** | https://dspy.ai |
 
 ## 📦 Recent releases
 
 ### [3.5.0](https://github.com/stanfordnlp/dspy/releases/tag/3.5.0)
-<sub>2026-11-10 · 13d ago</sub>
+<sub>2026-11-10 · 14d ago</sub>
 
 > **DSPy 3.5: A Lighter, Faster Foundation**
 > DSPy 3.5 brings a lighter LM layer, graduated core modules, and new History and image capabilities for RLM.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Refresh model metadata from LiteLLM 1.111.0 (#10962)](https://github.com/stanfordnlp/dspy/commit/644e1a93d52805fe19b796750e63e6590e2ae905) | isaacbmiller |
 | 2026-11-24 | [Refresh model metadata provenance to LiteLLM 1.110.3 (#10952)](https://github.com/stanfordnlp/dspy/commit/2ae73ca33372aa0a172bcb27584f03aaaf4d7e18) | isaacbmiller |
 | 2026-11-21 | [Refresh model metadata provenance to LiteLLM 1.110.2 (#10933)](https://github.com/stanfordnlp/dspy/commit/226d534da38ab8a39e4d6383e01e121dab50da51) | isaacbmiller |
 | 2026-11-19 | [Refresh model metadata provenance to LiteLLM 1.110.1 (#10917)](https://github.com/stanfordnlp/dspy/commit/7fbc8ff1665ee87122f06633270782dbf1f69c6b) | isaacbmiller |
@@ -103,7 +104,6 @@
 | 2026-11-10 | [Update versions for 3.5.0 (#10865)](https://github.com/stanfordnlp/dspy/commit/5708342f3c88b78fc3566d8294af4b1a50154c19) | github-actions[bot] |
 | 2026-11-10 | [fix(dspy): find dspy's distribution by the package it installs (#10864)](https://github.com/stanfordnlp/dspy/commit/4e9db7a83e71e4c36315a2402ae7ffd0c6493404) | isaacbmiller |
 | 2026-11-10 | [fix(clients): exclude LiteLLM releases with eager MCP imports (#10863)](https://github.com/stanfordnlp/dspy/commit/4f2ecefc50a31d9e67b621f88c072cee17736753) | isaacbmiller |
-| 2026-11-10 | [docs(dspy): add concise DSPy 3.5 upgrade guide (#10862)](https://github.com/stanfordnlp/dspy/commit/743b0ce16dae7be1e64858724bde95746dacc15b) | isaacbmiller |
 
 [See all commits ↗](https://github.com/stanfordnlp/dspy/commits)
 

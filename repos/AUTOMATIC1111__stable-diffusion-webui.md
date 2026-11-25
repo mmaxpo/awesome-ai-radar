@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 165.4k |
-| 🍴 **Forks** | 31.1k |
+| 🍴 **Forks** | 31.0k |
 | 🐞 **Open issues + PRs** | [2.5k](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues) |
 | 💻 **Languages** | Python 87% · JavaScript 8% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |

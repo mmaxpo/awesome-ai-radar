@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 128.9k |
+| ⭐ **Stars** | 129.0k |
 | 🍴 **Forks** | 14.2k |
 | 🐞 **Open issues + PRs** | [304](https://github.com/VoltAgent/awesome-design-md/issues) |
 | 💻 **Languages** | — |

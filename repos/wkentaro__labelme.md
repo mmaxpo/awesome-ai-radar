@@ -22,21 +22,31 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 3.7k |
-| 🐞 **Open issues + PRs** | [80](https://github.com/wkentaro/labelme/issues) |
+| 🐞 **Open issues + PRs** | [82](https://github.com/wkentaro/labelme/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `image-annotation` `python` `computer-vision` `annotations` `deep-learning` `semantic-segmentation` `instance-segmentation` `video-annotation` `classification` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2016-05-09 |
-| 📦 **Latest release** | [v7.11.0](https://github.com/wkentaro/labelme/releases/tag/v7.11.0) — 2026-11-14 |
+| 📦 **Latest release** | [v7.11.1](https://github.com/wkentaro/labelme/releases/tag/v7.11.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 71.6 MB |
 | 🌐 **Website** | https://labelme.io |
 
 ## 📦 Recent releases
 
+### [v7.11.1](https://github.com/wkentaro/labelme/releases/tag/v7.11.1)
+<sub>2026-11-25 · today</sub>
+
+> **Fixed**
+> - AI-Segment and AI-Find All work again on images over 179 MP, which failed with "Image size exceeds limit" since 7.11.0. Labelme sends the AI server the image at the model's input size instead of in full, so SAM2 segments a 600 MP image in about a second. Labelme requires osam 0.12.1 or later. ([#3126](https://github.com/wkentaro/labelme/pull/3126))
+> - Auto-save in a folder of thousands of Images no longer rescans every Image after each save, which paused the window for up to 0.3 s per save at 50k Images. The first save after opening a folder still indexes it once. ([#3129](https://github.com/wkentaro/labelme/pull/3129))
+> - Browsing Images with a kept Brightness/Contrast no longer grows memory by the size of each Image it opens. ([#3130](https://github.com/wkentaro/labelme/pull/3130))
+> - Merging Mask Shapes moved by half a pixel no longer shifts one of them a pixel away from the others. ([#3132](https://github.com/wkentaro/labelme/pull/3132))
+> - The AI Models panel opens faster by sharing a single model catalog read with the toolbar. ([#3147](https://github.com/wkentaro/labelme/pull/3147))
+
 ### [v7.11.0](https://github.com/wkentaro/labelme/releases/tag/v7.11.0)
-<sub>2026-11-14 · 10d ago</sub>
+<sub>2026-11-14 · 11d ago</sub>
 
 > **Changed**
 > - SAM 3 asks to be downloaded again, as 1.8 GB on a GPU or 3.7 GB on the CPU, and asks again for its CPU files when AI falls back to the CPU. Its files from earlier versions stay on disk. ([#3099](https://github.com/wkentaro/labelme/pull/3099))
@@ -47,7 +57,7 @@
 > …
 
 ### [v7.10.0](https://github.com/wkentaro/labelme/releases/tag/v7.10.0)
-<sub>2026-11-13 · 11d ago</sub>
+<sub>2026-11-13 · 12d ago</sub>
 
 > **Added**
 > - Allow drawing Polygon and LineStrip paths by dragging, simplifying strokes into fewer vertices while preserving click-to-add input. ([#2757](https://github.com/wkentaro/labelme/pull/2757))
@@ -75,16 +85,11 @@
 > - The Image List has a footer that shows the Annotation Folder and how many images are annotated, for example "3 of 5 annotated · next to images", with Change Annotation Folder… and an option to go back to saving next to images. A remembered folder that is missing shows a warning there. ([#2776](https://github.com/wkentaro/labelme/pull/2776), [#2778](https://github.com/wkentaro/labelme/pull/2778), [#2808](https://github.com/wkentaro/labelme/pull/2808))
 > …
 
-### [v7.8.1](https://github.com/wkentaro/labelme/releases/tag/v7.8.1)
-<sub>2026-10-07 · 1mo ago</sub>
-
-> **Fixed**
-> - Avoid image hashing when loading images while preserving AI embedding reuse when revisiting unchanged images. ([#2741](https://github.com/wkentaro/labelme/pull/2741))
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [chore: prep 7.11.1 release](https://github.com/wkentaro/labelme/commit/6e9cd37a038bfbd471052475715c68714c525d14) | wkentaro |
 | 2026-11-24 | [Merge pull request #3142 from wkentaro/perf/match-reachable-shapes](https://github.com/wkentaro/labelme/commit/c9d042f849ed644b0ac056eb51a397e9ae1e8692) | wkentaro |
 | 2026-11-24 | [refactor: box an existing Shape once, with the way to draw it](https://github.com/wkentaro/labelme/commit/58b5d1b5c431f73c3aceb9a0eecda8861c6bf012) | wkentaro |
 | 2026-11-24 | [perf: scale an existing Shape down once when a candidate reaches it](https://github.com/wkentaro/labelme/commit/ebf1878ff3fb4fdf508f3aeaf372af515761d0b4) | wkentaro |
@@ -94,7 +99,6 @@
 | 2026-11-24 | [perf: stop asking whether a redraw is empty at its first pixel](https://github.com/wkentaro/labelme/commit/3e2b8fbbce4f5d8ae59ec502441a8886df20e71c) | wkentaro |
 | 2026-11-24 | [perf: tell a redraw draws something without sampling its edges](https://github.com/wkentaro/labelme/commit/fd13be32c1f35738cea14f21a12a394509d449e1) | wkentaro |
 | 2026-11-24 | [fix: rank a click by the scaled-up mask when the redraw is empty](https://github.com/wkentaro/labelme/commit/e15f29623adecc58ffb29e8d6f07227e0b83ee56) | wkentaro |
-| 2026-11-24 | [fix: rank a click's candidates by the mask their Shape will have](https://github.com/wkentaro/labelme/commit/f2c1ab8b9702ad580dcce60525650c1998457a26) | wkentaro |
 
 [See all commits ↗](https://github.com/wkentaro/labelme/commits)
 

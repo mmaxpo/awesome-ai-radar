@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.7k |
-| 🍴 **Forks** | 243 |
-| 🐞 **Open issues + PRs** | [473](https://github.com/restatedev/restate/issues) |
+| 🍴 **Forks** | 246 |
+| 🐞 **Open issues + PRs** | [475](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.3](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.3) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 118.2 MB |
+| 💾 **Size** | 118.7 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
 ### [v1.8.1-hotfix.3](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.3)
-<sub>2026-11-20 · 3d ago</sub>
+<sub>2026-11-20 · 4d ago</sub>
 
 > **Restate v1.8.1-hotfix.3**
 > **Install**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 22d ago</sub>
+<sub>2026-11-02 · 23d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [[DataFusion] Show scheduled_start_at whenever it is selected](https://github.com/restatedev/restate/commit/7667acf7527cd1a75acc2d052ebda0d903f09b00) | AhmedSoliman |
-| 2026-11-24 | [[QueryEngineV2] Ship index candidates to partitions instead of one index](https://github.com/restatedev/restate/commit/7f97e9727761f88102f7b56d34b415c556c15c36) | AhmedSoliman |
-| 2026-11-24 | [[Types] Derive record and invoker size overheads from one source](https://github.com/restatedev/restate/commit/69c7e0c56e247920ce2a3c69ea4c8e05bfb28056) | tillrohrmann |
-| 2026-11-24 | [[Invoker] Keep the per-invocation memory limit above the accepted mes…](https://github.com/restatedev/restate/commit/dc09481a413e07f8a30e59cca7e93b82c390ffb7) | tillrohrmann |
-| 2026-11-24 | [Write stage keys with entry statuses in the vqueue entry fixtures](https://github.com/restatedev/restate/commit/f48e373386e967289bb51d6683a310be25d0d43d) | AhmedSoliman |
-| 2026-11-24 | [[QueryEngineV2] Let a sort's demand pass projections with computed co…](https://github.com/restatedev/restate/commit/8e38ace030fe37f78b81f694ce3214238c18f3e5) | AhmedSoliman |
-| 2026-11-23 | [[QueryEngineV2] Scan only the listed partition keys of invocations an…](https://github.com/restatedev/restate/commit/64c32a03f809ddf4c1c70c1c0b980594abc0c64a) | AhmedSoliman |
-| 2026-11-23 | [[QueryEngineV2] Check partition keys on every index read before fetching](https://github.com/restatedev/restate/commit/bc6e03fb11dcb1615142ad1c702752a10bccf8e4) | AhmedSoliman |
-| 2026-11-23 | [[QueryEngineV2] Fetch only the named objects' statuses from an entry …](https://github.com/restatedev/restate/commit/641900c359d5aedb0bc704261a2453e8cdf63173) | AhmedSoliman |
-| 2026-11-23 | [Show each invocation's stage and effective status in V1](https://github.com/restatedev/restate/commit/6bfe5e966060d4b34db79a296714656b3a587ffa) | AhmedSoliman |
+| 2026-11-25 | [[UI] Updating Restate UI to v1.1.9 published at https://github.com/re…](https://github.com/restatedev/restate/commit/40ec026463640d09df12c36fd2d1d71dd922b048) | restatedev-web-ui[bot] |
+| 2026-11-25 | [Update connection pool readme to match implementation (#6049)](https://github.com/restatedev/restate/commit/53ac888901bcc4d57a960d50787eb0efed77b38c) | muhamadazmy |
+| 2026-11-24 | [[PartitionStore] Keep only the entry indexes in use](https://github.com/restatedev/restate/commit/f1f3fede8baf740ea8b966aa52617283180543f5) | AhmedSoliman |
+| 2026-11-24 | [[QueryEngineV2] Name indexes after their storage definitions](https://github.com/restatedev/restate/commit/d0c6ad2046cd27f6b7e594e28a8939aac11446d4) | AhmedSoliman |
+| 2026-11-24 | [[Admin] Report in /version whether the statistics tables can answer](https://github.com/restatedev/restate/commit/82f204c839f1cd0dedc1d0aa54b08df18c59438d) | AhmedSoliman |
+| 2026-11-24 | [Enable indexes and statistics with one option](https://github.com/restatedev/restate/commit/570b2131c776a235113a9cc4887d20e9888724d9) | AhmedSoliman |
+| 2026-11-24 | [[DataFusion] Never return partial statistics totals, also without num…](https://github.com/restatedev/restate/commit/885610a971233aa28b9aaf2149a11f4ba948758c) | AhmedSoliman |
+| 2026-11-24 | [[QueryEngineV2] Move the leader at admission in the stale-owner tests](https://github.com/restatedev/restate/commit/94d699c7fd9f22c6aa719b4f3b3be37243cda9de) | AhmedSoliman |
+| 2026-11-24 | [Always decode blobs even with large values](https://github.com/restatedev/restate/commit/407288eb1fa5ab0d0c30e5bce1dae97d2a645e45) | muhamadazmy |
+| 2026-11-24 | [Store invocation results in a dedicated blob table (#5198)](https://github.com/restatedev/restate/commit/ac2ba0c34747572252db13c4d3281b6208f45f88) | muhamadazmy |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

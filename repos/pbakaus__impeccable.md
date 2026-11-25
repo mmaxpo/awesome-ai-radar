@@ -20,64 +20,68 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 116.1k |
-| 🍴 **Forks** | 6.9k |
-| 🐞 **Open issues + PRs** | [69](https://github.com/pbakaus/impeccable/issues) |
-| 💻 **Languages** | Rust 75% · JavaScript 23% · TypeScript 1% |
+| ⭐ **Stars** | 116.7k |
+| 🍴 **Forks** | 7.0k |
+| 🐞 **Open issues + PRs** | [72](https://github.com/pbakaus/impeccable/issues) |
+| 💻 **Languages** | Rust 72% · JavaScript 25% · TypeScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai` `anti-slop` `design` `slop` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-11-16 |
-| 📦 **Latest release** | [engine-v0.1.29](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.29) — 2026-11-24 |
+| 📦 **Latest release** | [skill-v4.11.0](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.11.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 911.2 MB |
+| 💾 **Size** | 911.3 MB |
 | 🌐 **Website** | https://impeccable.style |
 
 ## 📦 Recent releases
 
-### [engine-v0.1.29](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.29) — impeccable engine engine-v0.1.29
+### [skill-v4.11.0](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.11.0) — Skill 4.11.0
 <sub>2026-11-24 · today</sub>
+
+> - **Every save says where it went.** A critique, audit or scan ends with `Saved to Impeccable` and its link, or says plainly why it wasn't saved.
+> - **Critiques carry their pictures.** A saved critique names the page it viewed, so Impeccable can show that page on desktop and phone beside the findings.
+> - **Taste for the kind of work.** Your agent reads the design rules for what it is making (web, slides or motion), not all of them at once.
+
+### [cli-v4.11.0](https://github.com/pbakaus/impeccable/releases/tag/cli-v4.11.0) — CLI 4.11.0
+<sub>2026-11-24 · today</sub>
+
+> - **Every upload names its page.** Critiques, audits, scans and accepted prototypes print `Saved to Impeccable` with a link, or say plainly why they weren't saved. `live-poll --json` puts the link on the accept event.
+> - **Critiques arrive whole.** A saved critique carries its page's title, every heuristic's score and all four severity counts. Afterwards, in the background, Impeccable takes a desktop and a phone picture of the page and refreshes the project's Design health and Foundations, at most once a day. Nothing waits on either.
+> - **Two clones, two names.** A project with no remote also sends the name of the folder it sits in, so two checkouts called the same thing can be told apart. Never a path, and never your home folder's name.
+> - **Taste for the kind of work.** `impeccable taste` shows the design rules for web, slides or motion work, and `impeccable taste note` records a new one. It says when your own taste is paused.
+> - **Loop in Cursor, Copilot and opencode.** `loop connect --agent cursor`, `copilot` or `opencode` adds Impeccable to that agent, and with Loop 0.2.0 the agent wakes when you answer. `loop disconnect` puts your files back as they were.
+> - **Codex trusts Impeccable's hooks.** `loop connect --agent codex` trusts the hooks it adds, so Codex no longer asks you to review them. Your own hooks stay as you left them.
+> …
+
+### [engine-v0.1.30](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.30) — impeccable engine engine-v0.1.30
+<sub>2026-11-24 · today</sub>
+
+> Prebuilt impeccable engine binaries (engine-v0.1.30). The launcher, the npm shim and impeccable install download these on first run. Docs: https://impeccable.style
+
+### [engine-v0.1.29](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.29) — impeccable engine engine-v0.1.29
+<sub>2026-11-24 · yesterday</sub>
 
 > Prebuilt impeccable engine binaries (engine-v0.1.29). The launcher, the npm shim and impeccable install download these on first run. Docs: https://impeccable.style
 
 ### [loop-v0.2.1](https://github.com/pbakaus/impeccable/releases/tag/loop-v0.2.1) — Impeccable Loop 0.2.1
-<sub>2026-11-22 · yesterday</sub>
+<sub>2026-11-22 · 2d ago</sub>
 
 > Agents' faces show what they're doing, even at small sizes. Settings has more face sets to choose from, and each changes expression with the agent's mood. Settings shows each agent's state once, and Loop folds to its small form when it goes offline.
-
-### [engine-v0.1.28](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.28) — impeccable engine engine-v0.1.28
-<sub>2026-11-19 · 4d ago</sub>
-
-> Prebuilt impeccable engine binaries (engine-v0.1.28). The launcher, the npm shim and impeccable install download these on first run. Docs: https://impeccable.style
-
-### [skill-v4.10.0](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.10.0) — Skill 4.10.0
-<sub>2026-11-18 · 5d ago</sub>
-
-> - **DESIGN.md as a map.** A long DESIGN.md reaches your agent as a short map of where tokens, components and layouts live, and the agent looks up one token, component or section when it needs it. `design-compact` proposes the map and writes it only when you agree.
-> - **Drift you can act on.** When the code contradicts DESIGN.md, Impeccable names what it contradicts.
-> - **Motion you can check.** `animate` captures the motion it built and reviews it from that evidence.
-> - **Finished world runs.** A world run ends with the site, walks its direction over the captures before the final review, and records DESIGN.md from what shipped.
-> - **Steadier Live.** The Live bar stays still under the pointer, and the missing PRODUCT.md notice shows once.
-
-### [loop-v0.2.2](https://github.com/pbakaus/impeccable/releases/tag/loop-v0.2.2) — Impeccable Loop 0.2.2
-<sub>2026-11-23 · yesterday</sub>
-
-> With nothing waiting, Loop's first card copies a short prompt so your agent can say hi, and its hello arrives as its first card. Loop no longer wakes a Codex session that ran with full access; its card waits for you.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-18 | [Carry engine 0.1.27 checksums into every harness's skill copy](https://github.com/pbakaus/impeccable/commit/b49177d32788f2dc585c42831d845dacf1ebed2c) | pbakaus |
-| 2026-11-18 | [Record engine 0.1.27 checksums and pin its platform packages](https://github.com/pbakaus/impeccable/commit/ab3617920fcdb5009163a725ba8ff59927a63474) | pbakaus |
-| 2026-11-18 | [Engine 0.1.27 with side-tab on rounded boxes only](https://github.com/pbakaus/impeccable/commit/645925acd71b18558488c5b8d8f263404cb68db8) | pbakaus |
-| 2026-11-18 | [Merge remote-tracking branch 'origin/next' into release/cli-4.10.0](https://github.com/pbakaus/impeccable/commit/109f9cf85d2497a1a906b7685a7c3a4afca7d3dc) | pbakaus |
-| 2026-11-18 | [Merge pull request #1574 from pbakaus/detect/side-tab-inline-radius](https://github.com/pbakaus/impeccable/commit/8cd45c5fe5c884c95b02c1eb265f046bebfbfe08) | pbakaus |
-| 2026-11-18 | [Merge pull request #1572 from pbakaus/foundations/scan-library](https://github.com/pbakaus/impeccable/commit/6cca7f25272822e5d5fd636f5769bad39d7aa289) | pbakaus |
-| 2026-11-18 | [Read a spaced ! important on an inline radius](https://github.com/pbakaus/impeccable/commit/84e0096d22e66d9f097b8ba22d97e8cba4fc8b73) | pbakaus |
-| 2026-11-18 | [Foundations: let a listing scan skip the secrets scan](https://github.com/pbakaus/impeccable/commit/e399cc317741403ac26207ae60dd36fb68cde887) | pbakaus |
-| 2026-11-18 | [Merge pull request #1575 from pbakaus/ext/panel-only](https://github.com/pbakaus/impeccable/commit/a48d2f540baeb25c84c3cb0a6f0068233449c016) | pbakaus |
-| 2026-11-18 | [Apply an inline important radius after the normal ones](https://github.com/pbakaus/impeccable/commit/db380f73cedbe66753e36ad2c6679b44d9753c2c) | pbakaus |
+| 2026-11-24 | [Merge pull request #1669 from pbakaus/release/engine-0.1.30](https://github.com/pbakaus/impeccable/commit/9e460a87ef338ee9d12c7beed8fedc597a5af5f7) | pbakaus |
+| 2026-11-24 | [Pin engine 0.1.30: checksums and platform packages](https://github.com/pbakaus/impeccable/commit/88cfafae649164e6dc48b88d3c0c1bf6662eaade) | pbakaus |
+| 2026-11-24 | [Engine 0.1.30 for CLI and skill 4.11.0](https://github.com/pbakaus/impeccable/commit/ce389c4cf38d9fe91f5035aff668c88162d513bb) | pbakaus |
+| 2026-11-24 | [Merge pull request #1590 from pbakaus/release/cli-4.11.0](https://github.com/pbakaus/impeccable/commit/11d71c27e2098cd5106242462dfbccf35905687c) | pbakaus |
+| 2026-11-24 | [Rebuild release outputs for engine 0.1.29 and the Muse copy](https://github.com/pbakaus/impeccable/commit/22a072c85c997296b43be7c3d266ef6fe6aa9332) | pbakaus |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/next' into release/cli-4.11.0](https://github.com/pbakaus/impeccable/commit/2c3e04426fc670457f72f355f37f5146aff1cf46) | pbakaus |
+| 2026-11-24 | [Pin engine 0.1.29: checksums and platform packages](https://github.com/pbakaus/impeccable/commit/2b22041c5610473f782f86ac1533c3ec53b9919f) | pbakaus |
+| 2026-11-24 | [Merge pull request #1665 from pbakaus/cli/browser-end-releases](https://github.com/pbakaus/impeccable/commit/243e01bd3f651c356e23f1d521cb33e77c11b197) | pbakaus |
+| 2026-11-23 | [An ended browser session frees the browser for the next agent (REN-2466)](https://github.com/pbakaus/impeccable/commit/365fbc56b87f4f5b480928c686fbf1cc6deb0b3a) | pbakaus |
+| 2026-11-23 | [Sync generated provider output](https://github.com/pbakaus/impeccable/commit/40db591e00b5f984b8e162f3dcebb6da98963225) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/pbakaus/impeccable/commits)
 

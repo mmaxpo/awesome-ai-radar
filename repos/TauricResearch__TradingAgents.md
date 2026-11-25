@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.7k |
+| ⭐ **Stars** | 123.8k |
 | 🍴 **Forks** | 23.7k |
-| 🐞 **Open issues + PRs** | [164](https://github.com/TauricResearch/TradingAgents/issues) |
+| 🐞 **Open issues + PRs** | [162](https://github.com/TauricResearch/TradingAgents/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `finance` `llm` `multiagent` `trading` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-12-28 |
-| 📦 **Latest release** | [v1.0.0](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.0) — 2026-11-24 |
+| 📦 **Latest release** | [v1.0.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 11.1 MB |
+| 💾 **Size** | 11.2 MB |
 | 🌐 **Website** | https://tauric.ai |
 
 ## 📦 Recent releases
 
+### [v1.0.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.1)
+<sub>2026-11-25 · today</sub>
+
+> **Fixed**
+> - Plan mode: the PDF report shows the question you asked, with what you added while planning, instead of "Carry out the plan".
+> - Reports: the report starts with the answer; progress notes written along the way are left out.
+> - Price history: a one-year window that spans February 29 is no longer refused.
+> - Correlation: returns over only three shared dates are refused instead of reported as a perfect +1 or -1; four dates are the minimum.
+> - API keys: saving a key confirms it by the provider's name ("Stored the Tauric API key").
+> …
+
 ### [v1.0.0](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.0)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > - TradingAgents: Towards Agentic Finance Research.
 > **Research**
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.7.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v0.7.1) — TradingAgents v0.7.1
-<sub>2026-10-27 · 28d ago</sub>
+<sub>2026-10-27 · 29d ago</sub>
 
 > Decisions are scored only on final closes and settle across long market holidays, a model's unpadded date no longer reads filings made after the run date, and fixes to portfolios, prices, SEC statements, reports, Azure and Claude settings.
 > **Upgrading from 0.7.0**
@@ -79,21 +90,11 @@
 > - **Crypto on Reddit.** For a crypto ticker the Sentiment Analyst reads r/CryptoCurrency and r/CryptoMarkets, plus r/Bitcoin, r/ethereum or r/solana for those coins, instead of the stock subreddits. (#1461)
 > …
 
-### [v0.5.2](https://github.com/TauricResearch/TradingAgents/releases/tag/v0.5.2) — TradingAgents v0.5.2
-<sub>2026-09-29 · 1mo ago</sub>
-
-> Parallel analysts, unattended CLI runs, reports that record what produced them,
-> and past runs served only what was known on their date.
-> **Added**
-> - **Parallel analysts.** The selected analysts run at the same time, so the analyst phase takes about as long as the slowest one; the CLI shows each analyst's progress and time as it finishes, and the debate starts when all reports are in. (#1255, #433)
-> - **Unattended CLI runs.** Flags answer the per-run questions, and `TRADINGAGENTS_*` variables the rest, so a scheduled job or script asks nothing: `tradingagents --ticker NVDA --date 2026-09-26 --analysts market,news --save --no-show`. Without a terminal, a missing answer stops the run before it starts and names what to set. (#1127, #1133)
-> - **Reports record what produced them.** Each report opens with the analysis date, version, provider, models, analysts, rounds and data vendors; the state log keeps them as `run_settings`. (#752, #1197)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [release: TradingAgents 1.0.1](https://github.com/TauricResearch/TradingAgents/commit/121265d18d467ac717f7af99cb0d669c15d2e73c) | Yijia-Xiao |
 | 2026-11-24 | [ci(npm): enable publishing for TradingAgents v1.0.0](https://github.com/TauricResearch/TradingAgents/commit/81501e0f108c9960f55f0f45b79cafa7857f2c0a) | Yijia-Xiao |
 | 2026-11-24 | [release: TradingAgents 1.0.0](https://github.com/TauricResearch/TradingAgents/commit/da95d501c9363f0a58bb0ce5746a6d31cc15df2f) | Yijia-Xiao |
 | 2026-11-04 | [announce Trading-R1 official release](https://github.com/TauricResearch/TradingAgents/commit/9fa1196fffbcfd9de5146d2dd2869df84ab99838) | Tauric-Research |
@@ -103,7 +104,6 @@
 | 2026-10-27 | [test: fix tests that failed on Windows and macOS (#1506, #1485, #1541)](https://github.com/TauricResearch/TradingAgents/commit/d46c052278646836ded214b693f15081fceed8ad) | Yijia-Xiao |
 | 2026-10-27 | [build(docker): keep every .env file out of the image](https://github.com/TauricResearch/TradingAgents/commit/ec4e2c8e5adc9de0757ccc14e1bedc1c405d835f) | Yijia-Xiao |
 | 2026-10-27 | [fix(cli): check a ticker with the data layer's own rule (#1604)](https://github.com/TauricResearch/TradingAgents/commit/a334a1f878f4d744c34230e216e613955762e26b) | Yijia-Xiao |
-| 2026-10-27 | [fix(llm): read a dated Claude snapshot's version without its date (#1…](https://github.com/TauricResearch/TradingAgents/commit/ae0424745ef8684bbe9db91a01effb84d40c8223) | Yijia-Xiao |
 
 [See all commits ↗](https://github.com/TauricResearch/TradingAgents/commits)
 

@@ -20,22 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.7k |
+| ⭐ **Stars** | 123.8k |
 | 🍴 **Forks** | 16.0k |
-| 🐞 **Open issues + PRs** | [302](https://github.com/earendil-works/pi/issues) |
+| 🐞 **Open issues + PRs** | [309](https://github.com/earendil-works/pi/issues) |
 | 💻 **Languages** | TypeScript 87% · HTML 10% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-08-09 |
-| 📦 **Latest release** | [v1.6.0](https://github.com/earendil-works/pi/releases/tag/v1.6.0) — 2026-11-20 |
+| 📦 **Latest release** | [v1.6.1](https://github.com/earendil-works/pi/releases/tag/v1.6.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 114.5 MB |
+| 💾 **Size** | 115.2 MB |
 
 ## 📦 Recent releases
 
+### [v1.6.1](https://github.com/earendil-works/pi/releases/tag/v1.6.1)
+<sub>2026-11-25 · today</sub>
+
+> **New Features**
+> - **Decision models in codemode**: GitHub Copilot's `gpt-6-luna-decisions` and Radius decision models can be called from codemode `models.classify()`, and results include the provider's `responseId`. See [Classify](https://github.com/earendil-works/pi/blob/v1.6.1/packages/coding-agent/docs/codemode.md#classify).
+> - **One setting per transcript notice**: cache misses, cache warming, compaction costs, and reasoning drops each have their own setting under Notices in `/settings`. See [Model and thinking](https://github.com/earendil-works/pi/blob/v1.6.1/packages/coding-agent/docs/settings.md#model-and-thinking).
+> - **Dialog status kind for extensions**: `ctx.ui.select()`, `ctx.ui.confirm()`, and `ctx.ui.input()` accept `blockedKind`, so terminals with program status can show a dialog as a permission request, question, or login. See [Program Status Kind](https://github.com/earendil-works/pi/blob/v1.6.1/packages/coding-agent/docs/extensions.md#program-status-kind).
+> **Breaking Changes**
+> - Replaced the `showCacheMissNotices` setting with one setting per transcript notice: `notices.cacheMisses`, `notices.cacheWarming`, `notices.compactionCosts`, and `notices.reasoningDrops`, configured under Notices in `/settings`. An existing `showCacheMissNotices` value is migrated to all four. `SettingsManager.getShowCacheMissNotices()` and `setShowCacheMissNotices()` are removed; use `getNotices()` and `setNotice()` instead
+> …
+
 ### [v1.6.0](https://github.com/earendil-works/pi/releases/tag/v1.6.0)
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > **New Features**
 > - **GPT-6.2 Astra and GPT-6.2 Sol**: both models are available on the `openai`, `azure`, and `openai-codex` providers, and GPT-6.2 Sol is now the default model for all three. See [Providers](https://github.com/earendil-works/pi/blob/v1.6.0/packages/coding-agent/docs/providers.md).
@@ -46,7 +57,7 @@
 > …
 
 ### [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2)
-<sub>2026-11-10 · 14d ago</sub>
+<sub>2026-11-10 · 15d ago</sub>
 
 > **New Features**
 > - **Fork sessions whose folder is gone**: when a session's original folder was moved or deleted, you can now fork it into the current folder instead of only continuing, so later resumes no longer ask. See [Continue or switch sessions](https://github.com/earendil-works/pi/blob/v1.5.2/packages/coding-agent/docs/sessions.md#continue-or-switch-sessions).
@@ -57,7 +68,7 @@
 > …
 
 ### [v1.5.1](https://github.com/earendil-works/pi/releases/tag/v1.5.1)
-<sub>2026-11-09 · 14d ago</sub>
+<sub>2026-11-09 · 15d ago</sub>
 
 > **New Features**
 > - **Shell login and logout**: use `pi auth login <provider>` and `pi auth logout <provider>` without starting a session, with API-key and no-browser sign-in options. See [Credential commands](https://github.com/earendil-works/pi/blob/v1.5.1/packages/coding-agent/docs/cli.md#credential-commands).
@@ -68,7 +79,7 @@
 > …
 
 ### [v1.5.0](https://github.com/earendil-works/pi/releases/tag/v1.5.0)
-<sub>2026-11-02 · 22d ago</sub>
+<sub>2026-11-02 · 23d ago</sub>
 
 > **New Features**
 > - **Extension update changelogs**: see what changed in installed extension packages on the next fresh launch after an update. Package authors can choose the changelog path, and `collapseChangelog` condenses the notices. See [Show a changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/coding-agent/docs/packages.md#show-a-changelog).
@@ -78,31 +89,20 @@
 > **Breaking Changes**
 > …
 
-### [v1.4.0](https://github.com/earendil-works/pi/releases/tag/v1.4.0)
-<sub>2026-10-21 · 1mo ago</sub>
-
-> **New Features**
-> - **Image input for classifiers**: codemode `models.classify()` accepts `images` for TypeSafe's Jev and Cloudflare's Clef models on `typesafe`, `cloudflare-workers-ai`, and OpenRouter. See [Use classifier models](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/models.md#use-classifier-models) and [Codemode](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/codemode.md#models).
-> - **Models Configuration reference**: every provider, model, model override, and compatibility field of `models.json`, generated from its schema. See [Models Configuration](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/models-configuration.md).
-> - **Summaries without a fixed output cap**: compaction and branch summaries use the model's output limit, so long reasoning no longer makes them fail. See [Compaction](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/compaction.md#compaction).
-> - **Codemode waits for a free worker**: parallel scripts and in-process subagents queue instead of failing, and `PI_CODEMODE_MAX_WORKERS` raises the limit. See [Codemode limits](https://github.com/earendil-works/pi/blob/v1.4.0/packages/coding-agent/docs/codemode.md#limits).
-> - **Rex terminal support**: OSC 8 hyperlinks, truecolor, and inline images.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [fix(p2, backup): new contract to include paused](https://github.com/earendil-works/pi/commit/d4760131efe0740b9b7f7ad1f126734b96a011c0) | cristinaponcela |
-| 2026-11-24 | [docs(coding-agent): document classifier responseId in codemode](https://github.com/earendil-works/pi/commit/fe1c08109d76a21c36f2ed64a41e854c05220d29) | vegarsti |
-| 2026-11-24 | [feat(ai): expose OpenRouter classifier responseId and reported cost](https://github.com/earendil-works/pi/commit/bff71c70967eeefb72729c8590c786bffcd73937) | vegarsti |
-| 2026-11-24 | [fix(coding-agent): rebuilt ! output follows ctrl+o (#12427)](https://github.com/earendil-works/pi/commit/0ab23c37b074252d04e31f5cfb99491f0613fb80) | acmerfight |
-| 2026-11-24 | [fix(ai): record OpenRouter native_finish_reason](https://github.com/earendil-works/pi/commit/ddf5868d2866394b6b90109ea7151812d85019d5) | vegarsti |
-| 2026-11-24 | [fix(tui): do not emit OSC 8 hyperlinks for URLs over 8192 characters …](https://github.com/earendil-works/pi/commit/6ca01d1e93c316b2b9da34d68807293d6fbdb5dc) | robopipi[bot] |
-| 2026-11-24 | [fix(tui): skip synthetic right-click paste in Tabby on Windows (#12473)](https://github.com/earendil-works/pi/commit/165c70df953c62e82a2d0ea88f01af5267a39ef2) | robopipi[bot] |
-| 2026-11-24 | [fix(tui): keep Markdown after an unclosed currency dollar sign (#12472)](https://github.com/earendil-works/pi/commit/362bf6f1bec2db70dc072e4db4eb5b2903f4e9f6) | robopipi[bot] |
-| 2026-11-24 | [fix(ai): support xhigh thinking on Gemini 4 Hydrogen and Neon](https://github.com/earendil-works/pi/commit/001ffff32bbf58703c618ba598454b78501573d6) | davidbrai |
-| 2026-11-24 | [feat(coding-agent): simplify first-time setup with colored logo and d…](https://github.com/earendil-works/pi/commit/f8149d1abde50b31c8cb5aed09e89319b927f247) | vegarsti |
+| 2026-11-25 | [fix(coding-agent,tui): name the configured keys in key hints (#12541)](https://github.com/earendil-works/pi/commit/b882d08f34f8a245c8d3ea8b057759e1b8b2054c) | petrroll |
+| 2026-11-25 | [fix(coding-agent): name the interrupt key in the ! command cancel hin…](https://github.com/earendil-works/pi/commit/745338811405a31831005300aedac173a512e0e4) | acmerfight |
+| 2026-11-25 | [fix(chord): wait for macOS file events to start in two plugins tests](https://github.com/earendil-works/pi/commit/e4cd354e6f3ce317a9dd4a8ab1dd4fb6500ebc98) | davidbrai |
+| 2026-11-25 | [fix(coding-agent): confirm the highlighted /llama search result after…](https://github.com/earendil-works/pi/commit/bfafd8ed5168bca1f1ca88ef0529cfd326664d16) | robopipi[bot] |
+| 2026-11-25 | [fix(p2, backups): stream to save server memory](https://github.com/earendil-works/pi/commit/2e4deff6b3b8e2317bd59b8f8ba96ac5f9b47f13) | cristinaponcela |
+| 2026-11-25 | [Add [Unreleased] section for next cycle](https://github.com/earendil-works/pi/commit/dbc8075abb0c1dc6da679c5bdbb730efc09a2cec) | davidbrai |
+| 2026-11-25 | [Release v1.6.1](https://github.com/earendil-works/pi/commit/ef4a1cfcca62b77ad3558337ff3e1c7f6beeadfe) | davidbrai |
+| 2026-11-25 | [feat(p3): export chord sync and add backup marker](https://github.com/earendil-works/pi/commit/7cf1443c1318fe670870fd342d24cbd23eba8cae) | cristinaponcela |
+| 2026-11-25 | [docs(coding-agent): audit changelog since v1.6.0, add New Features](https://github.com/earendil-works/pi/commit/ad403d7d3e5d6f2c24e961cfdbe758796ce44888) | davidbrai |
+| 2026-11-25 | [fix(coding-agent): make output file failure test independent of temp …](https://github.com/earendil-works/pi/commit/3511d455419e868faf76a71246add4f611d48c61) | davidbrai |
 
 [See all commits ↗](https://github.com/earendil-works/pi/commits)
 

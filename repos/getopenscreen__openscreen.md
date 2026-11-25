@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.0k |
-| 🍴 **Forks** | 535 |
-| 🐞 **Open issues + PRs** | [76](https://github.com/getopenscreen/openscreen/issues) |
+| ⭐ **Stars** | 8.1k |
+| 🍴 **Forks** | 545 |
+| 🐞 **Open issues + PRs** | [82](https://github.com/getopenscreen/openscreen/issues) |
 | 💻 **Languages** | TypeScript 49% · Rust 20% · HTML 13% · MDX 6% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `electron` `open-source` `screen-capture` `screen-recorder` `cross-platform` `ffmpeg` `product-demo` `rust` `screen-recording` `screen-studio` `screencast` `speech-to-text` `typescript` `video-editing` `video-editor` `wayland` `wgpu` `whisper` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-03-14 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 284.4 MB |
+| 💾 **Size** | 283.2 MB |
 | 🌐 **Website** | https://getopenscreen.com/ |
 
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > If OpenScreen saves you time, a star on the repo helps others find it.
 > **What's Changed**
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.4.0-rc.1](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0-rc.1) _(pre-release)_
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Changes since v2.3.0**
 > - fix(linux): record through a version 1 ScreenCast portal
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.3.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0)
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > <p align="center">
 >   <img src="https://raw.githubusercontent.com/getopenscreen/openscreen/v2.3.0/public/openscreen.png" alt="OpenScreen" width="64" />
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.3.0-rc.7](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.7) _(pre-release)_
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **Changes since v2.3.0-rc.6**
 > - fix(preview): keep scrubs playing while a new source loads
@@ -77,7 +77,7 @@
 > **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.3.0-rc.6...v2.3.0-rc.7
 
 ### [v2.3.0-rc.6](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.6) _(pre-release)_
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **Changes since v2.3.0-rc.5**
 > - fix(recording): drop a saved display whose stable id is gone

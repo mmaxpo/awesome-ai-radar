@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 13.3k |
 | 🍴 **Forks** | 3.1k |
-| 🐞 **Open issues + PRs** | [519](https://github.com/NoFxAiOS/nofx/issues) |
+| 🐞 **Open issues + PRs** | [520](https://github.com/NoFxAiOS/nofx/issues) |
 | 💻 **Languages** | Go 60% · TypeScript 36% · CSS 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-trading` `agentictrading` `ai` `trading` `arbitrage` `binance` `bitcoin` `exchange` `hyperliquid` `perp-dex` `forex` `metals` `stocks` `x402` `x402-agent` `commodities` `us-stocks` |
-| 🕒 **Last activity** | 2026-11-04 (20d ago) |
+| 🕒 **Last activity** | 2026-11-04 (21d ago) |
 | 📅 **Created** | 2025-10-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `dev` |

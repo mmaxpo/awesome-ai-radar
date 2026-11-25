@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 23.5k |
+| ⭐ **Stars** | 23.6k |
 | 🍴 **Forks** | 1.3k |
 | 🐞 **Open issues + PRs** | [8](https://github.com/magicuidesign/magicui/issues) |
 | 💻 **Languages** | MDX 77% · TypeScript 23% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `framer-motion` `nextjs` `react` `tailwindcss` `typescript` `components` `shadcn-ui` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-24 (yesterday) |
 | 📅 **Created** | 2023-06-26 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

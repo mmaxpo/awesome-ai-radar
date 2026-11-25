@@ -21,22 +21,51 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.2k |
-| 🍴 **Forks** | 813 |
-| 🐞 **Open issues + PRs** | [268](https://github.com/vastsa/PI-Desktop/issues) |
+| 🍴 **Forks** | 815 |
+| 🐞 **Open issues + PRs** | [275](https://github.com/vastsa/PI-Desktop/issues) |
 | 💻 **Languages** | TypeScript 53% · JavaScript 28% · Rust 15% · CSS 3% |
 | 📜 **License** | LGPL-3.0 |
 | 🏷 **Topics** | `pi-desktop` `ai-agent` `coding-agent` `desktop-app` `electron` `global` `i18n` `local-first` `mcp` `pi-agent` `plugins` `react` `rust` `typescript` `pi` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-03-22 |
 | 📦 **Latest release** | [v0.23.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 223.6 MB |
+| 💾 **Size** | 226.2 MB |
 | 🌐 **Website** | https://www.aiuo.net |
 
 ## 📦 Recent releases
 
+### [v0.24.0-beta.5](https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.5) _(pre-release)_
+<sub>2026-11-25 · today</sub>
+
+> **What's Changed**
+> * fix(transcript): fold finished groups as the turn moves on by @Tioit-Wang in https://github.com/vastsa/PI-Desktop/pull/2585
+> * feat(chat): align subagent tabs with the conversation display by @Tioit-Wang in https://github.com/vastsa/PI-Desktop/pull/2587
+> * chore(release): integrate beta.3 into main by @Tioit-Wang in https://github.com/vastsa/PI-Desktop/pull/2590
+> * chore(release): prepare v0.24.0-beta.4 by @Tioit-Wang in https://github.com/vastsa/PI-Desktop/pull/2591
+> * fix(composer): keep an empty last line without a phantom character by @G1oow in https://github.com/vastsa/PI-Desktop/pull/2589
+> …
+
+### [v0.24.0-beta.3](https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.3) _(pre-release)_
+<sub>2026-11-25 · today</sub>
+
+> **What's Changed**
+> * fix(desktop): keep image generation model row visible without candidates by @skyler-developer in https://github.com/vastsa/PI-Desktop/pull/2568
+> **Full Changelog**: https://github.com/vastsa/PI-Desktop/compare/v0.24.0-beta.2...v0.24.0-beta.3
+
+### [v0.24.0-beta.2](https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.2) _(pre-release)_
+<sub>2026-11-25 · today</sub>
+
+> **What's Changed**
+> * fix(composer): show full background task commands on expansion by @Linuxdazhao in https://github.com/vastsa/PI-Desktop/pull/2497
+> * fix(desktop): 工作面板启动器可再打开一个浏览器页签 by @zszz3 in https://github.com/vastsa/PI-Desktop/pull/2490
+> * fix(agent-runtime): accept job plus multi-id TaskWait selectors by @koeria in https://github.com/vastsa/PI-Desktop/pull/2489
+> * fix(windows): 应用内更新时沿用已注册的安装范围 by @ZedingZhang in https://github.com/vastsa/PI-Desktop/pull/2486
+> * fix(agent-runtime): 修复开启电脑操作后 Agent 拿不到 Computer 工具 by @zszz3 in https://github.com/vastsa/PI-Desktop/pull/2483
+> …
+
 ### [v0.24.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.1) _(pre-release)_
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > **What's Changed**
 > * fix(config-sync): merge entities absent from one side as implicit deletes by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2457
@@ -47,37 +76,7 @@
 > …
 
 ### [v0.23.0](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0)
-<sub>2026-11-19 · 5d ago</sub>
-
-> **What's Changed**
-> * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
-> * fix(file-manager): theme editor search controls by @AuhNijGnahz in https://github.com/vastsa/PI-Desktop/pull/1861
-> * perf(sessions): cache file-derived session summaries by file identity by @CJLY-0915 in https://github.com/vastsa/PI-Desktop/pull/1796
-> * fix(ci): keep Electron user-path test out of unit suite by @vastsa in https://github.com/vastsa/PI-Desktop/pull/1872
-> * fix(composer): scale the mode chip reservation with the appearance font by @SeanLiu326 in https://github.com/vastsa/PI-Desktop/pull/1879
-> …
-
-### [v0.23.0-beta.3](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.3) _(pre-release)_
-<sub>2026-11-19 · 5d ago</sub>
-
-> **What's Changed**
-> * feat(desktop): settings dialog, sidebar primary nav, startup guide and release announcement by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2432
-> * chore(release): prepare v0.23.0-beta.3 by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2435
-> **Full Changelog**: https://github.com/vastsa/PI-Desktop/compare/v0.23.0-beta.2...v0.23.0-beta.3
-
-### [v0.23.0-beta.2](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.2) _(pre-release)_
-<sub>2026-11-18 · 6d ago</sub>
-
-> **What's Changed**
-> * fix(mods): restore reliable Goal run lifecycle and completion by @new-Beginner in https://github.com/vastsa/PI-Desktop/pull/2353
-> * fix(plan): preserve the owning session permission on approval by @Linuxdazhao in https://github.com/vastsa/PI-Desktop/pull/2326
-> * feat(session-collaboration): immediate delivery for reports and follow-ups by @Tioit-Wang in https://github.com/vastsa/PI-Desktop/pull/2355
-> * fix(transcripts): skip terminated torn prefixes instead of failing every read by @koeria in https://github.com/vastsa/PI-Desktop/pull/2301
-> * fix(git-clone): clean up the half-built destination after a timeout by @vastsa in https://github.com/vastsa/PI-Desktop/pull/2357
-> …
-
-### [v0.23.0-beta.1](https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.1) _(pre-release)_
-<sub>2026-11-14 · 10d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **What's Changed**
 > * fix(agent-runtime): do not treat connection abort wording as user Stop by @xpeng5278-web in https://github.com/vastsa/PI-Desktop/pull/1865
@@ -91,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Merge pull request #2560 from vastsa/fix/p1-paste-image](https://github.com/vastsa/PI-Desktop/commit/28921d986482993018c3da90e8bf4f5f49093a86) | Tioit-Wang |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/main' into fix/p1-paste-image](https://github.com/vastsa/PI-Desktop/commit/ea0136d38d214bfc4f798b71023d443feccd097f) | Tioit-Wang |
-| 2026-11-24 | [Merge pull request #2559 from vastsa/fix/p1-sidebar-height](https://github.com/vastsa/PI-Desktop/commit/840c312a76318f3ad5c1e7c364b4f554d5234bae) | Tioit-Wang |
-| 2026-11-24 | [test(composer): fix Windows file-reference paste fixture](https://github.com/vastsa/PI-Desktop/commit/ea0768a788b36553a6c617b4cccc90d80be9d1fd) | Tioit-Wang |
-| 2026-11-24 | [fix(sidebar): keep projects reachable at high zoom](https://github.com/vastsa/PI-Desktop/commit/9f4099ab1f167a3cff014980ab744e1a012bb4b7) | Tioit-Wang |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/pr/2533' into fix/p1-paste-image](https://github.com/vastsa/PI-Desktop/commit/562723ec5eddaa8bfd51fab14f14ebb91bf1f01b) | Tioit-Wang |
-| 2026-11-24 | [Merge pull request #2557: bundle File Manager 0.13.0](https://github.com/vastsa/PI-Desktop/commit/108117de27870b030fc75c5c59f22dcf26cdc762) | Tioit-Wang |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/main' into feat/bundled-file-man…](https://github.com/vastsa/PI-Desktop/commit/a9358037fc1861b59a1bf131349c157753e34f5a) | Tioit-Wang |
-| 2026-11-24 | [Merge pull request #2556 from vastsa/chore/architecture-ratchet](https://github.com/vastsa/PI-Desktop/commit/9213ba2659cea15f5e4adecb163058a5af5fdd8d) | vastsa |
-| 2026-11-24 | [test(file-manager): exercise the updated remote panel](https://github.com/vastsa/PI-Desktop/commit/e2045bbcddbda3511fec3ca521ceb9eb1b46fc81) | Tioit-Wang |
+| 2026-11-25 | [Merge pull request #2593 from vastsa/release/beta5-composer](https://github.com/vastsa/PI-Desktop/commit/720bbe15de8d69aa4c921388cfae12e376151caf) | Tioit-Wang |
+| 2026-11-25 | [chore(release): refresh beta.5 against the merged composer fix](https://github.com/vastsa/PI-Desktop/commit/04d5108f3ce62504df376a68de3f16a6e8a753fe) | Tioit-Wang |
+| 2026-11-25 | [Merge pull request #2589 from G1oow/fix/composer-tail-placeholder](https://github.com/vastsa/PI-Desktop/commit/f837ea906e19bb04a77ef4f8c20495eae12066f9) | Tioit-Wang |
+| 2026-11-25 | [test(composer): align the native paragraph guard contract](https://github.com/vastsa/PI-Desktop/commit/3083e6a78fbb249bd883e3560d2e8418d64058a2) | Tioit-Wang |
+| 2026-11-25 | [chore(release): prepare v0.24.0-beta.5](https://github.com/vastsa/PI-Desktop/commit/a5d39de9f9e3d8a3ddfae5d7a0c9cb76fd7a9093) | Tioit-Wang |
+| 2026-11-25 | [feat(composer): integrate skill chips with native multiline editing](https://github.com/vastsa/PI-Desktop/commit/ff5749bcec2e78e84d222270205952c7651a9844) | Tioit-Wang |
+| 2026-11-25 | [fix(composer): preserve the native undo anchor for tail deletion](https://github.com/vastsa/PI-Desktop/commit/ff01d91ee729244b2ad27f43aea322a392f4c616) | Tioit-Wang |
+| 2026-11-25 | [feat(composer): render selected skills as inline nodes](https://github.com/vastsa/PI-Desktop/commit/70c91e0ef6f19b2179fbb2407c0a930fb203b206) | Tioit-Wang |
+| 2026-11-25 | [Merge remote-tracking branch 'upstream/main' into fix/composer-tail-p…](https://github.com/vastsa/PI-Desktop/commit/b116666fd2dc41ae76ab3dda456d25638c8002cf) | G1oow |
+| 2026-11-25 | [fix(composer): keep the end-of-draft break in the native undo stack](https://github.com/vastsa/PI-Desktop/commit/3bffe922a98f9e0ac8f127d8b7fec504711f5ad3) | G1oow |
 
 [See all commits ↗](https://github.com/vastsa/PI-Desktop/commits)
 

@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 153.7k |
+| ⭐ **Stars** | 154.1k |
 | 🍴 **Forks** | 16.2k |
-| 🐞 **Open issues + PRs** | [86](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
+| 🐞 **Open issues + PRs** | [90](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/issues) |
 | 💻 **Languages** | Python 82% · TypeScript 8% · JavaScript 6% · HTML 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-skills` `antigravity` `claude` `claude-code` `command-line` `copilot` `cursor-ai` `html5` `kiro` `landing-page` `mobile-ui` `react` `tailwindcss` `ui-design` `uikit` `windsurf-ai` `codex` `qoder` `trae` |
@@ -70,6 +70,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [feat(search): support exact hex palette lookup (#598)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/8db36338810d0942567b97ce439affd1619fcf31) | VasiliySirotinskiy |
+| 2026-11-24 | [feat(antigravity): add workspace-level instructions (AGENTS.md) and d…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/cc7b20d85d64d8fa022292cfad731995d3cd4eeb) | hatimbenayad |
 | 2026-11-24 | [feat(copilot): add workspace-level Copilot instructions and docs (#241)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/a4fc248f6136552cb881e298847abc7ddce84e6b) | hatimbenayad |
 | 2026-11-24 | [fix(gallery): improve watermark contrast and add status badges to sty…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/f2f7266b07805025421611656045e9b44b41e2eb) | thomsjack |
 | 2026-11-23 | [perf: skip synonym replacements when no rule matches (#593)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/e8b065f0f3aaf2e680fd125f000e4f5e351ed108) | VasiliySirotinskiy |
@@ -78,8 +80,6 @@
 | 2026-11-23 | [fix(i18n): 🐞 infer RTL for mixed-script previews (#588)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/281e4537afb11333ac9947783779aaf314ebfbf2) | t4sh |
 | 2026-11-22 | [feat(i18n): add Arabic query synonym normalization and RTL-safe HTML …](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/6ec2bb58334ca3014573c4cbd4834ee3a40afd9d) | mlubbad |
 | 2026-11-21 | [feat: add form error-handling UX guidelines (rows 131-141) (#587)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/f76d1653d7467fc11fb9d9d79295a421c92ab958) | tuan204-dev |
-| 2026-11-19 | [fix(projects): precompile sample styles so they render offline (#584)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/2de1134dc4d1cfe112934611ae5803ae17a1bd7e) | vaibhav375 |
-| 2026-11-18 | [fix(gallery): correct subtitle branding and drop stale style count (#…](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/0fa6f35939138cdfaa97cb375e711396bb1e43a7) | vaibhav375 |
 
 [See all commits ↗](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commits)
 

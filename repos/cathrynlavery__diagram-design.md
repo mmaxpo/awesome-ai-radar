@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 71.7k |
+| ⭐ **Stars** | 72.7k |
 | 🍴 **Forks** | 4.8k |
-| 🐞 **Open issues + PRs** | [39](https://github.com/cathrynlavery/diagram-design/issues) |
+| 🐞 **Open issues + PRs** | [38](https://github.com/cathrynlavery/diagram-design/issues) |
 | 💻 **Languages** | HTML 56% · Python 44% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `claude-code` `codex` `data-visualization` `diagrams` `drawio` `mermaid` `svg` |
-| 🕒 **Last activity** | 2026-11-23 (yesterday) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-04-16 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 38.2 MB |
+| 💾 **Size** | 38.6 MB |
 | 🌐 **Website** | https://diagramdesign.dev |
 
 ## 📦 Recent releases
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [chore(release): bump plugin manifests to 2.6.174](https://github.com/cathrynlavery/diagram-design/commit/0eeda75a708f419560d5e032693618bb9954f17b) | github-actions[bot] |
-| 2026-11-23 | [feat(package): build a Claude Desktop skill ZIP under the upload file…](https://github.com/cathrynlavery/diagram-design/commit/817d8666a574226fcf1f1585b0a1228d21ca7794) | mvanhorn |
-| 2026-11-23 | [chore(release): bump plugin manifests to 2.6.173](https://github.com/cathrynlavery/diagram-design/commit/e16b8c861b67387ac6e3870161525db3597da5c6) | github-actions[bot] |
-| 2026-11-23 | [fix(package): format manifest paths as POSIX in version history and s…](https://github.com/cathrynlavery/diagram-design/commit/c4d59b856b92128d6237a46f6b03885118a17bd6) | abdul-karim-mia |
-| 2026-11-23 | [chore(release): bump plugin manifests to 2.6.172](https://github.com/cathrynlavery/diagram-design/commit/ff6fffa70a5cc520aa73b2ff77e1dcc0f5cc3733) | github-actions[bot] |
-| 2026-11-23 | [feat(type): add git graph for branch, merge and release flows (#523)](https://github.com/cathrynlavery/diagram-design/commit/4773b47f78e218329c35751db1bc425a9e63b0dc) | mvanhorn |
-| 2026-11-23 | [chore(release): bump plugin manifests to 2.6.171](https://github.com/cathrynlavery/diagram-design/commit/b809d0c4b18fd8f2bfa0d24665dd8bddf8d9c9c2) | github-actions[bot] |
-| 2026-11-23 | [fix(box-plot): ignore leaf-shape selectors when collecting paper-mask…](https://github.com/cathrynlavery/diagram-design/commit/0c70580bf3b5a63c5dea15992dea13a302abcf5c) | abdul-karim-mia |
-| 2026-11-22 | [chore(release): bump plugin manifests to 2.6.170](https://github.com/cathrynlavery/diagram-design/commit/d7b0176d7e60c6f2ff54067991491ac7622c81fb) | github-actions[bot] |
-| 2026-11-22 | [fix(box-plot): scan selector escapes in linear time (#533)](https://github.com/cathrynlavery/diagram-design/commit/15ed795f6cf6406cb7f46cebf916486fda1891ca) | JasonOA888 |
+| 2026-11-25 | [chore(release): bump plugin manifests to 2.6.179](https://github.com/cathrynlavery/diagram-design/commit/b228c5d77794a84150fca41b22940bb316b1398d) | github-actions[bot] |
+| 2026-11-25 | [fix(box-plot): match sibling combinators against document elements (#…](https://github.com/cathrynlavery/diagram-design/commit/eefe06772520aebbe3b5716438cc22ef7ed1be6f) | JasonOA888 |
+| 2026-11-25 | [chore(release): bump plugin manifests to 2.6.178](https://github.com/cathrynlavery/diagram-design/commit/67dbb00176980741a909c84c124f86ef91bbf546) | github-actions[bot] |
+| 2026-11-25 | [docs(anti-patterns): document hidden-by-default disclosure as out of …](https://github.com/cathrynlavery/diagram-design/commit/c9a7a4befe220e3be703b47d24008d77835e0d6a) | hatimbenayad |
+| 2026-11-25 | [chore(release): bump plugin manifests to 2.6.177](https://github.com/cathrynlavery/diagram-design/commit/58b7dcf7ebcd771331e76de028fb84132c5e7c57) | github-actions[bot] |
+| 2026-11-25 | [fix(verify): end HTML comments where the browser does (#546)](https://github.com/cathrynlavery/diagram-design/commit/66485e3d045e4e2e84391a70b3a9003cb2c0d254) | cathrynlavery |
+| 2026-11-24 | [chore(release): bump plugin manifests to 2.6.176](https://github.com/cathrynlavery/diagram-design/commit/c1c8e208ffc831de5f92d4abcf9f62ff90d467d1) | github-actions[bot] |
+| 2026-11-24 | [fix(export): fit --full-page layouts onto one --page-size sheet (#545)](https://github.com/cathrynlavery/diagram-design/commit/ddfd9449165d01d3d0217e10a582e8063bf988a6) | cathrynlavery |
+| 2026-11-24 | [chore(release): bump plugin manifests to 2.6.175](https://github.com/cathrynlavery/diagram-design/commit/1acb8776bab34f5055399fbac96a693c8d5cf7b3) | github-actions[bot] |
+| 2026-11-24 | [feat(export): add print-ready vector PDF export (--pdf) for diagram H…](https://github.com/cathrynlavery/diagram-design/commit/656c77972c363680fb54a468eae7f44e42a071d1) | mvanhorn |
 
 [See all commits ↗](https://github.com/cathrynlavery/diagram-design/commits)
 

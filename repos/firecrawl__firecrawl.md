@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 208.6k |
-| 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [924](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 74% · Python 10% · Rust 5% · Java 3% · PHP 2% |
+| ⭐ **Stars** | 209.7k |
+| 🍴 **Forks** | 11.0k |
+| 🐞 **Open issues + PRs** | [922](https://github.com/firecrawl/firecrawl/issues) |
+| 💻 **Languages** | TypeScript 75% · Python 10% · Rust 5% · Java 3% · PHP 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 189.1 MB |
+| 💾 **Size** | 190.0 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [refactor(api): register scrape engines and feature priorities on the …](https://github.com/firecrawl/firecrawl/commit/bfaa238fee1770e011c863c3717fa4a0a3249c11) | mogery |
-| 2026-11-24 | [refactor(api): declare worker and deterministic JSON env vars with de…](https://github.com/firecrawl/firecrawl/commit/708bea10df3b5f88dc0834c37f5ce5279c83e2d9) | mogery |
-| 2026-11-24 | [fix(api): keep error-serde free of config, database, and Redis import…](https://github.com/firecrawl/firecrawl/commit/1ecd596e47e9a561dfbb127231b112aca6735cfe) | mogery |
-| 2026-11-24 | [fix(api): stop persisting unused Slack incoming webhook URLs (#6022)](https://github.com/firecrawl/firecrawl/commit/7cd29a248cc575522c01facf46c394fba7cc46d3) | micahstairs |
-| 2026-11-24 | [feat(api): return the job id in v2 error responses and read it in the…](https://github.com/firecrawl/firecrawl/commit/ac30b86df0afc77800148f0027f06bbf3926c302) | micahstairs |
-| 2026-11-24 | [Skip blocklist hit logging for zero data retention requests (#6007)](https://github.com/firecrawl/firecrawl/commit/c13b60d96c2e0d586b9abacb7c20ee4f81d391dc) | rahul-firecrawl |
-| 2026-11-24 | [feat(api): stream Marketplace listing files through to Exchange (#6013)](https://github.com/firecrawl/firecrawl/commit/4924105f57c105fa678706e05fa234d66b5b061e) | developersdigest |
-| 2026-11-23 | [feat(api): replay an Alexandria response from a cache when the record…](https://github.com/firecrawl/firecrawl/commit/6648cfa9679ae2a87301bf06a2109a2aaac9c735) | abimaelmartell |
-| 2026-11-23 | [feat(api): proxy provider onboarding routes to Exchange (#5999)](https://github.com/firecrawl/firecrawl/commit/8538d3a8d18b7d4d6849cd5b2245a7d4d21f25b2) | developersdigest |
-| 2026-11-23 | [feat(fresh-feed): support multi-vertical routing and upstream selecti…](https://github.com/firecrawl/firecrawl/commit/6069c7b5fdf4f1dc248e50fd784eb908d027f555) | KrisOei |
+| 2026-11-25 | [feat(api): let search providers declare enterprise retention mode sup…](https://github.com/firecrawl/firecrawl/commit/0519b26a2b73c13048c0d29bce12c0306f7601ec) | abimaelmartell |
+| 2026-11-25 | [feat(api): trace each scrape engine attempt and honor OTEL_TRACES_SAM…](https://github.com/firecrawl/firecrawl/commit/d8f7c69ac9c3576ed70085e2bd841dc5cdfb3df7) | abimaelmartell |
+| 2026-11-25 | [feat(api): keep Alexandria responses in a one-hour cache instead of t…](https://github.com/firecrawl/firecrawl/commit/737060755de278514e4093579b007a58689aee21) | abimaelmartell |
+| 2026-11-25 | [feat(api): count search provider outcomes (#6060)](https://github.com/firecrawl/firecrawl/commit/c6b8941daf26a784b515f66cbfb1f52a8bc60600) | abimaelmartell |
+| 2026-11-24 | [fix(fresh-feed): harden agent validation, domain normalization, and u…](https://github.com/firecrawl/firecrawl/commit/db55e2d7a36f2193fb452078e1191decffec7287) | KrisOei |
+| 2026-11-24 | [fix(api): align search hook SearchRequest type and add API typecheck …](https://github.com/firecrawl/firecrawl/commit/ab1492d7e9694d0aaa769cbdcbd488e3006c04ba) | mogery |
+| 2026-11-24 | [feat(api): wire v2 request validation through service.schemas (#6050)](https://github.com/firecrawl/firecrawl/commit/eea02a6e8b4fb6dfdebe3cc24b55034a43770403) | mogery |
+| 2026-11-24 | [feat(api): emit process, queue, crawl, map, and search service hooks …](https://github.com/firecrawl/firecrawl/commit/a7a7d7ef328724415d94c20385831ea1a3d73936) | mogery |
+| 2026-11-24 | [feat(api): record which kind of client repeats an Alexandria request …](https://github.com/firecrawl/firecrawl/commit/95dba25e241bd2baf2a15a622359443845eeeedf) | abimaelmartell |
+| 2026-11-24 | [feat(api): return the job id in v2 search and parse error responses (…](https://github.com/firecrawl/firecrawl/commit/4ff4eb66058d2c0f2f90ab8a7bc4ee9d24555e37) | micahstairs |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

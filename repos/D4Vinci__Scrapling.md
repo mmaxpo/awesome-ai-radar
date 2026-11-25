@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 105.5k |
-| 🍴 **Forks** | 11.0k |
-| 🐞 **Open issues + PRs** | [26](https://github.com/D4Vinci/Scrapling/issues) |
+| ⭐ **Stars** | 105.7k |
+| 🍴 **Forks** | 11.1k |
+| 🐞 **Open issues + PRs** | [27](https://github.com/D4Vinci/Scrapling/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `crawler` `crawling` `crawling-python` `playwright` `python` `scraping` `selectors` `stealth` `web-scraper` `web-scraping` `web-scraping-python` `webscraping` `xpath` `automation` `ai` `ai-scraping` `data` `data-extraction` `mcp` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-10-13 |
 | 📦 **Latest release** | [v0.5.1](https://github.com/D4Vinci/Scrapling/releases/tag/v0.5.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 15.4 MB |
+| 💾 **Size** | 15.6 MB |
 | 🌐 **Website** | https://scrapling.readthedocs.io/en/latest/ |
 
 ## 📦 Recent releases
 
 ### [v0.5.1](https://github.com/D4Vinci/Scrapling/releases/tag/v0.5.1) — Release v0.5.1
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > **Small version bump, big browser upgrade! This version lets AI agents follow motion and control drag and drop, adds dedicated remote browser sessions, and brings fixes across parsing, spiders, proxies, and the shell 🚀**
 > **With this update, we extend the limits of current AI models** 🔥
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [docs: add a new sponsor](https://github.com/D4Vinci/Scrapling/commit/938867232230fb7b164fa97211497c204fa2e167) | D4Vinci |
+| 2026-11-25 | [docs: remove a sponsor](https://github.com/D4Vinci/Scrapling/commit/0e15809cfdc90db99a2e1016e8cc283d31e753c1) | D4Vinci |
 | 2026-11-23 | [docs: remove a sponsor](https://github.com/D4Vinci/Scrapling/commit/8864137216e652d9e859223181ef141d34ff1386) | D4Vinci |
 | 2026-11-17 | [docs: remove a sponsor](https://github.com/D4Vinci/Scrapling/commit/2998c9ebba52ef6116f0a483c7d2f21908250024) | D4Vinci |
 | 2026-11-11 | [ci: add a new workflow to handle stale issues/PRs](https://github.com/D4Vinci/Scrapling/commit/bb223f2f5fc8f743772751a5ce283ef7851ca6be) | D4Vinci |
@@ -102,8 +104,6 @@
 | 2026-11-08 | [docs: update a sponsor offer](https://github.com/D4Vinci/Scrapling/commit/30cadb56a407fd631391441709ab792ebca52b08) | D4Vinci |
 | 2026-11-05 | [docs: add additional video demo](https://github.com/D4Vinci/Scrapling/commit/bc602488b44e978da3266841e913af17577ec0fd) | D4Vinci |
 | 2026-11-04 | [v0.5.1 (#556)](https://github.com/D4Vinci/Scrapling/commit/3a4bb5b0a008233c85269a0a38a6d08edd4ce329) | D4Vinci |
-| 2026-11-04 | [docs: Update changelog with the latest changes](https://github.com/D4Vinci/Scrapling/commit/124bd58df3ef9a9dbba8c436a685af8ecc20f94c) | D4Vinci |
-| 2026-11-04 | [test: fix repeated issue on GitHub Actions](https://github.com/D4Vinci/Scrapling/commit/28bdfbb2a1512fbacf5800b7ea377014a6e4b63c) | D4Vinci |
 
 [See all commits ↗](https://github.com/D4Vinci/Scrapling/commits)
 

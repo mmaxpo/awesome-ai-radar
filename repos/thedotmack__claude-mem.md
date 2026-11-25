@@ -20,80 +20,76 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 119.5k |
+| ⭐ **Stars** | 119.7k |
 | 🍴 **Forks** | 10.4k |
-| 🐞 **Open issues + PRs** | [88](https://github.com/thedotmack/claude-mem/issues) |
-| 💻 **Languages** | TypeScript 67% · JavaScript 29% · Python 4% |
+| 🐞 **Open issues + PRs** | [93](https://github.com/thedotmack/claude-mem/issues) |
+| 💻 **Languages** | TypeScript 67% · JavaScript 28% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-memory` `anthropic` `artificial-intelligence` `claude` `claude-agent-sdk` `claude-agents` `claude-code` `claude-code-plugin` `claude-skills` `long-term-memory` `mem0` `openmemory` `supermemory` `chromadb` `sqlite` `embeddings` `memory-engine` `rag` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-08-31 |
-| 📦 **Latest release** | [v16.1.2](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.2) — 2026-11-24 |
+| 📦 **Latest release** | [v16.1.5](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.5) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 931.2 MB |
+| 💾 **Size** | 943.1 MB |
 | 🌐 **Website** | https://claude-mem.ai |
 
 ## 📦 Recent releases
 
-### [v16.1.2](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.2)
+### [v16.1.5](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.5)
+<sub>2026-11-25 · today</sub>
+
+> - Eligible existing installs receive a dated holiday Cloud Sync offer from the new Messages from Claude-Mem queue on their next interactive startup. Each installation records the dispatch time locally. Agents can optionally acknowledge sharing the message with `claude-mem messages acknowledge <message-id>`.
+> - The local memory timeline now offers eligible Claude-Mem users a 30-day Cloud Sync and remote Work Viewer trial with no credit card required. Dismissing the invitation hides it on that browser.
+> - The remote Work Viewer now guides trial users through six workflows, including cross-agent handoffs, decision tracing, and optional weekday briefings and Friday reviews.
+> - The Cloud Sync giveaway GIF at the top of the project README links to cmem.ai.
+
+### [v16.1.4](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.4)
+<sub>2026-11-25 · today</sub>
+
+> - Setup offers a 30-day Cloud Sync trial without a credit card. People installing directly or with an agent can choose a private, signed-in My Work view. Explicit local and custom sync settings are preserved.
+> - The cloud viewer uses the current account to load synced work, evidence and review changes. Returning to a tab verifies the signed-in account before showing its contents. Retrying a save after a lost response reuses the same action ID.
+> - During the trial, My Work offers optional guidance for trying cross-agent sync and shows when to add a payment method to continue.
+
+### [v16.1.3](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.3)
 <sub>2026-11-24 · today</sub>
+
+> **Critical fix**
+> - **OpenRouter errors sent with HTTP 200 no longer discard queued observations** (#6448, thanks @ryrenz, closes #6447 reported by @claudemeister). OpenRouter can accept a request and then report a temporary failure ("high demand", "temporarily rate-limited upstream") in the body of a 200 response, as `{"error":{"code":<number>,...}}`. The observer classified these as unrecoverable, so it did not retry, pause or fall back: it finalized the session and discarded its queued observations. The reporter lost 8.5% to 16% of events in one day. The classifier now uses the numeric `error.code` when the HTTP status is 2xx, so code 429 is a rate limit and 5xx is transient. A litellm output failure ("Unable to get json") stays an output failure and is never resent, because the model already ran and was billed.
+> **Fixes**
+> - **`claude-mem server jobs retry` no longer reports `requeued` for a job it did not publish** (#6439, thanks @HEOJUNFO). If Redis was unreachable, or the shell had no `CLAUDE_MEM_QUEUE_ENGINE=bullmq`, the command printed `"outcome": "requeued"` and exited 0, and the job never ran. It now moves the row back to `failed` with `retry_republish_failed`, prints the reason and exits 1, so the same command works once the queue is reachable.
+> - **Server generation jobs wait out a provider's Retry-After** (#6440, thanks @HEOJUNFO). A rate-limited job was redelivered after 5s and 10s whatever wait the provider asked for, so all three attempts could land inside the window and the job failed with no observation. When the provider sends a wait, the job is now delayed for it (capped at 60s, the same cap the worker uses). Rate limits without a wait, timeouts and 5xx keep the 5s/10s backoff.
+> - **`POST /v1/events` answers 400 instead of 500 for data Postgres can never store** (#6446, thanks @alessandropcostabr). A tool result with a NUL character (for example from reading a binary file) failed every time, and a 500 sent it to the local spool to be retried until the window expired. NUL is now removed from payload and metadata before private-tag stripping and redaction, and other data exceptions (SQLSTATE class 22) answer `400 InvalidData`.
+> …
+
+### [v16.1.2](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.2)
+<sub>2026-11-24 · yesterday</sub>
 
 > **Installer improvements**
 > - On phones, **Set up my agents** stays within reach while you review the detected tools or expand the agent list.
 > - A fresh installation shows how many agents you set up and what Cloud Sync can remember across devices. Setup only offers scan details when it has results or a reading error to show.
 
 ### [v16.1.1](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.1)
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Cloud Sync setup**
 > - Select **Try Cloud Sync free for 30 days** from your focus areas to open monthly checkout. The trial requires a card and costs $0 today, then $12/month after 30 days.
 > - Setup preselects detected agents. You can discover your recent work or start with your next session. Annual Cloud Sync ($99 upfront) and free local setup are available before checkout. If you already have Cloud Sync, connect your device with your existing plan.
 > - After Cloud Sync activates, setup shows token usage from the original scan and offers optional hosted memory generation. Reloading or retrying checkout keeps the plan you selected.
 
-### [v16.1.0](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.0)
-<sub>2026-11-23 · yesterday</sub>
-
-> **Standalone Cloud Sync in the installer**
-> - Run `npx claude-mem install` and choose Cloud Sync to connect your devices while keeping your current memory provider. The monthly plan requires a card and includes a full 30-day trial, followed by $12 per month. The annual plan costs $99 upfront.
-> - The installer carries your chosen plan into checkout and verifies that cmem.ai confirms the same offer. Hosted tokens are a separate, optional purchase. Existing bundled Pro setups keep their saved settings.
-> - You can skip Cloud Sync during setup and keep memory local. Once the installer applies a choice, returning to the plan screen or reloading it preserves that choice.
-
-### [v16.0.4](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.4)
-<sub>2026-11-22 · yesterday</sub>
-
-> **Fixes**
-> - **Chroma search works again while the embedding model downloads** (#6399, closes the "Invalid port" part of #6365 reported by @FengJie2004, root cause found by @kevincommits). httpx 0.28 misread a bracketed IPv6 entry such as `[::1]` in `NO_PROXY` and failed with `Invalid port: ':1]'`, so chroma-mcp could not add documents and search fell back to FTS5. The chroma-mcp child now gets the same host without brackets (`::1`). Entries with a port, and every other entry, are unchanged.
-> - **Context injection keeps observations whose concepts are an old plain string** (#6393, thanks @jiangjiang248, closes #6389 reported by @soarkit). Keyword search matched a legacy concept such as `缓存`, but context injection dropped the same observation. Both now read concepts through one shared SQL expression, so they cannot drift apart again.
-> - **OpenCode Go answers My Work refresh and corpus steps** (#6395, thanks @HemanRamlal). The API agent now sends the `x-opencode-session` header OpenCode Go requires (one id per run), and turns reasoning off with `reasoning_effort: none`, which Go honors. Before, every step failed with `400 MissingSessionID`, or ran out of its answer budget while thinking.
-> - **Expired live observer inputs are counted and reported** (#6394, thanks @Zhong-fan, closes #6391 reported by @abhiroopb). The live buffer still drops an input nobody claims within five minutes, and still never replays it. The WARN line now carries a running total, and `/api/processing-status` returns it as `expiredObserverInputs`, so the loss is visible without reading logs.
-> - **`/api/tool-uses` refuses a bad date instead of ignoring it** (#6387, thanks @kevincommits). A `dateStart` or `dateEnd` that was not a number (an ISO date, a typo, or the parameter given twice) was dropped, and the listing returned rows from every date. It now answers 400 `INVALID_DATE`. Epoch-millisecond values work as before.
-> …
-
-### [v16.0.3](https://github.com/thedotmack/claude-mem/releases/tag/v16.0.3)
-<sub>2026-11-21 · 2d ago</sub>
-
-> **Critical fix**
-> - **The OMP hook works with the server runtime** (#6367, thanks @flipcyde101, closes #6366 reported by @walynde). When `CLAUDE_MEM_RUNTIME` was `server` or `server-beta`, the OMP hook still sent everything to the local worker, so OMP sessions were dropped. The hook now reads `CLAUDE_MEM_SERVER_URL`, `CLAUDE_MEM_SERVER_API_KEY` and `CLAUDE_MEM_SERVER_PROJECT_ID` (or the `CLAUDE_MEM_SERVER_BETA_*` names; environment variables win over `settings.json`) and talks to the server's `/v1` API directly: session start, tool and reply events, context, and session end. It applies the same rules the worker applies before it saves anything: `<private>` blocks are stripped, excluded projects and `CLAUDE_MEM_SKIP_TOOLS` are honored, every prompt is recorded, and the project name comes from git. If the server settings are incomplete, it falls back to the worker as before.
-> - **OMP users: run `npx claude-mem install --ide omp` once to get this fix.** The OMP hook is a copied file, so a plugin update alone does not replace it.
-> **Fixes**
-> - **Knowledge queries and corpus requests can no longer hang forever** (#6368, thanks @flipcyde101, closes #6364 reported by @soarkit). A stalled Agent SDK stream used to keep the request and its Claude CLI child alive with no end. A knowledge query or prime now stops after 10 minutes and a corpus request after 15, with a 504 error. The corpus stays locked until the timed-out work has really stopped, so it cannot write after a delete or rebuild.
-> - **The "paused saving memories" notice goes away once Codex is saving** (#6374, thanks @ryrenz, closes #6372 reported by @raw34). After you switched `CLAUDE_MEM_PROVIDER` to `codex` following a Claude quota pause, every new session still said capture was paused until the old Claude cooldown ran out. The notice is now recomputed when Codex stores a memory.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Promote verified npm release v16.1.2 and date the installer changelog](https://github.com/thedotmack/claude-mem/commit/2c57eb156ee726c8f0f22502cc9bfcc0a8353526) | thedotmack |
-| 2026-11-24 | [Keep mobile setup in reach and welcome fresh sessions (#6438)](https://github.com/thedotmack/claude-mem/commit/a046a6a9fd8fb1cc56466194487dca94e8212409) | thedotmack |
-| 2026-11-23 | [feat(setup): open Cloud Sync checkout on first trial click (#6431)](https://github.com/thedotmack/claude-mem/commit/ecfc1c0bde70efc16839e3ffcdf02efce736512f) | thedotmack |
-| 2026-11-23 | [test(build): assert the Codex no-hooks manifest ships (#6425)](https://github.com/thedotmack/claude-mem/commit/384305078d67808c95bbd6ec6c45392a5edc2e78) | DeryFerd |
-| 2026-11-23 | [feat(doctor): report the database file and its WAL sidecars (#6429)](https://github.com/thedotmack/claude-mem/commit/09ee41e93da9bfa081429136582e7e3c6b58610e) | DeryFerd |
-| 2026-11-23 | [fix(sync): validate TOKEN_VERIFY_URL as an https endpoint (#6427)](https://github.com/thedotmack/claude-mem/commit/bdb2c3f4bfe0f8b69e33bb3116474ba9dd30bcd5) | DeryFerd |
-| 2026-11-23 | [fix(db): drain cached statements before closing the shared connection…](https://github.com/thedotmack/claude-mem/commit/2e766af97eb701ae7ec08c19364b43094845859a) | DeryFerd |
-| 2026-11-23 | [fix(security): compare remote spool tokens without a length oracle (#…](https://github.com/thedotmack/claude-mem/commit/fe0c412e5287ca76cb8388a2140729e046b40498) | DeryFerd |
-| 2026-11-23 | [test(backup): resolve the snapshot path expectation on Windows (#6424)](https://github.com/thedotmack/claude-mem/commit/b70f561f96ce0e15674f7689a220924a3d6e7cca) | DeryFerd |
-| 2026-11-23 | [fix(context): keep all-project cache readable during catalog outages …](https://github.com/thedotmack/claude-mem/commit/74fdc443c131490de6f79453607af3b877a96ca8) | zhangkom |
+| 2026-11-25 | [Ship the Cloud Sync timeline gift and dated startup messages in 16.1.…](https://github.com/thedotmack/claude-mem/commit/11b47f9f4b8dc3614fab7452647f578886468849) | thedotmack |
+| 2026-11-25 | [Merge pull request #6469 from thedotmack/feat/cloud-sync-remote-routines](https://github.com/thedotmack/claude-mem/commit/4339da34551319c976caad3f1781309803bfb1bf) | thedotmack |
+| 2026-11-25 | [Publish the verified Work Viewer onboarding bundle](https://github.com/thedotmack/claude-mem/commit/a7f8f8f30d6796aa5bd289539a9f294468c16359) | thedotmack |
+| 2026-11-25 | [Guide Cloud Sync trials through remote work and recurring routines](https://github.com/thedotmack/claude-mem/commit/6996017c489c20cee3eeed13ee991ef9127a980c) | thedotmack |
+| 2026-11-25 | [Merge pull request #6467 from thedotmack/docs/cloud-sync-giveaway-gif](https://github.com/thedotmack/claude-mem/commit/18789c834abcade74355e48631088cf728d52a93) | thedotmack |
+| 2026-11-25 | [Show the Cloud Sync giveaway GIF at the top of the README](https://github.com/thedotmack/claude-mem/commit/8ec2bd3310a96431e2351d107ac38458ee79b631) | thedotmack |
+| 2026-11-25 | [Merge pull request #6456 from thedotmack/feat/shared-cloud-sync-insta…](https://github.com/thedotmack/claude-mem/commit/11fdec893eb4ece18ff946758e75e82c92aff71b) | thedotmack |
+| 2026-11-25 | [Merge the credit-cap provider fallback into the Cloud Sync installer …](https://github.com/thedotmack/claude-mem/commit/4a08f6dda4fe0741b10dcfd66aec32059b7ccbdb) | thedotmack |
+| 2026-11-25 | [build: prepare release bundles](https://github.com/thedotmack/claude-mem/commit/a97d89f9903520bce5c08d64042a1e7fbf7845ca) | github-actions[bot] |
+| 2026-11-25 | [Use the available default backup when a regular agent plan is unavail…](https://github.com/thedotmack/claude-mem/commit/cc55c17db4e8a9714d7ad25b26accaa8cff7baef) | thedotmack |
 
 [See all commits ↗](https://github.com/thedotmack/claude-mem/commits)
 

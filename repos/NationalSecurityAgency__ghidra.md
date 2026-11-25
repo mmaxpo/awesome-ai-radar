@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 101.2k |
+| ⭐ **Stars** | 101.3k |
 | 🍴 **Forks** | 11.5k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/NationalSecurityAgency/ghidra/issues) |
-| 💻 **Languages** | Java 86% · C++ 6% · HTML 4% · C 2% · Python 1% |
+| 💻 **Languages** | Java 87% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `software-analysis` `disassembler` `reverse-engineering` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2019-03-01 |
 | 📦 **Latest release** | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — 2026-10-22 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 408.0 MB |
+| 💾 **Size** | 408.2 MB |
 
 ## 📦 Recent releases
 
@@ -78,16 +78,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Merge branch 'GP-0_ryanmkurtz_PR-9925_ketpatil77_fix_validated-input-…](https://github.com/NationalSecurityAgency/ghidra/commit/5e553af53de93171516baad443cee0e5a8900268) | ryanmkurtz |
-| 2026-11-24 | [Merge branch 'GP-0_ryanmkurtz_PR-10275_lzandman_leon_fix-swift-string…](https://github.com/NationalSecurityAgency/ghidra/commit/047eaced3dfa5bd5fd499ad1520a86222f25b5b9) | ryanmkurtz |
-| 2026-11-24 | [GP-0: Certify](https://github.com/NationalSecurityAgency/ghidra/commit/55c421931aec54059576b83c10dea82e9e5d01e8) | ryanmkurtz |
-| 2026-11-24 | [GP-0: Improved UNC check (Closes #10292)](https://github.com/NationalSecurityAgency/ghidra/commit/7fd8fa744958442455287817dafcc6871c13369c) | ryanmkurtz |
-| 2026-11-24 | [Merge branch 'GP-0_ryanmkurtz_PR-10189_blaze0089_fix-lzfse-fse-flush6…](https://github.com/NationalSecurityAgency/ghidra/commit/52bfa52e07b85bea3f3ed8b195a80717ee3f7888) | ryanmkurtz |
-| 2026-11-24 | [Merge branch 'GP-0_ryanmkurtz_PR-10286_mattst88_som-noreturn-functions'](https://github.com/NationalSecurityAgency/ghidra/commit/0e2c4e8379887c0ff4772d2d89b774e388addb59) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/GP-0-dragonmacher-test-fixes-11-…](https://github.com/NationalSecurityAgency/ghidra/commit/fc33a9682cebcd31fa5088ea9701f24f9cb68988) | ryanmkurtz |
-| 2026-11-23 | [Test fixes](https://github.com/NationalSecurityAgency/ghidra/commit/189e28c21d4637dfffb9e6b3afff485f6ad16faa) | dragonmacher |
-| 2026-11-23 | [SOM: Add a list of functions that do not return](https://github.com/NationalSecurityAgency/ghidra/commit/6579dbe5261b4cffff133d60b90a0996e2ce2e44) | mattst88 |
-| 2026-11-23 | [Merge remote-tracking branch 'origin/GP-0-dragonmacher-app-context-fix'](https://github.com/NationalSecurityAgency/ghidra/commit/cc2a3af96e05af7903a62aee8bd0bcabbf304e3c) | ryanmkurtz |
+| 2026-11-25 | [Merge remote-tracking branch 'origin/GP-7527_ryanmkurtz_sleigh-docs'](https://github.com/NationalSecurityAgency/ghidra/commit/50b78476df100fd360f6623223c5e4510c569c5c) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/GP-7521-dragonmacher-fg-save-image'](https://github.com/NationalSecurityAgency/ghidra/commit/acdc58ca203501db260d3d797ff2ba429f0f9334) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/a94687cd00071ffd06441567cb5ceab09fba2fa5) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/95b524323ee8f0f35502e0d1ca730577212880e8) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/a7fcde6affed94c92edae498c09f17e673f9c485) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/d70ca27f9858d4ff386d6488a923647c4c2e3495) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/9b1118348456e02dbcd332261567eeb8022fc143) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/1e304ddabbc4a18cec3d55099631f8c627b324e2) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/b4910425b0b707034942008e8d169d96a360db3d) | ryanmkurtz |
+| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/a29df049fd9c90813ee9f10988b0da24ef1be441) | ryanmkurtz |
 
 [See all commits ↗](https://github.com/NationalSecurityAgency/ghidra/commits)
 

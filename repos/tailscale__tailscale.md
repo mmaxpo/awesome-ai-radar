@@ -22,36 +22,36 @@
 |---|---|
 | ⭐ **Stars** | 39.6k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [4.7k](https://github.com/tailscale/tailscale/issues) |
+| 🐞 **Open issues + PRs** | [4.8k](https://github.com/tailscale/tailscale/issues) |
 | 💻 **Languages** | Go 97% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `wireguard` `oauth` `sso` `2fa` `vpn` `tailscale` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2020-01-31 |
 | 📦 **Latest release** | [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7) — 2026-11-12 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 91.7 MB |
+| 💾 **Size** | 91.6 MB |
 | 🌐 **Website** | https://tailscale.com |
 
 ## 📦 Recent releases
 
 ### [v1.104.7](https://github.com/tailscale/tailscale/releases/tag/v1.104.7)
-<sub>2026-11-12 · 11d ago</sub>
+<sub>2026-11-12 · 12d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.6](https://github.com/tailscale/tailscale/releases/tag/v1.104.6)
-<sub>2026-11-11 · 13d ago</sub>
+<sub>2026-11-11 · 14d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.5](https://github.com/tailscale/tailscale/releases/tag/v1.104.5)
-<sub>2026-11-03 · 21d ago</sub>
+<sub>2026-11-03 · 22d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
 ### [v1.104.4](https://github.com/tailscale/tailscale/releases/tag/v1.104.4)
-<sub>2026-10-28 · 27d ago</sub>
+<sub>2026-10-28 · 28d ago</sub>
 
 > Please refer to the changelog available at https://tailscale.com/changelog
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [cmd/k8s-operator: publish HA Service VIPs for configured IP families …](https://github.com/tailscale/tailscale/commit/6dce0b211825c52461325f914f842e9521e41e48) | hyperb1iss |
-| 2026-11-23 | [licenses: update license notices](https://github.com/tailscale/tailscale/commit/da6276d77025ee2bce288c4ccf07b35e14f253a7) | License Updater |
-| 2026-11-23 | [VERSION.txt: this is v1.107.0 (#22612)](https://github.com/tailscale/tailscale/commit/b5034b78a5dca2412cb5224fc3e63ea6aeff2677) | nickoneill |
-| 2026-11-23 | [feature/conn25: enforce token verification](https://github.com/tailscale/tailscale/commit/3ec7c0cd6cc04e087e7123d03a81fb3064b35dc3) | franbull |
-| 2026-11-23 | [appc,feature/conn25: build split DNS routes from the parsed config](https://github.com/tailscale/tailscale/commit/7caf9edb4071de87d15e3e01ab112e5bbe83eeed) | mzbenami |
-| 2026-11-23 | [net/dns: stage the new hosts file outside of the etc directory on Win…](https://github.com/tailscale/tailscale/commit/0afa9614d3e53bf834b2b91fff019d7fcfbf9bf1) | nickkhyl |
-| 2026-11-23 | [net/dns: retry failed hosts file updates in the background on Windows](https://github.com/tailscale/tailscale/commit/65c4e364776cde41332c60843e05af41618e0fcd) | nickkhyl |
-| 2026-11-23 | [util/coalescedop: add Wait](https://github.com/tailscale/tailscale/commit/a11574557916d33c8c75707a0a70d581377f0415) | nickkhyl |
-| 2026-11-23 | [derp/derpserver: add rate limiting exemption by IP (#22610)](https://github.com/tailscale/tailscale/commit/00183293b8f529991990a832ce1ccb6f3783755b) | mikeodr |
-| 2026-11-23 | [net/dns/resolver: don't count a torn-down UDP write as an upstream error](https://github.com/tailscale/tailscale/commit/01f673c4268eebcce1b6af08ed32e0ab41fde2b1) | bradfitz |
+| 2026-11-25 | [wgengine/magicsock: avoid copying lock in Test_endpoint_handlePongCon…](https://github.com/tailscale/tailscale/commit/445df50dcf76b6172dc4688c2097c47878f41641) | sfllaw |
+| 2026-11-25 | [drive/driveimpl: don't require sudo or su to share as the current user](https://github.com/tailscale/tailscale/commit/e906a6a44b0fc0826f042ff8835248c619ece212) | alopsing |
+| 2026-11-25 | [tsweb/varz: add match filters and streaming to /debug/varz](https://github.com/tailscale/tailscale/commit/258b0879984b1a2c23cb11e4674d84b3fb536c7e) | bradfitz |
+| 2026-11-24 | [tsnet: test with a fake host DNS resolver, not the OS resolver (#22635)](https://github.com/tailscale/tailscale/commit/012baddc17463ad97288237ad0b4792fe734448d) | sfllaw |
+| 2026-11-24 | [tsnet: fix Server.Close so it can be called repeatedly (#22633)](https://github.com/tailscale/tailscale/commit/2a097428bca0111bed8f9eb58c8772d14382a2ff) | sfllaw |
+| 2026-11-24 | [wgengine/magicsock, control/controlclient: handle node keys moving be…](https://github.com/tailscale/tailscale/commit/1e36c0f2b7791778f96c2a45f6860de9ee3e11c4) | bradfitz |
+| 2026-11-24 | [util/pipetcp: add reusable TCP proxying functionality](https://github.com/tailscale/tailscale/commit/aa0d4792947abdbdaaae69b3b256c1e68c7cef47) | tendstofortytwo |
+| 2026-11-24 | [tsnet: add Server.Tailnet to require a tailnet](https://github.com/tailscale/tailscale/commit/67e092fe7d63df0e7d14cc6dc24ef6f004ac0b27) | bradfitz |
+| 2026-11-24 | [feature/conn25: return extra WireGuard AllowedIPs in a stable order (…](https://github.com/tailscale/tailscale/commit/076d07d626aeedce58ebd12402c06c0e7dc81321) | mazdakn |
+| 2026-11-24 | [cmd/testwrapper: ensure unfinished tests always trigger failure (#22622)](https://github.com/tailscale/tailscale/commit/8bcc919dcfb2bd656264512869527eb84e2aea91) | tomhjp |
 
 [See all commits ↗](https://github.com/tailscale/tailscale/commits)
 

@@ -20,43 +20,43 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 87.7k |
+| ⭐ **Stars** | 87.8k |
 | 🍴 **Forks** | 5.6k |
 | 🐞 **Open issues + PRs** | [1.7k](https://github.com/rtk-ai/rtk/issues) |
 | 💻 **Languages** | Rust 97% · Shell 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-coding` `ai-coding` `anthropic` `claude-code` `cli` `command-line-tool` `cost-reduction` `developer-tools` `llm` `open-source` `productivity` `rust` `token-optimization` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-01-22 |
-| 📦 **Latest release** | [dev-1.3.0-rc.673](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.673) — 2026-11-23 |
+| 📦 **Latest release** | [dev-1.3.0-rc.678](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.678) — 2026-11-25 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 19.6 MB |
+| 💾 **Size** | 19.8 MB |
 | 🌐 **Website** | https://www.rtk-ai.app |
 
 ## 📦 Recent releases
 
-### [dev-1.3.0-rc.673](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.673) _(pre-release)_
-<sub>2026-11-23 · today</sub>
+### [dev-1.3.0-rc.678](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.678) _(pre-release)_
+<sub>2026-11-25 · today</sub>
 
 > _No notes._
 
-### [dev-1.3.0-rc.672](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.672) _(pre-release)_
-<sub>2026-11-23 · today</sub>
+### [dev-1.3.0-rc.677](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.677) _(pre-release)_
+<sub>2026-11-25 · today</sub>
 
 > _No notes._
 
-### [dev-1.2.2-rc.671](https://github.com/rtk-ai/rtk/releases/tag/dev-1.2.2-rc.671) _(pre-release)_
-<sub>2026-11-23 · yesterday</sub>
+### [dev-1.3.0-rc.676](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.676) _(pre-release)_
+<sub>2026-11-25 · today</sub>
 
 > _No notes._
 
-### [dev-1.2.2-rc.670](https://github.com/rtk-ai/rtk/releases/tag/dev-1.2.2-rc.670) _(pre-release)_
-<sub>2026-11-23 · yesterday</sub>
+### [dev-1.3.0-rc.675](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.675) _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
 > _No notes._
 
-### [dev-1.2.2-rc.669](https://github.com/rtk-ai/rtk/releases/tag/dev-1.2.2-rc.669) _(pre-release)_
-<sub>2026-11-22 · yesterday</sub>
+### [dev-1.3.0-rc.674](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.674) _(pre-release)_
+<sub>2026-11-24 · today</sub>
 
 > _No notes._
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #5230 from rtk-ai/fix/semgrep-gain-console-mode](https://github.com/rtk-ai/rtk/commit/c43b5c44945bbf861794e8d0683a14a5456004a8) | KuSh |
-| 2026-11-23 | [Merge pull request #769 from BSD-Yassin/feat/infra-filters-tofu](https://github.com/rtk-ai/rtk/commit/29f09c3d820f4ca44a5eec56c0b89998af13731b) | KuSh |
-| 2026-11-23 | [Merge pull request #5122 from mccalpink/fix/5106-delegate-reads-binary](https://github.com/rtk-ai/rtk/commit/fe56be06916d8c83d8558a3b8d7d587728a56649) | aeppling |
-| 2026-11-23 | [fix(gain): mark the console-mode unsafe block for semgrep](https://github.com/rtk-ai/rtk/commit/c52bc886eae7d81dbe6dfffa2387aab520bd1bd9) | pszymkowiak |
-| 2026-11-23 | [fix(nix): parse nix search's stdout only, count every result](https://github.com/rtk-ai/rtk/commit/a8bf0f61a29a768c2ded7a631c3a188d1559781f) | KuSh |
-| 2026-11-23 | [Merge pull request #3700 from bdngeorge/fix/install-support-windows-g…](https://github.com/rtk-ai/rtk/commit/e5e7c55ac13aebf5d39c1ddf8e027c46ad2cdef4) | KuSh |
-| 2026-11-23 | [test(install): run install.sh end to end, in CI on every test leg](https://github.com/rtk-ai/rtk/commit/ef7b6a06737aac64203b0d87cb779c8df592af43) | KuSh |
-| 2026-11-23 | [Merge branch 'develop' into feat/infra-filters-tofu](https://github.com/rtk-ai/rtk/commit/6365b6ae4cff6fa049a0521b3944499a2aad4cc0) | KuSh |
-| 2026-11-22 | [fix(install): fix install bash script crashing when run on windows us…](https://github.com/rtk-ai/rtk/commit/969ab4e95436137f77192ebaea743df619fbe107) | bdngeorge |
-| 2026-11-22 | [Merge pull request #3991 from tianhaotian/fix/parser-crlf-json-offset](https://github.com/rtk-ai/rtk/commit/762708cd452bb91276a72ec5394ca7ce90e2a965) | pszymkowiak |
+| 2026-11-25 | [Merge pull request #4541 from yeahjack/feat/recall-invocation-accounting](https://github.com/rtk-ai/rtk/commit/97e68d5358aa5d91d1540ea64df58c9688bcf83d) | KuSh |
+| 2026-11-25 | [test(tracking): pin the remaining recall accounting decisions](https://github.com/rtk-ai/rtk/commit/a3261f519c8a02d806902c7f0767bea5238d042d) | KuSh |
+| 2026-11-25 | [Merge pull request #4865 from ferr079/fix/pnpm-failure-stdout](https://github.com/rtk-ai/rtk/commit/2ee0e396934636676c0cad9d5f430777f1d6acd6) | KuSh |
+| 2026-11-25 | [Merge branch 'develop' into fix/pnpm-failure-stdout](https://github.com/rtk-ai/rtk/commit/03ef3b18cb4eb739cd9632748a4d4a507a8b86b6) | KuSh |
+| 2026-11-25 | [Merge pull request #3344 from SomSamantray/fix/passthrough-tracking-a…](https://github.com/rtk-ai/rtk/commit/e87da19b1a8df2bb2920b5de39e6bd4c09d919f5) | KuSh |
+| 2026-11-25 | [test(js): pin how unparsed playwright, pnpm and vitest runs are shown…](https://github.com/rtk-ai/rtk/commit/f5f63163511b9a51448790cb8a1d78a028eb29d1) | KuSh |
+| 2026-11-24 | [Merge pull request #5101 from remote-controlled-man/codex/prflow-7d1c…](https://github.com/rtk-ai/rtk/commit/9a94ec19463a957ecd8f22c89c15934a9c0bf9ec) | aeppling |
+| 2026-11-24 | [Merge pull request #5098 from remote-controlled-man/codex/prflow-463b…](https://github.com/rtk-ai/rtk/commit/c1afaa80e0a66a38fb6f1bb9173f2591ae5124ec) | aeppling |
+| 2026-11-24 | [fix(pnpm): drop only pnpm's update notifier, keep every other │ line](https://github.com/rtk-ai/rtk/commit/b9e134452909a6a11df3cf34a147e2e379dd7c00) | ferr079 |
+| 2026-11-23 | [Merge develop into fix/passthrough-tracking-and-tee-path](https://github.com/rtk-ai/rtk/commit/92b8a4b18b1450c68ff694aec61cf8361c27a11a) | pszymkowiak |
 
 [See all commits ↗](https://github.com/rtk-ai/rtk/commits)
 

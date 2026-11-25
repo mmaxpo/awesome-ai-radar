@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 56.9k |
+| ⭐ **Stars** | 57.0k |
 | 🍴 **Forks** | 6.7k |
-| 🐞 **Open issues + PRs** | [501](https://github.com/aaif-goose/goose/issues) |
+| 🐞 **Open issues + PRs** | [515](https://github.com/aaif-goose/goose/issues) |
 | 💻 **Languages** | Rust 72% · TypeScript 23% · Python 1% · JavaScript 1% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `mcp` `acp` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-08-23 |
-| 📦 **Latest release** | [v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2) — 2026-11-20 |
+| 📦 **Latest release** | [v1.61.0](https://github.com/aaif-goose/goose/releases/tag/v1.61.0) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 976.6 MB |
+| 💾 **Size** | 977.3 MB |
 | 🌐 **Website** | https://goose-docs.ai/ |
 
 ## 📦 Recent releases
 
+### [v1.61.0](https://github.com/aaif-goose/goose/releases/tag/v1.61.0)
+<sub>2026-11-25 · today</sub>
+
+> **✨ Features**
+> - Show the provider before the model on the model button [#13491](https://github.com/aaif-goose/goose/pull/13491)
+> - Gemini 4 Neon added to the model catalog [#13684](https://github.com/aaif-goose/goose/pull/13684)
+> - Treat all headers as secret in mcpServers configs over ACP [#13435](https://github.com/aaif-goose/goose/pull/13435)
+> - MCP extension operation for goose-agent [#13620](https://github.com/aaif-goose/goose/pull/13620)
+> - Import MCP's server.json format into goose config [#11934](https://github.com/aaif-goose/goose/pull/11934)
+> …
+
 ### [v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2)
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > **✨ Features**
 > - Gemini 4 Neon added to the model catalog [#13684](https://github.com/aaif-goose/goose/pull/13684)
@@ -44,13 +55,13 @@
 > - Thinking levels now sent to Gemini 4 and later, including xhigh [#13673](https://github.com/aaif-goose/goose/pull/13673)
 
 ### [v1.60.1](https://github.com/aaif-goose/goose/releases/tag/v1.60.1)
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > **🐛 Bug Fixes**
 > - Compaction: drop the `<analysis>` scratchpad that Claude models refuse [#13572](https://github.com/aaif-goose/goose/pull/13572)
 
 ### [v1.60.0](https://github.com/aaif-goose/goose/releases/tag/v1.60.0)
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **✨ Features**
 > - SkillOperation and drop the Skills extension [#13574](https://github.com/aaif-goose/goose/pull/13574)
@@ -61,30 +72,25 @@
 > …
 
 ### [v1.59.2](https://github.com/aaif-goose/goose/releases/tag/v1.59.2)
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > **🐛 **Bug Fixes****
 > - Databricks provider: drop thinking blocks bound to a different prefix [#13551](https://github.com/aaif-goose/goose/pull/13551)
-
-### [v1.59.1](https://github.com/aaif-goose/goose/releases/tag/v1.59.1)
-<sub>2026-11-14 · 10d ago</sub>
-
-> macOS desktop builds and full release notes coming soon.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Merge commit from fork](https://github.com/aaif-goose/goose/commit/8256b9ac9ffae7d19ef1db1f57e37f84c44915bd) | lifeizhou-ap |
+| 2026-11-25 | [Merge commit from fork](https://github.com/aaif-goose/goose/commit/7480eba8de8beb4ac0cbffec1a25ddd0d1c7f3c3) | lifeizhou-ap |
+| 2026-11-25 | [Update cookie to 0.18.3 to fix RUSTSEC-2026-0594 (#13810)](https://github.com/aaif-goose/goose/commit/820b4e53d1abe568bff02693ee68a0f6f8a471be) | lifeizhou-ap |
+| 2026-11-25 | [chore(oi-kit): release v0.1.0-alpha.16 (#13580)](https://github.com/aaif-goose/goose/commit/766923df7a16679ee430eac43c9fc9c73caf4b33) | github-actions[bot] |
+| 2026-11-25 | [test(desktop): speed up flaky CustomProviderForm tests (#13782)](https://github.com/aaif-goose/goose/commit/15dfc6091815950af6808075a4e8786e0c5ddc43) | lifeizhou-ap |
+| 2026-11-25 | [chore(release): bump version to 1.61.0 (minor) (#13772)](https://github.com/aaif-goose/goose/commit/1551ae802eac62b75dd6cb2431f7fb03b03ae945) | github-actions[bot] |
+| 2026-11-24 | [fix(deps): override vulnerable yaml, brace-expansion, js-yaml and pic…](https://github.com/aaif-goose/goose/commit/02acced1e332824cba1ce1aa0e4cd0fcc29c0b55) | lifeizhou-ap |
+| 2026-11-24 | [chore(deps): raise Dependabot open PR limit for /ui to 20 (#13767)](https://github.com/aaif-goose/goose/commit/5d03d8731b77cc95250105fd540c0c919c5f4508) | lifeizhou-ap |
+| 2026-11-24 | [fix: end TTFT when the first text, thinking or tool call starts (#13780)](https://github.com/aaif-goose/goose/commit/c2e9d41adf3f5f6fd537709eca61f7fb118672c4) | lifeizhou-ap |
 | 2026-11-24 | [fix(acp): make providers/inventory/refresh wait for the refresh, and …](https://github.com/aaif-goose/goose/commit/03a343f9fe309a2c2cfe63a5561cbfe9ab38762e) | lifeizhou-ap |
-| 2026-11-24 | [chore(deps-dev): bump eslint from 9.39.4 to 10.15.0 in /ui (#13747)](https://github.com/aaif-goose/goose/commit/2bf1aa6fca0779b14cf47cdece1698e1b33229eb) | dependabot[bot] |
-| 2026-11-24 | [chore(deps): bump @babel/core from 7.28.5 to 7.29.13 in /documentatio…](https://github.com/aaif-goose/goose/commit/4380c8ef5bdfebeef0b1f3d5b8e4a160e5679e8f) | dependabot[bot] |
-| 2026-11-24 | [chore(deps): bump @babel/core from 7.29.0 to 7.29.13 in /ui (#13771)](https://github.com/aaif-goose/goose/commit/7a0cdaad02aa039fbfecde20e3e37a3b910e1daa) | dependabot[bot] |
-| 2026-11-24 | [chore(deps): bump http-proxy-middleware from 2.0.9 to 2.0.12 in /docu…](https://github.com/aaif-goose/goose/commit/8abdd97bc234a2accf16ecd42fce47d7d7c0a8d3) | dependabot[bot] |
-| 2026-11-24 | [chore(deps): bump ws from 8.20.0 to 8.23.0 in /ui (#13768)](https://github.com/aaif-goose/goose/commit/00f75295888b753d584d71df320534c66dcec756) | dependabot[bot] |
-| 2026-11-24 | [chore(deps): bump zod from 4.1.12 to 4.6.7 in /documentation (#13765)](https://github.com/aaif-goose/goose/commit/e13598a17b05771f42de44f5616cff1be2de38b5) | dependabot[bot] |
-| 2026-11-24 | [chore(deps): bump compression from 1.8.1 to 1.8.2 in /documentation (…](https://github.com/aaif-goose/goose/commit/d695f2b62fafd33e51ce3566baf273f831e9fcb6) | dependabot[bot] |
-| 2026-11-24 | [chore(deps): bump nanoid from 3.3.16 to 3.3.20 in /documentation (#13…](https://github.com/aaif-goose/goose/commit/e299df2a3f41a134e69143dabd37e4040466d74f) | dependabot[bot] |
-| 2026-11-24 | [chore(deps): bump @humanfs/node from 0.16.7 to 0.16.8 in /ui (#13762)](https://github.com/aaif-goose/goose/commit/76ccadf93bc62f14dbbc5a44bf6ced1357721d2a) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/aaif-goose/goose/commits)
 

@@ -22,28 +22,28 @@
 |---|---|
 | ⭐ **Stars** | 109.1k |
 | 🍴 **Forks** | 15.0k |
-| 🐞 **Open issues + PRs** | [743](https://github.com/google-gemini/gemini-cli/issues) |
+| 🐞 **Open issues + PRs** | [752](https://github.com/google-gemini/gemini-cli/issues) |
 | 💻 **Languages** | TypeScript 97% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gemini` `gemini-api` `ai` `ai-agents` `cli` `mcp-client` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-04-17 |
 | 📦 **Latest release** | [v0.71.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 103.6 MB |
+| 💾 **Size** | 103.3 MB |
 | 🌐 **Website** | https://geminicli.com |
 
 ## 📦 Recent releases
 
 ### [v0.71.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1) — Release v0.71.1
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **What's Changed**
 > * fix(patch): cherry-pick aafdfdf to release/v0.71.0-pr-30420 to patch version v0.71.0 and create version 0.71.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30429
 > **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0...v0.71.1
 
 ### [v0.71.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0) — Release v0.71.0
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **What's Changed**
 > * Changelog for v0.70.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30361
@@ -54,14 +54,14 @@
 > …
 
 ### [v0.71.0-nightly.20261124.gaafdfdfb5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261124.gaafdfdfb5) — Release v0.71.0-nightly.20261124.gaafdfdfb5 _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **What's Changed**
 > * fix(a2a-server): enforce bearer token authentication and request input validation by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30420
 > **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261123.geecccfcd5...v0.71.0-nightly.20261124.gaafdfdfb5
 
 ### [v0.72.0-preview.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.72.0-preview.0) — Release v0.72.0-preview.0 _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **What's Changed**
 > * Changelog for v0.70.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30380
@@ -72,7 +72,7 @@
 > …
 
 ### [v0.71.0-nightly.20261123.geecccfcd5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261123.geecccfcd5) — Release v0.71.0-nightly.20261123.geecccfcd5 _(pre-release)_
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261122.geecccfcd5...v0.71.0-nightly.20261123.geecccfcd5
 
@@ -80,6 +80,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [fix(core): normalize hook command names with leading environment vari…](https://github.com/google-gemini/gemini-cli/commit/08e9a20f749aefcbda38622ac757899c3d6216e0) | jesussamuel-byte |
+| 2026-11-24 | [fix(core): quote IDE CLI command path on Windows for cmd.exe (#30390)](https://github.com/google-gemini/gemini-cli/commit/14459def1564dd78236196054c0b880fd22913ed) | urielefrenvirtusa |
 | 2026-11-24 | [chore(release): bump version to 0.73.0-nightly.20261123.gaafdfdfb5 (#…](https://github.com/google-gemini/gemini-cli/commit/03862c4164844c6cf8063b4cc48546ec1609cf2e) | gemini-cli-robot |
 | 2026-11-24 | [Changelog for v0.71.0 (#30426)](https://github.com/google-gemini/gemini-cli/commit/7f8f423f59677e10c5260873736d7cce85d5b493) | gemini-cli-robot |
 | 2026-11-23 | [fix(a2a-server): enforce bearer token authentication and request inpu…](https://github.com/google-gemini/gemini-cli/commit/aafdfdfb50b57fda86165323014477796870d3ea) | diegogodinezr |
@@ -88,8 +90,6 @@
 | 2026-11-19 | [fix(core): handle nested .gitignore negations under dir/** patterns (…](https://github.com/google-gemini/gemini-cli/commit/d4cb1713fd7fc30f1c03f9ca7cbfed341c97dffd) | urielefrenvirtusa |
 | 2026-11-19 | [Changelog for v0.70.0 (#30380)](https://github.com/google-gemini/gemini-cli/commit/ce0a92d7c0e09324254b8cd1df18cb577cff4a23) | gemini-cli-robot |
 | 2026-11-19 | [chore(gcp): push development worker to private artifact registry (#30…](https://github.com/google-gemini/gemini-cli/commit/808199f5c2f64db0f2b1cf84b529c39f6791ecf7) | DavidAPierce |
-| 2026-11-19 | [fix(core,cli): parse PowerShell commands asynchronously to prevent UI…](https://github.com/google-gemini/gemini-cli/commit/db1bbead3d790602e51a35e15d956a2b6f4393f5) | tadipavan |
-| 2026-11-19 | [Changelog for v0.69.0 (#30365)](https://github.com/google-gemini/gemini-cli/commit/d6fc2ef032e9aa68b1f655b2c6133353523798ea) | gemini-cli-robot |
 
 [See all commits ↗](https://github.com/google-gemini/gemini-cli/commits)
 

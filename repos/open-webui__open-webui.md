@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 159.4k |
+| ⭐ **Stars** | 159.5k |
 | 🍴 **Forks** | 23.1k |
-| 🐞 **Open issues + PRs** | [264](https://github.com/open-webui/open-webui/issues) |
+| 🐞 **Open issues + PRs** | [214](https://github.com/open-webui/open-webui/issues) |
 | 💻 **Languages** | Svelte 39% · Python 37% · JavaScript 16% · TypeScript 7% · CSS 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ollama` `ollama-webui` `llm` `webui` `self-hosted` `llm-ui` `llm-webui` `llms` `rag` `ai` `open-webui` `ui` `openai` `mcp` `openapi` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-10-06 |
-| 📦 **Latest release** | [v0.13.4](https://github.com/open-webui/open-webui/releases/tag/v0.13.4) — 2026-11-17 |
+| 📦 **Latest release** | [v0.13.5](https://github.com/open-webui/open-webui/releases/tag/v0.13.5) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 667.6 MB |
+| 💾 **Size** | 681.7 MB |
 | 🌐 **Website** | https://openwebui.com |
 
 ## 📦 Recent releases
 
+### [v0.13.5](https://github.com/open-webui/open-webui/releases/tag/v0.13.5)
+<sub>2026-11-25 · today</sub>
+
+> **Added**
+> - **Folder workspaces.** Run your project’s tests in a terminal and try the app in a browser while your chat stays open beside them. Choose the computer and project directory once for the folder. Even in a shared folder, everyone can return to their own tabs and layout. If you used the standalone Open WebUI Computer (cptr) app, that workflow is now built into Open WebUI. [#34804](https://github.com/open-webui/open-webui/pull/34804), [#34805](https://github.com/open-webui/open-webui/pull/34805), [#34800](https://github.com/open-webui/open-webui/issues/34800), [#34803](https://github.com/open-webui/open-webui/issues/34803)
+> - **Project instructions and skills.** Tell the assistant how your project works once in an `AGENTS.md` or `CLAUDE.md` file. Every new chat in that project folder reads those instructions. Connect the project machine with Open Terminal 0.18.0 or later and the assistant can also follow reusable project instructions called skills, run checks in your terminal and inspect the result in your browser tab.
+> - **Long chat performance.** Sending a message was 34× faster in our 130 MB PostgreSQL test chat. The server accepted it in 0.32 seconds, down from 10.9, because it now saves just the messages that changed. Database writes fell from 533 MB to 2 KB per message. [#34689](https://github.com/open-webui/open-webui/pull/34689), [#34671](https://github.com/open-webui/open-webui/pull/34671), [#34688](https://github.com/open-webui/open-webui/issues/34688), [#34672](https://github.com/open-webui/open-webui/issues/34672), [#34674](https://github.com/open-webui/open-webui/issues/34674), [#34670](https://github.com/open-webui/open-webui/issues/34670), [#34646](https://github.com/open-webui/open-webui/issues/34646)
+> - **Automatic model selection.** Put one router in the chat’s model picker and it can send coding questions to one model and writing requests to another. Admins choose text patterns or describe the kind of question each model should handle. If nothing matches, the router uses the first model on its list or picks one at random. [#34900](https://github.com/open-webui/open-webui/pull/34900), [#34895](https://github.com/open-webui/open-webui/pull/34895), [#34791](https://github.com/open-webui/open-webui/pull/34791), [#34796](https://github.com/open-webui/open-webui/pull/34796), [#34908](https://github.com/open-webui/open-webui/pull/34908), [#34662](https://github.com/open-webui/open-webui/pull/34662), [#34956](https://github.com/open-webui/open-webui/pull/34956), [#34957](https://github.com/open-webui/open-webui/pull/34957), [#34887](https://github.com/open-webui/open-webui/issues/34887), [#34786](https://github.com/open-webui/open-webui/issues/34786), [#34793](https://github.com/open-webui/open-webui/issues/34793), [#34897](https://github.com/open-webui/open-webui/issues/34897), [#34898](https://github.com/open-webui/open-webui/issues/34898), [#34466](https://github.com/open-webui/open-webui/discussions/34466), [#15996](https://github.com/open-webui/open-webui/discussions/15996)
+> - **Citations beside the chat.** Hover over a source number for a quick excerpt, or click it to read the evidence beside the answer. You can compare passages from the same document, see how closely they match your question and jump to the cited PDF page when page information is available. [#34923](https://github.com/open-webui/open-webui/pull/34923), [#34836](https://github.com/open-webui/open-webui/pull/34836), [#34921](https://github.com/open-webui/open-webui/issues/34921), [#34828](https://github.com/open-webui/open-webui/issues/34828), [#34831](https://github.com/open-webui/open-webui/issues/34831), [#34832](https://github.com/open-webui/open-webui/issues/34832), [#34833](https://github.com/open-webui/open-webui/issues/34833), [#34913](https://github.com/open-webui/open-webui/issues/34913), [#34834](https://github.com/open-webui/open-webui/issues/34834), [#34829](https://github.com/open-webui/open-webui/issues/34829), [#20829](https://github.com/open-webui/open-webui/discussions/20829)
+> …
+
 ### [v0.13.4](https://github.com/open-webui/open-webui/releases/tag/v0.13.4)
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **Added**
 > - **Bring your own computer with Tether.** Tether turns your own computer into part of Open WebUI: models from Ollama, LM Studio or any OpenAI-compatible server, OpenAPI and MCP tool servers and Open Terminal servers that you add in the Tether app now show up just for you in the model selector, the Tools list of the + menu and the terminal menu of any Open WebUI you connect, from whatever device you open it on, and Open WebUI reaches them through Tether, so their addresses, commands and keys never leave your computer. This needs Tether 0.1.14 or later, or 0.1.16 for MCP servers, tool servers and terminals need "ENABLE_TOOL_SERVERS" turned on, and a Tether model whose ID matches a model already in Open WebUI stays hidden. Tether replaces Direct Connections. [#34397](https://github.com/open-webui/open-webui/issues/34397)
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.13.3](https://github.com/open-webui/open-webui/releases/tag/v0.13.3)
-<sub>2026-11-08 · 15d ago</sub>
+<sub>2026-11-08 · 16d ago</sub>
 
 > **Added**
 > - 🦾 **Agents in automations.** The automation editor now lets you choose a terminal and working folder, then select a coding agent available there. Scheduled runs use that saved terminal and folder, and check that the terminal and agent are still available before starting. Agent automations send their results to a chat; channel destinations remain available for ordinary models. [Commit](https://github.com/open-webui/open-webui/commit/21fc016141c73a0e11b428c61bde20527bbc228a)
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.13.2](https://github.com/open-webui/open-webui/releases/tag/v0.13.2)
-<sub>2026-11-08 · 16d ago</sub>
+<sub>2026-11-08 · 17d ago</sub>
 
 > **Fixed**
 > - 🔓 **Chat over plain HTTP.** Opening Open WebUI over plain HTTP at a LAN or Docker address now loads new and existing chats instead of staying on a spinner with "crypto.randomUUID is not a function". [#33919](https://github.com/open-webui/open-webui/issues/33919)
@@ -66,7 +77,7 @@
 > - 🎛️ **Side Chat permission switch.** The Allow Side Chat switch is now visible even when Temporary Chat is off, so administrators can configure the two permissions independently. [#33920](https://github.com/open-webui/open-webui/pull/33920)
 
 ### [v0.13.1](https://github.com/open-webui/open-webui/releases/tag/v0.13.1)
-<sub>2026-11-08 · 16d ago</sub>
+<sub>2026-11-08 · 17d ago</sub>
 
 > **Added**
 > - 🦾 **Coding agents as models.** On an Open Terminal that offers agents, coding agents such as Claude Code, Codex and Pi now appear in the model picker. You can chat with them or call them by voice, choose their reasoning effort and service tier, and approve their tool requests in the chat. Each conversation uses one agent, and agent chats cannot be regenerated, continued or edited and resent. If an agent's terminal goes away, its chats and new chats fall back to the default model and earlier replies keep the agent's name. Autocompletion in agent chats uses the task model, or is skipped when there is none. [#33843](https://github.com/open-webui/open-webui/pull/33843), [#33860](https://github.com/open-webui/open-webui/pull/33860), [#33880](https://github.com/open-webui/open-webui/pull/33880), [#33857](https://github.com/open-webui/open-webui/pull/33857)
@@ -76,31 +87,20 @@
 > - 📚 **Full text for small files.** Files whose extracted text is shorter than a new threshold (50,000 characters by default, set with "RAG_FULL_TEXT_CHAR_THRESHOLD" or in the admin Documents settings) are now included in full instead of through retrieval. This applies both when Preload files adds the content to the conversation and when the model reads an attached file with its file search tool, and the file viewer shows when it happens.
 > …
 
-### [v0.13.0](https://github.com/open-webui/open-webui/releases/tag/v0.13.0)
-<sub>2026-11-03 · 21d ago</sub>
-
-> **Added**
-> - 📑 **Tabbed workspace.** The Tabs button at the top of a chat now opens a workspace for files, multiple terminal sessions, artifacts, previews, voice calls and comments. Add tabs from the + menu, drag to reorder them, and create and save new files directly into the selected terminal. Keep the conversation and its working files together while coding, analyzing data or reviewing generated documents. [Commit](https://github.com/open-webui/open-webui/commit/2d7cf5ec99c3fa5c7ee48b91823fb8021b846cf3), [Commit](https://github.com/open-webui/open-webui/commit/5b58b1ebc03024fca1efd498aeabe4d9880dc3aa), [Commit](https://github.com/open-webui/open-webui/commit/a06aa230f75cc2d3512d1bca197a98f3c35da96f), [Commit](https://github.com/open-webui/open-webui/commit/cdc6feecd3769aac41844d81bd775dfb69b44912)
-> - 🖥️ **Open Terminal Desktop tab for computer use.** Open the Desktop tab from the + menu to view and control the desktop provided by your connected Open Terminal, with mouse, keyboard, clipboard and audio support where available. With a model that can call its desktop tools, you can follow computer-use workflows in the same desktop and step in yourself: operate graphical apps, inspect generated documents or handle a step that needs manual input. Requires an Open Terminal connection with desktop support enabled. [Commit](https://github.com/open-webui/open-webui/commit/b51e68fbb3e641e7f9027f5164fcf6b0e111cf27), [Commit](https://github.com/open-webui/open-webui/commit/3bd0cdd0f3cc075420540462f2bf246c73236495), [Commit](https://github.com/open-webui/open-webui/commit/03401a6e331d25425533933da85d3e5496deca3f), [Commit](https://github.com/open-webui/open-webui/commit/6dd3cc216f63085d2a1105117c65064c3e0ca3b6)
-> - 🌐 **Browser tab for browser use and web app testing.** Open websites and local development servers beside your chat, with navigation controls, multiple tabs and a mobile viewport. On a compatible Open Terminal connection, Chrome mode gives you and the model a shared browser session for browser automation: navigate sites, interact with forms and test the web apps the model builds. You can watch the work and interact with the page yourself; Proxy mode remains available for previews. Requires browser support on the selected terminal, and Chrome availability for browser-use tools. [Commit](https://github.com/open-webui/open-webui/commit/fbe69b01fd58a374211d348a28eb5988b11d41de), [Commit](https://github.com/open-webui/open-webui/commit/3bd0cdd0f3cc075420540462f2bf246c73236495), [Commit](https://github.com/open-webui/open-webui/commit/9260e312fb4238b504652eff0d8ca45445ca0821)
-> - ↔️ **Full-width tabs.** On larger screens, expand the tabbed workspace to fill the chat area, with the main conversation kept as its own tab. Switch between the chat, code, browser and desktop with more room to work, or return to the side-by-side layout; your layout choice is remembered. [Commit](https://github.com/open-webui/open-webui/commit/09030d5dd2def4324d98c25f92cf54b1ec1844f1), [Commit](https://github.com/open-webui/open-webui/commit/1ce8616ab9587ca717015d5af9cb26ee4296311f)
-> - 💻 **Open WebUI Desktop 0.1.x.** The separately installed app for macOS, Windows and Linux now focuses on setting up and running Open WebUI on your own computer, with optional llama.cpp local models. The 0.1.0–0.1.4 updates bring a slimmer interface, searchable settings, startup logs, optional automatic Desktop updates, start-to-tray controls and image copying and saving. They also improve screen sharing, knowledge folder uploads, Linux graphics and shortcuts, and NVIDIA/AMD local-model setup and updates. Use it for a managed local installation and local AI workflows. [Desktop changelog](https://github.com/open-webui/desktop/blob/v0.1.4/CHANGELOG.md), [Download v0.1.4](https://github.com/open-webui/desktop/releases/tag/v0.1.4)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-17 | [Merge pull request #33965 from open-webui/dev](https://github.com/open-webui/open-webui/commit/0666e59d26a4d056e0bacee41742486badd71cf8) | tjbck |
-| 2026-11-17 | [fix: Temporary in the / menu does nothing on a new chat (#34609)](https://github.com/open-webui/open-webui/commit/dcde707f0f227900380ff37489ed3490368c33d1) | Classic298 |
-| 2026-11-17 | [refac](https://github.com/open-webui/open-webui/commit/10be890bceab3584108fec9a121ec169b028c56d) | tjbck |
-| 2026-11-17 | [refac](https://github.com/open-webui/open-webui/commit/a59b4099c63e41853503d2a1c7f52a69943632e1) | tjbck |
-| 2026-11-17 | [doc: changelog](https://github.com/open-webui/open-webui/commit/c3dfec2b0dd9d4e5e5907e93ab312ebcf293309d) | tjbck |
-| 2026-11-17 | [refac](https://github.com/open-webui/open-webui/commit/359b549c47f1f089d97877613131ce2d3522edab) | tjbck |
-| 2026-11-17 | [doc: changelog](https://github.com/open-webui/open-webui/commit/02c39e9a0aa4621634ddefd3d3955fa96eccd568) | tjbck |
-| 2026-11-17 | [doc: changelog](https://github.com/open-webui/open-webui/commit/34a32f0dbbe33360679f8e7f9bd4832df1542c5d) | tjbck |
-| 2026-11-17 | [docs: update 0.13.4 changelog (#34603)](https://github.com/open-webui/open-webui/commit/bd0fa6d191af53f20abf605635368248fef9158b) | Classic298 |
-| 2026-11-17 | [perf: PDF preview opens large files in seconds (#34602)](https://github.com/open-webui/open-webui/commit/bd5445a791bc3873bed0f5199d097b85c3aa6376) | Classic298 |
+| 2026-11-25 | [Merge pull request #34613 from open-webui/dev](https://github.com/open-webui/open-webui/commit/926f826eaef6179c092a936eede6c7363e425975) | tjbck |
+| 2026-11-25 | [fix: attaching a file without pandoc sometimes shows a raw error inst…](https://github.com/open-webui/open-webui/commit/7e5634d2086be4e87e3c7921b1421933ee489a9a) | Classic298 |
+| 2026-11-25 | [chore: format](https://github.com/open-webui/open-webui/commit/bb51c01700757e04fb383e0fd5d35c7b5525e2a0) | tjbck |
+| 2026-11-25 | [refac](https://github.com/open-webui/open-webui/commit/efcbd9c6d72ed3f643b8c8dc80e7b55b1a201755) | tjbck |
+| 2026-11-25 | [refac](https://github.com/open-webui/open-webui/commit/1c2c3e794e36e33a5560797829e1b8d9eb5c9ea7) | tjbck |
+| 2026-11-25 | [fix: deleting a note leaves its chat counted in admin analytics (#35059)](https://github.com/open-webui/open-webui/commit/18b9b449c77f61244dd027b7ce73ef2741bbaa1d) | Classic298 |
+| 2026-11-25 | [fix: deleting a folder or all chats leaves their replies and sub-agen…](https://github.com/open-webui/open-webui/commit/cdf38c4a7205336cf3a2f1b701f09a68c8ae900a) | Classic298 |
+| 2026-11-25 | [fix: deleting a folder with its chats leaves their sub-agent and time…](https://github.com/open-webui/open-webui/commit/1fcfc8a5cd78151166ef777de47b94e8b04e3205) | Classic298 |
+| 2026-11-25 | [refac](https://github.com/open-webui/open-webui/commit/b0d5c67f76a47b2ca0ab969e29d8147a04248215) | tjbck |
+| 2026-11-25 | [refac](https://github.com/open-webui/open-webui/commit/ee591b44b3c1d3d1a3d3e166547b9a5214038dab) | tjbck |
 
 [See all commits ↗](https://github.com/open-webui/open-webui/commits)
 

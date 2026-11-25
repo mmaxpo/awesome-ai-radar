@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 20.5k |
 | 🍴 **Forks** | 4.7k |
-| 🐞 **Open issues + PRs** | [474](https://github.com/meta/prophet/issues) |
+| 🐞 **Open issues + PRs** | [471](https://github.com/meta/prophet/issues) |
 | 💻 **Languages** | Python 66% · R 32% · Stan 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `forecasting` `r` `python` |
@@ -82,6 +82,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Bump rubyzip from 2.3.0 to 3.4.0 in /docs (#2795)](https://github.com/meta/prophet/commit/573a00da313d2e73c15ffe0cb4e04ec5f35b4b91) | dependabot[bot] |
+| 2026-11-24 | [Bump pypa/gh-action-pypi-publish in /.github/workflows (#2776)](https://github.com/meta/prophet/commit/51223370c1a7cc9baa04fae4cebb89918b8d4a97) | dependabot[bot] |
+| 2026-11-24 | [Bump nokogiri from 1.18.8 to 1.19.5 in /docs (#2781)](https://github.com/meta/prophet/commit/ffa7f563349235594a344a00dcebe2a7715bc2ea) | dependabot[bot] |
 | 2026-11-24 | [Merge pull request #2784 from iruzen-dono/fix/cmdstanpy-rtools-floor](https://github.com/meta/prophet/commit/c26adf5b012b19d30d79dd7dcdce982bf0c89a4d) | iruzen-dono |
 | 2026-10-22 | [fix: reject NaN holiday windows instead of silently dropping the rang…](https://github.com/meta/prophet/commit/5cf15c0f6e5d5259d9dd8d511fb4e15a45884cdc) | NishchayMahor |
 | 2026-10-21 | [refactor: compute component plot data in private helpers (#2756)](https://github.com/meta/prophet/commit/ad059eba8fc9f38e921b3e5e907bc83b27b44472) | Thanatos9404 |
@@ -89,9 +92,6 @@
 | 2026-10-21 | [fix: do not modify the holidays dataframe passed to Prophet (#2757)](https://github.com/meta/prophet/commit/45dff6980efa81986cb476437390da6f3e692cec) | Thanatos9404 |
 | 2026-10-13 | [fix: keep the scaling option when copying a model for cross-validatio…](https://github.com/meta/prophet/commit/0cf18fc38e002cbe7f2cf77a81120e6c26d5b73d) | kwy404 |
 | 2026-10-05 | [Adding references to Helter Skelter project (#2750)](https://github.com/meta/prophet/commit/f931ceb204932e92371982eb3f1745ba3b6fe73a) | diegoruotolo |
-| 2026-10-05 | [minor: 1.5.0 release (#2752)](https://github.com/meta/prophet/commit/f57c4e13a29d18f927f2516f04990a3540711694) | tcuongd |
-| 2026-10-05 | [fix: keep MAP parameter shapes when the history is constant (#2749)](https://github.com/meta/prophet/commit/f98ff2167556248b50804fbe52adce74387618ca) | kwy404 |
-| 2026-10-05 | [refactor: separate performance_metrics into metrics module to resolve…](https://github.com/meta/prophet/commit/a6b6ce40807a54e68ea7dc3ee820eee88ed668e6) | fabiooliveir |
 
 [See all commits ↗](https://github.com/meta/prophet/commits)
 

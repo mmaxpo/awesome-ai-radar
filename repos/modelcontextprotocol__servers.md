@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 46% · JavaScript 31% · Python 22% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-11-19 |
 | 📦 **Latest release** | [v2.5.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 34.2 MB |
+| 💾 **Size** | 34.1 MB |
 | 🌐 **Website** | https://modelcontextprotocol.io |
 
 ## 📦 Recent releases
 
 ### [v2.5.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0)
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > **Security fixes**
 > v2.5.0 fixes eight vulnerabilities in three servers. Upgrade `mcp-server-git` to 2026.11.18,
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.4.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0)
-<sub>2026-11-11 · 13d ago</sub>
+<sub>2026-11-11 · 14d ago</sub>
 
 > **Security fixes**
 > v2.4.0 fixes six vulnerabilities in three servers. Upgrade `@modelcontextprotocol/server-filesystem` to 2.3.0,
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.3.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0)
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > **Packages**
 > | Package | Version | Registry | In this release |
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.2.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0)
-<sub>2026-10-28 · 26d ago</sub>
+<sub>2026-10-28 · 27d ago</sub>
 
 > **Security: Node.js runtime and CA certificate updates (October 2026)**
 > On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates could be recovered from the public certificates. On October 21, Node.js shipped [security releases](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases) that update its bundled CA certificates for the compromise and fix several unrelated high-severity runtime CVEs. On October 23, Python's `certifi` 2026.10.23 removed the eMudhra roots `emSign Root CA - C1` and `emSign ECC Root CA - C3`.

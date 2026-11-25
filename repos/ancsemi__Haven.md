@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 1.2k |
 | 🍴 **Forks** | 124 |
-| 🐞 **Open issues + PRs** | [16](https://github.com/ancsemi/Haven/issues) |
+| 🐞 **Open issues + PRs** | [33](https://github.com/ancsemi/Haven/issues) |
 | 💻 **Languages** | JavaScript 81% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v4.30.0](https://github.com/ancsemi/Haven/releases/tag/v4.30.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.8 MB |
+| 💾 **Size** | 22.5 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
 ### [v4.31.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.31.0-beta.1) — Haven 4.31.0-beta.1 _(pre-release)_
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > This is an early access build: new work that has not been through a stable release yet. Servers get it only with Settings > Admin > Early access updates switched on (Docker: the `:beta` image). Everything in stable 4.30.0 is included.
 > **Added**
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.30.0](https://github.com/ancsemi/Haven/releases/tag/v4.30.0) — Haven 4.30.0
-<sub>2026-11-23 · today</sub>
+<sub>2026-11-23 · yesterday</sub>
 
 > **Before you update**
 > - Only if you opted into the PostgreSQL preview: a preview database made with 4.29 is refused by 4.30 at startup. Start the preview on a fresh database. Servers on the normal built-in database are not affected.
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.30.0-beta.3](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.3) — Haven 4.30.0-beta.3 _(pre-release)_
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.2:
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.30.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.2) — Haven 4.30.0-beta.2 _(pre-release)_
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.1:
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
-<sub>2026-11-15 · 9d ago</sub>
+<sub>2026-11-15 · 10d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > It has everything in 4.29.0, plus these, which are not in a stable yet:

@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 23.4k |
-| 🍴 **Forks** | 1.1k |
+| 🍴 **Forks** | 1.2k |
 | 🐞 **Open issues + PRs** | [591](https://github.com/neondatabase/neon/issues) |
 | 💻 **Languages** | Rust 74% · Python 19% · C 5% |
 | 📜 **License** | Apache-2.0 |

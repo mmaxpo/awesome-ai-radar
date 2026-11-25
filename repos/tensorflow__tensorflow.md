@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.7k |
+| ⭐ **Stars** | 201.8k |
 | 🍴 **Forks** | 77.4k |
 | 🐞 **Open issues + PRs** | [3.5k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 25% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1417.1 MB |
+| 💾 **Size** | 1420.1 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
 
 ### [v2.22.0-rc1](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1) — TensorFlow 2.22.0-rc1 _(pre-release)_
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **Release 2.22.0**
 > **TensorFlow**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [[XLA:GPU] Use a sorted address index in BufferAllocations::FindAlloca…](https://github.com/tensorflow/tensorflow/commit/b3c936a60c42008dd4c612a4779d87cccabc83a2) | PatriosTheGreat |
-| 2026-11-24 | [[XLA] Add missing root and control-dependency checks in ConditionalCo…](https://github.com/tensorflow/tensorflow/commit/4590b1667859f2c0643f375d3756b2f3af12012f) | mkuperst |
-| 2026-11-24 | [PR #53736: [XLA] Fix special-case copies for a value repeated at seve…](https://github.com/tensorflow/tensorflow/commit/1a0ce4f7095d35905ef1599f392c42e4ba1e8388) | Srivatsan6923 |
-| 2026-11-24 | [[XLA:GPU] Enable reduction dimension tiling by default.](https://github.com/tensorflow/tensorflow/commit/99b23e7440d5a8ec2707c24161a268a92844a041) | Moerafaat |
-| 2026-11-24 | [[XLA:GPU][NFC] Move GPU HLO transforms to backends/gpu/hlo/transforms](https://github.com/tensorflow/tensorflow/commit/f043705c24ea9944eee04e6d946e8cbd76fa5dbd) | pifon2a |
-| 2026-11-24 | [Update XNNPAK in XLA](https://github.com/tensorflow/tensorflow/commit/11354a049bdea7dc28bf79300ff510b686b41633) | Aelphy |
-| 2026-11-24 | [PR #53551: [ROCm] Fix __oclc_ISA_version callculation](https://github.com/tensorflow/tensorflow/commit/a30b67cb33ae5ac65a070f94ffdb4334ae33fdcd) | draganmladjenovic |
-| 2026-11-24 | [PR #53727: [XLA:GPU][oneAPI] Override platform_comm() on oneCCL backend](https://github.com/tensorflow/tensorflow/commit/9effe9264882cb982c9c9dba313cf1b0e80826f9) | nhatleSummer22 |
-| 2026-11-24 | [PR #53791: [ROCm] Update BES results URL in rocm_xla.bazelrc](https://github.com/tensorflow/tensorflow/commit/d1df977efc6210707722490ea29c11251d1e6d6e) | alekstheod |
-| 2026-11-24 | [PR #53545: Add skills to update rules_ml_toolchain reference](https://github.com/tensorflow/tensorflow/commit/6af12e91af52c96981a6acf5c92b563ddf140dea) | alekstheod |
+| 2026-11-25 | [[XLA] Return errors from NamedSharding::FromProto](https://github.com/tensorflow/tensorflow/commit/cbf3b35e8b397ffec3c8a7c8635d8736f149b992) | dimitar-asenov |
+| 2026-11-25 | [[XLA:GPU] Raise Triton all-reduce max blocks per grid from 32 to 128](https://github.com/tensorflow/tensorflow/commit/ce8f306bc1a5569ee98396bf09785d0b08615064) | PatriosTheGreat |
+| 2026-11-25 | [[XLA] Keep each operand's own batch dimensions in DotDecomposer](https://github.com/tensorflow/tensorflow/commit/b21be08f23576887db3c03709f6dbd719fda1d14) | oliness |
+| 2026-11-25 | [[XLA] Use i64 scan indices when padded mhlo.scan exceeds INT32_MAX.](https://github.com/tensorflow/tensorflow/commit/c6815cf3ac564c796c28ea96b4fc9d6019415dc4) | mkuperst |
+| 2026-11-25 | [Fix nondeterminism in TOCO custom op FlexBuffer attribute serialization.](https://github.com/tensorflow/tensorflow/commit/a9a33a9203ca39d6e6dcbe19c161ef3069b242e3) | tensorflower-gardener |
+| 2026-11-25 | [[XLA:CPU] Use llvm::StringLiteral for kNoFpContractAttr.](https://github.com/tensorflow/tensorflow/commit/bb60d0b41bb628427520f0e447383c96ecadc3d9) | seantalts |
+| 2026-11-25 | [[XLA] Remove some comparison operators that can be defaulted in C++20](https://github.com/tensorflow/tensorflow/commit/dec4290faa4dffbaa300d45c1a41e94ec49dba32) | d0k |
+| 2026-11-25 | [[XLA] Reject nested TUPLE OpSharding protos in HloSharding::FromProto](https://github.com/tensorflow/tensorflow/commit/d107c3c26944a5a9c4263cd816f419c85ec4e2e6) | dimitar-asenov |
+| 2026-11-25 | [[XLA] Return errors from Mesh and AxisRef FromProto](https://github.com/tensorflow/tensorflow/commit/95d4e37c426db4f31cb3708b9cf9ef7791680264) | dimitar-asenov |
+| 2026-11-25 | [PR #52998: [XLA:GPU][ROCm] Use the device warp size in coalescing ana…](https://github.com/tensorflow/tensorflow/commit/af20b7503775d3f3b0098a662d2c9fb7f127fb25) | nurmukhametov |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

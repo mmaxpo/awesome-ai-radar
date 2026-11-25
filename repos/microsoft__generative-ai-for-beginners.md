@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 124.1k |
-| 🍴 **Forks** | 66.9k |
-| 🐞 **Open issues + PRs** | [4](https://github.com/microsoft/generative-ai-for-beginners/issues) |
+| ⭐ **Stars** | 124.2k |
+| 🍴 **Forks** | 67.0k |
+| 🐞 **Open issues + PRs** | [5](https://github.com/microsoft/generative-ai-for-beginners/issues) |
 | 💻 **Languages** | Jupyter Notebook 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `chatgpt` `dall-e` `generativeai` `gpt` `azure` `generative-ai` `llms` `openai` `prompt-engineering` `language-model` `semantic-search` `transformers` `microsoft-for-beginners` |
-| 🕒 **Last activity** | 2026-11-19 (5d ago) |
+| 🕒 **Last activity** | 2026-11-19 (6d ago) |
 | 📅 **Created** | 2023-06-19 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

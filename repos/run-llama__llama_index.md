@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 53.0k |
 | 🍴 **Forks** | 8.6k |
-| 🐞 **Open issues + PRs** | [1.5k](https://github.com/run-llama/llama_index/issues) |
+| 🐞 **Open issues + PRs** | [1.6k](https://github.com/run-llama/llama_index/issues) |
 | 💻 **Languages** | Python 73% · Jupyter Notebook 25% · Makefile 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `application` `data` `fine-tuning` `framework` `llamaindex` `llm` `rag` `vector-database` `multi-agents` |
-| 🕒 **Last activity** | 2026-11-20 (4d ago) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2022-11-02 |
 | 📦 **Latest release** | [v0.14.26](https://github.com/run-llama/llama_index/releases/tag/v0.14.26) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.14.26](https://github.com/run-llama/llama_index/releases/tag/v0.14.26)
-<sub>2026-11-13 · 10d ago</sub>
+<sub>2026-11-13 · 11d ago</sub>
 
 > **Release Notes**
 > **[2026-11-13]**

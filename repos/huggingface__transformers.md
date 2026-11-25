@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 169.2k |
+| ⭐ **Stars** | 169.3k |
 | 🍴 **Forks** | 35.3k |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/huggingface/transformers/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `nlp` `natural-language-processing` `pytorch` `pytorch-transformers` `transformer` `model-hub` `pretrained-models` `speech-recognition` `hacktoberfest` `python` `machine-learning` `deep-learning` `audio` `deepseek` `gemma` `glm` `llm` `qwen` `vlm` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2018-10-29 |
-| 📦 **Latest release** | [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — 2026-11-21 |
+| 📦 **Latest release** | [v5.24.1](https://github.com/huggingface/transformers/releases/tag/v5.24.1) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 564.2 MB |
+| 💾 **Size** | 570.2 MB |
 | 🌐 **Website** | https://huggingface.co/transformers |
 
 ## 📦 Recent releases
 
+### [v5.24.1](https://github.com/huggingface/transformers/releases/tag/v5.24.1) — Patch release v5.24.1
+<sub>2026-11-24 · today</sub>
+
+> **Patch release v5.24.1**
+> A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list
+> **vLLM related**
+> - Fix backward compatibility of the cache rename for remote code (#51085) by @hmellor
+> - Restore modeling_attn_mask_utils for remote code (one-off to unblock vLLM) (#51124) by @hmellor
+> - Expose past_key_values in MBartDecoderLayer.forward signature for remote code (#51177) by @hmellor
+> …
+
 ### [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — Release v5.24.0
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > **Release v5.24.0**
 > **New Model additions**
@@ -47,7 +58,7 @@
 > …
 
 ### [v5.23.0](https://github.com/huggingface/transformers/releases/tag/v5.23.0) — Release v5.23.0
-<sub>2026-11-13 · 11d ago</sub>
+<sub>2026-11-13 · 12d ago</sub>
 
 > **Release v5.23.0**
 > **New Model additions**
@@ -67,37 +78,26 @@
 > **Full Changelog**: https://github.com/huggingface/transformers/compare/v5.22.1...v5.22.2
 
 ### [v5.22.1](https://github.com/huggingface/transformers/releases/tag/v5.22.1) — Patch release v5.22.1
-<sub>2026-10-30 · 25d ago</sub>
+<sub>2026-10-30 · 26d ago</sub>
 
 > **Patch release v5.22.1**
 > We just had to fix the documentation!
 > ** [Fix] Remove WIP doc for Ml4 (https://github.com/huggingface/transformers/pull/50124) from @remi-or
 
-### [v5.22.0](https://github.com/huggingface/transformers/releases/tag/v5.22.0) — v5.22.0: Mistral Large 4 (Le Chonk)
-<sub>2026-10-29 · 26d ago</sub>
-
-> **New Models**
-> **Mistral Large 4 (Le Chonk)**
-> <img width="1329" height="780" alt="image" src="https://github.com/user-attachments/assets/1cff9ca7-19e3-4622-8db6-fb1cfa842579" />
-> Mistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own datacenters in Europe.
-> Mistral Large 4 unifies instruction following, reasoning, coding, and agentic workflows in a single set of weights. While a generalist model, it shows especially good performance on workloads such as cybersecurity, finance, and law, and it surpasses frontier closed models on visual grounding. It is natively fluent in 160+ languages, including every official language of the European Union.
-> **Key Features**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [feat: add rocm entries to hub kernels mapping (#50980)](https://github.com/huggingface/transformers/commit/9ffd1f50a1fe13183d435ff60cb4b92777cc417e) | drbh |
-| 2026-11-24 | [Pad text and audio features on their own sides when batching multimod…](https://github.com/huggingface/transformers/commit/840bc92650ad5b8d8a83f2c64c5b3782e05ce4f7) | Enricoftw |
-| 2026-11-24 | [[vLLM CI] Add more language / multimodal pooling models vs transforme…](https://github.com/huggingface/transformers/commit/b308e3d194858a276c0481fabfd72e4380534e8c) | ydshieh |
-| 2026-11-24 | [Fix strided checkpoint reads on PyTorch 2.9 (#51042)](https://github.com/huggingface/transformers/commit/af80f69cb0cf321dffc1cdb8379f3a58a883295b) | satsuki2486441738 |
-| 2026-11-24 | [Fix Llama4 forward crash on missing image_outputs (#51144)](https://github.com/huggingface/transformers/commit/ab19734bb45071c74b6d9dd7a5906dd68b366ae7) | kylesayrs |
-| 2026-11-24 | [Fix TIPSv2 bfloat16 forward: text pooling returned float32 (#50175)](https://github.com/huggingface/transformers/commit/b0f4265020c209826afb7dca2c95c8077433b90f) | tarekziade |
-| 2026-11-24 | [Expose `past_key_values` in `MBartDecoderLayer.forward` signature for…](https://github.com/huggingface/transformers/commit/8f548bbfaed26adb72d88b897d9c3e60cc4a075b) | hmellor |
-| 2026-11-24 | [Move YaRN `mscale` helpers into `modeling_rope_utils` (#51175)](https://github.com/huggingface/transformers/commit/ae61745a79914d83b8e600cea57341af82f19eb2) | ArthurZucker |
-| 2026-11-24 | [[PR1] [Modular Clean-Up] Remove No-op Overrides (#50317)](https://github.com/huggingface/transformers/commit/fe4a46771d2d38ffb047a2cab797d3848303cd4c) | itazap |
-| 2026-11-24 | [Add kolibri 1.1 (#51176)](https://github.com/huggingface/transformers/commit/e75335fb29c266b36b22bf32f250bfca1f2165f3) | Cyrilvallez |
+| 2026-11-25 | [[tests] Fix SpeechT5 coverage and TPU device selection (#51171)](https://github.com/huggingface/transformers/commit/1d8544b25c6780d85c6538636a6ca15aeabbcb7e) | tengomucho |
+| 2026-11-25 | [[vLLM CI] Fix the KV cache memory check failures (page cache eviction…](https://github.com/huggingface/transformers/commit/85d7be82fa26e16a0c87c35dc3c48175149a9e8a) | ydshieh |
+| 2026-11-25 | [Key the doc build concurrency group on the pull request number (#48707)](https://github.com/huggingface/transformers/commit/c9b611dc3eead5b0b50eced6b3d068040687fba8) | albertvillanova |
+| 2026-11-25 | [The shared test resets the seed before eager and compiled runs, then …](https://github.com/huggingface/transformers/commit/0cc3b774e0d02595f1f0ee7cbe7a4444003e34d2) | sywangyi |
+| 2026-11-25 | [Fix line breaks in the Megatron-BERT download commands (#51209)](https://github.com/huggingface/transformers/commit/8ce044a54857ae3957b052a1e092d8dea961370e) | JuanFKurucz |
+| 2026-11-25 | [[docs] Fix the `images=` and `audio=` pipeline calls in the pipeline …](https://github.com/huggingface/transformers/commit/598021f5684f0e5f9e66433d9c700666f83b86a3) | AlexxRussell |
+| 2026-11-25 | [Pre-fetch the `hf-internal-testing/test-videos` assets for CI (#51150)](https://github.com/huggingface/transformers/commit/292aead50f7659f5412e6966a9627d6d04ded6ce) | ydshieh |
+| 2026-11-25 | [Update dev version (#51225)](https://github.com/huggingface/transformers/commit/3370f9427c2b948073ee17596970c0df19812af7) | albertvillanova |
+| 2026-11-25 | [🚨 [PR2] [Modular Cleanup] *Norm canonicals and renaming (#50523)](https://github.com/huggingface/transformers/commit/3a96649547593bacad4b65d43442ccdf15d0ae0f) | itazap |
+| 2026-11-25 | [Add `_get_num_multimodal_tokens` to more image/video processors (#50671)](https://github.com/huggingface/transformers/commit/9d5d0ee866d70b30fe187aab1bcf2aed398e9ecc) | hmellor |
 
 [See all commits ↗](https://github.com/huggingface/transformers/commits)
 

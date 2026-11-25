@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.6k |
-| 🍴 **Forks** | 266 |
+| 🍴 **Forks** | 267 |
 | 🐞 **Open issues + PRs** | [1.1k](https://github.com/BraveOPotato/NoSignups/issues) |
 | 💻 **Languages** | TypeScript 61% · CSS 27% · Python 10% · HTML 1% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-17 (6d ago) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-05-07 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -41,6 +41,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [chore(tools): removed sarx; started requiring signups](https://github.com/BraveOPotato/NoSignups/commit/c94297acb19ad62e117a283b1ffbc19332f7594f) | BraveOPotato |
 | 2026-11-17 | [chore(cyclecad): removed; they started asking for payment](https://github.com/BraveOPotato/NoSignups/commit/ee989148cde12b6fd2d707a93f541fc224a1cb3e) | BraveOPotato |
 | 2026-10-22 | [TSR(#2142,#2060,#2059,#1634,#1552,#483)](https://github.com/BraveOPotato/NoSignups/commit/c867471f8d18ca2cae70f2b7d3fde3aba1a544ea) | BraveOPotato |
 | 2026-10-22 | [chore(stars): updated](https://github.com/BraveOPotato/NoSignups/commit/ce336b745646179c02e1b92b4c5c970ef41a3562) | BraveOPotato |
@@ -50,7 +51,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-09-27 | [chore(useTools): replace search debounce magic number with DEBOUNCE_S…](https://github.com/BraveOPotato/NoSignups/commit/4c403aaa4d716130d835646b197fa76637b1fe9b) | Moamal-2000 |
 | 2026-09-27 | [chore(constants): update FALLBACK_REPO_STARS to match current star count](https://github.com/BraveOPotato/NoSignups/commit/3966f218233c5b95ffd120d2f62f6f748feaa4d4) | Moamal-2000 |
 | 2026-09-27 | [feat(useTools): persist sort selection in URL instead of component lo…](https://github.com/BraveOPotato/NoSignups/commit/72c77298e46be6a81f0c1a3510779f8431806f2f) | Moamal-2000 |
-| 2026-09-27 | [feat(useTools): persist debounced search query in URL](https://github.com/BraveOPotato/NoSignups/commit/ac16f49596404e705eff43942bf002989a718a27) | Moamal-2000 |
 
 [See all commits ↗](https://github.com/BraveOPotato/NoSignups/commits)
 

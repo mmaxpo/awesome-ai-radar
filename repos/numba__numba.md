@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 11.2k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [1.9k](https://github.com/numba/numba/issues) |
+| 🐞 **Open issues + PRs** | [1.8k](https://github.com/numba/numba/issues) |
 | 💻 **Languages** | Python 91% · C 6% · C++ 3% |
 | 📜 **License** | BSD-2-Clause |
 | 🏷 **Topics** | `python` `numpy` `llvm` `compiler` `cuda` `parallel` `numba` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2012-03-08 |
 | 📦 **Latest release** | [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1) — 2026-10-27 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1)
-<sub>2026-10-27 · 27d ago</sub>
+<sub>2026-10-27 · 28d ago</sub>
 
 > Numba patch release, please refer to the detailed release notes here -
 > https://numba.readthedocs.io/en/stable/release/0.68.1-notes.html
@@ -67,6 +67,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Merge pull request #11015 from esc/cln/remove_dagmap](https://github.com/numba/numba/commit/30f2a1c8fadd278834afd5c0ff06a2ea49e6acae) | sklam |
+| 2026-11-24 | [remove dagmap](https://github.com/numba/numba/commit/5a15f9f33fde5126f0052b7e9308716bb92ef7f5) | esc |
 | 2026-11-23 | [Merge pull request #10994 from numba/kc/benchmark-label](https://github.com/numba/numba/commit/8417ae3f4895a5c082d0e5ecc061ae06d5860978) | swap357 |
 | 2026-11-23 | [Update .github/workflows/pr-benchmark.yml](https://github.com/numba/numba/commit/b2e7d545d692622e5dd2b770b7dc5a9524abb398) | kc611 |
 | 2026-11-20 | [Merge pull request #10894 from shaneraphel/zip-cache-readonly-home](https://github.com/numba/numba/commit/ef7e6959fe93fc8bfc1672579e84ecf5a34c1f0f) | swap357 |
@@ -75,8 +77,6 @@
 | 2026-11-20 | [Add concurrency rule for workflow](https://github.com/numba/numba/commit/6a82c39670dffa8de6b648b60b295f024ce2181b) | kc611 |
 | 2026-11-20 | [Update .github/workflows/pr-benchmark.yml](https://github.com/numba/numba/commit/0e2a5f916aaeadd55ecc1c3fefdfb8e71f01aa43) | kc611 |
 | 2026-11-19 | [Merge pull request #11004 from numba/renovate/pyrefly-1.x](https://github.com/numba/numba/commit/c786f9180a7deaadc700bc9e5605b21500b53992) | swap357 |
-| 2026-11-19 | [refactor TestComplexFastmath to remove numpy use](https://github.com/numba/numba/commit/347f88b7973824608f8e71fecee059d663b40a74) | swap357 |
-| 2026-11-19 | [refactor complex multiplication and division implementations to use r…](https://github.com/numba/numba/commit/ab57ae775e3c5fdb88d95f7ad92a291db19d3418) | swap357 |
 
 [See all commits ↗](https://github.com/numba/numba/commits)
 

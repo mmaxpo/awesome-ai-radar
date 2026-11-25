@@ -24,7 +24,7 @@
 | 💻 **Languages** | TypeScript 96% · Python 2% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-01 (22d ago) |
+| 🕒 **Last activity** | 2026-11-01 (23d ago) |
 | 📅 **Created** | 2026-07-31 |
 | 📦 **Latest release** | [v1.16.0](https://github.com/trycompai/crm/releases/tag/v1.16.0) — 2026-10-22 |
 | 🌿 **Default branch** | `release` |

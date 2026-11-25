@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 64.4k |
+| ⭐ **Stars** | 65.5k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [293](https://github.com/HKUDS/CLI-Anything/issues) |
+| 🐞 **Open issues + PRs** | [303](https://github.com/HKUDS/CLI-Anything/issues) |
 | 💻 **Languages** | Python 97% · C# 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (4d ago) |
+| 🕒 **Last activity** | 2026-11-20 (5d ago) |
 | 📅 **Created** | 2026-03-08 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0) — 2026-06-25 |
 | 🌿 **Default branch** | `main` |
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.2.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.2.0)
-<sub>2026-03-30 · 7mo ago</sub>
+<sub>2026-03-30 · 8mo ago</sub>
 
 > **What's Changed**
 > * Add AnyGen OpenAPI CLI harness by @koltyu-anygen in https://github.com/HKUDS/CLI-Anything/pull/6

@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 68.6k |
-| 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [335](https://github.com/Mintplex-Labs/anything-llm/issues) |
+| 🍴 **Forks** | 7.8k |
+| 🐞 **Open issues + PRs** | [337](https://github.com/Mintplex-Labs/anything-llm/issues) |
 | 💻 **Languages** | JavaScript 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `rag` `localai` `vector-database` `llm` `ai-agents` `multimodal` `agent-harness` `agentic-ai` `hermes-agent` `local-ai` `self-hosted-ai` `agent-computer` `computer-use` `agent-orchestration` `agentic-workflow` |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2023-06-04 |
 | 📦 **Latest release** | [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 94.5 MB |
+| 💾 **Size** | 95.5 MB |
 | 🌐 **Website** | https://anythingllm.com |
 
 ## 📦 Recent releases
 
 ### [v1.20.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0) — AnythingLLM v1.20.0
-<sub>2026-11-17 · 6d ago</sub>
+<sub>2026-11-17 · 7d ago</sub>
 
 > **Updated browser extension**
 > The [browser extension](https://github.com/Mintplex-Labs/anythingllm-extension) has been improved beyond its original function of just collecting documents to now a full fledged UI chat bar with the ability to right click -> Add context (text and image) and chat directly  in Chrome. This sidebar should have mostly full parity for tooling and more with the traditional chat UI.
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.19.0](https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0) — AnythingLLM v1.19.0
-<sub>2026-10-26 · 28d ago</sub>
+<sub>2026-10-26 · 29d ago</sub>
 
 > **Built-in LLM for Docker**
 > <img width="3680" height="2212" alt="AnythingLLM Docker built-in LLM powered by Lemonade and llama.cpp" src="https://github.com/user-attachments/assets/410b5784-ca15-4027-a1c4-056d9d5c748e" />
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [fix: preserve quoted paragraphs in Word exports (#7337)](https://github.com/Mintplex-Labs/anything-llm/commit/b01447009150507ae0cfd1304e3492fcaf2a92d8) | Israel-Kli |
 | 2026-11-23 | [fix: expand system prompt variables written inside other braces (#7331)](https://github.com/Mintplex-Labs/anything-llm/commit/593c0943facbe0a5e1cfac2d7616f15707a9317a) | MohammadHijjawi97 |
 | 2026-11-23 | [fix: use HTML file input for document uploads (#7309)](https://github.com/Mintplex-Labs/anything-llm/commit/92175f438fb577156c6f96ed561efa29494f0c28) | Pamalric |
 | 2026-11-23 | [fix: import Paperless-ngx documents that have no original file name (…](https://github.com/Mintplex-Labs/anything-llm/commit/c5d53913eb10ec985692175e04b3ea88f02ffcc3) | Israel-Kli |
@@ -103,7 +104,6 @@
 | 2026-11-23 | [fix: expand multi-stage plugins in ephemeral agent toolOverrides (#7321)](https://github.com/Mintplex-Labs/anything-llm/commit/65a1f64400546f5344e7be1eedd0286cee043099) | Max-Reisinger |
 | 2026-11-23 | [fix(i18n): replace unrelated Japanese chat toolbar strings (#7327)](https://github.com/Mintplex-Labs/anything-llm/commit/7690af123a87442669c9148c1543744051e905c9) | AyhamJo7 |
 | 2026-11-23 | [fix: Ensure LanceDB rerank fetches at least topN candidates before re…](https://github.com/Mintplex-Labs/anything-llm/commit/bd2d71fef11cd55d0cb506952788e2cf8c5acbc7) | Bensonbenyi |
-| 2026-11-21 | [fix: replace every underscore in imported GitLab issue metadata label…](https://github.com/Mintplex-Labs/anything-llm/commit/472b1e3f4715c6ccd38a099aecd4651a449188aa) | MohammadHijjawi97 |
 
 [See all commits ↗](https://github.com/Mintplex-Labs/anything-llm/commits)
 

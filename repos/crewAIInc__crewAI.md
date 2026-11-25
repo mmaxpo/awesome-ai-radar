@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.2k |
+| ⭐ **Stars** | 61.3k |
 | 🍴 **Forks** | 9.3k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/crewAIInc/crewAI/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.45](https://github.com/crewAIInc/crewAI/releases/tag/1.15.45) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 302.2 MB |
+| 💾 **Size** | 302.4 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
 ### [1.15.45](https://github.com/crewAIInc/crewAI/releases/tag/1.15.45)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44)
-<sub>2026-11-19 · 4d ago</sub>
+<sub>2026-11-19 · 5d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.43](https://github.com/crewAIInc/crewAI/releases/tag/1.15.43)
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes**
@@ -69,7 +69,7 @@
 > …
 
 ### [1.15.42](https://github.com/crewAIInc/crewAI/releases/tag/1.15.42)
-<sub>2026-11-18 · 5d ago</sub>
+<sub>2026-11-18 · 6d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · 11d ago</sub>
+<sub>2026-11-12 · 12d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [test(crewai): rename Test* helper classes to avoid pytest collection …](https://github.com/crewAIInc/crewAI/commit/4772a9d9e78c5f008e221708c16c2d0ad61c18d3) | PresetyX |
-| 2026-11-24 | [fix(cli): let --force bypass git validation in tool publish (#9722)](https://github.com/crewAIInc/crewAI/commit/bc9e81eb776691df1346eb1fd9acdc3203dc2014) | Kiko0301 |
-| 2026-11-24 | [fix(cli): exit non-zero when tool publish refuses to run (#9724)](https://github.com/crewAIInc/crewAI/commit/881005174ffbbf5b4f9acdc02bea75426b22f1cb) | Kiko0301 |
-| 2026-11-24 | [fix(files): attach Bedrock text documents the formatter supports (#9718)](https://github.com/crewAIInc/crewAI/commit/7d93587cb9998e6cea07e03ba71d06c2bfe149d1) | Kiko0301 |
-| 2026-11-24 | [fix(databricks): keep result columns in schema order (#9708)](https://github.com/crewAIInc/crewAI/commit/5f2f3422df50e5967e72f0d3bdf29924225055f8) | Kiko0301 |
-| 2026-11-24 | [[docs-freeze] docs: snapshot and changelog for v1.15.45 (#9714)](https://github.com/crewAIInc/crewAI/commit/29311aeb08c5ec0079d95d1fad05f3b227518f52) | joaomdmoura |
-| 2026-11-24 | [feat: bump versions to 1.15.45 (#9713)](https://github.com/crewAIInc/crewAI/commit/cad1a9950ef08a58a64e3969ca205cc1c171872c) | joaomdmoura |
-| 2026-11-24 | [chore: update litellm model catalog for v1.15.45 (#9712)](https://github.com/crewAIInc/crewAI/commit/e226806858b74fafe20e3241a99d5109dbf161ea) | joaomdmoura |
-| 2026-11-23 | [feat: save HTML or markdown output as a PDF artifact (#9686)](https://github.com/crewAIInc/crewAI/commit/d1aa368749f932311a6c1916e63a756877cab55a) | gabemilani |
-| 2026-11-23 | [fix(deps): bump e2b on Python >=3.11 to pull patched wcmatch (GHSA-53…](https://github.com/crewAIInc/crewAI/commit/6a5b80c4551a562004f342f46c8d1470627f535f) | Vidit-Ostwal |
+| 2026-11-25 | [fix(cli): report deploy list API errors instead of no crews (#9756)](https://github.com/crewAIInc/crewAI/commit/97f2424963d829c4eb40b38e3e4bd5f57495df02) | Kiko0301 |
+| 2026-11-25 | [fix(cli): exit non-zero when an API response is rejected (#9754)](https://github.com/crewAIInc/crewAI/commit/7e663547cd247f5ce76567ec7b4a0322676e65a4) | Kiko0301 |
+| 2026-11-25 | [fix(gemini): send seed and penalty settings in the request config (#9…](https://github.com/crewAIInc/crewAI/commit/72a2028728c5002356ccb488fbe31b9f73dde1fa) | abhishekacharya200 |
+| 2026-11-25 | [fix(bedrock): honor timeout and max_retries in the native provider (#…](https://github.com/crewAIInc/crewAI/commit/8a775f0a9cd0849f68f6816282c98b2f2123df22) | yihongkun |
+| 2026-11-25 | [fix(tools): read DB2_CONNECTION_STRING when connection_string is omit…](https://github.com/crewAIInc/crewAI/commit/07e2c6996ff51563ce2d8277b0928d6e2423f8b8) | Kiko0301 |
+| 2026-11-25 | [fix(tools): accept the documented api_key in BraveSearchTool (#9766)](https://github.com/crewAIInc/crewAI/commit/fffe7bc9db78e8d5b82d56b73a94d36680286b87) | Kiko0301 |
+| 2026-11-25 | [fix(cli): exit 1 when a crewai tool command fails (#9767)](https://github.com/crewAIInc/crewAI/commit/23ad2674e659460e9fc00e3521b88762a4f4baa9) | Kiko0301 |
+| 2026-11-25 | [feat(cli): offer crewai login when a signed-out crewai eval needs an …](https://github.com/crewAIInc/crewAI/commit/ba2bd50f70069e3079eed29bb9cbed3f777c548b) | alexmarchenko-crewai |
+| 2026-11-25 | [fix(artifacts): refuse hidden files in save_artifact (#9737)](https://github.com/crewAIInc/crewAI/commit/d96633c881ce5f6e9039337e970e149b5d617815) | gabemilani |
+| 2026-11-25 | [ci: re-enable pytest-split durations with per-suite files (#9728)](https://github.com/crewAIInc/crewAI/commit/5c4d23995d012736db0be8528161e24b566fdba6) | Vidit-Ostwal |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

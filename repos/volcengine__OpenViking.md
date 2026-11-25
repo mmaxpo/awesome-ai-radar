@@ -20,33 +20,44 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 42.7k |
+| ⭐ **Stars** | 42.8k |
 | 🍴 **Forks** | 3.6k |
 | 🐞 **Open issues + PRs** | [1.7k](https://github.com/volcengine/OpenViking/issues) |
-| 💻 **Languages** | Python 61% · TypeScript 18% · Rust 11% · JavaScript 5% · MDX 3% |
+| 💻 **Languages** | Python 61% · TypeScript 18% · Rust 11% · JavaScript 4% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [python-sdk@0.1.21](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.21) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 433.7 MB |
+| 💾 **Size** | 433.4 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
+### [openviking-superagent@0.5.6-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.6-preview) — OpenViking SuperAgent 0.5.6-preview _(pre-release)_
+<sub>2026-11-25 · today</sub>
+
+> **Install**
+> macOS / Linux / WSL2 (this version):
+> ```sh
+> curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/superagent/releases/0.5.6-preview/install.sh | sh -s -- --version 0.5.6-preview
+> ```
+> Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separately; this command and these release assets are for macOS / Linux.
+> …
+
 ### [python-sdk@0.1.21](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.21)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > _No notes._
 
 ### [cli@0.5.4](https://github.com/volcengine/OpenViking/releases/tag/cli%400.5.4)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > _No notes._
 
 ### [v0.5.6](https://github.com/volcengine/OpenViking/releases/tag/v0.5.6)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **中文**
 > **主要更新**
@@ -57,7 +68,7 @@
 > …
 
 ### [openviking-superagent@0.5.5-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.5-preview) — OpenViking SuperAgent 0.5.5-preview _(pre-release)_
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -67,31 +78,20 @@
 > Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separately; this command and these release assets are for macOS / Linux.
 > …
 
-### [react@0.2.0](https://github.com/volcengine/OpenViking/releases/tag/react%400.2.0) — @openviking/react 0.2.0
-<sub>2026-11-19 · 5d ago</sub>
-
-> **en-US**
-> **Minor Changes**
-> - 609baba: Let FileBrowser hosts load experience metrics and override individual experience dashboard sections.
-> - 704bec6: Add optional FileBrowser props for hosts to save and restore expanded folders independently of the selected resource.
->   Hosts can also persist explicit collapses across mounts when home alias resolution is temporarily unavailable.
-> **Patch Changes**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [fix(acl): restore empty-string grant decoding (#8371)](https://github.com/volcengine/OpenViking/commit/e13f0441eaf2a1beacba9002b5720aeb8bae970e) | chuanbao666 |
-| 2026-11-24 | [fix(react): 保持未知预览类型并修复前端测试 (#8369)](https://github.com/volcengine/OpenViking/commit/6b42f562583c132deb09a61cea57e02573f9f094) | cocolord |
-| 2026-11-24 | [test(react): 修复当前用户目录展开测试卡死 (#8367)](https://github.com/volcengine/OpenViking/commit/0a4e2d46fc6acec09496b2dfda8ca625b7d9c16c) | cocolord |
-| 2026-11-24 | [fix(compile): 修复增量编译漏处理和重复执行 (#7813)](https://github.com/volcengine/OpenViking/commit/dfad651fee8fede13dda3915477a452e1b31032a) | cocolord |
-| 2026-11-24 | [feat(parse): forward Feishu nested import options to Understanding AP…](https://github.com/volcengine/OpenViking/commit/6ebab8e04d2afc544ec487d177e65a3e04c37a8d) | ShaoZegangByte |
-| 2026-11-24 | [fix(docker): 移除已删除的 redis-mysql 构建依赖 (#8347)](https://github.com/volcengine/OpenViking/commit/39db38ac3c7f726f87b7f08e5488739ff6c24313) | qin-ctx |
-| 2026-11-24 | [test(client): 精简 Python HTTP 客户端契约测试 (#8343)](https://github.com/volcengine/OpenViking/commit/0c826b74a39f74fe2089bec4bf97172d90e2640f) | qin-ctx |
-| 2026-11-24 | [fix(auth): 将 OIDC 验签迁移到 PyJWT (#8330)](https://github.com/volcengine/OpenViking/commit/d925c6e7f922264f18c88d9f5e9942b5e2939e33) | qin-ctx |
-| 2026-11-24 | [test(server): 梳理服务端业务模块单测 (#8300)](https://github.com/volcengine/OpenViking/commit/0b19c82840c7a456e20a127f1447fd3eb7e8bb7a) | qin-ctx |
-| 2026-11-24 | [test(observability): 精简接入与可观测性契约测试 (#8301)](https://github.com/volcengine/OpenViking/commit/d2f47ca74ec8e5c945e9ebfc31926aaa503bc185) | qin-ctx |
+| 2026-11-25 | [feat(taskstore): 默认使用 SQLite 并支持 File 离线迁移 (#8373)](https://github.com/volcengine/OpenViking/commit/af412110b367ec404560629dada718ba1172a1cf) | hezhang-1216 |
+| 2026-11-25 | [feat(admin): freeze user agent files through account metadata (#8430)](https://github.com/volcengine/OpenViking/commit/a4b083ea6e8dc12680c817990dd75c1cca2399ae) | MaojiaSheng |
+| 2026-11-25 | [feat(plugins): session_history support across the memory plugins and …](https://github.com/volcengine/OpenViking/commit/f905a91ca8ef5fc678c9c4137f7853157552b409) | t0saki |
+| 2026-11-25 | [feat(gateway): session_history defaults, hints after a cut and a per-…](https://github.com/volcengine/OpenViking/commit/035eae65139825d1c44e43ce50cde12cc2192f14) | t0saki |
+| 2026-11-25 | [feat(session): add session_history, a read-only lookup of a session's…](https://github.com/volcengine/OpenViking/commit/36c829430f4470179d184b535cd626cf4af64a42) | t0saki |
+| 2026-11-25 | [docs: add BytePlus managed OpenViking setup (#8319)](https://github.com/volcengine/OpenViking/commit/b2351cd5e19dd4ebe2d57aab2a96f9dbb2af4a12) | ehz0ah |
+| 2026-11-25 | [test(frontend): 精简前端与生态测试并集中契约覆盖 (#8370)](https://github.com/volcengine/OpenViking/commit/902913a31dca9dc6d671f3bf33a6daf85ab9177e) | qin-ctx |
+| 2026-11-25 | [test(client): 精简跨语言客户端通用契约测试 (#8368)](https://github.com/volcengine/OpenViking/commit/eeb807d0a4cc3017eeca9de39e514ef14533e300) | qin-ctx |
+| 2026-11-25 | [refactor: 移除工作区中的 arranger 导航项 (#8439)](https://github.com/volcengine/OpenViking/commit/6f4e51a0b7666bdf1ce4a3bdcfdc39d8d9f3751f) | vikinglbx |
+| 2026-11-25 | [feat(gateway): rotate the request log file hourly like the usage log …](https://github.com/volcengine/OpenViking/commit/9e74cd12ea19b89ba48aec36d4c92005451a82d1) | t0saki |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

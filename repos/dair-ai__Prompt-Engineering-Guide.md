@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.3k |
+| ⭐ **Stars** | 80.4k |
 | 🍴 **Forks** | 8.8k |
 | 🐞 **Open issues + PRs** | [296](https://github.com/dair-ai/Prompt-Engineering-Guide/issues) |
 | 💻 **Languages** | MDX 94% · Jupyter Notebook 4% · TypeScript 1% |

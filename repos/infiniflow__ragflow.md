@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 94.6k |
+| ⭐ **Stars** | 94.7k |
 | 🍴 **Forks** | 11.4k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/infiniflow/ragflow/issues) |
-| 💻 **Languages** | Go 73% · TypeScript 21% · C++ 3% · Python 2% |
+| 💻 **Languages** | Go 73% · TypeScript 20% · C++ 3% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `rag` `retrieval-augmented-generation` `agentic-ai` `agentic-retrieval` `agentic-search` `context-management` `knowledge-compilation` `agent-harness` `context-engineering` `harness-engineering` `search-harness` `agent-native-database` `context-engine` `retrieval-harness` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-12-12 |
 | 📦 **Latest release** | [v1.0.0](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 194.1 MB |
+| 💾 **Size** | 194.8 MB |
 | 🌐 **Website** | https://ragflow.io |
 
 ## 📦 Recent releases
@@ -38,10 +38,10 @@
 ### [nightly](https://github.com/infiniflow/ragflow/releases/tag/nightly) _(pre-release)_
 <sub>2025-12-01 · 11mo ago</sub>
 
-> Release nightly created from 8c68034679bf3f5aa6ad5d14ce3899b8915db1ea at 2026-11-24 13:15:17+00:00
+> Release nightly created from bb7b3c28888c21e1610678d3d7b8c2094265a644 at 2026-11-25 13:16:01+00:00
 
 ### [v1.0.0](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0)
-<sub>2026-11-06 · 18d ago</sub>
+<sub>2026-11-06 · 19d ago</sub>
 
 > After three release candidates, we are pleased to announce the official release of RAGFlow 1.0, now ready for production. Built on a complete rewrite in Go, this release significantly reduces deployment and runtime overhead and introduces an all-new Agentic Chat experience. We encourage all users to upgrade for improved stability, performance, and question answering.
 > **Highlights**
@@ -52,7 +52,7 @@
 > …
 
 ### [v1.0.0-rc3](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc3)
-<sub>2026-10-30 · 25d ago</sub>
+<sub>2026-10-30 · 26d ago</sub>
 
 > 1.0.0-rc3 is the third and final release candidate before the official v1.0.0 release. It fixes several issues found in rc2 and introduces new features and enhancements.
 > **Key updates:**
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [fix(web): only underline doc citations that can be opened (#22743)](https://github.com/infiniflow/ragflow/commit/8c68034679bf3f5aa6ad5d14ce3899b8915db1ea) | dcc123456 |
-| 2026-11-24 | [Fix: remove agent filter on message list page (#22742)](https://github.com/infiniflow/ragflow/commit/5e638a2298976ae6302b4ccc5732821ca0b496f6) | Lynn-Inf |
-| 2026-11-24 | [Fix deployment to use X_PORT to expose port (#22741)](https://github.com/infiniflow/ragflow/commit/ca97dba4531c9b138cd048a6acd48d93cad28a93) | wangq8 |
-| 2026-11-24 | [fix(web): target ES2020 in production builds (#22738)](https://github.com/infiniflow/ragflow/commit/c1b807c70ecc2333463102ec121c6d0479d245bc) | jay77721 |
-| 2026-11-24 | [Add deepdoc server config (#22737)](https://github.com/infiniflow/ragflow/commit/3b3c40db5fd64273b0cca3f13fc7588051c6111a) | JinHai-CN |
-| 2026-11-24 | [feat(parser): import Docling JSON exports (#22728)](https://github.com/infiniflow/ragflow/commit/190e62319f238dc09c4df9fe624efd7fa5c373e9) | BilalAtique |
-| 2026-11-24 | [refactor(ingestor): remove unused supportedDocTypes and RegisterSuppo…](https://github.com/infiniflow/ragflow/commit/0cef432bdf94f84f32259affb2b7af858f2243ee) | jay77721 |
-| 2026-11-24 | [build: add optional cgo and native-deps extension hooks (#22734)](https://github.com/infiniflow/ragflow/commit/4b6ee0fc2e5762fa3036ee8cfe8634b0f1074e01) | jay77721 |
-| 2026-11-24 | [fix(oceanbase): route legacy chunk filters and updates through extra …](https://github.com/infiniflow/ragflow/commit/ad1e2a71316093a37e5ec94aad8015e9e49c3254) | hnwyllmm |
-| 2026-11-24 | [Deploy without EXPOSE_X_PORT (#22735)](https://github.com/infiniflow/ragflow/commit/0ee43e8d39756c4681382ac9ba58e720a2e0f2be) | wangq8 |
+| 2026-11-25 | [fix(chunker): skip a header-only table in the general media context (…](https://github.com/infiniflow/ragflow/commit/bb7b3c28888c21e1610678d3d7b8c2094265a644) | ccclucky |
+| 2026-11-25 | [Cut redundant metadata and storage round trips in hot paths (#22791)](https://github.com/infiniflow/ragflow/commit/22ea6f46d095516a5debd07713d1624b50c5c56f) | xugangqiang |
+| 2026-11-25 | [fix(dataset): support parsing error label overlays (#22801)](https://github.com/infiniflow/ragflow/commit/dcb941398a1eccb2e42c8a5c650c5e5517e40d6b) | 6ba3i |
+| 2026-11-25 | [Revert "Fix ingestion pipeline no create from template" (#22800) Reve…](https://github.com/infiniflow/ragflow/commit/2e06609a7b53da96181bb97b5c6475081762e4e2) | wangq8 |
+| 2026-11-25 | [Batch dataset authorization and metadata lookups to remove N+1 querie…](https://github.com/infiniflow/ragflow/commit/915373e685cc5668b5a53da8cb44cff07209f6d3) | xugangqiang |
+| 2026-11-25 | [fix(web): use provider name for instance model queries (#22799)](https://github.com/infiniflow/ragflow/commit/2cafb363c219c6ed498bf3fcab06145f62bc144b) | dcc123456 |
+| 2026-11-25 | [fix(parser): retry transient SoMark poll failures and pin the status …](https://github.com/infiniflow/ragflow/commit/9c84b712b1084afe10659e6e329b5b9816ab4418) | lemonzoey |
+| 2026-11-25 | [fix(wiki): honor saved extraction guidance (#22384)](https://github.com/infiniflow/ragflow/commit/a572e095e0ddfad4ef2d19a5eccff0f92356e498) | linkangjun |
+| 2026-11-25 | [Fix ingestion pipeline no create from template (#22797)](https://github.com/infiniflow/ragflow/commit/302fa276436c00516e1edc060c48b4991328344c) | wangq8 |
+| 2026-11-25 | [feat(agent): expose execution lifecycle hooks (#22792)](https://github.com/infiniflow/ragflow/commit/796e5fda9cf651e3d6847813783a66d7ff63a83f) | 6ba3i |
 
 [See all commits ↗](https://github.com/infiniflow/ragflow/commits)
 

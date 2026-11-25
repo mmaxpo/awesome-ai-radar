@@ -14,26 +14,28 @@
 | **Why it's worth a look** | Agentic skills framework & dev methodology — one of the most-starred skill sets |
 | **Added** | 2026-11-15 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 325.7k |
-| 🍴 **Forks** | 28.9k |
-| 🐞 **Open issues + PRs** | [359](https://github.com/obra/superpowers/issues) |
+| ⭐ **Stars** | 326.4k |
+| 🍴 **Forks** | 29.0k |
+| 🐞 **Open issues + PRs** | [372](https://github.com/obra/superpowers/issues) |
 | 💻 **Languages** | Shell 57% · JavaScript 35% · Python 4% · TypeScript 2% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `brainstorming` `coding` `obra` `sdlc` `skills` `superpowers` `subagent-driven-development` |
-| 🕒 **Last activity** | 2026-11-03 (20d ago) |
+| 🕒 **Last activity** | 2026-11-24 (today) |
 | 📅 **Created** | 2025-10-09 |
 | 📦 **Latest release** | [v7.0.2](https://github.com/obra/superpowers/releases/tag/v7.0.2) — 2026-11-03 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 7.9 MB |
+| 💾 **Size** | 8.0 MB |
 
 ## 📦 Recent releases
 
 ### [v7.0.2](https://github.com/obra/superpowers/releases/tag/v7.0.2)
-<sub>2026-11-03 · 20d ago</sub>
+<sub>2026-11-03 · 21d ago</sub>
 
 > This release further tunes brainstorming's questions. It asks fewer of them, starts by asking why, and when there's a choice to make it gives you options to pick from. It also fixes bootstrap problems on six harnesses, and makes the SDD and executing-plans helper scripts much harder to point at the wrong repository or the wrong task.
 > **Brainstorming**
@@ -66,7 +68,7 @@
 > …
 
 ### [v6.4.2](https://github.com/obra/superpowers/releases/tag/v6.4.2)
-<sub>2026-09-25 · 1mo ago</sub>
+<sub>2026-09-25 · 2mo ago</sub>
 
 > `writing-plans` produces leaner plans, faster. Plans now record the decisions an implementer needs (signatures, test assertions, the spec's values) instead of writing out the code. Some frontier models, including Opus 5.5, could get overzealous during plan writing and, with certain prompting, would sometimes try to implement the entire project while designing the plan. The new skill keeps planning focused on the plan. When we reproduced the original report, the scratch builds went away, and plans took a quarter of the time and about a third of the tokens. Thanks to Harper Reed for the report and session bundle. (#2333)
 > **Writing Plans**

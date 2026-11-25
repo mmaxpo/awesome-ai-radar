@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 39% · TypeScript 21% · HTML 12% · JavaScript 11% · TeX 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `claude` `claude-code` `agent-skills` `ai-agents` `claude-code-plugins` `cli` `mcp` `registry` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 311.8 MB |
+| 💾 **Size** | 306.5 MB |
 | 🌐 **Website** | https://www.aitmpl.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/03c316de3528b639d37c426314cf5b91b4e65e01) | github-actions[bot] |
-| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/69203204b371fa3eccb77534f15c5df45a64a0a1) | github-actions[bot] |
-| 2026-11-24 | [feat(skills): platform-oauth-linked-billing, set up Claude Platform O…](https://github.com/davila7/claude-code-templates/commit/df647f1b358e0b0aa5fc1b830d0814e1f8afbfbd) | davila7 |
-| 2026-11-24 | [blog: add Automated Testing Workflow article (agent + command + hook)…](https://github.com/davila7/claude-code-templates/commit/279d494c9b4f1225f23679eafaedf83c333fa3b6) | davila7 |
-| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/9de37d0750e82117b3ad20145cf6bc9c433a299f) | github-actions[bot] |
-| 2026-11-24 | [Add release-manager agent (development-team) (#1675)](https://github.com/davila7/claude-code-templates/commit/0652b7c2d5825f214cac22cc269f5d5f9ee2a95f) | badhope |
-| 2026-11-23 | [feat(dashboard): "Build my stack with Claude" page behind a flag (#1683)](https://github.com/davila7/claude-code-templates/commit/b3ef82024a085acfc214f6ad76a41ceb308c4d35) | davila7 |
-| 2026-11-23 | [chore: Update star history chart](https://github.com/davila7/claude-code-templates/commit/c1bc5c1df4ff0bffb9a04d8f7790543681232423) | github-actions[bot] |
-| 2026-11-23 | [fix(dashboard): align every icon in the collapsed sidebar (#1672)](https://github.com/davila7/claude-code-templates/commit/5e3c55d706f3b8c0e4eedee49a25cb8d2ef0e819) | davila7 |
-| 2026-11-23 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/8929f198edc03efe3e135f1610b59dd4d29d8b0b) | github-actions[bot] |
+| 2026-11-25 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/8b71cff92cc556445c81313f8976933700dd4d6b) | github-actions[bot] |
+| 2026-11-25 | [Add Ratchet plugin: line budget that stops agents from growing your r…](https://github.com/davila7/claude-code-templates/commit/a430092eaf36de2452903596378fc903c097b56d) | krishansubudhi |
+| 2026-11-25 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/c4de112c9a0043261861dc55d92168eeb80b3127) | github-actions[bot] |
+| 2026-11-24 | [feat(mcp): ask for a type or category on broad searches (form elicita…](https://github.com/davila7/claude-code-templates/commit/6db5ee05400346eaf1ad85f6d9de03ffb040fdc1) | davila7 |
+| 2026-11-24 | [docs(claude-md): how to add an MCP component that serves skills (#1706)](https://github.com/davila7/claude-code-templates/commit/5f9e764638a88efb00d5ef247b7f15bcf3d7f225) | davila7 |
+| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/b588e987e9cf32b72990c56afcae275a4bcea7ea) | github-actions[bot] |
+| 2026-11-24 | [feat(mcp): serve the Skills over MCP example from mcp.aitmpl.com (#1704)](https://github.com/davila7/claude-code-templates/commit/69c881e858bb3cb60cb3266ac9030af1a8be0b83) | davila7 |
+| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/a6a23d0ac4a2e403715837b76e6c64f2a5e36d5b) | github-actions[bot] |
+| 2026-11-24 | [feat: Skills over MCP in MCP components, with an example server (#1701)](https://github.com/davila7/claude-code-templates/commit/0ee9bafdd18ea100658b57fa9a3a3df000f8f4be) | davila7 |
+| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/be9f77d7efb1f34968eb83e673ca3c97b732ffe0) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

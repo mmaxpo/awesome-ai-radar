@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-23 (yesterday) |
 | 📅 **Created** | 2024-07-06 |
 | 📦 **Latest release** | [v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27)
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > **Added**
 > - LM Studio settings have an API key field, for servers with "Require Authentication" turned on.
@@ -47,7 +47,7 @@
 > …
 
 ### [desktop-v0.0.50](https://github.com/cline/cline/releases/tag/desktop-v0.0.50) — Desktop v0.0.50
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > - The thinking picker offers **Max** reasoning effort, for models whose top level is max
 > - A manual `/compact` can be stopped. Before, it could sit on "Thinking…" with no Stop button when the summarizer stalled
@@ -58,7 +58,7 @@
 > …
 
 ### [cli-v3.0.75](https://github.com/cline/cline/releases/tag/cli-v3.0.75) — CLI v3.0.75
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > - One-shot runs (a prompt argument or piped stdin) now start in yolo mode instead of act mode, since nobody is at the keyboard to approve tools. Act mode is kept when auto-approve is off (`--auto-approve false` or the saved setting), when a mode flag is passed, when plan mode is saved, or when the prompt is a `/team` prompt. Yolo mode has no team tools, so pass `--act` when you need them
 > - `--timeout` and Ctrl+C now stop the first turn of a one-shot run. Before, neither could interrupt it
@@ -69,7 +69,7 @@
 > …
 
 ### [sdk/sdk/v0.2.1](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.1) — SDK v0.2.1
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > - `read_files` results are no longer re-cut to the 8k tool-result cap on the way to the provider. They use the 50k file-content cap, so a read the tool reported in full arrives in full. Command, search, MCP and custom tool results keep the 8k cap, and an explicit tool-result cap still applies
 > - Models that need interleaved reasoning get a placeholder `reasoning_content` on assistant messages that have none. This fixes Reflection Beam's `400 Missing required parameter: 'messages[n].reasoning_content'` after compaction or a model switch. The fact is carried as `ModelInfo.metadata.interleavedReasoningField`
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26)
-<sub>2026-10-26 · 29d ago</sub>
+<sub>2026-10-26 · 1mo ago</sub>
 
 > **Added**
 > - Cloud tasks: Settings > API Configuration has a Local | Cloud toggle when cloud sessions are on. Cloud picks the Cline model new cloud tasks run on, saved separately from your local models. Clicking the model label in a cloud session's composer opens it there.

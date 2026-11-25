@@ -21,42 +21,42 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 8.9k |
-| 🍴 **Forks** | 879 |
-| 🐞 **Open issues + PRs** | [381](https://github.com/superdesigndev/treg/issues) |
+| 🍴 **Forks** | 888 |
+| 🐞 **Open issues + PRs** | [389](https://github.com/superdesigndev/treg/issues) |
 | 💻 **Languages** | Python 75% · HTML 14% · JavaScript 3% · Vue 3% · Go 3% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `dsh-plugin` `agents` `api-keys` `cli` `credentials` `developer-tools` `mcp` `proxy` `python` `registry` `secrets` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v1.0.0-beta.5](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.5) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 141.6 MB |
+| 💾 **Size** | 143.2 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases
 
 ### [v1.0.0-beta.5](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.5) — treg 1.0.0-beta.5 _(pre-release)_
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — treg 1.0.0-beta.4 _(pre-release)_
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — treg 1.0.0-beta.3 _(pre-release)_
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — treg 1.0.0-beta.2 _(pre-release)_
-<sub>2026-11-12 · 12d ago</sub>
+<sub>2026-11-12 · 13d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.1](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.1) — treg 1.0.0-beta.1 _(pre-release)_
-<sub>2026-11-07 · 17d ago</sub>
+<sub>2026-11-07 · 18d ago</sub>
 
 > _No notes._
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Merge pull request #1928 from superdesigndev/fix/contactout](https://github.com/superdesigndev/treg/commit/7879a0f512ca8a8688fc9fdbac7996e9d22951b2) | shehjad-dev |
-| 2026-11-24 | [Merge pull request #1929 from superdesigndev/fix/allowance-fold-singl…](https://github.com/superdesigndev/treg/commit/0de0d95f8bc5d07b8ee7562dc373dcdad45e214e) | WorksOnMyVM |
-| 2026-11-24 | [fix(money): skip teams locked in this process, renew sooner after a f…](https://github.com/superdesigndev/treg/commit/ab38b0f5f8cb9a2264c752962ddf6a8d30d86370) | WorksOnMyVM |
-| 2026-11-24 | [fix(money): bound the single folder's lock waits, retry renewal, keep…](https://github.com/superdesigndev/treg/commit/9f6130693e3ebffd1197ee19814c40860c9ba55f) | WorksOnMyVM |
-| 2026-11-24 | [test(arena): drive verifier routing with providers cheaper than the find](https://github.com/superdesigndev/treg/commit/0adf60800bfa10adaac26421683d960fbe9df451) | shehjad-dev |
-| 2026-11-24 | [fix(money): share the idle pause and keep the pass lease through long…](https://github.com/superdesigndev/treg/commit/390306d9b257e022f93b6836e9a17ec9ca878a61) | WorksOnMyVM |
-| 2026-11-24 | [fix(call): bill ContactOut verification through the generic per-succe…](https://github.com/superdesigndev/treg/commit/334f8b5011957afe403a65dc098f7c79e41d889e) | shehjad-dev |
-| 2026-11-24 | [fix(catalog): leave ContactOut unknown and disposable verdicts unbilled](https://github.com/superdesigndev/treg/commit/62d21be574198a5785fb23597a5b7f8921a8a5d8) | shehjad-dev |
-| 2026-11-24 | [fix(money): one process at a time runs the allowance fold pass](https://github.com/superdesigndev/treg/commit/e1270b1c6dbaafc9c82ddcad78cbbae041ebecc1) | WorksOnMyVM |
-| 2026-11-24 | [fix(catalog): charge ContactOut email verification per verdict](https://github.com/superdesigndev/treg/commit/d29de96ca13fc1369d947bd3a83cd7ee15447c4e) | shehjad-dev |
+| 2026-11-25 | [Merge pull request #1962 from superdesigndev/feat/public-vendor-console](https://github.com/superdesigndev/treg/commit/8e402a0f82b3b747b93b70a11fac42c001c873f3) | stonexer |
+| 2026-11-25 | [Merge pull request #1959 from superdesigndev/feat/db-pooler-pools](https://github.com/superdesigndev/treg/commit/d95bc96efe1020cb9b78dce234f81d818715a73d) | stonexer |
+| 2026-11-25 | [feat(vendors): every "list your API" entry opens the vendor console](https://github.com/superdesigndev/treg/commit/ce86ad43c65663c5a47548e305150e7c76b0faba) | stonexer |
+| 2026-11-25 | [refactor(db): one TREG_BACKGROUND_DATABASE_URL, checked for role and …](https://github.com/superdesigndev/treg/commit/540966978bd4081fead51fac14cf01f366e90760) | stonexer |
+| 2026-11-25 | [Merge pull request #1921 from superdesigndev/docs/vendor-listing-skill](https://github.com/superdesigndev/treg/commit/7d61378b2515080b1aeef27d1cfc01ffef156ad9) | stonexer |
+| 2026-11-25 | [fix(db): check the pooler at startup and keep it out of the connectio…](https://github.com/superdesigndev/treg/commit/b3c312c355788126dcd1cdc5e867cf2b0dde5118) | stonexer |
+| 2026-11-25 | [docs(vendor-listing): redact the account in the valid-key probe answe…](https://github.com/superdesigndev/treg/commit/abd73efcc391d637aca44cea21ed0eb8fa9f8b98) | stonexer |
+| 2026-11-25 | [docs(vendor-listing): one skill for a vendor's listing pull request, …](https://github.com/superdesigndev/treg/commit/095f066381f09492e8734646251edf5a3fc08132) | stonexer |
+| 2026-11-25 | [Merge pull request #1958 from superdesigndev/feat/review-judge-reads-…](https://github.com/superdesigndev/treg/commit/1ff6d52cd2de9c37ad8ae47ebdeb67b160e9b26f) | WorksOnMyVM |
+| 2026-11-25 | [feat(db): let the background pool connect through a transaction-pooli…](https://github.com/superdesigndev/treg/commit/0eac2d2ad5a529221b2d94762add16e7bb04a050) | stonexer |
 
 [See all commits ↗](https://github.com/superdesigndev/treg/commits)
 

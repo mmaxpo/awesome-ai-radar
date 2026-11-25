@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 97.5k |
-| 🍴 **Forks** | 25.2k |
-| 🐞 **Open issues + PRs** | [11.1k](https://github.com/vllm-project/vllm/issues) |
+| ⭐ **Stars** | 97.6k |
+| 🍴 **Forks** | 25.3k |
+| 🐞 **Open issues + PRs** | [11.2k](https://github.com/vllm-project/vllm/issues) |
 | 💻 **Languages** | Python 86% · Rust 7% · Cuda 4% · C++ 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gpt` `llm` `pytorch` `model-serving` `transformer` `llm-serving` `inference` `llama` `amd` `cuda` `tpu` `deepseek` `qwen` `blackwell` `deepseek-v3` `gpt-oss` `kimi` `moe` `openai` `qwen3` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-02-09 |
 | 📦 **Latest release** | [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 382.3 MB |
+| 💾 **Size** | 383.6 MB |
 | 🌐 **Website** | https://vllm.ai |
 
 ## 📦 Recent releases
 
 ### [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)
-<sub>2026-11-16 · 7d ago</sub>
+<sub>2026-11-16 · 8d ago</sub>
 
 > **v0.34.0**
 > **1,061 commits from 412 contributors (120 new).** Thank you!
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.33.0rc3](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) — v0.33.0
-<sub>2026-11-02 · 22d ago</sub>
+<sub>2026-11-02 · 23d ago</sub>
 
 > **v0.33.0**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [[Perf][Attention] Vectorize per-token-head KV tile loads in Triton at…](https://github.com/vllm-project/vllm/commit/eb42ba633eec9453f161e33494ae49d0284b12f2) | Jeremiah-HL |
-| 2026-11-24 | [[Bugfix] Fix /classify for per-position seq-cls heads on the Transfor…](https://github.com/vllm-project/vllm/commit/bdd3d787ae663e31299facff453323f74a92e751) | KathanSheth |
-| 2026-11-24 | [[Perf][MM] Use varlen attention in MiniCPM-V vision encoder (#69136)](https://github.com/vllm-project/vllm/commit/31814a6f6f2d24b2bebebd7c94181c02ae51cef7) | YunzhuLu |
-| 2026-11-24 | [[Recipes][XPU] Add validated 8192-token context defaults for some Qwe…](https://github.com/vllm-project/vllm/commit/03a905b941a204732d4f24e76d68a8f8cf4983cb) | louie-tsai |
-| 2026-11-24 | [[Security] Bound media preprocessing per prompt (#69098)](https://github.com/vllm-project/vllm/commit/880c63222bbf9522e115c34418f1e8039e6ee40c) | jperezdealgaba |
-| 2026-11-24 | [[Bugfix][Multimodal] Include the cause in HF processor error messages…](https://github.com/vllm-project/vllm/commit/bd1ebabfd95fb5a3638dbe17981b98c6bbb84244) | YingxuH |
-| 2026-11-24 | [[Frontend][Perf] Default --renderer-num-workers to 4 for the async re…](https://github.com/vllm-project/vllm/commit/93bb688f48fb5d75fee748947ec0e3256bee74f6) | arpera |
-| 2026-11-24 | [[Perf][ROCm][Attention] Use smaller tiles in the prefix_prefill kerne…](https://github.com/vllm-project/vllm/commit/d9586ca916b49ad1e04d08b6ad3bbe00129269d6) | lijipeng787 |
-| 2026-11-24 | [[Rust Frontend] Support DeepSeek V4 completion suffixes (#68969)](https://github.com/vllm-project/vllm/commit/b09bc99f40951f8984a6c64cecfed47036bc6016) | suntp |
-| 2026-11-24 | [[Rust Frontend] Parse Mistral v11+ tool calls (#69601)](https://github.com/vllm-project/vllm/commit/fbf9dadde6e8e454e48aa40e62757da28c45c3e9) | BugenZhao |
+| 2026-11-25 | [[HY4 Flash] Allow fp8_ds_mla KV cache on Flash sliding-window MLA (#6…](https://github.com/vllm-project/vllm/commit/6e248ce820abcd8e2760354a95cecf0a3a0f1225) | grYe99 |
+| 2026-11-25 | [[Bugfix][Transformers backend] Match ignored unexpected keys after re…](https://github.com/vllm-project/vllm/commit/c331ec85faa6b1500f8650897cdbdf21d59e0b85) | hmellor |
+| 2026-11-25 | [[Bugfix][NIXL] Tile whole kernel rows of groups to persist logical bl…](https://github.com/vllm-project/vllm/commit/a95f173d5f0631499adfb3e4eb8b370d07eec4b0) | aarnphm |
+| 2026-11-25 | [[Bugfix] Preserve Clef SystemOne probabilities with raw pooling outpu…](https://github.com/vllm-project/vllm/commit/fca34c0a998fa6b58f98e1a06da08b77c5a78dd6) | taneem-ibrahim |
+| 2026-11-25 | [[Model] Remove Mamba1 models and kernels (#68177)](https://github.com/vllm-project/vllm/commit/0085facc58dedeef757aca3f51d6508e2ef9b148) | ZJY0516 |
+| 2026-11-25 | [[Bugfix][Frontend] Refresh echoed text after prompt truncation (#62691)](https://github.com/vllm-project/vllm/commit/57906d3cc08e8dd9c73a92958ea53fbc6c5f8576) | waizuichougou |
+| 2026-11-25 | [[Perf][Model] Nemotron Shortcut SDSA: convert NVFP4 K/V once per requ…](https://github.com/vllm-project/vllm/commit/99d66fffac23a3ab5d78f2b8c47b3a91985cda8f) | danielafrimi |
+| 2026-11-25 | [[Transformers backend] Support ROCm AITER fused shared experts (#67283)](https://github.com/vllm-project/vllm/commit/689b84c3697623552c0a11eb1e348bf32bc31bba) | hmellor |
+| 2026-11-25 | [[Refactor][SleepMode] Make the allocator data copy a subclass hook (#…](https://github.com/vllm-project/vllm/commit/46042d710e9d46ffda0402f8d54814870bccf296) | floatlibai |
+| 2026-11-25 | [[MyPy] Complete kv-C and enforce KV connector tests (#63008)](https://github.com/vllm-project/vllm/commit/7aa7b7898170826ea07a326e255637aa4d7b8f17) | ntu-b12505041 |
 
 [See all commits ↗](https://github.com/vllm-project/vllm/commits)
 

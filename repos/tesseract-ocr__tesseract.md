@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 77.6k |
+| ⭐ **Stars** | 77.7k |
 | 🍴 **Forks** | 10.9k |
 | 🐞 **Open issues + PRs** | [490](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 54.0 MB |
+| 💾 **Size** | 54.1 MB |
 | 🌐 **Website** | https://tesseract-ocr.github.io/ |
 
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 27d ago</sub>
+<sub>2026-10-28 · 28d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-24 | [Improve the estimation of bold for words recognized by LSTM](https://github.com/tesseract-ocr/tesseract/commit/ba7d34113947d343fd766773bb365922afda7e6e) | stweil |
+| 2026-11-24 | [Estimate font styles for rotated and vertical text](https://github.com/tesseract-ocr/tesseract/commit/102fc24e8dc461a2b490f85ff0b3aab5f63da310) | stweil |
+| 2026-11-24 | [Ignore specks of noise in the font style estimation](https://github.com/tesseract-ocr/tesseract/commit/d15290320d412d374914944a423c566314b6a4cf) | stweil |
+| 2026-11-24 | [Estimate bold and italic for words recognized by LSTM](https://github.com/tesseract-ocr/tesseract/commit/bc852c4265edef3e6ece70266a534e06f0de4e3e) | stweil |
 | 2026-11-24 | [Write font attributes in ALTO and PAGE output](https://github.com/tesseract-ocr/tesseract/commit/f4cb819ad546396a68d49a1b2ffa0eb3f74af275) | stweil |
 | 2026-11-24 | [Fix crash when training continues with a new character set](https://github.com/tesseract-ocr/tesseract/commit/d16a3ecc463528f620234e2702d64963b0f1a691) | stweil |
 | 2026-11-24 | [Fix IsSpaceDelimited for characters with the null script](https://github.com/tesseract-ocr/tesseract/commit/f16443b8a572c1692e4078587023d20a93cbc184) | stweil |
 | 2026-11-23 | [Don't write an empty reading order in PAGE output](https://github.com/tesseract-ocr/tesseract/commit/69031805b0bf465468ead416d29753defdf397d0) | stweil |
 | 2026-11-23 | [Don't write a baseline for words in PAGE output](https://github.com/tesseract-ocr/tesseract/commit/26228d001e6686bdf5cffbb420d750d186ff7d4c) | stweil |
 | 2026-11-23 | [README.md: Update the 'Dependencies' section](https://github.com/tesseract-ocr/tesseract/commit/a68ecf772b265456dd04d82123ec9a7bb10aeabe) | amitdo |
-| 2026-11-20 | [classify: limit Min and Max instead of the range in ReadParamDesc](https://github.com/tesseract-ocr/tesseract/commit/2516f31c560e056449b6d9e95e10c6feeb6ad618) | stweil |
-| 2026-11-19 | [fix: link the autotools shared library to Accelerate (#4636)](https://github.com/tesseract-ocr/tesseract/commit/9c1f34d35195c8a7dae843b906924bb3f5b8b9f2) | mvanhorn |
-| 2026-11-19 | [Fix crashes in the result iterators for words without best_choice (#4…](https://github.com/tesseract-ocr/tesseract/commit/1e2735f2681503a38388841aa1d6f6071aeb0ff6) | zdenop |
-| 2026-11-18 | [Fix unresolved merge conflict in Makefile.am](https://github.com/tesseract-ocr/tesseract/commit/0c7dc2f312e12c6dd1efceff5d82fa01106446bb) | stweil |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 

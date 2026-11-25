@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 19.8k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [137](https://github.com/vercel-labs/json-render/issues) |
+| 🐞 **Open issues + PRs** | [138](https://github.com/vercel-labs/json-render/issues) |
 | 💻 **Languages** | TypeScript 71% · Swift 12% · MDX 11% · Svelte 4% · JavaScript 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-23 (today) |
+| 🕒 **Last activity** | 2026-11-23 (yesterday) |
 | 📅 **Created** | 2026-01-14 |
 | 📦 **Latest release** | [v0.23.2](https://github.com/vercel-labs/json-render/releases/tag/v0.23.2) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.23.2](https://github.com/vercel-labs/json-render/releases/tag/v0.23.2)
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **Bug Fixes**
 > - **Chat stream errors:** The `CardSpecError` thrown by `streamCard` for an invalid final spec now carries the posted message as `postedMessage`, so callers can edit or remove the partial card (#483)
@@ -45,7 +45,7 @@
 > - @sachinmour
 
 ### [v0.23.1](https://github.com/vercel-labs/json-render/releases/tag/v0.23.1)
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > **Bug Fixes**
 > - **Swift render tree limits:** Bound the child ids a build holds, so a spec that lists the same child many times with a long state value stops at a limit instead of holding a copy of that value once per child. Bound the issues the validator reports and the message bytes they hold, and end a shortened result with one `specTooComplex` issue that keeps its severity, so a spec whose only dropped issues were warnings stays valid (#477)
@@ -55,7 +55,7 @@
 > - @ctate
 
 ### [v0.23.0](https://github.com/vercel-labs/json-render/releases/tag/v0.23.0)
-<sub>2026-11-15 · 8d ago</sub>
+<sub>2026-11-15 · 9d ago</sub>
 
 > **New Features**
 > - **Swift package and SwiftUI renderer:** Added a `JSONRender` Swift package with a `JSONRenderCore` model for specs, streaming, state, expressions, actions, visibility, and validation, a `JSONRenderSwiftUI` renderer with built-in views, a native catalog, and macOS and streaming example apps. Conformance fixtures compare the Swift render tree with the React renderer, and CI builds and tests the package (#470)
@@ -66,7 +66,7 @@
 > …
 
 ### [v0.22.0](https://github.com/vercel-labs/json-render/releases/tag/v0.22.0)
-<sub>2026-11-04 · 19d ago</sub>
+<sub>2026-11-04 · 20d ago</sub>
 
 > **New Features**
 > - **Chat SDK renderer:** Added `@json-render/chat` to render specs as Chat SDK cards, so one catalog posts natively on Slack, Teams, and the other Chat SDK platforms. `streamCard` streams a card into a thread and edits it as elements arrive, and `toCard` validates specs against per-component schemas and optional platform limits. State expressions, `visible`, and `repeat` resolve against `spec.state` (#451)
@@ -75,7 +75,7 @@
 > - @Railly
 
 ### [v0.21.4](https://github.com/vercel-labs/json-render/releases/tag/v0.21.4)
-<sub>2026-11-01 · 23d ago</sub>
+<sub>2026-11-01 · 24d ago</sub>
 
 > **Documentation**
 > - Added the **eve TanStack Agent template** to the examples page, with links to its source repository and Vercel template (#442)

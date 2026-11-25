@@ -26,17 +26,22 @@
 | 💻 **Languages** | Cython 52% · Python 42% · C 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `cython` `cpython` `cpython-extensions` `c` `cpp` `performance` `big-data` |
-| 🕒 **Last activity** | 2026-11-23 (yesterday) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2010-11-21 |
-| 📦 **Latest release** | [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1) — 2026-11-01 |
+| 📦 **Latest release** | [3.3.2-1](https://github.com/cython/cython/releases/tag/3.3.2-1) — 2026-11-25 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 80.8 MB |
+| 💾 **Size** | 81.2 MB |
 | 🌐 **Website** | https://cython.org |
 
 ## 📦 Recent releases
 
+### [3.3.2-1](https://github.com/cython/cython/releases/tag/3.3.2-1)
+<sub>2026-11-25 · today</sub>
+
+> _No notes._
+
 ### [3.3.1](https://github.com/cython/cython/releases/tag/3.3.1)
-<sub>2026-11-01 · 22d ago</sub>
+<sub>2026-11-01 · 23d ago</sub>
 
 > _No notes._
 
@@ -55,25 +60,20 @@
 
 > _No notes._
 
-### [3.2.8](https://github.com/cython/cython/releases/tag/3.2.8)
-<sub>2026-06-30 · 4mo ago</sub>
-
-> _No notes._
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Update changelog.](https://github.com/cython/cython/commit/c65b117fc80fdbfe14ee7ea9a0ff600851c32c9c) | scoder |
+| 2026-11-25 | [Merge branch '3.3.x'](https://github.com/cython/cython/commit/7bddf8ed6a997af55c3cd9b1b4c8ad8fd7dea990) | scoder |
+| 2026-11-25 | [CI: Fix inconsistent version specification in workflow file.](https://github.com/cython/cython/commit/0d25b70fd258dcfbfc72b0ffc4a5bdf2e202ba75) | scoder |
+| 2026-11-25 | [Build: Try if going back to Ubuntu 24.04 fixes Docker build failures …](https://github.com/cython/cython/commit/8232bdb8372f23e8a50d4e752f4cc506e4069728) | scoder |
+| 2026-11-25 | [Build: Fix sdist build: Ubuntu 26.04 doesn't have Py3.9 any more.](https://github.com/cython/cython/commit/e918f6bc4e1a99f851a381cd1c48ef6129055a97) | scoder |
+| 2026-11-24 | [Merge branch '3.3.x'](https://github.com/cython/cython/commit/d1bb620811b0cf7e9f3fe4fb77ccb3d40a38f6c0) | scoder |
+| 2026-11-24 | [Update changelog.](https://github.com/cython/cython/commit/af49ae1018f9389d5b8d7ab2f1554edc8005b10b) | scoder |
+| 2026-11-24 | [Fix registering sequence/mapping on PyPy static types (GH-8133)](https://github.com/cython/cython/commit/9fcf3b4dbe2c78dca421180f8e1d4673d75b0e27) | da-woods |
+| 2026-11-24 | [Fix registering sequence/mapping on PyPy static types (GH-8133)](https://github.com/cython/cython/commit/80c3403599653d30cf5b132ad40cdf99150748d9) | da-woods |
 | 2026-11-23 | [Use unique temporary files for compiler cache entries (GH-8108)](https://github.com/cython/cython/commit/420d79cb4fa81250a407690091e6e80e4bcffa50) | vyasr |
-| 2026-11-22 | [Merge branch '3.3.x'](https://github.com/cython/cython/commit/3eba19aad74806f196d40e21db7d583c26c7d2cc) | scoder |
-| 2026-11-22 | [Update changelog.](https://github.com/cython/cython/commit/4ffb9c483a5abf872ed97c0c558e21a981947e83) | scoder |
-| 2026-11-22 | [CI: make success gates fail on cancelled jobs and detector failures (…](https://github.com/cython/cython/commit/da36d13b22f1c68696e5ea15ad15984b3718197d) | sotomayorlucas |
-| 2026-11-22 | [Fix a few issues with the TSAN workflow run (#8111)](https://github.com/cython/cython/commit/722413af8196ccb063e837c29f2d4d031b7accb9) | da-woods |
-| 2026-11-22 | [Reset echo_file in close_listing_file() to avoid writing to a closed …](https://github.com/cython/cython/commit/93e6ae11c974b23e70e849f616d4ba79a0e6ddd2) | frenzymadness |
-| 2026-11-22 | [fix implicit __init__.py creation warnings (#8132)](https://github.com/cython/cython/commit/c70959c89ab3171f455ed4f45a7b1e0936588352) | dws |
-| 2026-11-22 | [Keep the end barrier of prange when code follows it in a parallel blo…](https://github.com/cython/cython/commit/5dd1581328b602ca3def42816037977a2eec0969) | cakedev0 |
-| 2026-11-22 | [Default to 1 worker process on GraalPy in cythonize (#8143)](https://github.com/cython/cython/commit/3ce8ed2945bfa5de9dd530c80483a47327979a66) | msimacek |
-| 2026-11-22 | [Docs: Fix the restrict qualifier in FAQ (#8144)](https://github.com/cython/cython/commit/8012b7ad45218799d33e75c7d580ca05b9004b6e) | matusvalo |
 
 [See all commits ↗](https://github.com/cython/cython/commits)
 

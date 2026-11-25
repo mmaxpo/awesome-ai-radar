@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `fine-tuning` `llama` `llm` `peft` `transformers` `rlhf` `qlora` `quantization` `qwen` `instruction-tuning` `gpt` `lora` `large-language-models` `agent` `ai` `moe` `llama3` `deepseek` `gemma` `nlp` |
-| 🕒 **Last activity** | 2026-11-23 (yesterday) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2023-05-28 |
 | 📦 **Latest release** | [v0.9.5](https://github.com/hiyouga/LlamaFactory/releases/tag/v0.9.5) — 2026-05-30 |
 | 🌿 **Default branch** | `main` |
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.9.1](https://github.com/hiyouga/LlamaFactory/releases/tag/v0.9.1) — v0.9.1: Many Vision Models, Qwen2.5 Coder, Gradient Fix
-<sub>2024-11-24 · 1y ago</sub>
+<sub>2024-11-24 · 2y ago</sub>
 
 > **New features**
 > - 🔥Support **Llama-3.2** and **Llama-3.2-Vision** by @marko1616 in #5547 and #5555
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [[xpu] support profiler, module profiler and env report on Intel GPU (…](https://github.com/hiyouga/LlamaFactory/commit/aef9c06ff4e24839a282e70e1c8cac211a609814) | chinyixiang |
+| 2026-11-25 | [enable fp16 in dtype inference on Intel XPU (#10868)](https://github.com/hiyouga/LlamaFactory/commit/e658cc465c4ed6f288f4565bbb82245c3786b50a) | chinyixiang |
+| 2026-11-24 | [[model] add EXAONE 4.5 text template support (#11014)](https://github.com/hiyouga/LlamaFactory/commit/c7548d4d2955b354e8d3f2cecc24f635ef94ca6e) | kutetama |
 | 2026-11-23 | [[v1] Refactor the FSDPTurbo adapter and gradient lifecycle (#11013)](https://github.com/hiyouga/LlamaFactory/commit/8ebba0d07dd14fdb1d429c497f018c7dae2e44b7) | hazelduan |
 | 2026-11-23 | [[hparams] map warmup_ratio to warmup_steps on transformers v5 (#11009)](https://github.com/hiyouga/LlamaFactory/commit/d1867f4084dee160d4aff86a5467ff397daf20bf) | prassu017 |
 | 2026-11-23 | [[docs] fix Wiki QA dataset link and refresh install/login instruction…](https://github.com/hiyouga/LlamaFactory/commit/bc4983a18a20f15af232924e9c6760fd640ec4a3) | codemayq |
@@ -101,9 +104,6 @@
 | 2026-11-23 | [[docker] add FSDPTurbo and upgrade triton-ascend to 3.6.0 (#11011)](https://github.com/hiyouga/LlamaFactory/commit/e12b2c7dc8a3200365c96e48e79471f780bb7679) | xvxuopop |
 | 2026-11-21 | [[docs] Add InCoder and IQuest models to the README tables (#11008)](https://github.com/hiyouga/LlamaFactory/commit/42acf37f59b0af71480647e47e228ca4228cb43b) | CSJianYang |
 | 2026-11-19 | [[docs] Add GitCode badge to README (#11000)](https://github.com/hiyouga/LlamaFactory/commit/b4e4d3fcb2a5a13ce6b9431d395e3939f84b8ec1) | hiyouga |
-| 2026-11-18 | [[model] Add GS1 decision model training with native two-stage recipe …](https://github.com/hiyouga/LlamaFactory/commit/57712ad19597cf75114c4c907e5189df5107f6bd) | jacklanda |
-| 2026-11-17 | [[deps] upgrade transformers to 5.17.0 (#10869)](https://github.com/hiyouga/LlamaFactory/commit/885a4ca65cebf17a92e869af13c2ce42caca314a) | chinyixiang |
-| 2026-11-17 | [[docs] add Qwen3.8 to the supported models table (#10992)](https://github.com/hiyouga/LlamaFactory/commit/5cbf775b4e22c791d9026a9682634378bbf1aabd) | Manfredss |
 
 [See all commits ↗](https://github.com/hiyouga/LlamaFactory/commits)
 
