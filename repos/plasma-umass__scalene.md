@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 13.6k |
-| 🍴 **Forks** | 449 |
-| 🐞 **Open issues + PRs** | [153](https://github.com/plasma-umass/scalene/issues) |
+| 🍴 **Forks** | 450 |
+| 🐞 **Open issues + PRs** | [154](https://github.com/plasma-umass/scalene/issues) |
 | 💻 **Languages** | Python 60% · JavaScript 15% · C++ 9% · TypeScript 7% · Lean 6% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `profiling` `performance-analysis` `cpu-profiling` `profiler` `python-profilers` `gpu-programming` `scalene` `profiles-memory` `performance-cpu` `cpu` `memory-allocation` `gpu` `memory-consumption` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2019-12-17 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/plasma-umass/scalene/releases/tag/v2.4.0) — 2026-10-23 |
 | 🌿 **Default branch** | `master` |
@@ -89,6 +89,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Deflake test_reload_on_another_thread_is_not_another_sample (#1155)](https://github.com/plasma-umass/scalene/commit/a2f400ab2c49106d691caca813e7d2f24597a1fc) | emeryberger |
 | 2026-11-24 | [Propagate --allocation-sampling-window to child processes (fixes #115…](https://github.com/plasma-umass/scalene/commit/f42a69b921a100f924d37156f3b48879c431adee) | emeryberger |
 | 2026-11-22 | [Claim the pending CPU-signal arrival atomically (fixes #1151) (#1152)](https://github.com/plasma-umass/scalene/commit/557ecb3d4e8437cdf37a60547490947bcf3b9507) | emeryberger |
 | 2026-11-21 | [NVIDIA: report the current per-process GPU load, not the lifetime ave…](https://github.com/plasma-umass/scalene/commit/4c9a5b8cd4350740bbf4f71600034fbbc3ed2a27) | KuzAlexey |
@@ -98,7 +99,6 @@
 | 2026-11-15 | [Document how saved settings and --api-keys-from-env combine; list con…](https://github.com/plasma-umass/scalene/commit/9bd56dced36096c99d5529933d84d0582de43b60) | emeryberger |
 | 2026-11-15 | [Add pytest plugin (`pytest --scalene`) — fixes #70 (#1059)](https://github.com/plasma-umass/scalene/commit/390ea0bd436d1d9442bd52edfa09ab5ac5db986a) | emeryberger |
 | 2026-11-15 | [Save AI provider settings with `scalene config` (fixes #911) (#1143)](https://github.com/plasma-umass/scalene/commit/33d507f973469f1a32360bbe7b529349126d1419) | emeryberger |
-| 2026-11-15 | [Give every timer arrival the same weight (#466 follow-up) (#1142)](https://github.com/plasma-umass/scalene/commit/0b9870bfa09aecc7e2eb8826dbd483214d4a763f) | emeryberger |
 
 [See all commits ↗](https://github.com/plasma-umass/scalene/commits)
 

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 65.5k |
-| 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [303](https://github.com/HKUDS/CLI-Anything/issues) |
+| ⭐ **Stars** | 66.1k |
+| 🍴 **Forks** | 6.0k |
+| 🐞 **Open issues + PRs** | [325](https://github.com/HKUDS/CLI-Anything/issues) |
 | 💻 **Languages** | Python 97% · C# 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (5d ago) |
+| 🕒 **Last activity** | 2026-11-20 (6d ago) |
 | 📅 **Created** | 2026-03-08 |
 | 📦 **Latest release** | [v0.4.0](https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0) — 2026-06-25 |
 | 🌿 **Default branch** | `main` |

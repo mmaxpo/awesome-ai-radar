@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 29.0k |
 | 🍴 **Forks** | 9.0k |
-| 🐞 **Open issues + PRs** | [458](https://github.com/dmlc/xgboost/issues) |
+| 🐞 **Open issues + PRs** | [457](https://github.com/dmlc/xgboost/issues) |
 | 💻 **Languages** | C++ 46% · Python 21% · Cuda 17% · R 7% · Scala 5% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gbdt` `gbrt` `gbm` `distributed-systems` `xgboost` `machine-learning` |
@@ -82,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [[python] drop unnecessary 'setuptools' uses (#12894)](https://github.com/dmlc/xgboost/commit/eca74538c55137543821206f11d57bb89c1d8ec3) | jameslamb |
 | 2026-11-25 | [Register SYCL quantile objective kernels through kernel dispatch (#12…](https://github.com/dmlc/xgboost/commit/e338746156a274320c6b5f71039f62ea207d3625) | avolkov-intel |
 | 2026-11-25 | [Revert "Cap OpenMP loop threads at the loop size (#12792)" (#12852)](https://github.com/dmlc/xgboost/commit/f2ba9365c218b952a1c2925506fc69cb6efb8404) | nh13 |
 | 2026-11-24 | [Bump the github-actions group with 2 updates (#12890)](https://github.com/dmlc/xgboost/commit/8bb836c166d98876393cac8ead9d97f5bc3919e2) | dependabot[bot] |
@@ -91,7 +92,6 @@
 | 2026-11-17 | [[python] Accept SciPy sparse arrays in inplace_predict (#12843)](https://github.com/dmlc/xgboost/commit/b1b2b6fa7fa25ad17d29e9668f1e3811bda9ea03) | caxaxa |
 | 2026-11-17 | [Revert "Cap OpenMP threads at the block count in ParallelFor2d (#1280…](https://github.com/dmlc/xgboost/commit/5f1a7cff76753d26299d2a26aab5994c33a06822) | trivialfis |
 | 2026-11-17 | [Fix CUDA vector initialization after host shrink (#12840)](https://github.com/dmlc/xgboost/commit/f3b50aec9900dd13d71fd9e60cf1eb09f6c6dd45) | RAMitchell |
-| 2026-11-17 | [Bound the Poisson and Cox intercepts away from zero (#12864)](https://github.com/dmlc/xgboost/commit/07179cae3ae2049dc29677874b2a8823193522d3) | caxaxa |
 
 [See all commits ↗](https://github.com/dmlc/xgboost/commits)
 

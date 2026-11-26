@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 39.7k |
 | 🍴 **Forks** | 3.7k |
-| 🐞 **Open issues + PRs** | [18](https://github.com/The-Vibe-Company/quivr/issues) |
-| 💻 **Languages** | Go 55% · Python 26% · TypeScript 7% · MDX 6% · JavaScript 3% |
+| 🐞 **Open issues + PRs** | [20](https://github.com/The-Vibe-Company/quivr/issues) |
+| 💻 **Languages** | Go 55% · Python 27% · TypeScript 7% · MDX 6% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `api` `chatbot` `chatgpt` `database` `docker` `frontend` `openai` `postgresql` `privacy` `security` `typescript` `html` `javascript` `react` `rag` `vector` `groq` `framework` |
-| 🕒 **Last activity** | 2026-11-23 (2d ago) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v2.0.3](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.3) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 171.4 MB |
+| 💾 **Size** | 172.9 MB |
 | 🌐 **Website** | https://www.thevibecompany.co/en/portfolio/quivr |
 
 ## 📦 Recent releases
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.0.2](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.2)
-<sub>2026-10-30 · 26d ago</sub>
+<sub>2026-10-30 · 27d ago</sub>
 
 > **Quivr 2.0.2**
 > 2.0.2 moves the search database to Weaviate 1.39.14. It changes no API, no configuration and no stored data. Upgrade any 2.0.x installation to it.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.0.1](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.1)
-<sub>2026-10-30 · 26d ago</sub>
+<sub>2026-10-30 · 27d ago</sub>
 
 > **Quivr 2.0.1**
 > 2.0.1 is a security release. It changes no API, no configuration and no stored data. Upgrade any 2.0.0 installation to it.
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.0.0](https://github.com/The-Vibe-Company/quivr/releases/tag/v2.0.0) — Quivr 2.0.0
-<sub>2026-10-29 · 26d ago</sub>
+<sub>2026-10-29 · 27d ago</sub>
 
 > **Quivr 2.0.0**
 > Quivr is an open-source engine for content that keeps arriving. Your application, or Quivr's sources (RSS, Microsoft 365 mailboxes, X lists), send it documents. Quivr keeps every version of each document and makes it searchable within seconds, by keywords, by meaning, or both. It also checks every new document against your saved alerts. Quivr has no user interface: your application talks to it over an HTTP API, and AI agents use it through `quivr mcp`.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-16 | [chore(main): release 2.0.3 (#3981)](https://github.com/The-Vibe-Company/quivr/commit/87f3743fa42f83a03d7cc5e9f0e324d0e5dcb5c9) | StanGirard |
-| 2026-11-16 | [fix(images): build on Go 1.27.4 and patch zlib and brotli in Postgres…](https://github.com/The-Vibe-Company/quivr/commit/b29e91957dfa9f12720478f344f628ea922d0101) | StanGirard |
-| 2026-11-16 | [fix(demo): make idempotency keys without crypto.randomUUID over plain…](https://github.com/The-Vibe-Company/quivr/commit/890b9689ca5a8b8a422be7017aa29522a259fe5f) | StanGirard |
-| 2026-11-02 | [test(demo): walk every main journey of the demo with TesterArmy e2e (…](https://github.com/The-Vibe-Company/quivr/commit/bb1b19ecf4094dbd1e309e521ce8b5fed4fb539f) | StanGirard |
-| 2026-11-02 | [fix(demo): pin alerts to the plugin version the core serves (#3980)](https://github.com/The-Vibe-Company/quivr/commit/25e4edf083c0fcd115ee952a048444de646604fd) | StanGirard |
-| 2026-10-30 | [chore(main): release 2.0.2 (#3977)](https://github.com/The-Vibe-Company/quivr/commit/0f9ce97492ebc2f577629bcc958f377e4f8673c0) | StanGirard |
-| 2026-10-30 | [fix(deploy): pin Weaviate 1.39.14 for filtered-search panics and RQ m…](https://github.com/The-Vibe-Company/quivr/commit/90d7d88e3f4287a0fa648834dbc1546ae2569cd4) | StanGirard |
-| 2026-10-30 | [chore(main): release 2.0.1 (#3975)](https://github.com/The-Vibe-Company/quivr/commit/5e2bdae4c6fc5f8d029501c0303c170590f1a639) | StanGirard |
-| 2026-10-30 | [fix(deploy): pin Weaviate 1.39.13 for CVE-2026-111943 (#3973)](https://github.com/The-Vibe-Company/quivr/commit/191d35f195c087852b5387e0887def9b95435bb8) | StanGirard |
-| 2026-10-30 | [fix(images): rebase on Python 3.12.16 and patch brotli in TEI (#3974)](https://github.com/The-Vibe-Company/quivr/commit/84e5c4ec5a45077952326d6387bf434d6dd175f9) | StanGirard |
+| 2026-11-26 | [ci: share verified image scan inputs and stop PR cache exports (#4024)](https://github.com/The-Vibe-Company/quivr/commit/38f027907a4bdb0a43b3f99811dc58ff585c1c5a) | StanGirard |
+| 2026-11-26 | [feat(config): inject secrets outside runtime JSON (#4007)](https://github.com/The-Vibe-Company/quivr/commit/14518f3b41ba41ed99953c3d3adccd7c88ac28d0) | StanGirard |
+| 2026-11-26 | [perf(storage): pack normalized text per version (#4022)](https://github.com/The-Vibe-Company/quivr/commit/edb55dbd46e9e071657198c9660485bbb8228710) | StanGirard |
+| 2026-11-26 | [feat(bench): add reproducible cold/warm search and ingestion perf har…](https://github.com/The-Vibe-Company/quivr/commit/4af59a46b6fa9e25a00f0523f26ddf9aa5d6a914) | StanGirard |
+| 2026-11-26 | [perf(hydration): add bounded content-addressed text blob LRU cache an…](https://github.com/The-Vibe-Company/quivr/commit/7aea34c336352afdb4b1b425a14a045f18e2ca68) | StanGirard |
+| 2026-11-26 | [build(plugins): bundle first-party Go plugins into stripped multi-cal…](https://github.com/The-Vibe-Company/quivr/commit/b891901ebfc7db04cd1eeeeb497cb9bcb617b09d) | StanGirard |
+| 2026-11-26 | [perf(devx): cache local Go plugin binaries and add fast dev profile (…](https://github.com/The-Vibe-Company/quivr/commit/4a12148ad365bf71f927f975233c826a0785236a) | StanGirard |
+| 2026-11-26 | [feat(retrieval): add AIMD search admission limiter and graceful deep-…](https://github.com/The-Vibe-Company/quivr/commit/44f359d593aa70cbc447757182e6ffeaed1bd2d0) | StanGirard |
+| 2026-11-26 | [perf(query-encoder): replace PyTorch FP32 CPU encoder with quantized …](https://github.com/The-Vibe-Company/quivr/commit/e9eaf43c89f547d4afac241efade2328beef8888) | StanGirard |
+| 2026-11-26 | [perf(retrieval): coalesce and cache query encodings (#4018)](https://github.com/The-Vibe-Company/quivr/commit/2661a93eb630f7a5aff783e280e89661f3ec0be1) | StanGirard |
 
 [See all commits ↗](https://github.com/The-Vibe-Company/quivr/commits)
 

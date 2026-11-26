@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 24.0k |
 | 🍴 **Forks** | 865 |
-| 🐞 **Open issues + PRs** | [139](https://github.com/fosrl/pangolin/issues) |
+| 🐞 **Open issues + PRs** | [142](https://github.com/fosrl/pangolin/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `reverse-proxy` `wireguard` `single-sign-on` `self-hosted` `oidc` `vpn` `zero-trust` `zero-trust-network-access` `ztna` `pam` `remote-access` `ssh` `tunneling` `nat-traversal` `sase` `sso` `wireguard-vpn` `pangolin` `ai-gateway` `gateway` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2024-09-27 |
 | 📦 **Latest release** | [1.27.1](https://github.com/fosrl/pangolin/releases/tag/1.27.1) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 102.3 MB |
+| 💾 **Size** | 102.5 MB |
 | 🌐 **Website** | https://pangolin.net |
 
 ## 📦 Recent releases
 
 ### [1.27.1](https://github.com/fosrl/pangolin/releases/tag/1.27.1)
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.27: Managed Client Settings, Per-Org Client Settings](https://pangolin.net/news/1-27-release)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.27.0](https://github.com/fosrl/pangolin/releases/tag/1.27.0)
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.27: Managed Client Settings, Per-Org Client Settings](https://pangolin.net/news/1-27-release)
@@ -58,7 +58,7 @@
 > …
 
 ### [1.27.0-rc.0](https://github.com/fosrl/pangolin/releases/tag/1.27.0-rc.0) _(pre-release)_
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > **RC**
 > A Release Candidate (RC) is a near-final software version, stable but undergoing last tests before official release. It has all features and no known bugs.
@@ -69,7 +69,7 @@
 > …
 
 ### [1.26.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0)
-<sub>2026-11-04 · 20d ago</sub>
+<sub>2026-11-04 · 21d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.26: Session Management, SSH Logs, and Auto Windows Updates](https://pangolin.net/news/1-26-release)
@@ -80,7 +80,7 @@
 > …
 
 ### [1.26.0-rc.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0-rc.0) _(pre-release)_
-<sub>2026-11-02 · 22d ago</sub>
+<sub>2026-11-02 · 23d ago</sub>
 
 > **RC**
 > A Release Candidate (RC) is a near-final software version, stable but undergoing last tests before official release. It has all features and no known bugs.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #4186 from fosrl/dev](https://github.com/fosrl/pangolin/commit/bd8bdc91e12b87b0204e551b1885df404ea54ae0) | oschwartz10612 |
-| 2026-11-25 | [Fix parsing](https://github.com/fosrl/pangolin/commit/d0c4927b8de6afe9481b88d29ec4c0108060d308) | oschwartz10612 |
-| 2026-11-23 | [Publish version-first EE image tags and sign each digest once](https://github.com/fosrl/pangolin/commit/dae41059c07945cea174274b9c720be8a64f3aac) | oschwartz10612 |
-| 2026-11-23 | [Rebuild all clients when role changes](https://github.com/fosrl/pangolin/commit/6f5bdf78704f1df11a58d749584f757024f6ee74) | oschwartz10612 |
-| 2026-11-23 | [Merge pull request #4137 from MannXo/fix/4133-dns-record-value-overflow](https://github.com/fosrl/pangolin/commit/eb55fe46fdfba65b23a8d1512ca0fd3dc3bdc8af) | oschwartz10612 |
-| 2026-11-20 | [Merge pull request #4163 from fosrl/dev](https://github.com/fosrl/pangolin/commit/0e011f57f751c77a906eba7fde3cd8765290ab01) | oschwartz10612 |
-| 2026-11-20 | [Merge pull request #4162 from fosrl/l10n_dev](https://github.com/fosrl/pangolin/commit/18c05a50321727aaf3327664db49598d11814c14) | oschwartz10612 |
-| 2026-11-20 | [Merge pull request #4161 from fosrl/dev](https://github.com/fosrl/pangolin/commit/7897a309f9eaa88578d8341478abee73119851c3) | oschwartz10612 |
-| 2026-11-20 | [New translations en-us.json (Norwegian Bokmal)](https://github.com/fosrl/pangolin/commit/079750a3bb8c0268c4861d490ff4d4703f14f24e) | oschwartz10612 |
-| 2026-11-20 | [New translations en-us.json (Chinese Simplified)](https://github.com/fosrl/pangolin/commit/441b9a486079211f9730b12da24a7fc301c8800c) | oschwartz10612 |
+| 2026-11-26 | [Merge pull request #4189 from fosrl/cross-org-fixes](https://github.com/fosrl/pangolin/commit/c50155384beed9fac7d896502369152640f114a4) | oschwartz10612 |
+| 2026-11-26 | [Stop local sites attaching to another org's remote exit node](https://github.com/fosrl/pangolin/commit/c8d6fd2430874549c6680554bb3be7e334b8bd63) | oschwartz10612 |
+| 2026-11-26 | [Leave local sites on remote exit nodes alone](https://github.com/fosrl/pangolin/commit/f44148c68738662b404b1b5f35f68b9e4777d8d1) | oschwartz10612 |
+| 2026-11-26 | [Add traefik.disable_http_config to turn off GET /traefik-config](https://github.com/fosrl/pangolin/commit/721f150f6b1ebd67e2dc25ae60792d4c9176512f) | oschwartz10612 |
+| 2026-11-26 | [Let bannedEmails ban whole domains and plus-addressed variants](https://github.com/fosrl/pangolin/commit/b6bbf36be5d24f88d74e65ac1828e2aa0fa8579a) | oschwartz10612 |
+| 2026-11-26 | [Require Traefik trust and a site-resource grant on the private AI gat…](https://github.com/fosrl/pangolin/commit/98e4824b18ae6295f666ee29b649490dfb5c2e18) | oschwartz10612 |
+| 2026-11-26 | [Guard tenant-supplied outbound URLs against SSRF](https://github.com/fosrl/pangolin/commit/9eb421cd1b41a1a77d596b0a38d1ae6f629abeca) | oschwartz10612 |
+| 2026-11-26 | [Keep tenants from publishing Pangolin's internal services via local s…](https://github.com/fosrl/pangolin/commit/8419370e5b60e48ccacfe5d91c56394361f6b1fe) | oschwartz10612 |
+| 2026-11-26 | [Reserve the dashboard host and other orgs' hosts for redirects and bl…](https://github.com/fosrl/pangolin/commit/6497e6d8cf2ce456dde2486ceb1d26c704b423b6) | oschwartz10612 |
+| 2026-11-26 | [Scope device approval decisions to the org in the URL](https://github.com/fosrl/pangolin/commit/734c90fa634555e59691b8ae32b73816fabbedf1) | oschwartz10612 |
 
 [See all commits ↗](https://github.com/fosrl/pangolin/commits)
 

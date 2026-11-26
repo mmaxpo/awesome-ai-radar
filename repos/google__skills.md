@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 24.7k |
 | 🍴 **Forks** | 2.1k |
-| 🐞 **Open issues + PRs** | [43](https://github.com/google/skills/issues) |
+| 🐞 **Open issues + PRs** | [44](https://github.com/google/skills/issues) |
 | 💻 **Languages** | Python 87% · Shell 6% · HTML 6% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `google` `googlecloud` `skills` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-03-31 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 7.1 MB |
+| 💾 **Size** | 7.3 MB |
 
 ## 📦 Recent releases
 
@@ -40,16 +40,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Harden the gke-kueue-troubleshooting skill (v1.1.1) with security, re…](https://github.com/google/skills/commit/c75ad1a5563d870eca5ab7ed47fa88315d1a3c56) | cloud-ix-copybara |
+| 2026-11-26 | [Link the API Gateway skills and fix facts that disagree with API Gate…](https://github.com/google/skills/commit/6ec2bf52067fa8b18895b85e85216f7796066bf8) | cloud-ix-copybara |
+| 2026-11-26 | [Add Google Home Developer plugin package.](https://github.com/google/skills/commit/c413c1fdc1714f2e4ae44a449b9744348197119c) | cloud-ix-copybara |
+| 2026-11-25 | [Improve the pathways-workload skill: detect memory-pressure evictions…](https://github.com/google/skills/commit/b315c2eea312b624f3fbe60018a6f741dd558ebb) | cloud-ix-copybara |
+| 2026-11-25 | [Update google-agents-cli-onboarding skill for Agents CLI v1.15.0 and …](https://github.com/google/skills/commit/7f996a7743b7615912c607c79e803a68d941f8ce) | cloud-ix-copybara |
+| 2026-11-25 | [google-cloud plugin: share one sign-in token between the MCP servers,…](https://github.com/google/skills/commit/401f4700237d99f612696d99b56d7d03dc2f4458) | cloud-ix-copybara |
 | 2026-11-25 | [Removed google-cloud-solution-agentic-ai-data-science-workflow skill](https://github.com/google/skills/commit/afc7485ec4ac555722a334fab84f423d2010c1f0) | cloud-ix-copybara |
 | 2026-11-24 | [docs(skills): update the bigquery-troubleshooting skill](https://github.com/google/skills/commit/a6782daef41b064c659f0b16cb46609cf4b8211d) | cloud-ix-copybara |
 | 2026-11-24 | [docs(skills): update the bigquery-observability skill](https://github.com/google/skills/commit/ef4aa32bc4bcda5265a0088e39a8f7bdab410d43) | cloud-ix-copybara |
 | 2026-11-24 | [Update google-cloud-storage-fuse skill for GKE 1.37+ CSI volume metrics.](https://github.com/google/skills/commit/1715799adb109c603045570a08b7c4645517c744) | cloud-ix-copybara |
-| 2026-11-24 | [Use gcloud alpha for Application Design Center Terraform assessment r…](https://github.com/google/skills/commit/3e55f99139121be799ad3a60dfd43b324c08a375) | cloud-ix-copybara |
-| 2026-11-24 | [Update deprecated Gemini 2.5 model examples in apigee-agent-gateway-g…](https://github.com/google/skills/commit/b525ba40bd504f1cf20776ecf0b167359c4dd1f6) | cloud-ix-copybara |
-| 2026-11-24 | [Update the Agent Platform skills.](https://github.com/google/skills/commit/089e3cccacf99547898bd513d78cf8efd28da9cf) | cloud-ix-copybara |
-| 2026-11-24 | [Updating ad preloading iOS method signatures](https://github.com/google/skills/commit/5e268f15bf40e298dea9f7746660ebc6bc7dfd8d) | cloud-ix-copybara |
-| 2026-11-24 | [Use Artifact Registry in google-cloud-filestore-nfs-browser](https://github.com/google/skills/commit/3954bb229b6d4ca4051c3ebd161174c1e509e2d9) | cloud-ix-copybara |
-| 2026-11-24 | [Update GKE storage, compute classes, and cluster autoscaler skills to…](https://github.com/google/skills/commit/049393fdac41157b3ab9219e28c20f45147160a8) | cloud-ix-copybara |
 
 [See all commits ↗](https://github.com/google/skills/commits)
 

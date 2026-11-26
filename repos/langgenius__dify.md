@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 57% · TypeScript 40% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `gpt` `llm` `openai` `python` `agent` `nextjs` `workflow` `genai` `automation` `low-code` `mcp` `no-code` `agentic-ai` `agentic-framework` `agentic-workflow` `claude` `skills` `deepseek` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-04-12 |
 | 📦 **Latest release** | [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 727.9 MB |
+| 💾 **Size** | 738.2 MB |
 | 🌐 **Website** | https://dify.ai |
 
 ## 📦 Recent releases
 
 ### [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — v1.20.0
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > **Dify 1.20.0 keeps your traces flowing and your knowledge bases safer.** Export traces to any OpenTelemetry collector, keep Langfuse working after its legacy ingestion endpoint retirement, and scan uploaded knowledge files for malware before they are indexed. Chatflows can show Agent tool activity as it happens, and personal access tokens let scripts and agents call the Dify OpenAPI on your behalf. The bundled plugin daemon is upgraded to **0.6.15-local**.
 > [New Features](#user-content-new-features) · [Configuration and Integration Changes](#user-content-configuration-and-integration-changes) · [Database Migrations](#user-content-database-migrations) · [Upgrade Guide](#user-content-upgrade-guide)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.19.0](https://github.com/langgenius/dify/releases/tag/1.19.0) — v1.19.0 - Trace Your Workflows, Layer by Layer
-<sub>2026-11-04 · 21d ago</sub>
+<sub>2026-11-04 · 22d ago</sub>
 
 > **Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree.
 > This release also makes Workflow Tools portable with App packages, adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin daemon is upgraded to **0.6.14-local**.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [fix(ci): retry incomplete E2E build metadata responses (#47209)](https://github.com/langgenius/dify/commit/fce5d308298f5ef4f29e06a2f0bef06c58123c2d) | hyoban |
-| 2026-11-25 | [test(web): stabilize Skill Builder model fallback spec (#47208)](https://github.com/langgenius/dify/commit/6e958e64abb781b251ee189b0d394f50f669f5ce) | hyoban |
-| 2026-11-25 | [fix(ci): skip KnowledgeFS finalization on cancellation (#47199)](https://github.com/langgenius/dify/commit/c389d67c284286fd7ac09f68012e34169b6df84c) | hyoban |
-| 2026-11-25 | [refactor(web): derive the share conversation list from the query cach…](https://github.com/langgenius/dify/commit/ccbf7b061a57fc7d84266ab9052f387f41445010) | hyoban |
-| 2026-11-25 | [fix(web): stop overview snapshot polling once tasks finish and re-ena…](https://github.com/langgenius/dify/commit/30d7fbbf4cca48d33b97772f00bd93a01478bcba) | hyoban |
-| 2026-11-25 | [refactor(web): read the annotation list, export and settings from the…](https://github.com/langgenius/dify/commit/8dc6bd4ef2c6eab040f4900055bfe50c430d683f) | hyoban |
-| 2026-11-25 | [refactor(web): read tool actions, code defaults and log rows from que…](https://github.com/langgenius/dify/commit/9d920ce8bb1f03cf30b2f03d30fe011f021a22a6) | hyoban |
-| 2026-11-25 | [refactor(web): route device flow and marketplace template calls throu…](https://github.com/langgenius/dify/commit/5d9b49fb217899aa96b5159e3000a53a4befed74) | hyoban |
-| 2026-11-25 | [refactor(web): run auth and account mutations through mutation option…](https://github.com/langgenius/dify/commit/95ed8c421842ffa6d23f1ec43cce3e091dc33c72) | hyoban |
-| 2026-11-25 | [refactor(web): run component mutations through mutation options (#47129)](https://github.com/langgenius/dify/commit/90593c359f5d8e6e1d6106e22320b0b5a3ab6542) | hyoban |
+| 2026-11-26 | [fix(web): observe the tool catalog within its scroll container (#47350)](https://github.com/langgenius/dify/commit/76c33f30cd490f1d42e8e2f3a76b395ab7b0f0db) | hyoban |
+| 2026-11-26 | [docs: count draft PRs toward the contributor limit (#47352)](https://github.com/langgenius/dify/commit/ff824427bb7099c3af411489ec19039fa6bfed05) | QuantumGhost |
+| 2026-11-26 | [refactor(agent): migrate Console chat and audio runtime (#46582)](https://github.com/langgenius/dify/commit/a66dd8a15e65124590d451cf8a3aabfdedbac573) | hjlarry |
+| 2026-11-26 | [fix(api): isolate workflow archive retry sleep in tests (#47339)](https://github.com/langgenius/dify/commit/9e75f341ab9388a85723c155f527cf9a24354394) | hyoban |
+| 2026-11-26 | [fix(web): report failed editor draft loads and saves (#47247)](https://github.com/langgenius/dify/commit/df053963e41fdce5f60acdece73d5d28d9bbf2fd) | hyoban |
+| 2026-11-26 | [fix(web): give opted-out queries that showed nothing an error state (…](https://github.com/langgenius/dify/commit/2695025ecffff8d78b5cfb7d354159eec0faa78a) | hyoban |
+| 2026-11-26 | [refactor(agent): isolate Console config inspector access (#46561)](https://github.com/langgenius/dify/commit/f6c206bc1753e6baddb5dcf20e6174ec1f74cc71) | hjlarry |
+| 2026-11-26 | [fix(web): report failed marketplace lookups instead of failing silent…](https://github.com/langgenius/dify/commit/36953d443115dae2a63762cbdfe780aeab4fb0a6) | hyoban |
+| 2026-11-26 | [fix(web): show the server's message in knowledge error handlers (#47248)](https://github.com/langgenius/dify/commit/0863455d8c8528c4e37e64e98669d5a50d4f5efa) | hyoban |
+| 2026-11-26 | [fix(web): show the server's message in upload and billing error fallb…](https://github.com/langgenius/dify/commit/7ac7a3d5afe9dde18046b524861241067c6a1517) | hyoban |
 
 [See all commits ↗](https://github.com/langgenius/dify/commits)
 

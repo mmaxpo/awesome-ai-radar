@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.2k |
-| 🍴 **Forks** | 6.2k |
+| ⭐ **Stars** | 80.5k |
+| 🍴 **Forks** | 6.3k |
 | 🐞 **Open issues + PRs** | [1](https://github.com/hugohe3/ppt-master/issues) |
 | 💻 **Languages** | Python 94% · JavaScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `powerpoint` `pptx` `presentation` `office` `slides` `powerpoint-generation` `ppt` `slide` `aippt` |
-| 🕒 **Last activity** | 2026-11-20 (5d ago) |
+| 🕒 **Last activity** | 2026-11-20 (6d ago) |
 | 📅 **Created** | 2025-12-10 |
 | 📦 **Latest release** | [v6.10.0](https://github.com/hugohe3/ppt-master/releases/tag/v6.10.0) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v6.10.0](https://github.com/hugohe3/ppt-master/releases/tag/v6.10.0)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > Personal templates created through Create Template now live in a Git-ignored local library so repository updates never trip over personal registrations, the OpenAI image backend defaults to `gpt-image-2.6-sunburst`, Volcengine adds Seedream 5.0 with Ark as the default gateway, and a set of conversion, icon, notes, and Edit Native round-trip fixes resolves silent content loss and export aborts.
 > **Templates and repository updates**
@@ -47,7 +47,7 @@
 > …
 
 ### [v6.9.0](https://github.com/hugohe3/ppt-master/releases/tag/v6.9.0)
-<sub>2026-11-08 · 17d ago</sub>
+<sub>2026-11-08 · 18d ago</sub>
 
 > Image to PPTX gains OCR text evidence, text-removed bases, and checked image layers, and now runs on any vision host with an `image_gen.py` reference-image backend. Narration adds an OpenAI Realtime provider, `image_gen.py` can produce animated GIFs on OpenAI `gpt-image-2.6`, and a round of conversion and round-trip fixes stops sources from being overwritten or silently altered.
 > **Image to PPTX**
@@ -58,7 +58,7 @@
 > …
 
 ### [v6.8.0](https://github.com/hugohe3/ppt-master/releases/tag/v6.8.0)
-<sub>2026-10-30 · 26d ago</sub>
+<sub>2026-10-30 · 27d ago</sub>
 
 > The OpenAI image backend now defaults to `gpt-image-2.5-sunburst`, and image generation accepts any W:H aspect ratio. This release also brings a round of Edit Native, template-import, and source-conversion fixes that stop content from being silently dropped, plus PowerPoint-exact animation timing.
 > **AI image generation**

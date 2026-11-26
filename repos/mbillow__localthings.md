@@ -21,21 +21,32 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.4k |
-| 🍴 **Forks** | 151 |
-| 🐞 **Open issues + PRs** | [107](https://github.com/mbillow/localthings/issues) |
+| 🍴 **Forks** | 154 |
+| 🐞 **Open issues + PRs** | [105](https://github.com/mbillow/localthings/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `custom-component` `hacs` `hacs-integration` `home-assistant` `home-automation` `samsung` `smartthings` `coap-protocol` `coap-server` `dtls` |
-| 🕒 **Last activity** | 2026-11-21 (4d ago) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-06-30 |
-| 📦 **Latest release** | [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0) — 2026-11-15 |
+| 📦 **Latest release** | [v0.40.0](https://github.com/mbillow/localthings/releases/tag/v0.40.0) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 6.7 MB |
+| 💾 **Size** | 5.9 MB |
 
 ## 📦 Recent releases
 
+### [v0.40.0](https://github.com/mbillow/localthings/releases/tag/v0.40.0)
+<sub>2026-11-26 · today</sub>
+
+> **🚀 Highlights**
+> - **Powered-off appliances stay off after a restart.** A washer that drops off Wi-Fi once it turns itself off now shows off, not unavailable. Thanks to @vshijiav! (#845)
+> - **TV Wake-on-LAN with a single network adapter.** The magic packet now also goes to the subnet broadcast. Confirmed on a The Frame QN75LS03B. Thanks to @eduardobittencourt! (#872)
+> - **Devices on different subnets with the same last IP octet** (`10.0.0.99`, `10.0.1.99`) no longer break each other's connections. (#925, fixes #918)
+> - **Cooking permissions.** `start_cooking` checks that a non-admin user may control that oven cavity. Thanks to @leejaew! (#778)
+> **✨ Added**
+> …
+
 ### [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0)
-<sub>2026-11-15 · 9d ago</sub>
+<sub>2026-11-15 · 10d ago</sub>
 
 > **🚀 Highlights**
 > - **Samsung TVs.** Media player (power, volume, input, sound mode, channel and now-showing), picture mode, Wake-on-LAN, remote, notifications, apps and casting. Not yet run on hardware as merged. Thanks to @benjaml4 and @vmonkey! (#755, #856, part of #388)
@@ -46,7 +57,7 @@
 > …
 
 ### [v0.38.0](https://github.com/mbillow/localthings/releases/tag/v0.38.0)
-<sub>2026-11-11 · 14d ago</sub>
+<sub>2026-11-11 · 15d ago</sub>
 
 > **⭐️🌟⭐️ One Thousand Stars ⭐️🌟⭐️**
 > **LocalThings now has over 1,000 stars on GitHub!**
@@ -57,7 +68,7 @@
 > …
 
 ### [v0.37.0](https://github.com/mbillow/localthings/releases/tag/v0.37.0)
-<sub>2026-11-08 · 17d ago</sub>
+<sub>2026-11-08 · 18d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbar media player.** Power, volume, mute, source, sound mode, playback, seek, shuffle and track info. Confirmed on the HW-Q950T. Thanks to @vmonkey and @benjaml4! (#775, part of #388)
@@ -68,7 +79,7 @@
 > …
 
 ### [v0.36.0](https://github.com/mbillow/localthings/releases/tag/v0.36.0)
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbars.** Boards without `/device/0` now set up, starting with the HW-S61B (sensors, selects, switches, numbers, buttons). Media player and TV come later. Thanks to @vmonkey! (#606, part of #388)
@@ -78,31 +89,20 @@
 > **✨ Added**
 > …
 
-### [v0.35.0](https://github.com/mbillow/localthings/releases/tag/v0.35.0)
-<sub>2026-10-28 · 27d ago</sub>
-
-> **🚀 Highlights**
-> - **Two new languages.** French and Brazilian Portuguese join the existing eight. The four actions (Start cooking and the three resource actions) can now be translated, and every language has them. Thanks to @3615nulsi and @eduardobittencourt! (#617, #694, from #686)
-> - **More appliances over TCP 8888.** The DV80M8214AW dryer, the NZ36K7570R cooktop, the NQ70M6650DS microwave/oven combo and the NW9300MD's oven cavities now set up. LocalThings now recognizes an 8888 appliance by the type it reports for itself, so a model nobody has mapped yet still reads in full. Thanks to @roweboat123, @antiremy and @korbijn! (#619, #675, #687, #690, #693, closes #636, closes #646)
-> - **Paired range hood.** The NZ30K7570RS's Bluetooth hood gets its fan, light and shutoff timer, all confirmed on hardware. Thanks to @antiremy! (#677, for #676)
-> - **Switch off subdevices.** Configure → Subdevices lets you untick a slot that isn't real hardware, like a blank cavity on some ovens and ranges. (#685)
-> **✨ Added**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Bump version to 0.40.0](https://github.com/mbillow/localthings/commit/d2d8339ed67e0d42e1e7f94a63dbdc5cc34ab1c5) | mbillow |
+| 2026-11-26 | [Quick fixes for #902, #906, #911 and #918 (#925)](https://github.com/mbillow/localthings/commit/e28e5366234ec5a5cacae4fdd165cfe43c20387e) | mbillow |
+| 2026-11-26 | [Restructure credential acquisition as testing notes, with a risk warn…](https://github.com/mbillow/localthings/commit/2787bf289bae529395eb62be1484f0c12b3beca6) | mbillow |
+| 2026-11-26 | [Name an NV7000BS's lower cavity from its Lower modes (#915)](https://github.com/mbillow/localthings/commit/4bb0af61c5f7f16181c78c1b6857eb7161cd41ae) | space192 |
+| 2026-11-26 | [Lock Table_02 dials the app greys out; Spanish name for course 23 (#910)](https://github.com/mbillow/localthings/commit/9a0e5b745a3d26eccfe2f0ba8857c7b61731a3cd) | jasimancas |
+| 2026-11-26 | [Document the no-root Morphe patch (smortthings) credential route (#899)](https://github.com/mbillow/localthings/commit/464fe71371f8946046ad09e22a92b9e6d83ef4dd) | neoKushan |
+| 2026-11-26 | [Read remaining time as 0 once laundry is idle (#894)](https://github.com/mbillow/localthings/commit/49c3d44cd3cdda97b0f6542eed9ee73f44a942b8) | kkevindev |
+| 2026-11-26 | [Carry a powered-off appliance through a restart as off (#845)](https://github.com/mbillow/localthings/commit/b76c8c21b7c635ff2b5f043a091c1ce909f26c21) | vshijiav |
 | 2026-11-21 | [UN55DU7200 coverage, and redact a TV's location and addresses (#895) …](https://github.com/mbillow/localthings/commit/f86a819c4371be1db3d21e1e06c44b4620dbce33) | mbillow |
 | 2026-11-21 | [Fixes for issues #867–#891 (#893)](https://github.com/mbillow/localthings/commit/6f3433131e6377336d5c261ed0f62a8a0ac11080) | mbillow |
-| 2026-11-20 | [Enforce target control permission for cooking actions (#778)](https://github.com/mbillow/localthings/commit/5b0e8b64727871f2d0d5242cf971781488aa92f3) | leejaew |
-| 2026-11-20 | [Fix TV Wake-on-LAN on default-only network adapters (#872)](https://github.com/mbillow/localthings/commit/a711b609966ee8457d4796b5440c087ab7bd87c3) | eduardobittencourt |
-| 2026-11-20 | [Keep a known sibling whose seed answered when its probe times out (#885)](https://github.com/mbillow/localthings/commit/58c5dd83e6c177c2bcf5edf5594ea3f2d5df563b) | antiremy |
-| 2026-11-20 | [Read a no-reading EHS cycle temperature byte as unknown (#880)](https://github.com/mbillow/localthings/commit/125b32056411aef8bb822b5f669e23b1291027d0) | pookey |
-| 2026-11-19 | [Give entities of one capability distinct names in every language (#873)](https://github.com/mbillow/localthings/commit/4224f5fa73786a4ce77eb9386dced852c7df9a92) | wit3 |
-| 2026-11-19 | [Say in the README that diagnostics keep the OCF device ID (#874) (#892)](https://github.com/mbillow/localthings/commit/5815224dce7fb4395716cc842c333e65e52d38e8) | wit3 |
-| 2026-11-15 | [Bump version to 0.39.0](https://github.com/mbillow/localthings/commit/11a23140c5d2493ecb616fdffff8128faa0bc953) | mbillow |
-| 2026-11-15 | [Decode the NY9100DW burner entities when no Fuel_ token is reported (…](https://github.com/mbillow/localthings/commit/6cfeb7bee52a5301c7573b797f66ade42b0178d4) | Varshavia |
 
 [See all commits ↗](https://github.com/mbillow/localthings/commits)
 

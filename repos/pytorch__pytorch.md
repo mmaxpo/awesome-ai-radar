@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 105.7k |
+| ⭐ **Stars** | 105.8k |
 | 🍴 **Forks** | 30.7k |
-| 🐞 **Open issues + PRs** | [18.6k](https://github.com/pytorch/pytorch/issues) |
+| 🐞 **Open issues + PRs** | [18.7k](https://github.com/pytorch/pytorch/issues) |
 | 💻 **Languages** | Python 67% · C++ 27% · Cuda 3% · C 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `neural-network` `autograd` `gpu` `numpy` `deep-learning` `tensor` `python` `machine-learning` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2016-08-13 |
 | 📦 **Latest release** | [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1692.3 MB |
+| 💾 **Size** | 1699.6 MB |
 | 🌐 **Website** | https://pytorch.org |
 
 ## 📦 Recent releases
 
 ### [v2.15.0](https://github.com/pytorch/pytorch/releases/tag/v2.15.0) — PyTorch 2.15.0 Release
-<sub>2026-10-28 · 27d ago</sub>
+<sub>2026-10-28 · 28d ago</sub>
 
 > **PyTorch 2.15.0 Release Notes**
 > - [Highlights](#highlights)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [[ROCm]: Add Group Gemm Backend Selection Heuristic (#204242)](https://github.com/pytorch/pytorch/commit/be6edbd6b5c55cff0d852aa5e79d4dab4f450e5c) | TheRealMichaelWang |
-| 2026-11-25 | [Document single-element tuple support in avg_pool3d docs (#206165)](https://github.com/pytorch/pytorch/commit/8e13fcc45bbca5421c7ab3f49068a5cad7d8110e) | rashedrana |
-| 2026-11-25 | [Cross-reference the logistic sigmoid APIs in the PyTorch docs (#206287)](https://github.com/pytorch/pytorch/commit/bc8841896ea1493fb5b74caa786f9abc6b3e02b0) | chamione |
-| 2026-11-25 | [[mkldnn][17/N] Port ideep's primitive cache and attr_t into ATen (#20…](https://github.com/pytorch/pytorch/commit/efd2c8f556dcd09b75104888aec9d5ca2cae9b10) | frost-intel |
-| 2026-11-25 | [[mkldnn][16/N] Port ideep matmul (fp32 and quantized) into ATen (#205…](https://github.com/pytorch/pytorch/commit/872d189fe989d7b2479a861c3fc56937ab7922a9) | frost-intel |
-| 2026-11-25 | [[mkldnn][15/N] Port ideep quantized transposed convolution into ATen …](https://github.com/pytorch/pytorch/commit/cfebc8d7e3e369fdd55f85dda536c8c1372b83a9) | frost-intel |
-| 2026-11-25 | [[mkldnn][14/N] Port ideep transposed convolution into ATen (#205974)](https://github.com/pytorch/pytorch/commit/166b1f35ff221d2dbdd6dc500a25a2158e285181) | frost-intel |
-| 2026-11-25 | [[mkldnn][13/N] Port ideep quantized convolution into ATen (#205973)](https://github.com/pytorch/pytorch/commit/ea5587c4e634d0ff9f5ea54e328f82b2745e9d81) | frost-intel |
-| 2026-11-25 | [[mkldnn][12/N] Port ideep convolution compute_v2 into ATen (#205972)](https://github.com/pytorch/pytorch/commit/436f47e152bad7e279352262c04e9561f7dbdc66) | frost-intel |
-| 2026-11-25 | [added lowering for adaptive_avg_pool2d_backward (#201075)](https://github.com/pytorch/pytorch/commit/2acfb36e361a8140e7d57224da94266664e681be) | morrison-turnansky |
+| 2026-11-26 | [[optim] Validate optimizer and scheduler hyperparameters (#206075)](https://github.com/pytorch/pytorch/commit/deaabcc05036a6915e636693fa311e29b3485de8) | janeyx99 |
+| 2026-11-26 | [Use torch.finfo(dtype).eps as F.normalize's default eps (#204410)](https://github.com/pytorch/pytorch/commit/30e720bcb1ae8fac699240a9627ea9d6b787fe6e) | roydonsequeira |
+| 2026-11-26 | [Register hash_tensor.out for XPU backend (#204393)](https://github.com/pytorch/pytorch/commit/2e0e894eec10d73b3404acf508ae77aec9344a1a) | msnliu |
+| 2026-11-26 | [Fix test ordering pollution in test_non_strict_export_distribution_va…](https://github.com/pytorch/pytorch/commit/559bef73d8a4abd8949067c50088d6b6168c84d8) | ddelgadovargas-cyber |
+| 2026-11-26 | [[Testcase Refactoring] Make test_runtime_estimator.py device-generic …](https://github.com/pytorch/pytorch/commit/c83c58355eb060fcf248cae3792c2425b028fb3b) | youlituao |
+| 2026-11-26 | [[Testcase Refactoring] Add HardwareClassification for shutdown_timeou…](https://github.com/pytorch/pytorch/commit/b23e4993a4471e6f251ae6706799ca90112bb9cd) | PlatformLC |
+| 2026-11-26 | [Install nccl-extensions 0.2.0 in CI and load its versioned libnccl_ep…](https://github.com/pytorch/pytorch/commit/86db80054f3ebdf852fe540ef3263705443c13d2) | crcrpar |
+| 2026-11-26 | [[Testcase Refactoring] Add hardware classification for test_sac_ilp.p…](https://github.com/pytorch/pytorch/commit/1a26a9151783a9087741803898a0d6a80419fb00) | kurt739910017 |
+| 2026-11-26 | [[Inductor][XPU] Add persistent and non-persistent Triton mm templates…](https://github.com/pytorch/pytorch/commit/de52ac8b8b297a3d49941c8d58189ca1c46b9e16) | chunhuanMeng |
+| 2026-11-26 | [[inductor] Use is_gpu for b2b_gemm device eligibility (#204568)](https://github.com/pytorch/pytorch/commit/23a4e981af806a1c582cd0e91bca063f58482db0) | SHIHAIFENG15 |
 
 [See all commits ↗](https://github.com/pytorch/pytorch/commits)
 

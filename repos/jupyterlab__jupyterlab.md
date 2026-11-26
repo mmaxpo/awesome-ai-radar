@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 89% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 312.7 MB |
+| 💾 **Size** | 311.7 MB |
 | 🌐 **Website** | https://jupyterlab.readthedocs.io/ |
 
 ## 📦 Recent releases
 
 ### [v4.7.0b2](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b2) _(pre-release)_
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > **4.7.0b2**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b1...7e75a1f85fb7ee7f07c7301f7c4f69c1fb7d7618))
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.7.0b1](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b1) _(pre-release)_
-<sub>2026-11-06 · 19d ago</sub>
+<sub>2026-11-06 · 20d ago</sub>
 
 > **4.7.0b1**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b0...ca6210d371e287beb3735824a931824cc0048125))
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6)
-<sub>2026-11-06 · 19d ago</sub>
+<sub>2026-11-06 · 20d ago</sub>
 
 > **4.6.6**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.5...a5eab3ae655dd8cea81618efc936e110d3b22037))
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 27d ago</sub>
+<sub>2026-10-28 · 28d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Fix a faulty completion provider disabling all completions (#20614)](https://github.com/jupyterlab/jupyterlab/commit/5d8a73aeddb43fd3f1647c0eda221e21d5980407) | r0c0y |
+| 2026-11-26 | [Fix unwanted scrolling to the active cell when a dialog closes (#20627)](https://github.com/jupyterlab/jupyterlab/commit/09f70744b7d454023cb073ae1e54be541efa8f2a) | r0c0y |
+| 2026-11-26 | [Fix the `End` key stopping early after expanding a collapsed section …](https://github.com/jupyterlab/jupyterlab/commit/0080027b465deb784e22efc394d4c43e264a73ff) | r0c0y |
+| 2026-11-26 | [Fix file browser rename failure when the focused item is filtered out…](https://github.com/jupyterlab/jupyterlab/commit/45d2bbfc013bf8f8a072afb7dcdde9d5742d96ba) | MAYANKSHARMA01010 |
+| 2026-11-26 | [Fix isolated plain text outputs rendering as empty iframes (#20634)](https://github.com/jupyterlab/jupyterlab/commit/235272376eb4318fa6649c6e228b6d2be0020989) | chungvinhhien |
 | 2026-11-25 | [Fix formulas setting arbitrary data attributes through `\data` (#20589)](https://github.com/jupyterlab/jupyterlab/commit/585894cf7b1a5a226d579bcd94c9e759df5ceb86) | krassowski |
 | 2026-11-25 | [Add pixi development config (#20573)](https://github.com/jupyterlab/jupyterlab/commit/0f5fe88108a902d87e6d3b218a079b3dc6a1efdf) | jasongrout |
 | 2026-11-25 | [Fix jump back from the end of a notebook in full windowing mode (#20529)](https://github.com/jupyterlab/jupyterlab/commit/fbeb7890bf355efcc8a72ab633025bbf3b6d7559) | 14-himanshu |
 | 2026-11-25 | [Add notebook setting for default scrolled output height (#19603)](https://github.com/jupyterlab/jupyterlab/commit/7b8c4851cdc15ad02fc6a1f189212f1f15a88c00) | nicolasdmolina |
 | 2026-11-25 | [ Fix lost execution timing of moved/restored cells that were still ru…](https://github.com/jupyterlab/jupyterlab/commit/b31def0c388b231f5478381b07b82611eede6f25) | krassowski |
-| 2026-11-25 | [Fix a cell disappearing after a type change in `full` windowing mode …](https://github.com/jupyterlab/jupyterlab/commit/1b27db8943cf5bf90037145c2bd3b6a68a1d49c2) | krassowski |
-| 2026-11-25 | [Fix the file browser taking the focus back after a rename (#20582)](https://github.com/jupyterlab/jupyterlab/commit/093ef9d1d4f3b6c061325e2289d7bfb9c29b82ae) | krassowski |
-| 2026-11-25 | [Fix flaky completer, documentation and fuzzy filter UI tests (#20583)](https://github.com/jupyterlab/jupyterlab/commit/f73fbd0a1954244b8489e3abd74dceb6ae2ae280) | krassowski |
-| 2026-11-24 | [Fix hidden metadata drafts being written into another cell or noteboo…](https://github.com/jupyterlab/jupyterlab/commit/2ffda9a7b8b42d76a6858abaffe4aab9c2f1872a) | krassowski |
-| 2026-11-23 | [Drop `@babel/preset-env`, `@stdlib/stats` and three lint plugins (#20…](https://github.com/jupyterlab/jupyterlab/commit/8d24f8deb10ba6e65c0350bc235a4e105ea7396a) | krassowski |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

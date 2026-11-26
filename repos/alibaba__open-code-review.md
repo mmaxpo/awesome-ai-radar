@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 56.3k |
-| 🍴 **Forks** | 4.6k |
+| ⭐ **Stars** | 56.6k |
+| 🍴 **Forks** | 4.7k |
 | 🐞 **Open issues + PRs** | [346](https://github.com/alibaba/open-code-review/issues) |
 | 💻 **Languages** | Go 70% · JavaScript 11% · TypeScript 11% · Kotlin 5% · CSS 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `code-review` `code-review-assistant` `harness` `repository-level-context` `agent-skills` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-05-18 |
-| 📦 **Latest release** | [v1.14.3](https://github.com/alibaba/open-code-review/releases/tag/v1.14.3) — 2026-11-24 |
+| 📦 **Latest release** | [v1.14.4](https://github.com/alibaba/open-code-review/releases/tag/v1.14.4) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
 | 💾 **Size** | 57.1 MB |
 | 🌐 **Website** | https://open-codereview.ai |
 
 ## 📦 Recent releases
 
+### [v1.14.4](https://github.com/alibaba/open-code-review/releases/tag/v1.14.4)
+<sub>2026-11-26 · today</sub>
+
+> **🚀 Features**
+> - feat(allowlist): exclude C and C++ test and benchmark paths (#2081)
+> - feat(i18n): add Vietnamese (vi-VN) translation (#2035)
+> - feat(skills): review GitHub PRs from pinned snapshots (#2038)
+> - feat(session): persist retry reports in session end (#1083)
+> **🐛 Bug Fixes**
+> …
+
 ### [v1.14.3](https://github.com/alibaba/open-code-review/releases/tag/v1.14.3)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > **🐛 Bug Fixes**
 > - fix(tool): return a model-facing error for invalid code_search regex (#1811)
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.14.2](https://github.com/alibaba/open-code-review/releases/tag/v1.14.2)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **🚀 Features**
 > - feat(i18n): add Turkish README, site docs and VS Code localization (#1986)
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.14.1](https://github.com/alibaba/open-code-review/releases/tag/v1.14.1)
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > **🚀 Features**
 > - feat(skills): include behavior and impact in native and delegated reviews (#2029)
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.14.0](https://github.com/alibaba/open-code-review/releases/tag/v1.14.0)
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > **🚀 Features**
 > - feat(rules,allowlist): exclude Cargo test/benchmark paths and refine Rust rules (#1971)
@@ -77,17 +88,6 @@
 > - feat(cli): order review and scan findings by severity (#2003)
 > - feat(rules): add SQL review rules (#1941)
 > - feat(rules): add Dhall review rules (#963)
-> …
-
-### [v1.13.13](https://github.com/alibaba/open-code-review/releases/tag/v1.13.13)
-<sub>2026-11-19 · 6d ago</sub>
-
-> **🚀 Features**
-> - feat(pages): link the leaderboard to AACR-Bench (#1995)
-> **🐛 Bug Fixes**
-> - fix(llmloop): reserve complete compression context budget (#1993)
-> - fix(chatgptauth): drain OAuth callback responses before closing (#1996)
-> **📖 Documentation**
 > …
 
 ## 🔨 Latest commits

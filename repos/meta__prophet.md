@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 20.5k |
 | 🍴 **Forks** | 4.7k |
-| 🐞 **Open issues + PRs** | [471](https://github.com/meta/prophet/issues) |
+| 🐞 **Open issues + PRs** | [472](https://github.com/meta/prophet/issues) |
 | 💻 **Languages** | Python 66% · R 32% · Stan 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `forecasting` `r` `python` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-24 (yesterday) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v1.5.0](https://github.com/meta/prophet/releases/tag/v1.5.0) — 2026-10-05 |
 | 🌿 **Default branch** | `main` |

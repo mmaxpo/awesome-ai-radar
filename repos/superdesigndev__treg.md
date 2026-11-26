@@ -20,38 +20,38 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.9k |
-| 🍴 **Forks** | 888 |
-| 🐞 **Open issues + PRs** | [389](https://github.com/superdesigndev/treg/issues) |
-| 💻 **Languages** | Python 75% · HTML 14% · JavaScript 3% · Vue 3% · Go 3% |
+| ⭐ **Stars** | 9.4k |
+| 🍴 **Forks** | 955 |
+| 🐞 **Open issues + PRs** | [400](https://github.com/superdesigndev/treg/issues) |
+| 💻 **Languages** | Python 75% · HTML 13% · JavaScript 3% · Vue 3% · Go 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `dsh-plugin` `agents` `api-keys` `cli` `credentials` `developer-tools` `mcp` `proxy` `python` `registry` `secrets` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-07-15 |
 | 📦 **Latest release** | [v1.0.0-beta.5](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.5) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 143.2 MB |
+| 💾 **Size** | 143.7 MB |
 | 🌐 **Website** | https://treg.to |
 
 ## 📦 Recent releases
 
 ### [v1.0.0-beta.5](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.5) — treg 1.0.0-beta.5 _(pre-release)_
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.4](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.4) — treg 1.0.0-beta.4 _(pre-release)_
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.3](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.3) — treg 1.0.0-beta.3 _(pre-release)_
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > _No notes._
 
 ### [v1.0.0-beta.2](https://github.com/superdesigndev/treg/releases/tag/v1.0.0-beta.2) — treg 1.0.0-beta.2 _(pre-release)_
-<sub>2026-11-12 · 13d ago</sub>
+<sub>2026-11-12 · 14d ago</sub>
 
 > _No notes._
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #1962 from superdesigndev/feat/public-vendor-console](https://github.com/superdesigndev/treg/commit/8e402a0f82b3b747b93b70a11fac42c001c873f3) | stonexer |
-| 2026-11-25 | [Merge pull request #1959 from superdesigndev/feat/db-pooler-pools](https://github.com/superdesigndev/treg/commit/d95bc96efe1020cb9b78dce234f81d818715a73d) | stonexer |
-| 2026-11-25 | [feat(vendors): every "list your API" entry opens the vendor console](https://github.com/superdesigndev/treg/commit/ce86ad43c65663c5a47548e305150e7c76b0faba) | stonexer |
-| 2026-11-25 | [refactor(db): one TREG_BACKGROUND_DATABASE_URL, checked for role and …](https://github.com/superdesigndev/treg/commit/540966978bd4081fead51fac14cf01f366e90760) | stonexer |
-| 2026-11-25 | [Merge pull request #1921 from superdesigndev/docs/vendor-listing-skill](https://github.com/superdesigndev/treg/commit/7d61378b2515080b1aeef27d1cfc01ffef156ad9) | stonexer |
-| 2026-11-25 | [fix(db): check the pooler at startup and keep it out of the connectio…](https://github.com/superdesigndev/treg/commit/b3c312c355788126dcd1cdc5e867cf2b0dde5118) | stonexer |
-| 2026-11-25 | [docs(vendor-listing): redact the account in the valid-key probe answe…](https://github.com/superdesigndev/treg/commit/abd73efcc391d637aca44cea21ed0eb8fa9f8b98) | stonexer |
-| 2026-11-25 | [docs(vendor-listing): one skill for a vendor's listing pull request, …](https://github.com/superdesigndev/treg/commit/095f066381f09492e8734646251edf5a3fc08132) | stonexer |
-| 2026-11-25 | [Merge pull request #1958 from superdesigndev/feat/review-judge-reads-…](https://github.com/superdesigndev/treg/commit/1ff6d52cd2de9c37ad8ae47ebdeb67b160e9b26f) | WorksOnMyVM |
-| 2026-11-25 | [feat(db): let the background pool connect through a transaction-pooli…](https://github.com/superdesigndev/treg/commit/0eac2d2ad5a529221b2d94762add16e7bb04a050) | stonexer |
+| 2026-11-26 | [Merge pull request #2001 from superdesigndev/ci/postgres-main-suite](https://github.com/superdesigndev/treg/commit/5fb541be3a8023a77fcb6dfb4ddbe0a36bc790ba) | stonexer |
+| 2026-11-26 | [ci: run the whole suite on Postgres, split across two machines](https://github.com/superdesigndev/treg/commit/29cd995d9ce8c8e96c73dbae17ad317a031dae67) | stonexer |
+| 2026-11-26 | [test: pass on Postgres as well as SQLite](https://github.com/superdesigndev/treg/commit/0029169695b1826d4878fd2caf0f93a07f9b0229) | stonexer |
+| 2026-11-26 | [test(kv): set the allowance deadline on Redis's clock](https://github.com/superdesigndev/treg/commit/9e68bfc7b2c3b72e6e4f06be033a26c1da794b5d) | stonexer |
+| 2026-11-26 | [ci: run cli-go's Linux leg on the same runner as the test jobs](https://github.com/superdesigndev/treg/commit/558fc6d1e64ce5d1f58a4d17dea2a9f41d42c6e6) | stonexer |
+| 2026-11-26 | [ci: let a repository variable pick the runner for the test jobs](https://github.com/superdesigndev/treg/commit/3003d345a1f65b3fb282fd0a39f383779d7c27b1) | stonexer |
+| 2026-11-26 | [Merge pull request #2022 from superdesigndev/fix/v2-archive-reported-…](https://github.com/superdesigndev/treg/commit/e13af3ec3cda01ed5b5ec7fdc8a01a44ab3429cc) | shehjad-dev |
+| 2026-11-26 | [fix(archive): settle a hit from the reported-charge header stored wit…](https://github.com/superdesigndev/treg/commit/641eb5bd983896b6f5bcaddc2e2f4636eaefecb5) | shehjad-dev |
+| 2026-11-26 | [Merge pull request #2021 from superdesigndev/fix/archive-stats-flush-…](https://github.com/superdesigndev/treg/commit/03d4276d08d0bdfb56461a44b361bf849b99837f) | WorksOnMyVM |
+| 2026-11-26 | [fix(archive): bound the wait for a cancelled flush's endpoint transac…](https://github.com/superdesigndev/treg/commit/bcbcef5ac0a7bdf94f27bdcbbf7c3ac48e3a0895) | WorksOnMyVM |
 
 [See all commits ↗](https://github.com/superdesigndev/treg/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 60.7k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [847](https://github.com/MemPalace/mempalace/issues) |
+| 🐞 **Open issues + PRs** | [845](https://github.com/MemPalace/mempalace/issues) |
 | 💻 **Languages** | Python 94% · JavaScript 2% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `chromadb` `llm` `mcp` `memory` `python` |
-| 🕒 **Last activity** | 2026-11-23 (2d ago) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-04-05 |
 | 📦 **Latest release** | [v3.12.0](https://github.com/MemPalace/mempalace/releases/tag/v3.12.0) — 2026-11-12 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 33.5 MB |
+| 💾 **Size** | 33.8 MB |
 | 🌐 **Website** | http://mempalaceofficial.com/ |
 
 ## 📦 Recent releases
 
 ### [v3.12.0](https://github.com/MemPalace/mempalace/releases/tag/v3.12.0) — v3.12.0 — verbatim mining, recoverable writes
-<sub>2026-11-12 · 13d ago</sub>
+<sub>2026-11-12 · 14d ago</sub>
 
 > MemPalace 3.12 keeps source text and bytes intact, makes interrupted re-mines recoverable, and cuts the work needed to maintain large palaces. Timestamps and project wings now follow the same rules across tools and hooks. Antigravity gains a visual Palace explorer, and the final release review fixes graph identity collisions, concurrent checkpoint duplicates, document filtering, and newest-first pagination.
 > **Upgrade notes**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [Merge pull request #2533 from ariannamethod/fix/convo-source-snapshot](https://github.com/MemPalace/mempalace/commit/dfa318af2d41ad6c64fc3b08c28d16410c9b634b) | igorls |
-| 2026-11-23 | [Merge pull request #2436 from BuboTheWise/fix/2413-process-scoped-wri…](https://github.com/MemPalace/mempalace/commit/988bb9a4c783333550f1c3717c44e08af13ed7c3) | igorls |
-| 2026-11-23 | [Merge pull request #2507 from potterdigital/docs/macos-launchagent-pr…](https://github.com/MemPalace/mempalace/commit/f4b7fdea773e9a6fe2268a373344c9ea43166608) | igorls |
-| 2026-11-23 | [Merge pull request #3048 from jayzhou2309/fix/sqlite-exact-bulk-paren…](https://github.com/MemPalace/mempalace/commit/81b8153ebbe135917402097d0c9fadea669fd7b3) | igorls |
-| 2026-11-23 | [Merge pull request #3006 from MemPalace/dependabot/github_actions/act…](https://github.com/MemPalace/mempalace/commit/8eb77266b89be832b57581dbc5745dbe88125483) | igorls |
-| 2026-11-23 | [Merge pull request #3005 from MemPalace/dependabot/github_actions/doc…](https://github.com/MemPalace/mempalace/commit/16d13e4aec31de01ba072ef37f84217d1e264a3e) | igorls |
-| 2026-11-22 | [fix(sqlite_exact): join parent-key lookups with UNION ALL](https://github.com/MemPalace/mempalace/commit/d4a0bf808615e183aa7e26f337c3ec613c36f0b0) | jayzhou2309 |
-| 2026-11-22 | [fix(kg): harden KnowledgeGraph for multi-process SQLite access (#948)](https://github.com/MemPalace/mempalace/commit/b2ef8fed22f53b48acbda1ffebac040cb8a22f69) | felipecpaiva |
-| 2026-11-21 | [fix(test): update test for per-request lease lifecycle — address igor…](https://github.com/MemPalace/mempalace/commit/e739519191d46c0e3e74064dce6c39ff3f064fb6) | BuboTheWise |
-| 2026-11-20 | [fix(convos): bound source reads and preserve other wings during remine](https://github.com/MemPalace/mempalace/commit/daef478210496a4f1438db1f49e90ad4900ca43c) | ariannamethod |
+| 2026-11-26 | [Merge pull request #3038 from mfarzanansari/perf/startup-bytecode](https://github.com/MemPalace/mempalace/commit/87ae5024d8eef885536258f5cb74cc1de8dcf9fd) | igorls |
+| 2026-11-26 | [Merge pull request #2695 from hktitof/fix/chroma-lexical-reserved-met…](https://github.com/MemPalace/mempalace/commit/b87ecaa2d197dce33340d4057e6f2dd919d950f9) | igorls |
+| 2026-11-26 | [Merge pull request #3042 from nurlanmnn-open-source/fix-spellcheck-kn…](https://github.com/MemPalace/mempalace/commit/81b88ff1afb6ad786ef11a913157f2bbbb9f54b7) | igorls |
+| 2026-11-26 | [Merge pull request #3061 from mfarzanansari/perf/scoped-post-mine-int…](https://github.com/MemPalace/mempalace/commit/d9581c450e9ce546871717ee2a9d55bd6d235431) | igorls |
+| 2026-11-25 | [fix(repair): release this process's Chroma handles before the in-plac…](https://github.com/MemPalace/mempalace/commit/ea9853ade2e57ddc4862be84283cf9e61bd850fd) | igorls |
+| 2026-11-25 | [fix(integrity): watch the parent's process handle in the Windows heal…](https://github.com/MemPalace/mempalace/commit/0378ee26a5bd0057b573e6b0a4fc3015613cecc1) | igorls |
+| 2026-11-25 | [test(repair): keep the symlinked state-dir rebuild test meaningful wi…](https://github.com/MemPalace/mempalace/commit/43954067fa2d2c09bdb31da8a6c1b0568194a709) | igorls |
+| 2026-11-25 | [Merge branch 'develop' into perf/scoped-post-mine-integrity-check](https://github.com/MemPalace/mempalace/commit/daf42a29b04ee8a2cd87f5c7fecf9d92329fda04) | igorls |
+| 2026-11-25 | [Merge pull request #2973 from fede-ciliberti/fix/openai-compat-json-mode](https://github.com/MemPalace/mempalace/commit/7ea916dcf6c80490aeea8f4a732bb23344c10327) | igorls |
+| 2026-11-25 | [Merge pull request #3024 from mccalpink/fix/3018-mine-file-in-project…](https://github.com/MemPalace/mempalace/commit/6145418d43c808688e2019da3b1b2e439780386c) | igorls |
 
 [See all commits ↗](https://github.com/MemPalace/mempalace/commits)
 

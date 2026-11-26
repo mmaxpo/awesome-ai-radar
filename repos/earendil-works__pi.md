@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.8k |
+| ⭐ **Stars** | 124.0k |
 | 🍴 **Forks** | 16.0k |
-| 🐞 **Open issues + PRs** | [309](https://github.com/earendil-works/pi/issues) |
-| 💻 **Languages** | TypeScript 87% · HTML 10% · JavaScript 1% |
+| 🐞 **Open issues + PRs** | [310](https://github.com/earendil-works/pi/issues) |
+| 💻 **Languages** | TypeScript 88% · HTML 10% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-08-09 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/earendil-works/pi/releases/tag/v1.6.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 115.2 MB |
+| 💾 **Size** | 117.6 MB |
 
 ## 📦 Recent releases
 
 ### [v1.6.1](https://github.com/earendil-works/pi/releases/tag/v1.6.1)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **New Features**
 > - **Decision models in codemode**: GitHub Copilot's `gpt-6-luna-decisions` and Radius decision models can be called from codemode `models.classify()`, and results include the provider's `responseId`. See [Classify](https://github.com/earendil-works/pi/blob/v1.6.1/packages/coding-agent/docs/codemode.md#classify).
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.6.0](https://github.com/earendil-works/pi/releases/tag/v1.6.0)
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > **New Features**
 > - **GPT-6.2 Astra and GPT-6.2 Sol**: both models are available on the `openai`, `azure`, and `openai-codex` providers, and GPT-6.2 Sol is now the default model for all three. See [Providers](https://github.com/earendil-works/pi/blob/v1.6.0/packages/coding-agent/docs/providers.md).
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2)
-<sub>2026-11-10 · 15d ago</sub>
+<sub>2026-11-10 · 16d ago</sub>
 
 > **New Features**
 > - **Fork sessions whose folder is gone**: when a session's original folder was moved or deleted, you can now fork it into the current folder instead of only continuing, so later resumes no longer ask. See [Continue or switch sessions](https://github.com/earendil-works/pi/blob/v1.5.2/packages/coding-agent/docs/sessions.md#continue-or-switch-sessions).
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.5.1](https://github.com/earendil-works/pi/releases/tag/v1.5.1)
-<sub>2026-11-09 · 15d ago</sub>
+<sub>2026-11-09 · 16d ago</sub>
 
 > **New Features**
 > - **Shell login and logout**: use `pi auth login <provider>` and `pi auth logout <provider>` without starting a session, with API-key and no-browser sign-in options. See [Credential commands](https://github.com/earendil-works/pi/blob/v1.5.1/packages/coding-agent/docs/cli.md#credential-commands).
@@ -79,7 +79,7 @@
 > …
 
 ### [v1.5.0](https://github.com/earendil-works/pi/releases/tag/v1.5.0)
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **New Features**
 > - **Extension update changelogs**: see what changed in installed extension packages on the next fresh launch after an update. Package authors can choose the changelog path, and `collapseChangelog` condenses the notices. See [Show a changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/coding-agent/docs/packages.md#show-a-changelog).
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [fix(coding-agent,tui): name the configured keys in key hints (#12541)](https://github.com/earendil-works/pi/commit/b882d08f34f8a245c8d3ea8b057759e1b8b2054c) | petrroll |
-| 2026-11-25 | [fix(coding-agent): name the interrupt key in the ! command cancel hin…](https://github.com/earendil-works/pi/commit/745338811405a31831005300aedac173a512e0e4) | acmerfight |
-| 2026-11-25 | [fix(chord): wait for macOS file events to start in two plugins tests](https://github.com/earendil-works/pi/commit/e4cd354e6f3ce317a9dd4a8ab1dd4fb6500ebc98) | davidbrai |
-| 2026-11-25 | [fix(coding-agent): confirm the highlighted /llama search result after…](https://github.com/earendil-works/pi/commit/bfafd8ed5168bca1f1ca88ef0529cfd326664d16) | robopipi[bot] |
-| 2026-11-25 | [fix(p2, backups): stream to save server memory](https://github.com/earendil-works/pi/commit/2e4deff6b3b8e2317bd59b8f8ba96ac5f9b47f13) | cristinaponcela |
-| 2026-11-25 | [Add [Unreleased] section for next cycle](https://github.com/earendil-works/pi/commit/dbc8075abb0c1dc6da679c5bdbb730efc09a2cec) | davidbrai |
-| 2026-11-25 | [Release v1.6.1](https://github.com/earendil-works/pi/commit/ef4a1cfcca62b77ad3558337ff3e1c7f6beeadfe) | davidbrai |
-| 2026-11-25 | [feat(p3): export chord sync and add backup marker](https://github.com/earendil-works/pi/commit/7cf1443c1318fe670870fd342d24cbd23eba8cae) | cristinaponcela |
-| 2026-11-25 | [docs(coding-agent): audit changelog since v1.6.0, add New Features](https://github.com/earendil-works/pi/commit/ad403d7d3e5d6f2c24e961cfdbe758796ce44888) | davidbrai |
-| 2026-11-25 | [fix(coding-agent): make output file failure test independent of temp …](https://github.com/earendil-works/pi/commit/3511d455419e868faf76a71246add4f611d48c61) | davidbrai |
+| 2026-11-26 | [fix(coding-agent): do not count !! output in context token estimate (…](https://github.com/earendil-works/pi/commit/e73029b8e4f4394f9616ab4dc11a40e2c45ee7c2) | robopipi[bot] |
+| 2026-11-26 | [feat(p3): a session's worker turns its store's outbox on once it is b…](https://github.com/earendil-works/pi/commit/4cbbdbb32a26a36508569d7f80ede7cfb1476aad) | cristinaponcela |
+| 2026-11-26 | [feat(p3): backup settings: a default and each session's own choice (E…](https://github.com/earendil-works/pi/commit/ab58ca368b5c388d82c63189d4ce329626f0b7a1) | cristinaponcela |
+| 2026-11-26 | [feat(ai,coding-agent): add image generation options](https://github.com/earendil-works/pi/commit/c863bdf19c4b18af6491935248972e763e10ef33) | vegarsti |
+| 2026-11-26 | [feat(coding-agent): remove telemetry](https://github.com/earendil-works/pi/commit/484da3a8696b4726ddfe9677d3ba98bbd64b076c) | vegarsti |
+| 2026-11-26 | [docs(coding-agent): revert telemetry page (#12589)](https://github.com/earendil-works/pi/commit/bf3f6a2228710cf457604f74b0aceb7bcc8a6b9e) | christianklotz |
+| 2026-11-26 | [feat(p3): backup plugin contracts (ERNDL-1094)](https://github.com/earendil-works/pi/commit/6892095494a6eb44316d17b92a13e8527db31958) | cristinaponcela |
+| 2026-11-26 | [feat(chord,p3): switch a store's outbox at runtime; drop p3's backup …](https://github.com/earendil-works/pi/commit/e23f1932cad1d985051348ab7c02fddeaaec5f9f) | cristinaponcela |
+| 2026-11-26 | [fix(chord): remove finalizer timing from the grant-cache test](https://github.com/earendil-works/pi/commit/7d19cc3805a54ea01fe84d4d4b7768fd4307de09) | mitsuhiko |
+| 2026-11-26 | [docs(coding-agent): document telemetry and network requests (#12584)](https://github.com/earendil-works/pi/commit/524f015b3c951abc4b853ffe4ebd879a9aedd43f) | christianklotz |
 
 [See all commits ↗](https://github.com/earendil-works/pi/commits)
 

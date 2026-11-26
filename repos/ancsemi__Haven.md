@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 1.2k |
 | 🍴 **Forks** | 124 |
-| 🐞 **Open issues + PRs** | [33](https://github.com/ancsemi/Haven/issues) |
+| 🐞 **Open issues + PRs** | [13](https://github.com/ancsemi/Haven/issues) |
 | 💻 **Languages** | JavaScript 81% · HTML 10% · CSS 8% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `chat` `discord` `discord-alternative` `messaging` `privacy` `self-hosted` `selfhosted` `voice-chat` `docker` `homelab` `e2ee` `electron` `end-to-end-encryption` `group-chat` `screen-sharing` `self-hosting` `teamspeak` `video-chat` `webrtc` `discord-clone` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v4.30.0](https://github.com/ancsemi/Haven/releases/tag/v4.30.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.5 MB |
+| 💾 **Size** | 23.5 MB |
 | 🌐 **Website** | https://haven-app.com |
 
 ## 📦 Recent releases
 
 ### [v4.31.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.31.0-beta.1) — Haven 4.31.0-beta.1 _(pre-release)_
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > This is an early access build: new work that has not been through a stable release yet. Servers get it only with Settings > Admin > Early access updates switched on (Docker: the `:beta` image). Everything in stable 4.30.0 is included.
 > **Added**
@@ -47,7 +47,7 @@
 > …
 
 ### [v4.30.0](https://github.com/ancsemi/Haven/releases/tag/v4.30.0) — Haven 4.30.0
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Before you update**
 > - Only if you opted into the PostgreSQL preview: a preview database made with 4.29 is refused by 4.30 at startup. Start the preview on a fresh database. Servers on the normal built-in database are not affected.
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.30.0-beta.3](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.3) — Haven 4.30.0-beta.3 _(pre-release)_
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.2:
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.30.0-beta.2](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.2) — Haven 4.30.0-beta.2 _(pre-release)_
-<sub>2026-11-16 · 9d ago</sub>
+<sub>2026-11-16 · 10d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > New since 4.30.0-beta.1:
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.30.0-beta.1](https://github.com/ancsemi/Haven/releases/tag/v4.30.0-beta.1) — Haven 4.30.0-beta.1 _(pre-release)_
-<sub>2026-11-15 · 10d ago</sub>
+<sub>2026-11-15 · 11d ago</sub>
 
 > Early access release. Servers on the early access channel (Settings > Admin > "Early access updates") and the Docker `:beta` image get it; everyone else stays on 4.29.0 until the next stable.
 > It has everything in 4.29.0, plus these, which are not in a stable yet:
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Show offline people as offline, not idle, in the pop-out DM and profi…](https://github.com/ancsemi/Haven/commit/bde0156c4e3a0662e7f6f191c8849097cbfa79e9) | ancsemi |
-| 2026-11-23 | [Release 4.31.0-beta.1](https://github.com/ancsemi/Haven/commit/195164a8152458bb23075ccbb2ee4b761468d7e8) | ancsemi |
-| 2026-11-23 | [Website and changelog for 4.30.0 and Desktop 1.9.0](https://github.com/ancsemi/Haven/commit/490f0a54bd90fe317e0fe3b8219fa6c6b619cdd6) | ancsemi |
-| 2026-11-23 | [Let the Private conversation tag shrink on phones](https://github.com/ancsemi/Haven/commit/6083ce6d3f0aa5e554e713aa70829b1e31016333) | ancsemi |
-| 2026-11-23 | [List only channel members to someone who can only remove](https://github.com/ancsemi/Haven/commit/228812f1009023183c4c0eda25edf14753691690) | ancsemi |
-| 2026-11-23 | [Cover the hidden-text default in the bot push test](https://github.com/ancsemi/Haven/commit/7c6f6d4f968b0162a7c651a3462f9a0a15089afa) | ancsemi |
-| 2026-11-23 | [Hide members from people without View Channel Members (#5931)](https://github.com/ancsemi/Haven/commit/2503d3f0533dcb0a6884627124b5aabc09965d20) | ancsemi |
-| 2026-11-23 | [Hide message text in pushes to older apps by default](https://github.com/ancsemi/Haven/commit/6edb726912bdc492e23ba45438e5eecce299313d) | ancsemi |
-| 2026-11-23 | [Only the admin changes single sign-on settings](https://github.com/ancsemi/Haven/commit/1557aca3d34e10bbba600f08cdb4c2b7ea33faa9) | ancsemi |
-| 2026-11-23 | [Keep server icons in place when switching servers (#5933)](https://github.com/ancsemi/Haven/commit/b99056ce3283dff8063c2f15fd5112dae2354623) | ancsemi |
+| 2026-11-25 | [Name the bot on its form and keep invisible characters out of form te…](https://github.com/ancsemi/Haven/commit/f8c1b13acfdbcdf870520f5ecd72ed792e23d27f) | ancsemi |
+| 2026-11-25 | [Let members arrange the Focus Classic rail and add shortcuts such as …](https://github.com/ancsemi/Haven/commit/abd1c65ae0df782cc78a6843175cfc11abe7b6c6) | Amnibro |
+| 2026-11-25 | [[feat] Bot text input forms (#5935)](https://github.com/ancsemi/Haven/commit/1087c27e98b15fd39d701b89a1f609f207ad2418) | Bo0sted |
+| 2026-11-25 | [Keep room for the current server's ring in the Focus Classic rail; ch…](https://github.com/ancsemi/Haven/commit/3a97fd122d99880a2ee7cad16c7b465539299f2b) | ancsemi |
+| 2026-11-25 | [Postgres progress (#5934)](https://github.com/ancsemi/Haven/commit/cbf1305750589d0bd8fbcdc9d847f62be2448c14) | Slyke |
+| 2026-11-25 | [Remove the Focus carousel and let an admin's default layout reach mem…](https://github.com/ancsemi/Haven/commit/60cb695ef6c9a74ed1407a5c34d658f849c709eb) | Amnibro |
+| 2026-11-25 | [Hold calendar events to the posting rules and refuse merging a calend…](https://github.com/ancsemi/Haven/commit/66184480c9db31adde0fcd2310e60d25fb3d17fe) | ancsemi |
+| 2026-11-25 | [Calendar channels: a month of events with RSVPs (#5953)](https://github.com/ancsemi/Haven/commit/5fb128939e1d745cf1dc4b4b4c6653b9dcbbf50e) | Amnibro |
+| 2026-11-25 | [Escape the member's name in the devices button tooltip (#5942)](https://github.com/ancsemi/Haven/commit/9184b02703d44769ca33c3b153c375b779a9ad20) | ancsemi |
+| 2026-11-25 | [Only the admin sets a channel's default notification level (#5938)](https://github.com/ancsemi/Haven/commit/439143f4e3ab0208fb0da21d77533e986c439743) | ancsemi |
 
 [See all commits ↗](https://github.com/ancsemi/Haven/commits)
 

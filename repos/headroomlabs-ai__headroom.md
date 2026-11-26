@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.8k |
-| 🍴 **Forks** | 6.3k |
-| 🐞 **Open issues + PRs** | [334](https://github.com/headroomlabs-ai/headroom/issues) |
+| ⭐ **Stars** | 80.9k |
+| 🍴 **Forks** | 6.4k |
+| 🐞 **Open issues + PRs** | [333](https://github.com/headroomlabs-ai/headroom/issues) |
 | 💻 **Languages** | Python 81% · Rust 12% · JavaScript 3% · TypeScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `ai` `anthropic` `compression` `context-engineering` `context-window` `fastapi` `langchain` `llm` `mcp` `openai` `proxy` `python` `rag` `token-optimization` `claude-code` `cursor` `prompt-engineering` `tokens` `typescript` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-01-07 |
 | 📦 **Latest release** | [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 106.5 MB |
+| 💾 **Size** | 107.3 MB |
 | 🌐 **Website** | https://docs.headroomlabs.ai/docs |
 
 ## 📦 Recent releases
 
 ### [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — Release v0.45.0
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > **[0.45.0](https://github.com/headroomlabs-ai/headroom/compare/v0.44.0...v0.45.0) (2026-11-22)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) — Release v0.44.0
-<sub>2026-11-10 · 15d ago</sub>
+<sub>2026-11-10 · 16d ago</sub>
 
 > **[0.44.0](https://github.com/headroomlabs-ai/headroom/compare/v0.43.1...v0.44.0) (2026-11-09)**
 > **⚠ BREAKING CHANGES**
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.43.1](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.1) — Release v0.43.1
-<sub>2026-11-05 · 19d ago</sub>
+<sub>2026-11-05 · 20d ago</sub>
 
 > **[0.43.1](https://github.com/headroomlabs-ai/headroom/compare/v0.43.0...v0.43.1) (2026-11-05)**
 > **Bug Fixes**
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.0) — Release v0.43.0
-<sub>2026-11-05 · 19d ago</sub>
+<sub>2026-11-05 · 20d ago</sub>
 
 > **[0.43.0](https://github.com/headroomlabs-ai/headroom/compare/v0.42.0...v0.43.0) (2026-11-05)**
 > **⚠ BREAKING CHANGES**
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.42.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.42.0) — Release v0.42.0
-<sub>2026-10-26 · 29d ago</sub>
+<sub>2026-10-26 · 1mo ago</sub>
 
 > **[0.42.0](https://github.com/headroomlabs-ai/headroom/compare/v0.41.0...v0.42.0) (2026-10-26)**
 > **Features**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [feat(release): define versioned policy contracts (#3637)](https://github.com/headroomlabs-ai/headroom/commit/234c233cc439aedba53b242f02f695de5f90c877) | JerrettDavis |
-| 2026-11-24 | [fix(savings): don't double-charge inferred cache writes in lifetime i…](https://github.com/headroomlabs-ai/headroom/commit/df4477f2753afc65528d2560429a62d33a730d26) | Totopo27 |
-| 2026-11-24 | [fix(proxy): log peer close codes for Responses WebSockets (#4978)](https://github.com/headroomlabs-ai/headroom/commit/c489b5f8fe57b42b17f810ef5e9e65ede298947c) | emme1t |
-| 2026-11-24 | [fix(code-compressor): don't blame the compressor or trip the breaker …](https://github.com/headroomlabs-ai/headroom/commit/d2d4e0e6f37ee06fb9609e4d663bc773e046dfa7) | KennethWKZ |
-| 2026-11-24 | [fix(content-router): treat unparseable JSON as nothing to minify afte…](https://github.com/headroomlabs-ai/headroom/commit/8eedfc686baf0bcb37d278ba62324ac8ad93ab30) | KennethWKZ |
-| 2026-11-24 | [fix(tool-search): treat Claude Code's ToolSearch as the resolver for …](https://github.com/headroomlabs-ai/headroom/commit/2c17627e03a67945b35d11eb2a5289276646d889) | KennethWKZ |
-| 2026-11-24 | [fix(proxy): bucket invalid model keys into "other" in requests_by_mod…](https://github.com/headroomlabs-ai/headroom/commit/ae9d45875b418eec51b8d8e024265b03ad710ead) | PCTEJA |
-| 2026-11-24 | [fix(proxy): skip a leading UTF-8 BOM when reconstructing closed SSE (…](https://github.com/headroomlabs-ai/headroom/commit/f21327105ae8843828b5733fb25f1179a0a3ca37) | Mystery01092000 |
-| 2026-11-24 | [deps: Bump the cargo-minor-patch group across 1 directory with 10 upd…](https://github.com/headroomlabs-ai/headroom/commit/8c206ddf53c89424a84ad5e308d87c9d769e6aef) | dependabot[bot] |
-| 2026-11-24 | [test(proxy): require no allow-origin header for rejected CORS origins…](https://github.com/headroomlabs-ai/headroom/commit/87b56ce1fb6de5fa1520ffb7d093b4de13498854) | chopratejas |
+| 2026-11-26 | [fix(memory): preserve YAML string metadata in agent files (#5046)](https://github.com/headroomlabs-ai/headroom/commit/c9d7eae7e6254ff9864f1c1bd505ae1e37adca31) | stefanielizeth73-art |
+| 2026-11-26 | [fix(sdk): preserve compact server-sent event data fields (#5009)](https://github.com/headroomlabs-ai/headroom/commit/5d3f8560e9fa97ecd81814b0d014fd22b239ed08) | DivyamTalwar |
+| 2026-11-26 | [fix(asgi): update content length after request compression (#5007)](https://github.com/headroomlabs-ai/headroom/commit/b9cf195acbcb30473699a206c8fed959531acedd) | DivyamTalwar |
+| 2026-11-26 | [fix(learn): read list tool results as their text (#4969)](https://github.com/headroomlabs-ai/headroom/commit/747e499bd4758bcb7f892cf7dccf51ae79d425a4) | chuenchen309 |
+| 2026-11-26 | [fix(learn): pair parallel Gemini calls to the same tool with their ow…](https://github.com/headroomlabs-ai/headroom/commit/0fbe8e87a085497e6d108169edf3cb6df7ba7036) | nurlanmnn |
+| 2026-11-26 | [fix(security): pin HuggingFace model revisions in from_pretrained / h…](https://github.com/headroomlabs-ai/headroom/commit/4571390681b1763a390166d607a7fb7a1a735d24) | Parideboy |
+| 2026-11-25 | [fix(rust): emit a function-body row shared by two statements once (#4…](https://github.com/headroomlabs-ai/headroom/commit/98ba445ddd7e1cfd021f443eb96e3b8550a17443) | divya0795 |
+| 2026-11-25 | [fix(proxy): forward Gemini batch polls to /v1beta/batches/<id> instea…](https://github.com/headroomlabs-ai/headroom/commit/de9915f2487829e933d1c6d4fb5a7beae1a6d8a5) | coder-abu |
+| 2026-11-25 | [fix(ccr): count per-result continuation rounds in batch results (#5043)](https://github.com/headroomlabs-ai/headroom/commit/d2014cb948d27bd9d411b147a6d203363f70b912) | 123XieC |
+| 2026-11-25 | [fix(ccr): replay captured system prompt in Anthropic continuations (#…](https://github.com/headroomlabs-ai/headroom/commit/6f9291f7a6a38a9fbc6fff4c72af72182193f3e5) | helmipradita |
 
 [See all commits ↗](https://github.com/headroomlabs-ai/headroom/commits)
 

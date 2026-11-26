@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 25.5k |
+| ⭐ **Stars** | 25.6k |
 | 🍴 **Forks** | 2.7k |
 | 🐞 **Open issues + PRs** | [1](https://github.com/letta-ai/letta/issues) |
 | 💻 **Languages** | — |
@@ -71,7 +71,7 @@
 > **Full Changelog**: https://github.com/letta-ai/letta/compare/0.16.4...0.16.5
 
 ### [0.16.4](https://github.com/letta-ai/letta/releases/tag/0.16.4) — v0.16.4
-<sub>2026-01-29 · 9mo ago</sub>
+<sub>2026-01-29 · 10mo ago</sub>
 
 > **What's Changed**
 > * fix: update gh templates by @cpacker in https://github.com/letta-ai/letta/pull/3155

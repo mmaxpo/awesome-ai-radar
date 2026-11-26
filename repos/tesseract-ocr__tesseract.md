@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 77.7k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [490](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [485](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2014-08-12 |
 | 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 28d ago</sub>
+<sub>2026-10-28 · 29d ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Improve the estimation of bold for words recognized by LSTM](https://github.com/tesseract-ocr/tesseract/commit/ba7d34113947d343fd766773bb365922afda7e6e) | stweil |
-| 2026-11-24 | [Estimate font styles for rotated and vertical text](https://github.com/tesseract-ocr/tesseract/commit/102fc24e8dc461a2b490f85ff0b3aab5f63da310) | stweil |
-| 2026-11-24 | [Ignore specks of noise in the font style estimation](https://github.com/tesseract-ocr/tesseract/commit/d15290320d412d374914944a423c566314b6a4cf) | stweil |
-| 2026-11-24 | [Estimate bold and italic for words recognized by LSTM](https://github.com/tesseract-ocr/tesseract/commit/bc852c4265edef3e6ece70266a534e06f0de4e3e) | stweil |
-| 2026-11-24 | [Write font attributes in ALTO and PAGE output](https://github.com/tesseract-ocr/tesseract/commit/f4cb819ad546396a68d49a1b2ffa0eb3f74af275) | stweil |
-| 2026-11-24 | [Fix crash when training continues with a new character set](https://github.com/tesseract-ocr/tesseract/commit/d16a3ecc463528f620234e2702d64963b0f1a691) | stweil |
-| 2026-11-24 | [Fix IsSpaceDelimited for characters with the null script](https://github.com/tesseract-ocr/tesseract/commit/f16443b8a572c1692e4078587023d20a93cbc184) | stweil |
-| 2026-11-23 | [Don't write an empty reading order in PAGE output](https://github.com/tesseract-ocr/tesseract/commit/69031805b0bf465468ead416d29753defdf397d0) | stweil |
-| 2026-11-23 | [Don't write a baseline for words in PAGE output](https://github.com/tesseract-ocr/tesseract/commit/26228d001e6686bdf5cffbb420d750d186ff7d4c) | stweil |
-| 2026-11-23 | [README.md: Update the 'Dependencies' section](https://github.com/tesseract-ocr/tesseract/commit/a68ecf772b265456dd04d82123ec9a7bb10aeabe) | amitdo |
+| 2026-11-26 | [Recognize small words between lines of very large text](https://github.com/tesseract-ocr/tesseract/commit/dd8e2e48b5c0a84586e459b77321e6d1776ea5c6) | stweil |
+| 2026-11-26 | [Don't clip the pixels of the image for int models](https://github.com/tesseract-ocr/tesseract/commit/4076ec73d25231be52e00c5f9a78fde2942dcb32) | stweil |
+| 2026-11-26 | [Find underlined words recognized by LSTM](https://github.com/tesseract-ocr/tesseract/commit/83a92b255cdf428aaff75a872513b0502f7095fd) | stweil |
+| 2026-11-26 | [Fix memory leak in MakeRowFromSubBlobs](https://github.com/tesseract-ocr/tesseract/commit/8fa860605c0e7a12775917b4d85b2125b2d0d37a) | stweil |
+| 2026-11-26 | [Merge the partitions of a table in pairs](https://github.com/tesseract-ocr/tesseract/commit/5ff9208fc74491c452c0c039c4b15eeac6871b06) | stweil |
+| 2026-11-26 | [Don't reject a row made from two columns as noise](https://github.com/tesseract-ocr/tesseract/commit/cc187a7e514096773790e7348fe243dc0f1a1fa1) | stweil |
+| 2026-11-26 | [Find text lines which touch the edge of the image](https://github.com/tesseract-ocr/tesseract/commit/15579145177d373fac45db4b33b6feee800eb769) | stweil |
+| 2026-11-26 | [Don't count leaders as image neighbours of text](https://github.com/tesseract-ocr/tesseract/commit/c90c2199d8e8f0e0b3450b56c0e67ef394787ef0) | stweil |
+| 2026-11-26 | [Don't let an image take text which is not on its pixels](https://github.com/tesseract-ocr/tesseract/commit/2e47824e9122c201f2a766889e2dcbe4965058d8) | stweil |
+| 2026-11-25 | [Restart rows and paragraphs from the current block](https://github.com/tesseract-ocr/tesseract/commit/3a260247375f091625378cd099713f7a4bf0e4d7) | ilkecan |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 

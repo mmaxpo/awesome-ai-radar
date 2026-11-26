@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 43.3k |
-| 🍴 **Forks** | 6.3k |
+| 🍴 **Forks** | 6.4k |
 | 🐞 **Open issues + PRs** | [1.9k](https://github.com/agno-agi/agno/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 332.4 MB |
+| 💾 **Size** | 332.7 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1)
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · 12d ago</sub>
+<sub>2026-11-12 · 13d ago</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 27d ago</sub>
+<sub>2026-10-29 · 28d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 28d ago</sub>
+<sub>2026-10-27 · 29d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [feat: show the Company file system on the File System page (#11860)](https://github.com/agno-agi/agno/commit/e58381bc1d795840fc06fb11d30fa6a1994cdd94) | ashpreetbedi |
+| 2026-11-26 | [feat: make Company one file system (#11854)](https://github.com/agno-agi/agno/commit/37ab1ee863289caa84920ac70687b651dbfd33f1) | ashpreetbedi |
+| 2026-11-26 | [feat: describe each file system an agent holds (#11895)](https://github.com/agno-agi/agno/commit/ff145fbdf2f4c54fe08389049b87129fe74fe9cd) | ashpreetbedi |
+| 2026-11-25 | [refactor: rename Company Product to Goal (#11852)](https://github.com/agno-agi/agno/commit/bb04b0dbb5dd2e83b1ff00a0588b4cb7ffe66f2c) | ashpreetbedi |
+| 2026-11-25 | [feat: declare file systems on AgentOS (#11851)](https://github.com/agno-agi/agno/commit/9ea60e7900a65d153f96407d4fedad442fc7fd22) | ashpreetbedi |
 | 2026-11-25 | [feat: accept several comma-separated keys in JWT_VERIFICATION_KEY (#1…](https://github.com/agno-agi/agno/commit/ad3099f8564da68e0ce6625ce2335c3e3ff44817) | ashpreetbedi |
 | 2026-11-24 | [[fix] Honor zero result limits in core knowledge searches (#10778)](https://github.com/agno-agi/agno/commit/bd24f44997b3cc86b3cfa9f6608bacc0353c601f) | FanouZeng-TT |
 | 2026-11-24 | [[fix] Quote CSV query result fields and headers (#10681)](https://github.com/agno-agi/agno/commit/471f930b2eff3f96aedd45065eab00e9aeceb3f5) | Xuxchloris |
 | 2026-11-24 | [fix: read the video id from youtu.be, shorts, embed and live links (#…](https://github.com/agno-agi/agno/commit/63a5a0f92dcb3ebacaf38fe2b8c6aeee52b0d071) | DZH166 |
 | 2026-11-24 | [[fix] Gemini: pass image bytes to Part.from_bytes instead of a base64…](https://github.com/agno-agi/agno/commit/eb30cccc389fb16a56e8db3473adf51c05ee8ab4) | HardMax71 |
-| 2026-11-24 | [[fix] Deduplicate llms.txt pages before applying the URL limit (#10671)](https://github.com/agno-agi/agno/commit/463e26d7c6c02a2238992b0a7caaba1949ec1696) | lakers-abing |
-| 2026-11-24 | [chore: bump pyjwt to 2.15.1 in cookbook lockfiles (#10680)](https://github.com/agno-agi/agno/commit/ef5392390728d57637f8bd7d62122309ab4380bf) | katsugtgz |
-| 2026-11-24 | [[fix] Count source pages toward web search result limit (#10678)](https://github.com/agno-agi/agno/commit/31dcf2ea387e448b7f3cab57e88e62a3fba56b6f) | lakers-abing |
-| 2026-11-24 | [fix: reject a non-positive page size in CSVReader.async_read (#11829)](https://github.com/agno-agi/agno/commit/7915ddeead5f35a8fc5c1550a6c18e1311430e32) | DZH166 |
-| 2026-11-24 | [fix: drop failed table from MetaData on MySQL and SQLite retry  (#11846)](https://github.com/agno-agi/agno/commit/2667dc4c0e02c9b65f2f1ff3c31dedbefa9aac48) | shotsan |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

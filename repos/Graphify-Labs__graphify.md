@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 153.2k |
-| 🍴 **Forks** | 14.7k |
-| 🐞 **Open issues + PRs** | [1.7k](https://github.com/Graphify-Labs/graphify/issues) |
+| ⭐ **Stars** | 153.7k |
+| 🍴 **Forks** | 14.8k |
+| 🐞 **Open issues + PRs** | [1.8k](https://github.com/Graphify-Labs/graphify/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `claude-code` `graphrag` `knowledge-graph` `codex` `openclaw` `skills` `antigravity` `gemini` `leiden` `rag` `tree-sitter` `ai-agents` `ast` `code-analysis` `code-search` `cursor` `developer-tools` `llm` `mcp` `graphify` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-25 (yesterday) |
 | 📅 **Created** | 2026-04-03 |
 | 📦 **Latest release** | [v0.9.120](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.120) — 2026-11-25 |
 | 🌿 **Default branch** | `v8` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.9.120](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.120)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > A batch of resolution, serve, export, clustering and performance fixes across nine community pull requests. The Python function-local-import change alters node/edge output, so the AST cache schema bumps (55 to 56) and Python re-extracts on the first build after upgrading; the other fixes need no rebuild.
 > - Feat: **serve** a new `affected` MCP tool reports the reverse-dependency blast radius of a symbol (what breaks if you change it), and `query_graph` gains an optional `seeds` argument to start a traversal from known nodes; both resolve a node by name, file path, or id the same way the CLI does (#5254, thanks @ArnabOPP; proposed by @ramarro123).
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.9.118](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.118)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > A batch of extractor, resolution, serve, export, clustering and reporting fixes across fourteen community pull requests. The Objective-C, C and C# changes alter node/edge output, so the AST cache schema bumps (51 to 53) and the first build after upgrading re-extracts the affected languages; the other fixes need no rebuild.
 > - Fix: **csharp** a local, parameter or field named `partial`, `required`, `async`, `nint`, `nuint` or `with` (contextual keywords) that tree-sitter-c-sharp mis-parses where a statement starts with it no longer derails the file; it is rewritten to its verbatim `@name` form before parsing (byte-length preserving), so the enclosing type and the members after it are kept instead of being silently dropped (#5043, thanks @ThatAblaze).
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.9.115](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.115)
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > Security fix for a forced-SMB-authentication issue on Windows (GHSA-g6c9-j4vm-mwq4), plus a batch of extractor, resolution and incremental-update fixes. The extractor fixes that change output share one AST cache schema bump (50 → 51), so the first build after upgrading re-extracts the affected languages.
 > **Security**
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.9.114](https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.114) — graphify 0.9.114
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > Performance work on the extract/build/update pipeline, plus a batch of extractor and build fixes. Every entry marked Perf preserves graph output exactly (byte-identical); the extractor fixes change output and share one AST cache schema bump (see the note at the end).
 > - Perf: **ids** `normalize_id` gets an ASCII fast-path, pre-compiled regexes and an LRU cache, so the common (ASCII, repeated) identifier case skips the Unicode normalization loop. ~1.26x on the compute path and a large win on repeated ids, which recurs heavily across a corpus.

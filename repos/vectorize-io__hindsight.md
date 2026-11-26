@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 63.3k |
+| ⭐ **Stars** | 63.6k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [169](https://github.com/vectorize-io/hindsight/issues) |
+| 🐞 **Open issues + PRs** | [148](https://github.com/vectorize-io/hindsight/issues) |
 | 💻 **Languages** | Python 69% · TypeScript 16% · MDX 11% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-10-30 |
 | 📦 **Latest release** | [v1.3.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.3.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 841.4 MB |
+| 💾 **Size** | 841.5 MB |
 | 🌐 **Website** | https://hindsight.vectorize.io/ |
 
 ## 📦 Recent releases
 
 ### [v1.3.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.3.0)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > **What's Changed**
 > * docs: changelog for v1.2.3 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6714
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3)
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.2.2 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6678
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.2.2](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.2)
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **What's Changed**
 > * test(llm): fix the two-user-turns tests broken by the tool-call retry by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6492
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1)
-<sub>2026-11-10 · 15d ago</sub>
+<sub>2026-11-10 · 16d ago</sub>
 
 > **What's Changed**
 > * docs drop 0.9 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6284
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 22d ago</sub>
+<sub>2026-11-03 · 23d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [fix(pg0): an instance another process already started is used, not a …](https://github.com/vectorize-io/hindsight/commit/61c01ecbec8026858feac51caf5a818741cdbf42) | nicoloboschi |
-| 2026-11-25 | [fix(dry-run): ignore the deprecated agent_name so the dry run builds …](https://github.com/vectorize-io/hindsight/commit/c494ba4d29a14230e5c034ab05cba9150d968a35) | nicoloboschi |
-| 2026-11-25 | [chore(github): delete labels outside a fixed allowlist (#6894)](https://github.com/vectorize-io/hindsight/commit/65f6e3b694247868811423ce47c5277cc8346557) | nicoloboschi |
-| 2026-11-25 | [feat(hermes): tell the model to store corrections when a memory is wr…](https://github.com/vectorize-io/hindsight/commit/bd816192f0351802de9489984ffb6c14be9da907) | nicoloboschi |
-| 2026-11-25 | [feat(hermes): per-chat settings with a chats map, {chat}/{thread} pla…](https://github.com/vectorize-io/hindsight/commit/7b027d5b038a1431f2206d95652feafcaf835947) | nicoloboschi |
-| 2026-11-25 | [release(openclaw): v1.2.3](https://github.com/vectorize-io/hindsight/commit/b9b4c36d699a07934a77494ba21de46bc56aa6e9) | nicoloboschi |
-| 2026-11-25 | [feat(hermes): page tools (search, read, list; create opt-in) (#6897)](https://github.com/vectorize-io/hindsight/commit/bfd9c57a367c006404da8a081b84ccbd6f50fe34) | nicoloboschi |
-| 2026-11-25 | [fix(hooks): resolve python once in generate-docs-skill.sh (#6898)](https://github.com/vectorize-io/hindsight/commit/0e4cf230ce7322940e17014a9020b19b9ced58f8) | nicoloboschi |
-| 2026-11-25 | [fix(openclaw): wizard takes the memory slot; npm: install on OpenClaw…](https://github.com/vectorize-io/hindsight/commit/6ef019d6f28be1fd696e922017c0a276b8004fd8) | nicoloboschi |
-| 2026-11-25 | [fix(hermes): label turns written by another agent; exclude tags from …](https://github.com/vectorize-io/hindsight/commit/2a06f05582222b35c0eb5979d86ee125cedc1817) | nicoloboschi |
+| 2026-11-26 | [docs(blog): what's new in the Hindsight Hermes plugin 2.0.0 (#6925)](https://github.com/vectorize-io/hindsight/commit/47831d5c39010a5c30e9ac2aa16145f7048e930f) | nicoloboschi |
+| 2026-11-26 | [release(hermes): v2.0.0](https://github.com/vectorize-io/hindsight/commit/0aca9f80ec87237756c445ac27bf9e5affdc67fe) | nicoloboschi |
+| 2026-11-26 | [fix(knowledge): audio/video ingest works with PyAV 19 (#6921) (#6947)](https://github.com/vectorize-io/hindsight/commit/720ba345437a8c434084c46b1c623e27e4cfec80) | nicoloboschi |
+| 2026-11-26 | [fix(coding-agents): support Prime Agent 0.10+ (Rust rewrite), drop 0.…](https://github.com/vectorize-io/hindsight/commit/22cff88f1e64feea8bae90249fc5a8df88ae0413) | nicoloboschi |
+| 2026-11-26 | [fix(coding-agents): injected text follows the config and stops repeat…](https://github.com/vectorize-io/hindsight/commit/e09735ad0d1a6aff59386169d662b0d3b70db95b) | nicoloboschi |
+| 2026-11-26 | [fix(coding-agents): inject Antigravity recall as systemMessage, not d…](https://github.com/vectorize-io/hindsight/commit/53e0f48a6707c90e2f2ab542a29de42c7fa0c998) | nicoloboschi |
+| 2026-11-26 | [fix(coding-agents): Bun-hosted plugin fixes — write-back after compac…](https://github.com/vectorize-io/hindsight/commit/b77a1453986c4a06f031e957489b26c97bd3674b) | nicoloboschi |
+| 2026-11-26 | [fix(coding-agents): a forked Claude Code session no longer re-saves i…](https://github.com/vectorize-io/hindsight/commit/937cacc48cffd58219ae235690cc3f75c5e4c66d) | nicoloboschi |
+| 2026-11-26 | [feat(system-evals): Hermes evals — a real Hermes Agent, every default…](https://github.com/vectorize-io/hindsight/commit/93deb09396471f384f5f48befcfc04c2ff3ea70b) | nicoloboschi |
+| 2026-11-26 | [fix(coding-agents): Codex reader memory, Kimi session index, DSH v4 i…](https://github.com/vectorize-io/hindsight/commit/63d08b0cc571305eb0ccc9d8e1d17694fa54ac36) | nicoloboschi |
 
 [See all commits ↗](https://github.com/vectorize-io/hindsight/commits)
 

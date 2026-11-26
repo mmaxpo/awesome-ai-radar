@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 53.4k |
+| ⭐ **Stars** | 53.6k |
 | 🍴 **Forks** | 6.5k |
-| 🐞 **Open issues + PRs** | [235](https://github.com/JustVugg/colibri/issues) |
+| 🐞 **Open issues + PRs** | [127](https://github.com/JustVugg/colibri/issues) |
 | 💻 **Languages** | C 55% · Python 30% · Cuda 7% · HTML 3% · Shell 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-07-01 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/JustVugg/colibri/releases/tag/v2.2.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 61.3 MB |
+| 💾 **Size** | 58.4 MB |
 | 🌐 **Website** | https://justvugg.github.io/colibri |
 
 ## 📦 Recent releases
 
 ### [v2.2.0](https://github.com/JustVugg/colibri/releases/tag/v2.2.0) — colibri v2.2.0
-<sub>2026-11-22 · 2d ago</sub>
+<sub>2026-11-22 · 3d ago</sub>
 
 > colibri 2.2.0: everything since 2.1.0 (2026-10-31). The full list is in [CHANGELOG.md](https://github.com/JustVugg/colibri/blob/v2.2.0/CHANGELOG.md).
 > **New models**
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.1.0](https://github.com/JustVugg/colibri/releases/tag/v2.1.0) — colibri v2.1.0
-<sub>2026-10-31 · 25d ago</sub>
+<sub>2026-10-31 · 26d ago</sub>
 
 > **Huge open models on the machine you already have**: on the CPU, on any GPU through Vulkan, on NVIDIA cards through CUDA. Pure C, one file per model family.
 > 387 pull requests since v2.0.0, 208 of them from 35 contributors. GGUF files now run natively on every engine, read exactly as published. Four new models arrive, Mistral-Large-4 (1T) among them. CUDA gets device chains of its own and a routed-expert tier for every engine. Qwen3.8-Flash-Next runs a 256k context at the speed of 64k, an agent's turns read only what is new, and there is a new chat UI.

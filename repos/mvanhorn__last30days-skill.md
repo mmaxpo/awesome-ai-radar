@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 74.9k |
-| 🍴 **Forks** | 6.6k |
-| 🐞 **Open issues + PRs** | [31](https://github.com/mvanhorn/last30days-skill/issues) |
+| ⭐ **Stars** | 75.5k |
+| 🍴 **Forks** | 6.7k |
+| 🐞 **Open issues + PRs** | [33](https://github.com/mvanhorn/last30days-skill/issues) |
 | 💻 **Languages** | Python 96% · HTML 2% · Go 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `reddit` `twitter` `polymarket` `youtube` `instagram` `tiktok` `agent-skills` `artificial-intelligence` `bot` `command-line` `data-science` `dsh-plugin` `golang` `llms` `nlp` `osint` `python3` `dsh` `automation` `terminal` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-01-23 |
 | 📦 **Latest release** | [v4.6.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 57.8 MB |
+| 💾 **Size** | 57.9 MB |
 
 ## 📦 Recent releases
 
 ### [v4.6.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0)
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > **What's Changed**
 > * fix(comments): spend TikTok and Instagram comment calls on posts the report keeps by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1554
@@ -46,7 +46,7 @@
 > …
 
 ### [v4.5.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.5.0)
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > **What's Changed**
 > * fix(reddit): unpack all three results in attach_comments by @itzzdev09 in https://github.com/mvanhorn/last30days-skill/pull/1548
@@ -57,7 +57,7 @@
 > …
 
 ### [v4.4.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.4.0)
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > **What's Changed**
 > * fix(watchlist): pass scheduled topics as literal research text by @iliaal in https://github.com/mvanhorn/last30days-skill/pull/1514
@@ -68,7 +68,7 @@
 > …
 
 ### [v4.3.2](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.2)
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **What's Changed**
 > * docs: add Persian (Farsi) README translation by @abbasi0abolfazl in https://github.com/mvanhorn/last30days-skill/pull/1503
@@ -92,16 +92,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [fix(watchlist): alert on first sightings per topic (#1624)](https://github.com/mvanhorn/last30days-skill/commit/ed7ec6752b766ea3eb62239b374900764e9b5453) | FayezBast |
+| 2026-11-25 | [fix(skill): fit frontmatter description in the 60-char routing index …](https://github.com/mvanhorn/last30days-skill/commit/1ef7d73597221b2f9c8740e8fd84cce14641d231) | fabioluissilva |
+| 2026-11-25 | [fix(github): count open PRs correctly in person reports (#1625)](https://github.com/mvanhorn/last30days-skill/commit/77e0dd82ccd5661864e8844535b9681e0849ac39) | FayezBast |
+| 2026-11-25 | [fix: keep usable subqueries from malformed provider plans (#1619)](https://github.com/mvanhorn/last30days-skill/commit/05dd6ae65cde751d9a3ef38247a334bdc86022d6) | rudycelekli |
+| 2026-11-25 | [fix: bound the remote query planning step (#1618)](https://github.com/mvanhorn/last30days-skill/commit/7b693b4abd81de760469b4cbbb8da9cff0af401d) | rudycelekli |
 | 2026-11-24 | [chore(readme): auto-update clean light/dark star history chart (#1617)](https://github.com/mvanhorn/last30days-skill/commit/7c2e1c2b099b13abd4397910168c4f53e638bb21) | mvanhorn |
 | 2026-11-24 | [chore(deps): update the OSV scanner workflow to v2.7.1 (#1563)](https://github.com/mvanhorn/last30days-skill/commit/c7056bc2fc3e5f281c58aa3cac2c63a1886b15ed) | dependabot[bot] |
 | 2026-11-24 | [fix(reddit): honor SearXNG in web discovery (#1603)](https://github.com/mvanhorn/last30days-skill/commit/c3dc463414b5401370cf449acdb9adf2aa571eef) | flipcyde101 |
 | 2026-11-24 | [fix: honor explicit local reasoning with configured provider keys (#1…](https://github.com/mvanhorn/last30days-skill/commit/bb18cccc53157dbac6adc9c23d5ef9b765441961) | TheAyushTandon |
 | 2026-11-24 | [fix(truthsocial): decode HTML entities and keep paragraph breaks in p…](https://github.com/mvanhorn/last30days-skill/commit/553da843b3c096464c74e17a7ac3acb566931f28) | thejesh23 |
-| 2026-11-24 | [fix(signals,relevance,rerank,cluster,fusion,dedupe): enforce monotoni…](https://github.com/mvanhorn/last30days-skill/commit/8a372bd06a7272b0426f1242b3c61b68e364bc1d) | iliaal |
-| 2026-11-24 | [fix(x,bird-search): harden X backend parsing, error/403 propagation, …](https://github.com/mvanhorn/last30days-skill/commit/d40dd3aaf48cf81097931bbafbaab1c8f5db5144) | iliaal |
-| 2026-11-24 | [fix(pipeline,schema,dates): fix fetch_memo lifecycle, weighting, X fl…](https://github.com/mvanhorn/last30days-skill/commit/f66444193a27f302f3299b95de393ce827d5ed6a) | iliaal |
-| 2026-11-24 | [fix(freshness,polymarket): harden verification grounding, cache/statu…](https://github.com/mvanhorn/last30days-skill/commit/f722f5e7d8f6b2ae306346e71cdfaac292c8305d) | iliaal |
-| 2026-11-24 | [fix(youtube,bluesky,linkedin,corpus,mcp): harden comments, session co…](https://github.com/mvanhorn/last30days-skill/commit/5cfcc2e1dd02d08c8dddc91dc68efea15bf9cee3) | iliaal |
 
 [See all commits ↗](https://github.com/mvanhorn/last30days-skill/commits)
 

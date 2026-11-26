@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-12-07 |
 | 📦 **Latest release** | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) — 2025-11-18 |
 | 🌿 **Default branch** | `main` |
@@ -64,6 +64,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Bugfix: dtype (#1861)](https://github.com/modelscope/DiffSynth-Studio/commit/c6c916e42429bc278f952c93966a48e75db87e10) | Artiprocher |
+| 2026-11-26 | [Support Diffutoon-2 (#1860)](https://github.com/modelscope/DiffSynth-Studio/commit/100a41c7904e11eb3e0f7c2cd2c5e20d2d2180e7) | Artiprocher |
 | 2026-11-25 | [accelerate h3-image vae decode (#1859)](https://github.com/modelscope/DiffSynth-Studio/commit/4f67cdf053341ee19a1995b99f3edce76ec11d1c) | mi804 |
 | 2026-11-25 | [Support MiniMax-H3-pi-H3 (#1856)](https://github.com/modelscope/DiffSynth-Studio/commit/f82f5e19fdc2dc6660aeb7b3d44b74c7ba8f5cd9) | yjy415 |
 | 2026-11-25 | [Support mesh group and cfg parallel (#1858)](https://github.com/modelscope/DiffSynth-Studio/commit/e46ba5b433b092a7cd73e002cb1b5dfa5db08c70) | mi804 |
@@ -72,8 +74,6 @@
 | 2026-11-23 | [Support Unified Sequence Parallel (#1851)](https://github.com/modelscope/DiffSynth-Studio/commit/e33e16cfd38fc9d22b753303ed2b16d086ceb586) | Artiprocher |
 | 2026-11-23 | [fix typo (#1848)](https://github.com/modelscope/DiffSynth-Studio/commit/ee5fab2387c9ae012edb771dcfad6c6a6aceda3b) | Artiprocher |
 | 2026-11-23 | [update docs (#1847)](https://github.com/modelscope/DiffSynth-Studio/commit/87ae01654426887ebb139923820df41dc6592c77) | Artiprocher |
-| 2026-11-23 | [update kv-cache-compression examples (#1846)](https://github.com/modelscope/DiffSynth-Studio/commit/e0fd43262d92ebc162a5433ef91dc23200f1342d) | Artiprocher |
-| 2026-11-23 | [support DetailScale-SR (#1845)](https://github.com/modelscope/DiffSynth-Studio/commit/eb8ce72835e6e3fb0554a5b3fca0bd46948262f2) | Artiprocher |
 
 [See all commits ↗](https://github.com/modelscope/DiffSynth-Studio/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 201.8k |
+| ⭐ **Stars** | 201.9k |
 | 🍴 **Forks** | 77.4k |
-| 🐞 **Open issues + PRs** | [3.5k](https://github.com/tensorflow/tensorflow/issues) |
+| 🐞 **Open issues + PRs** | [3.4k](https://github.com/tensorflow/tensorflow/issues) |
 | 💻 **Languages** | C++ 56% · Python 25% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1420.1 MB |
+| 💾 **Size** | 1418.9 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
 
 ### [v2.22.0-rc1](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1) — TensorFlow 2.22.0-rc1 _(pre-release)_
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **Release 2.22.0**
 > **TensorFlow**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [[XLA] Return errors from NamedSharding::FromProto](https://github.com/tensorflow/tensorflow/commit/cbf3b35e8b397ffec3c8a7c8635d8736f149b992) | dimitar-asenov |
-| 2026-11-25 | [[XLA:GPU] Raise Triton all-reduce max blocks per grid from 32 to 128](https://github.com/tensorflow/tensorflow/commit/ce8f306bc1a5569ee98396bf09785d0b08615064) | PatriosTheGreat |
-| 2026-11-25 | [[XLA] Keep each operand's own batch dimensions in DotDecomposer](https://github.com/tensorflow/tensorflow/commit/b21be08f23576887db3c03709f6dbd719fda1d14) | oliness |
-| 2026-11-25 | [[XLA] Use i64 scan indices when padded mhlo.scan exceeds INT32_MAX.](https://github.com/tensorflow/tensorflow/commit/c6815cf3ac564c796c28ea96b4fc9d6019415dc4) | mkuperst |
-| 2026-11-25 | [Fix nondeterminism in TOCO custom op FlexBuffer attribute serialization.](https://github.com/tensorflow/tensorflow/commit/a9a33a9203ca39d6e6dcbe19c161ef3069b242e3) | tensorflower-gardener |
-| 2026-11-25 | [[XLA:CPU] Use llvm::StringLiteral for kNoFpContractAttr.](https://github.com/tensorflow/tensorflow/commit/bb60d0b41bb628427520f0e447383c96ecadc3d9) | seantalts |
-| 2026-11-25 | [[XLA] Remove some comparison operators that can be defaulted in C++20](https://github.com/tensorflow/tensorflow/commit/dec4290faa4dffbaa300d45c1a41e94ec49dba32) | d0k |
-| 2026-11-25 | [[XLA] Reject nested TUPLE OpSharding protos in HloSharding::FromProto](https://github.com/tensorflow/tensorflow/commit/d107c3c26944a5a9c4263cd816f419c85ec4e2e6) | dimitar-asenov |
-| 2026-11-25 | [[XLA] Return errors from Mesh and AxisRef FromProto](https://github.com/tensorflow/tensorflow/commit/95d4e37c426db4f31cb3708b9cf9ef7791680264) | dimitar-asenov |
-| 2026-11-25 | [PR #52998: [XLA:GPU][ROCm] Use the device warp size in coalescing ana…](https://github.com/tensorflow/tensorflow/commit/af20b7503775d3f3b0098a662d2c9fb7f127fb25) | nurmukhametov |
+| 2026-11-26 | [PR #53709: [XLA:GPU] Fix copy insertion to add the correct parallel t…](https://github.com/tensorflow/tensorflow/commit/474c5b85e8f029293246296185105e36eb54b366) | Tixxx |
+| 2026-11-26 | [[XLA:GPU] Allow reverse scans in Triton.](https://github.com/tensorflow/tensorflow/commit/921846ca23aab896f64107772e80b6b8f88c103c) | chsigg |
+| 2026-11-26 | [[XLA:GPU] Plumb AllGatherStrategy and tile-size guard in BuildAllGath…](https://github.com/tensorflow/tensorflow/commit/03620cc386fb2fed53e5a8148439d08223440a60) | sohaibiftikhar |
+| 2026-11-26 | [[XLA:XTile] Handle equal-bitwidth integer converts in LowerStablehloT…](https://github.com/tensorflow/tensorflow/commit/83fa0adc32fb87308f64c357d3442a1b0c10b187) | pifon2a |
+| 2026-11-26 | [PR #53963: [ROCm] Add minimal debug info for tsan builds](https://github.com/tensorflow/tensorflow/commit/02c69b0f4064f1652f0744245f22dcf6dcd38823) | alekstheod |
+| 2026-11-26 | [PR #49692: [xla:gpu] Cancel in-progress GPU clique init on task failure](https://github.com/tensorflow/tensorflow/commit/14fe3fd2a7da72540869568c309f5d54f02d9be4) | Liauuu |
+| 2026-11-26 | [PR #53920: [ROCm] Fix TSAN data race in RecoverExp2Pattern static log…](https://github.com/tensorflow/tensorflow/commit/0c8f1929a783751c2a99fbf65c1e45fe4406b5a5) | alekstheod |
+| 2026-11-26 | [Fix dropdown display in Megascale debugging guide.](https://github.com/tensorflow/tensorflow/commit/0fe579af89373e0037cd36bd4f217bc9fbf47040) | tensorflower-gardener |
+| 2026-11-26 | [Move autotuner directories under backends/core, cpu/core, and gpu/core](https://github.com/tensorflow/tensorflow/commit/58c1fd0334441a63082f7eb84cc71a4c54bd3c86) | pifon2a |
+| 2026-11-26 | [[XLA] Return errors from replica group list FromProto](https://github.com/tensorflow/tensorflow/commit/7f4b76e26c1fcec0ad8e9756d1976015b55f8f76) | dimitar-asenov |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

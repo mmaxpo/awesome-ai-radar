@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 99.8k |
-| 🍴 **Forks** | 6.8k |
+| ⭐ **Stars** | 100.4k |
+| 🍴 **Forks** | 6.9k |
 | 🐞 **Open issues + PRs** | [363](https://github.com/tt-a1i/archify/issues) |
 | 💻 **Languages** | JavaScript 88% · TypeScript 4% · CSS 3% · HTML 2% · Rust 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `architecture-diagram` `developer-tools` `system-design` `agent-skills` `codex` `opencode` `deepseek-harness` `dsh-plugin` `coding-agents` `diagrams` `diagrams-as-code` `software-architecture` `ai-agents` `claude-code` `claude-skills` `flowchart` `llm` `mermaid` `visualization` `code-analysis` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-04-15 |
-| 📦 **Latest release** | [v3.3.1](https://github.com/tt-a1i/archify/releases/tag/v3.3.1) — 2026-11-24 |
+| 📦 **Latest release** | [v3.3.2](https://github.com/tt-a1i/archify/releases/tag/v3.3.2) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1872.6 MB |
+| 💾 **Size** | 1884.7 MB |
 | 🌐 **Website** | https://archify.si |
 
 ## 📦 Recent releases
 
+### [v3.3.2](https://github.com/tt-a1i/archify/releases/tag/v3.3.2)
+<sub>2026-11-25 · today</sub>
+
+> **What's Changed**
+> * release: publish stable 3.3.1 update manifest by @tt-a1i in https://github.com/tt-a1i/archify/pull/1475
+> * fix(story): keep playback seeking usable on narrow screens by @outlier27-cell in https://github.com/tt-a1i/archify/pull/1439
+> * chore: sync dev with main and start v3.3.2-dev.1 cycle by @tt-a1i in https://github.com/tt-a1i/archify/pull/1476
+> * fix(seo): resolve Bing SEO warnings and ship GEO v4 v3.3 capabilities & 100k drafts by @tt-a1i in https://github.com/tt-a1i/archify/pull/1477
+> * fix(viewer): preserve Sequence handoffs in WebM by @outlier27-cell in https://github.com/tt-a1i/archify/pull/1444
+> …
+
 ### [v3.3.1](https://github.com/tt-a1i/archify/releases/tag/v3.3.1)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > **Archify 3.3 in 60 seconds**
 > https://github.com/user-attachments/assets/6a0d6637-e3af-43af-a733-4b4b53da0542
@@ -47,12 +58,12 @@
 > …
 
 ### [archify-dsh-v1.2.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.2.0) — Archify DSH 1.2.0
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > Published `@tt-a1i/archify-dsh` from this tag's verified tarball. See the integration README for the bundled Archify source and acceptance record.
 
 ### [v3.3.0](https://github.com/tt-a1i/archify/releases/tag/v3.3.0)
-<sub>2026-11-22 · 2d ago</sub>
+<sub>2026-11-22 · 3d ago</sub>
 
 > **Archify 3.3 in 60 seconds**
 > https://github.com/user-attachments/assets/6a0d6637-e3af-43af-a733-4b4b53da0542
@@ -63,7 +74,7 @@
 > …
 
 ### [archify-dsh-v1.1.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.1.0) — Archify DSH 1.1.0
-<sub>2026-11-08 · 16d ago</sub>
+<sub>2026-11-08 · 17d ago</sub>
 
 > Published `@tt-a1i/archify-dsh@1.1.0` — a Skill-only DeepSeek Harness bundle containing Archify 3.2.0.
 > - Published: 2026-11-08 (npm `latest`)
@@ -73,31 +84,20 @@
 > - Three-platform release gate: https://github.com/tt-a1i/archify/actions/runs/42499004935
 > …
 
-### [v3.2.0](https://github.com/tt-a1i/archify/releases/tag/v3.2.0)
-<sub>2026-10-19 · 1mo ago</sub>
-
-> **Archify v3.2.0**
-> Create a conclusion-first one-page answer from Markdown, with cited sources, interactive diagrams and browser exports.
-> **Added**
-> - **One-page answers (explainer) (#993).** Ask your agent to answer as a page and Archify builds a conclusion-first explainer from a Markdown draft. Each panel answers one question, using prose, tables, steps, checklists, charts, code and validated native diagrams.
->   - **Authoring and delivery:** `finalize explainer` validates, delivers atomically and checks the page. Charts come from a Mermaid fence or a CSV/JSON file next to the draft. Repository excerpts are read from the pinned commit. `patch explainer` replaces one panel by ID.
->   - **Reading:**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #1494 from tt-a1i/fix/v3.3.2-main-ci](https://github.com/tt-a1i/archify/commit/a0199aab7bc1e87821c286f9b297afb8f98894ec) | tt-a1i |
-| 2026-11-25 | [fix(lifecycle): keep an explicitly visible final legend key](https://github.com/tt-a1i/archify/commit/ed1bbcdb127143bbcf3a28ff237fc30cc1e5b536) | tt-a1i |
-| 2026-11-25 | [build: regenerate archify.zip for the lifecycle legend fix](https://github.com/tt-a1i/archify/commit/16106ee0f0f66dd9aba3db9a1b7dee1de031baed) | tt-a1i |
-| 2026-11-25 | [fix: restore lifecycle final-legend guard and settle workbench Back c…](https://github.com/tt-a1i/archify/commit/550f6f533a92ad499452808ff62951fa0f022eb9) | tt-a1i |
-| 2026-11-25 | [Merge pull request #1492 from tt-a1i/release/v3.3.2](https://github.com/tt-a1i/archify/commit/dd71ddd3a5506c1816758609c210aebc12fdcfff) | tt-a1i |
-| 2026-11-25 | [release: promote dev and prepare v3.3.2](https://github.com/tt-a1i/archify/commit/fb2b0c758589ee89bbf296e7521ae5e42a6ebaf9) | tt-a1i |
-| 2026-11-25 | [Merge pull request #1489 from tt-a1i/feat/in-page-update-notice](https://github.com/tt-a1i/archify/commit/79ae742b5d30a004eb1bcb3a61f66f5834cccfa1) | tt-a1i |
-| 2026-11-25 | [feat(delivery): dock update notices in the Viewer header](https://github.com/tt-a1i/archify/commit/1dc4c0255c6cad7ada7914fe198ff4efbc941d66) | tt-a1i |
-| 2026-11-25 | [Merge remote-tracking branch 'origin/dev' into HEAD](https://github.com/tt-a1i/archify/commit/eb053c6b2df04d322e08ff242a4b2850f9787410) | tt-a1i |
-| 2026-11-25 | [Merge pull request #1491 from tt-a1i/fix/pr-diagram-change-only-color](https://github.com/tt-a1i/archify/commit/c685b925779466fdc8500116c0360877b1754646) | tt-a1i |
+| 2026-11-26 | [Merge pull request #1504 from tt-a1i/feat/geo-cn-anchors-main](https://github.com/tt-a1i/archify/commit/d6b0f71f25a3337ed2fcd09c973cacf67be7baba) | tt-a1i |
+| 2026-11-26 | [docs(geo): mark Chinese demo links, note draw.io auto-layout, and add…](https://github.com/tt-a1i/archify/commit/21f4e2a16b06ee58807db3f81f05663200b02e27) | tt-a1i |
+| 2026-11-26 | [docs(geo): fix timeline, Visio/comparison phrasing, and DSH version n…](https://github.com/tt-a1i/archify/commit/c255f5ccbb61123a5d70d869578700398c3db780) | tt-a1i |
+| 2026-11-26 | [docs(seo): add draw.io/ProcessOn comparison boundaries and 100k launc…](https://github.com/tt-a1i/archify/commit/bd56df2f0e0f69d697f795e86023a8610ea18799) | tt-a1i |
+| 2026-11-26 | [Merge pull request #1501 from tt-a1i/fix/stable-manifest-v3.3.2-time](https://github.com/tt-a1i/archify/commit/95586bc667fa97ed73588efc13d2f14a5b3c4241) | tt-a1i |
+| 2026-11-26 | [fix(release): align v3.3.2 stable.json publishedAt with annotated tag…](https://github.com/tt-a1i/archify/commit/acc5dd9889fe7887467b6b6d95157adf665b44e7) | tt-a1i |
+| 2026-11-25 | [Merge pull request #1499 from tt-a1i/chore/stable-manifest-v3.3.2](https://github.com/tt-a1i/archify/commit/c8e5241c7d8b036ea959121d7bd1df564f2b9fdf) | tt-a1i |
+| 2026-11-25 | [release: publish stable 3.3.2 update manifest](https://github.com/tt-a1i/archify/commit/4fe687702982400f3d4e2fb6844b200ec156c911) | tt-a1i |
+| 2026-11-25 | [Merge pull request #1498 from tt-a1i/docs/site-refresh-100k-main](https://github.com/tt-a1i/archify/commit/aff5c2b2a0f8b6cdb187f5f121e965a495833f10) | tt-a1i |
+| 2026-11-25 | [docs(site): fact-check the agent-diagrams guide against v3.3.2](https://github.com/tt-a1i/archify/commit/9819fc22e4d3f8a0b7772160f289e8056e3a9d63) | tt-a1i |
 
 [See all commits ↗](https://github.com/tt-a1i/archify/commits)
 

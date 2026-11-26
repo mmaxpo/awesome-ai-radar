@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 30.9k |
 | 🍴 **Forks** | 5.1k |
-| 🐞 **Open issues + PRs** | [74](https://github.com/openai/openai-agents-python/issues) |
+| 🐞 **Open issues + PRs** | [72](https://github.com/openai/openai-agents-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `framework` `llm` `python` `openai` `harness` |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2025-03-11 |
 | 📦 **Latest release** | [v0.26.0](https://github.com/openai/openai-agents-python/releases/tag/v0.26.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 131.3 MB |
+| 💾 **Size** | 128.4 MB |
 | 🌐 **Website** | https://openai.github.io/openai-agents-python/ |
 
 ## 📦 Recent releases
 
 ### [v0.26.0](https://github.com/openai/openai-agents-python/releases/tag/v0.26.0)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > **[0.26.0](https://github.com/openai/openai-agents-python/compare/v0.25.0...v0.26.0) (2026-11-24)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.0.0-alpha.2](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2) — Agents SDK v1.0.0-alpha.2 _(pre-release)_
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Agents SDK v1.0.0-alpha.2**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.0.0-alpha.1](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1) — Agents SDK v1.0.0-alpha.1 _(pre-release)_
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > **Agents SDK v1.0.0-alpha.1**
 > This first preview from `feat/simple-codex` adds Codex as an opt-in model provider for the Python Agents SDK. The prebuilt `openai-agents` wheels (version `1.0.0a1`) are available exclusively through GitHub Releases.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0)
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > **[0.25.0](https://github.com/openai/openai-agents-python/compare/v0.24.0...v0.25.0) (2026-11-17)**
 > **Key Changes**
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.24.0-alpha.8](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8) — Agents SDK v0.24.0-alpha.8 _(pre-release)_
-<sub>2026-11-16 · 9d ago</sub>
+<sub>2026-11-16 · 10d ago</sub>
 
 > **Agents SDK v0.24.0-alpha.8**
 > **Highlights**
@@ -94,6 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Avoid quadratic scans when confirming delivery of conversation histor…](https://github.com/openai/openai-agents-python/commit/6afdd47b4fab14d61e0e6f7c002e6ec9b36fcd71) | markstuart-oai |
+| 2026-11-25 | [Reduce processing time for large function tool results (#6217)](https://github.com/openai/openai-agents-python/commit/06044d243e81f2e3e76527264ea324e4a34e6b30) | markstuart-oai |
+| 2026-11-25 | [Shorten cold starts by loading MCP helpers and the RunState validator…](https://github.com/openai/openai-agents-python/commit/7acce4fbecdf4b272c75cd53d875b91e1910b43a) | markstuart-oai |
 | 2026-11-24 | [fix(deps): update openai requirement from <4,>=3.48.0 to >=3.52.0,<4 …](https://github.com/openai/openai-agents-python/commit/4e162c79a4a951c6fc8b698d5c8279c1963c099b) | dependabot[bot] |
 | 2026-11-24 | [fix(deps): update httpx2 requirement from >=2.16.0 to >=2.16.2 in /ex…](https://github.com/openai/openai-agents-python/commit/0d10b5d5a619103b0c2256c596816b74dbdd1aa4) | dependabot[bot] |
 | 2026-11-24 | [fix(deps): update python-multipart requirement from >=0.0.33 to >=0.0…](https://github.com/openai/openai-agents-python/commit/1b56a403b8e2e8dcc86c50717226f841c4d3062e) | dependabot[bot] |
@@ -101,9 +104,6 @@
 | 2026-11-24 | [Skip sandbox resume keys when sandboxing is disabled (#6188)](https://github.com/openai/openai-agents-python/commit/3814f975652e9f4d20c44d58ce1ee88714af0423) | markstuart-oai |
 | 2026-11-24 | [Compute agent identity sort keys only for duplicate names (#6184)](https://github.com/openai/openai-agents-python/commit/c061d7e86758ae6c018f072cc333e36857c48bb8) | markstuart-oai |
 | 2026-11-24 | [Skip container checks for plain strings in conversation history (#6183)](https://github.com/openai/openai-agents-python/commit/5b6b2a0f9415d57ab4ac3f76097400857f9edc47) | markstuart-oai |
-| 2026-11-24 | [Reduce peak memory during SQLite session writes (#6186)](https://github.com/openai/openai-agents-python/commit/aea96a6dbe636d8d6b704c5a397aa53ce02b3e7a) | markstuart-oai |
-| 2026-11-24 | [Avoid repeated identity scans for initial conversation inputs (#6187)](https://github.com/openai/openai-agents-python/commit/3a09bc1b3cb8c65091a00fb66d32df223a3730ba) | markstuart-oai |
-| 2026-11-24 | [release: 0.26.0 (#6069)](https://github.com/openai/openai-agents-python/commit/0ad2d63a9371a23333a95ea6878141a826c9cdda) | openai-sdks[bot] |
 
 [See all commits ↗](https://github.com/openai/openai-agents-python/commits)
 

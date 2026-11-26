@@ -22,26 +22,31 @@
 |---|---|
 | ⭐ **Stars** | 9.4k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [129](https://github.com/MervinPraison/PraisonAI/issues) |
+| 🐞 **Open issues + PRs** | [141](https://github.com/MervinPraison/PraisonAI/issues) |
 | 💻 **Languages** | Python 83% · TypeScript 12% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `aiagents` `framework` `ai-agent-framework` `ai-agents` `multi-agent` `multi-agent-system` `multi-agents` `ai-agent-sdk` `ai-agents-sdk` `openclaw` `air-gapped` `llm` `on-premise` `private-ai` `python` `regulated-industries` `self-hosted` |
-| 🕒 **Last activity** | 2026-11-24 (yesterday) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2024-03-19 |
-| 📦 **Latest release** | [v4.8.1](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.1) — 2026-11-24 |
+| 📦 **Latest release** | [v4.8.2](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.2) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 128.6 MB |
+| 💾 **Size** | 129.2 MB |
 | 🌐 **Website** | https://praison.ai |
 
 ## 📦 Recent releases
 
+### [v4.8.2](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.2) — PraisonAI v4.8.2
+<sub>2026-11-25 · today</sub>
+
+> Release v4.8.2
+
 ### [v4.8.1](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.1) — PraisonAI v4.8.1
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > Release v4.8.1
 
 ### [v4.8.0](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.8.0) — v4.8.0: Security hardening release
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **Security hardening release**
 > This release makes PraisonAI safer by default. Servers stay on your own machine unless you give them a token. Tools that read files, fetch URLs or run code now stay inside clear limits. A project you clone can no longer change your trust settings.
@@ -52,34 +57,29 @@
 > …
 
 ### [v4.7.26](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.26) — PraisonAI v4.7.26
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > Release v4.7.26
 
 ### [v4.7.25](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.25) — PraisonAI v4.7.25
-<sub>2026-11-14 · 11d ago</sub>
+<sub>2026-11-14 · 12d ago</sub>
 
 > Release v4.7.25
-
-### [v4.7.24](https://github.com/MervinPraison/PraisonAI/releases/tag/v4.7.24) — PraisonAI v4.7.24
-<sub>2026-11-05 · 19d ago</sub>
-
-> Release v4.7.24
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Release v4.8.1](https://github.com/MervinPraison/PraisonAI/commit/2c3ff662f706e981672de65e8bf956a0c6197565) | praisonai-triage-agent[bot] |
-| 2026-11-23 | [chore(deps): require aiui>=0.3.177 (#6740)](https://github.com/MervinPraison/PraisonAI/commit/fee9e6204f31f7eda7a1c135e992f8f87e319883) | MervinPraison |
-| 2026-11-23 | [fix(train): llm command starts its own trainer; llm extra no longer p…](https://github.com/MervinPraison/PraisonAI/commit/08fc34f02c4e15b7146763e537d736a61e5a9b3f) | MervinPraison |
-| 2026-11-23 | [docs(readme): give every diagram its own background (#6763)](https://github.com/MervinPraison/PraisonAI/commit/fc20bf3fdc3bfdf306d33f967a712b971ee709c5) | MervinPraison |
-| 2026-11-23 | [docs(readme): show the four feature diagrams instead of folding them …](https://github.com/MervinPraison/PraisonAI/commit/9860aeb71f76f33026c3c56b8b2034b668630c10) | MervinPraison |
-| 2026-11-23 | [docs(readme): diagrams for multi-agent patterns, bot gateway, MCP and…](https://github.com/MervinPraison/PraisonAI/commit/f6718dccb0c157062870f04d71ecac3f9d6c528c) | MervinPraison |
-| 2026-11-23 | [docs(agents): add a before-you-build checklist and the shared helper …](https://github.com/MervinPraison/PraisonAI/commit/5037f350424e50ebb38265ee929d10e6193b399d) | MervinPraison |
-| 2026-11-23 | [fix(embedding): drop params the provider does not support (#6751)](https://github.com/MervinPraison/PraisonAI/commit/d1d56aae9c4c3a3aa0502c2ce0926cf18b2e5ce6) | MervinPraison |
-| 2026-11-23 | [docs: auto-update documentation parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/f224df06ab6acff17ae9cfe3ebf2ef14f152eebd) | MervinPraison |
-| 2026-11-23 | [fix: let a streamed turn run more than one round of tools (#6750)](https://github.com/MervinPraison/PraisonAI/commit/0b050b3812007b15839054624fe73b3b6b2d1516) | praisonai-triage-agent[bot] |
+| 2026-11-25 | [Release v4.8.2](https://github.com/MervinPraison/PraisonAI/commit/993c8856a0cc6547ddd589b825685ac596ab39a5) | praisonai-triage-agent[bot] |
+| 2026-11-25 | [docs: auto-update feature parity trackers [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/d9cb83089cacac093b53d045c41ce9634d0c0fee) | MervinPraison |
+| 2026-11-25 | [docs: auto-update api.md [skip ci]](https://github.com/MervinPraison/PraisonAI/commit/d3967361928f39fabeec5708c32883b0b273c781) | MervinPraison |
+| 2026-11-25 | [docs: generated list of the environment variables praisonaiagents rea…](https://github.com/MervinPraison/PraisonAI/commit/31629a3f657fec2179e33582772c5c47caaa7566) | MervinPraison |
+| 2026-11-25 | [test: make five script-style unit tests assert instead of return (#6801)](https://github.com/MervinPraison/PraisonAI/commit/14e56503803e1dc49e37eee33f838a8000a7bbb7) | MervinPraison |
+| 2026-11-25 | [fix(agents): AgentTeam(llm=) warns like Agent; add manager_model= (#6…](https://github.com/MervinPraison/PraisonAI/commit/3e19122927585a47cf1bc6e063513ac1222df159) | MervinPraison |
+| 2026-11-25 | [feat(mcp): one config builder, MCP.from_config and parse_mcp_servers …](https://github.com/MervinPraison/PraisonAI/commit/c1e2782ef66e64a22eac6e7628335082178a7eb9) | MervinPraison |
+| 2026-11-25 | [docs(examples): Agent(llm=) becomes Agent(model=) in examples/python …](https://github.com/MervinPraison/PraisonAI/commit/189b54858fa832f90a11a127f06c876fd89560a3) | MervinPraison |
+| 2026-11-25 | [docs(examples): Agent(llm=) becomes Agent(model=) in examples/python/…](https://github.com/MervinPraison/PraisonAI/commit/742eddf456ebf85d0a6fd0769a444f503ea4236b) | MervinPraison |
+| 2026-11-25 | [docs(examples): Agent(llm=) becomes Agent(model=) in examples/python/…](https://github.com/MervinPraison/PraisonAI/commit/ad60c4160c4a2aafe0484bd0ec9858fd79d7af1e) | MervinPraison |
 
 [See all commits ↗](https://github.com/MervinPraison/PraisonAI/commits)
 

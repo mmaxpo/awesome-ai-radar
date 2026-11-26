@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 69.0k |
 | 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [37](https://github.com/openinterpreter/openinterpreter/issues) |
+| 🐞 **Open issues + PRs** | [36](https://github.com/openinterpreter/openinterpreter/issues) |
 | 💻 **Languages** | Rust 97% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `coding-agent` `deepseek` `kimi` `qwen` `rust` `acp` `python` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-07-14 |
-| 📦 **Latest release** | [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — 2026-11-11 |
+| 📦 **Latest release** | [rust-v0.0.64](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.64) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 303.9 MB |
+| 💾 **Size** | 304.1 MB |
 | 🌐 **Website** | http://openinterpreter.com/ |
 
 ## 📦 Recent releases
 
+### [rust-v0.0.64](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.64) — Open Interpreter 0.0.64
+<sub>2026-11-26 · today</sub>
+
+> **Open Interpreter 0.0.64**
+> **Models**
+> - No model-provider catalog or request-admission behavior changes are included
+>   in this release.
+> **Release**
+> - Add a maximum yield time setting for code-mode cells.
+> …
+
 ### [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — Open Interpreter 0.0.61
-<sub>2026-11-11 · 14d ago</sub>
+<sub>2026-11-11 · 15d ago</sub>
 
 > **Open Interpreter 0.0.61**
 > **Models**
@@ -47,7 +58,7 @@
 > …
 
 ### [rust-v0.0.60](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.60) — Open Interpreter 0.0.60
-<sub>2026-11-09 · 16d ago</sub>
+<sub>2026-11-09 · 17d ago</sub>
 
 > **Open Interpreter 0.0.60**
 > **Models**
@@ -58,7 +69,7 @@
 > …
 
 ### [rust-v0.0.59](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.59) — Open Interpreter 0.0.59
-<sub>2026-11-04 · 21d ago</sub>
+<sub>2026-11-04 · 22d ago</sub>
 
 > **Open Interpreter 0.0.59**
 > **Models**
@@ -69,7 +80,7 @@
 > …
 
 ### [rust-v0.0.58](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.58) — Open Interpreter 0.0.58
-<sub>2026-11-01 · 24d ago</sub>
+<sub>2026-11-01 · 25d ago</sub>
 
 > **Open Interpreter 0.0.58**
 > **Models**
@@ -79,28 +90,20 @@
 > - Preserve legacy feedback delivery alongside optional signed attachment
 > …
 
-### [rust-v0.0.57](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.57) — Open Interpreter 0.0.57
-<sub>2026-10-31 · 25d ago</sub>
-
-> **Open Interpreter 0.0.57**
-> **Models**
-> - Validate the maintained Codex 0.159.0 compatibility profile for Open
->   Interpreter model discovery and request admission.
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Merge pull request #1993 from openinterpreter/interpreterwork/docs-lo…](https://github.com/openinterpreter/openinterpreter/commit/f1701ae772bf1ee8ced04c83d5a806bd694f9fd1) | interpreterwork-automation[bot] |
-| 2026-11-24 | [Clarify local model tool-call and context guidance](https://github.com/openinterpreter/openinterpreter/commit/a7694b58aba8a791d408f3d7d1ef047c35743169) | interpreterwork |
-| 2026-11-23 | [Merge pull request #1985 from Dev-next-gen/fix/harness-glob-wildcards](https://github.com/openinterpreter/openinterpreter/commit/a786d8474b0d7289320c16f00e852679fae7866e) | interpreterwork-automation[bot] |
-| 2026-11-23 | [fix(harness): bound Glob/Grep pattern length and brace nesting](https://github.com/openinterpreter/openinterpreter/commit/876f261a1290833871bcfc28ec01f7f67264faac) | Dev-next-gen |
-| 2026-11-23 | [Merge remote-tracking branch 'origin/main' into fix/harness-glob-wild…](https://github.com/openinterpreter/openinterpreter/commit/0b89e73f2933082f0ed38977f7ba22ba20725d30) | Dev-next-gen |
-| 2026-11-22 | [Merge pull request #1986 from Dev-next-gen/fix/kimi-agents-md-char-bo…](https://github.com/openinterpreter/openinterpreter/commit/e8ca678bbfb39a73d56478e29818f883b4faf316) | interpreterwork-automation[bot] |
-| 2026-11-22 | [fix(harness): compile Glob/Grep patterns once and match without backt…](https://github.com/openinterpreter/openinterpreter/commit/5297672fedc8eea095100fea47fbf0070524ab97) | Dev-next-gen |
-| 2026-11-22 | [Merge remote-tracking branch 'origin/main' into fix/harness-glob-wild…](https://github.com/openinterpreter/openinterpreter/commit/8275c62e6060f3f9fa7782bdad66fc98b4b8ffb3) | Dev-next-gen |
-| 2026-11-22 | [Merge branch 'main' into fix/kimi-agents-md-char-boundary](https://github.com/openinterpreter/openinterpreter/commit/d5b8641c020ae594eff2d5fd506ae10c3c36b92e) | Dev-next-gen |
-| 2026-11-21 | [Merge pull request #1988 from openinterpreter/interpreterwork/fable-c…](https://github.com/openinterpreter/openinterpreter/commit/bb3f575d8badc136eb5808bbbb707a04eb5daa3f) | interpreterwork-automation[bot] |
+| 2026-11-26 | [Merge pull request #2000 from openinterpreter/interpreterwork/docs-li…](https://github.com/openinterpreter/openinterpreter/commit/520887a24c38c186a4d53e54b9c8b5e4dab95cf6) | interpreterwork-automation[bot] |
+| 2026-11-26 | [Fix documentation links to repository policies](https://github.com/openinterpreter/openinterpreter/commit/49c0ff9cee62d0d3e1638fff4752a63b0b8da628) | interpreterwork |
+| 2026-11-26 | [Merge pull request #1999 from openinterpreter/interpreterwork/release…](https://github.com/openinterpreter/openinterpreter/commit/2749a34a05b55017e7cde0e95f2d46de07047258) | interpreterwork-automation[bot] |
+| 2026-11-26 | [chore: prepare Open Interpreter 0.0.64 release notes and version](https://github.com/openinterpreter/openinterpreter/commit/f0295e0b6d3a7b1028eb1f435b081c51d80299b9) | interpreterwork |
+| 2026-11-26 | [Merge pull request #1998 from openinterpreter/interpreterwork/release…](https://github.com/openinterpreter/openinterpreter/commit/34e9adc5d88eabe18f6d6a32f15205f3dc8023cd) | interpreterwork-automation[bot] |
+| 2026-11-26 | [chore: prepare Open Interpreter 0.0.63 release notes and version](https://github.com/openinterpreter/openinterpreter/commit/774648746feff74cf8a92d1226eb7b01ef3a98f6) | interpreterwork |
+| 2026-11-26 | [Build macOS release binaries on standard runners](https://github.com/openinterpreter/openinterpreter/commit/d4cd5ce3779f83384525b8a8d45830c2bfdbe0eb) | interpreterwork |
+| 2026-11-26 | [Merge pull request #1996 from openinterpreter/interpreterwork/release…](https://github.com/openinterpreter/openinterpreter/commit/7ff17bf8b47eedb617619314e758251ce20a3c62) | interpreterwork-automation[bot] |
+| 2026-11-26 | [chore: prepare Open Interpreter 0.0.62 release notes and version](https://github.com/openinterpreter/openinterpreter/commit/70b70d20318dcc6acebd364068020c5ca2cd3670) | interpreterwork |
+| 2026-11-26 | [Merge pull request #1995 from openinterpreter/interpreterwork/respons…](https://github.com/openinterpreter/openinterpreter/commit/70f18ca8fbe4ed208f21cee612222cdc7dfdf4a5) | interpreterwork-automation[bot] |
 
 [See all commits ↗](https://github.com/openinterpreter/openinterpreter/commits)
 

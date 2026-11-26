@@ -38,12 +38,12 @@
 > _No notes._
 
 ### [v2.5.0.flatpak](https://github.com/BrisklyDev/brisk/releases/tag/v2.5.0.flatpak)
-<sub>2026-11-11 · 13d ago</sub>
+<sub>2026-11-11 · 14d ago</sub>
 
 > _No notes._
 
 ### [v2.5.0](https://github.com/BrisklyDev/brisk/releases/tag/v2.5.0)
-<sub>2026-11-11 · 13d ago</sub>
+<sub>2026-11-11 · 14d ago</sub>
 
 > **Changelog**
 > **:sparkles: New Features**
@@ -54,7 +54,7 @@
 > …
 
 ### [v2.4.0](https://github.com/BrisklyDev/brisk/releases/tag/v2.4.0)
-<sub>2026-11-09 · 15d ago</sub>
+<sub>2026-11-09 · 16d ago</sub>
 
 > **Changelog**
 > **:sparkles: New Features**

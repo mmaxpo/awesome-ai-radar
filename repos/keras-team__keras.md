@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 64.5k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [276](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [274](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 59.1 MB |
+| 💾 **Size** | 58.5 MB |
 | 🌐 **Website** | http://keras.io/ |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Use conv in the backend-agnostic correlate (#24350)](https://github.com/keras-team/keras/commit/769752132143bc2601207b20941f1ac711bb9357) | SamanehSaadat |
+| 2026-11-26 | [Disable `jit_compile` with multi-replica `tf.distribute` strategies (…](https://github.com/keras-team/keras/commit/579bad6a022a0faef964ad35fddb46a81476d555) | SamanehSaadat |
+| 2026-11-26 | [Move unrelated code out of `variables.py`. (#24366)](https://github.com/keras-team/keras/commit/d001afc9245250c9e5ed18c369b92973d7f7c1fe) | hertschuh |
+| 2026-11-25 | [Explicitly import individual core ops in each `ops/__init__.py`. (#24…](https://github.com/keras-team/keras/commit/082c2e291519f36109a9e913d007d03e1d795974) | hertschuh |
+| 2026-11-25 | [Use dev0 version suffix on master (#24347)](https://github.com/keras-team/keras/commit/21c66708d8c6355ffcd9f964ee2140ef06c06f40) | laxmareddyp |
+| 2026-11-25 | [Move `random_seed_dtype` from `core` to `random`. (#24354)](https://github.com/keras-team/keras/commit/ad1de1b7da0203d6d9f312c11e274bc7edd24ba3) | hertschuh |
 | 2026-11-25 | [Add backend-agnostic implementation for hypot (#24346)](https://github.com/keras-team/keras/commit/d0aece6d3b9d1b9b0b607d437581280ab462d9f6) | SamanehSaadat |
 | 2026-11-25 | [Add backend-agnostic implementation for histogram (#24344)](https://github.com/keras-team/keras/commit/53a837ad0b2323b88e0bc85b1aa7d0f57103d410) | SamanehSaadat |
 | 2026-11-25 | [Speed up backend-agnostic exp2 by using exp instead of power (#24349)](https://github.com/keras-team/keras/commit/9ecd05d7e3d16902e37e3a6c5c164b03ea006d3e) | SamanehSaadat |
 | 2026-11-24 | [Stop using `backend.config` and use `config` directly instead. (#24351)](https://github.com/keras-team/keras/commit/48d0f6f10238441608fe5b33261bd72676a783f5) | hertschuh |
-| 2026-11-24 | [Cleanup references to `backend` in documentation. (#24348)](https://github.com/keras-team/keras/commit/b24e81ddb8ec0a76935f9e86ab4aa1508d6e8d79) | hertschuh |
-| 2026-11-24 | [Use `config.backend()` instead of `backend.backend()`. (#24338)](https://github.com/keras-team/keras/commit/447d92c104267f624d650dc19a7b2bbc476c893c) | hertschuh |
-| 2026-11-24 | [Fix window ops under jax.jit (#24337)](https://github.com/keras-team/keras/commit/3bc4614d1e438cf54f02a0573509faa577b462b9) | SamanehSaadat |
-| 2026-11-23 | [Stop using `backend.set_image_data_format` and instead import `config…](https://github.com/keras-team/keras/commit/504e7fc4be799c8091cf9ddbb119fcfe01dd49e8) | hertschuh |
-| 2026-11-23 | [Do not copy tensors when using a TF dataset with JAX or NumPy. (#24291)](https://github.com/keras-team/keras/commit/3965340f20fb8db7b1ebb3fdfd0e087ea57db4aa) | hertschuh |
-| 2026-11-23 | [Convert integer inputs to floats in sigmoid, softmax and log_softmax …](https://github.com/keras-team/keras/commit/052116b7879edfa54a23185af75eb1ba9e0f1c58) | gaga1313 |
 
 [See all commits ↗](https://github.com/keras-team/keras/commits)
 

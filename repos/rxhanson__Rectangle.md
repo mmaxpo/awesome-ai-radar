@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 30.3k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [24](https://github.com/rxhanson/Rectangle/issues) |
+| 🐞 **Open issues + PRs** | [25](https://github.com/rxhanson/Rectangle/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (4d ago) |
+| 🕒 **Last activity** | 2026-11-20 (5d ago) |
 | 📅 **Created** | 2019-06-21 |
 | 📦 **Latest release** | [v2.0.5](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.0.2](https://github.com/rxhanson/Rectangle/releases/tag/v2.0.2)
-<sub>2026-09-27 · 1mo ago</sub>
+<sub>2026-09-27 · 2mo ago</sub>
 
 > * Fixes a crash when footprint blur is enabled on macOS < 26
 > **Full Changelog**: https://github.com/rxhanson/Rectangle/compare/v2.0.1...v2.0.2

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 61.5k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [122](https://github.com/twentyhq/twenty/issues) |
+| 🐞 **Open issues + PRs** | [155](https://github.com/twentyhq/twenty/issues) |
 | 💻 **Languages** | TypeScript 82% · MDX 16% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `crm` `customer` `graphql` `marketing` `react` `sales` `typescript` `crm-system` `nestjs` `reactjs` `web` `monorepo` `open-source` `postgresql` `good-first-issue` `hacktoberfest` `javascript` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2022-12-01 |
 | 📦 **Latest release** | [twenty/v2.63.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.63.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3195.2 MB |
+| 💾 **Size** | 3243.3 MB |
 | 🌐 **Website** | https://twenty.com |
 
 ## 📦 Recent releases
 
 ### [twenty/v2.63.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.63.0)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > Table columns get three new shapes. A filtered one-to-many column shows related records narrowed by filter, sort, and limit. Summary columns aggregate those records per row: count, sum, or average. Columns can be renamed, and filtered columns can show a single field of their records instead of chips.
 > WhatsApp arrives as a connected app. Members link by QR code, pick which conversations to import, and see messages sync to People. The call recorder gains per-member preferences: record all meetings, only internal, only external, or none — set from a new Recording page in settings.
@@ -47,7 +47,7 @@
 > …
 
 ### [sdk/v2.63.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.63.0)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > One breaking change: `updateFocusedTab` is removed. Switch to `updateTabPresence({ tabId, status })` where status is `'FOCUSED'` or `'OPEN'`. `twenty app build` is also fixed: it no longer crashes when a source file imports a `twenty-ui` export at module level.
 > `twenty-sdk` gains a new `twenty-sdk/email` entry point exporting `isWorkEmail`, `isWorkDomain`, `getDomainFromEmail`, and the full provider list. Apps can now share the server's email classifier instead of maintaining their own.
@@ -58,7 +58,7 @@
 > …
 
 ### [sdk/v2.62.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.62.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > This release fixes a sidebar regression that left non-admin members without the Applications permission unable to see standard navigation items. Companies, People, Opportunities, Tasks, Notes, Dashboards, and folders all disappeared when the customizable sidebar flag was disabled.
 > No SDK exports, types, or CLI commands changed. Package consumers do not need to update their code.
@@ -69,7 +69,7 @@
 > …
 
 ### [twenty/v2.62.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.62.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > The `NOT_STARTED` workflow run status is removed in this release. The upgrade command converts any runs in that state to `ENQUEUED` automatically. Update any custom integrations, filters, or views that reference `NOT_STARTED` before upgrading.
 > A regression from 2.61 is fixed for team members without the Applications permission. Those members were seeing an empty sidebar — Companies, People, Opportunities, Tasks, Notes, and Dashboards all gone. Navigation is restored for those roles.
@@ -80,7 +80,7 @@
 > …
 
 ### [twenty/v2.61.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.61.0)
-<sub>2026-11-22 · 2d ago</sub>
+<sub>2026-11-22 · 3d ago</sub>
 
 > **⚠️ Breaking changes**
 > - [BREAKING_CHANGE] Show member health checks in Apps preferences ([#29242](https://github.com/twentyhq/twenty/pull/29242)) by @ehconitin
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Generate SDK client for soft-deleted workspaces (#31453)](https://github.com/twentyhq/twenty/commit/a5e0443bc525754752ace0be0164ac0dafbb5977) | martmull |
-| 2026-11-25 | [Add cron spreadMs, enqueueJobs limiter and job scheduledAt (#31383)](https://github.com/twentyhq/twenty/commit/736314729b98e27f7d667dfe5c50b5f42c78eb8a) | martmull |
-| 2026-11-25 | [Enforce the privatable creator rule in the workspace migration builde…](https://github.com/twentyhq/twenty/commit/f5b37bd7798eb0eec581d35063b95c103b3b07ce) | Weiko |
-| 2026-11-25 | [i18n - translations (#31454)](https://github.com/twentyhq/twenty/commit/577d2dfc69f5e151bc2eec09cc899728319eebc1) | twenty-pr[bot] |
-| 2026-11-25 | [Address remaining review comments on the billing apps section (#31451)](https://github.com/twentyhq/twenty/commit/393ec0c330ec2b8ee2c5968ccc70a7d4bc3799a8) | martmull |
-| 2026-11-25 | [Show the billing email in Billing settings and unify settings text li…](https://github.com/twentyhq/twenty/commit/93c4a7428b044c6fd2acbcc9052fa369347bd273) | Bonapara |
-| 2026-11-25 | [i18n - translations (#31450)](https://github.com/twentyhq/twenty/commit/9df9d803e7c6d4c5a4be83258ecc87c6c940f3a8) | twenty-pr[bot] |
-| 2026-11-25 | [Offer Add item only inside sidebar sections (#31448)](https://github.com/twentyhq/twenty/commit/15d9103759c30a8eedf4ce1540bad6bfefaab3c9) | thomtrp |
-| 2026-11-25 | [Add apps section to billing settings page (#31435)](https://github.com/twentyhq/twenty/commit/6f1a32bb86093c366bf67279612a8cae334cab7f) | martmull |
-| 2026-11-25 | [Hide the drop line where a sidebar drop would be refused (#31441)](https://github.com/twentyhq/twenty/commit/e1a00637df417c60f7c58bb88b53fb2fa35a2c4e) | thomtrp |
+| 2026-11-26 | [Call recorder: release 1.22.1 (#31609)](https://github.com/twentyhq/twenty/commit/c4552d1744cda26006929aff18f86109ab5ea5aa) | ehconitin |
+| 2026-11-26 | [Call recorder: schedule recorders as the application (#31567)](https://github.com/twentyhq/twenty/commit/e3d4dd6a1a47ee3ecf072de9be51c4bda95b0a37) | ehconitin |
+| 2026-11-26 | [LinkedIn app: point to the General tab when no account is connected (…](https://github.com/twentyhq/twenty/commit/2c381420b1f0c8c448a30a968073544c6b70ebcb) | martmull |
+| 2026-11-26 | [i18n - translations (#31601)](https://github.com/twentyhq/twenty/commit/945ebe33ad63944ec4a88501506a50d5dc583e43) | twenty-pr[bot] |
+| 2026-11-26 | [Compile each object's formula fields once per metadata version (#31491)](https://github.com/twentyhq/twenty/commit/77a32afd83d9f3749c0ce7d417ce7857a3e80c8f) | FelixMalfait |
+| 2026-11-26 | [Remove the IS_CALENDAR_INTERNAL_EVENTS_FILTER_ENABLED feature flag (#…](https://github.com/twentyhq/twenty/commit/3bb333a6987a0d78e27a54a727c136f8fa4fc7a8) | neo773 |
+| 2026-11-26 | [Show "This record" in current-record filter chips (#31480)](https://github.com/twentyhq/twenty/commit/94ce9f5271b7de9c0bb37fce9620a2bb32057ab4) | Weiko |
+| 2026-11-26 | [LinkedIn app: import past conversations automatically, without a Sync…](https://github.com/twentyhq/twenty/commit/b2c5c83780b17275d6a12169ef39639dbbf341d5) | martmull |
+| 2026-11-26 | [WhatsApp app: import past conversations automatically, without a Sync…](https://github.com/twentyhq/twenty/commit/2bfc5bc52b6f88c6025aa44612b444507c68bb66) | martmull |
+| 2026-11-26 | [Show the sender as creator of emails sent from Twenty (#31569)](https://github.com/twentyhq/twenty/commit/36bd0c048ae75dafe0f0c37d0eb210cc8d0a57f9) | martmull |
 
 [See all commits ↗](https://github.com/twentyhq/twenty/commits)
 

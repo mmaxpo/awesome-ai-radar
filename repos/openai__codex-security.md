@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 14.4k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [216](https://github.com/openai/codex-security/issues) |
+| 🐞 **Open issues + PRs** | [220](https://github.com/openai/codex-security/issues) |
 | 💻 **Languages** | TypeScript 77% · Python 19% · JavaScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-security` `application-security` `cli` `code-scanning` `codex` `codex-security` `cybersecurity` `devsecops` `nodejs` `npm` `openai` `sdk` `security` `typescript` `vulnerability-scanning` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-07-13 |
 | 📦 **Latest release** | [action-v0.11.0](https://github.com/openai/codex-security/releases/tag/action-v0.11.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 91.3 MB |
+| 💾 **Size** | 91.5 MB |
 | 🌐 **Website** | https://developers.openai.com/codex/security |
 
 ## 📦 Recent releases
 
 ### [action-v0.11.0](https://github.com/openai/codex-security/releases/tag/action-v0.11.0) — Codex Security GitHub Action 0.11.0
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > GitHub Action for [Codex Security 0.11.0](https://github.com/openai/codex-security/releases/tag/npm-v0.11.0).
 > Installs `@openai/codex-security@0.11.0`.
@@ -45,7 +45,7 @@
 > ```
 
 ### [npm-v0.11.0](https://github.com/openai/codex-security/releases/tag/npm-v0.11.0) — Codex Security 0.11.0
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **Highlights**
 > Codex Security 0.11.0 adds two opt-in ways to investigate a finding. You can check whether a dependency advisory applies to your code or ask AWS Continuum to assess a code finding in a deployed environment.
@@ -56,7 +56,7 @@
 > …
 
 ### [action-v0.10.1](https://github.com/openai/codex-security/releases/tag/action-v0.10.1) — Codex Security GitHub Action 0.10.1
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1).
 > Installs `@openai/codex-security@0.10.1`.
@@ -65,7 +65,7 @@
 > ```
 
 ### [npm-v0.10.1](https://github.com/openai/codex-security/releases/tag/npm-v0.10.1) — Codex Security 0.10.1
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > **Highlights**
 > - **Exclude paths from scans.** Run `cs scan . --exclude-path examples/` to exclude a directory from review in Standard, Deep, or diff scans. Repeat the flag for more paths, or set `scan.exclude_paths` in your project configuration. Paths are literal and relative to the repository. The scanner can still read excluded files for context and filters out findings whose locations all fall under excluded paths.
@@ -76,7 +76,7 @@
 > …
 
 ### [action-v0.10.0](https://github.com/openai/codex-security/releases/tag/action-v0.10.0) — Codex Security GitHub Action 0.10.0
-<sub>2026-11-12 · 13d ago</sub>
+<sub>2026-11-12 · 14d ago</sub>
 
 > GitHub Action for [Codex Security 0.10.0](https://github.com/openai/codex-security/releases/tag/npm-v0.10.0).
 > Installs `@openai/codex-security@0.10.0`.

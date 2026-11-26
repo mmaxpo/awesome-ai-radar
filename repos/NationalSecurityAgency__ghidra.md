@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 101.3k |
+| ⭐ **Stars** | 101.4k |
 | 🍴 **Forks** | 11.5k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/NationalSecurityAgency/ghidra/issues) |
 | 💻 **Languages** | Java 87% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `software-analysis` `disassembler` `reverse-engineering` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-25 (yesterday) |
 | 📅 **Created** | 2019-03-01 |
 | 📦 **Latest release** | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — 2026-10-22 |
 | 🌿 **Default branch** | `master` |

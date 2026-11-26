@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 69.5k |
 | 🍴 **Forks** | 8.3k |
-| 🐞 **Open issues + PRs** | [996](https://github.com/mem0ai/mem0/issues) |
+| 🐞 **Open issues + PRs** | [1.0k](https://github.com/mem0ai/mem0/issues) |
 | 💻 **Languages** | Python 58% · TypeScript 40% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `chatgpt` `llm` `python` `rag` `long-term-memory` `memory` `memory-management` `state-management` `ai-agents` `agents` `genai` `agentic-memory` `agentic-memory-system` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-25 (yesterday) |
 | 📅 **Created** | 2023-06-20 |
 | 📦 **Latest release** | [ts-v3.3.1](https://github.com/mem0ai/mem0/releases/tag/ts-v3.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |

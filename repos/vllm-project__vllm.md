@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 97.6k |
 | 🍴 **Forks** | 25.3k |
-| 🐞 **Open issues + PRs** | [11.2k](https://github.com/vllm-project/vllm/issues) |
-| 💻 **Languages** | Python 86% · Rust 7% · Cuda 4% · C++ 3% |
+| 🐞 **Open issues + PRs** | [11.3k](https://github.com/vllm-project/vllm/issues) |
+| 💻 **Languages** | Python 86% · Rust 7% · Cuda 4% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gpt` `llm` `pytorch` `model-serving` `transformer` `llm-serving` `inference` `llama` `amd` `cuda` `tpu` `deepseek` `qwen` `blackwell` `deepseek-v3` `gpt-oss` `kimi` `moe` `openai` `qwen3` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-02-09 |
 | 📦 **Latest release** | [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 383.6 MB |
+| 💾 **Size** | 384.4 MB |
 | 🌐 **Website** | https://vllm.ai |
 
 ## 📦 Recent releases
 
 ### [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > **v0.34.0**
 > **1,061 commits from 412 contributors (120 new).** Thank you!
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.33.0rc3](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) — v0.33.0
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **v0.33.0**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [[HY4 Flash] Allow fp8_ds_mla KV cache on Flash sliding-window MLA (#6…](https://github.com/vllm-project/vllm/commit/6e248ce820abcd8e2760354a95cecf0a3a0f1225) | grYe99 |
-| 2026-11-25 | [[Bugfix][Transformers backend] Match ignored unexpected keys after re…](https://github.com/vllm-project/vllm/commit/c331ec85faa6b1500f8650897cdbdf21d59e0b85) | hmellor |
-| 2026-11-25 | [[Bugfix][NIXL] Tile whole kernel rows of groups to persist logical bl…](https://github.com/vllm-project/vllm/commit/a95f173d5f0631499adfb3e4eb8b370d07eec4b0) | aarnphm |
-| 2026-11-25 | [[Bugfix] Preserve Clef SystemOne probabilities with raw pooling outpu…](https://github.com/vllm-project/vllm/commit/fca34c0a998fa6b58f98e1a06da08b77c5a78dd6) | taneem-ibrahim |
-| 2026-11-25 | [[Model] Remove Mamba1 models and kernels (#68177)](https://github.com/vllm-project/vllm/commit/0085facc58dedeef757aca3f51d6508e2ef9b148) | ZJY0516 |
-| 2026-11-25 | [[Bugfix][Frontend] Refresh echoed text after prompt truncation (#62691)](https://github.com/vllm-project/vllm/commit/57906d3cc08e8dd9c73a92958ea53fbc6c5f8576) | waizuichougou |
-| 2026-11-25 | [[Perf][Model] Nemotron Shortcut SDSA: convert NVFP4 K/V once per requ…](https://github.com/vllm-project/vllm/commit/99d66fffac23a3ab5d78f2b8c47b3a91985cda8f) | danielafrimi |
-| 2026-11-25 | [[Transformers backend] Support ROCm AITER fused shared experts (#67283)](https://github.com/vllm-project/vllm/commit/689b84c3697623552c0a11eb1e348bf32bc31bba) | hmellor |
-| 2026-11-25 | [[Refactor][SleepMode] Make the allocator data copy a subclass hook (#…](https://github.com/vllm-project/vllm/commit/46042d710e9d46ffda0402f8d54814870bccf296) | floatlibai |
-| 2026-11-25 | [[MyPy] Complete kv-C and enforce KV connector tests (#63008)](https://github.com/vllm-project/vllm/commit/7aa7b7898170826ea07a326e255637aa4d7b8f17) | ntu-b12505041 |
+| 2026-11-26 | [[Model] Remove DBRX (#70133)](https://github.com/vllm-project/vllm/commit/955f85be04b6250d26e6915e26bdf6720fbc8258) | hmellor |
+| 2026-11-26 | [[RL][Weight Transfer] Add sparse_disk backend for sparse deltas throu…](https://github.com/vllm-project/vllm/commit/a95fbda2cd095ee59577ec2b7f5c077d86c64c73) | ShuoleiWang |
+| 2026-11-26 | [[Bugfix][Kimi-K3] Composite transparent images over the checkpoint ba…](https://github.com/vllm-project/vllm/commit/62d538c61e69e760e74b65404d77bd44c778d8f6) | AndreasKaratzas |
+| 2026-11-26 | [[KV Offload] GDS kv offloading support (#66805)](https://github.com/vllm-project/vllm/commit/5446e33049e9457a1d86808b4fb69b494654e6d0) | effi-ofer |
+| 2026-11-26 | [[XPU][CI] Raise API Server Scale Out step timeout to 60 minutes (#70005)](https://github.com/vllm-project/vllm/commit/46e324e5827bcdabe84275a6caef070ba1be84ad) | zhenwei-intel |
+| 2026-11-26 | [[Bugfix][KV Cache] Fix Mamba decode resume caching a block that holds…](https://github.com/vllm-project/vllm/commit/35e0e3c65cdda1183cdfdc381cc17fc324702f6d) | sansblues |
+| 2026-11-26 | [[Core][Perf] Deprioritize superseded Mamba prefix-cache states (#69626)](https://github.com/vllm-project/vllm/commit/7d7d8a9097127c08adf3980bcb9b8dd18834ec7a) | ZJY0516 |
+| 2026-11-26 | [[Security] Reserve HF tokenizer options in chat requests (#69852)](https://github.com/vllm-project/vllm/commit/01eb54eeb140cac834bad88a565239081afab00c) | jperezdealgaba |
+| 2026-11-26 | [[Bugfix][KV Offload] Offload the prompt tail of every attention group…](https://github.com/vllm-project/vllm/commit/4af093713bc66972fe68f1455d7524f08724b1e6) | ChengYao-amd |
+| 2026-11-26 | [[Rust Frontend] Classify multimodal preprocessing errors by fault (#7…](https://github.com/vllm-project/vllm/commit/0f2069ff8ace52c7434c4cceb068c27a9d27f654) | BugenZhao |
 
 [See all commits ↗](https://github.com/vllm-project/vllm/commits)
 

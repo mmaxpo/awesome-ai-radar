@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.8k |
+| ⭐ **Stars** | 101.0k |
 | 🍴 **Forks** | 5.8k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
 | 💻 **Languages** | Dart 79% · Rust 18% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `flutter` `file-sharing` `dart` `flutter-apps` |
-| 🕒 **Last activity** | 2026-11-24 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (2d ago) |
 | 📅 **Created** | 2022-12-16 |
 | 📦 **Latest release** | [v1.19.0](https://github.com/localsend/localsend/releases/tag/v1.19.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.19.0](https://github.com/localsend/localsend/releases/tag/v1.19.0)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > This release also added the rpm package for the first time (e.g. for Fedora users).
 > Please note a breaking change in the CLI when sending files.

@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `web` `mobile` `ai-agents` `ai-coding` `coding-agent` `developer-tools` `docker` `llm` `opencode` `pwa` `react` `remote-development` `self-hosted` `terminal` |
-| 🕒 **Last activity** | 2026-11-20 (5d ago) |
+| 🕒 **Last activity** | 2026-11-20 (6d ago) |
 | 📅 **Created** | 2025-11-24 |
 | 📦 **Latest release** | [v1.1.0](https://github.com/chriswritescode-dev/opencode-manager/releases/tag/v1.1.0) — 2026-10-26 |
 | 🌿 **Default branch** | `main` |

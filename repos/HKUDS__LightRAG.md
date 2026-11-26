@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 40.9k |
 | 🍴 **Forks** | 5.8k |
-| 🐞 **Open issues + PRs** | [279](https://github.com/HKUDS/LightRAG/issues) |
+| 🐞 **Open issues + PRs** | [291](https://github.com/HKUDS/LightRAG/issues) |
 | 💻 **Languages** | Python 91% · TypeScript 7% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `knowledge-graph` `large-language-models` `retrieval-augmented-generation` `genai` `graphrag` `llm` `rag` `gpt` `docling` `mineru` `ragas` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2024-10-02 |
 | 📦 **Latest release** | [v1.5.8](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 127.9 MB |
+| 💾 **Size** | 126.5 MB |
 | 🌐 **Website** | https://arxiv.org/abs/2410.05779 |
 
 ## 📦 Recent releases
 
 ### [v1.5.8](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8)
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Important Notes**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2)
-<sub>2026-11-21 · 3d ago</sub>
+<sub>2026-11-21 · 4d ago</sub>
 
 > **What's Changed**
 > * fix(jina): stop retrying permanent 4xx errors by @Shizoqua in https://github.com/HKUDS/LightRAG/pull/4028
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.5.8rc1](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc1)
-<sub>2026-11-15 · 10d ago</sub>
+<sub>2026-11-15 · 11d ago</sub>
 
 > **Important Notes**
 > > v1.5.8rc1 is a release candidate. Please test it on a copy of your data before upgrading production.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #4691 from danielaskdd/feat/setup-voyageai-embedding](https://github.com/HKUDS/LightRAG/commit/64fc6cb3c510ebfca61da4ddcdeb9d94dad55ccf) | danielaskdd |
-| 2026-11-25 | [feat(voyageai): honor EMBEDDING_BINDING_HOST as the VoyageAI endpoint](https://github.com/HKUDS/LightRAG/commit/86e223d2ab07a905dc492d05aa0a507e27211089) | danielaskdd |
-| 2026-11-25 | [feat(setup): offer VoyageAI as an embedding provider in the wizard](https://github.com/HKUDS/LightRAG/commit/37eb760a31c27495c030740ddb2603e9f1bdc21e) | danielaskdd |
-| 2026-11-24 | [Merge pull request #4642 from shadowinlife/perf/query-fitter-token-memo](https://github.com/HKUDS/LightRAG/commit/cf82ba9f1e516c5c9ba95a6c5adfb60489e0ce59) | danielaskdd |
-| 2026-11-24 | [Merge pull request #4643 from kabishou11/fix/cross-provider-role-host…](https://github.com/HKUDS/LightRAG/commit/512345ec4bd706ab228c7eab25ade600d3e9f031) | danielaskdd |
-| 2026-11-24 | [Merge pull request #4646 from leninworld/fix/embedding-base64-neo4j-k…](https://github.com/HKUDS/LightRAG/commit/db8cb33a3164835d72d9423f50b72cc4d294940a) | danielaskdd |
-| 2026-11-24 | [test(operate): import the budget helpers from their new module path](https://github.com/HKUDS/LightRAG/commit/43fd41689bd574c765607bd687bb6641036af39a) | danielaskdd |
-| 2026-11-24 | [test: move the Neo4j keep_alive parsing test into its own module](https://github.com/HKUDS/LightRAG/commit/0158c9f1524552b0de3d20745f5cd17df689bac0) | danielaskdd |
-| 2026-11-24 | [fix(api): warn when a cross-provider role falls back to its default host](https://github.com/HKUDS/LightRAG/commit/a2d865a2dd67c535b8bd5073ae2c6dfa0c3c1b66) | danielaskdd |
-| 2026-11-24 | [test(operate): move the total-budget fitter suites to tests/operate](https://github.com/HKUDS/LightRAG/commit/0acdca6610ada2ffdada525ecdf43203def9db34) | danielaskdd |
+| 2026-11-26 | [Merge pull request #4686 from kongxinjun/fix/merge-inbound-edges](https://github.com/HKUDS/LightRAG/commit/287fefc85e2d1e739940948ce2a9cb4a0d48f08a) | danielaskdd |
+| 2026-11-26 | [Merge pull request #4693 from MohammadHijjawi97/fix/summary-context-p…](https://github.com/HKUDS/LightRAG/commit/886a99719af69f69443c3101f295629ee6c3ed72) | danielaskdd |
+| 2026-11-25 | [fix(summary): decide the no-LLM join on the bare texts first](https://github.com/HKUDS/LightRAG/commit/e5a1170b04ca7aa014af259204a3982125b9b742) | danielaskdd |
+| 2026-11-25 | [test(graph): keep the populated-row union cases in the merge suite](https://github.com/HKUDS/LightRAG/commit/8a651bfbb195224fb57f997f7fdc9b7e9cfa707a) | danielaskdd |
+| 2026-11-25 | [fix(summary): log descriptions trimmed from a summary prompt](https://github.com/HKUDS/LightRAG/commit/7cc5ea8e3298c02c9b12262c5a675575d9277119) | danielaskdd |
+| 2026-11-25 | [test(graph): trim the merge chunk-tracking suite](https://github.com/HKUDS/LightRAG/commit/86aa0f0115a4b3417941acf10fcf6b4b774e9471) | danielaskdd |
+| 2026-11-25 | [Merge pull request #4658 from HKUDS/dependabot/uv/python-minor-patch-…](https://github.com/HKUDS/LightRAG/commit/2487bbb5a56174a087208c3da69585cf5f33e8a0) | danielaskdd |
+| 2026-11-25 | [build(evaluation): require ragas>=0.4.4 instead of capping langchain-…](https://github.com/HKUDS/LightRAG/commit/61bac8086e82adbae2564930297336abcde501fd) | danielaskdd |
+| 2026-11-25 | [test(graph): fold the edge-direction merge test into the tracking suite](https://github.com/HKUDS/LightRAG/commit/333e4a553c40648e12e5e0dd8c686ad5eb926c5a) | danielaskdd |
+| 2026-11-25 | [fix(summary): size summary groups by the prompt's JSON lines](https://github.com/HKUDS/LightRAG/commit/c54eae0e36dc1babfbacf67577831182dea50f59) | MohammadHijjawi97 |
 
 [See all commits ↗](https://github.com/HKUDS/LightRAG/commits)
 

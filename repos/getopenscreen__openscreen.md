@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.1k |
-| 🍴 **Forks** | 545 |
-| 🐞 **Open issues + PRs** | [82](https://github.com/getopenscreen/openscreen/issues) |
+| ⭐ **Stars** | 8.2k |
+| 🍴 **Forks** | 549 |
+| 🐞 **Open issues + PRs** | [81](https://github.com/getopenscreen/openscreen/issues) |
 | 💻 **Languages** | TypeScript 49% · Rust 20% · HTML 13% · MDX 6% · JavaScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `electron` `open-source` `screen-capture` `screen-recorder` `cross-platform` `ffmpeg` `product-demo` `rust` `screen-recording` `screen-studio` `screencast` `speech-to-text` `typescript` `video-editing` `video-editor` `wayland` `wgpu` `whisper` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-03-14 |
 | 📦 **Latest release** | [v2.4.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 283.2 MB |
+| 💾 **Size** | 283.7 MB |
 | 🌐 **Website** | https://getopenscreen.com/ |
 
 ## 📦 Recent releases
 
 ### [v2.4.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0)
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > If OpenScreen saves you time, a star on the repo helps others find it.
 > **What's Changed**
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.4.0-rc.1](https://github.com/getopenscreen/openscreen/releases/tag/v2.4.0-rc.1) _(pre-release)_
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Changes since v2.3.0**
 > - fix(linux): record through a version 1 ScreenCast portal
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.3.0](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0)
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > <p align="center">
 >   <img src="https://raw.githubusercontent.com/getopenscreen/openscreen/v2.3.0/public/openscreen.png" alt="OpenScreen" width="64" />
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.3.0-rc.7](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.7) _(pre-release)_
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **Changes since v2.3.0-rc.6**
 > - fix(preview): keep scrubs playing while a new source loads
@@ -77,7 +77,7 @@
 > **Full Changelog**: https://github.com/getopenscreen/openscreen/compare/v2.3.0-rc.6...v2.3.0-rc.7
 
 ### [v2.3.0-rc.6](https://github.com/getopenscreen/openscreen/releases/tag/v2.3.0-rc.6) _(pre-release)_
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **Changes since v2.3.0-rc.5**
 > - fix(recording): drop a saved display whose stable id is gone
@@ -91,16 +91,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-23 | [chore(release): release v2.4.0 into main](https://github.com/getopenscreen/openscreen/commit/2b65ea937184de88b6c2a0ccf6e54400c950b10e) | github-actions[bot] |
-| 2026-11-23 | [fix(linux): prevent Wayland HUD clipping at larger text scales](https://github.com/getopenscreen/openscreen/commit/20abd8c8542e8ed1bd655012e607f9a27b082737) | IdrisGit |
-| 2026-11-23 | [fix(cli): write a whole chunk before acknowledging it](https://github.com/getopenscreen/openscreen/commit/e10f02bdf01b7a766e971e9dbefa21a6fa3db150) | EtienneLescot |
-| 2026-11-23 | [fix(cli): give each export its own partial file, and remove it when t…](https://github.com/getopenscreen/openscreen/commit/706317dee1ab518eeb10a1f27a1a714937da3216) | EtienneLescot |
-| 2026-11-23 | [fix(cli): stream the audio export and the voiceover mix in chunks](https://github.com/getopenscreen/openscreen/commit/c41b94ae3eb483bfbc20327d6510182cb219c510) | EtienneLescot |
-| 2026-11-23 | [fix(hud): open no camera preview window at launch while the camera is…](https://github.com/getopenscreen/openscreen/commit/26df66b975f39ab2d80e1bcb84a3b54e927f73c9) | EtienneLescot |
-| 2026-11-23 | [fix(recording): record the only X11 display when Electron's display_i…](https://github.com/getopenscreen/openscreen/commit/5952eba463fa484df40c6cfef6735bb2a75a9d8b) | EtienneLescot |
-| 2026-11-23 | [fix(capture): close an open pause before a Linux take's stopped snapshot](https://github.com/getopenscreen/openscreen/commit/5cdf47c049aca68dc1a1e49838d8862d2a895012) | EtienneLescot |
-| 2026-11-23 | [fix(stt): give up on a Whisper model download that stops receiving data](https://github.com/getopenscreen/openscreen/commit/73058deb2c8f6e4b2666fff0b99935463332e147) | EtienneLescot |
-| 2026-11-23 | [docs(effects): say how to go on when an effect's image cannot be read…](https://github.com/getopenscreen/openscreen/commit/254e8585092ffec33148ee70aae1e15b73e24007) | EtienneLescot |
+| 2026-11-26 | [fix(plugin): ask about a real window before staging; match across whi…](https://github.com/getopenscreen/openscreen/commit/96e3cd327e572eb13b19e4f040e689db9fdad0b4) | claude |
+| 2026-11-26 | [fix(plugin): stop cleanly in the capture skill, ask before a real window](https://github.com/getopenscreen/openscreen/commit/4d2175aea8b15937cab36f0f8c49f8a29e752ff6) | claude |
+| 2026-11-26 | [fix(plugin): stop the directory edition from pointing at a local server](https://github.com/getopenscreen/openscreen/commit/ec5ba943b9f6fb7de0971b4c5742ac3e8bf09b46) | claude |
+| 2026-11-26 | [plugin: ask the user to quit OpenScreen before installing the update](https://github.com/getopenscreen/openscreen/commit/f4eda9b08274bc50e3bd3875b45d672ec6869cb8) | claude |
+| 2026-11-26 | [plugin: ask for a new session after updating, and tell a disconnected…](https://github.com/getopenscreen/openscreen/commit/2f9bc4ade9c85a3ad093ab7f8f18635179839226) | claude |
+| 2026-11-26 | [plugin: point the directory edition's update route at the install guide](https://github.com/getopenscreen/openscreen/commit/2ff5fc200f3adc7fd0928feb4be964e391dd20bd) | claude |
+| 2026-11-26 | [plugin: give the directory edition a route to update OpenScreen](https://github.com/getopenscreen/openscreen/commit/3cdf96bbd68e63867ec2c5a92f1ad710ae2d94c0) | claude |
+| 2026-11-26 | [fix(plugin): keep set-up steps out of the directory edition](https://github.com/getopenscreen/openscreen/commit/9c267b6ffcb9f5e4240024bdcaa3f0c821d07ca4) | claude |
+| 2026-11-26 | [fix(plugin): drop the manifest's network field from the directory edi…](https://github.com/getopenscreen/openscreen/commit/1db0135a2e4287f309d93a1dd6a50c3b295efde7) | claude |
+| 2026-11-26 | [fix(plugin): qualify the capture skill's headless choice in the direc…](https://github.com/getopenscreen/openscreen/commit/0558e0384e581191ee6b1338a913e6d050844edf) | claude |
 
 [See all commits ↗](https://github.com/getopenscreen/openscreen/commits)
 

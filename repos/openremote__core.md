@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.2k |
-| 🍴 **Forks** | 532 |
-| 🐞 **Open issues + PRs** | [496](https://github.com/openremote/core/issues) |
+| 🍴 **Forks** | 535 |
+| 🐞 **Open issues + PRs** | [498](https://github.com/openremote/core/issues) |
 | 💻 **Languages** | Java 48% · TypeScript 26% · Groovy 19% · Shell 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `iot-platform` `iot` `energy` `building` `mqtt` `smartcity` `dashboard` `asset-management` `mqtt-broker` `dataplatform` `rules-engine` `fleet-management` `energy-monitor` `energy-management` `fleet-telematics` `device-management` `edge-computing` `iot-application` `modbus` `ota-update` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2016-02-03 |
 | 📦 **Latest release** | [1.35.0](https://github.com/openremote/core/releases/tag/1.35.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 304.5 MB |
+| 💾 **Size** | 304.7 MB |
 | 🌐 **Website** | https://openremote.io |
 
 ## 📦 Recent releases
 
 ### [1.35.0](https://github.com/openremote/core/releases/tag/1.35.0)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > > [!IMPORTANT]
 > > We have addressed the CVE-2026-114938 Java4Shell vulnerability in this latest Docker image, with an OpenJDK upgrade in #3592.
@@ -47,7 +47,7 @@
 > …
 
 ### [1.34.1](https://github.com/openremote/core/releases/tag/1.34.1)
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **What's Changed**
 > **🐞 Bug fixes**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.34.0](https://github.com/openremote/core/releases/tag/1.34.0)
-<sub>2026-11-06 · 19d ago</sub>
+<sub>2026-11-06 · 20d ago</sub>
 
 > > [!NOTE]
 > > We have also recently published a new `openremote/keycloak` release, version `26.7.5.0`, that introduces a new UI design!
@@ -69,7 +69,7 @@
 > …
 
 ### [1.33.0](https://github.com/openremote/core/releases/tag/1.33.0)
-<sub>2026-10-27 · 29d ago</sub>
+<sub>2026-10-27 · 1mo ago</sub>
 
 > **⚠️  Important notes / Before you upgrade ⚠️**
 > - **Minor behavior changes in datapoint query requests.**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Document downstream compatibility and standardize PR labeling (#3623)](https://github.com/openremote/core/commit/0059156561754a54877f3d90b06653bfc64bdcc6) | wborn |
+| 2026-11-26 | [Show sortable gateway asset links in the tunnels table (#3618)](https://github.com/openremote/core/commit/02f04a17a2ffd7648633a63dd63b004ef084c344) | wborn |
 | 2026-11-24 | [Update `AGENTS.md` to prevent AI accreditation on commits (#3615)](https://github.com/openremote/core/commit/3617eba26f8553c50de2a25757825e307e9804ad) | denniskuijs |
 | 2026-11-24 | [Improve startup sequence to avoid starvation on event processing (#3593)](https://github.com/openremote/core/commit/c748e4f6eb76e5cb9e9a96cd5a8bdca8dc244649) | ebariaux |
 | 2026-11-24 | [Assert the value descriptor schema hash in AssetModelTest (#3586)](https://github.com/openremote/core/commit/028bff97be5493274d4d2eb66ef9dae272d4f3b1) | costajohnt |
@@ -102,8 +104,6 @@
 | 2026-11-24 | [Fall back to the previous version of the create-ec2 CFT template (#3612)](https://github.com/openremote/core/commit/d6094b9a07bd902fed2f39320ae19682a35226af) | denniskuijs |
 | 2026-11-24 | [Bump github/codeql-action/upload-sarif from 4.39.3 to 4.39.4 (#3610)](https://github.com/openremote/core/commit/0e80a4188f3cd1c899488a0a2437ba472fe4db10) | dependabot[bot] |
 | 2026-11-24 | [Bump actions/create-github-app-token from 3.3.0 to 3.4.0 (#3611)](https://github.com/openremote/core/commit/8d57f6a17c58439b64198588ec534ec48d8f18eb) | dependabot[bot] |
-| 2026-11-23 | [Ask for template parameters on config template import (#3564)](https://github.com/openremote/core/commit/d7fed6f6aa65dedd8fd3223214e9a72daac54476) | Ekhorn |
-| 2026-11-23 | [Clean up state left by backend specs and fix UI test role lookup (#3594)](https://github.com/openremote/core/commit/39a171a2338070449200df77105514af23183e50) | Ekhorn |
 
 [See all commits ↗](https://github.com/openremote/core/commits)
 

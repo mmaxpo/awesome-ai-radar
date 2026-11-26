@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 16.4k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [409](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [418](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-24 (yesterday) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 61.6 MB |
+| 💾 **Size** | 62.8 MB |
 | 🌐 **Website** | https://pyo3.rs |
 
 ## 📦 Recent releases
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [build(deps): bump netlify-cli (#6613)](https://github.com/PyO3/pyo3/commit/31a9930a85133683cc01480372c08585dd98b35c) | dependabot[bot] |
+| 2026-11-26 | [build(deps): bump the github-actions group across 2 directories with …](https://github.com/PyO3/pyo3/commit/8843da1a7ee7cf8611b636a2726fb8eaa70140e7) | dependabot[bot] |
+| 2026-11-26 | [ci: relocate `netlify-cli` pin (#6610)](https://github.com/PyO3/pyo3/commit/ee0812de0269b2da0c3c2e913c14350d952a0cd1) | davidhewitt |
+| 2026-11-25 | [docs: add citry-core to README examples (#6594)](https://github.com/PyO3/pyo3/commit/d52064a496b480d8899983ba1630256eb339c7e7) | JuroOravec |
 | 2026-11-24 | [Stubs: do not emit `__str__` and `__repr__` overrides (#6607)](https://github.com/PyO3/pyo3/commit/87868c302bd460098b5b2f4a16f53236f425493f) | Tpt |
 | 2026-11-24 | [fix: jiff ZonedDateTime to datetime and back roundtrip (#6606)](https://github.com/PyO3/pyo3/commit/76d3997a3e6b548f48972bc97ded537de14d09b5) | Ravencentric |
 | 2026-11-24 | [docs: add pygrpc-native to README examples (#6566)](https://github.com/PyO3/pyo3/commit/aa2eb17b75f0fa7a865233635a98d725eca41777) | theminjunchoi |
 | 2026-11-23 | [Use `gh-actions-lock` to lock ci dependencies (#6598) (#6598)](https://github.com/PyO3/pyo3/commit/fdfc9e472b50849fdd87569f03530f87c29b0e80) | bschoenmaeckers |
 | 2026-11-23 | [build(deps-dev): bump the uv-tools group with 4 updates (#6602)](https://github.com/PyO3/pyo3/commit/07cb376a37e66b0c4062dd55c19cb924a8e69871) | dependabot[bot] |
 | 2026-11-23 | [docs: add harper-py to examples (#6548)](https://github.com/PyO3/pyo3/commit/a7772396faf31e1e22ad49a949c8bd28533e36ff) | Maksim-Burtsev |
-| 2026-11-23 | [Implement some missing functions to `PyError` (#6591)](https://github.com/PyO3/pyo3/commit/8ec1796bc634f51790d14ce7fb7829d948a5122e) | clin1234 |
-| 2026-11-23 | [docs: add fin-primitives to README examples (#6585)](https://github.com/PyO3/pyo3/commit/3a4c35c011d1b16be4b6d1a4f3621cef07f9f320) | Mattbusel |
-| 2026-11-23 | [Add support for `parking_lot@0.13` & `lock_api@0.5` (#6600)](https://github.com/PyO3/pyo3/commit/2810ead420c029fe9ac60d705e6cfe7a6f759c06) | bschoenmaeckers |
-| 2026-11-23 | [build(deps): bump the github-actions group across 4 directories with …](https://github.com/PyO3/pyo3/commit/011ade47a3dd471f09fe6ec931fe9d648e8aab00) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

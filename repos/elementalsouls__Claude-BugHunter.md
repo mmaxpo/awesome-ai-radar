@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/elementalsouls/Claude-BugHunter)
 
-> A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+> A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 
 ## 📝 Notes
 
@@ -20,18 +20,18 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 22.5k |
-| 🍴 **Forks** | 2.3k |
-| 🐞 **Open issues + PRs** | [19](https://github.com/elementalsouls/Claude-BugHunter/issues) |
-| 💻 **Languages** | Python 90% · PowerShell 5% · Shell 4% |
+| ⭐ **Stars** | 24.0k |
+| 🍴 **Forks** | 2.4k |
+| 🐞 **Open issues + PRs** | [30](https://github.com/elementalsouls/Claude-BugHunter/issues) |
+| 💻 **Languages** | Python 91% · PowerShell 5% · Shell 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-security` `anthropic` `application-security` `bug-bounty` `bugbounty` `bugcrowd` `claude` `claude-code` `claude-skills` `ethical-hacking` `hackerone` `offensive-security` `pentesting` `red-team` `security-tools` `web-security` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-05-05 |
 | 📦 **Latest release** | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) — 2026-06-05 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3.8 MB |
-| 🌐 **Website** | https://elementalsouls.github.io/Claude-BugHunter |
+| 💾 **Size** | 4.9 MB |
+| 🌐 **Website** | https://elementalsouls.github.io/Claude-BugHunter/ |
 
 ## 📦 Recent releases
 
@@ -61,16 +61,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/c5ff11779ee00beda2cbe05d5093fcd4ecba8f04) | github-actions[bot] |
+| 2026-11-25 | [feat(engine): diff-based regression hunting via cbh diff + /diff (#239)](https://github.com/elementalsouls/Claude-BugHunter/commit/08965e258195f49ce0166ddf38b3d48d82ae3f18) | Huzaifa60 |
+| 2026-11-25 | [docs(changelog): credit @speto2 for the scope-bypass disclosure (#249)](https://github.com/elementalsouls/Claude-BugHunter/commit/a091b520c32d1df87113f3341b6d351166d9ccc0) | elementalsouls |
+| 2026-11-25 | [fix(security): scope bypass via backslash in URL authority + redactio…](https://github.com/elementalsouls/Claude-BugHunter/commit/3e68bed839635edeeb7b27335ba9a4cec8c2d839) | elementalsouls |
+| 2026-11-25 | [docs: PCAP hygiene + Bugcrowd VRT mappings + safer CRLF recovery (in-…](https://github.com/elementalsouls/Claude-BugHunter/commit/4c9966e4cafea11e24309d9e71d1c89602319c57) | elementalsouls |
+| 2026-11-25 | [fix: harness-MCP UTF-8 at import + wapt dispatch coverage (in-house, …](https://github.com/elementalsouls/Claude-BugHunter/commit/f38645334451f517daadccc8a4f902d8555310cb) | elementalsouls |
+| 2026-11-25 | [fix: landing-page no-JS robustness + scope hardening (in-house, credi…](https://github.com/elementalsouls/Claude-BugHunter/commit/464251e55a62d2a397bba20353db0c8a03d5fda7) | elementalsouls |
 | 2026-11-25 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/6a2153d9932adf41fa4d7f5dee626047c5005a83) | github-actions[bot] |
 | 2026-11-24 | [feat(docs): bespoke terminal-HUD landing page for GitHub Pages (#232)](https://github.com/elementalsouls/Claude-BugHunter/commit/9796beeeded3b9e6df50b9f5f89e79dc43bc6915) | elementalsouls |
 | 2026-11-24 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/6b710c27c586100511f81acc2d6403aa2e616204) | github-actions[bot] |
-| 2026-11-24 | [feat(engine): default data isolation + leak-proof attack metrics (#230)](https://github.com/elementalsouls/Claude-BugHunter/commit/d5f7d0d001bc6f6ba4ac38cf730b1871b9d8840c) | elementalsouls |
-| 2026-11-24 | [feat(skill): add exploit-completion + sync skill count 83 → 84 everyw…](https://github.com/elementalsouls/Claude-BugHunter/commit/b33313ba0e507dcbf2ed117b86155c6afb25e99e) | elementalsouls |
-| 2026-11-24 | [feat(engine): deterministic, LLM-free evidence capture + corroboratio…](https://github.com/elementalsouls/Claude-BugHunter/commit/1ba6fd74de74b29b6b9606766dd881eb26a978fc) | elementalsouls |
-| 2026-11-23 | [feat(cbh): `cbh scope import` fills scope.md from a program's publish…](https://github.com/elementalsouls/Claude-BugHunter/commit/5843d2765d1e354de72b64016de964e6d7718f24) | udarshmarthala |
-| 2026-11-23 | [fix(scope): harden the scope gate against three fail-open paths (#182…](https://github.com/elementalsouls/Claude-BugHunter/commit/a7e73914e6e7eba98f39721df53d76629b9bed23) | elementalsouls |
-| 2026-11-23 | [fix: five tooling/engine correctness bugs — classify, extract_json, s…](https://github.com/elementalsouls/Claude-BugHunter/commit/6a530fb3149c8c34d3ba0eb31b4eb431e91da648) | elementalsouls |
-| 2026-11-23 | [chore(readme): dedicated wordmark-only sponsor badge + spacing](https://github.com/elementalsouls/Claude-BugHunter/commit/f645b4cf80d1e4d65eef9513246f347befa3997e) | elementalsouls |
 
 [See all commits ↗](https://github.com/elementalsouls/Claude-BugHunter/commits)
 

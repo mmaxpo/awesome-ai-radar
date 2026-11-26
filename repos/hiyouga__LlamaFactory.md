@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `fine-tuning` `llama` `llm` `peft` `transformers` `rlhf` `qlora` `quantization` `qwen` `instruction-tuning` `gpt` `lora` `large-language-models` `agent` `ai` `moe` `llama3` `deepseek` `gemma` `nlp` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-25 (yesterday) |
 | 📅 **Created** | 2023-05-28 |
 | 📦 **Latest release** | [v0.9.5](https://github.com/hiyouga/LlamaFactory/releases/tag/v0.9.5) — 2026-05-30 |
 | 🌿 **Default branch** | `main` |
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.9.4](https://github.com/hiyouga/LlamaFactory/releases/tag/v0.9.4) — v0.9.4: Goodbye 2025
-<sub>2025-12-31 · 10mo ago</sub>
+<sub>2025-12-31 · 11mo ago</sub>
 
 > **Farewell to 2025. Thank you to all contributors and supporters. We will continue to deliver an easy and efficient LLM fine-tuning framework to the community in 2026. Stay tuned.**
 > **Breaking**

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 61.3k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [564](https://github.com/jamiepine/voicebox/issues) |
+| 🐞 **Open issues + PRs** | [565](https://github.com/jamiepine/voicebox/issues) |
 | 💻 **Languages** | Python 46% · TypeScript 42% · Rust 9% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `voice-clone` `qwen3-tts` `voice-ai` `whisper` `qwen3-tts-ui` `cuda` `mlx` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-25 (yesterday) |
 | 📅 **Created** | 2026-01-25 |
 | 📦 **Latest release** | [v0.6.0](https://github.com/jamiepine/voicebox/releases/tag/v0.6.0) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.6.0](https://github.com/jamiepine/voicebox/releases/tag/v0.6.0)
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > **The stability release.** 0.5 made Voicebox a dictation and agent-voice studio; 0.6 makes it hold up. Sixty-plus contributor pull requests landed since 0.5 and most of them fix something that used to go wrong in daily use: MLX crashed with `There is no Stream(gpu, 1) in current thread` when a model was loaded on one thread and used on another, memory grew with every generation and never came back on unload, a fully-cached model retried HuggingFace five times per file before it would load offline, the Docker image could not write its own data volume, dictation refused to arm without an LLM it was never going to call, and the backend test suite would not even collect. All of that is fixed. The headline features ride on top: native AMD ROCm on Windows and in Docker, five new interface languages, and Chatterbox multilingual running on Apple Silicon through MLX.
 > One change is breaking for existing MCP configs: the four MCP tools are renamed from dotted to underscore names (`voicebox.speak` → `voicebox_speak`, and so on) because Claude Desktop rejects dots in tool names. See the MCP section below.

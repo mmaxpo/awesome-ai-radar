@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 27.9k |
+| ⭐ **Stars** | 28.0k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [22](https://github.com/onlook-dev/onlook/issues) |
+| 🐞 **Open issues + PRs** | [24](https://github.com/onlook-dev/onlook/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `typescript` `design` `frontend` `ui` `figma` `cursor` `ide` `design-to-code` `vibe-coding` `ai` `vibecoding` `claude-code` `codex` `design-system` `design-tool` `visual-engineering` `astryx` `styled-components` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2024-06-25 |
 | 📦 **Latest release** | [v2.0.2](https://github.com/onlook-dev/onlook/releases/tag/v2.0.2) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 89.7 MB |
+| 💾 **Size** | 89.9 MB |
 | 🌐 **Website** | https://onlook.com |
 
 ## 📦 Recent releases
 
 ### [v2.0.2](https://github.com/onlook-dev/onlook/releases/tag/v2.0.2) — Onlook 2.0
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > Onlook is a free, open-source editor for designers and visual engineers who shape their product in real code. This release is the Onlook desktop app: the Electron app, the canvas, and the layer that runs Claude Code or ChatGPT on your Mac.
 > - **Download:** [onlook.com/install](https://www.onlook.com/install). The app is free and works with the Claude or ChatGPT subscription you already have. macOS on Apple silicon and Intel.
@@ -81,16 +81,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [fix(updater): handle apostrophes in Windows profile paths (ONL-3379) …](https://github.com/onlook-dev/onlook/commit/1648c3a307911af76a7e3013941399424080a159) | Krisodd |
+| 2026-11-26 | [fix(starter): keep previews alive through delayed heartbeats (ONL-338…](https://github.com/onlook-dev/onlook/commit/ed79c655c6c1182f4046b129289c894d12015045) | Krisodd |
+| 2026-11-26 | [fix(server): restart saved projects after reopening (ONL-3289) (#3211)](https://github.com/onlook-dev/onlook/commit/97f0d6b7c1b9899514868dac861d725a070fcddf) | Krisodd |
+| 2026-11-26 | [fix(agent-setup): open a usable terminal on Windows (ONL-3384) (#3212)](https://github.com/onlook-dev/onlook/commit/c4d1e4f7de7e5f59c01f7787d232d8f8850f9487) | Krisodd |
+| 2026-11-26 | [fix(git-status): explain Create PR failures (ONL-3367) (#3207)](https://github.com/onlook-dev/onlook/commit/3c2f12ef4badd4624e9e3b3eae1ba3d931260331) | Krisodd |
 | 2026-11-25 | [docs: link the Windows download in the README (#3209)](https://github.com/onlook-dev/onlook/commit/20e374e0d548d7cc43b74b33d08c7e7905db2874) | Krisodd |
 | 2026-11-25 | [fix(updater): install Windows updates silently from Restart to update…](https://github.com/onlook-dev/onlook/commit/2ac0a2b9bce4110a615b5e484cec445cb7d4f7e7) | Krisodd |
 | 2026-11-25 | [fix(updater): recognize the Windows signing certificate (ONL-3378) (#…](https://github.com/onlook-dev/onlook/commit/c548999797028456a8b607e6710dfea83c6bd11f) | Krisodd |
 | 2026-11-25 | [fix(telemetry): bound link opens and count Mac cold starts (ONL-3374)…](https://github.com/onlook-dev/onlook/commit/474a78334f3f93ae75008aa8ab6243a76a98ff1c) | Krisodd |
 | 2026-11-25 | [fix(rail): let Help menus receive mouse clicks (ONL-3359) (#3201)](https://github.com/onlook-dev/onlook/commit/937bcfc6e367d4ab8b7dd35d6c7f11d1a070ad6c) | Krisodd |
-| 2026-11-25 | [fix(workspace): explain missing Git for New Blank Draft (ONL-3373) (#…](https://github.com/onlook-dev/onlook/commit/91a3ff9e8bb9894d44b7ff346e1808fafc977574) | Krisodd |
-| 2026-11-25 | [feat(telemetry): record when the app is opened from a link (ONL-3364)…](https://github.com/onlook-dev/onlook/commit/e07315ac1eec1f5f596a4be49989d3f0b61f1698) | drfarrell |
-| 2026-11-25 | [fix(agent-host): update Codex and Claude runtimes (ONL-3351) (#3195)](https://github.com/onlook-dev/onlook/commit/39ff91ce5a464ba4cd2d3b89f91053d3cc63981b) | Krisodd |
-| 2026-11-25 | [ci: package the unsigned Windows installer on every push to main (ONL…](https://github.com/onlook-dev/onlook/commit/fa0f4cc9dd39ebc3109da004f323d0a766ceabae) | Krisodd |
-| 2026-11-25 | [fix(project-setup): recover supported apps from port conflicts (#3194)](https://github.com/onlook-dev/onlook/commit/9ccb68a6b84ab046827018280670195f955b8801) | Krisodd |
 
 [See all commits ↗](https://github.com/onlook-dev/onlook/commits)
 

@@ -20,76 +20,73 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 119.7k |
+| ⭐ **Stars** | 119.9k |
 | 🍴 **Forks** | 10.4k |
-| 🐞 **Open issues + PRs** | [93](https://github.com/thedotmack/claude-mem/issues) |
-| 💻 **Languages** | TypeScript 67% · JavaScript 28% · Python 4% |
+| 🐞 **Open issues + PRs** | [117](https://github.com/thedotmack/claude-mem/issues) |
+| 💻 **Languages** | TypeScript 65% · JavaScript 30% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `ai-memory` `anthropic` `artificial-intelligence` `claude` `claude-agent-sdk` `claude-agents` `claude-code` `claude-code-plugin` `claude-skills` `long-term-memory` `mem0` `openmemory` `supermemory` `chromadb` `sqlite` `embeddings` `memory-engine` `rag` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-08-31 |
-| 📦 **Latest release** | [v16.1.5](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.5) — 2026-11-25 |
+| 📦 **Latest release** | [v17.0.0](https://github.com/thedotmack/claude-mem/releases/tag/v17.0.0) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 943.1 MB |
+| 💾 **Size** | 936.2 MB |
 | 🌐 **Website** | https://claude-mem.ai |
 
 ## 📦 Recent releases
 
+### [v17.0.0](https://github.com/thedotmack/claude-mem/releases/tag/v17.0.0)
+<sub>2026-11-26 · today</sub>
+
+> **Review Stack in My Work**
+> - Open **Review Stack** in local My Work or in your signed-in Cloud Sync Work View to review files, images, links and other work your agents submit. Browse lets you flip through a stack. Switch to Work to mark a card Seen, save it for later or leave a follow-up.
+> - Hold **Seen** for three seconds to mark a whole Focus Area seen. You can undo the group action, revisit a card and find saved items and follow-ups across paired devices.
+> **Claude-Mem Messages for macOS**
+> - Choose Messages on your Mac or an authorized Photon iMessage line in the app. For Mac Messages, select the chats and the topics to watch. For Photon, add the line to the groups you want to observe. New group conversations become searchable Claude-Mem notes in a project for each chat.
+> - The read-only observer starts with new messages when you begin listening. From Terminal, use `npx claude-mem imessage mac` to check access, list chats, save picks, listen and import contact names. `npx claude-mem imessage setup` configures the Photon line.
+> …
+
+### [v16.2.1](https://github.com/thedotmack/claude-mem/releases/tag/v16.2.1)
+<sub>2026-11-26 · today</sub>
+
+> - **After a release ships, the childhood skill now watches it for 24 hours by default instead of 30 minutes** (#6480). A full day catches slow npm registry updates, late CI and reports from users in other time zones. Checks are close together in the first hour, every 30 minutes until hour 6, then every 2 hours, with a final sweep at the 24-hour mark. A new problem brings that surface back to close checks until it settles. Between checks the agent uses a scheduled check or wake-up instead of holding a session open, and if it can't come back it reports the window as still open, not as clean.
+
+### [v16.2.0](https://github.com/thedotmack/claude-mem/releases/tag/v16.2.0)
+<sub>2026-11-26 · today</sub>
+
+> **iMessage group chats**
+> - **The iMessage group chat observer keeps Claude-Mem notes on a group chat** (#6457). Add a Photon iMessage line to the group and run `npx claude-mem imessage setup`. Each group chat gets its own Claude-Mem project with what the group decided, planned, asked for and shared, and who said what. It only reads: it never sends, reacts or changes a group. See [docs/imessage-group-observer.md](imessage-group-observer.md).
+> **iMessage on your Mac**
+> - **Claude-Mem Messages, a Mac app that keeps notes on the iMessage chats you pick** (#6482). It lists your chats and group chats from the Messages app on your own Mac. Tick the ones to observe and write what to watch for in each ("plans and who's bringing what", "money: who paid, who owes"). New messages in those chats become notes in one Claude-Mem project per chat. It only reads: it never sends, reacts or changes a chat, and nothing is added to the group. Only new messages are read, from when it starts listening. The app needs Full Disk Access, and its setup screen walks you through turning it on. Download the unsigned build from the "iMessage Mac app" check, or build it with `integrations/imessage-mac/scripts/build-app.sh`. See [docs/imessage-mac-app.md](imessage-mac-app.md).
+> - **`claude-mem imessage mac` commands** do the same from Terminal: `check`, `chats`, `pick` (with `--focus` for what to watch for), `observe` and `contacts`.
+
+### [v16.1.6](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.6)
+<sub>2026-11-26 · today</sub>
+
+> - Cloud Sync trial links now identify whether a user followed the GitHub README, the local timeline invitation, the startup message or the installer’s terminal link.
+
 ### [v16.1.5](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.5)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > - Eligible existing installs receive a dated holiday Cloud Sync offer from the new Messages from Claude-Mem queue on their next interactive startup. Each installation records the dispatch time locally. Agents can optionally acknowledge sharing the message with `claude-mem messages acknowledge <message-id>`.
 > - The local memory timeline now offers eligible Claude-Mem users a 30-day Cloud Sync and remote Work Viewer trial with no credit card required. Dismissing the invitation hides it on that browser.
 > - The remote Work Viewer now guides trial users through six workflows, including cross-agent handoffs, decision tracing, and optional weekday briefings and Friday reviews.
 > - The Cloud Sync giveaway GIF at the top of the project README links to cmem.ai.
 
-### [v16.1.4](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.4)
-<sub>2026-11-25 · today</sub>
-
-> - Setup offers a 30-day Cloud Sync trial without a credit card. People installing directly or with an agent can choose a private, signed-in My Work view. Explicit local and custom sync settings are preserved.
-> - The cloud viewer uses the current account to load synced work, evidence and review changes. Returning to a tab verifies the signed-in account before showing its contents. Retrying a save after a lost response reuses the same action ID.
-> - During the trial, My Work offers optional guidance for trying cross-agent sync and shows when to add a payment method to continue.
-
-### [v16.1.3](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.3)
-<sub>2026-11-24 · today</sub>
-
-> **Critical fix**
-> - **OpenRouter errors sent with HTTP 200 no longer discard queued observations** (#6448, thanks @ryrenz, closes #6447 reported by @claudemeister). OpenRouter can accept a request and then report a temporary failure ("high demand", "temporarily rate-limited upstream") in the body of a 200 response, as `{"error":{"code":<number>,...}}`. The observer classified these as unrecoverable, so it did not retry, pause or fall back: it finalized the session and discarded its queued observations. The reporter lost 8.5% to 16% of events in one day. The classifier now uses the numeric `error.code` when the HTTP status is 2xx, so code 429 is a rate limit and 5xx is transient. A litellm output failure ("Unable to get json") stays an output failure and is never resent, because the model already ran and was billed.
-> **Fixes**
-> - **`claude-mem server jobs retry` no longer reports `requeued` for a job it did not publish** (#6439, thanks @HEOJUNFO). If Redis was unreachable, or the shell had no `CLAUDE_MEM_QUEUE_ENGINE=bullmq`, the command printed `"outcome": "requeued"` and exited 0, and the job never ran. It now moves the row back to `failed` with `retry_republish_failed`, prints the reason and exits 1, so the same command works once the queue is reachable.
-> - **Server generation jobs wait out a provider's Retry-After** (#6440, thanks @HEOJUNFO). A rate-limited job was redelivered after 5s and 10s whatever wait the provider asked for, so all three attempts could land inside the window and the job failed with no observation. When the provider sends a wait, the job is now delayed for it (capped at 60s, the same cap the worker uses). Rate limits without a wait, timeouts and 5xx keep the 5s/10s backoff.
-> - **`POST /v1/events` answers 400 instead of 500 for data Postgres can never store** (#6446, thanks @alessandropcostabr). A tool result with a NUL character (for example from reading a binary file) failed every time, and a 500 sent it to the local spool to be retried until the window expired. NUL is now removed from payload and metadata before private-tag stripping and redaction, and other data exceptions (SQLSTATE class 22) answer `400 InvalidData`.
-> …
-
-### [v16.1.2](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.2)
-<sub>2026-11-24 · yesterday</sub>
-
-> **Installer improvements**
-> - On phones, **Set up my agents** stays within reach while you review the detected tools or expand the agent list.
-> - A fresh installation shows how many agents you set up and what Cloud Sync can remember across devices. Setup only offers scan details when it has results or a reading error to show.
-
-### [v16.1.1](https://github.com/thedotmack/claude-mem/releases/tag/v16.1.1)
-<sub>2026-11-23 · yesterday</sub>
-
-> **Cloud Sync setup**
-> - Select **Try Cloud Sync free for 30 days** from your focus areas to open monthly checkout. The trial requires a card and costs $0 today, then $12/month after 30 days.
-> - Setup preselects detected agents. You can discover your recent work or start with your next session. Annual Cloud Sync ($99 upfront) and free local setup are available before checkout. If you already have Cloud Sync, connect your device with your existing plan.
-> - After Cloud Sync activates, setup shows token usage from the original scan and offers optional hosted memory generation. Reloading or retrying checkout keeps the plan you selected.
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Ship the Cloud Sync timeline gift and dated startup messages in 16.1.…](https://github.com/thedotmack/claude-mem/commit/11b47f9f4b8dc3614fab7452647f578886468849) | thedotmack |
-| 2026-11-25 | [Merge pull request #6469 from thedotmack/feat/cloud-sync-remote-routines](https://github.com/thedotmack/claude-mem/commit/4339da34551319c976caad3f1781309803bfb1bf) | thedotmack |
-| 2026-11-25 | [Publish the verified Work Viewer onboarding bundle](https://github.com/thedotmack/claude-mem/commit/a7f8f8f30d6796aa5bd289539a9f294468c16359) | thedotmack |
-| 2026-11-25 | [Guide Cloud Sync trials through remote work and recurring routines](https://github.com/thedotmack/claude-mem/commit/6996017c489c20cee3eeed13ee991ef9127a980c) | thedotmack |
-| 2026-11-25 | [Merge pull request #6467 from thedotmack/docs/cloud-sync-giveaway-gif](https://github.com/thedotmack/claude-mem/commit/18789c834abcade74355e48631088cf728d52a93) | thedotmack |
-| 2026-11-25 | [Show the Cloud Sync giveaway GIF at the top of the README](https://github.com/thedotmack/claude-mem/commit/8ec2bd3310a96431e2351d107ac38458ee79b631) | thedotmack |
-| 2026-11-25 | [Merge pull request #6456 from thedotmack/feat/shared-cloud-sync-insta…](https://github.com/thedotmack/claude-mem/commit/11fdec893eb4ece18ff946758e75e82c92aff71b) | thedotmack |
-| 2026-11-25 | [Merge the credit-cap provider fallback into the Cloud Sync installer …](https://github.com/thedotmack/claude-mem/commit/4a08f6dda4fe0741b10dcfd66aec32059b7ccbdb) | thedotmack |
-| 2026-11-25 | [build: prepare release bundles](https://github.com/thedotmack/claude-mem/commit/a97d89f9903520bce5c08d64042a1e7fbf7845ca) | github-actions[bot] |
-| 2026-11-25 | [Use the available default backup when a regular agent plan is unavail…](https://github.com/thedotmack/claude-mem/commit/cc55c17db4e8a9714d7ad25b26accaa8cff7baef) | thedotmack |
+| 2026-11-26 | [chore: promote 17.0.0 for auto-update](https://github.com/thedotmack/claude-mem/commit/9b3b78dfa53f80e7c9c447b9269ceda255ee99d9) | thedotmack |
+| 2026-11-26 | [Merge pull request #6491 from thedotmack/feat/v17-work-view-review](https://github.com/thedotmack/claude-mem/commit/94474143a3d5bb6f1f25d8049194d675d724310e) | thedotmack |
+| 2026-11-26 | [build: prepare release bundles](https://github.com/thedotmack/claude-mem/commit/6b1514951af175d17675c1fc9a891f8dae627692) | github-actions[bot] |
+| 2026-11-26 | [fix(work-view): use shared buttons for review modes and previews](https://github.com/thedotmack/claude-mem/commit/0aabfe7a2373dd273fb663e846710149a5e2fd9d) | thedotmack |
+| 2026-11-26 | [fix(release): refresh staged release notes on a full workflow retry](https://github.com/thedotmack/claude-mem/commit/ee50d4faea43f631c8d813b2cfaa6c08ff089ae0) | thedotmack |
+| 2026-11-26 | [fix(release): verify the Mac download before publishing tagged versions](https://github.com/thedotmack/claude-mem/commit/b37b8aa956f63056fca4819d0c5359d8e9785642) | thedotmack |
+| 2026-11-26 | [build: prepare release bundles](https://github.com/thedotmack/claude-mem/commit/6e1842faa36c51cfcc4e1bc2429f880d79b73a44) | github-actions[bot] |
+| 2026-11-26 | [Refresh open review decks and keep authenticated thumbnails with thei…](https://github.com/thedotmack/claude-mem/commit/d720ae371503fa9c3c95ff6621ca893c918fc599) | thedotmack |
+| 2026-11-26 | [chore: promote 16.2.1 for auto-update and date its changelog entry](https://github.com/thedotmack/claude-mem/commit/50e3bc6f6d70ac1e80b884ff0a48618f9728fdf7) | claude |
+| 2026-11-26 | [Merge the released Mac observer and 16.2.1 history into Claude-Mem 17](https://github.com/thedotmack/claude-mem/commit/ab384debd74c175587f0bf5d399b9a6ff24c7fb9) | thedotmack |
 
 [See all commits ↗](https://github.com/thedotmack/claude-mem/commits)
 

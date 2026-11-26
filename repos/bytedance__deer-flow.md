@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 85.8k |
 | 🍴 **Forks** | 12.1k |
-| 🐞 **Open issues + PRs** | [955](https://github.com/bytedance/deer-flow/issues) |
+| 🐞 **Open issues + PRs** | [979](https://github.com/bytedance/deer-flow/issues) |
 | 💻 **Languages** | Python 82% · TypeScript 14% · MDX 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `agentic` `agentic-framework` `agentic-workflow` `ai` `ai-agents` `deep-research` `langchain` `langgraph` `llm` `multi-agent` `nodejs` `podcast` `python` `langmanus` `typescript` `harness` `superagent` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-05-07 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/bytedance/deer-flow/releases/tag/v2.2.0) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 109.0 MB |
+| 💾 **Size** | 109.3 MB |
 | 🌐 **Website** | https://deerflow.tech |
 
 ## 📦 Recent releases
 
 ### [v2.2.0](https://github.com/bytedance/deer-flow/releases/tag/v2.2.0) — DeerFlow 2.2.0
-<sub>2026-11-04 · 21d ago</sub>
+<sub>2026-11-04 · 22d ago</sub>
 
 > **DeerFlow 2.2.0**
 > DeerFlow 2.2 turns the 2.1 super-agent harness into a deployment-grade platform
@@ -72,16 +72,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [fix(scheduler-ui): preserve seconds in local one-time timestamps (#8627)](https://github.com/bytedance/deer-flow/commit/aa9913c4cc2d3ba537d78a48de9ef531fdcbbb05) | wzxsdf |
-| 2026-11-25 | [fix(skills): write each history record whole under the history file l…](https://github.com/bytedance/deer-flow/commit/f3dfb55110e9beeb5aceae7678510e70b880e43a) | hyeonsang010716 |
-| 2026-11-25 | [feat(mcp): maintain agent credential grants at runtime (grants: runti…](https://github.com/bytedance/deer-flow/commit/526864b47e86dbfc4b5c02baffe763e3abe23c09) | bascan |
-| 2026-11-25 | [fix(projects): keep shelf index entries line-atomic (#8521)](https://github.com/bytedance/deer-flow/commit/5f964ba2f04dbe20d9acdc3de45ab97f188c72ea) | BlueX888 |
-| 2026-11-25 | [feat(vefaas-sandbox): add speculative prewarm, snapshots, pause/resum…](https://github.com/bytedance/deer-flow/commit/882063d83db4681c533c6e42f4a35b6595c9e39e) | kevinisbest |
-| 2026-11-25 | [feat(sandbox): make AIO sandbox Pod resources configurable (#8575)](https://github.com/bytedance/deer-flow/commit/f9b7598fdddc315a4a578fb5d7315a6bca405c2f) | ZedingZhang |
-| 2026-11-25 | [fix(sandbox): defer fresh OpenSandbox skill-policy acquisition (#8590)](https://github.com/bytedance/deer-flow/commit/f56fb962d0cbf8b2194256919c03098f02b62269) | bascan |
-| 2026-11-25 | [fix(client): honor saved and per-call reasoning effort (#8597)](https://github.com/bytedance/deer-flow/commit/72ca21dd4bda22592d7cb782446345aca128a96d) | Wang-Zephyr |
-| 2026-11-25 | [fix(sandbox): stop the rest of a cancelled AIO command (#8566)](https://github.com/bytedance/deer-flow/commit/6e3746e04e0dc11276f55ea86c437d87e8fc0180) | kongxinjun |
-| 2026-11-25 | [fix(frontend): localize main chat send and stop button names (#8588)](https://github.com/bytedance/deer-flow/commit/5d2f9014c1218e918dbd42f6717950178b2ccdab) | jadelike-wine |
+| 2026-11-26 | [fix(subagents): keep batch item token usage across attempts (#8647)](https://github.com/bytedance/deer-flow/commit/349540c13fbebb03b8bc1e3fd03d913682900751) | bascan |
+| 2026-11-26 | [fix(scheduler): canonicalize one-time task timestamps at the Gateway …](https://github.com/bytedance/deer-flow/commit/c0eefedc4f434cf01982ad4c92f5ba09b77c4d12) | Totoro-qaq |
+| 2026-11-26 | [fix(report-sections): preserve literal hashes in titles (#8576)](https://github.com/bytedance/deer-flow/commit/af7a6ade1353a74973999dc7616fa249d39f1858) | lihongyuan99 |
+| 2026-11-26 | [feat(runtime): support attachments in queued Web messages (#8487)](https://github.com/bytedance/deer-flow/commit/5758c1034e69b8bd256a6a2d31f1bf575f9a2bb7) | Hazenix |
+| 2026-11-26 | [fix(sandbox): bound network policy event history and fail closed on d…](https://github.com/bytedance/deer-flow/commit/3d157954e0dac0f899ceb3d9a38358128a4a971a) | Loveca |
+| 2026-11-26 | [fix(skills): reject damaged archive members as invalid packages (#8685)](https://github.com/bytedance/deer-flow/commit/f8cde989d9b2cf57eb782c49354e295bedd0d77e) | Wang-Zephyr |
+| 2026-11-26 | [fix(agents): respect custom lead reasoning in web chat modes (#8690)](https://github.com/bytedance/deer-flow/commit/08694c63786531a9ba9a40ce4a9f2466b7382a37) | Totoro-qaq |
+| 2026-11-26 | [fix(skills): reject empty OpenAI-compatible images and overlong MiniM…](https://github.com/bytedance/deer-flow/commit/4dfb5ae47a3097e6b7a2606bae4e1477f5f29ba7) | yetuge |
+| 2026-11-26 | [fix(input-polish): preserve Unicode separators in fenced drafts (#8644)](https://github.com/bytedance/deer-flow/commit/9a1e1c43981324917c81727da2e8be280683c807) | Wang-Zephyr |
+| 2026-11-26 | [fix(skills): reject an archive whose SKILL.md is a directory (#8648)](https://github.com/bytedance/deer-flow/commit/d3aad45fc630572da2800645677035ef111524de) | hyeonsang010716 |
 
 [See all commits ↗](https://github.com/bytedance/deer-flow/commits)
 

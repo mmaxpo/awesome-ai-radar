@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 66.8k |
-| 🍴 **Forks** | 13.2k |
-| 🐞 **Open issues + PRs** | [442](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| ⭐ **Stars** | 67.0k |
+| 🍴 **Forks** | 13.3k |
+| 🐞 **Open issues + PRs** | [431](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 262.5 MB |
+| 💾 **Size** | 266.6 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 28d ago</sub>
+<sub>2026-10-28 · 29d ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #1711 from bilawalsidhu/mazeyar/perf-firms-cached-…](https://github.com/bilawalsidhu/gods-eye-view/commit/84ca483a8de5e5228e343fd38be0724c9dde2e45) | gekh |
-| 2026-11-25 | [Merge remote-tracking branch 'origin/main' into mazeyar/perf-firms-ca…](https://github.com/bilawalsidhu/gods-eye-view/commit/f055c3d0d90349ce85d835b6f9b9071b00483d49) | gekh |
-| 2026-11-25 | [Merge pull request #1678 from quanticsoul4772/upstream/windows-ci-nom…](https://github.com/bilawalsidhu/gods-eye-view/commit/48491175bc54989fc2dee82bacbf59158035d265) | gekh |
-| 2026-11-25 | [Merge branch 'main' into upstream/windows-ci-nominatim-test](https://github.com/bilawalsidhu/gods-eye-view/commit/5a823235470917709ec20efb54bcc4db973f45b1) | gekh |
-| 2026-11-25 | [Merge pull request #1195 from ianblenke/boundaries-overlay](https://github.com/bilawalsidhu/gods-eye-view/commit/bde2e5e6a209ed77b0f178ce969e2bf8ab5f2efc) | gekh |
-| 2026-11-25 | [Merge remote-tracking branch 'origin/main' into boundaries-overlay](https://github.com/bilawalsidhu/gods-eye-view/commit/994b8bc118c8b296d9318d230da264ab437c2b82) | gekh |
-| 2026-11-25 | [Merge branch 'main' into upstream/windows-ci-nominatim-test](https://github.com/bilawalsidhu/gods-eye-view/commit/0f2dcd5e7f43079344b0a4d4a7cb1cf27f0c4854) | gekh |
-| 2026-11-25 | [Merge pull request #1903 from bilawalsidhu/mazeyar/aircraft-angle-spr…](https://github.com/bilawalsidhu/gods-eye-view/commit/d011646553a98b1b622e67d2f4a9eddcc2dbb21b) | gekh |
-| 2026-11-25 | [Merge remote-tracking branch 'origin/main' into mazeyar/aircraft-angl…](https://github.com/bilawalsidhu/gods-eye-view/commit/187fd8ebbc2060493c5386d362a7c11c46bb9830) | gekh |
-| 2026-11-25 | [Merge pull request #1640 from quanticsoul4772/upstream/hud-sun-negati…](https://github.com/bilawalsidhu/gods-eye-view/commit/298c4e85a70bd6770486fc682538d835397dbb98) | gekh |
+| 2026-11-26 | [Merge pull request #1947 from bilawalsidhu/sameh/aq-rating-export](https://github.com/bilawalsidhu/gods-eye-view/commit/2ae043baeec0eb590aaa5e86bae1ad57055f4f9b) | samehkhamis |
+| 2026-11-26 | [feat(air-quality): the portable source exports its rating rules](https://github.com/bilawalsidhu/gods-eye-view/commit/f0839f3f9fc28161244568b482d5c7b415a448a8) | samehkhamis |
+| 2026-11-26 | [Merge pull request #1945 from bilawalsidhu/samehkhamis/phone-layer-me…](https://github.com/bilawalsidhu/gods-eye-view/commit/13d15a794413366842b9325b54ee33e5a049e8b1) | samehkhamis |
+| 2026-11-26 | [Merge branch 'main' into samehkhamis/phone-layer-memory](https://github.com/bilawalsidhu/gods-eye-view/commit/72d26e21d7aa62145aea8822c67ab653561b0e71) | samehkhamis |
+| 2026-11-26 | [Merge pull request #1946 from bilawalsidhu/sameh/aq-so2-doc](https://github.com/bilawalsidhu/gods-eye-view/commit/46bc9a33f8f283a8dd252124bc4fcd04d4c1fc6d) | samehkhamis |
+| 2026-11-26 | [Merge branch 'main' into samehkhamis/phone-layer-memory](https://github.com/bilawalsidhu/gods-eye-view/commit/3cc21ddf21ecae1a8a8fedcc2b03315cfc762382) | samehkhamis |
+| 2026-11-26 | [docs(air-quality): a 24-hour SO2 row below 305 ppb does not rate alone](https://github.com/bilawalsidhu/gods-eye-view/commit/01c8a8d1d066cb15d8a79e7525fcd274353d22a1) | samehkhamis |
+| 2026-11-26 | [Merge pull request #1943 from bilawalsidhu/sameh/vessel-brackets](https://github.com/bilawalsidhu/gods-eye-view/commit/648ee2815d8f62dfc5657a50f807d77c1c488e28) | samehkhamis |
+| 2026-11-26 | [docs(changelog): phone overlay canvases (#1945)](https://github.com/bilawalsidhu/gods-eye-view/commit/e0e24cf191fcc1a361cc70ddfadec9311010ad84) | samehkhamis |
+| 2026-11-26 | [fix(scope-mask): a desktop ratio under 1 is kept for the feathered mask](https://github.com/bilawalsidhu/gods-eye-view/commit/6bb1a098be30cca1fd403abb6b20a7e1552fb02c) | samehkhamis |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

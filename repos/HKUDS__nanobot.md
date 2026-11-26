@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 50.3k |
+| ⭐ **Stars** | 50.4k |
 | 🍴 **Forks** | 8.8k |
-| 🐞 **Open issues + PRs** | [865](https://github.com/HKUDS/nanobot/issues) |
+| 🐞 **Open issues + PRs** | [866](https://github.com/HKUDS/nanobot/issues) |
 | 💻 **Languages** | Python 61% · TypeScript 38% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `ai-agents` `openclaw` `agent-framework` `chatbot` `chatops` `discord-bot` `llm-agents` `llms` `local-llm` `mcp` `model-context-protocol` `multi-agent` `openai-compatible` `personal-ai-assistant` `python` `self-hosted` `telegram-bot-ai-assistant` `webui` `workflow-automation` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-02-01 |
 | 📦 **Latest release** | [v0.4.2](https://github.com/HKUDS/nanobot/releases/tag/v0.4.2) — 2026-11-21 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.2](https://github.com/HKUDS/nanobot/releases/tag/v0.4.2)
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > **Changes**
 > - Connect over SSH to gateways that also advertise a public WebSocket URL. **Use existing SSH settings** now supports Windows hosts where Python 3 is available as `python`. The quick-pairing command remains Linux-only; gateway-native TLS and `trustedProxyAuth` are still unsupported over SSH. [#6682](https://github.com/HKUDS/nanobot/pull/6682)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.4.1](https://github.com/HKUDS/nanobot/releases/tag/v0.4.1)
-<sub>2026-11-06 · 18d ago</sub>
+<sub>2026-11-06 · 19d ago</sub>
 
 > **Changes**
 > - Fix TLS certificate verification, sandboxed shell execution and workspace permissions for queued inputs.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.4.0](https://github.com/HKUDS/nanobot/releases/tag/v0.4.0)
-<sub>2026-10-28 · 28d ago</sub>
+<sub>2026-10-28 · 29d ago</sub>
 
 > 🐈 **nanobot `v0.4.0`** makes everyday work easier to continue — with durable conversation history, a more capable workbench, and a clearer path to the next update.
 > **Keep moving.** The gateway now stores model history and browser transcripts in SQLite, imports existing conversations, and coordinates updates around saved state. Stable and opt-in Preview releases share one update flow, with explicit confirmation before installation and restart.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [fix(webui): render bare HTML line breaks in Markdown (#6804)](https://github.com/HKUDS/nanobot/commit/c360a10e8ca8afd18916b73b7575f015941a33d9) | IndigoC |
 | 2026-11-25 | [fix(webui): archive only the selected sessions (#6800)](https://github.com/HKUDS/nanobot/commit/5b17369b584e0b7300bf7ad00e845d46f6515336) | chengyongru |
 | 2026-11-25 | [fix(exec): separate foreground commands from background session capac…](https://github.com/HKUDS/nanobot/commit/9d979f4224689c982299e1de172e7cb5991eb37b) | chengyongru |
 | 2026-11-25 | [docs: refresh WeChat group 2 QR code through December 2 (#6799)](https://github.com/HKUDS/nanobot/commit/51d19335ce3c9aab5642cd65689d817e2a0b7b2c) | chengyongru |
@@ -103,7 +104,6 @@
 | 2026-11-25 | [fix(webui): show a loading ring beside messages awaiting delivery (#6…](https://github.com/HKUDS/nanobot/commit/f3801316bd5d27cb4f46dc522ae215519af4b86d) | chengyongru |
 | 2026-11-25 | [chore: ignore .nanobot working directory (#6795)](https://github.com/HKUDS/nanobot/commit/6fd17574b33c8773914009c69b75c708533022c2) | chengyongru |
 | 2026-11-25 | [fix(webui): fade session switches without stretching workbench panes …](https://github.com/HKUDS/nanobot/commit/f14bb1b492b22cfba02fc66a183f89e3a1d02a37) | chengyongru |
-| 2026-11-25 | [fix: deliver empty final replies as structured turn failures (#6773)](https://github.com/HKUDS/nanobot/commit/70ad57b8822f778752c7619d73d07215642a268d) | chengyongru |
 
 [See all commits ↗](https://github.com/HKUDS/nanobot/commits)
 

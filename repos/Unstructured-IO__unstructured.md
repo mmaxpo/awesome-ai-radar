@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 15.8k |
 | 🍴 **Forks** | 1.4k |
-| 🐞 **Open issues + PRs** | [490](https://github.com/Unstructured-IO/unstructured/issues) |
+| 🐞 **Open issues + PRs** | [493](https://github.com/Unstructured-IO/unstructured/issues) |
 | 💻 **Languages** | HTML 87% · Python 12% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `document-parsing` `machine-learning` `nlp` `ocr` `information-retrieval` `data-pipelines` `ml` `preprocessing` `pdf-to-text` `natural-language-processing` `pdf` `pdf-to-json` `document-image-analysis` `donut` `document-image-processing` `document-parser` `docx` `langchain` `llm` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-24 (yesterday) |
 | 📅 **Created** | 2022-09-26 |
 | 📦 **Latest release** | [0.27.38](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.38) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [0.27.38](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.38)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **What's Changed**
 > **Enhancements**
@@ -47,7 +47,7 @@
 > …
 
 ### [0.27.37](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.37)
-<sub>2026-11-06 · 18d ago</sub>
+<sub>2026-11-06 · 19d ago</sub>
 
 > **What's Changed**
 > **Fixes**
@@ -58,7 +58,7 @@
 > …
 
 ### [0.27.36](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.36)
-<sub>2026-10-30 · 26d ago</sub>
+<sub>2026-10-30 · 27d ago</sub>
 
 > **What's Changed**
 > **Other changes**
@@ -69,7 +69,7 @@
 > …
 
 ### [0.27.35](https://github.com/Unstructured-IO/unstructured/releases/tag/0.27.35)
-<sub>2026-10-27 · 29d ago</sub>
+<sub>2026-10-27 · 1mo ago</sub>
 
 > **What's Changed**
 > **Other changes**

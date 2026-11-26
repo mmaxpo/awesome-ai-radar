@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 1.2k |
+| ⭐ **Stars** | 1.3k |
 | 🍴 **Forks** | 155 |
 | 🐞 **Open issues + PRs** | [8](https://github.com/rohitg00/awesome-claude-design/issues) |
 | 💻 **Languages** | — |

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 90.3k |
-| 🍴 **Forks** | 14.0k |
-| 🐞 **Open issues + PRs** | [876](https://github.com/cheaper-inference/OmniRoute/issues) |
+| ⭐ **Stars** | 90.5k |
+| 🍴 **Forks** | 14.1k |
+| 🐞 **Open issues + PRs** | [891](https://github.com/cheaper-inference/OmniRoute/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `a2a` `ai-agents` `ai-gateway` `anthropic` `claude` `claude-code` `cline` `codex` `copilot` `cursor` `deepseek` `free-ai` `gemini` `llm-gateway` `mcp` `openai` `openai-proxy` `qwen` `token-saver` `kimi` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v3.8.54](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54) — 2026-11-17 |
 | 🌿 **Default branch** | `release/v3.8.55` |
-| 💾 **Size** | 3780.9 MB |
+| 💾 **Size** | 3825.9 MB |
 | 🌐 **Website** | https://omniroute.online |
 
 ## 📦 Recent releases
 
 ### [v3.8.54](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54)
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **OmniRoute v3.8.54**
 > - **Providers:** official "Sign in with ChatGPT" provider (`chatgpt`, PKCE + live model discovery); MiniMax Code (managed gateway + dashboard device-code sign-in); RenderHour (images, video, speech); MegaBrain (dual auth); EmpirioLabs, ParalonCloud, deAPI, Replicate chat, Cerebrium, Hetzner Inference and Grokified; native `opencode-server` executor; Microsoft 365 Copilot work/school sign-in; GitHub Copilot embeddings; Gemini Lyria 3 music models; custom JSON API provider nodes (request template + response path).
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.8.53](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.53)
-<sub>2026-11-06 · 19d ago</sub>
+<sub>2026-11-06 · 20d ago</sub>
 
 > **OmniRoute v3.8.53**
 > **1,189 documented changes** from 1,162 commits in the cycle, with **222 people** contributing. Thank you all.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #21204 from cheaper-inference/fix/release-v3.8.55-…](https://github.com/cheaper-inference/OmniRoute/commit/e6476f01a9fd0a76df12326cc742aeef00ffa63a) | diegosouzapw |
-| 2026-11-25 | [fix(docker): drop all capabilities and forbid privilege gains in comp…](https://github.com/cheaper-inference/OmniRoute/commit/38f8e51e261a7593d10a525612a92198a224d9b8) | diegosouzapw |
-| 2026-11-25 | [fix(docker): give the Bun web image the full Playwright installer (#2…](https://github.com/cheaper-inference/OmniRoute/commit/f639a2c887973663ef4b264e88d853f3c8923b09) | diegosouzapw |
-| 2026-11-25 | [build(docker): run the Node images on Wolfi instead of Debian (#21177)](https://github.com/cheaper-inference/OmniRoute/commit/81668e27470846dda762d5b2eae51c0f4b7e0d38) | diegosouzapw |
-| 2026-11-25 | [Merge pull request #21180 from cheaper-inference/fix/kea-9516-reserve…](https://github.com/cheaper-inference/OmniRoute/commit/8e8b8377b916b92f3f05277a64fff654ec147000) | diegosouzapw |
-| 2026-11-25 | [Merge remote-tracking branch 'origin/release/v3.8.55' into fix/kea-95…](https://github.com/cheaper-inference/OmniRoute/commit/964e60c0d78930c0b7e490dbdf960617f3360a9e) | diegosouzapw |
-| 2026-11-25 | [Merge pull request #21147 from cheaper-inference/fix/injection-guard-…](https://github.com/cheaper-inference/OmniRoute/commit/b4ff3daa62a5a707c4ca92ad17052898ee7b5db1) | diegosouzapw |
-| 2026-11-25 | [Merge pull request #21176 from cheaper-inference/fix/stream-retained-…](https://github.com/cheaper-inference/OmniRoute/commit/badd29369f314e0fa57a87fc0f4851babd6b14f9) | diegosouzapw |
-| 2026-11-25 | [Merge pull request #21152 from cheaper-inference/fix/stream-semantic-…](https://github.com/cheaper-inference/OmniRoute/commit/0b7113e66fd34c6fafdb9183ba477bdb50689a43) | diegosouzapw |
-| 2026-11-25 | [Merge remote-tracking branch 'origin/release/v3.8.55' into fix/kea-95…](https://github.com/cheaper-inference/OmniRoute/commit/b4498dfd50e9c2d71edb787fcb4c3378a0154bf6) | diegosouzapw |
+| 2026-11-26 | [Merge PR #20383: deps: bump node from 26.12.1-trixie-slim to 26.13.0-…](https://github.com/cheaper-inference/OmniRoute/commit/49f6a0fc52b0f43aa6084c84fda59e4c7f172d92) | diegosouzapw |
+| 2026-11-26 | [Merge PR #21069: deps: bump oven/bun from 1.4.4-slim to 1.4.5-slim (@…](https://github.com/cheaper-inference/OmniRoute/commit/773beaa09eb975d83beb76b7818428ce03f314b4) | diegosouzapw |
+| 2026-11-26 | [Merge PR #21187: fix(guardrails): load sharp on use so boot survives …](https://github.com/cheaper-inference/OmniRoute/commit/7d03f7d7f272d32cc7b3021eade78d0c58e6c36c) | diegosouzapw |
+| 2026-11-26 | [Merge PR #21251: docs(merge-queue): the runbook records the live cut-…](https://github.com/cheaper-inference/OmniRoute/commit/f85f32777e4f5153aefe8f18ccdc1e93e5dbc4e6) | diegosouzapw |
+| 2026-11-26 | [Merge PR #19850: fix(providers): register Claude Fable 5.2 metadata a…](https://github.com/cheaper-inference/OmniRoute/commit/0be8393a00d2c8fb941287bb6f411bc0d938e252) | diegosouzapw |
+| 2026-11-26 | [Merge PR #21247: fix(sse): require readiness for keyless auto routing…](https://github.com/cheaper-inference/OmniRoute/commit/8255219c9406b96b2d59a285dc1472b15023d3f7) | diegosouzapw |
+| 2026-11-26 | [Merge PR #21161: docs(readme): print the free-token figures in pairs,…](https://github.com/cheaper-inference/OmniRoute/commit/4de5c9b65f4cd1f966dbdf09c9d6ff510baa97a1) | diegosouzapw |
+| 2026-11-26 | [Merge PR #20949: fix(usage): retain explicit zero cache reads in Clau…](https://github.com/cheaper-inference/OmniRoute/commit/06c32627359c5fd70c5212e9bed26afeca025255) | diegosouzapw |
+| 2026-11-26 | [Merge PR #21133: fix(images): preserve OpenAI publisher IDs in legacy…](https://github.com/cheaper-inference/OmniRoute/commit/6d99c052a58d8de0771b211c1181bbc1e3e354ef) | diegosouzapw |
+| 2026-11-26 | [Merge PR #21107: fix(dashboard): show live cache-write token counts (…](https://github.com/cheaper-inference/OmniRoute/commit/fe8b139d689ec2dea827862c64f2c321ab3deb84) | diegosouzapw |
 
 [See all commits ↗](https://github.com/cheaper-inference/OmniRoute/commits)
 

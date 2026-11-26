@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 85.2k |
+| ⭐ **Stars** | 85.3k |
 | 🍴 **Forks** | 9.9k |
 | 🐞 **Open issues + PRs** | [92](https://github.com/mlabonne/llm-course/issues) |
 | 💻 **Languages** | — |

@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.45](https://github.com/crewAIInc/crewAI/releases/tag/1.15.45) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 302.4 MB |
+| 💾 **Size** | 303.1 MB |
 | 🌐 **Website** | https://crewai.com |
 
 ## 📦 Recent releases
 
 ### [1.15.45](https://github.com/crewAIInc/crewAI/releases/tag/1.15.45)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44)
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.43](https://github.com/crewAIInc/crewAI/releases/tag/1.15.43)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes**
@@ -69,7 +69,7 @@
 > …
 
 ### [1.15.42](https://github.com/crewAIInc/crewAI/releases/tag/1.15.42)
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · 12d ago</sub>
+<sub>2026-11-12 · 13d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [feat: add Flow.install_persistence for late-bound backends (#9798)](https://github.com/crewAIInc/crewAI/commit/77237aecacb204684a80e334dcd8eefa90d7ee60) | lucasgomide |
+| 2026-11-25 | [fix: read Bedrock Converse usage keys in UsageMetrics.from_provider_d…](https://github.com/crewAIInc/crewAI/commit/89a63c531ec544e077bccb36f06b9a39bb4bede9) | Vidit-Ostwal |
 | 2026-11-25 | [fix(cli): report deploy list API errors instead of no crews (#9756)](https://github.com/crewAIInc/crewAI/commit/97f2424963d829c4eb40b38e3e4bd5f57495df02) | Kiko0301 |
 | 2026-11-25 | [fix(cli): exit non-zero when an API response is rejected (#9754)](https://github.com/crewAIInc/crewAI/commit/7e663547cd247f5ce76567ec7b4a0322676e65a4) | Kiko0301 |
 | 2026-11-25 | [fix(gemini): send seed and penalty settings in the request config (#9…](https://github.com/crewAIInc/crewAI/commit/72a2028728c5002356ccb488fbe31b9f73dde1fa) | abhishekacharya200 |
@@ -102,8 +104,6 @@
 | 2026-11-25 | [fix(tools): accept the documented api_key in BraveSearchTool (#9766)](https://github.com/crewAIInc/crewAI/commit/fffe7bc9db78e8d5b82d56b73a94d36680286b87) | Kiko0301 |
 | 2026-11-25 | [fix(cli): exit 1 when a crewai tool command fails (#9767)](https://github.com/crewAIInc/crewAI/commit/23ad2674e659460e9fc00e3521b88762a4f4baa9) | Kiko0301 |
 | 2026-11-25 | [feat(cli): offer crewai login when a signed-out crewai eval needs an …](https://github.com/crewAIInc/crewAI/commit/ba2bd50f70069e3079eed29bb9cbed3f777c548b) | alexmarchenko-crewai |
-| 2026-11-25 | [fix(artifacts): refuse hidden files in save_artifact (#9737)](https://github.com/crewAIInc/crewAI/commit/d96633c881ce5f6e9039337e970e149b5d617815) | gabemilani |
-| 2026-11-25 | [ci: re-enable pytest-split durations with per-suite files (#9728)](https://github.com/crewAIInc/crewAI/commit/5c4d23995d012736db0be8528161e24b566fdba6) | Vidit-Ostwal |
 
 [See all commits ↗](https://github.com/crewAIInc/crewAI/commits)
 

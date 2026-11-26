@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 109.4k |
+| ⭐ **Stars** | 109.6k |
 | 🍴 **Forks** | 12.4k |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/nexu-io/open-design/issues) |
 | 💻 **Languages** | TypeScript 72% · HTML 21% · CSS 4% · Python 1% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai-design` `byok` `design-systems` `claude-design` `hermes-agent` `agent-skills` `desktop-app` `figma-alternative` `prototyping` `ui-generator` `claude-code-for-design` `codex-design` `cursor-design` `deepseek-harness` `dsh-plugin` `dsh` `deepseek` `desktop-apps` `local-first` `vibe-coding` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-04-28 |
 | 📦 **Latest release** | [open-design-v0.27.2](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.2) — 2026-11-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3575.1 MB |
+| 💾 **Size** | 3575.6 MB |
 | 🌐 **Website** | https://open-design.ai |
 
 ## 📦 Recent releases
 
 ### [open-design-v0.27.2](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.2) — Open Design 0.27.2 — Clearer Quotas, Sharper Displays
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **🌟 Codename: *Clearer Quotas, Sharper Displays***
 > 0.27.2 is a focused reliability patch for the 0.27 line. No new surface—just clearer signals when a limit resets, a project action fails, a display changes, or a Mac app updates itself.
@@ -47,7 +47,7 @@
 > …
 
 ### [open-design-v0.27.1](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.1) — OpenDesign 0.27.1 — Invite Friends, Earn Reset
-<sub>2026-11-10 · 15d ago</sub>
+<sub>2026-11-10 · 16d ago</sub>
 
 > Get up to 6 RESET on OpenDesign 🎉
 > Invite a friend to OpenDesign. When they sign up through your link and start their first paid subscription within 48 hours, you each receive a Reset Card if eligible. Use it to reset your Design Plan usage limits.
@@ -58,7 +58,7 @@
 > …
 
 ### [open-design-v0.27.0](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.0) — Open Design 0.27.0 — CoRouter for Teams
-<sub>2026-11-04 · 21d ago</sub>
+<sub>2026-11-04 · 22d ago</sub>
 
 > **🌟 Codename: *CoRouter for Teams***
 > **Unlimited seats. Shared credits.** One subscription gives your team shared access to model credits. Invite colleagues to your workspace for free, with no extra seat fees. Create in Open Design or call models through the API using the same shared credits. The workspace owner manages the subscription, upgrades and top-ups.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [[OPEND-5488] fix(daemon,skills,prompts): pass --use-mock-keychain on …](https://github.com/nexu-io/open-design/commit/6a74a1521ea2745fcf448bda7cdb8114f20d19b5) | Siri-Ray |
+| 2026-11-26 | [[OPEND-5756] chore(pack): pin Vela CLI 0.1.11 (#9633)](https://github.com/nexu-io/open-design/commit/1b2912461d4e78b432d27d55448b7dc285982428) | Siri-Ray |
+| 2026-11-26 | [[OPEND-5462] feat(media): support Black Friday cloud image models (#9…](https://github.com/nexu-io/open-design/commit/97db2fcc347fa9cc7abf1a159dc4a4acc6a33cc3) | alchemistklk |
+| 2026-11-26 | [[OPEND-5652] fix(media): sync Vela image catalogue, fail closed on ed…](https://github.com/nexu-io/open-design/commit/24eb5106860cd841df3f646b182e345875dfe4af) | Siri-Ray |
 | 2026-11-23 | [chore(release): bump main to 0.27.3 ahead of stable 0.27.2 (#9562)](https://github.com/nexu-io/open-design/commit/5fdcc3db1e31bd4fa70f673041b78e87977507c3) | open-design-release-bot[bot] |
 | 2026-11-21 | [[OPEND-5490] fix(daemon): validate Vela video durations dynamically f…](https://github.com/nexu-io/open-design/commit/e033aad1d15a9d4084316e5223f2c6597fd32619) | Siri-Ray |
 | 2026-11-20 | [[OPEND-4628] fix(web): drop the external-link icon from the sign-in r…](https://github.com/nexu-io/open-design/commit/667f19464a920958c78cf1d6336b50e8ce46d747) | open-design-crew[bot] |
 | 2026-11-18 | [[OPEND-4759] fix(daemon): avoid blocking proxy queries during log dis…](https://github.com/nexu-io/open-design/commit/07258801b9e4ae80553816bb1606af7aa9a63dff) | open-design-crew[bot] |
 | 2026-11-18 | [fix(plugins): restore bundled live artifact preview (#9530)](https://github.com/nexu-io/open-design/commit/23812a9d081945704e5e1cdd63b41f653c208d9a) | open-design-crew[bot] |
 | 2026-11-18 | [[OPEND-5430] fix(deps): skip optional ONNX CUDA downloads during inst…](https://github.com/nexu-io/open-design/commit/4839f4fd566f27efe238131ea449f80d1b7575ad) | alchemistklk |
-| 2026-11-18 | [[OPEND-4367] fix(web): ignore temporary probe edits in delivery check…](https://github.com/nexu-io/open-design/commit/c10af8fa56e817b04e2fc684153f2fd8fdba08fc) | Siri-Ray |
-| 2026-11-17 | [[OPEND-5384] fix(web): align home examples with the composer (#9512)](https://github.com/nexu-io/open-design/commit/f2ecaa3f88e1eba001379ea845e7b7754310ea6d) | open-design-crew[bot] |
-| 2026-11-17 | [fix(skills): launch agent-browser Chrome with mock keychain (#9336)](https://github.com/nexu-io/open-design/commit/a91bde2a9d4bee0232ab2b3d3d829fbcab97b33e) | Siri-Ray |
-| 2026-11-16 | [[OPEND-5275] docs(motion): add a copyable template gallery (#9465)](https://github.com/nexu-io/open-design/commit/0701042f3d2957fe485bb8508652e40ec6dae832) | open-design-crew[bot] |
 
 [See all commits ↗](https://github.com/nexu-io/open-design/commits)
 

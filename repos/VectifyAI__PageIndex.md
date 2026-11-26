@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 40.8k |
 | 🍴 **Forks** | 3.5k |
-| 🐞 **Open issues + PRs** | [174](https://github.com/VectifyAI/PageIndex/issues) |
+| 🐞 **Open issues + PRs** | [177](https://github.com/VectifyAI/PageIndex/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `agents` `ai` `ai-agents` `context-engineering` `llm` `rag` `reasoning` `retrieval` `retrieval-augmented-generation` `vector-database` `information-retrieval` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-04-01 |
 | 📦 **Latest release** | [v0.7.5](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.5) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.7.5](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.5) — PageIndex 0.7.5 — Lower Cost, Higher Accuracy than Vector RAG
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > - **Cheaper** than vector RAG: for both index and query.
 > - **Faster**: trees are created from layout stats.
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.4](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.4) — PageIndex 0.7.4 — Lower Cost, Higher Accuracy than Vector RAG
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > - **Cheaper** than vector RAG: for both index and query.
 > - **Faster**: trees are created from layout stats.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.3](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.3) — PageIndex 0.7.3 — Lower Cost, Higher Accuracy than Vector RAG
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > - **Cheaper** than vector RAG: for both index and query.
 > - **Faster**: trees are created from layout stats.
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.2](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.2) — PageIndex 0.7.2 — Lower Cost, Higher Accuracy than Vector RAG
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > - **Cheaper** than vector RAG: for both index and query.
 > - **Faster**: trees are created from layout stats.
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.1](https://github.com/VectifyAI/PageIndex/releases/tag/v0.7.1) — PageIndex 0.7.1 — Lower Cost, Higher Accuracy than Vector RAG
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > - **Cheaper** than vector RAG: for both index and query.
 > - **Faster**: trees are created from layout stats.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [docs(extract): PageExtractClient.extract() names the tiers it takes, …](https://github.com/VectifyAI/PageIndex/commit/3aef432dcb1dd83a6c1bb87dc60212a8a7c46a90) | rejojer |
 | 2026-11-24 | [feat: PageSearchClient and PageExtractClient give their PageIndexClie…](https://github.com/VectifyAI/PageIndex/commit/d6b4a0a3344f1d4e525ee19f8ce9608a8626beae) | rejojer |
 | 2026-11-21 | [docs(cookbook): the citations notebook asks with cite_with_boxes and …](https://github.com/VectifyAI/PageIndex/commit/add6b17cebff528612748ede3fed565b5f726c6b) | rejojer |
 | 2026-11-21 | [Merge pull request #695 from VectifyAI/docs/readme-ocr-free-agent](https://github.com/VectifyAI/PageIndex/commit/57025baf36296d2524c4bb5eeb338e7551c4badd) | zmtomorrow |
@@ -103,7 +104,6 @@
 | 2026-11-19 | [feat: PageIndexClient.collection_context() gives the collection targe…](https://github.com/VectifyAI/PageIndex/commit/b7660670f80c116e6e4fec542a4e1b4fcd952d63) | rejojer |
 | 2026-11-19 | [fix: extract(file) uploads the file again when the stored document it…](https://github.com/VectifyAI/PageIndex/commit/ab19dc0ea3fcb83ccb07cfb6b42f2346504ebeb9) | rejojer |
 | 2026-11-19 | [feat: PageExtractClient.extract(file) uploads the file with its job, …](https://github.com/VectifyAI/PageIndex/commit/26537b80a7a0dfd0e87a8e94a2ebf4900d242a60) | rejojer |
-| 2026-11-18 | [build: lift the litellm cap; 1.109 fixed the mcp import it was for (#…](https://github.com/VectifyAI/PageIndex/commit/340b8535a219ea448c4c0f5bdd354761449b55b3) | rejojer |
 
 [See all commits ↗](https://github.com/VectifyAI/PageIndex/commits)
 

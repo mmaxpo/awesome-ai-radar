@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Guides to build your own Git, Docker, DB, etc. from scratch |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 565.5k |
-| 🍴 **Forks** | 52.8k |
-| 🐞 **Open issues + PRs** | [644](https://github.com/codecrafters-io/build-your-own-x/issues) |
+| ⭐ **Stars** | 565.7k |
+| 🍴 **Forks** | 52.9k |
+| 🐞 **Open issues + PRs** | [645](https://github.com/codecrafters-io/build-your-own-x/issues) |
 | 💻 **Languages** | Markdown 100% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `programming` `tutorials` `tutorial-code` `tutorial-exercises` `free` `awesome-list` |
-| 🕒 **Last activity** | 2026-11-19 (6d ago) |
+| 🕒 **Last activity** | 2026-11-19 (7d ago) |
 | 📅 **Created** | 2018-05-09 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `master` |

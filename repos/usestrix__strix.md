@@ -20,9 +20,9 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 77.5k |
-| 🍴 **Forks** | 8.8k |
-| 🐞 **Open issues + PRs** | [635](https://github.com/usestrix/strix/issues) |
+| ⭐ **Stars** | 77.7k |
+| 🍴 **Forks** | 8.9k |
+| 🐞 **Open issues + PRs** | [650](https://github.com/usestrix/strix/issues) |
 | 💻 **Languages** | Python 79% · Go 11% · TypeScript 8% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agents` `artificial-intelligence` `cybersecurity` `penetration-testing` `ai-penetration-testing` `ai-pentesting` `ai-security` `bug-bounty` `ctf-tools` `cybersecurity-tools` `ethical-hacking` `llm-security` `offensive-security` `pentesting-tools` `red-teaming` `security-automation` `security` `code-quality` `ai-hacking` `hacking` |
@@ -30,13 +30,13 @@
 | 📅 **Created** | 2025-08-05 |
 | 📦 **Latest release** | [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.1 MB |
+| 💾 **Size** | 18.2 MB |
 | 🌐 **Website** | https://strix.ai |
 
 ## 📦 Recent releases
 
 ### [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1)
-<sub>2026-11-10 · 14d ago</sub>
+<sub>2026-11-10 · 15d ago</sub>
 
 > **What's Changed**
 > * Stop the run after finish_pr_review by @ian-at-strix in https://github.com/usestrix/strix/pull/1451
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Add bulk finding retest command to cloud CLI (#1825)](https://github.com/usestrix/strix/commit/9ed84f99c8f13fc921baebc59e0c696108cfab3e) | bearsyankees |
 | 2026-11-24 | [Judge input typed into a shell on what is typed](https://github.com/usestrix/strix/commit/935f82350782cdf15d70cbcb3e6d7e48f49071c2) | yoni-at-strix |
 | 2026-11-24 | [Save each test object's details and the agent that made it in the export](https://github.com/usestrix/strix/commit/30cceb56a58aef122a054892759a68de16c47113) | yoni-at-strix |
 | 2026-11-24 | [Keep only the opening command for each shell session](https://github.com/usestrix/strix/commit/7006745a02b3c7a125bc7ebed75cdc2270174898) | yoni-at-strix |
@@ -103,7 +104,6 @@
 | 2026-11-24 | [Check shell input against the engine's own session record, find the i…](https://github.com/usestrix/strix/commit/b24fddc7aca95f53b60443d2746e5700b909cc36) | yoni-at-strix |
 | 2026-11-24 | [Tell the terminal prompt when its copy of an action was cut](https://github.com/usestrix/strix/commit/6b79bbedeef9a350af733d2c40c6cde8f250f39b) | yoni-at-strix |
 | 2026-11-24 | [Show the whole action in the terminal approval prompt and keep approv…](https://github.com/usestrix/strix/commit/cee348bb167b913bef6b21a21ab6c32e553405bd) | yoni-at-strix |
-| 2026-11-24 | [Offer the action check every file a command names, bind shell session…](https://github.com/usestrix/strix/commit/70e638a34a284868c2e8f03732e79bf6212f434a) | yoni-at-strix |
 
 [See all commits ↗](https://github.com/usestrix/strix/commits)
 

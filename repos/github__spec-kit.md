@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 151.4k |
+| ⭐ **Stars** | 151.5k |
 | 🍴 **Forks** | 13.6k |
-| 🐞 **Open issues + PRs** | [232](https://github.com/github/spec-kit/issues) |
+| 🐞 **Open issues + PRs** | [240](https://github.com/github/spec-kit/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% · PowerShell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `copilot` `development` `engineering` `prd` `spec` `spec-driven` |
 | 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2025-08-21 |
-| 📦 **Latest release** | [v1.4.4](https://github.com/github/spec-kit/releases/tag/v1.4.4) — 2026-11-23 |
+| 📦 **Latest release** | [v1.4.5](https://github.com/github/spec-kit/releases/tag/v1.4.5) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.5 MB |
+| 💾 **Size** | 23.9 MB |
 | 🌐 **Website** | https://github.github.com/spec-kit/ |
 
 ## 📦 Recent releases
 
+### [v1.4.5](https://github.com/github/spec-kit/releases/tag/v1.4.5) — Spec Kit - 1.4.5
+<sub>2026-11-25 · today</sub>
+
+> **Install**
+> ```bash
+> uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@v1.4.5
+> specify init my-project
+> ```
+> **What's Changed**
+> …
+
 ### [v1.4.4](https://github.com/github/spec-kit/releases/tag/v1.4.4) — Spec Kit - 1.4.4
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Install**
 > ```bash
@@ -47,7 +58,7 @@
 > …
 
 ### [v1.4.3](https://github.com/github/spec-kit/releases/tag/v1.4.3) — Spec Kit - 1.4.3
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **Install**
 > ```bash
@@ -58,7 +69,7 @@
 > …
 
 ### [v1.4.2](https://github.com/github/spec-kit/releases/tag/v1.4.2) — Spec Kit - 1.4.2
-<sub>2026-11-17 · 7d ago</sub>
+<sub>2026-11-17 · 8d ago</sub>
 
 > **Install**
 > ```bash
@@ -69,7 +80,7 @@
 > …
 
 ### [v1.4.1](https://github.com/github/spec-kit/releases/tag/v1.4.1) — Spec Kit - 1.4.1
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > **Install**
 > ```bash
@@ -79,31 +90,20 @@
 > **What's Changed**
 > …
 
-### [v1.4.0](https://github.com/github/spec-kit/releases/tag/v1.4.0) — Spec Kit - 1.4.0
-<sub>2026-11-10 · 14d ago</sub>
-
-> **Install**
-> ```bash
-> uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@v1.4.0
-> specify init my-project
-> ```
-> **What's Changed**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Update Spec Status extension to v0.4.1 (#5576)](https://github.com/github/spec-kit/commit/f2010547121b3351e4923fe467205079e4593a32) | github-actions[bot] |
+| 2026-11-25 | [fix(presets): split replace-section lines only at Markdown line endin…](https://github.com/github/spec-kit/commit/a01c3eabe1924925c37a1a199844a2adc9ce8769) | leninworld |
+| 2026-11-25 | [fix(init): keep other installed integrations on re-init (#5536)](https://github.com/github/spec-kit/commit/dfe33ea93b090c0938b7a3facaa615a073ae3fc0) | kartsan03 |
+| 2026-11-25 | [fix(presets): detect command frontmatter after a UTF-8 BOM (#5568)](https://github.com/github/spec-kit/commit/f432bd2f8b234b5f2a69197695bfe3a3af7ae3bb) | leninworld |
+| 2026-11-25 | [chore: release 1.4.5, begin 1.4.6.dev0 development (#5573)](https://github.com/github/spec-kit/commit/4f9d6161d082e90ed776b767679dda05648ca313) | mnriem |
+| 2026-11-25 | [fix(extensions): keep TOML command prompts identical to the body (#5570)](https://github.com/github/spec-kit/commit/3df7575e60f14f9e0d42485740c33dbdf769a0c7) | leninworld |
+| 2026-11-25 | [fix(scripts): reconfigure setup_plan.py streams as UTF-8 (#5569)](https://github.com/github/spec-kit/commit/bf674565c6fba29856587bca1d6e04581e08298f) | adityajai119 |
+| 2026-11-25 | [Update SpecKit Grill Me extension to v1.0.3 (#5565)](https://github.com/github/spec-kit/commit/f912acbef22e373f68e6c925216cc8d2ad78964d) | github-actions[bot] |
 | 2026-11-25 | [fix(extensions): parse command frontmatter after a UTF-8 BOM (#5562)](https://github.com/github/spec-kit/commit/7609822ee538c1a2b6541b0675bfb120cdad2fe9) | leninworld |
 | 2026-11-25 | [fix(extensions): fall back to in-memory archive when the unlinked dow…](https://github.com/github/spec-kit/commit/653840318ea05264bc12d32ec1bad16697892fab) | orshih6 |
-| 2026-11-25 | [fix(presets): report preset layers hidden by project overrides (#5560)](https://github.com/github/spec-kit/commit/22ee44302495d381f5eeeafb991bf3c992995f5a) | dleontev |
-| 2026-11-25 | [fix: accept UTF-8 BOM in bundler JSON readers (#5557)](https://github.com/github/spec-kit/commit/542a2973f1eda4c53c88d075b8b283ca14660bf5) | chelsealong |
-| 2026-11-24 | [fix(extensions): keep edited skill resources on an unforced integrati…](https://github.com/github/spec-kit/commit/f61648db96b5ac5eb65a54577865dafc2c830a7c) | kartsan03 |
-| 2026-11-24 | [fix(integrations): decode captured dispatch_command output as UTF-8 (…](https://github.com/github/spec-kit/commit/edf5067e389dbe5ba81f5d9df1555143478cc3c6) | adityajai119 |
-| 2026-11-24 | [chore: migrate shared infrastructure writes to FileHelper (#5543)](https://github.com/github/spec-kit/commit/4d7cb8e524189369f00376df6284246d3cc4434a) | mnriem |
-| 2026-11-24 | [fix(presets): resolve script artifacts through the CLI (#5415)](https://github.com/github/spec-kit/commit/7def2cdeaa74024147ccc80763fe77c30ce44ef4) | Verlintas |
-| 2026-11-24 | [fix(scripts): reconfigure stdout and stderr as UTF-8 in setup_tasks.p…](https://github.com/github/spec-kit/commit/c4b8da9eff5c20eb540e34d752cff20ee87a9ef5) | adityajai119 |
-| 2026-11-24 | [docs: add spec-visualizer to community friends (#5549)](https://github.com/github/spec-kit/commit/e59953dd63947b16d1a3193903223dd3b52547c1) | josephleee |
 
 [See all commits ↗](https://github.com/github/spec-kit/commits)
 

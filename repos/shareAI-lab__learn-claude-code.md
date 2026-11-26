@@ -24,7 +24,7 @@
 | 💻 **Languages** | Python 70% · TypeScript 29% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `claude-code` `teaching` `agent-development` `ai-agent` `claude` `educational` `llm` `python` `tutorial` |
-| 🕒 **Last activity** | 2026-11-15 (10d ago) |
+| 🕒 **Last activity** | 2026-11-15 (11d ago) |
 | 📅 **Created** | 2025-06-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

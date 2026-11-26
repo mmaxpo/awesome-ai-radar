@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 39% · TypeScript 21% · HTML 12% · JavaScript 11% · TeX 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `claude` `claude-code` `agent-skills` `ai-agents` `claude-code-plugins` `cli` `mcp` `registry` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 306.5 MB |
+| 💾 **Size** | 308.5 MB |
 | 🌐 **Website** | https://www.aitmpl.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/8b71cff92cc556445c81313f8976933700dd4d6b) | github-actions[bot] |
-| 2026-11-25 | [Add Ratchet plugin: line budget that stops agents from growing your r…](https://github.com/davila7/claude-code-templates/commit/a430092eaf36de2452903596378fc903c097b56d) | krishansubudhi |
-| 2026-11-25 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/c4de112c9a0043261861dc55d92168eeb80b3127) | github-actions[bot] |
-| 2026-11-24 | [feat(mcp): ask for a type or category on broad searches (form elicita…](https://github.com/davila7/claude-code-templates/commit/6db5ee05400346eaf1ad85f6d9de03ffb040fdc1) | davila7 |
-| 2026-11-24 | [docs(claude-md): how to add an MCP component that serves skills (#1706)](https://github.com/davila7/claude-code-templates/commit/5f9e764638a88efb00d5ef247b7f15bcf3d7f225) | davila7 |
-| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/b588e987e9cf32b72990c56afcae275a4bcea7ea) | github-actions[bot] |
-| 2026-11-24 | [feat(mcp): serve the Skills over MCP example from mcp.aitmpl.com (#1704)](https://github.com/davila7/claude-code-templates/commit/69c881e858bb3cb60cb3266ac9030af1a8be0b83) | davila7 |
-| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/a6a23d0ac4a2e403715837b76e6c64f2a5e36d5b) | github-actions[bot] |
-| 2026-11-24 | [feat: Skills over MCP in MCP components, with an example server (#1701)](https://github.com/davila7/claude-code-templates/commit/0ee9bafdd18ea100658b57fa9a3a3df000f8f4be) | davila7 |
-| 2026-11-24 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/be9f77d7efb1f34968eb83e673ca3c97b732ffe0) | github-actions[bot] |
+| 2026-11-26 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/24d9d16c0053791c2a02ad755d8c54272e893b27) | github-actions[bot] |
+| 2026-11-26 | [Add SAP Learning AI certifications to /certifications (#1723)](https://github.com/davila7/claude-code-templates/commit/976138d4fbf2acbcc7290e5a0b5003990062134f) | davila7 |
+| 2026-11-26 | [Add RoamSEO MCP to marketing (#1722)](https://github.com/davila7/claude-code-templates/commit/f4e1a69a88eef2497bef7bfcfa929495c9d506e1) | backslash112 |
+| 2026-11-26 | [Add figmamcp skill (creative-design) (#1721)](https://github.com/davila7/claude-code-templates/commit/4b9c0d2c178f88a624552753f56676b0cab8ebb5) | MrCoder |
+| 2026-11-26 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/ff316699a2c4e91624de01a6afe06d3c830d2bde) | github-actions[bot] |
+| 2026-11-26 | [Add ChatAcademia MCP (academic research) (#1718)](https://github.com/davila7/claude-code-templates/commit/770b9ea83672bf58c58bd616ec9a9ed638b6741d) | khanhduyvt0101 |
+| 2026-11-26 | [Add the Engineering Corpus MCP server (devtools) (#1714)](https://github.com/davila7/claude-code-templates/commit/2f0fe68705a57adb171389c785b58fef56fe0f93) | ymcbzrgn |
+| 2026-11-26 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/2a104d81976267e26f31db66901b83f1c97a41df) | github-actions[bot] |
+| 2026-11-26 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/c959b4012b17d18765e2c18cd3b0128d7978b9bb) | github-actions[bot] |
+| 2026-11-26 | [feat(hooks): add security/skill-shell-guard (PreSkillShellCommand) (#…](https://github.com/davila7/claude-code-templates/commit/cd14b29fd8b29308987ee3963c3c582a87b403e3) | davila7 |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

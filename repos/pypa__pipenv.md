@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 25.0k |
 | 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [5](https://github.com/pypa/pipenv/issues) |
+| 🐞 **Open issues + PRs** | [7](https://github.com/pypa/pipenv/issues) |
 | 💻 **Languages** | Python 82% · HTML 18% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `pip` `python` `packaging` `virtualenv` `pipfile` |
 | 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2017-01-20 |
-| 📦 **Latest release** | [v2026.12.0](https://github.com/pypa/pipenv/releases/tag/v2026.12.0) — 2026-11-25 |
+| 📦 **Latest release** | [v2026.12.1](https://github.com/pypa/pipenv/releases/tag/v2026.12.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 235.9 MB |
+| 💾 **Size** | 236.0 MB |
 | 🌐 **Website** | https://pipenv.pypa.io |
 
 ## 📦 Recent releases
 
-### [v2026.12.0](https://github.com/pypa/pipenv/releases/tag/v2026.12.0) — Release v2026.12.0
+### [v2026.12.1](https://github.com/pypa/pipenv/releases/tag/v2026.12.1) — Release v2026.12.1
 <sub>2026-11-25 · today</sub>
+
+> **🤖 AI-Generated Changelog**
+> **Fixed**
+> - Preserve shorthand markers (e.g., `; sys_platform == 'win32'`) in requirements when using `--no-lock`
+> - Normalize package names written to `pylock.toml` to ensure consistent formatting
+> - Display pip's stderr output when a package uninstall fails during `pipenv clean`, improving error visibility
+> ---
+> …
+
+### [v2026.12.0](https://github.com/pypa/pipenv/releases/tag/v2026.12.0) — Release v2026.12.0
+<sub>2026-11-25 · yesterday</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -47,7 +58,7 @@
 > …
 
 ### [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — Release v2026.11.0
-<sub>2026-11-09 · 16d ago</sub>
+<sub>2026-11-09 · 17d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Added**
@@ -58,7 +69,7 @@
 > …
 
 ### [v2026.10.6](https://github.com/pypa/pipenv/releases/tag/v2026.10.6) — Release v2026.10.6
-<sub>2026-11-05 · 20d ago</sub>
+<sub>2026-11-05 · 21d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -69,7 +80,7 @@
 > …
 
 ### [v2026.10.5](https://github.com/pypa/pipenv/releases/tag/v2026.10.5) — Release v2026.10.5
-<sub>2026-11-01 · 23d ago</sub>
+<sub>2026-11-01 · 24d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -79,31 +90,20 @@
 > - Fixed `requirements` command to correctly join `os_markers` and `markers` with `and`
 > …
 
-### [v2026.10.4](https://github.com/pypa/pipenv/releases/tag/v2026.10.4) — Release v2026.10.4
-<sub>2026-10-28 · 27d ago</sub>
-
-> **🤖 AI-Generated Changelog**
-> **Added**
-> - Added interactive `pipenv init` command for creating a Pipfile with guided prompts
-> **Fixed**
-> - Fixed `pipenv install -r` to decode requirements files using the same encoding detection as pip
-> - Fixed `pipenv audit` to exit with a non-zero status code when `pip-audit` cannot be run
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Release v2026.12.1](https://github.com/pypa/pipenv/commit/f2ac3c11e570a4f1b5cb1935603bfa7182c0f938) | matteius |
+| 2026-11-25 | [Bumped version to 2026.12.1.](https://github.com/pypa/pipenv/commit/d665d8aa60ca6c4e7a438ce87d673fd647352567) | matteius |
+| 2026-11-25 | [Merge pull request #6809 from pcbeingused333/fix/no-lock-shorthand-ma…](https://github.com/pypa/pipenv/commit/d5ce6577864a9b61694ea46a761e05b712db8c4a) | matteius |
 | 2026-11-25 | [Merge pull request #6808 from pcbeingused333/fix/pylock-normalized-names](https://github.com/pypa/pipenv/commit/43ccc4d5fcb899e0ed349f716348f49aaec9e6c7) | matteius |
+| 2026-11-25 | [fix(requirements): keep shorthand markers with --no-lock](https://github.com/pypa/pipenv/commit/5d572ea300492abc2cbdcf43c2c6ce0869e991ba) | pcbeingused333 |
 | 2026-11-25 | [fix: normalize package names written to pylock.toml](https://github.com/pypa/pipenv/commit/88518d841400e996edf4e70ba3a98ec1a3e6c113) | pcbeingused333 |
 | 2026-11-25 | [Merge pull request #6806 from pcbeingused333/fix/clean-print-stderr](https://github.com/pypa/pipenv/commit/1c5499f58a3d61ab44a9ae47a39e6a69bfed5d82) | matteius |
 | 2026-11-25 | [fix(clean): show pip stderr when an uninstall fails](https://github.com/pypa/pipenv/commit/7768b4498af0dcba7112050875546833a9766f19) | pcbeingused333 |
 | 2026-11-25 | [Release v2026.12.0](https://github.com/pypa/pipenv/commit/ccd5b291f818c12e792ca8771626938605e2eb22) | matteius |
 | 2026-11-25 | [Bumped version to 2026.12.0.](https://github.com/pypa/pipenv/commit/0e1edbf7a77d638ab507ee7a74b173c53640e513) | matteius |
-| 2026-11-25 | [Merge pull request #6796 from anubhavlal07/fix/constraint-cache-dir-v…](https://github.com/pypa/pipenv/commit/a02edf02568e187146f12b292a005f3bb7415a55) | matteius |
-| 2026-11-25 | [Merge pull request #6805 from pypa/fix/windows-release-tag-stdin](https://github.com/pypa/pipenv/commit/26cd07bb46a2c8002fd2c1288ffc661491cc614b) | matteius |
-| 2026-11-25 | [Pass release tag message via stdin to fix Windows CI](https://github.com/pypa/pipenv/commit/acea0f5566e66d4717c3f381140b05d9292ce929) | matteius |
-| 2026-11-25 | [Merge pull request #6802 from Lushiyao5/fix/env-int-fallback-20261122](https://github.com/pypa/pipenv/commit/525db0ce6daeca37b702413967f7a430b407cd53) | matteius |
 
 [See all commits ↗](https://github.com/pypa/pipenv/commits)
 

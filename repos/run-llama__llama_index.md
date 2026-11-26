@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 73% · Jupyter Notebook 25% · Makefile 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `application` `data` `fine-tuning` `framework` `llamaindex` `llm` `rag` `vector-database` `multi-agents` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2022-11-02 |
 | 📦 **Latest release** | [v0.14.26](https://github.com/run-llama/llama_index/releases/tag/v0.14.26) — 2026-11-13 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 530.2 MB |
+| 💾 **Size** | 535.0 MB |
 | 🌐 **Website** | https://developers.llamaindex.ai |
 
 ## 📦 Recent releases
 
 ### [v0.14.26](https://github.com/run-llama/llama_index/releases/tag/v0.14.26)
-<sub>2026-11-13 · 11d ago</sub>
+<sub>2026-11-13 · 12d ago</sub>
 
 > **Release Notes**
 > **[2026-11-13]**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-14 | [llama-dev: install changed sibling packages without -U (#24141)](https://github.com/run-llama/llama_index/commit/99d7433f6f71888951379ccca9294e272442c832) | meyerkev |
-| 2026-11-14 | [Bump integrations for the Python >=3.11 floor (#24190)](https://github.com/run-llama/llama_index/commit/890d87d30b0498687a3005b3307e3398d83fbca9) | logan-markewich |
-| 2026-11-13 | [Release 0.14.26 (#24189)](https://github.com/run-llama/llama_index/commit/3aaab93a2e823b9637ce3c6f0611e5e18a4a7a5b) | logan-markewich |
-| 2026-11-13 | [BREAKING: raise requires-python for security fixes across integration…](https://github.com/run-llama/llama_index/commit/e3c425ccc24bd1ba4f2e052ce7c443e171e3eb40) | meyerkev |
-| 2026-11-11 | [fix(llms-openai): allow openai 3.x (#24138)](https://github.com/run-llama/llama_index/commit/baeabbfe26241a6916e13e2a8c8156a02e0602cd) | martimfasantos |
-| 2026-11-11 | [deps: allow llama-index-llms-openai 0.8.x in the 15 integration packa…](https://github.com/run-llama/llama_index/commit/18088d8f070c9212ac4a941b13f759bf417e3031) | LuckVd |
-| 2026-11-10 | [Python security relock: all integration uv.lock files (lock files onl…](https://github.com/run-llama/llama_index/commit/5f95c79fc38ba6f0e301ff29803449ce7ecb094b) | meyerkev |
-| 2026-11-08 | [docs: update Arize agent evaluation guide URL (#24017)](https://github.com/run-llama/llama_index/commit/fe107aab65e46d1d07c80663182691970417bbd9) | arizedatngo |
-| 2026-11-03 | [Make fake credentials obviously fake (place-/holder- prefix) (#23923)](https://github.com/run-llama/llama_index/commit/444fdf0684707de62ebb447d658dba137dd9cb99) | meyerkev |
-| 2026-10-14 | [fix(google-genai): only apply default temperature to pre-Gemini-3 mod…](https://github.com/run-llama/llama_index/commit/619d74664e8404612038bc15a1a40c686037277c) | gabbyong |
+| 2026-11-26 | [chore(deps): lock file maintenance (#24484)](https://github.com/run-llama/llama_index/commit/40d4f79eb9d8f68430692d0cc156483ca2d7f4f6) | llama-renovate[bot] |
+| 2026-11-26 | [chore(deps): update dependency jupyterlab to v4.6.4 [security] (#24474)](https://github.com/run-llama/llama_index/commit/233e7d8c519aebd642f933b459ebf30775297ee5) | llama-renovate[bot] |
+| 2026-11-25 | [chore(deps): update dependency pymongo [security] (#24477)](https://github.com/run-llama/llama_index/commit/6b219cf7680b7e8b1f8af761bb1f89521a87099d) | llama-renovate[bot] |
+| 2026-11-25 | [docs: replace hardcoded Vercel AI Gateway key in example notebook (#2…](https://github.com/run-llama/llama_index/commit/38ee9d5f61a35a3c189e0cfcd2d69c2ca47bddcf) | fanjiahe |
+| 2026-11-25 | [chore(deps): update dependency modelscope to v1.27.0 [security] (#24476)](https://github.com/run-llama/llama_index/commit/acdde1796936601245d384891e61b31d7f1d108d) | llama-renovate[bot] |
+| 2026-11-25 | [chore(deps): update dependency aiohttp to v3.14.4 [security] (#24473)](https://github.com/run-llama/llama_index/commit/2204ea32297b152eb3339159f118a1876b2cac53) | llama-renovate[bot] |
+| 2026-11-25 | [chore(deps): 3-day uv hold and Renovate uv.lock maintenance (#24471)](https://github.com/run-llama/llama_index/commit/c8115a04f9a33dee85133a7f5c9a84aa5da007af) | meyerkev |
+| 2026-11-25 | [chore(deps): update github-actions majors (major) (#24469)](https://github.com/run-llama/llama_index/commit/0d4f96876cfe7e325f3c1b72ec5f5f580f173bb5) | llama-renovate[bot] |
+| 2026-11-25 | [chore(deps): update github-actions minor (#24468)](https://github.com/run-llama/llama_index/commit/80b5307b2301a8b6a152d2ca4fae28ebea29c036) | llama-renovate[bot] |
+| 2026-11-25 | [ci: let Renovate keep GitHub Actions pins current (#24465)](https://github.com/run-llama/llama_index/commit/53598ec60689044e404ef17a8dfb01f14ffba339) | meyerkev |
 
 [See all commits ↗](https://github.com/run-llama/llama_index/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 159.5k |
-| 🍴 **Forks** | 23.1k |
-| 🐞 **Open issues + PRs** | [214](https://github.com/open-webui/open-webui/issues) |
+| ⭐ **Stars** | 159.6k |
+| 🍴 **Forks** | 23.2k |
+| 🐞 **Open issues + PRs** | [227](https://github.com/open-webui/open-webui/issues) |
 | 💻 **Languages** | Svelte 39% · Python 37% · JavaScript 16% · TypeScript 7% · CSS 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ollama` `ollama-webui` `llm` `webui` `self-hosted` `llm-ui` `llm-webui` `llms` `rag` `ai` `open-webui` `ui` `openai` `mcp` `openapi` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-10-06 |
 | 📦 **Latest release** | [v0.13.5](https://github.com/open-webui/open-webui/releases/tag/v0.13.5) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 681.7 MB |
+| 💾 **Size** | 693.9 MB |
 | 🌐 **Website** | https://openwebui.com |
 
 ## 📦 Recent releases
 
 ### [v0.13.5](https://github.com/open-webui/open-webui/releases/tag/v0.13.5)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Added**
 > - **Folder workspaces.** Run your project’s tests in a terminal and try the app in a browser while your chat stays open beside them. Choose the computer and project directory once for the folder. Even in a shared folder, everyone can return to their own tabs and layout. If you used the standalone Open WebUI Computer (cptr) app, that workflow is now built into Open WebUI. [#34804](https://github.com/open-webui/open-webui/pull/34804), [#34805](https://github.com/open-webui/open-webui/pull/34805), [#34800](https://github.com/open-webui/open-webui/issues/34800), [#34803](https://github.com/open-webui/open-webui/issues/34803)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.13.4](https://github.com/open-webui/open-webui/releases/tag/v0.13.4)
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **Added**
 > - **Bring your own computer with Tether.** Tether turns your own computer into part of Open WebUI: models from Ollama, LM Studio or any OpenAI-compatible server, OpenAPI and MCP tool servers and Open Terminal servers that you add in the Tether app now show up just for you in the model selector, the Tools list of the + menu and the terminal menu of any Open WebUI you connect, from whatever device you open it on, and Open WebUI reaches them through Tether, so their addresses, commands and keys never leave your computer. This needs Tether 0.1.14 or later, or 0.1.16 for MCP servers, tool servers and terminals need "ENABLE_TOOL_SERVERS" turned on, and a Tether model whose ID matches a model already in Open WebUI stays hidden. Tether replaces Direct Connections. [#34397](https://github.com/open-webui/open-webui/issues/34397)
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.13.3](https://github.com/open-webui/open-webui/releases/tag/v0.13.3)
-<sub>2026-11-08 · 16d ago</sub>
+<sub>2026-11-08 · 17d ago</sub>
 
 > **Added**
 > - 🦾 **Agents in automations.** The automation editor now lets you choose a terminal and working folder, then select a coding agent available there. Scheduled runs use that saved terminal and folder, and check that the terminal and agent are still available before starting. Agent automations send their results to a chat; channel destinations remain available for ordinary models. [Commit](https://github.com/open-webui/open-webui/commit/21fc016141c73a0e11b428c61bde20527bbc228a)
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.13.2](https://github.com/open-webui/open-webui/releases/tag/v0.13.2)
-<sub>2026-11-08 · 17d ago</sub>
+<sub>2026-11-08 · 18d ago</sub>
 
 > **Fixed**
 > - 🔓 **Chat over plain HTTP.** Opening Open WebUI over plain HTTP at a LAN or Docker address now loads new and existing chats instead of staying on a spinner with "crypto.randomUUID is not a function". [#33919](https://github.com/open-webui/open-webui/issues/33919)
@@ -77,7 +77,7 @@
 > - 🎛️ **Side Chat permission switch.** The Allow Side Chat switch is now visible even when Temporary Chat is off, so administrators can configure the two permissions independently. [#33920](https://github.com/open-webui/open-webui/pull/33920)
 
 ### [v0.13.1](https://github.com/open-webui/open-webui/releases/tag/v0.13.1)
-<sub>2026-11-08 · 17d ago</sub>
+<sub>2026-11-08 · 18d ago</sub>
 
 > **Added**
 > - 🦾 **Coding agents as models.** On an Open Terminal that offers agents, coding agents such as Claude Code, Codex and Pi now appear in the model picker. You can chat with them or call them by voice, choose their reasoning effort and service tier, and approve their tool requests in the chat. Each conversation uses one agent, and agent chats cannot be regenerated, continued or edited and resent. If an agent's terminal goes away, its chats and new chats fall back to the default model and earlier replies keep the agent's name. Autocompletion in agent chats uses the task model, or is skipped when there is none. [#33843](https://github.com/open-webui/open-webui/pull/33843), [#33860](https://github.com/open-webui/open-webui/pull/33860), [#33880](https://github.com/open-webui/open-webui/pull/33880), [#33857](https://github.com/open-webui/open-webui/pull/33857)

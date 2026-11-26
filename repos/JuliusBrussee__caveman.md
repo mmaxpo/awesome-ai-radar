@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 122.8k |
+| ⭐ **Stars** | 123.0k |
 | 🍴 **Forks** | 7.2k |
-| 🐞 **Open issues + PRs** | [103](https://github.com/JuliusBrussee/caveman/issues) |
+| 🐞 **Open issues + PRs** | [114](https://github.com/JuliusBrussee/caveman/issues) |
 | 💻 **Languages** | Go 50% · JavaScript 26% · TypeScript 14% · Python 10% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `anthropic` `caveman` `claude` `claude-code` `llm` `meme` `prompt-engineering` `skill` `tokens` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-04-04 |
 | 📦 **Latest release** | [v4.2.0](https://github.com/JuliusBrussee/caveman/releases/tag/v4.2.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v4.2.0](https://github.com/JuliusBrussee/caveman/releases/tag/v4.2.0) — Caveman 4.2.0
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > Caveman 4.2.0 adds a QuickJS Code-Mode MCP gateway (`caveman codemode` / `caveman wrap --codemode`) with multi-agent overlays, multi-harness tool-envelope unwrapping in the compression engine, cache-safe proxy optimizations (local turn-effort gating, duplicate-read collapsing, canonical tool ordering, and `defer_loading`), `@caveman-ai/middleware/codemode`, opt-in Code-Mode support in `@caveman-ai/pi` 0.4.0, and a native Codex CLI provider for `caveman-compress`.
 > **New**
@@ -47,12 +47,12 @@
 > …
 
 ### [bin-v4.2.0](https://github.com/JuliusBrussee/caveman/releases/tag/bin-v4.2.0)
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > Signed Caveman runtime companions for macOS, Linux, and Windows. The binaries are licensed under the Apache License 2.0 (LICENSE, NOTICE); see LICENSING.md and the attached third-party notices. The ghcr.io caveman-proxy image is still built without cgo, so its code compressor handles Go source only; the caveman-proxy and caveman-engine binaries here also compress TypeScript, JavaScript, Python, Rust, Java and C/C++.
 
 ### [middleware-ts-v1.2.0](https://github.com/JuliusBrussee/caveman/releases/tag/middleware-ts-v1.2.0) — @caveman-ai/middleware 1.2.0
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > - Add the `@caveman-ai/middleware/codemode` subpath (`createCodeModeToolset`):
 >   a provider-agnostic, zero-dependency in-process Code-Mode toolset that
@@ -63,7 +63,7 @@
 > …
 
 ### [v4.1.0](https://github.com/JuliusBrussee/caveman/releases/tag/v4.1.0) — Caveman 4.1.0
-<sub>2026-11-08 · 17d ago</sub>
+<sub>2026-11-08 · 18d ago</sub>
 
 > Caveman 4.1.0 is a maintenance release: bug fixes across compress, OpenCode, Hermes, Pi, the proxy and the hooks, a recovery store that no longer fills up and stops compressing, and a few small switches people asked for. caveman-compress now refuses a file with a key or token in it, and installs from skill hubs again.
 > **Action needed**
@@ -74,7 +74,7 @@
 > …
 
 ### [middleware-python-v1.0.1](https://github.com/JuliusBrussee/caveman/releases/tag/middleware-python-v1.0.1) — caveman-middleware 1.0.1
-<sub>2026-11-08 · 17d ago</sub>
+<sub>2026-11-08 · 18d ago</sub>
 
 > - Security: the `litellm` extra excludes litellm 1.107.0, which upstream
 >   reported compromised
@@ -88,6 +88,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [docs(workflow): document clean worktree and green-CI PR workflow in A…](https://github.com/JuliusBrussee/caveman/commit/e74a11ccdb38b98d15c9f9545787c907dd15f0ab) | JuliusBrussee |
 | 2026-11-24 | [chore(hygiene): remove private path references and external competito…](https://github.com/JuliusBrussee/caveman/commit/47c61be2d10a354f0c5cbe2b90959d24c06b16c6) | JuliusBrussee |
 | 2026-11-24 | [docs(agents): add public Caveman ecosystem repository pointers](https://github.com/JuliusBrussee/caveman/commit/27ead7169f563b21de8eb53c71b1cef0d495f963) | JuliusBrussee |
 | 2026-11-23 | [chore: sync SKILL.md copies [skip ci]](https://github.com/JuliusBrussee/caveman/commit/b89752f6bca5a26bfde8b019813554241800ca99) | github-actions[bot] |
@@ -97,7 +98,6 @@
 | 2026-11-23 | [fix(codemode): support OpenCode V2 mcp.servers masking and Hermes flo…](https://github.com/JuliusBrussee/caveman/commit/8db3be74cb4c80e46a0e5d66920aef7269bac619) | JuliusBrussee |
 | 2026-11-23 | [fix(codemode): classify compound write verbs as mutating](https://github.com/JuliusBrussee/caveman/commit/08587894364428c7a977dbd94800201dafe05ee3) | JuliusBrussee |
 | 2026-11-23 | [chore(profiles): verify and pin latest coding agent CLI versions](https://github.com/JuliusBrussee/caveman/commit/0e15c7a8709290cf06d7c116b529c0361bd5273d) | JuliusBrussee |
-| 2026-11-23 | [fix: integrate cache safety, multi-harness, engine, middleware, and t…](https://github.com/JuliusBrussee/caveman/commit/8217f0efc261071ddf6553332834957dc91f1b1c) | JuliusBrussee |
 
 [See all commits ↗](https://github.com/JuliusBrussee/caveman/commits)
 

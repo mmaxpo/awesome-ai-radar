@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 75.7k |
+| ⭐ **Stars** | 75.8k |
 | 🍴 **Forks** | 5.2k |
 | 🐞 **Open issues + PRs** | [214](https://github.com/Fission-AI/OpenSpec/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `spec` `ai` `context-engineering` `engineering` `planning` `prd` `sdlc` `spec-driven-development` `specification` `sdd` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-25 (yesterday) |
 | 📅 **Created** | 2025-08-05 |
 | 📦 **Latest release** | [v2.2.0](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.2.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.2.0](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.2.0) — v2.2.0 - The /openspec skill router
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **What's New in v2.2.0**
 > **OpenSpec now has a skill router.** Type `/openspec`, say what you want, and the router picks the right OpenSpec skill and runs it.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.1.1](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.1.1) — v2.1.1 - Offline skill installs, safer archive
-<sub>2026-11-19 · 5d ago</sub>
+<sub>2026-11-19 · 6d ago</sub>
 
 > **OpenSpec 2.1.1**
 > This release smooths out a handful of rough edges. Skills now install straight from the CLI, with no Git and no network needed. Archive is more careful with your main specs, and `validate --strict` catches two problems before they reach archive. Your workflows don't change.
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.1.0](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.1.0) — v2.1.0 - Global skills
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **OpenSpec 2.1**
 > OpenSpec now supports global skills for coding agents. Install the skills once and your agent can use them in every project on your machine.
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.0.0](https://github.com/Fission-AI/OpenSpec/releases/tag/v2.0.0) — v2.0.0 - Skills in .agents/skills, /opsx commands removed
-<sub>2026-11-11 · 13d ago</sub>
+<sub>2026-11-11 · 14d ago</sub>
 
 > **OpenSpec 2.0**
 > OpenSpec now installs skills in `.agents/skills/` instead of keeping a separate copy for each coding agent. Tools that don't read this folder, like Claude Code and Kiro, get links to the same skills.
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.17.0](https://github.com/Fission-AI/OpenSpec/releases/tag/v1.17.0) — v1.17.0 - Safe upgrades, 2.0 notice
-<sub>2026-11-09 · 15d ago</sub>
+<sub>2026-11-09 · 16d ago</sub>
 
 > **What's New in v1.17.0**
 > `openspec update` now upgrades a project from any older release in one run, and announces that command files go away in OpenSpec 2.0.

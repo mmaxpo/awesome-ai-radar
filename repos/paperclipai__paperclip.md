@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 117.0k |
-| 🍴 **Forks** | 19.4k |
+| ⭐ **Stars** | 117.3k |
+| 🍴 **Forks** | 19.5k |
 | 🐞 **Open issues + PRs** | [6.8k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 4% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 564.3 MB |
+| 💾 **Size** | 566.3 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
 ### [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0)
-<sub>2026-11-18 · 6d ago</sub>
+<sub>2026-11-18 · 7d ago</sub>
 
 > **Paperclip v2026.1117.0**
 > > Released: 2026-11-17
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 18d ago</sub>
+<sub>2026-11-06 · 19d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [test(antigravity): prove run start keeps the Antigravity gates and ha…](https://github.com/paperclipai/paperclip/commit/5a683696eb40745e50a8d206f58de8cef2e36562) | cryppadotta |
-| 2026-11-25 | [ci: shard Verify Paperclip Runner protocol tests in release-verify (#…](https://github.com/paperclipai/paperclip/commit/14f59077766d83a0779bf2cccd73ab0c795e9960) | cryppadotta |
-| 2026-11-25 | [feat(runner): flip Google Antigravity ACPX profile to qualified (#22939)](https://github.com/paperclipai/paperclip/commit/c5107f12feb3ebfcf53ed927ff48807cd61f0c52) | cryppadotta |
-| 2026-11-25 | [fix(ai-connections): delete the saved Google Antigravity sign-in on d…](https://github.com/paperclipai/paperclip/commit/1bea1eeaed2ec751d7e8880bdb882479b5539615) | cryppadotta |
-| 2026-11-25 | [fix(runner): keep per-turn-only harnesses per-turn on warm environmen…](https://github.com/paperclipai/paperclip/commit/917fe1ba291ff225a2012b206c43450e1b1cf7d0) | cryppadotta |
-| 2026-11-25 | [feat(antigravity): allow plugin Runner-task and remote Google sign-in…](https://github.com/paperclipai/paperclip/commit/e04efb9734e0db9ed87a807e3743a2f1d63e9956) | cryppadotta |
-| 2026-11-25 | [feat(plugins): carry a Google sign-in to plugin Runners for Google An…](https://github.com/paperclipai/paperclip/commit/aa85bcb5185fca52ce82a0edeff10d8a97e7eb95) | cryppadotta |
-| 2026-11-25 | [feat(antigravity): add hosted Google loopback-relay sign-in (#22932)](https://github.com/paperclipai/paperclip/commit/57bd302c812d851786498295d5418b7c7fab7953) | cryppadotta |
-| 2026-11-25 | [feat(plugins): carry a Gemini API key to plugin Runners for Google An…](https://github.com/paperclipai/paperclip/commit/07d444a717026afb5b6205880accf4e4bfc9cb80) | cryppadotta |
-| 2026-11-25 | [docs(plans): plan the Google Antigravity rollout to Paperclip Cloud (…](https://github.com/paperclipai/paperclip/commit/4ade8a9e63c3c751447fd8bc9e9264cd2bdc2105) | cryppadotta |
+| 2026-11-26 | [fix(runner): re-prepare OpenCode launch inputs for a replaced provide…](https://github.com/paperclipai/paperclip/commit/4ea6fa61d5e9b112458a6091ba1d63f2fa9c6940) | cryppadotta |
+| 2026-11-26 | [fix(native-runtime): keep external chat waits when finalization retri…](https://github.com/paperclipai/paperclip/commit/50633695e7ca67b4682a2b524884260b666fe4c3) | cryppadotta |
+| 2026-11-26 | [fix(recovery): continue tasks blocked by a setup failure before provi…](https://github.com/paperclipai/paperclip/commit/4bf6a50e9de76ab2bc758d806e12fedb89086bbb) | cryppadotta |
+| 2026-11-26 | [perf(ci): reuse verified macOS runtime artifacts from master runs can…](https://github.com/paperclipai/paperclip/commit/880b0c3a7ccbce9e25e1e3b54334825946586dcf) | cryppadotta |
+| 2026-11-26 | [fix(ci): run merge-queue Docker builds on standard runners and skip w…](https://github.com/paperclipai/paperclip/commit/8f6d94169acac39e8333bd3cc12b7ecdfe269793) | cryppadotta |
+| 2026-11-26 | [fix(ui): show Antigravity and Copilot as first-class harnesses in age…](https://github.com/paperclipai/paperclip/commit/8f542b3c9be6336fc54f50cff1f54a86e455d6e7) | cryppadotta |
+| 2026-11-26 | [build(deps-dev): bump typescript from 5.9.3 to 7.0.2 in /packages/plu…](https://github.com/paperclipai/paperclip/commit/85ad16b47eab2caed981d4b662ab44b0255f83be) | dependabot[bot] |
+| 2026-11-26 | [build(deps): bump @daytonaio/sdk from 0.203.0 to 0.232.0 in /packages…](https://github.com/paperclipai/paperclip/commit/97aab772a1342636051ad6bd9c8f695c814211f1) | dependabot[bot] |
+| 2026-11-26 | [test(ai-connections): start the receiver lock-wait deadline after chi…](https://github.com/paperclipai/paperclip/commit/5a7150be7e6bc88fecdcdfda578885543d8ec8d5) | devinfoley |
+| 2026-11-26 | [test(server): fix the issue-prefix collision and the shared-role idle…](https://github.com/paperclipai/paperclip/commit/bde164de54b038dfeacfe738334eb1c73fa05716) | cryppadotta |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 326.4k |
+| ⭐ **Stars** | 327.2k |
 | 🍴 **Forks** | 29.0k |
 | 🐞 **Open issues + PRs** | [372](https://github.com/obra/superpowers/issues) |
 | 💻 **Languages** | Shell 57% · JavaScript 35% · Python 4% · TypeScript 2% · HTML 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `brainstorming` `coding` `obra` `sdlc` `skills` `superpowers` `subagent-driven-development` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-10-09 |
 | 📦 **Latest release** | [v7.0.2](https://github.com/obra/superpowers/releases/tag/v7.0.2) — 2026-11-03 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 8.0 MB |
+| 💾 **Size** | 8.2 MB |
 
 ## 📦 Recent releases
 
 ### [v7.0.2](https://github.com/obra/superpowers/releases/tag/v7.0.2)
-<sub>2026-11-03 · 21d ago</sub>
+<sub>2026-11-03 · 22d ago</sub>
 
 > This release further tunes brainstorming's questions. It asks fewer of them, starts by asking why, and when there's a choice to make it gives you options to pick from. It also fixes bootstrap problems on six harnesses, and makes the SDD and executing-plans helper scripts much harder to point at the wrong repository or the wrong task.
 > **Brainstorming**

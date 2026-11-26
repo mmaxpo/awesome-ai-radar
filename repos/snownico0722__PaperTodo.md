@@ -22,20 +22,20 @@
 |---|---|
 | ⭐ **Stars** | 2.9k |
 | 🍴 **Forks** | 150 |
-| 🐞 **Open issues + PRs** | [35](https://github.com/snownico0722/PaperTodo/issues) |
+| 🐞 **Open issues + PRs** | [37](https://github.com/snownico0722/PaperTodo/issues) |
 | 💻 **Languages** | C# 92% · C 6% · JavaScript 1% · HTML 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `avalonedit` `csharp` `markdown` `minimalist` `notes` `todo` `windows` `wpf` `desktop` `note-taking` `productivity` `sticky-notes` |
-| 🕒 **Last activity** | 2026-11-22 (2d ago) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-05-27 |
 | 📦 **Latest release** | [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 103.7 MB |
+| 💾 **Size** | 105.2 MB |
 
 ## 📦 Recent releases
 
 ### [v4.0.0-beta2](https://github.com/snownico0722/PaperTodo/releases/tag/v4.0.0-beta2) — PaperTodo v4.0.0-beta2 _(pre-release)_
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > 这是一个测试版，可能存在很多问题、bug。
 > This is a beta version; it may contain many issues and bugs.
@@ -93,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [调整新用户默认设置并确认删除空白纸片 (#481)](https://github.com/snownico0722/PaperTodo/commit/25d52881ef31f969a7cdffd2817899e0d02a2f63) | snownico0722 |
+| 2026-11-25 | [修复次级工作区恢复时首次写图被禁用 (#479)](https://github.com/snownico0722/PaperTodo/commit/0ab34ad73b54d4a302336be84a8879f700a6668c) | snownico0722 |
 | 2026-11-22 | [支持插件追加笔记图片并保留手动置顶 (#477)](https://github.com/snownico0722/PaperTodo/commit/631f860404ae1560c9a5200eb67a764fb582cce0) | snownico0722 |
 | 2026-11-19 | [修复纸片背景设置显示并调整正文间距高级模式可见性 (#474)](https://github.com/snownico0722/PaperTodo/commit/2fd2b580d978f810d4b29065341e6ed890060c29) | snownico0722 |
 | 2026-11-19 | [Merge pull request #473 from snownico0722/feature/paper-content-spacing](https://github.com/snownico0722/PaperTodo/commit/6a720ed7bf55265b3d686dd795a2706f669cdc56) | snownico0722 |
@@ -101,8 +103,6 @@
 | 2026-11-19 | [在已加载的纸片窗口上验证换行与字体继承 [ci]](https://github.com/snownico0722/PaperTodo/commit/51d4925e168a722c452c6e7f0c7750bcd28d995d) | snownico0722 |
 | 2026-11-19 | [支持独立设置笔记行距与待办条目间距 [ci]](https://github.com/snownico0722/PaperTodo/commit/c17a0d5722aece7917ffbc2fba6f949bb4af1d02) | snownico0722 |
 | 2026-11-19 | [Place capture exclusion in unreleased notes](https://github.com/snownico0722/PaperTodo/commit/b0dd147759377687ae5ba30e5815395b7854947b) | snownico0722 |
-| 2026-11-19 | [Complete unreleased notes for PRs 454, 468 and 470](https://github.com/snownico0722/PaperTodo/commit/c21f517c4476f0ec962d13ab3b26a649d8034be1) | snownico0722 |
-| 2026-11-19 | [Complete unreleased notes for PRs 454, 468 and 470](https://github.com/snownico0722/PaperTodo/commit/5d9ffc7e60199a01edb421d57a80891fe541eaba) | snownico0722 |
 
 [See all commits ↗](https://github.com/snownico0722/PaperTodo/commits)
 

@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 57.7k |
 | 🍴 **Forks** | 7.6k |
-| 🐞 **Open issues + PRs** | [26](https://github.com/zylon-ai/private-gpt/issues) |
+| 🐞 **Open issues + PRs** | [29](https://github.com/zylon-ai/private-gpt/issues) |
 | 💻 **Languages** | Python 87% · HTML 9% · MDX 3% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-tools` `on-premise` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-05-02 |
 | 📦 **Latest release** | [v1.0.1](https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1) — 2026-06-18 |
 | 🌿 **Default branch** | `main` |
@@ -82,6 +82,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [fix(ci): reserve latest image tags for main](https://github.com/zylon-ai/private-gpt/commit/16d907133081fb23f377c52b91a87862806d16ce) | pabloogc |
 | 2026-11-25 | [fix(ingest): detect Office packages that sniff as zip (#2490)](https://github.com/zylon-ai/private-gpt/commit/914c533a594b592b8796a9bb1939924c4dbc6eed) | jaluma |
 | 2026-11-23 | [fix: isolate release version lines and forward-port fixes (#2469)](https://github.com/zylon-ai/private-gpt/commit/18682ede5556dd624d5b4910961adcab8799e3d4) | pabloogc |
 | 2026-11-18 | [fix(chat): break tool-call loops by changing how history is shown to …](https://github.com/zylon-ai/private-gpt/commit/2373cc7b912019c9b8fdb8907b2c256799b2adcb) | jaluma |
@@ -91,7 +92,6 @@
 | 2026-11-18 | [feat(web-search): add Parallel search provider (#2470)](https://github.com/zylon-ai/private-gpt/commit/3e2585dfec6b0a6154142a9acd3958457adc9a5d) | georgeatparallel |
 | 2026-11-17 | [fix(install): boot core-only installs and pin release dependencies (#…](https://github.com/zylon-ai/private-gpt/commit/cfbd09b45a513d48e6181a243eaa6bbbda1ae9b6) | jaluma |
 | 2026-11-13 | [fix(settings): wire HTTPS_PROXY to the proxy.https_proxy field (#2432)](https://github.com/zylon-ai/private-gpt/commit/9d37a133f1d50e9b10ed527ce198ffd7ded1af70) | simpleqt |
-| 2026-11-13 | [docs: add HopBase OpenAI-compatible provider guide (#2459)](https://github.com/zylon-ai/private-gpt/commit/03f7df6324c8122cfe23155086a302d65e10e9cb) | victor-zzh |
 
 [See all commits ↗](https://github.com/zylon-ai/private-gpt/commits)
 

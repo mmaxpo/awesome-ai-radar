@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 87.8k |
+| ⭐ **Stars** | 87.9k |
 | 🍴 **Forks** | 5.6k |
 | 🐞 **Open issues + PRs** | [1.7k](https://github.com/rtk-ai/rtk/issues) |
 | 💻 **Languages** | Rust 97% · Shell 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-coding` `ai-coding` `anthropic` `claude-code` `cli` `command-line-tool` `cost-reduction` `developer-tools` `llm` `open-source` `productivity` `rust` `token-optimization` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-25 (yesterday) |
 | 📅 **Created** | 2026-01-22 |
 | 📦 **Latest release** | [dev-1.3.0-rc.678](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.678) — 2026-11-25 |
 | 🌿 **Default branch** | `develop` |
@@ -36,27 +36,27 @@
 ## 📦 Recent releases
 
 ### [dev-1.3.0-rc.678](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.678) _(pre-release)_
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > _No notes._
 
 ### [dev-1.3.0-rc.677](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.677) _(pre-release)_
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > _No notes._
 
 ### [dev-1.3.0-rc.676](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.676) _(pre-release)_
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > _No notes._
 
 ### [dev-1.3.0-rc.675](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.675) _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > _No notes._
 
 ### [dev-1.3.0-rc.674](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.674) _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > _No notes._
 

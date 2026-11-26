@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.1k |
-| 🍴 **Forks** | 522 |
-| 🐞 **Open issues + PRs** | [362](https://github.com/crmne/zapfast/issues) |
+| 🍴 **Forks** | 529 |
+| 🐞 **Open issues + PRs** | [377](https://github.com/crmne/zapfast/issues) |
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `chat` `desktop-app` `egui` `linux` `macos` `messaging` `rust` `whatsapp` `whatsapp-client` `windows` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-24 (yesterday) |
 | 📅 **Created** | 2026-08-29 |
 | 📦 **Latest release** | [v0.21.3](https://github.com/crmne/zapfast/releases/tag/v0.21.3) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.21.3](https://github.com/crmne/zapfast/releases/tag/v0.21.3) — ZapFast v0.21.3
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > ZapFast 0.21.3 is a batch of fixes: messages that stayed on "Waiting for this message", the window flickering on Windows, a first sync that wrote gigabytes to disk, the macOS accent picker typing two letters, the newest emoji, and calls that dropped when Accept was clicked twice.
 > **Download ZapFast:** [Mac](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-v0.21.3-macos-universal.dmg) · [Windows](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-v0.21.3-x86_64-pc-windows-msvc.msi) · [Windows ARM](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-v0.21.3-aarch64-pc-windows-msvc.msi) · [Linux](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-v0.21.3-x86_64-unknown-linux-gnu.tar.gz) · [Linux ARM](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-v0.21.3-aarch64-unknown-linux-gnu.tar.gz) · [AppImage](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-0.21.3-x86_64.AppImage) · [AppImage ARM](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-0.21.3-aarch64.AppImage) · [Flatpak](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-v0.21.3-x86_64.flatpak) · [Debian/Ubuntu](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast_0.21.3_amd64.deb) · [Fedora/openSUSE](https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-0.21.3-1.x86_64.rpm)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.21.2](https://github.com/crmne/zapfast/releases/tag/v0.21.2) — ZapFast v0.21.2
-<sub>2026-11-14 · 10d ago</sub>
+<sub>2026-11-14 · 11d ago</sub>
 
 > ZapFast 0.21.2 lists the groups you share with someone, speaks Dutch, finds people by the start of any word in their name, and gives the macOS traffic lights room of their own when the chat list is hidden.
 > **Download ZapFast:** [Mac](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-v0.21.2-macos-universal.dmg) · [Windows](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-v0.21.2-x86_64-pc-windows-msvc.msi) · [Windows ARM](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-v0.21.2-aarch64-pc-windows-msvc.msi) · [Linux](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-v0.21.2-x86_64-unknown-linux-gnu.tar.gz) · [Linux ARM](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-v0.21.2-aarch64-unknown-linux-gnu.tar.gz) · [AppImage](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-0.21.2-x86_64.AppImage) · [AppImage ARM](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-0.21.2-aarch64.AppImage) · [Flatpak](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-v0.21.2-x86_64.flatpak) · [Debian/Ubuntu](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast_0.21.2_amd64.deb) · [Fedora](https://github.com/crmne/zapfast/releases/download/v0.21.2/zapfast-0.21.2-1.x86_64.rpm)
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.21.1](https://github.com/crmne/zapfast/releases/tag/v0.21.1) — ZapFast v0.21.1
-<sub>2026-11-03 · 21d ago</sub>
+<sub>2026-11-03 · 22d ago</sub>
 
 > ZapFast 0.21.1 fixes the disappearing messages menu, which 0.21.0 added but never opened, lines up the info panel's header with the chat beside it, and plays videos that some encoders lay out differently.
 > **Download ZapFast:** [Mac](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-v0.21.1-macos-universal.dmg) · [Windows](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-v0.21.1-x86_64-pc-windows-msvc.msi) · [Windows ARM](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-v0.21.1-aarch64-pc-windows-msvc.msi) · [Linux](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-v0.21.1-x86_64-unknown-linux-gnu.tar.gz) · [Linux ARM](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-v0.21.1-aarch64-unknown-linux-gnu.tar.gz) · [AppImage](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-0.21.1-x86_64.AppImage) · [AppImage ARM](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-0.21.1-aarch64.AppImage) · [Flatpak](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-v0.21.1-x86_64.flatpak) · [Debian/Ubuntu](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast_0.21.1_amd64.deb) · [Fedora](https://github.com/crmne/zapfast/releases/download/v0.21.1/zapfast-0.21.1-1.x86_64.rpm)
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.21.0](https://github.com/crmne/zapfast/releases/tag/v0.21.0) — ZapFast v0.21.0
-<sub>2026-11-01 · 23d ago</sub>
+<sub>2026-11-01 · 24d ago</sub>
 
 > ZapFast 0.21.0 adds chat export, link previews on the messages you send, contact blocking, disappearing-message controls, progress and cancel for attachments, and full-size review before sending. Screen readers and the keyboard can move through messages, voice messages you have not heard are marked, downloads sort into folders, and the Linux packages install on Debian 12 again. It also fixes a crash when sound plays on some Linux systems, a link that stayed down until a restart, an update that could stop ZapFast from starting, videos that never arrived, edits and stars that went missing, and stickers that stayed blank.
 > **Download ZapFast:** [Mac](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-v0.21.0-macos-universal.dmg) · [Windows](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-v0.21.0-x86_64-pc-windows-msvc.msi) · [Windows ARM](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-v0.21.0-aarch64-pc-windows-msvc.msi) · [Linux](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-v0.21.0-x86_64-unknown-linux-gnu.tar.gz) · [Linux ARM](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-v0.21.0-aarch64-unknown-linux-gnu.tar.gz) · [AppImage](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-0.21.0-x86_64.AppImage) · [AppImage ARM](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-0.21.0-aarch64.AppImage) · [Flatpak](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-v0.21.0-x86_64.flatpak) · [Debian/Ubuntu](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast_0.21.0_amd64.deb) · [Fedora](https://github.com/crmne/zapfast/releases/download/v0.21.0/zapfast-0.21.0-1.x86_64.rpm)

@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 23.9k |
+| ⭐ **Stars** | 24.0k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [417](https://github.com/jundot/omlx/issues) |
-| 💻 **Languages** | Python 81% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
+| 🐞 **Open issues + PRs** | [407](https://github.com/jundot/omlx/issues) |
+| 💻 **Languages** | Python 82% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-02-13 |
-| 📦 **Latest release** | [v0.8.3](https://github.com/jundot/omlx/releases/tag/v0.8.3) — 2026-11-22 |
+| 📦 **Latest release** | [v0.8.4](https://github.com/jundot/omlx/releases/tag/v0.8.4) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 101.7 MB |
+| 💾 **Size** | 101.0 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
+### [v0.8.4](https://github.com/jundot/omlx/releases/tag/v0.8.4) — 0.8.4
+<sub>2026-11-26 · today</sub>
+
+> **oMLX 0.8.4**
+> oMLX 0.8.4 makes Inkling 2 Mini much faster, adds LoopCD decoding for it, and speeds up DeepSeek V4.1 when several requests run at once. Inkling 2 Mini prefills 51-124% faster than in 0.8.3, decodes twice as fast at 128K, and now runs Lightning MTP for concurrent requests.
+> **Download:** [macOS 26 / 27](https://github.com/jundot/omlx/releases/download/v0.8.4/oMLX-0.8.4-macos26-27.dmg) | [macOS 15 Sequoia](https://github.com/jundot/omlx/releases/download/v0.8.4/oMLX-0.8.4-macos15-sequoia.dmg)
+> <img width="2400" height="1350" alt="omlx_084_p1" src="https://github.com/user-attachments/assets/215da783-8bbf-4465-a82b-39b3aeefe103" />
+> **Faster Inkling 2 Mini**
+> Inkling 2 Mini prefills 51-124% faster than in 0.8.3, decodes 42% faster on a short prompt and twice as fast at 128K. Lightning MTP now also runs when two or more requests decode together, so two requests at once get 2.6x the total speed (#5674). Most of the gain comes from new fused Metal kernels for attention, experts and the loop layers, and M1 and M2 Macs with Float16 Activations get faster expert kernels too.
+> …
+
 ### [v0.8.3](https://github.com/jundot/omlx/releases/tag/v0.8.3) — 0.8.3
-<sub>2026-11-22 · 2d ago</sub>
+<sub>2026-11-22 · 3d ago</sub>
 
 > **oMLX 0.8.3**
 > oMLX 0.8.3 is an optimization release for Inkling 2 Mini and the Hy4 family, which got day-0 support in 0.8.1. Inkling 2 Mini prefills about 20% faster and decodes 10-13% faster, Hy4 Flash starts answering sooner and needs less memory, and Claude Code's web search now works with local models.
@@ -47,7 +58,7 @@
 > …
 
 ### [v0.8.2](https://github.com/jundot/omlx/releases/tag/v0.8.2) — 0.8.2
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > > **Hotfix release:** Fixes wrong click positions on screenshots with Qwen3.8 Flash-Next (#5474). Everything else is the same as 0.8.1.
 > **oMLX 0.8.2**
@@ -58,7 +69,7 @@
 > …
 
 ### [v0.8.1](https://github.com/jundot/omlx/releases/tag/v0.8.1) — 0.8.1
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > **oMLX 0.8.1**
 > oMLX 0.8.1 adds Hy4, Hy4-flash and Inkling 2 Mini, lets you apply a LoRA adapter from a model's settings, and makes MTP verify on M5, GLM-5.3 with several requests and new questions on a cached document faster.
@@ -69,7 +80,7 @@
 > …
 
 ### [v0.8.0](https://github.com/jundot/omlx/releases/tag/v0.8.0) — 0.8.0
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > **oMLX 0.8.0**
 > oMLX 0.8.0 adds the Prefill Accelerator, which lets a PC with NVIDIA GPUs or a second Mac speed up prefill for a big model on your Mac, adds oQh for more accurate low-bit quants at the same size, and makes DeepSeek V4.1, Qwen and long-context decode faster.
@@ -79,31 +90,20 @@
 > A PC with NVIDIA GPUs, a DGX Spark or a second Mac with a faster GPU runs the first layers of each prompt chunk, while your Mac runs the rest, decodes and keeps the KV cache. Auto picks how many layers the helper takes from the measured speed of both machines and the link, and keeps the prompt on the Mac when a split would be slower (#5065, #5163, #5195). oQh models and Inkling 2 Small run on both kinds of helper (#5391, #5234).
 > …
 
-### [v0.8.0rc1](https://github.com/jundot/omlx/releases/tag/v0.8.0rc1) — 0.8.0rc1
-<sub>2026-11-12 · 12d ago</sub>
-
-> **oMLX 0.8.0rc1**
-> > This is a release candidate. Please report any bugs through [GitHub Issues](https://github.com/jundot/omlx/issues/new/choose). If you need a stable release, please use [oMLX 0.7.3](https://github.com/jundot/omlx/releases/tag/v0.7.3).
-> The release candidate for oMLX 0.8.0 adds the Prefill Accelerator, which lets a PC with NVIDIA GPUs or a second Mac speed up prefill for a big model on your Mac, and makes DeepSeek V4.1 faster with many requests and on clusters.
-> **Download:** [macOS 26 / 27](https://github.com/jundot/omlx/releases/download/v0.8.0rc1/oMLX-0.8.0rc1-macos26-27.dmg) | [macOS 15 Sequoia](https://github.com/jundot/omlx/releases/download/v0.8.0rc1/oMLX-0.8.0rc1-macos15-sequoia.dmg)
-> <sub><i>* If you downloaded build 3727 right after release, the Cluster tab may not find a DGX Spark or NVIDIA PC, so please download it again.</i></sub>
-> <img width="2400" height="1350" alt="image-1794476752259" src="https://github.com/user-attachments/assets/dfa46522-dd0d-425d-8a16-ca2b3eac042c" />
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [test(oq): build the mlx-vlm Inkling 2 reference in a separate process](https://github.com/jundot/omlx/commit/a49ca949a2b49f4815d402788485428b020a61df) | jundot |
-| 2026-11-25 | [test: trim redundant cases and slow setup to cut CI time](https://github.com/jundot/omlx/commit/9ff073ce2cd1835ccf52e6c1425306697c68c5df) | jundot |
-| 2026-11-25 | [feat(inkling2): load Inkling 2 checkpoints converted by mlx-lm (#5648)](https://github.com/jundot/omlx/commit/ba925ba936e581a28437267f03be3c903bfddc7c) | jundot |
-| 2026-11-25 | [feat(api): add GET /v1/models/{model_id} (#5201)](https://github.com/jundot/omlx/commit/d3d229793beac98a6ac3b583bc98cb6ea4f20149) | LXD-8 |
-| 2026-11-25 | [fix(server): report late errors in the JSON keepalive body (#5310)](https://github.com/jundot/omlx/commit/90af4b8297eb09b6b8dae32d462b57431e595689) | Woody-Hu |
-| 2026-11-25 | [fix(admin): stop returning the master API key on polled GETs (#5496)](https://github.com/jundot/omlx/commit/b1fbfff3325cd5f9b9c061c5cec2b241de470ada) | aywengo |
-| 2026-11-25 | [fix(cache): fall back to the shared system-prefix tail when a split-G…](https://github.com/jundot/omlx/commit/3127b370165d76940ded40208b757828c07d4c36) | StefVanG |
-| 2026-11-25 | [fix(cache): reject and evict non-finite vision features (#5597)](https://github.com/jundot/omlx/commit/b5d3eab94cbaff7cdb42af8f033887d98cdc9370) | begcdn |
-| 2026-11-25 | [feat(splash): serve Inkling-2-Mini images on Splash 1.7.3 (#5647)](https://github.com/jundot/omlx/commit/418aab32bfe2530e5eb3b217d5780402e1a2a653) | jundot |
-| 2026-11-25 | [fix(vlm): honor Trust Remote Code for checkpoint model files (#5645)](https://github.com/jundot/omlx/commit/431d9d61c3bd7afbbf6ce946969c81cab1689162) | jundot |
+| 2026-11-26 | [formula: bump to 0.8.4](https://github.com/jundot/omlx/commit/633d6cf62971262149c2b2477361487958da3915) | github-actions[bot] |
+| 2026-11-26 | [chore(cuda-helper): bump the helper to 0.1.9](https://github.com/jundot/omlx/commit/bc55984ab090682c2ea90876f5e64afe5cfd67a4) | jundot |
+| 2026-11-26 | [chore: bump version to 0.8.4](https://github.com/jundot/omlx/commit/7a0d136b39d6fb7e8ff9848884ec84cc955b7834) | jundot |
+| 2026-11-26 | [fix(inkling2): skip the rel load for the unused row of odd verify blocks](https://github.com/jundot/omlx/commit/0babc47b99feb86a1c4dc0f2ea26158581babdd3) | jundot |
+| 2026-11-26 | [fix(inkling2): keep model_loading importable on inference workers](https://github.com/jundot/omlx/commit/dbc6a1d7f17eca8996476f7b9149598a4ac60b1f) | jundot |
+| 2026-11-26 | [perf(inkling2): run Lightning MTP for concurrent requests (#5674)](https://github.com/jundot/omlx/commit/8ffa007d3c03e30372921174a144f4cd9447f093) | jundot |
+| 2026-11-26 | [fix(inkling2): keep verify attention within M1/M2 threadgroup limits](https://github.com/jundot/omlx/commit/aa51fcaf2ef41ab97a8529bf3ef873b3b15ff8be) | jundot |
+| 2026-11-26 | [feat(moe): allow expert offload for Ling checkpoints (#5634)](https://github.com/jundot/omlx/commit/359473412f41b0b42430453baa23b3f9ad40a66a) | hermitdave |
+| 2026-11-26 | [fix(inkling2): fit long-context verify rows in one threadgroup on Ink…](https://github.com/jundot/omlx/commit/896806de9f5d6c256a71828dcb05abeb015fe291) | jundot |
+| 2026-11-26 | [perf(cluster): prefill DeepSeek V4.1 prompts together on tensor-paral…](https://github.com/jundot/omlx/commit/768095a3a8d0d648329ea271fbab771c22e1963b) | jundot |
 
 [See all commits ↗](https://github.com/jundot/omlx/commits)
 

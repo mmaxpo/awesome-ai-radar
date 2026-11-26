@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/multica-ai/multica)
 
-> Make humans and AI agents work as one team — open-source and self-hostable.
+> Shared task board where people and AI coding agents work as teammates. Source-available, self-hostable.
 
 ## 📝 Notes
 
@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 57.9k |
+| ⭐ **Stars** | 58.1k |
 | 🍴 **Forks** | 7.6k |
 | 🐞 **Open issues + PRs** | [2.1k](https://github.com/multica-ai/multica/issues) |
 | 💻 **Languages** | Go 52% · TypeScript 40% · MDX 6% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-01-13 |
 | 📦 **Latest release** | [v0.13.0](https://github.com/multica-ai/multica/releases/tag/v0.13.0) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 251.0 MB |
+| 💾 **Size** | 254.8 MB |
 | 🌐 **Website** | https://multica.ai |
 
 ## 📦 Recent releases
 
 ### [v0.13.0](https://github.com/multica-ai/multica/releases/tag/v0.13.0)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Changelog**
 > * d1e64c82c0ee4eadc39eae927751867a4867c4df MUL-10020 fix(dashboard): keep standalone runs out of the Squads leaderboard (#11359) (@forrestchang)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.12.1](https://github.com/multica-ai/multica/releases/tag/v0.12.1)
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Changelog**
 > * 665b4cd8e1e94388b1be6f2f685f945f153e7493 MUL-9924: Highlight actionable UI areas in Complete tutorial screenshots (#11306) (@forrestchang and @multica-agent)
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.12.0](https://github.com/multica-ai/multica/releases/tag/v0.12.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **Changelog**
 > * ec943222efba2e2c8acbdec284a9e72a3c98d982 MUL-9420: guest role scoped to shared projects (#10766) (@forrestchang)
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.11.1](https://github.com/multica-ai/multica/releases/tag/v0.11.1)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **Changelog**
 > * 528cd82711f2f99eedd04e4d3a68c6c31b514659 MUL-8370 fix(docs): restrict doc and folder deletion to creators and admins (#10946) (@Bohan-J)
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.11.0](https://github.com/multica-ai/multica/releases/tag/v0.11.0)
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > **Changelog**
 > * 874897897fdd9ab8e26158521a0d14c1ffa2d452 MUL-7745 MUL-9463: fix(squads): run an @<!-- -->agent mention of the assigned squad's leader as a leader task (#8918) (@ADanMan)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [feat(issues): keyboard cursor for the issue list, table and board (MU…](https://github.com/multica-ai/multica/commit/9a2d33658482afc9f7b37ead8035546181634d02) | forrestchang |
-| 2026-11-25 | [fix(ghsnapshot): sweep head-mismatched and checks-watched PRs for wak…](https://github.com/multica-ai/multica/commit/4b3be67ea5919892f847d5ca686a172228fa8f84) | forrestchang |
-| 2026-11-25 | [feat(shortcuts): issue verbs S/A/P/L/⇧D/⇧P/Q/R on the issue in front …](https://github.com/multica-ai/multica/commit/f9b3b4b18e5285390a33402e0c53917bf6d87b9d) | forrestchang |
-| 2026-11-25 | [fix(issues): keep the pinned comment composer still at the end of the…](https://github.com/multica-ai/multica/commit/73593862348f1344f4e2620c0b30bb7bd2af7a82) | forrestchang |
-| 2026-11-25 | [fix(issues): keep the outline card centered during its enter/exit ani…](https://github.com/multica-ai/multica/commit/b22efd52926c495e4f8e373456f9843ee9bdda13) | forrestchang |
-| 2026-11-25 | [fix(search): keep ⌘K selection on the top row as results land (MUL-10…](https://github.com/multica-ai/multica/commit/62ee7f498878140bc4795c7cbf3593daf8ffc993) | forrestchang |
-| 2026-11-25 | [feat(docs): unify doc comment card actions and selection (MUL-10209) …](https://github.com/multica-ai/multica/commit/12a7f95bd344cd118f7bf19ec4718dfc38ef376d) | forrestchang |
-| 2026-11-25 | [fix(docs): give doc titles the full row and add a right-click menu (M…](https://github.com/multica-ai/multica/commit/e33ae51e9c91cf868bac2ceaf036ec67e3f67546) | forrestchang |
-| 2026-11-25 | [MUL-10192 chore(changelog): v0.13.0 release notes (#11554)](https://github.com/multica-ai/multica/commit/35b54a3742bb51bdf5ffa688655367ec98044862) | multica-eve |
-| 2026-11-25 | [fix(issues): check blocker visibility on remove_blocked_by (MUL-10206…](https://github.com/multica-ai/multica/commit/fd9d635d2876c7eeb4768f9d365b9f11fdc0c6d4) | multica-eve |
+| 2026-11-26 | [feat: let admins clear a run's log; redact base64-encoded secrets (MU…](https://github.com/multica-ai/multica/commit/0c5ee1f07d87dc62cc9c6138cef7f7f44a74eb9f) | forrestchang |
+| 2026-11-26 | [fix(inbox): align agent avatars with Views rows in the Work panel Inb…](https://github.com/multica-ai/multica/commit/cd2869498c078f31cd936e6f5e175b2c84020b4c) | forrestchang |
+| 2026-11-26 | [feat(agents): archive from Settings and allow archiving Mika (MUL-102…](https://github.com/multica-ai/multica/commit/b64739562c3feee796dde675bff06f16347bc868) | forrestchang |
+| 2026-11-26 | [test(views): time the autolink check against a linear baseline instea…](https://github.com/multica-ai/multica/commit/1f2c47f349ed3784e14a5d6313683889bd24005e) | pseudoyu |
+| 2026-11-26 | [fix(server): stop a removed member's daemon, autopilots and agents (M…](https://github.com/multica-ai/multica/commit/467b6f4b49f04e44ee68f1f07a7a0b5362f7ab3a) | forrestchang |
+| 2026-11-26 | [docs(lark): surface the built-in Feishu @-mention flow in titles and …](https://github.com/multica-ai/multica/commit/2491e4498662a704796a12c635707d64c00fafb6) | forrestchang |
+| 2026-11-26 | [docs: add public repository writing rules and a security policy (MUL-…](https://github.com/multica-ai/multica/commit/375f6e51600284991bf30e845f901cfbdbcce44d) | forrestchang |
+| 2026-11-26 | [fix(views): keep the pinned comment composer at the bottom on short i…](https://github.com/multica-ai/multica/commit/5aeaa3ff2afeaa62e759d1d9fdda6c06be1a4e75) | forrestchang |
+| 2026-11-26 | [fix(agent): lift Codex project_doc_max_bytes so the runtime brief is …](https://github.com/multica-ai/multica/commit/9fe5209612a2e2e1cc395b00097a5a15d2eda3fd) | Bohan-J |
+| 2026-11-26 | [fix(views): keep huge comment bodies from freezing the page (MUL-1019…](https://github.com/multica-ai/multica/commit/f047cccc7c040d004b46195ebe46238bd8fcfe85) | Bohan-J |
 
 [See all commits ↗](https://github.com/multica-ai/multica/commits)
 

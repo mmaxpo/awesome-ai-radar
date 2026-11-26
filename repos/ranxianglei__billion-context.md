@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.4k |
-| 🍴 **Forks** | 681 |
+| ⭐ **Stars** | 8.5k |
+| 🍴 **Forks** | 688 |
 | 🐞 **Open issues + PRs** | [1.5k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-08-06 |
 | 📦 **Latest release** | [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 92.8 MB |
+| 💾 **Size** | 96.7 MB |
 
 ## 📦 Recent releases
 
 ### [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216)
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: two fixes — evidence file is now readable after the run completes + one retry added for the small-window round in  | gate 两个修复:跑完后证据文件能读了 + R 车道小窗口轮次加一次重试 by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6808
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
-<sub>2026-11-15 · 10d ago</sub>
+<sub>2026-11-15 · 11d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · 11d ago</sub>
+<sub>2026-11-14 · 12d ago</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 17d ago</sub>
+<sub>2026-11-07 · 18d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #7691 from ranxianglei/ci-full-eg-2026-11-25](https://github.com/ranxianglei/billion-context/commit/ced22b1d2b0576ac3c6f8169f2ecbe9f3d8f3a45) | ranxianglei |
-| 2026-11-25 | [fix(ci-full): close the two red gates from 6842c71](https://github.com/ranxianglei/billion-context/commit/62f7b082660dfab45b20186d28a70c7ad196a133) | ranxianglei |
-| 2026-11-25 | [feat(egress): renumber — the op log's log_seq IS the kernel citation …](https://github.com/ranxianglei/billion-context/commit/6842c7131b7d92dda86050e64680d1e65fab6647) | ranxianglei |
-| 2026-11-25 | [docs(egress): lock the renumber design — log_seq IS the citation number](https://github.com/ranxianglei/billion-context/commit/31dc28085b533f83aa3c24a3f0f08910b9dbda7b) | ranxianglei |
-| 2026-11-25 | [Merge pull request #6993 from ranxianglei/fix-4913-degenerate-turn-te…](https://github.com/ranxianglei/billion-context/commit/9c8307c804c2f08908bfabd9e3711e818d160b1c) | ranxianglei |
-| 2026-11-25 | [test(ci-full): scope the real pi/dsh e2e lanes off the egress plane](https://github.com/ranxianglei/billion-context/commit/5c73de39b3774d3cce44dcee9271b737d213b32c) | ranxianglei |
-| 2026-11-25 | [test(ci-full): scope legacy-wire suites off the egress plane](https://github.com/ranxianglei/billion-context/commit/eccdddc3755b9c652bc2178cfc7203187440af07) | ranxianglei |
-| 2026-11-25 | [rollout: egress family defaults to 100 — ci:full verification branch …](https://github.com/ranxianglei/billion-context/commit/8341b976593724111db32236e8298f16dcc8d50c) | ranxianglei |
-| 2026-11-25 | [Merge pull request #7664 from ranxianglei/egress-fork-wiring](https://github.com/ranxianglei/billion-context/commit/64b578b1e651bcd33dfa4913ef1e24e31fc57d43) | ranxianglei |
-| 2026-11-25 | [fix(plugin): the fork source link must not leak a damaged flow as FOR…](https://github.com/ranxianglei/billion-context/commit/6618014d2c545e7c9c39949f86b34b3c63ef0972) | ranxianglei |
+| 2026-11-26 | [Merge pull request #7804 from ranxianglei/2026-11-26_sessions-dir-config](https://github.com/ranxianglei/billion-context/commit/0a133d91463bde79cad53e7966d32f10abc03c89) | ranxianglei |
+| 2026-11-26 | [docs: seed sessions.dir in website/config-reference and regenerate (d…](https://github.com/ranxianglei/billion-context/commit/2c9b245b95df60aaf235ec97b8a906522f25f9af) | ranxianglei |
+| 2026-11-26 | [feat(config): sessions.dir — relocate the sessions dir from the confi…](https://github.com/ranxianglei/billion-context/commit/1c3ab8224d035df57224b8a9650adc4ca961ee3c) | ranxianglei |
+| 2026-11-26 | [Merge pull request #7786 from ranxianglei/2026-11-26_ci-stale-pr-gate](https://github.com/ranxianglei/billion-context/commit/0a4ec90495b0c1bb719d1933e2e0c23189114bd7) | ranxianglei |
+| 2026-11-26 | [fix(ci): register ci-stale-pr-gate test in LIVE_FILES (#1248 tripwire)](https://github.com/ranxianglei/billion-context/commit/e88f6d4e52af7610ef2ac0b6f8c7aee7cd42a825) | ranxianglei |
+| 2026-11-26 | [Merge pull request #7782 from ranxianglei/2026-11-26_compress-clamp-b…](https://github.com/ranxianglei/billion-context/commit/dc2f371aaffc61de329acb648908926aed7e7866) | ranxianglei |
+| 2026-11-26 | [chore: sync root lockfile kernel entry with the 0.0.211 bump (lock-sy…](https://github.com/ranxianglei/billion-context/commit/ce7af9892ca63d4b43c4c23ac558273fb262119b) | ci-check |
+| 2026-11-26 | [fix(ci): drop the top-level workflow `if:` — it is not a valid GHA ke…](https://github.com/ranxianglei/billion-context/commit/e6a67f3b267618c266d5bd25e5451c3da1b5750e) | ranxianglei |
+| 2026-11-26 | [fix(ci): filter labeled triggers to CI labels; skip the matrix on PRs…](https://github.com/ranxianglei/billion-context/commit/62b8fea542b9c0a5699ebd7a905c4ce6d680dd40) | ranxianglei |
+| 2026-11-26 | [chore: sync kernel lockfile version with the 0.0.211 bump (lock-sync,…](https://github.com/ranxianglei/billion-context/commit/7b609ee8af272f7b358b74185f04d21a1451eba4) | ci-check |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

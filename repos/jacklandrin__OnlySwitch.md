@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 6.1k |
 | 🍴 **Forks** | 255 |
-| 🐞 **Open issues + PRs** | [26](https://github.com/jacklandrin/OnlySwitch/issues) |
+| 🐞 **Open issues + PRs** | [27](https://github.com/jacklandrin/OnlySwitch/issues) |
 | 💻 **Languages** | Swift 80% · HTML 13% · JavaScript 5% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `macos` `swiftui` `statusbar` `menubar-app` `notch` `audioplayer` `dark-mode` `pomodoro-timer` `shortcuts` `composable-architecture` `stagemanager` `widgetkit` `widgets` `ai` `ai-agents` `remote-control` `systemmonitor` `claude-code` `codex` `screenshot` |
-| 🕒 **Last activity** | 2026-11-18 (7d ago) |
+| 🕒 **Last activity** | 2026-11-18 (8d ago) |
 | 📅 **Created** | 2021-11-30 |
 | 📦 **Latest release** | [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
@@ -34,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [beta_3.8.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.8.0) _(pre-release)_
-<sub>2026-11-16 · 8d ago</sub>
+<sub>2026-11-16 · 9d ago</sub>
 
 > New features:
 > * Added a Display Brightness master switch in Settings → Display. Turn brightness controls off or back on without restarting OnlySwitch.
@@ -45,7 +45,7 @@
 > …
 
 ### [release_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.7.0) — 3.7.0
-<sub>2026-11-16 · 9d ago</sub>
+<sub>2026-11-16 · 10d ago</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
@@ -56,7 +56,7 @@
 > …
 
 ### [beta_3.7.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.7.0) _(pre-release)_
-<sub>2026-11-15 · 10d ago</sub>
+<sub>2026-11-15 · 11d ago</sub>
 
 > New features:
 > * Added a Browser tab with bookmarks, a mobile viewport, and automatic light/dark appearance.
@@ -67,7 +67,7 @@
 > …
 
 ### [release_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/release_3.6.0)
-<sub>2026-11-10 · 14d ago</sub>
+<sub>2026-11-10 · 15d ago</sub>
 
 > New features:
 > 1. Screenshots tab supported video recording
@@ -78,7 +78,7 @@
 > …
 
 ### [beta_3.6.0](https://github.com/jacklandrin/OnlySwitch/releases/tag/beta_3.6.0) _(pre-release)_
-<sub>2026-11-08 · 16d ago</sub>
+<sub>2026-11-08 · 17d ago</sub>
 
 > New features:
 > * Supported screen record

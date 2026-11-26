@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 78.7k |
-| 🍴 **Forks** | 5.2k |
-| 🐞 **Open issues + PRs** | [250](https://github.com/colbymchenry/codegraph/issues) |
+| ⭐ **Stars** | 78.8k |
+| 🍴 **Forks** | 5.3k |
+| 🐞 **Open issues + PRs** | [259](https://github.com/colbymchenry/codegraph/issues) |
 | 💻 **Languages** | TypeScript 90% · Rust 5% · Svelte 2% · JavaScript 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-23 (yesterday) |
+| 🕒 **Last activity** | 2026-11-23 (2d ago) |
 | 📅 **Created** | 2026-01-18 |
 | 📦 **Latest release** | [v1.6.4](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.4) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.6.4](https://github.com/colbymchenry/codegraph/releases/tag/v1.6.4)
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > **[1.6.4] - 2026-11-20**
 > **Highlights**

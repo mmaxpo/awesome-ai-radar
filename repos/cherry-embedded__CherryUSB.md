@@ -21,16 +21,16 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.1k |
-| 🍴 **Forks** | 465 |
+| 🍴 **Forks** | 466 |
 | 🐞 **Open issues + PRs** | [9](https://github.com/cherry-embedded/CherryUSB/issues) |
 | 💻 **Languages** | C 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `usb-host` `usb-device` `usb` `cdc` `hid` `uvc` `uac` `dfu` `ehci` `hub` `rndis` `musb` `dwc2` `xhci` `cherryusb` `cdns2` `cdns3` `ohci` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2021-07-10 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/cherry-embedded/CherryUSB/releases/tag/v1.6.1) — 2026-04-27 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 100.4 MB |
+| 💾 **Size** | 100.5 MB |
 | 🌐 **Website** | https://cherryusb.readthedocs.io |
 
 ## 📦 Recent releases
@@ -94,8 +94,9 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [docs: update md & rst](https://github.com/cherry-embedded/CherryUSB/commit/fd76ba101d829fff80272a2038c5caa89de9b42d) | sakumisu |
-| 2026-11-25 | [fix(class/serial): synchronize serial close and disconnect cleanup](https://github.com/cherry-embedded/CherryUSB/commit/4095de02001536a84f39a2f334b3f5cf93d9dc6a) | sakumisu |
+| 2026-11-26 | [refactor(class): refactor host net class, add link monitor and fix so…](https://github.com/cherry-embedded/CherryUSB/commit/decaec324a93bf167c69f558f4aa0f04069ed947) | sakumisu |
+| 2026-11-26 | [docs: update md & rst](https://github.com/cherry-embedded/CherryUSB/commit/e98a9a2a572ccc5da62cac87e324a0f7bc9a3231) | sakumisu |
+| 2026-11-26 | [fix(class/serial): synchronize serial close and disconnect cleanup](https://github.com/cherry-embedded/CherryUSB/commit/554723213c077eae0055d0802328035e65c05fc9) | sakumisu |
 | 2026-11-25 | [fix(class/msc/usbd_msc): send fail not abort if some scsi cmds do not…](https://github.com/cherry-embedded/CherryUSB/commit/aa27120c4cc291a9d2a8c937b6199e88ce4ea527) | sakumisu |
 | 2026-11-25 | [fix(port): fix host port submission, kill and isr completion handling…](https://github.com/cherry-embedded/CherryUSB/commit/87b1b599d821061e660cb760418351d55fff350c) | sakumisu |
 | 2026-11-25 | [chore(tool): add wch speed test tool](https://github.com/cherry-embedded/CherryUSB/commit/6b28357d6b140e9dde1feb22e2522a9663c63550) | sakumisu |
@@ -103,7 +104,6 @@
 | 2026-11-25 | [update: set enum thread to the lower prio than app prio](https://github.com/cherry-embedded/CherryUSB/commit/87276ca5efd6538c87cc70d01a484379e4ea6ad2) | sakumisu |
 | 2026-11-24 | [update(class/msc/usbh_msc): export usbh_msc_modeswitch](https://github.com/cherry-embedded/CherryUSB/commit/5a38fd508ba43d2e406c00cd658858bb80909c30) | sakumisu |
 | 2026-11-23 | [add(class/wch): add ch372 vendor class and ch372 template demo](https://github.com/cherry-embedded/CherryUSB/commit/117a079d06f4c904498b30879de06b05c728399b) | Links0617 |
-| 2026-11-23 | [fix(port/wch): fix wch usbhs device controller port burst transfer bug](https://github.com/cherry-embedded/CherryUSB/commit/8a9c2100517a8f85b19ffa9d83806ae0f6397165) | Links0617 |
 
 [See all commits ↗](https://github.com/cherry-embedded/CherryUSB/commits)
 

@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 209.7k |
+| ⭐ **Stars** | 210.6k |
 | 🍴 **Forks** | 11.0k |
-| 🐞 **Open issues + PRs** | [922](https://github.com/firecrawl/firecrawl/issues) |
-| 💻 **Languages** | TypeScript 75% · Python 10% · Rust 5% · Java 3% · PHP 2% |
+| 🐞 **Open issues + PRs** | [929](https://github.com/firecrawl/firecrawl/issues) |
+| 💻 **Languages** | TypeScript 54% · Python 18% · Rust 9% · Java 5% · PHP 4% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 190.0 MB |
+| 💾 **Size** | 190.8 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [chore(api): drop the unread active_crawls and crawls_by_team_id sets …](https://github.com/firecrawl/firecrawl/commit/68291b7a8c27d60b848a58f26e271be808912735) | abimaelmartell |
+| 2026-11-26 | [feat(api): dedicated crawl state Redis and loud handling of missing c…](https://github.com/firecrawl/firecrawl/commit/d355ef9020e34abe52948f8e99577bdaf4d290fc) | abimaelmartell |
+| 2026-11-25 | [chore(sdks): update package descriptions (#6080)](https://github.com/firecrawl/firecrawl/commit/d7ae564d3c49df3be44d344956675c43947517fc) | capy-ai[bot] |
+| 2026-11-25 | [test(api): remove obsolete __experimental_omceDomain scrape snip test…](https://github.com/firecrawl/firecrawl/commit/83ed15240edefc4df591b2b2c229a0e57040a574) | mogery |
+| 2026-11-25 | [fix(api): guard raw PDF prefetch temp-file unlink (#6077)](https://github.com/firecrawl/firecrawl/commit/1b8a5ff0112175f29f1a43b2af9a6692c05b3fac) | mogery |
+| 2026-11-25 | [feat(api): add optional expires_at to auth chunk type and key_expired…](https://github.com/firecrawl/firecrawl/commit/b6b4d03589b841ddf6f57d8dba8b8671115a070d) | micahstairs |
+| 2026-11-25 | [chore(api): log webhook host and events instead of full config (#6066)](https://github.com/firecrawl/firecrawl/commit/98ae8c7578cccb021560eca6158ca347420810bc) | abimaelmartell |
+| 2026-11-25 | [refactor(api): complete modular service architecture, env cleanup, an…](https://github.com/firecrawl/firecrawl/commit/edd2574beed4b92a12cd83198de6f9ac6f0030ae) | mogery |
 | 2026-11-25 | [feat(api): let search providers declare enterprise retention mode sup…](https://github.com/firecrawl/firecrawl/commit/0519b26a2b73c13048c0d29bce12c0306f7601ec) | abimaelmartell |
 | 2026-11-25 | [feat(api): trace each scrape engine attempt and honor OTEL_TRACES_SAM…](https://github.com/firecrawl/firecrawl/commit/d8f7c69ac9c3576ed70085e2bd841dc5cdfb3df7) | abimaelmartell |
-| 2026-11-25 | [feat(api): keep Alexandria responses in a one-hour cache instead of t…](https://github.com/firecrawl/firecrawl/commit/737060755de278514e4093579b007a58689aee21) | abimaelmartell |
-| 2026-11-25 | [feat(api): count search provider outcomes (#6060)](https://github.com/firecrawl/firecrawl/commit/c6b8941daf26a784b515f66cbfb1f52a8bc60600) | abimaelmartell |
-| 2026-11-24 | [fix(fresh-feed): harden agent validation, domain normalization, and u…](https://github.com/firecrawl/firecrawl/commit/db55e2d7a36f2193fb452078e1191decffec7287) | KrisOei |
-| 2026-11-24 | [fix(api): align search hook SearchRequest type and add API typecheck …](https://github.com/firecrawl/firecrawl/commit/ab1492d7e9694d0aaa769cbdcbd488e3006c04ba) | mogery |
-| 2026-11-24 | [feat(api): wire v2 request validation through service.schemas (#6050)](https://github.com/firecrawl/firecrawl/commit/eea02a6e8b4fb6dfdebe3cc24b55034a43770403) | mogery |
-| 2026-11-24 | [feat(api): emit process, queue, crawl, map, and search service hooks …](https://github.com/firecrawl/firecrawl/commit/a7a7d7ef328724415d94c20385831ea1a3d73936) | mogery |
-| 2026-11-24 | [feat(api): record which kind of client repeats an Alexandria request …](https://github.com/firecrawl/firecrawl/commit/95dba25e241bd2baf2a15a622359443845eeeedf) | abimaelmartell |
-| 2026-11-24 | [feat(api): return the job id in v2 search and parse error responses (…](https://github.com/firecrawl/firecrawl/commit/4ff4eb66058d2c0f2f90ab8a7bc4ee9d24555e37) | micahstairs |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 25.0k |
 | 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [433](https://github.com/modelcontextprotocol/python-sdk/issues) |
+| 🐞 **Open issues + PRs** | [434](https://github.com/modelcontextprotocol/python-sdk/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `mcp` `mcp-server` `mcp-client` |
-| 🕒 **Last activity** | 2026-11-17 (8d ago) |
+| 🕒 **Last activity** | 2026-11-17 (9d ago) |
 | 📅 **Created** | 2024-09-24 |
 | 📦 **Latest release** | [v2.3.0](https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0) — 2026-10-02 |
 | 🌿 **Default branch** | `main` |

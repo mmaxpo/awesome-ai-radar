@@ -20,69 +20,67 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 14.3k |
-| 🍴 **Forks** | 799 |
-| 🐞 **Open issues + PRs** | [101](https://github.com/e2e-inc/e2e/issues) |
+| ⭐ **Stars** | 14.4k |
+| 🍴 **Forks** | 801 |
+| 🐞 **Open issues + PRs** | [108](https://github.com/e2e-inc/e2e/issues) |
 | 💻 **Languages** | TypeScript 99% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `e2e` `e2e-testing` `end-to-end-testing` `mobile` `mobile-testing` `playwright` `web` `ai-testing` `automation-testing` `qa` `test-automation` `testing` `testing-framework` `testing-tools` `ui-testing` `agentic-testing` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-07-22 |
-| 📦 **Latest release** | [@e2e-dev/revyl@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/revyl%400.0.1) — 2026-11-19 |
+| 📦 **Latest release** | [@e2e-dev/testmu@0.0.7](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/testmu%400.0.7) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 133.9 MB |
+| 💾 **Size** | 130.9 MB |
 | 🌐 **Website** | https://e2e.com |
 
 ## 📦 Recent releases
 
-### [@e2e-dev/revyl@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/revyl%400.0.1)
-<sub>2026-11-19 · 6d ago</sub>
+### [@e2e-dev/testmu@0.0.7](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/testmu%400.0.7)
+<sub>2026-11-25 · today</sub>
 
 > **Patch Changes**
-> - [#1958](https://github.com/e2e-inc/e2e/pull/1958) [`ad641be`](https://github.com/e2e-inc/e2e/commit/ad641beeaca6ee56a251bdc0abde8053b0b0ee7c) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Update agent-device to 0.21.39. Android taps and key presses no longer wait for global animations, and screenshots on Android and single-panel iOS simulators read rotation without an extra round trip.
-> - [#1708](https://github.com/e2e-inc/e2e/pull/1708) [`f659d64`](https://github.com/e2e-inc/e2e/commit/f659d64d80cbb484f539681a6bf72f5047854a99) Thanks [@KayaanT](https://github.com/KayaanT)! - Add `@e2e-dev/revyl`: `revyl({ app, device, osVersion })` runs mobile targets on Revyl's hosted iOS simulators and Android emulators, one device per worker slot, through agent-device's `@agent-device/revyl` plugin. Set `REVYL_API_KEY` in the run environment; Revyl installs the build from the `https` `app` URL. Needs `@e2e-dev/mobile` 0.12.8 or later.
+> - [#1975](https://github.com/e2e-inc/e2e/pull/1975) [`1676981`](https://github.com/e2e-inc/e2e/commit/1676981ab76fd7a8b7262057a74b320545b0e3bb) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Update agent-device to 0.21.42. On iOS, `device.dismissKeyboard()` no longer presses the keyboard's Hide Keyboard or Done key: an iPad keyboard now goes away by the same short drag as an iPhone one. Pressing Enter sends one Return to the focused input, a fill reaches only the input a tap at that point reaches, and a command on a session whose simulator was deleted fails at once instead of waiting about 20 seconds. A fill on iOS is also a little faster.
 
-### [@e2e-dev/notte@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/notte%400.0.1)
-<sub>2026-11-19 · 6d ago</sub>
-
-> **Patch Changes**
-> - [#1726](https://github.com/e2e-inc/e2e/pull/1726) [`9602daa`](https://github.com/e2e-inc/e2e/commit/9602daa9602444673b99ef6aaa33c67a81cb2f0b) Thanks [@andreakiro](https://github.com/andreakiro)! - New package: `notte()`, a browser provider that runs each test attempt in its own [Notte](https://notte.cc) cloud browser session, stops it when the attempt ends, reads `browser.waitForDownload` files back from the session's storage, and stops the sessions of workers that died when the run ends. [Notte browsers](https://e2e.com/docs/integrations/notte)
-
-### [@e2e-dev/moli@0.0.1](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/moli%400.0.1)
-<sub>2026-11-19 · 6d ago</sub>
+### [@e2e-dev/revyl@0.0.2](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/revyl%400.0.2)
+<sub>2026-11-25 · today</sub>
 
 > **Patch Changes**
-> - [#1843](https://github.com/e2e-inc/e2e/pull/1843) [`29a0261`](https://github.com/e2e-inc/e2e/commit/29a0261775fc362aa26e7ea0fe53e671c864dbc1) Thanks [@ldm0](https://github.com/ldm0)! - Add `moli()` for `web({ browser: moli() })`. Each worker gets a local Moli CDP server with layout and resources enabled, automatic port selection, startup cancellation, and process cleanup when its lease ends.
+> - [#1975](https://github.com/e2e-inc/e2e/pull/1975) [`1676981`](https://github.com/e2e-inc/e2e/commit/1676981ab76fd7a8b7262057a74b320545b0e3bb) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Update agent-device to 0.21.42. On iOS, `device.dismissKeyboard()` no longer presses the keyboard's Hide Keyboard or Done key: an iPad keyboard now goes away by the same short drag as an iPhone one. Pressing Enter sends one Return to the focused input, a fill reaches only the input a tap at that point reaches, and a command on a session whose simulator was deleted fails at once instead of waiting about 20 seconds. A fill on iOS is also a little faster.
+> - [#1947](https://github.com/e2e-inc/e2e/pull/1947) [`8255089`](https://github.com/e2e-inc/e2e/commit/82550897f47469272d464fa92c3580033442af02) Thanks [@KayaanT](https://github.com/KayaanT)! - Tests a local build on Revyl: with `app` left out of `revyl()`, each device starts with no app and the target's `app.appPath` is uploaded to it and installed there.
 
-### [@e2e-dev/testmu@0.0.6](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/testmu%400.0.6)
-<sub>2026-11-19 · 6d ago</sub>
-
-> **Patch Changes**
-> - [#1859](https://github.com/e2e-inc/e2e/pull/1859) [`e65091b`](https://github.com/e2e-inc/e2e/commit/e65091bbe10b00860ec6240336b57933a7ce65f7) Thanks [@kdy1](https://github.com/kdy1)! - Update agent-device to 0.21.38. Opening an app now waits for the app's first screen before the first capture, and on Android a relaunch accepts a package that Android restarts at once. On iOS, `device.back()` presses the navigation bar's back button when there is one, keyboard dismiss and enter have a bounded idle wait, and agent-device establishes the screen origin of a full-screen private accessibility root.
-> - [#1958](https://github.com/e2e-inc/e2e/pull/1958) [`ad641be`](https://github.com/e2e-inc/e2e/commit/ad641beeaca6ee56a251bdc0abde8053b0b0ee7c) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Update agent-device to 0.21.39. Android taps and key presses no longer wait for global animations, and screenshots on Android and single-panel iOS simulators read rotation without an extra round trip.
-> - [#1708](https://github.com/e2e-inc/e2e/pull/1708) [`f659d64`](https://github.com/e2e-inc/e2e/commit/f659d64d80cbb484f539681a6bf72f5047854a99) Thanks [@KayaanT](https://github.com/KayaanT)! - `@e2e-dev/mobile/lease` adds `agentDevicePlugin(entry)`, which checks a provider plugin's version against the engine's agent-device and registers it in a lease daemon's home; `@e2e-dev/testmu` now uses it and needs `@e2e-dev/mobile` 0.12.8 or later. A lease's `device` selector is used to allocate it and no longer goes on the worker's client, since the lease scope already picks the device.
-
-### [@e2e-dev/smol@0.1.4](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/smol%400.1.4)
-<sub>2026-11-19 · 6d ago</sub>
+### [@e2e-dev/limrun@0.2.7](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/limrun%400.2.7)
+<sub>2026-11-25 · today</sub>
 
 > **Patch Changes**
-> - [#1785](https://github.com/e2e-inc/e2e/pull/1785) [`ceaea64`](https://github.com/e2e-inc/e2e/commit/ceaea64ceead09d0a0f8cb5b384ef0d9ffac23a1) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Bump playwright-core to 1.65.1 and `@ai-sdk/provider` to 4.0.38. Smol sandboxes use the Playwright 1.65.1 image.
-> - [#1965](https://github.com/e2e-inc/e2e/pull/1965) [`60d29cf`](https://github.com/e2e-inc/e2e/commit/60d29cfe4c9d88b00659e0d0e00b8973d61e7391) Thanks [@szymonrybczak](https://github.com/szymonrybczak)! - List the maintainers' `@e2e.com` addresses in `contributors`.
+> - [#1975](https://github.com/e2e-inc/e2e/pull/1975) [`1676981`](https://github.com/e2e-inc/e2e/commit/1676981ab76fd7a8b7262057a74b320545b0e3bb) Thanks [@okwasniewski](https://github.com/okwasniewski)! - Update agent-device to 0.21.42. On iOS, `device.dismissKeyboard()` no longer presses the keyboard's Hide Keyboard or Done key: an iPad keyboard now goes away by the same short drag as an iPhone one. Pressing Enter sends one Return to the focused input, a fill reaches only the input a tap at that point reaches, and a command on a session whose simulator was deleted fails at once instead of waiting about 20 seconds. A fill on iOS is also a little faster.
+
+### [@e2e-dev/kernel@0.2.4](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/kernel%400.2.4)
+<sub>2026-11-25 · today</sub>
+
+> **Patch Changes**
+> - [#2122](https://github.com/e2e-inc/e2e/pull/2122) [`13b5450`](https://github.com/e2e-inc/e2e/commit/13b5450384eb7aad4c44f9d2f95dc1821a47ec2e) Thanks [@DeryFerd](https://github.com/DeryFerd)! - The Kernel provider no longer prints the browser's live view URL into the run log; it logs `browser <id>` alone. The view URL carries tokens that act on the session, and a run's log is often public CI output. The browser keeps its `e2e_run`, `e2e_target`, and `e2e_slot` tags, so Kernel's dashboard still finds it.
+
+### [@e2e-dev/eas@0.3.6](https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/eas%400.3.6)
+<sub>2026-11-25 · today</sub>
+
+> **Patch Changes**
+> - [#2184](https://github.com/e2e-inc/e2e/pull/2184) [`a560224`](https://github.com/e2e-inc/e2e/commit/a5602240c9e37ecf60310b68fb508a0225676524) Thanks [@DeryFerd](https://github.com/DeryFerd)! - The install command now lists `e2e` and `@e2e-dev/mobile`. Installing `@e2e-dev/eas` alone left them out of `package.json`, and with pnpm `e2e.config.ts` could not import them.
+> - [#2224](https://github.com/e2e-inc/e2e/pull/2224) [`06aa108`](https://github.com/e2e-inc/e2e/commit/06aa108bb858e9acacd06099a38fe7633cee2060) Thanks [@okwasniewski](https://github.com/okwasniewski)! - `expoSimulators()` installs a local build itself: with no `buildId` or `applicationArchiveUrl`, the target's `app.appPath` is uploaded to each simulator and installed there, before the first test. Remove a fixture that calls `device.installApp()` for that build, since it now uploads the build a second time. A session whose build does not install is stopped. Needs `@e2e-dev/mobile` 0.12.9 or later.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [feat(web): filter browser.cookies() by URL (ENG-1502) (#2250)](https://github.com/e2e-inc/e2e/commit/a47a95604b6bb49c5c3c1e839b15d0c64295f9d8) | okwasniewski |
-| 2026-11-25 | [feat(test): add test.describe.only and the only option on describe (E…](https://github.com/e2e-inc/e2e/commit/769a20051358aeb08188e2ea50306611d27d1d3b) | KrzysztofMoch |
-| 2026-11-25 | [fix(report): escape & in markdown text, so entity text shows as writt…](https://github.com/e2e-inc/e2e/commit/c371f78c3a56f8d1b5a72acb4ed0f98b19765886) | abhinavapasok |
-| 2026-11-25 | [docs(pt): catch up mobile and web with permissions: 'all' (#2247)](https://github.com/e2e-inc/e2e/commit/679519f13128f6c3f6e621f217583cafee3d2c96) | eriveltonelias |
-| 2026-11-25 | [feat(web): add browser.setNetwork to take the browser offline (ENG-10…](https://github.com/e2e-inc/e2e/commit/860f9e5c18f73fd54dc44ad25ed3ee2370bb3fba) | okwasniewski |
-| 2026-11-25 | [fix(core): a caught launch() or newSession() rejection no longer fail…](https://github.com/e2e-inc/e2e/commit/511a01acc474c27521dc9f892ee0020e26aa153d) | kdy1 |
-| 2026-11-25 | [fix(run): cancel engine calls of a body abandoned at its timeout (ENG…](https://github.com/e2e-inc/e2e/commit/42207c79ec7a927077d0995653aab1a18bf61ab5) | okwasniewski |
-| 2026-11-25 | [ci: post microbench results to the pull request as one comment (#2235)](https://github.com/e2e-inc/e2e/commit/5d4e9799629a2222296cad7ee468e06e9945f88f) | kdy1 |
-| 2026-11-25 | [test(mobile-benchmark): seed the Photo Picker photo with a fixed capt…](https://github.com/e2e-inc/e2e/commit/c3f2bf37bb29be6397e49afeac7666025f161c07) | karolkulesza |
-| 2026-11-25 | [fix(core): read a locator with more than 2048 matches as a set (ENG-1…](https://github.com/e2e-inc/e2e/commit/956f74174148c74acd6380fd8af1e4ab755d9476) | kdy1 |
+| 2026-11-26 | [fix(mobile): release leased device session before stopping daemon (#1…](https://github.com/e2e-inc/e2e/commit/c801a12f8afea963775652ba73a7dbeaea894fa2) | GaspardIV |
+| 2026-11-26 | [fix(core): keep unreadable artifacts marked as incomplete (#2311)](https://github.com/e2e-inc/e2e/commit/d32dc7cfbbdfbdee13e306b48ffd73a024d9b164) | michal-e2e |
+| 2026-11-26 | [docs: make guides easier to read and cut robotic phrasing (#2310)](https://github.com/e2e-inc/e2e/commit/c3109278ee064d3cfe5c7468ab873631ab63fdac) | okwasniewski |
+| 2026-11-26 | [fix(types): reject annotated config types in test.extend (ENG-1530) (…](https://github.com/e2e-inc/e2e/commit/1ed0f183ae821a71c06473c7013824a1b2f3c540) | satya164 |
+| 2026-11-26 | [feat(cli): leave pnpm's skill links alone in init and upgrade, and dr…](https://github.com/e2e-inc/e2e/commit/a423238bad96007b31399f0af510e3633c5cd07a) | michal-e2e |
+| 2026-11-26 | [fix(core): retire a host whose failed launch could not end its attemp…](https://github.com/e2e-inc/e2e/commit/935e3f8bb23554a210dab2d177c5a2e13a9eae5a) | okwasniewski |
+| 2026-11-26 | [feat(web): add browser.name and browser.version (ENG-1242) (#2251)](https://github.com/e2e-inc/e2e/commit/a118c36ea51e8942510eb2f1927b0a77cdf0f34c) | okwasniewski |
+| 2026-11-26 | [docs(skill): cut the e2e skill in half and point to the docs for full…](https://github.com/e2e-inc/e2e/commit/976482432ccb566dcc792393620b65a7e084a201) | michal-e2e |
+| 2026-11-26 | [fix(run): stop dispatching to a worker that reported a fatal error (#…](https://github.com/e2e-inc/e2e/commit/74e2abea83a4b70120d8e36fb33d25af15edb0dd) | okwasniewski |
+| 2026-11-26 | [feat(skill): prefer agent.act when configured, tighten test structure…](https://github.com/e2e-inc/e2e/commit/d31e76719c884b50edbf7556afd22f43c1394e1d) | michal-e2e |
 
 [See all commits ↗](https://github.com/e2e-inc/e2e/commits)
 

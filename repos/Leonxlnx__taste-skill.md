@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 121.4k |
+| ⭐ **Stars** | 121.9k |
 | 🍴 **Forks** | 8.2k |
 | 🐞 **Open issues + PRs** | [26](https://github.com/Leonxlnx/taste-skill/issues) |
 | 💻 **Languages** | JavaScript 61% · HTML 28% · CSS 11% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `frontend` `agent-skills` `ai-agents` `anti-slop` `cursor` `design-system` `landing-page` `ui-design` `web-design` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-02-19 |
 | 📦 **Latest release** | [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — 2026-11-07 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 103.1 MB |
+| 💾 **Size** | 106.6 MB |
 | 🌐 **Website** | https://tasteskill.dev |
 
 ## 📦 Recent releases
 
 ### [v2.5.1](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.1) — tasteskill v2.5.1
-<sub>2026-11-07 · 18d ago</sub>
+<sub>2026-11-07 · 19d ago</sub>
 
 > What a 44-site test of 2.5.0 showed, fixed: builds now iterate until the checker is clean, every page moves, products without photographs are shown in photographs, palettes fit the trade, the copy gets a voice of its own, and nothing lies on anything else on a phone. The install name did not change.
 > - **A finish gate:** `scripts/gate.mjs` runs the checker, the layout check and a copy lint, and a build is not done until its last line reads `GATE: PASS` (three rounds, five waivers with reasons at most). In Claude Code it runs as a Stop hook from the skill itself. It never traps an agent: a question to the user costs no round, and `gate.mjs --done` ends a build at the user's word.
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.5.0](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.5.0) — tasteskill v2.5
-<sub>2026-11-04 · 20d ago</sub>
+<sub>2026-11-04 · 21d ago</sub>
 
 > A complete rebuild of `design-taste-frontend` around professional company websites at the figma.com and x.ai bar. The install name did not change.
 > - **One page system:** every build starts from the same starter. The hero fills the first screen, one section per screen, equal left and right edges.

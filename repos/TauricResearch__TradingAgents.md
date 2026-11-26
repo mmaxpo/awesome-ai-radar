@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 123.8k |
 | 🍴 **Forks** | 23.7k |
-| 🐞 **Open issues + PRs** | [162](https://github.com/TauricResearch/TradingAgents/issues) |
+| 🐞 **Open issues + PRs** | [164](https://github.com/TauricResearch/TradingAgents/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `finance` `llm` `multiagent` `trading` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-25 (yesterday) |
 | 📅 **Created** | 2024-12-28 |
 | 📦 **Latest release** | [v1.0.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.0.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.1)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Fixed**
 > - Plan mode: the PDF report shows the question you asked, with what you added while planning, instead of "Carry out the plan".
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.0.0](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.0)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > - TradingAgents: Towards Agentic Finance Research.
 > **Research**
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v0.7.1) — TradingAgents v0.7.1
-<sub>2026-10-27 · 29d ago</sub>
+<sub>2026-10-27 · 1mo ago</sub>
 
 > Decisions are scored only on final closes and settle across long market holidays, a model's unpadded date no longer reads filings made after the run date, and fixes to portfolios, prices, SEC statements, reports, Azure and Claude settings.
 > **Upgrading from 0.7.0**

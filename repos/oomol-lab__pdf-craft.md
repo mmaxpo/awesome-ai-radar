@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 6.8k |
-| 🍴 **Forks** | 502 |
-| 🐞 **Open issues + PRs** | [13](https://github.com/oomol-lab/pdf-craft/issues) |
+| 🍴 **Forks** | 503 |
+| 🐞 **Open issues + PRs** | [12](https://github.com/oomol-lab/pdf-craft/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `document` `ocr` `pdf` `deepseek-ocr` `book-digitization` `deepseek-ocr-2` `document-processing` `ebook` `epub` `epub-translation` `markdown` `pdf-converter` `pdf-parser` `pdf-to-epub` `pdf-to-markdown` `pdf-translation` `python` `scanned-pdf` `text-extraction` `translation` |
-| 🕒 **Last activity** | 2026-11-23 (2d ago) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-02-12 |
 | 📦 **Latest release** | [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 38.0 MB |
+| 💾 **Size** | 38.2 MB |
 | 🌐 **Website** | https://pdfcraft.ai |
 
 ## 📦 Recent releases
 
 ### [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7)
-<sub>2026-10-28 · 28d ago</sub>
+<sub>2026-10-28 · 29d ago</sub>
 
 > **PDF Craft v2.6.7**
 > Restore incremental PDF extraction `on_body` / `on_footnote` delivery after the
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.6.6](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.6)
-<sub>2026-10-28 · 28d ago</sub>
+<sub>2026-10-28 · 29d ago</sub>
 
 > **PDF Craft v2.6.6**
 > PDF Craft 2.6.6 fixes concurrent PDF extraction, footnote OCR masks, XML fill
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [refactor: separate official DeepSeek OCR configuration and transport …](https://github.com/oomol-lab/pdf-craft/commit/177a9c2e0cc0dff02ddd874671bb21e1a5146c71) | Moskize91 |
+| 2026-11-26 | [feat: 接入 DeepSeek 官方 OCR API (#673)](https://github.com/oomol-lab/pdf-craft/commit/fc9cb8ba23473a014e8a1fe5c4911d603eef56a5) | jadehare |
 | 2026-11-23 | [docs: use PDF Craft logo in deployment options header SVG (#672)](https://github.com/oomol-lab/pdf-craft/commit/56acd2887ef78b12e2fe50abcbd5147ce14ce7e1) | alwaysmavs |
 | 2026-11-23 | [docs: add 3-column deployment options table, MCP/OpenAPI badges, and …](https://github.com/oomol-lab/pdf-craft/commit/adf0abe052845fb575c6b3a81da069abbd90ca67) | alwaysmavs |
 | 2026-11-20 | [fix: align MiniCPM-OCR with the upstream backend (#670)](https://github.com/oomol-lab/pdf-craft/commit/6eee49ae10622d66abd5191c6acae167398c6d5a) | Moskize91 |
@@ -102,8 +104,6 @@
 | 2026-11-18 | [chore: add pdfcraft.ai links to PyPI project URLs (#667)](https://github.com/oomol-lab/pdf-craft/commit/e755c82190ded3b5e9a3dc7b85af260b18f50d01) | l1shen |
 | 2026-11-14 | [Localize the top online conversion links in two READMEs (#666)](https://github.com/oomol-lab/pdf-craft/commit/72375b2cc448891af54b6cde78cd8947fc50ed1a) | alwaysmavs |
 | 2026-10-28 | [fix: finalize PDF layout from direct page dependencies (#568)](https://github.com/oomol-lab/pdf-craft/commit/46ac35d6b22b439f230f8a188bca7c230a763113) | Moskize91 |
-| 2026-10-28 | [fix: deliver content callbacks and page progress without unrelated wa…](https://github.com/oomol-lab/pdf-craft/commit/6a11c2de2bc462f1a48400ceafd3f1b4f600d6be) | Moskize91 |
-| 2026-10-28 | [fix: unblock ready OCR neighborhoods for page refinement (#566)](https://github.com/oomol-lab/pdf-craft/commit/7619abd4cc445c9f363b6ef26014c5c4094062a8) | Moskize91 |
 
 [See all commits ↗](https://github.com/oomol-lab/pdf-craft/commits)
 

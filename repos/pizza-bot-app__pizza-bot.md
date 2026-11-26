@@ -2,7 +2,7 @@
 
 [← Back to the radar](../README.md) · [Open on GitHub ↗](https://github.com/pizza-bot-app/pizza-bot)
 
-> A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph.
+> A local-first inbox for long-running AI work.
 
 ## 📝 Notes
 
@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 579 |
+| ⭐ **Stars** | 578 |
 | 🍴 **Forks** | 63 |
-| 🐞 **Open issues + PRs** | [35](https://github.com/pizza-bot-app/pizza-bot/issues) |
+| 🐞 **Open issues + PRs** | [30](https://github.com/pizza-bot-app/pizza-bot/issues) |
 | 💻 **Languages** | TypeScript 91% · JavaScript 5% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
-| 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` `langchain` |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-06-26 |
-| 📦 **Latest release** | [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — 2026-11-10 |
+| 📦 **Latest release** | [v1.4.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.4.0) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 14.7 MB |
+| 💾 **Size** | 15.3 MB |
 | 🌐 **Website** | https://github.com/pizza-bot-app/pizza-bot/releases |
 
 ## 📦 Recent releases
 
+### [v1.4.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.4.0) — Pizza Bot OSS 1.4.0
+<sub>2026-11-26 · today</sub>
+
+> **Highlights**
+> - **Three new model providers.** You can use [UberLLM](https://uberllm.dev), Cheaper Inference, and [LiteLLM](https://docs.litellm.ai/docs/simple_proxy) as model providers. LiteLLM works with your own self-hosted proxy. Thanks to @al-global-tech, @aiapienthusiast, and @prodmanpd for their first contributions! (#193, #173, #172)
+> - **Advanced request JSON.** OpenAI, OpenRouter, and the OpenAI-compatible gateways have an optional **Advanced request JSON** setting that adds fields, like `service_tier`, to every request. It's checked when you save, and fields Pizza Bot controls are rejected. Thanks to @JacobJans for suggesting it in [discussion #95](https://github.com/pizza-bot-app/pizza-bot/discussions/95)! (#232)
+> - **Gemini 4 on Vertex AI.** The Google provider has optional **Vertex AI project ID** and **location** settings. Set a project under Settings > Providers to reach Gemini 4 models, which Vertex AI Express can't serve. (#207, #252)
+> - **Google Workspace on headless and container backends.** The Gmail and Calendar plugin can read its credentials from environment variables, and `npm run auth -- --print` and `--no-browser` help you get them on a host without a browser. See [the guide](https://github.com/pizza-bot-app/pizza-bot/blob/v1.4.0/docs/GOOGLE_WORKSPACE.md#run-the-backend-in-a-container-or-on-a-headless-host). (#197)
+> - **Clearer resource screens.** Selecting an MCP server, skill, memory, schedule, webhook, or plugin opens a read-only view with one action to change it: **Edit**, **Customize**, or a link to the plugin that manages it. Thanks to @igorfil for starting this with the MCP server screen. (#110, #213)
+> …
+
 ### [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — Pizza Bot OSS 1.3.0
-<sub>2026-11-10 · 14d ago</sub>
+<sub>2026-11-10 · 15d ago</sub>
 
 > **Highlights**
 > - **Opper provider.** You can use [Opper](https://opper.ai/) as a model provider. Thanks to @Felixkw12 for their first contribution! (#155)
@@ -83,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #224 from pizza-bot-app/feat/head-app-icon](https://github.com/pizza-bot-app/pizza-bot/commit/852e68257f053c1114d7f3fc580cf69e093e18b8) | JoeDo |
-| 2026-11-25 | [feat: use the robot's head as the app icon](https://github.com/pizza-bot-app/pizza-bot/commit/77e4b07e85858a6e3e4ad3cde0b97cea31bb7cd4) | JoeDo |
-| 2026-11-24 | [fix(runtime): refuse eval task() dispatch to approval-gated skills](https://github.com/pizza-bot-app/pizza-bot/commit/ecca27c625de3e6fdb6aca70757205ddc5e2f231) | JoeDo |
-| 2026-11-24 | [fix(runtime): give each task() dispatched from eval its own tool call id](https://github.com/pizza-bot-app/pizza-bot/commit/25aa663a4d5a7c1cccfee4dd775a0fb984782da0) | JoeDo |
-| 2026-11-24 | [Merge pull request #214 from pizza-bot-app/feat/trigger-names](https://github.com/pizza-bot-app/pizza-bot/commit/ef7f4c2e92a10f629d7b04562012a643998c6679) | JoeDo |
-| 2026-11-24 | [Merge pull request #213 from pizza-bot-app/feat/unified-resource-deta…](https://github.com/pizza-bot-app/pizza-bot/commit/847a72b87132ee3417bdd334d9a2db9b56fcd728) | JoeDo |
-| 2026-11-24 | [Merge pull request #110 from pizza-bot-app/delete-mcp](https://github.com/pizza-bot-app/pizza-bot/commit/4d70633075b65bf6de4a9275343c00025ff2f251) | JoeDo |
-| 2026-11-24 | [feat: optional names for schedules and webhooks](https://github.com/pizza-bot-app/pizza-bot/commit/8f00969e1e7609bdd59019aa912df7a82573abec) | JoeDo |
-| 2026-11-24 | [feat(web): read-only detail view with one header action for every res…](https://github.com/pizza-bot-app/pizza-bot/commit/86e6919ab7a9ca04a8a31ffa4d7424d91c2398c2) | JoeDo |
-| 2026-11-24 | [fix(web): refetch an MCP server's config after saving it](https://github.com/pizza-bot-app/pizza-bot/commit/da1e9832aba27b43fca30699a5fe8a51820aa40d) | JoeDo |
+| 2026-11-26 | [chore: release v1.4.0 (#254)](https://github.com/pizza-bot-app/pizza-bot/commit/1d6c7e4f517c1d0beef57da4512609e0e731cf9a) | JoeDo |
+| 2026-11-26 | [Merge pull request #255 from pizza-bot-app/fix/cron-never-run-recovery](https://github.com/pizza-bot-app/pizza-bot/commit/5f8a0ba8699d8cc560d9a1335a9c5c1e420a7f3c) | JoeDo |
+| 2026-11-26 | [fix(api): recover a never-run cron trigger only from ticks since its …](https://github.com/pizza-bot-app/pizza-bot/commit/3f866a44b469080e7fa5f6aa79d070d6015617e4) | JoeDo |
+| 2026-11-26 | [Merge pull request #252 from pizza-bot-app/fix/vertex-model-not-found…](https://github.com/pizza-bot-app/pizza-bot/commit/faa4c0f1266f011bb5b9d617bd4c6b07afae562f) | JoeDo |
+| 2026-11-26 | [fix(inference-providers): point Vertex AI Express model-not-found at …](https://github.com/pizza-bot-app/pizza-bot/commit/1655280b7c5a76de0e4aa7ccb5a55fe00980f8cd) | JoeDo |
+| 2026-11-26 | [Merge pull request #244 from pizza-bot-app/fix/provider-profiles-endp…](https://github.com/pizza-bot-app/pizza-bot/commit/859605e431e4a44d861fd1bb14b20068bff36684) | JoeDo |
+| 2026-11-26 | [fix(providers): keep host AWS profile names out of GET /providers](https://github.com/pizza-bot-app/pizza-bot/commit/a588fa9c7585edff700270b84c49a92b7865219f) | JoeDo |
+| 2026-11-26 | [Merge pull request #243 from pizza-bot-app/fix/sandbox-watchdog-worke…](https://github.com/pizza-bot-app/pizza-bot/commit/c39078e015b4214c59a23855d660c9cd8ed288df) | JoeDo |
+| 2026-11-26 | [fix(runtime): start the sandbox eval watchdog only once the worker is…](https://github.com/pizza-bot-app/pizza-bot/commit/519294f59dc7413b79fcc93c625e2eccd39b3110) | JoeDo |
+| 2026-11-26 | [Merge pull request #239 from pizza-bot-app/fix/trigger-recovery-once](https://github.com/pizza-bot-app/pizza-bot/commit/5ccdce0cfbdbcc136ee2cd969adb650541db3c1d) | JoeDo |
 
 [See all commits ↗](https://github.com/pizza-bot-app/pizza-bot/commits)
 

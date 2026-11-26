@@ -21,28 +21,28 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 13.9k |
-| 🍴 **Forks** | 772 |
-| 🐞 **Open issues + PRs** | [498](https://github.com/tinacms/tinacms/issues) |
+| 🍴 **Forks** | 773 |
+| 🐞 **Open issues + PRs** | [497](https://github.com/tinacms/tinacms/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `cms` `nextjs` `react` `content-management-system` `tinacms` `markdown` `typescript` `tina` `forestry` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2019-07-23 |
 | 📦 **Latest release** | [tinacms@3.15.2](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.2) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 923.3 MB |
+| 💾 **Size** | 923.5 MB |
 | 🌐 **Website** | https://tina.io |
 
 ## 📦 Recent releases
 
 ### [tinacms@3.15.2](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.2)
-<sub>2026-11-09 · 16d ago</sub>
+<sub>2026-11-09 · 17d ago</sub>
 
 > **Patch Changes**
 > - [#7994](https://github.com/tinacms/tinacms/pull/7994) [`c91c528`](https://github.com/tinacms/tinacms/commit/c91c528f51171ee8a5955831738c2ece5ef8bed2) Thanks [@Tyagiquamar](https://github.com/Tyagiquamar)! - Focus the reference field combobox when visual editing selects it. The reference field ignored `experimental_focusIntent`, so clicking a reference in the preview opened the sidebar without focusing anything.
 
 ### [@tinacms/cli@4.0.5](https://github.com/tinacms/tinacms/releases/tag/%40tinacms/cli%404.0.5)
-<sub>2026-11-09 · 16d ago</sub>
+<sub>2026-11-09 · 17d ago</sub>
 
 > **Patch Changes**
 > - [#8019](https://github.com/tinacms/tinacms/pull/8019) [`a547b2f`](https://github.com/tinacms/tinacms/commit/a547b2f77b2b4807a4d4fb5feb1a9ecb73c046d1) Thanks [@joshbermanssw](https://github.com/joshbermanssw)! - Cap Rollup's `maxParallelFileOps` at 100 in the production admin build, so `tinacms build` no longer fails with `EMFILE: too many open files` on hosts with a 1024 open-file limit, such as Cloudflare Workers Builds.
@@ -51,7 +51,7 @@
 >   - tinacms@3.15.2
 
 ### [tinacms@3.15.1](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.1)
-<sub>2026-11-01 · 23d ago</sub>
+<sub>2026-11-01 · 24d ago</sub>
 
 > **Patch Changes**
 > - [`124567b`](https://github.com/tinacms/tinacms/commit/124567b2e75e0f00b8d040d096532d8c6176f08f) Thanks [@Tyagiquamar](https://github.com/Tyagiquamar)! - Fix empty, index-less active field group when clicking a tinaField targeting an object list with fields.
@@ -60,7 +60,7 @@
 >   - @tinacms/mdx@2.4.2
 
 ### [@tinacms/mdx@2.4.2](https://github.com/tinacms/tinacms/releases/tag/%40tinacms/mdx%402.4.2)
-<sub>2026-11-01 · 23d ago</sub>
+<sub>2026-11-01 · 24d ago</sub>
 
 > **Patch Changes**
 > - [#7951](https://github.com/tinacms/tinacms/pull/7951) [`80502f8`](https://github.com/tinacms/tinacms/commit/80502f86b0224fb67ec05f0644db71bf5d38fde4) Thanks [@joshbermanssw](https://github.com/joshbermanssw)! - Fix saving a rich-text field that contains an empty bullet.
@@ -69,7 +69,7 @@
 >   Number and boolean values must be real numbers or booleans. If one is not, the save fails with a message that names the field. If you clear a number field, Tina saves it as `null`. Tina drops a highlight colour that contains characters a CSS colour cannot have, and the text stays highlighted.
 
 ### [@tinacms/mdx@2.4.1](https://github.com/tinacms/tinacms/releases/tag/%40tinacms/mdx%402.4.1)
-<sub>2026-10-27 · 29d ago</sub>
+<sub>2026-10-27 · 1mo ago</sub>
 
 > **Patch Changes**
 > - [#7319](https://github.com/tinacms/tinacms/pull/7319) [`40cf662`](https://github.com/tinacms/tinacms/commit/40cf6628da02f81bd0cb5994a3ed78b71cba699a) Thanks [@Osamaali313](https://github.com/Osamaali313)! - Fix a crash when parsing rich-text containing an `image` field with `list: true`. The image-list branch called `.split(',')` on the array returned by `extractScalar`, throwing `TypeError: values.split is not a function`; the error was wrapped as a parse failure, so the block became an `invalid_markdown` node (content dropped in the editor) or failed `tinacms build`. It now maps over the array like the other list field types.
@@ -79,6 +79,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Version Packages (#8110)](https://github.com/tinacms/tinacms/commit/87508953140d7ee83f1db6f817ab2f8d4b83d826) | release-bot-allow-prs-and-push[bot] |
+| 2026-11-25 | [feat(v4): run validators on the site server before a save (#8089)](https://github.com/tinacms/tinacms/commit/9ec0dd6316f49ca68ef23a697023a4fecde63638) | joshbermanssw |
+| 2026-11-25 | [fix(changesets): remove changesets for unreleased v4 packages (#8109)](https://github.com/tinacms/tinacms/commit/f63708678efd7057afe9428b232beaec850e1444) | joshbermanssw |
 | 2026-11-25 | [docs: add Harley Jackson to the maintainers list (#8104)](https://github.com/tinacms/tinacms/commit/9dc0453842fe00f08979b0019b2ca8609e57582d) | harley-j |
 | 2026-11-25 | [feat(v4): lay the admin out for tablet and phone (#8101)](https://github.com/tinacms/tinacms/commit/7351b40d8966403dfc475b2ffb6657a42b8d42ab) | joshbermanssw |
 | 2026-11-25 | [fix(tinacloud): send the upload Content-Type to upload_url and PUT wi…](https://github.com/tinacms/tinacms/commit/015b7a14f5589aed868aac342851ee6975615891) | harley-j |
@@ -86,9 +89,6 @@
 | 2026-11-24 | [Update README.md (#8103)](https://github.com/tinacms/tinacms/commit/84c35e563347acf8a1c7dfbbf15053931e369182) | joshbermanssw |
 | 2026-11-24 | [remove OSS (#8097)](https://github.com/tinacms/tinacms/commit/a245e2bb2778db737be86cfa51f364ab48a6128c) | joshbermanssw |
 | 2026-11-23 | [feat(v4): rebuild the rail to the prototype, with plugin entries in A…](https://github.com/tinacms/tinacms/commit/e2d225867c517dfdb1aa1e88ceacea24ed476a64) | joshbermanssw |
-| 2026-11-19 | [fix(v4): show the Resume prompt once per document per page load (#8056)](https://github.com/tinacms/tinacms/commit/1dc61f480af7b51d2d71033404de07884f5d2056) | joshbermanssw |
-| 2026-11-19 | [feat(v4): add a preview toolbar and frame to view the page at other s…](https://github.com/tinacms/tinacms/commit/6445aa0eda45c62fa849944c60675f39e323e647) | joshbermanssw |
-| 2026-11-19 | [docs(v4): add ADR-032 for collection options (#8051)](https://github.com/tinacms/tinacms/commit/9037936e9d4213f529c72c505c1b5af368697121) | joshbermanssw |
 
 [See all commits ↗](https://github.com/tinacms/tinacms/commits)
 

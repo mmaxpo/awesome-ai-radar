@@ -22,20 +22,20 @@
 |---|---|
 | ⭐ **Stars** | 55.5k |
 | 🍴 **Forks** | 6.4k |
-| 🐞 **Open issues + PRs** | [367](https://github.com/ggml-org/whisper.cpp/issues) |
-| 💻 **Languages** | C++ 52% · C 30% · Cuda 9% · Metal 3% · GLSL 2% |
+| 🐞 **Open issues + PRs** | [368](https://github.com/ggml-org/whisper.cpp/issues) |
+| 💻 **Languages** | C++ 53% · C 30% · Cuda 9% · Metal 3% · GLSL 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `openai` `speech-to-text` `transformer` `whisper` `inference` `speech-recognition` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2022-09-25 |
 | 📦 **Latest release** | [v1.9.6](https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.6) — 2026-11-23 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 48.2 MB |
+| 💾 **Size** | 51.3 MB |
 
 ## 📦 Recent releases
 
 ### [v1.9.6](https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.6)
-<sub>2026-11-23 · yesterday</sub>
+<sub>2026-11-23 · 2d ago</sub>
 
 > **Overview**
 > New version has been released.
@@ -46,7 +46,7 @@
 > …
 
 ### [b5907](https://github.com/ggml-org/whisper.cpp/releases/tag/b5907) _(pre-release)_
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > _No notes._
 
@@ -81,16 +81,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [ci : move gpu-cuda, gpu-vulkan-nvidia-{cm,cm2} to DGX (#4209)](https://github.com/ggml-org/whisper.cpp/commit/092fa10992dec2a91680591697c857b566db7150) | danbev |
-| 2026-11-25 | [Revert "ci : disable main-musa.Dockerfile from docker.yml (#4201)" (#…](https://github.com/ggml-org/whisper.cpp/commit/c8cbc3eda7afdbc4bda5381a544350a5272a9ecd) | danbev |
-| 2026-11-25 | [cli : return non-zero on invalid language and diarize flags (#4085) (…](https://github.com/ggml-org/whisper.cpp/commit/adf50b68c113a4db234a2711bc678a92cb13b8a2) | goldnode |
-| 2026-11-24 | [ci : add check for SPIRV-HeadersConfig for gpu-vulkan (#4204)](https://github.com/ggml-org/whisper.cpp/commit/c1a24047871444999b79f5e8612828f45881ae12) | danbev |
-| 2026-11-24 | [ci : move ARM64 high-perf jobs to DGX Spark runners (#4206)](https://github.com/ggml-org/whisper.cpp/commit/3e2e46a43e39a25e4377bbc0fec4099a141f0f49) | danbev |
-| 2026-11-24 | [ci : split deploy wasm job into build and deploy (#4205)](https://github.com/ggml-org/whisper.cpp/commit/bdcbc08e4ba295d71852df983998414d42d8e78f) | danbev |
-| 2026-11-24 | [examples : add device option to whisper-bench (#4135)](https://github.com/ggml-org/whisper.cpp/commit/e96e4ce124940a83dfa4c11b2424467046a5ecd2) | danbev |
-| 2026-11-24 | [examples : fix stereo to mono averaging with diarization (#4181)](https://github.com/ggml-org/whisper.cpp/commit/60fff93bce64888a5425466088bf96714aad9108) | rishi02102017 |
-| 2026-11-24 | [ci : disable main-musa.Dockerfile from docker.yml (#4201)](https://github.com/ggml-org/whisper.cpp/commit/20ffd918a291745a0deddfaa25ba73fedc2c21f7) | danbev |
-| 2026-11-24 | [whisper : remove unused logits_id sort in whisper_sample_token_topk (…](https://github.com/ggml-org/whisper.cpp/commit/0d7733f7dffea2af7598be202c640ddbd4a75f62) | mpermino |
+| 2026-11-26 | [whisper : name greedy and beam_search structs (#4203)](https://github.com/ggml-org/whisper.cpp/commit/79b11911d9d38c4be2fc7dc8b4efeff3324c090f) | danbev |
+| 2026-11-26 | [ci : attempt to fix gpu-vulkan job](https://github.com/ggml-org/whisper.cpp/commit/c807cc4c92d5286a2b0e95f902da37d519d5cd7b) | danbev |
+| 2026-11-26 | [examples : remove duplicate cases from common-ggml.cpp](https://github.com/ggml-org/whisper.cpp/commit/f9c9a890bed21351eb5cae5b479b6b17a1fcf004) | danbev |
+| 2026-11-26 | [sync : sync ggml](https://github.com/ggml-org/whisper.cpp/commit/bd5d85f657b1874772357306fb6109b03402fe81) | danbev |
+| 2026-11-26 | [ggml : bump version to 1.1.0 (ggml/1699)](https://github.com/ggml-org/whisper.cpp/commit/1b84ebedd0578c8d92b892a95b37712ec93c3adc) | ggerganov |
+| 2026-11-26 | [ggml-cpu : accept the flash_attn_ext indexed bias (llama/33016)](https://github.com/ggml-org/whisper.cpp/commit/6bdb397539b94ed175f37fe68ff2cd123d1f285b) | sanmai |
+| 2026-11-26 | [metal : commit the graph in chunks with one command buffer thread (ll…](https://github.com/ggml-org/whisper.cpp/commit/8c256b235823444a41135e713899c077067e8a4c) | am17an |
+| 2026-11-26 | [ggml: allow input async copies (llama/30685)](https://github.com/ggml-org/whisper.cpp/commit/0e8be6d0ef50faa58a6b2591f4d723bfa0f2ba7c) | am17an |
+| 2026-11-26 | [ggml: allow reserving scratch memory in graph_optimize (llama/31898)](https://github.com/ggml-org/whisper.cpp/commit/7202c4fd9b97041ca03412c5599d1fd4bff14680) | am17an |
+| 2026-11-26 | [sycl: F8 e4m3 initial support SET_ROWS, CPY, ADD, MUL_MAT, MUL_MAT_ID…](https://github.com/ggml-org/whisper.cpp/commit/cf6ad088a2acadb1eb6dacc1aae6742f3600b24c) | mctylr-gh |
 
 [See all commits ↗](https://github.com/ggml-org/whisper.cpp/commits)
 

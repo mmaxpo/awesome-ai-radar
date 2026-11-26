@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 7.3k |
+| ⭐ **Stars** | 7.4k |
 | 🍴 **Forks** | 1.5k |
-| 🐞 **Open issues + PRs** | [96](https://github.com/ethanplusai/sellbird/issues) |
+| 🐞 **Open issues + PRs** | [98](https://github.com/ethanplusai/sellbird/issues) |
 | 💻 **Languages** | Python 87% · JavaScript 8% · CSS 3% · HTML 2% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai-agent` `autonomous-agent` `claude` `cold-email` `prospecting` `python` `sales-automation` `claude-code` `codex` `email-verification` `harvey` `lead-generation` `outreach` `sellbird` `sales-agent` `grok` `grok-bot` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-03-12 |
 | 📦 **Latest release** | [v0.5.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.5.0) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.5.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.5.0) — 0.5.0: your sales team, inside your agent
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > Sellbird finds the businesses worth talking to, writes the first email and every follow-up, and books the meeting. With 0.5 it lives where you already work: in Claude Code, Claude desktop and Codex.
 > - **Connect in one click.** Run `sellbird connect`, or press Connect next to Claude Code, Claude desktop or Codex in the dashboard. No config files to edit, no keys pasted anywhere. Your agent gets its own key with limited reach.
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.4.0](https://github.com/ethanplusai/sellbird/releases/tag/v0.4.0) — 0.4.0: Harvey is now Sellbird
-<sub>2026-11-06 · 18d ago</sub>
+<sub>2026-11-06 · 19d ago</sub>
 
 > > **Follow [@sellbirdagent](https://x.com/sellbirdagent) on X** for new releases, features and the roadmap.
 > Harvey has a new name: **Sellbird**. Same project, same history, same maintainers. Your stars, forks and issues are all here, and every old `github.com/ethanplusai/harvey` link redirects.

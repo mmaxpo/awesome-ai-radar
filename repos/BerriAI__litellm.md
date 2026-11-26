@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 63.9k |
+| ⭐ **Stars** | 64.0k |
 | 🍴 **Forks** | 13.6k |
-| 🐞 **Open issues + PRs** | [5.5k](https://github.com/BerriAI/litellm/issues) |
+| 🐞 **Open issues + PRs** | [5.6k](https://github.com/BerriAI/litellm/issues) |
 | 💻 **Languages** | Python 82% · TypeScript 10% · Rust 7% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `anthropic` `langchain` `llm` `llmops` `openai` `ai-gateway` `azure-openai` `bedrock` `gateway` `openai-proxy` `vertex-ai` `llm-gateway` `litellm` `mcp-gateway` `rust` `rust-ai` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2023-07-27 |
 | 📦 **Latest release** | [v1.109.5](https://github.com/BerriAI/litellm/releases/tag/v1.109.5) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3173.8 MB |
+| 💾 **Size** | 3185.3 MB |
 | 🌐 **Website** | https://docs.litellm.ai/docs/ |
 
 ## 📦 Recent releases
 
 ### [v1.109.5](https://github.com/BerriAI/litellm/releases/tag/v1.109.5)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Verify this release**
 > ```bash
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.110.4](https://github.com/BerriAI/litellm/releases/tag/v1.110.4)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Verify this release**
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.111.0](https://github.com/BerriAI/litellm/releases/tag/v1.111.0)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Verify Docker Image Signature**
 > ```bash
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.108.17](https://github.com/BerriAI/litellm/releases/tag/v1.108.17) — 1.108.17 (LTS)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > > [!TIP]
 > > The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.112.0-rc.1](https://github.com/BerriAI/litellm/releases/tag/v1.112.0-rc.1) _(pre-release)_
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **Verify this release**
 > ```bash
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [fix(responses): reject an unresolvable previous_response_id on the ch…](https://github.com/BerriAI/litellm/commit/d941699343bdc61682b59cc9346b9e1fd8341194) | edvinsq |
-| 2026-11-25 | [test(budgets): give the held-back stream cancel test a fallback so th…](https://github.com/BerriAI/litellm/commit/519d84423e27aa0520b2948c65ca444cbadc313f) | kerry-berri |
-| 2026-11-25 | [fix(guardrails): check one-object parts and tool turns on generateCon…](https://github.com/BerriAI/litellm/commit/bc4ca0b218ff6af1595ae105298f979d20062fd2) | zoveki |
-| 2026-11-25 | [refactor(gateway-auth-core): keep the model access denial in error.rs…](https://github.com/BerriAI/litellm/commit/6f34f0cf25d58015a62a7b74ed557294ed57b923) | yujonglee-berri |
-| 2026-11-25 | [fix(router): send /v1/messages message_start live during thinking whe…](https://github.com/BerriAI/litellm/commit/34dea88f048b7106df3e16d513c9a616953aee28) | ellisc42 |
-| 2026-11-25 | [fix(llms): send later system messages as user turns for models declar…](https://github.com/BerriAI/litellm/commit/801976e7077c3fd85a92d2b457a4be7d96761635) | quietjules |
-| 2026-11-25 | [test(responses-bridge): cover multi-turn GPT-6.2 prompt caching on Op…](https://github.com/BerriAI/litellm/commit/d91a02dfb3471e683078338102633403ceee74d3) | paveln83 |
-| 2026-11-25 | [fix(guardrails): classify only the frames each read completes in Pres…](https://github.com/BerriAI/litellm/commit/2c4d2344660564b1e256acd6b8dc0c1c1620361c) | izzybn |
-| 2026-11-25 | [fix(router): with pre-call checks on, retry a context window error on…](https://github.com/BerriAI/litellm/commit/9add785f1a9c13d8ae60980610868253c86cc0df) | martenj4 |
-| 2026-11-25 | [fix(rust-config): apply require_key_mcp_access_defined from the store…](https://github.com/BerriAI/litellm/commit/df9d7606c3b01faf975e06d00138c5521bb77775) | kerry-berri |
+| 2026-11-26 | [Type the kwargs reads in the Prometheus logger (#54711)](https://github.com/BerriAI/litellm/commit/52f22bbc17f53a84736fc19b4d63852988f55d3f) | mateo-berri |
+| 2026-11-26 | [fix(cost-map): give the lowercase together_ai Inkling row the same 20…](https://github.com/BerriAI/litellm/commit/82af66e3403be291b71b8a58fa790f1754443992) | kerry-berri |
+| 2026-11-26 | [test(logging): make the SDK key identity test read only its own call'…](https://github.com/BerriAI/litellm/commit/1d4edf17ea0c4f2ee5a156f8f54fd77479e9e211) | mateo-berri |
+| 2026-11-26 | [refactor(gateway-auth-core): move the key model access check into aut…](https://github.com/BerriAI/litellm/commit/68669b0dd938a7c29a9d028d072c7a51e1ff0184) | yujonglee-berri |
+| 2026-11-26 | [refactor(types): type the kwargs views of embedding, transcription an…](https://github.com/BerriAI/litellm/commit/6470964faa935ea849538e6d36b9da44c7ff902f) | mateo-berri |
+| 2026-11-26 | [feat(auth-store): read a user in the shape the auth cache holds it (#…](https://github.com/BerriAI/litellm/commit/fcb456ba3b6bed163c8ec44d7b13058989401577) | yujonglee-berri |
+| 2026-11-26 | [feat(auth-store): read an organization in the shape the auth cache ho…](https://github.com/BerriAI/litellm/commit/d8691dba03413ea307a7bd950176deedee2ce8f2) | yujonglee-berri |
+| 2026-11-26 | [fix(auth-cache): take only the key roles and regions UserAPIKeyAuth t…](https://github.com/BerriAI/litellm/commit/22eb9581cbf8678bd463b4b35f1206d425f05355) | yujonglee-berri |
+| 2026-11-26 | [feat(auth-store): read an end user in the shape the auth cache holds …](https://github.com/BerriAI/litellm/commit/a44f977d2bf0d4acee111f848a5911f627ec629f) | yujonglee-berri |
+| 2026-11-26 | [refactor(repositories): read an object permission row as one type (#5…](https://github.com/BerriAI/litellm/commit/799c38859a06c57c71a9c237ef70224a31a88921) | yujonglee-berri |
 
 [See all commits ↗](https://github.com/BerriAI/litellm/commits)
 

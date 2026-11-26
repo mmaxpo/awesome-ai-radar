@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 30.5k |
-| 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [602](https://github.com/huggingface/smolagents/issues) |
+| 🍴 **Forks** | 3.3k |
+| 🐞 **Open issues + PRs** | [580](https://github.com/huggingface/smolagents/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2024-12-05 |
 | 📦 **Latest release** | [v1.26.0](https://github.com/huggingface/smolagents/releases/tag/v1.26.0) — 2026-05-29 |
 | 🌿 **Default branch** | `main` |
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Add NvidiaModel for NVIDIA NIM (#3323)](https://github.com/huggingface/smolagents/commit/474bb3314bb6b6e18d8a743f5f6582c06dd3b6e2) | richa-nvidia |
 | 2026-11-25 | [remove redundant UTF-8 reload tests (#3301)](https://github.com/huggingface/smolagents/commit/505b76b28d5cab580d7a4e0eaf4e8f142819e6a9) | julien-cto |
 | 2026-11-25 | [fix(save-load): decode saved agents and tools as UTF-8 on reload (#3211)](https://github.com/huggingface/smolagents/commit/a8e75ce57f258368d527d20d9d42656ae090c974) | lester076 |
 | 2026-11-24 | [trigger CI (#3280)](https://github.com/huggingface/smolagents/commit/d0ec5966bd0bc723988a62f91ae81ffacdddd2fe) | julien-cto |
@@ -103,7 +104,6 @@
 | 2026-11-20 | [Monitor: include PlanningStep tokens in monitor totals (Fixes #3187) …](https://github.com/huggingface/smolagents/commit/99721bdc3b6f502108751a93c5d7f08b1a04ce76) | hr1juldey |
 | 2026-11-18 | [Support starred and iterable unpacking in assignments (#2556)](https://github.com/huggingface/smolagents/commit/2689e450364d451a0afa0a5e883d12a031c125dd) | himanshu748 |
 | 2026-11-18 | [add LlamaCppModel for Llama App (#3201)](https://github.com/huggingface/smolagents/commit/fcdf5f13563408569fff6172ee770a82a4fae710) | julien-cto |
-| 2026-11-18 | [remove non-English source docs (#3208)](https://github.com/huggingface/smolagents/commit/0747ebee579039c5764de73f0949627dab64cc37) | julien-cto |
 
 [See all commits ↗](https://github.com/huggingface/smolagents/commits)
 

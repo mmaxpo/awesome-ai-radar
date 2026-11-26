@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 57.5k |
+| ⭐ **Stars** | 57.6k |
 | 🍴 **Forks** | 6.5k |
 | 🐞 **Open issues + PRs** | [207](https://github.com/microsoft/VibeVoice/issues) |
 | 💻 **Languages** | Python 100% |

@@ -20,11 +20,11 @@
 |---|---|
 | ⭐ **Stars** | 81.0k |
 | 🍴 **Forks** | 26.5k |
-| 🐞 **Open issues + PRs** | [3](https://github.com/microsoft/ai-agents-for-beginners/issues) |
+| 🐞 **Open issues + PRs** | [4](https://github.com/microsoft/ai-agents-for-beginners/issues) |
 | 💻 **Languages** | Jupyter Notebook 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `agentic-framework` `agentic-rag` `ai-agents` `ai-agents-framework` `autogen` `generative-ai` `semantic-kernel` `foundry` `foundry-local` `microsoft-foundry` |
-| 🕒 **Last activity** | 2026-11-17 (8d ago) |
+| 🕒 **Last activity** | 2026-11-17 (9d ago) |
 | 📅 **Created** | 2024-11-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

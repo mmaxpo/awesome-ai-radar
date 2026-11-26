@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 20d ago</sub>
+<sub>2026-11-04 · 21d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Bump astral-sh/setup-uv from 10.3.3 to 10.4.0 (#72324)](https://github.com/pandas-dev/pandas/commit/52552c59c1bd99db676b8eb103f591ee8cf1d93d) | dependabot[bot] |
 | 2026-11-24 | [CI: Add Python 3.15 CI jobs instead of python-dev; consolidate CI set…](https://github.com/pandas-dev/pandas/commit/a0885a1054bb9a91f10584944a613062cdebdc5c) | mroeschke |
 | 2026-11-24 | [BUG: convert_dtypes(dtype_backend="numpy_nullable") KeyError for unma…](https://github.com/pandas-dev/pandas/commit/b048c155d9aebfafabd11bee3dd8b6ba839d6a3e) | jbrockmendel |
 | 2026-11-24 | [PERF: avoid per-element group labels in nullable DataFrame axis=1 red…](https://github.com/pandas-dev/pandas/commit/6151915091dfeeb20542de7f31e21cf15782a580) | rhshadrach |
@@ -103,7 +104,6 @@
 | 2026-11-23 | [BUG: Styler title-mode tooltips misplaced or IndexError when rows are…](https://github.com/pandas-dev/pandas/commit/6b828d5d82b5ba324ad6817dad0055250650cecc) | NodeX-AR |
 | 2026-11-23 | [BUG: CategoricalIndex.__contains__ wrong result with RangeIndex categ…](https://github.com/pandas-dev/pandas/commit/176746ab7693e3e4eb5ee53fbc0ddc47ebe09f00) | sainimal1ba-hue |
 | 2026-11-22 | [CI: Update pixi.lock (#72272)](https://github.com/pandas-dev/pandas/commit/717bcd3eda554a0b2e826889f9e30efbd88f00cd) | github-actions[bot] |
-| 2026-11-22 | [BUG: clear error for a scalar row after a list-like row (GH#29213) (#…](https://github.com/pandas-dev/pandas/commit/ef7d968a259a987dd9e5a6d03878f627d5fbf980) | jbrockmendel |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

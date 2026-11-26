@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 72.6k |
+| ⭐ **Stars** | 72.7k |
 | 🍴 **Forks** | 11.7k |
 | 🐞 **Open issues + PRs** | [27](https://github.com/asgeirtj/system_prompts_leaks/issues) |
 | 💻 **Languages** | Python 64% · JavaScript 34% · HTML 2% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | `ai` `anthropic` `chatbot` `chatgpt` `claude` `claude-code` `codex` `gemini` `generative-ai` `google` `llm` `openai` `prompt-engineering` `ai-agents` `system-prompts` `cursor` `grok` `ai-prompts` `prompt` `system-prompt` |
-| 🕒 **Last activity** | 2026-11-24 (yesterday) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-05-03 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 25.8 MB |
+| 💾 **Size** | 26.5 MB |
 
 ## 📦 Recent releases
 
@@ -40,6 +40,7 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Update claude-code agents (2.1.332)](https://github.com/asgeirtj/system_prompts_leaks/commit/c607f91ed3e6a6874c294976895728ec54bf553e) | asgeirtj |
 | 2026-11-24 | [Update README.md](https://github.com/asgeirtj/system_prompts_leaks/commit/74761cc521a4ea73a603b54e7465e057de8ced19) | asgeirtj |
 | 2026-11-24 | [Add CITATION.cff](https://github.com/asgeirtj/system_prompts_leaks/commit/4be27347ceb935cb875ec0d372f70976352e5e1d) | asgeirtj |
 | 2026-11-24 | [Update README.md and move files](https://github.com/asgeirtj/system_prompts_leaks/commit/c8787c221a67b979245312379128598db250b332) | asgeirtj |
@@ -49,7 +50,6 @@ _No releases — this project doesn't publish versions; follow the commits below
 | 2026-11-24 | [Update anthropic_reminders.md](https://github.com/asgeirtj/system_prompts_leaks/commit/08259f03c9decf6131e47b0dce2492251a38dde2) | asgeirtj |
 | 2026-11-23 | [Backtick fence hidden comments in files](https://github.com/asgeirtj/system_prompts_leaks/commit/8c615a1387fec799b96f28d30617aab98d196afd) | asgeirtj |
 | 2026-11-23 | [Update README.md](https://github.com/asgeirtj/system_prompts_leaks/commit/dacca8795d54364ff2c7638ccbeab78362136111) | asgeirtj |
-| 2026-11-23 | [Add reasoning effort tables](https://github.com/asgeirtj/system_prompts_leaks/commit/9ef04e06719d0a10b88cccbb19edde7ba7ce4e1f) | asgeirtj |
 
 [See all commits ↗](https://github.com/asgeirtj/system_prompts_leaks/commits)
 

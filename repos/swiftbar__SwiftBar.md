@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.8k |
-| 🍴 **Forks** | 146 |
+| 🍴 **Forks** | 147 |
 | 🐞 **Open issues + PRs** | [13](https://github.com/swiftbar/SwiftBar/issues) |
 | 💻 **Languages** | Swift 97% · Shell 1% · Just 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `productivity` `macos` `scripting` |
-| 🕒 **Last activity** | 2026-11-08 (16d ago) |
+| 🕒 **Last activity** | 2026-11-08 (17d ago) |
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v2.1.2-beta-5](https://github.com/swiftbar/SwiftBar/releases/tag/v2.1.2-beta-5) — 2026-09-29 |
 | 🌿 **Default branch** | `main` |
@@ -45,7 +45,7 @@
 > …
 
 ### [v2.1.2-beta-4](https://github.com/swiftbar/SwiftBar/releases/tag/v2.1.2-beta-4) — 2.1.2 BETA 4 _(pre-release)_
-<sub>2026-09-27 · 1mo ago</sub>
+<sub>2026-09-27 · 2mo ago</sub>
 
 > **SwiftBar 2.1.2 beta 4**
 > This beta collects eleven fixes and one new plugin option since beta 3, focused on macOS 26/27 menu behavior and wake-from-sleep false alarms.

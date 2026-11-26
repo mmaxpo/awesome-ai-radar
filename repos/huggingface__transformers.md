@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 169.3k |
+| ⭐ **Stars** | 169.4k |
 | 🍴 **Forks** | 35.3k |
-| 🐞 **Open issues + PRs** | [1.1k](https://github.com/huggingface/transformers/issues) |
+| 🐞 **Open issues + PRs** | [1.2k](https://github.com/huggingface/transformers/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `nlp` `natural-language-processing` `pytorch` `pytorch-transformers` `transformer` `model-hub` `pretrained-models` `speech-recognition` `hacktoberfest` `python` `machine-learning` `deep-learning` `audio` `deepseek` `gemma` `glm` `llm` `qwen` `vlm` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2018-10-29 |
 | 📦 **Latest release** | [v5.24.1](https://github.com/huggingface/transformers/releases/tag/v5.24.1) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 570.2 MB |
+| 💾 **Size** | 566.8 MB |
 | 🌐 **Website** | https://huggingface.co/transformers |
 
 ## 📦 Recent releases
 
 ### [v5.24.1](https://github.com/huggingface/transformers/releases/tag/v5.24.1) — Patch release v5.24.1
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **Patch release v5.24.1**
 > A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list
@@ -47,7 +47,7 @@
 > …
 
 ### [v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) — Release v5.24.0
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > **Release v5.24.0**
 > **New Model additions**
@@ -58,7 +58,7 @@
 > …
 
 ### [v5.23.0](https://github.com/huggingface/transformers/releases/tag/v5.23.0) — Release v5.23.0
-<sub>2026-11-13 · 12d ago</sub>
+<sub>2026-11-13 · 13d ago</sub>
 
 > **Release v5.23.0**
 > **New Model additions**
@@ -69,7 +69,7 @@
 > …
 
 ### [v5.22.2](https://github.com/huggingface/transformers/releases/tag/v5.22.2) — Patch release v5.22.2
-<sub>2026-11-06 · 18d ago</sub>
+<sub>2026-11-06 · 19d ago</sub>
 
 > **Patch release v5.22.2**
 > Some in between patch for security and distributed fixes. See the included commits :hugs:
@@ -78,7 +78,7 @@
 > **Full Changelog**: https://github.com/huggingface/transformers/compare/v5.22.1...v5.22.2
 
 ### [v5.22.1](https://github.com/huggingface/transformers/releases/tag/v5.22.1) — Patch release v5.22.1
-<sub>2026-10-30 · 26d ago</sub>
+<sub>2026-10-30 · 27d ago</sub>
 
 > **Patch release v5.22.1**
 > We just had to fix the documentation!
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [[tests] Fix SpeechT5 coverage and TPU device selection (#51171)](https://github.com/huggingface/transformers/commit/1d8544b25c6780d85c6538636a6ca15aeabbcb7e) | tengomucho |
-| 2026-11-25 | [[vLLM CI] Fix the KV cache memory check failures (page cache eviction…](https://github.com/huggingface/transformers/commit/85d7be82fa26e16a0c87c35dc3c48175149a9e8a) | ydshieh |
-| 2026-11-25 | [Key the doc build concurrency group on the pull request number (#48707)](https://github.com/huggingface/transformers/commit/c9b611dc3eead5b0b50eced6b3d068040687fba8) | albertvillanova |
-| 2026-11-25 | [The shared test resets the seed before eager and compiled runs, then …](https://github.com/huggingface/transformers/commit/0cc3b774e0d02595f1f0ee7cbe7a4444003e34d2) | sywangyi |
-| 2026-11-25 | [Fix line breaks in the Megatron-BERT download commands (#51209)](https://github.com/huggingface/transformers/commit/8ce044a54857ae3957b052a1e092d8dea961370e) | JuanFKurucz |
-| 2026-11-25 | [[docs] Fix the `images=` and `audio=` pipeline calls in the pipeline …](https://github.com/huggingface/transformers/commit/598021f5684f0e5f9e66433d9c700666f83b86a3) | AlexxRussell |
-| 2026-11-25 | [Pre-fetch the `hf-internal-testing/test-videos` assets for CI (#51150)](https://github.com/huggingface/transformers/commit/292aead50f7659f5412e6966a9627d6d04ded6ce) | ydshieh |
-| 2026-11-25 | [Update dev version (#51225)](https://github.com/huggingface/transformers/commit/3370f9427c2b948073ee17596970c0df19812af7) | albertvillanova |
-| 2026-11-25 | [🚨 [PR2] [Modular Cleanup] *Norm canonicals and renaming (#50523)](https://github.com/huggingface/transformers/commit/3a96649547593bacad4b65d43442ccdf15d0ae0f) | itazap |
-| 2026-11-25 | [Add `_get_num_multimodal_tokens` to more image/video processors (#50671)](https://github.com/huggingface/transformers/commit/9d5d0ee866d70b30fe187aab1bcf2aed398e9ecc) | hmellor |
+| 2026-11-26 | [Fix reloading a `SynthIDTextWatermarkingConfig` from `generation_conf…](https://github.com/huggingface/transformers/commit/ebf21a5acd6c49544ca035cef96e4c05a429211a) | SeanPeppers |
+| 2026-11-26 | [Make root AGENTS.md a real file (#51324)](https://github.com/huggingface/transformers/commit/f879b5db43c9b4442b91d42e67285fa15261e806) | Rocketknight1 |
+| 2026-11-26 | [Fix hybrid_sliding mapping in LAYER_PATTERN_TO_MASK_FUNCTION_MAPPING …](https://github.com/huggingface/transformers/commit/f7ba81261e1a9e29692f59e3bb0b39cfa0745e9a) | Nikhilodeon1 |
+| 2026-11-26 | [fix multi GPU tests for pi05 (#51226)](https://github.com/huggingface/transformers/commit/664369a4fb1625537f1b0ca8581d2242a4d28f59) | molbap |
+| 2026-11-26 | [[`Kernels`] Bump min version (#51258)](https://github.com/huggingface/transformers/commit/d4b94d3f58c736a673ece14a6b2df8d8f93f136d) | vasqu |
+| 2026-11-26 | [Fix assisted decoding crash when the model returns no attentions (#51…](https://github.com/huggingface/transformers/commit/083a0adc621ae9f55c5b4ff09d445ba58679c487) | ranmori |
+| 2026-11-26 | [Use the correct forward method in the chunk batching example (#51296)](https://github.com/huggingface/transformers/commit/a6c5e6f8e4a211cf829506b8afb3c90c73efb627) | ViktorBystrov72 |
+| 2026-11-26 | [Fix Unigram tokenizers built from a bare `spiece.model` splitting tex…](https://github.com/huggingface/transformers/commit/9e5e84cc8985a4c2b1b5adc4facee92dbc25ec2f) | XiaoyuanWang111 |
+| 2026-11-26 | [Count only embedding tokens in the remaining `_get_num_multimodal_tok…](https://github.com/huggingface/transformers/commit/708d41ca9421f1432ee81aef46a16542e58c3d21) | hmellor |
+| 2026-11-26 | [Let an explicit `attn_implementation` override a serialized `_attn_im…](https://github.com/huggingface/transformers/commit/378f20a1fda66b9349731ee24844e1defd77e9dc) | lucamotz |
 
 [See all commits ↗](https://github.com/huggingface/transformers/commits)
 

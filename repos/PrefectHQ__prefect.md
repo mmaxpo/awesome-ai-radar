@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 24.2k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [806](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [798](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 250.3 MB |
+| 💾 **Size** | 250.7 MB |
 | 🌐 **Website** | https://prefect.io |
 
 ## 📦 Recent releases
 
+### [3.9.6.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.6.dev2) — 3.9.6.dev2: Nightly Development Release _(pre-release)_
+<sub>2026-11-26 · today</sub>
+
+> **What's Changed**
+> **Development & Tidiness 🧹**
+> * Require environment approval for Docker image releases by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/24096
+> **Uncategorized**
+> * docs: clarify run and trigger for shell operations by @Himanshuagrawal4 in https://github.com/PrefectHQ/prefect/pull/24098
+> * Parse `Retry-After` in concurrency slot acquisition services by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/24086
+> …
+
 ### [3.9.6.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.6.dev1) — 3.9.6.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -44,7 +55,7 @@
 > **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.5...3.9.6.dev1
 
 ### [3.9.5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5) — 3.9.5 - Let sleeping schedules lie
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **Enhancements ➕➕**
 > * Speed up event trigger matching by indexing exact related-resource names by [@chuqCTC](https://github.com/chuqCTC) in [#23323](https://github.com/PrefectHQ/prefect/pull/23323)
@@ -55,7 +66,7 @@
 > …
 
 ### [3.9.5.dev4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev4) — 3.9.5.dev4: Nightly Development Release _(pre-release)_
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -66,7 +77,7 @@
 > …
 
 ### [3.9.5.dev3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev3) — 3.9.5.dev3: Nightly Development Release _(pre-release)_
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -76,31 +87,20 @@
 > **New Contributors**
 > …
 
-### [3.9.5.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev2) — 3.9.5.dev2: Nightly Development Release _(pre-release)_
-<sub>2026-11-21 · 4d ago</sub>
-
-> **What's Changed**
-> **Bug Fixes 🐞**
-> * Run db vacuum tasks one at a time on the maintenance pool by @ShikhJohari in https://github.com/PrefectHQ/prefect/pull/23742
-> **Development & Tidiness 🧹**
-> * Fix `ReactiveTriggers` stop race during startup by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/24021
-> * Fix flaky `test_keeps_polling_while_setup_hangs` observer test by @devin-ai-integration[bot] in https://github.com/PrefectHQ/prefect/pull/23950
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Apply the V2 runs page's default filter before loading (#23908)](https://github.com/PrefectHQ/prefect/commit/5f7d879aa1636e42ca6697548c5c0065dafbff7a) | zzstoatzz |
+| 2026-11-25 | [fix(ui): absent columns in artifacts table (#23958)](https://github.com/PrefectHQ/prefect/commit/0778e660eb86ba049f2ca6c738f6d05dbe601eae) | uinstinct |
+| 2026-11-25 | [Show an invalid field error from `prefect init` for `--field` values …](https://github.com/PrefectHQ/prefect/commit/034f0e56de5f8014242c1a4f2c9bc8dec214357a) | LuisFigueroaG |
+| 2026-11-25 | [docs: add MinIO example to flow code storage guide (#24101)](https://github.com/PrefectHQ/prefect/commit/bc6dcd90407345c54a2a1090f96f1fd9c3228c41) | devin-ai-integration[bot] |
+| 2026-11-25 | [Show Enum member names for Enum parameters (#24094)](https://github.com/PrefectHQ/prefect/commit/0522881bf157be996b5ea6688159435482abca5e) | devin-ai-integration[bot] |
+| 2026-11-25 | [Create tasks for sources in PrefectDbtRunner during `dbt source fresh…](https://github.com/PrefectHQ/prefect/commit/126ff395ad6e24dceea819697644b834edaac958) | vyagubov |
+| 2026-11-25 | [Allow block references for `$defs` block types in job variable valida…](https://github.com/PrefectHQ/prefect/commit/c700ff889506ae798996eb31257af4f1bef0eb18) | devin-ai-integration[bot] |
+| 2026-11-25 | [fix(server): support FastAPI 0.163 null filter bodies (#24099)](https://github.com/PrefectHQ/prefect/commit/501bd4dc7c3b6ed96f803182ef2693237ac9ab6d) | devin-ai-integration[bot] |
 | 2026-11-25 | [Cache Redis messaging publisher settings (#23956)](https://github.com/PrefectHQ/prefect/commit/ed4c76fef29de8024db02c2ab3a4c63a431c715e) | fatih-acar |
 | 2026-11-25 | [Parse `Retry-After` in concurrency slot acquisition services (#24086)](https://github.com/PrefectHQ/prefect/commit/7f657539c2979cf1e00d1408ab973f6e08fad494) | devin-ai-integration[bot] |
-| 2026-11-25 | [docs: clarify run and trigger for shell operations (#24098)](https://github.com/PrefectHQ/prefect/commit/93dd48bb36ad61fa428ebb89ac085398622f3c16) | Himanshuagrawal4 |
-| 2026-11-25 | [Require environment approval for Docker image releases (#24096)](https://github.com/PrefectHQ/prefect/commit/2306dca596775f1b81591f8316b072bd3a78ff42) | devin-ai-integration[bot] |
-| 2026-11-25 | [Document the 422 response bodies the API sends in the OpenAPI schema …](https://github.com/PrefectHQ/prefect/commit/bda190753d55d950239a2f9dfda8c7cfb863343e) | devin-ai-integration[bot] |
-| 2026-11-24 | [docs: Add release notes for 3.9.5 (#24095)](https://github.com/PrefectHQ/prefect/commit/77c4e31a83b18a559902dbbba174cdb7532008ff) | devin-ai-integration[bot] |
-| 2026-11-24 | [fix(client): stop concurrent requests from invalidating each other's …](https://github.com/PrefectHQ/prefect/commit/6bc6ba28868ca67d99d42329361fbda60cdbe85a) | yukiyan |
-| 2026-11-24 | [Trim orchestration policy and schedule tests and delete same-file dup…](https://github.com/PrefectHQ/prefect/commit/6eabbf84fcbdbdf0018c3abc729221c9fd39c0c0) | devin-ai-integration[bot] |
-| 2026-11-24 | [Fix flaky `test_create_schedule_respects_max_future_time` (#24075)](https://github.com/PrefectHQ/prefect/commit/b3091bb09073b60e4bedcf06a01bc312617b5569) | devin-ai-integration[bot] |
-| 2026-11-24 | [fix(tests): stabilize flaky cleanup lease-deadline tests (#24093)](https://github.com/PrefectHQ/prefect/commit/1a22fab8722ab88252c0fadebf313c4ed06722bb) | devin-ai-integration[bot] |
 
 [See all commits ↗](https://github.com/PrefectHQ/prefect/commits)
 

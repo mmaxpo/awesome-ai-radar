@@ -20,23 +20,56 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 137.5k |
-| 🍴 **Forks** | 8.8k |
-| 🐞 **Open issues + PRs** | [9.8k](https://github.com/stablyai/orca/issues) |
+| ⭐ **Stars** | 139.9k |
+| 🍴 **Forks** | 8.9k |
+| 🐞 **Open issues + PRs** | [10.1k](https://github.com/stablyai/orca/issues) |
 | 💻 **Languages** | TypeScript 96% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `ghostty` `terminal` `opencode` `orchestration` `worktrees` `pi` `mobile-app` `agent-ide` `ai-agents` `yc-backed` `automation` `bot` `grok-bot` `hermes-agent` `muse` `openclaw` `runtime` `swarm` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-03-17 |
-| 📦 **Latest release** | [v1.4.274](https://github.com/stablyai/orca/releases/tag/v1.4.274) — 2026-11-24 |
+| 📦 **Latest release** | [v1.4.278](https://github.com/stablyai/orca/releases/tag/v1.4.278) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3459.1 MB |
+| 💾 **Size** | 3560.7 MB |
 | 🌐 **Website** | https://orca.dev |
 
 ## 📦 Recent releases
 
+### [v1.4.278](https://github.com/stablyai/orca/releases/tag/v1.4.278)
+<sub>2026-11-26 · today</sub>
+
+> Thank you for using Orca and sharing your feedback. ❤️
+> **Smoother long replies, Antigravity on agy, six new apps & downloads to your computer ✨**
+> - 💬 **Long chat replies stream smoothly.** Claude and Codex replies grow a few words at a time instead of stalling and jumping, and typing stays responsive while they stream.
+> - 🚀 **Antigravity runs on agy with one sign-in.** Every Antigravity chat now uses agy, and you can sign agy in without leaving Orca. Gemini CLI is removed, since Google now points people to Antigravity.
+> - 🧩 **Connect six more apps in one click.** ClickUp, Airtable, Todoist, Zapier, Granola and Intercom join the app catalog, no Composio account needed.
+> - 💾 **Save downloads to this computer.** Files you download from a page running on a server workspace can be saved straight to your own computer, streamed so memory stays flat.
+> …
+
+### [v1.4.277](https://github.com/stablyai/orca/releases/tag/v1.4.277)
+<sub>2026-11-26 · today</sub>
+
+> Thank you for using Orca and sharing your feedback. ❤️
+> **Even better Agy support, cleaner phone screens & per-agent Google accounts ✨**
+> - 🚀 **Antigravity (Agy) gets even better.** Find installed plugin skills in the chat’s `/` menu before your first message, and choose **Approve for me** in Agy terminals.
+> - 🤖 **Manage bot conversations in Slack.** Ask a bot to leave a thread and @mention it to bring it back. Follow-ups return to the thread they started in.
+> - 🎨 **Recognize your bot in Slack.** Its icon shows its mascot’s colour and outfit.
+> - 🗓️ **Manage bot automations from Activity.** Delete an automation directly from your bot’s Activity panel.
+> …
+
+### [android-v0.0.71](https://github.com/stablyai/orca/releases/tag/android-v0.0.71) — Orca Mobile Android android-v0.0.71 _(pre-release)_
+<sub>2026-11-25 · today</sub>
+
+> **What's Changed**
+> * fix(mobile): the @ menu opens in group rooms and item comments by @AmoabaKelvin in https://github.com/stablyai/orca/pull/47940
+> * Compact the bot hover card by @nwparker in https://github.com/stablyai/orca/pull/47939
+> * Cancel agent items instantly, with no reason dialog by @Jinwoo-H in https://github.com/stablyai/orca/pull/47934
+> * fix(slack): explain read access refusals by @brennanb2025 in https://github.com/stablyai/orca/pull/47257
+> * fix(items): keep an agent item Needs you when a worker starts while a question is open by @Jinwoo-H in https://github.com/stablyai/orca/pull/47941
+> …
+
 ### [v1.4.274](https://github.com/stablyai/orca/releases/tag/v1.4.274)
-<sub>2026-11-24 · today</sub>
+<sub>2026-11-24 · yesterday</sub>
 
 > **App Rail is on by default for new users**
 > This minor update enables App Rail for new Orca users. App Rail saves sidebar space by putting app navigation in a compact icon rail. Existing users can turn it on under **Settings > Experimental > App rail**.
@@ -45,7 +78,7 @@
 > Bot panels show upcoming runs and clearer item questions, the mobile app adds account and group controls, and streamed browser pages scroll more smoothly. [Read the full v1.4.273 release notes](https://github.com/stablyai/orca/releases/tag/v1.4.273).
 
 ### [v1.4.273](https://github.com/stablyai/orca/releases/tag/v1.4.273)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > Thank you for using Orca and sharing your feedback. ❤️
 > **Clearer bot items, more controls on the phone & smoother browser sessions ✨**
@@ -55,53 +88,20 @@
 > - 🖥️ **More room for workspace tools.** App-rail destinations fill the window. The usage meter stays visible in chat and updates with less background work when a workspace changes.
 > …
 
-### [android-v0.0.70](https://github.com/stablyai/orca/releases/tag/android-v0.0.70) — Orca Mobile Android android-v0.0.70 _(pre-release)_
-<sub>2026-11-24 · yesterday</sub>
-
-> Thank you so much for using Orca and for your continued support! ❤️
-> **The short version**
-> 0.0.70 builds on 0.0.69. For the big picture, read the [0.0.69 notes](https://github.com/stablyai/orca/releases/tag/android-v0.0.69). This release adds:
-> - **Available on more devices:** Orca no longer counts Wi-Fi or a portrait screen as required, so Play offers it on devices without them. This also cleared the check that stopped 0.0.69 from going to Play review.
-> - **More of your agents from the phone:** Manage Google, GitHub and Linear accounts on connector pages, and pick the workspace when you connect Slack. A new agent asks who it is and what it does. Search a computer's page for agents and groups.
-> - **Needs you and group rooms:** Needs you counts workers and access requests, and shows the question a chat stopped on. Post in a group with agents on other computers, and group posts can carry photos.
-> …
-
-### [android-v0.0.69](https://github.com/stablyai/orca/releases/tag/android-v0.0.69) — Orca Mobile Android android-v0.0.69 _(pre-release)_
-<sub>2026-11-23 · yesterday</sub>
-
-> Thank you so much for using Orca and for your continued support! ❤️
-> **The short version**
-> - **Agents from your phone:** Set up an agent's automations, webhooks, tools, connectors and settings from the phone, on Settings pages laid out like the desktop's. Connect Slack, Linear, GitHub, Google and Composio, edit an agent's memory and skills, share it by link, or import one from another app.
-> - **Group rooms and items:** A group's room now has threads and one combined Items list, with next and previous on item pages. Answer an agent's item questions from the chat answer card, add photos to comments, and see answers from agents on other computers.
-> - **Needs you and notifications:** Tool approvals, access requests and connectors that need a sign-in now wait in one Needs you list. You get a push when an agent asks you something on an item, and Orca tells you when a wrong computer clock is blocking pushes.
-> - **Chat:** Answer workers' permission prompts in the coordinator chat, mention an agent or one of its chats with @, and hand a History session to another agent. Chat cards open their page on the phone, and the chat chip shows Claude's current model and effort.
-> …
-
-### [v1.4.272](https://github.com/stablyai/orca/releases/tag/v1.4.272)
-<sub>2026-11-23 · 2d ago</sub>
-
-> **More reliable bots that pick up where they left off ✨**
-> - 🤖 **Bots recover more reliably after interruptions.** Conversations paused by usage limits can continue automatically after an account switch or restart. Resume works for chats interrupted by a crash or restart, and with **Resume work on restart** enabled, terminal workers can return to their saved conversations even if their terminals were lost. [Usage-limit recovery](https://github.com/stablyai/orca/pull/47221) · [Chat recovery](https://github.com/stablyai/orca/pull/47284) · [Worker recovery](https://github.com/stablyai/orca/pull/46643)
-> - 🌐 **Use the same browser tools across machines.** Extensions such as 1Password now work in SSH workspace tabs and paired-server tabs opened on **This device**. Drop files from your desktop into server-streamed pages, and let agents on SSH hosts or paired servers upload and download files using paths on their own host. [Extensions](https://github.com/stablyai/orca/pull/47347) · [Drag and drop](https://github.com/stablyai/orca/pull/47357) · [SSH files](https://github.com/stablyai/orca/pull/47399) · [Paired-server files](https://github.com/stablyai/orca/pull/47264)
-> - 💬 **Take a quick detour in chat.** On supported agents, type `/btw` or `/side` to mark a draft as a side chat. The composer’s worker count now reflects who’s actively working. [Side chat](https://github.com/stablyai/orca/pull/42129) · [Worker count](https://github.com/stablyai/orca/pull/47432)
-> - 💤 **Free up idle resources.** Memory Saver now unloads hidden **This device** browser tabs and restores them when you or an agent needs them. An idle WSL distro can stop while Orca stays open and wake when you need it again. [Memory Saver](https://github.com/stablyai/orca/pull/47291) · [WSL](https://github.com/stablyai/orca/pull/47434)
-> - 📱 **More room to work from your phone.** With the matching mobile build, you can post photos in group rooms, handle agent requests across paired computers from **Needs you**, and delete chats from an agent’s **Chats** tab. [Group photos](https://github.com/stablyai/orca/pull/47361) · [Agent requests](https://github.com/stablyai/orca/pull/47344) · [Delete chats](https://github.com/stablyai/orca/pull/47339)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [fix(bots): include paired members in group Home items and badge (#49005)](https://github.com/stablyai/orca/commit/b96b5eb416797afb7ccb29724fcd2ac4d5d3ca67) | lafraia |
-| 2026-11-25 | [fix(i18n): translate missing Spanish native-chat strings for messages…](https://github.com/stablyai/orca/commit/bc471d51c9061fde453ac35656631ecf8dffecda) | yohangwak |
-| 2026-11-25 | [fix(mobile-status): stamp done frames with pane status-change time so…](https://github.com/stablyai/orca/commit/b7b2131a5671bf927f9d0ef1f4167b30e93fa714) | mmarabel |
-| 2026-11-25 | [fix(i18n): translate 104 missing Japanese native-chat strings (#48980)](https://github.com/stablyai/orca/commit/cf2801a5ccfcd5df670139335c68bebdce4eb30b) | yohangwak |
-| 2026-11-25 | [fix(i18n): translate 189 missing German native-chat strings for messa…](https://github.com/stablyai/orca/commit/b5804728ddd09e255bdfb34fba4260949ec0fd14) | yohangwak |
-| 2026-11-25 | [fix(i18n): translate 156 missing Portuguese native-chat strings for m…](https://github.com/stablyai/orca/commit/b51c880e8b68f5285bf2e40c413c6e79a8b0cbeb) | yohangwak |
-| 2026-11-25 | [fix(i18n): translate 185 missing Traditional Chinese native-chat stri…](https://github.com/stablyai/orca/commit/cef2f9bdbabdc14d0a604b86f576857110c2ef32) | yohangwak |
-| 2026-11-25 | [fix(i18n): translate 188 missing Russian native-chat strings for mess…](https://github.com/stablyai/orca/commit/36fd3d769e50b8afd8402170fe4dc965c982924d) | yohangwak |
-| 2026-11-25 | [fix(i18n): translate 184 missing French native-chat strings for messa…](https://github.com/stablyai/orca/commit/c3e9664be2dbce3bd28eadf51c6b239ae306be01) | yohangwak |
-| 2026-11-25 | [fix(i18n): translate 18 missing Simplified Chinese native-chat string…](https://github.com/stablyai/orca/commit/42ba9b010e12954e99de009c1381f812416322bb) | yohangwak |
+| 2026-11-26 | [fix(i18n): translate missing Portuguese workspace, sidebar, editor, t…](https://github.com/stablyai/orca/commit/89d9d140c2042ae38f8b47705d99fba21b08e300) | yohangwak |
+| 2026-11-26 | [fix(i18n): translate the file explorer's search field into Korean (#4…](https://github.com/stablyai/orca/commit/0f56430a6491cafaba0fb5b8683f25318506727b) | dbsghdz1 |
+| 2026-11-26 | [fix(i18n): translate missing Portuguese desktop strings (#49860)](https://github.com/stablyai/orca/commit/4a0af65c0d80f570e00644b8a276212cc888c857) | yohangwak |
+| 2026-11-26 | [fix(automations): require decimal cron numbers in new schedule input …](https://github.com/stablyai/orca/commit/14d64e17d322b1a6e1184544234a74a338321793) | Afloat16 |
+| 2026-11-26 | [perf(main): lazily materialize 113 medium Main and Shared Zod v4 sche…](https://github.com/stablyai/orca/commit/763ece3651b55c4134599cb04912623825da5e30) | nwparker |
+| 2026-11-26 | [fix(i18n): translate 253 missing Turkish desktop strings (#49826)](https://github.com/stablyai/orca/commit/e7ee74509c421ce74b168aa72ba066b80d08d4f3) | yohangwak |
+| 2026-11-26 | [fix(i18n): translate missing French desktop strings for workspaces, o…](https://github.com/stablyai/orca/commit/3009e1217350f77c6d8eba6a63c37ad4e3b8c1dc) | yohangwak |
+| 2026-11-26 | [fix(i18n): translate missing Portuguese desktop strings for settings …](https://github.com/stablyai/orca/commit/f854d243a97e11662fb1d5ff9d9b5b84f5b6ca48) | yohangwak |
+| 2026-11-26 | [fix(i18n): translate 165 missing Russian desktop strings for WSL, SSH…](https://github.com/stablyai/orca/commit/14f450b84bb4f810c470bf77cb116d2c1e8fbb16) | yohangwak |
+| 2026-11-26 | [fix(runtime): honor coalescer maxWaitMs deadline under churn (#49725)](https://github.com/stablyai/orca/commit/40c7c0f22848faf2d0ac08998641b860ce9c0393) | Afloat16 |
 
 [See all commits ↗](https://github.com/stablyai/orca/commits)
 

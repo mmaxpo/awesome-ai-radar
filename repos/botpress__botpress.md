@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `ai` `botpress` `chatbot` `chatgpt` `gpt` `gpt-4` `llm` `openai` `langchain` `nlp` `prompt` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-24 (yesterday) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) — 2023-06-22 |
 | 🌿 **Default branch** | `master` |

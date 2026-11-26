@@ -20,30 +20,35 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 19.2k |
-| 🍴 **Forks** | 327 |
-| 🐞 **Open issues + PRs** | [185](https://github.com/experientiallabs/experiential/issues) |
-| 💻 **Languages** | Python 87% · Rust 12% |
+| ⭐ **Stars** | 19.4k |
+| 🍴 **Forks** | 330 |
+| 🐞 **Open issues + PRs** | [189](https://github.com/experientiallabs/experiential/issues) |
+| 💻 **Languages** | Python 86% · Rust 12% · TypeScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2026-06-24 |
-| 📦 **Latest release** | [v0.7.261](https://github.com/experientiallabs/experiential/releases/tag/v0.7.261) — 2026-11-21 |
+| 📦 **Latest release** | [v0.7.263](https://github.com/experientiallabs/experiential/releases/tag/v0.7.263) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 114.3 MB |
+| 💾 **Size** | 115.3 MB |
 | 🌐 **Website** | https://experientiallabs.ai |
 
 ## 📦 Recent releases
 
+### [v0.7.263](https://github.com/experientiallabs/experiential/releases/tag/v0.7.263) — Experiential 0.7.263
+<sub>2026-11-25 · today</sub>
+
+> Google Antigravity plan serving through Cloud Code Assist (#1440); native 0.3.207.
+
 ### [preview-input-outcomes-598b261b3b](https://github.com/experientiallabs/experiential/releases/tag/preview-input-outcomes-598b261b3b) — Input outcome test build (598b261b3b) _(pre-release)_
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > Test build for #1432 at `598b261b3b6a2c2a8a74f89170394646d69b63e7`.
 > The wheel contains that commit's source. Only the package metadata version was changed to `0.7.262rc1432` in the exported build tree so an installed test build is easy to identify. It uses the published `exp-gateway-native==0.3.205` wheel.
 > This is an unmerged testing artifact, not a stable release or a PyPI publication. The attached manifest and SHA256SUMS identify its source and bytes. Runtime validation is still in progress.
 
 ### [v0.7.261](https://github.com/experientiallabs/experiential/releases/tag/v0.7.261) — Experiential 0.7.261
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > Experiential 0.7.261 (exp-gateway-native 0.3.205).
 > - /v1/images token answers now settle on their image-output subset (`output_tokens_details.image_tokens`) and their cache reads (`input_tokens_details.cached_tokens`), each clamped to its total and unknown without a breakdown. A GPT image lane with an image-output rate previously billed text output at the image rate (gpt-image-1.5: about 29% over passthrough on a live request).
@@ -53,7 +58,7 @@
 > Release PR: https://github.com/experientiallabs/experiential/pull/1431
 
 ### [v0.7.260](https://github.com/experientiallabs/experiential/releases/tag/v0.7.260)
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > Experiential 0.7.260 (exp-gateway-native 0.3.204).
 > - #1429: Claude plan rungs lead the system prompt with Claude Code's billing-header block unless it already does, so every harness (OpenCode, Pi, Hermes, Codex, Copilot, Cursor, Cline) can use an org's Claude plans; real Claude Code passes through unchanged and API-key and house rungs are untouched.
@@ -61,7 +66,7 @@
 > SNAPSHOT_SCHEMA_VERSION unchanged.
 
 ### [v0.7.258](https://github.com/experientiallabs/experiential/releases/tag/v0.7.258) — Experiential 0.7.258
-<sub>2026-11-20 · 4d ago</sub>
+<sub>2026-11-20 · 5d ago</sub>
 
 > Experiential 0.7.258 (exp-gateway-native 0.3.203).
 > - Reverts #1409 (request-linked input-check outcomes through accounting). The platform reverted its integration (platform#3177), so this release ships without that engine path. #1409's test-only fix stays.
@@ -70,30 +75,20 @@
 > `SNAPSHOT_SCHEMA_VERSION` stays 5; digest derivation is unchanged.
 > Release PR: https://github.com/experientiallabs/experiential/pull/1425
 
-### [v0.7.257](https://github.com/experientiallabs/experiential/releases/tag/v0.7.257) — Experiential 0.7.257
-<sub>2026-11-20 · 5d ago</sub>
-
-> Experiential 0.7.257 (exp-gateway-native 0.3.202) adds image edits on GPT image models (OpenAI, Azure OpenAI Image API wire) and xAI Grok Imagine models through `POST /v1/images/edits`, with fail-closed billing:
-> - GPT image edits are token-billed with a new image-input price leg: `image_input_nano_usd_per_million_tokens` on the price cards and `image_input_tokens` (the image subset of input) on usage. A token-priced edit rung needs that rate.
-> - xAI edits are billed per image: `GatewayUnitPrices.input_rates` prices consumed source images, the `"edit"` variant prices returned images, and settled units carry `input_quantity_milli`.
-> It also files a Gemini output block relayed by OpenRouter as a refusal (#1419).
-> `SNAPSHOT_SCHEMA_VERSION` stays 5; the new fields are excluded from identity while unset.
-> Changes: https://github.com/experientiallabs/experiential/pull/1422, https://github.com/experientiallabs/experiential/pull/1419, release https://github.com/experientiallabs/experiential/pull/1423
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [OpenRouter reported cost for passthrough billing; release 0.7.264 (na…](https://github.com/experientiallabs/experiential/commit/66b7b18ed23891ac14ecd9403ef261c3c9551653) | SilenNaihin |
+| 2026-11-25 | [release: 0.7.263 (native 0.3.207) (#1442)](https://github.com/experientiallabs/experiential/commit/96469b1b405691cebb1c4fa2ca193cc0d7b4432c) | SilenNaihin |
+| 2026-11-25 | [gateway: serve Gemini models on Google Antigravity plans through Clou…](https://github.com/experientiallabs/experiential/commit/123d9e6dda17acebaddfbf8b832cfb0c0f188dc1) | SilenNaihin |
+| 2026-11-25 | [exp-code: read-only tools for the organization's Experiential data (#…](https://github.com/experientiallabs/experiential/commit/ca12a1093ec817436e154e08b4f180e5abdc52dc) | SilenNaihin |
 | 2026-11-25 | [gateway: hold video job submit and poll to the public-only destinatio…](https://github.com/experientiallabs/experiential/commit/1efb21a5e4c0b038d0d25b5e70c5062a537d4408) | SilenNaihin |
 | 2026-11-24 | [Honor vLLM sampling controls without priority scheduling (#1439)](https://github.com/experientiallabs/experiential/commit/3b07385de6d484b24a8764a98b34a91d3b99cddd) | kfallah |
 | 2026-11-24 | [exp-code: Experiential identity in the terminal UI, prompt and help; …](https://github.com/experientiallabs/experiential/commit/af2551d0c4b7f78ab608fc4a59cd91fa73dc65ea) | SilenNaihin |
 | 2026-11-21 | [gateway: settle image answers on their image-output and cache-read su…](https://github.com/experientiallabs/experiential/commit/02fcce0d8410726f7af53ade5f8a66ed43ca966d) | SilenNaihin |
 | 2026-11-20 | [release: 0.7.260 (native 0.3.204) (#1430)](https://github.com/experientiallabs/experiential/commit/d6206e2578853aa8556a76a05671c950589c79bb) | SilenNaihin |
 | 2026-11-20 | [gateway: route a Gemini continuation to its signature's issuer; a rep…](https://github.com/experientiallabs/experiential/commit/b6aa56087c39f0062422f4b8a814516e8a93008d) | SilenNaihin |
-| 2026-11-20 | [Claude plan rungs: lead the system prompt with Claude Code's billing-…](https://github.com/experientiallabs/experiential/commit/26e5c68490ee1e17649a24bbbd4c22a35b8299fc) | SilenNaihin |
-| 2026-11-20 | [gateway: Gemini 4 Neon, Hydrogen and Carbon thinking levels (#1428)](https://github.com/experientiallabs/experiential/commit/786e84fd3bd4f8a4f111bd6b6843ddd6fe0ae64b) | SilenNaihin |
-| 2026-11-20 | [release: 0.7.258 (native 0.3.203), reverting #1409's engine change (#…](https://github.com/experientiallabs/experiential/commit/67a0e57f82a7de4f464e1f164ebca0afc8d67101) | SilenNaihin |
-| 2026-11-20 | [count_tokens: ignore Chat-only reasoning_effort, verbosity and servic…](https://github.com/experientiallabs/experiential/commit/dc80ed72609809d5dfdeaa00ecaae8ec46c2b2d7) | SilenNaihin |
 
 [See all commits ↗](https://github.com/experientiallabs/experiential/commits)
 

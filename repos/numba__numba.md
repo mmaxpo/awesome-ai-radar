@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 91% · C 6% · C++ 3% |
 | 📜 **License** | BSD-2-Clause |
 | 🏷 **Topics** | `python` `numpy` `llvm` `compiler` `cuda` `parallel` `numba` |
-| 🕒 **Last activity** | 2026-11-24 (today) |
+| 🕒 **Last activity** | 2026-11-25 (today) |
 | 📅 **Created** | 2012-03-08 |
 | 📦 **Latest release** | [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1) — 2026-10-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 85.6 MB |
+| 💾 **Size** | 85.7 MB |
 | 🌐 **Website** | https://numba.pydata.org/ |
 
 ## 📦 Recent releases
 
 ### [0.68.1](https://github.com/numba/numba/releases/tag/0.68.1)
-<sub>2026-10-27 · 28d ago</sub>
+<sub>2026-10-27 · 29d ago</sub>
 
 > Numba patch release, please refer to the detailed release notes here -
 > https://numba.readthedocs.io/en/stable/release/0.68.1-notes.html
@@ -67,16 +67,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-25 | [Merge pull request #11013 from ariostas/fix-coverage-lock-data](https://github.com/numba/numba/commit/721b62073a001c78246372c4c706257aacccacc0) | swap357 |
 | 2026-11-24 | [Merge pull request #11015 from esc/cln/remove_dagmap](https://github.com/numba/numba/commit/30f2a1c8fadd278834afd5c0ff06a2ea49e6acae) | sklam |
 | 2026-11-24 | [remove dagmap](https://github.com/numba/numba/commit/5a15f9f33fde5126f0052b7e9308716bb92ef7f5) | esc |
+| 2026-11-24 | [ci: drop explanatory comment for coverage install](https://github.com/numba/numba/commit/7b52ff87d0b8f6cec3973b6427dca2058279e8dd) | ariostas |
+| 2026-11-24 | [ci: test JIT coverage support against coverage>=7.17.5](https://github.com/numba/numba/commit/cf95536c7ae0c895cfd7361e38dcc1010540bad4) | ariostas |
+| 2026-11-23 | [test: isolate JIT coverage test from coverage configuration](https://github.com/numba/numba/commit/bb82f6653b522232d85dd4e0d2396d96471699c2) | ariostas |
+| 2026-11-23 | [docs: add release note for #11013](https://github.com/numba/numba/commit/b3b0d6900e4fa72db32ec04d0b3debac7fac121f) | ariostas |
+| 2026-11-23 | [fix: support coverage 7.17.5 in JIT coverage](https://github.com/numba/numba/commit/7828bb8ac087c280c87a1c91f17e90696a4b6f62) | ariostas |
 | 2026-11-23 | [Merge pull request #10994 from numba/kc/benchmark-label](https://github.com/numba/numba/commit/8417ae3f4895a5c082d0e5ecc061ae06d5860978) | swap357 |
 | 2026-11-23 | [Update .github/workflows/pr-benchmark.yml](https://github.com/numba/numba/commit/b2e7d545d692622e5dd2b770b7dc5a9524abb398) | kc611 |
-| 2026-11-20 | [Merge pull request #10894 from shaneraphel/zip-cache-readonly-home](https://github.com/numba/numba/commit/ef7e6959fe93fc8bfc1672579e84ecf5a34c1f0f) | swap357 |
-| 2026-11-20 | [Merge pull request #11003 from swap357/fix/11001_complex-fastmath-leak](https://github.com/numba/numba/commit/64792303cc326dfb03d3579e8b2be86be0e81999) | esc |
-| 2026-11-20 | [remove unused import](https://github.com/numba/numba/commit/bef55ac8bfa35bb74ed6c8676f495031c35bbb98) | swap357 |
-| 2026-11-20 | [Add concurrency rule for workflow](https://github.com/numba/numba/commit/6a82c39670dffa8de6b648b60b295f024ce2181b) | kc611 |
-| 2026-11-20 | [Update .github/workflows/pr-benchmark.yml](https://github.com/numba/numba/commit/0e2a5f916aaeadd55ecc1c3fefdfb8e71f01aa43) | kc611 |
-| 2026-11-19 | [Merge pull request #11004 from numba/renovate/pyrefly-1.x](https://github.com/numba/numba/commit/c786f9180a7deaadc700bc9e5605b21500b53992) | swap357 |
 
 [See all commits ↗](https://github.com/numba/numba/commits)
 

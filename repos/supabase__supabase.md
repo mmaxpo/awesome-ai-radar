@@ -21,16 +21,16 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 115.5k |
-| 🍴 **Forks** | 15.1k |
+| 🍴 **Forks** | 15.2k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/supabase/supabase/issues) |
 | 💻 **Languages** | TypeScript 73% · MDX 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `firebase` `supabase` `realtime` `postgrest` `postgres` `postgresql` `websockets` `deno` `embeddings` `vectors` `alternative` `auth` `database` `example` `nextjs` `oauth2` `pgvector` `postgis` `ai` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2019-10-12 |
 | 📦 **Latest release** | [v1.26.08](https://github.com/supabase/supabase/releases/tag/v1.26.08) — 2026-08-07 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 2484.8 MB |
+| 💾 **Size** | 2486.6 MB |
 | 🌐 **Website** | https://supabase.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Change deprecation notice in docs to mention early 2027 (#54052)](https://github.com/supabase/supabase/commit/af75c3f8d9aa45c7ce1a365894d45635c47d5953) | firdaws |
-| 2026-11-25 | [feat(studio): already approved request preselect org and projects (#5…](https://github.com/supabase/supabase/commit/107b7dbad2db82b05ba57d7c723760bb2f5ac65e) | djhi |
-| 2026-11-25 | [docs(skills): treat user-defined names as sensitive in telemetry-stan…](https://github.com/supabase/supabase/commit/6a305cd311aca5b8a87d219664b9db75f57e3520) | drewm |
-| 2026-11-25 | [fix(docs): use the sub claim in the storage copy/move policy examples…](https://github.com/supabase/supabase/commit/7960616cf99e943e12c7879b82cf9030937709ad) | anh-nguyenn |
-| 2026-11-25 | [fix(docs): keyboard shortcut hydration (#53959)](https://github.com/supabase/supabase/commit/3643bc656d4d88d9d5a9d56e1c2a3d5b98998f17) | antlio |
-| 2026-11-25 | [fix(common): clear first-referrer cookie on consent revoke (#54043)](https://github.com/supabase/supabase/commit/71f7780d1eca53db980d59a6b4fec576579f27f2) | pamelachia |
-| 2026-11-25 | [Add Lyric Hartley to humans.txt (#53081)](https://github.com/supabase/supabase/commit/b3076f07b2863690d2f33058955bbbea391a4693) | lyric |
-| 2026-11-25 | [fix(docs): layout v2 fixtures (#53761)](https://github.com/supabase/supabase/commit/041c36387309ea8160810772112ebb67a8cc3101) | antlio |
-| 2026-11-25 | [feat(studio): note that edge function secrets can't be retrieved once…](https://github.com/supabase/supabase/commit/a36d21848cb27bdefd8c5b130e252408d2bc6992) | supabase-vercel-tedd[bot] |
-| 2026-11-25 | [refactor(ui-patterns): use FrameworkProvider for routing and drop nex…](https://github.com/supabase/supabase/commit/7c368aadfd115d62bce1345d992ff9d3749944d1) | alaister |
+| 2026-11-26 | [chore(self-hosted): remove env vars Storage no longer reads (#54132)](https://github.com/supabase/supabase/commit/160f233b4e33945f2de2c4ebffdaec7396182f43) | aantti |
+| 2026-11-26 | [Joshenlim/fe 5196 move off scaffold components for remaining (#53911)](https://github.com/supabase/supabase/commit/434c00cb14d3a8a1a85696dd20d6a53e36c54449) | joshenlim |
+| 2026-11-26 | [fix(self-hosted): keep idle Auth database connections (#54134)](https://github.com/supabase/supabase/commit/8cb6a869337b25ed1bf039c700c11a26f1e83673) | aantti |
+| 2026-11-26 | [chore(self-hosted): remove PGRST_DB_USE_LEGACY_GUCS (#54133)](https://github.com/supabase/supabase/commit/fd79b119949bab64a2b38fe0bb6d2ecdc3f60f1b) | aantti |
+| 2026-11-26 | [docs(self-hosted): document Auth DB encryption key requirements in CO…](https://github.com/supabase/supabase/commit/14c26d8f448643552b54bd1c94233017e572a921) | aantti |
+| 2026-11-26 | [feat(self-hosted): add structured logging for self-hosted Edge Functi…](https://github.com/supabase/supabase/commit/3580c144a456f1dd9e88c8db9dece36e0ded4bd8) | luizfelmach |
+| 2026-11-26 | [docs(rbac): enable RLS on the RBAC tables (#48394)](https://github.com/supabase/supabase/commit/49bda396bbd04710ce83b4db08a1a69aa7c1f94b) | Paramjeet2810 |
+| 2026-11-26 | [docs(auth): remove claims of automatic cleanup of expired sessions (#…](https://github.com/supabase/supabase/commit/530ae14dab2bc18f1c3ee4103ee0a87ee93ee193) | claude[bot] |
+| 2026-11-26 | [docs(self-hosted): catch up CONFIG.md with the current self-hosted im…](https://github.com/supabase/supabase/commit/fd75f79d4bfa3335f362b5d43c8169b1c616dc21) | aantti |
+| 2026-11-26 | [Update billing-faq.mdx (#54125)](https://github.com/supabase/supabase/commit/2fcbeb10ffc76d4ab43be1aa0a85b2dffeabc6e5) | corkscruff |
 
 [See all commits ↗](https://github.com/supabase/supabase/commits)
 
