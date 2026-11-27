@@ -20,23 +20,32 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 188.2k |
+| ⭐ **Stars** | 188.3k |
 | 🍴 **Forks** | 19.2k |
 | 🐞 **Open issues + PRs** | [4.8k](https://github.com/ollama/ollama/issues) |
 | 💻 **Languages** | Go 75% · C 17% · TypeScript 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llama` `llm` `llms` `go` `golang` `ollama` `mistral` `gemma` `deepseek` `qwen` `gpt-oss` `glm` `minimax` `muse` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-06-26 |
 | 📦 **Latest release** | [v0.40.18](https://github.com/ollama/ollama/releases/tag/v0.40.18) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 95.9 MB |
+| 💾 **Size** | 96.0 MB |
 | 🌐 **Website** | https://ollama.com |
 
 ## 📦 Recent releases
 
+### [v0.40.19-rc0](https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0) — v0.40.19 _(pre-release)_
+<sub>2026-11-26 · today</sub>
+
+> **What's Changed**
+> * inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in https://github.com/ollama/ollama/pull/19881
+> * mlxrunner: compact Engram history buffers by @pdevine in https://github.com/ollama/ollama/pull/19913
+> * bump llama-server by @pdevine in https://github.com/ollama/ollama/pull/19917
+> **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.18...v0.40.19-rc0
+
 ### [v0.40.18](https://github.com/ollama/ollama/releases/tag/v0.40.18)
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **What's Changed**
 > * mlx: fuse Inkling residual mixing on Metal by @dhiltgen in https://github.com/ollama/ollama/pull/19808
@@ -46,7 +55,7 @@
 > **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.17...v0.40.18-rc0
 
 ### [v0.40.17](https://github.com/ollama/ollama/releases/tag/v0.40.17)
-<sub>2026-11-10 · 15d ago</sub>
+<sub>2026-11-10 · 16d ago</sub>
 
 > **Inkling 2 Mini**
 > [Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) from Thinking Machines is a 26B parameter model with 5.4B active.
@@ -57,7 +66,7 @@
 > …
 
 ### [v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16)
-<sub>2026-11-09 · 16d ago</sub>
+<sub>2026-11-09 · 17d ago</sub>
 
 > **Ripple Preview**
 > [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.
@@ -68,7 +77,7 @@
 > …
 
 ### [v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15)
-<sub>2026-11-03 · 22d ago</sub>
+<sub>2026-11-03 · 23d ago</sub>
 
 > **MiMo V2.6**
 > Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.
@@ -76,17 +85,6 @@
 > ollama run mimo-v2.6
 > ```
 > **AutoTrust decision models**
-> …
-
-### [v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14)
-<sub>2026-11-03 · 23d ago</sub>
-
-> **What's Changed**
-> * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap
-> * Cloud web search responses on `/api/chat` are now decoded correctly, including compressed responses
-> * OpenAI-compatible endpoints no longer override a model's packaged sampler defaults — clients that send no `temperature`/`top_p` get the model's own values instead of 1.0, matching `/api/chat`
-> * `/v1/responses` now preserves readable input content, including prior assistant refusals, instead of flattening it
-> * Ollama's app can now retry ChatGPT disconnect failures instead of leaving the connection in a broken state
 > …
 
 ## 🔨 Latest commits

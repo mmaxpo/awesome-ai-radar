@@ -21,70 +21,69 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 7.8k |
-| 🍴 **Forks** | 718 |
-| 🐞 **Open issues + PRs** | [233](https://github.com/BuilderIO/agent-native/issues) |
+| 🍴 **Forks** | 719 |
+| 🐞 **Open issues + PRs** | [222](https://github.com/BuilderIO/agent-native/issues) |
 | 💻 **Languages** | TypeScript 87% · MDX 10% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `react` `agent-native` `typescript` `agent-framework` `agentic-ai` `ai-agents` `framework` `generative-ui` `mcp` `open-source` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-03-12 |
-| 📦 **Latest release** | [@agent-native/core@0.234.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/core%400.234.0) — 2026-11-25 |
+| 📦 **Latest release** | [@agent-native/otel@0.1.46](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/otel%400.1.46) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 626.1 MB |
+| 💾 **Size** | 631.8 MB |
 | 🌐 **Website** | https://www.agent-native.com |
 
 ## 📦 Recent releases
 
-### [@agent-native/core@0.234.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/core%400.234.0)
-<sub>2026-11-25 · today</sub>
+### [v0.1.150-nightly.469](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.469) — Agent-Native Nightly v0.1.150-nightly.469 _(pre-release)_
+<sub>2026-11-27 · today</sub>
 
-> **Minor Changes**
-> - bf2d0b4: Generalize the MCP Skills extension (`io.modelcontextprotocol/skills`, SEP-2640) so any app can opt in via `mcp.skills` to serve reviewed, exported skills and optional `references/...` files alongside `ui://` MCP App resources with unified caller identity, org, OAuth scope, and revocation checks.
-> - f7de4d5: Actions can live in subfolders of `actions/`; the name is the relative path joined with `-` (`billing/create-invoice.ts` is `billing-create-invoice`), and two files resolving to one name fail boot. `tool-search` returns exactly the tools named when a query is only known action names, and its description no longer pushes `includeSchemas`. Saved automations now apply the app's `resolveActionSurface`, so excluded tools are neither discoverable nor callable from them (`details.automation` is set and `details.event` is undefined for those runs).
+> Auto-updating Nightly build of the Agent-Native desktop app.
+
+### [v0.1.150-nightly.468](https://github.com/BuilderIO/agent-native/releases/tag/v0.1.150-nightly.468) — Agent-Native Nightly v0.1.150-nightly.468 _(pre-release)_
+<sub>2026-11-27 · today</sub>
+
+> Auto-updating Nightly build of the Agent-Native desktop app.
+
+### [clips-nightly-v0.1.540-0](https://github.com/BuilderIO/agent-native/releases/tag/clips-nightly-v0.1.540-0) — Clips Nightly v0.1.540-0 _(pre-release)_
+<sub>2026-11-27 · today</sub>
+
+> Auto-updating nightly build of the Clips menu-bar app.
+> The in-app updater fetches its manifest from the `clips-nightly-latest`
+> release — this versioned release is the immutable source of the
+> signed bundles it downloads.
+
+### [@agent-native/otel@0.1.46](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/otel%400.1.46)
+<sub>2026-11-26 · today</sub>
+
 > **Patch Changes**
-> - 4a34f01: The `an` skill now describes when a live app view helps, carries the user's selection into follow-ups, updates the same view after a change and reads back what was saved. Dispatch's MCP server serves the skill through the MCP Skills extension, so hosts that support Skills over MCP get it with the connector.
-> - 33e0e8c: Persist a run's terminal reason atomically with its terminal status so a successor lease cannot leave the completed run without a reason.
+> - Release all public npm packages with a patch version bump.
+
+### [@agent-native/skills@0.4.14](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/skills%400.4.14)
+<sub>2026-11-26 · today</sub>
+
+> **Patch Changes**
+> - Release all public npm packages with a patch version bump.
+> - Updated dependencies [0a08ec4]
+> - Updated dependencies [4ce600d]
+> - Updated dependencies [a3032a6]
+> - Updated dependencies [e2b0256]
 > …
-
-### [@agent-native/creative-context@0.8.78](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/creative-context%400.8.78)
-<sub>2026-11-25 · today</sub>
-
-> **Patch Changes**
-> - Release all public npm packages with a patch version bump.
-
-### [@agent-native/agentkit@0.234.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/agentkit%400.234.0)
-<sub>2026-11-25 · today</sub>
-
-> **Patch Changes**
-> - e466d90: Keep a chat alive when it reconnects after its run moved on: the client and event stream now skip events from a run other than the subscribed one, and reconnecting from a sequence the server already pruned resumes from the earliest retained event instead of failing with `run_stream_failed`.
-> - Release all public npm packages with a patch version bump.
-
-### [@agent-native/recap-cli@0.5.109](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/recap-cli%400.5.109)
-<sub>2026-11-25 · today</sub>
-
-> **Patch Changes**
-> - Release all public npm packages with a patch version bump.
-
-### [@agent-native/core-corpus@0.234.0](https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/core-corpus%400.234.0)
-<sub>2026-11-25 · today</sub>
-
-> **Patch Changes**
-> - Release all public npm packages with a patch version bump.
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Let the an skill pick the right Agent-Native app from a plain request…](https://github.com/BuilderIO/agent-native/commit/a3032a654da9600eb2184f45ea35e1a2f90ffc2f) | 3mdistal |
-| 2026-11-26 | [Stop Create file and uploads from duplicating or overwriting a file o…](https://github.com/BuilderIO/agent-native/commit/415f03e467c7450d0a3f3e844b2905a2d51860c5) | 3mdistal |
-| 2026-11-26 | [Keep the page still when a check mark is ticked on a phone or tablet …](https://github.com/BuilderIO/agent-native/commit/6409765ac8e274b4b466f861eab30dcfa2a99458) | 3mdistal |
-| 2026-11-26 | [Stop Mail's repeated Gmail cooldowns from 50-part batches and non-Gma…](https://github.com/BuilderIO/agent-native/commit/20691507dcb79810f2074857a08ad9088ca8c846) | 3mdistal |
-| 2026-11-26 | [Start J and K from the email you're on in Mail, and mark it once (#9730)](https://github.com/BuilderIO/agent-native/commit/02936993d6260e5270a5fb31f90858c79d395719) | 3mdistal |
-| 2026-11-26 | [Design: stop showing a failure when an image edit succeeded (#9919)](https://github.com/BuilderIO/agent-native/commit/b4b454a4984792982fe55ad39df4952ab207ec34) | steve8708 |
-| 2026-11-26 | [Report Typecheck success for verified changelog-only changes (#9912)](https://github.com/BuilderIO/agent-native/commit/aa224c4090cdb23d96a8ca63b05fe622b1a0b26a) | steve8708 |
-| 2026-11-26 | [fix(design): list components in the layers panel and show typed expor…](https://github.com/BuilderIO/agent-native/commit/6cacb9d95254ffc5ecf83ec27deb3746aff2e594) | steve8708 |
-| 2026-11-26 | [toolkit: let an app reveal its tree while the session loads (#9918)](https://github.com/BuilderIO/agent-native/commit/a37f93540ef31a3383c5adb93022a70919e3bedb) | steve8708 |
-| 2026-11-26 | [design: Arrange options reorder layers in unfocused overview screens …](https://github.com/BuilderIO/agent-native/commit/37bab500262faafb7d06c0be6ba260a05a7cf46e) | steve8708 |
+| 2026-11-27 | [Await the action cache write-start signal in the cleanup spec (#9985)](https://github.com/BuilderIO/agent-native/commit/3ab650561c4bd21008b39cbba2f4a44039516fae) | steve8708 |
+| 2026-11-27 | [Let agents change member roles and cancel invitations (#9984)](https://github.com/BuilderIO/agent-native/commit/c1b7403ffd016fcbc7127f985c570bd64f22db21) | steve8708 |
+| 2026-11-27 | [fix(a2a): cross-app calls use the workspace the person sees in the pe…](https://github.com/BuilderIO/agent-native/commit/ccbd0781d465ba0647e62d03485d1c3acd3180e4) | steve8708 |
+| 2026-11-27 | [Make large Design boards pan and zoom smoothly (#9935)](https://github.com/BuilderIO/agent-native/commit/3898ca88508b58fbf2e7d9db05937af05b7504f1) | shomix |
+| 2026-11-27 | [Clips: recover or discard the tracks a recorder left unfinalized (#9961)](https://github.com/BuilderIO/agent-native/commit/9424d7fb010347df46e4be7f8401e007059d1b6c) | 3mdistal |
+| 2026-11-27 | [Mail: keep your place when new mail arrives, and name the marked emai…](https://github.com/BuilderIO/agent-native/commit/967584b0fd00bb8d9c1a60885ecf10481ea5fd34) | 3mdistal |
+| 2026-11-27 | [core: keep a saved language choice after a hard refresh (#9980)](https://github.com/BuilderIO/agent-native/commit/c34a832fc434c6d8769a060ce718b9eec2eec0fc) | steve8708 |
+| 2026-11-27 | [fix: end an exhausted run with a summary of what ran and what did not…](https://github.com/BuilderIO/agent-native/commit/c5ea04e685dd2cde55d1195d688ce8ee672a580d) | steve8708 |
+| 2026-11-27 | [fix(slides): re-check a missing deck on return and retry transient fa…](https://github.com/BuilderIO/agent-native/commit/b9aacb22397fcb858a7058362ec1b6c540b08a7c) | steve8708 |
+| 2026-11-27 | [Design: fix localhost preview imports and visual edit navigation (#9778)](https://github.com/BuilderIO/agent-native/commit/67fbc39b38ced889fb1604d28fc24ab81827230d) | builder-factory |
 
 [See all commits ↗](https://github.com/BuilderIO/agent-native/commits)
 

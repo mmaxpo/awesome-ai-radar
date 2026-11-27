@@ -22,31 +22,42 @@
 |---|---|
 | ⭐ **Stars** | 36.0k |
 | 🍴 **Forks** | 3.2k |
-| 🐞 **Open issues + PRs** | [110](https://github.com/NandhaKishorM/laya/issues) |
+| 🐞 **Open issues + PRs** | [104](https://github.com/NandhaKishorM/laya/issues) |
 | 💻 **Languages** | Python 52% · Java 11% · Go 8% · Rust 7% · C# 7% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `calibration` `classification` `decision-model` `huggingface` `jev` `modernbert` `multilingual` `nlp` `python` `pytorch` `routing` `typed-decisions` `zero-shot` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-09-18 |
-| 📦 **Latest release** | [v0.5.5](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.5) — 2026-11-26 |
+| 📦 **Latest release** | [v0.5.6](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.6) — 2026-11-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 22.5 MB |
+| 💾 **Size** | 22.3 MB |
 | 🌐 **Website** | https://huggingface.co/convaiinnovations/laya |
 
 ## 📦 Recent releases
 
+### [v0.5.6](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.6)
+<sub>2026-11-27 · today</sub>
+
+> **What's Changed**
+> * fix(ts): resolve local $defs refs so pydantic Enum fields become choices, as Python does by @dante01yoon in https://github.com/NandhaKishorM/laya/pull/1531
+> * fix(ts): refuse a ctx.skip() whose result count breaks the contract, as Python does by @dante01yoon in https://github.com/NandhaKishorM/laya/pull/1532
+> * fix(ts): Router.unload fires onEvict for the checkpoints it frees, as Python does by @dante01yoon in https://github.com/NandhaKishorM/laya/pull/1533
+> * fix(ts): accept a list of onPredictStart/onPredictEnd callables, as Python does by @dante01yoon in https://github.com/NandhaKishorM/laya/pull/1534
+> * research: vega accuracy against evidence position at fixed document length by @Parswanadh in https://github.com/NandhaKishorM/laya/pull/1538
+> …
+
 ### [v0.5.5](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.5)
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.5.4...v0.5.5
 
 ### [v0.5.4](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.4)
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.5.3...v0.5.4
 
 ### [v0.5.3](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.3)
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > **What's Changed**
 > * fix(vega): translate engine's string-keyed choice labels back to caller's labels by @aashish254 in https://github.com/NandhaKishorM/laya/pull/1519
@@ -57,37 +68,26 @@
 > …
 
 ### [v0.5.2](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.2)
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > **What's Changed**
 > * learn: laya.Escalator and laya.vllm_teacher, a teacher for what the learner is unsure of (0.5.2) by @NandhaKishorM in https://github.com/NandhaKishorM/laya/pull/1518
 > **Full Changelog**: https://github.com/NandhaKishorM/laya/compare/v0.5.1...v0.5.2
 
-### [v0.5.1](https://github.com/NandhaKishorM/laya/releases/tag/v0.5.1)
-<sub>2026-11-21 · 5d ago</sub>
-
-> **What's Changed**
-> * Sponsor link at the top of the README and a Sponsor button by @NandhaKishorM in https://github.com/NandhaKishorM/laya/pull/1513
-> * feat(rust): make ort download-binaries optional by @sathariels in https://github.com/NandhaKishorM/laya/pull/1508
-> * fix(policy): require questions.json in manifest hashes and validate manifest/provenance shapes by @aoright in https://github.com/NandhaKishorM/laya/pull/1510
-> * fix(serve): correct uvicorn log-level case sensitivity expectation in test by @Aniketchavan7 in https://github.com/NandhaKishorM/laya/pull/1515
-> **New Contributors**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [release: 0.5.5, the paper cited at the top of the README (and so on P…](https://github.com/NandhaKishorM/laya/commit/8f445c623453f7514f30fe958a73878296aea9af) | NandhaKishorM |
-| 2026-11-26 | [README: the citation back at the top (From Laya to Vega, doi 10.20944…](https://github.com/NandhaKishorM/laya/commit/06b827556fe893530724db6dc43ad243bce83816) | NandhaKishorM |
-| 2026-11-25 | [README: remove duplicated sections](https://github.com/NandhaKishorM/laya/commit/5b32bd39bd775d28dfb0138c62687f5084e91824) | NandhaKishorM |
-| 2026-11-25 | [README: drop the animation from the top](https://github.com/NandhaKishorM/laya/commit/6be5d8d177e71bcecd11aa328e4789ae14c02e87) | NandhaKishorM |
-| 2026-11-25 | [README: a clean top, and a clear notice that continuous learning is n…](https://github.com/NandhaKishorM/laya/commit/60a6ce910b4a2edb2b77e00d8fddeb24349610c8) | NandhaKishorM |
-| 2026-11-25 | [release: 0.5.4, continuous learning comes from vegaml-learn (noncomme…](https://github.com/NandhaKishorM/laya/commit/dc5aa9e6505b49c9ff0c19d9be153f8f10eb0e9c) | NandhaKishorM |
-| 2026-11-23 | [fix(java): re-record lang_tables.json after #1526's stopwords](https://github.com/NandhaKishorM/laya/commit/54c72865e4781233396a56c2db013e29ced3b43c) | NandhaKishorM |
-| 2026-11-23 | [release: 0.5.3, choice labels come back as written on the new engine,…](https://github.com/NandhaKishorM/laya/commit/abefd7d955008a59287b0fa8c5753cb323307693) | NandhaKishorM |
-| 2026-11-23 | [fix(rust): pin ort to exactly 2.0.0-rc.13 so a fresh resolve still co…](https://github.com/NandhaKishorM/laya/commit/da444d5107ef2e23d0240f75cc45d904d7408253) | NandhaKishorM |
-| 2026-11-23 | [fix(rust,dotnet): carry #1526's Spanish, Portuguese and Italian stopw…](https://github.com/NandhaKishorM/laya/commit/60fdb8cd7814176990d3991b2c7da2d198de47d2) | NandhaKishorM |
+| 2026-11-27 | [release: 0.5.6](https://github.com/NandhaKishorM/laya/commit/309f865eb2373ffaf1b9e375f30496841492d7b0) | NandhaKishorM |
+| 2026-11-27 | [Merge pull request #1538 from Parswanadh: research: vega accuracy aga…](https://github.com/NandhaKishorM/laya/commit/e4d81b0c077fd55b72e5644936ccbead3b65c655) | NandhaKishorM |
+| 2026-11-27 | [cpp: link libonnxruntime.1.dylib in the NuGet runtime on macOS](https://github.com/NandhaKishorM/laya/commit/5b9114c3f18d968b898ec669434a1f34992b5233) | NandhaKishorM |
+| 2026-11-27 | [README: the "How it decides" animation back above the install command](https://github.com/NandhaKishorM/laya/commit/ea37beaaeee8f760d491a6ed45103bfeba66c244) | NandhaKishorM |
+| 2026-11-27 | [serve: read LAYA_API_KEY as os.environ.get(..., "") in the open-bind …](https://github.com/NandhaKishorM/laya/commit/7958884c9468d7d1983e1e471bfb9e419898b63c) | NandhaKishorM |
+| 2026-11-27 | [Merge pull request #1541 from yeager: fix(cpp): fetch ONNX Runtime fr…](https://github.com/NandhaKishorM/laya/commit/c7e1aba54110b3f5e197d502957b74a31893b684) | NandhaKishorM |
+| 2026-11-27 | [Merge pull request #1539 from chetanxrathore: fix(rust): support call…](https://github.com/NandhaKishorM/laya/commit/0c7e42ebd59d32b303609eb7cd5ef9cec21207da) | NandhaKishorM |
+| 2026-11-27 | [Merge pull request #1540 from leninworld: fix(ts): withHooks removes …](https://github.com/NandhaKishorM/laya/commit/c1c9e39a134e8eb78bb29080cd4b959b00d48597) | NandhaKishorM |
+| 2026-11-27 | [Merge pull request #1534 from dante01yoon: fix(ts): accept a list of …](https://github.com/NandhaKishorM/laya/commit/8c2ebb03571ade6fc2c754634d7e7931ee292a4c) | NandhaKishorM |
+| 2026-11-27 | [Merge pull request #1533 from dante01yoon: fix(ts): Router.unload fir…](https://github.com/NandhaKishorM/laya/commit/d1f9ea9d3a2720020fae850ca89785ad8c3ba0ae) | NandhaKishorM |
 
 [See all commits ↗](https://github.com/NandhaKishorM/laya/commits)
 

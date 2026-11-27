@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 157.4k |
+| ⭐ **Stars** | 157.6k |
 | 🍴 **Forks** | 10.3k |
-| 🐞 **Open issues + PRs** | [765](https://github.com/farion1231/cc-switch/issues) |
-| 💻 **Languages** | Rust 63% · TypeScript 36% |
+| 🐞 **Open issues + PRs** | [767](https://github.com/farion1231/cc-switch/issues) |
+| 💻 **Languages** | Rust 64% · TypeScript 36% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-tools` `claude-code` `desktop-app` `open-source` `rust` `tauri` `codex` `mcp` `provider-management` `wsl-support` `opencode` `skills` `skills-management` `hermes` `grok` `grokbuild` `pi` `deepseek-harness` `kimi-code` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-08-04 |
-| 📦 **Latest release** | [v4.0.42](https://github.com/farion1231/cc-switch/releases/tag/v4.0.42) — 2026-11-25 |
+| 📦 **Latest release** | [v4.0.43](https://github.com/farion1231/cc-switch/releases/tag/v4.0.43) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 120.1 MB |
+| 💾 **Size** | 120.6 MB |
 | 🌐 **Website** | https://ccswitch.io |
 
 ## 📦 Recent releases
 
+### [v4.0.43](https://github.com/farion1231/cc-switch/releases/tag/v4.0.43) — CC Switch v4.0.43
+<sub>2026-11-26 · today</sub>
+
+> **CC Switch v4.0.43**
+> 本版本为授权中心增加了「自动查询额度」开关：关掉后，官方账号的额度只在你点刷新时才查，适合经代理上网、不想在代理就绪前直连官方服务的情况。托盘里也能直接切换 Antigravity 官方账号，每个账号旁边显示剩余额度。「应用」页现在认得 OpenCode 2，能正确检查更新、升级和卸载；OpenCode 2.4 的会话也能显示助手回复了。用量统计的速度只算成功的请求，并剔除中转缓冲后一次性吐出的异常值。
+> 修复包括：先用 Chat Completions 供应商、再在直连模式下切回官方 ChatGPT 时 Codex 会话无法继续，macOS 每次退出后菜单栏图标位置被重置，`~/.gemini/.env` 里带引号的值，带块注释的 OpenClaw 配置被写坏，删除环境变量后 shell 配置丢了末尾换行，以及 Pi 的插件识别和更新问题。
+> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.43-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.43-ja.md)**
+> ---
+> **新增**
+> …
+
 ### [v4.0.42](https://github.com/farion1231/cc-switch/releases/tag/v4.0.42) — CC Switch v4.0.42
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **CC Switch v4.0.42**
 > 本版本让 **GitHub Copilot** 供应商支持 Copilot 的 **Auto 自动选模型**：在 Claude、Codex 或 Claude Desktop 的模型列表里选「GitHub Copilot 自动选择」，每次对话由 Copilot 决定用哪个模型，Copilot Free 账号也能用。
@@ -47,7 +58,7 @@
 > …
 
 ### [v4.0.41](https://github.com/farion1231/cc-switch/releases/tag/v4.0.41) — CC Switch v4.0.41
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **CC Switch v4.0.41**
 > 本版本新增 **CodeBuddy** 支持（腾讯的 CLI 和桌面版共用一套配置）：可以管理自定义模型、MCP、Skills、提示词、会话和用量，在授权中心收集多个官方账号，查看套餐、积分和到期时间并随时切换。**Copilot CLI** 的供应商可以一键同步到 VS Code 的 Copilot 插件；**Grok 官方卡**显示订阅等级。
@@ -58,7 +69,7 @@
 > …
 
 ### [v4.0.40](https://github.com/farion1231/cc-switch/releases/tag/v4.0.40) — CC Switch v4.0.40
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > **CC Switch v4.0.40**
 > 本版本让 **Grok Build 的官方卡可以绑定授权中心里的 xAI 账号**，像 Claude、Codex 官方卡一样在多个 Grok 账号之间切换。**插件页**支持 Antigravity CLI；**用量统计**的供应商和模型列表加了缓存命中率；**小米 MiMo** 内置余额和 Token Plan 额度查询；授权中心的账号卡片跟随侧栏应用的顺序和隐藏设置。
@@ -69,7 +80,7 @@
 > …
 
 ### [v4.0.39](https://github.com/farion1231/cc-switch/releases/tag/v4.0.39) — CC Switch v4.0.39
-<sub>2026-11-22 · 4d ago</sub>
+<sub>2026-11-22 · 5d ago</sub>
 
 > **CC Switch v4.0.39**
 > 本版本以修复为主。**API Key 输入框**加了复制按钮；**备份**可以设置总大小上限，超过时从最旧的开始删；Claude Code 经 Codex OAuth 使用 **GPT-6.2 Sol / Astra** 时，系统提示的缓存命中率大幅提高。
@@ -79,31 +90,20 @@
 > **新增**
 > …
 
-### [v4.0.38](https://github.com/farion1231/cc-switch/releases/tag/v4.0.38) — CC Switch v4.0.38
-<sub>2026-11-21 · 5d ago</sub>
-
-> **CC Switch v4.0.38**
-> 本版本以修复为主。一键导入链接现在可以导入 **WorkBuddy** 供应商；Linux 上也能在授权中心切换 **Antigravity** 账号；Antigravity 的会话列表不再混进空会话和内部子会话，会话阅读器能看到思考、工具调用和结果。
-> 另外修复了 DeepSeek Harness 的配置文件经过某些 YAML 工具后，所有第三方供应商都消失；从访达打开 CC Switch 时，「应用」页把能正常用的 npm 安装标成「无法运行」；技能仓库不是 GitHub / GitLab / Gitea 时只提示「0 个技能」而不报错；Codex 给模型选的思考等级有时没生效；Codex 经路由的几处格式转换错误；用量重复计算；会话正文搜索失败时显示「没有会话包含这个词」；主界面变成一条白条或被 macOS 菜单栏遮住；Linux AppImage 里点链接没反应等问题。
-> **[English →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.38-en.md) | [日本語版 →](https://github.com/farion1231/cc-switch/blob/main/docs/release-notes/v4.0.38-ja.md)**
-> ---
-> **新增**
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [docs(release): add v4.0.43 release notes](https://github.com/farion1231/cc-switch/commit/754fed72d428c66c1e6ed45f38601ac25ded90c6) | farion1231 |
-| 2026-11-26 | [chore(release): v4.0.43](https://github.com/farion1231/cc-switch/commit/40a61aec2b4173e73481f882493afef6a34a0080) | farion1231 |
-| 2026-11-26 | [docs(manual): cover the tray Antigravity accounts, manual-only quota …](https://github.com/farion1231/cc-switch/commit/612212dd2b980210791263e9de4b9d4a1691ceda) | farion1231 |
-| 2026-11-26 | [fix(apps): follow the installed OpenCode release line in the Apps page](https://github.com/farion1231/cc-switch/commit/3c49b5cdc55d18bf15a8f3412e186873286415de) | farion1231 |
-| 2026-11-26 | [fix(codex): explain how the desktop app shows Fast on third-party cards](https://github.com/farion1231/cc-switch/commit/c8903de77ccb28569f4c2651b335d365f7010eef) | farion1231 |
-| 2026-11-26 | [fix(codex): lock the official Fast tier switch on cards without a mod…](https://github.com/farion1231/cc-switch/commit/66817dc2588c6ac74c72fb579182fae04a0ca5d5) | farion1231 |
-| 2026-11-26 | [fix(proxy): keep converted Chat reasoning item ids out of OpenAI's lo…](https://github.com/farion1231/cc-switch/commit/148c1005be89ea12ace8a7ef8e82c2e45c0e749d) | farion1231 |
-| 2026-11-26 | [feat(tray): switch Antigravity official accounts from the tray](https://github.com/farion1231/cc-switch/commit/4a9f88546cd335ca7f857da72eb234453120ee22) | farion1231 |
-| 2026-11-26 | [fix(tray): keep the macOS menu bar icon position across quits and res…](https://github.com/farion1231/cc-switch/commit/2a0f43331b1358b88c37f761fef3f437738673d5) | farion1231 |
-| 2026-11-26 | [fix(usage): time Claude session replies from the request that produce…](https://github.com/farion1231/cc-switch/commit/9967927cb8ecb47c4c22a44d50e30c1113ee8c90) | farion1231 |
+| 2026-11-27 | [chore: credit fnyfree for the ZCode usage sync batching (#10053)](https://github.com/farion1231/cc-switch/commit/3cd481c0ba447cca53d3053d2d2c179e1bd18e7e) | farion1231 |
+| 2026-11-27 | [perf(zcode): batch usage sync in one transaction and reuse sync curso…](https://github.com/farion1231/cc-switch/commit/0747c615df2a1dd89e93b62b9eb3abf953eb4654) | allenxu09 |
+| 2026-11-27 | [fix(agy): hide console window when probing agy version on Windows (#1…](https://github.com/farion1231/cc-switch/commit/119534e7be4d7ba5541abf2b75bdfd17dbd5fce9) | fodangithub |
+| 2026-11-27 | [fix(skill): name the actual app in protected Skill messages (#10044)](https://github.com/farion1231/cc-switch/commit/3a400d533c06d0de9f53e1104e810ab4c26d58a3) | JackieJK |
+| 2026-11-27 | [fix(auth-center): keep xAI card visible for Grok Build and align card…](https://github.com/farion1231/cc-switch/commit/b46478483db670615dcf84c80a109e60d6383fea) | jimpablo |
+| 2026-11-27 | [fix(codex): preserve stashed OAuth when clearing third-party residue …](https://github.com/farion1231/cc-switch/commit/60bb09b6a2f9f394e5def1cb0948fb7f7adafc7f) | D1screteWave |
+| 2026-11-27 | [fix(agy): bound quota concurrency, early-return 403/429, skip extra k…](https://github.com/farion1231/cc-switch/commit/3abf262e529c95352bc8d933ed06a925d0d42b7a) | jimpablo |
+| 2026-11-27 | [fix(proxy): cap the per-event buffer in SSE converters (#9938)](https://github.com/farion1231/cc-switch/commit/8b045ff71f8e135e608a8460ea4d0ffcd99fdfcc) | wlndysky |
+| 2026-11-27 | [feat(presets): add TeleAI Xing4.1-Preview presets](https://github.com/farion1231/cc-switch/commit/1da9baf5e5fb0e116fff29b4d512f17a497332ce) | farion1231 |
+| 2026-11-27 | [feat(presets): promote SudoCode to a full sponsor](https://github.com/farion1231/cc-switch/commit/c446b982906a084b61e84ca5cbc2a11a572b69b6) | farion1231 |
 
 [See all commits ↗](https://github.com/farion1231/cc-switch/commits)
 

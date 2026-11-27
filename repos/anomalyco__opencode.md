@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 229.3k |
-| 🍴 **Forks** | 31.2k |
-| 🐞 **Open issues + PRs** | [4.2k](https://github.com/anomalyco/opencode/issues) |
+| ⭐ **Stars** | 229.6k |
+| 🍴 **Forks** | 31.3k |
+| 🐞 **Open issues + PRs** | [4.1k](https://github.com/anomalyco/opencode/issues) |
 | 💻 **Languages** | TypeScript 74% · Rust 14% · MDX 9% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-04-30 |
 | 📦 **Latest release** | [v2.4.2](https://github.com/anomalyco/opencode/releases/tag/v2.4.2) — 2026-11-26 |
 | 🌿 **Default branch** | `dev` |
-| 💾 **Size** | 748.8 MB |
+| 💾 **Size** | 751.7 MB |
 | 🌐 **Website** | https://opencode.ai |
 
 ## 📦 Recent releases
 
 ### [v2.4.2](https://github.com/anomalyco/opencode/releases/tag/v2.4.2)
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **Highlights**
 > - **GPT-6.2 System Prompt**: GPT-6.2 Sol and Astra, and the `gpt-latest` aliases, use a system prompt written for GPT-6.2. ([#66297](https://github.com/anomalyco/opencode/pull/66297))
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.4.1](https://github.com/anomalyco/opencode/releases/tag/v2.4.1)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **Highlights**
 > - **macOS 12 Session Fix**: OpenCode can save assistant messages again on the older SQLite version included with macOS 12. ([#65771](https://github.com/anomalyco/opencode/pull/65771))
@@ -58,7 +58,7 @@
 > …
 
 ### [v2.4.0](https://github.com/anomalyco/opencode/releases/tag/v2.4.0)
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > **Highlights**
 > - **Built-In Desktop Browser**: Import your sign-ins and browsing history from Chrome, Edge, Firefox or Safari, and add extensions from Chromium browsers or the Chrome and Edge stores. Everything stays in one persistent desktop profile: chat links open signed in, your tabs survive restarts and the agent can read and drive the same pages without you switching apps. ([#63002](https://github.com/anomalyco/opencode/pull/63002), [#65073](https://github.com/anomalyco/opencode/pull/65073))
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.3.2](https://github.com/anomalyco/opencode/releases/tag/v2.3.2)
-<sub>2026-11-18 · 8d ago</sub>
+<sub>2026-11-18 · 9d ago</sub>
 
 > **Highlights**
 > - **GPT-6.2 Prompt Caching**: GPT-6.2 models don't cache a system prompt sent in the Responses `instructions` field, so every step re-billed it as uncached input. OpenCode now sends it as a leading developer message on every Responses route, including OpenAI (API key and ChatGPT sign-in), GitHub Copilot, Zen, Azure and OpenRouter, so it is cached from the second step on. ([#64542](https://github.com/anomalyco/opencode/pull/64542), [#64544](https://github.com/anomalyco/opencode/pull/64544))
@@ -79,7 +79,7 @@
 > - `webfetch` structured output no longer repeats the `url` and `format` it was called with. ([#64534](https://github.com/anomalyco/opencode/pull/64534))
 
 ### [v2.3.1](https://github.com/anomalyco/opencode/releases/tag/v2.3.1)
-<sub>2026-11-18 · 8d ago</sub>
+<sub>2026-11-18 · 9d ago</sub>
 
 > **Highlights**
 > - **Timed-Out Shell Commands Keep Running**: A shell command still running when its timeout expires now moves to the background instead of being killed, so long builds and test runs finish and report back. A foreground `timeout: 0` now means the default 120 seconds. ([#63699](https://github.com/anomalyco/opencode/pull/63699))
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [feat(app): show where automations run and which session they wake (#6…](https://github.com/anomalyco/opencode/commit/782125f72a60220a4896490be628d16be56ac1da) | neriousy |
-| 2026-11-26 | [feat(desktop): add smooth scrolling setting on linux (#66622)](https://github.com/anomalyco/opencode/commit/c39ad3b75c8f8b0571305415f74172c2d7b6ba1f) | neriousy |
-| 2026-11-26 | [fix(core): pass a plugin id in the session.update test (#66620)](https://github.com/anomalyco/opencode/commit/44159132a50051514e282053eb4b4654ae587213) | neriousy |
-| 2026-11-26 | [fix(plugin): session.update silently ignores archived (#61036)](https://github.com/anomalyco/opencode/commit/3c019e91991a473ceb7bd8424660f2f405fc3170) | LuckUVeryX |
-| 2026-11-26 | [fix(tui): draw text selections in theme colours (#65776)](https://github.com/anomalyco/opencode/commit/586fa9038aeb4bf442b3b16a55e8ece8248700fc) | neriousy |
-| 2026-11-26 | [fix(app): ask before opening a folder from an opencode:// link (#65803)](https://github.com/anomalyco/opencode/commit/924b56024020f20fd1839e38bac8d87f4ac01dfb) | neriousy |
-| 2026-11-26 | [fix(core): keep nested permission metadata JSON-encodable (#66391)](https://github.com/anomalyco/opencode/commit/b5ae67aecbcf982952147868356eb38093053142) | neriousy |
-| 2026-11-26 | [fix(session-ui): show images tool calls return in the timeline (#66430)](https://github.com/anomalyco/opencode/commit/f91949daee3ee0b622cfae73ac72d15b9499351f) | neriousy |
-| 2026-11-26 | [feat(app): add Copy submenu to session menus (#66576)](https://github.com/anomalyco/opencode/commit/6e0eda631780532d7f7111ff59bc41b4d970787b) | opencode-agent[bot] |
-| 2026-11-26 | [fix(core): fall back to legacy when the MCP probe gets an HTTP 5xx (#…](https://github.com/anomalyco/opencode/commit/70e8a0f6f30bbe4077847a0ce0936c4b56458227) | neriousy |
+| 2026-11-27 | [fix(i18n): fix a batch of mistranslations and misplaced labels (#66805)](https://github.com/anomalyco/opencode/commit/9dff0b82550eae0f0e933db5b39c02fecedb2a1a) | neriousy |
+| 2026-11-27 | [feat(session-ui): show quotes inline in user messages in every build …](https://github.com/anomalyco/opencode/commit/8815bc9d47ea9a07744bb6a4a3e505ea6e6a2763) | usrnk1 |
+| 2026-11-27 | [fix(tui): second batch of small TUI bug fixes (#66813)](https://github.com/anomalyco/opencode/commit/138cc9aedb9327a75ea3a95f60b772a24f118211) | neriousy |
+| 2026-11-27 | [feat(app): browser address bar and recent pages in the side panel New…](https://github.com/anomalyco/opencode/commit/98bc68625268c44aca1ef71bdd097e4842de22d9) | arvsrn |
+| 2026-11-27 | [fix(core): report MCP web search tool errors instead of empty results…](https://github.com/anomalyco/opencode/commit/31a291bd03a554f1dd9c74009b5d4c0b7a8ae281) | rekram1-node |
+| 2026-11-27 | [feat(core): ask before loading an MCP skill, once per version (#66731)](https://github.com/anomalyco/opencode/commit/32e558349134104fd9dfc7f02efabd0edbb7f9e6) | rekram1-node |
+| 2026-11-27 | [fix(core): cap long strings in Code Mode call rows (#66816)](https://github.com/anomalyco/opencode/commit/ef0431d44c13a6b12d7bd41f2c30b84ae14ecd64) | rekram1-node |
+| 2026-11-27 | [docs: fix a batch of outdated and missing docs (#66803)](https://github.com/anomalyco/opencode/commit/a4f1040b48c15f002e87433a60a5b26bb01c9ec3) | neriousy |
+| 2026-11-27 | [feat(ui): add icon audits to Components Lab (#66768)](https://github.com/anomalyco/opencode/commit/740bd1d732fc857957f3d3ea1f1ce2c682d9b18e) | usrnk1 |
+| 2026-11-27 | [feat(app): choose a model from a searchable list after connecting a p…](https://github.com/anomalyco/opencode/commit/b7a7135bb932ffdcdd087c3911c87e303ce78ba9) | opencode-agent[bot] |
 
 [See all commits ↗](https://github.com/anomalyco/opencode/commits)
 

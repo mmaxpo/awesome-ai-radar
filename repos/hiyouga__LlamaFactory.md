@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `fine-tuning` `llama` `llm` `peft` `transformers` `rlhf` `qlora` `quantization` `qwen` `instruction-tuning` `gpt` `lora` `large-language-models` `agent` `ai` `moe` `llama3` `deepseek` `gemma` `nlp` |
-| 🕒 **Last activity** | 2026-11-25 (yesterday) |
+| 🕒 **Last activity** | 2026-11-25 (2d ago) |
 | 📅 **Created** | 2023-05-28 |
 | 📦 **Latest release** | [v0.9.5](https://github.com/hiyouga/LlamaFactory/releases/tag/v0.9.5) — 2026-05-30 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.9.5](https://github.com/hiyouga/LlamaFactory/releases/tag/v0.9.5) — v0.9.5: Qwen3.5/3.6, Gemma 4, Transformers v5
-<sub>2026-05-30 · 5mo ago</sub>
+<sub>2026-05-30 · 6mo ago</sub>
 
 > Added primary support for Qwen3.5/Qwen3.6/Gemma4 models and compatibility with Transformers v5.
 > **What's Changed**

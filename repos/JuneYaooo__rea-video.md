@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 13.6k |
+| ⭐ **Stars** | 13.9k |
 | 🍴 **Forks** | 2.0k |
-| 🐞 **Open issues + PRs** | [9](https://github.com/JuneYaooo/rea-video/issues) |
+| 🐞 **Open issues + PRs** | [15](https://github.com/JuneYaooo/rea-video/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai-video` `aigc-detection` `claude-code` `codex` `ffmpeg` `prompt-engineering` `remotion` `reverse-engineering` `short-video` `shot-detection` `subtitles` `video-analysis` `video-breakdown` `video-editing` `video-generation` `vlm` `videomd` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2026-10-29 |
 | 📦 **Latest release** | [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0) — 2026-11-11 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.1.0](https://github.com/JuneYaooo/rea-video/releases/tag/v0.1.0)
-<sub>2026-11-11 · 14d ago</sub>
+<sub>2026-11-11 · 15d ago</sub>
 
 > **视频拆解标准包 Reel，报告重写，音效单独分离**
 > 这一版定下了视频拆解的标准包格式：拆片包（Reel）。拆一条视频现在得到两样东西：给人看的报告（HTML / PDF），和给模型、下游项目读的拆片包。格式介绍和规范见 [docs/reel.md](https://github.com/JuneYaooo/rea-video/blob/v0.1.0/docs/reel.md)。

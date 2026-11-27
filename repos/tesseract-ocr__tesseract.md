@@ -22,21 +22,32 @@
 |---|---|
 | ⭐ **Stars** | 77.7k |
 | 🍴 **Forks** | 10.9k |
-| 🐞 **Open issues + PRs** | [485](https://github.com/tesseract-ocr/tesseract/issues) |
+| 🐞 **Open issues + PRs** | [486](https://github.com/tesseract-ocr/tesseract/issues) |
 | 💻 **Languages** | C++ 96% · CMake 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tesseract` `tesseract-ocr` `ocr` `lstm` `machine-learning` `ocr-engine` `hacktoberfest` |
 | 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2014-08-12 |
-| 📦 **Latest release** | [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4) — 2026-10-28 |
+| 📦 **Latest release** | [5.5.5](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.5) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 54.1 MB |
+| 💾 **Size** | 54.4 MB |
 | 🌐 **Website** | https://tesseract-ocr.github.io/ |
 
 ## 📦 Recent releases
 
+### [5.5.5](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.5)
+<sub>2026-11-26 · today</sub>
+
+> **What's Changed**
+> This release fixes nine security advisories and many crashes, endless loops and timeouts with crafted images or model files.
+> Other notable changes:
+> * The layout analysis finds more text: text inside a scan border, between leaders and at the edge of the image, small words between lines of very large text, and rows made from two columns.
+> * PDF files get a valid ToUnicode CMap, and two cases of invalid PAGE XML output are fixed.
+> * The LSTM code is faster with more SIMD functions for ARM64 and x86_64.
+> …
+
 ### [5.5.4](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4)
-<sub>2026-10-28 · 29d ago</sub>
+<sub>2026-10-28 · 1mo ago</sub>
 
 > **What's Changed**
 > This release fixes 17 security advisories and several smaller issues.
@@ -79,31 +90,20 @@
 > * use constexpr for kDawgMagicNumber by @zdenop in https://github.com/tesseract-ocr/tesseract/pull/4378
 > …
 
-### [5.5.0](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.0)
-<sub>2024-11-10 · 2y ago</sub>
-
-> **What's Changed**
-> * Fix TARGET_PDB_FILE error for static linking. by @hglee in https://github.com/tesseract-ocr/tesseract/pull/4271
-> * Make regular usage of CMAKE_INSTALL_LIBDIR and GNUInstallDirs by @Zopolis4 in https://github.com/tesseract-ocr/tesseract/pull/4272
-> * Ignore illegal TESSDATA_PREFIX (not existing filesystem entry, issue #4277) by @stweil in https://github.com/tesseract-ocr/tesseract/pull/4278
-> * Fix confidence output for the PAGE XML renderer by @JKamlah in https://github.com/tesseract-ocr/tesseract/pull/4283
-> * Set hOCR capabilities ocrp_dir and ocrp_lang unconditionally by @stweil in https://github.com/tesseract-ocr/tesseract/pull/4301
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Recognize small words between lines of very large text](https://github.com/tesseract-ocr/tesseract/commit/dd8e2e48b5c0a84586e459b77321e6d1776ea5c6) | stweil |
-| 2026-11-26 | [Don't clip the pixels of the image for int models](https://github.com/tesseract-ocr/tesseract/commit/4076ec73d25231be52e00c5f9a78fde2942dcb32) | stweil |
-| 2026-11-26 | [Find underlined words recognized by LSTM](https://github.com/tesseract-ocr/tesseract/commit/83a92b255cdf428aaff75a872513b0502f7095fd) | stweil |
-| 2026-11-26 | [Fix memory leak in MakeRowFromSubBlobs](https://github.com/tesseract-ocr/tesseract/commit/8fa860605c0e7a12775917b4d85b2125b2d0d37a) | stweil |
-| 2026-11-26 | [Merge the partitions of a table in pairs](https://github.com/tesseract-ocr/tesseract/commit/5ff9208fc74491c452c0c039c4b15eeac6871b06) | stweil |
-| 2026-11-26 | [Don't reject a row made from two columns as noise](https://github.com/tesseract-ocr/tesseract/commit/cc187a7e514096773790e7348fe243dc0f1a1fa1) | stweil |
-| 2026-11-26 | [Find text lines which touch the edge of the image](https://github.com/tesseract-ocr/tesseract/commit/15579145177d373fac45db4b33b6feee800eb769) | stweil |
-| 2026-11-26 | [Don't count leaders as image neighbours of text](https://github.com/tesseract-ocr/tesseract/commit/c90c2199d8e8f0e0b3450b56c0e67ef394787ef0) | stweil |
-| 2026-11-26 | [Don't let an image take text which is not on its pixels](https://github.com/tesseract-ocr/tesseract/commit/2e47824e9122c201f2a766889e2dcbe4965058d8) | stweil |
-| 2026-11-25 | [Restart rows and paragraphs from the current block](https://github.com/tesseract-ocr/tesseract/commit/3a260247375f091625378cd099713f7a4bf0e4d7) | ilkecan |
+| 2026-11-26 | [Create new release 5.5.5](https://github.com/tesseract-ocr/tesseract/commit/4292f6890aa86ef64eba32090358f40f69dd6d28) | stweil |
+| 2026-11-26 | [ccstruct: allow MergeAdjacentBlobs for words of the LSTM recognizer](https://github.com/tesseract-ocr/tesseract/commit/51ccb12e3e469d93f036ad36c57f583c18b26273) | stweil |
+| 2026-11-26 | [ccmain: do not merge the blobs of a word with a single character](https://github.com/tesseract-ocr/tesseract/commit/b2597705a281caad0a8d56a474d6ddd02b2b0bb6) | stweil |
+| 2026-11-26 | [ccmain: avoid a division by zero for a page without characters](https://github.com/tesseract-ocr/tesseract/commit/3c3e087f899b1f597ef9390fd053862e5e4a905c) | stweil |
+| 2026-11-26 | [ccmain: do not abort for a word with more than 512 blobs](https://github.com/tesseract-ocr/tesseract/commit/24036579bd9772458eb2b62ff4d2a53ffef0dca4) | stweil |
+| 2026-11-26 | [ccmain: fix an endless loop in the fuzzy space code](https://github.com/tesseract-ocr/tesseract/commit/b998a91efc733718846137227e4cad89d21764d6) | stweil |
+| 2026-11-26 | [ccmain: fix the index of the lengths in check_abbreviation](https://github.com/tesseract-ocr/tesseract/commit/feebf4e8ea666dd742383fa26ac782cb3149994b) | stweil |
+| 2026-11-26 | [ccstruct: count the votes for an inverse word with int](https://github.com/tesseract-ocr/tesseract/commit/7f76d8ecbfe978c478eeae7821011c34b4e685aa) | stweil |
+| 2026-11-26 | [ccstruct: allow more than 65535 characters in a REJMAP](https://github.com/tesseract-ocr/tesseract/commit/12538c836b0b6996e29b28740d894005a4d5974c) | stweil |
+| 2026-11-26 | [ccmain: use int for offsets into the text of a word](https://github.com/tesseract-ocr/tesseract/commit/9085e1a321504a44248d7579d33d2ecceb2d9ff0) | stweil |
 
 [See all commits ↗](https://github.com/tesseract-ocr/tesseract/commits)
 

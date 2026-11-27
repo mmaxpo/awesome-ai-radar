@@ -42,7 +42,7 @@
 > **Full Changelog**: https://github.com/letta-ai/letta/compare/0.16.7...0.16.8
 
 ### [0.16.7](https://github.com/letta-ai/letta/releases/tag/0.16.7) — v0.16.7
-<sub>2026-03-31 · 7mo ago</sub>
+<sub>2026-03-31 · 8mo ago</sub>
 
 > **Letta Server 0.16.7 Release Notes**
 > **173 commits since 0.16.6** | Released March 31, 2026

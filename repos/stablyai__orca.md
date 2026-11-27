@@ -20,23 +20,45 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 139.9k |
-| 🍴 **Forks** | 8.9k |
-| 🐞 **Open issues + PRs** | [10.1k](https://github.com/stablyai/orca/issues) |
+| ⭐ **Stars** | 142.0k |
+| 🍴 **Forks** | 9.1k |
+| 🐞 **Open issues + PRs** | [10.2k](https://github.com/stablyai/orca/issues) |
 | 💻 **Languages** | TypeScript 96% · JavaScript 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `codex` `ghostty` `terminal` `opencode` `orchestration` `worktrees` `pi` `mobile-app` `agent-ide` `ai-agents` `yc-backed` `automation` `bot` `grok-bot` `hermes-agent` `muse` `openclaw` `runtime` `swarm` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-03-17 |
-| 📦 **Latest release** | [v1.4.278](https://github.com/stablyai/orca/releases/tag/v1.4.278) — 2026-11-26 |
+| 📦 **Latest release** | [v1.4.280](https://github.com/stablyai/orca/releases/tag/v1.4.280) — 2026-11-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3560.7 MB |
+| 💾 **Size** | 3613.0 MB |
 | 🌐 **Website** | https://orca.dev |
 
 ## 📦 Recent releases
 
+### [v1.4.280](https://github.com/stablyai/orca/releases/tag/v1.4.280)
+<sub>2026-11-27 · today</sub>
+
+> **Rename bot threads, answer in chat & grab browser annotations ✨**
+> - 🧠 **Using Antigravity (agy)? Update to v1.4.280.** Use Antigravity only through the `agy` CLI or in Orca chat. To align with Antigravity’s guidance on supported integrations, this release removes support for using `agy` to check quota in the standalone usage meter, generate bot avatars, or write source control text such as commit messages.
+> - 🤖 **Make bot spaces your own.** Rename group rooms and threads right from their tabs. A pinned amber gauge makes it easier to see when a bot has paused at its usage limit.
+> - 💬 **Better bot follow-ups in Slack.** Bots can follow up in the thread or DM where you asked them to start background work. Orca also does less work to send everyday replies.
+> - 💬 **Answer agent questions where you type.** The Chat UI brings questions into the prompt band above the message box.
+> - 🌐 **Grab a spot on the page to annotate.** The browser annotation palette opens at the bottom in Grab mode, ready to select an element.
+> …
+
+### [v1.4.279](https://github.com/stablyai/orca/releases/tag/v1.4.279)
+<sub>2026-11-27 · today</sub>
+
+> **Cleaner Git review and easier browser annotations ✨**
+> Made the Git diff review side panel cleaner, brought Graph into Changes, and made the browser annotation palette movable.
+> - 🔀 **Cleaner Git review:** Find Create PR beside the branch name and file-list controls beside the files they affect. Open Graph from the Changes menu.
+> - 🌐 **Annotate where you work:** Move the annotation palette beside the part of the page you want to discuss, then select an element or draw on a screenshot.
+> - 🧠 **More reliable agent hooks:** Keep custom Droid hook commands and recognize existing hooks when refreshing agent configuration.
+> **About Orca Bots (Beta) <img src="https://raw.githubusercontent.com/stablyai/orca/main/src/shared/bot-mascots/A1.webp" alt="Orca" width="36" height="36" valign="middle" />**
+> …
+
 ### [v1.4.278](https://github.com/stablyai/orca/releases/tag/v1.4.278)
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > Thank you for using Orca and sharing your feedback. ❤️
 > **Smoother long replies, Antigravity on agy, six new apps & downloads to your computer ✨**
@@ -47,7 +69,7 @@
 > …
 
 ### [v1.4.277](https://github.com/stablyai/orca/releases/tag/v1.4.277)
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > Thank you for using Orca and sharing your feedback. ❤️
 > **Even better Agy support, cleaner phone screens & per-agent Google accounts ✨**
@@ -58,7 +80,7 @@
 > …
 
 ### [android-v0.0.71](https://github.com/stablyai/orca/releases/tag/android-v0.0.71) — Orca Mobile Android android-v0.0.71 _(pre-release)_
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **What's Changed**
 > * fix(mobile): the @ menu opens in group rooms and item comments by @AmoabaKelvin in https://github.com/stablyai/orca/pull/47940
@@ -68,40 +90,20 @@
 > * fix(items): keep an agent item Needs you when a worker starts while a question is open by @Jinwoo-H in https://github.com/stablyai/orca/pull/47941
 > …
 
-### [v1.4.274](https://github.com/stablyai/orca/releases/tag/v1.4.274)
-<sub>2026-11-24 · yesterday</sub>
-
-> **App Rail is on by default for new users**
-> This minor update enables App Rail for new Orca users. App Rail saves sidebar space by putting app navigation in a compact icon rail. Existing users can turn it on under **Settings > Experimental > App rail**.
-> ![App Rail in the Orca sidebar](https://github.com/stablyai/orca/releases/download/v1.4.274/app-rail.png)
-> **In v1.4.273**
-> Bot panels show upcoming runs and clearer item questions, the mobile app adds account and group controls, and streamed browser pages scroll more smoothly. [Read the full v1.4.273 release notes](https://github.com/stablyai/orca/releases/tag/v1.4.273).
-
-### [v1.4.273](https://github.com/stablyai/orca/releases/tag/v1.4.273)
-<sub>2026-11-24 · 2d ago</sub>
-
-> Thank you for using Orca and sharing your feedback. ❤️
-> **Clearer bot items, more controls on the phone & smoother browser sessions ✨**
-> - 🤖 **See what needs attention.** Bot panels show upcoming runs. Item links preview GitHub pull requests and issues on hover, and questions retain their labels when an answer is waiting to send.
-> - 📱 **Manage more from the phone.** Open Google, GitHub and Linear account controls, find agents and groups by name, and post to groups across computers.
-> - 🌐 **Work with streamed browser pages.** Scroll more smoothly over slower links, open select menus from the keyboard, and print a streamed page to PDF on the desktop.
-> - 🖥️ **More room for workspace tools.** App-rail destinations fill the window. The usage meter stays visible in chat and updates with less background work when a workspace changes.
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [fix(i18n): translate missing Portuguese workspace, sidebar, editor, t…](https://github.com/stablyai/orca/commit/89d9d140c2042ae38f8b47705d99fba21b08e300) | yohangwak |
-| 2026-11-26 | [fix(i18n): translate the file explorer's search field into Korean (#4…](https://github.com/stablyai/orca/commit/0f56430a6491cafaba0fb5b8683f25318506727b) | dbsghdz1 |
-| 2026-11-26 | [fix(i18n): translate missing Portuguese desktop strings (#49860)](https://github.com/stablyai/orca/commit/4a0af65c0d80f570e00644b8a276212cc888c857) | yohangwak |
-| 2026-11-26 | [fix(automations): require decimal cron numbers in new schedule input …](https://github.com/stablyai/orca/commit/14d64e17d322b1a6e1184544234a74a338321793) | Afloat16 |
-| 2026-11-26 | [perf(main): lazily materialize 113 medium Main and Shared Zod v4 sche…](https://github.com/stablyai/orca/commit/763ece3651b55c4134599cb04912623825da5e30) | nwparker |
-| 2026-11-26 | [fix(i18n): translate 253 missing Turkish desktop strings (#49826)](https://github.com/stablyai/orca/commit/e7ee74509c421ce74b168aa72ba066b80d08d4f3) | yohangwak |
-| 2026-11-26 | [fix(i18n): translate missing French desktop strings for workspaces, o…](https://github.com/stablyai/orca/commit/3009e1217350f77c6d8eba6a63c37ad4e3b8c1dc) | yohangwak |
-| 2026-11-26 | [fix(i18n): translate missing Portuguese desktop strings for settings …](https://github.com/stablyai/orca/commit/f854d243a97e11662fb1d5ff9d9b5b84f5b6ca48) | yohangwak |
-| 2026-11-26 | [fix(i18n): translate 165 missing Russian desktop strings for WSL, SSH…](https://github.com/stablyai/orca/commit/14f450b84bb4f810c470bf77cb116d2c1e8fbb16) | yohangwak |
-| 2026-11-26 | [fix(runtime): honor coalescer maxWaitMs deadline under churn (#49725)](https://github.com/stablyai/orca/commit/40c7c0f22848faf2d0ac08998641b860ce9c0393) | Afloat16 |
+| 2026-11-27 | [fix(browser): escape Windows device names followed by spaces in downl…](https://github.com/stablyai/orca/commit/6b2f19fa0d3913ad0fd53232d2056d21c57da122) | Pr1p |
+| 2026-11-27 | [perf(renderer): lazy-load WorktreeCardSshHostControl and ProjectGroup…](https://github.com/stablyai/orca/commit/ef8e033f206e64239801fd1a8a0c44c560a70b12) | nwparker |
+| 2026-11-27 | [perf(renderer): lazy-load WorktreeCardHoverContent and LinkActionPopo…](https://github.com/stablyai/orca/commit/a029959660f1b3ba8f25334eb551f2a88a1feb44) | nwparker |
+| 2026-11-27 | [perf(renderer): lazy-load WorktreeContextMenuOverlays and DeleteNeste…](https://github.com/stablyai/orca/commit/1d63c0af1398f2a6a8be68d74ca1daf03bdb4ec1) | nwparker |
+| 2026-11-27 | [perf(main): lazy-load mobile, googleSetup, slackHandOff, and avatarGe…](https://github.com/stablyai/orca/commit/2d7912d920769fe01ab368539cb4f3434655fd1a) | nwparker |
+| 2026-11-27 | [perf(renderer): lazy-load HelpMenuItems and MilestonesMenuItemContent…](https://github.com/stablyai/orca/commit/eafbf1a54fe32405b747ef69ad496303ff10b81c) | nwparker |
+| 2026-11-27 | [perf(renderer): lazy-load LanguagePackDiscoveryController and StarNag…](https://github.com/stablyai/orca/commit/11a601b14c0c834cd5e44270c5b6f74f280de2af) | nwparker |
+| 2026-11-27 | [perf(renderer): lazy-load SidebarWorktreeListDialogs and LocalGitTool…](https://github.com/stablyai/orca/commit/a43149d61785c19a1f5edf73faa0fde78ee10976) | nwparker |
+| 2026-11-27 | [perf(renderer): lazy-load AddProjectMenuOpenContent (#50936)](https://github.com/stablyai/orca/commit/84d8a81f4d77671487af3241784f1792a0790db5) | nwparker |
+| 2026-11-27 | [perf(renderer): lazy-load RepoHeaderProjectActionsMenu content and si…](https://github.com/stablyai/orca/commit/8fb2c67fc1d171072109a344df404b3c1ca94ba8) | nwparker |
 
 [See all commits ↗](https://github.com/stablyai/orca/commits)
 

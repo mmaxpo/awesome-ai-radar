@@ -20,7 +20,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 101.0k |
+| ⭐ **Stars** | 101.1k |
 | 🍴 **Forks** | 5.8k |
 | 🐞 **Open issues + PRs** | [1.0k](https://github.com/localsend/localsend/issues) |
 | 💻 **Languages** | Dart 79% · Rust 18% |

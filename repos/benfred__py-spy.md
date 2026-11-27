@@ -14,8 +14,6 @@
 | **Why it's worth a look** | Sampling profiler: see where a running Python program spends time |
 | **Added** | 2026-11-11 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
@@ -26,7 +24,7 @@
 | 💻 **Languages** | Rust 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `profiler` `python` `performance-analysis` `profiling` |
-| 🕒 **Last activity** | 2026-11-20 (6d ago) |
+| 🕒 **Last activity** | 2026-11-20 (7d ago) |
 | 📅 **Created** | 2018-08-01 |
 | 📦 **Latest release** | [v0.4.4](https://github.com/benfred/py-spy/releases/tag/v0.4.4) — 2026-11-19 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +33,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.4](https://github.com/benfred/py-spy/releases/tag/v0.4.4)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **Changes**
 > **🚀 Features**
@@ -46,7 +44,7 @@
 > …
 
 ### [v0.4.3](https://github.com/benfred/py-spy/releases/tag/v0.4.3)
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **Changes**
 > **🚀 Features**

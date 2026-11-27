@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 50.6k |
+| ⭐ **Stars** | 50.7k |
 | 🍴 **Forks** | 20.7k |
 | 🐞 **Open issues + PRs** | [1.8k](https://github.com/pandas-dev/pandas/issues) |
 | 💻 **Languages** | Python 91% · Cython 6% · C 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `data-analysis` `pandas` `flexible` `alignment` `python` `data-science` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2010-08-24 |
 | 📦 **Latest release** | [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — 2026-11-04 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 417.0 MB |
+| 💾 **Size** | 417.1 MB |
 | 🌐 **Website** | https://pandas.pydata.org |
 
 ## 📦 Recent releases
 
 ### [v3.1.1](https://github.com/pandas-dev/pandas/releases/tag/v3.1.1) — pandas 3.1.1
-<sub>2026-11-04 · 21d ago</sub>
+<sub>2026-11-04 · 22d ago</sub>
 
 > We are pleased to announce the release of pandas 3.1.1.
 > This is a patch release in the 3.1.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.1.x series upgrade to this version.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [DOC: make Series.dt docstrings describe Series, not Index (GH#59976) …](https://github.com/pandas-dev/pandas/commit/cba083cdf1fdcb722e29eb9c37f8749d63b21fe9) | jbrockmendel |
+| 2026-11-26 | [BUG: read_csv low_memory concatenated chunks with different inferred …](https://github.com/pandas-dev/pandas/commit/f5301b449bcb6a9cd0c14bc774d8f59fe04dd431) | jbrockmendel |
+| 2026-11-26 | [BUG: day_name/month_name with locale decomposing names starting with …](https://github.com/pandas-dev/pandas/commit/55eec7a955236b63d001ec42329db43ec017684f) | jbrockmendel |
+| 2026-11-26 | [BUG: groupby/resample agg with a list of funcs ignores numeric_only (…](https://github.com/pandas-dev/pandas/commit/8781a085a38401b6f52796c65898cfc548e8b379) | jbrockmendel |
 | 2026-11-25 | [Bump astral-sh/setup-uv from 10.3.3 to 10.4.0 (#72324)](https://github.com/pandas-dev/pandas/commit/52552c59c1bd99db676b8eb103f591ee8cf1d93d) | dependabot[bot] |
 | 2026-11-24 | [CI: Add Python 3.15 CI jobs instead of python-dev; consolidate CI set…](https://github.com/pandas-dev/pandas/commit/a0885a1054bb9a91f10584944a613062cdebdc5c) | mroeschke |
 | 2026-11-24 | [BUG: convert_dtypes(dtype_backend="numpy_nullable") KeyError for unma…](https://github.com/pandas-dev/pandas/commit/b048c155d9aebfafabd11bee3dd8b6ba839d6a3e) | jbrockmendel |
 | 2026-11-24 | [PERF: avoid per-element group labels in nullable DataFrame axis=1 red…](https://github.com/pandas-dev/pandas/commit/6151915091dfeeb20542de7f31e21cf15782a580) | rhshadrach |
 | 2026-11-23 | [BUG: MultiIndex.sortlevel ignores values of out-of-order levels (GH#5…](https://github.com/pandas-dev/pandas/commit/8c7cd24e9e03ba800d1eafcf5da21c9f3ac2861d) | jbrockmendel |
 | 2026-11-23 | [PERF: wrap Arrow libjoin output directly in Index._from_join_target (…](https://github.com/pandas-dev/pandas/commit/9d8d3f4e970ae9351c4b8ed3bf1581c8e00d9f77) | fangchenli |
-| 2026-11-23 | [BUG: misplaced overlay of off-period time series on a period axis (GH…](https://github.com/pandas-dev/pandas/commit/d68ece3856df62c1f29fc2ea0b80a1f49ad6383a) | jbrockmendel |
-| 2026-11-23 | [BUG: Styler title-mode tooltips misplaced or IndexError when rows are…](https://github.com/pandas-dev/pandas/commit/6b828d5d82b5ba324ad6817dad0055250650cecc) | NodeX-AR |
-| 2026-11-23 | [BUG: CategoricalIndex.__contains__ wrong result with RangeIndex categ…](https://github.com/pandas-dev/pandas/commit/176746ab7693e3e4eb5ee53fbc0ddc47ebe09f00) | sainimal1ba-hue |
-| 2026-11-22 | [CI: Update pixi.lock (#72272)](https://github.com/pandas-dev/pandas/commit/717bcd3eda554a0b2e826889f9e30efbd88f00cd) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/pandas-dev/pandas/commits)
 

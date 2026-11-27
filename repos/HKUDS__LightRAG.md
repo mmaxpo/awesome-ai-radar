@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 40.9k |
 | 🍴 **Forks** | 5.8k |
-| 🐞 **Open issues + PRs** | [291](https://github.com/HKUDS/LightRAG/issues) |
+| 🐞 **Open issues + PRs** | [286](https://github.com/HKUDS/LightRAG/issues) |
 | 💻 **Languages** | Python 91% · TypeScript 7% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `knowledge-graph` `large-language-models` `retrieval-augmented-generation` `genai` `graphrag` `llm` `rag` `gpt` `docling` `mineru` `ragas` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2024-10-02 |
 | 📦 **Latest release** | [v1.5.8](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 126.5 MB |
+| 💾 **Size** | 126.6 MB |
 | 🌐 **Website** | https://arxiv.org/abs/2410.05779 |
 
 ## 📦 Recent releases
 
 ### [v1.5.8](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **Important Notes**
 > **Highlights**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.5.8rc2](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc2)
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > **What's Changed**
 > * fix(jina): stop retrying permanent 4xx errors by @Shizoqua in https://github.com/HKUDS/LightRAG/pull/4028
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.5.8rc1](https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc1)
-<sub>2026-11-15 · 11d ago</sub>
+<sub>2026-11-15 · 12d ago</sub>
 
 > **Important Notes**
 > > v1.5.8rc1 is a release candidate. Please test it on a copy of your data before upgrading production.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Merge pull request #4686 from kongxinjun/fix/merge-inbound-edges](https://github.com/HKUDS/LightRAG/commit/287fefc85e2d1e739940948ce2a9cb4a0d48f08a) | danielaskdd |
-| 2026-11-26 | [Merge pull request #4693 from MohammadHijjawi97/fix/summary-context-p…](https://github.com/HKUDS/LightRAG/commit/886a99719af69f69443c3101f295629ee6c3ed72) | danielaskdd |
-| 2026-11-25 | [fix(summary): decide the no-LLM join on the bare texts first](https://github.com/HKUDS/LightRAG/commit/e5a1170b04ca7aa014af259204a3982125b9b742) | danielaskdd |
-| 2026-11-25 | [test(graph): keep the populated-row union cases in the merge suite](https://github.com/HKUDS/LightRAG/commit/8a651bfbb195224fb57f997f7fdc9b7e9cfa707a) | danielaskdd |
-| 2026-11-25 | [fix(summary): log descriptions trimmed from a summary prompt](https://github.com/HKUDS/LightRAG/commit/7cc5ea8e3298c02c9b12262c5a675575d9277119) | danielaskdd |
-| 2026-11-25 | [test(graph): trim the merge chunk-tracking suite](https://github.com/HKUDS/LightRAG/commit/86aa0f0115a4b3417941acf10fcf6b4b774e9471) | danielaskdd |
-| 2026-11-25 | [Merge pull request #4658 from HKUDS/dependabot/uv/python-minor-patch-…](https://github.com/HKUDS/LightRAG/commit/2487bbb5a56174a087208c3da69585cf5f33e8a0) | danielaskdd |
-| 2026-11-25 | [build(evaluation): require ragas>=0.4.4 instead of capping langchain-…](https://github.com/HKUDS/LightRAG/commit/61bac8086e82adbae2564930297336abcde501fd) | danielaskdd |
-| 2026-11-25 | [test(graph): fold the edge-direction merge test into the tracking suite](https://github.com/HKUDS/LightRAG/commit/333e4a553c40648e12e5e0dd8c686ad5eb926c5a) | danielaskdd |
-| 2026-11-25 | [fix(summary): size summary groups by the prompt's JSON lines](https://github.com/HKUDS/LightRAG/commit/c54eae0e36dc1babfbacf67577831182dea50f59) | MohammadHijjawi97 |
+| 2026-11-27 | [Merge pull request #4705 from chuenchen309/fix/bedrock-context-window](https://github.com/HKUDS/LightRAG/commit/47038cf1619b486b5409230aff1e98ba6a6ce5ca) | danielaskdd |
+| 2026-11-27 | [Merge pull request #4717 from danielaskdd/test/trim-json-parsing-tests](https://github.com/HKUDS/LightRAG/commit/e3ef8b8b3534dbd75746f8a844ee0284053dab75) | danielaskdd |
+| 2026-11-27 | [Merge pull request #4671 from passionworkeer/fix/table-markup-format-…](https://github.com/HKUDS/LightRAG/commit/07b882c47556d8c2da0a4c8fdd57b2e8d95bdfa1) | danielaskdd |
+| 2026-11-27 | [Merge pull request #4715 from chuenchen309/fix/nvidia-sdk-retries](https://github.com/HKUDS/LightRAG/commit/8785674eff72977c8d1e793e587af00f9146c245) | danielaskdd |
+| 2026-11-27 | [Merge branch 'main' into fix/table-markup-format-boundary](https://github.com/HKUDS/LightRAG/commit/816686caa2c938e229480ddbe617694565fd9055) | passionworkeer |
+| 2026-11-27 | [test: pin that json mode none omits response_format entirely](https://github.com/HKUDS/LightRAG/commit/2e5ec172ade0d47eaa0ece1acaaf3878acabe840) | danielaskdd |
+| 2026-11-27 | [test(table_markup): fold lookalike cases and trim redundant table cases](https://github.com/HKUDS/LightRAG/commit/b00f6b871801ddc1dd5ba21c141c8684b051d08e) | danielaskdd |
+| 2026-11-27 | [test(bedrock): fold empty-response diagnostics and trim redundant tests](https://github.com/HKUDS/LightRAG/commit/40eb12a7c0a6496ec8dfa25d32e8d135176396ea) | danielaskdd |
+| 2026-11-27 | [test: trim JSON fence, tolerant-load and keyword parsing tests](https://github.com/HKUDS/LightRAG/commit/7b7ed0e0469335c4af9c856ea4cbaf551b942615) | danielaskdd |
+| 2026-11-27 | [Merge pull request #4692 from zhengqiuyang/fix/commonmark-code-fence-…](https://github.com/HKUDS/LightRAG/commit/5dc119f8bd3fadb999e46e4ba0583a59755e4011) | danielaskdd |
 
 [See all commits ↗](https://github.com/HKUDS/LightRAG/commits)
 

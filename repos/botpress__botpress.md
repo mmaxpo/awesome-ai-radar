@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 15.0k |
 | 🍴 **Forks** | 2.3k |
-| 🐞 **Open issues + PRs** | [58](https://github.com/botpress/botpress/issues) |
+| 🐞 **Open issues + PRs** | [57](https://github.com/botpress/botpress/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent` `ai` `botpress` `chatbot` `chatgpt` `gpt` `gpt-4` `llm` `openai` `langchain` `nlp` `prompt` |
-| 🕒 **Last activity** | 2026-11-24 (yesterday) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2016-11-16 |
 | 📦 **Latest release** | [v12.30.9](https://github.com/botpress/botpress/releases/tag/v12.30.9) — 2023-06-22 |
 | 🌿 **Default branch** | `master` |
@@ -89,6 +89,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [fix(integrations/hubspot): validate properties when the property cach…](https://github.com/botpress/botpress/commit/2553cf21aeb8de684db9738e19bd9ad000cb36b2) | OssamaElb |
 | 2026-11-23 | [chore(client): bump api to 1.141.0 and client to 2.15.0 (#15569)](https://github.com/botpress/botpress/commit/5e29a779b495f6f6e134fbd8764d2b7edf38fdcc) | aj-botpress |
 | 2026-11-23 | [chore(client): bump client version to 2.14.0 (#15567)](https://github.com/botpress/botpress/commit/441a3aa03639a70f53d8bcd997a6d892c4793694) | zeckrust |
 | 2026-11-21 | [feat(zai): use the Cognitive classification API, add classify(), prio…](https://github.com/botpress/botpress/commit/cd501dd208debd3acb2a6d9805ae5e68be2f0efa) | slvnperron |
@@ -98,7 +99,6 @@
 | 2026-11-16 | [fix(llmz): hold an exit written before tool data came back until the …](https://github.com/botpress/botpress/commit/e6f34b576f375cda080fa3687c8e101222bce80b) | SohaibDM |
 | 2026-11-16 | [feat(llmz): let callers set the code result cap with maxResultChars (…](https://github.com/botpress/botpress/commit/6a1d6be64a1b3570d050d305824ad814ea3ba455) | SohaibDM |
 | 2026-11-13 | [fix(llmz): cap code results and error dumps sent to the model (0.9.23…](https://github.com/botpress/botpress/commit/24b0ca1bb49e9f9acdc459b0b844f9edb2913405) | SohaibDM |
-| 2026-11-13 | [fix(gsheets): canonicalize service account private keys (#15556)](https://github.com/botpress/botpress/commit/ee7756d29d788def2813a1a19999df0149d117cf) | pascal-botpress |
 
 [See all commits ↗](https://github.com/botpress/botpress/commits)
 

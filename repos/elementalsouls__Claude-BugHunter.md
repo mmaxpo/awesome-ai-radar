@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 24.0k |
-| 🍴 **Forks** | 2.4k |
-| 🐞 **Open issues + PRs** | [30](https://github.com/elementalsouls/Claude-BugHunter/issues) |
+| ⭐ **Stars** | 25.6k |
+| 🍴 **Forks** | 2.6k |
+| 🐞 **Open issues + PRs** | [16](https://github.com/elementalsouls/Claude-BugHunter/issues) |
 | 💻 **Languages** | Python 91% · PowerShell 5% · Shell 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-security` `anthropic` `application-security` `bug-bounty` `bugbounty` `bugcrowd` `claude` `claude-code` `claude-skills` `ethical-hacking` `hackerone` `offensive-security` `pentesting` `red-team` `security-tools` `web-security` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-05-05 |
 | 📦 **Latest release** | [v2.1](https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1) — 2026-06-05 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 4.9 MB |
+| 💾 **Size** | 5.0 MB |
 | 🌐 **Website** | https://elementalsouls.github.io/Claude-BugHunter/ |
 
 ## 📦 Recent releases
@@ -61,16 +61,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/9b7fc8dcf599a48f5f986971fdc62146a7f5a431) | github-actions[bot] |
+| 2026-11-27 | [ci(install-smoke): fix PowerShell hunt-reject step exit code + widen …](https://github.com/elementalsouls/Claude-BugHunter/commit/49cfc2aa8d87adf8fa3d540d2eea7aca02e9e3b4) | elementalsouls |
+| 2026-11-27 | [fix: close 4 audit gaps + a live stale banner count (in-house)](https://github.com/elementalsouls/Claude-BugHunter/commit/b2140b84b9c025dcb5ce4feac6b5d294cb61caa9) | elementalsouls |
+| 2026-11-27 | [docs: lead cbh install with the released PyPI package (#211)](https://github.com/elementalsouls/Claude-BugHunter/commit/166dd9bb737a396ae7a32f4497108c0b5a98599a) | elementalsouls |
+| 2026-11-27 | [docs: scrub local account name from an SSTI PoC `id` output](https://github.com/elementalsouls/Claude-BugHunter/commit/c73e5b3b57556206f82be349ee990249bfab6918) | elementalsouls |
+| 2026-11-27 | [ci(release): add PyPI Trusted-Publishing workflow for the cbh CLI (#211)](https://github.com/elementalsouls/Claude-BugHunter/commit/49ab711ccfecd9ebdcbc4048c6efcad72595467b) | elementalsouls |
+| 2026-11-27 | [fix(skills): replace upstream install block with the bundle's own ins…](https://github.com/elementalsouls/Claude-BugHunter/commit/76ef5886fb654eaa812f50a27f19035d4e060035) | elementalsouls |
+| 2026-11-27 | [fix: in-house batch — scope CIDR-comment fail-open, hunt path escape,…](https://github.com/elementalsouls/Claude-BugHunter/commit/0a88d485f234a9191f9d1038efe62cd78899d311) | elementalsouls |
+| 2026-11-27 | [fix(security): close 5 fail-open scope / off-scope-request holes (rep…](https://github.com/elementalsouls/Claude-BugHunter/commit/063874d1c44637a76be978d207de6c98becf7421) | elementalsouls |
 | 2026-11-26 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/c5ff11779ee00beda2cbe05d5093fcd4ecba8f04) | github-actions[bot] |
-| 2026-11-25 | [feat(engine): diff-based regression hunting via cbh diff + /diff (#239)](https://github.com/elementalsouls/Claude-BugHunter/commit/08965e258195f49ce0166ddf38b3d48d82ae3f18) | Huzaifa60 |
-| 2026-11-25 | [docs(changelog): credit @speto2 for the scope-bypass disclosure (#249)](https://github.com/elementalsouls/Claude-BugHunter/commit/a091b520c32d1df87113f3341b6d351166d9ccc0) | elementalsouls |
-| 2026-11-25 | [fix(security): scope bypass via backslash in URL authority + redactio…](https://github.com/elementalsouls/Claude-BugHunter/commit/3e68bed839635edeeb7b27335ba9a4cec8c2d839) | elementalsouls |
-| 2026-11-25 | [docs: PCAP hygiene + Bugcrowd VRT mappings + safer CRLF recovery (in-…](https://github.com/elementalsouls/Claude-BugHunter/commit/4c9966e4cafea11e24309d9e71d1c89602319c57) | elementalsouls |
-| 2026-11-25 | [fix: harness-MCP UTF-8 at import + wapt dispatch coverage (in-house, …](https://github.com/elementalsouls/Claude-BugHunter/commit/f38645334451f517daadccc8a4f902d8555310cb) | elementalsouls |
-| 2026-11-25 | [fix: landing-page no-JS robustness + scope hardening (in-house, credi…](https://github.com/elementalsouls/Claude-BugHunter/commit/464251e55a62d2a397bba20353db0c8a03d5fda7) | elementalsouls |
-| 2026-11-25 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/6a2153d9932adf41fa4d7f5dee626047c5005a83) | github-actions[bot] |
-| 2026-11-24 | [feat(docs): bespoke terminal-HUD landing page for GitHub Pages (#232)](https://github.com/elementalsouls/Claude-BugHunter/commit/9796beeeded3b9e6df50b9f5f89e79dc43bc6915) | elementalsouls |
-| 2026-11-24 | [chore(assets): refresh star history chart](https://github.com/elementalsouls/Claude-BugHunter/commit/6b710c27c586100511f81acc2d6403aa2e616204) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/elementalsouls/Claude-BugHunter/commits)
 

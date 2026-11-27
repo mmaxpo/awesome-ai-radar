@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 83.6k |
+| ⭐ **Stars** | 83.8k |
 | 🍴 **Forks** | 11.4k |
 | 🐞 **Open issues + PRs** | [358](https://github.com/OpenMontageInc/OpenMontage/issues) |
 | 💻 **Languages** | Python 73% · HTML 17% · JavaScript 5% · TypeScript 4% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `agent` `agentic-ai` `ai` `claude` `copilot` `cursor` `elevenlabs` `ffmpeg` `flux` `image-generation` `open-source` `openai` `python` `remotion` `stable-diffusion` `text-to-speech` `text-to-video` `video-generation` `video-production` |
-| 🕒 **Last activity** | 2026-11-16 (10d ago) |
+| 🕒 **Last activity** | 2026-11-16 (11d ago) |
 | 📅 **Created** | 2026-03-29 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

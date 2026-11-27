@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 97.6k |
-| 🍴 **Forks** | 25.3k |
-| 🐞 **Open issues + PRs** | [11.3k](https://github.com/vllm-project/vllm/issues) |
+| ⭐ **Stars** | 97.7k |
+| 🍴 **Forks** | 25.4k |
+| 🐞 **Open issues + PRs** | [11.2k](https://github.com/vllm-project/vllm/issues) |
 | 💻 **Languages** | Python 86% · Rust 7% · Cuda 4% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gpt` `llm` `pytorch` `model-serving` `transformer` `llm-serving` `inference` `llama` `amd` `cuda` `tpu` `deepseek` `qwen` `blackwell` `deepseek-v3` `gpt-oss` `kimi` `moe` `openai` `qwen3` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-02-09 |
 | 📦 **Latest release** | [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0) — 2026-11-16 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 384.4 MB |
+| 💾 **Size** | 386.1 MB |
 | 🌐 **Website** | https://vllm.ai |
 
 ## 📦 Recent releases
 
 ### [v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)
-<sub>2026-11-16 · 9d ago</sub>
+<sub>2026-11-16 · 10d ago</sub>
 
 > **v0.34.0**
 > **1,061 commits from 412 contributors (120 new).** Thank you!
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.33.0rc3](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) — v0.33.0
-<sub>2026-11-02 · 24d ago</sub>
+<sub>2026-11-02 · 25d ago</sub>
 
 > **v0.33.0**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [[Model] Remove DBRX (#70133)](https://github.com/vllm-project/vllm/commit/955f85be04b6250d26e6915e26bdf6720fbc8258) | hmellor |
-| 2026-11-26 | [[RL][Weight Transfer] Add sparse_disk backend for sparse deltas throu…](https://github.com/vllm-project/vllm/commit/a95fbda2cd095ee59577ec2b7f5c077d86c64c73) | ShuoleiWang |
-| 2026-11-26 | [[Bugfix][Kimi-K3] Composite transparent images over the checkpoint ba…](https://github.com/vllm-project/vllm/commit/62d538c61e69e760e74b65404d77bd44c778d8f6) | AndreasKaratzas |
-| 2026-11-26 | [[KV Offload] GDS kv offloading support (#66805)](https://github.com/vllm-project/vllm/commit/5446e33049e9457a1d86808b4fb69b494654e6d0) | effi-ofer |
-| 2026-11-26 | [[XPU][CI] Raise API Server Scale Out step timeout to 60 minutes (#70005)](https://github.com/vllm-project/vllm/commit/46e324e5827bcdabe84275a6caef070ba1be84ad) | zhenwei-intel |
-| 2026-11-26 | [[Bugfix][KV Cache] Fix Mamba decode resume caching a block that holds…](https://github.com/vllm-project/vllm/commit/35e0e3c65cdda1183cdfdc381cc17fc324702f6d) | sansblues |
-| 2026-11-26 | [[Core][Perf] Deprioritize superseded Mamba prefix-cache states (#69626)](https://github.com/vllm-project/vllm/commit/7d7d8a9097127c08adf3980bcb9b8dd18834ec7a) | ZJY0516 |
-| 2026-11-26 | [[Security] Reserve HF tokenizer options in chat requests (#69852)](https://github.com/vllm-project/vllm/commit/01eb54eeb140cac834bad88a565239081afab00c) | jperezdealgaba |
-| 2026-11-26 | [[Bugfix][KV Offload] Offload the prompt tail of every attention group…](https://github.com/vllm-project/vllm/commit/4af093713bc66972fe68f1455d7524f08724b1e6) | ChengYao-amd |
-| 2026-11-26 | [[Rust Frontend] Classify multimodal preprocessing errors by fault (#7…](https://github.com/vllm-project/vllm/commit/0f2069ff8ace52c7434c4cceb068c27a9d27f654) | BugenZhao |
+| 2026-11-27 | [[Bugfix][Frontend] Return 400 for non-iterable message tool_calls (#7…](https://github.com/vllm-project/vllm/commit/20da5d1983b671300cdd53a17621f24236313bdb) | bantianyue |
+| 2026-11-27 | [[Model] HY4 Flash: support pipeline parallelism and DFly with PD disa…](https://github.com/vllm-project/vllm/commit/5f1df80d3663a236c4b30d0948dca6f83619f227) | jeejeelee |
+| 2026-11-27 | [[Refactor][Mamba] Unify MambaBase prefill checkpoint alignment interf…](https://github.com/vllm-project/vllm/commit/0f15cf0115aca5eb9d59140089cd07c195d95dd4) | specture724 |
+| 2026-11-27 | [[Bugfix][Model] Inkling 2: stop Triton %16 recompiles in prefill atte…](https://github.com/vllm-project/vllm/commit/0ee12948bcfcbf8fcd056d2296adb7b16728220a) | simon-veitner-redhat |
+| 2026-11-27 | [[Doc] Be less strict with Documenting User-Visible Changes (#70340)](https://github.com/vllm-project/vllm/commit/6bb706395e05bf14f2ae97d20e63f522545d665c) | DarkLight1337 |
+| 2026-11-27 | [[CI] Use SingleRankGroup instead of dist_init in single-GPU kernel te…](https://github.com/vllm-project/vllm/commit/6beda2a3aba2a03c52eba24f5385fbbebbe77577) | stefankoncarevic |
+| 2026-11-27 | [[Rust Frontend] Name the engine's device in the KV cache usage log li…](https://github.com/vllm-project/vllm/commit/eb4106678d52c027fee187bccbbf5fc1da15f6f5) | BugenZhao |
+| 2026-11-27 | [[CI][Kimi-K3] Expect prefiller prefix hits one unit lower under P/D (…](https://github.com/vllm-project/vllm/commit/829070e2b5e10b94ee64cc764ecf2088840279ca) | bogdan-petkovic |
+| 2026-11-27 | [[Renderer] Move merging model-level media I/O defaults into renderer.…](https://github.com/vllm-project/vllm/commit/dddac39fb681db46109702b001e816adee0977b4) | noooop |
+| 2026-11-27 | [[Bugfix][Multimodal] Size video placeholders from the processor's sam…](https://github.com/vllm-project/vllm/commit/d83003b72257f7ae09e41530990eafdf62ff278f) | Jaeyeong-CHOI |
 
 [See all commits ↗](https://github.com/vllm-project/vllm/commits)
 

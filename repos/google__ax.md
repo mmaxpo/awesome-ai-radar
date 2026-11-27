@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 14.9k |
-| 🍴 **Forks** | 810 |
-| 🐞 **Open issues + PRs** | [82](https://github.com/google/ax/issues) |
+| 🍴 **Forks** | 812 |
+| 🐞 **Open issues + PRs** | [86](https://github.com/google/ax/issues) |
 | 💻 **Languages** | Go 90% · Shell 9% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.4.0-rc.2](https://github.com/google/ax/releases/tag/v0.4.0-rc.2) _(pre-release)_
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Install**
 > Requires [Agent Substrate](https://github.com/agent-substrate/substrate) `v1.0.0`; see [docs/installation.md](https://github.com/google/ax/blob/v0.4.0-rc.2/docs/installation.md).
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.4.0-rc.1](https://github.com/google/ax/releases/tag/v0.4.0-rc.1) _(pre-release)_
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > **Install**
 > Requires [Agent Substrate](https://github.com/agent-substrate/substrate) `v1.0.0`; see [docs/installation.md](https://github.com/google/ax/blob/v0.4.0-rc.1/docs/installation.md).

@@ -14,17 +14,19 @@
 | **Why it's worth a look** | LM Studio's CLI: run and manage local models from the terminal |
 | **Added** | 2026-11-14 |
 
+🆕 **Active this week**
+
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 5.4k |
-| 🍴 **Forks** | 480 |
-| 🐞 **Open issues + PRs** | [351](https://github.com/lmstudio-ai/lms/issues) |
+| ⭐ **Stars** | 5.5k |
+| 🍴 **Forks** | 478 |
+| 🐞 **Open issues + PRs** | [352](https://github.com/lmstudio-ai/lms/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `llm` `lmstudio` `nodejs` `typescript` |
-| 🕒 **Last activity** | 2026-11-17 (8d ago) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

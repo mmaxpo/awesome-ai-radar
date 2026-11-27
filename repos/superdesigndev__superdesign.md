@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 7.6k |
+| ⭐ **Stars** | 7.7k |
 | 🍴 **Forks** | 788 |
 | 🐞 **Open issues + PRs** | [75](https://github.com/superdesigndev/superdesign/issues) |
 | 💻 **Languages** | TypeScript 86% · CSS 13% |

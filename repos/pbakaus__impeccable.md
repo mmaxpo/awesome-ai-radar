@@ -20,46 +20,46 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 117.3k |
-| 🍴 **Forks** | 7.0k |
-| 🐞 **Open issues + PRs** | [74](https://github.com/pbakaus/impeccable/issues) |
+| ⭐ **Stars** | 117.9k |
+| 🍴 **Forks** | 7.1k |
+| 🐞 **Open issues + PRs** | [77](https://github.com/pbakaus/impeccable/issues) |
 | 💻 **Languages** | Rust 72% · JavaScript 25% · TypeScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent-skills` `ai` `anti-slop` `design` `slop` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-11-16 |
 | 📦 **Latest release** | [skill-v4.11.1](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.11.1) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 910.3 MB |
+| 💾 **Size** | 912.7 MB |
 | 🌐 **Website** | https://impeccable.style |
 
 ## 📦 Recent releases
 
 ### [skill-v4.11.1](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.11.1) — Skill 4.11.1
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > - **Init gets straight to your product.** `/impeccable init` opens with its first question.
 
 ### [cli-v4.11.1](https://github.com/pbakaus/impeccable/releases/tag/cli-v4.11.1) — CLI 4.11.1
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > - **Install ends at Done.** `npx impeccable install` finishes with Done and the init step, and asks nothing more.
 > - **Quieter saves.** A critique or audit saved on this machine prints only where it went.
 
 ### [engine-v0.1.31](https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.31) — impeccable engine engine-v0.1.31
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > Prebuilt impeccable engine binaries (engine-v0.1.31). The launcher, the npm shim and impeccable install download these on first run. Docs: https://impeccable.style
 
 ### [skill-v4.11.0](https://github.com/pbakaus/impeccable/releases/tag/skill-v4.11.0) — Skill 4.11.0
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > - **Every save says where it went.** A critique, audit or scan ends with `Saved to Impeccable` and its link, or says plainly why it wasn't saved.
 > - **Critiques carry their pictures.** A saved critique names the page it viewed, so Impeccable can show that page on desktop and phone beside the findings.
 > - **Taste for the kind of work.** Your agent reads the design rules for what it is making (web, slides or motion), not all of them at once.
 
 ### [cli-v4.11.0](https://github.com/pbakaus/impeccable/releases/tag/cli-v4.11.0) — CLI 4.11.0
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > - **Every upload names its page.** Critiques, audits, scans and accepted prototypes print `Saved to Impeccable` with a link, or say plainly why they weren't saved. `live-poll --json` puts the link on the accept event.
 > - **Critiques arrive whole.** A saved critique carries its page's title, every heuristic's score and all four severity counts. Afterwards, in the background, Impeccable takes a desktop and a phone picture of the page and refreshes the project's Design health and Foundations, at most once a day. Nothing waits on either.

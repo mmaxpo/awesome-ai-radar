@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 34.2k |
 | 🍴 **Forks** | 4.1k |
-| 🐞 **Open issues + PRs** | [578](https://github.com/davila7/claude-code-templates/issues) |
+| 🐞 **Open issues + PRs** | [591](https://github.com/davila7/claude-code-templates/issues) |
 | 💻 **Languages** | Python 39% · TypeScript 21% · HTML 12% · JavaScript 11% · TeX 7% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `claude` `claude-code` `agent-skills` `ai-agents` `claude-code-plugins` `cli` `mcp` `registry` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-07-04 |
 | 📦 **Latest release** | [v1.29.7](https://github.com/davila7/claude-code-templates/releases/tag/v1.29.7) — 2026-10-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 308.5 MB |
+| 💾 **Size** | 311.0 MB |
 | 🌐 **Website** | https://www.aitmpl.com |
 
 ## 📦 Recent releases
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/77e05e435a9c49f3e7825eca64cb207d3e38c827) | github-actions[bot] |
 | 2026-11-26 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/24d9d16c0053791c2a02ad755d8c54272e893b27) | github-actions[bot] |
 | 2026-11-26 | [Add SAP Learning AI certifications to /certifications (#1723)](https://github.com/davila7/claude-code-templates/commit/976138d4fbf2acbcc7290e5a0b5003990062134f) | davila7 |
 | 2026-11-26 | [Add RoamSEO MCP to marketing (#1722)](https://github.com/davila7/claude-code-templates/commit/f4e1a69a88eef2497bef7bfcfa929495c9d506e1) | backslash112 |
@@ -103,7 +104,6 @@
 | 2026-11-26 | [Add the Engineering Corpus MCP server (devtools) (#1714)](https://github.com/davila7/claude-code-templates/commit/2f0fe68705a57adb171389c785b58fef56fe0f93) | ymcbzrgn |
 | 2026-11-26 | [chore: Update components and trending data](https://github.com/davila7/claude-code-templates/commit/2a104d81976267e26f31db66901b83f1c97a41df) | github-actions[bot] |
 | 2026-11-26 | [chore: Update component content](https://github.com/davila7/claude-code-templates/commit/c959b4012b17d18765e2c18cd3b0128d7978b9bb) | github-actions[bot] |
-| 2026-11-26 | [feat(hooks): add security/skill-shell-guard (PreSkillShellCommand) (#…](https://github.com/davila7/claude-code-templates/commit/cd14b29fd8b29308987ee3963c3c582a87b403e3) | davila7 |
 
 [See all commits ↗](https://github.com/davila7/claude-code-templates/commits)
 

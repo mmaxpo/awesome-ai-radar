@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.8k |
-| 🍴 **Forks** | 673 |
+| 🍴 **Forks** | 674 |
 | 🐞 **Open issues + PRs** | [0](https://github.com/the-open-agent/openagent/issues) |
 | 💻 **Languages** | Go 75% · TypeScript 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `chatgpt` `gpt` `knowledge-base` `langchain` `openai` `chatbot` `llm` `rag` `multi-agent` `agi` `agent` `mcp` `model-context-protocol` `openclaw` `agentic` `agentic-ai` `harness` `openagent` `hermes-agent` |
-| 🕒 **Last activity** | 2026-11-06 (20d ago) |
+| 🕒 **Last activity** | 2026-11-06 (21d ago) |
 | 📅 **Created** | 2020-05-29 |
 | 📦 **Latest release** | [v2.95.1](https://github.com/the-open-agent/openagent/releases/tag/v2.95.1) — 2026-10-05 |
 | 🌿 **Default branch** | `master` |
@@ -61,7 +61,7 @@
 > * fb2f8a6b83a85f6f070d884c0b00e4a9919d83cb fix: skip loading forms for anonymous visitors
 
 ### [v2.94.6](https://github.com/the-open-agent/openagent/releases/tag/v2.94.6)
-<sub>2026-09-28 · 1mo ago</sub>
+<sub>2026-09-28 · 2mo ago</sub>
 
 > **Changelog**
 > * 16256942f05fc2829a532df837e07933c77eba29 fix: price legacy deepseek-v4-flash model names

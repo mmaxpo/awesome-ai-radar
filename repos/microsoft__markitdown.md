@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 198.6k |
+| ⭐ **Stars** | 198.7k |
 | 🍴 **Forks** | 15.1k |
-| 🐞 **Open issues + PRs** | [826](https://github.com/microsoft/markitdown/issues) |
+| 🐞 **Open issues + PRs** | [832](https://github.com/microsoft/markitdown/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `langchain` `openai` `autogen-extension` `autogen` `markdown` `microsoft-office` `pdf` |
-| 🕒 **Last activity** | 2026-11-07 (19d ago) |
+| 🕒 **Last activity** | 2026-11-07 (20d ago) |
 | 📅 **Created** | 2024-11-13 |
 | 📦 **Latest release** | [v0.1.9](https://github.com/microsoft/markitdown/releases/tag/v0.1.9) — 2026-10-21 |
 | 🌿 **Default branch** | `main` |
@@ -77,7 +77,7 @@
 > …
 
 ### [v0.1.7](https://github.com/microsoft/markitdown/releases/tag/v0.1.7) — Version 0.1.7
-<sub>2026-07-29 · 3mo ago</sub>
+<sub>2026-07-29 · 4mo ago</sub>
 
 > **What's Changed**
 > * fix: avoid O(n^2) value lookups in PPTX chart conversion by @kz-000 in https://github.com/microsoft/markitdown/pull/2227

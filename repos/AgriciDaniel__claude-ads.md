@@ -24,7 +24,7 @@
 | 💻 **Languages** | Python 84% · JavaScript 8% · TypeScript 4% · Shell 4% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `claude-code` `claude-code-skill` `ai-marketing` `ai` `marketing-automation` `open-source` `agent-skills` `google-ads` `meta-ads` `paid-advertising` `ppc` |
-| 🕒 **Last activity** | 2026-11-01 (24d ago) |
+| 🕒 **Last activity** | 2026-11-01 (25d ago) |
 | 📅 **Created** | 2026-02-11 |
 | 📦 **Latest release** | [v2.1.0](https://github.com/AgriciDaniel/claude-ads/releases/tag/v2.1.0) — 2026-10-16 |
 | 🌿 **Default branch** | `main` |

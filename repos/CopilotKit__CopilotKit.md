@@ -22,41 +22,41 @@
 |---|---|
 | ⭐ **Stars** | 39.0k |
 | 🍴 **Forks** | 4.9k |
-| 🐞 **Open issues + PRs** | [493](https://github.com/CopilotKit/CopilotKit/issues) |
+| 🐞 **Open issues + PRs** | [500](https://github.com/CopilotKit/CopilotKit/issues) |
 | 💻 **Languages** | TypeScript 80% · Python 6% · MDX 5% · JavaScript 2% · C# 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `llm` `nextjs` `open-source` `react` `reactjs` `ts` `typescript` `agent` `agents` `ai-agent` `ai-assistant` `assistant` `copilot` `copilot-chat` `agent-native` `agentic-ai` `assistant-chat-bots` `generative-ui` `js` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-06-19 |
 | 📦 **Latest release** | [v1.90.2](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.2) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 908.7 MB |
+| 💾 **Size** | 908.8 MB |
 | 🌐 **Website** | https://docs.copilotkit.ai |
 
 ## 📦 Recent releases
 
 ### [v1.90.2](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.2)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > This is a maintenance release that keeps all `monorepo` lane packages in sync at version `1.90.2`. There are no functional changes since the previous release.
 
 ### [channels/v0.13.0](https://github.com/CopilotKit/CopilotKit/releases/tag/channels/v0.13.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > This release improves the reliability of approval resumes and interactive pickers across multiple processes and replicas. It also improves resilience when Intelligence thread history fails to replay.
 
 ### [v1.90.1](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.1)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > This release adds fullscreen support for MCP Apps widgets and improves telemetry accuracy, alongside an important breaking change to runtime thread history and debug event handling.
 
 ### [v1.90.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.90.0)
-<sub>2026-11-20 · 6d ago</sub>
+<sub>2026-11-20 · 7d ago</sub>
 
 > This release adds framework-level telemetry to the runtime and sends the CopilotKit version to the Intelligence gateway, giving the gateway the context it needs to tailor behavior to a client's version.
 
 ### [v1.89.0](https://github.com/CopilotKit/CopilotKit/releases/tag/v1.89.0)
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > This release improves performance and reliability for long Intelligence threads, adds support for distinct agent display names, and expands MCP Apps with model-context sharing.
 

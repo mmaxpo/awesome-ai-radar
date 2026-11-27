@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 118.8k |
-| 🍴 **Forks** | 13.2k |
-| 🐞 **Open issues + PRs** | [14](https://github.com/debpalash/VoiceStudio/issues) |
+| ⭐ **Stars** | 119.2k |
+| 🍴 **Forks** | 13.3k |
+| 🐞 **Open issues + PRs** | [1](https://github.com/debpalash/VoiceStudio/issues) |
 | 💻 **Languages** | Python 56% · TypeScript 26% · Swift 6% · Kotlin 6% · JavaScript 5% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `tts` `voice-cloning` `voice-generation` `voice-ai` `ai` `cuda` `mlx` `huggingface` `transcription` `translate` `workflow` `omnivoice-studio` `dubbing` `audiobook` `elevenlabs-alternative` `local-first` `speech-to-text` `text-to-speech` `voicestudio` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-04-09 |
 | 📦 **Latest release** | [v0.5.9-beta.9](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.9) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 215.1 MB |
+| 💾 **Size** | 215.9 MB |
 | 🌐 **Website** | https://voicestudio.sh |
 
 ## 📦 Recent releases
 
 ### [v0.5.9-beta.9](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.9) — v0.5.9-beta.9 — VoiceStudio _(pre-release)_
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **Download**
 > | Platform | Download | Signing |
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.5.9-beta.8](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.8) — v0.5.9-beta.8 — VoiceStudio _(pre-release)_
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > **Download**
 > | Platform | Download | Signing |
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.5.9-beta.7](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.7) — v0.5.9-beta.7 — VoiceStudio _(pre-release)_
-<sub>2026-11-20 · 6d ago</sub>
+<sub>2026-11-20 · 7d ago</sub>
 
 > **Download**
 > | Platform | Download | Signing |
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.5.9-beta.6](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.6) — v0.5.9-beta.6 — VoiceStudio _(pre-release)_
-<sub>2026-11-18 · 8d ago</sub>
+<sub>2026-11-18 · 9d ago</sub>
 
 > **Download**
 > | Platform | Download | Signing |
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.5.9-beta.5](https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.5) — v0.5.9-beta.5 — VoiceStudio _(pre-release)_
-<sub>2026-11-16 · 9d ago</sub>
+<sub>2026-11-16 · 10d ago</sub>
 
 > **Download**
 > | Platform | Download | Signing |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [fix: seven reported issues (MOSS-TTS-Nano, design recipes, Windows se…](https://github.com/debpalash/VoiceStudio/commit/b4ff354ca22506bf9cc8b25f47e4ce994151c0bc) | debpalash |
-| 2026-11-26 | [fix(dub): end a resumed task the backend lost to a restart (#4475)](https://github.com/debpalash/VoiceStudio/commit/e9f3812db54a93c74fd47a19f6b0c6edce5a4791) | samay-hash |
-| 2026-11-26 | [fix(dub): preserve source media, transcripts and saved edits (#4473)](https://github.com/debpalash/VoiceStudio/commit/680012531ad5120bb7e0f68b2aeecea999c39f73) | ShuaixinHuang |
-| 2026-11-25 | [Merge pull request #4486 from debpalash/velixio-black-friday-readme](https://github.com/debpalash/VoiceStudio/commit/d9061408c20406dfb1b1cbb80450549533c70b0a) | velixio |
-| 2026-11-25 | [docs(readme): Black Friday offer, 50% off Pro and Lifetime until 1 Dec](https://github.com/debpalash/VoiceStudio/commit/3358419937c5eff1886eb5f99e1959e74f7a80ce) | velixio |
-| 2026-11-25 | [feat(api): ElevenLabs-compatible API under /elevenlabs (#4467)](https://github.com/debpalash/VoiceStudio/commit/039e8fa11d78cb340e6913b0f824df2fc887b636) | debpalash |
-| 2026-11-25 | [feat(pronunciation): import and export W3C PLS lexicons (#4469)](https://github.com/debpalash/VoiceStudio/commit/81223b04436a52505673e3082b80f007c85c292c) | debpalash |
-| 2026-11-25 | [fix(browser): report failed macOS browser launches (#4461)](https://github.com/debpalash/VoiceStudio/commit/6f981a68ecd025818939f08bb90ad99ab3925c92) | isnaenihidayat |
-| 2026-11-25 | [fix(i18n): the tray menu says Quit, not the crash report's Exit (#4468)](https://github.com/debpalash/VoiceStudio/commit/6caa7639916118f321214efa748c389c2ec48040) | debpalash |
-| 2026-11-25 | [ci: keep each outside contributor to two open pull requests (#4466)](https://github.com/debpalash/VoiceStudio/commit/02aea1b0a67a991e74d599a26f5209feafda8365) | debpalash |
+| 2026-11-27 | [perf(engines): stop re-spawning a PyTorch import check on every engin…](https://github.com/debpalash/VoiceStudio/commit/c8c26efa1efedd5456fa008b2bc06463cb95cbaf) | debpalash |
+| 2026-11-27 | [fix(logs): redact provider keys in log messages, not only in tracebac…](https://github.com/debpalash/VoiceStudio/commit/ba98d1d89d26e5a1630a77a501cac7925eef208a) | DeryFerd |
+| 2026-11-27 | [fix(api): give the dub consumption routes the tier guard the policy f…](https://github.com/debpalash/VoiceStudio/commit/add9a984d7b37c83abcd83926cfa1a52735f086a) | DeryFerd |
+| 2026-11-27 | [fix(setup): reach models and GitHub-hosted wheels on blocked networks…](https://github.com/debpalash/VoiceStudio/commit/d6fcce6ce0917952ca2ff394ebd71c93cc390f27) | debpalash |
+| 2026-11-27 | [feat(dub): accept externally separated stems for prepared jobs (#4499)](https://github.com/debpalash/VoiceStudio/commit/a9c0b550ea1322f97cfc052632c8f0450b153794) | swax |
+| 2026-11-27 | [fix(omnivoice): check tokenizer licence against the installed revisio…](https://github.com/debpalash/VoiceStudio/commit/d90e9d4edb8aa9966c9ab28d87de75efda20d35f) | swax |
+| 2026-11-27 | [feat(api): ElevenLabs dialogue, timestamps, voice cloning, dubbing, i…](https://github.com/debpalash/VoiceStudio/commit/a2e9f4deb45c2859c9bf47a5234946d512a8e3e9) | debpalash |
+| 2026-11-27 | [fix: delete installed engines, unstick Wi-Fi-wait downloads, compact …](https://github.com/debpalash/VoiceStudio/commit/4d051d96641a463cc2c01257ee27bd9b46839aa5) | debpalash |
+| 2026-11-27 | [fix(windows): read model weights with pread instead of a memory map (…](https://github.com/debpalash/VoiceStudio/commit/42ac3589bea2ccd708e6b329bea1cd65907ea947) | debpalash |
+| 2026-11-27 | [ci: retry rate-limited Android downloads before every build, and racy…](https://github.com/debpalash/VoiceStudio/commit/29ca59dcdc5e4bce5b0b977a0763ce653cf6b6f5) | debpalash |
 
 [See all commits ↗](https://github.com/debpalash/VoiceStudio/commits)
 

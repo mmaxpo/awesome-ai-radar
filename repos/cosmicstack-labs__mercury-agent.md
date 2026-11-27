@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.1k |
-| 🍴 **Forks** | 421 |
+| 🍴 **Forks** | 422 |
 | 🐞 **Open issues + PRs** | [38](https://github.com/cosmicstack-labs/mercury-agent/issues) |
 | 💻 **Languages** | TypeScript 68% · Kotlin 11% · Swift 10% · Rust 4% · MDX 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `ai-assistant` `llm` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-04-20 |
 | 📦 **Latest release** | [captcha-v0.1.0](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/captcha-v0.1.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [captcha-v0.1.0](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/captcha-v0.1.0) — CAPTCHA Solver 0.1.0
-<sub>2026-11-22 · 4d ago</sub>
+<sub>2026-11-22 · 5d ago</sub>
 
 > New plugin. Install with `/plugins install captcha`, or **Plugins → CAPTCHA Solver → Install** in Mercury Desktop. Needs Mercury 1.5.5 or newer.
 > - **Cheapest first.** Your own vision models read simple image CAPTCHAs for free; two must agree before an answer is used.
@@ -45,7 +45,7 @@
 > - Also `captcha__detect` (finds CAPTCHAs on a page) and `captcha__balance`.
 
 ### [v1.5.5](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.5) — Mercury v1.5.5
-<sub>2026-11-22 · 4d ago</sub>
+<sub>2026-11-22 · 5d ago</sub>
 
 > **☿ Mercury Agent v1.5.5**
 > Devices sign in with a device token, Mercury asks you for what only you can do, and bots use fewer tokens.
@@ -56,7 +56,7 @@
 > …
 
 ### [v1.5.4](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.4) — Mercury v1.5.4
-<sub>2026-11-17 · 9d ago</sub>
+<sub>2026-11-17 · 10d ago</sub>
 
 > **☿ Mercury Agent v1.5.4**
 > Set up voice from your phone, and fewer approval prompts.
@@ -67,7 +67,7 @@
 > …
 
 ### [v1.5.3](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.3) — Mercury v1.5.3
-<sub>2026-11-17 · 9d ago</sub>
+<sub>2026-11-17 · 10d ago</sub>
 
 > **☿ Mercury Agent v1.5.3**
 > Ready for Mercury on your phone, Google Workspace in one command, and bots that can't be steered by what they read.
@@ -78,7 +78,7 @@
 > …
 
 ### [optimus-v0.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2) — Optimus 0.5.2
-<sub>2026-11-14 · 12d ago</sub>
+<sub>2026-11-14 · 13d ago</sub>
 
 > Plugin-only update. Install or update with `/plugins update optimus`, or **Plugins → Optimus → Update** in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per model needs Mercury 1.5.2.
 > - **Screenshots sized for the model in use.** Optimus resizes each capture to what the model reads best: Claude and OpenAI 1024×640, Gemini 768×480, open vision models 896×560. Click coordinates stay exact.
@@ -88,6 +88,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/b2eedcf1dc127c9623a6140940c6dc5cf08fb2b5) | mercuryagent |
+| 2026-11-26 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/1533975a037dd9a305a172321406fb9cb40e4ff3) | mercuryagent |
 | 2026-11-26 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/63a2c34dd91e31ddbea1a4ca761e39c34dc08d37) | mercuryagent |
 | 2026-11-25 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/fe16403f6e6fa29b82daab4c99185ebb68d0b28e) | mercuryagent |
 | 2026-11-25 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/d2d02f30c9522ae6cf825fd34d355a07115ab55b) | mercuryagent |
@@ -96,8 +98,6 @@
 | 2026-11-23 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/91caface60512b81b43cda87eda5797d6f11da4e) | mercuryagent |
 | 2026-11-23 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/0e55a5e4d624292fb92540a8d1d3ab3dcffea150) | mercuryagent |
 | 2026-11-22 | [chore(badges): refresh download totals [skip ci]](https://github.com/cosmicstack-labs/mercury-agent/commit/a0d87e4485538bab887567dc4bd31928117546b9) | mercuryagent |
-| 2026-11-22 | [plugins: CAPTCHA Solver 0.1.0 in the catalog](https://github.com/cosmicstack-labs/mercury-agent/commit/8378eb0309b7fd807489b47b83cc3b597f4eb73b) | hotheadhacker |
-| 2026-11-22 | [release: v1.5.5 on mercuryagent.sh (downloads, updates, docs)](https://github.com/cosmicstack-labs/mercury-agent/commit/1610f5738bad37b33055198f6b79dcf9b5eafbdd) | mercuryagent |
 
 [See all commits ↗](https://github.com/cosmicstack-labs/mercury-agent/commits)
 

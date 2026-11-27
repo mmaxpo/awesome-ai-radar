@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.9k |
-| 🍴 **Forks** | 283 |
-| 🐞 **Open issues + PRs** | [0](https://github.com/roryclear/clearcam/issues) |
+| 🍴 **Forks** | 284 |
+| 🐞 **Open issues + PRs** | [1](https://github.com/roryclear/clearcam/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `object-detection` `tinygrad` `selfhosted` `nvr` `rtsp` `yolov9` `cctv` `clip` `ai` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2025-01-04 |
 | 📦 **Latest release** | [0.2.8](https://github.com/roryclear/clearcam/releases/tag/0.2.8) — 2026-08-31 |
 | 🌿 **Default branch** | `main` |

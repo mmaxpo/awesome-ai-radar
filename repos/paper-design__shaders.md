@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 4.0k |
-| 🍴 **Forks** | 183 |
+| 🍴 **Forks** | 185 |
 | 🐞 **Open issues + PRs** | [15](https://github.com/paper-design/shaders/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `react` `shaders` `webgl` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2024-10-09 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

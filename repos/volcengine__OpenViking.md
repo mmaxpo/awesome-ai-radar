@@ -26,17 +26,17 @@
 | 💻 **Languages** | Python 61% · TypeScript 18% · Rust 11% · JavaScript 4% · MDX 3% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `context-database` `agentic-rag` `agent-memory` `self-evolving` `agent-plugins` `dsh-plugin` `agent-context` `memory-management` `knowledge-base` `memory` `vector-database` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-01-05 |
 | 📦 **Latest release** | [python-sdk@0.1.21](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.21) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 434.4 MB |
+| 💾 **Size** | 435.4 MB |
 | 🌐 **Website** | https://openviking.ai |
 
 ## 📦 Recent releases
 
 ### [openviking-superagent@0.5.6-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.6-preview) — OpenViking SuperAgent 0.5.6-preview _(pre-release)_
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -47,17 +47,17 @@
 > …
 
 ### [python-sdk@0.1.21](https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.21)
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > _No notes._
 
 ### [cli@0.5.4](https://github.com/volcengine/OpenViking/releases/tag/cli%400.5.4)
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > _No notes._
 
 ### [v0.5.6](https://github.com/volcengine/OpenViking/releases/tag/v0.5.6)
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **中文**
 > **主要更新**
@@ -68,7 +68,7 @@
 > …
 
 ### [openviking-superagent@0.5.5-preview](https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.5-preview) — OpenViking SuperAgent 0.5.5-preview _(pre-release)_
-<sub>2026-11-19 · 7d ago</sub>
+<sub>2026-11-19 · 8d ago</sub>
 
 > **Install**
 > macOS / Linux / WSL2 (this version):
@@ -82,16 +82,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [fix(snapshot-log): isolate sqlite/mysql index by service_name (#8452)](https://github.com/volcengine/OpenViking/commit/fe354f744a74affcbd85a0c88f1c0b600bcc6ec6) | baojun-zhang |
-| 2026-11-26 | [fix(task): make periodic task history cleanup configurable (#8469)](https://github.com/volcengine/OpenViking/commit/2faf02a617a205b2652deeea9683dcbe17b50209) | fujiajie666 |
-| 2026-11-26 | [feat(gateway): seal secrets out of model requests and unseal tool cal…](https://github.com/volcengine/OpenViking/commit/35dfb20d5390d2916a9b43a0b07741613bd7a640) | t0saki |
-| 2026-11-26 | [feat(plugins): seal secrets in Claude Code and pi (#8445)](https://github.com/volcengine/OpenViking/commit/659a0271298c62b7575da3c02aa4b7fee588b52d) | t0saki |
-| 2026-11-26 | [feat(gateway,plugins): one table for the server features clients depe…](https://github.com/volcengine/OpenViking/commit/019b351bf3e2a872fdfa65de6482537314f0853b) | t0saki |
-| 2026-11-26 | [feat(privacy): seal endpoint, auto-enrolled credentials and reference…](https://github.com/volcengine/OpenViking/commit/83afb6d3b76523505d20a29906f19be2c02f5122) | t0saki |
-| 2026-11-26 | [feat(pdf): prefer a configured remote parser in auto, add hosted Mine…](https://github.com/volcengine/OpenViking/commit/3e67888a92643d5587b32b2595bd5cb315e4f9ee) | q2000s |
-| 2026-11-26 | [feat(compile): limit source directories to 100 (#8520)](https://github.com/volcengine/OpenViking/commit/27beb0a3f649315f35bb20cc5af71e9456ffdcd6) | fujiajie666 |
-| 2026-11-26 | [feat(expiry)!: use CacheRuntime for distributed scheduling (#8270)](https://github.com/volcengine/OpenViking/commit/326d2d54b4b7e56fb0a5deb6b26116b1d96c8aa7) | baojun-zhang |
-| 2026-11-26 | [fix(claude-code-plugin): honor skipSubagentSessions in subagent hooks…](https://github.com/volcengine/OpenViking/commit/52269f89ed83515cd24823d51ac9b8651aeb5e7c) | diaozxin007 |
+| 2026-11-27 | [fix(queuefs): preserve task work consistency on enqueue cancellation …](https://github.com/volcengine/OpenViking/commit/600babf130a8dcb1b2ec811e8211c582ca0ae83b) | Leeminjing |
+| 2026-11-27 | [fix(vikingdb): support BytePlus endpoints and STS embeddings (#8569)](https://github.com/volcengine/OpenViking/commit/26dbce367a96f177c67255ad24574780807968f9) | ehz0ah |
+| 2026-11-27 | [docs(gateway): end the cache-hit range where memory A is missing (#8590)](https://github.com/volcengine/OpenViking/commit/56e568f4b1e181ac597e465c73e36b59bb9b93dd) | openviking-superagent |
+| 2026-11-27 | [fix(snapshot-log)!: limit mysql branches to 128 bytes (#8566)](https://github.com/volcengine/OpenViking/commit/99959ebb5038aba827038b28c430f9e7a9cf2704) | baojun-zhang |
+| 2026-11-27 | [fix(snapshot-log)!: scope postgres indexes and use full paths (#8562)](https://github.com/volcengine/OpenViking/commit/bab3333686b7e5adf132ca10a0ba08a9c2857022) | baojun-zhang |
+| 2026-11-27 | [fix(ovpack): 修复向量备份校验并补齐 agent/tools 索引 (#8584)](https://github.com/volcengine/OpenViking/commit/7ed0008d802f74dd394b8340e43ca2724b2bac0e) | qin-ctx |
+| 2026-11-27 | [feat(privacy): widen built-in detectors with Betterleaks rules and Op…](https://github.com/volcengine/OpenViking/commit/d421d520f5027110792598a44c3c5e17cd23a0d4) | t0saki |
+| 2026-11-27 | [feat(pgvector): select native or enhanced search explicitly (#8582)](https://github.com/volcengine/OpenViking/commit/1f19e59b8c07fd9ed98c3780f08af0b2ab3ffe74) | zhanglistar |
+| 2026-11-27 | [Revert "fix(ovpack): 修复向量备份校验与目录索引重建 (#8555)" (#8581)](https://github.com/volcengine/OpenViking/commit/e64faf4d298cf7d572709e0a9222cddb31a6cc95) | qin-ctx |
+| 2026-11-27 | [fix(ovpack): 修复向量备份校验与目录索引重建 (#8555)](https://github.com/volcengine/OpenViking/commit/219ade00ca180ed00372e8937adeb234844294a7) | qin-ctx |
 
 [See all commits ↗](https://github.com/volcengine/OpenViking/commits)
 

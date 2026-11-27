@@ -22,21 +22,43 @@
 |---|---|
 | ⭐ **Stars** | 61.5k |
 | 🍴 **Forks** | 10.2k |
-| 🐞 **Open issues + PRs** | [155](https://github.com/twentyhq/twenty/issues) |
+| 🐞 **Open issues + PRs** | [140](https://github.com/twentyhq/twenty/issues) |
 | 💻 **Languages** | TypeScript 82% · MDX 16% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `crm` `customer` `graphql` `marketing` `react` `sales` `typescript` `crm-system` `nestjs` `reactjs` `web` `monorepo` `open-source` `postgresql` `good-first-issue` `hacktoberfest` `javascript` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2022-12-01 |
-| 📦 **Latest release** | [twenty/v2.63.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.63.0) — 2026-11-24 |
+| 📦 **Latest release** | [sdk/v2.64.1](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.64.1) — 2026-11-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 3243.3 MB |
+| 💾 **Size** | 3278.5 MB |
 | 🌐 **Website** | https://twenty.com |
 
 ## 📦 Recent releases
 
+### [sdk/v2.64.1](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.64.1)
+<sub>2026-11-27 · today</sub>
+
+> Two breaking changes complete the view-privacy migration. The `visibility` field is removed from the view schema on a 2.64 server. Queries that select or send it will fail; switch to `isPrivate`. App manifests are affected too: `defineView()` no longer accepts `visibility`, and `ViewVisibility` is no longer exported from `twenty-sdk/define`.
+> Views and their child entities are now hard-deleted. Any query filtering on `deletedAt` for view types needs to be removed.
+> Installing `twenty-client-sdk` no longer pulls `@genql/runtime` or the 15+ packages it depended on. AI-generated record-page widgets can now read the viewed record via `useSelectedRecordIds()` and `useSelectedObjectMetadata()`.
+> **⚠️ Breaking changes**
+> - Views and their child entities are hard-deleted from this release; remove any `deletedAt` filters or field selections on `view`, `viewField`, `viewFilter`, `viewFilterGroup`, `viewGroup`, and `viewSort` types. ([#31323](https://github.com/twentyhq/twenty/pull/31323)) by @Weiko
+> - `visibility` is removed from the view schema on a 2.64 server; any GraphQL, REST, or `twenty-client-sdk` query that selects `visibility` or sends it on create/update will fail — use `isPrivate` instead, including when `__scalar: true` is used. ([#31460](https://github.com/twentyhq/twenty/pull/31460)) by @Weiko
+> …
+
+### [twenty/v2.64.1](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.64.1)
+<sub>2026-11-27 · today</sub>
+
+> **⚠️ Breaking changes**
+> - [BREAKING_CHANGE] Stop reading deletedAt on views and their children ([#31323](https://github.com/twentyhq/twenty/pull/31323)) by @Weiko
+> - Enforce the privatable creator rule in the workspace migration builder ([#31438](https://github.com/twentyhq/twenty/pull/31438)) by @Weiko
+> - [BREAKING_CHANGE] Remove the deprecated view visibility API and relax its column ([#31460](https://github.com/twentyhq/twenty/pull/31460)) by @Weiko
+> - [BREAKING_CHANGE] Remove view visibility from app manifests ([#31548](https://github.com/twentyhq/twenty/pull/31548)) by @Weiko
+> **✨ New features**
+> …
+
 ### [twenty/v2.63.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.63.0)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > Table columns get three new shapes. A filtered one-to-many column shows related records narrowed by filter, sort, and limit. Summary columns aggregate those records per row: count, sum, or average. Columns can be renamed, and filtered columns can show a single field of their records instead of chips.
 > WhatsApp arrives as a connected app. Members link by QR code, pick which conversations to import, and see messages sync to People. The call recorder gains per-member preferences: record all meetings, only internal, only external, or none — set from a new Recording page in settings.
@@ -47,7 +69,7 @@
 > …
 
 ### [sdk/v2.63.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.63.0)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > One breaking change: `updateFocusedTab` is removed. Switch to `updateTabPresence({ tabId, status })` where status is `'FOCUSED'` or `'OPEN'`. `twenty app build` is also fixed: it no longer crashes when a source file imports a `twenty-ui` export at module level.
 > `twenty-sdk` gains a new `twenty-sdk/email` entry point exporting `isWorkEmail`, `isWorkDomain`, `getDomainFromEmail`, and the full provider list. Apps can now share the server's email classifier instead of maintaining their own.
@@ -58,7 +80,7 @@
 > …
 
 ### [sdk/v2.62.0](https://github.com/twentyhq/twenty/releases/tag/sdk/v2.62.0)
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > This release fixes a sidebar regression that left non-admin members without the Applications permission unable to see standard navigation items. Companies, People, Opportunities, Tasks, Notes, Dashboards, and folders all disappeared when the customizable sidebar flag was disabled.
 > No SDK exports, types, or CLI commands changed. Package consumers do not need to update their code.
@@ -68,42 +90,20 @@
 > - Fixes a bug where sidebar items (Companies, People, Opportunities, Tasks, Notes, Dashboards) were hidden for members lacking the Applications permission when the customizable sidebar flag is off — no SDK changes required. ([#31179](https://github.com/twentyhq/twenty/pull/31179)) by @thomtrp
 > …
 
-### [twenty/v2.62.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.62.0)
-<sub>2026-11-23 · 3d ago</sub>
-
-> The `NOT_STARTED` workflow run status is removed in this release. The upgrade command converts any runs in that state to `ENQUEUED` automatically. Update any custom integrations, filters, or views that reference `NOT_STARTED` before upgrading.
-> A regression from 2.61 is fixed for team members without the Applications permission. Those members were seeing an empty sidebar — Companies, People, Opportunities, Tasks, Notes, and Dashboards all gone. Navigation is restored for those roles.
-> Emoji reactions now work in direct messages. Email thread panels no longer break when channel visibility is enabled. Internally, workflow privacy moves from a visibility enum to a boolean flag; the old column stays this release and is dropped in 2.63.
-> **⚠️ Breaking changes**
-> - The NOT_STARTED workflow run status is removed. The upgrade converts existing NOT_STARTED runs to ENQUEUED. Update any integrations, filters, or views that reference NOT_STARTED before upgrading. ([#31154](https://github.com/twentyhq/twenty/pull/31154)) by @charlesBochet
-> **🌟 Highlights**
-> …
-
-### [twenty/v2.61.0](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.61.0)
-<sub>2026-11-22 · 3d ago</sub>
-
-> **⚠️ Breaking changes**
-> - [BREAKING_CHANGE] Show member health checks in Apps preferences ([#29242](https://github.com/twentyhq/twenty/pull/29242)) by @ehconitin
-> - [BREAKING_CHANGE] Upsert row-level permission rules instead of a predicate tree ([#30252](https://github.com/twentyhq/twenty/pull/30252)) by @charlesBochet
-> - Import recurring Google Calendar meetings only up to 90 days ahead ([#30335](https://github.com/twentyhq/twenty/pull/30335)) by @neo773
-> - [BREAKING_CHANGE] Add a 2.60 command that drops the workspace workflowVersion object ([#30500](https://github.com/twentyhq/twenty/pull/30500)) by @thomtrp
-> - [BREAKING_CHANGE] Add generic date functions to validation rules ([#30527](https://github.com/twentyhq/twenty/pull/30527)) by @FelixMalfait
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Call recorder: release 1.22.1 (#31609)](https://github.com/twentyhq/twenty/commit/c4552d1744cda26006929aff18f86109ab5ea5aa) | ehconitin |
-| 2026-11-26 | [Call recorder: schedule recorders as the application (#31567)](https://github.com/twentyhq/twenty/commit/e3d4dd6a1a47ee3ecf072de9be51c4bda95b0a37) | ehconitin |
-| 2026-11-26 | [LinkedIn app: point to the General tab when no account is connected (…](https://github.com/twentyhq/twenty/commit/2c381420b1f0c8c448a30a968073544c6b70ebcb) | martmull |
-| 2026-11-26 | [i18n - translations (#31601)](https://github.com/twentyhq/twenty/commit/945ebe33ad63944ec4a88501506a50d5dc583e43) | twenty-pr[bot] |
-| 2026-11-26 | [Compile each object's formula fields once per metadata version (#31491)](https://github.com/twentyhq/twenty/commit/77a32afd83d9f3749c0ce7d417ce7857a3e80c8f) | FelixMalfait |
-| 2026-11-26 | [Remove the IS_CALENDAR_INTERNAL_EVENTS_FILTER_ENABLED feature flag (#…](https://github.com/twentyhq/twenty/commit/3bb333a6987a0d78e27a54a727c136f8fa4fc7a8) | neo773 |
-| 2026-11-26 | [Show "This record" in current-record filter chips (#31480)](https://github.com/twentyhq/twenty/commit/94ce9f5271b7de9c0bb37fce9620a2bb32057ab4) | Weiko |
-| 2026-11-26 | [LinkedIn app: import past conversations automatically, without a Sync…](https://github.com/twentyhq/twenty/commit/b2c5c83780b17275d6a12169ef39639dbbf341d5) | martmull |
-| 2026-11-26 | [WhatsApp app: import past conversations automatically, without a Sync…](https://github.com/twentyhq/twenty/commit/2bfc5bc52b6f88c6025aa44612b444507c68bb66) | martmull |
-| 2026-11-26 | [Show the sender as creator of emails sent from Twenty (#31569)](https://github.com/twentyhq/twenty/commit/36bd0c048ae75dafe0f0c37d0eb210cc8d0a57f9) | martmull |
+| 2026-11-27 | [Add the filter builder screen parts for conditional availability (#31…](https://github.com/twentyhq/twenty/commit/6e0c006aff99b92709d898150cdb46d0326c206e) | neo773 |
+| 2026-11-27 | [Resolve inbox object names from the workspace flag on the frontend (#…](https://github.com/twentyhq/twenty/commit/f4e30168801e32df80a183f64e464cb2208cad95) | bosiraphael |
+| 2026-11-27 | [Move the twenty-standard role removal command to 2.66 (#31725)](https://github.com/twentyhq/twenty/commit/bb8d806ade6adfeaf21d44fede72e8a6c14dfc76) | prastoin |
+| 2026-11-27 | [Block the workspace menu while editing the layout (#31710)](https://github.com/twentyhq/twenty/commit/3688859a7a86cb88fb1e4da7343bb2cbe599901c) | Bonapara |
+| 2026-11-27 | [Shape table loading skeletons like their rows (#31714)](https://github.com/twentyhq/twenty/commit/f42d68ad4d484117e5cd0202102bf6b1de73601c) | FelixMalfait |
+| 2026-11-27 | [i18n - translations (#31720)](https://github.com/twentyhq/twenty/commit/95d9c8cbc1a00a8b9810ea6ccff06498ef31df22) | twenty-pr[bot] |
+| 2026-11-27 | [Group what a conditional evaluation rule can use by metadata name (#3…](https://github.com/twentyhq/twenty/commit/0224843d3b6f155d0b208aefb38b73d4104d5650) | neo773 |
+| 2026-11-27 | [fix(cli): trust system certificate authorities (#31705)](https://github.com/twentyhq/twenty/commit/be7977ad6c46e058a74e130a7ef11498aa4f4a57) | FelixMalfait |
+| 2026-11-27 | [Keep zod out of app bundles that use twenty-ui data-display (#31706)](https://github.com/twentyhq/twenty/commit/a7b5917a43594217dc20574e1ecada85617e3835) | ehconitin |
+| 2026-11-27 | [Nullify twenty-standard app `requestRoleId` and remove its granted ro…](https://github.com/twentyhq/twenty/commit/196f73f67cb4897d3fa6cdda06b5bbd22ca504ed) | prastoin |
 
 [See all commits ↗](https://github.com/twentyhq/twenty/commits)
 

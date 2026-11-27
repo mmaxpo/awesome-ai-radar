@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 39.1k |
 | 🍴 **Forks** | 4.2k |
-| 🐞 **Open issues + PRs** | [17](https://github.com/virgiliojr94/book-to-skill/issues) |
+| 🐞 **Open issues + PRs** | [19](https://github.com/virgiliojr94/book-to-skill/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-agents` `context-engineering` `document-processing` `edtech` `knowledge-base` `knowledge-management` `llm` `pdf-to-markdown` `rag` `self-study` `study-tools` `book-to-skill` |
-| 🕒 **Last activity** | 2026-11-24 (yesterday) |
+| 🕒 **Last activity** | 2026-11-24 (2d ago) |
 | 📅 **Created** | 2026-05-01 |
 | 📦 **Latest release** | [v2.0.1](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.1) — 2026-11-19 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v2.0.1](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.1)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **[2.0.1] - 2026-11-19**
 > **Added**
@@ -46,7 +46,7 @@
 > …
 
 ### [v2.0.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.0)
-<sub>2026-11-19 · 7d ago</sub>
+<sub>2026-11-19 · 8d ago</sub>
 
 > **[2.0.0] - 2026-11-19**
 > **Added**
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.3.0](https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.3.0)
-<sub>2026-07-30 · 3mo ago</sub>
+<sub>2026-07-30 · 4mo ago</sub>
 
 > **book-to-skill v1.3.0**
 > 36 commits since v1.2.0. This release is security-heavy and adds multilingual chapter detection.

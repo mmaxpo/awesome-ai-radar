@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 210.6k |
-| 🍴 **Forks** | 11.0k |
-| 🐞 **Open issues + PRs** | [929](https://github.com/firecrawl/firecrawl/issues) |
+| ⭐ **Stars** | 211.4k |
+| 🍴 **Forks** | 11.1k |
+| 🐞 **Open issues + PRs** | [933](https://github.com/firecrawl/firecrawl/issues) |
 | 💻 **Languages** | TypeScript 54% · Python 18% · Rust 9% · Java 5% · PHP 4% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `ai` `crawler` `markdown` `scraper` `html-to-markdown` `llm` `scraping` `web-crawler` `ai-scraping` `webscraping` `web-scraping` `web-data` `web-data-extraction` `ai-agents` `data-extraction` `ai-crawler` `ai-search` `web-scraper` `web-search` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2024-04-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0) — 2026-06-19 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 190.8 MB |
+| 💾 **Size** | 191.5 MB |
 | 🌐 **Website** | https://firecrawl.dev |
 
 ## 📦 Recent releases
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [fix(api): strip NUL characters from markdown and html (#6104)](https://github.com/firecrawl/firecrawl/commit/cb8e1c09106eaa600dafad67806fbde5e0a708a8) | Chadha93 |
 | 2026-11-26 | [chore(api): drop the unread active_crawls and crawls_by_team_id sets …](https://github.com/firecrawl/firecrawl/commit/68291b7a8c27d60b848a58f26e271be808912735) | abimaelmartell |
 | 2026-11-26 | [feat(api): dedicated crawl state Redis and loud handling of missing c…](https://github.com/firecrawl/firecrawl/commit/d355ef9020e34abe52948f8e99577bdaf4d290fc) | abimaelmartell |
 | 2026-11-25 | [chore(sdks): update package descriptions (#6080)](https://github.com/firecrawl/firecrawl/commit/d7ae564d3c49df3be44d344956675c43947517fc) | capy-ai[bot] |
@@ -103,7 +104,6 @@
 | 2026-11-25 | [chore(api): log webhook host and events instead of full config (#6066)](https://github.com/firecrawl/firecrawl/commit/98ae8c7578cccb021560eca6158ca347420810bc) | abimaelmartell |
 | 2026-11-25 | [refactor(api): complete modular service architecture, env cleanup, an…](https://github.com/firecrawl/firecrawl/commit/edd2574beed4b92a12cd83198de6f9ac6f0030ae) | mogery |
 | 2026-11-25 | [feat(api): let search providers declare enterprise retention mode sup…](https://github.com/firecrawl/firecrawl/commit/0519b26a2b73c13048c0d29bce12c0306f7601ec) | abimaelmartell |
-| 2026-11-25 | [feat(api): trace each scrape engine attempt and honor OTEL_TRACES_SAM…](https://github.com/firecrawl/firecrawl/commit/d8f7c69ac9c3576ed70085e2bd841dc5cdfb3df7) | abimaelmartell |
 
 [See all commits ↗](https://github.com/firecrawl/firecrawl/commits)
 

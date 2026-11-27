@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 48.3k |
+| ⭐ **Stars** | 48.4k |
 | 🍴 **Forks** | 5.1k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/anthropics/claude-plugins-official/issues) |
 | 💻 **Languages** | Python 58% · TypeScript 28% · JavaScript 10% · HTML 4% · Shell 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `claude-code` `mcp` `skills` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-11-20 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 20.7 MB |
+| 💾 **Size** | 20.5 MB |
 | 🌐 **Website** | https://code.claude.com/docs/en/plugins |
 
 ## 📦 Recent releases

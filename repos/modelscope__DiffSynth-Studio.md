@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 13.4k |
 | 🍴 **Forks** | 1.3k |
-| 🐞 **Open issues + PRs** | [587](https://github.com/modelscope/DiffSynth-Studio/issues) |
+| 🐞 **Open issues + PRs** | [577](https://github.com/modelscope/DiffSynth-Studio/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-12-07 |
 | 📦 **Latest release** | [v1.1.9](https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9) — 2025-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 20.9 MB |
+| 💾 **Size** | 21.0 MB |
 
 ## 📦 Recent releases
 
@@ -64,16 +64,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Bugfix: dtype (#1861)](https://github.com/modelscope/DiffSynth-Studio/commit/c6c916e42429bc278f952c93966a48e75db87e10) | Artiprocher |
-| 2026-11-26 | [Support Diffutoon-2 (#1860)](https://github.com/modelscope/DiffSynth-Studio/commit/100a41c7904e11eb3e0f7c2cd2c5e20d2d2180e7) | Artiprocher |
-| 2026-11-25 | [accelerate h3-image vae decode (#1859)](https://github.com/modelscope/DiffSynth-Studio/commit/4f67cdf053341ee19a1995b99f3edce76ec11d1c) | mi804 |
-| 2026-11-25 | [Support MiniMax-H3-pi-H3 (#1856)](https://github.com/modelscope/DiffSynth-Studio/commit/f82f5e19fdc2dc6660aeb7b3d44b74c7ba8f5cd9) | yjy415 |
-| 2026-11-25 | [Support mesh group and cfg parallel (#1858)](https://github.com/modelscope/DiffSynth-Studio/commit/e46ba5b433b092a7cd73e002cb1b5dfa5db08c70) | mi804 |
-| 2026-11-24 | [support sensenova v1.6 (#1855)](https://github.com/modelscope/DiffSynth-Studio/commit/3093e5599430e5605054cd052631344ae4298891) | mi804 |
-| 2026-11-23 | [update README (#1852)](https://github.com/modelscope/DiffSynth-Studio/commit/259d1864903a7d469975584294d233bdb4aba6ae) | Artiprocher |
-| 2026-11-23 | [Support Unified Sequence Parallel (#1851)](https://github.com/modelscope/DiffSynth-Studio/commit/e33e16cfd38fc9d22b753303ed2b16d086ceb586) | Artiprocher |
-| 2026-11-23 | [fix typo (#1848)](https://github.com/modelscope/DiffSynth-Studio/commit/ee5fab2387c9ae012edb771dcfad6c6a6aceda3b) | Artiprocher |
-| 2026-11-23 | [update docs (#1847)](https://github.com/modelscope/DiffSynth-Studio/commit/87ae01654426887ebb139923820df41dc6592c77) | Artiprocher |
+| 2026-11-27 | [Fix history-dependent Qwen-Image-Edit RoPE caching (#1808)](https://github.com/modelscope/DiffSynth-Studio/commit/f690e468dcb7d4ca213581c5c6cb70a6b07847d0) | taking-lying-flat |
+| 2026-11-27 | [fix scheduler (#1868)](https://github.com/modelscope/DiffSynth-Studio/commit/20e5d2f56e18da25c144d0857e1a26ab29c5da6c) | mi804 |
+| 2026-11-27 | [Support HiUni (#1867)](https://github.com/modelscope/DiffSynth-Studio/commit/3bbdc3e65858611a0500b6b6810c20d669c1436a) | Artiprocher |
+| 2026-11-27 | [support ming-image-0.2-design (#1866)](https://github.com/modelscope/DiffSynth-Studio/commit/60644eefc6175fe92d4b5ebe28e526274777352a) | mi804 |
+| 2026-11-27 | [Fix Wan head timestep conditioning with Video-As-Prompt (#1805)](https://github.com/modelscope/DiffSynth-Studio/commit/9d4a4bb36f0015ebc1091fbb102e8104ccd7a39f) | taking-lying-flat |
+| 2026-11-27 | [docs: point ArtAug example links at the current training guide (#1812)](https://github.com/modelscope/DiffSynth-Studio/commit/122f2bc70b33c65c78102d703e11854aabe8332e) | cloudgpuapp |
+| 2026-11-27 | [Fix undefined names in flux_controlnet's hash_state_dict_keys (#1814)](https://github.com/modelscope/DiffSynth-Studio/commit/9f4450e0e11f30adc4ad27e8f944f0112f7a8791) | kayaal34 |
+| 2026-11-27 | [ci: fix release workflow (missing requirements.txt and build module) …](https://github.com/modelscope/DiffSynth-Studio/commit/13046f3065e766ec372e1531fc6a35a8e11f2a0b) | lhy-dcf |
+| 2026-11-27 | [update docs (#1865)](https://github.com/modelscope/DiffSynth-Studio/commit/c605aeaeaabebcd5a8e7edab054ea0a829e3ad70) | Artiprocher |
+| 2026-11-27 | [optimize low-vram inference for diffutoon-2 (#1864)](https://github.com/modelscope/DiffSynth-Studio/commit/a2433d76930fe08ba38aab810a96a96dde48e4ca) | Artiprocher |
 
 [See all commits ↗](https://github.com/modelscope/DiffSynth-Studio/commits)
 

@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 94 |
+| ⭐ **Stars** | 95 |
 | 🍴 **Forks** | 29 |
 | 🐞 **Open issues + PRs** | [5](https://github.com/jasonlee-breadcrumb/motion-os/issues) |
 | 💻 **Languages** | HTML 92% · JavaScript 8% |

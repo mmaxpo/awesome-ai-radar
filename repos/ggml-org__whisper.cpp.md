@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 55.5k |
+| ⭐ **Stars** | 55.6k |
 | 🍴 **Forks** | 6.4k |
-| 🐞 **Open issues + PRs** | [368](https://github.com/ggml-org/whisper.cpp/issues) |
+| 🐞 **Open issues + PRs** | [369](https://github.com/ggml-org/whisper.cpp/issues) |
 | 💻 **Languages** | C++ 53% · C 30% · Cuda 9% · Metal 3% · GLSL 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `openai` `speech-to-text` `transformer` `whisper` `inference` `speech-recognition` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2022-09-25 |
 | 📦 **Latest release** | [v1.9.6](https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.6) — 2026-11-23 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.9.6](https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.6)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **Overview**
 > New version has been released.
@@ -46,7 +46,7 @@
 > …
 
 ### [b5907](https://github.com/ggml-org/whisper.cpp/releases/tag/b5907) _(pre-release)_
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > _No notes._
 

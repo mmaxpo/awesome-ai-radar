@@ -19,12 +19,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 36.9k |
-| 🍴 **Forks** | 990 |
+| 🍴 **Forks** | 1.0k |
 | 🐞 **Open issues + PRs** | [176](https://github.com/casey/just/issues) |
 | 💻 **Languages** | Rust 98% |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-15 (11d ago) |
+| 🕒 **Last activity** | 2026-11-15 (12d ago) |
 | 📅 **Created** | 2016-06-17 |
 | 📦 **Latest release** | [1.59.0](https://github.com/casey/just/releases/tag/1.59.0) — 2026-10-15 |
 | 🌿 **Default branch** | `master` |
@@ -78,7 +78,7 @@
 > …
 
 ### [1.55.1](https://github.com/casey/just/releases/tag/1.55.1)
-<sub>2026-06-30 · 4mo ago</sub>
+<sub>2026-06-30 · 5mo ago</sub>
 
 > **Fixed**
 > - Fix panic when empty path is passed to `--show` and `--usage` ([#3511](https://github.com/casey/just/pull/3511) by [casey](https://github.com/casey))

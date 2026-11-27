@@ -26,7 +26,7 @@
 | 💻 **Languages** | JavaScript 58% · TypeScript 38% · CSS 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `animations` `components` `components-library` `components-react` `javascript` `react` `reactjs` `web` `3d` `component-library` `css-animations` `tailwind` `tailwindcss` `ui-components` `ui-library` `react-components` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2024-08-06 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

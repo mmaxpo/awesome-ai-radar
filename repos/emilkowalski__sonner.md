@@ -19,8 +19,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 13.3k |
-| 🍴 **Forks** | 486 |
-| 🐞 **Open issues + PRs** | [89](https://github.com/emilkowalski/sonner/issues) |
+| 🍴 **Forks** | 488 |
+| 🐞 **Open issues + PRs** | [90](https://github.com/emilkowalski/sonner/issues) |
 | 💻 **Languages** | TypeScript 83% · CSS 16% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `react` `toast` `notifications` |

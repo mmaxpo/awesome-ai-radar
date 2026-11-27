@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 4.7k |
-| 🍴 **Forks** | 246 |
-| 🐞 **Open issues + PRs** | [478](https://github.com/restatedev/restate/issues) |
+| ⭐ **Stars** | 4.8k |
+| 🍴 **Forks** | 247 |
+| 🐞 **Open issues + PRs** | [476](https://github.com/restatedev/restate/issues) |
 | 💻 **Languages** | Rust 100% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `distributed-systems` `async-await` `durable-execution` `microservices` `consistent-state` `reliable-communication` `serverless` `event-driven` `cli` `workflow-engine` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [v1.8.1-hotfix.3](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.3) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 119.5 MB |
+| 💾 **Size** | 119.6 MB |
 | 🌐 **Website** | https://docs.restate.dev |
 
 ## 📦 Recent releases
 
 ### [v1.8.1-hotfix.3](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.3)
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > **Restate v1.8.1-hotfix.3**
 > **Install**
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.8.1-hotfix.2](https://github.com/restatedev/restate/releases/tag/v1.8.1-hotfix.2)
-<sub>2026-11-02 · 24d ago</sub>
+<sub>2026-11-02 · 25d ago</sub>
 
 > **Restate v1.8.1-hotfix.2**
 > **Install**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [[PartitionStore] Group the partition's shared registry state](https://github.com/restatedev/restate/commit/3eae4174c8d8220b37a323fa5be3e35bf5494a34) | AhmedSoliman |
-| 2026-11-26 | [[PartitionStore] Build entry indexes and statistics only after the vq…](https://github.com/restatedev/restate/commit/c36866b1ac588ad545e65174eee3b9b123c53f39) | AhmedSoliman |
-| 2026-11-25 | [[UI] Updating Restate UI to v1.1.9 published at https://github.com/re…](https://github.com/restatedev/restate/commit/40ec026463640d09df12c36fd2d1d71dd922b048) | restatedev-web-ui[bot] |
-| 2026-11-25 | [Update connection pool readme to match implementation (#6049)](https://github.com/restatedev/restate/commit/53ac888901bcc4d57a960d50787eb0efed77b38c) | muhamadazmy |
-| 2026-11-24 | [[PartitionStore] Keep only the entry indexes in use](https://github.com/restatedev/restate/commit/f1f3fede8baf740ea8b966aa52617283180543f5) | AhmedSoliman |
-| 2026-11-24 | [[QueryEngineV2] Name indexes after their storage definitions](https://github.com/restatedev/restate/commit/d0c6ad2046cd27f6b7e594e28a8939aac11446d4) | AhmedSoliman |
-| 2026-11-24 | [[Admin] Report in /version whether the statistics tables can answer](https://github.com/restatedev/restate/commit/82f204c839f1cd0dedc1d0aa54b08df18c59438d) | AhmedSoliman |
-| 2026-11-24 | [Enable indexes and statistics with one option](https://github.com/restatedev/restate/commit/570b2131c776a235113a9cc4887d20e9888724d9) | AhmedSoliman |
-| 2026-11-24 | [[DataFusion] Never return partial statistics totals, also without num…](https://github.com/restatedev/restate/commit/885610a971233aa28b9aaf2149a11f4ba948758c) | AhmedSoliman |
-| 2026-11-24 | [[QueryEngineV2] Move the leader at admission in the stale-owner tests](https://github.com/restatedev/restate/commit/94d699c7fd9f22c6aa719b4f3b3be37243cda9de) | AhmedSoliman |
+| 2026-11-27 | [[Docs] Describe how to retire partition processor logic](https://github.com/restatedev/restate/commit/5fb156a12983b0e7e02308ff6d59e5c5c5c1e866) | tillrohrmann |
+| 2026-11-27 | [[Worker] Let operators opt into retiring journal v1](https://github.com/restatedev/restate/commit/563cdfd8add8ea23a6514fdffa9cce8a61ec9720) | tillrohrmann |
+| 2026-11-27 | [[Worker] Store no completions in journal v1 once journal v1 is retired](https://github.com/restatedev/restate/commit/a83a250aa44225ee95b85e94621f8ef499666cd2) | tillrohrmann |
+| 2026-11-27 | [[Worker] Add the RetireJournalV1 partition feature](https://github.com/restatedev/restate/commit/5fad894b4159ad9eec7765f0c10c8c4c724be39f) | tillrohrmann |
+| 2026-11-27 | [[PartitionStore] Restore partitions lacking required features from a …](https://github.com/restatedev/restate/commit/e667b46ad92583de91b29992c1417aab4afa9640) | tillrohrmann |
+| 2026-11-27 | [[Worker] Apply only control commands while a required feature is missing](https://github.com/restatedev/restate/commit/806fe4d5a6da0d0b5f77bb1842c7fc43ef61ae59) | tillrohrmann |
+| 2026-11-27 | [[Worker] Refuse to start partitions that lack required features](https://github.com/restatedev/restate/commit/ee44eb6a5117c48ed03e922a504c8c4c201e08df) | tillrohrmann |
+| 2026-11-27 | [[Invoker] Run invocation tasks as local tasks with bounded output que…](https://github.com/restatedev/restate/commit/c554be814b67612b57300d4d643e252d980f4c82) | MohamedBassem |
+| 2026-11-26 | [[QueryEngineV2] Narrow invocation status indexes by stage and effecti…](https://github.com/restatedev/restate/commit/a2d478d08b9daa50bd4ab00db9cd90a78bcd0404) | AhmedSoliman |
+| 2026-11-26 | [[QueryEngineV2] Read the newest entries through the creation index](https://github.com/restatedev/restate/commit/4f4d3a6da6b697a653c813433d11252902d59c07) | AhmedSoliman |
 
 [See all commits ↗](https://github.com/restatedev/restate/commits)
 

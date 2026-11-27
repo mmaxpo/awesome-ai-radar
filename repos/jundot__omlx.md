@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 24.0k |
 | 🍴 **Forks** | 2.2k |
-| 🐞 **Open issues + PRs** | [407](https://github.com/jundot/omlx/issues) |
+| 🐞 **Open issues + PRs** | [419](https://github.com/jundot/omlx/issues) |
 | 💻 **Languages** | Python 82% · Swift 8% · HTML 5% · JavaScript 2% · C++ 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `apple-silicon` `inference-server` `llm` `macos` `mlx` `openai-api` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-02-13 |
 | 📦 **Latest release** | [v0.8.4](https://github.com/jundot/omlx/releases/tag/v0.8.4) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 101.0 MB |
+| 💾 **Size** | 101.1 MB |
 | 🌐 **Website** | https://omlx.ai |
 
 ## 📦 Recent releases
 
 ### [v0.8.4](https://github.com/jundot/omlx/releases/tag/v0.8.4) — 0.8.4
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **oMLX 0.8.4**
 > oMLX 0.8.4 makes Inkling 2 Mini much faster, adds LoopCD decoding for it, and speeds up DeepSeek V4.1 when several requests run at once. Inkling 2 Mini prefills 51-124% faster than in 0.8.3, decodes twice as fast at 128K, and now runs Lightning MTP for concurrent requests.
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.8.3](https://github.com/jundot/omlx/releases/tag/v0.8.3) — 0.8.3
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > **oMLX 0.8.3**
 > oMLX 0.8.3 is an optimization release for Inkling 2 Mini and the Hy4 family, which got day-0 support in 0.8.1. Inkling 2 Mini prefills about 20% faster and decodes 10-13% faster, Hy4 Flash starts answering sooner and needs less memory, and Claude Code's web search now works with local models.
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.8.2](https://github.com/jundot/omlx/releases/tag/v0.8.2) — 0.8.2
-<sub>2026-11-21 · 5d ago</sub>
+<sub>2026-11-21 · 6d ago</sub>
 
 > > **Hotfix release:** Fixes wrong click positions on screenshots with Qwen3.8 Flash-Next (#5474). Everything else is the same as 0.8.1.
 > **oMLX 0.8.2**
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.8.1](https://github.com/jundot/omlx/releases/tag/v0.8.1) — 0.8.1
-<sub>2026-11-21 · 5d ago</sub>
+<sub>2026-11-21 · 6d ago</sub>
 
 > **oMLX 0.8.1**
 > oMLX 0.8.1 adds Hy4, Hy4-flash and Inkling 2 Mini, lets you apply a LoRA adapter from a model's settings, and makes MTP verify on M5, GLM-5.3 with several requests and new questions on a cached document faster.
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.8.0](https://github.com/jundot/omlx/releases/tag/v0.8.0) — 0.8.0
-<sub>2026-11-18 · 8d ago</sub>
+<sub>2026-11-18 · 9d ago</sub>
 
 > **oMLX 0.8.0**
 > oMLX 0.8.0 adds the Prefill Accelerator, which lets a PC with NVIDIA GPUs or a second Mac speed up prefill for a big model on your Mac, adds oQh for more accurate low-bit quants at the same size, and makes DeepSeek V4.1, Qwen and long-context decode faster.

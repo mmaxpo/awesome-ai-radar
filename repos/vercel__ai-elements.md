@@ -19,8 +19,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 2.5k |
-| 🍴 **Forks** | 298 |
-| 🐞 **Open issues + PRs** | [126](https://github.com/vercel/ai-elements/issues) |
+| 🍴 **Forks** | 297 |
+| 🐞 **Open issues + PRs** | [125](https://github.com/vercel/ai-elements/issues) |
 | 💻 **Languages** | TypeScript 88% · MDX 12% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `elements` `shadcn-ui` `vercel` |

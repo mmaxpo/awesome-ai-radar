@@ -22,7 +22,7 @@
 |---|---|
 | ⭐ **Stars** | 2.9k |
 | 🍴 **Forks** | 150 |
-| 🐞 **Open issues + PRs** | [37](https://github.com/snownico0722/PaperTodo/issues) |
+| 🐞 **Open issues + PRs** | [39](https://github.com/snownico0722/PaperTodo/issues) |
 | 💻 **Languages** | C# 92% · C 6% · JavaScript 1% · HTML 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `avalonedit` `csharp` `markdown` `minimalist` `notes` `todo` `windows` `wpf` `desktop` `note-taking` `productivity` `sticky-notes` |
@@ -30,12 +30,12 @@
 | 📅 **Created** | 2026-05-27 |
 | 📦 **Latest release** | [v3.40](https://github.com/snownico0722/PaperTodo/releases/tag/v3.40) — 2026-10-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 105.2 MB |
+| 💾 **Size** | 104.6 MB |
 
 ## 📦 Recent releases
 
 ### [v4.0.0-beta2](https://github.com/snownico0722/PaperTodo/releases/tag/v4.0.0-beta2) — PaperTodo v4.0.0-beta2 _(pre-release)_
-<sub>2026-11-18 · 8d ago</sub>
+<sub>2026-11-18 · 9d ago</sub>
 
 > 这是一个测试版，可能存在很多问题、bug。
 > This is a beta version; it may contain many issues and bugs.
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [调整新用户默认设置并确认删除空白纸片 (#481)](https://github.com/snownico0722/PaperTodo/commit/25d52881ef31f969a7cdffd2817899e0d02a2f63) | snownico0722 |
-| 2026-11-25 | [修复次级工作区恢复时首次写图被禁用 (#479)](https://github.com/snownico0722/PaperTodo/commit/0ab34ad73b54d4a302336be84a8879f700a6668c) | snownico0722 |
-| 2026-11-22 | [支持插件追加笔记图片并保留手动置顶 (#477)](https://github.com/snownico0722/PaperTodo/commit/631f860404ae1560c9a5200eb67a764fb582cce0) | snownico0722 |
-| 2026-11-19 | [修复纸片背景设置显示并调整正文间距高级模式可见性 (#474)](https://github.com/snownico0722/PaperTodo/commit/2fd2b580d978f810d4b29065341e6ed890060c29) | snownico0722 |
-| 2026-11-19 | [Merge pull request #473 from snownico0722/feature/paper-content-spacing](https://github.com/snownico0722/PaperTodo/commit/6a720ed7bf55265b3d686dd795a2706f669cdc56) | snownico0722 |
-| 2026-11-19 | [让两组正文间距支持键盘选择并保留焦点 [ci]](https://github.com/snownico0722/PaperTodo/commit/644caa33f89471397a71ecca12e8ca90a158a3fe) | snownico0722 |
-| 2026-11-19 | [修复笔记调整行距后丢失本地正体和粗体字形](https://github.com/snownico0722/PaperTodo/commit/b4653d334145245e995eec74aa50bb9a5d0e2875) | snownico0722 |
-| 2026-11-19 | [在已加载的纸片窗口上验证换行与字体继承 [ci]](https://github.com/snownico0722/PaperTodo/commit/51d4925e168a722c452c6e7f0c7750bcd28d995d) | snownico0722 |
-| 2026-11-19 | [支持独立设置笔记行距与待办条目间距 [ci]](https://github.com/snownico0722/PaperTodo/commit/c17a0d5722aece7917ffbc2fba6f949bb4af1d02) | snownico0722 |
-| 2026-11-19 | [Place capture exclusion in unreleased notes](https://github.com/snownico0722/PaperTodo/commit/b0dd147759377687ae5ba30e5815395b7854947b) | snownico0722 |
+| 2026-11-26 | [Make the workspace reminder inheritance fixture set its local state e…](https://github.com/snownico0722/PaperTodo/commit/f40cba2aa99e57645e43366db033bfc4cd8517fb) | snownico0722 |
+| 2026-11-26 | [Merge pull request #484 from snownico0722/feature/plugin-paper-bottom…](https://github.com/snownico0722/PaperTodo/commit/554f37367996fb3c3c8684e7b2ed7fa69e4189fc) | snownico0722 |
+| 2026-11-26 | [Verify combined capsule and bottom-bar changes on Windows [ci]](https://github.com/snownico0722/PaperTodo/commit/4454faa4dc8afe23295d6a09e06e75d5416dd7d0) | snownico0722 |
+| 2026-11-26 | [Merge main into plugin paper bottom bar](https://github.com/snownico0722/PaperTodo/commit/4e634567a951f25867fa8bd69235597015ebe1fb) | snownico0722 |
+| 2026-11-26 | [Merge pull request #485 from snownico0722/feat/workspace-capsule-cust…](https://github.com/snownico0722/PaperTodo/commit/137d1da3fce1d55f98e0f2d4b69b836ddbe3a2d1) | snownico0722 |
+| 2026-11-26 | [[ci] Verify dock-only view refresh in Windows lifecycle checks](https://github.com/snownico0722/PaperTodo/commit/ff2c423a8c7c2148099a37c77e6b1e7babcefbcb) | snownico0722 |
+| 2026-11-26 | [Refresh docked-only custom capsule views on theme and typography changes](https://github.com/snownico0722/PaperTodo/commit/b0b2ba2b45239c148ea86777e24491eb3bd9db74) | snownico0722 |
+| 2026-11-26 | [Use global plugin enablement and declared targets for paper bottom ba…](https://github.com/snownico0722/PaperTodo/commit/c28874ab65254585f2228d2a123471ac230c2159) | snownico0722 |
+| 2026-11-26 | [让插件备用边缘预览跟随最终生效的胶囊 [ci]](https://github.com/snownico0722/PaperTodo/commit/22f80da23fade6e7df64c661f945ec31d9c38db3) | snownico0722 |
+| 2026-11-26 | [Keep bottom bar controls and focus across plugin updates [ci]](https://github.com/snownico0722/PaperTodo/commit/c038b92d9f4ac0c9d14b2ad0107f63755b0d6fdf) | snownico0722 |
 
 [See all commits ↗](https://github.com/snownico0722/PaperTodo/commits)
 

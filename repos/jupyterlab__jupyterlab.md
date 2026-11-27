@@ -26,17 +26,17 @@
 | 💻 **Languages** | TypeScript 89% · Python 4% · CSS 4% · JavaScript 2% · Jupyter Notebook 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `jupyterlab` `jupyter` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2016-06-03 |
 | 📦 **Latest release** | [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 311.7 MB |
+| 💾 **Size** | 312.7 MB |
 | 🌐 **Website** | https://jupyterlab.readthedocs.io/ |
 
 ## 📦 Recent releases
 
 ### [v4.7.0b2](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b2) _(pre-release)_
-<sub>2026-11-16 · 9d ago</sub>
+<sub>2026-11-16 · 10d ago</sub>
 
 > **4.7.0b2**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0b1...7e75a1f85fb7ee7f07c7301f7c4f69c1fb7d7618))
@@ -58,7 +58,7 @@
 > …
 
 ### [v4.6.6](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.6)
-<sub>2026-11-06 · 20d ago</sub>
+<sub>2026-11-06 · 21d ago</sub>
 
 > **4.6.6**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.5...a5eab3ae655dd8cea81618efc936e110d3b22037))
@@ -69,7 +69,7 @@
 > …
 
 ### [v4.6.5](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.6.5)
-<sub>2026-10-29 · 27d ago</sub>
+<sub>2026-10-29 · 28d ago</sub>
 
 > **4.6.5**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.6.4...9f5590d07b9a63402a628fe758654f30ee59c2e4))
@@ -80,7 +80,7 @@
 > …
 
 ### [v4.7.0b0](https://github.com/jupyterlab/jupyterlab/releases/tag/v4.7.0b0) _(pre-release)_
-<sub>2026-10-28 · 28d ago</sub>
+<sub>2026-10-28 · 29d ago</sub>
 
 > **4.7.0b0**
 > ([Full Changelog](https://github.com/jupyterlab/jupyterlab/compare/v4.7.0a2...a877aee5ac6f490272a5ac18ac16b62b0deb1223))
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Fix a faulty completion provider disabling all completions (#20614)](https://github.com/jupyterlab/jupyterlab/commit/5d8a73aeddb43fd3f1647c0eda221e21d5980407) | r0c0y |
-| 2026-11-26 | [Fix unwanted scrolling to the active cell when a dialog closes (#20627)](https://github.com/jupyterlab/jupyterlab/commit/09f70744b7d454023cb073ae1e54be541efa8f2a) | r0c0y |
-| 2026-11-26 | [Fix the `End` key stopping early after expanding a collapsed section …](https://github.com/jupyterlab/jupyterlab/commit/0080027b465deb784e22efc394d4c43e264a73ff) | r0c0y |
-| 2026-11-26 | [Fix file browser rename failure when the focused item is filtered out…](https://github.com/jupyterlab/jupyterlab/commit/45d2bbfc013bf8f8a072afb7dcdde9d5742d96ba) | MAYANKSHARMA01010 |
-| 2026-11-26 | [Fix isolated plain text outputs rendering as empty iframes (#20634)](https://github.com/jupyterlab/jupyterlab/commit/235272376eb4318fa6649c6e228b6d2be0020989) | chungvinhhien |
-| 2026-11-25 | [Fix formulas setting arbitrary data attributes through `\data` (#20589)](https://github.com/jupyterlab/jupyterlab/commit/585894cf7b1a5a226d579bcd94c9e759df5ceb86) | krassowski |
-| 2026-11-25 | [Add pixi development config (#20573)](https://github.com/jupyterlab/jupyterlab/commit/0f5fe88108a902d87e6d3b218a079b3dc6a1efdf) | jasongrout |
-| 2026-11-25 | [Fix jump back from the end of a notebook in full windowing mode (#20529)](https://github.com/jupyterlab/jupyterlab/commit/fbeb7890bf355efcc8a72ab633025bbf3b6d7559) | 14-himanshu |
-| 2026-11-25 | [Add notebook setting for default scrolled output height (#19603)](https://github.com/jupyterlab/jupyterlab/commit/7b8c4851cdc15ad02fc6a1f189212f1f15a88c00) | nicolasdmolina |
-| 2026-11-25 | [ Fix lost execution timing of moved/restored cells that were still ru…](https://github.com/jupyterlab/jupyterlab/commit/b31def0c388b231f5478381b07b82611eede6f25) | krassowski |
+| 2026-11-27 | [Fix matches not marked in cells that render after the search starts (…](https://github.com/jupyterlab/jupyterlab/commit/8b44048034a611b6dfcd3cfbf01af9c63f2ca14d) | MinTien |
+| 2026-11-27 | [Fix the search scrolling to a missing cell in `full` windowing mode (…](https://github.com/jupyterlab/jupyterlab/commit/3ac9fa12793f9d2cbc9ad0db9d580df360026881) | krassowski |
+| 2026-11-27 | [Fix loss of edits made while a file is being saved (missing dirty ind…](https://github.com/jupyterlab/jupyterlab/commit/8cea91c5f937118006a0a3dbecc3415832163e36) | Yagnik-Trivedi |
+| 2026-11-27 | [Update Lumino to `v2026.11.26` (#20643)](https://github.com/jupyterlab/jupyterlab/commit/cf43edf8f5fb4eef877396b08697a9ac254e3697) | krassowski |
+| 2026-11-27 | [Report Trusted Types violations in UI tests (report-only) (#20565)](https://github.com/jupyterlab/jupyterlab/commit/dfd4068aebb26e2989b194061690d3a1c51745c9) | Darshan808 |
+| 2026-11-27 | [Fix the search not scrolling to matches that are out of view (#20636)](https://github.com/jupyterlab/jupyterlab/commit/66a6ea71b0e2bfd0d1a3062b16e2b839e5439152) | krassowski |
+| 2026-11-27 | [Fix 'Find next' in the file editor wrapping around without marking a …](https://github.com/jupyterlab/jupyterlab/commit/b9e373d15e51616f89e25f694d1089eb1add77e0) | krassowski |
+| 2026-11-26 | [Fix unwanted completions from a collaborator's typing (#20519)](https://github.com/jupyterlab/jupyterlab/commit/aaa475620abfdbfae3edb92a6a4b1bf61ce1caea) | 14-himanshu |
+| 2026-11-26 | [Fix stale breakpoints accumulating while a cell is edited or deleted …](https://github.com/jupyterlab/jupyterlab/commit/383d5f604dad444c3d4960f1e2a08f68d6ace7ec) | 14-himanshu |
+| 2026-11-26 | [Bump ajv from 8.12.0 to 8.20.0 in /jupyterlab/tests/mock_packages/tes…](https://github.com/jupyterlab/jupyterlab/commit/76b8aac940394c7cae899612cfe3dad81aea6d70) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/jupyterlab/jupyterlab/commits)
 

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 67.0k |
+| ⭐ **Stars** | 67.1k |
 | 🍴 **Forks** | 13.3k |
-| 🐞 **Open issues + PRs** | [431](https://github.com/bilawalsidhu/gods-eye-view/issues) |
+| 🐞 **Open issues + PRs** | [436](https://github.com/bilawalsidhu/gods-eye-view/issues) |
 | 💻 **Languages** | JavaScript 95% · CSS 2% · Vue 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `3d-globe` `cesium` `flight-tracking` `geospatial` `geospatial-intelligence` `gis` `osint` `photogrammetry` `satellite-tracking` `spatial-intelligence` `webgl` `worldview` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-06-22 |
 | 📦 **Latest release** | [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 266.6 MB |
+| 💾 **Size** | 270.7 MB |
 | 🌐 **Website** | https://godseyeview.ai/ |
 
 ## 📦 Recent releases
 
 ### [v0.3.0](https://github.com/bilawalsidhu/gods-eye-view/releases/tag/v0.3.0) — v0.3.0 — Street Level, On Your Phone, in Your Language
-<sub>2026-10-28 · 29d ago</sub>
+<sub>2026-10-28 · 1mo ago</sub>
 
 > v0.3.0 brings God's Eye View down to the street, into your pocket and into three new languages. Open street-level photos from four providers without leaving the globe, use the app on a phone with a layout built for it, and read the interface in Spanish, Russian or Simplified Chinese. Short share links, a rebuilt voice assistant, your own map files, GNSS interference and aircraft emergencies, ten new camera packs and about thirty new bikeshare systems come with it.
 > **Street Level**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Merge pull request #1947 from bilawalsidhu/sameh/aq-rating-export](https://github.com/bilawalsidhu/gods-eye-view/commit/2ae043baeec0eb590aaa5e86bae1ad57055f4f9b) | samehkhamis |
-| 2026-11-26 | [feat(air-quality): the portable source exports its rating rules](https://github.com/bilawalsidhu/gods-eye-view/commit/f0839f3f9fc28161244568b482d5c7b415a448a8) | samehkhamis |
-| 2026-11-26 | [Merge pull request #1945 from bilawalsidhu/samehkhamis/phone-layer-me…](https://github.com/bilawalsidhu/gods-eye-view/commit/13d15a794413366842b9325b54ee33e5a049e8b1) | samehkhamis |
-| 2026-11-26 | [Merge branch 'main' into samehkhamis/phone-layer-memory](https://github.com/bilawalsidhu/gods-eye-view/commit/72d26e21d7aa62145aea8822c67ab653561b0e71) | samehkhamis |
-| 2026-11-26 | [Merge pull request #1946 from bilawalsidhu/sameh/aq-so2-doc](https://github.com/bilawalsidhu/gods-eye-view/commit/46bc9a33f8f283a8dd252124bc4fcd04d4c1fc6d) | samehkhamis |
-| 2026-11-26 | [Merge branch 'main' into samehkhamis/phone-layer-memory](https://github.com/bilawalsidhu/gods-eye-view/commit/3cc21ddf21ecae1a8a8fedcc2b03315cfc762382) | samehkhamis |
-| 2026-11-26 | [docs(air-quality): a 24-hour SO2 row below 305 ppb does not rate alone](https://github.com/bilawalsidhu/gods-eye-view/commit/01c8a8d1d066cb15d8a79e7525fcd274353d22a1) | samehkhamis |
-| 2026-11-26 | [Merge pull request #1943 from bilawalsidhu/sameh/vessel-brackets](https://github.com/bilawalsidhu/gods-eye-view/commit/648ee2815d8f62dfc5657a50f807d77c1c488e28) | samehkhamis |
-| 2026-11-26 | [docs(changelog): phone overlay canvases (#1945)](https://github.com/bilawalsidhu/gods-eye-view/commit/e0e24cf191fcc1a361cc70ddfadec9311010ad84) | samehkhamis |
-| 2026-11-26 | [fix(scope-mask): a desktop ratio under 1 is kept for the feathered mask](https://github.com/bilawalsidhu/gods-eye-view/commit/6bb1a098be30cca1fd403abb6b20a7e1552fb02c) | samehkhamis |
+| 2026-11-27 | [Merge pull request #1965 from bilawalsidhu/sameh/cable-record-facts](https://github.com/bilawalsidhu/gods-eye-view/commit/cee2940484ca8002bf4679098e5d69a72be290c3) | samehkhamis |
+| 2026-11-27 | [Merge branch 'main' into sameh/cable-record-facts](https://github.com/bilawalsidhu/gods-eye-view/commit/63e4330da6d5389bbc0b6a8b5df1fc500c3e2718) | samehkhamis |
+| 2026-11-27 | [Merge pull request #1959 from bilawalsidhu/sameh/cable-name-card](https://github.com/bilawalsidhu/gods-eye-view/commit/90839e63cb9ca111ab7c6e0dfc894cc5d9c99f0f) | samehkhamis |
+| 2026-11-27 | [Merge branch 'main' into sameh/cable-name-card](https://github.com/bilawalsidhu/gods-eye-view/commit/4e70e7cf064b311e2870e60a2dca0bc2456f8179) | samehkhamis |
+| 2026-11-27 | [Merge pull request #1964 from bilawalsidhu/sameh/layer-panel-interface](https://github.com/bilawalsidhu/gods-eye-view/commit/b28df3f0031ff0892be42ac1054f7c1ee7cf94e5) | samehkhamis |
+| 2026-11-27 | [Add the changelog entry for Context card descriptions](https://github.com/bilawalsidhu/gods-eye-view/commit/b6760b9107c965a00e0b9dfe5301423386f0c73d) | samehkhamis |
+| 2026-11-27 | [Context cards show an item's description; custom layers can open the …](https://github.com/bilawalsidhu/gods-eye-view/commit/c99cf33affc1ec3119bb143e420b5cda49f58505) | samehkhamis |
+| 2026-11-27 | [A selected cable or landing point is named by its record's id (cable:…](https://github.com/bilawalsidhu/gods-eye-view/commit/465c59b7153cca38ecfc444a40650bf619c6e58f) | samehkhamis |
+| 2026-11-27 | [Merge branch 'main' into sameh/layer-panel-interface](https://github.com/bilawalsidhu/gods-eye-view/commit/75444c9a0e3cb2e4b653c51bf418c57d4e5d43ef) | samehkhamis |
+| 2026-11-27 | [Merge pull request #1963 from bilawalsidhu/sameh/orbits-behind-globe](https://github.com/bilawalsidhu/gods-eye-view/commit/d3a3a0cc832f6b2526c70a7dfbda9997dda7a79f) | samehkhamis |
 
 [See all commits ↗](https://github.com/bilawalsidhu/gods-eye-view/commits)
 

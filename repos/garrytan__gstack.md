@@ -20,22 +20,33 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 142.7k |
+| ⭐ **Stars** | 142.8k |
 | 🍴 **Forks** | 21.1k |
-| 🐞 **Open issues + PRs** | [48](https://github.com/garrytan/gstack/issues) |
+| 🐞 **Open issues + PRs** | [45](https://github.com/garrytan/gstack/issues) |
 | 💻 **Languages** | TypeScript 91% · Shell 4% · Go Template 3% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-03-11 |
-| 📦 **Latest release** | [v1.104.0.0](https://github.com/garrytan/gstack/releases/tag/v1.104.0.0) — 2026-11-26 |
+| 📦 **Latest release** | [v1.104.1.0](https://github.com/garrytan/gstack/releases/tag/v1.104.1.0) — 2026-11-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 280.9 MB |
+| 💾 **Size** | 282.6 MB |
 
 ## 📦 Recent releases
 
+### [v1.104.1.0](https://github.com/garrytan/gstack/releases/tag/v1.104.1.0) — gstack v1.104.1.0
+<sub>2026-11-27 · today</sub>
+
+> **gstack v1.104.1.0**
+> **What's new**
+> - Upgrading now removes the old `ship` and `cso` skill folders that 1.104.0.0 left behind. ([#4844](https://github.com/garrytan/gstack/pull/4844))
+> - `./setup` on Windows now works when your home folder has an apostrophe in its name, such as `C:\Users\O'Brien`. ([#4845](https://github.com/garrytan/gstack/pull/4845))
+> - `/gstack-ship` now handles very large results PRs. ([#4847](https://github.com/garrytan/gstack/pull/4847))
+> - make-pdf removes `javascript:` links spelled with tabs, line breaks or entity letters. ([#4848](https://github.com/garrytan/gstack/pull/4848))
+> …
+
 ### [v1.104.0.0](https://github.com/garrytan/gstack/releases/tag/v1.104.0.0) — gstack v1.104.0.0
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **gstack v1.104.0.0**
 > **What's new**
@@ -46,7 +57,7 @@
 > …
 
 ### [v1.103.3.0](https://github.com/garrytan/gstack/releases/tag/v1.103.3.0) — gstack v1.103.3.0
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **gstack v1.103.3.0**
 > **What's new**
@@ -57,7 +68,7 @@
 > …
 
 ### [v1.103.1.0](https://github.com/garrytan/gstack/releases/tag/v1.103.1.0) — gstack v1.103.1.0
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **gstack v1.103.1.0**
 > **What's new**
@@ -68,7 +79,7 @@
 > …
 
 ### [v1.103.0.0](https://github.com/garrytan/gstack/releases/tag/v1.103.0.0) — gstack v1.103.0.0
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > **gstack v1.103.0.0**
 > This release closes gaps in two of gstack's safety checks and its merge tool, fixes the /ship failures that were stopping pull requests from finishing, and renames `/verify` to `/build-check` so Claude Code's own `/verify` works again. Upgrade with `/gstack-upgrade`.
@@ -78,31 +89,20 @@
 > - gstack no longer runs the check pass before every commit on its own, so the `verify_before_commit` setting is retired. Setting it prints a note and changes nothing, and a config file that still has it keeps working. (#4714)
 > …
 
-### [v1.102.2.0](https://github.com/garrytan/gstack/releases/tag/v1.102.2.0) — gstack v1.102.2.0
-<sub>2026-11-21 · 4d ago</sub>
-
-> gstack 1.102.2.0 fixes two things that broke skills on Codex, stops /plan-tune sending your typed answers to the model without a record, lets large repositories use /ship, makes /office-hours start from ground truth, and moves skill routing out of your CLAUDE.md into the hook that now does that job.
-> **Codex**
-> - Skills no longer stop on Codex 0.170 when they clean up temporary files: gstack's Codex skills stopped using the `rm -f` form that Codex refuses (67 refusals before, 0 after). (#4612)
-> - /review on Codex with OpenAI models no longer fails a review that really ran its security pass. Codex encrypts the message sent to that reviewer, so gstack now recognises the pass from the reviewer it started instead of from the message text. (#4622)
-> **Privacy and telemetry**
-> - /plan-tune's answer summariser now writes the off-machine send record the README promises before it sends your typed answers to the model, and sends nothing if that record can't be written. A new test fails on any model call that writes no record. Thanks to @robbiesierra for the report. (#4621)
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [v1.104.1.0 release (#4854)](https://github.com/garrytan/gstack/commit/306ff23b9d2bd7951b7f6c408c7376f3237520c9) | garrytan |
+| 2026-11-26 | [Review diffs over the 2 MB ceiling in slices instead of stopping (GST…](https://github.com/garrytan/gstack/commit/e3f916bf0d0bdb145e2505b62f3329230f6329e1) | garrytan |
+| 2026-11-26 | [/codex cleanup stops asking for /careful approval, and plan-mode Code…](https://github.com/garrytan/gstack/commit/be64b102975afe46f35dd27d3fe7c6908d7c9d5e) | garrytan |
+| 2026-11-26 | [Let /gstack-ship handle very large results PRs (GST-4003) (#4847)](https://github.com/garrytan/gstack/commit/77da8a0160e8a651ec328e305a37c8fea140bfbb) | garrytan |
+| 2026-11-26 | [Upgrading from inside the gstack checkout no longer reinstalls Codex …](https://github.com/garrytan/gstack/commit/0febbce1e4382b140a930f6a17c53234de2b05e7) | garrytan |
+| 2026-11-26 | [The release gate's live /autoplan guard test runs on Haiku 5.5 (GST-3…](https://github.com/garrytan/gstack/commit/aa503e29f4e620a2ab689172c7fb261c7b280874) | garrytan |
+| 2026-11-26 | [Make the plan-review test judge reject failed sessions and steady two…](https://github.com/garrytan/gstack/commit/89825888c57ec5ed472f8fea4a715882b401a9e5) | garrytan |
+| 2026-11-26 | [make-pdf blocks javascript: links written with tabs or entity letters…](https://github.com/garrytan/gstack/commit/f5b42d682c109db29d127ac9c1a90a264d37d058) | garrytan |
+| 2026-11-26 | [Setup works on Windows when the home folder name has an apostrophe (#…](https://github.com/garrytan/gstack/commit/4ec576aaa57ea76be375d4259e6dca7966abfa86) | garrytan |
 | 2026-11-26 | [Upgrading removes the leftover ship and cso skill folders (GST-3999) …](https://github.com/garrytan/gstack/commit/fd81a04ba7a85d20c8d2134893f45765df5ee578) | garrytan |
-| 2026-11-25 | [v1.104.0.0 release (#4840)](https://github.com/garrytan/gstack/commit/e6dd567349e85506127c2f4cf69a0392923c032c) | garrytan |
-| 2026-11-25 | [Drop release notes that later changes in this release made outdated (…](https://github.com/garrytan/gstack/commit/fe5aee946fdd6626e09e933dd09bf386853b953e) | garrytan |
-| 2026-11-25 | [Remove the /cso security audit skill, since a plain audit request fin…](https://github.com/garrytan/gstack/commit/2fae1d78d60fee5faa6e4503b2a3f5bdba3b4f11) | garrytan |
-| 2026-11-25 | [Remove the /cso test files, CI workflows and docs ahead of removing /…](https://github.com/garrytan/gstack/commit/fd7e8c7b3640aeb7caad11aa9d72d2ca22a05971) | garrytan |
-| 2026-11-25 | [Let CI results count for /ship without the three /cso jobs being remo…](https://github.com/garrytan/gstack/commit/1145e80a4793cbdd8bd44b635478de81a3e61b71) | garrytan |
-| 2026-11-25 | [/careful no longer asks before deleting a file inside another worktre…](https://github.com/garrytan/gstack/commit/a48df18f516c69e0e142d286e60082a55d568230) | garrytan |
-| 2026-11-25 | [gstack-pr-wait ignores cancelled checks a newer pass replaced, and th…](https://github.com/garrytan/gstack/commit/8aafd408e21f309f6be6079d047ec7a7934256bd) | garrytan |
-| 2026-11-25 | [Stop six gstack tests from failing at random in CI (GST-3852) (#4830)](https://github.com/garrytan/gstack/commit/959df8ccc4b7a5879469743c7076d66e6d0918dd) | garrytan |
-| 2026-11-25 | [Skill routing no longer fires on subagent hand-backs or passing menti…](https://github.com/garrytan/gstack/commit/76dd597ff149380f5cdfaa49179211822f64244c) | garrytan |
 
 [See all commits ↗](https://github.com/garrytan/gstack/commits)
 

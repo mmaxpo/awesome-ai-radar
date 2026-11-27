@@ -14,7 +14,7 @@
 | **Why it's worth a look** | Simple, Midjourney-style SD image generator |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 11mo
+💤 **Quiet** — no activity for 12mo
 
 ## 📊 At a glance
 
@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 97% · JavaScript 3% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2025-12-01 (11mo ago) |
+| 🕒 **Last activity** | 2025-12-01 (12mo ago) |
 | 📅 **Created** | 2023-08-09 |
 | 📦 **Latest release** | [v2.5.5](https://github.com/lllyasviel/Fooocus/releases/tag/v2.5.5) — 2024-08-12 |
 | 🌿 **Default branch** | `main` |

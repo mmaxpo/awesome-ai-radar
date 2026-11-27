@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 60.7k |
 | 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [845](https://github.com/MemPalace/mempalace/issues) |
+| 🐞 **Open issues + PRs** | [847](https://github.com/MemPalace/mempalace/issues) |
 | 💻 **Languages** | Python 94% · JavaScript 2% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `chromadb` `llm` `mcp` `memory` `python` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-04-05 |
 | 📦 **Latest release** | [v3.12.0](https://github.com/MemPalace/mempalace/releases/tag/v3.12.0) — 2026-11-12 |
 | 🌿 **Default branch** | `develop` |
-| 💾 **Size** | 33.8 MB |
+| 💾 **Size** | 33.5 MB |
 | 🌐 **Website** | http://mempalaceofficial.com/ |
 
 ## 📦 Recent releases
 
 ### [v3.12.0](https://github.com/MemPalace/mempalace/releases/tag/v3.12.0) — v3.12.0 — verbatim mining, recoverable writes
-<sub>2026-11-12 · 14d ago</sub>
+<sub>2026-11-12 · 15d ago</sub>
 
 > MemPalace 3.12 keeps source text and bytes intact, makes interrupted re-mines recoverable, and cuts the work needed to maintain large palaces. Timestamps and project wings now follow the same rules across tools and hooks. Antigravity gains a visual Palace explorer, and the final release review fixes graph identity collisions, concurrent checkpoint duplicates, document filtering, and newest-first pagination.
 > **Upgrade notes**

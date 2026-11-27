@@ -26,11 +26,11 @@
 | 💻 **Languages** | Python 58% · TypeScript 40% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `chatgpt` `llm` `python` `rag` `long-term-memory` `memory` `memory-management` `state-management` `ai-agents` `agents` `genai` `agentic-memory` `agentic-memory-system` |
-| 🕒 **Last activity** | 2026-11-25 (yesterday) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-06-20 |
 | 📦 **Latest release** | [ts-v3.3.1](https://github.com/mem0ai/mem0/releases/tag/ts-v3.3.1) — 2026-09-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 68.6 MB |
+| 💾 **Size** | 68.8 MB |
 | 🌐 **Website** | https://mem0.ai |
 
 ## 📦 Recent releases
@@ -80,6 +80,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [fix(security): resolve 46 Vanta HIGH/MEDIUM Dependabot alerts (zod, n…](https://github.com/mem0ai/mem0/commit/b151adc9477b3b2ec88e9ba29ef1293a533b81b1) | harshgupta-mem0 |
 | 2026-11-25 | [fix(security): resolve 5 Vanta LOW Dependabot vulnerabilities (#8004)](https://github.com/mem0ai/mem0/commit/a330119bda245ad05bf1d5e6779fc588b5f19443) | harshgupta-mem0 |
 | 2026-11-24 | [Update README.md (#7996)](https://github.com/mem0ai/mem0/commit/8096993d69396bf97311249206915cadb2eb998f) | deshraj |
 | 2026-11-23 | [fix(security): resolve 22 Vanta HIGH/CRITICAL Dependabot alerts (mong…](https://github.com/mem0ai/mem0/commit/f93aba4b53241ccd9db32903cd19d1ff7f0066f0) | harshgupta-mem0 |
@@ -89,7 +90,6 @@
 | 2026-11-04 | [fix(security): resolve 5 Vanta CRITICAL Dependabot vulnerabilities (#…](https://github.com/mem0ai/mem0/commit/ed1f10fc87080f0b67f99be370817504888462ab) | harshgupta-mem0 |
 | 2026-10-30 | [fix(memory): never re-create a deleted memory when update races delet…](https://github.com/mem0ai/mem0/commit/753496cf1435d76c3a711f3af51303f7fdcb6420) | harsh-mem0 |
 | 2026-10-30 | [fix(ts): never re-create a deleted memory when update races delete (#…](https://github.com/mem0ai/mem0/commit/d2b8432b772a5923ab5ba145cf1ae2a9f8b1c3f2) | harsh-mem0 |
-| 2026-10-26 | [docs(platform): add the pricing FAQ page (#7711)](https://github.com/mem0ai/mem0/commit/26cdefb46600c0fa5953c4b5ee5003c125539fc4) | harsh-mem0 |
 
 [See all commits ↗](https://github.com/mem0ai/mem0/commits)
 

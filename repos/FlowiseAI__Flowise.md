@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [flowise@3.1.4](https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4)
-<sub>2026-07-29 · 3mo ago</sub>
+<sub>2026-07-29 · 4mo ago</sub>
 
 > **What's Changed**
 > * Fix Type Validation For Session ID by @yau-wd in https://github.com/FlowiseAI/Flowise/pull/6568

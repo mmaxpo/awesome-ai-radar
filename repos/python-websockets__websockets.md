@@ -24,7 +24,7 @@
 | 💻 **Languages** | Python 98% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `python` `python3` `websocket` `websockets` `websocket-client` `websocket-server` `websocket-library` |
-| 🕒 **Last activity** | 2026-11-14 (11d ago) |
+| 🕒 **Last activity** | 2026-11-14 (12d ago) |
 | 📅 **Created** | 2013-03-30 |
 | 📦 **Latest release** | [17.4](https://github.com/python-websockets/websockets/releases/tag/17.4) — 2026-10-30 |
 | 🌿 **Default branch** | `main` |

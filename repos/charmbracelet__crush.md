@@ -22,20 +22,42 @@
 |---|---|
 | ⭐ **Stars** | 29.2k |
 | 🍴 **Forks** | 2.4k |
-| 🐞 **Open issues + PRs** | [596](https://github.com/charmbracelet/crush/issues) |
+| 🐞 **Open issues + PRs** | [606](https://github.com/charmbracelet/crush/issues) |
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `agentic-ai` `ai` `llms` `ravishing` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-05-21 |
-| 📦 **Latest release** | [v0.102.0](https://github.com/charmbracelet/crush/releases/tag/v0.102.0) — 2026-11-19 |
+| 📦 **Latest release** | [v0.104.0](https://github.com/charmbracelet/crush/releases/tag/v0.104.0) — 2026-11-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 39.8 MB |
+| 💾 **Size** | 40.7 MB |
 
 ## 📦 Recent releases
 
-### [nightly](https://github.com/charmbracelet/crush/releases/tag/nightly) _(pre-release)_
+### [v0.104.0](https://github.com/charmbracelet/crush/releases/tag/v0.104.0)
+<sub>2026-11-27 · today</sub>
+
+> **Better onboarding + maintenance**
+> Hey all, hope all americans are having a great Thanksgiving! 🦃
+> **Onboarding**
+> We plan to work on the onboarding to help new Crush users. On this release we're shipping a first pass:
+> * Before, we skipped the onboarding if any API were found on your ENV. Now we'll always show for new installations.
+> * ENVs keep working as expected. If one was found for the chosen provider, Crush will just use it and won't ask you to paste an API key.
+> …
+
+### [v0.103.0](https://github.com/charmbracelet/crush/releases/tag/v0.103.0)
 <sub>2026-11-26 · today</sub>
+
+> **Client/server, OSC 7511, Turtle 🐢**
+> Lots of new stuff in this one, plus a ton of fixes. Read on!
+> **Second life 🛟**
+> <img width="1000" alt="Rex demo" src="https://github.com/user-attachments/assets/6c0aed7f-7a2e-40be-884b-2ecab27f482d" />
+> Terminals that support the Program Resume Protocol (OSC 7577), such as [Rex](https://www.superlogical.com/rex), can now bring Crush back after they restart, whether from an update, a crash, or a reboot. You'll land in the same session, in the same project folder. If you started Crush with a custom data folder or server, those come back too.
+> **Client/Server Mode, Now in Your Config**
+> …
+
+### [nightly](https://github.com/charmbracelet/crush/releases/tag/nightly) _(pre-release)_
+<sub>2026-11-27 · today</sub>
 
 > ---
 > <details>
@@ -46,7 +68,7 @@
 > …
 
 ### [v0.102.0](https://github.com/charmbracelet/crush/releases/tag/v0.102.0)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **Channels, custom prompts and server hardening**
 > There's so much good stuff in this release and we're really proud of _all_ of it. Read on for more.
@@ -57,7 +79,7 @@
 > …
 
 ### [v0.101.0](https://github.com/charmbracelet/crush/releases/tag/v0.101.0)
-<sub>2026-11-12 · 13d ago</sub>
+<sub>2026-11-12 · 14d ago</sub>
 
 > **Skill toggles, tool timers and a faster Hyper ⚡**
 > This release was brought to you by our team and our favorite contributors! Long awaited features ahead, read along!
@@ -67,42 +89,20 @@
 > **🕐 How long is this taking?**
 > …
 
-### [v0.100.0](https://github.com/charmbracelet/crush/releases/tag/v0.100.0)
-<sub>2026-11-05 · 20d ago</sub>
-
-> **Subagents, Sysadmin Mode, and PGP/SSH Prompts**
-> This is a big one! Crush can now run a team of subagents, permissions are much more flexible, and you can now do GPG and SSH auth right inside Crush! Read on for more.
-> **👩🏼‍🐰‍👩🏽 Subagents**
-> At last, subagents. Crush can now spawn a little team of friendly subagents  in the background, as well as check on them, send them mid-run follow-ups, stop them, or move them to a different model.
-> <p><img width="600" alt="image" src="https://github.com/user-attachments/assets/a8f4f437-dd9a-46bb-ab31-65a14b84c07a" /></p>
-> You can watch them work right in the transcript, sidebar and header. Every subagent gets its own name, too, so you always know who's doing what. And, if you refer to them by name, Crush will know which of ’em you’re talking about!
-> …
-
-### [v0.99.0](https://github.com/charmbracelet/crush/releases/tag/v0.99.0)
-<sub>2026-10-29 · 27d ago</sub>
-
-> **Hooks, Catwalk v3!**
-> A big one! Crush now runs on Catwalk v3, hooks can see every part of a run, and editors that host Crush get a whole new set of tools to feel right at home.
-> **Hooks, everywhere 🪝**
-> Hooks are no longer just about tools. They can now follow the whole run: sessions, turns, permissions and more!
-> Hooks can now step in after a tool runs, too. Redact secrets from the output before the model sees them, add a note, or stop the turn. If the tool already did something it shouldn't have, your hook can tell the model "you committed without running the tests."
-> ```bash
-> …
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [feat: add option to disable subagents (#4453)](https://github.com/charmbracelet/crush/commit/bbd86b427c56a4122ccb5cb1917e4328334de3cf) | andrinoff |
+| 2026-11-27 | [v0.104.0](https://github.com/charmbracelet/crush/commit/cb76d94d29d3800571f8ec3b54cc545630b1e23d) | andreynering |
+| 2026-11-27 | [chore: update fantasy and catwalk](https://github.com/charmbracelet/crush/commit/1ad0adb2c08f64ce858ec8d4a40d0f8eb6bb6a2e) | andreynering |
+| 2026-11-27 | [chore: auto-update files](https://github.com/charmbracelet/crush/commit/bfc989df81423894925216afffd90114580d0380) | charmcli |
+| 2026-11-27 | [feat: onboarding ux pass (#4444)](https://github.com/charmbracelet/crush/commit/1bc9788a8db244f2fb97ae91a49c4039de9da9df) | andreynering |
+| 2026-11-27 | [chore(legal): @J4ck1e2000 has signed the CLA](https://github.com/charmbracelet/crush/commit/5e7af480dc5ab75055b3b076f5bff33f8d9df5d5) | charmcli |
+| 2026-11-27 | [fix(pinentry): keep the gpg passphrase hint out of terminal scrollback](https://github.com/charmbracelet/crush/commit/1396e64601fc8f8e47d18a716718c4cf7cbbcef6) | taciturnaxolotl |
+| 2026-11-26 | [v0.103.0](https://github.com/charmbracelet/crush/commit/759183839754ea54ac3b421206817cc0714cb0c8) | andrinoff |
 | 2026-11-26 | [feat(mcp): cap large tool output and fix doc link (#4436)](https://github.com/charmbracelet/crush/commit/cff500642bbafdb8b290108bf60f3592ec993861) | andrinoff |
 | 2026-11-26 | [chore: add a `.taskrc.yml`](https://github.com/charmbracelet/crush/commit/f84f6c619da6e346e72e095ed00cd79a50bb2d65) | andreynering |
-| 2026-11-26 | [docs: add the client / server mode specs (#4322)](https://github.com/charmbracelet/crush/commit/70a46fbd8f77fac9b2a5f910f88a685766481d2a) | andrinoff |
-| 2026-11-26 | [feat: program resume protocol (OSC 7577) (#4434)](https://github.com/charmbracelet/crush/commit/f79634b5f58b9f6e7682841ff6a7ca30a8846745) | andrinoff |
-| 2026-11-26 | [fix(server): stop crush server from leaking the env (#4391)](https://github.com/charmbracelet/crush/commit/e596bad90522445cbf473fae3d4baa0bfc9a9fb3) | andrinoff |
-| 2026-11-25 | [chore(legal): @lordrifango has signed the CLA](https://github.com/charmbracelet/crush/commit/152e565f9f63c73d1d61157db1eb31afea46ba8e) | charmcli |
-| 2026-11-25 | [feat: integrate `charm.land/turtle` core utilities (#4423)](https://github.com/charmbracelet/crush/commit/fb464363ff54e2dae6286b6ede8096fb51946d74) | andreynering |
-| 2026-11-25 | [docs: move the channels out of the README (#4421)](https://github.com/charmbracelet/crush/commit/535dad0ba50cd57e46a17907a76cb861081e1244) | andrinoff |
-| 2026-11-25 | [fix(server): stop a new window from getting other sessions' prompts (…](https://github.com/charmbracelet/crush/commit/6e54ac296b159b282433193d2dd21db51b0f2365) | andrinoff |
-| 2026-11-25 | [fix(server): title sessions started with a ! command in client/server…](https://github.com/charmbracelet/crush/commit/18bc386b4578a2002980d1e854fb7a512655b4f2) | andrinoff |
 
 [See all commits ↗](https://github.com/charmbracelet/crush/commits)
 

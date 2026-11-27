@@ -24,7 +24,7 @@
 | 💻 **Languages** | — |
 | 📜 **License** | CC0-1.0 |
 | 🏷 **Topics** | `ai` `awesome` `awesome-list` `langchain` `llm` |
-| 🕒 **Last activity** | 2026-11-11 (15d ago) |
+| 🕒 **Last activity** | 2026-11-11 (16d ago) |
 | 📅 **Created** | 2023-02-28 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

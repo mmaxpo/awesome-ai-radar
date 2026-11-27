@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 33.3k |
+| ⭐ **Stars** | 33.5k |
 | 🍴 **Forks** | 2.6k |
-| 🐞 **Open issues + PRs** | [789](https://github.com/meta/astryx/issues) |
+| 🐞 **Open issues + PRs** | [805](https://github.com/meta/astryx/issues) |
 | 💻 **Languages** | TypeScript 59% · JavaScript 39% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-01-09 |
 | 📦 **Latest release** | [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 1359.7 MB |
+| 💾 **Size** | 1361.2 MB |
 | 🌐 **Website** | http://astryx.atmeta.com |
 
 ## 📦 Recent releases
 
 ### [v0.7.17](https://github.com/meta/astryx/releases/tag/v0.7.17) — Astryx v0.7.17
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > **Astryx v0.7.17**
 > Upgrade every Astryx package your app uses to `0.7.17`, then run:
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.7.16](https://github.com/meta/astryx/releases/tag/v0.7.16) — Astryx v0.7.16
-<sub>2026-11-14 · 12d ago</sub>
+<sub>2026-11-14 · 13d ago</sub>
 
 > Astryx 0.7.16 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.7.15](https://github.com/meta/astryx/releases/tag/v0.7.15)
-<sub>2026-11-12 · 13d ago</sub>
+<sub>2026-11-12 · 14d ago</sub>
 
 > Astryx 0.7.15 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.7.14](https://github.com/meta/astryx/releases/tag/v0.7.14)
-<sub>2026-11-11 · 14d ago</sub>
+<sub>2026-11-11 · 15d ago</sub>
 
 > Astryx 0.7.14 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.7.13](https://github.com/meta/astryx/releases/tag/v0.7.13)
-<sub>2026-11-10 · 15d ago</sub>
+<sub>2026-11-10 · 16d ago</sub>
 
 > Astryx 0.7.13 — all `@astryxdesign/*` packages ship at this version.
 > ```bash
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [fix(focusReturn): a returning focus shows a Tab-stop opener the page …](https://github.com/meta/astryx/commit/312a4199c04695cc376857fc336d04c0c3651450) | cixzhang |
-| 2026-11-26 | [test(StatusMessage): wait for the mark tooltip without a duplicate de…](https://github.com/meta/astryx/commit/286b4a1a18dafa4dd4abaf1130fb848deb3a5ebb) | cixzhang |
-| 2026-11-26 | [spec(overlay-dismissal): a returning focus reveals a hidden Tab stop …](https://github.com/meta/astryx/commit/8dd2287f5d8166b8990632aebb45df70d54cc9c0) | cixzhang |
-| 2026-11-26 | [test(Token): the end-content focus-ring check measures Core's ring (#…](https://github.com/meta/astryx/commit/5f50d39598570db7546859d411d0a2e4e42fbc00) | cixzhang |
-| 2026-11-26 | [test: the dialog-header whole-sheet case takes a Node leg of its own …](https://github.com/meta/astryx/commit/dd6f7a00f818695f0b883c1f28a451586cf42da2) | cixzhang |
-| 2026-11-26 | [docs(overlay-dismissal): the FR9 gap line names Popover's and Context…](https://github.com/meta/astryx/commit/8390901c4e1af2d825e1e10bf247a5240070f259) | cixzhang |
-| 2026-11-26 | [fix(Tooltip): a wrapping Tooltip whose text repeats its trigger's nam…](https://github.com/meta/astryx/commit/e23098c9230ff4c9a2219634c5c5afabb0027f93) | cixzhang |
-| 2026-11-26 | [fix(PowerSearch): a date range token shows the days it covers (#13796)](https://github.com/meta/astryx/commit/4dd9b9b539f838a3a178e270be1cd643e1ad551e) | cixzhang |
-| 2026-11-26 | [fix(Token): end content shrinks with the label, so Remove stays in vi…](https://github.com/meta/astryx/commit/3fd98b28b8a6165b491648f39fde028598730a64) | cixzhang |
-| 2026-11-26 | [docs(Button, IconButton): the tooltip prop says it shows above, and p…](https://github.com/meta/astryx/commit/0c7e06140e2419c72fa51bc03e71a46d44579d6b) | cixzhang |
+| 2026-11-27 | [docs(specs): Slider lists the input-fields family that binds it (#13896)](https://github.com/meta/astryx/commit/41ea1657c894c0d99391b2adbfcf66ffb005a14a) | cixzhang |
+| 2026-11-27 | [ci: a daily run of path-safety's Windows drive-path case and the SF S…](https://github.com/meta/astryx/commit/ce31c8d6959d4d83bb30633ae2177b9515101cce) | cixzhang |
+| 2026-11-27 | [test(cli): the Windows per-user folder case runs on every host (#13891)](https://github.com/meta/astryx/commit/872c3467254b640ae09fb0384b5cbc40ae8557a6) | cixzhang |
+| 2026-11-27 | [[Component Audit] SegmentedControl: an app focus handler no longer tu…](https://github.com/meta/astryx/commit/b0048ac16991f9e88b1e6146fb6ee2829d22ae51) | cixzhang |
+| 2026-11-27 | [test(theme-editor): the pill-token radio case reads a census with tha…](https://github.com/meta/astryx/commit/00417ea53de40e37b150d5d71a96c791c7f235f9) | cixzhang |
+| 2026-11-27 | [fix(eslint): no-style-only-wrapper skips a child with no root xstyle,…](https://github.com/meta/astryx/commit/09618a4a956b63aac18f4eae3eeb463cb9a47ec3) | cixzhang |
+| 2026-11-27 | [fix(VisuallyHidden): declare the ignored xstyle where the lint rule r…](https://github.com/meta/astryx/commit/33a90f80d2c69a7e6e1bc82082f943416a235113) | cixzhang |
+| 2026-11-27 | [chore(lint): the root ESLint config names its module type as .mjs (#1…](https://github.com/meta/astryx/commit/9eabff2e7a27e47ebef79793e93f58e943f7a38e) | vjeux |
+| 2026-11-27 | [test(scripts): size:matrix tests check the built entry and each row's…](https://github.com/meta/astryx/commit/cb00a58e5c8ceb0ef41103e11d256c18e4484826) | cixzhang |
+| 2026-11-27 | [docs(Selector, MultiSelector): the empty group is named as its listbo…](https://github.com/meta/astryx/commit/45274c7e9b99eb547509f2b781f4abf9bfb4cfd3) | cixzhang |
 
 [See all commits ↗](https://github.com/meta/astryx/commits)
 

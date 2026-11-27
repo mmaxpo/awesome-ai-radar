@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 32.3k |
 | 🍴 **Forks** | 5.8k |
-| 🐞 **Open issues + PRs** | [110](https://github.com/openai/openai-python/issues) |
+| 🐞 **Open issues + PRs** | [113](https://github.com/openai/openai-python/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `openai` `python` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2020-10-25 |
 | 📦 **Latest release** | [v3.60.0](https://github.com/openai/openai-python/releases/tag/v3.60.0) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.60.0](https://github.com/openai/openai-python/releases/tag/v3.60.0)
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **[3.60.0](https://github.com/openai/openai-python/compare/v3.59.0...v3.60.0) (2026-11-26)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.59.0](https://github.com/openai/openai-python/releases/tag/v3.59.0)
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > **[3.59.0](https://github.com/openai/openai-python/compare/v3.58.0...v3.59.0) (2026-11-24)**
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.58.0](https://github.com/openai/openai-python/releases/tag/v3.58.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **[3.58.0](https://github.com/openai/openai-python/compare/v3.57.0...v3.58.0) (2026-11-23)**
 > **Features**
@@ -67,14 +67,14 @@
 > * **api:** clarify when to omit completion choice count ([#4298](https://github.com/openai/openai-python/issues/4298)) ([f63f14b](https://github.com/openai/openai-python/commit/f63f14b34754fa77fc839ac2cf95da3ef42e1f6a))
 
 ### [v3.57.0](https://github.com/openai/openai-python/releases/tag/v3.57.0)
-<sub>2026-11-20 · 6d ago</sub>
+<sub>2026-11-20 · 7d ago</sub>
 
 > **[3.57.0](https://github.com/openai/openai-python/compare/v3.56.0...v3.57.0) (2026-11-19)**
 > **Features**
 > * **api:** support Live WebRTC standby ([#4296](https://github.com/openai/openai-python/issues/4296)) ([18d10c3](https://github.com/openai/openai-python/commit/18d10c381cac674c56620acc3c1b547fb691f5ea))
 
 ### [v3.56.0](https://github.com/openai/openai-python/releases/tag/v3.56.0)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **[3.56.0](https://github.com/openai/openai-python/compare/v3.55.1...v3.56.0) (2026-11-19)**
 > **Features**

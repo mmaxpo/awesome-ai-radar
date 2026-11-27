@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 150.0k |
+| ⭐ **Stars** | 150.1k |
 | 🍴 **Forks** | 25.2k |
-| 🐞 **Open issues + PRs** | [781](https://github.com/langchain-ai/langchain/issues) |
+| 🐞 **Open issues + PRs** | [786](https://github.com/langchain-ai/langchain/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `anthropic` `gemini` `langchain` `llm` `openai` `python` `agents` `ai-agents` `chatgpt` `enterprise` `framework` `generative-ai` `multiagent` `open-source` `pydantic` `rag` `deepagents` `langgraph` `typescript` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2022-10-17 |
 | 📦 **Latest release** | [langchain-core==1.8.5](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5) — 2026-11-25 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [langchain-core==1.8.5](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > Changes since langchain-core==1.8.4
 > release(core): 1.8.5 (#42103)
@@ -47,7 +47,7 @@
 > …
 
 ### [langchain-anthropic==1.7.13](https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > Changes since langchain-anthropic==1.7.12
 > release(anthropic): 1.7.13 (#42102)
@@ -57,7 +57,7 @@
 > release(standard-tests): 1.2.0 (#41996)
 
 ### [langchain-huggingface==1.3.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.3.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > Changes since langchain-huggingface==1.2.3
 > fix(huggingface): correct forced tool choice and streaming token counts (#42043)
@@ -68,7 +68,7 @@
 > …
 
 ### [langchain-nomic==1.1.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-nomic%3D%3D1.1.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > Changes since langchain-nomic==1.0.1
 > fix(nomic): run integration tests serially to avoid credentials file race (#42034)
@@ -79,7 +79,7 @@
 > …
 
 ### [langchain-fireworks==1.8.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.8.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > Changes since langchain-fireworks==1.7.3
 > test(fireworks): replace retired serverless test model (#42032)

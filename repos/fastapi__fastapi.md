@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `json` `openapi` `api` `framework` `async` `pydantic` `json-schema` `fastapi` `rest` `web` `sse` `streaming` `websockets` |
-| 🕒 **Last activity** | 2026-11-24 (2d ago) |
+| 🕒 **Last activity** | 2026-11-24 (3d ago) |
 | 📅 **Created** | 2018-12-08 |
 | 📦 **Latest release** | [0.165.0](https://github.com/fastapi/fastapi/releases/tag/0.165.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
@@ -36,21 +36,21 @@
 ## 📦 Recent releases
 
 ### [0.165.0](https://github.com/fastapi/fastapi/releases/tag/0.165.0)
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Features**
 > * ✨ Add configurable form parsing limits. PR [#16784](https://github.com/fastapi/fastapi/pull/16784) by [@tiangolo](https://github.com/tiangolo).
 
 ### [0.164.0](https://github.com/fastapi/fastapi/releases/tag/0.164.0)
-<sub>2026-11-18 · 8d ago</sub>
+<sub>2026-11-18 · 9d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Features**
 > * ✨ Add configurable request body size limits. PR [#16781](https://github.com/fastapi/fastapi/pull/16781) by [@tiangolo](https://github.com/tiangolo).
 
 ### [0.163.2](https://github.com/fastapi/fastapi/releases/tag/0.163.2)
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Refactors**
@@ -61,14 +61,14 @@
 > …
 
 ### [0.163.1](https://github.com/fastapi/fastapi/releases/tag/0.163.1)
-<sub>2026-11-15 · 11d ago</sub>
+<sub>2026-11-15 · 12d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Fixes**
 > * 🐛 Fix OpenAPI for response model with nested computed field. PR [#14490](https://github.com/fastapi/fastapi/pull/14490) by [@YuriiMotov](https://github.com/YuriiMotov).
 
 ### [0.163.0](https://github.com/fastapi/fastapi/releases/tag/0.163.0)
-<sub>2026-11-14 · 11d ago</sub>
+<sub>2026-11-14 · 12d ago</sub>
 
 > > FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with `uvx library-skills` in your project. See [Develop with AI](https://fastapi.tiangolo.com/ai-development/).
 > **Features**

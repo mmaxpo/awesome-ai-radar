@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 311.1k |
-| 🍴 **Forks** | 45.7k |
-| 🐞 **Open issues + PRs** | [225](https://github.com/affaan-m/ECC/issues) |
+| ⭐ **Stars** | 311.6k |
+| 🍴 **Forks** | 45.8k |
+| 🐞 **Open issues + PRs** | [231](https://github.com/affaan-m/ECC/issues) |
 | 💻 **Languages** | JavaScript 76% · Rust 11% · Python 11% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agents` `anthropic` `claude` `claude-code` `developer-tools` `llm` `mcp` `productivity` |
-| 🕒 **Last activity** | 2026-11-23 (3d ago) |
+| 🕒 **Last activity** | 2026-11-23 (4d ago) |
 | 📅 **Created** | 2026-01-18 |
 | 📦 **Latest release** | [v2.2.3](https://github.com/affaan-m/ECC/releases/tag/v2.2.3) — 2026-10-01 |
 | 🌿 **Default branch** | `main` |
@@ -69,7 +69,7 @@
 > …
 
 ### [v2.2.0](https://github.com/affaan-m/ECC/releases/tag/v2.2.0) — ECC 2.2.0: Guided Setup, Antigravity 2.0, and the Nasiko CLI Bridge
-<sub>2026-08-28 · 2mo ago</sub>
+<sub>2026-08-28 · 3mo ago</sub>
 
 > ECC 2.2 is here, led by one guided installer for Claude Code, Codex, and Kimi.
 > It also adds native Antigravity 2.0 support and an experimental, opt-in Nasiko

@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 80.9k |
+| ⭐ **Stars** | 81.0k |
 | 🍴 **Forks** | 6.4k |
-| 🐞 **Open issues + PRs** | [333](https://github.com/headroomlabs-ai/headroom/issues) |
+| 🐞 **Open issues + PRs** | [337](https://github.com/headroomlabs-ai/headroom/issues) |
 | 💻 **Languages** | Python 81% · Rust 12% · JavaScript 3% · TypeScript 3% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `ai` `anthropic` `compression` `context-engineering` `context-window` `fastapi` `langchain` `llm` `mcp` `openai` `proxy` `python` `rag` `token-optimization` `claude-code` `cursor` `prompt-engineering` `tokens` `typescript` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-01-07 |
 | 📦 **Latest release** | [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — 2026-11-22 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 107.3 MB |
+| 💾 **Size** | 106.6 MB |
 | 🌐 **Website** | https://docs.headroomlabs.ai/docs |
 
 ## 📦 Recent releases
 
 ### [v0.45.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.45.0) — Release v0.45.0
-<sub>2026-11-22 · 4d ago</sub>
+<sub>2026-11-22 · 5d ago</sub>
 
 > **[0.45.0](https://github.com/headroomlabs-ai/headroom/compare/v0.44.0...v0.45.0) (2026-11-22)**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.44.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.44.0) — Release v0.44.0
-<sub>2026-11-10 · 16d ago</sub>
+<sub>2026-11-10 · 17d ago</sub>
 
 > **[0.44.0](https://github.com/headroomlabs-ai/headroom/compare/v0.43.1...v0.44.0) (2026-11-09)**
 > **⚠ BREAKING CHANGES**
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.43.1](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.1) — Release v0.43.1
-<sub>2026-11-05 · 20d ago</sub>
+<sub>2026-11-05 · 21d ago</sub>
 
 > **[0.43.1](https://github.com/headroomlabs-ai/headroom/compare/v0.43.0...v0.43.1) (2026-11-05)**
 > **Bug Fixes**
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.43.0](https://github.com/headroomlabs-ai/headroom/releases/tag/v0.43.0) — Release v0.43.0
-<sub>2026-11-05 · 20d ago</sub>
+<sub>2026-11-05 · 21d ago</sub>
 
 > **[0.43.0](https://github.com/headroomlabs-ai/headroom/compare/v0.42.0...v0.43.0) (2026-11-05)**
 > **⚠ BREAKING CHANGES**
@@ -94,6 +94,7 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [fix(bedrock): answer model discovery from Bedrock and map undated mod…](https://github.com/headroomlabs-ai/headroom/commit/6a50f22cb38df8a57ff628db6540a54932bb786e) | chopratejas |
 | 2026-11-26 | [fix(memory): preserve YAML string metadata in agent files (#5046)](https://github.com/headroomlabs-ai/headroom/commit/c9d7eae7e6254ff9864f1c1bd505ae1e37adca31) | stefanielizeth73-art |
 | 2026-11-26 | [fix(sdk): preserve compact server-sent event data fields (#5009)](https://github.com/headroomlabs-ai/headroom/commit/5d3f8560e9fa97ecd81814b0d014fd22b239ed08) | DivyamTalwar |
 | 2026-11-26 | [fix(asgi): update content length after request compression (#5007)](https://github.com/headroomlabs-ai/headroom/commit/b9cf195acbcb30473699a206c8fed959531acedd) | DivyamTalwar |
@@ -103,7 +104,6 @@
 | 2026-11-25 | [fix(rust): emit a function-body row shared by two statements once (#4…](https://github.com/headroomlabs-ai/headroom/commit/98ba445ddd7e1cfd021f443eb96e3b8550a17443) | divya0795 |
 | 2026-11-25 | [fix(proxy): forward Gemini batch polls to /v1beta/batches/<id> instea…](https://github.com/headroomlabs-ai/headroom/commit/de9915f2487829e933d1c6d4fb5a7beae1a6d8a5) | coder-abu |
 | 2026-11-25 | [fix(ccr): count per-result continuation rounds in batch results (#5043)](https://github.com/headroomlabs-ai/headroom/commit/d2014cb948d27bd9d411b147a6d203363f70b912) | 123XieC |
-| 2026-11-25 | [fix(ccr): replay captured system prompt in Anthropic continuations (#…](https://github.com/headroomlabs-ai/headroom/commit/6f9291f7a6a38a9fbc6fff4c72af72182193f3e5) | helmipradita |
 
 [See all commits ↗](https://github.com/headroomlabs-ai/headroom/commits)
 

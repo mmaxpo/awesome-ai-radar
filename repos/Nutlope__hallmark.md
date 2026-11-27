@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.4k |
+| ⭐ **Stars** | 61.9k |
 | 🍴 **Forks** | 3.4k |
-| 🐞 **Open issues + PRs** | [54](https://github.com/Nutlope/hallmark/issues) |
+| 🐞 **Open issues + PRs** | [56](https://github.com/Nutlope/hallmark/issues) |
 | 💻 **Languages** | CSS 43% · HTML 37% · JavaScript 19% · Python 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-11 (15d ago) |
+| 🕒 **Last activity** | 2026-11-11 (16d ago) |
 | 📅 **Created** | 2026-04-27 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

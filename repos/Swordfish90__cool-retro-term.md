@@ -24,7 +24,7 @@
 | 💻 **Languages** | QML 68% · C++ 16% · GLSL 9% · QMake 3% · Shell 2% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `retro` `qml` `qt` `macos` `linux` `terminal` |
-| 🕒 **Last activity** | 2026-05-31 (5mo ago) |
+| 🕒 **Last activity** | 2026-05-31 (6mo ago) |
 | 📅 **Created** | 2013-11-22 |
 | 📦 **Latest release** | [2.0.0-beta2](https://github.com/Swordfish90/cool-retro-term/releases/tag/2.0.0-beta2) — 2026-05-31 |
 | 🌿 **Default branch** | `master` |
@@ -33,7 +33,7 @@
 ## 📦 Recent releases
 
 ### [2.0.0-beta2](https://github.com/Swordfish90/cool-retro-term/releases/tag/2.0.0-beta2)
-<sub>2026-05-31 · 5mo ago</sub>
+<sub>2026-05-31 · 6mo ago</sub>
 
 > * Fix some crashes on resize on Linux
 > * Add tab management shortcuts

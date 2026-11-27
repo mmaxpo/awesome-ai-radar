@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 68.3k |
+| ⭐ **Stars** | 68.4k |
 | 🍴 **Forks** | 27.7k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/scikit-learn/scikit-learn/issues) |
 | 💻 **Languages** | Python 92% · Cython 6% · C++ 1% |
 | 📜 **License** | BSD-3-Clause |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2010-08-17 |
 | 📦 **Latest release** | [1.9.1](https://github.com/scikit-learn/scikit-learn/releases/tag/1.9.1) — 2026-09-11 |
 | 🌿 **Default branch** | `main` |
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [DOC fix broken redirect links in doc/conf.py (#35542)](https://github.com/scikit-learn/scikit-learn/commit/c5d9db283136565971d10045df5b2e14f9bd103a) | rclement |
+| 2026-11-27 | [FIX make sag and saga solvers invariant to the scale of sample_weight…](https://github.com/scikit-learn/scikit-learn/commit/30d4e8d63335b3de16f41a66dc7c1857941bd221) | lorentzenchr |
+| 2026-11-27 | [TST Fix dispatch status mixed array API input checks (#35538)](https://github.com/scikit-learn/scikit-learn/commit/9deb6ca850767192f78281d451c35620365910e4) | lucyleeow |
+| 2026-11-27 | [TST fix all warnings in tests of  `sklearn.linear_model` (#35516)](https://github.com/scikit-learn/scikit-learn/commit/e68c64d9c7cd31157ca14b3479bc97b5c6fb623e) | lorentzenchr |
+| 2026-11-26 | [FIX return self from partial_fit of MultiOutputRegressor and Bernoull…](https://github.com/scikit-learn/scikit-learn/commit/278109c946d002db8a620f814cb767cb1694fd07) | lau0708 |
+| 2026-11-26 | [FIX CalibratedClassifierCV temperature scaling with numeric labels an…](https://github.com/scikit-learn/scikit-learn/commit/45409a53c740f4c56ab84e30a9b0d52c34c8d0e4) | betatim |
+| 2026-11-26 | [TST Reduce the required accuracy for the test_lasso_lars_vs_R_impleme…](https://github.com/scikit-learn/scikit-learn/commit/7989cc08b17cc8d3631b449c8b2696d62b4b6a0c) | arrowd |
 | 2026-11-26 | [DOC add code to reproduce GLM distribution plots (#35303)](https://github.com/scikit-learn/scikit-learn/commit/f22d56a202eeead93b35fc57329de10195255af2) | lorentzenchr |
 | 2026-11-26 | [MNT Deprecate `**kwargs` in favour of `curve_kwargs` in `CalibrationD…](https://github.com/scikit-learn/scikit-learn/commit/3a7acbc00b87151ae175e135cb76f216b39cc488) | AnneBeyer |
 | 2026-11-26 | [TST Add default handling of `other_ns_and_device` to `check_array_api…](https://github.com/scikit-learn/scikit-learn/commit/08c59a9ecef1d9e687fd02cbcddbb3d990ff85fb) | lucyleeow |
-| 2026-11-26 | [MNT Remove unnecessary dtype casting in `_enforce_estimator_tags_X` (…](https://github.com/scikit-learn/scikit-learn/commit/9fb76592539a148dc74fe2fd9975cb472b193e60) | lucyleeow |
-| 2026-11-25 | [TST fix all warnings in tests of `sklearn.linear_model` (#35520)](https://github.com/scikit-learn/scikit-learn/commit/e7191bbef1d8790a4711fe387a463010243a3ee0) | lorentzenchr |
-| 2026-11-25 | [MNT Use `_check_name` in `check_estimator` when `on_fail="raise"` (#3…](https://github.com/scikit-learn/scikit-learn/commit/7c426b6d7f5eacc57abfd58880cf6187bd09cbdc) | lucyleeow |
-| 2026-11-25 | [TST fix uncollected tests and avoidable warnings in the test suite (#…](https://github.com/scikit-learn/scikit-learn/commit/46a731ce82bde3f52cdf94dd099c1c0f7c8f2bf8) | lorentzenchr |
-| 2026-11-24 | [FIX `AttributeError` in `check array` (#35405)](https://github.com/scikit-learn/scikit-learn/commit/645d9c93bd867789f9125d187aa556ee0983e30a) | direkkakkar319-ops |
-| 2026-11-24 | [MNT Fix typo in `test_plot_precision_recall_pos_label` (#35504)](https://github.com/scikit-learn/scikit-learn/commit/abeaec0274dc2ed9a0a2dbd78a148613ce1fb413) | lucyleeow |
-| 2026-11-24 | [FIX check_array(copy=False, force_writeable=True) returning a writeab…](https://github.com/scikit-learn/scikit-learn/commit/ea1bf33473fce388b5cf27410bc06c5d5c12e35e) | DeaMariaLeon |
 
 [See all commits ↗](https://github.com/scikit-learn/scikit-learn/commits)
 

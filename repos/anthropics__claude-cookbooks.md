@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 55.3k |
 | 🍴 **Forks** | 6.7k |
-| 🐞 **Open issues + PRs** | [396](https://github.com/anthropics/claude-cookbooks/issues) |
+| 🐞 **Open issues + PRs** | [398](https://github.com/anthropics/claude-cookbooks/issues) |
 | 💻 **Languages** | Jupyter Notebook 94% · Python 6% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-20 (5d ago) |
+| 🕒 **Last activity** | 2026-11-20 (6d ago) |
 | 📅 **Created** | 2023-08-15 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

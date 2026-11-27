@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 98.5k |
+| ⭐ **Stars** | 98.6k |
 | 🍴 **Forks** | 21.0k |
 | 🐞 **Open issues + PRs** | [5.5k](https://github.com/punkpeye/awesome-mcp-servers/issues) |
 | 💻 **Languages** | — |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `mcp` |
-| 🕒 **Last activity** | 2026-11-25 (yesterday) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2024-11-30 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 638.7 MB |
+| 💾 **Size** | 657.7 MB |
 | 🌐 **Website** | https://glama.ai/mcp/servers |
 
 ## 📦 Recent releases
@@ -41,16 +41,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge pull request #20670 from ethereaglehq/add-privatools-mcp](https://github.com/punkpeye/awesome-mcp-servers/commit/818d13a27cc147c43b6b0b9458c777e982ccf6d3) | punkpeye |
-| 2026-11-25 | [Add PrivaTools MCP server (ethereaglehq/privatools-mcp)](https://github.com/punkpeye/awesome-mcp-servers/commit/8ff29d732e6027719961e0836aead4c14e2165ef) | ethereaglehq |
-| 2026-11-24 | [Merge pull request #20547 from pecopeko/add-mcp-public-intel](https://github.com/punkpeye/awesome-mcp-servers/commit/ac5cc375faa76c50b8c848538549e78884c2a8dd) | punkpeye |
-| 2026-11-24 | [Add pecopeko/mcp-public-intel MCP server](https://github.com/punkpeye/awesome-mcp-servers/commit/6cf48dda227e208f3ff27c8a846ceb54ba318e8d) | pecopeko |
-| 2026-11-24 | [Merge pull request #20537 from neoma-pcam/main](https://github.com/punkpeye/awesome-mcp-servers/commit/3a4d04d99abe2735361a32b167780f78fcc97460) | punkpeye |
-| 2026-11-24 | [Update README.md](https://github.com/punkpeye/awesome-mcp-servers/commit/fcf0700423c5f5fdd709ed83df86c4a42aadc5e7) | neoma-pcam |
-| 2026-11-24 | [Merge pull request #20526 from Qunlay1/patch-2](https://github.com/punkpeye/awesome-mcp-servers/commit/eb07dd8f155d084d50e0b0cbcc52901a648c81f7) | punkpeye |
-| 2026-11-24 | [Add luca-network/spr (Sealed Payment Record)](https://github.com/punkpeye/awesome-mcp-servers/commit/723309c57dce2bda3fba4a904517cfdc484b6206) | Qunlay1 |
-| 2026-11-23 | [Update CONTRIBUTING.md](https://github.com/punkpeye/awesome-mcp-servers/commit/9522f9ff8c8ab9e103fa2a75d49ab4b66af22be3) | punkpeye |
-| 2026-11-23 | [Update CONTRIBUTING.md](https://github.com/punkpeye/awesome-mcp-servers/commit/3dce3a9d49360bd8f21c45b6fc35365bf2b093c8) | punkpeye |
+| 2026-11-26 | [Merge pull request #14315 from kevmoz/add-macaroon-bible-evidence](https://github.com/punkpeye/awesome-mcp-servers/commit/27551f13dd8ae3929f1cdff66724e2e64e49da7f) | punkpeye |
+| 2026-11-26 | [Merge pull request #19469 from seyone22/add-ikman-gateway](https://github.com/punkpeye/awesome-mcp-servers/commit/77ddf9a67d2e21a44865ed50dee98bde7e9d7376) | punkpeye |
+| 2026-11-26 | [Fix entry formatting](https://github.com/punkpeye/awesome-mcp-servers/commit/4177a2cb0afe5f906615d5f3797373d3d5330380) | punkpeye |
+| 2026-11-26 | [Merge pull request #18757 from RizgarOzan/add-playcal](https://github.com/punkpeye/awesome-mcp-servers/commit/37f7a7989938209bd185fbbc6e2359adfe6d135b) | punkpeye |
+| 2026-11-26 | [Merge pull request #19053 from calligraphysystems/main](https://github.com/punkpeye/awesome-mcp-servers/commit/7f7bd7aa5e743aae37e623aa25d3dc578ad876a9) | punkpeye |
+| 2026-11-26 | [Merge pull request #19875 from tomwaye/patch-1](https://github.com/punkpeye/awesome-mcp-servers/commit/08ac61357678ca0d567de207195864ef64de2b8c) | punkpeye |
+| 2026-11-26 | [Merge pull request #19805 from leonhardprinz/add-healthaccess-mcp](https://github.com/punkpeye/awesome-mcp-servers/commit/ad27bb7428ff811ca124d56da0f0b59e82cbec92) | punkpeye |
+| 2026-11-26 | [Merge pull request #16081 from thekevinm/add-faucetdb-faucet](https://github.com/punkpeye/awesome-mcp-servers/commit/43e9a611b8f766142287192a60478a23470bfcdd) | punkpeye |
+| 2026-11-26 | [Merge pull request #20400 from ColinGPT9/add-clips-kitty](https://github.com/punkpeye/awesome-mcp-servers/commit/13e438e343f7ca853ed596e2288b7bae49ae3ce6) | punkpeye |
+| 2026-11-26 | [Merge pull request #18144 from TillaCrypto/patch-1](https://github.com/punkpeye/awesome-mcp-servers/commit/a6b47bd82422e64b566864233cb252e64ee69807) | punkpeye |
 
 [See all commits ↗](https://github.com/punkpeye/awesome-mcp-servers/commits)
 

@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 188.2k |
 | 🍴 **Forks** | 45.8k |
-| 🐞 **Open issues + PRs** | [805](https://github.com/Significant-Gravitas/AutoGPT/issues) |
+| 🐞 **Open issues + PRs** | [790](https://github.com/Significant-Gravitas/AutoGPT/issues) |
 | 💻 **Languages** | Python 68% · TypeScript 31% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `openai` `python` `artificial-intelligence` `autonomous-agents` `llama-api` `agentic-ai` `agents` `llm` `claude` `gpt` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-03-16 |
 | 📦 **Latest release** | [autogpt-platform-beta-v0.12.1](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.12.1) — 2026-11-26 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 673.2 MB |
+| 💾 **Size** | 671.1 MB |
 | 🌐 **Website** | https://agpt.co |
 
 ## 📦 Recent releases
@@ -41,7 +41,7 @@
 > Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@39cc96026f5a (migration head: 20261120120000_add_onboarding_wizard_writer). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so schema changes run against populated tables. RESTORE: apply restore-preamble.sql to the target database first (it creates the platform schema and installs the vector + pg_trgm extensions into it, which pg_dump --schema=platform omits), then run 'gunzip -c fixture.dump.gz | pg_restore -d <db> --no-owner' WITHOUT --exit-on-error (the dump's own CREATE SCHEMA collides benignly with the preamble's). SECURITY INVARIANT: this bake holds no cloud credentials and has no read path to any real database — it runs entirely against a throwaway Postgres container and contains only synthetic rows (Faker-generated, plus the hand-written preview marketplace) and the already-public marketplace agent exports checked into autogpt_platform/backend/agents/. This asset is regenerated on every eligible dev push and weekly; treat it as disposable.
 
 ### [autogpt-platform-beta-v0.12.1](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.12.1) — 🚀 AutoGPT Platform v0.12.1
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **✨ Highlights**
 > - **Connected from the moment you sign in.** Continue with Google or Continue with Microsoft now connects your email, files and calendar on the same screen, so Otto can use them from your first chat with no extra setup step. (#16882)
@@ -52,7 +52,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.12.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.12.0) — 🚀 AutoGPT Platform v0.12.0
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **⚠️ Breaking change**
 > **The frontend no longer reads `TRUST_X_FORWARDED_FOR`** (#16530, @Pwuts). A self-hosted frontend that set it by hand gets no client IP from `X-Forwarded-For` for the sign-in IP log, IP blocks and per-visitor store search until `TRUSTED_PROXIES` lists the proxy in front of it. The single-container image and Vercel need nothing.
@@ -63,7 +63,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.3](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.3)
-<sub>2026-11-15 · 11d ago</sub>
+<sub>2026-11-15 · 12d ago</sub>
 
 > **🚀 Release `autogpt-platform-beta-v0.11.3`**
 > **Date:** November 15, 2026
@@ -74,7 +74,7 @@
 > …
 
 ### [autogpt-platform-beta-v0.11.2](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2)
-<sub>2026-11-11 · 14d ago</sub>
+<sub>2026-11-11 · 15d ago</sub>
 
 > **🚀 Release `autogpt-platform-beta-v0.11.2`**
 > **Date:** January 2025

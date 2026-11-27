@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 151.5k |
-| 🍴 **Forks** | 13.6k |
-| 🐞 **Open issues + PRs** | [240](https://github.com/github/spec-kit/issues) |
+| ⭐ **Stars** | 152.1k |
+| 🍴 **Forks** | 13.7k |
+| 🐞 **Open issues + PRs** | [252](https://github.com/github/spec-kit/issues) |
 | 💻 **Languages** | Python 98% · Shell 1% · PowerShell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `copilot` `development` `engineering` `prd` `spec` `spec-driven` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-08-21 |
 | 📦 **Latest release** | [v1.4.5](https://github.com/github/spec-kit/releases/tag/v1.4.5) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 23.9 MB |
+| 💾 **Size** | 23.5 MB |
 | 🌐 **Website** | https://github.github.com/spec-kit/ |
 
 ## 📦 Recent releases
 
 ### [v1.4.5](https://github.com/github/spec-kit/releases/tag/v1.4.5) — Spec Kit - 1.4.5
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Install**
 > ```bash
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.4.4](https://github.com/github/spec-kit/releases/tag/v1.4.4) — Spec Kit - 1.4.4
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **Install**
 > ```bash
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.4.3](https://github.com/github/spec-kit/releases/tag/v1.4.3) — Spec Kit - 1.4.3
-<sub>2026-11-19 · 7d ago</sub>
+<sub>2026-11-19 · 8d ago</sub>
 
 > **Install**
 > ```bash
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.4.2](https://github.com/github/spec-kit/releases/tag/v1.4.2) — Spec Kit - 1.4.2
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **Install**
 > ```bash
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.4.1](https://github.com/github/spec-kit/releases/tag/v1.4.1) — Spec Kit - 1.4.1
-<sub>2026-11-16 · 9d ago</sub>
+<sub>2026-11-16 · 10d ago</sub>
 
 > **Install**
 > ```bash

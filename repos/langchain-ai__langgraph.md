@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 45.5k |
 | 🍴 **Forks** | 7.9k |
-| 🐞 **Open issues + PRs** | [501](https://github.com/langchain-ai/langgraph/issues) |
+| 🐞 **Open issues + PRs** | [504](https://github.com/langchain-ai/langgraph/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `chatgpt` `deepagents` `enterprise` `framework` `gemini` `generative-ai` `langchain` `langgraph` `llm` `multiagent` `open-source` `openai` `pydantic` `python` `rag` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2023-08-09 |
 | 📦 **Latest release** | [cli==0.4.44](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.44) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [cli==0.4.44](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.44) — langgraph-cli==0.4.44
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > Changes since cli==0.4.43
 > * feat(cli): add url to deploy list --json (#9793)
@@ -46,14 +46,14 @@
 > * feat(cli): deploy to BYOC data planes with only an API key (#9692)
 
 ### [1.2.24](https://github.com/langchain-ai/langgraph/releases/tag/1.2.24) — langgraph==1.2.24
-<sub>2026-11-20 · 6d ago</sub>
+<sub>2026-11-20 · 7d ago</sub>
 
 > Changes since 1.2.23
 > * release(langgraph): 1.2.24 (#9752)
 > * fix(langgraph): handle `REMOVE_ALL_MESSAGES` in `_messages_delta_reducer` and `None` checkpoints in `DeltaChannel` (#9735)
 
 ### [1.2.23](https://github.com/langchain-ai/langgraph/releases/tag/1.2.23) — langgraph==1.2.23
-<sub>2026-11-19 · 7d ago</sub>
+<sub>2026-11-19 · 8d ago</sub>
 
 > Changes since 1.2.22
 > * release(langgraph): 1.2.23 (#9742)
@@ -63,7 +63,7 @@
 > * fix(langgraph): avoid warning races in dynamic schemas (#9716)
 
 ### [prebuilt==1.1.3](https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.3) — langgraph-prebuilt==1.1.3
-<sub>2026-11-19 · 7d ago</sub>
+<sub>2026-11-19 · 8d ago</sub>
 
 > Changes since prebuilt==1.1.2
 > * release(prebuilt): 1.1.3 (#9741)
@@ -71,7 +71,7 @@
 > * fix(prebuilt): make wrap_tool_call state overrides reach the tool (#9730)
 
 ### [1.2.22](https://github.com/langchain-ai/langgraph/releases/tag/1.2.22) — langgraph==1.2.22
-<sub>2026-11-14 · 12d ago</sub>
+<sub>2026-11-14 · 13d ago</sub>
 
 > Changes since 1.2.21
 > * release(langgraph): 1.2.22 (#9702)

@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 42.9k |
-| 🍴 **Forks** | 4.5k |
+| ⭐ **Stars** | 43.0k |
+| 🍴 **Forks** | 4.6k |
 | 🐞 **Open issues + PRs** | [9](https://github.com/wshobson/agents/issues) |
 | 💻 **Languages** | Python 90% · Shell 4% · C# 3% · JavaScript 2% · Makefile 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `anthropic` `agent-skills` `agentic-ai` `ai-agents` `cursor` `cursor-rules` `mcp` `multi-agent` `opencode` `claude-code` `antigravity` `claude` `claude-skills` `subagents` `codex` `claude-code-marketplace` `claude-code-plugin` `github-copilot` `pi-coding-agent` `coding-agents` |
-| 🕒 **Last activity** | 2026-11-24 (2d ago) |
+| 🕒 **Last activity** | 2026-11-24 (3d ago) |
 | 📅 **Created** | 2025-07-24 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

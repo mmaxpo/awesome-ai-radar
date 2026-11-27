@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 578 |
-| 🍴 **Forks** | 63 |
+| ⭐ **Stars** | 580 |
+| 🍴 **Forks** | 65 |
 | 🐞 **Open issues + PRs** | [30](https://github.com/pizza-bot-app/pizza-bot/issues) |
-| 💻 **Languages** | TypeScript 91% · JavaScript 5% · CSS 4% |
+| 💻 **Languages** | TypeScript 92% · JavaScript 5% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-ai` `ai-agents` `amazon-bedrock` `deepagents` `electron` `human-in-the-loop` `langgraph` `local-first` `mcp` `typescript` `langchain` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-06-26 |
 | 📦 **Latest release** | [v1.4.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.4.0) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 15.3 MB |
+| 💾 **Size** | 16.0 MB |
 | 🌐 **Website** | https://github.com/pizza-bot-app/pizza-bot/releases |
 
 ## 📦 Recent releases
 
 ### [v1.4.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.4.0) — Pizza Bot OSS 1.4.0
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **Highlights**
 > - **Three new model providers.** You can use [UberLLM](https://uberllm.dev), Cheaper Inference, and [LiteLLM](https://docs.litellm.ai/docs/simple_proxy) as model providers. LiteLLM works with your own self-hosted proxy. Thanks to @al-global-tech, @aiapienthusiast, and @prodmanpd for their first contributions! (#193, #173, #172)
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.3.0](https://github.com/pizza-bot-app/pizza-bot/releases/tag/v1.3.0) — Pizza Bot OSS 1.3.0
-<sub>2026-11-10 · 15d ago</sub>
+<sub>2026-11-10 · 16d ago</sub>
 
 > **Highlights**
 > - **Opper provider.** You can use [Opper](https://opper.ai/) as a model provider. Thanks to @Felixkw12 for their first contribution! (#155)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [chore: release v1.4.0 (#254)](https://github.com/pizza-bot-app/pizza-bot/commit/1d6c7e4f517c1d0beef57da4512609e0e731cf9a) | JoeDo |
-| 2026-11-26 | [Merge pull request #255 from pizza-bot-app/fix/cron-never-run-recovery](https://github.com/pizza-bot-app/pizza-bot/commit/5f8a0ba8699d8cc560d9a1335a9c5c1e420a7f3c) | JoeDo |
-| 2026-11-26 | [fix(api): recover a never-run cron trigger only from ticks since its …](https://github.com/pizza-bot-app/pizza-bot/commit/3f866a44b469080e7fa5f6aa79d070d6015617e4) | JoeDo |
-| 2026-11-26 | [Merge pull request #252 from pizza-bot-app/fix/vertex-model-not-found…](https://github.com/pizza-bot-app/pizza-bot/commit/faa4c0f1266f011bb5b9d617bd4c6b07afae562f) | JoeDo |
-| 2026-11-26 | [fix(inference-providers): point Vertex AI Express model-not-found at …](https://github.com/pizza-bot-app/pizza-bot/commit/1655280b7c5a76de0e4aa7ccb5a55fe00980f8cd) | JoeDo |
-| 2026-11-26 | [Merge pull request #244 from pizza-bot-app/fix/provider-profiles-endp…](https://github.com/pizza-bot-app/pizza-bot/commit/859605e431e4a44d861fd1bb14b20068bff36684) | JoeDo |
-| 2026-11-26 | [fix(providers): keep host AWS profile names out of GET /providers](https://github.com/pizza-bot-app/pizza-bot/commit/a588fa9c7585edff700270b84c49a92b7865219f) | JoeDo |
-| 2026-11-26 | [Merge pull request #243 from pizza-bot-app/fix/sandbox-watchdog-worke…](https://github.com/pizza-bot-app/pizza-bot/commit/c39078e015b4214c59a23855d660c9cd8ed288df) | JoeDo |
-| 2026-11-26 | [fix(runtime): start the sandbox eval watchdog only once the worker is…](https://github.com/pizza-bot-app/pizza-bot/commit/519294f59dc7413b79fcc93c625e2eccd39b3110) | JoeDo |
-| 2026-11-26 | [Merge pull request #239 from pizza-bot-app/fix/trigger-recovery-once](https://github.com/pizza-bot-app/pizza-bot/commit/5ccdce0cfbdbcc136ee2cd969adb650541db3c1d) | JoeDo |
+| 2026-11-27 | [Merge pull request #273 from JoeDo/docs/env-example-missing-settings](https://github.com/pizza-bot-app/pizza-bot/commit/d60abd59086d4a6da4ce21e7a35ad03261216909) | JoeDo |
+| 2026-11-27 | [docs: describe the Playwright browser path as an override](https://github.com/pizza-bot-app/pizza-bot/commit/e7e8c4c6d21170075998d3635d7da42330b9364f) | JoeDo |
+| 2026-11-27 | [docs: rewrap the first fork review step](https://github.com/pizza-bot-app/pizza-bot/commit/346462b6e1cf5a9bde2421fffe0acea30af54d7b) | JoeDo |
+| 2026-11-27 | [docs: describe what npm test runs and which packages resolve to dist](https://github.com/pizza-bot-app/pizza-bot/commit/ac320897399488098bca10b5e65edf759dc15d04) | JoeDo |
+| 2026-11-27 | [docs: list the operator settings .env.example was missing](https://github.com/pizza-bot-app/pizza-bot/commit/944208a495955cc90d109904c36190df5b2ba338) | JoeDo |
+| 2026-11-27 | [Merge pull request #272 from pizza-bot-app/fix/fork-review-single-che…](https://github.com/pizza-bot-app/pizza-bot/commit/01bc9dfa8dbc0b9376c9fd11a9f351a8f5b49699) | JoeDo |
+| 2026-11-27 | [Merge branch 'main' into fix/fork-review-single-check-run](https://github.com/pizza-bot-app/pizza-bot/commit/32694d6a8942fa8642c9af9ac74406033df0eff7) | JoeDo |
+| 2026-11-27 | [Merge pull request #271 from pizza-bot-app/docs/stale-image-and-attac…](https://github.com/pizza-bot-app/pizza-bot/commit/27e4110635931951e9e69f5271f5f7ba444a086b) | JoeDo |
+| 2026-11-27 | [ci: give a fork commit one agent-review check that the labeled review…](https://github.com/pizza-bot-app/pizza-bot/commit/2e7e029ac573cc6dfa362a83c75009ae86e96c26) | JoeDo |
+| 2026-11-27 | [ci: name the review session check after the gate that enforces it](https://github.com/pizza-bot-app/pizza-bot/commit/036f80dc8921d5a0c571f11fc06cc6be168a3863) | JoeDo |
 
 [See all commits ↗](https://github.com/pizza-bot-app/pizza-bot/commits)
 

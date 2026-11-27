@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 25.0k |
 | 🍴 **Forks** | 1.9k |
-| 🐞 **Open issues + PRs** | [7](https://github.com/pypa/pipenv/issues) |
+| 🐞 **Open issues + PRs** | [5](https://github.com/pypa/pipenv/issues) |
 | 💻 **Languages** | Python 82% · HTML 18% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `pip` `python` `packaging` `virtualenv` `pipfile` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2017-01-20 |
 | 📦 **Latest release** | [v2026.12.1](https://github.com/pypa/pipenv/releases/tag/v2026.12.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2026.12.1](https://github.com/pypa/pipenv/releases/tag/v2026.12.1) — Release v2026.12.1
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.12.0](https://github.com/pypa/pipenv/releases/tag/v2026.12.0) — Release v2026.12.0
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -58,7 +58,7 @@
 > …
 
 ### [v2026.11.0](https://github.com/pypa/pipenv/releases/tag/v2026.11.0) — Release v2026.11.0
-<sub>2026-11-09 · 17d ago</sub>
+<sub>2026-11-09 · 18d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Added**
@@ -69,7 +69,7 @@
 > …
 
 ### [v2026.10.6](https://github.com/pypa/pipenv/releases/tag/v2026.10.6) — Release v2026.10.6
-<sub>2026-11-05 · 21d ago</sub>
+<sub>2026-11-05 · 22d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -80,7 +80,7 @@
 > …
 
 ### [v2026.10.5](https://github.com/pypa/pipenv/releases/tag/v2026.10.5) — Release v2026.10.5
-<sub>2026-11-01 · 24d ago</sub>
+<sub>2026-11-01 · 25d ago</sub>
 
 > **🤖 AI-Generated Changelog**
 > **Fixed**
@@ -94,6 +94,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Merge pull request #6811 from draarivpatel-ui/fix-translate-markers-e…](https://github.com/pypa/pipenv/commit/4a5a2ce184475b8b77a04bd7c1bde23c40237774) | matteius |
+| 2026-11-25 | [Fix extra marker translation](https://github.com/pypa/pipenv/commit/2080214af40413e6f1d238eb51d5c1523af6606c) | draarivpatel-ui |
 | 2026-11-25 | [Release v2026.12.1](https://github.com/pypa/pipenv/commit/f2ac3c11e570a4f1b5cb1935603bfa7182c0f938) | matteius |
 | 2026-11-25 | [Bumped version to 2026.12.1.](https://github.com/pypa/pipenv/commit/d665d8aa60ca6c4e7a438ce87d673fd647352567) | matteius |
 | 2026-11-25 | [Merge pull request #6809 from pcbeingused333/fix/no-lock-shorthand-ma…](https://github.com/pypa/pipenv/commit/d5ce6577864a9b61694ea46a761e05b712db8c4a) | matteius |
@@ -102,8 +104,6 @@
 | 2026-11-25 | [fix: normalize package names written to pylock.toml](https://github.com/pypa/pipenv/commit/88518d841400e996edf4e70ba3a98ec1a3e6c113) | pcbeingused333 |
 | 2026-11-25 | [Merge pull request #6806 from pcbeingused333/fix/clean-print-stderr](https://github.com/pypa/pipenv/commit/1c5499f58a3d61ab44a9ae47a39e6a69bfed5d82) | matteius |
 | 2026-11-25 | [fix(clean): show pip stderr when an uninstall fails](https://github.com/pypa/pipenv/commit/7768b4498af0dcba7112050875546833a9766f19) | pcbeingused333 |
-| 2026-11-25 | [Release v2026.12.0](https://github.com/pypa/pipenv/commit/ccd5b291f818c12e792ca8771626938605e2eb22) | matteius |
-| 2026-11-25 | [Bumped version to 2026.12.0.](https://github.com/pypa/pipenv/commit/0e1edbf7a77d638ab507ee7a74b173c53640e513) | matteius |
 
 [See all commits ↗](https://github.com/pypa/pipenv/commits)
 

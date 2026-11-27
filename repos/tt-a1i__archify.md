@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 100.4k |
+| ⭐ **Stars** | 100.8k |
 | 🍴 **Forks** | 6.9k |
 | 🐞 **Open issues + PRs** | [363](https://github.com/tt-a1i/archify/issues) |
 | 💻 **Languages** | JavaScript 88% · TypeScript 4% · CSS 3% · HTML 2% · Rust 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `architecture-diagram` `developer-tools` `system-design` `agent-skills` `codex` `opencode` `deepseek-harness` `dsh-plugin` `coding-agents` `diagrams` `diagrams-as-code` `software-architecture` `ai-agents` `claude-code` `claude-skills` `flowchart` `llm` `mermaid` `visualization` `code-analysis` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2026-04-15 |
 | 📦 **Latest release** | [v3.3.2](https://github.com/tt-a1i/archify/releases/tag/v3.3.2) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.3.2](https://github.com/tt-a1i/archify/releases/tag/v3.3.2)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **What's Changed**
 > * release: publish stable 3.3.1 update manifest by @tt-a1i in https://github.com/tt-a1i/archify/pull/1475
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.3.1](https://github.com/tt-a1i/archify/releases/tag/v3.3.1)
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **Archify 3.3 in 60 seconds**
 > https://github.com/user-attachments/assets/6a0d6637-e3af-43af-a733-4b4b53da0542
@@ -58,12 +58,12 @@
 > …
 
 ### [archify-dsh-v1.2.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.2.0) — Archify DSH 1.2.0
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > Published `@tt-a1i/archify-dsh` from this tag's verified tarball. See the integration README for the bundled Archify source and acceptance record.
 
 ### [v3.3.0](https://github.com/tt-a1i/archify/releases/tag/v3.3.0)
-<sub>2026-11-22 · 3d ago</sub>
+<sub>2026-11-22 · 4d ago</sub>
 
 > **Archify 3.3 in 60 seconds**
 > https://github.com/user-attachments/assets/6a0d6637-e3af-43af-a733-4b4b53da0542
@@ -74,7 +74,7 @@
 > …
 
 ### [archify-dsh-v1.1.0](https://github.com/tt-a1i/archify/releases/tag/archify-dsh-v1.1.0) — Archify DSH 1.1.0
-<sub>2026-11-08 · 17d ago</sub>
+<sub>2026-11-08 · 18d ago</sub>
 
 > Published `@tt-a1i/archify-dsh@1.1.0` — a Skill-only DeepSeek Harness bundle containing Archify 3.2.0.
 > - Published: 2026-11-08 (npm `latest`)

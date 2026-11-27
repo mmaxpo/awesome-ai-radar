@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 24.0k |
-| 🍴 **Forks** | 865 |
+| 🍴 **Forks** | 866 |
 | 🐞 **Open issues + PRs** | [142](https://github.com/fosrl/pangolin/issues) |
 | 💻 **Languages** | TypeScript 99% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `reverse-proxy` `wireguard` `single-sign-on` `self-hosted` `oidc` `vpn` `zero-trust` `zero-trust-network-access` `ztna` `pam` `remote-access` `ssh` `tunneling` `nat-traversal` `sase` `sso` `wireguard-vpn` `pangolin` `ai-gateway` `gateway` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2024-09-27 |
 | 📦 **Latest release** | [1.27.1](https://github.com/fosrl/pangolin/releases/tag/1.27.1) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 102.5 MB |
+| 💾 **Size** | 101.9 MB |
 | 🌐 **Website** | https://pangolin.net |
 
 ## 📦 Recent releases
 
 ### [1.27.1](https://github.com/fosrl/pangolin/releases/tag/1.27.1)
-<sub>2026-11-20 · 5d ago</sub>
+<sub>2026-11-20 · 6d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.27: Managed Client Settings, Per-Org Client Settings](https://pangolin.net/news/1-27-release)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.27.0](https://github.com/fosrl/pangolin/releases/tag/1.27.0)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.27: Managed Client Settings, Per-Org Client Settings](https://pangolin.net/news/1-27-release)
@@ -58,7 +58,7 @@
 > …
 
 ### [1.27.0-rc.0](https://github.com/fosrl/pangolin/releases/tag/1.27.0-rc.0) _(pre-release)_
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > **RC**
 > A Release Candidate (RC) is a near-final software version, stable but undergoing last tests before official release. It has all features and no known bugs.
@@ -69,7 +69,7 @@
 > …
 
 ### [1.26.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0)
-<sub>2026-11-04 · 21d ago</sub>
+<sub>2026-11-04 · 22d ago</sub>
 
 > **Read the Announcement**
 > Read the full announcement with discussion of new features: [Pangolin 1.26: Session Management, SSH Logs, and Auto Windows Updates](https://pangolin.net/news/1-26-release)
@@ -80,7 +80,7 @@
 > …
 
 ### [1.26.0-rc.0](https://github.com/fosrl/pangolin/releases/tag/1.26.0-rc.0) _(pre-release)_
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **RC**
 > A Release Candidate (RC) is a near-final software version, stable but undergoing last tests before official release. It has all features and no known bugs.

@@ -26,7 +26,7 @@
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2024-07-06 |
 | 📦 **Latest release** | [v4.1.28](https://github.com/cline/cline/releases/tag/v4.1.28) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v4.1.28](https://github.com/cline/cline/releases/tag/v4.1.28)
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **Changed**
 > - Refreshed the model catalog. The OpenAI provider no longer lists ids the upstream catalog marks deprecated, including `gpt-4o`, `gpt-4.1`, `gpt-5`, `gpt-5-mini`, `gpt-5.1`, `gpt-5.3-codex`, `o3` and `o3-pro`. `gpt-5.3-codex-spark` is no longer listed for ChatGPT subscriptions. Adds the Concentrate and Prima Labs providers.
@@ -45,7 +45,7 @@
 > **Full Changelog**: https://github.com/cline/cline/compare/v4.1.27...v4.1.28
 
 ### [desktop-v0.0.51](https://github.com/cline/cline/releases/tag/desktop-v0.0.51) — Desktop v0.0.51
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > - Refreshed the model catalog. The OpenAI provider no longer lists ids the upstream catalog marks deprecated, including `gpt-4o`, `gpt-4.1`, `gpt-5`, `gpt-5-mini`, `gpt-5.1`, `gpt-5.3-codex`, `o3` and `o3-pro`. `gpt-5.3-codex-spark` is no longer listed for ChatGPT subscriptions. Adds the Concentrate and Prima Labs providers
 > - The third-party notices in Settings → About now cover software that was missing from the list
@@ -53,7 +53,7 @@
 > **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.50...desktop-v0.0.51
 
 ### [cli-v3.0.76](https://github.com/cline/cline/releases/tag/cli-v3.0.76) — CLI v3.0.76
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > - The npm package now ships one `THIRD_PARTY_NOTICES.txt` at its root that covers every platform binary
 > - Refreshed the bundled model catalog. The OpenAI picker no longer lists ids the upstream catalog marks deprecated, including `gpt-4o`, `gpt-4.1`, `gpt-5`, `gpt-5-mini`, `gpt-5.1`, `gpt-5.3-codex`, `o3` and `o3-pro`. `gpt-5.3-codex-spark` is no longer listed for ChatGPT subscriptions
@@ -61,7 +61,7 @@
 > **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.75...cli-v3.0.76
 
 ### [sdk/sdk/v0.2.2](https://github.com/cline/cline/releases/tag/sdk/sdk/v0.2.2) — SDK v0.2.2
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > - Internal telemetry cleanup. Some telemetry helper exports were removed from `@cline/llms`, `@cline/shared` and `@cline/core`, and `@cline/llms` has fewer dependencies
 > - `writeGlobalSettings`, `setTelemetryOptOutGlobally` and `setAutoUpdateEnabledGlobally` no longer take an options argument
@@ -69,7 +69,7 @@
 > **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.2.1...sdk/sdk/v0.2.2
 
 ### [v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27)
-<sub>2026-11-21 · 5d ago</sub>
+<sub>2026-11-21 · 6d ago</sub>
 
 > **Added**
 > - LM Studio settings have an API key field, for servers with "Require Authentication" turned on.

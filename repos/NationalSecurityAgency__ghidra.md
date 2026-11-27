@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 101.4k |
-| 🍴 **Forks** | 11.5k |
+| ⭐ **Stars** | 101.5k |
+| 🍴 **Forks** | 11.6k |
 | 🐞 **Open issues + PRs** | [2.2k](https://github.com/NationalSecurityAgency/ghidra/issues) |
 | 💻 **Languages** | Java 87% · C++ 6% · HTML 4% · C 2% · Python 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `software-analysis` `disassembler` `reverse-engineering` |
-| 🕒 **Last activity** | 2026-11-25 (yesterday) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2019-03-01 |
 | 📦 **Latest release** | [Ghidra_12.2_build](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.2_build) — 2026-10-22 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 408.2 MB |
+| 💾 **Size** | 407.9 MB |
 
 ## 📦 Recent releases
 
@@ -78,16 +78,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [Merge remote-tracking branch 'origin/GP-7527_ryanmkurtz_sleigh-docs'](https://github.com/NationalSecurityAgency/ghidra/commit/50b78476df100fd360f6623223c5e4510c569c5c) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/GP-7521-dragonmacher-fg-save-image'](https://github.com/NationalSecurityAgency/ghidra/commit/acdc58ca203501db260d3d797ff2ba429f0f9334) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/a94687cd00071ffd06441567cb5ceab09fba2fa5) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/95b524323ee8f0f35502e0d1ca730577212880e8) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/a7fcde6affed94c92edae498c09f17e673f9c485) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/d70ca27f9858d4ff386d6488a923647c4c2e3495) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/9b1118348456e02dbcd332261567eeb8022fc143) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/1e304ddabbc4a18cec3d55099631f8c627b324e2) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/b4910425b0b707034942008e8d169d96a360db3d) | ryanmkurtz |
-| 2026-11-24 | [Merge remote-tracking branch](https://github.com/NationalSecurityAgency/ghidra/commit/a29df049fd9c90813ee9f10988b0da24ef1be441) | ryanmkurtz |
+| 2026-11-27 | [GP-0: Improved UNC check (#10292)](https://github.com/NationalSecurityAgency/ghidra/commit/da1389b1a8c1fed99eecb306c2fac510d46bef2e) | ryanmkurtz |
+| 2026-11-27 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/8f3143e26ca04cc67c02193065a2ab51016e596a) | ryanmkurtz |
+| 2026-11-27 | [Merge branch](https://github.com/NationalSecurityAgency/ghidra/commit/57da1102efe7428d2ecf7e54404b08b65bfafbd5) | ryanmkurtz |
+| 2026-11-27 | [Fix LaunchSupport NPE when java_home.save is empty](https://github.com/NationalSecurityAgency/ghidra/commit/ec9407309f2b90473df9790ea1c851e6d368ba1c) | cvas22 |
+| 2026-11-25 | [Merge remote-tracking branch 'origin/patch'](https://github.com/NationalSecurityAgency/ghidra/commit/117834349f47c4e344eb3c40dc81731c63ab173e) | ryanmkurtz |
+| 2026-11-25 | [Merge remote-tracking branch 'origin/GP-7526_ghidra007_searchinstruct…](https://github.com/NationalSecurityAgency/ghidra/commit/746684f7948b81d9773d89f280a952ae40322f35) | ryanmkurtz |
+| 2026-11-25 | [GP-7526 Search for Instruction Patterns added missing null check and …](https://github.com/NationalSecurityAgency/ghidra/commit/60f685d68f16eb7c6a3c68a13a806a544fd96bf9) | ghidra007 |
+| 2026-11-25 | [Merge branch 'GP-0_ryanmkurtz_PR-10305_theyottaboy_sleigh-doc-attach-…](https://github.com/NationalSecurityAgency/ghidra/commit/65333e02d9c91c8346208cddc5e009a760d8d85e) | ryanmkurtz |
+| 2026-11-25 | [GP-0: Deprecating GhidraRandomAccessFile (Closes #1504)](https://github.com/NationalSecurityAgency/ghidra/commit/87f3a6467cfa9ff29f541b2ff392c976f748f62a) | ryanmkurtz |
+| 2026-11-25 | [Corrected Sleigh documentation on attach list sizes](https://github.com/NationalSecurityAgency/ghidra/commit/16208e8fbf3a117838de93b963f82cf449b09f58) | theyottaboy |
 
 [See all commits ↗](https://github.com/NationalSecurityAgency/ghidra/commits)
 

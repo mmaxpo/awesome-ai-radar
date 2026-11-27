@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 63.6k |
+| ⭐ **Stars** | 63.8k |
 | 🍴 **Forks** | 7.4k |
-| 🐞 **Open issues + PRs** | [148](https://github.com/vectorize-io/hindsight/issues) |
-| 💻 **Languages** | Python 69% · TypeScript 16% · MDX 11% · Rust 2% |
+| 🐞 **Open issues + PRs** | [145](https://github.com/vectorize-io/hindsight/issues) |
+| 💻 **Languages** | Python 68% · TypeScript 17% · MDX 11% · Rust 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agentic-ai` `memory` `agents` `ai-memory` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-10-30 |
 | 📦 **Latest release** | [v1.3.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.3.0) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 841.5 MB |
+| 💾 **Size** | 844.4 MB |
 | 🌐 **Website** | https://hindsight.vectorize.io/ |
 
 ## 📦 Recent releases
 
 ### [v1.3.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.3.0)
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **What's Changed**
 > * docs: changelog for v1.2.3 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6714
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.2.3](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.3)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.2.2 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6678
@@ -58,7 +58,7 @@
 > …
 
 ### [v1.2.2](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.2)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **What's Changed**
 > * test(llm): fix the two-user-turns tests broken by the tool-call retry by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6492
@@ -69,7 +69,7 @@
 > …
 
 ### [v1.2.1](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.1)
-<sub>2026-11-10 · 16d ago</sub>
+<sub>2026-11-10 · 17d ago</sub>
 
 > **What's Changed**
 > * docs drop 0.9 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/6284
@@ -80,7 +80,7 @@
 > …
 
 ### [v1.2.0](https://github.com/vectorize-io/hindsight/releases/tag/v1.2.0)
-<sub>2026-11-03 · 23d ago</sub>
+<sub>2026-11-03 · 24d ago</sub>
 
 > **What's Changed**
 > * docs: changelog and blog post for v1.1.0 by @nicoloboschi in https://github.com/vectorize-io/hindsight/pull/5935
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [docs(blog): what's new in the Hindsight Hermes plugin 2.0.0 (#6925)](https://github.com/vectorize-io/hindsight/commit/47831d5c39010a5c30e9ac2aa16145f7048e930f) | nicoloboschi |
-| 2026-11-26 | [release(hermes): v2.0.0](https://github.com/vectorize-io/hindsight/commit/0aca9f80ec87237756c445ac27bf9e5affdc67fe) | nicoloboschi |
-| 2026-11-26 | [fix(knowledge): audio/video ingest works with PyAV 19 (#6921) (#6947)](https://github.com/vectorize-io/hindsight/commit/720ba345437a8c434084c46b1c623e27e4cfec80) | nicoloboschi |
-| 2026-11-26 | [fix(coding-agents): support Prime Agent 0.10+ (Rust rewrite), drop 0.…](https://github.com/vectorize-io/hindsight/commit/22cff88f1e64feea8bae90249fc5a8df88ae0413) | nicoloboschi |
-| 2026-11-26 | [fix(coding-agents): injected text follows the config and stops repeat…](https://github.com/vectorize-io/hindsight/commit/e09735ad0d1a6aff59386169d662b0d3b70db95b) | nicoloboschi |
-| 2026-11-26 | [fix(coding-agents): inject Antigravity recall as systemMessage, not d…](https://github.com/vectorize-io/hindsight/commit/53e0f48a6707c90e2f2ab542a29de42c7fa0c998) | nicoloboschi |
-| 2026-11-26 | [fix(coding-agents): Bun-hosted plugin fixes — write-back after compac…](https://github.com/vectorize-io/hindsight/commit/b77a1453986c4a06f031e957489b26c97bd3674b) | nicoloboschi |
-| 2026-11-26 | [fix(coding-agents): a forked Claude Code session no longer re-saves i…](https://github.com/vectorize-io/hindsight/commit/937cacc48cffd58219ae235690cc3f75c5e4c66d) | nicoloboschi |
-| 2026-11-26 | [feat(system-evals): Hermes evals — a real Hermes Agent, every default…](https://github.com/vectorize-io/hindsight/commit/93deb09396471f384f5f48befcfc04c2ff3ea70b) | nicoloboschi |
-| 2026-11-26 | [fix(coding-agents): Codex reader memory, Kimi session index, DSH v4 i…](https://github.com/vectorize-io/hindsight/commit/63d08b0cc571305eb0ccc9d8e1d17694fa54ac36) | nicoloboschi |
+| 2026-11-27 | [fix(coding-agents): a capture without a page id updates the same-titl…](https://github.com/vectorize-io/hindsight/commit/18ee7d2c83d74933bef0574faa574c071c924841) | nicoloboschi |
+| 2026-11-27 | [fix(coding-agents): list pages without the server's staleness scan (#…](https://github.com/vectorize-io/hindsight/commit/8fcedf86eaad658dcff177899c501a719887619f) | nicoloboschi |
+| 2026-11-27 | [feat(api): detail=basic skips the staleness check on page tree and me…](https://github.com/vectorize-io/hindsight/commit/3e2fd7cfd9ff61d1db575e11f8126c3ebe03f6eb) | nicoloboschi |
+| 2026-11-27 | [feat(control-plane): Hindsight Wrapped 2026, a year across every bank…](https://github.com/vectorize-io/hindsight/commit/9195f93a9a71bc6e9b4060f355da494cd491c27c) | nicoloboschi |
+| 2026-11-27 | [fix(coding-agents): a write-back's operation id names the whole histo…](https://github.com/vectorize-io/hindsight/commit/8adfaaff2a95f0b481310712e77d37fcf6415b97) | nicoloboschi |
+| 2026-11-27 | [feat(coding-agents): pageScope and toolGuideMoments settings for bank…](https://github.com/vectorize-io/hindsight/commit/315be3412415490872bf6dc97d393496a123df17) | nicoloboschi |
+| 2026-11-27 | [feat(coding-agents): sessionContext puts chosen mental models and pag…](https://github.com/vectorize-io/hindsight/commit/2ae5fbe2ab0e1771db23c3bb04155cdb7471484e) | nicoloboschi |
+| 2026-11-27 | [feat(recall): text2date finds the dates in a recall query by default;…](https://github.com/vectorize-io/hindsight/commit/8a4563fdecebec9244254abf2092af5e01ee0d50) | nicoloboschi |
+| 2026-11-27 | [fix(docs): home page detection honours baseUrl, so the skill bar isn'…](https://github.com/vectorize-io/hindsight/commit/6adb988eb9fad1cfa1b7c5e2a89359fdc28d694c) | nicoloboschi |
+| 2026-11-27 | [fix(coding-agents): replay a persistent-plugin session whose save fai…](https://github.com/vectorize-io/hindsight/commit/4c1727b0bc69449e5fecf30121af22afb05397cf) | nicoloboschi |
 
 [See all commits ↗](https://github.com/vectorize-io/hindsight/commits)
 

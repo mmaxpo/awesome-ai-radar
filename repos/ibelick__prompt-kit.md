@@ -24,7 +24,7 @@
 | 💻 **Languages** | TypeScript 82% · MDX 14% · JavaScript 3% · CSS 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `components` `nextjs` `react` `shadcn` `shadcn-ui` `tailwindcss` `ui` |
-| 🕒 **Last activity** | 2026-09-28 (1mo ago) |
+| 🕒 **Last activity** | 2026-09-28 (2mo ago) |
 | 📅 **Created** | 2025-02-10 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |

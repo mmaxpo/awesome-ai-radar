@@ -24,7 +24,7 @@
 | 💻 **Languages** | Python 98% · Shell 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `machine-learning` `python` `statistics` `data-science` `data-analysis` |
-| 🕒 **Last activity** | 2026-06-29 (4mo ago) |
+| 🕒 **Last activity** | 2026-06-29 (5mo ago) |
 | 📅 **Created** | 2014-08-16 |
 | 📦 **Latest release** | [0.14.2](https://github.com/scikit-learn-contrib/imbalanced-learn/releases/tag/0.14.2) — 2026-06-07 |
 | 🌿 **Default branch** | `master` |

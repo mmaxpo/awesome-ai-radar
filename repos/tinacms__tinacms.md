@@ -22,27 +22,27 @@
 |---|---|
 | ⭐ **Stars** | 13.9k |
 | 🍴 **Forks** | 773 |
-| 🐞 **Open issues + PRs** | [497](https://github.com/tinacms/tinacms/issues) |
+| 🐞 **Open issues + PRs** | [496](https://github.com/tinacms/tinacms/issues) |
 | 💻 **Languages** | TypeScript 98% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `cms` `nextjs` `react` `content-management-system` `tinacms` `markdown` `typescript` `tina` `forestry` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2019-07-23 |
 | 📦 **Latest release** | [tinacms@3.15.2](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.2) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 923.5 MB |
+| 💾 **Size** | 923.4 MB |
 | 🌐 **Website** | https://tina.io |
 
 ## 📦 Recent releases
 
 ### [tinacms@3.15.2](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.2)
-<sub>2026-11-09 · 17d ago</sub>
+<sub>2026-11-09 · 18d ago</sub>
 
 > **Patch Changes**
 > - [#7994](https://github.com/tinacms/tinacms/pull/7994) [`c91c528`](https://github.com/tinacms/tinacms/commit/c91c528f51171ee8a5955831738c2ece5ef8bed2) Thanks [@Tyagiquamar](https://github.com/Tyagiquamar)! - Focus the reference field combobox when visual editing selects it. The reference field ignored `experimental_focusIntent`, so clicking a reference in the preview opened the sidebar without focusing anything.
 
 ### [@tinacms/cli@4.0.5](https://github.com/tinacms/tinacms/releases/tag/%40tinacms/cli%404.0.5)
-<sub>2026-11-09 · 17d ago</sub>
+<sub>2026-11-09 · 18d ago</sub>
 
 > **Patch Changes**
 > - [#8019](https://github.com/tinacms/tinacms/pull/8019) [`a547b2f`](https://github.com/tinacms/tinacms/commit/a547b2f77b2b4807a4d4fb5feb1a9ecb73c046d1) Thanks [@joshbermanssw](https://github.com/joshbermanssw)! - Cap Rollup's `maxParallelFileOps` at 100 in the production admin build, so `tinacms build` no longer fails with `EMFILE: too many open files` on hosts with a 1024 open-file limit, such as Cloudflare Workers Builds.
@@ -51,7 +51,7 @@
 >   - tinacms@3.15.2
 
 ### [tinacms@3.15.1](https://github.com/tinacms/tinacms/releases/tag/tinacms%403.15.1)
-<sub>2026-11-01 · 24d ago</sub>
+<sub>2026-11-01 · 25d ago</sub>
 
 > **Patch Changes**
 > - [`124567b`](https://github.com/tinacms/tinacms/commit/124567b2e75e0f00b8d040d096532d8c6176f08f) Thanks [@Tyagiquamar](https://github.com/Tyagiquamar)! - Fix empty, index-less active field group when clicking a tinaField targeting an object list with fields.
@@ -60,7 +60,7 @@
 >   - @tinacms/mdx@2.4.2
 
 ### [@tinacms/mdx@2.4.2](https://github.com/tinacms/tinacms/releases/tag/%40tinacms/mdx%402.4.2)
-<sub>2026-11-01 · 24d ago</sub>
+<sub>2026-11-01 · 25d ago</sub>
 
 > **Patch Changes**
 > - [#7951](https://github.com/tinacms/tinacms/pull/7951) [`80502f8`](https://github.com/tinacms/tinacms/commit/80502f86b0224fb67ec05f0644db71bf5d38fde4) Thanks [@joshbermanssw](https://github.com/joshbermanssw)! - Fix saving a rich-text field that contains an empty bullet.
@@ -79,6 +79,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [feat(v4): hide a collection from the editor UI (#8111)](https://github.com/tinacms/tinacms/commit/5b368f410fda8a05dcb1bdfc0b79ba04903ec680) | joshbermanssw |
+| 2026-11-26 | [feat(v4): choose and replace images in a media picker panel over the …](https://github.com/tinacms/tinacms/commit/037c4cd156ce6fb1cd98d559426acc10626db645) | joshbermanssw |
 | 2026-11-25 | [Version Packages (#8110)](https://github.com/tinacms/tinacms/commit/87508953140d7ee83f1db6f817ab2f8d4b83d826) | release-bot-allow-prs-and-push[bot] |
 | 2026-11-25 | [feat(v4): run validators on the site server before a save (#8089)](https://github.com/tinacms/tinacms/commit/9ec0dd6316f49ca68ef23a697023a4fecde63638) | joshbermanssw |
 | 2026-11-25 | [fix(changesets): remove changesets for unreleased v4 packages (#8109)](https://github.com/tinacms/tinacms/commit/f63708678efd7057afe9428b232beaec850e1444) | joshbermanssw |
@@ -87,8 +89,6 @@
 | 2026-11-25 | [fix(tinacloud): send the upload Content-Type to upload_url and PUT wi…](https://github.com/tinacms/tinacms/commit/015b7a14f5589aed868aac342851ee6975615891) | harley-j |
 | 2026-11-24 | [fix(cli): load GraphQL documents when the project path contains a spa…](https://github.com/tinacms/tinacms/commit/a2a31aed64186f620084b330064abd9d6f817199) | joshbermanssw |
 | 2026-11-24 | [Update README.md (#8103)](https://github.com/tinacms/tinacms/commit/84c35e563347acf8a1c7dfbbf15053931e369182) | joshbermanssw |
-| 2026-11-24 | [remove OSS (#8097)](https://github.com/tinacms/tinacms/commit/a245e2bb2778db737be86cfa51f364ab48a6128c) | joshbermanssw |
-| 2026-11-23 | [feat(v4): rebuild the rail to the prototype, with plugin entries in A…](https://github.com/tinacms/tinacms/commit/e2d225867c517dfdb1aa1e88ceacea24ed476a64) | joshbermanssw |
 
 [See all commits ↗](https://github.com/tinacms/tinacms/commits)
 

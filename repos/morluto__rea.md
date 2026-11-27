@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 479.4k |
-| 🍴 **Forks** | 116.6k |
-| 🐞 **Open issues + PRs** | [1.2k](https://github.com/morluto/rea/issues) |
-| 💻 **Languages** | TypeScript 91% · JavaScript 5% · Python 1% · HTML 1% |
+| ⭐ **Stars** | 480.7k |
+| 🍴 **Forks** | 116.8k |
+| 🐞 **Open issues + PRs** | [1.1k](https://github.com/morluto/rea/issues) |
+| 💻 **Languages** | TypeScript 91% · JavaScript 5% · Python 1% · HTML 1% · Java 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `cli` `mcp` `agent-skills` `dsh-plugin` `claude-code` `rea` `touhou` `android` `javascript` `python` `typescript` `nodejs` `linux` `ai` `security` `java` `cpp` `rust` `react` `html` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-04-14 |
 | 📦 **Latest release** | [rea-agents-6.10.1](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1) — 2026-11-20 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 226.9 MB |
+| 💾 **Size** | 229.6 MB |
 | 🌐 **Website** | https://rea.tools |
 
 ## 📦 Recent releases
 
 ### [rea-agents-6.10.1](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1) — rea-agents: v6.10.1
-<sub>2026-11-20 · 6d ago</sub>
+<sub>2026-11-20 · 7d ago</sub>
 
 > **[6.10.1](https://github.com/morluto/rea/compare/rea-agents-6.10.0...rea-agents-6.10.1) (2026-11-20)**
 > This is the first 6.10 release published to npm. It includes the changes, migration notes, and contributor credits from 6.10.0 below, plus the patch fix.
@@ -47,7 +47,7 @@
 > …
 
 ### [rea-agents-6.10.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.10.0) — rea-agents: v6.10.0
-<sub>2026-11-20 · 6d ago</sub>
+<sub>2026-11-20 · 7d ago</sub>
 
 > **[6.10.0](https://github.com/morluto/rea/compare/rea-agents-6.9.0...rea-agents-6.10.0) (2026-11-20)**
 > **Highlights**
@@ -58,7 +58,7 @@
 > …
 
 ### [rea-agents-6.9.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0) — rea-agents: v6.9.0
-<sub>2026-11-12 · 14d ago</sub>
+<sub>2026-11-12 · 15d ago</sub>
 
 > **[6.9.0](https://github.com/morluto/rea/compare/rea-agents-6.8.0...rea-agents-6.9.0) (2026-11-11)**
 > **Highlights**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [fix(artifacts): keep boot image coverage unknown when layout bytes ar…](https://github.com/morluto/rea/commit/80c17a88f5db09783c5742ec8218a51702322585) | Anurag-5ingh |
-| 2026-11-26 | [fix(apple): preserve unknown CPU subtype in dylib selection (#14706)](https://github.com/morluto/rea/commit/b06adc4b49e0e10630246dbf4da373eb5ad2b703) | ShuaixinHuang |
-| 2026-11-26 | [refactor(javascript): share the artifact reconstruction cancellation …](https://github.com/morluto/rea/commit/e42341d84b2c6ac75e72642b7193779a7961ad18) | vincentkoc |
-| 2026-11-26 | [fix(environment): release abort listeners when waits settle (#14730)](https://github.com/morluto/rea/commit/10502f8fa1161c8f81caadb1f43cbbbf585c88d7) | vincentkoc |
-| 2026-11-26 | [fix(views): validate retained web source metadata against producer ru…](https://github.com/morluto/rea/commit/f9d674e748b98b024e0b174099eb0171cdad958c) | vincentkoc |
-| 2026-11-26 | [fix(tar): read pax values that hdrcharset=BINARY leaves as raw bytes …](https://github.com/morluto/rea/commit/b4fd7f7b8c49b80382d7391081e3b04d5bc503a7) | Dev-next-gen |
-| 2026-11-26 | [test(filesystem): release the lease after simulated device changes (#…](https://github.com/morluto/rea/commit/b3432183571dd9e7b4cdd82b7b9142edd8c0af51) | vincentkoc |
-| 2026-11-26 | [refactor(parsers): share typed failure handling for Android and ISO i…](https://github.com/morluto/rea/commit/1f262f5d1356c3ce94fb0e9c99302fdb60d3349c) | vincentkoc |
-| 2026-11-26 | [test(cli): share command results across fresh and shared processes (#…](https://github.com/morluto/rea/commit/7ffa72ee599287840c7db59f9776ae0a21b9a550) | vincentkoc |
-| 2026-11-26 | [fix(setup): normalize win32 paths and trailing backslashes in fxLocat…](https://github.com/morluto/rea/commit/65311cff1e8f02b76f2eca6cdf52a07fc59d82b9) | ashp15205 |
+| 2026-11-27 | [refactor(setup): share publication destination checks (#14904)](https://github.com/morluto/rea/commit/68f817cdee7bc46071c6cb4693a0a9de4aa374a1) | vincentkoc |
+| 2026-11-27 | [perf(ci): skip unused test runtime uploads (#14903)](https://github.com/morluto/rea/commit/e7c203a5d97523ae18f4c4ded9efe7abcb4dd03e) | vincentkoc |
+| 2026-11-27 | [fix(nuget): preserve explicitly spaced publisher metadata (#14906)](https://github.com/morluto/rea/commit/bbed314998666ed84128aa25f532ce27a6380e64) | vincentkoc |
+| 2026-11-27 | [fix(artifacts): keep uImage coverage unknown when bytes follow the de…](https://github.com/morluto/rea/commit/99d5ff736136b6eda15a238538fd2ca3b0eee449) | Anurag-5ingh |
+| 2026-11-27 | [fix(artifacts): report incomplete Android sparse coverage (#14883)](https://github.com/morluto/rea/commit/54f2d5a4e3bd07e97dada8996459e078e862eb85) | ShuaixinHuang |
+| 2026-11-27 | [fix(tar): require both end-of-archive blocks for complete coverage (#…](https://github.com/morluto/rea/commit/fb27ba223a5120d03d0fc9d91f0ccd1b5e589bd9) | ShuaixinHuang |
+| 2026-11-27 | [refactor(views): centralize indexed row paging (#14878)](https://github.com/morluto/rea/commit/544ec63f661e7f143643a531516bcb38ec57d839) | vincentkoc |
+| 2026-11-27 | [refactor(views): reuse optional filters in report projections (#14877)](https://github.com/morluto/rea/commit/09a5b9cef9393a8bd34ce096ed402fb72baf12e0) | vincentkoc |
+| 2026-11-27 | [fix(ghidra): let sessions share a checkpointed target (#14856)](https://github.com/morluto/rea/commit/dc12e5768b57ae8b78dec5c3eb453929b255cf7f) | morluto |
+| 2026-11-27 | [chore(deps): update Knip to 6.47.0 (#14892)](https://github.com/morluto/rea/commit/9f660d965e440dd3d2c0307965da3a960208807b) | vincentkoc |
 
 [See all commits ↗](https://github.com/morluto/rea/commits)
 

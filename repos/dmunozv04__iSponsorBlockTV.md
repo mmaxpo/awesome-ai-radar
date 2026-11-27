@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 7.3k |
 | 🍴 **Forks** | 338 |
-| 🐞 **Open issues + PRs** | [82](https://github.com/dmunozv04/iSponsorBlockTV/issues) |
+| 🐞 **Open issues + PRs** | [83](https://github.com/dmunozv04/iSponsorBlockTV/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `python` `appletv` `youtube` `sponsorblock` `chromecast` `roku` `tizen-tv` `androidtv` `samsungtv` |
-| 🕒 **Last activity** | 2026-11-19 (6d ago) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2022-01-15 |
 | 📦 **Latest release** | [v2.11.0](https://github.com/dmunozv04/iSponsorBlockTV/releases/tag/v2.11.0) — 2026-08-21 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 0.6 MB |
+| 💾 **Size** | 0.7 MB |
 
 ## 📦 Recent releases
 
@@ -67,7 +67,7 @@
 > **Full Changelog**: https://github.com/dmunozv04/iSponsorBlockTV/compare/v2.8.1...v2.9.0
 
 ### [v2.8.1](https://github.com/dmunozv04/iSponsorBlockTV/releases/tag/v2.8.1) — v2.8.1: WARNING: YouTube is revoking old screen IDs, your device might have stop…
-<sub>2026-05-01 · 6mo ago</sub>
+<sub>2026-05-01 · 7mo ago</sub>
 
 > **Warning**
 > YouTube has changed the screen ID format from 26 characters to 64 hex digits. Since the 15th April 2026 YouTube apps have started generating new IDs and revoking the old ones, breaking a paired iSponsorBlockTV.
@@ -78,7 +78,7 @@
 > …
 
 ### [v2.8.0](https://github.com/dmunozv04/iSponsorBlockTV/releases/tag/v2.8.0) — v2.8.0: WARNING: YouTube is revoking old screen IDs, your device might have stop…
-<sub>2026-05-01 · 6mo ago</sub>
+<sub>2026-05-01 · 7mo ago</sub>
 
 > **Warning**
 > YouTube has changed the screen ID format from 26 characters to 64 hex digits. Since the 15th April 2026 YouTube apps have started generating new IDs and revoking the old ones, breaking a paired iSponsorBlockTV.

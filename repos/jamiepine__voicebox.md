@@ -20,23 +20,34 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 61.3k |
-| 🍴 **Forks** | 7.7k |
-| 🐞 **Open issues + PRs** | [565](https://github.com/jamiepine/voicebox/issues) |
-| 💻 **Languages** | Python 46% · TypeScript 42% · Rust 9% |
+| ⭐ **Stars** | 61.4k |
+| 🍴 **Forks** | 7.8k |
+| 🐞 **Open issues + PRs** | [514](https://github.com/jamiepine/voicebox/issues) |
+| 💻 **Languages** | Python 48% · TypeScript 41% · Rust 9% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `voice-clone` `qwen3-tts` `voice-ai` `whisper` `qwen3-tts-ui` `cuda` `mlx` |
-| 🕒 **Last activity** | 2026-11-25 (yesterday) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-01-25 |
-| 📦 **Latest release** | [v0.6.0](https://github.com/jamiepine/voicebox/releases/tag/v0.6.0) — 2026-11-21 |
+| 📦 **Latest release** | [v0.6.1](https://github.com/jamiepine/voicebox/releases/tag/v0.6.1) — 2026-11-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 100.5 MB |
+| 💾 **Size** | 101.1 MB |
 | 🌐 **Website** | https://voicebox.sh |
 
 ## 📦 Recent releases
 
+### [v0.6.1](https://github.com/jamiepine/voicebox/releases/tag/v0.6.1) — voicebox v0.6.1
+<sub>2026-11-27 · today</sub>
+
+> A security and bug-fix release on top of 0.6.0. It raises the PyTorch floor for CVE-2026-24747, narrows the desktop app's shell and filesystem permissions, and fixes partial model downloads, a Windows CUDA DLL load failure in Chatterbox Turbo, and the dead end after denying microphone access.
+> **Fixes**
+> - **PyTorch 2.10 is now the minimum, closing CVE-2026-24747.** Before 2.10, a crafted checkpoint could run code during `torch.load` even with `weights_only=True`. `torch` and `torchaudio` now require 2.10 or newer on every platform with 2.10 wheels, and the Docker ROCm image and `just setup` on Linux AMD hosts now default to the PyTorch ROCm 7.2 wheels, because the ROCm 6.x indexes stop at 2.9.1 (set `ROCM_VERSION` / `VOICEBOX_ROCM_VERSION` to override). Two platforms cannot reach 2.10 yet and stay on their current torch: **Intel macOS** stays on 2.2.2, the last x86_64 macOS wheel PyTorch published, and **Windows ROCm** stays on AMD's 2.9.1+rocm7.2.1, the newest stable Windows ROCm wheel. On those two platforms, only load models from sources you trust. ([CVE-2026-24747](https://nvd.nist.gov/vuln/detail/CVE-2026-24747))
+> - **The desktop app's shell and filesystem permissions are narrowed to what it uses.** The webview's shell `open` scope accepts only `http(s)://` and `mailto:` URLs instead of any string, the shell `execute`/`spawn` and blanket `fs` read/write grants are gone (exports write only to the file picked in the save dialog), and the capability no longer extends IPC to any page served from `http://localhost:*`. The Open folder buttons for generations, captures and models now call a new `reveal_app_folder` command that resolves the folder in Rust and checks it stays inside the app data directory or the configured models directory, instead of opening whatever path the server returned. (security hardening)
+> - **A model is shown as downloaded only once every file it needs is on disk.** Voicebox writes an in-progress marker into the model's HuggingFace cache before a download starts and, once the model loads successfully from any path (generation, transcription and dictation, refinement and personalities, MCP, or the Models page), records the snapshot's file list in its place; `/models/status` and every engine's cache check now require all recorded files, and a marked model never runs in forced-offline mode. Previously any weights file was enough, so a download that failed after `model.safetensors` left the model marked *Downloaded* and every load failed with a misleading "couldn't connect to huggingface.co" error. Clicking Download again on such a model now fetches the missing files instead of being skipped, reloading it from disk if it is already in memory. Models downloaded by earlier versions keep working and get recorded on their next successful load. ([#1261](https://github.com/jamiepine/voicebox/issues/1261))
+> - **Chatterbox Turbo loads on the Windows CUDA backend without a prior sample upload.** The frozen build now bundles the `onnx.libs` folder from onnx's Windows wheel through a new `pyi_hooks/hook-onnx.py`, so `onnx_cpp2py_export.pyd` finds its `msvcp140-<hash>.dll` via onnx's own `os.add_dll_directory` call instead of failing with "DLL load failed" unless pandas had already loaded an identical copy. ([#1264](https://github.com/jamiepine/voicebox/issues/1264))
+> …
+
 ### [v0.6.0](https://github.com/jamiepine/voicebox/releases/tag/v0.6.0)
-<sub>2026-11-21 · 5d ago</sub>
+<sub>2026-11-21 · 6d ago</sub>
 
 > **The stability release.** 0.5 made Voicebox a dictation and agent-voice studio; 0.6 makes it hold up. Sixty-plus contributor pull requests landed since 0.5 and most of them fix something that used to go wrong in daily use: MLX crashed with `There is no Stream(gpu, 1) in current thread` when a model was loaded on one thread and used on another, memory grew with every generation and never came back on unload, a fully-cached model retried HuggingFace five times per file before it would load offline, the Docker image could not write its own data volume, dictation refused to arm without an LLM it was never going to call, and the backend test suite would not even collect. All of that is fixed. The headline features ride on top: native AMD ROCm on Windows and in Docker, five new interface languages, and Chatterbox multilingual running on Apple Silicon through MLX.
 > One change is breaking for existing MCP configs: the four MCP tools are renamed from dotted to underscore names (`voicebox.speak` → `voicebox_speak`, and so on) because Claude Desktop rejects dots in tool names. See the MCP section below.
@@ -73,29 +84,20 @@
 > - **Inference no longer fails with "offline mode is enabled" while online** ([#524](https://github.com/jamiepine/voicebox/pull/524), reverts the inference-path guards from [#503](https://github.com/jamiepine/voicebox/pull/503)). 0.4.3 wrapped every inference body (`generate`, `transcribe`, `create_voice_clone_prompt`) with a process-wide `HF_HUB_OFFLINE` flip to stop lazy HuggingFace lookups from hanging when the network drops mid-inference ([#462](https://github.com/jamiepine/voicebox/issues/462)). That flag also blocks legitimate metadata calls (e.g. `HfApi().model_info` for revision resolution) so online users started seeing generation fail outright. Inference now runs with the process's default HF state. Load-time offline guards — which weren't the source of the regression — stay in place.
 > **Known caveat**: users generating without an internet connection may see brief pauses during inference while HuggingFace metadata lookups time out (typically ~30s, after which the library recovers). A proper offline-mode toggle is planned for 0.4.5.
 
-### [v0.4.3](https://github.com/jamiepine/voicebox/releases/tag/v0.4.3) — voicebox v0.4.3
-<sub>2026-04-21 · 7mo ago</sub>
-
-> A patch focused on two user-impacting reliability fixes: macOS DMG notarization (unblocks `brew install voicebox` on macOS 15 Sequoia and fixes spurious "app isn't signed" Gatekeeper dialogs on older Intel Macs) and Kokoro Japanese voice initialization on fresh installs.
-> **macOS**
-> - **DMGs are now notarized and stapled** ([#523](https://github.com/jamiepine/voicebox/pull/523)). Tauri's bundler notarizes the `.app` inside the DMG but ships the DMG wrapper itself unnotarized. Gatekeeper rejects that on macOS 15 Sequoia (confirmed by Homebrew Cask CI failing on both arm and intel Sequoia runners) and causes the "the app is not signed" dialog on older Intel Macs when Apple's notarization servers are slow or unreachable ([#509](https://github.com/jamiepine/voicebox/issues/509)). The release workflow now submits each DMG to `notarytool`, staples the ticket, verifies with `spctl`, and overwrites the draft-release asset `tauri-action` uploaded. Adds ~5-10 min per macOS job.
-> **Backend**
-> - **Kokoro Japanese voices no longer crash on fresh installs** ([#521](https://github.com/jamiepine/voicebox/pull/521), fixes [#514](https://github.com/jamiepine/voicebox/issues/514)). `misaki[ja]` pulls in `fugashi`, which needs a MeCab dictionary on disk. The `unidic` package that was being installed ships no data and expects a ~526MB runtime download that `just setup` doesn't run (and which wouldn't survive PyInstaller anyway). Swapped to `unidic-lite`, which bundles a MeCab-compatible dict inside the wheel (~50MB). Collected in `build_binary.py` so frozen builds pick up `unidic_lite/dicdir/`.
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-24 | [Track every model load so a successful load always clears the downloa…](https://github.com/jamiepine/voicebox/commit/8dc2a5bfe0f783edd53f8a346a22dcad9c1fb793) | jamiepine |
-| 2026-11-24 | [Only prefer the repo data root when the app did not spawn the backend](https://github.com/jamiepine/voicebox/commit/6898ccb89b5ccf1b38e7a4606595850985c5fa55) | jamiepine |
-| 2026-11-24 | [Resolve app folders against the dev backend's data root in debug builds](https://github.com/jamiepine/voicebox/commit/1c5243b50b772f2a44723bc634277d024488afca) | jamiepine |
-| 2026-11-24 | [Narrow Tauri shell and fs permissions and open app folders from Rust](https://github.com/jamiepine/voicebox/commit/8abf8255c891a59c62be3b2d48d2b06c369e6147) | jamiepine |
-| 2026-11-24 | [Make TADA residency size-aware and retry only clean OSError load fail…](https://github.com/jamiepine/voicebox/commit/b227910978ee2aaf6926b13ac4b7870db9b9b962) | jamiepine |
-| 2026-11-24 | [Skip snapshot verification for a model that is already resident](https://github.com/jamiepine/voicebox/commit/8ce92fdb1ee3b25967951e3ee0b2a845bed496cd) | jamiepine |
-| 2026-11-24 | [Retry an unverified model load online once before failing (#1261)](https://github.com/jamiepine/voicebox/commit/8b845f77533534e5ba2fb18909c79846f485f794) | jamiepine |
-| 2026-11-24 | [Only report a model as downloaded once its snapshot is verified compl…](https://github.com/jamiepine/voicebox/commit/8815b9be08a184501a5c0cd5e428dd51b46d4721) | jamiepine |
-| 2026-11-24 | [Bring the recovery dialog forward, or open OS settings when the main …](https://github.com/jamiepine/voicebox/commit/b5835f9d795cae615518c96a2a2f5065a195db10) | jamiepine |
-| 2026-11-24 | [Recover from a denied microphone permission (#1267)](https://github.com/jamiepine/voicebox/commit/6d3b024e2884e3794b738296ffd29d9542f3abc1) | jamiepine |
+| 2026-11-27 | [ci(release): install --no-deps engines from backend/requirements-node…](https://github.com/jamiepine/voicebox/commit/a24f8ad99e024c6668bd74a536d5f5a97ed301a0) | jamiepine |
+| 2026-11-27 | [Bump version: 0.6.0 → 0.7.0](https://github.com/jamiepine/voicebox/commit/fff3df3281447550c5a0e7f89b6c5b8491b390a1) | jamiepine |
+| 2026-11-27 | [docs(changelog): draft the 0.7.0 release narrative](https://github.com/jamiepine/voicebox/commit/ed03198fdd9fdae7088f6860319f9b9be5acf2e0) | jamiepine |
+| 2026-11-27 | [fix(profiles): close the sample temp file before deleting a rejected …](https://github.com/jamiepine/voicebox/commit/2e84d47e413559b7e652ac8bd1d3c0d3bded2a39) | jamiepine |
+| 2026-11-27 | [fix(profiles): edit a designed voice's description in the profile form](https://github.com/jamiepine/voicebox/commit/fe1d078ddb5ed1553c34226c902150d0560d0892) | jamiepine |
+| 2026-11-27 | [docs(changelog): attribute the designed-profile description fix](https://github.com/jamiepine/voicebox/commit/014be33ffe4aa37e515ee557cf388e1285f22e7a) | jamiepine |
+| 2026-11-27 | [Fix: persist edits to designed voice descriptions](https://github.com/jamiepine/voicebox/commit/073c62545e756b8c32e7ba543f92f3320357c4e4) | zhangkom |
+| 2026-11-27 | [docs(changelog): note the MCP shim UTF-8 fix](https://github.com/jamiepine/voicebox/commit/40b11e1a4c70d223b4ab2c341036fde39887ea9c) | jamiepine |
+| 2026-11-27 | [fix(mcp): only reconfigure stdio streams that are text wrappers](https://github.com/jamiepine/voicebox/commit/197419e17f1f9d945705a8397f8ed1850598ce52) | jamiepine |
+| 2026-11-27 | [fix(mcp): preserve UTF-8 on Windows stdio](https://github.com/jamiepine/voicebox/commit/52c9c59bd4ff8ccc8fbd673ebcb33f9fd8668e8a) | Ha1baraA11 |
 
 [See all commits ↗](https://github.com/jamiepine/voicebox/commits)
 

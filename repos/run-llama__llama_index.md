@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 53.0k |
-| 🍴 **Forks** | 8.6k |
+| 🍴 **Forks** | 8.7k |
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/run-llama/llama_index/issues) |
 | 💻 **Languages** | Python 73% · Jupyter Notebook 25% · Makefile 2% |
 | 📜 **License** | MIT |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v0.14.26](https://github.com/run-llama/llama_index/releases/tag/v0.14.26)
-<sub>2026-11-13 · 12d ago</sub>
+<sub>2026-11-13 · 13d ago</sub>
 
 > **Release Notes**
 > **[2026-11-13]**

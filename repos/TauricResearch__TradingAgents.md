@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 123.8k |
+| ⭐ **Stars** | 123.9k |
 | 🍴 **Forks** | 23.7k |
 | 🐞 **Open issues + PRs** | [164](https://github.com/TauricResearch/TradingAgents/issues) |
 | 💻 **Languages** | TypeScript 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agent` `finance` `llm` `multiagent` `trading` |
-| 🕒 **Last activity** | 2026-11-25 (yesterday) |
+| 🕒 **Last activity** | 2026-11-25 (2d ago) |
 | 📅 **Created** | 2024-12-28 |
 | 📦 **Latest release** | [v1.0.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.0.1](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.1)
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **Fixed**
 > - Plan mode: the PDF report shows the question you asked, with what you added while planning, instead of "Carry out the plan".
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.0.0](https://github.com/TauricResearch/TradingAgents/releases/tag/v1.0.0)
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > - TradingAgents: Towards Agentic Finance Research.
 > **Research**

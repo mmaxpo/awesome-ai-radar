@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 43.3k |
 | 🍴 **Forks** | 6.4k |
-| 🐞 **Open issues + PRs** | [1.9k](https://github.com/agno-agi/agno/issues) |
+| 🐞 **Open issues + PRs** | [2.0k](https://github.com/agno-agi/agno/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `developer-tools` `python` `agents` `ai` `ai-agents` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2022-05-04 |
 | 📦 **Latest release** | [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1) — 2026-11-17 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 332.7 MB |
+| 💾 **Size** | 334.7 MB |
 | 🌐 **Website** | https://docs.agno.com |
 
 ## 📦 Recent releases
 
 ### [v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1)
-<sub>2026-11-17 · 8d ago</sub>
+<sub>2026-11-17 · 9d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.2.0](https://github.com/agno-agi/agno/releases/tag/v3.2.0)
-<sub>2026-11-12 · 13d ago</sub>
+<sub>2026-11-12 · 14d ago</sub>
 
 > **Summary**
 > Agno v3.2 makes Super Agent faster and more capable with direct tools, expands Company task governance and coordination, introduces database-backed AgentOS homepage metrics, upgrades A2A to the v1.0 protocol, updates the Slack interface to use the Bolt SDK and makes external agents first-class stored components.
@@ -58,7 +58,7 @@
 > …
 
 ### [v3.1.12](https://github.com/agno-agi/agno/releases/tag/v3.1.12)
-<sub>2026-10-29 · 28d ago</sub>
+<sub>2026-10-29 · 29d ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -69,7 +69,7 @@
 > …
 
 ### [v3.1.11](https://github.com/agno-agi/agno/releases/tag/v3.1.11)
-<sub>2026-10-27 · 29d ago</sub>
+<sub>2026-10-27 · 1mo ago</sub>
 
 > **Changelog**
 > **New Features:**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [feat: show the Company file system on the File System page (#11860)](https://github.com/agno-agi/agno/commit/e58381bc1d795840fc06fb11d30fa6a1994cdd94) | ashpreetbedi |
-| 2026-11-26 | [feat: make Company one file system (#11854)](https://github.com/agno-agi/agno/commit/37ab1ee863289caa84920ac70687b651dbfd33f1) | ashpreetbedi |
-| 2026-11-26 | [feat: describe each file system an agent holds (#11895)](https://github.com/agno-agi/agno/commit/ff145fbdf2f4c54fe08389049b87129fe74fe9cd) | ashpreetbedi |
-| 2026-11-25 | [refactor: rename Company Product to Goal (#11852)](https://github.com/agno-agi/agno/commit/bb04b0dbb5dd2e83b1ff00a0588b4cb7ffe66f2c) | ashpreetbedi |
-| 2026-11-25 | [feat: declare file systems on AgentOS (#11851)](https://github.com/agno-agi/agno/commit/9ea60e7900a65d153f96407d4fedad442fc7fd22) | ashpreetbedi |
-| 2026-11-25 | [feat: accept several comma-separated keys in JWT_VERIFICATION_KEY (#1…](https://github.com/agno-agi/agno/commit/ad3099f8564da68e0ce6625ce2335c3e3ff44817) | ashpreetbedi |
-| 2026-11-24 | [[fix] Honor zero result limits in core knowledge searches (#10778)](https://github.com/agno-agi/agno/commit/bd24f44997b3cc86b3cfa9f6608bacc0353c601f) | FanouZeng-TT |
-| 2026-11-24 | [[fix] Quote CSV query result fields and headers (#10681)](https://github.com/agno-agi/agno/commit/471f930b2eff3f96aedd45065eab00e9aeceb3f5) | Xuxchloris |
-| 2026-11-24 | [fix: read the video id from youtu.be, shorts, embed and live links (#…](https://github.com/agno-agi/agno/commit/63a5a0f92dcb3ebacaf38fe2b8c6aeee52b0d071) | DZH166 |
-| 2026-11-24 | [[fix] Gemini: pass image bytes to Part.from_bytes instead of a base64…](https://github.com/agno-agi/agno/commit/eb30cccc389fb16a56e8db3473adf51c05ee8ab4) | HardMax71 |
+| 2026-11-27 | [fix: Super Agent can read the rest of a long background run result (#…](https://github.com/agno-agi/agno/commit/10010260cbb7d64e9a1eab250cf9c05f4ae76825) | ashpreetbedi |
+| 2026-11-27 | [feat: report AgentOS configuration for the settings page (#11889)](https://github.com/agno-agi/agno/commit/61c714d8e3f14e6df62023848fa17364ff996ea2) | ashpreetbedi |
+| 2026-11-27 | [fix: a Company Task is run again after a restart, and a failed Task l…](https://github.com/agno-agi/agno/commit/cd33a4c03b492b23323e2ef0e38bd005e2382a32) | ashpreetbedi |
+| 2026-11-27 | [fix: two people can use the coding engineers at the same time (#11956)](https://github.com/agno-agi/agno/commit/7db8cc23761f9027d99d8d3724cf0bfc5e18890f) | ashpreetbedi |
+| 2026-11-27 | [fix: a coding Task added in chat is filed under the Goal that has its…](https://github.com/agno-agi/agno/commit/a46e50454cc2787bb1eac8fb74be5a79b443fd83) | ashpreetbedi |
+| 2026-11-27 | [fix: Platform Builder runs a workflow it built and says what it retur…](https://github.com/agno-agi/agno/commit/d80a8319fa7e2c8a1d1c08de599632d3ae57eee7) | ashpreetbedi |
+| 2026-11-27 | [feat: Super Agent reads what a coding agent changed in its sandbox (#…](https://github.com/agno-agi/agno/commit/0df9a65ae216c30ada17987b8f22c61d75d80e3f) | ashpreetbedi |
+| 2026-11-27 | [fix: Super Agent can send a follow-up to a Task a teammate created (#…](https://github.com/agno-agi/agno/commit/a4b36d6f3b9415518b8348549fb0d02baa7b2251) | ashpreetbedi |
+| 2026-11-27 | [fix: a sandboxed run killed for memory says so instead of "exit code …](https://github.com/agno-agi/agno/commit/668c74fef1cb408006bcf7e14c41226046ff0467) | ashpreetbedi |
+| 2026-11-27 | [fix: Super Agent reads the company's rules before it records or appro…](https://github.com/agno-agi/agno/commit/9f416700dd6535d2e26c569923177a60f2be73a7) | ashpreetbedi |
 
 [See all commits ↗](https://github.com/agno-agi/agno/commits)
 

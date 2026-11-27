@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 58.8k |
+| ⭐ **Stars** | 58.9k |
 | 🍴 **Forks** | 5.0k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/hesreallyhim/awesome-claude-code/issues) |
 | 💻 **Languages** | Python 95% · Makefile 5% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `anthropic` `anthropic-claude` `awesome` `awesome-list` `awesome-lists` `awesome-resources` `claude` `claude-code` `agentic-code` `agentic-coding` `ai-workflow-optimization` `ai-workflows` `coding-agent` `coding-agents` `coding-assistant` `agent-skills` `coding-assistants` `llm` `awesome-claude-code` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-04-19 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `main` |
@@ -40,16 +40,16 @@ _No releases — this project doesn't publish versions; follow the commits below
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/0642ad6c9f71fca4a11b5c77a1f599de5a833012) | github-actions[bot] |
+| 2026-11-27 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/33b3f5912d6cd0cd2420d3f79537ccb5c15e9bd4) | github-actions[bot] |
+| 2026-11-27 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/1d940e0c83bd85c605e3707d7d1df8a23fd7025e) | github-actions[bot] |
+| 2026-11-27 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/f51ff52bc3e82ed868bb03c38144e3457cc3a554) | github-actions[bot] |
+| 2026-11-27 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/15038da28944b4d1287d444185cc5a2522e66d70) | github-actions[bot] |
+| 2026-11-27 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/e188afdea98dcec42bf71d8782cebccadffc59d6) | github-actions[bot] |
+| 2026-11-26 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/bfeb3e0d634ea672d8133fcea2d0e1ab6060bd8e) | github-actions[bot] |
+| 2026-11-26 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/81828e36033776ded884deb3f1e5b96236fa4e76) | github-actions[bot] |
 | 2026-11-26 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/1cf15968f85f2ce42ed1e3cafab26df6aa39da66) | github-actions[bot] |
 | 2026-11-26 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/4dcc0b64b8dd78082f7d2bcb201a9e8d9a2761eb) | github-actions[bot] |
-| 2026-11-26 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/0f86be1da59629f3fbb69f90820d557f3b3784c3) | github-actions[bot] |
-| 2026-11-26 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/13b65430f1b3274b9242c17b5a681226fe9d6144) | github-actions[bot] |
-| 2026-11-26 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/e9480327a0108cc1281108a8bd101f16351637d6) | github-actions[bot] |
-| 2026-11-26 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/bf81501814145873911fb164b8c26e40b16df2ca) | github-actions[bot] |
-| 2026-11-25 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/67120b255597bc93f58cfb68967c5f819e71f771) | github-actions[bot] |
-| 2026-11-25 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/37f0ec3fec4ad6eb322f95c197d4a35dae50fc27) | github-actions[bot] |
-| 2026-11-25 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/b179d5caee610e729e9e74e16f6419aae0a88cdf) | github-actions[bot] |
-| 2026-11-25 | [chore: update repo ticker data and SVGs [skip ci]](https://github.com/hesreallyhim/awesome-claude-code/commit/6ac774dad266918c55b59e7118efdf6ec4b57c41) | github-actions[bot] |
 
 [See all commits ↗](https://github.com/hesreallyhim/awesome-claude-code/commits)
 

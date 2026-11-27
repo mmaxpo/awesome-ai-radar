@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 69.0k |
-| 🍴 **Forks** | 5.9k |
-| 🐞 **Open issues + PRs** | [36](https://github.com/openinterpreter/openinterpreter/issues) |
+| 🍴 **Forks** | 6.0k |
+| 🐞 **Open issues + PRs** | [33](https://github.com/openinterpreter/openinterpreter/issues) |
 | 💻 **Languages** | Rust 97% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `coding-agent` `deepseek` `kimi` `qwen` `rust` `acp` `python` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-07-14 |
 | 📦 **Latest release** | [rust-v0.0.64](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.64) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 304.1 MB |
+| 💾 **Size** | 304.4 MB |
 | 🌐 **Website** | http://openinterpreter.com/ |
 
 ## 📦 Recent releases
 
 ### [rust-v0.0.64](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.64) — Open Interpreter 0.0.64
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **Open Interpreter 0.0.64**
 > **Models**
@@ -47,7 +47,7 @@
 > …
 
 ### [rust-v0.0.61](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61) — Open Interpreter 0.0.61
-<sub>2026-11-11 · 15d ago</sub>
+<sub>2026-11-11 · 16d ago</sub>
 
 > **Open Interpreter 0.0.61**
 > **Models**
@@ -58,7 +58,7 @@
 > …
 
 ### [rust-v0.0.60](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.60) — Open Interpreter 0.0.60
-<sub>2026-11-09 · 17d ago</sub>
+<sub>2026-11-09 · 18d ago</sub>
 
 > **Open Interpreter 0.0.60**
 > **Models**
@@ -69,7 +69,7 @@
 > …
 
 ### [rust-v0.0.59](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.59) — Open Interpreter 0.0.59
-<sub>2026-11-04 · 22d ago</sub>
+<sub>2026-11-04 · 23d ago</sub>
 
 > **Open Interpreter 0.0.59**
 > **Models**
@@ -80,7 +80,7 @@
 > …
 
 ### [rust-v0.0.58](https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.58) — Open Interpreter 0.0.58
-<sub>2026-11-01 · 25d ago</sub>
+<sub>2026-11-01 · 26d ago</sub>
 
 > **Open Interpreter 0.0.58**
 > **Models**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Merge pull request #2000 from openinterpreter/interpreterwork/docs-li…](https://github.com/openinterpreter/openinterpreter/commit/520887a24c38c186a4d53e54b9c8b5e4dab95cf6) | interpreterwork-automation[bot] |
-| 2026-11-26 | [Fix documentation links to repository policies](https://github.com/openinterpreter/openinterpreter/commit/49c0ff9cee62d0d3e1638fff4752a63b0b8da628) | interpreterwork |
-| 2026-11-26 | [Merge pull request #1999 from openinterpreter/interpreterwork/release…](https://github.com/openinterpreter/openinterpreter/commit/2749a34a05b55017e7cde0e95f2d46de07047258) | interpreterwork-automation[bot] |
-| 2026-11-26 | [chore: prepare Open Interpreter 0.0.64 release notes and version](https://github.com/openinterpreter/openinterpreter/commit/f0295e0b6d3a7b1028eb1f435b081c51d80299b9) | interpreterwork |
-| 2026-11-26 | [Merge pull request #1998 from openinterpreter/interpreterwork/release…](https://github.com/openinterpreter/openinterpreter/commit/34e9adc5d88eabe18f6d6a32f15205f3dc8023cd) | interpreterwork-automation[bot] |
-| 2026-11-26 | [chore: prepare Open Interpreter 0.0.63 release notes and version](https://github.com/openinterpreter/openinterpreter/commit/774648746feff74cf8a92d1226eb7b01ef3a98f6) | interpreterwork |
-| 2026-11-26 | [Build macOS release binaries on standard runners](https://github.com/openinterpreter/openinterpreter/commit/d4cd5ce3779f83384525b8a8d45830c2bfdbe0eb) | interpreterwork |
-| 2026-11-26 | [Merge pull request #1996 from openinterpreter/interpreterwork/release…](https://github.com/openinterpreter/openinterpreter/commit/7ff17bf8b47eedb617619314e758251ce20a3c62) | interpreterwork-automation[bot] |
-| 2026-11-26 | [chore: prepare Open Interpreter 0.0.62 release notes and version](https://github.com/openinterpreter/openinterpreter/commit/70b70d20318dcc6acebd364068020c5ca2cd3670) | interpreterwork |
-| 2026-11-26 | [Merge pull request #1995 from openinterpreter/interpreterwork/respons…](https://github.com/openinterpreter/openinterpreter/commit/70f18ca8fbe4ed208f21cee612222cdc7dfdf4a5) | interpreterwork-automation[bot] |
+| 2026-11-27 | [Add exact-thread caller policy attestation (#2007)](https://github.com/openinterpreter/openinterpreter/commit/21c5f9846eb049825410651c06ab53ea7163a73d) | interpreterwork-automation[bot] |
+| 2026-11-27 | [Merge pull request #2006 from openinterpreter/interpreterwork/model-a…](https://github.com/openinterpreter/openinterpreter/commit/61a1c0f7fc505cb58a84c8d645174b04acff2d58) | interpreterwork-automation[bot] |
+| 2026-11-27 | [fix(models): keep aliases from shadowing canonical IDs](https://github.com/openinterpreter/openinterpreter/commit/d6ff95aa3119b933150d712dfcf1327c89e3df2c) | interpreterwork |
+| 2026-11-27 | [Merge pull request #2003 from openinterpreter/interpreterwork/oix-cat…](https://github.com/openinterpreter/openinterpreter/commit/9a7055f89b7aa0cd8e4233715ddb9af55f1a6e59) | interpreterwork-automation[bot] |
+| 2026-11-27 | [Merge current main into provider catalog refresh](https://github.com/openinterpreter/openinterpreter/commit/124953c76ec7ad90d296e6c6cd712d9ce4a2b804) | interpreterwork |
+| 2026-11-27 | [Merge pull request #2005 from openinterpreter/interpreterwork/minimax…](https://github.com/openinterpreter/openinterpreter/commit/d3986835d1aa6adc16d6d46f6e5724a43d78ac09) | interpreterwork-automation[bot] |
+| 2026-11-27 | [Add MiniMax M3.1 Flash to provider catalogs](https://github.com/openinterpreter/openinterpreter/commit/a80897c798992fa734e449ff2c593e48c085beb7) | interpreterwork |
+| 2026-11-27 | [Honor provider API URL overrides in catalog generation](https://github.com/openinterpreter/openinterpreter/commit/051f4a79112ac8d20ad7c8a6d418a1d6d201cc4a) | interpreterwork |
+| 2026-11-27 | [Merge pull request #2001 from openinterpreter/interpreterwork/oix-cat…](https://github.com/openinterpreter/openinterpreter/commit/2515107bdb7dbaaecd78e900d27c1b88a8e266bd) | interpreterwork-automation[bot] |
+| 2026-11-27 | [Read provider catalog inputs and output as UTF-8](https://github.com/openinterpreter/openinterpreter/commit/e8dcade7aff4c1c08484261e3cdac89d1db542c0) | interpreterwork |
 
 [See all commits ↗](https://github.com/openinterpreter/openinterpreter/commits)
 

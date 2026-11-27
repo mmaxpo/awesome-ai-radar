@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 30.9k |
+| ⭐ **Stars** | 31.0k |
 | 🍴 **Forks** | 4.3k |
-| 🐞 **Open issues + PRs** | [30](https://github.com/assafelovic/gpt-researcher/issues) |
+| 🐞 **Open issues + PRs** | [34](https://github.com/assafelovic/gpt-researcher/issues) |
 | 💻 **Languages** | Python 68% · TypeScript 23% · JavaScript 4% · CSS 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `python` `agent` `automation` `research` `search` `webscraping` `llms` `deepresearch` `mcp` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-23 (3d ago) |
+| 🕒 **Last activity** | 2026-11-23 (4d ago) |
 | 📅 **Created** | 2023-05-12 |
 | 📦 **Latest release** | [v3.8.0](https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0) — 2026-11-09 |
 | 🌿 **Default branch** | `main` |

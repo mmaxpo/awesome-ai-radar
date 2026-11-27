@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 117.3k |
-| 🍴 **Forks** | 19.5k |
+| ⭐ **Stars** | 117.5k |
+| 🍴 **Forks** | 19.6k |
 | 🐞 **Open issues + PRs** | [6.8k](https://github.com/paperclipai/paperclip/issues) |
 | 💻 **Languages** | TypeScript 92% · JavaScript 4% · Rust 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-orchestration` `agentic-ai` `ai-agents` `autonomous-agents` `claude-code` `codex` `mcp` `multi-agent` `openclaw` `workflow-automation` `acpx` `ai-engineering` `ai-governance` `ai-tools` `claude` `claude-skills` `hermes` `agent-skills` `llm` `project-management` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-03-02 |
 | 📦 **Latest release** | [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0) — 2026-11-18 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 566.3 MB |
+| 💾 **Size** | 567.0 MB |
 | 🌐 **Website** | https://paperclip.ing |
 
 ## 📦 Recent releases
 
 ### [v2026.1117.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1117.0)
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > **Paperclip v2026.1117.0**
 > > Released: 2026-11-17
@@ -47,7 +47,7 @@
 > …
 
 ### [v2026.1106.0](https://github.com/paperclipai/paperclip/releases/tag/v2026.1106.0)
-<sub>2026-11-06 · 19d ago</sub>
+<sub>2026-11-06 · 20d ago</sub>
 
 > **Paperclip v2026.1106.0**
 > > Released: 2026-11-06
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [fix(runner): re-prepare OpenCode launch inputs for a replaced provide…](https://github.com/paperclipai/paperclip/commit/4ea6fa61d5e9b112458a6091ba1d63f2fa9c6940) | cryppadotta |
-| 2026-11-26 | [fix(native-runtime): keep external chat waits when finalization retri…](https://github.com/paperclipai/paperclip/commit/50633695e7ca67b4682a2b524884260b666fe4c3) | cryppadotta |
-| 2026-11-26 | [fix(recovery): continue tasks blocked by a setup failure before provi…](https://github.com/paperclipai/paperclip/commit/4bf6a50e9de76ab2bc758d806e12fedb89086bbb) | cryppadotta |
-| 2026-11-26 | [perf(ci): reuse verified macOS runtime artifacts from master runs can…](https://github.com/paperclipai/paperclip/commit/880b0c3a7ccbce9e25e1e3b54334825946586dcf) | cryppadotta |
-| 2026-11-26 | [fix(ci): run merge-queue Docker builds on standard runners and skip w…](https://github.com/paperclipai/paperclip/commit/8f6d94169acac39e8333bd3cc12b7ecdfe269793) | cryppadotta |
-| 2026-11-26 | [fix(ui): show Antigravity and Copilot as first-class harnesses in age…](https://github.com/paperclipai/paperclip/commit/8f542b3c9be6336fc54f50cff1f54a86e455d6e7) | cryppadotta |
-| 2026-11-26 | [build(deps-dev): bump typescript from 5.9.3 to 7.0.2 in /packages/plu…](https://github.com/paperclipai/paperclip/commit/85ad16b47eab2caed981d4b662ab44b0255f83be) | dependabot[bot] |
-| 2026-11-26 | [build(deps): bump @daytonaio/sdk from 0.203.0 to 0.232.0 in /packages…](https://github.com/paperclipai/paperclip/commit/97aab772a1342636051ad6bd9c8f695c814211f1) | dependabot[bot] |
-| 2026-11-26 | [test(ai-connections): start the receiver lock-wait deadline after chi…](https://github.com/paperclipai/paperclip/commit/5a7150be7e6bc88fecdcdfda578885543d8ec8d5) | devinfoley |
-| 2026-11-26 | [test(server): fix the issue-prefix collision and the shared-role idle…](https://github.com/paperclipai/paperclip/commit/bde164de54b038dfeacfe738334eb1c73fa05716) | cryppadotta |
+| 2026-11-27 | [fix(voice): exclude voice transport from tool health sweep and clarif…](https://github.com/paperclipai/paperclip/commit/c49e80da6c23f678ae743162eda4f90bde82116a) | cryppadotta |
+| 2026-11-27 | [fix(github): a run that ends without its own reply links the latest r…](https://github.com/paperclipai/paperclip/commit/f78a6f5ae3621694bed537f414271f07ad1c488c) | cryppadotta |
+| 2026-11-27 | [fix(ui): add mobile contextual navigation, drawer escape, and shell n…](https://github.com/paperclipai/paperclip/commit/99203b9f95ec5c423121afa44a14a377ed8db25a) | cryppadotta |
+| 2026-11-27 | [fix(ui): polish mobile tables, popovers, PageTabBar callers, and sett…](https://github.com/paperclipai/paperclip/commit/26c72ed7ca737ba274c27e92f5678ba74dcf2b59) | cryppadotta |
+| 2026-11-27 | [fix(ui): mobile parity for task detail, chat, goals, cases, and coord…](https://github.com/paperclipai/paperclip/commit/74f26f3b494c3434cbe22c15f32aa6c744bf98ef) | cryppadotta |
+| 2026-11-27 | [fix(ui): clear mobile bottom nav on overlays and wrap mobile toolbars…](https://github.com/paperclipai/paperclip/commit/ffd8dcb4afab155984a34d653c6ddb1e0ea93898) | cryppadotta |
+| 2026-11-27 | [fix(ui): surface local and hosted sign-in actions on the primary foot…](https://github.com/paperclipai/paperclip/commit/3fd66c0e12331fd34b7aac1011c2cab0b6f86ec1) | cryppadotta |
+| 2026-11-27 | [fix(github): a superseded automatic review finishes instead of asking…](https://github.com/paperclipai/paperclip/commit/7d850ad65ebe4e0801c89226426d9b371921ce79) | cryppadotta |
+| 2026-11-27 | [feat(voice): support outbound call messages, issue transcripts, and o…](https://github.com/paperclipai/paperclip/commit/2caedfe7b0ee565cf6b919c37cd7e958735b1c28) | cryppadotta |
+| 2026-11-27 | [fix(workspaces): run the full-disk read-only inventory's Git reads un…](https://github.com/paperclipai/paperclip/commit/9c91c097bd161c4813cc961439bdc68694ecd511) | paperclipbugbot |
 
 [See all commits ↗](https://github.com/paperclipai/paperclip/commits)
 

@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 379.3k |
+| ⭐ **Stars** | 379.5k |
 | 🍴 **Forks** | 59.4k |
 | 🐞 **Open issues + PRs** | [646](https://github.com/donnemartin/system-design-primer/issues) |
 | 💻 **Languages** | Python 98% · Shell 2% |

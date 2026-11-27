@@ -18,13 +18,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 565.7k |
+| ⭐ **Stars** | 565.9k |
 | 🍴 **Forks** | 52.9k |
-| 🐞 **Open issues + PRs** | [645](https://github.com/codecrafters-io/build-your-own-x/issues) |
+| 🐞 **Open issues + PRs** | [647](https://github.com/codecrafters-io/build-your-own-x/issues) |
 | 💻 **Languages** | Markdown 100% |
 | 📜 **License** | — |
 | 🏷 **Topics** | `programming` `tutorials` `tutorial-code` `tutorial-exercises` `free` `awesome-list` |
-| 🕒 **Last activity** | 2026-11-19 (7d ago) |
+| 🕒 **Last activity** | 2026-11-19 (8d ago) |
 | 📅 **Created** | 2018-05-09 |
 | 📦 **Latest release** | — |
 | 🌿 **Default branch** | `master` |

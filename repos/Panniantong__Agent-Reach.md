@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.0k |
-| 🍴 **Forks** | 10.3k |
+| ⭐ **Stars** | 115.3k |
+| 🍴 **Forks** | 10.4k |
 | 🐞 **Open issues + PRs** | [163](https://github.com/Panniantong/Agent-Reach/issues) |
 | 💻 **Languages** | Python 98% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-infrastructure` `ai-agent` `ai-search` `automation` `bilibili` `claude-code` `cli` `cursor` `free-api` `llm-tools` `mcp` `python` `reddit-scraper` `twitter-scraper` `web-scraper` `xiaohongshu` `youtube-transcript` |
-| 🕒 **Last activity** | 2026-11-24 (2d ago) |
+| 🕒 **Last activity** | 2026-11-24 (3d ago) |
 | 📅 **Created** | 2026-02-24 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.1) — 2026-11-01 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.6.1](https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.1)
-<sub>2026-11-01 · 25d ago</sub>
+<sub>2026-11-01 · 26d ago</sub>
 
 > 中文：
 > - 全网搜索、Reddit、小红书、B站在 1.6.0 里会出现的几种"明明能查却报错"或"显示成功但内容是空的"，这版都修好了。

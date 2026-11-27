@@ -14,7 +14,7 @@
 | **Why it's worth a look** | The classic Stable Diffusion web UI with a huge extension ecosystem |
 | **Added** | 2026-11-11 |
 
-💤 **Quiet** — no activity for 8mo
+💤 **Quiet** — no activity for 9mo
 
 ## 📊 At a glance
 
@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 87% · JavaScript 8% · CSS 2% · HTML 1% |
 | 📜 **License** | AGPL-3.0 |
 | 🏷 **Topics** | `deep-learning` `diffusion` `image-generation` `image2image` `img2img` `text2image` `txt2img` `ai` `ai-art` `gradio` `pytorch` `stable-diffusion` `torch` `upscaling` `web` `unstable` |
-| 🕒 **Last activity** | 2026-03-02 (8mo ago) |
+| 🕒 **Last activity** | 2026-03-02 (9mo ago) |
 | 📅 **Created** | 2022-08-22 |
 | 📦 **Latest release** | [v1.10.1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1) — 2025-02-09 |
 | 🌿 **Default branch** | `master` |

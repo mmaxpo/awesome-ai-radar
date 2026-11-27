@@ -20,73 +20,73 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.1k |
-| 🍴 **Forks** | 480 |
-| 🐞 **Open issues + PRs** | [19](https://github.com/homeassistant-ai/ha-mcp/issues) |
+| ⭐ **Stars** | 8.2k |
+| 🍴 **Forks** | 481 |
+| 🐞 **Open issues + PRs** | [15](https://github.com/homeassistant-ai/ha-mcp/issues) |
 | 💻 **Languages** | Python 96% · JavaScript 2% · Astro 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `claude` `hacs` `home-assistant` `home-automation` `llm` `mcp` `model-context-protocol` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-09-14 |
-| 📦 **Latest release** | [v9.3.0](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0) — 2026-11-25 |
+| 📦 **Latest release** | [v9.4.0.dev3761](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.4.0.dev3761) — 2026-11-27 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 65.4 MB |
+| 💾 **Size** | 66.2 MB |
 | 🌐 **Website** | https://homeassistant-ai.github.io/ha-mcp/ |
 
 ## 📦 Recent releases
 
-### [v9.3.0](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0)
-<sub>2026-11-25 · today</sub>
+### [v9.4.0.dev3761](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.4.0.dev3761) — Dev Build 9.4.0.dev3761 _(pre-release)_
+<sub>2026-11-27 · today</sub>
 
-> **Added**
-> - **panel**: Deep-link the settings app to a tab and an approval card
->   ([#3188](https://github.com/homeassistant-ai/ha-mcp/pull/3188))
-> - Export and import HA-MCP settings between installations
->   ([#3164](https://github.com/homeassistant-ai/ha-mcp/pull/3164))
-> - Ha_manage_updates follows Home Assistant's update and Repairs paths and reads Core's breaking changes again
-> …
-
-### [v9.3.0.dev3729](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3729) — Dev Build 9.3.0.dev3729 _(pre-release)_
-<sub>2026-11-25 · yesterday</sub>
-
-> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@5acdcfe, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3729.
+> **HA-MCP — Manage Home Assistant with AI 9.4.0 (development pre-release)**
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@db0d27e, ahead of the 9.4.0 stable release. Installs ha-mcp-dev==9.4.0.dev3761.
 > You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
 > Changes since the previous pre-release:
-> - Fix Logbook search results and bounded pagination (#3203)
+> - feat(i18n): add Turkish (tr) translation (#3222)
 > **Other installs**
 > …
 
-### [v9.3.0.dev3725](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3725) — Dev Build 9.3.0.dev3725 _(pre-release)_
-<sub>2026-11-25 · yesterday</sub>
+### [v9.4.0.dev3757](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.4.0.dev3757) — Dev Build 9.4.0.dev3757 _(pre-release)_
+<sub>2026-11-27 · today</sub>
 
-> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@7202d09, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3725.
+> **HA-MCP — Manage Home Assistant with AI 9.4.0 (development pre-release)**
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@16dae77, ahead of the 9.4.0 stable release. Installs ha-mcp-dev==9.4.0.dev3757.
 > You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
 > Changes since the previous pre-release:
-> - fix: bound memory use when reading the Home Assistant Logbook (#3201)
+> - docs(i18n): clarify reader-addressing samples for new locales (#3224)
 > **Other installs**
 > …
 
-### [v9.3.0.dev3723](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3723) — Dev Build 9.3.0.dev3723 _(pre-release)_
-<sub>2026-11-24 · yesterday</sub>
+### [v9.4.0.dev3756](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.4.0.dev3756) — Dev Build 9.4.0.dev3756 _(pre-release)_
+<sub>2026-11-27 · today</sub>
 
-> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@5c7067d, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3723.
+> **HA-MCP — Manage Home Assistant with AI 9.4.0 (development pre-release)**
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@992ed07, ahead of the 9.4.0 stable release. Installs ha-mcp-dev==9.4.0.dev3756.
 > You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
 > Changes since the previous pre-release:
-> - feat(panel): deep-link the settings app to a tab and an approval card (#3188)
+> - feat: use Home Assistant 2026.12's new Core paths in the existing tools (#3219)
 > **Other installs**
 > …
 
-### [v9.3.0.dev3722](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.3.0.dev3722) — Dev Build 9.3.0.dev3722 _(pre-release)_
-<sub>2026-11-24 · yesterday</sub>
+### [v9.4.0.dev3754](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.4.0.dev3754) — Dev Build 9.4.0.dev3754 _(pre-release)_
+<sub>2026-11-27 · today</sub>
 
-> **HA-MCP — Manage Home Assistant with AI 9.3.0 (development pre-release)**
-> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@1a4e3c7, ahead of the 9.3.0 stable release. Installs ha-mcp-dev==9.3.0.dev3722.
+> **HA-MCP — Manage Home Assistant with AI 9.4.0 (development pre-release)**
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@ec32463, ahead of the 9.4.0 stable release. Installs ha-mcp-dev==9.4.0.dev3754.
 > You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
 > Changes since the previous pre-release:
-> - chore(deps): update dependency astral-sh/uv to v0.13.9 (#3200)
+> - feat: add Read Only Mode switch for embedded server (#3102)
+> **Other installs**
+> …
+
+### [v9.4.0.dev3752](https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.4.0.dev3752) — Dev Build 9.4.0.dev3752 _(pre-release)_
+<sub>2026-11-27 · today</sub>
+
+> **HA-MCP — Manage Home Assistant with AI 9.4.0 (development pre-release)**
+> Snapshot of the custom component and its ha-mcp server from homeassistant-ai/ha-mcp@f098504, ahead of the 9.4.0 stable release. Installs ha-mcp-dev==9.4.0.dev3752.
+> You receive these builds because the Marketplace **Pre-release** switch is enabled for this repository; turn it off to return to stable releases.
+> Changes since the previous pre-release:
+> - refactor(internal): resolve the server pip spec through one rule (#3223)
 > **Other installs**
 > …
 
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [chore(addon): publish version 9.3.0 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/b2646124658caa13acf70daf167c4d7ea2457a61) | github-actions[bot] |
-| 2026-11-25 | [chore(addon): sync changelog for Home Assistant add-on [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/ba314fe1e074e8ea2b80f255b10faf21ba5666ab) | github-actions[bot] |
-| 2026-11-25 | [9.3.0](https://github.com/homeassistant-ai/ha-mcp/commit/3f34d3f4c72e85a9ec7fd596efe66bcfe32d08d9) | semantic-release |
-| 2026-11-25 | [chore(internal): sync tool docs after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/9f66b2349778cd4c75df3a74f163c2a6af3a48aa) | github-actions[bot] |
-| 2026-11-25 | [chore(addon): publish dev addon version 9.3.0.dev3729 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/b1bf4b8ec86fd0969e5acb2195d0532c283c30ee) | github-actions[bot] |
-| 2026-11-25 | [Fix Logbook search results and bounded pagination (#3203)](https://github.com/homeassistant-ai/ha-mcp/commit/5acdcfedf8897bd79cab5265f67cac6dcd60432d) | kingpanther13 |
-| 2026-11-25 | [chore(addon): publish dev addon version 9.3.0.dev3725 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/9176bd8fe662f0c7a4fcf8ee965dbcfe8ef3596e) | github-actions[bot] |
-| 2026-11-25 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/fee081472619a5a6d284fdeb0e8fcf1471703aab) | github-actions[bot] |
-| 2026-11-25 | [chore(internal): sync tool docs after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/9f73649bb2c3eddfba990d06f492305646f9f60f) | github-actions[bot] |
-| 2026-11-25 | [fix: bound memory use when reading the Home Assistant Logbook (#3201)](https://github.com/homeassistant-ai/ha-mcp/commit/7202d09bc3755fc710b07251d6d570cf07a0e916) | kingpanther13 |
+| 2026-11-27 | [chore(addon): publish dev addon version 9.4.0.dev3761 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/957af0d15e9d7d2ab6993a065781c57da15cd29b) | github-actions[bot] |
+| 2026-11-27 | [chore(addon): publish dev addon version 9.4.0.dev3757 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/dcf6db7c1f49b16155b708b3fa6c8bbfcd6258dd) | github-actions[bot] |
+| 2026-11-27 | [feat(i18n): add Turkish (tr) translation (#3222)](https://github.com/homeassistant-ai/ha-mcp/commit/db0d27e29f875196a89901647e488b75121b1ae0) | Burakceliks |
+| 2026-11-27 | [chore(internal): sync tool docs after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/413defc2c7e4d2cd8cab814c2877aa79a30f9e0e) | github-actions[bot] |
+| 2026-11-27 | [chore(addon): publish dev addon version 9.4.0.dev3756 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/9727ef56829d7dc4122374d15b161ef664a0b251) | github-actions[bot] |
+| 2026-11-27 | [chore(internal): sync ratchet baselines after merge [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/4657c25ee77547a5a7aa78b911f62f7266ec93c5) | github-actions[bot] |
+| 2026-11-27 | [docs(i18n): clarify reader-addressing samples for new locales (#3224)](https://github.com/homeassistant-ai/ha-mcp/commit/16dae77df0f84525f420265c28d472cd697f05d1) | kingpanther13 |
+| 2026-11-27 | [feat: use Home Assistant 2026.12's new Core paths in the existing too…](https://github.com/homeassistant-ai/ha-mcp/commit/992ed079c9c4608db36cff5319d42196c838c085) | kingpanther13 |
+| 2026-11-27 | [chore(addon): publish dev addon version 9.4.0.dev3754 [skip ci]](https://github.com/homeassistant-ai/ha-mcp/commit/fc625a858047eff7e41865ead8568594bfafb41b) | github-actions[bot] |
+| 2026-11-27 | [feat: add Read Only Mode switch for embedded server (#3102)](https://github.com/homeassistant-ai/ha-mcp/commit/ec32463edd1cbf35721eed91f2c71f2dd7453d4c) | A1phaCat |
 
 [See all commits ↗](https://github.com/homeassistant-ai/ha-mcp/commits)
 

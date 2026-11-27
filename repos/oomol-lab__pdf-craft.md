@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 6.8k |
-| 🍴 **Forks** | 503 |
+| 🍴 **Forks** | 504 |
 | 🐞 **Open issues + PRs** | [12](https://github.com/oomol-lab/pdf-craft/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `document` `ocr` `pdf` `deepseek-ocr` `book-digitization` `deepseek-ocr-2` `document-processing` `ebook` `epub` `epub-translation` `markdown` `pdf-converter` `pdf-parser` `pdf-to-epub` `pdf-to-markdown` `pdf-translation` `python` `scanned-pdf` `text-extraction` `translation` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2025-02-12 |
 | 📦 **Latest release** | [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7) — 2026-10-28 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v2.6.7](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.7)
-<sub>2026-10-28 · 29d ago</sub>
+<sub>2026-10-28 · 1mo ago</sub>
 
 > **PDF Craft v2.6.7**
 > Restore incremental PDF extraction `on_body` / `on_footnote` delivery after the
@@ -47,7 +47,7 @@
 > …
 
 ### [v2.6.6](https://github.com/oomol-lab/pdf-craft/releases/tag/v2.6.6)
-<sub>2026-10-28 · 29d ago</sub>
+<sub>2026-10-28 · 1mo ago</sub>
 
 > **PDF Craft v2.6.6**
 > PDF Craft 2.6.6 fixes concurrent PDF extraction, footnote OCR masks, XML fill

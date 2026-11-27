@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 54.1k |
+| ⭐ **Stars** | 54.3k |
 | 🍴 **Forks** | 3.8k |
-| 🐞 **Open issues + PRs** | [505](https://github.com/vercel-labs/agent-browser/issues) |
+| 🐞 **Open issues + PRs** | [486](https://github.com/vercel-labs/agent-browser/issues) |
 | 💻 **Languages** | Rust 94% · TypeScript 4% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-01-11 |
 | 📦 **Latest release** | [v0.45.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.45.0) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 40.9 MB |
+| 💾 **Size** | 41.2 MB |
 | 🌐 **Website** | https://agent-browser.dev |
 
 ## 📦 Recent releases
 
 ### [v0.45.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.45.0)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **New Features**
 > - Added a **Firefox engine** driven over WebDriver BiDi: pass `--engine firefox` (or set `AGENT_BROWSER_ENGINE=firefox`) with Firefox 150 or newer to drive a local Firefox install with snapshots and `@eN` refs across open and closed shadow roots and iframes, `find` locators, shared form preconditions and error codes (`fill`, `type`, `check`, `uncheck`, `select --by`), right-click, middle-click, and modifier keys (`--button`, `--modifiers`), network routes and HAR capture, `--allowed-domains`, downloads, viewport, media, geolocation, header, and offline emulation, isolated windows, `--pin-tab`, screenshots, PDF export, and dashboard live view (#2205, #2206, #2207, #2208, #2595, #2633)
@@ -47,7 +47,7 @@
 > …
 
 ### [v0.44.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.44.0)
-<sub>2026-11-23 · 2d ago</sub>
+<sub>2026-11-23 · 3d ago</sub>
 
 > **New Features**
 > - Added a **Ladybird provider**: `-p ladybird` drives Ladybird over WebDriver, headless by default or with `--headed`. Safari and Ladybird share one local driver launcher, and the WebDriver client now honors `Content-Length`, so it no longer hangs on drivers that keep the connection open. Snapshots and refs stay Chrome-only, as with Safari (#2721)
@@ -58,7 +58,7 @@
 > …
 
 ### [v0.43.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0)
-<sub>2026-11-12 · 13d ago</sub>
+<sub>2026-11-12 · 14d ago</sub>
 
 > **New Features**
 > - Added **snapshot hints** for controls whose accessible name is empty or shared with another ref in the same snapshot. The hint follows the ref and lists the control's icon, image file, `data-testid`, `name` or `id`, and the text of the nearest row or list item (#2578)
@@ -69,7 +69,7 @@
 > …
 
 ### [v0.42.0](https://github.com/vercel-labs/agent-browser/releases/tag/v0.42.0)
-<sub>2026-11-10 · 16d ago</sub>
+<sub>2026-11-10 · 17d ago</sub>
 
 > **New Features**
 > - Added **saved flows** (experimental): record a browser task once, then replay its requests. A run tries direct HTTP first, then the same request from the page, then a replay of the recorded commands, and saves the tier that worked. Runs send requests only to public addresses, and saving waits for in-flight requests and follows redirects to the end (#2236, #2397, #2432, #2433, #2444)
@@ -80,7 +80,7 @@
 > …
 
 ### [v0.41.2](https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.2)
-<sub>2026-11-03 · 22d ago</sub>
+<sub>2026-11-03 · 23d ago</sub>
 
 > **New Features**
 > - Added **targeted skill references** with `skills get <name> --ref <ref>` and the MCP `agent_browser_skills_get` tool's `refs` argument, so agents can load one reference or template at a time (#2310)
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [fix(recording): keep clicks on target while recording at an emulated …](https://github.com/vercel-labs/agent-browser/commit/3f43a2affd9944298104b7bb39d5f241aef85e91) | Railly |
+| 2026-11-26 | [fix(providers): honor system and custom CA trust for provider API and…](https://github.com/vercel-labs/agent-browser/commit/52c1c08b7769e99f3ca43b8f8e0bbdb5970bf127) | Railly |
+| 2026-11-26 | [fix(recording): keep the take through encoder stalls and on ffmpeg < …](https://github.com/vercel-labs/agent-browser/commit/147e15ae97cf93ecc49a93d3b86616599a2ad3a3) | Railly |
+| 2026-11-26 | [fix(chrome): seed Local State so Windows skips the blank-password log…](https://github.com/vercel-labs/agent-browser/commit/db055d7a3c1767fecd09a6634f639dd446f3e3f0) | Railly |
+| 2026-11-26 | [fix(chrome): support linux-arm64 Chrome for Testing and add AppArmor …](https://github.com/vercel-labs/agent-browser/commit/669ae6383103fb9585ae39f5b2ed084df710c16c) | Railly |
 | 2026-11-26 | [fix(launch): report relaunchedBrowser when the settings pass closed t…](https://github.com/vercel-labs/agent-browser/commit/a67ba089fec5fbfec07346aebad11666463d9799) | Railly |
 | 2026-11-26 | [fix(iframe): fall back to top-level frame selector and report coverin…](https://github.com/vercel-labs/agent-browser/commit/a94b9f4a1e5c20195a06ec951347bfdc546c139f) | Railly |
 | 2026-11-26 | [fix(tracing): stop only the recorder a command started (#2763)](https://github.com/vercel-labs/agent-browser/commit/6e857a8a4fcf6f473a04c70ed83fa987e1a8619e) | Railly |
 | 2026-11-25 | [Prepare v0.45.0 (#2748)](https://github.com/vercel-labs/agent-browser/commit/f0a98351ec920bd826b22c98dacf8414f04b9832) | lahfir |
 | 2026-11-25 | [fix(iframe): resolve frames by selector and ref, and scope selectors,…](https://github.com/vercel-labs/agent-browser/commit/e20a97bde0eb187f6f572b529710705d3b9a490d) | Railly |
-| 2026-11-25 | [fix(dashboard): forward editing shortcuts and bridge copy, cut and pa…](https://github.com/vercel-labs/agent-browser/commit/7b20c4939a1cb9b7383ea118b0ae9b07f18c6743) | Railly |
-| 2026-11-25 | [fix(iframe): run eval in the selected frame and capture cross-origin …](https://github.com/vercel-labs/agent-browser/commit/58d313edb6a305e3235b8a9f38960f0ae6b9c779) | Railly |
-| 2026-11-25 | [fix(iframe): label iframes by name in snapshots and align iframe anno…](https://github.com/vercel-labs/agent-browser/commit/8a78afb37728ccc2963a060ca6080e85334d91d0) | Railly |
-| 2026-11-25 | [fix(state): collect storage without stalling, leaking focus, or hitti…](https://github.com/vercel-labs/agent-browser/commit/0536ca2a1b23e7a0ce16c81cfb623fc24122664e) | Railly |
-| 2026-11-25 | [fix(state): show state list dates and state show counts, and keep spe…](https://github.com/vercel-labs/agent-browser/commit/20d0eff8a50d62e6bd4efa3b133873422cbf6dc7) | Railly |
 
 [See all commits ↗](https://github.com/vercel-labs/agent-browser/commits)
 

@@ -26,7 +26,7 @@
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agents` `ai` `ai-agents` `llms` `aiagentframework` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2023-10-27 |
 | 📦 **Latest release** | [1.15.45](https://github.com/crewAIInc/crewAI/releases/tag/1.15.45) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [1.15.45](https://github.com/crewAIInc/crewAI/releases/tag/1.15.45)
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -47,7 +47,7 @@
 > …
 
 ### [1.15.44](https://github.com/crewAIInc/crewAI/releases/tag/1.15.44)
-<sub>2026-11-19 · 6d ago</sub>
+<sub>2026-11-19 · 7d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -58,7 +58,7 @@
 > …
 
 ### [1.15.43](https://github.com/crewAIInc/crewAI/releases/tag/1.15.43)
-<sub>2026-11-19 · 7d ago</sub>
+<sub>2026-11-19 · 8d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes**
@@ -69,7 +69,7 @@
 > …
 
 ### [1.15.42](https://github.com/crewAIInc/crewAI/releases/tag/1.15.42)
-<sub>2026-11-18 · 7d ago</sub>
+<sub>2026-11-18 · 8d ago</sub>
 
 > **What's Changed**
 > **Features**
@@ -80,7 +80,7 @@
 > …
 
 ### [1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41)
-<sub>2026-11-12 · 13d ago</sub>
+<sub>2026-11-12 · 14d ago</sub>
 
 > **What's Changed**
 > **Features**

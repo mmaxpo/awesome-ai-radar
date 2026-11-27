@@ -14,19 +14,17 @@
 | **Why it's worth a look** | Skill that removes signs of AI-generated writing |
 | **Added** | 2026-11-15 |
 
-🆕 **Active this week**
-
 ## 📊 At a glance
 
 | | |
 |---|---|
-| ⭐ **Stars** | 73.9k |
+| ⭐ **Stars** | 74.2k |
 | 🍴 **Forks** | 5.8k |
 | 🐞 **Open issues + PRs** | [9](https://github.com/blader/humanizer/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `agent-skills` `ai-writing` `claude-code` `codex` `cursor` `prompt-engineering` `writing-tools` `ai-humanizer` `chatgpt` `claude` `humanize-ai-text` `humanizer` `llm` |
-| 🕒 **Last activity** | 2026-11-19 (6d ago) |
+| 🕒 **Last activity** | 2026-11-19 (7d ago) |
 | 📅 **Created** | 2026-01-18 |
 | 📦 **Latest release** | [v4.0.0](https://github.com/blader/humanizer/releases/tag/v4.0.0) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +34,7 @@
 ## 📦 Recent releases
 
 ### [v4.0.0](https://github.com/blader/humanizer/releases/tag/v4.0.0) — Humanizer v4.0.0
-<sub>2026-11-10 · 16d ago</sub>
+<sub>2026-11-10 · 17d ago</sub>
 
 > Humanizer 4.0.0 lets the skill add a specific detail where the text is generic, and it rewrites the skill's own instructions and examples to be clearer.
 > A rewrite may now contain a detail that was not in your text. If you rely on the old rule, stay on v3.1.0.
@@ -47,7 +45,7 @@
 > …
 
 ### [v3.1.0](https://github.com/blader/humanizer/releases/tag/v3.1.0) — Humanizer v3.1.0
-<sub>2026-09-28 · 1mo ago</sub>
+<sub>2026-09-28 · 2mo ago</sub>
 
 > Humanizer 3.1.0 adds a pattern for replies that re-explain what the reader already knows, and it tightens the skill so each rule is stated once.
 > **What changed**

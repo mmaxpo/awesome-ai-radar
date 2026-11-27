@@ -20,43 +20,43 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 87.9k |
-| 🍴 **Forks** | 5.6k |
+| ⭐ **Stars** | 88.0k |
+| 🍴 **Forks** | 5.7k |
 | 🐞 **Open issues + PRs** | [1.7k](https://github.com/rtk-ai/rtk/issues) |
 | 💻 **Languages** | Rust 97% · Shell 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agentic-coding` `ai-coding` `anthropic` `claude-code` `cli` `command-line-tool` `cost-reduction` `developer-tools` `llm` `open-source` `productivity` `rust` `token-optimization` |
-| 🕒 **Last activity** | 2026-11-25 (yesterday) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-01-22 |
-| 📦 **Latest release** | [dev-1.3.0-rc.678](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.678) — 2026-11-25 |
+| 📦 **Latest release** | [dev-1.3.0-rc.679](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.679) — 2026-11-27 |
 | 🌿 **Default branch** | `develop` |
 | 💾 **Size** | 19.8 MB |
 | 🌐 **Website** | https://www.rtk-ai.app |
 
 ## 📦 Recent releases
 
+### [dev-1.3.0-rc.679](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.679) _(pre-release)_
+<sub>2026-11-27 · today</sub>
+
+> _No notes._
+
 ### [dev-1.3.0-rc.678](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.678) _(pre-release)_
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > _No notes._
 
 ### [dev-1.3.0-rc.677](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.677) _(pre-release)_
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > _No notes._
 
 ### [dev-1.3.0-rc.676](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.676) _(pre-release)_
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > _No notes._
 
 ### [dev-1.3.0-rc.675](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.675) _(pre-release)_
-<sub>2026-11-24 · yesterday</sub>
-
-> _No notes._
-
-### [dev-1.3.0-rc.674](https://github.com/rtk-ai/rtk/releases/tag/dev-1.3.0-rc.674) _(pre-release)_
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > _No notes._
 
@@ -64,6 +64,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [Merge pull request #5308 from rtk-ai/fix/grep-recursive-directories-f…](https://github.com/rtk-ai/rtk/commit/16b02ac8fdd8b8ea6e4b7d178d08854b772b165e) | aeppling |
+| 2026-11-26 | [fix(search): keep the filename prefix when -d read or -d skip follows -r](https://github.com/rtk-ai/rtk/commit/644fcc7083c6c1d966369749af06f00c07a213b1) | Adrien EPPLING |
 | 2026-11-25 | [Merge pull request #4541 from yeahjack/feat/recall-invocation-accounting](https://github.com/rtk-ai/rtk/commit/97e68d5358aa5d91d1540ea64df58c9688bcf83d) | KuSh |
 | 2026-11-25 | [test(tracking): pin the remaining recall accounting decisions](https://github.com/rtk-ai/rtk/commit/a3261f519c8a02d806902c7f0767bea5238d042d) | KuSh |
 | 2026-11-25 | [Merge pull request #4865 from ferr079/fix/pnpm-failure-stdout](https://github.com/rtk-ai/rtk/commit/2ee0e396934636676c0cad9d5f430777f1d6acd6) | KuSh |
@@ -72,8 +74,6 @@
 | 2026-11-25 | [test(js): pin how unparsed playwright, pnpm and vitest runs are shown…](https://github.com/rtk-ai/rtk/commit/f5f63163511b9a51448790cb8a1d78a028eb29d1) | KuSh |
 | 2026-11-24 | [Merge pull request #5101 from remote-controlled-man/codex/prflow-7d1c…](https://github.com/rtk-ai/rtk/commit/9a94ec19463a957ecd8f22c89c15934a9c0bf9ec) | aeppling |
 | 2026-11-24 | [Merge pull request #5098 from remote-controlled-man/codex/prflow-463b…](https://github.com/rtk-ai/rtk/commit/c1afaa80e0a66a38fb6f1bb9173f2591ae5124ec) | aeppling |
-| 2026-11-24 | [fix(pnpm): drop only pnpm's update notifier, keep every other │ line](https://github.com/rtk-ai/rtk/commit/b9e134452909a6a11df3cf34a147e2e379dd7c00) | ferr079 |
-| 2026-11-23 | [Merge develop into fix/passthrough-tracking-and-tee-path](https://github.com/rtk-ai/rtk/commit/92b8a4b18b1450c68ff694aec61cf8361c27a11a) | pszymkowiak |
 
 [See all commits ↗](https://github.com/rtk-ai/rtk/commits)
 

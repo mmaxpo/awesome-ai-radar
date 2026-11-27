@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 145.8k |
+| ⭐ **Stars** | 146.0k |
 | 🍴 **Forks** | 23.5k |
-| 🐞 **Open issues + PRs** | [95](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
+| 🐞 **Open issues + PRs** | [93](https://github.com/harry0703/MoneyPrinterTurbo/issues) |
 | 💻 **Languages** | Python 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `python` `tiktok` `ai-video-generator` `content-creation` `ffmpeg` `instagram-reels` `llm` `short-video` `subtitles` `text-to-speech` `video-automation` `video-workflow` `workflow-automation` `youtube-shorts` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2024-03-11 |
 | 📦 **Latest release** | [v1.3.11](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.11) — 2026-11-23 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v1.3.11](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.11)
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > [English](#en-v1.3.11) | [中文](#cn-v1.3.11)
 > <h2 id="en-v1.3.11">Highlights</h2>
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.3.10](https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10)
-<sub>2026-11-07 · 19d ago</sub>
+<sub>2026-11-07 · 20d ago</sub>
 
 > [English](#en-v1.3.10) | [中文](#cn-v1.3.10)
 > <h2 id="en-v1.3.10">Highlights</h2>
@@ -93,6 +93,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [fix(llm): reject truncated scripts (#1845)](https://github.com/harry0703/MoneyPrinterTurbo/commit/dd4e192ff87a759ec7443566e46f7d13d32e6722) | HEOJUNFO |
+| 2026-11-27 | [feat(llm): add TrustedRouter provider](https://github.com/harry0703/MoneyPrinterTurbo/commit/71dced7aea880440916a8b1920d3db1ee7cd2866) | jperla |
 | 2026-11-26 | [chore: update project resources](https://github.com/harry0703/MoneyPrinterTurbo/commit/ff0d5f30693f78c31fc3fda36bfbbe8d8eebda98) | harry0703 |
 | 2026-11-25 | [feat(llm): add TeamoRouter provider](https://github.com/harry0703/MoneyPrinterTurbo/commit/2dc10e850d78c61264a64ea180def2b7f1f334d8) | 2867297362mjb-sketch |
 | 2026-11-25 | [feat(desktop): add cross-platform desktop app](https://github.com/harry0703/MoneyPrinterTurbo/commit/3837b078227a59adc6483fbf409376bd616413aa) | harry0703 |
@@ -101,8 +103,6 @@
 | 2026-11-23 | [fix(api): reject a null video_aspect before the task starts](https://github.com/harry0703/MoneyPrinterTurbo/commit/708ac4836c14f77196c5d1f23cc0885ac9014c04) | HEOJUNFO |
 | 2026-11-23 | [fix(api): reject a blank video_script on /audio and /subtitle](https://github.com/harry0703/MoneyPrinterTurbo/commit/fc7f44d1ce24dd34c83f3b79aa74b5579e20c071) | HEOJUNFO |
 | 2026-11-23 | [perf(video): fill the opaque composite background one row at a time](https://github.com/harry0703/MoneyPrinterTurbo/commit/1d7ec49adf62cf743f2aff35fe1188ae858a93eb) | b84330808 |
-| 2026-11-23 | [Rename UberLLM to MartLLM](https://github.com/harry0703/MoneyPrinterTurbo/commit/d021ad119872ebaa718489b6cd261cdf2d318040) | al-global-tech |
-| 2026-11-23 | [perf(project): verify cached render artifacts once](https://github.com/harry0703/MoneyPrinterTurbo/commit/96496d5642ce3c6b080d728d2c91e32f78faad5c) | nemo-crypto |
 
 [See all commits ↗](https://github.com/harry0703/MoneyPrinterTurbo/commits)
 

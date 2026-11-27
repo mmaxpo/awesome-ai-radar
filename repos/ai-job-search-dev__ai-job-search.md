@@ -20,13 +20,13 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 73.6k |
+| ⭐ **Stars** | 73.7k |
 | 🍴 **Forks** | 23.5k |
-| 🐞 **Open issues + PRs** | [45](https://github.com/ai-job-search-dev/ai-job-search/issues) |
+| 🐞 **Open issues + PRs** | [35](https://github.com/ai-job-search-dev/ai-job-search/issues) |
 | 💻 **Languages** | Python 99% · TeX 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai` `ai-agents` `career` `claude-code` `cover-letter` `cv` `interview-preparation` `job-application` `job-hunting` `job-search` `latex` `resume` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-03-18 |
 | 📦 **Latest release** | [v2.1.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.1.0) — 2026-11-23 |
 | 🌿 **Default branch** | `master` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v2.1.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.1.0)
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > **What's Changed**
 > * ci: add a stable CLI checks result job for required checks by @jakob1379 in https://github.com/ai-job-search-dev/ai-job-search/pull/856
@@ -46,7 +46,7 @@
 > …
 
 ### [v2.0.0](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v2.0.0)
-<sub>2026-11-16 · 10d ago</sub>
+<sub>2026-11-16 · 11d ago</sub>
 
 > **What's Changed**
 > * fix(scrape): send one plain term per CLI call and make portals state their query syntax (#536) by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/653
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.7.5](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.5)
-<sub>2026-11-09 · 17d ago</sub>
+<sub>2026-11-09 · 18d ago</sub>
 
 > **What's Changed**
 > * fix(job-key): fold Latin letters without an NFKD decomposition and add --audit --migrate by @ai-tvang in https://github.com/ai-job-search-dev/ai-job-search/pull/637
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.7.4](https://github.com/ai-job-search-dev/ai-job-search/releases/tag/v1.7.4)
-<sub>2026-11-02 · 24d ago</sub>
+<sub>2026-11-02 · 25d ago</sub>
 
 > **What's Changed**
 > * fix(freehire-search): reject detail URLs on other hosts instead of asking the API for their last segment (#622) by @ayobamiseun in https://github.com/ai-job-search-dev/ai-job-search/pull/623
@@ -93,6 +93,9 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [docs(job-key): say that --migrate renames only company_title keys (#901)](https://github.com/ai-job-search-dev/ai-job-search/commit/9078cad68fb3847f41b9ee3657998a1ab555c1d1) | MadsLorentzen |
+| 2026-11-27 | [ci: cancel a stale PR-title check when the title changes (#902)](https://github.com/ai-job-search-dev/ai-job-search/commit/a4c731907f74eb878ea8bf824a68d662d1672698) | jakob1379 |
+| 2026-11-27 | [fix(guards): ask before writing files that pre-approved commands load…](https://github.com/ai-job-search-dev/ai-job-search/commit/95dd99c736a1da410ab92d6698d66ce10016b704) | MadsLorentzen |
 | 2026-11-26 | [fix(guards): refuse a tracked settings.local.json and read .gitignore…](https://github.com/ai-job-search-dev/ai-job-search/commit/15436e4e150d74bdd95526fa59be36db201b8a90) | jakob1379 |
 | 2026-11-26 | [fix(robots-check): check every hop's host before connecting and bound…](https://github.com/ai-job-search-dev/ai-job-search/commit/50defd097cc4339ee55ccfa44bac67c73e56b145) | jakob1379 |
 | 2026-11-26 | [fix(tools): confine fetch_page and posting_guard file arguments to th…](https://github.com/ai-job-search-dev/ai-job-search/commit/f3ad83a3962c445099bb5632bc9aadf239dc0f52) | jakob1379 |
@@ -100,9 +103,6 @@
 | 2026-11-24 | [feat(html-report): render the dashboard from a script instead of hand…](https://github.com/ai-job-search-dev/ai-job-search/commit/4e021e52f7e3d4016e0c22fc416c814a3d44c5c9) | loxator |
 | 2026-11-22 | [fix(robots): treat a comment-only robots.txt as allow-all (Greenhouse…](https://github.com/ai-job-search-dev/ai-job-search/commit/ab51f852316faca85fe6ce93cccd7ac58b9c20df) | MadsLorentzen |
 | 2026-11-22 | [fix(posting-guard): stop reading window.ENV in a page script as a .en…](https://github.com/ai-job-search-dev/ai-job-search/commit/6ec7eead309013cebfa002fb2c3588d0bfb2090a) | MadsLorentzen |
-| 2026-11-21 | [feat(setup): recommend a minimal TeX install instead of texlive-full …](https://github.com/ai-job-search-dev/ai-job-search/commit/b3ea106cac34b783ae4d5708a9e6d97f6660d084) | jakob1379 |
-| 2026-11-19 | [fix(posting-guard): detect CSS invisibility tricks in inline styles (…](https://github.com/ai-job-search-dev/ai-job-search/commit/d2afe00bfc9b7be8ffc2ee41acc22570970b76d4) | ahmed-husssain |
-| 2026-11-18 | [fix(posting-guard): refuse input with no text to evaluate and exit 1 …](https://github.com/ai-job-search-dev/ai-job-search/commit/7b1cd4495967cfa4a781b8f5913f4c806c4c1f82) | ahmed-husssain |
 
 [See all commits ↗](https://github.com/ai-job-search-dev/ai-job-search/commits)
 

@@ -22,21 +22,21 @@
 |---|---|
 | ⭐ **Stars** | 16.3k |
 | 🍴 **Forks** | 3.7k |
-| 🐞 **Open issues + PRs** | [85](https://github.com/wkentaro/labelme/issues) |
+| 🐞 **Open issues + PRs** | [95](https://github.com/wkentaro/labelme/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `image-annotation` `python` `computer-vision` `annotations` `deep-learning` `semantic-segmentation` `instance-segmentation` `video-annotation` `classification` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2016-05-09 |
 | 📦 **Latest release** | [v7.11.1](https://github.com/wkentaro/labelme/releases/tag/v7.11.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 70.0 MB |
+| 💾 **Size** | 70.3 MB |
 | 🌐 **Website** | https://labelme.io |
 
 ## 📦 Recent releases
 
 ### [v7.11.1](https://github.com/wkentaro/labelme/releases/tag/v7.11.1)
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **Fixed**
 > - AI-Segment and AI-Find All work again on images over 179 MP, which failed with "Image size exceeds limit" since 7.11.0. Labelme sends the AI server the image at the model's input size instead of in full, so SAM2 segments a 600 MP image in about a second. Labelme requires osam 0.12.1 or later. ([#3126](https://github.com/wkentaro/labelme/pull/3126))
@@ -46,7 +46,7 @@
 > - The AI Models panel opens faster by sharing a single model catalog read with the toolbar. ([#3147](https://github.com/wkentaro/labelme/pull/3147))
 
 ### [v7.11.0](https://github.com/wkentaro/labelme/releases/tag/v7.11.0)
-<sub>2026-11-14 · 12d ago</sub>
+<sub>2026-11-14 · 13d ago</sub>
 
 > **Changed**
 > - SAM 3 asks to be downloaded again, as 1.8 GB on a GPU or 3.7 GB on the CPU, and asks again for its CPU files when AI falls back to the CPU. Its files from earlier versions stay on disk. ([#3099](https://github.com/wkentaro/labelme/pull/3099))
@@ -57,7 +57,7 @@
 > …
 
 ### [v7.10.0](https://github.com/wkentaro/labelme/releases/tag/v7.10.0)
-<sub>2026-11-13 · 13d ago</sub>
+<sub>2026-11-13 · 14d ago</sub>
 
 > **Added**
 > - Allow drawing Polygon and LineStrip paths by dragging, simplifying strokes into fewer vertices while preserving click-to-add input. ([#2757](https://github.com/wkentaro/labelme/pull/2757))
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Merge pull request #3158 from wkentaro/chore/mdformat-frontmatter](https://github.com/wkentaro/labelme/commit/edde3fc63e7c57b4c994c3b20bbfb1f5a5da84ef) | wkentaro |
-| 2026-11-26 | [chore: add mdformat-frontmatter to the dev group](https://github.com/wkentaro/labelme/commit/1ce60d12b49d8f743c17f113a2bc49848b4c5091) | wkentaro |
-| 2026-11-26 | [Merge pull request #3153 from wkentaro/fix/display-16bit-range](https://github.com/wkentaro/labelme/commit/16d025c8193fcd88349e8e0428590bb9d8b7218c) | wkentaro |
-| 2026-11-26 | [Merge pull request #3137 from SajjadPSavoji/fix-3121-quitting-while-a…](https://github.com/wkentaro/labelme/commit/f195fdc28baad055e966ccd2e29ac56d6674e60f) | wkentaro |
-| 2026-11-26 | [docs: add changelog fragment for #3153](https://github.com/wkentaro/labelme/commit/1f39baf3ee369f2b7f03cde08c2d5ea253c4a2d1) | wkentaro |
-| 2026-11-26 | [fix: show 16-bit grayscale from its minimum to its maximum](https://github.com/wkentaro/labelme/commit/f40d2a79323ab9c862d5aa2fb21d56cb8240b8ba) | wkentaro |
-| 2026-11-26 | [test: show 16-bit grayscale from black to white across its range](https://github.com/wkentaro/labelme/commit/b5d1ac151de5f4cd28a8af848afac760326d8d2a) | wkentaro |
-| 2026-11-26 | [docs: add changelog fragment for #3152](https://github.com/wkentaro/labelme/commit/ac84444c49a201a66aecc0afcdd311a7cff5cd5e) | wkentaro |
-| 2026-11-26 | [fix: adjust brightness and contrast from the image the canvas shows](https://github.com/wkentaro/labelme/commit/ec89081320b77061e577923f73d324f9cf00402b) | wkentaro |
-| 2026-11-26 | [test: show a 16-bit image unchanged after neutral Brightness/Contrast](https://github.com/wkentaro/labelme/commit/dcce3631ae69320cf50bd0591ce0a7e351805f07) | wkentaro |
+| 2026-11-27 | [Merge pull request #3168 from wkentaro/fix/tiff-16bit-display](https://github.com/wkentaro/labelme/commit/722c4d43335777a12ee16d13468db5c1f88ace4c) | wkentaro |
+| 2026-11-27 | [Merge pull request #3164 from wkentaro/docs/verify-labelme-features](https://github.com/wkentaro/labelme/commit/6f1c36b032c70e03a5d786a82dd30121781467c1) | wkentaro |
+| 2026-11-27 | [chore: add the changelog entry for #3168](https://github.com/wkentaro/labelme/commit/643166e144f675527a4c4dfd21334d844363a7f4) | wkentaro |
+| 2026-11-27 | [fix: keep 16-bit grayscale TIFF pixels at 16 bits](https://github.com/wkentaro/labelme/commit/159bdd8fc1f1bcc94c22ad250c71a8fba39f32ab) | wkentaro |
+| 2026-11-27 | [test: show a 16-bit TIFF at the gray level a PNG shows](https://github.com/wkentaro/labelme/commit/7a140a149385d02040174fa3dfd544adb14e3004) | wkentaro |
+| 2026-11-27 | [chore: add the changelog entry for #3174](https://github.com/wkentaro/labelme/commit/d72e6075cda0f11e752e0b76da40629003f2e0b2) | wkentaro |
+| 2026-11-27 | [fix: honor MINISWHITE in _imread_tiff](https://github.com/wkentaro/labelme/commit/c04160011ed286a27a42d823ec659495842192de) | wkentaro |
+| 2026-11-27 | [test: read a MINISWHITE TIFF as the same MINISBLACK TIFF](https://github.com/wkentaro/labelme/commit/f68c2bb71545a8231d2a3ae528f591daf9f8b915) | wkentaro |
+| 2026-11-27 | [docs: note that Open File is ambiguous on the welcome screen too](https://github.com/wkentaro/labelme/commit/61bcc8064a77ad732c8990a59c9e071cc0a9bd8e) | wkentaro |
+| 2026-11-27 | [docs: check the shapes a quit-save keeps, then reopen them](https://github.com/wkentaro/labelme/commit/1fd44ae3da684234b2d5c7f1f95a38dda0465a2f) | wkentaro |
 
 [See all commits ↗](https://github.com/wkentaro/labelme/commits)
 

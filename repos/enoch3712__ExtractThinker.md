@@ -19,7 +19,7 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.6k |
-| 🍴 **Forks** | 157 |
+| 🍴 **Forks** | 158 |
 | 🐞 **Open issues + PRs** | [5](https://github.com/enoch3712/ExtractThinker/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |

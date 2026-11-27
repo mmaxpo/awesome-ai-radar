@@ -26,17 +26,17 @@
 | 💻 **Languages** | C++ 56% · Python 25% · MLIR 7% · Starlark 4% · HTML 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `tensorflow` `machine-learning` `python` `deep-learning` `deep-neural-networks` `neural-network` `ml` `distributed` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2015-11-07 |
 | 📦 **Latest release** | [v2.21.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0) — 2026-03-06 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 1418.9 MB |
+| 💾 **Size** | 1419.5 MB |
 | 🌐 **Website** | https://tensorflow.org |
 
 ## 📦 Recent releases
 
 ### [v2.22.0-rc1](https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1) — TensorFlow 2.22.0-rc1 _(pre-release)_
-<sub>2026-11-17 · 9d ago</sub>
+<sub>2026-11-17 · 10d ago</sub>
 
 > **Release 2.22.0**
 > **TensorFlow**
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [PR #53709: [XLA:GPU] Fix copy insertion to add the correct parallel t…](https://github.com/tensorflow/tensorflow/commit/474c5b85e8f029293246296185105e36eb54b366) | Tixxx |
-| 2026-11-26 | [[XLA:GPU] Allow reverse scans in Triton.](https://github.com/tensorflow/tensorflow/commit/921846ca23aab896f64107772e80b6b8f88c103c) | chsigg |
-| 2026-11-26 | [[XLA:GPU] Plumb AllGatherStrategy and tile-size guard in BuildAllGath…](https://github.com/tensorflow/tensorflow/commit/03620cc386fb2fed53e5a8148439d08223440a60) | sohaibiftikhar |
-| 2026-11-26 | [[XLA:XTile] Handle equal-bitwidth integer converts in LowerStablehloT…](https://github.com/tensorflow/tensorflow/commit/83fa0adc32fb87308f64c357d3442a1b0c10b187) | pifon2a |
-| 2026-11-26 | [PR #53963: [ROCm] Add minimal debug info for tsan builds](https://github.com/tensorflow/tensorflow/commit/02c69b0f4064f1652f0744245f22dcf6dcd38823) | alekstheod |
-| 2026-11-26 | [PR #49692: [xla:gpu] Cancel in-progress GPU clique init on task failure](https://github.com/tensorflow/tensorflow/commit/14fe3fd2a7da72540869568c309f5d54f02d9be4) | Liauuu |
-| 2026-11-26 | [PR #53920: [ROCm] Fix TSAN data race in RecoverExp2Pattern static log…](https://github.com/tensorflow/tensorflow/commit/0c8f1929a783751c2a99fbf65c1e45fe4406b5a5) | alekstheod |
-| 2026-11-26 | [Fix dropdown display in Megascale debugging guide.](https://github.com/tensorflow/tensorflow/commit/0fe579af89373e0037cd36bd4f217bc9fbf47040) | tensorflower-gardener |
-| 2026-11-26 | [Move autotuner directories under backends/core, cpu/core, and gpu/core](https://github.com/tensorflow/tensorflow/commit/58c1fd0334441a63082f7eb84cc71a4c54bd3c86) | pifon2a |
-| 2026-11-26 | [[XLA] Return errors from replica group list FromProto](https://github.com/tensorflow/tensorflow/commit/7f4b76e26c1fcec0ad8e9756d1976015b55f8f76) | dimitar-asenov |
+| 2026-11-27 | [[XLA:GPU] Use LaunchDimensions in CustomKernel and FFI kernel registry](https://github.com/tensorflow/tensorflow/commit/ef9795d60f658eb8e172b67b401870bfe1c520fd) | akuegel |
+| 2026-11-27 | [[XLA] Add F8E5M3FNU primitive type, literal, and evaluator support.](https://github.com/tensorflow/tensorflow/commit/c6b99e749edaeba1b5e822f6ddf0b97df054c9df) | patrikf |
+| 2026-11-27 | [[XLA] Make Mesh(TileAssignment, axes_names) private and use Mesh::Try…](https://github.com/tensorflow/tensorflow/commit/9185d1d6ec183ebe065c502af1f01e1e2103598a) | dimitar-asenov |
+| 2026-11-27 | [[XLA] NFC: Clean up explicit pre-C++20 workarounds](https://github.com/tensorflow/tensorflow/commit/7be29f373ca4ae8101a42e51c347a5e9a83a5b33) | chsigg |
+| 2026-11-27 | [[XLA] NFC: Use C++20 std::erase and std::erase_if instead of erase-re…](https://github.com/tensorflow/tensorflow/commit/801c7d9fc9f041b4d4b3434210ae6c1bc398b435) | chsigg |
+| 2026-11-27 | [[XLA:GPU] Match softmax diamonds with the broadcast on either root op…](https://github.com/tensorflow/tensorflow/commit/f83ab84e8a1d4e13f8a4e03af018840bd01a7874) | Moerafaat |
+| 2026-11-27 | [[XLA] NFC: Default operator== and drop operator!= in xla/hlo/analysis](https://github.com/tensorflow/tensorflow/commit/02c6c9e9116c77523cc1bf83d2a70f2d31bec61e) | chsigg |
+| 2026-11-27 | [[XLA:GPU] Remove USE_NCCL_HOST_API macro and guards.](https://github.com/tensorflow/tensorflow/commit/bce60c5f054c3dc0b55d22cd9749dcca008a2f99) | PatriosTheGreat |
+| 2026-11-27 | [Migrate XLA-internal `xla/backends/autotuner/` users and remove unuse…](https://github.com/tensorflow/tensorflow/commit/42fd6b88d4eb17cae91f64821d2a3b1f2a9cd990) | pifon2a |
+| 2026-11-27 | [[XLA:GPU] Accept scalar constant operands in softmax diamonds](https://github.com/tensorflow/tensorflow/commit/91b1c67b37d894d7a3e9565d1a93e813706950c1) | Moerafaat |
 
 [See all commits ↗](https://github.com/tensorflow/tensorflow/commits)
 

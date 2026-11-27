@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 124.0k |
-| 🍴 **Forks** | 16.0k |
-| 🐞 **Open issues + PRs** | [310](https://github.com/earendil-works/pi/issues) |
-| 💻 **Languages** | TypeScript 88% · HTML 10% · JavaScript 1% |
+| ⭐ **Stars** | 124.2k |
+| 🍴 **Forks** | 16.1k |
+| 🐞 **Open issues + PRs** | [315](https://github.com/earendil-works/pi/issues) |
+| 💻 **Languages** | TypeScript 88% · HTML 9% · JavaScript 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-08-09 |
 | 📦 **Latest release** | [v1.6.1](https://github.com/earendil-works/pi/releases/tag/v1.6.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 117.6 MB |
+| 💾 **Size** | 121.3 MB |
 
 ## 📦 Recent releases
 
 ### [v1.6.1](https://github.com/earendil-works/pi/releases/tag/v1.6.1)
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **New Features**
 > - **Decision models in codemode**: GitHub Copilot's `gpt-6-luna-decisions` and Radius decision models can be called from codemode `models.classify()`, and results include the provider's `responseId`. See [Classify](https://github.com/earendil-works/pi/blob/v1.6.1/packages/coding-agent/docs/codemode.md#classify).
@@ -46,7 +46,7 @@
 > …
 
 ### [v1.6.0](https://github.com/earendil-works/pi/releases/tag/v1.6.0)
-<sub>2026-11-20 · 6d ago</sub>
+<sub>2026-11-20 · 7d ago</sub>
 
 > **New Features**
 > - **GPT-6.2 Astra and GPT-6.2 Sol**: both models are available on the `openai`, `azure`, and `openai-codex` providers, and GPT-6.2 Sol is now the default model for all three. See [Providers](https://github.com/earendil-works/pi/blob/v1.6.0/packages/coding-agent/docs/providers.md).
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.5.2](https://github.com/earendil-works/pi/releases/tag/v1.5.2)
-<sub>2026-11-10 · 16d ago</sub>
+<sub>2026-11-10 · 17d ago</sub>
 
 > **New Features**
 > - **Fork sessions whose folder is gone**: when a session's original folder was moved or deleted, you can now fork it into the current folder instead of only continuing, so later resumes no longer ask. See [Continue or switch sessions](https://github.com/earendil-works/pi/blob/v1.5.2/packages/coding-agent/docs/sessions.md#continue-or-switch-sessions).
@@ -68,7 +68,7 @@
 > …
 
 ### [v1.5.1](https://github.com/earendil-works/pi/releases/tag/v1.5.1)
-<sub>2026-11-09 · 16d ago</sub>
+<sub>2026-11-09 · 17d ago</sub>
 
 > **New Features**
 > - **Shell login and logout**: use `pi auth login <provider>` and `pi auth logout <provider>` without starting a session, with API-key and no-browser sign-in options. See [Credential commands](https://github.com/earendil-works/pi/blob/v1.5.1/packages/coding-agent/docs/cli.md#credential-commands).
@@ -79,7 +79,7 @@
 > …
 
 ### [v1.5.0](https://github.com/earendil-works/pi/releases/tag/v1.5.0)
-<sub>2026-11-02 · 24d ago</sub>
+<sub>2026-11-02 · 25d ago</sub>
 
 > **New Features**
 > - **Extension update changelogs**: see what changed in installed extension packages on the next fresh launch after an update. Package authors can choose the changelog path, and `collapseChangelog` condenses the notices. See [Show a changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/coding-agent/docs/packages.md#show-a-changelog).
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [fix(coding-agent): do not count !! output in context token estimate (…](https://github.com/earendil-works/pi/commit/e73029b8e4f4394f9616ab4dc11a40e2c45ee7c2) | robopipi[bot] |
-| 2026-11-26 | [feat(p3): a session's worker turns its store's outbox on once it is b…](https://github.com/earendil-works/pi/commit/4cbbdbb32a26a36508569d7f80ede7cfb1476aad) | cristinaponcela |
-| 2026-11-26 | [feat(p3): backup settings: a default and each session's own choice (E…](https://github.com/earendil-works/pi/commit/ab58ca368b5c388d82c63189d4ce329626f0b7a1) | cristinaponcela |
-| 2026-11-26 | [feat(ai,coding-agent): add image generation options](https://github.com/earendil-works/pi/commit/c863bdf19c4b18af6491935248972e763e10ef33) | vegarsti |
-| 2026-11-26 | [feat(coding-agent): remove telemetry](https://github.com/earendil-works/pi/commit/484da3a8696b4726ddfe9677d3ba98bbd64b076c) | vegarsti |
-| 2026-11-26 | [docs(coding-agent): revert telemetry page (#12589)](https://github.com/earendil-works/pi/commit/bf3f6a2228710cf457604f74b0aceb7bcc8a6b9e) | christianklotz |
-| 2026-11-26 | [feat(p3): backup plugin contracts (ERNDL-1094)](https://github.com/earendil-works/pi/commit/6892095494a6eb44316d17b92a13e8527db31958) | cristinaponcela |
-| 2026-11-26 | [feat(chord,p3): switch a store's outbox at runtime; drop p3's backup …](https://github.com/earendil-works/pi/commit/e23f1932cad1d985051348ab7c02fddeaaec5f9f) | cristinaponcela |
-| 2026-11-26 | [fix(chord): remove finalizer timing from the grant-cache test](https://github.com/earendil-works/pi/commit/7d19cc3805a54ea01fe84d4d4b7768fd4307de09) | mitsuhiko |
-| 2026-11-26 | [docs(coding-agent): document telemetry and network requests (#12584)](https://github.com/earendil-works/pi/commit/524f015b3c951abc4b853ffe4ebd879a9aedd43f) | christianklotz |
+| 2026-11-27 | [fix(ai): price image output tokens at the image rate](https://github.com/earendil-works/pi/commit/ccda1f74b805ccb9ed32a5a9100604c0c071f4b4) | vegarsti |
+| 2026-11-27 | [Merge branch 'main' of https://github.com/earendil-works/pi into HEAD](https://github.com/earendil-works/pi/commit/6bec0ca53f482d928f31a02a27c78594a0d616e1) | badlogic |
+| 2026-11-27 | [test(p3): terminals e2e revokes its sign-in through the scoped revoke…](https://github.com/earendil-works/pi/commit/49a749c02f7f0b235c1b198206136dfcc64e73be) | badlogic |
+| 2026-11-27 | [feat(ai): add Radius decision and image models to static catalog](https://github.com/earendil-works/pi/commit/5c0917b7a9c3a2ecc0fb3e8c75f98cb4f72bef35) | vegarsti |
+| 2026-11-27 | [feat(ai): report image output tokens in usage](https://github.com/earendil-works/pi/commit/a512c3fe22c760b8e3d1b271952f3291b40a2423) | vegarsti |
+| 2026-11-27 | [fix(coding-agent): reword /bug hint](https://github.com/earendil-works/pi/commit/e3c6326334318d15127460ce189ad76bcda671f6) | vegarsti |
+| 2026-11-27 | [fix(ai): report reasoning tokens in image and decision usage](https://github.com/earendil-works/pi/commit/d02145c491e152eab8324c7fc0fc598b19ceb9fe) | vegarsti |
+| 2026-11-27 | [Merge branch 'main' of https://github.com/earendil-works/pi into HEAD](https://github.com/earendil-works/pi/commit/c424af4623945cae5e4332338a8b1605e164ae51) | badlogic |
+| 2026-11-27 | [Merge branch 'main' of https://github.com/earendil-works/pi into HEAD](https://github.com/earendil-works/pi/commit/1822f1ccddb4686a2afb5d8e16d32467689e405b) | badlogic |
+| 2026-11-27 | [Merge branch 'main' of https://github.com/earendil-works/pi into k-pty](https://github.com/earendil-works/pi/commit/cd8d77b5d3a67fa5805cb38e2e70fc27c14d2e81) | badlogic |
 
 [See all commits ↗](https://github.com/earendil-works/pi/commits)
 

@@ -20,84 +20,84 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 33.0k |
+| ⭐ **Stars** | 33.1k |
 | 🍴 **Forks** | 2.5k |
 | 🐞 **Open issues + PRs** | [1.6k](https://github.com/trycua/cua/issues) |
 | 💻 **Languages** | Rust 53% · TypeScript 18% · Python 15% · Swift 9% · Shell 2% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `apple` `cua` `lume` `macos` `virtualization` `virtualization-framework` `swift` `ai-agent` `computer-use` `manus` `operator` `agent` `containerization` `windows` `windows-sandbox` `hacktoberfest` `computer-use-agent` `desktop-automation` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-01-31 |
-| 📦 **Latest release** | [bench-v0.4.24](https://github.com/trycua/cua/releases/tag/bench-v0.4.24) — 2026-11-26 |
+| 📦 **Latest release** | [cua-spaces-v0.41.18](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.18) — 2026-11-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 795.8 MB |
+| 💾 **Size** | 796.5 MB |
 | 🌐 **Website** | https://cua.ai |
 
 ## 📦 Recent releases
 
-### [cua-driver-rs-v0.63.1](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.63.1) — cua-driver-rs: v0.63.1 _(pre-release)_
-<sub>2026-11-26 · today</sub>
+### [cua-driver-rs-v0.64.1](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.64.1) — cua-driver-rs: v0.64.1 _(pre-release)_
+<sub>2026-11-27 · today</sub>
 
-> **Cua Driver 0.63.1**
+> **Cua Driver 0.64.1**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - reviewed Omarchy edge profile for Hyprland 0.57.2-7. ([#8738](https://github.com/trycua/cua/pull/8738))
+> - carry call identity as a typed DispatchIdentity. ([#8348](https://github.com/trycua/cua/pull/8348))
 > **Contributors**
 > …
 
-### [bench-v0.4.24](https://github.com/trycua/cua/releases/tag/bench-v0.4.24) — cua-bench v0.4.24
-<sub>2026-11-26 · today</sub>
+### [cua-spaces-v0.41.18](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.18) — Cua Spaces v0.41.18
+<sub>2026-11-27 · today</sub>
 
-> **Cua Bench 0.4.24**
+> **Cua Spaces 0.41.18**
 > **Summary**
 > This release includes 1 fix.
 > **Fixes**
-> - accept cua-driver 0.63. ([#8734](https://github.com/trycua/cua/pull/8734))
+> - bundle cua 0.31.2 in Cua Spaces. ([#8771](https://github.com/trycua/cua/pull/8771))
 > **Contributors**
 > …
 
-### [cua-driver-rs-v0.63.0](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.63.0) — cua-driver-rs: v0.63.0 _(pre-release)_
-<sub>2026-11-26 · today</sub>
+### [cua-sdk-v0.31.2](https://github.com/trycua/cua/releases/tag/cua-sdk-v0.31.2) — cua SDK 0.31.2
+<sub>2026-11-27 · today</sub>
 
-> **Cua Driver 0.63.0**
+> cua SDK 0.31.2 release assets.
+
+### [cua-spaces-v0.41.17](https://github.com/trycua/cua/releases/tag/cua-spaces-v0.41.17) — Cua Spaces v0.41.17
+<sub>2026-11-27 · today</sub>
+
+> **Cua Spaces 0.41.17**
+> **Summary**
+> This release includes 2 fixes.
+> **Fixes**
+> - make the cua SDK workflow finish and pass on main. ([#8765](https://github.com/trycua/cua/pull/8765))
+> - bundle Cua Driver 0.63.3 in Cua Spaces. ([#8766](https://github.com/trycua/cua/pull/8766))
+> …
+
+### [cua-driver-rs-v0.64.0](https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.64.0) — cua-driver-rs: v0.64.0 _(pre-release)_
+<sub>2026-11-27 · today</sub>
+
+> **Cua Driver 0.64.0**
 > **Summary**
 > This release adds 1 feature.
 > **Features**
-> - hide a cursor's session label with set_agent_cursor_badge. ([#8680](https://github.com/trycua/cua/pull/8680)) reported by @dyh-sjtu.
+> - persist get_window_state max_elements and max_depth defaults. ([#8563](https://github.com/trycua/cua/pull/8563)) reported by @Joeycz.
 > **Contributors**
-> …
-
-### [cua-spacesd-v0.18.0](https://github.com/trycua/cua/releases/tag/cua-spacesd-v0.18.0) — cua-spacesd 0.18.0
-<sub>2026-11-26 · today</sub>
-
-> cua-spacesd 0.18.0 release assets.
-
-### [nightly-cua-driver-rs-v0.62.2-nightly.20261126.45754792803](https://github.com/trycua/cua/releases/tag/nightly-cua-driver-rs-v0.62.2-nightly.20261126.45754792803) _(pre-release)_
-<sub>2026-11-26 · today</sub>
-
-> **Cua Driver 0.62.2-nightly.20261126.45754792803 (nightly)**
-> Automated immutable nightly built from an exact `main` commit. Nightlies are
-> opt-in, may be less stable than regular releases, and never replace stable
-> update discovery.
-> **Source**
-> - Commit: [`705089e1db0b76f97c83775cd1ee71ac6b4fdbca`](https://github.com/trycua/cua/commit/705089e1db0b76f97c83775cd1ee71ac6b4fdbca)
 > …
 
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [chore(main): release cua-driver-rs 0.63.1 (#8740)](https://github.com/trycua/cua/commit/4d1444cc28b298ec2abb5516de312089b3740fc7) | cua-release-bot[bot] |
-| 2026-11-26 | [chore(main): release bench 0.4.24 (#8739)](https://github.com/trycua/cua/commit/3cbc5c83441c4aeef898e8237978b812af74751f) | cua-release-bot[bot] |
-| 2026-11-26 | [fix(hyprland-plugin): reviewed Omarchy edge profile for Hyprland 0.57…](https://github.com/trycua/cua/commit/f14b456de30abbf8b17ffd1c7bea6f95a286222b) | cua-agents[bot] |
-| 2026-11-26 | [chore(main): release cua-driver-rs 0.63.0 (#8733)](https://github.com/trycua/cua/commit/e392cba69e9264f15c9a1e47c4adf26d03321b40) | cua-release-bot[bot] |
-| 2026-11-26 | [fix(cua-sandbox): accept cua-driver 0.63 (#8734)](https://github.com/trycua/cua/commit/b333980b64003fd81d3a19e3606eb4abbdf3d17c) | cua-release-bot[bot] |
-| 2026-11-26 | [chore(main): release cua-spacesd 0.18.0 (#8732)](https://github.com/trycua/cua/commit/17953a095b90f789d2ca21dbdd13c489e58310e6) | cua-release-bot[bot] |
-| 2026-11-26 | [feat(cua-driver): hide a cursor's session label with set_agent_cursor…](https://github.com/trycua/cua/commit/e71e5c39847bc23a2c92fddb3f4bb8ae997007d0) | injaneity |
-| 2026-11-26 | [chore(main): release cua-spaces 0.41.14 (#8724)](https://github.com/trycua/cua/commit/705089e1db0b76f97c83775cd1ee71ac6b4fdbca) | cua-release-bot[bot] |
-| 2026-11-26 | [fix(spaces-macos): bundle cua 0.31.1 in Cua Spaces (#8720)](https://github.com/trycua/cua/commit/f7bd58569341fea3d9465d067c4be484fecf0445) | cua-release-bot[bot] |
-| 2026-11-26 | [Revert "perf(cua-sdk): link the cua SDK release binaries with fat LTO…](https://github.com/trycua/cua/commit/922af4cdf1c50f648f458e9bdc3ce7a3ae0a0a1e) | f-trycua |
+| 2026-11-27 | [chore(cua-driver): advance published installer version to 0.64.1 (#8776)](https://github.com/trycua/cua/commit/1239f26b8f91321202dd53e1363178e096d85ae2) | cua-release-bot[bot] |
+| 2026-11-27 | [chore(main): release cua-driver-rs 0.64.1 (#8775)](https://github.com/trycua/cua/commit/3de125f3b87ece6ae8dd8b52047da7eb4e9a1f95) | cua-release-bot[bot] |
+| 2026-11-27 | [test(cua-daemon-core): expect Stop for the firecracker microVM on Win…](https://github.com/trycua/cua/commit/ebc4d9c0f2ac2b2263d4d8f7900ba8de9f81a35c) | cua-agents[bot] |
+| 2026-11-27 | [chore(main): release cua-spaces 0.41.18 (#8774)](https://github.com/trycua/cua/commit/916df58399a993affe4cc810a0d474fae27e8d36) | cua-release-bot[bot] |
+| 2026-11-27 | [fix(spaces-macos): bundle cua 0.31.2 in Cua Spaces (#8771)](https://github.com/trycua/cua/commit/4d6e614ea15f42c7c5f2ac6405d05c79ce2a1e30) | cua-release-bot[bot] |
+| 2026-11-27 | [fix(cua-driver): carry call identity as a typed DispatchIdentity (#8348)](https://github.com/trycua/cua/commit/975fe736349c6d8da2618b8219631aefa1882925) | injaneity |
+| 2026-11-27 | [chore(cua-driver): advance published installer version to 0.64.0 (#8770)](https://github.com/trycua/cua/commit/4c8ae4e5857b53f63f5453ab4c6c2077118879b6) | cua-release-bot[bot] |
+| 2026-11-27 | [chore(main): release cua-sdk 0.31.2 (#8768)](https://github.com/trycua/cua/commit/773d10e07cfae0174952590c0fd59e4581ce8b6c) | cua-release-bot[bot] |
+| 2026-11-27 | [chore(main): release cua-spaces 0.41.17 (#8767)](https://github.com/trycua/cua/commit/46e9b7911a528e2337ff433dfd65709750a143be) | cua-release-bot[bot] |
+| 2026-11-27 | [fix(spaces-macos): bundle Cua Driver 0.63.3 in Cua Spaces (#8766)](https://github.com/trycua/cua/commit/837f6a0383ad898c4ec1a8e36eab1005076b7cc9) | cua-release-bot[bot] |
 
 [See all commits ↗](https://github.com/trycua/cua/commits)
 

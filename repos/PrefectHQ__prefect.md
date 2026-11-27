@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 24.2k |
+| ⭐ **Stars** | 24.3k |
 | 🍴 **Forks** | 2.7k |
-| 🐞 **Open issues + PRs** | [798](https://github.com/PrefectHQ/prefect/issues) |
+| 🐞 **Open issues + PRs** | [807](https://github.com/PrefectHQ/prefect/issues) |
 | 💻 **Languages** | Python 79% · TypeScript 20% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `python` `workflow` `data-engineering` `data-science` `workflow-engine` `prefect` `infrastructure` `ml-ops` `data-ops` `automation` `orchestration` `data` `observability` `pipeline` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2018-06-29 |
 | 📦 **Latest release** | [3.9.5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 250.7 MB |
+| 💾 **Size** | 251.1 MB |
 | 🌐 **Website** | https://prefect.io |
 
 ## 📦 Recent releases
 
 ### [3.9.6.dev2](https://github.com/PrefectHQ/prefect/releases/tag/3.9.6.dev2) — 3.9.6.dev2: Nightly Development Release _(pre-release)_
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **What's Changed**
 > **Development & Tidiness 🧹**
@@ -47,7 +47,7 @@
 > …
 
 ### [3.9.6.dev1](https://github.com/PrefectHQ/prefect/releases/tag/3.9.6.dev1) — 3.9.6.dev1: Nightly Development Release _(pre-release)_
-<sub>2026-11-25 · yesterday</sub>
+<sub>2026-11-25 · 2d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**
@@ -55,7 +55,7 @@
 > **Full Changelog**: https://github.com/PrefectHQ/prefect/compare/3.9.5...3.9.6.dev1
 
 ### [3.9.5](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5) — 3.9.5 - Let sleeping schedules lie
-<sub>2026-11-24 · yesterday</sub>
+<sub>2026-11-24 · 2d ago</sub>
 
 > **Enhancements ➕➕**
 > * Speed up event trigger matching by indexing exact related-resource names by [@chuqCTC](https://github.com/chuqCTC) in [#23323](https://github.com/PrefectHQ/prefect/pull/23323)
@@ -66,7 +66,7 @@
 > …
 
 ### [3.9.5.dev4](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev4) — 3.9.5.dev4: Nightly Development Release _(pre-release)_
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **What's Changed**
 > **Enhancements ➕➕**
@@ -77,7 +77,7 @@
 > …
 
 ### [3.9.5.dev3](https://github.com/PrefectHQ/prefect/releases/tag/3.9.5.dev3) — 3.9.5.dev3: Nightly Development Release _(pre-release)_
-<sub>2026-11-22 · 4d ago</sub>
+<sub>2026-11-22 · 5d ago</sub>
 
 > **What's Changed**
 > **Bug Fixes 🐞**

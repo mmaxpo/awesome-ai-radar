@@ -20,17 +20,17 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 115.5k |
+| ⭐ **Stars** | 115.6k |
 | 🍴 **Forks** | 15.2k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/supabase/supabase/issues) |
 | 💻 **Languages** | TypeScript 73% · MDX 25% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `firebase` `supabase` `realtime` `postgrest` `postgres` `postgresql` `websockets` `deno` `embeddings` `vectors` `alternative` `auth` `database` `example` `nextjs` `oauth2` `pgvector` `postgis` `ai` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2019-10-12 |
 | 📦 **Latest release** | [v1.26.08](https://github.com/supabase/supabase/releases/tag/v1.26.08) — 2026-08-07 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 2486.6 MB |
+| 💾 **Size** | 2486.9 MB |
 | 🌐 **Website** | https://supabase.com |
 
 ## 📦 Recent releases
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [chore(self-hosted): remove env vars Storage no longer reads (#54132)](https://github.com/supabase/supabase/commit/160f233b4e33945f2de2c4ebffdaec7396182f43) | aantti |
-| 2026-11-26 | [Joshenlim/fe 5196 move off scaffold components for remaining (#53911)](https://github.com/supabase/supabase/commit/434c00cb14d3a8a1a85696dd20d6a53e36c54449) | joshenlim |
-| 2026-11-26 | [fix(self-hosted): keep idle Auth database connections (#54134)](https://github.com/supabase/supabase/commit/8cb6a869337b25ed1bf039c700c11a26f1e83673) | aantti |
-| 2026-11-26 | [chore(self-hosted): remove PGRST_DB_USE_LEGACY_GUCS (#54133)](https://github.com/supabase/supabase/commit/fd79b119949bab64a2b38fe0bb6d2ecdc3f60f1b) | aantti |
-| 2026-11-26 | [docs(self-hosted): document Auth DB encryption key requirements in CO…](https://github.com/supabase/supabase/commit/14c26d8f448643552b54bd1c94233017e572a921) | aantti |
-| 2026-11-26 | [feat(self-hosted): add structured logging for self-hosted Edge Functi…](https://github.com/supabase/supabase/commit/3580c144a456f1dd9e88c8db9dece36e0ded4bd8) | luizfelmach |
-| 2026-11-26 | [docs(rbac): enable RLS on the RBAC tables (#48394)](https://github.com/supabase/supabase/commit/49bda396bbd04710ce83b4db08a1a69aa7c1f94b) | Paramjeet2810 |
-| 2026-11-26 | [docs(auth): remove claims of automatic cleanup of expired sessions (#…](https://github.com/supabase/supabase/commit/530ae14dab2bc18f1c3ee4103ee0a87ee93ee193) | claude[bot] |
-| 2026-11-26 | [docs(self-hosted): catch up CONFIG.md with the current self-hosted im…](https://github.com/supabase/supabase/commit/fd75f79d4bfa3335f362b5d43c8169b1c616dc21) | aantti |
-| 2026-11-26 | [Update billing-faq.mdx (#54125)](https://github.com/supabase/supabase/commit/2fcbeb10ffc76d4ab43be1aa0a85b2dffeabc6e5) | corkscruff |
+| 2026-11-27 | [fix(studio): correct PITR scheduled backups copy (#50861)](https://github.com/supabase/supabase/commit/d1c9d05335032593e88c2e717457be8971c92874) | peekknuf |
+| 2026-11-27 | [fix(www): list "Supports AWS PrivateLink" once on Team and on Enterpr…](https://github.com/supabase/supabase/commit/0a44bbe8c25edb2cd90480e9c710bc5a72b66857) | wendeh |
+| 2026-11-27 | [fix(www): redirect /buildersday to /builderday (#54200)](https://github.com/supabase/supabase/commit/b6270f4a31674bde181ae2a22cc8e2649477cf85) | Dionysos288 |
+| 2026-11-27 | [fix(studio): link maintenance banner titles to their status page (#54…](https://github.com/supabase/supabase/commit/fb118a978cc711f1877c214f116db3c4d782a2f3) | charislam |
+| 2026-11-27 | [feat(studio): bump @supabase/mcp-server-supabase to 0.20.0 and pass s…](https://github.com/supabase/supabase/commit/90a0bcdcfea810e676d7b961e5a815e92f11a71a) | barryroodt |
+| 2026-11-27 | [fix(self-hosted): avoid Envoy DNS outage for late-starting services (…](https://github.com/supabase/supabase/commit/33b35d8bc181dcccec62165fdf9d8e2e9a74a4ed) | aantti |
+| 2026-11-27 | [feat(billing): use new upcoming invoice data (#53342)](https://github.com/supabase/supabase/commit/d85e9b8616190767254b81a5eedf61328fa4791b) | juleswritescode |
+| 2026-11-27 | [fix(logs): apply pathname exclusions when leaving the value FE-5233 (…](https://github.com/supabase/supabase/commit/832d238af3ff9750c388b1bb93a131ea4ddf5702) | jordienr |
+| 2026-11-27 | [chore(self-hosted): update images 2026-11-27 (#54193)](https://github.com/supabase/supabase/commit/6e61c8989f74da6c06afad6e42a5bf5feabd6906) | aantti |
+| 2026-11-27 | [fix(studio): use Databow for Warehouse connections (#54147)](https://github.com/supabase/supabase/commit/23424bec35831d88f4ddff689945774e61de5f26) | bnjjj |
 
 [See all commits ↗](https://github.com/supabase/supabase/commits)
 

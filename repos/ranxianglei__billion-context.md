@@ -20,22 +20,22 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 8.5k |
-| 🍴 **Forks** | 688 |
-| 🐞 **Open issues + PRs** | [1.5k](https://github.com/ranxianglei/billion-context/issues) |
+| ⭐ **Stars** | 8.6k |
+| 🍴 **Forks** | 699 |
+| 🐞 **Open issues + PRs** | [1.6k](https://github.com/ranxianglei/billion-context/issues) |
 | 💻 **Languages** | TypeScript 98% · JavaScript 1% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | — |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-08-06 |
 | 📦 **Latest release** | [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216) — 2026-11-17 |
 | 🌿 **Default branch** | `master` |
-| 💾 **Size** | 96.7 MB |
+| 💾 **Size** | 96.4 MB |
 
 ## 📦 Recent releases
 
 ### [v0.1.216](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.216)
-<sub>2026-11-17 · 9d ago</sub>
+<sub>2026-11-17 · 10d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: two fixes — evidence file is now readable after the run completes + one retry added for the small-window round in  | gate 两个修复:跑完后证据文件能读了 + R 车道小窗口轮次加一次重试 by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6808
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.1.215](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.215)
-<sub>2026-11-15 · 11d ago</sub>
+<sub>2026-11-15 · 12d ago</sub>
 
 > **What's Changed**
 > * [PR] gate: fix upstream recorder leak causing real model gate deadlock (pipe inheritance) | gate: 修上游 recorder 泄漏导致真模型门禁卡死（管道继承） by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/6671
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.1.214](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.214)
-<sub>2026-11-14 · 12d ago</sub>
+<sub>2026-11-14 · 13d ago</sub>
 
 > **What's Changed**
 > * [PR] docs: clarify that top-level modelContextLimit / ACP_MODEL_CONTEXT_LIMIT are a last-resort window fallback (#5908) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5909
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.1.213](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.213)
-<sub>2026-11-07 · 18d ago</sub>
+<sub>2026-11-07 · 19d ago</sub>
 
 > **What's Changed**
 > * [PR] fix: revert self-contradictory inclusive billing stamp to split (#5515) by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5518
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.1.212](https://github.com/ranxianglei/billion-context/releases/tag/v0.1.212)
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **What's Changed**
 > * [PR] (ai: anthropic/claude-opus-4-6) fix(release): nuclear box = deps download + build + publish, zero checks; add local zero-install publish script by @ranxianglei in https://github.com/ranxianglei/billion-context/pull/5436
@@ -93,16 +93,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [Merge pull request #7804 from ranxianglei/2026-11-26_sessions-dir-config](https://github.com/ranxianglei/billion-context/commit/0a133d91463bde79cad53e7966d32f10abc03c89) | ranxianglei |
-| 2026-11-26 | [docs: seed sessions.dir in website/config-reference and regenerate (d…](https://github.com/ranxianglei/billion-context/commit/2c9b245b95df60aaf235ec97b8a906522f25f9af) | ranxianglei |
-| 2026-11-26 | [feat(config): sessions.dir — relocate the sessions dir from the confi…](https://github.com/ranxianglei/billion-context/commit/1c3ab8224d035df57224b8a9650adc4ca961ee3c) | ranxianglei |
-| 2026-11-26 | [Merge pull request #7786 from ranxianglei/2026-11-26_ci-stale-pr-gate](https://github.com/ranxianglei/billion-context/commit/0a4ec90495b0c1bb719d1933e2e0c23189114bd7) | ranxianglei |
-| 2026-11-26 | [fix(ci): register ci-stale-pr-gate test in LIVE_FILES (#1248 tripwire)](https://github.com/ranxianglei/billion-context/commit/e88f6d4e52af7610ef2ac0b6f8c7aee7cd42a825) | ranxianglei |
-| 2026-11-26 | [Merge pull request #7782 from ranxianglei/2026-11-26_compress-clamp-b…](https://github.com/ranxianglei/billion-context/commit/dc2f371aaffc61de329acb648908926aed7e7866) | ranxianglei |
-| 2026-11-26 | [chore: sync root lockfile kernel entry with the 0.0.211 bump (lock-sy…](https://github.com/ranxianglei/billion-context/commit/ce7af9892ca63d4b43c4c23ac558273fb262119b) | ci-check |
-| 2026-11-26 | [fix(ci): drop the top-level workflow `if:` — it is not a valid GHA ke…](https://github.com/ranxianglei/billion-context/commit/e6a67f3b267618c266d5bd25e5451c3da1b5750e) | ranxianglei |
-| 2026-11-26 | [fix(ci): filter labeled triggers to CI labels; skip the matrix on PRs…](https://github.com/ranxianglei/billion-context/commit/62b8fea542b9c0a5699ebd7a905c4ce6d680dd40) | ranxianglei |
-| 2026-11-26 | [chore: sync kernel lockfile version with the 0.0.211 bump (lock-sync,…](https://github.com/ranxianglei/billion-context/commit/7b609ee8af272f7b358b74185f04d21a1451eba4) | ci-check |
+| 2026-11-27 | [Merge pull request #6805 from ranxianglei/2026-11-15_update-pin-versi…](https://github.com/ranxianglei/billion-context/commit/191af1927399009846e0741730f30ef7659ea901) | ranxianglei |
+| 2026-11-27 | [Merge remote-tracking branch 'origin/master' into 2026-11-15_update-p…](https://github.com/ranxianglei/billion-context/commit/d249587812334f999155b3b2368668f55059e234) | ranxianglei |
+| 2026-11-27 | [Merge branch '2026-11-15_update-pin-version-select' of https://github…](https://github.com/ranxianglei/billion-context/commit/36bcc054e924199763e5c999bd946c88df7ce15f) | ranxianglei |
+| 2026-11-27 | [Merge pull request #7855 from ranxianglei/path-a-egress-msgid-element](https://github.com/ranxianglei/billion-context/commit/e8e8985cd63f5bdb6a1b7ad9e49786271fb8b3ff) | ranxianglei |
+| 2026-11-27 | [egress op-log: store rows under the client element id (Path A, #7836)](https://github.com/ranxianglei/billion-context/commit/5994f501a7c971dd545d283021ba11456070b315) | ranxianglei |
+| 2026-11-27 | [Merge pull request #7851 from ranxianglei/2026-11-27_egress-diff-occu…](https://github.com/ranxianglei/billion-context/commit/af8ed2a50e526682dd281067cac20a4681257498) | ranxianglei |
+| 2026-11-27 | [Merge remote-tracking branch 'origin/master' into 2026-11-15_update-p…](https://github.com/ranxianglei/billion-context/commit/b3d69f12504c2ac08ea833ec5bc7d4c7652c7f65) | ranxianglei |
+| 2026-11-27 | [fix: egress diff is occurrence-aware — a collision pair's deletion no…](https://github.com/ranxianglei/billion-context/commit/7904d44c056d79adf2be1f5287d432d8578b2d7c) | ci-check |
+| 2026-11-27 | [Merge pull request #7849 from ranxianglei/2026-11-27_drow-logseq](https://github.com/ranxianglei/billion-context/commit/4c99c39eb71458b61591466e0171f089d9c964a6) | ranxianglei |
+| 2026-11-27 | [docs: id map for the egress number space (op_seq/log_seq/num/pos/rid)…](https://github.com/ranxianglei/billion-context/commit/af89c93f2115045e188ca445bc8b406836cfd611) | ranxianglei |
 
 [See all commits ↗](https://github.com/ranxianglei/billion-context/commits)
 

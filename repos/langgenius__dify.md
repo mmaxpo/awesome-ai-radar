@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 161.9k |
+| ⭐ **Stars** | 162.0k |
 | 🍴 **Forks** | 25.6k |
 | 🐞 **Open issues + PRs** | [1.3k](https://github.com/langgenius/dify/issues) |
 | 💻 **Languages** | Python 57% · TypeScript 40% · JavaScript 2% |
 | 📜 **License** | Other |
 | 🏷 **Topics** | `ai` `gpt` `llm` `openai` `python` `agent` `nextjs` `workflow` `genai` `automation` `low-code` `mcp` `no-code` `agentic-ai` `agentic-framework` `agentic-workflow` `claude` `skills` `deepseek` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-04-12 |
 | 📦 **Latest release** | [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — 2026-11-18 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 738.2 MB |
+| 💾 **Size** | 744.1 MB |
 | 🌐 **Website** | https://dify.ai |
 
 ## 📦 Recent releases
 
 ### [1.20.0](https://github.com/langgenius/dify/releases/tag/1.20.0) — v1.20.0
-<sub>2026-11-18 · 8d ago</sub>
+<sub>2026-11-18 · 9d ago</sub>
 
 > **Dify 1.20.0 keeps your traces flowing and your knowledge bases safer.** Export traces to any OpenTelemetry collector, keep Langfuse working after its legacy ingestion endpoint retirement, and scan uploaded knowledge files for malware before they are indexed. Chatflows can show Agent tool activity as it happens, and personal access tokens let scripts and agents call the Dify OpenAPI on your behalf. The bundled plugin daemon is upgraded to **0.6.15-local**.
 > [New Features](#user-content-new-features) · [Configuration and Integration Changes](#user-content-configuration-and-integration-changes) · [Database Migrations](#user-content-database-migrations) · [Upgrade Guide](#user-content-upgrade-guide)
@@ -47,7 +47,7 @@
 > …
 
 ### [1.19.0](https://github.com/langgenius/dify/releases/tag/1.19.0) — v1.19.0 - Trace Your Workflows, Layer by Layer
-<sub>2026-11-04 · 22d ago</sub>
+<sub>2026-11-04 · 23d ago</sub>
 
 > **Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree.
 > This release also makes Workflow Tools portable with App packages, adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin daemon is upgraded to **0.6.14-local**.
@@ -94,16 +94,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [fix(web): observe the tool catalog within its scroll container (#47350)](https://github.com/langgenius/dify/commit/76c33f30cd490f1d42e8e2f3a76b395ab7b0f0db) | hyoban |
-| 2026-11-26 | [docs: count draft PRs toward the contributor limit (#47352)](https://github.com/langgenius/dify/commit/ff824427bb7099c3af411489ec19039fa6bfed05) | QuantumGhost |
-| 2026-11-26 | [refactor(agent): migrate Console chat and audio runtime (#46582)](https://github.com/langgenius/dify/commit/a66dd8a15e65124590d451cf8a3aabfdedbac573) | hjlarry |
-| 2026-11-26 | [fix(api): isolate workflow archive retry sleep in tests (#47339)](https://github.com/langgenius/dify/commit/9e75f341ab9388a85723c155f527cf9a24354394) | hyoban |
-| 2026-11-26 | [fix(web): report failed editor draft loads and saves (#47247)](https://github.com/langgenius/dify/commit/df053963e41fdce5f60acdece73d5d28d9bbf2fd) | hyoban |
-| 2026-11-26 | [fix(web): give opted-out queries that showed nothing an error state (…](https://github.com/langgenius/dify/commit/2695025ecffff8d78b5cfb7d354159eec0faa78a) | hyoban |
-| 2026-11-26 | [refactor(agent): isolate Console config inspector access (#46561)](https://github.com/langgenius/dify/commit/f6c206bc1753e6baddb5dcf20e6174ec1f74cc71) | hjlarry |
-| 2026-11-26 | [fix(web): report failed marketplace lookups instead of failing silent…](https://github.com/langgenius/dify/commit/36953d443115dae2a63762cbdfe780aeab4fb0a6) | hyoban |
-| 2026-11-26 | [fix(web): show the server's message in knowledge error handlers (#47248)](https://github.com/langgenius/dify/commit/0863455d8c8528c4e37e64e98669d5a50d4f5efa) | hyoban |
-| 2026-11-26 | [fix(web): show the server's message in upload and billing error fallb…](https://github.com/langgenius/dify/commit/7ac7a3d5afe9dde18046b524861241067c6a1517) | hyoban |
+| 2026-11-27 | [refactor(api): read agent tool providers through an injected session …](https://github.com/langgenius/dify/commit/4cbb38e8607fda71292f96ff9a0a1c4fa082570f) | paulhuiseismic |
+| 2026-11-27 | [test(api): strictly type login code mail tests (#47080)](https://github.com/langgenius/dify/commit/3ec320d6b180d56fbed3fd0df9f3bb95a8720fad) | ShousenZHANG |
+| 2026-11-27 | [refactor(api): read custom API tool providers through an explicitly o…](https://github.com/langgenius/dify/commit/809bbddddcfff20a0ebf07440293a1c35837580b) | Mattenhaim |
+| 2026-11-27 | [refactor(api): rename Message Credits to AI Credits (#47376)](https://github.com/langgenius/dify/commit/16a54e6c1f4710252ef3791f7a74f16e0a221d2a) | linw1995 |
+| 2026-11-27 | [fix: normalize knowledge pipeline checkbox defaults (#47382)](https://github.com/langgenius/dify/commit/b2cfc31292a179801a02e89d97397d610da62e35) | iamjoel |
+| 2026-11-27 | [refactor(web): move the environment badge into the sidebar components…](https://github.com/langgenius/dify/commit/a44b7b79d81408a7cfa7979ca121f0ee51fb156e) | lyzno1 |
+| 2026-11-27 | [fix(web): dock the tour checklist as a non-modal dialog compound (#47…](https://github.com/langgenius/dify/commit/8c945fd3b541e46f98878e57a2d25b8325a8ae85) | lyzno1 |
+| 2026-11-27 | [fix(plugin): compact completed auto-upgrade reservations (#47377)](https://github.com/langgenius/dify/commit/6b4d449cee7aa08778437b520c8a66e8ecee35cd) | hjlarry |
+| 2026-11-27 | [refactor(dify-ui): drop coachmark portal remount and keep step focus …](https://github.com/langgenius/dify/commit/8f1c9f859f094b57bedb7ac6401d1db4c11d897e) | lyzno1 |
+| 2026-11-27 | [fix(runtime): collect shared Agent, shellctl, and API fixes (#47230)](https://github.com/langgenius/dify/commit/5081e0ce3e680f1cc0b2e091724dc5054e9ac19c) | Mairuis |
 
 [See all commits ↗](https://github.com/langgenius/dify/commits)
 

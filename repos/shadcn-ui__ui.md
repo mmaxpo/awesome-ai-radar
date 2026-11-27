@@ -21,22 +21,22 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 129.2k |
-| 🍴 **Forks** | 11.4k |
+| 🍴 **Forks** | 11.5k |
 | 🐞 **Open issues + PRs** | [1.8k](https://github.com/shadcn-ui/ui/issues) |
 | 💻 **Languages** | TypeScript 86% · MDX 10% · CSS 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `components` `nextjs` `radix-ui` `react` `tailwindcss` `ui` `shadcn` `base-ui` `laravel` `tanstack` `vite` `react-aria` `react-aria-components` `ai` `gen-ui` `generative-ai` `generative-ui` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-01-04 |
 | 📦 **Latest release** | [shadcn@4.23.1](https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.1) — 2026-11-25 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 73.9 MB |
+| 💾 **Size** | 74.2 MB |
 | 🌐 **Website** | https://ui.shadcn.com |
 
 ## 📦 Recent releases
 
 ### [shadcn@4.23.1](https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.1)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Patch Changes**
 > - [#12845](https://github.com/shadcn-ui/ui/pull/12845) [`d4f8278`](https://github.com/shadcn-ui/ui/commit/d4f82786710ce67a28733c015894782be71c3a4b) Thanks [@shadcn](https://github.com/shadcn)! - Upgrade ts-morph to v28 to resolve the minimatch advisory (GHSA-g3hv-75wg-m249).
@@ -44,7 +44,7 @@
 >   - @shadcn/registry@0.2.2
 
 ### [@shadcn/registry@0.2.2](https://github.com/shadcn-ui/ui/releases/tag/%40shadcn/registry%400.2.2)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > **Patch Changes**
 > - [#12845](https://github.com/shadcn-ui/ui/pull/12845) [`d4f8278`](https://github.com/shadcn-ui/ui/commit/d4f82786710ce67a28733c015894782be71c3a4b) Thanks [@shadcn](https://github.com/shadcn)! - Upgrade ts-morph to v28 to resolve the minimatch advisory (GHSA-g3hv-75wg-m249).

@@ -20,22 +20,42 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 75.5k |
-| 🍴 **Forks** | 6.7k |
-| 🐞 **Open issues + PRs** | [33](https://github.com/mvanhorn/last30days-skill/issues) |
-| 💻 **Languages** | Python 96% · HTML 2% · Go 2% |
+| ⭐ **Stars** | 76.2k |
+| 🍴 **Forks** | 6.8k |
+| 🐞 **Open issues + PRs** | [18](https://github.com/mvanhorn/last30days-skill/issues) |
+| 💻 **Languages** | Python 95% · HTML 2% · Go 2% · Rust 1% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `reddit` `twitter` `polymarket` `youtube` `instagram` `tiktok` `agent-skills` `artificial-intelligence` `bot` `command-line` `data-science` `dsh-plugin` `golang` `llms` `nlp` `osint` `python3` `dsh` `automation` `terminal` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2026-01-23 |
-| 📦 **Latest release** | [v4.6.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0) — 2026-11-22 |
+| 📦 **Latest release** | [v4.8.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.8.0) — 2026-11-27 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 57.9 MB |
+| 💾 **Size** | 57.4 MB |
 
 ## 📦 Recent releases
 
+### [v4.8.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.8.0)
+<sub>2026-11-27 · today</sub>
+
+> **What's Changed**
+> * fix(release): use macos-latest runner for darwin Rust core builds by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1640
+> * feat: add Juejin as an opt-in keyless source by @typ646632922 in https://github.com/mvanhorn/last30days-skill/pull/1642
+> * chore(release): bump version to 4.8.0 by @github-actions[bot] in https://github.com/mvanhorn/last30days-skill/pull/1643
+> **Full Changelog**: https://github.com/mvanhorn/last30days-skill/compare/v4.7.0...v4.8.0
+
+### [v4.7.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.7.0)
+<sub>2026-11-26 · today</sub>
+
+> **What's Changed**
+> * docs: document DeepSeek Harness as a supported host by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1565
+> * feat(codex): add plugin icon by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1567
+> * security: harden engine I/O, HTTP SSRF, MCP cache, rendering, and clustering by @iliaal in https://github.com/mvanhorn/last30days-skill/pull/1572
+> * security: harden release tag validation, ignore files, and reference shell recipes by @iliaal in https://github.com/mvanhorn/last30days-skill/pull/1573
+> * security(mcp): eliminate post-reap PID-reuse kill race and bound subprocess output by @iliaal in https://github.com/mvanhorn/last30days-skill/pull/1574
+> …
+
 ### [v4.6.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0)
-<sub>2026-11-22 · 4d ago</sub>
+<sub>2026-11-22 · 5d ago</sub>
 
 > **What's Changed**
 > * fix(comments): spend TikTok and Instagram comment calls on posts the report keeps by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1554
@@ -46,7 +66,7 @@
 > …
 
 ### [v4.5.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.5.0)
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > **What's Changed**
 > * fix(reddit): unpack all three results in attach_comments by @itzzdev09 in https://github.com/mvanhorn/last30days-skill/pull/1548
@@ -57,7 +77,7 @@
 > …
 
 ### [v4.4.0](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.4.0)
-<sub>2026-11-20 · 6d ago</sub>
+<sub>2026-11-20 · 7d ago</sub>
 
 > **What's Changed**
 > * fix(watchlist): pass scheduled topics as literal research text by @iliaal in https://github.com/mvanhorn/last30days-skill/pull/1514
@@ -67,41 +87,20 @@
 > * fix(x): scope live authentication checks to eligible research by @iliaal in https://github.com/mvanhorn/last30days-skill/pull/1523
 > …
 
-### [v4.3.2](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.2)
-<sub>2026-11-17 · 8d ago</sub>
-
-> **What's Changed**
-> * docs: add Persian (Farsi) README translation by @abbasi0abolfazl in https://github.com/mvanhorn/last30days-skill/pull/1503
-> * fix: explain missing X browser cookies by @qq2514568380 in https://github.com/mvanhorn/last30days-skill/pull/1499
-> * fix: report Reddit archive as partial when discovery fails by @qq2514568380 in https://github.com/mvanhorn/last30days-skill/pull/1500
-> * fix(doctor): stop prescribing a transcription key that does nothing by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1507
-> * fix(windows): resolve Printing Press CLIs from the managed bin dir by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1508
-> …
-
-### [v4.3.1](https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.1)
-<sub>2026-11-17 · 8d ago</sub>
-
-> **What's Changed**
-> * docs: README shows what v4 does by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1497
-> * fix(hermes): unblock Hermes installs blocked by a dangerous scan verdict by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1504
-> * fix(hermes): stop SKILL.md naming folders as support files by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1505
-> * chore(release): bump version to 4.3.1 by @github-actions[bot] in https://github.com/mvanhorn/last30days-skill/pull/1506
-> **Full Changelog**: https://github.com/mvanhorn/last30days-skill/compare/v4.3.0...v4.3.1
-
 ## 🔨 Latest commits
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-25 | [fix(watchlist): alert on first sightings per topic (#1624)](https://github.com/mvanhorn/last30days-skill/commit/ed7ec6752b766ea3eb62239b374900764e9b5453) | FayezBast |
-| 2026-11-25 | [fix(skill): fit frontmatter description in the 60-char routing index …](https://github.com/mvanhorn/last30days-skill/commit/1ef7d73597221b2f9c8740e8fd84cce14641d231) | fabioluissilva |
-| 2026-11-25 | [fix(github): count open PRs correctly in person reports (#1625)](https://github.com/mvanhorn/last30days-skill/commit/77e0dd82ccd5661864e8844535b9681e0849ac39) | FayezBast |
-| 2026-11-25 | [fix: keep usable subqueries from malformed provider plans (#1619)](https://github.com/mvanhorn/last30days-skill/commit/05dd6ae65cde751d9a3ef38247a334bdc86022d6) | rudycelekli |
-| 2026-11-25 | [fix: bound the remote query planning step (#1618)](https://github.com/mvanhorn/last30days-skill/commit/7b693b4abd81de760469b4cbbb8da9cff0af401d) | rudycelekli |
-| 2026-11-24 | [chore(readme): auto-update clean light/dark star history chart (#1617)](https://github.com/mvanhorn/last30days-skill/commit/7c2e1c2b099b13abd4397910168c4f53e638bb21) | mvanhorn |
-| 2026-11-24 | [chore(deps): update the OSV scanner workflow to v2.7.1 (#1563)](https://github.com/mvanhorn/last30days-skill/commit/c7056bc2fc3e5f281c58aa3cac2c63a1886b15ed) | dependabot[bot] |
-| 2026-11-24 | [fix(reddit): honor SearXNG in web discovery (#1603)](https://github.com/mvanhorn/last30days-skill/commit/c3dc463414b5401370cf449acdb9adf2aa571eef) | flipcyde101 |
-| 2026-11-24 | [fix: honor explicit local reasoning with configured provider keys (#1…](https://github.com/mvanhorn/last30days-skill/commit/bb18cccc53157dbac6adc9c23d5ef9b765441961) | TheAyushTandon |
-| 2026-11-24 | [fix(truthsocial): decode HTML entities and keep paragraph breaks in p…](https://github.com/mvanhorn/last30days-skill/commit/553da843b3c096464c74e17a7ac3acb566931f28) | thejesh23 |
+| 2026-11-27 | [chore(release): bump version to 4.8.0 (#1643)](https://github.com/mvanhorn/last30days-skill/commit/3fd946546afddc2096ab955f3abb223ed59f52ce) | github-actions[bot] |
+| 2026-11-27 | [feat: add Juejin as an opt-in keyless source (#1642)](https://github.com/mvanhorn/last30days-skill/commit/11215cb437920af2a70bfa8d36e11aba4940c0ac) | typ646632922 |
+| 2026-11-26 | [fix(release): use macos-latest runner for darwin Rust core builds (#1…](https://github.com/mvanhorn/last30days-skill/commit/4b82dc4d3143a5af5918fb2ac4f13f36265326aa) | mvanhorn |
+| 2026-11-26 | [chore(release): bump version to 4.7.0 (#1639)](https://github.com/mvanhorn/last30days-skill/commit/bb78db9926cea6996a66f5a70bb00b284e08a9fb) | github-actions[bot] |
+| 2026-11-26 | [feat(core): built-in native Rust compute core with SHA-256 auto-insta…](https://github.com/mvanhorn/last30days-skill/commit/b88b84609cf518c615bdc5db184d3664856b6540) | mvanhorn |
+| 2026-11-26 | [fix(github): search titles so topic results survive the topical floor…](https://github.com/mvanhorn/last30days-skill/commit/9a2c0e467ed406f52b309dd28e47a483bdd51953) | jayhemnani9910 |
+| 2026-11-26 | [docs: explain inherited credentials for automatic reranking (#1568)](https://github.com/mvanhorn/last30days-skill/commit/54746fbe24ad85d5beb297c760c754b7c773a084) | zhangkom |
+| 2026-11-26 | [fix: keep provider keys off the proxy for loopback base-URL overrides…](https://github.com/mvanhorn/last30days-skill/commit/73b003bc8fd786f7e226ede11b5ba166a3a22823) | amirkhakshour |
+| 2026-11-26 | [docs: add Russian README translation (#1630)](https://github.com/mvanhorn/last30days-skill/commit/36b1de99d5ca13a1b3f9155459cb087e998fc64e) | solarrust |
+| 2026-11-26 | [chore(deps): bump trufflesecurity/trufflehog from 3.99.8 to 3.99.9 (#…](https://github.com/mvanhorn/last30days-skill/commit/15a41521bc5737c32138efc47f94a2ca767269bf) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/mvanhorn/last30days-skill/commits)
 

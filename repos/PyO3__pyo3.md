@@ -22,15 +22,15 @@
 |---|---|
 | ⭐ **Stars** | 16.4k |
 | 🍴 **Forks** | 1.1k |
-| 🐞 **Open issues + PRs** | [418](https://github.com/PyO3/pyo3/issues) |
+| 🐞 **Open issues + PRs** | [406](https://github.com/PyO3/pyo3/issues) |
 | 💻 **Languages** | Rust 96% · Python 4% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `rust` `python` `binding` `ffi` `python-c-api` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2017-05-13 |
 | 📦 **Latest release** | [v0.30.1](https://github.com/PyO3/pyo3/releases/tag/v0.30.1) — 2026-10-14 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 62.8 MB |
+| 💾 **Size** | 61.9 MB |
 | 🌐 **Website** | https://pyo3.rs |
 
 ## 📦 Recent releases
@@ -89,16 +89,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [build(deps): bump netlify-cli (#6613)](https://github.com/PyO3/pyo3/commit/31a9930a85133683cc01480372c08585dd98b35c) | dependabot[bot] |
-| 2026-11-26 | [build(deps): bump the github-actions group across 2 directories with …](https://github.com/PyO3/pyo3/commit/8843da1a7ee7cf8611b636a2726fb8eaa70140e7) | dependabot[bot] |
-| 2026-11-26 | [ci: relocate `netlify-cli` pin (#6610)](https://github.com/PyO3/pyo3/commit/ee0812de0269b2da0c3c2e913c14350d952a0cd1) | davidhewitt |
-| 2026-11-25 | [docs: add citry-core to README examples (#6594)](https://github.com/PyO3/pyo3/commit/d52064a496b480d8899983ba1630256eb339c7e7) | JuroOravec |
-| 2026-11-24 | [Stubs: do not emit `__str__` and `__repr__` overrides (#6607)](https://github.com/PyO3/pyo3/commit/87868c302bd460098b5b2f4a16f53236f425493f) | Tpt |
-| 2026-11-24 | [fix: jiff ZonedDateTime to datetime and back roundtrip (#6606)](https://github.com/PyO3/pyo3/commit/76d3997a3e6b548f48972bc97ded537de14d09b5) | Ravencentric |
-| 2026-11-24 | [docs: add pygrpc-native to README examples (#6566)](https://github.com/PyO3/pyo3/commit/aa2eb17b75f0fa7a865233635a98d725eca41777) | theminjunchoi |
-| 2026-11-23 | [Use `gh-actions-lock` to lock ci dependencies (#6598) (#6598)](https://github.com/PyO3/pyo3/commit/fdfc9e472b50849fdd87569f03530f87c29b0e80) | bschoenmaeckers |
-| 2026-11-23 | [build(deps-dev): bump the uv-tools group with 4 updates (#6602)](https://github.com/PyO3/pyo3/commit/07cb376a37e66b0c4062dd55c19cb924a8e69871) | dependabot[bot] |
-| 2026-11-23 | [docs: add harper-py to examples (#6548)](https://github.com/PyO3/pyo3/commit/a7772396faf31e1e22ad49a949c8bd28533e36ff) | Maksim-Burtsev |
+| 2026-11-27 | [internal: tests: fixes a name conflict between capsules (#6608)](https://github.com/PyO3/pyo3/commit/143012921bf66cb36e964a1e38b1292a4ed919d8) | Tpt |
+| 2026-11-27 | [fix: wrap slot method calls in unsafe blocks (#6612)](https://github.com/PyO3/pyo3/commit/250c626587ad0562e3ab501fad9d461c072900d5) | rytheo |
+| 2026-11-27 | [pypy3.12 v8.1 uses CPython's datetime, buffer structs (#6611)](https://github.com/PyO3/pyo3/commit/69d9ba67b479888706c0bb9a0048ac014b537a1f) | mattip |
+| 2026-11-27 | [conditionally include `std` crate (#6511)](https://github.com/PyO3/pyo3/commit/49dfe58e9e142bba0efdf6733009d10473c6d3fb) | Person-93 |
+| 2026-11-26 | [build(deps-dev): bump rumdl from 0.3.4 to 0.3.5 in the uv-tools group…](https://github.com/PyO3/pyo3/commit/a7f891a1c598322cd86fd6f1a5585000e8ced9d1) | dependabot[bot] |
+| 2026-11-26 | [build(deps): bump fast-uri in /ci/tools/netlify (#6623)](https://github.com/PyO3/pyo3/commit/191f98b28b2a01cb7147a7a36d6bdd762f5d5faa) | dependabot[bot] |
+| 2026-11-26 | [build(deps): bump follow-redirects in /ci/tools/netlify (#6617)](https://github.com/PyO3/pyo3/commit/4a8f7c560e2f819d911f0238121b4c6c6003a14b) | dependabot[bot] |
+| 2026-11-26 | [Fix attachment during interpreter finalization (#6564) (#6578)](https://github.com/PyO3/pyo3/commit/1999ba861fab73c9292cc44faf325f4ba30e0fd0) | exg |
+| 2026-11-26 | [build(deps): bump body-parser from 2.3.0 to 2.4.0 in /ci/tools/netlif…](https://github.com/PyO3/pyo3/commit/2f0191dd67094290be8ea2693e5297006c8fadbb) | dependabot[bot] |
+| 2026-11-26 | [build(deps): bump qs from 6.16.0 to 6.17.1 in /ci/tools/netlify (#6624)](https://github.com/PyO3/pyo3/commit/6208a7b806b2b50c76db33cafb028e87e012cbe2) | dependabot[bot] |
 
 [See all commits ↗](https://github.com/PyO3/pyo3/commits)
 

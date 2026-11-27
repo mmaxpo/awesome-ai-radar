@@ -26,7 +26,7 @@
 | 💻 **Languages** | C++ 78% · Python 11% · Cuda 3% · CMake 3% · Scala 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `machine-learning` `decision-trees` `gradient-boosting` `gbm` `gbdt` `python` `r` `kaggle` `gpu-computing` `catboost` `tutorial` `categorical-features` `gpu` `coreml` `data-science` `big-data` `cuda` `data-mining` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2017-07-18 |
 | 📦 **Latest release** | [node-package-v1.27.0](https://github.com/catboost/catboost/releases/tag/node-package-v1.27.0) — 2026-02-21 |
 | 🌿 **Default branch** | `master` |
@@ -90,16 +90,16 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-27 | [Intermediate changes](https://github.com/catboost/catboost/commit/22d79a902730de99f1b9a27a6f25d2f4aae7229b) | robot-piglet |
+| 2026-11-27 | [do not use exceptions in neh in relativly hot path (keep-alive drop f…](https://github.com/catboost/catboost/commit/3d7cf00dd132f3b143c83415bb0b64ce5e0cd733) | ilnurkh |
+| 2026-11-27 | [add TFloatStringBuf; make ToString for floats have adaptive compile-t…](https://github.com/catboost/catboost/commit/5383aa06f1b788cd210afa23aee7565420a8b4ad) | ilnurkh |
+| 2026-11-26 | [добавление HTTP-заголовков при запуске d-executor](https://github.com/catboost/catboost/commit/37af7368ad550f49c653de5da40f91e28b5d11ab) | arsenoks4132 |
+| 2026-11-26 | [Preserve UTF-8 Windows command lines and directory names](https://github.com/catboost/catboost/commit/179863d6b4a4cf6af1409f52540cc188623b312f) | 4JustMe4 |
+| 2026-11-26 | [обновить contrib/restricted/exiv2 до 0.28.9](https://github.com/catboost/catboost/commit/3b6b97ebe7d200baba091e6a13d153e4aade346f) | everest |
 | 2026-11-26 | [ability to pass some additional info about codecs; chunked output for…](https://github.com/catboost/catboost/commit/3dd74905124571ba3ca69d43f355ff14c0099600) | ilnurkh |
 | 2026-11-26 | [Update OpenSSL for open source CatBoost to 3.5.9.](https://github.com/catboost/catboost/commit/ea9a3e518902ab52ec12d85ad03e5c3f7f100802) | andrey-khropov |
 | 2026-11-25 | [support command files in stage0pycc bootstrap](https://github.com/catboost/catboost/commit/09d3085c6abd12d153de62e52726756fee7735d0) | 4JustMe4 |
 | 2026-11-25 | [Fix shared headers for clang-cl](https://github.com/catboost/catboost/commit/b567549bf456de09ad8e7118b8f521d316a4256d) | shfdis |
-| 2026-11-25 | [[avis] Switch to shared ESP-IDF 5.5.2](https://github.com/catboost/catboost/commit/d3ad3d57edab4cccd240d258defda813ac397d45) | ivanoviot |
-| 2026-11-25 | [avoid constructing heap based TString-s in case there finite number o…](https://github.com/catboost/catboost/commit/be4a269d5b978fa066826027f365106d910f8057) | ilnurkh |
-| 2026-11-25 | [Preserve all RESOURCE compression batches](https://github.com/catboost/catboost/commit/87aea2cfccaa44846465457b2f37d577f6e36c2b) | dimdim1177 |
-| 2026-11-25 | [Import NvSci for JetPack 6 and 7](https://github.com/catboost/catboost/commit/377775085955914be184574e8ea2f7f03bcebc20) | ls-nikitin |
-| 2026-11-24 | [add PREC_AUTO_KEEP_FLOAT to dump float, that will be back-parsed as f…](https://github.com/catboost/catboost/commit/e71944ebf531711df5246d9b150ea9117ee531a9) | ilnurkh |
-| 2026-11-24 | [Bump ajv from 6.12.6 to 6.15.0 in /catboost/python-package/catboost/w…](https://github.com/catboost/catboost/commit/289312d23d063a2c0dbfff166ab4ea47c883c96e) | dependabot[bot] [49699333+dependabot |
 
 [See all commits ↗](https://github.com/catboost/catboost/commits)
 

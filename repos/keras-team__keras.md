@@ -22,11 +22,11 @@
 |---|---|
 | ⭐ **Stars** | 64.5k |
 | 🍴 **Forks** | 19.8k |
-| 🐞 **Open issues + PRs** | [274](https://github.com/keras-team/keras/issues) |
+| 🐞 **Open issues + PRs** | [296](https://github.com/keras-team/keras/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `deep-learning` `tensorflow` `neural-networks` `machine-learning` `data-science` `python` `jax` `pytorch` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2015-03-28 |
 | 📦 **Latest release** | [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — 2026-07-29 |
 | 🌿 **Default branch** | `master` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v3.12.4](https://github.com/keras-team/keras/releases/tag/v3.12.4) — Keras 3.12.4
-<sub>2026-07-29 · 3mo ago</sub>
+<sub>2026-07-29 · 4mo ago</sub>
 
 > **Keras 3.12.4**
 > Keras 3.12.4 is a security patch release that hardens dataset loading and model file handling against insecure deserialization and decompression-bomb attacks.
@@ -47,7 +47,7 @@
 > …
 
 ### [v3.15.1](https://github.com/keras-team/keras/releases/tag/v3.15.1) — Keras 3.15.1
-<sub>2026-07-29 · 3mo ago</sub>
+<sub>2026-07-29 · 4mo ago</sub>
 
 > **Release Notes**
 > Keras 3.15.1 is a patch release containing important security hardening, bug fixes, and Python 3.14 compatibility improvements.

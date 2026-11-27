@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 12.0k |
-| 🍴 **Forks** | 289 |
-| 🐞 **Open issues + PRs** | [49](https://github.com/mrkai77/Loop/issues) |
+| 🍴 **Forks** | 290 |
+| 🐞 **Open issues + PRs** | [50](https://github.com/mrkai77/Loop/issues) |
 | 💻 **Languages** | Swift 100% |
 | 📜 **License** | GPL-3.0 |
 | 🏷 **Topics** | `macos` `swift` `window-management` `swiftui` `radial-menu` `macos-app` `menu` `productivity` |

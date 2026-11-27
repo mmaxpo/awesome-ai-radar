@@ -26,17 +26,17 @@
 | 💻 **Languages** | Go 99% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `workflows` `workflow-engine` `workflow-automation` `workflow-management` `workflow-management-system` `distributed-systems` `golang` `service-bus` `service-fabric` `microservices-architecture` `microservice-framework` `microservice-orchestration` `cronjob-scheduler` `distributed-cron` `orchestrator` `durable-execution` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2019-10-16 |
 | 📦 **Latest release** | [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2) — 2026-11-02 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 174.9 MB |
+| 💾 **Size** | 175.4 MB |
 | 🌐 **Website** | https://docs.temporal.io |
 
 ## 📦 Recent releases
 
 ### [v1.32.2](https://github.com/temporalio/temporal/releases/tag/v1.32.2)
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.32 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12831
@@ -47,7 +47,7 @@
 > …
 
 ### [v1.31.5](https://github.com/temporalio/temporal/releases/tag/v1.31.5)
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.31 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12829
@@ -57,7 +57,7 @@
 > **Full Changelog**: https://github.com/temporalio/temporal/compare/v1.31.4...v1.31.5
 
 ### [v1.30.9](https://github.com/temporalio/temporal/releases/tag/v1.30.9)
-<sub>2026-11-02 · 23d ago</sub>
+<sub>2026-11-02 · 24d ago</sub>
 
 > **What's Changed**
 > * Fix security vulnerabilities for 1.30 minor release by @yycptt in https://github.com/temporalio/temporal/pull/12828
@@ -89,6 +89,8 @@
 
 | Date | Change | By |
 |---|---|---|
+| 2026-11-26 | [Bump go.temporal.io/testx to 9824fe457](https://github.com/temporalio/temporal/commit/c2ec24c01c519234de9dd01881b968c1b14473f2) | temporal-data |
+| 2026-11-26 | [Wire a no-op parallelsuitelint into CI (#13103)](https://github.com/temporalio/temporal/commit/9824fe457ba14a9a61303ec49b96594b12df835d) | stephanos |
 | 2026-11-25 | [Add SoftDeleteNamespace API (#13141)](https://github.com/temporalio/temporal/commit/67959df645b30dcc4b5c40066a451c5f5c5e11b0) | awln-temporal |
 | 2026-11-25 | [Improve shard ownership checks (#13314)](https://github.com/temporalio/temporal/commit/0faacd54e08a4ac01712c21b789311574f47d41c) | prathyushpv |
 | 2026-11-25 | [Re-check running workflows before a deferred V1->V2 migration retries…](https://github.com/temporalio/temporal/commit/7bbbda78378688c0df281cca31c089048d61429f) | davidporter-id-au |
@@ -97,8 +99,6 @@
 | 2026-11-25 | [add oss foundations as owner to batcher owner (#13309)](https://github.com/temporalio/temporal/commit/0d1be53aa6efe6031b4a23e1721cdf1dbfbe441a) | feiyang3cat |
 | 2026-11-25 | [Bump go.temporal.io/testx to 97a8265de](https://github.com/temporalio/temporal/commit/47f56b0fff7b3d0ef9162cd7bae410bcdcfc2bc2) | temporal-data |
 | 2026-11-25 | [Remove assertion helpers from TestEnv (#13175)](https://github.com/temporalio/temporal/commit/97a8265dee7d2cf5f4a43484a208f32379f0127e) | stephanos |
-| 2026-11-25 | [Add sharded force replication workflow (#10528)](https://github.com/temporalio/temporal/commit/79bc7d8f67055f7ff15770abe9e26290e6701e3d) | robholland |
-| 2026-11-24 | [Flow control (H): release activity limiters (#13193)](https://github.com/temporalio/temporal/commit/c70df1608ab79154dda9d22ab5abc2078725abb3) | dnr |
 
 [See all commits ↗](https://github.com/temporalio/temporal/commits)
 

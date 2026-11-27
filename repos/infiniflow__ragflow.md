@@ -26,11 +26,11 @@
 | 💻 **Languages** | Go 73% · TypeScript 20% · C++ 3% · Python 2% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `ai` `ai-agents` `rag` `retrieval-augmented-generation` `agentic-ai` `agentic-retrieval` `agentic-search` `context-management` `knowledge-compilation` `agent-harness` `context-engineering` `harness-engineering` `search-harness` `agent-native-database` `context-engine` `retrieval-harness` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2023-12-12 |
 | 📦 **Latest release** | [v1.0.0](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0) — 2026-11-06 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 196.9 MB |
+| 💾 **Size** | 197.2 MB |
 | 🌐 **Website** | https://ragflow.io |
 
 ## 📦 Recent releases
@@ -38,10 +38,10 @@
 ### [nightly](https://github.com/infiniflow/ragflow/releases/tag/nightly) _(pre-release)_
 <sub>2025-12-01 · 12mo ago</sub>
 
-> Release nightly created from 2c15dfcdaa7637b2503214667a9dd17dc66262f7 at 2026-11-26 13:13:48+00:00
+> Release nightly created from 70ed4c95d7eb4af7d893da7d340a4a02550a3b50 at 2026-11-27 13:11:41+00:00
 
 ### [v1.0.0](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0)
-<sub>2026-11-06 · 20d ago</sub>
+<sub>2026-11-06 · 21d ago</sub>
 
 > After three release candidates, we are pleased to announce the official release of RAGFlow 1.0, now ready for production. Built on a complete rewrite in Go, this release significantly reduces deployment and runtime overhead and introduces an all-new Agentic Chat experience. We encourage all users to upgrade for improved stability, performance, and question answering.
 > **Highlights**
@@ -52,7 +52,7 @@
 > …
 
 ### [v1.0.0-rc3](https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc3)
-<sub>2026-10-30 · 27d ago</sub>
+<sub>2026-10-30 · 28d ago</sub>
 
 > 1.0.0-rc3 is the third and final release candidate before the official v1.0.0 release. It fixes several issues found in rc2 and introduces new features and enhancements.
 > **Key updates:**
@@ -88,16 +88,16 @@
 
 | Date | Change | By |
 |---|---|---|
-| 2026-11-26 | [refactor(opensearch): require OpenSearch >= 2.19 and drop legacy fall…](https://github.com/infiniflow/ragflow/commit/625a53ad4c4ecb66abe32b4c0745564eaddeec94) | Sanderhoff-alt |
-| 2026-11-26 | [Clean doc (#22872)](https://github.com/infiniflow/ragflow/commit/614622bf8775f304dab2e6f4c5536bf5f3773030) | yingfeng |
-| 2026-11-26 | [Feat: RAGFlow desktop (#22697)](https://github.com/infiniflow/ragflow/commit/2c15dfcdaa7637b2503214667a9dd17dc66262f7) | yingfeng |
-| 2026-11-26 | [fix(parser): include DOCX header/footer content in parsed output (#22…](https://github.com/infiniflow/ragflow/commit/a9ec65d9418088af96e89ebb8271fcb3d6af3a8f) | jay77721 |
-| 2026-11-26 | [Feat: Modify the layout of the version history page within the workfl…](https://github.com/infiniflow/ragflow/commit/41447a3bddfd7d53e6161080ecebf3dde160e672) | cike8899 |
-| 2026-11-26 | [Hoist function-local regexp compilation to package-level vars (#22851)](https://github.com/infiniflow/ragflow/commit/4f78a072c55a58c0029b29dc0eef6257d2d5b033) | xugangqiang |
-| 2026-11-26 | [fix(ingestion): address the builtin template fs.FS with slash-separat…](https://github.com/infiniflow/ragflow/commit/42673f68c96f34e5eb2ca456eb0fe3d92941b4f1) | DZH166 |
-| 2026-11-26 | [fix(ee-sync): list chunks by chunk id prefix, page the dataset versio…](https://github.com/infiniflow/ragflow/commit/1c66920c2fbd22c31d5b99d0909b3a6199c3ad9c) | qinling0210 |
-| 2026-11-26 | [Fiix: Modify the layout of the chat channel and MCP pages. (#22856)](https://github.com/infiniflow/ragflow/commit/7dcef5ae0e12dab86ab6968ac72d27719f39c494) | cike8899 |
-| 2026-11-26 | [fix(web): keep API documentation controls responsive (#22850)](https://github.com/infiniflow/ragflow/commit/4028bbb6b38f7ad30d8adbfaef88d9c9d42c5ebb) | QAQadws |
+| 2026-11-27 | [refactor login command (#22927)](https://github.com/infiniflow/ragflow/commit/70ed4c95d7eb4af7d893da7d340a4a02550a3b50) | JinHai-CN |
+| 2026-11-27 | [remove local file parse command (#22925)](https://github.com/infiniflow/ragflow/commit/b1b1c5bd7fd7d773672fb7a9e863b6d79b68c42e) | JinHai-CN |
+| 2026-11-27 | [fix(title-chunker): reject zero chunk token cap (#22915)](https://github.com/infiniflow/ragflow/commit/b757eaa767c2b6dcb1b45dccccbaeb0aa3bd95f3) | jay77721 |
+| 2026-11-27 | [fix: enforce permissions for compilation resources (#22922)](https://github.com/infiniflow/ragflow/commit/0976cf30e495f819826234a24525796e7619411a) | buua436 |
+| 2026-11-27 | [Feat: Adjust the layout of the document pages (#22916)](https://github.com/infiniflow/ragflow/commit/7f89bafec4e49fbcc8c3536a9a83ba821e4d13c7) | cike8899 |
+| 2026-11-27 | [Fix: failover and cascade for rerank model (#22918)](https://github.com/infiniflow/ragflow/commit/b0398e80287d24b30dcc258d820f1bc3b8409fdb) | Lynn-Inf |
+| 2026-11-27 | [fix(dao): preserve stored MySQL datetime precision during auto-migrat…](https://github.com/infiniflow/ragflow/commit/9426df95cf6b82ef5494b9c5e8cf036ab7efdebf) | QAQadws |
+| 2026-11-27 | [sensitive word filtering - stub (#22901)](https://github.com/infiniflow/ragflow/commit/cb130032b3544b0fb00129fc95999674bd708ca9) | wangq8 |
+| 2026-11-27 | [fix(ingestion): keep every operator in dataflow debug logs (#22904)](https://github.com/infiniflow/ragflow/commit/a56c359eb78484fb5dd3fb8cf5de0015dad15b3a) | jay77721 |
+| 2026-11-27 | [Feat: The creation time and file size are displayed in the bottom-lef…](https://github.com/infiniflow/ragflow/commit/cb3c5efdf0f4cf0a976bc510170dae249526813e) | cike8899 |
 
 [See all commits ↗](https://github.com/infiniflow/ragflow/commits)
 

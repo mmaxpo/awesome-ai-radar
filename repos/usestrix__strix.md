@@ -20,23 +20,23 @@
 
 | | |
 |---|---|
-| ⭐ **Stars** | 77.7k |
+| ⭐ **Stars** | 77.9k |
 | 🍴 **Forks** | 8.9k |
-| 🐞 **Open issues + PRs** | [650](https://github.com/usestrix/strix/issues) |
+| 🐞 **Open issues + PRs** | [655](https://github.com/usestrix/strix/issues) |
 | 💻 **Languages** | Python 79% · Go 11% · TypeScript 8% · Jinja 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `agents` `artificial-intelligence` `cybersecurity` `penetration-testing` `ai-penetration-testing` `ai-pentesting` `ai-security` `bug-bounty` `ctf-tools` `cybersecurity-tools` `ethical-hacking` `llm-security` `offensive-security` `pentesting-tools` `red-teaming` `security-automation` `security` `code-quality` `ai-hacking` `hacking` |
-| 🕒 **Last activity** | 2026-11-25 (today) |
+| 🕒 **Last activity** | 2026-11-26 (today) |
 | 📅 **Created** | 2025-08-05 |
 | 📦 **Latest release** | [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1) — 2026-11-10 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 18.2 MB |
+| 💾 **Size** | 18.0 MB |
 | 🌐 **Website** | https://strix.ai |
 
 ## 📦 Recent releases
 
 ### [v1.7.1](https://github.com/usestrix/strix/releases/tag/v1.7.1)
-<sub>2026-11-10 · 15d ago</sub>
+<sub>2026-11-10 · 16d ago</sub>
 
 > **What's Changed**
 > * Stop the run after finish_pr_review by @ian-at-strix in https://github.com/usestrix/strix/pull/1451

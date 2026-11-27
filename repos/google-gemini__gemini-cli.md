@@ -22,28 +22,28 @@
 |---|---|
 | ⭐ **Stars** | 109.2k |
 | 🍴 **Forks** | 15.0k |
-| 🐞 **Open issues + PRs** | [749](https://github.com/google-gemini/gemini-cli/issues) |
+| 🐞 **Open issues + PRs** | [754](https://github.com/google-gemini/gemini-cli/issues) |
 | 💻 **Languages** | TypeScript 97% · JavaScript 1% |
 | 📜 **License** | Apache-2.0 |
 | 🏷 **Topics** | `gemini` `gemini-api` `ai` `ai-agents` `cli` `mcp-client` `mcp-server` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-27 (today) |
 | 📅 **Created** | 2025-04-17 |
 | 📦 **Latest release** | [v0.71.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1) — 2026-11-24 |
 | 🌿 **Default branch** | `main` |
-| 💾 **Size** | 103.4 MB |
+| 💾 **Size** | 103.5 MB |
 | 🌐 **Website** | https://geminicli.com |
 
 ## 📦 Recent releases
 
 ### [v0.71.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1) — Release v0.71.1
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **What's Changed**
 > * fix(patch): cherry-pick aafdfdf to release/v0.71.0-pr-30420 to patch version v0.71.0 and create version 0.71.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30429
 > **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0...v0.71.1
 
 ### [v0.71.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0) — Release v0.71.0
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **What's Changed**
 > * Changelog for v0.70.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30361
@@ -54,14 +54,14 @@
 > …
 
 ### [v0.71.0-nightly.20261124.gaafdfdfb5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261124.gaafdfdfb5) — Release v0.71.0-nightly.20261124.gaafdfdfb5 _(pre-release)_
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **What's Changed**
 > * fix(a2a-server): enforce bearer token authentication and request input validation by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30420
 > **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261123.geecccfcd5...v0.71.0-nightly.20261124.gaafdfdfb5
 
 ### [v0.72.0-preview.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.72.0-preview.0) — Release v0.72.0-preview.0 _(pre-release)_
-<sub>2026-11-24 · 2d ago</sub>
+<sub>2026-11-24 · 3d ago</sub>
 
 > **What's Changed**
 > * Changelog for v0.70.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30380
@@ -72,7 +72,7 @@
 > …
 
 ### [v0.71.0-nightly.20261123.geecccfcd5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261123.geecccfcd5) — Release v0.71.0-nightly.20261123.geecccfcd5 _(pre-release)_
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261122.geecccfcd5...v0.71.0-nightly.20261123.geecccfcd5
 

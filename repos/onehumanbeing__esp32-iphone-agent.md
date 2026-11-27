@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 5.4k |
-| 🍴 **Forks** | 750 |
-| 🐞 **Open issues + PRs** | [18](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
+| 🍴 **Forks** | 756 |
+| 🐞 **Open issues + PRs** | [17](https://github.com/onehumanbeing/esp32-iphone-agent/issues) |
 | 💻 **Languages** | Swift 68% · C 16% · Go 6% · C++ 5% · Python 3% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `ai-agent` `airplay` `computer-use` `esp32` `esp32-s3` `iphone` `llm` `usb-hid` `claude-code` `ios` `ios-automation` `mcp` `mcp-server` `mobile-agent` `phone-agent` `screen-mirroring` `xiao-esp32s3` `manina-ai` `seeed-xiao` `iphone-automation` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2026-10-11 |
 | 📦 **Latest release** | [v1.0.11.1](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.11.1) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
@@ -36,7 +36,7 @@
 ## 📦 Recent releases
 
 ### [v1.0.11.1](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.11.1) — Handsy 1.0.11.1 (TestFlight)
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **Built and tested with an automated harness: the changes below were found, fixed and checked on a real iPhone by the harness itself.**
 > - Long press: the agent can press and hold (`tap X Y hold`), for a chat message's menu (Forward, Copy), an icon's quick actions or selecting a word.
@@ -46,7 +46,7 @@
 > - Harness (`harness/`): files to and from the app over pymobiledevice3 (about 1.5 s instead of 40 s), `tapcv.py` taps and restarts Screen Mirroring with no one at the phone, `collect.py` walks an app's screens and records screen, text and action, `timing.py` shows where a run's time went.
 
 ### [v1.0.11](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.11) — Manina AI 1.0.11 (TestFlight)
-<sub>2026-11-25 · today</sub>
+<sub>2026-11-25 · yesterday</sub>
 
 > - App: Settings › Model › Sign in with ChatGPT: runs use your own ChatGPT Plus or Pro plan (the same usage limits Codex uses), with no API key.
 > - App: the Settings note on Look ahead says it is on by default (it has been since 2026-11-25).
@@ -57,7 +57,7 @@
 > …
 
 ### [v1.0.10.1](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.10.1) — Manina AI 1.0.10.1 (TestFlight)
-<sub>2026-11-23 · 3d ago</sub>
+<sub>2026-11-23 · 4d ago</sub>
 
 > - Chinese input is much faster: pinyin goes in one go and is read back once; a right text is no longer deleted and typed again (a long text that shows only its end, the same message already in the chat, an OCR slip). Only English letters or the keyboard's other candidate (西安 for 西岸) are typed again.
 > - Agent: a `type` that repeats part of the text just typed is not typed again; `tap 发送` without quotes is understood (no second model call).
@@ -67,7 +67,7 @@
 > - Hermes Agent plugin (`integrations/hermes`, a portable Agent Plugins v1 package): the esp32agent MCP server (esp32agent 0.1.5) plus the manina skill. `hermes plugins install onehumanbeing/esp32-iphone-agent/integrations/hermes --enable`.
 
 ### [v1.0.10](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.10) — Manina AI 1.0.10 (TestFlight)
-<sub>2026-11-22 · 4d ago</sub>
+<sub>2026-11-22 · 5d ago</sub>
 
 > - Agent: `collect WHAT max N` that stops on its count saves the result (README) and says where, as a list read to its end does.
 > - Agent: when the progress count is reached and the result written but the run goes on with another gesture, the planner looks once.
@@ -75,7 +75,7 @@
 > - Runs: a run that a guard gave up on ("stuck:") ends as `stall`, not `model_fail`; run_end also says which link the mouse and keyboard used (`transport`: usb / ble) and the longest run of gestures that changed nothing (`unchanged_max`).
 
 ### [v1.0.9](https://github.com/onehumanbeing/esp32-iphone-agent/releases/tag/v1.0.9) — Manina AI 1.0.9 (TestFlight)
-<sub>2026-11-21 · 4d ago</sub>
+<sub>2026-11-21 · 5d ago</sub>
 
 > - iOS 16.4 minimum: iPhone 8 and iPhone X can run the app. On iPhones before iOS 17 the agent leaves an app through the AssistiveTouch menu (its button found on the screen) instead of the Home bar.
 > - Experimental M5Stack StopWatch board (Bluetooth): it shows the run (character, steps, time, the step's text), the yellow key pauses and resumes, two quick presses stop, help and confirms buzz until answered, a done task's answer shows on the screen, quick intents (the newest 5) start from the watch, hold yellow to talk. Updates from its own firmware channel; the app sends it the phone's time and what needs fixing (mirroring lost, iPhone locked).

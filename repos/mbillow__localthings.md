@@ -21,12 +21,12 @@
 | | |
 |---|---|
 | ⭐ **Stars** | 1.4k |
-| 🍴 **Forks** | 154 |
-| 🐞 **Open issues + PRs** | [105](https://github.com/mbillow/localthings/issues) |
+| 🍴 **Forks** | 159 |
+| 🐞 **Open issues + PRs** | [117](https://github.com/mbillow/localthings/issues) |
 | 💻 **Languages** | Python 100% |
 | 📜 **License** | MIT |
 | 🏷 **Topics** | `custom-component` `hacs` `hacs-integration` `home-assistant` `home-automation` `samsung` `smartthings` `coap-protocol` `coap-server` `dtls` |
-| 🕒 **Last activity** | 2026-11-26 (today) |
+| 🕒 **Last activity** | 2026-11-26 (yesterday) |
 | 📅 **Created** | 2026-06-30 |
 | 📦 **Latest release** | [v0.40.0](https://github.com/mbillow/localthings/releases/tag/v0.40.0) — 2026-11-26 |
 | 🌿 **Default branch** | `main` |
@@ -35,7 +35,7 @@
 ## 📦 Recent releases
 
 ### [v0.40.0](https://github.com/mbillow/localthings/releases/tag/v0.40.0)
-<sub>2026-11-26 · today</sub>
+<sub>2026-11-26 · yesterday</sub>
 
 > **🚀 Highlights**
 > - **Powered-off appliances stay off after a restart.** A washer that drops off Wi-Fi once it turns itself off now shows off, not unavailable. Thanks to @vshijiav! (#845)
@@ -46,7 +46,7 @@
 > …
 
 ### [v0.39.0](https://github.com/mbillow/localthings/releases/tag/v0.39.0)
-<sub>2026-11-15 · 10d ago</sub>
+<sub>2026-11-15 · 11d ago</sub>
 
 > **🚀 Highlights**
 > - **Samsung TVs.** Media player (power, volume, input, sound mode, channel and now-showing), picture mode, Wake-on-LAN, remote, notifications, apps and casting. Not yet run on hardware as merged. Thanks to @benjaml4 and @vmonkey! (#755, #856, part of #388)
@@ -57,7 +57,7 @@
 > …
 
 ### [v0.38.0](https://github.com/mbillow/localthings/releases/tag/v0.38.0)
-<sub>2026-11-11 · 15d ago</sub>
+<sub>2026-11-11 · 16d ago</sub>
 
 > **⭐️🌟⭐️ One Thousand Stars ⭐️🌟⭐️**
 > **LocalThings now has over 1,000 stars on GitHub!**
@@ -68,7 +68,7 @@
 > …
 
 ### [v0.37.0](https://github.com/mbillow/localthings/releases/tag/v0.37.0)
-<sub>2026-11-08 · 18d ago</sub>
+<sub>2026-11-08 · 19d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbar media player.** Power, volume, mute, source, sound mode, playback, seek, shuffle and track info. Confirmed on the HW-Q950T. Thanks to @vmonkey and @benjaml4! (#775, part of #388)
@@ -79,7 +79,7 @@
 > …
 
 ### [v0.36.0](https://github.com/mbillow/localthings/releases/tag/v0.36.0)
-<sub>2026-11-02 · 24d ago</sub>
+<sub>2026-11-02 · 25d ago</sub>
 
 > **🚀 Highlights**
 > - **Soundbars.** Boards without `/device/0` now set up, starting with the HW-S61B (sensors, selects, switches, numbers, buttons). Media player and TV come later. Thanks to @vmonkey! (#606, part of #388)
